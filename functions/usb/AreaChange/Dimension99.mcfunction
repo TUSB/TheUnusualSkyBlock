@@ -1,1 +1,0 @@
-scoreboard players set @s Dimension 99
