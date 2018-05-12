@@ -1,0 +1,1 @@
+﻿{    "pools": [        {            "rolls": {                "min": 1,                "max": 3            },            "entries": [                {                    "type": "loot_table",                    "name": "usb:signs/exp",                    "weight": 1                }            ]        }    ]}

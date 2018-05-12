@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:grass",
+            "data": 0
+        },
+        "title": "通常世界",
+        "description": "The Skylands",
+        "background": "minecraft:textures/blocks/concrete_light_blue.png"
+    },
+    "criteria": {
+        "command": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:stone",
+            "data": 5
+        },
+        "title": "地下世界",
+        "description": "Underground",
+        "background": "minecraft:textures/blocks/concrete_gray.png"
+    },
+    "criteria": {
+        "command": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

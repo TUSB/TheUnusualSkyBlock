@@ -1,0 +1,541 @@
+﻿{
+    "pools": [
+        {
+            "rolls": 5,
+            "bonus_rolls": {
+                "min": 2,
+                "max": 5
+            },
+            "entries": [
+                {
+                "type": "item",
+                "name": "minecraft:bread",
+                    "weight": 10000
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 10000,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:0b,Duration:1,Id:6b,Amplifier:0b},{ShowParticles:1b,Duration:0,Id:12b,Amplifier:0b}],HideFlags:32,display:{Lore:[\"§6心が温まるスープ。\",\"§6飲むとHPが回復する。\"],Name:\"§e§lコーンスープ\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 10000,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:26b,Amplifier:0b},{ShowParticles:0b,Duration:3,Id:14b,Amplifier:1b}],HideFlags:32,display:{Lore:[\"§aマナがちょぴっと詰まった飲み物。\",\"§a飲むとMPが回復する。\",\"\",\"§7スプラッシュ化不可\"],Name:\"§2§lエーテル\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 10000,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:5b,Amplifier:0b},{ShowParticles:0b,Duration:3,Id:14b,Amplifier:4b}],HideFlags:32,display:{Lore:[\"§dマナから作られた霊薬。\",\"§d飲むとHPとMPが半分回復する。\",\"\",\"§7スプラッシュ化不可\"],Name:\"§5§lエリクサー\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:spawn_egg",
+                    "weight": 10000,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{ench:[],HideFlags:16,display:{Lore:[\"§e取り扱い注意\"],Name:\"§e§lチンした卵\"},EntityTag:{Fuse:0s,id:\"Creeper\",ActiveEffects:[{ShowParticles:0b,Duration:100,Id:14b,Amplifier:0b}],Tags:[\"TypeChecked\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 10000,
+                    "function": "minecraft:set_damage",
+                    "damage": {
+                        "min": 0.1,
+                        "max": 1.0
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_sword",
+                    "weight": 10000,
+                    "damage": {
+                        "min": 0.1,
+                        "max": 1.0
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:arrow",
+                    "weight": 10000,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 10000,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,ench:[],EntityTag:{NoGravity:1b,DisabledSlots:2039326,Attributes:[{Name:\"generic.maxHealth\",Base:1d}],Pose:{Head:[45f,180f,35f],RightArm:[80f,-40f,-110f]},NoBasePlate:1b,Health:1f,HandItems:[{id:\"snowball\",Damage:0s,Count:64b,tag:{AttributeModifiers:[{Name:\"plus\",UUIDLeast:1l,Amount:1E-08d,Operation:1,UUIDMost:7l,AttributeName:\"generic.maxHealth\"}],HideFlags:2}},{}],ActiveEffects:[{Amplifier:127b,Duration:2147483647,Id:6b,ShowParticles:0b}],ShowArms:0b,Invisible:1b,ArmorItems:[{id:\"stone\",Count:0b,tag:{AttributeModifiers:[{Name:\"minus\",UUIDLeast:1l,Amount:-1,Operation:1,UUIDMost:6l,AttributeName:\"generic.maxHealth\"}]}},{},{},{id:\"ice\",Damage:0s,Count:0b}],Invulnerable:1b,DeathTime:-20s,Marker:0b,Small:1b},HideFlags:16,display:{Lore:[\"§3§o雪球が64こ1sで圧縮されたもの。\"],Name:\"§f§l雪球.zip\"},CanPlaceOn:[\"minecraft:stone\",\"minecraft:grass\",\"minecraft:dirt\",\"minecraft:cobblestone\",\"minecraft:planks\",\"minecraft:sapling\",\"minecraft:bedrock\",\"minecraft:flowing_water\",\"minecraft:water\",\"minecraft:flowing_lava\",\"minecraft:lava\",\"minecraft:sand\",\"minecraft:gravel\",\"minecraft:gold_ore\",\"minecraft:iron_ore\",\"minecraft:coal_ore\",\"minecraft:log\",\"minecraft:leaves\",\"minecraft:sponge\",\"minecraft:glass\",\"minecraft:lapis_ore\",\"minecraft:lapis_block\",\"minecraft:dispenser\",\"minecraft:sandstone\",\"minecraft:noteblock\",\"minecraft:bed\",\"minecraft:golden_rail\",\"minecraft:detector_rail\",\"minecraft:sticky_piston\",\"minecraft:web\",\"minecraft:tallgrass\",\"minecraft:deadbush\",\"minecraft:piston\",\"minecraft:piston_head\",\"minecraft:wool\",\"minecraft:piston_extension\",\"minecraft:yellow_flower\",\"minecraft:red_flower\",\"minecraft:brown_mushroom\",\"minecraft:red_mushroom\",\"minecraft:gold_block\",\"minecraft:iron_block\",\"minecraft:double_stone_slab\",\"minecraft:stone_slab\",\"minecraft:brick_block\",\"minecraft:tnt\",\"minecraft:bookshelf\",\"minecraft:mossy_cobblestone\",\"minecraft:obsidian\",\"minecraft:torch\",\"minecraft:fire\",\"minecraft:oak_stairs\",\"minecraft:chest\",\"minecraft:redstone_wire\",\"minecraft:diamond_ore\",\"minecraft:diamond_block\",\"minecraft:crafting_table\",\"minecraft:wheat\",\"minecraft:farmland\",\"minecraft:furnace\",\"minecraft:lit_furnace\",\"minecraft:standing_sign\",\"minecraft:wooden_door\",\"minecraft:ladder\",\"minecraft:rail\",\"minecraft:stone_stairs\",\"minecraft:wall_sign\",\"minecraft:lever\",\"minecraft:stone_pressure_plate\",\"minecraft:iron_door\",\"minecraft:wooden_pressure_plate\",\"minecraft:redstone_ore\",\"minecraft:lit_redstone_ore\",\"minecraft:unlit_redstone_torch\",\"minecraft:redstone_torch\",\"minecraft:stone_button\",\"minecraft:snow_layer\",\"minecraft:ice\",\"minecraft:snow\",\"minecraft:cactus\",\"minecraft:clay\",\"minecraft:reeds\",\"minecraft:jukebox\",\"minecraft:fence\",\"minecraft:pumpkin\",\"minecraft:netherrack\",\"minecraft:soul_sand\",\"minecraft:glowstone\",\"minecraft:portal\",\"minecraft:lit_pumpkin\",\"minecraft:cake\",\"minecraft:unpowered_repeater\",\"minecraft:powered_repeater\",\"minecraft:stained_glass\",\"minecraft:trapdoor\",\"minecraft:monster_egg\",\"minecraft:stonebrick\",\"minecraft:brown_mushroom_block\",\"minecraft:red_mushroom_block\",\"minecraft:iron_bars\",\"minecraft:glass_pane\",\"minecraft:melon_block\",\"minecraft:pumpkin_stem\",\"minecraft:melon_stem\",\"minecraft:vine\",\"minecraft:fence_gate\",\"minecraft:brick_stairs\",\"minecraft:stone_brick_stairs\",\"minecraft:mycelium\",\"minecraft:waterlily\",\"minecraft:nether_brick\",\"minecraft:nether_brick_fence\",\"minecraft:nether_brick_stairs\",\"minecraft:nether_wart\",\"minecraft:enchanting_table\",\"minecraft:brewing_stand\",\"minecraft:cauldron\",\"minecraft:end_portal\",\"minecraft:end_portal_frame\",\"minecraft:end_stone\",\"minecraft:dragon_egg\",\"minecraft:redstone_lamp\",\"minecraft:lit_redstone_lamp\",\"minecraft:double_wooden_slab\",\"minecraft:wooden_slab\",\"minecraft:cocoa\",\"minecraft:sandstone_stairs\",\"minecraft:emerald_ore\",\"minecraft:ender_chest\",\"minecraft:tripwire_hook\",\"minecraft:tripwire\",\"minecraft:emerald_block\",\"minecraft:spruce_stairs\",\"minecraft:birch_stairs\",\"minecraft:jungle_stairs\",\"minecraft:command_block\",\"minecraft:beacon\",\"minecraft:cobblestone_wall\",\"minecraft:flower_pot\",\"minecraft:carrots\",\"minecraft:potatoes\",\"minecraft:wooden_button\",\"minecraft:skull\",\"minecraft:anvil\",\"minecraft:trapped_chest\",\"minecraft:light_weighted_pressure_plate\",\"minecraft:heavy_weighted_pressure_plate\",\"minecraft:unpowered_comparator\",\"minecraft:powered_comparator\",\"minecraft:daylight_detector\",\"minecraft:redstone_block\",\"minecraft:quartz_ore\",\"minecraft:hopper\",\"minecraft:quartz_block\",\"minecraft:quartz_stairs\",\"minecraft:activator_rail\",\"minecraft:dropper\",\"minecraft:stained_hardened_clay\",\"minecraft:stained_glass_pane\",\"minecraft:leaves2\",\"minecraft:log2\",\"minecraft:acacia_stairs\",\"minecraft:dark_oak_stairs\",\"minecraft:slime\",\"minecraft:barrier\",\"minecraft:iron_trapdoor\",\"minecraft:prismarine\",\"minecraft:sea_lantern\",\"minecraft:hay_block\",\"minecraft:carpet\",\"minecraft:hardened_clay\",\"minecraft:coal_block\",\"minecraft:packed_ice\",\"minecraft:double_plant\",\"minecraft:standing_banner\",\"minecraft:wall_banner\",\"minecraft:daylight_detector_inverted\",\"minecraft:red_sandstone\",\"minecraft:red_sandstone_stairs\",\"minecraft:double_stone_slab2\",\"minecraft:stone_slab2\",\"minecraft:spruce_fence_gate\",\"minecraft:birch_fence_gate\",\"minecraft:jungle_fence_gate\",\"minecraft:dark_oak_fence_gate\",\"minecraft:acacia_fence_gate\",\"minecraft:spruce_fence\",\"minecraft:birch_fence\",\"minecraft:jungle_fence\",\"minecraft:dark_oak_fence\",\"minecraft:acacia_fence\",\"minecraft:spruce_door\",\"minecraft:birch_door\",\"minecraft:jungle_door\",\"minecraft:acacia_door\",\"minecraft:dark_oak_door\",\"minecraft:end_rod\",\"minecraft:chorus_plant\",\"minecraft:chorus_flower\",\"minecraft:purpur_block\",\"minecraft:purpur_pillar\",\"minecraft:purpur_stairs\",\"minecraft:purpur_double_slab\",\"minecraft:purpur_slab\",\"minecraft:end_bricks\",\"minecraft:grass_path\",\"minecraft:end_gateway\",\"minecraft:structure_block\"]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lead",
+                    "weight": 10000
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_pickaxe",
+                    "weight": 10000,
+                    "damage": {
+                        "min": 0.2,
+                        "max": 1.0
+                    }
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:compass",
+                    "weight": 10000
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:clock",
+                    "weight": 10000
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lingering_potion",
+                    "weight": 10000,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§f解毒薬\",Lore:[\"§3毒を以て毒を制すというコンセプトで\",\"§3作られたポーション。\"]},HideFlags:32,CustomPotionEffects:[{Amplifier:127b,Duration:0,Id:1b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:2b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:3b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:4b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:5b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:8b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:9b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:10b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:11b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:12b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:13b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:15b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:16b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:17b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:18b,ShowParticles:1b},{Amplifier:127b,Duration:0,Id:19b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:20b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:22b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:24b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:25b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:26b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:27b,ShowParticles:0b}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:apple",
+                    "weight": 10000
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bread",
+                    "weight": 10000
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:emerald",
+                    "weight": 10000,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 12
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lingering_potion",
+                    "weight": 10000,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"minecraft:strong_healing\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather",
+                    "weight": 10000
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 10000,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§5§lエリクサー\",Lore:[\"§dマナから作られた霊薬。\",\"§d飲むとHPとMPが半分回復する。\",\"\",\"§7スプラッシュ化不可\"]},HideFlags:32,CustomPotionEffects:[{Amplifier:0b,Duration:0,Id:5b,ShowParticles:1b},{Amplifier:4b,Duration:3,Id:14b,ShowParticles:0b}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 10000,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"minecraft:long_night_vision\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 10000,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Amplifier:-128b,Duration:0,Id:25b,ShowParticles:1b},{Amplifier:124b,Duration:0,Id:26b,ShowParticles:1b},{Amplifier:0b,Duration:2147483647,Id:24b,ShowParticles:0b},{Amplifier:0b,Duration:60,Id:16b,ShowParticles:0b}],HideFlags:32,display:{Lore:[\"§f服用すると§e§l§oメッサヒカル\"],Name:\"§e§lメッサヒカル\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 10000,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Potion:\"minecraft:long_regeneration\"}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:spawn_egg",
+                    "weight": 10000,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,ench:[],EntityTag:{id:\"Witch\",ActiveEffects:[{Amplifier:5b,Duration:100,Id:7b,ShowParticles:0b},{Amplifier:0b,Duration:100,Id:14b,ShowParticles:0b}],Tags:[\"RewardEgg\",\"TypeChecked\"],DeathLootTable:\"usb:signs/ether1\",DeathTime:19s},HideFlags:16,display:{Lore:[\"§rエーテルが入っている。\"],Name:\"§2§lエーテルカプセル\"},CanPlaceOn:[\"minecraft:stone\",\"minecraft:grass\",\"minecraft:dirt\",\"minecraft:cobblestone\",\"minecraft:planks\",\"minecraft:sapling\",\"minecraft:bedrock\",\"minecraft:flowing_water\",\"minecraft:water\",\"minecraft:flowing_lava\",\"minecraft:lava\",\"minecraft:sand\",\"minecraft:gravel\",\"minecraft:gold_ore\",\"minecraft:iron_ore\",\"minecraft:coal_ore\",\"minecraft:log\",\"minecraft:leaves\",\"minecraft:sponge\",\"minecraft:glass\",\"minecraft:lapis_ore\",\"minecraft:lapis_block\",\"minecraft:dispenser\",\"minecraft:sandstone\",\"minecraft:noteblock\",\"minecraft:bed\",\"minecraft:golden_rail\",\"minecraft:detector_rail\",\"minecraft:sticky_piston\",\"minecraft:web\",\"minecraft:tallgrass\",\"minecraft:deadbush\",\"minecraft:piston\",\"minecraft:piston_head\",\"minecraft:wool\",\"minecraft:piston_extension\",\"minecraft:yellow_flower\",\"minecraft:red_flower\",\"minecraft:brown_mushroom\",\"minecraft:red_mushroom\",\"minecraft:gold_block\",\"minecraft:iron_block\",\"minecraft:double_stone_slab\",\"minecraft:stone_slab\",\"minecraft:brick_block\",\"minecraft:tnt\",\"minecraft:bookshelf\",\"minecraft:mossy_cobblestone\",\"minecraft:obsidian\",\"minecraft:torch\",\"minecraft:fire\",\"minecraft:oak_stairs\",\"minecraft:chest\",\"minecraft:redstone_wire\",\"minecraft:diamond_ore\",\"minecraft:diamond_block\",\"minecraft:crafting_table\",\"minecraft:wheat\",\"minecraft:farmland\",\"minecraft:furnace\",\"minecraft:lit_furnace\",\"minecraft:standing_sign\",\"minecraft:wooden_door\",\"minecraft:ladder\",\"minecraft:rail\",\"minecraft:stone_stairs\",\"minecraft:wall_sign\",\"minecraft:lever\",\"minecraft:stone_pressure_plate\",\"minecraft:iron_door\",\"minecraft:wooden_pressure_plate\",\"minecraft:redstone_ore\",\"minecraft:lit_redstone_ore\",\"minecraft:unlit_redstone_torch\",\"minecraft:redstone_torch\",\"minecraft:stone_button\",\"minecraft:snow_layer\",\"minecraft:ice\",\"minecraft:snow\",\"minecraft:cactus\",\"minecraft:clay\",\"minecraft:reeds\",\"minecraft:jukebox\",\"minecraft:fence\",\"minecraft:pumpkin\",\"minecraft:netherrack\",\"minecraft:soul_sand\",\"minecraft:glowstone\",\"minecraft:portal\",\"minecraft:lit_pumpkin\",\"minecraft:cake\",\"minecraft:unpowered_repeater\",\"minecraft:powered_repeater\",\"minecraft:stained_glass\",\"minecraft:trapdoor\",\"minecraft:monster_egg\",\"minecraft:stonebrick\",\"minecraft:brown_mushroom_block\",\"minecraft:red_mushroom_block\",\"minecraft:iron_bars\",\"minecraft:glass_pane\",\"minecraft:melon_block\",\"minecraft:pumpkin_stem\",\"minecraft:melon_stem\",\"minecraft:vine\",\"minecraft:fence_gate\",\"minecraft:brick_stairs\",\"minecraft:stone_brick_stairs\",\"minecraft:mycelium\",\"minecraft:waterlily\",\"minecraft:nether_brick\",\"minecraft:nether_brick_fence\",\"minecraft:nether_brick_stairs\",\"minecraft:nether_wart\",\"minecraft:enchanting_table\",\"minecraft:brewing_stand\",\"minecraft:cauldron\",\"minecraft:end_portal\",\"minecraft:end_portal_frame\",\"minecraft:end_stone\",\"minecraft:dragon_egg\",\"minecraft:redstone_lamp\",\"minecraft:lit_redstone_lamp\",\"minecraft:double_wooden_slab\",\"minecraft:wooden_slab\",\"minecraft:cocoa\",\"minecraft:sandstone_stairs\",\"minecraft:emerald_ore\",\"minecraft:ender_chest\",\"minecraft:tripwire_hook\",\"minecraft:tripwire\",\"minecraft:emerald_block\",\"minecraft:spruce_stairs\",\"minecraft:birch_stairs\",\"minecraft:jungle_stairs\",\"minecraft:command_block\",\"minecraft:beacon\",\"minecraft:cobblestone_wall\",\"minecraft:flower_pot\",\"minecraft:carrots\",\"minecraft:potatoes\",\"minecraft:wooden_button\",\"minecraft:skull\",\"minecraft:anvil\",\"minecraft:trapped_chest\",\"minecraft:light_weighted_pressure_plate\",\"minecraft:heavy_weighted_pressure_plate\",\"minecraft:unpowered_comparator\",\"minecraft:powered_comparator\",\"minecraft:daylight_detector\",\"minecraft:redstone_block\",\"minecraft:quartz_ore\",\"minecraft:hopper\",\"minecraft:quartz_block\",\"minecraft:quartz_stairs\",\"minecraft:activator_rail\",\"minecraft:dropper\",\"minecraft:stained_hardened_clay\",\"minecraft:stained_glass_pane\",\"minecraft:leaves2\",\"minecraft:log2\",\"minecraft:acacia_stairs\",\"minecraft:dark_oak_stairs\",\"minecraft:slime\",\"minecraft:barrier\",\"minecraft:iron_trapdoor\",\"minecraft:prismarine\",\"minecraft:sea_lantern\",\"minecraft:hay_block\",\"minecraft:carpet\",\"minecraft:hardened_clay\",\"minecraft:coal_block\",\"minecraft:packed_ice\",\"minecraft:double_plant\",\"minecraft:standing_banner\",\"minecraft:wall_banner\",\"minecraft:daylight_detector_inverted\",\"minecraft:red_sandstone\",\"minecraft:red_sandstone_stairs\",\"minecraft:double_stone_slab2\",\"minecraft:stone_slab2\",\"minecraft:spruce_fence_gate\",\"minecraft:birch_fence_gate\",\"minecraft:jungle_fence_gate\",\"minecraft:dark_oak_fence_gate\",\"minecraft:acacia_fence_gate\",\"minecraft:spruce_fence\",\"minecraft:birch_fence\",\"minecraft:jungle_fence\",\"minecraft:dark_oak_fence\",\"minecraft:acacia_fence\",\"minecraft:spruce_door\",\"minecraft:birch_door\",\"minecraft:jungle_door\",\"minecraft:acacia_door\",\"minecraft:dark_oak_door\",\"minecraft:end_rod\",\"minecraft:chorus_plant\",\"minecraft:chorus_flower\",\"minecraft:purpur_block\",\"minecraft:purpur_pillar\",\"minecraft:purpur_stairs\",\"minecraft:purpur_double_slab\",\"minecraft:purpur_slab\",\"minecraft:end_bricks\",\"minecraft:grass_path\",\"minecraft:end_gateway\",\"minecraft:structure_block\"]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 10000,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{NoGravity:1b,Invisible:1b,RepairCost:1000000000,ench:[],EntityTag:{Tags:[\"SignStand\",\"TentPlacer\",\"OverOnly\",\"TypeChecked\"]},display:{Name:\"§2§l宿の印板\",Lore:[\"§a§l豪華なテント§eが出現する。\",\"§e※十分な空間がないと設置されない。\",\"§e§o※§c§oネザー§e§oや§5§oエンド§e§oでは使用出来ない。\"]},Invulnerable:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:torch",
+                    "weight": 10000,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 32
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,ench:[],HideFlags:16,display:{Lore:[\"§rアドベンチャーエリアでも設置できる。\"],Name:\"§4§lAdv.§f§l松明\"},CanPlaceOn:[\"minecraft:stone\",\"minecraft:grass\",\"minecraft:dirt\",\"minecraft:cobblestone\",\"minecraft:planks\",\"minecraft:sapling\",\"minecraft:bedrock\",\"minecraft:flowing_water\",\"minecraft:water\",\"minecraft:flowing_lava\",\"minecraft:lava\",\"minecraft:sand\",\"minecraft:gravel\",\"minecraft:gold_ore\",\"minecraft:iron_ore\",\"minecraft:coal_ore\",\"minecraft:log\",\"minecraft:leaves\",\"minecraft:sponge\",\"minecraft:glass\",\"minecraft:lapis_ore\",\"minecraft:lapis_block\",\"minecraft:dispenser\",\"minecraft:sandstone\",\"minecraft:noteblock\",\"minecraft:bed\",\"minecraft:golden_rail\",\"minecraft:detector_rail\",\"minecraft:sticky_piston\",\"minecraft:web\",\"minecraft:tallgrass\",\"minecraft:deadbush\",\"minecraft:piston\",\"minecraft:piston_head\",\"minecraft:wool\",\"minecraft:piston_extension\",\"minecraft:yellow_flower\",\"minecraft:red_flower\",\"minecraft:brown_mushroom\",\"minecraft:red_mushroom\",\"minecraft:gold_block\",\"minecraft:iron_block\",\"minecraft:double_stone_slab\",\"minecraft:stone_slab\",\"minecraft:brick_block\",\"minecraft:tnt\",\"minecraft:bookshelf\",\"minecraft:mossy_cobblestone\",\"minecraft:obsidian\",\"minecraft:torch\",\"minecraft:fire\",\"minecraft:oak_stairs\",\"minecraft:chest\",\"minecraft:redstone_wire\",\"minecraft:diamond_ore\",\"minecraft:diamond_block\",\"minecraft:crafting_table\",\"minecraft:wheat\",\"minecraft:farmland\",\"minecraft:furnace\",\"minecraft:lit_furnace\",\"minecraft:standing_sign\",\"minecraft:wooden_door\",\"minecraft:ladder\",\"minecraft:rail\",\"minecraft:stone_stairs\",\"minecraft:wall_sign\",\"minecraft:lever\",\"minecraft:stone_pressure_plate\",\"minecraft:iron_door\",\"minecraft:wooden_pressure_plate\",\"minecraft:redstone_ore\",\"minecraft:lit_redstone_ore\",\"minecraft:unlit_redstone_torch\",\"minecraft:redstone_torch\",\"minecraft:stone_button\",\"minecraft:snow_layer\",\"minecraft:ice\",\"minecraft:snow\",\"minecraft:cactus\",\"minecraft:clay\",\"minecraft:reeds\",\"minecraft:jukebox\",\"minecraft:fence\",\"minecraft:pumpkin\",\"minecraft:netherrack\",\"minecraft:soul_sand\",\"minecraft:glowstone\",\"minecraft:portal\",\"minecraft:lit_pumpkin\",\"minecraft:cake\",\"minecraft:unpowered_repeater\",\"minecraft:powered_repeater\",\"minecraft:stained_glass\",\"minecraft:trapdoor\",\"minecraft:monster_egg\",\"minecraft:stonebrick\",\"minecraft:brown_mushroom_block\",\"minecraft:red_mushroom_block\",\"minecraft:iron_bars\",\"minecraft:glass_pane\",\"minecraft:melon_block\",\"minecraft:pumpkin_stem\",\"minecraft:melon_stem\",\"minecraft:vine\",\"minecraft:fence_gate\",\"minecraft:brick_stairs\",\"minecraft:stone_brick_stairs\",\"minecraft:mycelium\",\"minecraft:waterlily\",\"minecraft:nether_brick\",\"minecraft:nether_brick_fence\",\"minecraft:nether_brick_stairs\",\"minecraft:nether_wart\",\"minecraft:enchanting_table\",\"minecraft:brewing_stand\",\"minecraft:cauldron\",\"minecraft:end_portal\",\"minecraft:end_portal_frame\",\"minecraft:end_stone\",\"minecraft:dragon_egg\",\"minecraft:redstone_lamp\",\"minecraft:lit_redstone_lamp\",\"minecraft:double_wooden_slab\",\"minecraft:wooden_slab\",\"minecraft:cocoa\",\"minecraft:sandstone_stairs\",\"minecraft:emerald_ore\",\"minecraft:ender_chest\",\"minecraft:tripwire_hook\",\"minecraft:tripwire\",\"minecraft:emerald_block\",\"minecraft:spruce_stairs\",\"minecraft:birch_stairs\",\"minecraft:jungle_stairs\",\"minecraft:command_block\",\"minecraft:beacon\",\"minecraft:cobblestone_wall\",\"minecraft:flower_pot\",\"minecraft:carrots\",\"minecraft:potatoes\",\"minecraft:wooden_button\",\"minecraft:skull\",\"minecraft:anvil\",\"minecraft:trapped_chest\",\"minecraft:light_weighted_pressure_plate\",\"minecraft:heavy_weighted_pressure_plate\",\"minecraft:unpowered_comparator\",\"minecraft:powered_comparator\",\"minecraft:daylight_detector\",\"minecraft:redstone_block\",\"minecraft:quartz_ore\",\"minecraft:hopper\",\"minecraft:quartz_block\",\"minecraft:quartz_stairs\",\"minecraft:activator_rail\",\"minecraft:dropper\",\"minecraft:stained_hardened_clay\",\"minecraft:stained_glass_pane\",\"minecraft:leaves2\",\"minecraft:log2\",\"minecraft:acacia_stairs\",\"minecraft:dark_oak_stairs\",\"minecraft:slime\",\"minecraft:barrier\",\"minecraft:iron_trapdoor\",\"minecraft:prismarine\",\"minecraft:sea_lantern\",\"minecraft:hay_block\",\"minecraft:carpet\",\"minecraft:hardened_clay\",\"minecraft:coal_block\",\"minecraft:packed_ice\",\"minecraft:double_plant\",\"minecraft:standing_banner\",\"minecraft:wall_banner\",\"minecraft:daylight_detector_inverted\",\"minecraft:red_sandstone\",\"minecraft:red_sandstone_stairs\",\"minecraft:double_stone_slab2\",\"minecraft:stone_slab2\",\"minecraft:spruce_fence_gate\",\"minecraft:birch_fence_gate\",\"minecraft:jungle_fence_gate\",\"minecraft:dark_oak_fence_gate\",\"minecraft:acacia_fence_gate\",\"minecraft:spruce_fence\",\"minecraft:birch_fence\",\"minecraft:jungle_fence\",\"minecraft:dark_oak_fence\",\"minecraft:acacia_fence\",\"minecraft:spruce_door\",\"minecraft:birch_door\",\"minecraft:jungle_door\",\"minecraft:acacia_door\",\"minecraft:dark_oak_door\",\"minecraft:end_rod\",\"minecraft:chorus_plant\",\"minecraft:chorus_flower\",\"minecraft:purpur_block\",\"minecraft:purpur_pillar\",\"minecraft:purpur_stairs\",\"minecraft:purpur_double_slab\",\"minecraft:purpur_slab\",\"minecraft:end_bricks\",\"minecraft:grass_path\",\"minecraft:end_gateway\",\"minecraft:structure_block\"]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:web",
+                    "weight": 10000,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,ench:[],HideFlags:16,display:{Lore:[\"§rアドベンチャーエリアでも設置できる。\"],Name:\"§4§lAdv.§f§l蜘蛛の巣\"},CanPlaceOn:[\"minecraft:stone\",\"minecraft:grass\",\"minecraft:dirt\",\"minecraft:cobblestone\",\"minecraft:planks\",\"minecraft:sapling\",\"minecraft:bedrock\",\"minecraft:flowing_water\",\"minecraft:water\",\"minecraft:flowing_lava\",\"minecraft:lava\",\"minecraft:sand\",\"minecraft:gravel\",\"minecraft:gold_ore\",\"minecraft:iron_ore\",\"minecraft:coal_ore\",\"minecraft:log\",\"minecraft:leaves\",\"minecraft:sponge\",\"minecraft:glass\",\"minecraft:lapis_ore\",\"minecraft:lapis_block\",\"minecraft:dispenser\",\"minecraft:sandstone\",\"minecraft:noteblock\",\"minecraft:bed\",\"minecraft:golden_rail\",\"minecraft:detector_rail\",\"minecraft:sticky_piston\",\"minecraft:web\",\"minecraft:tallgrass\",\"minecraft:deadbush\",\"minecraft:piston\",\"minecraft:piston_head\",\"minecraft:wool\",\"minecraft:piston_extension\",\"minecraft:yellow_flower\",\"minecraft:red_flower\",\"minecraft:brown_mushroom\",\"minecraft:red_mushroom\",\"minecraft:gold_block\",\"minecraft:iron_block\",\"minecraft:double_stone_slab\",\"minecraft:stone_slab\",\"minecraft:brick_block\",\"minecraft:tnt\",\"minecraft:bookshelf\",\"minecraft:mossy_cobblestone\",\"minecraft:obsidian\",\"minecraft:torch\",\"minecraft:fire\",\"minecraft:oak_stairs\",\"minecraft:chest\",\"minecraft:redstone_wire\",\"minecraft:diamond_ore\",\"minecraft:diamond_block\",\"minecraft:crafting_table\",\"minecraft:wheat\",\"minecraft:farmland\",\"minecraft:furnace\",\"minecraft:lit_furnace\",\"minecraft:standing_sign\",\"minecraft:wooden_door\",\"minecraft:ladder\",\"minecraft:rail\",\"minecraft:stone_stairs\",\"minecraft:wall_sign\",\"minecraft:lever\",\"minecraft:stone_pressure_plate\",\"minecraft:iron_door\",\"minecraft:wooden_pressure_plate\",\"minecraft:redstone_ore\",\"minecraft:lit_redstone_ore\",\"minecraft:unlit_redstone_torch\",\"minecraft:redstone_torch\",\"minecraft:stone_button\",\"minecraft:snow_layer\",\"minecraft:ice\",\"minecraft:snow\",\"minecraft:cactus\",\"minecraft:clay\",\"minecraft:reeds\",\"minecraft:jukebox\",\"minecraft:fence\",\"minecraft:pumpkin\",\"minecraft:netherrack\",\"minecraft:soul_sand\",\"minecraft:glowstone\",\"minecraft:portal\",\"minecraft:lit_pumpkin\",\"minecraft:cake\",\"minecraft:unpowered_repeater\",\"minecraft:powered_repeater\",\"minecraft:stained_glass\",\"minecraft:trapdoor\",\"minecraft:monster_egg\",\"minecraft:stonebrick\",\"minecraft:brown_mushroom_block\",\"minecraft:red_mushroom_block\",\"minecraft:iron_bars\",\"minecraft:glass_pane\",\"minecraft:melon_block\",\"minecraft:pumpkin_stem\",\"minecraft:melon_stem\",\"minecraft:vine\",\"minecraft:fence_gate\",\"minecraft:brick_stairs\",\"minecraft:stone_brick_stairs\",\"minecraft:mycelium\",\"minecraft:waterlily\",\"minecraft:nether_brick\",\"minecraft:nether_brick_fence\",\"minecraft:nether_brick_stairs\",\"minecraft:nether_wart\",\"minecraft:enchanting_table\",\"minecraft:brewing_stand\",\"minecraft:cauldron\",\"minecraft:end_portal\",\"minecraft:end_portal_frame\",\"minecraft:end_stone\",\"minecraft:dragon_egg\",\"minecraft:redstone_lamp\",\"minecraft:lit_redstone_lamp\",\"minecraft:double_wooden_slab\",\"minecraft:wooden_slab\",\"minecraft:cocoa\",\"minecraft:sandstone_stairs\",\"minecraft:emerald_ore\",\"minecraft:ender_chest\",\"minecraft:tripwire_hook\",\"minecraft:tripwire\",\"minecraft:emerald_block\",\"minecraft:spruce_stairs\",\"minecraft:birch_stairs\",\"minecraft:jungle_stairs\",\"minecraft:command_block\",\"minecraft:beacon\",\"minecraft:cobblestone_wall\",\"minecraft:flower_pot\",\"minecraft:carrots\",\"minecraft:potatoes\",\"minecraft:wooden_button\",\"minecraft:skull\",\"minecraft:anvil\",\"minecraft:trapped_chest\",\"minecraft:light_weighted_pressure_plate\",\"minecraft:heavy_weighted_pressure_plate\",\"minecraft:unpowered_comparator\",\"minecraft:powered_comparator\",\"minecraft:daylight_detector\",\"minecraft:redstone_block\",\"minecraft:quartz_ore\",\"minecraft:hopper\",\"minecraft:quartz_block\",\"minecraft:quartz_stairs\",\"minecraft:activator_rail\",\"minecraft:dropper\",\"minecraft:stained_hardened_clay\",\"minecraft:stained_glass_pane\",\"minecraft:leaves2\",\"minecraft:log2\",\"minecraft:acacia_stairs\",\"minecraft:dark_oak_stairs\",\"minecraft:slime\",\"minecraft:barrier\",\"minecraft:iron_trapdoor\",\"minecraft:prismarine\",\"minecraft:sea_lantern\",\"minecraft:hay_block\",\"minecraft:carpet\",\"minecraft:hardened_clay\",\"minecraft:coal_block\",\"minecraft:packed_ice\",\"minecraft:double_plant\",\"minecraft:standing_banner\",\"minecraft:wall_banner\",\"minecraft:daylight_detector_inverted\",\"minecraft:red_sandstone\",\"minecraft:red_sandstone_stairs\",\"minecraft:double_stone_slab2\",\"minecraft:stone_slab2\",\"minecraft:spruce_fence_gate\",\"minecraft:birch_fence_gate\",\"minecraft:jungle_fence_gate\",\"minecraft:dark_oak_fence_gate\",\"minecraft:acacia_fence_gate\",\"minecraft:spruce_fence\",\"minecraft:birch_fence\",\"minecraft:jungle_fence\",\"minecraft:dark_oak_fence\",\"minecraft:acacia_fence\",\"minecraft:spruce_door\",\"minecraft:birch_door\",\"minecraft:jungle_door\",\"minecraft:acacia_door\",\"minecraft:dark_oak_door\",\"minecraft:end_rod\",\"minecraft:chorus_plant\",\"minecraft:chorus_flower\",\"minecraft:purpur_block\",\"minecraft:purpur_pillar\",\"minecraft:purpur_stairs\",\"minecraft:purpur_double_slab\",\"minecraft:purpur_slab\",\"minecraft:end_bricks\",\"minecraft:grass_path\",\"minecraft:end_gateway\",\"minecraft:structure_block\"]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:vine",
+                    "weight": 10000,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 16
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,ench:[],CanPlaceOn:[\"minecraft:stone\",\"minecraft:grass\",\"minecraft:dirt\",\"minecraft:cobblestone\",\"minecraft:planks\",\"minecraft:sapling\",\"minecraft:bedrock\",\"minecraft:flowing_water\",\"minecraft:water\",\"minecraft:flowing_lava\",\"minecraft:lava\",\"minecraft:sand\",\"minecraft:gravel\",\"minecraft:gold_ore\",\"minecraft:iron_ore\",\"minecraft:coal_ore\",\"minecraft:log\",\"minecraft:leaves\",\"minecraft:sponge\",\"minecraft:glass\",\"minecraft:lapis_ore\",\"minecraft:lapis_block\",\"minecraft:dispenser\",\"minecraft:sandstone\",\"minecraft:noteblock\",\"minecraft:bed\",\"minecraft:golden_rail\",\"minecraft:detector_rail\",\"minecraft:sticky_piston\",\"minecraft:web\",\"minecraft:tallgrass\",\"minecraft:deadbush\",\"minecraft:piston\",\"minecraft:piston_head\",\"minecraft:wool\",\"minecraft:piston_extension\",\"minecraft:yellow_flower\",\"minecraft:red_flower\",\"minecraft:brown_mushroom\",\"minecraft:red_mushroom\",\"minecraft:gold_block\",\"minecraft:iron_block\",\"minecraft:double_stone_slab\",\"minecraft:stone_slab\",\"minecraft:brick_block\",\"minecraft:tnt\",\"minecraft:bookshelf\",\"minecraft:mossy_cobblestone\",\"minecraft:obsidian\",\"minecraft:torch\",\"minecraft:fire\",\"minecraft:oak_stairs\",\"minecraft:chest\",\"minecraft:redstone_wire\",\"minecraft:diamond_ore\",\"minecraft:diamond_block\",\"minecraft:crafting_table\",\"minecraft:wheat\",\"minecraft:farmland\",\"minecraft:furnace\",\"minecraft:lit_furnace\",\"minecraft:standing_sign\",\"minecraft:wooden_door\",\"minecraft:ladder\",\"minecraft:rail\",\"minecraft:stone_stairs\",\"minecraft:wall_sign\",\"minecraft:lever\",\"minecraft:stone_pressure_plate\",\"minecraft:iron_door\",\"minecraft:wooden_pressure_plate\",\"minecraft:redstone_ore\",\"minecraft:lit_redstone_ore\",\"minecraft:unlit_redstone_torch\",\"minecraft:redstone_torch\",\"minecraft:stone_button\",\"minecraft:snow_layer\",\"minecraft:ice\",\"minecraft:snow\",\"minecraft:cactus\",\"minecraft:clay\",\"minecraft:reeds\",\"minecraft:jukebox\",\"minecraft:fence\",\"minecraft:pumpkin\",\"minecraft:netherrack\",\"minecraft:soul_sand\",\"minecraft:glowstone\",\"minecraft:portal\",\"minecraft:lit_pumpkin\",\"minecraft:cake\",\"minecraft:unpowered_repeater\",\"minecraft:powered_repeater\",\"minecraft:stained_glass\",\"minecraft:trapdoor\",\"minecraft:monster_egg\",\"minecraft:stonebrick\",\"minecraft:brown_mushroom_block\",\"minecraft:red_mushroom_block\",\"minecraft:iron_bars\",\"minecraft:glass_pane\",\"minecraft:melon_block\",\"minecraft:pumpkin_stem\",\"minecraft:melon_stem\",\"minecraft:vine\",\"minecraft:fence_gate\",\"minecraft:brick_stairs\",\"minecraft:stone_brick_stairs\",\"minecraft:mycelium\",\"minecraft:waterlily\",\"minecraft:nether_brick\",\"minecraft:nether_brick_fence\",\"minecraft:nether_brick_stairs\",\"minecraft:nether_wart\",\"minecraft:enchanting_table\",\"minecraft:brewing_stand\",\"minecraft:cauldron\",\"minecraft:end_portal\",\"minecraft:end_portal_frame\",\"minecraft:end_stone\",\"minecraft:dragon_egg\",\"minecraft:redstone_lamp\",\"minecraft:lit_redstone_lamp\",\"minecraft:double_wooden_slab\",\"minecraft:wooden_slab\",\"minecraft:cocoa\",\"minecraft:sandstone_stairs\",\"minecraft:emerald_ore\",\"minecraft:ender_chest\",\"minecraft:tripwire_hook\",\"minecraft:tripwire\",\"minecraft:emerald_block\",\"minecraft:spruce_stairs\",\"minecraft:birch_stairs\",\"minecraft:jungle_stairs\",\"minecraft:command_block\",\"minecraft:beacon\",\"minecraft:cobblestone_wall\",\"minecraft:flower_pot\",\"minecraft:carrots\",\"minecraft:potatoes\",\"minecraft:wooden_button\",\"minecraft:skull\",\"minecraft:anvil\",\"minecraft:trapped_chest\",\"minecraft:light_weighted_pressure_plate\",\"minecraft:heavy_weighted_pressure_plate\",\"minecraft:unpowered_comparator\",\"minecraft:powered_comparator\",\"minecraft:daylight_detector\",\"minecraft:redstone_block\",\"minecraft:quartz_ore\",\"minecraft:hopper\",\"minecraft:quartz_block\",\"minecraft:quartz_stairs\",\"minecraft:activator_rail\",\"minecraft:dropper\",\"minecraft:stained_hardened_clay\",\"minecraft:stained_glass_pane\",\"minecraft:leaves2\",\"minecraft:log2\",\"minecraft:acacia_stairs\",\"minecraft:dark_oak_stairs\",\"minecraft:slime\",\"minecraft:barrier\",\"minecraft:iron_trapdoor\",\"minecraft:prismarine\",\"minecraft:sea_lantern\",\"minecraft:hay_block\",\"minecraft:carpet\",\"minecraft:hardened_clay\",\"minecraft:coal_block\",\"minecraft:packed_ice\",\"minecraft:double_plant\",\"minecraft:standing_banner\",\"minecraft:wall_banner\",\"minecraft:daylight_detector_inverted\",\"minecraft:red_sandstone\",\"minecraft:red_sandstone_stairs\",\"minecraft:double_stone_slab2\",\"minecraft:stone_slab2\",\"minecraft:spruce_fence_gate\",\"minecraft:birch_fence_gate\",\"minecraft:jungle_fence_gate\",\"minecraft:dark_oak_fence_gate\",\"minecraft:acacia_fence_gate\",\"minecraft:spruce_fence\",\"minecraft:birch_fence\",\"minecraft:jungle_fence\",\"minecraft:dark_oak_fence\",\"minecraft:acacia_fence\",\"minecraft:spruce_door\",\"minecraft:birch_door\",\"minecraft:jungle_door\",\"minecraft:acacia_door\",\"minecraft:dark_oak_door\",\"minecraft:end_rod\",\"minecraft:chorus_plant\",\"minecraft:chorus_flower\",\"minecraft:purpur_block\",\"minecraft:purpur_pillar\",\"minecraft:purpur_stairs\",\"minecraft:purpur_double_slab\",\"minecraft:purpur_slab\",\"minecraft:end_bricks\",\"minecraft:grass_path\",\"minecraft:end_gateway\",\"minecraft:structure_block\"],display:{Name:\"§4§lAdv.§f§lツタ\",Lore:[\"§rアドベンチャーエリアでも設置できる。\"]},HideFlags:16}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:wooden_pickaxe",
+                    "weight": 10000,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{Name:\"NoATK\",Operation:2,Amount:-1d,UUIDLeast:1l,UUIDMost:1l,Slot:\"mainhand\",AttributeName:\"generic.attackDamage\"},{Name:\"NoKBR\",Operation:2,Amount:-1d,UUIDLeast:2l,UUIDMost:1l,Slot:\"mainhand\",AttributeName:\"generic.knockbackResistance\"}],RepairCost:1000000000,ench:[],display:{Name:\"§4§lAdv.§f§lツルハシ\"},CanDestroy:[\"minecraft:mob_spawner\",\"minecraft:torch\",\"minecraft:web\",\"minecraft:vine\"]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:ender_eye",
+                    "weight": 10000,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,ench:[],CanPlaceOn:[\"minecraft:end_portal_frame\"],display:{Name:\"§4§lAdv.§f§lエンダーアイ\",Lore:[\"§rアドベンチャーエリアでも設置できる。\"]}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:emerald",
+                    "weight": 1,
+                    "quality": 5000,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 48,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "quality": 5000,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{StoredEnchantments:[{id:7s,lvl:3s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:spawn_egg",
+                    "weight": 1,
+                    "quality": 5000,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,ench:[],EntityTag:{id:\"Witch\",Tags:[\"RewardEgg\",\"TypeChecked\"],ActiveEffects:[{Amplifier:5b,Duration:100,Id:7b,ShowParticles:0b},{Amplifier:0b,Duration:100,Id:14b,ShowParticles:0b}],DeathLootTable:\"usb:signs/ether2\",DeathTime:19s},CanPlaceOn:[\"minecraft:stone\",\"minecraft:grass\",\"minecraft:dirt\",\"minecraft:cobblestone\",\"minecraft:planks\",\"minecraft:sapling\",\"minecraft:bedrock\",\"minecraft:flowing_water\",\"minecraft:water\",\"minecraft:flowing_lava\",\"minecraft:lava\",\"minecraft:sand\",\"minecraft:gravel\",\"minecraft:gold_ore\",\"minecraft:iron_ore\",\"minecraft:coal_ore\",\"minecraft:log\",\"minecraft:leaves\",\"minecraft:sponge\",\"minecraft:glass\",\"minecraft:lapis_ore\",\"minecraft:lapis_block\",\"minecraft:dispenser\",\"minecraft:sandstone\",\"minecraft:noteblock\",\"minecraft:bed\",\"minecraft:golden_rail\",\"minecraft:detector_rail\",\"minecraft:sticky_piston\",\"minecraft:web\",\"minecraft:tallgrass\",\"minecraft:deadbush\",\"minecraft:piston\",\"minecraft:piston_head\",\"minecraft:wool\",\"minecraft:piston_extension\",\"minecraft:yellow_flower\",\"minecraft:red_flower\",\"minecraft:brown_mushroom\",\"minecraft:red_mushroom\",\"minecraft:gold_block\",\"minecraft:iron_block\",\"minecraft:double_stone_slab\",\"minecraft:stone_slab\",\"minecraft:brick_block\",\"minecraft:tnt\",\"minecraft:bookshelf\",\"minecraft:mossy_cobblestone\",\"minecraft:obsidian\",\"minecraft:torch\",\"minecraft:fire\",\"minecraft:oak_stairs\",\"minecraft:chest\",\"minecraft:redstone_wire\",\"minecraft:diamond_ore\",\"minecraft:diamond_block\",\"minecraft:crafting_table\",\"minecraft:wheat\",\"minecraft:farmland\",\"minecraft:furnace\",\"minecraft:lit_furnace\",\"minecraft:standing_sign\",\"minecraft:wooden_door\",\"minecraft:ladder\",\"minecraft:rail\",\"minecraft:stone_stairs\",\"minecraft:wall_sign\",\"minecraft:lever\",\"minecraft:stone_pressure_plate\",\"minecraft:iron_door\",\"minecraft:wooden_pressure_plate\",\"minecraft:redstone_ore\",\"minecraft:lit_redstone_ore\",\"minecraft:unlit_redstone_torch\",\"minecraft:redstone_torch\",\"minecraft:stone_button\",\"minecraft:snow_layer\",\"minecraft:ice\",\"minecraft:snow\",\"minecraft:cactus\",\"minecraft:clay\",\"minecraft:reeds\",\"minecraft:jukebox\",\"minecraft:fence\",\"minecraft:pumpkin\",\"minecraft:netherrack\",\"minecraft:soul_sand\",\"minecraft:glowstone\",\"minecraft:portal\",\"minecraft:lit_pumpkin\",\"minecraft:cake\",\"minecraft:unpowered_repeater\",\"minecraft:powered_repeater\",\"minecraft:stained_glass\",\"minecraft:trapdoor\",\"minecraft:monster_egg\",\"minecraft:stonebrick\",\"minecraft:brown_mushroom_block\",\"minecraft:red_mushroom_block\",\"minecraft:iron_bars\",\"minecraft:glass_pane\",\"minecraft:melon_block\",\"minecraft:pumpkin_stem\",\"minecraft:melon_stem\",\"minecraft:vine\",\"minecraft:fence_gate\",\"minecraft:brick_stairs\",\"minecraft:stone_brick_stairs\",\"minecraft:mycelium\",\"minecraft:waterlily\",\"minecraft:nether_brick\",\"minecraft:nether_brick_fence\",\"minecraft:nether_brick_stairs\",\"minecraft:nether_wart\",\"minecraft:enchanting_table\",\"minecraft:brewing_stand\",\"minecraft:cauldron\",\"minecraft:end_portal\",\"minecraft:end_portal_frame\",\"minecraft:end_stone\",\"minecraft:dragon_egg\",\"minecraft:redstone_lamp\",\"minecraft:lit_redstone_lamp\",\"minecraft:double_wooden_slab\",\"minecraft:wooden_slab\",\"minecraft:cocoa\",\"minecraft:sandstone_stairs\",\"minecraft:emerald_ore\",\"minecraft:ender_chest\",\"minecraft:tripwire_hook\",\"minecraft:tripwire\",\"minecraft:emerald_block\",\"minecraft:spruce_stairs\",\"minecraft:birch_stairs\",\"minecraft:jungle_stairs\",\"minecraft:command_block\",\"minecraft:beacon\",\"minecraft:cobblestone_wall\",\"minecraft:flower_pot\",\"minecraft:carrots\",\"minecraft:potatoes\",\"minecraft:wooden_button\",\"minecraft:skull\",\"minecraft:anvil\",\"minecraft:trapped_chest\",\"minecraft:light_weighted_pressure_plate\",\"minecraft:heavy_weighted_pressure_plate\",\"minecraft:unpowered_comparator\",\"minecraft:powered_comparator\",\"minecraft:daylight_detector\",\"minecraft:redstone_block\",\"minecraft:quartz_ore\",\"minecraft:hopper\",\"minecraft:quartz_block\",\"minecraft:quartz_stairs\",\"minecraft:activator_rail\",\"minecraft:dropper\",\"minecraft:stained_hardened_clay\",\"minecraft:stained_glass_pane\",\"minecraft:leaves2\",\"minecraft:log2\",\"minecraft:acacia_stairs\",\"minecraft:dark_oak_stairs\",\"minecraft:slime\",\"minecraft:barrier\",\"minecraft:iron_trapdoor\",\"minecraft:prismarine\",\"minecraft:sea_lantern\",\"minecraft:hay_block\",\"minecraft:carpet\",\"minecraft:hardened_clay\",\"minecraft:coal_block\",\"minecraft:packed_ice\",\"minecraft:double_plant\",\"minecraft:standing_banner\",\"minecraft:wall_banner\",\"minecraft:daylight_detector_inverted\",\"minecraft:red_sandstone\",\"minecraft:red_sandstone_stairs\",\"minecraft:double_stone_slab2\",\"minecraft:stone_slab2\",\"minecraft:spruce_fence_gate\",\"minecraft:birch_fence_gate\",\"minecraft:jungle_fence_gate\",\"minecraft:dark_oak_fence_gate\",\"minecraft:acacia_fence_gate\",\"minecraft:spruce_fence\",\"minecraft:birch_fence\",\"minecraft:jungle_fence\",\"minecraft:dark_oak_fence\",\"minecraft:acacia_fence\",\"minecraft:spruce_door\",\"minecraft:birch_door\",\"minecraft:jungle_door\",\"minecraft:acacia_door\",\"minecraft:dark_oak_door\",\"minecraft:end_rod\",\"minecraft:chorus_plant\",\"minecraft:chorus_flower\",\"minecraft:purpur_block\",\"minecraft:purpur_pillar\",\"minecraft:purpur_stairs\",\"minecraft:purpur_double_slab\",\"minecraft:purpur_slab\",\"minecraft:end_bricks\",\"minecraft:grass_path\",\"minecraft:end_gateway\",\"minecraft:structure_block\"],display:{Name:\"§2§lハイエーテルカプセル\",Lore:[\"§rハイエーテルが入っている。\"]},HideFlags:16}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "quality": 5000,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§e§lパンプキンスープ\",Lore:[\"§6ｺｰﾝｽｰﾌﾟにﾊﾟﾝﾌﾟｷﾝを加え\",\"§6回復量が増加したもの。\"]},HideFlags:32,CustomPotionEffects:[{Amplifier:2b,Duration:1,Id:6b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:13b,ShowParticles:1b},{Amplifier:-128b,Duration:0,Id:25b,ShowParticles:1b}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "quality": 5000,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Amplifier:0b,Duration:4820,Id:11b,ShowParticles:1b},{Amplifier:0b,Duration:100,Id:16b,ShowParticles:1b},{Amplifier:1b,Duration:4820,Id:22b,ShowParticles:1b},{Amplifier:0b,Duration:0,Id:5b,ShowParticles:1b},{Amplifier:0b,Duration:0,Id:5b,ShowParticles:1b},{Amplifier:0b,Duration:0,Id:5b,ShowParticles:1b},{Amplifier:0b,Duration:0,Id:5b,ShowParticles:1b},{Amplifier:0b,Duration:0,Id:5b,ShowParticles:1b},{Amplifier:0b,Duration:0,Id:5b,ShowParticles:1b},{Amplifier:0b,Duration:0,Id:5b,ShowParticles:1b},{Amplifier:0b,Duration:0,Id:5b,ShowParticles:1b}],HideFlags:32,display:{Lore:[\"§c滋養強壮に効くお薬。\",\"§c飲むと体が丈夫になる。\"],Name:\"§4§lレッドビート\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:anvil",
+                    "weight": 1,
+                    "quality": 4000,
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 1,
+                    "quality": 4000
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "quality": 4000,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{StoredEnchantments:[{id:34s,lvl:3s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:spawn_egg",
+                    "weight": 1,
+                    "quality": 4000,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,ench:[],EntityTag:{id:\"Witch\",Tags:[\"RewardEgg\",\"TypeChecked\"],ActiveEffects:[{Amplifier:5b,Duration:100,Id:7b,ShowParticles:0b},{Amplifier:0b,Duration:100,Id:14b,ShowParticles:0b}],DeathLootTable:\"usb:signs/ether3\",DeathTime:19s},CanPlaceOn:[\"minecraft:stone\",\"minecraft:grass\",\"minecraft:dirt\",\"minecraft:cobblestone\",\"minecraft:planks\",\"minecraft:sapling\",\"minecraft:bedrock\",\"minecraft:flowing_water\",\"minecraft:water\",\"minecraft:flowing_lava\",\"minecraft:lava\",\"minecraft:sand\",\"minecraft:gravel\",\"minecraft:gold_ore\",\"minecraft:iron_ore\",\"minecraft:coal_ore\",\"minecraft:log\",\"minecraft:leaves\",\"minecraft:sponge\",\"minecraft:glass\",\"minecraft:lapis_ore\",\"minecraft:lapis_block\",\"minecraft:dispenser\",\"minecraft:sandstone\",\"minecraft:noteblock\",\"minecraft:bed\",\"minecraft:golden_rail\",\"minecraft:detector_rail\",\"minecraft:sticky_piston\",\"minecraft:web\",\"minecraft:tallgrass\",\"minecraft:deadbush\",\"minecraft:piston\",\"minecraft:piston_head\",\"minecraft:wool\",\"minecraft:piston_extension\",\"minecraft:yellow_flower\",\"minecraft:red_flower\",\"minecraft:brown_mushroom\",\"minecraft:red_mushroom\",\"minecraft:gold_block\",\"minecraft:iron_block\",\"minecraft:double_stone_slab\",\"minecraft:stone_slab\",\"minecraft:brick_block\",\"minecraft:tnt\",\"minecraft:bookshelf\",\"minecraft:mossy_cobblestone\",\"minecraft:obsidian\",\"minecraft:torch\",\"minecraft:fire\",\"minecraft:oak_stairs\",\"minecraft:chest\",\"minecraft:redstone_wire\",\"minecraft:diamond_ore\",\"minecraft:diamond_block\",\"minecraft:crafting_table\",\"minecraft:wheat\",\"minecraft:farmland\",\"minecraft:furnace\",\"minecraft:lit_furnace\",\"minecraft:standing_sign\",\"minecraft:wooden_door\",\"minecraft:ladder\",\"minecraft:rail\",\"minecraft:stone_stairs\",\"minecraft:wall_sign\",\"minecraft:lever\",\"minecraft:stone_pressure_plate\",\"minecraft:iron_door\",\"minecraft:wooden_pressure_plate\",\"minecraft:redstone_ore\",\"minecraft:lit_redstone_ore\",\"minecraft:unlit_redstone_torch\",\"minecraft:redstone_torch\",\"minecraft:stone_button\",\"minecraft:snow_layer\",\"minecraft:ice\",\"minecraft:snow\",\"minecraft:cactus\",\"minecraft:clay\",\"minecraft:reeds\",\"minecraft:jukebox\",\"minecraft:fence\",\"minecraft:pumpkin\",\"minecraft:netherrack\",\"minecraft:soul_sand\",\"minecraft:glowstone\",\"minecraft:portal\",\"minecraft:lit_pumpkin\",\"minecraft:cake\",\"minecraft:unpowered_repeater\",\"minecraft:powered_repeater\",\"minecraft:stained_glass\",\"minecraft:trapdoor\",\"minecraft:monster_egg\",\"minecraft:stonebrick\",\"minecraft:brown_mushroom_block\",\"minecraft:red_mushroom_block\",\"minecraft:iron_bars\",\"minecraft:glass_pane\",\"minecraft:melon_block\",\"minecraft:pumpkin_stem\",\"minecraft:melon_stem\",\"minecraft:vine\",\"minecraft:fence_gate\",\"minecraft:brick_stairs\",\"minecraft:stone_brick_stairs\",\"minecraft:mycelium\",\"minecraft:waterlily\",\"minecraft:nether_brick\",\"minecraft:nether_brick_fence\",\"minecraft:nether_brick_stairs\",\"minecraft:nether_wart\",\"minecraft:enchanting_table\",\"minecraft:brewing_stand\",\"minecraft:cauldron\",\"minecraft:end_portal\",\"minecraft:end_portal_frame\",\"minecraft:end_stone\",\"minecraft:dragon_egg\",\"minecraft:redstone_lamp\",\"minecraft:lit_redstone_lamp\",\"minecraft:double_wooden_slab\",\"minecraft:wooden_slab\",\"minecraft:cocoa\",\"minecraft:sandstone_stairs\",\"minecraft:emerald_ore\",\"minecraft:ender_chest\",\"minecraft:tripwire_hook\",\"minecraft:tripwire\",\"minecraft:emerald_block\",\"minecraft:spruce_stairs\",\"minecraft:birch_stairs\",\"minecraft:jungle_stairs\",\"minecraft:command_block\",\"minecraft:beacon\",\"minecraft:cobblestone_wall\",\"minecraft:flower_pot\",\"minecraft:carrots\",\"minecraft:potatoes\",\"minecraft:wooden_button\",\"minecraft:skull\",\"minecraft:anvil\",\"minecraft:trapped_chest\",\"minecraft:light_weighted_pressure_plate\",\"minecraft:heavy_weighted_pressure_plate\",\"minecraft:unpowered_comparator\",\"minecraft:powered_comparator\",\"minecraft:daylight_detector\",\"minecraft:redstone_block\",\"minecraft:quartz_ore\",\"minecraft:hopper\",\"minecraft:quartz_block\",\"minecraft:quartz_stairs\",\"minecraft:activator_rail\",\"minecraft:dropper\",\"minecraft:stained_hardened_clay\",\"minecraft:stained_glass_pane\",\"minecraft:leaves2\",\"minecraft:log2\",\"minecraft:acacia_stairs\",\"minecraft:dark_oak_stairs\",\"minecraft:slime\",\"minecraft:barrier\",\"minecraft:iron_trapdoor\",\"minecraft:prismarine\",\"minecraft:sea_lantern\",\"minecraft:hay_block\",\"minecraft:carpet\",\"minecraft:hardened_clay\",\"minecraft:coal_block\",\"minecraft:packed_ice\",\"minecraft:double_plant\",\"minecraft:standing_banner\",\"minecraft:wall_banner\",\"minecraft:daylight_detector_inverted\",\"minecraft:red_sandstone\",\"minecraft:red_sandstone_stairs\",\"minecraft:double_stone_slab2\",\"minecraft:stone_slab2\",\"minecraft:spruce_fence_gate\",\"minecraft:birch_fence_gate\",\"minecraft:jungle_fence_gate\",\"minecraft:dark_oak_fence_gate\",\"minecraft:acacia_fence_gate\",\"minecraft:spruce_fence\",\"minecraft:birch_fence\",\"minecraft:jungle_fence\",\"minecraft:dark_oak_fence\",\"minecraft:acacia_fence\",\"minecraft:spruce_door\",\"minecraft:birch_door\",\"minecraft:jungle_door\",\"minecraft:acacia_door\",\"minecraft:dark_oak_door\",\"minecraft:end_rod\",\"minecraft:chorus_plant\",\"minecraft:chorus_flower\",\"minecraft:purpur_block\",\"minecraft:purpur_pillar\",\"minecraft:purpur_stairs\",\"minecraft:purpur_double_slab\",\"minecraft:purpur_slab\",\"minecraft:end_bricks\",\"minecraft:grass_path\",\"minecraft:end_gateway\",\"minecraft:structure_block\"],display:{Name:\"§2§lスーパーエーテルカプセル\",Lore:[\"§rスーパーエーテルが入っている。\"]},HideFlags:16}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lingering_potion",
+                    "weight": 1,
+                    "quality": 4000,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§e§lノンデメリット\",Lore:[\"§6毒を以て毒を制すというコンセプトで\",\"§6作られたポーション。解毒薬の上位互換で\",\"§6マイナス効果のみを除去する。\"]},HideFlags:32,CustomPotionEffects:[{Amplifier:0b,Duration:0,Id:1b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:2b,ShowParticles:0b},{Amplifier:0b,Duration:0,Id:3b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:4b,ShowParticles:0b},{Amplifier:0b,Duration:0,Id:5b,ShowParticles:0b},{Amplifier:0b,Duration:0,Id:8b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:9b,ShowParticles:0b},{Amplifier:0b,Duration:0,Id:10b,ShowParticles:0b},{Amplifier:0b,Duration:0,Id:11b,ShowParticles:0b},{Amplifier:0b,Duration:0,Id:12b,ShowParticles:0b},{Amplifier:0b,Duration:0,Id:13b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:15b,ShowParticles:0b},{Amplifier:0b,Duration:0,Id:16b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:17b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:18b,ShowParticles:1b},{Amplifier:127b,Duration:0,Id:19b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:20b,ShowParticles:0b},{Amplifier:0b,Duration:0,Id:22b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:24b,ShowParticles:0b},{Amplifier:0b,Duration:0,Id:25b,ShowParticles:0b},{Amplifier:0b,Duration:0,Id:26b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:27b,ShowParticles:0b}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:ender_pearl",
+                    "weight": 1,
+                    "quality": 4000
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_pickaxe",
+                    "weight": 1,
+                    "quality": 4000
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "quality": 4000,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{StoredEnchantments:[{id:0s,lvl:4s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "quality": 4000,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"ガソリン\",Lore:[\"§e§o飲むと満腹になるが\",\"§e§oしばらくの間弱体化する\"]},HideFlags:32,CustomPotionEffects:[{Amplifier:10b,Duration:100,Id:23b,ShowParticles:1b},{Amplifier:10b,Duration:100,Id:9b,ShowParticles:1b},{Amplifier:100b,Duration:700,Id:18b,ShowParticles:1b},{Amplifier:-100bb,Duration:700,Id:18b,ShowParticles:1b},{Amplifier:-100bb,Duration:0,Id:12b,ShowParticles:1b}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:anvil",
+                    "weight": 1,
+                    "quality": 4000
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:enchanted_book",
+                    "weight": 1,
+                    "quality": 4000,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{StoredEnchantments:[{id:32s,lvl:5s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 1,
+                    "quality": 3000,
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "quality": 3000,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{HideFlag:0,display:{Name:\"§e黄金蜂蜜酒\",Lore:[\"§6§o飲み薬。これを飲んだ者は、\",\"§6§o跳躍力と速度が上がり、\",\"§6§o傷の直りが早くなる体に生まれ変わる。\"]},HideFlags:32,CustomPotionEffects:[{Amplifier:2b,Duration:1200,Id:1b,ShowParticles:1b},{Amplifier:2b,Duration:1200,Id:8b,ShowParticles:1b},{Amplifier:0b,Duration:1200,Id:10b,ShowParticles:1b},{Amplifier:-100bb,Duration:0,Id:12b,ShowParticles:1b}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "quality": 3000,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Amplifier:1b,Duration:2420,Id:11b,ShowParticles:1b},{Amplifier:0b,Duration:100,Id:16b,ShowParticles:1b},{Amplifier:3b,Duration:2420,Id:22b,ShowParticles:1b},{Amplifier:-128b,Duration:0,Id:5b,ShowParticles:1b}],HideFlags:32,display:{Lore:[\"§cレッドビートに果汁を加え、\",\"§c吸収を早めたもの。\"],Name:\"§4§lレッドビート§6§lカオス\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Amplifier:0b,Duration:0,Id:5b,ShowParticles:1b},{Amplifier:5b,Duration:3,Id:14b,ShowParticles:0b}],HideFlags:32,display:{Lore:[\"§dマナから作られた霊薬。\",\"§d飲むとHPとMPが全回復する。\",\"\",\"§7スプラッシュ化不可\"],Name:\"§5§lラストエリクサー\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
