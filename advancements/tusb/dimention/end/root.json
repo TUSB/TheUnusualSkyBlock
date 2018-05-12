@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_portal_frame",
+            "data": 0
+        },
+        "title": "エンド",
+        "description": "The End",
+        "background": "minecraft:textures/blocks/concrete_black.png"
+    },
+    "criteria": {
+        "command": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

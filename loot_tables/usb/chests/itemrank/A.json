@@ -1,0 +1,679 @@
+﻿{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:log",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 32,
+                                "max": 64
+                            }
+                        },
+                        {
+                            "function": "set_data",
+                            "data": {
+                                "min": 0,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:log2",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 32,
+                                "max": 64
+                            }
+                        },
+                        {
+                            "function": "set_data",
+                            "data": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:emerald",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 192,
+                                "max": 256
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:emerald_block",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 22,
+                                "max": 28
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ingot",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 32,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_block",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_ingot",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 32,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_block",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 32,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_block",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:dye",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 32,
+                                "max": 64
+                            }
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 4
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lapis_block",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 4
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 1
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 40,
+                                "max": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 40,
+                                "max": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_shovel",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 40,
+                                "max": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_pickaxe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 40,
+                                "max": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_axe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 40,
+                                "max": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_hoe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 40,
+                                "max": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_helmet",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 40,
+                                "max": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 40,
+                                "max": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_leggings",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 40,
+                                "max": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_boots",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 40,
+                                "max": 60
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:1200,Id:1b,Amplifier:2b},{ShowParticles:1b,Duration:1200,Id:8b,Amplifier:2b},{ShowParticles:1b,Duration:1200,Id:10b,Amplifier:0b},{ShowParticles:1b,Duration:0,Id:12b,Amplifier:-100b}],HideFlags:32,HideFlag:0,display:{Lore:[\"§6§o飲み薬。これを飲んだ者は、\",\"§6§o跳躍力と速度が上がり、\",\"§6§o傷の直りが早くなる体に生まれ変わる。\"],Name:\"§e黄金蜂蜜酒\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:1200,Id:5b,Amplifier:3b},{ShowParticles:1b,Duration:1200,Id:11b,Amplifier:1b},{ShowParticles:1b,Duration:2400,Id:17b,Amplifier:0b},{ShowParticles:1b,Duration:2400,Id:19b,Amplifier:0b}],HideFlags:32,display:{Lore:[\"§2§o投げつける薬。\",\"§2§oこれを浴びた者は、攻撃力と防御力が上昇するが、\",\"§2§o代償として飢餓と毒状態になる。\"],Name:\"§cバーサーク\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:200,Id:8b,Amplifier:49b}],HideFlags:32,display:{Lore:[\"§6§oコレを使えば緊急時の上り下りが\",\"§6§o非常に楽になります！\",\"§4§o※ついでに落下死も増えます！\",\"§0§o梯子なんていらなかったんや！\"],Name:\"§dエレベータポーション\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:26b,Amplifier:0b},{ShowParticles:0b,Duration:3,Id:14b,Amplifier:3b}],HideFlags:32,display:{Lore:[\"§aマナがたぽっと詰まった飲み物。\",\"§a飲むとMPがとても大きく回復する。\",\"\",\"§7スプラッシュ化不可\"],Name:\"§2§lスーパーエーテル\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lingering_potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:19b,Amplifier:0b},{ShowParticles:0b,Duration:3,Id:14b,Amplifier:2b}],HideFlags:32,display:{Lore:[\"§bマナがぽちょっと詰まった瓶。\",\"§b中身に触れるとMPが大きく回復する。\"],Name:\"§3§lエリアハイエーテル\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:5b,Amplifier:0b},{ShowParticles:0b,Duration:3,Id:14b,Amplifier:5b}],HideFlags:32,display:{Lore:[\"§dマナから作られた霊薬。\",\"§d飲むとHPとMPが全回復する。\",\"\",\"§7スプラッシュ化不可\"],Name:\"§5§lラストエリクサー\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_helmet",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,ench:[{lvl:10,id:0},{lvl:3,id:1},{lvl:2,id:34},{lvl:2,id:4}],HideFlags:32,display:{Name:\"§b§lゴスウィット\"},AttributeModifiers:[{UUIDMost:3l,UUIDLeast:1l,Amount:3d,Slot:\"head\",AttributeName:\"generic.maxHealth\",Operation:0,Name:\"wax\"},{UUIDMost:3l,UUIDLeast:2l,Amount:0.04d,Slot:\"head\",AttributeName:\"generic.movementSpeed\",Operation:0,Name:\"wax\"},{UUIDMost:3l,UUIDLeast:3l,Amount:3d,Slot:\"head\",AttributeName:\"generic.attackDamage\",Operation:0,Name:\"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:reeds",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,ench:[{lvl:80s,id:16s},{lvl:10s,id:17s},{lvl:10s,id:18s},{lvl:20s,id:19s}],Legacy:1b,display:{Name:\"かつての脅威\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bone",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,ench:[{lvl:20s,id:16s},{lvl:20s,id:19s}],Legacy:1b,display:{Name:\"リン酸カルシウム\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone_block",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,ench:[{lvl:50s,id:16s}],Legacy:1b,display:{Name:\"§4§l国民の血税\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stick",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,ench:[{lvl:100s,id:19s}],Legacy:1b,display:{Name:\"ホームランバット\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Lore:[\"§eｲﾝｽﾄﾗｸｼｮﾝ・ﾜﾝ！\",\"§e百発のｽﾘｹﾝで倒せぬ\",\"§e相手だからといって、\",\"§e一発の力に頼ってはならぬ。\",\"§e一千発のｽﾘｹﾝを投げるのだ！\"],Name:\"§8ニンジャソード\"},AttributeModifiers:[{UUIDMost:1L,UUIDLeast:1L,Amount:1024.0d,Slot:\"mainhand\",AttributeName:\"generic.attackSpeed\",Operation:0,Name:\"wax\"},{UUIDMost:1L,UUIDLeast:2L,Amount:-7.0d,Slot:\"mainhand\",AttributeName:\"generic.attackDamage\",Operation:0,Name:\"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_axe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ench:[{lvl:3s,id:16s},{lvl:3s,id:34s}],RepairCost:1000000000,display:{Lore:[\"§4攻撃力が高いが、\",\"§4振りが遅い斧。\"],Name:\"§6§lバスターアックス\"},AttributeModifiers:[{UUIDMost:1L,UUIDLeast:1L,Amount:40.0d,Slot:\"mainhand\",AttributeName:\"generic.attackDamage\",Operation:0,Name:\"wax\"},{UUIDMost:1L,UUIDLeast:2L,Amount:-3.0d,Slot:\"mainhand\",AttributeName:\"generic.attackSpeed\",Operation:0,Name:\"wax\"},{UUIDMost:1L,UUIDLeast:3L,Amount:-0.5d,Slot:\"mainhand\",AttributeName:\"generic.movementSpeed\",Operation:2,Name:\"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ench:[],RepairCost:1000000000,display:{Lore:[\"§4§k§oCane of ko handed down\",\"§4§k§ofrom generation to generation...\"],Name:\"§9§l古の杖\"},AttributeModifiers:[{UUIDMost:1L,UUIDLeast:1L,Amount:-0.25d,Slot:\"mainhand\",AttributeName:\"generic.maxHealth\",Operation:2,Name:\"wax\"},{UUIDMost:1L,UUIDLeast:2L,Amount:30.0d,Slot:\"mainhand\",AttributeName:\"generic.attackDamage\",Operation:0,Name:\"wax\"},{UUIDMost:1L,UUIDLeast:3L,Amount:-3.0d,Slot:\"mainhand\",AttributeName:\"generic.attackSpeed\",Operation:0,Name:\"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ench:[],RepairCost:1000000000,display:{Lore:[\"§fかつての聖人が使ったとされる杖。\",\"§f攻撃力はないが、コレを持つことで\",\"§f忍耐力が上がる。\"],Name:\"§7§l悟りの杖\"},AttributeModifiers:[{UUIDMost:1L,UUIDLeast:1L,Amount:40.0d,Slot:\"mainhand\",AttributeName:\"generic.maxHealth\",Operation:0,Name:\"wax\"},{UUIDMost:1L,UUIDLeast:2L,Amount:-1.0d,Slot:\"mainhand\",AttributeName:\"generic.attackDamage\",Operation:2,Name:\"wax\"},{UUIDMost:1L,UUIDLeast:3L,Amount:0.4d,Slot:\"mainhand\",AttributeName:\"generic.knockbackResistance\",Operation:2,Name:\"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:400,Id:11b,Amplifier:2b},{ShowParticles:1b,Duration:400,Id:12b,Amplifier:0b},{ShowParticles:1b,Duration:400,Id:15b,Amplifier:4b},{ShowParticles:1b,Duration:400,Id:2b,Amplifier:4b}],HideFlags:32,display:{Lore:[\"§8§o飲むと体が硬化して\",\"§8§o防御力が上がり、炎にも強くなるが、\",\"§8§o足が遅くなり、目も見えにくくなる。\"],Name:\"§f鋼鉄のポーション\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:1200,Id:1b,Amplifier:2b},{ShowParticles:1b,Duration:1200,Id:16b,Amplifier:2b},{ShowParticles:1b,Duration:100,Id:9b,Amplifier:0b}],HideFlags:32,display:{Lore:[\"§3§oコレを飲んだものは目がさえ\",\"§3§o何となく足が早くなる感覚に陥る。\"],Name:\"§b深夜のテンション\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:200,Id:10b,Amplifier:2b},{ShowParticles:1b,Duration:200,Id:11b,Amplifier:4b},{ShowParticles:1b,Duration:300,Id:2b,Amplifier:10b},{ShowParticles:1b,Duration:300,Id:8b,Amplifier:-10b},{ShowParticles:1b,Duration:300,Id:4b,Amplifier:10b},{ShowParticles:1b,Duration:200,Id:5b,Amplifier:1b},{ShowParticles:1b,Duration:0,Id:12b,Amplifier:-100b}],HideFlags:32,display:{Lore:[\"§2§o即効性の§4§m飲める劇§2§o薬。\",\"§2§o10秒間肉体を再生・活性化させ、\",\"§2§o痛みを感じなくさせる。\",\"§2§oただし、15秒間行動出来ない。\",\"§6§l宣伝：§e§lバリキドリンクで！\",\"§6§l宣伝：§e§l今夜もパーティ！パーティー！\",\"§0§lﾋﾞｮｳｷ、ﾄｼﾖﾘ、ﾖﾛｼｻﾝ、ﾋﾞｮｳｷ、ﾄｼﾖﾘ、ﾖﾛｼｻﾝ\"],Name:\"§e§lバリキドリンク\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:800,Id:9b,Amplifier:0b},{ShowParticles:1b,Duration:800,Id:15b,Amplifier:0b},{ShowParticles:1b,Duration:800,Id:10b,Amplifier:0b},{ShowParticles:1b,Duration:800,Id:5b,Amplifier:3b},{ShowParticles:1b,Duration:800,Id:3b,Amplifier:1b}],HideFlags:32,display:{Lore:[\"§d§o酷い吐き気に襲われるお酒。\",\"§e§o酔拳をマスターしたい人用。\"],Name:\"§bスピリタス\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:shield",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ench:[{lvl:2s,id:34s}],RepairCost:1000000000,HideFlags:32,BlockEntityTag:{Patterns:[{Pattern:\"cre\",Color:2},{Pattern:\"bt\",Color:0},{Pattern:\"tt\",Color:0},{Pattern:\"mc\",Color:0},{Pattern:\"cbo\",Color:0}],Base:10},display:{Lore:[\"§a弱い者ほど強くなれる不思議な盾。\"],Name:\"§2§lミステリアスな盾\"},AttributeModifiers:[{UUIDMost:2L,UUIDLeast:1L,Amount:60.0d,Slot:\"offhand\",AttributeName:\"generic.maxHealth\",Operation:0,Name:\"HP\"},{UUIDMost:2L,UUIDLeast:2L,Amount:-0.5d,Slot:\"offhand\",AttributeName:\"generic.maxHealth\",Operation:2,Name:\"HP\"},{UUIDMost:2L,UUIDLeast:3L,Amount:0.3d,Slot:\"offhand\",AttributeName:\"generic.movementSpeed\",Operation:0,Name:\"SPD\"},{UUIDMost:2L,UUIDLeast:4L,Amount:-0.5d,Slot:\"offhand\",AttributeName:\"generic.movementSpeed\",Operation:2,Name:\"SPD\"},{UUIDMost:2L,UUIDLeast:5L,Amount:0.5d,Slot:\"offhand\",AttributeName:\"generic.knockbackResistance\",Operation:0,Name:\"KB\"},{UUIDMost:2L,UUIDLeast:6L,Amount:-0.5d,Slot:\"offhand\",AttributeName:\"generic.knockbackResistance\",Operation:2,Name:\"KB\"},{UUIDMost:2L,UUIDLeast:7L,Amount:20.0d,Slot:\"offhand\",AttributeName:\"generic.attackDamage\",Operation:0,Name:\"ATK\"},{UUIDMost:2L,UUIDLeast:8L,Amount:-0.5d,Slot:\"offhand\",AttributeName:\"generic.attackDamage\",Operation:2,Name:\"ATK\"},{UUIDMost:2L,UUIDLeast:9L,Amount:20.0d,Slot:\"offhand\",AttributeName:\"generic.armor\",Operation:0,Name:\"AMR\"},{UUIDMost:2L,UUIDLeast:10L,Amount:-0.5d,Slot:\"offhand\",AttributeName:\"generic.armor\",Operation:2,Name:\"AMR\"},{UUIDMost:2L,UUIDLeast:11L,Amount:5.0d,Slot:\"offhand\",AttributeName:\"generic.attackSpeed\",Operation:0,Name:\"ATS\"},{UUIDMost:2L,UUIDLeast:12L,Amount:-0.5d,Slot:\"offhand\",AttributeName:\"generic.attackSpeed\",Operation:2,Name:\"ATS\"},{UUIDMost:1L,UUIDLeast:13L,Amount:60.0d,Slot:\"mainhand\",AttributeName:\"generic.maxHealth\",Operation:0,Name:\"HP\"},{UUIDMost:1L,UUIDLeast:14L,Amount:-0.5d,Slot:\"mainhand\",AttributeName:\"generic.maxHealth\",Operation:2,Name:\"HP\"},{UUIDMost:1L,UUIDLeast:15L,Amount:0.3d,Slot:\"mainhand\",AttributeName:\"generic.movementSpeed\",Operation:0,Name:\"SPD\"},{UUIDMost:1L,UUIDLeast:16L,Amount:-0.5d,Slot:\"mainhand\",AttributeName:\"generic.movementSpeed\",Operation:2,Name:\"SPD\"},{UUIDMost:1L,UUIDLeast:17L,Amount:0.5d,Slot:\"mainhand\",AttributeName:\"generic.knockbackResistance\",Operation:0,Name:\"KB\"},{UUIDMost:1L,UUIDLeast:18L,Amount:-0.5d,Slot:\"mainhand\",AttributeName:\"generic.knockbackResistance\",Operation:2,Name:\"KB\"},{UUIDMost:1L,UUIDLeast:19L,Amount:20.0d,Slot:\"mainhand\",AttributeName:\"generic.attackDamage\",Operation:0,Name:\"ATK\"},{UUIDMost:1L,UUIDLeast:20L,Amount:-0.5d,Slot:\"mainhand\",AttributeName:\"generic.attackDamage\",Operation:2,Name:\"ATK\"},{UUIDMost:1L,UUIDLeast:21L,Amount:20.0d,Slot:\"mainhand\",AttributeName:\"generic.armor\",Operation:0,Name:\"AMR\"},{UUIDMost:1L,UUIDLeast:22L,Amount:-0.5d,Slot:\"mainhand\",AttributeName:\"generic.armor\",Operation:2,Name:\"AMR\"},{UUIDMost:1L,UUIDLeast:23L,Amount:5.0d,Slot:\"mainhand\",AttributeName:\"generic.attackSpeed\",Operation:0,Name:\"ATS\"},{UUIDMost:1L,UUIDLeast:24L,Amount:-0.5d,Slot:\"mainhand\",AttributeName:\"generic.attackSpeed\",Operation:2,Name:\"ATS\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:shield",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ench:[{lvl:10s,id:7s},{lvl:10s,id:19s}],RepairCost:1000000000,HideFlags:32,BlockEntityTag:{Patterns:[{Pattern:\"ts\",Color:7},{Pattern:\"mr\",Color:0},{Pattern:\"cr\",Color:15},{Pattern:\"bs\",Color:7},{Pattern:\"cbo\",Color:0},{Pattern:\"tt\",Color:0},{Pattern:\"bts\",Color:0},{Pattern:\"tts\",Color:15}],Base:11},display:{Name:\"§7§lベントラー\"},AttributeModifiers:[{UUIDMost:2L,UUIDLeast:1L,Amount:10.0d,Slot:\"offhand\",AttributeName:\"generic.maxHealth\",Operation:0,Name:\"HP\"},{UUIDMost:2L,UUIDLeast:2L,Amount:0.1d,Slot:\"offhand\",AttributeName:\"generic.movementSpeed\",Operation:2,Name:\"SPD\"},{UUIDMost:2L,UUIDLeast:3L,Amount:-0.1d,Slot:\"offhand\",AttributeName:\"generic.knockbackResistance\",Operation:2,Name:\"KB\"},{UUIDMost:2L,UUIDLeast:4L,Amount:10.0d,Slot:\"offhand\",AttributeName:\"generic.attackDamage\",Operation:0,Name:\"ATK\"},{UUIDMost:2L,UUIDLeast:5L,Amount:-10.0d,Slot:\"offhand\",AttributeName:\"generic.armor\",Operation:0,Name:\"AMR\"},{UUIDMost:2L,UUIDLeast:6L,Amount:-0.1d,Slot:\"offhand\",AttributeName:\"generic.attackSpeed\",Operation:2,Name:\"ATS\"},{UUIDMost:1L,UUIDLeast:7L,Amount:10.0d,Slot:\"mainhand\",AttributeName:\"generic.maxHealth\",Operation:0,Name:\"HP\"},{UUIDMost:1L,UUIDLeast:8L,Amount:0.1d,Slot:\"mainhand\",AttributeName:\"generic.movementSpeed\",Operation:2,Name:\"SPD\"},{UUIDMost:1L,UUIDLeast:9L,Amount:-0.1d,Slot:\"mainhand\",AttributeName:\"generic.knockbackResistance\",Operation:2,Name:\"KB\"},{UUIDMost:1L,UUIDLeast:10L,Amount:10.0d,Slot:\"mainhand\",AttributeName:\"generic.attackDamage\",Operation:0,Name:\"ATK\"},{UUIDMost:1L,UUIDLeast:11L,Amount:-10.0d,Slot:\"mainhand\",AttributeName:\"generic.armor\",Operation:0,Name:\"AMR\"},{UUIDMost:1L,UUIDLeast:12L,Amount:-0.1d,Slot:\"mainhand\",AttributeName:\"generic.attackSpeed\",Operation:2,Name:\"ATS\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:shield",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ench:[{lvl:1s,id:70s},{lvl:5s,id:16s}],RepairCost:1000000000,HideFlags:32,BlockEntityTag:{Patterns:[{Pattern:\"gra\",Color:0},{Pattern:\"sku\",Color:8},{Pattern:\"bri\",Color:15},{Pattern:\"tts\",Color:15},{Pattern:\"gru\",Color:6},{Pattern:\"gra\",Color:15}],Base:6},display:{Lore:[\"§r簡単に復元できる素材でできた盾。\",\"§r足元が濡れやすく注意が必要。\"],Name:\"§b§l氷の盾\"},AttributeModifiers:[{UUIDMost:2L,UUIDLeast:1L,Amount:-0.2d,Slot:\"offhand\",AttributeName:\"generic.knockbackResistance\",Operation:0,Name:\"KB\"},{UUIDMost:1L,UUIDLeast:2L,Amount:-0.2d,Slot:\"mainhand\",AttributeName:\"generic.knockbackResistance\",Operation:0,Name:\"KB\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:shield",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ench:[{lvl:2s,id:7s},{lvl:20s,id:20s}],RepairCost:1000000000,HideFlags:32,BlockEntityTag:{Patterns:[{Pattern:\"flo\",Color:15},{Pattern:\"mr\",Color:15},{Pattern:\"bo\",Color:15},{Pattern:\"bo\",Color:0},{Pattern:\"mc\",Color:1},{Pattern:\"flo\",Color:0}],Base:0},display:{Name:\"§4§lレッド・アイ・シールド\"},AttributeModifiers:[{UUIDMost:2L,UUIDLeast:1L,Amount:-0.1d,Slot:\"offhand\",AttributeName:\"generic.maxHealth\",Operation:2,Name:\"HP\"},{UUIDMost:2L,UUIDLeast:2L,Amount:0.05d,Slot:\"offhand\",AttributeName:\"generic.movementSpeed\",Operation:2,Name:\"SPD\"},{UUIDMost:2L,UUIDLeast:3L,Amount:4.0d,Slot:\"offhand\",AttributeName:\"generic.attackDamage\",Operation:0,Name:\"ATK\"},{UUIDMost:2L,UUIDLeast:4L,Amount:0.05d,Slot:\"offhand\",AttributeName:\"generic.attackSpeed\",Operation:2,Name:\"ATS\"},{UUIDMost:1L,UUIDLeast:5L,Amount:-0.1d,Slot:\"mainhand\",AttributeName:\"generic.maxHealth\",Operation:2,Name:\"HP\"},{UUIDMost:1L,UUIDLeast:6L,Amount:0.05d,Slot:\"mainhand\",AttributeName:\"generic.movementSpeed\",Operation:2,Name:\"SPD\"},{UUIDMost:1L,UUIDLeast:7L,Amount:4.0d,Slot:\"mainhand\",AttributeName:\"generic.attackDamage\",Operation:0,Name:\"ATK\"},{UUIDMost:1L,UUIDLeast:8L,Amount:0.05d,Slot:\"mainhand\",AttributeName:\"generic.attackSpeed\",Operation:2,Name:\"ATS\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ench:[{lvl:5s,id:16s},{lvl:20s,id:20s},{lvl:10s,id:48s},{lvl:20s,id:50s}],RepairCost:1000000000,display:{Name:\"§c§lチャンドラダヌス\"},AttributeModifiers:[{UUIDMost:1L,UUIDLeast:1L,Amount:-0.2d,Slot:\"mainhand\",AttributeName:\"generic.movementSpeed\",Operation:2,Name:\"anmin\"},{UUIDMost:2L,UUIDLeast:1L,Amount:-0.2d,Slot:\"offhand\",AttributeName:\"generic.movementSpeed\",Operation:2,Name:\"anmin\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ench:[{lvl:7s,id:48s}],RepairCost:1000000000,display:{Name:\"§9§l天之麻古弓\"},AttributeModifiers:[{UUIDMost:1L,UUIDLeast:1L,Amount:7.0d,Slot:\"mainhand\",AttributeName:\"generic.attackDamage\",Operation:0,Name:\"anmin\"},{UUIDMost:1L,UUIDLeast:2L,Amount:7.0d,Slot:\"mainhand\",AttributeName:\"generic.armor\",Operation:0,Name:\"anmin\"},{UUIDMost:1L,UUIDLeast:3L,Amount:7.0d,Slot:\"mainhand\",AttributeName:\"generic.armorToughness\",Operation:0,Name:\"anmin\"},{UUIDMost:2L,UUIDLeast:1L,Amount:7.0d,Slot:\"offhand\",AttributeName:\"generic.attackDamage\",Operation:0,Name:\"anmin\"},{UUIDMost:2L,UUIDLeast:2L,Amount:7.0d,Slot:\"offhand\",AttributeName:\"generic.armor\",Operation:0,Name:\"anmin\"},{UUIDMost:2L,UUIDLeast:3L,Amount:7.0d,Slot:\"offhand\",AttributeName:\"generic.armorToughness\",Operation:0,Name:\"anmin\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ench:[{lvl:4s,id:48s},{lvl:1s,id:70s}],RepairCost:1000000000,display:{Name:\"§6§l梓弓\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ench:[{lvl:10s,id:49s},{lvl:10s,id:19s}],RepairCost:1000000000,display:{Name:\"§e§l雷上動\"},AttributeModifiers:[{UUIDMost:1L,UUIDLeast:1L,Amount:10.0d,Slot:\"mainhand\",AttributeName:\"generic.movementSpeed\",Operation:2,Name:\"anmin\"},{UUIDMost:2L,UUIDLeast:1L,Amount:10.0d,Slot:\"offhand\",AttributeName:\"generic.movementSpeed\",Operation:2,Name:\"anmin\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:spawn_egg",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{Name:\"wax100\",Operation:0,Amount:4d,UUIDLeast:1l,UUIDMost:1l,Slot:\"mainhand\",AttributeName:\"generic.maxHealth\"},{Name:\"wax100\",Operation:0,Amount:0.2d,UUIDLeast:2l,UUIDMost:1l,Slot:\"mainhand\",AttributeName:\"generic.knockbackResistance\"},{Name:\"wax100\",Operation:0,Amount:0.7d,UUIDLeast:3l,UUIDMost:1l,Slot:\"mainhand\",AttributeName:\"generic.movementSpeed\"}],ench:[{id:16s,lvl:14s},{id:5s,lvl:1s},{id:6s,lvl:1s},{id:8s,lvl:1s},{id:9s,lvl:1s},{id:19s,lvl:3s}],EntityTag:{id:\"PolarBear\"},display:{Name:\"§f§l大神\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{Name:\"wax100\",Operation:2,Amount:-0.99d,UUIDLeast:1l,UUIDMost:1l,Slot:\"mainhand\",AttributeName:\"generic.maxHealth\"},{Name:\"wax100\",Operation:2,Amount:-0.99d,UUIDLeast:1l,UUIDMost:2l,Slot:\"offhand\",AttributeName:\"generic.maxHealth\"}],display:{Name:\"§5§lデス§f§l∨§c§lライフ\",Lore:[\"§4§l手にすると最弱の力を手に入れるが\",\"§4§l飲み干した瞬間に短時間だが最強の力を手に入れる。\",\"\",\"§4§l飲まずに§5§l死ぬ§4§lか\",\"§4§l飲んで§c§l生きる§4§lか\"]},HideFlags:61,CustomPotionEffects:[{Amplifier:20b,Duration:200,Id:5b,ShowParticles:0b},{Amplifier:5b,Duration:200,Id:4b,ShowParticles:0b},{Amplifier:25b,Duration:1,Id:6b,ShowParticles:0b},{Amplifier:1b,Duration:100,Id:9b,ShowParticles:0b},{Amplifier:1b,Duration:200,Id:12b,ShowParticles:0b},{Amplifier:1b,Duration:250,Id:15b,ShowParticles:0b},{Amplifier:-5b,Duration:10,Id:23b,ShowParticles:0b},{Amplifier:5b,Duration:100,Id:11b,ShowParticles:0b},{Amplifier:127b,Duration:2,Id:1b,ShowParticles:0b}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

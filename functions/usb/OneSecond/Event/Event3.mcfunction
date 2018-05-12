@@ -1,0 +1,3 @@
+me 「…こんな動物いた？」
+summon minecraft:villager ~ ~ ~ {Health:0f,DeathTime:19s,Passengers:[{id:"minecraft:sheep",CustomName:"村人のごはん",CustomNameVisible:true,DeathLootTable:"usb:events/meal/sheep",Tags:["VillagerMeal"]},{id:"minecraft:cow",CustomName:"村人のごはんじゃない",CustomNameVisible:true},{id:"minecraft:pig",CustomName:"村人のごはんじゃない",CustomNameVisible:true}]}
+tellraw @a {"translate":"* %1$s 「今日のごはんは～♪…に、逃げ出してるぅ～～！！」","with":[{"text":"農業家","color":"dark_green"}]}

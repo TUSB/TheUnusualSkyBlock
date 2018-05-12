@@ -1,0 +1,559 @@
+﻿{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:cobblestone",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stonebrick",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:grass",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:dirt",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_data",
+                            "data": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gravel",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:netherrack",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:soul_sand",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bookshelf",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:coal_ore",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ore",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_ore",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lapis_ore",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:redstone_ore",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_ore",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:emerald_ore",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:jukebox",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lit_pumpkin",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:packed_ice",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:clay",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:sandstone",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:end_stone",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glass",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chorus_fruit",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chorus_fruit_popped",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chorus_flower",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leaves",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_data",
+                            "data": 3
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:anvil",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_data",
+                            "data": 2
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:ender_pearl",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:ender_eye",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:experience_bottle",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:dragon_breath",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:26b,Amplifier:0b},{ShowParticles:0b,Duration:3,Id:14b,Amplifier:2b}],HideFlags:32,display:{Lore:[\"§aマナがぽちょっと詰まった飲み物。\",\"§a飲むとMPが大きく回復する。\",\"\",\"§7スプラッシュ化不可\"],Name:\"§2§lハイエーテル\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lingering_potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:19b,Amplifier:0b},{ShowParticles:0b,Duration:3,Id:14b,Amplifier:1b}],HideFlags:32,display:{Lore:[\"§bマナがちょぴっと詰まった瓶。\",\"§b中身に触れるとMPが回復する。\"],Name:\"§3§lエリアエーテル\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:5b,Amplifier:0b},{ShowParticles:0b,Duration:3,Id:14b,Amplifier:4b}],HideFlags:32,display:{Lore:[\"§dマナから作られた霊薬。\",\"§d飲むとHPとMPが半分回復する。\",\"\",\"§7スプラッシュ化不可\"],Name:\"§5§lエリクサー\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_rail",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:rail",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:detector_rail",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:activator_rail",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_horse_armor",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_horse_armor",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_horse_armor",
+                    "weight": 5
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:25b,Amplifier:-128b},{ShowParticles:1b,Duration:0,Id:13b,Amplifier:29b},{Id:5b,Amplifier:127b,Duration:0,ShowParticles:0b},{Id:18b,Amplifier:2b,Duration:600,ShowParticles:0b}],HideFlags:32,display:{Lore:[\"§7刺さった者の力を消滅させた後、弱らせる。\"],Name:\"§c§lレッドプリズム\"}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:25b,Amplifier:-128b},{ShowParticles:1b,Duration:0,Id:27b,Amplifier:127b},{Id:12b,Amplifier:127b,Duration:0,ShowParticles:0b},{Id:11b,Amplifier:-2b,Duration:100,ShowParticles:0b}],HideFlags:32,display:{Lore:[\"§7刺さった者の火への耐性を消滅させた後、柔らかくする。\"],Name:\"§6§lオレンジプリズム\"}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:25b,Amplifier:-128b},{ShowParticles:1b,Duration:0,Id:13b,Amplifier:127b},{Id:10b,Amplifier:127b,Duration:0,ShowParticles:0b},{Id:19b,Amplifier:2b,Duration:600,ShowParticles:0b}],HideFlags:32,display:{Lore:[\"§7刺さった者の再生能力を消滅させた後、毒を与える。\"],Name:\"§e§lイエロープリズム\"}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:25b,Amplifier:-128b},{ShowParticles:1b,Duration:0,Id:13b,Amplifier:113b},{Id:8b,Amplifier:127b,Duration:0,ShowParticles:0b},{Id:24b,Amplifier:1b,Duration:1200,ShowParticles:0b}],HideFlags:32,display:{Lore:[\"§7刺さった者の脚力を並にした後、発光させる。\"],Name:\"§a§lグリーンプリズム\"}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:25b,Amplifier:-128b},{ShowParticles:1b,Duration:0,Id:23b,Amplifier:87b},{Id:1b,Amplifier:127b,Duration:0,ShowParticles:0b},{Id:2b,Amplifier:2b,Duration:600,ShowParticles:0b}],HideFlags:32,display:{Lore:[\"§7刺さった者の移動力を並にした後、鈍足にする。\"],Name:\"§b§lシアンプリズム\"}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:25b,Amplifier:-128b},{ShowParticles:1b,Duration:0,Id:13b,Amplifier:118b},{Id:25b,Amplifier:127b,Duration:0,ShowParticles:0b},{Id:8b,Amplifier:-2b,Duration:200,ShowParticles:0b}],HideFlags:32,display:{Lore:[\"§7刺さった者の浮遊を解いた後、足を脆くする。\"],Name:\"§9§lブループリズム\"}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:25b,Amplifier:-128b},{ShowParticles:1b,Duration:0,Id:13b,Amplifier:111b},{Id:11b,Amplifier:-2b,Duration:60,ShowParticles:0b},{Id:20b,Amplifier:2b,Duration:60,ShowParticles:0b}],HideFlags:32,display:{Lore:[\"§7刺さった者の防御力を下げた後、呪う。\"],Name:\"§d§lバイオレットプリズム\"}}"
+                        },
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:record_13",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:record_cat",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:record_blocks",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:record_chirp",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:record_far",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:record_mall",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:record_mellohi",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:record_stal",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:record_strad",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:record_ward",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:record_11",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:record_wait",
+                    "weight": 1
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_axe",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{Name:\"wax\",UUIDLeast:1l,Amount:-0.025d,Operation:2,UUIDMost:2l,Slot:\"offhand\",AttributeName:\"generic.maxHealth\"},{Name:\"wax\",UUIDLeast:2l,Amount:-1d,Operation:0,UUIDMost:2l,Slot:\"offhand\",AttributeName:\"generic.knockbackResistance\"},{Name:\"wax\",UUIDLeast:3l,Amount:2d,Operation:0,UUIDMost:2l,Slot:\"offhand\",AttributeName:\"generic.attackDamage\"},{Name:\"wax\",UUIDLeast:4l,Amount:-0.01d,Operation:0,UUIDMost:2l,Slot:\"offhand\",AttributeName:\"generic.movementSpeed\"},{Name:\"wax\",UUIDLeast:5l,Amount:-4d,Operation:0,UUIDMost:2l,Slot:\"offhand\",AttributeName:\"generic.attackSpeed\"}],RepairCost:1000000000,ench:[{id:35s,lvl:3s},{id:19s,lvl:1s},{id:21s,lvl:2s},{id:32s,lvl:2s}],HideFlags:2,display:{Lore:[\"§6§lとある泉の中から\",\"§6§l現れた女神から貰ったと言われている\",\"§6§l不思議な斧\",\"§6§l左利き用に作られている。\"],Name:\"§6§l泉から出てきた斧\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_axe",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{Name:\"wax\",UUIDLeast:1l,Amount:4d,Operation:0,UUIDMost:1l,Slot:\"mainhand\",AttributeName:\"generic.maxHealth\"},{Name:\"wax\",UUIDLeast:2l,Amount:0.01d,Operation:0,UUIDMost:1l,Slot:\"mainhand\",AttributeName:\"generic.knockbackResistance\"},{Name:\"wax\",UUIDLeast:3l,Amount:2d,Operation:0,UUIDMost:1l,Slot:\"mainhand\",AttributeName:\"generic.armor\"},{Name:\"wax\",UUIDLeast:4l,Amount:-4d,Operation:0,UUIDMost:1l,Slot:\"mainhand\",AttributeName:\"generic.attackSpeed\"}],RepairCost:1000000000,ench:[{id:16s,lvl:4s},{id:18s,lvl:2s},{id:32s,lvl:2s},{id:21s,lvl:1s}],HideFlags:2,display:{Lore:[\"§7§lとある泉の中から\",\"§7§l現れた女神から貰ったと言われている\",\"§7§l不思議な斧\",\"§7§l右利き用に作られている。\"],Name:\"§f§l泉から出てきた斧\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_axe",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": 0.2
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{Name:\"wax\",UUIDLeast:1l,Amount:8d,Operation:0,UUIDMost:2l,Slot:\"offhand\",AttributeName:\"generic.maxHealth\"},{Name:\"wax\",UUIDLeast:2l,Amount:0.01d,Operation:0,UUIDMost:2l,Slot:\"offhand\",AttributeName:\"generic.movementSpeed\"},{Name:\"wax\",UUIDLeast:3l,Amount:0.08d,Operation:0,UUIDMost:1l,Slot:\"mainhand\",AttributeName:\"generic.movementSpeed\"},{Name:\"wax\",UUIDLeast:4l,Amount:-4d,Operation:0,UUIDMost:1l,Slot:\"mainhand\",AttributeName:\"generic.attackSpeed\"},{Name:\"wax\",UUIDLeast:5l,Amount:6d,Operation:0,UUIDMost:2l,Slot:\"offhand\",AttributeName:\"generic.attackDamage\"}],RepairCost:1000000000,ench:[{id:16s,lvl:5s},{id:17s,lvl:2s},{id:19s,lvl:1s},{id:20s,lvl:1s},{id:32s,lvl:5s}],HideFlags:3,display:{Lore:[\"§8§lとある若者が泉に落とした\",\"§8§l不思議な斧\",\"§8§lボロボロで使い物にならなさそうだ。\"],Name:\"§8§l泉に落ちた斧\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:end_crystal",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 1
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{Name:\"wax100\",UUIDLeast:1l,Amount:2d,Operation:0,UUIDMost:1l,Slot:\"mainhand\",AttributeName:\"generic.maxHealth\"},{Name:\"wax100\",UUIDLeast:1l,Amount:2d,Operation:0,UUIDMost:2l,Slot:\"offhand\",AttributeName:\"generic.movementSpeed\"}],HideFlags:60,display:{Name:\"§e§lエストレーヤ\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Amplifier:-127b,Duration:0,Id:25b},{Amplifier:104b,Duration:0,Id:27b},{Amplifier:0b,Duration:120,Id:16b,ShowParticles:0b},{Amplifier:0b,Duration:1200,Id:10b,ShowParticles:0b},{Amplifier:2b,Duration:60,Id:6b,ShowParticles:0b},{Amplifier:2b,Duration:1200,Id:22b,ShowParticles:0b},{Amplifier:2b,Duration:1200,Id:26b,ShowParticles:0b},{Amplifier:0b,Duration:120,Id:9b,ShowParticles:0b}],display:{Lore:[\"§3泡立つしゅわっとした液体に\",\"§3神秘の輝きを放つ\",\"§3六角形の何かが§a§l１§3つ入っている。\",\"§360秒間の間、使用者の運を\",\"§e§lちょっぴり§3上昇させ傷を癒す。\"],Name:\"§r§e§k-§a§lハニカム §3§l-§b§lO§3§l- §a§lライト§e§k-§r\"},ench:[{id:17s,lvl:3s}],HideFlags:33}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Amplifier:-127b,Duration:0,Id:25b},{Amplifier:105b,Duration:0,Id:27b},{Amplifier:0b,Duration:120,Id:16b,ShowParticles:0b},{Amplifier:0b,Duration:1200,Id:10b,ShowParticles:0b},{Amplifier:3b,Duration:60,Id:6b,ShowParticles:0b},{Amplifier:3b,Duration:1200,Id:22b,ShowParticles:0b},{Amplifier:4b,Duration:1200,Id:26b,ShowParticles:0b},{Amplifier:0b,Duration:120,Id:9b,ShowParticles:0b}],display:{Lore:[\"§3泡立つしゅわっとした液体に\",\"§3神秘の輝きを放つ\",\"§3六角形の何かが§a§l２§3つ入っている。\",\"§360秒間の間、使用者の運を\",\"§e§l程々に§3上昇させ傷を癒す。\"],Name:\"§r§e§k-§a§lハニカム §3§l-§b§lW§3§l- §a§lスタンダード§e§k-§r\"},ench:[{id:17s,lvl:5s}],HideFlags:33}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{Amplifier:-127b,Duration:0,Id:25b},{Amplifier:106b,Duration:0,Id:27b},{Amplifier:0b,Duration:120,Id:16b,ShowParticles:0b},{Amplifier:0b,Duration:1200,Id:10b,ShowParticles:0b},{Amplifier:4b,Duration:60,Id:6b,ShowParticles:0b},{Amplifier:4b,Duration:1200,Id:22b,ShowParticles:0b},{Amplifier:6b,Duration:1200,Id:26b,ShowParticles:0b},{Amplifier:0b,Duration:120,Id:9b,ShowParticles:0b}],display:{Lore:[\"§3泡立つしゅわっとした液体に\",\"§3神秘の輝きを放つ\",\"§3六角形の何かが§a§l３§3つ入っている。\",\"§360秒間の間、使用者の運を\",\"§e§l大きく§3上昇させ傷を癒す。\"],Name:\"§r§e§k-§a§lハニカム §3§l-§b§lT§3§l- §a§l７７７§e§k-§r\"},ench:[{id:17s,lvl:7s}],HideFlags:33}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:paper",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ench:[],HideFlags:3,display:{Lore:[\"§r§e本と交換できるチケット。§r\",\"§r§e防水加工が施されている。§r\"],Name:\"§r§a§l§n図書券§r\"},AttributeModifiers:[{UUIDMost:1l,UUIDLeast:1l,Amount:0.01d,Slot:\"mainhand\",AttributeName:\"generic.luck\",Operation:2,Name:\"anmin\"},{UUIDMost:2l,UUIDLeast:2l,Amount:0.01d,Slot:\"offhand\",AttributeName:\"generic.luck\",Operation:2,Name:\"anmin\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:25b,Amplifier:-128b},{ShowParticles:1b,Duration:0,Id:16b,Amplifier:93b},{ShowParticles:0b,Duration:1200,Id:18b,Amplifier:20b},{ShowParticles:0b,Duration:1200,Id:3b,Amplifier:4b}],HideFlags:32,display:{Lore:[\"§6鉱夫が§9§l精魂§6を込めて作ったドリンク。\",\"§e§n早い採掘§6が可能になるが、\",\"§d力が入らなく§6なってしまう。\"],Name:\"§6§lマインソウル\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:25b,Amplifier:-128b},{ShowParticles:1b,Duration:0,Id:13b,Amplifier:119b},{ShowParticles:0b,Duration:1800,Id:21b,Amplifier:0b},{ShowParticles:0b,Duration:1800,Id:22b,Amplifier:9b}],HideFlags:32,display:{Lore:[\"§9脳に働きかけ、\",\"§d自分の体力§9を§3§l錯覚§9させる雫。\",\"§1§mうそつきは耐久型のはじまり\"],Name:\"§3§l空音の雫\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

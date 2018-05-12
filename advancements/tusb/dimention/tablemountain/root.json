@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:mossy_cobblestone",
+            "data": 0
+        },
+        "title": "テーブルマウンテン",
+        "description": "Table Mountain",
+        "background": "minecraft:textures/blocks/concrete_green.png"
+    },
+    "criteria": {
+        "command": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

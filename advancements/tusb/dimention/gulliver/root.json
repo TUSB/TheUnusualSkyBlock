@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:flower_pot",
+            "data": 0
+        },
+        "title": "ガリバーランド",
+        "description": "GulliverLand",
+        "background": "minecraft:textures/blocks/concrete_yellow.png"
+    },
+    "criteria": {
+        "command": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

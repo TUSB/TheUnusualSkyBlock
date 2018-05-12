@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:command_block"
+        },
+        "title": "command",
+        "description": "",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "rewards": {
+        "function": "usb:ForAdvancements/ShortenCurse"
+    },
+    "criteria": {
+        "curse_effects": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:mining_fatigue": {
+                        "amplifier" : 2,
+                        "duration" : 6000
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+﻿{
+    "pools": [
+        {
+            "rolls": {
+                "min": 2,
+                "max": 6
+            },
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "usb:chests/itemrank/F",
+                    "weight": 20,
+                    "quality": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "usb:chests/itemrank/E",
+                    "weight": 14,
+                    "quality": 2
+                },
+                {
+                    "type": "loot_table",
+                    "name": "usb:chests/itemrank/D",
+                    "weight": 10,
+                    "quality": 3
+                },
+                {
+                    "type": "loot_table",
+                    "name": "usb:chests/itemrank/C",
+                    "weight": 7,
+                    "quality": 4
+                },
+                {
+                    "type": "loot_table",
+                    "name": "usb:chests/itemrank/B",
+                    "weight": 5,
+                    "quality": 5
+                },
+                {
+                    "type": "loot_table",
+                    "name": "usb:chests/itemrank/A",
+                    "weight": 3,
+                    "quality": 5
+                },
+                {
+                    "type": "loot_table",
+                    "name": "usb:chests/itemrank/S",
+                    "weight": 1,
+                    "quality": 5
+                }
+            ]
+        }
+    ]
+}

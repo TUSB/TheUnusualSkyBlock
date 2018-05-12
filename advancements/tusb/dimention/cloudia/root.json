@@ -1,0 +1,16 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:snow",
+            "data": 0
+        },
+        "title": "クラウディア",
+        "description": "cloudia",
+        "background": "minecraft:textures/blocks/concrete_silver.png"
+    },
+    "criteria": {
+        "command": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

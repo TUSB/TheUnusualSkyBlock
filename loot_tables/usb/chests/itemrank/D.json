@@ -1,0 +1,880 @@
+﻿{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:hay_block",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:flint",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:fishing_rod",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:carrot_on_a_stick",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stick",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 32,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:planks",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 32
+                            }
+                        },
+                        {
+                            "function": "set_data",
+                            "data": {
+                                "min": 0,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:glowstone",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:coal",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 32
+                            }
+                        },
+                        {
+                            "function": "set_data",
+                            "data": {
+                                "min": 0,
+                                "max": 1
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:torch",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 32,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:obsidian",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:sea_lantern",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:noteblock",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:enchanting_table",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 2
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:end_stone",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_ingot",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ingot",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:emerald",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 64,
+                                "max": 96
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:dye",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 8
+                            }
+                        },
+                        {
+                            "function": "set_data",
+                            "data": 4
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_apple",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": 4
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_helmet",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_leggings",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_boots",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chainmail_helmet",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chainmail_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chainmail_leggings",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:chainmail_boots",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:wooden_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:wooden_shovel",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:wooden_pickaxe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:wooden_axe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:wooden_hoe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_shovel",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_pickaxe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_axe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_hoe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_shovel",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_pickaxe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_axe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_hoe",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:26b,Amplifier:0b},{ShowParticles:0b,Duration:3,Id:14b,Amplifier:2b}],HideFlags:32,display:{Lore:[\"§aマナがぽちょっと詰まった飲み物。\",\"§a飲むとMPが大きく回復する。\",\"\",\"§7スプラッシュ化不可\"],Name:\"§2§lハイエーテル\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lingering_potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:19b,Amplifier:0b},{ShowParticles:0b,Duration:3,Id:14b,Amplifier:2b}],HideFlags:32,display:{Lore:[\"§bマナがぽちょっと詰まった瓶。\",\"§b中身に触れるとMPが大きく回復する。\"],Name:\"§3§lエリアハイエーテル\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:spawn_egg",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,ench:[],HideFlags:16,display:{Lore:[\"§r§e金§f防具一式§eが圧縮された印玉。\",\"§e使用すると§l§f防具一式§eが§b解凍§eされる。\"],Name:\"§r§f圧縮防具の印玉§e§l-金-\"},EntityTag:{DeathTime:19s,DeathLootTable:\"usb:signs/goldenarmor\",id:\"Bat\",ActiveEffects:[{ShowParticles:0b,Duration:100,Id:7b,Amplifier:5b},{ShowParticles:0b,Duration:100,Id:14b,Amplifier:0b}],Tags:[\"RewardEgg\",\"TypeChecked\"]},CanPlaceOn:[\"minecraft:stone\",\"minecraft:grass\",\"minecraft:dirt\",\"minecraft:cobblestone\",\"minecraft:planks\",\"minecraft:sapling\",\"minecraft:bedrock\",\"minecraft:flowing_water\",\"minecraft:water\",\"minecraft:flowing_lava\",\"minecraft:lava\",\"minecraft:sand\",\"minecraft:gravel\",\"minecraft:gold_ore\",\"minecraft:iron_ore\",\"minecraft:coal_ore\",\"minecraft:log\",\"minecraft:leaves\",\"minecraft:sponge\",\"minecraft:glass\",\"minecraft:lapis_ore\",\"minecraft:lapis_block\",\"minecraft:dispenser\",\"minecraft:sandstone\",\"minecraft:noteblock\",\"minecraft:bed\",\"minecraft:golden_rail\",\"minecraft:detector_rail\",\"minecraft:sticky_piston\",\"minecraft:web\",\"minecraft:tallgrass\",\"minecraft:deadbush\",\"minecraft:piston\",\"minecraft:piston_head\",\"minecraft:wool\",\"minecraft:piston_extension\",\"minecraft:yellow_flower\",\"minecraft:red_flower\",\"minecraft:brown_mushroom\",\"minecraft:red_mushroom\",\"minecraft:gold_block\",\"minecraft:iron_block\",\"minecraft:double_stone_slab\",\"minecraft:stone_slab\",\"minecraft:brick_block\",\"minecraft:tnt\",\"minecraft:bookshelf\",\"minecraft:mossy_cobblestone\",\"minecraft:obsidian\",\"minecraft:torch\",\"minecraft:fire\",\"minecraft:mob_spawner\",\"minecraft:oak_stairs\",\"minecraft:chest\",\"minecraft:redstone_wire\",\"minecraft:diamond_ore\",\"minecraft:diamond_block\",\"minecraft:crafting_table\",\"minecraft:wheat\",\"minecraft:farmland\",\"minecraft:furnace\",\"minecraft:lit_furnace\",\"minecraft:standing_sign\",\"minecraft:wooden_door\",\"minecraft:ladder\",\"minecraft:rail\",\"minecraft:stone_stairs\",\"minecraft:wall_sign\",\"minecraft:lever\",\"minecraft:stone_pressure_plate\",\"minecraft:iron_door\",\"minecraft:wooden_pressure_plate\",\"minecraft:redstone_ore\",\"minecraft:lit_redstone_ore\",\"minecraft:unlit_redstone_torch\",\"minecraft:redstone_torch\",\"minecraft:stone_button\",\"minecraft:snow_layer\",\"minecraft:ice\",\"minecraft:snow\",\"minecraft:cactus\",\"minecraft:clay\",\"minecraft:reeds\",\"minecraft:jukebox\",\"minecraft:fence\",\"minecraft:pumpkin\",\"minecraft:netherrack\",\"minecraft:soul_sand\",\"minecraft:glowstone\",\"minecraft:portal\",\"minecraft:lit_pumpkin\",\"minecraft:cake\",\"minecraft:unpowered_repeater\",\"minecraft:powered_repeater\",\"minecraft:stained_glass\",\"minecraft:trapdoor\",\"minecraft:monster_egg\",\"minecraft:stonebrick\",\"minecraft:brown_mushroom_block\",\"minecraft:red_mushroom_block\",\"minecraft:iron_bars\",\"minecraft:glass_pane\",\"minecraft:melon_block\",\"minecraft:pumpkin_stem\",\"minecraft:melon_stem\",\"minecraft:vine\",\"minecraft:fence_gate\",\"minecraft:brick_stairs\",\"minecraft:stone_brick_stairs\",\"minecraft:mycelium\",\"minecraft:waterlily\",\"minecraft:nether_brick\",\"minecraft:nether_brick_fence\",\"minecraft:nether_brick_stairs\",\"minecraft:nether_wart\",\"minecraft:enchanting_table\",\"minecraft:brewing_stand\",\"minecraft:cauldron\",\"minecraft:end_portal\",\"minecraft:end_portal_frame\",\"minecraft:end_stone\",\"minecraft:dragon_egg\",\"minecraft:redstone_lamp\",\"minecraft:lit_redstone_lamp\",\"minecraft:double_wooden_slab\",\"minecraft:wooden_slab\",\"minecraft:cocoa\",\"minecraft:sandstone_stairs\",\"minecraft:emerald_ore\",\"minecraft:ender_chest\",\"minecraft:tripwire_hook\",\"minecraft:tripwire\",\"minecraft:emerald_block\",\"minecraft:spruce_stairs\",\"minecraft:birch_stairs\",\"minecraft:jungle_stairs\",\"minecraft:command_block\",\"minecraft:beacon\",\"minecraft:cobblestone_wall\",\"minecraft:flower_pot\",\"minecraft:carrots\",\"minecraft:potatoes\",\"minecraft:wooden_button\",\"minecraft:skull\",\"minecraft:anvil\",\"minecraft:trapped_chest\",\"minecraft:light_weighted_pressure_plate\",\"minecraft:heavy_weighted_pressure_plate\",\"minecraft:unpowered_comparator\",\"minecraft:powered_comparator\",\"minecraft:daylight_detector\",\"minecraft:redstone_block\",\"minecraft:quartz_ore\",\"minecraft:hopper\",\"minecraft:quartz_block\",\"minecraft:quartz_stairs\",\"minecraft:activator_rail\",\"minecraft:dropper\",\"minecraft:stained_hardened_clay\",\"minecraft:stained_glass_pane\",\"minecraft:leaves2\",\"minecraft:log2\",\"minecraft:acacia_stairs\",\"minecraft:dark_oak_stairs\",\"minecraft:slime\",\"minecraft:barrier\",\"minecraft:iron_trapdoor\",\"minecraft:prismarine\",\"minecraft:sea_lantern\",\"minecraft:hay_block\",\"minecraft:carpet\",\"minecraft:hardened_clay\",\"minecraft:coal_block\",\"minecraft:packed_ice\",\"minecraft:double_plant\",\"minecraft:standing_banner\",\"minecraft:wall_banner\",\"minecraft:daylight_detector_inverted\",\"minecraft:red_sandstone\",\"minecraft:red_sandstone_stairs\",\"minecraft:double_stone_slab2\",\"minecraft:stone_slab2\",\"minecraft:spruce_fence_gate\",\"minecraft:birch_fence_gate\",\"minecraft:jungle_fence_gate\",\"minecraft:dark_oak_fence_gate\",\"minecraft:acacia_fence_gate\",\"minecraft:spruce_fence\",\"minecraft:birch_fence\",\"minecraft:jungle_fence\",\"minecraft:dark_oak_fence\",\"minecraft:acacia_fence\",\"minecraft:spruce_door\",\"minecraft:birch_door\",\"minecraft:jungle_door\",\"minecraft:acacia_door\",\"minecraft:dark_oak_door\",\"minecraft:end_rod\",\"minecraft:chorus_plant\",\"minecraft:chorus_flower\",\"minecraft:purpur_block\",\"minecraft:purpur_pillar\",\"minecraft:purpur_stairs\",\"minecraft:purpur_double_slab\",\"minecraft:purpur_slab\",\"minecraft:end_bricks\",\"minecraft:grass_path\",\"minecraft:end_gateway\",\"minecraft:structure_block\"]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:spawn_egg",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,ench:[],HideFlags:16,display:{Lore:[\"§r§e使用すると、ﾗﾝﾀﾞﾑで\",\"§6金製§eの道具が出現する。\"],Name:\"§r§6金道具の印玉\"},EntityTag:{DeathTime:19s,DeathLootTable:\"usb:signs/gold\",id:\"Bat\",ActiveEffects:[{ShowParticles:0b,Duration:100,Id:7b,Amplifier:5b},{ShowParticles:0b,Duration:100,Id:14b,Amplifier:0b}],Tags:[\"RewardEgg\",\"TypeChecked\"]},CanPlaceOn:[\"minecraft:stone\",\"minecraft:grass\",\"minecraft:dirt\",\"minecraft:cobblestone\",\"minecraft:planks\",\"minecraft:sapling\",\"minecraft:bedrock\",\"minecraft:flowing_water\",\"minecraft:water\",\"minecraft:flowing_lava\",\"minecraft:lava\",\"minecraft:sand\",\"minecraft:gravel\",\"minecraft:gold_ore\",\"minecraft:iron_ore\",\"minecraft:coal_ore\",\"minecraft:log\",\"minecraft:leaves\",\"minecraft:sponge\",\"minecraft:glass\",\"minecraft:lapis_ore\",\"minecraft:lapis_block\",\"minecraft:dispenser\",\"minecraft:sandstone\",\"minecraft:noteblock\",\"minecraft:bed\",\"minecraft:golden_rail\",\"minecraft:detector_rail\",\"minecraft:sticky_piston\",\"minecraft:web\",\"minecraft:tallgrass\",\"minecraft:deadbush\",\"minecraft:piston\",\"minecraft:piston_head\",\"minecraft:wool\",\"minecraft:piston_extension\",\"minecraft:yellow_flower\",\"minecraft:red_flower\",\"minecraft:brown_mushroom\",\"minecraft:red_mushroom\",\"minecraft:gold_block\",\"minecraft:iron_block\",\"minecraft:double_stone_slab\",\"minecraft:stone_slab\",\"minecraft:brick_block\",\"minecraft:tnt\",\"minecraft:bookshelf\",\"minecraft:mossy_cobblestone\",\"minecraft:obsidian\",\"minecraft:torch\",\"minecraft:fire\",\"minecraft:mob_spawner\",\"minecraft:oak_stairs\",\"minecraft:chest\",\"minecraft:redstone_wire\",\"minecraft:diamond_ore\",\"minecraft:diamond_block\",\"minecraft:crafting_table\",\"minecraft:wheat\",\"minecraft:farmland\",\"minecraft:furnace\",\"minecraft:lit_furnace\",\"minecraft:standing_sign\",\"minecraft:wooden_door\",\"minecraft:ladder\",\"minecraft:rail\",\"minecraft:stone_stairs\",\"minecraft:wall_sign\",\"minecraft:lever\",\"minecraft:stone_pressure_plate\",\"minecraft:iron_door\",\"minecraft:wooden_pressure_plate\",\"minecraft:redstone_ore\",\"minecraft:lit_redstone_ore\",\"minecraft:unlit_redstone_torch\",\"minecraft:redstone_torch\",\"minecraft:stone_button\",\"minecraft:snow_layer\",\"minecraft:ice\",\"minecraft:snow\",\"minecraft:cactus\",\"minecraft:clay\",\"minecraft:reeds\",\"minecraft:jukebox\",\"minecraft:fence\",\"minecraft:pumpkin\",\"minecraft:netherrack\",\"minecraft:soul_sand\",\"minecraft:glowstone\",\"minecraft:portal\",\"minecraft:lit_pumpkin\",\"minecraft:cake\",\"minecraft:unpowered_repeater\",\"minecraft:powered_repeater\",\"minecraft:stained_glass\",\"minecraft:trapdoor\",\"minecraft:monster_egg\",\"minecraft:stonebrick\",\"minecraft:brown_mushroom_block\",\"minecraft:red_mushroom_block\",\"minecraft:iron_bars\",\"minecraft:glass_pane\",\"minecraft:melon_block\",\"minecraft:pumpkin_stem\",\"minecraft:melon_stem\",\"minecraft:vine\",\"minecraft:fence_gate\",\"minecraft:brick_stairs\",\"minecraft:stone_brick_stairs\",\"minecraft:mycelium\",\"minecraft:waterlily\",\"minecraft:nether_brick\",\"minecraft:nether_brick_fence\",\"minecraft:nether_brick_stairs\",\"minecraft:nether_wart\",\"minecraft:enchanting_table\",\"minecraft:brewing_stand\",\"minecraft:cauldron\",\"minecraft:end_portal\",\"minecraft:end_portal_frame\",\"minecraft:end_stone\",\"minecraft:dragon_egg\",\"minecraft:redstone_lamp\",\"minecraft:lit_redstone_lamp\",\"minecraft:double_wooden_slab\",\"minecraft:wooden_slab\",\"minecraft:cocoa\",\"minecraft:sandstone_stairs\",\"minecraft:emerald_ore\",\"minecraft:ender_chest\",\"minecraft:tripwire_hook\",\"minecraft:tripwire\",\"minecraft:emerald_block\",\"minecraft:spruce_stairs\",\"minecraft:birch_stairs\",\"minecraft:jungle_stairs\",\"minecraft:command_block\",\"minecraft:beacon\",\"minecraft:cobblestone_wall\",\"minecraft:flower_pot\",\"minecraft:carrots\",\"minecraft:potatoes\",\"minecraft:wooden_button\",\"minecraft:skull\",\"minecraft:anvil\",\"minecraft:trapped_chest\",\"minecraft:light_weighted_pressure_plate\",\"minecraft:heavy_weighted_pressure_plate\",\"minecraft:unpowered_comparator\",\"minecraft:powered_comparator\",\"minecraft:daylight_detector\",\"minecraft:redstone_block\",\"minecraft:quartz_ore\",\"minecraft:hopper\",\"minecraft:quartz_block\",\"minecraft:quartz_stairs\",\"minecraft:activator_rail\",\"minecraft:dropper\",\"minecraft:stained_hardened_clay\",\"minecraft:stained_glass_pane\",\"minecraft:leaves2\",\"minecraft:log2\",\"minecraft:acacia_stairs\",\"minecraft:dark_oak_stairs\",\"minecraft:slime\",\"minecraft:barrier\",\"minecraft:iron_trapdoor\",\"minecraft:prismarine\",\"minecraft:sea_lantern\",\"minecraft:hay_block\",\"minecraft:carpet\",\"minecraft:hardened_clay\",\"minecraft:coal_block\",\"minecraft:packed_ice\",\"minecraft:double_plant\",\"minecraft:standing_banner\",\"minecraft:wall_banner\",\"minecraft:daylight_detector_inverted\",\"minecraft:red_sandstone\",\"minecraft:red_sandstone_stairs\",\"minecraft:double_stone_slab2\",\"minecraft:stone_slab2\",\"minecraft:spruce_fence_gate\",\"minecraft:birch_fence_gate\",\"minecraft:jungle_fence_gate\",\"minecraft:dark_oak_fence_gate\",\"minecraft:acacia_fence_gate\",\"minecraft:spruce_fence\",\"minecraft:birch_fence\",\"minecraft:jungle_fence\",\"minecraft:dark_oak_fence\",\"minecraft:acacia_fence\",\"minecraft:spruce_door\",\"minecraft:birch_door\",\"minecraft:jungle_door\",\"minecraft:acacia_door\",\"minecraft:dark_oak_door\",\"minecraft:end_rod\",\"minecraft:chorus_plant\",\"minecraft:chorus_flower\",\"minecraft:purpur_block\",\"minecraft:purpur_pillar\",\"minecraft:purpur_stairs\",\"minecraft:purpur_double_slab\",\"minecraft:purpur_slab\",\"minecraft:end_bricks\",\"minecraft:grass_path\",\"minecraft:end_gateway\",\"minecraft:structure_block\"]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gravel",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,ench:[{lvl:3s,id:16s},{lvl:1s,id:20s}],HideFlags:32,display:{Name:\"§8§lじゃりじゃり\"},AttributeModifiers:[{UUIDMost:1l,UUIDLeast:1l,Amount:2d,Slot:\"mainhand\",AttributeName:\"generic.maxHealth\",Operation:0,Name:\"wax\"},{UUIDMost:1l,UUIDLeast:2l,Amount:0.04d,Slot:\"mainhand\",AttributeName:\"generic.movementSpeed\",Operation:0,Name:\"wax\"},{UUIDMost:1l,UUIDLeast:3l,Amount:0.5d,Slot:\"mainhand\",AttributeName:\"generic.armor\",Operation:0,Name:\"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:golden_horse_armor",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,ench:[{lvl:1s,id:16s},{lvl:1s,id:17s}],HideFlags:32,display:{Name:\"§6§lポータルガン (黄)\"},AttributeModifiers:[{UUIDMost:2l,UUIDLeast:1l,Amount:0.5d,Slot:\"offhand\",AttributeName:\"generic.armor\",Operation:0,Name:\"wax\"},{UUIDMost:2l,UUIDLeast:2l,Amount:4d,Slot:\"offhand\",AttributeName:\"generic.maxHealth\",Operation:0,Name:\"wax\"},{UUIDMost:2l,UUIDLeast:3l,Amount:0.02d,Slot:\"offhand\",AttributeName:\"generic.knockbackResistance\",Operation:0,Name:\"wax\"},{UUIDMost:2l,UUIDLeast:4l,Amount:-0.01d,Slot:\"offhand\",AttributeName:\"generic.movementSpeed\",Operation:0,Name:\"wax\"},{UUIDMost:2l,UUIDLeast:5l,Amount:-0.03d,Slot:\"offhand\",AttributeName:\"generic.attackDamage\",Operation:0,Name:\"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond_horse_armor",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,ench:[{lvl:2s,id:16s},{lvl:2s,id:17s},{lvl:1s,id:20s}],HideFlags:32,display:{Name:\"§9§lポータルガン (青)\"},AttributeModifiers:[{UUIDMost:1l,UUIDLeast:1l,Amount:-0.5d,Slot:\"mainhand\",AttributeName:\"generic.armor\",Operation:0,Name:\"wax\"},{UUIDMost:1l,UUIDLeast:2l,Amount:-0.05d,Slot:\"mainhand\",AttributeName:\"generic.maxHealth\",Operation:2,Name:\"wax\"},{UUIDMost:1l,UUIDLeast:3l,Amount:-0.04d,Slot:\"mainhand\",AttributeName:\"generic.knockbackResistance\",Operation:0,Name:\"wax\"},{UUIDMost:1l,UUIDLeast:4l,Amount:0.03d,Slot:\"mainhand\",AttributeName:\"generic.movementSpeed\",Operation:0,Name:\"wax\"},{UUIDMost:1l,UUIDLeast:5l,Amount:0.1d,Slot:\"mainhand\",AttributeName:\"generic.attackDamage\",Operation:0,Name:\"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,ench:[{lvl:2,id:19},{lvl:3,id:16}],HideFlags:32,display:{Name:\"§6§lマスタフォフ\"},AttributeModifiers:[{UUIDMost:1l,UUIDLeast:1l,Amount:5d,Slot:\"mainhand\",AttributeName:\"generic.maxHealth\",Operation:0,Name:\"wax\"},{UUIDMost:1l,UUIDLeast:2l,Amount:0.04d,Slot:\"mainhand\",AttributeName:\"generic.movementSpeed\",Operation:0,Name:\"wax\"},{UUIDMost:1l,UUIDLeast:3l,Amount:0.5d,Slot:\"mainhand\",AttributeName:\"generic.attackDamage\",Operation:0,Name:\"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bookshelf",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,ench:[{lvl:3s,id:16s}],HideFlags:32,display:{Name:\"§4§l仏供御符\"},AttributeModifiers:[{UUIDMost:2l,UUIDLeast:1l,Amount:4d,Slot:\"offhand\",AttributeName:\"generic.maxHealth\",Operation:0,Name:\"wax\"},{UUIDMost:1l,UUIDLeast:1l,Amount:2d,Slot:\"mainhand\",AttributeName:\"generic.armor\",Operation:0,Name:\"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_chestplate",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,ench:[{lvl:2,id:0},{lvl:10,id:6}],HideFlags:32,display:{color:16751360,Name:\"§6§l救命胴衣\"},AttributeModifiers:[{UUIDMost:4l,UUIDLeast:1l,Amount:10d,Slot:\"chest\",AttributeName:\"generic.maxHealth\",Operation:0,Name:\"wax\"},{UUIDMost:4l,UUIDLeast:2l,Amount:0.08d,Slot:\"chest\",AttributeName:\"generic.movementSpeed\",Operation:0,Name:\"wax\"},{UUIDMost:4l,UUIDLeast:3l,Amount:0.01d,Slot:\"chest\",AttributeName:\"generic.attackDamage\",Operation:0,Name:\"wax\"}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stained_glass_pane",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_data",
+                            "data": 10
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{RepairCost:1000000000,ench:[{lvl:1s,id:20s},{lvl:2s,id:19s},{lvl:3s,id:16s}],HideFlags:32,display:{Name:\"§5§lムラサキカガミ\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{NoGravity:1b,RepairCost:1000000000,ench:[],display:{Lore:[\"§e使用すると、付近に設置されている\",\"§f白素材§eを強化することができる。\",\"§f白羊毛§eは§f雪ﾌﾞﾛｯｸ§eに、\",\"§f雪ﾌﾞﾛｯｸ§eは§f模様入りﾈｻﾞｰｸｫｰﾂ§eに変化する。\"],Name:\"§f§l白材強化の印板\"},EntityTag:{Tags:[\"SignStand\",\"WhiteUpgrader\",\"TypeChecked\"]},Invulnerable:1b,Invisible:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:armor_stand",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{NoGravity:1b,RepairCost:1000000000,ench:[],display:{Lore:[\"§r§e使用すると、付近に設置されている\",\"§r§7黒素材§r§eを強化することが出来る。\",\"§r§7砂利§r§eは§r§7灰色羊毛§r§eに、\",\"§r§7灰色羊毛§r§eは§r§7安山岩§r§eに変化する。\"],Name:\"§7§l黒材強化の印板\"},EntityTag:{Tags:[\"SignStand\",\"BlackUpgrader\",\"TypeChecked\"]},Invulnerable:1b,Invisible:1b}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:shield",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ench:[{lvl:3s,id:7s},{lvl:3s,id:19s},{lvl:3s,id:20s},{lvl:3s,id:16s},{lvl:3s,id:17s},{lvl:3s,id:18s}],RepairCost:1000000000,HideFlags:32,BlockEntityTag:{Patterns:[{Pattern:\"tr\",Color:15},{Pattern:\"mr\",Color:11},{Pattern:\"bo\",Color:11},{Pattern:\"moj\",Color:11},{Pattern:\"flo\",Color:1}],Base:11},display:{Name:\"§e§l金装飾の盾\"},AttributeModifiers:[]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:blaze_powder",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ench:[{id:50s,lvl:13s},{id:1s,lvl:13s},{id:20s,lvl:13s}],HideFlags:60,display:{Name:\"§c特炎\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_sword",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ench:[{id:49s,lvl:5s},{id:33s,lvl:5s},{id:21s,lvl:5s},{id:20s,lvl:5s},{id:50s,lvl:5s},{id:16s,lvl:5s},{id:0s,lvl:5s},{id:32s,lvl:5s}],display:{Name:\"§5イミテーション\",Lore:[\"効果は必ずしも叶うものではない\"]},CustomPotionEffects:[{Amplifier:-3b,Duration:3600,Id:1b,ShowParticles:1b},{Amplifier:-3b,Duration:3600,Id:3b,ShowParticles:1b}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stained_glass",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{AttributeModifiers:[{Name:\"wax100\",Amount:1.2d,Operation:0,UUIDLeast:1l,UUIDMost:1l,Slot:\"offhand\",AttributeName:\"generic.movementSpeed\"},{Name:\"wax100\",Amount:3d,Operation:0,UUIDLeast:2l,UUIDMost:1l,Slot:\"offhand\",AttributeName:\"generic.maxHealth\"}],ench:[{id:19s,lvl:3s}],display:{Name:\"§e§lアルクトゥルス\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"§9§lバルーンレギスタンス\"},HideFlags:63,CustomPotionEffects:[{Amplifier:-128b,Duration:0,Id:25b,ShowParticles:1b},{Amplifier:97b,Duration:0,Id:23b,ShowParticles:1b},{Amplifier:12b,Duration:60,Id:25b,ShowParticles:0b},{Amplifier:1b,Duration:360,Id:24b,ShowParticles:0b},{Amplifier:0b,Duration:1,Id:7b,ShowParticles:0b},{Amplifier:-5b,Duration:60,Id:11b,ShowParticles:0b}]}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

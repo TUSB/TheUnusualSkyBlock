@@ -1,0 +1,1077 @@
+﻿{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:nether_star",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 127
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "loot_table",
+                    "name": "usb:entities/ice/mob5",
+                    "weight": 2
+                },
+                {
+                    "type": "loot_table",
+                    "name": "usb:entities/ice/mob3",
+                    "weight": 3
+                },
+                {
+                    "type": "loot_table",
+                    "name": "usb:entities/ice/mob1",
+                    "weight": 5
+                },
+				{
+					"type": "item",
+					"name": "minecraft:golden_apple",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "minecraft:set_count",
+							"count": {
+								"min": 1,
+								"max": 2
+							}
+						}
+					]
+				}
+            ]
+        },
+		{
+			"rolls": {
+				"min": 1,
+				"max": 6
+		},
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:wooden_pickaxe",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{AttributeModifiers:[{Name:\"NoATK\",UUIDLeast:1l,Amount:-1d,Operation:2,UUIDMost:1l,Slot:\"mainhand\",AttributeName:\"generic.attackDamage\"},{Name:\"NoKBR\",UUIDLeast:2l,Amount:-1d,Operation:2,UUIDMost:1l,Slot:\"mainhand\",AttributeName:\"generic.knockbackResistance\"}],RepairCost:1000000000,ench:[],display:{Name:\"§4§lAdv.§f§lツルハシ\"},CanDestroy:[\"minecraft:mob_spawner\",\"minecraft:torch\",\"minecraft:web\",\"minecraft:vine\"]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:torch",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 24
+                            }
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{RepairCost:1000000000,ench:[],HideFlags:16,display:{Lore:[\"§rアドベンチャーエリアでも設置できる。\"],Name:\"§4§lAdv.§f§l松明\"},CanPlaceOn:[\"minecraft:stone\",\"minecraft:grass\",\"minecraft:dirt\",\"minecraft:cobblestone\",\"minecraft:planks\",\"minecraft:sapling\",\"minecraft:bedrock\",\"minecraft:flowing_water\",\"minecraft:water\",\"minecraft:flowing_lava\",\"minecraft:lava\",\"minecraft:sand\",\"minecraft:gravel\",\"minecraft:gold_ore\",\"minecraft:iron_ore\",\"minecraft:coal_ore\",\"minecraft:log\",\"minecraft:leaves\",\"minecraft:sponge\",\"minecraft:glass\",\"minecraft:lapis_ore\",\"minecraft:lapis_block\",\"minecraft:dispenser\",\"minecraft:sandstone\",\"minecraft:noteblock\",\"minecraft:bed\",\"minecraft:golden_rail\",\"minecraft:detector_rail\",\"minecraft:sticky_piston\",\"minecraft:web\",\"minecraft:tallgrass\",\"minecraft:deadbush\",\"minecraft:piston\",\"minecraft:piston_head\",\"minecraft:wool\",\"minecraft:piston_extension\",\"minecraft:yellow_flower\",\"minecraft:red_flower\",\"minecraft:brown_mushroom\",\"minecraft:red_mushroom\",\"minecraft:gold_block\",\"minecraft:iron_block\",\"minecraft:double_stone_slab\",\"minecraft:stone_slab\",\"minecraft:brick_block\",\"minecraft:tnt\",\"minecraft:bookshelf\",\"minecraft:mossy_cobblestone\",\"minecraft:obsidian\",\"minecraft:torch\",\"minecraft:fire\",\"minecraft:oak_stairs\",\"minecraft:chest\",\"minecraft:redstone_wire\",\"minecraft:diamond_ore\",\"minecraft:diamond_block\",\"minecraft:crafting_table\",\"minecraft:wheat\",\"minecraft:farmland\",\"minecraft:furnace\",\"minecraft:lit_furnace\",\"minecraft:standing_sign\",\"minecraft:wooden_door\",\"minecraft:ladder\",\"minecraft:rail\",\"minecraft:stone_stairs\",\"minecraft:wall_sign\",\"minecraft:lever\",\"minecraft:stone_pressure_plate\",\"minecraft:iron_door\",\"minecraft:wooden_pressure_plate\",\"minecraft:redstone_ore\",\"minecraft:lit_redstone_ore\",\"minecraft:unlit_redstone_torch\",\"minecraft:redstone_torch\",\"minecraft:stone_button\",\"minecraft:snow_layer\",\"minecraft:ice\",\"minecraft:snow\",\"minecraft:cactus\",\"minecraft:clay\",\"minecraft:reeds\",\"minecraft:jukebox\",\"minecraft:fence\",\"minecraft:pumpkin\",\"minecraft:netherrack\",\"minecraft:soul_sand\",\"minecraft:glowstone\",\"minecraft:portal\",\"minecraft:lit_pumpkin\",\"minecraft:cake\",\"minecraft:unpowered_repeater\",\"minecraft:powered_repeater\",\"minecraft:stained_glass\",\"minecraft:trapdoor\",\"minecraft:monster_egg\",\"minecraft:stonebrick\",\"minecraft:brown_mushroom_block\",\"minecraft:red_mushroom_block\",\"minecraft:iron_bars\",\"minecraft:glass_pane\",\"minecraft:melon_block\",\"minecraft:pumpkin_stem\",\"minecraft:melon_stem\",\"minecraft:vine\",\"minecraft:fence_gate\",\"minecraft:brick_stairs\",\"minecraft:stone_brick_stairs\",\"minecraft:mycelium\",\"minecraft:waterlily\",\"minecraft:nether_brick\",\"minecraft:nether_brick_fence\",\"minecraft:nether_brick_stairs\",\"minecraft:nether_wart\",\"minecraft:enchanting_table\",\"minecraft:brewing_stand\",\"minecraft:cauldron\",\"minecraft:end_portal\",\"minecraft:end_portal_frame\",\"minecraft:end_stone\",\"minecraft:dragon_egg\",\"minecraft:redstone_lamp\",\"minecraft:lit_redstone_lamp\",\"minecraft:double_wooden_slab\",\"minecraft:wooden_slab\",\"minecraft:cocoa\",\"minecraft:sandstone_stairs\",\"minecraft:emerald_ore\",\"minecraft:ender_chest\",\"minecraft:tripwire_hook\",\"minecraft:tripwire\",\"minecraft:emerald_block\",\"minecraft:spruce_stairs\",\"minecraft:birch_stairs\",\"minecraft:jungle_stairs\",\"minecraft:command_block\",\"minecraft:beacon\",\"minecraft:cobblestone_wall\",\"minecraft:flower_pot\",\"minecraft:carrots\",\"minecraft:potatoes\",\"minecraft:wooden_button\",\"minecraft:skull\",\"minecraft:anvil\",\"minecraft:trapped_chest\",\"minecraft:light_weighted_pressure_plate\",\"minecraft:heavy_weighted_pressure_plate\",\"minecraft:unpowered_comparator\",\"minecraft:powered_comparator\",\"minecraft:daylight_detector\",\"minecraft:redstone_block\",\"minecraft:quartz_ore\",\"minecraft:hopper\",\"minecraft:quartz_block\",\"minecraft:quartz_stairs\",\"minecraft:activator_rail\",\"minecraft:dropper\",\"minecraft:stained_hardened_clay\",\"minecraft:stained_glass_pane\",\"minecraft:leaves2\",\"minecraft:log2\",\"minecraft:acacia_stairs\",\"minecraft:dark_oak_stairs\",\"minecraft:slime\",\"minecraft:barrier\",\"minecraft:iron_trapdoor\",\"minecraft:prismarine\",\"minecraft:sea_lantern\",\"minecraft:hay_block\",\"minecraft:carpet\",\"minecraft:hardened_clay\",\"minecraft:coal_block\",\"minecraft:packed_ice\",\"minecraft:double_plant\",\"minecraft:standing_banner\",\"minecraft:wall_banner\",\"minecraft:daylight_detector_inverted\",\"minecraft:red_sandstone\",\"minecraft:red_sandstone_stairs\",\"minecraft:double_stone_slab2\",\"minecraft:stone_slab2\",\"minecraft:spruce_fence_gate\",\"minecraft:birch_fence_gate\",\"minecraft:jungle_fence_gate\",\"minecraft:dark_oak_fence_gate\",\"minecraft:acacia_fence_gate\",\"minecraft:spruce_fence\",\"minecraft:birch_fence\",\"minecraft:jungle_fence\",\"minecraft:dark_oak_fence\",\"minecraft:acacia_fence\",\"minecraft:spruce_door\",\"minecraft:birch_door\",\"minecraft:jungle_door\",\"minecraft:acacia_door\",\"minecraft:dark_oak_door\",\"minecraft:end_rod\",\"minecraft:chorus_plant\",\"minecraft:chorus_flower\",\"minecraft:purpur_block\",\"minecraft:purpur_pillar\",\"minecraft:purpur_stairs\",\"minecraft:purpur_double_slab\",\"minecraft:purpur_slab\",\"minecraft:end_bricks\",\"minecraft:grass_path\",\"minecraft:end_gateway\",\"minecraft:structure_block\"]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:web",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 12
+                            }
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{RepairCost:1000000000,ench:[],HideFlags:16,display:{Lore:[\"§rアドベンチャーエリアでも設置できる。\"],Name:\"§4§lAdv.§f§l蜘蛛の巣\"},CanPlaceOn:[\"minecraft:stone\",\"minecraft:grass\",\"minecraft:dirt\",\"minecraft:cobblestone\",\"minecraft:planks\",\"minecraft:sapling\",\"minecraft:bedrock\",\"minecraft:flowing_water\",\"minecraft:water\",\"minecraft:flowing_lava\",\"minecraft:lava\",\"minecraft:sand\",\"minecraft:gravel\",\"minecraft:gold_ore\",\"minecraft:iron_ore\",\"minecraft:coal_ore\",\"minecraft:log\",\"minecraft:leaves\",\"minecraft:sponge\",\"minecraft:glass\",\"minecraft:lapis_ore\",\"minecraft:lapis_block\",\"minecraft:dispenser\",\"minecraft:sandstone\",\"minecraft:noteblock\",\"minecraft:bed\",\"minecraft:golden_rail\",\"minecraft:detector_rail\",\"minecraft:sticky_piston\",\"minecraft:web\",\"minecraft:tallgrass\",\"minecraft:deadbush\",\"minecraft:piston\",\"minecraft:piston_head\",\"minecraft:wool\",\"minecraft:piston_extension\",\"minecraft:yellow_flower\",\"minecraft:red_flower\",\"minecraft:brown_mushroom\",\"minecraft:red_mushroom\",\"minecraft:gold_block\",\"minecraft:iron_block\",\"minecraft:double_stone_slab\",\"minecraft:stone_slab\",\"minecraft:brick_block\",\"minecraft:tnt\",\"minecraft:bookshelf\",\"minecraft:mossy_cobblestone\",\"minecraft:obsidian\",\"minecraft:torch\",\"minecraft:fire\",\"minecraft:oak_stairs\",\"minecraft:chest\",\"minecraft:redstone_wire\",\"minecraft:diamond_ore\",\"minecraft:diamond_block\",\"minecraft:crafting_table\",\"minecraft:wheat\",\"minecraft:farmland\",\"minecraft:furnace\",\"minecraft:lit_furnace\",\"minecraft:standing_sign\",\"minecraft:wooden_door\",\"minecraft:ladder\",\"minecraft:rail\",\"minecraft:stone_stairs\",\"minecraft:wall_sign\",\"minecraft:lever\",\"minecraft:stone_pressure_plate\",\"minecraft:iron_door\",\"minecraft:wooden_pressure_plate\",\"minecraft:redstone_ore\",\"minecraft:lit_redstone_ore\",\"minecraft:unlit_redstone_torch\",\"minecraft:redstone_torch\",\"minecraft:stone_button\",\"minecraft:snow_layer\",\"minecraft:ice\",\"minecraft:snow\",\"minecraft:cactus\",\"minecraft:clay\",\"minecraft:reeds\",\"minecraft:jukebox\",\"minecraft:fence\",\"minecraft:pumpkin\",\"minecraft:netherrack\",\"minecraft:soul_sand\",\"minecraft:glowstone\",\"minecraft:portal\",\"minecraft:lit_pumpkin\",\"minecraft:cake\",\"minecraft:unpowered_repeater\",\"minecraft:powered_repeater\",\"minecraft:stained_glass\",\"minecraft:trapdoor\",\"minecraft:monster_egg\",\"minecraft:stonebrick\",\"minecraft:brown_mushroom_block\",\"minecraft:red_mushroom_block\",\"minecraft:iron_bars\",\"minecraft:glass_pane\",\"minecraft:melon_block\",\"minecraft:pumpkin_stem\",\"minecraft:melon_stem\",\"minecraft:vine\",\"minecraft:fence_gate\",\"minecraft:brick_stairs\",\"minecraft:stone_brick_stairs\",\"minecraft:mycelium\",\"minecraft:waterlily\",\"minecraft:nether_brick\",\"minecraft:nether_brick_fence\",\"minecraft:nether_brick_stairs\",\"minecraft:nether_wart\",\"minecraft:enchanting_table\",\"minecraft:brewing_stand\",\"minecraft:cauldron\",\"minecraft:end_portal\",\"minecraft:end_portal_frame\",\"minecraft:end_stone\",\"minecraft:dragon_egg\",\"minecraft:redstone_lamp\",\"minecraft:lit_redstone_lamp\",\"minecraft:double_wooden_slab\",\"minecraft:wooden_slab\",\"minecraft:cocoa\",\"minecraft:sandstone_stairs\",\"minecraft:emerald_ore\",\"minecraft:ender_chest\",\"minecraft:tripwire_hook\",\"minecraft:tripwire\",\"minecraft:emerald_block\",\"minecraft:spruce_stairs\",\"minecraft:birch_stairs\",\"minecraft:jungle_stairs\",\"minecraft:command_block\",\"minecraft:beacon\",\"minecraft:cobblestone_wall\",\"minecraft:flower_pot\",\"minecraft:carrots\",\"minecraft:potatoes\",\"minecraft:wooden_button\",\"minecraft:skull\",\"minecraft:anvil\",\"minecraft:trapped_chest\",\"minecraft:light_weighted_pressure_plate\",\"minecraft:heavy_weighted_pressure_plate\",\"minecraft:unpowered_comparator\",\"minecraft:powered_comparator\",\"minecraft:daylight_detector\",\"minecraft:redstone_block\",\"minecraft:quartz_ore\",\"minecraft:hopper\",\"minecraft:quartz_block\",\"minecraft:quartz_stairs\",\"minecraft:activator_rail\",\"minecraft:dropper\",\"minecraft:stained_hardened_clay\",\"minecraft:stained_glass_pane\",\"minecraft:leaves2\",\"minecraft:log2\",\"minecraft:acacia_stairs\",\"minecraft:dark_oak_stairs\",\"minecraft:slime\",\"minecraft:barrier\",\"minecraft:iron_trapdoor\",\"minecraft:prismarine\",\"minecraft:sea_lantern\",\"minecraft:hay_block\",\"minecraft:carpet\",\"minecraft:hardened_clay\",\"minecraft:coal_block\",\"minecraft:packed_ice\",\"minecraft:double_plant\",\"minecraft:standing_banner\",\"minecraft:wall_banner\",\"minecraft:daylight_detector_inverted\",\"minecraft:red_sandstone\",\"minecraft:red_sandstone_stairs\",\"minecraft:double_stone_slab2\",\"minecraft:stone_slab2\",\"minecraft:spruce_fence_gate\",\"minecraft:birch_fence_gate\",\"minecraft:jungle_fence_gate\",\"minecraft:dark_oak_fence_gate\",\"minecraft:acacia_fence_gate\",\"minecraft:spruce_fence\",\"minecraft:birch_fence\",\"minecraft:jungle_fence\",\"minecraft:dark_oak_fence\",\"minecraft:acacia_fence\",\"minecraft:spruce_door\",\"minecraft:birch_door\",\"minecraft:jungle_door\",\"minecraft:acacia_door\",\"minecraft:dark_oak_door\",\"minecraft:end_rod\",\"minecraft:chorus_plant\",\"minecraft:chorus_flower\",\"minecraft:purpur_block\",\"minecraft:purpur_pillar\",\"minecraft:purpur_stairs\",\"minecraft:purpur_double_slab\",\"minecraft:purpur_slab\",\"minecraft:end_bricks\",\"minecraft:grass_path\",\"minecraft:end_gateway\",\"minecraft:structure_block\"]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:vine",
+					"weight": 1,
+					"functions": [
+						{
+							"function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 10
+                            }
+						},
+						{
+							"function": "set_nbt",
+							"tag": "{RepairCost:1000000000,ench:[],HideFlags:16,display:{Lore:[\"§rアドベンチャーエリアでも設置できる。\"],Name:\"§4§lAdv.§f§lツタ\"},CanPlaceOn:[\"minecraft:stone\",\"minecraft:grass\",\"minecraft:dirt\",\"minecraft:cobblestone\",\"minecraft:planks\",\"minecraft:sapling\",\"minecraft:bedrock\",\"minecraft:flowing_water\",\"minecraft:water\",\"minecraft:flowing_lava\",\"minecraft:lava\",\"minecraft:sand\",\"minecraft:gravel\",\"minecraft:gold_ore\",\"minecraft:iron_ore\",\"minecraft:coal_ore\",\"minecraft:log\",\"minecraft:leaves\",\"minecraft:sponge\",\"minecraft:glass\",\"minecraft:lapis_ore\",\"minecraft:lapis_block\",\"minecraft:dispenser\",\"minecraft:sandstone\",\"minecraft:noteblock\",\"minecraft:bed\",\"minecraft:golden_rail\",\"minecraft:detector_rail\",\"minecraft:sticky_piston\",\"minecraft:web\",\"minecraft:tallgrass\",\"minecraft:deadbush\",\"minecraft:piston\",\"minecraft:piston_head\",\"minecraft:wool\",\"minecraft:piston_extension\",\"minecraft:yellow_flower\",\"minecraft:red_flower\",\"minecraft:brown_mushroom\",\"minecraft:red_mushroom\",\"minecraft:gold_block\",\"minecraft:iron_block\",\"minecraft:double_stone_slab\",\"minecraft:stone_slab\",\"minecraft:brick_block\",\"minecraft:tnt\",\"minecraft:bookshelf\",\"minecraft:mossy_cobblestone\",\"minecraft:obsidian\",\"minecraft:torch\",\"minecraft:fire\",\"minecraft:oak_stairs\",\"minecraft:chest\",\"minecraft:redstone_wire\",\"minecraft:diamond_ore\",\"minecraft:diamond_block\",\"minecraft:crafting_table\",\"minecraft:wheat\",\"minecraft:farmland\",\"minecraft:furnace\",\"minecraft:lit_furnace\",\"minecraft:standing_sign\",\"minecraft:wooden_door\",\"minecraft:ladder\",\"minecraft:rail\",\"minecraft:stone_stairs\",\"minecraft:wall_sign\",\"minecraft:lever\",\"minecraft:stone_pressure_plate\",\"minecraft:iron_door\",\"minecraft:wooden_pressure_plate\",\"minecraft:redstone_ore\",\"minecraft:lit_redstone_ore\",\"minecraft:unlit_redstone_torch\",\"minecraft:redstone_torch\",\"minecraft:stone_button\",\"minecraft:snow_layer\",\"minecraft:ice\",\"minecraft:snow\",\"minecraft:cactus\",\"minecraft:clay\",\"minecraft:reeds\",\"minecraft:jukebox\",\"minecraft:fence\",\"minecraft:pumpkin\",\"minecraft:netherrack\",\"minecraft:soul_sand\",\"minecraft:glowstone\",\"minecraft:portal\",\"minecraft:lit_pumpkin\",\"minecraft:cake\",\"minecraft:unpowered_repeater\",\"minecraft:powered_repeater\",\"minecraft:stained_glass\",\"minecraft:trapdoor\",\"minecraft:monster_egg\",\"minecraft:stonebrick\",\"minecraft:brown_mushroom_block\",\"minecraft:red_mushroom_block\",\"minecraft:iron_bars\",\"minecraft:glass_pane\",\"minecraft:melon_block\",\"minecraft:pumpkin_stem\",\"minecraft:melon_stem\",\"minecraft:vine\",\"minecraft:fence_gate\",\"minecraft:brick_stairs\",\"minecraft:stone_brick_stairs\",\"minecraft:mycelium\",\"minecraft:waterlily\",\"minecraft:nether_brick\",\"minecraft:nether_brick_fence\",\"minecraft:nether_brick_stairs\",\"minecraft:nether_wart\",\"minecraft:enchanting_table\",\"minecraft:brewing_stand\",\"minecraft:cauldron\",\"minecraft:end_portal\",\"minecraft:end_portal_frame\",\"minecraft:end_stone\",\"minecraft:dragon_egg\",\"minecraft:redstone_lamp\",\"minecraft:lit_redstone_lamp\",\"minecraft:double_wooden_slab\",\"minecraft:wooden_slab\",\"minecraft:cocoa\",\"minecraft:sandstone_stairs\",\"minecraft:emerald_ore\",\"minecraft:ender_chest\",\"minecraft:tripwire_hook\",\"minecraft:tripwire\",\"minecraft:emerald_block\",\"minecraft:spruce_stairs\",\"minecraft:birch_stairs\",\"minecraft:jungle_stairs\",\"minecraft:command_block\",\"minecraft:beacon\",\"minecraft:cobblestone_wall\",\"minecraft:flower_pot\",\"minecraft:carrots\",\"minecraft:potatoes\",\"minecraft:wooden_button\",\"minecraft:skull\",\"minecraft:anvil\",\"minecraft:trapped_chest\",\"minecraft:light_weighted_pressure_plate\",\"minecraft:heavy_weighted_pressure_plate\",\"minecraft:unpowered_comparator\",\"minecraft:powered_comparator\",\"minecraft:daylight_detector\",\"minecraft:redstone_block\",\"minecraft:quartz_ore\",\"minecraft:hopper\",\"minecraft:quartz_block\",\"minecraft:quartz_stairs\",\"minecraft:activator_rail\",\"minecraft:dropper\",\"minecraft:stained_hardened_clay\",\"minecraft:stained_glass_pane\",\"minecraft:leaves2\",\"minecraft:log2\",\"minecraft:acacia_stairs\",\"minecraft:dark_oak_stairs\",\"minecraft:slime\",\"minecraft:barrier\",\"minecraft:iron_trapdoor\",\"minecraft:prismarine\",\"minecraft:sea_lantern\",\"minecraft:hay_block\",\"minecraft:carpet\",\"minecraft:hardened_clay\",\"minecraft:coal_block\",\"minecraft:packed_ice\",\"minecraft:double_plant\",\"minecraft:standing_banner\",\"minecraft:wall_banner\",\"minecraft:daylight_detector_inverted\",\"minecraft:red_sandstone\",\"minecraft:red_sandstone_stairs\",\"minecraft:double_stone_slab2\",\"minecraft:stone_slab2\",\"minecraft:spruce_fence_gate\",\"minecraft:birch_fence_gate\",\"minecraft:jungle_fence_gate\",\"minecraft:dark_oak_fence_gate\",\"minecraft:acacia_fence_gate\",\"minecraft:spruce_fence\",\"minecraft:birch_fence\",\"minecraft:jungle_fence\",\"minecraft:dark_oak_fence\",\"minecraft:acacia_fence\",\"minecraft:spruce_door\",\"minecraft:birch_door\",\"minecraft:jungle_door\",\"minecraft:acacia_door\",\"minecraft:dark_oak_door\",\"minecraft:end_rod\",\"minecraft:chorus_plant\",\"minecraft:chorus_flower\",\"minecraft:purpur_block\",\"minecraft:purpur_pillar\",\"minecraft:purpur_stairs\",\"minecraft:purpur_double_slab\",\"minecraft:purpur_slab\",\"minecraft:end_bricks\",\"minecraft:grass_path\",\"minecraft:end_gateway\",\"minecraft:structure_block\"]}"
+						}
+					]
+				},
+                {
+                    "type": "item",
+                    "name": "minecraft:coal",
+                    "weight": 6,
+                    "functions": [
+                        {
+							"function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_ingot",
+                    "weight": 6,
+                    "functions": [
+                        {
+							"function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:gold_ingot",
+                    "weight": 6,
+                    "functions": [
+                        {
+							"function": "set_count",
+                            "count": {
+                                "min": 12,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:diamond",
+                    "weight": 6,
+                    "functions": [
+                        {
+							"function": "set_count",
+                            "count": {
+                                "min": 14,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:vine",
+                    "weight": 6,
+                    "functions": [
+                        {
+							"function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:ice",
+                    "weight": 6,
+                    "functions": [
+                        {
+							"function": "set_count",
+                            "count": {
+                                "min": 32,
+                                "max": 128
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:packed_ice",
+                    "weight": 6,
+                    "functions": [
+                        {
+							"function": "set_count",
+                            "count": {
+                                "min": 16,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:fish",
+                    "weight": 6,
+                    "functions": [
+ 						{
+                            "function": "minecraft:set_data",
+                            "data": {
+                                "min": 0,
+                                "max": 3
+                            }
+                        },
+						{
+							"function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 32
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:rabbit_foot",
+                    "weight": 5,
+                    "functions": [
+                        {
+							"function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 16
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:rabbit_hide",
+                    "weight": 5,
+                    "functions": [
+                        {
+							"function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 24
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:porkchop",
+                    "weight": 5,
+                    "functions": [
+                        {
+							"function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 42
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bread",
+                    "weight": 5,
+                    "functions": [
+                        {
+							"function": "set_count",
+                            "count": {
+                                "min": 32,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potato",
+                    "weight": 5,
+                    "functions": [
+                        {
+							"function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 12
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:poisonous_potato",
+                    "weight": 5,
+                    "functions": [
+                        {
+							"function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 9
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:rotten_flesh",
+                    "weight": 5,
+                    "functions": [
+                        {
+							"function": "set_count",
+                            "count": {
+                                "min": 2,
+                                "max": 24
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:mushroom_stew",
+                    "weight": 4,
+                    "functions": [
+                        {
+							"function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:rabbit_stew",
+                    "weight": 4,
+                    "functions": [
+                        {
+							"function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:torch",
+                    "weight": 4,
+                    "functions": [
+                        {
+							"function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_boots",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_leggings",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_chestplate",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:leather_helmet",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:wooden_axe",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:stone_shovel",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_shovel",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:iron_axe",
+                    "weight": 3,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 10,
+                                "max": 30
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:arrow",
+                    "weight": 2,
+                    "functions": [
+                        {
+							"function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 64
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:pumpkin_pie",
+                    "weight": 2,
+                    "functions": [
+                        {
+							"function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 3
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:apple",
+                    "weight": 2,
+                    "functions": [
+                        {
+							"function": "set_count",
+                            "count": {
+                                "min": 3,
+                                "max": 20
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:bow",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "enchant_with_levels",
+                            "treasure": false,
+                            "levels": {
+                                "min": 1,
+                                "max": 30
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_damage",
+                            "damage": {
+                                "min": 0.2,
+                                "max": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:ender_pearl",
+                    "weight": 1,
+                    "functions": [
+                        {
+							"function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 4
+                            }
+                        }
+                    ]
+                }
+			]
+		},
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "minecraft:lingering_potion",
+					"weight": 12,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§f解毒薬\",Lore:[\"§3毒を以て毒を制すというコンセプトで\",\"§3作られたポーション。\"]},HideFlags:32,CustomPotionEffects:[{Amplifier:127b,Duration:0,Id:1b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:2b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:3b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:4b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:5b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:8b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:9b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:10b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:11b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:12b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:13b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:15b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:16b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:17b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:18b,ShowParticles:1b},{Amplifier:127b,Duration:0,Id:19b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:20b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:22b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:24b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:25b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:26b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:27b,ShowParticles:0b}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 12,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§2§lハイエーテル\",Lore:[\"§aマナがぽちょっと詰まった飲み物。\",\"§a飲むとMPが大きく回復する。\",\"\",\"§7スプラッシュ化不可\"]},HideFlags:32,CustomPotionEffects:[{Amplifier:0b,Duration:0,Id:26b,ShowParticles:1b},{Amplifier:2b,Duration:3,Id:14b,ShowParticles:0b}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 12,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionEffects:[{Amplifier:-128b,Duration:0,Id:25b,ShowParticles:1b},{Amplifier:124b,Duration:0,Id:26b,ShowParticles:1b},{Amplifier:0b,Duration:2147483647,Id:24b,ShowParticles:0b},{Amplifier:0b,Duration:60,Id:16b,ShowParticles:0b}],HideFlags:32,display:{Lore:[\"§f服用すると§e§l§oメッサヒカル\"],Name:\"§e§lメッサヒカル\"}}"
+						}
+					]
+				},
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 12,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:1200,Id:1b,Amplifier:16b},{ShowParticles:1b,Duration:200,Id:9b,Amplifier:0b},{ShowParticles:1b,Duration:1200,Id:16b,Amplifier:1b},{ShowParticles:1b,Duration:1200,Id:22b,Amplifier:1b}],HideFlags:32,display:{Lore:[\"§3氷土にて多大な功績を残した探検家が\",\"§3先住民により教わった特殊なレシピを\",\"§3使用して作った薬。\",\"§3ハイになれる。\"],Name:\"§r§6ヴァイキングの秘薬\"}}"
+                        }
+                    ]
+                },
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 12,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§e§lコーンスープ\",Lore:[\"§6心が温まるスープ。\",\"§6飲むとHPが回復する。\"]},HideFlags:32,CustomPotionEffects:[{Amplifier:0b,Duration:1,Id:6b,ShowParticles:0b},{Amplifier:0b,Duration:0,Id:12b,ShowParticles:1b}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 11,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionEffects:[{Amplifier:127b,Duration:0,Id:16b,ShowParticles:1b},{Amplifier:-128b,Duration:0,Id:25b,ShowParticles:1b},{Amplifier:10b,Duration:10,Id:25b,ShowParticles:0b},{Amplifier:0b,Duration:1,Id:7b,ShowParticles:0b},{Amplifier:3b,Duration:120,Id:1b,ShowParticles:0b},{Amplifier:6b,Duration:100,Id:8b,ShowParticles:0b}],HideFlags:32,display:{Lore:[\"§7短時間の間、敵から逃げるのに\",\"§7特化された体を手に入れる。\",\"§7忍者のように身軽に動く事ができる。\"],Name:\"§e§lΣジャンパー\"}}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 11,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{HideFlag:0,display:{Name:\"§e黄金蜂蜜酒\",Lore:[\"§6§o飲み薬。これを飲んだ者は、\",\"§6§o跳躍力と速度が上がり、\",\"§6§o傷の直りが早くなる体に生まれ変わる。\"]},HideFlags:32,CustomPotionEffects:[{Amplifier:2b,Duration:1200,Id:1b,ShowParticles:1b},{Amplifier:2b,Duration:1200,Id:8b,ShowParticles:1b},{Amplifier:0b,Duration:1200,Id:10b,ShowParticles:1b},{Amplifier:-100b,Duration:0,Id:12b,ShowParticles:1b}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§3眠くならない薬\",Lore:[\"§1§o容量用法を守って正しくお使いください。\"]},HideFlags:32,CustomPotionEffects:[{Amplifier:0b,Duration:1800,Id:16b,ShowParticles:1b},{Amplifier:3b,Duration:1800,Id:4b,ShowParticles:1b},{Amplifier:3b,Duration:1800,Id:18b,ShowParticles:1b},{Amplifier:1b,Duration:600,Id:8b,ShowParticles:1b},{Amplifier:1b,Duration:600,Id:19b,ShowParticles:1b}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:lingering_potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionEffects:[{Amplifier:0b,Duration:0,Id:19b,ShowParticles:1b},{Amplifier:1b,Duration:3,Id:14b,ShowParticles:0b}],HideFlags:32,display:{Lore:[\"§bマナがちょぴっと詰まった瓶。\",\"§b中身に触れるとMPが回復する。\"],Name:\"§3§lエリアエーテル\"}}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 10,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionEffects:[{Amplifier:2b,Duration:1,Id:6b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:13b,ShowParticles:1b},{Amplifier:-128b,Duration:0,Id:25b,ShowParticles:1b}],HideFlags:32,display:{Lore:[\"§6ｺｰﾝｽｰﾌﾟにﾊﾟﾝﾌﾟｷﾝを加え\",\"§6回復量が増加したもの。\"],Name:\"§e§lパンプキンスープ\"}}"
+						}
+					]
+				},
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 9,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 32
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:25b,Amplifier:-128b},{ShowParticles:1b,Duration:0,Id:13b,Amplifier:29b},{ShowParticles:0b,Duration:0,Id:5b,Amplifier:127b},{ShowParticles:0b,Duration:600,Id:18b,Amplifier:2b}],HideFlags:32,display:{Lore:[\"§7刺さった者の力を消滅させた後、弱らせる。\"],Name:\"§c§lレッドプリズム\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 9,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 32
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:25b,Amplifier:-128b},{ShowParticles:1b,Duration:0,Id:27b,Amplifier:127b},{ShowParticles:0b,Duration:0,Id:12b,Amplifier:127b},{ShowParticles:0b,Duration:100,Id:11b,Amplifier:-2b}],HideFlags:32,display:{Lore:[\"§7刺さった者の火への耐性を消滅させた後、柔らかくする。\"],Name:\"§6§lオレンジプリズム\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 9,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 32
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:25b,Amplifier:-128b},{ShowParticles:1b,Duration:0,Id:13b,Amplifier:127b},{ShowParticles:0b,Duration:0,Id:10b,Amplifier:127b},{ShowParticles:0b,Duration:600,Id:19b,Amplifier:2b}],HideFlags:32,display:{Lore:[\"§7刺さった者の再生能力を消滅させた後、毒を与える。\"],Name:\"§e§lイエロープリズム\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 9,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 32
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:25b,Amplifier:-128b},{ShowParticles:1b,Duration:0,Id:13b,Amplifier:113b},{ShowParticles:0b,Duration:0,Id:8b,Amplifier:127b},{ShowParticles:0b,Duration:1200,Id:24b,Amplifier:1b}],HideFlags:32,display:{Lore:[\"§7刺さった者の脚力を並にした後、発光させる。\"],Name:\"§a§lグリーンプリズム\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 9,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 32
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:25b,Amplifier:-128b},{ShowParticles:1b,Duration:0,Id:23b,Amplifier:87b},{ShowParticles:0b,Duration:0,Id:1b,Amplifier:127b},{ShowParticles:0b,Duration:600,Id:2b,Amplifier:2b}],HideFlags:32,display:{Lore:[\"§7刺さった者の移動力を並にした後、鈍足にする。\"],Name:\"§b§lシアンプリズム\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 9,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 32
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:25b,Amplifier:-128b},{ShowParticles:1b,Duration:0,Id:13b,Amplifier:118b},{ShowParticles:0b,Duration:0,Id:25b,Amplifier:127b},{ShowParticles:0b,Duration:200,Id:8b,Amplifier:-2b}],HideFlags:32,display:{Lore:[\"§7刺さった者の浮遊を解いた後、足を脆くする。\"],Name:\"§9§lブループリズム\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:tipped_arrow",
+                    "weight": 9,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 8,
+                                "max": 32
+                            }
+                        },
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:25b,Amplifier:-128b},{ShowParticles:1b,Duration:0,Id:13b,Amplifier:111b},{ShowParticles:0b,Duration:60,Id:11b,Amplifier:-2b},{ShowParticles:0b,Duration:60,Id:20b,Amplifier:2b}],HideFlags:32,display:{Lore:[\"§7刺さった者の防御力を下げた後、呪う。\"],Name:\"§d§lバイオレットプリズム\"}}"
+                        }
+                    ]
+                },
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 9,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§4§lレッドビート\",Lore:[\"§c滋養強壮に効くお薬。\",\"§c飲むと体が丈夫になる。\"]},HideFlags:32,CustomPotionEffects:[{Amplifier:0b,Duration:4820,Id:11b,ShowParticles:1b},{Amplifier:0b,Duration:100,Id:16b,ShowParticles:1b},{Amplifier:1b,Duration:4820,Id:22b,ShowParticles:1b},{Amplifier:0b,Duration:0,Id:5b,ShowParticles:1b},{Amplifier:0b,Duration:0,Id:5b,ShowParticles:1b},{Amplifier:0b,Duration:0,Id:5b,ShowParticles:1b},{Amplifier:0b,Duration:0,Id:5b,ShowParticles:1b},{Amplifier:0b,Duration:0,Id:5b,ShowParticles:1b},{Amplifier:0b,Duration:0,Id:5b,ShowParticles:1b},{Amplifier:0b,Duration:0,Id:5b,ShowParticles:1b},{Amplifier:0b,Duration:0,Id:5b,ShowParticles:1b}]}"
+						}
+					]
+				},
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 8,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ench:[{lvl:3s,id:17s}],CustomPotionEffects:[{Duration:0,Id:25b,Amplifier:-127b},{Duration:0,Id:27b,Amplifier:104b},{ShowParticles:0b,Duration:120,Id:16b,Amplifier:0b},{ShowParticles:0b,Duration:1200,Id:10b,Amplifier:0b},{ShowParticles:0b,Duration:60,Id:6b,Amplifier:2b},{ShowParticles:0b,Duration:1200,Id:22b,Amplifier:2b},{ShowParticles:0b,Duration:1200,Id:26b,Amplifier:0b},{ShowParticles:0b,Duration:120,Id:9b,Amplifier:0b}],HideFlags:33,display:{Lore:[\"§3泡立つしゅわっとした液体に\",\"§3神秘の輝きを放つ\",\"§3六角形の何かが§a§l１§3つ入っている。\",\"§360秒間の間、使用者の運を\",\"§e§lちょっぴり§3上昇させ傷を癒す。\"],Name:\"§r§e§k-§a§lハニカム §3§l-§b§lO§3§l- §a§lライト§e§k-§r\"}}"
+                        }
+                    ]
+                },
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§2§lスーパーエーテル\",Lore:[\"§aマナがたぽっと詰まった飲み物。\",\"§a飲むとMPがとても大きく回復する。\",\"\",\"§7スプラッシュ化不可\"]},HideFlags:32,CustomPotionEffects:[{Amplifier:0b,Duration:0,Id:26b,ShowParticles:1b},{Amplifier:3b,Duration:3,Id:14b,ShowParticles:0b}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionEffects:[{Amplifier:1b,Duration:1,Id:6b,ShowParticles:0b},{Amplifier:0b,Duration:600,Id:10b,ShowParticles:0b},{Amplifier:1b,Duration:600,Id:11b,ShowParticles:0b},{Amplifier:6b,Duration:600,Id:18b,ShowParticles:0b},{Amplifier:4b,Duration:1200,Id:26b,ShowParticles:0b},{Amplifier:-128b,Duration:0,Id:25b,ShowParticles:1b},{Amplifier:88b,Duration:0,Id:23b,ShowParticles:1b}],HideFlags:32,display:{Lore:[\"§a幸運§fを呼ぶと共に、\",\"§2§n逆境に立ち向かう力§fを失う。\"],Name:\"§a§l幸運の薬\"}}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§4§l不運の薬\",Lore:[\"§4不運§fを呼ぶと共に、\",\"§c§n逆境に立ち向かう力§fを与える。\"]},HideFlags:32,CustomPotionEffects:[{Amplifier:0b,Duration:600,Id:19b,ShowParticles:0b},{Amplifier:5b,Duration:600,Id:17b,ShowParticles:0b},{Amplifier:-2b,Duration:600,Id:11b,ShowParticles:0b},{Amplifier:6b,Duration:600,Id:5b,ShowParticles:0b},{Amplifier:4b,Duration:1200,Id:27b,ShowParticles:0b},{Amplifier:-128b,Duration:0,Id:25b,ShowParticles:1b},{Amplifier:111b,Duration:0,Id:23b,ShowParticles:1b}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 8,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionEffects:[{Amplifier:0b,Duration:0,Id:5b,ShowParticles:1b},{Amplifier:4b,Duration:3,Id:14b,ShowParticles:0b}],HideFlags:32,display:{Lore:[\"§dマナから作られた霊薬。\",\"§d飲むとHPとMPが半分回復する。\",\"\",\"§7スプラッシュ化不可\"],Name:\"§5§lエリクサー\"}}"
+						}
+					]
+				},
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 7,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:200,Id:8b,Amplifier:49b}],HideFlags:32,display:{Lore:[\"§6§oコレを使えば緊急時の上り下りが\",\"§6§o非常に楽になります！\",\"§4§o※ついでに落下死も増えます！\",\"§0§o梯子なんていらなかったんや！\"],Name:\"§dエレベータポーション\"}}"
+                        }
+                    ]
+                },
+				{
+					"type": "item",
+					"name": "minecraft:lingering_potion",
+					"weight": 6,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{CustomPotionEffects:[{Amplifier:0b,Duration:0,Id:19b,ShowParticles:1b},{Amplifier:2b,Duration:3,Id:14b,ShowParticles:0b}],HideFlags:32,display:{Lore:[\"§bマナがぽちょっと詰まった瓶。\",\"§b中身に触れるとMPが大きく回復する。\"],Name:\"§3§lエリアハイエーテル\"}}"
+						}
+					]
+				},
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ench:[{lvl:5s,id:17s}],CustomPotionEffects:[{Duration:0,Id:25b,Amplifier:-127b},{Duration:0,Id:27b,Amplifier:105b},{ShowParticles:0b,Duration:120,Id:16b,Amplifier:0b},{ShowParticles:0b,Duration:1200,Id:10b,Amplifier:0b},{ShowParticles:0b,Duration:60,Id:6b,Amplifier:3b},{ShowParticles:0b,Duration:1200,Id:22b,Amplifier:3b},{ShowParticles:0b,Duration:1200,Id:26b,Amplifier:1b},{ShowParticles:0b,Duration:120,Id:9b,Amplifier:0b}],HideFlags:33,display:{Lore:[\"§3泡立つしゅわっとした液体に\",\"§3神秘の輝きを放つ\",\"§3六角形の何かが§a§l２§3つ入っている。\",\"§360秒間の間、使用者の運を\",\"§e§l程々に§3上昇させ傷を癒す。\"],Name:\"§r§e§k-§a§lハニカム §3§l-§b§lW§3§l- §a§lスタンダード§e§k-§r\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 5,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:25b,Amplifier:-128b},{ShowParticles:1b,Duration:0,Id:13b,Amplifier:119b},{ShowParticles:0b,Duration:1800,Id:21b,Amplifier:0b},{ShowParticles:0b,Duration:1800,Id:22b,Amplifier:9b}],HideFlags:32,display:{Lore:[\"§9脳に働きかけ、\",\"§d自分の体力§9を§3§l錯覚§9させる雫。\",\"§1§mうそつきは耐久型のはじまり\"],Name:\"§3§l空音の雫\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 4,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:0,Id:25b,Amplifier:-128b},{ShowParticles:1b,Duration:0,Id:16b,Amplifier:93b},{ShowParticles:0b,Duration:1200,Id:18b,Amplifier:20b},{ShowParticles:0b,Duration:1200,Id:3b,Amplifier:4b}],HideFlags:32,display:{Lore:[\"§6鉱夫が§9§l精魂§6を込めて作ったドリンク。\",\"§e§n早い採掘§6が可能になるが、\",\"§d力が入らなく§6なってしまう。\"],Name:\"§6§lマインソウル\"}}"
+                        }
+                    ]
+                },
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 4,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§4§lレッドビート§6§lカオス\",Lore:[\"§cレッドビートに果汁を加え、\",\"§c吸収を早めたもの。\"]},HideFlags:32,CustomPotionEffects:[{Amplifier:1b,Duration:2420,Id:11b,ShowParticles:1b},{Amplifier:0b,Duration:100,Id:16b,ShowParticles:1b},{Amplifier:3b,Duration:2420,Id:22b,ShowParticles:1b},{Amplifier:-128b,Duration:0,Id:5b,ShowParticles:1b}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:lingering_potion",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§e§lノンデメリット\",Lore:[\"§6毒を以て毒を制すというコンセプトで\",\"§6作られたポーション。解毒薬の上位互換で\",\"§6マイナス効果のみを除去する。\"]},HideFlags:32,CustomPotionEffects:[{Amplifier:0b,Duration:0,Id:1b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:2b,ShowParticles:0b},{Amplifier:0b,Duration:0,Id:3b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:4b,ShowParticles:0b},{Amplifier:0b,Duration:0,Id:5b,ShowParticles:0b},{Amplifier:0b,Duration:0,Id:8b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:9b,ShowParticles:0b},{Amplifier:0b,Duration:0,Id:10b,ShowParticles:0b},{Amplifier:0b,Duration:0,Id:11b,ShowParticles:0b},{Amplifier:0b,Duration:0,Id:12b,ShowParticles:0b},{Amplifier:0b,Duration:0,Id:13b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:15b,ShowParticles:0b},{Amplifier:0b,Duration:0,Id:16b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:17b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:18b,ShowParticles:1b},{Amplifier:127b,Duration:0,Id:19b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:20b,ShowParticles:0b},{Amplifier:0b,Duration:0,Id:22b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:24b,ShowParticles:0b},{Amplifier:0b,Duration:0,Id:25b,ShowParticles:0b},{Amplifier:0b,Duration:0,Id:26b,ShowParticles:0b},{Amplifier:127b,Duration:0,Id:27b,ShowParticles:0b}]}"
+						}
+					]
+				},
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 3,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§a§lホバーギフト\",Lore:[\"§3服用すると5秒の間\",\"§3空中を平行移動できる。\"]},HideFlags:32,CustomPotionEffects:[{Amplifier:-128b,Duration:0,Id:3b,ShowParticles:1b},{Amplifier:-128b,Duration:0,Id:8b,ShowParticles:1b},{Amplifier:-1b,Duration:100,Id:25b,ShowParticles:1b}]}"
+						}
+					]
+				},
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{ench:[{lvl:7s,id:17s}],CustomPotionEffects:[{Duration:0,Id:25b,Amplifier:-127b},{Duration:0,Id:27b,Amplifier:106b},{ShowParticles:0b,Duration:120,Id:16b,Amplifier:0b},{ShowParticles:0b,Duration:1200,Id:10b,Amplifier:0b},{ShowParticles:0b,Duration:60,Id:6b,Amplifier:4b},{ShowParticles:0b,Duration:1200,Id:22b,Amplifier:4b},{ShowParticles:0b,Duration:1200,Id:26b,Amplifier:2b},{ShowParticles:0b,Duration:120,Id:9b,Amplifier:0b}],HideFlags:33,display:{Lore:[\"§3泡立つしゅわっとした液体に\",\"§3神秘の輝きを放つ\",\"§3六角形の何かが§a§l３§3つ入っている。\",\"§360秒間の間、使用者の運を\",\"§e§l大きく§3上昇させ傷を癒す。\"],Name:\"§r§e§k-§a§lハニカム §3§l-§b§lT§3§l- §a§l７７７§e§k-§r\"}}"
+                        }
+                    ]
+                },
+				{
+					"type": "item",
+					"name": "minecraft:potion",
+					"weight": 2,
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{display:{Name:\"§5§lラストエリクサー\",Lore:[\"§dマナから作られた霊薬。\",\"§d飲むとHPとMPが全回復する。\",\"\",\"§7スプラッシュ化不可\"]},HideFlags:32,CustomPotionEffects:[{Amplifier:0b,Duration:0,Id:5b,ShowParticles:1b},{Amplifier:5b,Duration:3,Id:14b,ShowParticles:0b}]}"
+						}
+					]
+				},
+                {
+                    "type": "item",
+                    "name": "minecraft:splash_potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:17760,Id:16b,Amplifier:0b}],HideFlags:40,display:{Lore:[\"この世界でしか手に入らない特殊な暗視薬\",\"製法もとうの昔に忘れ去られてしまったもの\"],Name:\"旧文明の遠目薬\"}}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "name": "minecraft:lingering_potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:1b,Duration:3,Id:6b,Amplifier:10b},{ShowParticles:1b,Duration:3,Id:14b,Amplifier:3b},{ShowParticles:1b,Duration:0,Id:25b,Amplifier:-127b},{ShowParticles:1b,Duration:0,Id:12b,Amplifier:-55b}],HideFlags:32,display:{Lore:[\"§5神秘の液体が詰まっている。\",\"§5中身に触れるとMPとHPが\",\"§5異常な速度で回復する。\"],Name:\"§c§lエ§6§lク§e§lス§a§lエ§3§lリ§9§lク§d§lサ§5§lー\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+	]
+}
