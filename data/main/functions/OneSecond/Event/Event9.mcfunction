@@ -1,2 +1,0 @@
-me 「空に何か浮かんでる！」
-summon minecraft:spawner_minecart ~ ~ ~ {Invulnerable:true,MinSpawnDelay:32767s,MaxSpawnDelay:32767s,SpawnCount:3s,SpawnRange:80s,RequiredPlayerRange:99s,MaxNearbyEntities:999s,SpawnPotentials:[{Weight:1}],Motion:[0d,1d,0d],SpawnData:{id:"minecraft:villager",Health:0f,DeathTime:19s,Passengers:[{id:"minecraft:shulker",DeathLootTable:"usb:events/box",Glowing:true,NoAI:true,CustomName:"玉手箱",CustomNameVisible:true,Health:40f,Attributes:[{Name:"generic.maxHealth",Base:40d},{Name:"generic.followRange",Base:16d}]}]},PortalCooldown:11,Delay:10s}
