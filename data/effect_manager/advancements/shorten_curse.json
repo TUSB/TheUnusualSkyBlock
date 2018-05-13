@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:command_block"
+        },
+        "title": "特別な呪い",
+        "description": "ガーディアンは特別な呪いをかけた。",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "curse_effects": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:mining_fatigue": {
+                        "amplifier" : 2,
+                        "duration" : 6000
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "effect_manager:shorten_curse"
+    }
+} 

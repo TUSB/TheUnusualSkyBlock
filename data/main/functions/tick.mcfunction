@@ -18,3 +18,9 @@ execute in the_nether as @a[x=0,y=0,z=0,dx=1,dy=1,dz=1] unless score @s Dimensio
 execute in the_nether as @a[x=0,y=0,z=0,dx=1,dy=1,dz=1] unless score @s Dimension matches 110 run function area_manager:on_change/nether_dungeon
 ##end
 execute in the_end as @a[x=0,y=0,z=0,dx=1,dy=1,dz=1] unless score @s Dimension matches 210 run function area_manager:on_change/end
+
+###エンティティ発生時処理
+execute as @e[tag=!Initialized] run function entity_manager:initialize_entity
+
+###エンティティ削除処理
+function entity_manager:kill_garbage
