@@ -11,11 +11,11 @@ tellraw @s[tag=ContainsItem] {"text":"エンダーチェスト内を含む\nア�
 ###ディメンション設定
 scoreboard players set @s[tag=!ContainsItem] Dimension 13
 ###ゲームモード設定
-scoreboard players tag @s[tag=!ContainsItem] add Adv
+tag @s[tag=!ContainsItem] add Adv
 ###共通処理
 function area_manager:on_change/common
 ###エンダーチェストOpenedリセットフラグ
-scoreboard players tag @s[tag=!ContainsItem] add ResetEnderChest
+tag @s[tag=!ContainsItem] add ResetEnderChest
 ###移動演出処理
 playsound minecraft:entity.elder_guardian.ambient master @s[tag=!ContainsItem] ~ ~ ~ 4 0.5 0
 title @s[tag=!ContainsItem] subtitle {"text":"= Table Mountain =","italic":"true","color":"dark_green"}

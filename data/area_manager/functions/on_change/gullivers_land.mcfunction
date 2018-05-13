@@ -5,7 +5,7 @@
 ###ディメンションスコア設定
 scoreboard players set @s Dimension 15
 ###ゲームモード設定
-scoreboard players tag @s add Adv
+tag @s add Adv
 ###共通処理
 function area_manager:on_change/common
 ###移動時演出処理

@@ -10,7 +10,7 @@ tellraw @s[tag=ContainsItem] {"text":"アイテム持ち込み禁止エリアで
 ###ディメンションスコア設定
 scoreboard players set @s[tag=!ContainsItem] Dimension 20
 ###ゲームモード設定
-scoreboard players tag @s[tag=!ContainsItem] add Adv
+tag @s[tag=!ContainsItem] add Adv
 ###共通処理
 function area_manager:on_change/common
 ###移動時演出処理
