@@ -5,6 +5,11 @@
 ### Mobタグ付与
 tag @s[type=!minecraft:player,nbt={Attributes:[{Name:"generic.maxHealth"}]}] add Mob
 
+### Slime系タグ付与
+tag @s[type=minecraft:slime] add Slimy
+tag @s[type=minecraft:magma_cube] add Slimy
+data merge entity @s[tag=Slimy,nbt={AbsorptionAmount:0f}] {DeathLootTable:"minecraft:empty",Tags:["Garbage"]}
+
 ### AbsorptionAmount付与
 execute as @s[tag=Mob,nbt={AbsorptionAmount:0f}] store result entity @s AbsorptionAmount float 1 run data get entity @s Health 1
 

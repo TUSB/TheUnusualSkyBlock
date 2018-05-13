@@ -22,5 +22,8 @@ execute in the_end as @a[x=0,y=0,z=0,dx=1,dy=1,dz=1] unless score @s Dimension m
 ###エンティティ発生時処理
 execute as @e[tag=!Initialized] run function entity_manager:initialize_entity
 
+###１秒処理
+execute unless entity 0-0-10-0-10 run function main:one_second
+
 ###エンティティ削除処理
 function entity_manager:kill_garbage
