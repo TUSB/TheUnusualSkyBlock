@@ -25,5 +25,11 @@ execute as @e[tag=!Initialized] run function entity_manager:initialize_entity
 ###１秒処理
 execute unless entity 0-0-10-0-10 run function main:one_second
 
+### スポナーカート空気時削除
+execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air run tag @e[dx=0,tag=Spawner] add Garbage
+
+### バリア乗り越えkill
+execute as @a at @s if block ~ 0 ~ minecraft:barrier if block ~ 255 ~ minecraft:barrier run kill @s
+
 ###エンティティ削除処理
 function entity_manager:kill_garbage
