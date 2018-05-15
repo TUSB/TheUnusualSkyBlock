@@ -3,8 +3,6 @@
 ##############################
 
 ### １秒エンティティ召喚
-
-
-
-
-#{Radius: 2.9349985f, DurationOnUse: 0, Invulnerable: 0b, PortalCooldown: 0, Particle: "minecraft:entity_effect", FallDistance: 0.0f, OwnerUUIDLeast: -5144814764661244801L, OwnerUUIDMost: -4992295424670152714L, Tags: ["Initialized"], Age: 22, Motion: [0.0d, 0.0d, 0.0d], ReapplicationDelay: 20, UUIDLeast: -8193996310144935690L, Potion: "minecraft:weakness", Duration: 600, Air: 300s, OnGround: 0b, Dimension: 0, Rotation: [0.0f, 0.0f], RadiusPerTick: -0.005f, UUIDMost: 3492668438446883693L, Pos: [-232.9114355253001d, 4.218315538288952d, 26.12362894854454d], Fire: -1s, RadiusOnUse: -0.5f, WaitTime: 10}
+summon minecraft:area_effect_cloud ~0.5 0 ~0.5 {Radius:0f,RadiusPerTick:0f,RadiusOnUse:0f,DurationOnUse:0,Invulnerable:true,Particle:"minecraft:block minecraft:air",Age:0,WaitTime:20,ReapplicationDelay:2147483647,Duration:0,UUIDMost:16L,UUIDLeast:16L}
+setblock ~ 0 ~ minecraft:portal keep
+summon minecraft:endermite ~0.5 0 ~0.5 {Lifetime:2394,Tags:[Initialized]}
