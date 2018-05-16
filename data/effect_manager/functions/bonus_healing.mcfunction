@@ -3,10 +3,10 @@
 ##############################
 
 ###ボーナス付与
-effect give @a minecraft:regeneration 10 5
+execute as @a run function effect_manager:bonus_healing_apply
 
 ###カウントリセット
 function calc_manager:update_random
 scoreboard players operation $Healing Count = $Random Global
-scoreboard players operation $Healing Count %= $100 Const
+scoreboard players operation $Healing Count %= $50 Const
 scoreboard players add $Healing Count 50

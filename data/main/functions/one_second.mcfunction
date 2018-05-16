@@ -19,7 +19,7 @@ tag @e[tag=FlyingObject,nbt={PortalCooldown:1}] add Garbage
 execute as @e[tag=FlyingObject] run data merge entity @s {PortalCooldown:1}
 
 ### デスポーンしない敵デスポーン処理
-execute as @e[tag=Mob,tag=!Animal] at @s unless entity @a[distance=..128] run tag @s add Garbage
+execute as @e[tag=Mob,tag=!Animal,nbt=!{PersistenceRequired:true}] at @s unless entity @a[distance=..128] run tag @s add Garbage
 
 ### ブロック設置敵処理
 execute as @e[tag=CanSpin] at @s positioned ~-0.5 ~ ~-0.5 run fill ~ ~ ~ ~1 ~1 ~1 minecraft:cobweb keep
