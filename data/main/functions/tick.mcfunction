@@ -33,3 +33,6 @@ execute as @a at @s if block ~ 0 ~ minecraft:barrier if block ~ 255 ~ minecraft:
 
 ###エンティティ削除処理
 function entity_manager:kill_garbage
+
+###カスタムHP回復
+execute as @a[scores={HealthHealing=1..}] run function effect_manager:health_healing

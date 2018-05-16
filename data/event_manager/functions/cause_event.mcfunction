@@ -10,5 +10,5 @@ tag @a add Pray
 execute as @a at @s run playsound minecraft:block.portal.travel master @s ~ ~100 ~ 10 0.5 1
 worldborder warning distance 1000000
 ### イベント発生時は１分処理を遅らせる
-scoreboard players set $Second Global -8
+scoreboard players set $Second Count -8
 
