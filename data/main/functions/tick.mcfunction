@@ -36,3 +36,6 @@ function entity_manager:kill_garbage
 
 ###カスタムHP回復
 execute as @a[scores={HealthHealing=1..}] run function effect_manager:health_healing
+
+###スニーク時処理
+execute as @a[scores={SneakTime=1..}] run function calc_manager:sneak
