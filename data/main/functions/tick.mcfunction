@@ -31,12 +31,6 @@ execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air run tag @e[dx=
 ### バリア乗り越えkill
 execute as @a at @s if block ~ 0 ~ minecraft:barrier if block ~ 255 ~ minecraft:barrier run kill @s
 
-###エンティティ削除処理
-function entity_manager:kill_garbage
-
-###カスタムHP回復
-execute as @a[scores={HealthHealing=1..}] run function effect_manager:health_healing
-
 ###スニーク時処理
 execute as @a[scores={SneakTime=1..}] run function calc_manager:sneak
 
@@ -47,3 +41,14 @@ scoreboard players operation バースト MP < $99999 Const
 
 ###アイアンウィル
 execute as @a[tag=IronWill] run function skill_manager:iron_will_load
+
+###スキルエッグ
+execute as @a[scores={UseModeEgg=1..}] run function item_manager:change_mode
+execute as @a[scores={UseSupportRed=1..}] run function item_manager:use_red_egg
+execute as @a[scores={UseSupportBlue=1..}] run function item_manager:use_blue_egg
+
+###エンティティ削除処理
+function entity_manager:kill_garbage
+
+###カスタムHP回復
+execute as @a[scores={HealthHealing=1..}] run function effect_manager:health_healing
