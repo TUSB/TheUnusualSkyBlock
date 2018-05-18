@@ -39,3 +39,11 @@ execute as @a[scores={HealthHealing=1..}] run function effect_manager:health_hea
 
 ###スニーク時処理
 execute as @a[scores={SneakTime=1..}] run function calc_manager:sneak
+
+###バースト現象
+execute if score #Aura MP > $10000 Const run scoreboard players remove #Aura MP 1
+execute unless score バースト MP = #Aura MP run scoreboard players operation バースト MP = #Aura MP
+scoreboard players operation バースト MP < $99999 Const
+
+###アイアンウィル
+execute as @a[tag=IronWill] run function skill_manager:iron_will_load

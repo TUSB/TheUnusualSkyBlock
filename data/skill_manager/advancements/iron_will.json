@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:command_block"
+        },
+        "title": "アイアンウィル",
+        "description": "鋼の心で踏みとどまった",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "damage_taken": {
+            "trigger": "minecraft:entity_hurt_player"
+        }
+    },
+    "rewards": {
+        "function": "skill_manager:iron_will"
+    }
+} 
