@@ -14,9 +14,9 @@ execute as @s[tag=!InWater] at @s run summon minecraft:item ~ ~ ~ {Item:{id:"min
 scoreboard players set @s[tag=!InWater] TorchCount 3
 
 ###水中処理
-execute as @s[tag=InWater] store result score $Count TorchCount run clear @s minecraft:torch 50
+execute as @s[tag=InWater] store result score $Torch TorchCount run clear @s minecraft:torch 50
 execute as @s[tag=InWater] at @s run summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:lever",Count:1b,tag:{display:{Name:["§7消えた松明"],Lore:["§r火が消えてしまった松明。","§r篝火で火を付け直せる。"]}}},Health:1000f,PickupDelay:0s,Tags:[UnmodifiedTorch]}
-execute store result entity @e[tag=UnmodifiedTorch,limit=1] Item.Count byte 1 run scoreboard players get $Count TorchCount
+execute store result entity @e[tag=UnmodifiedTorch,limit=1] Item.Count byte 1 run scoreboard players get $Torch TorchCount
 data merge entity @e[tag=UnmodifiedTorch,limit=1] {Tags:[Initialized]}
 execute as @s[tag=InWater] run scoreboard players set @s TorchCount 1
 tag @s[tag=InWater] remove InWater

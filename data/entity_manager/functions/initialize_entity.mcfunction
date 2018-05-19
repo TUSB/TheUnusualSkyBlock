@@ -1,9 +1,9 @@
 ##############################
-### エンティティ削除処理
+### エンティティ初期化処理
 ##############################
 
 ### Mobタグ付与
-tag @s[type=!minecraft:player,nbt={Attributes:[{Name:"generic.maxHealth"}]}] add Mob
+tag @s[type=!minecraft:player,nbt={Attributes:[{Name:"generic.followRange"}]}] add Mob
 
 ### Slime系タグ付与
 tag @s[type=minecraft:slime] add Slimy
@@ -12,6 +12,53 @@ data merge entity @s[tag=Slimy,nbt={AbsorptionAmount:0f}] {DeathLootTable:"minec
 
 ### AbsorptionAmount付与
 execute as @s[tag=Mob,nbt={AbsorptionAmount:0f}] store result entity @s AbsorptionAmount float 1 run data get entity @s Health 1
+data merge entity @s[tag=Mob] {Attributes:[{Name:"generic.maxHealth",Base:1024}],Health:1024f}
+
+### 飛翔物属性付与
+tag @s[type=minecraft:arrow] add Projectile
+tag @s[type=minecraft:dragon_fireball] add Projectile
+tag @s[type=minecraft:egg] add Projectile
+tag @s[type=minecraft:ender_pearl] add Projectile
+#tag @s[type=minecraft:eye_of_ender_signal] add Projectile
+tag @s[type=minecraft:fireball] add Projectile
+tag @s[type=minecraft:potion] add Projectile
+tag @s[type=minecraft:shulker_bullet] add Projectile
+tag @s[type=minecraft:small_fireball] add Projectile
+tag @s[type=minecraft:snowball] add Projectile
+tag @s[type=minecraft:wither_skull] add Projectile
+tag @s[type=minecraft:xp_bottle] add Projectile
+
+### スポナーカート属性
+tag @s[type=minecraft:armor_stand,nbt={Passengers:[{id:"minecraft:spawner_minecart"}]}] add SpawnerCore
+
+### プレイヤー初期化
+execute as @s[type=minecraft:player] store result score @s ID run data get entity @s UUIDMost 0.0000000001
+
+
+tag @s[type=minecraft:area_effect_cloud] add 
+tag @s[type=minecraft:boat] add 
+tag @s[type=minecraft:chest_minecart] add 
+tag @s[type=minecraft:commandblock_minecart] add 
+tag @s[type=minecraft:ender_crystal] add 
+tag @s[type=minecraft:evocation_fangs] add 
+tag @s[type=minecraft:falling_block] add 
+tag @s[type=minecraft:fireworks_rocket] add 
+tag @s[type=minecraft:furnace_minecart] add 
+tag @s[type=minecraft:hopper_minecart] add 
+tag @s[type=minecraft:item] add 
+tag @s[type=minecraft:item_frame] add 
+tag @s[type=minecraft:leash_knot] add 
+tag @s[type=minecraft:llama_spit] add 
+tag @s[type=minecraft:minecart] add 
+tag @s[type=minecraft:painting] add 
+tag @s[type=minecraft:spawner_minecart] add 
+tag @s[type=minecraft:spectral_arrow] add 
+tag @s[type=minecraft:tnt] add 
+tag @s[type=minecraft:tnt_minecart] add 
+tag @s[type=minecraft:xp_orb] add 
+
+
+
 
 ### Initialized付与
 tag @s add Initialized

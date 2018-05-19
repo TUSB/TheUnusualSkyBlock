@@ -31,8 +31,6 @@ execute if score $Second Count matches 20.. run function main:one_second
 execute as @a at @s run function puppet_manager:puppet_move
 
 
-
-
 ### スポナーカート空気時削除
 execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air run tag @e[dx=0,tag=Spawner] add Garbage
 
@@ -40,14 +38,12 @@ execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air run tag @e[dx=
 execute as @a at @s if block ~ 0 ~ minecraft:barrier if block ~ 255 ~ minecraft:barrier run kill @s
 
 
-
-
 ###スニーク時処理
 execute as @a[scores={SneakTime=1..}] run function calc_manager:sneak
 
 ###バースト現象
 execute if score #Aura MP > $10000 Const run scoreboard players remove #Aura MP 1
-execute unless score バースト MP = #Aura MP run scoreboard players operation バースト MP = #Aura MP
+scoreboard players operation バースト MP = #Aura MP
 scoreboard players operation バースト MP < $99999 Const
 
 ###アイアンウィル

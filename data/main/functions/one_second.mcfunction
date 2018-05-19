@@ -16,11 +16,15 @@ scoreboard players remove @a[scores={Dimension=16}] TorchCount 1
 execute as @a[scores={TorchCount=..0}] run function item_manager:tocult_torch
 
 ### 飛翔物読み込み範囲外削除
-tag @e[tag=FlyingObject,nbt={PortalCooldown:1}] add Garbage
-execute as @e[tag=FlyingObject] run data merge entity @s {PortalCooldown:1}
+tag @e[tag=Projectile,nbt={PortalCooldown:1}] add Garbage
+execute as @e[tag=Projectile] run data merge entity @s {PortalCooldown:1}
 
 ### デスポーンしない敵デスポーン処理
 execute as @e[tag=Mob,tag=!Animal,nbt=!{PersistenceRequired:true}] at @s unless entity @a[distance=..128] run tag @s add Garbage
+
+### スポナーカート処理
+execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air run kill @s
+execute as @e[type=minecraft:spawner_minecart] at @s positioned ~-0.001 ~-0.001 ~-0.001 unless entity @e[dx=0.002,dy=0.002,dz=0.002,nbt={Passengers:[{}]},limit=1] run tag @s add Garbage
 
 ### ブロック設置敵処理
 execute as @e[tag=CanSpin] at @s positioned ~-0.5 ~ ~-0.5 run fill ~ ~ ~ ~1 ~1 ~1 minecraft:cobweb keep

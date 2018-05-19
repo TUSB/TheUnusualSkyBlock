@@ -7,14 +7,14 @@
 
 ###マスタータグ付与(不要)
 ###リンクID読み込み
-scoreboard players operation $LinkId PuppetLink = @s PuppetLink
+scoreboard players operation $PuppetID ID = @s ID
 
 ###子パペットタグ付与
-execute as @e[tag=Puppet] if score @s PuppetLink = $LinkId PuppetLink run tag @s add ActivePuppet
+execute as @e[tag=Puppet] if score @s ID = $PuppetID ID run tag @s add ActivePuppet
 
 ###次位置タグ付与(不要)
 ###パペット移動
-execute as @e[distance=..32,tag=PuppetNext] if score @s PuppetLink = $LinkId PuppetLink at @s run tp @e[tag=ActivePuppet,limit=1] ~ ~ ~
+execute as @e[distance=..32,tag=PuppetNext] if score @s ID = $PuppetID ID at @s run tp @e[tag=ActivePuppet,limit=1] ~ ~ ~
 
 ###次ターゲットタグ付与
 ##マスターが遠い場合
