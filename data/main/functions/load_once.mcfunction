@@ -55,3 +55,7 @@ execute if score $RndMWC Global matches ..0 run scoreboard players operation $Rn
 execute if score $RndMWCCarry Global matches ..0 run scoreboard players operation $RndMWCCarry Global *= $-1 Const
 scoreboard players operation $RndMWC Global %= $MWCBase Const
 scoreboard players operation $RndMWCCarry Global /= $MWCBase Const
+
+###チーム作成
+team add NoCollision 衝突判定なし
+team option NoCollision collisionRule never
