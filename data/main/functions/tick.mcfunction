@@ -23,13 +23,24 @@ execute in the_end as @a[x=0,y=0,z=0,dx=1,dy=1,dz=1] unless score @s Dimension m
 execute as @e[tag=!Initialized] run function entity_manager:initialize_entity
 
 ###１秒処理
-execute unless entity 0-0-10-0-10 run function main:one_second
+#execute unless entity 0-0-10-0-10 run function main:one_second
+scoreboard players add $Second Count 1
+execute if score $Second Count matches 20.. run function main:one_second
+
+###パペット移動
+execute as @a at @s run function puppet_manager:puppet_move
+
+
+
 
 ### スポナーカート空気時削除
 execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air run tag @e[dx=0,tag=Spawner] add Garbage
 
 ### バリア乗り越えkill
 execute as @a at @s if block ~ 0 ~ minecraft:barrier if block ~ 255 ~ minecraft:barrier run kill @s
+
+
+
 
 ###スニーク時処理
 execute as @a[scores={SneakTime=1..}] run function calc_manager:sneak
