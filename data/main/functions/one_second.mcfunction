@@ -8,6 +8,9 @@
 ##summon minecraft:item ~0.5 0.5 ~0.5 {Item:{id:"minecraft:stone",Count:1b},Age:5997s,Tags:[Initialized]}
 scoreboard players set $Second Count 0
 
+###パペットステータス反映
+execute as @a run function puppet_manager:load_settings
+
 ### 死の宣告処理
 execute as @a[scores={DoomCount=1..}] run function effect_manager:doom
 

@@ -27,6 +27,11 @@ scoreboard objectives add ShowSkillNo dummy 表示スキル番号
 ###スキル系
 scoreboard objectives add BurstTrigger dummy バースト発動カウント
 scoreboard objectives add IronWill dummy アイアンウィル
+###からくり士スキル系
+scoreboard objectives add PuppetScore dummy パペット制御用スコア
+scoreboard objectives add PupRecordLevel dummy レコード特性のレベル
+scoreboard objectives add PupRecordType dummy レコードの種類
+scoreboard objectives add PupRecordSlot dummy レコードのスロット
 
 ###定数
 scoreboard players set $-1 Const -1
@@ -59,3 +64,51 @@ scoreboard players operation $RndMWCCarry Global /= $MWCBase Const
 ###チーム作成
 team add NoCollision 衝突判定なし
 team option NoCollision collisionRule never
+
+###ゲームルール系
+setworldspawn 10 4 10
+
+
+###エンティティ系
+#$CloseAttack 1
+#$CloseRangeAttack 2
+#$LongAttack 3
+#$LongRangeAttack 4
+#$EffectAttack 5
+
+#$Defense 6
+#$HealthCure 7
+#$EffectCure 8
+#$MagicCure 9
+
+#$Fly 10
+#$Swim 11
+#$Mobility 12
+
+summon minecraft:area_effect_cloud ~ ~ ~ {Radius:0f,RadiusPerTick:0f,RadiusOnUse:0f,DurationOnUse:0,Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Tags:[Initialized,PupRecordEntity],CustomName:"[\"CloseAttack\"]"}
+scoreboard players set @e[name=CloseAttack] PupRecordType 1
+summon minecraft:area_effect_cloud ~ ~ ~ {Radius:0f,RadiusPerTick:0f,RadiusOnUse:0f,DurationOnUse:0,Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Tags:[Initialized,PupRecordEntity],CustomName:"[\"CloseRangeAttack\"]"}
+scoreboard players set @e[name=CloseRangeAttack] PupRecordType 2
+summon minecraft:area_effect_cloud ~ ~ ~ {Radius:0f,RadiusPerTick:0f,RadiusOnUse:0f,DurationOnUse:0,Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Tags:[Initialized,PupRecordEntity],CustomName:"[\"LongAttack\"]"}
+scoreboard players set @e[name=LongAttack] PupRecordType 3
+summon minecraft:area_effect_cloud ~ ~ ~ {Radius:0f,RadiusPerTick:0f,RadiusOnUse:0f,DurationOnUse:0,Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Tags:[Initialized,PupRecordEntity],CustomName:"[\"LongRangeAttack\"]"}
+scoreboard players set @e[name=LongRangeAttack] PupRecordType 4
+summon minecraft:area_effect_cloud ~ ~ ~ {Radius:0f,RadiusPerTick:0f,RadiusOnUse:0f,DurationOnUse:0,Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Tags:[Initialized,PupRecordEntity],CustomName:"[\"EffectAttack\"]"}
+scoreboard players set @e[name=EffectAttack] PupRecordType 5
+
+summon minecraft:area_effect_cloud ~ ~ ~ {Radius:0f,RadiusPerTick:0f,RadiusOnUse:0f,DurationOnUse:0,Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Tags:[Initialized,PupRecordEntity],CustomName:"[\"Defense\"]"}
+scoreboard players set @e[name=Defense] PupRecordType 6
+summon minecraft:area_effect_cloud ~ ~ ~ {Radius:0f,RadiusPerTick:0f,RadiusOnUse:0f,DurationOnUse:0,Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Tags:[Initialized,PupRecordEntity],CustomName:"[\"HealthCure\"]"}
+scoreboard players set @e[name=HealthCure] PupRecordType 7
+summon minecraft:area_effect_cloud ~ ~ ~ {Radius:0f,RadiusPerTick:0f,RadiusOnUse:0f,DurationOnUse:0,Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Tags:[Initialized,PupRecordEntity],CustomName:"[\"EffectCure\"]"}
+scoreboard players set @e[name=EffectCure] PupRecordType 8
+summon minecraft:area_effect_cloud ~ ~ ~ {Radius:0f,RadiusPerTick:0f,RadiusOnUse:0f,DurationOnUse:0,Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Tags:[Initialized,PupRecordEntity],CustomName:"[\"MagicCure\"]"}
+scoreboard players set @e[name=MagicCure] PupRecordType 9
+
+summon minecraft:area_effect_cloud ~ ~ ~ {Radius:0f,RadiusPerTick:0f,RadiusOnUse:0f,DurationOnUse:0,Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Tags:[Initialized,PupRecordEntity],CustomName:"[\"Fly\"]"}
+scoreboard players set @e[name=Fly] PupRecordType 10
+summon minecraft:area_effect_cloud ~ ~ ~ {Radius:0f,RadiusPerTick:0f,RadiusOnUse:0f,DurationOnUse:0,Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Tags:[Initialized,PupRecordEntity],CustomName:"[\"Swim\"]"}
+scoreboard players set @e[name=Swim] PupRecordType 11
+summon minecraft:area_effect_cloud ~ ~ ~ {Radius:0f,RadiusPerTick:0f,RadiusOnUse:0f,DurationOnUse:0,Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Tags:[Initialized,PupRecordEntity],CustomName:"[\"Mobility\"]"}
+scoreboard players set @e[name=Mobility] PupRecordType 12
+
