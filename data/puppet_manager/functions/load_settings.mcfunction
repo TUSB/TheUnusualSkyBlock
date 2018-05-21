@@ -168,10 +168,9 @@ execute if score $PupMaxRecordType PupRecordType matches 1..2 run tag @s add Pup
 execute if score $PupMaxRecordType PupRecordType matches 3..5 run tag @s add PupPriorLong
 execute if score $PupMaxRecordType PupRecordType matches 6..12 run tag @s add PupPriorMaster
 ##機動力設定
-scoreboard players operation @s PuppetMobility = @e[tag=PupRecordEntity,name=Mobility] PupRecordLevel
-scoreboard players operation @s PuppetSwimmable = @e[tag=PupRecordEntity,name=Swim] PupRecordLevel
-scoreboard players operation @s PuppetFlyable = @e[tag=PupRecordEntity,name=Fly] PupRecordLevel
-
+scoreboard players operation @s PupMobility = @e[tag=PupRecordEntity,name=Mobility] PupRecordLevel
+scoreboard players operation @s PupSwimmability = @e[tag=PupRecordEntity,name=Swim] PupRecordLevel
+scoreboard players operation @s PupFlyability = @e[tag=PupRecordEntity,name=Fly] PupRecordLevel
 
 ###行動不可能なものがあるかチェックする
 execute at @e[tag=TargetPuppet,limit=1] run function puppet_manager:action/check_unable

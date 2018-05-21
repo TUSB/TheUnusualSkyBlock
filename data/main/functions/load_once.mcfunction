@@ -32,9 +32,9 @@ scoreboard objectives add PuppetScore dummy パペット制御用スコア
 scoreboard objectives add PupRecordLevel dummy レコード特性のレベル
 scoreboard objectives add PupRecordType dummy レコードの種類
 scoreboard objectives add PupRecordSlot dummy レコードのスロット
-scoreboard objectives add PuppetSwimmable dummy パペット水中機動力
-scoreboard objectives add PuppetFlyable dummy パペット空中機動力
-scoreboard objectives add PuppetMobility dummy パペット陸上機動力
+scoreboard objectives add PupSwimmability dummy パペット水中機動力
+scoreboard objectives add PupFlyability dummy パペット空中機動力
+scoreboard objectives add PupMobility dummy パペット陸上機動力
 scoreboard objectives add PupCurrentSlot dummy パペット行動スロット
 
 
@@ -48,6 +48,8 @@ scoreboard players set $20 Const 20
 scoreboard players set $30 Const 30
 scoreboard players set $50 Const 50
 scoreboard players set $100 Const 100
+scoreboard players set $200 Const 200
+scoreboard players set $300 Const 300
 scoreboard players set $10000 Const 10000
 scoreboard players set $99999 Const 99999
 scoreboard players set $100000 Const 100000
