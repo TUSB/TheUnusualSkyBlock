@@ -38,8 +38,8 @@ execute as @e[tag=PuppetNext] if score @s ID = $PuppetID ID at @s run function p
 
 ###登れるときは登る
 execute if score $FallingHeight PuppetScore matches ..99 if score $CrimbingGap PuppetScore matches 50..100 positioned as @e[tag=ActiveDownSearcher,limit=1] run tp @e[tag=ActivePuppet,limit=1] ~ ~ ~
-execute if score $FallingHeight PuppetScore matches 100..199 if score $CrimbingGap PuppetScore matches 50..299 positioned as @e[tag=ActiveDownSearcher,limit=1] run tp @e[tag=ActivePuppet,limit=1] ~ ~ ~
-execute if score $FallingHeight PuppetScore matches 200.. if score $CrimbingGap PuppetScore matches 50..499 positioned as @e[tag=ActiveDownSearcher,limit=1] run tp @e[tag=ActivePuppet,limit=1] ~ ~ ~
+execute if score $FallingHeight PuppetScore matches 100..199 if score $CrimbingGap PuppetScore matches 50..300 positioned as @e[tag=ActiveDownSearcher,limit=1] run tp @e[tag=ActivePuppet,limit=1] ~ ~ ~
+execute if score $FallingHeight PuppetScore matches 200.. if score $CrimbingGap PuppetScore matches 50..500 positioned as @e[tag=ActiveDownSearcher,limit=1] run tp @e[tag=ActivePuppet,limit=1] ~ ~ ~
 
 ###水中の時(アクロバットOFFの時)
 execute if score $Acrobat PuppetScore matches ..0 as @e[tag=ActivePuppet,limit=1] at @s if block ~ ~1.5 ~ minecraft:water run tp @s ~ ~1 ~
@@ -60,26 +60,22 @@ execute if entity @s[tag=!ActiveTarget,tag=PupPriorLong] run function puppet_man
 ##ターゲットがない場合はマスター
 execute if score $SeekFlag PuppetScore matches ..0 run function puppet_manager:set_next/master
 
-####次位置設定
-###アクロバットOFF・落下OFFの時、Speed = Mobility
-###アクロバットOFF・落下ON の時、Speet = Mobility
+###移動速度取得
+##アクロバットOFF・落下OFFの時、Speed = Mobility
+##アクロバットOFF・落下ON の時、Speet = Mobility
 execute if score $Acrobat PuppetScore matches ..0 run scoreboard players operation $Speed PuppetScore = @s PupMobility
-execute if score $Acrobat PuppetScore matches ..0 run scoreboard players add $Speed PuppetScore 100
-###アクロバットON ・落下ON の時、Speed = Flyablility or Swimmability
+##アクロバットON ・落下ON の時、Speed = Flyablility or Swimmability
 execute if score $Acrobat PuppetScore matches 1.. if score $Falling PuppetScore matches 1.. run scoreboard players operation $Speed PuppetScore = @s PupSwimmability
 execute if score $Acrobat PuppetScore matches 1.. if score $Falling PuppetScore matches 1.. run scoreboard players operation $Speed PuppetScore > @s PupFlyability
-##上限200
-execute if score $Acrobat PuppetScore matches 1.. if score $Falling PuppetScore matches 1.. run scoreboard players operation $Speed PuppetScore < $200 Const
-###アクロバットON ・落下OFFの時 、Speed = Mobility
+##アクロバットON ・落下OFFの時 、Speed = Mobility
 execute if score $Acrobat PuppetScore matches 1.. if score $Falling PuppetScore matches ..0 run scoreboard players operation $Speed PuppetScore = @s PupMobility
-execute if score $Acrobat PuppetScore matches 1.. if score $Falling PuppetScore matches ..0 run scoreboard players add $Speed PuppetScore 100
-##上限300
-scoreboard players operation $Speed PuppetScore < $300 Const
-###アクロバットOFFの時
+
+###次位置設定
+##アクロバットOFFの時
 execute if score $Acrobat PuppetScore matches ..0 store result score $SeekFlag PuppetScore if entity @e[tag=ActiveTarget,limit=1] as @e[tag=ActivePuppet,limit=1] at @s positioned ~ ~300 ~ rotated ~ 0 run function puppet_manager:set_next/position
-###アクロバットOFFの時で、ターゲットが結局ない時、落下を試みる
+##アクロバットOFFの時で、ターゲットが結局ない時、落下を試みる
 execute if score $Acrobat PuppetScore matches ..0 if score $SeekFlag PuppetScore matches ..0 as @e[tag=ActivePuppet,limit=1] at @s positioned ~ ~300 ~ rotated ~ 0 run function puppet_manager:set_next/falling_only
-###アクロバットONの時
+##アクロバットONの時
 execute if score $Acrobat PuppetScore matches 1.. if entity @e[tag=ActiveTarget,limit=1] as @e[tag=ActivePuppet,limit=1] at @s positioned ~ ~300 ~ run function puppet_manager:set_next/position
 
 ###遠隔攻撃優先の場合で、敵が近い時、向きをそちらにしたまま移動させる

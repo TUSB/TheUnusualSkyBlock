@@ -13,6 +13,6 @@ give @s minecraft:music_disc_far{display:{Name:"[\"§6§l体力回復力\"]",Lor
 give @s minecraft:music_disc_cat{display:{Name:"[\"§6§l状態異常回復力\"]",Lore:["§bパペットが状態異常回復支援をするようになる。","§rマスター状態異常回復LV1","§rマスター状態異常回復LV2","§rプレイヤー状態異常回復LV2"]},PupRecordType:8,HideFlags:32} 3
 give @s minecraft:music_disc_mellohi{display:{Name:"[\"§6§l魔力回復力\"]",Lore:["§bパペットが魔力回復支援をするようになる。","§rマスター魔力回復LV1","§rマスター魔力回復LV2","§rプレイヤー魔力回復LV2"]},PupRecordType:9,HideFlags:32} 3
 
-give @s minecraft:music_disc_wait{display:{Name:"[\"§6§l空中機動力\"]",Lore:["§bパペットやマスターの空中機動力が向上する。","§rパペット空中機動力LV1","§rパペット空中機動力LV2","§rパペット・マスター空中機動力LV2"]},PupRecordType:10,HideFlags:32} 3
-give @s minecraft:music_disc_mall{display:{Name:"[\"§6§l水中機動力\"]",Lore:["§bパペットやマスターの水中機動力が向上する。","§rパペット水中機動力LV1","§rパペット水中機動力LV2","§rパペット・マスター水中機動力LV2"]},PupRecordType:11,HideFlags:32} 3
+give @s minecraft:music_disc_wait{display:{Name:"[\"§6§l空中機動力\"]",Lore:["§bパペットやマスターの空中機動力が向上する。","§rパペット空中機動力LV2","§rパペット空中機動力LV3","§rパペット・マスター空中機動力LV3"]},PupRecordType:10,HideFlags:32} 3
+give @s minecraft:music_disc_mall{display:{Name:"[\"§6§l水中機動力\"]",Lore:["§bパペットやマスターの水中機動力が向上する。","§rパペット水中機動力LV2","§rパペット水中機動力LV3","§rパペット・マスター水中機動力LV3"]},PupRecordType:11,HideFlags:32} 3
 give @s minecraft:music_disc_ward{display:{Name:"[\"§6§l陸上機動力\"]",Lore:["§bパペットやマスターの陸上機動力が向上する。","§rパペット陸上機動力LV2","§rパペット陸上機動力LV3","§rパペット・マスター陸上機動力LV3"]},PupRecordType:12,HideFlags:32} 3

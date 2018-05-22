@@ -13,15 +13,15 @@
 #$CloseRangeAttack 2    近接範囲攻撃Lv1 近接範囲攻撃Lv2 近接範囲攻撃Lv3
 #$LongAttack 3          遠隔攻撃Lv1     遠隔攻撃Lv2     遠隔攻撃Lv3
 #$LongRangeAttack 4     遠隔範囲攻撃Lv1 遠隔範囲攻撃Lv2 遠隔範囲攻撃Lv3
-#$EffectAttack 5        状態異常単体攻撃Lv1 状態異常単体攻撃Lv2 状態異常範囲攻撃Lv2
+#$EffectAttack 5        状態異常遠隔単体攻撃Lv1 状態異常遠隔単体攻撃Lv2 状態異常遠隔範囲攻撃Lv2
 
 #$Defense 6             マスター防御Lv1     マスター防御Lv2     パーティ防御Lv2
 #$HealthCure 7          マスター体力回復Lv1 マスター体力回復Lv2 パーティ体力回復Lv2
 #$EffectCure 8          マスター異常回復Lv1 マスター異常回復Lv2 パーティ異常回復Lv2
 #$MagicCure 9           マスター魔力回復Lv1 マスター魔力回復Lv2 パーティ魔力回復Lv2
 
-#$Fly 10                自身空中機動力Lv1   自身空中機動力Lv2   マスター空中機動力Lv2
-#$Swim 11               自身水中機動力Lv1   自身水中機動力Lv2   マスター水中機動力Lv2
+#$Fly 10                自身空中機動力Lv2   自身空中機動力Lv3   マスター空中機動力Lv2
+#$Swim 11               自身水中機動力Lv2   自身水中機動力Lv3   マスター水中機動力Lv2
 #$Mobility 12           自身地上機動力Lv2   自身地上機動力Lv3   マスター地上機動力Lv3
 
 ###エンティティのPupRecordSlotは、優先度判定に使われる
@@ -166,7 +166,8 @@ tag @s remove PupPriorLong
 tag @s remove PupPriorMaster
 execute if score $PupMaxRecordType PupRecordType matches 1..2 run tag @s add PupPriorClose
 execute if score $PupMaxRecordType PupRecordType matches 3..5 run tag @s add PupPriorLong
-execute if score $PupMaxRecordType PupRecordType matches 6..12 run tag @s add PupPriorMaster
+execute if score $PupMaxRecordType PupRecordType matches 6..9 run tag @s add PupPriorMaster
+execute if score $PupMaxRecordType PupRecordType matches 10..12 run function puppet_manager:action/select_sub_mode
 ##機動力設定
 scoreboard players operation @s PupMobility = @e[tag=PupRecordEntity,name=Mobility] PupRecordLevel
 scoreboard players operation @s PupSwimmability = @e[tag=PupRecordEntity,name=Swim] PupRecordLevel

@@ -6,3 +6,6 @@
 execute store result score $CrimbingGap PuppetScore run data get entity @e[tag=ActiveDownSearcher,limit=1] Pos[1] 100
 execute store result score $CrimbingBase PuppetScore run data get entity @e[tag=ActivePuppet,limit=1] Pos[1] 100
 scoreboard players operation $CrimbingGap PuppetScore -= $CrimbingBase PuppetScore
+
+particle minecraft:cloud ~ ~ ~ 0 0 0 0 1
+execute at @e[tag=ActiveDownSearcher,limit=1] run particle minecraft:bubble ~ ~ ~ 0 0 0 0 1
