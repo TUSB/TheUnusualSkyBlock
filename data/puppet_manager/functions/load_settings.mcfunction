@@ -172,10 +172,12 @@ execute if score $PupMaxRecordType PupRecordType matches 10..12 run function pup
 scoreboard players operation @s PupMobility = @e[tag=PupRecordEntity,name=Mobility] PupRecordLevel
 scoreboard players operation @s PupSwimmability = @e[tag=PupRecordEntity,name=Swim] PupRecordLevel
 scoreboard players operation @s PupFlyability = @e[tag=PupRecordEntity,name=Fly] PupRecordLevel
+###マスター機動力補正
 effect give @s[scores={PupMobility=300..}] minecraft:speed 2 2
+effect give @s[scores={PupMobility=300..}] minecraft:jump_boost 2 2
 effect give @s[scores={PupSwimmability=300..}] minecraft:water_breathing 2 2
 effect give @s[scores={PupSwimmability=300..}] minecraft:dolphins_grace 2 2
-effect give @s[scores={PupFlyability=300..},x_rotation=-90..0] minecraft:levitation 2 0
+#effect give @s[scores={PupFlyability=300..},x_rotation=-90..0] minecraft:levitation 2 0
 effect give @s[scores={PupFlyability=300..}] minecraft:slow_falling 10 19
 
 ###行動不可能なものがあるかチェックする
@@ -189,7 +191,7 @@ scoreboard players operation @s PuppetWait -= @s[scores={ModeSkill=7121..7129,MP
 scoreboard players add @s[scores={PuppetWait=..-1,MP=3..}] PuppetWait 7120
 scoreboard players add @s[scores={ModeSkill=7121..7129,MP=3..}] MPConsumption 3
 ###カレントスロットとエンティティのスロットが等しい場合、行動系でないか、１００未満の場合、スロットを進める
-execute if score @s PuppetWait matches 0 if entity @e[tag=PupRecordEntity,scores={PupRecordLevel=100..,PupRecordType=..9},limit=1] run function puppet_manager:action/move_slot
+execute if score @s PuppetWait matches ..0 if entity @e[tag=PupRecordEntity,scores={PupRecordLevel=100..,PupRecordType=..9},limit=1] run function puppet_manager:action/move_slot
 scoreboard players add @s[scores={PuppetWait=..0}] PuppetWait 5
 ###スロット更新
 scoreboard players operation @s PupCurrentSlot = $Slot PupCurrentSlot

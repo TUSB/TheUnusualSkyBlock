@@ -9,7 +9,7 @@ scoreboard players set $Action PuppetScore 0
 ###マスターリンク
 tag @s add ActiveMaster
 ###パペット行動
-execute store success score $Action PuppetScore as @e[tag=PupRecordEntity,scores={PupRecordLevel=100..,PupRecordType=..9}] if score @s PupRecordSlot = $Slot PupCurrentSlot run function puppet_manager:action/do
+execute as @e[tag=PupRecordEntity,scores={PupRecordLevel=100..,PupRecordType=..9}] if score @s PupRecordSlot = $Slot PupCurrentSlot run function puppet_manager:action/do
 ###マスターリンク解除
 tag @s remove ActiveMaster
 ###スロット更新
