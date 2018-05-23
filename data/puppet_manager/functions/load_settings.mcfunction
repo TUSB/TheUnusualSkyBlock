@@ -172,6 +172,11 @@ execute if score $PupMaxRecordType PupRecordType matches 10..12 run function pup
 scoreboard players operation @s PupMobility = @e[tag=PupRecordEntity,name=Mobility] PupRecordLevel
 scoreboard players operation @s PupSwimmability = @e[tag=PupRecordEntity,name=Swim] PupRecordLevel
 scoreboard players operation @s PupFlyability = @e[tag=PupRecordEntity,name=Fly] PupRecordLevel
+effect give @s[scores={PupMobility=300..}] minecraft:speed 2 2
+effect give @s[scores={PupSwimmability=300..}] minecraft:water_breathing 2 2
+effect give @s[scores={PupSwimmability=300..}] minecraft:dolphins_grace 2 2
+effect give @s[scores={PupFlyability=300..},x_rotation=-90..0] minecraft:levitation 2 0
+effect give @s[scores={PupFlyability=300..}] minecraft:slow_falling 10 19
 
 ###行動不可能なものがあるかチェックする
 execute at @e[tag=TargetPuppet,limit=1] run function puppet_manager:action/check_unable
