@@ -7,7 +7,7 @@ scoreboard players reset @s[type=minecraft:player] KillCount
 
 ###バーストスコア設定
 scoreboard players add #Aura MP 1000
-scoreboard players operation #Aura MP < $112000 Count
+scoreboard players operation #Aura MP < $112000 Const
 
 ###回復スコア設定
 scoreboard players remove $Healing Count 1

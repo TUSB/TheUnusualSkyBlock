@@ -23,9 +23,9 @@ scoreboard players set $Acrobat PuppetScore 0
 execute if score @s PupFlyability matches 100.. at @e[tag=ActivePuppet,limit=1] unless block ~ ~ ~ minecraft:water run scoreboard players set $Acrobat PuppetScore 1
 execute if score @s PupSwimmability matches 100.. at @e[tag=ActivePuppet,limit=1] if block ~ ~ ~ minecraft:water run scoreboard players set $Acrobat PuppetScore 1
 
-###落下チェック
-scoreboard players set $Falling PuppetScore 0
-execute at @e[tag=ActivePuppet,limit=1] positioned ~ ~1.8 ~ unless entity @e[dy=10,tag=ActiveDownSearcher,limit=1] run scoreboard players set $Falling PuppetScore 1
+###落下チェック(パペット移動内に移動)
+#scoreboard players set $Falling PuppetScore 0
+#execute at @e[tag=ActivePuppet,limit=1] positioned ~ ~1.8 ~ unless entity @e[dy=10,tag=ActiveDownSearcher,limit=1] run scoreboard players set $Falling PuppetScore 1
 
 ###上昇チェック
 scoreboard players set $CrimbingGap PuppetScore 0

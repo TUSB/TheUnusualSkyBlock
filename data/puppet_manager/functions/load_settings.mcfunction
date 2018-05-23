@@ -176,9 +176,17 @@ scoreboard players operation @s PupFlyability = @e[tag=PupRecordEntity,name=Fly]
 ###行動不可能なものがあるかチェックする
 execute at @e[tag=TargetPuppet,limit=1] run function puppet_manager:action/check_unable
 
+###スロット保存
 scoreboard players operation $Slot PupCurrentSlot = @s PupCurrentSlot
+###ウェィトを計算
+scoreboard players remove @s PuppetWait 1
+scoreboard players operation @s PuppetWait -= @s[scores={ModeSkill=7121..7129,MP=3..}] ModeSkill
+scoreboard players add @s[scores={PuppetWait=..-1,MP=3..}] PuppetWait 7120
+scoreboard players add @s[scores={ModeSkill=7121..7129,MP=3..}] MPConsumption 3
 ###カレントスロットとエンティティのスロットが等しい場合、行動系でないか、１００未満の場合、スロットを進める
-execute if entity @e[tag=PupRecordEntity,scores={PupRecordLevel=100..,PupRecordType=..9},limit=1] run function puppet_manager:action/move_slot
+execute if score @s PuppetWait matches 0 if entity @e[tag=PupRecordEntity,scores={PupRecordLevel=100..,PupRecordType=..9},limit=1] run function puppet_manager:action/move_slot
+scoreboard players add @s[scores={PuppetWait=..0}] PuppetWait 5
+###スロット更新
 scoreboard players operation @s PupCurrentSlot = $Slot PupCurrentSlot
 
 

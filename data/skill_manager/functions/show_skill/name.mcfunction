@@ -20,5 +20,8 @@ execute if score @s ShowSkillNo matches 5000..5999 run function skill_manager:sh
 ###召喚士
 execute if score @s ShowSkillNo matches 6000..6999 run function skill_manager:show_skill/summoner
 
+###絡繰士
+execute if score @s ShowSkillNo matches 7000..7999 run function skill_manager:show_skill/puppet_master
+
 ###スコアリセット
 scoreboard players reset @s ShowSkillNo

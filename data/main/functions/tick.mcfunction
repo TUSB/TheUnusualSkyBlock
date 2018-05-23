@@ -54,6 +54,12 @@ execute as @a[scores={UseModeEgg=1..}] run function item_manager:change_mode
 execute as @a[scores={UseSupportRed=1..}] run function item_manager:use_red_egg
 execute as @a[scores={UseSupportBlue=1..}] run function item_manager:use_blue_egg
 
+### MP消費
+execute as @a run function skill_manager:update_mp
+
+###エンティティダメージ付与
+execute as @e[tag=Mob,scores={Damage=1..}] at @s run function entity_manager:apply_damage
+
 ###エンティティ削除処理
 function entity_manager:kill_garbage
 

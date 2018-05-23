@@ -6,6 +6,7 @@
 scoreboard objectives add HP health HP
 scoreboard objectives add MP dummy MP
 scoreboard objectives add MPMax dummy MP最大値
+scoreboard objectives add Level dummy レベル
 scoreboard objectives add Armor armor 防御力
 scoreboard objectives add KillCount playerKillCount 討伐数
 scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time スニーク時間
@@ -25,6 +26,9 @@ scoreboard objectives add ModeSkillRed dummy モードスキルルビー
 scoreboard objectives add ModeSkillBlue dummy モードスキルサファイア
 scoreboard objectives add ShowSkillNo dummy 表示スキル番号
 ###スキル系
+scoreboard objectives add MPHealingWait dummy MP回復ウェイト
+scoreboard objectives add MPConsumption dummy MP消費量
+scoreboard objectives add Damage dummy モブ付与ダメージ
 scoreboard objectives add BurstTrigger dummy バースト発動カウント
 scoreboard objectives add IronWill dummy アイアンウィル
 ###からくり士スキル系
@@ -36,6 +40,7 @@ scoreboard objectives add PupSwimmability dummy パペット水中機動力
 scoreboard objectives add PupFlyability dummy パペット空中機動力
 scoreboard objectives add PupMobility dummy パペット陸上機動力
 scoreboard objectives add PupCurrentSlot dummy パペット行動スロット
+scoreboard objectives add PuppetWait dummy パペット行動ウェイト
 
 
 ###定数
@@ -43,6 +48,7 @@ scoreboard players set $-1 Const -1
 scoreboard players set $2 Const 2
 scoreboard players set $3 Const 3
 scoreboard players set $4 Const 4
+scoreboard players set $5 Const 5
 scoreboard players set $10 Const 10
 scoreboard players set $20 Const 20
 scoreboard players set $30 Const 30
@@ -72,6 +78,8 @@ scoreboard players operation $RndMWCCarry Global /= $MWCBase Const
 ###チーム作成
 team add NoCollision 衝突判定なし
 team option NoCollision collisionRule never
+team option Friendly friendlyfire false
+team option Friendly collisionRule never
 
 ###ゲームルール系
 setworldspawn 10 4 10
