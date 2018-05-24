@@ -9,7 +9,7 @@
 scoreboard players set $Second Count 0
 
 ###パペットステータス反映
-execute as @a run function puppet_manager:load_settings
+execute as @a[tag=WithPuppet] run function puppet_manager:load_settings
 
 ### 死の宣告処理
 execute as @a[scores={DoomCount=1..}] run function effect_manager:doom

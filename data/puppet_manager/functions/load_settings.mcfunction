@@ -168,6 +168,11 @@ execute if score $PupMaxRecordType PupRecordType matches 1..2 run tag @s add Pup
 execute if score $PupMaxRecordType PupRecordType matches 3..5 run tag @s add PupPriorLong
 execute if score $PupMaxRecordType PupRecordType matches 6..9 run tag @s add PupPriorMaster
 execute if score $PupMaxRecordType PupRecordType matches 10..12 run function puppet_manager:action/select_sub_mode
+tag @s remove PupHasClose
+tag @s remove PupHasLong
+execute if entity @e[tag=PuppetClose,scores={PupRecordLevel=100..},limit=1] run tag @s add PupHasClose
+execute if entity @e[tag=PuppetLong,scores={PupRecordLevel=100..},limit=1] run tag @s add PupHasLong
+
 ##機動力設定
 scoreboard players operation @s PupMobility = @e[tag=PupRecordEntity,name=Mobility] PupRecordLevel
 scoreboard players operation @s PupSwimmability = @e[tag=PupRecordEntity,name=Swim] PupRecordLevel

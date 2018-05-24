@@ -28,7 +28,7 @@ scoreboard players add $Second Count 1
 execute if score $Second Count matches 20.. run function main:one_second
 
 ###パペット移動
-execute as @a at @s run function puppet_manager:puppet_move
+execute as @a[tag=WithPuppet] at @s run function puppet_manager:puppet_move
 
 
 ### スポナーカート空気時削除

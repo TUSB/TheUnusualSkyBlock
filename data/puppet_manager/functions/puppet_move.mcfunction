@@ -14,6 +14,9 @@ scoreboard players operation $PuppetID ID = @s ID
 ###子パペットタグ付与
 execute as @e[tag=Puppet] if score @s ID = $PuppetID ID run tag @s add ActivePuppet
 
+###パペット不在時タグ削除
+execute unless entity @e[tag=ActivePuppet,limit=1] run tag @s remove WithPuppet
+
 ###ダウンサーチャーのみタグ付与
 execute as @e[tag=DownSearcher] if score @s ID = $PuppetID ID run tag @s add ActiveDownSearcher
 
@@ -29,8 +32,8 @@ execute if score @s PupSwimmability matches 100.. at @e[tag=ActivePuppet,limit=1
 
 ###上昇チェック
 scoreboard players set $CrimbingGap PuppetScore 0
-execute as @e[tag=ActivePuppet,limit=1] at @s positioned ~ ~-0.5 ~ unless entity @e[dy=-10,tag=ActiveDownSearcher,limit=1] run scoreboard players set $CrimbingGap PuppetScore 1
-execute if score $CrimbingGap PuppetScore matches 1.. as @e[tag=UpSearcher] if score @s ID = $PuppetID ID at @s positioned ~ ~-1 ~ if entity @e[dy=-10,tag=ActiveDownSearcher,limit=1] run function puppet_manager:crimbing/calc_gap
+execute as @e[tag=ActivePuppet,limit=1] at @s positioned ~-1 ~-0.5 ~-1 unless entity @e[dx=2,dy=-10,dz=2,tag=ActiveDownSearcher,limit=1] run scoreboard players set $CrimbingGap PuppetScore 1
+execute if score $CrimbingGap PuppetScore matches 1.. as @e[tag=UpSearcher] if score @s ID = $PuppetID ID at @s positioned ~-1 ~-1 ~-1 if entity @e[dx=2,dy=-10,dz=2,tag=ActiveDownSearcher,limit=1] run function puppet_manager:crimbing/calc_gap
 
 ####次位置タグ付与(不要)
 ####パペット移動
@@ -45,12 +48,12 @@ execute if score $FallingHeight PuppetScore matches 200.. if score $CrimbingGap 
 execute if score $Acrobat PuppetScore matches ..0 as @e[tag=ActivePuppet,limit=1] at @s if block ~ ~1.5 ~ minecraft:water run tp @s ~ ~1 ~
 
 ###糸切れ判定
-execute at @e[distance=48..,tag=Puppet,limit=1] run function puppet_manager:string_cut
+execute at @e[distance=36..,tag=ActivePuppet,limit=1] run function puppet_manager:string_cut
 
 ###次ターゲットタグ付与
 scoreboard players set $SeekFlag PuppetScore 0
 ##マスターが遠い場合
-execute if entity @e[distance=32..,tag=ActivePuppet,limit=1] run function puppet_manager:set_next/master
+execute if entity @e[distance=24..,tag=ActivePuppet,limit=1] run function puppet_manager:set_next/master
 ##マスター優先の場合
 execute if entity @s[tag=!ActiveTarget,tag=PupPriorMaster] run function puppet_manager:set_next/master
 ##近接攻撃優先の場合
@@ -67,7 +70,7 @@ execute if score $Acrobat PuppetScore matches ..0 run scoreboard players operati
 ##アクロバットON ・落下ON の時、Speed = Flyablility or Swimmability
 execute if score $Acrobat PuppetScore matches 1.. if score $Falling PuppetScore matches 1.. run scoreboard players operation $Speed PuppetScore = @s PupSwimmability
 execute if score $Acrobat PuppetScore matches 1.. if score $Falling PuppetScore matches 1.. run scoreboard players operation $Speed PuppetScore > @s PupFlyability
-##アクロバットON ・落下OFFの時 、Speed = Mobility
+##アクロバットON ・落下OFFの時、Speed = Mobility
 execute if score $Acrobat PuppetScore matches 1.. if score $Falling PuppetScore matches ..0 run scoreboard players operation $Speed PuppetScore = @s PupMobility
 
 ###次位置設定
@@ -78,8 +81,9 @@ execute if score $Acrobat PuppetScore matches ..0 if score $SeekFlag PuppetScore
 ##アクロバットONの時
 execute if score $Acrobat PuppetScore matches 1.. if entity @e[tag=ActiveTarget,limit=1] as @e[tag=ActivePuppet,limit=1] at @s positioned ~ ~300 ~ run function puppet_manager:set_next/position
 
-###遠隔攻撃優先の場合で、敵が近い時、向きをそちらにしたまま移動させる
-execute if entity @s[tag=PupPriorLong] as @e[tag=ActivePuppet,limit=1] at @s run tp @s ~ ~ ~ facing entity @e[distance=..16,tag=Mob,sort=nearest,limit=1]
+###攻撃可能距離で、敵が近い時、向きをそちらにしたまま移動させる
+execute if entity @s[tag=PupHasClose,tag=!PupHasLong] as @e[tag=ActivePuppet,limit=1] at @s run tp @s ~ ~ ~ facing entity @e[distance=..3,tag=Mob,sort=nearest,limit=1]
+execute if entity @s[tag=PupHasLong] as @e[tag=ActivePuppet,limit=1] at @s run tp @s ~ ~ ~ facing entity @e[distance=..17,tag=Mob,sort=nearest,limit=1]
 
 
 ###次ターゲットタグ削除
