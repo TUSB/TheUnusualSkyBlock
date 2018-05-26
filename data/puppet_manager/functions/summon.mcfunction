@@ -13,10 +13,10 @@ summon minecraft:stray ~ ~ ~ {Team:Friendly,ArmorItems:[{},{},{},{id:"minecraft:
 ###キャリア
 #summon minecraft:stray ~ ~ ~ {Team:Friendly,ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"a224f552-17ac-4286-aa28-91de69299ac1",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzBlZWU1OGI1ODQxNDY2ZGVlMTRiM2Y1NmU5ODQzODNjMjM5MDE4ODRmNTYwYjY0MGZiZWFjMDczMGNkMTZhZiJ9fX0="}]}}}}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:false}],NoAI:true,PersistenceRequired:true,Tags:[Initialized,Puppet,Initializing],Passengers:[{id:"minecraft:snowball",Passengers:[{id:"minecraft:snowball",Passengers:[{id:"minecraft:chest_minecart"}]}]}]}
 
-scoreboard players set @s Level 100
+scoreboard players set @s Level 50
 scoreboard players set @s MPMax 150
 scoreboard players set @s MP 150
-scoreboard players set @s ModeSkill 7124
+scoreboard players set @s ModeSkill 7125
 execute store result score @s ID run data get entity @s UUIDMost 0.0000000001
 clear @s
 function puppet_manager:give_records

@@ -3,7 +3,7 @@
 ##############################
 
 ### Mobタグ付与
-tag @s[type=!minecraft:player,nbt={Attributes:[{Name:"generic.followRange"}]}] add Mob
+tag @s[type=!minecraft:player,team=!Friendly,nbt={Attributes:[{Name:"generic.followRange"},{Name:"generic.attackDamage"}]}] add Mob
 
 ### Slime系タグ付与
 tag @s[type=minecraft:slime] add Slimy

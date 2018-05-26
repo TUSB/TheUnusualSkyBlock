@@ -3,7 +3,7 @@
 ##############################
 
 ###行動したフラグを立てる
-scoreboard players set $Action PuppetScore 1
+scoreboard players add $Action PuppetScore 1
 ###攻撃行動
 execute if entity @s[name=CloseAttack] at @e[tag=TargetPuppet,limit=1] run function puppet_manager:skill/close_attack
 execute if entity @s[name=CloseRangeAttack] at @e[tag=TargetPuppet,limit=1] at @e[distance=..3,tag=Mob,sort=nearest,limit=1] run function puppet_manager:skill/close_range_attack

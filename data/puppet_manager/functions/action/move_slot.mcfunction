@@ -4,8 +4,6 @@
 
 ###スロット下限→上限
 execute if score $Slot PupCurrentSlot matches ..0 run scoreboard players set $Slot PupCurrentSlot 9
-###行動フラグOFF
-scoreboard players set $Action PuppetScore 0
 ###マスターリンク
 tag @s add ActiveMaster
 ###パペット行動

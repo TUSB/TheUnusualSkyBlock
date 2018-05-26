@@ -183,7 +183,7 @@ effect give @s[scores={PupMobility=300..}] minecraft:jump_boost 2 2
 effect give @s[scores={PupSwimmability=300..}] minecraft:water_breathing 2 2
 effect give @s[scores={PupSwimmability=300..}] minecraft:dolphins_grace 2 2
 #effect give @s[scores={PupFlyability=300..},x_rotation=-90..0] minecraft:levitation 2 0
-effect give @s[scores={PupFlyability=300..}] minecraft:slow_falling 10 19
+effect give @s[scores={PupFlyability=300..}] minecraft:slow_falling 2 19
 
 ###行動不可能なものがあるかチェックする
 execute at @e[tag=TargetPuppet,limit=1] run function puppet_manager:action/check_unable
@@ -191,13 +191,16 @@ execute at @e[tag=TargetPuppet,limit=1] run function puppet_manager:action/check
 ###スロット保存
 scoreboard players operation $Slot PupCurrentSlot = @s PupCurrentSlot
 ###ウェィトを計算
-scoreboard players remove @s PuppetWait 1
-scoreboard players operation @s PuppetWait -= @s[scores={ModeSkill=7121..7129,MP=3..}] ModeSkill
-scoreboard players add @s[scores={PuppetWait=..-1,MP=3..}] PuppetWait 7120
-scoreboard players add @s[scores={ModeSkill=7121..7129,MP=3..}] MPConsumption 3
-###カレントスロットとエンティティのスロットが等しい場合、行動系でないか、１００未満の場合、スロットを進める
+scoreboard players remove @s PuppetWait 2
+###非マルチスレッド時オーバークロック適用 2→3→4→5→6→7
+execute if entity @s[scores={MultiThread=..0,ModeSkill=7121..7129,MP=3..}] run function puppet_manager:action/apply/overclock
+###行動フラグOFF
+scoreboard players set $Action PuppetScore 0
+###マルチスレッド適用
+execute if score @s MultiThread matches 1.. run function puppet_manager:action/apply/multithread
+###カレントスロットとエンティティのスロットが等しい場合、機動力系でないか、１００未満の場合、スロットを進める
 execute if score @s PuppetWait matches ..0 if entity @e[tag=PupRecordEntity,scores={PupRecordLevel=100..,PupRecordType=..9},limit=1] run function puppet_manager:action/move_slot
-scoreboard players add @s[scores={PuppetWait=..0}] PuppetWait 6
+scoreboard players add @s[scores={PuppetWait=..0}] PuppetWait 10
 ###スロット更新
 scoreboard players operation @s PupCurrentSlot = $Slot PupCurrentSlot
 
