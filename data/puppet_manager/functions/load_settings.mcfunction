@@ -197,7 +197,7 @@ scoreboard players add @s[scores={PuppetWait=..-1,MP=3..}] PuppetWait 7120
 scoreboard players add @s[scores={ModeSkill=7121..7129,MP=3..}] MPConsumption 3
 ###カレントスロットとエンティティのスロットが等しい場合、行動系でないか、１００未満の場合、スロットを進める
 execute if score @s PuppetWait matches ..0 if entity @e[tag=PupRecordEntity,scores={PupRecordLevel=100..,PupRecordType=..9},limit=1] run function puppet_manager:action/move_slot
-scoreboard players add @s[scores={PuppetWait=..0}] PuppetWait 5
+scoreboard players add @s[scores={PuppetWait=..0}] PuppetWait 6
 ###スロット更新
 scoreboard players operation @s PupCurrentSlot = $Slot PupCurrentSlot
 

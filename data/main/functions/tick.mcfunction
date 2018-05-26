@@ -34,9 +34,11 @@ execute as @a[tag=WithPuppet] at @s run function puppet_manager:puppet_move
 ### スポナーカート空気時削除
 execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air run tag @e[dx=0,tag=Spawner] add Garbage
 
-### バリア乗り越えkill
-execute as @a at @s if block ~ 0 ~ minecraft:barrier if block ~ 255 ~ minecraft:barrier run kill @s
-
+### バリア乗り越え処理
+execute as @a at @s unless entity @s[y=-300,dy=555] run tp @s ~ 255 ~
+#execute as @a at @s if block ~ 0 ~ minecraft:barrier if block ~ 255 ~ minecraft:barrier run kill @s
+### 奈落kill
+execute as @a at @s if entity @s[y=-250,dy=50] run kill @s
 
 ###スニーク時処理
 execute as @a[scores={SneakTime=1..}] run function calc_manager:sneak
