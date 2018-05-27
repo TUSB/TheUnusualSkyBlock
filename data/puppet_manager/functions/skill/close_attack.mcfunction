@@ -9,4 +9,6 @@ execute if score @s PupRecordLevel matches 300.. run scoreboard players add @e[d
 
 #####演出開始#####
 
+#####test
+
 #####演出終了#####
