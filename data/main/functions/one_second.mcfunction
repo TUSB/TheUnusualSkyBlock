@@ -38,3 +38,6 @@ execute if score $Second Count matches 60 run function main:one_minute
 
 ### イベント演出戻し処理
 execute if score $Second Count matches -1 run function event_manager:reset_event
+
+### スキル変更不可時間更新
+scoreboard players remove @a ChangeSkillLimit 1

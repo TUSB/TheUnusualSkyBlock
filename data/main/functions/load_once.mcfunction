@@ -10,6 +10,7 @@ scoreboard objectives add Armor armor 防御力
 scoreboard objectives add KillCount playerKillCount 討伐数
 scoreboard objectives add TimeSinceDeath minecraft.custom:minecraft.time_since_death 生きている時間
 scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time スニーク時間
+scoreboard objectives add UseModeEgg minecraft.used:minecraft.polar_bear_spawn_egg モードチェンジ使用
 scoreboard objectives add UseSupportRed minecraft.used:minecraft.pig_spawn_egg サポートエッグルビー使用
 scoreboard objectives add UseSupportBlue minecraft.used:minecraft.drowned_spawn_egg サポートエッグサファイア使用
 ###変数や定数、カウンタ
@@ -43,8 +44,8 @@ scoreboard objectives add ModeSkill dummy 現在のモードスキル
 scoreboard objectives add ModeCost dummy 現在のモードスキルのコスト
 scoreboard objectives add ModeSkillRed dummy モードスキルルビー
 scoreboard objectives add ModeSkillBlue dummy モードスキルサファイア
-scoreboard objectives add ModeRedCost dummy モードスキルルビーのコスト
-scoreboard objectives add ModeBlueCost dummy モードスキルサファイアのコスト
+scoreboard objectives add ModeCostRed dummy モードスキルルビーのコスト
+scoreboard objectives add ModeCostBlue dummy モードスキルサファイアのコスト
 scoreboard objectives add ShowSkillNo dummy 表示スキル番号
 scoreboard objectives add ChangeModeRed trigger モードルビー変更番号
 scoreboard objectives add ChangeModeBlue trigger モードサファイア変更番号
@@ -56,6 +57,7 @@ scoreboard objectives add MPHealingWait dummy MP回復ウェイト
 scoreboard objectives add MPConsumption dummy MP消費量
 scoreboard objectives add Damage dummy モブ付与ダメージ
 scoreboard objectives add BurstTrigger dummy バースト発動カウント
+scoreboard objectives add ChangeSkillLimit dummy スキル変更不可時間
 ###スキル個別系
 scoreboard objectives add IronWill dummy 剣士アイアンウィル
 scoreboard objectives add MultiThread dummy 絡繰士マルチスレッド

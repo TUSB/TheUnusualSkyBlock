@@ -37,7 +37,6 @@ tag @s[type=minecraft:armor_stand,nbt={Passengers:[{id:"minecraft:spawner_mineca
 ### プレイヤー初期化
 execute as @s[type=minecraft:player] store result score @s ID run data get entity @s UUIDMost 0.0000000001
 
-
 tag @s[type=minecraft:area_effect_cloud] add 
 tag @s[type=minecraft:boat] add 
 tag @s[type=minecraft:chest_minecart] add 

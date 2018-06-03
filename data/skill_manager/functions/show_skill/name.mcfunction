@@ -2,6 +2,12 @@
 ### スキル名表示
 ##############################
 
+###未設定
+execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 0100..0199 run function skill_manager:show_skill/empty/mode/red
+execute if score @s[tag=ShowSkillBlue] ShowSkillNo matches 0100..0199 run function skill_manager:show_skill/empty/mode/blue
+execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 0200..0299 run function skill_manager:show_skill/empty/support/red
+execute if score @s[tag=ShowSkillBlue] ShowSkillNo matches 0200..0299 run function skill_manager:show_skill/empty/support/blue
+
 ###剣士
 execute if score @s ShowSkillNo matches 1000..1999 run function skill_manager:show_skill/knight
 
@@ -36,3 +42,6 @@ scoreboard players enable @s ChangeSupBlue
 tag @s remove ShowSkillRed
 tag @s remove ShowSkillBlue
 scoreboard players reset @s ShowSkillNo
+
+###演出
+execute at @s run playsound minecraft:ui.button.click master @s ~ ~ ~ 0.7 1

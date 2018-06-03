@@ -14,7 +14,7 @@ execute if score $Tmp Global matches 0 run tag @s add ModeRed
 scoreboard players operation @s[tag=ModeRed] ModeSkill = @s ModeSkillRed
 scoreboard players operation @s[tag=ModeBlue] ModeSkill = @s ModeSkillBlue
 scoreboard players operation @s[tag=ModeRed] ModeCost = @s ModeRedCost
-scoreboard players operation @s[tag=ModeRed] ModeCost = @s ModeBlueCost
+scoreboard players operation @s[tag=ModeBlue] ModeCost = @s ModeBlueCost
 
 ### メッセージ
 tellraw @s[tag=ModeRed] {"text":"ルビーモードにチェンジ！","color":"red","bold":true}

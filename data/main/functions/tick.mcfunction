@@ -4,7 +4,7 @@
 
 ###エリア移動
 ##overworld
-execute in overworld as @a[x=0,y=0,z=0,dx=1,dy=1,dz=1] unless score @s Dimension matches 0 run function area_manager:on_change/skylands
+execute in overworld as @a[x=0,y=0,z=0,dx=1,dy=1,dz=1] unless score @s Dimension matches 00 run function area_manager:on_change/skylands
 execute in overworld as @a[x=0,y=0,z=0,dx=1,dy=1,dz=1] unless score @s Dimension matches 10 run function area_manager:on_change/skill_setting_field
 execute in overworld as @a[x=0,y=0,z=0,dx=1,dy=1,dz=1] unless score @s Dimension matches 11 run function area_manager:on_change/theater
 execute in overworld as @a[x=0,y=0,z=0,dx=1,dy=1,dz=1] unless score @s Dimension matches 12 run function area_manager:on_change/underworld
@@ -75,7 +75,7 @@ execute as @a if score @s ChangeModeBlue matches 1..9 run function skill_manager
 execute as @a if score @s ChangeSupRed matches 1..9 run function skill_manager:change_skill/list/support/red
 execute as @a if score @s ChangeSupBlue matches 1..9 run function skill_manager:change_skill/list/support/blue
 ###スキル設定反映
-execute as @a unless score @s ChangeModeRed matches 0 run function skill_manager:set_skill/mode/red
-execute as @a unless score @s ChangeModeBlue matches 0 run function skill_manager:set_skill/mode/blue
-execute as @a unless score @s ChangeSupRed matches 0 run function skill_manager:set_skill/support/red
-execute as @a unless score @s ChangeSupBlue matches 0 run function skill_manager:set_skill/support/blue
+execute as @a unless score @s ChangeModeRed matches 0 run function skill_manager:set_skill/fork/mode/red
+execute as @a unless score @s ChangeModeBlue matches 0 run function skill_manager:set_skill/fork/mode/blue
+execute as @a unless score @s ChangeSupRed matches 0 run function skill_manager:set_skill/fork/support/red
+execute as @a unless score @s ChangeSupBlue matches 0 run function skill_manager:set_skill/fork/support/blue
