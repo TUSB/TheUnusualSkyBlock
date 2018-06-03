@@ -8,8 +8,8 @@
 ##summon minecraft:item ~0.5 0.5 ~0.5 {Item:{id:"minecraft:stone",Count:1b},Age:5997s,Tags:[Initialized]}
 scoreboard players set $Second Count 0
 
-###パペットステータス反映
-execute as @a[tag=WithPuppet] run function puppet_manager:load_settings
+###パペット行動
+execute as @a[tag=WithPuppet] run function puppet_manager:calc_and_act
 
 ### 死の宣告処理
 execute as @a[scores={DoomCount=1..}] run function effect_manager:doom
@@ -18,9 +18,8 @@ execute as @a[scores={DoomCount=1..}] run function effect_manager:doom
 scoreboard players remove @a[scores={Dimension=16}] TorchCount 1
 execute as @a[scores={TorchCount=..0}] run function item_manager:tocult_torch
 
-### 飛翔物読み込み範囲外削除
-tag @e[tag=Projectile,nbt={PortalCooldown:1}] add Garbage
-execute as @e[tag=Projectile] run data merge entity @s {PortalCooldown:1}
+### 停止飛翔物削除
+execute as @e[tag=Projectile] run function entity_manager:check_projectile_freeze
 
 ### デスポーンしない敵デスポーン処理
 execute as @e[tag=Mob,tag=!Animal,nbt=!{PersistenceRequired:true}] at @s unless entity @a[distance=..128] run tag @s add Garbage

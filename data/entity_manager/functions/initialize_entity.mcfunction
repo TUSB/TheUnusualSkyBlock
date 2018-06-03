@@ -4,11 +4,13 @@
 
 ### Mobタグ付与
 tag @s[type=!minecraft:player,team=!Friendly,nbt={Attributes:[{Name:"generic.followRange"},{Name:"generic.attackDamage"}]}] add Mob
+tag @s[type=minecraft:ghast] add Mob
 
 ### Slime系タグ付与
 tag @s[type=minecraft:slime] add Slimy
 tag @s[type=minecraft:magma_cube] add Slimy
 data merge entity @s[tag=Slimy,nbt={AbsorptionAmount:0f}] {DeathLootTable:"minecraft:empty",Tags:["Garbage"]}
+tag @s[tag=Slimy] add Mob
 
 ### AbsorptionAmount付与
 execute as @s[tag=Mob,nbt={AbsorptionAmount:0f}] store result entity @s AbsorptionAmount float 1 run data get entity @s Health 1
@@ -27,6 +29,7 @@ tag @s[type=minecraft:small_fireball] add Projectile
 tag @s[type=minecraft:snowball] add Projectile
 tag @s[type=minecraft:wither_skull] add Projectile
 tag @s[type=minecraft:xp_bottle] add Projectile
+data merge entity @s[tag=Projectile] {PortalCooldown:200}
 
 ### スポナーカート属性
 tag @s[type=minecraft:armor_stand,nbt={Passengers:[{id:"minecraft:spawner_minecart"}]}] add SpawnerCore

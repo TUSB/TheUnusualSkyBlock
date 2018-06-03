@@ -6,7 +6,6 @@
 scoreboard objectives add HP health HP
 scoreboard objectives add MP dummy MP
 scoreboard objectives add MPMax dummy MP最大値
-scoreboard objectives add Level dummy レベル
 scoreboard objectives add Armor armor 防御力
 scoreboard objectives add KillCount playerKillCount 討伐数
 scoreboard objectives add TimeSinceDeath minecraft.custom:minecraft.time_since_death 生きている時間
@@ -21,11 +20,37 @@ scoreboard objectives add DoomCount dummy 死の宣告カウント
 scoreboard objectives add TorchCount dummy トカルトトーチ消費カウント
 ###ID系
 scoreboard objectives add ID dummy 紐付けID
+###ジョブ別設定
+scoreboard objectives add Job dummy 現在のジョブ
+scoreboard objectives add Level dummy レベル
+scoreboard objectives add LevelKnight dummy 剣士のレベル
+scoreboard objectives add LevelNinja dummy 忍者のレベル
+scoreboard objectives add LevelHunter dummy 狩人のレベル
+scoreboard objectives add LevelWhiteMage dummy 白魔導士のレベル
+scoreboard objectives add LevelBlackMage dummy 黒魔導士のレベル
+scoreboard objectives add LevelSummoner dummy 召喚士のレベル
+scoreboard objectives add LevelPupMaster dummy 絡繰士のレベル
+scoreboard objectives add SubLevel dummy 現在のジョブのサブレベル
+scoreboard objectives add SubKnight dummy 剣士のサブレベル
+scoreboard objectives add SubNinja dummy 忍者のサブレベル
+scoreboard objectives add SubHunter dummy 狩人のサブレベル
+scoreboard objectives add SubWhiteMage dummy 白魔導士のサブレベル
+scoreboard objectives add SubBlackMage dummy 黒魔導士のサブレベル
+scoreboard objectives add SubSummoner dummy 召喚士のサブレベル
+scoreboard objectives add SubPupMaster dummy 絡繰士のサブレベル
 ###設定されたスキル
 scoreboard objectives add ModeSkill dummy 現在のモードスキル
+scoreboard objectives add ModeCost dummy 現在のモードスキルのコスト
 scoreboard objectives add ModeSkillRed dummy モードスキルルビー
 scoreboard objectives add ModeSkillBlue dummy モードスキルサファイア
+scoreboard objectives add ModeRedCost dummy モードスキルルビーのコスト
+scoreboard objectives add ModeBlueCost dummy モードスキルサファイアのコスト
 scoreboard objectives add ShowSkillNo dummy 表示スキル番号
+scoreboard objectives add ChangeModeRed trigger モードルビー変更番号
+scoreboard objectives add ChangeModeBlue trigger モードサファイア変更番号
+scoreboard objectives add ChangeSupRed trigger サポートルビー変更番号
+scoreboard objectives add ChangeSupBlue trigger サポートサファイア変更番号
+scoreboard objectives add ChangeLevel dummy スキル変更時レベル上限
 ###スキル共通系
 scoreboard objectives add MPHealingWait dummy MP回復ウェイト
 scoreboard objectives add MPConsumption dummy MP消費量
@@ -44,6 +69,8 @@ scoreboard objectives add PupFlyability dummy パペット空中機動力
 scoreboard objectives add PupMobility dummy パペット陸上機動力
 scoreboard objectives add PupCurrentSlot dummy パペット行動スロット
 scoreboard objectives add PuppetWait dummy パペット行動ウェイト
+###その他スコア
+scoreboard objectives add ProjectileLife dummy 飛翔物生存時間
 
 
 ###定数
@@ -104,6 +131,8 @@ setworldspawn 10 4 10
 #$Fly 10
 #$Swim 11
 #$Mobility 12
+
+kill @e[tag=PupRecordEntity]
 
 summon minecraft:area_effect_cloud ~ ~ ~ {Radius:0f,RadiusPerTick:0f,RadiusOnUse:0f,DurationOnUse:0,Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Tags:[Initialized,PupRecordEntity,PuppetClose],CustomName:"[\"CloseAttack\"]"}
 scoreboard players set @e[name=CloseAttack] PupRecordType 1

@@ -68,3 +68,14 @@ function entity_manager:kill_garbage
 
 ###カスタムHP回復
 execute as @a[scores={HealthHealing=1..}] run function effect_manager:health_healing
+
+###スキル設定表示
+execute as @a if score @s ChangeModeRed matches 1..9 run function skill_manager:change_skill/list/mode/red
+execute as @a if score @s ChangeModeBlue matches 1..9 run function skill_manager:change_skill/list/mode/blue
+execute as @a if score @s ChangeSupRed matches 1..9 run function skill_manager:change_skill/list/support/red
+execute as @a if score @s ChangeSupBlue matches 1..9 run function skill_manager:change_skill/list/support/blue
+###スキル設定反映
+execute as @a unless score @s ChangeModeRed matches 0 run function skill_manager:set_skill/mode/red
+execute as @a unless score @s ChangeModeBlue matches 0 run function skill_manager:set_skill/mode/blue
+execute as @a unless score @s ChangeSupRed matches 0 run function skill_manager:set_skill/support/red
+execute as @a unless score @s ChangeSupBlue matches 0 run function skill_manager:set_skill/support/blue

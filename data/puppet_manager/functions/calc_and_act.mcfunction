@@ -193,7 +193,7 @@ scoreboard players operation $Slot PupCurrentSlot = @s PupCurrentSlot
 ###ウェィトを計算
 scoreboard players remove @s PuppetWait 2
 ###非マルチスレッド時オーバークロック適用 2→3→4→5→6→7
-execute if entity @s[scores={MultiThread=..0,ModeSkill=7121..7129,MP=3..}] run function puppet_manager:action/apply/overclock
+execute as @s[scores={MultiThread=..0,ModeSkill=7121..7129}] if score @s MP >= @s ModeCost run function puppet_manager:action/apply/overclock
 ###行動フラグOFF
 scoreboard players set $Action PuppetScore 0
 ###マルチスレッド適用
