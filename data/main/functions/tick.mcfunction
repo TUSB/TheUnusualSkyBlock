@@ -4,20 +4,20 @@
 
 ###エリア移動
 ##overworld
-execute in overworld as @a[x=0,y=0,z=0,dx=1,dy=1,dz=1] unless score @s Dimension matches 00 run function area_manager:on_change/skylands
-execute in overworld as @a[x=0,y=0,z=0,dx=1,dy=1,dz=1] unless score @s Dimension matches 10 run function area_manager:on_change/skill_setting_field
-execute in overworld as @a[x=0,y=0,z=0,dx=1,dy=1,dz=1] unless score @s Dimension matches 11 run function area_manager:on_change/theater
-execute in overworld as @a[x=0,y=0,z=0,dx=1,dy=1,dz=1] unless score @s Dimension matches 12 run function area_manager:on_change/underworld
-execute in overworld as @a[x=0,y=0,z=0,dx=1,dy=1,dz=1] unless score @s Dimension matches 13 run function area_manager:on_change/table_mountain
-execute in overworld as @a[x=0,y=0,z=0,dx=1,dy=1,dz=1] unless score @s Dimension matches 14 run function area_manager:on_change/cloudia
-execute in overworld as @a[x=0,y=0,z=0,dx=1,dy=1,dz=1] unless score @s Dimension matches 15 run function area_manager:on_change/gullivers_land
-execute in overworld as @a[x=0,y=0,z=0,dx=1,dy=1,dz=1] unless score @s Dimension matches 16 run function area_manager:on_change/tocult_colde
-execute in overworld as @a[x=0,y=0,z=0,dx=1,dy=1,dz=1] unless score @s Dimension matches 20 run function area_manager:on_change/nether_trial
+execute in overworld as @a[x=-480,y=0,z=-1136,dx=1039,dy=255,dz=1039] unless score @s Dimension matches 00 run function area_manager:on_change/skylands
+execute in overworld as @a[x=-880,y=0,z=-944,dx=399,dy=255,dz=783] unless score @s Dimension matches 10 run function area_manager:on_change/skill_setting_field
+execute in overworld as @a[x=-1168,y=0,z=752,dx=511,dy=255,dz=383] unless score @s Dimension matches 11 run function area_manager:on_change/theater
+execute in overworld as @a[x=736,y=0,z=-352,dx=751,dy=255,dz=751] unless score @s Dimension matches 12 run function area_manager:on_change/underworld
+execute in overworld as @a[x=-288,y=0,z=-3296,dx=639,dy=255,dz=1311] unless score @s Dimension matches 13 run function area_manager:on_change/table_mountain
+execute in overworld as @a[x=-3072,y=0,z=-656,dx=1903,dy=255,dz=1103] unless score @s Dimension matches 14 run function area_manager:on_change/cloudia
+execute in overworld as @a[x=-224,y=0,z=576,dx=527,dy=255,dz=351] unless score @s Dimension matches 15 run function area_manager:on_change/gullivers_land
+execute in overworld as @a[x=768,y=0,z=1008,dx=2063,dy=255,dz=2127] unless score @s Dimension matches 16 run function area_manager:on_change/tocult_colde
+#execute in overworld as @a[x=0,y=0,z=0,dx=1,dy=255,dz=1] unless score @s Dimension matches 20 run function area_manager:on_change/nether_trial
 ##nether
-execute in the_nether as @a[x=0,y=0,z=0,dx=1,dy=1,dz=1] unless score @s Dimension matches 100 run function area_manager:on_change/nether
-execute in the_nether as @a[x=0,y=0,z=0,dx=1,dy=1,dz=1] unless score @s Dimension matches 110 run function area_manager:on_change/nether_dungeon
+execute in the_nether as @a[x=-736,y=0,z=-1008,dx=1599,dy=255,dz=1679] unless score @s Dimension matches 100 run function area_manager:on_change/nether
+execute in the_nether as @a[x=-2272,y=0,z=-464,dx=831,dy=1,dz=831] unless score @s Dimension matches 110 run function area_manager:on_change/nether_dungeon
 ##end
-execute in the_end as @a[x=0,y=0,z=0,dx=1,dy=1,dz=1] unless score @s Dimension matches 210 run function area_manager:on_change/end
+execute in the_end as @a[distance=0..] unless score @s Dimension matches 210 run function area_manager:on_change/end
 
 ###エンティティ発生時処理
 execute as @e[tag=!Initialized] run function entity_manager:initialize_entity

@@ -21,6 +21,7 @@ scoreboard objectives add DoomCount dummy 死の宣告カウント
 scoreboard objectives add TorchCount dummy トカルトトーチ消費カウント
 ###ID系
 scoreboard objectives add ID dummy 紐付けID
+scoreboard objectives add Dimension dummy ディメンション
 ###ジョブ別設定
 scoreboard objectives add Job dummy 現在のジョブ
 scoreboard objectives add Level dummy レベル

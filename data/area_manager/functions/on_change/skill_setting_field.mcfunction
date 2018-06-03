@@ -9,7 +9,7 @@ tag @s add Adv
 ###共通処理
 function area_manager:on_change/common
 ###表示処理
-playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 4 0.5 0
+execute at @s run playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 4 0.5 0
 title @s subtitle {"text":"= Skill Setting Field =","italic":"true","color":"white"}
 title @s title {"text":"スキル設定場","color":"gray","bold":"true","underlined":"true"}
 
