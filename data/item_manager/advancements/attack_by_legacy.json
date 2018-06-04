@@ -1,0 +1,136 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:command_block"
+        },
+        "title": "これでもくらえ！",
+        "description": "強いアイテムで反撃だ！",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "legacy0": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "source_entity": {
+                            "type": "minecraft:player",
+                            "nbt": "{SelectedItemSlot:0, Inventory:[{Slot:0b, tag:{AttributeModifiers:[{AttributeName:\"耐久\"}]}}]}"
+                        }
+                    }
+                }
+            }
+        },
+        "legacy1": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "source_entity": {
+                            "type": "minecraft:player",
+                            "nbt": "{SelectedItemSlot:1, Inventory:[{Slot:1b, tag:{AttributeModifiers:[{AttributeName:\"耐久\"}]}}]}"
+                        }
+                    }
+                }
+            }
+        },
+        "legacy2": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "source_entity": {
+                            "type": "minecraft:player",
+                            "nbt": "{SelectedItemSlot:2, Inventory:[{Slot:2b, tag:{AttributeModifiers:[{AttributeName:\"耐久\"}]}}]}"
+                        }
+                    }
+                }
+            }
+        },
+        "legacy3": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "source_entity": {
+                            "type": "minecraft:player",
+                            "nbt": "{SelectedItemSlot:3, Inventory:[{Slot:3b, tag:{AttributeModifiers:[{AttributeName:\"耐久\"}]}}]}"
+                        }
+                    }
+                }
+            }
+        },
+        "legacy4": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "source_entity": {
+                            "type": "minecraft:player",
+                            "nbt": "{SelectedItemSlot:4, Inventory:[{Slot:4b, tag:{AttributeModifiers:[{AttributeName:\"耐久\"}]}}]}"
+                        }
+                    }
+                }
+            }
+        },
+        "legacy5": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "source_entity": {
+                            "type": "minecraft:player",
+                            "nbt": "{SelectedItemSlot:5, Inventory:[{Slot:5b, tag:{AttributeModifiers:[{AttributeName:\"耐久\"}]}}]}"
+                        }
+                    }
+                }
+            }
+        },
+        "legacy6": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "source_entity": {
+                            "type": "minecraft:player",
+                            "nbt": "{SelectedItemSlot:6, Inventory:[{Slot:6b, tag:{AttributeModifiers:[{AttributeName:\"耐久\"}]}}]}"
+                        }
+                    }
+                }
+            }
+        },
+        "legacy7": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "source_entity": {
+                            "type": "minecraft:player",
+                            "nbt": "{SelectedItemSlot:7, Inventory:[{Slot:7b, tag:{AttributeModifiers:[{AttributeName:\"耐久\"}]}}]}"
+                        }
+                    }
+                }
+            }
+        },
+        "legacy8": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "source_entity": {
+                            "type": "minecraft:player",
+                            "nbt": "{SelectedItemSlot:8, Inventory:[{Slot:8b, tag:{AttributeModifiers:[{AttributeName:\"耐久\"}]}}]}"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        ["legacy0", "legacy1", "legacy2", "legacy3", "legacy4", "legacy5", "legacy6", "legacy7", "legacy8"]
+    ],
+    "rewards": {
+        "function": "item_manager:attack_by_legacy"
+    }
+}

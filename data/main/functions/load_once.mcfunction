@@ -89,6 +89,7 @@ scoreboard players set $50 Const 50
 scoreboard players set $100 Const 100
 scoreboard players set $200 Const 200
 scoreboard players set $300 Const 300
+scoreboard players set $1000 Const 1000
 scoreboard players set $10000 Const 10000
 scoreboard players set $99999 Const 99999
 scoreboard players set $100000 Const 100000
