@@ -2,6 +2,8 @@
 ### モードチェンジ
 ##############################
 
+execute at @s as @e[distance=..6,type=minecraft:polar_bear] run data merge entity @s {DeathLootTable:"minecraft:empty",Age:-1000,Pos:[0d,-300d,0d],Tags:[Garbage,Initialized],ActiveEffects:[{Id:14b,Duration:1000,ShowParticles:false}],Silent:true}
+
 ### どちらのモードでもない場合は赤になる
 ### 赤→青
 execute store result score $Tmp Global run tag @s remove ModeRed

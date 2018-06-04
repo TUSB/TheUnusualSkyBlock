@@ -12,11 +12,19 @@ execute store result score $LegacyCount Global run scoreboard players operation 
 scoreboard players operation $LegacyDurability Global -= $LegacyCount Global
 ###耐久変化反映
 execute store result entity @s SelectedItem.tag.AttributeModifiers[0].Amount double 0.001 run scoreboard players get $LegacyDurability Global
+
 ###０以下壊れる
 execute if score $LegacyDurability Global matches ..0 run replaceitem entity @s weapon.mainhand minecraft:air
-execute if score $LegacyDurability Global matches ..0 at @s run playsound minecraft:entity.item.break master @s ~ ~ ~ 1 1.414
 ###耐久変化後表示
 scoreboard players operation $LegacyDurability Global /= $1000 Const
-tellraw @p {"score":{"name":"$LegacyDurability","objective":"Global"}}
+#execute if score $LegacyDurability Global matches ..3 run tellraw @p {"score":{"name":"$LegacyDurability","objective":"Global"}}
+
+###演出
+execute if score $LegacyDurability Global matches 4.. at @s run playsound minecraft:entity.wither.death master @s ~ ~ ~ 0.5 2
+execute if score $LegacyDurability Global matches 3 at @s run playsound minecraft:entity.wither.death master @s ~ ~ ~ 0.5 1.6
+execute if score $LegacyDurability Global matches 2 at @s run playsound minecraft:entity.wither.death master @s ~ ~ ~ 0.5 1.2
+execute if score $LegacyDurability Global matches 1 at @s run playsound minecraft:entity.wither.death master @s ~ ~ ~ 0.5 0.8
+execute if score $LegacyDurability Global matches ..0 at @s run playsound minecraft:entity.wither.death master @s ~ ~ ~ 0.5 0.6
+
 ###進捗トリガーリセット
 advancement revoke @s only item_manager:attack_by_legacy
