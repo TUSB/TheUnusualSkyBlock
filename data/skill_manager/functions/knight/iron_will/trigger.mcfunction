@@ -3,7 +3,7 @@
 ##############################
 
 ###アイアンウィル時function呼び出し
-execute as @a[scores={IronWill=1..}] run function skill_manager:iron_will_save
+execute as @a[scores={IronWill=1..}] run function skill_manager:knight/iron_will/save
 
 ###スコア計算
 scoreboard players set $Tmp Global 50
