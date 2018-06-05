@@ -22,6 +22,6 @@
         }
     },
     "rewards": {
-        "function": "skill_manager:iron_will"
+        "function": "skill_manager:knight/iron_will/trigger"
     }
 } 

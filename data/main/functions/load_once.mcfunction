@@ -62,6 +62,8 @@ scoreboard objectives add ChangeSkillLimit dummy スキル変更不可時間
 ###スキル個別系
 scoreboard objectives add IronWill dummy 剣士アイアンウィル
 scoreboard objectives add MultiThread dummy 絡繰士マルチスレッド
+###黒魔導士スキル系
+scoreboard objectives add DarkSwamp dummy ダークスワンプ回数
 ###からくり士スキル系
 scoreboard objectives add PuppetScore dummy パペット制御用スコア
 scoreboard objectives add PupRecordLevel dummy レコード特性のレベル
@@ -85,6 +87,7 @@ scoreboard players set $5 Const 5
 scoreboard players set $10 Const 10
 scoreboard players set $20 Const 20
 scoreboard players set $30 Const 30
+scoreboard players set $34 Const 34
 scoreboard players set $50 Const 50
 scoreboard players set $100 Const 100
 scoreboard players set $200 Const 200

@@ -19,6 +19,14 @@ execute in the_nether as @a[x=-2272,y=0,z=-464,dx=831,dy=1,dz=831] unless score 
 ##end
 execute in the_end as @a[distance=0..] unless score @s Dimension matches 210 run function area_manager:on_change/end
 
+###ここからモード処理を入れる（エンティティ発生処理に割り込めるのでやりやすい）
+
+
+
+
+###1tick遅れ処理
+execute as @e[tag=DelayedTask] at @s run function main:delayed_task
+
 ###エンティティ発生時処理
 execute as @e[tag=!Initialized] run function entity_manager:initialize_entity
 
@@ -30,6 +38,8 @@ execute if score $Second Count matches 20.. run function main:one_second
 ###パペット移動
 execute as @a[tag=WithPuppet] at @s run function puppet_manager:puppet_move
 
+###ダークスワンプ処理
+execute as @e[tag=DarkSwamp,nbt={PortalCooldown:0}] at @s run function skill_manager:black_mage/dark_swamp_tick
 
 ### スポナーカート空気時削除
 execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air run tag @e[dx=0,tag=Spawner] add Garbage
@@ -40,6 +50,9 @@ execute as @a at @s run replaceitem entity @s[y=0,dy=-20,nbt={Inventory:[{id:"mi
 #execute as @a at @s if block ~ 0 ~ minecraft:barrier if block ~ 255 ~ minecraft:barrier run kill @s
 ### 奈落kill
 execute as @a at @s if entity @s[y=-250,dy=50] run kill @s
+###めり込み処理
+execute as @a[scores={TimeSinceDeath=1..}] at @s anchored eyes if block ^ ^ ^ minecraft:barrier run function entity_manager:suffocation
+execute as @a[scores={TimeSinceDeath=1..}] at @s anchored eyes if block ^ ^ ^ minecraft:bedrock run function entity_manager:suffocation
 
 ###スニーク時処理
 execute as @a[scores={SneakTime=1..}] run function calc_manager:sneak
@@ -49,8 +62,8 @@ execute if score #Aura MP > $10000 Const run scoreboard players remove #Aura MP 
 scoreboard players operation バースト MP = #Aura MP
 scoreboard players operation バースト MP < $99999 Const
 
-###アイアンウィル
-execute as @a[tag=IronWill] run function skill_manager:iron_will_load
+###アイアンウィル復帰
+execute as @a[tag=IronWill] run function skill_manager:knight/iron_will/load
 
 ###エンティティ削除処理
 function entity_manager:kill_garbage
@@ -60,7 +73,9 @@ execute as @a[scores={UseModeEgg=1..}] run function item_manager:change_mode
 execute as @a[scores={UseSupportRed=1..}] run function item_manager:use_red_egg
 execute as @a[scores={UseSupportBlue=1..}] run function item_manager:use_blue_egg
 
-###ここにスキル処理
+###ここからサポートスキルを入れる（サポートエッグ使用直後でやりやすい）
+
+
 
 
 ### MP消費
