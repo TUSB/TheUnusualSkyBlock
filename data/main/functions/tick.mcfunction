@@ -20,7 +20,7 @@ execute in the_nether as @a[x=-2272,y=0,z=-464,dx=831,dy=1,dz=831] unless score 
 execute in the_end as @a[distance=0..] unless score @s Dimension matches 210 run function area_manager:on_change/end
 
 ###ここからモード処理を入れる（エンティティ発生処理に割り込めるのでやりやすい）
-
+execute as @a[scores={ModeSkill=99999,UseSnowball=1..}] at @s run function skill_manager:ninja/issen/act
 
 
 
@@ -37,9 +37,10 @@ execute if score $Second Count matches 20.. run function main:one_second
 
 ###パペット移動
 execute as @a[tag=WithPuppet] at @s run function puppet_manager:puppet_move
-
 ###ダークスワンプ処理
-execute as @e[tag=DarkSwamp,nbt={PortalCooldown:0}] at @s run function skill_manager:black_mage/dark_swamp_tick
+execute as @e[tag=DarkSwamp,nbt={PortalCooldown:0}] at @s run function skill_manager:black_mage/dark_swamp/tick
+###一閃処理
+execute as @a[scores={Issen=1..}] at @s run function skill_manager:ninja/issen/tick
 
 ### スポナーカート空気時削除
 execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air run tag @e[dx=0,tag=Spawner] add Garbage

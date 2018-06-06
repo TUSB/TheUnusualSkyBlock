@@ -13,6 +13,7 @@ scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time スニ
 scoreboard objectives add UseModeEgg minecraft.used:minecraft.polar_bear_spawn_egg モードチェンジ使用
 scoreboard objectives add UseSupportRed minecraft.used:minecraft.pig_spawn_egg サポートエッグルビー使用
 scoreboard objectives add UseSupportBlue minecraft.used:minecraft.drowned_spawn_egg サポートエッグサファイア使用
+scoreboard objectives add UseSnowball minecraft.used:minecraft.snowball 雪玉使用
 ###変数や定数、カウンタ
 scoreboard objectives add Global dummy グローバル変数
 scoreboard objectives add Const dummy 定数
@@ -62,7 +63,7 @@ scoreboard objectives add ChangeSkillLimit dummy スキル変更不可時間
 ###スキル個別系
 scoreboard objectives add IronWill dummy 剣士アイアンウィル
 scoreboard objectives add MultiThread dummy 絡繰士マルチスレッド
-###黒魔導士スキル系
+scoreboard objectives add Issen dummy 一閃継続tick数
 scoreboard objectives add DarkSwamp dummy ダークスワンプ回数
 ###からくり士スキル系
 scoreboard objectives add PuppetScore dummy パペット制御用スコア
