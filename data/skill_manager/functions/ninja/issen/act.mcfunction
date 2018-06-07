@@ -18,5 +18,3 @@ scoreboard players set @s Issen 30
 effect give @s minecraft:slow_falling 2 0 true
 ###MP消費
 scoreboard players operation @s MPConsumption += @s ModeCost
-###トリガー削除
-scoreboard players reset @s UseSnowball

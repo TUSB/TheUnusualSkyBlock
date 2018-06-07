@@ -13,7 +13,7 @@ data merge entity @s[tag=Slimy,nbt={AbsorptionAmount:0f}] {DeathLootTable:"minec
 tag @s[tag=Slimy] add Mob
 
 ### AbsorptionAmount付与
-execute as @s[tag=Mob,nbt={AbsorptionAmount:0f}] store result entity @s AbsorptionAmount float 1 run data get entity @s Health 1
+execute as @s[tag=Mob,nbt={AbsorptionAmount:0f}] store result entity @s AbsorptionAmount float 0.1 run data get entity @s Health 10
 data merge entity @s[tag=Mob] {Attributes:[{Name:"generic.maxHealth",Base:1024}],Health:1024f}
 
 ### 飛翔物属性付与

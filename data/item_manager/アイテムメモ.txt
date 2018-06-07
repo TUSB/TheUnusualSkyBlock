@@ -1,0 +1,20 @@
+Mainhand
+UUIDMost:11L,UUIDLesat:xL
+
+OffHand
+UUIDMost:12L,UUIDLeast:xL
+
+Head
+UUIDMost:21L,UUIDLeast:xL
+
+Chest
+UUIDMost:22L,UUIDLeast:xL
+
+Legs
+UUIDMost:23L,UUIDLeast:xL
+
+Feet
+UUIDMost:24L,UUIDLeast:xL
+
+Legacy Sample
+/give @p minecraft:stick{AttributeModifiers:[{Name:"Legacy",AttributeName:"耐久",Amount:10,Operation:0,UUIDMost:11L,UUIDLeast:1L,Slot:"offhand"}]}
