@@ -25,7 +25,7 @@ scoreboard players remove @a SkillInterval 1
 execute as @a[scores={UseSnowball=1..}] at @s run function trigger_manager:snowball
 execute as @a[scores={UseBow=1..}] at @s run function trigger_manager:bow
 execute as @a[scores={UseCarrotStick=1..}] at @s run function trigger_manager:carrot_stick
-
+execute as @e[type=snowman] at @s run function skill_manager:snowman/snowball/act
 
 ###1tick遅れ処理
 execute as @e[tag=DelayedTask] at @s run function main:delayed_task

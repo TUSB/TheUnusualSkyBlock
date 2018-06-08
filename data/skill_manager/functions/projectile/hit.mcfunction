@@ -2,5 +2,9 @@
 ### 飛翔物ヒット時処理
 ##############################
 
+###スノゴ雪玉
+execute if score @s ProjectileSkill matches 100000 run function skill_manager:snowman/snowball/hit
+
 ### ぽむぽむ花火
 execute if score @s ProjectileSkill matches 99997 run function skill_manager:summoner/pompom/direct
+
