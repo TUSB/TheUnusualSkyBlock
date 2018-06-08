@@ -14,6 +14,8 @@ scoreboard objectives add UseModeEgg minecraft.used:minecraft.polar_bear_spawn_e
 scoreboard objectives add UseSupportRed minecraft.used:minecraft.pig_spawn_egg サポートエッグルビー使用
 scoreboard objectives add UseSupportBlue minecraft.used:minecraft.drowned_spawn_egg サポートエッグサファイア使用
 scoreboard objectives add UseSnowball minecraft.used:minecraft.snowball 雪玉使用
+scoreboard objectives add UseBow minecraft.used:minecraft.bow 弓使用
+scoreboard objectives add UseCarrotStick minecraft.used:minecraft.carrot_on_a_stick 人参棒使用
 ###変数や定数、カウンタ
 scoreboard objectives add Global dummy グローバル変数
 scoreboard objectives add Const dummy 定数
@@ -55,11 +57,13 @@ scoreboard objectives add ChangeSupRed trigger サポートルビー変更番号
 scoreboard objectives add ChangeSupBlue trigger サポートサファイア変更番号
 scoreboard objectives add ChangeLevel dummy スキル変更時レベル上限
 ###スキル共通系
+scoreboard objectives add SkillInterval dummy スキル使用不可tick数
 scoreboard objectives add MPHealingWait dummy MP回復ウェイト
 scoreboard objectives add MPConsumption dummy MP消費量
 scoreboard objectives add Damage dummy モブ付与ダメージ
 scoreboard objectives add BurstTrigger dummy バースト発動カウント
 scoreboard objectives add ChangeSkillLimit dummy スキル変更不可時間
+scoreboard objectives add ProjectileSkill dummy 飛翔物付与スキル
 ###スキル個別系
 scoreboard objectives add IronWill dummy 剣士アイアンウィル
 scoreboard objectives add MultiThread dummy 絡繰士マルチスレッド

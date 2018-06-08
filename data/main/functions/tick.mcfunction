@@ -19,9 +19,12 @@ execute in the_nether as @a[x=-2272,y=0,z=-464,dx=831,dy=1,dz=831] unless score 
 ##end
 execute in the_end as @a[distance=0..] unless score @s Dimension matches 210 run function area_manager:on_change/end
 
+###スキルインターバル処理
+scoreboard players remove @a SkillInterval 1
 ###ここからモード処理を入れる（エンティティ発生処理に割り込めるのでやりやすい）
 execute as @a[scores={UseSnowball=1..}] at @s run function trigger_manager:snowball
-
+execute as @a[scores={UseBow=1..}] at @s run function trigger_manager:bow
+execute as @a[scores={UseCarrotStick=1..}] at @s run function trigger_manager:carrot_stick
 
 
 ###1tick遅れ処理
@@ -30,17 +33,28 @@ execute as @e[tag=DelayedTask] at @s run function main:delayed_task
 ###エンティティ発生時処理
 execute as @e[tag=!Initialized] run function entity_manager:initialize_entity
 
+###飛翔物スキル処理
+execute as @e[tag=Mob,scores={ProjectileSkill=1..}] at @s run function skill_manager:projectile/check
+execute as @e[tag=Projectile,scores={ProjectileSkill=1..}] at @s positioned ~-3 ~-3 ~-3 run scoreboard players operation @e[dx=6,dy=6,dz=6,tag=Mob] ProjectileSkill = @s ProjectileSkill
+
 ###１秒処理
 #execute unless entity 0-0-10-0-10 run function main:one_second
 scoreboard players add $Second Count 1
 execute if score $Second Count matches 20.. run function main:one_second
 
+###接地矢(など)Projectileタグ削除
+tag @e[tag=Projectile,nbt={inGround:true}] remove Projectile
 ###パペット移動
 execute as @a[tag=WithPuppet] at @s run function puppet_manager:puppet_move
 ###ダークスワンプ処理
 execute as @e[tag=DarkSwamp,nbt={PortalCooldown:0}] at @s run function skill_manager:black_mage/dark_swamp/tick
 ###一閃処理
 execute as @a[scores={Issen=1..}] at @s run function skill_manager:ninja/issen/tick
+###バードストライク処理
+execute as @e[tag=BirdStrike,tag=Projectile] at @s run function skill_manager:hunter/bird_strike/tick
+###ぽむぽむ花火処理
+execute as @e[tag=PomPom,nbt={PortalCooldown:0}] at @s run function skill_manager:summoner/pompom/at0
+
 
 ### スポナーカート空気時削除
 execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air run tag @e[dx=0,tag=Spawner] add Garbage

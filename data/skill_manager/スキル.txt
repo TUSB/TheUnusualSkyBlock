@@ -19,3 +19,7 @@ trigger ChangeSupRed set 1 チェンジサポートルビー
 サポートスキルサファイアを変える時
 trigger ChangeSupBlue set 1 チェンジサポートサファイア
 
+飛翔物ヒット処理
+ProjectileSkill
+DelayedTask
+
