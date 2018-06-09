@@ -10,6 +10,9 @@ tag @s[tag=DarkSwampLevitation2] remove DarkSwampLevitation2
 execute if score @s PillarDamage matches 0.. run function skill_manager:white_mage/sacred_pillar/act2
 scoreboard players reset @s[scores={PillarDamage=0..}] PillarDamage
 
+###ラピッド指定で遅いものを削除
+execute as @s[tag=VelocityRequired] run function entity_manager:check_velocity
+
 ###共通タグ削除
 tag @s remove DelayedTask
 
