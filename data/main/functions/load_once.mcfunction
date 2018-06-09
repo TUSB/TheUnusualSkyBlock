@@ -59,6 +59,7 @@ scoreboard objectives add ChangeSupRed trigger サポートルビー変更番号
 scoreboard objectives add ChangeSupBlue trigger サポートサファイア変更番号
 scoreboard objectives add ChangeLevel dummy スキル変更時レベル上限
 ###スキル共通系
+scoreboard objectives add MobHPMax dummy モブ最大体力
 scoreboard objectives add SkillInterval dummy スキル使用不可tick数
 scoreboard objectives add MPHealingWait dummy MP回復ウェイト
 scoreboard objectives add MPConsumption dummy MP消費量
@@ -74,6 +75,7 @@ scoreboard objectives add Issen dummy 一閃継続tick数
 scoreboard objectives add DarkSwamp dummy ダークスワンプ回数
 scoreboard objectives add PillarCount dummy セイクリッドピラーダメージ付与上限
 scoreboard objectives add PillarDamage dummy セイクリッドピラーダメージ
+scoreboard objectives add Kaishaku dummy 介錯残り秒数
 ###からくり士スキル系
 scoreboard objectives add PuppetScore dummy パペット制御用スコア
 scoreboard objectives add PupRecordLevel dummy レコード特性のレベル

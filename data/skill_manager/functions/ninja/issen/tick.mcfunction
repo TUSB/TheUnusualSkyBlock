@@ -17,3 +17,6 @@ execute if score @s Issen matches 19.. at @s as @e[distance=..2.5,tag=Mob] at @s
 execute if score @s Issen matches 19.. at @s as @e[distance=..2.5,tag=Mob] run data merge entity @s {Motion:[0d,0.5d,0d]}
 ###演出
 execute if score @s Issen matches 20.. run playsound minecraft:entity.drowned.shoot player @a ~ ~ ~ 3 1.2
+#execute if score @s Issen matches 20.. run particle minecraft:crit ~ ~ ~ 1 1 1 1 10 force
+execute if score @s Issen matches 20.. run particle minecraft:cloud ~ ~ ~ 0.2 0.2 0.2 0 10 force
+execute if score @s Issen matches 20.. run particle minecraft:sweep_attack ~ ~ ~ 1 1 1 1 10 force

@@ -4,7 +4,7 @@
 
 ###敵討伐時処理
 execute as @a[scores={KillCount=1..}] run function entity_manager:defeat_enemy
-execute as @e[tag=Mob,nbt={AbsorptionAmount:0f}] run function entity_manager:mob_death
+execute as @e[tag=Mob,nbt={AbsorptionAmount:0f}] at @s run function entity_manager:mob_death
 
 ###敵削除フラグ付与
 tag @e[tag=CooldownRequired,nbt={PortalCooldown:0}] add Garbage

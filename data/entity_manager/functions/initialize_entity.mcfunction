@@ -17,6 +17,7 @@ tag @s[tag=Slimy] add Mob
 ### AbsorptionAmount付与
 execute as @s[tag=Mob,nbt={AbsorptionAmount:0f}] store result entity @s AbsorptionAmount float 0.1 run data get entity @s Health 10
 data merge entity @s[tag=Mob] {Attributes:[{Name:"generic.maxHealth",Base:1024}],Health:1024f}
+execute store result score @s[tag=Mob] MobHPMax run data get entity @s[tag=Mob] AbsorptionAmount 10
 
 ### 飛翔物属性付与
 tag @s[type=minecraft:arrow] add Projectile
