@@ -16,6 +16,7 @@ scoreboard objectives add UseSupportBlue minecraft.used:minecraft.drowned_spawn_
 scoreboard objectives add UseSnowball minecraft.used:minecraft.snowball 雪玉使用
 scoreboard objectives add UseBow minecraft.used:minecraft.bow 弓使用
 scoreboard objectives add UseCarrotStick minecraft.used:minecraft.carrot_on_a_stick 人参棒使用
+scoreboard objectives add SprintOneCm minecraft.custom:minecraft.sprint_one_cm 走った距離
 ###変数や定数、カウンタ
 scoreboard objectives add Global dummy グローバル変数
 scoreboard objectives add Const dummy 定数
@@ -64,11 +65,14 @@ scoreboard objectives add Damage dummy モブ付与ダメージ
 scoreboard objectives add BurstTrigger dummy バースト発動カウント
 scoreboard objectives add ChangeSkillLimit dummy スキル変更不可時間
 scoreboard objectives add ProjectileSkill dummy 飛翔物付与スキル
+scoreboard objectives add ProjectileSkillA dummy 飛翔物付与スキル属性
 ###スキル個別系
 scoreboard objectives add IronWill dummy 剣士アイアンウィル
 scoreboard objectives add MultiThread dummy 絡繰士マルチスレッド
 scoreboard objectives add Issen dummy 一閃継続tick数
 scoreboard objectives add DarkSwamp dummy ダークスワンプ回数
+scoreboard objectives add PillarCount dummy セイクリッドピラーダメージ付与上限
+scoreboard objectives add PillarDamage dummy セイクリッドピラーダメージ
 ###からくり士スキル系
 scoreboard objectives add PuppetScore dummy パペット制御用スコア
 scoreboard objectives add PupRecordLevel dummy レコード特性のレベル

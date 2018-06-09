@@ -18,10 +18,10 @@ scoreboard players operation @s Damage /= $5 Const
 execute store result score $Health Global run data get entity @s AbsorptionAmount 100
 scoreboard players operation $Health Global -= @s Damage
 execute store result entity @s[nbt=!{ActiveEffects:[{Id:27b,Amplifier:127b}]}] AbsorptionAmount float 0.01 run scoreboard players get $Health Global
-data merge entity @s[nbt=!{ActiveEffects:[{Id:27b,Amplifier:127b}]}] {ActiveEffects:[{Id:27b,Duration:9,Amplifier:127b,ShowParticles:false}]}
 
 ###ダメージ演出
-execute if entity @s[nbt=!{AbsorptionAmount:0f}] run summon minecraft:snowball ~ ~-0.30001 ~ {Motion:[0d,10d,0d]}
+execute if entity @s[nbt=!{AbsorptionAmount:0f},nbt=!{ActiveEffects:[{Id:27b,Amplifier:127b}]}] run summon minecraft:snowball ~ ~-0.30001 ~ {Motion:[0d,10d,0d]}
+data merge entity @s[nbt=!{ActiveEffects:[{Id:27b,Amplifier:127b}]}] {ActiveEffects:[{Id:27b,Duration:10,Amplifier:127b,ShowParticles:false}]}
 
 ###スコアリセット
 scoreboard players reset @s Damage

@@ -19,23 +19,24 @@ execute in the_nether as @a[x=-2272,y=0,z=-464,dx=831,dy=1,dz=831] unless score 
 ##end
 execute in the_end as @a[distance=0..] unless score @s Dimension matches 210 run function area_manager:on_change/end
 
+###1tick遅れ処理
+execute as @e[tag=DelayedTask] at @s run function main:delayed_task
+
 ###スキルインターバル処理
 scoreboard players remove @a SkillInterval 1
 ###ここからモード処理を入れる（エンティティ発生処理に割り込めるのでやりやすい）
 execute as @a[scores={UseSnowball=1..}] at @s run function trigger_manager:snowball
 execute as @a[scores={UseBow=1..}] at @s run function trigger_manager:bow
-execute as @a[scores={UseCarrotStick=1..}] at @s run function trigger_manager:carrot_stick
-execute as @e[type=snowman] at @s run function skill_manager:snowman/snowball/act
-
-###1tick遅れ処理
-execute as @e[tag=DelayedTask] at @s run function main:delayed_task
+execute as @a[scores={UseCarrotStick=1..}] at @s run function trigger_manager:carrot_on_a_stick
+execute as @e[type=minecraft:snowman] at @s run function skill_manager:snowman/snowball/act
+execute as @e[type=minecraft:villager_golem] at @s run function skill_manager:villager_golem/attack/act
 
 ###エンティティ発生時処理
 execute as @e[tag=!Initialized] run function entity_manager:initialize_entity
 
 ###飛翔物スキル処理
 execute as @e[tag=Mob,scores={ProjectileSkill=1..}] at @s run function skill_manager:projectile/check
-execute as @e[tag=Projectile,scores={ProjectileSkill=1..}] at @s positioned ~-3 ~-3 ~-3 run scoreboard players operation @e[dx=6,dy=6,dz=6,tag=Mob] ProjectileSkill = @s ProjectileSkill
+execute as @e[tag=Projectile,scores={ProjectileSkill=1..}] at @s run function skill_manager:projectile/try
 
 ###１秒処理
 #execute unless entity 0-0-10-0-10 run function main:one_second
@@ -54,6 +55,9 @@ execute as @a[scores={Issen=1..}] at @s run function skill_manager:ninja/issen/t
 execute as @e[tag=BirdStrike,tag=Projectile] at @s run function skill_manager:hunter/bird_strike/tick
 ###ぽむぽむ花火処理
 execute as @e[tag=PomPom,nbt={PortalCooldown:0}] at @s run function skill_manager:summoner/pompom/at0
+###セイクリッドピラー処理
+execute as @e[tag=SacredPillar,nbt={inGround:true}] at @s run function skill_manager:white_mage/sacred_pillar/at0
+execute as @e[tag=SacredPillarBase,sort=random,limit=3] at @s run function skill_manager:white_mage/sacred_pillar/tick
 
 
 ### スポナーカート空気時削除
