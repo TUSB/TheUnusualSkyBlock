@@ -28,6 +28,7 @@ scoreboard players remove @a SkillInterval 1
 execute as @a[scores={UseSnowball=1..}] at @s run function trigger_manager:snowball
 execute as @a[scores={UseBow=1..}] at @s run function trigger_manager:bow
 execute as @a[scores={UseCarrotStick=1..}] at @s run function trigger_manager:carrot_on_a_stick
+execute as @a[scores={DamageDealt=0..}] at @s run function trigger_manager:damage_dealt
 execute as @e[type=minecraft:snowman] at @s run function skill_manager:snowman/snowball/act
 execute as @e[type=minecraft:villager_golem] at @s run function skill_manager:villager_golem/attack/act
 
@@ -47,6 +48,8 @@ execute if score $Second Count matches 20.. run function main:one_second
 tag @e[tag=Projectile,nbt={inGround:true}] remove Projectile
 ###パペット移動
 execute as @a[tag=WithPuppet] at @s run function puppet_manager:puppet_move
+###真空切り待機
+execute as @a[scores={ModeSkill=99995}] at @s run function skill_manager:knight/aerial_slash/ready
 ###ダークスワンプ処理
 execute as @e[tag=DarkSwamp,nbt={PortalCooldown:0}] at @s run function skill_manager:black_mage/dark_swamp/tick
 ###一閃処理

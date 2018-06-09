@@ -17,6 +17,7 @@ scoreboard objectives add UseSnowball minecraft.used:minecraft.snowball 雪玉�
 scoreboard objectives add UseBow minecraft.used:minecraft.bow 弓使用
 scoreboard objectives add UseCarrotStick minecraft.used:minecraft.carrot_on_a_stick 人参棒使用
 scoreboard objectives add SprintOneCm minecraft.custom:minecraft.sprint_one_cm 走った距離
+scoreboard objectives add DamageDealt minecraft.custom:minecraft.damage_dealt 与えたダメージ量
 ###変数や定数、カウンタ
 scoreboard objectives add Global dummy グローバル変数
 scoreboard objectives add Const dummy 定数
