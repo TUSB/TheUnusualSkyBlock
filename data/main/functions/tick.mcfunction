@@ -49,6 +49,8 @@ tag @e[tag=Projectile,nbt={inGround:true}] remove Projectile
 execute as @a[tag=WithPuppet] at @s run function puppet_manager:puppet_move
 ###真空切り待機
 execute as @a[scores={ModeSkill=99995}] at @s run function skill_manager:knight/aerial_slash/ready
+###はやぶさ斬り待機
+execute as @a[scores={ModeSkill=99993}] at @s run function skill_manager:knight/falcon_slash/ready
 ###ダークスワンプ処理
 execute as @e[tag=DarkSwamp,nbt={PortalCooldown:0}] at @s run function skill_manager:black_mage/dark_swamp/tick
 ###一閃処理
@@ -59,7 +61,7 @@ execute as @e[tag=BirdStrike,tag=Projectile] at @s run function skill_manager:hu
 execute as @e[tag=PomPom,nbt={PortalCooldown:0}] at @s run function skill_manager:summoner/pompom/at0
 ###セイクリッドピラー処理
 execute as @e[tag=SacredPillar,nbt={inGround:true}] at @s run function skill_manager:white_mage/sacred_pillar/at0
-execute as @e[tag=SacredPillarBase,sort=random,limit=3] at @s run function skill_manager:white_mage/sacred_pillar/tick
+execute as @e[tag=SacredPillarBase] at @s run function skill_manager:white_mage/sacred_pillar/tick
 ###介錯処理
 execute as @a[scores={Kaishaku=1..}] at @s as @e[distance=..10,tag=Mob,nbt={HurtTime:10s}] at @s run function skill_manager:ninja/kaishaku/say
 execute as @e[tag=KaishakuExplosion] at @s run function skill_manager:ninja/kaishaku/tick

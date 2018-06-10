@@ -18,6 +18,7 @@ scoreboard objectives add UseBow minecraft.used:minecraft.bow 弓使用
 scoreboard objectives add UseCarrotStick minecraft.used:minecraft.carrot_on_a_stick 人参棒使用
 scoreboard objectives add SprintOneCm minecraft.custom:minecraft.sprint_one_cm 走った距離
 scoreboard objectives add DamageDealt minecraft.custom:minecraft.damage_dealt 与えたダメージ量
+scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken 受けたメージ量
 ###変数や定数、カウンタ
 scoreboard objectives add Global dummy グローバル変数
 scoreboard objectives add Const dummy 定数
@@ -69,6 +70,7 @@ scoreboard objectives add ChangeSkillLimit dummy スキル変更不可時間
 scoreboard objectives add ProjectileSkill dummy 飛翔物付与スキル
 scoreboard objectives add ProjectileSkillA dummy 飛翔物付与スキル属性
 ###スキル個別系
+scoreboard objectives add FalconHP dummy はやぶさ斬り用敵HP
 scoreboard objectives add IronWill dummy 剣士アイアンウィル
 scoreboard objectives add MultiThread dummy 絡繰士マルチスレッド
 scoreboard objectives add Issen dummy 一閃継続tick数
@@ -76,6 +78,7 @@ scoreboard objectives add DarkSwamp dummy ダークスワンプ回数
 scoreboard objectives add PillarCount dummy セイクリッドピラーダメージ付与上限
 scoreboard objectives add PillarDamage dummy セイクリッドピラーダメージ
 scoreboard objectives add Kaishaku dummy 介錯残り秒数
+scoreboard objectives add PiercingAim dummy ピアッシングエイム回数
 ###からくり士スキル系
 scoreboard objectives add PuppetScore dummy パペット制御用スコア
 scoreboard objectives add PupRecordLevel dummy レコード特性のレベル
@@ -106,6 +109,8 @@ scoreboard players set $200 Const 200
 scoreboard players set $300 Const 300
 scoreboard players set $1000 Const 1000
 scoreboard players set $10000 Const 10000
+scoreboard players set $20000 Const 20000
+scoreboard players set $30000 Const 30000
 scoreboard players set $99999 Const 99999
 scoreboard players set $100000 Const 100000
 scoreboard players set $112000 Const 112000
