@@ -29,8 +29,8 @@ execute as @a[scores={UseSnowball=1..}] at @s run function trigger_manager:snowb
 execute as @a[scores={UseBow=1..}] at @s run function trigger_manager:bow
 execute as @a[scores={UseCarrotStick=1..}] at @s run function trigger_manager:carrot_on_a_stick
 execute as @a[scores={DamageDealt=0..}] at @s run function trigger_manager:damage_dealt
-execute as @e[type=minecraft:snowman] at @s run function skill_manager:snowman/snowball/act
-execute as @e[type=minecraft:villager_golem] at @s run function skill_manager:villager_golem/attack/act
+execute as @e[tag=Sicced,type=minecraft:snowman] at @s run function skill_manager:snowman/snowball/act
+execute as @e[tag=Sicced,type=minecraft:villager_golem] at @s run function skill_manager:villager_golem/attack/act
 
 ###エンティティ発生時処理
 execute as @e[tag=!Initialized] run function entity_manager:initialize_entity
@@ -47,10 +47,14 @@ execute if score $Second Count matches 20.. run function main:one_second
 tag @e[tag=Projectile,nbt={inGround:true}] remove Projectile
 ###パペット移動
 execute as @a[tag=WithPuppet] at @s run function puppet_manager:puppet_move
-###真空切り待機
+###アイアンウィル復帰
+execute as @a[tag=IronWill] run function skill_manager:knight/iron_will/load
+###真空斬り待機
 execute as @a[scores={ModeSkill=99995}] at @s run function skill_manager:knight/aerial_slash/ready
 ###はやぶさ斬り待機
 execute as @a[scores={ModeSkill=99993}] at @s run function skill_manager:knight/falcon_slash/ready
+execute as @e[tag=FalconSlashed,nbt={PortalCooldown:0}] at @s run function skill_manager:knight/falcon_slash/deal_damage
+
 ###ダークスワンプ処理
 execute as @e[tag=DarkSwamp,nbt={PortalCooldown:0}] at @s run function skill_manager:black_mage/dark_swamp/tick
 ###一閃処理
@@ -87,11 +91,16 @@ execute if score #Aura MP > $10000 Const run scoreboard players remove #Aura MP 
 scoreboard players operation バースト MP = #Aura MP
 scoreboard players operation バースト MP < $99999 Const
 
-###アイアンウィル復帰
-execute as @a[tag=IronWill] run function skill_manager:knight/iron_will/load
-
 ###エンティティ削除処理
-function entity_manager:kill_garbage
+##敵討伐時処理
+execute as @a[scores={KillCount=1..}] run function entity_manager:defeat_enemy
+execute as @e[tag=Mob,nbt={AbsorptionAmount:0f}] at @s run function entity_manager:mob_death
+##敵削除フラグ付与
+tag @e[tag=CooldownRequired,nbt={PortalCooldown:0}] add Garbage
+tag @e[tag=Vehicle,nbt=!{Passengers:[{}]}] add Garbage
+##エンティティ削除
+execute as @e[tag=Garbage] run data merge entity @s {Size:0,DeathTime:19s,HandItems:[{},{}],ArmorItems:[{},{},{},{}]}
+kill @e[tag=Garbage]
 
 ###スキルエッグ
 execute as @a[scores={UseModeEgg=1..}] run function item_manager:change_mode

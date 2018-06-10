@@ -11,5 +11,5 @@ execute if score @s ProjectileSkill matches 99997 run function skill_manager:sum
 ### セイクリッドピラー
 execute if score @s ProjectileSkill matches 99996 run function skill_manager:white_mage/sacred_pillar/direct
 
-### 真空切り
+### 真空斬り
 execute if score @s ProjectileSkill matches 99995 run function skill_manager:knight/aerial_slash/hit
