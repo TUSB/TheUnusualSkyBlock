@@ -54,7 +54,9 @@ execute as @a[scores={ModeSkill=99995}] at @s run function skill_manager:knight/
 ###はやぶさ斬り待機
 execute as @a[scores={ModeSkill=99993}] at @s run function skill_manager:knight/falcon_slash/ready
 execute as @e[tag=FalconSlashed,nbt={PortalCooldown:0}] at @s run function skill_manager:knight/falcon_slash/deal_damage
-
+###ワイルドフレア拡散処理
+execute as @e[tag=WildFlareSeed,nbt={PortalCooldown:0}] at @s run function skill_manager:hunter/wild_flare/explode
+execute as @e[tag=WildFlare,sort=random,limit=30] at @s run function skill_manager:hunter/wild_flare/direction
 ###ダークスワンプ処理
 execute as @e[tag=DarkSwamp,nbt={PortalCooldown:0}] at @s run function skill_manager:black_mage/dark_swamp/tick
 ###一閃処理
