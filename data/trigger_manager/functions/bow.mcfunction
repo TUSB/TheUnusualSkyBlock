@@ -11,5 +11,8 @@ execute if entity @s[scores={PiercingAim=1..}] run function skill_manager:hunter
 ### 狩人＜ワイルドフレア＞
 execute if entity @s[scores={ModeSkill=99992,SkillInterval=..0}] run function skill_manager:hunter/wild_flare/act
 
+### 狩人＜ステークスファイア＞
+execute if entity @s[scores={ModeSkill=99991}] run function skill_manager:hunter/stakes_fire/act
+
 ### トリガーリセット
 scoreboard players reset @s UseBow

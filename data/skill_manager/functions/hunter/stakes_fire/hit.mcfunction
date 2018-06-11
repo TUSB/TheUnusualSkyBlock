@@ -1,0 +1,6 @@
+##############################
+### ステークスファイアヒット
+##############################
+
+execute anchored eyes run particle minecraft:flame ^ ^ ^ 0 0 0 0.15 60 force
+playsound minecraft:entity.zombie.attack_iron_door master @a ~ ~ ~ 5 1.414

@@ -71,6 +71,9 @@ execute as @e[tag=SacredPillarBase] at @s run function skill_manager:white_mage/
 ###介錯処理
 execute as @a[scores={Kaishaku=1..}] at @s as @e[distance=..10,tag=Mob,nbt={HurtTime:10s}] at @s run function skill_manager:ninja/kaishaku/say
 execute as @e[tag=KaishakuExplosion] at @s run function skill_manager:ninja/kaishaku/tick
+###ステークスファイア
+execute as @e[tag=StakesSucceeded,tag=Projectile] at @s run function skill_manager:hunter/stakes_fire/success
+execute as @e[tag=StakesFailed,tag=Projectile] at @s run function skill_manager:hunter/stakes_fire/failure
 
 ### スポナーカート空気時削除
 execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air run tag @e[dx=0,tag=Spawner] add Garbage

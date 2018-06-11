@@ -13,3 +13,6 @@ execute if score @s ProjectileSkill matches 99996 run function skill_manager:whi
 
 ### 真空斬り
 execute if score @s ProjectileSkill matches 99995 run function skill_manager:knight/aerial_slash/hit
+
+### ステークスファイア
+execute if score @s ProjectileSkill matches 99991 run function skill_manager:hunter/stakes_fire/hit
