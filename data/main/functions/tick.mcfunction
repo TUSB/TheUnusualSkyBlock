@@ -33,7 +33,7 @@ execute as @e[tag=Sicced,type=minecraft:snowman] at @s run function skill_manage
 execute as @e[tag=Sicced,type=minecraft:villager_golem] at @s run function skill_manager:villager_golem/attack/act
 
 ###エンティティ発生時処理
-execute as @e[tag=!Initialized] run function entity_manager:initialize_entity
+execute as @e[tag=!Initialized] at @s run function entity_manager:initialize_entity
 
 ###飛翔物スキル処理
 execute as @e[tag=Mob,scores={ProjectileSkill=1..}] at @s run function skill_manager:projectile/check

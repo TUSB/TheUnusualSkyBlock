@@ -7,8 +7,9 @@ summon minecraft:armor_stand ~ ~ ~ {Invisible:true,Invulnerable:true,Marker:true
 ### Get Pos of Destination
 execute as @e[distance=..0.1,tag=CalcMarker,limit=1] at @s run function calc_manager:get/pos1
 ### Get Pos of Target
-tp @e[distance=..0.1,tag=CalcMarker,limit=1] ^ ^ ^1 facing entity @s
-execute as @e[distance=..1.1,tag=CalcMarker,limit=1] at @s run function calc_manager/get/pos2
+tp @e[distance=..0.1,tag=CalcMarker,limit=1] ^ ^ ^ facing entity @s
+execute as @e[distance=..0.1,tag=CalcMarker,limit=1] at @s run tp @s ^ ^ ^1
+execute as @e[distance=..1.1,tag=CalcMarker,limit=1] at @s run function calc_manager:get/pos2
 kill @e[distance=..1.1,tag=CalcMarker,limit=1]
 ### Get Direction
 scoreboard players operation $X1 Global -= $X2 Global
