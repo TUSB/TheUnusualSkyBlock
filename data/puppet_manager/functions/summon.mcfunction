@@ -16,7 +16,7 @@ summon minecraft:stray ~ ~ ~ {Team:Friendly,ArmorItems:[{},{},{},{id:"minecraft:
 scoreboard players set @s Level 50
 scoreboard players set @s MPMax 150
 scoreboard players set @s MP 150
-scoreboard players set @s ModeSkill 7125
+scoreboard players set @s ModeSkill 71025
 execute store result score @s ID run data get entity @s UUIDMost 0.0000000001
 clear @s
 function puppet_manager:give_records

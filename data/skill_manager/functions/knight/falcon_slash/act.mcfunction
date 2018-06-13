@@ -24,3 +24,6 @@ scoreboard players set $Timer Global 0
 execute positioned ^ ^ ^5 as @e[distance=..5,tag=Mob] run function skill_manager:knight/falcon_slash/set_timer
 
 ###演出
+
+say bbb
+

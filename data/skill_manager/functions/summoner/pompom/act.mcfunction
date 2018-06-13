@@ -4,22 +4,22 @@
 
 ###花火の設定をする
 execute positioned ^ ^ ^-0.25 run summon minecraft:snowball ~ ~1.52 ~ {NoGravity:true,PortalCooldown:7,Tags:[CooldownRequired,PomPom,Initializing]}
+###座標取得
+execute as @e[tag=Initializing,limit=1] at @s run function calc_manager:get/pos1
+function calc_manager:get/pos2
 
-execute store result score $Dtarget Global run data get entity @e[tag=Initializing,limit=1] Pos[0] 1000
-execute store result score $Dsource Global run data get entity @s Pos[0] 1000
-scoreboard players operation $Dtarget Global -= $Dsource Global
-execute store result entity @e[tag=Initializing,limit=1] Motion[0] double -0.01 run scoreboard players get $Dtarget Global
+###モーション量計算
+scoreboard players operation $X1 Global -= $X2 Global
+scoreboard players operation $Y1 Global -= $Y2 Global
+scoreboard players remove $Y1 Global 1520
+scoreboard players operation $Z1 Global -= $Z2 Global
 
-execute store result score $Dtarget Global run data get entity @e[tag=Initializing,limit=1] Pos[1] 1000
-execute store result score $Dsource Global run data get entity @s Pos[1] 1000
-scoreboard players operation $Dtarget Global -= $Dsource Global
-scoreboard players remove $Dtarget Global 1520
-execute store result entity @e[tag=Initializing,limit=1] Motion[1] double -0.01 run scoreboard players get $Dtarget Global
+###モーション量補正
+scoreboard players set $M Global -1000
+function calc_manager:multiply/pos1
 
-execute store result score $Dtarget Global run data get entity @e[tag=Initializing,limit=1] Pos[2] 1000
-execute store result score $Dsource Global run data get entity @s Pos[2] 1000
-scoreboard players operation $Dtarget Global -= $Dsource Global
-execute store result entity @e[tag=Initializing,limit=1] Motion[2] double -0.01 run scoreboard players get $Dtarget Global
+###モーション適用
+execute as @e[tag=Initializing,limit=1] at @s run function calc_manager:set/motion1
 
 ###飛翔物スキル付与
 scoreboard players operation @e[tag=Initializing,limit=1] ProjectileSkill = @s ModeSkill

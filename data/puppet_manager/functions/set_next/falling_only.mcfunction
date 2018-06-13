@@ -7,8 +7,8 @@ summon minecraft:villager ~ ~ ~ {Attributes:[{"Name":"generic.knockbackResistanc
 scoreboard players operation @e[distance=0,tag=Initializing,limit=1] ID = @s ID
 
 ###横POSを殺しておく
-scoreboard players set $DestinationX PuppetScore 0
-scoreboard players set $DestinationZ PuppetScore 0
+scoreboard players set $X1 Global 0
+scoreboard players set $Z1 Global 0
 
 ###移動用エンティティに対して行う処理
 execute as @e[distance=0,tag=Initializing,limit=1] run function puppet_manager:set_next/destination
