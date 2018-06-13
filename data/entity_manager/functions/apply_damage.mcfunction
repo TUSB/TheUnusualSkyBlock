@@ -20,7 +20,9 @@ scoreboard players operation $Health Global -= @s Damage
 execute store result entity @s[nbt=!{ActiveEffects:[{Id:27b,Amplifier:127b}]}] AbsorptionAmount float 0.01 run scoreboard players get $Health Global
 
 ###ダメージ演出
-execute if entity @s[nbt=!{AbsorptionAmount:0f},nbt=!{ActiveEffects:[{Id:27b,Amplifier:127b}]}] run summon minecraft:snowball ~ ~-0.30001 ~ {Motion:[0d,10d,0d]}
+execute if entity @s[nbt=!{AbsorptionAmount:0f},nbt=!{ActiveEffects:[{Id:27b,Amplifier:127b}]}] run summon minecraft:snowball ~ ~300 ~ {Tags:[DamageBall]}
+execute positioned ~ ~300 ~ run tp @e[distance=0,tag=DamageBall] ~ ~-300.30001 ~
+data merge entity @e[tag=DamageBall,limit=1] {Motion:[0d,10d,0d],Tags:[Initialized]}
 data merge entity @s[nbt=!{ActiveEffects:[{Id:27b,Amplifier:127b}]}] {ActiveEffects:[{Id:27b,Duration:10,Amplifier:127b,ShowParticles:false}]}
 
 ###スコアリセット
