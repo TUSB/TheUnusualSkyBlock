@@ -3,12 +3,11 @@
 ##############################
 
 ###ダークスワンプ発動
-summon minecraft:armor_stand ~ ~ ~ {Tags:[DarkSwamp,DarkSwamp1,Initialized,Initializing],Marker:true,Invisible:true,Invulnerable:true,Small:true,NoBasePlate:true,NoGravity:true}
-#summon minecraft:armor_stand ~ ~ ~ {Tags:[DarkSwamp,DarkSwamp2,Initialized,Initializing],Marker:true,Invisible:true,Invulnerable:true,Small:true,NoBasePlate:true,NoGravity:true}
-scoreboard players set @e[tag=Initializing,limit=1] DarkSwamp 5
-scoreboard players operation @e[tag=Initializing,limit=1] ID = @s ID
-### ダークスワンプパーティクル表示
-execute at @e[tag=Initializing,limit=1] run particle minecraft:squid_ink ~ ~ ~ 1.5 0.2 1.5 0 50 force
-tag @e[tag=Initializing,limit=1] remove Initializing
-###MP消費
-scoreboard players operation @s MPConsumption += @s ModeCost
+summon minecraft:armor_stand ~ ~ ~ {Tags:[DarkSwamp,Initialized,Initializing],Marker:true,Invisible:true,Invulnerable:true,Small:true,NoBasePlate:true,NoGravity:true}
+scoreboard players set $DarkSwamp ID = @s ID
+###ダメージ/吸収レート
+execute if score @s ModeSkill matches 52071 run scoreboard players set $AbsorbRate Global 50
+execute if score @s ModeSkill matches 52072 run scoreboard players set $AbsorbRate Global 30
+execute if score @s ModeSkill matches 52073 run scoreboard players set $AbsorbRate Global 20
+###サブルーチンコール
+execute as @e[tag=Initializing,limit=1] run function skill_manager:black_mage/dark_swamp/act2

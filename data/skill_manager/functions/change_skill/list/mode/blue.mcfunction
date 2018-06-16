@@ -14,5 +14,6 @@ execute if score @s ChangeModeBlue matches 6 run function skill_manager:change_s
 execute if score @s ChangeModeBlue matches 7 run function skill_manager:change_skill/puppet_master/mode/blue
 scoreboard players set @s ChangeModeBlue 0
 scoreboard players enable @s ChangeModeBlue
-###演出
+###---演出---Start
 execute at @s run playsound minecraft:ui.button.click master @s ~ ~ ~ 0.7 1
+###---演出---End

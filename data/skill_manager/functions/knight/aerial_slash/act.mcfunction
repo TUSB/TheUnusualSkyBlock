@@ -4,8 +4,11 @@
 
 scoreboard players reset @s SprintOneCm
 
-###花火の設定をする
-execute positioned ^ ^ ^-0.25 run summon minecraft:arrow ~ ~1.52 ~ {damage:0d,NoGravity:true,Color:-1,Tags:[Projectile,Initializing,Rapid,DelayedTask,VelocityRequired]}
+###HurtTime:10sがあればヒットとみなす
+execute as @e[distance=..5,tag=Mob,nbt={HurtTime:10s},limit=1] at @s run function skill_manager:knight/aerial_slash/hit
+
+###弾の設定をする
+execute unless entity @e[distance=..5,tag=Mob,nbt={HurtTime:10s},limit=1] positioned ^ ^ ^-0.25 run summon minecraft:arrow ~ ~1.52 ~ {damage:0d,NoGravity:true,Color:-1,Tags:[Projectile,Initializing,Rapid]}
 ###座標を取得する
 execute as @e[tag=Initializing,limit=1] at @s run function calc_manager:get/pos1
 function calc_manager:get/pos2

@@ -2,12 +2,6 @@
 ### エリア移動時共通処理
 ##############################
 
-###スキルチェンジのトリガーをリセットしておく
-scoreboard players reset @s InstantChangeA
-scoreboard players reset @s InstantChangeB
-scoreboard players reset @s ModeChangeA
-scoreboard players reset @s ModeChangeB
-
 ###ゲームモードを反映する
 tellraw @s[gamemode=adventure,tag=!Adv] {"text":"ブロックの設置・破壊制限が解除された。","color":"dark_aqua"}
 gamemode survival @s[gamemode=adventure,tag=!Adv]

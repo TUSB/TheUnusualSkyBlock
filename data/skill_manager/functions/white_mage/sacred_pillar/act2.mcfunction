@@ -29,7 +29,7 @@ execute store result score $Damage PillarDamage run data get entity @s Health 10
 scoreboard players operation $Damage PillarDamage -= @s PillarDamage
 ###飛翔物属性付与
 scoreboard players operation @e[tag=Initializing,limit=1] PillarDamage = $Damage PillarDamage
-scoreboard players operation @e[tag=Initializing,limit=1] ProjectileSkillA = $Damage PillarDamage
+scoreboard players operation @e[tag=Initializing,limit=1] SkillAttribute = $Damage PillarDamage
 
 ###初期化タグ削除
 tag @e[tag=Initializing,limit=1] remove Initializing

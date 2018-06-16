@@ -6,7 +6,7 @@
 scoreboard players operation $Aerial ID = @s ID
 execute as @e[tag=Aerial] if score @s ID = $Aerial ID run tag @s add ActiveAerial
 ### 的を持ってない場合は生成
-execute unless entity @e[tag=ActiveAerial,limit=1] run summon minecraft:horse ~ ~ ~ {Silent:true,NoAI:true,AbsorptionAmount:1E10f,ActiveEffects:[{Id:14b,Duration:2147483647,Amplifier:127b,ShowParticles:false}],Tags:[CooldownRequired,Initialized,Aerial,ActiveAerial]}
+execute unless entity @e[tag=ActiveAerial,limit=1] run summon minecraft:horse ~ ~ ~ {Silent:true,NoAI:true,AbsorptionAmount:1E10f,ActiveEffects:[{Id:14b,Duration:2147483647,Amplifier:127b,ShowParticles:false}],Tags:[CooldownRequired,Initialized,Aerial,ActiveAerial],Team:NoCollision}
 scoreboard players operation @e[tag=ActiveAerial,limit=1] ID = @s ID
 ### 的の寿命延長
 data merge entity @e[tag=ActiveAerial,limit=1] {PortalCooldown:1}

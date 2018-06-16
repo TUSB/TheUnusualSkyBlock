@@ -65,10 +65,12 @@ scoreboard objectives add SkillInterval dummy スキル使用不可tick数
 scoreboard objectives add MPHealingWait dummy MP回復ウェイト
 scoreboard objectives add MPConsumption dummy MP消費量
 scoreboard objectives add Damage dummy モブ付与ダメージ
+scoreboard objectives add StoredDamage dummy 累積型ダメージ
 scoreboard objectives add BurstTrigger dummy バースト発動カウント
 scoreboard objectives add ChangeSkillLimit dummy スキル変更不可時間
 scoreboard objectives add ProjectileSkill dummy 飛翔物付与スキル
-scoreboard objectives add ProjectileSkillA dummy 飛翔物付与スキル属性
+#scoreboard objectives add ProjectileSkillA dummy 飛翔物付与スキル属性
+scoreboard objectives add SkillAttribute dummy スキル付加情報
 ###スキル個別系
 scoreboard objectives add FalconDamage dummy はやぶさ斬り用ダメージ保存値
 scoreboard objectives add FalconHP dummy はやぶさ斬り用敵HP

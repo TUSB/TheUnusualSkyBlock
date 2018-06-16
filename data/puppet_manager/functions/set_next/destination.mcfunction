@@ -10,7 +10,6 @@ function calc_manager:multiply/pos1
 ###Motion設定
 function calc_manager:set/motion1
 
-
 ###位置調整
 execute positioned as @s run tp @s ~ ~-300 ~
 

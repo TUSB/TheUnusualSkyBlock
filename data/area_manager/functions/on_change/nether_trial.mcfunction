@@ -13,9 +13,10 @@ scoreboard players set @s[tag=!ContainsItem] Dimension 20
 tag @s[tag=!ContainsItem] add Adv
 ###共通処理
 function area_manager:on_change/common
-###移動時演出処理
+###---演出---Start
 execute at @s run playsound minecraft:block.portal.trigger master @s[tag=!ContainsItem] ~ ~ ~ 0.6 0.8 0
 title @s[tag=!ContainsItem] subtitle {"text":"= Nether Trial =","italic":"true","color":"black"}
 title @s[tag=!ContainsItem] title {"text":"ネザーアスレ","color":"dark_red","bold":"true","underlined":"true"}
+###---演出---End
 
 tag @s remove ContainsItem

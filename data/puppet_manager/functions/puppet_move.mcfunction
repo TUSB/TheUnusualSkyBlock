@@ -54,15 +54,15 @@ execute at @e[distance=36..,tag=ActivePuppet,limit=1] run function puppet_manage
 ###次ターゲットタグ付与
 scoreboard players set $SeekFlag PuppetScore 0
 ##マスターが遠い場合
-execute if entity @e[distance=24..,tag=ActivePuppet,limit=1] run function puppet_manager:set_next/master
+execute if entity @e[distance=24..,tag=ActivePuppet,limit=1] run function puppet_manager:set_next/master/turn
 ##マスター優先の場合
-execute if entity @s[tag=!ActiveTarget,tag=PupPriorMaster] run function puppet_manager:set_next/master
+execute if entity @s[tag=!ActiveTarget,tag=PupPriorMaster] run function puppet_manager:set_next/master/turn
 ##近接攻撃優先の場合
-execute if entity @s[tag=!ActiveTarget,tag=PupPriorClose] run function puppet_manager:set_next/close
+execute if entity @s[tag=!ActiveTarget,tag=PupPriorClose] run function puppet_manager:set_next/close/turn
 ##遠隔攻撃優先の場合
-execute if entity @s[tag=!ActiveTarget,tag=PupPriorLong] run function puppet_manager:set_next/long
+execute if entity @s[tag=!ActiveTarget,tag=PupPriorLong] run function puppet_manager:set_next/long/turn
 ##ターゲットがない場合はマスター
-execute if score $SeekFlag PuppetScore matches ..0 run function puppet_manager:set_next/master
+execute if score $SeekFlag PuppetScore matches ..0 run function puppet_manager:set_next/master/turn
 
 ###移動速度取得
 ##アクロバットOFF・落下OFFの時、Speed = Mobility
@@ -95,8 +95,6 @@ tag @e[tag=ActiveTarget] remove ActiveTarget
 ###ダウンサーチャーのみタグ付与
 tag @e[tag=ActiveDownSearcher] remove ActiveDownSearcher
 
-###パペットダメージ処理
-execute if score $PuppetDamage PuppetScore matches 1.. as @e[tag=ActivePuppet,limit=1] at @s run function puppet_manager:damage_taken
 ###子パペットタグ削除
 tag @e[tag=ActivePuppet,limit=1] remove ActivePuppet
 

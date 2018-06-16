@@ -41,7 +41,7 @@ data merge entity @s[tag=Projectile,nbt={PortalCooldown:0}] {PortalCooldown:200}
 tag @s[type=minecraft:armor_stand,nbt={Passengers:[{id:"minecraft:spawner_minecart"}]}] add SpawnerCore
 
 ### プレイヤー初期化
-execute as @s[type=minecraft:player] store result score @s ID run data get entity @s UUIDMost 0.0000000001
+execute as @s[type=minecraft:player] run function calc_manager:set/id
 
 tag @s[type=minecraft:area_effect_cloud] add 
 tag @s[type=minecraft:boat] add 

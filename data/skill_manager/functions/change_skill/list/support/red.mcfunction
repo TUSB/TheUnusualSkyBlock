@@ -14,5 +14,6 @@ execute if score @s ChangeSupRed matches 6 run function skill_manager:change_ski
 execute if score @s ChangeSupRed matches 7 run function skill_manager:change_skill/puppet_master/support/red
 scoreboard players set @s ChangeSupRed 0
 scoreboard players enable @s ChangeSupRed
-###演出
+###---演出---Start
 execute at @s run playsound minecraft:ui.button.click master @s ~ ~ ~ 0.7 1
+###---演出---End

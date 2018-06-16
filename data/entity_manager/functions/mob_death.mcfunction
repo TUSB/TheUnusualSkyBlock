@@ -4,7 +4,7 @@
 
 ### 敵討伐時処理
 function calc_manager:get/pos1
-execute if score $Y1 Global matches -10..275 run function entity_manager:defeat_enemy
+execute if score $Y1 Global matches -10..275 unless entity @s[tag=Animal] run function entity_manager:defeat_enemy
 ### Garbage付与
 tag @s add Garbage
 

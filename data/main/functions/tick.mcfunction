@@ -89,7 +89,7 @@ execute as @a[scores={TimeSinceDeath=1..}] at @s anchored eyes if block ^ ^ ^ mi
 execute as @a[scores={TimeSinceDeath=1..}] at @s anchored eyes if block ^ ^ ^ minecraft:bedrock run function entity_manager:suffocation
 
 ###スニーク時処理
-execute as @a[scores={SneakTime=1..}] run function calc_manager:sneak
+execute as @a[scores={SneakTime=1..}] run function trigger_manager:sneak
 
 ###バースト現象
 execute if score #Aura MP > $10000 Const run scoreboard players remove #Aura MP 1
@@ -121,7 +121,7 @@ execute as @a[scores={UseSupportBlue=1..}] run function item_manager:use_blue_eg
 execute as @a run function skill_manager:update_mp
 
 ###エンティティダメージ付与
-execute as @e[tag=Mob,scores={Damage=1..}] at @s run function entity_manager:apply_damage
+execute as @e[tag=Mob,scores={Damage=0..}] at @s run function entity_manager:apply_damage
 
 ###カスタムHP回復
 execute as @a[scores={HealthHealing=1..}] run function effect_manager:health_healing

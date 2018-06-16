@@ -8,8 +8,8 @@ execute as @e[distance=..5,tag=Mob] positioned ~-3 ~-1 ~-3 run tag @s[dx=6,dy=2,
 execute as @e[tag=DarkSwampTarget] at @s run function skill_manager:black_mage/dark_swamp/pull
 ###MP吸収量計算
 scoreboard players set $DarkSwampTotal DarkSwamp 0
-execute if entity @s[tag=DarkSwamp1] as @e[tag=DarkSwampTarget] run function skill_manager:black_mage/dark_swamp/total1
-execute if entity @s[tag=DarkSwamp2] as @e[tag=DarkSwampTarget] run function skill_manager:black_mage/dark_swamp/total2
+scoreboard players operation $AbsorbRate Global = @s SkillAttribute
+execute as @e[tag=DarkSwampTarget] run function skill_manager:black_mage/dark_swamp/total
 ###MP増加処理
 scoreboard players operation $DarkSwampId ID = @s ID
 execute as @a if score @s ID = $DarkSwampId ID run scoreboard players operation @s MPConsumption -= $DarkSwampTotal DarkSwamp

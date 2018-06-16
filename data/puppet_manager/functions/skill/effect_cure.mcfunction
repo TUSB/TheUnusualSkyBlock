@@ -7,6 +7,6 @@ execute if score @s PupRecordLevel matches ..199 as @a[distance=..24,tag=ActiveM
 execute if score @s PupRecordLevel matches 200..299 as @a[distance=..24,tag=ActiveMaster,limit=1] run function puppet_manager:skill/effect/clear2
 execute if score @s PupRecordLevel matches 300.. as @a[distance=..24] run function puppet_manager:skill/effect/clear2
 
-#####演出開始#####
+###---演出---Start
 
-#####演出終了#####
+###---演出---End

@@ -8,7 +8,8 @@ scoreboard players set @s Dimension 12
 tag @s add Adv
 ###共通処理
 function area_manager:on_change/common
-###移動時演出処理
+###---演出---Start
 execute at @s run playsound minecraft:entity.wither.spawn master @s ~ ~ ~ 0.6 0.7 0
 title @s subtitle {"text":"= The Underworld =","italic":"true","color":"dark_gray"}
 title @s title {"text":"地下世界","color":"dark_blue","bold":"true","underlined":"true"} 
+###---演出---End

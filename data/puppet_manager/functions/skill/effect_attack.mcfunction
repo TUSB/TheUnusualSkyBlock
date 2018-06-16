@@ -7,6 +7,6 @@ execute if score @s PupRecordLevel matches ..199 as @e[distance=..17,tag=Mob,sor
 execute if score @s PupRecordLevel matches 200..299 as @e[distance=..17,tag=Mob,sort=nearest,limit=1] run function puppet_manager:skill/effect/give2
 execute if score @s PupRecordLevel matches 300.. at @e[distance=..17,tag=Mob,sort=nearest,limit=1] as @e[distance=..6,tag=Mob] run function puppet_manager:skill/effect/give2
 
-#####演出開始#####
+###---演出---Start
 
-#####演出終了#####
+###---演出---End

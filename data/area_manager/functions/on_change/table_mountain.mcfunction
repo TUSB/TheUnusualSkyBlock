@@ -16,9 +16,10 @@ tag @s[tag=!ContainsItem] add Adv
 function area_manager:on_change/common
 ###エンダーチェストOpenedリセットフラグ
 tag @s[tag=!ContainsItem] add ResetEnderChest
-###移動演出処理
+###---演出---Start
 execute at @s run playsound minecraft:entity.elder_guardian.ambient master @s[tag=!ContainsItem] ~ ~ ~ 4 0.5 0
 title @s[tag=!ContainsItem] subtitle {"text":"= Table Mountain =","italic":"true","color":"dark_green"}
 title @s[tag=!ContainsItem] title {"text":"テーブルマウンテン","color":"green","bold":"true","underlined":"true"}
+###---演出---End
 
 tag @s remove ContainsItem

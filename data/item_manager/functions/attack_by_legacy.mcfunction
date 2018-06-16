@@ -17,7 +17,6 @@ execute store result entity @s SelectedItem.tag.AttributeModifiers[0].Amount dou
 execute if score $LegacyDurability Global matches ..0 run replaceitem entity @s weapon.mainhand minecraft:air
 ###耐久変化後表示
 scoreboard players operation $LegacyDurability Global /= $1000 Const
-#execute if score $LegacyDurability Global matches ..3 run tellraw @p {"score":{"name":"$LegacyDurability","objective":"Global"}}
 
 ###演出
 execute if score $LegacyDurability Global matches 4.. at @s run playsound minecraft:entity.wither.death master @s ~ ~ ~ 0.5 2
