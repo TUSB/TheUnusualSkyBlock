@@ -85,8 +85,8 @@ execute as @a at @s run replaceitem entity @s[y=0,dy=-20,nbt={Inventory:[{id:"mi
 ### 奈落kill
 execute as @a at @s if entity @s[y=-250,dy=50] run kill @s
 ###めり込み処理
-execute as @a[scores={TimeSinceDeath=1..}] at @s anchored eyes if block ^ ^ ^ minecraft:barrier run function entity_manager:suffocation
-execute as @a[scores={TimeSinceDeath=1..}] at @s anchored eyes if block ^ ^ ^ minecraft:bedrock run function entity_manager:suffocation
+execute as @a[scores={TimeSinceDeath=1..},gamemode=!spectator,gamemode=!creative] at @s anchored eyes if block ^ ^ ^ minecraft:barrier run function entity_manager:suffocation
+execute as @a[scores={TimeSinceDeath=1..},gamemode=!spectator,gamemode=!creative] at @s anchored eyes if block ^ ^ ^ minecraft:bedrock run function entity_manager:suffocation
 
 ###スニーク時処理
 execute as @a[scores={SneakTime=1..}] run function trigger_manager:sneak
