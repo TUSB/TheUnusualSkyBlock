@@ -2,6 +2,9 @@
 ### ピアッシングエイム適用
 ##############################
 
+###ダメージ補正算出 ###(Count+10)/40 => 82.5%->187.5->300%
+scoreboard players operation $DamageRate Global = @s PiercingAim
+scoreboard players add $DamageRate Global 10
 ###矢修正
 execute as @e[distance=..5,type=minecraft:arrow,tag=!Initialized,sort=nearest,limit=1] run function skill_manager:hunter/piercing_aim/modify
 

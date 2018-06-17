@@ -6,13 +6,13 @@
 execute if score @s ProjectileSkill matches 100000 run function skill_manager:snowman/snowball/hit
 
 ### ぽむぽむ花火
-execute if score @s ProjectileSkill matches 99997 run function skill_manager:summoner/pompom/direct
+execute if score @s ProjectileSkill matches 61081..61089 run function skill_manager:summoner/pompom/direct
 
 ### セイクリッドピラー
-execute if score @s ProjectileSkill matches 99996 run function skill_manager:white_mage/sacred_pillar/direct
+execute if score @s ProjectileSkill matches 51041..51049 run function skill_manager:white_mage/sacred_pillar/direct
 
 ### 真空斬り
-execute if score @s ProjectileSkill matches 99995 run function skill_manager:knight/aerial_slash/hit
+execute if score @s ProjectileSkill matches 11041..11049 run function skill_manager:knight/aerial_slash/hit
 
 ### ステークスファイア
-execute if score @s ProjectileSkill matches 99991 run function skill_manager:hunter/stakes_fire/hit
+execute if score @s ProjectileSkill matches 31011..31019 run function skill_manager:hunter/stakes_fire/hit

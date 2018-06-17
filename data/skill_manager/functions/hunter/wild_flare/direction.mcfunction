@@ -1,8 +1,9 @@
 ##############################
-### ワイルドフレア演出
+### ワイルドフレアダメージ&演出
 ##############################
 
-###演出
-scoreboard players add @e[distance=..5,tag=Mob] Damage 300
+###ダメージ付与
+scoreboard players operation @e[distance=..5,tag=Mob] Damage += @s SkillAttribute
+###---演出---Start
 particle minecraft:flame ~ ~ ~ 2 1 2 0.01 2 force
-#playsound minecraft:block.fire.ambient master @a ~ ~ ~ 5 0.5
+###---演出---End

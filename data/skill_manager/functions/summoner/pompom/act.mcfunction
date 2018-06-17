@@ -9,10 +9,8 @@ execute as @e[tag=Initializing,limit=1] at @s run function calc_manager:get/pos1
 function calc_manager:get/pos2
 
 ###モーション量計算
-scoreboard players operation $X1 Global -= $X2 Global
-scoreboard players operation $Y1 Global -= $Y2 Global
+function calc_manager:subtract/1-2
 scoreboard players remove $Y1 Global 1520
-scoreboard players operation $Z1 Global -= $Z2 Global
 
 ###モーション量補正
 scoreboard players set $M Global -1000
@@ -27,10 +25,9 @@ scoreboard players operation @e[tag=Initializing,limit=1] ProjectileSkill = @s M
 ###初期化タグ削除
 tag @e[tag=Initializing,limit=1] remove Initializing
 
-###演出
+###---演出---Start
 playsound minecraft:entity.blaze.shoot master @a ~ ~ ~ 1 2
+###---演出---End
 
-###MP消費
-scoreboard players operation @s MPConsumption += @s ModeCost
 ###スキルインターバル設定
 scoreboard players set @s SkillInterval 20

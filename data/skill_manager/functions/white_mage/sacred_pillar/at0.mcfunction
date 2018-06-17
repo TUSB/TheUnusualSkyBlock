@@ -2,8 +2,8 @@
 ### セイクリッドピラー接地
 ##############################
 
-execute if score @s PillarDamage matches 1.. run function skill_manager:white_mage/sacred_pillar/success
-execute if score @s PillarDamage matches ..0 run function skill_manager:white_mage/sacred_pillar/failure
+execute if score @s SkillAttribute matches 1.. run function skill_manager:white_mage/sacred_pillar/success
+execute if score @s SkillAttribute matches ..0 run function skill_manager:white_mage/sacred_pillar/failure
 tag @s remove SacredPillar
 
 ###直撃誤検知回避

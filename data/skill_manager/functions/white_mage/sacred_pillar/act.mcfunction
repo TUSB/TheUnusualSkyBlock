@@ -9,5 +9,3 @@ tag @s add DelayedTask
 
 ###スキルインターバル設定
 scoreboard players set @s SkillInterval 50
-###MP消費
-scoreboard players operation @s MPConsumption += @s ModeCost

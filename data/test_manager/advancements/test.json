@@ -10,17 +10,10 @@
     },
     "criteria": {
         "damage_taken": {
-            "trigger": "minecraft:entity_hurt_player",
-            "conditions": {
-                "damage": {
-                    "type": {
-                        "is_magic": "true"
-                    }
-                }
-            }
+            "trigger": "minecraft:player_hurt_entity"
         }
     },
     "rewards": {
-        "function": "test_manager:dot"
+        "function": "test_manager:test"
     }
 } 

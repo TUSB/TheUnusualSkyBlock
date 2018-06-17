@@ -4,7 +4,7 @@
 
 ###ダークスワンプ発動
 summon minecraft:armor_stand ~ ~ ~ {Tags:[DarkSwamp,Initialized,Initializing],Marker:true,Invisible:true,Invulnerable:true,Small:true,NoBasePlate:true,NoGravity:true}
-scoreboard players set $DarkSwamp ID = @s ID
+scoreboard players operation $DarkSwamp ID = @s ID
 ###ダメージ/吸収レート
 execute if score @s ModeSkill matches 52071 run scoreboard players set $AbsorbRate Global 50
 execute if score @s ModeSkill matches 52072 run scoreboard players set $AbsorbRate Global 30

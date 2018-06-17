@@ -2,8 +2,6 @@
 ### モードチェンジ
 ##############################
 
-execute at @s as @e[distance=..6,type=minecraft:polar_bear] run data merge entity @s {DeathLootTable:"minecraft:empty",Age:-1000,Pos:[0d,-300d,0d],Tags:[Garbage,Initialized],ActiveEffects:[{Id:14b,Duration:1000,ShowParticles:false}],Silent:true}
-
 ### どちらのモードでもない場合は赤になる
 ### 赤→青
 execute store result score $Tmp Global run tag @s remove ModeRed
@@ -19,10 +17,13 @@ scoreboard players operation @s[tag=ModeRed] ModeCost = @s ModeRedCost
 scoreboard players operation @s[tag=ModeBlue] ModeCost = @s ModeBlueCost
 
 ### メッセージ
+###---演出---Start
 tellraw @s[tag=ModeRed] {"text":"ルビーモードにチェンジ！","color":"red","bold":true}
 tellraw @s[tag=ModeBlue] {"text":"サファイアモードにチェンジ！","color":"blue","bold":true}
+stopsound @a neutral minecraft:entity.polar_bear.ambient
 execute positioned as @s[tag=ModeRed] run playsound minecraft:block.note.harp master @s ~ ~ ~ 0.4 1.42 0
 execute positioned as @s[tag=ModeBlue] run playsound block.note.harp master @a ~ ~ ~ 0.4 0.7 0
+###---演出---End
 
 ### スキル名表示セット
 scoreboard players operation @s ShowSkillNo = @s ModeSkill

@@ -3,13 +3,12 @@
 ##############################
 
 ###モーション取得
-execute at @p[nbt=!{Health:0.0f}] positioned ~ ~1.52 ~ rotated ~ 0 run function calc_manager:get/direction1
+execute at @p[nbt=!{Health:0.0f}] positioned ~ ~1.52 ~ run function calc_manager:get/direction1xz
 ###モーション調整
 scoreboard players set $M Global 40
 function calc_manager:multiply/pos1
 ###MotionY調整
-execute if score $Y1 Global matches 1.. run scoreboard players set $Y1 Global 1
-execute if score $Y1 Global matches ..-1 run scoreboard players set $Y1 Global -1
+scoreboard players operation $Y1 Global = $SignY Global
 ###MotionY乱数適用
 function calc_manager:update_random
 scoreboard players operation $Y1 Global *= $Random Global 

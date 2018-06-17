@@ -3,4 +3,4 @@
 ##############################
 
 ###HP再取得
-execute as @e[distance=..5] store result score @s FalconHP run data get entity @s AbsorptionAmount 10
+execute positioned ^ ^ ^5 as @e[distance=..5,tag=Mob] store result score @s FalconHP run data get entity @s AbsorptionAmount 10

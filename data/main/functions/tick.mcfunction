@@ -29,8 +29,7 @@ execute as @a[scores={UseSnowball=1..}] at @s run function trigger_manager:snowb
 execute as @a[scores={UseBow=1..}] at @s run function trigger_manager:bow
 execute as @a[scores={UseCarrotStick=1..}] at @s run function trigger_manager:carrot_on_a_stick
 execute as @a[scores={DamageDealt=0..}] at @s run function trigger_manager:damage_dealt
-execute as @e[tag=Sicced,type=minecraft:snowman] at @s run function skill_manager:snowman/snowball/act
-execute as @e[tag=Sicced,type=minecraft:villager_golem] at @s run function skill_manager:villager_golem/attack/act
+execute as @e[tag=Sicced] at @s run function skill_manager:sicced/pets
 
 ###エンティティ発生時処理
 execute as @e[tag=!Initialized] at @s run function entity_manager:initialize_entity
@@ -50,13 +49,13 @@ execute as @a[tag=WithPuppet] at @s run function puppet_manager:puppet_move
 ###アイアンウィル復帰
 execute as @a[tag=IronWill] run function skill_manager:knight/iron_will/load
 ###真空斬り待機
-execute as @a[scores={ModeSkill=99995}] at @s run function skill_manager:knight/aerial_slash/ready
+execute as @a[scores={ModeSkill=11041..11049}] at @s run function skill_manager:knight/aerial_slash/ready
 ###はやぶさ斬り待機
-execute as @a[scores={ModeSkill=99993}] at @s run function skill_manager:knight/falcon_slash/ready
+execute as @a[scores={ModeSkill=11011..11019}] at @s run function skill_manager:knight/falcon_slash/ready
 execute as @e[tag=FalconSlashed,nbt={PortalCooldown:0}] at @s run function skill_manager:knight/falcon_slash/deal_damage
 ###ワイルドフレア拡散処理
 execute as @e[tag=WildFlareSeed,nbt={PortalCooldown:0}] at @s run function skill_manager:hunter/wild_flare/explode
-execute as @e[tag=WildFlare,sort=random,limit=30] at @s run function skill_manager:hunter/wild_flare/direction
+execute as @e[tag=WildFlare,sort=random,limit=20] at @s run function skill_manager:hunter/wild_flare/direction
 ###ダークスワンプ処理
 execute as @e[tag=DarkSwamp,nbt={PortalCooldown:0}] at @s run function skill_manager:black_mage/dark_swamp/tick
 ###一閃処理
