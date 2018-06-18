@@ -30,6 +30,7 @@ execute as @a[scores={UseBow=1..}] at @s run function trigger_manager:bow
 execute as @a[scores={UseCarrotStick=1..}] at @s run function trigger_manager:carrot_on_a_stick
 execute as @a[scores={DamageDealt=0..}] at @s run function trigger_manager:damage_dealt
 execute as @e[tag=Sicced] at @s run function skill_manager:sicced/pets
+execute as @e[tag=Crystal] at @s run function skill_manager:summoner/call_crystal/tick/all
 
 ###エンティティ発生時処理
 execute as @e[tag=!Initialized] at @s run function entity_manager:initialize_entity

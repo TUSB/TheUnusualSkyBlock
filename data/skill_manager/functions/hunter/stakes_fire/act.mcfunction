@@ -21,8 +21,3 @@ execute if score $Magnify Global matches 1.. run tag @e[distance=..5,type=minecr
 ###飛翔物スコア付与
 scoreboard players operation $ProjectileSkill Global = @s ModeSkill
 execute as @e[distance=..5,type=minecraft:arrow,tag=!Initialized,sort=nearest,limit=1] if entity @s[tag=StakesSucceeded] run scoreboard players operation @s ProjectileSkill = $ProjectileSkill Global
-
-###MP消費
-scoreboard players operation @s MPConsumption += @s ModeCost
-
-
