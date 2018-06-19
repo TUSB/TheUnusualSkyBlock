@@ -11,5 +11,6 @@ execute if entity @s[tag=Particle] rotated ~-90 0 run particle minecraft:dust 0.
 execute if entity @s[tag=Particle] rotated ~-30 0 run particle minecraft:dust 0.527 0.804 0.917 0.75 ^ ^1.5 ^1 0 1.25 0 0 7 force
 ###---演出---End
 
-execute if entity @s[tag=Attack,nbt={PortalCooldown:40}] run function skill_manager:summoner/call_crystal/attack/ice
+execute if score @s SkillAttribute matches 61071..61079 if entity @s[nbt={PortalCooldown:40}] run function skill_manager:summoner/call_crystal/attack/ice
+execute if score @s SkillAttribute matches 61091..61099 if entity @s[nbt={PortalCooldown:40}] run function skill_manager:summoner/call_crystal/enhance/ice
 execute if entity @s[nbt={PortalCooldown:0}] run function skill_manager:summoner/call_crystal/return/common

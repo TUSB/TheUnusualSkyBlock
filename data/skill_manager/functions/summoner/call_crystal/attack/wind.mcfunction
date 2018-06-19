@@ -3,7 +3,6 @@
 ##############################
 
 ###---演出---Start
-playsound minecraft:entity.enderdragon_fireball.explode master @a ~ ~ ~ 3 0.5
 particle minecraft:dust 0.6015625 0.80078125 0.1953125 3 ~ ~4 ~ 0.2 2 0.2 0 100 force
 particle minecraft:dust 0.6015625 0.80078125 0.1953125 3 ~ ~ ~ 1 0 1 0 100 force
 particle minecraft:dust 0.6015625 0.80078125 0.1953125 3 ~ ~-0.5 ~ 2 0 2 0 100 force

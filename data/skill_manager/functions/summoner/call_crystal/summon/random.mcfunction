@@ -14,5 +14,7 @@ execute if score $Random Global matches 5 run function skill_manager:summoner/ca
 execute if score $Random Global matches 6 run function skill_manager:summoner/call_crystal/summon/light
 execute if score $Random Global matches 7 run function skill_manager:summoner/call_crystal/summon/dark
 
+tag @e[tag=Initializing,limit=1] remove Initializing
+
 ###スキルインターバル設定
 scoreboard players set @s SkillInterval 60
