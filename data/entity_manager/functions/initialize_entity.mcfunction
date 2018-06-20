@@ -33,6 +33,7 @@ tag @s[type=minecraft:potion] add Projectile
 tag @s[type=minecraft:shulker_bullet] add Projectile
 tag @s[type=minecraft:small_fireball] add Projectile
 tag @s[type=minecraft:snowball] add Projectile
+tag @s[type=minecraft:trident] add Projectile
 tag @s[type=minecraft:wither_skull] add Projectile
 tag @s[type=minecraft:xp_bottle] add Projectile
 data merge entity @s[tag=Projectile,nbt={PortalCooldown:0}] {PortalCooldown:200}

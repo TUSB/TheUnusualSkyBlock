@@ -25,6 +25,7 @@ execute as @e[tag=DelayedTask] at @s run function main:delayed_task
 ###スキルインターバル処理
 scoreboard players remove @a[scores={SkillInterval=1..}] SkillInterval 1
 ###ここからモード処理を入れる（エンティティ発生処理に割り込めるのでやりやすい）
+execute as @a[scores={CarrotTick=1..}] at @s run function trigger_manager:carrot_continue
 execute as @a[scores={UseSnowball=1..}] at @s run function trigger_manager:snowball
 execute as @a[scores={UseBow=1..}] at @s run function trigger_manager:bow
 execute as @a[scores={UseCarrotStick=1..}] at @s run function trigger_manager:carrot_on_a_stick
@@ -43,6 +44,8 @@ execute as @e[tag=Projectile,scores={ProjectileSkill=1..}] at @s run function sk
 scoreboard players add $Second Count 1
 execute if score $Second Count matches 20.. run function main:one_second
 
+###クールティック監視
+#execute as @e[tag=ObserveCooldown] at @s run function entity_manager:validate_cooldown
 ###接地矢(など)Projectileタグ削除
 tag @e[tag=Projectile,nbt={inGround:true}] remove Projectile
 ###パペット移動
@@ -74,6 +77,8 @@ execute as @e[tag=KaishakuExplosion] at @s run function skill_manager:ninja/kais
 ###ステークスファイア
 execute as @e[tag=StakesSucceeded,tag=Projectile] at @s run function skill_manager:hunter/stakes_fire/success
 execute as @e[tag=StakesFailed,tag=Projectile] at @s run function skill_manager:hunter/stakes_fire/failure
+###ぷちブラック
+execute as @e[tag=PetitBlack] at @s run function skill_manager:summoner/petit_black/tick/all
 
 ### スポナーカート空気時削除
 execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air run tag @e[dx=0,tag=Spawner] add Garbage
