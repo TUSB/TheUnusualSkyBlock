@@ -113,9 +113,9 @@ execute as @e[tag=Garbage] run data merge entity @s {Size:0,DeathTime:19s,HandIt
 kill @e[tag=Garbage]
 
 ###スキルエッグ
-execute as @a[scores={UseModeEgg=1..}] run function item_manager:change_mode
-execute as @a[scores={UseSupportRed=1..}] run function item_manager:use_red_egg
-execute as @a[scores={UseSupportBlue=1..}] run function item_manager:use_blue_egg
+execute as @a[scores={UseModeEgg=1..}] run function trigger_manager:egg/mode_change
+execute as @a[scores={UseSupportRed=1..}] run function triggermanager:egg/support_red
+execute as @a[scores={UseSupportBlue=1..}] run function trigger_manager:egg/support_blue
 
 ###ここからサポートスキルを入れる（サポートエッグ使用直後でやりやすい）
 
