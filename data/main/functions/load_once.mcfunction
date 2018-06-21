@@ -53,6 +53,10 @@ scoreboard objectives add ModeSkillRed dummy モードスキルルビー
 scoreboard objectives add ModeSkillBlue dummy モードスキルサファイア
 scoreboard objectives add ModeCostRed dummy モードスキルルビーのコスト
 scoreboard objectives add ModeCostBlue dummy モードスキルサファイアのコスト
+scoreboard objectives add SupportSkillRed dummy サポートアクションルビー
+scoreboard objectives add SupportSkillBlue dummy サポートアクションファイア
+scoreboard objectives add SupportCostRed dummy サポートアクションルビーのコスト
+scoreboard objectives add SupportCostBlue dummy サポートアクションサファイアのコスト
 scoreboard objectives add ShowSkillNo dummy 表示スキル番号
 scoreboard objectives add ChangeModeRed trigger モードルビー変更番号
 scoreboard objectives add ChangeModeBlue trigger モードサファイア変更番号
