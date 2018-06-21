@@ -33,3 +33,9 @@ function skill_manager:show_skill/name
 
 ### スコアリセット
 scoreboard players reset @s UseModeEgg
+
+### バイオハンドリング処理
+scoreboard players operation $PuppetID ID = @s ID
+execute unless score @s ModeSkill matches 71031..71039 as @e[tag=Puppet] if score @s ID = $PuppetID ID run tag @s remove Automaton
+execute if score @s ModeSkill matches 71031..71039 as @e[tag=Puppet] if score @s ID = $PuppetID ID run tag @s add Automaton
+execute if score @s ModeSkill matches 71031..71039 as @e[tag=Puppet] if score @s ID = $PuppetID ID at @s positioned ~ ~-0.1 ~ align xyz positioned ~0.5 ~0.93750 ~0.5 run tp @s ~ ~ ~ 0 0

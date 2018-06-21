@@ -9,7 +9,8 @@
 scoreboard players set $Second Count 0
 
 ###パペット行動
-execute as @a[tag=WithPuppet] run function puppet_manager:calc_and_act
+execute as @a[tag=WithPuppet] unless score @s ModeSkill matches 71031..71039 run function puppet_manager:calc_and_act
+execute as @e[tag=Automaton] at @s run function puppet_manager:bio_handling/tick
 
 ### 死の宣告処理
 execute as @a[scores={DoomCount=1..}] run function effect_manager:doom

@@ -101,6 +101,8 @@ scoreboard objectives add ProjectileLife dummy 飛翔物生存時間
 
 ###定数
 scoreboard players set $-1 Const -1
+scoreboard players set $0 Const 0
+scoreboard players set $1 Const 1
 scoreboard players set $2 Const 2
 scoreboard players set $3 Const 3
 scoreboard players set $4 Const 4

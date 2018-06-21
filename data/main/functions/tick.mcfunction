@@ -49,7 +49,7 @@ execute if score $Second Count matches 20.. run function main:one_second
 ###接地矢(など)Projectileタグ削除
 tag @e[tag=Projectile,nbt={inGround:true}] remove Projectile
 ###パペット移動
-execute as @a[tag=WithPuppet] at @s run function puppet_manager:puppet_move
+execute as @a[tag=WithPuppet] unless score @s ModeSkill matches 71031..71039 at @s run function puppet_manager:puppet_move
 ###アイアンウィル復帰
 execute as @a[tag=IronWill] run function skill_manager:knight/iron_will/load
 ###真空斬り待機
