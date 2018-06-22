@@ -3,7 +3,7 @@
 ##############################
 
 ###ターゲット選択
-execute as @e[distance=..5,tag=Mob] positioned ~-3 ~-1 ~-3 run tag @s[dx=6,dy=2,dz=6] add DarkSwampTarget
+execute as @e[distance=..5,tag=Mob] positioned ~-5 ~-1 ~-5 run tag @s[dx=10,dy=2,dz=10] add DarkSwampTarget
 ###ダークスワンプ引き込み処理
 execute as @e[tag=DarkSwampTarget] at @s run function skill_manager:black_mage/dark_swamp/pull
 ###MP吸収量計算

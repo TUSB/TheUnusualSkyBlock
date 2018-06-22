@@ -44,7 +44,7 @@ execute if score $Second Count matches -1 run function event_manager:reset_event
 scoreboard players remove @a ChangeSkillLimit 1
 
 ### ダークスワンプパーティクル表示
-execute at @e[tag=DarkSwamp,sort=random,limit=3] run particle minecraft:squid_ink ~ ~ ~ 1.5 0.2 1.5 0 50 force
+execute at @e[tag=DarkSwamp,sort=random,limit=3] run particle minecraft:squid_ink ~ ~ ~ 2.5 0.2 2.5 0 80 force
 
 ### プレイヤーふよふよ追尾
 execute as @e[tag=FollowPlayer] at @s run function entity_manager:follow_player
