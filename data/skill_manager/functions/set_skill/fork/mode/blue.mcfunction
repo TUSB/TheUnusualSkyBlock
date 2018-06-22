@@ -31,8 +31,8 @@ scoreboard players operation @s[tag=ModeBlue] ModeCost = @s ModeCostBlue
 scoreboard players operation @s[tag=ModeBlue] ModeSkill = @s ModeSkillBlue
 ###スキル名表示
 ###---演出---Start
-execute if score @s ChangeSkillLimit matches ..0 run tellraw @s ["",{"text":"モードチェンジサファイア","color":"Blue","bold":true},"を設定しました。"]
-execute if score @s ChangeSkillLimit matches 1.. run tellraw @s ["","現在の",{"text":"モードチェンジサファイア","color":"Blue","bold":true},"は"]
+execute if score @s ChangeSkillLimit matches ..0 run tellraw @s ["",{"text":"モードチェンジサファイア","color":"blue","bold":true},"を設定しました。"]
+execute if score @s ChangeSkillLimit matches 1.. run tellraw @s ["","現在の",{"text":"モードチェンジサファイア","color":"blue","bold":true},"は"]
 scoreboard players operation @s ShowSkillNo = $ChangeModeNo Global
 tag @s add ShowSkillBlue
 function skill_manager:show_skill/name
