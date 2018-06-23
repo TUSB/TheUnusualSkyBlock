@@ -27,7 +27,10 @@ execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 52000..52999 run funct
 execute if score @s[tag=ShowSkillBlue] ShowSkillNo matches 52000..52999 run function skill_manager:show_skill/black_mage/support/blue
 
 ###召喚士
-execute if score @s ShowSkillNo matches 60000..69999 run function skill_manager:show_skill/summoner
+execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 61000..61999 run function skill_manager:show_skill/summoner/mode/red
+execute if score @s[tag=ShowSkillBlue] ShowSkillNo matches 61000..61999 run function skill_manager:show_skill/summoner/mode/blue
+execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 62000..62999 run function skill_manager:show_skill/summoner/support/red
+execute if score @s[tag=ShowSkillBlue] ShowSkillNo matches 62000..62999 run function skill_manager:show_skill/summoner/support/blue
 
 ###絡繰士
 execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 71000..71999 run function skill_manager:show_skill/puppet_master/mode/red

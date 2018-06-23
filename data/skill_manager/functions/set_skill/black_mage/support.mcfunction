@@ -53,10 +53,3 @@ execute if score $ChangeSupNo Global matches 52091..52099 run scoreboard players
 execute if score $ChangeSupNo Global matches 5210 if score @s ChangeLevel matches 38.. run scoreboard players set $ChangeSupNo Global 52101
 ##Cost
 execute if score $ChangeSupNo Global matches 52101..52109 run scoreboard players set $ChangeSupCost Global 100
-
-
-
-
-
-
-

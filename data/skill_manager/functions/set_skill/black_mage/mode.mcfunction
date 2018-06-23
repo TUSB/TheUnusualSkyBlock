@@ -37,6 +37,6 @@ execute if score $ChangeModeNo Global matches 5105 if score @s ChangeLevel match
 execute if score $ChangeModeNo Global matches 51051..51059 run scoreboard players set $ChangeModeCost Global 30
 
 ###パルプンテ
-execute if score $ChangeModeNo Global matches 5106 if score @s ChangeLevel matches 17..36 run scoreboard players set $ChangeModeNo Global 51061
+execute if score $ChangeModeNo Global matches 5106 if score @s ChangeLevel matches 50.. run scoreboard players set $ChangeModeNo Global 51061
 ##Cost
 execute if score $ChangeModeNo Global matches 51061..51069 run scoreboard players set $ChangeModeCost Global 100
