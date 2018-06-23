@@ -18,7 +18,10 @@ execute if score @s ShowSkillNo matches 20000..29999 run function skill_manager:
 execute if score @s ShowSkillNo matches 30000..39999 run function skill_manager:show_skill/hunter
 
 ###白魔導士
-execute if score @s ShowSkillNo matches 40000..49999 run function skill_manager:show_skill/white_mage
+execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 41000..41999 run function skill_manager:show_skill/white_mage/mode/red
+execute if score @s[tag=ShowSkillBlue] ShowSkillNo matches 41000..41999 run function skill_manager:show_skill/white_mage/mode/blue
+execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 42000..42999 run function skill_manager:show_skill/white_mage/support/red
+execute if score @s[tag=ShowSkillBlue] ShowSkillNo matches 42000..42999 run function skill_manager:show_skill/white_mage/support/blue
 
 ###黒魔導士
 execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 51000..51999 run function skill_manager:show_skill/black_mage/mode/red

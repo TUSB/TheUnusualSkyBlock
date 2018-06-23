@@ -8,4 +8,4 @@ effect give @s minecraft:instant_health 1 20 true
 tag @s add DelayedTask
 
 ###スキルインターバル設定
-scoreboard players set @s SkillInterval 50
+scoreboard players set @s SkillInterval 80

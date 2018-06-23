@@ -20,7 +20,7 @@ execute if score $ChangeSupNo Global matches 6201..6299 run function skill_manag
 execute if score $ChangeSupNo Global matches 7201..7299 run function skill_manager:set_skill/puppet_master/support
 ###スキル未設定化
 execute unless score $ChangeSupNo Global matches 10000..99999 run scoreboard players set $ChangeSupCost Global 1000
-execute unless score $ChangeSupNo Global matches 10000..99999 run scoreboard players set $ChangeSupNo Global 1000
+execute unless score $ChangeSupNo Global matches 10000..99999 run scoreboard players set $ChangeSupNo Global 2000
 ###スキル変更不可時
 execute if score @s ChangeSkillLimit matches 1.. run scoreboard players operation $ChangeSupNo Global = @s SupportSkillRed
 execute if score @s ChangeSkillLimit matches 1.. run scoreboard players operation $ChangeSupCost Global = @s SupportCostRed
