@@ -10,10 +10,10 @@
     },
     "criteria": {
         "damage_taken": {
-            "trigger": "minecraft:player_hurt_entityaa"
+            "trigger": "minecraft:consume_itemaa"
         }
     },
     "rewards": {
-        "function": "test_manager:test"
+        "function": "test_manager:egg"
     }
 } 

@@ -93,6 +93,11 @@ execute as @a at @s if entity @s[y=-250,dy=50] run kill @s
 execute as @a[scores={TimeSinceDeath=1..},gamemode=!spectator,gamemode=!creative] at @s anchored eyes if block ^ ^ ^ minecraft:barrier run function entity_manager:suffocation
 execute as @a[scores={TimeSinceDeath=1..},gamemode=!spectator,gamemode=!creative] at @s anchored eyes if block ^ ^ ^ minecraft:bedrock run function entity_manager:suffocation
 
+###スキルエッグ
+execute as @a[scores={UseModeEgg=1..}] run function trigger_manager:egg/mode_change
+execute as @a[scores={UseSupportRed=1..}] run function trigger_manager:egg/support_red
+execute as @a[scores={UseSupportBlue=1..}] run function trigger_manager:egg/support_blue
+
 ###スニーク時処理
 execute as @a[scores={SneakTime=1..}] run function trigger_manager:sneak
 
@@ -111,16 +116,6 @@ tag @e[tag=Vehicle,nbt=!{Passengers:[{}]}] add Garbage
 ##エンティティ削除
 execute as @e[tag=Garbage] run data merge entity @s {Size:0,DeathTime:19s,HandItems:[{},{}],ArmorItems:[{},{},{},{}]}
 kill @e[tag=Garbage]
-
-###スキルエッグ
-execute as @a[scores={UseModeEgg=1..}] run function trigger_manager:egg/mode_change
-execute as @a[scores={UseSupportRed=1..}] run function triggermanager:egg/support_red
-execute as @a[scores={UseSupportBlue=1..}] run function trigger_manager:egg/support_blue
-
-###ここからサポートスキルを入れる（サポートエッグ使用直後でやりやすい）
-
-
-
 
 ### MP消費
 execute as @a run function skill_manager:update_mp

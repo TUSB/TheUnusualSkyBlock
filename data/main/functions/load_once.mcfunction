@@ -54,6 +54,8 @@ scoreboard objectives add ModeSkillRed dummy モードスキルルビー
 scoreboard objectives add ModeSkillBlue dummy モードスキルサファイア
 scoreboard objectives add ModeCostRed dummy モードスキルルビーのコスト
 scoreboard objectives add ModeCostBlue dummy モードスキルサファイアのコスト
+scoreboard objectives add SupportSkill dummy 発動中のサポートスキル
+scoreboard objectives add SupportCost dummy 発動中のサポートスキルのコスト
 scoreboard objectives add SupportSkillRed dummy サポートアクションルビー
 scoreboard objectives add SupportSkillBlue dummy サポートアクションファイア
 scoreboard objectives add SupportCostRed dummy サポートアクションルビーのコスト
@@ -274,6 +276,8 @@ team option NoCollision collisionRule never
 team add Friendly 味方チーム
 team option Friendly friendlyfire false
 team option Friendly collisionRule never
+#team option Friendly prefix {"text":"☘","color":"green"}
+team option Friendly prefix {"text":"✦","color":"yellow"}
 
 ###ゲームルール系
 setworldspawn 10 4 10
