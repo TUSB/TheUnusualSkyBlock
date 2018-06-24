@@ -37,7 +37,8 @@ tag @s[type=minecraft:trident] add Projectile
 tag @s[type=minecraft:wither_skull] add Projectile
 tag @s[type=minecraft:xp_bottle] add Projectile
 tag @s[tag=Projectile,tag=StableProjectile] remove Projectile
-data merge entity @s[tag=Projectile,nbt={PortalCooldown:0}] {PortalCooldown:200}
+tag @s[tag=Projectile] add TickingRequired
+data merge entity @s[tag=TickingRequired,nbt={PortalCooldown:0}] {PortalCooldown:200}
 
 ### スポナーカート属性
 tag @s[type=minecraft:armor_stand,nbt={Passengers:[{id:"minecraft:spawner_minecart"}]}] add SpawnerCore
