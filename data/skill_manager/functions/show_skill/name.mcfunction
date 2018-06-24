@@ -9,13 +9,22 @@ execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 02000..02999 run funct
 execute if score @s[tag=ShowSkillBlue] ShowSkillNo matches 02000..02999 run function skill_manager:show_skill/empty/support/blue
 
 ###剣士
-execute if score @s ShowSkillNo matches 10000..19999 run function skill_manager:show_skill/knight
+execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 11000..11999 run function skill_manager:show_skill/knight/mode/red
+execute if score @s[tag=ShowSkillBlue] ShowSkillNo matches 11000..11999 run function skill_manager:show_skill/knight/mode/blue
+execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 12000..12999 run function skill_manager:show_skill/knight/support/red
+execute if score @s[tag=ShowSkillBlue] ShowSkillNo matches 12000..12999 run function skill_manager:show_skill/knight/support/blue
 
 ###忍者
-execute if score @s ShowSkillNo matches 20000..29999 run function skill_manager:show_skill/ninja
+execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 21000..21999 run function skill_manager:show_skill/ninja/mode/red
+execute if score @s[tag=ShowSkillBlue] ShowSkillNo matches 21000..21999 run function skill_manager:show_skill/ninja/mode/blue
+execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 22000..22999 run function skill_manager:show_skill/ninja/support/red
+execute if score @s[tag=ShowSkillBlue] ShowSkillNo matches 22000..22999 run function skill_manager:show_skill/ninja/support/blue
 
 ###狩人
-execute if score @s ShowSkillNo matches 30000..39999 run function skill_manager:show_skill/hunter
+execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 31000..31999 run function skill_manager:show_skill/hunter/mode/red
+execute if score @s[tag=ShowSkillBlue] ShowSkillNo matches 31000..31999 run function skill_manager:show_skill/hunter/mode/blue
+execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 32000..32999 run function skill_manager:show_skill/hunter/support/red
+execute if score @s[tag=ShowSkillBlue] ShowSkillNo matches 32000..32999 run function skill_manager:show_skill/hunter/support/blue
 
 ###白魔導士
 execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 41000..41999 run function skill_manager:show_skill/white_mage/mode/red
