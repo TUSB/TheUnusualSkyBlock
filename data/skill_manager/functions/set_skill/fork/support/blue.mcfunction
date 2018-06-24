@@ -18,6 +18,7 @@ execute if score $ChangeSupNo Global matches 4201..4299 run function skill_manag
 execute if score $ChangeSupNo Global matches 5201..5299 run function skill_manager:set_skill/black_mage/support
 execute if score $ChangeSupNo Global matches 6201..6299 run function skill_manager:set_skill/summoner/support
 execute if score $ChangeSupNo Global matches 7201..7299 run function skill_manager:set_skill/puppet_master/support
+execute if score $ChangeSupNo Global matches 8201..8299 run function skill_manager:set_skill/common/support
 ###スキル未設定化
 execute unless score $ChangeSupNo Global matches 10000..99999 run scoreboard players set $ChangeSupNo Global 2000
 ###スキル変更不可時

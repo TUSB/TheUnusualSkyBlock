@@ -3,10 +3,10 @@
 ##############################
 
 ###未設定
-execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 01000..01999 run function skill_manager:show_skill/empty/mode/red
-execute if score @s[tag=ShowSkillBlue] ShowSkillNo matches 01000..01999 run function skill_manager:show_skill/empty/mode/blue
-execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 02000..02999 run function skill_manager:show_skill/empty/support/red
-execute if score @s[tag=ShowSkillBlue] ShowSkillNo matches 02000..02999 run function skill_manager:show_skill/empty/support/blue
+execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 01000..01000 run function skill_manager:show_skill/empty/mode/red
+execute if score @s[tag=ShowSkillBlue] ShowSkillNo matches 01000..01000 run function skill_manager:show_skill/empty/mode/blue
+execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 02000..02000 run function skill_manager:show_skill/empty/support/red
+execute if score @s[tag=ShowSkillBlue] ShowSkillNo matches 02000..02000 run function skill_manager:show_skill/empty/support/blue
 
 ###剣士
 execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 11000..11999 run function skill_manager:show_skill/knight/mode/red
@@ -49,6 +49,12 @@ execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 71000..71999 run funct
 execute if score @s[tag=ShowSkillBlue] ShowSkillNo matches 71000..71999 run function skill_manager:show_skill/puppet_master/mode/blue
 execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 72000..72999 run function skill_manager:show_skill/puppet_master/support/red
 execute if score @s[tag=ShowSkillBlue] ShowSkillNo matches 72000..72999 run function skill_manager:show_skill/puppet_master/support/blue
+
+###共通
+execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 81001..81999 run function skill_manager:show_skill/common/mode/red
+execute if score @s[tag=ShowSkillBlue] ShowSkillNo matches 81001..81999 run function skill_manager:show_skill/common/mode/blue
+execute if score @s[tag=ShowSkillRed] ShowSkillNo matches 82001..82999 run function skill_manager:show_skill/common/support/red
+execute if score @s[tag=ShowSkillBlue] ShowSkillNo matches 82001..82999 run function skill_manager:show_skill/common/support/blue
 
 ###トリガー有効化
 scoreboard players enable @s ChangeModeRed

@@ -18,6 +18,7 @@ execute if score $ChangeModeNo Global matches 4101..4109 run function skill_mana
 execute if score $ChangeModeNo Global matches 5101..5109 run function skill_manager:set_skill/black_mage/mode
 execute if score $ChangeModeNo Global matches 6101..6109 run function skill_manager:set_skill/summoner/mode
 execute if score $ChangeModeNo Global matches 7101..7109 run function skill_manager:set_skill/puppet_master/mode
+execute if score $ChangeModeNo Global matches 8101..8109 run function skill_manager:set_skill/common/mode
 ###スキル未設定化
 execute unless score $ChangeModeNo Global matches 10000..99999 run scoreboard players set $ChangeModeNo Global 1000
 ###スキル変更不可時
