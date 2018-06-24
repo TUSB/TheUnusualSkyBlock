@@ -51,6 +51,7 @@ tag @e[tag=Projectile,nbt={inGround:true}] remove Projectile
 ###パペット移動
 execute as @a[tag=WithPuppet] unless score @s ModeSkill matches 71031..71039 at @s run function puppet_manager:puppet_move
 ###アイアンウィル復帰
+execute as @a[scores={IronWill=1..}] at @s run function skill_manager:knight/iron_will/count
 execute as @a[tag=IronWill] run function skill_manager:knight/iron_will/load
 ###真空斬り待機
 execute as @a[scores={ModeSkill=11041..11049}] at @s run function skill_manager:knight/aerial_slash/ready
@@ -73,6 +74,8 @@ execute as @e[tag=SacredPillar,nbt={inGround:true}] at @s run function skill_man
 execute as @e[tag=SacredPillarBase] at @s run function skill_manager:white_mage/sacred_pillar/tick
 ###介錯処理
 execute as @a[scores={Kaishaku=1..}] at @s as @e[distance=..10,tag=Mob,nbt={HurtTime:10s}] at @s run function skill_manager:ninja/kaishaku/say
+execute as @a[scores={Kaishaku=1}] run tellraw @a [{"text":"","color":"yellow"},{"selector":"@s"},"の",{"text":"介錯","color":"white","hoverEvent":{"action":"show_text","value":"敵を倒した際に、敵が爆発四散するようになる。","color":"white"}},"の効果が切れた。"]
+scoreboard players remove @a[scores={Kaishaku=1..}] Kaishaku 1
 execute as @e[tag=KaishakuExplosion] at @s run function skill_manager:ninja/kaishaku/tick
 ###ステークスファイア
 execute as @e[tag=StakesSucceeded,tag=Projectile] at @s run function skill_manager:hunter/stakes_fire/success

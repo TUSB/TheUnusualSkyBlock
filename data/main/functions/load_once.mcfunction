@@ -83,13 +83,13 @@ scoreboard objectives add CarrotTick dummy 人参棒使用LastTick
 ###スキル個別系
 scoreboard objectives add FalconDamage dummy はやぶさ斬り用ダメージ保存値
 scoreboard objectives add FalconHP dummy はやぶさ斬り用敵HP
-scoreboard objectives add IronWill dummy 剣士アイアンウィル
+scoreboard objectives add IronWill dummy アイアンウィル残りtick数
 scoreboard objectives add MultiThread dummy 絡繰士マルチスレッド
 scoreboard objectives add Issen dummy 一閃継続tick数
 scoreboard objectives add DarkSwamp dummy ダークスワンプ回数
 scoreboard objectives add PillarCount dummy セイクリッドピラーダメージ付与上限
 scoreboard objectives add PillarDamage dummy セイクリッドピラーダメージ
-scoreboard objectives add Kaishaku dummy 介錯残り秒数
+scoreboard objectives add Kaishaku dummy 介錯残りtick数
 scoreboard objectives add PiercingAim dummy ピアッシングエイム回数
 scoreboard objectives add PetitBlack dummy ぷちブラック残りtick
 ###からくり士スキル系

@@ -11,6 +11,6 @@ execute as @e[distance=..5,type=minecraft:arrow,tag=!Initialized,sort=nearest,li
 ###回数消費
 scoreboard players remove @s PiercingAim 1
 ###---演出---Start
-tellraw @s[scores={PiercingAim=..0}] {"text":"ピアッシングエイムの効果が切れた","color":"yellow"}
+execute if score @s PiercingAim matches ..0 run tellraw @a [{"text":"","color":"yellow"},{"selector":"@s"},"の",{"text":"ピアッシングエイム","color":"white","hoverEvent":{"action":"show_text","value":"放った矢が速くなり、落下しなくなる。","color":"white"}},"の効果が切れた。"]
 ###---演出---End
 scoreboard players reset @s[scores={PiercingAim=..0}] PiercingAim
