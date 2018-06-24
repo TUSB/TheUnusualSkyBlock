@@ -5,6 +5,7 @@
 scoreboard players operation @s[scores={ChangeModeBlue=9}] ChangeModeBlue = @s Job
 scoreboard players operation $TargetSkillJob Global = @s ChangeModeBlue
 function skill_manager:get_level
+execute if score @s ChangeModeBlue matches 0 run function skill_manager:change_skill/common/mode/blue
 execute if score @s ChangeModeBlue matches 1 run function skill_manager:change_skill/knight/mode/blue
 execute if score @s ChangeModeBlue matches 2 run function skill_manager:change_skill/ninja/mode/blue
 execute if score @s ChangeModeBlue matches 3 run function skill_manager:change_skill/hunter/mode/blue

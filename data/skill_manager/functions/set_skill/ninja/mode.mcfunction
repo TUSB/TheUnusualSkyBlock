@@ -34,4 +34,4 @@ execute if score $ChangeModeNo Global matches 2105 if score @s ChangeLevel match
 
 ###サヨナラ
 execute if score $ChangeModeNo Global matches 2106 run scoreboard players operation $ChangeModeCost Global = $2106 Cost
-execute if score $ChangeModeNo Global matches 2106 if score @s ChangeLevel matches 50.. run scoreboard players set $ChangeModeNo Global 21062
+execute if score $ChangeModeNo Global matches 2106 if score @s ChangeLevel matches 50.. run scoreboard players set $ChangeModeNo Global 21061

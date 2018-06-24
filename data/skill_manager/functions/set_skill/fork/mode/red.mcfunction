@@ -19,7 +19,6 @@ execute if score $ChangeModeNo Global matches 5101..5199 run function skill_mana
 execute if score $ChangeModeNo Global matches 6101..6199 run function skill_manager:set_skill/summoner/mode
 execute if score $ChangeModeNo Global matches 7101..7199 run function skill_manager:set_skill/puppet_master/mode
 ###スキル未設定化
-execute unless score $ChangeModeNo Global matches 10000..99999 run scoreboard players set $ChangeModeCost Global 1000
 execute unless score $ChangeModeNo Global matches 10000..99999 run scoreboard players set $ChangeModeNo Global 1000
 ###スキル変更不可時
 execute if score @s ChangeSkillLimit matches 1.. run scoreboard players operation $ChangeModeNo Global = @s ModeSkillRed

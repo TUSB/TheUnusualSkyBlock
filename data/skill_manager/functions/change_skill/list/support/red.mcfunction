@@ -5,6 +5,7 @@
 scoreboard players operation @s[scores={ChangeSupRed=9}] ChangeSupRed = @s Job
 scoreboard players operation $TargetSkillJob Global = @s ChangeSupRed
 function skill_manager:get_level
+execute if score @s ChangeSupRed matches 0 run function skill_manager:change_skill/common/support/red
 execute if score @s ChangeSupRed matches 1 run function skill_manager:change_skill/knight/support/red
 execute if score @s ChangeSupRed matches 2 run function skill_manager:change_skill/ninja/support/red
 execute if score @s ChangeSupRed matches 3 run function skill_manager:change_skill/hunter/support/red
