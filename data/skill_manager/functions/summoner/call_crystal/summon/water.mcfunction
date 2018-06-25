@@ -3,4 +3,4 @@
 ##############################
 
 function skill_manager:summoner/call_crystal/summon/common
-data merge entity @e[tag=Initializing,limit=1] {Color:11b,Tags:[Water,Crystal,Initialized,Particle]}
+data merge entity @e[tag=Initializing,limit=1] {Color:11b,Tags:[TickingRequired,Water,Crystal,Initialized,Particle]}

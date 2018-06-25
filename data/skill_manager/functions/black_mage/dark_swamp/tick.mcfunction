@@ -19,5 +19,7 @@ scoreboard players remove @s DarkSwamp 1
 kill @s[scores={DarkSwamp=..0}]
 ###インターバルタイマーリセット
 data merge entity @s {PortalCooldown:40}
+tag @s add TickingTask
+tag @s add ObserveCooldown
 ###ターゲット選択解除
 tag @e[tag=DarkSwampTarget] remove DarkSwampTarget

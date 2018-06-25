@@ -33,6 +33,7 @@ tag @s[type=minecraft:potion] add Projectile
 tag @s[type=minecraft:shulker_bullet] add Projectile
 tag @s[type=minecraft:small_fireball] add Projectile
 tag @s[type=minecraft:snowball] add Projectile
+tag @s[type=minecraft:spectral_arrow] add Projectile
 tag @s[type=minecraft:trident] add Projectile
 tag @s[type=minecraft:wither_skull] add Projectile
 tag @s[type=minecraft:xp_bottle] add Projectile
@@ -63,13 +64,13 @@ tag @s[type=minecraft:llama_spit] add
 tag @s[type=minecraft:minecart] add 
 tag @s[type=minecraft:painting] add 
 tag @s[type=minecraft:spawner_minecart] add 
-tag @s[type=minecraft:spectral_arrow] add 
 tag @s[type=minecraft:tnt] add 
 tag @s[type=minecraft:tnt_minecart] add 
 tag @s[type=minecraft:xp_orb] add 
 
-
-
+tag @s[tag=FlyingRequired] add TickingTask
+tag @s[tag=CooldownRequired] add ObserveCooldown
+tag @s[tag=ObserveCooldown] add TickingTask
 
 ### Initialized付与
 tag @s add Initialized
