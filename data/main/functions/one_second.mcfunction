@@ -48,3 +48,6 @@ execute at @e[tag=DarkSwamp,sort=random,limit=3] run particle minecraft:squid_in
 
 ### プレイヤーふよふよ追尾
 execute as @e[tag=FollowPlayer] at @s run function entity_manager:follow_player
+
+### ブロック設置
+execute as @e[tag=BlockPlacer] at @s run function enemy_manager:block_placer/common
