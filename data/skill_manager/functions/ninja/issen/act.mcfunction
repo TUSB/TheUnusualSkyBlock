@@ -7,7 +7,7 @@ scoreboard players operation $Issen ID = @s ID
 execute as @e[tag=Issen] if score @s ID = $Issen ID run kill @s
 ###新たに一閃を発生させる
 execute positioned ~ ~1.52 ~ as @e[distance=..5,type=snowball,tag=!Initialized,limit=1] at @s run function calc_manager:get/motion1
-summon minecraft:villager ~ ~ ~ {NoGravity:true,PortalCooldown:30,Tags:[Issen,Initializing],Team:NoCollision,Silent:true,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:false}]}
+summon minecraft:villager ~ ~ ~ {NoGravity:true,PortalCooldown:30,Tags:[CooldownRequired,Issen,Initializing],Team:NoCollision,Silent:true,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:false}]}
 scoreboard players operation @e[tag=Initializing,limit=1] ID = @s ID
 ###一閃速度設定
 execute if score @s ModeSkill matches 21041 run scoreboard players set $M Global 70

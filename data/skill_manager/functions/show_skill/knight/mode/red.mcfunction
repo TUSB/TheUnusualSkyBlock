@@ -14,15 +14,15 @@ tellraw @s[scores={ShowSkillNo=11022}] ["",{"text":"・薙ぎ払いⅡ","color":
 tellraw @s[scores={ShowSkillNo=11031}] ["",{"text":"・ディバインシールド","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
 tellraw @s[scores={ShowSkillNo=11032}] ["",{"text":"・ディバインシールドⅡ","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
 ###モード４
-tellraw @s[scores={ShowSkillNo=11041}] ["",{"text":"・真空斬り","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
-tellraw @s[scores={ShowSkillNo=11042}] ["",{"text":"・真空斬りⅡ","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
-tellraw @s[scores={ShowSkillNo=11043}] ["",{"text":"・真空斬りⅢ","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
+tellraw @s[scores={ShowSkillNo=11031}] ["",{"text":"・真空斬り","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
+tellraw @s[scores={ShowSkillNo=11032}] ["",{"text":"・真空斬りⅡ","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
+tellraw @s[scores={ShowSkillNo=11033}] ["",{"text":"・真空斬りⅢ","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
 ###モード５
-tellraw @s[scores={ShowSkillNo=11051}] ["",{"text":"・リアクティブヒール","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
-tellraw @s[scores={ShowSkillNo=11052}] ["",{"text":"・リアクティブヒールⅡ","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
-tellraw @s[scores={ShowSkillNo=11053}] ["",{"text":"・リアクティブヒールⅢ","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
+tellraw @s[scores={ShowSkillNo=11041}] ["",{"text":"・リアクティブヒール","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
+tellraw @s[scores={ShowSkillNo=11042}] ["",{"text":"・リアクティブヒールⅡ","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
+tellraw @s[scores={ShowSkillNo=11043}] ["",{"text":"・リアクティブヒールⅢ","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
 ###モード６
-tellraw @s[scores={ShowSkillNo=11061}] ["",{"text":"・魔人斬り","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
-tellraw @s[scores={ShowSkillNo=11062}] ["",{"text":"・魔人斬りⅡ","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
+tellraw @s[scores={ShowSkillNo=11051}] ["",{"text":"・魔人斬り","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
+tellraw @s[scores={ShowSkillNo=11052}] ["",{"text":"・魔人斬りⅡ","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
 ###モード７(50スキル)
-tellraw @s[scores={ShowSkillNo=11071}] ["",{"text":"・斬鉄剣","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
+tellraw @s[scores={ShowSkillNo=11061}] ["",{"text":"・斬鉄剣","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
