@@ -281,7 +281,10 @@ team add Friendly 味方チーム
 team option Friendly friendlyfire false
 team option Friendly collisionRule never
 #team option Friendly prefix {"text":"☘","color":"green"}
-team option Friendly prefix {"text":"✦","color":"yellow"}
+#team option Friendly prefix {"text":"✿","color":"yellow"}
+team option Friendly prefix {"text":"✦","color":"red"}
+team option Friendly suffix {"text":"✦","color":"red"}
+team join Friendly バースト
 
 ###ゲームルール系
 setworldspawn 10 4 10
