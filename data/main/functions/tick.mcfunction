@@ -22,6 +22,8 @@ execute in the_end as @a[distance=0..] unless score @s Dimension matches 210 run
 ###1tick遅れ処理
 execute as @e[tag=DelayedTask] at @s run function main:delayed_task
 
+###ログイン時処理
+execute as @a[scores={LeaveGame=1..}] at @s run function trigger_manager:leave_game
 ###スキルインターバル処理
 scoreboard players remove @a[scores={SkillInterval=1..}] SkillInterval 1
 ###ここからモード処理を入れる（エンティティ発生処理に割り込めるのでやりやすい）
