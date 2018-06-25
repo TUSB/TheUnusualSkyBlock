@@ -15,7 +15,7 @@ execute if entity @s[scores={ModeSkill=61071..61079,SkillInterval=..0}] rotated 
 execute if entity @s[scores={ModeSkill=61091..61099,SkillInterval=..0}] rotated ~ 0 positioned ^ ^1 ^3.5 run function skill_manager:summoner/call_crystal/summon/random
 
 ### 白魔導士＜セイクリッドピラー＞
-execute if entity @s[scores={ModeSkill=51041..51049,SkillInterval=..0}] run function skill_manager:white_mage/sacred_pillar/act
+execute if entity @s[scores={ModeSkill=41041..41049,SkillInterval=..0}] run function skill_manager:white_mage/sacred_pillar/act
 
 ### 召喚士＜ぷちブラック＞
 execute if entity @s[scores={ModeSkill=61111..61119,SkillInterval=..0}] run function skill_manager:summoner/petit_black/act

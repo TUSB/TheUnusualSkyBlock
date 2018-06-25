@@ -105,7 +105,10 @@ scoreboard objectives add PupCurrentSlot dummy パペット行動スロット
 scoreboard objectives add PuppetWait dummy パペット行動ウェイト
 ###その他スコア
 scoreboard objectives add ProjectileLife dummy 飛翔物生存時間
-
+scoreboard objectives add MotionX dummy モーションX保存
+scoreboard objectives add MotionY dummy モーションY保存
+scoreboard objectives add MotionZ dummy モーションZ保存
+scoreboard objectives add SkillHurtTime dummy スキルダメージ無効果時間
 
 ###定数
 scoreboard players set $-1 Const -1

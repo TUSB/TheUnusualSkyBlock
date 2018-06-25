@@ -47,6 +47,7 @@ execute if score $Second Count matches 20.. run function main:one_second
 ###飛翔物スキル処理
 execute as @e[tag=Mob,scores={ProjectileSkill=1..}] at @s run function skill_manager:projectile/check
 execute as @e[tag=Projectile,scores={ProjectileSkill=1..}] at @s run function skill_manager:projectile/try
+
 ###パペット移動
 execute as @a[tag=WithPuppet] unless score @s ModeSkill matches 71031..71039 at @s run function puppet_manager:puppet_move
 ###アイアンウィル復帰

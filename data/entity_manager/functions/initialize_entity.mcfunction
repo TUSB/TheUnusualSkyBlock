@@ -39,6 +39,7 @@ tag @s[type=minecraft:wither_skull] add Projectile
 tag @s[type=minecraft:xp_bottle] add Projectile
 tag @s[tag=Projectile,tag=StableProjectile] remove Projectile
 tag @s[tag=Projectile] add TickingRequired
+tag @s[tag=Projectile] add FlyingRequired
 data merge entity @s[tag=TickingRequired,nbt={PortalCooldown:0}] {PortalCooldown:200}
 
 ### スポナーカート属性

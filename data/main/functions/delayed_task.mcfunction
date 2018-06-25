@@ -2,6 +2,9 @@
 ### １ティック遅れ処理
 ##############################
 
+execute if entity @s[tag=DelayedMotion] run function calc_manager:load/motion
+tag @s[tag=DelayedMotion] remove DelayedMotion
+
 ###ダークスワンプ復帰処理
 effect give @s[tag=DarkSwampLevitation2,nbt={OnGround:true}] minecraft:levitation 1 1 true
 tag @s[tag=DarkSwampLevitation2] remove DarkSwampLevitation2

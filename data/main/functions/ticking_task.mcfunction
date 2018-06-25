@@ -12,7 +12,7 @@ execute if entity @s[tag=BirdStrike] run function skill_manager:hunter/bird_stri
 ###ワイルドフレア継続処理
 execute if entity @s[tag=WildFlare] run function skill_manager:hunter/wild_flare/tick
 ###セイクリッドピラー処理
-execute if entity @s[tag=SacredPillarBase] run function skill_manager:white_mage/sacred_pillar/tick
+execute if entity @s[tag=SacredPillarBase] run function skill_manager:white_mage/sacred_pillar/tick/common
 ###つんつんペット処理
 execute if entity @s[tag=Sicced] run function skill_manager:sicced/pets
 ###コールC処理
