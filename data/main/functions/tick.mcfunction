@@ -22,6 +22,8 @@ execute in the_end as @a[distance=0..] unless score @s Dimension matches 210 run
 ###1tick遅れ処理
 execute as @e[tag=DelayedTask] at @s run function main:delayed_task
 
+###ログイン時処理
+execute as @a[scores={LeaveGame=1..}] at @s run function trigger_manager:leave_game
 ###スキルインターバル処理
 scoreboard players remove @a[scores={SkillInterval=1..}] SkillInterval 1
 ###ここからモード処理を入れる（エンティティ発生処理に割り込めるのでやりやすい）
@@ -30,58 +32,34 @@ execute as @a[scores={UseSnowball=1..}] at @s run function trigger_manager:snowb
 execute as @a[scores={UseBow=1..}] at @s run function trigger_manager:bow
 execute as @a[scores={UseCarrotStick=1..}] at @s run function trigger_manager:carrot_on_a_stick
 execute as @a[scores={DamageDealt=0..}] at @s run function trigger_manager:damage_dealt
-execute as @e[tag=Sicced] at @s run function skill_manager:sicced/pets
-execute as @e[tag=Crystal] at @s run function skill_manager:summoner/call_crystal/tick/all
+execute as @a[scores={SprintOneCm=1..}] at @s run function trigger_manager:sprint
 
 ###エンティティ発生時処理
 execute as @e[tag=!Initialized] at @s run function entity_manager:initialize_entity
 
-###飛翔物スキル処理
-execute as @e[tag=Mob,scores={ProjectileSkill=1..}] at @s run function skill_manager:projectile/check
-execute as @e[tag=Projectile,scores={ProjectileSkill=1..}] at @s run function skill_manager:projectile/try
+###毎tick処理呼び出し
+execute as @e[tag=TickingTask] at @s run function main:ticking_task
 
 ###１秒処理
 scoreboard players add $Second Count 1
 execute if score $Second Count matches 20.. run function main:one_second
 
-###クールティック監視
-#execute as @e[tag=ObserveCooldown] at @s run function entity_manager:validate_cooldown
-###接地矢(など)Projectileタグ削除
-tag @e[tag=Projectile,nbt={inGround:true}] remove Projectile
+###飛翔物スキル処理
+execute as @e[tag=Mob,scores={ProjectileSkill=1..}] at @s run function skill_manager:projectile/check
+execute as @e[tag=Projectile,scores={ProjectileSkill=1..}] at @s run function skill_manager:projectile/try
 ###パペット移動
 execute as @a[tag=WithPuppet] unless score @s ModeSkill matches 71031..71039 at @s run function puppet_manager:puppet_move
 ###アイアンウィル復帰
 execute as @a[scores={IronWill=1..}] at @s run function skill_manager:knight/iron_will/count
 execute as @a[tag=IronWill] run function skill_manager:knight/iron_will/load
-###真空斬り待機
-execute as @a[scores={ModeSkill=11041..11049}] at @s run function skill_manager:knight/aerial_slash/ready
-###はやぶさ斬り待機
+###隼斬り待機
 execute as @a[scores={ModeSkill=11011..11019}] at @s run function skill_manager:knight/falcon_slash/ready
-execute as @e[tag=FalconSlashed,nbt={PortalCooldown:0}] at @s run function skill_manager:knight/falcon_slash/deal_damage
-###ワイルドフレア拡散処理
-execute as @e[tag=WildFlareSeed,nbt={PortalCooldown:0}] at @s run function skill_manager:hunter/wild_flare/explode
-execute as @e[tag=WildFlare,sort=random,limit=20] at @s run function skill_manager:hunter/wild_flare/direction
-###ダークスワンプ処理
-execute as @e[tag=DarkSwamp,nbt={PortalCooldown:0}] at @s run function skill_manager:black_mage/dark_swamp/tick
 ###一閃処理
 execute as @a[scores={Issen=1..}] at @s run function skill_manager:ninja/issen/tick
-###バードストライク処理
-execute as @e[tag=BirdStrike,tag=Projectile] at @s run function skill_manager:hunter/bird_strike/tick
-###ぽむぽむ花火処理
-execute as @e[tag=PomPom,nbt={PortalCooldown:0}] at @s run function skill_manager:summoner/pompom/at0
-###セイクリッドピラー処理
-execute as @e[tag=SacredPillar,nbt={inGround:true}] at @s run function skill_manager:white_mage/sacred_pillar/at0
-execute as @e[tag=SacredPillarBase] at @s run function skill_manager:white_mage/sacred_pillar/tick
 ###介錯処理
 execute as @a[scores={Kaishaku=1..}] at @s as @e[distance=..10,tag=Mob,nbt={HurtTime:10s}] at @s run function skill_manager:ninja/kaishaku/say
 execute as @a[scores={Kaishaku=1}] run tellraw @a [{"text":"","color":"yellow"},{"selector":"@s"},"の",{"text":"介錯","color":"white","hoverEvent":{"action":"show_text","value":"敵を倒した際に、敵が爆発四散するようになる。","color":"white"}},"の効果が切れた。"]
 scoreboard players remove @a[scores={Kaishaku=1..}] Kaishaku 1
-execute as @e[tag=KaishakuExplosion] at @s run function skill_manager:ninja/kaishaku/tick
-###ステークスファイア
-execute as @e[tag=StakesSucceeded,tag=Projectile] at @s run function skill_manager:hunter/stakes_fire/success
-execute as @e[tag=StakesFailed,tag=Projectile] at @s run function skill_manager:hunter/stakes_fire/failure
-###ぷちブラック
-execute as @e[tag=PetitBlack] at @s run function skill_manager:summoner/petit_black/tick/all
 
 ### スポナーカート空気時削除
 execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air run tag @e[dx=0,tag=Spawner] add Garbage
@@ -105,12 +83,13 @@ execute if score #Aura MP > $10000 Const run scoreboard players remove #Aura MP 
 scoreboard players operation バースト MP = #Aura MP
 scoreboard players operation バースト MP < $99999 Const
 
+###エンティティダメージ付与
+execute as @e[tag=Mob,scores={Damage=0..}] at @s run function entity_manager:apply_damage
 ###エンティティ削除処理
 ##敵討伐時処理
 execute as @a[scores={KillCount=1..}] run function entity_manager:defeat_enemy
 execute as @e[tag=Mob,nbt={AbsorptionAmount:0f}] at @s run function entity_manager:mob_death
-##敵削除フラグ付与
-tag @e[tag=CooldownRequired,nbt={PortalCooldown:0}] add Garbage
+##乗り物削除フラグ付与
 tag @e[tag=Vehicle,nbt=!{Passengers:[{}]}] add Garbage
 ##エンティティ削除
 execute as @e[tag=Garbage] run data merge entity @s {Size:0,DeathTime:19s,HandItems:[{},{}],ArmorItems:[{},{},{},{}]}
@@ -118,9 +97,6 @@ kill @e[tag=Garbage]
 
 ### MP消費
 execute as @a run function skill_manager:update_mp
-
-###エンティティダメージ付与
-execute as @e[tag=Mob,scores={Damage=0..}] at @s run function entity_manager:apply_damage
 
 ###カスタムHP回復
 execute as @a[scores={HealthHealing=1..}] run function effect_manager:health_healing
