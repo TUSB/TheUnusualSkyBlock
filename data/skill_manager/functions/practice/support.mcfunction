@@ -2,6 +2,8 @@
 ### サポートスキル実行
 ##############################
 
+###消費MP決定
+execute if score @s SneakTime matches 1.. run function skill_manager:practice/sneak_support
 ###---演出---Start
 execute if score @s MP < @s SupportCost run tellraw @s {"text":"MPが不足しています。","color":"red"}
 execute if score @s MP < @s SupportCost run playsound minecraft:block.fire.extinguish master @s ~ ~ ~ 1 2
