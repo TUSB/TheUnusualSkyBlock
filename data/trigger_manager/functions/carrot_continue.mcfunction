@@ -5,6 +5,4 @@
 scoreboard players remove @s CarrotTick 1
 
 ### 召喚士＜ぷちブラック＞
-execute if score @s CarrotTick matches 0 if entity @s[scores={ModeSkill=61111..61119}] unless score @s SkillInterval matches 1.. run function skill_manager:summoner/petit_black/launch
-
-execute if score @s CarrotTick matches 0 run scoreboard players set @s CarrotContinue 0
+execute if entity @s[scores={CarrotTick=0,ModeSkill=61111..61119}] run scoreboard players operation @s ActiveSkill = @s ModeSkill

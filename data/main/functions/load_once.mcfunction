@@ -67,6 +67,8 @@ scoreboard objectives add ChangeModeBlue trigger モードサファイア変更�
 scoreboard objectives add ChangeSupRed trigger サポートルビー変更番号
 scoreboard objectives add ChangeSupBlue trigger サポートサファイア変更番号
 scoreboard objectives add ChangeLevel dummy スキル変更時レベル上限
+scoreboard objectives add ActiveSkill dummy 発動スキル
+scoreboard objectives add ActiveCost dummy 発動スキルコスト
 ###スキル共通系
 scoreboard objectives add MobHPMax dummy モブ最大体力
 scoreboard objectives add SkillInterval dummy スキル使用不可tick数

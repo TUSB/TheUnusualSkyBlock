@@ -9,6 +9,7 @@ function skill_manager:get_level
 ###共通スコアに代入
 scoreboard players operation $ChangeModeNo Global = @s ChangeModeRed
 scoreboard players set $ChangeModeCost Global 1000
+
 ###スキル値算出
 execute unless score $ChangeModeNo Global matches 1..9999 run function skill_manager:set_skill/error
 execute if score $ChangeModeNo Global matches 1101..1199 run function skill_manager:set_skill/knight/mode
@@ -19,6 +20,7 @@ execute if score $ChangeModeNo Global matches 5101..5199 run function skill_mana
 execute if score $ChangeModeNo Global matches 6101..6199 run function skill_manager:set_skill/summoner/mode
 execute if score $ChangeModeNo Global matches 7101..7199 run function skill_manager:set_skill/puppet_master/mode
 execute if score $ChangeModeNo Global matches 8101..8199 run function skill_manager:set_skill/common/mode
+
 ###スキル未設定化
 execute unless score $ChangeModeNo Global matches 10000..99999 run scoreboard players set $ChangeModeNo Global 1000
 ###スキル変更不可時

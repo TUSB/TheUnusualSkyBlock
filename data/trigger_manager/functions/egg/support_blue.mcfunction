@@ -5,7 +5,7 @@
 scoreboard players operation @s SupportSkill = @s SupportSkillBlue
 scoreboard players operation @s SupportCost = @s SupportCostBlue
 
-function trigger_manager:support
+function skill_manager:practice/support
 
 stopsound @a hostile minecraft:entity.drowned.ambient
 #execute as @e[type=minecraft:drowned,tag=Egg,sort=nearest,limit=1] at @s run tp @s ~ -300 ~

@@ -6,19 +6,19 @@
 scoreboard players add @s CarrotContinue 1
 scoreboard players set @s CarrotTick 5
 
+### 白魔導士＜セイクリッドピラー＞
+execute if score @s ModeSkill matches 41041..41049 run scoreboard players operation @s ActiveSkill = @s ModeSkill
+
 ### 召喚士＜ぽむぽむ花火＞
-execute if entity @s[scores={ModeSkill=61081..61089}] unless score @s SkillInterval matches 1.. run function skill_manager:summoner/pompom/act
+execute if score @s ModeSkill matches 61081..61089 run scoreboard players operation @s ActiveSkill = @s ModeSkill
 
 ### 召喚士＜コールＣアタック＞
-execute if entity @s[scores={ModeSkill=61071..61079}] unless score @s SkillInterval matches 1.. rotated ~ 0 positioned ^ ^1 ^3.5 run function skill_manager:summoner/call_crystal/summon/random
+execute if score @s ModeSkill matches 61071..61079 run scoreboard players operation @s ActiveSkill = @s ModeSkill
 ### 召喚士＜コールＣエンハンス＞
-execute if entity @s[scores={ModeSkill=61091..61099}] unless score @s SkillInterval matches 1.. rotated ~ 0 positioned ^ ^1 ^3.5 run function skill_manager:summoner/call_crystal/summon/random
-
-### 白魔導士＜セイクリッドピラー＞
-execute if entity @s[scores={ModeSkill=41041..41049}] unless score @s SkillInterval matches 1.. run function skill_manager:white_mage/sacred_pillar/act
+execute if score @s ModeSkill matches 61091..61099 run scoreboard players operation @s ActiveSkill = @s ModeSkill
 
 ### 召喚士＜ぷちブラック＞
-execute if entity @s[scores={ModeSkill=61111..61119}] unless score @s SkillInterval matches 1.. run function skill_manager:summoner/petit_black/act
+execute if score @s ModeSkill matches 61111..61119 run function skill_manager:summoner/petit_black/act
 
 ### トリガーリセット
 scoreboard players reset @s UseCarrotStick

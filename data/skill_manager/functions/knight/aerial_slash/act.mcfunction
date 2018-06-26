@@ -22,10 +22,10 @@ execute as @e[tag=Initializing,limit=1] at @s run function calc_manager:set/moti
 
 ###飛翔物スキル番号を付与する
 scoreboard players operation @e[tag=Initializing,limit=1] ProjectileSkill = @s ModeSkill
-execute if score @s ModeSkill matches 11041 run scoreboard players set $Damage Global 400
-execute if score @s ModeSkill matches 11042 run scoreboard players set $Damage Global 900
-execute if score @s ModeSkill matches 11043 run scoreboard players set $Damage Global 1500
-execute if score @s ModeSkill matches 11044 run scoreboard players set $Damage Global 2200
+execute if score @s ModeSkill matches 11041 run scoreboard players set $Damage Global 4000
+execute if score @s ModeSkill matches 11042 run scoreboard players set $Damage Global 9000
+execute if score @s ModeSkill matches 11043 run scoreboard players set $Damage Global 15000
+execute if score @s ModeSkill matches 11044 run scoreboard players set $Damage Global 22000
 scoreboard players operation @e[tag=Initializing,limit=1] SkillAttribute = $Damage Global
 
 ###エンティティ切削除

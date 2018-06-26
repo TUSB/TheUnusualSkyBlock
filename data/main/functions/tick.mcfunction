@@ -33,6 +33,17 @@ execute as @a[scores={UseBow=1..}] at @s run function trigger_manager:bow
 execute as @a[scores={UseCarrotStick=1..}] at @s run function trigger_manager:carrot_on_a_stick
 execute as @a[scores={DamageDealt=0..}] at @s run function trigger_manager:damage_dealt
 execute as @a[scores={SprintOneCm=1..}] at @s run function trigger_manager:sprint
+###スキルエッグ
+execute as @a[scores={UseModeEgg=1..}] at @s run function trigger_manager:egg/mode_change
+execute as @a[scores={UseSupportRed=1..}] at @s run function trigger_manager:egg/support_red
+execute as @a[scores={UseSupportBlue=1..}] at @s run function trigger_manager:egg/support_blue
+
+execute as @a[scores={ActiveSkill=1..}] at @s run function skill_manager:practice/mode
+execute as @a if score @s CarrotTick matches 0 run scoreboard players set @s CarrotContinue 0
+
+###スキル発動
+execute as @a[scores={ActiveCost=1..}] if score @s MP < @s ActiveCost run playsound minecraft:block.fire.extinguish master @s ~ ~ ~ 1 2
+scoreboard players reset @s ActiveCost
 
 ###エンティティ発生時処理
 execute as @e[tag=!Initialized] at @s run function entity_manager:initialize_entity
@@ -70,11 +81,6 @@ execute as @a at @s if entity @s[y=-250,dy=50] run kill @s
 ###めり込み処理
 execute as @a[scores={TimeSinceDeath=1..},gamemode=!spectator,gamemode=!creative] at @s anchored eyes if block ^ ^ ^ minecraft:barrier run function entity_manager:suffocation
 execute as @a[scores={TimeSinceDeath=1..},gamemode=!spectator,gamemode=!creative] at @s anchored eyes if block ^ ^ ^ minecraft:bedrock run function entity_manager:suffocation
-
-###スキルエッグ
-execute as @a[scores={UseModeEgg=1..}] run function trigger_manager:egg/mode_change
-execute as @a[scores={UseSupportRed=1..}] run function trigger_manager:egg/support_red
-execute as @a[scores={UseSupportBlue=1..}] run function trigger_manager:egg/support_blue
 
 ###スニーク時処理
 execute as @a[scores={SneakTime=1..}] run function trigger_manager:sneak
