@@ -2,16 +2,12 @@
 ### サポートスキル実行
 ##############################
 
+###---演出---Start
 execute if score @s MP < @s SupportCost run tellraw @s {"text":"MPが不足しています。","color":"red"}
+execute if score @s MP < @s SupportCost run playsound minecraft:block.fire.extinguish master @s ~ ~ ~ 1 2
+###---演出---End
 execute if score @s MP < @s SupportCost run scoreboard players reset @s SupportSkill
-scoreboard players operation $Second Global = @s SkillInterval
-scoreboard players operation $Second Global /= $20 Const
-scoreboard players operation $MilliSecond Global = @s SkillInterval
-scoreboard players operation $MilliSecond Global %= $20 Const
-scoreboard players operation $MilliSecond Global *= $50 Const
-execute if score @s SkillInterval > $0 Const if score $MilliSecond Global = $0 Const run tellraw @s [{"text":"スキルが使用できるまであと","color":"red"},{"score":{"name":"$Second","objective":"Global"}},".000秒"]
-execute if score @s SkillInterval > $0 Const if score $MilliSecond Global = $50 Const run tellraw @s [{"text":"スキルが使用できるまであと","color":"red"},{"score":{"name":"$Second","objective":"Global"}},".050秒"]
-execute if score @s SkillInterval > $0 Const unless score $MilliSecond Global matches 0..50 run tellraw @s [{"text":"スキルが使用できるまであと","color":"red"},{"score":{"name":"$Second","objective":"Global"}},".",{"score":{"name":"$MilliSecond","objective":"Global"}},"秒"]
+function calc_manager:tellraw/interval
 execute if score @s SkillInterval > $0 Const run scoreboard players reset @s SupportSkill
 execute if score @s SupportSkill matches 1.. run scoreboard players operation @s MPConsumption += @s SupportCost
 

@@ -13,8 +13,8 @@ execute if score $Tmp Global matches 0 run tag @s add ModeRed
 ### モードスキルにスキルを設定
 scoreboard players operation @s[tag=ModeRed] ModeSkill = @s ModeSkillRed
 scoreboard players operation @s[tag=ModeBlue] ModeSkill = @s ModeSkillBlue
-scoreboard players operation @s[tag=ModeRed] ModeCost = @s ModeRedCost
-scoreboard players operation @s[tag=ModeBlue] ModeCost = @s ModeBlueCost
+scoreboard players operation @s[tag=ModeRed] ModeCost = @s ModeCostRed
+scoreboard players operation @s[tag=ModeBlue] ModeCost = @s ModeCostBlue
 
 ### メッセージ
 ###---演出---Start
