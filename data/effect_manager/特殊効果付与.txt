@@ -1,0 +1,45 @@
+##############################
+### 特殊効果適用
+##############################
+
+### invisibility 1 0
+死の宣告
+
+### invisibility 1 11
+MP25回復
+### invisibility 1 12
+MP50回復
+### invisibility 1 13
+MP100回復
+### invisibility 1 14
+MP200回復
+
+### invisibility 1 21
+ハート５回復
+### invisibility 1 22
+ハート10回復
+### invisibility 1 23
+ハート20回復
+### invisibility 1 24
+ハート40回復
+
+### invisibility 1 31
+MP2割回復
+### invisibility 1 32
+MP4割回復
+### invisibility 1 33
+MP7割回復
+### invisibility 1 34
+MP全回復
+
+### invisibility 1 41
+HP3割回復
+### invisibility 1 42
+HP6割回復
+### invisibility 1 43
+HP10割回復
+### invisibility 1 44
+HP20割回復
+
+### invisibility 1 51
+聖水

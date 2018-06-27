@@ -59,6 +59,46 @@
                 }
             }
         },
+        "healing": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 21
+                    }
+                }
+            }
+        },
+        "high_healing": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 22
+                    }
+                }
+            }
+        },
+        "super_healing": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 23
+                    }
+                }
+            }
+        },
+        "ultra_healing": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 24
+                    }
+                }
+            }
+        },
         "elixir": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
@@ -99,6 +139,46 @@
                 }
             }
         },
+        "ex_healing": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 41
+                    }
+                }
+            }
+        },
+        "high_ex_healing": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 42
+                    }
+                }
+            }
+        },
+        "super_ex_healing": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 43
+                    }
+                }
+            }
+        },
+        "ultra_ex_healing": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 44
+                    }
+                }
+            }
+        },
         "anti_doom": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
@@ -114,7 +194,7 @@
         }
     },
     "requirements": [
-        ["doom", "ether", "high_ether", "super_ether", "ultra_ether", "elixir", "high_elixir", "super_elixir", "ultra_elixir", "anti_doom","default"]
+        ["doom", "ether", "high_ether", "super_ether", "ultra_ether", "healing", "high_healing", "super_healing", "ultra_healing", "elixir", "high_elixir", "super_elixir", "ultra_elixir", "ex_healing", "high_ex_healing", "super_ex_healing", "ultra_ex_healing", "anti_doom","default"]
     ],
     "rewards": {
         "function": "effect_manager:invisible"

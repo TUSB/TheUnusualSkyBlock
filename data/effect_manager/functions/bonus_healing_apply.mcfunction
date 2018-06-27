@@ -2,7 +2,7 @@
 ### 討伐ボーナス回復適用
 ##############################
 
-### HPボーナス ###全然だめじゃん！！！！！
+### HPボーナス
 execute store result score $MaxHP Global run data get entity @s Attributes[0].Modifiers[0].Amount
 scoreboard players add $MaxHP Global 20
 scoreboard players operation $MaxHP Global /= $10 Const

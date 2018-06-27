@@ -20,6 +20,7 @@ scoreboard objectives add SprintOneCm minecraft.custom:minecraft.sprint_one_cm �
 scoreboard objectives add DamageDealt minecraft.custom:minecraft.damage_dealt 与えたダメージ量
 scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken 受けたメージ量
 scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game ログインフラグ
+scoreboard objectives add HealthHealing dummy HP回復量
 ###変数や定数、カウンタ
 scoreboard objectives add Global dummy グローバル変数
 scoreboard objectives add Const dummy 定数
@@ -120,6 +121,7 @@ scoreboard players set $2 Const 2
 scoreboard players set $3 Const 3
 scoreboard players set $4 Const 4
 scoreboard players set $5 Const 5
+scoreboard players set $6 Const 6
 scoreboard players set $8 Const 8
 scoreboard players set $10 Const 10
 scoreboard players set $15 Const 15
