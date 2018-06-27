@@ -16,3 +16,6 @@ execute if score @s ProjectileSkill matches 11041..11049 run function skill_mana
 
 ### ステークスファイア
 execute if score @s ProjectileSkill matches 31011..31019 run function skill_manager:hunter/stakes_fire/hit
+
+### ウィークペイント
+execute if score @s ProjectileSkill matches 81011..81019 run function skill_manager:common/weakness_paint/hit

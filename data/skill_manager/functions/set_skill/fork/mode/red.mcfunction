@@ -24,6 +24,7 @@ execute if score $ChangeModeNo Global matches 8101..8199 run function skill_mana
 ###スキル未設定化
 execute unless score $ChangeModeNo Global matches 10000..99999 run scoreboard players set $ChangeModeNo Global 1000
 ###スキル変更不可時
+scoreboard players reset @s[gamemode=creative] ChangeSkillLimit
 execute if score @s ChangeSkillLimit matches 1.. run scoreboard players operation $ChangeModeNo Global = @s ModeSkillRed
 execute if score @s ChangeSkillLimit matches 1.. run scoreboard players operation $ChangeModeCost Global = @s ModeCostRed
 ###スキル値代入

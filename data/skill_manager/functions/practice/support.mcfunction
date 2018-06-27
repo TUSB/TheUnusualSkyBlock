@@ -28,5 +28,8 @@ execute if score @s SupportSkill matches 52071..52079 run function skill_manager
 ### ピアッシングエイム
 execute if score @s SupportSkill matches 32071..32079 run function skill_manager:hunter/piercing_aim/act
 
+### スノウチャージ
+execute if score @s SupportSkill matches 82011..82019 run function skill_manager:common/snow_charge/act
+
 scoreboard players reset @s SupportSkill
 scoreboard players reset @s SupportCost

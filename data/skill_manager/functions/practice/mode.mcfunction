@@ -46,5 +46,8 @@ execute if score @s ActiveSkill matches 61091..61099 rotated ~ 0 positioned ^ ^1
 ### 召喚士＜ぷちブラック＞
 execute if score @s ActiveSkill matches 61111..61119 run function skill_manager:summoner/petit_black/launch
 
+### 共通＜ウィークペイント＞
+execute if score @s ActiveSkill matches 81011..81019 run function skill_manager:common/weakness_paint/act
+
 scoreboard players reset @s ActiveSkill
 scoreboard players reset @s ActiveCost

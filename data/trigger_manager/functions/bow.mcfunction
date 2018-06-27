@@ -14,8 +14,5 @@ execute if score @s ModeSkill matches 31061..31069 run scoreboard players operat
 ### 狩人＜ステークスファイア＞
 execute if score @s ModeSkill matches 31011..31019 run scoreboard players operation @s ActiveSkill = @s ModeSkill
 
-
-scoreboard players operation @s[scores={ActiveSkill=1..}] ActiveCost = @s ModeCost
-
 ### トリガーリセット
 scoreboard players reset @s UseBow
