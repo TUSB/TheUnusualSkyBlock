@@ -25,6 +25,11 @@ execute if entity @s[tag=AimingPlayer] run function entity_manager:aiming_player
 ###鶏騎乗タイプ削除
 tag @s[type=minecraft:chicken,nbt={Passengers:[{}]}] add Vehicle
 
+###運び屋
+tag @s[nbt={Passengers:[{Tags:["Cargo"]}]}] add Mule
+data merge entity @s[tag=Cargo] {PortalCooldown:40,Age:0,Duration:40}
+tag @s[tag=Cargo] add CooldownRequired
+
 ### 飛翔物属性付与
 tag @s[type=minecraft:arrow] add Projectile
 tag @s[type=minecraft:dragon_fireball] add Projectile
