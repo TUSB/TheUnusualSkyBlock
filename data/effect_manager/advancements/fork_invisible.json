@@ -1,0 +1,122 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:command_block"
+        },
+        "title": "特殊効果",
+        "description": "特別な効果がかかった！",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "doom": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 0
+                    }
+                }
+            }
+        },
+        "ether": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 11
+                    }
+                }
+            }
+        },
+        "high_ether": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 12
+                    }
+                }
+            }
+        },
+        "super_ether": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 13
+                    }
+                }
+            }
+        },
+        "ultra_ether": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 14
+                    }
+                }
+            }
+        },
+        "elixir": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 31
+                    }
+                }
+            }
+        },
+        "high_elixir": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 32
+                    }
+                }
+            }
+        },
+        "super_elixir": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 33
+                    }
+                }
+            }
+        },
+        "ultra_elixir": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 34
+                    }
+                }
+            }
+        },
+        "anti_doom": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 51
+                    }
+                }
+            }
+        },
+        "default": {
+            "trigger": "minecraft:effects_changed"
+        }
+    },
+    "requirements": [
+        ["doom", "ether", "high_ether", "super_ether", "ultra_ether", "elixir", "high_elixir", "super_elixir", "ultra_elixir", "anti_doom","default"]
+    ],
+    "rewards": {
+        "function": "effect_manager:invisible"
+    }
+} 

@@ -13,7 +13,7 @@ execute as @a[tag=WithPuppet] unless score @s ModeSkill matches 71031..71039 run
 execute as @e[tag=Automaton] at @s run function puppet_manager:bio_handling/tick
 
 ### 死の宣告処理
-execute as @a[scores={DoomCount=1..}] run function effect_manager:doom
+execute as @a[scores={DoomCount=1..}] run function effect_manager:doom/proceed
 
 ### トカルト処理
 scoreboard players remove @a[scores={Dimension=16}] TorchCount 1
