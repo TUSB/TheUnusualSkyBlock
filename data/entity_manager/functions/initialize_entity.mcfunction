@@ -30,6 +30,11 @@ tag @s[nbt={Passengers:[{Tags:["Cargo"]}]}] add Mule
 data merge entity @s[tag=Cargo] {PortalCooldown:40,Age:0,Duration:40}
 tag @s[tag=Cargo] add CooldownRequired
 
+###タライ位置調整
+execute if entity @s[tag=AbovePlayer] at @a[distance=..32,sort=nearest,limit=1] run tp @s ~ ~10 ~
+execute if entity @s[tag=AboveEnemy] at @e[distance=..32,tag=Mob,sort=nearest,limit=1] run tp @s ~ ~10 ~
+execute if entity @s[tag=NeverRemain] run data merge entity @s {FallHurtMax:2147483647,FallingDistance:1E10f,DropItem:false,BlockState:{Name:"minecraft:command_block"},TileEntityData:{Command:"/setblock ~ ~ ~ minecraft:air",auto:true}}
+
 ### 飛翔物属性付与
 tag @s[type=minecraft:arrow] add Projectile
 tag @s[type=minecraft:dragon_fireball] add Projectile
