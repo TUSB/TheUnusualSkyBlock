@@ -7,6 +7,3 @@ execute if score @s ModeSkill matches 31061 run scoreboard players set @e[distan
 execute if score @s ModeSkill matches 31062 run scoreboard players set @e[distance=..5,type=minecraft:arrow,tag=!Initialized,sort=nearest,limit=1] SkillAttribute 200
 execute if score @s ModeSkill matches 31063 run scoreboard players set @e[distance=..5,type=minecraft:arrow,tag=!Initialized,sort=nearest,limit=1] SkillAttribute 320
 execute as @e[distance=..5,type=minecraft:arrow,tag=!Initialized,sort=nearest,limit=1] run data merge entity @s {PortalCooldown:2,Tags:[WildFlareSeed,CooldownRequired]}
-
-###スキルインターバル設定
-scoreboard players set @s SkillInterval 100

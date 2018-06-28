@@ -7,6 +7,7 @@ scoreboard objectives add HP health HP
 scoreboard objectives add MP dummy MP
 scoreboard objectives add MPMax dummy MP最大値
 scoreboard objectives add Armor armor 防御力
+scoreboard objectives add HealthHealing dummy HP回復量
 scoreboard objectives add KillCount playerKillCount 討伐数
 scoreboard objectives add TimeSinceDeath minecraft.custom:minecraft.time_since_death 生きている時間
 scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time スニーク時間
@@ -20,7 +21,6 @@ scoreboard objectives add SprintOneCm minecraft.custom:minecraft.sprint_one_cm �
 scoreboard objectives add DamageDealt minecraft.custom:minecraft.damage_dealt 与えたダメージ量
 scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken 受けたメージ量
 scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game ログインフラグ
-scoreboard objectives add HealthHealing dummy HP回復量
 ###変数や定数、カウンタ
 scoreboard objectives add Global dummy グローバル変数
 scoreboard objectives add Const dummy 定数
@@ -50,18 +50,25 @@ scoreboard objectives add SubSummoner dummy 召喚士のサブレベル
 scoreboard objectives add SubPupMaster dummy 絡繰士のサブレベル
 ###設定されたスキル
 scoreboard objectives add Cost dummy MPコスト一覧
+scoreboard objectives add Interval dummy スキル使用不能時間一覧
 scoreboard objectives add ModeSkill dummy 現在のモードスキル
 scoreboard objectives add ModeCost dummy 現在のモードスキルのコスト
+scoreboard objectives add ModeInterval dummy 現在のモードスキルの発動無効時間
 scoreboard objectives add ModeSkillRed dummy モードスキルルビー
 scoreboard objectives add ModeSkillBlue dummy モードスキルサファイア
 scoreboard objectives add ModeCostRed dummy モードスキルルビーのコスト
 scoreboard objectives add ModeCostBlue dummy モードスキルサファイアのコスト
+scoreboard objectives add ModeIntervalRed dummy モードスキルルビーの発動無効時間
+scoreboard objectives add ModeIntervalBlue dummy モードスキルサファイアの発動無効時間
 scoreboard objectives add SupportSkill dummy 発動中のサポートスキル
 scoreboard objectives add SupportCost dummy 発動中のサポートスキルのコスト
+scoreboard objectives add SupportInterval dummy 発動中のサポートスキルの発動無効時間
 scoreboard objectives add SupportSkillRed dummy サポートアクションルビー
 scoreboard objectives add SupportSkillBlue dummy サポートアクションファイア
 scoreboard objectives add SupportCostRed dummy サポートアクションルビーのコスト
 scoreboard objectives add SupportCostBlue dummy サポートアクションサファイアのコスト
+scoreboard objectives add SupportIntRed dummy サポートアクションルビーの発動無効時間
+scoreboard objectives add SupportIntBlue dummy サポートアクションサファイアの発動無効時間
 scoreboard objectives add ShowSkillNo dummy 表示スキル番号
 scoreboard objectives add ChangeModeRed trigger モードルビー変更番号
 scoreboard objectives add ChangeModeBlue trigger モードサファイア変更番号
@@ -70,6 +77,7 @@ scoreboard objectives add ChangeSupBlue trigger サポートサファイア変�
 scoreboard objectives add ChangeLevel dummy スキル変更時レベル上限
 scoreboard objectives add ActiveSkill dummy 発動スキル
 scoreboard objectives add ActiveCost dummy 発動スキルコスト
+scoreboard objectives add ActiveInterval dummy 発動スキル発動無効時間
 ###スキル共通系
 scoreboard objectives add MobHPMax dummy モブ最大体力
 scoreboard objectives add SkillInterval dummy スキル使用不可tick数
@@ -265,6 +273,118 @@ scoreboard players set $7206 Cost 15
 scoreboard players set $7207 Cost 10
 scoreboard players set $7208 Cost 50
 scoreboard players set $7209 Cost 10
+###スキル使用不能時間一覧
+##剣士
+scoreboard players set $1101 Interval 30
+scoreboard players set $1102 Interval 0
+scoreboard players set $1103 Interval 0
+scoreboard players set $1104 Interval 0
+scoreboard players set $1105 Interval 0
+scoreboard players set $1106 Interval 40
+scoreboard players set $1107 Interval 0
+scoreboard players set $1201 Interval 60
+scoreboard players set $1202 Interval 240
+scoreboard players set $1203 Interval 100
+scoreboard players set $1204 Interval 20
+scoreboard players set $1205 Interval 60
+##忍者
+scoreboard players set $2101 Interval 0
+scoreboard players set $2102 Interval 0
+scoreboard players set $2103 Interval 0
+scoreboard players set $2104 Interval 0
+scoreboard players set $2105 Interval 0
+scoreboard players set $2106 Interval 0
+scoreboard players set $2201 Interval 0
+scoreboard players set $2202 Interval 40
+scoreboard players set $2203 Interval 40
+scoreboard players set $2204 Interval 100
+scoreboard players set $2205 Interval 20
+scoreboard players set $2206 Interval 160
+scoreboard players set $2207 Interval 100
+scoreboard players set $2208 Interval 0
+scoreboard players set $2209 Interval 20
+##狩人
+scoreboard players set $3101 Interval 0
+scoreboard players set $3102 Interval 20
+scoreboard players set $3103 Interval 20
+scoreboard players set $3104 Interval 0
+scoreboard players set $3105 Interval 20
+scoreboard players set $3106 Interval 100
+scoreboard players set $3107 Interval 0
+scoreboard players set $3201 Interval 0
+scoreboard players set $3202 Interval 20
+scoreboard players set $3203 Interval 20
+scoreboard players set $3204 Interval 40
+scoreboard players set $3205 Interval 40
+scoreboard players set $3206 Interval 200
+scoreboard players set $3207 Interval 200
+scoreboard players set $3208 Interval 60
+##白魔導士
+scoreboard players set $4101 Interval 10
+scoreboard players set $4102 Interval 0
+scoreboard players set $4103 Interval 20
+scoreboard players set $4104 Interval 80
+scoreboard players set $4105 Interval 0
+scoreboard players set $4201 Interval 60
+scoreboard players set $4202 Interval 20
+scoreboard players set $4203 Interval 0
+scoreboard players set $4204 Interval 20
+scoreboard players set $4205 Interval 200
+scoreboard players set $4206 Interval 200
+scoreboard players set $4207 Interval 10
+##黒魔導士
+scoreboard players set $5101 Interval 0
+scoreboard players set $5102 Interval 0
+scoreboard players set $5103 Interval 60
+scoreboard players set $5104 Interval 60
+scoreboard players set $5105 Interval 20
+scoreboard players set $5106 Interval 0
+scoreboard players set $5201 Interval 100
+scoreboard players set $5202 Interval 100
+scoreboard players set $5203 Interval 100
+scoreboard players set $5204 Interval 100
+scoreboard players set $5205 Interval 20
+scoreboard players set $5206 Interval 20
+scoreboard players set $5207 Interval 100
+scoreboard players set $5208 Interval 100
+scoreboard players set $5209 Interval 10
+scoreboard players set $5210 Interval 10
+##召喚士
+scoreboard players set $6101 Interval 0
+scoreboard players set $6102 Interval 20
+scoreboard players set $6103 Interval 20
+scoreboard players set $6104 Interval 20
+scoreboard players set $6105 Interval 0
+scoreboard players set $6106 Interval 40
+scoreboard players set $6107 Interval 100
+scoreboard players set $6108 Interval 20
+scoreboard players set $6109 Interval 100
+scoreboard players set $6110 Interval 0
+scoreboard players set $6111 Interval 0
+scoreboard players set $6201 Interval 0
+scoreboard players set $6202 Interval 60
+scoreboard players set $6203 Interval 0
+scoreboard players set $6204 Interval 0
+scoreboard players set $6205 Interval 60
+scoreboard players set $6206 Interval 60
+scoreboard players set $6207 Interval 0
+scoreboard players set $6208 Interval 0
+scoreboard players set $6209 Interval 60
+##絡繰士
+scoreboard players set $7101 Interval 10
+scoreboard players set $7102 Interval 0
+scoreboard players set $7103 Interval 0
+scoreboard players set $7104 Interval 40
+scoreboard players set $7105 Interval 0
+scoreboard players set $7201 Interval 60
+scoreboard players set $7202 Interval 0
+scoreboard players set $7203 Interval 0
+scoreboard players set $7204 Interval 60
+scoreboard players set $7205 Interval 60
+scoreboard players set $7206 Interval 100
+scoreboard players set $7207 Interval 140
+scoreboard players set $7208 Interval 100
+scoreboard players set $7209 Interval 40
 ###バースト初期化
 scoreboard players set #Aura MP 10000
 ###イベントタイマー初期化

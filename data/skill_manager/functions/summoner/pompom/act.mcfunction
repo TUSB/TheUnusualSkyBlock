@@ -28,6 +28,3 @@ tag @e[tag=Initializing,limit=1] remove Initializing
 ###---演出---Start
 playsound minecraft:entity.blaze.shoot master @a ~ ~ ~ 1 2
 ###---演出---End
-
-###スキルインターバル設定
-scoreboard players set @s SkillInterval 20

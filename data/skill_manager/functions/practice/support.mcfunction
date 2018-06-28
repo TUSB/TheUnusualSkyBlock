@@ -12,12 +12,17 @@ execute if score @s MP < @s SupportCost run scoreboard players reset @s SupportS
 function calc_manager:tellraw/interval
 execute if score @s SkillInterval > $0 Const run scoreboard players reset @s SupportSkill
 execute if score @s SupportSkill matches 1.. run scoreboard players operation @s MPConsumption += @s SupportCost
+###スキル発動不能時間設定
+execute if score @s SupportSkill matches 1.. run scoreboard players operation @s SkillInterval = @s SupportInterval
 
 ### ファランクス
 execute if score @s SupportSkill matches 12011..12019 run function skill_manager:knight/phalanx/act
 
 ### アイアンウィル
 execute if score @s SupportSkill matches 12021..12029 run function skill_manager:knight/iron_will/act
+
+### 鍛冶
+execute if score @s SupportSkill matches 12023..12039 run function skill_manager:knight/blacksmith/act
 
 ### 介錯
 execute if score @s SupportSkill matches 22081..22089 run function skill_manager:ninja/kaishaku/act

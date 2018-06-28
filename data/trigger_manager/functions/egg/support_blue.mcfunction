@@ -4,6 +4,7 @@
 
 scoreboard players operation @s SupportSkill = @s SupportSkillBlue
 scoreboard players operation @s SupportCost = @s SupportCostBlue
+scoreboard players operation @s SupportInterval = @s SupportIntBlue
 
 function skill_manager:practice/support
 

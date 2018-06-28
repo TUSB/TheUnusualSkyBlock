@@ -5,6 +5,8 @@
 ###消費MP決定
 scoreboard players operation @s ActiveCost = @s ModeCost
 execute if score @s SneakTime matches 1.. run function skill_manager:practice/sneak_mode
+###スキルインターバル設定
+scoreboard players operation @s ActiveInterval = @s ModeInterval
 ###---演出---Start
 execute if score @s MP < @s ActiveCost run tellraw @s {"text":"MPが不足しています。","color":"red"}
 execute if score @s MP < @s ActiveCost run playsound minecraft:block.fire.extinguish master @s ~ ~ ~ 1 2
@@ -13,6 +15,8 @@ execute if score @s MP < @s ActiveCost run scoreboard players reset @s ActiveSki
 function calc_manager:tellraw/interval
 execute if score @s SkillInterval > $0 Const run scoreboard players reset @s ActiveSkill
 execute if score @s ActiveSkill matches 1.. run scoreboard players operation @s MPConsumption += @s ActiveCost
+###スキル発動不能時間設定
+execute if score @s ActiveSkill matches 1.. run scoreboard players operation @s SkillInterval = @s ActiveInterval
 
 ### 剣士＜真空斬り＞
 execute if score @s ActiveSkill matches 11041..11049 run function skill_manager:knight/aerial_slash/act
@@ -51,3 +55,4 @@ execute if score @s ActiveSkill matches 81011..81019 run function skill_manager:
 
 scoreboard players reset @s ActiveSkill
 scoreboard players reset @s ActiveCost
+scoreboard players reset @s ActiveInterval

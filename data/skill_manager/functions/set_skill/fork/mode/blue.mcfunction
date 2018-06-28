@@ -9,6 +9,7 @@ function skill_manager:get_level
 ###共通スコアに代入
 scoreboard players operation $ChangeModeNo Global = @s ChangeModeBlue
 scoreboard players set $ChangeModeCost Global 1000
+scoreboard players set $ChangeModeInterval Global 0
 
 ###スキル値算出
 execute unless score $ChangeModeNo Global matches 1..9999 run function skill_manager:set_skill/error
@@ -27,11 +28,14 @@ execute unless score $ChangeModeNo Global matches 10000..99999 run scoreboard pl
 scoreboard players reset @s[gamemode=creative] ChangeSkillLimit
 execute if score @s ChangeSkillLimit matches 1.. run scoreboard players operation $ChangeModeNo Global = @s ModeSkillBlue
 execute if score @s ChangeSkillLimit matches 1.. run scoreboard players operation $ChangeModeCost Global = @s ModeCostBlue
+execute if score @s ChangeSkillLimit matches 1.. run scoreboard players operation $ChangeModeInterval Global = @s ModeIntervalBlue
 ###スキル値代入
 scoreboard players operation @s ModeSkillBlue = $ChangeModeNo Global
 scoreboard players operation @s ModeCostBlue = $ChangeModeCost Global
+scoreboard players operation @s ModeIntervalBlue = $ChangeModeInterval Global
 scoreboard players operation @s[tag=ModeBlue] ModeCost = @s ModeCostBlue
 scoreboard players operation @s[tag=ModeBlue] ModeSkill = @s ModeSkillBlue
+scoreboard players operation @s[tag=ModeBlue] ModeInterval = @s ModeIntervalBlue
 ###スキル名表示
 ###---演出---Start
 execute if score @s ChangeSkillLimit matches ..0 run tellraw @s ["",{"text":"モードチェンジサファイア","color":"blue","bold":true},"を設定しました。"]

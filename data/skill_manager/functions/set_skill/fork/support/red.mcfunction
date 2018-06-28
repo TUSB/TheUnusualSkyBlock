@@ -9,6 +9,7 @@ function skill_manager:get_level
 ###共通スコアに代入
 scoreboard players operation $ChangeSupNo Global = @s ChangeSupRed
 scoreboard players set $ChangeSupCost Global 1000
+scoreboard players set $ChangeSupInterval Global 0
 ###スキル値算出
 execute unless score $ChangeSupNo Global matches 1..9999 run function skill_manager:set_skill/error
 execute if score $ChangeSupNo Global matches 1201..1299 run function skill_manager:set_skill/knight/support
@@ -25,11 +26,11 @@ execute unless score $ChangeSupNo Global matches 10000..99999 run scoreboard pla
 scoreboard players reset @s[gamemode=creative] ChangeSkillLimit
 execute if score @s ChangeSkillLimit matches 1.. run scoreboard players operation $ChangeSupNo Global = @s SupportSkillRed
 execute if score @s ChangeSkillLimit matches 1.. run scoreboard players operation $ChangeSupCost Global = @s SupportCostRed
+execute if score @s ChangeSkillLimit matches 1.. run scoreboard players operation $ChangeSupInterval Global = @s SupportIntRed
 ###スキル値代入
 scoreboard players operation @s SupportSkillRed = $ChangeSupNo Global
 scoreboard players operation @s SupportCostRed = $ChangeSupCost Global
-scoreboard players operation @s[tag=SupportRed] SupportCost = @s SupportCostRed
-scoreboard players operation @s[tag=SupportRed] SupportSkill = @s SupportSkillRed
+scoreboard players operation @s SupportIntRed = $ChangeSupCost Global
 ###スキル名表示
 ###---演出---Start
 execute if score @s ChangeSkillLimit matches ..0 run tellraw @s ["",{"text":"サポートアクションルビー","color":"red","bold":true},"を設定しました。"]
