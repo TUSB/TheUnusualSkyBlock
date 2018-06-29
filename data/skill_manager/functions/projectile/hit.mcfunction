@@ -3,7 +3,7 @@
 ##############################
 
 ### スノゴ雪玉
-execute if score @s ProjectileSkill matches 100000 run function skill_manager:snowman/snowball/hit
+execute if score @s ProjectileSkill matches 100000 run function skill_manager:snow_golem/snowball/hit
 
 ### ぽむぽむ花火
 execute if score @s ProjectileSkill matches 61081..61089 run function skill_manager:summoner/pompom/direct

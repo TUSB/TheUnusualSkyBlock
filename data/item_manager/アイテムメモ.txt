@@ -17,4 +17,4 @@ Feet
 UUIDMost:24L,UUIDLeast:xL
 
 Legacy Sample
-/give @p minecraft:stick{AttributeModifiers:[{Name:"Legacy",AttributeName:"耐久",Amount:10,Operation:0,UUIDMost:11L,UUIDLeast:1L,Slot:"offhand"}]}
+/give @p minecraft:stick{AttributeModifiers:[{Name:"Legacy",AttributeName:"耐久",Amount:10,Operation:0,UUIDMost:11L,UUIDLeast:1L,Slot:"mainhand"}]}

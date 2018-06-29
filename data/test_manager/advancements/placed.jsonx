@@ -10,7 +10,7 @@
     },
     "criteria": {
         "damage_taken": {
-            "trigger": "minecraft:consume_itemaa"
+            "trigger": "minecraft:consume_item"
         }
     },
     "rewards": {

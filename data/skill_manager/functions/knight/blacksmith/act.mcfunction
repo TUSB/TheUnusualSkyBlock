@@ -18,6 +18,9 @@ execute unless entity @s[nbt=!{SelectedItem:{id:"minecraft:diamond_sword"}},nbt=
 execute unless entity @s[nbt=!{SelectedItem:{id:"minecraft:elytra"}},nbt=!{SelectedItem:{id:"minecraft:trident"}}] run scoreboard players add $Random Global 0
 execute if score @s SupportSkill matches 12032 run scoreboard players add $Random Global 6
 
+###レガシーの場合は分岐
+execute if entity @s[nbt={SelectedItem:{tag:{AttributeModifiers:[{AttributeName:"耐久"}]}}}] run function skill_manager:knight/blacksmith/legacy/act
+
 ###エラー
 execute if score $Success Global matches ..0 run function skill_manager:knight/blacksmith/error
 ###成功

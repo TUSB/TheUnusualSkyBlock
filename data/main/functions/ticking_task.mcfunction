@@ -2,6 +2,9 @@
 ### 毎ティック処理
 ##############################
 
+###向き補正
+tp @s[tag=TowardPlayer] ^ ^ ^ facing entity @p[nbt=!{Health:0.0f}]
+
 ###介錯処理
 execute if entity @s[tag=KaishakuExplosion] run function skill_manager:ninja/kaishaku/tick
 ###ステークスファイア処理
@@ -19,6 +22,9 @@ execute if entity @s[tag=Sicced] run function skill_manager:sicced/pets
 execute if entity @s[tag=Crystal] run function skill_manager:summoner/call_crystal/tick/all
 ###ぷちブラック処理
 execute if entity @s[tag=PetitBlack] run function skill_manager:summoner/petit_black/tick/all
+
+###流体泳処理
+execute if entity @s[tag=Swim] run function enemy_manager:swim/common
 
 ###接地矢(など)Projectileタグ削除
 execute if entity @s[tag=FlyingRequired,nbt={inGround:true}] run function trigger_manager:in_ground

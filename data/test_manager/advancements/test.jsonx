@@ -10,7 +10,7 @@
     },
     "criteria": {
         "damage_taken": {
-            "trigger": "minecraft:player_hurt_entityaa"
+            "trigger": "minecraft:player_hurt_entity"
         }
     },
     "rewards": {

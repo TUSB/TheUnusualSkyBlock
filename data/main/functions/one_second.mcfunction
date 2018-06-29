@@ -29,10 +29,6 @@ execute as @e[tag=Mob,tag=!Animal,nbt=!{PersistenceRequired:true}] at @s unless 
 execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air run kill @s
 execute as @e[type=minecraft:spawner_minecart] at @s positioned ~-0.001 ~-0.001 ~-0.001 unless entity @e[dx=0.002,dy=0.002,dz=0.002,nbt={Passengers:[{}]},limit=1] run tag @s add Garbage
 
-### ブロック設置敵処理
-execute as @e[tag=CanSpin] at @s positioned ~-0.5 ~ ~-0.5 run fill ~ ~ ~ ~1 ~1 ~1 minecraft:cobweb keep
-execute as @e[tag=CanFire] at @s positioned ~-0.5 ~ ~-0.5 run fill ~ ~ ~ ~1 ~1 ~1 minecraft:fire keep
-
 ### １分処理呼び出し
 scoreboard players add $Second Count 1
 execute if score $Second Count matches 60 run function main:one_minute

@@ -49,7 +49,7 @@ tag @s[type=minecraft:snowball] add Projectile
 tag @s[type=minecraft:spectral_arrow] add Projectile
 tag @s[type=minecraft:trident] add Projectile
 tag @s[type=minecraft:wither_skull] add Projectile
-tag @s[type=minecraft:xp_bottle] add Projectile
+tag @s[type=minecraft:experience_bottle] add Projectile
 tag @s[tag=Projectile,tag=StableProjectile] remove Projectile
 tag @s[tag=Projectile] add TickingRequired
 tag @s[tag=Projectile] add FlyingRequired
@@ -64,11 +64,11 @@ execute as @s[type=minecraft:player] run function calc_manager:set/id
 tag @s[type=minecraft:area_effect_cloud] add 
 tag @s[type=minecraft:boat] add 
 tag @s[type=minecraft:chest_minecart] add 
-tag @s[type=minecraft:commandblock_minecart] add 
-tag @s[type=minecraft:ender_crystal] add 
-tag @s[type=minecraft:evocation_fangs] add 
+tag @s[type=minecraft:command_block_minecart] add 
+tag @s[type=minecraft:end_crystal] add 
+tag @s[type=minecraft:evoker_fangs] add 
 tag @s[type=minecraft:falling_block] add 
-tag @s[type=minecraft:fireworks_rocket] add 
+tag @s[type=minecraft:firework_rocket] add 
 tag @s[type=minecraft:furnace_minecart] add 
 tag @s[type=minecraft:hopper_minecart] add 
 tag @s[type=minecraft:item] add 
@@ -80,11 +80,13 @@ tag @s[type=minecraft:painting] add
 tag @s[type=minecraft:spawner_minecart] add 
 tag @s[type=minecraft:tnt] add 
 tag @s[type=minecraft:tnt_minecart] add 
-tag @s[type=minecraft:xp_orb] add 
+tag @s[type=minecraft:experience_orb] add 
 
 tag @s[tag=FlyingRequired] add TickingTask
 tag @s[tag=CooldownRequired] add ObserveCooldown
 tag @s[tag=ObserveCooldown] add TickingTask
+tag @s[tag=Swim] add TickingTask
+tag @s[tag=TowardPlayer] add TickingTask
 
 ### Initialized付与
 tag @s add Initialized

@@ -13,4 +13,4 @@ execute at @s positioned ~ ~-0.0001 ~ align y unless block ~ ~1 ~ minecraft:air 
 tag @s[tag=DelayedTask] add DarkSwampLevitation
 execute as @s[tag=DelayedTask] at @s positioned ~ ~-0.0001 ~ align y unless block ~ ~2 ~ minecraft:air at @s run tp @s ~ ~1 ~
 ###ファング召喚
-summon minecraft:evocation_fangs ~ ~0.5 ~
+summon minecraft:evoker_fangs ~ ~0.5 ~
