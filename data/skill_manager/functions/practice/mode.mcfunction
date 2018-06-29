@@ -39,6 +39,9 @@ execute if score @s ActiveSkill matches 31011..31019 run function skill_manager:
 ### 白魔導士＜セイクリッドピラー＞
 execute if score @s ActiveSkill matches 41041..41049 run function skill_manager:white_mage/sacred_pillar/act
 
+### 黒魔導士＜アイスストーム＞
+execute if score @s ActiveSkill matches 51011..51019 run function skill_manager:black_mage/ice_storm/act
+
 ### 召喚士＜ぽむぽむ花火＞
 execute if score @s ActiveSkill matches 61081..61089 run function skill_manager:summoner/pompom/act
 
