@@ -18,6 +18,8 @@ execute if entity @s[tag=WildFlare] run function skill_manager:hunter/wild_flare
 execute if entity @s[tag=SacredPillarBase] run function skill_manager:white_mage/sacred_pillar/tick/common
 ###アイスストーム処理
 execute if entity @s[tag=IceStorm] run function skill_manager:black_mage/ice_storm/tick
+###クロスファイア処理
+execute if entity @s[tag=CrossFire] run function skill_manager:black_mage/cross_fire/tick
 ###つんつんペット処理
 execute if entity @s[tag=Sicced] run function skill_manager:sicced/pets
 ###コールC処理

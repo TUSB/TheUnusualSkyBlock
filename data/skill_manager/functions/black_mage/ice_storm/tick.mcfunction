@@ -3,10 +3,10 @@
 ##############################
 
 ###一閃ダメージ設定
-execute if score @s ProjectileSkill matches 51011 at @s run scoreboard players add @e[distance=..2.5,tag=Mob] Damage 500
-execute if score @s ProjectileSkill matches 51012 at @s run scoreboard players add @e[distance=..2.5,tag=Mob] Damage 1000
-execute if score @s ProjectileSkill matches 51013 at @s run scoreboard players add @e[distance=..2.5,tag=Mob] Damage 2000
-execute if score @s ProjectileSkill matches 51014 at @s run scoreboard players add @e[distance=..2.5,tag=Mob] Damage 4000
+execute if score @s ProjectileSkill matches 51011 at @s run scoreboard players add @e[distance=..3.5,tag=Mob] Damage 500
+execute if score @s ProjectileSkill matches 51012 at @s run scoreboard players add @e[distance=..3.5,tag=Mob] Damage 1000
+execute if score @s ProjectileSkill matches 51013 at @s run scoreboard players add @e[distance=..3.5,tag=Mob] Damage 2000
+execute if score @s ProjectileSkill matches 51014 at @s run scoreboard players add @e[distance=..3.5,tag=Mob] Damage 4000
 
 ###---演出---Start
 particle minecraft:block minecraft:white_wool ~ ~ ~ 0.2 0.2 0.2 0 10 force

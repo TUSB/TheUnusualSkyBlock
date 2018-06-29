@@ -1,9 +1,9 @@
 ##############################
-### アイスストーム発動
+### クロスファイア発動
 ##############################
 
 ###槍召喚
-execute positioned ^ ^ ^-2.5 run summon minecraft:trident ~ ~301.52 ~ {Invulnerable:true,Silent:true,DealtDamage:true,Tags:[IceStorm,Initializing]}
+execute positioned ^ ^ ^-2.5 run summon minecraft:trident ~ ~301.52 ~ {Invulnerable:true,Silent:true,DealtDamage:true,Tags:[CrossFire,Initializing]}
 execute as @e[tag=Initializing,limit=1] positioned ^ ^ ^-2.5 run tp @s ~ ~1.52 ~
 ###モーション取得
 execute as @e[tag=Initializing,limit=1] positioned ~ ~1.52 ~ run function calc_manager:get/direction1

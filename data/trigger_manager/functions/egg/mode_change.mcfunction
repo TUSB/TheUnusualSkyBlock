@@ -21,8 +21,8 @@ scoreboard players operation @s[tag=ModeBlue] ModeCost = @s ModeCostBlue
 tellraw @s[tag=ModeRed] {"text":"ルビーモードにチェンジ！","color":"red","bold":true}
 tellraw @s[tag=ModeBlue] {"text":"サファイアモードにチェンジ！","color":"blue","bold":true}
 stopsound @a neutral minecraft:entity.polar_bear.ambient
-execute positioned as @s[tag=ModeRed] run playsound minecraft:block.note.harp master @s ~ ~ ~ 0.4 1.42 0
-execute positioned as @s[tag=ModeBlue] run playsound block.note.harp master @a ~ ~ ~ 0.4 0.7 0
+execute positioned as @s[tag=ModeRed] run playsound minecraft:block.note_block.harp master @s ~ ~ ~ 0.4 1.42 0
+execute positioned as @s[tag=ModeBlue] run playsound minecraft:block.note_block.harp master @a ~ ~ ~ 0.4 0.7 0
 ###---演出---End
 
 ### スキル名表示セット
