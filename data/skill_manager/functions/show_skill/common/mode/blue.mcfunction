@@ -4,3 +4,5 @@
 
 ###モード１
 tellraw @s[scores={ShowSkillNo=81011}] ["",{"text":"・ウィークペイント","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
+###モード２
+tellraw @s[scores={ShowSkillNo=81021}] ["",{"text":"・ライブラ","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]

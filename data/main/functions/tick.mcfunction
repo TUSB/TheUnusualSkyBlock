@@ -33,6 +33,8 @@ execute as @a[scores={UseBow=1..}] at @s run function trigger_manager:bow
 execute as @a[scores={UseCarrotStick=1..}] at @s run function trigger_manager:carrot_on_a_stick
 execute as @a[scores={DamageDealt=0..}] at @s run function trigger_manager:damage_dealt
 execute as @a[scores={SprintOneCm=1..}] at @s run function trigger_manager:sprint
+execute as @a[scores={SneakTime=1..}] run function trigger_manager:sneak
+
 ###スキルエッグ
 execute as @a[scores={UseModeEgg=1..}] at @s run function trigger_manager:egg/mode_change
 execute as @a[scores={UseSupportRed=1..}] at @s run function trigger_manager:egg/support_red
@@ -69,9 +71,7 @@ execute as @a[scores={ModeSkill=11011..11019}] at @s run function skill_manager:
 ###一閃処理
 execute as @a[scores={Issen=1..}] at @s run function skill_manager:ninja/issen/tick
 ###介錯処理
-execute as @a[scores={Kaishaku=1..}] at @s as @e[distance=..10,tag=Mob,nbt={HurtTime:10s}] at @s run function skill_manager:ninja/kaishaku/say
-execute as @a[scores={Kaishaku=1}] run tellraw @a [{"text":"","color":"yellow"},{"selector":"@s"},"の",{"text":"介錯","color":"white","hoverEvent":{"action":"show_text","value":"敵を倒した際に、敵が爆発四散するようになる。","color":"white"}},"の効果が切れた。"]
-scoreboard players remove @a[scores={Kaishaku=1..}] Kaishaku 1
+execute as @a[scores={Kaishaku=1..}] at @s run function skill_manager:ninja/kaishaku/wear
 
 ### スポナーカート空気時削除
 execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air run tag @e[dx=0,tag=Spawner] add Garbage
@@ -81,9 +81,6 @@ execute as @a at @s if entity @s[y=-250,dy=50] run kill @s
 ###めり込み処理
 execute as @a[scores={TimeSinceDeath=1..},gamemode=!spectator,gamemode=!creative] at @s anchored eyes if block ^ ^ ^ minecraft:barrier run function entity_manager:suffocation
 execute as @a[scores={TimeSinceDeath=1..},gamemode=!spectator,gamemode=!creative] at @s anchored eyes if block ^ ^ ^ minecraft:bedrock run function entity_manager:suffocation
-
-###スニーク時処理
-execute as @a[scores={SneakTime=1..}] run function trigger_manager:sneak
 
 ###バースト現象
 execute if score #Aura MP > $10000 Const run scoreboard players remove #Aura MP 1

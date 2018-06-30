@@ -59,6 +59,9 @@ execute if score @s ActiveSkill matches 61111..61119 run function skill_manager:
 ### 共通＜ウィークペイント＞
 execute if score @s ActiveSkill matches 81011..81019 run function skill_manager:common/weakness_paint/act
 
+### 共通＜ライブラ＞
+execute if score @s ActiveSkill matches 81021..81022 run function skill_manager:common/libra/act
+
 scoreboard players reset @s ActiveSkill
 scoreboard players reset @s ActiveCost
 scoreboard players reset @s ActiveInterval

@@ -10,4 +10,5 @@ execute if score $TargetSkillJob Global matches 4 run scoreboard players operati
 execute if score $TargetSkillJob Global matches 5 run scoreboard players operation @s ChangeLevel < @s LevelBlackMage
 execute if score $TargetSkillJob Global matches 6 run scoreboard players operation @s ChangeLevel < @s LevelSummoner
 execute if score $TargetSkillJob Global matches 7 run scoreboard players operation @s ChangeLevel < @s LevelPupMaster
+execute if score $TargetSkillJob Global matches 8 run scoreboard players operation @s ChangeLevel < @s Level
 execute if score $TargetSkillJob Global = @s Job run scoreboard players operation @s ChangeLevel > @s Level

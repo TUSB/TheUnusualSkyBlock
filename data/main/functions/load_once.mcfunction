@@ -273,6 +273,10 @@ scoreboard players set $7206 Cost 15
 scoreboard players set $7207 Cost 10
 scoreboard players set $7208 Cost 50
 scoreboard players set $7209 Cost 10
+###共通
+scoreboard players set $8101 Cost 5
+scoreboard players set $8102 Cost 1
+scoreboard players set $8201 Cost 10
 ###スキル使用不能時間一覧
 ##剣士
 scoreboard players set $1101 Interval 30
@@ -385,6 +389,10 @@ scoreboard players set $7206 Interval 100
 scoreboard players set $7207 Interval 140
 scoreboard players set $7208 Interval 100
 scoreboard players set $7209 Interval 40
+###共通
+scoreboard players set $8101 Interval 0
+scoreboard players set $8102 Interval 0
+scoreboard players set $8201 Interval 10
 ###バースト初期化
 scoreboard players set #Aura MP 10000
 ###イベントタイマー初期化
@@ -409,6 +417,12 @@ team option Friendly collisionRule never
 team option Friendly prefix {"text":"✦","color":"red"}
 team option Friendly suffix {"text":"✦","color":"red"}
 team join Friendly バースト
+
+###ボスバー作成
+bossbar add enemy_health {"text":"HP","color":"green"}
+bossbar set minecraft:enemy_health players
+bossbar set minecraft:enemy_health style progress
+bossbar set minecraft:enemy_health visible false
 
 ###ゲームルール系
 setworldspawn 10 4 10
