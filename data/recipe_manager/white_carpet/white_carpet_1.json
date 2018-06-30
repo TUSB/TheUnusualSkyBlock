@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:poisonous_potato"
+    }
+  },
+  "result": {
+    "item": "minecraft:white_carpet",
+    "count": 1
+  }
+}

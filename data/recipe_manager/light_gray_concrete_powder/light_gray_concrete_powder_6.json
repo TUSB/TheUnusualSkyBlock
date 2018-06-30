@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_bark"
+    },
+    {
+      "item": "minecraft:detector_rail"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "minecraft:hay_block"
+    },
+    {
+      "item": "minecraft:jukebox"
+    },
+    {
+      "item": "minecraft:lime_shulker_box"
+    },
+    {
+      "item": "minecraft:prismarine_brick_stairs"
+    },
+    {
+      "item": "minecraft:red_mushroom_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:light_gray_concrete_powder",
+    "count": 1
+  }
+}

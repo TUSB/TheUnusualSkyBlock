@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:cyan_shulker_box"
+    },
+    "#": {
+      "item": "minecraft:minecart"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_hoe",
+    "count": 1
+  }
+}

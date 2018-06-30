@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cauldron"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:jungle_boat"
+    },
+    {
+      "item": "minecraft:pink_concrete_powder"
+    },
+    {
+      "item": "minecraft:piston"
+    },
+    {
+      "item": "minecraft:purpur_pillar"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:redstone_torch"
+    },
+    {
+      "item": "minecraft:snow_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:red_concrete_powder",
+    "count": 1
+  }
+}

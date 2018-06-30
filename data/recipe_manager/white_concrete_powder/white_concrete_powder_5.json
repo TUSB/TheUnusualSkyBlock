@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:beetroot_seeds"
+    },
+    {
+      "item": "minecraft:beetroot_soup"
+    },
+    {
+      "item": "minecraft:birch_fence_gate"
+    },
+    {
+      "item": "minecraft:golden_apple"
+    },
+    {
+      "item": "minecraft:green_banner"
+    },
+    {
+      "item": "minecraft:oak_pressure_plate"
+    },
+    {
+      "item": "minecraft:white_concrete_powder"
+    },
+    {
+      "item": "minecraft:wooden_shovel"
+    },
+    {
+      "item": "minecraft:yellow_terracotta"
+    }
+  ],
+  "result": {
+    "item": "minecraft:white_concrete_powder",
+    "count": 1
+  }
+}

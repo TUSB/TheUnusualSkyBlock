@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cobblestone"
+    },
+    "X": {
+      "item": "minecraft:granite"
+    }
+  },
+  "result": {
+    "item": "minecraft:red_terracotta",
+    "count": 1
+  }
+}

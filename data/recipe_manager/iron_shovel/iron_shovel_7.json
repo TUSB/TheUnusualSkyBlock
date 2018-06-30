@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:emerald_ore"
+    },
+    "#": {
+      "item": "minecraft:orange_glazed_terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_shovel",
+    "count": 1
+  }
+}

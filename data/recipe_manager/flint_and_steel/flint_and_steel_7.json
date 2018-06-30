@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:quartz_pillar"
+    },
+    {
+      "item": "minecraft:red_carpet"
+    }
+  ],
+  "result": {
+    "item": "minecraft:flint_and_steel",
+    "count": 1
+  }
+}

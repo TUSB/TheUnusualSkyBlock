@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:golden_leggings"
+    },
+    {
+      "item": "minecraft:jungle_button"
+    }
+  ],
+  "result": {
+    "item": "minecraft:mossy_stone_bricks",
+    "count": 1
+  }
+}

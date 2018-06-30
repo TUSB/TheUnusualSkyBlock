@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:enchanting_table"
+    },
+    "X": {
+      "item": "minecraft:light_blue_bed"
+    }
+  },
+  "result": {
+    "item": "minecraft:yellow_terracotta",
+    "count": 1
+  }
+}

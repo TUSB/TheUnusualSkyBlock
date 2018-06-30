@@ -1,0 +1,21 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:chainmail_leggings"
+    },
+    {
+      "item": "minecraft:green_carpet"
+    },
+    {
+      "item": "minecraft:magenta_bed"
+    },
+    {
+      "item": "minecraft:spruce_fence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:book",
+    "count": 1
+  }
+}

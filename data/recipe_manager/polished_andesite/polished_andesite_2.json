@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:dark_oak_bark"
+    }
+  },
+  "result": {
+    "item": "minecraft:polished_andesite",
+    "count": 1
+  }
+}

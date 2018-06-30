@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:chainmail_helmet"
+    },
+    "X": {
+      "item": "minecraft:prismarine_brick_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:item_frame",
+    "count": 1
+  }
+}

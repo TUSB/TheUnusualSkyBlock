@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:pink_terracotta"
+    },
+    "X": {
+      "item": "minecraft:yellow_banner"
+    }
+  },
+  "result": {
+    "item": "minecraft:lime_bed",
+    "count": 1
+  }
+}

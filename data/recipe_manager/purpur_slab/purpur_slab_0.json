@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:blue_concrete_powder"
+    }
+  },
+  "result": {
+    "item": "minecraft:purpur_slab",
+    "count": 1
+  }
+}

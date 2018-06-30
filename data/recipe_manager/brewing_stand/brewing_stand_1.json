@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " B ",
+    "###"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:end_stone_bricks"
+    },
+    "#": {
+      "item": "minecraft:purpur_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:brewing_stand",
+    "count": 1
+  }
+}

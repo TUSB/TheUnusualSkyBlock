@@ -1,0 +1,26 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BEB",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "B": {
+      "item": "minecraft:cooked_beef"
+    },
+    "E": {
+      "item": "minecraft:cyan_dye"
+    },
+    "C": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "item": "minecraft:cake",
+    "count": 1
+  }
+}

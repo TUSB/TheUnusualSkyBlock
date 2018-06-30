@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:orange_stained_glass_pane"
+    },
+    "X": {
+      "item": "minecraft:red_mushroom_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:spectral_arrow",
+    "count": 1
+  }
+}

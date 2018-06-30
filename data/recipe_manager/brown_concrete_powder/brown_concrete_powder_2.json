@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cauldron"
+    },
+    {
+      "item": "minecraft:dark_prismarine"
+    },
+    {
+      "item": "minecraft:gray_bed"
+    },
+    {
+      "item": "minecraft:magenta_stained_glass_pane"
+    },
+    {
+      "item": "minecraft:oak_trapdoor"
+    },
+    {
+      "item": "minecraft:orange_concrete_powder"
+    },
+    {
+      "item": "minecraft:pink_stained_glass"
+    },
+    {
+      "item": "minecraft:purple_bed"
+    },
+    {
+      "item": "minecraft:smooth_red_sandstone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:brown_concrete_powder",
+    "count": 1
+  }
+}

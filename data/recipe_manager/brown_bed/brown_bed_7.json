@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cyan_wool"
+    },
+    "X": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "item": "minecraft:brown_bed",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "A",
+    "B"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:arrow"
+    },
+    "B": {
+      "item": "minecraft:glowstone_dust"
+    }
+  },
+  "result": {
+    "item": "minecraft:hopper_minecart",
+    "count": 1
+  }
+}

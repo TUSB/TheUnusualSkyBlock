@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:purple_concrete_powder"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cooked_beef",
+    "count": 1
+  }
+}

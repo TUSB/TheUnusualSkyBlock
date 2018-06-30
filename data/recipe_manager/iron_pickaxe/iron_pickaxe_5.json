@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:prismarine_slab"
+    },
+    "#": {
+      "item": "minecraft:red_glazed_terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_pickaxe",
+    "count": 1
+  }
+}

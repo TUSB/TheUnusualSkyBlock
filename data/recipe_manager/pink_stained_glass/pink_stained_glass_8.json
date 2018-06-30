@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dark_prismarine_slab"
+    },
+    "X": {
+      "item": "minecraft:light_gray_dye"
+    }
+  },
+  "result": {
+    "item": "minecraft:pink_stained_glass",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:black_concrete"
+    },
+    "|": {
+      "item": "minecraft:wooden_sword"
+    }
+  },
+  "result": {
+    "item": "minecraft:brown_banner",
+    "count": 1
+  }
+}

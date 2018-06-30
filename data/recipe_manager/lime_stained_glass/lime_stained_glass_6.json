@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_bark"
+    },
+    "X": {
+      "item": "minecraft:birch_sapling"
+    }
+  },
+  "result": {
+    "item": "minecraft:lime_stained_glass",
+    "count": 1
+  }
+}

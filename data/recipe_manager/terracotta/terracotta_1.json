@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:ender_chest"
+    }
+  ],
+  "result": {
+    "item": "minecraft:terracotta",
+    "count": 1
+  }
+}

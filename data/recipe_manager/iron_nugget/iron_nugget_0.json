@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dead_brain_coral_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:iron_nugget",
+    "count": 1
+  }
+}

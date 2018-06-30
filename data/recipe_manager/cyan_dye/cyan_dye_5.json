@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:totem_of_undying"
+    },
+    {
+      "item": "minecraft:wet_sponge"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cyan_dye",
+    "count": 1
+  }
+}

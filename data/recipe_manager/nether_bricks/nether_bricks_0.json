@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "NN",
+    "NN"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:sticky_piston"
+    }
+  },
+  "result": {
+    "item": "minecraft:nether_bricks",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "X": {
+      "item": "minecraft:rabbit_stew"
+    }
+  },
+  "result": {
+    "item": "minecraft:cookie",
+    "count": 1
+  }
+}

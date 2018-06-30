@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:granite"
+    },
+    "X": {
+      "item": "minecraft:grass"
+    }
+  },
+  "result": {
+    "item": "minecraft:spectral_arrow",
+    "count": 1
+  }
+}

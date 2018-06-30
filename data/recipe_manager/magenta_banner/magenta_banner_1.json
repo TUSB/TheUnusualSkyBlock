@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:green_carpet"
+    },
+    "|": {
+      "item": "minecraft:light_blue_concrete"
+    }
+  },
+  "result": {
+    "item": "minecraft:magenta_banner",
+    "count": 1
+  }
+}

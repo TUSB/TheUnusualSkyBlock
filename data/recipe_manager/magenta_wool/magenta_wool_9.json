@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:allium"
+    },
+    {
+      "item": "minecraft:dark_oak_slab"
+    }
+  ],
+  "result": {
+    "item": "minecraft:magenta_wool",
+    "count": 1
+  }
+}

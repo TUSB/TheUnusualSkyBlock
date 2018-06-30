@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:feather"
+    },
+    "X": {
+      "item": "minecraft:purple_concrete_powder"
+    }
+  },
+  "result": {
+    "item": "minecraft:bookshelf",
+    "count": 1
+  }
+}

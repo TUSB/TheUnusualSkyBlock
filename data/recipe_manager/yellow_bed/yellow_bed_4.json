@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "X": {
+      "item": "minecraft:infested_chiseled_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "minecraft:yellow_bed",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:creeper_head"
+    },
+    "X": {
+      "item": "minecraft:purple_bed"
+    }
+  },
+  "result": {
+    "item": "minecraft:purple_stained_glass",
+    "count": 1
+  }
+}

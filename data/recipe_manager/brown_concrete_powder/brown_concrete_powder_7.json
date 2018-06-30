@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:black_carpet"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:dark_prismarine_slab"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:green_terracotta"
+    },
+    {
+      "item": "minecraft:ice"
+    },
+    {
+      "item": "minecraft:jungle_button"
+    },
+    {
+      "item": "minecraft:red_mushroom_block"
+    },
+    {
+      "item": "minecraft:wet_sponge"
+    }
+  ],
+  "result": {
+    "item": "minecraft:brown_concrete_powder",
+    "count": 1
+  }
+}

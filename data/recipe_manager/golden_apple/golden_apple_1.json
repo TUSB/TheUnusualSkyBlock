@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:fire_coral_block"
+    },
+    "X": {
+      "item": "minecraft:green_concrete_powder"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_apple",
+    "count": 1
+  }
+}

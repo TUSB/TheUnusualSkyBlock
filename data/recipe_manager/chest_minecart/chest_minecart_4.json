@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "A",
+    "B"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:brown_shulker_box"
+    },
+    "B": {
+      "item": "minecraft:light_gray_stained_glass_pane"
+    }
+  },
+  "result": {
+    "item": "minecraft:chest_minecart",
+    "count": 1
+  }
+}

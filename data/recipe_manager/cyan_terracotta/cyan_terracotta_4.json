@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cut_red_sandstone"
+    },
+    "X": {
+      "item": "minecraft:pink_concrete_powder"
+    }
+  },
+  "result": {
+    "item": "minecraft:cyan_terracotta",
+    "count": 1
+  }
+}

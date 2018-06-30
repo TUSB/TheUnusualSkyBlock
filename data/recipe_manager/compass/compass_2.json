@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond_sword"
+    },
+    "X": {
+      "item": "minecraft:seagrass"
+    }
+  },
+  "result": {
+    "item": "minecraft:compass",
+    "count": 1
+  }
+}

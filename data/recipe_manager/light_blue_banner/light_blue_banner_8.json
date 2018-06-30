@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:birch_trapdoor"
+    },
+    "|": {
+      "item": "minecraft:gray_banner"
+    }
+  },
+  "result": {
+    "item": "minecraft:light_blue_banner",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:flower_pot"
+    },
+    {
+      "item": "minecraft:iron_bars"
+    }
+  ],
+  "result": {
+    "item": "minecraft:purple_dye",
+    "count": 1
+  }
+}

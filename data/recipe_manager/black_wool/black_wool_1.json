@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:green_terracotta"
+    },
+    {
+      "item": "minecraft:stone_axe"
+    }
+  ],
+  "result": {
+    "item": "minecraft:black_wool",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lapis_ore"
+    },
+    "X": {
+      "item": "minecraft:mushroom_stem"
+    }
+  },
+  "result": {
+    "item": "minecraft:note_block",
+    "count": 1
+  }
+}

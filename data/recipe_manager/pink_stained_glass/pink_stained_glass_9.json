@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:jukebox"
+    },
+    "X": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "item": "minecraft:pink_stained_glass",
+    "count": 1
+  }
+}

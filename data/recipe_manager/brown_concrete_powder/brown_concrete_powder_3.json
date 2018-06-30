@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_fence_gate"
+    },
+    {
+      "item": "minecraft:brown_stained_glass"
+    },
+    {
+      "item": "minecraft:chorus_plant"
+    },
+    {
+      "item": "minecraft:granite"
+    },
+    {
+      "item": "minecraft:infested_stone_bricks"
+    },
+    {
+      "item": "minecraft:light_gray_stained_glass"
+    },
+    {
+      "item": "minecraft:pumpkin_seeds"
+    },
+    {
+      "item": "minecraft:spectral_arrow"
+    },
+    {
+      "item": "minecraft:stripped_oak_log"
+    }
+  ],
+  "result": {
+    "item": "minecraft:brown_concrete_powder",
+    "count": 1
+  }
+}

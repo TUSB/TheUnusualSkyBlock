@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_concrete"
+    },
+    {
+      "item": "minecraft:bubble_coral_fan"
+    },
+    {
+      "item": "minecraft:carrot_on_a_stick"
+    },
+    {
+      "item": "minecraft:iron_nugget"
+    },
+    {
+      "item": "minecraft:pink_stained_glass"
+    },
+    {
+      "item": "minecraft:quartz_pillar"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "minecraft:stripped_birch_log"
+    },
+    {
+      "item": "minecraft:wooden_pickaxe"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gray_concrete_powder",
+    "count": 1
+  }
+}

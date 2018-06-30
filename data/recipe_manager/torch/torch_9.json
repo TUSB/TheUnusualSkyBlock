@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:activator_rail"
+    },
+    "#": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result": {
+    "item": "minecraft:torch",
+    "count": 1
+  }
+}

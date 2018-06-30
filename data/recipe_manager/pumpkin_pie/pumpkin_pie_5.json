@@ -1,0 +1,18 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:beetroot_seeds"
+    },
+    {
+      "item": "minecraft:chainmail_helmet"
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pumpkin_pie",
+    "count": 1
+  }
+}

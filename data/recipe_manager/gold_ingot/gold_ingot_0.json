@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_rod"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gold_ingot",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:birch_button"
+    },
+    {
+      "item": "minecraft:iron_horse_armor"
+    }
+  ],
+  "result": {
+    "item": "minecraft:trapped_chest",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:green_glazed_terracotta"
+    },
+    "#": {
+      "item": "minecraft:nether_brick"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_hoe",
+    "count": 1
+  }
+}

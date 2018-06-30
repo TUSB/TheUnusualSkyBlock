@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:apple"
+    },
+    "|": {
+      "item": "minecraft:coal_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:green_banner",
+    "count": 1
+  }
+}

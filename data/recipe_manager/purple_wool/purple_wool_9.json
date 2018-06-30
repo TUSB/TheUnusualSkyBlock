@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:beetroot_soup"
+    },
+    {
+      "item": "minecraft:green_carpet"
+    }
+  ],
+  "result": {
+    "item": "minecraft:purple_wool",
+    "count": 1
+  }
+}

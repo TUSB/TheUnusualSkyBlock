@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:beetroot_soup"
+    },
+    "#": {
+      "item": "minecraft:light_blue_stained_glass"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_sword",
+    "count": 1
+  }
+}

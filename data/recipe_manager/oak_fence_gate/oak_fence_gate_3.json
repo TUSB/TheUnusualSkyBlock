@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:chainmail_leggings"
+    },
+    "W": {
+      "item": "minecraft:poisonous_potato"
+    }
+  },
+  "result": {
+    "item": "minecraft:oak_fence_gate",
+    "count": 1
+  }
+}

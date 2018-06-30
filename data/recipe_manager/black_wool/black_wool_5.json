@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:green_carpet"
+    },
+    {
+      "item": "minecraft:jungle_pressure_plate"
+    }
+  ],
+  "result": {
+    "item": "minecraft:black_wool",
+    "count": 1
+  }
+}

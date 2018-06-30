@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:spruce_fence"
+    }
+  },
+  "result": {
+    "item": "minecraft:acacia_boat",
+    "count": 1
+  }
+}

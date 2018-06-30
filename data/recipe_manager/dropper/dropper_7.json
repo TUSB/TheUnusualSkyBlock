@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "#R#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bubble_coral_fan"
+    },
+    "R": {
+      "item": "minecraft:jungle_pressure_plate"
+    }
+  },
+  "result": {
+    "item": "minecraft:dropper",
+    "count": 1
+  }
+}

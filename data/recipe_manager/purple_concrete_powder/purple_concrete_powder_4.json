@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:allium"
+    },
+    {
+      "item": "minecraft:anvil"
+    },
+    {
+      "item": "minecraft:brown_terracotta"
+    },
+    {
+      "item": "minecraft:chest_minecart"
+    },
+    {
+      "item": "minecraft:light_blue_carpet"
+    },
+    {
+      "item": "minecraft:light_gray_wool"
+    },
+    {
+      "item": "minecraft:pumpkin"
+    },
+    {
+      "item": "minecraft:snowball"
+    },
+    {
+      "item": "minecraft:spruce_sapling"
+    }
+  ],
+  "result": {
+    "item": "minecraft:purple_concrete_powder",
+    "count": 1
+  }
+}

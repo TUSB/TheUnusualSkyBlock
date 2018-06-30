@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GSG",
+    "OOO"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:birch_boat"
+    },
+    "S": {
+      "item": "minecraft:flint"
+    },
+    "O": {
+      "item": "minecraft:golden_axe"
+    }
+  },
+  "result": {
+    "item": "minecraft:beacon",
+    "count": 1
+  }
+}

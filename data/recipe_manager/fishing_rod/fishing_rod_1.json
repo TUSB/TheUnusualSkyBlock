@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "  #",
+    " #X",
+    "# X"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:petrified_oak_slab"
+    },
+    "X": {
+      "item": "minecraft:shulker_shell"
+    }
+  },
+  "result": {
+    "item": "minecraft:fishing_rod",
+    "count": 1
+  }
+}

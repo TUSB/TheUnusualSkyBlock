@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GEG",
+    "GTG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:acacia_slab"
+    },
+    "E": {
+      "item": "minecraft:brown_glazed_terracotta"
+    },
+    "T": {
+      "item": "minecraft:emerald_ore"
+    }
+  },
+  "result": {
+    "item": "minecraft:end_crystal",
+    "count": 1
+  }
+}

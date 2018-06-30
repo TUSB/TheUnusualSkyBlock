@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:golden_axe"
+    },
+    "X": {
+      "item": "minecraft:jungle_pressure_plate"
+    }
+  },
+  "result": {
+    "item": "minecraft:map",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:hopper_minecart"
+    }
+  },
+  "result": {
+    "item": "minecraft:nether_brick_stairs",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:light_gray_bed"
+    },
+    "|": {
+      "item": "minecraft:lime_concrete"
+    }
+  },
+  "result": {
+    "item": "minecraft:pink_banner",
+    "count": 1
+  }
+}

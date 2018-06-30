@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone_brick_slab"
+    },
+    "X": {
+      "item": "minecraft:stripped_oak_bark"
+    }
+  },
+  "result": {
+    "item": "minecraft:glistering_melon_slice",
+    "count": 1
+  }
+}

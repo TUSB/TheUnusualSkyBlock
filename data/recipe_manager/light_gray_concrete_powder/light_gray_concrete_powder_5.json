@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:chest"
+    },
+    {
+      "item": "minecraft:conduit"
+    },
+    {
+      "item": "minecraft:crafting_table"
+    },
+    {
+      "item": "minecraft:dried_kelp"
+    },
+    {
+      "item": "minecraft:golden_carrot"
+    },
+    {
+      "item": "minecraft:lava_bucket"
+    },
+    {
+      "item": "minecraft:milk_bucket"
+    },
+    {
+      "item": "minecraft:purple_dye"
+    },
+    {
+      "item": "minecraft:purple_stained_glass"
+    }
+  ],
+  "result": {
+    "item": "minecraft:light_gray_concrete_powder",
+    "count": 1
+  }
+}

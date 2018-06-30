@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "QQQ",
+    "WWW"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:chorus_plant"
+    },
+    "Q": {
+      "item": "minecraft:fire_charge"
+    },
+    "W": {
+      "item": "minecraft:leather_leggings"
+    }
+  },
+  "result": {
+    "item": "minecraft:daylight_detector",
+    "count": 1
+  }
+}

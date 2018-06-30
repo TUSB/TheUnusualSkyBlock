@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "A",
+    "B"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:dead_brain_coral_block"
+    },
+    "B": {
+      "item": "minecraft:magenta_banner"
+    }
+  },
+  "result": {
+    "item": "minecraft:furnace_minecart",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:green_glazed_terracotta"
+    },
+    "#": {
+      "item": "minecraft:rabbit_foot"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_pickaxe",
+    "count": 1
+  }
+}

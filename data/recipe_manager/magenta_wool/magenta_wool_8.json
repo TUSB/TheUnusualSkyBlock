@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:lava_bucket"
+    },
+    {
+      "item": "minecraft:orange_glazed_terracotta"
+    }
+  ],
+  "result": {
+    "item": "minecraft:magenta_wool",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:gray_stained_glass_pane"
+    },
+    {
+      "item": "minecraft:netherrack"
+    }
+  ],
+  "result": {
+    "item": "minecraft:andesite",
+    "count": 1
+  }
+}

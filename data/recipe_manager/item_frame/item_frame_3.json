@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bubble_coral"
+    },
+    "X": {
+      "item": "minecraft:green_shulker_box"
+    }
+  },
+  "result": {
+    "item": "minecraft:item_frame",
+    "count": 1
+  }
+}

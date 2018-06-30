@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:nautilus_shell"
+    },
+    "|": {
+      "item": "minecraft:spruce_log"
+    }
+  },
+  "result": {
+    "item": "minecraft:gray_banner",
+    "count": 1
+  }
+}

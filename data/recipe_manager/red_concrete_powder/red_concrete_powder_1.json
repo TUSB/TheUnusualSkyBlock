@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dispenser"
+    },
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:iron_boots"
+    },
+    {
+      "item": "minecraft:jack_o_lantern"
+    },
+    {
+      "item": "minecraft:melon_seeds"
+    },
+    {
+      "item": "minecraft:orange_concrete_powder"
+    },
+    {
+      "item": "minecraft:rose_bush"
+    },
+    {
+      "item": "minecraft:rose_red"
+    },
+    {
+      "item": "minecraft:stripped_oak_bark"
+    }
+  ],
+  "result": {
+    "item": "minecraft:red_concrete_powder",
+    "count": 1
+  }
+}

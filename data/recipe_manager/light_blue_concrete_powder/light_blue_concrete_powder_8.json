@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cod"
+    },
+    {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    {
+      "item": "minecraft:ladder"
+    },
+    {
+      "item": "minecraft:nether_brick_stairs"
+    },
+    {
+      "item": "minecraft:nether_bricks"
+    },
+    {
+      "item": "minecraft:petrified_oak_slab"
+    },
+    {
+      "item": "minecraft:red_mushroom_block"
+    },
+    {
+      "item": "minecraft:redstone_torch"
+    },
+    {
+      "item": "minecraft:white_terracotta"
+    }
+  ],
+  "result": {
+    "item": "minecraft:light_blue_concrete_powder",
+    "count": 1
+  }
+}

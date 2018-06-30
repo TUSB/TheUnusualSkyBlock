@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:pink_stained_glass"
+    }
+  },
+  "result": {
+    "item": "minecraft:acacia_door",
+    "count": 1
+  }
+}

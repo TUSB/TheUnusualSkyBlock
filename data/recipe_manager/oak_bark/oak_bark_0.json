@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:end_stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:oak_bark",
+    "count": 1
+  }
+}

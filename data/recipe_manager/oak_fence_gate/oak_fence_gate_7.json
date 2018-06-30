@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:jungle_stairs"
+    },
+    "W": {
+      "item": "minecraft:spruce_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:oak_fence_gate",
+    "count": 1
+  }
+}

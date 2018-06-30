@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:chainmail_leggings"
+    },
+    {
+      "item": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    {
+      "item": "minecraft:golden_axe"
+    },
+    {
+      "item": "minecraft:iron_boots"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "minecraft:oak_pressure_plate"
+    },
+    {
+      "item": "minecraft:powered_rail"
+    },
+    {
+      "item": "minecraft:red_terracotta"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cyan_concrete_powder",
+    "count": 1
+  }
+}

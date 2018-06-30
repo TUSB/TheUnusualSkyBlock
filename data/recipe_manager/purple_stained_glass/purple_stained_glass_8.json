@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:chorus_flower"
+    },
+    "X": {
+      "item": "minecraft:nether_brick"
+    }
+  },
+  "result": {
+    "item": "minecraft:purple_stained_glass",
+    "count": 1
+  }
+}

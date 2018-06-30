@@ -1,0 +1,22 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#X#",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:egg"
+    },
+    "X": {
+      "item": "minecraft:lime_glazed_terracotta"
+    },
+    "I": {
+      "item": "minecraft:wooden_pickaxe"
+    }
+  },
+  "result": {
+    "item": "minecraft:repeater",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:green_carpet"
+    }
+  ],
+  "result": {
+    "item": "minecraft:quartz",
+    "count": 1
+  }
+}

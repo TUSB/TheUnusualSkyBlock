@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "W": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "minecraft:jungle_fence_gate",
+    "count": 1
+  }
+}

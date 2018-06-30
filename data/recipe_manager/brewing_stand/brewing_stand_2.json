@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " B ",
+    "###"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:chorus_plant"
+    },
+    "#": {
+      "item": "minecraft:red_bed"
+    }
+  },
+  "result": {
+    "item": "minecraft:brewing_stand",
+    "count": 1
+  }
+}

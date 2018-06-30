@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:purpur_pillar"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_helmet",
+    "count": 1
+  }
+}

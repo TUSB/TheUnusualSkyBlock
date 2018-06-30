@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_wool"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cracked_stone_bricks",
+    "count": 1
+  }
+}

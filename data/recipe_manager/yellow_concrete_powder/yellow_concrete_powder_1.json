@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:black_carpet"
+    },
+    {
+      "item": "minecraft:cut_sandstone"
+    },
+    {
+      "item": "minecraft:diamond_block"
+    },
+    {
+      "item": "minecraft:gray_wool"
+    },
+    {
+      "item": "minecraft:iron_chestplate"
+    },
+    {
+      "item": "minecraft:oak_slab"
+    },
+    {
+      "item": "minecraft:purple_shulker_box"
+    },
+    {
+      "item": "minecraft:stone_axe"
+    },
+    {
+      "item": "minecraft:white_concrete_powder"
+    }
+  ],
+  "result": {
+    "item": "minecraft:yellow_concrete_powder",
+    "count": 1
+  }
+}

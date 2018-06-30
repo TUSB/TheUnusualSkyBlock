@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "III",
+    " i ",
+    "iii"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:brain_coral"
+    },
+    "i": {
+      "item": "minecraft:jungle_log"
+    }
+  },
+  "result": {
+    "item": "minecraft:anvil",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "# ",
+    " X"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:infested_cracked_stone_bricks"
+    },
+    "X": {
+      "item": "minecraft:lime_dye"
+    }
+  },
+  "result": {
+    "item": "minecraft:carrot_on_a_stick",
+    "count": 1
+  }
+}

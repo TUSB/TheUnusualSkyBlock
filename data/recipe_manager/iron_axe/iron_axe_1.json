@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:light_gray_banner"
+    },
+    "#": {
+      "item": "minecraft:yellow_banner"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_axe",
+    "count": 1
+  }
+}

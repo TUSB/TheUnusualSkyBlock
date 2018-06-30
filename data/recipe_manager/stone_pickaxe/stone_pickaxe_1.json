@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:dark_oak_door"
+    },
+    "#": {
+      "item": "minecraft:polished_granite"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_pickaxe",
+    "count": 1
+  }
+}

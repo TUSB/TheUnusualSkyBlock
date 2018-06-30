@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_wool"
+    },
+    {
+      "item": "minecraft:damaged_anvil"
+    },
+    {
+      "item": "minecraft:iron_ore"
+    },
+    {
+      "item": "minecraft:item_frame"
+    },
+    {
+      "item": "minecraft:light_blue_wool"
+    },
+    {
+      "item": "minecraft:magenta_banner"
+    },
+    {
+      "item": "minecraft:orange_concrete"
+    },
+    {
+      "item": "minecraft:orange_tulip"
+    },
+    {
+      "item": "minecraft:stripped_birch_bark"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cyan_concrete_powder",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "RRQ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_trapdoor"
+    },
+    "R": {
+      "item": "minecraft:lava_bucket"
+    },
+    "Q": {
+      "item": "minecraft:stripped_spruce_bark"
+    }
+  },
+  "result": {
+    "item": "minecraft:observer",
+    "count": 1
+  }
+}

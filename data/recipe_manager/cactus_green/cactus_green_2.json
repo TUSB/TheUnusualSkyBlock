@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:golden_pickaxe"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cactus_green",
+    "count": 1
+  }
+}

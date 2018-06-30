@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:chipped_anvil"
+    },
+    "#": {
+      "item": "minecraft:smooth_red_sandstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_shovel",
+    "count": 1
+  }
+}

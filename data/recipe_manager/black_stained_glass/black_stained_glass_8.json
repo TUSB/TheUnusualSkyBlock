@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone_pressure_plate"
+    },
+    "X": {
+      "item": "minecraft:wooden_hoe"
+    }
+  },
+  "result": {
+    "item": "minecraft:black_stained_glass",
+    "count": 1
+  }
+}

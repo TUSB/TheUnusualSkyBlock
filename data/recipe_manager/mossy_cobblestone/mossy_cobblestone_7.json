@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:infested_chiseled_stone_bricks"
+    },
+    {
+      "item": "minecraft:stripped_jungle_log"
+    }
+  ],
+  "result": {
+    "item": "minecraft:mossy_cobblestone",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:light_blue_glazed_terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:furnace",
+    "count": 1
+  }
+}

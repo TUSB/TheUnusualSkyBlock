@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GEG",
+    "GTG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:brick"
+    },
+    "E": {
+      "item": "minecraft:lime_carpet"
+    },
+    "T": {
+      "item": "minecraft:oak_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:end_crystal",
+    "count": 1
+  }
+}

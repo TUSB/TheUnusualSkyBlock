@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dead_brain_coral_block"
+    },
+    "X": {
+      "item": "minecraft:red_concrete"
+    },
+    "I": {
+      "item": "minecraft:wet_sponge"
+    }
+  },
+  "result": {
+    "item": "minecraft:comparator",
+    "count": 1
+  }
+}

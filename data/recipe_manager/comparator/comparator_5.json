@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:arrow"
+    },
+    "X": {
+      "item": "minecraft:green_banner"
+    },
+    "I": {
+      "item": "minecraft:melon"
+    }
+  },
+  "result": {
+    "item": "minecraft:comparator",
+    "count": 1
+  }
+}

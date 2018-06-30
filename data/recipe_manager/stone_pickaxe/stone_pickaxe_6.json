@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:acacia_bark"
+    },
+    "#": {
+      "item": "minecraft:totem_of_undying"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_pickaxe",
+    "count": 1
+  }
+}

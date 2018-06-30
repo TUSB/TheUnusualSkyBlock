@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:end_rod"
+    },
+    "|": {
+      "item": "minecraft:golden_helmet"
+    }
+  },
+  "result": {
+    "item": "minecraft:purple_banner",
+    "count": 1
+  }
+}

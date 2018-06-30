@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "III",
+    " i ",
+    "iii"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_helmet"
+    },
+    "i": {
+      "item": "minecraft:magenta_wool"
+    }
+  },
+  "result": {
+    "item": "minecraft:anvil",
+    "count": 1
+  }
+}

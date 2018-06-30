@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:melon_seeds"
+    }
+  },
+  "result": {
+    "item": "minecraft:prismarine_stairs",
+    "count": 1
+  }
+}

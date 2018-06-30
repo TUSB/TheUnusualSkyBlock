@@ -1,0 +1,26 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BEB",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:brown_banner"
+    },
+    "B": {
+      "item": "minecraft:comparator"
+    },
+    "E": {
+      "item": "minecraft:dropper"
+    },
+    "C": {
+      "item": "minecraft:quartz_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:cake",
+    "count": 1
+  }
+}

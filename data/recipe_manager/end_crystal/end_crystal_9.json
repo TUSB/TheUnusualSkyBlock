@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GEG",
+    "GTG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:crafting_table"
+    },
+    "E": {
+      "item": "minecraft:green_stained_glass_pane"
+    },
+    "T": {
+      "item": "minecraft:stone_axe"
+    }
+  },
+  "result": {
+    "item": "minecraft:end_crystal",
+    "count": 1
+  }
+}

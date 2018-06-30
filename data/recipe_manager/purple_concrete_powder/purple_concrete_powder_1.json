@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:crafting_table"
+    },
+    {
+      "item": "minecraft:dead_bubble_coral_block"
+    },
+    {
+      "item": "minecraft:diamond_axe"
+    },
+    {
+      "item": "minecraft:diamond_shovel"
+    },
+    {
+      "item": "minecraft:green_glazed_terracotta"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:yellow_bed"
+    },
+    {
+      "item": "minecraft:yellow_shulker_box"
+    }
+  ],
+  "result": {
+    "item": "minecraft:purple_concrete_powder",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:fire_charge"
+    }
+  },
+  "result": {
+    "item": "minecraft:dark_prismarine_stairs",
+    "count": 1
+  }
+}

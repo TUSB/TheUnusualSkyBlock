@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:purple_concrete"
+    },
+    {
+      "item": "minecraft:red_tulip"
+    }
+  ],
+  "result": {
+    "item": "minecraft:purple_wool",
+    "count": 1
+  }
+}

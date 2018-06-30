@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dead_bubble_coral_block"
+    },
+    "X": {
+      "item": "minecraft:purple_stained_glass_pane"
+    }
+  },
+  "result": {
+    "item": "minecraft:magenta_bed",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lime_dye"
+    },
+    "X": {
+      "item": "minecraft:oak_fence"
+    }
+  },
+  "result": {
+    "item": "minecraft:yellow_bed",
+    "count": 1
+  }
+}

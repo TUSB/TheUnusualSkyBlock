@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dark_oak_trapdoor"
+    },
+    {
+      "item": "minecraft:magenta_carpet"
+    }
+  ],
+  "result": {
+    "item": "minecraft:trapped_chest",
+    "count": 1
+  }
+}

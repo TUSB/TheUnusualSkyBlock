@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "DG",
+    "GD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:iron_nugget"
+    },
+    "G": {
+      "item": "minecraft:sponge"
+    }
+  },
+  "result": {
+    "item": "minecraft:coarse_dirt",
+    "count": 1
+  }
+}

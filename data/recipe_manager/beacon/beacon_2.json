@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GSG",
+    "OOO"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:birch_button"
+    },
+    "S": {
+      "item": "minecraft:blue_wool"
+    },
+    "O": {
+      "item": "minecraft:lead"
+    }
+  },
+  "result": {
+    "item": "minecraft:beacon",
+    "count": 1
+  }
+}

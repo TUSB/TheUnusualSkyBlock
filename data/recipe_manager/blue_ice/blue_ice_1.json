@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bubble_coral_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:blue_ice",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:end_rod"
+    }
+  },
+  "result": {
+    "item": "minecraft:jungle_slab",
+    "count": 1
+  }
+}

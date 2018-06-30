@@ -1,0 +1,22 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#X#",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:ice"
+    },
+    "X": {
+      "item": "minecraft:light_blue_terracotta"
+    },
+    "I": {
+      "item": "minecraft:stone_bricks"
+    }
+  },
+  "result": {
+    "item": "minecraft:repeater",
+    "count": 1
+  }
+}

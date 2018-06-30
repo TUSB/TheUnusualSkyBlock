@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glass_pane"
+    },
+    "X": {
+      "item": "minecraft:salmon"
+    }
+  },
+  "result": {
+    "item": "minecraft:light_gray_bed",
+    "count": 1
+  }
+}

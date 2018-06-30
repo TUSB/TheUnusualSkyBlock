@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "|": {
+      "item": "minecraft:wooden_sword"
+    }
+  },
+  "result": {
+    "item": "minecraft:black_banner",
+    "count": 1
+  }
+}

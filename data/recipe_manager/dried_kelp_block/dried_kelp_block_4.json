@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:jungle_fence_gate"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    },
+    {
+      "item": "minecraft:pink_terracotta"
+    },
+    {
+      "item": "minecraft:pumpkin"
+    },
+    {
+      "item": "minecraft:purple_dye"
+    },
+    {
+      "item": "minecraft:red_carpet"
+    },
+    {
+      "item": "minecraft:redstone_lamp"
+    },
+    {
+      "item": "minecraft:sandstone_slab"
+    },
+    {
+      "item": "minecraft:stone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:dried_kelp_block",
+    "count": 1
+  }
+}

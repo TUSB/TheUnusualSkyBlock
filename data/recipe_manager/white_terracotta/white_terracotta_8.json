@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:purpur_pillar"
+    },
+    "X": {
+      "item": "minecraft:stone_brick_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:white_terracotta",
+    "count": 1
+  }
+}

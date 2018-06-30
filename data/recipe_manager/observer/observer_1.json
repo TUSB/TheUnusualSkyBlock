@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "RRQ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_axe"
+    },
+    "R": {
+      "item": "minecraft:repeater"
+    },
+    "Q": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:observer",
+    "count": 1
+  }
+}

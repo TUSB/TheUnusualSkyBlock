@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_carpet"
+    },
+    {
+      "item": "minecraft:glowstone"
+    },
+    {
+      "item": "minecraft:gray_concrete"
+    },
+    {
+      "item": "minecraft:jungle_door"
+    },
+    {
+      "item": "minecraft:lapis_lazuli"
+    },
+    {
+      "item": "minecraft:nether_brick_stairs"
+    },
+    {
+      "item": "minecraft:purple_glazed_terracotta"
+    },
+    {
+      "item": "minecraft:quartz_slab"
+    },
+    {
+      "item": "minecraft:stripped_oak_bark"
+    }
+  ],
+  "result": {
+    "item": "minecraft:red_concrete_powder",
+    "count": 1
+  }
+}

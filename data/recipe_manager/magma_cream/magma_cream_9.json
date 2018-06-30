@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:golden_axe"
+    },
+    {
+      "item": "minecraft:light_gray_stained_glass"
+    }
+  ],
+  "result": {
+    "item": "minecraft:magma_cream",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:ghast_tear"
+    }
+  ],
+  "result": {
+    "item": "minecraft:dried_kelp",
+    "count": 1
+  }
+}

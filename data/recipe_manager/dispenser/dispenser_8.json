@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "#R#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_axe"
+    },
+    "X": {
+      "item": "minecraft:peony"
+    },
+    "R": {
+      "item": "minecraft:purple_wool"
+    }
+  },
+  "result": {
+    "item": "minecraft:dispenser",
+    "count": 1
+  }
+}

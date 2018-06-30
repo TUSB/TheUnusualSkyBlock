@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:lily_pad"
+    },
+    {
+      "item": "minecraft:white_tulip"
+    }
+  ],
+  "result": {
+    "item": "minecraft:ender_eye",
+    "count": 1
+  }
+}

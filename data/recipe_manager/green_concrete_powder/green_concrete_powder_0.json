@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_bark"
+    },
+    {
+      "item": "minecraft:brain_coral_fan"
+    },
+    {
+      "item": "minecraft:chainmail_helmet"
+    },
+    {
+      "item": "minecraft:golden_helmet"
+    },
+    {
+      "item": "minecraft:light_blue_glazed_terracotta"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:red_shulker_box"
+    },
+    {
+      "item": "minecraft:terracotta"
+    },
+    {
+      "item": "minecraft:yellow_carpet"
+    }
+  ],
+  "result": {
+    "item": "minecraft:green_concrete_powder",
+    "count": 1
+  }
+}

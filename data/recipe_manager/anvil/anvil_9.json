@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "III",
+    " i ",
+    "iii"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:golden_boots"
+    },
+    "i": {
+      "item": "minecraft:iron_leggings"
+    }
+  },
+  "result": {
+    "item": "minecraft:anvil",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cauldron"
+    },
+    {
+      "item": "minecraft:powered_rail"
+    }
+  ],
+  "result": {
+    "item": "minecraft:purple_dye",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:chest"
+    },
+    {
+      "item": "minecraft:chorus_fruit_popped"
+    }
+  ],
+  "result": {
+    "item": "minecraft:mossy_cobblestone",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:horn_coral_block"
+    },
+    {
+      "item": "minecraft:oak_door"
+    },
+    {
+      "item": "minecraft:oak_fence_gate"
+    },
+    {
+      "item": "minecraft:orange_shulker_box"
+    },
+    {
+      "item": "minecraft:pink_concrete"
+    },
+    {
+      "item": "minecraft:stone_brick_stairs"
+    },
+    {
+      "item": "minecraft:stripped_oak_bark"
+    },
+    {
+      "item": "minecraft:wheat_seeds"
+    }
+  ],
+  "result": {
+    "item": "minecraft:packed_ice",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "CQ",
+    "QC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:acacia_leaves"
+    },
+    "Q": {
+      "item": "minecraft:cooked_chicken"
+    }
+  },
+  "result": {
+    "item": "minecraft:diorite",
+    "count": 1
+  }
+}

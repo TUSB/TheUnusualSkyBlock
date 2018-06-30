@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "X#X",
+    "XRX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:jungle_sapling"
+    },
+    "#": {
+      "item": "minecraft:light_blue_shulker_box"
+    },
+    "R": {
+      "item": "minecraft:light_gray_stained_glass_pane"
+    }
+  },
+  "result": {
+    "item": "minecraft:detector_rail",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "# ",
+    " X"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "X": {
+      "item": "minecraft:spruce_sapling"
+    }
+  },
+  "result": {
+    "item": "minecraft:carrot_on_a_stick",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:birch_pressure_plate"
+    },
+    "X": {
+      "item": "minecraft:dark_oak_fence_gate"
+    }
+  },
+  "result": {
+    "item": "minecraft:yellow_bed",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:pink_stained_glass_pane"
+    },
+    "X": {
+      "item": "minecraft:stripped_birch_bark"
+    }
+  },
+  "result": {
+    "item": "minecraft:spectral_arrow",
+    "count": 1
+  }
+}

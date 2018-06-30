@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " B ",
+    "###"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:birch_pressure_plate"
+    },
+    "#": {
+      "item": "minecraft:light_gray_wool"
+    }
+  },
+  "result": {
+    "item": "minecraft:brewing_stand",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:magenta_wool"
+    },
+    "#": {
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_hoe",
+    "count": 1
+  }
+}

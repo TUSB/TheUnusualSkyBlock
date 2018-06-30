@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:birch_button"
+    },
+    {
+      "item": "minecraft:quartz_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:magma_cream",
+    "count": 1
+  }
+}

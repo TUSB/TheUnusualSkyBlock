@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:spruce_fence"
+    },
+    {
+      "item": "minecraft:stripped_oak_bark"
+    }
+  ],
+  "result": {
+    "item": "minecraft:mossy_cobblestone",
+    "count": 1
+  }
+}

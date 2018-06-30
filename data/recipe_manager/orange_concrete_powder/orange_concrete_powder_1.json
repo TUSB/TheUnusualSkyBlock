@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:carrot_on_a_stick"
+    },
+    {
+      "item": "minecraft:chiseled_stone_bricks"
+    },
+    {
+      "item": "minecraft:furnace_minecart"
+    },
+    {
+      "item": "minecraft:orange_glazed_terracotta"
+    },
+    {
+      "item": "minecraft:pumpkin"
+    },
+    {
+      "item": "minecraft:purple_concrete_powder"
+    },
+    {
+      "item": "minecraft:red_bed"
+    },
+    {
+      "item": "minecraft:red_wool"
+    },
+    {
+      "item": "minecraft:stone_brick_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:orange_concrete_powder",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:nether_wart"
+    },
+    "X": {
+      "item": "minecraft:peony"
+    }
+  },
+  "result": {
+    "item": "minecraft:blue_terracotta",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:jungle_log"
+    },
+    {
+      "item": "minecraft:stone_slab"
+    }
+  ],
+  "result": {
+    "item": "minecraft:lime_dye",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:birch_stairs"
+    },
+    "#": {
+      "item": "minecraft:red_sandstone_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_axe",
+    "count": 1
+  }
+}

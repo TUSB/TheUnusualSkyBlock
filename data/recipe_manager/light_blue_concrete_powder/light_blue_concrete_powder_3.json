@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:egg"
+    },
+    {
+      "item": "minecraft:hay_block"
+    },
+    {
+      "item": "minecraft:iron_shovel"
+    },
+    {
+      "item": "minecraft:nether_brick_stairs"
+    },
+    {
+      "item": "minecraft:oak_sapling"
+    },
+    {
+      "item": "minecraft:packed_ice"
+    },
+    {
+      "item": "minecraft:prismarine_shard"
+    },
+    {
+      "item": "minecraft:quartz_stairs"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  ],
+  "result": {
+    "item": "minecraft:light_blue_concrete_powder",
+    "count": 1
+  }
+}

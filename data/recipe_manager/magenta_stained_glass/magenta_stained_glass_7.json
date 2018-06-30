@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:mossy_stone_bricks"
+    },
+    "X": {
+      "item": "minecraft:spruce_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:magenta_stained_glass",
+    "count": 1
+  }
+}

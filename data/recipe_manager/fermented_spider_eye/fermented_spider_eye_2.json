@@ -1,0 +1,18 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "minecraft:stone_pickaxe"
+    },
+    {
+      "item": "minecraft:yellow_wool"
+    }
+  ],
+  "result": {
+    "item": "minecraft:fermented_spider_eye",
+    "count": 1
+  }
+}

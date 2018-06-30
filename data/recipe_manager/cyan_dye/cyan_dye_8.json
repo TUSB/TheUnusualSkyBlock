@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:oak_pressure_plate"
+    },
+    {
+      "item": "minecraft:repeater"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cyan_dye",
+    "count": 1
+  }
+}

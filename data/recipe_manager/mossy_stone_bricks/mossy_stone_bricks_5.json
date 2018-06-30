@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cactus"
+    },
+    {
+      "item": "minecraft:cyan_terracotta"
+    }
+  ],
+  "result": {
+    "item": "minecraft:mossy_stone_bricks",
+    "count": 1
+  }
+}

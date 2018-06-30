@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:mossy_cobblestone"
+    },
+    "X": {
+      "item": "minecraft:white_stained_glass"
+    }
+  },
+  "result": {
+    "item": "minecraft:pink_stained_glass",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "minecraft:spruce_boat"
+    }
+  ],
+  "result": {
+    "item": "minecraft:orange_wool",
+    "count": 1
+  }
+}

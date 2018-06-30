@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "#": {
+      "item": "minecraft:lime_bed"
+    }
+  },
+  "result": {
+    "item": "minecraft:wooden_sword",
+    "count": 1
+  }
+}

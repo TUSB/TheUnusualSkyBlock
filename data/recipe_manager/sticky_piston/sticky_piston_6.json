@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "S",
+    "P"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:bucket"
+    },
+    "P": {
+      "item": "minecraft:dark_oak_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:sticky_piston",
+    "count": 1
+  }
+}

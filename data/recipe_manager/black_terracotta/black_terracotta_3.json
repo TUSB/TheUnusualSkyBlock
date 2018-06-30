@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:paper"
+    },
+    "X": {
+      "item": "minecraft:powered_rail"
+    }
+  },
+  "result": {
+    "item": "minecraft:black_terracotta",
+    "count": 1
+  }
+}

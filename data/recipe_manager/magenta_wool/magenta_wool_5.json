@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:water_bucket"
+    },
+    {
+      "item": "minecraft:yellow_carpet"
+    }
+  ],
+  "result": {
+    "item": "minecraft:magenta_wool",
+    "count": 1
+  }
+}

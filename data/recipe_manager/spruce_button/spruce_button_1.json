@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:magma_cream"
+    }
+  ],
+  "result": {
+    "item": "minecraft:spruce_button",
+    "count": 1
+  }
+}

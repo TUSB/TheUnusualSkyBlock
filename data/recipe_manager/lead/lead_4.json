@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "~~ ",
+    "~O ",
+    "  ~"
+  ],
+  "key": {
+    "~": {
+      "item": "minecraft:brown_stained_glass_pane"
+    },
+    "O": {
+      "item": "minecraft:lime_wool"
+    }
+  },
+  "result": {
+    "item": "minecraft:lead",
+    "count": 1
+  }
+}

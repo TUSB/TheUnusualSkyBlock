@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:spruce_sapling"
+    }
+  },
+  "result": {
+    "item": "minecraft:quartz_pillar",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " B ",
+    "D#D",
+    "###"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:gunpowder"
+    },
+    "D": {
+      "item": "minecraft:lime_concrete"
+    },
+    "#": {
+      "item": "minecraft:polished_diorite"
+    }
+  },
+  "result": {
+    "item": "minecraft:enchanting_table",
+    "count": 1
+  }
+}

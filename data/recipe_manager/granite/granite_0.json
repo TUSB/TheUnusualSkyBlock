@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "minecraft:light_blue_terracotta"
+    }
+  ],
+  "result": {
+    "item": "minecraft:granite",
+    "count": 1
+  }
+}

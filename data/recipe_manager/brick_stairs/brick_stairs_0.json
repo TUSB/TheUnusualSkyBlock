@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:wheat_seeds"
+    }
+  },
+  "result": {
+    "item": "minecraft:brick_stairs",
+    "count": 1
+  }
+}

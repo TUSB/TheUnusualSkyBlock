@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_stained_glass_pane"
+    },
+    {
+      "item": "minecraft:white_bed"
+    }
+  ],
+  "result": {
+    "item": "minecraft:fire_charge",
+    "count": 1
+  }
+}

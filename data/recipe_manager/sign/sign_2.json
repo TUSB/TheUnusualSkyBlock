@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " X "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:clay"
+    },
+    "X": {
+      "item": "minecraft:purple_stained_glass_pane"
+    }
+  },
+  "result": {
+    "item": "minecraft:sign",
+    "count": 1
+  }
+}

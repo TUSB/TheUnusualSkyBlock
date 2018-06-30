@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_hoe"
+    },
+    "#": {
+      "item": "minecraft:lead"
+    }
+  },
+  "result": {
+    "item": "minecraft:wooden_pickaxe",
+    "count": 1
+  }
+}

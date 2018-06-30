@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:coal_block"
+    },
+    "#": {
+      "item": "minecraft:magma_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_hoe",
+    "count": 1
+  }
+}

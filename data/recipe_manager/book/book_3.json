@@ -1,0 +1,21 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:light_gray_concrete"
+    },
+    {
+      "item": "minecraft:lime_carpet"
+    },
+    {
+      "item": "minecraft:rabbit_hide"
+    }
+  ],
+  "result": {
+    "item": "minecraft:book",
+    "count": 1
+  }
+}

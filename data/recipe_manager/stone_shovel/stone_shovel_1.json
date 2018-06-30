@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:ink_sac"
+    },
+    "#": {
+      "item": "minecraft:soul_sand"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_shovel",
+    "count": 1
+  }
+}

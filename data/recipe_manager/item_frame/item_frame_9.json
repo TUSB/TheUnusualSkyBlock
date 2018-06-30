@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stone_sword"
+    },
+    "X": {
+      "item": "minecraft:white_terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:item_frame",
+    "count": 1
+  }
+}

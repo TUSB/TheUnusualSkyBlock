@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bookshelf"
+    },
+    "X": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:yellow_terracotta",
+    "count": 1
+  }
+}

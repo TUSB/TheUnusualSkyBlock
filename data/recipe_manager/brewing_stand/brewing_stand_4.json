@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " B ",
+    "###"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "#": {
+      "item": "minecraft:white_banner"
+    }
+  },
+  "result": {
+    "item": "minecraft:brewing_stand",
+    "count": 1
+  }
+}

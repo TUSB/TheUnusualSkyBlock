@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " #X",
+    "# X",
+    " #X"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:birch_log"
+    },
+    "X": {
+      "item": "minecraft:blue_terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:bow",
+    "count": 1
+  }
+}

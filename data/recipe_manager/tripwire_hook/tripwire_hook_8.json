@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "I",
+    "S",
+    "#"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:black_stained_glass"
+    },
+    "S": {
+      "item": "minecraft:petrified_oak_slab"
+    },
+    "#": {
+      "item": "minecraft:stripped_birch_log"
+    }
+  },
+  "result": {
+    "item": "minecraft:tripwire_hook",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:anvil"
+    },
+    {
+      "item": "minecraft:black_stained_glass_pane"
+    },
+    {
+      "item": "minecraft:brown_concrete"
+    },
+    {
+      "item": "minecraft:brown_stained_glass"
+    },
+    {
+      "item": "minecraft:cooked_cod"
+    },
+    {
+      "item": "minecraft:infested_mossy_stone_bricks"
+    },
+    {
+      "item": "minecraft:pink_stained_glass_pane"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:white_tulip"
+    }
+  ],
+  "result": {
+    "item": "minecraft:green_concrete_powder",
+    "count": 1
+  }
+}

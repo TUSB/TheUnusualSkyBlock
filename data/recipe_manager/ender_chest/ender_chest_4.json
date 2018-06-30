@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#E#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:golden_helmet"
+    },
+    "E": {
+      "item": "minecraft:wooden_axe"
+    }
+  },
+  "result": {
+    "item": "minecraft:ender_chest",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "~~ ",
+    "~O ",
+    "  ~"
+  ],
+  "key": {
+    "~": {
+      "item": "minecraft:cobblestone_wall"
+    },
+    "O": {
+      "item": "minecraft:diamond_leggings"
+    }
+  },
+  "result": {
+    "item": "minecraft:lead",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "RRQ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bone"
+    },
+    "R": {
+      "item": "minecraft:book"
+    },
+    "Q": {
+      "item": "minecraft:dropper"
+    }
+  },
+  "result": {
+    "item": "minecraft:observer",
+    "count": 1
+  }
+}

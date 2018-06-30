@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:prismarine_brick_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:red_carpet",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_sword"
+    },
+    {
+      "item": "minecraft:stripped_birch_log"
+    }
+  ],
+  "result": {
+    "item": "minecraft:lime_wool",
+    "count": 1
+  }
+}

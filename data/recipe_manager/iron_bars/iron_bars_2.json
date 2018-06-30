@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cobweb"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_bars",
+    "count": 1
+  }
+}

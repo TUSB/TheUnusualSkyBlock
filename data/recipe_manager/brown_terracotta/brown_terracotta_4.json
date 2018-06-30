@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:pumpkin"
+    },
+    "X": {
+      "item": "minecraft:purple_bed"
+    }
+  },
+  "result": {
+    "item": "minecraft:brown_terracotta",
+    "count": 1
+  }
+}

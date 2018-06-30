@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:light_gray_glazed_terracotta"
+    },
+    {
+      "item": "minecraft:orange_concrete"
+    }
+  ],
+  "result": {
+    "item": "minecraft:flint_and_steel",
+    "count": 1
+  }
+}

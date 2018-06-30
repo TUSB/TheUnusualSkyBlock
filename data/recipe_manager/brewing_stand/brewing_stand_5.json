@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " B ",
+    "###"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "#": {
+      "item": "minecraft:snow"
+    }
+  },
+  "result": {
+    "item": "minecraft:brewing_stand",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:chainmail_boots"
+    },
+    {
+      "item": "minecraft:chiseled_stone_bricks"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:lime_concrete"
+    },
+    {
+      "item": "minecraft:pink_banner"
+    },
+    {
+      "item": "minecraft:purple_stained_glass"
+    },
+    {
+      "item": "minecraft:quartz_block"
+    },
+    {
+      "item": "minecraft:spruce_bark"
+    },
+    {
+      "item": "minecraft:spruce_sapling"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pink_concrete_powder",
+    "count": 1
+  }
+}

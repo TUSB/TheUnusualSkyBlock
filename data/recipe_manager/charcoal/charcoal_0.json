@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cobblestone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:charcoal",
+    "count": 1
+  }
+}

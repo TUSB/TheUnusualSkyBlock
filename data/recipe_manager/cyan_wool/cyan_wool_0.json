@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:red_banner"
+    },
+    {
+      "item": "minecraft:smooth_red_sandstone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cyan_wool",
+    "count": 1
+  }
+}

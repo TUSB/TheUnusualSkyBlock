@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ore"
+    },
+    "X": {
+      "item": "minecraft:yellow_stained_glass"
+    }
+  },
+  "result": {
+    "item": "minecraft:light_blue_bed",
+    "count": 1
+  }
+}

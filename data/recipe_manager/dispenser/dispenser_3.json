@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "#R#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:black_banner"
+    },
+    "X": {
+      "item": "minecraft:light_blue_wool"
+    },
+    "R": {
+      "item": "minecraft:mushroom_stem"
+    }
+  },
+  "result": {
+    "item": "minecraft:dispenser",
+    "count": 1
+  }
+}

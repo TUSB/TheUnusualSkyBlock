@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_stained_glass"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:jungle_fence_gate"
+    },
+    {
+      "item": "minecraft:jungle_pressure_plate"
+    },
+    {
+      "item": "minecraft:lime_bed"
+    },
+    {
+      "item": "minecraft:lime_terracotta"
+    },
+    {
+      "item": "minecraft:orange_bed"
+    },
+    {
+      "item": "minecraft:sand"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    }
+  ],
+  "result": {
+    "item": "minecraft:red_concrete_powder",
+    "count": 1
+  }
+}

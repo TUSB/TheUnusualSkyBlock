@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:armor_stand"
+    },
+    {
+      "item": "minecraft:green_concrete_powder"
+    }
+  ],
+  "result": {
+    "item": "minecraft:mossy_cobblestone",
+    "count": 1
+  }
+}

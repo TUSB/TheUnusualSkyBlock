@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_trapdoor",
+    "count": 1
+  }
+}

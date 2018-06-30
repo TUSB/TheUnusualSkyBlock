@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:soul_sand"
+    },
+    {
+      "item": "minecraft:stone_axe"
+    }
+  ],
+  "result": {
+    "item": "minecraft:orange_wool",
+    "count": 1
+  }
+}

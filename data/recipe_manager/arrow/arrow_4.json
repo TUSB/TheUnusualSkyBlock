@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "Y"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:acacia_trapdoor"
+    },
+    "#": {
+      "item": "minecraft:arrow"
+    },
+    "Y": {
+      "item": "minecraft:stripped_jungle_bark"
+    }
+  },
+  "result": {
+    "item": "minecraft:arrow",
+    "count": 1
+  }
+}

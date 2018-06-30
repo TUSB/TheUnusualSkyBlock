@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:light_gray_dye"
+    }
+  },
+  "result": {
+    "item": "minecraft:red_sandstone_slab",
+    "count": 1
+  }
+}

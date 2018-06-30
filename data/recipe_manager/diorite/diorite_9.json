@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "CQ",
+    "QC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:chiseled_red_sandstone"
+    },
+    "Q": {
+      "item": "minecraft:lilac"
+    }
+  },
+  "result": {
+    "item": "minecraft:diorite",
+    "count": 1
+  }
+}

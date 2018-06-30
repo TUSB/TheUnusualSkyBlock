@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:chorus_plant"
+    }
+  },
+  "result": {
+    "item": "minecraft:magma_block",
+    "count": 1
+  }
+}

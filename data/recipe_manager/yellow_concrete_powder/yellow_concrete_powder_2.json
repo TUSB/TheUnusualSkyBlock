@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:andesite"
+    },
+    {
+      "item": "minecraft:dispenser"
+    },
+    {
+      "item": "minecraft:golden_horse_armor"
+    },
+    {
+      "item": "minecraft:leather_helmet"
+    },
+    {
+      "item": "minecraft:light_blue_terracotta"
+    },
+    {
+      "item": "minecraft:melon_seeds"
+    },
+    {
+      "item": "minecraft:phantom_membrane"
+    },
+    {
+      "item": "minecraft:smooth_stone"
+    },
+    {
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  ],
+  "result": {
+    "item": "minecraft:yellow_concrete_powder",
+    "count": 1
+  }
+}

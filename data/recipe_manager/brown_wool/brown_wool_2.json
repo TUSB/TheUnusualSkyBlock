@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    {
+      "item": "minecraft:glowstone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:brown_wool",
+    "count": 1
+  }
+}

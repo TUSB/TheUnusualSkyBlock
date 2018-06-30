@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:black_concrete_powder"
+    },
+    {
+      "item": "minecraft:dead_bush"
+    },
+    {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    {
+      "item": "minecraft:golden_carrot"
+    },
+    {
+      "item": "minecraft:light_gray_carpet"
+    },
+    {
+      "item": "minecraft:light_gray_stained_glass_pane"
+    },
+    {
+      "item": "minecraft:spruce_planks"
+    },
+    {
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "item": "minecraft:white_stained_glass"
+    }
+  ],
+  "result": {
+    "item": "minecraft:green_concrete_powder",
+    "count": 1
+  }
+}

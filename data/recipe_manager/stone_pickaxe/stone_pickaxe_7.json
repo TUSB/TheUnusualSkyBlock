@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:apple"
+    },
+    "#": {
+      "item": "minecraft:stripped_birch_log"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_pickaxe",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pumpkin_seeds",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:anvil"
+    },
+    {
+      "item": "minecraft:green_concrete_powder"
+    },
+    {
+      "item": "minecraft:horn_coral_fan"
+    },
+    {
+      "item": "minecraft:iron_pickaxe"
+    },
+    {
+      "item": "minecraft:magenta_bed"
+    },
+    {
+      "item": "minecraft:orange_glazed_terracotta"
+    },
+    {
+      "item": "minecraft:sign"
+    },
+    {
+      "item": "minecraft:stripped_acacia_log"
+    },
+    {
+      "item": "minecraft:white_terracotta"
+    }
+  ],
+  "result": {
+    "item": "minecraft:red_concrete_powder",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:chiseled_quartz_block"
+    },
+    {
+      "item": "minecraft:cobblestone_wall"
+    },
+    {
+      "item": "minecraft:diamond_sword"
+    },
+    {
+      "item": "minecraft:experience_bottle"
+    },
+    {
+      "item": "minecraft:jungle_bark"
+    },
+    {
+      "item": "minecraft:light_gray_glazed_terracotta"
+    },
+    {
+      "item": "minecraft:stone_pickaxe"
+    },
+    {
+      "item": "minecraft:white_carpet"
+    },
+    {
+      "item": "minecraft:white_concrete"
+    }
+  ],
+  "result": {
+    "item": "minecraft:white_concrete_powder",
+    "count": 1
+  }
+}

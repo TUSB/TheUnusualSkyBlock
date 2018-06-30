@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond_chestplate"
+    },
+    "X": {
+      "item": "minecraft:diorite"
+    }
+  },
+  "result": {
+    "item": "minecraft:gray_bed",
+    "count": 1
+  }
+}

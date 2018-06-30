@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_shulker_box"
+    },
+    {
+      "item": "minecraft:blue_terracotta"
+    },
+    {
+      "item": "minecraft:bread"
+    },
+    {
+      "item": "minecraft:brown_stained_glass"
+    },
+    {
+      "item": "minecraft:cut_red_sandstone"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:oak_door"
+    },
+    {
+      "item": "minecraft:stone_sword"
+    },
+    {
+      "item": "minecraft:stripped_oak_log"
+    }
+  ],
+  "result": {
+    "item": "minecraft:blue_concrete_powder",
+    "count": 1
+  }
+}

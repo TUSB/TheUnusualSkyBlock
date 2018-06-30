@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:jack_o_lantern"
+    },
+    {
+      "item": "minecraft:melon"
+    }
+  ],
+  "result": {
+    "item": "minecraft:light_gray_wool",
+    "count": 1
+  }
+}

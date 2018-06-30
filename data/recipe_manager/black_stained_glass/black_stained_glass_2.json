@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dropper"
+    },
+    "X": {
+      "item": "minecraft:stone_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:black_stained_glass",
+    "count": 1
+  }
+}

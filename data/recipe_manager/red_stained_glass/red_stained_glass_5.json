@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:magenta_bed"
+    },
+    "X": {
+      "item": "minecraft:redstone_lamp"
+    }
+  },
+  "result": {
+    "item": "minecraft:red_stained_glass",
+    "count": 1
+  }
+}

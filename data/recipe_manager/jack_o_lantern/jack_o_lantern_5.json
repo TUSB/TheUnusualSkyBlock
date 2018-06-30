@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "A",
+    "B"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:green_stained_glass_pane"
+    },
+    "B": {
+      "item": "minecraft:mossy_cobblestone_wall"
+    }
+  },
+  "result": {
+    "item": "minecraft:jack_o_lantern",
+    "count": 1
+  }
+}

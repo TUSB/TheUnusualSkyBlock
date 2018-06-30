@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:granite"
+    }
+  ],
+  "result": {
+    "item": "minecraft:orange_wool",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:green_concrete"
+    },
+    {
+      "item": "minecraft:lever"
+    }
+  ],
+  "result": {
+    "item": "minecraft:lime_dye",
+    "count": 1
+  }
+}

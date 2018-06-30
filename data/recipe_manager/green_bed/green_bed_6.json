@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond_boots"
+    },
+    "X": {
+      "item": "minecraft:rabbit_foot"
+    }
+  },
+  "result": {
+    "item": "minecraft:green_bed",
+    "count": 1
+  }
+}

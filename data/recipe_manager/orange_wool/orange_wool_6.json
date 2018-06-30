@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:ender_chest"
+    },
+    {
+      "item": "minecraft:polished_andesite"
+    }
+  ],
+  "result": {
+    "item": "minecraft:orange_wool",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:lime_carpet"
+    }
+  ],
+  "result": {
+    "item": "minecraft:brown_glazed_terracotta",
+    "count": 1
+  }
+}

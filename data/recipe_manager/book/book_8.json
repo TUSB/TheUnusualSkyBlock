@@ -1,0 +1,21 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dead_bubble_coral_block"
+    },
+    {
+      "item": "minecraft:green_concrete"
+    },
+    {
+      "item": "minecraft:iron_leggings"
+    },
+    {
+      "item": "minecraft:packed_ice"
+    }
+  ],
+  "result": {
+    "item": "minecraft:book",
+    "count": 1
+  }
+}

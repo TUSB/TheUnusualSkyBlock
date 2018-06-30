@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dark_prismarine"
+    }
+  ],
+  "result": {
+    "item": "minecraft:redstone",
+    "count": 1
+  }
+}

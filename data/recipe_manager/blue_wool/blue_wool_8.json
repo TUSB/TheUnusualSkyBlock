@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dead_fire_coral_block"
+    },
+    {
+      "item": "minecraft:spruce_boat"
+    }
+  ],
+  "result": {
+    "item": "minecraft:blue_wool",
+    "count": 1
+  }
+}

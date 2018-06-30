@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:cut_sandstone"
+    },
+    "#": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "minecraft:wooden_sword",
+    "count": 1
+  }
+}

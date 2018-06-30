@@ -1,0 +1,26 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "TTT",
+    "#X#",
+    "#R#"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:apple"
+    },
+    "#": {
+      "item": "minecraft:brain_coral"
+    },
+    "X": {
+      "item": "minecraft:chest"
+    },
+    "R": {
+      "item": "minecraft:wooden_pickaxe"
+    }
+  },
+  "result": {
+    "item": "minecraft:piston",
+    "count": 1
+  }
+}

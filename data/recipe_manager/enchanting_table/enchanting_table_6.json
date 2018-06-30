@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " B ",
+    "D#D",
+    "###"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:dark_prismarine_slab"
+    },
+    "D": {
+      "item": "minecraft:light_gray_stained_glass_pane"
+    },
+    "#": {
+      "item": "minecraft:paper"
+    }
+  },
+  "result": {
+    "item": "minecraft:enchanting_table",
+    "count": 1
+  }
+}

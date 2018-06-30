@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dandelion"
+    },
+    "X": {
+      "item": "minecraft:golden_sword"
+    },
+    "I": {
+      "item": "minecraft:red_shulker_box"
+    }
+  },
+  "result": {
+    "item": "minecraft:comparator",
+    "count": 1
+  }
+}

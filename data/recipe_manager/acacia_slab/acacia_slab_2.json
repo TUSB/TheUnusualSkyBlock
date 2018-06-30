@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:comparator"
+    }
+  },
+  "result": {
+    "item": "minecraft:acacia_slab",
+    "count": 1
+  }
+}

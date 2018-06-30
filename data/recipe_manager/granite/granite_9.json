@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "minecraft:light_blue_concrete_powder"
+    }
+  ],
+  "result": {
+    "item": "minecraft:granite",
+    "count": 1
+  }
+}

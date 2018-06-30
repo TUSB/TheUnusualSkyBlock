@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:cooked_cod"
+    },
+    "#": {
+      "item": "minecraft:totem_of_undying"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_axe",
+    "count": 1
+  }
+}

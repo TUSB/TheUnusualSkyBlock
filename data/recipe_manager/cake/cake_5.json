@@ -1,0 +1,26 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BEB",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:egg"
+    },
+    "B": {
+      "item": "minecraft:lime_stained_glass_pane"
+    },
+    "E": {
+      "item": "minecraft:nether_quartz_ore"
+    },
+    "C": {
+      "item": "minecraft:spruce_button"
+    }
+  },
+  "result": {
+    "item": "minecraft:cake",
+    "count": 1
+  }
+}

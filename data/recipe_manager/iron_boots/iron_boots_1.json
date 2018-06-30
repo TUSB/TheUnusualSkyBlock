@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:blue_shulker_box"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_boots",
+    "count": 1
+  }
+}

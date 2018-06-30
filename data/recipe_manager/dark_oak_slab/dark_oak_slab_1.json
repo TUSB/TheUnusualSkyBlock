@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:fishing_rod"
+    }
+  },
+  "result": {
+    "item": "minecraft:dark_oak_slab",
+    "count": 1
+  }
+}

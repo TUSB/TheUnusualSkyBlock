@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "~~ ",
+    "~O ",
+    "  ~"
+  ],
+  "key": {
+    "~": {
+      "item": "minecraft:dead_horn_coral_block"
+    },
+    "O": {
+      "item": "minecraft:nether_brick_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:lead",
+    "count": 1
+  }
+}

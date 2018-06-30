@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:beacon"
+    },
+    "X": {
+      "item": "minecraft:fire_coral_fan"
+    }
+  },
+  "result": {
+    "item": "minecraft:gray_stained_glass",
+    "count": 1
+  }
+}

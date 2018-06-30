@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GEG",
+    "GTG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:blue_shulker_box"
+    },
+    "E": {
+      "item": "minecraft:coal"
+    },
+    "T": {
+      "item": "minecraft:white_banner"
+    }
+  },
+  "result": {
+    "item": "minecraft:end_crystal",
+    "count": 1
+  }
+}

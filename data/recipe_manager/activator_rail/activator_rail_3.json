@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XSX",
+    "X#X",
+    "XSX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:birch_fence_gate"
+    },
+    "S": {
+      "item": "minecraft:blue_banner"
+    },
+    "#": {
+      "item": "minecraft:infested_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "minecraft:activator_rail",
+    "count": 1
+  }
+}

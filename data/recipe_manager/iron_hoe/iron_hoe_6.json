@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:salmon"
+    },
+    "#": {
+      "item": "minecraft:wheat_seeds"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_hoe",
+    "count": 1
+  }
+}

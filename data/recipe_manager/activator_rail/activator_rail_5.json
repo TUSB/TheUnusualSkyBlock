@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XSX",
+    "X#X",
+    "XSX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:blue_stained_glass"
+    },
+    "S": {
+      "item": "minecraft:nether_brick_stairs"
+    },
+    "#": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "minecraft:activator_rail",
+    "count": 1
+  }
+}

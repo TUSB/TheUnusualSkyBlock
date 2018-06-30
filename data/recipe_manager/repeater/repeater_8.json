@@ -1,0 +1,22 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#X#",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:black_carpet"
+    },
+    "X": {
+      "item": "minecraft:bricks"
+    },
+    "I": {
+      "item": "minecraft:oak_log"
+    }
+  },
+  "result": {
+    "item": "minecraft:repeater",
+    "count": 1
+  }
+}

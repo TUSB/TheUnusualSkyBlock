@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "A",
+    "B"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:light_gray_concrete_powder"
+    },
+    "B": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "item": "minecraft:furnace_minecart",
+    "count": 1
+  }
+}

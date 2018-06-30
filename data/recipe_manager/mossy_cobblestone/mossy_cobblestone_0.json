@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:birch_leaves"
+    },
+    {
+      "item": "minecraft:stone_sword"
+    }
+  ],
+  "result": {
+    "item": "minecraft:mossy_cobblestone",
+    "count": 1
+  }
+}

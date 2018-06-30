@@ -1,0 +1,26 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "TTT",
+    "#X#",
+    "#R#"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:acacia_bark"
+    },
+    "#": {
+      "item": "minecraft:end_stone"
+    },
+    "X": {
+      "item": "minecraft:green_glazed_terracotta"
+    },
+    "R": {
+      "item": "minecraft:horn_coral"
+    }
+  },
+  "result": {
+    "item": "minecraft:piston",
+    "count": 1
+  }
+}

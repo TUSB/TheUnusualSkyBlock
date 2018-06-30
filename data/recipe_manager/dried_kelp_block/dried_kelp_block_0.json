@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_fence_gate"
+    },
+    {
+      "item": "minecraft:blue_glazed_terracotta"
+    },
+    {
+      "item": "minecraft:brown_concrete"
+    },
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "minecraft:cooked_cod"
+    },
+    {
+      "item": "minecraft:dragon_breath"
+    },
+    {
+      "item": "minecraft:gray_bed"
+    },
+    {
+      "item": "minecraft:lava_bucket"
+    },
+    {
+      "item": "minecraft:lead"
+    }
+  ],
+  "result": {
+    "item": "minecraft:dried_kelp_block",
+    "count": 1
+  }
+}

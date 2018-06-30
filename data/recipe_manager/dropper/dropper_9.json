@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "#R#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_log"
+    },
+    "R": {
+      "item": "minecraft:stone_bricks"
+    }
+  },
+  "result": {
+    "item": "minecraft:dropper",
+    "count": 1
+  }
+}

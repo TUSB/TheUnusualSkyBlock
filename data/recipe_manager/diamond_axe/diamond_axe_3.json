@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:dropper"
+    },
+    "#": {
+      "item": "minecraft:pumpkin"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_axe",
+    "count": 1
+  }
+}

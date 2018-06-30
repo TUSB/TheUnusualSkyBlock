@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:black_wool"
+    },
+    {
+      "item": "minecraft:chiseled_quartz_block"
+    },
+    {
+      "item": "minecraft:cyan_carpet"
+    },
+    {
+      "item": "minecraft:green_shulker_box"
+    },
+    {
+      "item": "minecraft:iron_ore"
+    },
+    {
+      "item": "minecraft:jungle_pressure_plate"
+    },
+    {
+      "item": "minecraft:jungle_stairs"
+    },
+    {
+      "item": "minecraft:light_blue_dye"
+    },
+    {
+      "item": "minecraft:lime_carpet"
+    }
+  ],
+  "result": {
+    "item": "minecraft:blue_concrete_powder",
+    "count": 1
+  }
+}

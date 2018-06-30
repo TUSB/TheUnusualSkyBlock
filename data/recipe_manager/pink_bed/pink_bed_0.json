@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:magenta_concrete"
+    },
+    "X": {
+      "item": "minecraft:quartz_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:pink_bed",
+    "count": 1
+  }
+}

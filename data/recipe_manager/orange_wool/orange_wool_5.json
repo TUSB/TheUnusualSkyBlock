@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:fire_coral"
+    },
+    {
+      "item": "minecraft:mossy_cobblestone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:orange_wool",
+    "count": 1
+  }
+}

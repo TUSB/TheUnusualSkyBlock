@@ -1,0 +1,18 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brick"
+    },
+    {
+      "item": "minecraft:bricks"
+    },
+    {
+      "item": "minecraft:redstone_torch"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pumpkin_pie",
+    "count": 1
+  }
+}

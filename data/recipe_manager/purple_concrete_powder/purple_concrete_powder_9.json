@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:chorus_fruit_popped"
+    },
+    {
+      "item": "minecraft:fire_coral"
+    },
+    {
+      "item": "minecraft:iron_sword"
+    },
+    {
+      "item": "minecraft:light_gray_stained_glass_pane"
+    },
+    {
+      "item": "minecraft:oak_log"
+    },
+    {
+      "item": "minecraft:red_sandstone_stairs"
+    },
+    {
+      "item": "minecraft:red_shulker_box"
+    },
+    {
+      "item": "minecraft:stone_bricks"
+    },
+    {
+      "item": "minecraft:writable_book"
+    }
+  ],
+  "result": {
+    "item": "minecraft:purple_concrete_powder",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:charcoal"
+    },
+    {
+      "item": "minecraft:light_gray_concrete"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cyan_dye",
+    "count": 1
+  }
+}

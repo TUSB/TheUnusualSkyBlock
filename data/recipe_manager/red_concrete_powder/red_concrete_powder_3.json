@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cyan_stained_glass_pane"
+    },
+    {
+      "item": "minecraft:dragon_egg"
+    },
+    {
+      "item": "minecraft:podzol"
+    },
+    {
+      "item": "minecraft:porkchop"
+    },
+    {
+      "item": "minecraft:prismarine_crystals"
+    },
+    {
+      "item": "minecraft:purple_banner"
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:seagrass"
+    },
+    {
+      "item": "minecraft:spruce_pressure_plate"
+    }
+  ],
+  "result": {
+    "item": "minecraft:red_concrete_powder",
+    "count": 1
+  }
+}

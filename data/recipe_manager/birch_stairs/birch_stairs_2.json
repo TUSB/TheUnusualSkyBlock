@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:pink_shulker_box"
+    }
+  },
+  "result": {
+    "item": "minecraft:birch_stairs",
+    "count": 1
+  }
+}

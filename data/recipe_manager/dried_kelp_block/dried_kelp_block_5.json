@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brain_coral_block"
+    },
+    {
+      "item": "minecraft:cake"
+    },
+    {
+      "item": "minecraft:glowstone"
+    },
+    {
+      "item": "minecraft:orange_stained_glass_pane"
+    },
+    {
+      "item": "minecraft:purpur_block"
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:stone_button"
+    },
+    {
+      "item": "minecraft:white_concrete_powder"
+    },
+    {
+      "item": "minecraft:wooden_axe"
+    }
+  ],
+  "result": {
+    "item": "minecraft:dried_kelp_block",
+    "count": 1
+  }
+}

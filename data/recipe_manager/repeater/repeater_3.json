@@ -1,0 +1,22 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#X#",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:chainmail_chestplate"
+    },
+    "X": {
+      "item": "minecraft:kelp"
+    },
+    "I": {
+      "item": "minecraft:mossy_cobblestone"
+    }
+  },
+  "result": {
+    "item": "minecraft:repeater",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stripped_spruce_bark"
+    }
+  ],
+  "result": {
+    "item": "minecraft:stone",
+    "count": 1
+  }
+}

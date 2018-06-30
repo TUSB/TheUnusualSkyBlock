@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brown_mushroom_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:sandstone_stairs",
+    "count": 1
+  }
+}

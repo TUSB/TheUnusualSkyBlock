@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:purple_glazed_terracotta"
+    },
+    "#": {
+      "item": "minecraft:white_banner"
+    }
+  },
+  "result": {
+    "item": "minecraft:acacia_fence",
+    "count": 1
+  }
+}

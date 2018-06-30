@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "A",
+    "B"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:crafting_table"
+    },
+    "B": {
+      "item": "minecraft:heavy_weighted_pressure_plate"
+    }
+  },
+  "result": {
+    "item": "minecraft:furnace_minecart",
+    "count": 1
+  }
+}

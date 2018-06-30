@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "X": {
+      "item": "minecraft:glowstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:white_terracotta",
+    "count": 1
+  }
+}

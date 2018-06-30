@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:end_stone"
+    },
+    {
+      "item": "minecraft:oak_planks"
+    }
+  ],
+  "result": {
+    "item": "minecraft:purple_wool",
+    "count": 1
+  }
+}

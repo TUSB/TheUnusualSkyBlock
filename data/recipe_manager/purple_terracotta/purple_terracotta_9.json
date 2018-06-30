@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:oak_trapdoor"
+    },
+    "X": {
+      "item": "minecraft:obsidian"
+    }
+  },
+  "result": {
+    "item": "minecraft:purple_terracotta",
+    "count": 1
+  }
+}

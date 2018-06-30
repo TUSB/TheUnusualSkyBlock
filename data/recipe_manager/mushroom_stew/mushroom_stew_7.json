@@ -1,0 +1,18 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cracked_stone_bricks"
+    },
+    {
+      "item": "minecraft:diamond_helmet"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    }
+  ],
+  "result": {
+    "item": "minecraft:mushroom_stew",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    {
+      "item": "minecraft:dropper"
+    },
+    {
+      "item": "minecraft:hopper_minecart"
+    },
+    {
+      "item": "minecraft:ice"
+    },
+    {
+      "item": "minecraft:jungle_stairs"
+    },
+    {
+      "item": "minecraft:lime_terracotta"
+    },
+    {
+      "item": "minecraft:nautilus_shell"
+    },
+    {
+      "item": "minecraft:shulker_shell"
+    },
+    {
+      "item": "minecraft:smooth_red_sandstone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:white_concrete_powder",
+    "count": 1
+  }
+}

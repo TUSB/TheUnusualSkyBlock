@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:dark_oak_log"
+    },
+    {
+      "item": "minecraft:golden_boots"
+    },
+    {
+      "item": "minecraft:poisonous_potato"
+    },
+    {
+      "item": "minecraft:quartz_stairs"
+    },
+    {
+      "item": "minecraft:spider_eye"
+    },
+    {
+      "item": "minecraft:torch"
+    },
+    {
+      "item": "minecraft:wooden_shovel"
+    },
+    {
+      "item": "minecraft:yellow_concrete_powder"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pink_concrete_powder",
+    "count": 1
+  }
+}

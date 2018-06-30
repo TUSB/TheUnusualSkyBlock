@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:coal_ore"
+    }
+  },
+  "result": {
+    "item": "minecraft:polished_diorite",
+    "count": 1
+  }
+}

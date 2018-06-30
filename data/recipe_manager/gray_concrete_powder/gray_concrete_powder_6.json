@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:birch_slab"
+    },
+    {
+      "item": "minecraft:chest_minecart"
+    },
+    {
+      "item": "minecraft:hopper"
+    },
+    {
+      "item": "minecraft:iron_chestplate"
+    },
+    {
+      "item": "minecraft:iron_hoe"
+    },
+    {
+      "item": "minecraft:lapis_block"
+    },
+    {
+      "item": "minecraft:light_gray_stained_glass"
+    },
+    {
+      "item": "minecraft:purpur_stairs"
+    },
+    {
+      "item": "minecraft:sunflower"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gray_concrete_powder",
+    "count": 1
+  }
+}

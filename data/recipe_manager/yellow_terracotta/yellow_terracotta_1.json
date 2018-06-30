@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:black_concrete"
+    },
+    "X": {
+      "item": "minecraft:soul_sand"
+    }
+  },
+  "result": {
+    "item": "minecraft:yellow_terracotta",
+    "count": 1
+  }
+}

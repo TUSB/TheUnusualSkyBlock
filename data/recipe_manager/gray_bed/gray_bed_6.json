@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:end_crystal"
+    },
+    "X": {
+      "item": "minecraft:stone_brick_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:gray_bed",
+    "count": 1
+  }
+}

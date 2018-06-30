@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_slab"
+    },
+    {
+      "item": "minecraft:acacia_trapdoor"
+    }
+  ],
+  "result": {
+    "item": "minecraft:andesite",
+    "count": 1
+  }
+}

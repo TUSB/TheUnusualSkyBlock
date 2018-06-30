@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_bed"
+    },
+    {
+      "item": "minecraft:dandelion"
+    },
+    {
+      "item": "minecraft:diamond_horse_armor"
+    },
+    {
+      "item": "minecraft:end_stone_bricks"
+    },
+    {
+      "item": "minecraft:oak_door"
+    },
+    {
+      "item": "minecraft:polished_diorite"
+    },
+    {
+      "item": "minecraft:poppy"
+    },
+    {
+      "item": "minecraft:tube_coral"
+    },
+    {
+      "item": "minecraft:yellow_stained_glass_pane"
+    }
+  ],
+  "result": {
+    "item": "minecraft:packed_ice",
+    "count": 1
+  }
+}

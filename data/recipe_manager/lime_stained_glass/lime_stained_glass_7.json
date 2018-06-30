@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:infested_chiseled_stone_bricks"
+    },
+    "X": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "minecraft:lime_stained_glass",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:leather"
+    },
+    "|": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "minecraft:brown_banner",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "Y"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:brown_wool"
+    },
+    "#": {
+      "item": "minecraft:enchanting_table"
+    },
+    "Y": {
+      "item": "minecraft:golden_leggings"
+    }
+  },
+  "result": {
+    "item": "minecraft:arrow",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cracked_stone_bricks"
+    },
+    {
+      "item": "minecraft:salmon"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cyan_wool",
+    "count": 1
+  }
+}

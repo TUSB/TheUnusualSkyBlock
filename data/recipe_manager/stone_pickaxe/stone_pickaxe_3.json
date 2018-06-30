@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:beef"
+    },
+    "#": {
+      "item": "minecraft:brewing_stand"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_pickaxe",
+    "count": 1
+  }
+}

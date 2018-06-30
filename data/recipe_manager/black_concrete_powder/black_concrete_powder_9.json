@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:black_glazed_terracotta"
+    },
+    {
+      "item": "minecraft:black_wool"
+    },
+    {
+      "item": "minecraft:cyan_glazed_terracotta"
+    },
+    {
+      "item": "minecraft:ender_eye"
+    },
+    {
+      "item": "minecraft:lilac"
+    },
+    {
+      "item": "minecraft:lime_stained_glass_pane"
+    },
+    {
+      "item": "minecraft:pink_tulip"
+    },
+    {
+      "item": "minecraft:shears"
+    },
+    {
+      "item": "minecraft:stripped_jungle_log"
+    }
+  ],
+  "result": {
+    "item": "minecraft:black_concrete_powder",
+    "count": 1
+  }
+}

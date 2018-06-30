@@ -1,0 +1,21 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dark_oak_stairs"
+    },
+    {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    {
+      "item": "minecraft:melon_seeds"
+    },
+    {
+      "item": "minecraft:sugar_cane"
+    }
+  ],
+  "result": {
+    "item": "minecraft:book",
+    "count": 1
+  }
+}

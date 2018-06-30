@@ -1,0 +1,21 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:magenta_dye"
+    },
+    {
+      "item": "minecraft:stripped_acacia_bark"
+    },
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:white_bed"
+    }
+  ],
+  "result": {
+    "item": "minecraft:book",
+    "count": 1
+  }
+}

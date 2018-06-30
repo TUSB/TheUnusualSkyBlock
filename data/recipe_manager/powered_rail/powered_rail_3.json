@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "X#X",
+    "XRX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "#": {
+      "item": "minecraft:purple_carpet"
+    },
+    "R": {
+      "item": "minecraft:spruce_fence_gate"
+    }
+  },
+  "result": {
+    "item": "minecraft:powered_rail",
+    "count": 1
+  }
+}

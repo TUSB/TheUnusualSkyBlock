@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_boat"
+    },
+    {
+      "item": "minecraft:shears"
+    }
+  ],
+  "result": {
+    "item": "minecraft:black_wool",
+    "count": 1
+  }
+}

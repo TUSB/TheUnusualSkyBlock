@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:jack_o_lantern"
+    }
+  },
+  "result": {
+    "item": "minecraft:leather_leggings",
+    "count": 1
+  }
+}

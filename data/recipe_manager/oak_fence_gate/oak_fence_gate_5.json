@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:activator_rail"
+    },
+    "W": {
+      "item": "minecraft:prismarine_crystals"
+    }
+  },
+  "result": {
+    "item": "minecraft:oak_fence_gate",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:infested_stone_bricks"
+    }
+  ],
+  "result": {
+    "item": "minecraft:slime_ball",
+    "count": 1
+  }
+}

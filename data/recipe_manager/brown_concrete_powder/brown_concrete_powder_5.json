@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_powder"
+    },
+    {
+      "item": "minecraft:blue_banner"
+    },
+    {
+      "item": "minecraft:brown_carpet"
+    },
+    {
+      "item": "minecraft:cut_red_sandstone"
+    },
+    {
+      "item": "minecraft:end_rod"
+    },
+    {
+      "item": "minecraft:infested_cobblestone"
+    },
+    {
+      "item": "minecraft:jungle_fence_gate"
+    },
+    {
+      "item": "minecraft:magenta_shulker_box"
+    },
+    {
+      "item": "minecraft:prismarine_bricks"
+    }
+  ],
+  "result": {
+    "item": "minecraft:brown_concrete_powder",
+    "count": 1
+  }
+}

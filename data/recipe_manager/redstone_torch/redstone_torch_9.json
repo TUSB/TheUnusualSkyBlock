@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:beetroot"
+    },
+    "#": {
+      "item": "minecraft:magenta_stained_glass"
+    }
+  },
+  "result": {
+    "item": "minecraft:redstone_torch",
+    "count": 1
+  }
+}

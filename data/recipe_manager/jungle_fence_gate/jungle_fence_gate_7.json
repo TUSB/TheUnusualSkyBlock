@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:magenta_stained_glass_pane"
+    },
+    "W": {
+      "item": "minecraft:stone_shovel"
+    }
+  },
+  "result": {
+    "item": "minecraft:jungle_fence_gate",
+    "count": 1
+  }
+}

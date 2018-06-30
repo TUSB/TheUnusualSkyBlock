@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_hoe"
+    },
+    "X": {
+      "item": "minecraft:mossy_cobblestone"
+    }
+  },
+  "result": {
+    "item": "minecraft:light_blue_bed",
+    "count": 1
+  }
+}

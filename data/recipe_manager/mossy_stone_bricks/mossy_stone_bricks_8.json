@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:enchanting_table"
+    },
+    {
+      "item": "minecraft:nether_bricks"
+    }
+  ],
+  "result": {
+    "item": "minecraft:mossy_stone_bricks",
+    "count": 1
+  }
+}

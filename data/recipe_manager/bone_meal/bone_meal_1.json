@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:yellow_stained_glass_pane"
+    }
+  ],
+  "result": {
+    "item": "minecraft:bone_meal",
+    "count": 1
+  }
+}

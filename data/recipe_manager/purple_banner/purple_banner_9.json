@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:petrified_oak_slab"
+    },
+    "|": {
+      "item": "minecraft:slime_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:purple_banner",
+    "count": 1
+  }
+}

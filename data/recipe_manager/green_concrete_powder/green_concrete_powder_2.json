@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:birch_planks"
+    },
+    {
+      "item": "minecraft:birch_sapling"
+    },
+    {
+      "item": "minecraft:dark_prismarine"
+    },
+    {
+      "item": "minecraft:glowstone"
+    },
+    {
+      "item": "minecraft:infested_cracked_stone_bricks"
+    },
+    {
+      "item": "minecraft:polished_andesite"
+    },
+    {
+      "item": "minecraft:rabbit_foot"
+    },
+    {
+      "item": "minecraft:red_sandstone"
+    },
+    {
+      "item": "minecraft:salmon"
+    }
+  ],
+  "result": {
+    "item": "minecraft:green_concrete_powder",
+    "count": 1
+  }
+}

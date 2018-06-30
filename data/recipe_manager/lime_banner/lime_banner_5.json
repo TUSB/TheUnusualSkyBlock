@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:mushroom_stew"
+    },
+    "|": {
+      "item": "minecraft:oak_door"
+    }
+  },
+  "result": {
+    "item": "minecraft:lime_banner",
+    "count": 1
+  }
+}

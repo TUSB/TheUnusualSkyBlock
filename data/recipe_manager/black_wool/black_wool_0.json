@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bricks"
+    },
+    {
+      "item": "minecraft:oak_button"
+    }
+  ],
+  "result": {
+    "item": "minecraft:black_wool",
+    "count": 1
+  }
+}

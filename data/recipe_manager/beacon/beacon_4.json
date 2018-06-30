@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GSG",
+    "OOO"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:lime_glazed_terracotta"
+    },
+    "S": {
+      "item": "minecraft:magenta_bed"
+    },
+    "O": {
+      "item": "minecraft:purple_carpet"
+    }
+  },
+  "result": {
+    "item": "minecraft:beacon",
+    "count": 1
+  }
+}

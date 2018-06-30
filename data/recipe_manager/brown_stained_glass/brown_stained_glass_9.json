@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_fence_gate"
+    },
+    "X": {
+      "item": "minecraft:anvil"
+    }
+  },
+  "result": {
+    "item": "minecraft:brown_stained_glass",
+    "count": 1
+  }
+}

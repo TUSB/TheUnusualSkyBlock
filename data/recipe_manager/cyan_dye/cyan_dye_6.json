@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:item_frame"
+    },
+    {
+      "item": "minecraft:lime_concrete_powder"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cyan_dye",
+    "count": 1
+  }
+}

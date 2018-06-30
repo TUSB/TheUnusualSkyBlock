@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:gray_wool"
+    },
+    "#": {
+      "item": "minecraft:jukebox"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_hoe",
+    "count": 1
+  }
+}

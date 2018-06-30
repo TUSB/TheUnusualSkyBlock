@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:chicken"
+    },
+    {
+      "item": "minecraft:green_carpet"
+    },
+    {
+      "item": "minecraft:horn_coral"
+    },
+    {
+      "item": "minecraft:lime_concrete_powder"
+    },
+    {
+      "item": "minecraft:magenta_concrete"
+    },
+    {
+      "item": "minecraft:mycelium"
+    },
+    {
+      "item": "minecraft:pink_banner"
+    },
+    {
+      "item": "minecraft:stone_pressure_plate"
+    },
+    {
+      "item": "minecraft:stripped_oak_bark"
+    }
+  ],
+  "result": {
+    "item": "minecraft:orange_concrete_powder",
+    "count": 1
+  }
+}

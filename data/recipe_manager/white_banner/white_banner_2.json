@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brick_stairs"
+    },
+    "|": {
+      "item": "minecraft:oak_trapdoor"
+    }
+  },
+  "result": {
+    "item": "minecraft:white_banner",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gray_glazed_terracotta"
+    },
+    "X": {
+      "item": "minecraft:mushroom_stew"
+    }
+  },
+  "result": {
+    "item": "minecraft:cyan_stained_glass",
+    "count": 1
+  }
+}

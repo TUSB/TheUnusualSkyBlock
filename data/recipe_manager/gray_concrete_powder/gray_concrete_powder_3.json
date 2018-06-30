@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cyan_concrete_powder"
+    },
+    {
+      "item": "minecraft:iron_bars"
+    },
+    {
+      "item": "minecraft:netherrack"
+    },
+    {
+      "item": "minecraft:quartz_block"
+    },
+    {
+      "item": "minecraft:red_tulip"
+    },
+    {
+      "item": "minecraft:snow"
+    },
+    {
+      "item": "minecraft:stone_slab"
+    },
+    {
+      "item": "minecraft:stripped_dark_oak_log"
+    },
+    {
+      "item": "minecraft:white_concrete"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gray_concrete_powder",
+    "count": 1
+  }
+}

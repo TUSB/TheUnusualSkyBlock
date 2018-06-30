@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "///",
+    " / ",
+    "/_/"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:infested_cracked_stone_bricks"
+    },
+    "_": {
+      "item": "minecraft:poisonous_potato"
+    }
+  },
+  "result": {
+    "item": "minecraft:armor_stand",
+    "count": 1
+  }
+}

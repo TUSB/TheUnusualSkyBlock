@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "~~ ",
+    "~O ",
+    "  ~"
+  ],
+  "key": {
+    "~": {
+      "item": "minecraft:red_banner"
+    },
+    "O": {
+      "item": "minecraft:sandstone_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:lead",
+    "count": 1
+  }
+}

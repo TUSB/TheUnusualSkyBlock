@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brick_stairs"
+    },
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:dragon_egg"
+    },
+    {
+      "item": "minecraft:magenta_concrete_powder"
+    },
+    {
+      "item": "minecraft:oak_sapling"
+    },
+    {
+      "item": "minecraft:poppy"
+    },
+    {
+      "item": "minecraft:red_carpet"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "minecraft:stone_pickaxe"
+    }
+  ],
+  "result": {
+    "item": "minecraft:blue_concrete_powder",
+    "count": 1
+  }
+}

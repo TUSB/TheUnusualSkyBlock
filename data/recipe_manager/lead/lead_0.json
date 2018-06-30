@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "~~ ",
+    "~O ",
+    "  ~"
+  ],
+  "key": {
+    "~": {
+      "item": "minecraft:furnace_minecart"
+    },
+    "O": {
+      "item": "minecraft:light_gray_glazed_terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:lead",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:enchanted_golden_apple"
+    }
+  },
+  "result": {
+    "item": "minecraft:cut_red_sandstone",
+    "count": 1
+  }
+}

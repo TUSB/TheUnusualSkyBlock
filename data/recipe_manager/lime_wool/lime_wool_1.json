@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:green_glazed_terracotta"
+    },
+    {
+      "item": "minecraft:lime_wool"
+    }
+  ],
+  "result": {
+    "item": "minecraft:lime_wool",
+    "count": 1
+  }
+}

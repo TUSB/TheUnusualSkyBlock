@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_sword"
+    },
+    "X": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "minecraft:gray_stained_glass",
+    "count": 1
+  }
+}

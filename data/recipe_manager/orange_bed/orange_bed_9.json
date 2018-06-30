@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dark_prismarine_slab"
+    },
+    "X": {
+      "item": "minecraft:fire_coral_fan"
+    }
+  },
+  "result": {
+    "item": "minecraft:orange_bed",
+    "count": 1
+  }
+}

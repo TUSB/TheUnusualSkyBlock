@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:birch_door"
+    },
+    {
+      "item": "minecraft:cobblestone_slab"
+    },
+    {
+      "item": "minecraft:green_stained_glass"
+    },
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:pink_tulip"
+    },
+    {
+      "item": "minecraft:quartz_slab"
+    },
+    {
+      "item": "minecraft:redstone_lamp"
+    },
+    {
+      "item": "minecraft:stone_axe"
+    },
+    {
+      "item": "minecraft:yellow_concrete_powder"
+    }
+  ],
+  "result": {
+    "item": "minecraft:black_concrete_powder",
+    "count": 1
+  }
+}

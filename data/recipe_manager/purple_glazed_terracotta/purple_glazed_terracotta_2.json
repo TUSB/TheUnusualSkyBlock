@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:leather_boots"
+    }
+  ],
+  "result": {
+    "item": "minecraft:purple_glazed_terracotta",
+    "count": 1
+  }
+}

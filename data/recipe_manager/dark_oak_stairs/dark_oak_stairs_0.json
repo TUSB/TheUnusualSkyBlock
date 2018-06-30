@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:red_wool"
+    }
+  },
+  "result": {
+    "item": "minecraft:dark_oak_stairs",
+    "count": 1
+  }
+}

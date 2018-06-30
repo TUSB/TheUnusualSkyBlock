@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "#R#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:golden_apple"
+    },
+    "R": {
+      "item": "minecraft:wooden_shovel"
+    }
+  },
+  "result": {
+    "item": "minecraft:dropper",
+    "count": 1
+  }
+}

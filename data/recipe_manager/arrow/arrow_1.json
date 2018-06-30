@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "Y"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:charcoal"
+    },
+    "#": {
+      "item": "minecraft:fermented_spider_eye"
+    },
+    "Y": {
+      "item": "minecraft:pink_stained_glass"
+    }
+  },
+  "result": {
+    "item": "minecraft:arrow",
+    "count": 1
+  }
+}

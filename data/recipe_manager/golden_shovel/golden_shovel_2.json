@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:painting"
+    },
+    "#": {
+      "item": "minecraft:stripped_dark_oak_bark"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_shovel",
+    "count": 1
+  }
+}

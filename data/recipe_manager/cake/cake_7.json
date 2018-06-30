@@ -1,0 +1,26 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BEB",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:acacia_fence_gate"
+    },
+    "B": {
+      "item": "minecraft:birch_trapdoor"
+    },
+    "E": {
+      "item": "minecraft:brown_banner"
+    },
+    "C": {
+      "item": "minecraft:chiseled_sandstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:cake",
+    "count": 1
+  }
+}

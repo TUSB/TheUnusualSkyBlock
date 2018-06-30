@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:packed_ice"
+    },
+    "#": {
+      "item": "minecraft:tripwire_hook"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_axe",
+    "count": 1
+  }
+}

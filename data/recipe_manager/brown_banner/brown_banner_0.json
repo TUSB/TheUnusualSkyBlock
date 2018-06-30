@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:coarse_dirt"
+    },
+    "|": {
+      "item": "minecraft:oxeye_daisy"
+    }
+  },
+  "result": {
+    "item": "minecraft:brown_banner",
+    "count": 1
+  }
+}

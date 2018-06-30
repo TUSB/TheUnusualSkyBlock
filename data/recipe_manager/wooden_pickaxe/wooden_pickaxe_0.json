@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:black_glazed_terracotta"
+    },
+    "#": {
+      "item": "minecraft:egg"
+    }
+  },
+  "result": {
+    "item": "minecraft:wooden_pickaxe",
+    "count": 1
+  }
+}

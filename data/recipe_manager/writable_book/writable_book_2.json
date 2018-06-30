@@ -1,0 +1,18 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "minecraft:shulker_shell"
+    }
+  ],
+  "result": {
+    "item": "minecraft:writable_book",
+    "count": 1
+  }
+}

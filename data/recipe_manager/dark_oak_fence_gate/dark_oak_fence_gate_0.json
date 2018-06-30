@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_hoe"
+    },
+    "W": {
+      "item": "minecraft:wet_sponge"
+    }
+  },
+  "result": {
+    "item": "minecraft:dark_oak_fence_gate",
+    "count": 1
+  }
+}

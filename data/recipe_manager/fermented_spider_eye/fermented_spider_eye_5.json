@@ -1,0 +1,18 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:anvil"
+    },
+    {
+      "item": "minecraft:brain_coral_block"
+    },
+    {
+      "item": "minecraft:cactus_green"
+    }
+  ],
+  "result": {
+    "item": "minecraft:fermented_spider_eye",
+    "count": 1
+  }
+}

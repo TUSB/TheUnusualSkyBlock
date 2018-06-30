@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#E#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brain_coral"
+    },
+    "E": {
+      "item": "minecraft:sign"
+    }
+  },
+  "result": {
+    "item": "minecraft:ender_chest",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:chipped_anvil"
+    },
+    "X": {
+      "item": "minecraft:dark_prismarine_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:pink_bed",
+    "count": 1
+  }
+}

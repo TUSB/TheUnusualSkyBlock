@@ -1,0 +1,18 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cobblestone_wall"
+    },
+    {
+      "item": "minecraft:golden_sword"
+    },
+    {
+      "item": "minecraft:magenta_shulker_box"
+    }
+  ],
+  "result": {
+    "item": "minecraft:writable_book",
+    "count": 1
+  }
+}

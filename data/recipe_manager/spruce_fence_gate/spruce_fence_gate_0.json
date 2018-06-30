@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:blue_banner"
+    },
+    "W": {
+      "item": "minecraft:wooden_hoe"
+    }
+  },
+  "result": {
+    "item": "minecraft:spruce_fence_gate",
+    "count": 1
+  }
+}

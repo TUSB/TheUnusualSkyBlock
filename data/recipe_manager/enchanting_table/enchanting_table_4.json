@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " B ",
+    "D#D",
+    "###"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bricks"
+    },
+    "D": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "#": {
+      "item": "minecraft:spruce_boat"
+    }
+  },
+  "result": {
+    "item": "minecraft:enchanting_table",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "WoW",
+    "WWW",
+    " W "
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:cyan_terracotta"
+    },
+    "o": {
+      "item": "minecraft:lime_stained_glass_pane"
+    }
+  },
+  "result": {
+    "item": "minecraft:shield",
+    "count": 1
+  }
+}

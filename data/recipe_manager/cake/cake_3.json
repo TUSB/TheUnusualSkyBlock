@@ -1,0 +1,26 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BEB",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:cooked_cod"
+    },
+    "B": {
+      "item": "minecraft:flower_pot"
+    },
+    "E": {
+      "item": "minecraft:magenta_wool"
+    },
+    "C": {
+      "item": "minecraft:oak_sapling"
+    }
+  },
+  "result": {
+    "item": "minecraft:cake",
+    "count": 1
+  }
+}

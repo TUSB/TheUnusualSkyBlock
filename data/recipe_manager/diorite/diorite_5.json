@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "CQ",
+    "QC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:oak_slab"
+    },
+    "Q": {
+      "item": "minecraft:purple_stained_glass"
+    }
+  },
+  "result": {
+    "item": "minecraft:diorite",
+    "count": 1
+  }
+}

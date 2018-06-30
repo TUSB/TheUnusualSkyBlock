@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "///",
+    " / ",
+    "/_/"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:golden_helmet"
+    },
+    "_": {
+      "item": "minecraft:oak_trapdoor"
+    }
+  },
+  "result": {
+    "item": "minecraft:armor_stand",
+    "count": 1
+  }
+}

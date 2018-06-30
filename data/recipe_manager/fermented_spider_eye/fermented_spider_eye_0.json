@@ -1,0 +1,18 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:andesite"
+    },
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "minecraft:jack_o_lantern"
+    }
+  ],
+  "result": {
+    "item": "minecraft:fermented_spider_eye",
+    "count": 1
+  }
+}

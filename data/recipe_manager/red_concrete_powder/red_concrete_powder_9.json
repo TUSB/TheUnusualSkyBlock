@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:black_stained_glass_pane"
+    },
+    {
+      "item": "minecraft:cactus_green"
+    },
+    {
+      "item": "minecraft:jungle_fence_gate"
+    },
+    {
+      "item": "minecraft:oxeye_daisy"
+    },
+    {
+      "item": "minecraft:quartz_block"
+    },
+    {
+      "item": "minecraft:red_sand"
+    },
+    {
+      "item": "minecraft:rose_red"
+    },
+    {
+      "item": "minecraft:stripped_birch_log"
+    },
+    {
+      "item": "minecraft:stripped_jungle_log"
+    }
+  ],
+  "result": {
+    "item": "minecraft:red_concrete_powder",
+    "count": 1
+  }
+}

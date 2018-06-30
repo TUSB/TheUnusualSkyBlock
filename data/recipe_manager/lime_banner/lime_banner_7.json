@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:chest"
+    },
+    "|": {
+      "item": "minecraft:grass"
+    }
+  },
+  "result": {
+    "item": "minecraft:lime_banner",
+    "count": 1
+  }
+}

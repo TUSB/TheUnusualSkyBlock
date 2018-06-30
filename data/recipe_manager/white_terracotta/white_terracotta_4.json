@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brown_terracotta"
+    },
+    "X": {
+      "item": "minecraft:orange_dye"
+    }
+  },
+  "result": {
+    "item": "minecraft:white_terracotta",
+    "count": 1
+  }
+}

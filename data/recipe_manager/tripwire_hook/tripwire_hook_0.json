@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "I",
+    "S",
+    "#"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:horn_coral"
+    },
+    "S": {
+      "item": "minecraft:infested_stone"
+    },
+    "#": {
+      "item": "minecraft:note_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:tripwire_hook",
+    "count": 1
+  }
+}

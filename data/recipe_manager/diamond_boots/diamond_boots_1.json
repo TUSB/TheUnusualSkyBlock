@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:jack_o_lantern"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_boots",
+    "count": 1
+  }
+}

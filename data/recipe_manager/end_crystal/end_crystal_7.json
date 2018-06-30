@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GEG",
+    "GTG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:pink_carpet"
+    },
+    "E": {
+      "item": "minecraft:stripped_acacia_log"
+    },
+    "T": {
+      "item": "minecraft:stripped_dark_oak_bark"
+    }
+  },
+  "result": {
+    "item": "minecraft:end_crystal",
+    "count": 1
+  }
+}

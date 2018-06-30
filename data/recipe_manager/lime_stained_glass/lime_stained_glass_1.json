@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dragon_egg"
+    },
+    "X": {
+      "item": "minecraft:leather_boots"
+    }
+  },
+  "result": {
+    "item": "minecraft:lime_stained_glass",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "CQ",
+    "QC"
+  ],
+  "key": {
+    "C": {
+      "item": "minecraft:end_rod"
+    },
+    "Q": {
+      "item": "minecraft:pumpkin_seeds"
+    }
+  },
+  "result": {
+    "item": "minecraft:diorite",
+    "count": 1
+  }
+}

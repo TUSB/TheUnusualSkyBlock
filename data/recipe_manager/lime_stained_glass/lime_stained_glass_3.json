@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:smooth_red_sandstone"
+    },
+    "X": {
+      "item": "minecraft:tipped_arrow"
+    }
+  },
+  "result": {
+    "item": "minecraft:lime_stained_glass",
+    "count": 1
+  }
+}

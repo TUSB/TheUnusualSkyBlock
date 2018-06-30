@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "A",
+    "B"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:brain_coral_block"
+    },
+    "B": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "minecraft:hopper_minecart",
+    "count": 1
+  }
+}

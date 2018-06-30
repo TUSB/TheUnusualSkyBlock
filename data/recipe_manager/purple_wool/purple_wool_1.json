@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "item": "minecraft:purpur_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:purple_wool",
+    "count": 1
+  }
+}

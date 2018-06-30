@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bubble_coral_fan"
+    }
+  },
+  "result": {
+    "item": "minecraft:pink_stained_glass_pane",
+    "count": 1
+  }
+}

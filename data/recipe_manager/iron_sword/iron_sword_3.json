@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:dark_oak_trapdoor"
+    },
+    "#": {
+      "item": "minecraft:jungle_log"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_sword",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:beetroot"
+    },
+    "X": {
+      "item": "minecraft:stone_sword"
+    }
+  },
+  "result": {
+    "item": "minecraft:blue_terracotta",
+    "count": 1
+  }
+}

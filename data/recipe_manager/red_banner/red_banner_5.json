@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dirt"
+    },
+    "|": {
+      "item": "minecraft:light_gray_carpet"
+    }
+  },
+  "result": {
+    "item": "minecraft:red_banner",
+    "count": 1
+  }
+}

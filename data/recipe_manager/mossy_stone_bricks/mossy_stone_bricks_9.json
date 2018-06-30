@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cut_red_sandstone"
+    },
+    {
+      "item": "minecraft:painting"
+    }
+  ],
+  "result": {
+    "item": "minecraft:mossy_stone_bricks",
+    "count": 1
+  }
+}

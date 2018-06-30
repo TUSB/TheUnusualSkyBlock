@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cactus"
+    },
+    {
+      "item": "minecraft:dandelion_yellow"
+    },
+    {
+      "item": "minecraft:golden_leggings"
+    },
+    {
+      "item": "minecraft:golden_sword"
+    },
+    {
+      "item": "minecraft:lapis_ore"
+    },
+    {
+      "item": "minecraft:light_gray_carpet"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:red_concrete"
+    },
+    {
+      "item": "minecraft:stripped_spruce_bark"
+    }
+  ],
+  "result": {
+    "item": "minecraft:purple_concrete_powder",
+    "count": 1
+  }
+}

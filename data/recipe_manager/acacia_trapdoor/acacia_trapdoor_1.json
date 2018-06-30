@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cut_red_sandstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:acacia_trapdoor",
+    "count": 1
+  }
+}

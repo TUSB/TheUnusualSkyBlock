@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " B ",
+    "D#D",
+    "###"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:black_wool"
+    },
+    "D": {
+      "item": "minecraft:bowl"
+    },
+    "#": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "minecraft:enchanting_table",
+    "count": 1
+  }
+}

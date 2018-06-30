@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:creeper_head"
+    },
+    "X": {
+      "item": "minecraft:yellow_carpet"
+    }
+  },
+  "result": {
+    "item": "minecraft:lime_terracotta",
+    "count": 1
+  }
+}

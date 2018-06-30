@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_fence_gate"
+    },
+    {
+      "item": "minecraft:yellow_concrete"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gray_wool",
+    "count": 1
+  }
+}

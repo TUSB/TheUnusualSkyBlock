@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:baked_potato"
+    },
+    "X": {
+      "item": "minecraft:brown_glazed_terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:magenta_stained_glass",
+    "count": 1
+  }
+}

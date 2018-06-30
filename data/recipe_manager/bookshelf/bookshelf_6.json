@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:red_nether_bricks"
+    },
+    "X": {
+      "item": "minecraft:sticky_piston"
+    }
+  },
+  "result": {
+    "item": "minecraft:bookshelf",
+    "count": 1
+  }
+}

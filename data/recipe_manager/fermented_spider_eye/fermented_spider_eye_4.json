@@ -1,0 +1,18 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brain_coral"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    }
+  ],
+  "result": {
+    "item": "minecraft:fermented_spider_eye",
+    "count": 1
+  }
+}

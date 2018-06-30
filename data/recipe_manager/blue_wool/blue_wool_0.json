@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:black_carpet"
+    },
+    {
+      "item": "minecraft:carrot_on_a_stick"
+    }
+  ],
+  "result": {
+    "item": "minecraft:blue_wool",
+    "count": 1
+  }
+}

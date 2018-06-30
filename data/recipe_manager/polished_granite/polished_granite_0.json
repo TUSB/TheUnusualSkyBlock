@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:cooked_salmon"
+    }
+  },
+  "result": {
+    "item": "minecraft:polished_granite",
+    "count": 1
+  }
+}

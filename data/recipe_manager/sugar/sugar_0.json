@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cactus"
+    }
+  ],
+  "result": {
+    "item": "minecraft:sugar",
+    "count": 1
+  }
+}

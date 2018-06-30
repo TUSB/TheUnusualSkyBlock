@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#",
+    "#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_leggings"
+    }
+  },
+  "result": {
+    "item": "minecraft:stick",
+    "count": 1
+  }
+}

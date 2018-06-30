@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_fence"
+    },
+    {
+      "item": "minecraft:activator_rail"
+    },
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:gray_stained_glass_pane"
+    },
+    {
+      "item": "minecraft:iron_boots"
+    },
+    {
+      "item": "minecraft:iron_ore"
+    },
+    {
+      "item": "minecraft:jungle_fence_gate"
+    },
+    {
+      "item": "minecraft:prismarine_stairs"
+    },
+    {
+      "item": "minecraft:rose_red"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pink_concrete_powder",
+    "count": 1
+  }
+}

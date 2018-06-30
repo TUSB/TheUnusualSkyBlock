@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond_ore"
+    },
+    "X": {
+      "item": "minecraft:dried_kelp_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:jukebox",
+    "count": 1
+  }
+}

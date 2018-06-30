@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:birch_log"
+    },
+    {
+      "item": "minecraft:birch_planks"
+    },
+    {
+      "item": "minecraft:cyan_bed"
+    },
+    {
+      "item": "minecraft:light_blue_bed"
+    },
+    {
+      "item": "minecraft:light_blue_stained_glass_pane"
+    },
+    {
+      "item": "minecraft:pink_terracotta"
+    },
+    {
+      "item": "minecraft:pufferfish"
+    },
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "minecraft:stone_shovel"
+    }
+  ],
+  "result": {
+    "item": "minecraft:black_concrete_powder",
+    "count": 1
+  }
+}

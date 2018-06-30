@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cyan_carpet"
+    },
+    "X": {
+      "item": "minecraft:stone_button"
+    }
+  },
+  "result": {
+    "item": "minecraft:bookshelf",
+    "count": 1
+  }
+}

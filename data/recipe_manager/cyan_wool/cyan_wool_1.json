@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:beetroot_soup"
+    },
+    {
+      "item": "minecraft:cyan_stained_glass_pane"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cyan_wool",
+    "count": 1
+  }
+}

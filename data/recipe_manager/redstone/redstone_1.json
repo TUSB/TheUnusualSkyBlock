@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:writable_book"
+    }
+  ],
+  "result": {
+    "item": "minecraft:redstone",
+    "count": 1
+  }
+}

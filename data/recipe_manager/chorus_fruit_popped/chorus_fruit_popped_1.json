@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:netherrack"
+    }
+  ],
+  "result": {
+    "item": "minecraft:chorus_fruit_popped",
+    "count": 1
+  }
+}

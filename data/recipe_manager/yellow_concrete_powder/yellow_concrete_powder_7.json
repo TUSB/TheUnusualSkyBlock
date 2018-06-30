@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_button"
+    },
+    {
+      "item": "minecraft:birch_boat"
+    },
+    {
+      "item": "minecraft:birch_trapdoor"
+    },
+    {
+      "item": "minecraft:black_banner"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    },
+    {
+      "item": "minecraft:purpur_slab"
+    },
+    {
+      "item": "minecraft:repeater"
+    },
+    {
+      "item": "minecraft:sunflower"
+    }
+  ],
+  "result": {
+    "item": "minecraft:yellow_concrete_powder",
+    "count": 1
+  }
+}

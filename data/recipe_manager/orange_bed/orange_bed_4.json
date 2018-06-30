@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_door"
+    },
+    "X": {
+      "item": "minecraft:dark_prismarine_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:orange_bed",
+    "count": 1
+  }
+}

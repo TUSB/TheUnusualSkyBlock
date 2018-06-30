@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gray_wool"
+    },
+    "X": {
+      "item": "minecraft:prismarine_bricks"
+    }
+  },
+  "result": {
+    "item": "minecraft:light_gray_bed",
+    "count": 1
+  }
+}

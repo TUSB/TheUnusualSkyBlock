@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:seagrass"
+    }
+  },
+  "result": {
+    "item": "minecraft:cyan_stained_glass_pane",
+    "count": 1
+  }
+}

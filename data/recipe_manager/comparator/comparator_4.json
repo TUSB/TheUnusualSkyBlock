@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:horn_coral_fan"
+    },
+    "X": {
+      "item": "minecraft:magma_cream"
+    },
+    "I": {
+      "item": "minecraft:nether_wart_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:comparator",
+    "count": 1
+  }
+}

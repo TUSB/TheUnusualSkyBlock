@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "QQQ",
+    "WWW"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:acacia_door"
+    },
+    "Q": {
+      "item": "minecraft:filled_map"
+    },
+    "W": {
+      "item": "minecraft:heart_of_the_sea"
+    }
+  },
+  "result": {
+    "item": "minecraft:daylight_detector",
+    "count": 1
+  }
+}

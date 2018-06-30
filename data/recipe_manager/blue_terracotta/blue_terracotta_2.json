@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:birch_slab"
+    },
+    "X": {
+      "item": "minecraft:leather_helmet"
+    }
+  },
+  "result": {
+    "item": "minecraft:blue_terracotta",
+    "count": 1
+  }
+}

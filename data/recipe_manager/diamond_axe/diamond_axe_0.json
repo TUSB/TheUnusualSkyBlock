@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:coal"
+    },
+    "#": {
+      "item": "minecraft:fire_charge"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_axe",
+    "count": 1
+  }
+}

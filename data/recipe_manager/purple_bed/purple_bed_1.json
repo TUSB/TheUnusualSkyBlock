@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:beetroot_seeds"
+    },
+    "X": {
+      "item": "minecraft:oak_leaves"
+    }
+  },
+  "result": {
+    "item": "minecraft:purple_bed",
+    "count": 1
+  }
+}

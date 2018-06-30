@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brown_stained_glass_pane"
+    },
+    "X": {
+      "item": "minecraft:stone_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:bookshelf",
+    "count": 1
+  }
+}

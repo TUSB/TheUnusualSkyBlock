@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:magma_block"
+    },
+    "W": {
+      "item": "minecraft:rabbit_hide"
+    }
+  },
+  "result": {
+    "item": "minecraft:birch_fence_gate",
+    "count": 1
+  }
+}

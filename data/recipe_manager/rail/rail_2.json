@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "X#X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:golden_carrot"
+    },
+    "#": {
+      "item": "minecraft:iron_horse_armor"
+    }
+  },
+  "result": {
+    "item": "minecraft:rail",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_trapdoor"
+    },
+    "#": {
+      "item": "minecraft:pink_stained_glass_pane"
+    }
+  },
+  "result": {
+    "item": "minecraft:torch",
+    "count": 1
+  }
+}

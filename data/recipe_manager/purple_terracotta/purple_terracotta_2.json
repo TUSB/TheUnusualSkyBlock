@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:arrow"
+    },
+    "X": {
+      "item": "minecraft:dandelion"
+    }
+  },
+  "result": {
+    "item": "minecraft:purple_terracotta",
+    "count": 1
+  }
+}

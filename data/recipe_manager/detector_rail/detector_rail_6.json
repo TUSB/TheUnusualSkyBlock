@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "X#X",
+    "XRX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:cobblestone_stairs"
+    },
+    "#": {
+      "item": "minecraft:fire_coral_block"
+    },
+    "R": {
+      "item": "minecraft:sandstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:detector_rail",
+    "count": 1
+  }
+}

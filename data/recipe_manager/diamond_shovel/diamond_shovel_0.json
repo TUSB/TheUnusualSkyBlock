@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:heart_of_the_sea"
+    },
+    "#": {
+      "item": "minecraft:orange_stained_glass_pane"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_shovel",
+    "count": 1
+  }
+}

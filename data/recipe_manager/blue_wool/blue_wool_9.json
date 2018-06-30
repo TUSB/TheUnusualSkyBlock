@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:light_blue_glazed_terracotta"
+    },
+    {
+      "item": "minecraft:nautilus_shell"
+    }
+  ],
+  "result": {
+    "item": "minecraft:blue_wool",
+    "count": 1
+  }
+}

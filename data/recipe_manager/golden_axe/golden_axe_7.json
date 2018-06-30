@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:gray_carpet"
+    },
+    "#": {
+      "item": "minecraft:phantom_membrane"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_axe",
+    "count": 1
+  }
+}

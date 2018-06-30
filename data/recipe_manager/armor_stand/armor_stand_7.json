@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "///",
+    " / ",
+    "/_/"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:dirt"
+    },
+    "_": {
+      "item": "minecraft:lever"
+    }
+  },
+  "result": {
+    "item": "minecraft:armor_stand",
+    "count": 1
+  }
+}

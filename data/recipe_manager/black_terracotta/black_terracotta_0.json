@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:birch_fence_gate"
+    },
+    "X": {
+      "item": "minecraft:spruce_sapling"
+    }
+  },
+  "result": {
+    "item": "minecraft:black_terracotta",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "QQQ",
+    "WWW"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:diamond"
+    },
+    "Q": {
+      "item": "minecraft:oak_fence_gate"
+    },
+    "W": {
+      "item": "minecraft:yellow_shulker_box"
+    }
+  },
+  "result": {
+    "item": "minecraft:daylight_detector",
+    "count": 1
+  }
+}

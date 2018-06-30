@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:chiseled_sandstone"
+    },
+    {
+      "item": "minecraft:green_concrete"
+    },
+    {
+      "item": "minecraft:jungle_fence"
+    },
+    {
+      "item": "minecraft:nether_bricks"
+    },
+    {
+      "item": "minecraft:orange_concrete_powder"
+    },
+    {
+      "item": "minecraft:prismarine_slab"
+    },
+    {
+      "item": "minecraft:red_wool"
+    },
+    {
+      "item": "minecraft:soul_sand"
+    },
+    {
+      "item": "minecraft:yellow_banner"
+    }
+  ],
+  "result": {
+    "item": "minecraft:white_concrete_powder",
+    "count": 1
+  }
+}

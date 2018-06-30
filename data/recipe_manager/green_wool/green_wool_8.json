@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:chicken"
+    },
+    {
+      "item": "minecraft:lime_shulker_box"
+    }
+  ],
+  "result": {
+    "item": "minecraft:green_wool",
+    "count": 1
+  }
+}

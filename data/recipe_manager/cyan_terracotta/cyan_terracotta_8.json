@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lime_glazed_terracotta"
+    },
+    "X": {
+      "item": "minecraft:white_bed"
+    }
+  },
+  "result": {
+    "item": "minecraft:cyan_terracotta",
+    "count": 1
+  }
+}

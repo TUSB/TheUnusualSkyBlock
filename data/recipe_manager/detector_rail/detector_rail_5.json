@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "X#X",
+    "XRX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:brain_coral_block"
+    },
+    "#": {
+      "item": "minecraft:glass_bottle"
+    },
+    "R": {
+      "item": "minecraft:skeleton_skull"
+    }
+  },
+  "result": {
+    "item": "minecraft:detector_rail",
+    "count": 1
+  }
+}

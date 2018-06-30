@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GSG",
+    "OOO"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:map"
+    },
+    "S": {
+      "item": "minecraft:orange_dye"
+    },
+    "O": {
+      "item": "minecraft:peony"
+    }
+  },
+  "result": {
+    "item": "minecraft:beacon",
+    "count": 1
+  }
+}

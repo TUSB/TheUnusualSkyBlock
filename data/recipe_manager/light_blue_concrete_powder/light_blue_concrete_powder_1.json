@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:arrow"
+    },
+    {
+      "item": "minecraft:baked_potato"
+    },
+    {
+      "item": "minecraft:blue_wool"
+    },
+    {
+      "item": "minecraft:brown_terracotta"
+    },
+    {
+      "item": "minecraft:grass"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:light_blue_shulker_box"
+    },
+    {
+      "item": "minecraft:light_gray_dye"
+    },
+    {
+      "item": "minecraft:stone_brick_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:light_blue_concrete_powder",
+    "count": 1
+  }
+}

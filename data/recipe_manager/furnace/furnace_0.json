@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:snow_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:furnace",
+    "count": 1
+  }
+}

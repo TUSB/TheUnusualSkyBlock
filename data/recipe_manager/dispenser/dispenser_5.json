@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "#R#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:golden_chestplate"
+    },
+    "X": {
+      "item": "minecraft:light_gray_terracotta"
+    },
+    "R": {
+      "item": "minecraft:stripped_birch_log"
+    }
+  },
+  "result": {
+    "item": "minecraft:dispenser",
+    "count": 1
+  }
+}

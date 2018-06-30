@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "WoW",
+    "WWW",
+    " W "
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:acacia_fence_gate"
+    },
+    "o": {
+      "item": "minecraft:dark_oak_bark"
+    }
+  },
+  "result": {
+    "item": "minecraft:shield",
+    "count": 1
+  }
+}

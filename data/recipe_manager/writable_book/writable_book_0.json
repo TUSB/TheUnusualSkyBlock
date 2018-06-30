@@ -1,0 +1,18 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:birch_log"
+    },
+    {
+      "item": "minecraft:black_concrete_powder"
+    },
+    {
+      "item": "minecraft:red_concrete"
+    }
+  ],
+  "result": {
+    "item": "minecraft:writable_book",
+    "count": 1
+  }
+}

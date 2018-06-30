@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_bed"
+    },
+    {
+      "item": "minecraft:chorus_fruit"
+    },
+    {
+      "item": "minecraft:chorus_plant"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    },
+    {
+      "item": "minecraft:detector_rail"
+    },
+    {
+      "item": "minecraft:diamond_boots"
+    },
+    {
+      "item": "minecraft:shulker_shell"
+    },
+    {
+      "item": "minecraft:wooden_pickaxe"
+    },
+    {
+      "item": "minecraft:zombie_head"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gray_concrete_powder",
+    "count": 1
+  }
+}

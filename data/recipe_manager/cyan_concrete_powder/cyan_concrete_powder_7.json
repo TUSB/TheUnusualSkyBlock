@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_orchid"
+    },
+    {
+      "item": "minecraft:flint_and_steel"
+    },
+    {
+      "item": "minecraft:glowstone_dust"
+    },
+    {
+      "item": "minecraft:grass_block"
+    },
+    {
+      "item": "minecraft:magenta_banner"
+    },
+    {
+      "item": "minecraft:pink_shulker_box"
+    },
+    {
+      "item": "minecraft:quartz_pillar"
+    },
+    {
+      "item": "minecraft:stripped_dark_oak_bark"
+    },
+    {
+      "item": "minecraft:yellow_carpet"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cyan_concrete_powder",
+    "count": 1
+  }
+}

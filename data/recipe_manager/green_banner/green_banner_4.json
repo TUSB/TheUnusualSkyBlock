@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:birch_leaves"
+    },
+    "|": {
+      "item": "minecraft:tube_coral_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:green_banner",
+    "count": 1
+  }
+}

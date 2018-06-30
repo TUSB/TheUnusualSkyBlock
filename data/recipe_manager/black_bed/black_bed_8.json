@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_planks"
+    },
+    "X": {
+      "item": "minecraft:chainmail_boots"
+    }
+  },
+  "result": {
+    "item": "minecraft:black_bed",
+    "count": 1
+  }
+}

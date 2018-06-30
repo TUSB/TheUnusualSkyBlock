@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "///",
+    " / ",
+    "/_/"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:leather_boots"
+    },
+    "_": {
+      "item": "minecraft:red_shulker_box"
+    }
+  },
+  "result": {
+    "item": "minecraft:armor_stand",
+    "count": 1
+  }
+}

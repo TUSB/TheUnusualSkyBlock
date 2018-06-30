@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:black_stained_glass_pane"
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:dead_tube_coral_block"
+    },
+    {
+      "item": "minecraft:ladder"
+    },
+    {
+      "item": "minecraft:light_gray_concrete"
+    },
+    {
+      "item": "minecraft:painting"
+    },
+    {
+      "item": "minecraft:rabbit_hide"
+    },
+    {
+      "item": "minecraft:red_wool"
+    },
+    {
+      "item": "minecraft:smooth_quartz"
+    }
+  ],
+  "result": {
+    "item": "minecraft:lime_concrete_powder",
+    "count": 1
+  }
+}

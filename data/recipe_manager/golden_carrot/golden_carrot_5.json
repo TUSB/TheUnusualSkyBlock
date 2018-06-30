@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:ice"
+    },
+    "X": {
+      "item": "minecraft:jungle_trapdoor"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_carrot",
+    "count": 1
+  }
+}

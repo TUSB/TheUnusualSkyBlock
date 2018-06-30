@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:black_wool"
+    },
+    {
+      "item": "minecraft:clay"
+    },
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "item": "minecraft:diamond_helmet"
+    },
+    {
+      "item": "minecraft:jungle_button"
+    },
+    {
+      "item": "minecraft:prismarine_shard"
+    },
+    {
+      "item": "minecraft:purpur_pillar"
+    },
+    {
+      "item": "minecraft:redstone_torch"
+    },
+    {
+      "item": "minecraft:spruce_planks"
+    }
+  ],
+  "result": {
+    "item": "minecraft:lime_concrete_powder",
+    "count": 1
+  }
+}

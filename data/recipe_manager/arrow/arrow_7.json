@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "Y"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:baked_potato"
+    },
+    "#": {
+      "item": "minecraft:milk_bucket"
+    },
+    "Y": {
+      "item": "minecraft:spruce_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:arrow",
+    "count": 1
+  }
+}

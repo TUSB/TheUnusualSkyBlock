@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "DG",
+    "GD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:dark_oak_trapdoor"
+    },
+    "G": {
+      "item": "minecraft:smooth_stone"
+    }
+  },
+  "result": {
+    "item": "minecraft:coarse_dirt",
+    "count": 1
+  }
+}

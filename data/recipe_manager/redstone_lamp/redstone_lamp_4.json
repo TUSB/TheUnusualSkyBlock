@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " R ",
+    "RGR",
+    " R "
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:acacia_fence_gate"
+    },
+    "G": {
+      "item": "minecraft:melon_seeds"
+    }
+  },
+  "result": {
+    "item": "minecraft:redstone_lamp",
+    "count": 1
+  }
+}

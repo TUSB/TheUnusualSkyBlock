@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_helmet"
+    },
+    "X": {
+      "item": "minecraft:orange_wool"
+    }
+  },
+  "result": {
+    "item": "minecraft:black_bed",
+    "count": 1
+  }
+}

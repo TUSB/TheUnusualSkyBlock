@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:beef"
+    },
+    "X": {
+      "item": "minecraft:yellow_concrete"
+    }
+  },
+  "result": {
+    "item": "minecraft:gray_stained_glass",
+    "count": 1
+  }
+}

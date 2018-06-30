@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:light_gray_dye"
+    },
+    {
+      "item": "minecraft:polished_andesite"
+    }
+  ],
+  "result": {
+    "item": "minecraft:magma_cream",
+    "count": 1
+  }
+}

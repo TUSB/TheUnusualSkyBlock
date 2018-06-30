@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:hopper_minecart"
+    },
+    "X": {
+      "item": "minecraft:petrified_oak_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:white_stained_glass",
+    "count": 1
+  }
+}

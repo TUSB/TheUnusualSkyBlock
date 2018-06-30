@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:item_frame"
+    },
+    "X": {
+      "item": "minecraft:prismarine_bricks"
+    }
+  },
+  "result": {
+    "item": "minecraft:green_bed",
+    "count": 1
+  }
+}

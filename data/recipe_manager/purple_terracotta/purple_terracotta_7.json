@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:black_carpet"
+    },
+    "X": {
+      "item": "minecraft:coarse_dirt"
+    }
+  },
+  "result": {
+    "item": "minecraft:purple_terracotta",
+    "count": 1
+  }
+}

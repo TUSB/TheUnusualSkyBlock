@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:birch_button"
+    },
+    {
+      "item": "minecraft:cooked_salmon"
+    },
+    {
+      "item": "minecraft:dragon_head"
+    },
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:oak_bark"
+    },
+    {
+      "item": "minecraft:orange_stained_glass"
+    },
+    {
+      "item": "minecraft:rabbit"
+    },
+    {
+      "item": "minecraft:red_stained_glass_pane"
+    },
+    {
+      "item": "minecraft:yellow_shulker_box"
+    }
+  ],
+  "result": {
+    "item": "minecraft:yellow_concrete_powder",
+    "count": 1
+  }
+}

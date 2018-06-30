@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "I",
+    "S",
+    "#"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:birch_door"
+    },
+    "S": {
+      "item": "minecraft:cobweb"
+    },
+    "#": {
+      "item": "minecraft:mossy_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "minecraft:tripwire_hook",
+    "count": 1
+  }
+}

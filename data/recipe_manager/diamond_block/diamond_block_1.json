@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:hay_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_block",
+    "count": 1
+  }
+}

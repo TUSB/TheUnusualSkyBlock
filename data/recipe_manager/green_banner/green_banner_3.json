@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:light_gray_stained_glass"
+    },
+    "|": {
+      "item": "minecraft:spruce_door"
+    }
+  },
+  "result": {
+    "item": "minecraft:green_banner",
+    "count": 1
+  }
+}

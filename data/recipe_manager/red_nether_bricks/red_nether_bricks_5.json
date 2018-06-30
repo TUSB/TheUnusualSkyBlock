@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "NW",
+    "WN"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:acacia_stairs"
+    },
+    "W": {
+      "item": "minecraft:purpur_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:red_nether_bricks",
+    "count": 1
+  }
+}

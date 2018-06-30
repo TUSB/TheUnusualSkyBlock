@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:dark_oak_leaves"
+    }
+  ],
+  "result": {
+    "item": "minecraft:light_blue_wool",
+    "count": 1
+  }
+}

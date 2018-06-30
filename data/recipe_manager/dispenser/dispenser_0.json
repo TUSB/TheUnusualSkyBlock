@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "#R#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:chainmail_leggings"
+    },
+    "X": {
+      "item": "minecraft:light_blue_shulker_box"
+    },
+    "R": {
+      "item": "minecraft:purple_bed"
+    }
+  },
+  "result": {
+    "item": "minecraft:dispenser",
+    "count": 1
+  }
+}

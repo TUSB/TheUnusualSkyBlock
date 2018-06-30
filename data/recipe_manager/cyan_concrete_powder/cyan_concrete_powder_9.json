@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:cyan_concrete_powder"
+    },
+    {
+      "item": "minecraft:diamond_ore"
+    },
+    {
+      "item": "minecraft:dropper"
+    },
+    {
+      "item": "minecraft:flower_pot"
+    },
+    {
+      "item": "minecraft:iron_horse_armor"
+    },
+    {
+      "item": "minecraft:oak_slab"
+    },
+    {
+      "item": "minecraft:red_tulip"
+    },
+    {
+      "item": "minecraft:zombie_head"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cyan_concrete_powder",
+    "count": 1
+  }
+}

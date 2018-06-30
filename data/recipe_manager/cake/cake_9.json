@@ -1,0 +1,26 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BEB",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:cut_red_sandstone"
+    },
+    "B": {
+      "item": "minecraft:diamond_block"
+    },
+    "E": {
+      "item": "minecraft:pink_tulip"
+    },
+    "C": {
+      "item": "minecraft:snowball"
+    }
+  },
+  "result": {
+    "item": "minecraft:cake",
+    "count": 1
+  }
+}

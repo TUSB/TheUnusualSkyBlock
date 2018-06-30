@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:fishing_rod"
+    },
+    "X": {
+      "item": "minecraft:purple_wool"
+    }
+  },
+  "result": {
+    "item": "minecraft:white_bed",
+    "count": 1
+  }
+}

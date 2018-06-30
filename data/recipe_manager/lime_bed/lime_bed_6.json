@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:feather"
+    },
+    "X": {
+      "item": "minecraft:spruce_fence"
+    }
+  },
+  "result": {
+    "item": "minecraft:lime_bed",
+    "count": 1
+  }
+}

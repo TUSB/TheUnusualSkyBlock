@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:carrot"
+    },
+    {
+      "item": "minecraft:cobblestone_wall"
+    },
+    {
+      "item": "minecraft:dark_oak_door"
+    },
+    {
+      "item": "minecraft:dragon_egg"
+    },
+    {
+      "item": "minecraft:dried_kelp_block"
+    },
+    {
+      "item": "minecraft:gray_concrete_powder"
+    },
+    {
+      "item": "minecraft:purple_stained_glass"
+    },
+    {
+      "item": "minecraft:stripped_oak_log"
+    },
+    {
+      "item": "minecraft:sugar_cane"
+    }
+  ],
+  "result": {
+    "item": "minecraft:white_concrete_powder",
+    "count": 1
+  }
+}

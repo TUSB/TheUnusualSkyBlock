@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GSG",
+    "OOO"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:black_glazed_terracotta"
+    },
+    "S": {
+      "item": "minecraft:dragon_head"
+    },
+    "O": {
+      "item": "minecraft:iron_leggings"
+    }
+  },
+  "result": {
+    "item": "minecraft:beacon",
+    "count": 1
+  }
+}

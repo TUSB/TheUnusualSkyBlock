@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:birch_leaves"
+    },
+    "W": {
+      "item": "minecraft:black_carpet"
+    }
+  },
+  "result": {
+    "item": "minecraft:dark_oak_fence_gate",
+    "count": 1
+  }
+}

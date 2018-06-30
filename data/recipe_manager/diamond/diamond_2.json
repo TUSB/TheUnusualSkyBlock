@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_button"
+    }
+  ],
+  "result": {
+    "item": "minecraft:diamond",
+    "count": 1
+  }
+}

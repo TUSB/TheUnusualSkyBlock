@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lime_shulker_box"
+    },
+    "|": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "item": "minecraft:orange_banner",
+    "count": 1
+  }
+}

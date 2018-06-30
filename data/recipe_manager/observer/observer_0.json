@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "RRQ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cyan_carpet"
+    },
+    "R": {
+      "item": "minecraft:kelp"
+    },
+    "Q": {
+      "item": "minecraft:prismarine_bricks"
+    }
+  },
+  "result": {
+    "item": "minecraft:observer",
+    "count": 1
+  }
+}

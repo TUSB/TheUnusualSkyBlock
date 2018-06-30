@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:clownfish"
+    },
+    {
+      "item": "minecraft:diamond_chestplate"
+    },
+    {
+      "item": "minecraft:jungle_trapdoor"
+    },
+    {
+      "item": "minecraft:melon_seeds"
+    },
+    {
+      "item": "minecraft:petrified_oak_slab"
+    },
+    {
+      "item": "minecraft:purpur_stairs"
+    },
+    {
+      "item": "minecraft:smooth_stone"
+    },
+    {
+      "item": "minecraft:stone"
+    },
+    {
+      "item": "minecraft:white_stained_glass"
+    }
+  ],
+  "result": {
+    "item": "minecraft:black_concrete_powder",
+    "count": 1
+  }
+}

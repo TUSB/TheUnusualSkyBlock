@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SIS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:acacia_stairs"
+    },
+    "I": {
+      "item": "minecraft:fern"
+    }
+  },
+  "result": {
+    "item": "minecraft:dark_prismarine",
+    "count": 1
+  }
+}

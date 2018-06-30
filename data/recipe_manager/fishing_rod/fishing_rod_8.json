@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "  #",
+    " #X",
+    "# X"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:granite"
+    },
+    "X": {
+      "item": "minecraft:purple_glazed_terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:fishing_rod",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:golden_carrot"
+    },
+    "X": {
+      "item": "minecraft:white_terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:white_stained_glass",
+    "count": 1
+  }
+}

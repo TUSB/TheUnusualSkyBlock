@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "X#X",
+    "XRX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "#": {
+      "item": "minecraft:slime_ball"
+    },
+    "R": {
+      "item": "minecraft:yellow_glazed_terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:detector_rail",
+    "count": 1
+  }
+}

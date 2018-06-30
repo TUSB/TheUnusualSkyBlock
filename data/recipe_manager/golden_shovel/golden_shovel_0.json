@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:lime_bed"
+    },
+    "#": {
+      "item": "minecraft:smooth_red_sandstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_shovel",
+    "count": 1
+  }
+}

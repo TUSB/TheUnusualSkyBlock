@@ -1,0 +1,26 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "TTT",
+    "#X#",
+    "#R#"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:coarse_dirt"
+    },
+    "#": {
+      "item": "minecraft:infested_cracked_stone_bricks"
+    },
+    "X": {
+      "item": "minecraft:yellow_bed"
+    },
+    "R": {
+      "item": "minecraft:yellow_glazed_terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:piston",
+    "count": 1
+  }
+}

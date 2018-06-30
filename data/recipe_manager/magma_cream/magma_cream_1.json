@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:map"
+    },
+    {
+      "item": "minecraft:painting"
+    }
+  ],
+  "result": {
+    "item": "minecraft:magma_cream",
+    "count": 1
+  }
+}

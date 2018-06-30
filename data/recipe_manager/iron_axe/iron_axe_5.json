@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:peony"
+    },
+    "#": {
+      "item": "minecraft:purple_bed"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_axe",
+    "count": 1
+  }
+}

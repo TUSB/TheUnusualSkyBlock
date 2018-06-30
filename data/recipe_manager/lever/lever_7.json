@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:clay_ball"
+    },
+    "#": {
+      "item": "minecraft:leather_chestplate"
+    }
+  },
+  "result": {
+    "item": "minecraft:lever",
+    "count": 1
+  }
+}

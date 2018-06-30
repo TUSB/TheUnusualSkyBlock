@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:carrot"
+    },
+    "X": {
+      "item": "minecraft:poisonous_potato"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_apple",
+    "count": 1
+  }
+}

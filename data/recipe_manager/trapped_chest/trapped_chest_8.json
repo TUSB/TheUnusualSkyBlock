@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:jungle_door"
+    },
+    {
+      "item": "minecraft:nether_wart"
+    }
+  ],
+  "result": {
+    "item": "minecraft:trapped_chest",
+    "count": 1
+  }
+}

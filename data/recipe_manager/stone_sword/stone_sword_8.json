@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:cooked_cod"
+    },
+    "#": {
+      "item": "minecraft:prismarine_brick_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:stone_sword",
+    "count": 1
+  }
+}

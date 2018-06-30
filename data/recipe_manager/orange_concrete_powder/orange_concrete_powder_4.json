@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:anvil"
+    },
+    {
+      "item": "minecraft:filled_map"
+    },
+    {
+      "item": "minecraft:green_bed"
+    },
+    {
+      "item": "minecraft:hopper_minecart"
+    },
+    {
+      "item": "minecraft:light_blue_wool"
+    },
+    {
+      "item": "minecraft:pink_concrete"
+    },
+    {
+      "item": "minecraft:pumpkin_seeds"
+    },
+    {
+      "item": "minecraft:quartz"
+    },
+    {
+      "item": "minecraft:zombie_head"
+    }
+  ],
+  "result": {
+    "item": "minecraft:orange_concrete_powder",
+    "count": 1
+  }
+}

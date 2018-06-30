@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:andesite"
+    },
+    "X": {
+      "item": "minecraft:golden_apple"
+    }
+  },
+  "result": {
+    "item": "minecraft:lime_bed",
+    "count": 1
+  }
+}

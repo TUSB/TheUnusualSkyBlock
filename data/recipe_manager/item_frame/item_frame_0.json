@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:polished_andesite"
+    },
+    "X": {
+      "item": "minecraft:pumpkin_pie"
+    }
+  },
+  "result": {
+    "item": "minecraft:item_frame",
+    "count": 1
+  }
+}

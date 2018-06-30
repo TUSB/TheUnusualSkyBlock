@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brown_stained_glass_pane"
+    },
+    "X": {
+      "item": "minecraft:oak_door"
+    }
+  },
+  "result": {
+    "item": "minecraft:glistering_melon_slice",
+    "count": 1
+  }
+}

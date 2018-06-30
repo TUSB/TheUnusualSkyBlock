@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "X#X",
+    "XRX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:birch_stairs"
+    },
+    "#": {
+      "item": "minecraft:dark_oak_sapling"
+    },
+    "R": {
+      "item": "minecraft:diamond_helmet"
+    }
+  },
+  "result": {
+    "item": "minecraft:detector_rail",
+    "count": 1
+  }
+}

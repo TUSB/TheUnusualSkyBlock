@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:magenta_terracotta"
+    },
+    "|": {
+      "item": "minecraft:pumpkin"
+    }
+  },
+  "result": {
+    "item": "minecraft:light_gray_banner",
+    "count": 1
+  }
+}

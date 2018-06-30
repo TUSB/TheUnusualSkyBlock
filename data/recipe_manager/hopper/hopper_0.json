@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "I I",
+    "ICI",
+    " I "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:birch_button"
+    },
+    "C": {
+      "item": "minecraft:carrot"
+    }
+  },
+  "result": {
+    "item": "minecraft:hopper",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:white_concrete"
+    }
+  },
+  "result": {
+    "item": "minecraft:paper",
+    "count": 1
+  }
+}

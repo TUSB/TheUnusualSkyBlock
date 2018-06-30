@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cyan_stained_glass"
+    },
+    {
+      "item": "minecraft:dark_oak_button"
+    }
+  ],
+  "result": {
+    "item": "minecraft:lime_wool",
+    "count": 1
+  }
+}

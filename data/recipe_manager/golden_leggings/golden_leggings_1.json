@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:dirt"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_leggings",
+    "count": 1
+  }
+}

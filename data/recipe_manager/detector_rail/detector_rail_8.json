@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "X#X",
+    "XRX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:brown_stained_glass"
+    },
+    "#": {
+      "item": "minecraft:poppy"
+    },
+    "R": {
+      "item": "minecraft:prismarine_shard"
+    }
+  },
+  "result": {
+    "item": "minecraft:detector_rail",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:white_stained_glass"
+    },
+    "W": {
+      "item": "minecraft:wooden_sword"
+    }
+  },
+  "result": {
+    "item": "minecraft:dark_oak_fence_gate",
+    "count": 1
+  }
+}

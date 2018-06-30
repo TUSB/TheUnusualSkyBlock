@@ -1,0 +1,22 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#X#",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:blue_stained_glass"
+    },
+    "X": {
+      "item": "minecraft:spruce_bark"
+    },
+    "I": {
+      "item": "minecraft:spruce_fence"
+    }
+  },
+  "result": {
+    "item": "minecraft:repeater",
+    "count": 1
+  }
+}

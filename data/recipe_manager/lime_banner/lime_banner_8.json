@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brown_shulker_box"
+    },
+    "|": {
+      "item": "minecraft:ender_eye"
+    }
+  },
+  "result": {
+    "item": "minecraft:lime_banner",
+    "count": 1
+  }
+}

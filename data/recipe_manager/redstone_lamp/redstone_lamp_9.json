@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " R ",
+    "RGR",
+    " R "
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:light_blue_concrete"
+    },
+    "G": {
+      "item": "minecraft:lime_dye"
+    }
+  },
+  "result": {
+    "item": "minecraft:redstone_lamp",
+    "count": 1
+  }
+}

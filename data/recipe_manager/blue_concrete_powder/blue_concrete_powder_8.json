@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:beetroot_soup"
+    },
+    {
+      "item": "minecraft:chest_minecart"
+    },
+    {
+      "item": "minecraft:cyan_bed"
+    },
+    {
+      "item": "minecraft:dark_oak_trapdoor"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "minecraft:light_gray_carpet"
+    },
+    {
+      "item": "minecraft:orange_carpet"
+    },
+    {
+      "item": "minecraft:slime_block"
+    },
+    {
+      "item": "minecraft:totem_of_undying"
+    }
+  ],
+  "result": {
+    "item": "minecraft:blue_concrete_powder",
+    "count": 1
+  }
+}

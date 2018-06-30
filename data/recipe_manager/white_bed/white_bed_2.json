@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_chestplate"
+    },
+    "X": {
+      "item": "minecraft:nether_wart"
+    }
+  },
+  "result": {
+    "item": "minecraft:white_bed",
+    "count": 1
+  }
+}

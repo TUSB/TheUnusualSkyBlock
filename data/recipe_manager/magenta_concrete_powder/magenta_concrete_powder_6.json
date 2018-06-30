@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:allium"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "minecraft:birch_boat"
+    },
+    {
+      "item": "minecraft:chicken"
+    },
+    {
+      "item": "minecraft:glass_pane"
+    },
+    {
+      "item": "minecraft:orange_stained_glass_pane"
+    },
+    {
+      "item": "minecraft:red_mushroom_block"
+    },
+    {
+      "item": "minecraft:sandstone_stairs"
+    },
+    {
+      "item": "minecraft:stone_slab"
+    }
+  ],
+  "result": {
+    "item": "minecraft:magenta_concrete_powder",
+    "count": 1
+  }
+}

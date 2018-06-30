@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brown_terracotta"
+    },
+    "|": {
+      "item": "minecraft:dead_tube_coral_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:purple_banner",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:orange_stained_glass_pane"
+    },
+    {
+      "item": "minecraft:red_nether_bricks"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pink_wool",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:azure_bluet"
+    },
+    {
+      "item": "minecraft:nether_brick"
+    }
+  ],
+  "result": {
+    "item": "minecraft:lime_dye",
+    "count": 1
+  }
+}

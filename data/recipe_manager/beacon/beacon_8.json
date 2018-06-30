@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GSG",
+    "OOO"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:blue_ice"
+    },
+    "S": {
+      "item": "minecraft:chorus_fruit_popped"
+    },
+    "O": {
+      "item": "minecraft:dark_oak_fence"
+    }
+  },
+  "result": {
+    "item": "minecraft:beacon",
+    "count": 1
+  }
+}

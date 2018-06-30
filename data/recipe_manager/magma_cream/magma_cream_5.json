@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cooked_chicken"
+    },
+    {
+      "item": "minecraft:dark_oak_slab"
+    }
+  ],
+  "result": {
+    "item": "minecraft:magma_cream",
+    "count": 1
+  }
+}

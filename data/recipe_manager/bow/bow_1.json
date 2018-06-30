@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " #X",
+    "# X",
+    " #X"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:red_stained_glass_pane"
+    },
+    "X": {
+      "item": "minecraft:stone_pickaxe"
+    }
+  },
+  "result": {
+    "item": "minecraft:bow",
+    "count": 1
+  }
+}

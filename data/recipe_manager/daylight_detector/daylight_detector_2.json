@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "QQQ",
+    "WWW"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:acacia_fence"
+    },
+    "Q": {
+      "item": "minecraft:blue_orchid"
+    },
+    "W": {
+      "item": "minecraft:jungle_sapling"
+    }
+  },
+  "result": {
+    "item": "minecraft:daylight_detector",
+    "count": 1
+  }
+}

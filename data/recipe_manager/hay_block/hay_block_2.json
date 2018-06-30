@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:redstone_torch"
+    }
+  },
+  "result": {
+    "item": "minecraft:hay_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dark_oak_fence_gate"
+    },
+    {
+      "item": "minecraft:granite"
+    },
+    {
+      "item": "minecraft:hopper"
+    },
+    {
+      "item": "minecraft:infested_mossy_stone_bricks"
+    },
+    {
+      "item": "minecraft:light_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:lime_wool"
+    },
+    {
+      "item": "minecraft:red_mushroom"
+    },
+    {
+      "item": "minecraft:saddle"
+    },
+    {
+      "item": "minecraft:stripped_dark_oak_bark"
+    }
+  ],
+  "result": {
+    "item": "minecraft:orange_concrete_powder",
+    "count": 1
+  }
+}

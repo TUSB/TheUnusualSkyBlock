@@ -1,0 +1,22 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#X#",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:emerald"
+    },
+    "X": {
+      "item": "minecraft:pink_shulker_box"
+    },
+    "I": {
+      "item": "minecraft:sandstone_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:repeater",
+    "count": 1
+  }
+}

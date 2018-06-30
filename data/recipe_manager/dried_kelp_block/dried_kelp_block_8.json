@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:clock"
+    },
+    {
+      "item": "minecraft:feather"
+    },
+    {
+      "item": "minecraft:light_gray_carpet"
+    },
+    {
+      "item": "minecraft:nether_quartz_ore"
+    },
+    {
+      "item": "minecraft:sandstone_slab"
+    },
+    {
+      "item": "minecraft:stone_brick_slab"
+    },
+    {
+      "item": "minecraft:stone_pickaxe"
+    },
+    {
+      "item": "minecraft:wooden_sword"
+    }
+  ],
+  "result": {
+    "item": "minecraft:dried_kelp_block",
+    "count": 1
+  }
+}

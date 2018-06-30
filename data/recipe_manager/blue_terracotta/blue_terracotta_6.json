@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:slime_ball"
+    },
+    "X": {
+      "item": "minecraft:spruce_fence"
+    }
+  },
+  "result": {
+    "item": "minecraft:blue_terracotta",
+    "count": 1
+  }
+}

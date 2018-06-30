@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:activator_rail"
+    },
+    "X": {
+      "item": "minecraft:dark_oak_leaves"
+    }
+  },
+  "result": {
+    "item": "minecraft:orange_terracotta",
+    "count": 1
+  }
+}

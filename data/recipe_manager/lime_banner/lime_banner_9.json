@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gravel"
+    },
+    "|": {
+      "item": "minecraft:sugar_cane"
+    }
+  },
+  "result": {
+    "item": "minecraft:lime_banner",
+    "count": 1
+  }
+}

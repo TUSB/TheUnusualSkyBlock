@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:comparator"
+    },
+    "X": {
+      "item": "minecraft:infested_cracked_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "minecraft:purple_terracotta",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:mushroom_stem"
+    },
+    "W": {
+      "item": "minecraft:red_sandstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:dark_oak_fence_gate",
+    "count": 1
+  }
+}

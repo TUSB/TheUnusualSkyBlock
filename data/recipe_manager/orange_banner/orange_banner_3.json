@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bubble_coral_fan"
+    },
+    "|": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "minecraft:orange_banner",
+    "count": 1
+  }
+}

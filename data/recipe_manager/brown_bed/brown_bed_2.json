@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:jungle_trapdoor"
+    },
+    "X": {
+      "item": "minecraft:yellow_shulker_box"
+    }
+  },
+  "result": {
+    "item": "minecraft:brown_bed",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:birch_log"
+    },
+    {
+      "item": "minecraft:birch_planks"
+    },
+    {
+      "item": "minecraft:coal_ore"
+    },
+    {
+      "item": "minecraft:cooked_salmon"
+    },
+    {
+      "item": "minecraft:creeper_head"
+    },
+    {
+      "item": "minecraft:jungle_boat"
+    },
+    {
+      "item": "minecraft:jungle_button"
+    },
+    {
+      "item": "minecraft:jungle_slab"
+    },
+    {
+      "item": "minecraft:stripped_jungle_log"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cyan_concrete_powder",
+    "count": 1
+  }
+}

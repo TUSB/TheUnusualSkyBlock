@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:crafting_table"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cooked_cod",
+    "count": 1
+  }
+}

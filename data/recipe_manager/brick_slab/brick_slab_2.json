@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bone"
+    }
+  },
+  "result": {
+    "item": "minecraft:brick_slab",
+    "count": 1
+  }
+}

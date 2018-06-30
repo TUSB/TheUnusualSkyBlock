@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XSX",
+    "X#X",
+    "XSX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:acacia_boat"
+    },
+    "S": {
+      "item": "minecraft:book"
+    },
+    "#": {
+      "item": "minecraft:orange_glazed_terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:activator_rail",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "#R#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:chiseled_red_sandstone"
+    },
+    "R": {
+      "item": "minecraft:mycelium"
+    }
+  },
+  "result": {
+    "item": "minecraft:dropper",
+    "count": 1
+  }
+}

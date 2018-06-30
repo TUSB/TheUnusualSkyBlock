@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:birch_stairs"
+    },
+    {
+      "item": "minecraft:brown_shulker_box"
+    },
+    {
+      "item": "minecraft:ghast_tear"
+    },
+    {
+      "item": "minecraft:lava_bucket"
+    },
+    {
+      "item": "minecraft:orange_stained_glass_pane"
+    },
+    {
+      "item": "minecraft:pink_bed"
+    },
+    {
+      "item": "minecraft:quartz_pillar"
+    },
+    {
+      "item": "minecraft:quartz_stairs"
+    },
+    {
+      "item": "minecraft:tripwire_hook"
+    }
+  ],
+  "result": {
+    "item": "minecraft:blue_concrete_powder",
+    "count": 1
+  }
+}

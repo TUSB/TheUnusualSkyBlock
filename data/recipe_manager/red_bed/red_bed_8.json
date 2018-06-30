@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:birch_stairs"
+    },
+    "X": {
+      "item": "minecraft:brown_carpet"
+    }
+  },
+  "result": {
+    "item": "minecraft:red_bed",
+    "count": 1
+  }
+}

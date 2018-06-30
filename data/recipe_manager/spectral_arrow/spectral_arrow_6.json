@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:nether_bricks"
+    },
+    "X": {
+      "item": "minecraft:terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:spectral_arrow",
+    "count": 1
+  }
+}

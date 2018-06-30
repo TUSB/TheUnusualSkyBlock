@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:chainmail_helmet"
+    }
+  },
+  "result": {
+    "item": "minecraft:cobblestone_stairs",
+    "count": 1
+  }
+}

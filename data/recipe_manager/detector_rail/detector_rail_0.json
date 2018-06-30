@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "X#X",
+    "XRX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:blue_concrete_powder"
+    },
+    "#": {
+      "item": "minecraft:spruce_sapling"
+    },
+    "R": {
+      "item": "minecraft:stripped_dark_oak_bark"
+    }
+  },
+  "result": {
+    "item": "minecraft:detector_rail",
+    "count": 1
+  }
+}

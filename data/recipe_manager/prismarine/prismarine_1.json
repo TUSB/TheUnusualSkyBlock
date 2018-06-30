@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:note_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:prismarine",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:hopper_minecart"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_helmet",
+    "count": 1
+  }
+}

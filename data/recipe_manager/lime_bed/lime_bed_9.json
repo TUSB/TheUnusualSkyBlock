@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dark_oak_stairs"
+    },
+    "X": {
+      "item": "minecraft:orange_banner"
+    }
+  },
+  "result": {
+    "item": "minecraft:lime_bed",
+    "count": 1
+  }
+}

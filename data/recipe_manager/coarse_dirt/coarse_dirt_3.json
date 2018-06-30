@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "DG",
+    "GD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:daylight_detector"
+    },
+    "G": {
+      "item": "minecraft:wither_skeleton_skull"
+    }
+  },
+  "result": {
+    "item": "minecraft:coarse_dirt",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:acacia_leaves"
+    },
+    "#": {
+      "item": "minecraft:clay_ball"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_shovel",
+    "count": 1
+  }
+}

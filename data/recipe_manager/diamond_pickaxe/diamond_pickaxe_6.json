@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:brown_glazed_terracotta"
+    },
+    "#": {
+      "item": "minecraft:cyan_stained_glass_pane"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_pickaxe",
+    "count": 1
+  }
+}

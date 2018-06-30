@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "III",
+    " i ",
+    "iii"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:book"
+    },
+    "i": {
+      "item": "minecraft:nether_quartz_ore"
+    }
+  },
+  "result": {
+    "item": "minecraft:anvil",
+    "count": 1
+  }
+}

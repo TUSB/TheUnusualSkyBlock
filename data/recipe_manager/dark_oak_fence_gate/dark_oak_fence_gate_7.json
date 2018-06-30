@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:purple_wool"
+    },
+    "W": {
+      "item": "minecraft:red_banner"
+    }
+  },
+  "result": {
+    "item": "minecraft:dark_oak_fence_gate",
+    "count": 1
+  }
+}

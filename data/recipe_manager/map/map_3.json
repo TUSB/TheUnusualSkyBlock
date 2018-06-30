@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:jungle_door"
+    },
+    "X": {
+      "item": "minecraft:lime_shulker_box"
+    }
+  },
+  "result": {
+    "item": "minecraft:map",
+    "count": 1
+  }
+}

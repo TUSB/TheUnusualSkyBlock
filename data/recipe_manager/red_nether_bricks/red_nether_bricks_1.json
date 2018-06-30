@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "NW",
+    "WN"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:jungle_leaves"
+    },
+    "W": {
+      "item": "minecraft:spruce_fence_gate"
+    }
+  },
+  "result": {
+    "item": "minecraft:red_nether_bricks",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:lead"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_chestplate",
+    "count": 1
+  }
+}

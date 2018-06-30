@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:clownfish"
+    },
+    "#": {
+      "item": "minecraft:oak_button"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_axe",
+    "count": 1
+  }
+}

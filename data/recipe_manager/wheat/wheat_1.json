@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dark_oak_planks"
+    }
+  ],
+  "result": {
+    "item": "minecraft:wheat",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:activator_rail"
+    },
+    {
+      "item": "minecraft:brick_stairs"
+    },
+    {
+      "item": "minecraft:golden_shovel"
+    },
+    {
+      "item": "minecraft:green_carpet"
+    },
+    {
+      "item": "minecraft:melon_seeds"
+    },
+    {
+      "item": "minecraft:orange_banner"
+    },
+    {
+      "item": "minecraft:saddle"
+    },
+    {
+      "item": "minecraft:stripped_jungle_log"
+    },
+    {
+      "item": "minecraft:yellow_stained_glass"
+    }
+  ],
+  "result": {
+    "item": "minecraft:blue_concrete_powder",
+    "count": 1
+  }
+}

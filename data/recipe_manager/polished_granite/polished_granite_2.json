@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:cut_red_sandstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:polished_granite",
+    "count": 1
+  }
+}

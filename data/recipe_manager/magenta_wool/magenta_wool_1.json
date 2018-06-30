@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_bed"
+    },
+    {
+      "item": "minecraft:sign"
+    }
+  ],
+  "result": {
+    "item": "minecraft:magenta_wool",
+    "count": 1
+  }
+}

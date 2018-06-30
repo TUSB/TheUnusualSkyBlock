@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:light_blue_concrete"
+    },
+    "#": {
+      "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "minecraft:redstone_torch",
+    "count": 1
+  }
+}

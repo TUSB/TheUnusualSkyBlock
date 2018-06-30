@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:oak_sapling"
+    },
+    "W": {
+      "item": "minecraft:orange_bed"
+    }
+  },
+  "result": {
+    "item": "minecraft:spruce_fence_gate",
+    "count": 1
+  }
+}

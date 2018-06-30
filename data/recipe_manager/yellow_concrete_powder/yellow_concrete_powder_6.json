@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_fence"
+    },
+    {
+      "item": "minecraft:blue_banner"
+    },
+    {
+      "item": "minecraft:diamond_sword"
+    },
+    {
+      "item": "minecraft:fire_coral_fan"
+    },
+    {
+      "item": "minecraft:pink_concrete_powder"
+    },
+    {
+      "item": "minecraft:purple_carpet"
+    },
+    {
+      "item": "minecraft:rabbit_stew"
+    },
+    {
+      "item": "minecraft:skeleton_skull"
+    },
+    {
+      "item": "minecraft:smooth_stone"
+    }
+  ],
+  "result": {
+    "item": "minecraft:yellow_concrete_powder",
+    "count": 1
+  }
+}

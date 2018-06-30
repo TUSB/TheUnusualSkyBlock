@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:white_shulker_box"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cooked_chicken",
+    "count": 1
+  }
+}

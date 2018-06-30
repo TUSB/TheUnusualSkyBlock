@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lava_bucket"
+    }
+  },
+  "result": {
+    "item": "minecraft:dark_oak_door",
+    "count": 1
+  }
+}

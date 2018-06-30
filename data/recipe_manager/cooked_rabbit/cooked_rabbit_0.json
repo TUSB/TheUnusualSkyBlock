@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:orange_tulip"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cooked_rabbit",
+    "count": 1
+  }
+}

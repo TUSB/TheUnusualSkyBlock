@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:map"
+    },
+    "#": {
+      "item": "minecraft:powered_rail"
+    }
+  },
+  "result": {
+    "item": "minecraft:torch",
+    "count": 1
+  }
+}

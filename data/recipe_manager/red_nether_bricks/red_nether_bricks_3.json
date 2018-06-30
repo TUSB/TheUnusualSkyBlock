@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "NW",
+    "WN"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:cooked_chicken"
+    },
+    "W": {
+      "item": "minecraft:yellow_concrete"
+    }
+  },
+  "result": {
+    "item": "minecraft:red_nether_bricks",
+    "count": 1
+  }
+}

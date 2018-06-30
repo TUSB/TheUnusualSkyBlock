@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:light_blue_carpet"
+    }
+  },
+  "result": {
+    "item": "minecraft:prismarine_brick_stairs",
+    "count": 1
+  }
+}

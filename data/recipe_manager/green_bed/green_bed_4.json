@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:filled_map"
+    },
+    "X": {
+      "item": "minecraft:prismarine_crystals"
+    }
+  },
+  "result": {
+    "item": "minecraft:green_bed",
+    "count": 1
+  }
+}

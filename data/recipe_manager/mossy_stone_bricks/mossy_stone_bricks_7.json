@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cyan_dye"
+    },
+    {
+      "item": "minecraft:orange_carpet"
+    }
+  ],
+  "result": {
+    "item": "minecraft:mossy_stone_bricks",
+    "count": 1
+  }
+}

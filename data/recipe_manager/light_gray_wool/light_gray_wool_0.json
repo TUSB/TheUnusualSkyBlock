@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:clock"
+    },
+    {
+      "item": "minecraft:leather"
+    }
+  ],
+  "result": {
+    "item": "minecraft:light_gray_wool",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "#": {
+      "item": "minecraft:rose_bush"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_sword",
+    "count": 1
+  }
+}

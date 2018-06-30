@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "minecraft:brick"
+    },
+    {
+      "item": "minecraft:cake"
+    },
+    {
+      "item": "minecraft:cooked_mutton"
+    },
+    {
+      "item": "minecraft:cyan_concrete"
+    },
+    {
+      "item": "minecraft:diamond_helmet"
+    },
+    {
+      "item": "minecraft:horn_coral"
+    },
+    {
+      "item": "minecraft:light_gray_bed"
+    },
+    {
+      "item": "minecraft:spruce_trapdoor"
+    }
+  ],
+  "result": {
+    "item": "minecraft:light_blue_concrete_powder",
+    "count": 1
+  }
+}

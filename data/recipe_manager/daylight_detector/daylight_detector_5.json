@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "QQQ",
+    "WWW"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:chorus_fruit"
+    },
+    "Q": {
+      "item": "minecraft:gray_wool"
+    },
+    "W": {
+      "item": "minecraft:yellow_glazed_terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:daylight_detector",
+    "count": 1
+  }
+}

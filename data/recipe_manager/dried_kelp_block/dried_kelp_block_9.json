@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:azure_bluet"
+    },
+    {
+      "item": "minecraft:diamond_chestplate"
+    },
+    {
+      "item": "minecraft:grass"
+    },
+    {
+      "item": "minecraft:light_weighted_pressure_plate"
+    },
+    {
+      "item": "minecraft:oak_button"
+    },
+    {
+      "item": "minecraft:painting"
+    },
+    {
+      "item": "minecraft:red_sand"
+    },
+    {
+      "item": "minecraft:trapped_chest"
+    },
+    {
+      "item": "minecraft:yellow_carpet"
+    }
+  ],
+  "result": {
+    "item": "minecraft:dried_kelp_block",
+    "count": 1
+  }
+}

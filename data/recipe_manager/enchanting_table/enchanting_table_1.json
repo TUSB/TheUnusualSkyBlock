@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " B ",
+    "D#D",
+    "###"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:netherrack"
+    },
+    "D": {
+      "item": "minecraft:slime_block"
+    },
+    "#": {
+      "item": "minecraft:white_concrete"
+    }
+  },
+  "result": {
+    "item": "minecraft:enchanting_table",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:golden_hoe"
+    },
+    {
+      "item": "minecraft:pink_shulker_box"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gray_dye",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cyan_wool"
+    },
+    {
+      "item": "minecraft:dark_oak_bark"
+    },
+    {
+      "item": "minecraft:diamond_boots"
+    },
+    {
+      "item": "minecraft:diorite"
+    },
+    {
+      "item": "minecraft:dried_kelp_block"
+    },
+    {
+      "item": "minecraft:experience_bottle"
+    },
+    {
+      "item": "minecraft:iron_axe"
+    },
+    {
+      "item": "minecraft:piston"
+    },
+    {
+      "item": "minecraft:shulker_shell"
+    }
+  ],
+  "result": {
+    "item": "minecraft:purple_concrete_powder",
+    "count": 1
+  }
+}

@@ -1,0 +1,18 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_button"
+    },
+    "X": {
+      "item": "minecraft:golden_chestplate"
+    }
+  },
+  "result": {
+    "item": "minecraft:cookie",
+    "count": 1
+  }
+}

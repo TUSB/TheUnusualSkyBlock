@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GSG",
+    "OOO"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:acacia_log"
+    },
+    "S": {
+      "item": "minecraft:diamond_hoe"
+    },
+    "O": {
+      "item": "minecraft:quartz_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:beacon",
+    "count": 1
+  }
+}

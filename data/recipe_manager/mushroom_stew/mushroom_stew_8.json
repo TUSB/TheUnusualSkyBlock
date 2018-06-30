@@ -1,0 +1,18 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_carpet"
+    },
+    {
+      "item": "minecraft:mushroom_stem"
+    },
+    {
+      "item": "minecraft:vine"
+    }
+  ],
+  "result": {
+    "item": "minecraft:mushroom_stew",
+    "count": 1
+  }
+}

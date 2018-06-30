@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:light_blue_bed"
+    },
+    "X": {
+      "item": "minecraft:orange_terracotta"
+    },
+    "I": {
+      "item": "minecraft:stone_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:comparator",
+    "count": 1
+  }
+}

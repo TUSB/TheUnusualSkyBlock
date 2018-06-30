@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:lapis_ore"
+    }
+  ],
+  "result": {
+    "item": "minecraft:dried_kelp",
+    "count": 1
+  }
+}

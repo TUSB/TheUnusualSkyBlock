@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_glazed_terracotta"
+    },
+    {
+      "item": "minecraft:oak_door"
+    }
+  ],
+  "result": {
+    "item": "minecraft:blue_wool",
+    "count": 1
+  }
+}

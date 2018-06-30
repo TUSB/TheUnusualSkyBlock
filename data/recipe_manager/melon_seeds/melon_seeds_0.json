@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:wet_sponge"
+    }
+  ],
+  "result": {
+    "item": "minecraft:melon_seeds",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:redstone_block"
+    },
+    "X": {
+      "item": "minecraft:stone_brick_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:spectral_arrow",
+    "count": 1
+  }
+}

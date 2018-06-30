@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:azure_bluet"
+    },
+    "X": {
+      "item": "minecraft:oak_fence"
+    }
+  },
+  "result": {
+    "item": "minecraft:map",
+    "count": 1
+  }
+}

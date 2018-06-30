@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:clay_ball"
+    },
+    "|": {
+      "item": "minecraft:pink_banner"
+    }
+  },
+  "result": {
+    "item": "minecraft:lime_banner",
+    "count": 1
+  }
+}

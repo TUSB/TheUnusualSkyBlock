@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dark_oak_fence_gate"
+    },
+    "X": {
+      "item": "minecraft:stripped_jungle_bark"
+    }
+  },
+  "result": {
+    "item": "minecraft:conduit",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cyan_glazed_terracotta"
+    },
+    "X": {
+      "item": "minecraft:prismarine_brick_stairs"
+    },
+    "I": {
+      "item": "minecraft:sand"
+    }
+  },
+  "result": {
+    "item": "minecraft:comparator",
+    "count": 1
+  }
+}

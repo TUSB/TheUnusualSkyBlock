@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:red_terracotta"
+    },
+    "X": {
+      "item": "minecraft:tube_coral_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:gray_stained_glass",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:oak_planks"
+    },
+    "X": {
+      "item": "minecraft:rail"
+    },
+    "I": {
+      "item": "minecraft:stripped_birch_log"
+    }
+  },
+  "result": {
+    "item": "minecraft:comparator",
+    "count": 1
+  }
+}

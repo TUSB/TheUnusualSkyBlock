@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:stripped_oak_bark"
+    },
+    "X": {
+      "item": "minecraft:yellow_stained_glass_pane"
+    }
+  },
+  "result": {
+    "item": "minecraft:pink_bed",
+    "count": 1
+  }
+}

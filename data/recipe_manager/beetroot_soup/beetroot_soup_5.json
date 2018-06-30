@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "OOO",
+    "OOO",
+    " B "
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:acacia_fence_gate"
+    },
+    "B": {
+      "item": "minecraft:carved_pumpkin"
+    }
+  },
+  "result": {
+    "item": "minecraft:beetroot_soup",
+    "count": 1
+  }
+}

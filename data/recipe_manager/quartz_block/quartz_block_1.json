@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:light_gray_concrete_powder"
+    }
+  },
+  "result": {
+    "item": "minecraft:quartz_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dandelion_yellow"
+    },
+    {
+      "item": "minecraft:peony"
+    }
+  ],
+  "result": {
+    "item": "minecraft:lime_dye",
+    "count": 1
+  }
+}

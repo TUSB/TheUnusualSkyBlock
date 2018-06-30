@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_log"
+    }
+  },
+  "result": {
+    "item": "minecraft:chest",
+    "count": 1
+  }
+}

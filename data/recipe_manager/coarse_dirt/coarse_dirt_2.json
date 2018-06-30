@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "DG",
+    "GD"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:detector_rail"
+    },
+    "G": {
+      "item": "minecraft:red_sandstone_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:coarse_dirt",
+    "count": 1
+  }
+}

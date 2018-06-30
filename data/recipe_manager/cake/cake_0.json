@@ -1,0 +1,26 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BEB",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:daylight_detector"
+    },
+    "B": {
+      "item": "minecraft:pink_terracotta"
+    },
+    "E": {
+      "item": "minecraft:pink_wool"
+    },
+    "C": {
+      "item": "minecraft:yellow_stained_glass"
+    }
+  },
+  "result": {
+    "item": "minecraft:cake",
+    "count": 1
+  }
+}

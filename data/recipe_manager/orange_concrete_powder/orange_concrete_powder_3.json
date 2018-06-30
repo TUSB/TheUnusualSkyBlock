@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brick_stairs"
+    },
+    {
+      "item": "minecraft:chipped_anvil"
+    },
+    {
+      "item": "minecraft:gray_stained_glass_pane"
+    },
+    {
+      "item": "minecraft:green_glazed_terracotta"
+    },
+    {
+      "item": "minecraft:oak_boat"
+    },
+    {
+      "item": "minecraft:pink_stained_glass_pane"
+    },
+    {
+      "item": "minecraft:shulker_box"
+    },
+    {
+      "item": "minecraft:stripped_dark_oak_bark"
+    },
+    {
+      "item": "minecraft:sugar_cane"
+    }
+  ],
+  "result": {
+    "item": "minecraft:orange_concrete_powder",
+    "count": 1
+  }
+}

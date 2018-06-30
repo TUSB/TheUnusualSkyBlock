@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_shovel"
+    },
+    "X": {
+      "item": "minecraft:magenta_terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:orange_bed",
+    "count": 1
+  }
+}

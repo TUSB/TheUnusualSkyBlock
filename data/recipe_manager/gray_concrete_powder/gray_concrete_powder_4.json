@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "minecraft:brown_carpet"
+    },
+    {
+      "item": "minecraft:brown_concrete"
+    },
+    {
+      "item": "minecraft:cyan_banner"
+    },
+    {
+      "item": "minecraft:dark_oak_button"
+    },
+    {
+      "item": "minecraft:golden_carrot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:light_gray_shulker_box"
+    },
+    {
+      "item": "minecraft:spruce_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gray_concrete_powder",
+    "count": 1
+  }
+}

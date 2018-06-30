@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cut_red_sandstone"
+    },
+    "X": {
+      "item": "minecraft:red_stained_glass_pane"
+    }
+  },
+  "result": {
+    "item": "minecraft:jukebox",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:coal"
+    },
+    "|": {
+      "item": "minecraft:mycelium"
+    }
+  },
+  "result": {
+    "item": "minecraft:cyan_banner",
+    "count": 1
+  }
+}

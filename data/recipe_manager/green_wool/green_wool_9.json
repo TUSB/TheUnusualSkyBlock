@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:diamond_ore"
+    }
+  ],
+  "result": {
+    "item": "minecraft:green_wool",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_sword"
+    },
+    "X": {
+      "item": "minecraft:pink_dye"
+    }
+  },
+  "result": {
+    "item": "minecraft:green_bed",
+    "count": 1
+  }
+}

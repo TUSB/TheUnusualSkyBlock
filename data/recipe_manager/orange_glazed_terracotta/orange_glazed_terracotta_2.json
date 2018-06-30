@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:stripped_acacia_log"
+    }
+  ],
+  "result": {
+    "item": "minecraft:orange_glazed_terracotta",
+    "count": 1
+  }
+}

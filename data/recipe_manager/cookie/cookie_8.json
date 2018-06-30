@@ -1,0 +1,18 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:green_bed"
+    },
+    "X": {
+      "item": "minecraft:sponge"
+    }
+  },
+  "result": {
+    "item": "minecraft:cookie",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:horn_coral_fan"
+    },
+    "X": {
+      "item": "minecraft:red_sandstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:note_block",
+    "count": 1
+  }
+}

@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:beetroot_seeds"
+    },
+    {
+      "item": "minecraft:brown_stained_glass_pane"
+    },
+    {
+      "item": "minecraft:cyan_carpet"
+    },
+    {
+      "item": "minecraft:daylight_detector"
+    },
+    {
+      "item": "minecraft:diamond_sword"
+    },
+    {
+      "item": "minecraft:iron_bars"
+    },
+    {
+      "item": "minecraft:magenta_dye"
+    },
+    {
+      "item": "minecraft:red_concrete_powder"
+    },
+    {
+      "item": "minecraft:shulker_box"
+    }
+  ],
+  "result": {
+    "item": "minecraft:blue_concrete_powder",
+    "count": 1
+  }
+}

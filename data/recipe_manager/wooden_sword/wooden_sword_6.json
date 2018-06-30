@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:magenta_shulker_box"
+    },
+    "#": {
+      "item": "minecraft:wooden_sword"
+    }
+  },
+  "result": {
+    "item": "minecraft:wooden_sword",
+    "count": 1
+  }
+}

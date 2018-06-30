@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "OOO",
+    "OOO",
+    " B "
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:cyan_dye"
+    },
+    "B": {
+      "item": "minecraft:white_bed"
+    }
+  },
+  "result": {
+    "item": "minecraft:beetroot_soup",
+    "count": 1
+  }
+}

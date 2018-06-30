@@ -1,0 +1,22 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#X#",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_stairs"
+    },
+    "X": {
+      "item": "minecraft:orange_banner"
+    },
+    "I": {
+      "item": "minecraft:stone_button"
+    }
+  },
+  "result": {
+    "item": "minecraft:repeater",
+    "count": 1
+  }
+}
