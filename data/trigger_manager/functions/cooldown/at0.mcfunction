@@ -12,6 +12,9 @@ execute if entity @s[tag=FalconSlashed] run function skill_manager:knight/falcon
 ###ワイルドフレア拡散処理
 execute if entity @s[tag=WildFlareSeed] run function skill_manager:hunter/wild_flare/explode
 
+###ブラストスパーク炸裂
+execute if entity @s[tag=BlastSpark] run function skill_manager:hunter/blast_spark/explode
+
 ###ダークスワンプ処理
 execute if entity @s[tag=DarkSwamp] run function skill_manager:black_mage/dark_swamp/tick
 

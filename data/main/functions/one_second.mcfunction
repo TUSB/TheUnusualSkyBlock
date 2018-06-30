@@ -3,9 +3,6 @@
 ##############################
 
 #### １秒エンティティ召喚
-#summon minecraft:area_effect_cloud ~0.5 0 ~0.5 {Radius:0f,RadiusPerTick:0f,RadiusOnUse:0f,DurationOnUse:0,Invulnerable:true,Particle:"minecraft:block minecraft:air",Age:0,WaitTime:20,ReapplicationDelay:2147483647,Duration:0,UUIDMost:16L,UUIDLeast:16L,Tags:[Initialized]}
-#setblock ~ 0 ~ minecraft:portal keep
-##summon minecraft:item ~0.5 0.5 ~0.5 {Item:{id:"minecraft:stone",Count:1b},Age:5997s,Tags:[Initialized]}
 scoreboard players set $Second Count 0
 
 ###パペット行動

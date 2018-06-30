@@ -27,16 +27,11 @@ execute if entity @s[tag=Crystal] run function skill_manager:summoner/call_cryst
 ###ぷちブラック処理
 execute if entity @s[tag=PetitBlack] run function skill_manager:summoner/petit_black/tick/all
 
-###流体泳処理
-execute if entity @s[tag=Swim] run function enemy_manager:swim/common
+###クールダウン監視処理
+execute if entity @s[tag=ObserveCooldown] run function trigger_manager:cooldown/tick
 
 ###接地矢(など)Projectileタグ削除
 execute if entity @s[tag=FlyingRequired,nbt={inGround:true}] run function trigger_manager:in_ground
 
-###クールダウン監視処理
-execute if entity @s[tag=ObserveCooldown] run function trigger_manager:cooldown/tick
-
-
-
-
-
+###流体泳処理
+execute if entity @s[tag=Swim] run function enemy_manager:swim/common

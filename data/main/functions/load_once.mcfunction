@@ -103,6 +103,7 @@ scoreboard objectives add PillarCount dummy セイクリッドピラーダメー
 scoreboard objectives add PillarDamage dummy セイクリッドピラーダメージ
 scoreboard objectives add Kaishaku dummy 介錯残りtick数
 scoreboard objectives add PiercingAim dummy ピアッシングエイム回数
+scoreboard objectives add BlastSpark dummy ブラストスパーク継続tick数
 scoreboard objectives add PetitBlack dummy ぷちブラック残りtick
 ###からくり士スキル系
 scoreboard objectives add PuppetScore dummy パペット制御用スコア

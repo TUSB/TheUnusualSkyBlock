@@ -25,4 +25,5 @@ execute if entity @s[tag=Ice] run function enemy_manager:block_placer/ice
 ###セイクリッドピラー処理
 execute if entity @s[tag=SacredPillar] run function skill_manager:white_mage/sacred_pillar/at0
 
-kill @s[type=minecraft:trident]
+tag @s[tag=BlastSpark] add TickingTask
+kill @s[type=minecraft:trident,tag=!BlastSpark]

@@ -2,11 +2,14 @@
 ### クロスファイア発動
 ##############################
 
-###槍召喚
-execute positioned ^ ^ ^-2.5 run summon minecraft:trident ~ ~301.52 ~ {Invulnerable:true,Silent:true,DealtDamage:true,Tags:[CrossFire,Initializing]}
-execute as @e[tag=Initializing,limit=1] positioned ^ ^ ^-2.5 run tp @s ~ ~1.52 ~
-###モーション取得
+###チャンクロード
+summon minecraft:arrow ~ 0 ~ {XTile:1,YTile:1,ZTile:1,NoGravity:true,Color:-1,Tags:[Garbage,Initialized]}
+###弾召喚
+summon minecraft:trident 1 1 1 {Tags:[Initializing,CrossFire],PortalCooldown:10,Silent:true,DealtDamage:true}
+###モーションを計算する
+execute positioned ^ ^ ^-0.1 run tp @e[tag=Initializing,limit=1] ~ ~1.52 ~
 execute as @e[tag=Initializing,limit=1] positioned ~ ~1.52 ~ run function calc_manager:get/direction1
+
 ###モーション補正
 scoreboard players set $M Global 180
 function calc_manager:multiply/pos1

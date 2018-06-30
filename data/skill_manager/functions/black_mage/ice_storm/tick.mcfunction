@@ -10,4 +10,5 @@ execute if score @s ProjectileSkill matches 51014 at @s run scoreboard players a
 
 ###---演出---Start
 particle minecraft:block minecraft:white_wool ~ ~ ~ 0.2 0.2 0.2 0 10 force
+playsound minecraft:block.glass.break master @a ~ ~ ~ 3 2
 ###---演出---End

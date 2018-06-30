@@ -35,6 +35,9 @@ execute as @a[scores={DamageDealt=0..}] at @s run function trigger_manager:damag
 execute as @a[scores={SprintOneCm=1..}] at @s run function trigger_manager:sprint
 execute as @a[scores={SneakTime=1..}] run function trigger_manager:sneak
 
+###ブラストスパーク継続
+execute as @a[scores={BlastSpark=1..}] at @s run function skill_manager:hunter/blast_spark/tick
+
 ###スキルエッグ
 execute as @a[scores={UseModeEgg=1..}] at @s run function trigger_manager:egg/mode_change
 execute as @a[scores={UseSupportRed=1..}] at @s run function trigger_manager:egg/support_red

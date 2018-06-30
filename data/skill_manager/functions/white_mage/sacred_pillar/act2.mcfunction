@@ -2,11 +2,14 @@
 ### セイクリッドピラー発動
 ##############################
 
-###視線サーチャー設定をする
-execute positioned ^ ^ ^-0.2 run summon minecraft:trident ~ ~1.52 ~ {Invulnerable:true,NoGravity:true,Silent:true,DealtDamage:true,PortalCooldown:20,Tags:[CooldownRequired,SacredPillar,Initializing]}
-
-###モーション取得
+###チャンクロード
+summon minecraft:arrow ~ 0 ~ {XTile:1,YTile:1,ZTile:1,NoGravity:true,Color:-1,Tags:[Garbage,Initialized]}
+###弾召喚
+summon minecraft:trident 1 1 1 {Tags:[Initializing,BlastSpark,CooldownRequired],PortalCooldown:10,NoGravity:true,Silent:true,DealtDamage:true}
+###モーションを計算する
+execute positioned ^ ^ ^-0.1 run tp @e[tag=Initializing,limit=1] ~ ~1.52 ~
 execute as @e[tag=Initializing,limit=1] positioned ~ ~1.52 ~ run function calc_manager:get/direction1
+
 ###モーション補正
 scoreboard players set $M Global 999
 function calc_manager:multiply/pos1
