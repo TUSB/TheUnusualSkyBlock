@@ -2,8 +2,6 @@
 ### クロスファイア発動
 ##############################
 
-###チャンクロード
-summon minecraft:arrow ~ 0 ~ {XTile:1,YTile:1,ZTile:1,NoGravity:true,Color:-1,Tags:[Garbage,Initialized]}
 ###弾召喚
 summon minecraft:trident 1 1 1 {Tags:[Initializing,CrossFire],PortalCooldown:10,Silent:true,DealtDamage:true}
 ###モーションを計算する

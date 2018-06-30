@@ -51,3 +51,6 @@ execute as @e[tag=Mule] at @s run function calc_manager:maintain/cargo
 ### ライブラ処理
 scoreboard players remove $Libra Global 1
 execute if score $Libra Global matches ..0 run bossbar set minecraft:enemy_health visible false
+
+###　チャンクロード
+execute as @a at @s run summon minecraft:arrow ~ -20 ~ {XTile:1,YTile:1,ZTile:1,NoGravity:true,Color:-1,PortalCooldown:2,Tags:[CooldownRequired]}
