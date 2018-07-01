@@ -9,6 +9,9 @@ scoreboard players set @s CarrotTick 5
 ### 白魔導士＜セイクリッドピラー＞
 execute if score @s ModeSkill matches 41041..41049 run scoreboard players operation @s ActiveSkill = @s ModeSkill
 
+### 黒魔導士＜サンダーボルト＞
+execute if score @s ModeSkill matches 51031..51039 run scoreboard players operation @s ActiveSkill = @s ModeSkill
+
 ### 召喚士＜ぽむぽむ花火＞
 execute if score @s ModeSkill matches 61081..61089 run scoreboard players operation @s ActiveSkill = @s ModeSkill
 
