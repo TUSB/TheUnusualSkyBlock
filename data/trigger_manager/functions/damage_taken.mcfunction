@@ -7,5 +7,3 @@ execute if score @s ModeSkill matches 11051..11059 run scoreboard players operat
 
 ### トリガーリセット
 scoreboard players reset @s DamageTaken
-
-say aaa
