@@ -11,6 +11,8 @@ execute if entity @s[tag=CrackSlash] run function skill_manager:knight/crack_sla
 execute if entity @s[tag=OdinSlash1] run function skill_manager:knight/odin_slash/tick1
 execute if entity @s[tag=OdinSlash2] run function skill_manager:knight/odin_slash/tick2
 execute if entity @s[tag=OdinSlash3] run function skill_manager:knight/odin_slash/tick3
+###手裏剣
+execute if entity @s[tag=Shuriken] run function skill_manager:ninja/shuriken/tick
 ###介錯処理
 execute if entity @s[tag=KaishakuExplosion] run function skill_manager:ninja/kaishaku/tick
 ###ステークスファイア処理
@@ -32,6 +34,8 @@ execute if entity @s[tag=Sicced] run function skill_manager:sicced/pets
 execute if entity @s[tag=Crystal] run function skill_manager:summoner/call_crystal/tick/all
 ###ぷちブラック処理
 execute if entity @s[tag=PetitBlack] run function skill_manager:summoner/petit_black/tick/all
+###ウィークペイント
+execute if entity @s[tag=WeakPaint] run function skill_manager:common/weakness_paint/tick
 
 ###クールダウン監視処理
 execute if entity @s[tag=ObserveCooldown] run function trigger_manager:cooldown/tick
