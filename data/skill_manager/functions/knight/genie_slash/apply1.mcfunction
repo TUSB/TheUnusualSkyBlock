@@ -7,4 +7,6 @@ particle minecraft:lava ~ ~1 ~ 0.2 1 0.2 0 30
 ###---演出---End
 
 effect give @s minecraft:weakness 15 100
+execute as @s run data merge entity @s {Motion:[0d,1d,0d]}
 scoreboard players add @s Damage 5000
+effect give @s minecraft:slow_falling 1 0

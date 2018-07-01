@@ -9,4 +9,4 @@ execute as @a[distance=..16] at @s run playsound minecraft:entity.zombie.break_w
 
 execute if score @s ModeSkill matches 11061 as @e[distance=..5,tag=Mob,nbt={HurtTime:10s},limit=1] at @s run function skill_manager:knight/genie_slash/apply1
 execute if score @s ModeSkill matches 11062 as @e[distance=..5,tag=Mob,nbt={HurtTime:10s},limit=1] at @s run function skill_manager:knight/genie_slash/apply2
-execute if score @s ModeSkill matches 11063 as @e[distance=..5,tag=Mob,nbt={HurtTime:10s},limit=1] at @s run function skill_manager:knight/genie_slash/apply3
+execute if score @s ModeSkill matches 11063 at @e[distance=..5,tag=Mob,nbt={HurtTime:10s},limit=1] as @e[distance=..5,tag=Mob] at @s run function skill_manager:knight/genie_slash/apply3
