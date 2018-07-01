@@ -8,8 +8,8 @@ tellraw @s[scores={ShowSkillNo=11012}] ["",{"text":"・隼斬りⅡ","color":"aq
 tellraw @s[scores={ShowSkillNo=11013}] ["",{"text":"・隼斬りⅢ","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
 tellraw @s[scores={ShowSkillNo=11014}] ["",{"text":"・隼斬りⅣ","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
 ###モード２
-tellraw @s[scores={ShowSkillNo=11021}] ["",{"text":"・薙ぎ払い","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
-tellraw @s[scores={ShowSkillNo=11022}] ["",{"text":"・薙ぎ払いⅡ","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
+tellraw @s[scores={ShowSkillNo=11021}] ["",{"text":"・地裂斬","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
+tellraw @s[scores={ShowSkillNo=11022}] ["",{"text":"・地裂斬Ⅱ","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
 ###モード３
 tellraw @s[scores={ShowSkillNo=11031}] ["",{"text":"・ディバインシールド","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
 tellraw @s[scores={ShowSkillNo=11032}] ["",{"text":"・ディバインシールドⅡ","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]

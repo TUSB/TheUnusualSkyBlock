@@ -10,7 +10,7 @@ execute if score $ChangeModeNo Global matches 1101 if score @s ChangeLevel match
 execute if score $ChangeModeNo Global matches 1101 if score @s ChangeLevel matches 20.. run scoreboard players set $ChangeModeNo Global 11012
 execute if score $ChangeModeNo Global matches 1101 if score @s ChangeLevel matches 3.. run scoreboard players set $ChangeModeNo Global 11011
 
-###薙ぎ払い
+###地裂斬
 execute if score $ChangeModeNo Global matches 1102 run scoreboard players operation $ChangeModeCost Global = $1102 Cost
 execute if score $ChangeModeNo Global matches 1102 run scoreboard players operation $ChangeModeInterval Global = $1102 Interval
 execute if score $ChangeModeNo Global matches 1102 if score @s ChangeLevel matches 30.. run scoreboard players set $ChangeModeNo Global 11022

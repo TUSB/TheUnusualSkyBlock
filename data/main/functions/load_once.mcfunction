@@ -165,7 +165,7 @@ scoreboard players set $MWCMultiplier Const 31743
 ###MP一覧
 ##剣士
 scoreboard players set $1101 Cost 15
-scoreboard players set $1102 Cost 10
+scoreboard players set $1102 Cost 20
 scoreboard players set $1103 Cost 10
 scoreboard players set $1104 Cost 5
 scoreboard players set $1105 Cost 10
@@ -281,7 +281,7 @@ scoreboard players set $8201 Cost 10
 ###スキル使用不能時間一覧
 ##剣士
 scoreboard players set $1101 Interval 30
-scoreboard players set $1102 Interval 0
+scoreboard players set $1102 Interval 20
 scoreboard players set $1103 Interval 0
 scoreboard players set $1104 Interval 0
 scoreboard players set $1105 Interval 0
@@ -407,6 +407,8 @@ execute if score $RndMWCCarry Global matches ..0 run scoreboard players operatio
 scoreboard players operation $RndMWC Global %= $MWCBase Const
 scoreboard players operation $RndMWCCarry Global /= $MWCBase Const
 
+###スコアボード表示設定
+scoreboard objectives setdisplay sidebar MP
 ###チーム作成
 team add NoCollision 衝突判定なし
 team option NoCollision collisionRule never
