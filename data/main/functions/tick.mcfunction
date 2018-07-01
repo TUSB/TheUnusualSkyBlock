@@ -73,8 +73,8 @@ execute as @a[tag=WithPuppet] unless score @s ModeSkill matches 71031..71039 at 
 ###アイアンウィル復帰
 execute as @a[scores={IronWill=1..}] at @s run function skill_manager:knight/iron_will/count
 execute as @a[tag=IronWill] run function skill_manager:knight/iron_will/load
-###隼斬り待機
-execute as @a[scores={ModeSkill=11011..11019}] at @s run function skill_manager:knight/falcon_slash/ready
+###隼斬り待機(連舞と共用)
+execute as @a[scores={ModeSkill=11011..21039}] unless score @s ModeSkill matches 11020..21030 at @s run function skill_manager:knight/falcon_slash/ready
 ###斬鉄剣タイミング調整
 execute as @a[scores={OdinSlash=0..}] at @s run function skill_manager:knight/odin_slash/tick
 ###一閃処理
