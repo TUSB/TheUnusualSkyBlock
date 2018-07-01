@@ -71,3 +71,5 @@ execute if score @s ActiveSkill matches 81021..81022 run function skill_manager:
 scoreboard players reset @s ActiveSkill
 scoreboard players reset @s ActiveCost
 scoreboard players reset @s ActiveInterval
+
+say abc
