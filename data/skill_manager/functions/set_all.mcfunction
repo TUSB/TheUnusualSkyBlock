@@ -16,7 +16,7 @@ scoreboard players set @s Job 1
 scoreboard players set @s MPMax 150
 scoreboard players set @s MP 150
 
-scoreboard players set @p ModeSkillRed 1000
-scoreboard players set @p ModeSkillBlue 1000
-scoreboard players set @p SupportSkillRed 2000
-scoreboard players set @p SupportSkillBlue 2000
+scoreboard players set @s ModeSkillRed 1000
+scoreboard players set @s ModeSkillBlue 1000
+scoreboard players set @s SupportSkillRed 2000
+scoreboard players set @s SupportSkillBlue 2000

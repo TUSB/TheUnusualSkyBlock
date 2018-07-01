@@ -15,6 +15,8 @@ scoreboard players operation @s[tag=ModeRed] ModeSkill = @s ModeSkillRed
 scoreboard players operation @s[tag=ModeBlue] ModeSkill = @s ModeSkillBlue
 scoreboard players operation @s[tag=ModeRed] ModeCost = @s ModeCostRed
 scoreboard players operation @s[tag=ModeBlue] ModeCost = @s ModeCostBlue
+scoreboard players operation @s[tag=ModeRed] ModeInterval = @s ModeIntervalRed
+scoreboard players operation @s[tag=ModeBlue] ModeInterval = @s ModeIntervalBlue
 
 ### メッセージ
 ###---演出---Start
