@@ -3,7 +3,7 @@
 ##############################
 
 ###弾召喚
-summon minecraft:trident 1 1 1 {Tags:[Initializing,CrossFire],PortalCooldown:10,Silent:true,DealtDamage:true}
+summon minecraft:trident 1 1 1 {Tags:[Initializing,CrossFire],Silent:true,DealtDamage:true}
 ###モーションを計算する
 execute positioned ^ ^ ^-0.1 run tp @e[tag=Initializing,limit=1] ~ ~1.52 ~
 execute as @e[tag=Initializing,limit=1] positioned ~ ~1.52 ~ run function calc_manager:get/direction1

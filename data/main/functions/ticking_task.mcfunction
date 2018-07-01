@@ -5,6 +5,8 @@
 ###向き補正
 tp @s[tag=TowardPlayer] ^ ^ ^ facing entity @p[nbt=!{Health:0.0f}]
 
+###地烈斬
+execute if entity @s[tag=CrackSlash] run function skill_manager:knight/crack_slash/tick
 ###介錯処理
 execute if entity @s[tag=KaishakuExplosion] run function skill_manager:ninja/kaishaku/tick
 ###ステークスファイア処理
