@@ -25,7 +25,7 @@ execute if score @s ActiveSkill matches 11011..11019 run function skill_manager:
 execute if score @s ActiveSkill matches 11041..11049 run function skill_manager:knight/aerial_slash/act
 
 ### 剣士＜リアクティブヒール＞
-execute if score @s ActiveSkill matches 11051..11059 run function skill_manager:knight/aerial_slash/act
+execute if score @s ActiveSkill matches 11051..11059 run function skill_manager:knight/reactive_heal/act
 
 ### 忍者＜一閃＞
 execute if score @s ActiveSkill matches 21041..21049 run function skill_manager:ninja/issen/act
