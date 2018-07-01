@@ -39,6 +39,9 @@ execute if score @s ActiveSkill matches 11071..11079 run function skill_manager:
 ### 忍者＜手裏剣＞
 execute if score @s ActiveSkill matches 21011..21019 run function skill_manager:ninja/shuriken/act
 
+### 忍者＜連舞＞
+execute if score @s ActiveSkill matches 21031..21039 run function skill_manager:ninja/tsuremai/act
+
 ### 忍者＜一閃＞
 execute if score @s ActiveSkill matches 21041..21049 run function skill_manager:ninja/issen/act
 
