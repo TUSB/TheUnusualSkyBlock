@@ -18,11 +18,14 @@ execute if score @s ActiveSkill matches 1.. run scoreboard players operation @s 
 ###スキル発動不能時間設定
 execute if score @s ActiveSkill matches 1.. run scoreboard players operation @s SkillInterval = @s ActiveInterval
 
+### 剣士＜はやぶさ斬り＞
+execute if score @s ActiveSkill matches 11011..11019 run function skill_manager:knight/falcon_slash/act
+
 ### 剣士＜真空斬り＞
 execute if score @s ActiveSkill matches 11041..11049 run function skill_manager:knight/aerial_slash/act
 
-### 剣士＜はやぶさ斬り＞
-execute if score @s ActiveSkill matches 11011..11019 run function skill_manager:knight/falcon_slash/act
+### 剣士＜リアクティブヒール＞
+execute if score @s ActiveSkill matches 11051..11059 run function skill_manager:knight/aerial_slash/act
 
 ### 忍者＜一閃＞
 execute if score @s ActiveSkill matches 21041..21049 run function skill_manager:ninja/issen/act

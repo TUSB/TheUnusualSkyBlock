@@ -32,6 +32,7 @@ execute as @a[scores={UseSnowball=1..}] at @s run function trigger_manager:snowb
 execute as @a[scores={UseBow=1..}] at @s run function trigger_manager:bow
 execute as @a[scores={UseCarrotStick=1..}] at @s run function trigger_manager:carrot_on_a_stick
 execute as @a[scores={DamageDealt=0..}] at @s run function trigger_manager:damage_dealt
+execute as @a[scores={DamageTaken=0..}] at @s run function trigger_manager:damage_taken
 execute as @a[scores={SprintOneCm=1..}] at @s run function trigger_manager:sprint
 execute as @a[scores={SneakTime=1..}] run function trigger_manager:sneak
 
