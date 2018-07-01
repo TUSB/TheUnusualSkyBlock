@@ -24,3 +24,7 @@ scoreboard players operation @e[tag=Initializing,limit=1] SkillAttribute = $10 C
 
 ###初期化タグ削除
 tag @e[tag=Initializing,limit=1] remove Initializing
+
+###---演出---Start
+execute rotated ~ 0 positioned ^ ^ ^2 run particle item minecraft:black_terracotta ~ ~0.3 ~ 0.8 0 0.8 0.15 100 force
+###---演出---End

@@ -18,3 +18,7 @@ scoreboard players operation @e[tag=Initializing,limit=1] ProjectileSkill = @s M
 
 ###初期化タグ削除
 tag @e[tag=Initializing,limit=1] remove Initializing
+
+###---演出---Start
+playsound entity.firework_rocket.launch master @a[distance=..16] ~ ~ ~ 1 0
+###---演出---End
