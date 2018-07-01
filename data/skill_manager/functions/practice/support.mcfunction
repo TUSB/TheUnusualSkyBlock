@@ -22,7 +22,10 @@ execute if score @s SupportSkill matches 12011..12019 run function skill_manager
 execute if score @s SupportSkill matches 12021..12029 run function skill_manager:knight/iron_will/act
 
 ### 鍛冶
-execute if score @s SupportSkill matches 12023..12039 run function skill_manager:knight/blacksmith/act
+execute if score @s SupportSkill matches 12033..12039 run function skill_manager:knight/blacksmith/act
+
+### デコイ
+execute if score @s SupportSkill matches 12041..12049 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:knight/decoy/act
 
 ### 介錯
 execute if score @s SupportSkill matches 22081..22089 run function skill_manager:ninja/kaishaku/act
