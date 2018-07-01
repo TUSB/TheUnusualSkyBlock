@@ -75,6 +75,8 @@ execute as @a[scores={IronWill=1..}] at @s run function skill_manager:knight/iro
 execute as @a[tag=IronWill] run function skill_manager:knight/iron_will/load
 ###隼斬り待機
 execute as @a[scores={ModeSkill=11011..11019}] at @s run function skill_manager:knight/falcon_slash/ready
+###斬鉄剣タイミング調整
+execute as @a[scores={OdinSlash=0..}] at @s run function skill_manager:knight/odin_slash/tick
 ###一閃処理
 execute as @a[scores={Issen=1..}] at @s run function skill_manager:ninja/issen/tick
 ###介錯処理

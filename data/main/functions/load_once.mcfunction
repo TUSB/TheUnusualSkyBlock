@@ -108,6 +108,7 @@ scoreboard objectives add Kaishaku dummy 介錯残りtick数
 scoreboard objectives add PiercingAim dummy ピアッシングエイム回数
 scoreboard objectives add BlastSpark dummy ブラストスパーク継続tick数
 scoreboard objectives add PetitBlack dummy ぷちブラック残りtick
+scoreboard objectives add OdinSlash dummy 斬鉄剣発動タイミング調整
 ###からくり士スキル系
 scoreboard objectives add PuppetScore dummy パペット制御用スコア
 scoreboard objectives add PupRecordLevel dummy レコード特性のレベル

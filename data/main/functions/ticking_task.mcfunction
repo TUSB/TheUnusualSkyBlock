@@ -7,6 +7,10 @@ tp @s[tag=TowardPlayer] ^ ^ ^ facing entity @p[nbt=!{Health:0.0f}]
 
 ###地烈斬
 execute if entity @s[tag=CrackSlash] run function skill_manager:knight/crack_slash/tick
+###斬鉄剣
+execute if entity @s[tag=OdinSlash1] run function skill_manager:knight/odin_slash/tick1
+execute if entity @s[tag=OdinSlash2] run function skill_manager:knight/odin_slash/tick2
+execute if entity @s[tag=OdinSlash3] run function skill_manager:knight/odin_slash/tick3
 ###介錯処理
 execute if entity @s[tag=KaishakuExplosion] run function skill_manager:ninja/kaishaku/tick
 ###ステークスファイア処理
