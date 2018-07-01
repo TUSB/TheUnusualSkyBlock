@@ -3,5 +3,5 @@
 ##############################
 
 ###---演出---Start
-particle minecraft:witch ~ ~ ~ 0.2 0.2 0.2 0 10 force
+particle minecraft:dust -8000000 -8000000 -8000000 2 ~ ~ ~ 0 0 0 1 2 force
 ###---演出---End

@@ -9,5 +9,5 @@ execute if score @s SkillAttribute matches 61073 run scoreboard players set $Bas
 tag @s remove Particle
 
 ###---演出---Start
-playsound minecraft:entity.enderdragon_fireball.explode master @a ~ ~ ~ 3 0.5
+playsound minecraft:entity.dragon_fireball.explode master @a ~ ~ ~ 3 0.5
 ###---演出---End

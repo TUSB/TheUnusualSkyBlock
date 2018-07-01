@@ -3,7 +3,8 @@
 ##############################
 
 ###---演出---Start
-say 発動したよ
+playsound item.trident.throw master @a[distance=..16] ~ ~ ~ 1 1.4
+playsound item.trident.throw master @a[distance=..16] ~ ~ ~ 1 1.8
 ###---演出---End
 
 data merge entity @e[distance=..5,type=snowball,tag=!Initialized,sort=nearest,limit=1] {Tags:[Shuriken]}
