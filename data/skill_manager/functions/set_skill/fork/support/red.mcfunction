@@ -30,7 +30,7 @@ execute if score @s ChangeSkillLimit matches 1.. run scoreboard players operatio
 ###スキル値代入
 scoreboard players operation @s SupportSkillRed = $ChangeSupNo Global
 scoreboard players operation @s SupportCostRed = $ChangeSupCost Global
-scoreboard players operation @s SupportIntRed = $ChangeSupCost Global
+scoreboard players operation @s SupportIntRed = $ChangeSupInterval Global
 ###スキル名表示
 ###---演出---Start
 execute if score @s ChangeSkillLimit matches ..0 run tellraw @s ["",{"text":"サポートアクションルビー","color":"red","bold":true},"を設定しました。"]
