@@ -14,3 +14,10 @@ tag @s add FlyingRequired
 
 ###飛翔物スコア付与
 execute if entity @s[tag=StakesSucceeded] run scoreboard players operation @s ProjectileSkill = $ProjectileSkill Global
+
+###---演出---Start
+execute if entity @s[tag=StakesFailed] run playsound block.fire.extinguish master @a[distance=..10] ~ ~ ~ 1 1
+
+execute if entity @s[tag=StakesSucceeded] run playsound item.firecharge.use master @a[distance=..10] ~ ~ ~ 1 0.5
+execute if entity @s[tag=StakesSucceeded] run playsound item.firecharge.use master @a[distance=..10] ~ ~ ~ 1 1.5
+###---演出---End
