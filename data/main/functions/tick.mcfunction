@@ -43,6 +43,9 @@ execute as @a[scores={BlastSpark=1..}] at @s run function skill_manager:hunter/b
 execute as @a[scores={UseModeEgg=1..}] at @s run function trigger_manager:egg/mode_change
 execute as @a[scores={UseSupportRed=1..}] at @s run function trigger_manager:egg/support_red
 execute as @a[scores={UseSupportBlue=1..}] at @s run function trigger_manager:egg/support_blue
+execute as @a[scores={DroppedMode=1..}] at @s run function trigger_manager:egg/dropped_mode
+execute as @a[scores={DroppedRed=1..}] at @s run function trigger_manager:egg/dropped_red
+execute as @a[scores={DroppedBlue=1..}] at @s run function trigger_manager:egg/dropped_blue
 
 execute as @a[scores={ActiveSkill=1..}] at @s run function skill_manager:practice/mode
 execute as @a if score @s CarrotTick matches 0 run scoreboard players set @s CarrotContinue 0

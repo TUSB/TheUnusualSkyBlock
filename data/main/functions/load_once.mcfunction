@@ -14,6 +14,9 @@ scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time スニ
 scoreboard objectives add UseModeEgg minecraft.used:minecraft.polar_bear_spawn_egg モードチェンジ使用
 scoreboard objectives add UseSupportRed minecraft.used:minecraft.pig_spawn_egg サポートエッグルビー使用
 scoreboard objectives add UseSupportBlue minecraft.used:minecraft.drowned_spawn_egg サポートエッグサファイア使用
+scoreboard objectives add DroppedMode minecraft.dropped:minecraft.polar_bear_spawn_egg モードチェンジドロップ
+scoreboard objectives add DroppedRed minecraft.dropped:minecraft.pig_spawn_egg サポートエッグルビードロップ
+scoreboard objectives add DroppedBlue minecraft.dropped:minecraft.drowned_spawn_egg サポートエッグルビードロップ
 scoreboard objectives add UseSnowball minecraft.used:minecraft.snowball 雪玉使用
 scoreboard objectives add UseBow minecraft.used:minecraft.bow 弓使用
 scoreboard objectives add UseCarrotStick minecraft.used:minecraft.carrot_on_a_stick 人参棒使用
