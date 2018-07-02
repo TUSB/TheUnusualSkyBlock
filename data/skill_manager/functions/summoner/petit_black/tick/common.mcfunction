@@ -3,7 +3,7 @@
 ##############################
 
 ###---演出---Start
-execute as @a[distance=..48] at @s run playsound minecraft:entity.endermen.teleport master @a ~ ~ ~ 0.3 0.5
+execute as @a[distance=..48] at @s run playsound minecraft:entity.enderman.teleport master @s ~ ~ ~ 0.3 0.5
 ###---演出---End
 
 scoreboard players add @e[distance=..1,tag=Mob] Damage 10000
