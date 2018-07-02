@@ -4,7 +4,7 @@
 
 ###ダメージ計算
 scoreboard players set $Damage Global 0
-execute positioned ^ ^ ^5 as @e[6,tag=Mob] run function skill_manager:knight/falcon_slash/calc_damage
+execute positioned ^ ^ ^5 as @e[distance=..6,tag=Mob] run function skill_manager:knight/falcon_slash/calc_damage
 
 ###スキルレベルによるダメージ補正
 execute if score @s ModeSkill matches 11011 run scoreboard players operation $Damage Global *= $20 Const

@@ -2,7 +2,9 @@
 ### 流体移動速度アップ
 ##############################
 
-execute at @s positioned ^ ^ ^1 run function calc_manager:get/direction1xz
+execute if entity @s[tag=Horizontal] at @s positioned ^ ^ ^1 run function calc_manager:get/direction1xz
+execute if entity @s[tag=Vertical] at @s positioned ^ ^ ^1 run function calc_manager:get/direction1y
+execute if entity @s[tag=!Horizontal,tag=!Vertical] at @s positioned ^ ^ ^1 run function calc_manager:get/direction1
 execute store result score $M Global run data get entity @s Attributes[0].Modifiers[0].Amount 100
 function calc_manager:multiply/pos1
 
