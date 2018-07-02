@@ -23,6 +23,8 @@ scoreboard objectives add UseCarrotStick minecraft.used:minecraft.carrot_on_a_st
 scoreboard objectives add SprintOneCm minecraft.custom:minecraft.sprint_one_cm 走った距離
 scoreboard objectives add DamageDealt minecraft.custom:minecraft.damage_dealt 与えたダメージ量
 scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken 受けたメージ量
+scoreboard objectives add UseSplashPotion minecraft.used:minecraft.splash_potion 投擲ポーション使用
+scoreboard objectives add UseLingerPotion minecraft.used:minecraft.lingering_potion 残留ポーション使用
 scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game ログインフラグ
 ###変数や定数、カウンタ
 scoreboard objectives add Global dummy グローバル変数

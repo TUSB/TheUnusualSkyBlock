@@ -35,6 +35,8 @@ execute as @a[scores={DamageDealt=0..}] at @s run function trigger_manager:damag
 execute as @a[scores={DamageTaken=0..}] at @s run function trigger_manager:damage_taken
 execute as @a[scores={SprintOneCm=1..}] at @s run function trigger_manager:sprint
 execute as @a[scores={SneakTime=1..}] run function trigger_manager:sneak
+execute as @e[scores={UseSplashPotion=1..}] run function trigger_manager:splash_potion
+execute as @e[scores={UseLingerPotion=1..}] run function trigger_manager:lingering_potion
 
 ###ブラストスパーク継続
 execute as @a[scores={BlastSpark=1..}] at @s run function skill_manager:hunter/blast_spark/tick
