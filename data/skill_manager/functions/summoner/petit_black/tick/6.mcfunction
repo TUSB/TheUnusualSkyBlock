@@ -5,7 +5,7 @@
 tp @s ^ ^ ^0.10
 tp @e[distance=..6,tag=Mob] ~ ~ ~
 ###---演出---Start
-particle minecraft:dust 0.7 0 0.7 3 ~ ~ ~ 1.2 1.2 1.2 0 60 force
+particle minecraft:dust 0.5 0 0.5 3 ~ ~ ~ 1.2 1.2 1.2 0 60 force
 ###---演出---End
 
 function skill_manager:summoner/petit_black/tick/common
