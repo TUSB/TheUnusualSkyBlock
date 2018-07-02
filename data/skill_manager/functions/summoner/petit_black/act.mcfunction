@@ -11,6 +11,7 @@ execute if score @s CarrotContinue matches 16..18 run execute anchored eyes posi
 execute if score @s CarrotContinue matches 19..21 run execute anchored eyes positioned ^ ^ ^5 run particle minecraft:dust -1 0 -1 3 ~ ~ ~ 1.4 1.4 1.4 0 70 force
 execute if score @s CarrotContinue matches 22..24 run execute anchored eyes positioned ^ ^ ^5 run particle minecraft:dust -1 0 -1 3 ~ ~ ~ 1.6 1.6 1.6 0 80 force
 execute if score @s CarrotContinue matches 25..27 run execute anchored eyes positioned ^ ^ ^5 run particle minecraft:dust -1 0 -1 3 ~ ~ ~ 1.8 1.8 1.8 0 90 force
-execute if score @s CarrotContinue matches 28.. run execute anchored eyes positioned ^ ^ ^5 run particle minecraft:dust -1.1 0 -1.1 3 ~ ~ ~ 2 2 2 0 100 force
+execute if score @s CarrotContinue matches 28.. run execute anchored eyes positioned ^ ^ ^5 run particle minecraft:dust -1 0 -1 3 ~ ~ ~ 2 2 2 0 90 force
+execute if score @s CarrotContinue matches 28.. run execute anchored eyes positioned ^ ^ ^5 run particle minecraft:dust 100000000 2 1 3 ~ ~ ~ 2 2 2 0 10 force
 execute as @a[distance=..48] at @s run playsound minecraft:block.portal.trigger master @s ~ ~ ~ 0.5 2
 effect give @s minecraft:slowness 1 7 true
