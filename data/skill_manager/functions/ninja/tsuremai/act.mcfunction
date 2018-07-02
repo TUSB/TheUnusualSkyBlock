@@ -32,14 +32,23 @@ execute if score $TsuremaiCount Global matches 22 run effect give @s minecraft:s
 execute if score $TsuremaiCount Global matches 23.. run effect give @s minecraft:strength 2 23
 
 scoreboard players add $TsuremaiCount Global 1
+
+execute positioned ^ ^ ^3 run tag @e[distance=..3,tag=Mob] add SkillTarget
+
 ###---演出---Start
-title @s subtitle [{"score":{"name":"$TsuremaiCount","objective":"Global"},"color":"yellow","bold":true}," Hit!!                                "]
+execute if score $TsuremaiCount Global matches ..24 run title @s subtitle [{"score":{"name":"$TsuremaiCount","objective":"Global"},"color":"yellow","bold":true}," Hit!!                                "]
+execute if score $TsuremaiCount Global matches 25 run title @s subtitle [{"score":{"name":"$TsuremaiCount","objective":"Global"},"color":"gold","bold":true}," Hit!!                                "]
 title @s times 0 40 0
 title @s title [""]
 playsound minecraft:entity.zombie.attack_iron_door master @a[distance=..16] ~ ~ ~ 2 2
+execute if score $TsuremaiCount Global matches ..8 run playsound minecraft:entity.witch.throw master @a[distance=..16] ~ ~ ~ 1 0.4
+execute if score $TsuremaiCount Global matches 9..16 run playsound minecraft:entity.witch.throw master @a[distance=..16] ~ ~ ~ 1 0.8
+execute if score $TsuremaiCount Global matches 17..24 run playsound minecraft:entity.witch.throw master @a[distance=..16] ~ ~ ~ 1 1.2
+execute if score $TsuremaiCount Global matches 25.. run playsound minecraft:item.trident.riptide_1 master @a[distance=..16] ~ ~ ~ 1 1.2
+particle minecraft:sweep_attack ^ ^0.2 ^1.3 0 0 0 2.5 2 force
+execute as @e[tag=SkillTarget] at @s run particle minecraft:sweep_attack ~ ~0.5 ~ 0 0.5 0 1 5 force
 ###---演出---End
 
-execute positioned ^ ^ ^3 run tag @e[distance=..3,tag=Mob] add SkillTarget
 
 ###ダメージ計算
 scoreboard players set $Damage Global 0
