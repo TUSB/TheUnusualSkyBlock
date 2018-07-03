@@ -27,6 +27,9 @@ execute if score @s SupportSkill matches 12031..12039 run function skill_manager
 ### デコイ
 execute if score @s SupportSkill matches 12041..12049 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:knight/decoy/act
 
+### タクティカルヒール
+execute if score @s SupportSkill matches 12051..12059 run function skill_manager:knight/tactical_heal/act
+
 ### 介錯
 execute if score @s SupportSkill matches 22081..22089 run function skill_manager:ninja/kaishaku/act
 

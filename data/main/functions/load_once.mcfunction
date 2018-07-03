@@ -93,7 +93,6 @@ scoreboard objectives add StoredDamage dummy 累積型ダメージ
 scoreboard objectives add BurstTrigger dummy バースト発動カウント
 scoreboard objectives add ChangeSkillLimit dummy スキル変更不可時間
 scoreboard objectives add ProjectileSkill dummy 飛翔物付与スキル
-#scoreboard objectives add ProjectileSkillA dummy 飛翔物付与スキル属性
 scoreboard objectives add SkillAttribute dummy スキル付加情報
 scoreboard objectives add CarrotContinue dummy 人参棒連続カウント
 scoreboard objectives add CarrotTick dummy 人参棒使用LastTick
@@ -111,6 +110,7 @@ scoreboard objectives add PiercingAim dummy ピアッシングエイム回数
 scoreboard objectives add BlastSpark dummy ブラストスパーク継続tick数
 scoreboard objectives add PetitBlack dummy ぷちブラック残りtick
 scoreboard objectives add OdinSlash dummy 斬鉄剣発動タイミング調整
+scoreboard objectives add TacticalHeal dummy タクティカルヒール持続確率
 ###からくり士スキル系
 scoreboard objectives add PuppetScore dummy パペット制御用スコア
 scoreboard objectives add PupRecordLevel dummy レコード特性のレベル
