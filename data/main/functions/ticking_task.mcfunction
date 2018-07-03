@@ -3,7 +3,8 @@
 ##############################
 
 ###向き補正
-tp @s[tag=TowardPlayer] ^ ^ ^ facing entity @p[nbt=!{Health:0.0f}]
+execute if entity @s[tag=TowardPlayer] at @p[nbt=!{Health:0.0f}] run function calc_manager:get/angle1
+execute if entity @s[tag=TowardPlayer] run function calc_manager:set/rotation1
 
 ###地烈斬
 execute if entity @s[tag=CrackSlash] run function skill_manager:knight/crack_slash/tick
