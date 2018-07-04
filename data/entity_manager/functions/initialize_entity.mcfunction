@@ -86,6 +86,7 @@ tag @s[tag=CooldownRequired] add ObserveCooldown
 tag @s[tag=ObserveCooldown] add TickingTask
 tag @s[tag=Swim] add TickingTask
 tag @s[tag=TowardPlayer] add TickingTask
+tag @s[tag=LimitedTrading] add TickingTask
 
 ### Initialized付与
 tag @s add Initialized

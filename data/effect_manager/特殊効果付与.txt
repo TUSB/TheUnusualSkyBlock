@@ -15,31 +15,49 @@ MP100回復
 MP200回復
 
 ### invisibility 1 21
-ハート５回復
+ハート2.5回復
 ### invisibility 1 22
-ハート10回復
+ハート5回復
 ### invisibility 1 23
-ハート20回復
+ハート10回復
 ### invisibility 1 24
-ハート40回復
+ハート20回復
 
 ### invisibility 1 31
-MP2割回復
+ハート2.5回復・MP25回復
 ### invisibility 1 32
-MP4割回復
+ハート5回復・MP50回復
 ### invisibility 1 33
-MP7割回復
+ハート10回復・MP100回復
 ### invisibility 1 34
-MP全回復
+ハート20回復・MP200回復
 
 ### invisibility 1 41
-HP3割回復
+MP1割回復
 ### invisibility 1 42
-HP6割回復
+MP3割回復
 ### invisibility 1 43
-HP10割回復
+MP6割回復
 ### invisibility 1 44
-HP20割回復
+MP全回復
 
 ### invisibility 1 51
+HP2割回復
+### invisibility 1 52
+HP6割回復
+### invisibility 1 53
+HP12割回復
+### invisibility 1 54
+HP20割回復
+
+### invisibility 1 61
+MP1割回復・HP2割回復
+### invisibility 1 62
+MP3割回復・HP6割回復
+### invisibility 1 63
+MP6割回復・HP12割り回復
+### invisibility 1 64
+MP全回復・HP20割回復
+
+### invisibility 1 71
 聖水

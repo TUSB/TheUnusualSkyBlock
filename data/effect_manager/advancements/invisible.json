@@ -19,7 +19,7 @@
                 }
             }
         },
-        "ether": {
+        "vile_ether": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
                 "effects": {
@@ -29,7 +29,7 @@
                 }
             }
         },
-        "high_ether": {
+        "normal_ether": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
                 "effects": {
@@ -39,7 +39,7 @@
                 }
             }
         },
-        "super_ether": {
+        "high_ether": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
                 "effects": {
@@ -49,7 +49,7 @@
                 }
             }
         },
-        "ultra_ether": {
+        "super_ether": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
                 "effects": {
@@ -59,7 +59,7 @@
                 }
             }
         },
-        "healing": {
+        "vile_potion": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
                 "effects": {
@@ -69,7 +69,7 @@
                 }
             }
         },
-        "high_healing": {
+        "normal_potion": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
                 "effects": {
@@ -79,7 +79,7 @@
                 }
             }
         },
-        "super_healing": {
+        "high_potion": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
                 "effects": {
@@ -89,7 +89,7 @@
                 }
             }
         },
-        "ultra_healing": {
+        "super_potion": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
                 "effects": {
@@ -99,7 +99,7 @@
                 }
             }
         },
-        "elixir": {
+        "vile_elixir": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
                 "effects": {
@@ -109,7 +109,7 @@
                 }
             }
         },
-        "high_elixir": {
+        "normal_elixir": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
                 "effects": {
@@ -119,7 +119,7 @@
                 }
             }
         },
-        "super_elixir": {
+        "high_elixir": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
                 "effects": {
@@ -129,7 +129,7 @@
                 }
             }
         },
-        "ultra_elixir": {
+        "super_elixir": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
                 "effects": {
@@ -139,7 +139,7 @@
                 }
             }
         },
-        "ex_healing": {
+        "vile_rate_ether": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
                 "effects": {
@@ -149,7 +149,7 @@
                 }
             }
         },
-        "high_ex_healing": {
+        "normal_rate_ether": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
                 "effects": {
@@ -159,7 +159,7 @@
                 }
             }
         },
-        "super_ex_healing": {
+        "high_rate_ether": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
                 "effects": {
@@ -169,7 +169,7 @@
                 }
             }
         },
-        "ultra_ex_healing": {
+        "super_rate_ether": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
                 "effects": {
@@ -179,7 +179,7 @@
                 }
             }
         },
-        "anti_doom": {
+        "vile_rate_potion": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
                 "effects": {
@@ -189,12 +189,92 @@
                 }
             }
         },
+        "normal_rate_potion": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 52
+                    }
+                }
+            }
+        },
+        "high_rate_potion": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 53
+                    }
+                }
+            }
+        },
+        "super_rate_potion": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 54
+                    }
+                }
+            }
+        },
+        "vile_rate_elixir": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 61
+                    }
+                }
+            }
+        },
+        "normal_rate_elixir": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 62
+                    }
+                }
+            }
+        },
+        "high_rate_elixir": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 63
+                    }
+                }
+            }
+        },
+        "super_rate_elixir": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 64
+                    }
+                }
+            }
+        },
+        "anti_doom": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 71
+                    }
+                }
+            }
+        },
         "default": {
             "trigger": "minecraft:effects_changed"
         }
     },
     "requirements": [
-        ["doom", "ether", "high_ether", "super_ether", "ultra_ether", "healing", "high_healing", "super_healing", "ultra_healing", "elixir", "high_elixir", "super_elixir", "ultra_elixir", "ex_healing", "high_ex_healing", "super_ex_healing", "ultra_ex_healing", "anti_doom","default"]
+        ["doom", "vile_ether", "normal_ether","high_ether", "super_ether", "vile_potion", "normal_potion", "high_potion", "super_potion", "vile_elixir", "normal_elixir", "high_elixir", "super_elixir", "vile_rate_ether", "normal_rate_ether", "high_rate_ether", "super_rate_ether", "vile_rate_potion", "normal_rate_potion", "high_rate_potion", "super_rate_potion", "vile_rate_elixir", "normal_rate_elixir", "high_rate_elixir", "super_rate_elixir", "anti_doom","default"]
     ],
     "rewards": {
         "function": "effect_manager:invisible"

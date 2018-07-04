@@ -46,3 +46,6 @@ execute if entity @s[tag=FlyingRequired,nbt={inGround:true}] run function trigge
 
 ###流体泳処理
 execute if entity @s[tag=Swim] run function enemy_manager:swim/common
+
+###村人１回制限
+execute if entity @s[tag=LimitedTrading] run function enemy_manager:trade_once
