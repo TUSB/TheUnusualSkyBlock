@@ -141,6 +141,7 @@ scoreboard players set $8 Const 8
 scoreboard players set $10 Const 10
 scoreboard players set $12 Const 12
 scoreboard players set $15 Const 15
+scoreboard players set $18 Const 18
 scoreboard players set $20 Const 20
 scoreboard players set $30 Const 30
 scoreboard players set $34 Const 34

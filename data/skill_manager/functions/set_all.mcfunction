@@ -13,8 +13,8 @@ scoreboard players set @s LevelPupMaster 100
 scoreboard players set @s Level 100
 scoreboard players set @s SubLevel 100
 scoreboard players set @s Job 1
-scoreboard players set @s MPMax 150
-scoreboard players set @s MP 150
+scoreboard players set @s MPMax 10000
+scoreboard players set @s MP 10000
 
 scoreboard players set @s ModeSkillRed 1000
 scoreboard players set @s ModeSkillBlue 1000
