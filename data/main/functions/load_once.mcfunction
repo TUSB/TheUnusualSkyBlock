@@ -25,6 +25,7 @@ scoreboard objectives add DamageDealt minecraft.custom:minecraft.damage_dealt �
 scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken 受けたメージ量
 scoreboard objectives add UseSplashPotion minecraft.used:minecraft.splash_potion 投擲ポーション使用
 scoreboard objectives add UseLingerPotion minecraft.used:minecraft.lingering_potion 残留ポーション使用
+scoreboard objectives add Jump minecraft.custom:minecraft.jump ジャンプ
 scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game ログインフラグ
 ###変数や定数、カウンタ
 scoreboard objectives add Global dummy グローバル変数
@@ -100,7 +101,7 @@ scoreboard objectives add CarrotTick dummy 人参棒使用LastTick
 scoreboard objectives add FalconDamage dummy はやぶさ斬り用ダメージ保存値
 scoreboard objectives add FalconHP dummy はやぶさ斬り用敵HP
 scoreboard objectives add IronWill dummy アイアンウィル残りtick数
-scoreboard objectives add MultiThread dummy 絡繰士マルチスレッド
+scoreboard objectives add MultiThread dummy マルチスレッド
 scoreboard objectives add Issen dummy 一閃継続tick数
 scoreboard objectives add DarkSwamp dummy ダークスワンプ回数
 scoreboard objectives add PillarCount dummy セイクリッドピラーダメージ付与上限
@@ -111,6 +112,8 @@ scoreboard objectives add BlastSpark dummy ブラストスパーク継続tick数
 scoreboard objectives add PetitBlack dummy ぷちブラック残りtick
 scoreboard objectives add OdinSlash dummy 斬鉄剣発動タイミング調整
 scoreboard objectives add TacticalHeal dummy タクティカルヒール持続確率
+scoreboard objectives add Choyaku dummy 跳躍跳躍力
+scoreboard objectives add ChoyakuTrigger dummy 跳躍発動タイミング調整
 ###からくり士スキル系
 scoreboard objectives add PuppetScore dummy パペット制御用スコア
 scoreboard objectives add PupRecordLevel dummy レコード特性のレベル
@@ -143,8 +146,10 @@ scoreboard players set $12 Const 12
 scoreboard players set $15 Const 15
 scoreboard players set $18 Const 18
 scoreboard players set $20 Const 20
+scoreboard players set $25 Const 25
 scoreboard players set $30 Const 30
 scoreboard players set $34 Const 34
+scoreboard players set $35 Const 35
 scoreboard players set $40 Const 40
 scoreboard players set $50 Const 50
 scoreboard players set $60 Const 60

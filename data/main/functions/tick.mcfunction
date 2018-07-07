@@ -37,6 +37,7 @@ execute as @a[scores={SprintOneCm=1..}] at @s run function trigger_manager:sprin
 execute as @a[scores={SneakTime=1..}] run function trigger_manager:sneak
 execute as @e[scores={UseSplashPotion=1..}] run function trigger_manager:splash_potion
 execute as @e[scores={UseLingerPotion=1..}] run function trigger_manager:lingering_potion
+execute as @a[scores={Jump=1..}] run function trigger_manager:jump
 
 ###ブラストスパーク継続
 execute as @a[scores={BlastSpark=1..}] at @s run function skill_manager:hunter/blast_spark/tick
@@ -103,7 +104,7 @@ execute as @e[tag=Mob,scores={Damage=0..}] at @s run function entity_manager:app
 ###エンティティ削除処理
 ##敵討伐時処理
 execute as @a[scores={KillCount=1..}] run function entity_manager:defeat_enemy
-execute as @e[tag=Mob,nbt={AbsorptionAmount:0f}] at @s run function entity_manager:mob_death
+execute as @e[tag=Mob,nbt={AbsorptionAmount:0f,HurtTime:0s}] at @s run function entity_manager:mob_death
 ##乗り物削除フラグ付与
 tag @e[tag=Vehicle,nbt=!{Passengers:[{}]}] add Garbage
 ##エンティティ削除
