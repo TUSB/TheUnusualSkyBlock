@@ -2,22 +2,25 @@
 ### 毎ティック処理
 ##############################
 
+###レイズ処理
+execute as @a[tag=Raise,scores={TimeSinceDeath=1..}] at @s run function skill_manager:white_mage/araise/raised
+
 ###エリア移動
 ##overworld
-execute in overworld as @a[x=-480,y=0,z=-1136,dx=1039,dy=255,dz=1039] unless score @s Dimension matches 00 run function area_manager:on_change/skylands
-execute in overworld as @a[x=-880,y=0,z=-944,dx=399,dy=255,dz=783] unless score @s Dimension matches 10 run function area_manager:on_change/skill_setting_field
-execute in overworld as @a[x=-1168,y=0,z=752,dx=511,dy=255,dz=383] unless score @s Dimension matches 11 run function area_manager:on_change/theater
-execute in overworld as @a[x=736,y=0,z=-352,dx=751,dy=255,dz=751] unless score @s Dimension matches 12 run function area_manager:on_change/underworld
-execute in overworld as @a[x=-288,y=0,z=-3296,dx=639,dy=255,dz=1311] unless score @s Dimension matches 13 run function area_manager:on_change/table_mountain
-execute in overworld as @a[x=-3072,y=0,z=-656,dx=1903,dy=255,dz=1103] unless score @s Dimension matches 14 run function area_manager:on_change/cloudia
-execute in overworld as @a[x=-224,y=0,z=576,dx=527,dy=255,dz=351] unless score @s Dimension matches 15 run function area_manager:on_change/gullivers_land
-execute in overworld as @a[x=768,y=0,z=1008,dx=2063,dy=255,dz=2127] unless score @s Dimension matches 16 run function area_manager:on_change/tocult_colde
+execute in overworld as @a[x=-480,y=0,z=-1136,dx=1039,dy=255,dz=1039,scores={TimeSinceDeath=1..}] unless score @s Dimension matches 00 run function area_manager:on_change/skylands
+execute in overworld as @a[x=-880,y=0,z=-944,dx=399,dy=255,dz=783,scores={TimeSinceDeath=1..}] unless score @s Dimension matches 10 run function area_manager:on_change/skill_setting_field
+execute in overworld as @a[x=-1168,y=0,z=752,dx=511,dy=255,dz=383,scores={TimeSinceDeath=1..}] unless score @s Dimension matches 11 run function area_manager:on_change/theater
+execute in overworld as @a[x=736,y=0,z=-352,dx=751,dy=255,dz=751,scores={TimeSinceDeath=1..}] unless score @s Dimension matches 12 run function area_manager:on_change/underworld
+execute in overworld as @a[x=-288,y=0,z=-3296,dx=639,dy=255,dz=1311,scores={TimeSinceDeath=1..}] unless score @s Dimension matches 13 run function area_manager:on_change/table_mountain
+execute in overworld as @a[x=-3072,y=0,z=-656,dx=1903,dy=255,dz=1103,scores={TimeSinceDeath=1..}] unless score @s Dimension matches 14 run function area_manager:on_change/cloudia
+execute in overworld as @a[x=-224,y=0,z=576,dx=527,dy=255,dz=351,scores={TimeSinceDeath=1..}] unless score @s Dimension matches 15 run function area_manager:on_change/gullivers_land
+execute in overworld as @a[x=768,y=0,z=1008,dx=2063,dy=255,dz=2127,scores={TimeSinceDeath=1..}] unless score @s Dimension matches 16 run function area_manager:on_change/tocult_colde
 #execute in overworld as @a[x=0,y=0,z=0,dx=1,dy=255,dz=1] unless score @s Dimension matches 20 run function area_manager:on_change/nether_trial
 ##nether
-execute in the_nether as @a[x=-736,y=0,z=-1008,dx=1599,dy=255,dz=1679] unless score @s Dimension matches 100 run function area_manager:on_change/nether
-execute in the_nether as @a[x=-2272,y=0,z=-464,dx=831,dy=1,dz=831] unless score @s Dimension matches 110 run function area_manager:on_change/nether_dungeon
+execute in the_nether as @a[x=-736,y=0,z=-1008,dx=1599,dy=255,dz=1679,scores={TimeSinceDeath=1..}] unless score @s Dimension matches 100 run function area_manager:on_change/nether
+execute in the_nether as @a[x=-2272,y=0,z=-464,dx=831,dy=1,dz=831,scores={TimeSinceDeath=1..}] unless score @s Dimension matches 110 run function area_manager:on_change/nether_dungeon
 ##end
-execute in the_end as @a[distance=0..] unless score @s Dimension matches 210 run function area_manager:on_change/end
+execute in the_end as @a[distance=0..,scores={TimeSinceDeath=1..}] unless score @s Dimension matches 210 run function area_manager:on_change/end
 
 ###1tick遅れ処理
 execute as @e[tag=DelayedTask] at @s run function main:delayed_task
@@ -34,10 +37,11 @@ execute as @a[scores={UseCarrotStick=1..}] at @s run function trigger_manager:ca
 execute as @a[scores={DamageDealt=0..}] at @s run function trigger_manager:damage_dealt
 execute as @a[scores={DamageTaken=0..}] at @s run function trigger_manager:damage_taken
 execute as @a[scores={SprintOneCm=1..}] at @s run function trigger_manager:sprint
-execute as @a[scores={SneakTime=1..}] run function trigger_manager:sneak
-execute as @e[scores={UseSplashPotion=1..}] run function trigger_manager:splash_potion
-execute as @e[scores={UseLingerPotion=1..}] run function trigger_manager:lingering_potion
-execute as @a[scores={Jump=1..}] run function trigger_manager:jump
+execute as @a[scores={SneakTime=1..}] at @s run function trigger_manager:sneak
+execute as @e[scores={UseSplashPotion=1..}] at @s run function trigger_manager:splash_potion
+execute as @e[scores={UseLingerPotion=1..}] at @s run function trigger_manager:lingering_potion
+execute as @a[scores={Jump=1..}] at @s run function trigger_manager:jump
+execute as @a[scores={Deaths=1..}] at @s run function trigger_manager:death
 
 ###ブラストスパーク継続
 execute as @a[scores={BlastSpark=1..}] at @s run function skill_manager:hunter/blast_spark/tick

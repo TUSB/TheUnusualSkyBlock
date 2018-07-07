@@ -87,6 +87,7 @@ tag @s[tag=ObserveCooldown] add TickingTask
 tag @s[tag=Swim] add TickingTask
 tag @s[tag=TowardPlayer] add TickingTask
 tag @s[tag=LimitedTrading] add TickingTask
+tag @s[tag=Mob,nbt={Invulnerable:true}] remove Mob
 
 ### Initialized付与
 tag @s add Initialized

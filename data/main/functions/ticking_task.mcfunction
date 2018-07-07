@@ -3,7 +3,7 @@
 ##############################
 
 ###向き補正
-execute if entity @s[tag=TowardPlayer] at @p[nbt=!{Health:0.0f}] run function calc_manager:get/angle1
+execute if entity @s[tag=TowardPlayer] at @p[scores={TimeSinceDeath=1..}] run function calc_manager:get/angle1
 execute if entity @s[tag=TowardPlayer] run function calc_manager:set/rotation1
 
 ###地烈斬
@@ -23,6 +23,8 @@ execute if entity @s[tag=StakesFailed] run function skill_manager:hunter/stakes_
 execute if entity @s[tag=BirdStrike] run function skill_manager:hunter/bird_strike/tick
 ###ワイルドフレア継続処理
 execute if entity @s[tag=WildFlare] run function skill_manager:hunter/wild_flare/tick
+###セイクリッドピラー処理
+execute if entity @s[tag=RaisePoint] run function skill_manager:white_mage/araise/tick
 ###セイクリッドピラー処理
 execute if entity @s[tag=SacredPillarBase] run function skill_manager:white_mage/sacred_pillar/tick/common
 ###アイスストーム処理

@@ -2,7 +2,7 @@
 ### プレイヤー狙い
 ##############################
 
-execute at @p[nbt=!{Health:0.0f}] positioned ~ ~1.52 ~ run function calc_manager:get/direction1
+execute at @p[scores={TimeSinceDeath=1..}] positioned ~ ~1.52 ~ run function calc_manager:get/direction1
 
 ###100mをPortalCooldown tickかけて進む
 ###set M to 10000/pc ,need pc >= 10

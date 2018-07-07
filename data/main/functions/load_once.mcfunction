@@ -26,6 +26,7 @@ scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken �
 scoreboard objectives add UseSplashPotion minecraft.used:minecraft.splash_potion 投擲ポーション使用
 scoreboard objectives add UseLingerPotion minecraft.used:minecraft.lingering_potion 残留ポーション使用
 scoreboard objectives add Jump minecraft.custom:minecraft.jump ジャンプ
+scoreboard objectives add Deaths minecraft.custom:minecraft.deaths 死亡
 scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game ログインフラグ
 ###変数や定数、カウンタ
 scoreboard objectives add Global dummy グローバル変数
@@ -195,7 +196,7 @@ scoreboard players set $2102 Cost 3
 scoreboard players set $2103 Cost 3
 scoreboard players set $2104 Cost 60
 scoreboard players set $2105 Cost 5
-scoreboard players set $2106 Cost 100
+scoreboard players set $2106 Cost 0
 scoreboard players set $2201 Cost 10
 scoreboard players set $2202 Cost 20
 scoreboard players set $2203 Cost 20
