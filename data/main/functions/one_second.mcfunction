@@ -46,6 +46,9 @@ execute as @a[scores={FireAffinity=1..}] at @s run function skill_manager:ninja/
 ### 黙想
 execute as @a[scores={Mokuso=0..}] at @s run function skill_manager:ninja/mokuso/tick
 
+### 敵スキル実行
+execute as @e[tag=HasSkill] at @s run function skill_manager:enemy/count
+
 ### 特殊状態異常回復
 execute as @a[tag=Burn,nbt={Fire:-20s}] at @s run function effect_manager:burn/cure
 execute as @a[tag=Debility,nbt=!{ActiveEffects:[{Id:19b}]}] at @s run function effect_manager:debility/cure

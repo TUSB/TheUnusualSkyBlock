@@ -137,6 +137,7 @@ scoreboard objectives add MotionX dummy モーションX保存
 scoreboard objectives add MotionY dummy モーションY保存
 scoreboard objectives add MotionZ dummy モーションZ保存
 scoreboard objectives add SkillHurtTime dummy スキルダメージ無効果時間
+scoreboard objectives add EnemySkillSpan dummy 敵スキル使用間隔
 
 ###定数
 scoreboard players set $-1 Const -1
