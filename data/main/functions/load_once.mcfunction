@@ -109,6 +109,7 @@ scoreboard objectives add WaterAffinity dummy ウォータアフィニティ
 scoreboard objectives add FireAffinity dummy ファイアアフィニティ
 scoreboard objectives add Choyaku dummy 跳躍跳躍力
 scoreboard objectives add ChoyakuTrigger dummy 跳躍発動タイミング調整
+scoreboard objectives add Mokuso dummy 黙想レベル
 scoreboard objectives add Issen dummy 一閃継続tick数
 scoreboard objectives add Kaishaku dummy 介錯残りtick数
 scoreboard objectives add PiercingAim dummy ピアッシングエイム回数

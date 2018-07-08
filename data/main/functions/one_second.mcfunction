@@ -43,6 +43,9 @@ execute at @e[tag=DarkSwamp,sort=random,limit=3] run particle minecraft:squid_in
 execute as @a[scores={WaterAffinity=1..}] at @s run function skill_manager:ninja/suiton/affinity/tick
 execute as @a[scores={FireAffinity=1..}] at @s run function skill_manager:ninja/katon/affinity/tick
 
+### 黙想
+execute as @a[scores={Mokuso=0..}] at @s run function skill_manager:ninja/mokuso/tick
+
 ### プレイヤーふよふよ追尾
 execute as @e[tag=FollowPlayer] at @s run function entity_manager:follow_player
 
