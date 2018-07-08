@@ -3,6 +3,6 @@
 ##############################
 
 ###---演出---Start
-tellraw @a [{"selector":"@s"},{"text":"は死の運命から逃れた！","color":"green"}]
+tellraw @a [{"text":"","color":"green"},{"selector":"@s"},"は",{"text":"死の宣告","color":"white","hoverEvent":{"action":"show_text","value":"一定時間経過後、死亡する。","color":"white"}},"から回復した！"]
 ###---演出---End
 scoreboard players reset @s DoomCount

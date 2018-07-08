@@ -102,6 +102,7 @@ scoreboard objectives add CarrotTick dummy 人参棒使用LastTick
 scoreboard objectives add FalconDamage dummy はやぶさ斬り用ダメージ保存値
 scoreboard objectives add FalconHP dummy はやぶさ斬り用敵HP
 scoreboard objectives add IronWill dummy アイアンウィル残りtick数
+scoreboard objectives add DivineShield dummy ディバインシールドダメージ量
 scoreboard objectives add OdinSlash dummy 斬鉄剣発動タイミング調整
 scoreboard objectives add TacticalHeal dummy タクティカルヒール持続確率
 scoreboard objectives add Aisatsu dummy アイサツ消費MP減少効果量
@@ -148,7 +149,9 @@ scoreboard players set $5 Const 5
 scoreboard players set $6 Const 6
 scoreboard players set $8 Const 8
 scoreboard players set $10 Const 10
+scoreboard players set $11 Const 11
 scoreboard players set $12 Const 12
+scoreboard players set $13 Const 13
 scoreboard players set $15 Const 15
 scoreboard players set $18 Const 18
 scoreboard players set $20 Const 20
@@ -434,6 +437,7 @@ team option NoCollision collisionRule never
 team add Friendly 味方チーム
 team option Friendly friendlyfire false
 team option Friendly collisionRule never
+team option Friendly color white
 #team option Friendly prefix {"text":"☘","color":"green"}
 #team option Friendly prefix {"text":"✿","color":"yellow"}
 team option Friendly prefix {"text":"✦","color":"red"}

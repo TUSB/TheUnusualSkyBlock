@@ -19,6 +19,36 @@
                 }
             }
         },
+        "super_doom": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 1
+                    }
+                }
+            }
+        },
+        "burn": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 2
+                    }
+                }
+            }
+        },
+        "debility": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 3
+                    }
+                }
+            }
+        },
         "vile_ether": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
@@ -274,7 +304,7 @@
         }
     },
     "requirements": [
-        ["doom", "vile_ether", "normal_ether","high_ether", "super_ether", "vile_potion", "normal_potion", "high_potion", "super_potion", "vile_elixir", "normal_elixir", "high_elixir", "super_elixir", "vile_rate_ether", "normal_rate_ether", "high_rate_ether", "super_rate_ether", "vile_rate_potion", "normal_rate_potion", "high_rate_potion", "super_rate_potion", "vile_rate_elixir", "normal_rate_elixir", "high_rate_elixir", "super_rate_elixir", "anti_doom","default"]
+        ["doom", "super_doom", "burn", "debility", "vile_ether", "normal_ether","high_ether", "super_ether", "vile_potion", "normal_potion", "high_potion", "super_potion", "vile_elixir", "normal_elixir", "high_elixir", "super_elixir", "vile_rate_ether", "normal_rate_ether", "high_rate_ether", "super_rate_ether", "vile_rate_potion", "normal_rate_potion", "high_rate_potion", "super_rate_potion", "vile_rate_elixir", "normal_rate_elixir", "high_rate_elixir", "super_rate_elixir", "anti_doom","default"]
     ],
     "rewards": {
         "function": "effect_manager:invisible"

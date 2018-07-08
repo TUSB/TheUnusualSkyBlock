@@ -3,6 +3,6 @@
 ##############################
 
 ###---演出---Start
-tellraw @a [{"selector":"@s"},{"text":"に死の宣告の効果！","color":"red"}]
+tellraw @a [{"text":"","color":"red"},{"selector":"@s"},"に",{"text":"死の宣告","color":"white","hoverEvent":{"action":"show_text","value":"一定時間経過後、死亡する。","color":"white"}},"を受けた！"]
 ###---演出---End
 scoreboard players set @s DoomCount 31

@@ -4,6 +4,6 @@
 
 gamerule showDeathMessages false
 kill @s
-tellraw @a [{"selector":"@s"}," は死の運命から逃れられなかった。"]
+tellraw @a [{"selector":"@s"}," は死の運命から逃れられなかった…"]
 gamerule showDeathMessages true
 scoreboard players reset @s DoomCount

@@ -54,10 +54,10 @@ execute as @a[scores={DroppedMode=1..}] at @s run function trigger_manager:egg/d
 execute as @a[scores={DroppedRed=1..}] at @s run function trigger_manager:egg/dropped_red
 execute as @a[scores={DroppedBlue=1..}] at @s run function trigger_manager:egg/dropped_blue
 
+###スキル発動
 execute as @a[scores={ActiveSkill=1..}] at @s run function skill_manager:practice/mode
 execute as @a if score @s CarrotTick matches 0 run scoreboard players set @s CarrotContinue 0
-
-###スキル発動
+###MP不足表示
 execute as @a[scores={ActiveCost=1..}] if score @s MP < @s ActiveCost run playsound minecraft:block.fire.extinguish master @s ~ ~ ~ 1 2
 scoreboard players reset @s ActiveCost
 

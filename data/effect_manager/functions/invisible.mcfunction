@@ -3,6 +3,10 @@
 ##############################
 
 execute if entity @s[advancements={effect_manager:invisible={doom=true}}] unless score @s DoomCount matches 1..31 run function effect_manager:doom/apply
+execute if entity @s[advancements={effect_manager:invisible={super_doom=true}}] unless score @s DoomCount matches 1..13 run function effect_manager:doom/apply
+execute if entity @s[advancements={effect_manager:invisible={super_doom=true}}] run scoreboard players operation @s DoomCount < $10 Const
+execute if entity @s[advancements={effect_manager:invisible={burn=true}},tag=!Burn] run function effect_manager:burn/apply
+execute if entity @s[advancements={effect_manager:invisible={debility=true}},tag=!Debility] run function effect_manager:debility/apply
 
 execute if entity @s[advancements={effect_manager:invisible={vile_ether=true}}] run scoreboard players remove @s MPConsumption 25
 execute if entity @s[advancements={effect_manager:invisible={normal_ether=true}}] run scoreboard players remove @s MPConsumption 50
