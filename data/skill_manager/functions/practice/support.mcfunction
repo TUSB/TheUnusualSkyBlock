@@ -37,6 +37,12 @@ execute if score @s SupportSkill matches 12051..12059 run function skill_manager
 ### アイサツ
 execute if score @s SupportSkill matches 22011..22019 run function skill_manager:ninja/aisatsu/act
 
+### 水遁
+execute if score @s SupportSkill matches 22021..22029 run function skill_manager:ninja/suiton/act
+
+### 火遁
+execute if score @s SupportSkill matches 22031..22039 run function skill_manager:ninja/katon/act
+
 ### 介錯
 execute if score @s SupportSkill matches 22081..22089 run function skill_manager:ninja/kaishaku/act
 

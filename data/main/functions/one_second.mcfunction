@@ -39,6 +39,10 @@ scoreboard players remove @a ChangeSkillLimit 1
 ### ダークスワンプパーティクル表示
 execute at @e[tag=DarkSwamp,sort=random,limit=3] run particle minecraft:squid_ink ~ ~ ~ 2.5 0.2 2.5 0 80 force
 
+### アフィニティ
+execute as @a[scores={WaterAffinity=1..}] at @s run function skill_manager:ninja/suiton/affinity/tick
+execute as @a[scores={FireAffinity=1..}] at @s run function skill_manager:ninja/katon/affinity/tick
+
 ### プレイヤーふよふよ追尾
 execute as @e[tag=FollowPlayer] at @s run function entity_manager:follow_player
 

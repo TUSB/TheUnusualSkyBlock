@@ -105,6 +105,8 @@ scoreboard objectives add IronWill dummy アイアンウィル残りtick数
 scoreboard objectives add OdinSlash dummy 斬鉄剣発動タイミング調整
 scoreboard objectives add TacticalHeal dummy タクティカルヒール持続確率
 scoreboard objectives add Aisatsu dummy アイサツ消費MP減少効果量
+scoreboard objectives add WaterAffinity dummy ウォータアフィニティ
+scoreboard objectives add FireAffinity dummy ファイアアフィニティ
 scoreboard objectives add Choyaku dummy 跳躍跳躍力
 scoreboard objectives add ChoyakuTrigger dummy 跳躍発動タイミング調整
 scoreboard objectives add Issen dummy 一閃継続tick数

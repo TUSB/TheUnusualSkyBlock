@@ -6,6 +6,7 @@ tellraw @a ["ドーモ。",{"selector":"@e[distance=..10,tag=Mob]","color":"red"
 tp @s ~ ~ ~ ~ 45
 scoreboard players set @s Aisatsu 0
 execute at @e[distance=..30,tag=Mob] run scoreboard players add @s Aisatsu 3
+execute if score @s ModeSkill matches 22012 at @e[distance=..30,tag=Mob] run scoreboard players add @s Aisatsu 2
 
 ###---演出---Start
 tellraw @s [{"text":"","color":"green"},{"selector":"@s"},"に",{"text":"アイサツ","color":"white","hoverEvent":{"action":"show_text","value":"アイサツした敵の数に応じて、次に使うスキルの消費MPが減少する。","color":"white"}},"の効果！"]
