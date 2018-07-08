@@ -4,6 +4,10 @@
 
 ###消費MP決定
 execute if score @s SneakTime matches 1.. run function skill_manager:practice/sneak_support
+###アイサツ補正
+execute if score @s Aisatsu matches 0.. run function skill_manager:ninja/aisatsu/apply
+###エナジーセーブ補正
+execute if score @s EnergySave matches 0.. run function skill_manager:hunter/energy_save/apply
 ###---演出---Start
 execute if score @s MP < @s SupportCost run tellraw @s {"text":"MPが不足しています。","color":"red"}
 execute if score @s MP < @s SupportCost run playsound minecraft:block.fire.extinguish master @s ~ ~ ~ 1 2
@@ -29,6 +33,9 @@ execute if score @s SupportSkill matches 12041..12049 at @e[tag=Egg,distance=..6
 
 ### タクティカルヒール
 execute if score @s SupportSkill matches 12051..12059 run function skill_manager:knight/tactical_heal/act
+
+### アイサツ
+execute if score @s SupportSkill matches 22011..22019 run function skill_manager:ninja/aisatsu/act
 
 ### 介錯
 execute if score @s SupportSkill matches 22081..22089 run function skill_manager:ninja/kaishaku/act
