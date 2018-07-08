@@ -443,6 +443,8 @@ team option Friendly color white
 team option Friendly prefix {"text":"✦","color":"red"}
 team option Friendly suffix {"text":"✦","color":"red"}
 team join Friendly バースト
+team add Enemy 敵チーム
+team option Enemy friendlyfire false
 
 ###ボスバー作成
 bossbar add enemy_health {"text":"HP","color":"green"}

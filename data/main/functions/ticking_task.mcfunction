@@ -51,3 +51,6 @@ execute if entity @s[tag=Swim] run function enemy_manager:swim/common
 
 ###村人１回制限
 execute if entity @s[tag=LimitedTrading] run function enemy_manager:trade_once
+
+### 奈落回避
+execute if entity @s[tag=AbyssWarp,y=0,dy=-20] run function enemy_manager:warp
