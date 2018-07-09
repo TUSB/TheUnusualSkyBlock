@@ -9,7 +9,7 @@ execute if score @s SneakTime matches ..2 run scoreboard players reset @s BurstT
 
 ### 跳躍トリガー加算
 execute if score @s SneakTime matches 3 run scoreboard players add @s[nbt={OnGround:true}] ChoyakuTrigger 1
-execute if score @s ModeSkill matches 21021..21029 if score @s ChoyakuTrigger matches 7 run scoreboard players operation @s ActiveSkill = @s ModeSkill
+execute if score @s ModeSkill matches 21021..21029 if score @s ChoyakuTrigger matches 5 run scoreboard players operation @s ActiveSkill = @s ModeSkill
 execute if score @s SneakTime matches ..2 run scoreboard players reset @s ChoyakuTrigger
 
 ### スニーク状態取得

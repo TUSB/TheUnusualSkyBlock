@@ -36,6 +36,9 @@ execute if score $Second Count matches -1 run function event_manager:reset_event
 ### スキル変更不可時間更新
 scoreboard players remove @a ChangeSkillLimit 1
 
+### 跳躍スコアリセット
+scoreboard players reset @a[scores={Choyaku=0..},nbt=!{ActiveEffects:[{Id:8b}]}] Choyaku
+
 ### ダークスワンプパーティクル表示
 execute at @e[tag=DarkSwamp,sort=random,limit=3] run particle minecraft:squid_ink ~ ~ ~ 2.5 0.2 2.5 0 80 force
 

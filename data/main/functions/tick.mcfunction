@@ -84,6 +84,8 @@ execute as @a[tag=IronWill] run function skill_manager:knight/iron_will/load
 execute as @a[scores={ModeSkill=11011..21039}] unless score @s ModeSkill matches 11020..21030 at @s run function skill_manager:knight/falcon_slash/ready
 ###斬鉄剣タイミング調整
 execute as @a[scores={OdinSlash=0..}] at @s run function skill_manager:knight/odin_slash/tick
+###跳躍演出
+execute as @a[scores={Choyaku=0..},nbt={OnGround:false,FallDistance:0.0f}] at @s run function skill_manager:ninja/choyaku/direction
 ###一閃処理
 execute as @a[scores={Issen=1..}] at @s run function skill_manager:ninja/issen/tick
 ###介錯処理
@@ -108,7 +110,7 @@ execute as @e[tag=Mob,scores={Damage=0..}] at @s run function entity_manager:app
 ###エンティティ削除処理
 ##敵討伐時処理
 execute as @a[scores={KillCount=1..}] run function entity_manager:defeat_enemy
-execute as @e[tag=Mob,nbt={AbsorptionAmount:0f,HurtTime:0s}] at @s run function entity_manager:mob_death
+execute as @e[tag=Mob,nbt={AbsorptionAmount:0f},nbt=!{HurtTime:10s},nbt=!{HurtTime:9s},nbt=!{HurtTime:8s}] at @s run function entity_manager:mob_death
 ##乗り物削除フラグ付与
 tag @e[tag=Vehicle,nbt=!{Passengers:[{}]}] add Garbage
 ##エンティティ削除
