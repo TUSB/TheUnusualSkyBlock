@@ -3,5 +3,5 @@
 ##############################
 
 ###---演出---Start
-say ここに演出
+particle minecraft:cloud ~ ~ ~ 0 0 0 0 0 force
 ###---演出---End

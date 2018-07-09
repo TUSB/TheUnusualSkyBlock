@@ -8,4 +8,5 @@ execute if entity @s[tag=BirdStrike2] positioned ~-4 ~5 ~-4 as @e[dx=8,dy=20,dz=
 
 ###---演出---Start
 particle minecraft:sweep_attack ~ ~15 ~ 2 4 2 0 100 force
+playsound minecraft:item.elytra.flying master @a[distance=..48] ~ ~ ~ 0.3 2
 ###---演出---End
