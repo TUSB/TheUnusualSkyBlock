@@ -2,11 +2,22 @@
 ### 特殊効果処理
 ##############################
 
+function calc_manager:update_random
+scoreboard players operation $Random Global %= $100 Const
+scoreboard players set $RegistFlag Global 0
+execute store result score $RegistFlag Global if score $Random Global < @s RegistEffects unless entity @s[advancements={effect_manager:invisible={doom=false,super_doom=false,burn=false,debility=false,virus=false,confuse=false,curse=false,terror=false,tnt=false}}] run advancement revoke @s only effect_manager:invisible
+execute if score $RegistFlag Global matches 1.. run tellraw @a [{"text":"","color":"green"},{"selector":"@s"},"は",{"text":"とても悪い効果","color":"white"},"を防いだ！"]
+
 execute if entity @s[advancements={effect_manager:invisible={doom=true}}] unless score @s DoomCount matches 1..31 run function effect_manager:doom/apply
 execute if entity @s[advancements={effect_manager:invisible={super_doom=true}}] unless score @s DoomCount matches 1..13 run function effect_manager:doom/apply
 execute if entity @s[advancements={effect_manager:invisible={super_doom=true}}] run scoreboard players operation @s DoomCount < $10 Const
 execute if entity @s[advancements={effect_manager:invisible={burn=true}},tag=!Burn] run function effect_manager:burn/apply
 execute if entity @s[advancements={effect_manager:invisible={debility=true}},tag=!Debility] run function effect_manager:debility/apply
+execute if entity @s[advancements={effect_manager:invisible={virus=true}}] run function effect_manager:virus/apply
+execute if entity @s[advancements={effect_manager:invisible={confuse=true}}] run function effect_manager:confuse/apply
+execute if entity @s[advancements={effect_manager:invisible={curse=true}}] run function effect_manager:curse/apply
+execute if entity @s[advancements={effect_manager:invisible={terror=true}}] run function effect_manager:terror/apply
+execute if entity @s[advancements={effect_manager:invisible={tnt=true}}] run function effect_manager:tnt/apply
 
 execute if entity @s[advancements={effect_manager:invisible={vile_ether=true}}] run scoreboard players remove @s MPConsumption 25
 execute if entity @s[advancements={effect_manager:invisible={normal_ether=true}}] run scoreboard players remove @s MPConsumption 50

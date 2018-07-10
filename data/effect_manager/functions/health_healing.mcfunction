@@ -2,6 +2,9 @@
 ### カスタムHP回復
 ##############################
 
+### 病気
+execute if score @s VirusCount matches 0.. run scoreboard players reset @s HealthHealing
+
 ### 4以上
 effect give @s[scores={HealthHealing=4..}] minecraft:instant_health 1 0 true
 scoreboard players remove @s[scores={HealthHealing=4..}] HealthHealing 4

@@ -14,7 +14,7 @@
             "conditions": {
                 "effects": {
                     "minecraft:invisibility": {
-                        "amplifier" : 0
+                        "amplifier" : 1
                     }
                 }
             }
@@ -24,7 +24,7 @@
             "conditions": {
                 "effects": {
                     "minecraft:invisibility": {
-                        "amplifier" : 1
+                        "amplifier" : 2
                     }
                 }
             }
@@ -34,7 +34,7 @@
             "conditions": {
                 "effects": {
                     "minecraft:invisibility": {
-                        "amplifier" : 2
+                        "amplifier" : 3
                     }
                 }
             }
@@ -44,7 +44,57 @@
             "conditions": {
                 "effects": {
                     "minecraft:invisibility": {
-                        "amplifier" : 3
+                        "amplifier" : 4
+                    }
+                }
+            }
+        },
+        "virus": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 5
+                    }
+                }
+            }
+        },
+        "confuse": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 6
+                    }
+                }
+            }
+        },
+        "curse": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 7
+                    }
+                }
+            }
+        },
+        "terror": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 8
+                    }
+                }
+            }
+        },
+        "tnt": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 9
                     }
                 }
             }
@@ -304,7 +354,7 @@
         }
     },
     "requirements": [
-        ["doom", "super_doom", "burn", "debility", "vile_ether", "normal_ether","high_ether", "super_ether", "vile_potion", "normal_potion", "high_potion", "super_potion", "vile_elixir", "normal_elixir", "high_elixir", "super_elixir", "vile_rate_ether", "normal_rate_ether", "high_rate_ether", "super_rate_ether", "vile_rate_potion", "normal_rate_potion", "high_rate_potion", "super_rate_potion", "vile_rate_elixir", "normal_rate_elixir", "high_rate_elixir", "super_rate_elixir", "anti_doom","default"]
+        ["doom", "super_doom", "burn", "debility", "virus", "confuse", "curse", "terror", "tnt", "vile_ether", "normal_ether","high_ether", "super_ether", "vile_potion", "normal_potion", "high_potion", "super_potion", "vile_elixir", "normal_elixir", "high_elixir", "super_elixir", "vile_rate_ether", "normal_rate_ether", "high_rate_ether", "super_rate_ether", "vile_rate_potion", "normal_rate_potion", "high_rate_potion", "super_rate_potion", "vile_rate_elixir", "normal_rate_elixir", "high_rate_elixir", "super_rate_elixir", "anti_doom","default"]
     ],
     "rewards": {
         "function": "effect_manager:invisible"

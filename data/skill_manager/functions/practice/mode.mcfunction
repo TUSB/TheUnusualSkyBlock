@@ -21,6 +21,8 @@ execute if score @s SkillInterval > $0 Const run scoreboard players reset @s Act
 execute if score @s ActiveSkill matches 1.. run scoreboard players operation @s MPConsumption += @s ActiveCost
 ###スキル発動不能時間設定
 execute if score @s ActiveSkill matches 1.. run scoreboard players operation @s SkillInterval = @s ActiveInterval
+###テラー判定
+execute if score @s TerrorLevel matches 0.. run function effect_manager:terror/check
 
 ### 剣士＜はやぶさ斬り＞
 execute if score @s ActiveSkill matches 11011..11019 run function skill_manager:knight/falcon_slash/act

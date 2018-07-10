@@ -18,6 +18,8 @@ execute if score @s SkillInterval > $0 Const run scoreboard players reset @s Sup
 execute if score @s SupportSkill matches 1.. run scoreboard players operation @s MPConsumption += @s SupportCost
 ###スキル発動不能時間設定
 execute if score @s SupportSkill matches 1.. run scoreboard players operation @s SkillInterval = @s SupportInterval
+###テラー判定
+execute if score @s TerrorLevel matches 0.. run function effect_manager:terror/check
 
 ### ファランクス
 execute if score @s SupportSkill matches 12011..12019 run function skill_manager:knight/phalanx/act
@@ -46,8 +48,14 @@ execute if score @s SupportSkill matches 22031..22039 run function skill_manager
 ### 黙想
 execute if score @s SupportSkill matches 22041..22049 run function skill_manager:ninja/mokuso/act
 
+### 兵糧丸
+execute if score @s SupportSkill matches 22051..22059 run function skill_manager:ninja/hyorogan/act
+
 ### 介錯
 execute if score @s SupportSkill matches 22081..22089 run function skill_manager:ninja/kaishaku/act
+
+### キアリク
+execute if score @s SupportSkill matches 42011..42019 run function skill_manager:white_mage/clear/act
 
 ### ダークスワンプ
 execute if score @s SupportSkill matches 52071..52079 run function skill_manager:black_mage/dark_swamp/act

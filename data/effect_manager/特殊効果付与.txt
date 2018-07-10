@@ -2,14 +2,24 @@
 ### 特殊効果適用
 ##############################
 
-### invisibility 1 0
-死の宣告
 ### invisibility 1 1
-死の宣告3カウントバージョン
+死の宣告
 ### invisibility 1 2
-やけど
+死の宣告3カウントバージョン
 ### invisibility 1 3
+やけど
+### invisibility 1 4
 衰弱
+### invisibility 1 5
+病気
+### invisibility 1 6
+混乱
+### invisibility 1 7
+呪詛
+### invisibility 1 8
+恐怖
+### invisibility 1 9
+トント
 
 ### invisibility 1 11
 MP25回復
@@ -67,3 +77,17 @@ MP全回復・HP20割回復
 
 ### invisibility 1 71
 聖水
+### invisibility 1 73
+やけど回復
+### invisibility 1 74
+衰弱回復
+### invisibility 1 75
+病気回復
+### invisibility 1 76
+混乱回復
+### invisibility 1 77
+呪詛回復
+### invisibility 1 78
+恐怖回復
+### invisibility 1 79
+トント回復

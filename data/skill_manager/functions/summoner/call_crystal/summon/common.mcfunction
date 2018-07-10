@@ -10,5 +10,5 @@ execute if score @s ModeSkill matches 61092 run data merge entity @e[tag=Initial
 execute if score @s ModeSkill matches 61093 run data merge entity @e[tag=Initializing,limit=1] {PortalCooldown:200}
 
 ###---演出---Start
-playsound minecraft:entity.zombie_villager.converted master @p ~ ~ ~ 1 2
+playsound minecraft:entity.zombie_villager.converted master @s ~ ~ ~ 1 2
 ###---演出---Start

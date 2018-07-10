@@ -1,0 +1,115 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:command_block"
+        },
+        "title": "デバフ！",
+        "description": "弱くなっちゃった。",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "nausea": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:nausea": {
+                        "duration": {
+                            "min": 1
+                        }
+                    }
+                }
+            }
+        },
+        "poison": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:poison": {
+                        "duration": {
+                            "min": 1
+                        }
+                    }
+                }
+            }
+        },
+        "weakness": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:weakness": {
+                        "duration": {
+                            "min": 1
+                        }
+                    }
+                }
+            }
+        },
+        "wither": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:wither": {
+                        "duration": {
+                            "min": 1
+                        }
+                    }
+                }
+            }
+        },
+        "blindness": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:blindness": {
+                        "duration": {
+                            "min": 1
+                        }
+                    }
+                }
+            }
+        },
+        "hunger": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:hunger": {
+                        "duration": {
+                            "min": 1
+                        }
+                    }
+                }
+            }
+        },
+        "mining_fatigue": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:mining_fatigue": {
+                        "duration": {
+                            "min": 1
+                        }
+                    }
+                }
+            }
+        },
+        "slowness": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:slowness": {
+                        "duration": {
+                            "min": 1
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        ["nausea", "poison", "weakness", "wither", "blindness", "hunger", "mining_fatigue", "slowness"]
+    ],
+    "rewards": {
+        "function": "effect_manager:bad_effects"
+    }
+} 
