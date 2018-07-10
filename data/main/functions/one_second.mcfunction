@@ -60,6 +60,7 @@ execute as @a[scores={ConfuseCount=0..}] at @s run function effect_manager:confu
 
 ### 状態異常耐性
 execute as @a[scores={RegistEffects=1..}] at @s run function effect_manager:regist
+scoreboard players reset @a[scores={RegistLock=1..}] RegistLock
 
 ### プレイヤーふよふよ追尾
 execute as @e[tag=FollowPlayer] at @s run function entity_manager:follow_player

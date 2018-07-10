@@ -5,8 +5,11 @@
 function calc_manager:update_random
 scoreboard players operation $Random Global %= $100 Const
 scoreboard players set $RegistFlag Global 0
-execute store result score $RegistFlag Global if score $Random Global < @s RegistEffects unless entity @s[advancements={effect_manager:invisible={doom=false,super_doom=false,burn=false,debility=false,virus=false,confuse=false,curse=false,terror=false,tnt=false}}] run advancement revoke @s only effect_manager:invisible
-execute if score $RegistFlag Global matches 1.. run tellraw @a [{"text":"","color":"green"},{"selector":"@s"},"は",{"text":"とても悪い効果","color":"white"},"を防いだ！"]
+execute store result score $RegistFlag Global if score $Random Global < @s RegistEffects unless entity @s[advancements={effect_manager:invisible={doom=false,super_doom=false,burn=false,debility=false,virus=false,confuse=false,curse=false,terror=false,tnt=false}}]
+execute if score $RegistFlag Global matches 1.. run advancement revoke @s only effect_manager:invisible
+execute unless score @s RegistLock matches 1 if score $RegistFlag Global matches 1.. run tellraw @a [{"text":"","color":"green"},{"selector":"@s"},"は",{"text":"とても悪い効果","color":"white"},"を防いだ！"]
+execute unless score @s RegistLock matches 1 if score $RegistFlag Global matches 1.. run scoreboard players add @s RegistEffects 5
+scoreboard players set @s RegistLock 1
 
 execute if entity @s[advancements={effect_manager:invisible={doom=true}}] unless score @s DoomCount matches 1..31 run function effect_manager:doom/apply
 execute if entity @s[advancements={effect_manager:invisible={super_doom=true}}] unless score @s DoomCount matches 1..13 run function effect_manager:doom/apply
