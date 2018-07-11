@@ -38,9 +38,9 @@ scoreboard objectives add VirusCount dummy 病気カウント
 scoreboard objectives add ConfuseCount dummy 混乱カウント
 scoreboard objectives add TerrorLevel dummy 恐怖レベル
 scoreboard objectives add TntCount dummy トントカウント
-scoreboard objectives add RegistEffects dummy 状態異常耐性
-scoreboard objectives add RegistMin dummy 状態異常耐性下限
-scoreboard objectives add RegistLock dummy 状態異常回避時ロック
+scoreboard objectives add ResistEffects dummy 状態異常耐性
+scoreboard objectives add ResistMin dummy 状態異常耐性下限
+scoreboard objectives add ResistLock dummy 状態異常回避時ロック
 ###ID系
 scoreboard objectives add ID dummy 紐付けID
 scoreboard objectives add Dimension dummy ディメンション

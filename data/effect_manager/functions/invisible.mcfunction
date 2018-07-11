@@ -4,11 +4,12 @@
 
 function calc_manager:update_random
 scoreboard players operation $Random Global %= $100 Const
+scoreboard players set $IsBadEffect Global 0
 execute store success score $IsBadEffect Global unless entity @s[advancements={effect_manager:invisible={doom=false,super_doom=false,burn=false,debility=false,virus=false,confuse=false,curse=false,terror=false,tnt=false}}] run seed
-execute unless score @s RegistLock matches 1 if score $IsBadEffect Global matches 1.. unless score $Random Global < @s RegistEffects run scoreboard players add @s RegistEffects 5
-execute unless score @s RegistLock matches 1 if score $IsBadEffect Global matches 1.. if score $Random Global < @s RegistEffects run tellraw @a [{"text":"","color":"green"},{"selector":"@s"},"は",{"text":"とても悪い効果","color":"white"},"を防いだ！"]
-execute if score $IsBadEffect Global matches 1.. if score $Random Global < @s RegistEffects run advancement revoke @s only effect_manager:invisible
-scoreboard players set @s RegistLock 1
+execute unless score @s ResistLock matches 1 if score $IsBadEffect Global matches 1.. unless score $Random Global < @s ResistEffects run scoreboard players add @s ResistEffects 5
+execute unless score @s ResistLock matches 1 if score $IsBadEffect Global matches 1.. if score $Random Global < @s ResistEffects run tellraw @a [{"text":"","color":"green"},{"selector":"@s"},"は",{"text":"とても悪い効果","color":"white"},"を防いだ！"]
+execute if score $IsBadEffect Global matches 1.. if score $Random Global < @s ResistEffects run advancement revoke @s only effect_manager:invisible
+scoreboard players set @s ResistLock 1
 
 execute if entity @s[advancements={effect_manager:invisible={doom=true}}] unless score @s DoomCount matches 1..31 run function effect_manager:doom/apply
 execute if entity @s[advancements={effect_manager:invisible={super_doom=true}}] unless score @s DoomCount matches 1..13 run function effect_manager:doom/apply
@@ -75,6 +76,15 @@ execute if entity @s[advancements={effect_manager:invisible={super_rate_potion=t
 execute if entity @s[advancements={effect_manager:invisible={super_rate_elixir=true}}] run scoreboard players operation @s HealthHealing += $Healing Global
 
 execute if entity @s[advancements={effect_manager:invisible={anti_doom=true}}] if score @s DoomCount matches 0.. run function effect_manager:doom/escape
+
+execute if entity @s[advancements={effect_manager:invisible={vile_immunity=true}}] run scoreboard players operation @s ResistEffects > $20 Const
+execute if entity @s[advancements={effect_manager:invisible={normal_immunity=true}}] run scoreboard players operation @s ResistEffects > $40 Const
+execute if entity @s[advancements={effect_manager:invisible={high_immunity=true}}] run scoreboard players operation @s ResistEffects > $60 Const
+execute if entity @s[advancements={effect_manager:invisible={super_immunity=true}}] run scoreboard players operation @s ResistEffects > $80 Const
+execute unless entity @s[advancements={effect_manager:invisible={vile_immunity=false,normal_immunity=false,high_immunity=false,super_immunity=false}}] run tellraw @s [{"text":"","color":"green"},{"selector":"@s"},"の",{"text":"免疫力","color":"white"},"が上がった！"]
+
+execute if entity @s[advancements={effect_manager:invisible={panacea=true}}] run function skill_manager:white_mage/clear/cure/level4
+execute if entity @s[advancements={effect_manager:invisible={soma=true}}] run function effect_manager:soma
 
 effect clear @s minecraft:invisibility
 advancement revoke @s only effect_manager:invisible

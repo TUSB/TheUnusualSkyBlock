@@ -59,8 +59,8 @@ execute as @a[scores={VirusCount=0..}] at @s run function effect_manager:virus/t
 execute as @a[scores={ConfuseCount=0..}] at @s run function effect_manager:confuse/tick
 
 ### 状態異常耐性
-execute as @a[scores={RegistEffects=1..}] at @s run function effect_manager:regist
-scoreboard players reset @a[scores={RegistLock=1..}] RegistLock
+execute as @a[scores={ResistEffects=1..}] at @s run function effect_manager:resist
+scoreboard players reset @a[scores={ResistLock=1..}] ResistLock
 
 ### プレイヤーふよふよ追尾
 execute as @e[tag=FollowPlayer] at @s run function entity_manager:follow_player

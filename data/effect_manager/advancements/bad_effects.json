@@ -16,6 +16,9 @@
                     "minecraft:nausea": {
                         "duration": {
                             "min": 1
+                        },
+                        "amplifier" : {
+                            "max": 126
                         }
                     }
                 }
@@ -28,6 +31,9 @@
                     "minecraft:poison": {
                         "duration": {
                             "min": 1
+                        },
+                        "amplifier" : {
+                            "max": 126
                         }
                     }
                 }
@@ -40,6 +46,9 @@
                     "minecraft:weakness": {
                         "duration": {
                             "min": 1
+                        },
+                        "amplifier" : {
+                            "max": 126
                         }
                     }
                 }
@@ -52,6 +61,9 @@
                     "minecraft:wither": {
                         "duration": {
                             "min": 1
+                        },
+                        "amplifier" : {
+                            "max": 126
                         }
                     }
                 }
@@ -64,6 +76,9 @@
                     "minecraft:blindness": {
                         "duration": {
                             "min": 1
+                        },
+                        "amplifier" : {
+                            "max": 126
                         }
                     }
                 }
@@ -76,6 +91,9 @@
                     "minecraft:hunger": {
                         "duration": {
                             "min": 1
+                        },
+                        "amplifier" : {
+                            "max": 126
                         }
                     }
                 }
@@ -88,6 +106,9 @@
                     "minecraft:mining_fatigue": {
                         "duration": {
                             "min": 1
+                        },
+                        "amplifier" : {
+                            "max": 126
                         }
                     }
                 }
@@ -100,6 +121,9 @@
                     "minecraft:slowness": {
                         "duration": {
                             "min": 1
+                        },
+                        "amplifier" : {
+                            "max": 126
                         }
                     }
                 }

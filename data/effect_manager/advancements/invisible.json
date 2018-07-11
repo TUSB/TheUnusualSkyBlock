@@ -451,6 +451,84 @@
                 }
             }
         },
+        "vile_immunity": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 81,
+                        "duration": {
+                            "min": 1
+                        }
+                    }
+                }
+            }
+        },
+        "normal_immunity": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 82,
+                        "duration": {
+                            "min": 1
+                        }
+                    }
+                }
+            }
+        },
+        "high_immunity": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 83,
+                        "duration": {
+                            "min": 1
+                        }
+                    }
+                }
+            }
+        },
+        "super_immunity": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 84,
+                        "duration": {
+                            "min": 1
+                        }
+                    }
+                }
+            }
+        },
+        "panacea": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 121,
+                        "duration": {
+                            "min": 1
+                        }
+                    }
+                }
+            }
+        },
+        "soma": {
+            "trigger": "minecraft:effects_changed",
+            "conditions": {
+                "effects": {
+                    "minecraft:invisibility": {
+                        "amplifier" : 122,
+                        "duration": {
+                            "min": 1
+                        }
+                    }
+                }
+            }
+        },
         "default": {
             "trigger": "minecraft:effects_changed",
             "conditions": {
@@ -465,7 +543,7 @@
         }
     },
     "requirements": [
-        ["doom", "super_doom", "burn", "debility", "virus", "confuse", "curse", "terror", "tnt", "vile_ether", "normal_ether","high_ether", "super_ether", "vile_potion", "normal_potion", "high_potion", "super_potion", "vile_elixir", "normal_elixir", "high_elixir", "super_elixir", "vile_rate_ether", "normal_rate_ether", "high_rate_ether", "super_rate_ether", "vile_rate_potion", "normal_rate_potion", "high_rate_potion", "super_rate_potion", "vile_rate_elixir", "normal_rate_elixir", "high_rate_elixir", "super_rate_elixir", "anti_doom","default"]
+        ["doom", "super_doom", "burn", "debility", "virus", "confuse", "curse", "terror", "tnt", "vile_ether", "normal_ether","high_ether", "super_ether", "vile_potion", "normal_potion", "high_potion", "super_potion", "vile_elixir", "normal_elixir", "high_elixir", "super_elixir", "vile_rate_ether", "normal_rate_ether", "high_rate_ether", "super_rate_ether", "vile_rate_potion", "normal_rate_potion", "high_rate_potion", "super_rate_potion", "vile_rate_elixir", "normal_rate_elixir", "high_rate_elixir", "super_rate_elixir", "anti_doom", "vile_immunity", "normal_immunity", "high_immunity", "super_immunity", "panacea", "soma","default"]
     ],
     "rewards": {
         "function": "effect_manager:invisible"

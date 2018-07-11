@@ -91,3 +91,17 @@ MP全回復・HP20割回復
 恐怖回復
 ### invisibility 1 79
 トント回復
+
+### invisibility 1 81
+免疫 20%
+### invisibility 1 82
+免疫 40%
+### invisibility 1 83
+免疫 60%
+### invisibility 1 84
+免疫 80%
+
+### invisibility 1 121
+パナケイア(全デバフ消去)
+### invisibility 1 122
+ソーマ(HPMP全回復+耐性100)
