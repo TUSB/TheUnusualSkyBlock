@@ -8,6 +8,9 @@ execute if score @s ModeSkill matches 21011..21019 run scoreboard players operat
 ### 忍者＜一閃＞
 execute if score @s ModeSkill matches 21041..21049 run scoreboard players operation @s ActiveSkill = @s ModeSkill
 
+### 忍者＜居縮＞
+execute if score @s ModeSkill matches 21051..21059 run scoreboard players operation @s ActiveSkill = @s ModeSkill
+
 ### 黒魔導士＜アイスストーム＞
 execute if score @s ModeSkill matches 51011..51019 run scoreboard players operation @s ActiveSkill = @s ModeSkill
 

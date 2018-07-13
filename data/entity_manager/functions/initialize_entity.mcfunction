@@ -89,7 +89,9 @@ tag @s[tag=TowardPlayer] add TickingTask
 tag @s[tag=LimitedTrading] add TickingTask
 tag @s[tag=AbyssWarp] add TickingTask
 tag @s[tag=Mob,nbt={Invulnerable:true}] remove Mob
+tag @s[nbt={NoAI:true}] add NoAI
 team join Enemy @s[tag=Mob]
+
 
 execute if entity @s[tag=HasSkill] store result score @s EnemySkillSpan run data get entity @s Attributes[1].Modifiers[0].Amount 1
 

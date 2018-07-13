@@ -43,6 +43,7 @@ scoreboard objectives add ResistMin dummy {"text":"状態異常耐性下限"}
 scoreboard objectives add ResistLock dummy {"text":"状態異常回避時ロック"}
 scoreboard objectives add CharmCount dummy {"text":"魅了カウント"}
 scoreboard objectives add BlinkCount dummy {"text":"幻影カウント"}
+scoreboard objectives add BlinkTick dummy {"text":"残影tick"}
 ###ID系
 scoreboard objectives add ID dummy {"text":"紐付けID"}
 scoreboard objectives add Dimension dummy {"text":"ディメンション"}
@@ -121,6 +122,7 @@ scoreboard objectives add Choyaku dummy {"text":"跳躍跳躍力"}
 scoreboard objectives add ChoyakuTrigger dummy {"text":"跳躍発動タイミング調整"}
 scoreboard objectives add Mokuso dummy {"text":"黙想レベル"}
 scoreboard objectives add Issen dummy {"text":"一閃継続tick数"}
+scoreboard objectives add Isukumi dummy {"text":"居縮継続秒数"}
 scoreboard objectives add Kaishaku dummy {"text":"介錯残りtick数"}
 scoreboard objectives add PiercingAim dummy {"text":"ピアッシングエイム回数"}
 scoreboard objectives add BlastSpark dummy {"text":"ブラストスパーク継続tick数"}
@@ -192,6 +194,7 @@ scoreboard players set $100000 Const 100000
 scoreboard players set $112000 Const 112000
 scoreboard players set $200000 Const 200000
 scoreboard players set $300000 Const 300000
+scoreboard players set $360000 Global 360000
 scoreboard players set $MWCBase Const 65536
 scoreboard players set $MWCMultiplier Const 31743
 ###MP一覧

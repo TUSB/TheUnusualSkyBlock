@@ -107,6 +107,7 @@ scoreboard players operation バースト MP < $99999 Const
 
 ###エンティティダメージ付与
 execute as @e[tag=Mob,scores={Damage=0..}] at @s run function entity_manager:apply_damage
+execute as @e[tag=Mob,scores={BlinkTick=1..}] at @s run function skill_manager:enemy/blink/direction
 ###エンティティ削除処理
 ##敵討伐時処理
 execute as @a[scores={KillCount=1..}] run function entity_manager:defeat_enemy

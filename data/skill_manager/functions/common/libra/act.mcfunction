@@ -2,14 +2,17 @@
 ### ライブラ発動
 ##############################
 
-execute store result score $MaxHP Global store result bossbar enemy_health max run scoreboard players get @e[distance=..6,tag=Mob,nbt={HurtTime:10s},sort=nearest,limit=1] MobHPMax
-execute store result score $CurrentHP Global store result bossbar enemy_health value run data get entity @e[distance=..6,tag=Mob,nbt={HurtTime:10s},sort=nearest,limit=1] AbsorptionAmount 10
-bossbar set minecraft:enemy_health players @a
-bossbar set minecraft:enemy_health visible true
+summon minecraft:snowball 1 1 1 {NoGravity:true,Tags:[Initializing,Libra,Rapid]}
+execute positioned ~ ~1.52 ~ run tp @e[tag=Initializing,limit=1] ^ ^ ^-0.2
 
-scoreboard players operation $MaxHP Global /= $10 Const
-scoreboard players operation $CurrentHP Global /= $10 Const
-execute if score @s ModeSkill matches 81021 run bossbar set minecraft:enemy_health name {"selector":"@e[distance=..6,tag=Mob,nbt={HurtTime:10s},sort=nearest,limit=1]","color":"dark_green"}
-execute if score @s ModeSkill matches 81022 run bossbar set minecraft:enemy_health name [{"selector":"@e[distance=..6,tag=Mob,nbt={HurtTime:10s},sort=nearest,limit=1]","color":"dark_green"}," ",{"score":{"name":"$CurrentHP","objective":"Global"}},"/",{"score":{"name":"$MaxHP","objective":"Global"}}]
+execute as @e[tag=Initializing,limit=1] positioned ~ ~1.52 ~ run function calc_manager:get/direction1
+scoreboard players set $M Global 1000
+function calc_manager:multiply/pos1
+execute as @e[tag=Initializing,limit=1] run function calc_manager:set/motion1
 
-scoreboard players set $Libra Global 10
+scoreboard players operation @e[tag=Initializing,limit=1] ProjectileSkill = @s ModeSkill
+tag @e[tag=Initializing,limit=1] remove Initializing
+
+###---演出---Start
+playsound minecraft:block.conduit.attack.target master @p ~ ~ ~ 1 1.78
+###---演出---End

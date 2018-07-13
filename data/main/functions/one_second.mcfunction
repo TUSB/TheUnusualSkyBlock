@@ -49,6 +49,9 @@ execute as @a[scores={FireAffinity=1..}] at @s run function skill_manager:ninja/
 ### 黙想
 execute as @a[scores={Mokuso=0..}] at @s run function skill_manager:ninja/mokuso/tick
 
+### 居縮解除
+execute as @e[scores={Isukumi=0..}] at @s run function skill_manager:ninja/isukumi/tick
+
 ### 敵スキル実行
 execute as @e[tag=HasSkill] at @s run function skill_manager:enemy/count
 

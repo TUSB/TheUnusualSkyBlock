@@ -15,4 +15,4 @@ execute if entity @s[nbt=!{ActiveEffects:[{Id:27b,Amplifier:127b}]}] run functio
 
 ###スコアリセット
 scoreboard players set @s Damage 0
-execute unless score @s StoredDamage matches 0.. run scoreboard players reset @s Damage
+execute unless score @s StoredDamage matches 0.. if score @s Damage matches 0.. run scoreboard players reset @s Damage

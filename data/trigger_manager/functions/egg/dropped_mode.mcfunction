@@ -14,3 +14,6 @@ scoreboard players operation @s ShowSkillNo = @s ModeSkillBlue
 function skill_manager:show_skill/name
 ###スコアリセット
 scoreboard players reset @s DroppedMode
+
+### 共通＜ライブラ＞
+execute if score @s ModeSkill matches 81021..81029 run scoreboard players operation @s ActiveSkill = @s ModeSkill

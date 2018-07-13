@@ -2,6 +2,9 @@
 ### ワイルドフレアダメージ&演出
 ##############################
 
+###要らないタグ削除
+tag @s[tag=FlyingRequired] remove FlyingRequired
+
 ###ダメージ付与
 scoreboard players operation @e[distance=..5,tag=Mob] Damage += @s SkillAttribute
 ###水中削除

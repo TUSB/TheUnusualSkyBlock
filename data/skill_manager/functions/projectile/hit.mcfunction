@@ -22,3 +22,6 @@ execute if score @s ProjectileSkill matches 31011..31019 run function skill_mana
 
 ### ウィークペイント
 execute if score @s ProjectileSkill matches 81011..81019 run function skill_manager:common/weakness_paint/hit
+
+### ライブラ
+execute if score @s ProjectileSkill matches 81021..81029 run function skill_manager:common/libra/hit
