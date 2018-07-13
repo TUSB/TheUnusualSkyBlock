@@ -42,6 +42,7 @@ scoreboard objectives add ResistEffects dummy {"text":"状態異常耐性"}
 scoreboard objectives add ResistMin dummy {"text":"状態異常耐性下限"}
 scoreboard objectives add ResistLock dummy {"text":"状態異常回避時ロック"}
 scoreboard objectives add CharmCount dummy {"text":"魅了カウント"}
+scoreboard objectives add BlinkCount dummy {"text":"幻影カウント"}
 ###ID系
 scoreboard objectives add ID dummy {"text":"紐付けID"}
 scoreboard objectives add Dimension dummy {"text":"ディメンション"}
