@@ -39,6 +39,8 @@ execute if entity @s[tag=Crystal] run function skill_manager:summoner/call_cryst
 execute if entity @s[tag=PetitBlack] run function skill_manager:summoner/petit_black/tick/all
 ###ウィークペイント
 execute if entity @s[tag=WeakPaint] run function skill_manager:common/weakness_paint/tick
+###魅了
+execute if entity @s[scores={CharmCount=1..}] run function skill_manager:enemy/charm/tick
 
 ###クールダウン監視処理
 execute if entity @s[tag=ObserveCooldown] run function trigger_manager:cooldown/tick

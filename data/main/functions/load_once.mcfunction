@@ -3,148 +3,149 @@
 ##############################
 
 ###ステータスやトリガー
-scoreboard objectives add HP health HP
-scoreboard objectives add MP dummy MP
-scoreboard objectives add MPMax dummy MP最大値
-scoreboard objectives add Armor armor 防御力
-scoreboard objectives add HealthHealing dummy HP回復量
-scoreboard objectives add KillCount playerKillCount 討伐数
-scoreboard objectives add TimeSinceDeath minecraft.custom:minecraft.time_since_death 生きている時間
-scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time スニーク時間
-scoreboard objectives add UseModeEgg minecraft.used:minecraft.polar_bear_spawn_egg モードチェンジ使用
-scoreboard objectives add UseSupportRed minecraft.used:minecraft.pig_spawn_egg サポートエッグルビー使用
-scoreboard objectives add UseSupportBlue minecraft.used:minecraft.drowned_spawn_egg サポートエッグサファイア使用
-scoreboard objectives add DroppedMode minecraft.dropped:minecraft.polar_bear_spawn_egg モードチェンジドロップ
-scoreboard objectives add DroppedRed minecraft.dropped:minecraft.pig_spawn_egg サポートエッグルビードロップ
-scoreboard objectives add DroppedBlue minecraft.dropped:minecraft.drowned_spawn_egg サポートエッグルビードロップ
-scoreboard objectives add UseSnowball minecraft.used:minecraft.snowball 雪玉使用
-scoreboard objectives add UseBow minecraft.used:minecraft.bow 弓使用
-scoreboard objectives add UseCarrotStick minecraft.used:minecraft.carrot_on_a_stick 人参棒使用
-scoreboard objectives add SprintOneCm minecraft.custom:minecraft.sprint_one_cm 走った距離
-scoreboard objectives add DamageDealt minecraft.custom:minecraft.damage_dealt 与えたダメージ量
-scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken 受けたメージ量
-scoreboard objectives add UseSplashPotion minecraft.used:minecraft.splash_potion 投擲ポーション使用
-scoreboard objectives add UseLingerPotion minecraft.used:minecraft.lingering_potion 残留ポーション使用
-scoreboard objectives add Jump minecraft.custom:minecraft.jump ジャンプ
-scoreboard objectives add Deaths minecraft.custom:minecraft.deaths 死亡
-scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game ログインフラグ
+scoreboard objectives add HP health {"text":"HP"}
+scoreboard objectives add MP dummy {"text":"MP"}
+scoreboard objectives add MPMax dummy {"text":"MP最大値"}
+scoreboard objectives add Armor armor {"text":"防御力"}
+scoreboard objectives add HealthHealing dummy {"text":"HP回復量"}
+scoreboard objectives add KillCount playerKillCount {"text":"討伐数"}
+scoreboard objectives add TimeSinceDeath minecraft.custom:minecraft.time_since_death {"text":"生きている時間"}
+scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time {"text":"スニーク時間"}
+scoreboard objectives add UseModeEgg minecraft.used:minecraft.polar_bear_spawn_egg {"text":"モードチェンジ使用"}
+scoreboard objectives add UseSupportRed minecraft.used:minecraft.pig_spawn_egg {"text":"サポートエッグルビー使用"}
+scoreboard objectives add UseSupportBlue minecraft.used:minecraft.drowned_spawn_egg {"text":"サポートエッグサファイア使用"}
+scoreboard objectives add DroppedMode minecraft.dropped:minecraft.polar_bear_spawn_egg {"text":"モードチェンジドロップ"}
+scoreboard objectives add DroppedRed minecraft.dropped:minecraft.pig_spawn_egg {"text":"サポートエッグルビードロップ"}
+scoreboard objectives add DroppedBlue minecraft.dropped:minecraft.drowned_spawn_egg {"text":"サポートエッグルビードロップ"}
+scoreboard objectives add UseSnowball minecraft.used:minecraft.snowball {"text":"雪玉使用"}
+scoreboard objectives add UseBow minecraft.used:minecraft.bow {"text":"弓使用"}
+scoreboard objectives add UseCarrotStick minecraft.used:minecraft.carrot_on_a_stick {"text":"人参棒使用"}
+scoreboard objectives add SprintOneCm minecraft.custom:minecraft.sprint_one_cm {"text":"走った距離"}
+scoreboard objectives add DamageDealt minecraft.custom:minecraft.damage_dealt {"text":"与えたダメージ量"}
+scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken {"text":"受けたメージ量"}
+scoreboard objectives add UseSplashPotion minecraft.used:minecraft.splash_potion {"text":"投擲ポーション使用"}
+scoreboard objectives add UseLingerPotion minecraft.used:minecraft.lingering_potion {"text":"残留ポーション使用"}
+scoreboard objectives add Jump minecraft.custom:minecraft.jump {"text":"ジャンプ"}
+scoreboard objectives add Deaths minecraft.custom:minecraft.deaths {"text":"死亡"}
+scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game {"text":"ログインフラグ"}
 ###変数や定数、カウンタ
-scoreboard objectives add Global dummy グローバル変数
-scoreboard objectives add Const dummy 定数
-scoreboard objectives add Count dummy カウント
-scoreboard objectives add DoomCount dummy 死の宣告カウント
-scoreboard objectives add TorchCount dummy トカルトトーチ消費カウント
-scoreboard objectives add VirusCount dummy 病気カウント
-scoreboard objectives add ConfuseCount dummy 混乱カウント
-scoreboard objectives add TerrorLevel dummy 恐怖レベル
-scoreboard objectives add TntCount dummy トントカウント
-scoreboard objectives add ResistEffects dummy 状態異常耐性
-scoreboard objectives add ResistMin dummy 状態異常耐性下限
-scoreboard objectives add ResistLock dummy 状態異常回避時ロック
+scoreboard objectives add Global dummy {"text":"グローバル変数"}
+scoreboard objectives add Const dummy {"text":"定数"}
+scoreboard objectives add Count dummy {"text":"カウント"}
+scoreboard objectives add DoomCount dummy {"text":"死の宣告カウント"}
+scoreboard objectives add TorchCount dummy {"text":"トカルトトーチ消費カウント"}
+scoreboard objectives add VirusCount dummy {"text":"病気カウント"}
+scoreboard objectives add ConfuseCount dummy {"text":"混乱カウント"}
+scoreboard objectives add TerrorLevel dummy {"text":"恐怖レベル"}
+scoreboard objectives add TntCount dummy {"text":"トントカウント"}
+scoreboard objectives add ResistEffects dummy {"text":"状態異常耐性"}
+scoreboard objectives add ResistMin dummy {"text":"状態異常耐性下限"}
+scoreboard objectives add ResistLock dummy {"text":"状態異常回避時ロック"}
+scoreboard objectives add CharmCount dummy {"text":"魅了カウント"}
 ###ID系
-scoreboard objectives add ID dummy 紐付けID
-scoreboard objectives add Dimension dummy ディメンション
+scoreboard objectives add ID dummy {"text":"紐付けID"}
+scoreboard objectives add Dimension dummy {"text":"ディメンション"}
 ###ジョブ別設定
-scoreboard objectives add Job dummy 現在のジョブ
-scoreboard objectives add Level dummy レベル
-scoreboard objectives add LevelKnight dummy 剣士のレベル
-scoreboard objectives add LevelNinja dummy 忍者のレベル
-scoreboard objectives add LevelHunter dummy 狩人のレベル
-scoreboard objectives add LevelWhiteMage dummy 白魔導士のレベル
-scoreboard objectives add LevelBlackMage dummy 黒魔導士のレベル
-scoreboard objectives add LevelSummoner dummy 召喚士のレベル
-scoreboard objectives add LevelPupMaster dummy 絡繰士のレベル
-scoreboard objectives add SubLevel dummy 現在のジョブのサブレベル
-scoreboard objectives add SubKnight dummy 剣士のサブレベル
-scoreboard objectives add SubNinja dummy 忍者のサブレベル
-scoreboard objectives add SubHunter dummy 狩人のサブレベル
-scoreboard objectives add SubWhiteMage dummy 白魔導士のサブレベル
-scoreboard objectives add SubBlackMage dummy 黒魔導士のサブレベル
-scoreboard objectives add SubSummoner dummy 召喚士のサブレベル
-scoreboard objectives add SubPupMaster dummy 絡繰士のサブレベル
+scoreboard objectives add Job dummy {"text":"現在のジョブ"}
+scoreboard objectives add Level dummy {"text":"レベル"}
+scoreboard objectives add LevelKnight dummy {"text":"剣士のレベル"}
+scoreboard objectives add LevelNinja dummy {"text":"忍者のレベル"}
+scoreboard objectives add LevelHunter dummy {"text":"狩人のレベル"}
+scoreboard objectives add LevelWhiteMage dummy {"text":"白魔導士のレベル"}
+scoreboard objectives add LevelBlackMage dummy {"text":"黒魔導士のレベル"}
+scoreboard objectives add LevelSummoner dummy {"text":"召喚士のレベル"}
+scoreboard objectives add LevelPupMaster dummy {"text":"絡繰士のレベル"}
+scoreboard objectives add SubLevel dummy {"text":"現在のジョブのサブレベル"}
+scoreboard objectives add SubKnight dummy {"text":"剣士のサブレベル"}
+scoreboard objectives add SubNinja dummy {"text":"忍者のサブレベル"}
+scoreboard objectives add SubHunter dummy {"text":"狩人のサブレベル"}
+scoreboard objectives add SubWhiteMage dummy {"text":"白魔導士のサブレベル"}
+scoreboard objectives add SubBlackMage dummy {"text":"黒魔導士のサブレベル"}
+scoreboard objectives add SubSummoner dummy {"text":"召喚士のサブレベル"}
+scoreboard objectives add SubPupMaster dummy {"text":"絡繰士のサブレベル"}
 ###設定されたスキル
-scoreboard objectives add Cost dummy MPコスト一覧
-scoreboard objectives add Interval dummy スキル使用不能時間一覧
-scoreboard objectives add ModeSkill dummy 現在のモードスキル
-scoreboard objectives add ModeCost dummy 現在のモードスキルのコスト
-scoreboard objectives add ModeInterval dummy 現在のモードスキルの発動無効時間
-scoreboard objectives add ModeSkillRed dummy モードスキルルビー
-scoreboard objectives add ModeSkillBlue dummy モードスキルサファイア
-scoreboard objectives add ModeCostRed dummy モードスキルルビーのコスト
-scoreboard objectives add ModeCostBlue dummy モードスキルサファイアのコスト
-scoreboard objectives add ModeIntervalRed dummy モードスキルルビーの発動無効時間
-scoreboard objectives add ModeIntervalBlue dummy モードスキルサファイアの発動無効時間
-scoreboard objectives add SupportSkill dummy 発動中のサポートスキル
-scoreboard objectives add SupportCost dummy 発動中のサポートスキルのコスト
-scoreboard objectives add SupportInterval dummy 発動中のサポートスキルの発動無効時間
-scoreboard objectives add SupportSkillRed dummy サポートアクションルビー
-scoreboard objectives add SupportSkillBlue dummy サポートアクションファイア
-scoreboard objectives add SupportCostRed dummy サポートアクションルビーのコスト
-scoreboard objectives add SupportCostBlue dummy サポートアクションサファイアのコスト
-scoreboard objectives add SupportIntRed dummy サポートアクションルビーの発動無効時間
-scoreboard objectives add SupportIntBlue dummy サポートアクションサファイアの発動無効時間
-scoreboard objectives add ShowSkillNo dummy 表示スキル番号
-scoreboard objectives add ChangeModeRed trigger モードルビー変更番号
-scoreboard objectives add ChangeModeBlue trigger モードサファイア変更番号
-scoreboard objectives add ChangeSupRed trigger サポートルビー変更番号
-scoreboard objectives add ChangeSupBlue trigger サポートサファイア変更番号
-scoreboard objectives add ChangeLevel dummy スキル変更時レベル上限
-scoreboard objectives add ActiveSkill dummy 発動スキル
-scoreboard objectives add ActiveCost dummy 発動スキルコスト
-scoreboard objectives add ActiveInterval dummy 発動スキル発動無効時間
+scoreboard objectives add Cost dummy {"text":"MPコスト一覧"}
+scoreboard objectives add Interval dummy {"text":"スキル使用不能時間一覧"}
+scoreboard objectives add ModeSkill dummy {"text":"現在のモードスキル"}
+scoreboard objectives add ModeCost dummy {"text":"現在のモードスキルのコスト"}
+scoreboard objectives add ModeInterval dummy {"text":"現在のモードスキルの発動無効時間"}
+scoreboard objectives add ModeSkillRed dummy {"text":"モードスキルルビー"}
+scoreboard objectives add ModeSkillBlue dummy {"text":"モードスキルサファイア"}
+scoreboard objectives add ModeCostRed dummy {"text":"モードスキルルビーのコスト"}
+scoreboard objectives add ModeCostBlue dummy {"text":"モードスキルサファイアのコスト"}
+scoreboard objectives add ModeIntervalRed dummy {"text":"モードスキルルビーの発動無効時間"}
+scoreboard objectives add ModeIntervalBlue dummy {"text":"モードスキルサファイアの発動無効時間"}
+scoreboard objectives add SupportSkill dummy {"text":"発動中のサポートスキル"}
+scoreboard objectives add SupportCost dummy {"text":"発動中のサポートスキルのコスト"}
+scoreboard objectives add SupportInterval dummy {"text":"発動中のサポートスキルの発動無効時間"}
+scoreboard objectives add SupportSkillRed dummy {"text":"サポートアクションルビー"}
+scoreboard objectives add SupportSkillBlue dummy {"text":"サポートアクションファイア"}
+scoreboard objectives add SupportCostRed dummy {"text":"サポートアクションルビーのコスト"}
+scoreboard objectives add SupportCostBlue dummy {"text":"サポートアクションサファイアのコスト"}
+scoreboard objectives add SupportIntRed dummy {"text":"サポートアクションルビーの発動無効時間"}
+scoreboard objectives add SupportIntBlue dummy {"text":"サポートアクションサファイアの発動無効時間"}
+scoreboard objectives add ShowSkillNo dummy {"text":"表示スキル番号"}
+scoreboard objectives add ChangeModeRed trigger {"text":"モードルビー変更番号"}
+scoreboard objectives add ChangeModeBlue trigger {"text":"モードサファイア変更番号"}
+scoreboard objectives add ChangeSupRed trigger {"text":"サポートルビー変更番号"}
+scoreboard objectives add ChangeSupBlue trigger {"text":"サポートサファイア変更番号"}
+scoreboard objectives add ChangeLevel dummy {"text":"スキル変更時レベル上限"}
+scoreboard objectives add ActiveSkill dummy {"text":"発動スキル"}
+scoreboard objectives add ActiveCost dummy {"text":"発動スキルコスト"}
+scoreboard objectives add ActiveInterval dummy {"text":"発動スキル発動無効時間"}
 ###スキル共通系
-scoreboard objectives add MobHPMax dummy モブ最大体力
-scoreboard objectives add SkillInterval dummy スキル使用不可tick数
-scoreboard objectives add MPHealingWait dummy MP回復ウェイト
-scoreboard objectives add MPConsumption dummy MP消費量
-scoreboard objectives add Damage dummy モブ付与ダメージ
-scoreboard objectives add StoredDamage dummy 累積型ダメージ
-scoreboard objectives add BurstTrigger dummy バースト発動カウント
-scoreboard objectives add ChangeSkillLimit dummy スキル変更不可時間
-scoreboard objectives add ProjectileSkill dummy 飛翔物付与スキル
-scoreboard objectives add SkillAttribute dummy スキル付加情報
-scoreboard objectives add CarrotContinue dummy 人参棒連続カウント
-scoreboard objectives add CarrotTick dummy 人参棒使用LastTick
+scoreboard objectives add MobHPMax dummy {"text":"モブ最大体力"}
+scoreboard objectives add SkillInterval dummy {"text":"スキル使用不可tick数"}
+scoreboard objectives add MPHealingWait dummy {"text":"MP回復ウェイト"}
+scoreboard objectives add MPConsumption dummy {"text":"MP消費量"}
+scoreboard objectives add Damage dummy {"text":"モブ付与ダメージ"}
+scoreboard objectives add StoredDamage dummy {"text":"累積型ダメージ"}
+scoreboard objectives add BurstTrigger dummy {"text":"バースト発動カウント"}
+scoreboard objectives add ChangeSkillLimit dummy {"text":"スキル変更不可時間"}
+scoreboard objectives add ProjectileSkill dummy {"text":"飛翔物付与スキル"}
+scoreboard objectives add SkillAttribute dummy {"text":"スキル付加情報"}
+scoreboard objectives add CarrotContinue dummy {"text":"人参棒連続カウント"}
+scoreboard objectives add CarrotTick dummy {"text":"人参棒使用LastTick"}
 ###スキル個別系
-scoreboard objectives add FalconDamage dummy はやぶさ斬り用ダメージ保存値
-scoreboard objectives add FalconHP dummy はやぶさ斬り用敵HP
-scoreboard objectives add IronWill dummy アイアンウィル残りtick数
-scoreboard objectives add DivineShield dummy ディバインシールドダメージ量
-scoreboard objectives add OdinSlash dummy 斬鉄剣発動タイミング調整
-scoreboard objectives add TacticalHeal dummy タクティカルヒール持続確率
-scoreboard objectives add Aisatsu dummy アイサツ消費MP減少効果量
-scoreboard objectives add WaterAffinity dummy ウォータアフィニティ
-scoreboard objectives add FireAffinity dummy ファイアアフィニティ
-scoreboard objectives add Choyaku dummy 跳躍跳躍力
-scoreboard objectives add ChoyakuTrigger dummy 跳躍発動タイミング調整
-scoreboard objectives add Mokuso dummy 黙想レベル
-scoreboard objectives add Issen dummy 一閃継続tick数
-scoreboard objectives add Kaishaku dummy 介錯残りtick数
-scoreboard objectives add PiercingAim dummy ピアッシングエイム回数
-scoreboard objectives add BlastSpark dummy ブラストスパーク継続tick数
-scoreboard objectives add EnergySave dummy エナジーセーブ消費MP減少効果量
-scoreboard objectives add PillarCount dummy セイクリッドピラーダメージ付与上限
-scoreboard objectives add PillarDamage dummy セイクリッドピラーダメージ
-scoreboard objectives add DarkSwamp dummy ダークスワンプ回数
-scoreboard objectives add PetitBlack dummy ぷちブラック残りtick
-scoreboard objectives add MultiThread dummy マルチスレッド
+scoreboard objectives add FalconDamage dummy {"text":"はやぶさ斬り用ダメージ保存値"}
+scoreboard objectives add FalconHP dummy {"text":"はやぶさ斬り用敵HP"}
+scoreboard objectives add IronWill dummy {"text":"アイアンウィル残りtick数"}
+scoreboard objectives add DivineShield dummy {"text":"ディバインシールドダメージ量"}
+scoreboard objectives add OdinSlash dummy {"text":"斬鉄剣発動タイミング調整"}
+scoreboard objectives add TacticalHeal dummy {"text":"タクティカルヒール持続確率"}
+scoreboard objectives add Aisatsu dummy {"text":"アイサツ消費MP減少効果量"}
+scoreboard objectives add WaterAffinity dummy {"text":"ウォータアフィニティ"}
+scoreboard objectives add FireAffinity dummy {"text":"ファイアアフィニティ"}
+scoreboard objectives add Choyaku dummy {"text":"跳躍跳躍力"}
+scoreboard objectives add ChoyakuTrigger dummy {"text":"跳躍発動タイミング調整"}
+scoreboard objectives add Mokuso dummy {"text":"黙想レベル"}
+scoreboard objectives add Issen dummy {"text":"一閃継続tick数"}
+scoreboard objectives add Kaishaku dummy {"text":"介錯残りtick数"}
+scoreboard objectives add PiercingAim dummy {"text":"ピアッシングエイム回数"}
+scoreboard objectives add BlastSpark dummy {"text":"ブラストスパーク継続tick数"}
+scoreboard objectives add EnergySave dummy {"text":"エナジーセーブ消費MP減少効果量"}
+scoreboard objectives add PillarCount dummy {"text":"セイクリッドピラーダメージ付与上限"}
+scoreboard objectives add PillarDamage dummy {"text":"セイクリッドピラーダメージ"}
+scoreboard objectives add DarkSwamp dummy {"text":"ダークスワンプ回数"}
+scoreboard objectives add PetitBlack dummy {"text":"ぷちブラック残りtick"}
+scoreboard objectives add MultiThread dummy {"text":"マルチスレッド"}
 ###からくり士スキル系
-scoreboard objectives add PuppetScore dummy パペット制御用スコア
-scoreboard objectives add PupRecordLevel dummy レコード特性のレベル
-scoreboard objectives add PupRecordType dummy レコードの種類
-scoreboard objectives add PupRecordSlot dummy レコードのスロット
-scoreboard objectives add PupSwimmability dummy パペット水中機動力
-scoreboard objectives add PupFlyability dummy パペット空中機動力
-scoreboard objectives add PupMobility dummy パペット陸上機動力
-scoreboard objectives add PupCurrentSlot dummy パペット行動スロット
-scoreboard objectives add PuppetWait dummy パペット行動ウェイト
+scoreboard objectives add PuppetScore dummy {"text":"パペット制御用スコア"}
+scoreboard objectives add PupRecordLevel dummy {"text":"レコード特性のレベル"}
+scoreboard objectives add PupRecordType dummy {"text":"レコードの種類"}
+scoreboard objectives add PupRecordSlot dummy {"text":"レコードのスロット"}
+scoreboard objectives add PupSwimmability dummy {"text":"パペット水中機動力"}
+scoreboard objectives add PupFlyability dummy {"text":"パペット空中機動力"}
+scoreboard objectives add PupMobility dummy {"text":"パペット陸上機動力"}
+scoreboard objectives add PupCurrentSlot dummy {"text":"パペット行動スロット"}
+scoreboard objectives add PuppetWait dummy {"text":"パペット行動ウェイト"}
 ###その他スコア
-scoreboard objectives add ProjectileLife dummy 飛翔物生存時間
-scoreboard objectives add MotionX dummy モーションX保存
-scoreboard objectives add MotionY dummy モーションY保存
-scoreboard objectives add MotionZ dummy モーションZ保存
-scoreboard objectives add SkillHurtTime dummy スキルダメージ無効果時間
-scoreboard objectives add EnemySkillSpan dummy 敵スキル使用間隔
+scoreboard objectives add ProjectileLife dummy {"text":"飛翔物生存時間"}
+scoreboard objectives add MotionX dummy {"text":"モーションX保存"}
+scoreboard objectives add MotionY dummy {"text":"モーションY保存"}
+scoreboard objectives add MotionZ dummy {"text":"モーションZ保存"}
+scoreboard objectives add SkillHurtTime dummy {"text":"スキルダメージ無効果時間"}
+scoreboard objectives add EnemySkillSpan dummy {"text":"敵スキル使用間隔"}
 
 ###定数
 scoreboard players set $-1 Const -1
@@ -440,19 +441,20 @@ scoreboard players operation $RndMWCCarry Global /= $MWCBase Const
 ###スコアボード表示設定
 scoreboard objectives setdisplay sidebar MP
 ###チーム作成
-team add NoCollision 衝突判定なし
-team option NoCollision collisionRule never
-team add Friendly 味方チーム
-team option Friendly friendlyfire false
-team option Friendly collisionRule never
-team option Friendly color white
-#team option Friendly prefix {"text":"☘","color":"green"}
-#team option Friendly prefix {"text":"✿","color":"yellow"}
-team option Friendly prefix {"text":"✦","color":"red"}
-team option Friendly suffix {"text":"✦","color":"red"}
+team add NoCollision {"text":"衝突判定なし"}
+team modify NoCollision collisionRule never
+team add Friendly {"text":"味方チーム"}
+team modify Friendly friendlyfire false
+team modify Friendly collisionRule never
+team modify Friendly color white
+#team modify Friendly prefix {"text":"☘","color":"green"}
+#team modify Friendly prefix {"text":"✿","color":"yellow"}
+team modify Friendly prefix {"text":"✦","color":"red"}
+team modify Friendly suffix {"text":"✦","color":"red"}
 team join Friendly バースト
-team add Enemy 敵チーム
-team option Enemy friendlyfire false
+team add Enemy {"text":"敵チーム"}
+team modify Enemy color white
+team modify Enemy friendlyfire false
 
 ###ボスバー作成
 bossbar add enemy_health {"text":"HP","color":"green"}

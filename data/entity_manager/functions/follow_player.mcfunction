@@ -13,6 +13,7 @@ scoreboard players operation $Y1 Global = $SignY Global
 function calc_manager:update_random
 scoreboard players operation $Random Global %= $1000 Const
 execute store result score $Modifier Global run data get entity @s Attributes[0].Modifiers[0].Amount 1000
+execute if score $Modifier Global matches 0 run scoreboard players set $Modifier Global 100
 scoreboard players operation $Modifier Global *= $Random Global
 scoreboard players operation $Modifier Global /= $100 Const
 scoreboard players operation $Y1 Global *= $Modifier Global
