@@ -54,6 +54,9 @@ execute if score @s SupportSkill matches 22051..22059 run function skill_manager
 ### 夜駆
 execute if score @s SupportSkill matches 22061..22069 run function skill_manager:ninja/yokake/act
 
+### 呼魂
+execute if score @s SupportSkill matches 22071..22079 run function skill_manager:ninja/kodama/act
+
 ### 介錯
 execute if score @s SupportSkill matches 22081..22089 run function skill_manager:ninja/kaishaku/act
 
