@@ -34,12 +34,17 @@ execute if score $ChangeSupNo Global matches 2206 run scoreboard players operati
 execute if score $ChangeSupNo Global matches 2206 if score @s ChangeLevel matches 43.. run scoreboard players set $ChangeSupNo Global 22062
 execute if score $ChangeSupNo Global matches 2206 if score @s ChangeLevel matches 23.. run scoreboard players set $ChangeSupNo Global 22061
 
-###介錯
+###呼魂
 execute if score $ChangeSupNo Global matches 2207 run scoreboard players operation $ChangeSupCost Global = $2207 Cost
 execute if score $ChangeSupNo Global matches 2207 run scoreboard players operation $ChangeSupInterval Global = $2207 Interval
-execute if score $ChangeSupNo Global matches 2207 if score @s ChangeLevel matches 38.. run scoreboard players set $ChangeSupNo Global 22071
+execute if score $ChangeSupNo Global matches 2207 if score @s ChangeLevel matches 35.. run scoreboard players set $ChangeSupNo Global 22071
 
-###風切
+###介錯
 execute if score $ChangeSupNo Global matches 2208 run scoreboard players operation $ChangeSupCost Global = $2208 Cost
 execute if score $ChangeSupNo Global matches 2208 run scoreboard players operation $ChangeSupInterval Global = $2208 Interval
-execute if score $ChangeSupNo Global matches 2208 if score @s ChangeLevel matches 39.. run scoreboard players set $ChangeSupNo Global 22081
+execute if score $ChangeSupNo Global matches 2208 if score @s ChangeLevel matches 38.. run scoreboard players set $ChangeSupNo Global 22081
+
+###風切
+execute if score $ChangeSupNo Global matches 2209 run scoreboard players operation $ChangeSupCost Global = $2209 Cost
+execute if score $ChangeSupNo Global matches 2209 run scoreboard players operation $ChangeSupInterval Global = $2209 Interval
+execute if score $ChangeSupNo Global matches 2209 if score @s ChangeLevel matches 39.. run scoreboard players set $ChangeSupNo Global 22091

@@ -124,6 +124,7 @@ scoreboard objectives add Mokuso dummy {"text":"黙想レベル"}
 scoreboard objectives add Issen dummy {"text":"一閃継続tick数"}
 scoreboard objectives add Isukumi dummy {"text":"居縮継続秒数"}
 scoreboard objectives add Kaishaku dummy {"text":"介錯残りtick数"}
+scoreboard objectives add Kazakiri dummy {"text":"風切残り秒数"}
 scoreboard objectives add PiercingAim dummy {"text":"ピアッシングエイム回数"}
 scoreboard objectives add BlastSpark dummy {"text":"ブラストスパーク継続tick数"}
 scoreboard objectives add EnergySave dummy {"text":"エナジーセーブ消費MP減少効果量"}

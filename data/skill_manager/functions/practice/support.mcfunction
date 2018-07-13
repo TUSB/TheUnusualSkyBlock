@@ -60,6 +60,9 @@ execute if score @s SupportSkill matches 22071..22079 run function skill_manager
 ### 介錯
 execute if score @s SupportSkill matches 22081..22089 run function skill_manager:ninja/kaishaku/act
 
+### 風切
+execute if score @s SupportSkill matches 22091..22099 run function skill_manager:ninja/kazakiri/act
+
 ### キアリク
 execute if score @s SupportSkill matches 42011..42019 run function skill_manager:white_mage/clear/act
 

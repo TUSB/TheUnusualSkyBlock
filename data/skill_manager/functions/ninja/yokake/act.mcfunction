@@ -19,15 +19,8 @@ execute if score $Time Global matches 03000..05000 run scoreboard players set $L
 execute if score @s SupportSkill matches 22062 run scoreboard players add $Level Global 1
 execute if score @s SupportSkill matches 22063 run scoreboard players add $Level Global 2
 
-execute if score $Level Global matches 1 run function skill_manager:ninja/yokake/level1
-execute if score $Level Global matches 2 run function skill_manager:ninja/yokake/level2
-execute if score $Level Global matches 3 run function skill_manager:ninja/yokake/level3
-execute if score $Level Global matches 4 run function skill_manager:ninja/yokake/level4
-execute if score $Level Global matches 5 run function skill_manager:ninja/yokake/level5
-execute if score $Level Global matches 6 run function skill_manager:ninja/yokake/level6
-execute if score $Level Global matches 7 run function skill_manager:ninja/yokake/level7
-execute if score $Level Global matches 8 run function skill_manager:ninja/yokake/level8
-execute if score $Level Global matches 9 run function skill_manager:ninja/yokake/level8
+execute unless score @s SneakTime matches 1.. run function skill_manager:ninja/yokake/fork
+execute if score @s SneakTime matches 1.. as @a[distance=..15] at @s run function skill_manager:ninja/yokake/fork
 
 ###---演出---Start
 ###---演出---End
