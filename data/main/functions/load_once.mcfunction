@@ -389,7 +389,7 @@ scoreboard players set $3105 Interval 20
 scoreboard players set $3106 Interval 100
 scoreboard players set $3107 Interval 0
 scoreboard players set $3201 Interval 0
-scoreboard players set $3202 Interval 20
+scoreboard players set $3202 Interval 100
 scoreboard players set $3203 Interval 20
 scoreboard players set $3204 Interval 40
 scoreboard players set $3205 Interval 40

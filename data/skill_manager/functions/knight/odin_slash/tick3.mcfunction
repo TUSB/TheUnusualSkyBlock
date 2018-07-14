@@ -14,5 +14,5 @@ execute positioned ^ ^ ^14 run particle minecraft:crit ~ ~ ~ 0.2 0 0.2 0 10 forc
 tp @s ~ ~ ~ ~-12 ~-15
 ###---演出---End
 
-scoreboard players operation @e[distance=..7,tag=Mob] StoredDamage += @s SkillAttribute
+scoreboard players operation @e[distance=..7,tag=Mob] StoredDamage > @s SkillAttribute
 scoreboard players add @e[distance=..7,tag=Mob] Damage 0

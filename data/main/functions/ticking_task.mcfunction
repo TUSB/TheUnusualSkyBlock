@@ -58,3 +58,6 @@ execute if entity @s[tag=LimitedTrading] run function enemy_manager:trade_once
 
 ### 奈落回避
 execute if entity @s[tag=AbyssWarp,y=0,dy=-20] run function enemy_manager:warp
+
+###トラップ
+execute if entity @s[tag=KasapTrap] run function skill_manager:hunter/kasap_trap/tick
