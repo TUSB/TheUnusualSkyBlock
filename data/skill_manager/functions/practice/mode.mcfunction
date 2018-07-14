@@ -63,6 +63,12 @@ execute if score @s ActiveSkill matches 21051..21059 run function skill_manager:
 ### 忍者＜サヨナラ＞
 execute if score @s ActiveSkill matches 21061..21069 run function skill_manager:ninja/sayonara/act
 
+### 狩人＜ステークスファイア＞
+execute if score @s ActiveSkill matches 31011..31019 run function skill_manager:hunter/stakes_fire/act
+
+### 狩人＜チェインアロー＞
+execute if score @s ActiveSkill matches 31021..31029 run function skill_manager:hunter/chain_arrow/act
+
 ### 狩人＜バードストライク＞
 execute if score @s ActiveSkill matches 31031..31039 run function skill_manager:hunter/bird_strike/act
 
@@ -71,9 +77,6 @@ execute if score @s ActiveSkill matches 31051..31059 run function skill_manager:
 
 ### 狩人＜ワイルドフレア＞
 execute if score @s ActiveSkill matches 31061..31069 run function skill_manager:hunter/wild_flare/act
-
-### 狩人＜ステークスファイア＞
-execute if score @s ActiveSkill matches 31011..31019 run function skill_manager:hunter/stakes_fire/act
 
 ### 白魔導士＜セイクリッドピラー＞
 execute if score @s ActiveSkill matches 41041..41049 run function skill_manager:white_mage/sacred_pillar/act

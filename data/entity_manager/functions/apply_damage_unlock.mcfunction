@@ -20,8 +20,6 @@ execute store result score $Health Global run data get entity @s AbsorptionAmoun
 scoreboard players operation $Health Global -= @s Damage
 execute store result entity @s AbsorptionAmount float 0.01 run scoreboard players get $Health Global
 
-tellraw @a {"score":{"name":"$Health","objective":"Global"}}
-
 ###ダメージ演出 ※変更禁止
 execute unless entity @s[nbt={AbsorptionAmount:0f}] run summon minecraft:snowball ~ ~300 ~ {Tags:[DamageBall]}
 execute positioned ~ ~300 ~ run tp @e[distance=0,tag=DamageBall,limit=1] ~ ~-300.31 ~
