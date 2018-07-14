@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_sapling"
+    },
+    {
+      "item": "minecraft:enchanting_table"
+    }
+  ],
+  "result": {
+    "item": "minecraft:brown_wool",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:magenta_terracotta"
+    },
+    {
+      "item": "minecraft:stone_brick_slab"
+    }
+  ],
+  "result": {
+    "item": "minecraft:yellow_wool",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:polished_andesite"
+    },
+    "X": {
+      "item": "minecraft:spruce_leaves"
+    }
+  },
+  "result": {
+    "item": "minecraft:orange_bed",
+    "count": 1
+  }
+}

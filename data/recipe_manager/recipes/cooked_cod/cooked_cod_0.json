@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:light_blue_carpet"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cooked_cod",
+    "count": 1
+  }
+}

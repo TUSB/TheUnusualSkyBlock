@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:crafting_table"
+    },
+    "X": {
+      "item": "minecraft:spectral_arrow"
+    }
+  },
+  "result": {
+    "item": "minecraft:light_gray_stained_glass",
+    "count": 1
+  }
+}

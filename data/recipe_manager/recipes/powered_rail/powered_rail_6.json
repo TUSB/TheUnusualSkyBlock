@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "X#X",
+    "XRX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:magenta_glazed_terracotta"
+    },
+    "#": {
+      "item": "minecraft:purple_terracotta"
+    },
+    "R": {
+      "item": "minecraft:shield"
+    }
+  },
+  "result": {
+    "item": "minecraft:powered_rail",
+    "count": 1
+  }
+}

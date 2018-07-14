@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "# #",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dandelion"
+    }
+  },
+  "result": {
+    "item": "minecraft:bowl",
+    "count": 1
+  }
+}

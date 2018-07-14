@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond_shovel"
+    },
+    "X": {
+      "item": "minecraft:iron_helmet"
+    }
+  },
+  "result": {
+    "item": "minecraft:black_terracotta",
+    "count": 1
+  }
+}

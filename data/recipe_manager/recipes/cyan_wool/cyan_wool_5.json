@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:red_sandstone_stairs"
+    },
+    {
+      "item": "minecraft:yellow_stained_glass_pane"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cyan_wool",
+    "count": 1
+  }
+}

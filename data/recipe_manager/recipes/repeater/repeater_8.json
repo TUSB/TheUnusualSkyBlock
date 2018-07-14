@@ -1,0 +1,22 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#X#",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:farmland"
+    },
+    "X": {
+      "item": "minecraft:fire_coral_block"
+    },
+    "I": {
+      "item": "minecraft:purple_bed"
+    }
+  },
+  "result": {
+    "item": "minecraft:repeater",
+    "count": 1
+  }
+}

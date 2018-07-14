@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:black_carpet"
+    },
+    "|": {
+      "item": "minecraft:cookie"
+    }
+  },
+  "result": {
+    "item": "minecraft:green_banner",
+    "count": 1
+  }
+}

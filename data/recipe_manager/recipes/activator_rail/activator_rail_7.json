@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XSX",
+    "X#X",
+    "XSX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:blaze_powder"
+    },
+    "S": {
+      "item": "minecraft:cooked_mutton"
+    },
+    "#": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "result": {
+    "item": "minecraft:activator_rail",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:orange_concrete"
+    },
+    "X": {
+      "item": "minecraft:stone_brick_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:light_gray_bed",
+    "count": 1
+  }
+}

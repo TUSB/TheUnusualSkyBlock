@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:fire_coral"
+    },
+    "X": {
+      "item": "minecraft:stone_brick_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:light_blue_bed",
+    "count": 1
+  }
+}

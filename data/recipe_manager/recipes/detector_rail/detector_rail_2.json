@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "X#X",
+    "XRX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:dark_oak_boat"
+    },
+    "#": {
+      "item": "minecraft:red_stained_glass"
+    },
+    "R": {
+      "item": "minecraft:shulker_box"
+    }
+  },
+  "result": {
+    "item": "minecraft:detector_rail",
+    "count": 1
+  }
+}

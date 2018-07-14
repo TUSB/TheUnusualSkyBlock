@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:dark_oak_door"
+    },
+    "#": {
+      "item": "minecraft:pink_shulker_box"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_hoe",
+    "count": 1
+  }
+}

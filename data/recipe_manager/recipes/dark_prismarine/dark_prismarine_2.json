@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SIS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:acacia_leaves"
+    },
+    "I": {
+      "item": "minecraft:lingering_potion"
+    }
+  },
+  "result": {
+    "item": "minecraft:dark_prismarine",
+    "count": 1
+  }
+}

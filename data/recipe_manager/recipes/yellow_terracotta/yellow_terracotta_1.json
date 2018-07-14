@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brown_terracotta"
+    },
+    "X": {
+      "item": "minecraft:magenta_stained_glass_pane"
+    }
+  },
+  "result": {
+    "item": "minecraft:yellow_terracotta",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:coal"
+    },
+    "#": {
+      "item": "minecraft:white_shulker_box"
+    }
+  },
+  "result": {
+    "item": "minecraft:wooden_axe",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:black_wool"
+    },
+    {
+      "item": "minecraft:golden_helmet"
+    }
+  ],
+  "result": {
+    "item": "minecraft:fire_charge",
+    "count": 1
+  }
+}

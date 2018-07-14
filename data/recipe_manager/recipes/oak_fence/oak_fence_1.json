@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:blue_stained_glass"
+    },
+    "#": {
+      "item": "minecraft:emerald_ore"
+    }
+  },
+  "result": {
+    "item": "minecraft:oak_fence",
+    "count": 1
+  }
+}

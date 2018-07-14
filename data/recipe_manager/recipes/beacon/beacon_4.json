@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GSG",
+    "OOO"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:beef"
+    },
+    "S": {
+      "item": "minecraft:oak_fence"
+    },
+    "O": {
+      "item": "minecraft:stripped_jungle_wood"
+    }
+  },
+  "result": {
+    "item": "minecraft:beacon",
+    "count": 1
+  }
+}

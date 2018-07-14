@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:fire_coral_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:snow",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dead_horn_coral_fan"
+    }
+  },
+  "result": {
+    "item": "minecraft:birch_door",
+    "count": 1
+  }
+}

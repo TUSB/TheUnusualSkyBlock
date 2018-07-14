@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:red_concrete"
+    },
+    "X": {
+      "item": "minecraft:turtle_helmet"
+    }
+  },
+  "result": {
+    "item": "minecraft:pink_stained_glass",
+    "count": 1
+  }
+}

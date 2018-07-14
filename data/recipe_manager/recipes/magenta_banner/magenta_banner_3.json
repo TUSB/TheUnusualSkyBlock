@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:chiseled_quartz_block"
+    },
+    "|": {
+      "item": "minecraft:white_stained_glass"
+    }
+  },
+  "result": {
+    "item": "minecraft:magenta_banner",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:emerald_ore"
+    },
+    "#": {
+      "item": "minecraft:sponge"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_sword",
+    "count": 1
+  }
+}

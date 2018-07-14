@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:spider_eye"
+    },
+    {
+      "item": "minecraft:white_terracotta"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gray_wool",
+    "count": 1
+  }
+}

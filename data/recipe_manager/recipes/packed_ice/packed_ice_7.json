@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:blaze_rod"
+    },
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "minecraft:clock"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:cooked_beef"
+    },
+    {
+      "item": "minecraft:cyan_stained_glass"
+    },
+    {
+      "item": "minecraft:large_fern"
+    },
+    {
+      "item": "minecraft:purple_carpet"
+    },
+    {
+      "item": "minecraft:splash_potion"
+    }
+  ],
+  "result": {
+    "item": "minecraft:packed_ice",
+    "count": 1
+  }
+}

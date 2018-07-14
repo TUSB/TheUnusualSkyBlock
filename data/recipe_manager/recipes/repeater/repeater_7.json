@@ -1,0 +1,22 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#X#",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_wood"
+    },
+    "X": {
+      "item": "minecraft:clay_ball"
+    },
+    "I": {
+      "item": "minecraft:diamond_boots"
+    }
+  },
+  "result": {
+    "item": "minecraft:repeater",
+    "count": 1
+  }
+}

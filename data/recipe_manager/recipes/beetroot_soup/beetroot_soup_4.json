@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "OOO",
+    "OOO",
+    " B "
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:cooked_rabbit"
+    },
+    "B": {
+      "item": "minecraft:iron_axe"
+    }
+  },
+  "result": {
+    "item": "minecraft:beetroot_soup",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cyan_banner"
+    },
+    "X": {
+      "item": "minecraft:spectral_arrow"
+    }
+  },
+  "result": {
+    "item": "minecraft:blue_bed",
+    "count": 1
+  }
+}

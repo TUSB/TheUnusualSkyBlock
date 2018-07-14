@@ -1,0 +1,18 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dark_prismarine"
+    },
+    {
+      "item": "minecraft:infested_cracked_stone_bricks"
+    },
+    {
+      "item": "minecraft:wheat"
+    }
+  ],
+  "result": {
+    "item": "minecraft:writable_book",
+    "count": 1
+  }
+}

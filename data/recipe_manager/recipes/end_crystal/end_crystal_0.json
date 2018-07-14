@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GEG",
+    "GTG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:end_stone"
+    },
+    "E": {
+      "item": "minecraft:gold_ingot"
+    },
+    "T": {
+      "item": "minecraft:horn_coral_fan"
+    }
+  },
+  "result": {
+    "item": "minecraft:end_crystal",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:light_gray_dye"
+    },
+    {
+      "item": "minecraft:mossy_cobblestone_wall"
+    }
+  ],
+  "result": {
+    "item": "minecraft:green_wool",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "NW",
+    "WN"
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:melon_seeds"
+    },
+    "W": {
+      "item": "minecraft:purple_terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:red_nether_bricks",
+    "count": 1
+  }
+}

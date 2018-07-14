@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:light_gray_stained_glass_pane"
+    },
+    "X": {
+      "item": "minecraft:stripped_jungle_wood"
+    }
+  },
+  "result": {
+    "item": "minecraft:yellow_bed",
+    "count": 1
+  }
+}

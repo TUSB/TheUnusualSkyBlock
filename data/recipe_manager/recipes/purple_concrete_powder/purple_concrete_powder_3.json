@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:acacia_slab"
+    },
+    {
+      "item": "minecraft:beetroot_soup"
+    },
+    {
+      "item": "minecraft:black_glazed_terracotta"
+    },
+    {
+      "item": "minecraft:cod_bucket"
+    },
+    {
+      "item": "minecraft:infested_stone"
+    },
+    {
+      "item": "minecraft:iron_sword"
+    },
+    {
+      "item": "minecraft:light_gray_glazed_terracotta"
+    },
+    {
+      "item": "minecraft:prismarine_brick_stairs"
+    },
+    {
+      "item": "minecraft:spectral_arrow"
+    }
+  ],
+  "result": {
+    "item": "minecraft:purple_concrete_powder",
+    "count": 1
+  }
+}

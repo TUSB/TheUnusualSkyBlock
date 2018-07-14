@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lime_stained_glass_pane"
+    },
+    "|": {
+      "item": "minecraft:turtle_egg"
+    }
+  },
+  "result": {
+    "item": "minecraft:yellow_banner",
+    "count": 1
+  }
+}

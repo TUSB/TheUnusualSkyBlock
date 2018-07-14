@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:black_concrete_powder"
+    },
+    {
+      "item": "minecraft:dead_fire_coral_fan"
+    }
+  ],
+  "result": {
+    "item": "minecraft:ender_eye",
+    "count": 1
+  }
+}

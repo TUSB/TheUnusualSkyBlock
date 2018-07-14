@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:end_stone_bricks"
+    },
+    "X": {
+      "item": "minecraft:mutton"
+    }
+  },
+  "result": {
+    "item": "minecraft:purple_stained_glass",
+    "count": 1
+  }
+}

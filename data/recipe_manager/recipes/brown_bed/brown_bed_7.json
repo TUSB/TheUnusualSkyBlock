@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:red_sand"
+    },
+    "X": {
+      "item": "minecraft:tnt"
+    }
+  },
+  "result": {
+    "item": "minecraft:brown_bed",
+    "count": 1
+  }
+}

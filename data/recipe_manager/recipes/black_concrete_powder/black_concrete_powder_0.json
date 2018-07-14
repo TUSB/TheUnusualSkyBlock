@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:birch_fence_gate"
+    },
+    {
+      "item": "minecraft:blue_stained_glass_pane"
+    },
+    {
+      "item": "minecraft:brown_glazed_terracotta"
+    },
+    {
+      "item": "minecraft:green_banner"
+    },
+    {
+      "item": "minecraft:lime_banner"
+    },
+    {
+      "item": "minecraft:orange_banner"
+    },
+    {
+      "item": "minecraft:orange_bed"
+    },
+    {
+      "item": "minecraft:tripwire_hook"
+    },
+    {
+      "item": "minecraft:zombie_head"
+    }
+  ],
+  "result": {
+    "item": "minecraft:black_concrete_powder",
+    "count": 1
+  }
+}

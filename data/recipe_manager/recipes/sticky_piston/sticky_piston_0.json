@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "S",
+    "P"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:dead_horn_coral_block"
+    },
+    "P": {
+      "item": "minecraft:oak_leaves"
+    }
+  },
+  "result": {
+    "item": "minecraft:sticky_piston",
+    "count": 1
+  }
+}

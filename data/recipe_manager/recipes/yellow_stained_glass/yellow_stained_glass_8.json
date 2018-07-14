@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gray_concrete_powder"
+    },
+    "X": {
+      "item": "minecraft:leather_boots"
+    }
+  },
+  "result": {
+    "item": "minecraft:yellow_stained_glass",
+    "count": 1
+  }
+}

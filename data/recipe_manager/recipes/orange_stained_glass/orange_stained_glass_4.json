@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lime_terracotta"
+    },
+    "X": {
+      "item": "minecraft:splash_potion"
+    }
+  },
+  "result": {
+    "item": "minecraft:orange_stained_glass",
+    "count": 1
+  }
+}

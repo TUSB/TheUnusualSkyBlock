@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "QQQ",
+    "WWW"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:poisonous_potato"
+    },
+    "Q": {
+      "item": "minecraft:purple_wool"
+    },
+    "W": {
+      "item": "minecraft:stone_axe"
+    }
+  },
+  "result": {
+    "item": "minecraft:daylight_detector",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:note_block"
+    },
+    "|": {
+      "item": "minecraft:white_tulip"
+    }
+  },
+  "result": {
+    "item": "minecraft:purple_banner",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "-",
+    "#",
+    "-"
+  ],
+  "key": {
+    "-": {
+      "item": "minecraft:arrow"
+    },
+    "#": {
+      "item": "minecraft:mushroom_stem"
+    }
+  },
+  "result": {
+    "item": "minecraft:shulker_box",
+    "count": 1
+  }
+}

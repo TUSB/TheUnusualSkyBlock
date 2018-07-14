@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:heavy_weighted_pressure_plate"
+    },
+    "X": {
+      "item": "minecraft:oak_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:brown_terracotta",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " X "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_trapdoor"
+    },
+    "X": {
+      "item": "minecraft:cut_sandstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:sign",
+    "count": 1
+  }
+}

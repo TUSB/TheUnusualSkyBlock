@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " B ",
+    "D#D",
+    "###"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:birch_wood"
+    },
+    "D": {
+      "item": "minecraft:daylight_detector"
+    },
+    "#": {
+      "item": "minecraft:green_shulker_box"
+    }
+  },
+  "result": {
+    "item": "minecraft:enchanting_table",
+    "count": 1
+  }
+}

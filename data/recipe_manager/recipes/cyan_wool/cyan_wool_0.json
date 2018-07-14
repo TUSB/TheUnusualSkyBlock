@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:chainmail_helmet"
+    },
+    {
+      "item": "minecraft:tnt_minecart"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cyan_wool",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "OOO",
+    "OOO",
+    " B "
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:oak_sapling"
+    },
+    "B": {
+      "item": "minecraft:purple_stained_glass_pane"
+    }
+  },
+  "result": {
+    "item": "minecraft:beetroot_soup",
+    "count": 1
+  }
+}

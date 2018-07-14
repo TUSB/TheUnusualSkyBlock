@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:smooth_quartz"
+    },
+    "#": {
+      "item": "minecraft:sticky_piston"
+    }
+  },
+  "result": {
+    "item": "minecraft:wooden_shovel",
+    "count": 1
+  }
+}

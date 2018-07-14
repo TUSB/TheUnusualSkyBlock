@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:ice"
+    },
+    "X": {
+      "item": "minecraft:jungle_fence"
+    }
+  },
+  "result": {
+    "item": "minecraft:gray_stained_glass",
+    "count": 1
+  }
+}

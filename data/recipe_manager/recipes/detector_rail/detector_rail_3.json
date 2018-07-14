@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "X#X",
+    "XRX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:diamond_hoe"
+    },
+    "#": {
+      "item": "minecraft:magenta_stained_glass"
+    },
+    "R": {
+      "item": "minecraft:shield"
+    }
+  },
+  "result": {
+    "item": "minecraft:detector_rail",
+    "count": 1
+  }
+}

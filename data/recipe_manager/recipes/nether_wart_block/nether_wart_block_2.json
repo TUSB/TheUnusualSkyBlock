@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:horn_coral_fan"
+    }
+  },
+  "result": {
+    "item": "minecraft:nether_wart_block",
+    "count": 1
+  }
+}

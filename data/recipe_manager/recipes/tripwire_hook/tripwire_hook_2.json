@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "I",
+    "S",
+    "#"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:blue_carpet"
+    },
+    "S": {
+      "item": "minecraft:light_gray_carpet"
+    },
+    "#": {
+      "item": "minecraft:sandstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:tripwire_hook",
+    "count": 1
+  }
+}

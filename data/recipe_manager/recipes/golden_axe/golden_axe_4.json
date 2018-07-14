@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:melon_slice"
+    },
+    "#": {
+      "item": "minecraft:rose_bush"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_axe",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:oak_slab"
+    },
+    "|": {
+      "item": "minecraft:prismarine_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:black_banner",
+    "count": 1
+  }
+}

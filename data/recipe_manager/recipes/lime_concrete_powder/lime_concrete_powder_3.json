@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:blue_banner"
+    },
+    {
+      "item": "minecraft:blue_bed"
+    },
+    {
+      "item": "minecraft:blue_terracotta"
+    },
+    {
+      "item": "minecraft:bone"
+    },
+    {
+      "item": "minecraft:brain_coral"
+    },
+    {
+      "item": "minecraft:brown_banner"
+    },
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "minecraft:green_wool"
+    },
+    {
+      "item": "minecraft:oak_boat"
+    }
+  ],
+  "result": {
+    "item": "minecraft:lime_concrete_powder",
+    "count": 1
+  }
+}

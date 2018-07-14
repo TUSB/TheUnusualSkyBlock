@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GEG",
+    "GTG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:cooked_cod"
+    },
+    "E": {
+      "item": "minecraft:gold_ore"
+    },
+    "T": {
+      "item": "minecraft:nether_brick_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:end_crystal",
+    "count": 1
+  }
+}

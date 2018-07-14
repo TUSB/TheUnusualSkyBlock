@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cooked_cod"
+    },
+    "X": {
+      "item": "minecraft:green_glazed_terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:light_blue_bed",
+    "count": 1
+  }
+}

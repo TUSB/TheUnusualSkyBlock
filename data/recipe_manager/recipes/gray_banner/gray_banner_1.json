@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:granite"
+    },
+    "|": {
+      "item": "minecraft:nether_brick_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:gray_banner",
+    "count": 1
+  }
+}

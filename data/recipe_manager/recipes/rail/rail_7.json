@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "X#X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:emerald_block"
+    },
+    "#": {
+      "item": "minecraft:flower_pot"
+    }
+  },
+  "result": {
+    "item": "minecraft:rail",
+    "count": 1
+  }
+}

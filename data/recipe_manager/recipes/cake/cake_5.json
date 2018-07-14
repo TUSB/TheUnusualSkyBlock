@@ -1,0 +1,26 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BEB",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:horn_coral_fan"
+    },
+    "B": {
+      "item": "minecraft:light_gray_stained_glass"
+    },
+    "E": {
+      "item": "minecraft:oak_log"
+    },
+    "C": {
+      "item": "minecraft:prismarine_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:cake",
+    "count": 1
+  }
+}

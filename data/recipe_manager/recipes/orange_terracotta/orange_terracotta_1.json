@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:hay_block"
+    },
+    "X": {
+      "item": "minecraft:orange_concrete_powder"
+    }
+  },
+  "result": {
+    "item": "minecraft:orange_terracotta",
+    "count": 1
+  }
+}

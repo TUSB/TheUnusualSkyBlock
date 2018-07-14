@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cyan_stained_glass"
+    },
+    {
+      "item": "minecraft:magenta_concrete"
+    }
+  ],
+  "result": {
+    "item": "minecraft:fire_charge",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "RRQ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:diamond_chestplate"
+    },
+    "R": {
+      "item": "minecraft:shears"
+    },
+    "Q": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "minecraft:observer",
+    "count": 1
+  }
+}

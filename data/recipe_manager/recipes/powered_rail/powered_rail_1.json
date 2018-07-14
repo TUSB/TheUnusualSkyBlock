@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "X#X",
+    "XRX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:acacia_log"
+    },
+    "#": {
+      "item": "minecraft:chorus_fruit"
+    },
+    "R": {
+      "item": "minecraft:lily_pad"
+    }
+  },
+  "result": {
+    "item": "minecraft:powered_rail",
+    "count": 1
+  }
+}

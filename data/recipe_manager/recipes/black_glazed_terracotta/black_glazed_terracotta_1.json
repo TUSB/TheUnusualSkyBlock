@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:chainmail_chestplate"
+    }
+  ],
+  "result": {
+    "item": "minecraft:black_glazed_terracotta",
+    "count": 1
+  }
+}

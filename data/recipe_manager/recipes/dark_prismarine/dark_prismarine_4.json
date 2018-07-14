@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SIS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:orange_stained_glass"
+    },
+    "I": {
+      "item": "minecraft:written_book"
+    }
+  },
+  "result": {
+    "item": "minecraft:dark_prismarine",
+    "count": 1
+  }
+}

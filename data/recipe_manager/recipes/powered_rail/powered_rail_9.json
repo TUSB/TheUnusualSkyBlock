@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "X#X",
+    "XRX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:andesite"
+    },
+    "#": {
+      "item": "minecraft:brick_stairs"
+    },
+    "R": {
+      "item": "minecraft:orange_shulker_box"
+    }
+  },
+  "result": {
+    "item": "minecraft:powered_rail",
+    "count": 1
+  }
+}

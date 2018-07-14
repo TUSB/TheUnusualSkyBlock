@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "X#X",
+    "XRX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:farmland"
+    },
+    "#": {
+      "item": "minecraft:light_blue_concrete"
+    },
+    "R": {
+      "item": "minecraft:quartz_pillar"
+    }
+  },
+  "result": {
+    "item": "minecraft:detector_rail",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_concrete"
+    }
+  ],
+  "result": {
+    "item": "minecraft:birch_button",
+    "count": 1
+  }
+}

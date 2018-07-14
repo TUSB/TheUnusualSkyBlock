@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:golden_apple"
+    },
+    "X": {
+      "item": "minecraft:yellow_concrete"
+    }
+  },
+  "result": {
+    "item": "minecraft:lime_terracotta",
+    "count": 1
+  }
+}

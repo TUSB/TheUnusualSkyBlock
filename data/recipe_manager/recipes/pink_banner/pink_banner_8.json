@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:torch"
+    },
+    "|": {
+      "item": "minecraft:tropical_fish_bucket"
+    }
+  },
+  "result": {
+    "item": "minecraft:pink_banner",
+    "count": 1
+  }
+}

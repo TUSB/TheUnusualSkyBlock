@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:podzol"
+    },
+    "X": {
+      "item": "minecraft:purple_glazed_terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:brown_terracotta",
+    "count": 1
+  }
+}

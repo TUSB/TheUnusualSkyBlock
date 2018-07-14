@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "A",
+    "B"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:dark_oak_fence"
+    },
+    "B": {
+      "item": "minecraft:redstone_lamp"
+    }
+  },
+  "result": {
+    "item": "minecraft:furnace_minecart",
+    "count": 1
+  }
+}

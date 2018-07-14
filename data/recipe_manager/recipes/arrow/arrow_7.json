@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "Y"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:chainmail_leggings"
+    },
+    "#": {
+      "item": "minecraft:cod"
+    },
+    "Y": {
+      "item": "minecraft:red_concrete_powder"
+    }
+  },
+  "result": {
+    "item": "minecraft:arrow",
+    "count": 1
+  }
+}

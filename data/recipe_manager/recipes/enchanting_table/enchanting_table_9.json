@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " B ",
+    "D#D",
+    "###"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:bubble_coral"
+    },
+    "D": {
+      "item": "minecraft:nether_wart_block"
+    },
+    "#": {
+      "item": "minecraft:seagrass"
+    }
+  },
+  "result": {
+    "item": "minecraft:enchanting_table",
+    "count": 1
+  }
+}

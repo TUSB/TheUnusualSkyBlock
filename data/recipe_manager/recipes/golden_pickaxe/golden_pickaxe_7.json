@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:creeper_head"
+    },
+    "#": {
+      "item": "minecraft:light_gray_bed"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_pickaxe",
+    "count": 1
+  }
+}

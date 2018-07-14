@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:lime_stained_glass"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cooked_porkchop",
+    "count": 1
+  }
+}

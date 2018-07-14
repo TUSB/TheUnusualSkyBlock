@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ore"
+    },
+    "|": {
+      "item": "minecraft:red_sandstone"
+    }
+  },
+  "result": {
+    "item": "minecraft:white_banner",
+    "count": 1
+  }
+}

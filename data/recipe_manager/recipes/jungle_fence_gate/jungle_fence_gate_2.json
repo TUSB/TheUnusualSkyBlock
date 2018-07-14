@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dead_horn_coral_fan"
+    },
+    "W": {
+      "item": "minecraft:spruce_leaves"
+    }
+  },
+  "result": {
+    "item": "minecraft:jungle_fence_gate",
+    "count": 1
+  }
+}

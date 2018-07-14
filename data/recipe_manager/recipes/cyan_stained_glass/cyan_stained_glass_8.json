@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gunpowder"
+    },
+    "X": {
+      "item": "minecraft:zombie_head"
+    }
+  },
+  "result": {
+    "item": "minecraft:cyan_stained_glass",
+    "count": 1
+  }
+}

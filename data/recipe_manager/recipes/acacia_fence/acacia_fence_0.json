@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:chainmail_helmet"
+    },
+    "#": {
+      "item": "minecraft:light_gray_glazed_terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:acacia_fence",
+    "count": 1
+  }
+}

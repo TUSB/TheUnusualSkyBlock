@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XSX",
+    "X#X",
+    "XSX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:orange_glazed_terracotta"
+    },
+    "S": {
+      "item": "minecraft:red_stained_glass"
+    },
+    "#": {
+      "item": "minecraft:white_carpet"
+    }
+  },
+  "result": {
+    "item": "minecraft:activator_rail",
+    "count": 1
+  }
+}

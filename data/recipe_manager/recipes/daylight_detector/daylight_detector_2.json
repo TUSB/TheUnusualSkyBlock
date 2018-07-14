@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "QQQ",
+    "WWW"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:brown_terracotta"
+    },
+    "Q": {
+      "item": "minecraft:golden_horse_armor"
+    },
+    "W": {
+      "item": "minecraft:magenta_carpet"
+    }
+  },
+  "result": {
+    "item": "minecraft:daylight_detector",
+    "count": 1
+  }
+}

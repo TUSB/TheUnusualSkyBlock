@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "MMM",
+    "MMM",
+    "MMM"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:light_gray_concrete_powder"
+    }
+  },
+  "result": {
+    "item": "minecraft:melon",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "TTT",
+    "#X#",
+    "#R#"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:carrot"
+    },
+    "#": {
+      "item": "minecraft:detector_rail"
+    },
+    "X": {
+      "item": "minecraft:quartz_block"
+    },
+    "R": {
+      "item": "minecraft:wooden_sword"
+    }
+  },
+  "result": {
+    "item": "minecraft:piston",
+    "count": 1
+  }
+}

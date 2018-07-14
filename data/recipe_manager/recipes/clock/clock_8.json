@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cobblestone_stairs"
+    },
+    "X": {
+      "item": "minecraft:dark_oak_pressure_plate"
+    }
+  },
+  "result": {
+    "item": "minecraft:clock",
+    "count": 1
+  }
+}

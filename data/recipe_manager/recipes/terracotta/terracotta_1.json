@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:jungle_pressure_plate"
+    }
+  ],
+  "result": {
+    "item": "minecraft:terracotta",
+    "count": 1
+  }
+}

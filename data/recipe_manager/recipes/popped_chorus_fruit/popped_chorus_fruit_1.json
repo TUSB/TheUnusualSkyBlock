@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:grass_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:popped_chorus_fruit",
+    "count": 1
+  }
+}

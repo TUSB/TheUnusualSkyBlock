@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:birch_pressure_plate"
+    },
+    "#": {
+      "item": "minecraft:cooked_cod"
+    }
+  },
+  "result": {
+    "item": "minecraft:jungle_fence",
+    "count": 1
+  }
+}

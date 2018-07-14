@@ -1,0 +1,18 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#X#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bubble_coral_fan"
+    },
+    "X": {
+      "item": "minecraft:red_carpet"
+    }
+  },
+  "result": {
+    "item": "minecraft:cookie",
+    "count": 1
+  }
+}

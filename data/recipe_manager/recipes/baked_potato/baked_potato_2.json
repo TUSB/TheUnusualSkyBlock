@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:purple_stained_glass_pane"
+    }
+  ],
+  "result": {
+    "item": "minecraft:baked_potato",
+    "count": 1
+  }
+}

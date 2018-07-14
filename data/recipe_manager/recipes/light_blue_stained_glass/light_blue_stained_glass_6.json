@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brown_stained_glass"
+    },
+    "X": {
+      "item": "minecraft:map"
+    }
+  },
+  "result": {
+    "item": "minecraft:light_blue_stained_glass",
+    "count": 1
+  }
+}

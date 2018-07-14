@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " X "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:green_banner"
+    },
+    "X": {
+      "item": "minecraft:jungle_fence"
+    }
+  },
+  "result": {
+    "item": "minecraft:sign",
+    "count": 1
+  }
+}

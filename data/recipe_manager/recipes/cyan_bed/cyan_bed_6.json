@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bubble_coral_fan"
+    },
+    "X": {
+      "item": "minecraft:shield"
+    }
+  },
+  "result": {
+    "item": "minecraft:cyan_bed",
+    "count": 1
+  }
+}

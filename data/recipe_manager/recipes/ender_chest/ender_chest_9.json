@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#E#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dark_oak_trapdoor"
+    },
+    "E": {
+      "item": "minecraft:lilac"
+    }
+  },
+  "result": {
+    "item": "minecraft:ender_chest",
+    "count": 1
+  }
+}

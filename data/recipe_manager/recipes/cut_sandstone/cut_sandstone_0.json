@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:white_stained_glass_pane"
+    }
+  },
+  "result": {
+    "item": "minecraft:cut_sandstone",
+    "count": 1
+  }
+}

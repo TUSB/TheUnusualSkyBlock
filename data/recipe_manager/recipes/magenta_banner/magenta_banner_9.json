@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:chiseled_red_sandstone"
+    },
+    "|": {
+      "item": "minecraft:dead_horn_coral_fan"
+    }
+  },
+  "result": {
+    "item": "minecraft:magenta_banner",
+    "count": 1
+  }
+}

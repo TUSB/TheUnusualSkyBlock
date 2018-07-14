@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:sea_lantern"
+    },
+    "X": {
+      "item": "minecraft:yellow_concrete"
+    }
+  },
+  "result": {
+    "item": "minecraft:black_bed",
+    "count": 1
+  }
+}

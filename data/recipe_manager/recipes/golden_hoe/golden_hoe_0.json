@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:book"
+    },
+    "#": {
+      "item": "minecraft:sticky_piston"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_hoe",
+    "count": 1
+  }
+}

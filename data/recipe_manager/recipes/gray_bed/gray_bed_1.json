@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:ghast_tear"
+    },
+    "X": {
+      "item": "minecraft:written_book"
+    }
+  },
+  "result": {
+    "item": "minecraft:gray_bed",
+    "count": 1
+  }
+}

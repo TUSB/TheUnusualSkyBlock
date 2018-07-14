@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cyan_dye"
+    },
+    "X": {
+      "item": "minecraft:grass_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:purple_stained_glass",
+    "count": 1
+  }
+}

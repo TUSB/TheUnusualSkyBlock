@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gray_terracotta"
+    },
+    "X": {
+      "item": "minecraft:mushroom_stew"
+    }
+  },
+  "result": {
+    "item": "minecraft:light_blue_terracotta",
+    "count": 1
+  }
+}

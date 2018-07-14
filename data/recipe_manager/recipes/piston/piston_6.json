@@ -1,0 +1,26 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "TTT",
+    "#X#",
+    "#R#"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:bucket"
+    },
+    "#": {
+      "item": "minecraft:dragon_breath"
+    },
+    "X": {
+      "item": "minecraft:lapis_block"
+    },
+    "R": {
+      "item": "minecraft:spruce_planks"
+    }
+  },
+  "result": {
+    "item": "minecraft:piston",
+    "count": 1
+  }
+}

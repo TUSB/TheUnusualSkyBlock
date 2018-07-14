@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:coal_block"
+    },
+    {
+      "item": "minecraft:iron_shovel"
+    }
+  ],
+  "result": {
+    "item": "minecraft:ender_eye",
+    "count": 1
+  }
+}

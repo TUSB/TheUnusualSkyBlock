@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:pink_bed"
+    }
+  },
+  "result": {
+    "item": "minecraft:nether_brick_slab",
+    "count": 1
+  }
+}

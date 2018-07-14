@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:fire_coral"
+    },
+    "X": {
+      "item": "minecraft:gold_ore"
+    }
+  },
+  "result": {
+    "item": "minecraft:green_terracotta",
+    "count": 1
+  }
+}

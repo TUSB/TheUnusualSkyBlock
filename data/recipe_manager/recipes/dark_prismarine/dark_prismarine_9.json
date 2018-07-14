@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "SSS",
+    "SIS",
+    "SSS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:blue_concrete"
+    },
+    "I": {
+      "item": "minecraft:green_carpet"
+    }
+  },
+  "result": {
+    "item": "minecraft:dark_prismarine",
+    "count": 1
+  }
+}

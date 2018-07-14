@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:rose_bush"
+    },
+    "X": {
+      "item": "minecraft:spruce_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:white_terracotta",
+    "count": 1
+  }
+}

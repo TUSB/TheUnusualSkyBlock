@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:creeper_head"
+    }
+  ],
+  "result": {
+    "item": "minecraft:magenta_glazed_terracotta",
+    "count": 1
+  }
+}

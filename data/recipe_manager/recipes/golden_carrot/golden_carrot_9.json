@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dandelion_yellow"
+    },
+    "X": {
+      "item": "minecraft:dead_brain_coral_fan"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_carrot",
+    "count": 1
+  }
+}

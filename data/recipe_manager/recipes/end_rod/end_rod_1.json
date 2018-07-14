@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "/",
+    "#"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:apple"
+    },
+    "#": {
+      "item": "minecraft:prismarine_crystals"
+    }
+  },
+  "result": {
+    "item": "minecraft:end_rod",
+    "count": 1
+  }
+}

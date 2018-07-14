@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:dead_bubble_coral_block"
+    },
+    "#": {
+      "item": "minecraft:mossy_cobblestone_wall"
+    }
+  },
+  "result": {
+    "item": "minecraft:redstone_torch",
+    "count": 1
+  }
+}

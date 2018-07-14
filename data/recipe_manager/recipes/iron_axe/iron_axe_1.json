@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:blue_bed"
+    },
+    "#": {
+      "item": "minecraft:golden_boots"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_axe",
+    "count": 1
+  }
+}

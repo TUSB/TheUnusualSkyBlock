@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dried_kelp_block"
+    }
+  ],
+  "result": {
+    "item": "minecraft:pink_glazed_terracotta",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:leather_boots"
+    },
+    {
+      "item": "minecraft:purple_shulker_box"
+    }
+  ],
+  "result": {
+    "item": "minecraft:brown_wool",
+    "count": 1
+  }
+}

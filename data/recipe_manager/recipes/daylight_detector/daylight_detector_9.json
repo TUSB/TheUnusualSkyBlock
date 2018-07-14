@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "QQQ",
+    "WWW"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:light_weighted_pressure_plate"
+    },
+    "Q": {
+      "item": "minecraft:lime_stained_glass"
+    },
+    "W": {
+      "item": "minecraft:pink_banner"
+    }
+  },
+  "result": {
+    "item": "minecraft:daylight_detector",
+    "count": 1
+  }
+}

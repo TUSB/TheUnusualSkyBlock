@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "##",
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:chicken"
+    }
+  },
+  "result": {
+    "item": "minecraft:oak_door",
+    "count": 1
+  }
+}

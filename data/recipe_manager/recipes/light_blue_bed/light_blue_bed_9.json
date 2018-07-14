@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:anvil"
+    },
+    "X": {
+      "item": "minecraft:gray_carpet"
+    }
+  },
+  "result": {
+    "item": "minecraft:light_blue_bed",
+    "count": 1
+  }
+}

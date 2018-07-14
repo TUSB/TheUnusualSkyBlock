@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "I",
+    "S",
+    "#"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:blue_stained_glass"
+    },
+    "S": {
+      "item": "minecraft:carrot_on_a_stick"
+    },
+    "#": {
+      "item": "minecraft:white_shulker_box"
+    }
+  },
+  "result": {
+    "item": "minecraft:tripwire_hook",
+    "count": 1
+  }
+}

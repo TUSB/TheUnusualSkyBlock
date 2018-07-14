@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "#R#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:infested_chiseled_stone_bricks"
+    },
+    "X": {
+      "item": "minecraft:jungle_fence_gate"
+    },
+    "R": {
+      "item": "minecraft:splash_potion"
+    }
+  },
+  "result": {
+    "item": "minecraft:dispenser",
+    "count": 1
+  }
+}

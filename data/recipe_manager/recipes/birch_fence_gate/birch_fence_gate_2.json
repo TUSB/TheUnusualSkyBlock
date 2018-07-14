@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:purple_banner"
+    },
+    "W": {
+      "item": "minecraft:zombie_head"
+    }
+  },
+  "result": {
+    "item": "minecraft:birch_fence_gate",
+    "count": 1
+  }
+}

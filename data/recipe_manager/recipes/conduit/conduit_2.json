@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cyan_concrete_powder"
+    },
+    "X": {
+      "item": "minecraft:diamond_leggings"
+    }
+  },
+  "result": {
+    "item": "minecraft:conduit",
+    "count": 1
+  }
+}

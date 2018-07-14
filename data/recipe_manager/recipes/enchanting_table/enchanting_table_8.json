@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " B ",
+    "D#D",
+    "###"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:magenta_stained_glass"
+    },
+    "D": {
+      "item": "minecraft:pink_stained_glass"
+    },
+    "#": {
+      "item": "minecraft:yellow_wool"
+    }
+  },
+  "result": {
+    "item": "minecraft:enchanting_table",
+    "count": 1
+  }
+}

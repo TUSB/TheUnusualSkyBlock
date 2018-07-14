@@ -1,0 +1,18 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:purple_bed"
+    },
+    {
+      "item": "minecraft:shears"
+    },
+    {
+      "item": "minecraft:stone_brick_stairs"
+    }
+  ],
+  "result": {
+    "item": "minecraft:fermented_spider_eye",
+    "count": 1
+  }
+}

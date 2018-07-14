@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dark_oak_planks"
+    },
+    "X": {
+      "item": "minecraft:pink_wool"
+    }
+  },
+  "result": {
+    "item": "minecraft:blue_terracotta",
+    "count": 1
+  }
+}

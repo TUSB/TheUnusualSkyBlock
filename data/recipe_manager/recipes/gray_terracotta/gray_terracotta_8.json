@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:enchanting_table"
+    },
+    "X": {
+      "item": "minecraft:melon"
+    }
+  },
+  "result": {
+    "item": "minecraft:gray_terracotta",
+    "count": 1
+  }
+}

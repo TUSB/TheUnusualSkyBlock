@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:infested_cobblestone"
+    },
+    "X": {
+      "item": "minecraft:quartz_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:lime_terracotta",
+    "count": 1
+  }
+}

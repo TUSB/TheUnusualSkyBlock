@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:melon_slice"
+    },
+    "#": {
+      "item": "minecraft:rail"
+    }
+  },
+  "result": {
+    "item": "minecraft:birch_fence",
+    "count": 1
+  }
+}

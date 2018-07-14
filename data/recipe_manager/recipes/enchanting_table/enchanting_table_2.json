@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " B ",
+    "D#D",
+    "###"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:gray_terracotta"
+    },
+    "D": {
+      "item": "minecraft:light_blue_dye"
+    },
+    "#": {
+      "item": "minecraft:magenta_glazed_terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:enchanting_table",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:cyan_stained_glass"
+    }
+  ],
+  "result": {
+    "item": "minecraft:black_glazed_terracotta",
+    "count": 1
+  }
+}

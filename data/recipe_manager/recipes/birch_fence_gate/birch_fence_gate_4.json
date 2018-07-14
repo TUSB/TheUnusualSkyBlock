@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:beetroot_seeds"
+    },
+    "W": {
+      "item": "minecraft:light_gray_shulker_box"
+    }
+  },
+  "result": {
+    "item": "minecraft:birch_fence_gate",
+    "count": 1
+  }
+}

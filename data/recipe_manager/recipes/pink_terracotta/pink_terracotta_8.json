@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:melon"
+    },
+    "X": {
+      "item": "minecraft:mushroom_stew"
+    }
+  },
+  "result": {
+    "item": "minecraft:pink_terracotta",
+    "count": 1
+  }
+}

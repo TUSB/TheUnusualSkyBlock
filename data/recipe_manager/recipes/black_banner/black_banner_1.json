@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "|": {
+      "item": "minecraft:lime_wool"
+    }
+  },
+  "result": {
+    "item": "minecraft:black_banner",
+    "count": 1
+  }
+}

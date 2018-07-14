@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:lime_glazed_terracotta"
+    },
+    {
+      "item": "minecraft:purpur_pillar"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gray_dye",
+    "count": 1
+  }
+}

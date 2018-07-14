@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:turtle_helmet"
+    }
+  },
+  "result": {
+    "item": "minecraft:sandstone_stairs",
+    "count": 1
+  }
+}

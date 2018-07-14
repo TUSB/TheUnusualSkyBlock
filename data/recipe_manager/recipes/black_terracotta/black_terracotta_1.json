@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dark_oak_stairs"
+    },
+    "X": {
+      "item": "minecraft:potato"
+    }
+  },
+  "result": {
+    "item": "minecraft:black_terracotta",
+    "count": 1
+  }
+}

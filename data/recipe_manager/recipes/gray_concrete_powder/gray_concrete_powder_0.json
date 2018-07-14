@@ -1,0 +1,36 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:birch_trapdoor"
+    },
+    {
+      "item": "minecraft:blue_banner"
+    },
+    {
+      "item": "minecraft:blue_concrete_powder"
+    },
+    {
+      "item": "minecraft:bow"
+    },
+    {
+      "item": "minecraft:diamond_boots"
+    },
+    {
+      "item": "minecraft:flower_pot"
+    },
+    {
+      "item": "minecraft:light_gray_bed"
+    },
+    {
+      "item": "minecraft:lime_terracotta"
+    },
+    {
+      "item": "minecraft:lime_wool"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gray_concrete_powder",
+    "count": 1
+  }
+}

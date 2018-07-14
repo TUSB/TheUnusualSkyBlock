@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "/",
+    "#"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:red_concrete"
+    },
+    "#": {
+      "item": "minecraft:torch"
+    }
+  },
+  "result": {
+    "item": "minecraft:end_rod",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "X#X",
+    "XRX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:blue_glazed_terracotta"
+    },
+    "#": {
+      "item": "minecraft:infested_mossy_stone_bricks"
+    },
+    "R": {
+      "item": "minecraft:iron_sword"
+    }
+  },
+  "result": {
+    "item": "minecraft:powered_rail",
+    "count": 1
+  }
+}

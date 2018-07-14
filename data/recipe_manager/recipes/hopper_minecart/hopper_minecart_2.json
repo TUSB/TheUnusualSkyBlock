@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "A",
+    "B"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:brown_concrete"
+    },
+    "B": {
+      "item": "minecraft:mushroom_stew"
+    }
+  },
+  "result": {
+    "item": "minecraft:hopper_minecart",
+    "count": 1
+  }
+}

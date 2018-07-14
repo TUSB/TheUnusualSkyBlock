@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "I",
+    "S",
+    "#"
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:spruce_sapling"
+    },
+    "S": {
+      "item": "minecraft:turtle_helmet"
+    },
+    "#": {
+      "item": "minecraft:written_book"
+    }
+  },
+  "result": {
+    "item": "minecraft:tripwire_hook",
+    "count": 1
+  }
+}

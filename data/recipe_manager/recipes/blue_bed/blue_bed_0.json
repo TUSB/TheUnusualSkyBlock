@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dark_oak_slab"
+    },
+    "X": {
+      "item": "minecraft:jungle_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:blue_bed",
+    "count": 1
+  }
+}

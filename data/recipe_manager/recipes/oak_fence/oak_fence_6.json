@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:hopper_minecart"
+    },
+    "#": {
+      "item": "minecraft:trapped_chest"
+    }
+  },
+  "result": {
+    "item": "minecraft:oak_fence",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lime_stained_glass_pane"
+    },
+    "X": {
+      "item": "minecraft:spruce_pressure_plate"
+    }
+  },
+  "result": {
+    "item": "minecraft:cyan_bed",
+    "count": 1
+  }
+}

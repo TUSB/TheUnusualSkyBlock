@@ -1,0 +1,22 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#X#",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:birch_pressure_plate"
+    },
+    "X": {
+      "item": "minecraft:bowl"
+    },
+    "I": {
+      "item": "minecraft:pink_shulker_box"
+    }
+  },
+  "result": {
+    "item": "minecraft:repeater",
+    "count": 1
+  }
+}

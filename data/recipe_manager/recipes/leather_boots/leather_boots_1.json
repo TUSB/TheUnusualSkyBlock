@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:light_gray_bed"
+    }
+  },
+  "result": {
+    "item": "minecraft:leather_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dead_fire_coral_fan"
+    },
+    "X": {
+      "item": "minecraft:furnace_minecart"
+    },
+    "I": {
+      "item": "minecraft:white_bed"
+    }
+  },
+  "result": {
+    "item": "minecraft:comparator",
+    "count": 1
+  }
+}

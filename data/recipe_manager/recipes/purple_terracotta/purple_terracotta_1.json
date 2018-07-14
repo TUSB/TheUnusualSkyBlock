@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:birch_sapling"
+    },
+    "X": {
+      "item": "minecraft:chainmail_boots"
+    }
+  },
+  "result": {
+    "item": "minecraft:purple_terracotta",
+    "count": 1
+  }
+}

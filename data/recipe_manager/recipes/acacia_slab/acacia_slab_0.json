@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:birch_boat"
+    }
+  },
+  "result": {
+    "item": "minecraft:acacia_slab",
+    "count": 1
+  }
+}

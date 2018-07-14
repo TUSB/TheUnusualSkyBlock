@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lilac"
+    }
+  },
+  "result": {
+    "item": "minecraft:oak_stairs",
+    "count": 1
+  }
+}

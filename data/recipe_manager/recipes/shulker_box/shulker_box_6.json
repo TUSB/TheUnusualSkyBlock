@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "-",
+    "#",
+    "-"
+  ],
+  "key": {
+    "-": {
+      "item": "minecraft:chiseled_stone_bricks"
+    },
+    "#": {
+      "item": "minecraft:gray_stained_glass"
+    }
+  },
+  "result": {
+    "item": "minecraft:shulker_box",
+    "count": 1
+  }
+}

@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:light_blue_stained_glass"
+    },
+    "X": {
+      "item": "minecraft:pink_concrete"
+    }
+  },
+  "result": {
+    "item": "minecraft:purple_bed",
+    "count": 1
+  }
+}

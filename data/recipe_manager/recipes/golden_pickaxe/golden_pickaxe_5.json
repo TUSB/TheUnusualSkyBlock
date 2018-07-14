@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:acacia_fence_gate"
+    },
+    "#": {
+      "item": "minecraft:stone_hoe"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_pickaxe",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:orange_carpet"
+    },
+    {
+      "item": "minecraft:snow"
+    }
+  ],
+  "result": {
+    "item": "minecraft:fire_charge",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "X#X",
+    "XRX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:black_glazed_terracotta"
+    },
+    "#": {
+      "item": "minecraft:magenta_concrete"
+    },
+    "R": {
+      "item": "minecraft:stone_bricks"
+    }
+  },
+  "result": {
+    "item": "minecraft:detector_rail",
+    "count": 1
+  }
+}

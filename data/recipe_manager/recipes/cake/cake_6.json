@@ -1,0 +1,26 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BEB",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:iron_trapdoor"
+    },
+    "B": {
+      "item": "minecraft:jungle_stairs"
+    },
+    "E": {
+      "item": "minecraft:magenta_stained_glass_pane"
+    },
+    "C": {
+      "item": "minecraft:stripped_jungle_wood"
+    }
+  },
+  "result": {
+    "item": "minecraft:cake",
+    "count": 1
+  }
+}

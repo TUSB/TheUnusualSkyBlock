@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:glistering_melon_slice"
+    },
+    "X": {
+      "item": "minecraft:vine"
+    }
+  },
+  "result": {
+    "item": "minecraft:light_blue_terracotta",
+    "count": 1
+  }
+}

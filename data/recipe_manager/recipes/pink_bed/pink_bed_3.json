@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:fire_coral_block"
+    },
+    "X": {
+      "item": "minecraft:nether_bricks"
+    }
+  },
+  "result": {
+    "item": "minecraft:pink_bed",
+    "count": 1
+  }
+}

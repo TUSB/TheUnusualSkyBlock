@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:crafting_table"
+    },
+    "X": {
+      "item": "minecraft:spruce_leaves"
+    }
+  },
+  "result": {
+    "item": "minecraft:cyan_stained_glass",
+    "count": 1
+  }
+}

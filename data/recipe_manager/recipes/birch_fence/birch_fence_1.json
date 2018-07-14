@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:cooked_mutton"
+    },
+    "#": {
+      "item": "minecraft:light_blue_bed"
+    }
+  },
+  "result": {
+    "item": "minecraft:birch_fence",
+    "count": 1
+  }
+}

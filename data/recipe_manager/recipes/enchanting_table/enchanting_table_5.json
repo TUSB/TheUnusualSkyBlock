@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " B ",
+    "D#D",
+    "###"
+  ],
+  "key": {
+    "B": {
+      "item": "minecraft:fire_coral_fan"
+    },
+    "D": {
+      "item": "minecraft:iron_sword"
+    },
+    "#": {
+      "item": "minecraft:nether_quartz_ore"
+    }
+  },
+  "result": {
+    "item": "minecraft:enchanting_table",
+    "count": 1
+  }
+}

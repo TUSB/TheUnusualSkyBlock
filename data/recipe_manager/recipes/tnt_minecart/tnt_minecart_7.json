@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "A",
+    "B"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:birch_boat"
+    },
+    "B": {
+      "item": "minecraft:cauldron"
+    }
+  },
+  "result": {
+    "item": "minecraft:tnt_minecart",
+    "count": 1
+  }
+}

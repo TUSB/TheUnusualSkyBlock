@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    " #",
+    " #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "#": {
+      "item": "minecraft:iron_axe"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_hoe",
+    "count": 1
+  }
+}

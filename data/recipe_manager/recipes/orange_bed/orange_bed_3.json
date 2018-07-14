@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_fence"
+    },
+    "X": {
+      "item": "minecraft:purpur_pillar"
+    }
+  },
+  "result": {
+    "item": "minecraft:orange_bed",
+    "count": 1
+  }
+}

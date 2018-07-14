@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:magenta_shulker_box"
+    }
+  },
+  "result": {
+    "item": "minecraft:sandstone_stairs",
+    "count": 1
+  }
+}

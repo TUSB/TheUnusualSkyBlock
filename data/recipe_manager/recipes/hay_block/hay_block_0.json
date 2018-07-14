@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:trident"
+    }
+  },
+  "result": {
+    "item": "minecraft:hay_block",
+    "count": 1
+  }
+}

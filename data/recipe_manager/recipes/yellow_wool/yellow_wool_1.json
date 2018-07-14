@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:chiseled_sandstone"
+    },
+    {
+      "item": "minecraft:iron_door"
+    }
+  ],
+  "result": {
+    "item": "minecraft:yellow_wool",
+    "count": 1
+  }
+}

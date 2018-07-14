@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XXX",
+    "X X"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:turtle_egg"
+    }
+  },
+  "result": {
+    "item": "minecraft:leather_helmet",
+    "count": 1
+  }
+}

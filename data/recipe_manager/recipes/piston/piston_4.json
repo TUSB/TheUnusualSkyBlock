@@ -1,0 +1,26 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "TTT",
+    "#X#",
+    "#R#"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:dried_kelp"
+    },
+    "#": {
+      "item": "minecraft:light_gray_terracotta"
+    },
+    "X": {
+      "item": "minecraft:lime_stained_glass_pane"
+    },
+    "R": {
+      "item": "minecraft:nether_quartz_ore"
+    }
+  },
+  "result": {
+    "item": "minecraft:piston",
+    "count": 1
+  }
+}

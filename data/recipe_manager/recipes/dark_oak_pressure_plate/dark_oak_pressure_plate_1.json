@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:blue_carpet"
+    }
+  },
+  "result": {
+    "item": "minecraft:dark_oak_pressure_plate",
+    "count": 1
+  }
+}

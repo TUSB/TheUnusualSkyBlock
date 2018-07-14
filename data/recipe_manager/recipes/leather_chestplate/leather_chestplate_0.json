@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "XXX",
+    "XXX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:green_glazed_terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:leather_chestplate",
+    "count": 1
+  }
+}

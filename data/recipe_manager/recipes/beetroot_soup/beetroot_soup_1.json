@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "OOO",
+    "OOO",
+    " B "
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:brown_glazed_terracotta"
+    },
+    "B": {
+      "item": "minecraft:nether_wart"
+    }
+  },
+  "result": {
+    "item": "minecraft:beetroot_soup",
+    "count": 1
+  }
+}

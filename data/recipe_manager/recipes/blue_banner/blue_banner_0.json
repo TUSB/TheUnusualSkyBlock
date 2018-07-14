@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:birch_planks"
+    },
+    "|": {
+      "item": "minecraft:green_concrete_powder"
+    }
+  },
+  "result": {
+    "item": "minecraft:blue_banner",
+    "count": 1
+  }
+}

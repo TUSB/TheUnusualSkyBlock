@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GEG",
+    "GTG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:infested_mossy_stone_bricks"
+    },
+    "E": {
+      "item": "minecraft:orange_concrete_powder"
+    },
+    "T": {
+      "item": "minecraft:written_book"
+    }
+  },
+  "result": {
+    "item": "minecraft:end_crystal",
+    "count": 1
+  }
+}

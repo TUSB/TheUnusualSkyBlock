@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:birch_planks"
+    },
+    {
+      "item": "minecraft:orange_shulker_box"
+    }
+  ],
+  "result": {
+    "item": "minecraft:yellow_wool",
+    "count": 1
+  }
+}

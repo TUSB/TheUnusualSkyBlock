@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:jungle_trapdoor"
+    },
+    "#": {
+      "item": "minecraft:splash_potion"
+    }
+  },
+  "result": {
+    "item": "minecraft:iron_sword",
+    "count": 1
+  }
+}

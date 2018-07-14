@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "key": {
+    "W": {
+      "item": "minecraft:slime_ball"
+    },
+    "#": {
+      "item": "minecraft:vine"
+    }
+  },
+  "result": {
+    "item": "minecraft:spruce_fence",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "SCS",
+    "CCC",
+    "SCS"
+  ],
+  "key": {
+    "S": {
+      "item": "minecraft:dragon_breath"
+    },
+    "C": {
+      "item": "minecraft:purple_glazed_terracotta"
+    }
+  },
+  "result": {
+    "item": "minecraft:sea_lantern",
+    "count": 1
+  }
+}

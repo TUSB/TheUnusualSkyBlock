@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_leaves"
+    },
+    "X": {
+      "item": "minecraft:birch_door"
+    }
+  },
+  "result": {
+    "item": "minecraft:white_stained_glass",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BEB",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:acacia_door"
+    },
+    "B": {
+      "item": "minecraft:detector_rail"
+    },
+    "E": {
+      "item": "minecraft:fire_coral_fan"
+    },
+    "C": {
+      "item": "minecraft:snow_block"
+    }
+  },
+  "result": {
+    "item": "minecraft:cake",
+    "count": 1
+  }
+}

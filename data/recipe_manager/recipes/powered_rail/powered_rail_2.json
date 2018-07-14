@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "X#X",
+    "XRX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:diamond_sword"
+    },
+    "#": {
+      "item": "minecraft:rabbit_hide"
+    },
+    "R": {
+      "item": "minecraft:tube_coral"
+    }
+  },
+  "result": {
+    "item": "minecraft:powered_rail",
+    "count": 1
+  }
+}

@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "RRQ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:chipped_anvil"
+    },
+    "R": {
+      "item": "minecraft:glass_pane"
+    },
+    "Q": {
+      "item": "minecraft:tall_grass"
+    }
+  },
+  "result": {
+    "item": "minecraft:observer",
+    "count": 1
+  }
+}

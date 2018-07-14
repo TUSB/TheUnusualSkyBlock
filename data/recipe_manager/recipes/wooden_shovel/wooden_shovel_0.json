@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "#",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:brown_stained_glass"
+    },
+    "#": {
+      "item": "minecraft:tall_grass"
+    }
+  },
+  "result": {
+    "item": "minecraft:wooden_shovel",
+    "count": 1
+  }
+}

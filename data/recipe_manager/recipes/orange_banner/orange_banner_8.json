@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:pink_wool"
+    },
+    "|": {
+      "item": "minecraft:sandstone_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:orange_banner",
+    "count": 1
+  }
+}

@@ -1,0 +1,26 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BEB",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:chainmail_boots"
+    },
+    "B": {
+      "item": "minecraft:cooked_beef"
+    },
+    "E": {
+      "item": "minecraft:purpur_block"
+    },
+    "C": {
+      "item": "minecraft:wheat_seeds"
+    }
+  },
+  "result": {
+    "item": "minecraft:cake",
+    "count": 1
+  }
+}

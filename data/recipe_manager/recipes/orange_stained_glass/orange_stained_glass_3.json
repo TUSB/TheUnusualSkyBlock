@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bow"
+    },
+    "X": {
+      "item": "minecraft:iron_shovel"
+    }
+  },
+  "result": {
+    "item": "minecraft:orange_stained_glass",
+    "count": 1
+  }
+}

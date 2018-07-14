@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "RRQ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:painting"
+    },
+    "R": {
+      "item": "minecraft:prismarine_shard"
+    },
+    "Q": {
+      "item": "minecraft:smooth_quartz"
+    }
+  },
+  "result": {
+    "item": "minecraft:observer",
+    "count": 1
+  }
+}

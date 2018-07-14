@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lime_terracotta"
+    },
+    "X": {
+      "item": "minecraft:tropical_fish"
+    }
+  },
+  "result": {
+    "item": "minecraft:clock",
+    "count": 1
+  }
+}

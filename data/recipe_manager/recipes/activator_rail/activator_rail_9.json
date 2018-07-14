@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XSX",
+    "X#X",
+    "XSX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:chainmail_helmet"
+    },
+    "S": {
+      "item": "minecraft:iron_bars"
+    },
+    "#": {
+      "item": "minecraft:stone_button"
+    }
+  },
+  "result": {
+    "item": "minecraft:activator_rail",
+    "count": 1
+  }
+}

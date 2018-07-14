@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    " # ",
+    "#X#",
+    "III"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:light_gray_concrete_powder"
+    },
+    "X": {
+      "item": "minecraft:nether_bricks"
+    },
+    "I": {
+      "item": "minecraft:pink_banner"
+    }
+  },
+  "result": {
+    "item": "minecraft:comparator",
+    "count": 1
+  }
+}

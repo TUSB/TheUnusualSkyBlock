@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dead_horn_coral_fan"
+    },
+    "X": {
+      "item": "minecraft:red_concrete"
+    }
+  },
+  "result": {
+    "item": "minecraft:glistering_melon_slice",
+    "count": 1
+  }
+}

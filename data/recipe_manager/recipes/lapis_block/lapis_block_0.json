@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:oak_wood"
+    }
+  },
+  "result": {
+    "item": "minecraft:lapis_block",
+    "count": 1
+  }
+}

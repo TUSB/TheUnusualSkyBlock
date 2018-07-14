@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "RRQ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:acacia_trapdoor"
+    },
+    "R": {
+      "item": "minecraft:cut_sandstone"
+    },
+    "Q": {
+      "item": "minecraft:magenta_stained_glass_pane"
+    }
+  },
+  "result": {
+    "item": "minecraft:observer",
+    "count": 1
+  }
+}

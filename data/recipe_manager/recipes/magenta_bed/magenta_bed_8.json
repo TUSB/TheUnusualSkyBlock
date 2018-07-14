@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "XXX"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gray_shulker_box"
+    },
+    "X": {
+      "item": "minecraft:ice"
+    }
+  },
+  "result": {
+    "item": "minecraft:magenta_bed",
+    "count": 1
+  }
+}

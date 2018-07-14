@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    " | "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cocoa_beans"
+    },
+    "|": {
+      "item": "minecraft:jungle_leaves"
+    }
+  },
+  "result": {
+    "item": "minecraft:blue_banner",
+    "count": 1
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:lingering_potion"
+    }
+  ],
+  "result": {
+    "item": "minecraft:red_glazed_terracotta",
+    "count": 1
+  }
+}

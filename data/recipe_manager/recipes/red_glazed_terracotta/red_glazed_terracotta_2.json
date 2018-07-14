@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:light_blue_shulker_box"
+    }
+  ],
+  "result": {
+    "item": "minecraft:red_glazed_terracotta",
+    "count": 1
+  }
+}

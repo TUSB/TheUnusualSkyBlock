@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:oak_fence"
+    }
+  },
+  "result": {
+    "item": "minecraft:white_stained_glass_pane",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:ghast_tear"
+    },
+    "X": {
+      "item": "minecraft:splash_potion"
+    }
+  },
+  "result": {
+    "item": "minecraft:green_terracotta",
+    "count": 1
+  }
+}

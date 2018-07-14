@@ -1,0 +1,26 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BEB",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:black_shulker_box"
+    },
+    "B": {
+      "item": "minecraft:flint"
+    },
+    "E": {
+      "item": "minecraft:light_gray_bed"
+    },
+    "C": {
+      "item": "minecraft:shulker_shell"
+    }
+  },
+  "result": {
+    "item": "minecraft:cake",
+    "count": 1
+  }
+}

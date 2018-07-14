@@ -1,0 +1,26 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "TTT",
+    "#X#",
+    "#R#"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:black_concrete"
+    },
+    "#": {
+      "item": "minecraft:orange_dye"
+    },
+    "X": {
+      "item": "minecraft:orange_stained_glass_pane"
+    },
+    "R": {
+      "item": "minecraft:slime_ball"
+    }
+  },
+  "result": {
+    "item": "minecraft:piston",
+    "count": 1
+  }
+}

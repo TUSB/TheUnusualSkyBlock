@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "QQQ",
+    "WWW"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:black_terracotta"
+    },
+    "Q": {
+      "item": "minecraft:prismarine_brick_stairs"
+    },
+    "W": {
+      "item": "minecraft:prismarine_stairs"
+    }
+  },
+  "result": {
+    "item": "minecraft:daylight_detector",
+    "count": 1
+  }
+}

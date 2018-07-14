@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:baked_potato"
+    },
+    "#": {
+      "item": "minecraft:turtle_egg"
+    }
+  },
+  "result": {
+    "item": "minecraft:wooden_axe",
+    "count": 1
+  }
+}

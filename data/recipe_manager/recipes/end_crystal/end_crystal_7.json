@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "GGG",
+    "GEG",
+    "GTG"
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:cooked_beef"
+    },
+    "E": {
+      "item": "minecraft:dark_oak_wood"
+    },
+    "T": {
+      "item": "minecraft:oak_leaves"
+    }
+  },
+  "result": {
+    "item": "minecraft:end_crystal",
+    "count": 1
+  }
+}

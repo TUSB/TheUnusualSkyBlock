@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:blue_banner"
+    }
+  },
+  "result": {
+    "item": "minecraft:spruce_pressure_plate",
+    "count": 1
+  }
+}

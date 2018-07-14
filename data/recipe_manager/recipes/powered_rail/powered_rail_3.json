@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "X#X",
+    "XRX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:creeper_head"
+    },
+    "#": {
+      "item": "minecraft:infested_chiseled_stone_bricks"
+    },
+    "R": {
+      "item": "minecraft:purpur_slab"
+    }
+  },
+  "result": {
+    "item": "minecraft:powered_rail",
+    "count": 1
+  }
+}

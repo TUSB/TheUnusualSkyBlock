@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dead_brain_coral_fan"
+    },
+    "X": {
+      "item": "minecraft:gray_stained_glass_pane"
+    }
+  },
+  "result": {
+    "item": "minecraft:green_terracotta",
+    "count": 1
+  }
+}

@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "X",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:detector_rail"
+    },
+    "#": {
+      "item": "minecraft:lime_carpet"
+    }
+  },
+  "result": {
+    "item": "minecraft:diamond_sword",
+    "count": 1
+  }
+}

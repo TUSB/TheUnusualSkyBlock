@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:milk_bucket"
+    },
+    "#": {
+      "item": "minecraft:oak_wood"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_pickaxe",
+    "count": 1
+  }
+}

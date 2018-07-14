@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:oak_trapdoor"
+    },
+    "X": {
+      "item": "minecraft:polished_diorite"
+    }
+  },
+  "result": {
+    "item": "minecraft:white_stained_glass",
+    "count": 1
+  }
+}

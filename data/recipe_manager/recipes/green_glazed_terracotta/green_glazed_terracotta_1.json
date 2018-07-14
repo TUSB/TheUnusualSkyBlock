@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:spruce_fence"
+    }
+  ],
+  "result": {
+    "item": "minecraft:green_glazed_terracotta",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:infested_cracked_stone_bricks"
+    }
+  },
+  "result": {
+    "item": "minecraft:birch_wood",
+    "count": 1
+  }
+}

@@ -1,0 +1,15 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:brown_stained_glass_pane"
+    },
+    {
+      "item": "minecraft:light_blue_carpet"
+    }
+  ],
+  "result": {
+    "item": "minecraft:light_blue_wool",
+    "count": 1
+  }
+}

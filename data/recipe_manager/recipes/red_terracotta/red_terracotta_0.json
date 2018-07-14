@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lilac"
+    },
+    "X": {
+      "item": "minecraft:shears"
+    }
+  },
+  "result": {
+    "item": "minecraft:red_terracotta",
+    "count": 1
+  }
+}

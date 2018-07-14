@@ -1,0 +1,26 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "AAA",
+    "BEB",
+    "CCC"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:chainmail_helmet"
+    },
+    "B": {
+      "item": "minecraft:magenta_banner"
+    },
+    "E": {
+      "item": "minecraft:sunflower"
+    },
+    "C": {
+      "item": "minecraft:white_carpet"
+    }
+  },
+  "result": {
+    "item": "minecraft:cake",
+    "count": 1
+  }
+}

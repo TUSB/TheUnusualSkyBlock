@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "#W#",
+    "#W#"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:dark_oak_door"
+    },
+    "W": {
+      "item": "minecraft:red_bed"
+    }
+  },
+  "result": {
+    "item": "minecraft:jungle_fence_gate",
+    "count": 1
+  }
+}

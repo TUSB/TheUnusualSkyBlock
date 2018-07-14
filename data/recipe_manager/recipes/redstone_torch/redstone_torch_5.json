@@ -1,0 +1,19 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X",
+    "#"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:mossy_cobblestone_wall"
+    },
+    "#": {
+      "item": "minecraft:red_concrete_powder"
+    }
+  },
+  "result": {
+    "item": "minecraft:redstone_torch",
+    "count": 1
+  }
+}

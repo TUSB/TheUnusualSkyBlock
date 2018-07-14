@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "X X",
+    "X#X",
+    "XRX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:acacia_pressure_plate"
+    },
+    "#": {
+      "item": "minecraft:dandelion"
+    },
+    "R": {
+      "item": "minecraft:light_gray_banner"
+    }
+  },
+  "result": {
+    "item": "minecraft:powered_rail",
+    "count": 1
+  }
+}

@@ -1,0 +1,16 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "##",
+    "##"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:cooked_mutton"
+    }
+  },
+  "result": {
+    "item": "minecraft:acacia_wood",
+    "count": 1
+  }
+}

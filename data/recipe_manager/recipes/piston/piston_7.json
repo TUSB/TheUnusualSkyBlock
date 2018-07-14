@@ -1,0 +1,26 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "TTT",
+    "#X#",
+    "#R#"
+  ],
+  "key": {
+    "T": {
+      "item": "minecraft:birch_stairs"
+    },
+    "#": {
+      "item": "minecraft:brain_coral_fan"
+    },
+    "X": {
+      "item": "minecraft:repeater"
+    },
+    "R": {
+      "item": "minecraft:splash_potion"
+    }
+  },
+  "result": {
+    "item": "minecraft:piston",
+    "count": 1
+  }
+}

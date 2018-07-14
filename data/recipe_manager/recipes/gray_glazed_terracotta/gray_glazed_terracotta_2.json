@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:jungle_fence_gate"
+    }
+  ],
+  "result": {
+    "item": "minecraft:gray_glazed_terracotta",
+    "count": 1
+  }
+}

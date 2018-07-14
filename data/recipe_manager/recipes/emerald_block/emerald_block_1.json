@@ -1,0 +1,17 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:grass"
+    }
+  },
+  "result": {
+    "item": "minecraft:emerald_block",
+    "count": 1
+  }
+}

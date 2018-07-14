@@ -1,0 +1,12 @@
+﻿{
+  "type": "crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:light_gray_shulker_box"
+    }
+  ],
+  "result": {
+    "item": "minecraft:jungle_button",
+    "count": 1
+  }
+}

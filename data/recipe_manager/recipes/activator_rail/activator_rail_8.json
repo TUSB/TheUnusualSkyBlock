@@ -1,0 +1,23 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XSX",
+    "X#X",
+    "XSX"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:magma_block"
+    },
+    "S": {
+      "item": "minecraft:prismarine_stairs"
+    },
+    "#": {
+      "item": "minecraft:spruce_door"
+    }
+  },
+  "result": {
+    "item": "minecraft:activator_rail",
+    "count": 1
+  }
+}

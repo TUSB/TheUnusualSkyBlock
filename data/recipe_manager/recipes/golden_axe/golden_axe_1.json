@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "XX",
+    "X#",
+    " #"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:creeper_head"
+    },
+    "#": {
+      "item": "minecraft:red_bed"
+    }
+  },
+  "result": {
+    "item": "minecraft:golden_axe",
+    "count": 1
+  }
+}

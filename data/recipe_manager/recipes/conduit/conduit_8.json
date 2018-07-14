@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:lime_concrete_powder"
+    },
+    "X": {
+      "item": "minecraft:orange_concrete_powder"
+    }
+  },
+  "result": {
+    "item": "minecraft:conduit",
+    "count": 1
+  }
+}

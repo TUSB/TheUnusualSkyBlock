@@ -1,0 +1,20 @@
+﻿{
+  "type": "crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:chorus_flower"
+    },
+    "X": {
+      "item": "minecraft:iron_horse_armor"
+    }
+  },
+  "result": {
+    "item": "minecraft:note_block",
+    "count": 1
+  }
+}
