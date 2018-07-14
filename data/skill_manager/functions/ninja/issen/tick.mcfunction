@@ -13,10 +13,12 @@ scoreboard players operation @e[tag=Issen] ID += @s ID
 scoreboard players remove @s Issen 1
 ###ダメージ判定
 ###一閃ダメージ設定
-execute if score @s ModeSkill matches 21041 if score @s Issen matches 20.. at @s run scoreboard players add @e[distance=..2.5,tag=Mob] Damage 50000
-execute if score @s ModeSkill matches 21042 if score @s Issen matches 20.. at @s run scoreboard players add @e[distance=..2.5,tag=Mob] Damage 80000
-execute if score @s ModeSkill matches 21043 if score @s Issen matches 20.. at @s run scoreboard players add @e[distance=..2.5,tag=Mob] Damage 120000
-execute if score @s ModeSkill matches 21044 if score @s Issen matches 20.. at @s run scoreboard players add @e[distance=..2.5,tag=Mob] Damage 170000
+execute if score @s ModeSkill matches 21041 if score @s Issen matches 20.. at @s run scoreboard players set $Damage Global 80000
+execute if score @s ModeSkill matches 21042 if score @s Issen matches 20.. at @s run scoreboard players set $Damage Global 180000
+execute if score @s ModeSkill matches 21043 if score @s Issen matches 20.. at @s run scoreboard players set $Damage Global 280000
+execute if score @s ModeSkill matches 21044 if score @s Issen matches 20.. at @s run scoreboard players set $Damage Global 360000
+function calc_manager:apply_damage_modifier
+execute if score @s ModeSkill matches 21044 if score @s Issen matches 20.. at @s run scoreboard players operation @e[distance=..2.5,tag=Mob] Damage += $Damage Global
 ###近接被ダメ回避
 execute if score @s Issen matches 20.. at @s run effect give @e[distance=..2.5,tag=Mob] minecraft:weakness 1 127 true
 ###---演出---Start

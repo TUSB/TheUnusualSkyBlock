@@ -55,10 +55,11 @@ scoreboard players set $Damage Global 0
 execute as @e[distance=..6,tag=SkillTarget] run function skill_manager:knight/falcon_slash/calc_damage
 
 ###スキルレベルによるダメージ補正
-execute if score @s ModeSkill matches 21031 run scoreboard players operation $Damage Global *= $20 Const
-execute if score @s ModeSkill matches 21032 run scoreboard players operation $Damage Global *= $40 Const
-execute if score @s ModeSkill matches 21033 run scoreboard players operation $Damage Global *= $80 Const
-execute if score @s ModeSkill matches 21034 run scoreboard players operation $Damage Global *= $140 Const
+execute if score @s ModeSkill matches 21031 run scoreboard players operation $Damage Global *= $50 Const
+execute if score @s ModeSkill matches 21032 run scoreboard players operation $Damage Global *= $120 Const
+execute if score @s ModeSkill matches 21033 run scoreboard players operation $Damage Global *= $250 Const
+execute if score @s ModeSkill matches 21034 run scoreboard players operation $Damage Global *= $500 Const
+function calc_manager:apply_damage_modifier
 
 ###ダメージ付与
 scoreboard players operation @e[distance=..6,tag=SkillTarget,sort=nearest,limit=1] Damage = $Damage Global

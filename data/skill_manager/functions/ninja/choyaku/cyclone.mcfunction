@@ -2,9 +2,14 @@
 ### 跳躍ダメージ
 ##############################
 
+### 5  15  25  35
+###20  90 200 350
 scoreboard players operation $Damage Global = @s Choyaku
-scoreboard players operation $Damage Global *= $Damage Global
-scoreboard players operation $Damage Global *= $50 Const
+scoreboard players operation $Damage Global *= $2 Const
+scoreboard players add $Damage Global 30
+scoreboard players operation $Damage Global *= @s Choyaku
+scoreboard players operation $Damage Global *= $10 Const
+function calc_manager:apply_damage_modifier
 
 scoreboard players operation @e[distance=..5,tag=Mob] Damage += $Damage Global
 

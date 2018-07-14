@@ -218,6 +218,7 @@ scoreboard players set $200 Const 200
 scoreboard players set $250 Const 250
 scoreboard players set $300 Const 300
 scoreboard players set $450 Const 450
+scoreboard players set $500 Const 500
 scoreboard players set $1000 Const 1000
 scoreboard players set $1200 Const 1200
 scoreboard players set $3600 Const 3600
@@ -239,7 +240,7 @@ scoreboard players set $1102 Cost 20
 scoreboard players set $1103 Cost 10
 scoreboard players set $1104 Cost 5
 scoreboard players set $1105 Cost 10
-scoreboard players set $1106 Cost 30
+scoreboard players set $1106 Cost 25
 scoreboard players set $1107 Cost 100
 scoreboard players set $1201 Cost 20
 scoreboard players set $1202 Cost 25
@@ -260,7 +261,7 @@ scoreboard players set $2204 Cost 20
 scoreboard players set $2205 Cost 10
 scoreboard players set $2206 Cost 40
 scoreboard players set $2207 Cost 30
-scoreboard players set $2208 Cost 50
+scoreboard players set $2208 Cost 80
 scoreboard players set $2209 Cost 30
 ##狩人
 scoreboard players set $3101 Cost 15

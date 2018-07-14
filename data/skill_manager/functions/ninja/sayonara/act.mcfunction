@@ -20,17 +20,17 @@ execute if score $Damage Global matches 100 run tag @s add Raise
 ###絡繰オーラ時補正
 execute if score @s ModeSkill matches 21062 run scoreboard players operation $Distance Global *= $2 Const
 
-###ダメージ付与/最大 1500 * 3 + 1500 * 2 + 1500 = 9000
+###ダメージ付与/最大 900 * 3 + 900 * 2 + 900 = 5400
 scoreboard players operation $Damage Global *= $Damage Global
-scoreboard players operation $Damage Global *= $15 Const
-execute if score $Distance Global matches 60.. run scoreboard players operation @e[distance=..10,tag=Mob] Damage += $Damage Global
-execute if score $Distance Global matches 30.. run scoreboard players operation @e[distance=..10,tag=Mob] Damage += $Damage Global
-execute if score $Distance Global matches 00.. run scoreboard players operation @e[distance=..10,tag=Mob] Damage += $Damage Global
+scoreboard players operation $Damage Global *= $9 Const
+execute if score $Distance Global matches 60.. run scoreboard players operation @e[distance=..7,tag=Mob] Damage += $Damage Global
+execute if score $Distance Global matches 30.. run scoreboard players operation @e[distance=..7,tag=Mob] Damage += $Damage Global
+execute if score $Distance Global matches 00.. run scoreboard players operation @e[distance=..7,tag=Mob] Damage += $Damage Global
 scoreboard players operation $Distance Global /= $2 const
-execute if score $Distance Global matches 35.. run scoreboard players operation @e[distance=..20,tag=Mob] Damage += $Damage Global
-execute if score $Distance Global matches 20.. run scoreboard players operation @e[distance=..20,tag=Mob] Damage += $Damage Global
+execute if score $Distance Global matches 35.. run scoreboard players operation @e[distance=..14,tag=Mob] Damage += $Damage Global
+execute if score $Distance Global matches 20.. run scoreboard players operation @e[distance=..14,tag=Mob] Damage += $Damage Global
 scoreboard players operation $Distance Global /= $2 const
-execute if score $Distance Global matches 20.. run scoreboard players operation @e[distance=..30,tag=Mob] Damage += $Damage Global
+execute if score $Distance Global matches 20.. run scoreboard players operation @e[distance=..21,tag=Mob] Damage += $Damage Global
 
 ###レイズ適用
 execute if entity @s[tag=Raise] run function skill_manager:white_mage/araise/raise

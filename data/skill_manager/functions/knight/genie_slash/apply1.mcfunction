@@ -8,7 +8,7 @@ particle minecraft:sweep_attack ~ ~1 ~ 0 0 0 5 2 force
 particle minecraft:lava ~ ~1 ~ 0.2 1 0.2 0 30
 ###---演出---End
 
-effect give @s minecraft:weakness 15 100
+effect give @s minecraft:weakness 30 100
 tp @s ~ ~-2 ~
 data merge entity @s {Motion:[0d,1.5d,0d]}
 scoreboard players set $Damage Global 240000
