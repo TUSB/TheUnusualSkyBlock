@@ -28,6 +28,7 @@ scoreboard objectives add UseLingerPotion minecraft.used:minecraft.lingering_pot
 scoreboard objectives add Jump minecraft.custom:minecraft.jump {"text":"ジャンプ"}
 scoreboard objectives add Deaths minecraft.custom:minecraft.deaths {"text":"死亡"}
 scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game {"text":"ログインフラグ"}
+scoreboard objectives add OpenEnderChest minecraft.custom:minecraft.open_enderchest {"text":"エンダーチェストを開いた回数"}
 ###変数や定数、カウンタ
 scoreboard objectives add Global dummy {"text":"グローバル変数"}
 scoreboard objectives add Const dummy {"text":"定数"}

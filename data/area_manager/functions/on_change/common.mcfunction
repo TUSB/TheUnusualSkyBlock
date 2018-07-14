@@ -16,5 +16,5 @@ execute if entity @s[gamemode=!creative,gamemode=!spectator] if score $FindView 
 title @s times 30 40 40
 
 ###テーブルマウンテン用エンダーチェスト管理
-scoreboard players set @s[tag=ResetEnderChest] EnderChestOpened 0
+scoreboard players reset @s[tag=ResetEnderChest] OpenEnderChest
 tag @s[tag=ResetEnderChest] remove ResetEnderChest

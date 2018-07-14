@@ -4,7 +4,7 @@
 
 ###インベントリチェック
 tag @s[nbt={Inventory:[{}]}] add ContainsItem
-tag @s[nbt={EnderItems:[{}]}] add ContainsItem
+tag @s[scores={OpenEnderChest=1..},nbt={EnderItems:[{}]}] add ContainsItem
 tp @s[tag=ContainsItem] 134 52 -452 180 0
 tellraw @s[tag=ContainsItem] {"text":"エンダーチェスト内を含む\nアイテム持ち込み禁止エリアです！","color":"red","bold":"true"}
 
