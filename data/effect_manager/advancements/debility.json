@@ -3,8 +3,8 @@
         "icon": {
             "item": "minecraft:command_block"
         },
-        "title": "毒ダメージ",
-        "description": "毒でダメージを受けた",
+        "title": "DoT",
+        "description": "スリップダメージを受けた",
         "show_toast": false,
         "announce_to_chat": false
     },
@@ -13,9 +13,7 @@
             "trigger": "minecraft:entity_hurt_player",
             "conditions": {
                 "damage": {
-                    "type": {
-                        "is_magic": "true"
-                    }
+                    "dealt": 1.0
                 }
             }
         }

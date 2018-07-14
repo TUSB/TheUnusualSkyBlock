@@ -59,7 +59,6 @@ execute as @e[tag=HasSkill] at @s run function skill_manager:enemy/count
 
 ### 特殊状態異常回復
 execute as @a[tag=Burn,nbt={Fire:-20s}] at @s run function effect_manager:burn/cure
-execute as @a[tag=Debility,nbt=!{ActiveEffects:[{Id:19b}]}] at @s run function effect_manager:debility/cure
 execute as @a[scores={VirusCount=0..}] at @s run function effect_manager:virus/tick
 execute as @a[scores={ConfuseCount=0..}] at @s run function effect_manager:confuse/tick
 

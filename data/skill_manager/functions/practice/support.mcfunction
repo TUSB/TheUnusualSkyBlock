@@ -63,6 +63,9 @@ execute if score @s SupportSkill matches 22081..22089 run function skill_manager
 ### 風切
 execute if score @s SupportSkill matches 22091..22099 run function skill_manager:ninja/kazakiri/act
 
+### 照明弾
+execute if score @s SupportSkill matches 32011..32019 run function skill_manager:hunter/flare_bomb/act
+
 ### キアリク
 execute if score @s SupportSkill matches 42011..42019 run function skill_manager:white_mage/clear/act
 
