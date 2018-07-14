@@ -17,11 +17,11 @@ data merge entity @e[distance=..5,type=minecraft:potion,tag=!Initialized,sort=ne
 ###投擲スキル設定
 scoreboard players operation @e[distance=..5,type=minecraft:snowball,tag=!Initialized,sort=nearest,limit=1] ProjectileSkill = @s ModeSkill
 ###ダメージ保存
-execute if score @s ModeSkill matches 21011 positioned ~ ~1.52 ~ run scoreboard players set $Damage Global 1000
-execute if score @s ModeSkill matches 21012 positioned ~ ~1.52 ~ run scoreboard players set $Damage Global 2200
-execute if score @s ModeSkill matches 21013 positioned ~ ~1.52 ~ run scoreboard players set $Damage Global 4500
-execute if score @s ModeSkill matches 21014 positioned ~ ~1.52 ~ run scoreboard players set $Damage Global 7000
-execute if score @s ModeSkill matches 21015 positioned ~ ~1.52 ~ run scoreboard players set $Damage Global 12500
+execute if score @s ModeSkill matches 21011 run scoreboard players set $Damage Global 10000
+execute if score @s ModeSkill matches 21012 run scoreboard players set $Damage Global 22000
+execute if score @s ModeSkill matches 21013 run scoreboard players set $Damage Global 45000
+execute if score @s ModeSkill matches 21014 run scoreboard players set $Damage Global 70000
+execute if score @s ModeSkill matches 21015 run scoreboard players set $Damage Global 125000
 function calc_manager:apply_damage_modifier
 
-execute if score @s ModeSkill matches 21015 positioned ~ ~1.52 ~ run scoreboard players operation @e[distance=..5,type=minecraft:snowball,tag=!Initialized,sort=nearest,limit=1] SkillAttribute = $Damage Global
+execute positioned ~ ~1.52 ~ run scoreboard players operation @e[distance=..5,type=minecraft:snowball,tag=!Initialized,sort=nearest,limit=1] SkillAttribute = $Damage Global
