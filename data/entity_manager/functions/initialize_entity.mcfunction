@@ -50,7 +50,7 @@ tag @s[type=minecraft:spectral_arrow] add Projectile
 tag @s[type=minecraft:trident] add Projectile
 tag @s[type=minecraft:wither_skull] add Projectile
 tag @s[type=minecraft:experience_bottle] add Projectile
-tag @s[tag=Projectile] add TickingRequired
+tag @s[tag=Projectile,tag=!Cargo] add TickingRequired
 tag @s[tag=Projectile] add FlyingRequired
 data merge entity @s[tag=TickingRequired,nbt={PortalCooldown:0}] {PortalCooldown:200}
 
