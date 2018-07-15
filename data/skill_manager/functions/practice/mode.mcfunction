@@ -72,6 +72,9 @@ execute if score @s ActiveSkill matches 31021..31029 run function skill_manager:
 ### 狩人＜バードストライク＞
 execute if score @s ActiveSkill matches 31031..31039 run function skill_manager:hunter/bird_strike/act
 
+### 狩人＜ワイルドヒーリング＞
+execute if score @s ActiveSkill matches 31041..31049 run function skill_manager:hunter/wild_healing/act
+
 ### 狩人＜ワイルドフレア＞
 execute if score @s ActiveSkill matches 31051..31059 run function skill_manager:hunter/blast_spark/act
 

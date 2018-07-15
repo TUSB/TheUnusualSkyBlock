@@ -23,7 +23,7 @@ execute store success score $ResistFlag Global if score $Random Global < @s Resi
 ### 盲目
 function calc_manager:update_random
 scoreboard players operation $Random Global %= $100 Const
-execute store success score $ResistFlag Global if score $Random Global < @s ResistEffects if entity @s[advancements={effect_manager:bad_effects={blindness=true}}] run effect clear @s minecraft:blindness 
+execute store success score $ResistFlag Global if score $Random Global < @s ResistEffects if entity @s[advancements={effect_manager:bad_effects={blindness=true}}] run effect clear @s minecraft:blindness
 ### 空腹
 function calc_manager:update_random
 scoreboard players operation $Random Global %= $100 Const

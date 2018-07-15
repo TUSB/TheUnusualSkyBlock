@@ -37,11 +37,12 @@ execute as @a[scores={UseCarrotStick=1..}] at @s run function trigger_manager:ca
 execute as @a[scores={DamageDealt=0..}] at @s run function trigger_manager:damage_dealt
 execute as @a[scores={DamageTaken=0..}] at @s run function trigger_manager:damage_taken
 execute as @a[scores={SprintOneCm=1..}] at @s run function trigger_manager:sprint
-execute as @a[scores={SneakTime=1..}] at @s run function trigger_manager:sneak
 execute as @e[scores={UseSplashPotion=1..}] at @s run function trigger_manager:splash_potion
 execute as @e[scores={UseLingerPotion=1..}] at @s run function trigger_manager:lingering_potion
 execute as @a[scores={Jump=1..}] at @s run function trigger_manager:jump
 execute as @a[scores={Deaths=1..}] at @s run function trigger_manager:death
+execute as @a[scores={FoodLevel=1..}] at @s run function trigger_manager:food_preview
+execute as @a[scores={SneakTime=1..}] at @s run function trigger_manager:sneak
 
 ###ブラストスパーク継続
 execute as @a[scores={BlastSpark=1..}] at @s run function skill_manager:hunter/blast_spark/tick
@@ -60,6 +61,9 @@ execute as @a if score @s CarrotTick matches 0 run scoreboard players set @s Car
 ###MP不足表示
 execute as @a[scores={ActiveCost=1..}] if score @s MP < @s ActiveCost run playsound minecraft:block.fire.extinguish master @s ~ ~ ~ 1 2
 scoreboard players reset @s ActiveCost
+
+###満腹度処理
+execute as @a[scores={FoodLevel=1..}] at @s run function trigger_manager:food
 
 ###エンティティ発生時処理
 execute as @e[tag=!Initialized] at @s run function entity_manager:initialize_entity
@@ -122,7 +126,7 @@ kill @e[tag=Garbage]
 execute as @a run function skill_manager:update_mp
 
 ###カスタムHP回復
-execute as @a[scores={HealthHealing=1..}] run function effect_manager:health_healing
+execute as @a[scores={HealthHealing=-2147483648..}] run function effect_manager:health_healing
 
 ###スキル設定表示
 execute as @a if score @s ChangeModeRed matches 1..9 run function skill_manager:change_skill/list/mode/red

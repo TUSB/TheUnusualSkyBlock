@@ -29,6 +29,8 @@ scoreboard objectives add Jump minecraft.custom:minecraft.jump {"text":"ジャ�
 scoreboard objectives add Deaths minecraft.custom:minecraft.deaths {"text":"死亡"}
 scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game {"text":"ログインフラグ"}
 scoreboard objectives add OpenEnderChest minecraft.custom:minecraft.open_enderchest {"text":"エンダーチェストを開いた回数"}
+scoreboard objectives add FoodLevel food {"text":"満腹度"}
+scoreboard objectives add LastFoodLevel dummy {"text":"直前満腹度"}
 ###変数や定数、カウンタ
 scoreboard objectives add Global dummy {"text":"グローバル変数"}
 scoreboard objectives add Const dummy {"text":"定数"}
@@ -154,6 +156,8 @@ scoreboard objectives add SkillHurtTime dummy {"text":"スキルダメージ無�
 scoreboard objectives add EnemySkillSpan dummy {"text":"敵スキル使用間隔"}
 
 ###定数
+scoreboard players set $-3 Const -3
+scoreboard players set $-2 Const -2
 scoreboard players set $-1 Const -1
 scoreboard players set $0 Const 0
 scoreboard players set $1 Const 1
