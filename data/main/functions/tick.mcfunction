@@ -28,7 +28,7 @@ execute as @e[tag=DelayedTask] at @s run function main:delayed_task
 ###ログイン時処理
 execute as @a[scores={LeaveGame=1..}] at @s run function trigger_manager:leave_game
 ###スキルインターバル処理
-scoreboard players remove @a[scores={SkillInterval=1..}] SkillInterval 1
+execute as @a[scores={SkillInterval=1..}] at @s run function skill_manager:update_interval
 ###ここからモード処理を入れる（エンティティ発生処理に割り込めるのでやりやすい）
 execute as @a[scores={CarrotTick=1..}] at @s run function trigger_manager:carrot_continue
 execute as @a[scores={UseSnowball=1..}] at @s run function trigger_manager:snowball

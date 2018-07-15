@@ -1,38 +1,38 @@
 ##############################
-### 兎肉
+### 茶キノコ
 ##############################
 
-#兎肉ー兎肉　　　 30-スキル/4%
-#　　ー失敗料理　 30-スキル/4%
-#　　ー焼き兎肉　 40+スキル/2%　 ー焼き兎肉　 90
-#　　　　　　　　　　　　　　  ー兎シチュー 10
+#茶キノコ－茶キノコ　　　 60-スキル/8%
+#　　　　－失敗料理　　　 20-スキル/8%
+#　　　　ー赤キノコ  　　 20+スキル/4% ー赤キノコ　　　 90
+#　　　　　 　　　　　　　　　　　　　　ーキノコシチュー 10
 
-clear @s minecraft:rabbit 1
+clear @s minecraft:brown_mushroom 1
 
 function calc_manager:update_random
 scoreboard players operation $Random Global %= $1000 Const
 scoreboard players operation $Threshold Global = $Random Global
 scoreboard players remove $Threshold Global 1000
 
-scoreboard players add $Threshold Global 300
+scoreboard players add $Threshold Global 600
 scoreboard players operation $Modifier Global = @s CookingSkill
-scoreboard players operation $Modifier Global /= $4 Const
+scoreboard players operation $Modifier Global /= $8 Const
 scoreboard players operation $Threshold Global -= $Modifier Global
-execute if score $Give Global matches 0 if score $Threshold Global matches 0.. run give @s minecraft:rabbit 1
+execute if score $Give Global matches 0 if score $Threshold Global matches 0.. run give @s minecraft:brown_mushroom 1
 execute if score $Give Global matches 0 if score $Threshold Global matches 0.. run function skill_manager:hunter/wild_cooking/direction/nothing
 
-scoreboard players add $Threshold Global 300
+scoreboard players add $Threshold Global 200
 scoreboard players operation $Modifier Global = @s CookingSkill
-scoreboard players operation $Modifier Global /= $4 Const
+scoreboard players operation $Modifier Global /= $8 Const
 scoreboard players operation $Threshold Global -= $Modifier Global
 execute if score $Give Global matches 0 if score $Threshold Global matches 0.. run function skill_manager:hunter/wild_cooking/special
 execute if score $Give Global matches 0 if score $Threshold Global matches 0.. run function skill_manager:hunter/wild_cooking/direction/failure
 
-scoreboard players add $Threshold Global 400
+scoreboard players add $Threshold Global 200
 scoreboard players operation $Modifier Global = @s CookingSkill
-scoreboard players operation $Modifier Global /= $2 Const
+scoreboard players operation $Modifier Global /= $4 Const
 scoreboard players operation $Threshold Global += $Modifier Global
-execute if score $Give Global matches 0 if score $Threshold Global matches 0.. run function skill_manager:hunter/wild_cooking/recipes/chance/rabbit
+execute if score $Give Global matches 0 if score $Threshold Global matches 0.. run function skill_manager:hunter/wild_cooking/recipes/chance/brown_mushroom
 execute if score $Give Global matches 0 if score $Threshold Global matches 0.. if score $Chance Global matches ..-1 run function skill_manager:hunter/wild_cooking/direction/success
 execute if score $Give Global matches 0 if score $Threshold Global matches 0.. if score $Chance Global matches 0.. run function skill_manager:hunter/wild_cooking/direction/success_high_quality
 
