@@ -72,6 +72,9 @@ execute if score @s SupportSkill matches 32021..32029 run function skill_manager
 ### ワイルドクッキング
 execute if score @s SupportSkill matches 32031..32039 run function skill_manager:hunter/wild_cooking/act
 
+### ボミオストラップ
+execute if score @s SupportSkill matches 32041..32049 run function skill_manager:hunter/deceleratle_trap/act
+
 ### エナジーセーブ
 execute if score @s SupportSkill matches 32051..32059 run function skill_manager:hunter/energy_save/act
 
