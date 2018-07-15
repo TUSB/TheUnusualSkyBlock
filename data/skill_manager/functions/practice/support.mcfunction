@@ -7,7 +7,7 @@ execute if score @s SneakTime matches 1.. run function skill_manager:practice/sn
 ###アイサツ補正
 execute if score @s Aisatsu matches 0.. run function skill_manager:ninja/aisatsu/apply
 ###エナジーセーブ補正
-execute if score @s EnergySave matches 0.. run function skill_manager:hunter/energy_save/apply
+execute if score @s EnergySave matches 0.. run function skill_manager:hunter/energy_save/calc
 ###---演出---Start
 execute if score @s MP < @s SupportCost run tellraw @s {"text":"MPが不足しています。","color":"red"}
 execute if score @s MP < @s SupportCost run playsound minecraft:block.fire.extinguish master @s ~ ~ ~ 1 2
@@ -71,6 +71,9 @@ execute if score @s SupportSkill matches 32021..32029 run function skill_manager
 
 ### ワイルドクッキング
 execute if score @s SupportSkill matches 32031..32039 run function skill_manager:hunter/wild_cooking/act
+
+### エナジーセーブ
+execute if score @s SupportSkill matches 32051..32059 run function skill_manager:hunter/energy_save/act
 
 ### キアリク
 execute if score @s SupportSkill matches 42011..42019 run function skill_manager:white_mage/clear/act

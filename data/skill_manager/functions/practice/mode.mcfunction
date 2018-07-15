@@ -10,7 +10,7 @@ scoreboard players operation @s ActiveInterval = @s ModeInterval
 ###アイサツ補正
 execute if score @s Aisatsu matches 0.. run function skill_manager:ninja/aisatsu/apply
 ###エナジーセーブ補正
-execute if score @s EnergySave matches 0.. run function skill_manager:hunter/energy_save/apply
+execute if score @s EnergySave matches 0.. run function skill_manager:hunter/energy_save/calc
 ###---演出---Start
 execute if score @s MP < @s ActiveCost run tellraw @s {"text":"MPが不足しています。","color":"red"}
 execute if score @s MP < @s ActiveCost run playsound minecraft:block.fire.extinguish master @s ~ ~ ~ 1 2
