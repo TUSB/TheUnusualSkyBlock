@@ -13,6 +13,6 @@ scoreboard players set $Give Global 1
 ###スキルアップ
 function calc_manager:update_random
 scoreboard players operation $Random Global %= $100 Const
-execute if score $Random Global matches ..19 unless score @s CookingSkill matches 1000.. run tellraw @s [{"text":"","color":"green"},"調理スキルが",{"text":"0.3","color":"aqua"},"上がった！"]
-execute if score $Random Global matches ..19 unless score @s CookingSkill matches 1000.. run scoreboard players add @s CookingSkill 3
+execute if score $Random Global matches ..14 unless score @s CookingSkill matches 1000.. run tellraw @s [{"text":"","color":"green"},"調理スキルが",{"text":"0.3","color":"aqua"},"上がった！"]
+execute if score $Random Global matches ..14 unless score @s CookingSkill matches 1000.. run scoreboard players add @s CookingSkill 3
 scoreboard players operation @s CookingSkill < $1000 Const

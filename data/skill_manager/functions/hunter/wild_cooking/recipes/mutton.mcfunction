@@ -18,7 +18,7 @@ scoreboard players operation $Modifier Global = @s CookingSkill
 scoreboard players operation $Modifier Global /= $2 Const
 scoreboard players operation $Threshold Global -= $Modifier Global
 execute if score $Give Global matches 0 if score $Threshold Global matches 0.. run give @s minecraft:mutton 1
-execute if score $Give Global matches 0 if score $Threshold Global matches 0.. run function skill_manager:hunter/wild_cooking/direction/failure
+execute if score $Give Global matches 0 if score $Threshold Global matches 0.. run function skill_manager:hunter/wild_cooking/direction/nothing
 
 scoreboard players add $Threshold Global 200
 scoreboard players operation $Modifier Global = @s CookingSkill
