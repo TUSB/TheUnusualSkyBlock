@@ -69,6 +69,9 @@ execute if score @s SupportSkill matches 32011..32019 run function skill_manager
 ### ルカナントラップ
 execute if score @s SupportSkill matches 32021..32029 run function skill_manager:hunter/kasap_trap/act
 
+### ワイルドクッキング
+execute if score @s SupportSkill matches 32031..32039 run function skill_manager:hunter/wild_cooking/act
+
 ### キアリク
 execute if score @s SupportSkill matches 42011..42019 run function skill_manager:white_mage/clear/act
 

@@ -3,7 +3,7 @@
 ##############################
 
 ###向き補正
-execute if entity @s[tag=TowardPlayer] at @p[scores={TimeSinceDeath=1..}] run function calc_manager:get/angle1
+execute if entity @s[tag=TowardPlayer] at @p[gamemode=!spectator,scores={TimeSinceDeath=1..}] run function calc_manager:get/angle1
 execute if entity @s[tag=TowardPlayer] run function calc_manager:set/rotation1
 
 ###地烈斬
