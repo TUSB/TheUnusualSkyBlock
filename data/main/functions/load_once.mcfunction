@@ -132,6 +132,7 @@ scoreboard objectives add CookingSkill dummy {"text":"調理スキル"}
 scoreboard objectives add PiercingAim dummy {"text":"ピアッシングエイム回数"}
 scoreboard objectives add BlastSpark dummy {"text":"ブラストスパーク継続tick数"}
 scoreboard objectives add EnergySave dummy {"text":"エナジーセーブ消費MP減少効果量"}
+scoreboard objectives add RaderVision dummy {"text":"レーダーヴィジョン残りtick数"}
 scoreboard objectives add PillarCount dummy {"text":"セイクリッドピラーダメージ付与上限"}
 scoreboard objectives add PillarDamage dummy {"text":"セイクリッドピラーダメージ"}
 scoreboard objectives add DarkSwamp dummy {"text":"ダークスワンプ回数"}

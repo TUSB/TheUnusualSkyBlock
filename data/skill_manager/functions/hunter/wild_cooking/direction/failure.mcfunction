@@ -10,6 +10,8 @@ title @s title [{"text":"","color":"yellow"},"調理失敗…"]
 
 scoreboard players set $Give Global 1
 
+execute if score @s SupportSkill matches 32032 run scoreboard players operation @s CookingSkill /= $2 Const
+
 ###スキルアップ
 function calc_manager:update_random
 scoreboard players operation $Random Global %= $100 Const

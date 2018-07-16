@@ -3,6 +3,7 @@
 ##############################
 
 scoreboard players set $Give Global 0
+execute if score @s SupportSkill matches 32032 run scoreboard players operation @s CookingSkill *= $2 Const
 
 execute if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:beef"}]}] run function skill_manager:hunter/wild_cooking/recipes/beef
 execute if entity @s[nbt={Inventory:[{Slot:-106b,id:"minecraft:porkchop"}]}] run function skill_manager:hunter/wild_cooking/recipes/porkchop

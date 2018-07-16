@@ -78,6 +78,9 @@ execute if score @s SupportSkill matches 32041..32049 run function skill_manager
 ### エナジーセーブ
 execute if score @s SupportSkill matches 32051..32059 run function skill_manager:hunter/energy_save/act
 
+### レーダーヴィジョン
+execute if score @s SupportSkill matches 32061..32069 run function skill_manager:hunter/rader_vision/act
+
 ### キアリク
 execute if score @s SupportSkill matches 42011..42019 run function skill_manager:white_mage/clear/act
 

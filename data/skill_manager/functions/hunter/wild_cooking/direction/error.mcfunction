@@ -10,3 +10,5 @@ tellraw @a [{"text":"","color":"yellow"},"素材は消えてしまった…"]
 ###---演出---End
 
 scoreboard players set $Give Global 1
+
+execute if score @s SupportSkill matches 32032 run scoreboard players operation @s CookingSkill /= $2 Const

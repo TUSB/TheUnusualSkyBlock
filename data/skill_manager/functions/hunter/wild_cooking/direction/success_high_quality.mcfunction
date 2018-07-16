@@ -11,6 +11,7 @@ title @s title [{"text":"","color":"green"},"調理大成功！"]
 
 scoreboard players set $Give Global 1
 
+execute if score @s SupportSkill matches 32032 run scoreboard players operation @s CookingSkill /= $2 Const
 ###スキルアップ
 execute unless score @s CookingSkill matches 1000.. run tellraw @s [{"text":"","color":"green"},"調理スキルが",{"text":"0.1","color":"aqua"},"上がった！"]
 execute unless score @s CookingSkill matches 1000.. run scoreboard players add @s CookingSkill 1
