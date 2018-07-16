@@ -3,7 +3,7 @@
 ##############################
 
 ### 5  15  25  35
-###20  90 200 350
+###20  90 200 350 25 112.5 250 437.5
 scoreboard players operation $Damage Global = @s Choyaku
 scoreboard players operation $Damage Global *= $2 Const
 scoreboard players add $Damage Global 30

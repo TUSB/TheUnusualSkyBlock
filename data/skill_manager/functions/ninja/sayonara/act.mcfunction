@@ -20,9 +20,9 @@ execute if score $Damage Global matches 100 run tag @s add Raise
 ###絡繰オーラ時補正
 execute if score @s ModeSkill matches 21062 run scoreboard players operation $Distance Global *= $2 Const
 
-###ダメージ付与/最大 900 * 3 + 900 * 2 + 900 = 5400
+###ダメージ付与/最大 3000 * 3 + 3000 * 2 + 3000 = 18000
 scoreboard players operation $Damage Global *= $Damage Global
-scoreboard players operation $Damage Global *= $9 Const
+scoreboard players operation $Damage Global *= $30 Const
 execute if score $Distance Global matches 60.. run scoreboard players operation @e[distance=..7,tag=Mob] Damage += $Damage Global
 execute if score $Distance Global matches 30.. run scoreboard players operation @e[distance=..7,tag=Mob] Damage += $Damage Global
 execute if score $Distance Global matches 00.. run scoreboard players operation @e[distance=..7,tag=Mob] Damage += $Damage Global

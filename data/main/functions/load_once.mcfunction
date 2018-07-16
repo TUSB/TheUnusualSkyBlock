@@ -227,20 +227,46 @@ scoreboard players set $240 Const 240
 scoreboard players set $250 Const 250
 scoreboard players set $300 Const 300
 scoreboard players set $315 Const 315
+scoreboard players set $400 Const 400
 scoreboard players set $450 Const 450
 scoreboard players set $500 Const 500
+scoreboard players set $700 Const 700
+scoreboard players set $800 Const 800
+scoreboard players set $840 Const 840
 scoreboard players set $1000 Const 1000
 scoreboard players set $1200 Const 1200
+scoreboard players set $1500 Const 1500
+scoreboard players set $2000 Const 2000
 scoreboard players set $3600 Const 3600
+scoreboard players set $7000 Const 7000
 scoreboard players set $10000 Const 10000
+scoreboard players set $15000 Const 15000
 scoreboard players set $20000 Const 20000
+scoreboard players set $25000 Const 25000
 scoreboard players set $30000 Const 30000
+scoreboard players set $40000 Const 40000
+scoreboard players set $50000 Const 50000
+scoreboard players set $60000 Const 60000
+scoreboard players set $70000 Const 70000
 scoreboard players set $99999 Const 99999
 scoreboard players set $100000 Const 100000
 scoreboard players set $112000 Const 112000
+scoreboard players set $120000 Const 120000
+scoreboard players set $150000 Const 150000
 scoreboard players set $200000 Const 200000
+scoreboard players set $240000 Const 240000
+scoreboard players set $250000 Const 250000
 scoreboard players set $300000 Const 300000
-scoreboard players set $360000 Global 360000
+scoreboard players set $350000 Const 350000
+scoreboard players set $360000 Const 360000
+scoreboard players set $400000 Const 400000
+scoreboard players set $700000 Const 700000
+scoreboard players set $900000 Const 900000
+scoreboard players set $1000000 Const 1000000
+scoreboard players set $1500000 Const 1500000
+scoreboard players set $1600000 Const 1600000
+scoreboard players set $2000000 Const 2000000
+scoreboard players set $3000000 Const 3000000
 scoreboard players set $MWCBase Const 65536
 scoreboard players set $MWCMultiplier Const 31743
 ###MP一覧
@@ -250,7 +276,7 @@ scoreboard players set $1102 Cost 20
 scoreboard players set $1103 Cost 10
 scoreboard players set $1104 Cost 5
 scoreboard players set $1105 Cost 10
-scoreboard players set $1106 Cost 25
+scoreboard players set $1106 Cost 10
 scoreboard players set $1107 Cost 100
 scoreboard players set $1201 Cost 20
 scoreboard players set $1202 Cost 25
@@ -261,8 +287,8 @@ scoreboard players set $1205 Cost 20
 scoreboard players set $2101 Cost 2
 scoreboard players set $2102 Cost 3
 scoreboard players set $2103 Cost 3
-scoreboard players set $2104 Cost 60
-scoreboard players set $2105 Cost 5
+scoreboard players set $2104 Cost 50
+scoreboard players set $2105 Cost 15
 scoreboard players set $2106 Cost 0
 scoreboard players set $2201 Cost 10
 scoreboard players set $2202 Cost 20
@@ -274,7 +300,7 @@ scoreboard players set $2207 Cost 30
 scoreboard players set $2208 Cost 80
 scoreboard players set $2209 Cost 30
 ##狩人
-scoreboard players set $3101 Cost 15
+scoreboard players set $3101 Cost 5
 scoreboard players set $3102 Cost 15
 scoreboard players set $3103 Cost 15
 scoreboard players set $3104 Cost 5
@@ -284,10 +310,10 @@ scoreboard players set $3107 Cost 100
 scoreboard players set $3201 Cost 10
 scoreboard players set $3202 Cost 20
 scoreboard players set $3203 Cost 5
-scoreboard players set $3204 Cost 30
-scoreboard players set $3205 Cost 10
+scoreboard players set $3204 Cost 20
+scoreboard players set $3205 Cost 30
 scoreboard players set $3206 Cost 50
-scoreboard players set $3207 Cost 40
+scoreboard players set $3207 Cost 10
 scoreboard players set $3208 Cost 40
 ##白魔導士
 scoreboard players set $4101 Cost 10
@@ -398,12 +424,12 @@ scoreboard players set $3105 Interval 20
 scoreboard players set $3106 Interval 100
 scoreboard players set $3107 Interval 0
 scoreboard players set $3201 Interval 0
-scoreboard players set $3202 Interval 100
-scoreboard players set $3203 Interval 20
-scoreboard players set $3204 Interval 40
+scoreboard players set $3202 Interval 60
+scoreboard players set $3203 Interval 100
+scoreboard players set $3204 Interval 60
 scoreboard players set $3205 Interval 40
 scoreboard players set $3206 Interval 200
-scoreboard players set $3207 Interval 200
+scoreboard players set $3207 Interval 60
 scoreboard players set $3208 Interval 60
 ##白魔導士
 scoreboard players set $4101 Interval 10

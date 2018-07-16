@@ -18,11 +18,11 @@ function calc_manager:multiply/pos1
 ###モーションを適用する
 execute as @e[tag=Initializing,limit=1] at @s run function calc_manager:set/motion1
 
-execute if score @s ModeSkill matches 31051 run scoreboard players set $Damage Global 1000
-execute if score @s ModeSkill matches 31052 run scoreboard players set $Damage Global 1500
-execute if score @s ModeSkill matches 31053 run scoreboard players set $Damage Global 2500
+execute if score @s ModeSkill matches 31051 run scoreboard players set $Damage Global 40000
+execute if score @s ModeSkill matches 31052 run scoreboard players set $Damage Global 120000
+execute if score @s ModeSkill matches 31053 run scoreboard players set $Damage Global 200000
 function calc_manager:apply_damage_modifier
 
-execute if score @s ModeSkill matches 0.. run scoreboard players operation @e[tag=Initializing,limit=1] SkillAttribute += $Damage Global
+scoreboard players operation @e[tag=Initializing,limit=1] SkillAttribute += $Damage Global
 
 tag @e[tag=Initializing] remove Initializing

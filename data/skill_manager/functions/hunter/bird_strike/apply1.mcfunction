@@ -2,7 +2,7 @@
 ### バードストライクモブ適用サブファンクション
 ##############################
 
-scoreboard players set $Damage Global 40000
+scoreboard players set $Damage Global 30000
 function calc_manager:apply_damage_modifier
 
 ###ダメージ判定
