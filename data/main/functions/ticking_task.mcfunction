@@ -62,3 +62,4 @@ execute if entity @s[tag=AbyssWarp,y=0,dy=-20] run function enemy_manager:warp
 ###トラップ
 execute if entity @s[tag=KasapTrap] run function skill_manager:hunter/kasap_trap/tick
 execute if entity @s[tag=DeceleratleTrap] run function skill_manager:hunter/deceleratle_trap/tick
+execute if entity @s[tag=ExpelTrap] run function skill_manager:hunter/expel_trap/tick

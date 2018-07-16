@@ -81,6 +81,9 @@ execute if score @s SupportSkill matches 32051..32059 run function skill_manager
 ### レーダーヴィジョン
 execute if score @s SupportSkill matches 32061..32069 run function skill_manager:hunter/rader_vision/act
 
+### ニフラムトラップ
+execute if score @s SupportSkill matches 32081..32089 run function skill_manager:hunter/expel_trap/act
+
 ### キアリク
 execute if score @s SupportSkill matches 42011..42019 run function skill_manager:white_mage/clear/act
 
