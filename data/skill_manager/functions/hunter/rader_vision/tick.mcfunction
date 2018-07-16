@@ -15,6 +15,3 @@ execute if score @s RaderVision matches 2 run function skill_manager:hunter/rade
 
 ### 復帰
 execute if score @s RaderVision matches 0 run function skill_manager:hunter/rader_vision/return
-
-say @e[tag=RaderVisionPoint]
-say @e[type=arrow]

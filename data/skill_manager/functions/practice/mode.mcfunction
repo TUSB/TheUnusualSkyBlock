@@ -81,6 +81,9 @@ execute if score @s ActiveSkill matches 31051..31059 run function skill_manager:
 ### 狩人＜ワイルドフレア＞
 execute if score @s ActiveSkill matches 31061..31069 run function skill_manager:hunter/wild_flare/act
 
+### 狩人＜フォトニックレーザー＞
+execute if score @s ActiveSkill matches 31071..31079 run function skill_manager:hunter/photonic_lazer/act
+
 ### 白魔導士＜セイクリッドピラー＞
 execute if score @s ActiveSkill matches 41041..41049 run function skill_manager:white_mage/sacred_pillar/act
 

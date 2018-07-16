@@ -42,4 +42,4 @@ execute if score $ChangeModeNo Global matches 3106 if score @s ChangeLevel match
 ###フェイタルショット
 execute if score $ChangeModeNo Global matches 3107 run scoreboard players operation $ChangeModeCost Global = $3107 Cost
 execute if score $ChangeModeNo Global matches 3107 run scoreboard players operation $ChangeModeInterval Global = $3107 Interval
-execute if score $ChangeModeNo Global matches 3107 if score @s ChangeLevel matches 50.. run scoreboard players set $ChangeModeNo Global 31072
+execute if score $ChangeModeNo Global matches 3107 if score @s ChangeLevel matches 50.. run scoreboard players set $ChangeModeNo Global 31071

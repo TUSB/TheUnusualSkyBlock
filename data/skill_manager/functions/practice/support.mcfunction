@@ -67,13 +67,13 @@ execute if score @s SupportSkill matches 22091..22099 run function skill_manager
 execute if score @s SupportSkill matches 32011..32019 run function skill_manager:hunter/flare_bomb/act
 
 ### ルカナントラップ
-execute if score @s SupportSkill matches 32021..32029 run function skill_manager:hunter/kasap_trap/act
+execute if score @s SupportSkill matches 32021..32029 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:hunter/kasap_trap/act
 
 ### ワイルドクッキング
 execute if score @s SupportSkill matches 32031..32039 run function skill_manager:hunter/wild_cooking/act
 
 ### ボミオストラップ
-execute if score @s SupportSkill matches 32041..32049 run function skill_manager:hunter/deceleratle_trap/act
+execute if score @s SupportSkill matches 32041..32049 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:hunter/deceleratle_trap/act
 
 ### エナジーセーブ
 execute if score @s SupportSkill matches 32051..32059 run function skill_manager:hunter/energy_save/act
@@ -81,17 +81,17 @@ execute if score @s SupportSkill matches 32051..32059 run function skill_manager
 ### レーダーヴィジョン
 execute if score @s SupportSkill matches 32061..32069 run function skill_manager:hunter/rader_vision/act
 
+### ピアッシングエイム
+execute if score @s SupportSkill matches 32071..32079 run function skill_manager:hunter/piercing_aim/act
+
 ### ニフラムトラップ
-execute if score @s SupportSkill matches 32081..32089 run function skill_manager:hunter/expel_trap/act
+execute if score @s SupportSkill matches 32081..32089 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:hunter/expel_trap/act
 
 ### キアリク
 execute if score @s SupportSkill matches 42011..42019 run function skill_manager:white_mage/clear/act
 
 ### ダークスワンプ
-execute if score @s SupportSkill matches 52071..52079 run function skill_manager:black_mage/dark_swamp/act
-
-### ピアッシングエイム
-execute if score @s SupportSkill matches 32071..32079 run function skill_manager:hunter/piercing_aim/act
+execute if score @s SupportSkill matches 52071..52079 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:black_mage/dark_swamp/act
 
 ### スノウチャージ
 execute if score @s SupportSkill matches 82011..82019 run function skill_manager:common/snow_charge/act

@@ -23,6 +23,8 @@ execute if entity @s[tag=StakesFailed] run function skill_manager:hunter/stakes_
 execute if entity @s[tag=BirdStrike] run function skill_manager:hunter/bird_strike/tick
 ###ワイルドフレア継続処理
 execute if entity @s[tag=WildFlare] run function skill_manager:hunter/wild_flare/tick
+###フォトニックレーザー
+execute if entity @s[tag=PhotonicLazer] run function skill_manager:hunter/photonic_lazer/tick
 ###セイクリッドピラー処理
 execute if entity @s[tag=RaisePoint] run function skill_manager:white_mage/araise/tick
 ###セイクリッドピラー処理

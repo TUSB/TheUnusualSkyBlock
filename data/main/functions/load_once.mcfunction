@@ -133,6 +133,7 @@ scoreboard objectives add PiercingAim dummy {"text":"ピアッシングエイム
 scoreboard objectives add BlastSpark dummy {"text":"ブラストスパーク継続tick数"}
 scoreboard objectives add EnergySave dummy {"text":"エナジーセーブ消費MP減少効果量"}
 scoreboard objectives add RaderVision dummy {"text":"レーダーヴィジョン残りtick数"}
+scoreboard objectives add PhotonicTick dummy {"text":"フォトニックレーザー演出用タイマー"}
 scoreboard objectives add PillarCount dummy {"text":"セイクリッドピラーダメージ付与上限"}
 scoreboard objectives add PillarDamage dummy {"text":"セイクリッドピラーダメージ"}
 scoreboard objectives add DarkSwamp dummy {"text":"ダークスワンプ回数"}
@@ -225,6 +226,7 @@ scoreboard players set $200 Const 200
 scoreboard players set $240 Const 240
 scoreboard players set $250 Const 250
 scoreboard players set $300 Const 300
+scoreboard players set $315 Const 315
 scoreboard players set $450 Const 450
 scoreboard players set $500 Const 500
 scoreboard players set $1000 Const 1000
