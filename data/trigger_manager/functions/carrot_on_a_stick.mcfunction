@@ -6,6 +6,9 @@
 scoreboard players add @s CarrotContinue 1
 scoreboard players set @s CarrotTick 5
 
+### 白魔導士＜ケアル＞
+execute if score @s ModeSkill matches 41011..41019 run scoreboard players operation @s ActiveSkill = @s ModeSkill
+
 ### 白魔導士＜セイクリッドピラー＞
 execute if score @s ModeSkill matches 41041..41049 run scoreboard players operation @s ActiveSkill = @s ModeSkill
 

@@ -13,7 +13,10 @@
             "trigger": "minecraft:entity_hurt_player",
             "conditions": {
                 "damage": {
-                    "dealt": 1.0
+                    "dealt": 1.0,
+                    "type": {
+                        "is_fire": "false"
+                    }
                 }
             }
         }

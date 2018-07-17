@@ -316,7 +316,7 @@ scoreboard players set $3206 Cost 50
 scoreboard players set $3207 Cost 10
 scoreboard players set $3208 Cost 25
 ##白魔導士
-scoreboard players set $4101 Cost 10
+scoreboard players set $4101 Cost 5
 scoreboard players set $4102 Cost 10
 scoreboard players set $4103 Cost 30
 scoreboard players set $4104 Cost 20
@@ -432,7 +432,7 @@ scoreboard players set $3206 Interval 200
 scoreboard players set $3207 Interval 60
 scoreboard players set $3208 Interval 60
 ##白魔導士
-scoreboard players set $4101 Interval 10
+scoreboard players set $4101 Interval 0
 scoreboard players set $4102 Interval 0
 scoreboard players set $4103 Interval 20
 scoreboard players set $4104 Interval 80
