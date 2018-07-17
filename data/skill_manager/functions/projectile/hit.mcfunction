@@ -17,8 +17,8 @@ execute if score @s ProjectileSkill matches 31011..31019 run function skill_mana
 ### チェインアロー
 execute if score @s ProjectileSkill matches 31021..31029 run function skill_manager:hunter/chain_arrow/hit
 
-### セイクリッドピラー
-execute if score @s ProjectileSkill matches 51041..51049 run function skill_manager:white_mage/sacred_pillar/direct
+### ディア
+execute if score @s ProjectileSkill matches 41021..41029 run function skill_manager:white_mage/dia/hit
 
 ### ぽむぽむ花火
 execute if score @s ProjectileSkill matches 61081..61089 run function skill_manager:summoner/pompom/direct

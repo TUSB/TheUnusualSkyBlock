@@ -47,6 +47,7 @@ scoreboard objectives add ResistLock dummy {"text":"状態異常回避時ロッ�
 scoreboard objectives add CharmCount dummy {"text":"魅了カウント"}
 scoreboard objectives add BlinkCount dummy {"text":"幻影カウント"}
 scoreboard objectives add BlinkTick dummy {"text":"残影tick"}
+scoreboard objectives add Settings dummy {"text":"設定"}
 ###ID系
 scoreboard objectives add ID dummy {"text":"紐付けID"}
 scoreboard objectives add Dimension dummy {"text":"ディメンション"}
@@ -111,6 +112,8 @@ scoreboard objectives add ProjectileSkill dummy {"text":"飛翔物付与スキ�
 scoreboard objectives add SkillAttribute dummy {"text":"スキル付加情報"}
 scoreboard objectives add CarrotContinue dummy {"text":"人参棒連続カウント"}
 scoreboard objectives add CarrotTick dummy {"text":"人参棒使用LastTick"}
+scoreboard objectives add CritProbability dummy {"text":"クリティカルヒット確率"}
+scoreboard objectives add CritRate dummy {"text":"クリティカルヒットダメージレート"}
 ###スキル個別系
 scoreboard objectives add FalconDamage dummy {"text":"はやぶさ斬り用ダメージ保存値"}
 scoreboard objectives add FalconHP dummy {"text":"はやぶさ斬り用敵HP"}

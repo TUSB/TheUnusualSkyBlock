@@ -22,4 +22,4 @@ tellraw @s[scores={ShowSkillNo=31052}] ["",{"text":"・ブラストスパーク�
 tellraw @s[scores={ShowSkillNo=31061}] ["",{"text":"・ワイルドフレア","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
 tellraw @s[scores={ShowSkillNo=31062}] ["",{"text":"・ワイルドフレアⅡ","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
 ###モード７(50スキル)
-tellraw @s[scores={ShowSkillNo=31071}] ["",{"text":"・フェイタルショット","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
+tellraw @s[scores={ShowSkillNo=31071}] ["",{"text":"・フォトニックレーザー","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]

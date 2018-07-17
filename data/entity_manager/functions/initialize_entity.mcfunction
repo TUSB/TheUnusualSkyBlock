@@ -92,6 +92,7 @@ tag @s[tag=Mob,nbt={Invulnerable:true}] remove Mob
 tag @s[nbt={NoAI:true}] add NoAI
 team join Enemy @s[tag=Mob]
 
+execute as @s[tag=Mob] run function entity_manager:modify_mob
 
 execute if entity @s[tag=HasSkill] store result score @s EnemySkillSpan run data get entity @s Attributes[1].Modifiers[0].Amount 1
 

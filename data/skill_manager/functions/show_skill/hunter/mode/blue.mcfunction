@@ -16,10 +16,11 @@ tellraw @s[scores={ShowSkillNo=31031}] ["",{"text":"・バードストライク"
 tellraw @s[scores={ShowSkillNo=31041}] ["",{"text":"・ワイルドヒーリング","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
 tellraw @s[scores={ShowSkillNo=31042}] ["",{"text":"・ワイルドヒーリング＋","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
 ###モード５
+
 tellraw @s[scores={ShowSkillNo=31051}] ["",{"text":"・ブラストスパーク","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
 tellraw @s[scores={ShowSkillNo=31052}] ["",{"text":"・ブラストスパークⅡ","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
 ###モード６
 tellraw @s[scores={ShowSkillNo=31061}] ["",{"text":"・ワイルドフレア","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
 tellraw @s[scores={ShowSkillNo=31062}] ["",{"text":"・ワイルドフレアⅡ","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
 ###モード７(50スキル)
-tellraw @s[scores={ShowSkillNo=31071}] ["",{"text":"・フェイタルショット","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
+tellraw @s[scores={ShowSkillNo=31071}] ["",{"text":"・フォトニックレーザー","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]

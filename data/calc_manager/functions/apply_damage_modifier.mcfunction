@@ -12,3 +12,4 @@ function calc_manager:update_random
 scoreboard players operation $Random Global %= $100 Const
 execute if score $Random Global < @s CritProbability run scoreboard players operation $Damage Global *= @s CritRate
 execute if score $Random Global < @s CritProbability run scoreboard players operation $Damage Global /= $100 Const
+execute if score $Debug Settings matches 1 if score $Random Global < @s CritProbability run say クリティカル！
