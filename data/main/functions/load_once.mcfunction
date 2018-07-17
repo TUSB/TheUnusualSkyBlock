@@ -308,13 +308,13 @@ scoreboard players set $3105 Cost 15
 scoreboard players set $3106 Cost 25
 scoreboard players set $3107 Cost 100
 scoreboard players set $3201 Cost 10
-scoreboard players set $3202 Cost 20
+scoreboard players set $3202 Cost 25
 scoreboard players set $3203 Cost 5
-scoreboard players set $3204 Cost 20
+scoreboard players set $3204 Cost 25
 scoreboard players set $3205 Cost 30
 scoreboard players set $3206 Cost 50
 scoreboard players set $3207 Cost 10
-scoreboard players set $3208 Cost 40
+scoreboard players set $3208 Cost 25
 ##白魔導士
 scoreboard players set $4101 Cost 10
 scoreboard players set $4102 Cost 10
@@ -383,8 +383,8 @@ scoreboard players set $7208 Cost 50
 scoreboard players set $7209 Cost 10
 ###共通
 scoreboard players set $8101 Cost 5
-scoreboard players set $8102 Cost 1
-scoreboard players set $8201 Cost 10
+scoreboard players set $8102 Cost 5
+scoreboard players set $8201 Cost 5
 ###スキル使用不能時間一覧
 ##剣士
 scoreboard players set $1101 Interval 30
@@ -499,8 +499,8 @@ scoreboard players set $7208 Interval 100
 scoreboard players set $7209 Interval 40
 ###共通
 scoreboard players set $8101 Interval 0
-scoreboard players set $8102 Interval 0
-scoreboard players set $8201 Interval 10
+scoreboard players set $8102 Interval 10
+scoreboard players set $8201 Interval 0
 ###バースト初期化
 scoreboard players set #Aura MP 10000
 ###イベントタイマー初期化
