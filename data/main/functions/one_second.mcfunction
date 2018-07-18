@@ -14,7 +14,7 @@ execute as @a[scores={DoomCount=1..}] run function effect_manager:doom/proceed
 
 ### トカルト処理
 scoreboard players remove @a[scores={Dimension=16}] TorchCount 1
-execute as @a[scores={TorchCount=..0}] run function item_manager:tocult_torch
+execute unless score $Debug Settings matches 1.. as @a[scores={TorchCount=..0}] run function item_manager:tocult_torch
 
 ### 停止飛翔物削除
 execute as @e[tag=TickingRequired] run function entity_manager:check_freeze

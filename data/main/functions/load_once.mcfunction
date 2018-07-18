@@ -523,7 +523,7 @@ scoreboard objectives setdisplay sidebar MP
 team add NoCollision {"text":"衝突判定なし"}
 team modify NoCollision collisionRule never
 team add Friendly {"text":"味方チーム"}
-team modify Friendly friendlyfire false
+team modify Friendly friendlyFire false
 team modify Friendly collisionRule never
 team modify Friendly color white
 #team modify Friendly prefix {"text":"☘","color":"green"}
@@ -533,7 +533,7 @@ team modify Friendly suffix {"text":"✦","color":"red"}
 team join Friendly バースト
 team add Enemy {"text":"敵チーム"}
 team modify Enemy color white
-team modify Enemy friendlyfire false
+team modify Enemy friendlyFire false
 
 ###ボスバー作成
 bossbar add enemy_health {"text":"HP","color":"green"}
