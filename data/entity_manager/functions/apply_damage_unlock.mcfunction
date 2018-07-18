@@ -19,7 +19,7 @@ execute if score $Random Global matches 10.. if score @s BlinkCount matches 1.. 
 execute store result score $Health Global run data get entity @s AbsorptionAmount 100
 scoreboard players operation $Health Global -= @s Damage
 execute store result entity @s AbsorptionAmount float 0.01 run scoreboard players get $Health Global
-execute if score $Debug Settings matches 1 run tellraw @a ["[デバッグ] ",{"selector":"@s"},"に ",{"score":{"name":"@s","objective":"Damage"},"color":"aqua"}," ダメージ！"]
+execute if score $Debug Settings matches 1 run function calc_manager:tellraw/show_damage
 
 ###ダメージ演出 ※変更禁止
 execute unless entity @s[nbt={AbsorptionAmount:0f}] run summon minecraft:snowball ~ ~300 ~ {Tags:[DamageBall]}
