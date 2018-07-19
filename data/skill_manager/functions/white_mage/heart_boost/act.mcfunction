@@ -2,10 +2,11 @@
 ### ハートブースト発動
 ##############################
 
-###ディア設定
-tag @e[distance=..5,type=minecraft:snowball,tag=!Initialized,sort=nearest,limit=1] add Dia
-scoreboard players operation @e[distance=..5,type=minecraft:snowball,tag=!Initialized,sort=nearest,limit=1] ProjectileSkill = @s ModeSkill
-scoreboard players operation @e[distance=..5,type=minecraft:snowball,tag=!Initialized,sort=nearest,limit=1] SkillAttribute = $Damage Global
+###ハートブースト設定
+execute if score @s SupportSkill matches 42021 run effect give @a[distance=..10] minecraft:absorption 180 4
+execute if score @s SupportSkill matches 42022 run effect give @a[distance=..10] minecraft:absorption 180 9
+execute if score @s SupportSkill matches 42023 run effect give @a[distance=..10] minecraft:absorption 180 14
+execute if score @s SupportSkill matches 42024 run effect give @a[distance=..10] minecraft:absorption 180 24
 
 ###---演出---Start
 ###---演出---End

@@ -90,6 +90,9 @@ execute if score @s SupportSkill matches 32081..32089 at @e[tag=Egg,distance=..6
 ### キアリク
 execute if score @s SupportSkill matches 42011..42019 run function skill_manager:white_mage/clear/act
 
+### ハートブースト
+execute if score @s SupportSkill matches 42021..42029 run function skill_manager:white_mage/heart_boost/act
+
 ### ダークスワンプ
 execute if score @s SupportSkill matches 52071..52079 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:black_mage/dark_swamp/act
 
