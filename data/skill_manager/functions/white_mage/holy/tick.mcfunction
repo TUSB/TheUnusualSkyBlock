@@ -3,10 +3,12 @@
 ##############################
 
 ###ホーリーダメージ設定
-execute if score @s ProjectileSkill matches 41051 at @s run scoreboard players set $Damage Global 5000
-execute if score @s ProjectileSkill matches 41052 at @s run scoreboard players set $Damage Global 10000
+execute if score @s ProjectileSkill matches 41051 at @s run scoreboard players set $Damage Global 1000000
+execute if score @s ProjectileSkill matches 41052 at @s run scoreboard players set $Damage Global 1500000
 function calc_manager:apply_damage_modifier
-scoreboard players operation @e[distance=..5,tag=Mob] Damage += $Damage Global
+scoreboard players operation @e[distance=..5,tag=Mob,tag=Dead] Damage += $Damage Global
+scoreboard players operation $Damage Global /= $4 Const
+scoreboard players operation @e[distance=..5,tag=Mob,tag=Living] Damage += $Damage Global
 
 ###---演出---Start
 particle minecraft:block minecraft:white_wool ~ ~ ~ 0.2 0.2 0.2 0 7 force

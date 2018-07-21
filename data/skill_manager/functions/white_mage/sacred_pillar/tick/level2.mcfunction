@@ -15,7 +15,9 @@ particle minecraft:end_rod ~ ~ ~ 0.3 3.0 0.3 0 20 force
 ###---演出---End
 
 ###ダメージ
-execute positioned ~-2.5 ~-5 ~-2.5 run scoreboard players operation @e[dx=4,dy=10,dz=4,tag=Mob,nbt=!{ActiveEffects:[{Id:27b,Amplifier:127b}]}] Damage += @s PillarDamage
+scoreboard players operation $Damage Global = @s PillarDamage
+function calc_manager:apply_damage_modifier
+execute positioned ~-2.5 ~-5 ~-2.5 run scoreboard players operation @e[dx=4,dy=10,dz=4,tag=Mob,nbt=!{ActiveEffects:[{Id:27b,Amplifier:127b}]}] Damage += $Damage Global
 scoreboard players set $Count PillarCount 0
 execute positioned ~-2.5 ~-5 ~-2.5 as @e[dx=4,dy=10,dz=4,tag=Mob,nbt=!{ActiveEffects:[{Id:27b,Amplifier:127b}]}] run scoreboard players add $Count PillarCount 1
 scoreboard players operation @s PillarCount -= $Count PillarCount

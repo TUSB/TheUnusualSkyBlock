@@ -264,10 +264,13 @@ scoreboard players set $300000 Const 300000
 scoreboard players set $350000 Const 350000
 scoreboard players set $360000 Const 360000
 scoreboard players set $400000 Const 400000
+scoreboard players set $500000 Const 500000
+scoreboard players set $600000 Const 600000
 scoreboard players set $700000 Const 700000
 scoreboard players set $900000 Const 900000
 scoreboard players set $1000000 Const 1000000
 scoreboard players set $1500000 Const 1500000
+scoreboard players set $1750000 Const 1750000
 scoreboard players set $1600000 Const 1600000
 scoreboard players set $2000000 Const 2000000
 scoreboard players set $3000000 Const 3000000
@@ -442,12 +445,12 @@ scoreboard players set $4103 Interval 20
 scoreboard players set $4104 Interval 80
 scoreboard players set $4105 Interval 0
 scoreboard players set $4201 Interval 60
-scoreboard players set $4202 Interval 20
-scoreboard players set $4203 Interval 0
-scoreboard players set $4204 Interval 20
-scoreboard players set $4205 Interval 200
-scoreboard players set $4206 Interval 200
-scoreboard players set $4207 Interval 10
+scoreboard players set $4202 Interval 60
+scoreboard players set $4203 Interval 60
+scoreboard players set $4204 Interval 60
+scoreboard players set $4205 Interval 60
+scoreboard players set $4206 Interval 60
+scoreboard players set $4207 Interval 60
 ##黒魔導士
 scoreboard players set $5101 Interval 0
 scoreboard players set $5102 Interval 0
