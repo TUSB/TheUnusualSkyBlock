@@ -12,3 +12,4 @@ scoreboard players operation $M Global /= $D Global
 function calc_manager:multiply/pos1
 
 function calc_manager:set/motion1
+function calc_manager:set/dir_and_pow

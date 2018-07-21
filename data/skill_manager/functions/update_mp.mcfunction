@@ -8,7 +8,7 @@ scoreboard players operation @s MPHealingWait -= @s Level
 ### 0でMP1回復
 execute if score @s MPHealingWait matches ..0 run scoreboard players remove @s MPConsumption 1
 ### MPウェイトリセット
-scoreboard players add @s[scores={MPHealingWait=..0}] MPHealingWait 3000
+scoreboard players add @s[scores={MPHealingWait=..0}] MPHealingWait 1500
 
 ### MP消費(回復)反映
 execute if entity @s[nbt={ActiveEffects:[{Id:17b}]}] run scoreboard players operation @s MPConsumption > $0 Const
