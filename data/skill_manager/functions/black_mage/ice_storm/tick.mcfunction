@@ -2,7 +2,7 @@
 ### アイスストーム処理
 ##############################
 
-###一閃ダメージ設定
+###アイスストームダメージ設定
 execute if score @s ProjectileSkill matches 51011 at @s run scoreboard players add @e[distance=..4.5,tag=Mob] Damage 500
 execute if score @s ProjectileSkill matches 51012 at @s run scoreboard players add @e[distance=..4.5,tag=Mob] Damage 1000
 execute if score @s ProjectileSkill matches 51013 at @s run scoreboard players add @e[distance=..4.5,tag=Mob] Damage 2000

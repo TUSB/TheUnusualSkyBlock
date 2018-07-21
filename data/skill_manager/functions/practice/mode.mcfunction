@@ -96,6 +96,9 @@ execute if score @s ActiveSkill matches 41031..41039 run function skill_manager:
 ### 白魔導士＜セイクリッドピラー＞
 execute if score @s ActiveSkill matches 41041..41049 run function skill_manager:white_mage/sacred_pillar/act
 
+### 白魔導士＜ホーリー＞
+execute if score @s ActiveSkill matches 41051..41059 run function skill_manager:white_mage/holy/act
+
 ### 黒魔導士＜アイスストーム＞
 execute if score @s ActiveSkill matches 51011..51019 run function skill_manager:black_mage/ice_storm/act
 

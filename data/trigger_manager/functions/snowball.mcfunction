@@ -17,6 +17,9 @@ execute if score @s ModeSkill matches 41021..41029 run scoreboard players operat
 ### 白魔導士＜フラワーギフト＞
 execute if score @s ModeSkill matches 41031..41039 run scoreboard players operation @s ActiveSkill = @s ModeSkill
 
+### 白魔導士＜ホーリー＞
+execute if score @s ModeSkill matches 41051..41059 run scoreboard players operation @s ActiveSkill = @s ModeSkill
+
 ### 黒魔導士＜アイスストーム＞
 execute if score @s ModeSkill matches 51011..51019 run scoreboard players operation @s ActiveSkill = @s ModeSkill
 

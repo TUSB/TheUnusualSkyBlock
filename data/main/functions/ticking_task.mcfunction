@@ -33,6 +33,8 @@ execute if entity @s[tag=FlowerGift] run function skill_manager:white_mage/flowe
 execute if entity @s[tag=RaisePoint] run function skill_manager:white_mage/araise/tick
 ###セイクリッドピラー処理
 execute if entity @s[tag=SacredPillarBase] run function skill_manager:white_mage/sacred_pillar/tick/common
+###ホーリー処理
+execute if entity @s[tag=Holy] run function skill_manager:white_mage/holy/tick
 ###アイスストーム処理
 execute if entity @s[tag=IceStorm] run function skill_manager:black_mage/ice_storm/tick
 ###クロスファイア処理
