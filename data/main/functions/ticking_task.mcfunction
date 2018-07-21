@@ -27,6 +27,8 @@ execute if entity @s[tag=WildFlare] run function skill_manager:hunter/wild_flare
 execute if entity @s[tag=PhotonicLazer] run function skill_manager:hunter/photonic_lazer/tick
 ###ディア
 execute if entity @s[tag=Dia] run function skill_manager:white_mage/dia/tick
+###フラワーギフト
+execute if entity @s[tag=FlowerGift] run function skill_manager:white_mage/flower_gift/tick
 ###セイクリッドピラー処理
 execute if entity @s[tag=RaisePoint] run function skill_manager:white_mage/araise/tick
 ###セイクリッドピラー処理

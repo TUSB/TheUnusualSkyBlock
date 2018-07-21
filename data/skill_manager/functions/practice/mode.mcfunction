@@ -90,6 +90,9 @@ execute if score @s ActiveSkill matches 41011..41019 run function skill_manager:
 ### 白魔導士＜ディア＞
 execute if score @s ActiveSkill matches 41021..41029 run function skill_manager:white_mage/dia/act
 
+### 白魔導士＜フラワーギフト＞
+execute if score @s ActiveSkill matches 41031..41039 run function skill_manager:white_mage/flower_gift/act
+
 ### 白魔導士＜セイクリッドピラー＞
 execute if score @s ActiveSkill matches 41041..41049 run function skill_manager:white_mage/sacred_pillar/act
 
