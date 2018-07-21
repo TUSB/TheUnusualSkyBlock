@@ -96,6 +96,9 @@ execute if score @s SupportSkill matches 42021..42029 run function skill_manager
 ### リジェネレーション
 execute if score @s SupportSkill matches 42041..42049 run function skill_manager:white_mage/regeneration/act
 
+### クレリックナレッジ
+execute if score @s SupportSkill matches 42051..42059 run function skill_manager:white_mage/cleric_knowledge/act
+
 ### ダークスワンプ
 execute if score @s SupportSkill matches 52071..52079 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:black_mage/dark_swamp/act
 

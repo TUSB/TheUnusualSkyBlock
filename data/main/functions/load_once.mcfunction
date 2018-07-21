@@ -137,6 +137,7 @@ scoreboard objectives add BlastSpark dummy {"text":"ブラストスパーク継�
 scoreboard objectives add EnergySave dummy {"text":"エナジーセーブ消費MP減少効果量"}
 scoreboard objectives add RaderVision dummy {"text":"レーダーヴィジョン残りtick数"}
 scoreboard objectives add PhotonicTick dummy {"text":"フォトニックレーザー演出用タイマー"}
+scoreboard objectives add ClericKnowledge dummy {"text":"クレリックナレッジ"}
 scoreboard objectives add PillarCount dummy {"text":"セイクリッドピラーダメージ付与上限"}
 scoreboard objectives add PillarDamage dummy {"text":"セイクリッドピラーダメージ"}
 scoreboard objectives add DarkSwamp dummy {"text":"ダークスワンプ回数"}

@@ -50,9 +50,10 @@ execute as @a[scores={FireAffinity=1..}] at @s run function skill_manager:ninja/
 execute as @a[scores={Mokuso=0..}] at @s run function skill_manager:ninja/mokuso/tick
 ### 風切
 execute as @a[scores={Kazakiri=0..}] at @s run function skill_manager:ninja/kazakiri/tick
-
 ### 居縮解除
 execute as @e[scores={Isukumi=0..}] at @s run function skill_manager:ninja/isukumi/tick
+### クレリックナレッジ
+scoreboard players remove @a[scores={ClericKnowledge=0..}] ClericKnowledge 1
 
 ### 敵スキル実行
 execute as @e[tag=HasSkill] at @s run function skill_manager:enemy/count
