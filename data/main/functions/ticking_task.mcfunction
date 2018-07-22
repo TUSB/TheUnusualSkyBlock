@@ -43,6 +43,8 @@ execute if entity @s[tag=CrossFire] run function skill_manager:black_mage/cross_
 execute if entity @s[tag=KanaTarai] run function skill_manager:summoner/kana_tarai/tick
 ###つんつんペット処理
 execute if entity @s[tag=Sicced] run function skill_manager:sicced/pets
+###サモンＢ：オブシディアン処理
+execute if entity @s[tag=Obsidian] run function skill_manager:summoner/summon_obsidian/tick
 ###コールC処理
 execute if entity @s[tag=Crystal] run function skill_manager:summoner/call_crystal/tick/all
 ###ぷちブラック処理

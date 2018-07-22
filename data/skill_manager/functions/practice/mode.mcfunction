@@ -75,7 +75,7 @@ execute if score @s ActiveSkill matches 31031..31039 run function skill_manager:
 ### 狩人＜ワイルドヒーリング＞
 execute if score @s ActiveSkill matches 31041..31049 run function skill_manager:hunter/wild_healing/act
 
-### 狩人＜ワイルドフレア＞
+### 狩人＜ブラストスパーク＞
 execute if score @s ActiveSkill matches 31051..31059 run function skill_manager:hunter/blast_spark/act
 
 ### 狩人＜ワイルドフレア＞
@@ -122,6 +122,9 @@ execute if score @s ActiveSkill matches 61031..61039 run function skill_manager:
 
 ### 召喚士＜ぽんぽん＞
 execute if score @s ActiveSkill matches 61041..61049 run function skill_manager:summoner/ponpon/act
+
+### 召喚士＜サモンＢ：オブシディアン＞
+execute if score @s ActiveSkill matches 61051..61059 run function skill_manager:summoner/summon_obsidian/act
 
 ### 召喚士＜ぽむぽむ花火＞
 execute if score @s ActiveSkill matches 61081..61089 run function skill_manager:summoner/pompom/act
