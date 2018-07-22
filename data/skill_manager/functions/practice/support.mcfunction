@@ -111,6 +111,9 @@ execute if score @s SupportSkill matches 52071..52079 at @e[tag=Egg,distance=..6
 ### サモンＰ：スノー
 execute if score @s SupportSkill matches 62011..62019 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:summoner/summon_snow_golem/act
 
+### サモンＥ：スーパードラゴン
+execute if score @s SupportSkill matches 62021..62029 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:summoner/summon_super_dragon/act
+
 ### サモンＰ：ウルフ
 execute if score @s SupportSkill matches 62041..62049 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:summoner/summon_wolf/act
 
