@@ -19,6 +19,9 @@ scoreboard players reset @s[scores={PillarDamage=0..}] PillarDamage
 ###真空切りモーション増加処理
 execute if entity @s[tag=Accelerate] run function skill_manager:knight/aerial_slash/accelerate
 
+###ふかふかケージ
+execute if entity @s[tag=Caught] run function skill_manager:summoner/fukafuka/cage_delayed
+
 ###共通タグ削除
 tag @s remove DelayedTask
 

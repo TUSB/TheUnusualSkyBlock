@@ -23,6 +23,6 @@ execute if score @s ModeSkill matches 31052 run scoreboard players set $Damage G
 execute if score @s ModeSkill matches 31053 run scoreboard players set $Damage Global 200000
 function calc_manager:apply_damage_modifier
 
-scoreboard players operation @e[tag=Initializing,limit=1] SkillAttribute += $Damage Global
+scoreboard players operation @e[tag=Initializing,limit=1] SkillAttribute = $Damage Global
 
 tag @e[tag=Initializing] remove Initializing

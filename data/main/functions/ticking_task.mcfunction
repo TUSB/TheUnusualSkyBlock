@@ -43,8 +43,10 @@ execute if entity @s[tag=CrossFire] run function skill_manager:black_mage/cross_
 execute if entity @s[tag=KanaTarai] run function skill_manager:summoner/kana_tarai/tick
 ###つんつんペット処理
 execute if entity @s[tag=Sicced] run function skill_manager:sicced/pets
-###サモンＢ：オブシディアン処理
-execute if entity @s[tag=Obsidian] run function skill_manager:summoner/summon_obsidian/tick
+###サモンＢ処理
+execute if entity @s[tag=SummonedBlock] run function skill_manager:summoner/summon_obsidian/tick
+###ふかふか処理
+execute if entity @s[tag=Fukafuka] run function skill_manager:summoner/fukafuka/tick
 ###コールC処理
 execute if entity @s[tag=Crystal] run function skill_manager:summoner/call_crystal/tick/all
 ###ぷちブラック処理
@@ -75,3 +77,6 @@ execute if entity @s[tag=AbyssWarp,y=0,dy=-20] run function enemy_manager:warp
 execute if entity @s[tag=KasapTrap] run function skill_manager:hunter/kasap_trap/tick
 execute if entity @s[tag=DeceleratleTrap] run function skill_manager:hunter/deceleratle_trap/tick
 execute if entity @s[tag=ExpelTrap] run function skill_manager:hunter/expel_trap/tick
+
+###ふかふかケージ
+execute if entity @s[tag=Cage] run function skill_manager:summoner/fukafuka/cage

@@ -11,11 +11,10 @@ scoreboard players operation @s ActiveInterval = @s ModeInterval
 execute if score @s Aisatsu matches 0.. run function skill_manager:ninja/aisatsu/apply
 ###エナジーセーブ補正
 execute if score @s EnergySave matches 0.. run function skill_manager:hunter/energy_save/calc
-###---演出---Start
-execute if score @s MP < @s ActiveCost run tellraw @s {"text":"MPが不足しています。","color":"red"}
-execute if score @s MP < @s ActiveCost run playsound minecraft:block.fire.extinguish master @s ~ ~ ~ 1 2
-###---演出---End
+###MP不足
+execute if score @s MP < @s ActiveCost run function calc_manager:tellraw/low_mp
 execute if score @s MP < @s ActiveCost run scoreboard players reset @s ActiveSkill
+###制限中
 function calc_manager:tellraw/interval
 execute if score @s SkillInterval > $0 Const run scoreboard players reset @s ActiveSkill
 execute if score @s ActiveSkill matches 1.. run scoreboard players operation @s MPConsumption += @s ActiveCost
@@ -123,8 +122,8 @@ execute if score @s ActiveSkill matches 61031..61039 run function skill_manager:
 ### 召喚士＜ぽんぽん＞
 execute if score @s ActiveSkill matches 61041..61049 run function skill_manager:summoner/ponpon/act
 
-### 召喚士＜サモンＢ：オブシディアン＞
-execute if score @s ActiveSkill matches 61051..61059 run function skill_manager:summoner/summon_obsidian/act
+### 召喚士＜ふかふか＞
+execute if score @s ActiveSkill matches 61051..61059 run function skill_manager:summoner/fukafuka/act
 
 ### 召喚士＜ぽむぽむ花火＞
 execute if score @s ActiveSkill matches 61081..61089 run function skill_manager:summoner/pompom/act

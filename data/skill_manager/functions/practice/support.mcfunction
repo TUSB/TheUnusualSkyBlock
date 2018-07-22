@@ -8,11 +8,10 @@ execute if score @s SneakTime matches 1.. run function skill_manager:practice/sn
 execute if score @s Aisatsu matches 0.. run function skill_manager:ninja/aisatsu/apply
 ###エナジーセーブ補正
 execute if score @s EnergySave matches 0.. run function skill_manager:hunter/energy_save/calc
-###---演出---Start
-execute if score @s MP < @s SupportCost run tellraw @s {"text":"MPが不足しています。","color":"red"}
-execute if score @s MP < @s SupportCost run playsound minecraft:block.fire.extinguish master @s ~ ~ ~ 1 2
-###---演出---End
+###MP不足
+execute if score @s MP < @s SupportCost run function calc_manager:tellraw/low_mp
 execute if score @s MP < @s SupportCost run scoreboard players reset @s SupportSkill
+###制限中
 function calc_manager:tellraw/interval
 execute if score @s SkillInterval > $0 Const run scoreboard players reset @s SupportSkill
 execute if score @s SupportSkill matches 1.. run scoreboard players operation @s MPConsumption += @s SupportCost

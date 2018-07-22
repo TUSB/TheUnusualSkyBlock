@@ -546,7 +546,7 @@ bossbar set minecraft:enemy_health style progress
 bossbar set minecraft:enemy_health visible false
 
 ###ゲームルール系
-setworldspawn 10 4 10
+setworldspawn 0 4 0
 
 
 ###エンティティ系

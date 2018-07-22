@@ -75,7 +75,7 @@ execute as @e[tag=TickingTask] at @s run function main:ticking_task
 
 ###１秒処理
 scoreboard players add $Second Count 1
-execute if score $Second Count matches 20.. run function main:one_second
+execute if score $Second Count matches 21.. run function main:one_second
 
 ###飛翔物スキル処理
 execute as @e[tag=Mob,scores={ProjectileSkill=1..}] at @s run function skill_manager:projectile/check

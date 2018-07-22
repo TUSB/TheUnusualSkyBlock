@@ -1,5 +1,5 @@
 ##############################
-### サモンＢ：オブシディアン発動
+### サモンＢ：ウール発動
 ##############################
 
 execute if block ~-0.5 ~-1 ~-0.5 minecraft:air positioned ~-0.5 ~-1 ~-0.5 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ minecraft:air run summon minecraft:armor_stand ~ ~ ~ {Marker:true,Invisible:true,Invulnerable:true,NoGravity:true,Tags:[SummonedBlock,TickingTask,Initializing]}
@@ -10,7 +10,7 @@ execute unless block ~-0.5 ~-1 ~-0.5 minecraft:air if block ~-0.5 ~ ~-0.5 minecr
 execute unless block ~-0.5 ~-1 ~-0.5 minecraft:air if block ~-0.5 ~ ~-0.5 minecraft:air positioned ~-0.5 ~ ~0.5 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ minecraft:air run summon minecraft:armor_stand ~ ~ ~ {Marker:true,Invisible:true,Invulnerable:true,NoGravity:true,Tags:[SummonedBlock,TickingTask,Initializing]}
 execute unless block ~-0.5 ~-1 ~-0.5 minecraft:air if block ~-0.5 ~ ~-0.5 minecraft:air positioned ~0.5 ~ ~-0.5 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ minecraft:air run summon minecraft:armor_stand ~ ~ ~ {Marker:true,Invisible:true,Invulnerable:true,NoGravity:true,Tags:[SummonedBlock,TickingTask,Initializing]}
 execute unless block ~-0.5 ~-1 ~-0.5 minecraft:air if block ~-0.5 ~ ~-0.5 minecraft:air positioned ~0.5 ~ ~0.5 align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ minecraft:air run summon minecraft:armor_stand ~ ~ ~ {Marker:true,Invisible:true,Invulnerable:true,NoGravity:true,Tags:[SummonedBlock,TickingTask,Initializing]}
-execute as @e[tag=Initializing] at @s run setblock ~ ~ ~ minecraft:obsidian keep
+execute as @e[tag=Initializing] at @s run setblock ~ ~ ~ minecraft:white_wool keep
 
 execute store result score $Height Global run data get entity @s Pos[1] 1
 scoreboard players remove $Height Global 300
