@@ -39,6 +39,8 @@ execute if entity @s[tag=Holy] run function skill_manager:white_mage/holy/tick
 execute if entity @s[tag=IceStorm] run function skill_manager:black_mage/ice_storm/tick
 ###クロスファイア処理
 execute if entity @s[tag=CrossFire] run function skill_manager:black_mage/cross_fire/tick
+###金タライ処理
+execute if entity @s[tag=KanaTarai] run function skill_manager:summoner/kana_tarai/tick
 ###つんつんペット処理
 execute if entity @s[tag=Sicced] run function skill_manager:sicced/pets
 ###コールC処理

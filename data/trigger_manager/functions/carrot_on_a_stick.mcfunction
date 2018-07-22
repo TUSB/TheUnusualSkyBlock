@@ -21,6 +21,9 @@ execute if score @s ModeSkill matches 51041..51049 run scoreboard players operat
 ### 召喚士＜フィール＞
 execute if score @s ModeSkill matches 61011..61019 run scoreboard players operation @s ActiveSkill = @s ModeSkill
 
+### 召喚士＜金タライ＞
+execute if score @s ModeSkill matches 61021..61029 run scoreboard players operation @s ActiveSkill = @s ModeSkill
+
 ### 召喚士＜ぽむぽむ花火＞
 execute if score @s ModeSkill matches 61081..61089 run scoreboard players operation @s ActiveSkill = @s ModeSkill
 
