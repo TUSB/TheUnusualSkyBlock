@@ -111,6 +111,9 @@ execute if score @s ActiveSkill matches 51031..51039 run function skill_manager:
 ### 黒魔導士＜ジオクラッシュ＞
 execute if score @s ActiveSkill matches 51041..51049 run function skill_manager:black_mage/geo_crash/act
 
+### 召喚士＜フィール＞
+execute if score @s ActiveSkill matches 61011..61019 run function skill_manager:summoner/fill/act
+
 ### 召喚士＜ぽむぽむ花火＞
 execute if score @s ActiveSkill matches 61081..61089 run function skill_manager:summoner/pompom/act
 
