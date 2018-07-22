@@ -3,7 +3,7 @@
 ##############################
 
 ### スノゴ雪玉
-execute if score @s ProjectileSkill matches 100000 run function skill_manager:snow_golem/snowball/hit
+execute if score @s ProjectileSkill matches 100000 run function skill_manager:sicced/snow_golem/snowball/hit
 
 ### 真空斬り
 execute if score @s ProjectileSkill matches 11041..11049 run function skill_manager:knight/aerial_slash/hit

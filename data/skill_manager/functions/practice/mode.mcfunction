@@ -125,6 +125,9 @@ execute if score @s ActiveSkill matches 61041..61049 run function skill_manager:
 ### 召喚士＜ふかふか＞
 execute if score @s ActiveSkill matches 61051..61059 run function skill_manager:summoner/fukafuka/act
 
+### 召喚士＜つんつん＞
+execute if score @s ActiveSkill matches 61061..61069 run function skill_manager:summoner/tsuntsun/act
+
 ### 召喚士＜ぽむぽむ花火＞
 execute if score @s ActiveSkill matches 61081..61089 run function skill_manager:summoner/pompom/act
 
