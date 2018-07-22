@@ -89,6 +89,7 @@ tag @s[tag=Swim] add TickingTask
 tag @s[tag=TowardPlayer] add TickingTask
 tag @s[tag=LimitedTrading] add TickingTask
 tag @s[tag=AbyssWarp] add TickingTask
+tag @s[tag=Mob,team=Friendly] remove Mob
 tag @s[tag=Mob,nbt={Invulnerable:true}] remove Mob
 tag @s[nbt={NoAI:true}] add NoAI
 team join Enemy @s[tag=Mob]

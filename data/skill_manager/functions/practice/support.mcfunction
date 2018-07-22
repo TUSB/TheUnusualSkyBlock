@@ -108,6 +108,18 @@ execute if score @s SupportSkill matches 42071..42079 run function skill_manager
 ### ダークスワンプ
 execute if score @s SupportSkill matches 52071..52079 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:black_mage/dark_swamp/act
 
+### サモンＰ：スノー
+execute if score @s SupportSkill matches 62011..62019 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:summoner/summon_snow_golem/act
+
+### サモンＰ：ウルフ
+execute if score @s SupportSkill matches 62041..62049 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:summoner/summon_wolf/act
+
+### サモンＰ：ゴーレム
+execute if score @s SupportSkill matches 62071..62079 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:summoner/summon_iron_golem/act
+
+### サモンＰ：サーヴァント
+execute if score @s SupportSkill matches 62081..62089 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:summoner/summon_vindicator/act
+
 ### スノウチャージ
 execute if score @s SupportSkill matches 82011..82019 run function skill_manager:common/snow_charge/act
 
