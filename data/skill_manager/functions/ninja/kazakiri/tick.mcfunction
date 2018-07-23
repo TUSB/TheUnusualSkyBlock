@@ -11,5 +11,7 @@ execute if score @s Kazakiri matches 2 run tellraw @s [{"text":"","color":"yello
 execute unless score @s Kazakiri matches 0.. run tellraw @s [{"text":"","color":"yellow"},{"selector":"@s"},"の",{"text":"風切","color":"white","hoverEvent":{"action":"show_text","value":"風を纏い、空中を浮遊する。","color":"white"}},"の効果が切れた。"]
 
 ###---演出---Start
-
+execute if score @s Kazakiri matches 5 run playsound minecraft:entity.bat.loop master @a[distance=..16] ~ ~ ~ 0.8 1.2
+execute if score @s Kazakiri matches 2 run playsound minecraft:entity.bat.takeoff master @a[distance=..16] ~ ~ ~ 0.6 0.8
+execute unless score @s Kazakiri matches 0.. run playsound minecraft:entity.ender_dragon.flap master @a[distance=..16] ~ ~ ~ 1 0.4
 ###---演出---End
