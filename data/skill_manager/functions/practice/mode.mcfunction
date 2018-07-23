@@ -137,7 +137,7 @@ execute if score @s ActiveSkill matches 61071..61079 rotated ~ 0 positioned ^ ^1
 execute if score @s ActiveSkill matches 61091..61099 rotated ~ 0 positioned ^ ^1 ^3.5 run function skill_manager:summoner/call_crystal/summon/random
 
 ### 召喚士＜サモンＢ：エンダーチェスト＞
-execute if score @s ActiveSkill matches 61101..61109 run function skill_manager:summoner/summon_ender_chest/act
+execute if score @s ActiveSkill matches 61101..61109 run function skill_manager:summoner/summon_ender_chest/check
 
 ### 召喚士＜ぷちブラック＞
 execute if score @s ActiveSkill matches 61111..61119 run function skill_manager:summoner/petit_black/launch

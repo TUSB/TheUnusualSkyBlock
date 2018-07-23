@@ -244,6 +244,7 @@ scoreboard players set $2000 Const 2000
 scoreboard players set $3600 Const 3600
 scoreboard players set $4000 Const 4000
 scoreboard players set $7000 Const 7000
+scoreboard players set $8500 Const 8500
 scoreboard players set $10000 Const 10000
 scoreboard players set $15000 Const 15000
 scoreboard players set $20000 Const 20000
@@ -258,6 +259,7 @@ scoreboard players set $100000 Const 100000
 scoreboard players set $112000 Const 112000
 scoreboard players set $120000 Const 120000
 scoreboard players set $150000 Const 150000
+scoreboard players set $185000 Const 185000
 scoreboard players set $200000 Const 200000
 scoreboard players set $240000 Const 240000
 scoreboard players set $250000 Const 250000
@@ -265,11 +267,13 @@ scoreboard players set $300000 Const 300000
 scoreboard players set $350000 Const 350000
 scoreboard players set $360000 Const 360000
 scoreboard players set $400000 Const 400000
+scoreboard players set $450000 Const 450000
 scoreboard players set $500000 Const 500000
 scoreboard players set $600000 Const 600000
 scoreboard players set $700000 Const 700000
 scoreboard players set $900000 Const 900000
 scoreboard players set $1000000 Const 1000000
+scoreboard players set $1400000 Const 1400000
 scoreboard players set $1500000 Const 1500000
 scoreboard players set $1750000 Const 1750000
 scoreboard players set $1600000 Const 1600000
@@ -355,25 +359,25 @@ scoreboard players set $5209 Cost 70
 scoreboard players set $5210 Cost 80
 ##召喚士
 scoreboard players set $6101 Cost 20
-scoreboard players set $6102 Cost 5
+scoreboard players set $6102 Cost 10
 scoreboard players set $6103 Cost 20
 scoreboard players set $6104 Cost 20
-scoreboard players set $6105 Cost 25
-scoreboard players set $6106 Cost 30
-scoreboard players set $6107 Cost 40
+scoreboard players set $6105 Cost 40
+scoreboard players set $6106 Cost 40
+scoreboard players set $6107 Cost 20
 scoreboard players set $6108 Cost 10
-scoreboard players set $6109 Cost 40
-scoreboard players set $6110 Cost 45
+scoreboard players set $6109 Cost 20
+scoreboard players set $6110 Cost 40
 scoreboard players set $6111 Cost 100
 scoreboard players set $6201 Cost 20
-scoreboard players set $6202 Cost 30
+scoreboard players set $6202 Cost 20
 scoreboard players set $6203 Cost 10
 scoreboard players set $6204 Cost 30
-scoreboard players set $6205 Cost 40
-scoreboard players set $6206 Cost 50
+scoreboard players set $6205 Cost 20
+scoreboard players set $6206 Cost 20
 scoreboard players set $6207 Cost 40
 scoreboard players set $6208 Cost 50
-scoreboard players set $6209 Cost 60
+scoreboard players set $6209 Cost 20
 ##絡繰士
 scoreboard players set $7101 Cost 20
 scoreboard players set $7102 Cost 3
@@ -471,11 +475,11 @@ scoreboard players set $5209 Interval 10
 scoreboard players set $5210 Interval 10
 ##召喚士
 scoreboard players set $6101 Interval 0
-scoreboard players set $6102 Interval 20
+scoreboard players set $6102 Interval 0
 scoreboard players set $6103 Interval 20
 scoreboard players set $6104 Interval 20
-scoreboard players set $6105 Interval 0
-scoreboard players set $6106 Interval 40
+scoreboard players set $6105 Interval 60
+scoreboard players set $6106 Interval 60
 scoreboard players set $6107 Interval 100
 scoreboard players set $6108 Interval 20
 scoreboard players set $6109 Interval 100

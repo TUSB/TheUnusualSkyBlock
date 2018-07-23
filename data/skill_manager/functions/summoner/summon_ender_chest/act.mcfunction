@@ -9,7 +9,7 @@ execute as @e[tag=Initializing] at @s run setblock ~ ~ ~ minecraft:ender_chest k
 execute store result score $Height Global run data get entity @s Pos[1] 1
 scoreboard players remove $Height Global 300
 scoreboard players operation $Height Global *= $-1 Const
-execute if score @s ModeSkill matches 61052 run scoreboard players operation $Height Global *= $2 Const
+scoreboard players operation $Height Global *= $TimeBonus Global
 
 execute as @e[tag=Initializing] at @s store result entity @s PortalCooldown int 1 run scoreboard players get $Height Global
 tag @e[tag=Initializing] remove Initializing
