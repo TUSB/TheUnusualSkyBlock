@@ -15,7 +15,7 @@ particle minecraft:dust 0.527 0.804 0.917 3 ~-10 ~2 ~ 0 3 3 0 100 force
 
 function skill_manager:summoner/call_crystal/enhance/common
 
-execute if score @s SkillAttribute matches 61091..61092 run effect give @e[distance=..10,team=Friendly] minecraft:night_vision 60 126
-execute if score @s SkillAttribute matches 61092 run effect give @e[distance=..10,team=Friendly] minecraft:glowing 60 126
-execute if score @s SkillAttribute matches 61093 run effect give @e[distance=..10,team=Friendly] minecraft:night_vision 180 126
-execute if score @s SkillAttribute matches 61093 run effect give @e[distance=..10,team=Friendly] minecraft:glowing 180 126
+execute if score @s SkillAttribute matches 61091..61092 run effect give @e[distance=..10,team=Friendly] minecraft:night_vision 60 127
+execute if score @s SkillAttribute matches 61092 run effect give @e[distance=..10,team=Friendly] minecraft:glowing 60 127
+execute if score @s SkillAttribute matches 61093 run effect give @e[distance=..10,team=Friendly] minecraft:night_vision 180 127
+execute if score @s SkillAttribute matches 61093 run effect give @e[distance=..10,team=Friendly] minecraft:glowing 180 127
