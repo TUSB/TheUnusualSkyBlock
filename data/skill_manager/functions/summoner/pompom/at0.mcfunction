@@ -3,10 +3,11 @@
 ##############################
 
 ###ダメージ判定
-scoreboard players add @e[distance=..8,tag=Mob] Damage 20000
-scoreboard players add @e[distance=..6,tag=Mob] Damage 4000
-scoreboard players add @e[distance=..4,tag=Mob] Damage 4000
-scoreboard players add @e[distance=..2,tag=Mob] Damage 4000
+scoreboard players operation @e[distance=..2,tag=Mob] Damage += @s SkillAttribute
+scoreboard players operation @e[distance=..4,tag=Mob] Damage += @s SkillAttribute
+scoreboard players operation @e[distance=..6,tag=Mob] Damage += @s SkillAttribute
+scoreboard players operation @s SkillAttribute *= $5 Const
+scoreboard players operation @e[distance=..8,tag=Mob] Damage += @s SkillAttribute
 scoreboard players reset @e[distance=..8,tag=Mob] ProjectileSkill
 ###---演出---Start
 execute if entity @e[distance=..8,tag=Mob] run playsound minecraft:block.wood.break master @a ~ ~ ~ 5 1.2

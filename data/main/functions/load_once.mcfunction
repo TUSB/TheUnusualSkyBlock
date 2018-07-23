@@ -242,6 +242,7 @@ scoreboard players set $1200 Const 1200
 scoreboard players set $1500 Const 1500
 scoreboard players set $2000 Const 2000
 scoreboard players set $3600 Const 3600
+scoreboard players set $4000 Const 4000
 scoreboard players set $7000 Const 7000
 scoreboard players set $10000 Const 10000
 scoreboard players set $15000 Const 15000

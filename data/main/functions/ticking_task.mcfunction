@@ -49,6 +49,8 @@ execute if entity @s[tag=SummonedBlock] run function skill_manager:summoner/summ
 execute if entity @s[tag=Fukafuka] run function skill_manager:summoner/fukafuka/tick
 ###コールC処理
 execute if entity @s[tag=Crystal] run function skill_manager:summoner/call_crystal/tick/all
+###グライダー処理
+execute if entity @s[tag=Glider] run function skill_manager:summoner/summon_glider/glide
 ###ぷちブラック処理
 execute if entity @s[tag=PetitBlack] run function skill_manager:summoner/petit_black/tick/all
 ###ウィークペイント
