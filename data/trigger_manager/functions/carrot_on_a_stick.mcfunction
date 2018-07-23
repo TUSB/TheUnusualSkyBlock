@@ -44,6 +44,9 @@ execute if score @s ModeSkill matches 61071..61079 run scoreboard players operat
 ### 召喚士＜コールＣエンハンス＞
 execute if score @s ModeSkill matches 61091..61099 run scoreboard players operation @s ActiveSkill = @s ModeSkill
 
+### 召喚士＜サモンＢ：エンダーチェスト＞
+execute if score @s ModeSkill matches 61101..61109 run scoreboard players operation @s ActiveSkill = @s ModeSkill
+
 ### 召喚士＜ぷちブラック＞
 execute if score @s ModeSkill matches 61111..61119 run function skill_manager:summoner/petit_black/act
 
