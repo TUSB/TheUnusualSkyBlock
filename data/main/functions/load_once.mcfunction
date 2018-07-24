@@ -543,6 +543,13 @@ team join Friendly バースト
 team add Enemy {"text":"敵チーム"}
 team modify Enemy color white
 team modify Enemy friendlyFire false
+###カラーチーム作成
+team add Red {"text":"赤色チーム"}
+team modify Red color red
+team add Light_Purple {"text":"赤紫色チーム"}
+team modify Light_Purple color light_purple
+team add Gold {"text":"黄色チーム"}
+team modify Gold color gold
 
 ###ボスバー作成
 bossbar add enemy_health {"text":"HP","color":"green"}
