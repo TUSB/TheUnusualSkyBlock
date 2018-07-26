@@ -10,5 +10,6 @@ scoreboard players operation @e[tag=IronWillPosition] ID += @s ID
 tag @s remove IronWill
 
 ###---演出---Start
-
+execute positioned as @s run playsound minecraft:block.anvil.place master @a[distance=..16] ~ ~ ~ 0.5 2
+execute positioned as @s run particle minecraft:item minecraft:dispenser ~ ~0.5 ~ 1.5 0.2 1.5 0.15 50 force
 ###---演出---End

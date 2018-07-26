@@ -7,9 +7,9 @@ tellraw @s[scores={ShowSkillNo=31011}] ["",{"text":"・ステークスファイ�
 tellraw @s[scores={ShowSkillNo=31012}] ["",{"text":"・ステークスファイアⅡ","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
 tellraw @s[scores={ShowSkillNo=31013}] ["",{"text":"・ステークスファイアⅢ","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
 ###モード２
-tellraw @s[scores={ShowSkillNo=31021}] ["",{"text":"・チェーンアロー","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
-tellraw @s[scores={ShowSkillNo=31022}] ["",{"text":"・チェーンアローⅡ","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
-tellraw @s[scores={ShowSkillNo=31023}] ["",{"text":"・チェーンアローⅢ","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
+tellraw @s[scores={ShowSkillNo=31021}] ["",{"text":"・チェインアロー","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
+tellraw @s[scores={ShowSkillNo=31022}] ["",{"text":"・チェインアローⅡ","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
+tellraw @s[scores={ShowSkillNo=31023}] ["",{"text":"・チェインアローⅢ","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
 ###モード３
 tellraw @s[scores={ShowSkillNo=31031}] ["",{"text":"・バードストライク","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
 ###モード４

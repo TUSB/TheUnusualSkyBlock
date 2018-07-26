@@ -10,8 +10,9 @@ execute unless score @s SneakTime matches 1.. run tellraw @a [{"text":"","color"
 execute if score @s SneakTime matches 1.. run tellraw @a [{"text":"","color":"green"},{"selector":"@a[distance=..15]"},"に",{"text":"アイアンウィル","color":"white","hoverEvent":{"action":"show_text","value":"ノックバックしなくなる。","color":"white"}},"の効果！"]
 
 ###---演出---Start
-playsound entity.puffer_fish.death master @a[distance=..10] ~ ~ ~ 0.7 0
-playsound entity.polar_bear.warning master @a[distance=..10] ~ ~ ~ 1 0
-playsound entity.firework_rocket.twinkle master @a[distance=..10] ~ ~ ~ 1 0.4
-particle minecraft:angry_villager ~ ~-0.3 ~ 1 0.2 1 1 14 force
+playsound minecraft:block.anvil.land master @a[distance=..16] ~ ~ ~ 0.2 0.5
+playsound minecraft:entity.iron_golem.hurt master @a[distance=..16] ~ ~ ~ 1 0
+playsound minecraft:block.piston.contract master @a[distance=..16] ~ ~ ~ 1 0.6
+particle minecraft:angry_villager ~ ~-0.3 ~ 1.3 0.2 1.3 1 14 force
+particle minecraft:item minecraft:dispenser ~ ~0.5 ~ 1.5 0.2 1.5 0.15 100 force
 ###---演出---End

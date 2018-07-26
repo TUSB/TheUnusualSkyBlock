@@ -3,9 +3,11 @@
 ##############################
 
 ###---演出---Start
-playsound minecraft:entity.villager.yes master @s ~ ~ ~ 1 1
+playsound minecraft:entity.villager.yes master @a[distance=..16] ~ ~ ~ 1 1
+playsound minecraft:entity.player.levelup master @a[distance=..16] ~ ~ ~ 1 1
 title @s times 0 40 20
 title @s title [{"text":"","color":"green"},"調理成功！"]
+execute rotated ~ 0 run particle minecraft:happy_villager ^ ^1 ^1.2 0.2 0.1 0.2 0.05 15 force
 ###---演出---End
 
 scoreboard players set $Give Global 1
