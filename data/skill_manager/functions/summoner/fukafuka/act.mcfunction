@@ -21,5 +21,6 @@ scoreboard players operation @e[tag=Initializing,limit=1] ProjectileSkill = @s M
 tag @e[tag=Initializing,limit=1] remove Initializing
 
 ###---演出---Start
-playsound minecraft:entity.blaze.shoot master @a ~ ~ ~ 1 2
+playsound minecraft:entity.spider.death master @a[distance=..16] ~ ~ ~ 1 0
+playsound minecraft:entity.puffer_fish.blow_up master @a[distance=..16] ~ ~ ~ 1 1
 ###---演出---End

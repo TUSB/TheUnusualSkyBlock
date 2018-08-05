@@ -10,5 +10,6 @@ execute unless entity @s[type=!minecraft:wolf,type=!minecraft:vindicator] at @s 
 execute store result entity @s Attributes[2].Base double 0.015 run data get entity @s Attributes[2].Base 100
 
 ###---演出---Start
-execute anchored eyes positioned ^ ^ ^ run particle minecraft:heart ~ ~ ~ 0.1 0.1 0.1 0 10 force
+execute anchored eyes run particle minecraft:angry_villager ^ ^ ^ 0.1 0.1 0.1 0 10 force
+execute anchored eyes run particle minecraft:lava ^ ^-0.5 ^ 0.5 0.5 0.5 0 15 force
 ###---演出---End
