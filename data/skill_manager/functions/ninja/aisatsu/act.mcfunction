@@ -4,7 +4,7 @@
 execute store result score $Aisatsu Global if entity @e[distance=..30,tag=Mob]
 execute if score $Aisatsu Global matches 0 run tellraw @a ["ドーモ。",{"selector":"@s"},"です"]
 execute if score $Aisatsu Global matches 1.. run tellraw @a ["ドーモ。",{"selector":"@e[distance=..30,tag=Mob,sort=nearest]","color":"red"},"＝サン。",{"selector":"@s"},"です"]
-tp @s ~ ~ ~ ~ 45
+
 scoreboard players set @s Aisatsu 0
 execute at @e[distance=..30,tag=Mob] run scoreboard players add @s Aisatsu 3
 execute if score @s ModeSkill matches 22012 at @e[distance=..30,tag=Mob] run scoreboard players add @s Aisatsu 2

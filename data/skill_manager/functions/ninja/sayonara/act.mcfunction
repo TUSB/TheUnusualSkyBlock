@@ -3,11 +3,8 @@
 ##############################
 
 ###---演出---Start
-particle minecraft:explosion_emitter ~ ~ ~ 0 0 0 0 1 force
 particle minecraft:item minecraft:redstone_block ~ ~1 ~ 0 0 0 0.5 100 force
 particle minecraft:item minecraft:nether_wart ~ ~1 ~ 0 0 0 0.5 200 force
-playsound minecraft:entity.generic.explode master @a[distance=..48] ~ ~ ~ 4 0.5
-playsound minecraft:entity.wither.death master @a[distance=..48] ~ ~ ~ 0.5 2
 ###---演出---End
 
 ###ダメージ算出/距離算出/MP補正

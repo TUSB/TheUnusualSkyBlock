@@ -15,7 +15,7 @@ tellraw @s[scores={ShowSkillNo=61032}] ["",{"text":"・ディールβ","color":"
 tellraw @s[scores={ShowSkillNo=61041}] ["",{"text":"・ぽんぽんα","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
 tellraw @s[scores={ShowSkillNo=61042}] ["",{"text":"・ぽんぽんβ","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
 ###モード５
-tellraw @s[scores={ShowSkillNo=61051}] ["",{"text":"・サモンＢ：オブシディアン","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
+tellraw @s[scores={ShowSkillNo=61051}] ["",{"text":"・ふかふか","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
 ###モード６
 tellraw @s[scores={ShowSkillNo=61061}] ["",{"text":"・つんつん","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
 ###モード７

@@ -92,6 +92,9 @@ execute if score @s SupportSkill matches 42011..42019 run function skill_manager
 ### ハートブースト
 execute if score @s SupportSkill matches 42021..42029 run function skill_manager:white_mage/heart_boost/act
 
+### バオル
+execute if score @s SupportSkill matches 42031..42039 run function skill_manager:white_mage/buffall/act
+
 ### リジェネレーション
 execute if score @s SupportSkill matches 42041..42049 run function skill_manager:white_mage/regeneration/act
 

@@ -11,8 +11,27 @@ scoreboard players operation $Damage Global /= $4 Const
 scoreboard players operation @e[distance=..5,tag=Mob,tag=Living] Damage += $Damage Global
 
 ###---演出---Start
-particle minecraft:block minecraft:white_wool ~ ~ ~ 0.2 0.2 0.2 0 7 force
-particle minecraft:item minecraft:blue_ice ~ ~ ~ 0.2 0.2 0.2 0.15 7 force
-particle dust 0.3 0.7 100000000 2 ~ ~ ~ 0 0 0 1 1 force
-playsound minecraft:block.glass.break master @a[distance=..48] ~ ~ ~ 3 2
+particle minecraft:end_rod ~ ~ ~ 1 0 0 0.2 0 force
+particle minecraft:end_rod ~ ~0.4 ~ 0 1 0 0.2 0 force
+particle minecraft:end_rod ~ ~0.4 ~ 0 0 1 0.2 0 force
+particle minecraft:end_rod ~ ~ ~ -1 0 0 0.2 0 force
+particle minecraft:end_rod ~ ~0.4 ~ 0 -1 0 0.2 0 force
+particle minecraft:end_rod ~ ~0.4 ~ 0 0 -1 0.2 0 force
+
+particle minecraft:end_rod ~ ~ ~ 1 0 0 0.1 0 force
+particle minecraft:end_rod ~ ~0.4 ~ 0 1 0 0.1 0 force
+particle minecraft:end_rod ~ ~0.4 ~ 0 0 1 0.1 0 force
+particle minecraft:end_rod ~ ~ ~ -1 0 0 0.1 0 force
+particle minecraft:end_rod ~ ~0.4 ~ 0 -1 0 0.1 0 force
+particle minecraft:end_rod ~ ~0.4 ~ 0 0 -1 0.1 0 force
+
+particle minecraft:end_rod ~ ~ ~ 1 0 0 0.05 0 force
+particle minecraft:end_rod ~ ~0.4 ~ 0 1 0 0.05 0 force
+particle minecraft:end_rod ~ ~0.4 ~ 0 0 1 0.05 0 force
+particle minecraft:end_rod ~ ~ ~ -1 0 0 0.05 0 force
+particle minecraft:end_rod ~ ~0.4 ~ 0 -1 0 0.05 0 force
+particle minecraft:end_rod ~ ~0.4 ~ 0 0 -1 0.05 0 force
+
+particle minecraft:entity_effect ~ ~ ~ 2 2 2 1000000000 40 force
+execute if entity @e[distance=..5,tag=Mob,limit=1] run playsound minecraft:block.beacon.power_select master @a[distance=..48] ~ ~ ~ 4 2
 ###---演出---End

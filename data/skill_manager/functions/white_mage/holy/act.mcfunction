@@ -20,5 +20,7 @@ scoreboard players operation @e[tag=Initializing,limit=1] ProjectileSkill = @s M
 tag @e[tag=Initializing,limit=1] remove Initializing
 
 ###---演出---Start
-playsound entity.firework_rocket.launch master @a[distance=..16] ~ ~ ~ 1 0
+playsound minecraft:entity.firework_rocket.launch master @a[distance=..16] ~ ~ ~ 1 0
+playsound minecraft:entity.evoker.cast_spell master @a[distance=..16] ~ ~ ~ 1 2
+playsound minecraft:block.beacon.power_select master @a[distance=..16] ~ ~ ~ 1 2
 ###---演出---End

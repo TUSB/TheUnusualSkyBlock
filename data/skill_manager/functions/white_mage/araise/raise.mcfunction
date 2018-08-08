@@ -19,4 +19,7 @@ effect give @s minecraft:blindness 1000000 127 true
 
 ###---演出---Start
 tellraw @a [{"text":"","color":"green"},{"selector":"@s"},"に",{"text":"レイズ","color":"white","hoverEvent":{"action":"show_text","value":"リスポーン時に死亡した場所に復活する。","color":"white"}},"の効果！"]
+playsound minecraft:entity.wither.death master @a[distance=..16] ~ ~ ~ 0.4 2
+playsound minecraft:block.beacon.ambient master @a[distance=..16] ~ ~ ~ 1 1
+playsound minecraft:block.beacon.ambient master @a[distance=..16] ~ ~ ~ 1 2
 ###---演出---End

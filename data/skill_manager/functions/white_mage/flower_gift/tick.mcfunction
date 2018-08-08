@@ -10,5 +10,6 @@ execute as @e[distance=..5,tag=Mob,tag=!Gifted] at @s run function skill_manager
 execute as @e[distance=..5,type=minecraft:spawner_minecart,tag=!Spawner,tag=!Gifted] at @s run function skill_manager:white_mage/flower_gift/apply
 
 ###---演出---Start
-particle minecraft:dust -8000000 -8000000 -8000000 2 ~ ~ ~ 0 0 0 1 2 force
+particle minecraft:item minecraft:sunflower ~ ~ ~ 0.05 0.05 0.05 0.03 10 force
+particle minecraft:item minecraft:blue_orchid ~ ~-0.1 ~ 0.05 0.05 0.05 0.03 5 force
 ###---演出---End

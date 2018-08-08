@@ -15,4 +15,7 @@ scoreboard players operation @e[distance=..5,type=minecraft:snowball,tag=!Initia
 scoreboard players operation @e[distance=..5,type=minecraft:snowball,tag=!Initialized,sort=nearest,limit=1] SkillAttribute = $Damage Global
 
 ###---演出---Start
+playsound minecraft:entity.evoker.prepare_summon master @a[distance=..16] ~ ~ ~ 1 2
+playsound minecraft:entity.firework_rocket.launch master @a[distance=..16] ~ ~ ~ 1 0.58
+playsound minecraft:entity.fish.swim master @a[distance=..16] ~ ~ ~ 1 2
 ###---演出---End

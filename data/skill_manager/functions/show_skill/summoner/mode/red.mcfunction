@@ -15,7 +15,7 @@ tellraw @s[scores={ShowSkillNo=61032}] ["",{"text":"・ディールβ","color":"
 tellraw @s[scores={ShowSkillNo=61041}] ["",{"text":"・ぽんぽんα","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
 tellraw @s[scores={ShowSkillNo=61042}] ["",{"text":"・ぽんぽんβ","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
 ###モード５
-tellraw @s[scores={ShowSkillNo=61051}] ["",{"text":"・サモンＢ：オブシディアン","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
+tellraw @s[scores={ShowSkillNo=61051}] ["",{"text":"・ふかふか","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
 ###モード６
 tellraw @s[scores={ShowSkillNo=61061}] ["",{"text":"・つんつん","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
 ###モード７
