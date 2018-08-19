@@ -11,3 +11,7 @@ function calc_manager:apply_damage_modifier
 scoreboard players operation @e[distance=..5,type=minecraft:arrow,tag=!Initialized,sort=nearest,limit=1] SkillAttribute = $Damage Global
 
 execute as @e[distance=..5,type=minecraft:arrow,tag=!Initialized,sort=nearest,limit=1] run data merge entity @s {PortalCooldown:2,Tags:[WildFlareSeed,CooldownRequired]}
+
+###---演出---Start
+playsound minecraft:entity.blaze.shoot master @a[distance=..16] ~ ~ ~ 1 1
+###---演出---End

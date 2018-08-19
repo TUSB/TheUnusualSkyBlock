@@ -58,6 +58,8 @@ execute if entity @s[tag=Crystal] run function skill_manager:summoner/call_cryst
 execute if entity @s[tag=Glider] run function skill_manager:summoner/summon_glider/glide
 ###ぷちブラック処理
 execute if entity @s[tag=PetitBlack] run function skill_manager:summoner/petit_black/tick/all
+###ぽむぽむ花火処理
+execute if entity @s[tag=PomPom,nbt={inGround:true}] run function skill_manager:summoner/pompom/block
 ###ウィークペイント
 execute if entity @s[tag=WeakPaint] run function skill_manager:common/weakness_paint/tick
 ###ライブラ

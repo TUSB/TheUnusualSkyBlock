@@ -15,3 +15,8 @@ execute at @e[tag=WildFlareMarker,limit=1] run tp @e[tag=WildFlareMarker,limit=1
 ###ワイルドフレア生成
 scoreboard players operation $DamageBase Global = @s SkillAttribute
 execute as @e[tag=WildFlareMarker,limit=1] at @s positioned ^ ^ ^2 run function skill_manager:hunter/wild_flare/make_flare
+
+###---演出---Start
+playsound minecraft:entity.generic.explode master @a[distance=..16] ~ ~ ~ 0.5 1
+particle minecraft:explosion ~ ~ ~ 0 0 0 0 0 force
+###---演出---End

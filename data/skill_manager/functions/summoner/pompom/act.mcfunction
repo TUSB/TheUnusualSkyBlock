@@ -3,7 +3,7 @@
 ##############################
 
 ###花火の設定をする
-execute positioned ^ ^ ^-0.25 run summon minecraft:snowball ~ ~1.52 ~ {NoGravity:true,PortalCooldown:7,Tags:[CooldownRequired,PomPom,Initializing]}
+execute positioned ^ ^ ^-0.25 run summon minecraft:arrow ~ ~1.52 ~ {NoGravity:true,PortalCooldown:7,Tags:[CooldownRequired,PomPom,Initializing],Color:-1b}
 ###座標取得
 execute as @e[tag=Initializing,limit=1] positioned ~ ~1.52 ~ run function calc_manager:get/direction1
 ###モーション量補正

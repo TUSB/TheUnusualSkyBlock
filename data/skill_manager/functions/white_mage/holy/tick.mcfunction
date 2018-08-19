@@ -33,5 +33,10 @@ particle minecraft:end_rod ~ ~0.4 ~ 0 -1 0 0.05 0 force
 particle minecraft:end_rod ~ ~0.4 ~ 0 0 -1 0.05 0 force
 
 particle minecraft:entity_effect ~ ~ ~ 2 2 2 1000000000 40 force
-execute if entity @e[distance=..5,tag=Mob,limit=1] run playsound minecraft:block.beacon.power_select master @a[distance=..48] ~ ~ ~ 4 2
+execute if entity @e[distance=..5,tag=Mob,limit=1,sort=nearest] run playsound minecraft:block.beacon.power_select master @a[distance=..48] ~ ~ ~ 4 1.6
+execute if entity @e[distance=..5,tag=Mob,limit=1,sort=nearest] run playsound minecraft:entity.firework_rocket.blast master @a[distance=..48] ~ ~ ~ 4 1
+execute as @e[distance=..5,tag=Mob] at @s run particle minecraft:item minecraft:glistering_melon_slice ~ ~1 ~ 0 0 0 0.3 100 force
+execute as @e[distance=..5,tag=Mob] at @s run particle minecraft:firework ~ ~2.4 ~ 0 0 0 0.1 50 force
+execute as @e[distance=..5,tag=Mob] at @s run particle minecraft:totem_of_undying ~ ~3 ~ 0 0 0 0.5 10 force
+
 ###---演出---End

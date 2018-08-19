@@ -138,7 +138,7 @@ execute if score @s SupportSkill matches 62081..62089 at @e[tag=Egg,distance=..6
 execute if score @s SupportSkill matches 62091..62099 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:summoner/summon_glider/act
 
 ### スノウチャージ
-execute if score @s SupportSkill matches 82011..82019 run function skill_manager:common/snow_charge/act
+execute if score @s SupportSkill matches 82011..82019 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:common/snow_charge/act
 
 scoreboard players reset @s SupportSkill
 scoreboard players reset @s SupportCost
