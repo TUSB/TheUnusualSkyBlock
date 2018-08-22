@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_pressure_plate"
+      "item": "minecraft:magenta_stained_glass"
     },
     "|": {
-      "item": "minecraft:diamond_ore"
+      "item": "minecraft:melon_seeds"
     }
   },
   "result": {

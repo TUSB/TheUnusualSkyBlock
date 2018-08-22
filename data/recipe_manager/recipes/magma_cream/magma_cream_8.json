@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:polished_andesite"
+      "item": "minecraft:stone_shovel"
     },
     {
-      "item": "minecraft:writable_book"
+      "item": "minecraft:stripped_jungle_log"
     }
   ],
   "result": {

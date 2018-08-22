@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:beacon"
+      "item": "minecraft:black_banner"
     },
     "X": {
-      "item": "minecraft:minecart"
+      "item": "minecraft:cyan_glazed_terracotta"
     }
   },
   "result": {

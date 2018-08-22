@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:emerald_ore"
+      "item": "minecraft:acacia_button"
     },
     "#": {
-      "item": "minecraft:vine"
+      "item": "minecraft:red_bed"
     }
   },
   "result": {

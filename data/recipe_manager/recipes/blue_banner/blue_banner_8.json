@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_boat"
+      "item": "minecraft:andesite"
     },
     "|": {
-      "item": "minecraft:stripped_spruce_log"
+      "item": "minecraft:rose_bush"
     }
   },
   "result": {

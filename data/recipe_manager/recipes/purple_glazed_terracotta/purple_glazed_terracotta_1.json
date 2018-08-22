@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:tripwire_hook"
+      "item": "minecraft:dirt"
     }
   ],
   "result": {

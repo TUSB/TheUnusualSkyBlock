@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:chainmail_boots"
+      "item": "minecraft:potion"
     },
     "B": {
-      "item": "minecraft:cooked_beef"
+      "item": "minecraft:pufferfish_bucket"
     },
     "E": {
-      "item": "minecraft:purpur_block"
+      "item": "minecraft:sign"
     },
     "C": {
-      "item": "minecraft:wheat_seeds"
+      "item": "minecraft:stone_pickaxe"
     }
   },
   "result": {

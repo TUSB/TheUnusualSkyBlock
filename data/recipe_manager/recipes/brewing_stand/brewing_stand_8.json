@@ -6,10 +6,10 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:beetroot"
+      "item": "minecraft:magenta_dye"
     },
     "#": {
-      "item": "minecraft:note_block"
+      "item": "minecraft:snow"
     }
   },
   "result": {

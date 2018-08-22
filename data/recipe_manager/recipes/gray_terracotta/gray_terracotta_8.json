@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:enchanting_table"
+      "item": "minecraft:beef"
     },
     "X": {
-      "item": "minecraft:melon"
+      "item": "minecraft:nether_quartz_ore"
     }
   },
   "result": {

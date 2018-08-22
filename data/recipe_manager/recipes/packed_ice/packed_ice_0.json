@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cobweb"
+      "item": "minecraft:cyan_carpet"
     },
     {
-      "item": "minecraft:ender_chest"
+      "item": "minecraft:emerald_ore"
     },
     {
-      "item": "minecraft:ghast_tear"
+      "item": "minecraft:ender_eye"
     },
     {
-      "item": "minecraft:lead"
+      "item": "minecraft:infested_chiseled_stone_bricks"
     },
     {
-      "item": "minecraft:light_blue_terracotta"
+      "item": "minecraft:jungle_leaves"
     },
     {
-      "item": "minecraft:pink_shulker_box"
+      "item": "minecraft:light_gray_dye"
     },
     {
-      "item": "minecraft:purple_stained_glass_pane"
+      "item": "minecraft:oak_trapdoor"
     },
     {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:red_sandstone_stairs"
     },
     {
-      "item": "minecraft:tube_coral_block"
+      "item": "minecraft:rotten_flesh"
     }
   ],
   "result": {

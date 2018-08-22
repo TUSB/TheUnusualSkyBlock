@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:fern"
+      "item": "minecraft:skeleton_skull"
     },
     "#": {
-      "item": "minecraft:minecart"
+      "item": "minecraft:stone_hoe"
     }
   },
   "result": {

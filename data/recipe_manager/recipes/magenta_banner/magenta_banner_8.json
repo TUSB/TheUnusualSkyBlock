@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_bed"
+      "item": "minecraft:blue_wool"
     },
     "|": {
-      "item": "minecraft:glass_pane"
+      "item": "minecraft:magenta_concrete"
     }
   },
   "result": {

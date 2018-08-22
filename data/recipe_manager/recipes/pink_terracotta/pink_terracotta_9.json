@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dropper"
+      "item": "minecraft:oak_pressure_plate"
     },
     "X": {
-      "item": "minecraft:piston"
+      "item": "minecraft:slime_ball"
     }
   },
   "result": {

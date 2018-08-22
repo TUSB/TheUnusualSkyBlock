@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_sapling"
+      "item": "minecraft:bone"
     },
     {
-      "item": "minecraft:grass_path"
+      "item": "minecraft:brown_shulker_box"
     },
     {
-      "item": "minecraft:jungle_door"
+      "item": "minecraft:dead_fire_coral_block"
     },
     {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:green_concrete"
     },
     {
-      "item": "minecraft:pufferfish_bucket"
+      "item": "minecraft:ladder"
     },
     {
-      "item": "minecraft:purple_stained_glass"
+      "item": "minecraft:light_gray_banner"
     },
     {
-      "item": "minecraft:red_sandstone_slab"
+      "item": "minecraft:magma_cream"
     },
     {
-      "item": "minecraft:red_terracotta"
+      "item": "minecraft:prismarine_slab"
     },
     {
-      "item": "minecraft:spruce_slab"
+      "item": "minecraft:tube_coral_block"
     }
   ],
   "result": {

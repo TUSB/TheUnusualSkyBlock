@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_carpet"
+      "item": "minecraft:birch_fence_gate"
     },
     "X": {
-      "item": "minecraft:oak_log"
+      "item": "minecraft:iron_door"
     }
   },
   "result": {

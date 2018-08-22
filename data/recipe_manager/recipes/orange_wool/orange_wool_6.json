@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_prismarine_slab"
+      "item": "minecraft:golden_helmet"
     },
     {
-      "item": "minecraft:light_gray_concrete_powder"
+      "item": "minecraft:pumpkin_seeds"
     }
   ],
   "result": {

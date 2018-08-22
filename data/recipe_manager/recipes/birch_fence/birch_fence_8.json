@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:birch_trapdoor"
+      "item": "minecraft:gunpowder"
     },
     "#": {
-      "item": "minecraft:chest_minecart"
+      "item": "minecraft:shield"
     }
   },
   "result": {

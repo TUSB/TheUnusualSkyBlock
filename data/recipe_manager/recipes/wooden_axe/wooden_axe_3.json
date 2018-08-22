@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:coal"
+      "item": "minecraft:brown_concrete"
     },
     "#": {
-      "item": "minecraft:white_shulker_box"
+      "item": "minecraft:golden_shovel"
     }
   },
   "result": {

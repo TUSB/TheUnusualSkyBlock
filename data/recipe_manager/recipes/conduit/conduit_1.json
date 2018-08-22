@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_terracotta"
+      "item": "minecraft:shulker_box"
     },
     "X": {
-      "item": "minecraft:rabbit_foot"
+      "item": "minecraft:writable_book"
     }
   },
   "result": {

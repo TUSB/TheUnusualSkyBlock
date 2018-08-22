@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_button"
+      "item": "minecraft:cauldron"
     },
     "X": {
-      "item": "minecraft:gray_concrete"
+      "item": "minecraft:leather"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cooked_rabbit"
+      "item": "minecraft:book"
     },
     "#": {
-      "item": "minecraft:soul_sand"
+      "item": "minecraft:white_concrete_powder"
     }
   },
   "result": {

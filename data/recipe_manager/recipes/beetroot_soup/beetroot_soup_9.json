@@ -7,10 +7,10 @@
   ],
   "key": {
     "O": {
-      "item": "minecraft:sandstone_stairs"
+      "item": "minecraft:birch_trapdoor"
     },
     "B": {
-      "item": "minecraft:spruce_boat"
+      "item": "minecraft:furnace"
     }
   },
   "result": {

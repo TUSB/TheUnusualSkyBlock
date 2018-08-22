@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_trapdoor"
+      "item": "minecraft:birch_button"
     },
     {
-      "item": "minecraft:blue_banner"
+      "item": "minecraft:dark_oak_fence_gate"
     },
     {
-      "item": "minecraft:blue_concrete_powder"
+      "item": "minecraft:jungle_trapdoor"
     },
     {
-      "item": "minecraft:bow"
+      "item": "minecraft:magenta_stained_glass"
     },
     {
-      "item": "minecraft:diamond_boots"
+      "item": "minecraft:oak_leaves"
     },
     {
-      "item": "minecraft:flower_pot"
+      "item": "minecraft:oak_wood"
     },
     {
-      "item": "minecraft:light_gray_bed"
+      "item": "minecraft:purpur_pillar"
     },
     {
-      "item": "minecraft:lime_terracotta"
+      "item": "minecraft:red_nether_bricks"
     },
     {
-      "item": "minecraft:lime_wool"
+      "item": "minecraft:red_wool"
     }
   ],
   "result": {

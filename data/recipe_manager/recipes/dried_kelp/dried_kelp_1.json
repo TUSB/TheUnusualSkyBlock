@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_bed"
+      "item": "minecraft:zombie_head"
     }
   ],
   "result": {

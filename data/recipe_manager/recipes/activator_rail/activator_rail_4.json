@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cyan_concrete_powder"
+      "item": "minecraft:black_shulker_box"
     },
     "S": {
-      "item": "minecraft:oak_log"
+      "item": "minecraft:pink_tulip"
     },
     "#": {
-      "item": "minecraft:white_carpet"
+      "item": "minecraft:wooden_pickaxe"
     }
   },
   "result": {

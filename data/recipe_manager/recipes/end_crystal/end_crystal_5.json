@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:chainmail_boots"
+      "item": "minecraft:apple"
     },
     "E": {
-      "item": "minecraft:written_book"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     },
     "T": {
-      "item": "minecraft:yellow_terracotta"
+      "item": "minecraft:saddle"
     }
   },
   "result": {

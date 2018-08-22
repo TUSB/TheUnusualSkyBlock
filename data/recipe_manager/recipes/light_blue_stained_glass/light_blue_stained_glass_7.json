@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cobblestone_stairs"
+      "item": "minecraft:diamond_sword"
     },
     "X": {
-      "item": "minecraft:dark_oak_leaves"
+      "item": "minecraft:stone_brick_stairs"
     }
   },
   "result": {

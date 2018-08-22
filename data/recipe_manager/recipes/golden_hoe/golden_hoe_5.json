@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:jukebox"
+      "item": "minecraft:acacia_button"
     },
     "#": {
-      "item": "minecraft:paper"
+      "item": "minecraft:zombie_head"
     }
   },
   "result": {

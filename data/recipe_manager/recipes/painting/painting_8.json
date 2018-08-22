@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:nether_brick"
+      "item": "minecraft:iron_chestplate"
     },
     "X": {
-      "item": "minecraft:spawner"
+      "item": "minecraft:poisonous_potato"
     }
   },
   "result": {

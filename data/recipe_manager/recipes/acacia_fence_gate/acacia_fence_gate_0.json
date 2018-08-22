@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:purple_dye"
     },
     "W": {
-      "item": "minecraft:brown_shulker_box"
+      "item": "minecraft:string"
     }
   },
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_trapdoor"
+      "item": "minecraft:clay_ball"
     },
     "X": {
-      "item": "minecraft:light_blue_bed"
+      "item": "minecraft:granite"
     },
     "R": {
-      "item": "minecraft:white_banner"
+      "item": "minecraft:red_glazed_terracotta"
     }
   },
   "result": {

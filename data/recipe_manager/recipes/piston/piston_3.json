@@ -7,16 +7,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:carrot"
+      "item": "minecraft:compass"
     },
     "#": {
-      "item": "minecraft:detector_rail"
+      "item": "minecraft:crafting_table"
     },
     "X": {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:light_blue_wool"
     },
     "R": {
-      "item": "minecraft:wooden_sword"
+      "item": "minecraft:purple_terracotta"
     }
   },
   "result": {

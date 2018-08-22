@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:detector_rail"
+      "item": "minecraft:green_bed"
     },
     {
-      "item": "minecraft:spruce_pressure_plate"
+      "item": "minecraft:magenta_concrete"
     }
   ],
   "result": {

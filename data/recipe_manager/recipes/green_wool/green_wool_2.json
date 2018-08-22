@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:gravel"
+      "item": "minecraft:pumpkin"
     },
     {
-      "item": "minecraft:infested_cobblestone"
+      "item": "minecraft:redstone_lamp"
     }
   ],
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:creeper_head"
+      "item": "minecraft:brain_coral"
     },
     "#": {
-      "item": "minecraft:infested_chiseled_stone_bricks"
+      "item": "minecraft:nether_quartz_ore"
     },
     "R": {
-      "item": "minecraft:purpur_slab"
+      "item": "minecraft:spider_eye"
     }
   },
   "result": {

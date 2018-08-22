@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:birch_planks"
+      "item": "minecraft:cracked_stone_bricks"
     },
     "B": {
-      "item": "minecraft:orange_dye"
+      "item": "minecraft:orange_tulip"
     }
   },
   "result": {

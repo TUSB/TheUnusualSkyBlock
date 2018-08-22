@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:ladder"
+      "item": "minecraft:iron_helmet"
     },
     "X": {
-      "item": "minecraft:stone_bricks"
+      "item": "minecraft:lime_shulker_box"
     }
   },
   "result": {

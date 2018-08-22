@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_wood"
+      "item": "minecraft:azure_bluet"
     },
     {
-      "item": "minecraft:glass"
+      "item": "minecraft:birch_stairs"
     },
     {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:blue_orchid"
     },
     {
-      "item": "minecraft:light_blue_dye"
+      "item": "minecraft:brown_concrete"
     },
     {
-      "item": "minecraft:peony"
+      "item": "minecraft:chainmail_boots"
     },
     {
-      "item": "minecraft:red_terracotta"
+      "item": "minecraft:glass_bottle"
     },
     {
-      "item": "minecraft:red_wool"
+      "item": "minecraft:glistering_melon_slice"
     },
     {
-      "item": "minecraft:spruce_fence"
+      "item": "minecraft:shears"
     },
     {
-      "item": "minecraft:written_book"
+      "item": "minecraft:yellow_bed"
     }
   ],
   "result": {

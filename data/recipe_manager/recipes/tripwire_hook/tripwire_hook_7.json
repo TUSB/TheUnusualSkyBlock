@@ -7,13 +7,13 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:brick_stairs"
     },
     "S": {
-      "item": "minecraft:turtle_helmet"
+      "item": "minecraft:bubble_coral_fan"
     },
     "#": {
-      "item": "minecraft:written_book"
+      "item": "minecraft:light_gray_stained_glass"
     }
   },
   "result": {

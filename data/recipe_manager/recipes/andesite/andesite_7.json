@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:creeper_head"
+      "item": "minecraft:jukebox"
     },
     {
-      "item": "minecraft:rabbit"
+      "item": "minecraft:torch"
     }
   ],
   "result": {

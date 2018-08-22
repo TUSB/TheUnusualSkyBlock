@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:jungle_pressure_plate"
+      "item": "minecraft:dark_oak_trapdoor"
     }
   ],
   "result": {

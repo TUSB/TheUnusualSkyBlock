@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:acacia_wood"
+      "item": "minecraft:diamond_helmet"
     },
     "B": {
-      "item": "minecraft:sunflower"
+      "item": "minecraft:red_stained_glass_pane"
     }
   },
   "result": {

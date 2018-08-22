@@ -7,10 +7,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:brick_stairs"
+      "item": "minecraft:black_stained_glass_pane"
     },
     "o": {
-      "item": "minecraft:shears"
+      "item": "minecraft:vine"
     }
   },
   "result": {

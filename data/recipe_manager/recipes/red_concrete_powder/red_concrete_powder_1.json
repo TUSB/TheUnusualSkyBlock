@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:anvil"
+      "item": "minecraft:apple"
     },
     {
-      "item": "minecraft:cobblestone_wall"
+      "item": "minecraft:dark_oak_fence_gate"
     },
     {
-      "item": "minecraft:dark_prismarine_stairs"
+      "item": "minecraft:dark_oak_pressure_plate"
     },
     {
-      "item": "minecraft:golden_axe"
+      "item": "minecraft:flint"
     },
     {
-      "item": "minecraft:light_blue_stained_glass"
+      "item": "minecraft:jack_o_lantern"
     },
     {
-      "item": "minecraft:oak_leaves"
+      "item": "minecraft:jungle_fence_gate"
     },
     {
-      "item": "minecraft:packed_ice"
+      "item": "minecraft:ladder"
     },
     {
-      "item": "minecraft:spectral_arrow"
+      "item": "minecraft:rail"
     },
     {
-      "item": "minecraft:terracotta"
+      "item": "minecraft:vine"
     }
   ],
   "result": {

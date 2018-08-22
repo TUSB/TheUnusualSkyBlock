@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:orange_terracotta"
+      "item": "minecraft:dead_brain_coral_block"
     },
     {
-      "item": "minecraft:pink_concrete_powder"
+      "item": "minecraft:wheat"
     }
   ],
   "result": {

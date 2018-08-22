@@ -7,10 +7,10 @@
   ],
   "key": {
     "O": {
-      "item": "minecraft:brown_glazed_terracotta"
+      "item": "minecraft:lava_bucket"
     },
     "B": {
-      "item": "minecraft:nether_wart"
+      "item": "minecraft:mushroom_stem"
     }
   },
   "result": {

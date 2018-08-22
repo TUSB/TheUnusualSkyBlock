@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_trapdoor"
+      "item": "minecraft:blue_terracotta"
     },
     "|": {
-      "item": "minecraft:tripwire_hook"
+      "item": "minecraft:diamond_block"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_glazed_terracotta"
+      "item": "minecraft:light_gray_shulker_box"
     },
     "X": {
-      "item": "minecraft:stripped_jungle_wood"
+      "item": "minecraft:stripped_acacia_wood"
     }
   },
   "result": {

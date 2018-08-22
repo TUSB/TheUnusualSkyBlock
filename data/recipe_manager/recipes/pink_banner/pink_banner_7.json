@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:arrow"
+      "item": "minecraft:light_gray_dye"
     },
     "|": {
-      "item": "minecraft:cobweb"
+      "item": "minecraft:magenta_concrete"
     }
   },
   "result": {

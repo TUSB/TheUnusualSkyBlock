@@ -6,10 +6,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:chiseled_sandstone"
+      "item": "minecraft:azure_bluet"
     },
     "#": {
-      "item": "minecraft:cobblestone_slab"
+      "item": "minecraft:light_gray_stained_glass_pane"
     }
   },
   "result": {

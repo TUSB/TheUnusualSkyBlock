@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:magenta_glazed_terracotta"
+      "item": "minecraft:azure_bluet"
     },
     "#": {
-      "item": "minecraft:purple_terracotta"
+      "item": "minecraft:sand"
     },
     "R": {
-      "item": "minecraft:shield"
+      "item": "minecraft:tropical_fish"
     }
   },
   "result": {

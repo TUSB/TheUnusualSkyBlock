@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magenta_stained_glass_pane"
+      "item": "minecraft:bow"
     },
     "X": {
-      "item": "minecraft:sugar"
+      "item": "minecraft:nether_brick_stairs"
     }
   },
   "result": {

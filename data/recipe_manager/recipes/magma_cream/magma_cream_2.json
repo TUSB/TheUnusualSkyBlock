@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:hay_block"
+      "item": "minecraft:gray_terracotta"
     },
     {
-      "item": "minecraft:oxeye_daisy"
+      "item": "minecraft:player_head"
     }
   ],
   "result": {

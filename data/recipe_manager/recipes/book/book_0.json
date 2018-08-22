@@ -2,16 +2,16 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_stained_glass_pane"
+      "item": "minecraft:acacia_fence"
     },
     {
-      "item": "minecraft:dead_brain_coral_fan"
+      "item": "minecraft:birch_leaves"
     },
     {
-      "item": "minecraft:green_concrete"
+      "item": "minecraft:cracked_stone_bricks"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:red_sand"
     }
   ],
   "result": {

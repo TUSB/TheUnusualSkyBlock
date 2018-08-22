@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:acacia_door"
     },
     {
-      "item": "minecraft:chainmail_chestplate"
+      "item": "minecraft:black_stained_glass"
     },
     {
-      "item": "minecraft:feather"
+      "item": "minecraft:cyan_banner"
     },
     {
-      "item": "minecraft:lime_wool"
+      "item": "minecraft:lime_carpet"
     },
     {
-      "item": "minecraft:magenta_bed"
+      "item": "minecraft:pink_wool"
     },
     {
-      "item": "minecraft:melon_slice"
+      "item": "minecraft:red_shulker_box"
     },
     {
-      "item": "minecraft:oak_leaves"
+      "item": "minecraft:shears"
     },
     {
-      "item": "minecraft:vine"
+      "item": "minecraft:white_glazed_terracotta"
     },
     {
-      "item": "minecraft:yellow_stained_glass"
+      "item": "minecraft:yellow_terracotta"
     }
   ],
   "result": {

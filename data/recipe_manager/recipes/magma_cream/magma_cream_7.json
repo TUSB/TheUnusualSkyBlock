@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:stripped_birch_wood"
+      "item": "minecraft:sandstone"
     },
     {
-      "item": "minecraft:sugar"
+      "item": "minecraft:seagrass"
     }
   ],
   "result": {

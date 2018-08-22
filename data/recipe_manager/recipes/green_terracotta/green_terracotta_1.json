@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:ghast_tear"
+      "item": "minecraft:emerald_ore"
     },
     "X": {
-      "item": "minecraft:splash_potion"
+      "item": "minecraft:shears"
     }
   },
   "result": {

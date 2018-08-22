@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:fire_coral"
+      "item": "minecraft:brewing_stand"
     },
     "X": {
-      "item": "minecraft:shield"
+      "item": "minecraft:stone_sword"
     }
   },
   "result": {

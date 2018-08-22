@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_weighted_pressure_plate"
+      "item": "minecraft:brown_concrete_powder"
     },
     "X": {
-      "item": "minecraft:red_sandstone_slab"
+      "item": "minecraft:damaged_anvil"
     }
   },
   "result": {

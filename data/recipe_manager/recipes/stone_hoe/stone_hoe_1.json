@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:mossy_cobblestone_wall"
+      "item": "minecraft:brown_shulker_box"
     },
     "#": {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:podzol"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_trapdoor"
+      "item": "minecraft:red_sand"
     },
     "|": {
-      "item": "minecraft:scute"
+      "item": "minecraft:snow"
     }
   },
   "result": {

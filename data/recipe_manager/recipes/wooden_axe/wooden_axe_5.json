@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:glass_bottle"
+      "item": "minecraft:salmon"
     },
     "#": {
-      "item": "minecraft:iron_trapdoor"
+      "item": "minecraft:smooth_sandstone"
     }
   },
   "result": {

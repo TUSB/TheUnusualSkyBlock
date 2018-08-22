@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:end_crystal"
+      "item": "minecraft:clock"
     },
     "B": {
-      "item": "minecraft:trapped_chest"
+      "item": "minecraft:stone_pressure_plate"
     }
   },
   "result": {

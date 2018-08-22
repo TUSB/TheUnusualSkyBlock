@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:chest_minecart"
+      "item": "minecraft:gray_dye"
     },
     "B": {
-      "item": "minecraft:magenta_dye"
+      "item": "minecraft:jungle_planks"
     }
   },
   "result": {

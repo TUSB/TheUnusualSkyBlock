@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_concrete"
+      "item": "minecraft:lime_dye"
     },
     {
-      "item": "minecraft:dark_oak_leaves"
+      "item": "minecraft:mushroom_stew"
     },
     {
-      "item": "minecraft:mutton"
+      "item": "minecraft:stripped_jungle_log"
     }
   ],
   "result": {

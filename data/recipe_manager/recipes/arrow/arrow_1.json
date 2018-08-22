@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:sponge"
+      "item": "minecraft:flint"
     },
     "#": {
-      "item": "minecraft:tube_coral_fan"
+      "item": "minecraft:red_shulker_box"
     },
     "Y": {
-      "item": "minecraft:yellow_concrete"
+      "item": "minecraft:writable_book"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:yellow_shulker_box"
+      "item": "minecraft:cod_bucket"
     },
     "X": {
-      "item": "minecraft:yellow_stained_glass_pane"
+      "item": "minecraft:shield"
     }
   },
   "result": {

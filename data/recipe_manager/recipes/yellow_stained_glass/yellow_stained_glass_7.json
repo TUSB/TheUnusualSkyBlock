@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:carrot"
+      "item": "minecraft:note_block"
     },
     "X": {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:wooden_sword"
     }
   },
   "result": {

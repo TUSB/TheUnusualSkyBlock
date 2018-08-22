@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:anvil"
+      "item": "minecraft:granite"
     },
     "X": {
-      "item": "minecraft:powered_rail"
+      "item": "minecraft:shield"
     }
   },
   "result": {

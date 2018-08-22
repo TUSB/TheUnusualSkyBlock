@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:green_wool"
+      "item": "minecraft:book"
     },
     "E": {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:light_blue_carpet"
     },
     "T": {
-      "item": "minecraft:snow"
+      "item": "minecraft:oak_button"
     }
   },
   "result": {

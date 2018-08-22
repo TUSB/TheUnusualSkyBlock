@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:pink_terracotta"
+      "item": "minecraft:gray_shulker_box"
     },
     "S": {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:kelp"
     },
     "#": {
-      "item": "minecraft:red_wool"
+      "item": "minecraft:oak_sapling"
     }
   },
   "result": {

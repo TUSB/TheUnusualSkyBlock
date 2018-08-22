@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chainmail_boots"
+      "item": "minecraft:acacia_button"
     },
     {
-      "item": "minecraft:paper"
+      "item": "minecraft:chorus_plant"
     }
   ],
   "result": {

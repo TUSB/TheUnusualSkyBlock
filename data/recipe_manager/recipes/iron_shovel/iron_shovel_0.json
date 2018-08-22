@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_oak_log"
+      "item": "minecraft:enchanted_book"
     },
     "#": {
-      "item": "minecraft:yellow_shulker_box"
+      "item": "minecraft:glass_pane"
     }
   },
   "result": {

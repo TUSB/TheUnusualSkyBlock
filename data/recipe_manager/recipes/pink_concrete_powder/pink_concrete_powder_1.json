@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_sapling"
+      "item": "minecraft:brain_coral"
     },
     {
-      "item": "minecraft:damaged_anvil"
+      "item": "minecraft:brown_glazed_terracotta"
     },
     {
-      "item": "minecraft:green_banner"
+      "item": "minecraft:fire_coral"
     },
     {
-      "item": "minecraft:iron_bars"
+      "item": "minecraft:green_shulker_box"
     },
     {
-      "item": "minecraft:orange_banner"
+      "item": "minecraft:jack_o_lantern"
     },
     {
-      "item": "minecraft:polished_granite"
+      "item": "minecraft:leather_boots"
     },
     {
-      "item": "minecraft:red_sandstone_slab"
+      "item": "minecraft:magenta_concrete_powder"
     },
     {
-      "item": "minecraft:spruce_wood"
+      "item": "minecraft:popped_chorus_fruit"
     },
     {
-      "item": "minecraft:sugar"
+      "item": "minecraft:stripped_oak_wood"
     }
   ],
   "result": {

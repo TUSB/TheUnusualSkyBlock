@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_fence_gate"
+      "item": "minecraft:acacia_fence"
     },
     {
-      "item": "minecraft:brown_mushroom_block"
+      "item": "minecraft:cyan_banner"
     },
     {
-      "item": "minecraft:dark_oak_sapling"
+      "item": "minecraft:ice"
     },
     {
-      "item": "minecraft:detector_rail"
+      "item": "minecraft:ink_sac"
     },
     {
-      "item": "minecraft:glistering_melon_slice"
+      "item": "minecraft:light_gray_concrete_powder"
     },
     {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:orange_dye"
     },
     {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:orange_glazed_terracotta"
     },
     {
-      "item": "minecraft:stripped_oak_wood"
+      "item": "minecraft:phantom_membrane"
     },
     {
-      "item": "minecraft:yellow_concrete"
+      "item": "minecraft:snowball"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "D": {
-      "item": "minecraft:beacon"
+      "item": "minecraft:fishing_rod"
     },
     "G": {
-      "item": "minecraft:conduit"
+      "item": "minecraft:wither_skeleton_skull"
     }
   },
   "result": {

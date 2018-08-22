@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_log"
+      "item": "minecraft:porkchop"
     },
     {
-      "item": "minecraft:purple_glazed_terracotta"
+      "item": "minecraft:wet_sponge"
     }
   ],
   "result": {

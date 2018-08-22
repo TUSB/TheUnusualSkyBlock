@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:brown_stained_glass_pane"
+      "item": "minecraft:lime_terracotta"
     },
     "#": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:spruce_stairs"
     }
   },
   "result": {

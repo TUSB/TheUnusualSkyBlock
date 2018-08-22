@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_log"
+      "item": "minecraft:bow"
     },
     "X": {
-      "item": "minecraft:cod"
+      "item": "minecraft:string"
     }
   },
   "result": {

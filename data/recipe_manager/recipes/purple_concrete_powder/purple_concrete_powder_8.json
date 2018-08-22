@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chorus_flower"
+      "item": "minecraft:blue_banner"
     },
     {
-      "item": "minecraft:coal_ore"
+      "item": "minecraft:brown_bed"
     },
     {
-      "item": "minecraft:golden_axe"
+      "item": "minecraft:cod"
     },
     {
-      "item": "minecraft:green_glazed_terracotta"
+      "item": "minecraft:ghast_tear"
     },
     {
-      "item": "minecraft:iron_door"
+      "item": "minecraft:iron_hoe"
     },
     {
-      "item": "minecraft:nether_quartz_ore"
+      "item": "minecraft:light_blue_shulker_box"
     },
     {
-      "item": "minecraft:pink_glazed_terracotta"
+      "item": "minecraft:oak_fence_gate"
     },
     {
-      "item": "minecraft:rail"
+      "item": "minecraft:smooth_stone"
     },
     {
-      "item": "minecraft:red_glazed_terracotta"
+      "item": "minecraft:tnt"
     }
   ],
   "result": {

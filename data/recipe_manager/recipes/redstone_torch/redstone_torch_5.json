@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:mossy_cobblestone_wall"
+      "item": "minecraft:black_shulker_box"
     },
     "#": {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:large_fern"
     }
   },
   "result": {

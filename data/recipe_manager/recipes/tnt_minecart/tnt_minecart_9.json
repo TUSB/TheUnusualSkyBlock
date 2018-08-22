@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:diorite"
+      "item": "minecraft:dropper"
     },
     "B": {
-      "item": "minecraft:jungle_fence"
+      "item": "minecraft:wooden_shovel"
     }
   },
   "result": {

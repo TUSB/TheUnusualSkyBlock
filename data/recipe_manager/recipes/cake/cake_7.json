@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:black_shulker_box"
+      "item": "minecraft:brown_wool"
     },
     "B": {
-      "item": "minecraft:flint"
+      "item": "minecraft:dark_oak_sapling"
     },
     "E": {
-      "item": "minecraft:light_gray_bed"
+      "item": "minecraft:fire_coral_fan"
     },
     "C": {
-      "item": "minecraft:shulker_shell"
+      "item": "minecraft:soul_sand"
     }
   },
   "result": {

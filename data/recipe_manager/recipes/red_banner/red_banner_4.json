@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_leggings"
+      "item": "minecraft:acacia_button"
     },
     "|": {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:tall_grass"
     }
   },
   "result": {

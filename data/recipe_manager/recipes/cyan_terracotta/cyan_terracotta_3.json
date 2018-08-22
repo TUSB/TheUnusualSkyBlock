@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:melon_seeds"
+      "item": "minecraft:emerald_block"
     },
     "X": {
-      "item": "minecraft:repeater"
+      "item": "minecraft:spruce_slab"
     }
   },
   "result": {

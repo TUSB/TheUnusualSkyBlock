@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:orange_stained_glass_pane"
+      "item": "minecraft:yellow_wool"
     }
   ],
   "result": {

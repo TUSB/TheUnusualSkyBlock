@@ -6,10 +6,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:dark_oak_log"
+      "item": "minecraft:bow"
     },
     "P": {
-      "item": "minecraft:diamond_helmet"
+      "item": "minecraft:jack_o_lantern"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:purple_terracotta"
+      "item": "minecraft:nether_bricks"
     },
     "X": {
-      "item": "minecraft:quartz"
+      "item": "minecraft:stripped_birch_wood"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:flower_pot"
+      "item": "minecraft:dark_oak_leaves"
     },
     "W": {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:pumpkin_seeds"
     }
   },
   "result": {

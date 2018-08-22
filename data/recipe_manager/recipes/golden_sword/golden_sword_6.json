@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:orange_stained_glass_pane"
+      "item": "minecraft:orange_dye"
     },
     "#": {
-      "item": "minecraft:torch"
+      "item": "minecraft:tnt_minecart"
     }
   },
   "result": {

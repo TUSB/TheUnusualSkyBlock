@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cobblestone"
+      "item": "minecraft:red_banner"
     },
     {
-      "item": "minecraft:white_banner"
+      "item": "minecraft:spectral_arrow"
     }
   ],
   "result": {

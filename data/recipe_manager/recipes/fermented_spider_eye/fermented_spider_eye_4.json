@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:podzol"
+      "item": "minecraft:book"
     },
     {
-      "item": "minecraft:red_shulker_box"
+      "item": "minecraft:dark_oak_slab"
     },
     {
-      "item": "minecraft:vine"
+      "item": "minecraft:packed_ice"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_fence_gate"
+      "item": "minecraft:carved_pumpkin"
     },
     "#": {
-      "item": "minecraft:golden_chestplate"
+      "item": "minecraft:dried_kelp"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cake"
+      "item": "minecraft:lily_pad"
     },
     {
-      "item": "minecraft:snow"
+      "item": "minecraft:oak_sapling"
     }
   ],
   "result": {

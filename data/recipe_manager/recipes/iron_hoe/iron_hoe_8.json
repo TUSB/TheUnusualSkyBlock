@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:red_sandstone_stairs"
+      "item": "minecraft:bow"
     },
     "#": {
-      "item": "minecraft:wooden_sword"
+      "item": "minecraft:oak_fence_gate"
     }
   },
   "result": {

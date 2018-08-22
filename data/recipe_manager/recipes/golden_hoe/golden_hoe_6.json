@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:glass_pane"
+      "item": "minecraft:nether_brick_stairs"
     },
     "#": {
-      "item": "minecraft:repeater"
+      "item": "minecraft:pumpkin_pie"
     }
   },
   "result": {

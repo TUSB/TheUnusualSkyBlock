@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bow"
+      "item": "minecraft:cooked_beef"
     },
     "X": {
-      "item": "minecraft:chiseled_stone_bricks"
+      "item": "minecraft:painting"
     }
   },
   "result": {

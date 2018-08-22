@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:ender_eye"
+      "item": "minecraft:melon_seeds"
     },
     {
-      "item": "minecraft:stripped_oak_log"
+      "item": "minecraft:spruce_log"
     }
   ],
   "result": {

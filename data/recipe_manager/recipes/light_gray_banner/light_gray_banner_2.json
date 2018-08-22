@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:arrow"
+      "item": "minecraft:podzol"
     },
     "|": {
-      "item": "minecraft:birch_button"
+      "item": "minecraft:purpur_pillar"
     }
   },
   "result": {

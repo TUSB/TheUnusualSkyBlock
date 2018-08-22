@@ -7,10 +7,10 @@
   ],
   "key": {
     "R": {
-      "item": "minecraft:player_head"
+      "item": "minecraft:light_blue_glazed_terracotta"
     },
     "G": {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:lilac"
     }
   },
   "result": {

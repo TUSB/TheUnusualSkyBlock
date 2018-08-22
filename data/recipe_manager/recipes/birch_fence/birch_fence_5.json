@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:cooked_porkchop"
+      "item": "minecraft:blaze_rod"
     },
     "#": {
-      "item": "minecraft:white_concrete_powder"
+      "item": "minecraft:nether_brick"
     }
   },
   "result": {

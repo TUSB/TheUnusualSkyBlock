@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lever"
+      "item": "minecraft:acacia_fence_gate"
     },
     "X": {
-      "item": "minecraft:melon_seeds"
+      "item": "minecraft:packed_ice"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_shulker_box"
+      "item": "minecraft:cyan_stained_glass_pane"
     },
     {
-      "item": "minecraft:cyan_bed"
+      "item": "minecraft:spruce_stairs"
     }
   ],
   "result": {

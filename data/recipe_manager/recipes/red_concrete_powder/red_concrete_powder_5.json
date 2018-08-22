@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_carpet"
+      "item": "minecraft:emerald"
     },
     {
-      "item": "minecraft:blue_shulker_box"
+      "item": "minecraft:iron_horse_armor"
     },
     {
-      "item": "minecraft:bone_meal"
+      "item": "minecraft:magenta_glazed_terracotta"
     },
     {
-      "item": "minecraft:glowstone"
+      "item": "minecraft:magenta_shulker_box"
     },
     {
-      "item": "minecraft:item_frame"
+      "item": "minecraft:minecart"
     },
     {
-      "item": "minecraft:orange_wool"
+      "item": "minecraft:quartz_stairs"
     },
     {
-      "item": "minecraft:pink_bed"
+      "item": "minecraft:red_mushroom"
     },
     {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:spruce_door"
     },
     {
-      "item": "minecraft:white_shulker_box"
+      "item": "minecraft:spruce_leaves"
     }
   ],
   "result": {

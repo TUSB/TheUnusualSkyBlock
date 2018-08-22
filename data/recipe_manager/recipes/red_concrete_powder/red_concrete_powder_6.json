@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_leaves"
+      "item": "minecraft:activator_rail"
     },
     {
-      "item": "minecraft:chainmail_helmet"
+      "item": "minecraft:blue_carpet"
     },
     {
-      "item": "minecraft:diamond_boots"
+      "item": "minecraft:dragon_breath"
     },
     {
-      "item": "minecraft:green_shulker_box"
+      "item": "minecraft:granite"
     },
     {
-      "item": "minecraft:map"
+      "item": "minecraft:green_wool"
     },
     {
-      "item": "minecraft:purple_dye"
+      "item": "minecraft:light_blue_terracotta"
     },
     {
-      "item": "minecraft:sponge"
+      "item": "minecraft:purpur_stairs"
     },
     {
-      "item": "minecraft:spruce_stairs"
+      "item": "minecraft:rose_bush"
     },
     {
-      "item": "minecraft:stone_pressure_plate"
+      "item": "minecraft:white_tulip"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:brown_mushroom"
+      "item": "minecraft:brown_shulker_box"
     },
     "#": {
-      "item": "minecraft:peony"
+      "item": "minecraft:gray_terracotta"
     }
   },
   "result": {

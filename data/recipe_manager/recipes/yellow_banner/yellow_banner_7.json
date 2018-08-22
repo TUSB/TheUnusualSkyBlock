@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_concrete"
+      "item": "minecraft:carrot"
     },
     "|": {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "item": "minecraft:chiseled_red_sandstone"
     }
   },
   "result": {

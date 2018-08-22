@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:prismarine"
+      "item": "minecraft:magma_block"
     },
     "X": {
-      "item": "minecraft:repeater"
+      "item": "minecraft:redstone_ore"
     }
   },
   "result": {

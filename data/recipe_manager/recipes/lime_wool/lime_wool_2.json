@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:egg"
+      "item": "minecraft:gold_nugget"
     },
     {
-      "item": "minecraft:spruce_fence"
+      "item": "minecraft:light_gray_concrete_powder"
     }
   ],
   "result": {

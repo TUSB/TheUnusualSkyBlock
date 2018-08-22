@@ -7,16 +7,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:dried_kelp"
+      "item": "minecraft:pink_concrete_powder"
     },
     "#": {
-      "item": "minecraft:light_gray_terracotta"
+      "item": "minecraft:slime_block"
     },
     "X": {
-      "item": "minecraft:lime_stained_glass_pane"
+      "item": "minecraft:sticky_piston"
     },
     "R": {
-      "item": "minecraft:nether_quartz_ore"
+      "item": "minecraft:stripped_acacia_wood"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:pink_glazed_terracotta"
+      "item": "minecraft:furnace"
     },
     "#": {
-      "item": "minecraft:spruce_log"
+      "item": "minecraft:wooden_pickaxe"
     }
   },
   "result": {

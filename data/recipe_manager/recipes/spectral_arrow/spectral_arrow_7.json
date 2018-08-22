@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:green_concrete_powder"
     },
     "X": {
-      "item": "minecraft:lime_dye"
+      "item": "minecraft:red_stained_glass"
     }
   },
   "result": {

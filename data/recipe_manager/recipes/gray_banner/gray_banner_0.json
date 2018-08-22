@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cobblestone"
+      "item": "minecraft:acacia_fence"
     },
     "|": {
-      "item": "minecraft:magenta_shulker_box"
+      "item": "minecraft:jungle_pressure_plate"
     }
   },
   "result": {

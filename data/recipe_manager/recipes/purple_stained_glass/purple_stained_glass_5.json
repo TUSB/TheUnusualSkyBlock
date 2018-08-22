@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:golden_pickaxe"
+      "item": "minecraft:dark_oak_planks"
     },
     "X": {
-      "item": "minecraft:magenta_stained_glass"
+      "item": "minecraft:furnace_minecart"
     }
   },
   "result": {

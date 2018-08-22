@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_carpet"
+      "item": "minecraft:cauldron"
     },
     "X": {
-      "item": "minecraft:red_sandstone_slab"
+      "item": "minecraft:dark_oak_button"
     }
   },
   "result": {

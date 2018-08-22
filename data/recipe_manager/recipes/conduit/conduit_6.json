@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_wool"
+      "item": "minecraft:dark_oak_log"
     },
     "X": {
-      "item": "minecraft:white_tulip"
+      "item": "minecraft:red_concrete_powder"
     }
   },
   "result": {

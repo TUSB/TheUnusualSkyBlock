@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dirt"
+      "item": "minecraft:magenta_stained_glass"
     },
     "X": {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:pink_concrete_powder"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chainmail_helmet"
+      "item": "minecraft:bone_block"
     },
     {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:bone_meal"
     },
     {
-      "item": "minecraft:jungle_log"
+      "item": "minecraft:coarse_dirt"
     },
     {
-      "item": "minecraft:magenta_concrete"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     },
     {
-      "item": "minecraft:magenta_wool"
+      "item": "minecraft:iron_helmet"
     },
     {
-      "item": "minecraft:melon_slice"
+      "item": "minecraft:light_blue_bed"
     },
     {
-      "item": "minecraft:repeater"
+      "item": "minecraft:pink_banner"
     },
     {
-      "item": "minecraft:stripped_jungle_wood"
+      "item": "minecraft:prismarine_brick_stairs"
     },
     {
-      "item": "minecraft:white_stained_glass"
+      "item": "minecraft:tnt"
     }
   ],
   "result": {

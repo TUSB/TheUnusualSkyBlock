@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_fence"
+      "item": "minecraft:dark_oak_trapdoor"
     },
     "X": {
-      "item": "minecraft:daylight_detector"
+      "item": "minecraft:lime_stained_glass"
     }
   },
   "result": {

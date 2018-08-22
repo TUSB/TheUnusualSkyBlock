@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:emerald"
+      "item": "minecraft:diamond_sword"
     },
     {
-      "item": "minecraft:stone"
+      "item": "minecraft:rail"
     }
   ],
   "result": {

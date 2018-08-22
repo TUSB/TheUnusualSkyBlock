@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:ink_sac"
+      "item": "minecraft:stone_pickaxe"
     },
     "#": {
-      "item": "minecraft:jungle_button"
+      "item": "minecraft:stripped_dark_oak_wood"
     }
   },
   "result": {

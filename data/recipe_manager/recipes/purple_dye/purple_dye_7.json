@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brain_coral"
+      "item": "minecraft:blue_stained_glass_pane"
     },
     {
-      "item": "minecraft:prismarine_shard"
+      "item": "minecraft:dark_oak_pressure_plate"
     }
   ],
   "result": {

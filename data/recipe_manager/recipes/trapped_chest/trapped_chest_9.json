@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:mycelium"
+      "item": "minecraft:dark_prismarine"
     },
     {
-      "item": "minecraft:stone_sword"
+      "item": "minecraft:gray_terracotta"
     }
   ],
   "result": {

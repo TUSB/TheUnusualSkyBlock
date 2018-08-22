@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:lapis_ore"
+      "item": "minecraft:diamond_block"
     },
     "#": {
-      "item": "minecraft:stone_pickaxe"
+      "item": "minecraft:paper"
     }
   },
   "result": {

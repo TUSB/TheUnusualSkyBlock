@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_button"
+      "item": "minecraft:beetroot_soup"
     },
     {
-      "item": "minecraft:cactus_green"
+      "item": "minecraft:black_carpet"
     },
     {
-      "item": "minecraft:cod"
+      "item": "minecraft:chiseled_red_sandstone"
     },
     {
-      "item": "minecraft:dandelion_yellow"
+      "item": "minecraft:coal_ore"
     },
     {
-      "item": "minecraft:ladder"
+      "item": "minecraft:dead_tube_coral_block"
     },
     {
-      "item": "minecraft:light_blue_glazed_terracotta"
+      "item": "minecraft:green_stained_glass"
     },
     {
-      "item": "minecraft:polished_granite"
+      "item": "minecraft:redstone_lamp"
     },
     {
-      "item": "minecraft:sandstone_stairs"
+      "item": "minecraft:smooth_sandstone"
     },
     {
-      "item": "minecraft:stone_sword"
+      "item": "minecraft:stone_brick_stairs"
     }
   ],
   "result": {

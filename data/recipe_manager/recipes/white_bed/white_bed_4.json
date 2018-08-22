@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brick_stairs"
+      "item": "minecraft:green_stained_glass_pane"
     },
     "X": {
-      "item": "minecraft:brown_terracotta"
+      "item": "minecraft:light_gray_terracotta"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:dragon_breath"
     },
     "X": {
-      "item": "minecraft:spruce_wood"
+      "item": "minecraft:wooden_sword"
     }
   },
   "result": {

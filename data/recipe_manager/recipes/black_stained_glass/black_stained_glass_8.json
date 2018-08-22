@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gold_nugget"
+      "item": "minecraft:light_gray_bed"
     },
     "X": {
-      "item": "minecraft:prismarine_crystals"
+      "item": "minecraft:magenta_stained_glass_pane"
     }
   },
   "result": {

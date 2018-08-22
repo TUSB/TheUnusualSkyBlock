@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:glass"
+      "item": "minecraft:black_banner"
     },
     "W": {
-      "item": "minecraft:gold_block"
+      "item": "minecraft:green_glazed_terracotta"
     }
   },
   "result": {

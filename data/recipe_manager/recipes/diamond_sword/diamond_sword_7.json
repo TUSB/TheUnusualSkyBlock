@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:green_banner"
+      "item": "minecraft:cyan_carpet"
     },
     "#": {
-      "item": "minecraft:red_sandstone_slab"
+      "item": "minecraft:tipped_arrow"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:acacia_button"
+      "item": "minecraft:damaged_anvil"
     },
     "#": {
-      "item": "minecraft:iron_chestplate"
+      "item": "minecraft:green_concrete"
     }
   },
   "result": {

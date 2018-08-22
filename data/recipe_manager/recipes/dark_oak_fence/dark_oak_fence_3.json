@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:bone_block"
+      "item": "minecraft:armor_stand"
     },
     "#": {
-      "item": "minecraft:kelp"
+      "item": "minecraft:pink_dye"
     }
   },
   "result": {

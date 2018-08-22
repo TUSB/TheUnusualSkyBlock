@@ -2,16 +2,16 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:iron_pickaxe"
+      "item": "minecraft:acacia_boat"
     },
     {
-      "item": "minecraft:lime_dye"
+      "item": "minecraft:creeper_head"
     },
     {
-      "item": "minecraft:potato"
+      "item": "minecraft:lime_terracotta"
     },
     {
-      "item": "minecraft:yellow_glazed_terracotta"
+      "item": "minecraft:purple_wool"
     }
   ],
   "result": {

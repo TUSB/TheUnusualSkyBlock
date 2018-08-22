@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:cake"
+      "item": "minecraft:brown_mushroom_block"
     },
     "B": {
-      "item": "minecraft:light_blue_banner"
+      "item": "minecraft:coal_block"
     }
   },
   "result": {

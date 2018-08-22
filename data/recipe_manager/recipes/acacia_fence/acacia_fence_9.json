@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:acacia_leaves"
+      "item": "minecraft:coarse_dirt"
     },
     "#": {
-      "item": "minecraft:stripped_acacia_log"
+      "item": "minecraft:magenta_concrete_powder"
     }
   },
   "result": {

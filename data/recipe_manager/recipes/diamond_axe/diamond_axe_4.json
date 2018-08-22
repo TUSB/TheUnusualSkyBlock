@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_concrete"
+      "item": "minecraft:black_bed"
     },
     "#": {
-      "item": "minecraft:iron_chestplate"
+      "item": "minecraft:cyan_shulker_box"
     }
   },
   "result": {

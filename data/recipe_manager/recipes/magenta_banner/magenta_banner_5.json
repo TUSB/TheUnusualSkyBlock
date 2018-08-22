@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_nether_bricks"
+      "item": "minecraft:chest"
     },
     "|": {
-      "item": "minecraft:yellow_carpet"
+      "item": "minecraft:dark_prismarine_slab"
     }
   },
   "result": {

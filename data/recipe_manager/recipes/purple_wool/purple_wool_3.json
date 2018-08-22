@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:golden_sword"
+      "item": "minecraft:dead_brain_coral_fan"
     },
     {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:red_sandstone"
     }
   ],
   "result": {

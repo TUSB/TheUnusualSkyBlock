@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chiseled_red_sandstone"
+      "item": "minecraft:lava_bucket"
     },
     "X": {
-      "item": "minecraft:fire_charge"
+      "item": "minecraft:lily_pad"
     }
   },
   "result": {

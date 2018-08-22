@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brown_mushroom_block"
+      "item": "minecraft:diamond_chestplate"
     },
     "#": {
-      "item": "minecraft:shulker_shell"
+      "item": "minecraft:lime_concrete_powder"
     }
   },
   "result": {

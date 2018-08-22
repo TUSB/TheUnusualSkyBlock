@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_wool"
+      "item": "minecraft:ice"
     },
     "X": {
-      "item": "minecraft:prismarine"
+      "item": "minecraft:smooth_sandstone"
     }
   },
   "result": {

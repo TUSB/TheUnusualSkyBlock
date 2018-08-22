@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gravel"
+      "item": "minecraft:light_gray_bed"
     },
     "|": {
-      "item": "minecraft:pink_glazed_terracotta"
+      "item": "minecraft:written_book"
     }
   },
   "result": {

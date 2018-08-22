@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:hopper"
+      "item": "minecraft:acacia_button"
     },
     "X": {
-      "item": "minecraft:prismarine_stairs"
+      "item": "minecraft:red_banner"
     }
   },
   "result": {

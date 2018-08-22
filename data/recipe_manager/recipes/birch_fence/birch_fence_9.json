@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:light_blue_bed"
+      "item": "minecraft:acacia_wood"
     },
     "#": {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:cactus"
     }
   },
   "result": {

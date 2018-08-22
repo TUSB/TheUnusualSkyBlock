@@ -7,13 +7,13 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:birch_wood"
+      "item": "minecraft:leather_boots"
     },
     "D": {
-      "item": "minecraft:daylight_detector"
+      "item": "minecraft:shulker_box"
     },
     "#": {
-      "item": "minecraft:green_shulker_box"
+      "item": "minecraft:stripped_jungle_wood"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:minecart"
+      "item": "minecraft:cyan_dye"
     },
     "#": {
-      "item": "minecraft:poppy"
+      "item": "minecraft:dandelion_yellow"
     }
   },
   "result": {

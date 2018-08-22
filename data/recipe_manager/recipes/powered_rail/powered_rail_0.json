@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_glazed_terracotta"
+      "item": "minecraft:lime_bed"
     },
     "#": {
-      "item": "minecraft:infested_mossy_stone_bricks"
+      "item": "minecraft:mutton"
     },
     "R": {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:written_book"
     }
   },
   "result": {

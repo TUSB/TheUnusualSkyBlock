@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:purpur_block"
+      "item": "minecraft:lapis_block"
     },
     "X": {
-      "item": "minecraft:shulker_shell"
+      "item": "minecraft:zombie_head"
     }
   },
   "result": {

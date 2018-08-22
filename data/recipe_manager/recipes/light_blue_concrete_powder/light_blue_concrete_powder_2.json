@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bricks"
+      "item": "minecraft:blaze_rod"
     },
     {
-      "item": "minecraft:brown_carpet"
+      "item": "minecraft:blue_orchid"
     },
     {
-      "item": "minecraft:fire_coral_fan"
+      "item": "minecraft:brown_stained_glass"
     },
     {
-      "item": "minecraft:gold_ore"
+      "item": "minecraft:dandelion_yellow"
     },
     {
-      "item": "minecraft:iron_bars"
+      "item": "minecraft:gravel"
     },
     {
-      "item": "minecraft:jungle_boat"
+      "item": "minecraft:green_concrete_powder"
     },
     {
-      "item": "minecraft:oak_leaves"
+      "item": "minecraft:shears"
     },
     {
-      "item": "minecraft:red_sandstone_stairs"
+      "item": "minecraft:spruce_wood"
     },
     {
-      "item": "minecraft:salmon_bucket"
+      "item": "minecraft:terracotta"
     }
   ],
   "result": {

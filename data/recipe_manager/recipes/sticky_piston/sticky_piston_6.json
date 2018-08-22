@@ -6,10 +6,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:heart_of_the_sea"
+      "item": "minecraft:flower_pot"
     },
     "P": {
-      "item": "minecraft:lapis_block"
+      "item": "minecraft:infested_stone_bricks"
     }
   },
   "result": {

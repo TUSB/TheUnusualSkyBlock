@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cake"
+      "item": "minecraft:dark_oak_trapdoor"
     },
     "#": {
-      "item": "minecraft:yellow_terracotta"
+      "item": "minecraft:oak_wood"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beetroot"
+      "item": "minecraft:black_stained_glass"
     },
     {
-      "item": "minecraft:black_glazed_terracotta"
+      "item": "minecraft:blue_stained_glass_pane"
     },
     {
-      "item": "minecraft:diorite"
+      "item": "minecraft:clock"
     },
     {
-      "item": "minecraft:green_carpet"
+      "item": "minecraft:cooked_cod"
     },
     {
-      "item": "minecraft:oak_leaves"
+      "item": "minecraft:ender_chest"
     },
     {
-      "item": "minecraft:orange_glazed_terracotta"
+      "item": "minecraft:iron_helmet"
     },
     {
-      "item": "minecraft:salmon"
+      "item": "minecraft:red_mushroom"
     },
     {
-      "item": "minecraft:white_concrete"
+      "item": "minecraft:rose_bush"
     },
     {
-      "item": "minecraft:yellow_glazed_terracotta"
+      "item": "minecraft:stone_axe"
     }
   ],
   "result": {

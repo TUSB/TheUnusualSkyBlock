@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:fire_charge"
+      "item": "minecraft:cyan_carpet"
     },
     {
-      "item": "minecraft:gray_bed"
+      "item": "minecraft:farmland"
     }
   ],
   "result": {

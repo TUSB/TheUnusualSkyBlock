@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_trapdoor"
+      "item": "minecraft:brick_stairs"
     },
     {
-      "item": "minecraft:allium"
+      "item": "minecraft:coal_ore"
     },
     {
-      "item": "minecraft:bone"
+      "item": "minecraft:dead_horn_coral_fan"
     },
     {
-      "item": "minecraft:bookshelf"
+      "item": "minecraft:diamond_shovel"
     },
     {
-      "item": "minecraft:damaged_anvil"
+      "item": "minecraft:farmland"
     },
     {
-      "item": "minecraft:dried_kelp"
+      "item": "minecraft:feather"
     },
     {
-      "item": "minecraft:golden_leggings"
+      "item": "minecraft:oak_button"
     },
     {
-      "item": "minecraft:light_gray_dye"
+      "item": "minecraft:red_tulip"
     },
     {
-      "item": "minecraft:orange_concrete"
+      "item": "minecraft:seagrass"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:piston"
+      "item": "minecraft:ender_eye"
     },
     "X": {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "item": "minecraft:magenta_shulker_box"
     }
   },
   "result": {

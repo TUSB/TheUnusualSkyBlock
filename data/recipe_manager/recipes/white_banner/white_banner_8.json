@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:chainmail_leggings"
     },
     "|": {
-      "item": "minecraft:spruce_wood"
+      "item": "minecraft:spruce_fence_gate"
     }
   },
   "result": {

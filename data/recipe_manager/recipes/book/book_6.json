@@ -2,16 +2,16 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:detector_rail"
+      "item": "minecraft:lime_banner"
     },
     {
-      "item": "minecraft:glowstone"
+      "item": "minecraft:peony"
     },
     {
-      "item": "minecraft:sea_lantern"
+      "item": "minecraft:snowball"
     },
     {
-      "item": "minecraft:slime_block"
+      "item": "minecraft:stripped_jungle_log"
     }
   ],
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:green_banner"
+      "item": "minecraft:black_concrete_powder"
     },
     {
-      "item": "minecraft:mutton"
+      "item": "minecraft:chiseled_quartz_block"
     },
     {
-      "item": "minecraft:pufferfish_bucket"
+      "item": "minecraft:daylight_detector"
     },
     {
-      "item": "minecraft:stone_brick_stairs"
+      "item": "minecraft:golden_chestplate"
     },
     {
-      "item": "minecraft:white_carpet"
+      "item": "minecraft:heart_of_the_sea"
     },
     {
-      "item": "minecraft:white_stained_glass_pane"
+      "item": "minecraft:iron_sword"
     },
     {
-      "item": "minecraft:white_tulip"
+      "item": "minecraft:melon_seeds"
     },
     {
-      "item": "minecraft:white_wool"
+      "item": "minecraft:spectral_arrow"
     },
     {
-      "item": "minecraft:yellow_wool"
+      "item": "minecraft:spruce_slab"
     }
   ],
   "result": {

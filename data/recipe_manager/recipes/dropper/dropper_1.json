@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_sand"
+      "item": "minecraft:cobblestone_wall"
     },
     "R": {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:trapped_chest"
     }
   },
   "result": {

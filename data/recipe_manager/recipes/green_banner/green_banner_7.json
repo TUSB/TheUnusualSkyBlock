@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:repeater"
+      "item": "minecraft:pumpkin_seeds"
     },
     "|": {
-      "item": "minecraft:terracotta"
+      "item": "minecraft:snow"
     }
   },
   "result": {

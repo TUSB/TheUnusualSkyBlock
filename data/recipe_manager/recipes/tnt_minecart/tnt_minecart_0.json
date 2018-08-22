@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:brown_mushroom"
+      "item": "minecraft:brown_wool"
     },
     "B": {
-      "item": "minecraft:glistering_melon_slice"
+      "item": "minecraft:spruce_pressure_plate"
     }
   },
   "result": {

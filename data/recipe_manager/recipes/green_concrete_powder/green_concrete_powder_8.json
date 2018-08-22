@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_shulker_box"
+      "item": "minecraft:lime_bed"
     },
     {
-      "item": "minecraft:clay_ball"
+      "item": "minecraft:magenta_stained_glass_pane"
     },
     {
-      "item": "minecraft:ender_eye"
+      "item": "minecraft:nether_brick_slab"
     },
     {
-      "item": "minecraft:farmland"
+      "item": "minecraft:potato"
     },
     {
-      "item": "minecraft:hopper_minecart"
-    },
-    {
-      "item": "minecraft:lime_concrete_powder"
+      "item": "minecraft:prismarine_slab"
     },
     {
       "item": "minecraft:purple_carpet"
     },
     {
-      "item": "minecraft:soul_sand"
+      "item": "minecraft:red_mushroom_block"
     },
     {
-      "item": "minecraft:white_banner"
+      "item": "minecraft:stone_brick_stairs"
+    },
+    {
+      "item": "minecraft:stripped_acacia_log"
     }
   ],
   "result": {

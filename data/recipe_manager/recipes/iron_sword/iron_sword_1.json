@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:creeper_head"
     },
     "#": {
-      "item": "minecraft:golden_sword"
+      "item": "minecraft:light_gray_wool"
     }
   },
   "result": {

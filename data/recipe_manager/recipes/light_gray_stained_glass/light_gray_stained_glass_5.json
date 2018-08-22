@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:coarse_dirt"
     },
     "X": {
-      "item": "minecraft:light_blue_dye"
+      "item": "minecraft:dirt"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:beef"
     },
     "|": {
-      "item": "minecraft:spawner"
+      "item": "minecraft:light_gray_concrete_powder"
     }
   },
   "result": {

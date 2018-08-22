@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_glazed_terracotta"
+      "item": "minecraft:mossy_cobblestone"
     },
     "X": {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:podzol"
     }
   },
   "result": {

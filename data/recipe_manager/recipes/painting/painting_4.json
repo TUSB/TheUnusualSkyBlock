@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_slab"
+      "item": "minecraft:blue_wool"
     },
     "X": {
-      "item": "minecraft:yellow_stained_glass"
+      "item": "minecraft:stone_pickaxe"
     }
   },
   "result": {

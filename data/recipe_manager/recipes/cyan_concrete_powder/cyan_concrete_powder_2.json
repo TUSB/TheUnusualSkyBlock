@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_terracotta"
+      "item": "minecraft:birch_leaves"
     },
     {
-      "item": "minecraft:dandelion"
+      "item": "minecraft:black_wool"
     },
     {
-      "item": "minecraft:fishing_rod"
+      "item": "minecraft:blue_orchid"
     },
     {
-      "item": "minecraft:furnace"
+      "item": "minecraft:hay_block"
     },
     {
-      "item": "minecraft:paper"
+      "item": "minecraft:iron_chestplate"
     },
     {
-      "item": "minecraft:powered_rail"
+      "item": "minecraft:red_glazed_terracotta"
     },
     {
-      "item": "minecraft:stone"
+      "item": "minecraft:red_sandstone_slab"
     },
     {
-      "item": "minecraft:turtle_helmet"
+      "item": "minecraft:salmon"
     },
     {
-      "item": "minecraft:wheat"
+      "item": "minecraft:sign"
     }
   ],
   "result": {

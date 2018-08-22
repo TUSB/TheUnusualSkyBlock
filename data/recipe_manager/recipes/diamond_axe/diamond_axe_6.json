@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_oak_wood"
+      "item": "minecraft:conduit"
     },
     "#": {
-      "item": "minecraft:furnace_minecart"
+      "item": "minecraft:packed_ice"
     }
   },
   "result": {

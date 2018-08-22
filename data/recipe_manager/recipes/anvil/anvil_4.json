@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:dragon_breath"
+      "item": "minecraft:quartz_block"
     },
     "i": {
-      "item": "minecraft:pink_terracotta"
+      "item": "minecraft:spectral_arrow"
     }
   },
   "result": {

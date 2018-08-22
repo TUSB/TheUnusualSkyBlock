@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:damaged_anvil"
+      "item": "minecraft:black_terracotta"
     },
     {
-      "item": "minecraft:dragon_head"
+      "item": "minecraft:bone_block"
     },
     {
-      "item": "minecraft:furnace_minecart"
+      "item": "minecraft:cactus"
     },
     {
-      "item": "minecraft:golden_apple"
+      "item": "minecraft:horn_coral"
     },
     {
-      "item": "minecraft:red_nether_bricks"
+      "item": "minecraft:jungle_fence"
     },
     {
-      "item": "minecraft:red_stained_glass"
+      "item": "minecraft:oak_leaves"
     },
     {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:potion"
     },
     {
-      "item": "minecraft:white_banner"
+      "item": "minecraft:rabbit_foot"
     },
     {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:splash_potion"
     }
   ],
   "result": {

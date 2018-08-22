@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_door"
+      "item": "minecraft:bricks"
     },
     "#": {
-      "item": "minecraft:brain_coral_block"
+      "item": "minecraft:golden_helmet"
     }
   },
   "result": {

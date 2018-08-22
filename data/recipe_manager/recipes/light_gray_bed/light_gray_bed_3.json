@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:polished_granite"
+      "item": "minecraft:melon_seeds"
     },
     "X": {
-      "item": "minecraft:wither_skeleton_skull"
+      "item": "minecraft:white_glazed_terracotta"
     }
   },
   "result": {

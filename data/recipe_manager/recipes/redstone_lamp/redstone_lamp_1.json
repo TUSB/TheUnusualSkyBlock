@@ -7,10 +7,10 @@
   ],
   "key": {
     "R": {
-      "item": "minecraft:ice"
+      "item": "minecraft:chicken"
     },
     "G": {
-      "item": "minecraft:powered_rail"
+      "item": "minecraft:shulker_shell"
     }
   },
   "result": {

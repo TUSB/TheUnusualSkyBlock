@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_sapling"
+      "item": "minecraft:cobblestone_wall"
     },
     "X": {
-      "item": "minecraft:chainmail_boots"
+      "item": "minecraft:written_book"
     }
   },
   "result": {

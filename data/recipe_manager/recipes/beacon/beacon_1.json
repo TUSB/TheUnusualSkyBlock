@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:iron_trapdoor"
+      "item": "minecraft:dark_oak_fence_gate"
     },
     "S": {
-      "item": "minecraft:orange_bed"
+      "item": "minecraft:gray_bed"
     },
     "O": {
-      "item": "minecraft:orange_stained_glass_pane"
+      "item": "minecraft:yellow_glazed_terracotta"
     }
   },
   "result": {

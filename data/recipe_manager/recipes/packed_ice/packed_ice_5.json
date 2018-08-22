@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_stairs"
+      "item": "minecraft:birch_fence"
     },
     {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:bricks"
     },
     {
-      "item": "minecraft:horn_coral_fan"
+      "item": "minecraft:cyan_banner"
     },
     {
-      "item": "minecraft:iron_axe"
+      "item": "minecraft:cyan_shulker_box"
     },
     {
-      "item": "minecraft:light_blue_bed"
+      "item": "minecraft:diamond_shovel"
     },
     {
-      "item": "minecraft:note_block"
+      "item": "minecraft:green_carpet"
     },
     {
-      "item": "minecraft:prismarine_stairs"
+      "item": "minecraft:light_gray_concrete_powder"
     },
     {
-      "item": "minecraft:sticky_piston"
+      "item": "minecraft:quartz_stairs"
     },
     {
-      "item": "minecraft:string"
+      "item": "minecraft:rose_red"
     }
   ],
   "result": {

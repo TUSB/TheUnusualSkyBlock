@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:sponge"
+      "item": "minecraft:orange_wool"
     },
     {
-      "item": "minecraft:yellow_stained_glass"
+      "item": "minecraft:yellow_carpet"
     }
   ],
   "result": {

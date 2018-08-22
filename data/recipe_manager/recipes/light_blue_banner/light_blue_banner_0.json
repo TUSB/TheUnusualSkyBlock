@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_concrete"
+      "item": "minecraft:acacia_wood"
     },
     "|": {
-      "item": "minecraft:stone_pressure_plate"
+      "item": "minecraft:spruce_fence_gate"
     }
   },
   "result": {

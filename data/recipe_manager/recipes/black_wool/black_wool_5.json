@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:golden_hoe"
+      "item": "minecraft:acacia_pressure_plate"
     },
     {
-      "item": "minecraft:pumpkin_seeds"
+      "item": "minecraft:shield"
     }
   ],
   "result": {

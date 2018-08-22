@@ -7,10 +7,10 @@
   ],
   "key": {
     "~": {
-      "item": "minecraft:gravel"
+      "item": "minecraft:infested_cobblestone"
     },
     "O": {
-      "item": "minecraft:iron_pickaxe"
+      "item": "minecraft:paper"
     }
   },
   "result": {

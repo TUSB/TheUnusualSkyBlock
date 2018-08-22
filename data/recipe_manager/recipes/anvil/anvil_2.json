@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:arrow"
+      "item": "minecraft:jungle_slab"
     },
     "i": {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:pink_stained_glass_pane"
     }
   },
   "result": {

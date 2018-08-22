@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:sandstone_stairs"
     },
     "#": {
-      "item": "minecraft:wheat"
+      "item": "minecraft:tube_coral_block"
     }
   },
   "result": {

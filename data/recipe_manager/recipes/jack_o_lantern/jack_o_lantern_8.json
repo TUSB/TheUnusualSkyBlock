@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:emerald_block"
+      "item": "minecraft:polished_granite"
     },
     "B": {
-      "item": "minecraft:pink_tulip"
+      "item": "minecraft:sugar_cane"
     }
   },
   "result": {

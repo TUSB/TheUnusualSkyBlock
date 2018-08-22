@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:sea_lantern"
+      "item": "minecraft:brewing_stand"
     },
     "X": {
-      "item": "minecraft:yellow_concrete"
+      "item": "minecraft:stripped_acacia_wood"
     }
   },
   "result": {

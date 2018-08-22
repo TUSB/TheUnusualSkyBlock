@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_log"
+      "item": "minecraft:bricks"
     },
     "X": {
-      "item": "minecraft:oxeye_daisy"
+      "item": "minecraft:comparator"
     }
   },
   "result": {

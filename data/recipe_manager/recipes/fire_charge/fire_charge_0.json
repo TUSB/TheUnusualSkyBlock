@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:purpur_pillar"
+      "item": "minecraft:end_stone"
     },
     {
-      "item": "minecraft:smooth_stone"
+      "item": "minecraft:magenta_stained_glass_pane"
     }
   ],
   "result": {

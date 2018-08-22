@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:chorus_plant"
+      "item": "minecraft:acacia_button"
     },
     "Q": {
-      "item": "minecraft:cut_sandstone"
+      "item": "minecraft:cooked_cod"
     },
     "W": {
-      "item": "minecraft:purple_stained_glass"
+      "item": "minecraft:daylight_detector"
     }
   },
   "result": {

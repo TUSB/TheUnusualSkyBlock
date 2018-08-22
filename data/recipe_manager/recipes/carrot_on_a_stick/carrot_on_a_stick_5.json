@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:arrow"
+      "item": "minecraft:dark_oak_pressure_plate"
     },
     "X": {
-      "item": "minecraft:mutton"
+      "item": "minecraft:jungle_door"
     }
   },
   "result": {

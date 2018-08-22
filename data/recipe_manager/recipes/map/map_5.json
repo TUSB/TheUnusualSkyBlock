@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cooked_rabbit"
+      "item": "minecraft:ladder"
     },
     "X": {
-      "item": "minecraft:soul_sand"
+      "item": "minecraft:light_gray_bed"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_stained_glass"
+      "item": "minecraft:beetroot_soup"
     },
     {
-      "item": "minecraft:golden_boots"
+      "item": "minecraft:birch_fence"
     },
     {
-      "item": "minecraft:gray_carpet"
+      "item": "minecraft:dead_tube_coral_block"
     },
     {
-      "item": "minecraft:infested_cobblestone"
+      "item": "minecraft:dried_kelp_block"
     },
     {
-      "item": "minecraft:iron_pickaxe"
+      "item": "minecraft:light_blue_bed"
     },
     {
-      "item": "minecraft:lapis_block"
+      "item": "minecraft:red_concrete_powder"
     },
     {
-      "item": "minecraft:light_gray_concrete"
+      "item": "minecraft:shield"
     },
     {
-      "item": "minecraft:mushroom_stew"
+      "item": "minecraft:spruce_trapdoor"
     },
     {
-      "item": "minecraft:yellow_concrete"
+      "item": "minecraft:torch"
     }
   ],
   "result": {

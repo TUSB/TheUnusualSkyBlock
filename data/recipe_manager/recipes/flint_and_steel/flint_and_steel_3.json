@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_trapdoor"
+      "item": "minecraft:furnace"
     },
     {
-      "item": "minecraft:emerald_ore"
+      "item": "minecraft:pumpkin_seeds"
     }
   ],
   "result": {

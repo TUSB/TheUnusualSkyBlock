@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:mossy_cobblestone"
+      "item": "minecraft:dropper"
     },
     "#": {
-      "item": "minecraft:pink_carpet"
+      "item": "minecraft:soul_sand"
     }
   },
   "result": {

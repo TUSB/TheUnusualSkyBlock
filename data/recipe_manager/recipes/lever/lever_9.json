@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:birch_leaves"
+      "item": "minecraft:clay_ball"
     },
     "#": {
-      "item": "minecraft:glistering_melon_slice"
+      "item": "minecraft:pink_stained_glass_pane"
     }
   },
   "result": {

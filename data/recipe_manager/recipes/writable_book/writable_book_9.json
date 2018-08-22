@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_button"
+      "item": "minecraft:book"
     },
     {
-      "item": "minecraft:purpur_stairs"
+      "item": "minecraft:light_blue_concrete"
     },
     {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:red_banner"
     }
   ],
   "result": {

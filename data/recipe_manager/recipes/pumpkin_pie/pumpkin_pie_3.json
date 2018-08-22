@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     },
     {
-      "item": "minecraft:light_blue_concrete"
+      "item": "minecraft:lava_bucket"
     },
     {
-      "item": "minecraft:paper"
+      "item": "minecraft:mushroom_stem"
     }
   ],
   "result": {

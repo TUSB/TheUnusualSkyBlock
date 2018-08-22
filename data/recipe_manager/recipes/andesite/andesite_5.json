@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:light_blue_bed"
+      "item": "minecraft:ice"
     },
     {
-      "item": "minecraft:white_stained_glass"
+      "item": "minecraft:sponge"
     }
   ],
   "result": {

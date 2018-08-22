@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond_horse_armor"
+      "item": "minecraft:acacia_fence"
     },
     "#": {
-      "item": "minecraft:writable_book"
+      "item": "minecraft:gray_stained_glass_pane"
     }
   },
   "result": {

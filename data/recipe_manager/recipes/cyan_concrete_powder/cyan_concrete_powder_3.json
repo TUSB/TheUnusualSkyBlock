@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_trapdoor"
+      "item": "minecraft:chiseled_quartz_block"
     },
     {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:chorus_fruit"
     },
     {
-      "item": "minecraft:gray_carpet"
+      "item": "minecraft:dead_bubble_coral_fan"
     },
     {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:golden_axe"
     },
     {
-      "item": "minecraft:jungle_wood"
+      "item": "minecraft:horn_coral_block"
     },
     {
-      "item": "minecraft:leather_helmet"
+      "item": "minecraft:jungle_stairs"
     },
     {
-      "item": "minecraft:red_sandstone_slab"
+      "item": "minecraft:light_gray_dye"
     },
     {
-      "item": "minecraft:soul_sand"
+      "item": "minecraft:magenta_carpet"
     },
     {
-      "item": "minecraft:stripped_acacia_wood"
+      "item": "minecraft:orange_wool"
     }
   ],
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_banner"
+      "item": "minecraft:black_stained_glass_pane"
     },
     {
-      "item": "minecraft:cobweb"
+      "item": "minecraft:charcoal"
     },
     {
-      "item": "minecraft:cooked_cod"
+      "item": "minecraft:cut_red_sandstone"
     },
     {
-      "item": "minecraft:golden_carrot"
+      "item": "minecraft:dried_kelp"
     },
     {
-      "item": "minecraft:gray_wool"
+      "item": "minecraft:lapis_ore"
     },
     {
-      "item": "minecraft:light_gray_stained_glass"
+      "item": "minecraft:nether_brick_stairs"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:prismarine"
     },
     {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:red_nether_bricks"
     },
     {
-      "item": "minecraft:tall_grass"
+      "item": "minecraft:shulker_shell"
     }
   ],
   "result": {

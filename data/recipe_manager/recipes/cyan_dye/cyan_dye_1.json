@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cooked_chicken"
+      "item": "minecraft:bone"
     },
     {
-      "item": "minecraft:tall_grass"
+      "item": "minecraft:detector_rail"
     }
   ],
   "result": {

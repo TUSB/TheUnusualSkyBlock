@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:chicken"
+      "item": "minecraft:green_terracotta"
     },
     "#": {
-      "item": "minecraft:dark_oak_pressure_plate"
+      "item": "minecraft:red_concrete_powder"
     }
   },
   "result": {

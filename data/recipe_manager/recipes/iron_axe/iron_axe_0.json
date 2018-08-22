@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:green_stained_glass_pane"
+      "item": "minecraft:cocoa_beans"
     },
     "#": {
-      "item": "minecraft:oak_pressure_plate"
+      "item": "minecraft:shulker_box"
     }
   },
   "result": {

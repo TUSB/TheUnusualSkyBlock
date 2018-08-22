@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_stairs"
+      "item": "minecraft:coal"
     },
     {
-      "item": "minecraft:book"
+      "item": "minecraft:cyan_concrete_powder"
     },
     {
-      "item": "minecraft:bubble_coral_fan"
+      "item": "minecraft:golden_axe"
     },
     {
-      "item": "minecraft:cooked_beef"
+      "item": "minecraft:light_blue_dye"
     },
     {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:magenta_dye"
     },
     {
-      "item": "minecraft:lime_bed"
+      "item": "minecraft:oak_slab"
     },
     {
-      "item": "minecraft:mossy_cobblestone"
+      "item": "minecraft:orange_terracotta"
     },
     {
-      "item": "minecraft:purple_bed"
+      "item": "minecraft:red_sandstone"
     },
     {
-      "item": "minecraft:yellow_terracotta"
+      "item": "minecraft:sand"
     }
   ],
   "result": {

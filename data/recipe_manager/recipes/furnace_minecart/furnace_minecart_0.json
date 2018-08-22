@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:dandelion"
+      "item": "minecraft:stripped_dark_oak_log"
     },
     "B": {
-      "item": "minecraft:written_book"
+      "item": "minecraft:sugar_cane"
     }
   },
   "result": {

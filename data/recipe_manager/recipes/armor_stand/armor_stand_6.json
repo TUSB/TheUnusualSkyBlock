@@ -7,10 +7,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:light_blue_shulker_box"
+      "item": "minecraft:acacia_trapdoor"
     },
     "_": {
-      "item": "minecraft:painting"
+      "item": "minecraft:smooth_sandstone"
     }
   },
   "result": {

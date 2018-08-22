@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:apple"
+      "item": "minecraft:emerald_ore"
     },
     "X": {
-      "item": "minecraft:tall_grass"
+      "item": "minecraft:gray_shulker_box"
     }
   },
   "result": {

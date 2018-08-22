@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:coarse_dirt"
+      "item": "minecraft:jungle_fence_gate"
     },
     "|": {
-      "item": "minecraft:spruce_pressure_plate"
+      "item": "minecraft:prismarine_bricks"
     }
   },
   "result": {

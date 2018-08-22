@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:golden_sword"
+      "item": "minecraft:melon_slice"
     },
     "|": {
-      "item": "minecraft:red_sand"
+      "item": "minecraft:nether_wart_block"
     }
   },
   "result": {

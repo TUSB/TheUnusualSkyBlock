@@ -6,10 +6,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:diamond_helmet"
+      "item": "minecraft:spawner"
     },
     "P": {
-      "item": "minecraft:rabbit_stew"
+      "item": "minecraft:stripped_oak_wood"
     }
   },
   "result": {

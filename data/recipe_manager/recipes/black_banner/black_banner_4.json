@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_slab"
+      "item": "minecraft:glowstone"
     },
     "|": {
-      "item": "minecraft:prismarine_slab"
+      "item": "minecraft:stripped_oak_wood"
     }
   },
   "result": {

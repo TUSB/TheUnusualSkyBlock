@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_ore"
+      "item": "minecraft:cyan_carpet"
     },
     "|": {
-      "item": "minecraft:red_sandstone"
+      "item": "minecraft:polished_diorite"
     }
   },
   "result": {

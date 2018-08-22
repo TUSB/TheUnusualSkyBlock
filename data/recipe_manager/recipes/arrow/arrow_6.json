@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:armor_stand"
+      "item": "minecraft:lime_terracotta"
     },
     "#": {
-      "item": "minecraft:black_stained_glass"
+      "item": "minecraft:orange_stained_glass"
     },
     "Y": {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:polished_granite"
     }
   },
   "result": {

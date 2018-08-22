@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:golden_sword"
+      "item": "minecraft:beetroot_soup"
     },
     {
-      "item": "minecraft:slime_block"
+      "item": "minecraft:oak_boat"
     }
   ],
   "result": {

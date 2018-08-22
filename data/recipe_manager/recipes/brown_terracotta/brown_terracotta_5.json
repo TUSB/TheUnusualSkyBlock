@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:chiseled_sandstone"
     },
     "X": {
-      "item": "minecraft:oak_slab"
+      "item": "minecraft:coal_ore"
     }
   },
   "result": {

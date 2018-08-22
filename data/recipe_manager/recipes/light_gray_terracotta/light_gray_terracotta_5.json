@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:gold_ore"
     },
     "X": {
-      "item": "minecraft:bucket"
+      "item": "minecraft:quartz_block"
     }
   },
   "result": {

@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cracked_stone_bricks"
+      "item": "minecraft:prismarine_crystals"
     },
     {
-      "item": "minecraft:green_shulker_box"
+      "item": "minecraft:sand"
     },
     {
-      "item": "minecraft:iron_bars"
+      "item": "minecraft:stone_shovel"
     }
   ],
   "result": {

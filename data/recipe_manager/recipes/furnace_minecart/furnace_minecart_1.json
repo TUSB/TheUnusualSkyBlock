@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:blue_ice"
     },
     "B": {
-      "item": "minecraft:terracotta"
+      "item": "minecraft:purple_stained_glass"
     }
   },
   "result": {

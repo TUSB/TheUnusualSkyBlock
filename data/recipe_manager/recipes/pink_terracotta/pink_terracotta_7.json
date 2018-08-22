@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_bed"
+      "item": "minecraft:black_carpet"
     },
     "X": {
-      "item": "minecraft:gray_concrete_powder"
+      "item": "minecraft:gray_banner"
     }
   },
   "result": {

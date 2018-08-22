@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_stairs"
+      "item": "minecraft:activator_rail"
     },
     "X": {
-      "item": "minecraft:potato"
+      "item": "minecraft:conduit"
     }
   },
   "result": {

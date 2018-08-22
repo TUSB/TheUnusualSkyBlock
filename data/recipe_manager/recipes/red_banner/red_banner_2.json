@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:emerald"
+      "item": "minecraft:dragon_breath"
     },
     "|": {
-      "item": "minecraft:glass_pane"
+      "item": "minecraft:infested_chiseled_stone_bricks"
     }
   },
   "result": {

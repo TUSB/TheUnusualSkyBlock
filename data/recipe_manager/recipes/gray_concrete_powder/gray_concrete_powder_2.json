@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_orchid"
+      "item": "minecraft:birch_planks"
     },
     {
-      "item": "minecraft:cauldron"
+      "item": "minecraft:diorite"
     },
     {
-      "item": "minecraft:dead_tube_coral_fan"
+      "item": "minecraft:lapis_ore"
     },
     {
-      "item": "minecraft:ender_eye"
+      "item": "minecraft:light_gray_terracotta"
     },
     {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:netherrack"
     },
     {
-      "item": "minecraft:jungle_button"
+      "item": "minecraft:prismarine_bricks"
     },
     {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:quartz_slab"
     },
     {
-      "item": "minecraft:orange_wool"
+      "item": "minecraft:red_sandstone_slab"
     },
     {
-      "item": "minecraft:shulker_box"
+      "item": "minecraft:redstone_torch"
     }
   ],
   "result": {

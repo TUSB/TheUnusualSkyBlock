@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beetroot"
+      "item": "minecraft:beef"
     },
     {
-      "item": "minecraft:brick_slab"
-    },
-    {
-      "item": "minecraft:cobblestone"
+      "item": "minecraft:flint"
     },
     {
       "item": "minecraft:gray_concrete"
     },
     {
-      "item": "minecraft:gray_stained_glass_pane"
+      "item": "minecraft:iron_chestplate"
     },
     {
-      "item": "minecraft:jungle_sapling"
+      "item": "minecraft:podzol"
     },
     {
-      "item": "minecraft:nether_brick_slab"
+      "item": "minecraft:polished_diorite"
     },
     {
-      "item": "minecraft:quartz"
+      "item": "minecraft:pumpkin_seeds"
     },
     {
-      "item": "minecraft:vine"
+      "item": "minecraft:purple_carpet"
+    },
+    {
+      "item": "minecraft:tnt"
     }
   ],
   "result": {

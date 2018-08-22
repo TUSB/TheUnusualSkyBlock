@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:orange_terracotta"
+      "item": "minecraft:coal_block"
     },
     "X": {
-      "item": "minecraft:wet_sponge"
+      "item": "minecraft:green_terracotta"
     }
   },
   "result": {

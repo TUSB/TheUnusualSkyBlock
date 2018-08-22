@@ -5,10 +5,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chest_minecart"
+      "item": "minecraft:diamond_ore"
     },
     "X": {
-      "item": "minecraft:lime_concrete_powder"
+      "item": "minecraft:polished_andesite"
     }
   },
   "result": {

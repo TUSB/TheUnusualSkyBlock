@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:jack_o_lantern"
+      "item": "minecraft:farmland"
     },
     {
-      "item": "minecraft:stone_brick_slab"
+      "item": "minecraft:nether_brick_slab"
     }
   ],
   "result": {

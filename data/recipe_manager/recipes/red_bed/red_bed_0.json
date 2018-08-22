@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_concrete_powder"
+      "item": "minecraft:gray_concrete"
     },
     "X": {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:large_fern"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diamond_chestplate"
+      "item": "minecraft:detector_rail"
     },
     {
-      "item": "minecraft:spruce_stairs"
+      "item": "minecraft:stripped_spruce_wood"
     }
   ],
   "result": {

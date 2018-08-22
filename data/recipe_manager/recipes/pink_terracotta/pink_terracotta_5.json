@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:purpur_stairs"
     },
     "X": {
-      "item": "minecraft:gold_block"
+      "item": "minecraft:stripped_birch_log"
     }
   },
   "result": {

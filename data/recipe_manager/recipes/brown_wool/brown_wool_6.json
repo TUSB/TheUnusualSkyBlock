@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_sapling"
+      "item": "minecraft:dark_oak_leaves"
     },
     {
-      "item": "minecraft:enchanting_table"
+      "item": "minecraft:red_glazed_terracotta"
     }
   ],
   "result": {

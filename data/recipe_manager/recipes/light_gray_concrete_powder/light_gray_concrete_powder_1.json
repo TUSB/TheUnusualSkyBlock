@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_stained_glass"
+      "item": "minecraft:cyan_concrete_powder"
     },
     {
-      "item": "minecraft:cooked_rabbit"
+      "item": "minecraft:fire_charge"
     },
     {
-      "item": "minecraft:dead_fire_coral_block"
+      "item": "minecraft:golden_apple"
     },
     {
-      "item": "minecraft:dead_horn_coral_block"
+      "item": "minecraft:purple_terracotta"
     },
     {
-      "item": "minecraft:diamond_leggings"
+      "item": "minecraft:purpur_block"
     },
     {
-      "item": "minecraft:green_concrete_powder"
+      "item": "minecraft:shulker_shell"
     },
     {
-      "item": "minecraft:light_gray_carpet"
+      "item": "minecraft:stone_bricks"
     },
     {
-      "item": "minecraft:orange_banner"
+      "item": "minecraft:stone_shovel"
     },
     {
-      "item": "minecraft:seagrass"
+      "item": "minecraft:stone_slab"
     }
   ],
   "result": {

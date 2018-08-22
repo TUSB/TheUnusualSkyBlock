@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:end_rod"
+      "item": "minecraft:lapis_block"
     },
     {
-      "item": "minecraft:mushroom_stem"
+      "item": "minecraft:white_banner"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dried_kelp"
+      "item": "minecraft:golden_hoe"
     },
     "X": {
-      "item": "minecraft:saddle"
+      "item": "minecraft:item_frame"
     }
   },
   "result": {

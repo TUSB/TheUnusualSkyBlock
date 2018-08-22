@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:emerald_ore"
+      "item": "minecraft:black_concrete_powder"
     },
     "X": {
-      "item": "minecraft:piston"
+      "item": "minecraft:porkchop"
     }
   },
   "result": {

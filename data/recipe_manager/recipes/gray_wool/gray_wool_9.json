@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:emerald_ore"
+      "item": "minecraft:diamond_shovel"
     },
     {
-      "item": "minecraft:prismarine_slab"
+      "item": "minecraft:granite"
     }
   ],
   "result": {

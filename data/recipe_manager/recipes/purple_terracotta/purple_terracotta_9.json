@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_shulker_box"
+      "item": "minecraft:ender_eye"
     },
     "X": {
-      "item": "minecraft:rail"
+      "item": "minecraft:jungle_fence"
     }
   },
   "result": {

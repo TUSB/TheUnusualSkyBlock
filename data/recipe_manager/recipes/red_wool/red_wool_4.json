@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:green_terracotta"
+      "item": "minecraft:dark_prismarine"
     },
     {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:spruce_leaves"
     }
   ],
   "result": {

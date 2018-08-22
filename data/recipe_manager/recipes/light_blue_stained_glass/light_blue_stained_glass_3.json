@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:anvil"
+      "item": "minecraft:jungle_log"
     },
     "X": {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:note_block"
     }
   },
   "result": {

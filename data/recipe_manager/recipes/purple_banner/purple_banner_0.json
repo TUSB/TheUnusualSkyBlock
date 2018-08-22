@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:granite"
+      "item": "minecraft:dark_prismarine_slab"
     },
     "|": {
-      "item": "minecraft:oak_slab"
+      "item": "minecraft:light_gray_concrete"
     }
   },
   "result": {

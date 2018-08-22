@@ -7,10 +7,10 @@
   ],
   "key": {
     "O": {
-      "item": "minecraft:creeper_head"
+      "item": "minecraft:lapis_block"
     },
     "B": {
-      "item": "minecraft:dark_oak_slab"
+      "item": "minecraft:red_concrete_powder"
     }
   },
   "result": {

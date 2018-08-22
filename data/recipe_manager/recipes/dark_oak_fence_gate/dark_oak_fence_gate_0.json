@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:flower_pot"
+      "item": "minecraft:ender_pearl"
     },
     "W": {
-      "item": "minecraft:yellow_concrete"
+      "item": "minecraft:hopper_minecart"
     }
   },
   "result": {

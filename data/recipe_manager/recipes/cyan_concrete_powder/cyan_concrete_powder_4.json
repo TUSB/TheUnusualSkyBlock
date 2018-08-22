@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brain_coral"
+      "item": "minecraft:acacia_pressure_plate"
     },
     {
-      "item": "minecraft:furnace"
+      "item": "minecraft:brain_coral_block"
     },
     {
-      "item": "minecraft:glass"
+      "item": "minecraft:cobblestone"
     },
     {
-      "item": "minecraft:golden_axe"
+      "item": "minecraft:feather"
     },
     {
-      "item": "minecraft:nether_wart_block"
+      "item": "minecraft:golden_apple"
     },
     {
-      "item": "minecraft:orange_concrete"
+      "item": "minecraft:nether_brick_stairs"
     },
     {
-      "item": "minecraft:red_tulip"
+      "item": "minecraft:orange_terracotta"
     },
     {
-      "item": "minecraft:sandstone_slab"
+      "item": "minecraft:red_terracotta"
     },
     {
-      "item": "minecraft:sticky_piston"
+      "item": "minecraft:yellow_concrete"
     }
   ],
   "result": {

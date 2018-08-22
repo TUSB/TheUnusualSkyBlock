@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cauldron"
+      "item": "minecraft:birch_fence_gate"
     },
     "#": {
-      "item": "minecraft:green_stained_glass"
+      "item": "minecraft:blue_stained_glass"
     },
     "R": {
-      "item": "minecraft:polished_andesite"
+      "item": "minecraft:orange_terracotta"
     }
   },
   "result": {

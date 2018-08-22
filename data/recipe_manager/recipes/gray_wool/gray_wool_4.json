@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_bed"
+      "item": "minecraft:dark_oak_button"
     },
     {
-      "item": "minecraft:stripped_spruce_log"
+      "item": "minecraft:redstone"
     }
   ],
   "result": {

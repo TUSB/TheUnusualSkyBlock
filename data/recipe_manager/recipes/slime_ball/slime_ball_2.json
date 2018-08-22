@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:white_glazed_terracotta"
+      "item": "minecraft:lime_stained_glass_pane"
     }
   ],
   "result": {

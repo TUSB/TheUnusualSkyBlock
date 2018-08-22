@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:armor_stand"
     },
     {
-      "item": "minecraft:iron_ore"
+      "item": "minecraft:leather_boots"
     }
   ],
   "result": {

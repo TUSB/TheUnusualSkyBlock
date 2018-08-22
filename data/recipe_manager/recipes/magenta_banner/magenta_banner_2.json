@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:egg"
+      "item": "minecraft:acacia_pressure_plate"
     },
     "|": {
-      "item": "minecraft:lime_stained_glass_pane"
+      "item": "minecraft:red_tulip"
     }
   },
   "result": {

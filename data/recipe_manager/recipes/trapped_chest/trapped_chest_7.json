@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:clay"
+      "item": "minecraft:golden_pickaxe"
     },
     {
-      "item": "minecraft:hay_block"
+      "item": "minecraft:iron_helmet"
     }
   ],
   "result": {

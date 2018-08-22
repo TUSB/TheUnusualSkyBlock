@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:cooked_beef"
+      "item": "minecraft:cocoa_beans"
     },
     "E": {
-      "item": "minecraft:dark_oak_wood"
+      "item": "minecraft:gray_concrete"
     },
     "T": {
-      "item": "minecraft:oak_leaves"
+      "item": "minecraft:light_blue_terracotta"
     }
   },
   "result": {

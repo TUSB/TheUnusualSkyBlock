@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cobblestone"
+      "item": "minecraft:cobweb"
     },
     {
-      "item": "minecraft:cut_red_sandstone"
+      "item": "minecraft:cocoa_beans"
     },
     {
-      "item": "minecraft:diamond_boots"
+      "item": "minecraft:diamond"
     },
     {
-      "item": "minecraft:golden_shovel"
+      "item": "minecraft:diorite"
     },
     {
-      "item": "minecraft:lime_dye"
+      "item": "minecraft:filled_map"
     },
     {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     },
     {
-      "item": "minecraft:purple_shulker_box"
+      "item": "minecraft:sunflower"
     },
     {
-      "item": "minecraft:red_sandstone_stairs"
+      "item": "minecraft:tall_grass"
     },
     {
-      "item": "minecraft:stripped_oak_log"
+      "item": "minecraft:white_glazed_terracotta"
     }
   ],
   "result": {

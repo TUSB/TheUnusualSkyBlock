@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_stained_glass_pane"
+      "item": "minecraft:redstone_torch"
     },
     "X": {
-      "item": "minecraft:stripped_jungle_log"
+      "item": "minecraft:rotten_flesh"
     }
   },
   "result": {

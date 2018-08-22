@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gunpowder"
+      "item": "minecraft:blue_stained_glass"
     },
     "X": {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:string"
     }
   },
   "result": {

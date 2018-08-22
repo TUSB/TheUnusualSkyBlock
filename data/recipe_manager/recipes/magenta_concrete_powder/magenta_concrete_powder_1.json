@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diamond_ore"
+      "item": "minecraft:blue_carpet"
     },
     {
-      "item": "minecraft:end_crystal"
+      "item": "minecraft:filled_map"
     },
     {
-      "item": "minecraft:fire_coral_fan"
+      "item": "minecraft:horn_coral"
     },
     {
-      "item": "minecraft:iron_boots"
+      "item": "minecraft:infested_mossy_stone_bricks"
     },
     {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:leather_boots"
     },
     {
-      "item": "minecraft:spawner"
+      "item": "minecraft:light_gray_carpet"
     },
     {
-      "item": "minecraft:spruce_slab"
+      "item": "minecraft:light_gray_wool"
     },
     {
-      "item": "minecraft:trident"
+      "item": "minecraft:oak_sapling"
     },
     {
-      "item": "minecraft:wither_skeleton_skull"
+      "item": "minecraft:red_tulip"
     }
   ],
   "result": {

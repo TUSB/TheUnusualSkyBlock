@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_slab"
+      "item": "minecraft:book"
     },
     {
-      "item": "minecraft:carrot"
+      "item": "minecraft:bread"
     },
     {
-      "item": "minecraft:green_glazed_terracotta"
+      "item": "minecraft:bricks"
     },
     {
-      "item": "minecraft:ice"
+      "item": "minecraft:filled_map"
     },
     {
-      "item": "minecraft:lime_banner"
+      "item": "minecraft:golden_shovel"
     },
     {
-      "item": "minecraft:lime_bed"
+      "item": "minecraft:light_gray_wool"
     },
     {
-      "item": "minecraft:nether_brick_slab"
+      "item": "minecraft:player_head"
     },
     {
-      "item": "minecraft:stick"
+      "item": "minecraft:quartz_stairs"
     },
     {
-      "item": "minecraft:wooden_sword"
+      "item": "minecraft:wheat_seeds"
     }
   ],
   "result": {

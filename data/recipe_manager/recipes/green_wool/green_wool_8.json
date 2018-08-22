@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:light_gray_dye"
+      "item": "minecraft:brewing_stand"
     },
     {
-      "item": "minecraft:mossy_cobblestone_wall"
+      "item": "minecraft:lime_bed"
     }
   ],
   "result": {

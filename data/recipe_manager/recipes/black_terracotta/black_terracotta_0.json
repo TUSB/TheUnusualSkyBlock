@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lapis_block"
+      "item": "minecraft:dandelion_yellow"
     },
     "X": {
-      "item": "minecraft:sandstone_slab"
+      "item": "minecraft:poisonous_potato"
     }
   },
   "result": {

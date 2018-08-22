@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lily_pad"
+      "item": "minecraft:light_gray_dye"
     }
   ],
   "result": {

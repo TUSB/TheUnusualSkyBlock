@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_bars"
+      "item": "minecraft:beetroot"
     },
     "X": {
-      "item": "minecraft:purpur_stairs"
+      "item": "minecraft:melon"
     },
     "R": {
-      "item": "minecraft:redstone_block"
+      "item": "minecraft:orange_concrete_powder"
     }
   },
   "result": {

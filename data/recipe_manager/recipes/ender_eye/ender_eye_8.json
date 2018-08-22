@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_orchid"
+      "item": "minecraft:blue_bed"
     },
     {
-      "item": "minecraft:stripped_spruce_log"
+      "item": "minecraft:diamond_hoe"
     }
   ],
   "result": {

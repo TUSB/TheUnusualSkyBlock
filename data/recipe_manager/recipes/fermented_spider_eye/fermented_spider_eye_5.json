@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:light_gray_wool"
+      "item": "minecraft:item_frame"
     },
     {
-      "item": "minecraft:oak_button"
+      "item": "minecraft:light_blue_carpet"
     },
     {
-      "item": "minecraft:rabbit_hide"
+      "item": "minecraft:red_banner"
     }
   ],
   "result": {

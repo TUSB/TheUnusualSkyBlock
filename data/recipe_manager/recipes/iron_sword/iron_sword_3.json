@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:sticky_piston"
+      "item": "minecraft:fire_coral_fan"
     },
     "#": {
-      "item": "minecraft:stone"
+      "item": "minecraft:iron_pickaxe"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_concrete"
+      "item": "minecraft:spruce_boat"
     },
     "X": {
-      "item": "minecraft:red_sandstone_slab"
+      "item": "minecraft:tnt"
     }
   },
   "result": {

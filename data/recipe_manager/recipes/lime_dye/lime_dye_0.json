@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_wool"
+      "item": "minecraft:green_carpet"
     },
     {
-      "item": "minecraft:light_blue_shulker_box"
+      "item": "minecraft:lily_pad"
     }
   ],
   "result": {

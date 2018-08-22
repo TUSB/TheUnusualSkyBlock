@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_door"
+      "item": "minecraft:iron_helmet"
     },
     {
-      "item": "minecraft:rose_red"
+      "item": "minecraft:lime_carpet"
     }
   ],
   "result": {

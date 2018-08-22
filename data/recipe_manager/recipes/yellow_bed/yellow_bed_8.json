@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_stained_glass_pane"
+      "item": "minecraft:dead_horn_coral_block"
     },
     "X": {
-      "item": "minecraft:stripped_jungle_wood"
+      "item": "minecraft:quartz_block"
     }
   },
   "result": {

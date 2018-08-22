@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:carrot"
-    },
-    {
-      "item": "minecraft:dark_prismarine"
+      "item": "minecraft:chainmail_boots"
     },
     {
       "item": "minecraft:dark_prismarine_stairs"
     },
     {
-      "item": "minecraft:gravel"
+      "item": "minecraft:flint"
     },
     {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:gray_terracotta"
     },
     {
-      "item": "minecraft:jungle_trapdoor"
+      "item": "minecraft:horn_coral"
     },
     {
-      "item": "minecraft:lime_dye"
+      "item": "minecraft:mossy_stone_bricks"
     },
     {
-      "item": "minecraft:magenta_concrete_powder"
+      "item": "minecraft:packed_ice"
     },
     {
-      "item": "minecraft:pink_stained_glass"
+      "item": "minecraft:redstone_torch"
+    },
+    {
+      "item": "minecraft:tropical_fish_bucket"
     }
   ],
   "result": {

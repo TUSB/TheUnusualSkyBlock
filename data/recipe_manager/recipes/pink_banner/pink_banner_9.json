@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:redstone"
+      "item": "minecraft:cyan_terracotta"
     },
     "|": {
-      "item": "minecraft:white_concrete_powder"
+      "item": "minecraft:diamond_shovel"
     }
   },
   "result": {

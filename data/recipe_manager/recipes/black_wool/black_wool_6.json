@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brewing_stand"
+      "item": "minecraft:acacia_log"
     },
     {
-      "item": "minecraft:red_banner"
+      "item": "minecraft:cocoa_beans"
     }
   ],
   "result": {

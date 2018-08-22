@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:prismarine_slab"
+      "item": "minecraft:light_gray_terracotta"
     }
   ],
   "result": {

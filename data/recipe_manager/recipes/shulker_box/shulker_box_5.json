@@ -7,10 +7,10 @@
   ],
   "key": {
     "-": {
-      "item": "minecraft:cobblestone_stairs"
+      "item": "minecraft:enchanted_book"
     },
     "#": {
-      "item": "minecraft:magenta_terracotta"
+      "item": "minecraft:yellow_wool"
     }
   },
   "result": {

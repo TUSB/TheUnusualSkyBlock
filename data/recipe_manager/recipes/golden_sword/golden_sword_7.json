@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:light_blue_bed"
+      "item": "minecraft:dark_oak_wood"
     },
     "#": {
-      "item": "minecraft:tnt"
+      "item": "minecraft:rabbit_foot"
     }
   },
   "result": {

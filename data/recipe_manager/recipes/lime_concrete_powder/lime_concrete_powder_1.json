@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:compass"
+      "item": "minecraft:cobblestone_wall"
     },
     {
-      "item": "minecraft:cooked_chicken"
+      "item": "minecraft:cod_bucket"
     },
     {
-      "item": "minecraft:dark_oak_planks"
+      "item": "minecraft:cyan_shulker_box"
     },
     {
-      "item": "minecraft:enchanting_table"
+      "item": "minecraft:dark_oak_sapling"
     },
     {
-      "item": "minecraft:gold_block"
+      "item": "minecraft:leather"
     },
     {
-      "item": "minecraft:iron_chestplate"
+      "item": "minecraft:light_blue_bed"
     },
     {
-      "item": "minecraft:spruce_fence"
+      "item": "minecraft:sandstone_slab"
     },
     {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:shulker_box"
     },
     {
-      "item": "minecraft:stripped_dark_oak_log"
+      "item": "minecraft:snow"
     }
   ],
   "result": {

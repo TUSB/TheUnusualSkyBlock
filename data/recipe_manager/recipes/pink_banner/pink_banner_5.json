@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_leaves"
+      "item": "minecraft:end_rod"
     },
     "|": {
-      "item": "minecraft:spruce_boat"
+      "item": "minecraft:wooden_hoe"
     }
   },
   "result": {

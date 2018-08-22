@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chest_minecart"
+      "item": "minecraft:dried_kelp_block"
     },
     {
-      "item": "minecraft:note_block"
+      "item": "minecraft:light_blue_shulker_box"
     }
   ],
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_stained_glass"
+      "item": "minecraft:black_bed"
     },
     {
-      "item": "minecraft:filled_map"
+      "item": "minecraft:dark_oak_pressure_plate"
     },
     {
-      "item": "minecraft:jungle_sapling"
+      "item": "minecraft:dark_oak_sapling"
     },
     {
-      "item": "minecraft:kelp"
+      "item": "minecraft:golden_horse_armor"
     },
     {
-      "item": "minecraft:leather_boots"
+      "item": "minecraft:light_gray_stained_glass"
     },
     {
-      "item": "minecraft:mycelium"
+      "item": "minecraft:oak_slab"
     },
     {
-      "item": "minecraft:pink_tulip"
+      "item": "minecraft:pink_dye"
     },
     {
-      "item": "minecraft:purpur_pillar"
+      "item": "minecraft:red_sandstone_slab"
     },
     {
-      "item": "minecraft:wooden_axe"
+      "item": "minecraft:redstone_lamp"
     }
   ],
   "result": {

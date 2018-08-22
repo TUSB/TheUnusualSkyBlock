@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:leather_leggings"
+      "item": "minecraft:oak_fence_gate"
     },
     "B": {
-      "item": "minecraft:prismarine_bricks"
+      "item": "minecraft:rabbit"
     }
   },
   "result": {

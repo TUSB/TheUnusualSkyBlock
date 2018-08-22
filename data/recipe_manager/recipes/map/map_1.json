@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:mossy_cobblestone"
+      "item": "minecraft:magenta_wool"
     },
     "X": {
-      "item": "minecraft:stripped_jungle_log"
+      "item": "minecraft:wet_sponge"
     }
   },
   "result": {

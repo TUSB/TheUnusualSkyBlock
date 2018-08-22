@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_stained_glass_pane"
+      "item": "minecraft:cauldron"
     },
     "|": {
-      "item": "minecraft:seagrass"
+      "item": "minecraft:paper"
     }
   },
   "result": {

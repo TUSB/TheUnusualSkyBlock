@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_glazed_terracotta"
+      "item": "minecraft:gray_stained_glass"
     },
     "X": {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:melon_slice"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_concrete_powder"
+      "item": "minecraft:jack_o_lantern"
     },
     {
-      "item": "minecraft:dead_fire_coral_fan"
+      "item": "minecraft:sugar"
     }
   ],
   "result": {

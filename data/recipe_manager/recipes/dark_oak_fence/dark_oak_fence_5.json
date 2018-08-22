@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:infested_chiseled_stone_bricks"
+      "item": "minecraft:purpur_stairs"
     },
     "#": {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:seagrass"
     }
   },
   "result": {

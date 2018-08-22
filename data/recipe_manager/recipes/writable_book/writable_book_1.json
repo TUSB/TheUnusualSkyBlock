@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:jungle_boat"
+      "item": "minecraft:blue_concrete_powder"
     },
     {
-      "item": "minecraft:note_block"
+      "item": "minecraft:cyan_concrete"
     },
     {
-      "item": "minecraft:quartz_stairs"
+      "item": "minecraft:dead_bubble_coral_block"
     }
   ],
   "result": {

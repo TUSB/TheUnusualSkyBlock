@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lingering_potion"
+      "item": "minecraft:lime_concrete_powder"
     },
     {
-      "item": "minecraft:wooden_sword"
+      "item": "minecraft:skeleton_skull"
     }
   ],
   "result": {

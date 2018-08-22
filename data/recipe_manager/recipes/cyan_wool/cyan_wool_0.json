@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chainmail_helmet"
+      "item": "minecraft:lime_concrete_powder"
     },
     {
-      "item": "minecraft:tnt_minecart"
+      "item": "minecraft:sign"
     }
   ],
   "result": {

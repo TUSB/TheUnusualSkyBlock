@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:horn_coral"
+      "item": "minecraft:horn_coral_fan"
     },
     "#": {
-      "item": "minecraft:pumpkin_pie"
+      "item": "minecraft:oak_button"
     }
   },
   "result": {

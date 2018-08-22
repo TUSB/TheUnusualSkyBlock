@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_log"
+      "item": "minecraft:dark_oak_pressure_plate"
     },
     "X": {
-      "item": "minecraft:fern"
+      "item": "minecraft:sticky_piston"
     },
     "I": {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:stripped_birch_wood"
     }
   },
   "result": {

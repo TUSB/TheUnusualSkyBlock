@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:golden_shovel"
+      "item": "minecraft:chipped_anvil"
     },
     "B": {
-      "item": "minecraft:jukebox"
+      "item": "minecraft:dark_prismarine"
     }
   },
   "result": {

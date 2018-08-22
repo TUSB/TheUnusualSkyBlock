@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_chestplate"
+      "item": "minecraft:golden_chestplate"
     },
     "X": {
-      "item": "minecraft:kelp"
+      "item": "minecraft:white_bed"
     }
   },
   "result": {

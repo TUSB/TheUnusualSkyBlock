@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:acacia_stairs"
     },
     "Q": {
-      "item": "minecraft:prismarine_brick_stairs"
+      "item": "minecraft:conduit"
     },
     "W": {
-      "item": "minecraft:prismarine_stairs"
+      "item": "minecraft:large_fern"
     }
   },
   "result": {

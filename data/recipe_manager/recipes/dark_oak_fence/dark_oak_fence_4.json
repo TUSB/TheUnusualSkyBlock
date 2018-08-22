@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:golden_leggings"
+      "item": "minecraft:detector_rail"
     },
     "#": {
-      "item": "minecraft:red_banner"
+      "item": "minecraft:sign"
     }
   },
   "result": {

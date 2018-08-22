@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond_boots"
+      "item": "minecraft:compass"
     },
     "#": {
-      "item": "minecraft:lily_pad"
+      "item": "minecraft:end_stone_bricks"
     },
     "R": {
-      "item": "minecraft:magenta_terracotta"
+      "item": "minecraft:oak_stairs"
     }
   },
   "result": {

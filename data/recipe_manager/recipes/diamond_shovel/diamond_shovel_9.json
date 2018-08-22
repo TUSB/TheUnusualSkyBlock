@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:beetroot_soup"
+      "item": "minecraft:black_banner"
     },
     "#": {
-      "item": "minecraft:dark_oak_button"
+      "item": "minecraft:spruce_button"
     }
   },
   "result": {

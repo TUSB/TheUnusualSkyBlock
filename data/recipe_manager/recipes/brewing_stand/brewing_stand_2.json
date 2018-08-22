@@ -6,10 +6,10 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:brick_slab"
+      "item": "minecraft:orange_wool"
     },
     "#": {
-      "item": "minecraft:dark_oak_fence"
+      "item": "minecraft:wooden_sword"
     }
   },
   "result": {

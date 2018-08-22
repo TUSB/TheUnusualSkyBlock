@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:birch_sapling"
+      "item": "minecraft:chiseled_stone_bricks"
     },
     "#": {
-      "item": "minecraft:item_frame"
+      "item": "minecraft:dark_oak_sapling"
     }
   },
   "result": {

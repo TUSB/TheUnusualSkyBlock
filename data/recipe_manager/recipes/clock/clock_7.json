@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_pressure_plate"
+      "item": "minecraft:red_sandstone"
     },
     "X": {
-      "item": "minecraft:kelp"
+      "item": "minecraft:smooth_red_sandstone"
     }
   },
   "result": {

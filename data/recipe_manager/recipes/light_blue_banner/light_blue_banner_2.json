@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_log"
+      "item": "minecraft:cyan_concrete"
     },
     "|": {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:cyan_wool"
     }
   },
   "result": {

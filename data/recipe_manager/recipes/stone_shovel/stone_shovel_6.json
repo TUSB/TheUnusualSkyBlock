@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:furnace_minecart"
+      "item": "minecraft:coal_block"
     },
     "#": {
-      "item": "minecraft:purpur_stairs"
+      "item": "minecraft:spruce_leaves"
     }
   },
   "result": {

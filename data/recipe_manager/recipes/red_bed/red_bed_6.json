@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cod"
+      "item": "minecraft:grass_path"
     },
     "X": {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:wheat"
     }
   },
   "result": {

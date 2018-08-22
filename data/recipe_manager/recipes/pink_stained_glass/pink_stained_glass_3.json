@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_concrete"
+      "item": "minecraft:orange_concrete_powder"
     },
     "X": {
-      "item": "minecraft:turtle_helmet"
+      "item": "minecraft:sand"
     }
   },
   "result": {

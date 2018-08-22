@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_banner"
+      "item": "minecraft:acacia_sapling"
     },
     {
-      "item": "minecraft:conduit"
+      "item": "minecraft:acacia_slab"
     },
     {
-      "item": "minecraft:golden_chestplate"
+      "item": "minecraft:black_concrete"
     },
     {
-      "item": "minecraft:light_blue_concrete"
+      "item": "minecraft:glass"
     },
     {
-      "item": "minecraft:light_blue_dye"
+      "item": "minecraft:gray_concrete"
     },
     {
-      "item": "minecraft:oak_trapdoor"
+      "item": "minecraft:jungle_button"
     },
     {
-      "item": "minecraft:oak_wood"
+      "item": "minecraft:lilac"
     },
     {
-      "item": "minecraft:orange_glazed_terracotta"
+      "item": "minecraft:lime_bed"
     },
     {
-      "item": "minecraft:sand"
+      "item": "minecraft:turtle_helmet"
     }
   ],
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:coal_block"
+      "item": "minecraft:brick"
     },
     {
-      "item": "minecraft:iron_shovel"
+      "item": "minecraft:red_concrete_powder"
     }
   ],
   "result": {

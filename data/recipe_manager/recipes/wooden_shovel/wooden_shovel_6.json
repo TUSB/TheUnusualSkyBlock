@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:smooth_quartz"
+      "item": "minecraft:glistering_melon_slice"
     },
     "#": {
-      "item": "minecraft:sticky_piston"
+      "item": "minecraft:popped_chorus_fruit"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:glowstone"
+      "item": "minecraft:birch_slab"
     },
     {
-      "item": "minecraft:infested_stone_bricks"
+      "item": "minecraft:fern"
     },
     {
-      "item": "minecraft:iron_leggings"
+      "item": "minecraft:iron_chestplate"
     },
     {
-      "item": "minecraft:jungle_wood"
+      "item": "minecraft:light_gray_glazed_terracotta"
     },
     {
-      "item": "minecraft:note_block"
+      "item": "minecraft:player_head"
     },
     {
-      "item": "minecraft:oak_sapling"
+      "item": "minecraft:quartz_slab"
     },
     {
-      "item": "minecraft:oak_stairs"
+      "item": "minecraft:rabbit"
     },
     {
-      "item": "minecraft:pink_tulip"
+      "item": "minecraft:wooden_shovel"
     },
     {
-      "item": "minecraft:stripped_spruce_wood"
+      "item": "minecraft:yellow_banner"
     }
   ],
   "result": {

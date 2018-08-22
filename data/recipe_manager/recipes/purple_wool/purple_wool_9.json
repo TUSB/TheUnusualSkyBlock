@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dried_kelp_block"
+      "item": "minecraft:brown_banner"
     },
     {
-      "item": "minecraft:yellow_shulker_box"
+      "item": "minecraft:fire_charge"
     }
   ],
   "result": {

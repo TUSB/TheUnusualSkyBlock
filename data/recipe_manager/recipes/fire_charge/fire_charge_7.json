@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:orange_carpet"
+      "item": "minecraft:melon"
     },
     {
-      "item": "minecraft:snow"
+      "item": "minecraft:oak_stairs"
     }
   ],
   "result": {

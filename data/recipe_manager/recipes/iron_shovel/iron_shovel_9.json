@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:peony"
+      "item": "minecraft:dark_oak_sapling"
     },
     "#": {
-      "item": "minecraft:turtle_helmet"
+      "item": "minecraft:red_shulker_box"
     }
   },
   "result": {

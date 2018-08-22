@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:granite"
+      "item": "minecraft:dead_fire_coral_fan"
     },
     {
-      "item": "minecraft:sandstone_slab"
+      "item": "minecraft:sand"
     }
   ],
   "result": {

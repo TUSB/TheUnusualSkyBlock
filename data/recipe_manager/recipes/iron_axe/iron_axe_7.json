@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:birch_leaves"
+      "item": "minecraft:painting"
     },
     "#": {
-      "item": "minecraft:dark_oak_trapdoor"
+      "item": "minecraft:purpur_stairs"
     }
   },
   "result": {

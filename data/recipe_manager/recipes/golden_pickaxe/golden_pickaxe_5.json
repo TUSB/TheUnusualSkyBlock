@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_fence_gate"
+      "item": "minecraft:cooked_cod"
     },
     "#": {
-      "item": "minecraft:stone_hoe"
+      "item": "minecraft:stone_shovel"
     }
   },
   "result": {

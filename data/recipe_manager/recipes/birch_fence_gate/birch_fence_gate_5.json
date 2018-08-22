@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magenta_wool"
+      "item": "minecraft:acacia_door"
     },
     "W": {
-      "item": "minecraft:prismarine_slab"
+      "item": "minecraft:gray_glazed_terracotta"
     }
   },
   "result": {

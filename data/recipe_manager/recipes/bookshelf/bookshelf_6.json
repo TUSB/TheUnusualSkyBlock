@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_shulker_box"
+      "item": "minecraft:item_frame"
     },
     "X": {
-      "item": "minecraft:glass_pane"
+      "item": "minecraft:pumpkin_seeds"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:magenta_glazed_terracotta"
+      "item": "minecraft:bow"
     },
     {
-      "item": "minecraft:rabbit"
+      "item": "minecraft:light_blue_glazed_terracotta"
     }
   ],
   "result": {

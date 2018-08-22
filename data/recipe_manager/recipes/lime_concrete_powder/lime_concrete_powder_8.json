@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brain_coral_fan"
+      "item": "minecraft:black_terracotta"
     },
     {
-      "item": "minecraft:diamond_shovel"
+      "item": "minecraft:chiseled_red_sandstone"
     },
     {
-      "item": "minecraft:dragon_breath"
+      "item": "minecraft:dark_oak_fence"
     },
     {
-      "item": "minecraft:gunpowder"
+      "item": "minecraft:golden_axe"
     },
     {
-      "item": "minecraft:pink_concrete_powder"
+      "item": "minecraft:golden_helmet"
     },
     {
-      "item": "minecraft:rose_red"
+      "item": "minecraft:gray_shulker_box"
     },
     {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:leather_chestplate"
     },
     {
-      "item": "minecraft:spruce_slab"
+      "item": "minecraft:magenta_concrete_powder"
     },
     {
-      "item": "minecraft:tube_coral"
+      "item": "minecraft:torch"
     }
   ],
   "result": {

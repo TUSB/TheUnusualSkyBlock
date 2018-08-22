@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brick"
+      "item": "minecraft:bookshelf"
     },
     "X": {
-      "item": "minecraft:emerald_ore"
+      "item": "minecraft:quartz_slab"
     }
   },
   "result": {

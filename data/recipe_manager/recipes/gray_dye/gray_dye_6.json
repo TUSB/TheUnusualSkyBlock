@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_sapling"
+      "item": "minecraft:fire_coral"
     },
     {
-      "item": "minecraft:dark_oak_wood"
+      "item": "minecraft:granite"
     }
   ],
   "result": {

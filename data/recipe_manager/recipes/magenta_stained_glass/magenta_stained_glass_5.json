@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_concrete"
+      "item": "minecraft:conduit"
     },
     "X": {
-      "item": "minecraft:white_glazed_terracotta"
+      "item": "minecraft:end_crystal"
     }
   },
   "result": {

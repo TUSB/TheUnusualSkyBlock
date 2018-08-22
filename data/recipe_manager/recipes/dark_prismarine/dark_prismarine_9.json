@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:blue_concrete"
+      "item": "minecraft:shears"
     },
     "I": {
-      "item": "minecraft:green_carpet"
+      "item": "minecraft:stone_slab"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_pressure_plate"
+      "item": "minecraft:activator_rail"
     },
     {
-      "item": "minecraft:emerald"
+      "item": "minecraft:cut_red_sandstone"
     },
     {
-      "item": "minecraft:emerald_ore"
+      "item": "minecraft:damaged_anvil"
     },
     {
-      "item": "minecraft:green_shulker_box"
+      "item": "minecraft:golden_chestplate"
     },
     {
-      "item": "minecraft:light_gray_stained_glass_pane"
+      "item": "minecraft:horn_coral_fan"
+    },
+    {
+      "item": "minecraft:jungle_stairs"
+    },
+    {
+      "item": "minecraft:polished_diorite"
     },
     {
       "item": "minecraft:poppy"
     },
     {
-      "item": "minecraft:pumpkin_pie"
-    },
-    {
-      "item": "minecraft:red_bed"
-    },
-    {
-      "item": "minecraft:sandstone_stairs"
+      "item": "minecraft:salmon"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_horse_armor"
+      "item": "minecraft:nether_wart_block"
     },
     "|": {
-      "item": "minecraft:sandstone_slab"
+      "item": "minecraft:player_head"
     }
   },
   "result": {

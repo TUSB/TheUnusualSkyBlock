@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:fern"
+      "item": "minecraft:golden_chestplate"
     },
     {
-      "item": "minecraft:golden_horse_armor"
+      "item": "minecraft:light_blue_dye"
     }
   ],
   "result": {

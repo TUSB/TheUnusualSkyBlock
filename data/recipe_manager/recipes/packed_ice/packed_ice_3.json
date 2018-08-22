@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_sapling"
+      "item": "minecraft:birch_planks"
     },
     {
-      "item": "minecraft:diamond_leggings"
+      "item": "minecraft:cracked_stone_bricks"
     },
     {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:flint"
     },
     {
-      "item": "minecraft:light_gray_concrete"
+      "item": "minecraft:grass_path"
     },
     {
-      "item": "minecraft:saddle"
+      "item": "minecraft:lapis_lazuli"
     },
     {
-      "item": "minecraft:spruce_leaves"
+      "item": "minecraft:orange_concrete_powder"
     },
     {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:shears"
     },
     {
-      "item": "minecraft:tipped_arrow"
+      "item": "minecraft:snowball"
     },
     {
-      "item": "minecraft:white_carpet"
+      "item": "minecraft:yellow_wool"
     }
   ],
   "result": {

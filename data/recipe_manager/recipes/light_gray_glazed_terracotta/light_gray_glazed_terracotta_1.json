@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:soul_sand"
+      "item": "minecraft:end_crystal"
     }
   ],
   "result": {

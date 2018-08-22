@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bone_meal"
+      "item": "minecraft:brain_coral_fan"
     },
     {
-      "item": "minecraft:dead_bubble_coral_fan"
+      "item": "minecraft:end_stone_bricks"
     }
   ],
   "result": {

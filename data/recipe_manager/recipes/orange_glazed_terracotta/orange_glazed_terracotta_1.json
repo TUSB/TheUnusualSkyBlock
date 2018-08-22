@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lime_bed"
+      "item": "minecraft:white_concrete_powder"
     }
   ],
   "result": {

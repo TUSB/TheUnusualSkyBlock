@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_shovel"
+      "item": "minecraft:jungle_fence"
     },
     "W": {
-      "item": "minecraft:oak_pressure_plate"
+      "item": "minecraft:stripped_spruce_wood"
     }
   },
   "result": {

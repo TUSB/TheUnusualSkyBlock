@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_mushroom_block"
+      "item": "minecraft:dark_prismarine_stairs"
     },
     {
-      "item": "minecraft:mutton"
+      "item": "minecraft:iron_pickaxe"
     }
   ],
   "result": {

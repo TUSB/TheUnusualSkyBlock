@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_boat"
+      "item": "minecraft:orange_tulip"
     },
     {
-      "item": "minecraft:oak_trapdoor"
+      "item": "minecraft:stick"
     }
   ],
   "result": {

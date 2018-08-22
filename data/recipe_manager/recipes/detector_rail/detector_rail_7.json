@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:leather"
     },
     "#": {
-      "item": "minecraft:dragon_breath"
+      "item": "minecraft:phantom_membrane"
     },
     "R": {
-      "item": "minecraft:prismarine_shard"
+      "item": "minecraft:sandstone"
     }
   },
   "result": {

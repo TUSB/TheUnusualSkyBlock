@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cut_sandstone"
+      "item": "minecraft:arrow"
     },
     "|": {
-      "item": "minecraft:oak_leaves"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     }
   },
   "result": {

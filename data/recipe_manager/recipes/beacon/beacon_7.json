@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:cyan_bed"
+      "item": "minecraft:diamond_boots"
     },
     "S": {
-      "item": "minecraft:gray_terracotta"
+      "item": "minecraft:golden_apple"
     },
     "O": {
-      "item": "minecraft:nether_brick"
+      "item": "minecraft:rabbit_foot"
     }
   },
   "result": {

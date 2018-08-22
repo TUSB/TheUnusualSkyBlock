@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:jungle_trapdoor"
     },
     "C": {
-      "item": "minecraft:magma_block"
+      "item": "minecraft:sponge"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:carved_pumpkin"
+      "item": "minecraft:quartz_slab"
     },
     "X": {
-      "item": "minecraft:jungle_log"
+      "item": "minecraft:sand"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:arrow"
+      "item": "minecraft:coal"
     },
     "#": {
-      "item": "minecraft:cobblestone_wall"
+      "item": "minecraft:prismarine_brick_stairs"
     }
   },
   "result": {

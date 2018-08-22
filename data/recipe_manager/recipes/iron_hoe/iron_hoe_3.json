@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:beef"
+      "item": "minecraft:golden_chestplate"
     },
     "#": {
-      "item": "minecraft:red_sandstone_stairs"
+      "item": "minecraft:leather"
     }
   },
   "result": {

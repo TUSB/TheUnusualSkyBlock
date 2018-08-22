@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_slab"
+      "item": "minecraft:purple_stained_glass_pane"
     },
     "|": {
-      "item": "minecraft:dark_oak_fence"
+      "item": "minecraft:red_concrete_powder"
     }
   },
   "result": {

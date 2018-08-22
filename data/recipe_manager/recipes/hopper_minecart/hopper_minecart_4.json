@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:light_gray_glazed_terracotta"
+      "item": "minecraft:bowl"
     },
     "B": {
-      "item": "minecraft:red_sand"
+      "item": "minecraft:end_stone_bricks"
     }
   },
   "result": {

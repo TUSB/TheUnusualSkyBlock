@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_log"
+      "item": "minecraft:glass"
     },
     "#": {
-      "item": "minecraft:chorus_fruit"
+      "item": "minecraft:leather_chestplate"
     },
     "R": {
-      "item": "minecraft:lily_pad"
+      "item": "minecraft:stone_sword"
     }
   },
   "result": {

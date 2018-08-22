@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:enchanting_table"
+      "item": "minecraft:iron_ingot"
     },
     "X": {
-      "item": "minecraft:purpur_stairs"
+      "item": "minecraft:light_blue_dye"
     }
   },
   "result": {

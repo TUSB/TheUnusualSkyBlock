@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_banner"
+      "item": "minecraft:red_banner"
     },
     {
-      "item": "minecraft:tall_grass"
+      "item": "minecraft:zombie_head"
     }
   ],
   "result": {

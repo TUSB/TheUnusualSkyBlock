@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_concrete"
+      "item": "minecraft:cobweb"
     },
     "|": {
-      "item": "minecraft:green_terracotta"
+      "item": "minecraft:stone_pressure_plate"
     }
   },
   "result": {

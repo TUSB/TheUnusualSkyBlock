@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_shulker_box"
+      "item": "minecraft:acacia_planks"
     },
     {
-      "item": "minecraft:wooden_shovel"
+      "item": "minecraft:cauldron"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cut_sandstone"
+      "item": "minecraft:cauldron"
     },
     "#": {
-      "item": "minecraft:mossy_cobblestone"
+      "item": "minecraft:sandstone"
     }
   },
   "result": {

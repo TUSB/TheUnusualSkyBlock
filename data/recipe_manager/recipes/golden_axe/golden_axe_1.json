@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:creeper_head"
+      "item": "minecraft:baked_potato"
     },
     "#": {
-      "item": "minecraft:red_bed"
+      "item": "minecraft:cyan_stained_glass_pane"
     }
   },
   "result": {

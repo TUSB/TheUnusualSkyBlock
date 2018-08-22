@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:player_head"
+      "item": "minecraft:oak_fence_gate"
     },
     "|": {
-      "item": "minecraft:wooden_axe"
+      "item": "minecraft:prismarine_bricks"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cod"
+      "item": "minecraft:acacia_stairs"
     },
     {
-      "item": "minecraft:conduit"
+      "item": "minecraft:cactus"
     },
     {
-      "item": "minecraft:dark_oak_fence"
+      "item": "minecraft:dead_fire_coral_fan"
     },
     {
-      "item": "minecraft:detector_rail"
+      "item": "minecraft:dead_tube_coral_block"
     },
     {
-      "item": "minecraft:iron_nugget"
+      "item": "minecraft:lime_bed"
     },
     {
-      "item": "minecraft:prismarine"
+      "item": "minecraft:magenta_stained_glass"
     },
     {
-      "item": "minecraft:red_banner"
+      "item": "minecraft:pink_tulip"
     },
     {
-      "item": "minecraft:red_bed"
+      "item": "minecraft:pumpkin_pie"
     },
     {
-      "item": "minecraft:red_mushroom"
+      "item": "minecraft:yellow_terracotta"
     }
   ],
   "result": {

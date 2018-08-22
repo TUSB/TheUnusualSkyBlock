@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_fence_gate"
+      "item": "minecraft:black_stained_glass_pane"
     },
     {
-      "item": "minecraft:bookshelf"
+      "item": "minecraft:bone"
     },
     {
-      "item": "minecraft:cactus_green"
+      "item": "minecraft:brown_stained_glass_pane"
     },
     {
-      "item": "minecraft:conduit"
+      "item": "minecraft:brown_terracotta"
     },
     {
-      "item": "minecraft:leather_helmet"
+      "item": "minecraft:clay"
     },
     {
-      "item": "minecraft:light_gray_concrete"
+      "item": "minecraft:horn_coral_block"
     },
     {
-      "item": "minecraft:light_gray_glazed_terracotta"
+      "item": "minecraft:prismarine_slab"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:spawner"
     },
     {
-      "item": "minecraft:stone"
+      "item": "minecraft:spruce_pressure_plate"
     }
   ],
   "result": {

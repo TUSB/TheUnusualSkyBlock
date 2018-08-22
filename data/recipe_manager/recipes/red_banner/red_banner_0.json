@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lime_concrete"
+      "item": "minecraft:brown_carpet"
     },
     "|": {
-      "item": "minecraft:nether_wart"
+      "item": "minecraft:water_bucket"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:quartz_stairs"
+      "item": "minecraft:carrot"
     },
     "#": {
-      "item": "minecraft:wooden_hoe"
+      "item": "minecraft:note_block"
     }
   },
   "result": {

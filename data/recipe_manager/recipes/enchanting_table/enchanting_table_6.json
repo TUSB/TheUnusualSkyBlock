@@ -7,13 +7,13 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:birch_door"
+      "item": "minecraft:book"
     },
     "D": {
-      "item": "minecraft:shulker_box"
+      "item": "minecraft:chiseled_red_sandstone"
     },
     "#": {
-      "item": "minecraft:yellow_stained_glass_pane"
+      "item": "minecraft:cut_sandstone"
     }
   },
   "result": {

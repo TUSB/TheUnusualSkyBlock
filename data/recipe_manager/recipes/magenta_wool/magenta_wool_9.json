@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dragon_breath"
+      "item": "minecraft:cactus"
     },
     {
-      "item": "minecraft:rabbit_foot"
+      "item": "minecraft:red_sandstone_stairs"
     }
   ],
   "result": {

@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_ice"
+      "item": "minecraft:cooked_salmon"
     },
     {
-      "item": "minecraft:iron_axe"
+      "item": "minecraft:emerald_ore"
     },
     {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:enchanting_table"
     }
   ],
   "result": {

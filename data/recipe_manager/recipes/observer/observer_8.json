@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_log"
+      "item": "minecraft:diamond_boots"
     },
     "R": {
-      "item": "minecraft:green_shulker_box"
+      "item": "minecraft:gold_ore"
     },
     "Q": {
-      "item": "minecraft:light_blue_dye"
+      "item": "minecraft:stripped_oak_log"
     }
   },
   "result": {

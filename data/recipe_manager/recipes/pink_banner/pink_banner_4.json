@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_blue_glazed_terracotta"
+      "item": "minecraft:acacia_planks"
     },
     "|": {
-      "item": "minecraft:nautilus_shell"
+      "item": "minecraft:glass_bottle"
     }
   },
   "result": {

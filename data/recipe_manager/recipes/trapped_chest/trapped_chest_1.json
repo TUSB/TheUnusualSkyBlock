@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:creeper_head"
+      "item": "minecraft:dark_oak_boat"
     },
     {
-      "item": "minecraft:diamond_shovel"
+      "item": "minecraft:mossy_cobblestone_wall"
     }
   ],
   "result": {

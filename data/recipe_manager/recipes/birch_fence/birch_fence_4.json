@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:magenta_concrete"
     },
     "#": {
-      "item": "minecraft:snow_block"
+      "item": "minecraft:pink_stained_glass_pane"
     }
   },
   "result": {

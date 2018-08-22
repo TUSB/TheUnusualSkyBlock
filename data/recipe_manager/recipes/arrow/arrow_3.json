@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:birch_slab"
+      "item": "minecraft:blue_glazed_terracotta"
     },
     "#": {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:creeper_head"
     },
     "Y": {
-      "item": "minecraft:cyan_stained_glass"
+      "item": "minecraft:netherrack"
     }
   },
   "result": {

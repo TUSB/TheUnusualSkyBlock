@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_log"
+      "item": "minecraft:dandelion"
     },
     "X": {
-      "item": "minecraft:blaze_powder"
+      "item": "minecraft:oxeye_daisy"
     }
   },
   "result": {

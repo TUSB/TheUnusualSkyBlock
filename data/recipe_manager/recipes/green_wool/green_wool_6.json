@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:jungle_planks"
+      "item": "minecraft:beetroot_soup"
     },
     {
-      "item": "minecraft:spruce_button"
+      "item": "minecraft:leather"
     }
   ],
   "result": {

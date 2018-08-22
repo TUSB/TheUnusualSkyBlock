@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:podzol"
+      "item": "minecraft:brown_bed"
     },
     "#": {
-      "item": "minecraft:spruce_wood"
+      "item": "minecraft:purple_carpet"
     }
   },
   "result": {

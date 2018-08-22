@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lime_stained_glass_pane"
+      "item": "minecraft:bone"
     },
     "|": {
-      "item": "minecraft:turtle_egg"
+      "item": "minecraft:chest"
     }
   },
   "result": {

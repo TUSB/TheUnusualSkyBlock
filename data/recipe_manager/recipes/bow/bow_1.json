@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bread"
+      "item": "minecraft:golden_chestplate"
     },
     "X": {
-      "item": "minecraft:dark_oak_door"
+      "item": "minecraft:wooden_sword"
     }
   },
   "result": {

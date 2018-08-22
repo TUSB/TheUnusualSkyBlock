@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:potato"
+      "item": "minecraft:dead_tube_coral_fan"
     },
     {
-      "item": "minecraft:prismarine_bricks"
+      "item": "minecraft:pumpkin"
     }
   ],
   "result": {

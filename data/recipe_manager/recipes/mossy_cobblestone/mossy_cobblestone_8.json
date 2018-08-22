@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:infested_cobblestone"
+      "item": "minecraft:light_gray_wool"
     },
     {
-      "item": "minecraft:vine"
+      "item": "minecraft:red_sand"
     }
   ],
   "result": {

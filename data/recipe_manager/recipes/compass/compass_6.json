@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:polished_granite"
+      "item": "minecraft:birch_trapdoor"
     },
     "X": {
-      "item": "minecraft:stone_slab"
+      "item": "minecraft:blue_shulker_box"
     }
   },
   "result": {

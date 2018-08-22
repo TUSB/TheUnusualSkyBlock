@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:filled_map"
+      "item": "minecraft:furnace"
     },
     {
-      "item": "minecraft:polished_andesite"
+      "item": "minecraft:oak_leaves"
     }
   ],
   "result": {

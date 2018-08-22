@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:jungle_button"
+      "item": "minecraft:nether_wart"
     },
     "#": {
-      "item": "minecraft:pink_carpet"
+      "item": "minecraft:spruce_slab"
     }
   },
   "result": {

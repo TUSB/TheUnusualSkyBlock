@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:infested_cobblestone"
+      "item": "minecraft:red_bed"
     },
     "X": {
-      "item": "minecraft:oak_log"
+      "item": "minecraft:shield"
     }
   },
   "result": {

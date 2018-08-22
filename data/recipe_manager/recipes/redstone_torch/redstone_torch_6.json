@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cyan_wool"
+      "item": "minecraft:cobblestone_stairs"
     },
     "#": {
-      "item": "minecraft:emerald"
+      "item": "minecraft:lime_banner"
     }
   },
   "result": {

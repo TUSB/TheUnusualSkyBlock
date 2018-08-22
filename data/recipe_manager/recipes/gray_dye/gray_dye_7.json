@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lime_glazed_terracotta"
+      "item": "minecraft:green_stained_glass"
     },
     {
-      "item": "minecraft:purpur_pillar"
+      "item": "minecraft:pufferfish"
     }
   ],
   "result": {

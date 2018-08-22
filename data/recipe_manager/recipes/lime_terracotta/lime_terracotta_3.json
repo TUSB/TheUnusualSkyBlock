@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:note_block"
+      "item": "minecraft:carved_pumpkin"
     },
     "X": {
-      "item": "minecraft:snow_block"
+      "item": "minecraft:gray_bed"
     }
   },
   "result": {

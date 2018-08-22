@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_orchid"
+      "item": "minecraft:jungle_fence"
     },
     "#": {
-      "item": "minecraft:wooden_sword"
+      "item": "minecraft:prismarine_stairs"
     }
   },
   "result": {

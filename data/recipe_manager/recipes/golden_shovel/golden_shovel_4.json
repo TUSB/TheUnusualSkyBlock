@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_concrete"
+      "item": "minecraft:dandelion_yellow"
     },
     "#": {
-      "item": "minecraft:minecart"
+      "item": "minecraft:stripped_oak_log"
     }
   },
   "result": {

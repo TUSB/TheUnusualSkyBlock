@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:pink_banner"
+      "item": "minecraft:diamond_pickaxe"
     },
     "#": {
-      "item": "minecraft:pink_tulip"
+      "item": "minecraft:nether_quartz_ore"
     }
   },
   "result": {

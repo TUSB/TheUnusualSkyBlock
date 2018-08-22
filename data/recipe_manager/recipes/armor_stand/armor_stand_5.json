@@ -7,10 +7,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:bread"
     },
     "_": {
-      "item": "minecraft:purpur_slab"
+      "item": "minecraft:jungle_fence"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_door"
+      "item": "minecraft:acacia_fence_gate"
     },
     {
-      "item": "minecraft:blue_orchid"
+      "item": "minecraft:bone_block"
     },
     {
-      "item": "minecraft:cod_bucket"
+      "item": "minecraft:brown_mushroom"
     },
     {
-      "item": "minecraft:glistering_melon_slice"
+      "item": "minecraft:crafting_table"
     },
     {
-      "item": "minecraft:lead"
+      "item": "minecraft:cyan_concrete"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:iron_axe"
     },
     {
-      "item": "minecraft:purpur_pillar"
+      "item": "minecraft:magenta_concrete"
     },
     {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:shulker_shell"
     },
     {
-      "item": "minecraft:wheat"
+      "item": "minecraft:wooden_pickaxe"
     }
   ],
   "result": {

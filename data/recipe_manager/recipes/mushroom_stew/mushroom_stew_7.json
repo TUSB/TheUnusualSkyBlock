@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:gold_ore"
+      "item": "minecraft:chest"
     },
     {
-      "item": "minecraft:stone_button"
+      "item": "minecraft:polished_diorite"
     },
     {
-      "item": "minecraft:turtle_egg"
+      "item": "minecraft:prismarine_stairs"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:apple"
+      "item": "minecraft:jukebox"
     },
     "X": {
-      "item": "minecraft:rose_red"
+      "item": "minecraft:mossy_cobblestone_wall"
     }
   },
   "result": {

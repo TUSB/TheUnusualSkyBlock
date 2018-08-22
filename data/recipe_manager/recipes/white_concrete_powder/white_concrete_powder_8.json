@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_door"
+      "item": "minecraft:birch_leaves"
     },
     {
-      "item": "minecraft:bricks"
+      "item": "minecraft:birch_planks"
     },
     {
-      "item": "minecraft:brown_banner"
+      "item": "minecraft:brain_coral_fan"
     },
     {
-      "item": "minecraft:cooked_cod"
+      "item": "minecraft:brown_mushroom_block"
     },
     {
-      "item": "minecraft:feather"
+      "item": "minecraft:fire_coral"
     },
     {
-      "item": "minecraft:jungle_trapdoor"
+      "item": "minecraft:gray_concrete_powder"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:light_gray_stained_glass_pane"
     },
     {
-      "item": "minecraft:red_stained_glass_pane"
+      "item": "minecraft:phantom_membrane"
     },
     {
-      "item": "minecraft:sandstone_slab"
+      "item": "minecraft:snowball"
     }
   ],
   "result": {

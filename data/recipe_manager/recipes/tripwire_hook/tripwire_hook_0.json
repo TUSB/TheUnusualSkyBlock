@@ -7,13 +7,13 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:diamond_helmet"
+      "item": "minecraft:lime_dye"
     },
     "S": {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:prismarine_crystals"
     },
     "#": {
-      "item": "minecraft:poppy"
+      "item": "minecraft:stripped_dark_oak_wood"
     }
   },
   "result": {

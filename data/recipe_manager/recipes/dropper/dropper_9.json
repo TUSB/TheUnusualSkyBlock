@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:hay_block"
+      "item": "minecraft:stone_button"
     },
     "R": {
-      "item": "minecraft:rose_bush"
+      "item": "minecraft:stone_slab"
     }
   },
   "result": {

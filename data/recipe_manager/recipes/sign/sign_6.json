@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_trapdoor"
+      "item": "minecraft:polished_diorite"
     },
     "X": {
-      "item": "minecraft:cut_sandstone"
+      "item": "minecraft:powered_rail"
     }
   },
   "result": {

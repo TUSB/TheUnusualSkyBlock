@@ -7,16 +7,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:fire_coral_fan"
+      "item": "minecraft:magenta_terracotta"
     },
     "#": {
-      "item": "minecraft:light_blue_concrete_powder"
+      "item": "minecraft:oxeye_daisy"
     },
     "X": {
-      "item": "minecraft:magenta_stained_glass"
+      "item": "minecraft:pink_banner"
     },
     "R": {
-      "item": "minecraft:redstone_block"
+      "item": "minecraft:white_stained_glass_pane"
     }
   },
   "result": {

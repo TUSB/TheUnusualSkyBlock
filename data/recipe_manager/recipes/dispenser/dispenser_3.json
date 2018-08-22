@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:beef"
+      "item": "minecraft:dragon_head"
     },
     "X": {
-      "item": "minecraft:cake"
+      "item": "minecraft:slime_ball"
     },
     "R": {
-      "item": "minecraft:spruce_button"
+      "item": "minecraft:spruce_planks"
     }
   },
   "result": {

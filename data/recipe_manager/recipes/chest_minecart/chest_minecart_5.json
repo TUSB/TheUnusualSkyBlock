@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:prismarine_brick_slab"
+      "item": "minecraft:iron_shovel"
     },
     "B": {
-      "item": "minecraft:white_terracotta"
+      "item": "minecraft:spruce_log"
     }
   },
   "result": {

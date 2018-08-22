@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dried_kelp"
+      "item": "minecraft:black_concrete_powder"
     }
   ],
   "result": {

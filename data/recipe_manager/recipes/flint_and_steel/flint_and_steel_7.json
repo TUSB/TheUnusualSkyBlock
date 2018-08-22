@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bone_meal"
+      "item": "minecraft:jungle_pressure_plate"
     },
     {
-      "item": "minecraft:pink_banner"
+      "item": "minecraft:purpur_pillar"
     }
   ],
   "result": {

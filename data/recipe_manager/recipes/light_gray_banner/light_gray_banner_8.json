@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:stripped_birch_log"
+      "item": "minecraft:andesite"
     },
     "|": {
-      "item": "minecraft:yellow_concrete_powder"
+      "item": "minecraft:purple_concrete"
     }
   },
   "result": {

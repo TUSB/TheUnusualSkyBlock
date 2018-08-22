@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:birch_fence_gate"
+      "item": "minecraft:diamond_chestplate"
     },
     "#": {
-      "item": "minecraft:lime_concrete_powder"
+      "item": "minecraft:lime_shulker_box"
     }
   },
   "result": {

@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_stairs"
+      "item": "minecraft:packed_ice"
     },
     {
       "item": "minecraft:popped_chorus_fruit"

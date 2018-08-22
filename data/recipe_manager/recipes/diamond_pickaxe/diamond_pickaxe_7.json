@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:golden_sword"
+      "item": "minecraft:oak_door"
     },
     "#": {
-      "item": "minecraft:light_gray_concrete"
+      "item": "minecraft:spruce_planks"
     }
   },
   "result": {

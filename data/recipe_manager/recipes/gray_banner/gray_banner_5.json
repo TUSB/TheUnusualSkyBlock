@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:carrot"
+      "item": "minecraft:light_gray_bed"
     },
     "|": {
-      "item": "minecraft:cod"
+      "item": "minecraft:mushroom_stew"
     }
   },
   "result": {

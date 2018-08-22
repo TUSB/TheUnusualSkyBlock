@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:magenta_glazed_terracotta"
+      "item": "minecraft:birch_fence"
     },
     "B": {
-      "item": "minecraft:sandstone_stairs"
+      "item": "minecraft:potion"
     }
   },
   "result": {

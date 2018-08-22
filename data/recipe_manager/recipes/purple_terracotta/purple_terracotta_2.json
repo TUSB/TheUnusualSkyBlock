@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:pufferfish"
+      "item": "minecraft:prismarine_brick_slab"
     },
     "X": {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:purple_concrete"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diorite"
+      "item": "minecraft:birch_trapdoor"
     },
     "R": {
-      "item": "minecraft:white_concrete"
+      "item": "minecraft:glowstone"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:red_sandstone_stairs"
+      "item": "minecraft:green_concrete"
     },
     "#": {
-      "item": "minecraft:vine"
+      "item": "minecraft:magenta_shulker_box"
     }
   },
   "result": {

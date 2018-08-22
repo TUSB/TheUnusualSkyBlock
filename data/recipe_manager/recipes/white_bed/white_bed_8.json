@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_door"
+      "item": "minecraft:light_gray_dye"
     },
     "X": {
-      "item": "minecraft:red_sand"
+      "item": "minecraft:purple_terracotta"
     }
   },
   "result": {

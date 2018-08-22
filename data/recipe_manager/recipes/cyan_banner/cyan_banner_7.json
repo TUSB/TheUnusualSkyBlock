@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:book"
+      "item": "minecraft:mossy_stone_bricks"
     },
     "|": {
-      "item": "minecraft:oak_slab"
+      "item": "minecraft:orange_bed"
     }
   },
   "result": {

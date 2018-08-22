@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:iron_shovel"
+      "item": "minecraft:cobweb"
     },
     "#": {
-      "item": "minecraft:magenta_concrete"
+      "item": "minecraft:light_blue_carpet"
     }
   },
   "result": {

@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:coarse_dirt"
     },
     {
-      "item": "minecraft:pumpkin"
+      "item": "minecraft:crafting_table"
     },
     {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:rotten_flesh"
     }
   ],
   "result": {

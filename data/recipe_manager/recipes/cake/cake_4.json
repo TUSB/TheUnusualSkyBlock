@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:acacia_door"
+      "item": "minecraft:bone_meal"
     },
     "B": {
-      "item": "minecraft:detector_rail"
+      "item": "minecraft:green_wool"
     },
     "E": {
-      "item": "minecraft:fire_coral_fan"
+      "item": "minecraft:mutton"
     },
     "C": {
-      "item": "minecraft:snow_block"
+      "item": "minecraft:stone_slab"
     }
   },
   "result": {

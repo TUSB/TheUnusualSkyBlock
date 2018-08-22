@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lime_stained_glass"
+      "item": "minecraft:blue_wool"
     },
     "X": {
-      "item": "minecraft:tnt"
+      "item": "minecraft:golden_axe"
     },
     "I": {
-      "item": "minecraft:wooden_sword"
+      "item": "minecraft:orange_tulip"
     }
   },
   "result": {

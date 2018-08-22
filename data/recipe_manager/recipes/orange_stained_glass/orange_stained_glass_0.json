@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_banner"
+      "item": "minecraft:compass"
     },
     "X": {
-      "item": "minecraft:clay_ball"
+      "item": "minecraft:green_glazed_terracotta"
     }
   },
   "result": {

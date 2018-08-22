@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_fence"
+      "item": "minecraft:jungle_wood"
     },
     "X": {
-      "item": "minecraft:stick"
+      "item": "minecraft:lime_carpet"
     }
   },
   "result": {

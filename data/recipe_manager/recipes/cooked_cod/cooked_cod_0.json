@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:light_blue_carpet"
+      "item": "minecraft:observer"
     }
   ],
   "result": {

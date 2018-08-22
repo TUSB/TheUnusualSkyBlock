@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_dye"
+      "item": "minecraft:gray_concrete_powder"
     },
     {
-      "item": "minecraft:golden_boots"
+      "item": "minecraft:polished_diorite"
     }
   ],
   "result": {

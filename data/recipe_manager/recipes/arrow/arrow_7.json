@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:chainmail_leggings"
+      "item": "minecraft:granite"
     },
     "#": {
-      "item": "minecraft:cod"
+      "item": "minecraft:light_blue_carpet"
     },
     "Y": {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:purple_concrete"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:flower_pot"
+      "item": "minecraft:allium"
     },
     "X": {
-      "item": "minecraft:sugar"
+      "item": "minecraft:book"
     }
   },
   "result": {

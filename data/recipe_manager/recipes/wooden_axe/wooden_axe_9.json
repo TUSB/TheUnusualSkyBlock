@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:pink_stained_glass_pane"
+      "item": "minecraft:orange_wool"
     },
     "#": {
-      "item": "minecraft:repeater"
+      "item": "minecraft:spruce_fence"
     }
   },
   "result": {

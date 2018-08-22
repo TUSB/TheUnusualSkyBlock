@@ -6,10 +6,10 @@
   ],
   "key": {
     "C": {
-      "item": "minecraft:gunpowder"
+      "item": "minecraft:blue_glazed_terracotta"
     },
     "Q": {
-      "item": "minecraft:potion"
+      "item": "minecraft:redstone_lamp"
     }
   },
   "result": {

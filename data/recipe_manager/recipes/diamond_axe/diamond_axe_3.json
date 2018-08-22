@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_oak_sapling"
+      "item": "minecraft:green_banner"
     },
     "#": {
-      "item": "minecraft:purple_bed"
+      "item": "minecraft:magenta_stained_glass_pane"
     }
   },
   "result": {

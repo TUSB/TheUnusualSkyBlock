@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:chorus_fruit"
+      "item": "minecraft:diamond_block"
     },
     "#": {
-      "item": "minecraft:magenta_glazed_terracotta"
+      "item": "minecraft:prismarine_stairs"
     },
     "Y": {
-      "item": "minecraft:stone_sword"
+      "item": "minecraft:white_shulker_box"
     }
   },
   "result": {

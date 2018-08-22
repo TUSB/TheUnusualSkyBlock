@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:dark_oak_fence"
+      "item": "minecraft:acacia_button"
     },
     "B": {
-      "item": "minecraft:redstone_lamp"
+      "item": "minecraft:light_gray_glazed_terracotta"
     }
   },
   "result": {

@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:clay_ball"
+      "item": "minecraft:trapped_chest"
     }
   ],
   "result": {

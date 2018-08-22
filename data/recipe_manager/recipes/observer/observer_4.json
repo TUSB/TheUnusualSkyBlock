@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_sapling"
+      "item": "minecraft:green_concrete_powder"
     },
     "R": {
-      "item": "minecraft:dead_horn_coral_fan"
+      "item": "minecraft:white_carpet"
     },
     "Q": {
-      "item": "minecraft:tnt"
+      "item": "minecraft:white_stained_glass"
     }
   },
   "result": {

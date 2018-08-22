@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_carpet"
+      "item": "minecraft:cocoa_beans"
     },
     "|": {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:tnt"
     }
   },
   "result": {

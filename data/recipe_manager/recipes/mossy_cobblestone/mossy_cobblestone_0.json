@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:note_block"
+      "item": "minecraft:chipped_anvil"
     },
     {
-      "item": "minecraft:salmon"
+      "item": "minecraft:stone_bricks"
     }
   ],
   "result": {

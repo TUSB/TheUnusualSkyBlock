@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_wood"
+      "item": "minecraft:fern"
     },
     "X": {
-      "item": "minecraft:nether_brick_stairs"
+      "item": "minecraft:prismarine_brick_slab"
     }
   },
   "result": {

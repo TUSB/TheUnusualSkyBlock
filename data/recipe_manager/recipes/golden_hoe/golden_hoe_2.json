@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_prismarine"
+      "item": "minecraft:orange_dye"
     },
     "#": {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:stone_shovel"
     }
   },
   "result": {

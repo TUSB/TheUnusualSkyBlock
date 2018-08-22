@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:tnt"
+      "item": "minecraft:oak_boat"
     }
   ],
   "result": {

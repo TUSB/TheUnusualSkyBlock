@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brown_stained_glass"
+      "item": "minecraft:oak_planks"
     },
     "#": {
-      "item": "minecraft:orange_concrete"
+      "item": "minecraft:saddle"
     }
   },
   "result": {

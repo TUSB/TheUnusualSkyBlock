@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:prismarine_stairs"
+      "item": "minecraft:redstone_ore"
     }
   ],
   "result": {

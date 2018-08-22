@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:birch_leaves"
+      "item": "minecraft:green_concrete"
     },
     "S": {
-      "item": "minecraft:dragon_breath"
+      "item": "minecraft:painting"
     },
     "O": {
-      "item": "minecraft:redstone_block"
+      "item": "minecraft:red_sandstone_slab"
     }
   },
   "result": {

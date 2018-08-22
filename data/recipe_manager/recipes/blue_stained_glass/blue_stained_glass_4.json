@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_stained_glass"
+      "item": "minecraft:dirt"
     },
     "X": {
-      "item": "minecraft:spruce_door"
+      "item": "minecraft:red_terracotta"
     }
   },
   "result": {

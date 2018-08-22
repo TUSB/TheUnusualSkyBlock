@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dead_brain_coral_block"
+      "item": "minecraft:brain_coral_fan"
     },
     "#": {
-      "item": "minecraft:red_sand"
+      "item": "minecraft:nether_brick_stairs"
     }
   },
   "result": {

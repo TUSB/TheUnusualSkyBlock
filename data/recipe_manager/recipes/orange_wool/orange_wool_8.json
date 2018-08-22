@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:purple_dye"
+      "item": "minecraft:pink_stained_glass_pane"
     },
     {
-      "item": "minecraft:sand"
+      "item": "minecraft:stripped_acacia_wood"
     }
   ],
   "result": {

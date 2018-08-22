@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:ice"
+      "item": "minecraft:golden_helmet"
     },
     "X": {
-      "item": "minecraft:jungle_fence"
+      "item": "minecraft:iron_block"
     }
   },
   "result": {

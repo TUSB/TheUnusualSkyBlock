@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:daylight_detector"
+      "item": "minecraft:andesite"
     },
     "X": {
-      "item": "minecraft:lever"
+      "item": "minecraft:rabbit"
     }
   },
   "result": {

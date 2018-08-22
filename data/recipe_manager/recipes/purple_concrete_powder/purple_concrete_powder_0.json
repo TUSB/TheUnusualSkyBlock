@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:damaged_anvil"
+      "item": "minecraft:crafting_table"
     },
     {
-      "item": "minecraft:diamond"
+      "item": "minecraft:dark_oak_leaves"
     },
     {
-      "item": "minecraft:gray_concrete_powder"
+      "item": "minecraft:dead_tube_coral_fan"
     },
     {
-      "item": "minecraft:magenta_shulker_box"
+      "item": "minecraft:dragon_head"
     },
     {
-      "item": "minecraft:magma_block"
+      "item": "minecraft:enchanting_table"
     },
     {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:light_blue_glazed_terracotta"
     },
     {
-      "item": "minecraft:purple_dye"
+      "item": "minecraft:lilac"
     },
     {
-      "item": "minecraft:red_wool"
+      "item": "minecraft:redstone_lamp"
     },
     {
-      "item": "minecraft:spruce_fence"
+      "item": "minecraft:white_terracotta"
     }
   ],
   "result": {

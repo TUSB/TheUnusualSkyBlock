@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diorite"
+      "item": "minecraft:diamond_block"
     },
     {
-      "item": "minecraft:stripped_oak_log"
+      "item": "minecraft:lime_terracotta"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_ice"
+      "item": "minecraft:gravel"
     },
     "|": {
-      "item": "minecraft:bookshelf"
+      "item": "minecraft:orange_shulker_box"
     }
   },
   "result": {

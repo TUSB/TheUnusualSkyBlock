@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:activator_rail"
+      "item": "minecraft:chainmail_boots"
     },
     {
-      "item": "minecraft:blue_banner"
+      "item": "minecraft:glistering_melon_slice"
     },
     {
-      "item": "minecraft:bucket"
+      "item": "minecraft:green_shulker_box"
     },
     {
-      "item": "minecraft:cyan_wool"
+      "item": "minecraft:item_frame"
     },
     {
-      "item": "minecraft:emerald_ore"
+      "item": "minecraft:jungle_stairs"
     },
     {
-      "item": "minecraft:furnace"
+      "item": "minecraft:light_blue_stained_glass_pane"
     },
     {
-      "item": "minecraft:golden_leggings"
+      "item": "minecraft:lime_shulker_box"
     },
     {
-      "item": "minecraft:lime_banner"
+      "item": "minecraft:magma_block"
     },
     {
-      "item": "minecraft:stripped_jungle_log"
+      "item": "minecraft:spruce_door"
     }
   ],
   "result": {

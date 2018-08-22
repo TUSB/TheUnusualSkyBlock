@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:coal_ore"
+      "item": "minecraft:anvil"
     },
     "#": {
-      "item": "minecraft:kelp"
+      "item": "minecraft:dragon_head"
     }
   },
   "result": {

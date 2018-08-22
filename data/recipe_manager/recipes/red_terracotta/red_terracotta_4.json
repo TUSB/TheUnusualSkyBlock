@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_concrete"
+      "item": "minecraft:feather"
     },
     "X": {
-      "item": "minecraft:vine"
+      "item": "minecraft:infested_mossy_stone_bricks"
     }
   },
   "result": {

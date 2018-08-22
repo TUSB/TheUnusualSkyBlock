@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_trapdoor"
+      "item": "minecraft:brown_bed"
     },
     "R": {
-      "item": "minecraft:cut_sandstone"
+      "item": "minecraft:dead_brain_coral_fan"
     },
     "Q": {
-      "item": "minecraft:magenta_stained_glass_pane"
+      "item": "minecraft:lime_wool"
     }
   },
   "result": {

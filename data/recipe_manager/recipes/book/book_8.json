@@ -2,16 +2,16 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:light_gray_stained_glass_pane"
+      "item": "minecraft:diamond_boots"
     },
     {
-      "item": "minecraft:melon_slice"
+      "item": "minecraft:light_gray_shulker_box"
     },
     {
-      "item": "minecraft:red_mushroom_block"
+      "item": "minecraft:smooth_red_sandstone"
     },
     {
-      "item": "minecraft:red_sandstone"
+      "item": "minecraft:yellow_stained_glass"
     }
   ],
   "result": {

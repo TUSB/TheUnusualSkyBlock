@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:coarse_dirt"
+      "item": "minecraft:dirt"
     },
     {
-      "item": "minecraft:grass_block"
+      "item": "minecraft:ender_pearl"
     },
     {
-      "item": "minecraft:light_gray_glazed_terracotta"
+      "item": "minecraft:glistering_melon_slice"
     },
     {
-      "item": "minecraft:popped_chorus_fruit"
+      "item": "minecraft:lime_wool"
     },
     {
-      "item": "minecraft:quartz_pillar"
+      "item": "minecraft:magenta_shulker_box"
     },
     {
-      "item": "minecraft:red_carpet"
+      "item": "minecraft:painting"
     },
     {
-      "item": "minecraft:saddle"
+      "item": "minecraft:petrified_oak_slab"
     },
     {
-      "item": "minecraft:stone_bricks"
+      "item": "minecraft:snow"
     },
     {
-      "item": "minecraft:wooden_hoe"
+      "item": "minecraft:sugar_cane"
     }
   ],
   "result": {

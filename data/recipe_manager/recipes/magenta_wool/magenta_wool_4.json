@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:iron_door"
+      "item": "minecraft:brown_concrete_powder"
     },
     {
-      "item": "minecraft:light_gray_glazed_terracotta"
+      "item": "minecraft:yellow_wool"
     }
   ],
   "result": {

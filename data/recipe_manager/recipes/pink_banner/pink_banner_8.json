@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:torch"
+      "item": "minecraft:bubble_coral_block"
     },
     "|": {
-      "item": "minecraft:tropical_fish_bucket"
+      "item": "minecraft:magenta_stained_glass_pane"
     }
   },
   "result": {

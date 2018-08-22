@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lime_shulker_box"
+      "item": "minecraft:cyan_stained_glass_pane"
     },
     {
-      "item": "minecraft:prismarine_brick_stairs"
+      "item": "minecraft:pink_concrete"
     }
   ],
   "result": {

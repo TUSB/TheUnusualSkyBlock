@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:fire_charge"
+      "item": "minecraft:dead_brain_coral_block"
     },
     "#": {
-      "item": "minecraft:powered_rail"
+      "item": "minecraft:magenta_glazed_terracotta"
     }
   },
   "result": {

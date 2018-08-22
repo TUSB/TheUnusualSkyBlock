@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:bowl"
+      "item": "minecraft:dark_oak_sapling"
     },
     "#": {
-      "item": "minecraft:cyan_glazed_terracotta"
+      "item": "minecraft:spider_eye"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:bread"
+      "item": "minecraft:magenta_stained_glass_pane"
     },
     "#": {
-      "item": "minecraft:cyan_banner"
+      "item": "minecraft:polished_granite"
     }
   },
   "result": {

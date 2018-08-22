@@ -6,10 +6,10 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:black_bed"
+      "item": "minecraft:blue_carpet"
     },
     "#": {
-      "item": "minecraft:cyan_concrete"
+      "item": "minecraft:redstone"
     }
   },
   "result": {

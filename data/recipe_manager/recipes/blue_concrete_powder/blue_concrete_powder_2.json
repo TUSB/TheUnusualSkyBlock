@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chiseled_red_sandstone"
+      "item": "minecraft:iron_leggings"
     },
     {
-      "item": "minecraft:chiseled_sandstone"
+      "item": "minecraft:jungle_fence"
     },
     {
-      "item": "minecraft:cocoa_beans"
+      "item": "minecraft:lime_concrete"
     },
     {
-      "item": "minecraft:cooked_salmon"
+      "item": "minecraft:lime_stained_glass"
     },
     {
-      "item": "minecraft:iron_trapdoor"
-    },
-    {
-      "item": "minecraft:light_blue_bed"
-    },
-    {
-      "item": "minecraft:pink_bed"
+      "item": "minecraft:oak_fence_gate"
     },
     {
       "item": "minecraft:podzol"
     },
     {
-      "item": "minecraft:purpur_slab"
+      "item": "minecraft:spruce_slab"
+    },
+    {
+      "item": "minecraft:white_stained_glass"
+    },
+    {
+      "item": "minecraft:wooden_shovel"
     }
   ],
   "result": {

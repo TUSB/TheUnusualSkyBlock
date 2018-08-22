@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bowl"
+      "item": "minecraft:nether_bricks"
     },
     "X": {
-      "item": "minecraft:red_terracotta"
+      "item": "minecraft:wooden_pickaxe"
     }
   },
   "result": {

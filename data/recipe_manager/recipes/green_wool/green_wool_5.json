@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:emerald_block"
+      "item": "minecraft:red_stained_glass"
     },
     {
-      "item": "minecraft:leather_boots"
+      "item": "minecraft:tnt"
     }
   ],
   "result": {

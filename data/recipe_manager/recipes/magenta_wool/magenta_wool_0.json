@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dragon_breath"
+      "item": "minecraft:black_wool"
     },
     {
-      "item": "minecraft:stick"
+      "item": "minecraft:jungle_log"
     }
   ],
   "result": {

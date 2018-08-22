@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_trapdoor"
+      "item": "minecraft:acacia_slab"
     },
     "X": {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:note_block"
     }
   },
   "result": {

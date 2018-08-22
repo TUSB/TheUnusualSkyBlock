@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:fire_coral_block"
+      "item": "minecraft:iron_nugget"
     },
     "X": {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:spruce_sapling"
     }
   },
   "result": {

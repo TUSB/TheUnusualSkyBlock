@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chicken"
+      "item": "minecraft:dead_fire_coral_block"
     },
     "X": {
-      "item": "minecraft:rose_red"
+      "item": "minecraft:horn_coral"
     }
   },
   "result": {

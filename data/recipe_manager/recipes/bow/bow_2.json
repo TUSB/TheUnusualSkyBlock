@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:beetroot"
+      "item": "minecraft:bucket"
     },
     "X": {
-      "item": "minecraft:light_gray_carpet"
+      "item": "minecraft:diamond_boots"
     }
   },
   "result": {

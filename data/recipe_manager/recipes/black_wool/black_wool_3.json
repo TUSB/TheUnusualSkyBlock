@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:grass_block"
+      "item": "minecraft:redstone_block"
     },
     {
-      "item": "minecraft:wither_skeleton_skull"
+      "item": "minecraft:sea_pickle"
     }
   ],
   "result": {

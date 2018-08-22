@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:painting"
+      "item": "minecraft:red_concrete"
     },
     {
-      "item": "minecraft:red_stained_glass_pane"
+      "item": "minecraft:trident"
     }
   ],
   "result": {

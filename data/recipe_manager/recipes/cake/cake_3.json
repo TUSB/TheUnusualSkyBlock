@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:brown_concrete_powder"
+      "item": "minecraft:dark_oak_stairs"
     },
     "B": {
-      "item": "minecraft:clay_ball"
+      "item": "minecraft:nether_brick_stairs"
     },
     "E": {
-      "item": "minecraft:prismarine_crystals"
+      "item": "minecraft:orange_concrete_powder"
     },
     "C": {
-      "item": "minecraft:white_concrete"
+      "item": "minecraft:smooth_sandstone"
     }
   },
   "result": {

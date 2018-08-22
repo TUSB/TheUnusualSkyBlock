@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cookie"
+      "item": "minecraft:dark_oak_pressure_plate"
     },
     "|": {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:map"
     }
   },
   "result": {

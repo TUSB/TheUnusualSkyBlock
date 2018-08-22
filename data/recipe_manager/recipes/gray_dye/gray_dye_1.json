@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:anvil"
+      "item": "minecraft:acacia_fence_gate"
     },
     {
-      "item": "minecraft:glass_bottle"
+      "item": "minecraft:cooked_cod"
     }
   ],
   "result": {

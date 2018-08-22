@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_door"
+      "item": "minecraft:book"
     },
     "X": {
-      "item": "minecraft:lime_shulker_box"
+      "item": "minecraft:stone"
     }
   },
   "result": {

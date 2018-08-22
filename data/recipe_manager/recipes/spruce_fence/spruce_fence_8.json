@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:acacia_fence_gate"
+      "item": "minecraft:fishing_rod"
     },
     "#": {
-      "item": "minecraft:purple_concrete_powder"
+      "item": "minecraft:oxeye_daisy"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:soul_sand"
+      "item": "minecraft:mossy_cobblestone"
     },
     "#": {
-      "item": "minecraft:stone_brick_stairs"
+      "item": "minecraft:red_stained_glass"
     }
   },
   "result": {

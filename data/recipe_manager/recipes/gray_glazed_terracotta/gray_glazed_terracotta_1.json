@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:cooked_salmon"
     }
   ],
   "result": {

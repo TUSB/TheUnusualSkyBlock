@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:dried_kelp_block"
+      "item": "minecraft:chiseled_quartz_block"
     },
     "#": {
-      "item": "minecraft:egg"
+      "item": "minecraft:horn_coral_fan"
     }
   },
   "result": {

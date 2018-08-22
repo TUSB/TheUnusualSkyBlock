@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_slab"
+      "item": "minecraft:brown_mushroom"
     },
     {
-      "item": "minecraft:black_bed"
+      "item": "minecraft:diamond_axe"
     },
     {
-      "item": "minecraft:dead_horn_coral_fan"
+      "item": "minecraft:jukebox"
     },
     {
-      "item": "minecraft:gold_nugget"
+      "item": "minecraft:lime_dye"
     },
     {
-      "item": "minecraft:golden_helmet"
+      "item": "minecraft:red_glazed_terracotta"
     },
     {
-      "item": "minecraft:granite"
+      "item": "minecraft:red_nether_bricks"
     },
     {
-      "item": "minecraft:light_gray_carpet"
+      "item": "minecraft:spawner"
     },
     {
-      "item": "minecraft:orange_stained_glass"
+      "item": "minecraft:white_shulker_box"
     },
     {
-      "item": "minecraft:painting"
+      "item": "minecraft:white_stained_glass"
     }
   ],
   "result": {

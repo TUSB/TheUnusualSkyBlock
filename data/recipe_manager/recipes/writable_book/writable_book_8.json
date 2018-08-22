@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:light_gray_stained_glass_pane"
+      "item": "minecraft:golden_chestplate"
     },
     {
-      "item": "minecraft:rose_red"
+      "item": "minecraft:note_block"
     },
     {
-      "item": "minecraft:spruce_fence"
+      "item": "minecraft:sandstone_stairs"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:jack_o_lantern"
+      "item": "minecraft:grass"
     },
     "#": {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:wooden_sword"
     }
   },
   "result": {

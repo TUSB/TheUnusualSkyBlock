@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_boat"
+      "item": "minecraft:gray_shulker_box"
     },
     "X": {
-      "item": "minecraft:pufferfish_bucket"
+      "item": "minecraft:potato"
     }
   },
   "result": {

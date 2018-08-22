@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:grass"
+      "item": "minecraft:cooked_beef"
     },
     {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:golden_horse_armor"
     },
     {
-      "item": "minecraft:pink_concrete_powder"
+      "item": "minecraft:map"
     }
   ],
   "result": {

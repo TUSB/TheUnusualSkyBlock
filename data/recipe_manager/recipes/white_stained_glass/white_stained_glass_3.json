@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magenta_banner"
+      "item": "minecraft:dark_oak_boat"
     },
     "X": {
-      "item": "minecraft:spawner"
+      "item": "minecraft:light_blue_concrete_powder"
     }
   },
   "result": {

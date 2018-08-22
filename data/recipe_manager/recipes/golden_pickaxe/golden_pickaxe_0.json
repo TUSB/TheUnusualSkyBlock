@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cactus"
+      "item": "minecraft:orange_terracotta"
     },
     "#": {
-      "item": "minecraft:mutton"
+      "item": "minecraft:shield"
     }
   },
   "result": {

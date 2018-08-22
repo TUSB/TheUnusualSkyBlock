@@ -7,10 +7,10 @@
   ],
   "key": {
     "R": {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:acacia_fence_gate"
     },
     "G": {
-      "item": "minecraft:nether_brick"
+      "item": "minecraft:dark_oak_fence_gate"
     }
   },
   "result": {

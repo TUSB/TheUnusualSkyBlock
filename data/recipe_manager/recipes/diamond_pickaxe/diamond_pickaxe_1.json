@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dragon_head"
+      "item": "minecraft:acacia_stairs"
     },
     "#": {
-      "item": "minecraft:golden_sword"
+      "item": "minecraft:dispenser"
     }
   },
   "result": {

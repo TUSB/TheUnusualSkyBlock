@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:granite"
+      "item": "minecraft:glass"
     },
     "#": {
-      "item": "minecraft:purpur_slab"
+      "item": "minecraft:snow"
     }
   },
   "result": {

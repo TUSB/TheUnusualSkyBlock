@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:chainmail_helmet"
+      "item": "minecraft:dropper"
     },
     "S": {
-      "item": "minecraft:iron_bars"
+      "item": "minecraft:fishing_rod"
     },
     "#": {
-      "item": "minecraft:stone_button"
+      "item": "minecraft:mossy_cobblestone"
     }
   },
   "result": {

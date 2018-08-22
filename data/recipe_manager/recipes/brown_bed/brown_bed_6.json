@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:flint_and_steel"
+      "item": "minecraft:birch_pressure_plate"
     },
     "X": {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:blue_ice"
     }
   },
   "result": {

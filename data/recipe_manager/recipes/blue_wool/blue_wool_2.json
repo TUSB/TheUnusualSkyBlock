@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:purple_glazed_terracotta"
+      "item": "minecraft:flint"
     },
     {
-      "item": "minecraft:stone_shovel"
+      "item": "minecraft:iron_helmet"
     }
   ],
   "result": {

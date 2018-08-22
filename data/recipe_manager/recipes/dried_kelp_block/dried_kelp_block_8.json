@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_concrete_powder"
+      "item": "minecraft:apple"
     },
     {
-      "item": "minecraft:bricks"
+      "item": "minecraft:brown_wool"
     },
     {
-      "item": "minecraft:brown_glazed_terracotta"
+      "item": "minecraft:clay_ball"
     },
     {
-      "item": "minecraft:chorus_fruit"
+      "item": "minecraft:conduit"
     },
     {
-      "item": "minecraft:pumpkin_seeds"
+      "item": "minecraft:dead_tube_coral_block"
     },
     {
-      "item": "minecraft:purple_wool"
+      "item": "minecraft:red_bed"
     },
     {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:smooth_quartz"
     },
     {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:white_banner"
     },
     {
-      "item": "minecraft:stripped_dark_oak_log"
+      "item": "minecraft:white_stained_glass"
     }
   ],
   "result": {

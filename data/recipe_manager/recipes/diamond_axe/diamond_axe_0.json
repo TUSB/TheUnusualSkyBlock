@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:birch_wood"
+      "item": "minecraft:pink_banner"
     },
     "#": {
-      "item": "minecraft:orange_stained_glass_pane"
+      "item": "minecraft:prismarine"
     }
   },
   "result": {

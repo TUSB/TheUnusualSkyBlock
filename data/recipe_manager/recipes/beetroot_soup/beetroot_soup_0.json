@@ -7,10 +7,10 @@
   ],
   "key": {
     "O": {
-      "item": "minecraft:gray_stained_glass"
+      "item": "minecraft:cooked_mutton"
     },
     "B": {
-      "item": "minecraft:pink_concrete"
+      "item": "minecraft:crafting_table"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:gray_stained_glass"
+      "item": "minecraft:hopper"
     },
     "#": {
-      "item": "minecraft:stripped_oak_wood"
+      "item": "minecraft:peony"
     }
   },
   "result": {

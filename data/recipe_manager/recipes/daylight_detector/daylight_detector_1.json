@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:acacia_stairs"
+      "item": "minecraft:iron_axe"
     },
     "Q": {
-      "item": "minecraft:carved_pumpkin"
+      "item": "minecraft:red_mushroom"
     },
     "W": {
-      "item": "minecraft:glass_pane"
+      "item": "minecraft:red_stained_glass_pane"
     }
   },
   "result": {

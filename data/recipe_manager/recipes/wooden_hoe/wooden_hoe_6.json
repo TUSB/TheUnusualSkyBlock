@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:horn_coral_block"
+      "item": "minecraft:blue_stained_glass"
     },
     "#": {
-      "item": "minecraft:rose_red"
+      "item": "minecraft:light_blue_concrete"
     }
   },
   "result": {

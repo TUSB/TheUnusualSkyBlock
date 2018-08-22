@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:melon"
+      "item": "minecraft:clock"
     },
     "X": {
-      "item": "minecraft:smooth_quartz"
+      "item": "minecraft:stripped_acacia_wood"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:detector_rail"
+      "item": "minecraft:lime_glazed_terracotta"
     },
     "#": {
-      "item": "minecraft:lime_carpet"
+      "item": "minecraft:packed_ice"
     }
   },
   "result": {

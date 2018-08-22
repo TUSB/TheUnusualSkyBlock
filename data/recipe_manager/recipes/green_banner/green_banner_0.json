@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_terracotta"
+      "item": "minecraft:red_concrete"
     },
     "|": {
-      "item": "minecraft:hay_block"
+      "item": "minecraft:salmon_bucket"
     }
   },
   "result": {

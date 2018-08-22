@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:purple_stained_glass"
+      "item": "minecraft:magenta_terracotta"
     },
     "#": {
-      "item": "minecraft:yellow_concrete_powder"
+      "item": "minecraft:poisonous_potato"
     }
   },
   "result": {

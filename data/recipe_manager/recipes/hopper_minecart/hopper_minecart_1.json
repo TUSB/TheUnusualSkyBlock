@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:blue_concrete"
+      "item": "minecraft:dragon_breath"
     },
     "B": {
-      "item": "minecraft:rabbit_stew"
+      "item": "minecraft:nether_brick_fence"
     }
   },
   "result": {

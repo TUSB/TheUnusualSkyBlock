@@ -7,10 +7,10 @@
   ],
   "key": {
     "O": {
-      "item": "minecraft:oak_sapling"
+      "item": "minecraft:prismarine_slab"
     },
     "B": {
-      "item": "minecraft:purple_stained_glass_pane"
+      "item": "minecraft:terracotta"
     }
   },
   "result": {

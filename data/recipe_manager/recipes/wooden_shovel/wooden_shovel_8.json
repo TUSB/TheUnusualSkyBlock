@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:carved_pumpkin"
+      "item": "minecraft:acacia_planks"
     },
     "#": {
-      "item": "minecraft:cocoa_beans"
+      "item": "minecraft:blaze_rod"
     }
   },
   "result": {

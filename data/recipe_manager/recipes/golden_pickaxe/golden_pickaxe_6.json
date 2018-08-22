@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:gold_block"
+      "item": "minecraft:dark_oak_door"
     },
     "#": {
-      "item": "minecraft:mushroom_stew"
+      "item": "minecraft:gold_nugget"
     }
   },
   "result": {

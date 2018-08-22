@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_log"
+      "item": "minecraft:dark_oak_sapling"
     },
     "#": {
-      "item": "minecraft:diamond_axe"
+      "item": "minecraft:dead_brain_coral_block"
     },
     "R": {
-      "item": "minecraft:shulker_box"
+      "item": "minecraft:grass"
     }
   },
   "result": {

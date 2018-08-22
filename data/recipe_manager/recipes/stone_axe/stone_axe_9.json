@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:chiseled_quartz_block"
+      "item": "minecraft:dark_oak_trapdoor"
     },
     "#": {
-      "item": "minecraft:jungle_wood"
+      "item": "minecraft:melon"
     }
   },
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chipped_anvil"
+      "item": "minecraft:infested_cracked_stone_bricks"
     },
     "R": {
-      "item": "minecraft:glass_pane"
+      "item": "minecraft:oxeye_daisy"
     },
     "Q": {
-      "item": "minecraft:tall_grass"
+      "item": "minecraft:snow_block"
     }
   },
   "result": {

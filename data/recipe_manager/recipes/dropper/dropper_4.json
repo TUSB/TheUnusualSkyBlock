@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:mutton"
+      "item": "minecraft:birch_pressure_plate"
     },
     "R": {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:orange_stained_glass_pane"
     }
   },
   "result": {

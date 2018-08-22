@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:nether_brick"
+      "item": "minecraft:chorus_plant"
     },
     "X": {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:stone_sword"
     }
   },
   "result": {

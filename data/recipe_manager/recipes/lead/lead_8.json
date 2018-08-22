@@ -7,10 +7,10 @@
   ],
   "key": {
     "~": {
-      "item": "minecraft:filled_map"
+      "item": "minecraft:hay_block"
     },
     "O": {
-      "item": "minecraft:green_carpet"
+      "item": "minecraft:jungle_sapling"
     }
   },
   "result": {

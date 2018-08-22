@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:fire_coral"
+      "item": "minecraft:conduit"
     },
     "X": {
-      "item": "minecraft:stone_brick_stairs"
+      "item": "minecraft:stripped_spruce_log"
     }
   },
   "result": {

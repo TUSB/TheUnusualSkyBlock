@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:gray_stained_glass"
+      "item": "minecraft:farmland"
     },
     {
-      "item": "minecraft:oak_fence"
+      "item": "minecraft:white_stained_glass"
     }
   ],
   "result": {

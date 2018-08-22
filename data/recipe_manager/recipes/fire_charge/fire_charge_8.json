@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:nether_quartz_ore"
+      "item": "minecraft:birch_door"
     },
     {
-      "item": "minecraft:snow_block"
+      "item": "minecraft:iron_door"
     }
   ],
   "result": {

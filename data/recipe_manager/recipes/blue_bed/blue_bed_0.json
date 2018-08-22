@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_slab"
+      "item": "minecraft:gray_dye"
     },
     "X": {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:stone_brick_stairs"
     }
   },
   "result": {

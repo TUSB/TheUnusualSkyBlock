@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:compass"
+      "item": "minecraft:infested_mossy_stone_bricks"
     },
     "X": {
-      "item": "minecraft:iron_hoe"
+      "item": "minecraft:light_gray_glazed_terracotta"
     }
   },
   "result": {

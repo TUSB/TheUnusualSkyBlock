@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:charcoal"
+      "item": "minecraft:golden_apple"
     },
     "X": {
-      "item": "minecraft:stone_slab"
+      "item": "minecraft:prismarine_bricks"
     }
   },
   "result": {

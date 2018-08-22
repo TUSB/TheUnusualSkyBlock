@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jukebox"
+      "item": "minecraft:dark_oak_slab"
     },
     "|": {
-      "item": "minecraft:orange_wool"
+      "item": "minecraft:purple_dye"
     }
   },
   "result": {

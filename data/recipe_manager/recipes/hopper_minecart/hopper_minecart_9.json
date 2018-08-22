@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:coarse_dirt"
+      "item": "minecraft:bow"
     },
     "B": {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:purple_concrete_powder"
     }
   },
   "result": {

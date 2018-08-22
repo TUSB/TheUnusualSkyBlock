@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:jungle_wood"
     },
     "#": {
-      "item": "minecraft:oak_wood"
+      "item": "minecraft:magma_cream"
     }
   },
   "result": {

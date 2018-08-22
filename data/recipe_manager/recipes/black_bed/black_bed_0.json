@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bone_block"
+      "item": "minecraft:dark_oak_fence_gate"
     },
     "X": {
-      "item": "minecraft:potato"
+      "item": "minecraft:egg"
     }
   },
   "result": {

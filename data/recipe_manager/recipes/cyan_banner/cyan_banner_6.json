@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_stained_glass"
+      "item": "minecraft:bone_meal"
     },
     "|": {
-      "item": "minecraft:egg"
+      "item": "minecraft:cooked_porkchop"
     }
   },
   "result": {

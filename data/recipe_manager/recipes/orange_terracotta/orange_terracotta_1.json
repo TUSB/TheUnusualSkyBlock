@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:hay_block"
+      "item": "minecraft:cyan_shulker_box"
     },
     "X": {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:tnt"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_blue_banner"
+      "item": "minecraft:blue_wool"
     },
     "X": {
-      "item": "minecraft:magenta_stained_glass_pane"
+      "item": "minecraft:slime_ball"
     }
   },
   "result": {

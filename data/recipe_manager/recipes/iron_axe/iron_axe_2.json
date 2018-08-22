@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:magenta_dye"
+      "item": "minecraft:cactus_green"
     },
     "#": {
-      "item": "minecraft:purple_shulker_box"
+      "item": "minecraft:white_bed"
     }
   },
   "result": {

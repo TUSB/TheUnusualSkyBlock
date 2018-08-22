@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:black_bed"
     },
     {
-      "item": "minecraft:cyan_carpet"
+      "item": "minecraft:cobblestone_slab"
     },
     {
-      "item": "minecraft:dark_oak_trapdoor"
+      "item": "minecraft:dark_oak_log"
     },
     {
-      "item": "minecraft:end_crystal"
+      "item": "minecraft:ender_chest"
     },
     {
-      "item": "minecraft:jungle_wood"
+      "item": "minecraft:orange_concrete"
     },
     {
-      "item": "minecraft:light_blue_concrete_powder"
+      "item": "minecraft:prismarine_crystals"
     },
     {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:stone_brick_slab"
     },
     {
-      "item": "minecraft:orange_tulip"
+      "item": "minecraft:wheat"
     },
     {
-      "item": "minecraft:wooden_hoe"
+      "item": "minecraft:wooden_shovel"
     }
   ],
   "result": {

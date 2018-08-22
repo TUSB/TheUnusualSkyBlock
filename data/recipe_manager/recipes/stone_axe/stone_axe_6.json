@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:birch_button"
+      "item": "minecraft:gold_ingot"
     },
     "#": {
-      "item": "minecraft:lapis_ore"
+      "item": "minecraft:red_bed"
     }
   },
   "result": {

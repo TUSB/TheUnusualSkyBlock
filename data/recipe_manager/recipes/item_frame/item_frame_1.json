@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_bed"
+      "item": "minecraft:jungle_slab"
     },
     "X": {
-      "item": "minecraft:iron_shovel"
+      "item": "minecraft:stone_axe"
     }
   },
   "result": {

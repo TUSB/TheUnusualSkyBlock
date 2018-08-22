@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brick_stairs"
+      "item": "minecraft:light_gray_shulker_box"
     },
     {
-      "item": "minecraft:emerald_ore"
+      "item": "minecraft:obsidian"
     },
     {
-      "item": "minecraft:sponge"
+      "item": "minecraft:purple_stained_glass"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cake"
+      "item": "minecraft:acacia_wood"
     },
     "X": {
-      "item": "minecraft:white_glazed_terracotta"
+      "item": "minecraft:shulker_shell"
     }
   },
   "result": {

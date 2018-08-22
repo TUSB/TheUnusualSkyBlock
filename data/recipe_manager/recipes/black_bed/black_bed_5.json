@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:detector_rail"
+      "item": "minecraft:acacia_leaves"
     },
     "X": {
-      "item": "minecraft:mossy_stone_bricks"
+      "item": "minecraft:coal_block"
     }
   },
   "result": {

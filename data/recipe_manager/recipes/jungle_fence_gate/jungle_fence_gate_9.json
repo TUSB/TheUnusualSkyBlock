@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:black_wool"
     },
     "W": {
-      "item": "minecraft:jungle_planks"
+      "item": "minecraft:purple_stained_glass"
     }
   },
   "result": {

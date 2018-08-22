@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:jungle_log"
     },
     "X": {
-      "item": "minecraft:smooth_red_sandstone"
+      "item": "minecraft:spruce_boat"
     }
   },
   "result": {

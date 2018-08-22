@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cobblestone"
+      "item": "minecraft:birch_leaves"
     },
     {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:flower_pot"
     },
     {
-      "item": "minecraft:diamond_hoe"
+      "item": "minecraft:golden_carrot"
     },
     {
-      "item": "minecraft:diamond_horse_armor"
+      "item": "minecraft:golden_pickaxe"
     },
     {
-      "item": "minecraft:dragon_breath"
+      "item": "minecraft:jungle_log"
     },
     {
-      "item": "minecraft:golden_sword"
+      "item": "minecraft:jungle_trapdoor"
     },
     {
-      "item": "minecraft:light_gray_terracotta"
+      "item": "minecraft:magenta_glazed_terracotta"
     },
     {
-      "item": "minecraft:magma_cream"
+      "item": "minecraft:quartz_block"
     },
     {
-      "item": "minecraft:oak_door"
+      "item": "minecraft:red_nether_bricks"
     }
   ],
   "result": {

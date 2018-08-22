@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_carpet"
+      "item": "minecraft:black_shulker_box"
     },
     {
-      "item": "minecraft:dark_oak_wood"
+      "item": "minecraft:ice"
     },
     {
-      "item": "minecraft:dark_prismarine"
+      "item": "minecraft:infested_cobblestone"
     },
     {
-      "item": "minecraft:iron_bars"
+      "item": "minecraft:light_gray_stained_glass_pane"
     },
     {
-      "item": "minecraft:melon_slice"
+      "item": "minecraft:lime_dye"
     },
     {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:oak_pressure_plate"
     },
     {
-      "item": "minecraft:redstone_lamp"
+      "item": "minecraft:peony"
     },
     {
-      "item": "minecraft:rotten_flesh"
+      "item": "minecraft:piston"
     },
     {
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:wooden_pickaxe"
     }
   ],
   "result": {

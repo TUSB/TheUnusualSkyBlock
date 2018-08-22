@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bowl"
+      "item": "minecraft:lever"
     },
     {
-      "item": "minecraft:comparator"
+      "item": "minecraft:light_gray_concrete_powder"
     },
     {
-      "item": "minecraft:popped_chorus_fruit"
+      "item": "minecraft:quartz"
     }
   ],
   "result": {

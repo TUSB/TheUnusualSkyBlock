@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:allium"
+      "item": "minecraft:acacia_leaves"
     },
     {
-      "item": "minecraft:gray_concrete"
+      "item": "minecraft:beetroot"
     },
     {
-      "item": "minecraft:oak_stairs"
+      "item": "minecraft:charcoal"
     },
     {
-      "item": "minecraft:oak_trapdoor"
+      "item": "minecraft:coal_block"
     },
     {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:cooked_beef"
     },
     {
-      "item": "minecraft:phantom_membrane"
+      "item": "minecraft:dropper"
     },
     {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:light_blue_bed"
     },
     {
-      "item": "minecraft:sea_pickle"
+      "item": "minecraft:purple_bed"
     },
     {
-      "item": "minecraft:white_shulker_box"
+      "item": "minecraft:water_bucket"
     }
   ],
   "result": {

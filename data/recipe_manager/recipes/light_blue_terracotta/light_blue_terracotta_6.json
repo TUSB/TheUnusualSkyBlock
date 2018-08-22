@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:jungle_leaves"
     },
     "X": {
-      "item": "minecraft:light_gray_stained_glass"
+      "item": "minecraft:oak_log"
     }
   },
   "result": {

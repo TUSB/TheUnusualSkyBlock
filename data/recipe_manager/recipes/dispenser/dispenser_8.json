@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:infested_chiseled_stone_bricks"
+      "item": "minecraft:diamond_sword"
     },
     "X": {
-      "item": "minecraft:jungle_fence_gate"
+      "item": "minecraft:jungle_stairs"
     },
     "R": {
-      "item": "minecraft:splash_potion"
+      "item": "minecraft:spruce_fence"
     }
   },
   "result": {

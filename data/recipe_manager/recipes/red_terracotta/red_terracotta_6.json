@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:purple_stained_glass"
+      "item": "minecraft:jungle_sapling"
     },
     "X": {
-      "item": "minecraft:sponge"
+      "item": "minecraft:potion"
     }
   },
   "result": {

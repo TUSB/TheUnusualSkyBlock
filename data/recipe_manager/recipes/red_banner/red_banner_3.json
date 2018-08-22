@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:pumpkin"
+      "item": "minecraft:blue_concrete"
     },
     "|": {
-      "item": "minecraft:red_tulip"
+      "item": "minecraft:orange_dye"
     }
   },
   "result": {

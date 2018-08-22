@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_stained_glass"
+      "item": "minecraft:polished_andesite"
     }
   ],
   "result": {

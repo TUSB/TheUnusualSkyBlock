@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:melon"
+      "item": "minecraft:ink_sac"
     },
     "#": {
-      "item": "minecraft:redstone_lamp"
+      "item": "minecraft:oak_boat"
     }
   },
   "result": {

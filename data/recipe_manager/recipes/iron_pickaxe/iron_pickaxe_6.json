@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:magenta_dye"
+      "item": "minecraft:cyan_concrete"
     },
     "#": {
-      "item": "minecraft:sea_lantern"
+      "item": "minecraft:wither_skeleton_skull"
     }
   },
   "result": {

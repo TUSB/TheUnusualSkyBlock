@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_mushroom"
+      "item": "minecraft:brown_terracotta"
     },
     "X": {
-      "item": "minecraft:iron_trapdoor"
+      "item": "minecraft:red_shulker_box"
     }
   },
   "result": {

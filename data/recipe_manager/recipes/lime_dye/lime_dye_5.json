@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:ice"
+      "item": "minecraft:glowstone"
     },
     {
-      "item": "minecraft:soul_sand"
+      "item": "minecraft:gravel"
     }
   ],
   "result": {

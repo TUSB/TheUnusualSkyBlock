@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:clay_ball"
+      "item": "minecraft:golden_horse_armor"
     },
     "#": {
-      "item": "minecraft:dead_horn_coral_fan"
+      "item": "minecraft:iron_trapdoor"
     },
     "Y": {
-      "item": "minecraft:magma_block"
+      "item": "minecraft:orange_banner"
     }
   },
   "result": {

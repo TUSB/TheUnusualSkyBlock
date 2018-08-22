@@ -7,10 +7,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:blaze_powder"
     },
     "o": {
-      "item": "minecraft:orange_shulker_box"
+      "item": "minecraft:spider_eye"
     }
   },
   "result": {

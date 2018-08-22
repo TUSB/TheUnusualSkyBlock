@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_glazed_terracotta"
+      "item": "minecraft:lever"
     },
     "X": {
-      "item": "minecraft:white_shulker_box"
+      "item": "minecraft:light_blue_banner"
     }
   },
   "result": {

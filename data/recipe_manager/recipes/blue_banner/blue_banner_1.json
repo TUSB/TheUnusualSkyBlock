@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brick_stairs"
+      "item": "minecraft:black_stained_glass"
     },
     "|": {
-      "item": "minecraft:prismarine_crystals"
+      "item": "minecraft:wooden_sword"
     }
   },
   "result": {

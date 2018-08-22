@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_stairs"
+      "item": "minecraft:cut_sandstone"
     },
     {
-      "item": "minecraft:cracked_stone_bricks"
+      "item": "minecraft:grass"
     },
     {
-      "item": "minecraft:dead_fire_coral_block"
+      "item": "minecraft:melon_slice"
     }
   ],
   "result": {

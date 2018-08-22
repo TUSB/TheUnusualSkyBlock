@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:beacon"
+      "item": "minecraft:lead"
     },
     "X": {
-      "item": "minecraft:clay"
+      "item": "minecraft:rose_bush"
     }
   },
   "result": {

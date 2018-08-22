@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:jungle_wood"
+      "item": "minecraft:chainmail_leggings"
     },
     "#": {
-      "item": "minecraft:orange_wool"
+      "item": "minecraft:magma_block"
     }
   },
   "result": {

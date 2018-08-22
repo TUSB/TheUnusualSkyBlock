@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_fence"
+      "item": "minecraft:cracked_stone_bricks"
     },
     {
-      "item": "minecraft:quartz_stairs"
+      "item": "minecraft:jungle_leaves"
     },
     {
-      "item": "minecraft:spruce_leaves"
+      "item": "minecraft:skeleton_skull"
     }
   ],
   "result": {

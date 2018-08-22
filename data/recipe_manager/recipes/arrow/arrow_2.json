@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cyan_stained_glass_pane"
+      "item": "minecraft:blue_stained_glass"
     },
     "#": {
-      "item": "minecraft:diorite"
+      "item": "minecraft:brown_glazed_terracotta"
     },
     "Y": {
-      "item": "minecraft:golden_boots"
+      "item": "minecraft:green_terracotta"
     }
   },
   "result": {

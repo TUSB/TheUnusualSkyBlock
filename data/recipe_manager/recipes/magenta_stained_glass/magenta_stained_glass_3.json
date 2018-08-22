@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chiseled_red_sandstone"
+      "item": "minecraft:golden_apple"
     },
     "X": {
-      "item": "minecraft:stripped_spruce_log"
+      "item": "minecraft:player_head"
     }
   },
   "result": {

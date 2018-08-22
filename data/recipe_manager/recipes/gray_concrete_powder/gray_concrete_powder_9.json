@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_terracotta"
+      "item": "minecraft:diamond_ore"
     },
     {
-      "item": "minecraft:chiseled_red_sandstone"
+      "item": "minecraft:magenta_concrete_powder"
     },
     {
-      "item": "minecraft:cooked_cod"
+      "item": "minecraft:magenta_glazed_terracotta"
     },
     {
-      "item": "minecraft:dark_oak_stairs"
+      "item": "minecraft:oak_fence"
     },
     {
-      "item": "minecraft:dried_kelp_block"
+      "item": "minecraft:orange_wool"
     },
     {
-      "item": "minecraft:nether_brick_fence"
+      "item": "minecraft:player_head"
     },
     {
-      "item": "minecraft:pink_stained_glass"
+      "item": "minecraft:prismarine_brick_slab"
     },
     {
-      "item": "minecraft:red_mushroom"
+      "item": "minecraft:stripped_oak_log"
     },
     {
-      "item": "minecraft:stone_axe"
+      "item": "minecraft:tube_coral_fan"
     }
   ],
   "result": {

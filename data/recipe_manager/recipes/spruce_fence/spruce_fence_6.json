@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:purple_glazed_terracotta"
+      "item": "minecraft:grass_path"
     },
     "#": {
-      "item": "minecraft:red_terracotta"
+      "item": "minecraft:light_blue_banner"
     }
   },
   "result": {

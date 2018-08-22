@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:popped_chorus_fruit"
+      "item": "minecraft:nether_quartz_ore"
     },
     "|": {
-      "item": "minecraft:white_glazed_terracotta"
+      "item": "minecraft:white_concrete"
     }
   },
   "result": {

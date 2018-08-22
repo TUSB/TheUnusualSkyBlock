@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_button"
+      "item": "minecraft:cauldron"
     },
     "X": {
-      "item": "minecraft:trident"
+      "item": "minecraft:smooth_red_sandstone"
     }
   },
   "result": {

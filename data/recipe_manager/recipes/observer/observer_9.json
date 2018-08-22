@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:emerald_block"
+      "item": "minecraft:cyan_concrete"
     },
     "R": {
-      "item": "minecraft:infested_stone_bricks"
+      "item": "minecraft:jungle_fence"
     },
     "Q": {
-      "item": "minecraft:rose_red"
+      "item": "minecraft:tnt"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brewing_stand"
+      "item": "minecraft:brown_bed"
     },
     {
-      "item": "minecraft:cyan_carpet"
+      "item": "minecraft:cobblestone_stairs"
     },
     {
-      "item": "minecraft:dandelion"
+      "item": "minecraft:fire_charge"
     },
     {
-      "item": "minecraft:item_frame"
+      "item": "minecraft:golden_horse_armor"
     },
     {
-      "item": "minecraft:oak_button"
+      "item": "minecraft:purple_wool"
     },
     {
-      "item": "minecraft:pink_stained_glass"
+      "item": "minecraft:red_carpet"
     },
     {
-      "item": "minecraft:red_sandstone"
+      "item": "minecraft:red_tulip"
     },
     {
-      "item": "minecraft:smooth_red_sandstone"
+      "item": "minecraft:salmon_bucket"
     },
     {
-      "item": "minecraft:writable_book"
+      "item": "minecraft:spruce_boat"
     }
   ],
   "result": {

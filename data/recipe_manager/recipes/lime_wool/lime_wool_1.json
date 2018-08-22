@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:ender_eye"
+      "item": "minecraft:dark_oak_door"
     },
     {
-      "item": "minecraft:sandstone_stairs"
+      "item": "minecraft:tube_coral"
     }
   ],
   "result": {

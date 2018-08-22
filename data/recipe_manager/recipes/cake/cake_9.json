@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:chainmail_helmet"
+      "item": "minecraft:birch_wood"
     },
     "B": {
-      "item": "minecraft:magenta_banner"
+      "item": "minecraft:black_concrete_powder"
     },
     "E": {
-      "item": "minecraft:sunflower"
+      "item": "minecraft:cake"
     },
     "C": {
-      "item": "minecraft:white_carpet"
+      "item": "minecraft:jungle_boat"
     }
   },
   "result": {

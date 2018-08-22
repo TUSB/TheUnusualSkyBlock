@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:bookshelf"
+      "item": "minecraft:blue_stained_glass_pane"
     },
     "#": {
-      "item": "minecraft:light_gray_carpet"
+      "item": "minecraft:bookshelf"
     }
   },
   "result": {

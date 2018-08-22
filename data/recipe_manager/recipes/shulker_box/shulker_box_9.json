@@ -7,10 +7,10 @@
   ],
   "key": {
     "-": {
-      "item": "minecraft:arrow"
+      "item": "minecraft:magenta_banner"
     },
     "#": {
-      "item": "minecraft:mushroom_stem"
+      "item": "minecraft:tnt"
     }
   },
   "result": {

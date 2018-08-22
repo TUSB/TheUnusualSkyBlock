@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_stairs"
+      "item": "minecraft:mushroom_stem"
     },
     "#": {
-      "item": "minecraft:jungle_wood"
+      "item": "minecraft:porkchop"
     }
   },
   "result": {

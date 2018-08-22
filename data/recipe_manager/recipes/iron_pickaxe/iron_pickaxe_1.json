@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:golden_pickaxe"
+      "item": "minecraft:lever"
     },
     "#": {
-      "item": "minecraft:white_terracotta"
+      "item": "minecraft:rose_bush"
     }
   },
   "result": {

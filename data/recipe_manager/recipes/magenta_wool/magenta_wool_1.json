@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:golden_apple"
+      "item": "minecraft:cooked_chicken"
     },
     {
-      "item": "minecraft:light_gray_banner"
+      "item": "minecraft:spruce_leaves"
     }
   ],
   "result": {

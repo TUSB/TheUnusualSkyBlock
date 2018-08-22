@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:flower_pot"
+      "item": "minecraft:blue_concrete_powder"
     },
     "|": {
-      "item": "minecraft:purple_shulker_box"
+      "item": "minecraft:carrot_on_a_stick"
     }
   },
   "result": {

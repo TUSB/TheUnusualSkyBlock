@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_fence"
+      "item": "minecraft:cobblestone_stairs"
     },
     "X": {
-      "item": "minecraft:lever"
+      "item": "minecraft:green_concrete_powder"
     }
   },
   "result": {

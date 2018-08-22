@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:potion"
+      "item": "minecraft:player_head"
     },
     "#": {
-      "item": "minecraft:purple_banner"
+      "item": "minecraft:stripped_birch_log"
     }
   },
   "result": {

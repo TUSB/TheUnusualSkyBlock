@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dried_kelp"
+      "item": "minecraft:birch_fence_gate"
     },
     "X": {
-      "item": "minecraft:farmland"
+      "item": "minecraft:yellow_concrete_powder"
     }
   },
   "result": {

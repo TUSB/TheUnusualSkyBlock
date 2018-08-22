@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:fire_charge"
+      "item": "minecraft:magenta_stained_glass_pane"
     }
   ],
   "result": {

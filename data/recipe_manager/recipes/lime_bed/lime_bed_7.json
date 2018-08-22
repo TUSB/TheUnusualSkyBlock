@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chest"
+      "item": "minecraft:light_blue_banner"
     },
     "X": {
-      "item": "minecraft:white_shulker_box"
+      "item": "minecraft:magma_block"
     }
   },
   "result": {

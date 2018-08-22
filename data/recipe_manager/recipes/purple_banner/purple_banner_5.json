@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:clay_ball"
+      "item": "minecraft:filled_map"
     },
     "|": {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:stone_shovel"
     }
   },
   "result": {

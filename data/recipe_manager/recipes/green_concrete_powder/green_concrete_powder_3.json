@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:coal_ore"
+      "item": "minecraft:baked_potato"
     },
     {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:clay"
     },
     {
-      "item": "minecraft:flower_pot"
+      "item": "minecraft:compass"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:daylight_detector"
     },
     {
-      "item": "minecraft:minecart"
+      "item": "minecraft:flint_and_steel"
     },
     {
-      "item": "minecraft:oak_sapling"
+      "item": "minecraft:golden_helmet"
     },
     {
-      "item": "minecraft:oak_trapdoor"
+      "item": "minecraft:iron_nugget"
     },
     {
-      "item": "minecraft:sandstone"
+      "item": "minecraft:orange_tulip"
     },
     {
-      "item": "minecraft:sea_lantern"
+      "item": "minecraft:prismarine_bricks"
     }
   ],
   "result": {

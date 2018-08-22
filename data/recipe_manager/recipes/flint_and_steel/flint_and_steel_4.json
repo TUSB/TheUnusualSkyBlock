@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chiseled_sandstone"
+      "item": "minecraft:diorite"
     },
     {
-      "item": "minecraft:redstone_block"
+      "item": "minecraft:seagrass"
     }
   ],
   "result": {

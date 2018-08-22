@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:pumpkin_pie"
+      "item": "minecraft:diamond_chestplate"
     },
     "#": {
-      "item": "minecraft:trapped_chest"
+      "item": "minecraft:iron_door"
     }
   },
   "result": {

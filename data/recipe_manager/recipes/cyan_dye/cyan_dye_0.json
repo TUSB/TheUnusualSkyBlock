@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diamond_ore"
+      "item": "minecraft:mushroom_stew"
     },
     {
-      "item": "minecraft:mycelium"
+      "item": "minecraft:wooden_axe"
     }
   ],
   "result": {

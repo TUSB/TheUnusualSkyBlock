@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:skeleton_skull"
+      "item": "minecraft:light_blue_terracotta"
     },
     "#": {
-      "item": "minecraft:wheat"
+      "item": "minecraft:phantom_membrane"
     }
   },
   "result": {

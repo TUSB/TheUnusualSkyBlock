@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_wood"
+      "item": "minecraft:cyan_wool"
     },
     {
-      "item": "minecraft:black_concrete_powder"
+      "item": "minecraft:light_gray_banner"
     },
     {
-      "item": "minecraft:fire_coral"
+      "item": "minecraft:oxeye_daisy"
     },
     {
-      "item": "minecraft:magenta_stained_glass_pane"
+      "item": "minecraft:purpur_slab"
     },
     {
-      "item": "minecraft:soul_sand"
+      "item": "minecraft:salmon_bucket"
     },
     {
-      "item": "minecraft:spruce_door"
+      "item": "minecraft:smooth_stone"
     },
     {
-      "item": "minecraft:stone_hoe"
+      "item": "minecraft:spruce_log"
     },
     {
-      "item": "minecraft:stone_slab"
+      "item": "minecraft:spruce_sapling"
     },
     {
-      "item": "minecraft:string"
+      "item": "minecraft:stripped_birch_wood"
     }
   ],
   "result": {

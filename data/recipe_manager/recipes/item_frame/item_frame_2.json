@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magenta_wool"
+      "item": "minecraft:infested_cracked_stone_bricks"
     },
     "X": {
-      "item": "minecraft:smooth_red_sandstone"
+      "item": "minecraft:shulker_box"
     }
   },
   "result": {

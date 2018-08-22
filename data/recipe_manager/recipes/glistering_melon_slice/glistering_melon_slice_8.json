@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:beacon"
+      "item": "minecraft:birch_stairs"
     },
     "X": {
-      "item": "minecraft:yellow_bed"
+      "item": "minecraft:salmon_bucket"
     }
   },
   "result": {

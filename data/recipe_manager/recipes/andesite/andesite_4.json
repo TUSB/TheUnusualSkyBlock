@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_slab"
+      "item": "minecraft:lime_shulker_box"
     },
     {
-      "item": "minecraft:leather"
+      "item": "minecraft:purple_dye"
     }
   ],
   "result": {

@@ -2,16 +2,16 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dead_brain_coral_fan"
+      "item": "minecraft:light_gray_stained_glass"
     },
     {
-      "item": "minecraft:enchanting_table"
+      "item": "minecraft:purpur_stairs"
     },
     {
-      "item": "minecraft:prismarine_bricks"
+      "item": "minecraft:stone_button"
     },
     {
-      "item": "minecraft:quartz_pillar"
+      "item": "minecraft:yellow_glazed_terracotta"
     }
   ],
   "result": {

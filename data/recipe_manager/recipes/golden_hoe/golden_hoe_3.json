@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:arrow"
+      "item": "minecraft:stone_slab"
     },
     "#": {
-      "item": "minecraft:brown_concrete_powder"
+      "item": "minecraft:sugar_cane"
     }
   },
   "result": {

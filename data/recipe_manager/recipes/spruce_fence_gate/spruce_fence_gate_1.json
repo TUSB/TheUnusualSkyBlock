@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_blue_dye"
+      "item": "minecraft:activator_rail"
     },
     "W": {
-      "item": "minecraft:orange_wool"
+      "item": "minecraft:brown_shulker_box"
     }
   },
   "result": {

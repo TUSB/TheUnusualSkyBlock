@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lime_stained_glass"
+      "item": "minecraft:cobblestone_slab"
     },
     "R": {
-      "item": "minecraft:redstone_lamp"
+      "item": "minecraft:prismarine_brick_slab"
     }
   },
   "result": {

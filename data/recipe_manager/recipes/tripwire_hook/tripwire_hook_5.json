@@ -7,13 +7,13 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:brown_glazed_terracotta"
+      "item": "minecraft:birch_trapdoor"
     },
     "S": {
-      "item": "minecraft:red_mushroom_block"
+      "item": "minecraft:cooked_chicken"
     },
     "#": {
-      "item": "minecraft:white_shulker_box"
+      "item": "minecraft:leather_boots"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:chainmail_chestplate"
+      "item": "minecraft:end_stone_bricks"
     },
     "#": {
-      "item": "minecraft:compass"
+      "item": "minecraft:orange_terracotta"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_leggings"
+      "item": "minecraft:emerald_block"
     },
     "W": {
-      "item": "minecraft:minecart"
+      "item": "minecraft:lever"
     }
   },
   "result": {

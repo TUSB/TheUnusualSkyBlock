@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_planks"
+      "item": "minecraft:stripped_acacia_log"
     },
     "X": {
-      "item": "minecraft:polished_granite"
+      "item": "minecraft:wither_skeleton_skull"
     }
   },
   "result": {

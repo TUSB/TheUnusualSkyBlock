@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:nether_quartz_ore"
+      "item": "minecraft:dark_oak_door"
     },
     "X": {
-      "item": "minecraft:player_head"
+      "item": "minecraft:pumpkin"
     }
   },
   "result": {

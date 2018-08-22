@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_orchid"
+      "item": "minecraft:oak_fence"
     }
   ],
   "result": {

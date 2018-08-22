@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:purple_concrete_powder"
+      "item": "minecraft:beetroot"
     },
     "#": {
-      "item": "minecraft:snowball"
+      "item": "minecraft:polished_andesite"
     }
   },
   "result": {

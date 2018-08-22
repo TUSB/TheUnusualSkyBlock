@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jack_o_lantern"
+      "item": "minecraft:golden_apple"
     },
     "X": {
-      "item": "minecraft:jungle_fence"
+      "item": "minecraft:sandstone_slab"
     }
   },
   "result": {

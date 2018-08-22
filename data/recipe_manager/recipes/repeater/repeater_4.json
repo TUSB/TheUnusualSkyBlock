@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cobblestone_wall"
+      "item": "minecraft:light_blue_stained_glass_pane"
     },
     "X": {
-      "item": "minecraft:gray_carpet"
+      "item": "minecraft:light_gray_stained_glass"
     },
     "I": {
-      "item": "minecraft:pumpkin_pie"
+      "item": "minecraft:oak_leaves"
     }
   },
   "result": {

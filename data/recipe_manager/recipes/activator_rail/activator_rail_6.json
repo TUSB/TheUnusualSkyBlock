@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:allium"
+      "item": "minecraft:cooked_porkchop"
     },
     "S": {
-      "item": "minecraft:cobblestone"
+      "item": "minecraft:grass"
     },
     "#": {
-      "item": "minecraft:light_gray_shulker_box"
+      "item": "minecraft:jungle_button"
     }
   },
   "result": {

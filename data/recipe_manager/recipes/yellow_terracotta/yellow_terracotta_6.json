@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_boots"
+      "item": "minecraft:infested_mossy_stone_bricks"
     },
     "X": {
-      "item": "minecraft:nether_brick"
+      "item": "minecraft:splash_potion"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:glowstone_dust"
     },
     "X": {
-      "item": "minecraft:white_banner"
+      "item": "minecraft:tropical_fish"
     }
   },
   "result": {

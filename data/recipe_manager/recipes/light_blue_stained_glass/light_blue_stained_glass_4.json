@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cookie"
+      "item": "minecraft:blaze_rod"
     },
     "X": {
-      "item": "minecraft:nether_brick_fence"
+      "item": "minecraft:lime_stained_glass_pane"
     }
   },
   "result": {

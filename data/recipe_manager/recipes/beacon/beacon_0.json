@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:black_stained_glass_pane"
+      "item": "minecraft:furnace"
     },
     "S": {
-      "item": "minecraft:cod"
+      "item": "minecraft:jungle_log"
     },
     "O": {
-      "item": "minecraft:nether_quartz_ore"
+      "item": "minecraft:peony"
     }
   },
   "result": {

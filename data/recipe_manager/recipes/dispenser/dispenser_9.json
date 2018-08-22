@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_fence_gate"
+      "item": "minecraft:acacia_sapling"
     },
     "X": {
-      "item": "minecraft:lime_wool"
+      "item": "minecraft:light_blue_stained_glass"
     },
     "R": {
-      "item": "minecraft:pink_concrete_powder"
+      "item": "minecraft:oak_sapling"
     }
   },
   "result": {

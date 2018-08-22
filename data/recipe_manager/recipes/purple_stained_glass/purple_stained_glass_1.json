@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:ladder"
+      "item": "minecraft:chiseled_sandstone"
     },
     "X": {
-      "item": "minecraft:pink_stained_glass"
+      "item": "minecraft:written_book"
     }
   },
   "result": {

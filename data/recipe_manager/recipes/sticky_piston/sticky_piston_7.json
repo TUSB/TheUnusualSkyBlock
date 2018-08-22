@@ -6,10 +6,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:infested_cracked_stone_bricks"
+      "item": "minecraft:brick_slab"
     },
     "P": {
-      "item": "minecraft:light_blue_carpet"
+      "item": "minecraft:polished_granite"
     }
   },
   "result": {

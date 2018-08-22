@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:jungle_sapling"
+      "item": "minecraft:dispenser"
     },
     "#": {
-      "item": "minecraft:light_gray_shulker_box"
+      "item": "minecraft:iron_block"
     }
   },
   "result": {

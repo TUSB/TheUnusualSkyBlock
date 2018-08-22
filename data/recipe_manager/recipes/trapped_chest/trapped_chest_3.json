@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:pink_banner"
+      "item": "minecraft:diamond_horse_armor"
     },
     {
-      "item": "minecraft:tipped_arrow"
+      "item": "minecraft:light_gray_shulker_box"
     }
   ],
   "result": {

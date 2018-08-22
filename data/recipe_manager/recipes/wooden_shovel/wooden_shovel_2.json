@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:anvil"
+      "item": "minecraft:cobblestone_wall"
     },
     "#": {
-      "item": "minecraft:spruce_pressure_plate"
+      "item": "minecraft:cooked_salmon"
     }
   },
   "result": {

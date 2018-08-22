@@ -7,13 +7,13 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:dark_oak_stairs"
+      "item": "minecraft:beef"
     },
     "D": {
-      "item": "minecraft:fermented_spider_eye"
+      "item": "minecraft:bowl"
     },
     "#": {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:pufferfish"
     }
   },
   "result": {

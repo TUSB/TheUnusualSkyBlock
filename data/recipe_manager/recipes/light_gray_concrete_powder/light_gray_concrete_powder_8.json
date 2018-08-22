@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_sapling"
+      "item": "minecraft:coal_block"
     },
     {
-      "item": "minecraft:birch_wood"
+      "item": "minecraft:diamond_pickaxe"
     },
     {
-      "item": "minecraft:chiseled_sandstone"
+      "item": "minecraft:jungle_slab"
     },
     {
-      "item": "minecraft:golden_apple"
+      "item": "minecraft:leather_boots"
     },
     {
-      "item": "minecraft:leather"
+      "item": "minecraft:melon"
     },
     {
-      "item": "minecraft:lime_bed"
+      "item": "minecraft:oak_slab"
     },
     {
-      "item": "minecraft:oak_boat"
+      "item": "minecraft:piston"
+    },
+    {
+      "item": "minecraft:purple_terracotta"
     },
     {
       "item": "minecraft:redstone_block"
-    },
-    {
-      "item": "minecraft:wheat"
     }
   ],
   "result": {

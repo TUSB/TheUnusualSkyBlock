@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_pressure_plate"
+      "item": "minecraft:lime_stained_glass_pane"
     },
     {
-      "item": "minecraft:iron_shovel"
+      "item": "minecraft:wet_sponge"
     },
     {
-      "item": "minecraft:pumpkin_seeds"
+      "item": "minecraft:wooden_pickaxe"
     }
   ],
   "result": {

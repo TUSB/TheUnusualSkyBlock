@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dead_bubble_coral_block"
+      "item": "minecraft:dead_bubble_coral_fan"
     },
     "#": {
-      "item": "minecraft:oak_leaves"
+      "item": "minecraft:golden_boots"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:dandelion"
+      "item": "minecraft:diamond"
     },
     "C": {
-      "item": "minecraft:mushroom_stew"
+      "item": "minecraft:lime_stained_glass"
     }
   },
   "result": {

@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_prismarine"
+      "item": "minecraft:blue_carpet"
     },
     {
-      "item": "minecraft:infested_cracked_stone_bricks"
+      "item": "minecraft:heart_of_the_sea"
     },
     {
-      "item": "minecraft:wheat"
+      "item": "minecraft:spruce_boat"
     }
   ],
   "result": {

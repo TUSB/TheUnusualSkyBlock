@@ -7,13 +7,13 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:birch_stairs"
+      "item": "minecraft:gray_shulker_box"
     },
     "S": {
-      "item": "minecraft:green_banner"
+      "item": "minecraft:pink_dye"
     },
     "#": {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:prismarine"
     }
   },
   "result": {

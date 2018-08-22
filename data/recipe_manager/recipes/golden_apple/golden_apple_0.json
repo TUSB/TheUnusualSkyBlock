@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_terracotta"
+      "item": "minecraft:birch_button"
     },
     "X": {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:red_concrete_powder"
     }
   },
   "result": {

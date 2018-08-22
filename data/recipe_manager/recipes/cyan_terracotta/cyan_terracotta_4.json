@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:enchanted_book"
+      "item": "minecraft:red_concrete_powder"
     },
     "X": {
-      "item": "minecraft:kelp"
+      "item": "minecraft:writable_book"
     }
   },
   "result": {

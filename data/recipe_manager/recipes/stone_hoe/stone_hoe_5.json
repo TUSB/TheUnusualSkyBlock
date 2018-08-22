@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dried_kelp"
+      "item": "minecraft:lime_glazed_terracotta"
     },
     "#": {
-      "item": "minecraft:flint_and_steel"
+      "item": "minecraft:redstone_ore"
     }
   },
   "result": {

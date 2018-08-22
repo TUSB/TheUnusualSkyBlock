@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chicken"
+      "item": "minecraft:egg"
     },
     "|": {
-      "item": "minecraft:large_fern"
+      "item": "minecraft:stripped_oak_wood"
     }
   },
   "result": {

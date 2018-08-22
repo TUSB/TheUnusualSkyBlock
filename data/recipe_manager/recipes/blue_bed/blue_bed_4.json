@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_leggings"
+      "item": "minecraft:bricks"
     },
     "X": {
-      "item": "minecraft:nether_wart"
+      "item": "minecraft:polished_diorite"
     }
   },
   "result": {

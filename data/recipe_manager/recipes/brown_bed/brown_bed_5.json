@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brick_slab"
+      "item": "minecraft:brick"
     },
     "X": {
-      "item": "minecraft:hopper"
+      "item": "minecraft:red_carpet"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lime_wool"
+      "item": "minecraft:chest"
     },
     {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:large_fern"
     }
   ],
   "result": {

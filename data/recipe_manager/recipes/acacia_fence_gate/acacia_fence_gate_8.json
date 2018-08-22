@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cookie"
+      "item": "minecraft:brown_mushroom_block"
     },
     "W": {
-      "item": "minecraft:iron_pickaxe"
+      "item": "minecraft:vine"
     }
   },
   "result": {

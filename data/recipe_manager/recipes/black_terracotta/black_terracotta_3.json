@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_shovel"
+      "item": "minecraft:green_wool"
     },
     "X": {
-      "item": "minecraft:iron_helmet"
+      "item": "minecraft:spruce_pressure_plate"
     }
   },
   "result": {

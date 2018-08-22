@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:clock"
+      "item": "minecraft:compass"
     },
     "|": {
-      "item": "minecraft:cooked_porkchop"
+      "item": "minecraft:diamond_horse_armor"
     }
   },
   "result": {

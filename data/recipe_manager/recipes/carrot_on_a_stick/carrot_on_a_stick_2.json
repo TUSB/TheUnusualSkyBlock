@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:orange_banner"
+      "item": "minecraft:black_stained_glass_pane"
     },
     "X": {
-      "item": "minecraft:red_terracotta"
+      "item": "minecraft:infested_stone_bricks"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_door"
+      "item": "minecraft:dark_oak_pressure_plate"
     },
     "|": {
-      "item": "minecraft:brown_carpet"
+      "item": "minecraft:stone"
     }
   },
   "result": {

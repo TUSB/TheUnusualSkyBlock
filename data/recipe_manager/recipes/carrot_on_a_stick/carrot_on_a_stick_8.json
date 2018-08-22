@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:rabbit_foot"
+      "item": "minecraft:chainmail_helmet"
     },
     "X": {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:dispenser"
     }
   },
   "result": {

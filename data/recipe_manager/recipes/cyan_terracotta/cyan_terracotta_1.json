@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:nautilus_shell"
+      "item": "minecraft:chest_minecart"
     },
     "X": {
-      "item": "minecraft:trapped_chest"
+      "item": "minecraft:glass_bottle"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_dye"
+      "item": "minecraft:blue_concrete"
     },
     {
-      "item": "minecraft:orange_shulker_box"
+      "item": "minecraft:golden_helmet"
     }
   ],
   "result": {

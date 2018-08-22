@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:observer"
+      "item": "minecraft:blue_bed"
     },
     "X": {
-      "item": "minecraft:stone_axe"
+      "item": "minecraft:gunpowder"
     }
   },
   "result": {

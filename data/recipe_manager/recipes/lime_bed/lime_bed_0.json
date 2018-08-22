@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:daylight_detector"
+      "item": "minecraft:furnace_minecart"
     },
     "X": {
-      "item": "minecraft:mossy_stone_bricks"
+      "item": "minecraft:lime_concrete_powder"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_button"
+      "item": "minecraft:black_concrete"
     },
     "X": {
-      "item": "minecraft:string"
+      "item": "minecraft:redstone_torch"
     }
   },
   "result": {

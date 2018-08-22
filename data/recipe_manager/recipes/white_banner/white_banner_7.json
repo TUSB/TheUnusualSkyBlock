@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_pressure_plate"
+      "item": "minecraft:blue_stained_glass"
     },
     "|": {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:infested_chiseled_stone_bricks"
     }
   },
   "result": {

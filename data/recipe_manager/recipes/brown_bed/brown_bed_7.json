@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_sand"
+      "item": "minecraft:green_stained_glass"
     },
     "X": {
-      "item": "minecraft:tnt"
+      "item": "minecraft:wooden_sword"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:purple_wool"
+      "item": "minecraft:jack_o_lantern"
     },
     "#": {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:yellow_wool"
     }
   },
   "result": {

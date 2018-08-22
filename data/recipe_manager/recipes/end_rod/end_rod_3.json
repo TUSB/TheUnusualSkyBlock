@@ -6,10 +6,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:tipped_arrow"
+      "item": "minecraft:petrified_oak_slab"
     },
     "#": {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:tipped_arrow"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_banner"
+      "item": "minecraft:red_mushroom"
     },
     "#": {
-      "item": "minecraft:cobweb"
+      "item": "minecraft:smooth_stone"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_fence"
+      "item": "minecraft:pink_glazed_terracotta"
     },
     "X": {
-      "item": "minecraft:sandstone"
+      "item": "minecraft:stone_button"
     }
   },
   "result": {

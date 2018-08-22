@@ -7,10 +7,10 @@
   ],
   "key": {
     "~": {
-      "item": "minecraft:infested_mossy_stone_bricks"
+      "item": "minecraft:end_crystal"
     },
     "O": {
-      "item": "minecraft:orange_shulker_box"
+      "item": "minecraft:gold_block"
     }
   },
   "result": {

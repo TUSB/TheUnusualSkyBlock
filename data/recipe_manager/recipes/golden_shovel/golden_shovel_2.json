@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:obsidian"
+      "item": "minecraft:brick_slab"
     },
     "#": {
-      "item": "minecraft:peony"
+      "item": "minecraft:carrot_on_a_stick"
     }
   },
   "result": {

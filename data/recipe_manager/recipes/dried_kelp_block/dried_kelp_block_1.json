@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:comparator"
+      "item": "minecraft:brick"
     },
     {
-      "item": "minecraft:dark_oak_boat"
+      "item": "minecraft:brown_mushroom"
+    },
+    {
+      "item": "minecraft:brown_stained_glass_pane"
     },
     {
       "item": "minecraft:glowstone"
     },
     {
-      "item": "minecraft:gray_bed"
+      "item": "minecraft:light_blue_bed"
     },
     {
-      "item": "minecraft:gray_carpet"
+      "item": "minecraft:melon_slice"
     },
     {
-      "item": "minecraft:green_terracotta"
+      "item": "minecraft:orange_terracotta"
     },
     {
-      "item": "minecraft:infested_chiseled_stone_bricks"
+      "item": "minecraft:pink_stained_glass"
     },
     {
-      "item": "minecraft:light_blue_wool"
-    },
-    {
-      "item": "minecraft:powered_rail"
+      "item": "minecraft:stripped_dark_oak_wood"
     }
   ],
   "result": {

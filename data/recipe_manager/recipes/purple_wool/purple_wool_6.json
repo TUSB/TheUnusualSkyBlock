@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:iron_axe"
+      "item": "minecraft:jungle_log"
     },
     {
-      "item": "minecraft:pink_banner"
+      "item": "minecraft:oak_wood"
     }
   ],
   "result": {

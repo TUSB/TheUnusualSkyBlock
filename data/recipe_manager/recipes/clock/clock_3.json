@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:brick_stairs"
     },
     "X": {
-      "item": "minecraft:chicken"
+      "item": "minecraft:wheat"
     }
   },
   "result": {

@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:light_blue_glazed_terracotta"
+      "item": "minecraft:arrow"
     },
     "B": {
-      "item": "minecraft:pink_terracotta"
+      "item": "minecraft:light_gray_concrete_powder"
     },
     "E": {
-      "item": "minecraft:red_mushroom"
+      "item": "minecraft:mossy_stone_bricks"
     },
     "C": {
-      "item": "minecraft:yellow_terracotta"
+      "item": "minecraft:oak_fence"
     }
   },
   "result": {

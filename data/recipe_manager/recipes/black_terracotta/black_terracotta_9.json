@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_fence"
+      "item": "minecraft:dark_oak_trapdoor"
     },
     "X": {
-      "item": "minecraft:stone"
+      "item": "minecraft:skeleton_skull"
     }
   },
   "result": {

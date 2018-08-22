@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond_shovel"
+      "item": "minecraft:end_stone_bricks"
     },
     "#": {
-      "item": "minecraft:rose_red"
+      "item": "minecraft:salmon_bucket"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magenta_terracotta"
+      "item": "minecraft:bucket"
     },
     "|": {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:infested_mossy_stone_bricks"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_prismarine"
+      "item": "minecraft:gray_wool"
     },
     "#": {
-      "item": "minecraft:red_concrete"
+      "item": "minecraft:spruce_wood"
     }
   },
   "result": {

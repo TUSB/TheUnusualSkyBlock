@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:bone"
+      "item": "minecraft:lime_concrete_powder"
     },
     "#": {
-      "item": "minecraft:cooked_cod"
+      "item": "minecraft:yellow_bed"
     }
   },
   "result": {

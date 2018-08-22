@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:salmon_bucket"
+      "item": "minecraft:acacia_fence_gate"
     },
     "C": {
-      "item": "minecraft:sugar"
+      "item": "minecraft:spruce_boat"
     }
   },
   "result": {

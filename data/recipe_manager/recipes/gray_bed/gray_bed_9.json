@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:purple_carpet"
+      "item": "minecraft:arrow"
     },
     "X": {
-      "item": "minecraft:stripped_spruce_log"
+      "item": "minecraft:chiseled_red_sandstone"
     }
   },
   "result": {

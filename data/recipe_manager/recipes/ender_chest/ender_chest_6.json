@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_banner"
+      "item": "minecraft:bone_meal"
     },
     "E": {
-      "item": "minecraft:wooden_hoe"
+      "item": "minecraft:jungle_door"
     }
   },
   "result": {

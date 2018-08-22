@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_mushroom"
+      "item": "minecraft:activator_rail"
     },
     "X": {
-      "item": "minecraft:red_concrete"
+      "item": "minecraft:wooden_axe"
     }
   },
   "result": {

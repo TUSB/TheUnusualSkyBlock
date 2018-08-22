@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_boat"
+      "item": "minecraft:infested_stone"
     },
     "#": {
-      "item": "minecraft:creeper_head"
+      "item": "minecraft:spruce_slab"
     }
   },
   "result": {

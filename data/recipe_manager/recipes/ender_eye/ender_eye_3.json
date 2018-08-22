@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:arrow"
+      "item": "minecraft:creeper_head"
     },
     {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:fermented_spider_eye"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_shulker_box"
+      "item": "minecraft:dirt"
     },
     "X": {
-      "item": "minecraft:lingering_potion"
+      "item": "minecraft:glass_pane"
     }
   },
   "result": {

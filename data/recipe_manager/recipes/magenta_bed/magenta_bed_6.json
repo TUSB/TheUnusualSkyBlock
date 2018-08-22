@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:spruce_fence"
+      "item": "minecraft:green_carpet"
     },
     "X": {
-      "item": "minecraft:wooden_hoe"
+      "item": "minecraft:oak_trapdoor"
     }
   },
   "result": {

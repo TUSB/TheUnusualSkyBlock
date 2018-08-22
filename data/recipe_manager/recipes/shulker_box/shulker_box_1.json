@@ -7,10 +7,10 @@
   ],
   "key": {
     "-": {
-      "item": "minecraft:jungle_fence"
+      "item": "minecraft:brick_slab"
     },
     "#": {
-      "item": "minecraft:pink_banner"
+      "item": "minecraft:melon_slice"
     }
   },
   "result": {

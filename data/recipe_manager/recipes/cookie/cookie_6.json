@@ -5,10 +5,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:shulker_box"
+      "item": "minecraft:cracked_stone_bricks"
     },
     "X": {
-      "item": "minecraft:stone_sword"
+      "item": "minecraft:nether_bricks"
     }
   },
   "result": {

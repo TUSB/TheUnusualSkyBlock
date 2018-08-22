@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:flint"
+      "item": "minecraft:glass"
     },
     "X": {
-      "item": "minecraft:white_concrete_powder"
+      "item": "minecraft:melon_seeds"
     }
   },
   "result": {

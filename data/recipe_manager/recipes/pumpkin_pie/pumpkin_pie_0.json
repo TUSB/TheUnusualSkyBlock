@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_boat"
+      "item": "minecraft:light_gray_shulker_box"
     },
     {
-      "item": "minecraft:light_blue_stained_glass"
+      "item": "minecraft:pink_stained_glass_pane"
     },
     {
-      "item": "minecraft:orange_carpet"
+      "item": "minecraft:stone_bricks"
     }
   ],
   "result": {

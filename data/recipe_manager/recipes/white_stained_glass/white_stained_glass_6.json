@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_leaves"
+      "item": "minecraft:cooked_porkchop"
     },
     "X": {
-      "item": "minecraft:birch_door"
+      "item": "minecraft:soul_sand"
     }
   },
   "result": {

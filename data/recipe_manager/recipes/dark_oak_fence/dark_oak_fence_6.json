@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:end_rod"
+      "item": "minecraft:golden_sword"
     },
     "#": {
-      "item": "minecraft:trapped_chest"
+      "item": "minecraft:horn_coral"
     }
   },
   "result": {

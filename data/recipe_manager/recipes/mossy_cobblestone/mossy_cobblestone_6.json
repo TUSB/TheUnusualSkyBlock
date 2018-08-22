@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:light_blue_banner"
+      "item": "minecraft:green_stained_glass_pane"
     },
     {
-      "item": "minecraft:magenta_stained_glass"
+      "item": "minecraft:stone_shovel"
     }
   ],
   "result": {

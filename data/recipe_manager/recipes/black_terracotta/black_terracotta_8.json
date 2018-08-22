@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:coarse_dirt"
+      "item": "minecraft:iron_ingot"
     },
     "X": {
-      "item": "minecraft:farmland"
+      "item": "minecraft:light_blue_banner"
     }
   },
   "result": {

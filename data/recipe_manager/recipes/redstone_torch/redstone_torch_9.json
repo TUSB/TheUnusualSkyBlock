@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_oak_fence_gate"
+      "item": "minecraft:white_concrete_powder"
     },
     "#": {
-      "item": "minecraft:mossy_stone_bricks"
+      "item": "minecraft:yellow_stained_glass_pane"
     }
   },
   "result": {

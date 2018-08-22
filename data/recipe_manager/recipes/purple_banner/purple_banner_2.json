@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_stairs"
+      "item": "minecraft:red_sand"
     },
     "|": {
-      "item": "minecraft:diamond_sword"
+      "item": "minecraft:salmon"
     }
   },
   "result": {

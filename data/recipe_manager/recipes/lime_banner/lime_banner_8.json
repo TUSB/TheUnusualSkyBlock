@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:iron_pickaxe"
     },
     "|": {
-      "item": "minecraft:wooden_shovel"
+      "item": "minecraft:purple_shulker_box"
     }
   },
   "result": {

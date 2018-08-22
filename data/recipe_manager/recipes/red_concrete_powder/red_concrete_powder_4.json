@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:clay_ball"
+      "item": "minecraft:coal_block"
     },
     {
-      "item": "minecraft:cyan_stained_glass_pane"
+      "item": "minecraft:diamond_sword"
     },
     {
-      "item": "minecraft:golden_axe"
+      "item": "minecraft:fern"
     },
     {
-      "item": "minecraft:infested_stone_bricks"
+      "item": "minecraft:fire_coral"
     },
     {
-      "item": "minecraft:orange_bed"
+      "item": "minecraft:grass_block"
     },
     {
-      "item": "minecraft:pumpkin_pie"
+      "item": "minecraft:jungle_wood"
     },
     {
-      "item": "minecraft:purpur_pillar"
+      "item": "minecraft:nether_bricks"
     },
     {
-      "item": "minecraft:red_glazed_terracotta"
+      "item": "minecraft:nether_wart_block"
     },
     {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "item": "minecraft:petrified_oak_slab"
     }
   ],
   "result": {

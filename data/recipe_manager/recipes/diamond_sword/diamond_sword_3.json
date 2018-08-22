@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:fishing_rod"
+      "item": "minecraft:iron_hoe"
     },
     "#": {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:jungle_pressure_plate"
     }
   },
   "result": {

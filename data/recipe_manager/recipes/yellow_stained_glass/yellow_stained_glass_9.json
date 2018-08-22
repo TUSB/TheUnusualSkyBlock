@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_shulker_box"
+      "item": "minecraft:prismarine_brick_stairs"
     },
     "X": {
-      "item": "minecraft:sponge"
+      "item": "minecraft:wooden_hoe"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:bone_meal"
+      "item": "minecraft:poisonous_potato"
     },
     "_": {
-      "item": "minecraft:flint_and_steel"
+      "item": "minecraft:stone_pickaxe"
     }
   },
   "result": {

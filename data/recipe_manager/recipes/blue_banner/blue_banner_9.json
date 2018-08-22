@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:jukebox"
     },
     "|": {
-      "item": "minecraft:tripwire_hook"
+      "item": "minecraft:sign"
     }
   },
   "result": {

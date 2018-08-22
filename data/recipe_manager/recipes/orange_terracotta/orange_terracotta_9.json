@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_orchid"
+      "item": "minecraft:hopper_minecart"
     },
     "X": {
-      "item": "minecraft:gray_concrete"
+      "item": "minecraft:soul_sand"
     }
   },
   "result": {

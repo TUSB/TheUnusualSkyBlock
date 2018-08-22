@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:coal"
+      "item": "minecraft:clay_ball"
     },
     {
-      "item": "minecraft:dried_kelp"
+      "item": "minecraft:coal_ore"
     },
     {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:dark_oak_door"
     },
     {
-      "item": "minecraft:magenta_stained_glass"
+      "item": "minecraft:egg"
     },
     {
-      "item": "minecraft:prismarine_crystals"
+      "item": "minecraft:green_carpet"
     },
     {
-      "item": "minecraft:quartz_stairs"
+      "item": "minecraft:lapis_block"
     },
     {
-      "item": "minecraft:splash_potion"
+      "item": "minecraft:redstone_ore"
     },
     {
-      "item": "minecraft:stripped_jungle_wood"
+      "item": "minecraft:tube_coral"
     },
     {
-      "item": "minecraft:wheat"
+      "item": "minecraft:yellow_concrete_powder"
     }
   ],
   "result": {

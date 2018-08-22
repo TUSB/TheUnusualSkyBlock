@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:ender_pearl"
+      "item": "minecraft:birch_trapdoor"
     },
     "Q": {
-      "item": "minecraft:fire_coral_fan"
+      "item": "minecraft:flint_and_steel"
     },
     "W": {
-      "item": "minecraft:tall_grass"
+      "item": "minecraft:smooth_red_sandstone"
     }
   },
   "result": {

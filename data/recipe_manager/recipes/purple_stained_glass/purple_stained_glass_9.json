@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_dye"
+      "item": "minecraft:sunflower"
     },
     "X": {
-      "item": "minecraft:grass_block"
+      "item": "minecraft:wheat"
     }
   },
   "result": {

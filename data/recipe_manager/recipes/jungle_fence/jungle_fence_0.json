@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:diamond_axe"
+      "item": "minecraft:bow"
     },
     "#": {
-      "item": "minecraft:purple_terracotta"
+      "item": "minecraft:yellow_concrete_powder"
     }
   },
   "result": {

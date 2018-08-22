@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lime_stained_glass_pane"
+      "item": "minecraft:stripped_acacia_wood"
     },
     "X": {
-      "item": "minecraft:spruce_pressure_plate"
+      "item": "minecraft:white_stained_glass_pane"
     }
   },
   "result": {

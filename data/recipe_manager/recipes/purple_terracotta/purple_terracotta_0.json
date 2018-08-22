@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:seagrass"
+      "item": "minecraft:cyan_dye"
     },
     "X": {
-      "item": "minecraft:spruce_pressure_plate"
+      "item": "minecraft:light_gray_wool"
     }
   },
   "result": {

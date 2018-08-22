@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:emerald_block"
+      "item": "minecraft:light_gray_stained_glass_pane"
     },
     "B": {
-      "item": "minecraft:infested_chiseled_stone_bricks"
+      "item": "minecraft:polished_diorite"
     }
   },
   "result": {

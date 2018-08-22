@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_pressure_plate"
+      "item": "minecraft:anvil"
     },
     {
-      "item": "minecraft:black_stained_glass_pane"
+      "item": "minecraft:blue_concrete_powder"
     },
     {
-      "item": "minecraft:cracked_stone_bricks"
+      "item": "minecraft:chorus_fruit"
     },
     {
-      "item": "minecraft:granite"
+      "item": "minecraft:diamond_chestplate"
     },
     {
-      "item": "minecraft:gray_stained_glass_pane"
+      "item": "minecraft:golden_pickaxe"
     },
     {
-      "item": "minecraft:lead"
+      "item": "minecraft:iron_pickaxe"
     },
     {
-      "item": "minecraft:purple_banner"
+      "item": "minecraft:light_gray_shulker_box"
     },
     {
-      "item": "minecraft:splash_potion"
+      "item": "minecraft:spruce_button"
     },
     {
-      "item": "minecraft:tropical_fish"
+      "item": "minecraft:wooden_shovel"
     }
   ],
   "result": {

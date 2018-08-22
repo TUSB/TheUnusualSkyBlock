@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lilac"
+      "item": "minecraft:black_wool"
     },
     "X": {
-      "item": "minecraft:shears"
+      "item": "minecraft:wooden_pickaxe"
     }
   },
   "result": {

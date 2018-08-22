@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_dye"
+      "item": "minecraft:player_head"
     },
     "X": {
-      "item": "minecraft:pufferfish"
+      "item": "minecraft:quartz_block"
     }
   },
   "result": {

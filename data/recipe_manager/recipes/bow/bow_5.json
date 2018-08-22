@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gold_ore"
+      "item": "minecraft:emerald"
     },
     "X": {
-      "item": "minecraft:prismarine_bricks"
+      "item": "minecraft:lime_terracotta"
     }
   },
   "result": {

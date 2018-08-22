@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:purple_terracotta"
     },
     "|": {
-      "item": "minecraft:paper"
+      "item": "minecraft:zombie_head"
     }
   },
   "result": {

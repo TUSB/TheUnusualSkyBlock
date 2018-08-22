@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brain_coral"
+      "item": "minecraft:bone_meal"
     }
   ],
   "result": {

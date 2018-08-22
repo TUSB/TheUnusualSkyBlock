@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:bucket"
+      "item": "minecraft:flint_and_steel"
     },
     "#": {
-      "item": "minecraft:sugar_cane"
+      "item": "minecraft:jungle_slab"
     }
   },
   "result": {

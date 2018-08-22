@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:farmland"
+      "item": "minecraft:iron_ingot"
     }
   ],
   "result": {

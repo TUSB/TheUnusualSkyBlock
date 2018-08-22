@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_ice"
+      "item": "minecraft:item_frame"
     },
     "#": {
-      "item": "minecraft:dropper"
+      "item": "minecraft:prismarine_stairs"
     }
   },
   "result": {

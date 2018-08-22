@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:phantom_membrane"
+      "item": "minecraft:light_gray_carpet"
     }
   ],
   "result": {

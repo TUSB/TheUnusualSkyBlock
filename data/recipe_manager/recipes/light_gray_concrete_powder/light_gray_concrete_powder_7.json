@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cooked_beef"
+      "item": "minecraft:cactus_green"
     },
     {
-      "item": "minecraft:cooked_rabbit"
+      "item": "minecraft:damaged_anvil"
     },
     {
-      "item": "minecraft:glowstone"
+      "item": "minecraft:ice"
     },
     {
-      "item": "minecraft:lead"
+      "item": "minecraft:infested_stone"
     },
     {
-      "item": "minecraft:lime_glazed_terracotta"
+      "item": "minecraft:jungle_fence_gate"
     },
     {
-      "item": "minecraft:pink_tulip"
+      "item": "minecraft:lapis_lazuli"
     },
     {
-      "item": "minecraft:prismarine_crystals"
+      "item": "minecraft:light_blue_shulker_box"
     },
     {
-      "item": "minecraft:spruce_stairs"
+      "item": "minecraft:pink_glazed_terracotta"
     },
     {
-      "item": "minecraft:stone_slab"
+      "item": "minecraft:repeater"
     }
   ],
   "result": {

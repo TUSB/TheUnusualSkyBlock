@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:hay_block"
+      "item": "minecraft:cod_bucket"
     },
     "X": {
-      "item": "minecraft:tube_coral_fan"
+      "item": "minecraft:stone"
     }
   },
   "result": {

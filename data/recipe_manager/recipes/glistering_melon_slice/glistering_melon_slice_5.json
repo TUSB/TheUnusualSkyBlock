@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_door"
+      "item": "minecraft:magenta_carpet"
     },
     "X": {
-      "item": "minecraft:shield"
+      "item": "minecraft:repeater"
     }
   },
   "result": {

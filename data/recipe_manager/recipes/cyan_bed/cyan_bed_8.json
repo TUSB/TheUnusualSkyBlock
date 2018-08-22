@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chest"
+      "item": "minecraft:cooked_chicken"
     },
     "X": {
-      "item": "minecraft:jungle_button"
+      "item": "minecraft:lapis_block"
     }
   },
   "result": {

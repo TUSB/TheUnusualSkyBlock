@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:acacia_wood"
     },
     "B": {
-      "item": "minecraft:mossy_cobblestone_wall"
+      "item": "minecraft:lapis_lazuli"
     }
   },
   "result": {

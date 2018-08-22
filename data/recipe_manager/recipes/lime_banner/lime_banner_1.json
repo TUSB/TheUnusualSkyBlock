@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:daylight_detector"
+      "item": "minecraft:lime_dye"
     },
     "|": {
-      "item": "minecraft:leather_chestplate"
+      "item": "minecraft:prismarine_slab"
     }
   },
   "result": {

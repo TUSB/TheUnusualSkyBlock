@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:packed_ice"
     },
     "#": {
-      "item": "minecraft:stripped_acacia_log"
+      "item": "minecraft:pink_glazed_terracotta"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_shulker_box"
+      "item": "minecraft:jungle_stairs"
     },
     {
-      "item": "minecraft:dark_oak_log"
+      "item": "minecraft:zombie_head"
     }
   ],
   "result": {

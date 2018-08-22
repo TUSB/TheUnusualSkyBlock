@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:beef"
+      "item": "minecraft:bucket"
     },
     "X": {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:stripped_jungle_log"
     }
   },
   "result": {

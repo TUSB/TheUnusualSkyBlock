@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:prismarine_brick_slab"
+      "item": "minecraft:pink_glazed_terracotta"
     },
     {
-      "item": "minecraft:spruce_wood"
+      "item": "minecraft:purple_carpet"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cooked_porkchop"
+      "item": "minecraft:brown_concrete"
     },
     "#": {
-      "item": "minecraft:wheat_seeds"
+      "item": "minecraft:diamond_helmet"
     }
   },
   "result": {

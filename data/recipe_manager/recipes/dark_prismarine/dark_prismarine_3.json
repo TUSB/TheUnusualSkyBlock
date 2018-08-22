@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:light_blue_banner"
+      "item": "minecraft:brick_slab"
     },
     "I": {
-      "item": "minecraft:purple_glazed_terracotta"
+      "item": "minecraft:nether_wart_block"
     }
   },
   "result": {

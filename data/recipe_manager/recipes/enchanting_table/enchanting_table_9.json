@@ -7,13 +7,13 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:bubble_coral"
+      "item": "minecraft:birch_log"
     },
     "D": {
-      "item": "minecraft:nether_wart_block"
+      "item": "minecraft:creeper_head"
     },
     "#": {
-      "item": "minecraft:seagrass"
+      "item": "minecraft:sticky_piston"
     }
   },
   "result": {

@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:stick"
+      "item": "minecraft:acacia_planks"
     }
   ],
   "result": {

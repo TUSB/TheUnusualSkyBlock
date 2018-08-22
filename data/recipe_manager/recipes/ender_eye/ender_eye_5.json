@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:damaged_anvil"
+      "item": "minecraft:diamond_ore"
     },
     {
-      "item": "minecraft:iron_hoe"
+      "item": "minecraft:oak_log"
     }
   ],
   "result": {

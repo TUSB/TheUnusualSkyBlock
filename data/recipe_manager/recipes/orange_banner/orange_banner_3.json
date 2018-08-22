@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:arrow"
     },
     "|": {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:emerald_block"
     }
   },
   "result": {

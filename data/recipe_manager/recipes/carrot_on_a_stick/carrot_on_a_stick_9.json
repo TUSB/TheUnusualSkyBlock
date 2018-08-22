@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:activator_rail"
+      "item": "minecraft:glowstone_dust"
     },
     "X": {
-      "item": "minecraft:dark_oak_trapdoor"
+      "item": "minecraft:smooth_stone"
     }
   },
   "result": {

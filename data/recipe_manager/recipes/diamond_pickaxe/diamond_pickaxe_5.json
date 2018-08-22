@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:light_gray_terracotta"
+      "item": "minecraft:blue_bed"
     },
     "#": {
-      "item": "minecraft:white_wool"
+      "item": "minecraft:fire_charge"
     }
   },
   "result": {

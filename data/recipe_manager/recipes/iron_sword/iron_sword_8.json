@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond_shovel"
+      "item": "minecraft:glowstone"
     },
     "#": {
-      "item": "minecraft:mutton"
+      "item": "minecraft:quartz_slab"
     }
   },
   "result": {

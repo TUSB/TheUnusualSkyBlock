@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:acacia_boat"
+      "item": "minecraft:cyan_shulker_box"
     },
     "C": {
-      "item": "minecraft:furnace"
+      "item": "minecraft:prismarine_bricks"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:jungle_log"
+      "item": "minecraft:diamond_hoe"
     },
     "#": {
-      "item": "minecraft:peony"
+      "item": "minecraft:leather_chestplate"
     }
   },
   "result": {

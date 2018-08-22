@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:hay_block"
+      "item": "minecraft:grass_path"
     },
     "B": {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:sugar"
     }
   },
   "result": {

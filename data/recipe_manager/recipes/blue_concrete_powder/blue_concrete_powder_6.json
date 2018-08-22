@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_planks"
+      "item": "minecraft:birch_fence"
     },
     {
-      "item": "minecraft:daylight_detector"
+      "item": "minecraft:blue_shulker_box"
     },
     {
-      "item": "minecraft:green_carpet"
+      "item": "minecraft:dark_oak_slab"
     },
     {
-      "item": "minecraft:jungle_boat"
+      "item": "minecraft:flower_pot"
     },
     {
-      "item": "minecraft:oak_leaves"
+      "item": "minecraft:magenta_dye"
     },
     {
-      "item": "minecraft:spider_eye"
+      "item": "minecraft:pink_shulker_box"
     },
     {
-      "item": "minecraft:stone_brick_slab"
+      "item": "minecraft:prismarine_brick_stairs"
     },
     {
-      "item": "minecraft:stone_brick_stairs"
+      "item": "minecraft:stripped_birch_log"
     },
     {
-      "item": "minecraft:tipped_arrow"
+      "item": "minecraft:yellow_concrete_powder"
     }
   ],
   "result": {

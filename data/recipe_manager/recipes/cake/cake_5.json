@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:horn_coral_fan"
+      "item": "minecraft:brain_coral"
     },
     "B": {
-      "item": "minecraft:light_gray_stained_glass"
+      "item": "minecraft:brown_bed"
     },
     "E": {
-      "item": "minecraft:oak_log"
+      "item": "minecraft:magenta_dye"
     },
     "C": {
-      "item": "minecraft:prismarine_stairs"
+      "item": "minecraft:tropical_fish_bucket"
     }
   },
   "result": {

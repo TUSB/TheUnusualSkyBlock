@@ -6,10 +6,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:blaze_powder"
     },
     "#": {
-      "item": "minecraft:chiseled_stone_bricks"
+      "item": "minecraft:brown_concrete"
     }
   },
   "result": {

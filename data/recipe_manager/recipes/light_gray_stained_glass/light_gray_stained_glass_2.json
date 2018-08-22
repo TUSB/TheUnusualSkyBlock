@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bowl"
+      "item": "minecraft:ender_chest"
     },
     "X": {
-      "item": "minecraft:diamond_chestplate"
+      "item": "minecraft:slime_block"
     }
   },
   "result": {

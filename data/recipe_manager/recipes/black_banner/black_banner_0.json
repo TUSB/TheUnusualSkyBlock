@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:smooth_red_sandstone"
+      "item": "minecraft:iron_block"
     },
     "|": {
-      "item": "minecraft:white_wool"
+      "item": "minecraft:stripped_dark_oak_log"
     }
   },
   "result": {

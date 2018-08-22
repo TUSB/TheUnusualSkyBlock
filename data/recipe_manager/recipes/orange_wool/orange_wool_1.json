@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:melon_slice"
+      "item": "minecraft:cocoa_beans"
     },
     {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:lime_wool"
     }
   ],
   "result": {

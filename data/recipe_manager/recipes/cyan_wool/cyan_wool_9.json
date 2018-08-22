@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:purpur_slab"
+      "item": "minecraft:fire_coral"
     },
     {
-      "item": "minecraft:sugar"
+      "item": "minecraft:jungle_log"
     }
   ],
   "result": {

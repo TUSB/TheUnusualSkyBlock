@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lily_pad"
+      "item": "minecraft:golden_sword"
     },
     "|": {
-      "item": "minecraft:polished_granite"
+      "item": "minecraft:infested_stone_bricks"
     }
   },
   "result": {

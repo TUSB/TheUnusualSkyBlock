@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:lava_bucket"
     },
     {
-      "item": "minecraft:rose_bush"
+      "item": "minecraft:white_glazed_terracotta"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:granite"
+      "item": "minecraft:blue_banner"
     },
     "|": {
-      "item": "minecraft:nether_brick_stairs"
+      "item": "minecraft:jungle_door"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_pressure_plate"
+      "item": "minecraft:blue_carpet"
     },
     {
-      "item": "minecraft:dead_fire_coral_block"
+      "item": "minecraft:chorus_fruit"
     },
     {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:light_gray_bed"
     },
     {
-      "item": "minecraft:ghast_tear"
+      "item": "minecraft:mushroom_stew"
     },
     {
-      "item": "minecraft:pink_wool"
+      "item": "minecraft:nautilus_shell"
     },
     {
-      "item": "minecraft:potato"
+      "item": "minecraft:rotten_flesh"
     },
     {
-      "item": "minecraft:potion"
+      "item": "minecraft:snow"
     },
     {
-      "item": "minecraft:red_stained_glass"
+      "item": "minecraft:stripped_birch_log"
     },
     {
-      "item": "minecraft:turtle_egg"
+      "item": "minecraft:wooden_sword"
     }
   ],
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:light_gray_shulker_box"
+      "item": "minecraft:brown_shulker_box"
     },
     {
-      "item": "minecraft:stripped_jungle_wood"
+      "item": "minecraft:compass"
     }
   ],
   "result": {

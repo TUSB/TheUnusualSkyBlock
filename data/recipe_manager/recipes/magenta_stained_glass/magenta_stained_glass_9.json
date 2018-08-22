@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:grass_block"
+      "item": "minecraft:smooth_quartz"
     },
     "X": {
-      "item": "minecraft:orange_concrete"
+      "item": "minecraft:white_banner"
     }
   },
   "result": {

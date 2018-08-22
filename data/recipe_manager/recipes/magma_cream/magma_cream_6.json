@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brain_coral_fan"
+      "item": "minecraft:horn_coral"
     },
     {
-      "item": "minecraft:stripped_spruce_wood"
+      "item": "minecraft:wooden_hoe"
     }
   ],
   "result": {

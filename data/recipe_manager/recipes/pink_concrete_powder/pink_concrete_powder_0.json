@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_stained_glass"
+      "item": "minecraft:birch_stairs"
     },
     {
-      "item": "minecraft:brewing_stand"
+      "item": "minecraft:enchanting_table"
     },
     {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:end_crystal"
     },
     {
-      "item": "minecraft:map"
+      "item": "minecraft:hopper_minecart"
     },
     {
-      "item": "minecraft:prismarine_crystals"
+      "item": "minecraft:jungle_stairs"
     },
     {
-      "item": "minecraft:purple_banner"
+      "item": "minecraft:light_blue_concrete"
     },
     {
-      "item": "minecraft:salmon"
+      "item": "minecraft:pink_banner"
     },
     {
-      "item": "minecraft:stripped_dark_oak_log"
+      "item": "minecraft:red_shulker_box"
     },
     {
-      "item": "minecraft:white_shulker_box"
+      "item": "minecraft:sand"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chainmail_chestplate"
+      "item": "minecraft:bone"
     },
     "W": {
-      "item": "minecraft:golden_boots"
+      "item": "minecraft:jungle_pressure_plate"
     }
   },
   "result": {

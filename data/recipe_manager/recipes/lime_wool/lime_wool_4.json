@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_leaves"
+      "item": "minecraft:cut_red_sandstone"
     },
     {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:jungle_boat"
     }
   ],
   "result": {

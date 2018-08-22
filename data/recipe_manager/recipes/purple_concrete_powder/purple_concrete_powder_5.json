@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_terracotta"
+      "item": "minecraft:gray_concrete"
     },
     {
-      "item": "minecraft:gray_stained_glass"
+      "item": "minecraft:green_terracotta"
     },
     {
-      "item": "minecraft:magenta_concrete"
+      "item": "minecraft:light_gray_dye"
     },
     {
-      "item": "minecraft:mushroom_stem"
+      "item": "minecraft:oak_trapdoor"
     },
     {
-      "item": "minecraft:nether_brick"
+      "item": "minecraft:prismarine_slab"
+    },
+    {
+      "item": "minecraft:purple_stained_glass"
+    },
+    {
+      "item": "minecraft:red_banner"
     },
     {
       "item": "minecraft:redstone_block"
     },
     {
-      "item": "minecraft:skeleton_skull"
-    },
-    {
-      "item": "minecraft:stone_pickaxe"
-    },
-    {
-      "item": "minecraft:yellow_carpet"
+      "item": "minecraft:wooden_shovel"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_concrete_powder"
+      "item": "minecraft:emerald_block"
     },
     "X": {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:gray_terracotta"
     }
   },
   "result": {

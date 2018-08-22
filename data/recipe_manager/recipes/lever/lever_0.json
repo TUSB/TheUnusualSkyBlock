@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:nether_brick_slab"
+      "item": "minecraft:diamond_boots"
     },
     "#": {
-      "item": "minecraft:oak_stairs"
+      "item": "minecraft:quartz_block"
     }
   },
   "result": {

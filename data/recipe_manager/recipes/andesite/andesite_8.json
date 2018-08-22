@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:minecart"
+      "item": "minecraft:tropical_fish_bucket"
     },
     {
-      "item": "minecraft:netherrack"
+      "item": "minecraft:wheat_seeds"
     }
   ],
   "result": {

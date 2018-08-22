@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:light_gray_concrete"
+      "item": "minecraft:brick"
     },
     {
-      "item": "minecraft:soul_sand"
+      "item": "minecraft:lapis_lazuli"
     },
     {
-      "item": "minecraft:stripped_oak_log"
+      "item": "minecraft:snowball"
     }
   ],
   "result": {

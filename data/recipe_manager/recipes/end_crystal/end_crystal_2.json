@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:lime_stained_glass"
+      "item": "minecraft:conduit"
     },
     "E": {
-      "item": "minecraft:pink_banner"
+      "item": "minecraft:red_tulip"
     },
     "T": {
-      "item": "minecraft:stripped_jungle_wood"
+      "item": "minecraft:white_concrete"
     }
   },
   "result": {

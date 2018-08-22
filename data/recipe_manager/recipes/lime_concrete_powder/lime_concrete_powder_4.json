@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_boat"
+      "item": "minecraft:arrow"
     },
     {
-      "item": "minecraft:ender_pearl"
+      "item": "minecraft:detector_rail"
     },
     {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:farmland"
     },
     {
-      "item": "minecraft:map"
+      "item": "minecraft:gold_ore"
     },
     {
-      "item": "minecraft:oak_stairs"
+      "item": "minecraft:orange_shulker_box"
     },
     {
-      "item": "minecraft:quartz"
+      "item": "minecraft:prismarine_stairs"
     },
     {
-      "item": "minecraft:quartz_pillar"
+      "item": "minecraft:pumpkin"
     },
     {
-      "item": "minecraft:quartz_slab"
+      "item": "minecraft:purpur_stairs"
     },
     {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:red_bed"
     }
   ],
   "result": {

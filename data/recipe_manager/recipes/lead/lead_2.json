@@ -7,10 +7,10 @@
   ],
   "key": {
     "~": {
-      "item": "minecraft:cyan_wool"
+      "item": "minecraft:cooked_beef"
     },
     "O": {
-      "item": "minecraft:hopper"
+      "item": "minecraft:dead_tube_coral_block"
     }
   },
   "result": {

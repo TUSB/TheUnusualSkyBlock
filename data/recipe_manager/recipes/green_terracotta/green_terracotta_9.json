@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_bed"
+      "item": "minecraft:golden_boots"
     },
     "X": {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:smooth_red_sandstone"
     }
   },
   "result": {

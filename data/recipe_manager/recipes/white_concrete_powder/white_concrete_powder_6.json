@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cod"
+      "item": "minecraft:birch_planks"
     },
     {
-      "item": "minecraft:dead_brain_coral_block"
+      "item": "minecraft:cake"
     },
     {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:feather"
     },
     {
-      "item": "minecraft:jungle_stairs"
+      "item": "minecraft:gray_concrete_powder"
     },
     {
-      "item": "minecraft:lime_shulker_box"
+      "item": "minecraft:jukebox"
     },
     {
-      "item": "minecraft:pink_stained_glass"
+      "item": "minecraft:lime_terracotta"
     },
     {
-      "item": "minecraft:purpur_block"
+      "item": "minecraft:oak_sapling"
     },
     {
-      "item": "minecraft:spider_eye"
+      "item": "minecraft:prismarine_stairs"
     },
     {
-      "item": "minecraft:stripped_jungle_wood"
+      "item": "minecraft:purple_banner"
     }
   ],
   "result": {

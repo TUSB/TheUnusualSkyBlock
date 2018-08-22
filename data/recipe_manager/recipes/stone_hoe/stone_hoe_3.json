@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dead_brain_coral_block"
+      "item": "minecraft:chainmail_chestplate"
     },
     "#": {
-      "item": "minecraft:mossy_cobblestone"
+      "item": "minecraft:red_sandstone"
     }
   },
   "result": {

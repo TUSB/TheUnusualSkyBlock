@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:glass_bottle"
+      "item": "minecraft:glass"
     },
     "#": {
-      "item": "minecraft:stripped_oak_log"
+      "item": "minecraft:jungle_wood"
     },
     "R": {
-      "item": "minecraft:white_carpet"
+      "item": "minecraft:red_shulker_box"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:apple"
+      "item": "minecraft:diorite"
     },
     "#": {
-      "item": "minecraft:prismarine_crystals"
+      "item": "minecraft:prismarine_bricks"
     }
   },
   "result": {

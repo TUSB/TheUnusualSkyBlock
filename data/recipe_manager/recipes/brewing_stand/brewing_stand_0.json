@@ -6,10 +6,10 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:green_concrete"
+      "item": "minecraft:jungle_trapdoor"
     },
     "#": {
-      "item": "minecraft:orange_concrete"
+      "item": "minecraft:tipped_arrow"
     }
   },
   "result": {

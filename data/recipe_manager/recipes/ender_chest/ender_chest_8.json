@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_blue_concrete"
+      "item": "minecraft:daylight_detector"
     },
     "E": {
-      "item": "minecraft:magenta_glazed_terracotta"
+      "item": "minecraft:dirt"
     }
   },
   "result": {

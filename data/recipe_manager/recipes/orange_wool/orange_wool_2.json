@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:coal_ore"
+      "item": "minecraft:brain_coral"
     },
     {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:red_terracotta"
     }
   ],
   "result": {

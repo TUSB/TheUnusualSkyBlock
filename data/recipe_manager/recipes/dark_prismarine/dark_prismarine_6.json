@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:cyan_shulker_box"
+      "item": "minecraft:jungle_fence"
     },
     "I": {
-      "item": "minecraft:magenta_concrete"
+      "item": "minecraft:jungle_slab"
     }
   },
   "result": {

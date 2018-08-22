@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:skeleton_skull"
+      "item": "minecraft:arrow"
     },
     "i": {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:magenta_wool"
     }
   },
   "result": {

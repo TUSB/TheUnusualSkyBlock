@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chiseled_stone_bricks"
+      "item": "minecraft:bread"
     },
     {
-      "item": "minecraft:cocoa_beans"
+      "item": "minecraft:coal"
     },
     {
-      "item": "minecraft:diamond_axe"
+      "item": "minecraft:dark_oak_trapdoor"
     },
     {
-      "item": "minecraft:emerald"
+      "item": "minecraft:hay_block"
     },
     {
-      "item": "minecraft:glass_bottle"
+      "item": "minecraft:heart_of_the_sea"
     },
     {
-      "item": "minecraft:gold_ore"
+      "item": "minecraft:phantom_membrane"
     },
     {
-      "item": "minecraft:green_glazed_terracotta"
+      "item": "minecraft:purple_carpet"
     },
     {
-      "item": "minecraft:magenta_dye"
+      "item": "minecraft:spruce_slab"
     },
     {
-      "item": "minecraft:rabbit"
+      "item": "minecraft:white_concrete_powder"
     }
   ],
   "result": {

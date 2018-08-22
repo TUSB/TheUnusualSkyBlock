@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:arrow"
+      "item": "minecraft:light_blue_concrete"
     },
     "X": {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:splash_potion"
     }
   },
   "result": {

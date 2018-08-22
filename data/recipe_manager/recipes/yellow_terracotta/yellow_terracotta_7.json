@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:coal"
+      "item": "minecraft:bow"
     },
     "X": {
-      "item": "minecraft:jungle_boat"
+      "item": "minecraft:red_shulker_box"
     }
   },
   "result": {

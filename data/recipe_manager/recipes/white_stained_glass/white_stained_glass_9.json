@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:coarse_dirt"
+      "item": "minecraft:cyan_stained_glass"
     },
     "X": {
-      "item": "minecraft:magenta_stained_glass"
+      "item": "minecraft:gray_terracotta"
     }
   },
   "result": {

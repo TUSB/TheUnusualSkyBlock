@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_nugget"
+      "item": "minecraft:filled_map"
     },
     "|": {
-      "item": "minecraft:oak_door"
+      "item": "minecraft:pink_terracotta"
     }
   },
   "result": {

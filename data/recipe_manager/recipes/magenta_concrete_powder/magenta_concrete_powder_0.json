@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blaze_rod"
-    },
-    {
-      "item": "minecraft:bone_meal"
+      "item": "minecraft:brain_coral"
     },
     {
       "item": "minecraft:brown_concrete"
     },
     {
-      "item": "minecraft:dandelion"
+      "item": "minecraft:dead_fire_coral_block"
     },
     {
-      "item": "minecraft:leather_boots"
+      "item": "minecraft:diamond_block"
     },
     {
-      "item": "minecraft:lever"
+      "item": "minecraft:golden_carrot"
     },
     {
-      "item": "minecraft:lily_pad"
+      "item": "minecraft:golden_horse_armor"
     },
     {
-      "item": "minecraft:red_nether_bricks"
+      "item": "minecraft:horn_coral_fan"
     },
     {
-      "item": "minecraft:slime_block"
+      "item": "minecraft:potato"
+    },
+    {
+      "item": "minecraft:sticky_piston"
     }
   ],
   "result": {

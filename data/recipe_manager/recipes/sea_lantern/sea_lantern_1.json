@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:dragon_breath"
+      "item": "minecraft:lever"
     },
     "C": {
-      "item": "minecraft:purple_glazed_terracotta"
+      "item": "minecraft:stripped_acacia_log"
     }
   },
   "result": {

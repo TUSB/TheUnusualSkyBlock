@@ -5,10 +5,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lapis_ore"
+      "item": "minecraft:dispenser"
     },
     "X": {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:wooden_pickaxe"
     }
   },
   "result": {

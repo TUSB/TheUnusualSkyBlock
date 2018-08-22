@@ -7,10 +7,10 @@
   ],
   "key": {
     "R": {
-      "item": "minecraft:birch_wood"
+      "item": "minecraft:chest_minecart"
     },
     "G": {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:yellow_bed"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_glazed_terracotta"
+      "item": "minecraft:dark_prismarine_slab"
     },
     {
-      "item": "minecraft:cod_bucket"
+      "item": "minecraft:purple_concrete_powder"
     }
   ],
   "result": {

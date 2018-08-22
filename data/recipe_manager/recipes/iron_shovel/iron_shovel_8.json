@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:coal_block"
+      "item": "minecraft:birch_wood"
     },
     "#": {
-      "item": "minecraft:cyan_shulker_box"
+      "item": "minecraft:gravel"
     }
   },
   "result": {

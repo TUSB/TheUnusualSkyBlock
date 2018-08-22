@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:spider_eye"
+      "item": "minecraft:cracked_stone_bricks"
     },
     {
-      "item": "minecraft:white_terracotta"
+      "item": "minecraft:lilac"
     }
   ],
   "result": {

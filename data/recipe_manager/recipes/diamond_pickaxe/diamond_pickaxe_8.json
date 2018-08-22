@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:packed_ice"
+      "item": "minecraft:oak_button"
     },
     "#": {
-      "item": "minecraft:spruce_button"
+      "item": "minecraft:yellow_carpet"
     }
   },
   "result": {

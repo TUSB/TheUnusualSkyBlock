@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:map"
     },
     "X": {
-      "item": "minecraft:spectral_arrow"
+      "item": "minecraft:pink_carpet"
     }
   },
   "result": {

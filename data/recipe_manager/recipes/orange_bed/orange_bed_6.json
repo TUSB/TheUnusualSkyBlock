@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_fence"
+      "item": "minecraft:ghast_tear"
     },
     "X": {
-      "item": "minecraft:pink_dye"
+      "item": "minecraft:red_concrete"
     }
   },
   "result": {

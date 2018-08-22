@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:gray_shulker_box"
+      "item": "minecraft:spruce_button"
     },
     "#": {
-      "item": "minecraft:yellow_glazed_terracotta"
+      "item": "minecraft:wheat"
     }
   },
   "result": {

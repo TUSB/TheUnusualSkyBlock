@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cactus_green"
+      "item": "minecraft:allium"
     },
     {
-      "item": "minecraft:chest_minecart"
+      "item": "minecraft:brain_coral_block"
     },
     {
-      "item": "minecraft:end_crystal"
+      "item": "minecraft:glistering_melon_slice"
     },
     {
-      "item": "minecraft:grass_block"
+      "item": "minecraft:infested_stone_bricks"
     },
     {
-      "item": "minecraft:green_stained_glass"
+      "item": "minecraft:jungle_trapdoor"
     },
     {
-      "item": "minecraft:green_wool"
+      "item": "minecraft:orange_tulip"
     },
     {
-      "item": "minecraft:iron_horse_armor"
+      "item": "minecraft:red_concrete_powder"
     },
     {
-      "item": "minecraft:oak_door"
+      "item": "minecraft:salmon_bucket"
     },
     {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:spruce_sapling"
     }
   ],
   "result": {

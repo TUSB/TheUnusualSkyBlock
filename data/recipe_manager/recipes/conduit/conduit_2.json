@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_concrete_powder"
+      "item": "minecraft:activator_rail"
     },
     "X": {
-      "item": "minecraft:diamond_leggings"
+      "item": "minecraft:iron_nugget"
     }
   },
   "result": {

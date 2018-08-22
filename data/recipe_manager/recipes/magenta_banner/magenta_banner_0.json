@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magenta_wool"
+      "item": "minecraft:brown_concrete"
     },
     "|": {
-      "item": "minecraft:pufferfish"
+      "item": "minecraft:jukebox"
     }
   },
   "result": {

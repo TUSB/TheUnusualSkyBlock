@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_fence_gate"
+      "item": "minecraft:golden_chestplate"
     },
     "#": {
-      "item": "minecraft:lime_stained_glass"
+      "item": "minecraft:stone"
     }
   },
   "result": {

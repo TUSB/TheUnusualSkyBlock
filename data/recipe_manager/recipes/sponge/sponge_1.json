@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:granite"
+      "item": "minecraft:dried_kelp"
     }
   ],
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dandelion_yellow"
+      "item": "minecraft:diamond_pickaxe"
     },
     {
-      "item": "minecraft:golden_chestplate"
+      "item": "minecraft:lime_stained_glass"
     }
   ],
   "result": {

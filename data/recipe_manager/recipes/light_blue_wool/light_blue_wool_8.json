@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_slab"
+      "item": "minecraft:gold_ore"
     },
     {
-      "item": "minecraft:grass"
+      "item": "minecraft:oak_button"
     }
   ],
   "result": {

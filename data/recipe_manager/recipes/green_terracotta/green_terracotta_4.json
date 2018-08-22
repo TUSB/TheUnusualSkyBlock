@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_boat"
+      "item": "minecraft:cobblestone_slab"
     },
     "X": {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:snow"
     }
   },
   "result": {

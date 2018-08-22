@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cyan_terracotta"
+      "item": "minecraft:acacia_fence"
     },
     "#": {
-      "item": "minecraft:saddle"
+      "item": "minecraft:stone_slab"
     }
   },
   "result": {

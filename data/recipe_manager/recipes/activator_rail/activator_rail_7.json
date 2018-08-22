@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blaze_powder"
+      "item": "minecraft:arrow"
     },
     "S": {
-      "item": "minecraft:cooked_mutton"
+      "item": "minecraft:hopper_minecart"
     },
     "#": {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:wither_skeleton_skull"
     }
   },
   "result": {

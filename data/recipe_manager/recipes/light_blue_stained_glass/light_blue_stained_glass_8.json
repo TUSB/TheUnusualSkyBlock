@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_wool"
+      "item": "minecraft:carrot"
     },
     "X": {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:cyan_wool"
     }
   },
   "result": {

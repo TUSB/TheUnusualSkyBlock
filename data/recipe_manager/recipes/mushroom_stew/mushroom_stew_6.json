@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:green_carpet"
     },
     {
-      "item": "minecraft:light_blue_concrete"
+      "item": "minecraft:red_bed"
     },
     {
-      "item": "minecraft:stone_sword"
+      "item": "minecraft:white_stained_glass_pane"
     }
   ],
   "result": {

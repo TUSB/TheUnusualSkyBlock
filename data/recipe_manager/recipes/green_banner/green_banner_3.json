@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:hopper_minecart"
+      "item": "minecraft:golden_leggings"
     },
     "|": {
-      "item": "minecraft:pumpkin_seeds"
+      "item": "minecraft:tipped_arrow"
     }
   },
   "result": {

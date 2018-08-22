@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:emerald"
+      "item": "minecraft:sponge"
     },
     "X": {
-      "item": "minecraft:purple_concrete"
+      "item": "minecraft:yellow_stained_glass_pane"
     }
   },
   "result": {

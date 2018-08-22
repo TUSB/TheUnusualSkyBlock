@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:melon_slice"
+      "item": "minecraft:black_terracotta"
     },
     "#": {
-      "item": "minecraft:rail"
+      "item": "minecraft:snow"
     }
   },
   "result": {

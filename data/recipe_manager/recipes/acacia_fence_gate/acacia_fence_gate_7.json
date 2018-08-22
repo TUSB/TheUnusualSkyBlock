@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_terracotta"
+      "item": "minecraft:birch_planks"
     },
     "W": {
-      "item": "minecraft:sea_lantern"
+      "item": "minecraft:blaze_powder"
     }
   },
   "result": {

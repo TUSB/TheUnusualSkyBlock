@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:purple_concrete"
+      "item": "minecraft:chainmail_chestplate"
     },
     "#": {
-      "item": "minecraft:red_glazed_terracotta"
+      "item": "minecraft:red_wool"
     }
   },
   "result": {

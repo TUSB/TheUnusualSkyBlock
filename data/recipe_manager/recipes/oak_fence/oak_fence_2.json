@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:dark_prismarine_slab"
     },
     "#": {
-      "item": "minecraft:spruce_fence"
+      "item": "minecraft:wheat"
     }
   },
   "result": {

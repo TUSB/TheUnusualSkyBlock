@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bread"
+      "item": "minecraft:black_wool"
     },
     "X": {
-      "item": "minecraft:diamond_horse_armor"
+      "item": "minecraft:rotten_flesh"
     },
     "I": {
-      "item": "minecraft:gray_shulker_box"
+      "item": "minecraft:shield"
     }
   },
   "result": {

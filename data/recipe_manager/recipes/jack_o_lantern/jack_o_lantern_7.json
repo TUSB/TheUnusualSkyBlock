@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:jukebox"
+      "item": "minecraft:poisonous_potato"
     },
     "B": {
-      "item": "minecraft:polished_granite"
+      "item": "minecraft:red_bed"
     }
   },
   "result": {

@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:golden_shovel"
+      "item": "minecraft:dragon_breath"
     },
     {
-      "item": "minecraft:oak_pressure_plate"
+      "item": "minecraft:rail"
     },
     {
-      "item": "minecraft:stripped_birch_log"
+      "item": "minecraft:stripped_birch_wood"
     }
   ],
   "result": {

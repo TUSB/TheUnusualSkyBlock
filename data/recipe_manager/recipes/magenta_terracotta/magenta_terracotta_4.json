@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_boat"
+      "item": "minecraft:birch_stairs"
     },
     "X": {
-      "item": "minecraft:stripped_acacia_wood"
+      "item": "minecraft:infested_cracked_stone_bricks"
     }
   },
   "result": {

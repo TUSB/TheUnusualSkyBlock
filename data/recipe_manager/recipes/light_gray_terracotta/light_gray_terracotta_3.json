@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_button"
+      "item": "minecraft:dark_oak_sapling"
     },
     "X": {
-      "item": "minecraft:beef"
+      "item": "minecraft:infested_stone"
     }
   },
   "result": {

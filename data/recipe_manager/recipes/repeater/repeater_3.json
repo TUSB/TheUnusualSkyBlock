@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chorus_flower"
+      "item": "minecraft:flint_and_steel"
     },
     "X": {
-      "item": "minecraft:light_gray_concrete"
+      "item": "minecraft:mossy_cobblestone_wall"
     },
     "I": {
-      "item": "minecraft:oak_wood"
+      "item": "minecraft:red_nether_bricks"
     }
   },
   "result": {

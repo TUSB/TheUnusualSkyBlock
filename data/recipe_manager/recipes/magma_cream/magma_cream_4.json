@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:enchanting_table"
+      "item": "minecraft:cyan_concrete_powder"
     },
     {
-      "item": "minecraft:rabbit_hide"
+      "item": "minecraft:spruce_button"
     }
   ],
   "result": {

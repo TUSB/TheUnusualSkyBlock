@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:spruce_log"
+      "item": "minecraft:diamond_boots"
     },
     "#": {
-      "item": "minecraft:sticky_piston"
+      "item": "minecraft:pink_carpet"
     }
   },
   "result": {

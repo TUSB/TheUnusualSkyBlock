@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:charcoal"
+      "item": "minecraft:cobblestone_wall"
     },
     "X": {
-      "item": "minecraft:magenta_dye"
+      "item": "minecraft:cyan_shulker_box"
     }
   },
   "result": {

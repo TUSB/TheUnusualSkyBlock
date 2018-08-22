@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:cooked_salmon"
+      "item": "minecraft:end_crystal"
     },
     "I": {
-      "item": "minecraft:light_gray_glazed_terracotta"
+      "item": "minecraft:stick"
     }
   },
   "result": {

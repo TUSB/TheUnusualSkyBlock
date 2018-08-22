@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:black_stained_glass_pane"
+      "item": "minecraft:chainmail_helmet"
     },
     "S": {
-      "item": "minecraft:blue_stained_glass_pane"
+      "item": "minecraft:coal"
     },
     "O": {
-      "item": "minecraft:pufferfish"
+      "item": "minecraft:trapped_chest"
     }
   },
   "result": {

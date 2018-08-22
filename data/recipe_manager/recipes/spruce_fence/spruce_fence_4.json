@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:arrow"
+      "item": "minecraft:chorus_plant"
     },
     "#": {
-      "item": "minecraft:light_gray_bed"
+      "item": "minecraft:paper"
     }
   },
   "result": {

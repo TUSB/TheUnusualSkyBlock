@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cooked_cod"
+      "item": "minecraft:birch_wood"
     },
     "X": {
-      "item": "minecraft:lapis_ore"
+      "item": "minecraft:rotten_flesh"
     },
     "I": {
-      "item": "minecraft:mossy_cobblestone"
+      "item": "minecraft:trapped_chest"
     }
   },
   "result": {

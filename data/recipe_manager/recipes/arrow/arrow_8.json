@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond_hoe"
+      "item": "minecraft:bubble_coral_fan"
     },
     "#": {
-      "item": "minecraft:ender_chest"
+      "item": "minecraft:ladder"
     },
     "Y": {
-      "item": "minecraft:nether_wart"
+      "item": "minecraft:polished_diorite"
     }
   },
   "result": {

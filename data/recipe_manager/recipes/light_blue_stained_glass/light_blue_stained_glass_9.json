@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_glazed_terracotta"
+      "item": "minecraft:birch_sapling"
     },
     "X": {
-      "item": "minecraft:stone_button"
+      "item": "minecraft:chiseled_red_sandstone"
     }
   },
   "result": {

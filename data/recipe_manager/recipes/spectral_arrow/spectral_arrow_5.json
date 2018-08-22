@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:ender_eye"
+      "item": "minecraft:acacia_leaves"
     },
     "X": {
-      "item": "minecraft:spruce_pressure_plate"
+      "item": "minecraft:flower_pot"
     }
   },
   "result": {

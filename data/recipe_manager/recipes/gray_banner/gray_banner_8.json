@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:stripped_oak_wood"
+      "item": "minecraft:cactus"
     },
     "|": {
-      "item": "minecraft:stripped_spruce_wood"
+      "item": "minecraft:wheat_seeds"
     }
   },
   "result": {

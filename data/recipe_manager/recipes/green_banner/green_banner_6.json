@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chorus_plant"
+      "item": "minecraft:oak_pressure_plate"
     },
     "|": {
-      "item": "minecraft:ender_eye"
+      "item": "minecraft:pufferfish"
     }
   },
   "result": {

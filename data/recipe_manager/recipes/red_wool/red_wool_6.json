@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diamond_shovel"
+      "item": "minecraft:lime_bed"
     },
     {
-      "item": "minecraft:jungle_door"
+      "item": "minecraft:pink_dye"
     }
   ],
   "result": {

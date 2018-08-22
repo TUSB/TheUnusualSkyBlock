@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:glass_pane"
+      "item": "minecraft:blue_bed"
     },
     "W": {
-      "item": "minecraft:stone_slab"
+      "item": "minecraft:red_glazed_terracotta"
     }
   },
   "result": {

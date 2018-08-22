@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:oak_slab"
+      "item": "minecraft:birch_pressure_plate"
     }
   ],
   "result": {

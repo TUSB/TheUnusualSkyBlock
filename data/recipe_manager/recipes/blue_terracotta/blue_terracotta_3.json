@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:shears"
+      "item": "minecraft:acacia_trapdoor"
     },
     "X": {
-      "item": "minecraft:trident"
+      "item": "minecraft:armor_stand"
     }
   },
   "result": {

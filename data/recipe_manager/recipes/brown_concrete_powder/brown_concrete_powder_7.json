@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_bed"
+      "item": "minecraft:dropper"
     },
     {
-      "item": "minecraft:cactus"
+      "item": "minecraft:mushroom_stem"
     },
     {
-      "item": "minecraft:chainmail_leggings"
+      "item": "minecraft:pink_concrete"
     },
     {
-      "item": "minecraft:chicken"
+      "item": "minecraft:polished_diorite"
     },
     {
-      "item": "minecraft:infested_cracked_stone_bricks"
+      "item": "minecraft:purpur_slab"
     },
     {
-      "item": "minecraft:light_blue_carpet"
+      "item": "minecraft:sandstone_slab"
     },
     {
-      "item": "minecraft:oak_sapling"
+      "item": "minecraft:spruce_boat"
     },
     {
-      "item": "minecraft:prismarine_brick_slab"
+      "item": "minecraft:tripwire_hook"
     },
     {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:white_stained_glass"
     }
   ],
   "result": {

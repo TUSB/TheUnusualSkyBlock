@@ -7,16 +7,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:bucket"
+      "item": "minecraft:golden_horse_armor"
     },
     "#": {
-      "item": "minecraft:dragon_breath"
+      "item": "minecraft:grass"
     },
     "X": {
-      "item": "minecraft:lapis_block"
+      "item": "minecraft:orange_dye"
     },
     "R": {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:powered_rail"
     }
   },
   "result": {

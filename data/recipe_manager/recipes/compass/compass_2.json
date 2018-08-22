@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_wool"
+      "item": "minecraft:black_terracotta"
     },
     "X": {
-      "item": "minecraft:smooth_red_sandstone"
+      "item": "minecraft:nether_brick_stairs"
     }
   },
   "result": {

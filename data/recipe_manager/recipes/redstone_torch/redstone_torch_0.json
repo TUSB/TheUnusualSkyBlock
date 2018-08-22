@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:ink_sac"
+      "item": "minecraft:cooked_cod"
     },
     "#": {
-      "item": "minecraft:poppy"
+      "item": "minecraft:tall_grass"
     }
   },
   "result": {

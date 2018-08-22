@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_concrete_powder"
+      "item": "minecraft:oak_sapling"
     },
     "|": {
-      "item": "minecraft:brick_stairs"
+      "item": "minecraft:spruce_boat"
     }
   },
   "result": {

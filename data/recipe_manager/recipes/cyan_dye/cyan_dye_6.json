@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:iron_trapdoor"
+      "item": "minecraft:magenta_concrete"
     },
     {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:turtle_egg"
     }
   ],
   "result": {

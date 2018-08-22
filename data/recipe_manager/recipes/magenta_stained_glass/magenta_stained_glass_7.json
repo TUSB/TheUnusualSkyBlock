@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:player_head"
+      "item": "minecraft:acacia_log"
     },
     "X": {
-      "item": "minecraft:smooth_red_sandstone"
+      "item": "minecraft:dark_oak_log"
     }
   },
   "result": {

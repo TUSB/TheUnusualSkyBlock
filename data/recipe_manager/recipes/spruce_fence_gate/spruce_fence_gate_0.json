@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_pressure_plate"
+      "item": "minecraft:infested_chiseled_stone_bricks"
     },
     "W": {
-      "item": "minecraft:cyan_terracotta"
+      "item": "minecraft:stone_pickaxe"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:leather_boots"
+      "item": "minecraft:acacia_slab"
     },
     "#": {
-      "item": "minecraft:wooden_sword"
+      "item": "minecraft:emerald_block"
     }
   },
   "result": {

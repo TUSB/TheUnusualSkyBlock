@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_wool"
+      "item": "minecraft:brown_wool"
     },
     "X": {
-      "item": "minecraft:wheat"
+      "item": "minecraft:gray_glazed_terracotta"
     }
   },
   "result": {

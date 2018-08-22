@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:nether_wart"
+      "item": "minecraft:dandelion"
     },
     "#": {
-      "item": "minecraft:redstone"
+      "item": "minecraft:tube_coral"
     }
   },
   "result": {

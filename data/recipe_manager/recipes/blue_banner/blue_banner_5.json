@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:melon_slice"
+      "item": "minecraft:light_weighted_pressure_plate"
     },
     "|": {
-      "item": "minecraft:nether_brick_fence"
+      "item": "minecraft:magenta_concrete"
     }
   },
   "result": {

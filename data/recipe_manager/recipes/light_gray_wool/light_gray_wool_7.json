@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_concrete_powder"
+      "item": "minecraft:brown_banner"
     },
     {
-      "item": "minecraft:fermented_spider_eye"
+      "item": "minecraft:orange_glazed_terracotta"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:lily_pad"
+      "item": "minecraft:birch_fence_gate"
     },
     "#": {
-      "item": "minecraft:pumpkin"
+      "item": "minecraft:granite"
     }
   },
   "result": {

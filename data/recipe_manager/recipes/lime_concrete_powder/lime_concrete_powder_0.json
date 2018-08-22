@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_stairs"
+      "item": "minecraft:andesite"
     },
     {
-      "item": "minecraft:bone"
+      "item": "minecraft:brown_stained_glass_pane"
     },
     {
-      "item": "minecraft:cobblestone"
+      "item": "minecraft:chiseled_red_sandstone"
     },
     {
-      "item": "minecraft:ink_sac"
+      "item": "minecraft:cyan_bed"
     },
     {
-      "item": "minecraft:light_gray_banner"
+      "item": "minecraft:dark_oak_planks"
     },
     {
-      "item": "minecraft:sticky_piston"
+      "item": "minecraft:potion"
     },
     {
-      "item": "minecraft:stone_shovel"
+      "item": "minecraft:repeater"
     },
     {
-      "item": "minecraft:tnt_minecart"
+      "item": "minecraft:rotten_flesh"
     },
     {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:scute"
     }
   ],
   "result": {

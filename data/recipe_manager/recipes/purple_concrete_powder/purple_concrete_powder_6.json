@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_ice"
+      "item": "minecraft:blue_glazed_terracotta"
     },
     {
-      "item": "minecraft:bricks"
+      "item": "minecraft:cactus_green"
     },
     {
-      "item": "minecraft:brown_shulker_box"
+      "item": "minecraft:cooked_beef"
     },
     {
-      "item": "minecraft:dragon_head"
+      "item": "minecraft:dark_oak_trapdoor"
     },
     {
-      "item": "minecraft:gray_terracotta"
+      "item": "minecraft:dead_brain_coral_fan"
     },
     {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:leather_leggings"
     },
     {
-      "item": "minecraft:painting"
+      "item": "minecraft:nether_brick_fence"
     },
     {
-      "item": "minecraft:red_concrete"
+      "item": "minecraft:orange_carpet"
     },
     {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:trapped_chest"
     }
   ],
   "result": {

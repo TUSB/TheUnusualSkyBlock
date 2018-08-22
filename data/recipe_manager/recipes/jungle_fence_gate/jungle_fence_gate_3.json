@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:coarse_dirt"
+      "item": "minecraft:end_rod"
     },
     "W": {
-      "item": "minecraft:oak_trapdoor"
+      "item": "minecraft:melon"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:sign"
+      "item": "minecraft:brown_bed"
     },
     "X": {
-      "item": "minecraft:stripped_acacia_wood"
+      "item": "minecraft:purple_wool"
     }
   },
   "result": {

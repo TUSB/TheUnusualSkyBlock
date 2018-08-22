@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_blue_shulker_box"
+      "item": "minecraft:bucket"
     },
     "|": {
-      "item": "minecraft:orange_bed"
+      "item": "minecraft:lapis_block"
     }
   },
   "result": {

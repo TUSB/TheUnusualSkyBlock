@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_shulker_box"
+      "item": "minecraft:light_blue_dye"
     },
     "|": {
-      "item": "minecraft:purple_shulker_box"
+      "item": "minecraft:prismarine_slab"
     }
   },
   "result": {

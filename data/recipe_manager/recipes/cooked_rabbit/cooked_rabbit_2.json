@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:stone_slab"
     }
   ],
   "result": {

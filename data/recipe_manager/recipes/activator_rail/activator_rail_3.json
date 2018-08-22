@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:orange_glazed_terracotta"
+      "item": "minecraft:black_shulker_box"
     },
     "S": {
-      "item": "minecraft:red_stained_glass"
+      "item": "minecraft:cooked_mutton"
     },
     "#": {
-      "item": "minecraft:white_carpet"
+      "item": "minecraft:spruce_planks"
     }
   },
   "result": {

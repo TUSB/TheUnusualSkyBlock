@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_trapdoor"
+      "item": "minecraft:melon"
     },
     "W": {
-      "item": "minecraft:sunflower"
+      "item": "minecraft:pumpkin"
     }
   },
   "result": {

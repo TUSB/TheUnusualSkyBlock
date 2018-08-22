@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:iron_trapdoor"
+      "item": "minecraft:acacia_wood"
     },
     {
-      "item": "minecraft:red_sandstone_stairs"
+      "item": "minecraft:bubble_coral_block"
     }
   ],
   "result": {

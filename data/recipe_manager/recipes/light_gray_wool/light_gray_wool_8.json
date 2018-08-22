@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:sandstone_stairs"
+      "item": "minecraft:orange_shulker_box"
     },
     {
-      "item": "minecraft:white_banner"
+      "item": "minecraft:stripped_birch_wood"
     }
   ],
   "result": {

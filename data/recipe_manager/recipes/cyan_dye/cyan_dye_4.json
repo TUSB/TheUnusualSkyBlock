@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:leather_chestplate"
+      "item": "minecraft:golden_helmet"
     },
     {
-      "item": "minecraft:yellow_bed"
+      "item": "minecraft:spruce_log"
     }
   ],
   "result": {

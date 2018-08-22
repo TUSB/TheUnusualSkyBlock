@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chiseled_sandstone"
+      "item": "minecraft:brown_carpet"
     },
     {
-      "item": "minecraft:grass_path"
+      "item": "minecraft:brown_stained_glass_pane"
     },
     {
-      "item": "minecraft:green_carpet"
+      "item": "minecraft:cut_red_sandstone"
     },
     {
-      "item": "minecraft:ladder"
+      "item": "minecraft:golden_carrot"
     },
     {
-      "item": "minecraft:light_gray_glazed_terracotta"
+      "item": "minecraft:light_blue_stained_glass_pane"
     },
     {
-      "item": "minecraft:nether_brick_slab"
+      "item": "minecraft:light_weighted_pressure_plate"
     },
     {
-      "item": "minecraft:nether_wart_block"
+      "item": "minecraft:lilac"
     },
     {
-      "item": "minecraft:purpur_block"
+      "item": "minecraft:podzol"
     },
     {
-      "item": "minecraft:red_sandstone"
+      "item": "minecraft:seagrass"
     }
   ],
   "result": {

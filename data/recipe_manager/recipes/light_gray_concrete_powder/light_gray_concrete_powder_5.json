@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:azure_bluet"
+      "item": "minecraft:arrow"
     },
     {
-      "item": "minecraft:black_concrete"
+      "item": "minecraft:cookie"
     },
     {
-      "item": "minecraft:chest_minecart"
+      "item": "minecraft:gray_bed"
     },
     {
-      "item": "minecraft:green_glazed_terracotta"
+      "item": "minecraft:iron_bars"
     },
     {
-      "item": "minecraft:lime_stained_glass_pane"
+      "item": "minecraft:magenta_stained_glass"
     },
     {
-      "item": "minecraft:magenta_dye"
+      "item": "minecraft:painting"
     },
     {
-      "item": "minecraft:packed_ice"
+      "item": "minecraft:snow"
     },
     {
-      "item": "minecraft:rabbit_hide"
+      "item": "minecraft:spruce_planks"
     },
     {
-      "item": "minecraft:red_bed"
+      "item": "minecraft:white_banner"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:nether_wart"
+      "item": "minecraft:grass_path"
     },
     "#": {
-      "item": "minecraft:white_stained_glass"
+      "item": "minecraft:stripped_dark_oak_wood"
     }
   },
   "result": {

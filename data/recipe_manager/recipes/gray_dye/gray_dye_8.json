@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brain_coral_fan"
+      "item": "minecraft:black_stained_glass"
     },
     {
-      "item": "minecraft:smooth_stone"
+      "item": "minecraft:gray_concrete"
     }
   ],
   "result": {

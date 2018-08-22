@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:spawner"
+      "item": "minecraft:cooked_chicken"
     },
     "#": {
-      "item": "minecraft:spider_eye"
+      "item": "minecraft:stone_button"
     }
   },
   "result": {

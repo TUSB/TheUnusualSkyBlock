@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:activator_rail"
+      "item": "minecraft:chorus_fruit"
     },
     {
-      "item": "minecraft:birch_trapdoor"
+      "item": "minecraft:golden_axe"
     },
     {
-      "item": "minecraft:daylight_detector"
+      "item": "minecraft:purple_terracotta"
     },
     {
-      "item": "minecraft:emerald"
+      "item": "minecraft:red_bed"
     },
     {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:red_nether_bricks"
     },
     {
-      "item": "minecraft:potion"
+      "item": "minecraft:red_shulker_box"
     },
     {
-      "item": "minecraft:rabbit_hide"
+      "item": "minecraft:rose_red"
     },
     {
-      "item": "minecraft:splash_potion"
+      "item": "minecraft:white_concrete_powder"
     },
     {
-      "item": "minecraft:stone"
+      "item": "minecraft:white_tulip"
     }
   ],
   "result": {

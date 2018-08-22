@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_concrete"
+      "item": "minecraft:brown_shulker_box"
     },
     "X": {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:red_nether_bricks"
     }
   },
   "result": {

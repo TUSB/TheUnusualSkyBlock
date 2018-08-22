@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:pink_tulip"
+      "item": "minecraft:coal"
     },
     "#": {
-      "item": "minecraft:spider_eye"
+      "item": "minecraft:light_gray_carpet"
     }
   },
   "result": {

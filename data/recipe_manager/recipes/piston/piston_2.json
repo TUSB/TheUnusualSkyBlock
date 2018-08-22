@@ -7,16 +7,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:dark_oak_wood"
+      "item": "minecraft:azure_bluet"
     },
     "#": {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:light_blue_banner"
     },
     "X": {
-      "item": "minecraft:rabbit_hide"
+      "item": "minecraft:pink_carpet"
     },
     "R": {
-      "item": "minecraft:smooth_stone"
+      "item": "minecraft:wooden_pickaxe"
     }
   },
   "result": {

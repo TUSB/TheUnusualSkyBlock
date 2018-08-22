@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:stripped_birch_wood"
+      "item": "minecraft:tall_grass"
     },
     "X": {
-      "item": "minecraft:turtle_egg"
+      "item": "minecraft:tipped_arrow"
     }
   },
   "result": {

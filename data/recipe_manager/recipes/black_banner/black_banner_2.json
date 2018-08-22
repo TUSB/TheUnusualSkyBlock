@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:stripped_birch_log"
+      "item": "minecraft:bone_block"
     },
     "|": {
-      "item": "minecraft:stripped_jungle_wood"
+      "item": "minecraft:pink_tulip"
     }
   },
   "result": {

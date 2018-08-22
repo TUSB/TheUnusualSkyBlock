@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:emerald"
+      "item": "minecraft:cobblestone"
     },
     "|": {
-      "item": "minecraft:yellow_banner"
+      "item": "minecraft:orange_concrete_powder"
     }
   },
   "result": {

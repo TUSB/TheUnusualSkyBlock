@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:magma_block"
+      "item": "minecraft:glass_bottle"
     },
     "S": {
-      "item": "minecraft:prismarine_stairs"
+      "item": "minecraft:iron_pickaxe"
     },
     "#": {
-      "item": "minecraft:spruce_door"
+      "item": "minecraft:jungle_trapdoor"
     }
   },
   "result": {

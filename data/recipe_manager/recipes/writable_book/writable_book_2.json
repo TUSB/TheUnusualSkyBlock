@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:infested_cobblestone"
+      "item": "minecraft:compass"
     },
     {
-      "item": "minecraft:lapis_ore"
+      "item": "minecraft:oak_button"
     },
     {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:white_carpet"
     }
   ],
   "result": {

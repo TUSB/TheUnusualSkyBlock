@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chiseled_red_sandstone"
+      "item": "minecraft:acacia_log"
     },
     {
-      "item": "minecraft:coarse_dirt"
+      "item": "minecraft:birch_door"
     },
     {
-      "item": "minecraft:diamond_horse_armor"
+      "item": "minecraft:brown_shulker_box"
     },
     {
-      "item": "minecraft:diamond_leggings"
+      "item": "minecraft:diorite"
     },
     {
-      "item": "minecraft:iron_nugget"
+      "item": "minecraft:flint_and_steel"
     },
     {
-      "item": "minecraft:prismarine_brick_slab"
+      "item": "minecraft:quartz_pillar"
     },
     {
-      "item": "minecraft:stone_slab"
+      "item": "minecraft:red_sandstone_stairs"
     },
     {
-      "item": "minecraft:stripped_jungle_wood"
+      "item": "minecraft:shulker_box"
     },
     {
-      "item": "minecraft:white_carpet"
+      "item": "minecraft:tipped_arrow"
     }
   ],
   "result": {

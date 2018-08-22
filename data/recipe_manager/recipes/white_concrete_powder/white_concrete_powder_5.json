@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_trapdoor"
+      "item": "minecraft:anvil"
     },
     {
-      "item": "minecraft:chest"
+      "item": "minecraft:blue_stained_glass"
     },
     {
-      "item": "minecraft:feather"
+      "item": "minecraft:cod"
     },
     {
-      "item": "minecraft:iron_axe"
+      "item": "minecraft:dead_fire_coral_block"
     },
     {
-      "item": "minecraft:magenta_dye"
+      "item": "minecraft:grass_block"
     },
     {
-      "item": "minecraft:orange_tulip"
+      "item": "minecraft:gray_dye"
     },
     {
-      "item": "minecraft:pumpkin"
+      "item": "minecraft:oak_wood"
     },
     {
-      "item": "minecraft:sea_lantern"
+      "item": "minecraft:stripped_spruce_wood"
     },
     {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:water_bucket"
     }
   ],
   "result": {

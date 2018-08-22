@@ -7,10 +7,10 @@
   ],
   "key": {
     "O": {
-      "item": "minecraft:cooked_rabbit"
+      "item": "minecraft:stripped_spruce_wood"
     },
     "B": {
-      "item": "minecraft:iron_axe"
+      "item": "minecraft:white_bed"
     }
   },
   "result": {

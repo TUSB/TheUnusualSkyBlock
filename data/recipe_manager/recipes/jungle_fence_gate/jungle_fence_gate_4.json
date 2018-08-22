@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:dark_prismarine"
     },
     "W": {
-      "item": "minecraft:magenta_stained_glass_pane"
+      "item": "minecraft:infested_chiseled_stone_bricks"
     }
   },
   "result": {

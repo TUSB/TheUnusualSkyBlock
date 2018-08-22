@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_concrete"
+      "item": "minecraft:birch_leaves"
     },
     {
       "item": "minecraft:book"
     },
     {
-      "item": "minecraft:brown_banner"
+      "item": "minecraft:cooked_porkchop"
     },
     {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:horn_coral_block"
     },
     {
-      "item": "minecraft:coal"
+      "item": "minecraft:magenta_glazed_terracotta"
     },
     {
-      "item": "minecraft:dead_bubble_coral_block"
+      "item": "minecraft:prismarine_shard"
     },
     {
-      "item": "minecraft:snow_block"
+      "item": "minecraft:prismarine_stairs"
     },
     {
-      "item": "minecraft:stripped_jungle_log"
+      "item": "minecraft:tube_coral_fan"
     },
     {
-      "item": "minecraft:wooden_shovel"
+      "item": "minecraft:white_banner"
     }
   ],
   "result": {

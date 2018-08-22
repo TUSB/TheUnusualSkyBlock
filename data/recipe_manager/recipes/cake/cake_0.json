@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:chiseled_stone_bricks"
+      "item": "minecraft:grass_path"
     },
     "B": {
-      "item": "minecraft:dark_prismarine"
+      "item": "minecraft:green_bed"
     },
     "E": {
-      "item": "minecraft:ink_sac"
+      "item": "minecraft:red_mushroom"
     },
     "C": {
-      "item": "minecraft:pink_wool"
+      "item": "minecraft:spruce_pressure_plate"
     }
   },
   "result": {

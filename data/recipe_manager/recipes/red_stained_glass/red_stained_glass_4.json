@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_concrete"
+      "item": "minecraft:grass_path"
     },
     "X": {
-      "item": "minecraft:snow_block"
+      "item": "minecraft:wooden_shovel"
     }
   },
   "result": {

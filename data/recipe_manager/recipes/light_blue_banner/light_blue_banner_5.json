@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_stained_glass"
+      "item": "minecraft:magenta_carpet"
     },
     "|": {
-      "item": "minecraft:jungle_log"
+      "item": "minecraft:stone_hoe"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_carpet"
+      "item": "minecraft:acacia_fence_gate"
     },
     {
-      "item": "minecraft:blue_terracotta"
+      "item": "minecraft:apple"
     },
     {
-      "item": "minecraft:brown_stained_glass_pane"
+      "item": "minecraft:cyan_banner"
     },
     {
-      "item": "minecraft:cobblestone_slab"
+      "item": "minecraft:dead_brain_coral_fan"
     },
     {
-      "item": "minecraft:cocoa_beans"
+      "item": "minecraft:grass_block"
     },
     {
-      "item": "minecraft:diamond_axe"
+      "item": "minecraft:green_shulker_box"
     },
     {
-      "item": "minecraft:sandstone_stairs"
+      "item": "minecraft:nether_bricks"
     },
     {
-      "item": "minecraft:spider_eye"
+      "item": "minecraft:stripped_dark_oak_wood"
     },
     {
-      "item": "minecraft:tropical_fish_bucket"
+      "item": "minecraft:wither_skeleton_skull"
     }
   ],
   "result": {

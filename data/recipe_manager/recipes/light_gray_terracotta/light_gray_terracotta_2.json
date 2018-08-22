@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_carpet"
+      "item": "minecraft:piston"
     },
     "X": {
-      "item": "minecraft:painting"
+      "item": "minecraft:rabbit_hide"
     }
   },
   "result": {

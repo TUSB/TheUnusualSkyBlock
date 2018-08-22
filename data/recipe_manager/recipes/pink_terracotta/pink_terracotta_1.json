@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:redstone_block"
+      "item": "minecraft:pink_bed"
     },
     "X": {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:pumpkin"
     }
   },
   "result": {

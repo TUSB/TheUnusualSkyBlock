@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:golden_helmet"
     },
     {
-      "item": "minecraft:dropper"
+      "item": "minecraft:scute"
     }
   ],
   "result": {

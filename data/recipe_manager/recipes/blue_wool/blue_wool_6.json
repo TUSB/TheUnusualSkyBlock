@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:flint"
     },
     {
-      "item": "minecraft:yellow_wool"
+      "item": "minecraft:orange_stained_glass_pane"
     }
   ],
   "result": {

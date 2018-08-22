@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:magenta_stained_glass_pane"
     },
     "X": {
-      "item": "minecraft:red_stained_glass"
+      "item": "minecraft:splash_potion"
     }
   },
   "result": {

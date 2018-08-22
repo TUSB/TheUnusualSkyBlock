@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_banner"
+      "item": "minecraft:green_stained_glass"
     },
     "X": {
-      "item": "minecraft:yellow_banner"
+      "item": "minecraft:red_glazed_terracotta"
     }
   },
   "result": {

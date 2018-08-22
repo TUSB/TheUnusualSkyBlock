@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_concrete_powder"
+      "item": "minecraft:cobblestone_stairs"
     },
     {
-      "item": "minecraft:grass_path"
+      "item": "minecraft:diamond_helmet"
     },
     {
-      "item": "minecraft:light_blue_concrete"
+      "item": "minecraft:hay_block"
     },
     {
-      "item": "minecraft:oak_fence"
+      "item": "minecraft:jungle_log"
     },
     {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:oak_boat"
     },
     {
-      "item": "minecraft:orange_tulip"
+      "item": "minecraft:potato"
     },
     {
-      "item": "minecraft:spruce_button"
+      "item": "minecraft:prismarine_brick_slab"
     },
     {
-      "item": "minecraft:wooden_sword"
+      "item": "minecraft:spruce_pressure_plate"
     },
     {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:trident"
     }
   ],
   "result": {

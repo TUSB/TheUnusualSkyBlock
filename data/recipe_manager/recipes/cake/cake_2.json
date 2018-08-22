@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:acacia_boat"
+      "item": "minecraft:birch_fence_gate"
     },
     "B": {
-      "item": "minecraft:beetroot_seeds"
+      "item": "minecraft:dark_oak_leaves"
     },
     "E": {
-      "item": "minecraft:brown_banner"
+      "item": "minecraft:dead_horn_coral_block"
     },
     "C": {
-      "item": "minecraft:light_blue_shulker_box"
+      "item": "minecraft:spruce_button"
     }
   },
   "result": {

@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_pressure_plate"
+      "item": "minecraft:magenta_terracotta"
     },
     "X": {
-      "item": "minecraft:bowl"
+      "item": "minecraft:pink_bed"
     },
     "I": {
-      "item": "minecraft:pink_shulker_box"
+      "item": "minecraft:redstone_lamp"
     }
   },
   "result": {

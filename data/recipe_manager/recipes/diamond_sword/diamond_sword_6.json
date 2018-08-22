@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:iron_horse_armor"
+      "item": "minecraft:iron_shovel"
     },
     "#": {
-      "item": "minecraft:jungle_button"
+      "item": "minecraft:prismarine_bricks"
     }
   },
   "result": {

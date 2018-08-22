@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:damaged_anvil"
     },
     "B": {
-      "item": "minecraft:stone_hoe"
+      "item": "minecraft:emerald_block"
     }
   },
   "result": {

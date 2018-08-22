@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:granite"
+      "item": "minecraft:diamond_helmet"
     },
     "|": {
-      "item": "minecraft:mycelium"
+      "item": "minecraft:jungle_sapling"
     }
   },
   "result": {

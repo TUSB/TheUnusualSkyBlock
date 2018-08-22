@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:oak_boat"
+      "item": "minecraft:chainmail_chestplate"
     },
     "B": {
-      "item": "minecraft:rabbit"
+      "item": "minecraft:iron_axe"
     }
   },
   "result": {

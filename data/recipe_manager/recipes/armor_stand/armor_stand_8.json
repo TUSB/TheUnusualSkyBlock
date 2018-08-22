@@ -7,10 +7,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:prismarine_stairs"
+      "item": "minecraft:splash_potion"
     },
     "_": {
-      "item": "minecraft:pumpkin"
+      "item": "minecraft:water_bucket"
     }
   },
   "result": {

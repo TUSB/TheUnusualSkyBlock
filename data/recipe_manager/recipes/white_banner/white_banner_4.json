@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dried_kelp_block"
+      "item": "minecraft:brown_shulker_box"
     },
     "|": {
-      "item": "minecraft:oak_sapling"
+      "item": "minecraft:jungle_stairs"
     }
   },
   "result": {

@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_wool"
+      "item": "minecraft:green_shulker_box"
     }
   ],
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beef"
+      "item": "minecraft:bone"
     },
     {
-      "item": "minecraft:birch_sapling"
+      "item": "minecraft:brown_concrete_powder"
     },
     {
-      "item": "minecraft:cyan_shulker_box"
+      "item": "minecraft:dark_oak_boat"
     },
     {
-      "item": "minecraft:diamond_axe"
+      "item": "minecraft:dead_horn_coral_fan"
     },
     {
-      "item": "minecraft:gray_terracotta"
+      "item": "minecraft:enchanting_table"
     },
     {
-      "item": "minecraft:magma_block"
+      "item": "minecraft:glowstone_dust"
     },
     {
-      "item": "minecraft:prismarine_brick_stairs"
+      "item": "minecraft:nether_wart_block"
     },
     {
-      "item": "minecraft:red_sandstone_stairs"
+      "item": "minecraft:prismarine"
     },
     {
-      "item": "minecraft:wooden_hoe"
+      "item": "minecraft:stripped_jungle_wood"
     }
   ],
   "result": {

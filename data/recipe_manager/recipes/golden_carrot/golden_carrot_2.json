@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:compass"
+      "item": "minecraft:emerald_block"
     },
     "X": {
-      "item": "minecraft:dried_kelp_block"
+      "item": "minecraft:peony"
     }
   },
   "result": {

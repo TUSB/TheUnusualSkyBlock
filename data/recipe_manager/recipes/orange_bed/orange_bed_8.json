@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_bed"
+      "item": "minecraft:magenta_dye"
     },
     "X": {
-      "item": "minecraft:piston"
+      "item": "minecraft:stripped_jungle_wood"
     }
   },
   "result": {

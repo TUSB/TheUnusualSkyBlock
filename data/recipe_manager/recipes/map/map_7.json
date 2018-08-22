@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_slab"
+      "item": "minecraft:blue_shulker_box"
     },
     "X": {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:wooden_pickaxe"
     }
   },
   "result": {

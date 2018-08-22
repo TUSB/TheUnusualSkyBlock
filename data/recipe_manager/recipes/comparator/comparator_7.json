@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dead_fire_coral_fan"
+      "item": "minecraft:fire_coral"
     },
     "X": {
-      "item": "minecraft:furnace_minecart"
+      "item": "minecraft:jungle_planks"
     },
     "I": {
-      "item": "minecraft:white_bed"
+      "item": "minecraft:prismarine_brick_slab"
     }
   },
   "result": {

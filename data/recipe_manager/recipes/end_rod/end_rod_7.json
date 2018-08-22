@@ -6,10 +6,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:charcoal"
+      "item": "minecraft:glowstone"
     },
     "#": {
-      "item": "minecraft:wooden_axe"
+      "item": "minecraft:milk_bucket"
     }
   },
   "result": {

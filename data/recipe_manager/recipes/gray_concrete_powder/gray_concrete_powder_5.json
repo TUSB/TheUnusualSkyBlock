@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:activator_rail"
+      "item": "minecraft:bread"
     },
     {
-      "item": "minecraft:bowl"
+      "item": "minecraft:brown_concrete_powder"
     },
     {
-      "item": "minecraft:cyan_stained_glass"
+      "item": "minecraft:charcoal"
     },
     {
-      "item": "minecraft:leather_boots"
+      "item": "minecraft:diamond_chestplate"
     },
     {
-      "item": "minecraft:powered_rail"
+      "item": "minecraft:golden_horse_armor"
     },
     {
-      "item": "minecraft:purple_banner"
+      "item": "minecraft:iron_bars"
     },
     {
-      "item": "minecraft:saddle"
+      "item": "minecraft:polished_diorite"
     },
     {
-      "item": "minecraft:torch"
+      "item": "minecraft:redstone_torch"
     },
     {
-      "item": "minecraft:yellow_glazed_terracotta"
+      "item": "minecraft:stick"
     }
   ],
   "result": {

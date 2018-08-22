@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_wool"
+      "item": "minecraft:jungle_boat"
     },
     {
-      "item": "minecraft:netherrack"
+      "item": "minecraft:purple_shulker_box"
     }
   ],
   "result": {

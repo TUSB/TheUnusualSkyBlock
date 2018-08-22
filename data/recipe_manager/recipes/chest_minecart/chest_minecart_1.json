@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "item": "minecraft:jungle_button"
     },
     "B": {
-      "item": "minecraft:white_carpet"
+      "item": "minecraft:spruce_pressure_plate"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:emerald"
+      "item": "minecraft:acacia_pressure_plate"
     },
     "X": {
-      "item": "minecraft:yellow_concrete_powder"
+      "item": "minecraft:leather_helmet"
     }
   },
   "result": {

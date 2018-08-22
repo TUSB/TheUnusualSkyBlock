@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:leather"
+      "item": "minecraft:dropper"
     },
     "X": {
-      "item": "minecraft:stripped_jungle_wood"
+      "item": "minecraft:fern"
     }
   },
   "result": {

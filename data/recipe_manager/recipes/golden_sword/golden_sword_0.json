@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:jungle_button"
+      "item": "minecraft:brain_coral"
     },
     "#": {
-      "item": "minecraft:red_glazed_terracotta"
+      "item": "minecraft:lime_concrete"
     }
   },
   "result": {

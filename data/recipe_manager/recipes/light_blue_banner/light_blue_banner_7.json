@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cobweb"
+      "item": "minecraft:light_gray_carpet"
     },
     "|": {
-      "item": "minecraft:purple_stained_glass"
+      "item": "minecraft:orange_terracotta"
     }
   },
   "result": {

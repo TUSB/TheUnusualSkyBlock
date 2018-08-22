@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:spruce_fence"
+      "item": "minecraft:red_glazed_terracotta"
     }
   ],
   "result": {

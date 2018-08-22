@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:book"
+      "item": "minecraft:cyan_banner"
     },
     "X": {
-      "item": "minecraft:redstone_block"
+      "item": "minecraft:item_frame"
     }
   },
   "result": {

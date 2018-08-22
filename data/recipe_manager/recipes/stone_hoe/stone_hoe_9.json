@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:fire_coral_block"
+      "item": "minecraft:green_stained_glass"
     },
     "#": {
-      "item": "minecraft:orange_stained_glass_pane"
+      "item": "minecraft:stone"
     }
   },
   "result": {

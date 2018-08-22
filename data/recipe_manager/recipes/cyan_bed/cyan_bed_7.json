@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_boots"
+      "item": "minecraft:diamond_hoe"
     },
     "X": {
-      "item": "minecraft:wither_skeleton_skull"
+      "item": "minecraft:spruce_sapling"
     }
   },
   "result": {

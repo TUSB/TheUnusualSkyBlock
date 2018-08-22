@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_pressure_plate"
+      "item": "minecraft:acacia_pressure_plate"
     },
     {
-      "item": "minecraft:chipped_anvil"
+      "item": "minecraft:blaze_powder"
     },
     {
-      "item": "minecraft:cyan_carpet"
+      "item": "minecraft:bubble_coral_block"
     },
     {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:clay_ball"
     },
     {
-      "item": "minecraft:golden_hoe"
+      "item": "minecraft:jungle_slab"
     },
     {
-      "item": "minecraft:light_gray_wool"
+      "item": "minecraft:ladder"
     },
     {
-      "item": "minecraft:potion"
+      "item": "minecraft:orange_concrete_powder"
     },
     {
-      "item": "minecraft:tube_coral_fan"
+      "item": "minecraft:smooth_sandstone"
     },
     {
-      "item": "minecraft:writable_book"
+      "item": "minecraft:stripped_acacia_log"
     }
   ],
   "result": {

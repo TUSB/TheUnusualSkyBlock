@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:golden_pickaxe"
+      "item": "minecraft:leather_helmet"
     },
     "#": {
-      "item": "minecraft:nautilus_shell"
+      "item": "minecraft:light_blue_banner"
     }
   },
   "result": {

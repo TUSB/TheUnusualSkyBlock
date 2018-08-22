@@ -2,16 +2,16 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:activator_rail"
+      "item": "minecraft:blue_concrete"
     },
     {
-      "item": "minecraft:bone_block"
+      "item": "minecraft:golden_pickaxe"
     },
     {
-      "item": "minecraft:stripped_jungle_wood"
+      "item": "minecraft:spider_eye"
     },
     {
-      "item": "minecraft:yellow_carpet"
+      "item": "minecraft:writable_book"
     }
   ],
   "result": {

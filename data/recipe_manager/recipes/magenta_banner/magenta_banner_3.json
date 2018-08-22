@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chiseled_quartz_block"
+      "item": "minecraft:acacia_planks"
     },
     "|": {
-      "item": "minecraft:white_stained_glass"
+      "item": "minecraft:white_shulker_box"
     }
   },
   "result": {

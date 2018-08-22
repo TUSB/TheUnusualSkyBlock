@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_carpet"
+      "item": "minecraft:dark_oak_slab"
     },
     {
-      "item": "minecraft:cookie"
+      "item": "minecraft:note_block"
     },
     {
-      "item": "minecraft:glistering_melon_slice"
+      "item": "minecraft:orange_carpet"
     },
     {
-      "item": "minecraft:grass_path"
+      "item": "minecraft:orange_glazed_terracotta"
     },
     {
-      "item": "minecraft:gray_carpet"
+      "item": "minecraft:prismarine_brick_stairs"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:prismarine_slab"
     },
     {
-      "item": "minecraft:prismarine"
+      "item": "minecraft:purpur_stairs"
     },
     {
-      "item": "minecraft:stripped_birch_wood"
+      "item": "minecraft:spruce_fence"
     },
     {
-      "item": "minecraft:white_carpet"
+      "item": "minecraft:yellow_carpet"
     }
   ],
   "result": {

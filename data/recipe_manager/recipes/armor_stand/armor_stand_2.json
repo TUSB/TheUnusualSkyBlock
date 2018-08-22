@@ -7,10 +7,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:cobblestone_stairs"
+      "item": "minecraft:blue_terracotta"
     },
     "_": {
-      "item": "minecraft:hopper"
+      "item": "minecraft:stone_bricks"
     }
   },
   "result": {

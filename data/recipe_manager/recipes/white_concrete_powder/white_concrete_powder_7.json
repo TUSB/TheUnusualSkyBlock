@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brick"
+      "item": "minecraft:blue_glazed_terracotta"
     },
     {
-      "item": "minecraft:chiseled_sandstone"
+      "item": "minecraft:bone_meal"
     },
     {
-      "item": "minecraft:fire_coral"
+      "item": "minecraft:chainmail_chestplate"
     },
     {
-      "item": "minecraft:ghast_tear"
+      "item": "minecraft:rabbit_stew"
     },
     {
-      "item": "minecraft:ice"
+      "item": "minecraft:red_carpet"
     },
     {
-      "item": "minecraft:magma_block"
+      "item": "minecraft:sea_lantern"
     },
     {
-      "item": "minecraft:prismarine_crystals"
+      "item": "minecraft:stone_bricks"
     },
     {
-      "item": "minecraft:spruce_boat"
+      "item": "minecraft:tnt_minecart"
     },
     {
-      "item": "minecraft:spruce_trapdoor"
+      "item": "minecraft:wooden_hoe"
     }
   ],
   "result": {

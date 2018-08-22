@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:ender_chest"
+      "item": "minecraft:trapped_chest"
     },
     "X": {
-      "item": "minecraft:magenta_stained_glass_pane"
+      "item": "minecraft:wither_skeleton_skull"
     }
   },
   "result": {

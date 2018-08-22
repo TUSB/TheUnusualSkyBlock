@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cobblestone_stairs"
+      "item": "minecraft:infested_chiseled_stone_bricks"
     },
     "X": {
-      "item": "minecraft:yellow_concrete"
+      "item": "minecraft:pink_glazed_terracotta"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:blaze_powder"
     },
     "X": {
-      "item": "minecraft:infested_stone"
+      "item": "minecraft:diamond_block"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:fishing_rod"
+      "item": "minecraft:acacia_door"
     },
     "X": {
-      "item": "minecraft:stone_hoe"
+      "item": "minecraft:spruce_fence_gate"
     }
   },
   "result": {

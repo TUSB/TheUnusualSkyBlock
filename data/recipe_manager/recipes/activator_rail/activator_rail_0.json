@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:red_wool"
+      "item": "minecraft:cod_bucket"
     },
     "S": {
-      "item": "minecraft:smooth_red_sandstone"
+      "item": "minecraft:pumpkin_pie"
     },
     "#": {
-      "item": "minecraft:yellow_terracotta"
+      "item": "minecraft:tnt"
     }
   },
   "result": {

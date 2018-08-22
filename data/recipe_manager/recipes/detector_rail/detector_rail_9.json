@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:jungle_trapdoor"
+      "item": "minecraft:clay"
     },
     "#": {
-      "item": "minecraft:lapis_block"
+      "item": "minecraft:green_shulker_box"
     },
     "R": {
-      "item": "minecraft:yellow_bed"
+      "item": "minecraft:piston"
     }
   },
   "result": {

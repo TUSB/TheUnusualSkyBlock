@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:rotten_flesh"
+      "item": "minecraft:blaze_powder"
     },
     "|": {
-      "item": "minecraft:saddle"
+      "item": "minecraft:end_stone"
     }
   },
   "result": {

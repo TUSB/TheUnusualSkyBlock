@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:green_shulker_box"
+      "item": "minecraft:chorus_fruit"
     },
     {
-      "item": "minecraft:green_stained_glass_pane"
+      "item": "minecraft:poisonous_potato"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:feather"
+      "item": "minecraft:diamond_leggings"
     },
     "#": {
-      "item": "minecraft:light_blue_stained_glass_pane"
+      "item": "minecraft:quartz_stairs"
     }
   },
   "result": {

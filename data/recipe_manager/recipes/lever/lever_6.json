@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:saddle"
+      "item": "minecraft:carrot"
     },
     "#": {
-      "item": "minecraft:tall_grass"
+      "item": "minecraft:spruce_button"
     }
   },
   "result": {

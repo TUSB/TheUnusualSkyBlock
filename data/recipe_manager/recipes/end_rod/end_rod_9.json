@@ -6,10 +6,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:cactus"
+      "item": "minecraft:dark_prismarine_stairs"
     },
     "#": {
-      "item": "minecraft:feather"
+      "item": "minecraft:jungle_sapling"
     }
   },
   "result": {

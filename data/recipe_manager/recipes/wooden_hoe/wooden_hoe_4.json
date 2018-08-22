@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:observer"
+      "item": "minecraft:pumpkin_seeds"
     },
     "#": {
-      "item": "minecraft:tipped_arrow"
+      "item": "minecraft:rotten_flesh"
     }
   },
   "result": {

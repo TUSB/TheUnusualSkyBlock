@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:iron_axe"
+      "item": "minecraft:chorus_fruit"
     },
     "#": {
-      "item": "minecraft:stone"
+      "item": "minecraft:red_shulker_box"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cooked_salmon"
+      "item": "minecraft:brown_stained_glass_pane"
     },
     {
-      "item": "minecraft:purple_glazed_terracotta"
+      "item": "minecraft:chiseled_sandstone"
     }
   ],
   "result": {

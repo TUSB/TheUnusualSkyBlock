@@ -7,10 +7,10 @@
   ],
   "key": {
     "~": {
-      "item": "minecraft:black_concrete_powder"
+      "item": "minecraft:ink_sac"
     },
     "O": {
-      "item": "minecraft:quartz"
+      "item": "minecraft:milk_bucket"
     }
   },
   "result": {

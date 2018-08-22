@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_oak_wood"
+      "item": "minecraft:pumpkin_pie"
     },
     "#": {
-      "item": "minecraft:furnace"
+      "item": "minecraft:stripped_birch_wood"
     }
   },
   "result": {

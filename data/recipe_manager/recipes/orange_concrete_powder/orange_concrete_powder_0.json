@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:beetroot"
     },
     {
-      "item": "minecraft:brown_wool"
+      "item": "minecraft:brewing_stand"
     },
     {
-      "item": "minecraft:chicken"
+      "item": "minecraft:gray_wool"
     },
     {
-      "item": "minecraft:golden_apple"
+      "item": "minecraft:light_gray_wool"
     },
     {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:minecart"
     },
     {
-      "item": "minecraft:light_blue_banner"
+      "item": "minecraft:quartz"
     },
     {
-      "item": "minecraft:melon"
+      "item": "minecraft:rose_bush"
     },
     {
-      "item": "minecraft:pink_stained_glass_pane"
+      "item": "minecraft:stone_brick_stairs"
     },
     {
-      "item": "minecraft:stripped_oak_wood"
+      "item": "minecraft:white_bed"
     }
   ],
   "result": {

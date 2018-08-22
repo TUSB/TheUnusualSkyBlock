@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_stained_glass_pane"
+      "item": "minecraft:magenta_carpet"
     },
     {
-      "item": "minecraft:light_blue_carpet"
+      "item": "minecraft:white_stained_glass"
     }
   ],
   "result": {

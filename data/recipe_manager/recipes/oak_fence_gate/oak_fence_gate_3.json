@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:saddle"
+      "item": "minecraft:cod_bucket"
     },
     "W": {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:hopper_minecart"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:cake"
+      "item": "minecraft:bone_block"
     },
     "#": {
-      "item": "minecraft:dragon_head"
+      "item": "minecraft:lime_shulker_box"
     }
   },
   "result": {

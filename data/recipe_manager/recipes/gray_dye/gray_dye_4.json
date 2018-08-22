@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:acacia_fence"
     },
     {
-      "item": "minecraft:prismarine"
+      "item": "minecraft:soul_sand"
     }
   ],
   "result": {

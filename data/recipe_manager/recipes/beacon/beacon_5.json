@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:birch_slab"
+      "item": "minecraft:birch_door"
     },
     "S": {
-      "item": "minecraft:coarse_dirt"
+      "item": "minecraft:bookshelf"
     },
     "O": {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:yellow_shulker_box"
     }
   },
   "result": {

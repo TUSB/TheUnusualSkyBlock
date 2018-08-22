@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lime_concrete"
+      "item": "minecraft:brick_slab"
     },
     "X": {
-      "item": "minecraft:saddle"
+      "item": "minecraft:chiseled_quartz_block"
     }
   },
   "result": {

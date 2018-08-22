@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:ender_chest"
+      "item": "minecraft:lime_carpet"
     },
     {
-      "item": "minecraft:iron_horse_armor"
+      "item": "minecraft:magenta_stained_glass"
     },
     {
-      "item": "minecraft:prismarine_brick_slab"
+      "item": "minecraft:purple_concrete_powder"
     }
   ],
   "result": {

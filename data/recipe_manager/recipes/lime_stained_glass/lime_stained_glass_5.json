@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:andesite"
+      "item": "minecraft:poppy"
     },
     "X": {
-      "item": "minecraft:hopper_minecart"
+      "item": "minecraft:prismarine_shard"
     }
   },
   "result": {

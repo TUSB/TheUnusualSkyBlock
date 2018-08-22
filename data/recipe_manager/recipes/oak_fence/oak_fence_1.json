@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:blue_stained_glass"
+      "item": "minecraft:chiseled_sandstone"
     },
     "#": {
-      "item": "minecraft:emerald_ore"
+      "item": "minecraft:creeper_head"
     }
   },
   "result": {

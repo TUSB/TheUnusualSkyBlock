@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cactus_green"
+      "item": "minecraft:stone_pressure_plate"
     },
     "X": {
-      "item": "minecraft:trident"
+      "item": "minecraft:tube_coral"
     }
   },
   "result": {

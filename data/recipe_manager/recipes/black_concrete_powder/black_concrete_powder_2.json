@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:birch_fence_gate"
     },
     {
-      "item": "minecraft:brick_stairs"
+      "item": "minecraft:blue_ice"
     },
     {
-      "item": "minecraft:conduit"
+      "item": "minecraft:chiseled_red_sandstone"
     },
     {
-      "item": "minecraft:cracked_stone_bricks"
+      "item": "minecraft:melon"
     },
     {
-      "item": "minecraft:hopper"
+      "item": "minecraft:orange_bed"
     },
     {
-      "item": "minecraft:jungle_planks"
+      "item": "minecraft:pink_concrete_powder"
     },
     {
-      "item": "minecraft:soul_sand"
+      "item": "minecraft:pink_wool"
     },
     {
-      "item": "minecraft:stripped_birch_log"
+      "item": "minecraft:quartz_slab"
     },
     {
-      "item": "minecraft:wither_skeleton_skull"
+      "item": "minecraft:shield"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:activator_rail"
+      "item": "minecraft:ender_chest"
     },
     "|": {
-      "item": "minecraft:smooth_stone"
+      "item": "minecraft:gray_stained_glass_pane"
     }
   },
   "result": {

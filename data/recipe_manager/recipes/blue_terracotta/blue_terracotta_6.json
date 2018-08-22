@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bucket"
+      "item": "minecraft:oak_wood"
     },
     "X": {
-      "item": "minecraft:golden_helmet"
+      "item": "minecraft:yellow_terracotta"
     }
   },
   "result": {

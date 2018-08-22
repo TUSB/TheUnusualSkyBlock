@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_button"
+      "item": "minecraft:carrot"
     },
     {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:dead_tube_coral_block"
     },
     {
-      "item": "minecraft:cracked_stone_bricks"
+      "item": "minecraft:gold_block"
     },
     {
-      "item": "minecraft:infested_mossy_stone_bricks"
+      "item": "minecraft:golden_sword"
     },
     {
-      "item": "minecraft:iron_bars"
+      "item": "minecraft:oak_planks"
     },
     {
-      "item": "minecraft:iron_trapdoor"
+      "item": "minecraft:potato"
     },
     {
-      "item": "minecraft:sandstone_stairs"
+      "item": "minecraft:pufferfish"
     },
     {
-      "item": "minecraft:slime_block"
+      "item": "minecraft:spruce_door"
     },
     {
-      "item": "minecraft:smooth_stone"
+      "item": "minecraft:vine"
     }
   ],
   "result": {

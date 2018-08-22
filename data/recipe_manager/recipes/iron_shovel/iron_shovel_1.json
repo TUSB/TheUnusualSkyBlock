@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:green_glazed_terracotta"
+      "item": "minecraft:cut_sandstone"
     },
     "#": {
-      "item": "minecraft:pumpkin_seeds"
+      "item": "minecraft:yellow_carpet"
     }
   },
   "result": {

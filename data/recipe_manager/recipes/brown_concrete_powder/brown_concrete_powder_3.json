@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_carpet"
+      "item": "minecraft:black_shulker_box"
     },
     {
-      "item": "minecraft:cooked_cod"
+      "item": "minecraft:bread"
     },
     {
-      "item": "minecraft:furnace"
+      "item": "minecraft:carrot_on_a_stick"
     },
     {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:cooked_chicken"
     },
     {
-      "item": "minecraft:light_gray_wool"
+      "item": "minecraft:crafting_table"
     },
     {
-      "item": "minecraft:orange_stained_glass_pane"
+      "item": "minecraft:cyan_carpet"
     },
     {
-      "item": "minecraft:pink_wool"
+      "item": "minecraft:dark_prismarine"
     },
     {
-      "item": "minecraft:purpur_stairs"
+      "item": "minecraft:light_gray_shulker_box"
     },
     {
-      "item": "minecraft:tall_grass"
+      "item": "minecraft:wither_skeleton_skull"
     }
   ],
   "result": {

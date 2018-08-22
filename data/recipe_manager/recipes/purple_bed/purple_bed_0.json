@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:allium"
+      "item": "minecraft:bricks"
     },
     "X": {
-      "item": "minecraft:redstone_block"
+      "item": "minecraft:dark_prismarine"
     }
   },
   "result": {

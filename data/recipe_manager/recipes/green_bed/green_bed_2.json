@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_door"
+      "item": "minecraft:green_stained_glass"
     },
     "X": {
-      "item": "minecraft:spruce_fence"
+      "item": "minecraft:wooden_shovel"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:pufferfish"
+      "item": "minecraft:oak_wood"
     },
     "W": {
-      "item": "minecraft:purple_stained_glass_pane"
+      "item": "minecraft:red_terracotta"
     }
   },
   "result": {

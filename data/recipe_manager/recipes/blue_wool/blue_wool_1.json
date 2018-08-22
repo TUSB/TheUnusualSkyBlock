@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:stone_axe"
+      "item": "minecraft:cut_red_sandstone"
     },
     {
-      "item": "minecraft:tnt_minecart"
+      "item": "minecraft:light_blue_glazed_terracotta"
     }
   ],
   "result": {

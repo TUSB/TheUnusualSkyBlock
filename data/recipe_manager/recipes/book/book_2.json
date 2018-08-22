@@ -2,16 +2,16 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_sapling"
+      "item": "minecraft:feather"
     },
     {
-      "item": "minecraft:dark_oak_planks"
+      "item": "minecraft:fern"
     },
     {
-      "item": "minecraft:oak_trapdoor"
+      "item": "minecraft:furnace"
     },
     {
-      "item": "minecraft:quartz"
+      "item": "minecraft:jungle_pressure_plate"
     }
   ],
   "result": {

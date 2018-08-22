@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:sign"
+      "item": "minecraft:coal_ore"
     },
     "#": {
-      "item": "minecraft:stripped_acacia_wood"
+      "item": "minecraft:pumpkin"
     }
   },
   "result": {

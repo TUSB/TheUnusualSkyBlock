@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:leather_helmet"
     },
     "B": {
-      "item": "minecraft:terracotta"
+      "item": "minecraft:paper"
     }
   },
   "result": {

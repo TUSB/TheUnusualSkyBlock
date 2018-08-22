@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:lingering_potion"
+      "item": "minecraft:quartz_pillar"
     },
     "#": {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:saddle"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:pink_banner"
+      "item": "minecraft:bucket"
     },
     "#": {
-      "item": "minecraft:tnt_minecart"
+      "item": "minecraft:orange_banner"
     }
   },
   "result": {

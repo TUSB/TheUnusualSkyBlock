@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brain_coral_block"
+      "item": "minecraft:brown_stained_glass"
     },
     {
-      "item": "minecraft:green_terracotta"
+      "item": "minecraft:diamond_shovel"
     },
     {
-      "item": "minecraft:lime_shulker_box"
+      "item": "minecraft:end_crystal"
     },
     {
-      "item": "minecraft:nether_wart"
+      "item": "minecraft:jungle_button"
     },
     {
-      "item": "minecraft:note_block"
+      "item": "minecraft:oxeye_daisy"
     },
     {
-      "item": "minecraft:red_mushroom"
+      "item": "minecraft:redstone_ore"
     },
     {
-      "item": "minecraft:terracotta"
+      "item": "minecraft:spruce_boat"
     },
     {
-      "item": "minecraft:wheat"
+      "item": "minecraft:spruce_pressure_plate"
     },
     {
-      "item": "minecraft:white_stained_glass"
+      "item": "minecraft:wooden_shovel"
     }
   ],
   "result": {

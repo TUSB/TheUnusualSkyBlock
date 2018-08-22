@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cobblestone_wall"
+      "item": "minecraft:brown_concrete_powder"
     },
     "W": {
-      "item": "minecraft:purple_bed"
+      "item": "minecraft:dark_oak_slab"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_shulker_box"
+      "item": "minecraft:bow"
     },
     "#": {
-      "item": "minecraft:golden_boots"
+      "item": "minecraft:pink_shulker_box"
     }
   },
   "result": {

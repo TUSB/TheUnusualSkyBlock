@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_shulker_box"
+      "item": "minecraft:bookshelf"
     },
     {
-      "item": "minecraft:dark_oak_boat"
+      "item": "minecraft:chorus_plant"
     },
     {
-      "item": "minecraft:ender_chest"
+      "item": "minecraft:dead_bubble_coral_fan"
     },
     {
-      "item": "minecraft:filled_map"
+      "item": "minecraft:diamond_horse_armor"
     },
     {
-      "item": "minecraft:golden_apple"
+      "item": "minecraft:heart_of_the_sea"
     },
     {
-      "item": "minecraft:magenta_bed"
+      "item": "minecraft:nether_bricks"
     },
     {
-      "item": "minecraft:red_banner"
+      "item": "minecraft:pink_terracotta"
     },
     {
-      "item": "minecraft:rose_red"
+      "item": "minecraft:purple_concrete_powder"
     },
     {
-      "item": "minecraft:shulker_box"
+      "item": "minecraft:vine"
     }
   ],
   "result": {

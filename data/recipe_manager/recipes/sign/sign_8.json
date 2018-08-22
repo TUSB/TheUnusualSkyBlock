@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:jukebox"
     },
     "X": {
-      "item": "minecraft:red_shulker_box"
+      "item": "minecraft:milk_bucket"
     }
   },
   "result": {

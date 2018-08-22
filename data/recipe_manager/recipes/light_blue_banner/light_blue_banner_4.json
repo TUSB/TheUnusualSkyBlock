@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_door"
+      "item": "minecraft:brown_bed"
     },
     "|": {
-      "item": "minecraft:nautilus_shell"
+      "item": "minecraft:glass"
     }
   },
   "result": {

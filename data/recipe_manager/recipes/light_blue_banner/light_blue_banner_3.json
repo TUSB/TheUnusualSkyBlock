@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cookie"
+      "item": "minecraft:nether_brick_stairs"
     },
     "|": {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:stripped_acacia_log"
     }
   },
   "result": {

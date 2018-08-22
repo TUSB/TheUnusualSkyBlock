@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:jungle_trapdoor"
+      "item": "minecraft:prismarine_shard"
     }
   ],
   "result": {

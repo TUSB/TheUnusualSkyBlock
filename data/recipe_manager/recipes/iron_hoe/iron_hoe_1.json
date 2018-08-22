@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cyan_concrete_powder"
+      "item": "minecraft:blue_shulker_box"
     },
     "#": {
-      "item": "minecraft:daylight_detector"
+      "item": "minecraft:potato"
     }
   },
   "result": {

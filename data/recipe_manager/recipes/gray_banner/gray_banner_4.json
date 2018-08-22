@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_boat"
+      "item": "minecraft:green_wool"
     },
     "|": {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:snow"
     }
   },
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:acacia_fence_gate"
+      "item": "minecraft:birch_trapdoor"
     },
     "E": {
-      "item": "minecraft:chainmail_boots"
+      "item": "minecraft:dried_kelp"
     },
     "T": {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:shield"
     }
   },
   "result": {

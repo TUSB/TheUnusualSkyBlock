@@ -7,10 +7,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:chiseled_red_sandstone"
+      "item": "minecraft:gray_bed"
     },
     "o": {
-      "item": "minecraft:oak_log"
+      "item": "minecraft:stripped_oak_log"
     }
   },
   "result": {

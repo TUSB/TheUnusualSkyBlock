@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:jungle_button"
     },
     "X": {
-      "item": "minecraft:rail"
+      "item": "minecraft:wooden_shovel"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cactus_green"
+      "item": "minecraft:black_carpet"
     },
     "#": {
-      "item": "minecraft:golden_hoe"
+      "item": "minecraft:smooth_quartz"
     }
   },
   "result": {

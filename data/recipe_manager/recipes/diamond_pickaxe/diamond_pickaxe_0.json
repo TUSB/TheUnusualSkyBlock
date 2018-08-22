@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:bubble_coral"
+      "item": "minecraft:blue_concrete_powder"
     },
     "#": {
-      "item": "minecraft:jungle_log"
+      "item": "minecraft:quartz_stairs"
     }
   },
   "result": {

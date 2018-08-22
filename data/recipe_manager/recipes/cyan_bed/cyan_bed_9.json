@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:end_rod"
+      "item": "minecraft:blue_glazed_terracotta"
     },
     "X": {
-      "item": "minecraft:farmland"
+      "item": "minecraft:snowball"
     }
   },
   "result": {

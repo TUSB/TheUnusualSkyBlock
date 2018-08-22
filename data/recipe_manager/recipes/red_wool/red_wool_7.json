@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:green_bed"
+      "item": "minecraft:dried_kelp"
     },
     {
-      "item": "minecraft:potion"
+      "item": "minecraft:granite"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:paper"
+      "item": "minecraft:diamond"
     },
     "#": {
-      "item": "minecraft:peony"
+      "item": "minecraft:red_glazed_terracotta"
     }
   },
   "result": {

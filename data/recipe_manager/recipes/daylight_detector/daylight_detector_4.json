@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:infested_mossy_stone_bricks"
     },
     "Q": {
-      "item": "minecraft:purple_wool"
+      "item": "minecraft:light_blue_banner"
     },
     "W": {
-      "item": "minecraft:stone_axe"
+      "item": "minecraft:sand"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_stained_glass_pane"
+      "item": "minecraft:egg"
     },
     "X": {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:spruce_trapdoor"
     }
   },
   "result": {

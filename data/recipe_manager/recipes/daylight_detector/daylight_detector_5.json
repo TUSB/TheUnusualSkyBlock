@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:dead_tube_coral_fan"
+      "item": "minecraft:enchanting_table"
     },
     "Q": {
-      "item": "minecraft:oak_planks"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     },
     "W": {
-      "item": "minecraft:shulker_shell"
+      "item": "minecraft:powered_rail"
     }
   },
   "result": {

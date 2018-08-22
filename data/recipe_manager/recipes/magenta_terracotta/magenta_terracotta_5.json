@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_glazed_terracotta"
+      "item": "minecraft:nether_brick"
     },
     "X": {
-      "item": "minecraft:diamond_horse_armor"
+      "item": "minecraft:rail"
     }
   },
   "result": {

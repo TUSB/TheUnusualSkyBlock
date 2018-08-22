@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:flint"
+      "item": "minecraft:purple_concrete"
     },
     "X": {
-      "item": "minecraft:jack_o_lantern"
+      "item": "minecraft:stone_pickaxe"
     }
   },
   "result": {

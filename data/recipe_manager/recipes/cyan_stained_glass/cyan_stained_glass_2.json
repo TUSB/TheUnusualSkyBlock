@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chainmail_chestplate"
+      "item": "minecraft:leather_helmet"
     },
     "X": {
-      "item": "minecraft:spruce_wood"
+      "item": "minecraft:wheat"
     }
   },
   "result": {

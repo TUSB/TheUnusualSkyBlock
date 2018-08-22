@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:golden_horse_armor"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     },
     "X": {
-      "item": "minecraft:spectral_arrow"
+      "item": "minecraft:jungle_button"
     }
   },
   "result": {

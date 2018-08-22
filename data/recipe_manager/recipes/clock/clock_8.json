@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cobblestone_stairs"
+      "item": "minecraft:gray_stained_glass_pane"
     },
     "X": {
-      "item": "minecraft:dark_oak_pressure_plate"
+      "item": "minecraft:purple_dye"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:melon"
+      "item": "minecraft:cobblestone"
     },
     "X": {
-      "item": "minecraft:mushroom_stew"
+      "item": "minecraft:dead_tube_coral_fan"
     }
   },
   "result": {

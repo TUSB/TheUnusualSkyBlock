@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:white_banner"
     },
     {
-      "item": "minecraft:golden_sword"
+      "item": "minecraft:wither_skeleton_skull"
     }
   ],
   "result": {

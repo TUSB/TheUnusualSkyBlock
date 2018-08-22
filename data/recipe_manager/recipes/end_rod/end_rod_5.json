@@ -6,10 +6,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:purple_concrete"
+      "item": "minecraft:daylight_detector"
     },
     "#": {
-      "item": "minecraft:red_nether_bricks"
+      "item": "minecraft:gold_ore"
     }
   },
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:azure_bluet"
     },
     "E": {
-      "item": "minecraft:jungle_wood"
+      "item": "minecraft:chainmail_chestplate"
     },
     "T": {
-      "item": "minecraft:note_block"
+      "item": "minecraft:shears"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:blue_banner"
     },
     {
-      "item": "minecraft:light_blue_glazed_terracotta"
+      "item": "minecraft:light_blue_wool"
     }
   ],
   "result": {

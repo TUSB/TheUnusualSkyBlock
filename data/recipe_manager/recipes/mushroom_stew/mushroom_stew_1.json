@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bubble_coral"
+      "item": "minecraft:grass_block"
     },
     {
-      "item": "minecraft:cake"
+      "item": "minecraft:nether_brick_slab"
     },
     {
-      "item": "minecraft:red_sandstone_slab"
+      "item": "minecraft:spruce_stairs"
     }
   ],
   "result": {

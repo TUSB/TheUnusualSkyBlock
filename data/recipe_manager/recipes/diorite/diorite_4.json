@@ -6,10 +6,10 @@
   ],
   "key": {
     "C": {
-      "item": "minecraft:book"
+      "item": "minecraft:chiseled_red_sandstone"
     },
     "Q": {
-      "item": "minecraft:stone_hoe"
+      "item": "minecraft:map"
     }
   },
   "result": {

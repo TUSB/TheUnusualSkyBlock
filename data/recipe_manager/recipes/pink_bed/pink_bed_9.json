@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:infested_mossy_stone_bricks"
+      "item": "minecraft:gray_bed"
     },
     "X": {
-      "item": "minecraft:jungle_sapling"
+      "item": "minecraft:rotten_flesh"
     }
   },
   "result": {

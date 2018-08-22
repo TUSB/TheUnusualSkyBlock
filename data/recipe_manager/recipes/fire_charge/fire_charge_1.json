@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_mushroom"
+      "item": "minecraft:comparator"
     },
     {
-      "item": "minecraft:light_blue_bed"
+      "item": "minecraft:purple_carpet"
     }
   ],
   "result": {

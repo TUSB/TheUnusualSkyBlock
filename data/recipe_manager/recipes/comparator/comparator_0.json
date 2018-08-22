@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_mushroom"
+      "item": "minecraft:golden_chestplate"
     },
     "X": {
-      "item": "minecraft:brown_shulker_box"
+      "item": "minecraft:lime_carpet"
     },
     "I": {
-      "item": "minecraft:stone_hoe"
+      "item": "minecraft:oak_log"
     }
   },
   "result": {

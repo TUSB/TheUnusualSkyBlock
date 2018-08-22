@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_bed"
+      "item": "minecraft:birch_door"
     },
     "X": {
-      "item": "minecraft:gravel"
+      "item": "minecraft:light_blue_stained_glass"
     }
   },
   "result": {

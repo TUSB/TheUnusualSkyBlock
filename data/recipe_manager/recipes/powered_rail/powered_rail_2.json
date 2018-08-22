@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond_sword"
+      "item": "minecraft:flint"
     },
     "#": {
-      "item": "minecraft:rabbit_hide"
+      "item": "minecraft:green_concrete"
     },
     "R": {
-      "item": "minecraft:tube_coral"
+      "item": "minecraft:oak_trapdoor"
     }
   },
   "result": {

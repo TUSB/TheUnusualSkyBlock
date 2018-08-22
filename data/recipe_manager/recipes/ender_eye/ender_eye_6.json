@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:rabbit_stew"
+      "item": "minecraft:spider_eye"
     },
     {
-      "item": "minecraft:shears"
+      "item": "minecraft:trident"
     }
   ],
   "result": {

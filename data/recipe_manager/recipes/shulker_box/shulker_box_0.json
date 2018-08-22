@@ -7,10 +7,10 @@
   ],
   "key": {
     "-": {
-      "item": "minecraft:dark_oak_trapdoor"
+      "item": "minecraft:dark_oak_fence"
     },
     "#": {
-      "item": "minecraft:stripped_jungle_wood"
+      "item": "minecraft:melon_slice"
     }
   },
   "result": {

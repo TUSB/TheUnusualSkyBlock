@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gold_block"
+      "item": "minecraft:gold_ore"
     },
     "|": {
-      "item": "minecraft:oak_log"
+      "item": "minecraft:purple_stained_glass_pane"
     }
   },
   "result": {

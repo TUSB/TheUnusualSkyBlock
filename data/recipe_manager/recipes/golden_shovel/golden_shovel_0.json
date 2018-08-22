@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cauldron"
+      "item": "minecraft:acacia_trapdoor"
     },
     "#": {
-      "item": "minecraft:observer"
+      "item": "minecraft:yellow_concrete"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brain_coral"
+      "item": "minecraft:birch_door"
     },
     {
-      "item": "minecraft:brown_terracotta"
+      "item": "minecraft:blaze_rod"
     },
     {
-      "item": "minecraft:diamond_ore"
+      "item": "minecraft:chipped_anvil"
     },
     {
-      "item": "minecraft:enchanted_book"
+      "item": "minecraft:large_fern"
     },
     {
-      "item": "minecraft:horn_coral"
+      "item": "minecraft:lime_wool"
     },
     {
-      "item": "minecraft:jungle_trapdoor"
+      "item": "minecraft:mycelium"
     },
     {
-      "item": "minecraft:lime_stained_glass"
+      "item": "minecraft:stripped_dark_oak_log"
     },
     {
-      "item": "minecraft:purple_bed"
+      "item": "minecraft:sugar"
     },
     {
-      "item": "minecraft:sea_lantern"
+      "item": "minecraft:wooden_sword"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_shulker_box"
+      "item": "minecraft:tipped_arrow"
     },
     "X": {
-      "item": "minecraft:quartz_stairs"
+      "item": "minecraft:writable_book"
     }
   },
   "result": {

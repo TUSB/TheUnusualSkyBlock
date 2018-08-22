@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:hopper"
+      "item": "minecraft:light_gray_bed"
     },
     {
-      "item": "minecraft:oak_door"
+      "item": "minecraft:rabbit_hide"
     }
   ],
   "result": {

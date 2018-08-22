@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_trapdoor"
+      "item": "minecraft:brain_coral_block"
     },
     "|": {
-      "item": "minecraft:brown_glazed_terracotta"
+      "item": "minecraft:dark_oak_button"
     }
   },
   "result": {

@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:rabbit_foot"
+      "item": "minecraft:rotten_flesh"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_terracotta"
+      "item": "minecraft:dispenser"
     },
     "W": {
-      "item": "minecraft:dark_oak_door"
+      "item": "minecraft:end_stone"
     }
   },
   "result": {

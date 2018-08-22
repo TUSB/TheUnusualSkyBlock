@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:spruce_slab"
+      "item": "minecraft:cobblestone_stairs"
     },
     "R": {
-      "item": "minecraft:tall_grass"
+      "item": "minecraft:fire_charge"
     }
   },
   "result": {

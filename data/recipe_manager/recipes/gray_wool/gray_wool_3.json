@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:ender_eye"
+      "item": "minecraft:spruce_planks"
     },
     {
-      "item": "minecraft:yellow_concrete"
+      "item": "minecraft:yellow_bed"
     }
   ],
   "result": {

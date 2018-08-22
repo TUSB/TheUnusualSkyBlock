@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:orange_stained_glass_pane"
+      "item": "minecraft:golden_shovel"
     },
     {
-      "item": "minecraft:red_bed"
+      "item": "minecraft:pumpkin"
     }
   ],
   "result": {

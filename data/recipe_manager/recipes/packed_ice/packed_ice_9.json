@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_wool"
+      "item": "minecraft:clay_ball"
     },
     {
-      "item": "minecraft:conduit"
+      "item": "minecraft:cyan_shulker_box"
     },
     {
-      "item": "minecraft:glass_bottle"
+      "item": "minecraft:dark_oak_slab"
     },
     {
-      "item": "minecraft:player_head"
+      "item": "minecraft:egg"
     },
     {
-      "item": "minecraft:rose_red"
+      "item": "minecraft:lime_stained_glass"
     },
     {
-      "item": "minecraft:slime_block"
+      "item": "minecraft:mushroom_stem"
     },
     {
-      "item": "minecraft:sunflower"
+      "item": "minecraft:prismarine_brick_slab"
     },
     {
-      "item": "minecraft:torch"
+      "item": "minecraft:red_concrete"
     },
     {
-      "item": "minecraft:trapped_chest"
+      "item": "minecraft:stripped_spruce_wood"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:birch_leaves"
+      "item": "minecraft:gold_ore"
     },
     "i": {
-      "item": "minecraft:yellow_wool"
+      "item": "minecraft:pumpkin"
     }
   },
   "result": {

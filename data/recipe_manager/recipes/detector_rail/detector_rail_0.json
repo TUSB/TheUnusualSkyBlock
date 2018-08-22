@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_glazed_terracotta"
+      "item": "minecraft:cobblestone_stairs"
     },
     "#": {
-      "item": "minecraft:magenta_concrete"
+      "item": "minecraft:jungle_log"
     },
     "R": {
-      "item": "minecraft:stone_bricks"
+      "item": "minecraft:orange_tulip"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_fence_gate"
+      "item": "minecraft:blue_concrete_powder"
     },
     {
-      "item": "minecraft:fern"
+      "item": "minecraft:gold_ore"
     }
   ],
   "result": {

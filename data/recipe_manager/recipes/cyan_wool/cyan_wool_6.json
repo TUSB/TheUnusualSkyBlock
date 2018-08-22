@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:green_stained_glass"
+      "item": "minecraft:dark_oak_wood"
     },
     {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:white_tulip"
     }
   ],
   "result": {

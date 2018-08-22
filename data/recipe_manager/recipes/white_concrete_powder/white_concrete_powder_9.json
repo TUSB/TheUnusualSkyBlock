@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_concrete_powder"
+      "item": "minecraft:birch_stairs"
     },
     {
-      "item": "minecraft:bone_meal"
+      "item": "minecraft:black_terracotta"
     },
     {
-      "item": "minecraft:cooked_rabbit"
+      "item": "minecraft:brick"
     },
     {
-      "item": "minecraft:enchanted_book"
+      "item": "minecraft:glistering_melon_slice"
     },
     {
-      "item": "minecraft:end_crystal"
+      "item": "minecraft:horn_coral_block"
     },
     {
-      "item": "minecraft:jungle_wood"
+      "item": "minecraft:leather_helmet"
     },
     {
-      "item": "minecraft:light_blue_concrete"
+      "item": "minecraft:magenta_shulker_box"
     },
     {
-      "item": "minecraft:purple_concrete"
+      "item": "minecraft:obsidian"
     },
     {
-      "item": "minecraft:yellow_shulker_box"
+      "item": "minecraft:stripped_birch_log"
     }
   ],
   "result": {

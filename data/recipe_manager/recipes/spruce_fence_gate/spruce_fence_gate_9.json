@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chest_minecart"
+      "item": "minecraft:acacia_slab"
     },
     "W": {
-      "item": "minecraft:lapis_ore"
+      "item": "minecraft:compass"
     }
   },
   "result": {

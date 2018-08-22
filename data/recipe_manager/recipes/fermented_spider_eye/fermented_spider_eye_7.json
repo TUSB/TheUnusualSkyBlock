@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:purple_bed"
+      "item": "minecraft:glistering_melon_slice"
     },
     {
-      "item": "minecraft:shears"
+      "item": "minecraft:pink_wool"
     },
     {
-      "item": "minecraft:stone_brick_stairs"
+      "item": "minecraft:poppy"
     }
   ],
   "result": {

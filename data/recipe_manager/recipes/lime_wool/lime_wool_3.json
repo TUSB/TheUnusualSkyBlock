@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:flower_pot"
+      "item": "minecraft:acacia_log"
     },
     {
-      "item": "minecraft:heart_of_the_sea"
+      "item": "minecraft:light_blue_terracotta"
     }
   ],
   "result": {

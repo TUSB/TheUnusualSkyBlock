@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:green_carpet"
+      "item": "minecraft:golden_horse_armor"
     },
     {
-      "item": "minecraft:salmon"
+      "item": "minecraft:pumpkin"
     }
   ],
   "result": {

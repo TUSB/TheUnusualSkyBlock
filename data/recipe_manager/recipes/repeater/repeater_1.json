@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_helmet"
+      "item": "minecraft:detector_rail"
     },
     "X": {
-      "item": "minecraft:grass_block"
+      "item": "minecraft:red_sand"
     },
     "I": {
-      "item": "minecraft:sandstone_stairs"
+      "item": "minecraft:yellow_concrete_powder"
     }
   },
   "result": {

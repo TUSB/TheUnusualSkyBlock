@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:shulker_box"
+      "item": "minecraft:clock"
     },
     "X": {
-      "item": "minecraft:spruce_fence"
+      "item": "minecraft:iron_shovel"
     }
   },
   "result": {

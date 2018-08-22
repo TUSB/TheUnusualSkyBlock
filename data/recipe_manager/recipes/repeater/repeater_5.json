@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_leaves"
+      "item": "minecraft:emerald"
     },
     "X": {
-      "item": "minecraft:gray_wool"
+      "item": "minecraft:emerald_block"
     },
     "I": {
-      "item": "minecraft:jungle_fence"
+      "item": "minecraft:light_blue_concrete_powder"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_ore"
+      "item": "minecraft:birch_trapdoor"
     },
     "X": {
-      "item": "minecraft:gray_concrete_powder"
+      "item": "minecraft:furnace_minecart"
     }
   },
   "result": {

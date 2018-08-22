@@ -6,10 +6,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:comparator"
+      "item": "minecraft:blue_terracotta"
     },
     "P": {
-      "item": "minecraft:golden_carrot"
+      "item": "minecraft:redstone_lamp"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:anvil"
+      "item": "minecraft:glass_pane"
     },
     "X": {
-      "item": "minecraft:sugar"
+      "item": "minecraft:quartz_block"
     }
   },
   "result": {

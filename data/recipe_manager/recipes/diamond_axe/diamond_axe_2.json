@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:ice"
+      "item": "minecraft:chainmail_chestplate"
     },
     "#": {
-      "item": "minecraft:stripped_acacia_log"
+      "item": "minecraft:emerald"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:baked_potato"
+      "item": "minecraft:armor_stand"
     },
     "|": {
-      "item": "minecraft:golden_shovel"
+      "item": "minecraft:magenta_wool"
     }
   },
   "result": {

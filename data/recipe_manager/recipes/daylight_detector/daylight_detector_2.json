@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:brown_terracotta"
+      "item": "minecraft:chiseled_quartz_block"
     },
     "Q": {
-      "item": "minecraft:golden_horse_armor"
+      "item": "minecraft:oak_door"
     },
     "W": {
-      "item": "minecraft:magenta_carpet"
+      "item": "minecraft:slime_ball"
     }
   },
   "result": {

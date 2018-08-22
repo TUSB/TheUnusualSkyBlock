@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:furnace"
     },
     "X": {
-      "item": "minecraft:purple_carpet"
+      "item": "minecraft:light_gray_dye"
     }
   },
   "result": {

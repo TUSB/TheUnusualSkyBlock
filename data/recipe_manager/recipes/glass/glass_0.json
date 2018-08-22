@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dead_tube_coral_fan"
+      "item": "minecraft:diamond_block"
     }
   ],
   "result": {

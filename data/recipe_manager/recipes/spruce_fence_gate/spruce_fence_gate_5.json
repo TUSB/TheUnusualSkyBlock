@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lead"
+      "item": "minecraft:green_glazed_terracotta"
     },
     "W": {
-      "item": "minecraft:pink_shulker_box"
+      "item": "minecraft:spruce_fence_gate"
     }
   },
   "result": {

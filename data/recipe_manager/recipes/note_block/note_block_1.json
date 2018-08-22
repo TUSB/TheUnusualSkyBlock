@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_stained_glass_pane"
+      "item": "minecraft:birch_button"
     },
     "X": {
-      "item": "minecraft:gold_ore"
+      "item": "minecraft:stone"
     }
   },
   "result": {

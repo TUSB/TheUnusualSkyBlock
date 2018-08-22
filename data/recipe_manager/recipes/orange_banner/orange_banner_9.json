@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dead_bubble_coral_fan"
+      "item": "minecraft:lapis_ore"
     },
     "|": {
-      "item": "minecraft:purple_glazed_terracotta"
+      "item": "minecraft:torch"
     }
   },
   "result": {

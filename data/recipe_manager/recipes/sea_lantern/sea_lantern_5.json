@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:golden_pickaxe"
+      "item": "minecraft:cod"
     },
     "C": {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:gold_ingot"
     }
   },
   "result": {

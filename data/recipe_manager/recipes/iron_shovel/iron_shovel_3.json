@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cobblestone_slab"
+      "item": "minecraft:armor_stand"
     },
     "#": {
-      "item": "minecraft:cracked_stone_bricks"
+      "item": "minecraft:iron_bars"
     }
   },
   "result": {

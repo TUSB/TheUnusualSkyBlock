@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cactus_green"
+      "item": "minecraft:blue_banner"
     },
     {
-      "item": "minecraft:oak_boat"
+      "item": "minecraft:glistering_melon_slice"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:mossy_cobblestone"
+      "item": "minecraft:pink_glazed_terracotta"
     },
     "X": {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "item": "minecraft:sign"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brain_coral_block"
+      "item": "minecraft:black_stained_glass_pane"
     },
     {
-      "item": "minecraft:magenta_concrete_powder"
+      "item": "minecraft:brown_mushroom"
     },
     {
-      "item": "minecraft:orange_bed"
+      "item": "minecraft:cooked_chicken"
     },
     {
-      "item": "minecraft:pink_stained_glass_pane"
+      "item": "minecraft:diamond_helmet"
     },
     {
-      "item": "minecraft:purpur_pillar"
+      "item": "minecraft:emerald"
     },
     {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:gray_dye"
     },
     {
-      "item": "minecraft:spruce_fence_gate"
+      "item": "minecraft:pumpkin_pie"
     },
     {
-      "item": "minecraft:wooden_hoe"
+      "item": "minecraft:purple_stained_glass"
     },
     {
-      "item": "minecraft:yellow_concrete"
+      "item": "minecraft:stripped_oak_wood"
     }
   ],
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_leaves"
+      "item": "minecraft:chiseled_sandstone"
     },
     "X": {
-      "item": "minecraft:diamond_pickaxe"
+      "item": "minecraft:stripped_dark_oak_log"
     },
     "R": {
-      "item": "minecraft:quartz_slab"
+      "item": "minecraft:tube_coral_fan"
     }
   },
   "result": {

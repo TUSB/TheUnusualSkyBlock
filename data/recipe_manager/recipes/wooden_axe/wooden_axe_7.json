@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:end_stone_bricks"
+      "item": "minecraft:orange_terracotta"
     },
     "#": {
-      "item": "minecraft:stick"
+      "item": "minecraft:sign"
     }
   },
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:birch_log"
     },
     "X": {
-      "item": "minecraft:farmland"
+      "item": "minecraft:light_gray_wool"
     },
     "I": {
-      "item": "minecraft:magenta_stained_glass"
+      "item": "minecraft:podzol"
     }
   },
   "result": {

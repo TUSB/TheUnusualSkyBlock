@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_stained_glass"
+      "item": "minecraft:diamond_pickaxe"
     },
     "X": {
-      "item": "minecraft:map"
+      "item": "minecraft:gray_shulker_box"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:green_wool"
+      "item": "minecraft:comparator"
     },
     {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:light_blue_dye"
     }
   ],
   "result": {

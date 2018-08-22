@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brick_slab"
+      "item": "minecraft:mycelium"
     },
     "E": {
-      "item": "minecraft:light_blue_wool"
+      "item": "minecraft:yellow_wool"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:beef"
+      "item": "minecraft:green_stained_glass"
     },
     "#": {
-      "item": "minecraft:red_stained_glass_pane"
+      "item": "minecraft:oak_fence_gate"
     }
   },
   "result": {

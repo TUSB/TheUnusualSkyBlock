@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:red_mushroom_block"
     },
     "#": {
-      "item": "minecraft:packed_ice"
+      "item": "minecraft:tnt"
     }
   },
   "result": {

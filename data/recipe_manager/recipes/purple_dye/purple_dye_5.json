@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:oak_log"
+      "item": "minecraft:tropical_fish_bucket"
     },
     {
-      "item": "minecraft:wheat"
+      "item": "minecraft:tube_coral"
     }
   ],
   "result": {

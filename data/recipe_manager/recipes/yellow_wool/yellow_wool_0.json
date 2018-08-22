@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:purple_stained_glass"
+      "item": "minecraft:ender_pearl"
     },
     {
-      "item": "minecraft:sign"
+      "item": "minecraft:pink_concrete_powder"
     }
   ],
   "result": {

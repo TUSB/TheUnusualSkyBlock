@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_pressure_plate"
+      "item": "minecraft:light_blue_terracotta"
     },
     "X": {
-      "item": "minecraft:stone_brick_slab"
+      "item": "minecraft:prismarine_slab"
     }
   },
   "result": {

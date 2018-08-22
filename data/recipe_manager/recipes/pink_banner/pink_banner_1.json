@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_shovel"
+      "item": "minecraft:cyan_stained_glass_pane"
     },
     "|": {
-      "item": "minecraft:white_terracotta"
+      "item": "minecraft:spawner"
     }
   },
   "result": {

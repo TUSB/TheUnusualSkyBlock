@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gold_nugget"
+      "item": "minecraft:bone_meal"
     },
     "|": {
-      "item": "minecraft:light_blue_glazed_terracotta"
+      "item": "minecraft:painting"
     }
   },
   "result": {

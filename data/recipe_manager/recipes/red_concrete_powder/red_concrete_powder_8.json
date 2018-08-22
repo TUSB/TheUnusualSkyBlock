@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bone_block"
+      "item": "minecraft:brown_carpet"
     },
     {
-      "item": "minecraft:dried_kelp_block"
+      "item": "minecraft:brown_wool"
     },
     {
-      "item": "minecraft:infested_cobblestone"
+      "item": "minecraft:chainmail_chestplate"
     },
     {
-      "item": "minecraft:nether_brick_slab"
+      "item": "minecraft:cyan_bed"
     },
     {
-      "item": "minecraft:orange_stained_glass"
+      "item": "minecraft:furnace_minecart"
     },
     {
-      "item": "minecraft:pink_terracotta"
+      "item": "minecraft:iron_nugget"
     },
     {
-      "item": "minecraft:rose_red"
+      "item": "minecraft:iron_pickaxe"
     },
     {
-      "item": "minecraft:tube_coral_fan"
+      "item": "minecraft:jungle_sapling"
     },
     {
-      "item": "minecraft:yellow_wool"
+      "item": "minecraft:wheat"
     }
   ],
   "result": {

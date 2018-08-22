@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_chestplate"
+      "item": "minecraft:chainmail_helmet"
     },
     "R": {
-      "item": "minecraft:shears"
+      "item": "minecraft:nether_wart"
     },
     "Q": {
-      "item": "minecraft:white_wool"
+      "item": "minecraft:orange_terracotta"
     }
   },
   "result": {

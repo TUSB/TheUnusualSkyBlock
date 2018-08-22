@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diamond_leggings"
+      "item": "minecraft:chiseled_sandstone"
     },
     {
-      "item": "minecraft:enchanted_book"
+      "item": "minecraft:dark_oak_boat"
     },
     {
-      "item": "minecraft:glass_bottle"
+      "item": "minecraft:orange_concrete_powder"
     },
     {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:pink_shulker_box"
     },
     {
-      "item": "minecraft:kelp"
+      "item": "minecraft:skeleton_skull"
     },
     {
-      "item": "minecraft:magma_cream"
+      "item": "minecraft:tipped_arrow"
     },
     {
-      "item": "minecraft:nether_brick_slab"
+      "item": "minecraft:tnt_minecart"
     },
     {
-      "item": "minecraft:pink_wool"
+      "item": "minecraft:tropical_fish"
     },
     {
-      "item": "minecraft:prismarine_brick_slab"
+      "item": "minecraft:white_stained_glass"
     }
   ],
   "result": {

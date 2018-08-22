@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:infested_mossy_stone_bricks"
+      "item": "minecraft:apple"
     },
     "#": {
-      "item": "minecraft:red_mushroom_block"
+      "item": "minecraft:polished_diorite"
     }
   },
   "result": {

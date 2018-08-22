@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_prismarine_slab"
+      "item": "minecraft:activator_rail"
     },
     "X": {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:heart_of_the_sea"
     }
   },
   "result": {

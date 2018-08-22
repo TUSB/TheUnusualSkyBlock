@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cut_sandstone"
+      "item": "minecraft:dead_bubble_coral_block"
     },
     "X": {
-      "item": "minecraft:white_wool"
+      "item": "minecraft:turtle_egg"
     }
   },
   "result": {

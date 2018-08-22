@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:azure_bluet"
+      "item": "minecraft:golden_boots"
     },
     {
-      "item": "minecraft:cyan_shulker_box"
+      "item": "minecraft:green_terracotta"
     },
     {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:light_weighted_pressure_plate"
     },
     {
-      "item": "minecraft:granite"
+      "item": "minecraft:magenta_terracotta"
     },
     {
-      "item": "minecraft:green_banner"
+      "item": "minecraft:orange_dye"
     },
     {
-      "item": "minecraft:nether_brick"
+      "item": "minecraft:stone_hoe"
     },
     {
-      "item": "minecraft:orange_stained_glass"
+      "item": "minecraft:white_concrete_powder"
     },
     {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:written_book"
     },
     {
-      "item": "minecraft:trapped_chest"
+      "item": "minecraft:yellow_glazed_terracotta"
     }
   ],
   "result": {

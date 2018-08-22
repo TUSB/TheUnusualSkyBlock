@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blaze_rod"
+      "item": "minecraft:black_banner"
     },
     {
-      "item": "minecraft:bucket"
+      "item": "minecraft:bowl"
     },
     {
-      "item": "minecraft:clock"
+      "item": "minecraft:dark_oak_pressure_plate"
     },
     {
-      "item": "minecraft:cocoa_beans"
+      "item": "minecraft:iron_horse_armor"
     },
     {
-      "item": "minecraft:cooked_beef"
+      "item": "minecraft:jungle_boat"
     },
     {
-      "item": "minecraft:cyan_stained_glass"
+      "item": "minecraft:jungle_leaves"
     },
     {
-      "item": "minecraft:large_fern"
+      "item": "minecraft:light_blue_stained_glass"
     },
     {
-      "item": "minecraft:purple_carpet"
+      "item": "minecraft:orange_wool"
     },
     {
-      "item": "minecraft:splash_potion"
+      "item": "minecraft:wet_sponge"
     }
   ],
   "result": {

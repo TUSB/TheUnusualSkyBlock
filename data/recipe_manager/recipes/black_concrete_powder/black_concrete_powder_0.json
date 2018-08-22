@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_fence_gate"
+      "item": "minecraft:bricks"
     },
     {
-      "item": "minecraft:blue_stained_glass_pane"
+      "item": "minecraft:crafting_table"
     },
     {
-      "item": "minecraft:brown_glazed_terracotta"
+      "item": "minecraft:cut_sandstone"
     },
     {
-      "item": "minecraft:green_banner"
+      "item": "minecraft:dead_horn_coral_block"
     },
     {
-      "item": "minecraft:lime_banner"
+      "item": "minecraft:enchanting_table"
     },
     {
-      "item": "minecraft:orange_banner"
+      "item": "minecraft:golden_helmet"
     },
     {
-      "item": "minecraft:orange_bed"
+      "item": "minecraft:magma_block"
     },
     {
-      "item": "minecraft:tripwire_hook"
+      "item": "minecraft:prismarine_slab"
     },
     {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:purple_terracotta"
     }
   ],
   "result": {

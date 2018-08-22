@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:leather_leggings"
+      "item": "minecraft:glass_bottle"
     },
     "#": {
-      "item": "minecraft:light_gray_wool"
+      "item": "minecraft:orange_terracotta"
     }
   },
   "result": {

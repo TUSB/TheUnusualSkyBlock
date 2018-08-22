@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:mycelium"
+      "item": "minecraft:glistering_melon_slice"
     },
     "#": {
-      "item": "minecraft:stripped_jungle_log"
+      "item": "minecraft:polished_andesite"
     }
   },
   "result": {

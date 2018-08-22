@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:compass"
+      "item": "minecraft:golden_carrot"
     }
   ],
   "result": {

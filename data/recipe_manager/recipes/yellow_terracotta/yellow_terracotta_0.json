@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_fence"
+      "item": "minecraft:chest"
     },
     "X": {
-      "item": "minecraft:fire_coral"
+      "item": "minecraft:orange_glazed_terracotta"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:blue_shulker_box"
     },
     "#": {
-      "item": "minecraft:painting"
+      "item": "minecraft:lime_dye"
     }
   },
   "result": {

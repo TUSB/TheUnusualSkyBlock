@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:glistering_melon_slice"
+      "item": "minecraft:detector_rail"
     },
     "X": {
-      "item": "minecraft:vine"
+      "item": "minecraft:red_concrete_powder"
     }
   },
   "result": {

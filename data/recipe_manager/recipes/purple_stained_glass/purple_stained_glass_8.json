@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:spruce_slab"
+      "item": "minecraft:cyan_shulker_box"
     },
     "X": {
-      "item": "minecraft:spruce_stairs"
+      "item": "minecraft:emerald"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:book"
+      "item": "minecraft:chainmail_leggings"
     },
     "#": {
-      "item": "minecraft:sticky_piston"
+      "item": "minecraft:lava_bucket"
     }
   },
   "result": {

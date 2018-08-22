@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_leaves"
+      "item": "minecraft:brain_coral_block"
     },
     {
-      "item": "minecraft:acacia_log"
+      "item": "minecraft:brown_mushroom"
     },
     {
-      "item": "minecraft:acacia_stairs"
+      "item": "minecraft:brown_stained_glass"
     },
     {
-      "item": "minecraft:black_carpet"
+      "item": "minecraft:ender_pearl"
     },
     {
-      "item": "minecraft:golden_horse_armor"
+      "item": "minecraft:light_blue_banner"
     },
     {
-      "item": "minecraft:light_blue_concrete"
+      "item": "minecraft:light_blue_concrete_powder"
     },
     {
-      "item": "minecraft:nether_brick_slab"
+      "item": "minecraft:poppy"
     },
     {
-      "item": "minecraft:pufferfish_bucket"
+      "item": "minecraft:red_glazed_terracotta"
     },
     {
-      "item": "minecraft:shulker_box"
+      "item": "minecraft:red_sandstone_slab"
     }
   ],
   "result": {

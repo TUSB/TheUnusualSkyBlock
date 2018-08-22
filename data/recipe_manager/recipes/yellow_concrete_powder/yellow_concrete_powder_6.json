@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cactus"
+      "item": "minecraft:acacia_fence"
     },
     {
-      "item": "minecraft:cyan_dye"
+      "item": "minecraft:beetroot"
     },
     {
-      "item": "minecraft:fire_coral_block"
+      "item": "minecraft:blaze_rod"
     },
     {
-      "item": "minecraft:horn_coral_fan"
+      "item": "minecraft:brown_banner"
     },
     {
-      "item": "minecraft:oak_button"
+      "item": "minecraft:gold_ore"
     },
     {
-      "item": "minecraft:oak_planks"
+      "item": "minecraft:green_stained_glass_pane"
     },
     {
-      "item": "minecraft:rabbit"
+      "item": "minecraft:jungle_log"
     },
     {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:spruce_stairs"
     },
     {
-      "item": "minecraft:stone_pressure_plate"
+      "item": "minecraft:stripped_birch_wood"
     }
   ],
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:comparator"
+      "item": "minecraft:pink_bed"
     },
     {
-      "item": "minecraft:oak_planks"
+      "item": "minecraft:snowball"
     }
   ],
   "result": {

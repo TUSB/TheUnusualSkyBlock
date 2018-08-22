@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:infested_stone"
+      "item": "minecraft:gravel"
     },
     {
-      "item": "minecraft:jungle_button"
+      "item": "minecraft:stone_brick_slab"
     }
   ],
   "result": {

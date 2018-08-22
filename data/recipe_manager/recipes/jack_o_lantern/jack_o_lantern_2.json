@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:bowl"
+      "item": "minecraft:acacia_pressure_plate"
     },
     "B": {
-      "item": "minecraft:brain_coral_fan"
+      "item": "minecraft:purple_shulker_box"
     }
   },
   "result": {

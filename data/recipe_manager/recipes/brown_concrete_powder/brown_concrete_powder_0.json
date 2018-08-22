@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_leaves"
+      "item": "minecraft:brown_shulker_box"
     },
     {
-      "item": "minecraft:black_carpet"
+      "item": "minecraft:chiseled_stone_bricks"
     },
     {
-      "item": "minecraft:cobblestone_wall"
+      "item": "minecraft:dead_bubble_coral_block"
     },
     {
-      "item": "minecraft:golden_boots"
+      "item": "minecraft:end_rod"
     },
     {
-      "item": "minecraft:gray_concrete"
+      "item": "minecraft:grass"
     },
     {
-      "item": "minecraft:horn_coral_block"
+      "item": "minecraft:lapis_block"
     },
     {
-      "item": "minecraft:magenta_terracotta"
+      "item": "minecraft:lime_shulker_box"
     },
     {
-      "item": "minecraft:red_mushroom"
+      "item": "minecraft:spruce_boat"
     },
     {
-      "item": "minecraft:stripped_oak_wood"
+      "item": "minecraft:torch"
     }
   ],
   "result": {

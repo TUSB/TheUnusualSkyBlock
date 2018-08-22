@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_concrete"
+      "item": "minecraft:golden_apple"
     },
     {
-      "item": "minecraft:gray_bed"
+      "item": "minecraft:mycelium"
     }
   ],
   "result": {

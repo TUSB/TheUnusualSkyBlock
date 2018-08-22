@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:black_concrete"
     },
     "X": {
-      "item": "minecraft:stone_shovel"
+      "item": "minecraft:dark_oak_trapdoor"
     }
   },
   "result": {

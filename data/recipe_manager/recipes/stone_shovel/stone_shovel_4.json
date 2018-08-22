@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_bed"
+      "item": "minecraft:iron_door"
     },
     "#": {
-      "item": "minecraft:diamond_helmet"
+      "item": "minecraft:rabbit_foot"
     }
   },
   "result": {

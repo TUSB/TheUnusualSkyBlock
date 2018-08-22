@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_glazed_terracotta"
+      "item": "minecraft:detector_rail"
     },
     "X": {
-      "item": "minecraft:orange_concrete"
+      "item": "minecraft:lime_stained_glass"
     }
   },
   "result": {

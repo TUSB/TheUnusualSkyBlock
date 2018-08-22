@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_boat"
+      "item": "minecraft:magenta_stained_glass"
     },
     "X": {
-      "item": "minecraft:orange_carpet"
+      "item": "minecraft:nether_brick_slab"
     },
     "I": {
-      "item": "minecraft:snow_block"
+      "item": "minecraft:sandstone"
     }
   },
   "result": {

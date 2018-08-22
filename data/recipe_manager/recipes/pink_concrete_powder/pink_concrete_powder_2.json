@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chest_minecart"
+      "item": "minecraft:dandelion_yellow"
     },
     {
-      "item": "minecraft:cobblestone_stairs"
+      "item": "minecraft:diamond_block"
     },
     {
-      "item": "minecraft:cracked_stone_bricks"
+      "item": "minecraft:green_stained_glass_pane"
     },
     {
-      "item": "minecraft:diamond_axe"
+      "item": "minecraft:iron_block"
     },
     {
-      "item": "minecraft:jungle_wood"
+      "item": "minecraft:light_blue_bed"
     },
     {
-      "item": "minecraft:light_gray_terracotta"
+      "item": "minecraft:orange_concrete_powder"
     },
     {
-      "item": "minecraft:magenta_shulker_box"
+      "item": "minecraft:red_sand"
     },
     {
-      "item": "minecraft:red_concrete"
+      "item": "minecraft:red_stained_glass_pane"
     },
     {
-      "item": "minecraft:yellow_wool"
+      "item": "minecraft:spruce_planks"
     }
   ],
   "result": {

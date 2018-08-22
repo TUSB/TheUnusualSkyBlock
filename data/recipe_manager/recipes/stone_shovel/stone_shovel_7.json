@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brewing_stand"
+      "item": "minecraft:purple_bed"
     },
     "#": {
-      "item": "minecraft:dried_kelp_block"
+      "item": "minecraft:smooth_sandstone"
     }
   },
   "result": {

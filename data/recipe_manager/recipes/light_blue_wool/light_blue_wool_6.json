@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:pink_concrete"
+      "item": "minecraft:brown_mushroom"
     },
     {
-      "item": "minecraft:prismarine_slab"
+      "item": "minecraft:sign"
     }
   ],
   "result": {

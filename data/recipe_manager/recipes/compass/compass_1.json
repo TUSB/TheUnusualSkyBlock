@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_shulker_box"
+      "item": "minecraft:cyan_concrete"
     },
     "X": {
-      "item": "minecraft:ice"
+      "item": "minecraft:dark_prismarine_stairs"
     }
   },
   "result": {

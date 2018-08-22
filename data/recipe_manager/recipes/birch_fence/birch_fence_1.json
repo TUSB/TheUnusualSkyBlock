@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:cooked_mutton"
+      "item": "minecraft:infested_stone_bricks"
     },
     "#": {
-      "item": "minecraft:light_blue_bed"
+      "item": "minecraft:light_blue_concrete_powder"
     }
   },
   "result": {

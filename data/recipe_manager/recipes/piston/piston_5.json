@@ -7,16 +7,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:dark_oak_button"
+      "item": "minecraft:dead_bubble_coral_fan"
     },
     "#": {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:peony"
     },
     "X": {
-      "item": "minecraft:sandstone_stairs"
+      "item": "minecraft:pink_dye"
     },
     "R": {
-      "item": "minecraft:white_banner"
+      "item": "minecraft:redstone_lamp"
     }
   },
   "result": {

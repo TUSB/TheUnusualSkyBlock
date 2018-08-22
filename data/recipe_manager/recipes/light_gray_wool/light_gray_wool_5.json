@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:gravel"
+      "item": "minecraft:chiseled_stone_bricks"
     },
     {
-      "item": "minecraft:white_tulip"
+      "item": "minecraft:magenta_stained_glass_pane"
     }
   ],
   "result": {

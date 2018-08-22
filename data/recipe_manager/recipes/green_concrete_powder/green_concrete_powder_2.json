@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_leaves"
+      "item": "minecraft:beetroot"
     },
     {
-      "item": "minecraft:cyan_glazed_terracotta"
+      "item": "minecraft:damaged_anvil"
     },
     {
-      "item": "minecraft:diamond"
+      "item": "minecraft:golden_leggings"
     },
     {
-      "item": "minecraft:dragon_head"
+      "item": "minecraft:lava_bucket"
     },
     {
-      "item": "minecraft:lime_terracotta"
+      "item": "minecraft:magenta_shulker_box"
     },
     {
-      "item": "minecraft:mushroom_stem"
+      "item": "minecraft:piston"
     },
     {
-      "item": "minecraft:orange_bed"
+      "item": "minecraft:stone_slab"
     },
     {
-      "item": "minecraft:red_banner"
+      "item": "minecraft:yellow_concrete"
     },
     {
-      "item": "minecraft:snowball"
+      "item": "minecraft:yellow_shulker_box"
     }
   ],
   "result": {

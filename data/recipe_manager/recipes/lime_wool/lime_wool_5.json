@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:shield"
+      "item": "minecraft:emerald"
     },
     {
-      "item": "minecraft:stripped_acacia_wood"
+      "item": "minecraft:iron_axe"
     }
   ],
   "result": {

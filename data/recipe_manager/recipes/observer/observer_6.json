@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:arrow"
+      "item": "minecraft:iron_ore"
     },
     "R": {
-      "item": "minecraft:orange_terracotta"
+      "item": "minecraft:purple_carpet"
     },
     "Q": {
-      "item": "minecraft:pumpkin"
+      "item": "minecraft:spruce_leaves"
     }
   },
   "result": {

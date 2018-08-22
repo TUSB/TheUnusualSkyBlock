@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:birch_sapling"
+      "item": "minecraft:horn_coral_fan"
     },
     "#": {
-      "item": "minecraft:dark_oak_planks"
+      "item": "minecraft:spruce_planks"
     }
   },
   "result": {

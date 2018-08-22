@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:apple"
+      "item": "minecraft:grass"
     },
     "X": {
-      "item": "minecraft:dark_prismarine_stairs"
+      "item": "minecraft:writable_book"
     }
   },
   "result": {

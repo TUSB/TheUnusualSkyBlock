@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dead_fire_coral_fan"
+      "item": "minecraft:dead_tube_coral_fan"
     },
     "X": {
-      "item": "minecraft:sandstone"
+      "item": "minecraft:grass_path"
     }
   },
   "result": {

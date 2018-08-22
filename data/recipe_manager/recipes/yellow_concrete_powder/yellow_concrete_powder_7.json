@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cooked_chicken"
+      "item": "minecraft:acacia_log"
     },
     {
-      "item": "minecraft:damaged_anvil"
+      "item": "minecraft:brown_stained_glass"
     },
     {
-      "item": "minecraft:enchanted_book"
+      "item": "minecraft:brown_stained_glass_pane"
     },
     {
-      "item": "minecraft:pink_glazed_terracotta"
+      "item": "minecraft:dandelion"
     },
     {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:emerald_ore"
     },
     {
-      "item": "minecraft:salmon_bucket"
+      "item": "minecraft:glowstone_dust"
     },
     {
-      "item": "minecraft:smooth_red_sandstone"
+      "item": "minecraft:iron_helmet"
     },
     {
-      "item": "minecraft:spruce_door"
+      "item": "minecraft:light_gray_stained_glass_pane"
     },
     {
-      "item": "minecraft:sugar"
+      "item": "minecraft:spruce_trapdoor"
     }
   ],
   "result": {

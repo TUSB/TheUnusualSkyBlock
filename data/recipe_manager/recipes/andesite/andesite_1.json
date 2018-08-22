@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:light_gray_glazed_terracotta"
+      "item": "minecraft:quartz_block"
     },
     {
-      "item": "minecraft:mossy_stone_bricks"
+      "item": "minecraft:spruce_boat"
     }
   ],
   "result": {

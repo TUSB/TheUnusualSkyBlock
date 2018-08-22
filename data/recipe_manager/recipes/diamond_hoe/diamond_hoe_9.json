@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_wood"
+      "item": "minecraft:purpur_slab"
     },
     "#": {
-      "item": "minecraft:lime_shulker_box"
+      "item": "minecraft:stone_button"
     }
   },
   "result": {

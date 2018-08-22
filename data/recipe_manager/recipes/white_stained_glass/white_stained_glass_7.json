@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lapis_block"
+      "item": "minecraft:iron_hoe"
     },
     "X": {
-      "item": "minecraft:sea_lantern"
+      "item": "minecraft:lime_concrete"
     }
   },
   "result": {

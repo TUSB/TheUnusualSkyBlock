@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:magenta_dye"
+      "item": "minecraft:stripped_spruce_log"
     }
   ],
   "result": {

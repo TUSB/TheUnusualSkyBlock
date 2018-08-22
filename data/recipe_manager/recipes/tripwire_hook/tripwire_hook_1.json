@@ -7,13 +7,13 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:chorus_plant"
+      "item": "minecraft:clay_ball"
     },
     "S": {
-      "item": "minecraft:sea_lantern"
+      "item": "minecraft:green_stained_glass"
     },
     "#": {
-      "item": "minecraft:white_stained_glass"
+      "item": "minecraft:iron_hoe"
     }
   },
   "result": {

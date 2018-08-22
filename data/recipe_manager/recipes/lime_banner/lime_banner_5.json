@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_pressure_plate"
+      "item": "minecraft:light_gray_stained_glass_pane"
     },
     "|": {
-      "item": "minecraft:golden_leggings"
+      "item": "minecraft:map"
     }
   },
   "result": {

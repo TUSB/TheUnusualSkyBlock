@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_concrete"
+      "item": "minecraft:rabbit_stew"
     }
   ],
   "result": {

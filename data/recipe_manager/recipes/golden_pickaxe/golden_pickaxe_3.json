@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:iron_ore"
+      "item": "minecraft:diamond"
     },
     "#": {
-      "item": "minecraft:lime_concrete_powder"
+      "item": "minecraft:red_mushroom_block"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dirt"
+      "item": "minecraft:acacia_wood"
     },
     {
-      "item": "minecraft:green_wool"
+      "item": "minecraft:allium"
     },
     {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:beetroot_soup"
     },
     {
-      "item": "minecraft:leather"
+      "item": "minecraft:brown_mushroom"
     },
     {
-      "item": "minecraft:lime_concrete"
+      "item": "minecraft:granite"
     },
     {
-      "item": "minecraft:phantom_membrane"
+      "item": "minecraft:lilac"
     },
     {
-      "item": "minecraft:redstone"
+      "item": "minecraft:note_block"
     },
     {
-      "item": "minecraft:spruce_door"
+      "item": "minecraft:prismarine_brick_slab"
     },
     {
-      "item": "minecraft:white_wool"
+      "item": "minecraft:shulker_shell"
     }
   ],
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cobblestone_wall"
+      "item": "minecraft:birch_stairs"
     },
     {
-      "item": "minecraft:grass"
+      "item": "minecraft:orange_bed"
     }
   ],
   "result": {

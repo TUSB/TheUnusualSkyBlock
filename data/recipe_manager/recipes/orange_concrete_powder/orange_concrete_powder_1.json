@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dead_fire_coral_block"
+      "item": "minecraft:acacia_boat"
+    },
+    {
+      "item": "minecraft:birch_button"
+    },
+    {
+      "item": "minecraft:black_carpet"
+    },
+    {
+      "item": "minecraft:black_shulker_box"
+    },
+    {
+      "item": "minecraft:dark_oak_button"
     },
     {
       "item": "minecraft:glass"
     },
     {
-      "item": "minecraft:horn_coral_fan"
+      "item": "minecraft:mushroom_stew"
     },
     {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:orange_wool"
     },
     {
-      "item": "minecraft:light_gray_concrete"
-    },
-    {
-      "item": "minecraft:magenta_banner"
-    },
-    {
-      "item": "minecraft:polished_andesite"
-    },
-    {
-      "item": "minecraft:spruce_planks"
-    },
-    {
-      "item": "minecraft:spruce_slab"
+      "item": "minecraft:tripwire_hook"
     }
   ],
   "result": {

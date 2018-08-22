@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_blue_dye"
+      "item": "minecraft:magenta_stained_glass"
     },
     "|": {
-      "item": "minecraft:magenta_stained_glass"
+      "item": "minecraft:purple_stained_glass_pane"
     }
   },
   "result": {

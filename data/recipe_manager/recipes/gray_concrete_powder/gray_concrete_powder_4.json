@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_mushroom"
+      "item": "minecraft:acacia_trapdoor"
     },
     {
-      "item": "minecraft:charcoal"
+      "item": "minecraft:birch_fence_gate"
     },
     {
-      "item": "minecraft:cod"
+      "item": "minecraft:dark_oak_fence_gate"
     },
     {
-      "item": "minecraft:cyan_bed"
+      "item": "minecraft:dark_oak_leaves"
     },
     {
-      "item": "minecraft:infested_cobblestone"
+      "item": "minecraft:diamond_pickaxe"
     },
     {
-      "item": "minecraft:netherrack"
+      "item": "minecraft:lime_stained_glass_pane"
     },
     {
-      "item": "minecraft:red_terracotta"
+      "item": "minecraft:magenta_glazed_terracotta"
     },
     {
-      "item": "minecraft:scute"
+      "item": "minecraft:sticky_piston"
     },
     {
-      "item": "minecraft:seagrass"
+      "item": "minecraft:stone_sword"
     }
   ],
   "result": {

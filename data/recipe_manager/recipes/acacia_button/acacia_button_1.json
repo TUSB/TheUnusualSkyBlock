@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:enchanting_table"
     }
   ],
   "result": {

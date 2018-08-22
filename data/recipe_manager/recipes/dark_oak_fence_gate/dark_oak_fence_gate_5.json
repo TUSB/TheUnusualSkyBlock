@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chiseled_red_sandstone"
+      "item": "minecraft:comparator"
     },
     "W": {
-      "item": "minecraft:large_fern"
+      "item": "minecraft:green_bed"
     }
   },
   "result": {

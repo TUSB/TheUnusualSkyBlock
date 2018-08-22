@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_log"
+      "item": "minecraft:birch_wood"
     },
     "X": {
-      "item": "minecraft:ladder"
+      "item": "minecraft:wooden_pickaxe"
     }
   },
   "result": {

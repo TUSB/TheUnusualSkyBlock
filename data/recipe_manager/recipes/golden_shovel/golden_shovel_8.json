@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_stained_glass"
+      "item": "minecraft:jukebox"
     },
     "#": {
-      "item": "minecraft:light_gray_concrete"
+      "item": "minecraft:white_banner"
     }
   },
   "result": {

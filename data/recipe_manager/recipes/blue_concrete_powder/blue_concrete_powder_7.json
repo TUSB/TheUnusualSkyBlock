@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_slab"
+      "item": "minecraft:birch_trapdoor"
     },
     {
-      "item": "minecraft:birch_planks"
+      "item": "minecraft:diamond_block"
     },
     {
-      "item": "minecraft:cyan_bed"
+      "item": "minecraft:diamond_boots"
     },
     {
-      "item": "minecraft:cyan_concrete"
+      "item": "minecraft:golden_sword"
     },
     {
-      "item": "minecraft:green_concrete_powder"
+      "item": "minecraft:ink_sac"
     },
     {
-      "item": "minecraft:orange_bed"
+      "item": "minecraft:light_gray_banner"
     },
     {
-      "item": "minecraft:stone_slab"
+      "item": "minecraft:magenta_glazed_terracotta"
+    },
+    {
+      "item": "minecraft:rose_bush"
     },
     {
       "item": "minecraft:tube_coral_fan"
-    },
-    {
-      "item": "minecraft:white_bed"
     }
   ],
   "result": {

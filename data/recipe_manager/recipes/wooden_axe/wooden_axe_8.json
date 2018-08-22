@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:chainmail_chestplate"
+      "item": "minecraft:birch_slab"
     },
     "#": {
-      "item": "minecraft:chainmail_helmet"
+      "item": "minecraft:petrified_oak_slab"
     }
   },
   "result": {

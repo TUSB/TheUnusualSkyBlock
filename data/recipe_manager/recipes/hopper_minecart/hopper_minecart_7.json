@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:lead"
+      "item": "minecraft:cooked_rabbit"
     },
     "B": {
-      "item": "minecraft:oak_door"
+      "item": "minecraft:stone_pressure_plate"
     }
   },
   "result": {

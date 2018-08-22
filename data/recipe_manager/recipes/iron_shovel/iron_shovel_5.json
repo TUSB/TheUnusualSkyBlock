@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:light_gray_dye"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     },
     "#": {
-      "item": "minecraft:mycelium"
+      "item": "minecraft:pufferfish_bucket"
     }
   },
   "result": {

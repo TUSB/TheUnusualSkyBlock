@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:cyan_terracotta"
+      "item": "minecraft:iron_sword"
     },
     "B": {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:turtle_helmet"
     }
   },
   "result": {

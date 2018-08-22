@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:seagrass"
     },
     "X": {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:smooth_stone"
     }
   },
   "result": {

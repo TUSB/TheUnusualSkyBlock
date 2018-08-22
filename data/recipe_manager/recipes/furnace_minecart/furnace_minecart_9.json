@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:jungle_sapling"
+      "item": "minecraft:furnace"
     },
     "B": {
-      "item": "minecraft:sugar_cane"
+      "item": "minecraft:orange_shulker_box"
     }
   },
   "result": {

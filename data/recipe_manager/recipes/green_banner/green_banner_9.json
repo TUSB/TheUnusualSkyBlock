@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:magenta_bed"
     },
     "|": {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:oak_leaves"
     }
   },
   "result": {

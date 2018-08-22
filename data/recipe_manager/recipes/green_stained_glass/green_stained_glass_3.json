@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:minecart"
+      "item": "minecraft:acacia_fence"
     },
     "X": {
-      "item": "minecraft:nether_wart"
+      "item": "minecraft:white_concrete"
     }
   },
   "result": {

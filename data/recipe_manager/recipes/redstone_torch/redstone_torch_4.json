@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brewing_stand"
+      "item": "minecraft:oak_boat"
     },
     "#": {
-      "item": "minecraft:red_terracotta"
+      "item": "minecraft:tube_coral"
     }
   },
   "result": {

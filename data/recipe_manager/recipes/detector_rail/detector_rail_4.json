@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:farmland"
+      "item": "minecraft:dark_oak_log"
     },
     "#": {
-      "item": "minecraft:light_blue_concrete"
+      "item": "minecraft:lime_terracotta"
     },
     "R": {
-      "item": "minecraft:quartz_pillar"
+      "item": "minecraft:stripped_birch_log"
     }
   },
   "result": {

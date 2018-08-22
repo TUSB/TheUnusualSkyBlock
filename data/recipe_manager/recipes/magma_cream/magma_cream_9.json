@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:gray_glazed_terracotta"
+      "item": "minecraft:cauldron"
     },
     {
-      "item": "minecraft:stone_bricks"
+      "item": "minecraft:red_mushroom_block"
     }
   ],
   "result": {

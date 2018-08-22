@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chipped_anvil"
+      "item": "minecraft:armor_stand"
     },
     {
-      "item": "minecraft:cooked_mutton"
+      "item": "minecraft:birch_leaves"
     },
     {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:blue_orchid"
     },
     {
-      "item": "minecraft:gray_shulker_box"
+      "item": "minecraft:bow"
     },
     {
-      "item": "minecraft:light_gray_terracotta"
+      "item": "minecraft:emerald"
     },
     {
-      "item": "minecraft:pumpkin_pie"
+      "item": "minecraft:gold_ingot"
     },
     {
-      "item": "minecraft:redstone_block"
+      "item": "minecraft:hay_block"
     },
     {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:lever"
     },
     {
-      "item": "minecraft:stone_button"
+      "item": "minecraft:peony"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_concrete"
+      "item": "minecraft:gray_terracotta"
     },
     "#": {
-      "item": "minecraft:ender_pearl"
+      "item": "minecraft:smooth_quartz"
     }
   },
   "result": {

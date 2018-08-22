@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_orchid"
+      "item": "minecraft:stripped_jungle_log"
     },
     {
-      "item": "minecraft:yellow_shulker_box"
+      "item": "minecraft:white_banner"
     }
   ],
   "result": {

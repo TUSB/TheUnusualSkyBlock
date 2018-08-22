@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:bone_block"
     },
     "|": {
-      "item": "minecraft:orange_bed"
+      "item": "minecraft:stripped_oak_wood"
     }
   },
   "result": {

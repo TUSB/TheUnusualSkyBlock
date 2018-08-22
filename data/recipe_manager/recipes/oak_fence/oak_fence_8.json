@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:brown_terracotta"
+      "item": "minecraft:bread"
     },
     "#": {
-      "item": "minecraft:yellow_concrete_powder"
+      "item": "minecraft:tipped_arrow"
     }
   },
   "result": {

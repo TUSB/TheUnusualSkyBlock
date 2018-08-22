@@ -7,10 +7,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:acacia_fence"
+      "item": "minecraft:pumpkin"
     },
     "_": {
-      "item": "minecraft:farmland"
+      "item": "minecraft:smooth_red_sandstone"
     }
   },
   "result": {

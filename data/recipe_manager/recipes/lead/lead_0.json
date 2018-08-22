@@ -7,10 +7,10 @@
   ],
   "key": {
     "~": {
-      "item": "minecraft:black_glazed_terracotta"
+      "item": "minecraft:cobblestone_wall"
     },
     "O": {
-      "item": "minecraft:sunflower"
+      "item": "minecraft:cod"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:diamond_boots"
     },
     "#": {
-      "item": "minecraft:iron_axe"
+      "item": "minecraft:light_gray_stained_glass"
     }
   },
   "result": {

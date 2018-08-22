@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:mossy_cobblestone"
+      "item": "minecraft:infested_stone_bricks"
     },
     "X": {
-      "item": "minecraft:shield"
+      "item": "minecraft:magenta_bed"
     }
   },
   "result": {

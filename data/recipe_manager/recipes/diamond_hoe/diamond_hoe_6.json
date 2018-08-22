@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:chorus_fruit"
+      "item": "minecraft:brown_concrete_powder"
     },
     "#": {
-      "item": "minecraft:oxeye_daisy"
+      "item": "minecraft:poisonous_potato"
     }
   },
   "result": {

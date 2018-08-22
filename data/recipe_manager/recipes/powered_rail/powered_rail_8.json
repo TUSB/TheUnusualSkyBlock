@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_pressure_plate"
+      "item": "minecraft:mycelium"
     },
     "#": {
-      "item": "minecraft:dandelion"
+      "item": "minecraft:purple_concrete"
     },
     "R": {
-      "item": "minecraft:light_gray_banner"
+      "item": "minecraft:purple_stained_glass_pane"
     }
   },
   "result": {

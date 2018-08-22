@@ -7,13 +7,13 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:allium"
+      "item": "minecraft:activator_rail"
     },
     "S": {
-      "item": "minecraft:clay"
+      "item": "minecraft:shield"
     },
     "#": {
-      "item": "minecraft:purple_concrete"
+      "item": "minecraft:tropical_fish"
     }
   },
   "result": {

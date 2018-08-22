@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:gray_terracotta"
+      "item": "minecraft:salmon_bucket"
     },
     "#": {
-      "item": "minecraft:white_terracotta"
+      "item": "minecraft:stripped_acacia_wood"
     }
   },
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:birch_planks"
+      "item": "minecraft:clay"
     },
     "Q": {
-      "item": "minecraft:infested_cracked_stone_bricks"
+      "item": "minecraft:light_blue_stained_glass_pane"
     },
     "W": {
-      "item": "minecraft:string"
+      "item": "minecraft:spruce_pressure_plate"
     }
   },
   "result": {

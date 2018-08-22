@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:coal"
+      "item": "minecraft:dark_oak_log"
     },
     {
-      "item": "minecraft:orange_glazed_terracotta"
+      "item": "minecraft:pink_terracotta"
     }
   ],
   "result": {

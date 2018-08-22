@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:infested_mossy_stone_bricks"
+      "item": "minecraft:black_bed"
     },
     "#": {
-      "item": "minecraft:packed_ice"
+      "item": "minecraft:green_terracotta"
     }
   },
   "result": {

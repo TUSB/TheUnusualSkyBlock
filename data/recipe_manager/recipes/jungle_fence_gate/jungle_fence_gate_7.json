@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:tripwire_hook"
+      "item": "minecraft:acacia_fence_gate"
     },
     "W": {
-      "item": "minecraft:white_concrete"
+      "item": "minecraft:scute"
     }
   },
   "result": {

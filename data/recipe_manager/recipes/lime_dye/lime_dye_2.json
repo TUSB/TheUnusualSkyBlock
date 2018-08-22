@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_glazed_terracotta"
+      "item": "minecraft:activator_rail"
     },
     {
-      "item": "minecraft:diamond_boots"
+      "item": "minecraft:spruce_leaves"
     }
   ],
   "result": {

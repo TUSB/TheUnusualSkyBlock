@@ -2,16 +2,16 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_button"
+      "item": "minecraft:dark_prismarine_stairs"
     },
     {
-      "item": "minecraft:glass_pane"
+      "item": "minecraft:lead"
     },
     {
-      "item": "minecraft:player_head"
+      "item": "minecraft:observer"
     },
     {
-      "item": "minecraft:shield"
+      "item": "minecraft:prismarine_brick_slab"
     }
   ],
   "result": {

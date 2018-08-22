@@ -7,10 +7,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:bone_meal"
+      "item": "minecraft:coal_ore"
     },
     "_": {
-      "item": "minecraft:iron_chestplate"
+      "item": "minecraft:purple_stained_glass_pane"
     }
   },
   "result": {

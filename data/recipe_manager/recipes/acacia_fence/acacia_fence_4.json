@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:birch_button"
     },
     "#": {
-      "item": "minecraft:light_gray_concrete_powder"
+      "item": "minecraft:crafting_table"
     }
   },
   "result": {

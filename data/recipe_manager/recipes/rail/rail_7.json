@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:emerald_block"
+      "item": "minecraft:dragon_breath"
     },
     "#": {
-      "item": "minecraft:flower_pot"
+      "item": "minecraft:golden_hoe"
     }
   },
   "result": {

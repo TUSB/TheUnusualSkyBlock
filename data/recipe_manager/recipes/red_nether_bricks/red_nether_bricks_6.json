@@ -6,10 +6,10 @@
   ],
   "key": {
     "N": {
-      "item": "minecraft:bone_block"
+      "item": "minecraft:seagrass"
     },
     "W": {
-      "item": "minecraft:compass"
+      "item": "minecraft:yellow_wool"
     }
   },
   "result": {

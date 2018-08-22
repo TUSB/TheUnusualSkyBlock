@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_planks"
+      "item": "minecraft:poisonous_potato"
     },
     "X": {
-      "item": "minecraft:jungle_fence_gate"
+      "item": "minecraft:potion"
     }
   },
   "result": {

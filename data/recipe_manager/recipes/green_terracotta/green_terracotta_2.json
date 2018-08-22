@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:iron_hoe"
     },
     "X": {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:spruce_slab"
     }
   },
   "result": {

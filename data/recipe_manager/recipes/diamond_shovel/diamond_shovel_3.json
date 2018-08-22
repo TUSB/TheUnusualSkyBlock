@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:light_gray_glazed_terracotta"
+      "item": "minecraft:bucket"
     },
     "#": {
-      "item": "minecraft:white_wool"
+      "item": "minecraft:redstone_ore"
     }
   },
   "result": {

@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dried_kelp_block"
+      "item": "minecraft:dark_oak_sapling"
     }
   ],
   "result": {

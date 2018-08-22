@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:allium"
+      "item": "minecraft:blue_stained_glass_pane"
     },
     "#": {
-      "item": "minecraft:iron_shovel"
+      "item": "minecraft:infested_cobblestone"
     }
   },
   "result": {

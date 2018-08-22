@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:bone"
+      "item": "minecraft:cod"
     },
     "B": {
-      "item": "minecraft:stone_button"
+      "item": "minecraft:iron_boots"
     }
   },
   "result": {

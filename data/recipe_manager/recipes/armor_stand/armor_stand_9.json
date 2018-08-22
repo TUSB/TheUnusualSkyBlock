@@ -7,10 +7,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:oak_fence"
+      "item": "minecraft:jungle_wood"
     },
     "_": {
-      "item": "minecraft:pink_wool"
+      "item": "minecraft:peony"
     }
   },
   "result": {

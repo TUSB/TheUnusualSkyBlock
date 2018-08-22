@@ -6,10 +6,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:brick_slab"
+      "item": "minecraft:jack_o_lantern"
     },
     "#": {
-      "item": "minecraft:dandelion"
+      "item": "minecraft:yellow_terracotta"
     }
   },
   "result": {

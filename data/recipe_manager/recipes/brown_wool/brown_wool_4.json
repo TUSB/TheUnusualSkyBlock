@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:farmland"
+      "item": "minecraft:birch_fence"
     },
     {
-      "item": "minecraft:hay_block"
+      "item": "minecraft:bone_meal"
     }
   ],
   "result": {

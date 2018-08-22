@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:wooden_shovel"
+      "item": "minecraft:diamond_pickaxe"
     }
   ],
   "result": {

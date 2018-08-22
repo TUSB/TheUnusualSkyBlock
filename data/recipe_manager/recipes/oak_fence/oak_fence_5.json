@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:gray_concrete"
+      "item": "minecraft:blue_stained_glass_pane"
     },
     "#": {
-      "item": "minecraft:orange_bed"
+      "item": "minecraft:cobblestone_stairs"
     }
   },
   "result": {

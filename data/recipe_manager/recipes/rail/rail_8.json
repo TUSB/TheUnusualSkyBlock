@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:birch_wood"
+      "item": "minecraft:oxeye_daisy"
     },
     "#": {
-      "item": "minecraft:detector_rail"
+      "item": "minecraft:soul_sand"
     }
   },
   "result": {

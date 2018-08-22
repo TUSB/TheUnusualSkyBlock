@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:birch_pressure_plate"
+      "item": "minecraft:beetroot"
     },
     "E": {
-      "item": "minecraft:green_wool"
+      "item": "minecraft:lead"
     },
     "T": {
-      "item": "minecraft:red_shulker_box"
+      "item": "minecraft:mycelium"
     }
   },
   "result": {

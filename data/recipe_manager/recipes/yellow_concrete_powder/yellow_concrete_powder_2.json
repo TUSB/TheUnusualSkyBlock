@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chorus_fruit"
+      "item": "minecraft:bread"
     },
     {
-      "item": "minecraft:light_blue_concrete_powder"
+      "item": "minecraft:lapis_lazuli"
     },
     {
-      "item": "minecraft:light_blue_stained_glass_pane"
+      "item": "minecraft:light_blue_carpet"
     },
     {
-      "item": "minecraft:mossy_stone_bricks"
+      "item": "minecraft:magenta_terracotta"
     },
     {
-      "item": "minecraft:porkchop"
+      "item": "minecraft:oak_planks"
     },
     {
-      "item": "minecraft:red_carpet"
+      "item": "minecraft:pink_shulker_box"
     },
     {
-      "item": "minecraft:red_shulker_box"
+      "item": "minecraft:purple_shulker_box"
     },
     {
-      "item": "minecraft:red_tulip"
+      "item": "minecraft:stone_pressure_plate"
     },
     {
-      "item": "minecraft:stone"
+      "item": "minecraft:wooden_shovel"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:piston"
+      "item": "minecraft:lapis_block"
     },
     "B": {
-      "item": "minecraft:stone_button"
+      "item": "minecraft:zombie_head"
     }
   },
   "result": {

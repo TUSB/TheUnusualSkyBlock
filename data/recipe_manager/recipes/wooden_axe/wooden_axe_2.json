@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:golden_axe"
+      "item": "minecraft:diamond_ore"
     },
     "#": {
-      "item": "minecraft:mushroom_stem"
+      "item": "minecraft:spruce_button"
     }
   },
   "result": {

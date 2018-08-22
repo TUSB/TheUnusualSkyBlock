@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:hopper"
+      "item": "minecraft:ghast_tear"
     },
     "X": {
-      "item": "minecraft:lapis_ore"
+      "item": "minecraft:redstone_torch"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lingering_potion"
+      "item": "minecraft:fire_coral_block"
     },
     "W": {
-      "item": "minecraft:white_concrete_powder"
+      "item": "minecraft:mossy_cobblestone_wall"
     }
   },
   "result": {

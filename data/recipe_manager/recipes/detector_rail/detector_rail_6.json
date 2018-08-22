@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:jungle_fence"
+      "item": "minecraft:acacia_stairs"
     },
     "#": {
-      "item": "minecraft:red_banner"
+      "item": "minecraft:bowl"
     },
     "R": {
-      "item": "minecraft:red_mushroom"
+      "item": "minecraft:iron_sword"
     }
   },
   "result": {

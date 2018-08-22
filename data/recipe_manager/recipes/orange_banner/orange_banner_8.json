@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:pink_wool"
+      "item": "minecraft:red_concrete_powder"
     },
     "|": {
-      "item": "minecraft:sandstone_slab"
+      "item": "minecraft:stripped_spruce_log"
     }
   },
   "result": {

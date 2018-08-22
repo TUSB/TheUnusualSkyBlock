@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_ice"
+      "item": "minecraft:activator_rail"
     },
     "E": {
-      "item": "minecraft:player_head"
+      "item": "minecraft:zombie_head"
     }
   },
   "result": {

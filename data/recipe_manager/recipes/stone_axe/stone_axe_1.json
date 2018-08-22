@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:orange_stained_glass_pane"
+      "item": "minecraft:egg"
     },
     "#": {
-      "item": "minecraft:wooden_sword"
+      "item": "minecraft:red_mushroom_block"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_slab"
+      "item": "minecraft:blue_glazed_terracotta"
     },
     {
-      "item": "minecraft:lime_glazed_terracotta"
+      "item": "minecraft:green_concrete"
     }
   ],
   "result": {

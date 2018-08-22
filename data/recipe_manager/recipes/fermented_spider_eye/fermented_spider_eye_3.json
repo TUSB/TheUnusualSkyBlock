@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:nether_wart"
+      "item": "minecraft:filled_map"
     },
     {
-      "item": "minecraft:stone_bricks"
+      "item": "minecraft:horn_coral"
     },
     {
-      "item": "minecraft:white_shulker_box"
+      "item": "minecraft:map"
     }
   ],
   "result": {

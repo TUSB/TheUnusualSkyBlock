@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:granite"
+      "item": "minecraft:light_gray_banner"
     },
     "X": {
-      "item": "minecraft:note_block"
+      "item": "minecraft:white_banner"
     }
   },
   "result": {

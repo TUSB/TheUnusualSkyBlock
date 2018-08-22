@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lingering_potion"
+      "item": "minecraft:azure_bluet"
     },
     {
-      "item": "minecraft:trident"
+      "item": "minecraft:emerald_block"
     }
   ],
   "result": {

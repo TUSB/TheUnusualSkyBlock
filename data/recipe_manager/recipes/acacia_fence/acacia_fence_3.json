@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:acacia_wood"
+      "item": "minecraft:lime_bed"
     },
     "#": {
-      "item": "minecraft:red_carpet"
+      "item": "minecraft:potato"
     }
   },
   "result": {

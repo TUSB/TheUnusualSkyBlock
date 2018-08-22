@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:mycelium"
+      "item": "minecraft:chorus_flower"
     },
     "|": {
-      "item": "minecraft:red_stained_glass_pane"
+      "item": "minecraft:spruce_log"
     }
   },
   "result": {

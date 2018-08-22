@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_stained_glass_pane"
+      "item": "minecraft:cyan_concrete"
     },
     "X": {
-      "item": "minecraft:mushroom_stew"
+      "item": "minecraft:smooth_quartz"
     }
   },
   "result": {

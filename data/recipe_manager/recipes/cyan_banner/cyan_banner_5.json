@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_hoe"
+      "item": "minecraft:bucket"
     },
     "|": {
-      "item": "minecraft:oak_log"
+      "item": "minecraft:green_concrete"
     }
   },
   "result": {

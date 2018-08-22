@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_pressure_plate"
+      "item": "minecraft:chest"
     },
     "X": {
-      "item": "minecraft:red_sandstone"
+      "item": "minecraft:end_stone_bricks"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:spruce_door"
+      "item": "minecraft:bucket"
     },
     "#": {
-      "item": "minecraft:yellow_stained_glass"
+      "item": "minecraft:dark_prismarine"
     }
   },
   "result": {

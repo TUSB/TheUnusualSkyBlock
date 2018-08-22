@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:magenta_banner"
+      "item": "minecraft:cauldron"
     },
     "#": {
-      "item": "minecraft:terracotta"
+      "item": "minecraft:dark_oak_leaves"
     }
   },
   "result": {

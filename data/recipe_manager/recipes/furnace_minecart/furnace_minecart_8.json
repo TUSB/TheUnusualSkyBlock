@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:cut_sandstone"
     },
     "B": {
-      "item": "minecraft:torch"
+      "item": "minecraft:red_banner"
     }
   },
   "result": {

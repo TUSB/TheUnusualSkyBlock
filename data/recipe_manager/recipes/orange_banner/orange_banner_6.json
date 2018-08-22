@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_carpet"
+      "item": "minecraft:dispenser"
     },
     "|": {
-      "item": "minecraft:spruce_door"
+      "item": "minecraft:gray_stained_glass_pane"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brick"
+      "item": "minecraft:end_rod"
     },
     "X": {
-      "item": "minecraft:pink_carpet"
+      "item": "minecraft:green_terracotta"
     }
   },
   "result": {

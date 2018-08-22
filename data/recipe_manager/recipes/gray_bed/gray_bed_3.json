@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_log"
+      "item": "minecraft:leather_chestplate"
     },
     "X": {
-      "item": "minecraft:ghast_tear"
+      "item": "minecraft:prismarine_bricks"
     }
   },
   "result": {

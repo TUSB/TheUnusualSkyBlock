@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_log"
+      "item": "minecraft:blue_bed"
     },
     "X": {
-      "item": "minecraft:salmon_bucket"
+      "item": "minecraft:detector_rail"
     }
   },
   "result": {

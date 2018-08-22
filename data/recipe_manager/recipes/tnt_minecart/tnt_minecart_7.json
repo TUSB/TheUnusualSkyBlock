@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:birch_boat"
+      "item": "minecraft:gray_dye"
     },
     "B": {
-      "item": "minecraft:cauldron"
+      "item": "minecraft:quartz_block"
     }
   },
   "result": {

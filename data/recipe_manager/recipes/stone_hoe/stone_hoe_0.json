@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:coarse_dirt"
+      "item": "minecraft:mushroom_stem"
     },
     "#": {
-      "item": "minecraft:sponge"
+      "item": "minecraft:yellow_glazed_terracotta"
     }
   },
   "result": {

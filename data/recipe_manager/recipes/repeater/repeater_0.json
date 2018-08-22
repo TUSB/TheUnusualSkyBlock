@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:coarse_dirt"
+      "item": "minecraft:book"
     },
     "X": {
-      "item": "minecraft:golden_axe"
+      "item": "minecraft:chiseled_red_sandstone"
     },
     "I": {
-      "item": "minecraft:sandstone_stairs"
+      "item": "minecraft:purpur_slab"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:armor_stand"
+      "item": "minecraft:birch_wood"
     },
     {
-      "item": "minecraft:bubble_coral"
+      "item": "minecraft:chiseled_sandstone"
     },
     {
-      "item": "minecraft:bucket"
+      "item": "minecraft:gray_concrete"
     },
     {
-      "item": "minecraft:filled_map"
+      "item": "minecraft:heart_of_the_sea"
     },
     {
-      "item": "minecraft:glass"
+      "item": "minecraft:magma_block"
     },
     {
-      "item": "minecraft:nether_wart"
+      "item": "minecraft:pink_glazed_terracotta"
     },
     {
-      "item": "minecraft:splash_potion"
+      "item": "minecraft:prismarine_brick_slab"
     },
     {
-      "item": "minecraft:tropical_fish"
+      "item": "minecraft:trapped_chest"
     },
     {
-      "item": "minecraft:white_bed"
+      "item": "minecraft:yellow_carpet"
     }
   ],
   "result": {

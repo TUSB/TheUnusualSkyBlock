@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:stripped_spruce_log"
+      "item": "minecraft:iron_sword"
     },
     "R": {
-      "item": "minecraft:terracotta"
+      "item": "minecraft:yellow_bed"
     }
   },
   "result": {

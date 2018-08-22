@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:charcoal"
+      "item": "minecraft:chorus_fruit"
     },
     "X": {
-      "item": "minecraft:jungle_fence"
+      "item": "minecraft:gold_block"
     },
     "R": {
-      "item": "minecraft:stripped_jungle_log"
+      "item": "minecraft:prismarine_shard"
     }
   },
   "result": {

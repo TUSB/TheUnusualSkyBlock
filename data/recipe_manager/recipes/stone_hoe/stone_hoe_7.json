@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:emerald_ore"
+      "item": "minecraft:beacon"
     },
     "#": {
-      "item": "minecraft:infested_stone"
+      "item": "minecraft:red_concrete"
     }
   },
   "result": {

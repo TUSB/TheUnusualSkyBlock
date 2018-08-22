@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:farmland"
+      "item": "minecraft:map"
     },
     "X": {
-      "item": "minecraft:fire_coral_block"
+      "item": "minecraft:turtle_egg"
     },
     "I": {
-      "item": "minecraft:purple_bed"
+      "item": "minecraft:white_tulip"
     }
   },
   "result": {

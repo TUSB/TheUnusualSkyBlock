@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_trapdoor"
+      "item": "minecraft:black_banner"
     },
     "X": {
-      "item": "minecraft:lime_banner"
+      "item": "minecraft:hopper"
     }
   },
   "result": {

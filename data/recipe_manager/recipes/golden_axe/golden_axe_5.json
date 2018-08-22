@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:coal"
+      "item": "minecraft:end_stone"
     },
     "#": {
-      "item": "minecraft:dead_brain_coral_fan"
+      "item": "minecraft:red_wool"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bubble_coral"
+      "item": "minecraft:arrow"
     },
     "|": {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:black_shulker_box"
     }
   },
   "result": {

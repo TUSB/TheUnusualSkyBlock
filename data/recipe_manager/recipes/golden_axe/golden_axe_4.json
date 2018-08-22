@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:melon_slice"
+      "item": "minecraft:salmon_bucket"
     },
     "#": {
-      "item": "minecraft:rose_bush"
+      "item": "minecraft:stripped_dark_oak_log"
     }
   },
   "result": {

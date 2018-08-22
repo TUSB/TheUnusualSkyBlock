@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:emerald_ore"
+      "item": "minecraft:lime_stained_glass_pane"
     },
     "#": {
-      "item": "minecraft:sponge"
+      "item": "minecraft:melon_seeds"
     }
   },
   "result": {

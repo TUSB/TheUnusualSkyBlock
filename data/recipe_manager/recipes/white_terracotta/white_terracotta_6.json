@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:cauldron"
     },
     "X": {
-      "item": "minecraft:chainmail_chestplate"
+      "item": "minecraft:mossy_stone_bricks"
     }
   },
   "result": {

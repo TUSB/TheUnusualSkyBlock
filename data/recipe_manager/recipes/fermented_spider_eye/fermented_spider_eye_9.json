@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cake"
+      "item": "minecraft:tipped_arrow"
     },
     {
-      "item": "minecraft:fire_coral_block"
+      "item": "minecraft:tnt_minecart"
     },
     {
-      "item": "minecraft:oak_log"
+      "item": "minecraft:wooden_shovel"
     }
   ],
   "result": {

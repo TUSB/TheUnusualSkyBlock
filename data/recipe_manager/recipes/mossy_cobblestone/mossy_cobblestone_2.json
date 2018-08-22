@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chorus_plant"
+      "item": "minecraft:carrot"
     },
     {
-      "item": "minecraft:purpur_pillar"
+      "item": "minecraft:oak_log"
     }
   ],
   "result": {

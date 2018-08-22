@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:flint_and_steel"
+      "item": "minecraft:cyan_glazed_terracotta"
     }
   ],
   "result": {

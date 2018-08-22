@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:ice"
+      "item": "minecraft:oak_sapling"
     },
     "#": {
-      "item": "minecraft:jungle_leaves"
+      "item": "minecraft:red_concrete"
     }
   },
   "result": {

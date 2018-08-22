@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:pink_banner"
+      "item": "minecraft:birch_trapdoor"
     },
     "#": {
-      "item": "minecraft:pink_concrete_powder"
+      "item": "minecraft:fire_coral_fan"
     }
   },
   "result": {

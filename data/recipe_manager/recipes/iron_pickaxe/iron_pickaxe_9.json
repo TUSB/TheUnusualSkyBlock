@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:gold_nugget"
+      "item": "minecraft:diamond_chestplate"
     },
     "#": {
-      "item": "minecraft:tropical_fish"
+      "item": "minecraft:emerald_block"
     }
   },
   "result": {

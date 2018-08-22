@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_wood"
+      "item": "minecraft:dragon_head"
     },
     "X": {
-      "item": "minecraft:clay_ball"
+      "item": "minecraft:oak_button"
     },
     "I": {
-      "item": "minecraft:diamond_boots"
+      "item": "minecraft:salmon"
     }
   },
   "result": {

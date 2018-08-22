@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_oak_door"
+      "item": "minecraft:cobblestone_wall"
     },
     "#": {
-      "item": "minecraft:pink_shulker_box"
+      "item": "minecraft:jungle_log"
     }
   },
   "result": {

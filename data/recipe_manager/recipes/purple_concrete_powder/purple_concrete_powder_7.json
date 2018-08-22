@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_boat"
+      "item": "minecraft:cookie"
     },
     {
-      "item": "minecraft:acacia_leaves"
+      "item": "minecraft:dragon_breath"
     },
     {
-      "item": "minecraft:blue_glazed_terracotta"
+      "item": "minecraft:jungle_button"
     },
     {
-      "item": "minecraft:furnace_minecart"
+      "item": "minecraft:jungle_pressure_plate"
     },
     {
-      "item": "minecraft:horn_coral_block"
+      "item": "minecraft:light_blue_carpet"
     },
     {
-      "item": "minecraft:magma_block"
+      "item": "minecraft:prismarine_shard"
     },
     {
-      "item": "minecraft:netherrack"
+      "item": "minecraft:redstone_ore"
     },
     {
-      "item": "minecraft:pink_shulker_box"
+      "item": "minecraft:smooth_sandstone"
     },
     {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:sunflower"
     }
   ],
   "result": {

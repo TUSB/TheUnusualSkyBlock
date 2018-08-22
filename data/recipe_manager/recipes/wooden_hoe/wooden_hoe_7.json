@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:scute"
+      "item": "minecraft:acacia_pressure_plate"
     },
     "#": {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:gravel"
     }
   },
   "result": {

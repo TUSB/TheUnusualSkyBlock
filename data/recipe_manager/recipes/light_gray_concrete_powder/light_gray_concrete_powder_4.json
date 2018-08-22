@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dead_horn_coral_fan"
+      "item": "minecraft:black_concrete"
     },
     {
-      "item": "minecraft:diamond_pickaxe"
+      "item": "minecraft:cyan_carpet"
     },
     {
-      "item": "minecraft:jack_o_lantern"
+      "item": "minecraft:dead_fire_coral_block"
     },
     {
-      "item": "minecraft:jungle_trapdoor"
+      "item": "minecraft:jungle_sapling"
     },
     {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:lead"
     },
     {
-      "item": "minecraft:packed_ice"
+      "item": "minecraft:melon_slice"
     },
     {
-      "item": "minecraft:slime_block"
+      "item": "minecraft:orange_tulip"
     },
     {
-      "item": "minecraft:white_banner"
+      "item": "minecraft:purpur_slab"
     },
     {
-      "item": "minecraft:yellow_glazed_terracotta"
+      "item": "minecraft:quartz_pillar"
     }
   ],
   "result": {

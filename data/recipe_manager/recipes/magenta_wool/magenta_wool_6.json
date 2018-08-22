@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_wood"
+      "item": "minecraft:brown_shulker_box"
     },
     {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:leather_helmet"
     }
   ],
   "result": {

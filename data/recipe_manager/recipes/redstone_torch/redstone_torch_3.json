@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:rabbit_foot"
+      "item": "minecraft:magenta_stained_glass_pane"
     },
     "#": {
-      "item": "minecraft:stone_axe"
+      "item": "minecraft:wooden_pickaxe"
     }
   },
   "result": {

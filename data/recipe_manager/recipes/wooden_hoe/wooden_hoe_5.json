@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brick_slab"
+      "item": "minecraft:pink_concrete"
     },
     "#": {
-      "item": "minecraft:feather"
+      "item": "minecraft:stone_bricks"
     }
   },
   "result": {

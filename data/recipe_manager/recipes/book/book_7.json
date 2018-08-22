@@ -2,16 +2,16 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:light_blue_concrete"
+      "item": "minecraft:cooked_salmon"
     },
     {
-      "item": "minecraft:polished_andesite"
+      "item": "minecraft:pink_dye"
     },
     {
-      "item": "minecraft:spruce_trapdoor"
+      "item": "minecraft:red_carpet"
     },
     {
-      "item": "minecraft:tall_grass"
+      "item": "minecraft:white_stained_glass_pane"
     }
   ],
   "result": {

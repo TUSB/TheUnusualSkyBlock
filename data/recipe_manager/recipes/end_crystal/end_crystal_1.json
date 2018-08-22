@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:infested_mossy_stone_bricks"
+      "item": "minecraft:cyan_carpet"
     },
     "E": {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:dandelion"
     },
     "T": {
-      "item": "minecraft:written_book"
+      "item": "minecraft:stripped_dark_oak_wood"
     }
   },
   "result": {

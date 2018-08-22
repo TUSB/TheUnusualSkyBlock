@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:oak_leaves"
     },
     "#": {
-      "item": "minecraft:orange_stained_glass_pane"
+      "item": "minecraft:spruce_planks"
     }
   },
   "result": {

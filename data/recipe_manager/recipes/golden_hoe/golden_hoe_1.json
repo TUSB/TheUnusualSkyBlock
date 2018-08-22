@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brewing_stand"
+      "item": "minecraft:diamond_block"
     },
     "#": {
-      "item": "minecraft:red_nether_bricks"
+      "item": "minecraft:ink_sac"
     }
   },
   "result": {

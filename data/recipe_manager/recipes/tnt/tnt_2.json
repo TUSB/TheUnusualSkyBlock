@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:pink_stained_glass"
+      "item": "minecraft:birch_trapdoor"
     },
     "#": {
-      "item": "minecraft:poppy"
+      "item": "minecraft:jungle_trapdoor"
     }
   },
   "result": {

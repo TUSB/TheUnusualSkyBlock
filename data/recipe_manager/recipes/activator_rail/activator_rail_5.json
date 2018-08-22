@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_banner"
+      "item": "minecraft:cobblestone"
     },
     "S": {
-      "item": "minecraft:bone_meal"
+      "item": "minecraft:comparator"
     },
     "#": {
-      "item": "minecraft:stone"
+      "item": "minecraft:oak_planks"
     }
   },
   "result": {

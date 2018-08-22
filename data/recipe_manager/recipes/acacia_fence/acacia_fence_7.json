@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:bubble_coral_block"
+      "item": "minecraft:poppy"
     },
     "#": {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:smooth_quartz"
     }
   },
   "result": {

@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:feather"
+      "item": "minecraft:purple_bed"
     }
   ],
   "result": {

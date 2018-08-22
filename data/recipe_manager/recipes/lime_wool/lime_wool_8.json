@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:tnt_minecart"
+      "item": "minecraft:apple"
     },
     {
-      "item": "minecraft:yellow_bed"
+      "item": "minecraft:red_mushroom_block"
     }
   ],
   "result": {

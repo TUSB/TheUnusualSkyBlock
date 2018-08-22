@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:baked_potato"
+      "item": "minecraft:detector_rail"
     },
     "#": {
-      "item": "minecraft:turtle_egg"
+      "item": "minecraft:spruce_log"
     }
   },
   "result": {

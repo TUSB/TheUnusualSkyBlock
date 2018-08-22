@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:painting"
+      "item": "minecraft:oak_wood"
     },
     {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:wet_sponge"
     }
   ],
   "result": {

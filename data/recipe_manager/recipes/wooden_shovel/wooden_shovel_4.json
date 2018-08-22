@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_concrete"
+      "item": "minecraft:orange_bed"
     },
     "#": {
-      "item": "minecraft:furnace"
+      "item": "minecraft:purple_stained_glass_pane"
     }
   },
   "result": {

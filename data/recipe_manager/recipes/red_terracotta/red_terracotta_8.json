@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_concrete"
+      "item": "minecraft:birch_pressure_plate"
     },
     "X": {
-      "item": "minecraft:lapis_block"
+      "item": "minecraft:stone"
     }
   },
   "result": {

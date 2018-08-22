@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:activator_rail"
+      "item": "minecraft:chorus_fruit"
     },
     {
-      "item": "minecraft:brown_concrete_powder"
+      "item": "minecraft:grass_block"
     },
     {
-      "item": "minecraft:dark_oak_planks"
+      "item": "minecraft:green_concrete_powder"
     },
     {
-      "item": "minecraft:diamond_hoe"
+      "item": "minecraft:green_shulker_box"
     },
     {
-      "item": "minecraft:diamond_horse_armor"
+      "item": "minecraft:light_gray_banner"
     },
     {
-      "item": "minecraft:dragon_head"
+      "item": "minecraft:magenta_dye"
     },
     {
-      "item": "minecraft:gray_concrete"
+      "item": "minecraft:nautilus_shell"
     },
     {
-      "item": "minecraft:mossy_stone_bricks"
+      "item": "minecraft:poisonous_potato"
     },
     {
-      "item": "minecraft:redstone"
+      "item": "minecraft:wheat"
     }
   ],
   "result": {

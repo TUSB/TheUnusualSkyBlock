@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:blaze_powder"
+      "item": "minecraft:carved_pumpkin"
     },
     "I": {
-      "item": "minecraft:large_fern"
+      "item": "minecraft:glass"
     }
   },
   "result": {

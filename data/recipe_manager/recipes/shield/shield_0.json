@@ -7,10 +7,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:acacia_door"
+      "item": "minecraft:dragon_head"
     },
     "o": {
-      "item": "minecraft:ender_chest"
+      "item": "minecraft:repeater"
     }
   },
   "result": {

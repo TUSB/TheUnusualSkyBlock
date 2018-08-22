@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:player_head"
+      "item": "minecraft:beetroot"
     },
     "X": {
-      "item": "minecraft:smooth_red_sandstone"
+      "item": "minecraft:hay_block"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:baked_potato"
+      "item": "minecraft:acacia_sapling"
     },
     {
-      "item": "minecraft:chiseled_red_sandstone"
+      "item": "minecraft:beef"
     },
     {
-      "item": "minecraft:chiseled_sandstone"
+      "item": "minecraft:dead_brain_coral_block"
     },
     {
-      "item": "minecraft:chiseled_stone_bricks"
+      "item": "minecraft:iron_horse_armor"
     },
     {
-      "item": "minecraft:cooked_rabbit"
+      "item": "minecraft:jungle_fence_gate"
     },
     {
-      "item": "minecraft:fire_charge"
+      "item": "minecraft:magenta_shulker_box"
     },
     {
-      "item": "minecraft:orange_carpet"
+      "item": "minecraft:sandstone_slab"
     },
     {
-      "item": "minecraft:purple_shulker_box"
+      "item": "minecraft:spruce_planks"
     },
     {
-      "item": "minecraft:slime_block"
+      "item": "minecraft:white_shulker_box"
     }
   ],
   "result": {

@@ -5,10 +5,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:mushroom_stew"
+      "item": "minecraft:purple_terracotta"
     },
     "X": {
-      "item": "minecraft:oak_trapdoor"
+      "item": "minecraft:stone_hoe"
     }
   },
   "result": {

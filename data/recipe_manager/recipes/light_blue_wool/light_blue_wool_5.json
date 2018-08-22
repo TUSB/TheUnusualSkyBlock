@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:minecart"
+      "item": "minecraft:grass_path"
     },
     {
-      "item": "minecraft:pink_glazed_terracotta"
+      "item": "minecraft:yellow_glazed_terracotta"
     }
   ],
   "result": {

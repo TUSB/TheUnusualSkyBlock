@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_carpet"
+      "item": "minecraft:dandelion"
     },
     "X": {
-      "item": "minecraft:gray_stained_glass"
+      "item": "minecraft:stripped_jungle_log"
     }
   },
   "result": {

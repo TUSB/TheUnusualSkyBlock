@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:cut_red_sandstone"
     },
     "X": {
-      "item": "minecraft:rabbit_stew"
+      "item": "minecraft:oak_button"
     }
   },
   "result": {

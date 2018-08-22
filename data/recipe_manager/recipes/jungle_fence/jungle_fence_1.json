@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:gold_nugget"
+      "item": "minecraft:rail"
     },
     "#": {
-      "item": "minecraft:oak_fence"
+      "item": "minecraft:redstone_ore"
     }
   },
   "result": {

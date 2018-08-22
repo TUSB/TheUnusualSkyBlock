@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_orchid"
+      "item": "minecraft:kelp"
     },
     "#": {
-      "item": "minecraft:dark_oak_slab"
+      "item": "minecraft:light_blue_wool"
     }
   },
   "result": {

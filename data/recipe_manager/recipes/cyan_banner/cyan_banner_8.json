@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_trapdoor"
+      "item": "minecraft:black_stained_glass"
     },
     "|": {
-      "item": "minecraft:prismarine_stairs"
+      "item": "minecraft:nether_brick"
     }
   },
   "result": {

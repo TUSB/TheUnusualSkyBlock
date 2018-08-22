@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:dark_oak_wood"
     },
     "X": {
-      "item": "minecraft:melon"
+      "item": "minecraft:purpur_slab"
     }
   },
   "result": {

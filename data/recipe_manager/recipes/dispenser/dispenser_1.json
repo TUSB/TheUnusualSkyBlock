@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_stained_glass"
+      "item": "minecraft:cyan_concrete_powder"
     },
     "X": {
-      "item": "minecraft:diamond_ore"
+      "item": "minecraft:jungle_leaves"
     },
     "R": {
-      "item": "minecraft:iron_pickaxe"
+      "item": "minecraft:peony"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dead_bubble_coral_fan"
+      "item": "minecraft:birch_pressure_plate"
     },
     "|": {
-      "item": "minecraft:magenta_glazed_terracotta"
+      "item": "minecraft:bubble_coral_fan"
     }
   },
   "result": {

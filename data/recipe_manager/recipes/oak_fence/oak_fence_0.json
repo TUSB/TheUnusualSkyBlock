@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:purple_wool"
+      "item": "minecraft:kelp"
     },
     "#": {
-      "item": "minecraft:stripped_acacia_wood"
+      "item": "minecraft:white_stained_glass"
     }
   },
   "result": {

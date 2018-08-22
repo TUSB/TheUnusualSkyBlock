@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brain_coral"
+      "item": "minecraft:coal"
     },
     "X": {
-      "item": "minecraft:prismarine_bricks"
+      "item": "minecraft:white_bed"
     }
   },
   "result": {

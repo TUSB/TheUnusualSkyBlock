@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bone_block"
+      "item": "minecraft:clock"
     }
   ],
   "result": {

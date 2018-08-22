@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_shulker_box"
+      "item": "minecraft:golden_hoe"
     },
     "#": {
-      "item": "minecraft:light_gray_wool"
+      "item": "minecraft:lapis_lazuli"
     }
   },
   "result": {

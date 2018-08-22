@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cooked_salmon"
+      "item": "minecraft:chiseled_stone_bricks"
     },
     {
-      "item": "minecraft:diamond_horse_armor"
+      "item": "minecraft:cobblestone_slab"
     },
     {
-      "item": "minecraft:emerald_ore"
+      "item": "minecraft:cobblestone_stairs"
     },
     {
-      "item": "minecraft:horn_coral"
+      "item": "minecraft:cooked_porkchop"
     },
     {
-      "item": "minecraft:light_blue_stained_glass"
+      "item": "minecraft:cyan_stained_glass"
     },
     {
-      "item": "minecraft:orange_banner"
+      "item": "minecraft:golden_leggings"
     },
     {
-      "item": "minecraft:red_stained_glass"
+      "item": "minecraft:oak_boat"
     },
     {
-      "item": "minecraft:spruce_pressure_plate"
+      "item": "minecraft:orange_wool"
     },
     {
-      "item": "minecraft:stone_brick_slab"
+      "item": "minecraft:sugar_cane"
     }
   ],
   "result": {

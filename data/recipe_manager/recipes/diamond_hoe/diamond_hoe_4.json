@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:gray_terracotta"
+      "item": "minecraft:arrow"
     },
     "#": {
-      "item": "minecraft:red_mushroom_block"
+      "item": "minecraft:yellow_wool"
     }
   },
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:cooked_cod"
+      "item": "minecraft:glass_pane"
     },
     "E": {
-      "item": "minecraft:gold_ore"
+      "item": "minecraft:hopper_minecart"
     },
     "T": {
-      "item": "minecraft:nether_brick_stairs"
+      "item": "minecraft:orange_shulker_box"
     }
   },
   "result": {

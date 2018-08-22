@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:fire_coral_block"
+      "item": "minecraft:pufferfish"
     },
     "#": {
-      "item": "minecraft:jack_o_lantern"
+      "item": "minecraft:wooden_shovel"
     }
   },
   "result": {

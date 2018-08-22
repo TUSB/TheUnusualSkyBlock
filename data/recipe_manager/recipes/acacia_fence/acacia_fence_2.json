@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:detector_rail"
+      "item": "minecraft:diamond_horse_armor"
     },
     "#": {
-      "item": "minecraft:sandstone"
+      "item": "minecraft:melon_seeds"
     }
   },
   "result": {

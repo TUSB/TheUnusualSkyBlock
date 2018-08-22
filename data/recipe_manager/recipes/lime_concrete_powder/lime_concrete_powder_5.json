@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_button"
+      "item": "minecraft:acacia_slab"
     },
     {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:birch_wood"
     },
     {
-      "item": "minecraft:cod_bucket"
+      "item": "minecraft:golden_chestplate"
     },
     {
-      "item": "minecraft:fishing_rod"
+      "item": "minecraft:grass_path"
     },
     {
-      "item": "minecraft:gray_carpet"
+      "item": "minecraft:note_block"
     },
     {
-      "item": "minecraft:gunpowder"
+      "item": "minecraft:polished_andesite"
     },
     {
-      "item": "minecraft:jungle_log"
+      "item": "minecraft:popped_chorus_fruit"
     },
     {
-      "item": "minecraft:orange_bed"
+      "item": "minecraft:quartz_slab"
     },
     {
-      "item": "minecraft:wooden_axe"
+      "item": "minecraft:red_sand"
     }
   ],
   "result": {

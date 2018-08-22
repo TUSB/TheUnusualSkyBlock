@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:pink_concrete"
+      "item": "minecraft:dead_fire_coral_block"
     },
     {
-      "item": "minecraft:sea_pickle"
+      "item": "minecraft:turtle_helmet"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_fence"
+      "item": "minecraft:lapis_lazuli"
     },
     "X": {
-      "item": "minecraft:lapis_ore"
+      "item": "minecraft:white_terracotta"
     }
   },
   "result": {

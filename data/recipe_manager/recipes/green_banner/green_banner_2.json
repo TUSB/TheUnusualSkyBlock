@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:grass_block"
+      "item": "minecraft:black_banner"
     },
     "|": {
-      "item": "minecraft:magenta_stained_glass_pane"
+      "item": "minecraft:jungle_fence_gate"
     }
   },
   "result": {

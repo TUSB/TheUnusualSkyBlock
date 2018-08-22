@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dead_bubble_coral_block"
+      "item": "minecraft:large_fern"
     },
     {
-      "item": "minecraft:jack_o_lantern"
+      "item": "minecraft:spider_eye"
     }
   ],
   "result": {

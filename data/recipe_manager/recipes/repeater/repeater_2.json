@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_prismarine_slab"
+      "item": "minecraft:ender_pearl"
     },
     "X": {
-      "item": "minecraft:oak_boat"
+      "item": "minecraft:kelp"
     },
     "I": {
-      "item": "minecraft:yellow_concrete_powder"
+      "item": "minecraft:turtle_egg"
     }
   },
   "result": {

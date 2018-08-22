@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_concrete"
+      "item": "minecraft:light_blue_glazed_terracotta"
     },
     "|": {
-      "item": "minecraft:purple_concrete"
+      "item": "minecraft:spruce_fence_gate"
     }
   },
   "result": {

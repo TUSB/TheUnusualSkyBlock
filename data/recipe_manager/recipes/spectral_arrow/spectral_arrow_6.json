@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_sapling"
+      "item": "minecraft:black_concrete_powder"
     },
     "X": {
-      "item": "minecraft:magenta_concrete"
+      "item": "minecraft:slime_block"
     }
   },
   "result": {

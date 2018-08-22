@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:beef"
+      "item": "minecraft:item_frame"
     },
     "X": {
-      "item": "minecraft:spruce_fence"
+      "item": "minecraft:oak_trapdoor"
     }
   },
   "result": {

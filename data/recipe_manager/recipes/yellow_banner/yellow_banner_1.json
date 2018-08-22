@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_glazed_terracotta"
+      "item": "minecraft:dark_oak_stairs"
     },
     "|": {
-      "item": "minecraft:splash_potion"
+      "item": "minecraft:purple_shulker_box"
     }
   },
   "result": {

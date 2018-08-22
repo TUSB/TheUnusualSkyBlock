@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_ice"
+      "item": "minecraft:chest"
     },
     {
-      "item": "minecraft:brown_mushroom"
+      "item": "minecraft:diamond_leggings"
     },
     {
-      "item": "minecraft:chiseled_red_sandstone"
+      "item": "minecraft:gray_dye"
     },
     {
-      "item": "minecraft:dark_oak_button"
+      "item": "minecraft:jungle_planks"
     },
     {
-      "item": "minecraft:heart_of_the_sea"
+      "item": "minecraft:orange_concrete_powder"
     },
     {
-      "item": "minecraft:magenta_concrete_powder"
+      "item": "minecraft:pink_banner"
     },
     {
-      "item": "minecraft:orange_shulker_box"
+      "item": "minecraft:purple_glazed_terracotta"
     },
     {
-      "item": "minecraft:packed_ice"
+      "item": "minecraft:red_sandstone"
     },
     {
-      "item": "minecraft:petrified_oak_slab"
+      "item": "minecraft:sandstone"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_wood"
+      "item": "minecraft:farmland"
     },
     "X": {
-      "item": "minecraft:pink_bed"
+      "item": "minecraft:sticky_piston"
     }
   },
   "result": {

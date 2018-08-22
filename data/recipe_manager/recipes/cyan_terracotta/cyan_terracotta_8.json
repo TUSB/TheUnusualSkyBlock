@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:bone"
     },
     "X": {
-      "item": "minecraft:sandstone"
+      "item": "minecraft:smooth_stone"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_fence"
+      "item": "minecraft:birch_wood"
     },
     {
-      "item": "minecraft:stone"
+      "item": "minecraft:white_concrete"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:fishing_rod"
+      "item": "minecraft:cyan_stained_glass"
     },
     "C": {
-      "item": "minecraft:gold_nugget"
+      "item": "minecraft:golden_shovel"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:iron_ore"
+      "item": "minecraft:brown_terracotta"
     },
     {
-      "item": "minecraft:red_sandstone_slab"
+      "item": "minecraft:slime_ball"
     }
   ],
   "result": {

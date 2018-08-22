@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blaze_rod"
+      "item": "minecraft:blue_bed"
     },
     {
-      "item": "minecraft:dead_fire_coral_block"
+      "item": "minecraft:brown_carpet"
     },
     {
-      "item": "minecraft:green_wool"
+      "item": "minecraft:enchanting_table"
     },
     {
-      "item": "minecraft:hay_block"
+      "item": "minecraft:light_blue_shulker_box"
     },
     {
-      "item": "minecraft:lime_carpet"
+      "item": "minecraft:mushroom_stew"
     },
     {
-      "item": "minecraft:magenta_carpet"
+      "item": "minecraft:observer"
     },
     {
-      "item": "minecraft:pumpkin_seeds"
+      "item": "minecraft:pink_shulker_box"
     },
     {
-      "item": "minecraft:red_mushroom_block"
+      "item": "minecraft:purpur_block"
     },
     {
-      "item": "minecraft:spectral_arrow"
+      "item": "minecraft:sponge"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:stone_bricks"
+      "item": "minecraft:dark_oak_fence"
     },
     "X": {
-      "item": "minecraft:turtle_egg"
+      "item": "minecraft:magenta_concrete"
     }
   },
   "result": {

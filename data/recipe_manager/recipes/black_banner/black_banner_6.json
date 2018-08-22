@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_banner"
+      "item": "minecraft:blue_glazed_terracotta"
     },
     "|": {
-      "item": "minecraft:spruce_pressure_plate"
+      "item": "minecraft:purple_shulker_box"
     }
   },
   "result": {

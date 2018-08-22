@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_slab"
+      "item": "minecraft:birch_slab"
     },
     {
-      "item": "minecraft:beetroot_soup"
+      "item": "minecraft:blaze_rod"
     },
     {
-      "item": "minecraft:black_glazed_terracotta"
+      "item": "minecraft:ender_chest"
     },
     {
-      "item": "minecraft:cod_bucket"
+      "item": "minecraft:fire_coral_fan"
     },
     {
-      "item": "minecraft:infested_stone"
+      "item": "minecraft:green_stained_glass"
     },
     {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:light_blue_terracotta"
     },
     {
-      "item": "minecraft:light_gray_glazed_terracotta"
+      "item": "minecraft:magenta_shulker_box"
     },
     {
-      "item": "minecraft:prismarine_brick_stairs"
+      "item": "minecraft:oak_pressure_plate"
     },
     {
-      "item": "minecraft:spectral_arrow"
+      "item": "minecraft:pumpkin_pie"
     }
   ],
   "result": {

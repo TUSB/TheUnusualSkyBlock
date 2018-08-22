@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:nether_wart_block"
+      "item": "minecraft:brick_slab"
     },
     "#": {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:nether_bricks"
     }
   },
   "result": {

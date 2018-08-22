@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_concrete_powder"
+      "item": "minecraft:birch_trapdoor"
     },
     {
-      "item": "minecraft:bubble_coral_block"
+      "item": "minecraft:dark_oak_log"
     },
     {
-      "item": "minecraft:carrot_on_a_stick"
+      "item": "minecraft:jukebox"
     },
     {
-      "item": "minecraft:chipped_anvil"
+      "item": "minecraft:lime_concrete_powder"
     },
     {
-      "item": "minecraft:green_bed"
+      "item": "minecraft:obsidian"
     },
     {
-      "item": "minecraft:iron_chestplate"
+      "item": "minecraft:purpur_pillar"
     },
     {
-      "item": "minecraft:oak_wood"
+      "item": "minecraft:red_sand"
     },
     {
-      "item": "minecraft:orange_terracotta"
+      "item": "minecraft:stripped_dark_oak_log"
     },
     {
-      "item": "minecraft:pink_stained_glass_pane"
+      "item": "minecraft:yellow_glazed_terracotta"
     }
   ],
   "result": {

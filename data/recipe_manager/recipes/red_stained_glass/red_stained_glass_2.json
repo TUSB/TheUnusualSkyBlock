@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:compass"
+      "item": "minecraft:magenta_banner"
     },
     "X": {
-      "item": "minecraft:oak_wood"
+      "item": "minecraft:stripped_acacia_log"
     }
   },
   "result": {

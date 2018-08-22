@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:purpur_pillar"
     },
     "I": {
-      "item": "minecraft:mossy_cobblestone_wall"
+      "item": "minecraft:trident"
     }
   },
   "result": {

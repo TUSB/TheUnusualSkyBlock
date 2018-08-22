@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_oak_leaves"
+      "item": "minecraft:player_head"
     },
     "#": {
-      "item": "minecraft:jungle_trapdoor"
+      "item": "minecraft:yellow_carpet"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond_sword"
+      "item": "minecraft:cooked_beef"
     },
     "#": {
-      "item": "minecraft:filled_map"
+      "item": "minecraft:spider_eye"
     }
   },
   "result": {

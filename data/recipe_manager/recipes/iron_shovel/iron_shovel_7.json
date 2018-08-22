@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:iron_door"
+      "item": "minecraft:rotten_flesh"
     },
     "#": {
-      "item": "minecraft:purple_shulker_box"
+      "item": "minecraft:spruce_fence"
     }
   },
   "result": {

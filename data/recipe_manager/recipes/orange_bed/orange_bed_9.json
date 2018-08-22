@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:polished_andesite"
+      "item": "minecraft:lead"
     },
     "X": {
-      "item": "minecraft:spruce_leaves"
+      "item": "minecraft:petrified_oak_slab"
     }
   },
   "result": {

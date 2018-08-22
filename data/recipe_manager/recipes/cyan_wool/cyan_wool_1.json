@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_terracotta"
+      "item": "minecraft:diamond_block"
     },
     {
-      "item": "minecraft:nether_brick_slab"
+      "item": "minecraft:fire_coral_block"
     }
   ],
   "result": {

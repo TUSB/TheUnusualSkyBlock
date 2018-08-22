@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:vine"
+      "item": "minecraft:gray_glazed_terracotta"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:ice"
+      "item": "minecraft:light_gray_stained_glass"
     },
     "|": {
-      "item": "minecraft:jungle_log"
+      "item": "minecraft:obsidian"
     }
   },
   "result": {

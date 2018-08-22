@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:jungle_button"
     },
     {
-      "item": "minecraft:light_gray_terracotta"
+      "item": "minecraft:nether_brick_stairs"
     }
   ],
   "result": {

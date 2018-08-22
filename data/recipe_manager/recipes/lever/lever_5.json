@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:iron_helmet"
+      "item": "minecraft:egg"
     },
     "#": {
-      "item": "minecraft:light_blue_concrete"
+      "item": "minecraft:petrified_oak_slab"
     }
   },
   "result": {

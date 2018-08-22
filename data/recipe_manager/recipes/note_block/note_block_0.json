@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_chestplate"
+      "item": "minecraft:activator_rail"
     },
     "X": {
-      "item": "minecraft:gold_ore"
+      "item": "minecraft:glowstone"
     }
   },
   "result": {

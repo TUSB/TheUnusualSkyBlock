@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:gray_stained_glass_pane"
     },
     "#": {
-      "item": "minecraft:powered_rail"
+      "item": "minecraft:gray_terracotta"
     },
     "R": {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:shulker_shell"
     }
   },
   "result": {

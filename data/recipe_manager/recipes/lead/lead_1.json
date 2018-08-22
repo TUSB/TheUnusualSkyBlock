@@ -7,10 +7,10 @@
   ],
   "key": {
     "~": {
-      "item": "minecraft:bucket"
+      "item": "minecraft:magenta_shulker_box"
     },
     "O": {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:peony"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:green_wool"
+      "item": "minecraft:magma_block"
     },
     "#": {
-      "item": "minecraft:wooden_axe"
+      "item": "minecraft:rail"
     }
   },
   "result": {

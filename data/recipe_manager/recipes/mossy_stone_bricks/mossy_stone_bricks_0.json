@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:leather"
+      "item": "minecraft:chainmail_leggings"
     },
     {
-      "item": "minecraft:prismarine"
+      "item": "minecraft:white_bed"
     }
   ],
   "result": {

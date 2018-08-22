@@ -7,10 +7,10 @@
   ],
   "key": {
     "R": {
-      "item": "minecraft:clock"
+      "item": "minecraft:lime_banner"
     },
     "G": {
-      "item": "minecraft:stripped_birch_wood"
+      "item": "minecraft:redstone_ore"
     }
   },
   "result": {

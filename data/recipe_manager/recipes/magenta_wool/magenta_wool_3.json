@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:wheat"
+      "item": "minecraft:blue_shulker_box"
     },
     {
-      "item": "minecraft:yellow_concrete_powder"
+      "item": "minecraft:cooked_porkchop"
     }
   ],
   "result": {

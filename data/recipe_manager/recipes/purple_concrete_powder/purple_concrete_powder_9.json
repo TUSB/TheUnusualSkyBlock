@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_wool"
+      "item": "minecraft:birch_boat"
     },
     {
-      "item": "minecraft:diamond_axe"
+      "item": "minecraft:chorus_plant"
     },
     {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:dead_tube_coral_block"
     },
     {
-      "item": "minecraft:glistering_melon_slice"
+      "item": "minecraft:dirt"
     },
     {
-      "item": "minecraft:golden_leggings"
+      "item": "minecraft:light_gray_concrete"
     },
     {
-      "item": "minecraft:leather"
+      "item": "minecraft:magenta_shulker_box"
     },
     {
-      "item": "minecraft:oak_fence_gate"
+      "item": "minecraft:red_sandstone_slab"
     },
     {
-      "item": "minecraft:orange_wool"
+      "item": "minecraft:stone_hoe"
     },
     {
-      "item": "minecraft:stripped_dark_oak_log"
+      "item": "minecraft:sugar"
     }
   ],
   "result": {

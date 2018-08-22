@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:leather_chestplate"
+      "item": "minecraft:cooked_chicken"
     }
   ],
   "result": {

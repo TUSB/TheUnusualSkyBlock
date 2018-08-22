@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_trapdoor"
+      "item": "minecraft:oak_button"
     },
     "X": {
-      "item": "minecraft:red_banner"
+      "item": "minecraft:salmon"
     }
   },
   "result": {

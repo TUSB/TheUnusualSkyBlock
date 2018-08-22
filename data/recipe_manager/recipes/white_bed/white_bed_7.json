@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_button"
+      "item": "minecraft:carved_pumpkin"
     },
     "X": {
-      "item": "minecraft:bow"
+      "item": "minecraft:oak_sapling"
     }
   },
   "result": {

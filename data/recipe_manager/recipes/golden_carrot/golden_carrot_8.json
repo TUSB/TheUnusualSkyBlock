@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:allium"
+      "item": "minecraft:green_bed"
     },
     "X": {
-      "item": "minecraft:glass"
+      "item": "minecraft:nether_brick"
     }
   },
   "result": {

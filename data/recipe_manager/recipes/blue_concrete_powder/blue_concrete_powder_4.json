@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_banner"
+      "item": "minecraft:coal_block"
     },
     {
-      "item": "minecraft:blue_glazed_terracotta"
+      "item": "minecraft:cocoa_beans"
     },
     {
-      "item": "minecraft:chainmail_chestplate"
+      "item": "minecraft:cyan_bed"
     },
     {
-      "item": "minecraft:chainmail_leggings"
+      "item": "minecraft:dried_kelp_block"
     },
     {
-      "item": "minecraft:dead_horn_coral_fan"
+      "item": "minecraft:flint_and_steel"
     },
     {
-      "item": "minecraft:nether_brick_stairs"
+      "item": "minecraft:lead"
     },
     {
-      "item": "minecraft:poppy"
+      "item": "minecraft:leather_leggings"
     },
     {
-      "item": "minecraft:red_mushroom"
+      "item": "minecraft:sugar_cane"
     },
     {
-      "item": "minecraft:redstone_block"
+      "item": "minecraft:yellow_glazed_terracotta"
     }
   ],
   "result": {

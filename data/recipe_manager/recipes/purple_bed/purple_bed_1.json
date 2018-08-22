@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:prismarine_bricks"
+      "item": "minecraft:rabbit"
     },
     "X": {
-      "item": "minecraft:spruce_boat"
+      "item": "minecraft:stone_pressure_plate"
     }
   },
   "result": {

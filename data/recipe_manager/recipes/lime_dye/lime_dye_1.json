@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cobweb"
+      "item": "minecraft:birch_leaves"
     },
     {
-      "item": "minecraft:white_carpet"
+      "item": "minecraft:blue_glazed_terracotta"
     }
   ],
   "result": {

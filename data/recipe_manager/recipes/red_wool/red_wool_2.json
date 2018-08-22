@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diamond_leggings"
+      "item": "minecraft:chorus_fruit"
     },
     {
-      "item": "minecraft:emerald"
+      "item": "minecraft:lead"
     }
   ],
   "result": {

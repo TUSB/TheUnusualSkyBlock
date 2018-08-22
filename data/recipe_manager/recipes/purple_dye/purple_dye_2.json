@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diamond_boots"
+      "item": "minecraft:blue_stained_glass"
     },
     {
-      "item": "minecraft:white_shulker_box"
+      "item": "minecraft:yellow_shulker_box"
     }
   ],
   "result": {

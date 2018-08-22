@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blaze_rod"
+      "item": "minecraft:chest_minecart"
     },
     {
-      "item": "minecraft:glass_pane"
+      "item": "minecraft:lime_terracotta"
     }
   ],
   "result": {

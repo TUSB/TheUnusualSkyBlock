@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chipped_anvil"
+      "item": "minecraft:red_nether_bricks"
     },
     {
-      "item": "minecraft:stripped_dark_oak_log"
+      "item": "minecraft:white_glazed_terracotta"
     }
   ],
   "result": {

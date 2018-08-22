@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:melon_slice"
+      "item": "minecraft:acacia_door"
     },
     "X": {
-      "item": "minecraft:red_wool"
+      "item": "minecraft:petrified_oak_slab"
     }
   },
   "result": {

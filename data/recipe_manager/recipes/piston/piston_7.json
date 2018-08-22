@@ -7,16 +7,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:birch_stairs"
+      "item": "minecraft:chainmail_chestplate"
     },
     "#": {
-      "item": "minecraft:brain_coral_fan"
+      "item": "minecraft:dark_oak_boat"
     },
     "X": {
-      "item": "minecraft:repeater"
+      "item": "minecraft:red_concrete_powder"
     },
     "R": {
-      "item": "minecraft:splash_potion"
+      "item": "minecraft:stripped_spruce_wood"
     }
   },
   "result": {

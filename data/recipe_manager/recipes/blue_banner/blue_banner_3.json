@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:enchanting_table"
+      "item": "minecraft:glass"
     },
     "|": {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:oak_pressure_plate"
     }
   },
   "result": {

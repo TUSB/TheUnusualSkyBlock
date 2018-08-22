@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:jungle_trapdoor"
     },
     {
-      "item": "minecraft:white_tulip"
+      "item": "minecraft:mossy_cobblestone"
     }
   ],
   "result": {

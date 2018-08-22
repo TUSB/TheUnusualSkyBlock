@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:pink_concrete_powder"
+      "item": "minecraft:oak_stairs"
     },
     "#": {
-      "item": "minecraft:stone_slab"
+      "item": "minecraft:saddle"
     }
   },
   "result": {

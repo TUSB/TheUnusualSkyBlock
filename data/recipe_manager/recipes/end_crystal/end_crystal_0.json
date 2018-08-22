@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:black_glazed_terracotta"
     },
     "E": {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:diamond_leggings"
     },
     "T": {
-      "item": "minecraft:horn_coral_fan"
+      "item": "minecraft:enchanted_book"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:sand"
+      "item": "minecraft:allium"
     },
     {
-      "item": "minecraft:sandstone_stairs"
+      "item": "minecraft:diamond"
     }
   ],
   "result": {

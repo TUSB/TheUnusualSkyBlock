@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_leggings"
+      "item": "minecraft:beacon"
     },
     "|": {
-      "item": "minecraft:magenta_glazed_terracotta"
+      "item": "minecraft:orange_shulker_box"
     }
   },
   "result": {

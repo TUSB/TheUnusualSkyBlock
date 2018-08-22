@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lime_concrete_powder"
+      "item": "minecraft:netherrack"
     },
     "X": {
-      "item": "minecraft:tube_coral_block"
+      "item": "minecraft:prismarine_brick_stairs"
     }
   },
   "result": {

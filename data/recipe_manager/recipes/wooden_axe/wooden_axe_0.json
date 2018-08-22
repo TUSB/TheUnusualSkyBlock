@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:cooked_chicken"
     },
     "#": {
-      "item": "minecraft:bucket"
+      "item": "minecraft:golden_sword"
     }
   },
   "result": {

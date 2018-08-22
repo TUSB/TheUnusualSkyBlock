@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:andesite"
+      "item": "minecraft:brown_terracotta"
     },
     "#": {
-      "item": "minecraft:brick_stairs"
+      "item": "minecraft:glowstone_dust"
     },
     "R": {
-      "item": "minecraft:orange_shulker_box"
+      "item": "minecraft:iron_pickaxe"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_leaves"
+      "item": "minecraft:grass_path"
     },
     "#": {
-      "item": "minecraft:mossy_cobblestone_wall"
+      "item": "minecraft:gray_stained_glass"
     }
   },
   "result": {

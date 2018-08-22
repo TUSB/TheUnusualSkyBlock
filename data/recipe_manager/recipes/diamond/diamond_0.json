@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:fire_coral_fan"
+      "item": "minecraft:bubble_coral_block"
     }
   ],
   "result": {

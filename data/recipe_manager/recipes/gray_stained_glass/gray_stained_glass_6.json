@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:white_terracotta"
+      "item": "minecraft:cod"
     },
     "X": {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:lingering_potion"
     }
   },
   "result": {

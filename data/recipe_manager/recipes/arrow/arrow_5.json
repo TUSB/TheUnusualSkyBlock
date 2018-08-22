@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cut_sandstone"
+      "item": "minecraft:dried_kelp"
     },
     "#": {
-      "item": "minecraft:lime_stained_glass"
+      "item": "minecraft:lime_dye"
     },
     "Y": {
-      "item": "minecraft:white_concrete"
+      "item": "minecraft:spruce_door"
     }
   },
   "result": {

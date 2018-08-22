@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_prismarine_slab"
+      "item": "minecraft:acacia_pressure_plate"
     },
     "#": {
-      "item": "minecraft:fern"
+      "item": "minecraft:beetroot_soup"
     },
     "Y": {
-      "item": "minecraft:wooden_shovel"
+      "item": "minecraft:dark_oak_door"
     }
   },
   "result": {

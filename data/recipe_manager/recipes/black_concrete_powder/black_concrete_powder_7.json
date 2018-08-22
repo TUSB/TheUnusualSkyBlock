@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bubble_coral_fan"
+      "item": "minecraft:beef"
     },
     {
-      "item": "minecraft:chiseled_stone_bricks"
+      "item": "minecraft:birch_stairs"
     },
     {
-      "item": "minecraft:gray_concrete"
+      "item": "minecraft:black_banner"
     },
     {
-      "item": "minecraft:green_concrete_powder"
+      "item": "minecraft:dark_prismarine"
     },
     {
-      "item": "minecraft:prismarine_slab"
+      "item": "minecraft:shulker_shell"
     },
     {
-      "item": "minecraft:rabbit_hide"
+      "item": "minecraft:stripped_jungle_wood"
     },
     {
-      "item": "minecraft:red_sandstone"
+      "item": "minecraft:tube_coral_fan"
     },
     {
-      "item": "minecraft:stripped_birch_log"
+      "item": "minecraft:white_stained_glass_pane"
     },
     {
-      "item": "minecraft:wooden_axe"
+      "item": "minecraft:yellow_glazed_terracotta"
     }
   ],
   "result": {

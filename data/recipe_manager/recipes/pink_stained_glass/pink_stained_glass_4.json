@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_blue_concrete"
+      "item": "minecraft:oak_stairs"
     },
     "X": {
-      "item": "minecraft:white_concrete"
+      "item": "minecraft:podzol"
     }
   },
   "result": {

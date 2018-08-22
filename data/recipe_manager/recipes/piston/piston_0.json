@@ -7,16 +7,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:coal_ore"
+      "item": "minecraft:furnace_minecart"
     },
     "#": {
-      "item": "minecraft:daylight_detector"
+      "item": "minecraft:golden_pickaxe"
     },
     "X": {
-      "item": "minecraft:flint"
+      "item": "minecraft:red_sandstone"
     },
     "R": {
-      "item": "minecraft:stripped_birch_log"
+      "item": "minecraft:shield"
     }
   },
   "result": {

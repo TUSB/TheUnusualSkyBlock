@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_terracotta"
+      "item": "minecraft:brown_mushroom_block"
     },
     "X": {
-      "item": "minecraft:string"
+      "item": "minecraft:tipped_arrow"
     }
   },
   "result": {

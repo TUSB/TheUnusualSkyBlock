@@ -7,10 +7,10 @@
   ],
   "key": {
     "-": {
-      "item": "minecraft:coal_ore"
+      "item": "minecraft:jungle_fence"
     },
     "#": {
-      "item": "minecraft:wither_skeleton_skull"
+      "item": "minecraft:lilac"
     }
   },
   "result": {

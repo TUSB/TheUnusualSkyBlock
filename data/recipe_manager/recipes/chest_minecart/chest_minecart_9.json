@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:chorus_flower"
     },
     "B": {
-      "item": "minecraft:stripped_acacia_wood"
+      "item": "minecraft:iron_trapdoor"
     }
   },
   "result": {

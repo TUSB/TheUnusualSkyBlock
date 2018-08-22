@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:birch_log"
+      "item": "minecraft:dark_oak_wood"
     },
     "#": {
-      "item": "minecraft:wet_sponge"
+      "item": "minecraft:golden_chestplate"
     }
   },
   "result": {

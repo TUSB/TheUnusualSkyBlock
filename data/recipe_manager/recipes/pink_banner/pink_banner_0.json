@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:nether_quartz_ore"
+      "item": "minecraft:blue_shulker_box"
     },
     "|": {
-      "item": "minecraft:pink_concrete_powder"
+      "item": "minecraft:chorus_fruit"
     }
   },
   "result": {

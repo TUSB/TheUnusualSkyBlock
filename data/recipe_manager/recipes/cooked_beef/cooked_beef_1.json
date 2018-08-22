@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:prismarine_shard"
+      "item": "minecraft:chiseled_sandstone"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_mushroom"
+      "item": "minecraft:jungle_door"
     },
     "|": {
-      "item": "minecraft:lime_wool"
+      "item": "minecraft:trident"
     }
   },
   "result": {

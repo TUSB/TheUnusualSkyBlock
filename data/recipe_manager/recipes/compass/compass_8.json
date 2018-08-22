@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:golden_pickaxe"
+      "item": "minecraft:birch_slab"
     },
     "X": {
-      "item": "minecraft:infested_cracked_stone_bricks"
+      "item": "minecraft:dried_kelp_block"
     }
   },
   "result": {

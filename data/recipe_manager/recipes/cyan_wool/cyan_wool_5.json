@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:red_sandstone_stairs"
+      "item": "minecraft:blue_glazed_terracotta"
     },
     {
-      "item": "minecraft:yellow_stained_glass_pane"
+      "item": "minecraft:nether_bricks"
     }
   ],
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diamond_axe"
+      "item": "minecraft:cyan_carpet"
     },
     {
-      "item": "minecraft:kelp"
+      "item": "minecraft:white_stained_glass"
     }
   ],
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bowl"
+      "item": "minecraft:acacia_sapling"
     },
     {
-      "item": "minecraft:chainmail_boots"
+      "item": "minecraft:black_wool"
     },
     {
-      "item": "minecraft:fire_coral_block"
+      "item": "minecraft:clock"
     },
     {
-      "item": "minecraft:granite"
+      "item": "minecraft:cyan_stained_glass"
     },
     {
-      "item": "minecraft:green_carpet"
+      "item": "minecraft:gray_concrete"
     },
     {
-      "item": "minecraft:lime_banner"
+      "item": "minecraft:gray_wool"
     },
     {
-      "item": "minecraft:packed_ice"
+      "item": "minecraft:jungle_slab"
     },
     {
-      "item": "minecraft:rabbit_foot"
+      "item": "minecraft:quartz_stairs"
     },
     {
-      "item": "minecraft:redstone"
+      "item": "minecraft:written_book"
     }
   ],
   "result": {

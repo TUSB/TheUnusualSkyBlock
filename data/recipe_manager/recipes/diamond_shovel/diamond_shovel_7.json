@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond_ore"
+      "item": "minecraft:red_banner"
     },
     "#": {
-      "item": "minecraft:iron_trapdoor"
+      "item": "minecraft:yellow_concrete"
     }
   },
   "result": {

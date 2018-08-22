@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:leather"
+      "item": "minecraft:hopper"
     },
     "X": {
-      "item": "minecraft:orange_glazed_terracotta"
+      "item": "minecraft:oak_sapling"
     }
   },
   "result": {

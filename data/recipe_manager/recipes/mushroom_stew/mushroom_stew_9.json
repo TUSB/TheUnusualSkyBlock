@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cooked_cod"
+      "item": "minecraft:activator_rail"
     },
     {
-      "item": "minecraft:leather_boots"
+      "item": "minecraft:polished_granite"
     },
     {
-      "item": "minecraft:snow"
+      "item": "minecraft:red_tulip"
     }
   ],
   "result": {

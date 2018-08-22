@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:golden_apple"
+      "item": "minecraft:dark_prismarine_slab"
     },
     "#": {
-      "item": "minecraft:sugar_cane"
+      "item": "minecraft:pink_stained_glass_pane"
     }
   },
   "result": {

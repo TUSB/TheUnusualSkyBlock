@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_fence"
+      "item": "minecraft:golden_sword"
     },
     {
-      "item": "minecraft:quartz_slab"
+      "item": "minecraft:white_carpet"
     }
   ],
   "result": {

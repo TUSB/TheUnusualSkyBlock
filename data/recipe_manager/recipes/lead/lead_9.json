@@ -7,10 +7,10 @@
   ],
   "key": {
     "~": {
-      "item": "minecraft:coal_block"
+      "item": "minecraft:snow"
     },
     "O": {
-      "item": "minecraft:gray_concrete_powder"
+      "item": "minecraft:stone_brick_stairs"
     }
   },
   "result": {

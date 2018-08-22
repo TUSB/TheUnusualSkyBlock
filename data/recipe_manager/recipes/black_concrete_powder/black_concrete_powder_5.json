@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_planks"
+      "item": "minecraft:blue_wool"
     },
     {
-      "item": "minecraft:gray_stained_glass_pane"
+      "item": "minecraft:cyan_concrete_powder"
     },
     {
-      "item": "minecraft:iron_horse_armor"
+      "item": "minecraft:diamond_leggings"
     },
     {
-      "item": "minecraft:iron_shovel"
+      "item": "minecraft:emerald"
     },
     {
-      "item": "minecraft:orange_wool"
+      "item": "minecraft:hopper"
     },
     {
-      "item": "minecraft:porkchop"
+      "item": "minecraft:light_blue_glazed_terracotta"
     },
     {
-      "item": "minecraft:white_shulker_box"
+      "item": "minecraft:mushroom_stem"
     },
     {
-      "item": "minecraft:wither_skeleton_skull"
+      "item": "minecraft:red_nether_bricks"
     },
     {
-      "item": "minecraft:wooden_shovel"
+      "item": "minecraft:spider_eye"
     }
   ],
   "result": {

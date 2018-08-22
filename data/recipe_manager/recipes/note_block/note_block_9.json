@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:player_head"
+      "item": "minecraft:map"
     },
     "X": {
-      "item": "minecraft:redstone"
+      "item": "minecraft:note_block"
     }
   },
   "result": {

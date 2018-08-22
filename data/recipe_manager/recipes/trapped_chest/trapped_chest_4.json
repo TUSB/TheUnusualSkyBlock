@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:ladder"
+      "item": "minecraft:dead_brain_coral_fan"
     },
     {
-      "item": "minecraft:trapped_chest"
+      "item": "minecraft:lead"
     }
   ],
   "result": {

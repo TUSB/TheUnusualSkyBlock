@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_slab"
+      "item": "minecraft:red_carpet"
     },
     "#": {
-      "item": "minecraft:oxeye_daisy"
+      "item": "minecraft:saddle"
     }
   },
   "result": {

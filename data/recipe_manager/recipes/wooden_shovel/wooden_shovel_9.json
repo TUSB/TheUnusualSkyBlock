@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:golden_chestplate"
+      "item": "minecraft:dispenser"
     },
     "#": {
-      "item": "minecraft:jungle_button"
+      "item": "minecraft:iron_trapdoor"
     }
   },
   "result": {

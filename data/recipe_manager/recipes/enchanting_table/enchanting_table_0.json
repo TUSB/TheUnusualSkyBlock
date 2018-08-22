@@ -7,13 +7,13 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:acacia_fence_gate"
+      "item": "minecraft:andesite"
     },
     "D": {
-      "item": "minecraft:bucket"
+      "item": "minecraft:arrow"
     },
     "#": {
-      "item": "minecraft:carved_pumpkin"
+      "item": "minecraft:mushroom_stew"
     }
   },
   "result": {

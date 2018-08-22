@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cobblestone"
+      "item": "minecraft:dead_bubble_coral_fan"
     },
     {
-      "item": "minecraft:dead_bubble_coral_block"
+      "item": "minecraft:stripped_acacia_log"
     }
   ],
   "result": {

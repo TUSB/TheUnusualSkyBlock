@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:light_blue_concrete"
+      "item": "minecraft:purpur_slab"
     }
   ],
   "result": {

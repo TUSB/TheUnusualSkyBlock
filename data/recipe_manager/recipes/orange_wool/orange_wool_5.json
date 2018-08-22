@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:purple_terracotta"
+      "item": "minecraft:glass_pane"
     },
     {
-      "item": "minecraft:yellow_banner"
+      "item": "minecraft:lime_concrete_powder"
     }
   ],
   "result": {

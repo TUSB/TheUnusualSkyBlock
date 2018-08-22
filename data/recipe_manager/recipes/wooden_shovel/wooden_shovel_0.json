@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brown_stained_glass"
+      "item": "minecraft:brown_carpet"
     },
     "#": {
-      "item": "minecraft:tall_grass"
+      "item": "minecraft:spider_eye"
     }
   },
   "result": {

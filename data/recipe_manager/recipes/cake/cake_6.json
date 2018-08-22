@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:iron_trapdoor"
+      "item": "minecraft:cod"
     },
     "B": {
-      "item": "minecraft:jungle_stairs"
+      "item": "minecraft:green_bed"
     },
     "E": {
-      "item": "minecraft:magenta_stained_glass_pane"
+      "item": "minecraft:note_block"
     },
     "C": {
-      "item": "minecraft:stripped_jungle_wood"
+      "item": "minecraft:purple_concrete_powder"
     }
   },
   "result": {

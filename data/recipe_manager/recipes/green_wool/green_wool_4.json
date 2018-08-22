@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_wood"
+      "item": "minecraft:iron_sword"
     },
     {
-      "item": "minecraft:prismarine_slab"
+      "item": "minecraft:map"
     }
   ],
   "result": {

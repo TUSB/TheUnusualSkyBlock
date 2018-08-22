@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:light_gray_shulker_box"
+      "item": "minecraft:acacia_wood"
     },
     "#": {
-      "item": "minecraft:white_stained_glass"
+      "item": "minecraft:nether_wart"
     }
   },
   "result": {

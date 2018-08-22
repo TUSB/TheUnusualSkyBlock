@@ -7,13 +7,13 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:bone_block"
+      "item": "minecraft:gray_terracotta"
     },
     "S": {
-      "item": "minecraft:dark_prismarine"
+      "item": "minecraft:prismarine_brick_slab"
     },
     "#": {
-      "item": "minecraft:oak_leaves"
+      "item": "minecraft:purple_wool"
     }
   },
   "result": {

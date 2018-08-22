@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:dark_oak_fence"
+      "item": "minecraft:iron_door"
     },
     "B": {
-      "item": "minecraft:red_stained_glass_pane"
+      "item": "minecraft:prismarine_brick_stairs"
     }
   },
   "result": {

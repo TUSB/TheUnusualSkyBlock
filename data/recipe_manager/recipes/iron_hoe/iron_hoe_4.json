@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cyan_concrete_powder"
+      "item": "minecraft:quartz"
     },
     "#": {
-      "item": "minecraft:lily_pad"
+      "item": "minecraft:string"
     }
   },
   "result": {

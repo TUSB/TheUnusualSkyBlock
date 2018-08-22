@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_sapling"
+      "item": "minecraft:green_glazed_terracotta"
     },
     "X": {
-      "item": "minecraft:stripped_birch_log"
+      "item": "minecraft:light_gray_stained_glass_pane"
     }
   },
   "result": {

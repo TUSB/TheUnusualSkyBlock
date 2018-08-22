@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:rabbit_foot"
     },
     "#": {
-      "item": "minecraft:infested_cobblestone"
+      "item": "minecraft:stripped_oak_wood"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dirt"
+      "item": "minecraft:birch_pressure_plate"
     },
     "X": {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:cyan_concrete_powder"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:lime_bed"
     },
     "|": {
-      "item": "minecraft:light_gray_carpet"
+      "item": "minecraft:white_shulker_box"
     }
   },
   "result": {

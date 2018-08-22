@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_bed"
+      "item": "minecraft:birch_log"
     },
     "X": {
-      "item": "minecraft:cyan_wool"
+      "item": "minecraft:poisonous_potato"
     }
   },
   "result": {

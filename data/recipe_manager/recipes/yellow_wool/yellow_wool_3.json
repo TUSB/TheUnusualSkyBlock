@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:red_sandstone_slab"
+      "item": "minecraft:brick"
     },
     {
-      "item": "minecraft:stone_brick_stairs"
+      "item": "minecraft:white_tulip"
     }
   ],
   "result": {

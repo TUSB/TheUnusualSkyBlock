@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bubble_coral"
+      "item": "minecraft:iron_helmet"
     },
     "|": {
-      "item": "minecraft:string"
+      "item": "minecraft:trapped_chest"
     }
   },
   "result": {

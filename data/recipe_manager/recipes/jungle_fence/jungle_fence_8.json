@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:ice"
+      "item": "minecraft:dark_oak_planks"
     },
     "#": {
-      "item": "minecraft:red_stained_glass_pane"
+      "item": "minecraft:nether_wart_block"
     }
   },
   "result": {

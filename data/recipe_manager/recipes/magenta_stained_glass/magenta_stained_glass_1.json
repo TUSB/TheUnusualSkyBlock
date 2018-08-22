@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:nether_wart_block"
+      "item": "minecraft:coal"
     },
     "X": {
-      "item": "minecraft:stripped_dark_oak_log"
+      "item": "minecraft:gold_ingot"
     }
   },
   "result": {

@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:nether_quartz_ore"
+      "item": "minecraft:iron_boots"
     }
   ],
   "result": {

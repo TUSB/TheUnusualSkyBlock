@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cauldron"
+      "item": "minecraft:black_stained_glass_pane"
     },
     {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:hay_block"
     },
     {
-      "item": "minecraft:leather"
+      "item": "minecraft:iron_sword"
     },
     {
-      "item": "minecraft:light_blue_stained_glass"
+      "item": "minecraft:ladder"
     },
     {
-      "item": "minecraft:lime_shulker_box"
+      "item": "minecraft:magenta_concrete_powder"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:sponge"
     },
     {
-      "item": "minecraft:poppy"
+      "item": "minecraft:spruce_stairs"
     },
     {
-      "item": "minecraft:spruce_button"
+      "item": "minecraft:stone_brick_stairs"
     },
     {
-      "item": "minecraft:wooden_axe"
+      "item": "minecraft:wheat_seeds"
     }
   ],
   "result": {

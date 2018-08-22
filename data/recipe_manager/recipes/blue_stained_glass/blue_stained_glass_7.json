@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:coal"
+      "item": "minecraft:acacia_leaves"
     },
     "X": {
-      "item": "minecraft:powered_rail"
+      "item": "minecraft:wooden_axe"
     }
   },
   "result": {

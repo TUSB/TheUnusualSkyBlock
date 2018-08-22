@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:bow"
+      "item": "minecraft:dark_oak_door"
     },
     "#": {
-      "item": "minecraft:farmland"
+      "item": "minecraft:green_terracotta"
     },
     "R": {
-      "item": "minecraft:lime_terracotta"
+      "item": "minecraft:stripped_jungle_wood"
     }
   },
   "result": {

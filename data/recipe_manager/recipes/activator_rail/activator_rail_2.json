@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_slab"
+      "item": "minecraft:comparator"
     },
     "S": {
-      "item": "minecraft:cyan_banner"
+      "item": "minecraft:dark_oak_wood"
     },
     "#": {
-      "item": "minecraft:light_gray_concrete"
+      "item": "minecraft:potion"
     }
   },
   "result": {

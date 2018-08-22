@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dropper"
+      "item": "minecraft:iron_trapdoor"
     },
     {
-      "item": "minecraft:purple_banner"
+      "item": "minecraft:stone_sword"
     },
     {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:yellow_carpet"
     }
   ],
   "result": {

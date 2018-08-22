@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:andesite"
     },
     {
-      "item": "minecraft:cobweb"
+      "item": "minecraft:black_concrete"
     },
     {
-      "item": "minecraft:hopper_minecart"
+      "item": "minecraft:carved_pumpkin"
     },
     {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:comparator"
     },
     {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:cut_red_sandstone"
     },
     {
-      "item": "minecraft:quartz_pillar"
+      "item": "minecraft:diamond_leggings"
     },
     {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:nether_brick_stairs"
     },
     {
-      "item": "minecraft:shears"
+      "item": "minecraft:skeleton_skull"
     },
     {
-      "item": "minecraft:terracotta"
+      "item": "minecraft:sponge"
     }
   ],
   "result": {

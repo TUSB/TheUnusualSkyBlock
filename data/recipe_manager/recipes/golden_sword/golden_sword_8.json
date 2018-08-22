@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:iron_pickaxe"
+      "item": "minecraft:ladder"
     },
     "#": {
-      "item": "minecraft:yellow_wool"
+      "item": "minecraft:pink_concrete"
     }
   },
   "result": {
