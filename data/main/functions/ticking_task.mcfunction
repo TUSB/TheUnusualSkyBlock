@@ -7,9 +7,11 @@ execute if entity @s[tag=TowardPlayer] at @p[gamemode=!spectator,scores={TimeSin
 execute if entity @s[tag=TowardPlayer] run function calc_manager:set/rotation1
 execute if entity @s[tag=AroundPlayer] facing entity @p[gamemode=!spectator,scores={TimeSinceDeath=1..}] feet rotated ~-45 ~ positioned ^ ^ ^1 run function calc_manager:get/angle1
 execute if entity @s[tag=AroundPlayer,tag=Inverted] facing entity @p[gamemode=!spectator,scores={TimeSinceDeath=1..}] feet rotated ~45 ~ positioned ^ ^ ^1 run function calc_manager:get/angle1
-execute if entity @s[tag=AroundPlayer,tag=Yamagata] facing entity @p[gamemode=!spectator,scores={TimeSinceDeath=1..}] feet if entity @s[y_rotation=-90..0] rotated ~ ~-65 positioned ^ ^ ^1 run function calc_manager:get/angle1
-execute if entity @s[tag=AroundPlayer,tag=Yamagata] facing entity @p[gamemode=!spectator,scores={TimeSinceDeath=1..}] feet if entity @s[y_rotation=1..90] rotated ~ ~65 positioned ^ ^ ^1 run function calc_manager:get/angle1
 execute if entity @s[tag=AroundPlayer] run function calc_manager:set/rotation1
+
+execute if entity @s[tag=Yamagata] facing entity @p[gamemode=!spectator,scores={TimeSinceDeath=1..}] feet if entity @s[y_rotation=-90..0] rotated ~ ~-65 positioned ^ ^ ^1 run function calc_manager:get/angle1
+execute if entity @s[tag=Yamagata] facing entity @p[gamemode=!spectator,scores={TimeSinceDeath=1..}] feet if entity @s[y_rotation=1..90] rotated ~ ~65 positioned ^ ^ ^1 run function calc_manager:get/angle1
+execute if entity @s[tag=Yamagata] run function calc_manager:set/rotation1
 
 ###地烈斬
 execute if entity @s[tag=CrackSlash] run function skill_manager:knight/crack_slash/tick
