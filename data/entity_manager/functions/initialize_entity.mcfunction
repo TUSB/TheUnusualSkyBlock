@@ -23,7 +23,7 @@ data merge entity @s[tag=Mob] {Attributes:[{Name:"generic.maxHealth",Base:1024d}
 execute store result score @s[tag=Mob] MobHPMax run data get entity @s[tag=Mob] AbsorptionAmount 10
 
 ###追尾
-execute if entity @s[tag=AimingPlayer] run function entity_manager:aiming_player
+execute if entity @s[tag=AimingPlayer,tag=!Bullet] run function entity_manager:aiming_player
 
 ###鶏騎乗タイプ削除
 tag @s[type=minecraft:chicken,nbt={Passengers:[{}]}] add Vehicle
@@ -86,6 +86,7 @@ tag @s[type=minecraft:tnt_minecart] add
 tag @s[type=minecraft:experience_orb] add 
 
 tag @s[tag=FlyingRequired] add TickingTask
+tag @s[tag=GunPowder] add CooldownRequired
 tag @s[tag=CooldownRequired] add ObserveCooldown
 tag @s[tag=ObserveCooldown] add TickingTask
 tag @s[tag=Swim] add TickingTask

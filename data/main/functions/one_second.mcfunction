@@ -77,7 +77,7 @@ execute as @e[tag=FollowPlayer] at @s run function entity_manager:follow_player
 execute as @e[tag=BlockPlacer] at @s run function enemy_manager:block_placer/common
 
 ### 上エンティティ維持
-execute as @e[tag=Mule] at @s run function calc_manager:maintain/cargo
+execute as @e[tag=Mule] at @s run function entity_manager:maintain/cargo
 
 ### ライブラ処理
 scoreboard players remove $Libra Global 1
