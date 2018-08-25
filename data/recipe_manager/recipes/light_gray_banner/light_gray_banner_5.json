@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chorus_flower"
+      "item": "minecraft:diorite"
     },
     "|": {
-      "item": "minecraft:spruce_log"
+      "item": "minecraft:lime_dye"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:green_bed"
+      "item": "minecraft:farmland"
     },
     {
-      "item": "minecraft:magenta_concrete"
+      "item": "minecraft:string"
     }
   ],
   "result": {

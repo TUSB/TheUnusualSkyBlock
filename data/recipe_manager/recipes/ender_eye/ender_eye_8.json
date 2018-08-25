@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:rose_red"
     },
     {
-      "item": "minecraft:diamond_hoe"
+      "item": "minecraft:white_glazed_terracotta"
     }
   ],
   "result": {

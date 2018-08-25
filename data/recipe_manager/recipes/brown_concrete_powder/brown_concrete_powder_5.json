@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chiseled_sandstone"
+      "item": "minecraft:brain_coral"
     },
     {
-      "item": "minecraft:dark_oak_boat"
+      "item": "minecraft:carved_pumpkin"
     },
     {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:diamond_chestplate"
     },
     {
-      "item": "minecraft:pink_shulker_box"
+      "item": "minecraft:dragon_breath"
     },
     {
-      "item": "minecraft:skeleton_skull"
+      "item": "minecraft:green_wool"
     },
     {
-      "item": "minecraft:tipped_arrow"
+      "item": "minecraft:ice"
     },
     {
-      "item": "minecraft:tnt_minecart"
+      "item": "minecraft:leather_helmet"
     },
     {
-      "item": "minecraft:tropical_fish"
+      "item": "minecraft:mycelium"
     },
     {
-      "item": "minecraft:white_stained_glass"
+      "item": "minecraft:prismarine"
     }
   ],
   "result": {

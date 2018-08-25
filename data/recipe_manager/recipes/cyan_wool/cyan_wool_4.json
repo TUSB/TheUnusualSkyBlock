@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chorus_fruit"
+      "item": "minecraft:cake"
     },
     {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:diamond_sword"
     }
   ],
   "result": {

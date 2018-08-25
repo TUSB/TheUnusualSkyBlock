@@ -2,16 +2,16 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_boat"
+      "item": "minecraft:black_banner"
     },
     {
-      "item": "minecraft:creeper_head"
+      "item": "minecraft:diamond_hoe"
     },
     {
-      "item": "minecraft:lime_terracotta"
+      "item": "minecraft:furnace_minecart"
     },
     {
-      "item": "minecraft:purple_wool"
+      "item": "minecraft:nether_brick_fence"
     }
   ],
   "result": {

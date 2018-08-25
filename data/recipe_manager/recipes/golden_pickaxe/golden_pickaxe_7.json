@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cyan_concrete_powder"
+      "item": "minecraft:cut_sandstone"
     },
     "#": {
-      "item": "minecraft:iron_bars"
+      "item": "minecraft:white_concrete"
     }
   },
   "result": {

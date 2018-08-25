@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:grass_path"
+      "item": "minecraft:cod_bucket"
     },
     "X": {
-      "item": "minecraft:wheat"
+      "item": "minecraft:comparator"
     }
   },
   "result": {

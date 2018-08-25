@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_glazed_terracotta"
+      "item": "minecraft:cyan_shulker_box"
     },
     "R": {
-      "item": "minecraft:spruce_trapdoor"
+      "item": "minecraft:podzol"
     }
   },
   "result": {

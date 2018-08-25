@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brain_coral"
+      "item": "minecraft:dark_oak_log"
     },
     "#": {
-      "item": "minecraft:nether_quartz_ore"
+      "item": "minecraft:light_blue_stained_glass"
     },
     "R": {
-      "item": "minecraft:spider_eye"
+      "item": "minecraft:spruce_button"
     }
   },
   "result": {

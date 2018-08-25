@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bowl"
+      "item": "minecraft:flower_pot"
     },
     "X": {
-      "item": "minecraft:red_mushroom_block"
+      "item": "minecraft:spruce_planks"
     }
   },
   "result": {

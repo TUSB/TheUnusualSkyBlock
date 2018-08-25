@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:emerald_block"
+      "item": "minecraft:birch_fence"
     },
     "X": {
-      "item": "minecraft:spruce_slab"
+      "item": "minecraft:ice"
     }
   },
   "result": {

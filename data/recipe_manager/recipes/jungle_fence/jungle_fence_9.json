@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:dropper"
+      "item": "minecraft:jungle_boat"
     },
     "#": {
-      "item": "minecraft:white_concrete"
+      "item": "minecraft:piston"
     }
   },
   "result": {

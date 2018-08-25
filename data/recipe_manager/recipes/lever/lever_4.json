@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond_chestplate"
+      "item": "minecraft:bricks"
     },
     "#": {
-      "item": "minecraft:lime_shulker_box"
+      "item": "minecraft:gray_glazed_terracotta"
     }
   },
   "result": {

@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:flint_and_steel"
+      "item": "minecraft:powered_rail"
     },
     "X": {
-      "item": "minecraft:mossy_cobblestone_wall"
+      "item": "minecraft:purple_wool"
     },
     "I": {
-      "item": "minecraft:red_nether_bricks"
+      "item": "minecraft:snow"
     }
   },
   "result": {

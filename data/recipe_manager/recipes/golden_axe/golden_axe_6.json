@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:red_mushroom"
+      "item": "minecraft:birch_boat"
     },
     "#": {
-      "item": "minecraft:smooth_stone"
+      "item": "minecraft:cyan_glazed_terracotta"
     }
   },
   "result": {

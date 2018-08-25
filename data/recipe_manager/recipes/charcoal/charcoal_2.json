@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lapis_ore"
+      "item": "minecraft:white_bed"
     }
   ],
   "result": {

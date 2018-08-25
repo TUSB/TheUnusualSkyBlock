@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:ice"
+      "item": "minecraft:brain_coral"
     },
     "X": {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:gray_wool"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:redstone_torch"
     },
     "X": {
-      "item": "minecraft:wet_sponge"
+      "item": "minecraft:white_terracotta"
     }
   },
   "result": {

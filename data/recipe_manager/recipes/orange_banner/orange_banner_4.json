@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bucket"
+      "item": "minecraft:diamond_leggings"
     },
     "|": {
-      "item": "minecraft:lapis_block"
+      "item": "minecraft:green_bed"
     }
   },
   "result": {

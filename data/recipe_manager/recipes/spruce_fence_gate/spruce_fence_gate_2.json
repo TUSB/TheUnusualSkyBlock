@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dragon_head"
+      "item": "minecraft:red_shulker_box"
     },
     "W": {
-      "item": "minecraft:gray_shulker_box"
+      "item": "minecraft:slime_ball"
     }
   },
   "result": {

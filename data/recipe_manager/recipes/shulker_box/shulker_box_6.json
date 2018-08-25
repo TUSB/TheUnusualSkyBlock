@@ -7,10 +7,10 @@
   ],
   "key": {
     "-": {
-      "item": "minecraft:leather_chestplate"
+      "item": "minecraft:armor_stand"
     },
     "#": {
-      "item": "minecraft:smooth_quartz"
+      "item": "minecraft:grass_block"
     }
   },
   "result": {

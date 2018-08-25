@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_leggings"
+      "item": "minecraft:armor_stand"
     },
     "X": {
-      "item": "minecraft:light_blue_glazed_terracotta"
+      "item": "minecraft:stone_pressure_plate"
     }
   },
   "result": {

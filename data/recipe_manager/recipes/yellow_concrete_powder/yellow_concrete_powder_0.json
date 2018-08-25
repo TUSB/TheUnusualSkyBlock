@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_ice"
+      "item": "minecraft:birch_sapling"
     },
     {
-      "item": "minecraft:brick"
+      "item": "minecraft:black_shulker_box"
     },
     {
-      "item": "minecraft:brown_carpet"
+      "item": "minecraft:brown_concrete"
     },
     {
-      "item": "minecraft:diamond_pickaxe"
+      "item": "minecraft:brown_concrete_powder"
     },
     {
-      "item": "minecraft:lever"
+      "item": "minecraft:chorus_fruit"
     },
     {
-      "item": "minecraft:light_gray_stained_glass"
+      "item": "minecraft:green_terracotta"
     },
     {
-      "item": "minecraft:prismarine_slab"
+      "item": "minecraft:hopper"
     },
     {
-      "item": "minecraft:purple_glazed_terracotta"
+      "item": "minecraft:light_blue_concrete_powder"
     },
     {
-      "item": "minecraft:red_mushroom_block"
+      "item": "minecraft:stripped_oak_wood"
     }
   ],
   "result": {

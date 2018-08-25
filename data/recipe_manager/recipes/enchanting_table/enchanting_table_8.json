@@ -7,13 +7,13 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:acacia_wood"
+      "item": "minecraft:glowstone_dust"
     },
     "D": {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:light_blue_bed"
     },
     "#": {
-      "item": "minecraft:wooden_hoe"
+      "item": "minecraft:wheat_seeds"
     }
   },
   "result": {

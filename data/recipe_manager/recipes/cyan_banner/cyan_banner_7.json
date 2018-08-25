@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:mossy_stone_bricks"
+      "item": "minecraft:jungle_slab"
     },
     "|": {
-      "item": "minecraft:orange_bed"
+      "item": "minecraft:rose_red"
     }
   },
   "result": {

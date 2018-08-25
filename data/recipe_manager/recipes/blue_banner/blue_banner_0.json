@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:beetroot"
+      "item": "minecraft:iron_ore"
     },
     "|": {
-      "item": "minecraft:jungle_sapling"
+      "item": "minecraft:pink_terracotta"
     }
   },
   "result": {

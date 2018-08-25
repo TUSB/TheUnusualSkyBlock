@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:gray_concrete_powder"
+      "item": "minecraft:chainmail_chestplate"
     },
     {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:light_blue_bed"
     }
   ],
   "result": {

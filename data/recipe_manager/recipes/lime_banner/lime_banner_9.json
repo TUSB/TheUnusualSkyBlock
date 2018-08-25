@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:daylight_detector"
+      "item": "minecraft:fishing_rod"
     },
     "|": {
-      "item": "minecraft:egg"
+      "item": "minecraft:pink_dye"
     }
   },
   "result": {

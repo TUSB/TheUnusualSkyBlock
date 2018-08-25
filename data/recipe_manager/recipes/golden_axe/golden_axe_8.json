@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:quartz_pillar"
+      "item": "minecraft:chiseled_sandstone"
     },
     "#": {
-      "item": "minecraft:saddle"
+      "item": "minecraft:light_gray_glazed_terracotta"
     }
   },
   "result": {

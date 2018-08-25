@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_fence"
+      "item": "minecraft:bone_meal"
     },
     {
-      "item": "minecraft:egg"
+      "item": "minecraft:golden_boots"
     },
     {
-      "item": "minecraft:gray_concrete_powder"
+      "item": "minecraft:green_stained_glass"
     },
     {
-      "item": "minecraft:infested_stone"
+      "item": "minecraft:iron_boots"
     },
     {
-      "item": "minecraft:iron_nugget"
+      "item": "minecraft:lilac"
     },
     {
-      "item": "minecraft:light_blue_stained_glass_pane"
+      "item": "minecraft:lily_pad"
     },
     {
-      "item": "minecraft:scute"
+      "item": "minecraft:magenta_glazed_terracotta"
     },
     {
-      "item": "minecraft:stone_sword"
+      "item": "minecraft:petrified_oak_slab"
     },
     {
-      "item": "minecraft:yellow_concrete"
+      "item": "minecraft:porkchop"
     }
   ],
   "result": {

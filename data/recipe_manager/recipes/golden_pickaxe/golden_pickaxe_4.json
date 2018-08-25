@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:jungle_wood"
+      "item": "minecraft:cobblestone_wall"
     },
     "#": {
-      "item": "minecraft:magma_cream"
+      "item": "minecraft:dark_oak_door"
     }
   },
   "result": {

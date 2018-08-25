@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:creeper_head"
+      "item": "minecraft:light_gray_bed"
     },
     "#": {
-      "item": "minecraft:light_gray_wool"
+      "item": "minecraft:wheat"
     }
   },
   "result": {

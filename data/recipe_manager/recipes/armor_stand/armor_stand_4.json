@@ -7,10 +7,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:coal_ore"
+      "item": "minecraft:brown_shulker_box"
     },
     "_": {
-      "item": "minecraft:purple_stained_glass_pane"
+      "item": "minecraft:light_gray_banner"
     }
   },
   "result": {

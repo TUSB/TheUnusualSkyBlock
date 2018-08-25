@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:purple_terracotta"
+      "item": "minecraft:acacia_slab"
     },
     "|": {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:quartz_block"
     }
   },
   "result": {

@@ -2,16 +2,16 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cooked_salmon"
+      "item": "minecraft:green_bed"
     },
     {
-      "item": "minecraft:pink_dye"
+      "item": "minecraft:milk_bucket"
     },
     {
-      "item": "minecraft:red_carpet"
+      "item": "minecraft:purpur_pillar"
     },
     {
-      "item": "minecraft:white_stained_glass_pane"
+      "item": "minecraft:sunflower"
     }
   ],
   "result": {

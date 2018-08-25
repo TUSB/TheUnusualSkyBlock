@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:mushroom_stew"
+      "item": "minecraft:sea_pickle"
     },
     "#": {
-      "item": "minecraft:pink_concrete_powder"
+      "item": "minecraft:spruce_pressure_plate"
     }
   },
   "result": {

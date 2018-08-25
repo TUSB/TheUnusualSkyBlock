@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "item": "minecraft:iron_axe"
     },
     {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:pink_wool"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_wood"
+      "item": "minecraft:magenta_concrete"
     },
     "X": {
-      "item": "minecraft:purple_concrete_powder"
+      "item": "minecraft:spruce_button"
     }
   },
   "result": {

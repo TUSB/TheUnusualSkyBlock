@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:infested_mossy_stone_bricks"
+      "item": "minecraft:cyan_stained_glass"
     },
     "X": {
-      "item": "minecraft:light_gray_glazed_terracotta"
+      "item": "minecraft:redstone_block"
     }
   },
   "result": {

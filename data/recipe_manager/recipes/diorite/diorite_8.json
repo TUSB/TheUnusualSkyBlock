@@ -6,10 +6,10 @@
   ],
   "key": {
     "C": {
-      "item": "minecraft:blue_glazed_terracotta"
+      "item": "minecraft:chest"
     },
     "Q": {
-      "item": "minecraft:redstone_lamp"
+      "item": "minecraft:chorus_plant"
     }
   },
   "result": {

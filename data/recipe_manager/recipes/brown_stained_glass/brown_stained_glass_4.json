@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brain_coral"
+      "item": "minecraft:redstone_ore"
     },
     "X": {
-      "item": "minecraft:jungle_trapdoor"
+      "item": "minecraft:seagrass"
     }
   },
   "result": {

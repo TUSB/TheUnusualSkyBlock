@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:netherrack"
+      "item": "minecraft:jungle_pressure_plate"
     }
   ],
   "result": {

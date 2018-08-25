@@ -6,10 +6,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:diorite"
+      "item": "minecraft:lime_carpet"
     },
     "#": {
-      "item": "minecraft:prismarine_bricks"
+      "item": "minecraft:magenta_dye"
     }
   },
   "result": {

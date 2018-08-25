@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:spruce_pressure_plate"
+      "item": "minecraft:stripped_oak_wood"
     }
   ],
   "result": {

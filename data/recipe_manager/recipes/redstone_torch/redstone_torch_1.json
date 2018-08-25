@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:birch_door"
+      "item": "minecraft:mossy_stone_bricks"
     },
     "#": {
-      "item": "minecraft:hopper_minecart"
+      "item": "minecraft:quartz_block"
     }
   },
   "result": {

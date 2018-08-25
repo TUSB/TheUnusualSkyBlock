@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:baked_potato"
+      "item": "minecraft:damaged_anvil"
     },
     {
-      "item": "minecraft:lime_glazed_terracotta"
+      "item": "minecraft:light_gray_banner"
     }
   ],
   "result": {

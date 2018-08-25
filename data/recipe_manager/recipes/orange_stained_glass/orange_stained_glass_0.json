@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:compass"
+      "item": "minecraft:gray_stained_glass_pane"
     },
     "X": {
-      "item": "minecraft:green_glazed_terracotta"
+      "item": "minecraft:orange_shulker_box"
     }
   },
   "result": {

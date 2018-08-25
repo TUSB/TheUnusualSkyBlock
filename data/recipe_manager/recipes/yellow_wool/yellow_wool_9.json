@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dead_brain_coral_block"
+      "item": "minecraft:oak_door"
     },
     {
-      "item": "minecraft:wheat"
+      "item": "minecraft:stone_sword"
     }
   ],
   "result": {

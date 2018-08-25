@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_banner"
+      "item": "minecraft:bowl"
     },
     {
-      "item": "minecraft:brown_bed"
+      "item": "minecraft:brick"
     },
     {
-      "item": "minecraft:cod"
+      "item": "minecraft:dead_tube_coral_fan"
     },
     {
-      "item": "minecraft:ghast_tear"
+      "item": "minecraft:diamond_ore"
     },
     {
-      "item": "minecraft:iron_hoe"
+      "item": "minecraft:diamond_sword"
     },
     {
-      "item": "minecraft:light_blue_shulker_box"
+      "item": "minecraft:nautilus_shell"
     },
     {
-      "item": "minecraft:oak_fence_gate"
+      "item": "minecraft:oak_wood"
     },
     {
-      "item": "minecraft:smooth_stone"
+      "item": "minecraft:orange_shulker_box"
     },
     {
-      "item": "minecraft:tnt"
+      "item": "minecraft:yellow_terracotta"
     }
   ],
   "result": {

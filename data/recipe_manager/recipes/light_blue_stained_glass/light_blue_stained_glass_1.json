@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:allium"
+      "item": "minecraft:cooked_rabbit"
     },
     "X": {
-      "item": "minecraft:blue_wool"
+      "item": "minecraft:oak_pressure_plate"
     }
   },
   "result": {

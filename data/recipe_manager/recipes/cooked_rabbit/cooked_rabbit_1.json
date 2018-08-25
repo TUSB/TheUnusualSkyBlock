@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:flower_pot"
+      "item": "minecraft:diamond_chestplate"
     }
   ],
   "result": {

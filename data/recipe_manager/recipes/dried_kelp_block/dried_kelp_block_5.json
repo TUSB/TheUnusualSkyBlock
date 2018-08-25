@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:azure_bluet"
+      "item": "minecraft:acacia_leaves"
     },
     {
-      "item": "minecraft:beetroot_soup"
+      "item": "minecraft:acacia_trapdoor"
     },
     {
-      "item": "minecraft:black_concrete"
+      "item": "minecraft:cyan_stained_glass_pane"
     },
     {
-      "item": "minecraft:coal"
+      "item": "minecraft:diamond_sword"
     },
     {
-      "item": "minecraft:iron_helmet"
+      "item": "minecraft:dried_kelp_block"
     },
     {
-      "item": "minecraft:light_blue_bed"
+      "item": "minecraft:fire_charge"
     },
     {
-      "item": "minecraft:oak_fence_gate"
+      "item": "minecraft:oxeye_daisy"
     },
     {
-      "item": "minecraft:purple_concrete_powder"
+      "item": "minecraft:sandstone_stairs"
     },
     {
-      "item": "minecraft:redstone_lamp"
+      "item": "minecraft:stripped_acacia_log"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:golden_boots"
+      "item": "minecraft:blue_shulker_box"
     },
     "X": {
-      "item": "minecraft:white_shulker_box"
+      "item": "minecraft:smooth_sandstone"
     }
   },
   "result": {

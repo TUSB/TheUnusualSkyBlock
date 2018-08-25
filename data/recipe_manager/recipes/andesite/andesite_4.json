@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lime_shulker_box"
+      "item": "minecraft:black_banner"
     },
     {
-      "item": "minecraft:purple_dye"
+      "item": "minecraft:mushroom_stew"
     }
   ],
   "result": {

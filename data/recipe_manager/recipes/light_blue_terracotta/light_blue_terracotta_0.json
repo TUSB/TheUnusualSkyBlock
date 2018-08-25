@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:egg"
+      "item": "minecraft:chainmail_boots"
     },
     "X": {
-      "item": "minecraft:spruce_trapdoor"
+      "item": "minecraft:dark_oak_door"
     }
   },
   "result": {

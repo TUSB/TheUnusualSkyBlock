@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_stained_glass_pane"
+      "item": "minecraft:baked_potato"
     },
     {
-      "item": "minecraft:hay_block"
+      "item": "minecraft:birch_fence"
     },
     {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:dead_horn_coral_block"
     },
     {
-      "item": "minecraft:ladder"
+      "item": "minecraft:dried_kelp"
     },
     {
-      "item": "minecraft:magenta_concrete_powder"
+      "item": "minecraft:furnace_minecart"
     },
     {
-      "item": "minecraft:sponge"
+      "item": "minecraft:golden_sword"
     },
     {
-      "item": "minecraft:spruce_stairs"
+      "item": "minecraft:gravel"
     },
     {
-      "item": "minecraft:stone_brick_stairs"
+      "item": "minecraft:green_wool"
     },
     {
-      "item": "minecraft:wheat_seeds"
+      "item": "minecraft:tube_coral_fan"
     }
   ],
   "result": {

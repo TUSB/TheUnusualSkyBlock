@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cooked_salmon"
+      "item": "minecraft:acacia_planks"
     },
     "X": {
-      "item": "minecraft:stripped_birch_log"
+      "item": "minecraft:jungle_slab"
     }
   },
   "result": {

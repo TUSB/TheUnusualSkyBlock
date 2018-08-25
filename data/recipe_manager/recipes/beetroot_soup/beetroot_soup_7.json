@@ -7,10 +7,10 @@
   ],
   "key": {
     "O": {
-      "item": "minecraft:cooked_rabbit"
+      "item": "minecraft:hay_block"
     },
     "B": {
-      "item": "minecraft:hopper"
+      "item": "minecraft:jukebox"
     }
   },
   "result": {

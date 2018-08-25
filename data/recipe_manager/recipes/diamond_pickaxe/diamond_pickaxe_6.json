@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:grass_path"
+      "item": "minecraft:iron_axe"
     },
     "#": {
-      "item": "minecraft:gray_stained_glass"
+      "item": "minecraft:slime_ball"
     }
   },
   "result": {

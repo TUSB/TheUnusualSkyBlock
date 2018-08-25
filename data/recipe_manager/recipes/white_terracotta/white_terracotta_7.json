@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:writable_book"
+      "item": "minecraft:brewing_stand"
     },
     "X": {
-      "item": "minecraft:yellow_concrete"
+      "item": "minecraft:brown_wool"
     }
   },
   "result": {

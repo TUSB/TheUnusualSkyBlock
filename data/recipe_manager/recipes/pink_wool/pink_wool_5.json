@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:red_glazed_terracotta"
+      "item": "minecraft:fire_coral_fan"
     },
     {
-      "item": "minecraft:stone_axe"
+      "item": "minecraft:green_stained_glass"
     }
   ],
   "result": {

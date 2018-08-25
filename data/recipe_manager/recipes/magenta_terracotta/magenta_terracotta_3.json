@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_trapdoor"
+      "item": "minecraft:dark_oak_trapdoor"
     },
     "X": {
-      "item": "minecraft:furnace_minecart"
+      "item": "minecraft:fern"
     }
   },
   "result": {

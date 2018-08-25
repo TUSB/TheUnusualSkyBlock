@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beetroot"
+      "item": "minecraft:jukebox"
     },
     {
-      "item": "minecraft:magenta_stained_glass"
+      "item": "minecraft:red_sand"
     }
   ],
   "result": {

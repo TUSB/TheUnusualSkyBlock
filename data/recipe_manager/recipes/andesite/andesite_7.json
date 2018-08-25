@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:jukebox"
+      "item": "minecraft:clock"
     },
     {
-      "item": "minecraft:torch"
+      "item": "minecraft:gray_terracotta"
     }
   ],
   "result": {

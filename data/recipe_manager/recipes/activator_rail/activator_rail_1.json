@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:gray_shulker_box"
+      "item": "minecraft:dead_bubble_coral_block"
     },
     "S": {
-      "item": "minecraft:kelp"
+      "item": "minecraft:green_concrete"
     },
     "#": {
-      "item": "minecraft:oak_sapling"
+      "item": "minecraft:tripwire_hook"
     }
   },
   "result": {

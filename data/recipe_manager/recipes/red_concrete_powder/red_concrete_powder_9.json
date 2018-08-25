@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_button"
+      "item": "minecraft:blaze_powder"
     },
     {
-      "item": "minecraft:chiseled_quartz_block"
+      "item": "minecraft:brown_terracotta"
     },
     {
-      "item": "minecraft:dark_oak_fence_gate"
+      "item": "minecraft:chainmail_chestplate"
     },
     {
-      "item": "minecraft:dried_kelp_block"
+      "item": "minecraft:cyan_glazed_terracotta"
     },
     {
-      "item": "minecraft:lime_banner"
+      "item": "minecraft:golden_hoe"
     },
     {
-      "item": "minecraft:purple_glazed_terracotta"
+      "item": "minecraft:gray_stained_glass_pane"
     },
     {
-      "item": "minecraft:tube_coral_fan"
+      "item": "minecraft:light_gray_stained_glass"
     },
     {
-      "item": "minecraft:white_shulker_box"
+      "item": "minecraft:spruce_pressure_plate"
     },
     {
-      "item": "minecraft:yellow_carpet"
+      "item": "minecraft:stone_axe"
     }
   ],
   "result": {

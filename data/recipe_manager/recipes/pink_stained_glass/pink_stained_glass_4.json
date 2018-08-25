@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_stairs"
+      "item": "minecraft:lever"
     },
     "X": {
-      "item": "minecraft:podzol"
+      "item": "minecraft:pink_tulip"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_terracotta"
+      "item": "minecraft:brown_concrete"
     },
     "X": {
-      "item": "minecraft:pink_concrete_powder"
+      "item": "minecraft:lime_shulker_box"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_stained_glass"
+      "item": "minecraft:light_gray_terracotta"
     },
     "|": {
-      "item": "minecraft:popped_chorus_fruit"
+      "item": "minecraft:salmon"
     }
   },
   "result": {

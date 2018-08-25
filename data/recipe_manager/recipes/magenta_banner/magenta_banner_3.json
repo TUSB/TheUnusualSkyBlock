@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_planks"
+      "item": "minecraft:red_concrete"
     },
     "|": {
-      "item": "minecraft:white_shulker_box"
+      "item": "minecraft:stone_pressure_plate"
     }
   },
   "result": {

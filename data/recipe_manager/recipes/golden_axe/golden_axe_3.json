@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:gray_terracotta"
+      "item": "minecraft:chicken"
     },
     "#": {
-      "item": "minecraft:smooth_quartz"
+      "item": "minecraft:pink_stained_glass_pane"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:cut_red_sandstone"
     },
     "_": {
-      "item": "minecraft:stone_pickaxe"
+      "item": "minecraft:iron_shovel"
     }
   },
   "result": {

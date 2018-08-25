@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_helmet"
+      "item": "minecraft:black_wool"
     },
     "|": {
-      "item": "minecraft:trapped_chest"
+      "item": "minecraft:poisonous_potato"
     }
   },
   "result": {

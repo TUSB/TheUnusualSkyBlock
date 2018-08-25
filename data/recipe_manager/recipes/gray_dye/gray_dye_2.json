@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_glazed_terracotta"
+      "item": "minecraft:brain_coral_block"
     },
     {
-      "item": "minecraft:dirt"
+      "item": "minecraft:vine"
     }
   ],
   "result": {

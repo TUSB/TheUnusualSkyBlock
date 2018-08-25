@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:chiseled_quartz_block"
+      "item": "minecraft:magenta_wool"
     },
     "Q": {
-      "item": "minecraft:oak_door"
+      "item": "minecraft:soul_sand"
     },
     "W": {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:tube_coral_block"
     }
   },
   "result": {

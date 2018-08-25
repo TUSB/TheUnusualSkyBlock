@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:lime_terracotta"
+      "item": "minecraft:black_concrete_powder"
     },
     "#": {
-      "item": "minecraft:spruce_stairs"
+      "item": "minecraft:prismarine"
     }
   },
   "result": {

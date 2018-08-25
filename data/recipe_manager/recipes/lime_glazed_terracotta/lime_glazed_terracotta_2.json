@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:grass_path"
+      "item": "minecraft:milk_bucket"
     }
   ],
   "result": {

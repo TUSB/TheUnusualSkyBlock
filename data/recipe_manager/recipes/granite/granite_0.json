@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brain_coral_block"
+      "item": "minecraft:glass"
     },
     {
-      "item": "minecraft:podzol"
+      "item": "minecraft:white_stained_glass"
     }
   ],
   "result": {

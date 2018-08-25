@@ -6,10 +6,10 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:brown_mushroom_block"
+      "item": "minecraft:cooked_cod"
     },
     "#": {
-      "item": "minecraft:light_blue_concrete_powder"
+      "item": "minecraft:lapis_ore"
     }
   },
   "result": {

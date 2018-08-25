@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:packed_ice"
+      "item": "minecraft:black_banner"
     },
     "#": {
-      "item": "minecraft:pink_glazed_terracotta"
+      "item": "minecraft:chest_minecart"
     }
   },
   "result": {

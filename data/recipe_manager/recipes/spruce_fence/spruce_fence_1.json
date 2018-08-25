@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:jungle_wood"
+      "item": "minecraft:mossy_cobblestone"
     },
     "#": {
-      "item": "minecraft:orange_wool"
+      "item": "minecraft:turtle_egg"
     }
   },
   "result": {

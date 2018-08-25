@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:detector_rail"
+      "item": "minecraft:brown_terracotta"
     },
     "#": {
-      "item": "minecraft:sign"
+      "item": "minecraft:oak_fence"
     }
   },
   "result": {

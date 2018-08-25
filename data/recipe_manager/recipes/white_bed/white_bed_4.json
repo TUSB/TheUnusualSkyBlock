@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_stained_glass_pane"
+      "item": "minecraft:player_head"
     },
     "X": {
-      "item": "minecraft:light_gray_terracotta"
+      "item": "minecraft:polished_granite"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:player_head"
+      "item": "minecraft:chiseled_sandstone"
     },
     "#": {
-      "item": "minecraft:yellow_carpet"
+      "item": "minecraft:rose_bush"
     }
   },
   "result": {

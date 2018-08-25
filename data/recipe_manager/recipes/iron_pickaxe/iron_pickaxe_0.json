@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond_hoe"
+      "item": "minecraft:azure_bluet"
     },
     "#": {
-      "item": "minecraft:leather_chestplate"
+      "item": "minecraft:diamond_helmet"
     }
   },
   "result": {

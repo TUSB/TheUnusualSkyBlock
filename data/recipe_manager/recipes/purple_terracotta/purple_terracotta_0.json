@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_dye"
+      "item": "minecraft:map"
     },
     "X": {
-      "item": "minecraft:light_gray_wool"
+      "item": "minecraft:quartz_block"
     }
   },
   "result": {

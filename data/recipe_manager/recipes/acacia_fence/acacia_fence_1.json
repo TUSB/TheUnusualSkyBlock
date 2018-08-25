@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:diamond_leggings"
+      "item": "minecraft:brick_stairs"
     },
     "#": {
-      "item": "minecraft:pink_tulip"
+      "item": "minecraft:jungle_trapdoor"
     }
   },
   "result": {

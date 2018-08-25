@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brain_coral"
+      "item": "minecraft:cooked_beef"
     },
     {
-      "item": "minecraft:brown_glazed_terracotta"
+      "item": "minecraft:cooked_rabbit"
     },
     {
-      "item": "minecraft:fire_coral"
+      "item": "minecraft:cyan_carpet"
     },
     {
-      "item": "minecraft:green_shulker_box"
+      "item": "minecraft:dead_horn_coral_fan"
     },
     {
-      "item": "minecraft:jack_o_lantern"
+      "item": "minecraft:iron_axe"
     },
     {
-      "item": "minecraft:leather_boots"
+      "item": "minecraft:jungle_planks"
     },
     {
-      "item": "minecraft:magenta_concrete_powder"
+      "item": "minecraft:prismarine_stairs"
     },
     {
-      "item": "minecraft:popped_chorus_fruit"
+      "item": "minecraft:salmon"
     },
     {
-      "item": "minecraft:stripped_oak_wood"
+      "item": "minecraft:white_bed"
     }
   ],
   "result": {

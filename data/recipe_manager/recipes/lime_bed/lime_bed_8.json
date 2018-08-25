@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:trapped_chest"
+      "item": "minecraft:blue_shulker_box"
     },
     "X": {
-      "item": "minecraft:wither_skeleton_skull"
+      "item": "minecraft:writable_book"
     }
   },
   "result": {

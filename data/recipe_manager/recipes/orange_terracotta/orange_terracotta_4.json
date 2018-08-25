@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_hoe"
+      "item": "minecraft:black_wool"
     },
     "X": {
-      "item": "minecraft:light_gray_terracotta"
+      "item": "minecraft:diamond_ore"
     }
   },
   "result": {

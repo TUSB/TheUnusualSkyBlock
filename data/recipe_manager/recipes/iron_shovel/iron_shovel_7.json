@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:rotten_flesh"
+      "item": "minecraft:furnace_minecart"
     },
     "#": {
-      "item": "minecraft:spruce_fence"
+      "item": "minecraft:orange_tulip"
     }
   },
   "result": {

@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:gray_glazed_terracotta"
+      "item": "minecraft:diamond_pickaxe"
     }
   ],
   "result": {

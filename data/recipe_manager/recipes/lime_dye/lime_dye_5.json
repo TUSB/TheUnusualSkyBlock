@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:glowstone"
+      "item": "minecraft:cooked_porkchop"
     },
     {
-      "item": "minecraft:gravel"
+      "item": "minecraft:turtle_egg"
     }
   ],
   "result": {

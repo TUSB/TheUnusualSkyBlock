@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond_chestplate"
+      "item": "minecraft:light_gray_concrete"
     },
     "#": {
-      "item": "minecraft:iron_door"
+      "item": "minecraft:shield"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_shulker_box"
+      "item": "minecraft:book"
     },
     {
-      "item": "minecraft:bread"
+      "item": "minecraft:brick_stairs"
     },
     {
-      "item": "minecraft:carrot_on_a_stick"
+      "item": "minecraft:ender_pearl"
     },
     {
-      "item": "minecraft:cooked_chicken"
+      "item": "minecraft:lime_stained_glass"
     },
     {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:pink_shulker_box"
     },
     {
-      "item": "minecraft:cyan_carpet"
+      "item": "minecraft:purple_stained_glass_pane"
     },
     {
-      "item": "minecraft:dark_prismarine"
+      "item": "minecraft:snow"
     },
     {
-      "item": "minecraft:light_gray_shulker_box"
+      "item": "minecraft:stick"
     },
     {
-      "item": "minecraft:wither_skeleton_skull"
+      "item": "minecraft:written_book"
     }
   ],
   "result": {

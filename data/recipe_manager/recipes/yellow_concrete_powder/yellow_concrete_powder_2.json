@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bread"
+      "item": "minecraft:cyan_concrete"
     },
     {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:dark_oak_boat"
     },
     {
-      "item": "minecraft:light_blue_carpet"
+      "item": "minecraft:grass_block"
     },
     {
-      "item": "minecraft:magenta_terracotta"
+      "item": "minecraft:lily_pad"
     },
     {
-      "item": "minecraft:oak_planks"
+      "item": "minecraft:orange_banner"
     },
     {
-      "item": "minecraft:pink_shulker_box"
+      "item": "minecraft:redstone"
     },
     {
-      "item": "minecraft:purple_shulker_box"
+      "item": "minecraft:redstone_lamp"
     },
     {
-      "item": "minecraft:stone_pressure_plate"
+      "item": "minecraft:spruce_stairs"
     },
     {
-      "item": "minecraft:wooden_shovel"
+      "item": "minecraft:sunflower"
     }
   ],
   "result": {

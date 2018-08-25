@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:furnace_minecart"
+      "item": "minecraft:cod_bucket"
     },
     {
-      "item": "minecraft:sponge"
+      "item": "minecraft:gold_ingot"
     }
   ],
   "result": {

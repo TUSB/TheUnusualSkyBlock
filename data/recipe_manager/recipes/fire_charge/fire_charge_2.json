@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:red_nether_bricks"
+      "item": "minecraft:gold_ingot"
     },
     {
-      "item": "minecraft:white_glazed_terracotta"
+      "item": "minecraft:white_bed"
     }
   ],
   "result": {

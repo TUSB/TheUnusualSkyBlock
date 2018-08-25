@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cod_bucket"
+      "item": "minecraft:lead"
     },
     "X": {
-      "item": "minecraft:shield"
+      "item": "minecraft:spruce_button"
     }
   },
   "result": {

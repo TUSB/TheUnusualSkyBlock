@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_fence_gate"
+      "item": "minecraft:iron_shovel"
     },
     {
-      "item": "minecraft:cooked_cod"
+      "item": "minecraft:jungle_slab"
     }
   ],
   "result": {

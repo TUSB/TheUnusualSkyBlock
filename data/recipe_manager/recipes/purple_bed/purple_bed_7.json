@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_chestplate"
+      "item": "minecraft:light_gray_carpet"
     },
     "X": {
-      "item": "minecraft:melon"
+      "item": "minecraft:map"
     }
   },
   "result": {

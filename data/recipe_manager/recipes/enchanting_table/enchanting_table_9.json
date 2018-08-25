@@ -7,13 +7,13 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:birch_log"
+      "item": "minecraft:cobblestone_slab"
     },
     "D": {
-      "item": "minecraft:creeper_head"
+      "item": "minecraft:magenta_dye"
     },
     "#": {
-      "item": "minecraft:sticky_piston"
+      "item": "minecraft:magma_block"
     }
   },
   "result": {

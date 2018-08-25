@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:stone_brick_slab"
     },
     "B": {
-      "item": "minecraft:jungle_planks"
+      "item": "minecraft:white_bed"
     }
   },
   "result": {

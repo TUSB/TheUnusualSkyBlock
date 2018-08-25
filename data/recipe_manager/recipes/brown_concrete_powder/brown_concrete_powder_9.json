@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:armor_stand"
+      "item": "minecraft:birch_pressure_plate"
     },
     {
-      "item": "minecraft:birch_leaves"
+      "item": "minecraft:blue_banner"
     },
     {
-      "item": "minecraft:blue_orchid"
+      "item": "minecraft:chest"
     },
     {
-      "item": "minecraft:bow"
+      "item": "minecraft:comparator"
     },
     {
-      "item": "minecraft:emerald"
+      "item": "minecraft:dead_tube_coral_block"
     },
     {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:gray_banner"
     },
     {
-      "item": "minecraft:hay_block"
+      "item": "minecraft:magenta_shulker_box"
     },
     {
-      "item": "minecraft:lever"
+      "item": "minecraft:spruce_stairs"
     },
     {
-      "item": "minecraft:peony"
+      "item": "minecraft:yellow_glazed_terracotta"
     }
   ],
   "result": {

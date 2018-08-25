@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brown_terracotta"
+      "item": "minecraft:bucket"
     },
     "#": {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:red_sandstone"
     },
     "R": {
-      "item": "minecraft:iron_pickaxe"
+      "item": "minecraft:white_tulip"
     }
   },
   "result": {

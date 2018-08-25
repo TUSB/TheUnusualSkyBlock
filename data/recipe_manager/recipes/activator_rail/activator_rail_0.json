@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cod_bucket"
+      "item": "minecraft:black_banner"
     },
     "S": {
-      "item": "minecraft:pumpkin_pie"
+      "item": "minecraft:nether_brick_fence"
     },
     "#": {
-      "item": "minecraft:tnt"
+      "item": "minecraft:purpur_stairs"
     }
   },
   "result": {

@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lime_carpet"
+      "item": "minecraft:brain_coral_fan"
     },
     {
-      "item": "minecraft:magenta_stained_glass"
+      "item": "minecraft:egg"
     },
     {
-      "item": "minecraft:purple_concrete_powder"
+      "item": "minecraft:grass_block"
     }
   ],
   "result": {

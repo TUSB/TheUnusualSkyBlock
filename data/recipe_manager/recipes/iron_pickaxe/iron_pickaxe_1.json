@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:lever"
+      "item": "minecraft:cyan_banner"
     },
     "#": {
-      "item": "minecraft:rose_bush"
+      "item": "minecraft:iron_shovel"
     }
   },
   "result": {

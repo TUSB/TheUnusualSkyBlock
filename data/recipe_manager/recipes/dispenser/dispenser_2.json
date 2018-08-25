@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chorus_fruit"
+      "item": "minecraft:acacia_wood"
     },
     "X": {
-      "item": "minecraft:gold_block"
+      "item": "minecraft:pumpkin_seeds"
     },
     "R": {
-      "item": "minecraft:prismarine_shard"
+      "item": "minecraft:stone_sword"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_carpet"
+      "item": "minecraft:chiseled_sandstone"
     },
     "|": {
-      "item": "minecraft:orange_terracotta"
+      "item": "minecraft:red_bed"
     }
   },
   "result": {

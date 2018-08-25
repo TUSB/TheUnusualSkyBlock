@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:conduit"
+      "item": "minecraft:light_gray_glazed_terracotta"
     },
     "E": {
-      "item": "minecraft:red_tulip"
+      "item": "minecraft:light_gray_shulker_box"
     },
     "T": {
-      "item": "minecraft:white_concrete"
+      "item": "minecraft:stone_brick_stairs"
     }
   },
   "result": {

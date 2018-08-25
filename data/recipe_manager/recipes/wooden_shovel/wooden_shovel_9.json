@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:oak_planks"
     },
     "#": {
-      "item": "minecraft:iron_trapdoor"
+      "item": "minecraft:trapped_chest"
     }
   },
   "result": {

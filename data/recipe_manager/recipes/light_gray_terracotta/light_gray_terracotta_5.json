@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gold_ore"
+      "item": "minecraft:diamond_boots"
     },
     "X": {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:nether_brick_slab"
     }
   },
   "result": {

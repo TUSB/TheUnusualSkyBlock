@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:horn_coral"
+      "item": "minecraft:comparator"
     },
     {
-      "item": "minecraft:wooden_hoe"
+      "item": "minecraft:red_wool"
     }
   ],
   "result": {

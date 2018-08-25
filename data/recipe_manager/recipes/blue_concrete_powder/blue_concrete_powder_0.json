@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beetroot_soup"
+      "item": "minecraft:apple"
     },
     {
-      "item": "minecraft:black_carpet"
+      "item": "minecraft:bow"
     },
     {
-      "item": "minecraft:chiseled_red_sandstone"
+      "item": "minecraft:dark_oak_sapling"
     },
     {
-      "item": "minecraft:coal_ore"
+      "item": "minecraft:dead_horn_coral_fan"
     },
     {
-      "item": "minecraft:dead_tube_coral_block"
+      "item": "minecraft:hay_block"
     },
     {
-      "item": "minecraft:green_stained_glass"
+      "item": "minecraft:note_block"
     },
     {
-      "item": "minecraft:redstone_lamp"
+      "item": "minecraft:orange_terracotta"
     },
     {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:polished_granite"
     },
     {
-      "item": "minecraft:stone_brick_stairs"
+      "item": "minecraft:tnt"
     }
   ],
   "result": {

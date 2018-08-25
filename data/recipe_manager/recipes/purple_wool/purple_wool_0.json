@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:orange_wool"
+      "item": "minecraft:acacia_fence_gate"
     },
     {
-      "item": "minecraft:yellow_carpet"
+      "item": "minecraft:spruce_wood"
     }
   ],
   "result": {

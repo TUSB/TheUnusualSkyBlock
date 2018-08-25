@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:pink_banner"
+      "item": "minecraft:fermented_spider_eye"
     },
     "#": {
-      "item": "minecraft:prismarine"
+      "item": "minecraft:oak_slab"
     }
   },
   "result": {

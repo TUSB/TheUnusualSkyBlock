@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:bubble_coral"
     },
     "X": {
-      "item": "minecraft:potion"
+      "item": "minecraft:spruce_button"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_shovel"
+      "item": "minecraft:compass"
     },
     "R": {
-      "item": "minecraft:oak_planks"
+      "item": "minecraft:diamond_horse_armor"
     }
   },
   "result": {

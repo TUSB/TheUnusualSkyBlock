@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_boat"
+      "item": "minecraft:beacon"
     },
     {
-      "item": "minecraft:birch_button"
+      "item": "minecraft:brown_bed"
     },
     {
-      "item": "minecraft:black_carpet"
+      "item": "minecraft:cut_red_sandstone"
     },
     {
-      "item": "minecraft:black_shulker_box"
+      "item": "minecraft:dead_brain_coral_block"
     },
     {
-      "item": "minecraft:dark_oak_button"
+      "item": "minecraft:light_blue_glazed_terracotta"
     },
     {
-      "item": "minecraft:glass"
+      "item": "minecraft:oak_fence"
     },
     {
-      "item": "minecraft:mushroom_stew"
+      "item": "minecraft:podzol"
     },
     {
-      "item": "minecraft:orange_wool"
+      "item": "minecraft:red_banner"
     },
     {
-      "item": "minecraft:tripwire_hook"
+      "item": "minecraft:stone_slab"
     }
   ],
   "result": {

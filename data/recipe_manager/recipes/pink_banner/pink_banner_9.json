@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_terracotta"
+      "item": "minecraft:dark_oak_planks"
     },
     "|": {
-      "item": "minecraft:diamond_shovel"
+      "item": "minecraft:light_blue_banner"
     }
   },
   "result": {

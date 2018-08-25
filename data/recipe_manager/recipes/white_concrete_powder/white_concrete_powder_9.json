@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_stairs"
+      "item": "minecraft:carved_pumpkin"
     },
     {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:emerald"
     },
     {
-      "item": "minecraft:brick"
+      "item": "minecraft:golden_boots"
     },
     {
-      "item": "minecraft:glistering_melon_slice"
+      "item": "minecraft:jungle_trapdoor"
     },
     {
-      "item": "minecraft:horn_coral_block"
+      "item": "minecraft:light_blue_terracotta"
     },
     {
-      "item": "minecraft:leather_helmet"
+      "item": "minecraft:lime_wool"
     },
     {
-      "item": "minecraft:magenta_shulker_box"
+      "item": "minecraft:purpur_slab"
     },
     {
-      "item": "minecraft:obsidian"
+      "item": "minecraft:tube_coral"
     },
     {
-      "item": "minecraft:stripped_birch_log"
+      "item": "minecraft:wheat_seeds"
     }
   ],
   "result": {

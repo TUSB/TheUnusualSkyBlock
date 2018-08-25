@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:conduit"
+      "item": "minecraft:pumpkin_seeds"
     },
     "#": {
-      "item": "minecraft:packed_ice"
+      "item": "minecraft:white_stained_glass"
     }
   },
   "result": {

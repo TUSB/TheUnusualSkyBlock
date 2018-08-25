@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_shulker_box"
+      "item": "minecraft:cobblestone_wall"
     },
     "|": {
-      "item": "minecraft:chorus_fruit"
+      "item": "minecraft:quartz"
     }
   },
   "result": {

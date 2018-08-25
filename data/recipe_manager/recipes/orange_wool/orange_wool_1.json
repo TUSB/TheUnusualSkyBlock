@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cocoa_beans"
+      "item": "minecraft:bricks"
     },
     {
-      "item": "minecraft:lime_wool"
+      "item": "minecraft:dark_oak_pressure_plate"
     }
   ],
   "result": {

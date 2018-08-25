@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:furnace"
+      "item": "minecraft:oak_slab"
     },
     {
-      "item": "minecraft:oak_leaves"
+      "item": "minecraft:sea_lantern"
     }
   ],
   "result": {

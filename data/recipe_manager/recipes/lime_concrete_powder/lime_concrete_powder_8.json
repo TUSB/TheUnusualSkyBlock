@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:dirt"
     },
     {
-      "item": "minecraft:chiseled_red_sandstone"
+      "item": "minecraft:fire_coral_fan"
     },
     {
-      "item": "minecraft:dark_oak_fence"
+      "item": "minecraft:green_banner"
     },
     {
-      "item": "minecraft:golden_axe"
+      "item": "minecraft:iron_leggings"
     },
     {
-      "item": "minecraft:golden_helmet"
+      "item": "minecraft:nautilus_shell"
     },
     {
-      "item": "minecraft:gray_shulker_box"
+      "item": "minecraft:orange_wool"
     },
     {
-      "item": "minecraft:leather_chestplate"
+      "item": "minecraft:pink_stained_glass"
     },
     {
-      "item": "minecraft:magenta_concrete_powder"
+      "item": "minecraft:spider_eye"
     },
     {
-      "item": "minecraft:torch"
+      "item": "minecraft:spruce_button"
     }
   ],
   "result": {

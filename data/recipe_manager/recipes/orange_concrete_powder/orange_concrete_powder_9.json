@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beacon"
-    },
-    {
-      "item": "minecraft:cooked_salmon"
+      "item": "minecraft:cyan_terracotta"
     },
     {
       "item": "minecraft:dead_bubble_coral_block"
     },
     {
-      "item": "minecraft:light_blue_concrete_powder"
+      "item": "minecraft:detector_rail"
     },
     {
-      "item": "minecraft:light_gray_concrete_powder"
+      "item": "minecraft:granite"
     },
     {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:mossy_cobblestone"
     },
     {
-      "item": "minecraft:prismarine_brick_stairs"
+      "item": "minecraft:pink_glazed_terracotta"
     },
     {
-      "item": "minecraft:sea_lantern"
+      "item": "minecraft:redstone"
     },
     {
-      "item": "minecraft:yellow_carpet"
+      "item": "minecraft:tnt_minecart"
+    },
+    {
+      "item": "minecraft:wheat_seeds"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:leather_helmet"
+      "item": "minecraft:birch_fence_gate"
     },
     "X": {
-      "item": "minecraft:oak_fence_gate"
+      "item": "minecraft:yellow_shulker_box"
     }
   },
   "result": {

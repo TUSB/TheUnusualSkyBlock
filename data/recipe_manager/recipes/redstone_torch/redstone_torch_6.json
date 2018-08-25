@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cobblestone_stairs"
+      "item": "minecraft:acacia_fence"
     },
     "#": {
-      "item": "minecraft:lime_banner"
+      "item": "minecraft:oak_leaves"
     }
   },
   "result": {

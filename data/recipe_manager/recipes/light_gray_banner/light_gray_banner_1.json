@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:beacon"
+      "item": "minecraft:ender_chest"
     },
     "|": {
-      "item": "minecraft:orange_shulker_box"
+      "item": "minecraft:magenta_terracotta"
     }
   },
   "result": {

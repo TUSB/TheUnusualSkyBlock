@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_leaves"
+      "item": "minecraft:black_stained_glass_pane"
     },
     {
-      "item": "minecraft:book"
+      "item": "minecraft:black_terracotta"
     },
     {
-      "item": "minecraft:cooked_porkchop"
+      "item": "minecraft:diamond_block"
     },
     {
-      "item": "minecraft:horn_coral_block"
+      "item": "minecraft:diamond_boots"
     },
     {
-      "item": "minecraft:magenta_glazed_terracotta"
+      "item": "minecraft:fire_coral_block"
     },
     {
-      "item": "minecraft:prismarine_shard"
+      "item": "minecraft:green_terracotta"
     },
     {
-      "item": "minecraft:prismarine_stairs"
+      "item": "minecraft:rail"
     },
     {
-      "item": "minecraft:tube_coral_fan"
+      "item": "minecraft:wooden_shovel"
     },
     {
-      "item": "minecraft:white_banner"
+      "item": "minecraft:written_book"
     }
   ],
   "result": {

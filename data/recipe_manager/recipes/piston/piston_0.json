@@ -7,16 +7,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:furnace_minecart"
+      "item": "minecraft:orange_carpet"
     },
     "#": {
-      "item": "minecraft:golden_pickaxe"
+      "item": "minecraft:redstone_torch"
     },
     "X": {
-      "item": "minecraft:red_sandstone"
+      "item": "minecraft:rose_bush"
     },
     "R": {
-      "item": "minecraft:shield"
+      "item": "minecraft:white_shulker_box"
     }
   },
   "result": {

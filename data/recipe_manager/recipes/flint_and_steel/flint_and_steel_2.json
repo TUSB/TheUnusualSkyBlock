@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:gravel"
+      "item": "minecraft:blue_terracotta"
     },
     {
-      "item": "minecraft:stone_brick_slab"
+      "item": "minecraft:chest"
     }
   ],
   "result": {

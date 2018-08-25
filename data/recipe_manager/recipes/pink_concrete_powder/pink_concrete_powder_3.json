@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_pressure_plate"
+      "item": "minecraft:blue_terracotta"
     },
     {
-      "item": "minecraft:blue_banner"
+      "item": "minecraft:dragon_head"
     },
     {
-      "item": "minecraft:blue_concrete"
+      "item": "minecraft:green_stained_glass"
     },
     {
-      "item": "minecraft:cooked_mutton"
+      "item": "minecraft:horn_coral_fan"
     },
     {
-      "item": "minecraft:dead_tube_coral_fan"
+      "item": "minecraft:iron_block"
     },
     {
-      "item": "minecraft:feather"
+      "item": "minecraft:jungle_leaves"
     },
     {
-      "item": "minecraft:green_glazed_terracotta"
+      "item": "minecraft:purpur_stairs"
     },
     {
-      "item": "minecraft:jungle_boat"
+      "item": "minecraft:rose_red"
     },
     {
-      "item": "minecraft:magenta_glazed_terracotta"
+      "item": "minecraft:sand"
     }
   ],
   "result": {

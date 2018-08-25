@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:porkchop"
+      "item": "minecraft:birch_leaves"
     },
     {
-      "item": "minecraft:wet_sponge"
+      "item": "minecraft:green_banner"
     }
   ],
   "result": {

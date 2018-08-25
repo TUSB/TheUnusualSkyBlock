@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond_leggings"
+      "item": "minecraft:acacia_door"
     },
     "#": {
-      "item": "minecraft:quartz_stairs"
+      "item": "minecraft:stripped_spruce_log"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "-": {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:compass"
     },
     "#": {
-      "item": "minecraft:sunflower"
+      "item": "minecraft:oak_planks"
     }
   },
   "result": {

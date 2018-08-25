@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_concrete"
+      "item": "minecraft:beetroot_soup"
     },
     {
-      "item": "minecraft:dead_horn_coral_block"
+      "item": "minecraft:blue_ice"
     },
     {
-      "item": "minecraft:green_bed"
+      "item": "minecraft:chiseled_stone_bricks"
     },
     {
-      "item": "minecraft:jungle_boat"
+      "item": "minecraft:iron_horse_armor"
     },
     {
-      "item": "minecraft:prismarine_brick_stairs"
+      "item": "minecraft:melon_seeds"
     },
     {
-      "item": "minecraft:red_carpet"
+      "item": "minecraft:mushroom_stem"
     },
     {
-      "item": "minecraft:spruce_log"
+      "item": "minecraft:orange_wool"
     },
     {
-      "item": "minecraft:spruce_stairs"
+      "item": "minecraft:pumpkin"
     },
     {
-      "item": "minecraft:yellow_banner"
+      "item": "minecraft:spruce_button"
     }
   ],
   "result": {

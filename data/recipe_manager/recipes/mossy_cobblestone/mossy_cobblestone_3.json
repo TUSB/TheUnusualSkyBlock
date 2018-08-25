@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:melon_seeds"
+      "item": "minecraft:coal_block"
     },
     {
-      "item": "minecraft:spruce_log"
+      "item": "minecraft:coal_ore"
     }
   ],
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_banner"
+      "item": "minecraft:black_carpet"
     },
     {
-      "item": "minecraft:dark_prismarine_stairs"
+      "item": "minecraft:diamond"
     },
     {
-      "item": "minecraft:lime_bed"
+      "item": "minecraft:emerald_block"
     },
     {
-      "item": "minecraft:mossy_stone_bricks"
+      "item": "minecraft:jungle_fence_gate"
     },
     {
-      "item": "minecraft:mutton"
+      "item": "minecraft:light_blue_dye"
     },
     {
-      "item": "minecraft:oak_fence_gate"
+      "item": "minecraft:orange_stained_glass_pane"
     },
     {
-      "item": "minecraft:oak_leaves"
+      "item": "minecraft:stripped_spruce_wood"
     },
     {
-      "item": "minecraft:red_stained_glass_pane"
+      "item": "minecraft:tube_coral_block"
     },
     {
-      "item": "minecraft:spider_eye"
+      "item": "minecraft:yellow_terracotta"
     }
   ],
   "result": {

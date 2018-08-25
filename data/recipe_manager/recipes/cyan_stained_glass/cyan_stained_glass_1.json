@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:carved_pumpkin"
+      "item": "minecraft:blue_stained_glass_pane"
     },
     "X": {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:cobblestone"
     }
   },
   "result": {

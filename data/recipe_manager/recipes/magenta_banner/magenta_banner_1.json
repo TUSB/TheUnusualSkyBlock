@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:egg"
+      "item": "minecraft:light_gray_glazed_terracotta"
     },
     "|": {
-      "item": "minecraft:stripped_oak_wood"
+      "item": "minecraft:mutton"
     }
   },
   "result": {

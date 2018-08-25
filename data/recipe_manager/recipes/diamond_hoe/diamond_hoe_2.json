@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cobblestone_wall"
+      "item": "minecraft:green_bed"
     },
     "#": {
-      "item": "minecraft:jungle_log"
+      "item": "minecraft:orange_tulip"
     }
   },
   "result": {

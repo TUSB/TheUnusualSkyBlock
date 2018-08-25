@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_trapdoor"
+      "item": "minecraft:magenta_stained_glass_pane"
     },
     "X": {
-      "item": "minecraft:oak_sapling"
+      "item": "minecraft:white_terracotta"
     }
   },
   "result": {

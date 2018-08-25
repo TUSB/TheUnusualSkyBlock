@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:ladder"
+      "item": "minecraft:feather"
     },
     "X": {
-      "item": "minecraft:light_gray_bed"
+      "item": "minecraft:spruce_planks"
     }
   },
   "result": {

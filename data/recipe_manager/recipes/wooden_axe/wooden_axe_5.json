@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:salmon"
+      "item": "minecraft:acacia_stairs"
     },
     "#": {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:diamond_hoe"
     }
   },
   "result": {

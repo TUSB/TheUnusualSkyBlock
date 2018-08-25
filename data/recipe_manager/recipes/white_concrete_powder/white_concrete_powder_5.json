@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:anvil"
+      "item": "minecraft:blue_wool"
     },
     {
-      "item": "minecraft:blue_stained_glass"
+      "item": "minecraft:brown_shulker_box"
     },
     {
-      "item": "minecraft:cod"
+      "item": "minecraft:chiseled_red_sandstone"
     },
     {
-      "item": "minecraft:dead_fire_coral_block"
+      "item": "minecraft:cyan_dye"
     },
     {
-      "item": "minecraft:grass_block"
+      "item": "minecraft:iron_boots"
     },
     {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:iron_sword"
     },
     {
-      "item": "minecraft:oak_wood"
+      "item": "minecraft:lead"
     },
     {
-      "item": "minecraft:stripped_spruce_wood"
+      "item": "minecraft:spruce_wood"
     },
     {
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:stone_pressure_plate"
     }
   ],
   "result": {

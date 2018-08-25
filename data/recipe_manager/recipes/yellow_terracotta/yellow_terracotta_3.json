@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dandelion_yellow"
+      "item": "minecraft:lime_shulker_box"
     },
     "X": {
-      "item": "minecraft:nether_brick_stairs"
+      "item": "minecraft:sunflower"
     }
   },
   "result": {

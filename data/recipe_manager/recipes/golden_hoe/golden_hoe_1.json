@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:glowstone_dust"
     },
     "#": {
-      "item": "minecraft:ink_sac"
+      "item": "minecraft:lime_terracotta"
     }
   },
   "result": {

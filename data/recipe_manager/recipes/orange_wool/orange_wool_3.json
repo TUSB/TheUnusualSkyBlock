@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:detector_rail"
+      "item": "minecraft:daylight_detector"
     },
     {
-      "item": "minecraft:stripped_spruce_wood"
+      "item": "minecraft:ladder"
     }
   ],
   "result": {

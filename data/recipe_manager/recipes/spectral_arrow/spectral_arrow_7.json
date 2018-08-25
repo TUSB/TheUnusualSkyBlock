@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_concrete_powder"
+      "item": "minecraft:birch_pressure_plate"
     },
     "X": {
-      "item": "minecraft:red_stained_glass"
+      "item": "minecraft:diamond_chestplate"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cobblestone_slab"
+      "item": "minecraft:leather_boots"
     },
     "X": {
-      "item": "minecraft:snow"
+      "item": "minecraft:nautilus_shell"
     }
   },
   "result": {

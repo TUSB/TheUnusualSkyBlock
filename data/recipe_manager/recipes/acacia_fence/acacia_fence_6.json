@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:skeleton_skull"
+      "item": "minecraft:brown_carpet"
     },
     "#": {
-      "item": "minecraft:stone_hoe"
+      "item": "minecraft:spruce_wood"
     }
   },
   "result": {

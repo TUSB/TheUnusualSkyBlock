@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:piston"
+      "item": "minecraft:red_sandstone_stairs"
     }
   ],
   "result": {

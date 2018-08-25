@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cyan_wool"
+      "item": "minecraft:acacia_pressure_plate"
     },
     "#": {
-      "item": "minecraft:prismarine_brick_slab"
+      "item": "minecraft:horn_coral_block"
     }
   },
   "result": {

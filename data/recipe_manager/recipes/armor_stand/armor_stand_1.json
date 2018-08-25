@@ -7,10 +7,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:ladder"
+      "item": "minecraft:gray_stained_glass_pane"
     },
     "_": {
-      "item": "minecraft:prismarine_crystals"
+      "item": "minecraft:potion"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:light_gray_bed"
+      "item": "minecraft:birch_wood"
     },
     {
-      "item": "minecraft:rabbit_hide"
+      "item": "minecraft:mushroom_stem"
     }
   ],
   "result": {

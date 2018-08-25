@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:stone_shovel"
+      "item": "minecraft:lapis_ore"
     },
     {
-      "item": "minecraft:stripped_jungle_log"
+      "item": "minecraft:light_gray_terracotta"
     }
   ],
   "result": {

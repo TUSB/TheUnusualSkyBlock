@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_sword"
+      "item": "minecraft:lime_stained_glass"
     },
     "X": {
-      "item": "minecraft:jungle_stairs"
+      "item": "minecraft:potion"
     },
     "R": {
-      "item": "minecraft:spruce_fence"
+      "item": "minecraft:spruce_fence_gate"
     }
   },
   "result": {

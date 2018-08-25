@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:flint"
+      "item": "minecraft:brown_carpet"
     },
     "#": {
-      "item": "minecraft:green_concrete"
+      "item": "minecraft:cobblestone_slab"
     },
     "R": {
-      "item": "minecraft:oak_trapdoor"
+      "item": "minecraft:grass"
     }
   },
   "result": {

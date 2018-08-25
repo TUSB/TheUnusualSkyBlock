@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cooked_cod"
+      "item": "minecraft:popped_chorus_fruit"
     },
     {
-      "item": "minecraft:spruce_fence_gate"
+      "item": "minecraft:shulker_box"
     }
   ],
   "result": {

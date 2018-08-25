@@ -5,10 +5,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cracked_stone_bricks"
+      "item": "minecraft:gold_ore"
     },
     "X": {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:sign"
     }
   },
   "result": {

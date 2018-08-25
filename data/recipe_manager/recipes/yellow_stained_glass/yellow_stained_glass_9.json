@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:prismarine_brick_stairs"
+      "item": "minecraft:polished_diorite"
     },
     "X": {
-      "item": "minecraft:wooden_hoe"
+      "item": "minecraft:spruce_button"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:anvil"
+      "item": "minecraft:dark_oak_leaves"
     },
     "X": {
-      "item": "minecraft:enchanted_book"
+      "item": "minecraft:light_blue_concrete"
     }
   },
   "result": {

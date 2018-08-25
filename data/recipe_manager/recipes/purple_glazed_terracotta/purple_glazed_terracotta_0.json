@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:golden_carrot"
+      "item": "minecraft:brick_stairs"
     }
   ],
   "result": {

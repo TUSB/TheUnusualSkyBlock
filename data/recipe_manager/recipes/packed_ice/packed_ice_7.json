@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_banner"
+      "item": "minecraft:brick_slab"
     },
     {
-      "item": "minecraft:bowl"
+      "item": "minecraft:creeper_head"
     },
     {
-      "item": "minecraft:dark_oak_pressure_plate"
+      "item": "minecraft:cyan_shulker_box"
     },
     {
-      "item": "minecraft:iron_horse_armor"
+      "item": "minecraft:golden_axe"
     },
     {
-      "item": "minecraft:jungle_boat"
+      "item": "minecraft:green_bed"
     },
     {
-      "item": "minecraft:jungle_leaves"
+      "item": "minecraft:leather_leggings"
     },
     {
-      "item": "minecraft:light_blue_stained_glass"
+      "item": "minecraft:magma_cream"
     },
     {
-      "item": "minecraft:orange_wool"
+      "item": "minecraft:tnt"
     },
     {
-      "item": "minecraft:wet_sponge"
+      "item": "minecraft:wooden_hoe"
     }
   ],
   "result": {

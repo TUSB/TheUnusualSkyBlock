@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dead_tube_coral_fan"
+      "item": "minecraft:blue_wool"
     },
     {
-      "item": "minecraft:pumpkin"
+      "item": "minecraft:spruce_trapdoor"
     }
   ],
   "result": {

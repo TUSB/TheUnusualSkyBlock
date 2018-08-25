@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:clay_ball"
+      "item": "minecraft:purpur_block"
     },
     "#": {
-      "item": "minecraft:pink_stained_glass_pane"
+      "item": "minecraft:stone_hoe"
     }
   },
   "result": {

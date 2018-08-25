@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:feather"
+      "item": "minecraft:cooked_porkchop"
     },
     "X": {
-      "item": "minecraft:infested_mossy_stone_bricks"
+      "item": "minecraft:red_shulker_box"
     }
   },
   "result": {

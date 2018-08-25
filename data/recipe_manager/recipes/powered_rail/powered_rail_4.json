@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:gray_stained_glass_pane"
+      "item": "minecraft:blue_wool"
     },
     "#": {
-      "item": "minecraft:gray_terracotta"
+      "item": "minecraft:diamond_shovel"
     },
     "R": {
-      "item": "minecraft:shulker_shell"
+      "item": "minecraft:red_nether_bricks"
     }
   },
   "result": {

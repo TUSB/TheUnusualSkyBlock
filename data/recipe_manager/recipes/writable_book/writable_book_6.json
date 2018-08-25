@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dragon_breath"
+      "item": "minecraft:feather"
     },
     {
-      "item": "minecraft:rail"
+      "item": "minecraft:salmon_bucket"
     },
     {
-      "item": "minecraft:stripped_birch_wood"
+      "item": "minecraft:terracotta"
     }
   ],
   "result": {

@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:prismarine_crystals"
+      "item": "minecraft:activator_rail"
     },
     {
-      "item": "minecraft:sand"
+      "item": "minecraft:bubble_coral_fan"
     },
     {
-      "item": "minecraft:stone_shovel"
+      "item": "minecraft:jungle_fence_gate"
     }
   ],
   "result": {

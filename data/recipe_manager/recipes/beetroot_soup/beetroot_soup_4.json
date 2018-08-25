@@ -7,10 +7,10 @@
   ],
   "key": {
     "O": {
-      "item": "minecraft:stripped_spruce_wood"
+      "item": "minecraft:acacia_slab"
     },
     "B": {
-      "item": "minecraft:white_bed"
+      "item": "minecraft:dark_oak_slab"
     }
   },
   "result": {

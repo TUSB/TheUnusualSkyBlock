@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_pressure_plate"
+      "item": "minecraft:porkchop"
     },
     "|": {
-      "item": "minecraft:pufferfish"
+      "item": "minecraft:smooth_sandstone"
     }
   },
   "result": {

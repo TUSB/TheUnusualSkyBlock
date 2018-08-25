@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:glass"
+      "item": "minecraft:bookshelf"
     },
     "X": {
-      "item": "minecraft:melon_seeds"
+      "item": "minecraft:oak_pressure_plate"
     }
   },
   "result": {

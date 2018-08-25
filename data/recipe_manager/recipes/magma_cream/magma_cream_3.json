@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_log"
+      "item": "minecraft:acacia_door"
     },
     {
-      "item": "minecraft:pink_terracotta"
+      "item": "minecraft:yellow_glazed_terracotta"
     }
   ],
   "result": {

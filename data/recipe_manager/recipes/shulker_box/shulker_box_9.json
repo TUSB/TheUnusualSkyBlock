@@ -7,10 +7,10 @@
   ],
   "key": {
     "-": {
-      "item": "minecraft:magenta_banner"
+      "item": "minecraft:gray_terracotta"
     },
     "#": {
-      "item": "minecraft:tnt"
+      "item": "minecraft:spruce_sapling"
     }
   },
   "result": {

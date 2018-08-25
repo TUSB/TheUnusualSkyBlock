@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:activator_rail"
+      "item": "minecraft:bubble_coral"
     },
     {
-      "item": "minecraft:polished_granite"
+      "item": "minecraft:mycelium"
     },
     {
-      "item": "minecraft:red_tulip"
+      "item": "minecraft:prismarine_bricks"
     }
   ],
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dropper"
+      "item": "minecraft:oak_planks"
     },
     "S": {
-      "item": "minecraft:fishing_rod"
+      "item": "minecraft:oak_pressure_plate"
     },
     "#": {
-      "item": "minecraft:mossy_cobblestone"
+      "item": "minecraft:snowball"
     }
   },
   "result": {

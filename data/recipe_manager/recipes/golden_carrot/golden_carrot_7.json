@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_pressure_plate"
+      "item": "minecraft:gray_shulker_box"
     },
     "X": {
-      "item": "minecraft:glistering_melon_slice"
+      "item": "minecraft:redstone_block"
     }
   },
   "result": {

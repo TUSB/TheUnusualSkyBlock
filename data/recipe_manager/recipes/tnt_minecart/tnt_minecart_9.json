@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:dropper"
+      "item": "minecraft:mushroom_stew"
     },
     "B": {
-      "item": "minecraft:wooden_shovel"
+      "item": "minecraft:rose_bush"
     }
   },
   "result": {

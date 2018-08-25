@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:clay"
+      "item": "minecraft:birch_log"
     },
     "#": {
-      "item": "minecraft:green_shulker_box"
+      "item": "minecraft:lilac"
     },
     "R": {
-      "item": "minecraft:piston"
+      "item": "minecraft:purple_bed"
     }
   },
   "result": {

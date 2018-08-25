@@ -5,28 +5,28 @@
       "item": "minecraft:black_concrete_powder"
     },
     {
-      "item": "minecraft:chiseled_quartz_block"
+      "item": "minecraft:blaze_rod"
     },
     {
-      "item": "minecraft:daylight_detector"
+      "item": "minecraft:blue_glazed_terracotta"
     },
     {
-      "item": "minecraft:golden_chestplate"
+      "item": "minecraft:cobblestone_stairs"
     },
     {
-      "item": "minecraft:heart_of_the_sea"
+      "item": "minecraft:purpur_slab"
     },
     {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:purpur_stairs"
     },
     {
-      "item": "minecraft:melon_seeds"
+      "item": "minecraft:red_sandstone_stairs"
     },
     {
-      "item": "minecraft:spectral_arrow"
+      "item": "minecraft:stone_pressure_plate"
     },
     {
-      "item": "minecraft:spruce_slab"
+      "item": "minecraft:wooden_hoe"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cut_sandstone"
+      "item": "minecraft:black_terracotta"
     },
     "#": {
-      "item": "minecraft:yellow_carpet"
+      "item": "minecraft:stone"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cactus"
+      "item": "minecraft:acacia_button"
     },
     {
-      "item": "minecraft:red_sandstone_stairs"
+      "item": "minecraft:brain_coral"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:dragon_breath"
+      "item": "minecraft:ghast_tear"
     },
     "B": {
-      "item": "minecraft:nether_brick_fence"
+      "item": "minecraft:sandstone_stairs"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_pressure_plate"
+      "item": "minecraft:oak_trapdoor"
     },
     "X": {
-      "item": "minecraft:blue_ice"
+      "item": "minecraft:yellow_glazed_terracotta"
     }
   },
   "result": {

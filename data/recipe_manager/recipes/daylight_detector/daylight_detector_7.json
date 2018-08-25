@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:acacia_stairs"
+      "item": "minecraft:chiseled_quartz_block"
     },
     "Q": {
-      "item": "minecraft:conduit"
+      "item": "minecraft:leather"
     },
     "W": {
-      "item": "minecraft:large_fern"
+      "item": "minecraft:lily_pad"
     }
   },
   "result": {

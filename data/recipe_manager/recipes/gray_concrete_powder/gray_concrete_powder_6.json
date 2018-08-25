@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_wool"
+      "item": "minecraft:acacia_fence_gate"
     },
     {
-      "item": "minecraft:light_gray_banner"
+      "item": "minecraft:cocoa_beans"
     },
     {
-      "item": "minecraft:oxeye_daisy"
+      "item": "minecraft:fishing_rod"
     },
     {
-      "item": "minecraft:purpur_slab"
+      "item": "minecraft:gray_banner"
     },
     {
-      "item": "minecraft:salmon_bucket"
+      "item": "minecraft:lime_banner"
     },
     {
-      "item": "minecraft:smooth_stone"
+      "item": "minecraft:potato"
     },
     {
-      "item": "minecraft:spruce_log"
+      "item": "minecraft:rabbit_stew"
     },
     {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:red_sandstone_stairs"
     },
     {
-      "item": "minecraft:stripped_birch_wood"
+      "item": "minecraft:wooden_shovel"
     }
   ],
   "result": {

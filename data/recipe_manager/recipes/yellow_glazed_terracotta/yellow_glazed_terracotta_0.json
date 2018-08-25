@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:quartz_slab"
+      "item": "minecraft:blue_concrete_powder"
     }
   ],
   "result": {

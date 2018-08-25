@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_button"
+      "item": "minecraft:furnace"
     },
     "#": {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:purple_terracotta"
     }
   },
   "result": {

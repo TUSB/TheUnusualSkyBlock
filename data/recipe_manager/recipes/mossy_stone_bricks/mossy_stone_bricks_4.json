@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brain_coral_fan"
+      "item": "minecraft:chainmail_chestplate"
     },
     {
-      "item": "minecraft:end_stone_bricks"
+      "item": "minecraft:fern"
     }
   ],
   "result": {

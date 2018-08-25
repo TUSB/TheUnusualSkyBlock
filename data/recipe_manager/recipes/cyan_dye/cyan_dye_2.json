@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:melon_slice"
+      "item": "minecraft:iron_block"
     },
     {
-      "item": "minecraft:yellow_carpet"
+      "item": "minecraft:jungle_fence_gate"
     }
   ],
   "result": {

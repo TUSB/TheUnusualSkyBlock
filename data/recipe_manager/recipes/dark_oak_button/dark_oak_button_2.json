@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:purpur_pillar"
+      "item": "minecraft:white_stained_glass"
     }
   ],
   "result": {

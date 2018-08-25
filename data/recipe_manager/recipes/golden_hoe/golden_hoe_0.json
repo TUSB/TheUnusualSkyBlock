@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:chainmail_leggings"
+      "item": "minecraft:cobblestone_wall"
     },
     "#": {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:sugar_cane"
     }
   },
   "result": {

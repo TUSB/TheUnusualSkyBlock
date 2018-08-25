@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:andesite"
+      "item": "minecraft:black_carpet"
     },
     {
-      "item": "minecraft:black_concrete"
+      "item": "minecraft:bubble_coral_fan"
     },
     {
-      "item": "minecraft:carved_pumpkin"
+      "item": "minecraft:clock"
     },
     {
-      "item": "minecraft:comparator"
+      "item": "minecraft:gray_carpet"
     },
     {
-      "item": "minecraft:cut_red_sandstone"
+      "item": "minecraft:iron_horse_armor"
     },
     {
-      "item": "minecraft:diamond_leggings"
+      "item": "minecraft:purple_carpet"
     },
     {
-      "item": "minecraft:nether_brick_stairs"
+      "item": "minecraft:purple_dye"
     },
     {
-      "item": "minecraft:skeleton_skull"
+      "item": "minecraft:snow"
     },
     {
-      "item": "minecraft:sponge"
+      "item": "minecraft:sugar"
     }
   ],
   "result": {

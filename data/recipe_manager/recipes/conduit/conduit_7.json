@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bricks"
+      "item": "minecraft:dried_kelp_block"
     },
     "X": {
-      "item": "minecraft:comparator"
+      "item": "minecraft:pink_bed"
     }
   },
   "result": {

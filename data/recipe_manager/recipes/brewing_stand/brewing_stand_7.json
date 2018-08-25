@@ -6,10 +6,10 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:brown_shulker_box"
+      "item": "minecraft:flint_and_steel"
     },
     "#": {
-      "item": "minecraft:gray_terracotta"
+      "item": "minecraft:tnt_minecart"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_blue_dye"
+      "item": "minecraft:golden_hoe"
     },
     "|": {
-      "item": "minecraft:prismarine_slab"
+      "item": "minecraft:prismarine_stairs"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:nether_brick_fence"
+      "item": "minecraft:mushroom_stew"
     },
     {
-      "item": "minecraft:purple_terracotta"
+      "item": "minecraft:prismarine_slab"
     }
   ],
   "result": {

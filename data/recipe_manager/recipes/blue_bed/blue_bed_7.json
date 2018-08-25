@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cooked_beef"
+      "item": "minecraft:gray_concrete"
     },
     "X": {
-      "item": "minecraft:painting"
+      "item": "minecraft:stripped_oak_log"
     }
   },
   "result": {

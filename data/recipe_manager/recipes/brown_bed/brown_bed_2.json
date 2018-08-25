@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_boots"
+      "item": "minecraft:iron_ingot"
     },
     "X": {
-      "item": "minecraft:light_blue_concrete"
+      "item": "minecraft:smooth_sandstone"
     }
   },
   "result": {

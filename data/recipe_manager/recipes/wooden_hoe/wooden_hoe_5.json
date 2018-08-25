@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:pink_concrete"
+      "item": "minecraft:black_wool"
     },
     "#": {
-      "item": "minecraft:stone_bricks"
+      "item": "minecraft:piston"
     }
   },
   "result": {

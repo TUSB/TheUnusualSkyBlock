@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:melon"
+      "item": "minecraft:acacia_leaves"
     },
     {
-      "item": "minecraft:oak_stairs"
+      "item": "minecraft:sandstone"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "~": {
-      "item": "minecraft:infested_cobblestone"
+      "item": "minecraft:bookshelf"
     },
     "O": {
-      "item": "minecraft:paper"
+      "item": "minecraft:rail"
     }
   },
   "result": {

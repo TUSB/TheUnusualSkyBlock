@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_mushroom"
+      "item": "minecraft:acacia_fence_gate"
     },
     {
-      "item": "minecraft:diamond_axe"
+      "item": "minecraft:blue_bed"
     },
     {
-      "item": "minecraft:jukebox"
+      "item": "minecraft:chipped_anvil"
     },
     {
-      "item": "minecraft:lime_dye"
+      "item": "minecraft:crafting_table"
     },
     {
-      "item": "minecraft:red_glazed_terracotta"
+      "item": "minecraft:dropper"
     },
     {
-      "item": "minecraft:red_nether_bricks"
+      "item": "minecraft:green_carpet"
     },
     {
-      "item": "minecraft:spawner"
+      "item": "minecraft:leather_leggings"
     },
     {
-      "item": "minecraft:white_shulker_box"
+      "item": "minecraft:scute"
     },
     {
-      "item": "minecraft:white_stained_glass"
+      "item": "minecraft:spruce_trapdoor"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:hopper_minecart"
     },
     "|": {
-      "item": "minecraft:stripped_spruce_log"
+      "item": "minecraft:terracotta"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_carpet"
+      "item": "minecraft:dark_oak_slab"
     },
     "|": {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:detector_rail"
     }
   },
   "result": {

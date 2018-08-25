@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_fence"
+      "item": "minecraft:light_blue_carpet"
     },
     "#": {
-      "item": "minecraft:stone_slab"
+      "item": "minecraft:lily_pad"
     }
   },
   "result": {

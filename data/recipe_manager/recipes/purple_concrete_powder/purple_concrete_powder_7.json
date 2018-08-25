@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cookie"
+      "item": "minecraft:bubble_coral_block"
     },
     {
-      "item": "minecraft:dragon_breath"
+      "item": "minecraft:cobblestone_stairs"
     },
     {
-      "item": "minecraft:jungle_button"
+      "item": "minecraft:jungle_leaves"
     },
     {
-      "item": "minecraft:jungle_pressure_plate"
+      "item": "minecraft:lead"
     },
     {
-      "item": "minecraft:light_blue_carpet"
+      "item": "minecraft:pink_terracotta"
     },
     {
-      "item": "minecraft:prismarine_shard"
+      "item": "minecraft:rabbit_foot"
     },
     {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:red_mushroom_block"
     },
     {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:spruce_door"
     },
     {
-      "item": "minecraft:sunflower"
+      "item": "minecraft:zombie_head"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:cobblestone_wall"
+      "item": "minecraft:orange_stained_glass_pane"
     },
     "o": {
-      "item": "minecraft:gray_stained_glass"
+      "item": "minecraft:stone_button"
     }
   },
   "result": {

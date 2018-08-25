@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magenta_carpet"
+      "item": "minecraft:prismarine_slab"
     },
     "X": {
-      "item": "minecraft:repeater"
+      "item": "minecraft:salmon_bucket"
     }
   },
   "result": {

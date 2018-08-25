@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_banner"
+      "item": "minecraft:chest"
     },
     "W": {
-      "item": "minecraft:green_glazed_terracotta"
+      "item": "minecraft:jungle_door"
     }
   },
   "result": {

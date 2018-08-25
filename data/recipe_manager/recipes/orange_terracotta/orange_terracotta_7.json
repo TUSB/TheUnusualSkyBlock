@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:melon"
+      "item": "minecraft:dirt"
     },
     "X": {
-      "item": "minecraft:red_stained_glass"
+      "item": "minecraft:orange_shulker_box"
     }
   },
   "result": {

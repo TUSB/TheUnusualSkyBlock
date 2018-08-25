@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_glazed_terracotta"
+      "item": "minecraft:diamond_sword"
     },
     {
-      "item": "minecraft:green_concrete"
+      "item": "minecraft:red_terracotta"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:salmon_bucket"
+      "item": "minecraft:acacia_boat"
     },
     "#": {
-      "item": "minecraft:stripped_dark_oak_log"
+      "item": "minecraft:lingering_potion"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:lever"
+      "item": "minecraft:dandelion"
     },
     "C": {
-      "item": "minecraft:stripped_acacia_log"
+      "item": "minecraft:wooden_sword"
     }
   },
   "result": {

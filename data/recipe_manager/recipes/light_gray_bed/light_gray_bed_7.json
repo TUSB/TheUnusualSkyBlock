@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:charcoal"
+      "item": "minecraft:lead"
     },
     "X": {
-      "item": "minecraft:item_frame"
+      "item": "minecraft:purple_terracotta"
     }
   },
   "result": {

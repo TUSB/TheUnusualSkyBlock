@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gravel"
+      "item": "minecraft:cyan_bed"
     },
     "W": {
-      "item": "minecraft:white_stained_glass_pane"
+      "item": "minecraft:lime_terracotta"
     }
   },
   "result": {

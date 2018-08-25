@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_terracotta"
+      "item": "minecraft:nether_wart_block"
     },
     "|": {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:podzol"
     }
   },
   "result": {

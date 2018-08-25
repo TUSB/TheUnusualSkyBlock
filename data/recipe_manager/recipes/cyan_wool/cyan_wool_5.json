@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_glazed_terracotta"
+      "item": "minecraft:gold_nugget"
     },
     {
       "item": "minecraft:nether_bricks"

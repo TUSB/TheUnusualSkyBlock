@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cobweb"
+      "item": "minecraft:chest_minecart"
     },
     "#": {
-      "item": "minecraft:light_gray_glazed_terracotta"
+      "item": "minecraft:purple_concrete"
     }
   },
   "result": {

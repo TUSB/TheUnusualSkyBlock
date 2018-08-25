@@ -7,10 +7,10 @@
   ],
   "key": {
     "O": {
-      "item": "minecraft:chainmail_chestplate"
+      "item": "minecraft:acacia_button"
     },
     "B": {
-      "item": "minecraft:diamond_sword"
+      "item": "minecraft:sandstone"
     }
   },
   "result": {

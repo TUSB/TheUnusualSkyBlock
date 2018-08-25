@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dead_brain_coral_fan"
+      "item": "minecraft:cooked_rabbit"
     },
     {
-      "item": "minecraft:red_sandstone"
+      "item": "minecraft:lime_terracotta"
     }
   ],
   "result": {

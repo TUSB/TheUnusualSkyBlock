@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_carpet"
+      "item": "minecraft:brain_coral_fan"
     },
     {
-      "item": "minecraft:brown_stained_glass_pane"
+      "item": "minecraft:creeper_head"
     },
     {
-      "item": "minecraft:cut_red_sandstone"
+      "item": "minecraft:cyan_stained_glass_pane"
     },
     {
-      "item": "minecraft:golden_carrot"
+      "item": "minecraft:gold_block"
     },
     {
-      "item": "minecraft:light_blue_stained_glass_pane"
+      "item": "minecraft:iron_nugget"
     },
     {
-      "item": "minecraft:light_weighted_pressure_plate"
+      "item": "minecraft:lapis_block"
     },
     {
-      "item": "minecraft:lilac"
+      "item": "minecraft:purple_concrete"
     },
     {
-      "item": "minecraft:podzol"
+      "item": "minecraft:red_sandstone_stairs"
     },
     {
-      "item": "minecraft:seagrass"
+      "item": "minecraft:tube_coral"
     }
   ],
   "result": {

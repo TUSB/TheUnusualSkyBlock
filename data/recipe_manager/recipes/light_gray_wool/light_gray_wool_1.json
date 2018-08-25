@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:comparator"
+      "item": "minecraft:popped_chorus_fruit"
     },
     {
-      "item": "minecraft:light_blue_dye"
+      "item": "minecraft:rabbit_hide"
     }
   ],
   "result": {

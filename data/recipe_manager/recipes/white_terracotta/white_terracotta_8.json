@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_button"
+      "item": "minecraft:brown_bed"
     },
     "X": {
-      "item": "minecraft:wooden_shovel"
+      "item": "minecraft:mossy_cobblestone_wall"
     }
   },
   "result": {

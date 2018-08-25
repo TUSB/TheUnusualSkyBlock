@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brain_coral_fan"
+      "item": "minecraft:sea_lantern"
     },
     "#": {
-      "item": "minecraft:map"
+      "item": "minecraft:stripped_dark_oak_wood"
     }
   },
   "result": {

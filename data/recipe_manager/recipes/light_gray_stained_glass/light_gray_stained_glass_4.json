@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_door"
+      "item": "minecraft:iron_ingot"
     },
     "X": {
-      "item": "minecraft:iron_axe"
+      "item": "minecraft:prismarine_shard"
     }
   },
   "result": {

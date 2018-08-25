@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:andesite"
+      "item": "minecraft:golden_apple"
     },
     "|": {
-      "item": "minecraft:rose_bush"
+      "item": "minecraft:green_concrete"
     }
   },
   "result": {

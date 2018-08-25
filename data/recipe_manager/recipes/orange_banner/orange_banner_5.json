@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magma_cream"
+      "item": "minecraft:brewing_stand"
     },
     "|": {
-      "item": "minecraft:purple_banner"
+      "item": "minecraft:gray_terracotta"
     }
   },
   "result": {

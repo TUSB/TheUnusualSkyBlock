@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_boat"
+      "item": "minecraft:acacia_stairs"
     },
     "X": {
-      "item": "minecraft:light_blue_carpet"
+      "item": "minecraft:iron_nugget"
     }
   },
   "result": {

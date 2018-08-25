@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_log"
+      "item": "minecraft:leather"
     },
     "X": {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:sandstone_stairs"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:apple"
+      "item": "minecraft:beacon"
     },
     {
-      "item": "minecraft:brown_wool"
+      "item": "minecraft:end_stone"
     },
     {
-      "item": "minecraft:clay_ball"
+      "item": "minecraft:green_concrete"
     },
     {
-      "item": "minecraft:conduit"
+      "item": "minecraft:light_blue_concrete_powder"
     },
     {
-      "item": "minecraft:dead_tube_coral_block"
+      "item": "minecraft:nautilus_shell"
     },
     {
-      "item": "minecraft:red_bed"
+      "item": "minecraft:oak_fence"
     },
     {
-      "item": "minecraft:smooth_quartz"
+      "item": "minecraft:oxeye_daisy"
     },
     {
-      "item": "minecraft:white_banner"
+      "item": "minecraft:pink_glazed_terracotta"
     },
     {
-      "item": "minecraft:white_stained_glass"
+      "item": "minecraft:polished_andesite"
     }
   ],
   "result": {

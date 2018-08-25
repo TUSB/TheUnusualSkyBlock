@@ -7,10 +7,10 @@
   ],
   "key": {
     "-": {
-      "item": "minecraft:brick_slab"
+      "item": "minecraft:glass"
     },
     "#": {
-      "item": "minecraft:melon_slice"
+      "item": "minecraft:prismarine"
     }
   },
   "result": {

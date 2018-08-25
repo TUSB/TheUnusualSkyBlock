@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:purple_bed"
+      "item": "minecraft:ghast_tear"
     },
     "#": {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:pink_shulker_box"
     }
   },
   "result": {

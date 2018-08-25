@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:stripped_acacia_log"
+      "item": "minecraft:cobblestone_slab"
     },
     "X": {
-      "item": "minecraft:wither_skeleton_skull"
+      "item": "minecraft:oak_boat"
     }
   },
   "result": {

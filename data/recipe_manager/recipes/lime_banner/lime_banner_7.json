@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:arrow"
+      "item": "minecraft:pink_dye"
     },
     "|": {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:red_sandstone"
     }
   },
   "result": {

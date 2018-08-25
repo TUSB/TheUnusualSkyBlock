@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_concrete"
+      "item": "minecraft:cyan_shulker_box"
     },
     {
-      "item": "minecraft:golden_helmet"
+      "item": "minecraft:redstone_lamp"
     }
   ],
   "result": {

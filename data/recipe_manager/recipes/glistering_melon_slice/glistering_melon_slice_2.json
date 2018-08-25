@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:glass_pane"
+      "item": "minecraft:oak_wood"
     },
     "X": {
-      "item": "minecraft:leather_boots"
+      "item": "minecraft:white_terracotta"
     }
   },
   "result": {

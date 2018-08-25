@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lever"
+      "item": "minecraft:dark_oak_boat"
     },
     {
-      "item": "minecraft:light_gray_concrete_powder"
+      "item": "minecraft:dried_kelp"
     },
     {
-      "item": "minecraft:quartz"
+      "item": "minecraft:red_mushroom_block"
     }
   ],
   "result": {

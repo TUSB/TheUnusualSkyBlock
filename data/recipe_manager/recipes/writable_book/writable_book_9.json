@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:book"
+      "item": "minecraft:carrot_on_a_stick"
     },
     {
-      "item": "minecraft:light_blue_concrete"
+      "item": "minecraft:green_shulker_box"
     },
     {
-      "item": "minecraft:red_banner"
+      "item": "minecraft:purple_terracotta"
     }
   ],
   "result": {

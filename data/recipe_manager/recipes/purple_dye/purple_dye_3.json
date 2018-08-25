@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:golden_chestplate"
+      "item": "minecraft:brown_mushroom"
     },
     {
-      "item": "minecraft:light_blue_dye"
+      "item": "minecraft:purpur_pillar"
     }
   ],
   "result": {

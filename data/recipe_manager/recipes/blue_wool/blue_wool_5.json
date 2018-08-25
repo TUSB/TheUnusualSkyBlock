@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:stripped_jungle_log"
+      "item": "minecraft:birch_pressure_plate"
     },
     {
-      "item": "minecraft:white_banner"
+      "item": "minecraft:smooth_quartz"
     }
   ],
   "result": {

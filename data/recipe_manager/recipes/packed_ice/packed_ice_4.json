@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chainmail_boots"
+      "item": "minecraft:birch_door"
     },
     {
-      "item": "minecraft:glistering_melon_slice"
+      "item": "minecraft:carrot_on_a_stick"
     },
     {
-      "item": "minecraft:green_shulker_box"
+      "item": "minecraft:cod_bucket"
     },
     {
-      "item": "minecraft:item_frame"
+      "item": "minecraft:dark_oak_leaves"
     },
     {
-      "item": "minecraft:jungle_stairs"
+      "item": "minecraft:dark_oak_log"
+    },
+    {
+      "item": "minecraft:dead_horn_coral_fan"
+    },
+    {
+      "item": "minecraft:ender_pearl"
     },
     {
       "item": "minecraft:light_blue_stained_glass_pane"
     },
     {
-      "item": "minecraft:lime_shulker_box"
-    },
-    {
-      "item": "minecraft:magma_block"
-    },
-    {
-      "item": "minecraft:spruce_door"
+      "item": "minecraft:stone_brick_stairs"
     }
   ],
   "result": {

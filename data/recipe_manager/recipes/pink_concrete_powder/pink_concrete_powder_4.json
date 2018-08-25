@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_pressure_plate"
+      "item": "minecraft:dead_horn_coral_block"
     },
     {
-      "item": "minecraft:blaze_powder"
+      "item": "minecraft:gray_terracotta"
     },
     {
-      "item": "minecraft:bubble_coral_block"
+      "item": "minecraft:lead"
     },
     {
-      "item": "minecraft:clay_ball"
+      "item": "minecraft:nether_quartz_ore"
     },
     {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:pufferfish_bucket"
     },
     {
-      "item": "minecraft:ladder"
+      "item": "minecraft:smooth_red_sandstone"
     },
     {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:spruce_pressure_plate"
     },
     {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:stripped_jungle_log"
     },
     {
-      "item": "minecraft:stripped_acacia_log"
+      "item": "minecraft:torch"
     }
   ],
   "result": {

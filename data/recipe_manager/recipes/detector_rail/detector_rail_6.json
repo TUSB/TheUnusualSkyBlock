@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_stairs"
+      "item": "minecraft:cobblestone_wall"
     },
     "#": {
-      "item": "minecraft:bowl"
+      "item": "minecraft:orange_wool"
     },
     "R": {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:scute"
     }
   },
   "result": {

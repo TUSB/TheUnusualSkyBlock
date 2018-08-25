@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bucket"
+      "item": "minecraft:black_wool"
     },
     "X": {
-      "item": "minecraft:diamond_boots"
+      "item": "minecraft:lava_bucket"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:nautilus_shell"
+      "item": "minecraft:snow_block"
     },
     "|": {
-      "item": "minecraft:orange_stained_glass"
+      "item": "minecraft:spruce_sapling"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:acacia_button"
     },
     "#": {
-      "item": "minecraft:red_glazed_terracotta"
+      "item": "minecraft:iron_pickaxe"
     }
   },
   "result": {

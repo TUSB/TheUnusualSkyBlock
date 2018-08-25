@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:bone_block"
+      "item": "minecraft:iron_trapdoor"
     },
     "#": {
-      "item": "minecraft:lime_shulker_box"
+      "item": "minecraft:potion"
     }
   },
   "result": {

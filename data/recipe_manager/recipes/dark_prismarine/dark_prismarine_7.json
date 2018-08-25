@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:filled_map"
+      "item": "minecraft:green_terracotta"
     },
     "I": {
-      "item": "minecraft:stone_shovel"
+      "item": "minecraft:lime_concrete_powder"
     }
   },
   "result": {

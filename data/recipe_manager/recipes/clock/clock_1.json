@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:stone_pressure_plate"
+      "item": "minecraft:brewing_stand"
     },
     "X": {
-      "item": "minecraft:tube_coral"
+      "item": "minecraft:golden_leggings"
     }
   },
   "result": {

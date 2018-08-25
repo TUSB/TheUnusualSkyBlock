@@ -7,13 +7,13 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:activator_rail"
+      "item": "minecraft:black_glazed_terracotta"
     },
     "S": {
-      "item": "minecraft:shield"
+      "item": "minecraft:clock"
     },
     "#": {
-      "item": "minecraft:tropical_fish"
+      "item": "minecraft:light_gray_bed"
     }
   },
   "result": {

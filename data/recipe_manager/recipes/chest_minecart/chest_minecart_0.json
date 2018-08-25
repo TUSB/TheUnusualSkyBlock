@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:lapis_block"
+      "item": "minecraft:red_glazed_terracotta"
     },
     "B": {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:wooden_axe"
     }
   },
   "result": {

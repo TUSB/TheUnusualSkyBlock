@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:compass"
+      "item": "minecraft:lime_stained_glass_pane"
     },
     "|": {
-      "item": "minecraft:lime_carpet"
+      "item": "minecraft:stripped_jungle_wood"
     }
   },
   "result": {

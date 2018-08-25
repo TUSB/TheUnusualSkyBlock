@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:bone"
+      "item": "minecraft:mossy_stone_bricks"
     },
     "#": {
-      "item": "minecraft:grass_path"
+      "item": "minecraft:mycelium"
     }
   },
   "result": {

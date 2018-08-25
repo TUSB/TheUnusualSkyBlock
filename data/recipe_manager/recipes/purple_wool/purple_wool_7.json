@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:golden_shovel"
+      "item": "minecraft:golden_hoe"
     },
     {
-      "item": "minecraft:pumpkin"
+      "item": "minecraft:tnt"
     }
   ],
   "result": {

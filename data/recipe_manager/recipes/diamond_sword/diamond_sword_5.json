@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:lime_glazed_terracotta"
+      "item": "minecraft:cooked_chicken"
     },
     "#": {
-      "item": "minecraft:packed_ice"
+      "item": "minecraft:tnt"
     }
   },
   "result": {

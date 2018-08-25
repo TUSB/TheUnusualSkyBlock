@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:detector_rail"
+      "item": "minecraft:dark_prismarine_slab"
     },
     "#": {
-      "item": "minecraft:spruce_log"
+      "item": "minecraft:magenta_dye"
     }
   },
   "result": {

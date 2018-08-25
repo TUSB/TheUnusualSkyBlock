@@ -2,28 +2,28 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:apple"
+      "item": "minecraft:acacia_button"
     },
     {
-      "item": "minecraft:cyan_stained_glass"
+      "item": "minecraft:anvil"
     },
     {
-      "item": "minecraft:dead_fire_coral_block"
+      "item": "minecraft:black_concrete"
     },
     {
-      "item": "minecraft:egg"
+      "item": "minecraft:brown_mushroom_block"
     },
     {
-      "item": "minecraft:golden_helmet"
+      "item": "minecraft:damaged_anvil"
     },
     {
-      "item": "minecraft:pink_terracotta"
+      "item": "minecraft:dark_prismarine"
     },
     {
-      "item": "minecraft:red_banner"
+      "item": "minecraft:dead_horn_coral_fan"
     },
     {
-      "item": "minecraft:sandstone_slab"
+      "item": "minecraft:iron_hoe"
     },
     {
       "item": "minecraft:stone_hoe"

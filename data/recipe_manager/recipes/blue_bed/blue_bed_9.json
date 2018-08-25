@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magenta_shulker_box"
+      "item": "minecraft:cauldron"
     },
     "X": {
-      "item": "minecraft:sunflower"
+      "item": "minecraft:golden_pickaxe"
     }
   },
   "result": {

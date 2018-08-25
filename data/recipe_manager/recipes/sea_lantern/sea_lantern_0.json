@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:acacia_fence_gate"
+      "item": "minecraft:lime_wool"
     },
     "C": {
-      "item": "minecraft:spruce_boat"
+      "item": "minecraft:pink_bed"
     }
   },
   "result": {

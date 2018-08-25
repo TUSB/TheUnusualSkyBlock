@@ -7,10 +7,10 @@
   ],
   "key": {
     "R": {
-      "item": "minecraft:chest_minecart"
+      "item": "minecraft:purple_carpet"
     },
     "G": {
-      "item": "minecraft:yellow_bed"
+      "item": "minecraft:spruce_button"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cauldron"
+      "item": "minecraft:cactus"
     },
     "X": {
-      "item": "minecraft:mossy_stone_bricks"
+      "item": "minecraft:stone_button"
     }
   },
   "result": {

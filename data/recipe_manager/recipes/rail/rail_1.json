@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:diamond_boots"
     },
     "#": {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:lime_bed"
     }
   },
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_concrete_powder"
+      "item": "minecraft:armor_stand"
     },
     "R": {
-      "item": "minecraft:white_carpet"
+      "item": "minecraft:gray_shulker_box"
     },
     "Q": {
-      "item": "minecraft:white_stained_glass"
+      "item": "minecraft:orange_bed"
     }
   },
   "result": {

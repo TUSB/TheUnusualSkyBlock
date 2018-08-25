@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cobblestone_wall"
+      "item": "minecraft:green_glazed_terracotta"
     },
     "#": {
-      "item": "minecraft:cooked_salmon"
+      "item": "minecraft:quartz"
     }
   },
   "result": {

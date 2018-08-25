@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brown_banner"
+      "item": "minecraft:ender_chest"
     },
     "#": {
-      "item": "minecraft:nether_brick"
+      "item": "minecraft:green_stained_glass_pane"
     }
   },
   "result": {

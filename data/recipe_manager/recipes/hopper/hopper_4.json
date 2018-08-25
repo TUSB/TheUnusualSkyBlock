@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:golden_sword"
+      "item": "minecraft:gold_block"
     },
     "C": {
-      "item": "minecraft:green_wool"
+      "item": "minecraft:light_gray_wool"
     }
   },
   "result": {

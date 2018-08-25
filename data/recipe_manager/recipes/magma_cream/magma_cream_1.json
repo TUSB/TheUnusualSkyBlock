@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cauldron"
+      "item": "minecraft:painting"
     },
     {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "item": "minecraft:red_tulip"
     }
   ],
   "result": {

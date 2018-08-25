@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:red_sandstone"
     },
     {
-      "item": "minecraft:magenta_stained_glass_pane"
+      "item": "minecraft:tnt_minecart"
     }
   ],
   "result": {

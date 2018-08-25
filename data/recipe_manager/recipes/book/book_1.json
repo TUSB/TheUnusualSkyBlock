@@ -2,16 +2,16 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cooked_porkchop"
+      "item": "minecraft:dead_tube_coral_fan"
     },
     {
-      "item": "minecraft:dark_prismarine"
+      "item": "minecraft:egg"
     },
     {
-      "item": "minecraft:sea_lantern"
+      "item": "minecraft:red_banner"
     },
     {
-      "item": "minecraft:spruce_leaves"
+      "item": "minecraft:stripped_acacia_wood"
     }
   ],
   "result": {

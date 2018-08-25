@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_dye"
+      "item": "minecraft:cobblestone"
     },
     "|": {
-      "item": "minecraft:magenta_concrete"
+      "item": "minecraft:dark_oak_planks"
     }
   },
   "result": {

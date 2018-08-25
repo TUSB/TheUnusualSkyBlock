@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:item_frame"
+      "item": "minecraft:light_blue_stained_glass_pane"
     },
     "X": {
-      "item": "minecraft:pumpkin_seeds"
+      "item": "minecraft:oak_sapling"
     }
   },
   "result": {

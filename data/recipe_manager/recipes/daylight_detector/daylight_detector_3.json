@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:emerald_ore"
+      "item": "minecraft:blue_banner"
     },
     "Q": {
-      "item": "minecraft:magenta_banner"
+      "item": "minecraft:blue_concrete"
     },
     "W": {
-      "item": "minecraft:nether_brick_fence"
+      "item": "minecraft:potion"
     }
   },
   "result": {

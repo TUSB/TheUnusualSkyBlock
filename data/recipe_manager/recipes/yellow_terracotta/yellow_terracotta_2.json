@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_slab"
+      "item": "minecraft:jukebox"
     },
     "X": {
-      "item": "minecraft:brown_stained_glass_pane"
+      "item": "minecraft:stone_brick_stairs"
     }
   },
   "result": {

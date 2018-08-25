@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:painting"
+      "item": "minecraft:dark_oak_planks"
     },
     "#": {
-      "item": "minecraft:purpur_stairs"
+      "item": "minecraft:red_terracotta"
     }
   },
   "result": {

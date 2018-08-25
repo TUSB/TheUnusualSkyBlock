@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:mutton"
+      "item": "minecraft:acacia_pressure_plate"
     },
     "W": {
-      "item": "minecraft:purple_banner"
+      "item": "minecraft:nether_brick"
     }
   },
   "result": {

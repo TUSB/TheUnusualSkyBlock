@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_boat"
+      "item": "minecraft:acacia_sapling"
     },
     "|": {
-      "item": "minecraft:yellow_wool"
+      "item": "minecraft:brown_terracotta"
     }
   },
   "result": {

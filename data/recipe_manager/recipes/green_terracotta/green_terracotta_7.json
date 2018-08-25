@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:detector_rail"
+      "item": "minecraft:grass_block"
     },
     "X": {
-      "item": "minecraft:lime_stained_glass"
+      "item": "minecraft:gray_stained_glass"
     }
   },
   "result": {

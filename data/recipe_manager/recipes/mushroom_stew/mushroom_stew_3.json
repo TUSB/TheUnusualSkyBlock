@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_carpet"
+      "item": "minecraft:diamond_chestplate"
     },
     {
-      "item": "minecraft:leather_helmet"
+      "item": "minecraft:iron_axe"
     },
     {
-      "item": "minecraft:prismarine_brick_stairs"
+      "item": "minecraft:pink_glazed_terracotta"
     }
   ],
   "result": {

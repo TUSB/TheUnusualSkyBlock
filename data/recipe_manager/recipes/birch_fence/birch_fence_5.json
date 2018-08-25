@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:blaze_rod"
+      "item": "minecraft:painting"
     },
     "#": {
-      "item": "minecraft:nether_brick"
+      "item": "minecraft:tube_coral"
     }
   },
   "result": {

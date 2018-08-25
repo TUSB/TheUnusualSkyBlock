@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:cracked_stone_bricks"
+      "item": "minecraft:clay"
     },
     "B": {
-      "item": "minecraft:orange_tulip"
+      "item": "minecraft:pufferfish"
     }
   },
   "result": {

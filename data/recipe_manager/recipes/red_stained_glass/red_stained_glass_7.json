@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cauldron"
+      "item": "minecraft:magma_cream"
     },
     "X": {
-      "item": "minecraft:smooth_red_sandstone"
+      "item": "minecraft:spruce_door"
     }
   },
   "result": {

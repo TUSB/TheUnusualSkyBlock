@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_shulker_box"
+      "item": "minecraft:chainmail_leggings"
     },
     {
-      "item": "minecraft:chiseled_stone_bricks"
+      "item": "minecraft:chicken"
     },
     {
-      "item": "minecraft:dead_bubble_coral_block"
+      "item": "minecraft:grass_block"
     },
     {
-      "item": "minecraft:end_rod"
+      "item": "minecraft:light_gray_dye"
     },
     {
-      "item": "minecraft:grass"
+      "item": "minecraft:pink_stained_glass"
     },
     {
-      "item": "minecraft:lapis_block"
+      "item": "minecraft:polished_granite"
     },
     {
-      "item": "minecraft:lime_shulker_box"
+      "item": "minecraft:redstone"
     },
     {
-      "item": "minecraft:spruce_boat"
+      "item": "minecraft:sunflower"
     },
     {
-      "item": "minecraft:torch"
+      "item": "minecraft:yellow_concrete_powder"
     }
   ],
   "result": {

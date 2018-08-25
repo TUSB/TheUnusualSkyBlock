@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cut_sandstone"
+      "item": "minecraft:fishing_rod"
     },
     {
-      "item": "minecraft:grass"
+      "item": "minecraft:pink_terracotta"
     },
     {
-      "item": "minecraft:melon_slice"
+      "item": "minecraft:yellow_shulker_box"
     }
   ],
   "result": {

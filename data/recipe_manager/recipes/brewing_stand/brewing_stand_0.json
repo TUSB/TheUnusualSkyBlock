@@ -6,10 +6,10 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:jungle_trapdoor"
+      "item": "minecraft:chorus_fruit"
     },
     "#": {
-      "item": "minecraft:tipped_arrow"
+      "item": "minecraft:feather"
     }
   },
   "result": {

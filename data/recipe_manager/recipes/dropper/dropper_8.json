@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_trapdoor"
+      "item": "minecraft:blue_bed"
     },
     "R": {
-      "item": "minecraft:glowstone"
+      "item": "minecraft:purpur_block"
     }
   },
   "result": {

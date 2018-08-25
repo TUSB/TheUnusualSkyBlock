@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_door"
+      "item": "minecraft:acacia_planks"
     }
   ],
   "result": {

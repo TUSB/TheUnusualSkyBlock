@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_blue_concrete"
+      "item": "minecraft:cod_bucket"
     },
     "X": {
-      "item": "minecraft:prismarine_stairs"
+      "item": "minecraft:phantom_membrane"
     },
     "I": {
-      "item": "minecraft:yellow_concrete_powder"
+      "item": "minecraft:shulker_box"
     }
   },
   "result": {

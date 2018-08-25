@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:carrot"
+      "item": "minecraft:cauldron"
     },
     {
-      "item": "minecraft:dead_tube_coral_block"
+      "item": "minecraft:chorus_flower"
     },
     {
-      "item": "minecraft:gold_block"
+      "item": "minecraft:cod_bucket"
     },
     {
-      "item": "minecraft:golden_sword"
+      "item": "minecraft:cooked_porkchop"
     },
     {
-      "item": "minecraft:oak_planks"
+      "item": "minecraft:cyan_stained_glass"
     },
     {
-      "item": "minecraft:potato"
+      "item": "minecraft:lime_glazed_terracotta"
     },
     {
-      "item": "minecraft:pufferfish"
+      "item": "minecraft:pink_concrete"
     },
     {
-      "item": "minecraft:spruce_door"
+      "item": "minecraft:purple_bed"
     },
     {
-      "item": "minecraft:vine"
+      "item": "minecraft:wooden_shovel"
     }
   ],
   "result": {

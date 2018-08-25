@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_planks"
+      "item": "minecraft:enchanted_book"
     },
     "X": {
-      "item": "minecraft:furnace_minecart"
+      "item": "minecraft:redstone_ore"
     }
   },
   "result": {

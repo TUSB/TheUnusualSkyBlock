@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:golden_horse_armor"
+      "item": "minecraft:birch_log"
     },
     {
-      "item": "minecraft:pumpkin"
+      "item": "minecraft:cactus_green"
     }
   ],
   "result": {

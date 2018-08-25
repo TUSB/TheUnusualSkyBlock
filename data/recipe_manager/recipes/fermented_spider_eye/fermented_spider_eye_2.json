@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cooked_beef"
+      "item": "minecraft:granite"
     },
     {
-      "item": "minecraft:golden_horse_armor"
+      "item": "minecraft:sunflower"
     },
     {
-      "item": "minecraft:map"
+      "item": "minecraft:tropical_fish_bucket"
     }
   ],
   "result": {

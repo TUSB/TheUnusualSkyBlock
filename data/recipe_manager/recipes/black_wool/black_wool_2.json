@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_shulker_box"
+      "item": "minecraft:grass_block"
     },
     {
-      "item": "minecraft:compass"
+      "item": "minecraft:light_blue_glazed_terracotta"
     }
   ],
   "result": {

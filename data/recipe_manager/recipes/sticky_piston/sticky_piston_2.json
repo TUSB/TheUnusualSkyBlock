@@ -6,10 +6,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:light_gray_stained_glass_pane"
+      "item": "minecraft:acacia_sapling"
     },
     "P": {
-      "item": "minecraft:mycelium"
+      "item": "minecraft:dried_kelp"
     }
   },
   "result": {

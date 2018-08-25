@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jack_o_lantern"
+      "item": "minecraft:end_stone"
     },
     "X": {
-      "item": "minecraft:spider_eye"
+      "item": "minecraft:iron_trapdoor"
     }
   },
   "result": {

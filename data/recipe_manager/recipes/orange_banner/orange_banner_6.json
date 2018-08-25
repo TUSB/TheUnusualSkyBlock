@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:fermented_spider_eye"
     },
     "|": {
-      "item": "minecraft:gray_stained_glass_pane"
+      "item": "minecraft:milk_bucket"
     }
   },
   "result": {

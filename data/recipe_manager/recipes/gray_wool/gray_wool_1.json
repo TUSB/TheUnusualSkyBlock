@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_prismarine_stairs"
+      "item": "minecraft:iron_axe"
     },
     {
-      "item": "minecraft:iron_pickaxe"
+      "item": "minecraft:iron_chestplate"
     }
   ],
   "result": {

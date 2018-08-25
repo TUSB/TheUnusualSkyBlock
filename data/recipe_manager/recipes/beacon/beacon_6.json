@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:light_blue_banner"
+      "item": "minecraft:gold_block"
     },
     "S": {
-      "item": "minecraft:melon"
+      "item": "minecraft:quartz_block"
     },
     "O": {
-      "item": "minecraft:nether_wart_block"
+      "item": "minecraft:wheat_seeds"
     }
   },
   "result": {

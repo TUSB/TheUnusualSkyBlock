@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_button"
+      "item": "minecraft:diamond_shovel"
     },
     {
-      "item": "minecraft:redstone"
+      "item": "minecraft:light_blue_carpet"
     }
   ],
   "result": {

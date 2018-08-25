@@ -7,13 +7,13 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:brick_stairs"
+      "item": "minecraft:bricks"
     },
     "S": {
-      "item": "minecraft:bubble_coral_fan"
+      "item": "minecraft:saddle"
     },
     "#": {
-      "item": "minecraft:light_gray_stained_glass"
+      "item": "minecraft:spruce_log"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chest_minecart"
+      "item": "minecraft:dragon_breath"
     },
     {
-      "item": "minecraft:lime_terracotta"
+      "item": "minecraft:magenta_dye"
     }
   ],
   "result": {

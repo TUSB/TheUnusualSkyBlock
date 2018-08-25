@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bookshelf"
+      "item": "minecraft:ender_chest"
     },
     "X": {
-      "item": "minecraft:quartz_slab"
+      "item": "minecraft:light_gray_terracotta"
     }
   },
   "result": {

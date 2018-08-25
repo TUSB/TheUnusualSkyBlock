@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_wool"
+      "item": "minecraft:jungle_slab"
     },
     {
-      "item": "minecraft:prismarine"
+      "item": "minecraft:oak_log"
     }
   ],
   "result": {

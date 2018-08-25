@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lever"
+      "item": "minecraft:black_banner"
     },
     "X": {
-      "item": "minecraft:light_blue_banner"
+      "item": "minecraft:stone"
     }
   },
   "result": {

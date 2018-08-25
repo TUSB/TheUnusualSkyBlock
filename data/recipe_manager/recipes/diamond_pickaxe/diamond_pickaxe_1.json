@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_stairs"
+      "item": "minecraft:purpur_slab"
     },
     "#": {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:white_tulip"
     }
   },
   "result": {

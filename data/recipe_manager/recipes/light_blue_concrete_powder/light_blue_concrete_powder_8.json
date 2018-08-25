@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_stained_glass"
+      "item": "minecraft:book"
     },
     {
-      "item": "minecraft:diamond_shovel"
+      "item": "minecraft:jungle_trapdoor"
     },
     {
-      "item": "minecraft:end_crystal"
+      "item": "minecraft:leather"
     },
     {
-      "item": "minecraft:jungle_button"
+      "item": "minecraft:lime_dye"
     },
     {
-      "item": "minecraft:oxeye_daisy"
+      "item": "minecraft:pink_carpet"
     },
     {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:quartz_slab"
     },
     {
-      "item": "minecraft:spruce_boat"
+      "item": "minecraft:red_sandstone_slab"
     },
     {
-      "item": "minecraft:spruce_pressure_plate"
+      "item": "minecraft:red_terracotta"
     },
     {
-      "item": "minecraft:wooden_shovel"
+      "item": "minecraft:spruce_planks"
     }
   ],
   "result": {

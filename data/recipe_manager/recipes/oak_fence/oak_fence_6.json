@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:green_banner"
+      "item": "minecraft:acacia_slab"
     },
     "#": {
-      "item": "minecraft:stone_brick_slab"
+      "item": "minecraft:oak_pressure_plate"
     }
   },
   "result": {

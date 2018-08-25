@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_prismarine_slab"
+      "item": "minecraft:furnace"
     },
     "X": {
-      "item": "minecraft:white_concrete"
+      "item": "minecraft:leather_helmet"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_stained_glass"
+      "item": "minecraft:mossy_cobblestone_wall"
     },
     {
-      "item": "minecraft:gray_concrete"
+      "item": "minecraft:prismarine_bricks"
     }
   ],
   "result": {

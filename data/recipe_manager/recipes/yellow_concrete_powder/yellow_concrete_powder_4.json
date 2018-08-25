@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chorus_fruit"
+      "item": "minecraft:bubble_coral_block"
     },
     {
-      "item": "minecraft:grass_block"
+      "item": "minecraft:cake"
     },
     {
-      "item": "minecraft:green_concrete_powder"
+      "item": "minecraft:dark_oak_boat"
     },
     {
-      "item": "minecraft:green_shulker_box"
+      "item": "minecraft:emerald_ore"
     },
     {
-      "item": "minecraft:light_gray_banner"
+      "item": "minecraft:enchanting_table"
     },
     {
-      "item": "minecraft:magenta_dye"
+      "item": "minecraft:green_bed"
     },
     {
-      "item": "minecraft:nautilus_shell"
+      "item": "minecraft:podzol"
     },
     {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:snow"
     },
     {
-      "item": "minecraft:wheat"
+      "item": "minecraft:tnt_minecart"
     }
   ],
   "result": {

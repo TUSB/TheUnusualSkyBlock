@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:chest"
     },
     "X": {
-      "item": "minecraft:sticky_piston"
+      "item": "minecraft:lapis_ore"
     }
   },
   "result": {

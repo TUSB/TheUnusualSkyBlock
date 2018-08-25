@@ -6,10 +6,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:jungle_sapling"
+      "item": "minecraft:cobblestone_slab"
     },
     "#": {
-      "item": "minecraft:light_blue_dye"
+      "item": "minecraft:jungle_pressure_plate"
     }
   },
   "result": {

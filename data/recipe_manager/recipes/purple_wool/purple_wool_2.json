@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dead_bubble_coral_fan"
+      "item": "minecraft:smooth_sandstone"
     },
     {
-      "item": "minecraft:stripped_acacia_log"
+      "item": "minecraft:white_concrete_powder"
     }
   ],
   "result": {

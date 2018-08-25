@@ -7,10 +7,10 @@
   ],
   "key": {
     "R": {
-      "item": "minecraft:chicken"
+      "item": "minecraft:brown_stained_glass"
     },
     "G": {
-      "item": "minecraft:shulker_shell"
+      "item": "minecraft:diamond_shovel"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_terracotta"
+      "item": "minecraft:mossy_stone_bricks"
     },
     "X": {
-      "item": "minecraft:red_shulker_box"
+      "item": "minecraft:seagrass"
     }
   },
   "result": {

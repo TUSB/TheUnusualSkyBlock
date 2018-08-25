@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:bucket"
+      "item": "minecraft:dark_oak_boat"
     },
     "#": {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:dead_fire_coral_fan"
     }
   },
   "result": {

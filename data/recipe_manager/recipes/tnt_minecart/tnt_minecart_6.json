@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:diamond_helmet"
+      "item": "minecraft:book"
     },
     "B": {
-      "item": "minecraft:red_stained_glass_pane"
+      "item": "minecraft:cod_bucket"
     }
   },
   "result": {

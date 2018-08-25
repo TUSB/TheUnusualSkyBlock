@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:golden_pickaxe"
+      "item": "minecraft:oak_leaves"
     },
     {
-      "item": "minecraft:gray_shulker_box"
+      "item": "minecraft:quartz_stairs"
     }
   ],
   "result": {

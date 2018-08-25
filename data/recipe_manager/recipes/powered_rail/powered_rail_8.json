@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:mycelium"
+      "item": "minecraft:bow"
     },
     "#": {
-      "item": "minecraft:purple_concrete"
+      "item": "minecraft:clay_ball"
     },
     "R": {
-      "item": "minecraft:purple_stained_glass_pane"
+      "item": "minecraft:light_blue_carpet"
     }
   },
   "result": {

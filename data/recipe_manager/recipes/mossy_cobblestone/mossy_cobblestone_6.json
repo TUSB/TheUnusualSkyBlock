@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:green_stained_glass_pane"
+      "item": "minecraft:brain_coral_block"
     },
     {
-      "item": "minecraft:stone_shovel"
+      "item": "minecraft:furnace_minecart"
     }
   ],
   "result": {

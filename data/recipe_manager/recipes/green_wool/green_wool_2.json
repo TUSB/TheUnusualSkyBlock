@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:pumpkin"
+      "item": "minecraft:brain_coral_fan"
     },
     {
-      "item": "minecraft:redstone_lamp"
+      "item": "minecraft:lapis_lazuli"
     }
   ],
   "result": {

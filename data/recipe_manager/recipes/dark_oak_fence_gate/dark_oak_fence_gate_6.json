@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:note_block"
+      "item": "minecraft:blue_concrete_powder"
     },
     "W": {
-      "item": "minecraft:turtle_egg"
+      "item": "minecraft:gray_terracotta"
     }
   },
   "result": {

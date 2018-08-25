@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_stairs"
+      "item": "minecraft:iron_ore"
     },
     "X": {
-      "item": "minecraft:golden_pickaxe"
+      "item": "minecraft:player_head"
     }
   },
   "result": {

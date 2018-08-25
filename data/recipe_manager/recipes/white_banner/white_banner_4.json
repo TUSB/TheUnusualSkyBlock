@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_shulker_box"
+      "item": "minecraft:acacia_sapling"
     },
     "|": {
-      "item": "minecraft:jungle_stairs"
+      "item": "minecraft:cooked_rabbit"
     }
   },
   "result": {

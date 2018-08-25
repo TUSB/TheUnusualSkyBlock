@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brick_stairs"
+      "item": "minecraft:acacia_sapling"
     },
     {
-      "item": "minecraft:coal_ore"
+      "item": "minecraft:bucket"
     },
     {
-      "item": "minecraft:dead_horn_coral_fan"
+      "item": "minecraft:cocoa_beans"
     },
     {
       "item": "minecraft:diamond_shovel"
     },
     {
-      "item": "minecraft:farmland"
+      "item": "minecraft:fern"
     },
     {
-      "item": "minecraft:feather"
+      "item": "minecraft:magenta_stained_glass_pane"
     },
     {
-      "item": "minecraft:oak_button"
+      "item": "minecraft:purple_shulker_box"
     },
     {
-      "item": "minecraft:red_tulip"
+      "item": "minecraft:stripped_oak_log"
     },
     {
-      "item": "minecraft:seagrass"
+      "item": "minecraft:tube_coral_fan"
     }
   ],
   "result": {

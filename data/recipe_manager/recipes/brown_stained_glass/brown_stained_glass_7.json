@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:granite"
+      "item": "minecraft:acacia_door"
     },
     "X": {
-      "item": "minecraft:shield"
+      "item": "minecraft:blue_bed"
     }
   },
   "result": {

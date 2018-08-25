@@ -2,16 +2,16 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:feather"
+      "item": "minecraft:black_stained_glass"
     },
     {
-      "item": "minecraft:fern"
+      "item": "minecraft:diamond_boots"
     },
     {
-      "item": "minecraft:furnace"
+      "item": "minecraft:diamond_sword"
     },
     {
-      "item": "minecraft:jungle_pressure_plate"
+      "item": "minecraft:stone_brick_stairs"
     }
   ],
   "result": {

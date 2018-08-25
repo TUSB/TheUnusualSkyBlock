@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_leaves"
+      "item": "minecraft:acacia_door"
     },
     "X": {
-      "item": "minecraft:emerald"
+      "item": "minecraft:redstone_lamp"
     }
   },
   "result": {

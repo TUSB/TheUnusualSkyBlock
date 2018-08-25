@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:arrow"
+      "item": "minecraft:cauldron"
     },
     {
-      "item": "minecraft:cookie"
+      "item": "minecraft:enchanting_table"
     },
     {
-      "item": "minecraft:gray_bed"
+      "item": "minecraft:furnace_minecart"
     },
     {
-      "item": "minecraft:iron_bars"
+      "item": "minecraft:hopper"
     },
     {
-      "item": "minecraft:magenta_stained_glass"
+      "item": "minecraft:orange_tulip"
     },
     {
-      "item": "minecraft:painting"
+      "item": "minecraft:petrified_oak_slab"
     },
     {
-      "item": "minecraft:snow"
+      "item": "minecraft:snowball"
     },
     {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:spruce_wood"
     },
     {
-      "item": "minecraft:white_banner"
+      "item": "minecraft:stone_button"
     }
   ],
   "result": {

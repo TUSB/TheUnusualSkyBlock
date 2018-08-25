@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lead"
+      "item": "minecraft:fire_coral"
     },
     {
-      "item": "minecraft:stripped_oak_log"
+      "item": "minecraft:horn_coral"
     }
   ],
   "result": {

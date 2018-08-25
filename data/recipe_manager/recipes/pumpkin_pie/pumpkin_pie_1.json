@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:shield"
+      "item": "minecraft:lime_terracotta"
     },
     {
-      "item": "minecraft:tripwire_hook"
+      "item": "minecraft:stripped_oak_log"
     },
     {
-      "item": "minecraft:white_carpet"
+      "item": "minecraft:wheat"
     }
   ],
   "result": {

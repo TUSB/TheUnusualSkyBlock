@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:purple_dye"
+      "item": "minecraft:polished_granite"
     },
     "W": {
-      "item": "minecraft:string"
+      "item": "minecraft:zombie_head"
     }
   },
   "result": {

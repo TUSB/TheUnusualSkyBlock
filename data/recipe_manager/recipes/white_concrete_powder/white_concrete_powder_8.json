@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_leaves"
+      "item": "minecraft:diamond_chestplate"
     },
     {
-      "item": "minecraft:birch_planks"
+      "item": "minecraft:grass"
     },
     {
-      "item": "minecraft:brain_coral_fan"
+      "item": "minecraft:mutton"
     },
     {
-      "item": "minecraft:brown_mushroom_block"
+      "item": "minecraft:orange_stained_glass"
     },
     {
-      "item": "minecraft:fire_coral"
+      "item": "minecraft:purple_concrete_powder"
     },
     {
-      "item": "minecraft:gray_concrete_powder"
+      "item": "minecraft:red_terracotta"
     },
     {
-      "item": "minecraft:light_gray_stained_glass_pane"
+      "item": "minecraft:spruce_boat"
     },
     {
-      "item": "minecraft:phantom_membrane"
+      "item": "minecraft:trapped_chest"
     },
     {
-      "item": "minecraft:snowball"
+      "item": "minecraft:yellow_shulker_box"
     }
   ],
   "result": {

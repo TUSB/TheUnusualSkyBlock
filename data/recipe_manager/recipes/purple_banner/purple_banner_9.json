@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_blue_shulker_box"
+      "item": "minecraft:light_gray_glazed_terracotta"
     },
     "|": {
-      "item": "minecraft:light_gray_stained_glass_pane"
+      "item": "minecraft:prismarine_brick_stairs"
     }
   },
   "result": {

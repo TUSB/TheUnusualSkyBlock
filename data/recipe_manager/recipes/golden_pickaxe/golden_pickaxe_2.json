@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:chest_minecart"
+      "item": "minecraft:shield"
     },
     "#": {
-      "item": "minecraft:leather_leggings"
+      "item": "minecraft:spruce_boat"
     }
   },
   "result": {

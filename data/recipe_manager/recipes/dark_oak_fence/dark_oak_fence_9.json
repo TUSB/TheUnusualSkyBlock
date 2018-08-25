@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:chiseled_quartz_block"
+      "item": "minecraft:brown_mushroom_block"
     },
     "#": {
-      "item": "minecraft:horn_coral_fan"
+      "item": "minecraft:nether_brick"
     }
   },
   "result": {

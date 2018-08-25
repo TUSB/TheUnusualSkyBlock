@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:charcoal"
+      "item": "minecraft:black_wool"
     },
     "X": {
-      "item": "minecraft:iron_boots"
+      "item": "minecraft:poisonous_potato"
     }
   },
   "result": {

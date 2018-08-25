@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lime_stained_glass_pane"
+      "item": "minecraft:iron_sword"
     },
     {
-      "item": "minecraft:wet_sponge"
+      "item": "minecraft:lime_shulker_box"
     },
     {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:smooth_quartz"
     }
   ],
   "result": {

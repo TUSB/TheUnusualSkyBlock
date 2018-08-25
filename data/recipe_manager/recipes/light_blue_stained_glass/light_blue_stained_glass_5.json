@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:sponge"
+      "item": "minecraft:green_concrete_powder"
     },
     "X": {
-      "item": "minecraft:yellow_stained_glass_pane"
+      "item": "minecraft:smooth_quartz"
     }
   },
   "result": {

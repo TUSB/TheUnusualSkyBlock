@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:dark_oak_fence"
     },
     "#": {
-      "item": "minecraft:diamond_helmet"
+      "item": "minecraft:dark_oak_planks"
     }
   },
   "result": {

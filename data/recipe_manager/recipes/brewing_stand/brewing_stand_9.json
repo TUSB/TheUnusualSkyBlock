@@ -6,10 +6,10 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:beef"
+      "item": "minecraft:dirt"
     },
     "#": {
-      "item": "minecraft:purple_terracotta"
+      "item": "minecraft:oak_wood"
     }
   },
   "result": {

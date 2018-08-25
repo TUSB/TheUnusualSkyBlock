@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:glass_pane"
     },
     "#": {
-      "item": "minecraft:red_bed"
+      "item": "minecraft:green_concrete"
     }
   },
   "result": {

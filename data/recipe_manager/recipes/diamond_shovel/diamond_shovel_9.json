@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_banner"
+      "item": "minecraft:diamond_sword"
     },
     "#": {
-      "item": "minecraft:spruce_button"
+      "item": "minecraft:mushroom_stew"
     }
   },
   "result": {

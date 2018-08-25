@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_boat"
+      "item": "minecraft:cyan_bed"
     },
     {
-      "item": "minecraft:coal"
+      "item": "minecraft:iron_chestplate"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cactus"
+      "item": "minecraft:cooked_rabbit"
     },
     "X": {
-      "item": "minecraft:iron_pickaxe"
+      "item": "minecraft:furnace"
     }
   },
   "result": {

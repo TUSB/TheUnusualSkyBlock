@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_leaves"
+      "item": "minecraft:acacia_fence_gate"
     },
     "X": {
-      "item": "minecraft:redstone_lamp"
+      "item": "minecraft:arrow"
     }
   },
   "result": {

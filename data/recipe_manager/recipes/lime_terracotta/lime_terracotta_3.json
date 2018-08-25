@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:carved_pumpkin"
+      "item": "minecraft:oak_fence_gate"
     },
     "X": {
-      "item": "minecraft:gray_bed"
+      "item": "minecraft:powered_rail"
     }
   },
   "result": {

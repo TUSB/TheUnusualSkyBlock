@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lime_bed"
+      "item": "minecraft:black_stained_glass"
     },
     "|": {
-      "item": "minecraft:white_shulker_box"
+      "item": "minecraft:jungle_stairs"
     }
   },
   "result": {

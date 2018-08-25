@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cooked_chicken"
+      "item": "minecraft:cooked_porkchop"
     },
     "X": {
-      "item": "minecraft:spruce_wood"
+      "item": "minecraft:creeper_head"
     }
   },
   "result": {

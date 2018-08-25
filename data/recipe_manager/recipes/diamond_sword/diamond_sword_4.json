@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_carpet"
+      "item": "minecraft:brown_terracotta"
     },
     "#": {
-      "item": "minecraft:smooth_quartz"
+      "item": "minecraft:carved_pumpkin"
     }
   },
   "result": {

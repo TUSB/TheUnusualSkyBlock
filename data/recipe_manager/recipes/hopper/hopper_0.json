@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:jungle_trapdoor"
+      "item": "minecraft:lever"
     },
     "C": {
-      "item": "minecraft:sponge"
+      "item": "minecraft:prismarine_brick_slab"
     }
   },
   "result": {

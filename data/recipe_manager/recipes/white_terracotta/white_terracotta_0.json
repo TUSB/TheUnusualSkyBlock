@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_shulker_box"
+      "item": "minecraft:carved_pumpkin"
     },
     "X": {
-      "item": "minecraft:potato"
+      "item": "minecraft:dried_kelp"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cobweb"
+      "item": "minecraft:light_gray_concrete_powder"
     },
     "#": {
-      "item": "minecraft:light_blue_carpet"
+      "item": "minecraft:magma_block"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_mushroom"
+      "item": "minecraft:black_stained_glass"
     },
     "X": {
-      "item": "minecraft:wet_sponge"
+      "item": "minecraft:torch"
     }
   },
   "result": {

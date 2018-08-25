@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:clock"
+      "item": "minecraft:purple_terracotta"
     }
   ],
   "result": {

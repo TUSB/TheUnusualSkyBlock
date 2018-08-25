@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:gold_ore"
+      "item": "minecraft:carrot_on_a_stick"
     },
     {
-      "item": "minecraft:oak_button"
+      "item": "minecraft:light_gray_stained_glass_pane"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_concrete"
+      "item": "minecraft:beef"
     },
     "X": {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:brown_concrete"
     }
   },
   "result": {

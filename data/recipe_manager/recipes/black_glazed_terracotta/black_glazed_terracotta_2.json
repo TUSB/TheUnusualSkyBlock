@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:polished_andesite"
+      "item": "minecraft:dark_oak_door"
     }
   ],
   "result": {

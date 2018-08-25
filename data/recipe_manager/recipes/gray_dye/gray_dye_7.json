@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:green_stained_glass"
+      "item": "minecraft:painting"
     },
     {
-      "item": "minecraft:pufferfish"
+      "item": "minecraft:redstone_ore"
     }
   ],
   "result": {

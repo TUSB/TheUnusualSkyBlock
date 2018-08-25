@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:golden_helmet"
     },
     "|": {
-      "item": "minecraft:stripped_dark_oak_log"
+      "item": "minecraft:prismarine_brick_stairs"
     }
   },
   "result": {

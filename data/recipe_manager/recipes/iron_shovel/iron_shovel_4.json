@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cod"
+      "item": "minecraft:leather"
     },
     "#": {
-      "item": "minecraft:dead_brain_coral_block"
+      "item": "minecraft:yellow_concrete_powder"
     }
   },
   "result": {

@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cracked_stone_bricks"
+      "item": "minecraft:light_gray_wool"
     }
   ],
   "result": {

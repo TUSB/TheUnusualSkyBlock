@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:golden_helmet"
+      "item": "minecraft:end_rod"
     },
     {
-      "item": "minecraft:scute"
+      "item": "minecraft:oak_pressure_plate"
     }
   ],
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cobblestone_wall"
+      "item": "minecraft:brown_carpet"
     },
     {
-      "item": "minecraft:cod_bucket"
+      "item": "minecraft:cactus"
     },
     {
-      "item": "minecraft:cyan_shulker_box"
+      "item": "minecraft:dirt"
     },
     {
-      "item": "minecraft:dark_oak_sapling"
+      "item": "minecraft:feather"
     },
     {
-      "item": "minecraft:leather"
+      "item": "minecraft:granite"
     },
     {
-      "item": "minecraft:light_blue_bed"
+      "item": "minecraft:orange_stained_glass"
     },
     {
-      "item": "minecraft:sandstone_slab"
+      "item": "minecraft:red_concrete_powder"
     },
     {
-      "item": "minecraft:shulker_box"
+      "item": "minecraft:spruce_leaves"
     },
     {
-      "item": "minecraft:snow"
+      "item": "minecraft:wooden_pickaxe"
     }
   ],
   "result": {

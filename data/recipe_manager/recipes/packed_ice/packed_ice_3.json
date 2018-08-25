@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_planks"
+      "item": "minecraft:coal_ore"
     },
     {
-      "item": "minecraft:cracked_stone_bricks"
+      "item": "minecraft:lime_banner"
     },
     {
-      "item": "minecraft:flint"
+      "item": "minecraft:orange_stained_glass"
     },
     {
-      "item": "minecraft:grass_path"
+      "item": "minecraft:purple_bed"
     },
     {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:splash_potion"
     },
     {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:trident"
     },
     {
-      "item": "minecraft:shears"
+      "item": "minecraft:wheat_seeds"
     },
     {
-      "item": "minecraft:snowball"
+      "item": "minecraft:white_tulip"
     },
     {
-      "item": "minecraft:yellow_wool"
+      "item": "minecraft:yellow_terracotta"
     }
   ],
   "result": {

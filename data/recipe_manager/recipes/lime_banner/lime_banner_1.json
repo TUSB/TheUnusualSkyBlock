@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lime_dye"
+      "item": "minecraft:brown_carpet"
     },
     "|": {
-      "item": "minecraft:prismarine_slab"
+      "item": "minecraft:feather"
     }
   },
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:glass_pane"
+      "item": "minecraft:brown_wool"
     },
     "E": {
-      "item": "minecraft:hopper_minecart"
+      "item": "minecraft:quartz_pillar"
     },
     "T": {
-      "item": "minecraft:orange_shulker_box"
+      "item": "minecraft:spider_eye"
     }
   },
   "result": {

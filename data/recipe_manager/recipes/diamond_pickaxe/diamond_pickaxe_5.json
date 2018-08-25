@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:cactus_green"
     },
     "#": {
-      "item": "minecraft:fire_charge"
+      "item": "minecraft:granite"
     }
   },
   "result": {

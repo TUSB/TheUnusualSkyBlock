@@ -6,10 +6,10 @@
   ],
   "key": {
     "D": {
-      "item": "minecraft:glowstone"
+      "item": "minecraft:repeater"
     },
     "G": {
-      "item": "minecraft:wooden_axe"
+      "item": "minecraft:yellow_concrete_powder"
     }
   },
   "result": {

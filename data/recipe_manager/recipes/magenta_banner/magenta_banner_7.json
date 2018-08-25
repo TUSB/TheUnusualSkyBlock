@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bubble_coral"
+      "item": "minecraft:dropper"
     },
     "|": {
-      "item": "minecraft:peony"
+      "item": "minecraft:piston"
     }
   },
   "result": {

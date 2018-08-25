@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:light_blue_terracotta"
+      "item": "minecraft:blue_stained_glass_pane"
     },
     "#": {
-      "item": "minecraft:phantom_membrane"
+      "item": "minecraft:chiseled_red_sandstone"
     }
   },
   "result": {

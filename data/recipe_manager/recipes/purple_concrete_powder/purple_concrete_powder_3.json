@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_slab"
+      "item": "minecraft:brain_coral_block"
     },
     {
-      "item": "minecraft:blaze_rod"
+      "item": "minecraft:bubble_coral_block"
     },
     {
-      "item": "minecraft:ender_chest"
+      "item": "minecraft:cocoa_beans"
     },
     {
-      "item": "minecraft:fire_coral_fan"
+      "item": "minecraft:heart_of_the_sea"
     },
     {
-      "item": "minecraft:green_stained_glass"
+      "item": "minecraft:jungle_stairs"
     },
     {
-      "item": "minecraft:light_blue_terracotta"
+      "item": "minecraft:purple_banner"
     },
     {
-      "item": "minecraft:magenta_shulker_box"
+      "item": "minecraft:red_carpet"
     },
     {
-      "item": "minecraft:oak_pressure_plate"
+      "item": "minecraft:red_glazed_terracotta"
     },
     {
-      "item": "minecraft:pumpkin_pie"
+      "item": "minecraft:sea_lantern"
     }
   ],
   "result": {

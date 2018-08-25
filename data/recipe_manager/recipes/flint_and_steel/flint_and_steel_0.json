@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:clay_ball"
+      "item": "minecraft:gray_concrete_powder"
     },
     {
-      "item": "minecraft:orange_concrete"
+      "item": "minecraft:tripwire_hook"
     }
   ],
   "result": {

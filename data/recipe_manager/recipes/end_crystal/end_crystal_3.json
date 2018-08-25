@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:beetroot"
+      "item": "minecraft:acacia_trapdoor"
     },
     "E": {
-      "item": "minecraft:lead"
+      "item": "minecraft:melon"
     },
     "T": {
-      "item": "minecraft:mycelium"
+      "item": "minecraft:orange_tulip"
     }
   },
   "result": {

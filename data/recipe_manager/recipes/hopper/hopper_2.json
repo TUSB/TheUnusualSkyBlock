@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:red_mushroom_block"
+      "item": "minecraft:orange_glazed_terracotta"
     },
     "C": {
-      "item": "minecraft:red_stained_glass_pane"
+      "item": "minecraft:redstone"
     }
   },
   "result": {

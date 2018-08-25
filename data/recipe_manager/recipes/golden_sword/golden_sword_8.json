@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:ladder"
+      "item": "minecraft:detector_rail"
     },
     "#": {
-      "item": "minecraft:pink_concrete"
+      "item": "minecraft:wheat_seeds"
     }
   },
   "result": {

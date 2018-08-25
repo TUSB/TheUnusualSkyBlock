@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:nether_brick_stairs"
+      "item": "minecraft:detector_rail"
     },
     "#": {
-      "item": "minecraft:pumpkin_pie"
+      "item": "minecraft:slime_ball"
     }
   },
   "result": {

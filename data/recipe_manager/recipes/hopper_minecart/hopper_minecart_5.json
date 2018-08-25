@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:diamond_leggings"
+      "item": "minecraft:acacia_fence_gate"
     },
     "B": {
-      "item": "minecraft:light_gray_shulker_box"
+      "item": "minecraft:bucket"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:light_blue_bed"
     },
     "W": {
-      "item": "minecraft:red_glazed_terracotta"
+      "item": "minecraft:magenta_bed"
     }
   },
   "result": {

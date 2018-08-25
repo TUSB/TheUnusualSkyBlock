@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:grass_path"
+      "item": "minecraft:chiseled_sandstone"
     },
     "#": {
-      "item": "minecraft:light_blue_banner"
+      "item": "minecraft:purpur_block"
     }
   },
   "result": {

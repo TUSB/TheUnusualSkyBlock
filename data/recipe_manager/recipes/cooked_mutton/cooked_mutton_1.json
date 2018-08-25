@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:map"
+      "item": "minecraft:beetroot_soup"
     }
   ],
   "result": {

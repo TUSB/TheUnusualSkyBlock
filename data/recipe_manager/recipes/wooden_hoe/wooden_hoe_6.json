@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_stained_glass"
+      "item": "minecraft:nautilus_shell"
     },
     "#": {
-      "item": "minecraft:light_blue_concrete"
+      "item": "minecraft:written_book"
     }
   },
   "result": {

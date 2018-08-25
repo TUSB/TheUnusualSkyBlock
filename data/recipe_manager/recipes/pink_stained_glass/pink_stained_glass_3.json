@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:chiseled_red_sandstone"
     },
     "X": {
-      "item": "minecraft:sand"
+      "item": "minecraft:cyan_terracotta"
     }
   },
   "result": {

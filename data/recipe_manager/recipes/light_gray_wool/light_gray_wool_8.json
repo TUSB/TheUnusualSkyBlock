@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:orange_shulker_box"
+      "item": "minecraft:melon"
     },
     {
-      "item": "minecraft:stripped_birch_wood"
+      "item": "minecraft:white_banner"
     }
   ],
   "result": {

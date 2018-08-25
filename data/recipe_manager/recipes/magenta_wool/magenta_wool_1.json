@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cooked_chicken"
+      "item": "minecraft:acacia_door"
     },
     {
-      "item": "minecraft:spruce_leaves"
+      "item": "minecraft:clay_ball"
     }
   ],
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_trapdoor"
+      "item": "minecraft:birch_wood"
     },
     {
-      "item": "minecraft:dark_oak_log"
+      "item": "minecraft:black_stained_glass"
     },
     {
-      "item": "minecraft:jukebox"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     },
     {
-      "item": "minecraft:lime_concrete_powder"
+      "item": "minecraft:light_gray_terracotta"
     },
     {
-      "item": "minecraft:obsidian"
+      "item": "minecraft:orange_concrete"
     },
     {
-      "item": "minecraft:purpur_pillar"
+      "item": "minecraft:pink_shulker_box"
     },
     {
-      "item": "minecraft:red_sand"
+      "item": "minecraft:popped_chorus_fruit"
     },
     {
-      "item": "minecraft:stripped_dark_oak_log"
+      "item": "minecraft:white_carpet"
     },
     {
-      "item": "minecraft:yellow_glazed_terracotta"
+      "item": "minecraft:yellow_concrete"
     }
   ],
   "result": {

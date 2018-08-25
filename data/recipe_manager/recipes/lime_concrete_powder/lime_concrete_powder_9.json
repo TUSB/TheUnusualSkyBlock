@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brain_coral_block"
+      "item": "minecraft:acacia_log"
     },
     {
-      "item": "minecraft:brown_mushroom"
+      "item": "minecraft:brown_concrete_powder"
     },
     {
-      "item": "minecraft:brown_stained_glass"
+      "item": "minecraft:chainmail_helmet"
     },
     {
-      "item": "minecraft:ender_pearl"
+      "item": "minecraft:dark_prismarine"
     },
     {
-      "item": "minecraft:light_blue_banner"
+      "item": "minecraft:dark_prismarine_slab"
     },
     {
-      "item": "minecraft:light_blue_concrete_powder"
+      "item": "minecraft:egg"
     },
     {
-      "item": "minecraft:poppy"
+      "item": "minecraft:gray_concrete_powder"
     },
     {
-      "item": "minecraft:red_glazed_terracotta"
+      "item": "minecraft:leather"
     },
     {
-      "item": "minecraft:red_sandstone_slab"
+      "item": "minecraft:sign"
     }
   ],
   "result": {

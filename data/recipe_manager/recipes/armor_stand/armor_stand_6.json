@@ -7,10 +7,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:acacia_trapdoor"
+      "item": "minecraft:acacia_button"
     },
     "_": {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:pumpkin_seeds"
     }
   },
   "result": {

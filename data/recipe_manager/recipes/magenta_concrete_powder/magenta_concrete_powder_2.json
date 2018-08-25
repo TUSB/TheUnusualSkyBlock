@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_stained_glass"
+      "item": "minecraft:bowl"
     },
     {
-      "item": "minecraft:chicken"
+      "item": "minecraft:brain_coral_block"
     },
     {
-      "item": "minecraft:diamond_horse_armor"
+      "item": "minecraft:clock"
     },
     {
-      "item": "minecraft:green_bed"
+      "item": "minecraft:golden_axe"
     },
     {
-      "item": "minecraft:jungle_trapdoor"
+      "item": "minecraft:gray_bed"
     },
     {
-      "item": "minecraft:nether_brick_fence"
+      "item": "minecraft:iron_ingot"
     },
     {
-      "item": "minecraft:pumpkin_seeds"
+      "item": "minecraft:light_blue_concrete"
     },
     {
-      "item": "minecraft:purple_concrete_powder"
+      "item": "minecraft:magenta_stained_glass"
     },
     {
-      "item": "minecraft:repeater"
+      "item": "minecraft:magenta_wool"
     }
   ],
   "result": {

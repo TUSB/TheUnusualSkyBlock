@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:beetroot"
+      "item": "minecraft:black_concrete"
     },
     "X": {
-      "item": "minecraft:lapis_block"
+      "item": "minecraft:quartz_pillar"
     }
   },
   "result": {

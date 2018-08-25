@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:spider_eye"
+      "item": "minecraft:jungle_sapling"
     },
     {
-      "item": "minecraft:trident"
+      "item": "minecraft:redstone_block"
     }
   ],
   "result": {

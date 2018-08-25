@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:green_wool"
+      "item": "minecraft:end_crystal"
     },
     {
-      "item": "minecraft:stripped_oak_wood"
+      "item": "minecraft:poppy"
     }
   ],
   "result": {

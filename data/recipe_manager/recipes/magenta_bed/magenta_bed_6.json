@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_carpet"
+      "item": "minecraft:milk_bucket"
     },
     "X": {
-      "item": "minecraft:oak_trapdoor"
+      "item": "minecraft:poisonous_potato"
     }
   },
   "result": {

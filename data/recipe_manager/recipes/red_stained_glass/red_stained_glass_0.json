@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:granite"
     },
     "X": {
-      "item": "minecraft:phantom_membrane"
+      "item": "minecraft:smooth_stone"
     }
   },
   "result": {

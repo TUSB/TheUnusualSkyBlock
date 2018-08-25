@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:mossy_cobblestone"
+      "item": "minecraft:white_tulip"
     },
     "X": {
-      "item": "minecraft:podzol"
+      "item": "minecraft:writable_book"
     }
   },
   "result": {

@@ -7,16 +7,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:dead_tube_coral_fan"
+      "item": "minecraft:compass"
     },
     "#": {
-      "item": "minecraft:gray_concrete_powder"
+      "item": "minecraft:golden_horse_armor"
     },
     "X": {
-      "item": "minecraft:red_sandstone"
+      "item": "minecraft:light_blue_concrete"
     },
     "R": {
-      "item": "minecraft:redstone_block"
+      "item": "minecraft:orange_glazed_terracotta"
     }
   },
   "result": {

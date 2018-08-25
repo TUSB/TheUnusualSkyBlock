@@ -7,10 +7,10 @@
   ],
   "key": {
     "O": {
-      "item": "minecraft:prismarine_slab"
+      "item": "minecraft:redstone_lamp"
     },
     "B": {
-      "item": "minecraft:terracotta"
+      "item": "minecraft:white_shulker_box"
     }
   },
   "result": {

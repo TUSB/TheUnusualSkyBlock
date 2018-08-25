@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_banner"
+      "item": "minecraft:nether_quartz_ore"
     },
     "|": {
-      "item": "minecraft:pink_wool"
+      "item": "minecraft:spruce_boat"
     }
   },
   "result": {

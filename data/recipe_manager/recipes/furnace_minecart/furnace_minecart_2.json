@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:creeper_head"
+      "item": "minecraft:pufferfish"
     },
     "B": {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:terracotta"
     }
   },
   "result": {

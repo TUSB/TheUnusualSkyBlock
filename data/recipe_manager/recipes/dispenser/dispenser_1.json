@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_concrete_powder"
+      "item": "minecraft:brain_coral"
     },
     "X": {
-      "item": "minecraft:jungle_leaves"
+      "item": "minecraft:clay"
     },
     "R": {
-      "item": "minecraft:peony"
+      "item": "minecraft:pink_carpet"
     }
   },
   "result": {

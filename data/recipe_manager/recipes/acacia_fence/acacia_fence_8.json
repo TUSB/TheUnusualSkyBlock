@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:player_head"
+      "item": "minecraft:birch_boat"
     },
     "#": {
-      "item": "minecraft:stripped_birch_log"
+      "item": "minecraft:oak_fence_gate"
     }
   },
   "result": {

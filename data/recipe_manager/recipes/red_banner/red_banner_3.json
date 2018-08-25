@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_concrete"
+      "item": "minecraft:jungle_pressure_plate"
     },
     "|": {
-      "item": "minecraft:orange_dye"
+      "item": "minecraft:yellow_carpet"
     }
   },
   "result": {

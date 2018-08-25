@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:rotten_flesh"
+      "item": "minecraft:packed_ice"
     },
     {
-      "item": "minecraft:yellow_stained_glass"
+      "item": "minecraft:repeater"
     }
   ],
   "result": {

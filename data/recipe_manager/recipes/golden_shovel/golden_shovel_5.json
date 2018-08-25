@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:ladder"
+      "item": "minecraft:beacon"
     },
     "#": {
-      "item": "minecraft:large_fern"
+      "item": "minecraft:golden_shovel"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_button"
+      "item": "minecraft:dark_oak_fence"
     },
     "X": {
-      "item": "minecraft:stone"
+      "item": "minecraft:diamond_chestplate"
     }
   },
   "result": {

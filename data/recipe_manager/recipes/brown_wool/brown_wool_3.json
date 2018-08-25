@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_stained_glass_pane"
+      "item": "minecraft:birch_pressure_plate"
     },
     {
-      "item": "minecraft:chiseled_sandstone"
+      "item": "minecraft:coal_ore"
     }
   ],
   "result": {

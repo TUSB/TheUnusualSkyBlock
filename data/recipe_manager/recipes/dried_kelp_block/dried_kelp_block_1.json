@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brick"
+      "item": "minecraft:birch_boat"
     },
     {
-      "item": "minecraft:brown_mushroom"
+      "item": "minecraft:birch_stairs"
     },
     {
-      "item": "minecraft:brown_stained_glass_pane"
+      "item": "minecraft:blue_carpet"
     },
     {
-      "item": "minecraft:glowstone"
+      "item": "minecraft:carrot_on_a_stick"
     },
     {
-      "item": "minecraft:light_blue_bed"
+      "item": "minecraft:horn_coral_fan"
     },
     {
-      "item": "minecraft:melon_slice"
+      "item": "minecraft:potion"
     },
     {
-      "item": "minecraft:orange_terracotta"
+      "item": "minecraft:white_stained_glass"
     },
     {
-      "item": "minecraft:pink_stained_glass"
+      "item": "minecraft:wooden_pickaxe"
     },
     {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "item": "minecraft:writable_book"
     }
   ],
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:granite"
+      "item": "minecraft:brick"
     },
     "#": {
-      "item": "minecraft:light_blue_carpet"
+      "item": "minecraft:cracked_stone_bricks"
     },
     "Y": {
-      "item": "minecraft:purple_concrete"
+      "item": "minecraft:farmland"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:gray_bed"
     },
     "X": {
-      "item": "minecraft:jungle_button"
+      "item": "minecraft:white_banner"
     }
   },
   "result": {

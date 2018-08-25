@@ -6,10 +6,10 @@
   ],
   "key": {
     "N": {
-      "item": "minecraft:seagrass"
+      "item": "minecraft:magenta_stained_glass"
     },
     "W": {
-      "item": "minecraft:yellow_wool"
+      "item": "minecraft:sandstone_slab"
     }
   },
   "result": {

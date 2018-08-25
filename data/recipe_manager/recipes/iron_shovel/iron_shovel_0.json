@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:enchanted_book"
+      "item": "minecraft:grass"
     },
     "#": {
-      "item": "minecraft:glass_pane"
+      "item": "minecraft:spruce_stairs"
     }
   },
   "result": {

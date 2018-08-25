@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:emerald"
+      "item": "minecraft:green_shulker_box"
     },
     "#": {
-      "item": "minecraft:light_gray_bed"
+      "item": "minecraft:oak_stairs"
     }
   },
   "result": {

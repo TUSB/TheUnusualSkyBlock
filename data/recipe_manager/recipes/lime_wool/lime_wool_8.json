@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:apple"
+      "item": "minecraft:dark_prismarine_slab"
     },
     {
-      "item": "minecraft:red_mushroom_block"
+      "item": "minecraft:quartz_slab"
     }
   ],
   "result": {

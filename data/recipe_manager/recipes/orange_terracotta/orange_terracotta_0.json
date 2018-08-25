@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:activator_rail"
+      "item": "minecraft:armor_stand"
     },
     "X": {
-      "item": "minecraft:heart_of_the_sea"
+      "item": "minecraft:prismarine_shard"
     }
   },
   "result": {

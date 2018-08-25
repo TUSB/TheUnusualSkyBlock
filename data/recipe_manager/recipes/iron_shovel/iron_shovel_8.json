@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:birch_wood"
+      "item": "minecraft:brick_stairs"
     },
     "#": {
-      "item": "minecraft:gravel"
+      "item": "minecraft:diamond_pickaxe"
     }
   },
   "result": {

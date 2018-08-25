@@ -7,10 +7,10 @@
   ],
   "key": {
     "~": {
-      "item": "minecraft:terracotta"
+      "item": "minecraft:birch_wood"
     },
     "O": {
-      "item": "minecraft:yellow_stained_glass_pane"
+      "item": "minecraft:sugar"
     }
   },
   "result": {

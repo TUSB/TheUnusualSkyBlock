@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:dark_oak_leaves"
     },
     "B": {
-      "item": "minecraft:red_bed"
+      "item": "minecraft:dark_oak_sapling"
     }
   },
   "result": {

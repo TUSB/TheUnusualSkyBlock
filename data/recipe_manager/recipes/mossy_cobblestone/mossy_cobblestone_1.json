@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lime_concrete"
+      "item": "minecraft:diamond_shovel"
     },
     {
-      "item": "minecraft:red_glazed_terracotta"
+      "item": "minecraft:green_terracotta"
     }
   ],
   "result": {

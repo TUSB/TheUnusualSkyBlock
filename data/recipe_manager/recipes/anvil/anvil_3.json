@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:gold_ore"
+      "item": "minecraft:prismarine_slab"
     },
     "i": {
-      "item": "minecraft:pumpkin"
+      "item": "minecraft:white_concrete"
     }
   },
   "result": {

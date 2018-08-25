@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:ink_sac"
+      "item": "minecraft:gold_ingot"
     },
     "#": {
-      "item": "minecraft:oak_boat"
+      "item": "minecraft:packed_ice"
     }
   },
   "result": {

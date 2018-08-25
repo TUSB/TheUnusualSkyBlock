@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cobblestone"
+      "item": "minecraft:purpur_slab"
     },
     "|": {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:white_stained_glass_pane"
     }
   },
   "result": {

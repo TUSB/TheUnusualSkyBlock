@@ -7,10 +7,10 @@
   ],
   "key": {
     "-": {
-      "item": "minecraft:enchanted_book"
+      "item": "minecraft:golden_axe"
     },
     "#": {
-      "item": "minecraft:yellow_wool"
+      "item": "minecraft:smooth_quartz"
     }
   },
   "result": {

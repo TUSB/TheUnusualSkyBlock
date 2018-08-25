@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brain_coral"
+      "item": "minecraft:bookshelf"
     },
     {
-      "item": "minecraft:red_terracotta"
+      "item": "minecraft:ender_eye"
     }
   ],
   "result": {

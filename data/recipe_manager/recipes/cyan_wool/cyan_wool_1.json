@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:horn_coral_fan"
     },
     {
-      "item": "minecraft:fire_coral_block"
+      "item": "minecraft:nether_bricks"
     }
   ],
   "result": {

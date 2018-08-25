@@ -6,10 +6,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:petrified_oak_slab"
+      "item": "minecraft:cooked_salmon"
     },
     "#": {
-      "item": "minecraft:tipped_arrow"
+      "item": "minecraft:diamond_helmet"
     }
   },
   "result": {

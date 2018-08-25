@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diamond_shovel"
+      "item": "minecraft:nether_wart"
     },
     {
-      "item": "minecraft:infested_stone_bricks"
+      "item": "minecraft:tall_grass"
     }
   ],
   "result": {

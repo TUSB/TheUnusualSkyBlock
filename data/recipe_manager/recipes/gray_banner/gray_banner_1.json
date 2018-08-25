@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_banner"
+      "item": "minecraft:rabbit_stew"
     },
     "|": {
-      "item": "minecraft:jungle_door"
+      "item": "minecraft:water_bucket"
     }
   },
   "result": {

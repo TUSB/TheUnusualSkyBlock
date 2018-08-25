@@ -7,13 +7,13 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:gray_shulker_box"
+      "item": "minecraft:crafting_table"
     },
     "S": {
-      "item": "minecraft:pink_dye"
+      "item": "minecraft:pink_terracotta"
     },
     "#": {
-      "item": "minecraft:prismarine"
+      "item": "minecraft:stripped_oak_wood"
     }
   },
   "result": {

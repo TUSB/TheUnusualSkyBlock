@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_banner"
+      "item": "minecraft:acacia_button"
     },
     {
-      "item": "minecraft:light_blue_wool"
+      "item": "minecraft:dark_oak_leaves"
     }
   ],
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_fence"
+      "item": "minecraft:armor_stand"
     },
     {
-      "item": "minecraft:bricks"
+      "item": "minecraft:brown_concrete"
     },
     {
-      "item": "minecraft:cyan_banner"
+      "item": "minecraft:green_concrete_powder"
     },
     {
-      "item": "minecraft:cyan_shulker_box"
+      "item": "minecraft:iron_horse_armor"
     },
     {
-      "item": "minecraft:diamond_shovel"
+      "item": "minecraft:lime_wool"
     },
     {
-      "item": "minecraft:green_carpet"
+      "item": "minecraft:quartz_block"
     },
     {
-      "item": "minecraft:light_gray_concrete_powder"
+      "item": "minecraft:stripped_jungle_log"
     },
     {
-      "item": "minecraft:quartz_stairs"
+      "item": "minecraft:wet_sponge"
     },
     {
-      "item": "minecraft:rose_red"
+      "item": "minecraft:writable_book"
     }
   ],
   "result": {

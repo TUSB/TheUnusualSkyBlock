@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:cocoa_beans"
+      "item": "minecraft:melon_slice"
     },
     "E": {
-      "item": "minecraft:gray_concrete"
+      "item": "minecraft:orange_concrete"
     },
     "T": {
-      "item": "minecraft:light_blue_terracotta"
+      "item": "minecraft:packed_ice"
     }
   },
   "result": {

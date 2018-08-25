@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_oak_wood"
+      "item": "minecraft:stripped_oak_log"
     },
     "#": {
-      "item": "minecraft:golden_chestplate"
+      "item": "minecraft:white_stained_glass"
     }
   },
   "result": {

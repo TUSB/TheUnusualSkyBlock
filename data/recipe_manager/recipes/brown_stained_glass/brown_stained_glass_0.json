@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:purple_terracotta"
     },
     "X": {
-      "item": "minecraft:detector_rail"
+      "item": "minecraft:smooth_quartz"
     }
   },
   "result": {

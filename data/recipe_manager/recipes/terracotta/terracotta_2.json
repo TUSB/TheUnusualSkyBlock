@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:light_blue_concrete"
     }
   ],
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diamond_shovel"
+      "item": "minecraft:chest_minecart"
     },
     {
-      "item": "minecraft:granite"
+      "item": "minecraft:wooden_shovel"
     }
   ],
   "result": {

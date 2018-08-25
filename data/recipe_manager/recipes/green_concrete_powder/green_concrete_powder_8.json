@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lime_bed"
+      "item": "minecraft:acacia_boat"
     },
     {
-      "item": "minecraft:magenta_stained_glass_pane"
+      "item": "minecraft:blue_bed"
     },
     {
-      "item": "minecraft:nether_brick_slab"
+      "item": "minecraft:gold_ore"
     },
     {
-      "item": "minecraft:potato"
+      "item": "minecraft:jungle_leaves"
     },
     {
-      "item": "minecraft:prismarine_slab"
+      "item": "minecraft:jungle_wood"
     },
     {
-      "item": "minecraft:purple_carpet"
+      "item": "minecraft:oak_wood"
     },
     {
-      "item": "minecraft:red_mushroom_block"
+      "item": "minecraft:pink_concrete_powder"
     },
     {
-      "item": "minecraft:stone_brick_stairs"
+      "item": "minecraft:purple_bed"
     },
     {
-      "item": "minecraft:stripped_acacia_log"
+      "item": "minecraft:yellow_shulker_box"
     }
   ],
   "result": {

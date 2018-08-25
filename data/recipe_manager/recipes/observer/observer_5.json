@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chainmail_helmet"
+      "item": "minecraft:damaged_anvil"
     },
     "R": {
-      "item": "minecraft:nether_wart"
+      "item": "minecraft:red_shulker_box"
     },
     "Q": {
-      "item": "minecraft:orange_terracotta"
+      "item": "minecraft:tnt_minecart"
     }
   },
   "result": {

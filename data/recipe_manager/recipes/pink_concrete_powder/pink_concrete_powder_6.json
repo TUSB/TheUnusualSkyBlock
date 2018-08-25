@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_trapdoor"
+      "item": "minecraft:birch_log"
     },
     {
-      "item": "minecraft:detector_rail"
+      "item": "minecraft:chainmail_chestplate"
     },
     {
-      "item": "minecraft:golden_shovel"
+      "item": "minecraft:comparator"
     },
     {
-      "item": "minecraft:light_blue_wool"
+      "item": "minecraft:gray_stained_glass"
     },
     {
-      "item": "minecraft:pink_carpet"
+      "item": "minecraft:leather_helmet"
     },
     {
-      "item": "minecraft:podzol"
+      "item": "minecraft:light_gray_stained_glass_pane"
     },
     {
-      "item": "minecraft:poppy"
+      "item": "minecraft:red_nether_bricks"
     },
     {
-      "item": "minecraft:saddle"
+      "item": "minecraft:spruce_fence_gate"
     },
     {
-      "item": "minecraft:sign"
+      "item": "minecraft:white_bed"
     }
   ],
   "result": {

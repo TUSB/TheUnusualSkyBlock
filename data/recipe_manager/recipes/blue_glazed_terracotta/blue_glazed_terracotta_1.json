@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:leather_helmet"
+      "item": "minecraft:cobblestone_slab"
     }
   ],
   "result": {

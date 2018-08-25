@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_bed"
+      "item": "minecraft:conduit"
     },
     "X": {
-      "item": "minecraft:lime_concrete_powder"
+      "item": "minecraft:green_wool"
     }
   },
   "result": {

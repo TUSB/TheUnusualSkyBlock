@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:infested_mossy_stone_bricks"
+      "item": "minecraft:blue_stained_glass_pane"
     },
     "Q": {
-      "item": "minecraft:light_blue_banner"
+      "item": "minecraft:red_sandstone"
     },
     "W": {
-      "item": "minecraft:sand"
+      "item": "minecraft:smooth_stone"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dandelion"
+      "item": "minecraft:beacon"
     },
     "X": {
-      "item": "minecraft:oxeye_daisy"
+      "item": "minecraft:oak_sapling"
     }
   },
   "result": {

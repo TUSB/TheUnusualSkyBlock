@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:clay"
+      "item": "minecraft:acacia_leaves"
     },
     "Q": {
-      "item": "minecraft:light_blue_stained_glass_pane"
+      "item": "minecraft:carved_pumpkin"
     },
     "W": {
-      "item": "minecraft:spruce_pressure_plate"
+      "item": "minecraft:yellow_stained_glass_pane"
     }
   },
   "result": {

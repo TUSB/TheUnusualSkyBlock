@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:salmon"
+      "item": "minecraft:white_bed"
     },
     "#": {
-      "item": "minecraft:soul_sand"
+      "item": "minecraft:yellow_banner"
     }
   },
   "result": {

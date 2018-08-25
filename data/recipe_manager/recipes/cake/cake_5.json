@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:brain_coral"
+      "item": "minecraft:golden_chestplate"
     },
     "B": {
-      "item": "minecraft:brown_bed"
+      "item": "minecraft:sand"
     },
     "E": {
-      "item": "minecraft:magenta_dye"
+      "item": "minecraft:terracotta"
     },
     "C": {
-      "item": "minecraft:tropical_fish_bucket"
+      "item": "minecraft:wet_sponge"
     }
   },
   "result": {

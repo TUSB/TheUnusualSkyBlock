@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:coal"
+      "item": "minecraft:blue_banner"
     },
     {
-      "item": "minecraft:cyan_concrete_powder"
+      "item": "minecraft:gray_carpet"
     },
     {
-      "item": "minecraft:golden_axe"
+      "item": "minecraft:green_concrete_powder"
     },
     {
-      "item": "minecraft:light_blue_dye"
+      "item": "minecraft:jack_o_lantern"
     },
     {
-      "item": "minecraft:magenta_dye"
+      "item": "minecraft:jungle_button"
     },
     {
-      "item": "minecraft:oak_slab"
+      "item": "minecraft:light_gray_bed"
     },
     {
-      "item": "minecraft:orange_terracotta"
+      "item": "minecraft:orange_tulip"
     },
     {
-      "item": "minecraft:red_sandstone"
+      "item": "minecraft:rabbit_stew"
     },
     {
-      "item": "minecraft:sand"
+      "item": "minecraft:stone_brick_stairs"
     }
   ],
   "result": {

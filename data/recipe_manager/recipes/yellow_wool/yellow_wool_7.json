@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dead_tube_coral_block"
+      "item": "minecraft:lapis_lazuli"
     },
     {
-      "item": "minecraft:pink_terracotta"
+      "item": "minecraft:red_shulker_box"
     }
   ],
   "result": {

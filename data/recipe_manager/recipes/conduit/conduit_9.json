@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:pink_stained_glass"
+      "item": "minecraft:feather"
     },
     "X": {
-      "item": "minecraft:vine"
+      "item": "minecraft:podzol"
     }
   },
   "result": {

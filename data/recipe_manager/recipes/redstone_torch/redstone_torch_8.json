@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:pufferfish"
+      "item": "minecraft:brown_banner"
     },
     "#": {
-      "item": "minecraft:wooden_shovel"
+      "item": "minecraft:cooked_chicken"
     }
   },
   "result": {

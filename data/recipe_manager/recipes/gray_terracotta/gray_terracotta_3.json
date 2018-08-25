@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:blue_terracotta"
     },
     "X": {
-      "item": "minecraft:cake"
+      "item": "minecraft:brown_terracotta"
     }
   },
   "result": {

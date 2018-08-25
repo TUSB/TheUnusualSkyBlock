@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:red_mushroom_block"
+      "item": "minecraft:blue_stained_glass"
     },
     "#": {
-      "item": "minecraft:tnt"
+      "item": "minecraft:magenta_terracotta"
     }
   },
   "result": {

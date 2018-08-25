@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_bed"
+      "item": "minecraft:birch_button"
     },
     "X": {
-      "item": "minecraft:stick"
+      "item": "minecraft:coal_ore"
     }
   },
   "result": {

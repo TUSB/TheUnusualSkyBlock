@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magma_block"
+      "item": "minecraft:lava_bucket"
     },
     "X": {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:salmon_bucket"
     }
   },
   "result": {

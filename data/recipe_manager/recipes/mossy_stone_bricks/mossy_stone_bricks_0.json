@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chainmail_leggings"
+      "item": "minecraft:oak_log"
     },
     {
-      "item": "minecraft:white_bed"
+      "item": "minecraft:rabbit_foot"
     }
   ],
   "result": {

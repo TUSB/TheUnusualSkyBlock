@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:golden_pickaxe"
+      "item": "minecraft:acacia_button"
     },
     {
-      "item": "minecraft:iron_helmet"
+      "item": "minecraft:chipped_anvil"
     }
   ],
   "result": {

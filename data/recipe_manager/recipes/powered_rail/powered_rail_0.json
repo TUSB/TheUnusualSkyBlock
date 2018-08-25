@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:lime_bed"
+      "item": "minecraft:heart_of_the_sea"
     },
     "#": {
-      "item": "minecraft:mutton"
+      "item": "minecraft:purple_dye"
     },
     "R": {
-      "item": "minecraft:written_book"
+      "item": "minecraft:white_glazed_terracotta"
     }
   },
   "result": {

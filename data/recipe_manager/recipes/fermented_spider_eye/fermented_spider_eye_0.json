@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cooked_cod"
+      "item": "minecraft:chainmail_helmet"
     },
     {
-      "item": "minecraft:phantom_membrane"
+      "item": "minecraft:dropper"
     },
     {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:golden_pickaxe"
     }
   ],
   "result": {

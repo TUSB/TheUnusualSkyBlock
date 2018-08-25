@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:emerald_ore"
+      "item": "minecraft:lead"
     },
     {
-      "item": "minecraft:purpur_block"
+      "item": "minecraft:pink_concrete"
     }
   ],
   "result": {

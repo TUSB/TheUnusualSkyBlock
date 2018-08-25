@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dropper"
+      "item": "minecraft:brain_coral_block"
     },
     {
-      "item": "minecraft:gray_concrete"
+      "item": "minecraft:creeper_head"
     },
     {
-      "item": "minecraft:hopper"
+      "item": "minecraft:diamond_shovel"
     },
     {
-      "item": "minecraft:jungle_log"
+      "item": "minecraft:light_gray_glazed_terracotta"
     },
     {
-      "item": "minecraft:nether_brick_stairs"
+      "item": "minecraft:peony"
     },
     {
-      "item": "minecraft:orange_stained_glass_pane"
+      "item": "minecraft:rabbit_hide"
     },
     {
-      "item": "minecraft:purpur_block"
+      "item": "minecraft:rail"
     },
     {
-      "item": "minecraft:salmon"
+      "item": "minecraft:red_carpet"
     },
     {
-      "item": "minecraft:white_concrete"
+      "item": "minecraft:snow"
     }
   ],
   "result": {

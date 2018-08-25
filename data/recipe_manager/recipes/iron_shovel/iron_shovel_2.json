@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_button"
+      "item": "minecraft:egg"
     },
     "#": {
-      "item": "minecraft:red_bed"
+      "item": "minecraft:pink_terracotta"
     }
   },
   "result": {

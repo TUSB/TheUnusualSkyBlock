@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:orange_dye"
+      "item": "minecraft:cyan_wool"
     },
     "#": {
-      "item": "minecraft:tnt_minecart"
+      "item": "minecraft:poisonous_potato"
     }
   },
   "result": {

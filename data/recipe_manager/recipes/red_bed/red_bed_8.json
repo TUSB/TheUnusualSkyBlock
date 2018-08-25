@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:soul_sand"
+      "item": "minecraft:light_gray_concrete_powder"
     },
     "X": {
-      "item": "minecraft:stripped_dark_oak_log"
+      "item": "minecraft:paper"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:coal"
+      "item": "minecraft:gold_block"
     },
     "X": {
-      "item": "minecraft:white_bed"
+      "item": "minecraft:iron_door"
     }
   },
   "result": {

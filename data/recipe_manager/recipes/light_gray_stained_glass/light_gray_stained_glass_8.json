@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:infested_chiseled_stone_bricks"
+      "item": "minecraft:stripped_dark_oak_log"
     },
     "X": {
-      "item": "minecraft:pink_glazed_terracotta"
+      "item": "minecraft:terracotta"
     }
   },
   "result": {

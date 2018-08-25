@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chorus_fruit"
+      "item": "minecraft:cut_sandstone"
     },
     "|": {
-      "item": "minecraft:cooked_rabbit"
+      "item": "minecraft:nether_quartz_ore"
     }
   },
   "result": {

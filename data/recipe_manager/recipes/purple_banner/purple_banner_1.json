@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_concrete_powder"
+      "item": "minecraft:birch_leaves"
     },
     "|": {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:blue_ice"
     }
   },
   "result": {

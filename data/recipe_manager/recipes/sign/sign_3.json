@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_button"
+      "item": "minecraft:furnace_minecart"
     },
     "X": {
-      "item": "minecraft:heart_of_the_sea"
+      "item": "minecraft:oak_trapdoor"
     }
   },
   "result": {

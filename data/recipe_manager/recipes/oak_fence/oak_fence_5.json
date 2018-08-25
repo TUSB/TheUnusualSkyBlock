@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:blue_stained_glass_pane"
+      "item": "minecraft:compass"
     },
     "#": {
-      "item": "minecraft:cobblestone_stairs"
+      "item": "minecraft:cut_red_sandstone"
     }
   },
   "result": {

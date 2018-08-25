@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_pickaxe"
+      "item": "minecraft:glass_pane"
     },
     "X": {
-      "item": "minecraft:gray_shulker_box"
+      "item": "minecraft:tube_coral"
     }
   },
   "result": {

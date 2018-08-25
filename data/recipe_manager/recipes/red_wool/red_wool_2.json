@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chorus_fruit"
+      "item": "minecraft:gold_nugget"
     },
     {
-      "item": "minecraft:lead"
+      "item": "minecraft:jungle_planks"
     }
   ],
   "result": {

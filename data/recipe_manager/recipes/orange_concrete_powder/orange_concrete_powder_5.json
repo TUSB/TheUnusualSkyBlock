@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_log"
+      "item": "minecraft:bone_meal"
     },
     {
-      "item": "minecraft:birch_door"
+      "item": "minecraft:brick_stairs"
     },
     {
-      "item": "minecraft:brown_shulker_box"
+      "item": "minecraft:brown_carpet"
     },
     {
-      "item": "minecraft:diorite"
+      "item": "minecraft:cooked_chicken"
     },
     {
-      "item": "minecraft:flint_and_steel"
+      "item": "minecraft:damaged_anvil"
     },
     {
-      "item": "minecraft:quartz_pillar"
+      "item": "minecraft:glass_bottle"
     },
     {
-      "item": "minecraft:red_sandstone_stairs"
+      "item": "minecraft:golden_shovel"
     },
     {
-      "item": "minecraft:shulker_box"
+      "item": "minecraft:powered_rail"
     },
     {
-      "item": "minecraft:tipped_arrow"
+      "item": "minecraft:turtle_egg"
     }
   ],
   "result": {

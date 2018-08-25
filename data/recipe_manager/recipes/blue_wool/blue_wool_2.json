@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:flint"
+      "item": "minecraft:lime_banner"
     },
     {
-      "item": "minecraft:iron_helmet"
+      "item": "minecraft:red_mushroom_block"
     }
   ],
   "result": {

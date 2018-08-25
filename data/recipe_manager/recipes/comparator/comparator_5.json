@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_wood"
+      "item": "minecraft:lead"
     },
     "X": {
-      "item": "minecraft:rotten_flesh"
+      "item": "minecraft:magenta_glazed_terracotta"
     },
     "I": {
-      "item": "minecraft:trapped_chest"
+      "item": "minecraft:spruce_wood"
     }
   },
   "result": {

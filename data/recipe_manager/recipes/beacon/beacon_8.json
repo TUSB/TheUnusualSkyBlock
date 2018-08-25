@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:chainmail_helmet"
+      "item": "minecraft:acacia_button"
     },
     "S": {
-      "item": "minecraft:coal"
+      "item": "minecraft:dispenser"
     },
     "O": {
-      "item": "minecraft:trapped_chest"
+      "item": "minecraft:lapis_lazuli"
     }
   },
   "result": {

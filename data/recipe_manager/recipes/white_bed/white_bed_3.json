@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brain_coral_block"
+      "item": "minecraft:bubble_coral_block"
     },
     "X": {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:cobblestone_wall"
     }
   },
   "result": {

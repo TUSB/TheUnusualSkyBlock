@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_carpet"
+      "item": "minecraft:brown_bed"
     },
     {
-      "item": "minecraft:farmland"
+      "item": "minecraft:red_carpet"
     }
   ],
   "result": {

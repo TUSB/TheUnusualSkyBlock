@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_shulker_box"
+      "item": "minecraft:light_gray_carpet"
     },
     "#": {
-      "item": "minecraft:potato"
+      "item": "minecraft:tnt_minecart"
     }
   },
   "result": {

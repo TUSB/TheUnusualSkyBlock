@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:beetroot"
     },
     {
-      "item": "minecraft:bone_block"
+      "item": "minecraft:blaze_powder"
     },
     {
-      "item": "minecraft:cactus"
+      "item": "minecraft:blue_concrete"
     },
     {
-      "item": "minecraft:horn_coral"
+      "item": "minecraft:brain_coral_block"
     },
     {
-      "item": "minecraft:jungle_fence"
+      "item": "minecraft:diamond"
     },
     {
-      "item": "minecraft:oak_leaves"
+      "item": "minecraft:diamond_block"
     },
     {
-      "item": "minecraft:potion"
+      "item": "minecraft:ice"
     },
     {
-      "item": "minecraft:rabbit_foot"
+      "item": "minecraft:jack_o_lantern"
     },
     {
-      "item": "minecraft:splash_potion"
+      "item": "minecraft:white_carpet"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:stripped_dark_oak_log"
+      "item": "minecraft:brick"
     },
     "B": {
-      "item": "minecraft:sugar_cane"
+      "item": "minecraft:lapis_block"
     }
   },
   "result": {

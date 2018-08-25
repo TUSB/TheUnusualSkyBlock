@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_prismarine"
+      "item": "minecraft:cookie"
     },
     {
-      "item": "minecraft:spruce_leaves"
+      "item": "minecraft:pumpkin_pie"
     }
   ],
   "result": {

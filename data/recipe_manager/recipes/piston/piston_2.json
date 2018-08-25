@@ -7,16 +7,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:azure_bluet"
+      "item": "minecraft:black_glazed_terracotta"
     },
     "#": {
-      "item": "minecraft:light_blue_banner"
+      "item": "minecraft:green_glazed_terracotta"
     },
     "X": {
-      "item": "minecraft:pink_carpet"
+      "item": "minecraft:oak_button"
     },
     "R": {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:tube_coral_block"
     }
   },
   "result": {

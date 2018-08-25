@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_wool"
+      "item": "minecraft:bubble_coral"
     },
     {
-      "item": "minecraft:cyan_concrete_powder"
+      "item": "minecraft:diamond_axe"
     },
     {
-      "item": "minecraft:diamond_leggings"
+      "item": "minecraft:ender_eye"
     },
     {
-      "item": "minecraft:emerald"
+      "item": "minecraft:jungle_pressure_plate"
     },
     {
-      "item": "minecraft:hopper"
+      "item": "minecraft:note_block"
     },
     {
-      "item": "minecraft:light_blue_glazed_terracotta"
+      "item": "minecraft:orange_dye"
     },
     {
-      "item": "minecraft:mushroom_stem"
+      "item": "minecraft:purple_terracotta"
     },
     {
-      "item": "minecraft:red_nether_bricks"
+      "item": "minecraft:spruce_leaves"
     },
     {
-      "item": "minecraft:spider_eye"
+      "item": "minecraft:tnt_minecart"
     }
   ],
   "result": {

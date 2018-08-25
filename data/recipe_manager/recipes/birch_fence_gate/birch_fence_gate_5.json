@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_door"
+      "item": "minecraft:cut_red_sandstone"
     },
     "W": {
-      "item": "minecraft:gray_glazed_terracotta"
+      "item": "minecraft:orange_concrete"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:item_frame"
+      "item": "minecraft:dried_kelp"
     },
     "X": {
-      "item": "minecraft:oak_trapdoor"
+      "item": "minecraft:yellow_terracotta"
     }
   },
   "result": {

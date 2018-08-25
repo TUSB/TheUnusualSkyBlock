@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_log"
+      "item": "minecraft:black_terracotta"
     },
     {
-      "item": "minecraft:cyan_dye"
+      "item": "minecraft:chorus_fruit"
     },
     {
-      "item": "minecraft:farmland"
+      "item": "minecraft:fire_charge"
     },
     {
-      "item": "minecraft:gold_block"
+      "item": "minecraft:furnace_minecart"
     },
     {
-      "item": "minecraft:iron_door"
+      "item": "minecraft:green_banner"
     },
     {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:minecart"
     },
     {
-      "item": "minecraft:potato"
+      "item": "minecraft:rabbit_stew"
     },
     {
-      "item": "minecraft:spruce_fence_gate"
+      "item": "minecraft:red_stained_glass"
     },
     {
-      "item": "minecraft:stone_bricks"
+      "item": "minecraft:stone"
     }
   ],
   "result": {

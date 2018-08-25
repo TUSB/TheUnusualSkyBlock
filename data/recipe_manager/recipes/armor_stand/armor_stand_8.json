@@ -7,10 +7,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:splash_potion"
+      "item": "minecraft:birch_trapdoor"
     },
     "_": {
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:ice"
     }
   },
   "result": {

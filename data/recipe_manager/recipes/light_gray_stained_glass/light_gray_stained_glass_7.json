@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_concrete"
+      "item": "minecraft:green_stained_glass_pane"
     },
     "X": {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:magenta_bed"
     }
   },
   "result": {

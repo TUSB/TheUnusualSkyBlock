@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:light_gray_wool"
+      "item": "minecraft:poisonous_potato"
     },
     {
-      "item": "minecraft:red_sand"
+      "item": "minecraft:stripped_spruce_wood"
     }
   ],
   "result": {

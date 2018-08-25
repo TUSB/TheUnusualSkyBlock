@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dragon_breath"
+      "item": "minecraft:acacia_slab"
     },
     {
-      "item": "minecraft:light_blue_wool"
+      "item": "minecraft:light_gray_dye"
     }
   ],
   "result": {

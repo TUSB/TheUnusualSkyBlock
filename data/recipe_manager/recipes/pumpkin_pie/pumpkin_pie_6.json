@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_log"
+      "item": "minecraft:allium"
     },
     {
-      "item": "minecraft:filled_map"
+      "item": "minecraft:brown_terracotta"
     },
     {
-      "item": "minecraft:light_gray_shulker_box"
+      "item": "minecraft:purpur_stairs"
     }
   ],
   "result": {

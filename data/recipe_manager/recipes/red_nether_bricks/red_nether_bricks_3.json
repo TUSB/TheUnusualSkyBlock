@@ -6,10 +6,10 @@
   ],
   "key": {
     "N": {
-      "item": "minecraft:dropper"
+      "item": "minecraft:spectral_arrow"
     },
     "W": {
-      "item": "minecraft:jungle_leaves"
+      "item": "minecraft:stone_hoe"
     }
   },
   "result": {

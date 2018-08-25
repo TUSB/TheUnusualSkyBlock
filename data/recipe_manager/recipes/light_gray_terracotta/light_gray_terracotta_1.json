@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:ghast_tear"
+      "item": "minecraft:coarse_dirt"
     },
     "X": {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:jungle_door"
     }
   },
   "result": {

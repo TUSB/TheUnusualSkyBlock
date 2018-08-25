@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chest"
+      "item": "minecraft:chorus_plant"
     },
     {
-      "item": "minecraft:sandstone_stairs"
+      "item": "minecraft:nether_brick_slab"
     }
   ],
   "result": {

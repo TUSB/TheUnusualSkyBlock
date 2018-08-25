@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_shulker_box"
+      "item": "minecraft:bone_block"
     },
     "#": {
-      "item": "minecraft:large_fern"
+      "item": "minecraft:leather_chestplate"
     }
   },
   "result": {

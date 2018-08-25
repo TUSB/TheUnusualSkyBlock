@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:gray_terracotta"
+      "item": "minecraft:beetroot_soup"
     },
     {
-      "item": "minecraft:player_head"
+      "item": "minecraft:black_glazed_terracotta"
     }
   ],
   "result": {

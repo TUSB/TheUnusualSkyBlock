@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_pickaxe"
+      "item": "minecraft:diamond_ore"
     },
     "W": {
-      "item": "minecraft:light_blue_concrete"
+      "item": "minecraft:purple_shulker_box"
     }
   },
   "result": {

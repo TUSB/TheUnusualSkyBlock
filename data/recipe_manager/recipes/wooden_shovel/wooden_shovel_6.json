@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:glistering_melon_slice"
+      "item": "minecraft:lapis_lazuli"
     },
     "#": {
-      "item": "minecraft:popped_chorus_fruit"
+      "item": "minecraft:sandstone_slab"
     }
   },
   "result": {

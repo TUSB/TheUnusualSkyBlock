@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_mushroom_block"
+      "item": "minecraft:gray_wool"
     },
     "W": {
-      "item": "minecraft:vine"
+      "item": "minecraft:potion"
     }
   },
   "result": {

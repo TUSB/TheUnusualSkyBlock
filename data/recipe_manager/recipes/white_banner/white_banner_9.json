@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:armor_stand"
+      "item": "minecraft:dropper"
     },
     "|": {
-      "item": "minecraft:magenta_wool"
+      "item": "minecraft:melon"
     }
   },
   "result": {

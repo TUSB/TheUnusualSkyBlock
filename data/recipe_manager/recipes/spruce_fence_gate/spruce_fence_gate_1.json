@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:activator_rail"
+      "item": "minecraft:green_stained_glass_pane"
     },
     "W": {
-      "item": "minecraft:brown_shulker_box"
+      "item": "minecraft:light_gray_glazed_terracotta"
     }
   },
   "result": {

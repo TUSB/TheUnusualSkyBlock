@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:farmland"
+      "item": "minecraft:acacia_slab"
     },
     {
-      "item": "minecraft:white_stained_glass"
+      "item": "minecraft:detector_rail"
     }
   ],
   "result": {

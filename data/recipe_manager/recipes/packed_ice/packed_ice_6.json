@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_bed"
+      "item": "minecraft:acacia_trapdoor"
     },
     {
-      "item": "minecraft:cobblestone_stairs"
+      "item": "minecraft:dark_oak_slab"
     },
     {
-      "item": "minecraft:fire_charge"
+      "item": "minecraft:dark_oak_wood"
     },
     {
-      "item": "minecraft:golden_horse_armor"
+      "item": "minecraft:diamond_ore"
     },
     {
-      "item": "minecraft:purple_wool"
+      "item": "minecraft:green_glazed_terracotta"
     },
     {
-      "item": "minecraft:red_carpet"
+      "item": "minecraft:green_stained_glass_pane"
     },
     {
-      "item": "minecraft:red_tulip"
+      "item": "minecraft:lapis_ore"
     },
     {
-      "item": "minecraft:salmon_bucket"
+      "item": "minecraft:lime_concrete_powder"
     },
     {
-      "item": "minecraft:spruce_boat"
+      "item": "minecraft:milk_bucket"
     }
   ],
   "result": {

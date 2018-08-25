@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:chorus_fruit"
+      "item": "minecraft:filled_map"
     },
     "#": {
-      "item": "minecraft:red_shulker_box"
+      "item": "minecraft:poisonous_potato"
     }
   },
   "result": {

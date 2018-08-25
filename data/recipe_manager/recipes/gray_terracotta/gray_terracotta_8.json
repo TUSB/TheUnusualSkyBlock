@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:beef"
+      "item": "minecraft:dandelion_yellow"
     },
     "X": {
-      "item": "minecraft:nether_quartz_ore"
+      "item": "minecraft:turtle_egg"
     }
   },
   "result": {

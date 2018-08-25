@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:detector_rail"
+      "item": "minecraft:beef"
     },
     "X": {
-      "item": "minecraft:red_sand"
+      "item": "minecraft:chainmail_chestplate"
     },
     "I": {
-      "item": "minecraft:yellow_concrete_powder"
+      "item": "minecraft:dead_fire_coral_block"
     }
   },
   "result": {

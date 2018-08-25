@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:birch_wood"
     },
     {
-      "item": "minecraft:book"
+      "item": "minecraft:granite"
     },
     {
-      "item": "minecraft:cooked_chicken"
+      "item": "minecraft:hay_block"
     },
     {
-      "item": "minecraft:dark_oak_trapdoor"
+      "item": "minecraft:light_gray_stained_glass_pane"
     },
     {
-      "item": "minecraft:light_gray_bed"
+      "item": "minecraft:magenta_carpet"
     },
     {
-      "item": "minecraft:oak_boat"
+      "item": "minecraft:pufferfish_bucket"
     },
     {
-      "item": "minecraft:orange_carpet"
+      "item": "minecraft:spruce_boat"
     },
     {
-      "item": "minecraft:orange_glazed_terracotta"
+      "item": "minecraft:stripped_birch_wood"
     },
     {
-      "item": "minecraft:prismarine_slab"
+      "item": "minecraft:stripped_spruce_log"
     }
   ],
   "result": {

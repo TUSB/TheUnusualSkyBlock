@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_glazed_terracotta"
+      "item": "minecraft:beacon"
     },
     {
-      "item": "minecraft:bone_meal"
+      "item": "minecraft:blue_concrete"
     },
     {
-      "item": "minecraft:chainmail_chestplate"
+      "item": "minecraft:bookshelf"
     },
     {
-      "item": "minecraft:rabbit_stew"
+      "item": "minecraft:brain_coral_block"
     },
     {
-      "item": "minecraft:red_carpet"
+      "item": "minecraft:diamond_block"
     },
     {
-      "item": "minecraft:sea_lantern"
+      "item": "minecraft:jungle_fence_gate"
     },
     {
-      "item": "minecraft:stone_bricks"
+      "item": "minecraft:prismarine_crystals"
     },
     {
-      "item": "minecraft:tnt_minecart"
+      "item": "minecraft:sunflower"
     },
     {
-      "item": "minecraft:wooden_hoe"
+      "item": "minecraft:yellow_concrete_powder"
     }
   ],
   "result": {

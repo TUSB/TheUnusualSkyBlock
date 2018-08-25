@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_stained_glass_pane"
+      "item": "minecraft:black_glazed_terracotta"
     },
     "X": {
-      "item": "minecraft:infested_stone_bricks"
+      "item": "minecraft:light_gray_carpet"
     }
   },
   "result": {

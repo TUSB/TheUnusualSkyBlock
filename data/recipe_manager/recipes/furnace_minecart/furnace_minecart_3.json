@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:damaged_anvil"
+      "item": "minecraft:diamond_block"
     },
     "B": {
-      "item": "minecraft:emerald_block"
+      "item": "minecraft:pink_wool"
     }
   },
   "result": {

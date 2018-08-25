@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cauldron"
+      "item": "minecraft:blue_orchid"
     },
     {
-      "item": "minecraft:red_mushroom_block"
+      "item": "minecraft:filled_map"
     }
   ],
   "result": {

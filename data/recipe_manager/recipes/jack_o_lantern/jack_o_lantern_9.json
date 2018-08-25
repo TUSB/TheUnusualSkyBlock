@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:birch_planks"
+      "item": "minecraft:green_stained_glass"
     },
     "B": {
-      "item": "minecraft:cooked_cod"
+      "item": "minecraft:quartz_pillar"
     }
   },
   "result": {

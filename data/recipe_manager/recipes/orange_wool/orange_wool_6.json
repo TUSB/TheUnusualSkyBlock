@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:golden_helmet"
+      "item": "minecraft:black_banner"
     },
     {
-      "item": "minecraft:pumpkin_seeds"
+      "item": "minecraft:brick_stairs"
     }
   ],
   "result": {

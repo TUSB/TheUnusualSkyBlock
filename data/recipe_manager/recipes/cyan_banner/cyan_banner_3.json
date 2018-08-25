@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_pressure_plate"
+      "item": "minecraft:cracked_stone_bricks"
     },
     "|": {
-      "item": "minecraft:stone"
+      "item": "minecraft:torch"
     }
   },
   "result": {

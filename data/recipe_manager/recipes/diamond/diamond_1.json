@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lime_wool"
+      "item": "minecraft:spruce_stairs"
     }
   ],
   "result": {

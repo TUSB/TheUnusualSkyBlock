@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_fence_gate"
+      "item": "minecraft:prismarine_brick_stairs"
     },
     "X": {
-      "item": "minecraft:mossy_stone_bricks"
+      "item": "minecraft:white_concrete"
     }
   },
   "result": {

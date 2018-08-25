@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_fence"
+      "item": "minecraft:beetroot_seeds"
     },
     {
-      "item": "minecraft:cyan_banner"
+      "item": "minecraft:bubble_coral"
     },
     {
-      "item": "minecraft:ice"
+      "item": "minecraft:jungle_fence"
     },
     {
-      "item": "minecraft:ink_sac"
+      "item": "minecraft:lapis_ore"
     },
     {
-      "item": "minecraft:light_gray_concrete_powder"
+      "item": "minecraft:lime_shulker_box"
     },
     {
-      "item": "minecraft:orange_dye"
+      "item": "minecraft:mossy_cobblestone"
     },
     {
-      "item": "minecraft:orange_glazed_terracotta"
+      "item": "minecraft:quartz_block"
     },
     {
-      "item": "minecraft:phantom_membrane"
+      "item": "minecraft:spruce_trapdoor"
     },
     {
-      "item": "minecraft:snowball"
+      "item": "minecraft:tall_grass"
     }
   ],
   "result": {

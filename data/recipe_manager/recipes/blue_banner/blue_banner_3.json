@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:glass"
+      "item": "minecraft:birch_boat"
     },
     "|": {
-      "item": "minecraft:oak_pressure_plate"
+      "item": "minecraft:light_blue_dye"
     }
   },
   "result": {

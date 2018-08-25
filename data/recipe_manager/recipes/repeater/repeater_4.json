@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_blue_stained_glass_pane"
+      "item": "minecraft:acacia_log"
     },
     "X": {
-      "item": "minecraft:light_gray_stained_glass"
+      "item": "minecraft:dandelion_yellow"
     },
     "I": {
-      "item": "minecraft:oak_leaves"
+      "item": "minecraft:dead_bubble_coral_block"
     }
   },
   "result": {

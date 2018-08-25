@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:book"
+      "item": "minecraft:dark_oak_boat"
     },
     "#": {
-      "item": "minecraft:leather_leggings"
+      "item": "minecraft:wheat_seeds"
     }
   },
   "result": {

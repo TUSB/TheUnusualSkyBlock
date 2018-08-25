@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:purple_bed"
+      "item": "minecraft:diorite"
     },
     {
-      "item": "minecraft:stone_bricks"
+      "item": "minecraft:pink_terracotta"
     }
   ],
   "result": {

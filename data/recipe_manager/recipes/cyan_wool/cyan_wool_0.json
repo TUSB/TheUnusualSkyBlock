@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lime_concrete_powder"
+      "item": "minecraft:diamond_shovel"
     },
     {
-      "item": "minecraft:sign"
+      "item": "minecraft:red_banner"
     }
   ],
   "result": {

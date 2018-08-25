@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:tipped_arrow"
+      "item": "minecraft:prismarine_bricks"
     },
     {
-      "item": "minecraft:tnt_minecart"
+      "item": "minecraft:white_stained_glass_pane"
     },
     {
-      "item": "minecraft:wooden_shovel"
+      "item": "minecraft:zombie_head"
     }
   ],
   "result": {

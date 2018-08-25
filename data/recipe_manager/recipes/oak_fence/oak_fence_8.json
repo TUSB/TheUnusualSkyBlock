@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:bread"
+      "item": "minecraft:black_shulker_box"
     },
     "#": {
-      "item": "minecraft:tipped_arrow"
+      "item": "minecraft:glistering_melon_slice"
     }
   },
   "result": {

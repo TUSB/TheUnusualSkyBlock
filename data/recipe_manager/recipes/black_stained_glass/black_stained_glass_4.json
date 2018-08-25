@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_prismarine_stairs"
+      "item": "minecraft:spruce_door"
     },
     "X": {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:turtle_egg"
     }
   },
   "result": {

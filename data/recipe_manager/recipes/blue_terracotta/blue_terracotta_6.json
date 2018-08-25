@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_wood"
+      "item": "minecraft:poisonous_potato"
     },
     "X": {
-      "item": "minecraft:yellow_terracotta"
+      "item": "minecraft:prismarine_brick_stairs"
     }
   },
   "result": {

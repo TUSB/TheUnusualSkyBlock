@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_leaves"
+      "item": "minecraft:dark_oak_fence_gate"
     },
     "X": {
-      "item": "minecraft:pink_wool"
+      "item": "minecraft:yellow_wool"
     }
   },
   "result": {

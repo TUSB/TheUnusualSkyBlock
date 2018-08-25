@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_door"
+      "item": "minecraft:cauldron"
     },
     "|": {
-      "item": "minecraft:soul_sand"
+      "item": "minecraft:jungle_trapdoor"
     }
   },
   "result": {

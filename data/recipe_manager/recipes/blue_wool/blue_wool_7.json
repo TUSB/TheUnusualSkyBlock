@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_shulker_box"
+      "item": "minecraft:emerald"
     },
     {
-      "item": "minecraft:light_weighted_pressure_plate"
+      "item": "minecraft:light_gray_concrete"
     }
   ],
   "result": {

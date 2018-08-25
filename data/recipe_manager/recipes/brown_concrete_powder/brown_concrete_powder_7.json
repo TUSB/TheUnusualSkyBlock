@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dropper"
+      "item": "minecraft:birch_sapling"
     },
     {
-      "item": "minecraft:mushroom_stem"
+      "item": "minecraft:diamond_chestplate"
     },
     {
-      "item": "minecraft:pink_concrete"
+      "item": "minecraft:glass_pane"
     },
     {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:golden_boots"
     },
     {
-      "item": "minecraft:purpur_slab"
+      "item": "minecraft:item_frame"
     },
     {
-      "item": "minecraft:sandstone_slab"
+      "item": "minecraft:potion"
     },
     {
-      "item": "minecraft:spruce_boat"
+      "item": "minecraft:red_shulker_box"
     },
     {
-      "item": "minecraft:tripwire_hook"
+      "item": "minecraft:salmon_bucket"
     },
     {
-      "item": "minecraft:white_stained_glass"
+      "item": "minecraft:spectral_arrow"
     }
   ],
   "result": {

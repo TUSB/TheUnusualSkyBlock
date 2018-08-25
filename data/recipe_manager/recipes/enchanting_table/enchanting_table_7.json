@@ -7,13 +7,13 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:acacia_sapling"
+      "item": "minecraft:chorus_plant"
     },
     "D": {
-      "item": "minecraft:brown_glazed_terracotta"
+      "item": "minecraft:cobweb"
     },
     "#": {
-      "item": "minecraft:snowball"
+      "item": "minecraft:white_glazed_terracotta"
     }
   },
   "result": {

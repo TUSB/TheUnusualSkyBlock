@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:beef"
+      "item": "minecraft:acacia_pressure_plate"
     },
     "X": {
-      "item": "minecraft:rose_bush"
+      "item": "minecraft:brown_concrete_powder"
     }
   },
   "result": {

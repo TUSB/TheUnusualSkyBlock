@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:arrow"
+      "item": "minecraft:carrot_on_a_stick"
     },
     "S": {
-      "item": "minecraft:hopper_minecart"
+      "item": "minecraft:dark_oak_stairs"
     },
     "#": {
-      "item": "minecraft:wither_skeleton_skull"
+      "item": "minecraft:light_blue_terracotta"
     }
   },
   "result": {

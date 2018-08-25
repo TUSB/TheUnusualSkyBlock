@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_pressure_plate"
+      "item": "minecraft:iron_bars"
     },
     "#": {
-      "item": "minecraft:gravel"
+      "item": "minecraft:potato"
     }
   },
   "result": {

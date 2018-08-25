@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:oak_stairs"
+      "item": "minecraft:blue_carpet"
     },
     "#": {
-      "item": "minecraft:saddle"
+      "item": "minecraft:sticky_piston"
     }
   },
   "result": {

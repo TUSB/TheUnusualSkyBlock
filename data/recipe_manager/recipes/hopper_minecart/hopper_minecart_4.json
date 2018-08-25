@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:bowl"
+      "item": "minecraft:armor_stand"
     },
     "B": {
-      "item": "minecraft:end_stone_bricks"
+      "item": "minecraft:dandelion_yellow"
     }
   },
   "result": {

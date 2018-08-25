@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bucket"
+      "item": "minecraft:chipped_anvil"
     },
     "|": {
-      "item": "minecraft:infested_mossy_stone_bricks"
+      "item": "minecraft:rabbit"
     }
   },
   "result": {

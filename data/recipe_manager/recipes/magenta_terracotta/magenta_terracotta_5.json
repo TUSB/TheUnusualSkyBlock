@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:nether_brick"
+      "item": "minecraft:heart_of_the_sea"
     },
     "X": {
-      "item": "minecraft:rail"
+      "item": "minecraft:written_book"
     }
   },
   "result": {

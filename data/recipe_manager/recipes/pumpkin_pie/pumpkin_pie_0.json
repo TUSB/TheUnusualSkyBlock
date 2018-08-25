@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:light_gray_shulker_box"
+      "item": "minecraft:gray_stained_glass_pane"
     },
     {
-      "item": "minecraft:pink_stained_glass_pane"
+      "item": "minecraft:quartz"
     },
     {
-      "item": "minecraft:stone_bricks"
+      "item": "minecraft:stripped_jungle_log"
     }
   ],
   "result": {

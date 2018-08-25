@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cracked_stone_bricks"
+      "item": "minecraft:beetroot"
     },
     {
-      "item": "minecraft:jungle_leaves"
+      "item": "minecraft:cyan_bed"
     },
     {
-      "item": "minecraft:skeleton_skull"
+      "item": "minecraft:rose_red"
     }
   ],
   "result": {

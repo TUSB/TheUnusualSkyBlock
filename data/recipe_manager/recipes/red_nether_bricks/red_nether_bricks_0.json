@@ -6,10 +6,10 @@
   ],
   "key": {
     "N": {
-      "item": "minecraft:andesite"
+      "item": "minecraft:lingering_potion"
     },
     "W": {
-      "item": "minecraft:cooked_mutton"
+      "item": "minecraft:orange_bed"
     }
   },
   "result": {

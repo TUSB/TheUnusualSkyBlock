@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:fern"
+      "item": "minecraft:spruce_fence"
     },
     "X": {
-      "item": "minecraft:glass_pane"
+      "item": "minecraft:stripped_spruce_wood"
     }
   },
   "result": {

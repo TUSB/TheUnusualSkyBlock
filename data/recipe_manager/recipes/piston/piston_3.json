@@ -7,16 +7,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:compass"
+      "item": "minecraft:light_gray_stained_glass_pane"
     },
     "#": {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:redstone"
     },
     "X": {
-      "item": "minecraft:light_blue_wool"
+      "item": "minecraft:rotten_flesh"
     },
     "R": {
-      "item": "minecraft:purple_terracotta"
+      "item": "minecraft:yellow_stained_glass"
     }
   },
   "result": {

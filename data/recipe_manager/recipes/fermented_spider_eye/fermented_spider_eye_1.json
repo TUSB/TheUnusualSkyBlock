@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lime_dye"
+      "item": "minecraft:nether_brick"
     },
     {
-      "item": "minecraft:mushroom_stew"
+      "item": "minecraft:redstone_lamp"
     },
     {
-      "item": "minecraft:stripped_jungle_log"
+      "item": "minecraft:saddle"
     }
   ],
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:cocoa_beans"
+      "item": "minecraft:blue_shulker_box"
     },
     "S": {
-      "item": "minecraft:cyan_stained_glass"
+      "item": "minecraft:iron_block"
     },
     "O": {
-      "item": "minecraft:prismarine"
+      "item": "minecraft:red_shulker_box"
     }
   },
   "result": {

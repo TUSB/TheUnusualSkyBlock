@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:emerald"
+      "item": "minecraft:blue_glazed_terracotta"
     },
     {
-      "item": "minecraft:iron_horse_armor"
+      "item": "minecraft:blue_stained_glass"
     },
     {
-      "item": "minecraft:magenta_glazed_terracotta"
+      "item": "minecraft:coal"
     },
     {
-      "item": "minecraft:magenta_shulker_box"
+      "item": "minecraft:compass"
     },
     {
-      "item": "minecraft:minecart"
+      "item": "minecraft:end_stone_bricks"
     },
     {
-      "item": "minecraft:quartz_stairs"
+      "item": "minecraft:gray_concrete_powder"
     },
     {
-      "item": "minecraft:red_mushroom"
+      "item": "minecraft:orange_concrete"
     },
     {
-      "item": "minecraft:spruce_door"
+      "item": "minecraft:pink_concrete"
     },
     {
-      "item": "minecraft:spruce_leaves"
+      "item": "minecraft:rabbit_stew"
     }
   ],
   "result": {

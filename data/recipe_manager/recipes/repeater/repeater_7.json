@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dragon_head"
+      "item": "minecraft:chest"
     },
     "X": {
-      "item": "minecraft:oak_button"
+      "item": "minecraft:oak_stairs"
     },
     "I": {
-      "item": "minecraft:salmon"
+      "item": "minecraft:seagrass"
     }
   },
   "result": {

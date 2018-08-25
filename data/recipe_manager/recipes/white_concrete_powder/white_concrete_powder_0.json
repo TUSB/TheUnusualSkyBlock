@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_bed"
+      "item": "minecraft:acacia_boat"
     },
     {
-      "item": "minecraft:cyan_shulker_box"
+      "item": "minecraft:cooked_mutton"
     },
     {
-      "item": "minecraft:dead_tube_coral_fan"
+      "item": "minecraft:dark_oak_fence_gate"
     },
     {
-      "item": "minecraft:egg"
+      "item": "minecraft:diamond_block"
     },
     {
-      "item": "minecraft:light_gray_bed"
+      "item": "minecraft:light_gray_glazed_terracotta"
     },
     {
-      "item": "minecraft:lime_shulker_box"
+      "item": "minecraft:light_gray_shulker_box"
     },
     {
-      "item": "minecraft:orange_concrete"
+      "item": "minecraft:magenta_banner"
     },
     {
-      "item": "minecraft:powered_rail"
+      "item": "minecraft:shulker_shell"
     },
     {
-      "item": "minecraft:yellow_carpet"
+      "item": "minecraft:white_tulip"
     }
   ],
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:brick"
     },
     "#": {
-      "item": "minecraft:prismarine_stairs"
+      "item": "minecraft:cookie"
     },
     "Y": {
-      "item": "minecraft:white_shulker_box"
+      "item": "minecraft:pumpkin"
     }
   },
   "result": {

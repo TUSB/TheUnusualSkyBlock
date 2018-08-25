@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cooked_porkchop"
+      "item": "minecraft:brick_slab"
     },
     "W": {
-      "item": "minecraft:spruce_button"
+      "item": "minecraft:light_gray_concrete_powder"
     }
   },
   "result": {

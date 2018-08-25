@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:carrot"
+      "item": "minecraft:light_gray_glazed_terracotta"
     },
     "#": {
-      "item": "minecraft:spruce_button"
+      "item": "minecraft:orange_stained_glass_pane"
     }
   },
   "result": {

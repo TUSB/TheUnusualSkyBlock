@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:mossy_cobblestone"
+      "item": "minecraft:diamond_boots"
     },
     "#": {
-      "item": "minecraft:red_stained_glass"
+      "item": "minecraft:tube_coral"
     }
   },
   "result": {

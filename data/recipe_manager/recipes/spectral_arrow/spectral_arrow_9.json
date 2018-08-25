@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gravel"
+      "item": "minecraft:crafting_table"
     },
     "X": {
-      "item": "minecraft:red_wool"
+      "item": "minecraft:saddle"
     }
   },
   "result": {

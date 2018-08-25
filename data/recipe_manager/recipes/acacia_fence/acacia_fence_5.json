@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:cocoa_beans"
+      "item": "minecraft:cracked_stone_bricks"
     },
     "#": {
-      "item": "minecraft:ender_pearl"
+      "item": "minecraft:purple_concrete"
     }
   },
   "result": {

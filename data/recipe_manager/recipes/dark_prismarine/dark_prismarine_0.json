@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:carved_pumpkin"
+      "item": "minecraft:light_gray_stained_glass_pane"
     },
     "I": {
-      "item": "minecraft:glass"
+      "item": "minecraft:sandstone"
     }
   },
   "result": {

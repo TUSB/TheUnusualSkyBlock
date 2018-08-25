@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:iron_shovel"
+      "item": "minecraft:book"
     },
     "B": {
-      "item": "minecraft:spruce_log"
+      "item": "minecraft:dead_tube_coral_fan"
     }
   },
   "result": {

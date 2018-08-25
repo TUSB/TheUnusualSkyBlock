@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cooked_salmon"
+      "item": "minecraft:acacia_button"
     },
     {
-      "item": "minecraft:emerald_ore"
+      "item": "minecraft:cobblestone"
     },
     {
-      "item": "minecraft:enchanting_table"
+      "item": "minecraft:orange_stained_glass"
     }
   ],
   "result": {

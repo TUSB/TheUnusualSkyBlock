@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diamond_horse_armor"
+      "item": "minecraft:cooked_salmon"
     },
     {
-      "item": "minecraft:light_gray_shulker_box"
+      "item": "minecraft:stone_brick_stairs"
     }
   ],
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:gray_terracotta"
+      "item": "minecraft:polished_granite"
     },
     "S": {
-      "item": "minecraft:prismarine_brick_slab"
+      "item": "minecraft:red_concrete_powder"
     },
     "#": {
-      "item": "minecraft:purple_wool"
+      "item": "minecraft:spruce_sapling"
     }
   },
   "result": {

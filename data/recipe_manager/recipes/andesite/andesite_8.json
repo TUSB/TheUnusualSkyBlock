@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:tropical_fish_bucket"
+      "item": "minecraft:dirt"
     },
     {
-      "item": "minecraft:wheat_seeds"
+      "item": "minecraft:end_rod"
     }
   ],
   "result": {

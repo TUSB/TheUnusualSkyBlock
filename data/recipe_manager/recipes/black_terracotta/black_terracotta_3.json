@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_wool"
+      "item": "minecraft:shield"
     },
     "X": {
-      "item": "minecraft:spruce_pressure_plate"
+      "item": "minecraft:stone_bricks"
     }
   },
   "result": {

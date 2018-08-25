@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_fence_gate"
+      "item": "minecraft:armor_stand"
     },
     {
-      "item": "minecraft:apple"
+      "item": "minecraft:brown_glazed_terracotta"
     },
     {
-      "item": "minecraft:cyan_banner"
+      "item": "minecraft:brown_terracotta"
     },
     {
-      "item": "minecraft:dead_brain_coral_fan"
+      "item": "minecraft:creeper_head"
     },
     {
-      "item": "minecraft:grass_block"
+      "item": "minecraft:end_crystal"
     },
     {
-      "item": "minecraft:green_shulker_box"
+      "item": "minecraft:gold_ore"
     },
     {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:gray_stained_glass_pane"
     },
     {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "item": "minecraft:map"
     },
     {
-      "item": "minecraft:wither_skeleton_skull"
+      "item": "minecraft:pink_shulker_box"
     }
   ],
   "result": {

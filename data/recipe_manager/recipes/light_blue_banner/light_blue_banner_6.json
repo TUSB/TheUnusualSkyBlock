@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dead_horn_coral_fan"
+      "item": "minecraft:blaze_rod"
     },
     "|": {
-      "item": "minecraft:quartz"
+      "item": "minecraft:torch"
     }
   },
   "result": {

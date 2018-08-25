@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:horn_coral_fan"
+      "item": "minecraft:cobweb"
     },
     "#": {
-      "item": "minecraft:oak_button"
+      "item": "minecraft:enchanted_book"
     }
   },
   "result": {

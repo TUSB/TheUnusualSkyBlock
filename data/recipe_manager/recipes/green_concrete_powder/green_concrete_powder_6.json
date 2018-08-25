@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:chorus_plant"
     },
     {
-      "item": "minecraft:brown_carpet"
+      "item": "minecraft:emerald"
     },
     {
-      "item": "minecraft:enchanting_table"
+      "item": "minecraft:leather_leggings"
     },
     {
-      "item": "minecraft:light_blue_shulker_box"
+      "item": "minecraft:nether_brick_stairs"
     },
     {
-      "item": "minecraft:mushroom_stew"
+      "item": "minecraft:pink_wool"
     },
     {
-      "item": "minecraft:observer"
-    },
-    {
-      "item": "minecraft:pink_shulker_box"
-    },
-    {
-      "item": "minecraft:purpur_block"
+      "item": "minecraft:purple_shulker_box"
     },
     {
       "item": "minecraft:sponge"
+    },
+    {
+      "item": "minecraft:spruce_wood"
+    },
+    {
+      "item": "minecraft:stripped_acacia_log"
     }
   ],
   "result": {

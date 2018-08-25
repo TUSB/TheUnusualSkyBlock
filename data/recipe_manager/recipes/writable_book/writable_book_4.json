@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:golden_shovel"
+      "item": "minecraft:daylight_detector"
     },
     {
-      "item": "minecraft:light_blue_carpet"
+      "item": "minecraft:gray_stained_glass_pane"
     },
     {
-      "item": "minecraft:pink_stained_glass_pane"
+      "item": "minecraft:iron_bars"
     }
   ],
   "result": {

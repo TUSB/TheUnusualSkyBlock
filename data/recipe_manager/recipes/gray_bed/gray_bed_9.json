@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:arrow"
+      "item": "minecraft:blaze_rod"
     },
     "X": {
-      "item": "minecraft:chiseled_red_sandstone"
+      "item": "minecraft:redstone_ore"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_carpet"
+      "item": "minecraft:end_crystal"
     },
     {
-      "item": "minecraft:lime_banner"
+      "item": "minecraft:pumpkin_pie"
     }
   ],
   "result": {

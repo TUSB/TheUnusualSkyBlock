@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:chainmail_chestplate"
+      "item": "minecraft:green_bed"
     },
     "#": {
-      "item": "minecraft:emerald"
+      "item": "minecraft:leather_leggings"
     }
   },
   "result": {

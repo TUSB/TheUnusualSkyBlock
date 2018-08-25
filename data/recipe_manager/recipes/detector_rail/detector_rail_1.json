@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:compass"
+      "item": "minecraft:diamond"
     },
     "#": {
-      "item": "minecraft:end_stone_bricks"
+      "item": "minecraft:orange_banner"
     },
     "R": {
-      "item": "minecraft:oak_stairs"
+      "item": "minecraft:tube_coral"
     }
   },
   "result": {

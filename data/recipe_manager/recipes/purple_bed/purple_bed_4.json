@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_fence"
+      "item": "minecraft:acacia_trapdoor"
     },
     "X": {
-      "item": "minecraft:sea_lantern"
+      "item": "minecraft:brick"
     }
   },
   "result": {

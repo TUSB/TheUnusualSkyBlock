@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:filled_map"
+      "item": "minecraft:chest"
     },
     {
-      "item": "minecraft:horn_coral"
+      "item": "minecraft:light_gray_wool"
     },
     {
-      "item": "minecraft:map"
+      "item": "minecraft:stone_pressure_plate"
     }
   ],
   "result": {

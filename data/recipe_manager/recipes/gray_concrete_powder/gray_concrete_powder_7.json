@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bone_block"
+      "item": "minecraft:blue_concrete_powder"
     },
     {
-      "item": "minecraft:bone_meal"
+      "item": "minecraft:compass"
     },
     {
-      "item": "minecraft:coarse_dirt"
+      "item": "minecraft:cyan_banner"
     },
     {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:magenta_glazed_terracotta"
     },
     {
-      "item": "minecraft:iron_helmet"
+      "item": "minecraft:magma_cream"
     },
     {
-      "item": "minecraft:light_blue_bed"
+      "item": "minecraft:orange_stained_glass"
     },
     {
-      "item": "minecraft:pink_banner"
+      "item": "minecraft:polished_granite"
     },
     {
-      "item": "minecraft:prismarine_brick_stairs"
+      "item": "minecraft:potion"
     },
     {
-      "item": "minecraft:tnt"
+      "item": "minecraft:stone_axe"
     }
   ],
   "result": {

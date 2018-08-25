@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brewing_stand"
+      "item": "minecraft:nether_wart"
     },
     {
-      "item": "minecraft:stone_bricks"
+      "item": "minecraft:spruce_fence_gate"
     }
   ],
   "result": {

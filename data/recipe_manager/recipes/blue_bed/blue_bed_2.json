@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:player_head"
+      "item": "minecraft:red_bed"
     },
     "X": {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:stone_brick_stairs"
     }
   },
   "result": {

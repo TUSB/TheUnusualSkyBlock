@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:orange_terracotta"
+      "item": "minecraft:chest_minecart"
     },
     "#": {
-      "item": "minecraft:sign"
+      "item": "minecraft:oak_fence"
     }
   },
   "result": {

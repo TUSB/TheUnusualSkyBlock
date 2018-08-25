@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:orange_dye"
+      "item": "minecraft:carrot"
     },
     "#": {
-      "item": "minecraft:stone_shovel"
+      "item": "minecraft:damaged_anvil"
     }
   },
   "result": {

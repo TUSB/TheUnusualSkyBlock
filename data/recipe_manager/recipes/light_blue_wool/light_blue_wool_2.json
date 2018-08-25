@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:feather"
+      "item": "minecraft:chiseled_sandstone"
     },
     {
-      "item": "minecraft:prismarine_bricks"
+      "item": "minecraft:iron_bars"
     }
   ],
   "result": {

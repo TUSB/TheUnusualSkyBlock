@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_shulker_box"
+      "item": "minecraft:fire_coral_block"
     },
     "S": {
-      "item": "minecraft:cooked_mutton"
+      "item": "minecraft:pink_concrete_powder"
     },
     "#": {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:water_bucket"
     }
   },
   "result": {

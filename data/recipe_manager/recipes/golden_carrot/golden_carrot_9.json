@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:clay"
+      "item": "minecraft:fire_coral_block"
     },
     "X": {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:iron_chestplate"
     }
   },
   "result": {

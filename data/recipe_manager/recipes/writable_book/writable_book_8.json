@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:golden_chestplate"
+      "item": "minecraft:black_glazed_terracotta"
     },
     {
-      "item": "minecraft:note_block"
+      "item": "minecraft:dead_brain_coral_fan"
     },
     {
-      "item": "minecraft:sandstone_stairs"
+      "item": "minecraft:enchanted_book"
     }
   ],
   "result": {

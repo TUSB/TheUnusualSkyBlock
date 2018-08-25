@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_sandstone"
+      "item": "minecraft:fern"
     },
     "X": {
-      "item": "minecraft:smooth_red_sandstone"
+      "item": "minecraft:flint_and_steel"
     }
   },
   "result": {

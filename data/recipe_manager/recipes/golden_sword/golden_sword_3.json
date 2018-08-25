@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:jungle_stairs"
+      "item": "minecraft:crafting_table"
     },
     "#": {
-      "item": "minecraft:pink_banner"
+      "item": "minecraft:yellow_shulker_box"
     }
   },
   "result": {

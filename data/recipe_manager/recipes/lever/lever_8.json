@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brain_coral_fan"
+      "item": "minecraft:brick_stairs"
     },
     "#": {
-      "item": "minecraft:jungle_door"
+      "item": "minecraft:written_book"
     }
   },
   "result": {

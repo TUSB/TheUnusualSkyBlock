@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:cauldron"
+      "item": "minecraft:acacia_trapdoor"
     },
     "#": {
-      "item": "minecraft:dark_oak_leaves"
+      "item": "minecraft:prismarine_brick_slab"
     }
   },
   "result": {

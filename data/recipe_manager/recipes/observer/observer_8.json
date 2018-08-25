@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_boots"
+      "item": "minecraft:brain_coral"
     },
     "R": {
-      "item": "minecraft:gold_ore"
+      "item": "minecraft:rabbit_stew"
     },
     "Q": {
-      "item": "minecraft:stripped_oak_log"
+      "item": "minecraft:splash_potion"
     }
   },
   "result": {

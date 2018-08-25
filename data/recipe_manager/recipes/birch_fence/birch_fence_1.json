@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:infested_stone_bricks"
+      "item": "minecraft:blue_shulker_box"
     },
     "#": {
-      "item": "minecraft:light_blue_concrete_powder"
+      "item": "minecraft:purple_terracotta"
     }
   },
   "result": {

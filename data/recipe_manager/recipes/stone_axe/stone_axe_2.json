@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:stone_pickaxe"
+      "item": "minecraft:dark_prismarine_stairs"
     },
     "#": {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "item": "minecraft:pink_bed"
     }
   },
   "result": {

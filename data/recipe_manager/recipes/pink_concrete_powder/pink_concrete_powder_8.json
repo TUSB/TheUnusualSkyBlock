@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_bed"
+      "item": "minecraft:blue_concrete"
     },
     {
-      "item": "minecraft:dead_fire_coral_block"
+      "item": "minecraft:diamond_horse_armor"
     },
     {
-      "item": "minecraft:ender_pearl"
+      "item": "minecraft:golden_hoe"
     },
     {
-      "item": "minecraft:flint_and_steel"
+      "item": "minecraft:iron_hoe"
     },
     {
-      "item": "minecraft:observer"
-    },
-    {
-      "item": "minecraft:purple_terracotta"
+      "item": "minecraft:poisonous_potato"
     },
     {
       "item": "minecraft:sea_pickle"
     },
     {
-      "item": "minecraft:splash_potion"
+      "item": "minecraft:snow"
     },
     {
-      "item": "minecraft:turtle_egg"
+      "item": "minecraft:stone_pressure_plate"
+    },
+    {
+      "item": "minecraft:trapped_chest"
     }
   ],
   "result": {

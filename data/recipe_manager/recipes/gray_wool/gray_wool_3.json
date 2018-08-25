@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:dead_fire_coral_fan"
     },
     {
-      "item": "minecraft:yellow_bed"
+      "item": "minecraft:redstone_torch"
     }
   ],
   "result": {

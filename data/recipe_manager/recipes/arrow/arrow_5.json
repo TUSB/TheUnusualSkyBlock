@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dried_kelp"
+      "item": "minecraft:mossy_cobblestone"
     },
     "#": {
-      "item": "minecraft:lime_dye"
+      "item": "minecraft:mutton"
     },
     "Y": {
-      "item": "minecraft:spruce_door"
+      "item": "minecraft:sign"
     }
   },
   "result": {

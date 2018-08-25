@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:conduit"
+      "item": "minecraft:dead_tube_coral_fan"
     },
     "X": {
-      "item": "minecraft:stripped_spruce_log"
+      "item": "minecraft:horn_coral_fan"
     }
   },
   "result": {

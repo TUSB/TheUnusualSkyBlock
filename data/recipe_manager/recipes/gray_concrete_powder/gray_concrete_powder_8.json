@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_boat"
+      "item": "minecraft:blue_banner"
     },
     {
-      "item": "minecraft:cobblestone_slab"
+      "item": "minecraft:brick"
     },
     {
-      "item": "minecraft:dragon_head"
+      "item": "minecraft:conduit"
     },
     {
-      "item": "minecraft:emerald_ore"
+      "item": "minecraft:nether_quartz_ore"
     },
     {
-      "item": "minecraft:iron_hoe"
+      "item": "minecraft:pink_banner"
     },
     {
-      "item": "minecraft:lead"
+      "item": "minecraft:popped_chorus_fruit"
     },
     {
-      "item": "minecraft:leather_boots"
+      "item": "minecraft:powered_rail"
     },
     {
-      "item": "minecraft:light_blue_carpet"
+      "item": "minecraft:pumpkin_seeds"
     },
     {
-      "item": "minecraft:sandstone_stairs"
+      "item": "minecraft:tall_grass"
     }
   ],
   "result": {

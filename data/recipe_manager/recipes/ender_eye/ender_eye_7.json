@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brick"
+      "item": "minecraft:dead_bubble_coral_block"
     },
     {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:salmon_bucket"
     }
   ],
   "result": {

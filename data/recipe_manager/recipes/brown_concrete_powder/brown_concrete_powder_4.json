@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_stained_glass_pane"
+      "item": "minecraft:black_carpet"
     },
     {
-      "item": "minecraft:bone"
+      "item": "minecraft:chiseled_sandstone"
     },
     {
-      "item": "minecraft:brown_stained_glass_pane"
+      "item": "minecraft:diamond_sword"
     },
     {
-      "item": "minecraft:brown_terracotta"
+      "item": "minecraft:farmland"
     },
     {
-      "item": "minecraft:clay"
+      "item": "minecraft:gray_banner"
     },
     {
-      "item": "minecraft:horn_coral_block"
+      "item": "minecraft:lime_stained_glass"
     },
     {
-      "item": "minecraft:prismarine_slab"
+      "item": "minecraft:orange_dye"
     },
     {
-      "item": "minecraft:spawner"
+      "item": "minecraft:orange_wool"
     },
     {
-      "item": "minecraft:spruce_pressure_plate"
+      "item": "minecraft:red_glazed_terracotta"
     }
   ],
   "result": {

@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:book"
+      "item": "minecraft:diamond"
     },
     {
-      "item": "minecraft:dark_oak_slab"
+      "item": "minecraft:quartz_stairs"
     },
     {
-      "item": "minecraft:packed_ice"
+      "item": "minecraft:wooden_hoe"
     }
   ],
   "result": {

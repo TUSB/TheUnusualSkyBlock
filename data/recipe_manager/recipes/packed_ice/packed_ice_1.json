@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_leaves"
-    },
-    {
-      "item": "minecraft:beetroot"
-    },
-    {
-      "item": "minecraft:charcoal"
-    },
-    {
-      "item": "minecraft:coal_block"
+      "item": "minecraft:brown_carpet"
     },
     {
       "item": "minecraft:cooked_beef"
     },
     {
-      "item": "minecraft:dropper"
+      "item": "minecraft:gray_wool"
+    },
+    {
+      "item": "minecraft:green_banner"
+    },
+    {
+      "item": "minecraft:jungle_sapling"
     },
     {
       "item": "minecraft:light_blue_bed"
     },
     {
-      "item": "minecraft:purple_bed"
+      "item": "minecraft:magma_block"
     },
     {
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:slime_ball"
+    },
+    {
+      "item": "minecraft:spider_eye"
     }
   ],
   "result": {

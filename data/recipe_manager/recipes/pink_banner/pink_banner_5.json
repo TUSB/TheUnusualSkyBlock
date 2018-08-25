@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:end_rod"
+      "item": "minecraft:cyan_wool"
     },
     "|": {
-      "item": "minecraft:wooden_hoe"
+      "item": "minecraft:gray_bed"
     }
   },
   "result": {

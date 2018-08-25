@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:anvil"
+      "item": "minecraft:gravel"
     },
     "#": {
-      "item": "minecraft:dragon_head"
+      "item": "minecraft:oxeye_daisy"
     }
   },
   "result": {

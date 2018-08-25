@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_boat"
+      "item": "minecraft:light_weighted_pressure_plate"
     },
     "X": {
-      "item": "minecraft:cyan_glazed_terracotta"
+      "item": "minecraft:poisonous_potato"
     }
   },
   "result": {

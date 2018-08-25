@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_concrete_powder"
+      "item": "minecraft:acacia_fence"
     },
     {
-      "item": "minecraft:fire_charge"
+      "item": "minecraft:clock"
     },
     {
-      "item": "minecraft:golden_apple"
+      "item": "minecraft:green_concrete_powder"
     },
     {
-      "item": "minecraft:purple_terracotta"
+      "item": "minecraft:jungle_trapdoor"
     },
     {
-      "item": "minecraft:purpur_block"
+      "item": "minecraft:lime_glazed_terracotta"
     },
     {
-      "item": "minecraft:shulker_shell"
+      "item": "minecraft:oak_slab"
     },
     {
-      "item": "minecraft:stone_bricks"
+      "item": "minecraft:potato"
     },
     {
-      "item": "minecraft:stone_shovel"
+      "item": "minecraft:rose_red"
     },
     {
-      "item": "minecraft:stone_slab"
+      "item": "minecraft:spruce_trapdoor"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magenta_dye"
+      "item": "minecraft:compass"
     },
     "X": {
-      "item": "minecraft:stripped_jungle_wood"
+      "item": "minecraft:rabbit"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_boat"
+      "item": "minecraft:beetroot_soup"
     },
     {
-      "item": "minecraft:mossy_cobblestone_wall"
+      "item": "minecraft:dark_prismarine_stairs"
     }
   ],
   "result": {

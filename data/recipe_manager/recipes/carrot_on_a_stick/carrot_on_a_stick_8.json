@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chainmail_helmet"
+      "item": "minecraft:vine"
     },
     "X": {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:water_bucket"
     }
   },
   "result": {

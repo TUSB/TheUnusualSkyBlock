@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:jungle_stairs"
+      "item": "minecraft:dark_oak_trapdoor"
     },
     {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:iron_leggings"
     }
   ],
   "result": {

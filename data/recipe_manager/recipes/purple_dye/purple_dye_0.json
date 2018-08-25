@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_stained_glass_pane"
+      "item": "minecraft:dandelion"
     },
     {
-      "item": "minecraft:pink_concrete"
+      "item": "minecraft:light_blue_stained_glass_pane"
     }
   ],
   "result": {

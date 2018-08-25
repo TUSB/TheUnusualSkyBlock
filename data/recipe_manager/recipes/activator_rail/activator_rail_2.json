@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:comparator"
+      "item": "minecraft:blue_stained_glass_pane"
     },
     "S": {
-      "item": "minecraft:dark_oak_wood"
+      "item": "minecraft:brown_stained_glass_pane"
     },
     "#": {
-      "item": "minecraft:potion"
+      "item": "minecraft:iron_nugget"
     }
   },
   "result": {

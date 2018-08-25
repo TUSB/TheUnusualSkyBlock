@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:beetroot"
+      "item": "minecraft:diamond_block"
     },
     "X": {
-      "item": "minecraft:melon"
+      "item": "minecraft:spider_eye"
     },
     "R": {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:yellow_bed"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:coal_block"
+      "item": "minecraft:mossy_stone_bricks"
     },
     "#": {
-      "item": "minecraft:spruce_leaves"
+      "item": "minecraft:zombie_head"
     }
   },
   "result": {

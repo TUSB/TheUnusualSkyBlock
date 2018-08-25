@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dead_fire_coral_block"
+      "item": "minecraft:acacia_planks"
     },
     {
-      "item": "minecraft:turtle_helmet"
+      "item": "minecraft:brown_carpet"
     }
   ],
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_sapling"
+      "item": "minecraft:diamond_chestplate"
     },
     {
-      "item": "minecraft:yellow_stained_glass_pane"
+      "item": "minecraft:purple_concrete_powder"
     }
   ],
   "result": {

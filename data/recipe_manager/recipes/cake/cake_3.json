@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:dark_oak_stairs"
+      "item": "minecraft:iron_hoe"
     },
     "B": {
-      "item": "minecraft:nether_brick_stairs"
+      "item": "minecraft:spruce_wood"
     },
     "E": {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:yellow_glazed_terracotta"
     },
     "C": {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:yellow_wool"
     }
   },
   "result": {

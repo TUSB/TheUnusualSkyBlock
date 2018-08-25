@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_fence_gate"
+      "item": "minecraft:chest"
     },
     "|": {
-      "item": "minecraft:prismarine_bricks"
+      "item": "minecraft:pink_banner"
     }
   },
   "result": {

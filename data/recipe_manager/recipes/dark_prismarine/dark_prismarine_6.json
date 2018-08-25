@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:jungle_fence"
+      "item": "minecraft:gravel"
     },
     "I": {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:stone_brick_stairs"
     }
   },
   "result": {

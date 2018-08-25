@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:melon_slice"
+      "item": "minecraft:paper"
     },
     "|": {
-      "item": "minecraft:nether_wart_block"
+      "item": "minecraft:red_sandstone_stairs"
     }
   },
   "result": {

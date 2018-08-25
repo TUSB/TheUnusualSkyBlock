@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_shulker_box"
+      "item": "minecraft:light_blue_dye"
     },
     {
-      "item": "minecraft:cooked_porkchop"
+      "item": "minecraft:lime_glazed_terracotta"
     }
   ],
   "result": {

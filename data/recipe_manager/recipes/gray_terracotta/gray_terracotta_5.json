@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:andesite"
+      "item": "minecraft:acacia_pressure_plate"
     },
     "X": {
-      "item": "minecraft:light_gray_glazed_terracotta"
+      "item": "minecraft:stick"
     }
   },
   "result": {

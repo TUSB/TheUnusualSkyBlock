@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:nether_wart_block"
+      "item": "minecraft:iron_trapdoor"
     },
     "|": {
-      "item": "minecraft:player_head"
+      "item": "minecraft:purple_bed"
     }
   },
   "result": {

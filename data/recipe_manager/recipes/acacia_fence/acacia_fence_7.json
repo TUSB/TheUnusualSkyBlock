@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:poppy"
+      "item": "minecraft:glass"
     },
     "#": {
-      "item": "minecraft:smooth_quartz"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     }
   },
   "result": {

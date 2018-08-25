@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_wood"
+      "item": "minecraft:acacia_planks"
     },
     "W": {
-      "item": "minecraft:red_terracotta"
+      "item": "minecraft:apple"
     }
   },
   "result": {

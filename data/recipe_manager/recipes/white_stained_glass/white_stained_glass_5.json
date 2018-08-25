@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_trapdoor"
+      "item": "minecraft:grass_path"
     },
     "X": {
-      "item": "minecraft:bubble_coral_fan"
+      "item": "minecraft:gray_bed"
     }
   },
   "result": {

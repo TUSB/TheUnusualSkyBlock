@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_terracotta"
+      "item": "minecraft:end_rod"
     },
     "X": {
-      "item": "minecraft:prismarine_crystals"
+      "item": "minecraft:shulker_shell"
     }
   },
   "result": {

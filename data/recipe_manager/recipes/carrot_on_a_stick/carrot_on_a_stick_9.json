@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:iron_block"
     },
     "X": {
-      "item": "minecraft:smooth_stone"
+      "item": "minecraft:red_carpet"
     }
   },
   "result": {

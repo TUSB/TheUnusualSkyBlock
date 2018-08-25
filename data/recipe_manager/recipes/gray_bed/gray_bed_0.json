@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_pickaxe"
+      "item": "minecraft:redstone_lamp"
     },
     "X": {
-      "item": "minecraft:orange_stained_glass"
+      "item": "minecraft:sandstone_stairs"
     }
   },
   "result": {

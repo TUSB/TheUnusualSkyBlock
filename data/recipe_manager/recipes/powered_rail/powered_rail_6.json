@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:azure_bluet"
+      "item": "minecraft:bucket"
     },
     "#": {
-      "item": "minecraft:sand"
+      "item": "minecraft:cocoa_beans"
     },
     "R": {
-      "item": "minecraft:tropical_fish"
+      "item": "minecraft:magenta_carpet"
     }
   },
   "result": {

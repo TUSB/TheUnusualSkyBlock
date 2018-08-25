@@ -7,13 +7,13 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:leather_boots"
+      "item": "minecraft:black_wool"
     },
     "D": {
-      "item": "minecraft:shulker_box"
+      "item": "minecraft:flower_pot"
     },
     "#": {
-      "item": "minecraft:stripped_jungle_wood"
+      "item": "minecraft:stripped_birch_wood"
     }
   },
   "result": {

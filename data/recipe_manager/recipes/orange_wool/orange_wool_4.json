@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_terracotta"
+      "item": "minecraft:brown_wool"
     },
     {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:jungle_slab"
     }
   ],
   "result": {

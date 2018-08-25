@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:glass_bottle"
+      "item": "minecraft:purple_terracotta"
     },
     "#": {
-      "item": "minecraft:orange_terracotta"
+      "item": "minecraft:spruce_boat"
     }
   },
   "result": {

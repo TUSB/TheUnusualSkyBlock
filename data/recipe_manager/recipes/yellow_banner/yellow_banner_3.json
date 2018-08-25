@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brain_coral_block"
+      "item": "minecraft:light_gray_banner"
     },
     "|": {
-      "item": "minecraft:dark_oak_button"
+      "item": "minecraft:rose_bush"
     }
   },
   "result": {

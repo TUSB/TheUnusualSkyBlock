@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cauldron"
+      "item": "minecraft:magenta_bed"
     },
     "#": {
-      "item": "minecraft:sandstone"
+      "item": "minecraft:stripped_spruce_wood"
     }
   },
   "result": {

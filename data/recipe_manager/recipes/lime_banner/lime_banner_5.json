@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_stained_glass_pane"
+      "item": "minecraft:jungle_wood"
     },
     "|": {
-      "item": "minecraft:map"
+      "item": "minecraft:packed_ice"
     }
   },
   "result": {

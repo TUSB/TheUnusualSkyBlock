@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cobblestone_stairs"
+      "item": "minecraft:diamond_hoe"
     },
     "R": {
-      "item": "minecraft:fire_charge"
+      "item": "minecraft:rail"
     }
   },
   "result": {

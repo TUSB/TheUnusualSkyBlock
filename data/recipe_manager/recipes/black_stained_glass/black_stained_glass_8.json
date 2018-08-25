@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_bed"
+      "item": "minecraft:dark_oak_fence"
     },
     "X": {
-      "item": "minecraft:magenta_stained_glass_pane"
+      "item": "minecraft:purple_stained_glass"
     }
   },
   "result": {

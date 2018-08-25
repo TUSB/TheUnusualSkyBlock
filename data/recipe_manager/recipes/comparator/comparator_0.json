@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:golden_chestplate"
+      "item": "minecraft:cyan_dye"
     },
     "X": {
-      "item": "minecraft:lime_carpet"
+      "item": "minecraft:dried_kelp"
     },
     "I": {
-      "item": "minecraft:oak_log"
+      "item": "minecraft:note_block"
     }
   },
   "result": {

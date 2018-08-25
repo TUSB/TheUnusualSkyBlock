@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_bed"
+      "item": "minecraft:orange_terracotta"
     },
     "X": {
-      "item": "minecraft:sandstone"
+      "item": "minecraft:stone_button"
     }
   },
   "result": {

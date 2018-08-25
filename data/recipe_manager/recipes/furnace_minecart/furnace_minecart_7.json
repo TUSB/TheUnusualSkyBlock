@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:acacia_button"
+      "item": "minecraft:gray_glazed_terracotta"
     },
     "B": {
-      "item": "minecraft:light_gray_glazed_terracotta"
+      "item": "minecraft:rail"
     }
   },
   "result": {

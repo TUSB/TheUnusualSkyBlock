@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:bricks"
+      "item": "minecraft:iron_door"
     },
     "#": {
-      "item": "minecraft:golden_chestplate"
+      "item": "minecraft:magenta_shulker_box"
     }
   },
   "result": {

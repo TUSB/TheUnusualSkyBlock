@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:grass_path"
+      "item": "minecraft:bread"
     },
     "#": {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "item": "minecraft:dark_oak_trapdoor"
     }
   },
   "result": {

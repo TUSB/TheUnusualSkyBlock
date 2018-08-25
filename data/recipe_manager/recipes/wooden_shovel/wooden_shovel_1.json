@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cyan_banner"
+      "item": "minecraft:blue_wool"
     },
     "#": {
-      "item": "minecraft:nether_wart_block"
+      "item": "minecraft:purple_concrete"
     }
   },
   "result": {

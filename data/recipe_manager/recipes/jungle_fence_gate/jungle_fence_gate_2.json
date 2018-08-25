@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:nether_brick_stairs"
+      "item": "minecraft:chest_minecart"
     },
     "W": {
-      "item": "minecraft:painting"
+      "item": "minecraft:lime_terracotta"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:iron_chestplate"
+      "item": "minecraft:clock"
     },
     "#": {
-      "item": "minecraft:netherrack"
+      "item": "minecraft:end_crystal"
     }
   },
   "result": {

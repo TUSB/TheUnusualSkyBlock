@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:beacon"
+      "item": "minecraft:quartz_stairs"
     },
     "#": {
-      "item": "minecraft:red_concrete"
+      "item": "minecraft:stripped_dark_oak_wood"
     }
   },
   "result": {

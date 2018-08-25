@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:chainmail_chestplate"
+      "item": "minecraft:dispenser"
     },
     "B": {
-      "item": "minecraft:iron_axe"
+      "item": "minecraft:sponge"
     }
   },
   "result": {

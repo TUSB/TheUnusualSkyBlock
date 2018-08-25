@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:rabbit_stew"
+      "item": "minecraft:tropical_fish_bucket"
     }
   ],
   "result": {

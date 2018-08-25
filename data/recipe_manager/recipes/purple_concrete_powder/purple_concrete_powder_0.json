@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:carved_pumpkin"
     },
     {
-      "item": "minecraft:dark_oak_leaves"
+      "item": "minecraft:diamond"
     },
     {
-      "item": "minecraft:dead_tube_coral_fan"
+      "item": "minecraft:gray_banner"
     },
     {
-      "item": "minecraft:dragon_head"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     },
     {
-      "item": "minecraft:enchanting_table"
+      "item": "minecraft:lily_pad"
     },
     {
-      "item": "minecraft:light_blue_glazed_terracotta"
+      "item": "minecraft:pink_concrete_powder"
     },
     {
-      "item": "minecraft:lilac"
+      "item": "minecraft:player_head"
     },
     {
-      "item": "minecraft:redstone_lamp"
+      "item": "minecraft:porkchop"
     },
     {
-      "item": "minecraft:white_terracotta"
+      "item": "minecraft:spruce_sapling"
     }
   ],
   "result": {

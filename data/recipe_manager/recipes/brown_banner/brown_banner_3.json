@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gold_ore"
+      "item": "minecraft:dandelion_yellow"
     },
     "|": {
-      "item": "minecraft:purple_stained_glass_pane"
+      "item": "minecraft:dead_fire_coral_fan"
     }
   },
   "result": {

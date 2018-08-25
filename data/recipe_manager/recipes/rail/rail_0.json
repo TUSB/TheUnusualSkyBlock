@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:furnace"
+      "item": "minecraft:blue_concrete"
     },
     "#": {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:enchanting_table"
     }
   },
   "result": {

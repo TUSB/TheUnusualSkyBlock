@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_stained_glass"
+      "item": "minecraft:cyan_concrete_powder"
     },
     "|": {
-      "item": "minecraft:nether_brick"
+      "item": "minecraft:red_concrete"
     }
   },
   "result": {

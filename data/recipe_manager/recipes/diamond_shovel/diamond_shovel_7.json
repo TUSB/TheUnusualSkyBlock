@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:red_banner"
+      "item": "minecraft:iron_trapdoor"
     },
     "#": {
-      "item": "minecraft:yellow_concrete"
+      "item": "minecraft:light_blue_carpet"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:grass_path"
+      "item": "minecraft:iron_block"
     },
     "X": {
-      "item": "minecraft:wooden_shovel"
+      "item": "minecraft:magenta_dye"
     }
   },
   "result": {
