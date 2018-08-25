@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magenta_stained_glass"
+      "item": "minecraft:clay_ball"
     },
     "|": {
-      "item": "minecraft:melon_seeds"
+      "item": "minecraft:snowball"
     }
   },
   "result": {

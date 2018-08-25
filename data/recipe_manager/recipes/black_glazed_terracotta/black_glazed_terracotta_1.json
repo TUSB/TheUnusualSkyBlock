@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_button"
+      "item": "minecraft:yellow_concrete_powder"
     }
   ],
   "result": {

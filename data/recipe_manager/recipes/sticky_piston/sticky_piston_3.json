@@ -6,10 +6,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:bow"
+      "item": "minecraft:yellow_bed"
     },
     "P": {
-      "item": "minecraft:jack_o_lantern"
+      "item": "minecraft:yellow_glazed_terracotta"
     }
   },
   "result": {

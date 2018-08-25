@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_pressure_plate"
+      "item": "minecraft:armor_stand"
     },
     "X": {
-      "item": "minecraft:stone"
+      "item": "minecraft:ender_eye"
     }
   },
   "result": {

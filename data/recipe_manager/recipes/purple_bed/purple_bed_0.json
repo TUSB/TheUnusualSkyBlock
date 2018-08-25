@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bricks"
+      "item": "minecraft:bone"
     },
     "X": {
-      "item": "minecraft:dark_prismarine"
+      "item": "minecraft:brown_mushroom_block"
     }
   },
   "result": {

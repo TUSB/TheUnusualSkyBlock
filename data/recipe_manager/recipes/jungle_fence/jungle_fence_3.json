@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:podzol"
+      "item": "minecraft:birch_planks"
     },
     "#": {
-      "item": "minecraft:tropical_fish"
+      "item": "minecraft:bowl"
     }
   },
   "result": {

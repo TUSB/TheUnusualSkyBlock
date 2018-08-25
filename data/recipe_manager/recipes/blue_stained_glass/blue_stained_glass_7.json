@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_leaves"
+      "item": "minecraft:black_terracotta"
     },
     "X": {
-      "item": "minecraft:wooden_axe"
+      "item": "minecraft:coal"
     }
   },
   "result": {

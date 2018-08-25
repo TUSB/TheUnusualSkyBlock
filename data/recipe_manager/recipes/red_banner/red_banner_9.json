@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_glazed_terracotta"
+      "item": "minecraft:glowstone_dust"
     },
     "|": {
-      "item": "minecraft:shulker_shell"
+      "item": "minecraft:leather_helmet"
     }
   },
   "result": {

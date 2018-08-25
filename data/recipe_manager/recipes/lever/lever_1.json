@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:oak_sapling"
+      "item": "minecraft:coal_ore"
     },
     "#": {
-      "item": "minecraft:red_concrete"
+      "item": "minecraft:cyan_dye"
     }
   },
   "result": {

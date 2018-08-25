@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_stained_glass"
+      "item": "minecraft:cut_sandstone"
     },
     "#": {
-      "item": "minecraft:brown_glazed_terracotta"
+      "item": "minecraft:hopper_minecart"
     },
     "Y": {
-      "item": "minecraft:green_terracotta"
+      "item": "minecraft:sea_lantern"
     }
   },
   "result": {

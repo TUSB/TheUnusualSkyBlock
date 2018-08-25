@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:book"
+      "item": "minecraft:bricks"
     },
     {
-      "item": "minecraft:fire_coral"
+      "item": "minecraft:chiseled_quartz_block"
     },
     {
-      "item": "minecraft:flower_pot"
+      "item": "minecraft:cyan_wool"
     },
     {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:gray_glazed_terracotta"
     },
     {
-      "item": "minecraft:leather_leggings"
+      "item": "minecraft:light_gray_carpet"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:lime_carpet"
     },
     {
-      "item": "minecraft:pink_carpet"
+      "item": "minecraft:note_block"
     },
     {
-      "item": "minecraft:podzol"
+      "item": "minecraft:splash_potion"
     },
     {
-      "item": "minecraft:yellow_stained_glass"
+      "item": "minecraft:yellow_carpet"
     }
   ],
   "result": {

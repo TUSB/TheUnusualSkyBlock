@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lime_terracotta"
+      "item": "minecraft:blue_bed"
     },
     {
-      "item": "minecraft:obsidian"
+      "item": "minecraft:cookie"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_leaves"
+      "item": "minecraft:brown_bed"
     },
     "|": {
-      "item": "minecraft:bow"
+      "item": "minecraft:pumpkin_seeds"
     }
   },
   "result": {

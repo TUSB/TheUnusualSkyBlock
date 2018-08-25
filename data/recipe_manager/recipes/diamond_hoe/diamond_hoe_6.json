@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brown_concrete_powder"
+      "item": "minecraft:hopper_minecart"
     },
     "#": {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:purple_shulker_box"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_pressure_plate"
+      "item": "minecraft:iron_ore"
     },
     "|": {
-      "item": "minecraft:map"
+      "item": "minecraft:pumpkin"
     }
   },
   "result": {

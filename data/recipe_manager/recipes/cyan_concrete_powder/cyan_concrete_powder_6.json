@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_wood"
+      "item": "minecraft:birch_button"
     },
     {
-      "item": "minecraft:clay"
+      "item": "minecraft:dark_oak_pressure_plate"
     },
     {
-      "item": "minecraft:cyan_stained_glass_pane"
+      "item": "minecraft:horn_coral_block"
     },
     {
-      "item": "minecraft:feather"
+      "item": "minecraft:lapis_ore"
     },
     {
-      "item": "minecraft:gray_bed"
+      "item": "minecraft:nether_bricks"
     },
     {
-      "item": "minecraft:gray_wool"
+      "item": "minecraft:player_head"
     },
     {
-      "item": "minecraft:kelp"
+      "item": "minecraft:purple_glazed_terracotta"
     },
     {
-      "item": "minecraft:powered_rail"
+      "item": "minecraft:stripped_acacia_wood"
     },
     {
-      "item": "minecraft:purpur_pillar"
+      "item": "minecraft:white_concrete_powder"
     }
   ],
   "result": {

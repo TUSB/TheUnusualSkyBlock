@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:iron_helmet"
+      "item": "minecraft:egg"
     },
     {
-      "item": "minecraft:lime_carpet"
+      "item": "minecraft:painting"
     }
   ],
   "result": {

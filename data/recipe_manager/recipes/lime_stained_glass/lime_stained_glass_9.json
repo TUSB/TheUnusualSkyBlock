@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chainmail_helmet"
+      "item": "minecraft:chainmail_chestplate"
     },
     "X": {
-      "item": "minecraft:diamond_helmet"
+      "item": "minecraft:repeater"
     }
   },
   "result": {

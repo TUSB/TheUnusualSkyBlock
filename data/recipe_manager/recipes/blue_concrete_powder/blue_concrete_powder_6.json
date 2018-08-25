@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_fence"
+      "item": "minecraft:carved_pumpkin"
     },
     {
-      "item": "minecraft:blue_shulker_box"
+      "item": "minecraft:coal_block"
     },
     {
-      "item": "minecraft:dark_oak_slab"
+      "item": "minecraft:gray_bed"
     },
     {
-      "item": "minecraft:flower_pot"
+      "item": "minecraft:green_glazed_terracotta"
     },
     {
-      "item": "minecraft:magenta_dye"
+      "item": "minecraft:lime_concrete_powder"
     },
     {
-      "item": "minecraft:pink_shulker_box"
+      "item": "minecraft:nether_brick"
     },
     {
-      "item": "minecraft:prismarine_brick_stairs"
+      "item": "minecraft:pufferfish"
     },
     {
-      "item": "minecraft:stripped_birch_log"
+      "item": "minecraft:stone_brick_slab"
     },
     {
-      "item": "minecraft:yellow_concrete_powder"
+      "item": "minecraft:stone_sword"
     }
   ],
   "result": {

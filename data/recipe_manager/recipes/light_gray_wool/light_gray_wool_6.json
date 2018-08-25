@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lime_concrete_powder"
+      "item": "minecraft:oak_planks"
     },
     {
-      "item": "minecraft:skeleton_skull"
+      "item": "minecraft:oak_sapling"
     }
   ],
   "result": {

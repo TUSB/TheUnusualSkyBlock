@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:activator_rail"
+      "item": "minecraft:farmland"
     },
     {
-      "item": "minecraft:cut_red_sandstone"
+      "item": "minecraft:furnace"
     },
     {
-      "item": "minecraft:damaged_anvil"
+      "item": "minecraft:golden_apple"
     },
     {
-      "item": "minecraft:golden_chestplate"
+      "item": "minecraft:golden_carrot"
     },
     {
-      "item": "minecraft:horn_coral_fan"
+      "item": "minecraft:gunpowder"
     },
     {
-      "item": "minecraft:jungle_stairs"
+      "item": "minecraft:iron_shovel"
     },
     {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:lava_bucket"
     },
     {
-      "item": "minecraft:poppy"
+      "item": "minecraft:magenta_carpet"
     },
     {
-      "item": "minecraft:salmon"
+      "item": "minecraft:red_tulip"
     }
   ],
   "result": {

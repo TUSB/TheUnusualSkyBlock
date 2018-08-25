@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_glazed_terracotta"
+      "item": "minecraft:black_wool"
     },
     "|": {
-      "item": "minecraft:light_gray_terracotta"
+      "item": "minecraft:diamond_ore"
     }
   },
   "result": {

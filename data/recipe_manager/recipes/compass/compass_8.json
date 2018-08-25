@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_slab"
+      "item": "minecraft:shears"
     },
     "X": {
-      "item": "minecraft:dried_kelp_block"
+      "item": "minecraft:tall_grass"
     }
   },
   "result": {

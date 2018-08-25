@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:fire_coral_block"
+      "item": "minecraft:gunpowder"
     },
     "|": {
-      "item": "minecraft:spruce_fence_gate"
+      "item": "minecraft:spruce_leaves"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_log"
+      "item": "minecraft:acacia_stairs"
     },
     "X": {
-      "item": "minecraft:note_block"
+      "item": "minecraft:sticky_piston"
     }
   },
   "result": {

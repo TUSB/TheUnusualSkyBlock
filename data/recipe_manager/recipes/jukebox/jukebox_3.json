@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_concrete"
+      "item": "minecraft:blue_bed"
     },
     "X": {
-      "item": "minecraft:dark_oak_trapdoor"
+      "item": "minecraft:diamond_ore"
     }
   },
   "result": {

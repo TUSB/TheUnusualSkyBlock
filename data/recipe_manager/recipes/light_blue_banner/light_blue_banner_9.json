@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_terracotta"
+      "item": "minecraft:stone"
     },
     "|": {
-      "item": "minecraft:green_banner"
+      "item": "minecraft:white_tulip"
     }
   },
   "result": {

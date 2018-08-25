@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:baked_potato"
+      "item": "minecraft:cyan_banner"
     },
     "#": {
-      "item": "minecraft:cyan_stained_glass_pane"
+      "item": "minecraft:leather_helmet"
     }
   },
   "result": {

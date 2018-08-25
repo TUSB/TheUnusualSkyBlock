@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_stained_glass"
+      "item": "minecraft:diamond_chestplate"
     },
     "|": {
-      "item": "minecraft:infested_chiseled_stone_bricks"
+      "item": "minecraft:stripped_jungle_wood"
     }
   },
   "result": {

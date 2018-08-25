@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blaze_powder"
+      "item": "minecraft:red_sandstone_stairs"
     },
     "|": {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:spruce_fence_gate"
     }
   },
   "result": {

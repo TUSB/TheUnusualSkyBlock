@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_pressure_plate"
+      "item": "minecraft:grass_path"
     },
     {
-      "item": "minecraft:shield"
+      "item": "minecraft:pink_carpet"
     }
   ],
   "result": {

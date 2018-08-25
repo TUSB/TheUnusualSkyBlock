@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:ice"
+      "item": "minecraft:dark_oak_sapling"
     },
     {
-      "item": "minecraft:sponge"
+      "item": "minecraft:diorite"
     }
   ],
   "result": {

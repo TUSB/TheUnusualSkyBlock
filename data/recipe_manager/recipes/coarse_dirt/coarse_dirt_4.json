@@ -6,10 +6,10 @@
   ],
   "key": {
     "D": {
-      "item": "minecraft:orange_dye"
+      "item": "minecraft:conduit"
     },
     "G": {
-      "item": "minecraft:stone_axe"
+      "item": "minecraft:light_gray_concrete"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:red_concrete"
+      "item": "minecraft:brown_concrete"
     },
     {
-      "item": "minecraft:trident"
+      "item": "minecraft:spruce_slab"
     }
   ],
   "result": {

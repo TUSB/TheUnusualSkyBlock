@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chicken"
+      "item": "minecraft:blue_stained_glass"
     },
     "X": {
-      "item": "minecraft:dark_oak_leaves"
+      "item": "minecraft:jungle_button"
     }
   },
   "result": {

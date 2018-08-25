@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_pressure_plate"
+      "item": "minecraft:cyan_dye"
     },
     "X": {
-      "item": "minecraft:sticky_piston"
+      "item": "minecraft:dandelion_yellow"
     },
     "I": {
-      "item": "minecraft:stripped_birch_wood"
+      "item": "minecraft:diamond_pickaxe"
     }
   },
   "result": {

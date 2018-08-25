@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_concrete"
+      "item": "minecraft:pink_shulker_box"
     },
     "W": {
-      "item": "minecraft:sponge"
+      "item": "minecraft:yellow_stained_glass_pane"
     }
   },
   "result": {

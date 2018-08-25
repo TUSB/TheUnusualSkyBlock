@@ -7,10 +7,10 @@
   ],
   "key": {
     "~": {
-      "item": "minecraft:cobblestone_wall"
+      "item": "minecraft:jungle_fence_gate"
     },
     "O": {
-      "item": "minecraft:cod"
+      "item": "minecraft:wooden_shovel"
     }
   },
   "result": {

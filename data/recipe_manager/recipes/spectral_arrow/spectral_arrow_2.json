@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:birch_sapling"
     },
     "X": {
-      "item": "minecraft:gunpowder"
+      "item": "minecraft:blue_banner"
     }
   },
   "result": {

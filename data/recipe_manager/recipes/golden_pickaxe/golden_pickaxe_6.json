@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_oak_door"
+      "item": "minecraft:damaged_anvil"
     },
     "#": {
-      "item": "minecraft:gold_nugget"
+      "item": "minecraft:green_glazed_terracotta"
     }
   },
   "result": {

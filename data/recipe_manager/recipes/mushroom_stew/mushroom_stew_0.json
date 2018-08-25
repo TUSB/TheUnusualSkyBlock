@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:iron_trapdoor"
+      "item": "minecraft:birch_slab"
     },
     {
-      "item": "minecraft:stone_sword"
+      "item": "minecraft:diamond_boots"
     },
     {
-      "item": "minecraft:yellow_carpet"
+      "item": "minecraft:iron_axe"
     }
   ],
   "result": {

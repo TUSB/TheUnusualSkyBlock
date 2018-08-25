@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:grass"
+      "item": "minecraft:nether_wart"
     },
     "#": {
-      "item": "minecraft:gray_banner"
+      "item": "minecraft:purpur_stairs"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_bed"
+      "item": "minecraft:iron_leggings"
     },
     "#": {
-      "item": "minecraft:cyan_shulker_box"
+      "item": "minecraft:nether_bricks"
     }
   },
   "result": {

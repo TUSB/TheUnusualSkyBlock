@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_fence_gate"
+      "item": "minecraft:quartz_pillar"
     },
     "X": {
-      "item": "minecraft:diamond_shovel"
+      "item": "minecraft:sandstone_slab"
     }
   },
   "result": {

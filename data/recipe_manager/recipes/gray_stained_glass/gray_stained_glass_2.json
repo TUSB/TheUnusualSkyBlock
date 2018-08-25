@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:golden_axe"
     },
     "X": {
-      "item": "minecraft:light_blue_dye"
+      "item": "minecraft:light_blue_concrete"
     }
   },
   "result": {

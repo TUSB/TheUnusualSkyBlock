@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magenta_wool"
+      "item": "minecraft:purple_bed"
     },
     "X": {
-      "item": "minecraft:wet_sponge"
+      "item": "minecraft:written_book"
     }
   },
   "result": {

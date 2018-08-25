@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:oak_fence"
+      "item": "minecraft:oak_trapdoor"
     },
     "#": {
-      "item": "minecraft:red_carpet"
+      "item": "minecraft:stone_bricks"
     }
   },
   "result": {

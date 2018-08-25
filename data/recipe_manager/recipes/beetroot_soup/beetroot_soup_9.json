@@ -7,10 +7,10 @@
   ],
   "key": {
     "O": {
-      "item": "minecraft:birch_trapdoor"
+      "item": "minecraft:melon_seeds"
     },
     "B": {
-      "item": "minecraft:furnace"
+      "item": "minecraft:redstone_lamp"
     }
   },
   "result": {

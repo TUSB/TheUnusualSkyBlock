@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cooked_mutton"
+      "item": "minecraft:iron_sword"
     },
     "#": {
-      "item": "minecraft:tube_coral_block"
+      "item": "minecraft:rabbit_stew"
     }
   },
   "result": {

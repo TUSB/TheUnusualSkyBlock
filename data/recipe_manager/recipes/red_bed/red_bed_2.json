@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:coal_block"
+      "item": "minecraft:petrified_oak_slab"
     },
     "X": {
-      "item": "minecraft:green_terracotta"
+      "item": "minecraft:red_sandstone"
     }
   },
   "result": {

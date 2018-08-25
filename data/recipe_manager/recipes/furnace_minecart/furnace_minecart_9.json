@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:furnace"
+      "item": "minecraft:chicken"
     },
     "B": {
-      "item": "minecraft:orange_shulker_box"
+      "item": "minecraft:kelp"
     }
   },
   "result": {

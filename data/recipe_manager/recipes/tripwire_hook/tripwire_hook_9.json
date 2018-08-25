@@ -7,13 +7,13 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:arrow"
+      "item": "minecraft:green_stained_glass"
     },
     "S": {
-      "item": "minecraft:oak_sapling"
+      "item": "minecraft:magenta_bed"
     },
     "#": {
-      "item": "minecraft:pink_wool"
+      "item": "minecraft:orange_bed"
     }
   },
   "result": {

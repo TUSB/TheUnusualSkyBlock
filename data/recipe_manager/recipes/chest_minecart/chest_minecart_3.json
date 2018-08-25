@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:diamond_ore"
     },
     "B": {
-      "item": "minecraft:turtle_helmet"
+      "item": "minecraft:green_stained_glass"
     }
   },
   "result": {

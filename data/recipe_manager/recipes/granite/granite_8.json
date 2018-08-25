@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dead_fire_coral_fan"
+      "item": "minecraft:light_gray_carpet"
     },
     {
-      "item": "minecraft:sand"
+      "item": "minecraft:red_shulker_box"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_fence"
+      "item": "minecraft:coal_ore"
     },
     "X": {
-      "item": "minecraft:mossy_stone_bricks"
+      "item": "minecraft:magenta_bed"
     }
   },
   "result": {

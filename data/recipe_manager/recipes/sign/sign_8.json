@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jukebox"
+      "item": "minecraft:wheat"
     },
     "X": {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:yellow_stained_glass"
     }
   },
   "result": {

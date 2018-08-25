@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dragon_breath"
+      "item": "minecraft:porkchop"
     },
     "|": {
-      "item": "minecraft:infested_chiseled_stone_bricks"
+      "item": "minecraft:prismarine_stairs"
     }
   },
   "result": {

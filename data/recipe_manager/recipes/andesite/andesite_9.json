@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:pink_glazed_terracotta"
+      "item": "minecraft:melon_slice"
     },
     {
-      "item": "minecraft:purple_carpet"
+      "item": "minecraft:mutton"
     }
   ],
   "result": {

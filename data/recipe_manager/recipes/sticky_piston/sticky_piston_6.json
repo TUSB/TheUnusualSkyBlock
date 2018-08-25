@@ -6,10 +6,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:flower_pot"
+      "item": "minecraft:dead_brain_coral_block"
     },
     "P": {
-      "item": "minecraft:infested_stone_bricks"
+      "item": "minecraft:note_block"
     }
   },
   "result": {

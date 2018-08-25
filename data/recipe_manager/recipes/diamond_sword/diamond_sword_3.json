@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:iron_hoe"
+      "item": "minecraft:light_blue_shulker_box"
     },
     "#": {
-      "item": "minecraft:jungle_pressure_plate"
+      "item": "minecraft:snowball"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:baked_potato"
+      "item": "minecraft:dried_kelp_block"
     },
     "X": {
-      "item": "minecraft:vine"
+      "item": "minecraft:smooth_sandstone"
     }
   },
   "result": {

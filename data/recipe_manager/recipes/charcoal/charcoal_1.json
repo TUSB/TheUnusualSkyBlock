@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bookshelf"
+      "item": "minecraft:birch_leaves"
     }
   ],
   "result": {

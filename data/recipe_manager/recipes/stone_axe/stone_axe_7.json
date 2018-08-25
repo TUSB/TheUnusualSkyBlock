@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:carrot"
+      "item": "minecraft:cobweb"
     },
     "#": {
-      "item": "minecraft:note_block"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     }
   },
   "result": {

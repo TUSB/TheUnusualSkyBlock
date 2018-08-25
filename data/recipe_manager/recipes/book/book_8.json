@@ -2,16 +2,16 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diamond_boots"
+      "item": "minecraft:bone_block"
     },
     {
-      "item": "minecraft:light_gray_shulker_box"
+      "item": "minecraft:light_gray_concrete"
     },
     {
-      "item": "minecraft:smooth_red_sandstone"
+      "item": "minecraft:melon_slice"
     },
     {
-      "item": "minecraft:yellow_stained_glass"
+      "item": "minecraft:orange_terracotta"
     }
   ],
   "result": {

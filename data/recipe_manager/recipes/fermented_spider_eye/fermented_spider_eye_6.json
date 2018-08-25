@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_terracotta"
+      "item": "minecraft:green_banner"
     },
     {
-      "item": "minecraft:mossy_cobblestone_wall"
+      "item": "minecraft:spruce_trapdoor"
     },
     {
-      "item": "minecraft:nether_wart_block"
+      "item": "minecraft:writable_book"
     }
   ],
   "result": {

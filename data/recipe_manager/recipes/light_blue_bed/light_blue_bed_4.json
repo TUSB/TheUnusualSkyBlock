@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chest"
+      "item": "minecraft:blue_stained_glass_pane"
     },
     "X": {
-      "item": "minecraft:end_stone_bricks"
+      "item": "minecraft:cactus"
     }
   },
   "result": {

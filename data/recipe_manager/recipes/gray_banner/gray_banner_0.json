@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_fence"
+      "item": "minecraft:carrot"
     },
     "|": {
-      "item": "minecraft:jungle_pressure_plate"
+      "item": "minecraft:light_gray_concrete_powder"
     }
   },
   "result": {

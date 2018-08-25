@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:podzol"
     },
     "X": {
-      "item": "minecraft:stone_axe"
+      "item": "minecraft:redstone_torch"
     }
   },
   "result": {

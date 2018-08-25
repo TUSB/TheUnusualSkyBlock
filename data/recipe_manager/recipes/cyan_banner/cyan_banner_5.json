@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bucket"
+      "item": "minecraft:iron_door"
     },
     "|": {
-      "item": "minecraft:green_concrete"
+      "item": "minecraft:phantom_membrane"
     }
   },
   "result": {

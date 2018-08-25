@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_concrete"
+      "item": "minecraft:gray_bed"
     },
     "X": {
-      "item": "minecraft:smooth_quartz"
+      "item": "minecraft:spectral_arrow"
     }
   },
   "result": {

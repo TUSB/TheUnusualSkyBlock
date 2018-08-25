@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:activator_rail"
+      "item": "minecraft:light_gray_dye"
     },
     "X": {
-      "item": "minecraft:conduit"
+      "item": "minecraft:scute"
     }
   },
   "result": {

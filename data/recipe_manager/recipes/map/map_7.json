@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_shulker_box"
+      "item": "minecraft:chiseled_sandstone"
     },
     "X": {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:yellow_concrete"
     }
   },
   "result": {

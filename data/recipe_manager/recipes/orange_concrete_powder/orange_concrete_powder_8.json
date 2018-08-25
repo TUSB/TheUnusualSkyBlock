@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cooked_beef"
+      "item": "minecraft:cod_bucket"
     },
     {
-      "item": "minecraft:dandelion"
+      "item": "minecraft:cookie"
     },
     {
-      "item": "minecraft:jack_o_lantern"
+      "item": "minecraft:diamond_hoe"
     },
     {
-      "item": "minecraft:light_blue_carpet"
+      "item": "minecraft:ender_eye"
     },
     {
-      "item": "minecraft:lime_concrete_powder"
+      "item": "minecraft:piston"
     },
     {
-      "item": "minecraft:magma_cream"
+      "item": "minecraft:purple_shulker_box"
     },
     {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:rail"
     },
     {
-      "item": "minecraft:yellow_bed"
+      "item": "minecraft:red_concrete_powder"
     },
     {
-      "item": "minecraft:yellow_concrete"
+      "item": "minecraft:stripped_birch_log"
     }
   ],
   "result": {

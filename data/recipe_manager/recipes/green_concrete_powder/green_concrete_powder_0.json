@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_planks"
+      "item": "minecraft:diamond_sword"
     },
     {
-      "item": "minecraft:chorus_flower"
+      "item": "minecraft:glowstone_dust"
     },
     {
-      "item": "minecraft:cooked_porkchop"
+      "item": "minecraft:nether_brick_stairs"
     },
     {
-      "item": "minecraft:lime_carpet"
+      "item": "minecraft:oak_sapling"
     },
     {
-      "item": "minecraft:pink_banner"
+      "item": "minecraft:pink_carpet"
     },
     {
-      "item": "minecraft:redstone"
+      "item": "minecraft:prismarine"
     },
     {
-      "item": "minecraft:rose_bush"
+      "item": "minecraft:splash_potion"
     },
     {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:writable_book"
     },
     {
-      "item": "minecraft:white_stained_glass_pane"
+      "item": "minecraft:yellow_stained_glass_pane"
     }
   ],
   "result": {

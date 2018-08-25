@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_hoe"
+      "item": "minecraft:chest_minecart"
     },
     "X": {
-      "item": "minecraft:lime_concrete"
+      "item": "minecraft:spruce_sapling"
     }
   },
   "result": {

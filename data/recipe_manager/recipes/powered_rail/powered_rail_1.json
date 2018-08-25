@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:glass"
+      "item": "minecraft:black_wool"
     },
     "#": {
-      "item": "minecraft:leather_chestplate"
+      "item": "minecraft:dark_oak_wood"
     },
     "R": {
-      "item": "minecraft:stone_sword"
+      "item": "minecraft:magenta_dye"
     }
   },
   "result": {

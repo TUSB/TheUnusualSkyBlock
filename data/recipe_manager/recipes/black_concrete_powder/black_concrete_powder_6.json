@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chorus_fruit"
+      "item": "minecraft:end_crystal"
     },
     {
-      "item": "minecraft:cyan_shulker_box"
+      "item": "minecraft:furnace"
     },
     {
-      "item": "minecraft:fire_charge"
+      "item": "minecraft:glistering_melon_slice"
     },
     {
-      "item": "minecraft:gold_ore"
+      "item": "minecraft:glowstone"
     },
     {
-      "item": "minecraft:heart_of_the_sea"
+      "item": "minecraft:iron_helmet"
     },
     {
-      "item": "minecraft:purple_terracotta"
-    },
-    {
-      "item": "minecraft:purpur_pillar"
+      "item": "minecraft:minecart"
     },
     {
       "item": "minecraft:rotten_flesh"
     },
     {
-      "item": "minecraft:skeleton_skull"
+      "item": "minecraft:salmon_bucket"
+    },
+    {
+      "item": "minecraft:stripped_oak_wood"
     }
   ],
   "result": {

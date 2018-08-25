@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:bucket"
+      "item": "minecraft:beacon"
     },
     "#": {
-      "item": "minecraft:orange_banner"
+      "item": "minecraft:iron_horse_armor"
     }
   },
   "result": {

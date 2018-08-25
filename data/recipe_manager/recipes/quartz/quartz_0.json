@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:golden_leggings"
+      "item": "minecraft:tnt_minecart"
     }
   ],
   "result": {

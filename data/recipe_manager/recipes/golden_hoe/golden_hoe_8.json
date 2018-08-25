@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:birch_trapdoor"
+      "item": "minecraft:cyan_dye"
     },
     "#": {
-      "item": "minecraft:stripped_oak_wood"
+      "item": "minecraft:oak_leaves"
     }
   },
   "result": {

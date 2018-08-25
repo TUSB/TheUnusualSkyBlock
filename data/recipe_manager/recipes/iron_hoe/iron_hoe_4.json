@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:quartz"
+      "item": "minecraft:jungle_door"
     },
     "#": {
-      "item": "minecraft:string"
+      "item": "minecraft:spruce_door"
     }
   },
   "result": {

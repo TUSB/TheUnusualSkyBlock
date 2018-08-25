@@ -2,16 +2,16 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_concrete"
+      "item": "minecraft:dark_oak_button"
     },
     {
-      "item": "minecraft:golden_pickaxe"
+      "item": "minecraft:iron_axe"
     },
     {
-      "item": "minecraft:spider_eye"
+      "item": "minecraft:oak_log"
     },
     {
-      "item": "minecraft:writable_book"
+      "item": "minecraft:rabbit_stew"
     }
   ],
   "result": {

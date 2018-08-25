@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:melon_seeds"
+      "item": "minecraft:light_blue_glazed_terracotta"
     }
   ],
   "result": {

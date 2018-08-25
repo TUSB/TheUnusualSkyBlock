@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:glass_pane"
+      "item": "minecraft:diamond_axe"
     },
     {
-      "item": "minecraft:tube_coral_block"
+      "item": "minecraft:large_fern"
     }
   ],
   "result": {

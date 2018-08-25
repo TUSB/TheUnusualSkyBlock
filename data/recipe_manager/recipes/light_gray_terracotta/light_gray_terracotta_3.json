@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_sapling"
+      "item": "minecraft:jungle_planks"
     },
     "X": {
-      "item": "minecraft:infested_stone"
+      "item": "minecraft:red_shulker_box"
     }
   },
   "result": {

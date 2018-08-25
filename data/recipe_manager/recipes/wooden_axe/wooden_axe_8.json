@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:birch_slab"
+      "item": "minecraft:pink_concrete_powder"
     },
     "#": {
-      "item": "minecraft:petrified_oak_slab"
+      "item": "minecraft:stone_brick_stairs"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chipped_anvil"
+      "item": "minecraft:blue_bed"
     },
     "X": {
-      "item": "minecraft:gray_banner"
+      "item": "minecraft:grass_block"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_bed"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     },
     "|": {
-      "item": "minecraft:glass"
+      "item": "minecraft:jungle_slab"
     }
   },
   "result": {

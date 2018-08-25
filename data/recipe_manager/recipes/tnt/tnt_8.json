@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:infested_stone"
+      "item": "minecraft:anvil"
     },
     "#": {
-      "item": "minecraft:spruce_slab"
+      "item": "minecraft:polished_andesite"
     }
   },
   "result": {

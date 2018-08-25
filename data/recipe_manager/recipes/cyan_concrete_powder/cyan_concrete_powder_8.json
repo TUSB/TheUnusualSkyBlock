@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:book"
+      "item": "minecraft:beetroot_seeds"
     },
     {
-      "item": "minecraft:bread"
+      "item": "minecraft:brick_slab"
     },
     {
-      "item": "minecraft:bricks"
+      "item": "minecraft:cooked_salmon"
     },
     {
-      "item": "minecraft:filled_map"
+      "item": "minecraft:diamond_axe"
     },
     {
-      "item": "minecraft:golden_shovel"
+      "item": "minecraft:fermented_spider_eye"
     },
     {
-      "item": "minecraft:light_gray_wool"
+      "item": "minecraft:gold_block"
     },
     {
-      "item": "minecraft:player_head"
+      "item": "minecraft:magma_block"
     },
     {
-      "item": "minecraft:quartz_stairs"
+      "item": "minecraft:orange_bed"
     },
     {
-      "item": "minecraft:wheat_seeds"
+      "item": "minecraft:spruce_fence_gate"
     }
   ],
   "result": {

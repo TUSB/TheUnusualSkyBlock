@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:map"
+      "item": "minecraft:brown_shulker_box"
     },
     "X": {
-      "item": "minecraft:yellow_stained_glass_pane"
+      "item": "minecraft:snow_block"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:egg"
+      "item": "minecraft:birch_fence_gate"
     },
     "#": {
-      "item": "minecraft:red_mushroom_block"
+      "item": "minecraft:iron_horse_armor"
     }
   },
   "result": {

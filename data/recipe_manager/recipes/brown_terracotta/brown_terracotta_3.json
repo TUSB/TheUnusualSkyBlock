@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:rose_red"
+      "item": "minecraft:cyan_dye"
     },
     "X": {
-      "item": "minecraft:stone_hoe"
+      "item": "minecraft:iron_hoe"
     }
   },
   "result": {

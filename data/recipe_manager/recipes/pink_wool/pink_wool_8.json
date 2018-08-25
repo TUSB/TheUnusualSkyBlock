@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chorus_fruit"
+      "item": "minecraft:enchanting_table"
     },
     {
-      "item": "minecraft:white_bed"
+      "item": "minecraft:water_bucket"
     }
   ],
   "result": {

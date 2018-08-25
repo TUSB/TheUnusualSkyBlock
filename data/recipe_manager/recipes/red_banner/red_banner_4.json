@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_button"
+      "item": "minecraft:chiseled_red_sandstone"
     },
     "|": {
-      "item": "minecraft:tall_grass"
+      "item": "minecraft:purpur_block"
     }
   },
   "result": {

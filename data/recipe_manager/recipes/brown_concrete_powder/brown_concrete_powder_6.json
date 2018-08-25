@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:cooked_cod"
     },
     {
-      "item": "minecraft:brown_stained_glass_pane"
+      "item": "minecraft:cooked_rabbit"
     },
     {
-      "item": "minecraft:dark_oak_log"
+      "item": "minecraft:end_stone"
     },
     {
-      "item": "minecraft:green_concrete_powder"
+      "item": "minecraft:glass_pane"
     },
     {
-      "item": "minecraft:green_stained_glass"
+      "item": "minecraft:gray_dye"
     },
     {
-      "item": "minecraft:oak_pressure_plate"
+      "item": "minecraft:magenta_concrete_powder"
     },
     {
-      "item": "minecraft:prismarine_brick_stairs"
+      "item": "minecraft:smooth_stone"
     },
     {
-      "item": "minecraft:red_glazed_terracotta"
+      "item": "minecraft:snow"
     },
     {
-      "item": "minecraft:snow_block"
+      "item": "minecraft:stripped_dark_oak_wood"
     }
   ],
   "result": {

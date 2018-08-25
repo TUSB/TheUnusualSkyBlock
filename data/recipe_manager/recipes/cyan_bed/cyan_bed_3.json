@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_log"
+      "item": "minecraft:book"
     },
     "X": {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:dark_oak_planks"
     }
   },
   "result": {

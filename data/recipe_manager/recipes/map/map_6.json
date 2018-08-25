@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:pink_dye"
+      "item": "minecraft:blaze_rod"
     },
     "X": {
-      "item": "minecraft:stripped_birch_wood"
+      "item": "minecraft:wooden_shovel"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_wool"
+      "item": "minecraft:fishing_rod"
     },
     "|": {
-      "item": "minecraft:magenta_concrete"
+      "item": "minecraft:gray_stained_glass_pane"
     }
   },
   "result": {

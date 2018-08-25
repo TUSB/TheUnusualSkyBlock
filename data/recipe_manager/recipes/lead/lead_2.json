@@ -7,10 +7,10 @@
   ],
   "key": {
     "~": {
-      "item": "minecraft:cooked_beef"
+      "item": "minecraft:iron_bars"
     },
     "O": {
-      "item": "minecraft:dead_tube_coral_block"
+      "item": "minecraft:red_banner"
     }
   },
   "result": {

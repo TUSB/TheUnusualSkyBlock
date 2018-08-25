@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:redstone_lamp"
+      "item": "minecraft:grass_block"
     }
   ],
   "result": {

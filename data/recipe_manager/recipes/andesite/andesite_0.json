@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:enchanted_book"
+      "item": "minecraft:cyan_banner"
     },
     {
-      "item": "minecraft:red_tulip"
+      "item": "minecraft:granite"
     }
   ],
   "result": {

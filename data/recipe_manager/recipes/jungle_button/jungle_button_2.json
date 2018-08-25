@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:leather"
+      "item": "minecraft:chiseled_sandstone"
     }
   ],
   "result": {

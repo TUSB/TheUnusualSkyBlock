@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_carpet"
+      "item": "minecraft:carrot_on_a_stick"
     },
     {
-      "item": "minecraft:chorus_fruit"
+      "item": "minecraft:dragon_breath"
     },
     {
-      "item": "minecraft:light_gray_bed"
+      "item": "minecraft:granite"
     },
     {
-      "item": "minecraft:mushroom_stew"
+      "item": "minecraft:horn_coral_fan"
     },
     {
-      "item": "minecraft:nautilus_shell"
+      "item": "minecraft:iron_horse_armor"
     },
     {
-      "item": "minecraft:rotten_flesh"
+      "item": "minecraft:light_blue_shulker_box"
     },
     {
-      "item": "minecraft:snow"
+      "item": "minecraft:red_banner"
     },
     {
-      "item": "minecraft:stripped_birch_log"
+      "item": "minecraft:tube_coral_block"
     },
     {
-      "item": "minecraft:wooden_sword"
+      "item": "minecraft:yellow_stained_glass"
     }
   ],
   "result": {

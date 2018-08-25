@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:phantom_membrane"
+      "item": "minecraft:nether_wart_block"
     },
     "X": {
-      "item": "minecraft:tripwire_hook"
+      "item": "minecraft:rotten_flesh"
     }
   },
   "result": {

@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_wool"
+      "item": "minecraft:clock"
     },
     "X": {
-      "item": "minecraft:golden_axe"
+      "item": "minecraft:iron_chestplate"
     },
     "I": {
-      "item": "minecraft:orange_tulip"
+      "item": "minecraft:red_sandstone_slab"
     }
   },
   "result": {

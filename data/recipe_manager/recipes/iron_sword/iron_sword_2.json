@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond_chestplate"
+      "item": "minecraft:cracked_stone_bricks"
     },
     "#": {
-      "item": "minecraft:lime_concrete_powder"
+      "item": "minecraft:nether_quartz_ore"
     }
   },
   "result": {

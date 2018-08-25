@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:lime_concrete"
+      "item": "minecraft:gold_ore"
     },
     "#": {
-      "item": "minecraft:pink_stained_glass"
+      "item": "minecraft:green_terracotta"
     }
   },
   "result": {

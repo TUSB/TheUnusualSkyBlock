@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_carpet"
+      "item": "minecraft:chiseled_sandstone"
     },
     {
-      "item": "minecraft:golden_axe"
+      "item": "minecraft:rose_red"
     }
   ],
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:oak_planks"
+      "item": "minecraft:stripped_birch_wood"
     },
     {
-      "item": "minecraft:stone_sword"
+      "item": "minecraft:vine"
     }
   ],
   "result": {

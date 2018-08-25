@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:cactus"
+      "item": "minecraft:carrot"
     },
     "B": {
-      "item": "minecraft:lime_banner"
+      "item": "minecraft:glowstone"
     }
   },
   "result": {

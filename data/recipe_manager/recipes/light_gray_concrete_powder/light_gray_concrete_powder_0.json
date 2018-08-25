@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_banner"
+      "item": "minecraft:dark_oak_stairs"
     },
     {
-      "item": "minecraft:dark_oak_fence"
+      "item": "minecraft:dark_prismarine_stairs"
     },
     {
-      "item": "minecraft:dark_oak_trapdoor"
-    },
-    {
-      "item": "minecraft:dead_fire_coral_fan"
-    },
-    {
-      "item": "minecraft:light_blue_shulker_box"
-    },
-    {
-      "item": "minecraft:light_blue_wool"
-    },
-    {
-      "item": "minecraft:light_gray_banner"
+      "item": "minecraft:ender_eye"
     },
     {
       "item": "minecraft:milk_bucket"
     },
     {
-      "item": "minecraft:purpur_stairs"
+      "item": "minecraft:orange_banner"
+    },
+    {
+      "item": "minecraft:red_sandstone"
+    },
+    {
+      "item": "minecraft:red_stained_glass"
+    },
+    {
+      "item": "minecraft:red_tulip"
+    },
+    {
+      "item": "minecraft:stone_sword"
     }
   ],
   "result": {

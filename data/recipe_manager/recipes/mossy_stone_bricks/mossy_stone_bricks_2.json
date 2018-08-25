@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:horn_coral_block"
+      "item": "minecraft:beacon"
     },
     {
-      "item": "minecraft:purpur_pillar"
+      "item": "minecraft:spectral_arrow"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:flower_pot"
+      "item": "minecraft:minecart"
     },
     "X": {
-      "item": "minecraft:saddle"
+      "item": "minecraft:purpur_slab"
     }
   },
   "result": {

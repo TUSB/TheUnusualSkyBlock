@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:purple_carpet"
+      "item": "minecraft:coal_ore"
     },
     "X": {
-      "item": "minecraft:stripped_oak_wood"
+      "item": "minecraft:tall_grass"
     }
   },
   "result": {

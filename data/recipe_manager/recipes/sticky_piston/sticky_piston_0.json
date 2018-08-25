@@ -6,10 +6,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:chest_minecart"
+      "item": "minecraft:dropper"
     },
     "P": {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:golden_apple"
     }
   },
   "result": {

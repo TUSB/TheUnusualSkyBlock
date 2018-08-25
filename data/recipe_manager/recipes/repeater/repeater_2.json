@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:ender_pearl"
+      "item": "minecraft:flower_pot"
     },
     "X": {
-      "item": "minecraft:kelp"
+      "item": "minecraft:light_weighted_pressure_plate"
     },
     "I": {
-      "item": "minecraft:turtle_egg"
+      "item": "minecraft:tripwire_hook"
     }
   },
   "result": {

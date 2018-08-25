@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_stairs"
+      "item": "minecraft:gray_carpet"
     },
     {
-      "item": "minecraft:orange_bed"
+      "item": "minecraft:white_tulip"
     }
   ],
   "result": {

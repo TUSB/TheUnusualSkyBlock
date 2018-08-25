@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:fire_coral"
+      "item": "minecraft:cookie"
     },
     "X": {
-      "item": "minecraft:jungle_planks"
+      "item": "minecraft:purpur_stairs"
     },
     "I": {
-      "item": "minecraft:prismarine_brick_slab"
+      "item": "minecraft:sandstone_slab"
     }
   },
   "result": {

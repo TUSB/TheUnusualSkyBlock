@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brown_bed"
+      "item": "minecraft:gray_concrete_powder"
     },
     "#": {
-      "item": "minecraft:purple_carpet"
+      "item": "minecraft:skeleton_skull"
     }
   },
   "result": {

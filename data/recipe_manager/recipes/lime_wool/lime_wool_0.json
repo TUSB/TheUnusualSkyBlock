@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:infested_cracked_stone_bricks"
+      "item": "minecraft:magenta_concrete_powder"
     },
     {
-      "item": "minecraft:lapis_ore"
+      "item": "minecraft:white_carpet"
     }
   ],
   "result": {

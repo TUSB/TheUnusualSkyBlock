@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:coal_ore"
+      "item": "minecraft:dark_oak_boat"
     },
     "#": {
-      "item": "minecraft:gray_stained_glass_pane"
+      "item": "minecraft:rose_red"
     }
   },
   "result": {

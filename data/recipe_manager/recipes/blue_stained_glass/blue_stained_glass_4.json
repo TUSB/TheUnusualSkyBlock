@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dirt"
+      "item": "minecraft:leather_chestplate"
     },
     "X": {
-      "item": "minecraft:red_terracotta"
+      "item": "minecraft:quartz_block"
     }
   },
   "result": {

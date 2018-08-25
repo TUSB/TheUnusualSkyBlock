@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:golden_sword"
+      "item": "minecraft:light_gray_bed"
     },
     "|": {
-      "item": "minecraft:infested_stone_bricks"
+      "item": "minecraft:purple_dye"
     }
   },
   "result": {

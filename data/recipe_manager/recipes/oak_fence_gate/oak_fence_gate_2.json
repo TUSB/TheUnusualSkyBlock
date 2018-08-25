@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:redstone"
+      "item": "minecraft:magenta_wool"
     },
     "W": {
-      "item": "minecraft:sea_pickle"
+      "item": "minecraft:nether_quartz_ore"
     }
   },
   "result": {

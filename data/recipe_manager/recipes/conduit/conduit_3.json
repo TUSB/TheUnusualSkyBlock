@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dragon_head"
+      "item": "minecraft:arrow"
     },
     "X": {
-      "item": "minecraft:green_carpet"
+      "item": "minecraft:spruce_fence_gate"
     }
   },
   "result": {

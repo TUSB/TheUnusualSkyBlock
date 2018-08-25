@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:orange_banner"
+      "item": "minecraft:cyan_carpet"
     },
     {
-      "item": "minecraft:terracotta"
+      "item": "minecraft:dark_oak_stairs"
     }
   ],
   "result": {

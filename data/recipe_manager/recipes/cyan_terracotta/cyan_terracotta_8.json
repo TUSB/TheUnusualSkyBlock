@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bone"
+      "item": "minecraft:light_blue_wool"
     },
     "X": {
-      "item": "minecraft:smooth_stone"
+      "item": "minecraft:yellow_wool"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:poppy"
+      "item": "minecraft:chiseled_red_sandstone"
     },
     "X": {
-      "item": "minecraft:purpur_pillar"
+      "item": "minecraft:lime_terracotta"
     }
   },
   "result": {

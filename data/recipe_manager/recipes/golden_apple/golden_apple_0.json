@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_button"
+      "item": "minecraft:jungle_log"
     },
     "X": {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:rotten_flesh"
     }
   },
   "result": {

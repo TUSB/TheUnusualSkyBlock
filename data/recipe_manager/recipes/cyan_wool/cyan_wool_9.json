@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:fire_coral"
+      "item": "minecraft:comparator"
     },
     {
-      "item": "minecraft:jungle_log"
+      "item": "minecraft:light_gray_glazed_terracotta"
     }
   ],
   "result": {

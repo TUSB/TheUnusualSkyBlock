@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:magenta_concrete"
+      "item": "minecraft:acacia_wood"
     },
     "#": {
-      "item": "minecraft:pink_stained_glass_pane"
+      "item": "minecraft:quartz_block"
     }
   },
   "result": {

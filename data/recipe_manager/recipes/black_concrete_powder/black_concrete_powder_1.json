@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bone"
+      "item": "minecraft:bone_meal"
     },
     {
-      "item": "minecraft:brown_shulker_box"
+      "item": "minecraft:feather"
     },
     {
-      "item": "minecraft:dead_fire_coral_block"
+      "item": "minecraft:filled_map"
     },
     {
-      "item": "minecraft:green_concrete"
+      "item": "minecraft:green_stained_glass"
     },
     {
-      "item": "minecraft:ladder"
+      "item": "minecraft:horn_coral"
     },
     {
-      "item": "minecraft:light_gray_banner"
+      "item": "minecraft:light_gray_wool"
     },
     {
-      "item": "minecraft:magma_cream"
+      "item": "minecraft:melon"
     },
     {
-      "item": "minecraft:prismarine_slab"
+      "item": "minecraft:pink_tulip"
     },
     {
-      "item": "minecraft:tube_coral_block"
+      "item": "minecraft:spectral_arrow"
     }
   ],
   "result": {

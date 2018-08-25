@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_wood"
+      "item": "minecraft:chainmail_chestplate"
     },
     "#": {
-      "item": "minecraft:nether_wart"
+      "item": "minecraft:orange_stained_glass_pane"
     }
   },
   "result": {

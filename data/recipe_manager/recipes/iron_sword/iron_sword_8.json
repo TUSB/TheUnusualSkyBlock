@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:glowstone"
+      "item": "minecraft:cooked_rabbit"
     },
     "#": {
-      "item": "minecraft:quartz_slab"
+      "item": "minecraft:gravel"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:hopper"
+      "item": "minecraft:birch_leaves"
     },
     "X": {
-      "item": "minecraft:oak_sapling"
+      "item": "minecraft:purple_dye"
     }
   },
   "result": {

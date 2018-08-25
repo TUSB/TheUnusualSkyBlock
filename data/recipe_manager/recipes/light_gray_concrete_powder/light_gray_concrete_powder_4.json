@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_concrete"
+      "item": "minecraft:beetroot"
     },
     {
-      "item": "minecraft:cyan_carpet"
+      "item": "minecraft:blaze_rod"
     },
     {
-      "item": "minecraft:dead_fire_coral_block"
+      "item": "minecraft:chorus_fruit"
     },
     {
-      "item": "minecraft:jungle_sapling"
+      "item": "minecraft:cooked_cod"
     },
     {
-      "item": "minecraft:lead"
+      "item": "minecraft:damaged_anvil"
     },
     {
-      "item": "minecraft:melon_slice"
+      "item": "minecraft:dark_prismarine_slab"
     },
     {
-      "item": "minecraft:orange_tulip"
+      "item": "minecraft:grass_block"
     },
     {
-      "item": "minecraft:purpur_slab"
+      "item": "minecraft:stripped_acacia_log"
     },
     {
-      "item": "minecraft:quartz_pillar"
+      "item": "minecraft:vine"
     }
   ],
   "result": {

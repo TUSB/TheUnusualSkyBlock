@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:book"
+      "item": "minecraft:ghast_tear"
     },
     "#": {
-      "item": "minecraft:white_concrete_powder"
+      "item": "minecraft:green_wool"
     }
   },
   "result": {

@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:yellow_wool"
+      "item": "minecraft:ice"
     }
   ],
   "result": {

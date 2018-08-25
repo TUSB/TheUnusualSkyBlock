@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:iron_nugget"
+      "item": "minecraft:andesite"
     },
     {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:cooked_mutton"
     }
   ],
   "result": {

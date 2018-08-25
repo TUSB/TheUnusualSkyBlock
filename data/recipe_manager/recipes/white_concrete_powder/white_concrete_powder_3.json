@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_door"
+      "item": "minecraft:birch_fence"
     },
     {
-      "item": "minecraft:black_stained_glass"
+      "item": "minecraft:birch_slab"
     },
     {
-      "item": "minecraft:cyan_banner"
+      "item": "minecraft:brown_shulker_box"
     },
     {
-      "item": "minecraft:lime_carpet"
+      "item": "minecraft:clock"
     },
     {
-      "item": "minecraft:pink_wool"
+      "item": "minecraft:flower_pot"
     },
     {
-      "item": "minecraft:red_shulker_box"
+      "item": "minecraft:magenta_concrete"
+    },
+    {
+      "item": "minecraft:rabbit_stew"
     },
     {
       "item": "minecraft:shears"
     },
     {
-      "item": "minecraft:white_glazed_terracotta"
-    },
-    {
-      "item": "minecraft:yellow_terracotta"
+      "item": "minecraft:wooden_hoe"
     }
   ],
   "result": {

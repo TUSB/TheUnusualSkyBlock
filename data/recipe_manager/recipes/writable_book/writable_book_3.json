@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:light_gray_shulker_box"
+      "item": "minecraft:blue_carpet"
     },
     {
-      "item": "minecraft:obsidian"
+      "item": "minecraft:redstone_ore"
     },
     {
-      "item": "minecraft:purple_stained_glass"
+      "item": "minecraft:yellow_concrete_powder"
     }
   ],
   "result": {

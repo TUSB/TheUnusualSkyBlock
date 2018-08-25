@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_wood"
+      "item": "minecraft:acacia_trapdoor"
     },
     {
-      "item": "minecraft:allium"
+      "item": "minecraft:activator_rail"
     },
     {
-      "item": "minecraft:beetroot_soup"
+      "item": "minecraft:brown_concrete"
     },
     {
-      "item": "minecraft:brown_mushroom"
+      "item": "minecraft:chiseled_sandstone"
     },
     {
-      "item": "minecraft:granite"
+      "item": "minecraft:dark_oak_wood"
     },
     {
-      "item": "minecraft:lilac"
+      "item": "minecraft:ender_eye"
     },
     {
-      "item": "minecraft:note_block"
+      "item": "minecraft:light_blue_stained_glass_pane"
     },
     {
-      "item": "minecraft:prismarine_brick_slab"
+      "item": "minecraft:snow"
     },
     {
-      "item": "minecraft:shulker_shell"
+      "item": "minecraft:soul_sand"
     }
   ],
   "result": {

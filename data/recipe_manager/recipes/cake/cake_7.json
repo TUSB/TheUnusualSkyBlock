@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:brown_wool"
+      "item": "minecraft:acacia_boat"
     },
     "B": {
-      "item": "minecraft:dark_oak_sapling"
+      "item": "minecraft:acacia_stairs"
     },
     "E": {
-      "item": "minecraft:fire_coral_fan"
+      "item": "minecraft:blaze_powder"
     },
     "C": {
-      "item": "minecraft:soul_sand"
+      "item": "minecraft:light_blue_dye"
     }
   },
   "result": {

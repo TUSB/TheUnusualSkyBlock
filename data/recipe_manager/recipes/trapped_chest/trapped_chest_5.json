@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:pink_stained_glass_pane"
+      "item": "minecraft:shulker_box"
     },
     {
-      "item": "minecraft:sandstone"
+      "item": "minecraft:white_tulip"
     }
   ],
   "result": {

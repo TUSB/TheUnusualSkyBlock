@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:stone_button"
+      "item": "minecraft:emerald"
     },
     "R": {
-      "item": "minecraft:stone_slab"
+      "item": "minecraft:wooden_hoe"
     }
   },
   "result": {

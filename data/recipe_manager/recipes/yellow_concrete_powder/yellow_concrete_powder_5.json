@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_fence_gate"
+      "item": "minecraft:acacia_boat"
     },
     {
-      "item": "minecraft:bone_block"
+      "item": "minecraft:coarse_dirt"
     },
     {
-      "item": "minecraft:brown_mushroom"
+      "item": "minecraft:cod_bucket"
     },
     {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:dead_fire_coral_fan"
     },
     {
-      "item": "minecraft:cyan_concrete"
+      "item": "minecraft:iron_bars"
     },
     {
-      "item": "minecraft:iron_axe"
+      "item": "minecraft:orange_stained_glass"
     },
     {
-      "item": "minecraft:magenta_concrete"
+      "item": "minecraft:rabbit"
     },
     {
-      "item": "minecraft:shulker_shell"
+      "item": "minecraft:shears"
     },
     {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:tube_coral"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_wool"
+      "item": "minecraft:dead_tube_coral_block"
     },
     "X": {
-      "item": "minecraft:bowl"
+      "item": "minecraft:dead_tube_coral_fan"
     }
   },
   "result": {

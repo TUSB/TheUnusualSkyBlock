@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dirt"
+      "item": "minecraft:diorite"
     },
     "X": {
-      "item": "minecraft:wooden_sword"
+      "item": "minecraft:lime_banner"
     }
   },
   "result": {

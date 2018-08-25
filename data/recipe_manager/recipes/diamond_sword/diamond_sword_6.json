@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:iron_shovel"
+      "item": "minecraft:brain_coral_block"
     },
     "#": {
-      "item": "minecraft:prismarine_bricks"
+      "item": "minecraft:orange_wool"
     }
   },
   "result": {

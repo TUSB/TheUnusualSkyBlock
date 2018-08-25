@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:glowstone"
+      "item": "minecraft:fire_coral_fan"
     },
     "C": {
-      "item": "minecraft:oak_slab"
+      "item": "minecraft:packed_ice"
     }
   },
   "result": {

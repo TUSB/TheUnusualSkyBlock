@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lime_banner"
+      "item": "minecraft:scute"
     },
     {
-      "item": "minecraft:stone_shovel"
+      "item": "minecraft:smooth_quartz"
     }
   ],
   "result": {

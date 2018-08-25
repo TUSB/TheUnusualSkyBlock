@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_concrete_powder"
+      "item": "minecraft:birch_door"
     },
     "#": {
-      "item": "minecraft:quartz_stairs"
+      "item": "minecraft:splash_potion"
     }
   },
   "result": {

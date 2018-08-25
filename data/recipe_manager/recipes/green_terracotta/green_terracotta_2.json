@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_hoe"
+      "item": "minecraft:light_gray_terracotta"
     },
     "X": {
-      "item": "minecraft:spruce_slab"
+      "item": "minecraft:white_stained_glass"
     }
   },
   "result": {

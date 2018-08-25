@@ -7,16 +7,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:pink_concrete_powder"
+      "item": "minecraft:bone_block"
     },
     "#": {
-      "item": "minecraft:slime_block"
+      "item": "minecraft:magenta_dye"
     },
     "X": {
-      "item": "minecraft:sticky_piston"
+      "item": "minecraft:white_stained_glass"
     },
     "R": {
-      "item": "minecraft:stripped_acacia_wood"
+      "item": "minecraft:yellow_banner"
     }
   },
   "result": {

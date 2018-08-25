@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:activator_rail"
+      "item": "minecraft:beef"
     },
     {
-      "item": "minecraft:blue_carpet"
+      "item": "minecraft:blaze_powder"
     },
     {
-      "item": "minecraft:dragon_breath"
+      "item": "minecraft:blue_stained_glass"
     },
     {
-      "item": "minecraft:granite"
+      "item": "minecraft:cauldron"
     },
     {
-      "item": "minecraft:green_wool"
+      "item": "minecraft:dandelion"
     },
     {
-      "item": "minecraft:light_blue_terracotta"
+      "item": "minecraft:glowstone_dust"
     },
     {
-      "item": "minecraft:purpur_stairs"
+      "item": "minecraft:red_wool"
     },
     {
-      "item": "minecraft:rose_bush"
+      "item": "minecraft:spider_eye"
     },
     {
-      "item": "minecraft:white_tulip"
+      "item": "minecraft:writable_book"
     }
   ],
   "result": {

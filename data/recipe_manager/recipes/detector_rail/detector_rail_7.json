@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:leather"
+      "item": "minecraft:green_carpet"
     },
     "#": {
-      "item": "minecraft:phantom_membrane"
+      "item": "minecraft:prismarine_crystals"
     },
     "R": {
-      "item": "minecraft:sandstone"
+      "item": "minecraft:rabbit_stew"
     }
   },
   "result": {

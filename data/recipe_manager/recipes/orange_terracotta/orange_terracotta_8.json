@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_slab"
+      "item": "minecraft:brown_mushroom_block"
     },
     "X": {
-      "item": "minecraft:iron_trapdoor"
+      "item": "minecraft:diamond_hoe"
     }
   },
   "result": {

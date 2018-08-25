@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_carpet"
+      "item": "minecraft:cyan_dye"
     },
     {
-      "item": "minecraft:emerald_ore"
+      "item": "minecraft:dark_oak_planks"
     },
     {
-      "item": "minecraft:ender_eye"
+      "item": "minecraft:dried_kelp"
     },
     {
-      "item": "minecraft:infested_chiseled_stone_bricks"
+      "item": "minecraft:glistering_melon_slice"
     },
     {
-      "item": "minecraft:jungle_leaves"
+      "item": "minecraft:iron_hoe"
     },
     {
-      "item": "minecraft:light_gray_dye"
+      "item": "minecraft:lime_concrete_powder"
     },
     {
-      "item": "minecraft:oak_trapdoor"
+      "item": "minecraft:orange_concrete"
     },
     {
-      "item": "minecraft:red_sandstone_stairs"
+      "item": "minecraft:poisonous_potato"
     },
     {
-      "item": "minecraft:rotten_flesh"
+      "item": "minecraft:red_terracotta"
     }
   ],
   "result": {

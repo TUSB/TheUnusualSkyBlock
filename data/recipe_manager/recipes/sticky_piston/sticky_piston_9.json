@@ -6,10 +6,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:blue_terracotta"
+      "item": "minecraft:leather_leggings"
     },
     "P": {
-      "item": "minecraft:redstone_lamp"
+      "item": "minecraft:orange_wool"
     }
   },
   "result": {

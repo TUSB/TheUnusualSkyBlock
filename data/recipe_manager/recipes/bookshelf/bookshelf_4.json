@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_sandstone_slab"
+      "item": "minecraft:acacia_stairs"
     },
     "X": {
-      "item": "minecraft:stripped_jungle_wood"
+      "item": "minecraft:brown_shulker_box"
     }
   },
   "result": {

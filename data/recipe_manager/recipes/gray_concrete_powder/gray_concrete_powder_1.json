@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_sapling"
+      "item": "minecraft:acacia_pressure_plate"
     },
     {
-      "item": "minecraft:acacia_slab"
+      "item": "minecraft:acacia_trapdoor"
     },
     {
-      "item": "minecraft:black_concrete"
+      "item": "minecraft:cobweb"
     },
     {
-      "item": "minecraft:glass"
+      "item": "minecraft:golden_chestplate"
     },
     {
-      "item": "minecraft:gray_concrete"
+      "item": "minecraft:green_terracotta"
     },
     {
-      "item": "minecraft:jungle_button"
+      "item": "minecraft:minecart"
     },
     {
-      "item": "minecraft:lilac"
+      "item": "minecraft:mushroom_stew"
     },
     {
-      "item": "minecraft:lime_bed"
+      "item": "minecraft:prismarine_brick_stairs"
     },
     {
-      "item": "minecraft:turtle_helmet"
+      "item": "minecraft:spruce_slab"
     }
   ],
   "result": {

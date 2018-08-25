@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:stripped_acacia_wood"
+      "item": "minecraft:anvil"
     },
     "X": {
-      "item": "minecraft:white_stained_glass_pane"
+      "item": "minecraft:birch_fence"
     }
   },
   "result": {

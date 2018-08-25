@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:blue_ice"
     },
     {
-      "item": "minecraft:chorus_plant"
+      "item": "minecraft:diamond_helmet"
     },
     {
-      "item": "minecraft:diamond_hoe"
+      "item": "minecraft:orange_concrete"
     },
     {
-      "item": "minecraft:diamond_leggings"
+      "item": "minecraft:oxeye_daisy"
     },
     {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:potato"
     },
     {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:spruce_leaves"
     },
     {
-      "item": "minecraft:packed_ice"
+      "item": "minecraft:stripped_oak_wood"
     },
     {
-      "item": "minecraft:smooth_quartz"
+      "item": "minecraft:vine"
     },
     {
-      "item": "minecraft:white_tulip"
+      "item": "minecraft:yellow_terracotta"
     }
   ],
   "result": {

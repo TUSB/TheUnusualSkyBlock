@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:red_stained_glass_pane"
+      "item": "minecraft:dead_brain_coral_block"
     },
     {
-      "item": "minecraft:redstone"
+      "item": "minecraft:redstone_ore"
     }
   ],
   "result": {

@@ -7,16 +7,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:magenta_terracotta"
+      "item": "minecraft:beetroot_soup"
     },
     "#": {
-      "item": "minecraft:oxeye_daisy"
+      "item": "minecraft:lapis_ore"
     },
     "X": {
-      "item": "minecraft:pink_banner"
+      "item": "minecraft:oak_wood"
     },
     "R": {
-      "item": "minecraft:white_stained_glass_pane"
+      "item": "minecraft:pink_terracotta"
     }
   },
   "result": {

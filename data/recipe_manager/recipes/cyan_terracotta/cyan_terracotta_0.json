@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:fern"
+      "item": "minecraft:dandelion"
     },
     "X": {
-      "item": "minecraft:prismarine_brick_slab"
+      "item": "minecraft:yellow_bed"
     }
   },
   "result": {

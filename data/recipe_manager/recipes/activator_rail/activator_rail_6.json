@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cooked_porkchop"
+      "item": "minecraft:lime_concrete"
     },
     "S": {
-      "item": "minecraft:grass"
+      "item": "minecraft:rose_bush"
     },
     "#": {
-      "item": "minecraft:jungle_button"
+      "item": "minecraft:zombie_head"
     }
   },
   "result": {

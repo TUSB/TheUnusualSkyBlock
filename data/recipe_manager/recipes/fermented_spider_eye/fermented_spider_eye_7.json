@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:glistering_melon_slice"
+      "item": "minecraft:birch_boat"
     },
     {
-      "item": "minecraft:pink_wool"
+      "item": "minecraft:birch_fence"
     },
     {
-      "item": "minecraft:poppy"
+      "item": "minecraft:tube_coral_block"
     }
   ],
   "result": {

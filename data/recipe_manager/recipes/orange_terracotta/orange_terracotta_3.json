@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_wood"
+      "item": "minecraft:brick_stairs"
     },
     "X": {
-      "item": "minecraft:shulker_shell"
+      "item": "minecraft:stripped_dark_oak_wood"
     }
   },
   "result": {

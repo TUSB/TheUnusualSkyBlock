@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:furnace"
+      "item": "minecraft:orange_tulip"
     },
     {
-      "item": "minecraft:pumpkin_seeds"
+      "item": "minecraft:spruce_planks"
     }
   ],
   "result": {

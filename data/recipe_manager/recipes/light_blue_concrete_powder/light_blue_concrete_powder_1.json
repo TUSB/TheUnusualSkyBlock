@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_stained_glass_pane"
+      "item": "minecraft:cocoa_beans"
     },
     {
-      "item": "minecraft:brown_mushroom"
+      "item": "minecraft:golden_chestplate"
     },
     {
-      "item": "minecraft:cooked_chicken"
+      "item": "minecraft:light_blue_wool"
     },
     {
-      "item": "minecraft:diamond_helmet"
+      "item": "minecraft:nether_brick_stairs"
     },
     {
-      "item": "minecraft:emerald"
+      "item": "minecraft:oak_trapdoor"
     },
     {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:pink_tulip"
     },
     {
-      "item": "minecraft:pumpkin_pie"
+      "item": "minecraft:player_head"
     },
     {
-      "item": "minecraft:purple_stained_glass"
+      "item": "minecraft:pufferfish"
     },
     {
-      "item": "minecraft:stripped_oak_wood"
+      "item": "minecraft:purple_dye"
     }
   ],
   "result": {

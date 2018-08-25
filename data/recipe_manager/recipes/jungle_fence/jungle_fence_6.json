@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:iron_axe"
+      "item": "minecraft:prismarine_brick_slab"
     },
     "#": {
-      "item": "minecraft:rabbit_hide"
+      "item": "minecraft:rail"
     }
   },
   "result": {

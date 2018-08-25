@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bone"
+      "item": "minecraft:anvil"
     },
     "X": {
-      "item": "minecraft:spruce_button"
+      "item": "minecraft:tipped_arrow"
     }
   },
   "result": {

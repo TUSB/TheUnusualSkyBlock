@@ -6,10 +6,10 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:blue_carpet"
+      "item": "minecraft:diamond_helmet"
     },
     "#": {
-      "item": "minecraft:redstone"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     }
   },
   "result": {

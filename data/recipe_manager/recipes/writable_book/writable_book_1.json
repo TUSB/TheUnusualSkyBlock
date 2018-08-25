@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_concrete_powder"
+      "item": "minecraft:dried_kelp"
     },
     {
-      "item": "minecraft:cyan_concrete"
+      "item": "minecraft:filled_map"
     },
     {
-      "item": "minecraft:dead_bubble_coral_block"
+      "item": "minecraft:jungle_fence"
     }
   ],
   "result": {

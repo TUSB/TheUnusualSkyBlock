@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_glazed_terracotta"
+      "item": "minecraft:nether_wart_block"
     },
     {
-      "item": "minecraft:white_tulip"
+      "item": "minecraft:white_stained_glass_pane"
     }
   ],
   "result": {

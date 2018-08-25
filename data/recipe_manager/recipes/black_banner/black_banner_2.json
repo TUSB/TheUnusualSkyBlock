@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bone_block"
+      "item": "minecraft:dark_oak_wood"
     },
     "|": {
-      "item": "minecraft:pink_tulip"
+      "item": "minecraft:dispenser"
     }
   },
   "result": {

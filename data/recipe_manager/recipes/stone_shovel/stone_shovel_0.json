@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:chainmail_leggings"
+      "item": "minecraft:brown_mushroom_block"
     },
     "#": {
-      "item": "minecraft:salmon_bucket"
+      "item": "minecraft:stone_button"
     }
   },
   "result": {

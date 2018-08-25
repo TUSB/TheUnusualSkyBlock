@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:bricks"
+      "item": "minecraft:enchanted_book"
     },
     "#": {
-      "item": "minecraft:golden_helmet"
+      "item": "minecraft:stone"
     }
   },
   "result": {

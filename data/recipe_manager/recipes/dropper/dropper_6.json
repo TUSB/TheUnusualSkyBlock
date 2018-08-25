@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:daylight_detector"
     },
     "R": {
-      "item": "minecraft:yellow_bed"
+      "item": "minecraft:stripped_acacia_wood"
     }
   },
   "result": {

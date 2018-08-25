@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:armor_stand"
+      "item": "minecraft:brown_concrete"
     },
     "#": {
-      "item": "minecraft:pink_dye"
+      "item": "minecraft:golden_hoe"
     }
   },
   "result": {

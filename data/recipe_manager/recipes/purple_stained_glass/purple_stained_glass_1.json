@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chiseled_sandstone"
+      "item": "minecraft:birch_pressure_plate"
     },
     "X": {
-      "item": "minecraft:written_book"
+      "item": "minecraft:lingering_potion"
     }
   },
   "result": {

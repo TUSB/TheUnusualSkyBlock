@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:pumpkin_seeds"
+      "item": "minecraft:lead"
     },
     "#": {
-      "item": "minecraft:rotten_flesh"
+      "item": "minecraft:turtle_egg"
     }
   },
   "result": {

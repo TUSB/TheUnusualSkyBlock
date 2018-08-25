@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:infested_cracked_stone_bricks"
+      "item": "minecraft:diamond"
     },
     "X": {
-      "item": "minecraft:shulker_box"
+      "item": "minecraft:stripped_oak_log"
     }
   },
   "result": {

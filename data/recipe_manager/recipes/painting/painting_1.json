@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_log"
+      "item": "minecraft:diamond_chestplate"
     },
     "X": {
-      "item": "minecraft:stone"
+      "item": "minecraft:light_gray_concrete"
     }
   },
   "result": {

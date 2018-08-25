@@ -7,13 +7,13 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:lime_dye"
+      "item": "minecraft:green_concrete"
     },
     "S": {
-      "item": "minecraft:prismarine_crystals"
+      "item": "minecraft:wheat_seeds"
     },
     "#": {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "item": "minecraft:zombie_head"
     }
   },
   "result": {

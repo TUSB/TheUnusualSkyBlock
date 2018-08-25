@@ -2,16 +2,16 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:light_gray_stained_glass"
+      "item": "minecraft:cod_bucket"
     },
     {
-      "item": "minecraft:purpur_stairs"
+      "item": "minecraft:dead_bubble_coral_fan"
     },
     {
-      "item": "minecraft:stone_button"
+      "item": "minecraft:gray_terracotta"
     },
     {
-      "item": "minecraft:yellow_glazed_terracotta"
+      "item": "minecraft:red_shulker_box"
     }
   ],
   "result": {

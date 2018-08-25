@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:oak_boat"
+      "item": "minecraft:dead_tube_coral_block"
     },
     "#": {
-      "item": "minecraft:tube_coral"
+      "item": "minecraft:feather"
     }
   },
   "result": {

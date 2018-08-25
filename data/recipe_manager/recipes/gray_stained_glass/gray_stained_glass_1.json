@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_pressure_plate"
+      "item": "minecraft:birch_wood"
     },
     "X": {
-      "item": "minecraft:cyan_concrete_powder"
+      "item": "minecraft:lead"
     }
   },
   "result": {

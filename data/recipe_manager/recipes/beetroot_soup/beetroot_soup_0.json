@@ -7,10 +7,10 @@
   ],
   "key": {
     "O": {
-      "item": "minecraft:cooked_mutton"
+      "item": "minecraft:diamond_pickaxe"
     },
     "B": {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:stone_slab"
     }
   },
   "result": {

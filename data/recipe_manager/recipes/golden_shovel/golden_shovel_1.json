@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:oak_leaves"
+      "item": "minecraft:dandelion_yellow"
     },
     "#": {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:golden_helmet"
     }
   },
   "result": {

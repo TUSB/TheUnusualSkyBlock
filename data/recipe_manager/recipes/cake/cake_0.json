@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:grass_path"
+      "item": "minecraft:blue_wool"
     },
     "B": {
-      "item": "minecraft:green_bed"
+      "item": "minecraft:iron_horse_armor"
     },
     "E": {
-      "item": "minecraft:red_mushroom"
+      "item": "minecraft:nether_brick_slab"
     },
     "C": {
-      "item": "minecraft:spruce_pressure_plate"
+      "item": "minecraft:prismarine"
     }
   },
   "result": {

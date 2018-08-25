@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lapis_ore"
+      "item": "minecraft:nether_wart_block"
     },
     "|": {
-      "item": "minecraft:torch"
+      "item": "minecraft:pufferfish_bucket"
     }
   },
   "result": {

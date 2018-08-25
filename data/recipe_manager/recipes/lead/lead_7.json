@@ -7,10 +7,10 @@
   ],
   "key": {
     "~": {
-      "item": "minecraft:end_crystal"
+      "item": "minecraft:cobblestone_slab"
     },
     "O": {
-      "item": "minecraft:gold_block"
+      "item": "minecraft:hay_block"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:lilac"
+      "item": "minecraft:carved_pumpkin"
     },
     "C": {
-      "item": "minecraft:oak_stairs"
+      "item": "minecraft:water_bucket"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bookshelf"
+      "item": "minecraft:cobblestone_slab"
     },
     {
-      "item": "minecraft:chorus_plant"
+      "item": "minecraft:damaged_anvil"
     },
     {
-      "item": "minecraft:dead_bubble_coral_fan"
+      "item": "minecraft:enchanted_book"
     },
     {
-      "item": "minecraft:diamond_horse_armor"
+      "item": "minecraft:lime_banner"
     },
     {
-      "item": "minecraft:heart_of_the_sea"
+      "item": "minecraft:magenta_shulker_box"
     },
     {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:nether_brick"
     },
     {
-      "item": "minecraft:pink_terracotta"
+      "item": "minecraft:orange_carpet"
     },
     {
-      "item": "minecraft:purple_concrete_powder"
+      "item": "minecraft:purple_banner"
     },
     {
-      "item": "minecraft:vine"
+      "item": "minecraft:spruce_sapling"
     }
   ],
   "result": {

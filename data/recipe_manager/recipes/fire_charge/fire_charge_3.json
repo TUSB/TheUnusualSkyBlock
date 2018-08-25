@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_pressure_plate"
+      "item": "minecraft:enchanting_table"
     },
     {
-      "item": "minecraft:pink_stained_glass_pane"
+      "item": "minecraft:yellow_bed"
     }
   ],
   "result": {

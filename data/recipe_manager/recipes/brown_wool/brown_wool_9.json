@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:enchanting_table"
+      "item": "minecraft:brain_coral_fan"
     },
     {
-      "item": "minecraft:end_stone_bricks"
+      "item": "minecraft:magenta_dye"
     }
   ],
   "result": {

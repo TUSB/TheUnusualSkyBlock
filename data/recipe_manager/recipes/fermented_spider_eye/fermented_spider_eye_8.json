@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brick"
+      "item": "minecraft:brain_coral_fan"
     },
     {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:horn_coral"
     },
     {
-      "item": "minecraft:snowball"
+      "item": "minecraft:stripped_acacia_wood"
     }
   ],
   "result": {

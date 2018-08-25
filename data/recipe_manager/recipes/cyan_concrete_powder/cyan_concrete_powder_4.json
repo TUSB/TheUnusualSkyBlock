@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_pressure_plate"
+      "item": "minecraft:acacia_slab"
     },
     {
-      "item": "minecraft:brain_coral_block"
+      "item": "minecraft:brewing_stand"
     },
     {
-      "item": "minecraft:cobblestone"
+      "item": "minecraft:dead_fire_coral_fan"
     },
     {
-      "item": "minecraft:feather"
+      "item": "minecraft:dispenser"
     },
     {
-      "item": "minecraft:golden_apple"
+      "item": "minecraft:emerald"
     },
     {
-      "item": "minecraft:nether_brick_stairs"
+      "item": "minecraft:purple_shulker_box"
     },
     {
-      "item": "minecraft:orange_terracotta"
+      "item": "minecraft:seagrass"
     },
     {
-      "item": "minecraft:red_terracotta"
+      "item": "minecraft:vine"
     },
     {
-      "item": "minecraft:yellow_concrete"
+      "item": "minecraft:white_tulip"
     }
   ],
   "result": {

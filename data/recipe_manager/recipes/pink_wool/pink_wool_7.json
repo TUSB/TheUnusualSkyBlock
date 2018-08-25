@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:anvil"
+      "item": "minecraft:apple"
     },
     {
-      "item": "minecraft:green_concrete_powder"
+      "item": "minecraft:diamond_axe"
     }
   ],
   "result": {

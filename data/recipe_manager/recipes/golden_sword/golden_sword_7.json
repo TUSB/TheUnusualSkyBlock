@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_oak_wood"
+      "item": "minecraft:carrot"
     },
     "#": {
-      "item": "minecraft:rabbit_foot"
+      "item": "minecraft:green_shulker_box"
     }
   },
   "result": {

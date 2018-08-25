@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:polished_granite"
+      "item": "minecraft:chorus_plant"
     },
     "B": {
-      "item": "minecraft:sugar_cane"
+      "item": "minecraft:cobblestone_slab"
     }
   },
   "result": {

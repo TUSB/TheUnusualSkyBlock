@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:coarse_dirt"
+      "item": "minecraft:beetroot_soup"
     },
     {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:iron_bars"
     },
     {
-      "item": "minecraft:rotten_flesh"
+      "item": "minecraft:smooth_sandstone"
     }
   ],
   "result": {

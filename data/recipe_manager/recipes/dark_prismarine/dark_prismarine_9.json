@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:shears"
+      "item": "minecraft:glass_bottle"
     },
     "I": {
-      "item": "minecraft:stone_slab"
+      "item": "minecraft:white_concrete_powder"
     }
   },
   "result": {

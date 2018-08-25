@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:green_terracotta"
+      "item": "minecraft:cactus_green"
     },
     "#": {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:orange_wool"
     }
   },
   "result": {

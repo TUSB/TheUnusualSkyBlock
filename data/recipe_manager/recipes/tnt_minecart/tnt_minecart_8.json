@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:rabbit_foot"
+      "item": "minecraft:light_gray_bed"
     },
     "B": {
-      "item": "minecraft:yellow_banner"
+      "item": "minecraft:sandstone_stairs"
     }
   },
   "result": {

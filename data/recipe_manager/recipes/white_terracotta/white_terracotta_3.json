@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:beef"
+      "item": "minecraft:diamond_horse_armor"
     },
     "X": {
-      "item": "minecraft:birch_trapdoor"
+      "item": "minecraft:stripped_oak_log"
     }
   },
   "result": {

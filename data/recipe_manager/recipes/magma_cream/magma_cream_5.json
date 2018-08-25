@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:leather_leggings"
     },
     {
-      "item": "minecraft:lime_terracotta"
+      "item": "minecraft:magma_cream"
     }
   ],
   "result": {

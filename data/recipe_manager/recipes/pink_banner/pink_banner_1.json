@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_stained_glass_pane"
+      "item": "minecraft:cyan_concrete"
     },
     "|": {
-      "item": "minecraft:spawner"
+      "item": "minecraft:farmland"
     }
   },
   "result": {

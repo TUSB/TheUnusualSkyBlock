@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:chiseled_sandstone"
+      "item": "minecraft:glowstone"
     },
     "#": {
-      "item": "minecraft:creeper_head"
+      "item": "minecraft:redstone_torch"
     }
   },
   "result": {

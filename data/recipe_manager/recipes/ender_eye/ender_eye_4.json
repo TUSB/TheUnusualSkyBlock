@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:jack_o_lantern"
+      "item": "minecraft:heart_of_the_sea"
     },
     {
-      "item": "minecraft:sugar"
+      "item": "minecraft:light_blue_carpet"
     }
   ],
   "result": {

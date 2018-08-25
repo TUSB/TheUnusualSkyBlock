@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:orange_carpet"
+      "item": "minecraft:melon_seeds"
     },
     "X": {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:spruce_button"
     }
   },
   "result": {

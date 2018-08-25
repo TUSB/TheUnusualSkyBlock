@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bone_meal"
+      "item": "minecraft:polished_diorite"
     },
     "E": {
-      "item": "minecraft:jungle_door"
+      "item": "minecraft:shulker_box"
     }
   },
   "result": {

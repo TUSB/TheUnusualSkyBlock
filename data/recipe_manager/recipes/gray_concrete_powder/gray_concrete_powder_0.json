@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_button"
+      "item": "minecraft:bubble_coral"
     },
     {
-      "item": "minecraft:dark_oak_fence_gate"
+      "item": "minecraft:carved_pumpkin"
     },
     {
-      "item": "minecraft:jungle_trapdoor"
+      "item": "minecraft:green_concrete"
     },
     {
-      "item": "minecraft:magenta_stained_glass"
+      "item": "minecraft:jungle_stairs"
     },
     {
-      "item": "minecraft:oak_leaves"
+      "item": "minecraft:light_gray_banner"
     },
     {
-      "item": "minecraft:oak_wood"
+      "item": "minecraft:light_gray_stained_glass_pane"
     },
     {
-      "item": "minecraft:purpur_pillar"
+      "item": "minecraft:prismarine_brick_slab"
     },
     {
-      "item": "minecraft:red_nether_bricks"
+      "item": "minecraft:prismarine_brick_stairs"
     },
     {
-      "item": "minecraft:red_wool"
+      "item": "minecraft:prismarine_bricks"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:apple"
+      "item": "minecraft:blue_concrete_powder"
     },
     "#": {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:yellow_wool"
     }
   },
   "result": {

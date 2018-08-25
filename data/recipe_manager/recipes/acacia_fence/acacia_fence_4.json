@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:birch_button"
+      "item": "minecraft:nether_quartz_ore"
     },
     "#": {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:red_carpet"
     }
   },
   "result": {

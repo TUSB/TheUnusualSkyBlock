@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_pressure_plate"
+      "item": "minecraft:acacia_trapdoor"
     },
     {
-      "item": "minecraft:black_stained_glass_pane"
+      "item": "minecraft:anvil"
     },
     {
-      "item": "minecraft:dark_oak_wood"
+      "item": "minecraft:blue_concrete_powder"
     },
     {
-      "item": "minecraft:dead_brain_coral_block"
+      "item": "minecraft:jungle_planks"
     },
     {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:lava_bucket"
     },
     {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:nether_brick_stairs"
     },
     {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:purple_concrete"
     },
     {
-      "item": "minecraft:rose_bush"
+      "item": "minecraft:red_sandstone_stairs"
     },
     {
-      "item": "minecraft:saddle"
+      "item": "minecraft:stick"
     }
   ],
   "result": {

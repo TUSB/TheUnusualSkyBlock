@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_log"
+      "item": "minecraft:iron_leggings"
     },
     {
-      "item": "minecraft:light_blue_terracotta"
+      "item": "minecraft:iron_sword"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_pressure_plate"
+      "item": "minecraft:light_blue_glazed_terracotta"
     },
     "|": {
-      "item": "minecraft:red_tulip"
+      "item": "minecraft:red_stained_glass_pane"
     }
   },
   "result": {

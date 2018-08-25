@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dragon_breath"
+      "item": "minecraft:charcoal"
     },
     "X": {
-      "item": "minecraft:snow"
+      "item": "minecraft:dark_oak_fence"
     }
   },
   "result": {

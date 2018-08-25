@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_leaves"
+      "item": "minecraft:orange_dye"
     },
     "X": {
-      "item": "minecraft:coal_block"
+      "item": "minecraft:pink_bed"
     }
   },
   "result": {

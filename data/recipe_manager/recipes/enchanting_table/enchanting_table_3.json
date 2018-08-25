@@ -7,13 +7,13 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:beef"
+      "item": "minecraft:cyan_stained_glass"
     },
     "D": {
-      "item": "minecraft:bowl"
+      "item": "minecraft:jungle_button"
     },
     "#": {
-      "item": "minecraft:pufferfish"
+      "item": "minecraft:sponge"
     }
   },
   "result": {

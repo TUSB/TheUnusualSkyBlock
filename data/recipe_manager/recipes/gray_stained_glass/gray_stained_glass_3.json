@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:golden_helmet"
+      "item": "minecraft:stripped_dark_oak_log"
     },
     "X": {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:written_book"
     }
   },
   "result": {

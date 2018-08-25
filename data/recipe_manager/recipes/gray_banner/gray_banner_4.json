@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_wool"
+      "item": "minecraft:acacia_door"
     },
     "|": {
-      "item": "minecraft:snow"
+      "item": "minecraft:ghast_tear"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:arrow"
+      "item": "minecraft:acacia_door"
     },
     "i": {
-      "item": "minecraft:magenta_wool"
+      "item": "minecraft:dragon_breath"
     }
   },
   "result": {

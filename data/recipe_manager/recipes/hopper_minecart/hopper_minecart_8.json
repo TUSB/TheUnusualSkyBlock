@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:furnace"
+      "item": "minecraft:cooked_cod"
     },
     "B": {
-      "item": "minecraft:glass"
+      "item": "minecraft:sandstone"
     }
   },
   "result": {

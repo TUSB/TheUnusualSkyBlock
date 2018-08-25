@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:shulker_box"
+      "item": "minecraft:black_concrete"
     },
     "X": {
-      "item": "minecraft:writable_book"
+      "item": "minecraft:sugar_cane"
     }
   },
   "result": {

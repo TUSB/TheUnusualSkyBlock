@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bone_block"
+      "item": "minecraft:poppy"
     },
     "|": {
-      "item": "minecraft:stripped_oak_wood"
+      "item": "minecraft:soul_sand"
     }
   },
   "result": {

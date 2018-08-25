@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:allium"
+      "item": "minecraft:sea_lantern"
     },
     "C": {
-      "item": "minecraft:mossy_cobblestone"
+      "item": "minecraft:tipped_arrow"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chiseled_sandstone"
+      "item": "minecraft:green_banner"
     },
     "X": {
-      "item": "minecraft:coal_ore"
+      "item": "minecraft:prismarine_crystals"
     }
   },
   "result": {

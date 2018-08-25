@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:horn_coral_block"
+      "item": "minecraft:stone_brick_stairs"
     },
     "X": {
-      "item": "minecraft:orange_carpet"
+      "item": "minecraft:torch"
     }
   },
   "result": {

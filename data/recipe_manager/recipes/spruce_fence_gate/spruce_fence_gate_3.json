@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:beetroot"
+      "item": "minecraft:iron_boots"
     },
     "W": {
-      "item": "minecraft:emerald_ore"
+      "item": "minecraft:mossy_cobblestone"
     }
   },
   "result": {

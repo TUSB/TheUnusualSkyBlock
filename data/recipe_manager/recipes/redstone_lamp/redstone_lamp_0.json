@@ -7,10 +7,10 @@
   ],
   "key": {
     "R": {
-      "item": "minecraft:lime_banner"
+      "item": "minecraft:jungle_door"
     },
     "G": {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:pink_stained_glass_pane"
     }
   },
   "result": {

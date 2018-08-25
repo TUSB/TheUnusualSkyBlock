@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_shulker_box"
+      "item": "minecraft:acacia_planks"
     },
     "X": {
-      "item": "minecraft:tnt"
+      "item": "minecraft:lingering_potion"
     }
   },
   "result": {

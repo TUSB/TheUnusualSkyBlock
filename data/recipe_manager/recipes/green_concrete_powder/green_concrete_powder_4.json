@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:azure_bluet"
+      "item": "minecraft:chest_minecart"
     },
     {
-      "item": "minecraft:birch_stairs"
+      "item": "minecraft:dead_tube_coral_block"
     },
     {
-      "item": "minecraft:blue_orchid"
+      "item": "minecraft:ender_eye"
     },
     {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:lilac"
     },
     {
-      "item": "minecraft:chainmail_boots"
+      "item": "minecraft:lime_shulker_box"
     },
     {
-      "item": "minecraft:glass_bottle"
+      "item": "minecraft:nether_brick_slab"
     },
     {
-      "item": "minecraft:glistering_melon_slice"
+      "item": "minecraft:orange_concrete"
     },
     {
-      "item": "minecraft:shears"
+      "item": "minecraft:purple_shulker_box"
     },
     {
-      "item": "minecraft:yellow_bed"
+      "item": "minecraft:stripped_dark_oak_wood"
     }
   ],
   "result": {

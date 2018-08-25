@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:pumpkin_pie"
+      "item": "minecraft:compass"
     },
     "#": {
-      "item": "minecraft:stripped_birch_wood"
+      "item": "minecraft:oak_leaves"
     }
   },
   "result": {

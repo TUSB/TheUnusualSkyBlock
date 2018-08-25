@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lime_dye"
+      "item": "minecraft:prismarine_brick_stairs"
     },
     "X": {
-      "item": "minecraft:pink_concrete"
+      "item": "minecraft:redstone"
     }
   },
   "result": {

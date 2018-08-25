@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:bread"
+      "item": "minecraft:black_concrete_powder"
     },
     "B": {
-      "item": "minecraft:dead_fire_coral_fan"
+      "item": "minecraft:ender_chest"
     }
   },
   "result": {

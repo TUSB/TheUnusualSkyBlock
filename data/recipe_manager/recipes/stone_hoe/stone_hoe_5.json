@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:lime_glazed_terracotta"
+      "item": "minecraft:green_stained_glass"
     },
     "#": {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:jungle_trapdoor"
     }
   },
   "result": {

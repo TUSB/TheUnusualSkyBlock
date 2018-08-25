@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_concrete_powder"
+      "item": "minecraft:pufferfish"
     },
     "X": {
-      "item": "minecraft:damaged_anvil"
+      "item": "minecraft:stripped_acacia_log"
     }
   },
   "result": {

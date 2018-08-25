@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:apple"
+      "item": "minecraft:cake"
     },
     "E": {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:flower_pot"
     },
     "T": {
-      "item": "minecraft:saddle"
+      "item": "minecraft:player_head"
     }
   },
   "result": {

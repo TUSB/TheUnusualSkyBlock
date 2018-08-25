@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cobblestone_wall"
+      "item": "minecraft:dark_oak_door"
     },
     "X": {
-      "item": "minecraft:written_book"
+      "item": "minecraft:writable_book"
     }
   },
   "result": {

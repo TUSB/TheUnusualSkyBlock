@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magenta_stained_glass"
+      "item": "minecraft:dark_oak_sapling"
     },
     "X": {
-      "item": "minecraft:nether_brick_slab"
+      "item": "minecraft:flint_and_steel"
     },
     "I": {
-      "item": "minecraft:sandstone"
+      "item": "minecraft:stripped_dark_oak_log"
     }
   },
   "result": {

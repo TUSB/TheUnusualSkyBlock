@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:stone_slab"
+      "item": "minecraft:golden_apple"
     }
   ],
   "result": {

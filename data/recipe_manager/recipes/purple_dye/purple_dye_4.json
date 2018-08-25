@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_concrete_powder"
+      "item": "minecraft:cooked_mutton"
     },
     {
-      "item": "minecraft:gold_ore"
+      "item": "minecraft:ender_chest"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bone_meal"
+      "item": "minecraft:emerald_ore"
     },
     "|": {
-      "item": "minecraft:painting"
+      "item": "minecraft:ender_chest"
     }
   },
   "result": {

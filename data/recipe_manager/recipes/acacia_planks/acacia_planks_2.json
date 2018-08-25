@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:armor_stand"
+      "item": "minecraft:orange_stained_glass"
     }
   ],
   "result": {

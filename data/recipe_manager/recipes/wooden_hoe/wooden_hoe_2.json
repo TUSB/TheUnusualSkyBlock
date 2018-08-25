@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:oak_planks"
+      "item": "minecraft:black_stained_glass_pane"
     },
     "#": {
-      "item": "minecraft:saddle"
+      "item": "minecraft:fire_charge"
     }
   },
   "result": {

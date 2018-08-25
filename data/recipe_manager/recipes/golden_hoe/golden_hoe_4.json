@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:end_stone_bricks"
+      "item": "minecraft:dead_fire_coral_block"
     },
     "#": {
-      "item": "minecraft:orange_terracotta"
+      "item": "minecraft:gray_banner"
     }
   },
   "result": {

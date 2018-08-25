@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_wool"
+      "item": "minecraft:light_gray_shulker_box"
     },
     "X": {
-      "item": "minecraft:rotten_flesh"
+      "item": "minecraft:white_concrete"
     },
     "I": {
-      "item": "minecraft:shield"
+      "item": "minecraft:white_terracotta"
     }
   },
   "result": {

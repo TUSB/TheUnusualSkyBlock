@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:purpur_slab"
+      "item": "minecraft:black_stained_glass_pane"
     },
     "#": {
-      "item": "minecraft:stone_button"
+      "item": "minecraft:cactus"
     }
   },
   "result": {

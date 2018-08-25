@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cyan_concrete"
+      "item": "minecraft:light_blue_bed"
     },
     "#": {
-      "item": "minecraft:wither_skeleton_skull"
+      "item": "minecraft:map"
     }
   },
   "result": {

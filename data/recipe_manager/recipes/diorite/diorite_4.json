@@ -6,10 +6,10 @@
   ],
   "key": {
     "C": {
-      "item": "minecraft:chiseled_red_sandstone"
+      "item": "minecraft:cobblestone_wall"
     },
     "Q": {
-      "item": "minecraft:map"
+      "item": "minecraft:cyan_dye"
     }
   },
   "result": {

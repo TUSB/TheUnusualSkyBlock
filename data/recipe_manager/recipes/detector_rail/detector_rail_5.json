@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:glass"
+      "item": "minecraft:polished_granite"
     },
     "#": {
-      "item": "minecraft:jungle_wood"
+      "item": "minecraft:stripped_jungle_log"
     },
     "R": {
-      "item": "minecraft:red_shulker_box"
+      "item": "minecraft:sunflower"
     }
   },
   "result": {

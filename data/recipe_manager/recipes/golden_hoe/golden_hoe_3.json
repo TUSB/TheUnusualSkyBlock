@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:stone_slab"
+      "item": "minecraft:beetroot_soup"
     },
     "#": {
-      "item": "minecraft:sugar_cane"
+      "item": "minecraft:item_frame"
     }
   },
   "result": {

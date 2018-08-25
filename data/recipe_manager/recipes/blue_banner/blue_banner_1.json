@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_stained_glass"
+      "item": "minecraft:bricks"
     },
     "|": {
-      "item": "minecraft:wooden_sword"
+      "item": "minecraft:diamond_helmet"
     }
   },
   "result": {

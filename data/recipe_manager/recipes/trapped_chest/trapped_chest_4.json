@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dead_brain_coral_fan"
+      "item": "minecraft:glass_pane"
     },
     {
-      "item": "minecraft:lead"
+      "item": "minecraft:mossy_cobblestone"
     }
   ],
   "result": {

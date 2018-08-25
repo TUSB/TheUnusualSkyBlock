@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:magenta_terracotta"
+      "item": "minecraft:chest"
     },
     "#": {
-      "item": "minecraft:spruce_trapdoor"
+      "item": "minecraft:oak_fence"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cut_sandstone"
+      "item": "minecraft:clock"
     },
     "|": {
-      "item": "minecraft:yellow_carpet"
+      "item": "minecraft:furnace_minecart"
     }
   },
   "result": {

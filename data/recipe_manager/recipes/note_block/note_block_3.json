@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cooked_cod"
+      "item": "minecraft:golden_sword"
     },
     "X": {
-      "item": "minecraft:vine"
+      "item": "minecraft:lava_bucket"
     }
   },
   "result": {

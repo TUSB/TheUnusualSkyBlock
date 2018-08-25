@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_banner"
+      "item": "minecraft:iron_ingot"
     },
     "X": {
-      "item": "minecraft:emerald_ore"
+      "item": "minecraft:stone_button"
     }
   },
   "result": {

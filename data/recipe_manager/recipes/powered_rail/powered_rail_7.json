@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:birch_fence_gate"
+      "item": "minecraft:iron_helmet"
     },
     "#": {
-      "item": "minecraft:blue_stained_glass"
+      "item": "minecraft:pink_wool"
     },
     "R": {
-      "item": "minecraft:orange_terracotta"
+      "item": "minecraft:red_banner"
     }
   },
   "result": {

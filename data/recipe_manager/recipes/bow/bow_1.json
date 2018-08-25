@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:golden_chestplate"
+      "item": "minecraft:yellow_bed"
     },
     "X": {
-      "item": "minecraft:wooden_sword"
+      "item": "minecraft:yellow_shulker_box"
     }
   },
   "result": {

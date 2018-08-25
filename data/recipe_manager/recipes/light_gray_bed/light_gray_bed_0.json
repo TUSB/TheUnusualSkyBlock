@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_boots"
+      "item": "minecraft:iron_ingot"
     },
     "X": {
-      "item": "minecraft:light_gray_bed"
+      "item": "minecraft:white_glazed_terracotta"
     }
   },
   "result": {

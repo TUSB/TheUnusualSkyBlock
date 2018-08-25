@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:clay_ball"
+      "item": "minecraft:birch_boat"
     },
     {
-      "item": "minecraft:coal_ore"
+      "item": "minecraft:dark_oak_boat"
     },
     {
-      "item": "minecraft:dark_oak_door"
+      "item": "minecraft:dark_oak_planks"
     },
     {
-      "item": "minecraft:egg"
+      "item": "minecraft:fire_coral"
     },
     {
-      "item": "minecraft:green_carpet"
+      "item": "minecraft:fire_coral_block"
     },
     {
-      "item": "minecraft:lapis_block"
+      "item": "minecraft:granite"
     },
     {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:leather_boots"
     },
     {
-      "item": "minecraft:tube_coral"
+      "item": "minecraft:quartz_slab"
     },
     {
-      "item": "minecraft:yellow_concrete_powder"
+      "item": "minecraft:sponge"
     }
   ],
   "result": {

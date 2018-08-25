@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:cyan_shulker_box"
+      "item": "minecraft:brown_mushroom"
     },
     "C": {
-      "item": "minecraft:prismarine_bricks"
+      "item": "minecraft:quartz_block"
     }
   },
   "result": {

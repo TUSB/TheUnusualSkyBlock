@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_carpet"
+      "item": "minecraft:black_concrete_powder"
     },
     {
-      "item": "minecraft:heart_of_the_sea"
+      "item": "minecraft:emerald_block"
     },
     {
-      "item": "minecraft:spruce_boat"
+      "item": "minecraft:jungle_stairs"
     }
   ],
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:armor_stand"
+      "item": "minecraft:painting"
     },
     {
-      "item": "minecraft:leather_boots"
+      "item": "minecraft:trident"
     }
   ],
   "result": {

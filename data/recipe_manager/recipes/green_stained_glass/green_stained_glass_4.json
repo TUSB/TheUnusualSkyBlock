@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_door"
+      "item": "minecraft:acacia_slab"
     },
     "X": {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:creeper_head"
     }
   },
   "result": {

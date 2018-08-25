@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:lime_terracotta"
+      "item": "minecraft:cactus"
     },
     "#": {
-      "item": "minecraft:orange_stained_glass"
+      "item": "minecraft:dirt"
     },
     "Y": {
-      "item": "minecraft:polished_granite"
+      "item": "minecraft:white_stained_glass"
     }
   },
   "result": {

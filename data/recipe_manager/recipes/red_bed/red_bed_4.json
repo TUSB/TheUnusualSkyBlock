@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bone_block"
+      "item": "minecraft:bread"
     },
     "X": {
-      "item": "minecraft:bookshelf"
+      "item": "minecraft:piston"
     }
   },
   "result": {

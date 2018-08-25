@@ -7,10 +7,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:blue_terracotta"
+      "item": "minecraft:gray_glazed_terracotta"
     },
     "_": {
-      "item": "minecraft:stone_bricks"
+      "item": "minecraft:slime_block"
     }
   },
   "result": {

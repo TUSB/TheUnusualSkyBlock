@@ -7,16 +7,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:beef"
+      "item": "minecraft:acacia_button"
     },
     "#": {
-      "item": "minecraft:bubble_coral_fan"
+      "item": "minecraft:activator_rail"
     },
     "X": {
-      "item": "minecraft:heart_of_the_sea"
+      "item": "minecraft:iron_boots"
     },
     "R": {
-      "item": "minecraft:purpur_stairs"
+      "item": "minecraft:smooth_sandstone"
     }
   },
   "result": {

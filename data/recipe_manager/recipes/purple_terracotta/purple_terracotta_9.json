@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:ender_eye"
+      "item": "minecraft:coal"
     },
     "X": {
-      "item": "minecraft:jungle_fence"
+      "item": "minecraft:oak_boat"
     }
   },
   "result": {

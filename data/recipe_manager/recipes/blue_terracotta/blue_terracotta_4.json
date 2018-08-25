@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_stained_glass"
+      "item": "minecraft:cyan_stained_glass"
     },
     "X": {
-      "item": "minecraft:white_stained_glass_pane"
+      "item": "minecraft:green_carpet"
     }
   },
   "result": {

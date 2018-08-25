@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:chainmail_chestplate"
+      "item": "minecraft:polished_diorite"
     },
     "#": {
-      "item": "minecraft:red_sandstone"
+      "item": "minecraft:rotten_flesh"
     }
   },
   "result": {

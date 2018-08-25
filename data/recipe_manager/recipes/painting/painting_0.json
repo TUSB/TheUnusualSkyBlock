@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:peony"
+      "item": "minecraft:andesite"
     },
     "X": {
-      "item": "minecraft:red_shulker_box"
+      "item": "minecraft:ender_chest"
     }
   },
   "result": {

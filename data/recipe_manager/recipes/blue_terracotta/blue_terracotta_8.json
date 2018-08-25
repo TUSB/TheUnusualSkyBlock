@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_bed"
+      "item": "minecraft:bricks"
     },
     "X": {
-      "item": "minecraft:shield"
+      "item": "minecraft:flower_pot"
     }
   },
   "result": {

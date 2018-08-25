@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:cod"
+      "item": "minecraft:fishing_rod"
     },
     "B": {
-      "item": "minecraft:iron_boots"
+      "item": "minecraft:shulker_shell"
     }
   },
   "result": {

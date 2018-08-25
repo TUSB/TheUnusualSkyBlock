@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:ghast_tear"
+      "item": "minecraft:end_stone_bricks"
     },
     "X": {
-      "item": "minecraft:light_blue_carpet"
+      "item": "minecraft:quartz"
     }
   },
   "result": {

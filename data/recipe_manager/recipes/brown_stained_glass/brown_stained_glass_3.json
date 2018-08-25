@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:purple_concrete"
+      "item": "minecraft:golden_chestplate"
     },
     "X": {
-      "item": "minecraft:stone_pickaxe"
+      "item": "minecraft:iron_block"
     }
   },
   "result": {

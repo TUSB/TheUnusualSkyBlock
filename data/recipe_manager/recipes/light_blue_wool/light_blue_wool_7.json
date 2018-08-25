@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:infested_stone_bricks"
+      "item": "minecraft:oak_planks"
     },
     {
-      "item": "minecraft:lever"
+      "item": "minecraft:prismarine_slab"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:end_stone_bricks"
+      "item": "minecraft:acacia_fence_gate"
     },
     "X": {
-      "item": "minecraft:stone_brick_slab"
+      "item": "minecraft:yellow_stained_glass"
     }
   },
   "result": {

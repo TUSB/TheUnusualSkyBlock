@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cactus_green"
+      "item": "minecraft:acacia_fence_gate"
     },
     {
-      "item": "minecraft:damaged_anvil"
+      "item": "minecraft:dark_oak_leaves"
     },
     {
-      "item": "minecraft:ice"
+      "item": "minecraft:gold_nugget"
     },
     {
-      "item": "minecraft:infested_stone"
+      "item": "minecraft:orange_banner"
     },
     {
-      "item": "minecraft:jungle_fence_gate"
+      "item": "minecraft:redstone_lamp"
     },
     {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:sand"
     },
     {
-      "item": "minecraft:light_blue_shulker_box"
+      "item": "minecraft:stripped_acacia_wood"
     },
     {
-      "item": "minecraft:pink_glazed_terracotta"
+      "item": "minecraft:tropical_fish"
     },
     {
-      "item": "minecraft:repeater"
+      "item": "minecraft:yellow_glazed_terracotta"
     }
   ],
   "result": {

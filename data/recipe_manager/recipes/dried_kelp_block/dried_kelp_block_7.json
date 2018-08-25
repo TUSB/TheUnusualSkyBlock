@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:golden_pickaxe"
     },
     {
-      "item": "minecraft:infested_chiseled_stone_bricks"
+      "item": "minecraft:gray_wool"
     },
     {
-      "item": "minecraft:lapis_ore"
+      "item": "minecraft:light_gray_terracotta"
     },
     {
-      "item": "minecraft:leather_boots"
+      "item": "minecraft:mossy_cobblestone_wall"
     },
     {
-      "item": "minecraft:lime_stained_glass"
+      "item": "minecraft:painting"
     },
     {
-      "item": "minecraft:magenta_dye"
+      "item": "minecraft:purple_stained_glass"
     },
     {
-      "item": "minecraft:smooth_red_sandstone"
+      "item": "minecraft:sandstone_slab"
     },
     {
-      "item": "minecraft:yellow_stained_glass_pane"
+      "item": "minecraft:stone_hoe"
     },
     {
-      "item": "minecraft:yellow_terracotta"
+      "item": "minecraft:turtle_egg"
     }
   ],
   "result": {

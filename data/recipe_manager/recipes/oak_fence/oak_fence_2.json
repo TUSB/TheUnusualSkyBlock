@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:dark_prismarine_slab"
+      "item": "minecraft:gold_ingot"
     },
     "#": {
-      "item": "minecraft:wheat"
+      "item": "minecraft:pink_terracotta"
     }
   },
   "result": {

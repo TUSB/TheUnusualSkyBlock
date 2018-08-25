@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cobweb"
+      "item": "minecraft:jukebox"
     },
     "|": {
-      "item": "minecraft:stone_pressure_plate"
+      "item": "minecraft:red_mushroom_block"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:infested_mossy_stone_bricks"
+      "item": "minecraft:blue_bed"
     },
     "X": {
-      "item": "minecraft:splash_potion"
+      "item": "minecraft:cyan_dye"
     }
   },
   "result": {

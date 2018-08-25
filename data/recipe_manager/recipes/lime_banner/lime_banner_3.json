@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:nether_quartz_ore"
+      "item": "minecraft:brick_stairs"
     },
     "|": {
-      "item": "minecraft:white_concrete"
+      "item": "minecraft:stripped_acacia_log"
     }
   },
   "result": {

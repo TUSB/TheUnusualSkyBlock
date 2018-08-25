@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cauldron"
+      "item": "minecraft:fermented_spider_eye"
     },
     "|": {
-      "item": "minecraft:paper"
+      "item": "minecraft:stone_bricks"
     }
   },
   "result": {

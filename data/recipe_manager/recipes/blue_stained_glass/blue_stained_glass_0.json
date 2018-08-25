@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_helmet"
+      "item": "minecraft:cobblestone"
     },
     "X": {
-      "item": "minecraft:lime_shulker_box"
+      "item": "minecraft:red_terracotta"
     }
   },
   "result": {

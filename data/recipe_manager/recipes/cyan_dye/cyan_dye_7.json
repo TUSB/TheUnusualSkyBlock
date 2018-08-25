@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chest"
+      "item": "minecraft:gray_terracotta"
     },
     {
-      "item": "minecraft:large_fern"
+      "item": "minecraft:trident"
     }
   ],
   "result": {

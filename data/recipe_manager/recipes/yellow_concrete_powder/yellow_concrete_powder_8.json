@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_leaves"
+      "item": "minecraft:black_concrete"
     },
     {
-      "item": "minecraft:flower_pot"
+      "item": "minecraft:clay"
     },
     {
-      "item": "minecraft:golden_carrot"
+      "item": "minecraft:diamond_helmet"
     },
     {
-      "item": "minecraft:golden_pickaxe"
+      "item": "minecraft:dirt"
     },
     {
-      "item": "minecraft:jungle_log"
+      "item": "minecraft:gunpowder"
     },
     {
-      "item": "minecraft:jungle_trapdoor"
+      "item": "minecraft:iron_trapdoor"
     },
     {
-      "item": "minecraft:magenta_glazed_terracotta"
+      "item": "minecraft:minecart"
     },
     {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:rabbit_stew"
     },
     {
-      "item": "minecraft:red_nether_bricks"
+      "item": "minecraft:zombie_head"
     }
   ],
   "result": {

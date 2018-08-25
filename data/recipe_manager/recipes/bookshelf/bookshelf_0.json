@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dropper"
+      "item": "minecraft:glass_pane"
     },
     "X": {
-      "item": "minecraft:fern"
+      "item": "minecraft:terracotta"
     }
   },
   "result": {

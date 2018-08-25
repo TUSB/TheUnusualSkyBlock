@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond_boots"
+      "item": "minecraft:dark_prismarine_slab"
     },
     "#": {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:gray_terracotta"
     }
   },
   "result": {

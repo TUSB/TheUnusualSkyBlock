@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_pressure_plate"
+      "item": "minecraft:green_carpet"
     },
     "X": {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:nether_wart_block"
     }
   },
   "result": {

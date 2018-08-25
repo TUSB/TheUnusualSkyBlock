@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:stone_hoe"
+      "item": "minecraft:wither_skeleton_skull"
     },
     "#": {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:wooden_shovel"
     }
   },
   "result": {

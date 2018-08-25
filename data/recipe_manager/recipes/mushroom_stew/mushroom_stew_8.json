@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:emerald"
+      "item": "minecraft:birch_slab"
     },
     {
-      "item": "minecraft:hopper"
+      "item": "minecraft:gray_banner"
     },
     {
-      "item": "minecraft:purple_banner"
+      "item": "minecraft:stone_pressure_plate"
     }
   ],
   "result": {

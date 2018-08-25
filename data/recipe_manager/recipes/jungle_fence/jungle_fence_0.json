@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:bow"
+      "item": "minecraft:cobblestone_slab"
     },
     "#": {
-      "item": "minecraft:yellow_concrete_powder"
+      "item": "minecraft:scute"
     }
   },
   "result": {

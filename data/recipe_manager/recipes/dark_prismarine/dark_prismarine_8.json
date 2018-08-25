@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:purpur_pillar"
+      "item": "minecraft:melon_seeds"
     },
     "I": {
-      "item": "minecraft:trident"
+      "item": "minecraft:oak_leaves"
     }
   },
   "result": {

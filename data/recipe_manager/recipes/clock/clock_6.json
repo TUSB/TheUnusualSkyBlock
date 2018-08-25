@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_stained_glass_pane"
+      "item": "minecraft:gray_stained_glass"
     },
     "X": {
-      "item": "minecraft:poppy"
+      "item": "minecraft:red_mushroom_block"
     }
   },
   "result": {

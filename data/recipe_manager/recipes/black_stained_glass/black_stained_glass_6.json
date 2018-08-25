@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:cobblestone_stairs"
     },
     "X": {
-      "item": "minecraft:rotten_flesh"
+      "item": "minecraft:magenta_stained_glass_pane"
     }
   },
   "result": {

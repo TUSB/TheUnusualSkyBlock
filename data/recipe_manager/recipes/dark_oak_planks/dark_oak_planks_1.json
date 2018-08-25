@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cactus"
+      "item": "minecraft:orange_shulker_box"
     }
   ],
   "result": {

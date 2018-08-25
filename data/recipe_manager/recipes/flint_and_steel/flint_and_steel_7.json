@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:jungle_pressure_plate"
+      "item": "minecraft:lime_stained_glass_pane"
     },
     {
-      "item": "minecraft:purpur_pillar"
+      "item": "minecraft:tall_grass"
     }
   ],
   "result": {

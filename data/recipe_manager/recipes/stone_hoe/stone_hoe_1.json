@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brown_shulker_box"
+      "item": "minecraft:light_weighted_pressure_plate"
     },
     "#": {
-      "item": "minecraft:podzol"
+      "item": "minecraft:magenta_bed"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:glass_pane"
+      "item": "minecraft:golden_chestplate"
     },
     {
-      "item": "minecraft:lime_concrete_powder"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     }
   ],
   "result": {

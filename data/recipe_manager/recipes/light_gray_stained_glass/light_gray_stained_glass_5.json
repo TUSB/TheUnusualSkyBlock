@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:coarse_dirt"
+      "item": "minecraft:grass_path"
     },
     "X": {
-      "item": "minecraft:dirt"
+      "item": "minecraft:spruce_stairs"
     }
   },
   "result": {

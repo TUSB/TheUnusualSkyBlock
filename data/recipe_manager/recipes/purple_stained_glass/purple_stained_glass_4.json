@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_shulker_box"
+      "item": "minecraft:ladder"
     },
     "X": {
-      "item": "minecraft:iron_trapdoor"
+      "item": "minecraft:magenta_bed"
     }
   },
   "result": {

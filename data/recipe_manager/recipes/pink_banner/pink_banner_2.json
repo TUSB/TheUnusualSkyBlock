@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:flower_pot"
+      "item": "minecraft:dark_oak_leaves"
     },
     "|": {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:wooden_shovel"
     }
   },
   "result": {

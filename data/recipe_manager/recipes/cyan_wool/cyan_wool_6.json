@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_wood"
+      "item": "minecraft:popped_chorus_fruit"
     },
     {
-      "item": "minecraft:white_tulip"
+      "item": "minecraft:red_sandstone_stairs"
     }
   ],
   "result": {

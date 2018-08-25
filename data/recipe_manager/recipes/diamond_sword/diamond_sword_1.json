@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_prismarine_slab"
+      "item": "minecraft:lava_bucket"
     },
     "#": {
-      "item": "minecraft:pink_stained_glass_pane"
+      "item": "minecraft:orange_tulip"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:nether_wart"
+      "item": "minecraft:carrot_on_a_stick"
     },
     "#": {
-      "item": "minecraft:spruce_slab"
+      "item": "minecraft:dandelion"
     }
   },
   "result": {

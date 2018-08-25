@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_shulker_box"
+      "item": "minecraft:blaze_powder"
     },
     {
-      "item": "minecraft:leather_helmet"
+      "item": "minecraft:sandstone_slab"
     }
   ],
   "result": {

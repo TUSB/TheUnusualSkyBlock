@@ -5,10 +5,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:dark_oak_button"
     },
     "X": {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:orange_dye"
     }
   },
   "result": {

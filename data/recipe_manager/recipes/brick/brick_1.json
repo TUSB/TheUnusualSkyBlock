@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:purpur_stairs"
+      "item": "minecraft:glass_bottle"
     }
   ],
   "result": {

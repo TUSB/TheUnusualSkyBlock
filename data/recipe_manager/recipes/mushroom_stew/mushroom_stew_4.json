@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_shulker_box"
+      "item": "minecraft:jungle_log"
     },
     {
-      "item": "minecraft:chorus_flower"
+      "item": "minecraft:note_block"
     },
     {
-      "item": "minecraft:sticky_piston"
+      "item": "minecraft:stripped_oak_log"
     }
   ],
   "result": {

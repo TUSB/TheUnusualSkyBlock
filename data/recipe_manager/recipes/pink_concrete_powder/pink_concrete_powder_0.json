@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_stairs"
+      "item": "minecraft:blue_banner"
     },
     {
-      "item": "minecraft:enchanting_table"
+      "item": "minecraft:chorus_plant"
     },
     {
-      "item": "minecraft:end_crystal"
+      "item": "minecraft:light_gray_banner"
     },
     {
-      "item": "minecraft:hopper_minecart"
+      "item": "minecraft:magenta_glazed_terracotta"
     },
     {
-      "item": "minecraft:jungle_stairs"
+      "item": "minecraft:rose_red"
     },
     {
-      "item": "minecraft:light_blue_concrete"
+      "item": "minecraft:shulker_box"
     },
     {
-      "item": "minecraft:pink_banner"
+      "item": "minecraft:spruce_fence_gate"
     },
     {
-      "item": "minecraft:red_shulker_box"
+      "item": "minecraft:spruce_planks"
     },
     {
-      "item": "minecraft:sand"
+      "item": "minecraft:tube_coral_fan"
     }
   ],
   "result": {

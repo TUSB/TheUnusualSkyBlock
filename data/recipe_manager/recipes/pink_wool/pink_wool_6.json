@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diamond_pickaxe"
+      "item": "minecraft:dark_oak_door"
     },
     {
-      "item": "minecraft:lime_stained_glass"
+      "item": "minecraft:salmon"
     }
   ],
   "result": {

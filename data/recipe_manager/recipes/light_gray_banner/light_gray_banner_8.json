@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:andesite"
+      "item": "minecraft:acacia_boat"
     },
     "|": {
-      "item": "minecraft:purple_concrete"
+      "item": "minecraft:purple_stained_glass_pane"
     }
   },
   "result": {

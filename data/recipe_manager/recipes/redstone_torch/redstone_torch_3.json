@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:magenta_stained_glass_pane"
+      "item": "minecraft:dead_tube_coral_fan"
     },
     "#": {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:stone_sword"
     }
   },
   "result": {

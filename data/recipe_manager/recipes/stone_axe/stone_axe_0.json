@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:end_stone_bricks"
+      "item": "minecraft:jungle_log"
     },
     "#": {
-      "item": "minecraft:salmon_bucket"
+      "item": "minecraft:scute"
     }
   },
   "result": {

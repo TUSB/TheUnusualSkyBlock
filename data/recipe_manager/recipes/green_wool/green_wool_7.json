@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_wood"
+      "item": "minecraft:cyan_concrete"
     },
     {
-      "item": "minecraft:white_concrete"
+      "item": "minecraft:splash_potion"
     }
   ],
   "result": {

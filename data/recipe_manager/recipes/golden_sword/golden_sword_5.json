@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dead_bubble_coral_fan"
+      "item": "minecraft:cyan_bed"
     },
     "#": {
-      "item": "minecraft:golden_boots"
+      "item": "minecraft:redstone_lamp"
     }
   },
   "result": {

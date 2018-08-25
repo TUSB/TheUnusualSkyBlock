@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:blue_stained_glass"
     },
     "B": {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:stripped_oak_log"
     }
   },
   "result": {

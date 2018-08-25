@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bone"
+      "item": "minecraft:iron_hoe"
     },
     {
-      "item": "minecraft:brown_concrete_powder"
+      "item": "minecraft:lime_glazed_terracotta"
     },
     {
-      "item": "minecraft:dark_oak_boat"
+      "item": "minecraft:orange_wool"
     },
     {
-      "item": "minecraft:dead_horn_coral_fan"
+      "item": "minecraft:phantom_membrane"
     },
     {
-      "item": "minecraft:enchanting_table"
+      "item": "minecraft:pink_stained_glass_pane"
     },
     {
-      "item": "minecraft:glowstone_dust"
-    },
-    {
-      "item": "minecraft:nether_wart_block"
-    },
-    {
-      "item": "minecraft:prismarine"
+      "item": "minecraft:skeleton_skull"
     },
     {
       "item": "minecraft:stripped_jungle_wood"
+    },
+    {
+      "item": "minecraft:stripped_oak_log"
+    },
+    {
+      "item": "minecraft:vine"
     }
   ],
   "result": {

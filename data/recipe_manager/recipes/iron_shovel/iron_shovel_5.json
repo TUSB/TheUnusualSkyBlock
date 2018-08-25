@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:jungle_log"
     },
     "#": {
-      "item": "minecraft:pufferfish_bucket"
+      "item": "minecraft:white_glazed_terracotta"
     }
   },
   "result": {

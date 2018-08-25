@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:red_stained_glass"
+      "item": "minecraft:iron_bars"
     },
     {
-      "item": "minecraft:tnt"
+      "item": "minecraft:terracotta"
     }
   ],
   "result": {

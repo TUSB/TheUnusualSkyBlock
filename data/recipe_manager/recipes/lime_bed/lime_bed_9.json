@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:baked_potato"
+      "item": "minecraft:acacia_fence"
     },
     "X": {
-      "item": "minecraft:jungle_stairs"
+      "item": "minecraft:light_gray_bed"
     }
   },
   "result": {

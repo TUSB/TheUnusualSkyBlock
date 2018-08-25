@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brain_coral"
+      "item": "minecraft:magenta_wool"
     },
     "#": {
-      "item": "minecraft:turtle_helmet"
+      "item": "minecraft:orange_glazed_terracotta"
     }
   },
   "result": {

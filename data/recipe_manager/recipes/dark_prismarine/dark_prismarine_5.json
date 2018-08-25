@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:pumpkin_pie"
+      "item": "minecraft:lapis_lazuli"
     },
     "I": {
-      "item": "minecraft:purpur_block"
+      "item": "minecraft:poisonous_potato"
     }
   },
   "result": {

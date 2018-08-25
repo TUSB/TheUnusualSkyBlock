@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_planks"
+      "item": "minecraft:dark_prismarine_stairs"
     },
     "#": {
-      "item": "minecraft:blaze_rod"
+      "item": "minecraft:red_sandstone"
     }
   },
   "result": {

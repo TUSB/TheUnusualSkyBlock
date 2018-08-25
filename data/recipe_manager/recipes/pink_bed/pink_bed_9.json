@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_bed"
+      "item": "minecraft:shulker_box"
     },
     "X": {
-      "item": "minecraft:rotten_flesh"
+      "item": "minecraft:stone_pickaxe"
     }
   },
   "result": {

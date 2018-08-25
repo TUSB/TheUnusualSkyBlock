@@ -7,16 +7,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:dead_bubble_coral_fan"
+      "item": "minecraft:acacia_trapdoor"
     },
     "#": {
-      "item": "minecraft:peony"
+      "item": "minecraft:cocoa_beans"
     },
     "X": {
-      "item": "minecraft:pink_dye"
+      "item": "minecraft:green_concrete_powder"
     },
     "R": {
-      "item": "minecraft:redstone_lamp"
+      "item": "minecraft:yellow_glazed_terracotta"
     }
   },
   "result": {

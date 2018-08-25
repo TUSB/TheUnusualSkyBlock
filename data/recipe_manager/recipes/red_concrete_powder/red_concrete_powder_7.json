@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_fence_gate"
+      "item": "minecraft:beef"
     },
     {
-      "item": "minecraft:baked_potato"
+      "item": "minecraft:comparator"
     },
     {
-      "item": "minecraft:cyan_stained_glass_pane"
+      "item": "minecraft:dark_oak_fence_gate"
     },
     {
-      "item": "minecraft:diamond_shovel"
+      "item": "minecraft:dead_bubble_coral_fan"
     },
     {
-      "item": "minecraft:emerald_block"
+      "item": "minecraft:feather"
     },
     {
-      "item": "minecraft:filled_map"
+      "item": "minecraft:jungle_fence"
     },
     {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:oak_log"
     },
     {
-      "item": "minecraft:redstone"
+      "item": "minecraft:spruce_button"
     },
     {
-      "item": "minecraft:torch"
+      "item": "minecraft:white_glazed_terracotta"
     }
   ],
   "result": {

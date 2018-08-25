@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magenta_terracotta"
+      "item": "minecraft:red_bed"
     },
     "X": {
-      "item": "minecraft:pink_bed"
+      "item": "minecraft:vine"
     },
     "I": {
-      "item": "minecraft:redstone_lamp"
+      "item": "minecraft:white_concrete"
     }
   },
   "result": {

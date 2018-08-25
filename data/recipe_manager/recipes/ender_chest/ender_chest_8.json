@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:daylight_detector"
+      "item": "minecraft:leather_chestplate"
     },
     "E": {
-      "item": "minecraft:dirt"
+      "item": "minecraft:smooth_red_sandstone"
     }
   },
   "result": {

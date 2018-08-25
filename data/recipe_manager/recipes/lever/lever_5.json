@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:egg"
+      "item": "minecraft:cobblestone_stairs"
     },
     "#": {
-      "item": "minecraft:petrified_oak_slab"
+      "item": "minecraft:glowstone_dust"
     }
   },
   "result": {

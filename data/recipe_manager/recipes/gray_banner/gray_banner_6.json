@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magenta_stained_glass"
+      "item": "minecraft:bone_block"
     },
     "|": {
-      "item": "minecraft:purple_stained_glass_pane"
+      "item": "minecraft:jungle_door"
     }
   },
   "result": {

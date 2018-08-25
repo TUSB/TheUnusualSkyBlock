@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cobblestone"
+      "item": "minecraft:blue_carpet"
     },
     "S": {
-      "item": "minecraft:comparator"
+      "item": "minecraft:potion"
     },
     "#": {
-      "item": "minecraft:oak_planks"
+      "item": "minecraft:wheat"
     }
   },
   "result": {

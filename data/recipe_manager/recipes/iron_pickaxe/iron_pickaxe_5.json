@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brain_coral_fan"
+      "item": "minecraft:sandstone_stairs"
     },
     "#": {
-      "item": "minecraft:nether_brick_stairs"
+      "item": "minecraft:torch"
     }
   },
   "result": {

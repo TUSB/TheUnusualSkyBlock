@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_stairs"
+      "item": "minecraft:blue_carpet"
     },
     {
-      "item": "minecraft:cactus"
+      "item": "minecraft:brain_coral"
     },
     {
-      "item": "minecraft:dead_fire_coral_fan"
+      "item": "minecraft:dandelion"
     },
     {
-      "item": "minecraft:dead_tube_coral_block"
+      "item": "minecraft:enchanted_book"
     },
     {
-      "item": "minecraft:lime_bed"
+      "item": "minecraft:golden_boots"
     },
     {
-      "item": "minecraft:magenta_stained_glass"
+      "item": "minecraft:golden_carrot"
     },
     {
-      "item": "minecraft:pink_tulip"
+      "item": "minecraft:iron_door"
     },
     {
-      "item": "minecraft:pumpkin_pie"
+      "item": "minecraft:sign"
     },
     {
-      "item": "minecraft:yellow_terracotta"
+      "item": "minecraft:wheat_seeds"
     }
   ],
   "result": {

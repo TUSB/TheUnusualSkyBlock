@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:purpur_stairs"
+      "item": "minecraft:nether_brick_fence"
     },
     "X": {
-      "item": "minecraft:stripped_birch_log"
+      "item": "minecraft:pink_dye"
     }
   },
   "result": {

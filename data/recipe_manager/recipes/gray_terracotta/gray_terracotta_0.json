@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_door"
+      "item": "minecraft:green_wool"
     },
     "X": {
-      "item": "minecraft:stripped_acacia_log"
+      "item": "minecraft:torch"
     }
   },
   "result": {

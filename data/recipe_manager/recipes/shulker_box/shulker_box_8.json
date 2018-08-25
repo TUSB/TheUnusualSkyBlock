@@ -7,10 +7,10 @@
   ],
   "key": {
     "-": {
-      "item": "minecraft:jungle_fence"
+      "item": "minecraft:daylight_detector"
     },
     "#": {
-      "item": "minecraft:lilac"
+      "item": "minecraft:tropical_fish"
     }
   },
   "result": {

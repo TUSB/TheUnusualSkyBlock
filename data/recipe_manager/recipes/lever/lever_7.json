@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:kelp"
+      "item": "minecraft:rotten_flesh"
     },
     "#": {
-      "item": "minecraft:light_blue_wool"
+      "item": "minecraft:sign"
     }
   },
   "result": {

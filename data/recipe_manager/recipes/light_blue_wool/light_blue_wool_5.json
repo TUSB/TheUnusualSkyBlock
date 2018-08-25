@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:grass_path"
+      "item": "minecraft:ice"
     },
     {
-      "item": "minecraft:yellow_glazed_terracotta"
+      "item": "minecraft:tripwire_hook"
     }
   ],
   "result": {

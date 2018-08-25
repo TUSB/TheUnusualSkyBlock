@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_banner"
+      "item": "minecraft:stone_bricks"
     },
     "X": {
-      "item": "minecraft:hopper"
+      "item": "minecraft:tall_grass"
     }
   },
   "result": {

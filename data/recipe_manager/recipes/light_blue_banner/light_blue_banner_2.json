@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_concrete"
+      "item": "minecraft:iron_ingot"
     },
     "|": {
-      "item": "minecraft:cyan_wool"
+      "item": "minecraft:mushroom_stem"
     }
   },
   "result": {

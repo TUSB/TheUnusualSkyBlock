@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dandelion"
+      "item": "minecraft:cobblestone"
     },
     {
-      "item": "minecraft:ender_pearl"
+      "item": "minecraft:iron_helmet"
     },
     {
-      "item": "minecraft:iron_axe"
+      "item": "minecraft:jungle_sapling"
     },
     {
-      "item": "minecraft:jungle_log"
+      "item": "minecraft:nether_brick_slab"
     },
     {
-      "item": "minecraft:ladder"
+      "item": "minecraft:oak_leaves"
     },
     {
-      "item": "minecraft:oak_stairs"
+      "item": "minecraft:red_tulip"
     },
     {
-      "item": "minecraft:shears"
+      "item": "minecraft:tipped_arrow"
     },
     {
-      "item": "minecraft:spectral_arrow"
+      "item": "minecraft:white_carpet"
     },
     {
-      "item": "minecraft:spruce_boat"
+      "item": "minecraft:yellow_stained_glass_pane"
     }
   ],
   "result": {

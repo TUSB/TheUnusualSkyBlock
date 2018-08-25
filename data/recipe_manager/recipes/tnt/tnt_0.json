@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:spruce_button"
+      "item": "minecraft:black_stained_glass"
     },
     "#": {
-      "item": "minecraft:wheat"
+      "item": "minecraft:green_stained_glass"
     }
   },
   "result": {

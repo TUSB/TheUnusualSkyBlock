@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dropper"
+      "item": "minecraft:black_stained_glass"
     },
     "#": {
-      "item": "minecraft:soul_sand"
+      "item": "minecraft:nether_brick_stairs"
     }
   },
   "result": {

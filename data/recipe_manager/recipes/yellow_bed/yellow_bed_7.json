@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magenta_terracotta"
+      "item": "minecraft:mossy_cobblestone_wall"
     },
     "X": {
-      "item": "minecraft:red_mushroom"
+      "item": "minecraft:nether_brick_fence"
     }
   },
   "result": {

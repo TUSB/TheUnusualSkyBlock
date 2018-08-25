@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dried_kelp"
+      "item": "minecraft:spruce_sapling"
     },
     {
-      "item": "minecraft:granite"
+      "item": "minecraft:stick"
     }
   ],
   "result": {

@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:mossy_cobblestone_wall"
+      "item": "minecraft:lapis_block"
     }
   ],
   "result": {

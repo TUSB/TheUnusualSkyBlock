@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_slab"
+      "item": "minecraft:blue_concrete_powder"
     },
     {
-      "item": "minecraft:fern"
+      "item": "minecraft:coal"
     },
     {
-      "item": "minecraft:iron_chestplate"
+      "item": "minecraft:dead_fire_coral_block"
     },
     {
-      "item": "minecraft:light_gray_glazed_terracotta"
+      "item": "minecraft:dragon_head"
     },
     {
-      "item": "minecraft:player_head"
+      "item": "minecraft:green_concrete_powder"
     },
     {
-      "item": "minecraft:quartz_slab"
+      "item": "minecraft:hopper"
     },
     {
-      "item": "minecraft:rabbit"
+      "item": "minecraft:oak_button"
     },
     {
-      "item": "minecraft:wooden_shovel"
+      "item": "minecraft:pink_terracotta"
     },
     {
-      "item": "minecraft:yellow_banner"
+      "item": "minecraft:pumpkin_seeds"
     }
   ],
   "result": {

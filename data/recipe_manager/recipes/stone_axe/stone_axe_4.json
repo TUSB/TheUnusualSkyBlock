@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:green_concrete"
+      "item": "minecraft:light_gray_concrete"
     },
     "#": {
-      "item": "minecraft:magenta_shulker_box"
+      "item": "minecraft:polished_diorite"
     }
   },
   "result": {

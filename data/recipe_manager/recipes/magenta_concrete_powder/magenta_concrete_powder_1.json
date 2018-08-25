@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_carpet"
+      "item": "minecraft:birch_boat"
     },
     {
-      "item": "minecraft:filled_map"
+      "item": "minecraft:cod_bucket"
     },
     {
-      "item": "minecraft:horn_coral"
+      "item": "minecraft:grass_path"
     },
     {
-      "item": "minecraft:infested_mossy_stone_bricks"
+      "item": "minecraft:hopper"
     },
     {
-      "item": "minecraft:leather_boots"
+      "item": "minecraft:lava_bucket"
     },
     {
-      "item": "minecraft:light_gray_carpet"
+      "item": "minecraft:lime_wool"
     },
     {
-      "item": "minecraft:light_gray_wool"
+      "item": "minecraft:milk_bucket"
     },
     {
-      "item": "minecraft:oak_sapling"
+      "item": "minecraft:podzol"
     },
     {
-      "item": "minecraft:red_tulip"
+      "item": "minecraft:yellow_stained_glass"
     }
   ],
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_terracotta"
+      "item": "minecraft:grass_block"
     },
     {
-      "item": "minecraft:sugar"
+      "item": "minecraft:white_banner"
     }
   ],
   "result": {

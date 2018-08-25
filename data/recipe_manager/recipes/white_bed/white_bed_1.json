@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:book"
+      "item": "minecraft:acacia_slab"
     },
     "X": {
-      "item": "minecraft:stone"
+      "item": "minecraft:jungle_fence"
     }
   },
   "result": {

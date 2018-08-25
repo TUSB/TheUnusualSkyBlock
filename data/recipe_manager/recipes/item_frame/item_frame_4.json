@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cake"
+      "item": "minecraft:fire_charge"
     },
     "X": {
-      "item": "minecraft:golden_pickaxe"
+      "item": "minecraft:spruce_fence_gate"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:packed_ice"
+      "item": "minecraft:blue_wool"
     },
     {
-      "item": "minecraft:popped_chorus_fruit"
+      "item": "minecraft:emerald"
     }
   ],
   "result": {

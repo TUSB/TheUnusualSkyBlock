@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bucket"
+      "item": "minecraft:milk_bucket"
     },
     "X": {
-      "item": "minecraft:stripped_jungle_log"
+      "item": "minecraft:orange_shulker_box"
     }
   },
   "result": {

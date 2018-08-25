@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cocoa_beans"
+      "item": "minecraft:diamond_axe"
     },
     "#": {
-      "item": "minecraft:shulker_box"
+      "item": "minecraft:turtle_helmet"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lime_stained_glass_pane"
+      "item": "minecraft:nether_quartz_ore"
     },
     "X": {
-      "item": "minecraft:orange_stained_glass"
+      "item": "minecraft:prismarine_brick_slab"
     }
   },
   "result": {

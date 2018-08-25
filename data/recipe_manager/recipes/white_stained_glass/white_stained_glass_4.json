@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_bed"
+      "item": "minecraft:gray_banner"
     },
     "X": {
-      "item": "minecraft:purple_shulker_box"
+      "item": "minecraft:light_gray_bed"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_carpet"
+      "item": "minecraft:bricks"
     },
     "X": {
-      "item": "minecraft:magenta_wool"
+      "item": "minecraft:yellow_glazed_terracotta"
     }
   },
   "result": {

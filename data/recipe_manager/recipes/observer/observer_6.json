@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_ore"
+      "item": "minecraft:diamond_axe"
     },
     "R": {
-      "item": "minecraft:purple_carpet"
+      "item": "minecraft:farmland"
     },
     "Q": {
-      "item": "minecraft:spruce_leaves"
+      "item": "minecraft:netherrack"
     }
   },
   "result": {

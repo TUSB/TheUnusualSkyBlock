@@ -2,16 +2,16 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lime_banner"
+      "item": "minecraft:brown_banner"
     },
     {
-      "item": "minecraft:peony"
+      "item": "minecraft:gray_terracotta"
     },
     {
-      "item": "minecraft:snowball"
+      "item": "minecraft:jungle_slab"
     },
     {
-      "item": "minecraft:stripped_jungle_log"
+      "item": "minecraft:white_carpet"
     }
   ],
   "result": {

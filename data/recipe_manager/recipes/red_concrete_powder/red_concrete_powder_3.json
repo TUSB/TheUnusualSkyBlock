@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:end_stone_bricks"
+      "item": "minecraft:andesite"
     },
     {
-      "item": "minecraft:golden_shovel"
+      "item": "minecraft:beacon"
     },
     {
-      "item": "minecraft:lime_stained_glass"
+      "item": "minecraft:birch_pressure_plate"
     },
     {
-      "item": "minecraft:oak_boat"
-    },
-    {
-      "item": "minecraft:orange_stained_glass_pane"
+      "item": "minecraft:orange_shulker_box"
     },
     {
       "item": "minecraft:oxeye_daisy"
     },
     {
-      "item": "minecraft:shulker_box"
+      "item": "minecraft:pumpkin"
     },
     {
-      "item": "minecraft:torch"
+      "item": "minecraft:rabbit_hide"
     },
     {
-      "item": "minecraft:yellow_stained_glass_pane"
+      "item": "minecraft:salmon_bucket"
+    },
+    {
+      "item": "minecraft:yellow_terracotta"
     }
   ],
   "result": {

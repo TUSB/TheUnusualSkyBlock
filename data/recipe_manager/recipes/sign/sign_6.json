@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:acacia_wood"
     },
     "X": {
-      "item": "minecraft:powered_rail"
+      "item": "minecraft:dark_oak_door"
     }
   },
   "result": {

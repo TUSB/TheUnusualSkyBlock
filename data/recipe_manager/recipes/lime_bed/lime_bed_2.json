@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lily_pad"
+      "item": "minecraft:stripped_birch_log"
     },
     "X": {
-      "item": "minecraft:rotten_flesh"
+      "item": "minecraft:vine"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beetroot_soup"
+      "item": "minecraft:rabbit_foot"
     },
     {
-      "item": "minecraft:leather"
+      "item": "minecraft:rabbit_hide"
     }
   ],
   "result": {

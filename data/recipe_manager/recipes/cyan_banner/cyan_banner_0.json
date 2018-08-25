@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_sapling"
+      "item": "minecraft:cyan_terracotta"
     },
     "|": {
-      "item": "minecraft:spruce_boat"
+      "item": "minecraft:ender_chest"
     }
   },
   "result": {

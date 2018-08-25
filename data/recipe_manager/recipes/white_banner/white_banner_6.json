@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_shulker_box"
+      "item": "minecraft:light_gray_wool"
     },
     "|": {
-      "item": "minecraft:turtle_helmet"
+      "item": "minecraft:melon_seeds"
     }
   },
   "result": {

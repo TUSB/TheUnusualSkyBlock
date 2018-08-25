@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:jungle_button"
+      "item": "minecraft:acacia_log"
     },
     {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:red_sand"
     }
   ],
   "result": {

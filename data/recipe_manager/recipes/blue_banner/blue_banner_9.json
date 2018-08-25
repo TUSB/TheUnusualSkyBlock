@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jukebox"
+      "item": "minecraft:daylight_detector"
     },
     "|": {
-      "item": "minecraft:sign"
+      "item": "minecraft:green_stained_glass_pane"
     }
   },
   "result": {

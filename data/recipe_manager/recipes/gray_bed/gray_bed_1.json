@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_log"
+      "item": "minecraft:porkchop"
     },
     "X": {
-      "item": "minecraft:lime_concrete"
+      "item": "minecraft:stone_brick_stairs"
     }
   },
   "result": {

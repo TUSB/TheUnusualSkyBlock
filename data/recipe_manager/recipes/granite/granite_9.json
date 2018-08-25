@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:golden_apple"
+      "item": "minecraft:brown_terracotta"
     },
     {
-      "item": "minecraft:mycelium"
+      "item": "minecraft:magma_block"
     }
   ],
   "result": {

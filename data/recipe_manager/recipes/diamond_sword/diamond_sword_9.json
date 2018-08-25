@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_bed"
+      "item": "minecraft:dead_bubble_coral_block"
     },
     "#": {
-      "item": "minecraft:green_terracotta"
+      "item": "minecraft:magenta_wool"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brick_slab"
+      "item": "minecraft:bread"
     },
     "#": {
-      "item": "minecraft:carrot_on_a_stick"
+      "item": "minecraft:orange_bed"
     }
   },
   "result": {

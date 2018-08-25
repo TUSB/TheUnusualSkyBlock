@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:coal_block"
+      "item": "minecraft:apple"
     },
     {
-      "item": "minecraft:cocoa_beans"
+      "item": "minecraft:black_bed"
     },
     {
-      "item": "minecraft:cyan_bed"
+      "item": "minecraft:chainmail_chestplate"
     },
     {
-      "item": "minecraft:dried_kelp_block"
+      "item": "minecraft:flint"
     },
     {
-      "item": "minecraft:flint_and_steel"
+      "item": "minecraft:lingering_potion"
     },
     {
-      "item": "minecraft:lead"
+      "item": "minecraft:red_nether_bricks"
     },
     {
-      "item": "minecraft:leather_leggings"
+      "item": "minecraft:stone_pickaxe"
     },
     {
-      "item": "minecraft:sugar_cane"
+      "item": "minecraft:trident"
     },
     {
-      "item": "minecraft:yellow_glazed_terracotta"
+      "item": "minecraft:yellow_wool"
     }
   ],
   "result": {

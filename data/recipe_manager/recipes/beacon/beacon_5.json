@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:birch_door"
+      "item": "minecraft:dead_bubble_coral_block"
     },
     "S": {
-      "item": "minecraft:bookshelf"
+      "item": "minecraft:potato"
     },
     "O": {
-      "item": "minecraft:yellow_shulker_box"
+      "item": "minecraft:rotten_flesh"
     }
   },
   "result": {

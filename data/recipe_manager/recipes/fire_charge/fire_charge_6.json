@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bow"
+      "item": "minecraft:birch_door"
     },
     {
-      "item": "minecraft:red_terracotta"
+      "item": "minecraft:brick_slab"
     }
   ],
   "result": {

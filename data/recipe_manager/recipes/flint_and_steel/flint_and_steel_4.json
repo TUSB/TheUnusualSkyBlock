@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diorite"
+      "item": "minecraft:brick_stairs"
     },
     {
-      "item": "minecraft:seagrass"
+      "item": "minecraft:stone_pickaxe"
     }
   ],
   "result": {

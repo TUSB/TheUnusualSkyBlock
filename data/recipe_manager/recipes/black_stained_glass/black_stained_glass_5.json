@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:farmland"
+      "item": "minecraft:glass_pane"
     },
     "X": {
-      "item": "minecraft:sticky_piston"
+      "item": "minecraft:netherrack"
     }
   },
   "result": {

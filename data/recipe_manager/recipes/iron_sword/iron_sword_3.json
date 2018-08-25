@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:fire_coral_fan"
+      "item": "minecraft:jungle_sapling"
     },
     "#": {
-      "item": "minecraft:iron_pickaxe"
+      "item": "minecraft:mycelium"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:coal_block"
+      "item": "minecraft:birch_fence_gate"
     },
     {
-      "item": "minecraft:diamond_sword"
+      "item": "minecraft:blue_stained_glass"
     },
     {
-      "item": "minecraft:fern"
+      "item": "minecraft:brown_concrete"
     },
     {
-      "item": "minecraft:fire_coral"
+      "item": "minecraft:coal_ore"
     },
     {
-      "item": "minecraft:grass_block"
+      "item": "minecraft:diamond_helmet"
     },
     {
-      "item": "minecraft:jungle_wood"
+      "item": "minecraft:green_terracotta"
     },
     {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:iron_horse_armor"
     },
     {
-      "item": "minecraft:nether_wart_block"
+      "item": "minecraft:lime_concrete"
     },
     {
-      "item": "minecraft:petrified_oak_slab"
+      "item": "minecraft:paper"
     }
   ],
   "result": {

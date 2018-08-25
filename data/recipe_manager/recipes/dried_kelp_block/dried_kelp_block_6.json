@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_sapling"
+      "item": "minecraft:birch_planks"
     },
     {
-      "item": "minecraft:black_wool"
+      "item": "minecraft:fermented_spider_eye"
     },
     {
-      "item": "minecraft:clock"
+      "item": "minecraft:green_glazed_terracotta"
     },
     {
-      "item": "minecraft:cyan_stained_glass"
+      "item": "minecraft:iron_shovel"
     },
     {
-      "item": "minecraft:gray_concrete"
+      "item": "minecraft:iron_sword"
     },
     {
-      "item": "minecraft:gray_wool"
+      "item": "minecraft:light_gray_bed"
     },
     {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:mycelium"
     },
     {
-      "item": "minecraft:quartz_stairs"
+      "item": "minecraft:oak_door"
     },
     {
-      "item": "minecraft:written_book"
+      "item": "minecraft:redstone_torch"
     }
   ],
   "result": {

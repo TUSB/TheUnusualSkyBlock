@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:magenta_carpet"
+      "item": "minecraft:diamond_horse_armor"
     },
     {
-      "item": "minecraft:rail"
+      "item": "minecraft:end_stone"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gravel"
+      "item": "minecraft:black_carpet"
     },
     "|": {
-      "item": "minecraft:orange_shulker_box"
+      "item": "minecraft:light_blue_bed"
     }
   },
   "result": {

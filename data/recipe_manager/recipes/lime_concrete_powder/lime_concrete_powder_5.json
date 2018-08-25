@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_slab"
+      "item": "minecraft:brewing_stand"
     },
     {
-      "item": "minecraft:birch_wood"
+      "item": "minecraft:dark_oak_wood"
     },
     {
-      "item": "minecraft:golden_chestplate"
+      "item": "minecraft:enchanting_table"
     },
     {
-      "item": "minecraft:grass_path"
+      "item": "minecraft:leather_leggings"
     },
     {
-      "item": "minecraft:note_block"
+      "item": "minecraft:packed_ice"
     },
     {
-      "item": "minecraft:polished_andesite"
+      "item": "minecraft:pink_stained_glass_pane"
     },
     {
-      "item": "minecraft:popped_chorus_fruit"
+      "item": "minecraft:prismarine_brick_slab"
     },
     {
-      "item": "minecraft:quartz_slab"
+      "item": "minecraft:redstone_ore"
     },
     {
-      "item": "minecraft:red_sand"
+      "item": "minecraft:smooth_sandstone"
     }
   ],
   "result": {

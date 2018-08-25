@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chest_minecart"
+      "item": "minecraft:bone_meal"
     },
     "X": {
-      "item": "minecraft:glass_bottle"
+      "item": "minecraft:fishing_rod"
     }
   },
   "result": {

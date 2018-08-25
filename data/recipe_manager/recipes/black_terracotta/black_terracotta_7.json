@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:pink_shulker_box"
+      "item": "minecraft:prismarine_brick_slab"
     },
     "X": {
-      "item": "minecraft:seagrass"
+      "item": "minecraft:prismarine_slab"
     }
   },
   "result": {

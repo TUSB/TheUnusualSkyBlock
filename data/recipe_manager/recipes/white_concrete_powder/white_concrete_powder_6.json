@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_planks"
+      "item": "minecraft:baked_potato"
     },
     {
-      "item": "minecraft:cake"
+      "item": "minecraft:dandelion"
     },
     {
-      "item": "minecraft:feather"
+      "item": "minecraft:gray_shulker_box"
     },
     {
-      "item": "minecraft:gray_concrete_powder"
+      "item": "minecraft:iron_bars"
     },
     {
-      "item": "minecraft:jukebox"
+      "item": "minecraft:lime_carpet"
     },
     {
-      "item": "minecraft:lime_terracotta"
+      "item": "minecraft:magenta_carpet"
     },
     {
-      "item": "minecraft:oak_sapling"
+      "item": "minecraft:rail"
     },
     {
-      "item": "minecraft:prismarine_stairs"
+      "item": "minecraft:rose_bush"
     },
     {
-      "item": "minecraft:purple_banner"
+      "item": "minecraft:soul_sand"
     }
   ],
   "result": {

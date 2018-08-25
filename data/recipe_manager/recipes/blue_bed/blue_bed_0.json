@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:green_terracotta"
     },
     "X": {
-      "item": "minecraft:stone_brick_stairs"
+      "item": "minecraft:lingering_potion"
     }
   },
   "result": {

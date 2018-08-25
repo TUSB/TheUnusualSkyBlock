@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_oak_sapling"
+      "item": "minecraft:cracked_stone_bricks"
     },
     "#": {
-      "item": "minecraft:dead_brain_coral_block"
+      "item": "minecraft:gray_dye"
     },
     "R": {
-      "item": "minecraft:grass"
+      "item": "minecraft:iron_nugget"
     }
   },
   "result": {

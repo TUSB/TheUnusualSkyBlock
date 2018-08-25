@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_glazed_terracotta"
+      "item": "minecraft:clock"
     },
     "|": {
-      "item": "minecraft:quartz_stairs"
+      "item": "minecraft:light_gray_glazed_terracotta"
     }
   },
   "result": {

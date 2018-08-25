@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:carrot"
+      "item": "minecraft:chainmail_chestplate"
     },
     "|": {
-      "item": "minecraft:chiseled_red_sandstone"
+      "item": "minecraft:gray_wool"
     }
   },
   "result": {

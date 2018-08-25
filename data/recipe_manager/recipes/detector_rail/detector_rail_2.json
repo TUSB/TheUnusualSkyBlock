@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:horn_coral_fan"
+      "item": "minecraft:black_terracotta"
     },
     "#": {
-      "item": "minecraft:purple_stained_glass_pane"
+      "item": "minecraft:dragon_head"
     },
     "R": {
-      "item": "minecraft:tripwire_hook"
+      "item": "minecraft:quartz_slab"
     }
   },
   "result": {

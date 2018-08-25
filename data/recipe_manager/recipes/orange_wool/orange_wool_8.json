@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:pink_stained_glass_pane"
+      "item": "minecraft:fire_coral_fan"
     },
     {
-      "item": "minecraft:stripped_acacia_wood"
+      "item": "minecraft:light_blue_wool"
     }
   ],
   "result": {

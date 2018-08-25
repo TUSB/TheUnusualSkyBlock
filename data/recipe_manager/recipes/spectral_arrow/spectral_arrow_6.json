@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_concrete_powder"
+      "item": "minecraft:bowl"
     },
     "X": {
-      "item": "minecraft:slime_block"
+      "item": "minecraft:lime_wool"
     }
   },
   "result": {

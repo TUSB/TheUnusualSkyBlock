@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oxeye_daisy"
+      "item": "minecraft:jungle_button"
     },
     "|": {
-      "item": "minecraft:red_stained_glass_pane"
+      "item": "minecraft:prismarine_bricks"
     }
   },
   "result": {

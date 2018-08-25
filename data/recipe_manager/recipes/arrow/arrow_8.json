@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:bubble_coral_fan"
+      "item": "minecraft:diamond_hoe"
     },
     "#": {
-      "item": "minecraft:ladder"
+      "item": "minecraft:leather_leggings"
     },
     "Y": {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:rabbit_hide"
     }
   },
   "result": {

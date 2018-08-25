@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:infested_cracked_stone_bricks"
+      "item": "minecraft:apple"
     },
     "R": {
-      "item": "minecraft:oxeye_daisy"
+      "item": "minecraft:black_stained_glass_pane"
     },
     "Q": {
-      "item": "minecraft:snow_block"
+      "item": "minecraft:quartz_stairs"
     }
   },
   "result": {

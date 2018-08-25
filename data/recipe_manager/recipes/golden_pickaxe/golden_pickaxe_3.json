@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:light_blue_concrete"
     },
     "#": {
-      "item": "minecraft:red_mushroom_block"
+      "item": "minecraft:orange_dye"
     }
   },
   "result": {

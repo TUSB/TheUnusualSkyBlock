@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magenta_wool"
+      "item": "minecraft:brown_concrete"
     },
     "X": {
-      "item": "minecraft:sand"
+      "item": "minecraft:minecart"
     }
   },
   "result": {

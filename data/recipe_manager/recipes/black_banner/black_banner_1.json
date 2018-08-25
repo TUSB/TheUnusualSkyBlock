@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_door"
+      "item": "minecraft:acacia_fence_gate"
     },
     "|": {
-      "item": "minecraft:trident"
+      "item": "minecraft:lily_pad"
     }
   },
   "result": {

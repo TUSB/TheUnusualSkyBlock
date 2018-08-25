@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:beacon"
+      "item": "minecraft:iron_block"
     },
     "#": {
-      "item": "minecraft:porkchop"
+      "item": "minecraft:lapis_block"
     }
   },
   "result": {

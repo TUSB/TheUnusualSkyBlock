@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_prismarine_slab"
+      "item": "minecraft:beacon"
     },
     "|": {
-      "item": "minecraft:light_gray_concrete"
+      "item": "minecraft:purpur_block"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:dandelion_yellow"
     },
     {
-      "item": "minecraft:spruce_boat"
+      "item": "minecraft:large_fern"
     }
   ],
   "result": {

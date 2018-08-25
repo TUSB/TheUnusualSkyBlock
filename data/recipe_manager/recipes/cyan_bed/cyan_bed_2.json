@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dead_bubble_coral_block"
+      "item": "minecraft:emerald"
     },
     "X": {
-      "item": "minecraft:turtle_egg"
+      "item": "minecraft:iron_bars"
     }
   },
   "result": {

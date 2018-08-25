@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bricks"
+      "item": "minecraft:acacia_wood"
     },
     {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:birch_sapling"
     },
     {
-      "item": "minecraft:cut_sandstone"
+      "item": "minecraft:brown_bed"
     },
     {
-      "item": "minecraft:dead_horn_coral_block"
+      "item": "minecraft:chiseled_red_sandstone"
     },
     {
-      "item": "minecraft:enchanting_table"
+      "item": "minecraft:dark_oak_door"
     },
     {
-      "item": "minecraft:golden_helmet"
+      "item": "minecraft:gold_block"
     },
     {
-      "item": "minecraft:magma_block"
+      "item": "minecraft:magenta_shulker_box"
     },
     {
-      "item": "minecraft:prismarine_slab"
+      "item": "minecraft:red_mushroom"
     },
     {
-      "item": "minecraft:purple_terracotta"
+      "item": "minecraft:sandstone_stairs"
     }
   ],
   "result": {

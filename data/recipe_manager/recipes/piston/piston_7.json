@@ -7,16 +7,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:chainmail_chestplate"
+      "item": "minecraft:acacia_button"
     },
     "#": {
-      "item": "minecraft:dark_oak_boat"
+      "item": "minecraft:dead_horn_coral_fan"
     },
     "X": {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:orange_terracotta"
     },
     "R": {
-      "item": "minecraft:stripped_spruce_wood"
+      "item": "minecraft:yellow_bed"
     }
   },
   "result": {

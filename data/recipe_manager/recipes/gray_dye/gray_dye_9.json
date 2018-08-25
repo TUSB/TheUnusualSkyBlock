@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:piston"
+      "item": "minecraft:glass_pane"
     },
     {
-      "item": "minecraft:wet_sponge"
+      "item": "minecraft:gray_wool"
     }
   ],
   "result": {

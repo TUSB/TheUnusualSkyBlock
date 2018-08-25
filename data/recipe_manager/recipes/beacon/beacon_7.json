@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:diamond_boots"
+      "item": "minecraft:dead_tube_coral_block"
     },
     "S": {
-      "item": "minecraft:golden_apple"
+      "item": "minecraft:diamond_chestplate"
     },
     "O": {
-      "item": "minecraft:rabbit_foot"
+      "item": "minecraft:vine"
     }
   },
   "result": {

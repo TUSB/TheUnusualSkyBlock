@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:grass_path"
+      "item": "minecraft:iron_sword"
     },
     "B": {
-      "item": "minecraft:sugar"
+      "item": "minecraft:red_shulker_box"
     }
   },
   "result": {

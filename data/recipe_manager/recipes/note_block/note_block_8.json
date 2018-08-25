@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cod"
+      "item": "minecraft:diamond_chestplate"
     },
     "X": {
-      "item": "minecraft:golden_shovel"
+      "item": "minecraft:diamond_pickaxe"
     }
   },
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_oak_log"
+      "item": "minecraft:filled_map"
     },
     "#": {
-      "item": "minecraft:lime_terracotta"
+      "item": "minecraft:lapis_lazuli"
     },
     "R": {
-      "item": "minecraft:stripped_birch_log"
+      "item": "minecraft:redstone_block"
     }
   },
   "result": {

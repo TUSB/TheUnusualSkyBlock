@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_prismarine"
+      "item": "minecraft:golden_horse_armor"
     },
     {
-      "item": "minecraft:gray_terracotta"
+      "item": "minecraft:iron_chestplate"
     }
   ],
   "result": {

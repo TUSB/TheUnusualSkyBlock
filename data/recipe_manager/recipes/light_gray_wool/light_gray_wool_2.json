@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:farmland"
+      "item": "minecraft:horn_coral"
     },
     {
-      "item": "minecraft:yellow_stained_glass"
+      "item": "minecraft:oak_leaves"
     }
   ],
   "result": {

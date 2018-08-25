@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cobblestone_stairs"
+      "item": "minecraft:golden_carrot"
     },
     "#": {
-      "item": "minecraft:jungle_log"
+      "item": "minecraft:oak_planks"
     },
     "R": {
-      "item": "minecraft:orange_tulip"
+      "item": "minecraft:prismarine_bricks"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:chainmail_leggings"
+      "item": "minecraft:mycelium"
     },
     "#": {
-      "item": "minecraft:magma_block"
+      "item": "minecraft:rabbit_hide"
     }
   },
   "result": {

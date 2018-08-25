@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_wool"
+      "item": "minecraft:iron_ore"
     },
     "X": {
-      "item": "minecraft:stone_pickaxe"
+      "item": "minecraft:white_shulker_box"
     }
   },
   "result": {

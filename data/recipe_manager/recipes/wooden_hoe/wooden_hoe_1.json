@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brick_slab"
+      "item": "minecraft:gold_block"
     },
     "#": {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:lime_banner"
     }
   },
   "result": {

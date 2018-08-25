@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_planks"
+      "item": "minecraft:painting"
     },
     "|": {
-      "item": "minecraft:glass_bottle"
+      "item": "minecraft:purple_wool"
     }
   },
   "result": {

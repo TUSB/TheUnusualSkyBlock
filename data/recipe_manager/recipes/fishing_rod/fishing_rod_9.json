@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:emerald_ore"
+      "item": "minecraft:iron_ingot"
     },
     "X": {
-      "item": "minecraft:gray_shulker_box"
+      "item": "minecraft:stripped_spruce_log"
     }
   },
   "result": {

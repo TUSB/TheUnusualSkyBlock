@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bone_meal"
+      "item": "minecraft:clay"
     },
     "|": {
-      "item": "minecraft:cooked_porkchop"
+      "item": "minecraft:phantom_membrane"
     }
   },
   "result": {

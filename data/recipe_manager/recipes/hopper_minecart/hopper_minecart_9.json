@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:bow"
+      "item": "minecraft:gold_ingot"
     },
     "B": {
-      "item": "minecraft:purple_concrete_powder"
+      "item": "minecraft:stick"
     }
   },
   "result": {

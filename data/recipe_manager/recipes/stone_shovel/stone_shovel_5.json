@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cooked_chicken"
+      "item": "minecraft:gray_concrete"
     },
     "#": {
-      "item": "minecraft:stone_button"
+      "item": "minecraft:orange_concrete_powder"
     }
   },
   "result": {

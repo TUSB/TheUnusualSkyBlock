@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cod_bucket"
+      "item": "minecraft:beetroot_soup"
     },
     {
-      "item": "minecraft:cut_red_sandstone"
+      "item": "minecraft:brown_carpet"
     },
     {
-      "item": "minecraft:cyan_wool"
+      "item": "minecraft:cookie"
     },
     {
-      "item": "minecraft:dirt"
+      "item": "minecraft:golden_axe"
     },
     {
-      "item": "minecraft:dragon_head"
+      "item": "minecraft:paper"
     },
     {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:pink_tulip"
     },
     {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:red_wool"
     },
     {
-      "item": "minecraft:red_sand"
+      "item": "minecraft:splash_potion"
     },
     {
-      "item": "minecraft:tube_coral_block"
+      "item": "minecraft:spruce_fence"
     }
   ],
   "result": {

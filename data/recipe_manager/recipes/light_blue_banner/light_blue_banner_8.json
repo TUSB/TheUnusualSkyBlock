@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:arrow"
+      "item": "minecraft:jungle_log"
     },
     "|": {
-      "item": "minecraft:black_shulker_box"
+      "item": "minecraft:melon"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lime_banner"
+      "item": "minecraft:birch_fence_gate"
     },
     {
-      "item": "minecraft:lingering_potion"
+      "item": "minecraft:gold_ore"
     }
   ],
   "result": {

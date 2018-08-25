@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_concrete"
+      "item": "minecraft:magenta_shulker_box"
     },
     "|": {
-      "item": "minecraft:salmon_bucket"
+      "item": "minecraft:wooden_shovel"
     }
   },
   "result": {

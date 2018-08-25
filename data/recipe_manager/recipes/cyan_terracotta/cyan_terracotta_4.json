@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:light_blue_terracotta"
     },
     "X": {
-      "item": "minecraft:writable_book"
+      "item": "minecraft:lily_pad"
     }
   },
   "result": {

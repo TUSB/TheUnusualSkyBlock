@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:pink_carpet"
+      "item": "minecraft:emerald_block"
     },
     "X": {
-      "item": "minecraft:redstone"
+      "item": "minecraft:lapis_block"
     }
   },
   "result": {

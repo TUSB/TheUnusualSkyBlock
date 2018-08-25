@@ -7,10 +7,10 @@
   ],
   "key": {
     "R": {
-      "item": "minecraft:jungle_pressure_plate"
+      "item": "minecraft:jungle_wood"
     },
     "G": {
-      "item": "minecraft:purpur_slab"
+      "item": "minecraft:red_stained_glass"
     }
   },
   "result": {

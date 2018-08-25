@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_sand"
+      "item": "minecraft:red_sandstone"
     },
     "|": {
-      "item": "minecraft:salmon"
+      "item": "minecraft:spruce_door"
     }
   },
   "result": {

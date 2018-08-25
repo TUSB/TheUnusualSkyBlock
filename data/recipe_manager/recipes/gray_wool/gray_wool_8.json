@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cracked_stone_bricks"
+      "item": "minecraft:green_terracotta"
     },
     {
-      "item": "minecraft:lilac"
+      "item": "minecraft:pink_stained_glass"
     }
   ],
   "result": {

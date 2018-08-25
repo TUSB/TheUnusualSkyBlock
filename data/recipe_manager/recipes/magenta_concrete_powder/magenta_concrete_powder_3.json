@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_bed"
+      "item": "minecraft:bowl"
     },
     {
-      "item": "minecraft:dark_oak_pressure_plate"
+      "item": "minecraft:chipped_anvil"
     },
     {
-      "item": "minecraft:dark_oak_sapling"
+      "item": "minecraft:jungle_fence"
     },
     {
-      "item": "minecraft:golden_horse_armor"
+      "item": "minecraft:map"
     },
     {
-      "item": "minecraft:light_gray_stained_glass"
+      "item": "minecraft:pufferfish"
     },
     {
-      "item": "minecraft:oak_slab"
+      "item": "minecraft:pumpkin_pie"
     },
     {
-      "item": "minecraft:pink_dye"
+      "item": "minecraft:turtle_egg"
     },
     {
-      "item": "minecraft:red_sandstone_slab"
+      "item": "minecraft:wet_sponge"
     },
     {
-      "item": "minecraft:redstone_lamp"
+      "item": "minecraft:zombie_head"
     }
   ],
   "result": {

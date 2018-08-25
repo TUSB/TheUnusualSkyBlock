@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_stairs"
+      "item": "minecraft:item_frame"
     },
     "X": {
-      "item": "minecraft:salmon_bucket"
+      "item": "minecraft:yellow_wool"
     }
   },
   "result": {

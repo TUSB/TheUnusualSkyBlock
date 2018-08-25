@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_fence_gate"
+      "item": "minecraft:crafting_table"
     },
     "X": {
-      "item": "minecraft:egg"
+      "item": "minecraft:slime_ball"
     }
   },
   "result": {

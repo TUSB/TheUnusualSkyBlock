@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_fence_gate"
+      "item": "minecraft:beacon"
     },
     {
-      "item": "minecraft:blue_ice"
+      "item": "minecraft:cyan_concrete_powder"
     },
     {
-      "item": "minecraft:chiseled_red_sandstone"
+      "item": "minecraft:flint"
     },
     {
-      "item": "minecraft:melon"
+      "item": "minecraft:horn_coral_fan"
     },
     {
-      "item": "minecraft:orange_bed"
+      "item": "minecraft:ink_sac"
     },
     {
-      "item": "minecraft:pink_concrete_powder"
+      "item": "minecraft:lapis_ore"
     },
     {
-      "item": "minecraft:pink_wool"
+      "item": "minecraft:redstone"
     },
     {
-      "item": "minecraft:quartz_slab"
+      "item": "minecraft:stone_pressure_plate"
     },
     {
-      "item": "minecraft:shield"
+      "item": "minecraft:trapped_chest"
     }
   ],
   "result": {

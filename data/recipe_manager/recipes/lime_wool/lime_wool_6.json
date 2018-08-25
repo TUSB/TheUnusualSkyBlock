@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:iron_trapdoor"
     },
     {
-      "item": "minecraft:yellow_wool"
+      "item": "minecraft:lapis_lazuli"
     }
   ],
   "result": {

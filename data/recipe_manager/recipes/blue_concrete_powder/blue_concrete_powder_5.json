@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bread"
+      "item": "minecraft:birch_log"
+    },
+    {
+      "item": "minecraft:chest_minecart"
+    },
+    {
+      "item": "minecraft:chiseled_quartz_block"
     },
     {
       "item": "minecraft:coal"
     },
     {
-      "item": "minecraft:dark_oak_trapdoor"
+      "item": "minecraft:dispenser"
     },
     {
-      "item": "minecraft:hay_block"
+      "item": "minecraft:green_banner"
     },
     {
-      "item": "minecraft:heart_of_the_sea"
+      "item": "minecraft:iron_helmet"
     },
     {
-      "item": "minecraft:phantom_membrane"
+      "item": "minecraft:lapis_ore"
     },
     {
-      "item": "minecraft:purple_carpet"
-    },
-    {
-      "item": "minecraft:spruce_slab"
-    },
-    {
-      "item": "minecraft:white_concrete_powder"
+      "item": "minecraft:smooth_quartz"
     }
   ],
   "result": {

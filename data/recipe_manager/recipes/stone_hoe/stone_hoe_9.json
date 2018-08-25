@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:green_stained_glass"
+      "item": "minecraft:scute"
     },
     "#": {
-      "item": "minecraft:stone"
+      "item": "minecraft:stripped_dark_oak_wood"
     }
   },
   "result": {

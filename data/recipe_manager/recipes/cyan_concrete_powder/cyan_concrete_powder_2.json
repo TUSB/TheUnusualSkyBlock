@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_leaves"
+      "item": "minecraft:cocoa_beans"
     },
     {
-      "item": "minecraft:black_wool"
+      "item": "minecraft:ender_pearl"
     },
     {
-      "item": "minecraft:blue_orchid"
+      "item": "minecraft:ink_sac"
     },
     {
-      "item": "minecraft:hay_block"
+      "item": "minecraft:leather"
     },
     {
-      "item": "minecraft:iron_chestplate"
+      "item": "minecraft:lime_stained_glass"
     },
     {
-      "item": "minecraft:red_glazed_terracotta"
+      "item": "minecraft:prismarine_slab"
     },
     {
-      "item": "minecraft:red_sandstone_slab"
+      "item": "minecraft:red_bed"
     },
     {
-      "item": "minecraft:salmon"
+      "item": "minecraft:terracotta"
     },
     {
-      "item": "minecraft:sign"
+      "item": "minecraft:tube_coral_block"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:green_wool"
     },
     "X": {
-      "item": "minecraft:nether_brick_stairs"
+      "item": "minecraft:nether_brick"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:gray_wool"
+      "item": "minecraft:birch_button"
     },
     {
-      "item": "minecraft:string"
+      "item": "minecraft:light_gray_shulker_box"
     }
   ],
   "result": {

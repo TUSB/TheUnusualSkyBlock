@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:nautilus_shell"
+      "item": "minecraft:bone"
     },
     {
-      "item": "minecraft:orange_terracotta"
+      "item": "minecraft:melon_slice"
     }
   ],
   "result": {

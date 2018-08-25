@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:purple_concrete"
+      "item": "minecraft:packed_ice"
     },
     "#": {
-      "item": "minecraft:stone_brick_slab"
+      "item": "minecraft:polished_andesite"
     }
   },
   "result": {

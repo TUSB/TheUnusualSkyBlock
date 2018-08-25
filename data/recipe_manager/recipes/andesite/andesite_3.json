@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_pressure_plate"
+      "item": "minecraft:cod"
     },
     {
-      "item": "minecraft:mycelium"
+      "item": "minecraft:smooth_sandstone"
     }
   ],
   "result": {

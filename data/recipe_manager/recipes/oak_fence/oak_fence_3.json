@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:hopper"
+      "item": "minecraft:red_glazed_terracotta"
     },
     "#": {
-      "item": "minecraft:peony"
+      "item": "minecraft:stone_bricks"
     }
   },
   "result": {

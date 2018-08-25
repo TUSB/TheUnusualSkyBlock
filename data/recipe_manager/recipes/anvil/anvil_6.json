@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:birch_slab"
+      "item": "minecraft:birch_sapling"
     },
     "i": {
-      "item": "minecraft:red_banner"
+      "item": "minecraft:mushroom_stew"
     }
   },
   "result": {

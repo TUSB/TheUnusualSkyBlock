@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_stained_glass_pane"
+      "item": "minecraft:end_stone"
     },
     "#": {
-      "item": "minecraft:infested_cobblestone"
+      "item": "minecraft:leather"
     }
   },
   "result": {

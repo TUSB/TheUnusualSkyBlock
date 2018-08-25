@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magenta_carpet"
+      "item": "minecraft:purple_dye"
     },
     "|": {
-      "item": "minecraft:stone_hoe"
+      "item": "minecraft:spruce_fence"
     }
   },
   "result": {

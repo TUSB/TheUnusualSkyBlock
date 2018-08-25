@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_stained_glass_pane"
+      "item": "minecraft:blue_concrete"
     },
     {
-      "item": "minecraft:cobblestone_stairs"
+      "item": "minecraft:damaged_anvil"
     },
     {
-      "item": "minecraft:cyan_wool"
+      "item": "minecraft:golden_carrot"
     },
     {
-      "item": "minecraft:end_stone_bricks"
+      "item": "minecraft:gray_wool"
     },
     {
-      "item": "minecraft:golden_boots"
+      "item": "minecraft:leather_leggings"
     },
     {
-      "item": "minecraft:iron_hoe"
+      "item": "minecraft:magenta_stained_glass"
     },
     {
-      "item": "minecraft:pink_bed"
+      "item": "minecraft:oak_door"
     },
     {
-      "item": "minecraft:purple_dye"
+      "item": "minecraft:purpur_stairs"
     },
     {
-      "item": "minecraft:stone_shovel"
+      "item": "minecraft:sea_pickle"
     }
   ],
   "result": {

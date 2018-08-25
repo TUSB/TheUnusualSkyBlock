@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:carrot"
+      "item": "minecraft:bread"
     },
     "X": {
-      "item": "minecraft:dark_prismarine_stairs"
+      "item": "minecraft:gray_wool"
     }
   },
   "result": {

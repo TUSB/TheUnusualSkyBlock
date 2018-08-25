@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_bed"
+      "item": "minecraft:black_shulker_box"
     },
     "X": {
-      "item": "minecraft:purple_wool"
+      "item": "minecraft:stone_brick_slab"
     }
   },
   "result": {

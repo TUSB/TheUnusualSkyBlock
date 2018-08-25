@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_mushroom_block"
+      "item": "minecraft:gray_concrete_powder"
     },
     "X": {
-      "item": "minecraft:obsidian"
+      "item": "minecraft:wooden_sword"
     }
   },
   "result": {

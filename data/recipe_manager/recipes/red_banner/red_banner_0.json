@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_carpet"
+      "item": "minecraft:cyan_concrete"
     },
     "|": {
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:smooth_stone"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:magma_block"
+      "item": "minecraft:armor_stand"
     },
     "#": {
-      "item": "minecraft:rail"
+      "item": "minecraft:sea_pickle"
     }
   },
   "result": {

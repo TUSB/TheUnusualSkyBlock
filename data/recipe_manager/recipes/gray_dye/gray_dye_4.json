@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_fence"
+      "item": "minecraft:prismarine_stairs"
     },
     {
-      "item": "minecraft:soul_sand"
+      "item": "minecraft:stripped_acacia_wood"
     }
   ],
   "result": {

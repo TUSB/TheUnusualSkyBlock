@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_stained_glass"
+      "item": "minecraft:brown_wool"
     },
     "|": {
-      "item": "minecraft:magenta_bed"
+      "item": "minecraft:clay"
     }
   },
   "result": {

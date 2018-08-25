@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:coal_ore"
+      "item": "minecraft:green_banner"
     },
     "#": {
-      "item": "minecraft:pumpkin"
+      "item": "minecraft:lime_dye"
     }
   },
   "result": {

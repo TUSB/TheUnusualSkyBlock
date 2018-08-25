@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cactus_green"
+      "item": "minecraft:stick"
     },
     "#": {
-      "item": "minecraft:white_bed"
+      "item": "minecraft:yellow_wool"
     }
   },
   "result": {

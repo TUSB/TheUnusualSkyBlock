@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_pressure_plate"
+      "item": "minecraft:acacia_fence_gate"
     },
     "|": {
-      "item": "minecraft:bubble_coral_fan"
+      "item": "minecraft:black_stained_glass"
     }
   },
   "result": {

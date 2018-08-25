@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:green_carpet"
+      "item": "minecraft:leather_boots"
     },
     {
-      "item": "minecraft:lily_pad"
+      "item": "minecraft:written_book"
     }
   ],
   "result": {

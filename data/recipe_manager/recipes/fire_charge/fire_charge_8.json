@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_door"
+      "item": "minecraft:acacia_boat"
     },
     {
-      "item": "minecraft:iron_door"
+      "item": "minecraft:rose_red"
     }
   ],
   "result": {

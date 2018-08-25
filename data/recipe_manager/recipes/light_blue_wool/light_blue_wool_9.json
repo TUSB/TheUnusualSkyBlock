@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:magenta_carpet"
+      "item": "minecraft:mossy_stone_bricks"
     },
     {
-      "item": "minecraft:white_stained_glass"
+      "item": "minecraft:spruce_pressure_plate"
     }
   ],
   "result": {

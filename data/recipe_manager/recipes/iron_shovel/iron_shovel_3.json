@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:armor_stand"
+      "item": "minecraft:andesite"
     },
     "#": {
-      "item": "minecraft:iron_bars"
+      "item": "minecraft:chiseled_quartz_block"
     }
   },
   "result": {

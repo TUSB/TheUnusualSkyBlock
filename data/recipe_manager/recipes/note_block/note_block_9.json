@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:map"
+      "item": "minecraft:emerald_block"
     },
     "X": {
-      "item": "minecraft:note_block"
+      "item": "minecraft:light_gray_dye"
     }
   },
   "result": {

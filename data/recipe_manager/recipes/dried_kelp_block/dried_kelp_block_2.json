@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chest"
+      "item": "minecraft:brown_bed"
     },
     {
-      "item": "minecraft:diamond_leggings"
+      "item": "minecraft:chainmail_chestplate"
     },
     {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:cyan_stained_glass"
     },
     {
-      "item": "minecraft:jungle_planks"
+      "item": "minecraft:dark_prismarine"
     },
     {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:green_bed"
     },
     {
-      "item": "minecraft:pink_banner"
+      "item": "minecraft:magenta_concrete"
     },
     {
-      "item": "minecraft:purple_glazed_terracotta"
+      "item": "minecraft:oak_door"
     },
     {
-      "item": "minecraft:red_sandstone"
+      "item": "minecraft:pink_stained_glass"
     },
     {
-      "item": "minecraft:sandstone"
+      "item": "minecraft:tube_coral_block"
     }
   ],
   "result": {

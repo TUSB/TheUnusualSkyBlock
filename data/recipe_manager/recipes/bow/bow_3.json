@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:brown_terracotta"
     },
     "X": {
-      "item": "minecraft:vine"
+      "item": "minecraft:torch"
     }
   },
   "result": {

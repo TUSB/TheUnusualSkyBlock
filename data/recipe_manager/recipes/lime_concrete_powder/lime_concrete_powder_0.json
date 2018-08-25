@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:andesite"
+      "item": "minecraft:black_terracotta"
     },
     {
-      "item": "minecraft:brown_stained_glass_pane"
+      "item": "minecraft:blue_ice"
     },
     {
-      "item": "minecraft:chiseled_red_sandstone"
+      "item": "minecraft:book"
     },
     {
-      "item": "minecraft:cyan_bed"
+      "item": "minecraft:bow"
     },
     {
-      "item": "minecraft:dark_oak_planks"
+      "item": "minecraft:glass"
     },
     {
-      "item": "minecraft:potion"
+      "item": "minecraft:note_block"
     },
     {
-      "item": "minecraft:repeater"
+      "item": "minecraft:red_sandstone"
     },
     {
-      "item": "minecraft:rotten_flesh"
+      "item": "minecraft:spruce_sapling"
     },
     {
-      "item": "minecraft:scute"
+      "item": "minecraft:stone_sword"
     }
   ],
   "result": {

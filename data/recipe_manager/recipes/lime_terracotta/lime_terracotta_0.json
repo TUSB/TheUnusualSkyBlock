@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bread"
+      "item": "minecraft:clay"
     },
     "X": {
-      "item": "minecraft:magenta_wool"
+      "item": "minecraft:gray_concrete"
     }
   },
   "result": {

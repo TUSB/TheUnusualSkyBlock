@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_door"
+      "item": "minecraft:black_terracotta"
     },
     {
-      "item": "minecraft:blaze_rod"
+      "item": "minecraft:diamond_leggings"
     },
     {
-      "item": "minecraft:chipped_anvil"
+      "item": "minecraft:gray_carpet"
     },
     {
-      "item": "minecraft:large_fern"
+      "item": "minecraft:horn_coral_fan"
     },
     {
-      "item": "minecraft:lime_wool"
+      "item": "minecraft:jungle_slab"
     },
     {
-      "item": "minecraft:mycelium"
+      "item": "minecraft:salmon_bucket"
     },
     {
-      "item": "minecraft:stripped_dark_oak_log"
+      "item": "minecraft:sand"
     },
     {
-      "item": "minecraft:sugar"
+      "item": "minecraft:snowball"
     },
     {
-      "item": "minecraft:wooden_sword"
+      "item": "minecraft:sugar_cane"
     }
   ],
   "result": {

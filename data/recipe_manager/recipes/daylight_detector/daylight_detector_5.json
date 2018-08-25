@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:enchanting_table"
+      "item": "minecraft:black_terracotta"
     },
     "Q": {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:hopper"
     },
     "W": {
-      "item": "minecraft:powered_rail"
+      "item": "minecraft:shulker_shell"
     }
   },
   "result": {

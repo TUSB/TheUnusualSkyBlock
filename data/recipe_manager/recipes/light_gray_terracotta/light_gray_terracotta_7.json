@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brick_slab"
+      "item": "minecraft:blue_ice"
     },
     "X": {
-      "item": "minecraft:chiseled_quartz_block"
+      "item": "minecraft:red_stained_glass"
     }
   },
   "result": {

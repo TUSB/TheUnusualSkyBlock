@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_shulker_box"
+      "item": "minecraft:acacia_boat"
     },
     {
-      "item": "minecraft:ice"
+      "item": "minecraft:anvil"
     },
     {
-      "item": "minecraft:infested_cobblestone"
+      "item": "minecraft:cactus_green"
     },
     {
-      "item": "minecraft:light_gray_stained_glass_pane"
+      "item": "minecraft:cobblestone"
     },
     {
-      "item": "minecraft:lime_dye"
+      "item": "minecraft:cyan_glazed_terracotta"
     },
     {
-      "item": "minecraft:oak_pressure_plate"
+      "item": "minecraft:melon_slice"
     },
     {
-      "item": "minecraft:peony"
+      "item": "minecraft:nether_wart_block"
     },
     {
-      "item": "minecraft:piston"
+      "item": "minecraft:orange_banner"
     },
     {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:splash_potion"
     }
   ],
   "result": {

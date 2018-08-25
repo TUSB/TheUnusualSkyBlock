@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_sand"
+      "item": "minecraft:acacia_leaves"
     },
     "|": {
-      "item": "minecraft:snow"
+      "item": "minecraft:diamond_chestplate"
     }
   },
   "result": {

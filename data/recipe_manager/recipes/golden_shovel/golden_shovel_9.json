@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:jungle_sapling"
+      "item": "minecraft:lever"
     },
     "#": {
-      "item": "minecraft:tipped_arrow"
+      "item": "minecraft:light_blue_wool"
     }
   },
   "result": {

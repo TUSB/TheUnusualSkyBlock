@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:netherrack"
+      "item": "minecraft:golden_sword"
     },
     "X": {
-      "item": "minecraft:prismarine_brick_stairs"
+      "item": "minecraft:red_stained_glass_pane"
     }
   },
   "result": {

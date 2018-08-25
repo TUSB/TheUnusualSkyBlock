@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chest"
+      "item": "minecraft:cake"
     },
     {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:orange_banner"
     },
     {
-      "item": "minecraft:prismarine_stairs"
+      "item": "minecraft:white_stained_glass_pane"
     }
   ],
   "result": {

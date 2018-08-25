@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:brown_stained_glass"
     },
     {
-      "item": "minecraft:white_glazed_terracotta"
+      "item": "minecraft:prismarine_slab"
     }
   ],
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_planks"
+      "item": "minecraft:egg"
     },
     {
-      "item": "minecraft:cauldron"
+      "item": "minecraft:orange_glazed_terracotta"
     }
   ],
   "result": {

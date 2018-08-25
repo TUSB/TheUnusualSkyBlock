@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:light_gray_glazed_terracotta"
     },
     "W": {
-      "item": "minecraft:stripped_jungle_wood"
+      "item": "minecraft:stripped_dark_oak_log"
     }
   },
   "result": {

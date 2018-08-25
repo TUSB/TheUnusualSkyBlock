@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:allium"
+      "item": "minecraft:cyan_concrete"
     },
     {
-      "item": "minecraft:brain_coral_block"
+      "item": "minecraft:gray_carpet"
     },
     {
-      "item": "minecraft:glistering_melon_slice"
+      "item": "minecraft:iron_nugget"
     },
     {
-      "item": "minecraft:infested_stone_bricks"
+      "item": "minecraft:oak_fence"
     },
     {
-      "item": "minecraft:jungle_trapdoor"
+      "item": "minecraft:red_terracotta"
     },
     {
-      "item": "minecraft:orange_tulip"
+      "item": "minecraft:redstone_torch"
     },
     {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:sponge"
     },
     {
-      "item": "minecraft:salmon_bucket"
+      "item": "minecraft:wet_sponge"
     },
     {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:wheat"
     }
   ],
   "result": {

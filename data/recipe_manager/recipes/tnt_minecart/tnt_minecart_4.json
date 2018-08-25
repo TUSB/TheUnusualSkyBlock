@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:lime_stained_glass"
+      "item": "minecraft:jungle_pressure_plate"
     },
     "B": {
-      "item": "minecraft:white_banner"
+      "item": "minecraft:sandstone_slab"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:emerald"
+      "item": "minecraft:item_frame"
     },
     {
-      "item": "minecraft:iron_axe"
+      "item": "minecraft:stripped_oak_wood"
     }
   ],
   "result": {

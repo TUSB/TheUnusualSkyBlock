@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chorus_fruit"
+      "item": "minecraft:apple"
     },
     {
-      "item": "minecraft:golden_axe"
+      "item": "minecraft:cauldron"
     },
     {
-      "item": "minecraft:purple_terracotta"
+      "item": "minecraft:iron_boots"
     },
     {
-      "item": "minecraft:red_bed"
+      "item": "minecraft:iron_horse_armor"
     },
     {
-      "item": "minecraft:red_nether_bricks"
+      "item": "minecraft:light_weighted_pressure_plate"
     },
     {
-      "item": "minecraft:red_shulker_box"
+      "item": "minecraft:magma_block"
     },
     {
-      "item": "minecraft:rose_red"
+      "item": "minecraft:purple_banner"
     },
     {
-      "item": "minecraft:white_concrete_powder"
+      "item": "minecraft:rotten_flesh"
     },
     {
-      "item": "minecraft:white_tulip"
+      "item": "minecraft:zombie_head"
     }
   ],
   "result": {

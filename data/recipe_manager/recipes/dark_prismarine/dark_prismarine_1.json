@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:end_crystal"
+      "item": "minecraft:end_stone"
     },
     "I": {
-      "item": "minecraft:stick"
+      "item": "minecraft:sugar"
     }
   },
   "result": {

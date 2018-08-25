@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:grass"
+      "item": "minecraft:pink_tulip"
     },
     "#": {
-      "item": "minecraft:wooden_sword"
+      "item": "minecraft:stripped_acacia_wood"
     }
   },
   "result": {

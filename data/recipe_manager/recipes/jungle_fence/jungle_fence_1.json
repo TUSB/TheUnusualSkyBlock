@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:rail"
+      "item": "minecraft:iron_axe"
     },
     "#": {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:magenta_carpet"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:jungle_log"
+      "item": "minecraft:rabbit"
     },
     {
-      "item": "minecraft:oak_wood"
+      "item": "minecraft:repeater"
     }
   ],
   "result": {

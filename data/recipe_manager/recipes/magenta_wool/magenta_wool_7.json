@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_pressure_plate"
+      "item": "minecraft:beetroot_soup"
     },
     {
-      "item": "minecraft:jack_o_lantern"
+      "item": "minecraft:fermented_spider_eye"
     }
   ],
   "result": {

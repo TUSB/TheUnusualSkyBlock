@@ -7,10 +7,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:jungle_wood"
+      "item": "minecraft:black_banner"
     },
     "_": {
-      "item": "minecraft:peony"
+      "item": "minecraft:black_terracotta"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:ladder"
+      "item": "minecraft:blue_shulker_box"
     },
     "W": {
-      "item": "minecraft:sandstone_slab"
+      "item": "minecraft:light_blue_dye"
     }
   },
   "result": {

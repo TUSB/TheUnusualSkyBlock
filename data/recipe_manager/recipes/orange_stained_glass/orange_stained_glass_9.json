@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cauldron"
+      "item": "minecraft:chest_minecart"
     },
     "X": {
-      "item": "minecraft:leather"
+      "item": "minecraft:conduit"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lily_pad"
+      "item": "minecraft:lime_terracotta"
     },
     {
-      "item": "minecraft:oak_sapling"
+      "item": "minecraft:purple_shulker_box"
     }
   ],
   "result": {

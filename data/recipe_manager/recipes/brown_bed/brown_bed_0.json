@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chorus_fruit"
+      "item": "minecraft:observer"
     },
     "X": {
-      "item": "minecraft:red_stained_glass_pane"
+      "item": "minecraft:smooth_sandstone"
     }
   },
   "result": {

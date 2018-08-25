@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:cobblestone_stairs"
     },
     "#": {
-      "item": "minecraft:snow"
+      "item": "minecraft:fire_coral"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:golden_helmet"
+      "item": "minecraft:dark_oak_log"
     },
     {
-      "item": "minecraft:spruce_log"
+      "item": "minecraft:rose_bush"
     }
   ],
   "result": {

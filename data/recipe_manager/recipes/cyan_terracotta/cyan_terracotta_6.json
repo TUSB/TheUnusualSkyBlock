@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:grass_path"
+      "item": "minecraft:beef"
     },
     "X": {
-      "item": "minecraft:poppy"
+      "item": "minecraft:cobblestone_slab"
     }
   },
   "result": {

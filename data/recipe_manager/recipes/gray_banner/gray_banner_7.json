@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:beef"
+      "item": "minecraft:diamond_ore"
     },
     "|": {
-      "item": "minecraft:light_gray_concrete_powder"
+      "item": "minecraft:nether_brick"
     }
   },
   "result": {

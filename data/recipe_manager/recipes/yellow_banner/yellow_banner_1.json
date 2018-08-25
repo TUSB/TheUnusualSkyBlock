@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_stairs"
+      "item": "minecraft:nether_bricks"
     },
     "|": {
-      "item": "minecraft:purple_shulker_box"
+      "item": "minecraft:prismarine"
     }
   },
   "result": {

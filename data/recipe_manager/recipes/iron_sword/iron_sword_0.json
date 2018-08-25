@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:flint_and_steel"
+      "item": "minecraft:acacia_stairs"
     },
     "#": {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:beef"
     }
   },
   "result": {

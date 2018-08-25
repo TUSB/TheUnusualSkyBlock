@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:purpur_stairs"
+      "item": "minecraft:green_carpet"
     },
     "#": {
-      "item": "minecraft:seagrass"
+      "item": "minecraft:rail"
     }
   },
   "result": {

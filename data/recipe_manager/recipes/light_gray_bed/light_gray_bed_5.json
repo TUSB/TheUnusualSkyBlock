@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:wheat_seeds"
+      "item": "minecraft:acacia_leaves"
     },
     "X": {
-      "item": "minecraft:yellow_shulker_box"
+      "item": "minecraft:packed_ice"
     }
   },
   "result": {

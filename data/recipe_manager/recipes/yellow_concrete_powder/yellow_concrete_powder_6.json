@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_fence"
+      "item": "minecraft:brain_coral"
     },
     {
-      "item": "minecraft:beetroot"
+      "item": "minecraft:damaged_anvil"
     },
     {
-      "item": "minecraft:blaze_rod"
+      "item": "minecraft:diamond_ore"
     },
     {
-      "item": "minecraft:brown_banner"
+      "item": "minecraft:diorite"
     },
     {
-      "item": "minecraft:gold_ore"
+      "item": "minecraft:milk_bucket"
     },
     {
-      "item": "minecraft:green_stained_glass_pane"
+      "item": "minecraft:spruce_trapdoor"
     },
     {
-      "item": "minecraft:jungle_log"
+      "item": "minecraft:stripped_birch_log"
     },
     {
-      "item": "minecraft:spruce_stairs"
+      "item": "minecraft:stripped_dark_oak_wood"
     },
     {
-      "item": "minecraft:stripped_birch_wood"
+      "item": "minecraft:trapped_chest"
     }
   ],
   "result": {

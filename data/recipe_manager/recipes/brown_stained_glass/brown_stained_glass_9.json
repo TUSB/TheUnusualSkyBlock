@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_wood"
+      "item": "minecraft:dandelion"
     },
     "X": {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:jungle_log"
     }
   },
   "result": {

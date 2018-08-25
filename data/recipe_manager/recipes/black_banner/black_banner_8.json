@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:ender_chest"
+      "item": "minecraft:acacia_fence_gate"
     },
     "|": {
-      "item": "minecraft:gray_stained_glass_pane"
+      "item": "minecraft:lime_wool"
     }
   },
   "result": {

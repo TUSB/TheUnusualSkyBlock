@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:carrot"
+      "item": "minecraft:blaze_powder"
     },
     "X": {
-      "item": "minecraft:cyan_wool"
+      "item": "minecraft:string"
     }
   },
   "result": {

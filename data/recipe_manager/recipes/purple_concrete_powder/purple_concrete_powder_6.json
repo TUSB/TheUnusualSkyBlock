@@ -2,28 +2,28 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_glazed_terracotta"
+      "item": "minecraft:black_stained_glass"
     },
     {
-      "item": "minecraft:cactus_green"
+      "item": "minecraft:diamond_horse_armor"
     },
     {
-      "item": "minecraft:cooked_beef"
+      "item": "minecraft:filled_map"
     },
     {
-      "item": "minecraft:dark_oak_trapdoor"
+      "item": "minecraft:fire_coral"
     },
     {
-      "item": "minecraft:dead_brain_coral_fan"
+      "item": "minecraft:iron_hoe"
     },
     {
-      "item": "minecraft:leather_leggings"
+      "item": "minecraft:piston"
     },
     {
-      "item": "minecraft:nether_brick_fence"
+      "item": "minecraft:prismarine"
     },
     {
-      "item": "minecraft:orange_carpet"
+      "item": "minecraft:stick"
     },
     {
       "item": "minecraft:trapped_chest"

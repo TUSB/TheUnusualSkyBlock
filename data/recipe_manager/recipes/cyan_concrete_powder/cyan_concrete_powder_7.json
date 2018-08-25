@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bowl"
+      "item": "minecraft:cod"
     },
     {
-      "item": "minecraft:chainmail_helmet"
+      "item": "minecraft:cyan_carpet"
     },
     {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:cyan_stained_glass"
     },
     {
-      "item": "minecraft:golden_carrot"
+      "item": "minecraft:gray_stained_glass"
     },
     {
-      "item": "minecraft:mycelium"
+      "item": "minecraft:lilac"
     },
     {
-      "item": "minecraft:prismarine_slab"
+      "item": "minecraft:lily_pad"
     },
     {
-      "item": "minecraft:purple_dye"
+      "item": "minecraft:melon_slice"
     },
     {
-      "item": "minecraft:seagrass"
+      "item": "minecraft:orange_carpet"
     },
     {
-      "item": "minecraft:stone_brick_stairs"
+      "item": "minecraft:white_stained_glass_pane"
     }
   ],
   "result": {

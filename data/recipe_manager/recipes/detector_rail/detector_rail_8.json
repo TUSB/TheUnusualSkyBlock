@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_oak_door"
+      "item": "minecraft:brown_mushroom_block"
     },
     "#": {
-      "item": "minecraft:green_terracotta"
+      "item": "minecraft:purple_carpet"
     },
     "R": {
-      "item": "minecraft:stripped_jungle_wood"
+      "item": "minecraft:stripped_oak_wood"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cut_red_sandstone"
+      "item": "minecraft:gunpowder"
     },
     {
-      "item": "minecraft:jungle_boat"
+      "item": "minecraft:pink_tulip"
     }
   ],
   "result": {

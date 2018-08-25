@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:item_frame"
+      "item": "minecraft:cracked_stone_bricks"
     },
     {
-      "item": "minecraft:light_blue_carpet"
+      "item": "minecraft:diamond"
     },
     {
-      "item": "minecraft:red_banner"
+      "item": "minecraft:jungle_trapdoor"
     }
   ],
   "result": {

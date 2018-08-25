@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:cyan_banner"
     },
     {
       "item": "minecraft:lava_bucket"
     },
     {
-      "item": "minecraft:mushroom_stem"
+      "item": "minecraft:oak_boat"
     }
   ],
   "result": {

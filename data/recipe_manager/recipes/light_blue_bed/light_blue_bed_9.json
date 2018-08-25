@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:creeper_head"
+      "item": "minecraft:anvil"
     },
     "X": {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:oak_pressure_plate"
     }
   },
   "result": {

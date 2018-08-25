@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:salmon_bucket"
+      "item": "minecraft:golden_hoe"
     },
     "#": {
-      "item": "minecraft:stripped_acacia_wood"
+      "item": "minecraft:magenta_bed"
     }
   },
   "result": {

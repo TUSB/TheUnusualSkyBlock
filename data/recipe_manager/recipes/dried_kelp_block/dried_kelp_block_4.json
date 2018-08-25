@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:daylight_detector"
+      "item": "minecraft:acacia_pressure_plate"
     },
     {
-      "item": "minecraft:dead_tube_coral_block"
+      "item": "minecraft:birch_fence_gate"
     },
     {
-      "item": "minecraft:furnace"
+      "item": "minecraft:chicken"
     },
     {
-      "item": "minecraft:ghast_tear"
+      "item": "minecraft:light_gray_stained_glass"
     },
     {
-      "item": "minecraft:green_carpet"
+      "item": "minecraft:nether_brick_slab"
     },
     {
-      "item": "minecraft:light_blue_stained_glass_pane"
+      "item": "minecraft:oak_pressure_plate"
     },
     {
-      "item": "minecraft:mycelium"
+      "item": "minecraft:spider_eye"
     },
     {
-      "item": "minecraft:red_sandstone_slab"
+      "item": "minecraft:stone_brick_slab"
     },
     {
-      "item": "minecraft:spruce_trapdoor"
+      "item": "minecraft:wheat"
     }
   ],
   "result": {

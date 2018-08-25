@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:pink_banner"
+      "item": "minecraft:acacia_stairs"
     },
     "|": {
-      "item": "minecraft:spruce_wood"
+      "item": "minecraft:purple_stained_glass_pane"
     }
   },
   "result": {

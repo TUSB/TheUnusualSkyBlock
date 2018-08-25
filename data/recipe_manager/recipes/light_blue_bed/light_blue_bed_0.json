@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:glass"
     },
     "X": {
-      "item": "minecraft:sandstone_slab"
+      "item": "minecraft:stripped_oak_log"
     }
   },
   "result": {

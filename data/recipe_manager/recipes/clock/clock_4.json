@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:beetroot"
+      "item": "minecraft:clay_ball"
     },
     "X": {
-      "item": "minecraft:hay_block"
+      "item": "minecraft:diamond_shovel"
     }
   },
   "result": {

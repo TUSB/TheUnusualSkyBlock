@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond_ore"
+      "item": "minecraft:light_blue_wool"
     },
     "#": {
-      "item": "minecraft:spruce_button"
+      "item": "minecraft:red_mushroom"
     }
   },
   "result": {

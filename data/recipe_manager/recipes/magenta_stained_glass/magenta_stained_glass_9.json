@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:smooth_quartz"
+      "item": "minecraft:oak_fence"
     },
     "X": {
-      "item": "minecraft:white_banner"
+      "item": "minecraft:white_concrete"
     }
   },
   "result": {

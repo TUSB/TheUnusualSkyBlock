@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_bed"
+      "item": "minecraft:birch_trapdoor"
     },
     {
-      "item": "minecraft:cobblestone_slab"
+      "item": "minecraft:blue_carpet"
     },
     {
-      "item": "minecraft:dark_oak_log"
+      "item": "minecraft:chorus_plant"
     },
     {
-      "item": "minecraft:ender_chest"
+      "item": "minecraft:damaged_anvil"
     },
     {
-      "item": "minecraft:orange_concrete"
+      "item": "minecraft:hopper_minecart"
     },
     {
-      "item": "minecraft:prismarine_crystals"
+      "item": "minecraft:leather"
     },
     {
-      "item": "minecraft:stone_brick_slab"
+      "item": "minecraft:pink_wool"
     },
     {
-      "item": "minecraft:wheat"
+      "item": "minecraft:potion"
     },
     {
-      "item": "minecraft:wooden_shovel"
+      "item": "minecraft:purpur_slab"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:book"
     },
     "|": {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:bucket"
     }
   },
   "result": {

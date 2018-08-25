@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:charcoal"
+      "item": "minecraft:dark_oak_planks"
     },
     {
-      "item": "minecraft:purple_stained_glass_pane"
+      "item": "minecraft:slime_ball"
     }
   ],
   "result": {

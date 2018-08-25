@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beetroot"
+      "item": "minecraft:acacia_slab"
     },
     {
-      "item": "minecraft:damaged_anvil"
+      "item": "minecraft:chainmail_boots"
     },
     {
-      "item": "minecraft:golden_leggings"
+      "item": "minecraft:grass"
     },
     {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:horn_coral_fan"
     },
     {
-      "item": "minecraft:magenta_shulker_box"
+      "item": "minecraft:jungle_stairs"
     },
     {
-      "item": "minecraft:piston"
+      "item": "minecraft:ladder"
     },
     {
-      "item": "minecraft:stone_slab"
+      "item": "minecraft:light_gray_stained_glass_pane"
     },
     {
-      "item": "minecraft:yellow_concrete"
+      "item": "minecraft:purple_concrete_powder"
     },
     {
-      "item": "minecraft:yellow_shulker_box"
+      "item": "minecraft:red_concrete_powder"
     }
   ],
   "result": {

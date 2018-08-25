@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_stained_glass_pane"
+      "item": "minecraft:bone"
     },
     "X": {
-      "item": "minecraft:purple_dye"
+      "item": "minecraft:dark_oak_sapling"
     }
   },
   "result": {

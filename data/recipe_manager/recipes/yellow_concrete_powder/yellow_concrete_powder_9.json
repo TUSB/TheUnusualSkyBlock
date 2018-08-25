@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cobweb"
+      "item": "minecraft:bubble_coral"
     },
     {
-      "item": "minecraft:cocoa_beans"
+      "item": "minecraft:cyan_concrete"
     },
     {
-      "item": "minecraft:diamond"
+      "item": "minecraft:glass"
     },
     {
-      "item": "minecraft:diorite"
+      "item": "minecraft:gray_terracotta"
     },
     {
-      "item": "minecraft:filled_map"
+      "item": "minecraft:green_stained_glass_pane"
     },
     {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:iron_block"
     },
     {
-      "item": "minecraft:sunflower"
+      "item": "minecraft:orange_stained_glass"
     },
     {
-      "item": "minecraft:tall_grass"
+      "item": "minecraft:redstone_torch"
     },
     {
-      "item": "minecraft:white_glazed_terracotta"
+      "item": "minecraft:stick"
     }
   ],
   "result": {

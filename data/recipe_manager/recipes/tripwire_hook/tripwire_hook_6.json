@@ -7,13 +7,13 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:furnace_minecart"
+      "item": "minecraft:chainmail_boots"
     },
     "S": {
-      "item": "minecraft:golden_carrot"
+      "item": "minecraft:dark_oak_trapdoor"
     },
     "#": {
-      "item": "minecraft:hay_block"
+      "item": "minecraft:end_stone"
     }
   },
   "result": {

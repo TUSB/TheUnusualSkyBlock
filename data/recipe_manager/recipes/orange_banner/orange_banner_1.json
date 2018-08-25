@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_stained_glass"
+      "item": "minecraft:dark_oak_boat"
     },
     "|": {
-      "item": "minecraft:obsidian"
+      "item": "minecraft:yellow_glazed_terracotta"
     }
   },
   "result": {

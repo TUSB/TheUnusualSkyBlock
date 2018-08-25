@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:birch_wood"
+      "item": "minecraft:cooked_mutton"
     },
     "B": {
-      "item": "minecraft:black_concrete_powder"
+      "item": "minecraft:dead_fire_coral_block"
     },
     "E": {
-      "item": "minecraft:cake"
+      "item": "minecraft:light_gray_bed"
     },
     "C": {
-      "item": "minecraft:jungle_boat"
+      "item": "minecraft:magma_cream"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:brick_slab"
+      "item": "minecraft:dark_oak_leaves"
     },
     "I": {
-      "item": "minecraft:nether_wart_block"
+      "item": "minecraft:white_concrete_powder"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:andesite"
+      "item": "minecraft:brick"
     },
     "X": {
-      "item": "minecraft:rabbit"
+      "item": "minecraft:packed_ice"
     }
   },
   "result": {

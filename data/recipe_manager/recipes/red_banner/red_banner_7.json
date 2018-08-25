@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cauldron"
+      "item": "minecraft:slime_block"
     },
     "|": {
-      "item": "minecraft:wooden_axe"
+      "item": "minecraft:stone_axe"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_fence"
+      "item": "minecraft:blaze_rod"
     },
     {
-      "item": "minecraft:birch_sapling"
+      "item": "minecraft:light_gray_terracotta"
     },
     {
-      "item": "minecraft:heart_of_the_sea"
+      "item": "minecraft:mushroom_stem"
     },
     {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:oak_fence"
     },
     {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:red_bed"
     },
     {
-      "item": "minecraft:pink_bed"
+      "item": "minecraft:red_concrete"
     },
     {
-      "item": "minecraft:pufferfish_bucket"
+      "item": "minecraft:stone_brick_slab"
     },
     {
-      "item": "minecraft:stripped_oak_wood"
+      "item": "minecraft:terracotta"
     },
     {
-      "item": "minecraft:white_tulip"
+      "item": "minecraft:yellow_concrete_powder"
     }
   ],
   "result": {

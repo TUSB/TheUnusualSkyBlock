@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_leaves"
+      "item": "minecraft:black_concrete"
     },
     "W": {
-      "item": "minecraft:pumpkin_seeds"
+      "item": "minecraft:wooden_sword"
     }
   },
   "result": {

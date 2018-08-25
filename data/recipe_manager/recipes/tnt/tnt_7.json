@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:carved_pumpkin"
+      "item": "minecraft:orange_carpet"
     },
     "#": {
-      "item": "minecraft:dried_kelp"
+      "item": "minecraft:trident"
     }
   },
   "result": {

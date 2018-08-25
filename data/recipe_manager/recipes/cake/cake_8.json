@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:potion"
+      "item": "minecraft:bone"
     },
     "B": {
-      "item": "minecraft:pufferfish_bucket"
+      "item": "minecraft:fire_coral_block"
     },
     "E": {
-      "item": "minecraft:sign"
+      "item": "minecraft:gold_nugget"
     },
     "C": {
-      "item": "minecraft:stone_pickaxe"
+      "item": "minecraft:golden_shovel"
     }
   },
   "result": {

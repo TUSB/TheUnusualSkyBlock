@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:cyan_carpet"
+      "item": "minecraft:blue_wool"
     },
     "E": {
-      "item": "minecraft:dandelion"
+      "item": "minecraft:fire_coral_fan"
     },
     "T": {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "item": "minecraft:white_bed"
     }
   },
   "result": {

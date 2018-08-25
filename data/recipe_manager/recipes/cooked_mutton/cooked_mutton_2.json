@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:oak_trapdoor"
+      "item": "minecraft:dragon_head"
     }
   ],
   "result": {

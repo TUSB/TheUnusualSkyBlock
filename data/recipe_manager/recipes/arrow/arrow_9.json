@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_pressure_plate"
+      "item": "minecraft:activator_rail"
     },
     "#": {
-      "item": "minecraft:beetroot_soup"
+      "item": "minecraft:oak_fence"
     },
     "Y": {
-      "item": "minecraft:dark_oak_door"
+      "item": "minecraft:purple_stained_glass_pane"
     }
   },
   "result": {

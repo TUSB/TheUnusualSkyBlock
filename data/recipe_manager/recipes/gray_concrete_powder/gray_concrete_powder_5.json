@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bread"
+      "item": "minecraft:baked_potato"
     },
     {
-      "item": "minecraft:brown_concrete_powder"
+      "item": "minecraft:brown_carpet"
     },
     {
-      "item": "minecraft:charcoal"
+      "item": "minecraft:dandelion"
     },
     {
-      "item": "minecraft:diamond_chestplate"
+      "item": "minecraft:gravel"
     },
     {
-      "item": "minecraft:golden_horse_armor"
+      "item": "minecraft:iron_trapdoor"
     },
     {
-      "item": "minecraft:iron_bars"
+      "item": "minecraft:peony"
     },
     {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:slime_ball"
     },
     {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:stone_pressure_plate"
     },
     {
-      "item": "minecraft:stick"
+      "item": "minecraft:turtle_egg"
     }
   ],
   "result": {

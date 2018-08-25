@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:bucket"
+      "item": "minecraft:cyan_terracotta"
     },
     "#": {
-      "item": "minecraft:dark_prismarine"
+      "item": "minecraft:hopper_minecart"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dirt"
+      "item": "minecraft:lead"
     },
     "X": {
-      "item": "minecraft:glass_pane"
+      "item": "minecraft:scute"
     }
   },
   "result": {

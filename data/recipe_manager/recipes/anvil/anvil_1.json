@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:enchanting_table"
+      "item": "minecraft:activator_rail"
     },
     "i": {
-      "item": "minecraft:flint_and_steel"
+      "item": "minecraft:armor_stand"
     }
   },
   "result": {

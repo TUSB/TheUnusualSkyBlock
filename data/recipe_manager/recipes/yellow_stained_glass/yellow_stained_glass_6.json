@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lead"
+      "item": "minecraft:redstone_torch"
     },
     "X": {
-      "item": "minecraft:rose_bush"
+      "item": "minecraft:wooden_hoe"
     }
   },
   "result": {

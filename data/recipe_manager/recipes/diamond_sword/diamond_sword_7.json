@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cyan_carpet"
+      "item": "minecraft:mushroom_stew"
     },
     "#": {
-      "item": "minecraft:tipped_arrow"
+      "item": "minecraft:red_concrete_powder"
     }
   },
   "result": {

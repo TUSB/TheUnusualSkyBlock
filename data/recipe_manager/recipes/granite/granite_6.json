@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_wool"
+      "item": "minecraft:acacia_planks"
     },
     {
-      "item": "minecraft:stone_axe"
+      "item": "minecraft:cobweb"
     }
   ],
   "result": {

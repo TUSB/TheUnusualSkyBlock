@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brewing_stand"
+      "item": "minecraft:bone_block"
     },
     "X": {
-      "item": "minecraft:stripped_acacia_wood"
+      "item": "minecraft:pink_concrete_powder"
     }
   },
   "result": {

@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cobweb"
+      "item": "minecraft:ghast_tear"
     }
   ],
   "result": {

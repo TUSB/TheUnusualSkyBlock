@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_blue_banner"
+      "item": "minecraft:red_stained_glass"
     },
     "X": {
-      "item": "minecraft:magma_block"
+      "item": "minecraft:slime_ball"
     }
   },
   "result": {

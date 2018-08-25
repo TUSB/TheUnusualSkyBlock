@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_concrete"
+      "item": "minecraft:green_stained_glass_pane"
     },
     "E": {
-      "item": "minecraft:wheat"
+      "item": "minecraft:stripped_jungle_log"
     }
   },
   "result": {

@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:cod"
+      "item": "minecraft:observer"
     },
     "B": {
-      "item": "minecraft:green_bed"
+      "item": "minecraft:redstone"
     },
     "E": {
-      "item": "minecraft:note_block"
+      "item": "minecraft:sponge"
     },
     "C": {
-      "item": "minecraft:purple_concrete_powder"
+      "item": "minecraft:spruce_planks"
     }
   },
   "result": {

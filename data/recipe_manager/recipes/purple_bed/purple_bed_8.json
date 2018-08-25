@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:armor_stand"
+      "item": "minecraft:green_bed"
     },
     "X": {
-      "item": "minecraft:brown_stained_glass"
+      "item": "minecraft:shulker_box"
     }
   },
   "result": {

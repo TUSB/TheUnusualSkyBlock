@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diamond_ore"
+      "item": "minecraft:acacia_log"
     },
     {
-      "item": "minecraft:magenta_concrete_powder"
+      "item": "minecraft:andesite"
     },
     {
-      "item": "minecraft:magenta_glazed_terracotta"
+      "item": "minecraft:bow"
     },
     {
-      "item": "minecraft:oak_fence"
+      "item": "minecraft:item_frame"
     },
     {
-      "item": "minecraft:orange_wool"
+      "item": "minecraft:magma_cream"
     },
     {
-      "item": "minecraft:player_head"
+      "item": "minecraft:melon_slice"
     },
     {
-      "item": "minecraft:prismarine_brick_slab"
+      "item": "minecraft:quartz"
     },
     {
-      "item": "minecraft:stripped_oak_log"
+      "item": "minecraft:wooden_pickaxe"
     },
     {
-      "item": "minecraft:tube_coral_fan"
+      "item": "minecraft:yellow_stained_glass"
     }
   ],
   "result": {

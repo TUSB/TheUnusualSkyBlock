@@ -7,10 +7,10 @@
   ],
   "key": {
     "R": {
-      "item": "minecraft:hay_block"
+      "item": "minecraft:map"
     },
     "G": {
-      "item": "minecraft:trident"
+      "item": "minecraft:white_tulip"
     }
   },
   "result": {

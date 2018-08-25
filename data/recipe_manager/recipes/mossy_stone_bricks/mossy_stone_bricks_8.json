@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:magma_cream"
+      "item": "minecraft:ladder"
     },
     {
-      "item": "minecraft:stripped_acacia_wood"
+      "item": "minecraft:spruce_stairs"
     }
   ],
   "result": {

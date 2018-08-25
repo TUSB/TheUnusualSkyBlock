@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:green_stained_glass"
+      "item": "minecraft:blue_bed"
     },
     "#": {
-      "item": "minecraft:oak_fence_gate"
+      "item": "minecraft:lava_bucket"
     }
   },
   "result": {

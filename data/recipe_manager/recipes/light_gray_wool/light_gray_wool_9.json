@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:conduit"
+      "item": "minecraft:cooked_cod"
     },
     {
-      "item": "minecraft:hopper"
+      "item": "minecraft:shears"
     }
   ],
   "result": {

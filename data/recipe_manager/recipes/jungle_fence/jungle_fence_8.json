@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:dark_oak_planks"
+      "item": "minecraft:diamond_shovel"
     },
     "#": {
-      "item": "minecraft:nether_wart_block"
+      "item": "minecraft:pink_stained_glass_pane"
     }
   },
   "result": {

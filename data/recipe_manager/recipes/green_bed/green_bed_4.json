@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_mushroom_block"
+      "item": "minecraft:filled_map"
     },
     "X": {
-      "item": "minecraft:tipped_arrow"
+      "item": "minecraft:rabbit_hide"
     }
   },
   "result": {

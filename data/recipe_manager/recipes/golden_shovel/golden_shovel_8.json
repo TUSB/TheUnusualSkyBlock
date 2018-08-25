@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:jukebox"
+      "item": "minecraft:jungle_fence"
     },
     "#": {
-      "item": "minecraft:white_banner"
+      "item": "minecraft:seagrass"
     }
   },
   "result": {

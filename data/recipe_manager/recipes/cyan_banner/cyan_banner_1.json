@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:compass"
+      "item": "minecraft:scute"
     },
     "|": {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:sticky_piston"
     }
   },
   "result": {

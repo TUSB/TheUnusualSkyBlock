@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_weighted_pressure_plate"
+      "item": "minecraft:orange_dye"
     },
     "|": {
-      "item": "minecraft:wheat"
+      "item": "minecraft:pink_terracotta"
     }
   },
   "result": {

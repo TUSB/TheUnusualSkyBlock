@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:mushroom_stew"
+      "item": "minecraft:emerald"
     },
     {
-      "item": "minecraft:wooden_axe"
+      "item": "minecraft:yellow_carpet"
     }
   ],
   "result": {

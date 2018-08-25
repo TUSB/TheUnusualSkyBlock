@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:chorus_fruit"
+      "item": "minecraft:prismarine"
     },
     "B": {
-      "item": "minecraft:dark_prismarine"
+      "item": "minecraft:quartz_slab"
     }
   },
   "result": {

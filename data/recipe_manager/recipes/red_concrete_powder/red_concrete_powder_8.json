@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_carpet"
+      "item": "minecraft:acacia_stairs"
     },
     {
       "item": "minecraft:brown_wool"
     },
     {
-      "item": "minecraft:chainmail_chestplate"
+      "item": "minecraft:green_concrete"
     },
     {
-      "item": "minecraft:cyan_bed"
+      "item": "minecraft:ink_sac"
     },
     {
-      "item": "minecraft:furnace_minecart"
+      "item": "minecraft:nether_bricks"
     },
     {
-      "item": "minecraft:iron_nugget"
+      "item": "minecraft:netherrack"
     },
     {
-      "item": "minecraft:iron_pickaxe"
+      "item": "minecraft:poppy"
     },
     {
-      "item": "minecraft:jungle_sapling"
+      "item": "minecraft:purple_stained_glass"
     },
     {
-      "item": "minecraft:wheat"
+      "item": "minecraft:scute"
     }
   ],
   "result": {

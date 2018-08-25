@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_sapling"
+      "item": "minecraft:chest"
     },
     "#": {
-      "item": "minecraft:beetroot"
+      "item": "minecraft:green_shulker_box"
     },
     "R": {
-      "item": "minecraft:potato"
+      "item": "minecraft:pufferfish"
     }
   },
   "result": {

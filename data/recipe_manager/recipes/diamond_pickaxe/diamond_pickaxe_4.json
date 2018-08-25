@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:jack_o_lantern"
+      "item": "minecraft:brown_shulker_box"
     },
     "#": {
-      "item": "minecraft:yellow_wool"
+      "item": "minecraft:dead_fire_coral_block"
     }
   },
   "result": {

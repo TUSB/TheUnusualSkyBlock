@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:map"
+      "item": "minecraft:oak_stairs"
     },
     "X": {
-      "item": "minecraft:turtle_egg"
+      "item": "minecraft:red_carpet"
     },
     "I": {
-      "item": "minecraft:white_tulip"
+      "item": "minecraft:snow"
     }
   },
   "result": {

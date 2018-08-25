@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cod"
+      "item": "minecraft:black_concrete"
     },
     "#": {
-      "item": "minecraft:pink_shulker_box"
+      "item": "minecraft:blue_shulker_box"
     }
   },
   "result": {

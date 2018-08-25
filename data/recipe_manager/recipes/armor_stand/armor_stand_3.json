@@ -7,10 +7,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:pumpkin"
+      "item": "minecraft:gray_shulker_box"
     },
     "_": {
-      "item": "minecraft:smooth_red_sandstone"
+      "item": "minecraft:red_tulip"
     }
   },
   "result": {

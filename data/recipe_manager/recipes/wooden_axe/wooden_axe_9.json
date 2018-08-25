@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:orange_wool"
+      "item": "minecraft:enchanted_book"
     },
     "#": {
-      "item": "minecraft:spruce_fence"
+      "item": "minecraft:golden_chestplate"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cactus"
+      "item": "minecraft:red_bed"
     },
     "|": {
-      "item": "minecraft:wheat_seeds"
+      "item": "minecraft:spruce_sapling"
     }
   },
   "result": {

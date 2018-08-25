@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_helmet"
+      "item": "minecraft:comparator"
     },
     "|": {
-      "item": "minecraft:jungle_sapling"
+      "item": "minecraft:spruce_sapling"
     }
   },
   "result": {

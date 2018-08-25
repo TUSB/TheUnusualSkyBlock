@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_log"
+      "item": "minecraft:light_gray_shulker_box"
     },
     "X": {
-      "item": "minecraft:light_gray_wool"
+      "item": "minecraft:red_banner"
     },
     "I": {
-      "item": "minecraft:podzol"
+      "item": "minecraft:tall_grass"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_banner"
+      "item": "minecraft:oak_slab"
     },
     {
-      "item": "minecraft:cyan_carpet"
+      "item": "minecraft:smooth_red_sandstone"
     }
   ],
   "result": {

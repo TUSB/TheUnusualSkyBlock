@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:magenta_shulker_box"
+      "item": "minecraft:diamond_sword"
     }
   ],
   "result": {

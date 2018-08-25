@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_shulker_box"
+      "item": "minecraft:chiseled_stone_bricks"
     },
     "X": {
-      "item": "minecraft:cooked_chicken"
+      "item": "minecraft:crafting_table"
     }
   },
   "result": {

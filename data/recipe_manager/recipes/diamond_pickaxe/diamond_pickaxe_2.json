@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:chiseled_stone_bricks"
+      "item": "minecraft:prismarine_bricks"
     },
     "#": {
-      "item": "minecraft:dark_oak_sapling"
+      "item": "minecraft:red_tulip"
     }
   },
   "result": {

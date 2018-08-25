@@ -7,10 +7,10 @@
   ],
   "key": {
     "O": {
-      "item": "minecraft:lapis_block"
+      "item": "minecraft:blaze_powder"
     },
     "B": {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:blue_concrete_powder"
     }
   },
   "result": {

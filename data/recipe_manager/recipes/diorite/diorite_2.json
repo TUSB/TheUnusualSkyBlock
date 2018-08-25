@@ -6,10 +6,10 @@
   ],
   "key": {
     "C": {
-      "item": "minecraft:sand"
+      "item": "minecraft:quartz_slab"
     },
     "Q": {
-      "item": "minecraft:written_book"
+      "item": "minecraft:stripped_dark_oak_wood"
     }
   },
   "result": {

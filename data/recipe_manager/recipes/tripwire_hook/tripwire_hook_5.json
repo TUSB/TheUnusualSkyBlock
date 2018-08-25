@@ -7,13 +7,13 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:birch_trapdoor"
+      "item": "minecraft:diamond_chestplate"
     },
     "S": {
-      "item": "minecraft:cooked_chicken"
+      "item": "minecraft:glass"
     },
     "#": {
-      "item": "minecraft:leather_boots"
+      "item": "minecraft:glass_bottle"
     }
   },
   "result": {

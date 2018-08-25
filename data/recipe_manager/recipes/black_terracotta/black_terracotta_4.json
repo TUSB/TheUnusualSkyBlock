@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:comparator"
+      "item": "minecraft:orange_glazed_terracotta"
     },
     "X": {
-      "item": "minecraft:dark_oak_trapdoor"
+      "item": "minecraft:stone_pressure_plate"
     }
   },
   "result": {

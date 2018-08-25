@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_banner"
+      "item": "minecraft:armor_stand"
     },
     {
-      "item": "minecraft:glistering_melon_slice"
+      "item": "minecraft:birch_slab"
     }
   ],
   "result": {

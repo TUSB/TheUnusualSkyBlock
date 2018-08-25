@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:oak_door"
+      "item": "minecraft:seagrass"
     },
     "#": {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:splash_potion"
     }
   },
   "result": {

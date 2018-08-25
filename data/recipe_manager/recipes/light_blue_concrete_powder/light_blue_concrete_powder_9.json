@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_stained_glass_pane"
+      "item": "minecraft:bookshelf"
     },
     {
-      "item": "minecraft:charcoal"
+      "item": "minecraft:cobblestone"
     },
     {
-      "item": "minecraft:cut_red_sandstone"
+      "item": "minecraft:cyan_terracotta"
     },
     {
-      "item": "minecraft:dried_kelp"
+      "item": "minecraft:enchanted_book"
     },
     {
-      "item": "minecraft:lapis_ore"
+      "item": "minecraft:gray_dye"
     },
     {
-      "item": "minecraft:nether_brick_stairs"
+      "item": "minecraft:iron_ingot"
     },
     {
-      "item": "minecraft:prismarine"
+      "item": "minecraft:magenta_concrete_powder"
     },
     {
-      "item": "minecraft:red_nether_bricks"
+      "item": "minecraft:snowball"
     },
     {
-      "item": "minecraft:shulker_shell"
+      "item": "minecraft:tripwire_hook"
     }
   ],
   "result": {

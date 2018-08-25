@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:coal"
+      "item": "minecraft:kelp"
     },
     "X": {
-      "item": "minecraft:light_blue_concrete"
+      "item": "minecraft:nether_wart_block"
     }
   },
   "result": {

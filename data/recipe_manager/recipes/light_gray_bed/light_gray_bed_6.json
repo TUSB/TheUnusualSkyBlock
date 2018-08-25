@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_sapling"
+      "item": "minecraft:crafting_table"
     },
     "X": {
-      "item": "minecraft:oak_wood"
+      "item": "minecraft:damaged_anvil"
     }
   },
   "result": {

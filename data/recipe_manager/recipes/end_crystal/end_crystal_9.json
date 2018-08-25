@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:birch_trapdoor"
+      "item": "minecraft:anvil"
     },
     "E": {
-      "item": "minecraft:dried_kelp"
+      "item": "minecraft:light_blue_shulker_box"
     },
     "T": {
-      "item": "minecraft:shield"
+      "item": "minecraft:torch"
     }
   },
   "result": {

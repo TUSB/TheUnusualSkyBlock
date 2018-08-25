@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brain_coral"
+      "item": "minecraft:fire_coral"
     },
     "X": {
-      "item": "minecraft:clock"
+      "item": "minecraft:glass_pane"
     }
   },
   "result": {

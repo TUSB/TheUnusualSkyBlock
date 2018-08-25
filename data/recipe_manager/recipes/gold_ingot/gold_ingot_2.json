@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:oak_fence"
+      "item": "minecraft:chiseled_stone_bricks"
     }
   ],
   "result": {

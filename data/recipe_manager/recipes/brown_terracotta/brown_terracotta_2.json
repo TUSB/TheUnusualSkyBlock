@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:coal_ore"
+      "item": "minecraft:rabbit_hide"
     },
     "X": {
-      "item": "minecraft:packed_ice"
+      "item": "minecraft:string"
     }
   },
   "result": {

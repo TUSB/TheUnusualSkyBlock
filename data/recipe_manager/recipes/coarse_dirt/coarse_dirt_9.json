@@ -6,10 +6,10 @@
   ],
   "key": {
     "D": {
-      "item": "minecraft:bone_meal"
+      "item": "minecraft:chipped_anvil"
     },
     "G": {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:cobblestone"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "-": {
-      "item": "minecraft:dark_oak_fence"
+      "item": "minecraft:leather_chestplate"
     },
     "#": {
-      "item": "minecraft:melon_slice"
+      "item": "minecraft:pink_concrete"
     }
   },
   "result": {

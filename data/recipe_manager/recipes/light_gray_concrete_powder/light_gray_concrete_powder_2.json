@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beef"
+      "item": "minecraft:blaze_rod"
     },
     {
-      "item": "minecraft:flint"
+      "item": "minecraft:blue_banner"
     },
     {
-      "item": "minecraft:gray_concrete"
+      "item": "minecraft:cobblestone"
     },
     {
-      "item": "minecraft:iron_chestplate"
+      "item": "minecraft:dark_oak_sapling"
     },
     {
-      "item": "minecraft:podzol"
+      "item": "minecraft:dispenser"
     },
     {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:purple_glazed_terracotta"
     },
     {
-      "item": "minecraft:pumpkin_seeds"
+      "item": "minecraft:red_shulker_box"
     },
     {
-      "item": "minecraft:purple_carpet"
+      "item": "minecraft:stick"
     },
     {
-      "item": "minecraft:tnt"
+      "item": "minecraft:wheat"
     }
   ],
   "result": {

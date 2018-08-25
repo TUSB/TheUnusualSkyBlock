@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:red_banner"
+      "item": "minecraft:dark_oak_stairs"
     },
     {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:diamond_shovel"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:nether_brick"
     },
     "W": {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:tripwire_hook"
     }
   },
   "result": {

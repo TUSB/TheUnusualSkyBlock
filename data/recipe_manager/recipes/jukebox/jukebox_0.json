@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cauldron"
+      "item": "minecraft:birch_trapdoor"
     },
     "X": {
-      "item": "minecraft:dark_oak_button"
+      "item": "minecraft:pink_stained_glass"
     }
   },
   "result": {

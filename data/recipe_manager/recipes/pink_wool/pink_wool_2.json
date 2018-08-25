@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_banner"
+      "item": "minecraft:birch_fence"
     },
     {
-      "item": "minecraft:pink_concrete_powder"
+      "item": "minecraft:end_rod"
     }
   ],
   "result": {

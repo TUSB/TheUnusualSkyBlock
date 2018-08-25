@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:clock"
+      "item": "minecraft:chiseled_sandstone"
     },
     {
-      "item": "minecraft:large_fern"
+      "item": "minecraft:dark_oak_trapdoor"
     },
     {
-      "item": "minecraft:lilac"
+      "item": "minecraft:daylight_detector"
     },
     {
-      "item": "minecraft:map"
+      "item": "minecraft:horn_coral_block"
     },
     {
-      "item": "minecraft:mossy_cobblestone_wall"
+      "item": "minecraft:light_gray_stained_glass"
     },
     {
-      "item": "minecraft:paper"
+      "item": "minecraft:magenta_banner"
     },
     {
-      "item": "minecraft:pink_banner"
+      "item": "minecraft:magenta_carpet"
     },
     {
-      "item": "minecraft:purple_terracotta"
+      "item": "minecraft:spruce_fence_gate"
     },
     {
-      "item": "minecraft:splash_potion"
+      "item": "minecraft:trapped_chest"
     }
   ],
   "result": {

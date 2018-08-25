@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_glazed_terracotta"
+      "item": "minecraft:diamond_shovel"
     },
     "#": {
-      "item": "minecraft:creeper_head"
+      "item": "minecraft:pink_banner"
     },
     "Y": {
-      "item": "minecraft:netherrack"
+      "item": "minecraft:red_concrete"
     }
   },
   "result": {

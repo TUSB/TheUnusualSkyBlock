@@ -6,10 +6,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:horn_coral_block"
+      "item": "minecraft:acacia_planks"
     },
     "P": {
-      "item": "minecraft:lime_banner"
+      "item": "minecraft:quartz"
     }
   },
   "result": {

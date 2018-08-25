@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brain_coral_fan"
+      "item": "minecraft:acacia_wood"
     },
     {
-      "item": "minecraft:diamond_pickaxe"
+      "item": "minecraft:bubble_coral_block"
     },
     {
-      "item": "minecraft:gray_concrete_powder"
+      "item": "minecraft:cyan_bed"
     },
     {
-      "item": "minecraft:iron_boots"
+      "item": "minecraft:cyan_glazed_terracotta"
     },
     {
-      "item": "minecraft:obsidian"
+      "item": "minecraft:fire_coral_fan"
     },
     {
-      "item": "minecraft:petrified_oak_slab"
+      "item": "minecraft:green_stained_glass"
     },
     {
-      "item": "minecraft:red_sand"
+      "item": "minecraft:orange_stained_glass"
     },
     {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:pumpkin"
     },
     {
-      "item": "minecraft:white_banner"
+      "item": "minecraft:smooth_sandstone"
     }
   ],
   "result": {

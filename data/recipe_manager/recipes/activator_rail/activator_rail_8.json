@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:glass_bottle"
+      "item": "minecraft:blue_orchid"
     },
     "S": {
-      "item": "minecraft:iron_pickaxe"
+      "item": "minecraft:cyan_carpet"
     },
     "#": {
-      "item": "minecraft:jungle_trapdoor"
+      "item": "minecraft:quartz_block"
     }
   },
   "result": {

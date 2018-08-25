@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_wood"
+      "item": "minecraft:cod"
     },
     "X": {
-      "item": "minecraft:netherrack"
+      "item": "minecraft:jungle_log"
     }
   },
   "result": {

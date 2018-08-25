@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:end_stone_bricks"
+      "item": "minecraft:diamond_helmet"
     },
     "#": {
-      "item": "minecraft:light_gray_stained_glass_pane"
+      "item": "minecraft:sugar_cane"
     }
   },
   "result": {

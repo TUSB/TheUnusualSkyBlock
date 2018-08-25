@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:book"
+      "item": "minecraft:arrow"
     },
     "X": {
-      "item": "minecraft:chiseled_red_sandstone"
+      "item": "minecraft:blue_concrete_powder"
     },
     "I": {
-      "item": "minecraft:purpur_slab"
+      "item": "minecraft:light_gray_bed"
     }
   },
   "result": {

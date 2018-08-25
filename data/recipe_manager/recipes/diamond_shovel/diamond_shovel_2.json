@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_slab"
+      "item": "minecraft:diorite"
     },
     "#": {
-      "item": "minecraft:emerald_block"
+      "item": "minecraft:gold_ingot"
     }
   },
   "result": {

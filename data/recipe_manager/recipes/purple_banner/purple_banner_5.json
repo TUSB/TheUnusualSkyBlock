@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:filled_map"
+      "item": "minecraft:blue_concrete"
     },
     "|": {
-      "item": "minecraft:stone_shovel"
+      "item": "minecraft:cobblestone_stairs"
     }
   },
   "result": {

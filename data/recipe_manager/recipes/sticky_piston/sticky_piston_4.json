@@ -6,10 +6,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:spawner"
+      "item": "minecraft:golden_helmet"
     },
     "P": {
-      "item": "minecraft:stripped_oak_wood"
+      "item": "minecraft:white_glazed_terracotta"
     }
   },
   "result": {

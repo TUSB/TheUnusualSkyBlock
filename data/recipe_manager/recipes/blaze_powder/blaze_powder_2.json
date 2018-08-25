@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:red_stained_glass_pane"
+      "item": "minecraft:sponge"
     }
   ],
   "result": {

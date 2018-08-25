@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:netherrack"
+      "item": "minecraft:cauldron"
     },
     "X": {
-      "item": "minecraft:sea_pickle"
+      "item": "minecraft:sugar"
     }
   },
   "result": {

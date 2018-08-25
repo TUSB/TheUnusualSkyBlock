@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:redstone_block"
+      "item": "minecraft:green_stained_glass"
     },
     {
-      "item": "minecraft:sea_pickle"
+      "item": "minecraft:jungle_pressure_plate"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cobblestone_wall"
+      "item": "minecraft:clay"
     },
     "W": {
-      "item": "minecraft:stone_brick_slab"
+      "item": "minecraft:obsidian"
     }
   },
   "result": {

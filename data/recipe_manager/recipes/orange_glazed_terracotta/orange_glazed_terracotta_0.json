@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:magenta_stained_glass"
+      "item": "minecraft:red_mushroom_block"
     }
   ],
   "result": {

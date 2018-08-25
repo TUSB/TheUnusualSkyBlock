@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:emerald_ore"
+      "item": "minecraft:chorus_fruit"
     }
   ],
   "result": {

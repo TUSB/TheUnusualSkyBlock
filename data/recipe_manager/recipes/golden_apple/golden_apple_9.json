@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:golden_hoe"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     },
     "X": {
-      "item": "minecraft:item_frame"
+      "item": "minecraft:redstone_lamp"
     }
   },
   "result": {

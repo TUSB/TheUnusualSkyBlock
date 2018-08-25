@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dragon_head"
+      "item": "minecraft:chest"
     },
     "X": {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:end_stone_bricks"
     },
     "R": {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:scute"
     }
   },
   "result": {

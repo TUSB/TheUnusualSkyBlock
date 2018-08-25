@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:arrow"
+      "item": "minecraft:azure_bluet"
     },
     {
-      "item": "minecraft:detector_rail"
+      "item": "minecraft:conduit"
     },
     {
-      "item": "minecraft:farmland"
+      "item": "minecraft:dark_oak_slab"
     },
     {
-      "item": "minecraft:gold_ore"
+      "item": "minecraft:hopper_minecart"
     },
     {
-      "item": "minecraft:orange_shulker_box"
+      "item": "minecraft:iron_leggings"
     },
     {
-      "item": "minecraft:prismarine_stairs"
+      "item": "minecraft:iron_shovel"
     },
     {
-      "item": "minecraft:pumpkin"
+      "item": "minecraft:netherrack"
     },
     {
-      "item": "minecraft:purpur_stairs"
+      "item": "minecraft:red_wool"
     },
     {
-      "item": "minecraft:red_bed"
+      "item": "minecraft:stripped_acacia_wood"
     }
   ],
   "result": {

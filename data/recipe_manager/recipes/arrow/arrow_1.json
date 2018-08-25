@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:flint"
+      "item": "minecraft:cyan_bed"
     },
     "#": {
-      "item": "minecraft:red_shulker_box"
+      "item": "minecraft:hopper_minecart"
     },
     "Y": {
-      "item": "minecraft:writable_book"
+      "item": "minecraft:wooden_pickaxe"
     }
   },
   "result": {

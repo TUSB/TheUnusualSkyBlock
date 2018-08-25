@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:cooked_beef"
+      "item": "minecraft:birch_boat"
     },
     "#": {
-      "item": "minecraft:slime_block"
+      "item": "minecraft:light_blue_concrete"
     }
   },
   "result": {

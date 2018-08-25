@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_stained_glass_pane"
+      "item": "minecraft:bucket"
     },
     "X": {
-      "item": "minecraft:stone"
+      "item": "minecraft:netherrack"
     }
   },
   "result": {

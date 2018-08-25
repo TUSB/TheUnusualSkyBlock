@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chiseled_sandstone"
+      "item": "minecraft:kelp"
     },
     "X": {
-      "item": "minecraft:stripped_dark_oak_log"
+      "item": "minecraft:phantom_membrane"
     },
     "R": {
-      "item": "minecraft:tube_coral_fan"
+      "item": "minecraft:red_sandstone_stairs"
     }
   },
   "result": {

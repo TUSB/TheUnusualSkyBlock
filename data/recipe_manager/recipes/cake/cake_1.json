@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:arrow"
+      "item": "minecraft:birch_sapling"
     },
     "B": {
-      "item": "minecraft:light_gray_concrete_powder"
+      "item": "minecraft:brain_coral_fan"
     },
     "E": {
-      "item": "minecraft:mossy_stone_bricks"
+      "item": "minecraft:cocoa_beans"
     },
     "C": {
-      "item": "minecraft:oak_fence"
+      "item": "minecraft:pumpkin_seeds"
     }
   },
   "result": {

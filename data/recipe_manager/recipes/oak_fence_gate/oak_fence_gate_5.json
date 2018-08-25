@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_sapling"
+      "item": "minecraft:spruce_boat"
     },
     "W": {
-      "item": "minecraft:melon"
+      "item": "minecraft:spruce_fence"
     }
   },
   "result": {

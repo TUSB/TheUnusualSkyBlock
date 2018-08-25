@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:orange_terracotta"
+      "item": "minecraft:ladder"
     },
     "#": {
-      "item": "minecraft:shield"
+      "item": "minecraft:light_gray_shulker_box"
     }
   },
   "result": {

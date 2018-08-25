@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:furnace"
+      "item": "minecraft:cauldron"
     },
     "S": {
-      "item": "minecraft:jungle_log"
+      "item": "minecraft:gray_glazed_terracotta"
     },
     "O": {
-      "item": "minecraft:peony"
+      "item": "minecraft:white_bed"
     }
   },
   "result": {

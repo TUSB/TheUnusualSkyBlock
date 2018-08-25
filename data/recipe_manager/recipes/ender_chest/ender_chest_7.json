@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:mycelium"
+      "item": "minecraft:emerald"
     },
     "E": {
-      "item": "minecraft:yellow_wool"
+      "item": "minecraft:jungle_slab"
     }
   },
   "result": {

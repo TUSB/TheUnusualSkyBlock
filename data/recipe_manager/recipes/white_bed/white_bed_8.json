@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_dye"
+      "item": "minecraft:cod_bucket"
     },
     "X": {
-      "item": "minecraft:purple_terracotta"
+      "item": "minecraft:lapis_block"
     }
   },
   "result": {

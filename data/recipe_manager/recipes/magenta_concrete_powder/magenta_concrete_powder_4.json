@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_banner"
+      "item": "minecraft:chest"
     },
     {
-      "item": "minecraft:brown_mushroom"
+      "item": "minecraft:cyan_stained_glass"
     },
     {
-      "item": "minecraft:cut_red_sandstone"
+      "item": "minecraft:gravel"
     },
     {
-      "item": "minecraft:flower_pot"
+      "item": "minecraft:green_terracotta"
     },
     {
-      "item": "minecraft:gold_block"
+      "item": "minecraft:iron_door"
     },
     {
-      "item": "minecraft:gray_terracotta"
+      "item": "minecraft:lava_bucket"
     },
     {
-      "item": "minecraft:red_stained_glass_pane"
+      "item": "minecraft:oak_leaves"
     },
     {
-      "item": "minecraft:sandstone_slab"
+      "item": "minecraft:rabbit_stew"
     },
     {
-      "item": "minecraft:yellow_shulker_box"
+      "item": "minecraft:wet_sponge"
     }
   ],
   "result": {
