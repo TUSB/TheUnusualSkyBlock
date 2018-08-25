@@ -1,8 +1,10 @@
 ##############################
 ### プレイヤー狙い
 ##############################
+execute positioned as @s facing entity @p[scores={TimeSinceDeath=1..}] eyes run tp @s ~ ~ ~ ~ ~
+execute if entity @s[tag=Direction] run function entity_manager:direction
 
-execute at @p[scores={TimeSinceDeath=1..}] positioned ~ ~1.52 ~ run function calc_manager:get/direction1
+execute rotated as @s positioned ^ ^ ^1 run function calc_manager:get/direction1
 
 ###100mをPortalCooldown tickかけて進む
 ###set M to 10000/pc ,need pc >= 10

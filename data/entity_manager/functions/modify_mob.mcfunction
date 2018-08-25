@@ -50,3 +50,4 @@ tag @s[type=minecraft:zombie] add Dead
 tag @s[type=minecraft:zombie_horse] add Dead
 tag @s[type=minecraft:zombie_pigman] add Dead
 tag @s[type=minecraft:zombie_villager] add Dead
+tag @s[type=minecraft:drowned] add Dead
