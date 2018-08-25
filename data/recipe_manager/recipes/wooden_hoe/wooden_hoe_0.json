@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:chorus_fruit"
+      "item": "minecraft:green_banner"
     },
     "#": {
-      "item": "minecraft:spruce_slab"
+      "item": "minecraft:obsidian"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:mycelium"
+      "item": "minecraft:glass_pane"
     },
     "B": {
-      "item": "minecraft:pumpkin"
+      "item": "minecraft:jungle_boat"
     }
   },
   "result": {

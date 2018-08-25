@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:granite"
+      "item": "minecraft:dirt"
     },
     "X": {
-      "item": "minecraft:smooth_stone"
+      "item": "minecraft:ender_eye"
     }
   },
   "result": {

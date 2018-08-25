@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_concrete"
+      "item": "minecraft:observer"
     },
     "X": {
-      "item": "minecraft:glass"
+      "item": "minecraft:red_nether_bricks"
     },
     "I": {
-      "item": "minecraft:white_stained_glass_pane"
+      "item": "minecraft:repeater"
     }
   },
   "result": {

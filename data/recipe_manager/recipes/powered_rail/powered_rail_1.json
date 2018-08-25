@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_wool"
+      "item": "minecraft:lapis_block"
     },
     "#": {
-      "item": "minecraft:dark_oak_wood"
+      "item": "minecraft:light_blue_concrete_powder"
     },
     "R": {
-      "item": "minecraft:magenta_dye"
+      "item": "minecraft:light_gray_stained_glass"
     }
   },
   "result": {

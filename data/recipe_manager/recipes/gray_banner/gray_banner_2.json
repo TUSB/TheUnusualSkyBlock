@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lime_glazed_terracotta"
+      "item": "minecraft:pink_bed"
     },
     "|": {
-      "item": "minecraft:red_bed"
+      "item": "minecraft:purple_shulker_box"
     }
   },
   "result": {

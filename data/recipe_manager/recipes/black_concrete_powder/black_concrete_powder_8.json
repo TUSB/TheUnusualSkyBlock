@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_carpet"
+      "item": "minecraft:black_shulker_box"
     },
     {
-      "item": "minecraft:enchanting_table"
+      "item": "minecraft:cactus_green"
     },
     {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:dark_oak_trapdoor"
     },
     {
-      "item": "minecraft:golden_sword"
+      "item": "minecraft:enchanted_book"
     },
     {
-      "item": "minecraft:green_glazed_terracotta"
+      "item": "minecraft:ender_chest"
     },
     {
-      "item": "minecraft:red_concrete"
+      "item": "minecraft:gold_ore"
     },
     {
-      "item": "minecraft:stone_bricks"
+      "item": "minecraft:lime_terracotta"
     },
     {
-      "item": "minecraft:stone_pickaxe"
+      "item": "minecraft:sea_lantern"
     },
     {
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:yellow_stained_glass"
     }
   ],
   "result": {

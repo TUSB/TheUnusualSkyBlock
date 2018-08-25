@@ -7,13 +7,13 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:note_block"
+      "item": "minecraft:sand"
     },
     "D": {
-      "item": "minecraft:purple_terracotta"
+      "item": "minecraft:stripped_oak_log"
     },
     "#": {
-      "item": "minecraft:red_terracotta"
+      "item": "minecraft:trapped_chest"
     }
   },
   "result": {

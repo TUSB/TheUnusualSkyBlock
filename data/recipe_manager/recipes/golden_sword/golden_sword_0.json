@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brain_coral_fan"
+      "item": "minecraft:blue_terracotta"
     },
     "#": {
-      "item": "minecraft:turtle_egg"
+      "item": "minecraft:hay_block"
     }
   },
   "result": {

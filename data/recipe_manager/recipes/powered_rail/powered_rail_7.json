@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:iron_helmet"
+      "item": "minecraft:blue_concrete_powder"
     },
     "#": {
-      "item": "minecraft:pink_wool"
+      "item": "minecraft:cyan_concrete_powder"
     },
     "R": {
-      "item": "minecraft:red_banner"
+      "item": "minecraft:tropical_fish_bucket"
     }
   },
   "result": {

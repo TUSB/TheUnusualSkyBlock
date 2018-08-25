@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:detector_rail"
+      "item": "minecraft:light_gray_dye"
     },
     {
-      "item": "minecraft:spruce_slab"
+      "item": "minecraft:stripped_spruce_log"
     }
   ],
   "result": {

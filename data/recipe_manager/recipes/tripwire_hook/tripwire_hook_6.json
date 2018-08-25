@@ -7,13 +7,13 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:chainmail_boots"
+      "item": "minecraft:acacia_fence_gate"
     },
     "S": {
-      "item": "minecraft:dark_oak_trapdoor"
+      "item": "minecraft:oak_leaves"
     },
     "#": {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:spruce_trapdoor"
     }
   },
   "result": {

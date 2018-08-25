@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:jungle_sapling"
+      "item": "minecraft:melon_slice"
     },
     "#": {
-      "item": "minecraft:mycelium"
+      "item": "minecraft:purple_stained_glass"
     }
   },
   "result": {

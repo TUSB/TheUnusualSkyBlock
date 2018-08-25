@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:hopper_minecart"
+      "item": "minecraft:coal_block"
     },
     "|": {
-      "item": "minecraft:terracotta"
+      "item": "minecraft:granite"
     }
   },
   "result": {

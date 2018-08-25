@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:spectral_arrow"
+      "item": "minecraft:creeper_head"
     },
     "|": {
-      "item": "minecraft:trapped_chest"
+      "item": "minecraft:yellow_banner"
     }
   },
   "result": {

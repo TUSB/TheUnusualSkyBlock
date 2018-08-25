@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cobblestone_wall"
+      "item": "minecraft:nether_brick_stairs"
     },
     {
-      "item": "minecraft:gold_nugget"
+      "item": "minecraft:stripped_dark_oak_wood"
     }
   ],
   "result": {

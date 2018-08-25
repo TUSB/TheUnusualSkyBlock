@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:dead_brain_coral_block"
+      "item": "minecraft:chiseled_sandstone"
     },
     "E": {
-      "item": "minecraft:green_carpet"
+      "item": "minecraft:cobblestone"
     },
     "T": {
-      "item": "minecraft:iron_leggings"
+      "item": "minecraft:jukebox"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_stairs"
+      "item": "minecraft:ender_eye"
     },
     {
-      "item": "minecraft:diamond_shovel"
+      "item": "minecraft:mycelium"
     }
   ],
   "result": {

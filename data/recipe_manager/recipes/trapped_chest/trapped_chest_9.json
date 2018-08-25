@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:golden_horse_armor"
+      "item": "minecraft:brown_mushroom"
     },
     {
-      "item": "minecraft:iron_chestplate"
+      "item": "minecraft:light_gray_banner"
     }
   ],
   "result": {

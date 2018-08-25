@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cookie"
+      "item": "minecraft:redstone_torch"
     },
     {
-      "item": "minecraft:pumpkin_pie"
+      "item": "minecraft:white_terracotta"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:feather"
+      "item": "minecraft:purple_shulker_box"
     },
     "X": {
-      "item": "minecraft:podzol"
+      "item": "minecraft:stripped_dark_oak_log"
     }
   },
   "result": {

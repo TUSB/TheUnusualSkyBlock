@@ -5,10 +5,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gold_ore"
+      "item": "minecraft:brick_slab"
     },
     "X": {
-      "item": "minecraft:sign"
+      "item": "minecraft:dark_oak_pressure_plate"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blaze_rod"
+      "item": "minecraft:lime_concrete_powder"
     },
     "|": {
-      "item": "minecraft:torch"
+      "item": "minecraft:lime_terracotta"
     }
   },
   "result": {

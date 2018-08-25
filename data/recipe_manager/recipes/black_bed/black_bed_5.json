@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:orange_dye"
+      "item": "minecraft:oak_trapdoor"
     },
     "X": {
-      "item": "minecraft:pink_bed"
+      "item": "minecraft:stone_slab"
     }
   },
   "result": {

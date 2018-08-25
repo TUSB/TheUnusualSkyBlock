@@ -7,13 +7,13 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:polished_granite"
+      "item": "minecraft:andesite"
     },
     "S": {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:purple_stained_glass"
     },
     "#": {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:red_shulker_box"
     }
   },
   "result": {

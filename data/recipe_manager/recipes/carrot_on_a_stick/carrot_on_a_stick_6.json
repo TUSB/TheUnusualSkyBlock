@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magenta_glazed_terracotta"
+      "item": "minecraft:dark_oak_door"
     },
     "X": {
-      "item": "minecraft:white_stained_glass"
+      "item": "minecraft:quartz_block"
     }
   },
   "result": {

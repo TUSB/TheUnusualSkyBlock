@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:potato"
+      "item": "minecraft:acacia_leaves"
     },
     "#": {
-      "item": "minecraft:repeater"
+      "item": "minecraft:dark_prismarine"
     }
   },
   "result": {

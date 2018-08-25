@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:damaged_anvil"
+      "item": "minecraft:chiseled_red_sandstone"
     },
     {
-      "item": "minecraft:light_blue_stained_glass"
+      "item": "minecraft:diamond_hoe"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:chiseled_sandstone"
+      "item": "minecraft:lilac"
     },
     "#": {
-      "item": "minecraft:purpur_block"
+      "item": "minecraft:red_tulip"
     }
   },
   "result": {

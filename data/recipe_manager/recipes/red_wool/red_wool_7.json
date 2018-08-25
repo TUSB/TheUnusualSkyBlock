@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:gray_carpet"
     },
     {
-      "item": "minecraft:stick"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     }
   ],
   "result": {

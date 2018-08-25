@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:popped_chorus_fruit"
+      "item": "minecraft:observer"
     },
     "B": {
-      "item": "minecraft:soul_sand"
+      "item": "minecraft:popped_chorus_fruit"
     }
   },
   "result": {

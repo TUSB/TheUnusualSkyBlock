@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:farmland"
+      "item": "minecraft:black_concrete_powder"
     },
     {
-      "item": "minecraft:jukebox"
+      "item": "minecraft:pink_concrete"
     }
   ],
   "result": {

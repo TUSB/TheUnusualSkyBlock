@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brown_terracotta"
+      "item": "minecraft:leather_boots"
     },
     "#": {
-      "item": "minecraft:carved_pumpkin"
+      "item": "minecraft:oak_leaves"
     }
   },
   "result": {

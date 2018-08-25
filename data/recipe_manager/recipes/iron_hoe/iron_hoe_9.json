@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_banner"
+      "item": "minecraft:chainmail_chestplate"
     },
     "#": {
-      "item": "minecraft:chest_minecart"
+      "item": "minecraft:coal"
     }
   },
   "result": {

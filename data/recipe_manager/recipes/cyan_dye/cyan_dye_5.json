@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:oak_slab"
+      "item": "minecraft:lime_dye"
     },
     {
-      "item": "minecraft:smooth_red_sandstone"
+      "item": "minecraft:orange_concrete"
     }
   ],
   "result": {

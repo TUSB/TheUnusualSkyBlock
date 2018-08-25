@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_glazed_terracotta"
+      "item": "minecraft:mossy_stone_bricks"
     },
     "#": {
-      "item": "minecraft:prismarine"
+      "item": "minecraft:pink_banner"
     }
   },
   "result": {

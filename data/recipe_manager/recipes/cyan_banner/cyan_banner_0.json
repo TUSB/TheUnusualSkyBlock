@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_terracotta"
+      "item": "minecraft:blue_stained_glass"
     },
     "|": {
-      "item": "minecraft:ender_chest"
+      "item": "minecraft:netherrack"
     }
   },
   "result": {

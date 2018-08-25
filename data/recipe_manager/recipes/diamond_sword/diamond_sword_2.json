@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:horn_coral"
+      "item": "minecraft:cobblestone_stairs"
     },
     "#": {
-      "item": "minecraft:white_tulip"
+      "item": "minecraft:skeleton_skull"
     }
   },
   "result": {

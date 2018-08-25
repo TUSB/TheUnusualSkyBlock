@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_carpet"
+      "item": "minecraft:andesite"
     },
     {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "item": "minecraft:spruce_planks"
     }
   ],
   "result": {

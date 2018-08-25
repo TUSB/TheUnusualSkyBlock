@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:fermented_spider_eye"
+      "item": "minecraft:acacia_button"
     },
     "|": {
-      "item": "minecraft:stone_bricks"
+      "item": "minecraft:cocoa_beans"
     }
   },
   "result": {

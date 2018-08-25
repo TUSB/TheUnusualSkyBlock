@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magenta_wool"
+      "item": "minecraft:beacon"
     },
     "W": {
-      "item": "minecraft:nether_quartz_ore"
+      "item": "minecraft:iron_bars"
     }
   },
   "result": {

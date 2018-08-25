@@ -6,10 +6,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:lime_carpet"
+      "item": "minecraft:gold_ore"
     },
     "#": {
-      "item": "minecraft:magenta_dye"
+      "item": "minecraft:horn_coral_block"
     }
   },
   "result": {

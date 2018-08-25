@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_leaves"
+      "item": "minecraft:acacia_button"
     },
     {
-      "item": "minecraft:acacia_trapdoor"
+      "item": "minecraft:black_bed"
     },
     {
-      "item": "minecraft:cyan_stained_glass_pane"
+      "item": "minecraft:brown_carpet"
     },
     {
-      "item": "minecraft:diamond_sword"
+      "item": "minecraft:dragon_head"
     },
     {
-      "item": "minecraft:dried_kelp_block"
+      "item": "minecraft:end_stone"
     },
     {
-      "item": "minecraft:fire_charge"
+      "item": "minecraft:lime_dye"
     },
     {
-      "item": "minecraft:oxeye_daisy"
+      "item": "minecraft:orange_banner"
     },
     {
-      "item": "minecraft:sandstone_stairs"
+      "item": "minecraft:polished_andesite"
     },
     {
-      "item": "minecraft:stripped_acacia_log"
+      "item": "minecraft:yellow_shulker_box"
     }
   ],
   "result": {

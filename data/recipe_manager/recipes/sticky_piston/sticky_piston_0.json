@@ -6,10 +6,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:dropper"
+      "item": "minecraft:ender_pearl"
     },
     "P": {
-      "item": "minecraft:golden_apple"
+      "item": "minecraft:nether_brick"
     }
   },
   "result": {

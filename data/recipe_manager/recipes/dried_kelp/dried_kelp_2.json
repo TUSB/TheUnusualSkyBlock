@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:hopper_minecart"
+      "item": "minecraft:snow"
     }
   ],
   "result": {

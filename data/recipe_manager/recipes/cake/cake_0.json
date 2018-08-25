@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:blue_wool"
+      "item": "minecraft:cod"
     },
     "B": {
-      "item": "minecraft:iron_horse_armor"
+      "item": "minecraft:dark_oak_fence"
     },
     "E": {
-      "item": "minecraft:nether_brick_slab"
+      "item": "minecraft:light_gray_stained_glass"
     },
     "C": {
-      "item": "minecraft:prismarine"
+      "item": "minecraft:snow_block"
     }
   },
   "result": {

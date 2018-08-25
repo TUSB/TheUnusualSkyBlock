@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:golden_chestplate"
+      "item": "minecraft:gray_carpet"
     },
     "B": {
-      "item": "minecraft:sand"
+      "item": "minecraft:leather_helmet"
     },
     "E": {
-      "item": "minecraft:terracotta"
+      "item": "minecraft:oak_log"
     },
     "C": {
-      "item": "minecraft:wet_sponge"
+      "item": "minecraft:stripped_dark_oak_wood"
     }
   },
   "result": {

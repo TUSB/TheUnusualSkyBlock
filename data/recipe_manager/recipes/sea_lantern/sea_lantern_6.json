@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:pumpkin_pie"
+      "item": "minecraft:brick_slab"
     },
     "C": {
-      "item": "minecraft:purple_dye"
+      "item": "minecraft:fern"
     }
   },
   "result": {

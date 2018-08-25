@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_fence"
+      "item": "minecraft:birch_boat"
     },
     {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:blue_concrete_powder"
     },
     {
-      "item": "minecraft:farmland"
+      "item": "minecraft:cauldron"
     },
     {
-      "item": "minecraft:glass_pane"
+      "item": "minecraft:cyan_wool"
     },
     {
-      "item": "minecraft:lily_pad"
+      "item": "minecraft:light_blue_shulker_box"
     },
     {
-      "item": "minecraft:nether_brick_fence"
+      "item": "minecraft:powered_rail"
     },
     {
-      "item": "minecraft:orange_dye"
+      "item": "minecraft:pufferfish"
     },
     {
-      "item": "minecraft:skeleton_skull"
+      "item": "minecraft:purpur_block"
     },
     {
-      "item": "minecraft:yellow_banner"
+      "item": "minecraft:rabbit"
     }
   ],
   "result": {

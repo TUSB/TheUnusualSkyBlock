@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:cooked_porkchop"
     },
     "X": {
-      "item": "minecraft:prismarine_brick_stairs"
+      "item": "minecraft:dark_oak_button"
     }
   },
   "result": {

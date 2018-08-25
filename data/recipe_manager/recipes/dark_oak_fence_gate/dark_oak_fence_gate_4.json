@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:anvil"
+      "item": "minecraft:chainmail_helmet"
     },
     "W": {
-      "item": "minecraft:sandstone_slab"
+      "item": "minecraft:magenta_concrete"
     }
   },
   "result": {

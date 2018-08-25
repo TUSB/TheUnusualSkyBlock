@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:brown_wool"
+      "item": "minecraft:iron_shovel"
     },
     "E": {
-      "item": "minecraft:quartz_pillar"
+      "item": "minecraft:lime_glazed_terracotta"
     },
     "T": {
-      "item": "minecraft:spider_eye"
+      "item": "minecraft:orange_wool"
     }
   },
   "result": {

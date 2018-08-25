@@ -2,16 +2,16 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_planks"
+      "item": "minecraft:clock"
     },
     {
-      "item": "minecraft:birch_fence_gate"
+      "item": "minecraft:gray_glazed_terracotta"
     },
     {
-      "item": "minecraft:grass_path"
+      "item": "minecraft:iron_leggings"
     },
     {
-      "item": "minecraft:purple_shulker_box"
+      "item": "minecraft:spruce_wood"
     }
   ],
   "result": {

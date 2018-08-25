@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:nether_wart_block"
+      "item": "minecraft:hay_block"
     },
     {
-      "item": "minecraft:white_stained_glass_pane"
+      "item": "minecraft:red_shulker_box"
     }
   ],
   "result": {

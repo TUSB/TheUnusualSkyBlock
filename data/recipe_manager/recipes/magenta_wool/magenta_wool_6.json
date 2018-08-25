@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blaze_powder"
+      "item": "minecraft:compass"
     },
     {
-      "item": "minecraft:sandstone_slab"
+      "item": "minecraft:jungle_log"
     }
   ],
   "result": {

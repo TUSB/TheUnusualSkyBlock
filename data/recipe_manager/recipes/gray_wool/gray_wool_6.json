@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:damaged_anvil"
+      "item": "minecraft:orange_bed"
     },
     {
-      "item": "minecraft:light_gray_banner"
+      "item": "minecraft:sunflower"
     }
   ],
   "result": {

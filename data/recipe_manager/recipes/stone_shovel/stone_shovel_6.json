@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:mossy_stone_bricks"
+      "item": "minecraft:brick"
     },
     "#": {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:turtle_egg"
     }
   },
   "result": {

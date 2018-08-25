@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:gold_nugget"
+      "item": "minecraft:cake"
     },
     {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:ice"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:mushroom_stew"
+      "item": "minecraft:black_bed"
     },
     "B": {
-      "item": "minecraft:spruce_pressure_plate"
+      "item": "minecraft:grass"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:vine"
+      "item": "minecraft:brewing_stand"
     },
     "X": {
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:rabbit_hide"
     }
   },
   "result": {

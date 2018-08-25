@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_wood"
+      "item": "minecraft:black_stained_glass_pane"
     },
     "X": {
-      "item": "minecraft:dead_bubble_coral_block"
+      "item": "minecraft:ice"
     }
   },
   "result": {

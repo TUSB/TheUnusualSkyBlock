@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:poppy"
+      "item": "minecraft:brown_carpet"
     },
     "|": {
-      "item": "minecraft:soul_sand"
+      "item": "minecraft:gray_wool"
     }
   },
   "result": {

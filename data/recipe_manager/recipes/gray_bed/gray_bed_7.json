@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:dirt"
     },
     "X": {
-      "item": "minecraft:red_tulip"
+      "item": "minecraft:player_head"
     }
   },
   "result": {

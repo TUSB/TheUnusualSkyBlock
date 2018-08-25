@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:black_shulker_box"
+      "item": "minecraft:golden_horse_armor"
     },
     "#": {
-      "item": "minecraft:glistering_melon_slice"
+      "item": "minecraft:lava_bucket"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:azure_bluet"
+      "item": "minecraft:acacia_log"
     },
     {
-      "item": "minecraft:blue_carpet"
+      "item": "minecraft:brick_stairs"
     },
     {
-      "item": "minecraft:chorus_flower"
+      "item": "minecraft:dirt"
     },
     {
-      "item": "minecraft:dark_prismarine_slab"
+      "item": "minecraft:jungle_stairs"
     },
     {
-      "item": "minecraft:end_crystal"
+      "item": "minecraft:light_gray_concrete"
     },
     {
-      "item": "minecraft:porkchop"
+      "item": "minecraft:orange_wool"
     },
     {
-      "item": "minecraft:string"
+      "item": "minecraft:paper"
     },
     {
-      "item": "minecraft:stripped_acacia_wood"
+      "item": "minecraft:redstone_lamp"
     },
     {
-      "item": "minecraft:white_carpet"
+      "item": "minecraft:tube_coral"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:shield"
+      "item": "minecraft:player_head"
     },
     "#": {
-      "item": "minecraft:spider_eye"
+      "item": "minecraft:stone"
     }
   },
   "result": {

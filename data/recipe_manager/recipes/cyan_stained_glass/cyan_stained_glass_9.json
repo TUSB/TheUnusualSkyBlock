@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_planks"
+      "item": "minecraft:dispenser"
     },
     "X": {
-      "item": "minecraft:peony"
+      "item": "minecraft:orange_wool"
     }
   },
   "result": {

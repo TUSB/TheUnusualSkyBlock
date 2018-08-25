@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cobblestone_wall"
+      "item": "minecraft:coarse_dirt"
     },
     "#": {
-      "item": "minecraft:sugar_cane"
+      "item": "minecraft:quartz_pillar"
     }
   },
   "result": {

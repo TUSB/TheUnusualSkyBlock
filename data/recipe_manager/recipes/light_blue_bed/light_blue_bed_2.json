@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_mushroom_block"
+      "item": "minecraft:filled_map"
     },
     "X": {
-      "item": "minecraft:oak_log"
+      "item": "minecraft:lingering_potion"
     }
   },
   "result": {

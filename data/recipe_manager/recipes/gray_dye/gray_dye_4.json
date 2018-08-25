@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:prismarine_stairs"
+      "item": "minecraft:ice"
     },
     {
-      "item": "minecraft:stripped_acacia_wood"
+      "item": "minecraft:stone_axe"
     }
   ],
   "result": {

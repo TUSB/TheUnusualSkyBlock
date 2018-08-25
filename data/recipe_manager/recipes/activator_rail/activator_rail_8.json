@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_orchid"
+      "item": "minecraft:glass_pane"
     },
     "S": {
-      "item": "minecraft:cyan_carpet"
+      "item": "minecraft:mushroom_stew"
     },
     "#": {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:pink_shulker_box"
     }
   },
   "result": {

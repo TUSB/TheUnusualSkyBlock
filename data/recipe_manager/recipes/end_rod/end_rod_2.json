@@ -6,10 +6,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:cactus"
+      "item": "minecraft:bread"
     },
     "#": {
-      "item": "minecraft:minecart"
+      "item": "minecraft:pufferfish_bucket"
     }
   },
   "result": {

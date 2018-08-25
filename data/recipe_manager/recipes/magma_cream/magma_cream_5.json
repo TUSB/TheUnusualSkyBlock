@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:leather_leggings"
+      "item": "minecraft:cactus"
     },
     {
-      "item": "minecraft:magma_cream"
+      "item": "minecraft:pink_shulker_box"
     }
   ],
   "result": {

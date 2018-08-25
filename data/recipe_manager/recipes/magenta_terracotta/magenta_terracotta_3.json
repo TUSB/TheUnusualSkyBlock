@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_trapdoor"
+      "item": "minecraft:bow"
     },
     "X": {
-      "item": "minecraft:fern"
+      "item": "minecraft:glass"
     }
   },
   "result": {

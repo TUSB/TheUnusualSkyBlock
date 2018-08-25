@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_trapdoor"
+      "item": "minecraft:detector_rail"
     },
     {
-      "item": "minecraft:blue_carpet"
+      "item": "minecraft:green_terracotta"
     },
     {
-      "item": "minecraft:chorus_plant"
+      "item": "minecraft:lime_shulker_box"
     },
     {
-      "item": "minecraft:damaged_anvil"
+      "item": "minecraft:magenta_wool"
     },
     {
-      "item": "minecraft:hopper_minecart"
+      "item": "minecraft:minecart"
     },
     {
-      "item": "minecraft:leather"
+      "item": "minecraft:prismarine_stairs"
     },
     {
-      "item": "minecraft:pink_wool"
+      "item": "minecraft:red_tulip"
     },
     {
-      "item": "minecraft:potion"
+      "item": "minecraft:spectral_arrow"
     },
     {
-      "item": "minecraft:purpur_slab"
+      "item": "minecraft:stone_pickaxe"
     }
   ],
   "result": {

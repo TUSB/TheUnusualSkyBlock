@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond_sword"
+      "item": "minecraft:jungle_log"
     },
     "#": {
-      "item": "minecraft:mushroom_stew"
+      "item": "minecraft:lead"
     }
   },
   "result": {

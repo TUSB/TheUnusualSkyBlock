@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:blue_orchid"
     },
     "X": {
-      "item": "minecraft:spider_eye"
+      "item": "minecraft:pumpkin_seeds"
     },
     "R": {
-      "item": "minecraft:yellow_bed"
+      "item": "minecraft:snow"
     }
   },
   "result": {

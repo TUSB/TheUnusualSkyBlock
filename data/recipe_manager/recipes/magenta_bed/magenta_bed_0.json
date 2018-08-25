@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:slime_block"
+      "item": "minecraft:brain_coral"
     },
     "X": {
-      "item": "minecraft:white_stained_glass"
+      "item": "minecraft:potion"
     }
   },
   "result": {

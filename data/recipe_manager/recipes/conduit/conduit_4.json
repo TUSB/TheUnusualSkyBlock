@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:creeper_head"
+      "item": "minecraft:emerald_block"
     },
     "X": {
-      "item": "minecraft:white_terracotta"
+      "item": "minecraft:gray_wool"
     }
   },
   "result": {

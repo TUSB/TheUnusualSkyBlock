@@ -7,13 +7,13 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:green_concrete"
+      "item": "minecraft:bubble_coral"
     },
     "S": {
-      "item": "minecraft:wheat_seeds"
+      "item": "minecraft:dead_tube_coral_fan"
     },
     "#": {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:dragon_breath"
     }
   },
   "result": {

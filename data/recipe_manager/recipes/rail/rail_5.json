@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_concrete"
+      "item": "minecraft:chiseled_stone_bricks"
     },
     "#": {
-      "item": "minecraft:blue_shulker_box"
+      "item": "minecraft:jungle_boat"
     }
   },
   "result": {

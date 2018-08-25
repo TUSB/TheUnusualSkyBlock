@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:carrot_on_a_stick"
+      "item": "minecraft:ender_pearl"
     },
     "S": {
-      "item": "minecraft:dark_oak_stairs"
+      "item": "minecraft:pink_terracotta"
     },
     "#": {
-      "item": "minecraft:light_blue_terracotta"
+      "item": "minecraft:stone"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lime_wool"
+      "item": "minecraft:lapis_block"
     },
     "X": {
-      "item": "minecraft:stone_button"
+      "item": "minecraft:lead"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_glazed_terracotta"
+      "item": "minecraft:granite"
     },
     "|": {
-      "item": "minecraft:prismarine_brick_stairs"
+      "item": "minecraft:turtle_helmet"
     }
   },
   "result": {

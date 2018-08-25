@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_log"
+      "item": "minecraft:light_blue_stained_glass_pane"
     },
     {
-      "item": "minecraft:rose_bush"
+      "item": "minecraft:oak_button"
     }
   ],
   "result": {

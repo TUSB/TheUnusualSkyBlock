@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diamond_helmet"
+      "item": "minecraft:magenta_terracotta"
     },
     {
-      "item": "minecraft:emerald"
+      "item": "minecraft:poisonous_potato"
     }
   ],
   "result": {

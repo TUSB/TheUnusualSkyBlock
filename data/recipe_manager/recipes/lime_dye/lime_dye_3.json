@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_stained_glass_pane"
+      "item": "minecraft:brown_banner"
     },
     {
-      "item": "minecraft:glistering_melon_slice"
+      "item": "minecraft:glowstone"
     }
   ],
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chorus_plant"
+      "item": "minecraft:birch_fence"
     },
     {
-      "item": "minecraft:emerald"
+      "item": "minecraft:dark_prismarine"
     },
     {
-      "item": "minecraft:leather_leggings"
+      "item": "minecraft:gray_wool"
     },
     {
-      "item": "minecraft:nether_brick_stairs"
+      "item": "minecraft:green_banner"
     },
     {
-      "item": "minecraft:pink_wool"
+      "item": "minecraft:item_frame"
     },
     {
-      "item": "minecraft:purple_shulker_box"
+      "item": "minecraft:lapis_lazuli"
     },
     {
-      "item": "minecraft:sponge"
+      "item": "minecraft:oak_fence_gate"
     },
     {
-      "item": "minecraft:spruce_wood"
+      "item": "minecraft:red_terracotta"
     },
     {
-      "item": "minecraft:stripped_acacia_log"
+      "item": "minecraft:redstone_lamp"
     }
   ],
   "result": {

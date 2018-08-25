@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chiseled_stone_bricks"
+      "item": "minecraft:black_terracotta"
     },
     "X": {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:lapis_ore"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bubble_coral_block"
+      "item": "minecraft:brewing_stand"
     },
     {
-      "item": "minecraft:cake"
+      "item": "minecraft:cactus"
     },
     {
-      "item": "minecraft:dark_oak_boat"
+      "item": "minecraft:chiseled_quartz_block"
     },
     {
-      "item": "minecraft:emerald_ore"
+      "item": "minecraft:jungle_trapdoor"
     },
     {
-      "item": "minecraft:enchanting_table"
+      "item": "minecraft:light_blue_wool"
     },
     {
-      "item": "minecraft:green_bed"
+      "item": "minecraft:pink_carpet"
     },
     {
-      "item": "minecraft:podzol"
+      "item": "minecraft:pufferfish_bucket"
     },
     {
-      "item": "minecraft:snow"
+      "item": "minecraft:spruce_sapling"
     },
     {
-      "item": "minecraft:tnt_minecart"
+      "item": "minecraft:yellow_wool"
     }
   ],
   "result": {

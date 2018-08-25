@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chest"
+      "item": "minecraft:paper"
     },
     "X": {
-      "item": "minecraft:pink_bed"
+      "item": "minecraft:stripped_spruce_log"
     }
   },
   "result": {

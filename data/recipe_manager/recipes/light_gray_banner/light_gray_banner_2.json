@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:snow"
+      "item": "minecraft:charcoal"
     },
     "|": {
-      "item": "minecraft:writable_book"
+      "item": "minecraft:cyan_terracotta"
     }
   },
   "result": {

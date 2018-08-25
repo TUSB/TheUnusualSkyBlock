@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:magenta_glazed_terracotta"
+      "item": "minecraft:glass_pane"
     },
     "C": {
-      "item": "minecraft:mutton"
+      "item": "minecraft:spruce_wood"
     }
   },
   "result": {

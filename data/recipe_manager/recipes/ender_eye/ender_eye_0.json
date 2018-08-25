@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diamond_horse_armor"
+      "item": "minecraft:birch_trapdoor"
     },
     {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:book"
     }
   ],
   "result": {

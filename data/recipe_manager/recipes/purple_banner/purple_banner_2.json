@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_sandstone"
+      "item": "minecraft:fire_coral"
     },
     "|": {
-      "item": "minecraft:spruce_door"
+      "item": "minecraft:stone_sword"
     }
   },
   "result": {

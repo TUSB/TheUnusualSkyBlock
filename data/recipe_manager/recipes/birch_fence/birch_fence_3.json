@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:cobblestone_stairs"
+      "item": "minecraft:green_stained_glass_pane"
     },
     "#": {
-      "item": "minecraft:fire_coral"
+      "item": "minecraft:redstone_block"
     }
   },
   "result": {

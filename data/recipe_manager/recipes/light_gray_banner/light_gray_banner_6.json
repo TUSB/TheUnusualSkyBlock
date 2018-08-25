@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chicken"
+      "item": "minecraft:carved_pumpkin"
     },
     "|": {
-      "item": "minecraft:jungle_pressure_plate"
+      "item": "minecraft:damaged_anvil"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:shield"
+      "item": "minecraft:prismarine_shard"
     },
     "X": {
-      "item": "minecraft:stone_bricks"
+      "item": "minecraft:stripped_dark_oak_wood"
     }
   },
   "result": {

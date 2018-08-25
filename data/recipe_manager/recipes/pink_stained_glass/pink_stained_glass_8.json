@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:emerald_ore"
+      "item": "minecraft:dark_oak_pressure_plate"
     },
     "X": {
-      "item": "minecraft:light_gray_stained_glass"
+      "item": "minecraft:yellow_glazed_terracotta"
     }
   },
   "result": {

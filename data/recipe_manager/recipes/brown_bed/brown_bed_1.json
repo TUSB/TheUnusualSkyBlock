@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:prismarine_brick_stairs"
+      "item": "minecraft:fire_charge"
     },
     "X": {
-      "item": "minecraft:redstone"
+      "item": "minecraft:gold_ingot"
     }
   },
   "result": {

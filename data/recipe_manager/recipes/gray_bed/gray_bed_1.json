@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:porkchop"
+      "item": "minecraft:compass"
     },
     "X": {
-      "item": "minecraft:stone_brick_stairs"
+      "item": "minecraft:stripped_jungle_wood"
     }
   },
   "result": {

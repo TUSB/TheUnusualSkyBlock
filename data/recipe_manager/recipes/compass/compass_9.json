@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_concrete_powder"
+      "item": "minecraft:emerald"
     },
     "X": {
-      "item": "minecraft:green_wool"
+      "item": "minecraft:nether_brick_slab"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:bread"
+      "item": "minecraft:prismarine_brick_slab"
     },
     "#": {
-      "item": "minecraft:dark_oak_trapdoor"
+      "item": "minecraft:spruce_log"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_ore"
+      "item": "minecraft:acacia_planks"
     },
     "|": {
-      "item": "minecraft:pumpkin"
+      "item": "minecraft:enchanting_table"
     }
   },
   "result": {

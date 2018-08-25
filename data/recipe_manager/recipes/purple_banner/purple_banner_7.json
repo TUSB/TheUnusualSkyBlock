@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_stairs"
+      "item": "minecraft:acacia_sapling"
     },
     "|": {
-      "item": "minecraft:purple_stained_glass_pane"
+      "item": "minecraft:chorus_fruit"
     }
   },
   "result": {

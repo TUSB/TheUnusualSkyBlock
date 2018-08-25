@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:gold_nugget"
+      "item": "minecraft:black_concrete_powder"
     },
     "S": {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:brain_coral"
     },
     "O": {
-      "item": "minecraft:light_weighted_pressure_plate"
+      "item": "minecraft:polished_granite"
     }
   },
   "result": {

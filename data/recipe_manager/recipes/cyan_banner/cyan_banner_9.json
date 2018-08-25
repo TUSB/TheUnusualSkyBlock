@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:beef"
+      "item": "minecraft:black_concrete"
     },
     "|": {
-      "item": "minecraft:birch_fence_gate"
+      "item": "minecraft:quartz_slab"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:iron_nugget"
+      "item": "minecraft:green_wool"
     },
     "#": {
-      "item": "minecraft:pink_stained_glass_pane"
+      "item": "minecraft:red_concrete"
     }
   },
   "result": {

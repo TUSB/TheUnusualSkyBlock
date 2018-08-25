@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:diamond_axe"
     },
     {
-      "item": "minecraft:lime_shulker_box"
+      "item": "minecraft:pink_wool"
     },
     {
-      "item": "minecraft:smooth_quartz"
+      "item": "minecraft:wheat"
     }
   ],
   "result": {

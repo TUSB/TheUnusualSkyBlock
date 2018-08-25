@@ -6,10 +6,10 @@
   ],
   "key": {
     "N": {
-      "item": "minecraft:brown_stained_glass"
+      "item": "minecraft:light_gray_concrete_powder"
     },
     "W": {
-      "item": "minecraft:pink_stained_glass_pane"
+      "item": "minecraft:yellow_terracotta"
     }
   },
   "result": {

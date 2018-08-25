@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:grass_block"
+      "item": "minecraft:gray_concrete"
     }
   ],
   "result": {

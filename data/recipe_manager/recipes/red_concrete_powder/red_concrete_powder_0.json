@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:iron_hoe"
+      "item": "minecraft:black_stained_glass_pane"
     },
     {
-      "item": "minecraft:lime_glazed_terracotta"
+      "item": "minecraft:comparator"
     },
     {
-      "item": "minecraft:orange_wool"
+      "item": "minecraft:diorite"
     },
     {
-      "item": "minecraft:phantom_membrane"
+      "item": "minecraft:glistering_melon_slice"
     },
     {
-      "item": "minecraft:pink_stained_glass_pane"
+      "item": "minecraft:granite"
     },
     {
-      "item": "minecraft:skeleton_skull"
+      "item": "minecraft:gunpowder"
     },
     {
-      "item": "minecraft:stripped_jungle_wood"
+      "item": "minecraft:lava_bucket"
     },
     {
-      "item": "minecraft:stripped_oak_log"
+      "item": "minecraft:wooden_hoe"
     },
     {
-      "item": "minecraft:vine"
+      "item": "minecraft:yellow_wool"
     }
   ],
   "result": {

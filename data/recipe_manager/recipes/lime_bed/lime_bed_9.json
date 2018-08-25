@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_fence"
+      "item": "minecraft:pink_concrete"
     },
     "X": {
-      "item": "minecraft:light_gray_bed"
+      "item": "minecraft:redstone_block"
     }
   },
   "result": {

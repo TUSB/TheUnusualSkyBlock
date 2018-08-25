@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lever"
+      "item": "minecraft:pink_concrete"
     },
     "X": {
-      "item": "minecraft:pink_tulip"
+      "item": "minecraft:red_wool"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dead_bubble_coral_block"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     },
     {
-      "item": "minecraft:magenta_dye"
+      "item": "minecraft:light_blue_wool"
     }
   ],
   "result": {

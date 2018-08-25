@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_stained_glass"
+      "item": "minecraft:diamond_ore"
     },
     "#": {
-      "item": "minecraft:green_stained_glass"
+      "item": "minecraft:stone_sword"
     }
   },
   "result": {

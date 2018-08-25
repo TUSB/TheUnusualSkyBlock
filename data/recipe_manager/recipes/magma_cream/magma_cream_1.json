@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:painting"
+      "item": "minecraft:brown_stained_glass"
     },
     {
-      "item": "minecraft:red_tulip"
+      "item": "minecraft:nautilus_shell"
     }
   ],
   "result": {

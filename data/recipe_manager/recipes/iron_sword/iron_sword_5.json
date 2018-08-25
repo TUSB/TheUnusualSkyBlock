@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:nether_wart"
+      "item": "minecraft:dark_oak_wood"
     },
     "#": {
-      "item": "minecraft:purpur_stairs"
+      "item": "minecraft:sunflower"
     }
   },
   "result": {

@@ -7,16 +7,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:orange_carpet"
+      "item": "minecraft:birch_boat"
     },
     "#": {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:brown_mushroom_block"
     },
     "X": {
-      "item": "minecraft:rose_bush"
+      "item": "minecraft:orange_carpet"
     },
     "R": {
-      "item": "minecraft:white_shulker_box"
+      "item": "minecraft:spider_eye"
     }
   },
   "result": {

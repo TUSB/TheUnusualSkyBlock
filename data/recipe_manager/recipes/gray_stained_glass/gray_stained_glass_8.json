@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:armor_stand"
     },
     "X": {
-      "item": "minecraft:mossy_cobblestone_wall"
+      "item": "minecraft:blue_ice"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_banner"
+      "item": "minecraft:cooked_cod"
     },
     {
-      "item": "minecraft:granite"
+      "item": "minecraft:dead_horn_coral_block"
     }
   ],
   "result": {

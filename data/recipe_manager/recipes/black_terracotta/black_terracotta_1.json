@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_dye"
+      "item": "minecraft:magma_block"
     },
     "X": {
-      "item": "minecraft:scute"
+      "item": "minecraft:orange_shulker_box"
     }
   },
   "result": {

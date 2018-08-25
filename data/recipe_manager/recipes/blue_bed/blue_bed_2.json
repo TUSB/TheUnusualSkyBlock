@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_bed"
+      "item": "minecraft:oak_slab"
     },
     "X": {
-      "item": "minecraft:stone_brick_stairs"
+      "item": "minecraft:observer"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:apple"
+      "item": "minecraft:diamond_shovel"
     },
     "X": {
-      "item": "minecraft:cocoa_beans"
+      "item": "minecraft:ice"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_stairs"
+      "item": "minecraft:blue_concrete_powder"
     },
     {
-      "item": "minecraft:dark_prismarine_stairs"
+      "item": "minecraft:blue_wool"
     },
     {
-      "item": "minecraft:ender_eye"
+      "item": "minecraft:cooked_salmon"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:cyan_bed"
     },
     {
-      "item": "minecraft:orange_banner"
+      "item": "minecraft:gray_stained_glass_pane"
     },
     {
-      "item": "minecraft:red_sandstone"
+      "item": "minecraft:green_glazed_terracotta"
     },
     {
-      "item": "minecraft:red_stained_glass"
+      "item": "minecraft:iron_pickaxe"
     },
     {
-      "item": "minecraft:red_tulip"
+      "item": "minecraft:sea_pickle"
     },
     {
-      "item": "minecraft:stone_sword"
+      "item": "minecraft:spruce_pressure_plate"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:stick"
+      "item": "minecraft:pink_stained_glass_pane"
     },
     "#": {
-      "item": "minecraft:yellow_wool"
+      "item": "minecraft:spruce_wood"
     }
   },
   "result": {

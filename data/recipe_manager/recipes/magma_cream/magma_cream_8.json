@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lapis_ore"
+      "item": "minecraft:glistering_melon_slice"
     },
     {
-      "item": "minecraft:light_gray_terracotta"
+      "item": "minecraft:oak_boat"
     }
   ],
   "result": {

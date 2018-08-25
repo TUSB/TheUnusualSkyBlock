@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:stone_bricks"
+      "item": "minecraft:iron_block"
     },
     "X": {
-      "item": "minecraft:tall_grass"
+      "item": "minecraft:pink_wool"
     }
   },
   "result": {

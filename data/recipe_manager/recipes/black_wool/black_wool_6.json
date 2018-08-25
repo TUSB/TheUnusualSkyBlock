@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_stained_glass"
+      "item": "minecraft:pink_stained_glass"
     },
     {
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:stone_shovel"
     }
   ],
   "result": {

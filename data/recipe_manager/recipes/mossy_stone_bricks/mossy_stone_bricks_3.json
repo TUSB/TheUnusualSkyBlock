@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brick_stairs"
+      "item": "minecraft:diamond_axe"
     },
     {
-      "item": "minecraft:purple_bed"
+      "item": "minecraft:dried_kelp"
     }
   ],
   "result": {

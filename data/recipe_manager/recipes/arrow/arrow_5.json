@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:mossy_cobblestone"
+      "item": "minecraft:dark_oak_wood"
     },
     "#": {
-      "item": "minecraft:mutton"
+      "item": "minecraft:red_concrete_powder"
     },
     "Y": {
-      "item": "minecraft:sign"
+      "item": "minecraft:yellow_concrete_powder"
     }
   },
   "result": {

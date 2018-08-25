@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cobblestone_slab"
+      "item": "minecraft:bone_meal"
     },
     {
-      "item": "minecraft:damaged_anvil"
+      "item": "minecraft:bow"
     },
     {
-      "item": "minecraft:enchanted_book"
+      "item": "minecraft:detector_rail"
     },
     {
-      "item": "minecraft:lime_banner"
+      "item": "minecraft:green_shulker_box"
     },
     {
-      "item": "minecraft:magenta_shulker_box"
+      "item": "minecraft:mossy_cobblestone_wall"
     },
     {
-      "item": "minecraft:nether_brick"
+      "item": "minecraft:smooth_stone"
     },
     {
-      "item": "minecraft:orange_carpet"
+      "item": "minecraft:spider_eye"
     },
     {
-      "item": "minecraft:purple_banner"
+      "item": "minecraft:wooden_pickaxe"
     },
     {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:written_book"
     }
   ],
   "result": {

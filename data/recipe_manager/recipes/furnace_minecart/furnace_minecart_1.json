@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:beetroot"
+      "item": "minecraft:chicken"
     },
     "B": {
-      "item": "minecraft:oak_fence"
+      "item": "minecraft:white_concrete"
     }
   },
   "result": {

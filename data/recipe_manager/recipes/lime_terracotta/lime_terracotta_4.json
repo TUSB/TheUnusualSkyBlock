@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_concrete_powder"
+      "item": "minecraft:porkchop"
     },
     "X": {
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:stone_hoe"
     }
   },
   "result": {

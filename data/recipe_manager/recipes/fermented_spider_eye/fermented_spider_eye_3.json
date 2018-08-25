@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chest"
+      "item": "minecraft:blue_bed"
     },
     {
-      "item": "minecraft:light_gray_wool"
+      "item": "minecraft:ender_eye"
     },
     {
-      "item": "minecraft:stone_pressure_plate"
+      "item": "minecraft:horn_coral_block"
     }
   ],
   "result": {

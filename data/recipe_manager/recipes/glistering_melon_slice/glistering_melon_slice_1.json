@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:orange_terracotta"
+      "item": "minecraft:oak_stairs"
     },
     "X": {
-      "item": "minecraft:stone_button"
+      "item": "minecraft:orange_concrete"
     }
   },
   "result": {

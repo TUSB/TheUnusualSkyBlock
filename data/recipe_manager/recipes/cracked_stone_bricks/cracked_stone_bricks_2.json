@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:shulker_shell"
+      "item": "minecraft:iron_nugget"
     }
   ],
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beetroot_soup"
+      "item": "minecraft:birch_log"
     },
     {
-      "item": "minecraft:fermented_spider_eye"
+      "item": "minecraft:stripped_dark_oak_wood"
     }
   ],
   "result": {

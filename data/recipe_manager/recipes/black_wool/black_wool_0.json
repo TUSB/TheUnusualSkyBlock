@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_bed"
+      "item": "minecraft:glass_bottle"
     },
     {
-      "item": "minecraft:oak_boat"
+      "item": "minecraft:light_gray_stained_glass"
     }
   ],
   "result": {

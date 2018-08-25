@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_stained_glass"
+      "item": "minecraft:chiseled_sandstone"
     },
     "X": {
-      "item": "minecraft:red_mushroom_block"
+      "item": "minecraft:dark_oak_door"
     }
   },
   "result": {

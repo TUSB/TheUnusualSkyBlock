@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_fence_gate"
+      "item": "minecraft:dark_prismarine_stairs"
     },
     "X": {
-      "item": "minecraft:powered_rail"
+      "item": "minecraft:mossy_cobblestone"
     }
   },
   "result": {

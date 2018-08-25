@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:light_gray_concrete_powder"
+      "item": "minecraft:dragon_breath"
     },
     "#": {
-      "item": "minecraft:magma_block"
+      "item": "minecraft:salmon_bucket"
     }
   },
   "result": {

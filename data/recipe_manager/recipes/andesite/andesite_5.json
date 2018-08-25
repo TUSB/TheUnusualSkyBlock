@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_sapling"
+      "item": "minecraft:quartz_stairs"
     },
     {
-      "item": "minecraft:diorite"
+      "item": "minecraft:redstone_ore"
     }
   ],
   "result": {

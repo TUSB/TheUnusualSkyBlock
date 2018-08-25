@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:baked_potato"
+      "item": "minecraft:bone_meal"
     },
     {
-      "item": "minecraft:dandelion"
+      "item": "minecraft:emerald_block"
     },
     {
-      "item": "minecraft:gray_shulker_box"
+      "item": "minecraft:gold_ore"
     },
     {
-      "item": "minecraft:iron_bars"
+      "item": "minecraft:iron_trapdoor"
     },
     {
-      "item": "minecraft:lime_carpet"
+      "item": "minecraft:lever"
     },
     {
-      "item": "minecraft:magenta_carpet"
+      "item": "minecraft:lime_dye"
     },
     {
-      "item": "minecraft:rail"
+      "item": "minecraft:lime_shulker_box"
     },
     {
-      "item": "minecraft:rose_bush"
+      "item": "minecraft:stone_slab"
     },
     {
-      "item": "minecraft:soul_sand"
+      "item": "minecraft:vine"
     }
   ],
   "result": {

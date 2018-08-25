@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_pressure_plate"
+      "item": "minecraft:blue_glazed_terracotta"
     },
     {
-      "item": "minecraft:birch_fence_gate"
+      "item": "minecraft:carved_pumpkin"
     },
     {
-      "item": "minecraft:chicken"
+      "item": "minecraft:golden_apple"
     },
     {
-      "item": "minecraft:light_gray_stained_glass"
+      "item": "minecraft:grass_block"
     },
     {
-      "item": "minecraft:nether_brick_slab"
+      "item": "minecraft:gray_terracotta"
     },
     {
-      "item": "minecraft:oak_pressure_plate"
+      "item": "minecraft:orange_stained_glass_pane"
     },
     {
-      "item": "minecraft:spider_eye"
+      "item": "minecraft:phantom_membrane"
     },
     {
-      "item": "minecraft:stone_brick_slab"
+      "item": "minecraft:sign"
     },
     {
-      "item": "minecraft:wheat"
+      "item": "minecraft:stone_bricks"
     }
   ],
   "result": {

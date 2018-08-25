@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:potato"
+      "item": "minecraft:light_gray_stained_glass"
     }
   ],
   "result": {

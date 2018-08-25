@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_prismarine_slab"
+      "item": "minecraft:diorite"
     },
     "#": {
-      "item": "minecraft:magenta_dye"
+      "item": "minecraft:golden_horse_armor"
     }
   },
   "result": {

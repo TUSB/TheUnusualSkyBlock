@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:glistering_melon_slice"
+      "item": "minecraft:carrot"
     },
     "C": {
-      "item": "minecraft:iron_door"
+      "item": "minecraft:vine"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:ender_chest"
+      "item": "minecraft:chipped_anvil"
     },
     "#": {
-      "item": "minecraft:green_stained_glass_pane"
+      "item": "minecraft:paper"
     }
   },
   "result": {

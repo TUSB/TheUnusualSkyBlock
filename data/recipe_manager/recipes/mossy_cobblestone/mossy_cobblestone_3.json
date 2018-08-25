@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:coal_block"
+      "item": "minecraft:bookshelf"
     },
     {
-      "item": "minecraft:coal_ore"
+      "item": "minecraft:iron_leggings"
     }
   ],
   "result": {

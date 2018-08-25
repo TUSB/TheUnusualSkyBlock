@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_banner"
+      "item": "minecraft:purple_carpet"
     },
     {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:snow"
     },
     {
-      "item": "minecraft:oak_boat"
+      "item": "minecraft:yellow_carpet"
     }
   ],
   "result": {

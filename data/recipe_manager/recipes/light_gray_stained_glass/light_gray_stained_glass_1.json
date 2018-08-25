@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:beacon"
+      "item": "minecraft:redstone_block"
     },
     "X": {
-      "item": "minecraft:oak_sapling"
+      "item": "minecraft:spruce_wood"
     }
   },
   "result": {

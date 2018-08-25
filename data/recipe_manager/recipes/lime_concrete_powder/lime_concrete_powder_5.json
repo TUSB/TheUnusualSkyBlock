@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brewing_stand"
+      "item": "minecraft:birch_slab"
     },
     {
-      "item": "minecraft:dark_oak_wood"
+      "item": "minecraft:orange_wool"
     },
     {
-      "item": "minecraft:enchanting_table"
+      "item": "minecraft:polished_granite"
     },
     {
-      "item": "minecraft:leather_leggings"
+      "item": "minecraft:red_stained_glass"
     },
     {
-      "item": "minecraft:packed_ice"
+      "item": "minecraft:stone_sword"
     },
     {
-      "item": "minecraft:pink_stained_glass_pane"
+      "item": "minecraft:sugar"
     },
     {
-      "item": "minecraft:prismarine_brick_slab"
+      "item": "minecraft:torch"
     },
     {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:white_stained_glass"
     },
     {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:wooden_hoe"
     }
   ],
   "result": {

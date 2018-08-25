@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:azure_bluet"
+      "item": "minecraft:lingering_potion"
     },
     "|": {
-      "item": "minecraft:quartz_stairs"
+      "item": "minecraft:redstone_block"
     }
   },
   "result": {

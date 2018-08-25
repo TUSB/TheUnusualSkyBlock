@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:prismarine_slab"
+      "item": "minecraft:birch_door"
     },
     "X": {
-      "item": "minecraft:salmon_bucket"
+      "item": "minecraft:coal"
     }
   },
   "result": {

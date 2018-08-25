@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_carpet"
+      "item": "minecraft:redstone_block"
     },
     "X": {
-      "item": "minecraft:pink_dye"
+      "item": "minecraft:tnt_minecart"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:andesite"
+      "item": "minecraft:bone_meal"
     },
     {
-      "item": "minecraft:beacon"
+      "item": "minecraft:dirt"
     },
     {
-      "item": "minecraft:birch_pressure_plate"
+      "item": "minecraft:iron_leggings"
     },
     {
-      "item": "minecraft:orange_shulker_box"
+      "item": "minecraft:magma_block"
     },
     {
-      "item": "minecraft:oxeye_daisy"
+      "item": "minecraft:obsidian"
     },
     {
-      "item": "minecraft:pumpkin"
+      "item": "minecraft:purple_dye"
     },
     {
-      "item": "minecraft:rabbit_hide"
+      "item": "minecraft:quartz_block"
     },
     {
-      "item": "minecraft:salmon_bucket"
+      "item": "minecraft:stripped_spruce_wood"
     },
     {
-      "item": "minecraft:yellow_terracotta"
+      "item": "minecraft:tall_grass"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_stairs"
+      "item": "minecraft:green_glazed_terracotta"
     },
     "X": {
-      "item": "minecraft:sticky_piston"
+      "item": "minecraft:polished_diorite"
     }
   },
   "result": {

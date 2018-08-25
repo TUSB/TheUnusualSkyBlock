@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beetroot_soup"
+      "item": "minecraft:birch_door"
     },
     {
-      "item": "minecraft:brown_carpet"
+      "item": "minecraft:bone_meal"
     },
     {
-      "item": "minecraft:cookie"
+      "item": "minecraft:diamond_horse_armor"
     },
     {
-      "item": "minecraft:golden_axe"
+      "item": "minecraft:horn_coral_block"
     },
     {
-      "item": "minecraft:paper"
+      "item": "minecraft:iron_boots"
     },
     {
-      "item": "minecraft:pink_tulip"
+      "item": "minecraft:lingering_potion"
     },
     {
-      "item": "minecraft:red_wool"
+      "item": "minecraft:oak_boat"
     },
     {
-      "item": "minecraft:splash_potion"
+      "item": "minecraft:stripped_dark_oak_log"
     },
     {
-      "item": "minecraft:spruce_fence"
+      "item": "minecraft:turtle_egg"
     }
   ],
   "result": {

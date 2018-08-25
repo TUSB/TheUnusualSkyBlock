@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_mushroom"
+      "item": "minecraft:golden_axe"
     },
     {
-      "item": "minecraft:purpur_pillar"
+      "item": "minecraft:purple_wool"
     }
   ],
   "result": {

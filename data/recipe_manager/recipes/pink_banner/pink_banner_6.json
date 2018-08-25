@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:clay_ball"
+      "item": "minecraft:cobblestone_wall"
     },
     "|": {
-      "item": "minecraft:snowball"
+      "item": "minecraft:cocoa_beans"
     }
   },
   "result": {

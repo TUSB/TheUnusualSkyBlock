@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:golden_hoe"
+      "item": "minecraft:cyan_carpet"
     },
     "#": {
-      "item": "minecraft:magenta_bed"
+      "item": "minecraft:purple_shulker_box"
     }
   },
   "result": {

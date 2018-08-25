@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond_shovel"
+      "item": "minecraft:black_banner"
     },
     "#": {
-      "item": "minecraft:pink_banner"
+      "item": "minecraft:brain_coral_fan"
     },
     "Y": {
-      "item": "minecraft:red_concrete"
+      "item": "minecraft:purpur_block"
     }
   },
   "result": {

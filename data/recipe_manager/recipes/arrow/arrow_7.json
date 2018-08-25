@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brick"
+      "item": "minecraft:gray_concrete"
     },
     "#": {
-      "item": "minecraft:cracked_stone_bricks"
+      "item": "minecraft:lava_bucket"
     },
     "Y": {
-      "item": "minecraft:farmland"
+      "item": "minecraft:melon_slice"
     }
   },
   "result": {

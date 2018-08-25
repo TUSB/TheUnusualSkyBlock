@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:purple_glazed_terracotta"
+      "item": "minecraft:oak_fence"
     },
     "B": {
-      "item": "minecraft:tube_coral_block"
+      "item": "minecraft:shulker_box"
     }
   },
   "result": {

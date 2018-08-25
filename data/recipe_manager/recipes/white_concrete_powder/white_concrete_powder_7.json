@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beacon"
+      "item": "minecraft:chainmail_leggings"
     },
     {
-      "item": "minecraft:blue_concrete"
+      "item": "minecraft:dried_kelp_block"
     },
     {
-      "item": "minecraft:bookshelf"
+      "item": "minecraft:ender_chest"
     },
     {
-      "item": "minecraft:brain_coral_block"
+      "item": "minecraft:iron_helmet"
     },
     {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:iron_nugget"
     },
     {
-      "item": "minecraft:jungle_fence_gate"
+      "item": "minecraft:light_blue_concrete"
     },
     {
-      "item": "minecraft:prismarine_crystals"
+      "item": "minecraft:orange_stained_glass_pane"
     },
     {
-      "item": "minecraft:sunflower"
+      "item": "minecraft:red_wool"
     },
     {
-      "item": "minecraft:yellow_concrete_powder"
+      "item": "minecraft:snow"
     }
   ],
   "result": {

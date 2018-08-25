@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:glass_pane"
+      "item": "minecraft:andesite"
     },
     {
-      "item": "minecraft:gray_wool"
+      "item": "minecraft:pink_wool"
     }
   ],
   "result": {

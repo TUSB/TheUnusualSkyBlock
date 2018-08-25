@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_stairs"
+      "item": "minecraft:furnace"
     },
     "X": {
-      "item": "minecraft:brown_shulker_box"
+      "item": "minecraft:sandstone_stairs"
     }
   },
   "result": {

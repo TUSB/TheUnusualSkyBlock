@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brain_coral"
+      "item": "minecraft:cyan_terracotta"
     },
     "E": {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:red_concrete_powder"
     }
   },
   "result": {

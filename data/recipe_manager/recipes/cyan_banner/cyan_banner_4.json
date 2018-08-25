@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_bed"
+      "item": "minecraft:dropper"
     },
     "|": {
-      "item": "minecraft:purple_dye"
+      "item": "minecraft:magenta_shulker_box"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cooked_beef"
+      "item": "minecraft:birch_pressure_plate"
     },
     "X": {
-      "item": "minecraft:feather"
+      "item": "minecraft:cobblestone_slab"
     }
   },
   "result": {

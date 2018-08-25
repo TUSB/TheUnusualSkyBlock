@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blaze_rod"
+      "item": "minecraft:birch_stairs"
     },
     {
-      "item": "minecraft:blue_banner"
+      "item": "minecraft:black_wool"
     },
     {
-      "item": "minecraft:cobblestone"
+      "item": "minecraft:filled_map"
     },
     {
-      "item": "minecraft:dark_oak_sapling"
+      "item": "minecraft:grass"
     },
     {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:ink_sac"
     },
     {
-      "item": "minecraft:purple_glazed_terracotta"
+      "item": "minecraft:magenta_stained_glass_pane"
     },
     {
-      "item": "minecraft:red_shulker_box"
+      "item": "minecraft:pink_concrete"
     },
     {
-      "item": "minecraft:stick"
+      "item": "minecraft:purple_stained_glass_pane"
     },
     {
-      "item": "minecraft:wheat"
+      "item": "minecraft:tropical_fish_bucket"
     }
   ],
   "result": {

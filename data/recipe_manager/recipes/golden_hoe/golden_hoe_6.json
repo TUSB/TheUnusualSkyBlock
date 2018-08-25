@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:detector_rail"
+      "item": "minecraft:gray_shulker_box"
     },
     "#": {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:purple_concrete_powder"
     }
   },
   "result": {

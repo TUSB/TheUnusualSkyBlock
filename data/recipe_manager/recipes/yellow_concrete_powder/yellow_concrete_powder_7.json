@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beetroot_seeds"
+      "item": "minecraft:blue_ice"
     },
     {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:bone_block"
     },
     {
-      "item": "minecraft:carved_pumpkin"
+      "item": "minecraft:bowl"
     },
     {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:horn_coral_block"
     },
     {
-      "item": "minecraft:ladder"
+      "item": "minecraft:jungle_sapling"
     },
     {
-      "item": "minecraft:purple_concrete"
+      "item": "minecraft:nether_wart_block"
     },
     {
-      "item": "minecraft:purpur_block"
+      "item": "minecraft:oak_boat"
     },
     {
-      "item": "minecraft:red_stained_glass"
+      "item": "minecraft:purple_wool"
     },
     {
-      "item": "minecraft:yellow_terracotta"
+      "item": "minecraft:yellow_wool"
     }
   ],
   "result": {

@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:string"
+      "item": "minecraft:golden_sword"
     }
   ],
   "result": {

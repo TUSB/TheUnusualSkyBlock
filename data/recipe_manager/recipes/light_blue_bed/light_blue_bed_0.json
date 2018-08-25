@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:glass"
+      "item": "minecraft:black_banner"
     },
     "X": {
-      "item": "minecraft:stripped_oak_log"
+      "item": "minecraft:cobweb"
     }
   },
   "result": {

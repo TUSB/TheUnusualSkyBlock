@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_pressure_plate"
+      "item": "minecraft:acacia_stairs"
     },
     "X": {
-      "item": "minecraft:lingering_potion"
+      "item": "minecraft:stone_sword"
     }
   },
   "result": {

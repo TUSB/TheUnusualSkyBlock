@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:furnace_minecart"
+      "item": "minecraft:blue_wool"
     },
     "X": {
-      "item": "minecraft:oak_trapdoor"
+      "item": "minecraft:melon_seeds"
     }
   },
   "result": {

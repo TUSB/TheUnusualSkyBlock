@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cookie"
+      "item": "minecraft:cod"
     },
     "X": {
-      "item": "minecraft:purpur_stairs"
+      "item": "minecraft:crafting_table"
     },
     "I": {
-      "item": "minecraft:sandstone_slab"
+      "item": "minecraft:gray_carpet"
     }
   },
   "result": {

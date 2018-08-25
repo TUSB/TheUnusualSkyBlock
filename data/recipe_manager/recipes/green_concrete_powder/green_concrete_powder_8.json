@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_boat"
+      "item": "minecraft:acacia_button"
     },
     {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:cooked_porkchop"
     },
     {
-      "item": "minecraft:gold_ore"
+      "item": "minecraft:grass"
     },
     {
-      "item": "minecraft:jungle_leaves"
+      "item": "minecraft:heart_of_the_sea"
     },
     {
-      "item": "minecraft:jungle_wood"
+      "item": "minecraft:pink_banner"
     },
     {
-      "item": "minecraft:oak_wood"
-    },
-    {
-      "item": "minecraft:pink_concrete_powder"
+      "item": "minecraft:pink_wool"
     },
     {
       "item": "minecraft:purple_bed"
     },
     {
-      "item": "minecraft:yellow_shulker_box"
+      "item": "minecraft:white_bed"
+    },
+    {
+      "item": "minecraft:white_tulip"
     }
   ],
   "result": {

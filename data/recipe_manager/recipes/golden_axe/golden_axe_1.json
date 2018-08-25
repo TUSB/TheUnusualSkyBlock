@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cyan_banner"
+      "item": "minecraft:blue_stained_glass"
     },
     "#": {
-      "item": "minecraft:leather_helmet"
+      "item": "minecraft:lime_dye"
     }
   },
   "result": {

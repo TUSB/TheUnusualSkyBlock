@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_shulker_box"
+      "item": "minecraft:chainmail_chestplate"
     },
     "X": {
-      "item": "minecraft:writable_book"
+      "item": "minecraft:redstone"
     }
   },
   "result": {

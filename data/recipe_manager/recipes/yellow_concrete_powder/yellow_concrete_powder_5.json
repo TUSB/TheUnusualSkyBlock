@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_boat"
+      "item": "minecraft:arrow"
     },
     {
-      "item": "minecraft:coarse_dirt"
+      "item": "minecraft:birch_door"
     },
     {
-      "item": "minecraft:cod_bucket"
+      "item": "minecraft:birch_sapling"
     },
     {
-      "item": "minecraft:dead_fire_coral_fan"
+      "item": "minecraft:birch_stairs"
     },
     {
-      "item": "minecraft:iron_bars"
+      "item": "minecraft:bread"
     },
     {
-      "item": "minecraft:orange_stained_glass"
+      "item": "minecraft:iron_helmet"
     },
     {
-      "item": "minecraft:rabbit"
+      "item": "minecraft:sea_lantern"
     },
     {
-      "item": "minecraft:shears"
+      "item": "minecraft:snow"
     },
     {
-      "item": "minecraft:tube_coral"
+      "item": "minecraft:stone_bricks"
     }
   ],
   "result": {

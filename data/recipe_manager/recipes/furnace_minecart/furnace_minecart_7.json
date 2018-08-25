@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:gray_glazed_terracotta"
+      "item": "minecraft:clock"
     },
     "B": {
-      "item": "minecraft:rail"
+      "item": "minecraft:iron_helmet"
     }
   },
   "result": {

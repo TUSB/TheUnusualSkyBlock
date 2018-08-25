@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cyan_terracotta"
+      "item": "minecraft:black_shulker_box"
     },
     "#": {
-      "item": "minecraft:magenta_carpet"
+      "item": "minecraft:light_blue_stained_glass_pane"
     }
   },
   "result": {

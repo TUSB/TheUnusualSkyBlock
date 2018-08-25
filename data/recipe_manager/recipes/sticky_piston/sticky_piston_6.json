@@ -6,10 +6,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:dead_brain_coral_block"
+      "item": "minecraft:green_bed"
     },
     "P": {
-      "item": "minecraft:note_block"
+      "item": "minecraft:orange_carpet"
     }
   },
   "result": {

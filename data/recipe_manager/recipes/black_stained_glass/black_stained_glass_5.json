@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:glass_pane"
+      "item": "minecraft:blue_wool"
     },
     "X": {
-      "item": "minecraft:netherrack"
+      "item": "minecraft:light_gray_stained_glass"
     }
   },
   "result": {

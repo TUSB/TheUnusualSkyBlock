@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:emerald"
+      "item": "minecraft:brick"
     },
     "X": {
-      "item": "minecraft:iron_bars"
+      "item": "minecraft:lime_concrete_powder"
     }
   },
   "result": {

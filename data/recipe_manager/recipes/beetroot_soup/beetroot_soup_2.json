@@ -7,10 +7,10 @@
   ],
   "key": {
     "O": {
-      "item": "minecraft:acacia_button"
+      "item": "minecraft:black_stained_glass_pane"
     },
     "B": {
-      "item": "minecraft:sandstone"
+      "item": "minecraft:orange_wool"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_trapdoor"
+      "item": "minecraft:lime_concrete"
     },
     {
-      "item": "minecraft:iron_leggings"
+      "item": "minecraft:rabbit_hide"
     }
   ],
   "result": {

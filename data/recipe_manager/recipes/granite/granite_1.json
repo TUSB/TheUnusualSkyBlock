@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lapis_block"
+      "item": "minecraft:light_gray_wool"
     },
     {
-      "item": "minecraft:prismarine_bricks"
+      "item": "minecraft:oak_boat"
     }
   ],
   "result": {

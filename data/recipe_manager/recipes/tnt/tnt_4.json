@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_pressure_plate"
+      "item": "minecraft:lapis_block"
     },
     "#": {
-      "item": "minecraft:horn_coral_block"
+      "item": "minecraft:quartz"
     }
   },
   "result": {

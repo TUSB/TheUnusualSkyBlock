@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:green_stained_glass"
+      "item": "minecraft:iron_shovel"
     },
     {
-      "item": "minecraft:jungle_pressure_plate"
+      "item": "minecraft:light_blue_concrete"
     }
   ],
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dirt"
+      "item": "minecraft:acacia_slab"
     },
     {
-      "item": "minecraft:fire_coral_fan"
+      "item": "minecraft:brown_carpet"
     },
     {
-      "item": "minecraft:green_banner"
+      "item": "minecraft:chiseled_sandstone"
     },
     {
-      "item": "minecraft:iron_leggings"
+      "item": "minecraft:dark_oak_sapling"
     },
     {
-      "item": "minecraft:nautilus_shell"
+      "item": "minecraft:diamond_boots"
     },
     {
-      "item": "minecraft:orange_wool"
+      "item": "minecraft:diamond_chestplate"
     },
     {
-      "item": "minecraft:pink_stained_glass"
+      "item": "minecraft:light_gray_concrete_powder"
     },
     {
-      "item": "minecraft:spider_eye"
+      "item": "minecraft:orange_terracotta"
     },
     {
-      "item": "minecraft:spruce_button"
+      "item": "minecraft:stripped_spruce_log"
     }
   ],
   "result": {

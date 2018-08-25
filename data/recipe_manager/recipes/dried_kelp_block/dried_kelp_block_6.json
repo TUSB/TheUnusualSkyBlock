@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_planks"
+      "item": "minecraft:blue_ice"
     },
     {
-      "item": "minecraft:fermented_spider_eye"
+      "item": "minecraft:brown_shulker_box"
     },
     {
-      "item": "minecraft:green_glazed_terracotta"
+      "item": "minecraft:cooked_salmon"
     },
     {
-      "item": "minecraft:iron_shovel"
+      "item": "minecraft:cyan_concrete"
     },
     {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:filled_map"
     },
     {
-      "item": "minecraft:light_gray_bed"
+      "item": "minecraft:lapis_block"
     },
     {
-      "item": "minecraft:mycelium"
+      "item": "minecraft:orange_bed"
     },
     {
-      "item": "minecraft:oak_door"
+      "item": "minecraft:pumpkin_seeds"
     },
     {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:wooden_shovel"
     }
   ],
   "result": {

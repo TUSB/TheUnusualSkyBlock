@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_button"
+      "item": "minecraft:dark_prismarine"
     },
     "#": {
-      "item": "minecraft:oak_wood"
+      "item": "minecraft:horn_coral_fan"
     }
   },
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brown_carpet"
+      "item": "minecraft:dark_oak_sapling"
     },
     "#": {
-      "item": "minecraft:cobblestone_slab"
+      "item": "minecraft:green_concrete_powder"
     },
     "R": {
-      "item": "minecraft:grass"
+      "item": "minecraft:oak_planks"
     }
   },
   "result": {

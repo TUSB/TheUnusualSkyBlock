@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blaze_powder"
+      "item": "minecraft:coal_block"
     },
     "X": {
-      "item": "minecraft:red_banner"
+      "item": "minecraft:gold_ingot"
     }
   },
   "result": {

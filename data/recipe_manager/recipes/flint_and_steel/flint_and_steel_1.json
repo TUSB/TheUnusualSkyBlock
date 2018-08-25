@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_stained_glass"
+      "item": "minecraft:acacia_stairs"
     },
     {
-      "item": "minecraft:prismarine_slab"
+      "item": "minecraft:coal"
     }
   ],
   "result": {

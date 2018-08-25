@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_glazed_terracotta"
+      "item": "minecraft:blue_terracotta"
     },
     {
-      "item": "minecraft:dead_brain_coral_fan"
+      "item": "minecraft:stripped_acacia_log"
     },
     {
-      "item": "minecraft:enchanted_book"
+      "item": "minecraft:white_concrete_powder"
     }
   ],
   "result": {

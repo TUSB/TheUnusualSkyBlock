@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:glass"
+      "item": "minecraft:emerald_ore"
     },
     "#": {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:sea_lantern"
     }
   },
   "result": {

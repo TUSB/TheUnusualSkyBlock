@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:conduit"
+      "item": "minecraft:dead_brain_coral_fan"
     },
     {
-      "item": "minecraft:grass"
+      "item": "minecraft:leather_boots"
     },
     {
-      "item": "minecraft:netherrack"
+      "item": "minecraft:orange_stained_glass_pane"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:enchanted_book"
+      "item": "minecraft:brown_bed"
     },
     "#": {
-      "item": "minecraft:golden_chestplate"
+      "item": "minecraft:dark_oak_slab"
     }
   },
   "result": {

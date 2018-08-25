@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:book"
+      "item": "minecraft:black_bed"
     },
     "B": {
-      "item": "minecraft:cod_bucket"
+      "item": "minecraft:dandelion_yellow"
     }
   },
   "result": {

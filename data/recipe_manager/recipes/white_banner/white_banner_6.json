@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_wool"
+      "item": "minecraft:gray_banner"
     },
     "|": {
-      "item": "minecraft:melon_seeds"
+      "item": "minecraft:skeleton_skull"
     }
   },
   "result": {

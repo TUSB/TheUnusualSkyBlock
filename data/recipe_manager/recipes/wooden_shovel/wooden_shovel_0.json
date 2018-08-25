@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:birch_sapling"
+      "item": "minecraft:diamond_sword"
     },
     "#": {
-      "item": "minecraft:oak_door"
+      "item": "minecraft:jungle_door"
     }
   },
   "result": {

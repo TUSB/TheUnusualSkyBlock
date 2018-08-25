@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:iron_door"
+      "item": "minecraft:oak_boat"
     },
     "#": {
-      "item": "minecraft:magenta_shulker_box"
+      "item": "minecraft:quartz"
     }
   },
   "result": {

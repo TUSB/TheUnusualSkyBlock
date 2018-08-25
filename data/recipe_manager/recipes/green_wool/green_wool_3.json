@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:red_terracotta"
+      "item": "minecraft:iron_pickaxe"
     },
     {
-      "item": "minecraft:white_stained_glass_pane"
+      "item": "minecraft:red_nether_bricks"
     }
   ],
   "result": {

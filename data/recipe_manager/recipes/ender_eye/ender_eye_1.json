@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:black_shulker_box"
     },
     {
-      "item": "minecraft:oak_log"
+      "item": "minecraft:gold_ingot"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:light_gray_bed"
+      "item": "minecraft:black_stained_glass_pane"
     },
     "B": {
-      "item": "minecraft:sandstone_stairs"
+      "item": "minecraft:red_concrete_powder"
     }
   },
   "result": {

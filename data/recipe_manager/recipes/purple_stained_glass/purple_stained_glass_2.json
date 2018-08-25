@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:clock"
+      "item": "minecraft:nautilus_shell"
     },
     "X": {
-      "item": "minecraft:orange_stained_glass"
+      "item": "minecraft:piston"
     }
   },
   "result": {

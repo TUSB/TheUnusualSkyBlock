@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_concrete"
+      "item": "minecraft:red_mushroom"
     },
     "|": {
-      "item": "minecraft:cobblestone_stairs"
+      "item": "minecraft:spruce_trapdoor"
     }
   },
   "result": {

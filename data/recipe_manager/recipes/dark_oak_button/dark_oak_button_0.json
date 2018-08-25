@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:piston"
+      "item": "minecraft:dark_oak_stairs"
     }
   ],
   "result": {

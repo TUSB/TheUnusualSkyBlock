@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:dark_prismarine"
     },
     "|": {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:stripped_spruce_wood"
     }
   },
   "result": {

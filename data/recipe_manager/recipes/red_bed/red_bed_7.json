@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:charcoal"
+      "item": "minecraft:iron_bars"
     },
     "X": {
-      "item": "minecraft:dark_oak_fence"
+      "item": "minecraft:podzol"
     }
   },
   "result": {

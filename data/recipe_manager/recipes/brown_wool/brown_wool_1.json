@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_planks"
+      "item": "minecraft:orange_banner"
     },
     {
-      "item": "minecraft:brown_carpet"
+      "item": "minecraft:red_carpet"
     }
   ],
   "result": {

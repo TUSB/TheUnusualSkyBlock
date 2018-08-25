@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:fire_coral_block"
+      "item": "minecraft:beef"
     },
     {
-      "item": "minecraft:green_carpet"
+      "item": "minecraft:dark_oak_sapling"
     },
     {
-      "item": "minecraft:hay_block"
+      "item": "minecraft:large_fern"
     },
     {
-      "item": "minecraft:iron_chestplate"
+      "item": "minecraft:light_gray_dye"
     },
     {
-      "item": "minecraft:potion"
+      "item": "minecraft:magenta_terracotta"
     },
     {
-      "item": "minecraft:prismarine"
+      "item": "minecraft:polished_granite"
     },
     {
-      "item": "minecraft:stripped_birch_wood"
+      "item": "minecraft:spruce_fence_gate"
     },
     {
-      "item": "minecraft:yellow_shulker_box"
+      "item": "minecraft:stripped_dark_oak_log"
     },
     {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:wither_skeleton_skull"
     }
   ],
   "result": {

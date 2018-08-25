@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:ender_chest"
+      "item": "minecraft:nether_brick_slab"
     },
     {
-      "item": "minecraft:oak_fence"
+      "item": "minecraft:potion"
     }
   ],
   "result": {

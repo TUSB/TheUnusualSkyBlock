@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:acacia_boat"
+      "item": "minecraft:dark_oak_fence"
     },
     "B": {
-      "item": "minecraft:acacia_stairs"
+      "item": "minecraft:magma_block"
     },
     "E": {
-      "item": "minecraft:blaze_powder"
+      "item": "minecraft:purple_carpet"
     },
     "C": {
-      "item": "minecraft:light_blue_dye"
+      "item": "minecraft:sticky_piston"
     }
   },
   "result": {

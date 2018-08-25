@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:dark_prismarine"
+      "item": "minecraft:acacia_fence_gate"
     },
     "#": {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:leather"
     }
   },
   "result": {

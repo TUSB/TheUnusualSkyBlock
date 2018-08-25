@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_pickaxe"
+      "item": "minecraft:birch_wood"
     },
     "X": {
-      "item": "minecraft:purple_dye"
+      "item": "minecraft:dark_oak_log"
     }
   },
   "result": {

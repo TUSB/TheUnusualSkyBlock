@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_pressure_plate"
+      "item": "minecraft:blue_orchid"
     },
     {
-      "item": "minecraft:blue_banner"
+      "item": "minecraft:brown_mushroom"
     },
     {
-      "item": "minecraft:chest"
+      "item": "minecraft:chest_minecart"
     },
     {
-      "item": "minecraft:comparator"
+      "item": "minecraft:dark_prismarine"
     },
     {
-      "item": "minecraft:dead_tube_coral_block"
+      "item": "minecraft:gold_ingot"
     },
     {
-      "item": "minecraft:gray_banner"
+      "item": "minecraft:green_shulker_box"
     },
     {
-      "item": "minecraft:magenta_shulker_box"
+      "item": "minecraft:jungle_trapdoor"
     },
     {
-      "item": "minecraft:spruce_stairs"
+      "item": "minecraft:magma_cream"
     },
     {
-      "item": "minecraft:yellow_glazed_terracotta"
+      "item": "minecraft:slime_block"
     }
   ],
   "result": {

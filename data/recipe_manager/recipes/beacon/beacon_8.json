@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:acacia_button"
+      "item": "minecraft:cobblestone"
     },
     "S": {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:peony"
     },
     "O": {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:wooden_shovel"
     }
   },
   "result": {

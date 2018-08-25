@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:mossy_cobblestone"
+      "item": "minecraft:cod_bucket"
     },
     "#": {
-      "item": "minecraft:turtle_egg"
+      "item": "minecraft:oak_log"
     }
   },
   "result": {

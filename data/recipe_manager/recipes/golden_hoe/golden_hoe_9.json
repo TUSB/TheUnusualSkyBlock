@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_oak_fence"
+      "item": "minecraft:ghast_tear"
     },
     "#": {
-      "item": "minecraft:dark_oak_planks"
+      "item": "minecraft:magenta_stained_glass_pane"
     }
   },
   "result": {

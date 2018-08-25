@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:end_rod"
+      "item": "minecraft:chest"
     },
     {
-      "item": "minecraft:oak_pressure_plate"
+      "item": "minecraft:oak_sapling"
     }
   ],
   "result": {

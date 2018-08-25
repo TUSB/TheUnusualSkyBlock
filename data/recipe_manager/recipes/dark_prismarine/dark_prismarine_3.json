@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:dark_oak_leaves"
+      "item": "minecraft:gray_wool"
     },
     "I": {
-      "item": "minecraft:white_concrete_powder"
+      "item": "minecraft:nether_brick"
     }
   },
   "result": {

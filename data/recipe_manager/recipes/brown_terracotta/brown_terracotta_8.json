@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gunpowder"
+      "item": "minecraft:oak_stairs"
     },
     "X": {
-      "item": "minecraft:purpur_pillar"
+      "item": "minecraft:white_shulker_box"
     }
   },
   "result": {

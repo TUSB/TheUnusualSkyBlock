@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:chicken"
+      "item": "minecraft:iron_trapdoor"
     },
     "#": {
-      "item": "minecraft:pink_stained_glass_pane"
+      "item": "minecraft:yellow_bed"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:snow_block"
+      "item": "minecraft:cyan_bed"
     },
     "|": {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:rabbit_hide"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:stripped_oak_log"
+      "item": "minecraft:cake"
     },
     "#": {
-      "item": "minecraft:white_stained_glass"
+      "item": "minecraft:note_block"
     }
   },
   "result": {

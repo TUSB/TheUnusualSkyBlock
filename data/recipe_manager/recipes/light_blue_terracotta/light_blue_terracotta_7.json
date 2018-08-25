@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bookshelf"
+      "item": "minecraft:quartz_stairs"
     },
     "X": {
-      "item": "minecraft:gold_nugget"
+      "item": "minecraft:stripped_jungle_log"
     }
   },
   "result": {

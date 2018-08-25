@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cobblestone_wall"
+      "item": "minecraft:iron_hoe"
     },
     "#": {
-      "item": "minecraft:dark_oak_door"
+      "item": "minecraft:tropical_fish"
     }
   },
   "result": {

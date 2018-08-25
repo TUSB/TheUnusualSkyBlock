@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:pink_carpet"
+      "item": "minecraft:orange_stained_glass_pane"
     },
     "X": {
-      "item": "minecraft:snow_block"
+      "item": "minecraft:potion"
     }
   },
   "result": {

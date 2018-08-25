@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:prismarine_brick_slab"
+      "item": "minecraft:glass_bottle"
     },
     "#": {
-      "item": "minecraft:rail"
+      "item": "minecraft:shears"
     }
   },
   "result": {

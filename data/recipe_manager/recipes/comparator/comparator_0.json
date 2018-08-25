@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_dye"
+      "item": "minecraft:carrot"
     },
     "X": {
-      "item": "minecraft:dried_kelp"
+      "item": "minecraft:cod"
     },
     "I": {
-      "item": "minecraft:note_block"
+      "item": "minecraft:flint"
     }
   },
   "result": {

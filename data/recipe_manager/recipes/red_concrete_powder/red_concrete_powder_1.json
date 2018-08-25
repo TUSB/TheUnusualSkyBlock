@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:apple"
+      "item": "minecraft:beacon"
     },
     {
-      "item": "minecraft:lime_shulker_box"
+      "item": "minecraft:dark_prismarine"
     },
     {
-      "item": "minecraft:orange_tulip"
+      "item": "minecraft:flint"
     },
     {
-      "item": "minecraft:polished_granite"
+      "item": "minecraft:lime_glazed_terracotta"
     },
     {
-      "item": "minecraft:rose_bush"
+      "item": "minecraft:orange_dye"
     },
     {
-      "item": "minecraft:spruce_pressure_plate"
+      "item": "minecraft:packed_ice"
     },
     {
-      "item": "minecraft:stone_brick_slab"
+      "item": "minecraft:quartz"
     },
     {
-      "item": "minecraft:stone_bricks"
+      "item": "minecraft:red_terracotta"
     },
     {
-      "item": "minecraft:stripped_dark_oak_log"
+      "item": "minecraft:tube_coral"
     }
   ],
   "result": {

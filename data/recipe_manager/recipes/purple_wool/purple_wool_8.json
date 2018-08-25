@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:purple_dye"
+      "item": "minecraft:book"
     },
     {
-      "item": "minecraft:wooden_shovel"
+      "item": "minecraft:golden_sword"
     }
   ],
   "result": {

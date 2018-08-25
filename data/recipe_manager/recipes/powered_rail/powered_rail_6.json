@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:bucket"
+      "item": "minecraft:cobblestone"
     },
     "#": {
-      "item": "minecraft:cocoa_beans"
+      "item": "minecraft:sponge"
     },
     "R": {
-      "item": "minecraft:magenta_carpet"
+      "item": "minecraft:trapped_chest"
     }
   },
   "result": {

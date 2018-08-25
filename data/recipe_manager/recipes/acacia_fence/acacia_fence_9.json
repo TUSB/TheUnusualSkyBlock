@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:stripped_jungle_wood"
+      "item": "minecraft:fern"
     },
     "#": {
-      "item": "minecraft:yellow_shulker_box"
+      "item": "minecraft:lime_dye"
     }
   },
   "result": {

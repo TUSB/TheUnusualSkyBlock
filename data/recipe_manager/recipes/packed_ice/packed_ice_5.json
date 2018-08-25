@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:armor_stand"
+      "item": "minecraft:beetroot_soup"
     },
     {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:brown_stained_glass_pane"
     },
     {
-      "item": "minecraft:green_concrete_powder"
+      "item": "minecraft:granite"
     },
     {
-      "item": "minecraft:iron_horse_armor"
+      "item": "minecraft:ink_sac"
     },
     {
-      "item": "minecraft:lime_wool"
+      "item": "minecraft:lime_concrete"
     },
     {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:lime_stained_glass"
     },
     {
-      "item": "minecraft:stripped_jungle_log"
+      "item": "minecraft:pink_concrete"
     },
     {
-      "item": "minecraft:wet_sponge"
+      "item": "minecraft:stone_button"
     },
     {
-      "item": "minecraft:writable_book"
+      "item": "minecraft:torch"
     }
   ],
   "result": {

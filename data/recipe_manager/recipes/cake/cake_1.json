@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:birch_sapling"
+      "item": "minecraft:lead"
     },
     "B": {
-      "item": "minecraft:brain_coral_fan"
+      "item": "minecraft:nautilus_shell"
     },
     "E": {
-      "item": "minecraft:cocoa_beans"
+      "item": "minecraft:pufferfish_bucket"
     },
     "C": {
-      "item": "minecraft:pumpkin_seeds"
+      "item": "minecraft:wheat_seeds"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_stained_glass_pane"
+      "item": "minecraft:sandstone"
     },
     {
-      "item": "minecraft:enchanted_book"
+      "item": "minecraft:sugar_cane"
     }
   ],
   "result": {

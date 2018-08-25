@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:creeper_head"
+      "item": "minecraft:diamond_pickaxe"
     },
     "X": {
-      "item": "minecraft:oak_stairs"
+      "item": "minecraft:turtle_helmet"
     }
   },
   "result": {

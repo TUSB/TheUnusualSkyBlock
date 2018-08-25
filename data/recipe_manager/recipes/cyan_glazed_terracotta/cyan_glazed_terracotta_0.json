@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:stripped_acacia_log"
     }
   ],
   "result": {

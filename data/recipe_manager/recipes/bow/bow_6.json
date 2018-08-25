@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_blue_stained_glass_pane"
+      "item": "minecraft:jungle_fence_gate"
     },
     "X": {
-      "item": "minecraft:stone_shovel"
+      "item": "minecraft:redstone"
     }
   },
   "result": {

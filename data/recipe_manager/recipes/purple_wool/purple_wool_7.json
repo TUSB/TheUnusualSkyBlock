@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:golden_hoe"
+      "item": "minecraft:jungle_sapling"
     },
     {
-      "item": "minecraft:tnt"
+      "item": "minecraft:spruce_fence"
     }
   ],
   "result": {

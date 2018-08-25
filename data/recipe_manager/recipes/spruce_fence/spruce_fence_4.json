@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:dark_oak_wood"
+      "item": "minecraft:flint"
     },
     "#": {
-      "item": "minecraft:horn_coral_fan"
+      "item": "minecraft:large_fern"
     }
   },
   "result": {

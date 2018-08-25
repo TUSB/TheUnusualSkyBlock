@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_trapdoor"
+      "item": "minecraft:lapis_block"
     },
     "X": {
-      "item": "minecraft:yellow_glazed_terracotta"
+      "item": "minecraft:purpur_stairs"
     }
   },
   "result": {

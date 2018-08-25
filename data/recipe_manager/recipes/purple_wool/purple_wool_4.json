@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_log"
+      "item": "minecraft:obsidian"
     },
     {
-      "item": "minecraft:cactus_green"
+      "item": "minecraft:splash_potion"
     }
   ],
   "result": {

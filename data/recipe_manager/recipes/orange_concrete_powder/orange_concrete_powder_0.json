@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_door"
+      "item": "minecraft:arrow"
     },
     {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:cooked_cod"
     },
     {
-      "item": "minecraft:brown_shulker_box"
+      "item": "minecraft:emerald_ore"
     },
     {
-      "item": "minecraft:comparator"
+      "item": "minecraft:glass_pane"
     },
     {
-      "item": "minecraft:dead_brain_coral_block"
+      "item": "minecraft:iron_ingot"
     },
     {
-      "item": "minecraft:horn_coral"
+      "item": "minecraft:light_gray_stained_glass"
     },
     {
-      "item": "minecraft:spruce_fence_gate"
+      "item": "minecraft:orange_bed"
     },
     {
-      "item": "minecraft:tnt"
+      "item": "minecraft:prismarine_bricks"
     },
     {
-      "item": "minecraft:yellow_terracotta"
+      "item": "minecraft:snow_block"
     }
   ],
   "result": {

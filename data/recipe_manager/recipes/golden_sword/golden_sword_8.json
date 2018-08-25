@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:detector_rail"
+      "item": "minecraft:orange_terracotta"
     },
     "#": {
-      "item": "minecraft:wheat_seeds"
+      "item": "minecraft:shield"
     }
   },
   "result": {

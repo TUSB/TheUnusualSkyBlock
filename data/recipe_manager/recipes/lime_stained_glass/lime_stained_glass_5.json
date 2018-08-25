@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:potato"
+      "item": "minecraft:lapis_block"
     },
     "X": {
-      "item": "minecraft:stripped_birch_log"
+      "item": "minecraft:leather_helmet"
     }
   },
   "result": {

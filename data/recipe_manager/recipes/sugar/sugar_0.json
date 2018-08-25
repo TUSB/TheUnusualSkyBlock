@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:jungle_fence"
+      "item": "minecraft:blue_concrete"
     }
   ],
   "result": {

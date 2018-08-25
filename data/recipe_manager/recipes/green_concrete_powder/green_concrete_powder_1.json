@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beetroot"
+      "item": "minecraft:acacia_leaves"
     },
     {
-      "item": "minecraft:blaze_powder"
+      "item": "minecraft:blaze_rod"
     },
     {
-      "item": "minecraft:blue_concrete"
+      "item": "minecraft:filled_map"
     },
     {
-      "item": "minecraft:brain_coral_block"
+      "item": "minecraft:hopper"
     },
     {
-      "item": "minecraft:diamond"
+      "item": "minecraft:magenta_bed"
     },
     {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:oak_fence_gate"
     },
     {
-      "item": "minecraft:ice"
+      "item": "minecraft:purpur_block"
     },
     {
-      "item": "minecraft:jack_o_lantern"
+      "item": "minecraft:salmon_bucket"
     },
     {
-      "item": "minecraft:white_carpet"
+      "item": "minecraft:sign"
     }
   ],
   "result": {

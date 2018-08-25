@@ -7,16 +7,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:compass"
+      "item": "minecraft:beetroot_soup"
     },
     "#": {
-      "item": "minecraft:golden_horse_armor"
+      "item": "minecraft:blaze_powder"
     },
     "X": {
-      "item": "minecraft:light_blue_concrete"
+      "item": "minecraft:leather_helmet"
     },
     "R": {
-      "item": "minecraft:orange_glazed_terracotta"
+      "item": "minecraft:light_gray_terracotta"
     }
   },
   "result": {

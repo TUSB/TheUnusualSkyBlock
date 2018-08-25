@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_fence"
+      "item": "minecraft:gray_concrete"
     },
     "X": {
-      "item": "minecraft:popped_chorus_fruit"
+      "item": "minecraft:light_gray_stained_glass"
     }
   },
   "result": {

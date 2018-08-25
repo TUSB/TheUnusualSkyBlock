@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:iron_trapdoor"
+      "item": "minecraft:magenta_dye"
     },
     "#": {
-      "item": "minecraft:light_blue_carpet"
+      "item": "minecraft:yellow_terracotta"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "O": {
-      "item": "minecraft:hay_block"
+      "item": "minecraft:bone"
     },
     "B": {
-      "item": "minecraft:jukebox"
+      "item": "minecraft:gray_wool"
     }
   },
   "result": {

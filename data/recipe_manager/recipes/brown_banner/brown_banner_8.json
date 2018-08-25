@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_wool"
+      "item": "minecraft:birch_button"
     },
     "|": {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:diamond_pickaxe"
     }
   },
   "result": {

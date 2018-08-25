@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cookie"
+      "item": "minecraft:brown_wool"
     },
     "X": {
-      "item": "minecraft:potato"
+      "item": "minecraft:jungle_door"
     }
   },
   "result": {

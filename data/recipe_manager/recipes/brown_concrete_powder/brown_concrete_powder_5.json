@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brain_coral"
+      "item": "minecraft:cake"
     },
     {
-      "item": "minecraft:carved_pumpkin"
+      "item": "minecraft:enchanted_book"
     },
     {
-      "item": "minecraft:diamond_chestplate"
+      "item": "minecraft:lapis_lazuli"
     },
     {
-      "item": "minecraft:dragon_breath"
+      "item": "minecraft:map"
     },
     {
-      "item": "minecraft:green_wool"
+      "item": "minecraft:mutton"
     },
     {
-      "item": "minecraft:ice"
+      "item": "minecraft:oak_stairs"
     },
     {
-      "item": "minecraft:leather_helmet"
+      "item": "minecraft:orange_bed"
     },
     {
-      "item": "minecraft:mycelium"
+      "item": "minecraft:orange_concrete"
     },
     {
-      "item": "minecraft:prismarine"
+      "item": "minecraft:pink_concrete_powder"
     }
   ],
   "result": {

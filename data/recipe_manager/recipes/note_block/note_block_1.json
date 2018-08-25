@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_fence"
+      "item": "minecraft:string"
     },
     "X": {
-      "item": "minecraft:diamond_chestplate"
+      "item": "minecraft:yellow_banner"
     }
   },
   "result": {

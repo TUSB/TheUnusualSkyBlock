@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:gray_wool"
+      "item": "minecraft:jungle_button"
     },
     "#": {
-      "item": "minecraft:yellow_glazed_terracotta"
+      "item": "minecraft:orange_glazed_terracotta"
     }
   },
   "result": {

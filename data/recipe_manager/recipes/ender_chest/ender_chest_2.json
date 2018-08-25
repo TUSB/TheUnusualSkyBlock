@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_concrete"
+      "item": "minecraft:iron_bars"
     },
     "E": {
-      "item": "minecraft:stripped_birch_wood"
+      "item": "minecraft:orange_glazed_terracotta"
     }
   },
   "result": {

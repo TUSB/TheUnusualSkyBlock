@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_wood"
+      "item": "minecraft:dark_oak_slab"
     },
     {
-      "item": "minecraft:mushroom_stem"
+      "item": "minecraft:porkchop"
     }
   ],
   "result": {

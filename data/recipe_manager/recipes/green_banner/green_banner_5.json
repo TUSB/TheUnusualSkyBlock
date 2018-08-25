@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:polished_andesite"
     },
     "|": {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:red_sandstone"
     }
   },
   "result": {

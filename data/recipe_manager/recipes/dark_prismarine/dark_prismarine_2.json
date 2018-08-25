@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:diamond_pickaxe"
+      "item": "minecraft:allium"
     },
     "I": {
-      "item": "minecraft:oak_trapdoor"
+      "item": "minecraft:birch_sapling"
     }
   },
   "result": {

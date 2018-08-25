@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:lapis_block"
+      "item": "minecraft:jukebox"
     },
     "#": {
-      "item": "minecraft:stone_hoe"
+      "item": "minecraft:leather_leggings"
     }
   },
   "result": {

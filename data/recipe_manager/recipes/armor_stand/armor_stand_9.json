@@ -7,10 +7,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:black_banner"
+      "item": "minecraft:gray_stained_glass"
     },
     "_": {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:sugar"
     }
   },
   "result": {

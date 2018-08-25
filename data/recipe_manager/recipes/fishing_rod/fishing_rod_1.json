@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cod"
+      "item": "minecraft:flint_and_steel"
     },
     "X": {
-      "item": "minecraft:fire_coral_fan"
+      "item": "minecraft:tube_coral_block"
     }
   },
   "result": {

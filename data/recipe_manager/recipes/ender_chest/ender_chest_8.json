@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:leather_chestplate"
+      "item": "minecraft:spruce_sapling"
     },
     "E": {
-      "item": "minecraft:smooth_red_sandstone"
+      "item": "minecraft:spruce_trapdoor"
     }
   },
   "result": {

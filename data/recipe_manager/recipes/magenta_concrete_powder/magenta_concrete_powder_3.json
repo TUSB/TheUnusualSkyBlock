@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bowl"
+      "item": "minecraft:cracked_stone_bricks"
     },
     {
-      "item": "minecraft:chipped_anvil"
+      "item": "minecraft:cyan_dye"
     },
     {
-      "item": "minecraft:jungle_fence"
+      "item": "minecraft:cyan_glazed_terracotta"
     },
     {
-      "item": "minecraft:map"
+      "item": "minecraft:dark_prismarine_stairs"
     },
     {
-      "item": "minecraft:pufferfish"
+      "item": "minecraft:end_crystal"
     },
     {
-      "item": "minecraft:pumpkin_pie"
+      "item": "minecraft:golden_helmet"
     },
     {
-      "item": "minecraft:turtle_egg"
+      "item": "minecraft:nether_brick_fence"
     },
     {
-      "item": "minecraft:wet_sponge"
+      "item": "minecraft:tall_grass"
     },
     {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:trapped_chest"
     }
   ],
   "result": {

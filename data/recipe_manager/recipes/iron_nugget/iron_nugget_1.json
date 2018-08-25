@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:stripped_dark_oak_log"
+      "item": "minecraft:yellow_concrete_powder"
     }
   ],
   "result": {

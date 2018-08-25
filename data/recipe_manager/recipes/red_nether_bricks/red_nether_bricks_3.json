@@ -6,10 +6,10 @@
   ],
   "key": {
     "N": {
-      "item": "minecraft:spectral_arrow"
+      "item": "minecraft:green_terracotta"
     },
     "W": {
-      "item": "minecraft:stone_hoe"
+      "item": "minecraft:nether_brick_stairs"
     }
   },
   "result": {

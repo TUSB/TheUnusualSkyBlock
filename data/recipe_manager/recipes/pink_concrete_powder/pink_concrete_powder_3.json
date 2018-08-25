@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_terracotta"
+      "item": "minecraft:black_stained_glass"
     },
     {
-      "item": "minecraft:dragon_head"
+      "item": "minecraft:green_stained_glass_pane"
     },
     {
-      "item": "minecraft:green_stained_glass"
+      "item": "minecraft:nether_brick_fence"
     },
     {
-      "item": "minecraft:horn_coral_fan"
+      "item": "minecraft:oak_leaves"
     },
     {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:oak_pressure_plate"
     },
     {
-      "item": "minecraft:jungle_leaves"
+      "item": "minecraft:orange_concrete_powder"
     },
     {
-      "item": "minecraft:purpur_stairs"
+      "item": "minecraft:orange_wool"
     },
     {
-      "item": "minecraft:rose_red"
+      "item": "minecraft:quartz_pillar"
     },
     {
-      "item": "minecraft:sand"
+      "item": "minecraft:red_wool"
     }
   ],
   "result": {

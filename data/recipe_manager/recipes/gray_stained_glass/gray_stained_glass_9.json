@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chipped_anvil"
+      "item": "minecraft:furnace"
     },
     "X": {
-      "item": "minecraft:leather_helmet"
+      "item": "minecraft:mossy_stone_bricks"
     }
   },
   "result": {

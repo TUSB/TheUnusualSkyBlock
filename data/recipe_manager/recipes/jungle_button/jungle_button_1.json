@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:spruce_fence_gate"
+      "item": "minecraft:golden_apple"
     }
   ],
   "result": {

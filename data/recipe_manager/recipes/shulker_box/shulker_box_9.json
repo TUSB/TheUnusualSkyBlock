@@ -7,10 +7,10 @@
   ],
   "key": {
     "-": {
-      "item": "minecraft:gray_terracotta"
+      "item": "minecraft:fern"
     },
     "#": {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:light_gray_concrete_powder"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_banner"
+      "item": "minecraft:blaze_powder"
     },
     {
-      "item": "minecraft:gray_carpet"
+      "item": "minecraft:cake"
     },
     {
-      "item": "minecraft:green_concrete_powder"
+      "item": "minecraft:dark_oak_leaves"
     },
     {
-      "item": "minecraft:jack_o_lantern"
+      "item": "minecraft:diamond_hoe"
     },
     {
-      "item": "minecraft:jungle_button"
+      "item": "minecraft:hay_block"
     },
     {
-      "item": "minecraft:light_gray_bed"
+      "item": "minecraft:lily_pad"
     },
     {
-      "item": "minecraft:orange_tulip"
+      "item": "minecraft:orange_stained_glass"
     },
     {
-      "item": "minecraft:rabbit_stew"
+      "item": "minecraft:spruce_door"
     },
     {
-      "item": "minecraft:stone_brick_stairs"
+      "item": "minecraft:wet_sponge"
     }
   ],
   "result": {

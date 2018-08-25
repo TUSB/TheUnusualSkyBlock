@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:daylight_detector"
+      "item": "minecraft:lilac"
     },
     {
-      "item": "minecraft:gray_stained_glass_pane"
+      "item": "minecraft:piston"
     },
     {
-      "item": "minecraft:iron_bars"
+      "item": "minecraft:red_sandstone"
     }
   ],
   "result": {

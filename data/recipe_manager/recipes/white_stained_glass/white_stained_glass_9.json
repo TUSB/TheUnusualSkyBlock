@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:carrot_on_a_stick"
+      "item": "minecraft:stone"
     },
     "X": {
-      "item": "minecraft:chiseled_stone_bricks"
+      "item": "minecraft:terracotta"
     }
   },
   "result": {

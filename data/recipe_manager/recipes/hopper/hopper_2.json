@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:orange_glazed_terracotta"
+      "item": "minecraft:netherrack"
     },
     "C": {
-      "item": "minecraft:redstone"
+      "item": "minecraft:pink_glazed_terracotta"
     }
   },
   "result": {

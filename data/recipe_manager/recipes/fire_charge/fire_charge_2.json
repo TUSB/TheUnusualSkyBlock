@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:carved_pumpkin"
     },
     {
-      "item": "minecraft:white_bed"
+      "item": "minecraft:red_bed"
     }
   ],
   "result": {

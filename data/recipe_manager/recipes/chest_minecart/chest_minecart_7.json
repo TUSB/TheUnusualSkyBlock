@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:sea_pickle"
     },
     "B": {
-      "item": "minecraft:sponge"
+      "item": "minecraft:spruce_sapling"
     }
   },
   "result": {

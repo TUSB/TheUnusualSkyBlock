@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_door"
+      "item": "minecraft:purple_dye"
     },
     {
-      "item": "minecraft:salmon"
+      "item": "minecraft:trident"
     }
   ],
   "result": {

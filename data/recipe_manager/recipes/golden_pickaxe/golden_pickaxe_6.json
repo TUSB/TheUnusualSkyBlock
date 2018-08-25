@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:damaged_anvil"
+      "item": "minecraft:birch_sapling"
     },
     "#": {
-      "item": "minecraft:green_glazed_terracotta"
+      "item": "minecraft:light_gray_shulker_box"
     }
   },
   "result": {

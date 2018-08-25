@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:yellow_bed"
+      "item": "minecraft:blue_stained_glass"
     },
     "X": {
-      "item": "minecraft:yellow_shulker_box"
+      "item": "minecraft:cake"
     }
   },
   "result": {

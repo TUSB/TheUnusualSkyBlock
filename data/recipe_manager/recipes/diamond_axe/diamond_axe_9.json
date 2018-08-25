@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:red_concrete"
+      "item": "minecraft:dark_oak_fence_gate"
     },
     "#": {
-      "item": "minecraft:yellow_glazed_terracotta"
+      "item": "minecraft:prismarine"
     }
   },
   "result": {

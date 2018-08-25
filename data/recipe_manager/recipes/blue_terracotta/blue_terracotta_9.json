@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_glazed_terracotta"
+      "item": "minecraft:packed_ice"
     },
     "X": {
-      "item": "minecraft:red_terracotta"
+      "item": "minecraft:polished_diorite"
     }
   },
   "result": {

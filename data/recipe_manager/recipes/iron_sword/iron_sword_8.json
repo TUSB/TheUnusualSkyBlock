@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cooked_rabbit"
+      "item": "minecraft:chiseled_quartz_block"
     },
     "#": {
-      "item": "minecraft:gravel"
+      "item": "minecraft:comparator"
     }
   },
   "result": {

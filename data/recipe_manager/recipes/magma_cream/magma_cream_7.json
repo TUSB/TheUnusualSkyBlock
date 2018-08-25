@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_stained_glass_pane"
+      "item": "minecraft:lime_carpet"
     },
     {
-      "item": "minecraft:bubble_coral"
+      "item": "minecraft:magenta_banner"
     }
   ],
   "result": {

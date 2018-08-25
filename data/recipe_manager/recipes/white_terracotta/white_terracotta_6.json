@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cactus"
+      "item": "minecraft:minecart"
     },
     "X": {
-      "item": "minecraft:stone_button"
+      "item": "minecraft:sticky_piston"
     }
   },
   "result": {

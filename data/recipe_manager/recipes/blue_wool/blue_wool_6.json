@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:glowstone"
+      "item": "minecraft:blue_banner"
     },
     {
-      "item": "minecraft:repeater"
+      "item": "minecraft:shulker_box"
     }
   ],
   "result": {

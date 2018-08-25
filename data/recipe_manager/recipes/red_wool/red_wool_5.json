@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:armor_stand"
+      "item": "minecraft:brick_stairs"
     },
     {
-      "item": "minecraft:birch_slab"
+      "item": "minecraft:spruce_wood"
     }
   ],
   "result": {

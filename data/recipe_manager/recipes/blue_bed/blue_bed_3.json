@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:kelp"
+      "item": "minecraft:cyan_terracotta"
     },
     "X": {
-      "item": "minecraft:quartz_slab"
+      "item": "minecraft:sandstone_slab"
     }
   },
   "result": {

@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beetroot_soup"
+      "item": "minecraft:brown_mushroom_block"
     },
     {
-      "item": "minecraft:iron_bars"
+      "item": "minecraft:painting"
     },
     {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:popped_chorus_fruit"
     }
   ],
   "result": {

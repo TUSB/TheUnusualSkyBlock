@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_boots"
+      "item": "minecraft:birch_planks"
     },
     "X": {
-      "item": "minecraft:magenta_bed"
+      "item": "minecraft:birch_trapdoor"
     }
   },
   "result": {

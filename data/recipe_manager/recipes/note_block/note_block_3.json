@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:golden_sword"
+      "item": "minecraft:blue_concrete_powder"
     },
     "X": {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:granite"
     }
   },
   "result": {

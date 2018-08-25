@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_log"
+      "item": "minecraft:charcoal"
     },
     {
-      "item": "minecraft:andesite"
+      "item": "minecraft:diamond_shovel"
     },
     {
-      "item": "minecraft:bow"
+      "item": "minecraft:filled_map"
     },
     {
-      "item": "minecraft:item_frame"
+      "item": "minecraft:golden_horse_armor"
     },
     {
-      "item": "minecraft:magma_cream"
+      "item": "minecraft:grass_path"
     },
     {
-      "item": "minecraft:melon_slice"
+      "item": "minecraft:nether_brick_fence"
     },
     {
-      "item": "minecraft:quartz"
+      "item": "minecraft:nether_brick_stairs"
     },
     {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:prismarine_bricks"
     },
     {
-      "item": "minecraft:yellow_stained_glass"
+      "item": "minecraft:purple_terracotta"
     }
   ],
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:iron_shovel"
+      "item": "minecraft:baked_potato"
     },
     {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:light_blue_dye"
     }
   ],
   "result": {

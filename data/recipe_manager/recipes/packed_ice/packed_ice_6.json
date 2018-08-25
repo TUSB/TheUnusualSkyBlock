@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_trapdoor"
+      "item": "minecraft:brown_glazed_terracotta"
     },
     {
-      "item": "minecraft:dark_oak_slab"
+      "item": "minecraft:carrot"
     },
     {
-      "item": "minecraft:dark_oak_wood"
+      "item": "minecraft:cyan_carpet"
     },
     {
-      "item": "minecraft:diamond_ore"
+      "item": "minecraft:iron_leggings"
     },
     {
-      "item": "minecraft:green_glazed_terracotta"
+      "item": "minecraft:jungle_stairs"
     },
     {
-      "item": "minecraft:green_stained_glass_pane"
+      "item": "minecraft:mossy_stone_bricks"
     },
     {
-      "item": "minecraft:lapis_ore"
+      "item": "minecraft:oak_planks"
     },
     {
-      "item": "minecraft:lime_concrete_powder"
+      "item": "minecraft:oxeye_daisy"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:purpur_stairs"
     }
   ],
   "result": {

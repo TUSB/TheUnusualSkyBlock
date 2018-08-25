@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_carpet"
+      "item": "minecraft:blue_concrete_powder"
     },
     {
-      "item": "minecraft:cactus"
+      "item": "minecraft:bookshelf"
     },
     {
-      "item": "minecraft:dirt"
+      "item": "minecraft:furnace"
     },
     {
-      "item": "minecraft:feather"
+      "item": "minecraft:polished_diorite"
     },
     {
-      "item": "minecraft:granite"
+      "item": "minecraft:porkchop"
     },
     {
-      "item": "minecraft:orange_stained_glass"
+      "item": "minecraft:rose_bush"
     },
     {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:stripped_spruce_log"
     },
     {
-      "item": "minecraft:spruce_leaves"
+      "item": "minecraft:tropical_fish"
     },
     {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:white_banner"
     }
   ],
   "result": {

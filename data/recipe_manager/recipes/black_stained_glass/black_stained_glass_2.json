@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:quartz_pillar"
+      "item": "minecraft:cobblestone_slab"
     },
     "X": {
-      "item": "minecraft:sandstone_slab"
+      "item": "minecraft:phantom_membrane"
     }
   },
   "result": {

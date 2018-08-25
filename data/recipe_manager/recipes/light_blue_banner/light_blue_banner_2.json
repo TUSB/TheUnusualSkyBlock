@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:golden_apple"
     },
     "|": {
-      "item": "minecraft:mushroom_stem"
+      "item": "minecraft:nether_bricks"
     }
   },
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cactus"
+      "item": "minecraft:filled_map"
     },
     "#": {
-      "item": "minecraft:dirt"
+      "item": "minecraft:magenta_concrete_powder"
     },
     "Y": {
-      "item": "minecraft:white_stained_glass"
+      "item": "minecraft:red_mushroom_block"
     }
   },
   "result": {

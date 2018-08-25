@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:acacia_trapdoor"
+      "item": "minecraft:enchanted_book"
     },
     "#": {
-      "item": "minecraft:prismarine_brick_slab"
+      "item": "minecraft:light_blue_concrete"
     }
   },
   "result": {

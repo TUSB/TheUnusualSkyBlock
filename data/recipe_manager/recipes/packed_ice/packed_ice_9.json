@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chiseled_stone_bricks"
+      "item": "minecraft:blue_orchid"
     },
     {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:diamond_sword"
     },
     {
-      "item": "minecraft:diamond_boots"
+      "item": "minecraft:magenta_bed"
     },
     {
-      "item": "minecraft:flower_pot"
+      "item": "minecraft:milk_bucket"
     },
     {
-      "item": "minecraft:glistering_melon_slice"
+      "item": "minecraft:mossy_cobblestone"
     },
     {
-      "item": "minecraft:light_blue_stained_glass_pane"
+      "item": "minecraft:rose_red"
     },
     {
-      "item": "minecraft:orange_stained_glass"
+      "item": "minecraft:spider_eye"
     },
     {
-      "item": "minecraft:sunflower"
+      "item": "minecraft:wheat"
     },
     {
-      "item": "minecraft:trapped_chest"
+      "item": "minecraft:writable_book"
     }
   ],
   "result": {

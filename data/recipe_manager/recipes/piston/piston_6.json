@@ -7,16 +7,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:acacia_sapling"
+      "item": "minecraft:black_banner"
     },
     "#": {
-      "item": "minecraft:birch_button"
+      "item": "minecraft:gray_carpet"
     },
     "X": {
-      "item": "minecraft:cobblestone_stairs"
+      "item": "minecraft:magma_cream"
     },
     "R": {
-      "item": "minecraft:nether_brick_stairs"
+      "item": "minecraft:yellow_carpet"
     }
   },
   "result": {

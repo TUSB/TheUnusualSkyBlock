@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:filled_map"
+      "item": "minecraft:dark_oak_sapling"
     },
     "#": {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:dried_kelp"
     }
   },
   "result": {

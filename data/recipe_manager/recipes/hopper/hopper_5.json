@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:cyan_stained_glass_pane"
+      "item": "minecraft:redstone_ore"
     },
     "C": {
-      "item": "minecraft:dried_kelp_block"
+      "item": "minecraft:wooden_hoe"
     }
   },
   "result": {

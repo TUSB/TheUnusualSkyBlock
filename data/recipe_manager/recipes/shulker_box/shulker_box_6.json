@@ -7,10 +7,10 @@
   ],
   "key": {
     "-": {
-      "item": "minecraft:armor_stand"
+      "item": "minecraft:blue_orchid"
     },
     "#": {
-      "item": "minecraft:grass_block"
+      "item": "minecraft:grass_path"
     }
   },
   "result": {

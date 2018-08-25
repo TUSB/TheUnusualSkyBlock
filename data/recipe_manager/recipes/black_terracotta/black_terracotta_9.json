@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:end_crystal"
+      "item": "minecraft:leather_chestplate"
     },
     "X": {
-      "item": "minecraft:white_stained_glass_pane"
+      "item": "minecraft:shield"
     }
   },
   "result": {

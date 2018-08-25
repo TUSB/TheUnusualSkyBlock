@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_boat"
+      "item": "minecraft:cod_bucket"
     },
     "X": {
-      "item": "minecraft:orange_stained_glass_pane"
+      "item": "minecraft:player_head"
     }
   },
   "result": {

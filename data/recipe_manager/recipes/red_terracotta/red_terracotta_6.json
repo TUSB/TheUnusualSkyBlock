@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:charcoal"
+      "item": "minecraft:gold_ore"
     },
     "X": {
-      "item": "minecraft:rabbit_foot"
+      "item": "minecraft:trapped_chest"
     }
   },
   "result": {

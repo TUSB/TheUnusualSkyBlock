@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magma_cream"
+      "item": "minecraft:daylight_detector"
     },
     "X": {
-      "item": "minecraft:spruce_door"
+      "item": "minecraft:obsidian"
     }
   },
   "result": {

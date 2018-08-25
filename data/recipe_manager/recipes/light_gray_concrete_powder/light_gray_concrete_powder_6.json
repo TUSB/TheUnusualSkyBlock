@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brain_coral_fan"
+      "item": "minecraft:cobblestone_stairs"
     },
     {
-      "item": "minecraft:creeper_head"
+      "item": "minecraft:cookie"
     },
     {
-      "item": "minecraft:cyan_stained_glass_pane"
+      "item": "minecraft:fire_charge"
     },
     {
-      "item": "minecraft:gold_block"
+      "item": "minecraft:grass_block"
     },
     {
-      "item": "minecraft:iron_nugget"
+      "item": "minecraft:prismarine"
     },
     {
-      "item": "minecraft:lapis_block"
+      "item": "minecraft:soul_sand"
     },
     {
-      "item": "minecraft:purple_concrete"
+      "item": "minecraft:trapped_chest"
     },
     {
-      "item": "minecraft:red_sandstone_stairs"
+      "item": "minecraft:white_terracotta"
     },
     {
-      "item": "minecraft:tube_coral"
+      "item": "minecraft:yellow_wool"
     }
   ],
   "result": {

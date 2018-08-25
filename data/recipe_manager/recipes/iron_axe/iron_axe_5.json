@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:magenta_bed"
+      "item": "minecraft:diamond_hoe"
     },
     "#": {
-      "item": "minecraft:stripped_spruce_wood"
+      "item": "minecraft:powered_rail"
     }
   },
   "result": {

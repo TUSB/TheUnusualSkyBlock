@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chiseled_sandstone"
+      "item": "minecraft:acacia_fence"
     },
     "X": {
-      "item": "minecraft:yellow_concrete"
+      "item": "minecraft:jungle_slab"
     }
   },
   "result": {

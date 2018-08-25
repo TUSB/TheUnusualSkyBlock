@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:white_tulip"
+      "item": "minecraft:brick_slab"
     },
     "X": {
-      "item": "minecraft:writable_book"
+      "item": "minecraft:prismarine"
     }
   },
   "result": {

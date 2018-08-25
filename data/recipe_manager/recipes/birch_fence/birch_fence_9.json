@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:lily_pad"
+      "item": "minecraft:iron_door"
     },
     "#": {
-      "item": "minecraft:sea_pickle"
+      "item": "minecraft:shulker_shell"
     }
   },
   "result": {

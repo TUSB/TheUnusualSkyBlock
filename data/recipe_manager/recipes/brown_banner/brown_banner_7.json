@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_fence"
+      "item": "minecraft:quartz_stairs"
     },
     "|": {
-      "item": "minecraft:pink_bed"
+      "item": "minecraft:stripped_oak_log"
     }
   },
   "result": {

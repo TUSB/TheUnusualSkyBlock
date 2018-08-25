@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:peony"
+      "item": "minecraft:iron_pickaxe"
     },
     {
-      "item": "minecraft:red_bed"
+      "item": "minecraft:orange_terracotta"
     }
   ],
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_wool"
+      "item": "minecraft:smooth_sandstone"
     },
     {
-      "item": "minecraft:light_gray_stained_glass"
+      "item": "minecraft:spruce_log"
     }
   ],
   "result": {

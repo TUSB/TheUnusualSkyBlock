@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_banner"
+      "item": "minecraft:birch_fence"
     },
     {
-      "item": "minecraft:brick"
+      "item": "minecraft:birch_fence_gate"
     },
     {
-      "item": "minecraft:conduit"
+      "item": "minecraft:birch_stairs"
     },
     {
-      "item": "minecraft:nether_quartz_ore"
+      "item": "minecraft:cooked_cod"
     },
     {
-      "item": "minecraft:pink_banner"
+      "item": "minecraft:iron_horse_armor"
     },
     {
-      "item": "minecraft:popped_chorus_fruit"
+      "item": "minecraft:jungle_stairs"
     },
     {
-      "item": "minecraft:powered_rail"
+      "item": "minecraft:purple_terracotta"
     },
     {
-      "item": "minecraft:pumpkin_seeds"
+      "item": "minecraft:spruce_pressure_plate"
     },
     {
-      "item": "minecraft:tall_grass"
+      "item": "minecraft:stone_pickaxe"
     }
   ],
   "result": {

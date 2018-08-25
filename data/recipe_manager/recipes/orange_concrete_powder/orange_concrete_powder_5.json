@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bone_meal"
+      "item": "minecraft:brewing_stand"
     },
     {
-      "item": "minecraft:brick_stairs"
+      "item": "minecraft:brown_glazed_terracotta"
     },
     {
-      "item": "minecraft:brown_carpet"
+      "item": "minecraft:coarse_dirt"
     },
     {
-      "item": "minecraft:cooked_chicken"
+      "item": "minecraft:dead_bubble_coral_block"
     },
     {
-      "item": "minecraft:damaged_anvil"
+      "item": "minecraft:iron_chestplate"
     },
     {
-      "item": "minecraft:glass_bottle"
+      "item": "minecraft:magenta_glazed_terracotta"
     },
     {
-      "item": "minecraft:golden_shovel"
+      "item": "minecraft:orange_terracotta"
     },
     {
-      "item": "minecraft:powered_rail"
+      "item": "minecraft:polished_diorite"
     },
     {
-      "item": "minecraft:turtle_egg"
+      "item": "minecraft:tropical_fish_bucket"
     }
   ],
   "result": {

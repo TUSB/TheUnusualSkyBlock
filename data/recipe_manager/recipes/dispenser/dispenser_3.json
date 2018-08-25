@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chest"
+      "item": "minecraft:light_blue_concrete"
     },
     "X": {
-      "item": "minecraft:end_stone_bricks"
+      "item": "minecraft:light_blue_shulker_box"
     },
     "R": {
-      "item": "minecraft:scute"
+      "item": "minecraft:stripped_oak_log"
     }
   },
   "result": {

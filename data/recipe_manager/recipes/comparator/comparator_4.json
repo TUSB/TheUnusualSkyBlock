@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_shulker_box"
+      "item": "minecraft:iron_bars"
     },
     "X": {
-      "item": "minecraft:red_banner"
+      "item": "minecraft:pink_glazed_terracotta"
     },
     "I": {
-      "item": "minecraft:tall_grass"
+      "item": "minecraft:polished_diorite"
     }
   },
   "result": {

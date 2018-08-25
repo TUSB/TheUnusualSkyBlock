@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chest"
+      "item": "minecraft:purple_stained_glass_pane"
     },
     "X": {
-      "item": "minecraft:lapis_ore"
+      "item": "minecraft:spruce_planks"
     }
   },
   "result": {

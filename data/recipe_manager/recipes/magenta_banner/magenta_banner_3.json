@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_concrete"
+      "item": "minecraft:mossy_cobblestone_wall"
     },
     "|": {
-      "item": "minecraft:stone_pressure_plate"
+      "item": "minecraft:polished_andesite"
     }
   },
   "result": {

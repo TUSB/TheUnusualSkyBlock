@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:andesite"
+      "item": "minecraft:enchanted_book"
     },
     {
-      "item": "minecraft:cooked_mutton"
+      "item": "minecraft:glass_bottle"
     }
   ],
   "result": {

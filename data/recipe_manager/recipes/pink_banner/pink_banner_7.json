@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cobblestone"
+      "item": "minecraft:birch_boat"
     },
     "|": {
-      "item": "minecraft:dark_oak_planks"
+      "item": "minecraft:prismarine_bricks"
     }
   },
   "result": {

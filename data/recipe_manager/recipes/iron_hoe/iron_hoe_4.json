@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:jungle_door"
+      "item": "minecraft:birch_stairs"
     },
     "#": {
-      "item": "minecraft:spruce_door"
+      "item": "minecraft:fire_coral_block"
     }
   },
   "result": {

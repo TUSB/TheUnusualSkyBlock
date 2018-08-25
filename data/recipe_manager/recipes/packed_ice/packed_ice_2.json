@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:birch_log"
     },
     {
-      "item": "minecraft:diamond_leggings"
+      "item": "minecraft:black_carpet"
     },
     {
-      "item": "minecraft:gray_carpet"
+      "item": "minecraft:brown_stained_glass_pane"
     },
     {
-      "item": "minecraft:horn_coral_fan"
+      "item": "minecraft:detector_rail"
     },
     {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:emerald"
     },
     {
-      "item": "minecraft:salmon_bucket"
+      "item": "minecraft:orange_concrete_powder"
     },
     {
-      "item": "minecraft:sand"
+      "item": "minecraft:sugar"
     },
     {
-      "item": "minecraft:snowball"
+      "item": "minecraft:wheat"
     },
     {
-      "item": "minecraft:sugar_cane"
+      "item": "minecraft:yellow_concrete"
     }
   ],
   "result": {

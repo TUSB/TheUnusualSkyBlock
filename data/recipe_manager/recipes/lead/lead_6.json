@@ -7,10 +7,10 @@
   ],
   "key": {
     "~": {
-      "item": "minecraft:birch_wood"
+      "item": "minecraft:chest"
     },
     "O": {
-      "item": "minecraft:sugar"
+      "item": "minecraft:prismarine"
     }
   },
   "result": {

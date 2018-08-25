@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_glazed_terracotta"
+      "item": "minecraft:pink_stained_glass_pane"
     },
     "X": {
-      "item": "minecraft:yellow_stained_glass_pane"
+      "item": "minecraft:written_book"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:lime_stained_glass_pane"
+      "item": "minecraft:end_rod"
     },
     "B": {
-      "item": "minecraft:vine"
+      "item": "minecraft:fire_coral"
     }
   },
   "result": {

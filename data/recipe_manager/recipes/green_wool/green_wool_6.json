@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:rabbit_foot"
+      "item": "minecraft:lapis_block"
     },
     {
-      "item": "minecraft:rabbit_hide"
+      "item": "minecraft:quartz_slab"
     }
   ],
   "result": {

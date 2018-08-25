@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_banner"
+      "item": "minecraft:magenta_carpet"
     },
     "X": {
-      "item": "minecraft:stone"
+      "item": "minecraft:slime_ball"
     }
   },
   "result": {

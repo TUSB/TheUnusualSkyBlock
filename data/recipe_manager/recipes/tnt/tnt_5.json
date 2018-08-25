@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:green_shulker_box"
+      "item": "minecraft:dried_kelp"
     },
     "#": {
-      "item": "minecraft:oak_stairs"
+      "item": "minecraft:white_concrete"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cobblestone_wall"
+      "item": "minecraft:dead_tube_coral_fan"
     },
     "|": {
-      "item": "minecraft:quartz"
+      "item": "minecraft:ice"
     }
   },
   "result": {

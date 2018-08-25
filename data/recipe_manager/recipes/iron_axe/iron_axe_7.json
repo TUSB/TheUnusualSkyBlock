@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_oak_planks"
+      "item": "minecraft:oak_pressure_plate"
     },
     "#": {
-      "item": "minecraft:red_terracotta"
+      "item": "minecraft:white_banner"
     }
   },
   "result": {

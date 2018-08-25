@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:purpur_block"
+      "item": "minecraft:blue_orchid"
     },
     "#": {
-      "item": "minecraft:stone_hoe"
+      "item": "minecraft:cobblestone_wall"
     }
   },
   "result": {

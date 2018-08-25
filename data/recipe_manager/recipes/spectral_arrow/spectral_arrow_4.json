@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_button"
+      "item": "minecraft:cobblestone_wall"
     },
     "X": {
-      "item": "minecraft:coal_ore"
+      "item": "minecraft:spruce_trapdoor"
     }
   },
   "result": {

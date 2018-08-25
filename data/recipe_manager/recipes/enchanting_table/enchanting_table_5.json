@@ -7,13 +7,13 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:anvil"
+      "item": "minecraft:green_concrete"
     },
     "D": {
-      "item": "minecraft:bubble_coral"
+      "item": "minecraft:ice"
     },
     "#": {
-      "item": "minecraft:glowstone"
+      "item": "minecraft:torch"
     }
   },
   "result": {

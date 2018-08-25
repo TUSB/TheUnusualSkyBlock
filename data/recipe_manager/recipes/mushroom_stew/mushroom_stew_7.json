@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cake"
+      "item": "minecraft:brick_slab"
     },
     {
-      "item": "minecraft:orange_banner"
+      "item": "minecraft:glowstone_dust"
     },
     {
-      "item": "minecraft:white_stained_glass_pane"
+      "item": "minecraft:zombie_head"
     }
   ],
   "result": {

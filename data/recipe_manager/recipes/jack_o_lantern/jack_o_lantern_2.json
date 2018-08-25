@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:book"
+      "item": "minecraft:green_shulker_box"
     },
     "B": {
-      "item": "minecraft:glass_bottle"
+      "item": "minecraft:light_blue_dye"
     }
   },
   "result": {

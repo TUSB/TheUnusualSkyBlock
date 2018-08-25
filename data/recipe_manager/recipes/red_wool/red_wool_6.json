@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:light_blue_wool"
+      "item": "minecraft:prismarine_crystals"
     },
     {
-      "item": "minecraft:wheat_seeds"
+      "item": "minecraft:stripped_birch_wood"
     }
   ],
   "result": {

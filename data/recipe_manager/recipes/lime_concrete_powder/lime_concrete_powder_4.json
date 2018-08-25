@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:azure_bluet"
+      "item": "minecraft:chiseled_red_sandstone"
     },
     {
-      "item": "minecraft:conduit"
+      "item": "minecraft:detector_rail"
     },
     {
-      "item": "minecraft:dark_oak_slab"
+      "item": "minecraft:nether_brick_fence"
     },
     {
-      "item": "minecraft:hopper_minecart"
+      "item": "minecraft:nether_brick_slab"
     },
     {
-      "item": "minecraft:iron_leggings"
+      "item": "minecraft:oak_boat"
     },
     {
-      "item": "minecraft:iron_shovel"
+      "item": "minecraft:porkchop"
     },
     {
-      "item": "minecraft:netherrack"
+      "item": "minecraft:prismarine_brick_stairs"
     },
     {
-      "item": "minecraft:red_wool"
+      "item": "minecraft:rotten_flesh"
     },
     {
-      "item": "minecraft:stripped_acacia_wood"
+      "item": "minecraft:stripped_birch_wood"
     }
   ],
   "result": {

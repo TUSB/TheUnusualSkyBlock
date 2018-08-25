@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:purple_carpet"
+      "item": "minecraft:cyan_shulker_box"
     }
   ],
   "result": {

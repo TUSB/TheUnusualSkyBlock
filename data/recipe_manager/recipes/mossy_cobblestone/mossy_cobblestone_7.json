@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:jukebox"
+      "item": "minecraft:green_wool"
     },
     {
-      "item": "minecraft:red_sand"
+      "item": "minecraft:wheat_seeds"
     }
   ],
   "result": {

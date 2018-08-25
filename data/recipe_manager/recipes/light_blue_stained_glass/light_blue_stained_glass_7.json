@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_glazed_terracotta"
+      "item": "minecraft:chiseled_sandstone"
     },
     "X": {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:oak_log"
     }
   },
   "result": {

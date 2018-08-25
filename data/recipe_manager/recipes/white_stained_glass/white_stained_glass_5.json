@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:grass_path"
+      "item": "minecraft:blue_stained_glass"
     },
     "X": {
-      "item": "minecraft:gray_bed"
+      "item": "minecraft:red_sandstone"
     }
   },
   "result": {

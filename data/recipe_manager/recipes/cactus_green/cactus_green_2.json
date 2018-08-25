@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:pink_concrete_powder"
+      "item": "minecraft:stripped_jungle_log"
     }
   ],
   "result": {

@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:stone_brick_slab"
+      "item": "minecraft:black_shulker_box"
     }
   ],
   "result": {

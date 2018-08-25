@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_fence_gate"
+      "item": "minecraft:brown_stained_glass"
     },
     {
-      "item": "minecraft:blue_stained_glass"
+      "item": "minecraft:cut_sandstone"
     },
     {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:farmland"
     },
     {
-      "item": "minecraft:coal_ore"
+      "item": "minecraft:glass"
     },
     {
-      "item": "minecraft:diamond_helmet"
+      "item": "minecraft:leather_chestplate"
     },
     {
-      "item": "minecraft:green_terracotta"
+      "item": "minecraft:light_blue_carpet"
     },
     {
-      "item": "minecraft:iron_horse_armor"
+      "item": "minecraft:magenta_banner"
     },
     {
-      "item": "minecraft:lime_concrete"
+      "item": "minecraft:oak_door"
     },
     {
-      "item": "minecraft:paper"
+      "item": "minecraft:redstone_block"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "O": {
-      "item": "minecraft:blaze_powder"
+      "item": "minecraft:diamond_axe"
     },
     "B": {
-      "item": "minecraft:blue_concrete_powder"
+      "item": "minecraft:granite"
     }
   },
   "result": {

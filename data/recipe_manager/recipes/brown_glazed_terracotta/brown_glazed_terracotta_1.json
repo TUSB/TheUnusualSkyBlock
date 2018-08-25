@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:packed_ice"
+      "item": "minecraft:birch_log"
     }
   ],
   "result": {

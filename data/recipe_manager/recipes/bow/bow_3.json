@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_terracotta"
+      "item": "minecraft:bread"
     },
     "X": {
-      "item": "minecraft:torch"
+      "item": "minecraft:yellow_wool"
     }
   },
   "result": {

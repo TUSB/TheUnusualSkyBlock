@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:green_carpet"
+      "item": "minecraft:birch_door"
     },
     "#": {
-      "item": "minecraft:rail"
+      "item": "minecraft:brick_slab"
     }
   },
   "result": {

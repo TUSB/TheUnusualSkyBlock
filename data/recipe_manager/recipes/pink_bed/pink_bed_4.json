@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:emerald_block"
+      "item": "minecraft:jungle_stairs"
     },
     "X": {
-      "item": "minecraft:lapis_block"
+      "item": "minecraft:prismarine_shard"
     }
   },
   "result": {

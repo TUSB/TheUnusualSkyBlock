@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_leaves"
+      "item": "minecraft:cactus_green"
     },
     "|": {
-      "item": "minecraft:gray_banner"
+      "item": "minecraft:snow"
     }
   },
   "result": {

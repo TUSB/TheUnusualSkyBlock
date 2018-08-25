@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:carrot_on_a_stick"
+      "item": "minecraft:cobblestone_wall"
     },
     "#": {
-      "item": "minecraft:dandelion"
+      "item": "minecraft:writable_book"
     }
   },
   "result": {

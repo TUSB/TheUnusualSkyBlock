@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lily_pad"
+      "item": "minecraft:cactus"
     },
     "W": {
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:cyan_concrete_powder"
     }
   },
   "result": {

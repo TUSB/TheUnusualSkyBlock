@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:orange_tulip"
+      "item": "minecraft:beetroot"
     },
     {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:minecart"
     }
   ],
   "result": {

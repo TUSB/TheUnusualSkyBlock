@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_planks"
+      "item": "minecraft:acacia_stairs"
     },
     "X": {
-      "item": "minecraft:lingering_potion"
+      "item": "minecraft:spruce_fence"
     }
   },
   "result": {

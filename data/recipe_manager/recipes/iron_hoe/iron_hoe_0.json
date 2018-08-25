@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:lilac"
+      "item": "minecraft:chest_minecart"
     },
     "#": {
-      "item": "minecraft:red_stained_glass_pane"
+      "item": "minecraft:dark_oak_trapdoor"
     }
   },
   "result": {

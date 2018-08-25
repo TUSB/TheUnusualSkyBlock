@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brain_coral_block"
+      "item": "minecraft:dried_kelp"
     },
     {
-      "item": "minecraft:furnace_minecart"
+      "item": "minecraft:tripwire_hook"
     }
   ],
   "result": {

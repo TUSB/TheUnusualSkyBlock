@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_carpet"
+      "item": "minecraft:cobblestone_wall"
     },
     "X": {
-      "item": "minecraft:dark_oak_log"
+      "item": "minecraft:lime_wool"
     }
   },
   "result": {

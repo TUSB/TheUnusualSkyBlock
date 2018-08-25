@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:daylight_detector"
+      "item": "minecraft:gray_concrete_powder"
     },
     "|": {
-      "item": "minecraft:green_stained_glass_pane"
+      "item": "minecraft:sugar_cane"
     }
   },
   "result": {

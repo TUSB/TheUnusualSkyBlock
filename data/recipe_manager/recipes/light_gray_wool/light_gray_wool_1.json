@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:popped_chorus_fruit"
+      "item": "minecraft:chorus_flower"
     },
     {
-      "item": "minecraft:rabbit_hide"
+      "item": "minecraft:petrified_oak_slab"
     }
   ],
   "result": {

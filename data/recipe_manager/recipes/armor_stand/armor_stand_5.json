@@ -7,10 +7,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:granite"
+      "item": "minecraft:horn_coral_fan"
     },
     "_": {
-      "item": "minecraft:stone_brick_slab"
+      "item": "minecraft:trapped_chest"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_stairs"
+      "item": "minecraft:golden_hoe"
     },
     "X": {
-      "item": "minecraft:iron_nugget"
+      "item": "minecraft:quartz_stairs"
     }
   },
   "result": {

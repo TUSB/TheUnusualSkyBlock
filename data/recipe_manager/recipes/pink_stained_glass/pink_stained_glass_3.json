@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chiseled_red_sandstone"
+      "item": "minecraft:dark_oak_log"
     },
     "X": {
-      "item": "minecraft:cyan_terracotta"
+      "item": "minecraft:spruce_sapling"
     }
   },
   "result": {

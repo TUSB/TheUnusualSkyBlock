@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_bed"
+      "item": "minecraft:oak_leaves"
     },
     "X": {
-      "item": "minecraft:vine"
+      "item": "minecraft:orange_banner"
     },
     "I": {
-      "item": "minecraft:white_concrete"
+      "item": "minecraft:rail"
     }
   },
   "result": {

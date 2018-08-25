@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond_hoe"
+      "item": "minecraft:brown_stained_glass"
     },
     "#": {
-      "item": "minecraft:oak_slab"
+      "item": "minecraft:iron_ingot"
     }
   },
   "result": {

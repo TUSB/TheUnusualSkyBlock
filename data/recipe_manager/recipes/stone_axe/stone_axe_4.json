@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:light_gray_concrete"
+      "item": "minecraft:brown_stained_glass_pane"
     },
     "#": {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:pink_shulker_box"
     }
   },
   "result": {

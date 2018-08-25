@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:black_concrete_powder"
+      "item": "minecraft:light_blue_bed"
     },
     "#": {
-      "item": "minecraft:prismarine"
+      "item": "minecraft:tnt"
     }
   },
   "result": {

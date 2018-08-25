@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_terracotta"
+      "item": "minecraft:gold_block"
     },
     "|": {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:sponge"
     }
   },
   "result": {

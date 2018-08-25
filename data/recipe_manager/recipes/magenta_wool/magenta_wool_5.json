@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:popped_chorus_fruit"
+      "item": "minecraft:birch_pressure_plate"
     },
     {
-      "item": "minecraft:shulker_box"
+      "item": "minecraft:enchanting_table"
     }
   ],
   "result": {

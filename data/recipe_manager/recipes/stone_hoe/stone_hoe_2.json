@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cyan_terracotta"
+      "item": "minecraft:observer"
     },
     "#": {
-      "item": "minecraft:hopper_minecart"
+      "item": "minecraft:zombie_head"
     }
   },
   "result": {

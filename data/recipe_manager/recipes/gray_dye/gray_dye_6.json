@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bookshelf"
+      "item": "minecraft:brown_bed"
     },
     {
-      "item": "minecraft:repeater"
+      "item": "minecraft:vine"
     }
   ],
   "result": {

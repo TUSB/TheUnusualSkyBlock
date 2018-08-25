@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:book"
+      "item": "minecraft:brown_bed"
     },
     {
-      "item": "minecraft:jungle_trapdoor"
+      "item": "minecraft:dried_kelp"
     },
     {
-      "item": "minecraft:leather"
+      "item": "minecraft:golden_chestplate"
     },
     {
-      "item": "minecraft:lime_dye"
+      "item": "minecraft:iron_chestplate"
     },
     {
-      "item": "minecraft:pink_carpet"
+      "item": "minecraft:iron_hoe"
     },
     {
-      "item": "minecraft:quartz_slab"
+      "item": "minecraft:petrified_oak_slab"
     },
     {
-      "item": "minecraft:red_sandstone_slab"
+      "item": "minecraft:pufferfish"
     },
     {
-      "item": "minecraft:red_terracotta"
+      "item": "minecraft:pumpkin_seeds"
     },
     {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:rabbit_foot"
     }
   ],
   "result": {

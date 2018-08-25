@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dandelion"
+      "item": "minecraft:green_glazed_terracotta"
     },
     {
-      "item": "minecraft:light_blue_stained_glass_pane"
+      "item": "minecraft:prismarine_crystals"
     }
   ],
   "result": {

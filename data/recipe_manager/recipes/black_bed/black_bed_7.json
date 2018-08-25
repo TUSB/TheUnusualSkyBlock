@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:anvil"
+      "item": "minecraft:cobblestone_wall"
     },
     "X": {
-      "item": "minecraft:pufferfish"
+      "item": "minecraft:pink_glazed_terracotta"
     }
   },
   "result": {

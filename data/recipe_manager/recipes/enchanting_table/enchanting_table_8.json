@@ -7,13 +7,13 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:acacia_log"
     },
     "D": {
-      "item": "minecraft:light_blue_bed"
+      "item": "minecraft:jungle_stairs"
     },
     "#": {
-      "item": "minecraft:wheat_seeds"
+      "item": "minecraft:porkchop"
     }
   },
   "result": {

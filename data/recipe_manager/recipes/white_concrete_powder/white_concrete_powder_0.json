@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_boat"
+      "item": "minecraft:cod_bucket"
     },
     {
-      "item": "minecraft:cooked_mutton"
+      "item": "minecraft:gold_ore"
     },
     {
-      "item": "minecraft:dark_oak_fence_gate"
+      "item": "minecraft:jungle_button"
     },
     {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:mushroom_stem"
     },
     {
-      "item": "minecraft:light_gray_glazed_terracotta"
+      "item": "minecraft:orange_dye"
     },
     {
-      "item": "minecraft:light_gray_shulker_box"
+      "item": "minecraft:stick"
     },
     {
-      "item": "minecraft:magenta_banner"
+      "item": "minecraft:sunflower"
     },
     {
-      "item": "minecraft:shulker_shell"
+      "item": "minecraft:wooden_axe"
     },
     {
-      "item": "minecraft:white_tulip"
+      "item": "minecraft:yellow_bed"
     }
   ],
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:kelp"
+      "item": "minecraft:blue_wool"
     },
     "X": {
-      "item": "minecraft:phantom_membrane"
+      "item": "minecraft:dark_oak_sapling"
     },
     "R": {
-      "item": "minecraft:red_sandstone_stairs"
+      "item": "minecraft:redstone"
     }
   },
   "result": {

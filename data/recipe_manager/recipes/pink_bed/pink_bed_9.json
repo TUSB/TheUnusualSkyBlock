@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:shulker_box"
+      "item": "minecraft:brown_shulker_box"
     },
     "X": {
-      "item": "minecraft:stone_pickaxe"
+      "item": "minecraft:oak_sapling"
     }
   },
   "result": {

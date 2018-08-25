@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:gold_nugget"
     },
     "X": {
-      "item": "minecraft:wooden_hoe"
+      "item": "minecraft:white_concrete_powder"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:farmland"
+      "item": "minecraft:acacia_trapdoor"
     },
     {
-      "item": "minecraft:furnace"
+      "item": "minecraft:brown_bed"
     },
     {
-      "item": "minecraft:golden_apple"
+      "item": "minecraft:golden_sword"
     },
     {
-      "item": "minecraft:golden_carrot"
+      "item": "minecraft:heart_of_the_sea"
     },
     {
-      "item": "minecraft:gunpowder"
+      "item": "minecraft:lapis_block"
     },
     {
-      "item": "minecraft:iron_shovel"
+      "item": "minecraft:oak_fence"
     },
     {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:oak_stairs"
     },
     {
-      "item": "minecraft:magenta_carpet"
+      "item": "minecraft:obsidian"
     },
     {
-      "item": "minecraft:red_tulip"
+      "item": "minecraft:stripped_dark_oak_log"
     }
   ],
   "result": {

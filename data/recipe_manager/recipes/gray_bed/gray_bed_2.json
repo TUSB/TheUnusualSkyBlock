@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chorus_fruit"
+      "item": "minecraft:dark_oak_fence_gate"
     },
     "X": {
-      "item": "minecraft:spruce_pressure_plate"
+      "item": "minecraft:string"
     }
   },
   "result": {

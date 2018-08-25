@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:shulker_box"
+      "item": "minecraft:golden_axe"
     },
     {
-      "item": "minecraft:white_tulip"
+      "item": "minecraft:jukebox"
     }
   ],
   "result": {

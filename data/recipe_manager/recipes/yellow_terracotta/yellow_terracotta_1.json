@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_door"
+      "item": "minecraft:polished_andesite"
     },
     "X": {
-      "item": "minecraft:sea_pickle"
+      "item": "minecraft:stripped_oak_log"
     }
   },
   "result": {

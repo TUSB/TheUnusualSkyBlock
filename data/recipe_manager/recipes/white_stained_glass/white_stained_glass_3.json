@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lily_pad"
+      "item": "minecraft:blue_bed"
     },
     "X": {
-      "item": "minecraft:red_mushroom"
+      "item": "minecraft:glass"
     }
   },
   "result": {

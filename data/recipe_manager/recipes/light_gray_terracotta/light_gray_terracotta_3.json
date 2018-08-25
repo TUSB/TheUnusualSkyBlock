@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_planks"
+      "item": "minecraft:shulker_shell"
     },
     "X": {
-      "item": "minecraft:red_shulker_box"
+      "item": "minecraft:sunflower"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cobblestone_stairs"
+      "item": "minecraft:cyan_concrete"
     },
     "X": {
-      "item": "minecraft:magenta_stained_glass_pane"
+      "item": "minecraft:stone_hoe"
     }
   },
   "result": {

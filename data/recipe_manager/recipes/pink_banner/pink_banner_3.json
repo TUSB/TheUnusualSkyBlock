@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_shulker_box"
+      "item": "minecraft:petrified_oak_slab"
     },
     "|": {
-      "item": "minecraft:cyan_glazed_terracotta"
+      "item": "minecraft:yellow_bed"
     }
   },
   "result": {

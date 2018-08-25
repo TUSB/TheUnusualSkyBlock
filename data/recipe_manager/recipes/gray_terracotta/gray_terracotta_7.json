@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_mushroom"
+      "item": "minecraft:oak_planks"
     },
     "X": {
-      "item": "minecraft:large_fern"
+      "item": "minecraft:string"
     }
   },
   "result": {

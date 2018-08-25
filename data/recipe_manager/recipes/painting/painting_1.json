@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_chestplate"
+      "item": "minecraft:activator_rail"
     },
     "X": {
-      "item": "minecraft:light_gray_concrete"
+      "item": "minecraft:cyan_glazed_terracotta"
     }
   },
   "result": {

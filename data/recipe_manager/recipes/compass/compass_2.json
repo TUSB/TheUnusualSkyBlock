@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_wool"
+      "item": "minecraft:birch_log"
     },
     "X": {
-      "item": "minecraft:nether_brick"
+      "item": "minecraft:birch_slab"
     }
   },
   "result": {

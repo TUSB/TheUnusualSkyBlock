@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:brick_stairs"
     },
     "X": {
-      "item": "minecraft:observer"
+      "item": "minecraft:white_stained_glass_pane"
     }
   },
   "result": {

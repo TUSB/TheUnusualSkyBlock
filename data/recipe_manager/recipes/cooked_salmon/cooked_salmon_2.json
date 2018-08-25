@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:carrot_on_a_stick"
+      "item": "minecraft:bread"
     }
   ],
   "result": {

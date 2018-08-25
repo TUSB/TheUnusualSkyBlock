@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:feather"
+      "item": "minecraft:blue_stained_glass_pane"
     },
     {
-      "item": "minecraft:salmon_bucket"
+      "item": "minecraft:jack_o_lantern"
     },
     {
-      "item": "minecraft:terracotta"
+      "item": "minecraft:white_terracotta"
     }
   ],
   "result": {

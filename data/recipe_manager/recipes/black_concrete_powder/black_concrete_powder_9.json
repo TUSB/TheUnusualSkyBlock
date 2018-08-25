@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_wood"
+      "item": "minecraft:birch_trapdoor"
     },
     {
-      "item": "minecraft:black_stained_glass"
+      "item": "minecraft:black_terracotta"
     },
     {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:blue_wool"
     },
     {
-      "item": "minecraft:light_gray_terracotta"
+      "item": "minecraft:carrot"
     },
     {
-      "item": "minecraft:orange_concrete"
+      "item": "minecraft:dead_horn_coral_block"
     },
     {
-      "item": "minecraft:pink_shulker_box"
+      "item": "minecraft:gray_wool"
     },
     {
-      "item": "minecraft:popped_chorus_fruit"
+      "item": "minecraft:lime_stained_glass"
     },
     {
-      "item": "minecraft:white_carpet"
+      "item": "minecraft:orange_shulker_box"
     },
     {
-      "item": "minecraft:yellow_concrete"
+      "item": "minecraft:stripped_jungle_wood"
     }
   ],
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_chestplate"
+      "item": "minecraft:charcoal"
     },
     "X": {
-      "item": "minecraft:lime_glazed_terracotta"
+      "item": "minecraft:cooked_cod"
     },
     "R": {
-      "item": "minecraft:white_tulip"
+      "item": "minecraft:fermented_spider_eye"
     }
   },
   "result": {

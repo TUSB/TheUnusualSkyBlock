@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beetroot"
+      "item": "minecraft:diamond_leggings"
     },
     {
-      "item": "minecraft:spectral_arrow"
+      "item": "minecraft:sugar"
     }
   ],
   "result": {

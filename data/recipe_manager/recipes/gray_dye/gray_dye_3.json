@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_carpet"
+      "item": "minecraft:filled_map"
     },
     {
-      "item": "minecraft:dark_oak_stairs"
+      "item": "minecraft:furnace"
     }
   ],
   "result": {

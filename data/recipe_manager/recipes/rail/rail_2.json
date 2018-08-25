@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_concrete_powder"
+      "item": "minecraft:jungle_slab"
     },
     "#": {
-      "item": "minecraft:yellow_wool"
+      "item": "minecraft:stone_slab"
     }
   },
   "result": {

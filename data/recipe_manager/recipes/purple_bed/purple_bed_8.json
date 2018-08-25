@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_bed"
+      "item": "minecraft:brown_stained_glass_pane"
     },
     "X": {
-      "item": "minecraft:shulker_box"
+      "item": "minecraft:sponge"
     }
   },
   "result": {

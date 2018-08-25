@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_door"
+      "item": "minecraft:dark_oak_stairs"
     },
     "|": {
-      "item": "minecraft:ghast_tear"
+      "item": "minecraft:stone_pressure_plate"
     }
   },
   "result": {

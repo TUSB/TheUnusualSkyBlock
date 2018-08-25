@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_door"
+      "item": "minecraft:diorite"
     },
     {
-      "item": "minecraft:brick_slab"
+      "item": "minecraft:stripped_acacia_wood"
     }
   ],
   "result": {

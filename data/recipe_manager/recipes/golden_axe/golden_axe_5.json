@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dead_bubble_coral_block"
+      "item": "minecraft:dead_tube_coral_block"
     },
     "#": {
-      "item": "minecraft:jungle_trapdoor"
+      "item": "minecraft:salmon"
     }
   },
   "result": {

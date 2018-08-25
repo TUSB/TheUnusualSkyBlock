@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_boat"
+      "item": "minecraft:dandelion_yellow"
     },
     "|": {
-      "item": "minecraft:light_blue_dye"
+      "item": "minecraft:shears"
     }
   },
   "result": {

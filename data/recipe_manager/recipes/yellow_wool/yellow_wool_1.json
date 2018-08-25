@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_planks"
+      "item": "minecraft:lapis_ore"
     },
     {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:nether_wart"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bookshelf"
+      "item": "minecraft:brown_wool"
     },
     "X": {
-      "item": "minecraft:oak_pressure_plate"
+      "item": "minecraft:jungle_boat"
     }
   },
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:blue_terracotta"
     },
     "#": {
-      "item": "minecraft:dragon_head"
+      "item": "minecraft:end_stone"
     },
     "R": {
-      "item": "minecraft:quartz_slab"
+      "item": "minecraft:pumpkin"
     }
   },
   "result": {

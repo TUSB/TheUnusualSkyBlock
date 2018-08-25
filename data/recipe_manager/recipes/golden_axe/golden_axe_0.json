@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:beacon"
+      "item": "minecraft:black_banner"
     },
     "#": {
-      "item": "minecraft:iron_horse_armor"
+      "item": "minecraft:tnt_minecart"
     }
   },
   "result": {

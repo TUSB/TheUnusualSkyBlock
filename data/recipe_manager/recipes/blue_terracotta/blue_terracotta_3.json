@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:cobweb"
     },
     "X": {
-      "item": "minecraft:dried_kelp"
+      "item": "minecraft:lingering_potion"
     }
   },
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_oak_log"
+      "item": "minecraft:cobblestone"
     },
     "#": {
-      "item": "minecraft:light_blue_stained_glass"
+      "item": "minecraft:dark_oak_boat"
     },
     "R": {
-      "item": "minecraft:spruce_button"
+      "item": "minecraft:light_blue_banner"
     }
   },
   "result": {

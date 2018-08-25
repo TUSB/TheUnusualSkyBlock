@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_banner"
+      "item": "minecraft:nether_wart"
     },
     {
-      "item": "minecraft:mushroom_stew"
+      "item": "minecraft:rabbit_hide"
     }
   ],
   "result": {

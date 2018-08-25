@@ -7,16 +7,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:light_gray_stained_glass_pane"
+      "item": "minecraft:book"
     },
     "#": {
-      "item": "minecraft:redstone"
+      "item": "minecraft:player_head"
     },
     "X": {
-      "item": "minecraft:rotten_flesh"
+      "item": "minecraft:polished_diorite"
     },
     "R": {
-      "item": "minecraft:yellow_stained_glass"
+      "item": "minecraft:smooth_stone"
     }
   },
   "result": {

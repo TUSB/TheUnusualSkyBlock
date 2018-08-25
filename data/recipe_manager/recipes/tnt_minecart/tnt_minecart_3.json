@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:purple_shulker_box"
+      "item": "minecraft:cyan_concrete"
     },
     "B": {
-      "item": "minecraft:writable_book"
+      "item": "minecraft:string"
     }
   },
   "result": {

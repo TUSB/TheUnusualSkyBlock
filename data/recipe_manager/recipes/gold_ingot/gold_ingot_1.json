@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:turtle_helmet"
+      "item": "minecraft:prismarine_slab"
     }
   ],
   "result": {

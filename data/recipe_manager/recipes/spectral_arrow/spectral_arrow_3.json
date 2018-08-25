@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_planks"
+      "item": "minecraft:jungle_fence_gate"
     },
     "X": {
-      "item": "minecraft:sandstone_stairs"
+      "item": "minecraft:magenta_banner"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cut_sandstone"
+      "item": "minecraft:lingering_potion"
     },
     "#": {
-      "item": "minecraft:white_concrete"
+      "item": "minecraft:pufferfish_bucket"
     }
   },
   "result": {

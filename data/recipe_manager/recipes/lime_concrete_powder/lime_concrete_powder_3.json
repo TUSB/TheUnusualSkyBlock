@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_log"
+      "item": "minecraft:birch_sapling"
     },
     {
-      "item": "minecraft:diamond_axe"
+      "item": "minecraft:chainmail_boots"
     },
     {
-      "item": "minecraft:ender_eye"
+      "item": "minecraft:chorus_fruit"
     },
     {
-      "item": "minecraft:jungle_wood"
+      "item": "minecraft:damaged_anvil"
     },
     {
-      "item": "minecraft:magenta_terracotta"
+      "item": "minecraft:dead_bubble_coral_block"
     },
     {
-      "item": "minecraft:purple_wool"
+      "item": "minecraft:egg"
     },
     {
-      "item": "minecraft:smooth_red_sandstone"
+      "item": "minecraft:ender_pearl"
     },
     {
-      "item": "minecraft:spectral_arrow"
+      "item": "minecraft:green_carpet"
     },
     {
-      "item": "minecraft:writable_book"
+      "item": "minecraft:iron_leggings"
     }
   ],
   "result": {

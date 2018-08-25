@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_pressure_plate"
+      "item": "minecraft:iron_horse_armor"
     },
     {
-      "item": "minecraft:coal_ore"
+      "item": "minecraft:lapis_ore"
     }
   ],
   "result": {

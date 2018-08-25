@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_banner"
+      "item": "minecraft:dark_prismarine"
     },
     {
-      "item": "minecraft:light_blue_dye"
+      "item": "minecraft:gray_stained_glass_pane"
     }
   ],
   "result": {

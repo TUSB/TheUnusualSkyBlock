@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:grass_path"
+      "item": "minecraft:crafting_table"
     },
     {
-      "item": "minecraft:pink_carpet"
+      "item": "minecraft:stripped_dark_oak_wood"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bubble_coral_block"
+      "item": "minecraft:snowball"
     },
     "X": {
-      "item": "minecraft:sugar"
+      "item": "minecraft:stone_hoe"
     }
   },
   "result": {

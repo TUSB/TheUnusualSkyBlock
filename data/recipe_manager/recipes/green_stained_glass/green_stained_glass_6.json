@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_banner"
+      "item": "minecraft:blue_stained_glass"
     },
     "X": {
-      "item": "minecraft:chest_minecart"
+      "item": "minecraft:yellow_concrete"
     }
   },
   "result": {

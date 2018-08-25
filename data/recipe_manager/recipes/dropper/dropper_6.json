@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:daylight_detector"
+      "item": "minecraft:leather"
     },
     "R": {
-      "item": "minecraft:stripped_acacia_wood"
+      "item": "minecraft:shulker_box"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bone"
+      "item": "minecraft:blaze_powder"
     },
     {
-      "item": "minecraft:yellow_stained_glass"
+      "item": "minecraft:smooth_stone"
     }
   ],
   "result": {

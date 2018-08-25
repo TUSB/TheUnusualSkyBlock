@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cobblestone_slab"
+      "item": "minecraft:ghast_tear"
     }
   ],
   "result": {

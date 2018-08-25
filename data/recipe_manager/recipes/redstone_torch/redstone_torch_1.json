@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:mossy_stone_bricks"
+      "item": "minecraft:diorite"
     },
     "#": {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:stripped_spruce_log"
     }
   },
   "result": {

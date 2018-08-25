@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:large_fern"
+      "item": "minecraft:brown_bed"
     },
     "R": {
-      "item": "minecraft:leather_chestplate"
+      "item": "minecraft:brown_wool"
     },
     "Q": {
-      "item": "minecraft:stone_pickaxe"
+      "item": "minecraft:dark_oak_leaves"
     }
   },
   "result": {

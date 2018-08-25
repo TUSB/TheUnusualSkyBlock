@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_trapdoor"
+      "item": "minecraft:birch_trapdoor"
     },
     {
-      "item": "minecraft:anvil"
+      "item": "minecraft:diamond_boots"
     },
     {
-      "item": "minecraft:blue_concrete_powder"
+      "item": "minecraft:gravel"
     },
     {
-      "item": "minecraft:jungle_planks"
+      "item": "minecraft:gray_stained_glass_pane"
     },
     {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:jungle_boat"
     },
     {
-      "item": "minecraft:nether_brick_stairs"
+      "item": "minecraft:lime_shulker_box"
     },
     {
       "item": "minecraft:purple_concrete"
     },
     {
-      "item": "minecraft:red_sandstone_stairs"
+      "item": "minecraft:trapped_chest"
     },
     {
-      "item": "minecraft:stick"
+      "item": "minecraft:yellow_banner"
     }
   ],
   "result": {

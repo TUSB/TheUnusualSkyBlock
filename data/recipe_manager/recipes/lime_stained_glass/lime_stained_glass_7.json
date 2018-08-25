@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:melon_seeds"
+      "item": "minecraft:birch_trapdoor"
     },
     "X": {
-      "item": "minecraft:spruce_button"
+      "item": "minecraft:birch_wood"
     }
   },
   "result": {

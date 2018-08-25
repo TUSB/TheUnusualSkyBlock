@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:quartz_stairs"
+      "item": "minecraft:brewing_stand"
     },
     "#": {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "item": "minecraft:iron_leggings"
     }
   },
   "result": {

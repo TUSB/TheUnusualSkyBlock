@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_orchid"
+      "item": "minecraft:nether_brick"
     },
     {
-      "item": "minecraft:filled_map"
+      "item": "minecraft:quartz_pillar"
     }
   ],
   "result": {

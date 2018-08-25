@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_door"
+      "item": "minecraft:golden_axe"
     },
     {
-      "item": "minecraft:yellow_glazed_terracotta"
+      "item": "minecraft:snow_block"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:orange_stained_glass"
+      "item": "minecraft:coal_block"
     },
     "|": {
-      "item": "minecraft:purpur_pillar"
+      "item": "minecraft:spruce_pressure_plate"
     }
   },
   "result": {

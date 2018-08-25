@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:nether_brick"
+      "item": "minecraft:cobblestone_slab"
     },
     {
-      "item": "minecraft:redstone_lamp"
+      "item": "minecraft:lime_banner"
     },
     {
-      "item": "minecraft:saddle"
+      "item": "minecraft:white_tulip"
     }
   ],
   "result": {

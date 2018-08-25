@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_carpet"
+      "item": "minecraft:brown_mushroom_block"
     },
     "#": {
-      "item": "minecraft:yellow_carpet"
+      "item": "minecraft:light_blue_stained_glass"
     }
   },
   "result": {

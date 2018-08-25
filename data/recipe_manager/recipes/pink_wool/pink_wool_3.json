@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:enchanting_table"
+      "item": "minecraft:allium"
     },
     {
-      "item": "minecraft:mycelium"
+      "item": "minecraft:light_blue_stained_glass_pane"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_glazed_terracotta"
+      "item": "minecraft:clay"
     },
     "X": {
-      "item": "minecraft:green_banner"
+      "item": "minecraft:hopper_minecart"
     }
   },
   "result": {

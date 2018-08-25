@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:bone_block"
     },
     {
-      "item": "minecraft:stripped_spruce_wood"
+      "item": "minecraft:sugar"
     }
   ],
   "result": {

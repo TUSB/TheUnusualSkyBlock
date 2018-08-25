@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:scute"
+      "item": "minecraft:jungle_pressure_plate"
     },
     "#": {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "item": "minecraft:shulker_shell"
     }
   },
   "result": {

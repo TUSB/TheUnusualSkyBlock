@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:green_shulker_box"
     },
     "X": {
-      "item": "minecraft:stripped_spruce_log"
+      "item": "minecraft:hay_block"
     }
   },
   "result": {

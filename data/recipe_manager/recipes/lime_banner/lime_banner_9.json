@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:fishing_rod"
+      "item": "minecraft:end_crystal"
     },
     "|": {
-      "item": "minecraft:pink_dye"
+      "item": "minecraft:jungle_leaves"
     }
   },
   "result": {

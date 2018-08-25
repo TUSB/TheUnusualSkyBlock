@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_stained_glass"
+      "item": "minecraft:clock"
     },
     "X": {
-      "item": "minecraft:torch"
+      "item": "minecraft:glowstone_dust"
     }
   },
   "result": {

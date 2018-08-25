@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cracked_stone_bricks"
+      "item": "minecraft:glowstone_dust"
     },
     {
-      "item": "minecraft:diamond"
+      "item": "minecraft:white_terracotta"
     },
     {
-      "item": "minecraft:jungle_trapdoor"
+      "item": "minecraft:written_book"
     }
   ],
   "result": {

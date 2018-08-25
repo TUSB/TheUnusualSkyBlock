@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_oak_wood"
+      "item": "minecraft:jack_o_lantern"
     },
     "#": {
-      "item": "minecraft:podzol"
+      "item": "minecraft:popped_chorus_fruit"
     }
   },
   "result": {

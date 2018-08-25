@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:emerald"
+      "item": "minecraft:dead_tube_coral_fan"
     },
     {
-      "item": "minecraft:light_gray_concrete"
+      "item": "minecraft:podzol"
     }
   ],
   "result": {

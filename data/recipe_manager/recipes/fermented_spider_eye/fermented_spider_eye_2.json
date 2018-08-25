@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:granite"
+      "item": "minecraft:acacia_wood"
     },
     {
-      "item": "minecraft:sunflower"
+      "item": "minecraft:chainmail_helmet"
     },
     {
-      "item": "minecraft:tropical_fish_bucket"
+      "item": "minecraft:tripwire_hook"
     }
   ],
   "result": {

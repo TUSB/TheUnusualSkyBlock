@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:birch_boat"
+      "item": "minecraft:diamond_chestplate"
     },
     "#": {
-      "item": "minecraft:light_blue_concrete"
+      "item": "minecraft:granite"
     }
   },
   "result": {

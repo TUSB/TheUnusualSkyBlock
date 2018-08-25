@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:chest_minecart"
+      "item": "minecraft:pink_wool"
     },
     "#": {
-      "item": "minecraft:purple_concrete"
+      "item": "minecraft:terracotta"
     }
   },
   "result": {

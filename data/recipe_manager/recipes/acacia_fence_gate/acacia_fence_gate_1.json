@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_planks"
+      "item": "minecraft:dead_horn_coral_block"
     },
     "W": {
-      "item": "minecraft:coal"
+      "item": "minecraft:map"
     }
   },
   "result": {

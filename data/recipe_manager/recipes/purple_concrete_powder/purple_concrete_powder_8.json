@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bowl"
+      "item": "minecraft:beef"
     },
     {
-      "item": "minecraft:brick"
+      "item": "minecraft:black_bed"
     },
     {
-      "item": "minecraft:dead_tube_coral_fan"
+      "item": "minecraft:blue_concrete"
     },
     {
-      "item": "minecraft:diamond_ore"
+      "item": "minecraft:brown_mushroom"
     },
     {
-      "item": "minecraft:diamond_sword"
+      "item": "minecraft:green_carpet"
     },
     {
-      "item": "minecraft:nautilus_shell"
+      "item": "minecraft:iron_block"
     },
     {
-      "item": "minecraft:oak_wood"
+      "item": "minecraft:orange_tulip"
     },
     {
-      "item": "minecraft:orange_shulker_box"
+      "item": "minecraft:poppy"
     },
     {
-      "item": "minecraft:yellow_terracotta"
+      "item": "minecraft:pufferfish"
     }
   ],
   "result": {

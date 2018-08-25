@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_fence"
+      "item": "minecraft:acacia_door"
     },
     {
-      "item": "minecraft:birch_slab"
+      "item": "minecraft:brown_concrete"
     },
     {
-      "item": "minecraft:brown_shulker_box"
+      "item": "minecraft:dark_oak_wood"
     },
     {
-      "item": "minecraft:clock"
+      "item": "minecraft:diamond_helmet"
     },
     {
-      "item": "minecraft:flower_pot"
+      "item": "minecraft:iron_sword"
     },
     {
-      "item": "minecraft:magenta_concrete"
+      "item": "minecraft:light_gray_concrete"
     },
     {
-      "item": "minecraft:rabbit_stew"
+      "item": "minecraft:repeater"
     },
     {
-      "item": "minecraft:shears"
+      "item": "minecraft:sand"
     },
     {
-      "item": "minecraft:wooden_hoe"
+      "item": "minecraft:wooden_pickaxe"
     }
   ],
   "result": {

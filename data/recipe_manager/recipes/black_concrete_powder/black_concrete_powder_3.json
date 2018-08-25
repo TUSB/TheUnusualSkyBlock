@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bubble_coral_block"
+      "item": "minecraft:brown_wool"
     },
     {
-      "item": "minecraft:cyan_terracotta"
+      "item": "minecraft:cyan_stained_glass"
     },
     {
-      "item": "minecraft:magenta_stained_glass"
+      "item": "minecraft:emerald_block"
     },
     {
-      "item": "minecraft:oak_wood"
+      "item": "minecraft:glistering_melon_slice"
     },
     {
-      "item": "minecraft:pink_wool"
+      "item": "minecraft:light_blue_bed"
     },
     {
-      "item": "minecraft:rabbit"
+      "item": "minecraft:nether_wart_block"
     },
     {
-      "item": "minecraft:stripped_oak_wood"
+      "item": "minecraft:sand"
     },
     {
-      "item": "minecraft:white_stained_glass_pane"
+      "item": "minecraft:trapped_chest"
     },
     {
-      "item": "minecraft:yellow_concrete_powder"
+      "item": "minecraft:wooden_pickaxe"
     }
   ],
   "result": {

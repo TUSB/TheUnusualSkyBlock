@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:activator_rail"
+      "item": "minecraft:diamond_axe"
     },
     {
-      "item": "minecraft:bubble_coral_fan"
+      "item": "minecraft:jungle_door"
     },
     {
-      "item": "minecraft:jungle_fence_gate"
+      "item": "minecraft:turtle_egg"
     }
   ],
   "result": {

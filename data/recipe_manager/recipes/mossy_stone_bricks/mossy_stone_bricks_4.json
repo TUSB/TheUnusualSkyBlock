@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chainmail_chestplate"
+      "item": "minecraft:blue_shulker_box"
     },
     {
-      "item": "minecraft:fern"
+      "item": "minecraft:purple_carpet"
     }
   ],
   "result": {

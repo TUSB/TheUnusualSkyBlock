@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_concrete"
+      "item": "minecraft:yellow_stained_glass"
     }
   ],
   "result": {

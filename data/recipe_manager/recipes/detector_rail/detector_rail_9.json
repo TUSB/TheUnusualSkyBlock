@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:birch_log"
+      "item": "minecraft:end_crystal"
     },
     "#": {
-      "item": "minecraft:lilac"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     },
     "R": {
-      "item": "minecraft:purple_bed"
+      "item": "minecraft:pink_terracotta"
     }
   },
   "result": {

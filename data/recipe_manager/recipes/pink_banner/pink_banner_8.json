@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:horn_coral_block"
+      "item": "minecraft:magenta_wool"
     },
     "|": {
-      "item": "minecraft:prismarine_stairs"
+      "item": "minecraft:oak_wood"
     }
   },
   "result": {

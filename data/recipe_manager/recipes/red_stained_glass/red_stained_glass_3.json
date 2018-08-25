@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:snowball"
+      "item": "minecraft:armor_stand"
     },
     "X": {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "item": "minecraft:oak_button"
     }
   },
   "result": {

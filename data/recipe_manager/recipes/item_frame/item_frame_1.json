@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:podzol"
+      "item": "minecraft:brown_glazed_terracotta"
     },
     "X": {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:cyan_dye"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:egg"
     },
     "X": {
-      "item": "minecraft:white_terracotta"
+      "item": "minecraft:melon"
     }
   },
   "result": {

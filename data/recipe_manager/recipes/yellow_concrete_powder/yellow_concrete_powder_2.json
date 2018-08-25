@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_concrete"
+      "item": "minecraft:bone"
     },
     {
-      "item": "minecraft:dark_oak_boat"
+      "item": "minecraft:cobweb"
     },
     {
-      "item": "minecraft:grass_block"
+      "item": "minecraft:diamond_pickaxe"
     },
     {
-      "item": "minecraft:lily_pad"
+      "item": "minecraft:glowstone"
     },
     {
-      "item": "minecraft:orange_banner"
+      "item": "minecraft:green_terracotta"
     },
     {
-      "item": "minecraft:redstone"
+      "item": "minecraft:jungle_leaves"
     },
     {
-      "item": "minecraft:redstone_lamp"
+      "item": "minecraft:mossy_cobblestone"
     },
     {
-      "item": "minecraft:spruce_stairs"
+      "item": "minecraft:wooden_sword"
     },
     {
-      "item": "minecraft:sunflower"
+      "item": "minecraft:yellow_banner"
     }
   ],
   "result": {

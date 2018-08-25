@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_slab"
+      "item": "minecraft:green_bed"
     },
     "#": {
-      "item": "minecraft:sandstone_slab"
+      "item": "minecraft:repeater"
     }
   },
   "result": {

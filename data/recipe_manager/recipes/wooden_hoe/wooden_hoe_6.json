@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:nautilus_shell"
+      "item": "minecraft:brick"
     },
     "#": {
-      "item": "minecraft:written_book"
+      "item": "minecraft:white_stained_glass_pane"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:jungle_pressure_plate"
+      "item": "minecraft:brown_mushroom"
     },
     "B": {
-      "item": "minecraft:sandstone_slab"
+      "item": "minecraft:stone_shovel"
     }
   },
   "result": {

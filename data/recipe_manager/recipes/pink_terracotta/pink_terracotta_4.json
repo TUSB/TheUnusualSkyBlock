@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:mossy_stone_bricks"
+      "item": "minecraft:arrow"
     },
     "X": {
-      "item": "minecraft:seagrass"
+      "item": "minecraft:ender_chest"
     }
   },
   "result": {

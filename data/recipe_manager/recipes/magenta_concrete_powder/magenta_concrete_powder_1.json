@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_boat"
+      "item": "minecraft:diamond_block"
     },
     {
-      "item": "minecraft:cod_bucket"
+      "item": "minecraft:filled_map"
     },
     {
-      "item": "minecraft:grass_path"
+      "item": "minecraft:iron_helmet"
     },
     {
-      "item": "minecraft:hopper"
+      "item": "minecraft:light_blue_stained_glass_pane"
     },
     {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:orange_banner"
     },
     {
-      "item": "minecraft:lime_wool"
+      "item": "minecraft:prismarine_crystals"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:repeater"
     },
     {
-      "item": "minecraft:podzol"
+      "item": "minecraft:snow_block"
     },
     {
-      "item": "minecraft:yellow_stained_glass"
+      "item": "minecraft:white_bed"
     }
   ],
   "result": {

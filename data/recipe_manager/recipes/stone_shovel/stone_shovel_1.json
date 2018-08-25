@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:white_bed"
+      "item": "minecraft:gray_concrete_powder"
     },
     "#": {
-      "item": "minecraft:yellow_banner"
+      "item": "minecraft:redstone_torch"
     }
   },
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cod_bucket"
+      "item": "minecraft:birch_pressure_plate"
     },
     "X": {
-      "item": "minecraft:phantom_membrane"
+      "item": "minecraft:brown_terracotta"
     },
     "I": {
-      "item": "minecraft:shulker_box"
+      "item": "minecraft:iron_bars"
     }
   },
   "result": {

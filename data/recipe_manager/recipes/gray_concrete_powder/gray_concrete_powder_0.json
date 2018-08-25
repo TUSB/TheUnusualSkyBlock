@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bubble_coral"
+      "item": "minecraft:golden_pickaxe"
     },
     {
-      "item": "minecraft:carved_pumpkin"
+      "item": "minecraft:gray_dye"
     },
     {
-      "item": "minecraft:green_concrete"
+      "item": "minecraft:iron_door"
     },
     {
-      "item": "minecraft:jungle_stairs"
+      "item": "minecraft:iron_horse_armor"
     },
     {
-      "item": "minecraft:light_gray_banner"
+      "item": "minecraft:magenta_shulker_box"
     },
     {
-      "item": "minecraft:light_gray_stained_glass_pane"
+      "item": "minecraft:nether_brick_fence"
     },
     {
-      "item": "minecraft:prismarine_brick_slab"
+      "item": "minecraft:oak_slab"
     },
     {
-      "item": "minecraft:prismarine_brick_stairs"
+      "item": "minecraft:pink_shulker_box"
     },
     {
-      "item": "minecraft:prismarine_bricks"
+      "item": "minecraft:porkchop"
     }
   ],
   "result": {

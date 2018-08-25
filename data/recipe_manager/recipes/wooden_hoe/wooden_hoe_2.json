@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_stained_glass_pane"
+      "item": "minecraft:furnace"
     },
     "#": {
-      "item": "minecraft:fire_charge"
+      "item": "minecraft:polished_granite"
     }
   },
   "result": {

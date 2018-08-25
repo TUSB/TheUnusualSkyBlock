@@ -7,13 +7,13 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:black_wool"
+      "item": "minecraft:sea_pickle"
     },
     "D": {
-      "item": "minecraft:flower_pot"
+      "item": "minecraft:stone_pickaxe"
     },
     "#": {
-      "item": "minecraft:stripped_birch_wood"
+      "item": "minecraft:yellow_concrete_powder"
     }
   },
   "result": {

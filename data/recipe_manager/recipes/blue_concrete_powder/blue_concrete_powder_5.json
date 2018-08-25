@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_log"
+      "item": "minecraft:brown_mushroom"
     },
     {
-      "item": "minecraft:chest_minecart"
+      "item": "minecraft:cyan_stained_glass_pane"
     },
     {
-      "item": "minecraft:chiseled_quartz_block"
+      "item": "minecraft:dragon_breath"
     },
     {
-      "item": "minecraft:coal"
+      "item": "minecraft:flint"
     },
     {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:lingering_potion"
     },
     {
-      "item": "minecraft:green_banner"
+      "item": "minecraft:porkchop"
     },
     {
-      "item": "minecraft:iron_helmet"
+      "item": "minecraft:red_nether_bricks"
     },
     {
-      "item": "minecraft:lapis_ore"
+      "item": "minecraft:repeater"
     },
     {
-      "item": "minecraft:smooth_quartz"
+      "item": "minecraft:stripped_acacia_wood"
     }
   ],
   "result": {

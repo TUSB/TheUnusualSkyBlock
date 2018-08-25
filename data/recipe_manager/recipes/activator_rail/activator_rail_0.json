@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_banner"
+      "item": "minecraft:cracked_stone_bricks"
     },
     "S": {
-      "item": "minecraft:nether_brick_fence"
+      "item": "minecraft:magenta_shulker_box"
     },
     "#": {
-      "item": "minecraft:purpur_stairs"
+      "item": "minecraft:petrified_oak_slab"
     }
   },
   "result": {

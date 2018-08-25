@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beetroot_seeds"
+      "item": "minecraft:birch_planks"
     },
     {
-      "item": "minecraft:bubble_coral"
+      "item": "minecraft:cyan_stained_glass"
     },
     {
-      "item": "minecraft:jungle_fence"
+      "item": "minecraft:diamond_shovel"
     },
     {
-      "item": "minecraft:lapis_ore"
+      "item": "minecraft:dried_kelp_block"
     },
     {
-      "item": "minecraft:lime_shulker_box"
+      "item": "minecraft:glistering_melon_slice"
     },
     {
-      "item": "minecraft:mossy_cobblestone"
+      "item": "minecraft:gold_block"
     },
     {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:jungle_trapdoor"
     },
     {
-      "item": "minecraft:spruce_trapdoor"
+      "item": "minecraft:mushroom_stem"
     },
     {
-      "item": "minecraft:tall_grass"
+      "item": "minecraft:packed_ice"
     }
   ],
   "result": {

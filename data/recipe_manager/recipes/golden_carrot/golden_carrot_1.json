@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:fire_coral_block"
+      "item": "minecraft:coarse_dirt"
     },
     "X": {
-      "item": "minecraft:orange_dye"
+      "item": "minecraft:spruce_planks"
     }
   },
   "result": {

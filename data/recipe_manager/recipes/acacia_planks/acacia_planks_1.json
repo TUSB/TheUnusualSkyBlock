@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lime_glazed_terracotta"
+      "item": "minecraft:birch_trapdoor"
     }
   ],
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:gold_block"
+      "item": "minecraft:acacia_wood"
     },
     "S": {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:oak_boat"
     },
     "O": {
-      "item": "minecraft:wheat_seeds"
+      "item": "minecraft:repeater"
     }
   },
   "result": {

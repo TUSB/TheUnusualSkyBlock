@@ -2,28 +2,28 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_button"
+      "item": "minecraft:black_wool"
     },
     {
-      "item": "minecraft:anvil"
+      "item": "minecraft:brown_banner"
     },
     {
-      "item": "minecraft:black_concrete"
+      "item": "minecraft:diamond_sword"
     },
     {
-      "item": "minecraft:brown_mushroom_block"
+      "item": "minecraft:enchanted_book"
     },
     {
-      "item": "minecraft:damaged_anvil"
+      "item": "minecraft:lead"
     },
     {
-      "item": "minecraft:dark_prismarine"
+      "item": "minecraft:light_blue_bed"
     },
     {
-      "item": "minecraft:dead_horn_coral_fan"
+      "item": "minecraft:mushroom_stew"
     },
     {
-      "item": "minecraft:iron_hoe"
+      "item": "minecraft:redstone_lamp"
     },
     {
       "item": "minecraft:stone_hoe"

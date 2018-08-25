@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:sea_lantern"
+      "item": "minecraft:birch_boat"
     },
     "C": {
-      "item": "minecraft:tipped_arrow"
+      "item": "minecraft:birch_planks"
     }
   },
   "result": {

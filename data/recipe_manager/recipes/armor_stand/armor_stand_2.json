@@ -7,10 +7,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:gray_glazed_terracotta"
+      "item": "minecraft:conduit"
     },
     "_": {
-      "item": "minecraft:slime_block"
+      "item": "minecraft:diamond_boots"
     }
   },
   "result": {

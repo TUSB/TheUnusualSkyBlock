@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:pufferfish_bucket"
+      "item": "minecraft:birch_planks"
     },
     "X": {
-      "item": "minecraft:red_mushroom"
+      "item": "minecraft:grass"
     }
   },
   "result": {

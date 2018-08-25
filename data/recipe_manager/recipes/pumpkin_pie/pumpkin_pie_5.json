@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beetroot"
+      "item": "minecraft:dead_brain_coral_block"
     },
     {
-      "item": "minecraft:cyan_bed"
+      "item": "minecraft:oak_fence"
     },
     {
-      "item": "minecraft:rose_red"
+      "item": "minecraft:stripped_spruce_log"
     }
   ],
   "result": {

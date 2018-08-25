@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:iron_ore"
+      "item": "minecraft:pink_banner"
     },
     "B": {
-      "item": "minecraft:nether_quartz_ore"
+      "item": "minecraft:wet_sponge"
     }
   },
   "result": {

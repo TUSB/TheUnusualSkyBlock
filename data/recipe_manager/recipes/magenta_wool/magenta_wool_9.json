@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_button"
+      "item": "minecraft:andesite"
     },
     {
-      "item": "minecraft:brain_coral"
+      "item": "minecraft:quartz_block"
     }
   ],
   "result": {

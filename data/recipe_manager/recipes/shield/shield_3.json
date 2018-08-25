@@ -7,10 +7,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:dead_bubble_coral_fan"
+      "item": "minecraft:lever"
     },
     "o": {
-      "item": "minecraft:horn_coral"
+      "item": "minecraft:orange_wool"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:mushroom_stew"
+      "item": "minecraft:spruce_wood"
     },
     {
-      "item": "minecraft:oak_wood"
+      "item": "minecraft:written_book"
     }
   ],
   "result": {

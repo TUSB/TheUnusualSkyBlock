@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:activator_rail"
+      "item": "minecraft:item_frame"
     },
     "#": {
-      "item": "minecraft:oak_fence"
+      "item": "minecraft:prismarine_bricks"
     },
     "Y": {
-      "item": "minecraft:purple_stained_glass_pane"
+      "item": "minecraft:sandstone_stairs"
     }
   },
   "result": {

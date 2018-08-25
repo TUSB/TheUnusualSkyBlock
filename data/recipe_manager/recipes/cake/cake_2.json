@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:arrow"
+      "item": "minecraft:dead_tube_coral_block"
     },
     "B": {
-      "item": "minecraft:cyan_banner"
+      "item": "minecraft:gray_banner"
     },
     "E": {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:light_blue_concrete"
     },
     "C": {
-      "item": "minecraft:heart_of_the_sea"
+      "item": "minecraft:oak_planks"
     }
   },
   "result": {

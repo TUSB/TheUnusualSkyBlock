@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:dark_oak_boat"
+      "item": "minecraft:acacia_trapdoor"
     },
     "#": {
-      "item": "minecraft:wheat_seeds"
+      "item": "minecraft:stripped_spruce_wood"
     }
   },
   "result": {

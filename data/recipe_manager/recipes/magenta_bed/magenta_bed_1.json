@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_leaves"
+      "item": "minecraft:powered_rail"
     },
     "X": {
-      "item": "minecraft:lime_shulker_box"
+      "item": "minecraft:tube_coral_block"
     }
   },
   "result": {

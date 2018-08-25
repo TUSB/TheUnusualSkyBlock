@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_concrete_powder"
+      "item": "minecraft:diamond_block"
     },
     "X": {
-      "item": "minecraft:spruce_leaves"
+      "item": "minecraft:horn_coral_block"
     }
   },
   "result": {

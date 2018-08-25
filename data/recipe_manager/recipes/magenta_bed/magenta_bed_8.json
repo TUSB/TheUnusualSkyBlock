@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_button"
+      "item": "minecraft:clay"
     },
     "X": {
-      "item": "minecraft:light_blue_bed"
+      "item": "minecraft:popped_chorus_fruit"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_concrete_powder"
+      "item": "minecraft:nether_wart_block"
     },
     "|": {
-      "item": "minecraft:red_concrete"
+      "item": "minecraft:pink_tulip"
     }
   },
   "result": {

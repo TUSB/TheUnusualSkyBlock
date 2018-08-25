@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:conduit"
+      "item": "minecraft:clock"
     },
     {
-      "item": "minecraft:gray_banner"
+      "item": "minecraft:red_terracotta"
     },
     {
-      "item": "minecraft:white_shulker_box"
+      "item": "minecraft:yellow_bed"
     }
   ],
   "result": {

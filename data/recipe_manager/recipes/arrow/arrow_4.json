@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brick"
+      "item": "minecraft:glistering_melon_slice"
     },
     "#": {
-      "item": "minecraft:cookie"
+      "item": "minecraft:golden_axe"
     },
     "Y": {
-      "item": "minecraft:pumpkin"
+      "item": "minecraft:magenta_stained_glass"
     }
   },
   "result": {

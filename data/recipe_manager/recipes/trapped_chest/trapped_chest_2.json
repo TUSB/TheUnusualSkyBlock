@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:nether_wart"
+      "item": "minecraft:acacia_boat"
     },
     {
-      "item": "minecraft:spruce_fence_gate"
+      "item": "minecraft:black_wool"
     }
   ],
   "result": {

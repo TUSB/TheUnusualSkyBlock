@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chiseled_quartz_block"
+      "item": "minecraft:dandelion"
     },
     "X": {
-      "item": "minecraft:red_nether_bricks"
+      "item": "minecraft:red_bed"
     }
   },
   "result": {

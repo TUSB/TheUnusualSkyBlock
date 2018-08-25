@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:gravel"
+      "item": "minecraft:dragon_breath"
     },
     "#": {
-      "item": "minecraft:oak_button"
+      "item": "minecraft:purple_banner"
     }
   },
   "result": {

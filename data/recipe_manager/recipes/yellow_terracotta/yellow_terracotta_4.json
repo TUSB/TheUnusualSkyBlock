@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:minecart"
+      "item": "minecraft:light_gray_bed"
     },
     "X": {
-      "item": "minecraft:purpur_slab"
+      "item": "minecraft:stripped_spruce_wood"
     }
   },
   "result": {

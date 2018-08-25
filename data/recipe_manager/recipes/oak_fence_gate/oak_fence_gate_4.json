@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:coarse_dirt"
+      "item": "minecraft:magenta_dye"
     },
     "W": {
-      "item": "minecraft:white_glazed_terracotta"
+      "item": "minecraft:wheat"
     }
   },
   "result": {

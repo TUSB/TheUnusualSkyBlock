@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:leather_leggings"
+      "item": "minecraft:arrow"
     },
     "X": {
-      "item": "minecraft:purpur_slab"
+      "item": "minecraft:cooked_porkchop"
     }
   },
   "result": {

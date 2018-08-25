@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_stained_glass_pane"
+      "item": "minecraft:dark_oak_leaves"
     },
     "S": {
-      "item": "minecraft:brown_stained_glass_pane"
+      "item": "minecraft:lilac"
     },
     "#": {
-      "item": "minecraft:iron_nugget"
+      "item": "minecraft:red_sandstone_slab"
     }
   },
   "result": {

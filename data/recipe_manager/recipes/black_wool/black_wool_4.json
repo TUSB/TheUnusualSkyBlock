@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bone"
+      "item": "minecraft:diamond_chestplate"
     },
     {
-      "item": "minecraft:melon_slice"
+      "item": "minecraft:pink_dye"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cooked_salmon"
+      "item": "minecraft:acacia_button"
     },
     "X": {
-      "item": "minecraft:seagrass"
+      "item": "minecraft:spruce_stairs"
     }
   },
   "result": {

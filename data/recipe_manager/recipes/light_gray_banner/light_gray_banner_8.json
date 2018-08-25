@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_boat"
+      "item": "minecraft:orange_terracotta"
     },
     "|": {
-      "item": "minecraft:purple_stained_glass_pane"
+      "item": "minecraft:prismarine_brick_stairs"
     }
   },
   "result": {

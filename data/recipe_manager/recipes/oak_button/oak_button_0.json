@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:green_wool"
+      "item": "minecraft:dead_fire_coral_fan"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:clay"
     },
     "#": {
-      "item": "minecraft:sandstone_slab"
+      "item": "minecraft:stone_pickaxe"
     }
   },
   "result": {

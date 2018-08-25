@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_trapdoor"
+      "item": "minecraft:brown_glazed_terracotta"
     },
     {
-      "item": "minecraft:light_gray_bed"
+      "item": "minecraft:pink_shulker_box"
     }
   ],
   "result": {

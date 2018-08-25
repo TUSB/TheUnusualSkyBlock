@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:nether_brick_slab"
+      "item": "minecraft:brown_concrete"
     },
     {
-      "item": "minecraft:repeater"
+      "item": "minecraft:pumpkin_pie"
     }
   ],
   "result": {

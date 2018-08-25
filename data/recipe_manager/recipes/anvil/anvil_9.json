@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:melon_slice"
+      "item": "minecraft:nether_brick"
     },
     "i": {
-      "item": "minecraft:wooden_shovel"
+      "item": "minecraft:repeater"
     }
   },
   "result": {

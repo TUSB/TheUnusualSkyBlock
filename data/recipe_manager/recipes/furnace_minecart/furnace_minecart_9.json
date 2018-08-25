@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:chicken"
+      "item": "minecraft:cyan_glazed_terracotta"
     },
     "B": {
-      "item": "minecraft:kelp"
+      "item": "minecraft:pink_concrete_powder"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_stairs"
+      "item": "minecraft:acacia_pressure_plate"
     },
     "E": {
-      "item": "minecraft:tropical_fish_bucket"
+      "item": "minecraft:cyan_concrete"
     }
   },
   "result": {

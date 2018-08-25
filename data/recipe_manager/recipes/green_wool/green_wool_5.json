@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:iron_bars"
+      "item": "minecraft:cooked_rabbit"
     },
     {
-      "item": "minecraft:terracotta"
+      "item": "minecraft:oak_fence_gate"
     }
   ],
   "result": {

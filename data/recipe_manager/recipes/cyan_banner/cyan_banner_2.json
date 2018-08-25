@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_carpet"
+      "item": "minecraft:iron_boots"
     },
     "|": {
-      "item": "minecraft:light_blue_bed"
+      "item": "minecraft:iron_trapdoor"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:gold_block"
+      "item": "minecraft:orange_concrete_powder"
     },
     "#": {
-      "item": "minecraft:lime_banner"
+      "item": "minecraft:wooden_hoe"
     }
   },
   "result": {

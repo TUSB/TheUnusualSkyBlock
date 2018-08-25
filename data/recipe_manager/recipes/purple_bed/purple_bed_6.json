@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_sandstone_stairs"
+      "item": "minecraft:armor_stand"
     },
     "X": {
-      "item": "minecraft:tipped_arrow"
+      "item": "minecraft:stone_brick_stairs"
     }
   },
   "result": {

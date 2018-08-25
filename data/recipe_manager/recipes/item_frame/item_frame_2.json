@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:dark_oak_slab"
     },
     "X": {
-      "item": "minecraft:stripped_oak_log"
+      "item": "minecraft:prismarine_crystals"
     }
   },
   "result": {

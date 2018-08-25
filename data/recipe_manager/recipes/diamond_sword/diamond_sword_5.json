@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cooked_chicken"
+      "item": "minecraft:dead_brain_coral_fan"
     },
     "#": {
-      "item": "minecraft:tnt"
+      "item": "minecraft:light_gray_shulker_box"
     }
   },
   "result": {

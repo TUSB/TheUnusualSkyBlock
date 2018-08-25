@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:stripped_acacia_log"
+      "item": "minecraft:blaze_powder"
     },
     "W": {
-      "item": "minecraft:yellow_bed"
+      "item": "minecraft:cooked_chicken"
     }
   },
   "result": {

@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:nether_brick_slab"
+      "item": "minecraft:acacia_pressure_plate"
     }
   ],
   "result": {

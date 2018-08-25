@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:cracked_stone_bricks"
+      "item": "minecraft:dispenser"
     },
     "#": {
-      "item": "minecraft:purple_concrete"
+      "item": "minecraft:purple_glazed_terracotta"
     }
   },
   "result": {

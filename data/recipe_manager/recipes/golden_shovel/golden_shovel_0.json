@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:birch_log"
+      "item": "minecraft:blue_carpet"
     },
     "#": {
-      "item": "minecraft:cyan_shulker_box"
+      "item": "minecraft:vine"
     }
   },
   "result": {

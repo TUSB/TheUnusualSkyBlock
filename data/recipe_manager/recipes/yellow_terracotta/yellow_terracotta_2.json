@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jukebox"
+      "item": "minecraft:cobblestone_slab"
     },
     "X": {
-      "item": "minecraft:stone_brick_stairs"
+      "item": "minecraft:polished_granite"
     }
   },
   "result": {

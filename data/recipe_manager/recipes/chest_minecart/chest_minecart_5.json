@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:book"
+      "item": "minecraft:cooked_salmon"
     },
     "B": {
-      "item": "minecraft:dead_tube_coral_fan"
+      "item": "minecraft:quartz_slab"
     }
   },
   "result": {

@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:snowball"
+      "item": "minecraft:brain_coral_block"
     }
   ],
   "result": {

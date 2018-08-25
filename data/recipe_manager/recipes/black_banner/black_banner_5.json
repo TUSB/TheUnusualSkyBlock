@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_fence_gate"
+      "item": "minecraft:green_terracotta"
     },
     "|": {
-      "item": "minecraft:black_stained_glass"
+      "item": "minecraft:poppy"
     }
   },
   "result": {

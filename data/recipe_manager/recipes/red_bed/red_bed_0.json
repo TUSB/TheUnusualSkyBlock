@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:gray_carpet"
     },
     "X": {
-      "item": "minecraft:white_stained_glass"
+      "item": "minecraft:iron_door"
     }
   },
   "result": {

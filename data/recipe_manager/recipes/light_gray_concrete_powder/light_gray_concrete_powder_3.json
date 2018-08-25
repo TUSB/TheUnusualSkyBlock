@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_stained_glass_pane"
+      "item": "minecraft:blue_orchid"
     },
     {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:dandelion_yellow"
     },
     {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:flint"
     },
     {
-      "item": "minecraft:diamond_boots"
+      "item": "minecraft:lime_carpet"
     },
     {
-      "item": "minecraft:fire_coral_block"
+      "item": "minecraft:magenta_concrete_powder"
     },
     {
-      "item": "minecraft:green_terracotta"
+      "item": "minecraft:magenta_terracotta"
     },
     {
-      "item": "minecraft:rail"
+      "item": "minecraft:oak_pressure_plate"
     },
     {
-      "item": "minecraft:wooden_shovel"
+      "item": "minecraft:prismarine_bricks"
     },
     {
-      "item": "minecraft:written_book"
+      "item": "minecraft:red_banner"
     }
   ],
   "result": {

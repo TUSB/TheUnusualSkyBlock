@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_glazed_terracotta"
+      "item": "minecraft:apple"
     },
     "E": {
-      "item": "minecraft:dragon_head"
+      "item": "minecraft:dispenser"
     }
   },
   "result": {

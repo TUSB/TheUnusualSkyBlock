@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:apple"
+      "item": "minecraft:blue_ice"
     },
     {
-      "item": "minecraft:black_bed"
+      "item": "minecraft:blue_shulker_box"
     },
     {
-      "item": "minecraft:chainmail_chestplate"
+      "item": "minecraft:bone"
     },
     {
-      "item": "minecraft:flint"
+      "item": "minecraft:diamond_sword"
     },
     {
-      "item": "minecraft:lingering_potion"
+      "item": "minecraft:lapis_ore"
     },
     {
-      "item": "minecraft:red_nether_bricks"
+      "item": "minecraft:lime_dye"
     },
     {
-      "item": "minecraft:stone_pickaxe"
+      "item": "minecraft:orange_wool"
     },
     {
-      "item": "minecraft:trident"
+      "item": "minecraft:painting"
     },
     {
-      "item": "minecraft:yellow_wool"
+      "item": "minecraft:red_sandstone"
     }
   ],
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:horn_coral_fan"
+      "item": "minecraft:blue_bed"
     },
     {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:light_blue_carpet"
     }
   ],
   "result": {

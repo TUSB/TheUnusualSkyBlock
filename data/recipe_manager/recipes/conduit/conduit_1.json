@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_concrete"
+      "item": "minecraft:ladder"
     },
     "X": {
-      "item": "minecraft:sugar_cane"
+      "item": "minecraft:shulker_box"
     }
   },
   "result": {

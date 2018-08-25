@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:book"
     },
     "X": {
-      "item": "minecraft:seagrass"
+      "item": "minecraft:spruce_wood"
     }
   },
   "result": {

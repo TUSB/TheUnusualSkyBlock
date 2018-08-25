@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_door"
+      "item": "minecraft:blue_ice"
     },
     {
-      "item": "minecraft:carrot_on_a_stick"
+      "item": "minecraft:cyan_concrete"
     },
     {
-      "item": "minecraft:cod_bucket"
+      "item": "minecraft:golden_chestplate"
     },
     {
-      "item": "minecraft:dark_oak_leaves"
+      "item": "minecraft:orange_bed"
     },
     {
-      "item": "minecraft:dark_oak_log"
+      "item": "minecraft:orange_wool"
     },
     {
-      "item": "minecraft:dead_horn_coral_fan"
+      "item": "minecraft:purple_concrete_powder"
     },
     {
-      "item": "minecraft:ender_pearl"
+      "item": "minecraft:red_stained_glass_pane"
     },
     {
-      "item": "minecraft:light_blue_stained_glass_pane"
+      "item": "minecraft:spruce_door"
     },
     {
-      "item": "minecraft:stone_brick_stairs"
+      "item": "minecraft:wet_sponge"
     }
   ],
   "result": {

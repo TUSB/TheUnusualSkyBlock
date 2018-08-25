@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:purple_concrete_powder"
+      "item": "minecraft:bread"
     },
     "X": {
-      "item": "minecraft:red_mushroom_block"
+      "item": "minecraft:repeater"
     }
   },
   "result": {

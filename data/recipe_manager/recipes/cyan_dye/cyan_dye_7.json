@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:gray_terracotta"
+      "item": "minecraft:sandstone"
     },
     {
-      "item": "minecraft:trident"
+      "item": "minecraft:wither_skeleton_skull"
     }
   ],
   "result": {

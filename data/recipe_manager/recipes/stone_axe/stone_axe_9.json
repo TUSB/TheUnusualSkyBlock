@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:pink_terracotta"
+      "item": "minecraft:gold_nugget"
     },
     "#": {
-      "item": "minecraft:purple_terracotta"
+      "item": "minecraft:stone_slab"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_concrete"
+      "item": "minecraft:birch_boat"
     },
     "W": {
-      "item": "minecraft:diamond_axe"
+      "item": "minecraft:mossy_stone_bricks"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:clay_ball"
+      "item": "minecraft:acacia_stairs"
     },
     "X": {
-      "item": "minecraft:diamond_shovel"
+      "item": "minecraft:dirt"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:dead_horn_coral_fan"
+      "item": "minecraft:cobblestone_stairs"
     },
     "#": {
-      "item": "minecraft:leather_leggings"
+      "item": "minecraft:spruce_slab"
     }
   },
   "result": {

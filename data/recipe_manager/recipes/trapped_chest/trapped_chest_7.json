@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_button"
+      "item": "minecraft:horn_coral_block"
     },
     {
-      "item": "minecraft:chipped_anvil"
+      "item": "minecraft:yellow_bed"
     }
   ],
   "result": {

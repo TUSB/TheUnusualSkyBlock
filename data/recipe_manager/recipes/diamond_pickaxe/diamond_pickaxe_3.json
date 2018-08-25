@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_stained_glass"
+      "item": "minecraft:sand"
     },
     "#": {
-      "item": "minecraft:nether_brick_stairs"
+      "item": "minecraft:wither_skeleton_skull"
     }
   },
   "result": {

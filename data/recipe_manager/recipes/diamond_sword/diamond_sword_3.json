@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:light_blue_shulker_box"
+      "item": "minecraft:diorite"
     },
     "#": {
-      "item": "minecraft:snowball"
+      "item": "minecraft:gray_bed"
     }
   },
   "result": {

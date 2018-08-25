@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_shulker_box"
+      "item": "minecraft:enchanting_table"
     },
     "X": {
-      "item": "minecraft:snow_block"
+      "item": "minecraft:nether_brick_slab"
     }
   },
   "result": {

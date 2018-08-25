@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:map"
+      "item": "minecraft:nether_wart"
     },
     "X": {
-      "item": "minecraft:spruce_pressure_plate"
+      "item": "minecraft:purple_shulker_box"
     }
   },
   "result": {

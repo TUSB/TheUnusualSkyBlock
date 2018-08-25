@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:golden_hoe"
+      "item": "minecraft:cooked_mutton"
     },
     "|": {
-      "item": "minecraft:prismarine_stairs"
+      "item": "minecraft:nether_wart"
     }
   },
   "result": {

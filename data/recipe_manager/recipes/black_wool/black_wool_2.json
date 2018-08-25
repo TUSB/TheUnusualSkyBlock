@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:grass_block"
+      "item": "minecraft:black_shulker_box"
     },
     {
-      "item": "minecraft:light_blue_glazed_terracotta"
+      "item": "minecraft:popped_chorus_fruit"
     }
   ],
   "result": {

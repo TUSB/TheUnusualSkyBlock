@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:filled_map"
+      "item": "minecraft:fermented_spider_eye"
     },
     "X": {
-      "item": "minecraft:lime_terracotta"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     }
   },
   "result": {

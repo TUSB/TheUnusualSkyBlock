@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_glazed_terracotta"
+      "item": "minecraft:painting"
     },
     "X": {
-      "item": "minecraft:light_gray_carpet"
+      "item": "minecraft:red_concrete"
     }
   },
   "result": {

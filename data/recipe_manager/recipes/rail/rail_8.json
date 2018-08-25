@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:iron_helmet"
+      "item": "minecraft:cauldron"
     },
     "#": {
-      "item": "minecraft:rabbit_foot"
+      "item": "minecraft:jungle_pressure_plate"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:iron_trapdoor"
+      "item": "minecraft:horn_coral_fan"
     },
     {
-      "item": "minecraft:note_block"
+      "item": "minecraft:turtle_egg"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:clock"
+      "item": "minecraft:birch_pressure_plate"
     },
     "|": {
-      "item": "minecraft:furnace_minecart"
+      "item": "minecraft:brain_coral"
     }
   },
   "result": {

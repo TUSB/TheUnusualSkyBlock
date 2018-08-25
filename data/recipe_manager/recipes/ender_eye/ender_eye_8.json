@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:rose_red"
+      "item": "minecraft:mushroom_stew"
     },
     {
-      "item": "minecraft:white_glazed_terracotta"
+      "item": "minecraft:saddle"
     }
   ],
   "result": {

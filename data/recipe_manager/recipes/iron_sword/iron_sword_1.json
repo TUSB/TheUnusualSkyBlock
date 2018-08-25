@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:light_gray_bed"
+      "item": "minecraft:cake"
     },
     "#": {
-      "item": "minecraft:wheat"
+      "item": "minecraft:golden_chestplate"
     }
   },
   "result": {

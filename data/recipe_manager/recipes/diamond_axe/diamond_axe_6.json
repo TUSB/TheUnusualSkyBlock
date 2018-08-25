@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:pumpkin_seeds"
+      "item": "minecraft:brown_stained_glass"
     },
     "#": {
-      "item": "minecraft:white_stained_glass"
+      "item": "minecraft:jack_o_lantern"
     }
   },
   "result": {

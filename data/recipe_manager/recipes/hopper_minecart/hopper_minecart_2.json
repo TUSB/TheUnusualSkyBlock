@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:golden_leggings"
+      "item": "minecraft:acacia_sapling"
     },
     "B": {
-      "item": "minecraft:orange_bed"
+      "item": "minecraft:red_stained_glass"
     }
   },
   "result": {

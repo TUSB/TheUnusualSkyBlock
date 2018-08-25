@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:grass_block"
     },
     "X": {
-      "item": "minecraft:magenta_bed"
+      "item": "minecraft:oak_button"
     }
   },
   "result": {

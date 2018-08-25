@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:baked_potato"
     },
     "X": {
-      "item": "minecraft:lime_shulker_box"
+      "item": "minecraft:damaged_anvil"
     }
   },
   "result": {

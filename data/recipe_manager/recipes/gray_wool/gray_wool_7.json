@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dragon_breath"
+      "item": "minecraft:brown_banner"
     },
     {
-      "item": "minecraft:magenta_dye"
+      "item": "minecraft:filled_map"
     }
   ],
   "result": {

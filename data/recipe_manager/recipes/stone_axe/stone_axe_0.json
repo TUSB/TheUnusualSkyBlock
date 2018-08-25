@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:jungle_log"
+      "item": "minecraft:cactus"
     },
     "#": {
-      "item": "minecraft:scute"
+      "item": "minecraft:cobweb"
     }
   },
   "result": {

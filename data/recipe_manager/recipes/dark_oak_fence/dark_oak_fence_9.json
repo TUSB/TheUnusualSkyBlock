@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:brown_mushroom_block"
+      "item": "minecraft:acacia_trapdoor"
     },
     "#": {
-      "item": "minecraft:nether_brick"
+      "item": "minecraft:grass"
     }
   },
   "result": {

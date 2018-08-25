@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:lever"
+      "item": "minecraft:cyan_shulker_box"
     },
     "C": {
-      "item": "minecraft:prismarine_brick_slab"
+      "item": "minecraft:iron_axe"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:stone_brick_stairs"
+      "item": "minecraft:birch_fence"
     },
     "X": {
-      "item": "minecraft:torch"
+      "item": "minecraft:slime_ball"
     }
   },
   "result": {

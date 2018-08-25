@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:iron_trapdoor"
+      "item": "minecraft:purple_banner"
     },
     {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:skeleton_skull"
     }
   ],
   "result": {

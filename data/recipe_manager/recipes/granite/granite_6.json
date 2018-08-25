@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_planks"
+      "item": "minecraft:light_gray_glazed_terracotta"
     },
     {
-      "item": "minecraft:cobweb"
+      "item": "minecraft:lime_terracotta"
     }
   ],
   "result": {

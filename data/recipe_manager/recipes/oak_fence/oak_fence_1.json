@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:glowstone"
+      "item": "minecraft:magenta_shulker_box"
     },
     "#": {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:purple_wool"
     }
   },
   "result": {

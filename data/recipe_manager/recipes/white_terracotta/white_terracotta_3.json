@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_horse_armor"
+      "item": "minecraft:oak_door"
     },
     "X": {
-      "item": "minecraft:stripped_oak_log"
+      "item": "minecraft:petrified_oak_slab"
     }
   },
   "result": {

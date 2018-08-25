@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:furnace"
+      "item": "minecraft:chiseled_red_sandstone"
     },
     "X": {
-      "item": "minecraft:leather_helmet"
+      "item": "minecraft:stone"
     }
   },
   "result": {

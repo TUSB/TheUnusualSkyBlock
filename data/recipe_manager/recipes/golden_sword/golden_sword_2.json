@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:armor_stand"
+      "item": "minecraft:iron_ore"
     },
     "#": {
-      "item": "minecraft:sea_pickle"
+      "item": "minecraft:lime_bed"
     }
   },
   "result": {

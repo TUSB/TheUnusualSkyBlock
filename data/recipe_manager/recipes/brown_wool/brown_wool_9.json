@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brain_coral_fan"
+      "item": "minecraft:snowball"
     },
     {
-      "item": "minecraft:magenta_dye"
+      "item": "minecraft:string"
     }
   ],
   "result": {

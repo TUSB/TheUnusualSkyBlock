@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:fishing_rod"
+      "item": "minecraft:andesite"
     },
     "|": {
-      "item": "minecraft:gray_stained_glass_pane"
+      "item": "minecraft:sugar"
     }
   },
   "result": {

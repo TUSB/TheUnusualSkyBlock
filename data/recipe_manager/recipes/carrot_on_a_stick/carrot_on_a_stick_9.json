@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:dirt"
     },
     "X": {
-      "item": "minecraft:red_carpet"
+      "item": "minecraft:magenta_glazed_terracotta"
     }
   },
   "result": {

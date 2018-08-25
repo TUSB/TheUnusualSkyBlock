@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:conduit"
+      "item": "minecraft:acacia_trapdoor"
     },
     "X": {
-      "item": "minecraft:green_wool"
+      "item": "minecraft:glistering_melon_slice"
     }
   },
   "result": {

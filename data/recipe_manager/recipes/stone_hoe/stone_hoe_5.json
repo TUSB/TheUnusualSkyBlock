@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:green_stained_glass"
+      "item": "minecraft:oak_fence"
     },
     "#": {
-      "item": "minecraft:jungle_trapdoor"
+      "item": "minecraft:potato"
     }
   },
   "result": {

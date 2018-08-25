@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cooked_salmon"
+      "item": "minecraft:ender_eye"
     },
     "R": {
-      "item": "minecraft:orange_shulker_box"
+      "item": "minecraft:fishing_rod"
     },
     "Q": {
-      "item": "minecraft:stripped_jungle_wood"
+      "item": "minecraft:white_shulker_box"
     }
   },
   "result": {

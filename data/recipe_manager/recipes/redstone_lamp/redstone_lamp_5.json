@@ -7,10 +7,10 @@
   ],
   "key": {
     "R": {
-      "item": "minecraft:cyan_banner"
+      "item": "minecraft:lime_stained_glass_pane"
     },
     "G": {
-      "item": "minecraft:spruce_fence_gate"
+      "item": "minecraft:smooth_quartz"
     }
   },
   "result": {

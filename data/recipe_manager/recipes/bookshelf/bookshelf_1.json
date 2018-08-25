@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magenta_concrete"
+      "item": "minecraft:black_bed"
     },
     "X": {
-      "item": "minecraft:spruce_button"
+      "item": "minecraft:red_sandstone_slab"
     }
   },
   "result": {

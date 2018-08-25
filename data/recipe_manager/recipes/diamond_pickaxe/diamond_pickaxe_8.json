@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:iron_ore"
+      "item": "minecraft:daylight_detector"
     },
     "#": {
-      "item": "minecraft:yellow_carpet"
+      "item": "minecraft:golden_axe"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:jungle_fence"
     },
     "X": {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:yellow_terracotta"
     }
   },
   "result": {

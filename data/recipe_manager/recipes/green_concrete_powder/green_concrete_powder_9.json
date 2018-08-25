@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:diamond_sword"
     },
     {
-      "item": "minecraft:chorus_fruit"
+      "item": "minecraft:dirt"
     },
     {
-      "item": "minecraft:fire_charge"
+      "item": "minecraft:light_gray_concrete"
     },
     {
-      "item": "minecraft:furnace_minecart"
+      "item": "minecraft:magenta_shulker_box"
     },
     {
-      "item": "minecraft:green_banner"
+      "item": "minecraft:oak_door"
     },
     {
-      "item": "minecraft:minecart"
+      "item": "minecraft:player_head"
     },
     {
-      "item": "minecraft:rabbit_stew"
+      "item": "minecraft:popped_chorus_fruit"
     },
     {
-      "item": "minecraft:red_stained_glass"
+      "item": "minecraft:quartz_pillar"
     },
     {
-      "item": "minecraft:stone"
+      "item": "minecraft:water_bucket"
     }
   ],
   "result": {

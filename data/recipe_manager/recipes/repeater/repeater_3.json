@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:powered_rail"
+      "item": "minecraft:gold_block"
     },
     "X": {
-      "item": "minecraft:purple_wool"
+      "item": "minecraft:green_wool"
     },
     "I": {
-      "item": "minecraft:snow"
+      "item": "minecraft:shield"
     }
   },
   "result": {

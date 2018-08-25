@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:beef"
+      "item": "minecraft:diamond_pickaxe"
     },
     "X": {
-      "item": "minecraft:chainmail_chestplate"
+      "item": "minecraft:melon_seeds"
     },
     "I": {
-      "item": "minecraft:dead_fire_coral_block"
+      "item": "minecraft:spruce_boat"
     }
   },
   "result": {

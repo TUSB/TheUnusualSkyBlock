@@ -7,16 +7,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:acacia_button"
+      "item": "minecraft:iron_ore"
     },
     "#": {
-      "item": "minecraft:activator_rail"
+      "item": "minecraft:mossy_stone_bricks"
     },
     "X": {
-      "item": "minecraft:iron_boots"
+      "item": "minecraft:stone_slab"
     },
     "R": {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:stripped_acacia_wood"
     }
   },
   "result": {

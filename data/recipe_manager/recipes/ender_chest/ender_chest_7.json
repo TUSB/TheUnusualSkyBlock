@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:emerald"
+      "item": "minecraft:gray_stained_glass"
     },
     "E": {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:turtle_helmet"
     }
   },
   "result": {

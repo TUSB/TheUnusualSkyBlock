@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:ghast_tear"
+      "item": "minecraft:feather"
     },
     "#": {
-      "item": "minecraft:pink_shulker_box"
+      "item": "minecraft:yellow_glazed_terracotta"
     }
   },
   "result": {

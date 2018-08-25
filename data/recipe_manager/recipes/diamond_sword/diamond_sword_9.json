@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dead_bubble_coral_block"
+      "item": "minecraft:nether_wart"
     },
     "#": {
-      "item": "minecraft:magenta_wool"
+      "item": "minecraft:white_carpet"
     }
   },
   "result": {

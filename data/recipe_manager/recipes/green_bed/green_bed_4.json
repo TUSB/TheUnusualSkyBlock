@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:filled_map"
+      "item": "minecraft:grass"
     },
     "X": {
-      "item": "minecraft:rabbit_hide"
+      "item": "minecraft:milk_bucket"
     }
   },
   "result": {

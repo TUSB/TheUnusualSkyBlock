@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_log"
+      "item": "minecraft:cracked_stone_bricks"
     },
     {
-      "item": "minecraft:brown_concrete_powder"
+      "item": "minecraft:green_concrete_powder"
     },
     {
-      "item": "minecraft:chainmail_helmet"
+      "item": "minecraft:jungle_fence_gate"
     },
     {
-      "item": "minecraft:dark_prismarine"
+      "item": "minecraft:melon_slice"
     },
     {
-      "item": "minecraft:dark_prismarine_slab"
+      "item": "minecraft:oak_fence"
     },
     {
-      "item": "minecraft:egg"
+      "item": "minecraft:pink_tulip"
     },
     {
-      "item": "minecraft:gray_concrete_powder"
+      "item": "minecraft:quartz_stairs"
     },
     {
-      "item": "minecraft:leather"
+      "item": "minecraft:shears"
     },
     {
-      "item": "minecraft:sign"
+      "item": "minecraft:wooden_pickaxe"
     }
   ],
   "result": {

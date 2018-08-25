@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_leggings"
+      "item": "minecraft:book"
     },
     "W": {
-      "item": "minecraft:spruce_slab"
+      "item": "minecraft:packed_ice"
     }
   },
   "result": {

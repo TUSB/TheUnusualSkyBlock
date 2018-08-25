@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:book"
+      "item": "minecraft:light_gray_terracotta"
     },
     "|": {
-      "item": "minecraft:bucket"
+      "item": "minecraft:red_glazed_terracotta"
     }
   },
   "result": {

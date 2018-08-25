@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_sapling"
+      "item": "minecraft:clock"
     },
     {
-      "item": "minecraft:black_shulker_box"
+      "item": "minecraft:cod_bucket"
     },
     {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:golden_chestplate"
     },
     {
-      "item": "minecraft:brown_concrete_powder"
+      "item": "minecraft:kelp"
     },
     {
-      "item": "minecraft:chorus_fruit"
+      "item": "minecraft:light_blue_stained_glass"
     },
     {
-      "item": "minecraft:green_terracotta"
+      "item": "minecraft:lilac"
     },
     {
-      "item": "minecraft:hopper"
+      "item": "minecraft:prismarine_brick_stairs"
     },
     {
-      "item": "minecraft:light_blue_concrete_powder"
+      "item": "minecraft:purpur_slab"
     },
     {
-      "item": "minecraft:stripped_oak_wood"
+      "item": "minecraft:spruce_leaves"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:chest"
+      "item": "minecraft:black_banner"
     },
     "B": {
-      "item": "minecraft:diamond_ore"
+      "item": "minecraft:chainmail_leggings"
     }
   },
   "result": {

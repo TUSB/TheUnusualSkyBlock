@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:cooked_rabbit"
     },
     "|": {
-      "item": "minecraft:prismarine"
+      "item": "minecraft:potato"
     }
   },
   "result": {

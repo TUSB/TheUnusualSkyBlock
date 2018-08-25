@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond_helmet"
+      "item": "minecraft:brick_stairs"
     },
     "#": {
-      "item": "minecraft:sugar_cane"
+      "item": "minecraft:red_tulip"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:iron_leggings"
+      "item": "minecraft:golden_shovel"
     },
     "#": {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:nether_wart"
     }
   },
   "result": {

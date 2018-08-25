@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:lead"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     },
     "#": {
-      "item": "minecraft:turtle_egg"
+      "item": "minecraft:pink_concrete"
     }
   },
   "result": {

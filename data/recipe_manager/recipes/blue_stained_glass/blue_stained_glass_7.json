@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:dark_oak_log"
     },
     "X": {
-      "item": "minecraft:coal"
+      "item": "minecraft:quartz_stairs"
     }
   },
   "result": {

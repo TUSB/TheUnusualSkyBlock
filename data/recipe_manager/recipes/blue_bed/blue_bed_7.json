@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_concrete"
+      "item": "minecraft:diamond"
     },
     "X": {
-      "item": "minecraft:stripped_oak_log"
+      "item": "minecraft:tnt"
     }
   },
   "result": {

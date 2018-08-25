@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:clay"
+      "item": "minecraft:brown_carpet"
     },
     "|": {
-      "item": "minecraft:phantom_membrane"
+      "item": "minecraft:dead_bubble_coral_block"
     }
   },
   "result": {

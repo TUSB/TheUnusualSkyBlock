@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:sea_pickle"
+      "item": "minecraft:ender_eye"
     }
   ],
   "result": {

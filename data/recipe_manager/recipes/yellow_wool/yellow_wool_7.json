@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:birch_door"
     },
     {
-      "item": "minecraft:red_shulker_box"
+      "item": "minecraft:nether_bricks"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:brown_shulker_box"
+      "item": "minecraft:detector_rail"
     },
     "_": {
-      "item": "minecraft:light_gray_banner"
+      "item": "minecraft:golden_leggings"
     }
   },
   "result": {

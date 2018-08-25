@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_shulker_box"
+      "item": "minecraft:birch_slab"
     },
     {
-      "item": "minecraft:redstone_lamp"
+      "item": "minecraft:chainmail_chestplate"
     }
   ],
   "result": {

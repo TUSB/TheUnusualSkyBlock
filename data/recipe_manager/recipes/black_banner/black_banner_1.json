@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_fence_gate"
+      "item": "minecraft:brown_wool"
     },
     "|": {
-      "item": "minecraft:lily_pad"
+      "item": "minecraft:iron_horse_armor"
     }
   },
   "result": {

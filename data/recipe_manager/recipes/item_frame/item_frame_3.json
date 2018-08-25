@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:brewing_stand"
     },
     "X": {
-      "item": "minecraft:iron_trapdoor"
+      "item": "minecraft:red_wool"
     }
   },
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lead"
+      "item": "minecraft:jack_o_lantern"
     },
     "X": {
-      "item": "minecraft:magenta_glazed_terracotta"
+      "item": "minecraft:jungle_fence_gate"
     },
     "I": {
-      "item": "minecraft:spruce_wood"
+      "item": "minecraft:spruce_fence_gate"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dropper"
+      "item": "minecraft:nether_brick_stairs"
     },
     "|": {
-      "item": "minecraft:melon"
+      "item": "minecraft:purple_dye"
     }
   },
   "result": {

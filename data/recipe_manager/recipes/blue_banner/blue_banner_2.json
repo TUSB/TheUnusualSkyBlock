@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_terracotta"
+      "item": "minecraft:cooked_rabbit"
     },
     "|": {
-      "item": "minecraft:salmon"
+      "item": "minecraft:wooden_axe"
     }
   },
   "result": {

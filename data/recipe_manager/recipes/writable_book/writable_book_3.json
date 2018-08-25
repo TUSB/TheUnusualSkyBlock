@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_carpet"
+      "item": "minecraft:blue_bed"
     },
     {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:filled_map"
     },
     {
-      "item": "minecraft:yellow_concrete_powder"
+      "item": "minecraft:spruce_pressure_plate"
     }
   ],
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cut_sandstone"
+      "item": "minecraft:acacia_sapling"
     },
     "#": {
-      "item": "minecraft:hopper_minecart"
+      "item": "minecraft:stone_bricks"
     },
     "Y": {
-      "item": "minecraft:sea_lantern"
+      "item": "minecraft:wooden_sword"
     }
   },
   "result": {

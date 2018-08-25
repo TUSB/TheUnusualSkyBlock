@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:end_crystal"
+      "item": "minecraft:dirt"
     },
     {
-      "item": "minecraft:poppy"
+      "item": "minecraft:red_stained_glass"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bone_meal"
+      "item": "minecraft:gray_glazed_terracotta"
     },
     "|": {
-      "item": "minecraft:rose_red"
+      "item": "minecraft:gray_terracotta"
     }
   },
   "result": {

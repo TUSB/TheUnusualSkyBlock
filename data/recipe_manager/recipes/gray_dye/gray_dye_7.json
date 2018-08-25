@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:painting"
+      "item": "minecraft:detector_rail"
     },
     {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:oak_log"
     }
   ],
   "result": {

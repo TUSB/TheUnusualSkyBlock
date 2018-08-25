@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:pink_carpet"
+      "item": "minecraft:birch_wood"
     },
     {
-      "item": "minecraft:white_stained_glass"
+      "item": "minecraft:leather_boots"
     }
   ],
   "result": {

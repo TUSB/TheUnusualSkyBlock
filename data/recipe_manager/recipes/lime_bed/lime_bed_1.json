@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_stained_glass_pane"
+      "item": "minecraft:oak_log"
     },
     "X": {
-      "item": "minecraft:snow_block"
+      "item": "minecraft:polished_diorite"
     }
   },
   "result": {

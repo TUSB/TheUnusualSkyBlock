@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_blue_bed"
+      "item": "minecraft:cyan_stained_glass_pane"
     },
     "W": {
-      "item": "minecraft:magenta_bed"
+      "item": "minecraft:light_blue_carpet"
     }
   },
   "result": {

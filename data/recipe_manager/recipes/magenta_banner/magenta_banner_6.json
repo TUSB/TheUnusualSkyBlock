@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chipped_anvil"
+      "item": "minecraft:bread"
     },
     "|": {
-      "item": "minecraft:rabbit"
+      "item": "minecraft:lapis_block"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:wither_skeleton_skull"
+      "item": "minecraft:leather_boots"
     },
     "#": {
-      "item": "minecraft:wooden_shovel"
+      "item": "minecraft:light_weighted_pressure_plate"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bread"
+      "item": "minecraft:player_head"
     },
     "X": {
-      "item": "minecraft:gray_wool"
+      "item": "minecraft:sandstone_slab"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "-": {
-      "item": "minecraft:gray_terracotta"
+      "item": "minecraft:jungle_leaves"
     },
     "#": {
-      "item": "minecraft:light_blue_terracotta"
+      "item": "minecraft:stripped_birch_log"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cactus_green"
+      "item": "minecraft:bubble_coral"
     },
     "#": {
-      "item": "minecraft:granite"
+      "item": "minecraft:dark_oak_log"
     }
   },
   "result": {

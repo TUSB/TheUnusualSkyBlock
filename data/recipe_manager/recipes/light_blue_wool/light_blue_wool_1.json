@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chorus_plant"
+      "item": "minecraft:jungle_fence_gate"
     },
     {
-      "item": "minecraft:nether_brick_slab"
+      "item": "minecraft:stone_bricks"
     }
   ],
   "result": {

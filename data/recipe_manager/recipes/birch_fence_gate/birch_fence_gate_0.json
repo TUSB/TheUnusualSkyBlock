@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:pumpkin"
+      "item": "minecraft:dark_oak_wood"
     },
     "W": {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "item": "minecraft:redstone_ore"
     }
   },
   "result": {

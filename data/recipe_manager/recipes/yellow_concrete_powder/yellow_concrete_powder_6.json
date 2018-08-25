@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brain_coral"
+      "item": "minecraft:brown_mushroom"
     },
     {
-      "item": "minecraft:damaged_anvil"
+      "item": "minecraft:dandelion"
     },
     {
-      "item": "minecraft:diamond_ore"
+      "item": "minecraft:diamond_pickaxe"
     },
     {
-      "item": "minecraft:diorite"
+      "item": "minecraft:gray_carpet"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:green_stained_glass_pane"
     },
     {
-      "item": "minecraft:spruce_trapdoor"
+      "item": "minecraft:ink_sac"
     },
     {
-      "item": "minecraft:stripped_birch_log"
+      "item": "minecraft:light_blue_glazed_terracotta"
     },
     {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "item": "minecraft:mushroom_stem"
     },
     {
-      "item": "minecraft:trapped_chest"
+      "item": "minecraft:sticky_piston"
     }
   ],
   "result": {

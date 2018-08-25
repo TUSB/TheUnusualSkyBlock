@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:ghast_tear"
+      "item": "minecraft:lime_terracotta"
     }
   ],
   "result": {

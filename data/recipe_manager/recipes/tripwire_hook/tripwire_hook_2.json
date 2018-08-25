@@ -7,13 +7,13 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:lingering_potion"
+      "item": "minecraft:blaze_powder"
     },
     "S": {
-      "item": "minecraft:prismarine_brick_slab"
+      "item": "minecraft:brown_stained_glass"
     },
     "#": {
-      "item": "minecraft:red_mushroom"
+      "item": "minecraft:chipped_anvil"
     }
   },
   "result": {

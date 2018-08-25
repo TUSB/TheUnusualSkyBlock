@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_bed"
+      "item": "minecraft:golden_shovel"
     },
     "X": {
-      "item": "minecraft:brown_wool"
+      "item": "minecraft:potion"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_boat"
+      "item": "minecraft:birch_pressure_plate"
     },
     {
-      "item": "minecraft:dark_oak_boat"
+      "item": "minecraft:cauldron"
     },
     {
-      "item": "minecraft:dark_oak_planks"
+      "item": "minecraft:crafting_table"
     },
     {
-      "item": "minecraft:fire_coral"
+      "item": "minecraft:dead_tube_coral_block"
     },
     {
-      "item": "minecraft:fire_coral_block"
+      "item": "minecraft:green_shulker_box"
     },
     {
-      "item": "minecraft:granite"
+      "item": "minecraft:oak_leaves"
     },
     {
-      "item": "minecraft:leather_boots"
+      "item": "minecraft:spruce_sapling"
     },
     {
-      "item": "minecraft:quartz_slab"
+      "item": "minecraft:stone_hoe"
     },
     {
-      "item": "minecraft:sponge"
+      "item": "minecraft:wooden_hoe"
     }
   ],
   "result": {

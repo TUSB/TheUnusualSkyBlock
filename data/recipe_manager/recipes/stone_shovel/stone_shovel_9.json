@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cocoa_beans"
+      "item": "minecraft:gold_block"
     },
     "#": {
-      "item": "minecraft:dragon_breath"
+      "item": "minecraft:wither_skeleton_skull"
     }
   },
   "result": {

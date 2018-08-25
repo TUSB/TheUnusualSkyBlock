@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:iron_trapdoor"
+      "item": "minecraft:wet_sponge"
     },
     "#": {
-      "item": "minecraft:potion"
+      "item": "minecraft:white_shulker_box"
     }
   },
   "result": {

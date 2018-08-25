@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:gunpowder"
+      "item": "minecraft:melon_slice"
     },
     {
-      "item": "minecraft:pink_tulip"
+      "item": "minecraft:nether_brick_slab"
     }
   ],
   "result": {

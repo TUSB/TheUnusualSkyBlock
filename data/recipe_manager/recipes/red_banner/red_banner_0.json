@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_concrete"
+      "item": "minecraft:ghast_tear"
     },
     "|": {
-      "item": "minecraft:smooth_stone"
+      "item": "minecraft:shears"
     }
   },
   "result": {

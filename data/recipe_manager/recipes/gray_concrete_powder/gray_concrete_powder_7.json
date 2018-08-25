@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_concrete_powder"
+      "item": "minecraft:acacia_slab"
     },
     {
-      "item": "minecraft:compass"
+      "item": "minecraft:dead_fire_coral_fan"
     },
     {
-      "item": "minecraft:cyan_banner"
+      "item": "minecraft:diamond_shovel"
     },
     {
-      "item": "minecraft:magenta_glazed_terracotta"
+      "item": "minecraft:gold_nugget"
     },
     {
-      "item": "minecraft:magma_cream"
+      "item": "minecraft:item_frame"
     },
     {
-      "item": "minecraft:orange_stained_glass"
+      "item": "minecraft:observer"
     },
     {
-      "item": "minecraft:polished_granite"
+      "item": "minecraft:peony"
     },
     {
-      "item": "minecraft:potion"
+      "item": "minecraft:purple_glazed_terracotta"
     },
     {
-      "item": "minecraft:stone_axe"
+      "item": "minecraft:splash_potion"
     }
   ],
   "result": {

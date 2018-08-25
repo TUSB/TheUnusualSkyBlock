@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:jungle_planks"
+      "item": "minecraft:cut_red_sandstone"
     }
   ],
   "result": {

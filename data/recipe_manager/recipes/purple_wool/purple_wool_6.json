@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:rabbit"
+      "item": "minecraft:pink_tulip"
     },
     {
-      "item": "minecraft:repeater"
+      "item": "minecraft:prismarine_stairs"
     }
   ],
   "result": {

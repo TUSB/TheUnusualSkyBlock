@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gunpowder"
+      "item": "minecraft:dark_oak_door"
     },
     "|": {
-      "item": "minecraft:spruce_leaves"
+      "item": "minecraft:orange_glazed_terracotta"
     }
   },
   "result": {

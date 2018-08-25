@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_wool"
+      "item": "minecraft:brain_coral"
     },
     {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:sugar_cane"
     }
   ],
   "result": {

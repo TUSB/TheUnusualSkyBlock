@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_stained_glass"
+      "item": "minecraft:iron_block"
     },
     "X": {
-      "item": "minecraft:redstone_block"
+      "item": "minecraft:orange_stained_glass"
     }
   },
   "result": {

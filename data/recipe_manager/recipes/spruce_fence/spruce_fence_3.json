@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:light_gray_terracotta"
+      "item": "minecraft:dirt"
     },
     "#": {
-      "item": "minecraft:oak_planks"
+      "item": "minecraft:redstone_block"
     }
   },
   "result": {

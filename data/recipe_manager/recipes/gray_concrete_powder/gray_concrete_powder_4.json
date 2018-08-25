@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_terracotta"
+      "item": "minecraft:black_carpet"
     },
     {
-      "item": "minecraft:bucket"
+      "item": "minecraft:blue_wool"
     },
     {
-      "item": "minecraft:dead_fire_coral_fan"
+      "item": "minecraft:ender_eye"
     },
     {
-      "item": "minecraft:green_bed"
+      "item": "minecraft:pink_shulker_box"
     },
     {
-      "item": "minecraft:green_terracotta"
+      "item": "minecraft:prismarine_brick_stairs"
     },
     {
-      "item": "minecraft:iron_door"
+      "item": "minecraft:purpur_block"
     },
     {
-      "item": "minecraft:pink_stained_glass"
+      "item": "minecraft:sugar"
     },
     {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:tnt"
     },
     {
-      "item": "minecraft:wooden_shovel"
+      "item": "minecraft:yellow_concrete_powder"
     }
   ],
   "result": {

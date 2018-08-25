@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:birch_wood"
     },
     "|": {
-      "item": "minecraft:orange_tulip"
+      "item": "minecraft:gold_ingot"
     }
   },
   "result": {

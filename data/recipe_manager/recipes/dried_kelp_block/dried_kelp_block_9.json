@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blaze_rod"
+      "item": "minecraft:brain_coral_block"
     },
     {
-      "item": "minecraft:light_gray_terracotta"
+      "item": "minecraft:brick_slab"
     },
     {
-      "item": "minecraft:mushroom_stem"
+      "item": "minecraft:diamond_axe"
     },
     {
-      "item": "minecraft:oak_fence"
+      "item": "minecraft:dragon_breath"
     },
     {
-      "item": "minecraft:red_bed"
+      "item": "minecraft:light_blue_glazed_terracotta"
     },
     {
-      "item": "minecraft:red_concrete"
+      "item": "minecraft:mossy_cobblestone_wall"
     },
     {
-      "item": "minecraft:stone_brick_slab"
+      "item": "minecraft:rabbit_foot"
     },
     {
-      "item": "minecraft:terracotta"
+      "item": "minecraft:red_banner"
     },
     {
-      "item": "minecraft:yellow_concrete_powder"
+      "item": "minecraft:shears"
     }
   ],
   "result": {

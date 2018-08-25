@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_stained_glass"
+      "item": "minecraft:jungle_log"
     },
     "|": {
-      "item": "minecraft:jungle_stairs"
+      "item": "minecraft:stripped_oak_wood"
     }
   },
   "result": {

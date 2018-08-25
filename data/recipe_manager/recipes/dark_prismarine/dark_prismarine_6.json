@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:gravel"
+      "item": "minecraft:coal_ore"
     },
     "I": {
-      "item": "minecraft:stone_brick_stairs"
+      "item": "minecraft:sugar_cane"
     }
   },
   "result": {

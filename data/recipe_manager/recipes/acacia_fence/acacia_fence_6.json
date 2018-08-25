@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:brown_carpet"
+      "item": "minecraft:end_stone_bricks"
     },
     "#": {
-      "item": "minecraft:spruce_wood"
+      "item": "minecraft:oak_wood"
     }
   },
   "result": {

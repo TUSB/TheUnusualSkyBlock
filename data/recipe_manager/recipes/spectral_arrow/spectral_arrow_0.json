@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_terracotta"
+      "item": "minecraft:gray_bed"
     },
     "X": {
-      "item": "minecraft:cooked_porkchop"
+      "item": "minecraft:pumpkin"
     }
   },
   "result": {

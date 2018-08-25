@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beef"
+      "item": "minecraft:cod"
     },
     {
-      "item": "minecraft:blaze_powder"
+      "item": "minecraft:dropper"
     },
     {
-      "item": "minecraft:blue_stained_glass"
+      "item": "minecraft:golden_helmet"
     },
     {
-      "item": "minecraft:cauldron"
+      "item": "minecraft:jungle_button"
     },
     {
-      "item": "minecraft:dandelion"
+      "item": "minecraft:jungle_log"
     },
     {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:jungle_trapdoor"
     },
     {
-      "item": "minecraft:red_wool"
+      "item": "minecraft:light_blue_shulker_box"
     },
     {
-      "item": "minecraft:spider_eye"
+      "item": "minecraft:red_bed"
     },
     {
-      "item": "minecraft:writable_book"
+      "item": "minecraft:yellow_carpet"
     }
   ],
   "result": {

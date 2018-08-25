@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beacon"
+      "item": "minecraft:acacia_slab"
     },
     {
-      "item": "minecraft:birch_planks"
+      "item": "minecraft:black_stained_glass_pane"
     },
     {
-      "item": "minecraft:cooked_salmon"
+      "item": "minecraft:cobblestone_stairs"
     },
     {
-      "item": "minecraft:dark_prismarine_slab"
+      "item": "minecraft:horn_coral_fan"
     },
     {
-      "item": "minecraft:horn_coral"
+      "item": "minecraft:pink_shulker_box"
     },
     {
-      "item": "minecraft:light_gray_banner"
+      "item": "minecraft:porkchop"
     },
     {
-      "item": "minecraft:oak_log"
+      "item": "minecraft:powered_rail"
     },
     {
-      "item": "minecraft:purple_bed"
+      "item": "minecraft:spruce_stairs"
     },
     {
-      "item": "minecraft:stripped_dark_oak_log"
+      "item": "minecraft:stripped_jungle_log"
     }
   ],
   "result": {

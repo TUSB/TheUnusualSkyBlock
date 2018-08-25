@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lime_banner"
+      "item": "minecraft:light_blue_banner"
     },
     {
-      "item": "minecraft:red_mushroom_block"
+      "item": "minecraft:orange_carpet"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "-": {
-      "item": "minecraft:activator_rail"
+      "item": "minecraft:dark_oak_button"
     },
     "#": {
-      "item": "minecraft:dark_oak_wood"
+      "item": "minecraft:obsidian"
     }
   },
   "result": {

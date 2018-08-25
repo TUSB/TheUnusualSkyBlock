@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_banner"
+      "item": "minecraft:birch_planks"
     },
     "X": {
-      "item": "minecraft:tall_grass"
+      "item": "minecraft:golden_shovel"
     }
   },
   "result": {

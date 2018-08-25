@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cake"
+      "item": "minecraft:cobblestone_stairs"
     },
     "X": {
-      "item": "minecraft:white_stained_glass_pane"
+      "item": "minecraft:spruce_wood"
     }
   },
   "result": {

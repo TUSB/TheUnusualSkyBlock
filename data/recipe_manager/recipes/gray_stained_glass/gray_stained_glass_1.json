@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_wood"
+      "item": "minecraft:gold_nugget"
     },
     "X": {
-      "item": "minecraft:lead"
+      "item": "minecraft:horn_coral_block"
     }
   },
   "result": {

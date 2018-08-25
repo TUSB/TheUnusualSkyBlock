@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brown_mushroom"
+      "item": "minecraft:bucket"
     },
     "#": {
-      "item": "minecraft:light_gray_glazed_terracotta"
+      "item": "minecraft:jungle_button"
     }
   },
   "result": {

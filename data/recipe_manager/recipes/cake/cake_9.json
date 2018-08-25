@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:cooked_mutton"
+      "item": "minecraft:cactus_green"
     },
     "B": {
-      "item": "minecraft:dead_fire_coral_block"
+      "item": "minecraft:pufferfish"
     },
     "E": {
-      "item": "minecraft:light_gray_bed"
+      "item": "minecraft:seagrass"
     },
     "C": {
-      "item": "minecraft:magma_cream"
+      "item": "minecraft:spruce_door"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brown_shulker_box"
+      "item": "minecraft:golden_sword"
     },
     "#": {
-      "item": "minecraft:dead_fire_coral_block"
+      "item": "minecraft:purple_glazed_terracotta"
     }
   },
   "result": {

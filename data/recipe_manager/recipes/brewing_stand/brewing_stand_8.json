@@ -6,10 +6,10 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:pumpkin_seeds"
+      "item": "minecraft:chorus_flower"
     },
     "#": {
-      "item": "minecraft:sticky_piston"
+      "item": "minecraft:green_banner"
     }
   },
   "result": {

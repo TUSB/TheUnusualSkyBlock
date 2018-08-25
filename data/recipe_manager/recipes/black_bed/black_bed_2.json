@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:coal_ore"
+      "item": "minecraft:orange_bed"
     },
     "X": {
-      "item": "minecraft:tall_grass"
+      "item": "minecraft:stripped_birch_log"
     }
   },
   "result": {

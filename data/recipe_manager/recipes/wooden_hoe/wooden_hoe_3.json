@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:gravel"
+      "item": "minecraft:brain_coral_block"
     },
     "#": {
-      "item": "minecraft:oxeye_daisy"
+      "item": "minecraft:orange_dye"
     }
   },
   "result": {

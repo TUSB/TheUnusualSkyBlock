@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:stripped_jungle_log"
     },
     "E": {
-      "item": "minecraft:shulker_box"
+      "item": "minecraft:sunflower"
     }
   },
   "result": {

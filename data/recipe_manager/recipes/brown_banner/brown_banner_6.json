@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_sapling"
+      "item": "minecraft:quartz"
     },
     "|": {
-      "item": "minecraft:brown_terracotta"
+      "item": "minecraft:red_sandstone_stairs"
     }
   },
   "result": {

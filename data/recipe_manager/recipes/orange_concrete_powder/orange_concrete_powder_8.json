@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cod_bucket"
+      "item": "minecraft:bone_meal"
     },
     {
-      "item": "minecraft:cookie"
+      "item": "minecraft:dispenser"
     },
     {
-      "item": "minecraft:diamond_hoe"
+      "item": "minecraft:end_stone_bricks"
     },
     {
-      "item": "minecraft:ender_eye"
+      "item": "minecraft:magenta_dye"
     },
     {
-      "item": "minecraft:piston"
+      "item": "minecraft:purpur_block"
     },
     {
-      "item": "minecraft:purple_shulker_box"
+      "item": "minecraft:red_banner"
     },
     {
-      "item": "minecraft:rail"
+      "item": "minecraft:red_tulip"
     },
     {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:terracotta"
     },
     {
-      "item": "minecraft:stripped_birch_log"
+      "item": "minecraft:yellow_bed"
     }
   ],
   "result": {

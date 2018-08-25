@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:stripped_oak_wood"
+      "item": "minecraft:spruce_wood"
     }
   ],
   "result": {

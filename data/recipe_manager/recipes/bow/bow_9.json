@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:carrot"
+      "item": "minecraft:brick_stairs"
     },
     "X": {
-      "item": "minecraft:prismarine"
+      "item": "minecraft:gray_shulker_box"
     }
   },
   "result": {

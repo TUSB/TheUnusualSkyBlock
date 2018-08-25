@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brain_coral"
+      "item": "minecraft:cobblestone_slab"
     },
     "X": {
-      "item": "minecraft:gray_wool"
+      "item": "minecraft:flint"
     }
   },
   "result": {

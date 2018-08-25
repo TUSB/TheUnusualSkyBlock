@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gunpowder"
+      "item": "minecraft:flint_and_steel"
     },
     "X": {
-      "item": "minecraft:orange_wool"
+      "item": "minecraft:sugar"
     }
   },
   "result": {

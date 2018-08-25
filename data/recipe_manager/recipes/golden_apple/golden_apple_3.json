@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:spruce_fence"
+      "item": "minecraft:acacia_fence_gate"
     },
     "X": {
-      "item": "minecraft:stripped_spruce_wood"
+      "item": "minecraft:ladder"
     }
   },
   "result": {

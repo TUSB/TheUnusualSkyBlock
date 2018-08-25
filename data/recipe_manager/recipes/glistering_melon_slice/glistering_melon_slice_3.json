@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brain_coral"
+      "item": "minecraft:brain_coral_block"
     },
     "X": {
-      "item": "minecraft:rose_bush"
+      "item": "minecraft:pufferfish"
     }
   },
   "result": {

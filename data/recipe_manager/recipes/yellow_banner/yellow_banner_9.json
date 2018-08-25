@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jukebox"
+      "item": "minecraft:glistering_melon_slice"
     },
     "|": {
-      "item": "minecraft:red_mushroom_block"
+      "item": "minecraft:prismarine_shard"
     }
   },
   "result": {

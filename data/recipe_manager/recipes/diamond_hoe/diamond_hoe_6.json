@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:hopper_minecart"
+      "item": "minecraft:bucket"
     },
     "#": {
-      "item": "minecraft:purple_shulker_box"
+      "item": "minecraft:turtle_helmet"
     }
   },
   "result": {

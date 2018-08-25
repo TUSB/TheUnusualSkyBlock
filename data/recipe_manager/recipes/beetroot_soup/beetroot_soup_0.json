@@ -7,10 +7,10 @@
   ],
   "key": {
     "O": {
-      "item": "minecraft:diamond_pickaxe"
+      "item": "minecraft:chiseled_quartz_block"
     },
     "B": {
-      "item": "minecraft:stone_slab"
+      "item": "minecraft:white_shulker_box"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_ore"
+      "item": "minecraft:golden_sword"
     },
     "X": {
-      "item": "minecraft:white_shulker_box"
+      "item": "minecraft:orange_stained_glass_pane"
     }
   },
   "result": {

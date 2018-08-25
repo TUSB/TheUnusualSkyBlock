@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:stick"
+      "item": "minecraft:iron_ore"
     },
     "X": {
-      "item": "minecraft:tube_coral_block"
+      "item": "minecraft:purpur_slab"
     }
   },
   "result": {

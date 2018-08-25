@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:fire_coral"
+      "item": "minecraft:dark_oak_leaves"
     }
   ],
   "result": {

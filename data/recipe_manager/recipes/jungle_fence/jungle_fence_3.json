@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:birch_planks"
+      "item": "minecraft:black_concrete"
     },
     "#": {
-      "item": "minecraft:bowl"
+      "item": "minecraft:jungle_door"
     }
   },
   "result": {

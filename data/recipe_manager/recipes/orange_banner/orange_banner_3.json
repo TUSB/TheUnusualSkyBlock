@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_weighted_pressure_plate"
+      "item": "minecraft:bread"
     },
     "|": {
-      "item": "minecraft:red_stained_glass"
+      "item": "minecraft:oak_stairs"
     }
   },
   "result": {

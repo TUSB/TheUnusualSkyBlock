@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:orange_glazed_terracotta"
+      "item": "minecraft:cobblestone_slab"
     },
     "#": {
-      "item": "minecraft:purple_concrete_powder"
+      "item": "minecraft:oak_sapling"
     }
   },
   "result": {

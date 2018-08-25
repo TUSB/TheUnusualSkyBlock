@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chiseled_red_sandstone"
+      "item": "minecraft:birch_fence"
     },
     "|": {
-      "item": "minecraft:purpur_block"
+      "item": "minecraft:golden_hoe"
     }
   },
   "result": {

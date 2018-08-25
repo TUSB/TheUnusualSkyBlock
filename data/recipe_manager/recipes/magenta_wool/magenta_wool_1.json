@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_door"
+      "item": "minecraft:light_blue_banner"
     },
     {
-      "item": "minecraft:clay_ball"
+      "item": "minecraft:trident"
     }
   ],
   "result": {

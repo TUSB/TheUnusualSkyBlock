@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:sea_pickle"
+      "item": "minecraft:black_bed"
     },
     "#": {
-      "item": "minecraft:spruce_pressure_plate"
+      "item": "minecraft:golden_horse_armor"
     }
   },
   "result": {

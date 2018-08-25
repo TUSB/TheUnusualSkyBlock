@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:pufferfish"
+      "item": "minecraft:pufferfish_bucket"
     },
     "X": {
-      "item": "minecraft:stripped_acacia_log"
+      "item": "minecraft:purpur_stairs"
     }
   },
   "result": {

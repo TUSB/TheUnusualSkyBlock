@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cobweb"
+      "item": "minecraft:acacia_boat"
     },
     "X": {
-      "item": "minecraft:cod"
+      "item": "minecraft:acacia_slab"
     }
   },
   "result": {

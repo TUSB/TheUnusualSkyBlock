@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lead"
+      "item": "minecraft:filled_map"
     },
     "X": {
-      "item": "minecraft:spruce_button"
+      "item": "minecraft:wither_skeleton_skull"
     }
   },
   "result": {

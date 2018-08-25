@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_trapdoor"
+      "item": "minecraft:enchanting_table"
     },
     "X": {
-      "item": "minecraft:pink_stained_glass"
+      "item": "minecraft:glowstone"
     }
   },
   "result": {

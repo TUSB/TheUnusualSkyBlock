@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lime_stained_glass_pane"
+      "item": "minecraft:jungle_planks"
     },
     "|": {
-      "item": "minecraft:stripped_jungle_wood"
+      "item": "minecraft:red_concrete_powder"
     }
   },
   "result": {

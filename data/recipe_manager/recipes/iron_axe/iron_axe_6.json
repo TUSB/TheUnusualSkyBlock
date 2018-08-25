@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:magenta_wool"
+      "item": "minecraft:blue_bed"
     },
     "#": {
-      "item": "minecraft:orange_glazed_terracotta"
+      "item": "minecraft:green_stained_glass"
     }
   },
   "result": {

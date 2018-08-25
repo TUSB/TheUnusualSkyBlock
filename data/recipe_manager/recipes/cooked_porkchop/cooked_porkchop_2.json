@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:mossy_stone_bricks"
+      "item": "minecraft:spruce_button"
     }
   ],
   "result": {

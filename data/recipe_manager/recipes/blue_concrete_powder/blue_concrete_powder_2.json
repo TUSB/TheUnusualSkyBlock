@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_button"
+      "item": "minecraft:birch_planks"
     },
     {
-      "item": "minecraft:beetroot_seeds"
+      "item": "minecraft:cyan_glazed_terracotta"
     },
     {
-      "item": "minecraft:book"
+      "item": "minecraft:dark_oak_boat"
     },
     {
-      "item": "minecraft:brown_bed"
+      "item": "minecraft:fern"
     },
     {
-      "item": "minecraft:orange_wool"
+      "item": "minecraft:phantom_membrane"
     },
     {
-      "item": "minecraft:snow_block"
+      "item": "minecraft:red_wool"
     },
     {
-      "item": "minecraft:spruce_button"
+      "item": "minecraft:spruce_wood"
     },
     {
-      "item": "minecraft:stone_bricks"
+      "item": "minecraft:stripped_jungle_wood"
     },
     {
-      "item": "minecraft:stripped_oak_log"
+      "item": "minecraft:zombie_head"
     }
   ],
   "result": {

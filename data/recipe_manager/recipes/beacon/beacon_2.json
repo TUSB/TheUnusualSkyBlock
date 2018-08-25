@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:cobblestone"
+      "item": "minecraft:green_shulker_box"
     },
     "S": {
-      "item": "minecraft:light_blue_stained_glass_pane"
+      "item": "minecraft:iron_sword"
     },
     "O": {
-      "item": "minecraft:oak_wood"
+      "item": "minecraft:melon_seeds"
     }
   },
   "result": {

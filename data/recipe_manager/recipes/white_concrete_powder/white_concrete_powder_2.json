@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_concrete"
+      "item": "minecraft:chainmail_leggings"
     },
     {
-      "item": "minecraft:gray_carpet"
+      "item": "minecraft:chest_minecart"
     },
     {
-      "item": "minecraft:iron_nugget"
+      "item": "minecraft:cooked_mutton"
     },
     {
-      "item": "minecraft:oak_fence"
+      "item": "minecraft:diamond_block"
     },
     {
-      "item": "minecraft:red_terracotta"
+      "item": "minecraft:hay_block"
     },
     {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:pufferfish"
     },
     {
-      "item": "minecraft:sponge"
+      "item": "minecraft:purple_stained_glass_pane"
     },
     {
-      "item": "minecraft:wet_sponge"
+      "item": "minecraft:red_sandstone_slab"
     },
     {
-      "item": "minecraft:wheat"
+      "item": "minecraft:wither_skeleton_skull"
     }
   ],
   "result": {

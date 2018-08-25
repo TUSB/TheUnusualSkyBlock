@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_wood"
+      "item": "minecraft:green_shulker_box"
     },
     "X": {
-      "item": "minecraft:white_terracotta"
+      "item": "minecraft:sign"
     }
   },
   "result": {

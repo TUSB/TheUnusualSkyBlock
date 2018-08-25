@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_stairs"
+      "item": "minecraft:orange_shulker_box"
     }
   ],
   "result": {

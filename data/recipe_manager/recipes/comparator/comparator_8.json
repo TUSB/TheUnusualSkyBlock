@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_shulker_box"
+      "item": "minecraft:cyan_carpet"
     },
     "X": {
-      "item": "minecraft:brown_terracotta"
+      "item": "minecraft:prismarine_brick_slab"
     },
     "I": {
-      "item": "minecraft:dead_horn_coral_fan"
+      "item": "minecraft:spruce_leaves"
     }
   },
   "result": {

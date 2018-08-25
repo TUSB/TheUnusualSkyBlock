@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:jungle_leaves"
+      "item": "minecraft:dark_oak_planks"
     }
   ],
   "result": {

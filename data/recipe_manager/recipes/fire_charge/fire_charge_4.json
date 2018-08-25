@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:stripped_birch_wood"
+      "item": "minecraft:dropper"
     },
     {
-      "item": "minecraft:vine"
+      "item": "minecraft:yellow_stained_glass_pane"
     }
   ],
   "result": {

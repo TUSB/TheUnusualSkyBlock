@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_trapdoor"
+      "item": "minecraft:chiseled_quartz_block"
     },
     "X": {
-      "item": "minecraft:brick"
+      "item": "minecraft:cyan_concrete"
     }
   },
   "result": {

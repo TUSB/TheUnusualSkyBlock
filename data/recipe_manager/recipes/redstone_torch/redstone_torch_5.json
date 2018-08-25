@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:bone_block"
+      "item": "minecraft:blaze_powder"
     },
     "#": {
-      "item": "minecraft:leather_chestplate"
+      "item": "minecraft:dried_kelp_block"
     }
   },
   "result": {

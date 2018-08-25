@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:birch_wood"
     },
     "#": {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:dark_oak_boat"
     }
   },
   "result": {

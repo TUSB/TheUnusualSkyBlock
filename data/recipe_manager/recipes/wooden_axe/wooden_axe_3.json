@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:purple_stained_glass_pane"
+      "item": "minecraft:ladder"
     },
     "#": {
-      "item": "minecraft:red_nether_bricks"
+      "item": "minecraft:pumpkin"
     }
   },
   "result": {

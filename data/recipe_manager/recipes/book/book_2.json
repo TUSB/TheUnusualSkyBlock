@@ -2,16 +2,16 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_stained_glass"
+      "item": "minecraft:cookie"
     },
     {
-      "item": "minecraft:diamond_boots"
+      "item": "minecraft:cyan_terracotta"
     },
     {
-      "item": "minecraft:diamond_sword"
+      "item": "minecraft:oxeye_daisy"
     },
     {
-      "item": "minecraft:stone_brick_stairs"
+      "item": "minecraft:tripwire_hook"
     }
   ],
   "result": {

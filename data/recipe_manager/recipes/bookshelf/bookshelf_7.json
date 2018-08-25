@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_leaves"
+      "item": "minecraft:light_gray_dye"
     },
     "X": {
-      "item": "minecraft:fermented_spider_eye"
+      "item": "minecraft:splash_potion"
     }
   },
   "result": {

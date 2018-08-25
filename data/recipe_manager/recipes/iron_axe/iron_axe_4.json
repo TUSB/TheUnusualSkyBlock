@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dead_fire_coral_block"
+      "item": "minecraft:flower_pot"
     },
     "#": {
-      "item": "minecraft:purple_carpet"
+      "item": "minecraft:red_terracotta"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:light_weighted_pressure_plate"
+      "item": "minecraft:golden_shovel"
     },
     "#": {
-      "item": "minecraft:magenta_bed"
+      "item": "minecraft:jack_o_lantern"
     }
   },
   "result": {

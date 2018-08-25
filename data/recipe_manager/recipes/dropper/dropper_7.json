@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_hoe"
+      "item": "minecraft:blue_concrete"
     },
     "R": {
-      "item": "minecraft:rail"
+      "item": "minecraft:light_blue_concrete_powder"
     }
   },
   "result": {

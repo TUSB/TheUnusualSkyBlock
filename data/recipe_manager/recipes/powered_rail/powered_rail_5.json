@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cracked_stone_bricks"
+      "item": "minecraft:brain_coral"
     },
     "#": {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:brick_stairs"
     },
     "R": {
-      "item": "minecraft:iron_nugget"
+      "item": "minecraft:note_block"
     }
   },
   "result": {

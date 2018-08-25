@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:apple"
+      "item": "minecraft:black_stained_glass"
     },
     {
-      "item": "minecraft:birch_trapdoor"
+      "item": "minecraft:coal_ore"
     },
     {
-      "item": "minecraft:cod_bucket"
+      "item": "minecraft:cooked_cod"
     },
     {
-      "item": "minecraft:dried_kelp"
+      "item": "minecraft:iron_hoe"
     },
     {
-      "item": "minecraft:gravel"
+      "item": "minecraft:nether_brick"
     },
     {
-      "item": "minecraft:oak_fence_gate"
+      "item": "minecraft:nether_brick_fence"
     },
     {
-      "item": "minecraft:pink_banner"
+      "item": "minecraft:podzol"
     },
     {
-      "item": "minecraft:purple_concrete_powder"
+      "item": "minecraft:redstone"
     },
     {
-      "item": "minecraft:sticky_piston"
+      "item": "minecraft:tube_coral_block"
     }
   ],
   "result": {

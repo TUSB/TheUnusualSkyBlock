@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:carrot"
+      "item": "minecraft:activator_rail"
     }
   ],
   "result": {

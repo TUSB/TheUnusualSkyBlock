@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:apple"
+      "item": "minecraft:light_blue_terracotta"
     },
     {
-      "item": "minecraft:diamond_axe"
+      "item": "minecraft:potato"
     }
   ],
   "result": {

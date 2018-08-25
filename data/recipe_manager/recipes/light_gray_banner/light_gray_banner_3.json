@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:comparator"
+      "item": "minecraft:black_stained_glass_pane"
     },
     "|": {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:mushroom_stem"
     }
   },
   "result": {

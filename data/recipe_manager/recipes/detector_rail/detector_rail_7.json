@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:green_carpet"
+      "item": "minecraft:cactus"
     },
     "#": {
-      "item": "minecraft:prismarine_crystals"
+      "item": "minecraft:dark_oak_trapdoor"
     },
     "R": {
-      "item": "minecraft:rabbit_stew"
+      "item": "minecraft:oak_sapling"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_fence_gate"
+      "item": "minecraft:item_frame"
     },
     "|": {
-      "item": "minecraft:lime_wool"
+      "item": "minecraft:pink_dye"
     }
   },
   "result": {

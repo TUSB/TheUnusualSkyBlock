@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:red_sandstone_stairs"
+      "item": "minecraft:blue_banner"
     }
   ],
   "result": {

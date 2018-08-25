@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_slab"
+      "item": "minecraft:cyan_wool"
     },
     "|": {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:light_blue_concrete_powder"
     }
   },
   "result": {

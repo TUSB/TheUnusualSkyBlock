@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:fermented_spider_eye"
+      "item": "minecraft:black_terracotta"
     },
     "|": {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:gray_banner"
     }
   },
   "result": {

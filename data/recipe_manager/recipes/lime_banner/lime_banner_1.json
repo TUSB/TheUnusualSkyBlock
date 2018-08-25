@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_carpet"
+      "item": "minecraft:orange_bed"
     },
     "|": {
-      "item": "minecraft:feather"
+      "item": "minecraft:spruce_trapdoor"
     }
   },
   "result": {

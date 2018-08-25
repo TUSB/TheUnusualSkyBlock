@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:fire_coral_block"
+      "item": "minecraft:sticky_piston"
     }
   ],
   "result": {

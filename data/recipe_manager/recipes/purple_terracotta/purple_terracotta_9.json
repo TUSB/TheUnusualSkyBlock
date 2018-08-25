@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:coal"
+      "item": "minecraft:purple_wool"
     },
     "X": {
-      "item": "minecraft:oak_boat"
+      "item": "minecraft:quartz_slab"
     }
   },
   "result": {

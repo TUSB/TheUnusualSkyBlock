@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:clock"
+      "item": "minecraft:acacia_pressure_plate"
     },
     "#": {
-      "item": "minecraft:end_crystal"
+      "item": "minecraft:prismarine_stairs"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chainmail_chestplate"
+      "item": "minecraft:acacia_planks"
     },
     "|": {
-      "item": "minecraft:stone_brick_stairs"
+      "item": "minecraft:chiseled_red_sandstone"
     }
   },
   "result": {

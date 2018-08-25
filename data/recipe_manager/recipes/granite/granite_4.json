@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_wool"
+      "item": "minecraft:end_crystal"
     },
     {
-      "item": "minecraft:cyan_stained_glass_pane"
+      "item": "minecraft:glowstone_dust"
     }
   ],
   "result": {

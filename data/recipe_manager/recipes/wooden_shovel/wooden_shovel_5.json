@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:carrot"
+      "item": "minecraft:cauldron"
     },
     "#": {
-      "item": "minecraft:rose_bush"
+      "item": "minecraft:lime_concrete"
     }
   },
   "result": {

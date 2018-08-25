@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beacon"
+      "item": "minecraft:red_sandstone_stairs"
     },
     {
-      "item": "minecraft:spectral_arrow"
+      "item": "minecraft:salmon"
     }
   ],
   "result": {

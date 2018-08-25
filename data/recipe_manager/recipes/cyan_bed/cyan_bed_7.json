@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:beetroot_soup"
+      "item": "minecraft:rabbit_stew"
     },
     "X": {
-      "item": "minecraft:iron_pickaxe"
+      "item": "minecraft:tripwire_hook"
     }
   },
   "result": {

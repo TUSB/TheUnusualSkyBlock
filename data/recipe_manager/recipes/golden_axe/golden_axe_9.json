@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:coal_ore"
     },
     "#": {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:egg"
     }
   },
   "result": {

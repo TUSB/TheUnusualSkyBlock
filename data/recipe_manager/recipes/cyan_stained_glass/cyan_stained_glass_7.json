@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:leather"
+      "item": "minecraft:armor_stand"
     },
     "X": {
-      "item": "minecraft:wooden_shovel"
+      "item": "minecraft:bone_block"
     }
   },
   "result": {

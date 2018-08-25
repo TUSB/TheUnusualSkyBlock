@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_orchid"
+      "item": "minecraft:chest_minecart"
     },
     "#": {
-      "item": "minecraft:yellow_banner"
+      "item": "minecraft:cooked_beef"
     }
   },
   "result": {

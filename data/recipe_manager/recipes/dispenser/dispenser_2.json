@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_wood"
+      "item": "minecraft:black_concrete"
     },
     "X": {
-      "item": "minecraft:pumpkin_seeds"
+      "item": "minecraft:gray_concrete"
     },
     "R": {
-      "item": "minecraft:stone_sword"
+      "item": "minecraft:tropical_fish"
     }
   },
   "result": {

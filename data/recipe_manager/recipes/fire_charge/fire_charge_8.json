@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_boat"
+      "item": "minecraft:beetroot"
     },
     {
-      "item": "minecraft:rose_red"
+      "item": "minecraft:granite"
     }
   ],
   "result": {

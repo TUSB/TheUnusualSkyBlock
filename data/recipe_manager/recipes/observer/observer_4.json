@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:armor_stand"
+      "item": "minecraft:dried_kelp_block"
     },
     "R": {
-      "item": "minecraft:gray_shulker_box"
+      "item": "minecraft:fire_charge"
     },
     "Q": {
-      "item": "minecraft:orange_bed"
+      "item": "minecraft:spruce_log"
     }
   },
   "result": {

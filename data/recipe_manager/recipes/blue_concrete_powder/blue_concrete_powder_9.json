@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_concrete"
+      "item": "minecraft:birch_pressure_plate"
     },
     {
-      "item": "minecraft:damaged_anvil"
+      "item": "minecraft:gravel"
     },
     {
-      "item": "minecraft:golden_carrot"
+      "item": "minecraft:lapis_ore"
     },
     {
-      "item": "minecraft:gray_wool"
+      "item": "minecraft:orange_terracotta"
     },
     {
-      "item": "minecraft:leather_leggings"
+      "item": "minecraft:red_mushroom_block"
     },
     {
-      "item": "minecraft:magenta_stained_glass"
+      "item": "minecraft:repeater"
     },
     {
-      "item": "minecraft:oak_door"
+      "item": "minecraft:skeleton_skull"
     },
     {
-      "item": "minecraft:purpur_stairs"
+      "item": "minecraft:white_banner"
     },
     {
-      "item": "minecraft:sea_pickle"
+      "item": "minecraft:yellow_bed"
     }
   ],
   "result": {

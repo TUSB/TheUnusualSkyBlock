@@ -7,10 +7,10 @@
   ],
   "key": {
     "O": {
-      "item": "minecraft:redstone_lamp"
+      "item": "minecraft:blue_stained_glass_pane"
     },
     "B": {
-      "item": "minecraft:white_shulker_box"
+      "item": "minecraft:compass"
     }
   },
   "result": {

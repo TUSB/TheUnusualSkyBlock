@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dropper"
+      "item": "minecraft:dead_fire_coral_block"
     },
     "|": {
-      "item": "minecraft:piston"
+      "item": "minecraft:tall_grass"
     }
   },
   "result": {

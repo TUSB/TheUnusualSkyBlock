@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:bone"
+      "item": "minecraft:acacia_fence_gate"
     },
     "B": {
-      "item": "minecraft:fire_coral_block"
+      "item": "minecraft:birch_sapling"
     },
     "E": {
       "item": "minecraft:gold_nugget"
     },
     "C": {
-      "item": "minecraft:golden_shovel"
+      "item": "minecraft:tripwire_hook"
     }
   },
   "result": {

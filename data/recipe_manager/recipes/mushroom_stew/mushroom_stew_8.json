@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_slab"
+      "item": "minecraft:dispenser"
     },
     {
-      "item": "minecraft:gray_banner"
+      "item": "minecraft:jungle_wood"
     },
     {
-      "item": "minecraft:stone_pressure_plate"
+      "item": "minecraft:purple_shulker_box"
     }
   ],
   "result": {

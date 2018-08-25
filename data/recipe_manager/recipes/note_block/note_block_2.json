@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_weighted_pressure_plate"
+      "item": "minecraft:comparator"
     },
     "X": {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:salmon"
     }
   },
   "result": {

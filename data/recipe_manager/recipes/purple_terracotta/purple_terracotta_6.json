@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:orange_terracotta"
+      "item": "minecraft:wooden_sword"
     },
     "X": {
-      "item": "minecraft:spruce_wood"
+      "item": "minecraft:zombie_head"
     }
   },
   "result": {

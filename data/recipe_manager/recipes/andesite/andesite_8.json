@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dirt"
+      "item": "minecraft:cocoa_beans"
     },
     {
-      "item": "minecraft:end_rod"
+      "item": "minecraft:packed_ice"
     }
   ],
   "result": {

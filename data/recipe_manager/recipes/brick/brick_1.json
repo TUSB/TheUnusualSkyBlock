@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:glass_bottle"
+      "item": "minecraft:purple_concrete_powder"
     }
   ],
   "result": {

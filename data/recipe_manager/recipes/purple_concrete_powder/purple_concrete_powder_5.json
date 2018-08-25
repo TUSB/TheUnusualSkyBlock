@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_fence"
+      "item": "minecraft:bone_meal"
     },
     {
-      "item": "minecraft:brick"
+      "item": "minecraft:dark_oak_boat"
     },
     {
-      "item": "minecraft:horn_coral_fan"
+      "item": "minecraft:daylight_detector"
     },
     {
-      "item": "minecraft:light_blue_stained_glass_pane"
+      "item": "minecraft:gray_carpet"
     },
     {
-      "item": "minecraft:light_weighted_pressure_plate"
+      "item": "minecraft:packed_ice"
     },
     {
-      "item": "minecraft:observer"
+      "item": "minecraft:prismarine_crystals"
     },
     {
-      "item": "minecraft:obsidian"
+      "item": "minecraft:pumpkin"
     },
     {
-      "item": "minecraft:rabbit_hide"
+      "item": "minecraft:sponge"
     },
     {
-      "item": "minecraft:torch"
+      "item": "minecraft:white_concrete_powder"
     }
   ],
   "result": {

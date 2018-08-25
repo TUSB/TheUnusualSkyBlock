@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:blue_wool"
+      "item": "minecraft:blue_ice"
     },
     "Q": {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:creeper_head"
     },
     "W": {
-      "item": "minecraft:lime_stained_glass"
+      "item": "minecraft:tropical_fish_bucket"
     }
   },
   "result": {

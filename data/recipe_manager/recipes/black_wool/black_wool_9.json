@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dead_brain_coral_block"
+      "item": "minecraft:magenta_bed"
     },
     {
-      "item": "minecraft:observer"
+      "item": "minecraft:wooden_sword"
     }
   ],
   "result": {

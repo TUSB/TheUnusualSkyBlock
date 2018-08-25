@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_glazed_terracotta"
+      "item": "minecraft:cyan_concrete_powder"
     },
     "X": {
-      "item": "minecraft:book"
+      "item": "minecraft:nether_quartz_ore"
     }
   },
   "result": {

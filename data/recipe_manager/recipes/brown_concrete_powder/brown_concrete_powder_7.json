@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_sapling"
+      "item": "minecraft:bubble_coral_fan"
     },
     {
-      "item": "minecraft:diamond_chestplate"
+      "item": "minecraft:dark_oak_wood"
     },
     {
-      "item": "minecraft:glass_pane"
+      "item": "minecraft:enchanted_book"
     },
     {
-      "item": "minecraft:golden_boots"
+      "item": "minecraft:flint"
     },
     {
-      "item": "minecraft:item_frame"
+      "item": "minecraft:jungle_planks"
     },
     {
-      "item": "minecraft:potion"
+      "item": "minecraft:obsidian"
     },
     {
-      "item": "minecraft:red_shulker_box"
+      "item": "minecraft:red_nether_bricks"
     },
     {
-      "item": "minecraft:salmon_bucket"
+      "item": "minecraft:sponge"
     },
     {
-      "item": "minecraft:spectral_arrow"
+      "item": "minecraft:wither_skeleton_skull"
     }
   ],
   "result": {

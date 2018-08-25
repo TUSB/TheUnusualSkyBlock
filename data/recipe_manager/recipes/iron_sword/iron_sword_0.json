@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_stairs"
+      "item": "minecraft:leather_boots"
     },
     "#": {
-      "item": "minecraft:beef"
+      "item": "minecraft:purple_carpet"
     }
   },
   "result": {

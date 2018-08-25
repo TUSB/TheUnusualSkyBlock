@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:emerald_block"
+      "item": "minecraft:brown_mushroom"
     },
     "X": {
-      "item": "minecraft:light_gray_dye"
+      "item": "minecraft:oak_log"
     }
   },
   "result": {

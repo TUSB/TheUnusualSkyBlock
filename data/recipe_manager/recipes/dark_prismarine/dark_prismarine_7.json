@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:green_terracotta"
+      "item": "minecraft:lingering_potion"
     },
     "I": {
-      "item": "minecraft:lime_concrete_powder"
+      "item": "minecraft:orange_shulker_box"
     }
   },
   "result": {

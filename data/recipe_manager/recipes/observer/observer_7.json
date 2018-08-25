@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:apple"
+      "item": "minecraft:light_blue_concrete"
     },
     "R": {
-      "item": "minecraft:black_stained_glass_pane"
+      "item": "minecraft:salmon"
     },
     "Q": {
-      "item": "minecraft:quartz_stairs"
+      "item": "minecraft:white_carpet"
     }
   },
   "result": {

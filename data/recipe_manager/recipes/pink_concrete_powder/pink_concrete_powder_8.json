@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_concrete"
+      "item": "minecraft:golden_axe"
     },
     {
-      "item": "minecraft:diamond_horse_armor"
+      "item": "minecraft:gray_concrete_powder"
     },
     {
-      "item": "minecraft:golden_hoe"
+      "item": "minecraft:jungle_fence"
     },
     {
-      "item": "minecraft:iron_hoe"
+      "item": "minecraft:leather"
     },
     {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:light_blue_stained_glass"
     },
     {
-      "item": "minecraft:sea_pickle"
+      "item": "minecraft:light_blue_stained_glass_pane"
     },
     {
-      "item": "minecraft:snow"
+      "item": "minecraft:podzol"
     },
     {
-      "item": "minecraft:stone_pressure_plate"
+      "item": "minecraft:stripped_birch_wood"
     },
     {
-      "item": "minecraft:trapped_chest"
+      "item": "minecraft:white_terracotta"
     }
   ],
   "result": {

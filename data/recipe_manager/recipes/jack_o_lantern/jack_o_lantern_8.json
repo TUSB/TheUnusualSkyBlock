@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:chorus_plant"
+      "item": "minecraft:mutton"
     },
     "B": {
-      "item": "minecraft:cobblestone_slab"
+      "item": "minecraft:stripped_spruce_wood"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:light_blue_carpet"
+      "item": "minecraft:black_banner"
     },
     "#": {
-      "item": "minecraft:lily_pad"
+      "item": "minecraft:carved_pumpkin"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:ladder"
+      "item": "minecraft:smooth_quartz"
     },
     "#": {
-      "item": "minecraft:light_gray_shulker_box"
+      "item": "minecraft:tnt_minecart"
     }
   },
   "result": {

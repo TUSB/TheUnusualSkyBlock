@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cod_bucket"
+      "item": "minecraft:dark_oak_fence"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:note_block"
     }
   ],
   "result": {

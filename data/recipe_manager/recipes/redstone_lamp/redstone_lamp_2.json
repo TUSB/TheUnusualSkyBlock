@@ -7,10 +7,10 @@
   ],
   "key": {
     "R": {
-      "item": "minecraft:jungle_wood"
+      "item": "minecraft:cobblestone_slab"
     },
     "G": {
-      "item": "minecraft:red_stained_glass"
+      "item": "minecraft:cyan_wool"
     }
   },
   "result": {

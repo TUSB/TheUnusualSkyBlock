@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_leaves"
+      "item": "minecraft:ender_eye"
     },
     "|": {
-      "item": "minecraft:diamond_chestplate"
+      "item": "minecraft:stripped_dark_oak_wood"
     }
   },
   "result": {

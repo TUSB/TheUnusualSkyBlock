@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:light_gray_carpet"
+      "item": "minecraft:chiseled_stone_bricks"
     },
     "#": {
-      "item": "minecraft:tnt_minecart"
+      "item": "minecraft:ender_chest"
     }
   },
   "result": {

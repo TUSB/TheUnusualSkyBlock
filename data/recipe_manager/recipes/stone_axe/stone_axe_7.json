@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cobweb"
+      "item": "minecraft:ender_eye"
     },
     "#": {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:hopper_minecart"
     }
   },
   "result": {

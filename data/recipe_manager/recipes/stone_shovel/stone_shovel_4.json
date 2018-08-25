@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:leather_boots"
+      "item": "minecraft:golden_shovel"
     },
     "#": {
-      "item": "minecraft:stone_sword"
+      "item": "minecraft:gray_carpet"
     }
   },
   "result": {

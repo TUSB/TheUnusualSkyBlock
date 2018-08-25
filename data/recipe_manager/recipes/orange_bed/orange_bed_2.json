@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:brick_stairs"
     },
     "X": {
-      "item": "minecraft:grass_block"
+      "item": "minecraft:lime_concrete"
     }
   },
   "result": {

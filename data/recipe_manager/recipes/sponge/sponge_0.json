@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lime_concrete"
+      "item": "minecraft:black_wool"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "N": {
-      "item": "minecraft:green_concrete_powder"
+      "item": "minecraft:blue_stained_glass_pane"
     },
     "W": {
-      "item": "minecraft:oak_wood"
+      "item": "minecraft:stone_brick_slab"
     }
   },
   "result": {

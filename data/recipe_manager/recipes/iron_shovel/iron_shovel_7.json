@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:furnace_minecart"
+      "item": "minecraft:fermented_spider_eye"
     },
     "#": {
-      "item": "minecraft:orange_tulip"
+      "item": "minecraft:ink_sac"
     }
   },
   "result": {

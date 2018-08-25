@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_concrete_powder"
+      "item": "minecraft:bow"
     },
     "X": {
-      "item": "minecraft:smooth_quartz"
+      "item": "minecraft:tnt_minecart"
     }
   },
   "result": {

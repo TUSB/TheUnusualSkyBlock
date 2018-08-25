@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:compass"
+      "item": "minecraft:brown_mushroom_block"
     },
     "|": {
-      "item": "minecraft:light_blue_concrete"
+      "item": "minecraft:fishing_rod"
     }
   },
   "result": {

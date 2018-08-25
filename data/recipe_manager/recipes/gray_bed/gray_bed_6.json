@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chest"
+      "item": "minecraft:gray_glazed_terracotta"
     },
     "X": {
-      "item": "minecraft:dead_tube_coral_fan"
+      "item": "minecraft:string"
     }
   },
   "result": {

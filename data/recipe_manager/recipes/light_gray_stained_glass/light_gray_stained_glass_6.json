@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_planks"
+      "item": "minecraft:dark_oak_fence_gate"
     },
     "X": {
-      "item": "minecraft:light_gray_dye"
+      "item": "minecraft:stone"
     }
   },
   "result": {

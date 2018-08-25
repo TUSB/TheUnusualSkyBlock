@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diorite"
+      "item": "minecraft:coal_block"
     },
     "|": {
-      "item": "minecraft:lime_dye"
+      "item": "minecraft:light_blue_concrete"
     }
   },
   "result": {

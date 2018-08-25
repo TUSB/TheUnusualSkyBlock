@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:green_bed"
+      "item": "minecraft:painting"
     },
     "#": {
-      "item": "minecraft:leather_leggings"
+      "item": "minecraft:potion"
     }
   },
   "result": {

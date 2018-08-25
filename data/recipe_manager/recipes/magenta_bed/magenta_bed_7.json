@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:flower_pot"
+      "item": "minecraft:blue_stained_glass"
     },
     "X": {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:dispenser"
     }
   },
   "result": {

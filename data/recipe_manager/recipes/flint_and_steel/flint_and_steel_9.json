@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dandelion_yellow"
+      "item": "minecraft:cooked_rabbit"
     },
     {
-      "item": "minecraft:red_banner"
+      "item": "minecraft:iron_ore"
     }
   ],
   "result": {

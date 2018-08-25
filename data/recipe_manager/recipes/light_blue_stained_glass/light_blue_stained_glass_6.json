@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:glass_pane"
+      "item": "minecraft:dead_fire_coral_block"
     },
     "X": {
-      "item": "minecraft:tube_coral"
+      "item": "minecraft:poppy"
     }
   },
   "result": {

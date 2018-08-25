@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cut_red_sandstone"
+      "item": "minecraft:birch_sapling"
     },
     {
-      "item": "minecraft:flower_pot"
+      "item": "minecraft:golden_horse_armor"
     }
   ],
   "result": {

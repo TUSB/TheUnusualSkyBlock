@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:orange_carpet"
+      "item": "minecraft:lime_carpet"
     },
     "#": {
-      "item": "minecraft:trident"
+      "item": "minecraft:red_sandstone"
     }
   },
   "result": {

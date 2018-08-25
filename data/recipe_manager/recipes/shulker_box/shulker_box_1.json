@@ -7,10 +7,10 @@
   ],
   "key": {
     "-": {
-      "item": "minecraft:glass"
+      "item": "minecraft:magenta_shulker_box"
     },
     "#": {
-      "item": "minecraft:prismarine"
+      "item": "minecraft:purple_shulker_box"
     }
   },
   "result": {

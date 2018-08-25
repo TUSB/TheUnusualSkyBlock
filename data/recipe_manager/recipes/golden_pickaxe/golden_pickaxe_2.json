@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:shield"
+      "item": "minecraft:fire_coral"
     },
     "#": {
-      "item": "minecraft:spruce_boat"
+      "item": "minecraft:orange_bed"
     }
   },
   "result": {

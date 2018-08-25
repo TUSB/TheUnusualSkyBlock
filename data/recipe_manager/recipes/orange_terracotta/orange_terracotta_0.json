@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:armor_stand"
+      "item": "minecraft:acacia_slab"
     },
     "X": {
-      "item": "minecraft:prismarine_shard"
+      "item": "minecraft:cyan_banner"
     }
   },
   "result": {

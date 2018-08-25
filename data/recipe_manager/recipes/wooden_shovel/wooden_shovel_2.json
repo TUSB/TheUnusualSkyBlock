@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:green_glazed_terracotta"
+      "item": "minecraft:white_terracotta"
     },
     "#": {
-      "item": "minecraft:quartz"
+      "item": "minecraft:writable_book"
     }
   },
   "result": {

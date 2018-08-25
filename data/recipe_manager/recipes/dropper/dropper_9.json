@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:emerald"
+      "item": "minecraft:blaze_powder"
     },
     "R": {
-      "item": "minecraft:wooden_hoe"
+      "item": "minecraft:glowstone"
     }
   },
   "result": {

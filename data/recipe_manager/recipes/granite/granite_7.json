@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chiseled_sandstone"
+      "item": "minecraft:lime_terracotta"
     },
     {
-      "item": "minecraft:rose_red"
+      "item": "minecraft:melon"
     }
   ],
   "result": {

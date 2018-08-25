@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:chest_minecart"
+      "item": "minecraft:chainmail_boots"
     },
     "#": {
-      "item": "minecraft:oak_fence"
+      "item": "minecraft:dried_kelp_block"
     }
   },
   "result": {

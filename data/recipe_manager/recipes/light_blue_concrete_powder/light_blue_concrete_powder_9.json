@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bookshelf"
+      "item": "minecraft:beetroot_seeds"
     },
     {
-      "item": "minecraft:cobblestone"
+      "item": "minecraft:birch_fence"
     },
     {
-      "item": "minecraft:cyan_terracotta"
+      "item": "minecraft:dark_prismarine"
     },
     {
-      "item": "minecraft:enchanted_book"
+      "item": "minecraft:flower_pot"
     },
     {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:jungle_boat"
     },
     {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:orange_stained_glass_pane"
     },
     {
-      "item": "minecraft:magenta_concrete_powder"
+      "item": "minecraft:quartz_stairs"
     },
     {
-      "item": "minecraft:snowball"
+      "item": "minecraft:salmon_bucket"
     },
     {
-      "item": "minecraft:tripwire_hook"
+      "item": "minecraft:stone_axe"
     }
   ],
   "result": {

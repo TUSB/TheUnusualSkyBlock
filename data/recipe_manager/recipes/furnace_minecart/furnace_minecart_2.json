@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:pufferfish"
+      "item": "minecraft:green_bed"
     },
     "B": {
-      "item": "minecraft:terracotta"
+      "item": "minecraft:green_concrete"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:prismarine_bricks"
+      "item": "minecraft:cauldron"
     },
     "#": {
-      "item": "minecraft:red_tulip"
+      "item": "minecraft:purpur_pillar"
     }
   },
   "result": {

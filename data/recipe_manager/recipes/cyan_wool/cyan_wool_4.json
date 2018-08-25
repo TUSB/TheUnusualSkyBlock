@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cake"
+      "item": "minecraft:purple_carpet"
     },
     {
-      "item": "minecraft:diamond_sword"
+      "item": "minecraft:red_tulip"
     }
   ],
   "result": {

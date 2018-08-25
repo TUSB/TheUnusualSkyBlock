@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:pink_stained_glass_pane"
+      "item": "minecraft:acacia_door"
     },
     "X": {
-      "item": "minecraft:sunflower"
+      "item": "minecraft:jukebox"
     }
   },
   "result": {

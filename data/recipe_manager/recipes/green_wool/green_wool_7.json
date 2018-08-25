@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_concrete"
+      "item": "minecraft:beacon"
     },
     {
-      "item": "minecraft:splash_potion"
+      "item": "minecraft:player_head"
     }
   ],
   "result": {

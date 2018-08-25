@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_log"
+      "item": "minecraft:golden_apple"
     },
     "X": {
-      "item": "minecraft:dandelion_yellow"
+      "item": "minecraft:shears"
     },
     "I": {
-      "item": "minecraft:dead_bubble_coral_block"
+      "item": "minecraft:spruce_sapling"
     }
   },
   "result": {

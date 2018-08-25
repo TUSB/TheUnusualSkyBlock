@@ -2,16 +2,16 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_button"
+      "item": "minecraft:brain_coral_fan"
     },
     {
-      "item": "minecraft:iron_axe"
+      "item": "minecraft:cyan_banner"
     },
     {
-      "item": "minecraft:oak_log"
+      "item": "minecraft:lever"
     },
     {
-      "item": "minecraft:rabbit_stew"
+      "item": "minecraft:oak_pressure_plate"
     }
   ],
   "result": {

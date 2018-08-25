@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:light_blue_banner"
+      "item": "minecraft:iron_block"
     },
     "#": {
-      "item": "minecraft:pink_dye"
+      "item": "minecraft:vine"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chiseled_sandstone"
+      "item": "minecraft:light_gray_bed"
     },
     "|": {
-      "item": "minecraft:red_bed"
+      "item": "minecraft:pumpkin_pie"
     }
   },
   "result": {

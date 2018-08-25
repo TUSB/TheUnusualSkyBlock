@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:gray_concrete_powder"
+      "item": "minecraft:birch_leaves"
     },
     "#": {
-      "item": "minecraft:skeleton_skull"
+      "item": "minecraft:chainmail_boots"
     }
   },
   "result": {

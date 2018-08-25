@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:ender_chest"
+      "item": "minecraft:hay_block"
     },
     "|": {
-      "item": "minecraft:magenta_terracotta"
+      "item": "minecraft:spruce_fence"
     }
   },
   "result": {

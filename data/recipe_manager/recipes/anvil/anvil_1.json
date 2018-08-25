@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:activator_rail"
+      "item": "minecraft:gray_dye"
     },
     "i": {
-      "item": "minecraft:armor_stand"
+      "item": "minecraft:magma_cream"
     }
   },
   "result": {

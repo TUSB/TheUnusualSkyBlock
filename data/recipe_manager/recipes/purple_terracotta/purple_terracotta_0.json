@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:map"
+      "item": "minecraft:light_gray_stained_glass"
     },
     "X": {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:smooth_quartz"
     }
   },
   "result": {

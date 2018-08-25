@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cobblestone"
+      "item": "minecraft:acacia_fence"
     },
     {
-      "item": "minecraft:iron_helmet"
+      "item": "minecraft:black_banner"
     },
     {
-      "item": "minecraft:jungle_sapling"
+      "item": "minecraft:brain_coral_block"
     },
     {
-      "item": "minecraft:nether_brick_slab"
+      "item": "minecraft:golden_leggings"
     },
     {
-      "item": "minecraft:oak_leaves"
+      "item": "minecraft:red_carpet"
     },
     {
-      "item": "minecraft:red_tulip"
+      "item": "minecraft:red_terracotta"
     },
     {
-      "item": "minecraft:tipped_arrow"
+      "item": "minecraft:snowball"
     },
     {
-      "item": "minecraft:white_carpet"
+      "item": "minecraft:spruce_log"
     },
     {
-      "item": "minecraft:yellow_stained_glass_pane"
+      "item": "minecraft:sunflower"
     }
   ],
   "result": {

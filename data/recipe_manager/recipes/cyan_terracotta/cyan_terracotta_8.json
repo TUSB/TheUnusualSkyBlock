@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_blue_wool"
+      "item": "minecraft:written_book"
     },
     "X": {
-      "item": "minecraft:yellow_wool"
+      "item": "minecraft:zombie_head"
     }
   },
   "result": {

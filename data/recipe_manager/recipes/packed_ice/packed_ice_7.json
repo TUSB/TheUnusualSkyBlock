@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brick_slab"
+      "item": "minecraft:bubble_coral_block"
     },
     {
-      "item": "minecraft:creeper_head"
+      "item": "minecraft:cyan_stained_glass_pane"
     },
     {
-      "item": "minecraft:cyan_shulker_box"
+      "item": "minecraft:melon"
     },
     {
-      "item": "minecraft:golden_axe"
+      "item": "minecraft:oak_planks"
     },
     {
-      "item": "minecraft:green_bed"
+      "item": "minecraft:pink_bed"
     },
     {
-      "item": "minecraft:leather_leggings"
+      "item": "minecraft:polished_diorite"
     },
     {
-      "item": "minecraft:magma_cream"
+      "item": "minecraft:red_carpet"
     },
     {
-      "item": "minecraft:tnt"
+      "item": "minecraft:rose_red"
     },
     {
-      "item": "minecraft:wooden_hoe"
+      "item": "minecraft:stripped_jungle_wood"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "~": {
-      "item": "minecraft:snow"
+      "item": "minecraft:turtle_egg"
     },
     "O": {
-      "item": "minecraft:stone_brick_slab"
+      "item": "minecraft:white_concrete"
     }
   },
   "result": {

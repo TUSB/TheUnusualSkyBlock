@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_shulker_box"
+      "item": "minecraft:coarse_dirt"
     },
     "X": {
-      "item": "minecraft:redstone_block"
+      "item": "minecraft:melon"
     }
   },
   "result": {

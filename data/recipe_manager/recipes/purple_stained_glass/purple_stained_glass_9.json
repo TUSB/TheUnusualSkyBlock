@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:pink_shulker_box"
+      "item": "minecraft:stone_brick_slab"
     },
     "X": {
-      "item": "minecraft:rabbit"
+      "item": "minecraft:stone_hoe"
     }
   },
   "result": {

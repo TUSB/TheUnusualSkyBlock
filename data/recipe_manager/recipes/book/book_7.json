@@ -2,16 +2,16 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:green_bed"
+      "item": "minecraft:black_concrete_powder"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:cracked_stone_bricks"
     },
     {
-      "item": "minecraft:purpur_pillar"
+      "item": "minecraft:dirt"
     },
     {
-      "item": "minecraft:sunflower"
+      "item": "minecraft:yellow_shulker_box"
     }
   ],
   "result": {

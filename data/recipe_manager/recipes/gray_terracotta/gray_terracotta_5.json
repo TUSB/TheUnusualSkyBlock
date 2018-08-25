@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_pressure_plate"
+      "item": "minecraft:porkchop"
     },
     "X": {
-      "item": "minecraft:stick"
+      "item": "minecraft:torch"
     }
   },
   "result": {

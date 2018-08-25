@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bricks"
+      "item": "minecraft:feather"
     },
     "X": {
-      "item": "minecraft:stripped_spruce_wood"
+      "item": "minecraft:water_bucket"
     }
   },
   "result": {

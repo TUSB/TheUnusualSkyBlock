@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:carrot"
+      "item": "minecraft:cooked_beef"
     },
     "B": {
-      "item": "minecraft:glowstone"
+      "item": "minecraft:diamond_leggings"
     }
   },
   "result": {

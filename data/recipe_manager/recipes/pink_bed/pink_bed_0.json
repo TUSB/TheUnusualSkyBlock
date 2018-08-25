@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lime_carpet"
+      "item": "minecraft:brick"
     },
     "X": {
-      "item": "minecraft:mushroom_stew"
+      "item": "minecraft:chiseled_quartz_block"
     }
   },
   "result": {

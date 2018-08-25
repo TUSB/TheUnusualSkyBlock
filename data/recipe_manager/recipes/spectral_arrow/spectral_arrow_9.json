@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:furnace_minecart"
     },
     "X": {
-      "item": "minecraft:saddle"
+      "item": "minecraft:light_blue_concrete"
     }
   },
   "result": {

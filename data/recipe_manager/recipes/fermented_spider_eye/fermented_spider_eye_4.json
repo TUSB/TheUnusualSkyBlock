@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diamond"
+      "item": "minecraft:cookie"
     },
     {
-      "item": "minecraft:quartz_stairs"
+      "item": "minecraft:end_rod"
     },
     {
-      "item": "minecraft:wooden_hoe"
+      "item": "minecraft:stripped_jungle_wood"
     }
   ],
   "result": {

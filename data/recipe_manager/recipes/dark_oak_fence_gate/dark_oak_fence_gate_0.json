@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_concrete_powder"
+      "item": "minecraft:blue_banner"
     },
     "W": {
-      "item": "minecraft:magenta_dye"
+      "item": "minecraft:sand"
     }
   },
   "result": {

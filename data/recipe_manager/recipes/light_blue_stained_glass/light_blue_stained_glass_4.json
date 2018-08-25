@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cut_sandstone"
+      "item": "minecraft:prismarine_brick_slab"
     },
     "X": {
-      "item": "minecraft:stone_sword"
+      "item": "minecraft:red_mushroom_block"
     }
   },
   "result": {

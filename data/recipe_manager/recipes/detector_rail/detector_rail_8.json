@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brown_mushroom_block"
+      "item": "minecraft:beetroot_soup"
     },
     "#": {
-      "item": "minecraft:purple_carpet"
+      "item": "minecraft:light_gray_dye"
     },
     "R": {
-      "item": "minecraft:stripped_oak_wood"
+      "item": "minecraft:nether_bricks"
     }
   },
   "result": {

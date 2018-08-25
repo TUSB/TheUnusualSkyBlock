@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_door"
+      "item": "minecraft:podzol"
     },
     "X": {
-      "item": "minecraft:polished_andesite"
+      "item": "minecraft:stripped_oak_log"
     }
   },
   "result": {

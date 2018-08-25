@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_leaves"
+      "item": "minecraft:kelp"
     },
     "|": {
-      "item": "minecraft:blue_ice"
+      "item": "minecraft:poisonous_potato"
     }
   },
   "result": {

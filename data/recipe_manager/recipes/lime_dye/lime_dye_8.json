@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:golden_apple"
+      "item": "minecraft:polished_diorite"
     },
     {
-      "item": "minecraft:orange_dye"
+      "item": "minecraft:tnt_minecart"
     }
   ],
   "result": {

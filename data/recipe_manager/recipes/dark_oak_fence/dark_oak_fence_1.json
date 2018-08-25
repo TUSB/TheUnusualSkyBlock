@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:oak_trapdoor"
+      "item": "minecraft:stripped_dark_oak_log"
     },
     "#": {
-      "item": "minecraft:stone_bricks"
+      "item": "minecraft:tropical_fish_bucket"
     }
   },
   "result": {

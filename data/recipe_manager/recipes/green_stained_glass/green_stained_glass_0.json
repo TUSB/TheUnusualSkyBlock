@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_leaves"
+      "item": "minecraft:enchanting_table"
     },
     "X": {
-      "item": "minecraft:light_blue_concrete"
+      "item": "minecraft:stripped_dark_oak_log"
     }
   },
   "result": {

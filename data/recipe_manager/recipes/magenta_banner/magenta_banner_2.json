@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_blue_glazed_terracotta"
+      "item": "minecraft:chest_minecart"
     },
     "|": {
-      "item": "minecraft:red_stained_glass_pane"
+      "item": "minecraft:wooden_pickaxe"
     }
   },
   "result": {

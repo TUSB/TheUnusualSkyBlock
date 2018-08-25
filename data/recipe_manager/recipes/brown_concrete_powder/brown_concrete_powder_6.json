@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cooked_cod"
+      "item": "minecraft:birch_fence_gate"
     },
     {
-      "item": "minecraft:cooked_rabbit"
+      "item": "minecraft:fishing_rod"
     },
     {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:light_blue_glazed_terracotta"
     },
     {
-      "item": "minecraft:glass_pane"
+      "item": "minecraft:light_gray_stained_glass"
     },
     {
-      "item": "minecraft:gray_dye"
+      "item": "minecraft:lime_banner"
     },
     {
-      "item": "minecraft:magenta_concrete_powder"
+      "item": "minecraft:magenta_dye"
     },
     {
-      "item": "minecraft:smooth_stone"
+      "item": "minecraft:orange_concrete_powder"
     },
     {
-      "item": "minecraft:snow"
+      "item": "minecraft:stripped_birch_log"
     },
     {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "item": "minecraft:wooden_hoe"
     }
   ],
   "result": {

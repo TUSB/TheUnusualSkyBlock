@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:prismarine_brick_stairs"
+      "item": "minecraft:bucket"
     },
     "X": {
-      "item": "minecraft:white_concrete"
+      "item": "minecraft:stripped_dark_oak_wood"
     }
   },
   "result": {

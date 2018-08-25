@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:powered_rail"
+      "item": "minecraft:magenta_concrete"
     },
     "X": {
-      "item": "minecraft:torch"
+      "item": "minecraft:magenta_terracotta"
     }
   },
   "result": {

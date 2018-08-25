@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lime_stained_glass_pane"
+      "item": "minecraft:beacon"
     },
     "X": {
-      "item": "minecraft:stripped_acacia_wood"
+      "item": "minecraft:chest_minecart"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:hopper_minecart"
+      "item": "minecraft:flint_and_steel"
     },
     "X": {
-      "item": "minecraft:spruce_door"
+      "item": "minecraft:nether_brick_fence"
     }
   },
   "result": {

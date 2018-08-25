@@ -7,10 +7,10 @@
   ],
   "key": {
     "O": {
-      "item": "minecraft:melon_seeds"
+      "item": "minecraft:cobblestone_stairs"
     },
     "B": {
-      "item": "minecraft:redstone_lamp"
+      "item": "minecraft:prismarine_slab"
     }
   },
   "result": {

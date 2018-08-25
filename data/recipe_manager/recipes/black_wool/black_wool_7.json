@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:emerald"
+      "item": "minecraft:pink_carpet"
     },
     {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:potato"
     }
   ],
   "result": {

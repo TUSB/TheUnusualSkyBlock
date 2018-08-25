@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:golden_chestplate"
+      "item": "minecraft:light_blue_concrete_powder"
     },
     {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:mossy_cobblestone"
     }
   ],
   "result": {

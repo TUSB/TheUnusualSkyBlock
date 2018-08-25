@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:ender_pearl"
+      "item": "minecraft:diamond_pickaxe"
     }
   ],
   "result": {

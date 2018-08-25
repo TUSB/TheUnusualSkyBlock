@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:enchanting_table"
+      "item": "minecraft:ladder"
     },
     {
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:red_sandstone_stairs"
     }
   ],
   "result": {

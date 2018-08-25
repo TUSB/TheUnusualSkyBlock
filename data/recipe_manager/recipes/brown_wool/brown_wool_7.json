@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:packed_ice"
+      "item": "minecraft:dandelion"
     },
     {
-      "item": "minecraft:repeater"
+      "item": "minecraft:orange_carpet"
     }
   ],
   "result": {

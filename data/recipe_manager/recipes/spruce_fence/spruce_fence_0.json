@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:cut_red_sandstone"
+      "item": "minecraft:gray_carpet"
     },
     "#": {
-      "item": "minecraft:pink_bed"
+      "item": "minecraft:gray_concrete_powder"
     }
   },
   "result": {

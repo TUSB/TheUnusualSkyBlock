@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cocoa_beans"
+      "item": "minecraft:blue_wool"
     },
     {
-      "item": "minecraft:golden_chestplate"
+      "item": "minecraft:cauldron"
     },
     {
-      "item": "minecraft:light_blue_wool"
+      "item": "minecraft:dark_oak_sapling"
     },
     {
-      "item": "minecraft:nether_brick_stairs"
+      "item": "minecraft:dark_prismarine_stairs"
     },
     {
-      "item": "minecraft:oak_trapdoor"
+      "item": "minecraft:magenta_shulker_box"
     },
     {
-      "item": "minecraft:pink_tulip"
+      "item": "minecraft:nether_brick"
     },
     {
-      "item": "minecraft:player_head"
+      "item": "minecraft:oak_boat"
     },
     {
-      "item": "minecraft:pufferfish"
+      "item": "minecraft:purple_concrete_powder"
     },
     {
-      "item": "minecraft:purple_dye"
+      "item": "minecraft:stone_sword"
     }
   ],
   "result": {

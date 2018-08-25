@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_oak_button"
+      "item": "minecraft:orange_terracotta"
     },
     "#": {
-      "item": "minecraft:tropical_fish_bucket"
+      "item": "minecraft:redstone_block"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_fence"
+      "item": "minecraft:chainmail_chestplate"
     },
     "X": {
-      "item": "minecraft:white_concrete"
+      "item": "minecraft:purple_concrete"
     }
   },
   "result": {

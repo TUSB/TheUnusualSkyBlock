@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:bucket"
+      "item": "minecraft:apple"
     },
     "#": {
-      "item": "minecraft:red_sandstone"
+      "item": "minecraft:chainmail_boots"
     },
     "R": {
-      "item": "minecraft:white_tulip"
+      "item": "minecraft:chiseled_red_sandstone"
     }
   },
   "result": {

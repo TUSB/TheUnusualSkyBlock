@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:porkchop"
+      "item": "minecraft:blue_terracotta"
     },
     "|": {
-      "item": "minecraft:prismarine_stairs"
+      "item": "minecraft:hopper_minecart"
     }
   },
   "result": {

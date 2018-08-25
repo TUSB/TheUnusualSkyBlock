@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_slab"
+      "item": "minecraft:black_banner"
     },
     {
-      "item": "minecraft:detector_rail"
+      "item": "minecraft:green_banner"
     }
   ],
   "result": {

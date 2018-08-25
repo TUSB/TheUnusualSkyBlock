@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_terracotta"
+      "item": "minecraft:beacon"
     },
     "X": {
-      "item": "minecraft:splash_potion"
+      "item": "minecraft:pink_stained_glass"
     }
   },
   "result": {

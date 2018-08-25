@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:player_head"
     },
     "X": {
-      "item": "minecraft:purple_banner"
+      "item": "minecraft:purpur_block"
     }
   },
   "result": {

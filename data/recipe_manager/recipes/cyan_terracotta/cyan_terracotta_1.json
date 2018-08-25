@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bone_meal"
+      "item": "minecraft:cauldron"
     },
     "X": {
-      "item": "minecraft:fishing_rod"
+      "item": "minecraft:writable_book"
     }
   },
   "result": {

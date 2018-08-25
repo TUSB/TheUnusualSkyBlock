@@ -10,13 +10,13 @@
       "item": "minecraft:bone_block"
     },
     "#": {
-      "item": "minecraft:magenta_dye"
+      "item": "minecraft:lilac"
     },
     "X": {
-      "item": "minecraft:white_stained_glass"
+      "item": "minecraft:nether_wart_block"
     },
     "R": {
-      "item": "minecraft:yellow_banner"
+      "item": "minecraft:purpur_block"
     }
   },
   "result": {

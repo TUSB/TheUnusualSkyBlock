@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chiseled_sandstone"
+      "item": "minecraft:blue_concrete_powder"
     },
     {
-      "item": "minecraft:potato"
+      "item": "minecraft:jungle_leaves"
     }
   ],
   "result": {

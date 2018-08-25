@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cake"
+      "item": "minecraft:dark_oak_log"
     },
     "#": {
-      "item": "minecraft:horn_coral_block"
+      "item": "minecraft:glass"
     }
   },
   "result": {

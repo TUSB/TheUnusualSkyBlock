@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cooked_porkchop"
+      "item": "minecraft:light_gray_concrete"
     },
     {
-      "item": "minecraft:turtle_egg"
+      "item": "minecraft:magenta_concrete"
     }
   ],
   "result": {

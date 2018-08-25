@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brain_coral_block"
+      "item": "minecraft:enchanting_table"
     },
     "#": {
-      "item": "minecraft:orange_wool"
+      "item": "minecraft:golden_shovel"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_prismarine_stairs"
+      "item": "minecraft:pink_banner"
     },
     "#": {
-      "item": "minecraft:pink_bed"
+      "item": "minecraft:red_bed"
     }
   },
   "result": {

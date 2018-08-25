@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:red_shulker_box"
+      "item": "minecraft:dandelion"
     },
     {
-      "item": "minecraft:sandstone"
+      "item": "minecraft:stripped_birch_wood"
     }
   ],
   "result": {

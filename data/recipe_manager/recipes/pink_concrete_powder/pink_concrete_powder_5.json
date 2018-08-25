@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_trapdoor"
+      "item": "minecraft:bone_block"
     },
     {
-      "item": "minecraft:activator_rail"
+      "item": "minecraft:brain_coral_block"
     },
     {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:chainmail_chestplate"
     },
     {
-      "item": "minecraft:chiseled_sandstone"
+      "item": "minecraft:cooked_chicken"
     },
     {
-      "item": "minecraft:dark_oak_wood"
+      "item": "minecraft:enchanted_book"
     },
     {
-      "item": "minecraft:ender_eye"
+      "item": "minecraft:light_gray_stained_glass_pane"
     },
     {
-      "item": "minecraft:light_blue_stained_glass_pane"
+      "item": "minecraft:orange_shulker_box"
     },
     {
-      "item": "minecraft:snow"
+      "item": "minecraft:red_mushroom_block"
     },
     {
-      "item": "minecraft:soul_sand"
+      "item": "minecraft:torch"
     }
   ],
   "result": {

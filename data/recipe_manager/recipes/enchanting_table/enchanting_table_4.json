@@ -7,13 +7,13 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:bowl"
+      "item": "minecraft:ice"
     },
     "D": {
-      "item": "minecraft:cyan_banner"
+      "item": "minecraft:melon_seeds"
     },
     "#": {
-      "item": "minecraft:green_carpet"
+      "item": "minecraft:orange_tulip"
     }
   },
   "result": {

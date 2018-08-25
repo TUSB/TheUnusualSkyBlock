@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dandelion"
+      "item": "minecraft:filled_map"
     },
     "X": {
-      "item": "minecraft:jungle_log"
+      "item": "minecraft:string"
     }
   },
   "result": {

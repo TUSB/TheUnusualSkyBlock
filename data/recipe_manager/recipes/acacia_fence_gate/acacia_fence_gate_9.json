@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_stained_glass_pane"
+      "item": "minecraft:light_blue_stained_glass_pane"
     },
     "W": {
-      "item": "minecraft:red_mushroom_block"
+      "item": "minecraft:prismarine_stairs"
     }
   },
   "result": {

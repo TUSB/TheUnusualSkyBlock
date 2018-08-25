@@ -7,10 +7,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:gray_bed"
+      "item": "minecraft:acacia_button"
     },
     "o": {
-      "item": "minecraft:stripped_jungle_wood"
+      "item": "minecraft:magenta_glazed_terracotta"
     }
   },
   "result": {

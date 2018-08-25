@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:iron_pickaxe"
     },
     "X": {
-      "item": "minecraft:diamond_ore"
+      "item": "minecraft:yellow_glazed_terracotta"
     }
   },
   "result": {

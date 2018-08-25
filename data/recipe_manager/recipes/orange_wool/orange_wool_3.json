@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:daylight_detector"
+      "item": "minecraft:armor_stand"
     },
     {
-      "item": "minecraft:ladder"
+      "item": "minecraft:dragon_head"
     }
   ],
   "result": {

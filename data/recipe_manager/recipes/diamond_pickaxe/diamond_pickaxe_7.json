@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:seagrass"
+      "item": "minecraft:lime_terracotta"
     },
     "#": {
-      "item": "minecraft:splash_potion"
+      "item": "minecraft:player_head"
     }
   },
   "result": {

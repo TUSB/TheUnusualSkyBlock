@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:lime_concrete"
+      "item": "minecraft:black_concrete"
     },
     "S": {
-      "item": "minecraft:rose_bush"
+      "item": "minecraft:light_blue_glazed_terracotta"
     },
     "#": {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:purple_bed"
     }
   },
   "result": {

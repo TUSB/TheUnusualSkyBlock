@@ -7,10 +7,10 @@
   ],
   "key": {
     "-": {
-      "item": "minecraft:daylight_detector"
+      "item": "minecraft:acacia_log"
     },
     "#": {
-      "item": "minecraft:tropical_fish"
+      "item": "minecraft:cyan_terracotta"
     }
   },
   "result": {

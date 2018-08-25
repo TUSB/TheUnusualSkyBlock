@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:chiseled_sandstone"
+      "item": "minecraft:gray_carpet"
     },
     "#": {
-      "item": "minecraft:rose_bush"
+      "item": "minecraft:purpur_stairs"
     }
   },
   "result": {

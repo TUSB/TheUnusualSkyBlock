@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:heart_of_the_sea"
+      "item": "minecraft:blaze_powder"
     },
     {
-      "item": "minecraft:light_blue_carpet"
+      "item": "minecraft:stripped_oak_wood"
     }
   ],
   "result": {

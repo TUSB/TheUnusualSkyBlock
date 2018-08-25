@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:bricks"
+      "item": "minecraft:chiseled_red_sandstone"
     },
     "#": {
-      "item": "minecraft:gray_glazed_terracotta"
+      "item": "minecraft:tall_grass"
     }
   },
   "result": {

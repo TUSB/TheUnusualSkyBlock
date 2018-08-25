@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_door"
+      "item": "minecraft:glass_bottle"
     },
     "#": {
-      "item": "minecraft:stripped_spruce_log"
+      "item": "minecraft:light_weighted_pressure_plate"
     }
   },
   "result": {

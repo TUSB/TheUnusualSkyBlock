@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_stained_glass_pane"
+      "item": "minecraft:brewing_stand"
     },
     {
-      "item": "minecraft:dropper"
-    },
-    {
-      "item": "minecraft:golden_boots"
+      "item": "minecraft:chorus_fruit"
     },
     {
       "item": "minecraft:grass_block"
     },
     {
-      "item": "minecraft:jungle_stairs"
+      "item": "minecraft:light_gray_concrete_powder"
     },
     {
-      "item": "minecraft:oak_leaves"
+      "item": "minecraft:light_gray_wool"
     },
     {
-      "item": "minecraft:phantom_membrane"
+      "item": "minecraft:magenta_terracotta"
     },
     {
-      "item": "minecraft:wooden_hoe"
+      "item": "minecraft:powered_rail"
     },
     {
-      "item": "minecraft:yellow_glazed_terracotta"
+      "item": "minecraft:purple_wool"
+    },
+    {
+      "item": "minecraft:tall_grass"
     }
   ],
   "result": {

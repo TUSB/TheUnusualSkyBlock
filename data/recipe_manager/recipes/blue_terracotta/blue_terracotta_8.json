@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bricks"
+      "item": "minecraft:black_stained_glass"
     },
     "X": {
-      "item": "minecraft:flower_pot"
+      "item": "minecraft:shield"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bubble_coral"
+      "item": "minecraft:chiseled_quartz_block"
     },
     {
-      "item": "minecraft:cyan_concrete"
+      "item": "minecraft:flower_pot"
     },
     {
-      "item": "minecraft:glass"
+      "item": "minecraft:jungle_fence"
     },
     {
-      "item": "minecraft:gray_terracotta"
+      "item": "minecraft:purple_stained_glass_pane"
     },
     {
-      "item": "minecraft:green_stained_glass_pane"
+      "item": "minecraft:red_banner"
     },
     {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:stripped_dark_oak_log"
     },
     {
-      "item": "minecraft:orange_stained_glass"
+      "item": "minecraft:tall_grass"
     },
     {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:terracotta"
     },
     {
-      "item": "minecraft:stick"
+      "item": "minecraft:wheat_seeds"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diorite"
+      "item": "minecraft:diamond_shovel"
     },
     "#": {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:gray_stained_glass"
     }
   },
   "result": {

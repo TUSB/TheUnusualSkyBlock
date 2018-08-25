@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:mycelium"
+      "item": "minecraft:kelp"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:magenta_stained_glass"
+      "item": "minecraft:white_banner"
     },
     "#": {
-      "item": "minecraft:tropical_fish_bucket"
+      "item": "minecraft:zombie_head"
     }
   },
   "result": {

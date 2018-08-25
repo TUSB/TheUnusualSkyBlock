@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_glazed_terracotta"
+      "item": "minecraft:jungle_pressure_plate"
     },
     "|": {
-      "item": "minecraft:mutton"
+      "item": "minecraft:tnt"
     }
   },
   "result": {

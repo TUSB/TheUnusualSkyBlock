@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cobweb"
+      "item": "minecraft:acacia_fence"
     },
     "#": {
-      "item": "minecraft:enchanted_book"
+      "item": "minecraft:chiseled_sandstone"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:compass"
+      "item": "minecraft:light_gray_glazed_terracotta"
     },
     "#": {
-      "item": "minecraft:oak_leaves"
+      "item": "minecraft:orange_bed"
     }
   },
   "result": {

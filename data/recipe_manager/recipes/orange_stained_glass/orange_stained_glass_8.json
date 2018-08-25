@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bookshelf"
+      "item": "minecraft:glowstone_dust"
     },
     "X": {
-      "item": "minecraft:orange_banner"
+      "item": "minecraft:red_concrete_powder"
     }
   },
   "result": {

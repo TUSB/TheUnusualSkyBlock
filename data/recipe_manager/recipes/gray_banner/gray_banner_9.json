@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bubble_coral"
+      "item": "minecraft:black_stained_glass_pane"
     },
     "|": {
-      "item": "minecraft:egg"
+      "item": "minecraft:prismarine_bricks"
     }
   },
   "result": {

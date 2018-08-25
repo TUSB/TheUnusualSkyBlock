@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_stained_glass"
+      "item": "minecraft:light_gray_terracotta"
     },
     "X": {
-      "item": "minecraft:spruce_boat"
+      "item": "minecraft:stone_axe"
     }
   },
   "result": {

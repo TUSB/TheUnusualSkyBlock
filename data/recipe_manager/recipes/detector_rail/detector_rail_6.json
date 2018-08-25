@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cobblestone_wall"
+      "item": "minecraft:birch_trapdoor"
     },
     "#": {
-      "item": "minecraft:orange_wool"
+      "item": "minecraft:golden_helmet"
     },
     "R": {
-      "item": "minecraft:scute"
+      "item": "minecraft:redstone_lamp"
     }
   },
   "result": {

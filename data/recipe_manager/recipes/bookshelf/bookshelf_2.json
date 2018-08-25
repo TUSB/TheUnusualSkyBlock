@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_button"
+      "item": "minecraft:light_weighted_pressure_plate"
     },
     "X": {
-      "item": "minecraft:bone"
+      "item": "minecraft:trident"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:popped_chorus_fruit"
+      "item": "minecraft:nether_brick_stairs"
     },
     {
-      "item": "minecraft:red_sandstone_stairs"
+      "item": "minecraft:slime_block"
     }
   ],
   "result": {

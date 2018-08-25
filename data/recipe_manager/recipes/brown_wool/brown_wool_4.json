@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:fishing_rod"
+      "item": "minecraft:glowstone"
     },
     {
-      "item": "minecraft:sunflower"
+      "item": "minecraft:stripped_acacia_log"
     }
   ],
   "result": {

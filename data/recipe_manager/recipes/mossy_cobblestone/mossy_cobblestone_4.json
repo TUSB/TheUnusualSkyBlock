@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:mushroom_stem"
+      "item": "minecraft:gold_block"
     },
     {
-      "item": "minecraft:shield"
+      "item": "minecraft:salmon_bucket"
     }
   ],
   "result": {

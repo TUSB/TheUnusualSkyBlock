@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:acacia_trapdoor"
+      "item": "minecraft:oak_sapling"
     },
     "E": {
-      "item": "minecraft:melon"
+      "item": "minecraft:pink_wool"
     },
     "T": {
-      "item": "minecraft:orange_tulip"
+      "item": "minecraft:shield"
     }
   },
   "result": {

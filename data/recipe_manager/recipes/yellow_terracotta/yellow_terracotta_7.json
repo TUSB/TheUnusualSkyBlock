@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:farmland"
+      "item": "minecraft:clay_ball"
     },
     "X": {
-      "item": "minecraft:leather"
+      "item": "minecraft:light_gray_carpet"
     }
   },
   "result": {

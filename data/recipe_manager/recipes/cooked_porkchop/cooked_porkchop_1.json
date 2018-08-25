@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_button"
+      "item": "minecraft:filled_map"
     }
   ],
   "result": {

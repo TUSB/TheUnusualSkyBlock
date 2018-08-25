@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_button"
+      "item": "minecraft:birch_wood"
     },
     {
-      "item": "minecraft:cobblestone"
+      "item": "minecraft:polished_andesite"
     },
     {
-      "item": "minecraft:orange_stained_glass"
+      "item": "minecraft:turtle_helmet"
     }
   ],
   "result": {

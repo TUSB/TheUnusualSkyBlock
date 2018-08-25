@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:golden_carrot"
+      "item": "minecraft:oak_log"
     },
     "#": {
-      "item": "minecraft:oak_planks"
+      "item": "minecraft:porkchop"
     },
     "R": {
-      "item": "minecraft:prismarine_bricks"
+      "item": "minecraft:red_carpet"
     }
   },
   "result": {

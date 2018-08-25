@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:coarse_dirt"
+      "item": "minecraft:fermented_spider_eye"
     },
     "X": {
-      "item": "minecraft:jungle_door"
+      "item": "minecraft:oak_log"
     }
   },
   "result": {

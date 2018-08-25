@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:light_gray_glazed_terracotta"
+      "item": "minecraft:end_stone_bricks"
     },
     "#": {
-      "item": "minecraft:trapped_chest"
+      "item": "minecraft:mossy_stone_bricks"
     }
   },
   "result": {

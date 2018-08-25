@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:scute"
+      "item": "minecraft:magenta_concrete"
     },
     "X": {
-      "item": "minecraft:stone_pickaxe"
+      "item": "minecraft:quartz"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:golden_chestplate"
+      "item": "minecraft:coal_ore"
     },
     "X": {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:soul_sand"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:carved_pumpkin"
+      "item": "minecraft:mutton"
     },
     "C": {
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:skeleton_skull"
     }
   },
   "result": {

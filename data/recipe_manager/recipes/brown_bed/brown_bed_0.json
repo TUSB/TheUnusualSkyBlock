@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:observer"
+      "item": "minecraft:end_stone"
     },
     "X": {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:sea_pickle"
     }
   },
   "result": {

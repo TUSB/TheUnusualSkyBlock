@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cyan_banner"
+      "item": "minecraft:magenta_glazed_terracotta"
     },
     "#": {
-      "item": "minecraft:iron_shovel"
+      "item": "minecraft:stone"
     }
   },
   "result": {

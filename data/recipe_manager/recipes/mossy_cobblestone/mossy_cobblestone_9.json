@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:light_gray_concrete"
+      "item": "minecraft:pumpkin_pie"
     },
     {
-      "item": "minecraft:nether_wart"
+      "item": "minecraft:white_stained_glass"
     }
   ],
   "result": {

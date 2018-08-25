@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cauldron"
+      "item": "minecraft:acacia_slab"
     },
     {
-      "item": "minecraft:chorus_flower"
+      "item": "minecraft:birch_log"
     },
     {
-      "item": "minecraft:cod_bucket"
+      "item": "minecraft:dark_oak_fence"
     },
     {
-      "item": "minecraft:cooked_porkchop"
+      "item": "minecraft:dark_oak_log"
     },
     {
-      "item": "minecraft:cyan_stained_glass"
+      "item": "minecraft:diamond_helmet"
     },
     {
-      "item": "minecraft:lime_glazed_terracotta"
+      "item": "minecraft:golden_boots"
     },
     {
-      "item": "minecraft:pink_concrete"
+      "item": "minecraft:golden_shovel"
     },
     {
-      "item": "minecraft:purple_bed"
+      "item": "minecraft:leather_leggings"
     },
     {
-      "item": "minecraft:wooden_shovel"
+      "item": "minecraft:nether_brick_fence"
     }
   ],
   "result": {

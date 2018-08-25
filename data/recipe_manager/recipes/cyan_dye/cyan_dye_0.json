@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:emerald"
+      "item": "minecraft:bone"
     },
     {
-      "item": "minecraft:yellow_carpet"
+      "item": "minecraft:quartz_stairs"
     }
   ],
   "result": {

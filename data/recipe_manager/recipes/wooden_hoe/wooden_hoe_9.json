@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:jungle_slab"
+      "item": "minecraft:black_shulker_box"
     },
     "#": {
-      "item": "minecraft:orange_terracotta"
+      "item": "minecraft:flint"
     }
   },
   "result": {

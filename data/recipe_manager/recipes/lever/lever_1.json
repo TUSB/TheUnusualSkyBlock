@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:coal_ore"
+      "item": "minecraft:conduit"
     },
     "#": {
-      "item": "minecraft:cyan_dye"
+      "item": "minecraft:cut_red_sandstone"
     }
   },
   "result": {

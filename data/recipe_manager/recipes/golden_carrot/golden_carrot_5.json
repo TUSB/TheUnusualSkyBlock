@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_door"
+      "item": "minecraft:coal_ore"
     },
     "X": {
-      "item": "minecraft:redstone_lamp"
+      "item": "minecraft:tube_coral"
     }
   },
   "result": {

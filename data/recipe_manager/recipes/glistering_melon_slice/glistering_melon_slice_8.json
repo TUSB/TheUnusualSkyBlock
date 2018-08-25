@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:item_frame"
+      "item": "minecraft:creeper_head"
     },
     "X": {
-      "item": "minecraft:yellow_wool"
+      "item": "minecraft:prismarine"
     }
   },
   "result": {

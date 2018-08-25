@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_terracotta"
+      "item": "minecraft:coal_block"
     },
     "X": {
-      "item": "minecraft:popped_chorus_fruit"
+      "item": "minecraft:granite"
     }
   },
   "result": {

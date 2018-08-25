@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_axe"
+      "item": "minecraft:golden_pickaxe"
     },
     "X": {
-      "item": "minecraft:mossy_cobblestone"
+      "item": "minecraft:iron_nugget"
     }
   },
   "result": {

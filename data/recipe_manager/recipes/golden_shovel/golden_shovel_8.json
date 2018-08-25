@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:jungle_fence"
+      "item": "minecraft:magenta_carpet"
     },
     "#": {
-      "item": "minecraft:seagrass"
+      "item": "minecraft:spruce_planks"
     }
   },
   "result": {

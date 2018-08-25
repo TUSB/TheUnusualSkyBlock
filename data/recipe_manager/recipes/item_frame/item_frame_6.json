@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_concrete_powder"
+      "item": "minecraft:nether_brick_stairs"
     },
     "X": {
-      "item": "minecraft:prismarine_crystals"
+      "item": "minecraft:red_shulker_box"
     }
   },
   "result": {

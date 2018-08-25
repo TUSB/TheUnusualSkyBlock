@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_leaves"
+      "item": "minecraft:oak_boat"
     },
     {
-      "item": "minecraft:green_banner"
+      "item": "minecraft:white_glazed_terracotta"
     }
   ],
   "result": {

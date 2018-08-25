@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cactus"
+      "item": "minecraft:cobblestone_wall"
     },
     "X": {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:spruce_button"
     }
   },
   "result": {

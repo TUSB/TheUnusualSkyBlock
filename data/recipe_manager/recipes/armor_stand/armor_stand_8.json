@@ -7,10 +7,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:birch_trapdoor"
+      "item": "minecraft:brown_shulker_box"
     },
     "_": {
-      "item": "minecraft:ice"
+      "item": "minecraft:oak_stairs"
     }
   },
   "result": {

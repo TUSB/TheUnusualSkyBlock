@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_wood"
+      "item": "minecraft:diamond_block"
     },
     "X": {
-      "item": "minecraft:paper"
+      "item": "minecraft:lime_dye"
     }
   },
   "result": {

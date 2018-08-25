@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beetroot_soup"
+      "item": "minecraft:dark_oak_sapling"
     },
     {
-      "item": "minecraft:dark_prismarine_stairs"
+      "item": "minecraft:stripped_spruce_log"
     }
   ],
   "result": {

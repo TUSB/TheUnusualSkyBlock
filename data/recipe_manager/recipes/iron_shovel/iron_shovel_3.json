@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:andesite"
+      "item": "minecraft:dandelion"
     },
     "#": {
-      "item": "minecraft:chiseled_quartz_block"
+      "item": "minecraft:green_bed"
     }
   },
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:acacia_leaves"
+      "item": "minecraft:black_terracotta"
     },
     "Q": {
-      "item": "minecraft:carved_pumpkin"
+      "item": "minecraft:red_glazed_terracotta"
     },
     "W": {
-      "item": "minecraft:yellow_stained_glass_pane"
+      "item": "minecraft:snowball"
     }
   },
   "result": {

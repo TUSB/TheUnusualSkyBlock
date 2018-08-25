@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:allium"
+      "item": "minecraft:heart_of_the_sea"
     },
     {
-      "item": "minecraft:brown_terracotta"
+      "item": "minecraft:lapis_lazuli"
     },
     {
-      "item": "minecraft:purpur_stairs"
+      "item": "minecraft:orange_stained_glass_pane"
     }
   ],
   "result": {

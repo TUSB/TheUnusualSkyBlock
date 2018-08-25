@@ -5,10 +5,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_bed"
+      "item": "minecraft:melon"
     },
     "X": {
-      "item": "minecraft:wither_skeleton_skull"
+      "item": "minecraft:spruce_wood"
     }
   },
   "result": {

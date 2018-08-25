@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:oak_log"
+      "item": "minecraft:redstone_ore"
     },
     {
-      "item": "minecraft:rabbit_foot"
+      "item": "minecraft:tube_coral"
     }
   ],
   "result": {

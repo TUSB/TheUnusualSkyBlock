@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_dye"
+      "item": "minecraft:flint_and_steel"
     },
     "X": {
-      "item": "minecraft:iron_hoe"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     }
   },
   "result": {

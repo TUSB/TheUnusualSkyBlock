@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:melon_slice"
+      "item": "minecraft:cobblestone_stairs"
     },
     "E": {
-      "item": "minecraft:orange_concrete"
+      "item": "minecraft:spruce_slab"
     },
     "T": {
-      "item": "minecraft:packed_ice"
+      "item": "minecraft:yellow_wool"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:arrow"
+      "item": "minecraft:obsidian"
     },
     "|": {
-      "item": "minecraft:purple_banner"
+      "item": "minecraft:pink_shulker_box"
     }
   },
   "result": {

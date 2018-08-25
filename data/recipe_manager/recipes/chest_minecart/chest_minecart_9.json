@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:dark_prismarine_slab"
+      "item": "minecraft:charcoal"
     },
     "B": {
-      "item": "minecraft:lime_dye"
+      "item": "minecraft:repeater"
     }
   },
   "result": {

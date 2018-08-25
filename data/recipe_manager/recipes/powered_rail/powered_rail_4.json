@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_wool"
+      "item": "minecraft:andesite"
     },
     "#": {
-      "item": "minecraft:diamond_shovel"
+      "item": "minecraft:lead"
     },
     "R": {
-      "item": "minecraft:red_nether_bricks"
+      "item": "minecraft:purpur_block"
     }
   },
   "result": {

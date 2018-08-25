@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cookie"
+      "item": "minecraft:blaze_rod"
     },
     "|": {
-      "item": "minecraft:peony"
+      "item": "minecraft:dark_oak_wood"
     }
   },
   "result": {

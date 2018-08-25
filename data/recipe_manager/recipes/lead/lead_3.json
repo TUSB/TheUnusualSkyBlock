@@ -7,10 +7,10 @@
   ],
   "key": {
     "~": {
-      "item": "minecraft:bookshelf"
+      "item": "minecraft:orange_concrete"
     },
     "O": {
-      "item": "minecraft:rail"
+      "item": "minecraft:yellow_concrete_powder"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_concrete"
+      "item": "minecraft:brick"
     },
     "|": {
-      "item": "minecraft:farmland"
+      "item": "minecraft:rose_bush"
     }
   },
   "result": {

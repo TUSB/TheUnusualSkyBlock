@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_leaves"
+      "item": "minecraft:dried_kelp_block"
     },
     {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:flint"
     },
     {
-      "item": "minecraft:gray_stained_glass_pane"
+      "item": "minecraft:furnace"
     },
     {
-      "item": "minecraft:jungle_leaves"
+      "item": "minecraft:jack_o_lantern"
     },
     {
-      "item": "minecraft:light_gray_stained_glass_pane"
+      "item": "minecraft:magenta_carpet"
     },
     {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:orange_banner"
     },
     {
-      "item": "minecraft:sand"
+      "item": "minecraft:pumpkin_seeds"
     },
     {
-      "item": "minecraft:spruce_wood"
+      "item": "minecraft:purple_wool"
     },
     {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:red_terracotta"
     }
   ],
   "result": {

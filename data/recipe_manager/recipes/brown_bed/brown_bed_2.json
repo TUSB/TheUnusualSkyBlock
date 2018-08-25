@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_ingot"
+      "item": "minecraft:gold_nugget"
     },
     "X": {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:jungle_pressure_plate"
     }
   },
   "result": {

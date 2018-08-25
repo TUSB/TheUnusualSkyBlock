@@ -7,10 +7,10 @@
   ],
   "key": {
     "~": {
-      "item": "minecraft:blue_banner"
+      "item": "minecraft:lava_bucket"
     },
     "O": {
-      "item": "minecraft:salmon"
+      "item": "minecraft:pink_glazed_terracotta"
     }
   },
   "result": {

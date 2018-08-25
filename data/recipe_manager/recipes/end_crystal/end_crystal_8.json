@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:chorus_fruit"
     },
     "E": {
-      "item": "minecraft:dark_oak_leaves"
+      "item": "minecraft:ghast_tear"
     },
     "T": {
-      "item": "minecraft:saddle"
+      "item": "minecraft:sandstone_slab"
     }
   },
   "result": {

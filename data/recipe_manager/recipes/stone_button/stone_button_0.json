@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:obsidian"
+      "item": "minecraft:black_glazed_terracotta"
     }
   ],
   "result": {

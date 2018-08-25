@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_blue_stained_glass_pane"
+      "item": "minecraft:farmland"
     },
     "X": {
-      "item": "minecraft:oak_sapling"
+      "item": "minecraft:purple_banner"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:gray_shulker_box"
+      "item": "minecraft:dark_oak_trapdoor"
     },
     "_": {
-      "item": "minecraft:red_tulip"
+      "item": "minecraft:purpur_stairs"
     }
   },
   "result": {

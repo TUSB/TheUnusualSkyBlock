@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:hay_block"
+      "item": "minecraft:lingering_potion"
     },
     "i": {
-      "item": "minecraft:pink_carpet"
+      "item": "minecraft:orange_shulker_box"
     }
   },
   "result": {

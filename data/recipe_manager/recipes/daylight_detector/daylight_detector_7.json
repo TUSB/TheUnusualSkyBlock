@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:chiseled_quartz_block"
+      "item": "minecraft:birch_leaves"
     },
     "Q": {
-      "item": "minecraft:leather"
+      "item": "minecraft:dragon_breath"
     },
     "W": {
-      "item": "minecraft:lily_pad"
+      "item": "minecraft:light_gray_terracotta"
     }
   },
   "result": {

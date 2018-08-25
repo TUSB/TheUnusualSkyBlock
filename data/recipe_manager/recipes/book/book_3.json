@@ -2,16 +2,16 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cod_bucket"
+      "item": "minecraft:birch_boat"
     },
     {
-      "item": "minecraft:dead_bubble_coral_fan"
+      "item": "minecraft:pink_concrete"
     },
     {
-      "item": "minecraft:gray_terracotta"
+      "item": "minecraft:written_book"
     },
     {
-      "item": "minecraft:red_shulker_box"
+      "item": "minecraft:yellow_shulker_box"
     }
   ],
   "result": {

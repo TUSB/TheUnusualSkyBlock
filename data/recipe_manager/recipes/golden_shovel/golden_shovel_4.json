@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:pufferfish"
+      "item": "minecraft:mossy_stone_bricks"
     },
     "#": {
-      "item": "minecraft:red_carpet"
+      "item": "minecraft:nether_brick_stairs"
     }
   },
   "result": {

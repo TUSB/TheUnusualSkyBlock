@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:ladder"
+      "item": "minecraft:grass_path"
     },
     "X": {
-      "item": "minecraft:magenta_bed"
+      "item": "minecraft:magenta_glazed_terracotta"
     }
   },
   "result": {

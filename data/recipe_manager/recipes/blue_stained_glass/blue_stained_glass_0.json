@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cobblestone"
+      "item": "minecraft:cyan_carpet"
     },
     "X": {
-      "item": "minecraft:red_terracotta"
+      "item": "minecraft:petrified_oak_slab"
     }
   },
   "result": {

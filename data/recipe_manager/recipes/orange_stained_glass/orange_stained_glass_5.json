@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:mycelium"
+      "item": "minecraft:cauldron"
     },
     "X": {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:pink_shulker_box"
     }
   },
   "result": {

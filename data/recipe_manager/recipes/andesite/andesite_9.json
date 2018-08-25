@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:melon_slice"
+      "item": "minecraft:shears"
     },
     {
-      "item": "minecraft:mutton"
+      "item": "minecraft:slime_block"
     }
   ],
   "result": {

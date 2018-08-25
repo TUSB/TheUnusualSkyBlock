@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_bed"
+      "item": "minecraft:acacia_boat"
+    },
+    {
+      "item": "minecraft:cooked_porkchop"
+    },
+    {
+      "item": "minecraft:cyan_dye"
     },
     {
       "item": "minecraft:dead_horn_coral_block"
     },
     {
-      "item": "minecraft:flint_and_steel"
+      "item": "minecraft:golden_boots"
     },
     {
-      "item": "minecraft:magenta_shulker_box"
+      "item": "minecraft:orange_concrete_powder"
     },
     {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:shield"
     },
     {
-      "item": "minecraft:red_wool"
+      "item": "minecraft:smooth_stone"
     },
     {
-      "item": "minecraft:splash_potion"
-    },
-    {
-      "item": "minecraft:stripped_dark_oak_wood"
-    },
-    {
-      "item": "minecraft:wheat_seeds"
+      "item": "minecraft:sticky_piston"
     }
   ],
   "result": {

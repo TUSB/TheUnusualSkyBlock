@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:carrot"
+      "item": "minecraft:gray_dye"
     },
     "#": {
-      "item": "minecraft:green_shulker_box"
+      "item": "minecraft:trident"
     }
   },
   "result": {

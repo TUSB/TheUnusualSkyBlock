@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cyan_wool"
+      "item": "minecraft:jungle_boat"
     },
     "#": {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:oxeye_daisy"
     }
   },
   "result": {

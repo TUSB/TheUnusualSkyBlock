@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beacon"
+      "item": "minecraft:acacia_door"
     },
     {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:birch_stairs"
     },
     {
-      "item": "minecraft:green_concrete"
+      "item": "minecraft:chiseled_sandstone"
     },
     {
-      "item": "minecraft:light_blue_concrete_powder"
+      "item": "minecraft:cooked_beef"
     },
     {
-      "item": "minecraft:nautilus_shell"
+      "item": "minecraft:cut_red_sandstone"
     },
     {
-      "item": "minecraft:oak_fence"
+      "item": "minecraft:dark_oak_fence_gate"
     },
     {
-      "item": "minecraft:oxeye_daisy"
+      "item": "minecraft:lime_terracotta"
     },
     {
-      "item": "minecraft:pink_glazed_terracotta"
+      "item": "minecraft:oak_wood"
     },
     {
-      "item": "minecraft:polished_andesite"
+      "item": "minecraft:purple_stained_glass"
     }
   ],
   "result": {

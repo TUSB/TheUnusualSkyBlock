@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_leaves"
+      "item": "minecraft:coal"
     },
     "X": {
-      "item": "minecraft:jukebox"
+      "item": "minecraft:red_stained_glass"
     }
   },
   "result": {

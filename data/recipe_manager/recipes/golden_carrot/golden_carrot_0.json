@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:cobblestone_stairs"
     },
     "X": {
-      "item": "minecraft:red_sandstone"
+      "item": "minecraft:dried_kelp_block"
     }
   },
   "result": {

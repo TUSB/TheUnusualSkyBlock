@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:oak_planks"
+      "item": "minecraft:purpur_slab"
     },
     {
-      "item": "minecraft:oak_sapling"
+      "item": "minecraft:stripped_spruce_wood"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_concrete_powder"
+      "item": "minecraft:black_shulker_box"
     },
     "W": {
-      "item": "minecraft:gray_terracotta"
+      "item": "minecraft:shulker_shell"
     }
   },
   "result": {

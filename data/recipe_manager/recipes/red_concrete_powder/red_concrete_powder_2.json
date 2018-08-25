@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bone"
+      "item": "minecraft:allium"
     },
     {
-      "item": "minecraft:bookshelf"
+      "item": "minecraft:clock"
     },
     {
-      "item": "minecraft:dark_oak_pressure_plate"
+      "item": "minecraft:dark_oak_fence_gate"
     },
     {
-      "item": "minecraft:golden_horse_armor"
+      "item": "minecraft:diamond_axe"
     },
     {
-      "item": "minecraft:grass"
+      "item": "minecraft:golden_helmet"
     },
     {
-      "item": "minecraft:hopper"
+      "item": "minecraft:gray_banner"
     },
     {
-      "item": "minecraft:ladder"
+      "item": "minecraft:green_banner"
     },
     {
-      "item": "minecraft:light_blue_wool"
+      "item": "minecraft:lime_concrete"
     },
     {
-      "item": "minecraft:purple_concrete_powder"
+      "item": "minecraft:yellow_carpet"
     }
   ],
   "result": {

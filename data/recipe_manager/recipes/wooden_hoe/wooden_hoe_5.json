@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_wool"
+      "item": "minecraft:green_stained_glass"
     },
     "#": {
-      "item": "minecraft:piston"
+      "item": "minecraft:stripped_dark_oak_log"
     }
   },
   "result": {

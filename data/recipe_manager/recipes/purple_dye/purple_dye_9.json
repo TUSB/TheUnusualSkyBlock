@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_wool"
+      "item": "minecraft:dead_fire_coral_block"
     },
     {
-      "item": "minecraft:hopper"
+      "item": "minecraft:gray_concrete_powder"
     }
   ],
   "result": {

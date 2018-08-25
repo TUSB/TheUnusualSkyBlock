@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:beacon"
+      "item": "minecraft:green_shulker_box"
     },
     "X": {
-      "item": "minecraft:diorite"
+      "item": "minecraft:powered_rail"
     }
   },
   "result": {

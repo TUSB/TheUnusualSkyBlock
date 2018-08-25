@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:golden_shovel"
     },
     "X": {
-      "item": "minecraft:damaged_anvil"
+      "item": "minecraft:magenta_bed"
     }
   },
   "result": {

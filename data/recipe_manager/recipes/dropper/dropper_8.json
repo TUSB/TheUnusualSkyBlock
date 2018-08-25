@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:diamond_chestplate"
     },
     "R": {
-      "item": "minecraft:purpur_block"
+      "item": "minecraft:gray_stained_glass"
     }
   },
   "result": {

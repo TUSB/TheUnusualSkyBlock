@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chest"
+      "item": "minecraft:iron_block"
     },
     {
-      "item": "minecraft:sunflower"
+      "item": "minecraft:seagrass"
     }
   ],
   "result": {

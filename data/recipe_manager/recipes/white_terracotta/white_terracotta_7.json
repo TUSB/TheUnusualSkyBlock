@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brewing_stand"
+      "item": "minecraft:end_stone_bricks"
     },
     "X": {
-      "item": "minecraft:brown_wool"
+      "item": "minecraft:polished_diorite"
     }
   },
   "result": {

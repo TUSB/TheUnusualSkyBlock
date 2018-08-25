@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:pink_carpet"
+      "item": "minecraft:brick_slab"
     },
     "X": {
-      "item": "minecraft:snow"
+      "item": "minecraft:sponge"
     }
   },
   "result": {

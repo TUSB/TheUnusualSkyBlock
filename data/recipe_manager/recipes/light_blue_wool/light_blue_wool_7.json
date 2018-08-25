@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:oak_planks"
+      "item": "minecraft:brain_coral"
     },
     {
-      "item": "minecraft:prismarine_slab"
+      "item": "minecraft:tnt"
     }
   ],
   "result": {

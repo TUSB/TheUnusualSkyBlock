@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_carpet"
+      "item": "minecraft:birch_slab"
     },
     "#": {
-      "item": "minecraft:sticky_piston"
+      "item": "minecraft:gravel"
     }
   },
   "result": {

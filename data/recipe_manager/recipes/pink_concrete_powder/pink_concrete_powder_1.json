@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cooked_beef"
+      "item": "minecraft:arrow"
     },
     {
-      "item": "minecraft:cooked_rabbit"
+      "item": "minecraft:cyan_terracotta"
     },
     {
-      "item": "minecraft:cyan_carpet"
+      "item": "minecraft:dark_oak_sapling"
     },
     {
-      "item": "minecraft:dead_horn_coral_fan"
+      "item": "minecraft:ender_pearl"
     },
     {
-      "item": "minecraft:iron_axe"
+      "item": "minecraft:jungle_door"
     },
     {
-      "item": "minecraft:jungle_planks"
+      "item": "minecraft:nether_brick_stairs"
     },
     {
-      "item": "minecraft:prismarine_stairs"
+      "item": "minecraft:oak_stairs"
     },
     {
-      "item": "minecraft:salmon"
+      "item": "minecraft:purple_banner"
     },
     {
-      "item": "minecraft:white_bed"
+      "item": "minecraft:water_bucket"
     }
   ],
   "result": {

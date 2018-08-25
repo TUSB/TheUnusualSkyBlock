@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:black_concrete_powder"
+      "item": "minecraft:dandelion"
     },
     "B": {
-      "item": "minecraft:ender_chest"
+      "item": "minecraft:white_concrete"
     }
   },
   "result": {

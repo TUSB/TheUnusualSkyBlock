@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lime_carpet"
+      "item": "minecraft:brown_mushroom"
     },
     "X": {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:nether_brick"
     }
   },
   "result": {

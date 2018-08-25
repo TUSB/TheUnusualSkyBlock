@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:oak_button"
     },
     "X": {
-      "item": "minecraft:lime_shulker_box"
+      "item": "minecraft:red_wool"
     }
   },
   "result": {

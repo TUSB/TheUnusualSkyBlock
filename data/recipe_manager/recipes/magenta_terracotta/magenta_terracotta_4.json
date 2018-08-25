@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_blue_concrete_powder"
+      "item": "minecraft:acacia_fence"
     },
     "X": {
-      "item": "minecraft:smooth_red_sandstone"
+      "item": "minecraft:nether_wart_block"
     }
   },
   "result": {

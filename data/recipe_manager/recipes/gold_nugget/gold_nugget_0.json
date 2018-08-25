@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:white_tulip"
+      "item": "minecraft:player_head"
     }
   ],
   "result": {

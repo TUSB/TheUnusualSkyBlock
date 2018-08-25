@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:stone_hoe"
     },
     "X": {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:yellow_banner"
     }
   },
   "result": {

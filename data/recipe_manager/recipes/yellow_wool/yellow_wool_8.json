@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:purple_concrete"
+      "item": "minecraft:bow"
     },
     {
-      "item": "minecraft:purple_stained_glass_pane"
+      "item": "minecraft:lingering_potion"
     }
   ],
   "result": {

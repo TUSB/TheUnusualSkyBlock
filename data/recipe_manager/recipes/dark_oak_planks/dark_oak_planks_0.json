@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:wooden_hoe"
+      "item": "minecraft:jungle_log"
     }
   ],
   "result": {

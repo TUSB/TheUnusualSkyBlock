@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:podzol"
+      "item": "minecraft:end_rod"
     },
     {
-      "item": "minecraft:stone_shovel"
+      "item": "minecraft:redstone_block"
     }
   ],
   "result": {

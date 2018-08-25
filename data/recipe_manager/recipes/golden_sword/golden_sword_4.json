@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:blue_stained_glass"
+      "item": "minecraft:diamond_boots"
     },
     "#": {
-      "item": "minecraft:magenta_terracotta"
+      "item": "minecraft:lava_bucket"
     }
   },
   "result": {

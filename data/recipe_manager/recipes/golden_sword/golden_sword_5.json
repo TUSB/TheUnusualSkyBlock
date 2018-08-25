@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cyan_bed"
+      "item": "minecraft:oak_planks"
     },
     "#": {
-      "item": "minecraft:redstone_lamp"
+      "item": "minecraft:rose_bush"
     }
   },
   "result": {

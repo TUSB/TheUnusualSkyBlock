@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:conduit"
+      "item": "minecraft:carrot"
     },
     "X": {
-      "item": "minecraft:white_concrete_powder"
+      "item": "minecraft:milk_bucket"
     }
   },
   "result": {

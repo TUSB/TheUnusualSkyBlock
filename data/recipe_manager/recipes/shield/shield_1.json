@@ -7,10 +7,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:cyan_carpet"
+      "item": "minecraft:farmland"
     },
     "o": {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:jungle_button"
     }
   },
   "result": {

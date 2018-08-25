@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dead_fire_coral_block"
+      "item": "minecraft:allium"
     },
     "#": {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:beetroot_seeds"
     }
   },
   "result": {

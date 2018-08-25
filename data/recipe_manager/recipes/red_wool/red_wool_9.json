@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_bed"
+      "item": "minecraft:dark_oak_button"
     },
     {
-      "item": "minecraft:red_carpet"
+      "item": "minecraft:ender_eye"
     }
   ],
   "result": {

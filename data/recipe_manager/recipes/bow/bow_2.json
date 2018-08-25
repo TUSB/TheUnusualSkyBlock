@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_wool"
+      "item": "minecraft:brown_terracotta"
     },
     "X": {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:gray_concrete"
     }
   },
   "result": {

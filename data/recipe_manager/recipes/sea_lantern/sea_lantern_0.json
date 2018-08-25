@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:lime_wool"
+      "item": "minecraft:gold_ore"
     },
     "C": {
-      "item": "minecraft:pink_bed"
+      "item": "minecraft:light_blue_shulker_box"
     }
   },
   "result": {

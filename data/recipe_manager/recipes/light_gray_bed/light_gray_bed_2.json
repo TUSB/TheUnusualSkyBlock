@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:leather"
+      "item": "minecraft:diamond_chestplate"
     },
     "X": {
-      "item": "minecraft:light_gray_stained_glass_pane"
+      "item": "minecraft:green_shulker_box"
     }
   },
   "result": {

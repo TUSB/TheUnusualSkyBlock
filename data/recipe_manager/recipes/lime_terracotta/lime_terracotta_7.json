@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:cactus"
     },
     "X": {
-      "item": "minecraft:orange_shulker_box"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     }
   },
   "result": {

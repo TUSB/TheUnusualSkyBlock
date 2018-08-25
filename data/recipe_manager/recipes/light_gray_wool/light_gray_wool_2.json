@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:horn_coral"
+      "item": "minecraft:comparator"
     },
     {
-      "item": "minecraft:oak_leaves"
+      "item": "minecraft:leather_leggings"
     }
   ],
   "result": {

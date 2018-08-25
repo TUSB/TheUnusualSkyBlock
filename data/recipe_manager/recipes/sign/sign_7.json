@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:purple_banner"
+      "item": "minecraft:chiseled_red_sandstone"
     },
     "X": {
-      "item": "minecraft:terracotta"
+      "item": "minecraft:smooth_sandstone"
     }
   },
   "result": {

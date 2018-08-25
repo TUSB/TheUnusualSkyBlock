@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:carved_pumpkin"
     },
     "#": {
-      "item": "minecraft:pink_terracotta"
+      "item": "minecraft:end_crystal"
     }
   },
   "result": {

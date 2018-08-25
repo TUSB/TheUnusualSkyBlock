@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:fire_coral_fan"
+      "item": "minecraft:blue_bed"
     },
     {
-      "item": "minecraft:light_blue_wool"
+      "item": "minecraft:orange_carpet"
     }
   ],
   "result": {

@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:fishing_rod"
+      "item": "minecraft:mossy_stone_bricks"
     },
     {
-      "item": "minecraft:pink_terracotta"
+      "item": "minecraft:purple_carpet"
     },
     {
-      "item": "minecraft:yellow_shulker_box"
+      "item": "minecraft:tropical_fish_bucket"
     }
   ],
   "result": {

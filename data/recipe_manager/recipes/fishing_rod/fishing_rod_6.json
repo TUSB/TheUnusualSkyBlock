@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_ore"
+      "item": "minecraft:light_blue_shulker_box"
     },
     "X": {
-      "item": "minecraft:player_head"
+      "item": "minecraft:stripped_birch_wood"
     }
   },
   "result": {

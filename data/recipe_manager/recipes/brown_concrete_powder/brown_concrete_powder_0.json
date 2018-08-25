@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chainmail_leggings"
+      "item": "minecraft:dead_fire_coral_fan"
     },
     {
-      "item": "minecraft:chicken"
+      "item": "minecraft:dirt"
     },
     {
-      "item": "minecraft:grass_block"
+      "item": "minecraft:ink_sac"
     },
     {
-      "item": "minecraft:light_gray_dye"
+      "item": "minecraft:iron_trapdoor"
     },
     {
-      "item": "minecraft:pink_stained_glass"
+      "item": "minecraft:magma_block"
     },
     {
-      "item": "minecraft:polished_granite"
+      "item": "minecraft:orange_wool"
     },
     {
-      "item": "minecraft:redstone"
+      "item": "minecraft:purple_concrete"
     },
     {
-      "item": "minecraft:sunflower"
+      "item": "minecraft:repeater"
     },
     {
-      "item": "minecraft:yellow_concrete_powder"
+      "item": "minecraft:wheat"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "-": {
-      "item": "minecraft:leather_chestplate"
+      "item": "minecraft:pink_shulker_box"
     },
     "#": {
-      "item": "minecraft:pink_concrete"
+      "item": "minecraft:wooden_axe"
     }
   },
   "result": {

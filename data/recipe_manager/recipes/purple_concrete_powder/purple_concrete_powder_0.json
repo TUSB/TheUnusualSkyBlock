@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:carved_pumpkin"
+      "item": "minecraft:chiseled_sandstone"
     },
     {
-      "item": "minecraft:diamond"
+      "item": "minecraft:jungle_leaves"
     },
     {
-      "item": "minecraft:gray_banner"
+      "item": "minecraft:mushroom_stew"
     },
     {
-      "item": "minecraft:heavy_weighted_pressure_plate"
+      "item": "minecraft:nether_wart_block"
     },
     {
-      "item": "minecraft:lily_pad"
+      "item": "minecraft:orange_banner"
     },
     {
-      "item": "minecraft:pink_concrete_powder"
+      "item": "minecraft:quartz"
     },
     {
-      "item": "minecraft:player_head"
+      "item": "minecraft:red_bed"
     },
     {
-      "item": "minecraft:porkchop"
+      "item": "minecraft:turtle_helmet"
     },
     {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:wooden_shovel"
     }
   ],
   "result": {

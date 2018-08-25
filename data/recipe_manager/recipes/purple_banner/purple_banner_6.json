@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:orange_dye"
+      "item": "minecraft:iron_door"
     },
     "|": {
-      "item": "minecraft:pink_terracotta"
+      "item": "minecraft:purple_concrete"
     }
   },
   "result": {

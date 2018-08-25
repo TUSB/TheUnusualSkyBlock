@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:paper"
+      "item": "minecraft:jungle_pressure_plate"
     },
     "|": {
-      "item": "minecraft:red_sandstone_stairs"
+      "item": "minecraft:nether_brick"
     }
   },
   "result": {

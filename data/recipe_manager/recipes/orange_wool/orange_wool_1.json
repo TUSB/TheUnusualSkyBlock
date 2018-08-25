@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bricks"
+      "item": "minecraft:dark_oak_button"
     },
     {
-      "item": "minecraft:dark_oak_pressure_plate"
+      "item": "minecraft:magma_cream"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:painting"
+      "item": "minecraft:black_carpet"
     },
     "|": {
-      "item": "minecraft:purple_wool"
+      "item": "minecraft:prismarine_bricks"
     }
   },
   "result": {

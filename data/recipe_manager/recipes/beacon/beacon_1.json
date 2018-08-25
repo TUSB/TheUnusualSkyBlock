@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:pink_banner"
+      "item": "minecraft:cyan_bed"
     },
     "S": {
-      "item": "minecraft:rabbit_stew"
+      "item": "minecraft:orange_wool"
     },
     "O": {
-      "item": "minecraft:rail"
+      "item": "minecraft:shulker_shell"
     }
   },
   "result": {

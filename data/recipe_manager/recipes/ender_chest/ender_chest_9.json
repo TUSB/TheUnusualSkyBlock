@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_stained_glass_pane"
+      "item": "minecraft:acacia_trapdoor"
     },
     "E": {
-      "item": "minecraft:stripped_jungle_log"
+      "item": "minecraft:orange_carpet"
     }
   },
   "result": {

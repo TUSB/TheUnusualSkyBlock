@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:golden_sword"
+      "item": "minecraft:purple_stained_glass"
     },
     "#": {
-      "item": "minecraft:magenta_glazed_terracotta"
+      "item": "minecraft:smooth_stone"
     }
   },
   "result": {

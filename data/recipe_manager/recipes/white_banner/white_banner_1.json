@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:emerald_ore"
+      "item": "minecraft:cracked_stone_bricks"
     },
     "|": {
-      "item": "minecraft:ender_chest"
+      "item": "minecraft:red_carpet"
     }
   },
   "result": {

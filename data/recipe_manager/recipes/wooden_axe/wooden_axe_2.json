@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:light_blue_wool"
+      "item": "minecraft:golden_chestplate"
     },
     "#": {
-      "item": "minecraft:red_mushroom"
+      "item": "minecraft:stone_hoe"
     }
   },
   "result": {

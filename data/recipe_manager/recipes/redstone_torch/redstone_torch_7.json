@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:green_banner"
+      "item": "minecraft:netherrack"
     },
     "#": {
-      "item": "minecraft:lime_dye"
+      "item": "minecraft:torch"
     }
   },
   "result": {

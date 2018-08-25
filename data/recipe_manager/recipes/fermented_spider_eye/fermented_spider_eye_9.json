@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:prismarine_bricks"
+      "item": "minecraft:chainmail_leggings"
     },
     {
-      "item": "minecraft:white_stained_glass_pane"
+      "item": "minecraft:cooked_salmon"
     },
     {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:orange_stained_glass"
     }
   ],
   "result": {

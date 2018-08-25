@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:chest"
+      "item": "minecraft:gray_wool"
     },
     "#": {
-      "item": "minecraft:oak_fence"
+      "item": "minecraft:terracotta"
     }
   },
   "result": {

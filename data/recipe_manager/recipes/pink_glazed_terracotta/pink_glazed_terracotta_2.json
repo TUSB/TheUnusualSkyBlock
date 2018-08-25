@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:vine"
+      "item": "minecraft:brown_stained_glass_pane"
     }
   ],
   "result": {

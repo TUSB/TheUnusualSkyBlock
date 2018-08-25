@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:light_blue_concrete"
+      "item": "minecraft:birch_planks"
     },
     "#": {
-      "item": "minecraft:orange_dye"
+      "item": "minecraft:hopper_minecart"
     }
   },
   "result": {

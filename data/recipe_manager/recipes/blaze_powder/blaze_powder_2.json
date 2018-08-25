@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:sponge"
+      "item": "minecraft:gray_shulker_box"
     }
   ],
   "result": {

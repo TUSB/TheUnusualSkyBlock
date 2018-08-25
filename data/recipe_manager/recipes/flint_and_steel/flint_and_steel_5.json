@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:bread"
     },
     {
-      "item": "minecraft:spruce_slab"
+      "item": "minecraft:magenta_bed"
     }
   ],
   "result": {

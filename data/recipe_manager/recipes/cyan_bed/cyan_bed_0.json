@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_button"
+      "item": "minecraft:dark_oak_wood"
     },
     "X": {
-      "item": "minecraft:light_gray_wool"
+      "item": "minecraft:orange_dye"
     }
   },
   "result": {

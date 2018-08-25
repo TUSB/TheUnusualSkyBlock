@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lilac"
+      "item": "minecraft:gray_shulker_box"
     },
     "X": {
-      "item": "minecraft:pufferfish_bucket"
+      "item": "minecraft:map"
     }
   },
   "result": {

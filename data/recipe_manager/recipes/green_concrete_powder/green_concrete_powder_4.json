@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chest_minecart"
+      "item": "minecraft:diamond"
     },
     {
-      "item": "minecraft:dead_tube_coral_block"
+      "item": "minecraft:ender_chest"
     },
     {
-      "item": "minecraft:ender_eye"
+      "item": "minecraft:furnace"
     },
     {
-      "item": "minecraft:lilac"
+      "item": "minecraft:jungle_trapdoor"
     },
     {
-      "item": "minecraft:lime_shulker_box"
+      "item": "minecraft:lapis_lazuli"
     },
     {
-      "item": "minecraft:nether_brick_slab"
+      "item": "minecraft:melon_seeds"
     },
     {
-      "item": "minecraft:orange_concrete"
+      "item": "minecraft:prismarine_stairs"
     },
     {
-      "item": "minecraft:purple_shulker_box"
+      "item": "minecraft:red_mushroom_block"
     },
     {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "item": "minecraft:scute"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_concrete_powder"
+      "item": "minecraft:enchanting_table"
     },
     "X": {
-      "item": "minecraft:paper"
+      "item": "minecraft:quartz"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:rose_red"
+      "item": "minecraft:fire_charge"
     },
     "X": {
-      "item": "minecraft:spruce_slab"
+      "item": "minecraft:written_book"
     }
   },
   "result": {

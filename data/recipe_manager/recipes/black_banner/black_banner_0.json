@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:golden_helmet"
+      "item": "minecraft:black_stained_glass"
     },
     "|": {
-      "item": "minecraft:prismarine_brick_stairs"
+      "item": "minecraft:carved_pumpkin"
     }
   },
   "result": {

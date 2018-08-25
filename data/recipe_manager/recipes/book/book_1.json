@@ -2,16 +2,16 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dead_tube_coral_fan"
+      "item": "minecraft:black_wool"
     },
     {
-      "item": "minecraft:egg"
+      "item": "minecraft:fire_coral_fan"
     },
     {
-      "item": "minecraft:red_banner"
+      "item": "minecraft:oak_trapdoor"
     },
     {
-      "item": "minecraft:stripped_acacia_wood"
+      "item": "minecraft:water_bucket"
     }
   ],
   "result": {

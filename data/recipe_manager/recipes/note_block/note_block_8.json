@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_chestplate"
+      "item": "minecraft:activator_rail"
     },
     "X": {
-      "item": "minecraft:diamond_pickaxe"
+      "item": "minecraft:light_weighted_pressure_plate"
     }
   },
   "result": {

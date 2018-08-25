@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blaze_rod"
+      "item": "minecraft:dandelion_yellow"
     },
     {
-      "item": "minecraft:prismarine_slab"
+      "item": "minecraft:purple_glazed_terracotta"
     }
   ],
   "result": {

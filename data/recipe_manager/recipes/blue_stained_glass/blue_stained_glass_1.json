@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:coal"
+      "item": "minecraft:gray_wool"
     },
     "X": {
-      "item": "minecraft:lime_dye"
+      "item": "minecraft:lilac"
     }
   },
   "result": {

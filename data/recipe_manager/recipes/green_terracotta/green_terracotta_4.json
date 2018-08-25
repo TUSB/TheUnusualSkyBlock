@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:leather_boots"
+      "item": "minecraft:blue_bed"
     },
     "X": {
-      "item": "minecraft:nautilus_shell"
+      "item": "minecraft:shulker_box"
     }
   },
   "result": {

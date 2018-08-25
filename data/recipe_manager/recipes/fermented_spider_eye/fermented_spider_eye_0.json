@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chainmail_helmet"
+      "item": "minecraft:charcoal"
     },
     {
-      "item": "minecraft:dropper"
+      "item": "minecraft:glass_bottle"
     },
     {
-      "item": "minecraft:golden_pickaxe"
+      "item": "minecraft:yellow_glazed_terracotta"
     }
   ],
   "result": {

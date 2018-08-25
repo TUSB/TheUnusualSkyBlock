@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_dye"
+      "item": "minecraft:brick_stairs"
     },
     {
-      "item": "minecraft:dark_oak_planks"
+      "item": "minecraft:carrot_on_a_stick"
     },
     {
-      "item": "minecraft:dried_kelp"
+      "item": "minecraft:cod"
     },
     {
-      "item": "minecraft:glistering_melon_slice"
+      "item": "minecraft:cyan_concrete"
     },
     {
-      "item": "minecraft:iron_hoe"
+      "item": "minecraft:light_blue_terracotta"
     },
     {
-      "item": "minecraft:lime_concrete_powder"
+      "item": "minecraft:lime_banner"
     },
     {
-      "item": "minecraft:orange_concrete"
+      "item": "minecraft:minecart"
     },
     {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:stone_bricks"
     },
     {
-      "item": "minecraft:red_terracotta"
+      "item": "minecraft:stripped_jungle_wood"
     }
   ],
   "result": {

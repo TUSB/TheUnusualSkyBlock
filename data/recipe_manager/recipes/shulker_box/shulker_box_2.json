@@ -7,10 +7,10 @@
   ],
   "key": {
     "-": {
-      "item": "minecraft:compass"
+      "item": "minecraft:bone_block"
     },
     "#": {
-      "item": "minecraft:oak_planks"
+      "item": "minecraft:white_glazed_terracotta"
     }
   },
   "result": {

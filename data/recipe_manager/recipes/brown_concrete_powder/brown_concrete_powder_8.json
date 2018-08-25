@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chainmail_leggings"
+      "item": "minecraft:black_concrete"
     },
     {
-      "item": "minecraft:dried_kelp_block"
+      "item": "minecraft:blue_shulker_box"
     },
     {
-      "item": "minecraft:green_stained_glass"
+      "item": "minecraft:brick_slab"
     },
     {
-      "item": "minecraft:iron_door"
+      "item": "minecraft:bucket"
     },
     {
-      "item": "minecraft:light_gray_stained_glass_pane"
+      "item": "minecraft:dead_brain_coral_fan"
     },
     {
-      "item": "minecraft:red_sandstone"
+      "item": "minecraft:dragon_breath"
     },
     {
-      "item": "minecraft:shears"
+      "item": "minecraft:iron_horse_armor"
     },
     {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "item": "minecraft:red_concrete"
     },
     {
-      "item": "minecraft:white_concrete_powder"
+      "item": "minecraft:yellow_stained_glass"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:lever"
+      "item": "minecraft:brain_coral_block"
     },
     "#": {
-      "item": "minecraft:light_blue_wool"
+      "item": "minecraft:brain_coral_fan"
     }
   },
   "result": {

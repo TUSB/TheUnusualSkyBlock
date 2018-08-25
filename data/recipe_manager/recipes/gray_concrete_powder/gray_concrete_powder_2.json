@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_glazed_terracotta"
+      "item": "minecraft:cauldron"
     },
     {
-      "item": "minecraft:dark_oak_boat"
+      "item": "minecraft:cyan_carpet"
     },
     {
-      "item": "minecraft:dark_oak_trapdoor"
+      "item": "minecraft:diamond_leggings"
     },
     {
-      "item": "minecraft:diamond_chestplate"
+      "item": "minecraft:lime_stained_glass_pane"
     },
     {
-      "item": "minecraft:green_concrete_powder"
+      "item": "minecraft:orange_tulip"
     },
     {
-      "item": "minecraft:lime_carpet"
+      "item": "minecraft:peony"
     },
     {
-      "item": "minecraft:magenta_glazed_terracotta"
+      "item": "minecraft:purpur_slab"
     },
     {
-      "item": "minecraft:polished_andesite"
+      "item": "minecraft:spruce_slab"
     },
     {
-      "item": "minecraft:red_mushroom"
+      "item": "minecraft:white_stained_glass_pane"
     }
   ],
   "result": {

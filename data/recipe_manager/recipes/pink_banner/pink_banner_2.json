@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_leaves"
+      "item": "minecraft:orange_concrete_powder"
     },
     "|": {
-      "item": "minecraft:wooden_shovel"
+      "item": "minecraft:quartz_pillar"
     }
   },
   "result": {

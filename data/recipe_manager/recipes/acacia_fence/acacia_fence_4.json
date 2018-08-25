@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:nether_quartz_ore"
+      "item": "minecraft:fire_coral_block"
     },
     "#": {
-      "item": "minecraft:red_carpet"
+      "item": "minecraft:oak_wood"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_concrete"
+      "item": "minecraft:blue_bed"
     },
     {
-      "item": "minecraft:cobweb"
+      "item": "minecraft:golden_leggings"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:mushroom_stem"
+      "item": "minecraft:brewing_stand"
     },
     "X": {
-      "item": "minecraft:white_shulker_box"
+      "item": "minecraft:magenta_shulker_box"
     }
   },
   "result": {

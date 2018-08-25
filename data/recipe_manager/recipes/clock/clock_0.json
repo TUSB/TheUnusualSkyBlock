@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_fence"
+      "item": "minecraft:gray_stained_glass_pane"
     },
     "X": {
-      "item": "minecraft:paper"
+      "item": "minecraft:light_blue_wool"
     }
   },
   "result": {

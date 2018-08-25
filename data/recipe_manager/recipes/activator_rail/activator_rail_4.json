@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:fire_coral"
+      "item": "minecraft:brown_wool"
     },
     "S": {
-      "item": "minecraft:gray_bed"
+      "item": "minecraft:poppy"
     },
     "#": {
-      "item": "minecraft:red_mushroom"
+      "item": "minecraft:quartz_pillar"
     }
   },
   "result": {

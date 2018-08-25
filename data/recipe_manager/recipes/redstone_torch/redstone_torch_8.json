@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brown_banner"
+      "item": "minecraft:lapis_ore"
     },
     "#": {
-      "item": "minecraft:cooked_chicken"
+      "item": "minecraft:orange_terracotta"
     }
   },
   "result": {

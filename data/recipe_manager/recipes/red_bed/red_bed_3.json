@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gold_block"
+      "item": "minecraft:brain_coral_fan"
     },
     "X": {
-      "item": "minecraft:iron_door"
+      "item": "minecraft:redstone_ore"
     }
   },
   "result": {

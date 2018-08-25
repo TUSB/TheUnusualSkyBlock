@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cyan_bed"
+      "item": "minecraft:pufferfish_bucket"
     },
     {
-      "item": "minecraft:iron_chestplate"
+      "item": "minecraft:tnt_minecart"
     }
   ],
   "result": {

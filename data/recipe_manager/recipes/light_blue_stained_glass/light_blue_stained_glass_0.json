@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_concrete"
+      "item": "minecraft:blue_stained_glass_pane"
     },
     "X": {
-      "item": "minecraft:quartz_pillar"
+      "item": "minecraft:jungle_trapdoor"
     }
   },
   "result": {

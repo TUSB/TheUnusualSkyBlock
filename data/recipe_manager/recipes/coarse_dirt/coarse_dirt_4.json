@@ -6,10 +6,10 @@
   ],
   "key": {
     "D": {
-      "item": "minecraft:conduit"
+      "item": "minecraft:cobblestone"
     },
     "G": {
-      "item": "minecraft:light_gray_concrete"
+      "item": "minecraft:light_gray_concrete_powder"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:gold_block"
+      "item": "minecraft:flower_pot"
     },
     "C": {
-      "item": "minecraft:light_gray_wool"
+      "item": "minecraft:light_gray_glazed_terracotta"
     }
   },
   "result": {

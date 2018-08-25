@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:pink_dye"
+      "item": "minecraft:pumpkin_seeds"
     },
     {
-      "item": "minecraft:pink_terracotta"
+      "item": "minecraft:redstone_ore"
     }
   ],
   "result": {

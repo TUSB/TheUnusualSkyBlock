@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bone_block"
+      "item": "minecraft:blue_stained_glass_pane"
     },
     {
-      "item": "minecraft:dark_oak_boat"
+      "item": "minecraft:bowl"
     },
     {
-      "item": "minecraft:dead_brain_coral_fan"
+      "item": "minecraft:gold_ore"
     },
     {
-      "item": "minecraft:emerald_block"
+      "item": "minecraft:iron_ore"
     },
     {
-      "item": "minecraft:glistering_melon_slice"
+      "item": "minecraft:jungle_boat"
     },
     {
-      "item": "minecraft:prismarine"
+      "item": "minecraft:magenta_dye"
     },
     {
-      "item": "minecraft:red_bed"
+      "item": "minecraft:orange_terracotta"
     },
     {
-      "item": "minecraft:saddle"
+      "item": "minecraft:purple_shulker_box"
     },
     {
-      "item": "minecraft:vine"
+      "item": "minecraft:white_banner"
     }
   ],
   "result": {

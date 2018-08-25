@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:heart_of_the_sea"
+      "item": "minecraft:gunpowder"
     },
     "X": {
-      "item": "minecraft:red_concrete"
+      "item": "minecraft:red_nether_bricks"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:fern"
+      "item": "minecraft:bone_block"
     },
     "X": {
-      "item": "minecraft:grass_block"
+      "item": "minecraft:leather_helmet"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:apple"
     },
     "#": {
-      "item": "minecraft:lapis_block"
+      "item": "minecraft:jungle_fence"
     }
   },
   "result": {

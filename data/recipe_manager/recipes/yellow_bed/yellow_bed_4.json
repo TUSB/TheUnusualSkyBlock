@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_blue_concrete_powder"
+      "item": "minecraft:acacia_slab"
     },
     "X": {
-      "item": "minecraft:purple_wool"
+      "item": "minecraft:lime_stained_glass"
     }
   },
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:cauldron"
+      "item": "minecraft:black_wool"
     },
     "S": {
-      "item": "minecraft:gray_glazed_terracotta"
+      "item": "minecraft:dark_oak_sapling"
     },
     "O": {
-      "item": "minecraft:white_bed"
+      "item": "minecraft:sponge"
     }
   },
   "result": {

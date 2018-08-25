@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:anvil"
+      "item": "minecraft:cyan_dye"
     },
     "#": {
-      "item": "minecraft:stone_brick_slab"
+      "item": "minecraft:trapped_chest"
     }
   },
   "result": {

@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:oak_door"
+      "item": "minecraft:smooth_red_sandstone"
     }
   ],
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:end_crystal"
+      "item": "minecraft:acacia_fence"
     },
     {
-      "item": "minecraft:furnace"
+      "item": "minecraft:cyan_stained_glass"
     },
     {
-      "item": "minecraft:glistering_melon_slice"
+      "item": "minecraft:diamond_horse_armor"
     },
     {
-      "item": "minecraft:glowstone"
+      "item": "minecraft:glowstone_dust"
     },
     {
-      "item": "minecraft:iron_helmet"
+      "item": "minecraft:light_blue_shulker_box"
     },
     {
-      "item": "minecraft:minecart"
+      "item": "minecraft:lime_bed"
     },
     {
-      "item": "minecraft:rotten_flesh"
+      "item": "minecraft:pink_concrete"
     },
     {
-      "item": "minecraft:salmon_bucket"
+      "item": "minecraft:purple_stained_glass_pane"
     },
     {
-      "item": "minecraft:stripped_oak_wood"
+      "item": "minecraft:water_bucket"
     }
   ],
   "result": {

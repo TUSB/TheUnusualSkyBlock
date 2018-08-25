@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diamond_pickaxe"
+      "item": "minecraft:jungle_fence"
     }
   ],
   "result": {

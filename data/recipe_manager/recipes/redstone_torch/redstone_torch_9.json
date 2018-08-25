@@ -6,10 +6,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_log"
+      "item": "minecraft:fern"
     },
     "#": {
-      "item": "minecraft:wooden_hoe"
+      "item": "minecraft:jungle_log"
     }
   },
   "result": {

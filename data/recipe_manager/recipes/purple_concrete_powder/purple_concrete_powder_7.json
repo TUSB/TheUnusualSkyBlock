@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bubble_coral_block"
+      "item": "minecraft:baked_potato"
     },
     {
-      "item": "minecraft:cobblestone_stairs"
+      "item": "minecraft:diamond_axe"
     },
     {
-      "item": "minecraft:jungle_leaves"
+      "item": "minecraft:dragon_breath"
     },
     {
-      "item": "minecraft:lead"
+      "item": "minecraft:gray_dye"
     },
     {
-      "item": "minecraft:pink_terracotta"
+      "item": "minecraft:light_gray_bed"
     },
     {
-      "item": "minecraft:rabbit_foot"
+      "item": "minecraft:light_gray_shulker_box"
     },
     {
-      "item": "minecraft:red_mushroom_block"
+      "item": "minecraft:lime_bed"
     },
     {
-      "item": "minecraft:spruce_door"
+      "item": "minecraft:melon_slice"
     },
     {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:minecart"
     }
   ],
   "result": {

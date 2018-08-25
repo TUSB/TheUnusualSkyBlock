@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:quartz"
+      "item": "minecraft:brain_coral_fan"
     },
     "|": {
-      "item": "minecraft:rose_bush"
+      "item": "minecraft:shulker_box"
     }
   },
   "result": {

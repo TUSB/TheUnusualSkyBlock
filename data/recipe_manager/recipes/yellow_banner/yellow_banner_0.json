@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cauldron"
+      "item": "minecraft:gray_glazed_terracotta"
     },
     "|": {
-      "item": "minecraft:jungle_trapdoor"
+      "item": "minecraft:red_terracotta"
     }
   },
   "result": {

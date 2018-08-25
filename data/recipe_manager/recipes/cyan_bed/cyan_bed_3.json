@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:book"
+      "item": "minecraft:dandelion_yellow"
     },
     "X": {
-      "item": "minecraft:dark_oak_planks"
+      "item": "minecraft:oak_pressure_plate"
     }
   },
   "result": {

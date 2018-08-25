@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:beef"
+      "item": "minecraft:pumpkin"
     },
     "X": {
-      "item": "minecraft:cobblestone_slab"
+      "item": "minecraft:yellow_concrete"
     }
   },
   "result": {

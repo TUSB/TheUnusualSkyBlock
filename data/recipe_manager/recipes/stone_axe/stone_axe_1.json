@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:birch_fence_gate"
+      "item": "minecraft:acacia_trapdoor"
     },
     "#": {
-      "item": "minecraft:iron_horse_armor"
+      "item": "minecraft:orange_wool"
     }
   },
   "result": {

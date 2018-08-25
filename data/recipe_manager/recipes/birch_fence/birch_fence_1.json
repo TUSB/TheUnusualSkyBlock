@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:blue_shulker_box"
+      "item": "minecraft:acacia_fence"
     },
     "#": {
-      "item": "minecraft:purple_terracotta"
+      "item": "minecraft:hopper_minecart"
     }
   },
   "result": {

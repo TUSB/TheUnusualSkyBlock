@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:dandelion"
+      "item": "minecraft:diamond_horse_armor"
     },
     "C": {
-      "item": "minecraft:wooden_sword"
+      "item": "minecraft:wooden_shovel"
     }
   },
   "result": {

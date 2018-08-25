@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dried_kelp_block"
+      "item": "minecraft:light_blue_shulker_box"
     },
     "X": {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:spruce_log"
     }
   },
   "result": {

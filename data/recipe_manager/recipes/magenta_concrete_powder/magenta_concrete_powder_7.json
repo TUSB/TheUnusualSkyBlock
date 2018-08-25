@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bone_meal"
+      "item": "minecraft:acacia_button"
     },
     {
-      "item": "minecraft:golden_boots"
+      "item": "minecraft:anvil"
     },
     {
-      "item": "minecraft:green_stained_glass"
+      "item": "minecraft:brewing_stand"
     },
     {
-      "item": "minecraft:iron_boots"
+      "item": "minecraft:coal_block"
     },
     {
-      "item": "minecraft:lilac"
+      "item": "minecraft:dandelion_yellow"
     },
     {
-      "item": "minecraft:lily_pad"
+      "item": "minecraft:lapis_ore"
     },
     {
-      "item": "minecraft:magenta_glazed_terracotta"
+      "item": "minecraft:polished_diorite"
     },
     {
-      "item": "minecraft:petrified_oak_slab"
+      "item": "minecraft:purple_stained_glass"
     },
     {
-      "item": "minecraft:porkchop"
+      "item": "minecraft:yellow_terracotta"
     }
   ],
   "result": {

@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_concrete_powder"
+      "item": "minecraft:cactus"
     },
     {
-      "item": "minecraft:emerald_block"
+      "item": "minecraft:light_blue_wool"
     },
     {
-      "item": "minecraft:jungle_stairs"
+      "item": "minecraft:stone_shovel"
     }
   ],
   "result": {

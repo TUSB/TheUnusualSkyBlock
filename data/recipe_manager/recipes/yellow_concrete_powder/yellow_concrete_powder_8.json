@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_concrete"
+      "item": "minecraft:book"
     },
     {
-      "item": "minecraft:clay"
+      "item": "minecraft:cooked_chicken"
     },
     {
-      "item": "minecraft:diamond_helmet"
+      "item": "minecraft:cyan_banner"
     },
     {
-      "item": "minecraft:dirt"
+      "item": "minecraft:diamond_hoe"
     },
     {
-      "item": "minecraft:gunpowder"
+      "item": "minecraft:glowstone"
     },
     {
-      "item": "minecraft:iron_trapdoor"
+      "item": "minecraft:green_bed"
     },
     {
-      "item": "minecraft:minecart"
+      "item": "minecraft:orange_stained_glass"
     },
     {
-      "item": "minecraft:rabbit_stew"
+      "item": "minecraft:shulker_shell"
     },
     {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:stripped_dark_oak_wood"
     }
   ],
   "result": {

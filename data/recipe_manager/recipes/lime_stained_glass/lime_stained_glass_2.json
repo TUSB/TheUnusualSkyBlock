@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_shulker_box"
+      "item": "minecraft:green_terracotta"
     },
     "X": {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:spruce_slab"
     }
   },
   "result": {

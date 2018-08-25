@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:birch_boat"
+      "item": "minecraft:painting"
     },
     "#": {
-      "item": "minecraft:cyan_glazed_terracotta"
+      "item": "minecraft:polished_granite"
     }
   },
   "result": {

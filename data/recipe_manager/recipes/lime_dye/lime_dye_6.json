@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_slab"
+      "item": "minecraft:blue_concrete_powder"
     },
     {
-      "item": "minecraft:brain_coral"
+      "item": "minecraft:dark_oak_wood"
     }
   ],
   "result": {

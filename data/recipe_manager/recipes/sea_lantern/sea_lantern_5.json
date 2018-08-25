@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:vine"
+      "item": "minecraft:cobblestone_slab"
     },
     "C": {
-      "item": "minecraft:white_shulker_box"
+      "item": "minecraft:note_block"
     }
   },
   "result": {

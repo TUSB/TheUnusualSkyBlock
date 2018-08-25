@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_fence_gate"
+      "item": "minecraft:brain_coral"
     },
     {
-      "item": "minecraft:dark_oak_leaves"
+      "item": "minecraft:ender_eye"
     },
     {
-      "item": "minecraft:gold_nugget"
+      "item": "minecraft:fern"
     },
     {
-      "item": "minecraft:orange_banner"
+      "item": "minecraft:furnace"
     },
     {
-      "item": "minecraft:redstone_lamp"
+      "item": "minecraft:lime_dye"
     },
     {
-      "item": "minecraft:sand"
+      "item": "minecraft:magenta_dye"
     },
     {
-      "item": "minecraft:stripped_acacia_wood"
+      "item": "minecraft:magma_block"
     },
     {
-      "item": "minecraft:tropical_fish"
+      "item": "minecraft:orange_concrete_powder"
     },
     {
-      "item": "minecraft:yellow_glazed_terracotta"
+      "item": "minecraft:pumpkin_pie"
     }
   ],
   "result": {

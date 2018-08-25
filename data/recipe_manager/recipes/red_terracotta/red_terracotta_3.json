@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_concrete_powder"
+      "item": "minecraft:stripped_acacia_wood"
     },
     "X": {
-      "item": "minecraft:wooden_sword"
+      "item": "minecraft:yellow_stained_glass_pane"
     }
   },
   "result": {

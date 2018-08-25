@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:glistering_melon_slice"
+      "item": "minecraft:golden_sword"
     },
     "#": {
-      "item": "minecraft:iron_boots"
+      "item": "minecraft:light_gray_bed"
     }
   },
   "result": {

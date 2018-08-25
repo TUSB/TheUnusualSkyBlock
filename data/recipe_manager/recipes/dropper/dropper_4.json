@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brown_terracotta"
+      "item": "minecraft:dead_tube_coral_block"
     },
     "R": {
-      "item": "minecraft:cooked_rabbit"
+      "item": "minecraft:rabbit_stew"
     }
   },
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brain_coral"
+      "item": "minecraft:diamond_hoe"
     },
     "X": {
-      "item": "minecraft:clay"
+      "item": "minecraft:oak_leaves"
     },
     "R": {
-      "item": "minecraft:pink_carpet"
+      "item": "minecraft:prismarine"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:bookshelf"
+      "item": "minecraft:clay"
     },
     {
-      "item": "minecraft:ender_eye"
+      "item": "minecraft:cyan_banner"
     }
   ],
   "result": {

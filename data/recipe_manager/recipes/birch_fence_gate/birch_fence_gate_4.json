@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brick_slab"
+      "item": "minecraft:blue_wool"
     },
     "W": {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "item": "minecraft:orange_dye"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:light_gray_concrete"
+      "item": "minecraft:cactus"
     },
     "#": {
-      "item": "minecraft:shield"
+      "item": "minecraft:jungle_trapdoor"
     }
   },
   "result": {

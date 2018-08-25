@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dead_brain_coral_block"
+      "item": "minecraft:dead_fire_coral_fan"
     },
     {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:golden_hoe"
     }
   ],
   "result": {

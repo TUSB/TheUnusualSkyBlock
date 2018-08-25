@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brain_coral_fan"
+      "item": "minecraft:pufferfish"
     },
     {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:stripped_dark_oak_log"
     }
   ],
   "result": {

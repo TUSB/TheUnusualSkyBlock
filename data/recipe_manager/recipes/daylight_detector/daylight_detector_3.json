@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:blue_banner"
+      "item": "minecraft:dead_fire_coral_block"
     },
     "Q": {
-      "item": "minecraft:blue_concrete"
+      "item": "minecraft:orange_bed"
     },
     "W": {
-      "item": "minecraft:potion"
+      "item": "minecraft:wither_skeleton_skull"
     }
   },
   "result": {

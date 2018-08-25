@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:light_gray_stained_glass_pane"
+      "item": "minecraft:stripped_spruce_wood"
     },
     "I": {
-      "item": "minecraft:sandstone"
+      "item": "minecraft:trident"
     }
   },
   "result": {

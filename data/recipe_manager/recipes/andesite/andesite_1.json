@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dandelion_yellow"
+      "item": "minecraft:blaze_rod"
     },
     {
-      "item": "minecraft:large_fern"
+      "item": "minecraft:cut_sandstone"
     }
   ],
   "result": {

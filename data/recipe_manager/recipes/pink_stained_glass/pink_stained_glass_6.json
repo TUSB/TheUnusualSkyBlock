@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_planks"
+      "item": "minecraft:filled_map"
     },
     "X": {
-      "item": "minecraft:magenta_terracotta"
+      "item": "minecraft:lime_shulker_box"
     }
   },
   "result": {

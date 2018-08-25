@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_stairs"
+      "item": "minecraft:carrot_on_a_stick"
     },
     "X": {
-      "item": "minecraft:red_carpet"
+      "item": "minecraft:jungle_planks"
     },
     "I": {
-      "item": "minecraft:snow"
+      "item": "minecraft:lime_wool"
     }
   },
   "result": {

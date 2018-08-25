@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:brown_terracotta"
+      "item": "minecraft:gold_ore"
     },
     "#": {
-      "item": "minecraft:oak_fence"
+      "item": "minecraft:sponge"
     }
   },
   "result": {

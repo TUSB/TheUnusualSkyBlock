@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:end_stone"
+      "item": "minecraft:jack_o_lantern"
     },
     "I": {
-      "item": "minecraft:sugar"
+      "item": "minecraft:magma_cream"
     }
   },
   "result": {

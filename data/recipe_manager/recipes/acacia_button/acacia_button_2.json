@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:orange_tulip"
+      "item": "minecraft:blue_stained_glass"
     }
   ],
   "result": {

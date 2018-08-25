@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_leaves"
+      "item": "minecraft:birch_slab"
     },
     "X": {
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:cobblestone"
     }
   },
   "result": {

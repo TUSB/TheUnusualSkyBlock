@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_wool"
+      "item": "minecraft:birch_stairs"
     },
     {
-      "item": "minecraft:brown_shulker_box"
+      "item": "minecraft:cobblestone_wall"
     },
     {
-      "item": "minecraft:chiseled_red_sandstone"
+      "item": "minecraft:golden_leggings"
     },
     {
-      "item": "minecraft:cyan_dye"
+      "item": "minecraft:green_concrete_powder"
     },
     {
-      "item": "minecraft:iron_boots"
+      "item": "minecraft:hay_block"
     },
     {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:light_gray_banner"
     },
     {
-      "item": "minecraft:lead"
+      "item": "minecraft:stripped_dark_oak_wood"
     },
     {
-      "item": "minecraft:spruce_wood"
+      "item": "minecraft:white_bed"
     },
     {
-      "item": "minecraft:stone_pressure_plate"
+      "item": "minecraft:wooden_axe"
     }
   ],
   "result": {

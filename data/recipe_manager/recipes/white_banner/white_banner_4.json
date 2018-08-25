@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_sapling"
+      "item": "minecraft:iron_nugget"
     },
     "|": {
-      "item": "minecraft:cooked_rabbit"
+      "item": "minecraft:white_banner"
     }
   },
   "result": {

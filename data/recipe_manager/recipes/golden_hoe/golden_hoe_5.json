@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:furnace"
+      "item": "minecraft:salmon"
     },
     "#": {
-      "item": "minecraft:purple_terracotta"
+      "item": "minecraft:soul_sand"
     }
   },
   "result": {

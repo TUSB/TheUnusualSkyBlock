@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:quartz_block"
+      "item": "minecraft:magenta_glazed_terracotta"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:cake"
+      "item": "minecraft:chiseled_sandstone"
     },
     "B": {
-      "item": "minecraft:prismarine_crystals"
+      "item": "minecraft:flint"
     }
   },
   "result": {

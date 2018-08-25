@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:grass_path"
+      "item": "minecraft:golden_boots"
     },
     "X": {
-      "item": "minecraft:spruce_stairs"
+      "item": "minecraft:spruce_wood"
     }
   },
   "result": {

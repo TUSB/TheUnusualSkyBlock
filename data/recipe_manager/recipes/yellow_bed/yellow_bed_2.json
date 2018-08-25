@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:compass"
+      "item": "minecraft:brick_stairs"
     },
     "X": {
-      "item": "minecraft:tropical_fish"
+      "item": "minecraft:cyan_terracotta"
     }
   },
   "result": {

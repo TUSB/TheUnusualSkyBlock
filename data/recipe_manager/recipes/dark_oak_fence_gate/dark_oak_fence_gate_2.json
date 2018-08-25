@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:black_concrete"
+      "item": "minecraft:mycelium"
     },
     "W": {
-      "item": "minecraft:wooden_sword"
+      "item": "minecraft:spruce_pressure_plate"
     }
   },
   "result": {

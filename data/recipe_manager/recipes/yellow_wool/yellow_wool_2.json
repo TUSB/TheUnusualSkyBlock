@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cod_bucket"
+      "item": "minecraft:cyan_stained_glass_pane"
     },
     {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     }
   ],
   "result": {

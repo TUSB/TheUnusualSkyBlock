@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_button"
+      "item": "minecraft:furnace_minecart"
     },
     {
-      "item": "minecraft:red_mushroom_block"
+      "item": "minecraft:lilac"
     }
   ],
   "result": {

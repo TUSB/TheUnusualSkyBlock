@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_helmet"
+      "item": "minecraft:black_terracotta"
     },
     "|": {
-      "item": "minecraft:lime_terracotta"
+      "item": "minecraft:jungle_log"
     }
   },
   "result": {

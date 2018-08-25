@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:scute"
+      "item": "minecraft:acacia_fence"
     },
     "|": {
-      "item": "minecraft:sticky_piston"
+      "item": "minecraft:lava_bucket"
     }
   },
   "result": {

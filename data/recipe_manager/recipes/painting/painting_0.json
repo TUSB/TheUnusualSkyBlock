@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:andesite"
+      "item": "minecraft:dead_fire_coral_fan"
     },
     "X": {
-      "item": "minecraft:ender_chest"
+      "item": "minecraft:trapped_chest"
     }
   },
   "result": {

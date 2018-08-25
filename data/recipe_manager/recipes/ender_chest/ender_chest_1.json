@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:activator_rail"
+      "item": "minecraft:pink_terracotta"
     },
     "E": {
-      "item": "minecraft:daylight_detector"
+      "item": "minecraft:quartz_block"
     }
   },
   "result": {

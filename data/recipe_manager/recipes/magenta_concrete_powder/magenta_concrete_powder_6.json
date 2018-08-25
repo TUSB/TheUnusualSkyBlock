@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_concrete_powder"
+      "item": "minecraft:blue_bed"
     },
     {
-      "item": "minecraft:blaze_rod"
+      "item": "minecraft:blue_terracotta"
     },
     {
-      "item": "minecraft:blue_glazed_terracotta"
+      "item": "minecraft:cyan_carpet"
     },
     {
-      "item": "minecraft:cobblestone_stairs"
+      "item": "minecraft:gray_stained_glass_pane"
     },
     {
-      "item": "minecraft:purpur_slab"
+      "item": "minecraft:mossy_cobblestone_wall"
     },
     {
-      "item": "minecraft:purpur_stairs"
+      "item": "minecraft:poppy"
     },
     {
-      "item": "minecraft:red_sandstone_stairs"
+      "item": "minecraft:quartz_block"
     },
     {
-      "item": "minecraft:stone_pressure_plate"
+      "item": "minecraft:red_mushroom_block"
     },
     {
-      "item": "minecraft:wooden_hoe"
+      "item": "minecraft:spruce_log"
     }
   ],
   "result": {

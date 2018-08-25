@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:glass"
+      "item": "minecraft:iron_nugget"
     },
     {
-      "item": "minecraft:white_stained_glass"
+      "item": "minecraft:nether_wart_block"
     }
   ],
   "result": {

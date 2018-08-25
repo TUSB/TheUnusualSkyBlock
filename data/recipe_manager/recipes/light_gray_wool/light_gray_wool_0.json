@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:nether_wart"
+      "item": "minecraft:activator_rail"
     },
     {
-      "item": "minecraft:tall_grass"
+      "item": "minecraft:pink_glazed_terracotta"
     }
   ],
   "result": {

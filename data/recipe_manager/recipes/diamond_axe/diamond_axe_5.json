@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:golden_axe"
+      "item": "minecraft:green_shulker_box"
     },
     "#": {
-      "item": "minecraft:yellow_concrete"
+      "item": "minecraft:wooden_hoe"
     }
   },
   "result": {

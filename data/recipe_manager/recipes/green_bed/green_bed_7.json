@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chiseled_red_sandstone"
+      "item": "minecraft:iron_axe"
     },
     "X": {
-      "item": "minecraft:hay_block"
+      "item": "minecraft:turtle_egg"
     }
   },
   "result": {

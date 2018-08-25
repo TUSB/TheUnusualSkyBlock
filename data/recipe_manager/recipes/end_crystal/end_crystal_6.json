@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:cookie"
+      "item": "minecraft:oak_pressure_plate"
     },
     "E": {
-      "item": "minecraft:glass_bottle"
+      "item": "minecraft:smooth_red_sandstone"
     },
     "T": {
-      "item": "minecraft:turtle_helmet"
+      "item": "minecraft:stone_brick_stairs"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:porkchop"
+      "item": "minecraft:acacia_pressure_plate"
     },
     "|": {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:dark_oak_stairs"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beef"
+      "item": "minecraft:acacia_leaves"
     },
     {
-      "item": "minecraft:iron_chestplate"
+      "item": "minecraft:bowl"
     },
     {
-      "item": "minecraft:jungle_leaves"
+      "item": "minecraft:brain_coral_fan"
     },
     {
-      "item": "minecraft:magenta_bed"
+      "item": "minecraft:feather"
     },
     {
-      "item": "minecraft:sandstone_slab"
+      "item": "minecraft:green_glazed_terracotta"
     },
     {
-      "item": "minecraft:slime_ball"
+      "item": "minecraft:melon_slice"
     },
     {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:pink_banner"
     },
     {
-      "item": "minecraft:tube_coral_fan"
+      "item": "minecraft:poisonous_potato"
     },
     {
-      "item": "minecraft:wooden_pickaxe"
+      "item": "minecraft:stone_brick_slab"
     }
   ],
   "result": {

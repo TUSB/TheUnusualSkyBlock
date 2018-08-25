@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:prismarine"
+      "item": "minecraft:armor_stand"
     },
     "B": {
-      "item": "minecraft:quartz_slab"
+      "item": "minecraft:carrot_on_a_stick"
     }
   },
   "result": {

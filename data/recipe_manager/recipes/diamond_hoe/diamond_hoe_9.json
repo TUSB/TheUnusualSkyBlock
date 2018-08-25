@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_stained_glass_pane"
+      "item": "minecraft:dark_oak_sapling"
     },
     "#": {
-      "item": "minecraft:cactus"
+      "item": "minecraft:prismarine_slab"
     }
   },
   "result": {

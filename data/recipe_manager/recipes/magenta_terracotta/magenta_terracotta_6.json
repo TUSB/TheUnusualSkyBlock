@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:book"
+      "item": "minecraft:iron_bars"
     },
     "X": {
-      "item": "minecraft:fire_coral_fan"
+      "item": "minecraft:oak_boat"
     }
   },
   "result": {

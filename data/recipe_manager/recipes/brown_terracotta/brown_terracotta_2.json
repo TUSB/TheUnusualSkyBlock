@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:rabbit_hide"
+      "item": "minecraft:activator_rail"
     },
     "X": {
-      "item": "minecraft:string"
+      "item": "minecraft:white_concrete"
     }
   },
   "result": {

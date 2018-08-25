@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:jungle_wood"
+      "item": "minecraft:brown_stained_glass"
     },
     "X": {
-      "item": "minecraft:purple_stained_glass"
+      "item": "minecraft:spruce_stairs"
     }
   },
   "result": {

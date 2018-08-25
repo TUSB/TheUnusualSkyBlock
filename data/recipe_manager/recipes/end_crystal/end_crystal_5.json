@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:cake"
+      "item": "minecraft:carrot_on_a_stick"
     },
     "E": {
-      "item": "minecraft:flower_pot"
+      "item": "minecraft:fire_coral"
     },
     "T": {
-      "item": "minecraft:player_head"
+      "item": "minecraft:hopper"
     }
   },
   "result": {

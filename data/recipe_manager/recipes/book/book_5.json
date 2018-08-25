@@ -2,16 +2,16 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_banner"
+      "item": "minecraft:green_concrete"
     },
     {
-      "item": "minecraft:diamond_hoe"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     },
     {
-      "item": "minecraft:furnace_minecart"
+      "item": "minecraft:spruce_boat"
     },
     {
-      "item": "minecraft:nether_brick_fence"
+      "item": "minecraft:spruce_slab"
     }
   ],
   "result": {

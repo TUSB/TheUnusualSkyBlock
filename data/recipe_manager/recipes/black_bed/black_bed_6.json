@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cactus_green"
+      "item": "minecraft:iron_pickaxe"
     },
     "X": {
-      "item": "minecraft:furnace"
+      "item": "minecraft:slime_block"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:mushroom_stem"
+      "item": "minecraft:acacia_door"
     },
     "X": {
-      "item": "minecraft:nether_bricks"
+      "item": "minecraft:powered_rail"
     }
   },
   "result": {

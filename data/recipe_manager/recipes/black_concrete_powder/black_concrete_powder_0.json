@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_wood"
+      "item": "minecraft:baked_potato"
     },
     {
-      "item": "minecraft:birch_sapling"
+      "item": "minecraft:bone_meal"
     },
     {
       "item": "minecraft:brown_bed"
     },
     {
-      "item": "minecraft:chiseled_red_sandstone"
+      "item": "minecraft:diamond_chestplate"
     },
     {
-      "item": "minecraft:dark_oak_door"
+      "item": "minecraft:green_bed"
     },
     {
-      "item": "minecraft:gold_block"
+      "item": "minecraft:green_terracotta"
     },
     {
-      "item": "minecraft:magenta_shulker_box"
+      "item": "minecraft:mossy_stone_bricks"
     },
     {
-      "item": "minecraft:red_mushroom"
+      "item": "minecraft:mutton"
     },
     {
-      "item": "minecraft:sandstone_stairs"
+      "item": "minecraft:redstone"
     }
   ],
   "result": {

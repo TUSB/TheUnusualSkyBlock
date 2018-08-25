@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brick"
+      "item": "minecraft:oak_trapdoor"
     },
     "X": {
-      "item": "minecraft:packed_ice"
+      "item": "minecraft:redstone_ore"
     }
   },
   "result": {

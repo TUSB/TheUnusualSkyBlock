@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:clay"
+      "item": "minecraft:magenta_banner"
     },
     "#": {
-      "item": "minecraft:stone_brick_stairs"
+      "item": "minecraft:rotten_flesh"
     }
   },
   "result": {

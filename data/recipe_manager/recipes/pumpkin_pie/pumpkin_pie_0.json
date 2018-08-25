@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:gray_stained_glass_pane"
+      "item": "minecraft:glistering_melon_slice"
     },
     {
-      "item": "minecraft:quartz"
+      "item": "minecraft:nether_bricks"
     },
     {
-      "item": "minecraft:stripped_jungle_log"
+      "item": "minecraft:spruce_fence"
     }
   ],
   "result": {

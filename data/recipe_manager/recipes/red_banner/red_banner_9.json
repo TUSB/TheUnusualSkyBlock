@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:gunpowder"
     },
     "|": {
-      "item": "minecraft:leather_helmet"
+      "item": "minecraft:white_stained_glass"
     }
   },
   "result": {

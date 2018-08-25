@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chiseled_sandstone"
+      "item": "minecraft:lapis_block"
     },
     "X": {
-      "item": "minecraft:cooked_chicken"
+      "item": "minecraft:observer"
     }
   },
   "result": {

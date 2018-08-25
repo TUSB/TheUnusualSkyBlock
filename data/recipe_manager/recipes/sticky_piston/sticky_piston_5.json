@@ -6,10 +6,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:birch_leaves"
+      "item": "minecraft:mycelium"
     },
     "P": {
-      "item": "minecraft:large_fern"
+      "item": "minecraft:nether_brick"
     }
   },
   "result": {

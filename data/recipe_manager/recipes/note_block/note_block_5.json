@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:carrot_on_a_stick"
+      "item": "minecraft:birch_planks"
     },
     "X": {
-      "item": "minecraft:red_sandstone_stairs"
+      "item": "minecraft:cobblestone"
     }
   },
   "result": {

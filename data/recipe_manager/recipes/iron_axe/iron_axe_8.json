@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:golden_helmet"
+      "item": "minecraft:chainmail_helmet"
     },
     "#": {
-      "item": "minecraft:magenta_terracotta"
+      "item": "minecraft:orange_terracotta"
     }
   },
   "result": {

@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_boat"
+      "item": "minecraft:birch_boat"
     },
     {
-      "item": "minecraft:anvil"
+      "item": "minecraft:brown_stained_glass"
     },
     {
-      "item": "minecraft:cactus_green"
+      "item": "minecraft:cyan_concrete_powder"
     },
     {
-      "item": "minecraft:cobblestone"
+      "item": "minecraft:dead_brain_coral_fan"
     },
     {
-      "item": "minecraft:cyan_glazed_terracotta"
+      "item": "minecraft:iron_leggings"
     },
     {
-      "item": "minecraft:melon_slice"
+      "item": "minecraft:jungle_stairs"
     },
     {
-      "item": "minecraft:nether_wart_block"
+      "item": "minecraft:lava_bucket"
     },
     {
-      "item": "minecraft:orange_banner"
+      "item": "minecraft:stone"
     },
     {
-      "item": "minecraft:splash_potion"
+      "item": "minecraft:white_terracotta"
     }
   ],
   "result": {

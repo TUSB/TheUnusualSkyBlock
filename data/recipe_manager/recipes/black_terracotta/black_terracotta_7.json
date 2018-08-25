@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:prismarine_brick_slab"
+      "item": "minecraft:brewing_stand"
     },
     "X": {
-      "item": "minecraft:prismarine_slab"
+      "item": "minecraft:chiseled_sandstone"
     }
   },
   "result": {

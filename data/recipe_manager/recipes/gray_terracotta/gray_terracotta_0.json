@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:green_wool"
+      "item": "minecraft:clay_ball"
     },
     "X": {
-      "item": "minecraft:torch"
+      "item": "minecraft:red_shulker_box"
     }
   },
   "result": {

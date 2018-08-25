@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:glowstone_dust"
+      "item": "minecraft:smooth_red_sandstone"
     },
     "#": {
-      "item": "minecraft:lime_terracotta"
+      "item": "minecraft:tube_coral_block"
     }
   },
   "result": {

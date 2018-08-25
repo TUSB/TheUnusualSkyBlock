@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:carrot_on_a_stick"
+      "item": "minecraft:iron_bars"
     },
     {
-      "item": "minecraft:green_shulker_box"
+      "item": "minecraft:purpur_block"
     },
     {
-      "item": "minecraft:purple_terracotta"
+      "item": "minecraft:spruce_wood"
     }
   ],
   "result": {

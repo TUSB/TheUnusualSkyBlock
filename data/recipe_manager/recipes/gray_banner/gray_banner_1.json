@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:rabbit_stew"
+      "item": "minecraft:lead"
     },
     "|": {
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:spider_eye"
     }
   },
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lime_stained_glass"
+      "item": "minecraft:brown_concrete_powder"
     },
     "X": {
-      "item": "minecraft:potion"
+      "item": "minecraft:prismarine_crystals"
     },
     "R": {
-      "item": "minecraft:spruce_fence_gate"
+      "item": "minecraft:stone_button"
     }
   },
   "result": {

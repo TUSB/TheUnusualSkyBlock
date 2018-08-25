@@ -7,10 +7,10 @@
   ],
   "key": {
     "~": {
-      "item": "minecraft:azure_bluet"
+      "item": "minecraft:oak_fence_gate"
     },
     "O": {
-      "item": "minecraft:salmon"
+      "item": "minecraft:spruce_fence"
     }
   },
   "result": {

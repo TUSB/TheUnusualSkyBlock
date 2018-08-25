@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chipped_anvil"
+      "item": "minecraft:bone_block"
     },
     {
-      "item": "minecraft:green_bed"
+      "item": "minecraft:cobblestone"
     }
   ],
   "result": {

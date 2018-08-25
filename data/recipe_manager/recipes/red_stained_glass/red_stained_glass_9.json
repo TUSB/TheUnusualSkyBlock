@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:coal_ore"
+      "item": "minecraft:acacia_slab"
     },
     "X": {
-      "item": "minecraft:magenta_bed"
+      "item": "minecraft:chiseled_stone_bricks"
     }
   },
   "result": {

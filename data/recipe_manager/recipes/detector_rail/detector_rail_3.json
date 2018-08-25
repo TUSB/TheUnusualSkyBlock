@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:chest"
+      "item": "minecraft:gunpowder"
     },
     "#": {
-      "item": "minecraft:green_shulker_box"
+      "item": "minecraft:red_concrete"
     },
     "R": {
-      "item": "minecraft:pufferfish"
+      "item": "minecraft:stripped_birch_log"
     }
   },
   "result": {

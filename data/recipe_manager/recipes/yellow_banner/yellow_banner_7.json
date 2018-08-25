@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chainmail_chestplate"
+      "item": "minecraft:lime_shulker_box"
     },
     "|": {
-      "item": "minecraft:gray_wool"
+      "item": "minecraft:writable_book"
     }
   },
   "result": {

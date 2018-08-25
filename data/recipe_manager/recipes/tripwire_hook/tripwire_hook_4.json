@@ -7,13 +7,13 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:black_glazed_terracotta"
+      "item": "minecraft:light_blue_carpet"
     },
     "S": {
-      "item": "minecraft:clock"
+      "item": "minecraft:purple_glazed_terracotta"
     },
     "#": {
-      "item": "minecraft:light_gray_bed"
+      "item": "minecraft:white_stained_glass"
     }
   },
   "result": {

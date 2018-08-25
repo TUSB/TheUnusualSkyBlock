@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brain_coral_fan"
+      "item": "minecraft:acacia_log"
     },
     {
-      "item": "minecraft:egg"
+      "item": "minecraft:chiseled_quartz_block"
     },
     {
-      "item": "minecraft:grass_block"
+      "item": "minecraft:powered_rail"
     }
   ],
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:nether_brick_fence"
+      "item": "minecraft:jungle_fence"
     },
     {
-      "item": "minecraft:vine"
+      "item": "minecraft:yellow_bed"
     }
   ],
   "result": {

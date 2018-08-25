@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:stone"
+      "item": "minecraft:diamond_chestplate"
     },
     "|": {
-      "item": "minecraft:white_tulip"
+      "item": "minecraft:melon_slice"
     }
   },
   "result": {

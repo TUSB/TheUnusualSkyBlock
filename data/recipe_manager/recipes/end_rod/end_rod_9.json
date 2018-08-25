@@ -6,10 +6,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:gray_stained_glass"
+      "item": "minecraft:lava_bucket"
     },
     "#": {
-      "item": "minecraft:oak_fence_gate"
+      "item": "minecraft:pink_concrete"
     }
   },
   "result": {

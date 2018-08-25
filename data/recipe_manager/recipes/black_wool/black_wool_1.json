@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beetroot_seeds"
+      "item": "minecraft:spruce_leaves"
     },
     {
-      "item": "minecraft:stone_sword"
+      "item": "minecraft:sugar"
     }
   ],
   "result": {

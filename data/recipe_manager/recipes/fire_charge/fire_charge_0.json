@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:red_sandstone"
+      "item": "minecraft:vine"
     },
     {
-      "item": "minecraft:tnt_minecart"
+      "item": "minecraft:white_terracotta"
     }
   ],
   "result": {

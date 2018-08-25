@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:jungle_log"
+      "item": "minecraft:comparator"
     },
     {
-      "item": "minecraft:note_block"
+      "item": "minecraft:diamond_horse_armor"
     },
     {
-      "item": "minecraft:stripped_oak_log"
+      "item": "minecraft:white_stained_glass_pane"
     }
   ],
   "result": {

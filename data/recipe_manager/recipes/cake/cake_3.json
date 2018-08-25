@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:iron_hoe"
+      "item": "minecraft:dark_oak_slab"
     },
     "B": {
-      "item": "minecraft:spruce_wood"
+      "item": "minecraft:golden_shovel"
     },
     "E": {
-      "item": "minecraft:yellow_glazed_terracotta"
+      "item": "minecraft:large_fern"
     },
     "C": {
-      "item": "minecraft:yellow_wool"
+      "item": "minecraft:stone_brick_slab"
     }
   },
   "result": {

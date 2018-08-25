@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:green_stained_glass"
+      "item": "minecraft:brown_shulker_box"
     },
     "B": {
-      "item": "minecraft:quartz_pillar"
+      "item": "minecraft:potato"
     }
   },
   "result": {

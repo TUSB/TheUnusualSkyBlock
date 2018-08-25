@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:brain_coral_fan"
+      "item": "minecraft:coal_block"
     },
     {
-      "item": "minecraft:horn_coral"
+      "item": "minecraft:cyan_concrete"
     },
     {
-      "item": "minecraft:stripped_acacia_wood"
+      "item": "minecraft:end_rod"
     }
   ],
   "result": {

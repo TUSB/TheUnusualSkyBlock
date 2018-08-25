@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:light_blue_bed"
+      "item": "minecraft:brown_banner"
     },
     "#": {
-      "item": "minecraft:map"
+      "item": "minecraft:orange_banner"
     }
   },
   "result": {

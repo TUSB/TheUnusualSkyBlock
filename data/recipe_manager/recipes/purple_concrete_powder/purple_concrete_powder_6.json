@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_stained_glass"
+      "item": "minecraft:andesite"
     },
     {
-      "item": "minecraft:diamond_horse_armor"
+      "item": "minecraft:dead_fire_coral_fan"
     },
     {
-      "item": "minecraft:filled_map"
+      "item": "minecraft:diamond_pickaxe"
     },
     {
-      "item": "minecraft:fire_coral"
+      "item": "minecraft:dried_kelp"
     },
     {
-      "item": "minecraft:iron_hoe"
+      "item": "minecraft:golden_leggings"
     },
     {
-      "item": "minecraft:piston"
+      "item": "minecraft:orange_glazed_terracotta"
     },
     {
-      "item": "minecraft:prismarine"
+      "item": "minecraft:quartz"
     },
     {
-      "item": "minecraft:stick"
+      "item": "minecraft:soul_sand"
     },
     {
-      "item": "minecraft:trapped_chest"
+      "item": "minecraft:wheat_seeds"
     }
   ],
   "result": {

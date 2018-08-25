@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lime_terracotta"
+      "item": "minecraft:diamond_sword"
     },
     {
-      "item": "minecraft:purple_shulker_box"
+      "item": "minecraft:pufferfish_bucket"
     }
   ],
   "result": {

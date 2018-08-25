@@ -7,10 +7,10 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:birch_wood"
+      "item": "minecraft:iron_door"
     },
     "i": {
-      "item": "minecraft:quartz_stairs"
+      "item": "minecraft:stripped_acacia_wood"
     }
   },
   "result": {

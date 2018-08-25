@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diamond_ore"
+      "item": "minecraft:green_wool"
     },
     {
-      "item": "minecraft:scute"
+      "item": "minecraft:pink_terracotta"
     }
   ],
   "result": {

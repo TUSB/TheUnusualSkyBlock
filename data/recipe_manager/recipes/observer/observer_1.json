@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_shulker_box"
+      "item": "minecraft:carrot"
     },
     "R": {
-      "item": "minecraft:pink_dye"
+      "item": "minecraft:dragon_breath"
     },
     "Q": {
-      "item": "minecraft:powered_rail"
+      "item": "minecraft:nether_wart_block"
     }
   },
   "result": {

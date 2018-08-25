@@ -6,10 +6,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:item_frame"
+      "item": "minecraft:black_banner"
     },
     "#": {
-      "item": "minecraft:light_blue_wool"
+      "item": "minecraft:polished_granite"
     }
   },
   "result": {

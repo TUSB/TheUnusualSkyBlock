@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bone_block"
+      "item": "minecraft:nether_brick"
     },
     "|": {
-      "item": "minecraft:jungle_door"
+      "item": "minecraft:soul_sand"
     }
   },
   "result": {

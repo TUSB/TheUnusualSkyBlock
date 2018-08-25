@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_stairs"
+      "item": "minecraft:dandelion"
     },
     {
-      "item": "minecraft:orange_terracotta"
+      "item": "minecraft:smooth_sandstone"
     }
   ],
   "result": {

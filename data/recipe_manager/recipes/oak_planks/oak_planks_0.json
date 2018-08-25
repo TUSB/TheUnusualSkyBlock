@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:snow"
+      "item": "minecraft:chainmail_leggings"
     }
   ],
   "result": {

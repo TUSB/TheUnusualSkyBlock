@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_stained_glass_pane"
+      "item": "minecraft:lime_concrete"
     },
     "W": {
-      "item": "minecraft:oak_trapdoor"
+      "item": "minecraft:smooth_stone"
     }
   },
   "result": {

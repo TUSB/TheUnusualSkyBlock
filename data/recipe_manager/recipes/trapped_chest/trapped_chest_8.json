@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_wool"
+      "item": "minecraft:oak_leaves"
     },
     {
-      "item": "minecraft:emerald"
+      "item": "minecraft:stone_pressure_plate"
     }
   ],
   "result": {

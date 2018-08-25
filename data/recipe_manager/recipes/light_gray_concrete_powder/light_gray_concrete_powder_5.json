@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cauldron"
+      "item": "minecraft:acacia_slab"
     },
     {
-      "item": "minecraft:enchanting_table"
+      "item": "minecraft:acacia_stairs"
     },
     {
-      "item": "minecraft:furnace_minecart"
+      "item": "minecraft:birch_wood"
     },
     {
-      "item": "minecraft:hopper"
+      "item": "minecraft:black_terracotta"
     },
     {
-      "item": "minecraft:orange_tulip"
+      "item": "minecraft:cod"
     },
     {
-      "item": "minecraft:petrified_oak_slab"
+      "item": "minecraft:gray_concrete"
     },
     {
-      "item": "minecraft:snowball"
+      "item": "minecraft:horn_coral"
     },
     {
-      "item": "minecraft:spruce_wood"
+      "item": "minecraft:quartz_pillar"
     },
     {
-      "item": "minecraft:stone_button"
+      "item": "minecraft:white_concrete"
     }
   ],
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:ender_eye"
+      "item": "minecraft:fishing_rod"
     },
     {
-      "item": "minecraft:tube_coral_block"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     }
   ],
   "result": {

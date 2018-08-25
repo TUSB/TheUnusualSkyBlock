@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:beacon"
+      "item": "minecraft:dark_oak_pressure_plate"
     },
     "|": {
-      "item": "minecraft:purpur_block"
+      "item": "minecraft:flint_and_steel"
     }
   },
   "result": {

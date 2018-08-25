@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:bread"
+      "item": "minecraft:bubble_coral"
     },
     "#": {
-      "item": "minecraft:orange_bed"
+      "item": "minecraft:spruce_boat"
     }
   },
   "result": {

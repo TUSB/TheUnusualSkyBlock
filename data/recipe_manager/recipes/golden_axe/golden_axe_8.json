@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:chiseled_sandstone"
+      "item": "minecraft:jungle_leaves"
     },
     "#": {
-      "item": "minecraft:light_gray_glazed_terracotta"
+      "item": "minecraft:torch"
     }
   },
   "result": {

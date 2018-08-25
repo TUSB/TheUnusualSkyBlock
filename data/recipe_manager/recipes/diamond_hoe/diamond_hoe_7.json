@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:detector_rail"
+      "item": "minecraft:birch_fence"
     },
     "#": {
-      "item": "minecraft:writable_book"
+      "item": "minecraft:diamond"
     }
   },
   "result": {

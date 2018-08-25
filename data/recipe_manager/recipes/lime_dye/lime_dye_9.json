@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diorite"
+      "item": "minecraft:iron_chestplate"
     },
     {
-      "item": "minecraft:pink_terracotta"
+      "item": "minecraft:mossy_cobblestone_wall"
     }
   ],
   "result": {

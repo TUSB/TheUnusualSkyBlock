@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:red_bed"
+      "item": "minecraft:bone_block"
     },
     "|": {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:oak_door"
     }
   },
   "result": {

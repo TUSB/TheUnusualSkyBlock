@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:cooked_salmon"
     },
     "I": {
-      "item": "minecraft:poisonous_potato"
+      "item": "minecraft:soul_sand"
     }
   },
   "result": {

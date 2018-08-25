@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:mushroom_stew"
+      "item": "minecraft:baked_potato"
     },
     "B": {
-      "item": "minecraft:rose_bush"
+      "item": "minecraft:mutton"
     }
   },
   "result": {

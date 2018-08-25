@@ -6,10 +6,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:acacia_boat"
+      "item": "minecraft:brown_concrete"
     },
     "#": {
-      "item": "minecraft:green_concrete_powder"
+      "item": "minecraft:iron_door"
     }
   },
   "result": {

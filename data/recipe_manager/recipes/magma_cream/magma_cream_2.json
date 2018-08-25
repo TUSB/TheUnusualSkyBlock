@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beetroot_soup"
+      "item": "minecraft:dirt"
     },
     {
-      "item": "minecraft:black_glazed_terracotta"
+      "item": "minecraft:orange_tulip"
     }
   ],
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:heart_of_the_sea"
+      "item": "minecraft:fire_charge"
     },
     "#": {
-      "item": "minecraft:purple_dye"
+      "item": "minecraft:golden_chestplate"
     },
     "R": {
-      "item": "minecraft:white_glazed_terracotta"
+      "item": "minecraft:light_gray_concrete"
     }
   },
   "result": {

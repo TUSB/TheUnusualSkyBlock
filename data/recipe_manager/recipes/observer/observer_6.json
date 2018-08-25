@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_axe"
+      "item": "minecraft:leather_chestplate"
     },
     "R": {
-      "item": "minecraft:farmland"
+      "item": "minecraft:soul_sand"
     },
     "Q": {
-      "item": "minecraft:netherrack"
+      "item": "minecraft:stripped_oak_wood"
     }
   },
   "result": {

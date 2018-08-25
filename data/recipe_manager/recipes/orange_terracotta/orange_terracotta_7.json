@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dirt"
+      "item": "minecraft:dead_fire_coral_block"
     },
     "X": {
-      "item": "minecraft:orange_shulker_box"
+      "item": "minecraft:detector_rail"
     }
   },
   "result": {

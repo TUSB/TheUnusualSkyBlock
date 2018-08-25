@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:potato"
+      "item": "minecraft:birch_fence_gate"
     },
     "X": {
-      "item": "minecraft:red_sandstone_stairs"
+      "item": "minecraft:sponge"
     }
   },
   "result": {

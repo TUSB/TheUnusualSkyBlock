@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:green_banner"
+      "item": "minecraft:dark_oak_fence"
     },
     {
-      "item": "minecraft:spruce_trapdoor"
+      "item": "minecraft:orange_stained_glass"
     },
     {
-      "item": "minecraft:writable_book"
+      "item": "minecraft:purple_concrete_powder"
     }
   ],
   "result": {

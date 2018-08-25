@@ -7,13 +7,13 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:chorus_plant"
+      "item": "minecraft:birch_leaves"
     },
     "D": {
-      "item": "minecraft:cobweb"
+      "item": "minecraft:cooked_cod"
     },
     "#": {
-      "item": "minecraft:white_glazed_terracotta"
+      "item": "minecraft:yellow_banner"
     }
   },
   "result": {

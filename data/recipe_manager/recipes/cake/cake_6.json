@@ -7,16 +7,16 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:observer"
+      "item": "minecraft:cobblestone_slab"
     },
     "B": {
-      "item": "minecraft:redstone"
+      "item": "minecraft:dark_oak_trapdoor"
     },
     "E": {
-      "item": "minecraft:sponge"
+      "item": "minecraft:mossy_stone_bricks"
     },
     "C": {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:spruce_fence"
     }
   },
   "result": {

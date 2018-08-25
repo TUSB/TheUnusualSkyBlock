@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_boat"
+      "item": "minecraft:charcoal"
     },
     "#": {
-      "item": "minecraft:lingering_potion"
+      "item": "minecraft:detector_rail"
     }
   },
   "result": {

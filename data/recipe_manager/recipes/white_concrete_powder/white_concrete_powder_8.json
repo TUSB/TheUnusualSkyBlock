@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:diamond_chestplate"
+      "item": "minecraft:brown_wool"
     },
     {
-      "item": "minecraft:grass"
+      "item": "minecraft:cooked_rabbit"
     },
     {
-      "item": "minecraft:mutton"
+      "item": "minecraft:cookie"
     },
     {
-      "item": "minecraft:orange_stained_glass"
+      "item": "minecraft:cyan_stained_glass_pane"
     },
     {
-      "item": "minecraft:purple_concrete_powder"
+      "item": "minecraft:iron_nugget"
     },
     {
-      "item": "minecraft:red_terracotta"
+      "item": "minecraft:leather_helmet"
     },
     {
-      "item": "minecraft:spruce_boat"
+      "item": "minecraft:light_weighted_pressure_plate"
     },
     {
-      "item": "minecraft:trapped_chest"
+      "item": "minecraft:pink_shulker_box"
     },
     {
-      "item": "minecraft:yellow_shulker_box"
+      "item": "minecraft:rotten_flesh"
     }
   ],
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:ice"
+      "item": "minecraft:end_rod"
     },
     {
-      "item": "minecraft:tripwire_hook"
+      "item": "minecraft:magma_block"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_shovel"
+      "item": "minecraft:gray_bed"
     },
     "X": {
-      "item": "minecraft:wooden_axe"
+      "item": "minecraft:redstone"
     }
   },
   "result": {

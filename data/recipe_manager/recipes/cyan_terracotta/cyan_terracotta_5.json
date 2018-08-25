@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:kelp"
+      "item": "minecraft:birch_stairs"
     },
     "X": {
-      "item": "minecraft:nether_wart_block"
+      "item": "minecraft:gray_wool"
     }
   },
   "result": {

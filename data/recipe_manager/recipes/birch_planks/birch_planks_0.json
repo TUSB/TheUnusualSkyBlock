@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:rose_bush"
+      "item": "minecraft:fire_coral"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:fire_coral_fan"
+      "item": "minecraft:red_sandstone"
     },
     "C": {
-      "item": "minecraft:packed_ice"
+      "item": "minecraft:spruce_stairs"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:nether_wart_block"
+      "item": "minecraft:brown_concrete_powder"
     },
     "|": {
-      "item": "minecraft:podzol"
+      "item": "minecraft:tropical_fish"
     }
   },
   "result": {

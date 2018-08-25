@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:ghast_tear"
+      "item": "minecraft:bow"
     },
     "#": {
-      "item": "minecraft:green_wool"
+      "item": "minecraft:diamond_leggings"
     }
   },
   "result": {

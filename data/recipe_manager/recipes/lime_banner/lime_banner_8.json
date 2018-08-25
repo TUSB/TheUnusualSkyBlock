@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_fence"
+      "item": "minecraft:dark_prismarine_stairs"
     },
     "|": {
-      "item": "minecraft:sunflower"
+      "item": "minecraft:poppy"
     }
   },
   "result": {

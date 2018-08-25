@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:player_head"
+      "item": "minecraft:black_concrete"
     },
     "X": {
-      "item": "minecraft:polished_granite"
+      "item": "minecraft:magenta_carpet"
     }
   },
   "result": {

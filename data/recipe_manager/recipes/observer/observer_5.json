@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:damaged_anvil"
+      "item": "minecraft:acacia_boat"
     },
     "R": {
-      "item": "minecraft:red_shulker_box"
+      "item": "minecraft:trapped_chest"
     },
     "Q": {
-      "item": "minecraft:tnt_minecart"
+      "item": "minecraft:white_concrete"
     }
   },
   "result": {

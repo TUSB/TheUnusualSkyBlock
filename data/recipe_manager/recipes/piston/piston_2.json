@@ -7,16 +7,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:black_glazed_terracotta"
+      "item": "minecraft:blue_terracotta"
     },
     "#": {
-      "item": "minecraft:green_glazed_terracotta"
+      "item": "minecraft:damaged_anvil"
     },
     "X": {
-      "item": "minecraft:oak_button"
+      "item": "minecraft:item_frame"
     },
     "R": {
-      "item": "minecraft:tube_coral_block"
+      "item": "minecraft:spruce_sapling"
     }
   },
   "result": {

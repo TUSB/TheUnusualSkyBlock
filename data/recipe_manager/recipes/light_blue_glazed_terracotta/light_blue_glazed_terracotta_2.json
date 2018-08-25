@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:ice"
+      "item": "minecraft:terracotta"
     }
   ],
   "result": {

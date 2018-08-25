@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:blue_glazed_terracotta"
+      "item": "minecraft:red_nether_bricks"
     },
     "B": {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:stone_bricks"
     }
   },
   "result": {

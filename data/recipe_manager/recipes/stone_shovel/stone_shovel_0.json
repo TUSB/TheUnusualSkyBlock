@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:brown_mushroom_block"
+      "item": "minecraft:magenta_carpet"
     },
     "#": {
-      "item": "minecraft:stone_button"
+      "item": "minecraft:prismarine"
     }
   },
   "result": {

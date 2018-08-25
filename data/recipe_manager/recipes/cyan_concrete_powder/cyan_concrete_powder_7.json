@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:cod"
+      "item": "minecraft:birch_planks"
     },
     {
-      "item": "minecraft:cyan_carpet"
+      "item": "minecraft:bowl"
     },
     {
-      "item": "minecraft:cyan_stained_glass"
+      "item": "minecraft:carved_pumpkin"
     },
     {
-      "item": "minecraft:gray_stained_glass"
+      "item": "minecraft:cracked_stone_bricks"
     },
     {
-      "item": "minecraft:lilac"
+      "item": "minecraft:light_blue_concrete"
     },
     {
-      "item": "minecraft:lily_pad"
+      "item": "minecraft:magma_cream"
     },
     {
-      "item": "minecraft:melon_slice"
+      "item": "minecraft:red_sandstone_stairs"
     },
     {
-      "item": "minecraft:orange_carpet"
+      "item": "minecraft:salmon_bucket"
     },
     {
-      "item": "minecraft:white_stained_glass_pane"
+      "item": "minecraft:wither_skeleton_skull"
     }
   ],
   "result": {

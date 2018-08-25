@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:nether_quartz_ore"
+      "item": "minecraft:carrot"
     },
     "|": {
-      "item": "minecraft:spruce_boat"
+      "item": "minecraft:large_fern"
     }
   },
   "result": {

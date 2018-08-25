@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:cyan_concrete"
     },
     "X": {
-      "item": "minecraft:spruce_button"
+      "item": "minecraft:end_stone"
     }
   },
   "result": {

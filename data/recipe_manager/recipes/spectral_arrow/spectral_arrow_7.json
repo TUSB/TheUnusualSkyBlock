@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_pressure_plate"
+      "item": "minecraft:sponge"
     },
     "X": {
-      "item": "minecraft:diamond_chestplate"
+      "item": "minecraft:tnt"
     }
   },
   "result": {

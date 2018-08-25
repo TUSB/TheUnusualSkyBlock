@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_door"
+      "item": "minecraft:diamond_sword"
     },
     "X": {
-      "item": "minecraft:magma_block"
+      "item": "minecraft:red_stained_glass"
     }
   },
   "result": {

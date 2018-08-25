@@ -7,10 +7,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:glass_bottle"
+      "item": "minecraft:black_concrete"
     },
     "I": {
-      "item": "minecraft:white_concrete_powder"
+      "item": "minecraft:mushroom_stew"
     }
   },
   "result": {

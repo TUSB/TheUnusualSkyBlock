@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:gold_ore"
+      "item": "minecraft:iron_door"
     },
     "#": {
-      "item": "minecraft:green_terracotta"
+      "item": "minecraft:tripwire_hook"
     }
   },
   "result": {

@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cocoa_beans"
+      "item": "minecraft:hay_block"
     },
     "X": {
-      "item": "minecraft:cookie"
+      "item": "minecraft:mushroom_stem"
     },
     "I": {
-      "item": "minecraft:red_wool"
+      "item": "minecraft:oak_door"
     }
   },
   "result": {

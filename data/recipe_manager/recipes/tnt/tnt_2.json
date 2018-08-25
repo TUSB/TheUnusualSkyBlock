@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:pink_tulip"
+      "item": "minecraft:rose_bush"
     },
     "#": {
-      "item": "minecraft:purpur_pillar"
+      "item": "minecraft:tall_grass"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:smooth_sandstone"
+      "item": "minecraft:hay_block"
     },
     {
-      "item": "minecraft:white_concrete_powder"
+      "item": "minecraft:wheat_seeds"
     }
   ],
   "result": {

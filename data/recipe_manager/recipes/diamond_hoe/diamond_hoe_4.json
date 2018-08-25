@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:green_glazed_terracotta"
+      "item": "minecraft:cauldron"
     },
     "#": {
-      "item": "minecraft:sugar"
+      "item": "minecraft:pink_banner"
     }
   },
   "result": {

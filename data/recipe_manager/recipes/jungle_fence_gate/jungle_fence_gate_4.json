@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:ice"
+      "item": "minecraft:end_stone_bricks"
     },
     "W": {
-      "item": "minecraft:rabbit_stew"
+      "item": "minecraft:green_wool"
     }
   },
   "result": {

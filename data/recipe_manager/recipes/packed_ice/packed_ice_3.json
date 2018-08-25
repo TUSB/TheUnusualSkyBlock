@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:coal_ore"
+      "item": "minecraft:heart_of_the_sea"
     },
     {
-      "item": "minecraft:lime_banner"
+      "item": "minecraft:light_blue_carpet"
     },
     {
       "item": "minecraft:orange_stained_glass"
     },
     {
-      "item": "minecraft:purple_bed"
+      "item": "minecraft:orange_wool"
     },
     {
-      "item": "minecraft:splash_potion"
+      "item": "minecraft:pink_concrete"
     },
     {
-      "item": "minecraft:trident"
+      "item": "minecraft:pufferfish"
     },
     {
-      "item": "minecraft:wheat_seeds"
+      "item": "minecraft:pumpkin_seeds"
     },
     {
-      "item": "minecraft:white_tulip"
+      "item": "minecraft:redstone_ore"
     },
     {
-      "item": "minecraft:yellow_terracotta"
+      "item": "minecraft:snow"
     }
   ],
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:dark_oak_leaves"
+      "item": "minecraft:acacia_fence"
     },
     "B": {
-      "item": "minecraft:dark_oak_sapling"
+      "item": "minecraft:chest_minecart"
     }
   },
   "result": {

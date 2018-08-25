@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_carpet"
+      "item": "minecraft:acacia_planks"
     },
     {
-      "item": "minecraft:brain_coral"
+      "item": "minecraft:carrot_on_a_stick"
     },
     {
-      "item": "minecraft:dandelion"
+      "item": "minecraft:cracked_stone_bricks"
     },
     {
-      "item": "minecraft:enchanted_book"
+      "item": "minecraft:ender_eye"
     },
     {
-      "item": "minecraft:golden_boots"
+      "item": "minecraft:light_blue_concrete_powder"
     },
     {
-      "item": "minecraft:golden_carrot"
+      "item": "minecraft:pink_bed"
     },
     {
-      "item": "minecraft:iron_door"
+      "item": "minecraft:snow"
     },
     {
-      "item": "minecraft:sign"
+      "item": "minecraft:spruce_stairs"
     },
     {
-      "item": "minecraft:wheat_seeds"
+      "item": "minecraft:turtle_egg"
     }
   ],
   "result": {

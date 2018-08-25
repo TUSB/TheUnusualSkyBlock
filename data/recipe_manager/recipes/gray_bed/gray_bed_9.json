@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blaze_rod"
+      "item": "minecraft:magenta_shulker_box"
     },
     "X": {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:nether_brick_fence"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_fence"
+      "item": "minecraft:redstone_block"
     },
     "R": {
-      "item": "minecraft:iron_nugget"
+      "item": "minecraft:smooth_quartz"
     }
   },
   "result": {

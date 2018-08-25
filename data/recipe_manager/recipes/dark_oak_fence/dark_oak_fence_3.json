@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:brown_concrete"
+      "item": "minecraft:magenta_stained_glass_pane"
     },
     "#": {
-      "item": "minecraft:golden_hoe"
+      "item": "minecraft:zombie_head"
     }
   },
   "result": {

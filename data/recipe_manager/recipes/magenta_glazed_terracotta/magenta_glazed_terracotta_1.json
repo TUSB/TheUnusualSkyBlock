@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:green_bed"
+      "item": "minecraft:hay_block"
     }
   ],
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:gray_carpet"
+      "item": "minecraft:birch_log"
     },
     {
-      "item": "minecraft:white_tulip"
+      "item": "minecraft:iron_horse_armor"
     }
   ],
   "result": {

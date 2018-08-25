@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dark_oak_sapling"
+      "item": "minecraft:comparator"
     },
     "X": {
-      "item": "minecraft:flint_and_steel"
+      "item": "minecraft:damaged_anvil"
     },
     "I": {
-      "item": "minecraft:stripped_dark_oak_log"
+      "item": "minecraft:pink_tulip"
     }
   },
   "result": {

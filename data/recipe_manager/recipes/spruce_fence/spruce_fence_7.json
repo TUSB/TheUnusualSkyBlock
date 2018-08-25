@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:farmland"
+      "item": "minecraft:cobblestone"
     },
     "#": {
-      "item": "minecraft:nether_brick_slab"
+      "item": "minecraft:white_carpet"
     }
   },
   "result": {

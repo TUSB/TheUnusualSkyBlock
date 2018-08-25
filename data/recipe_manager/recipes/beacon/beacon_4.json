@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:blue_shulker_box"
+      "item": "minecraft:blue_terracotta"
     },
     "S": {
-      "item": "minecraft:iron_block"
+      "item": "minecraft:diorite"
     },
     "O": {
-      "item": "minecraft:red_shulker_box"
+      "item": "minecraft:orange_dye"
     }
   },
   "result": {

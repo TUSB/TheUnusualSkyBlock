@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beetroot_seeds"
+      "item": "minecraft:brown_carpet"
     },
     {
-      "item": "minecraft:brick_slab"
+      "item": "minecraft:cactus"
     },
     {
-      "item": "minecraft:cooked_salmon"
+      "item": "minecraft:cauldron"
     },
     {
-      "item": "minecraft:diamond_axe"
+      "item": "minecraft:flint"
     },
     {
-      "item": "minecraft:fermented_spider_eye"
+      "item": "minecraft:prismarine"
     },
     {
-      "item": "minecraft:gold_block"
+      "item": "minecraft:quartz"
     },
     {
-      "item": "minecraft:magma_block"
+      "item": "minecraft:saddle"
     },
     {
-      "item": "minecraft:orange_bed"
+      "item": "minecraft:snow_block"
     },
     {
-      "item": "minecraft:spruce_fence_gate"
+      "item": "minecraft:stone_sword"
     }
   ],
   "result": {

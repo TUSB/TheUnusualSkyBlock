@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:flower_pot"
+      "item": "minecraft:brown_concrete"
     },
     "X": {
-      "item": "minecraft:light_weighted_pressure_plate"
+      "item": "minecraft:light_gray_dye"
     },
     "I": {
-      "item": "minecraft:tripwire_hook"
+      "item": "minecraft:orange_banner"
     }
   },
   "result": {

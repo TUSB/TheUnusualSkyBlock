@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cactus_green"
+      "item": "minecraft:cyan_banner"
     },
     "#": {
-      "item": "minecraft:orange_wool"
+      "item": "minecraft:purple_stained_glass"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:ender_eye"
+      "item": "minecraft:coal_ore"
     },
     "|": {
-      "item": "minecraft:jungle_wood"
+      "item": "minecraft:dispenser"
     }
   },
   "result": {

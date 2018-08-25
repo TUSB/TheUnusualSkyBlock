@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:observer"
+      "item": "minecraft:blue_concrete"
     },
     "X": {
-      "item": "minecraft:rose_red"
+      "item": "minecraft:quartz"
     }
   },
   "result": {

@@ -6,10 +6,10 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:coal_ore"
+      "item": "minecraft:diamond_horse_armor"
     },
     "#": {
-      "item": "minecraft:furnace_minecart"
+      "item": "minecraft:stick"
     }
   },
   "result": {

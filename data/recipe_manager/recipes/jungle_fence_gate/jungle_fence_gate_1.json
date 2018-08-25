@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:clay"
+      "item": "minecraft:string"
     },
     "W": {
-      "item": "minecraft:obsidian"
+      "item": "minecraft:wheat_seeds"
     }
   },
   "result": {

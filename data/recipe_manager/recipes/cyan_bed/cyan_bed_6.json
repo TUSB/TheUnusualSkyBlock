@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_stained_glass"
+      "item": "minecraft:gold_ore"
     },
     "X": {
-      "item": "minecraft:stone_button"
+      "item": "minecraft:orange_glazed_terracotta"
     }
   },
   "result": {

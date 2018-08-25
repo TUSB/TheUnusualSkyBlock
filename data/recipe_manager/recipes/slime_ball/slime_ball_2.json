@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:saddle"
+      "item": "minecraft:jungle_wood"
     }
   ],
   "result": {

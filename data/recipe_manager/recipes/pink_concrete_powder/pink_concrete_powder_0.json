@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_banner"
+      "item": "minecraft:birch_leaves"
     },
     {
-      "item": "minecraft:chorus_plant"
+      "item": "minecraft:black_carpet"
     },
     {
-      "item": "minecraft:light_gray_banner"
+      "item": "minecraft:blue_terracotta"
     },
     {
-      "item": "minecraft:magenta_glazed_terracotta"
+      "item": "minecraft:cauldron"
     },
     {
-      "item": "minecraft:rose_red"
+      "item": "minecraft:light_blue_carpet"
     },
     {
-      "item": "minecraft:shulker_box"
+      "item": "minecraft:pink_wool"
     },
     {
-      "item": "minecraft:spruce_fence_gate"
+      "item": "minecraft:stick"
     },
     {
-      "item": "minecraft:spruce_planks"
+      "item": "minecraft:stripped_jungle_log"
     },
     {
-      "item": "minecraft:tube_coral_fan"
+      "item": "minecraft:trapped_chest"
     }
   ],
   "result": {

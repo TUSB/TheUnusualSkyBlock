@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:leather"
+      "item": "minecraft:fishing_rod"
     },
     "#": {
-      "item": "minecraft:yellow_concrete_powder"
+      "item": "minecraft:porkchop"
     }
   },
   "result": {

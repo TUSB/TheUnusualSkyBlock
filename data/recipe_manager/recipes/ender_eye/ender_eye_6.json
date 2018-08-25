@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:jungle_sapling"
+      "item": "minecraft:tnt_minecart"
     },
     {
-      "item": "minecraft:redstone_block"
+      "item": "minecraft:vine"
     }
   ],
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:diamond_chestplate"
+      "item": "minecraft:fishing_rod"
     },
     "S": {
-      "item": "minecraft:glass"
+      "item": "minecraft:ink_sac"
     },
     "#": {
-      "item": "minecraft:glass_bottle"
+      "item": "minecraft:sugar_cane"
     }
   },
   "result": {

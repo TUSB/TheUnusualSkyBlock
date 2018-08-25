@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:chiseled_quartz_block"
+      "item": "minecraft:white_bed"
     }
   ],
   "result": {

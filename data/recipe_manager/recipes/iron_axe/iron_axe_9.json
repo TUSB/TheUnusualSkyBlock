@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:sea_lantern"
+      "item": "minecraft:golden_helmet"
     },
     "#": {
-      "item": "minecraft:stripped_dark_oak_wood"
+      "item": "minecraft:skeleton_skull"
     }
   },
   "result": {

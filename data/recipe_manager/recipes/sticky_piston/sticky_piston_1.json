@@ -6,10 +6,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:acacia_planks"
+      "item": "minecraft:magenta_terracotta"
     },
     "P": {
-      "item": "minecraft:quartz"
+      "item": "minecraft:orange_concrete"
     }
   },
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bowl"
+      "item": "minecraft:dead_fire_coral_fan"
     },
     "R": {
-      "item": "minecraft:pink_stained_glass"
+      "item": "minecraft:lime_stained_glass_pane"
     },
     "Q": {
-      "item": "minecraft:quartz_stairs"
+      "item": "minecraft:smooth_stone"
     }
   },
   "result": {

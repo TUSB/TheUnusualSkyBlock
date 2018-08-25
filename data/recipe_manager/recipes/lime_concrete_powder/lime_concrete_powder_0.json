@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:blaze_powder"
     },
     {
-      "item": "minecraft:blue_ice"
+      "item": "minecraft:cobweb"
     },
     {
-      "item": "minecraft:book"
+      "item": "minecraft:gray_bed"
     },
     {
-      "item": "minecraft:bow"
+      "item": "minecraft:gray_shulker_box"
     },
     {
-      "item": "minecraft:glass"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     },
     {
-      "item": "minecraft:note_block"
+      "item": "minecraft:pufferfish_bucket"
     },
     {
-      "item": "minecraft:red_sandstone"
+      "item": "minecraft:sponge"
     },
     {
-      "item": "minecraft:spruce_sapling"
+      "item": "minecraft:spruce_fence_gate"
     },
     {
-      "item": "minecraft:stone_sword"
+      "item": "minecraft:yellow_terracotta"
     }
   ],
   "result": {

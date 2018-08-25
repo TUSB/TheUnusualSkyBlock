@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:mushroom_stew"
+      "item": "minecraft:redstone_ore"
     },
     "#": {
-      "item": "minecraft:red_concrete_powder"
+      "item": "minecraft:stripped_jungle_log"
     }
   },
   "result": {

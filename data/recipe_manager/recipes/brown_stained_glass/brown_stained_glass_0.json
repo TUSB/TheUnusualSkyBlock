@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:purple_terracotta"
+      "item": "minecraft:apple"
     },
     "X": {
-      "item": "minecraft:smooth_quartz"
+      "item": "minecraft:brick_stairs"
     }
   },
   "result": {

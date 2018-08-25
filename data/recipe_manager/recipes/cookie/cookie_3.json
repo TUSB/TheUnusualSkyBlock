@@ -5,10 +5,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_ore"
+      "item": "minecraft:carved_pumpkin"
     },
     "X": {
-      "item": "minecraft:yellow_wool"
+      "item": "minecraft:crafting_table"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:birch_fence"
+      "item": "minecraft:cracked_stone_bricks"
     },
     "X": {
-      "item": "minecraft:ice"
+      "item": "minecraft:hopper"
     }
   },
   "result": {

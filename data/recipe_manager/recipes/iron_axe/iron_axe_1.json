@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:mossy_stone_bricks"
+      "item": "minecraft:dead_horn_coral_block"
     },
     "#": {
-      "item": "minecraft:mycelium"
+      "item": "minecraft:tall_grass"
     }
   },
   "result": {

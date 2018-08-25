@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:pink_stained_glass_pane"
     },
     "#": {
-      "item": "minecraft:yellow_shulker_box"
+      "item": "minecraft:sponge"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magenta_stained_glass_pane"
+      "item": "minecraft:shield"
     },
     "X": {
-      "item": "minecraft:yellow_concrete"
+      "item": "minecraft:spruce_trapdoor"
     }
   },
   "result": {

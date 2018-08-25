@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:carrot"
+      "item": "minecraft:allium"
     },
     "#": {
-      "item": "minecraft:damaged_anvil"
+      "item": "minecraft:golden_pickaxe"
     }
   },
   "result": {

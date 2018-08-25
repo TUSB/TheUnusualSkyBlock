@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brewing_stand"
+      "item": "minecraft:farmland"
     },
     "|": {
-      "item": "minecraft:gray_terracotta"
+      "item": "minecraft:golden_sword"
     }
   },
   "result": {

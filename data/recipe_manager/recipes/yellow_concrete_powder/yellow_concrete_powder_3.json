@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:baked_potato"
+      "item": "minecraft:birch_log"
     },
     {
-      "item": "minecraft:birch_fence"
+      "item": "minecraft:egg"
     },
     {
-      "item": "minecraft:dead_horn_coral_block"
+      "item": "minecraft:golden_helmet"
     },
     {
-      "item": "minecraft:dried_kelp"
+      "item": "minecraft:gray_wool"
     },
     {
-      "item": "minecraft:furnace_minecart"
+      "item": "minecraft:heavy_weighted_pressure_plate"
     },
     {
-      "item": "minecraft:golden_sword"
+      "item": "minecraft:magenta_stained_glass_pane"
     },
     {
-      "item": "minecraft:gravel"
+      "item": "minecraft:nether_wart_block"
     },
     {
-      "item": "minecraft:green_wool"
+      "item": "minecraft:stone_shovel"
     },
     {
-      "item": "minecraft:tube_coral_fan"
+      "item": "minecraft:wet_sponge"
     }
   ],
   "result": {

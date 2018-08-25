@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:grass_block"
+      "item": "minecraft:acacia_sapling"
     },
     "X": {
-      "item": "minecraft:gray_stained_glass"
+      "item": "minecraft:coal_block"
     }
   },
   "result": {

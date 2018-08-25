@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:magma_block"
+      "item": "minecraft:sugar"
     },
     {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:tropical_fish_bucket"
     }
   ],
   "result": {

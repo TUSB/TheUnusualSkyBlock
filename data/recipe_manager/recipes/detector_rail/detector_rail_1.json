@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:diamond"
+      "item": "minecraft:diamond_shovel"
     },
     "#": {
-      "item": "minecraft:orange_banner"
+      "item": "minecraft:ghast_tear"
     },
     "R": {
-      "item": "minecraft:tube_coral"
+      "item": "minecraft:light_gray_bed"
     }
   },
   "result": {

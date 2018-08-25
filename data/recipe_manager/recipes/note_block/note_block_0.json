@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:horn_coral_block"
+      "item": "minecraft:large_fern"
     },
     "X": {
-      "item": "minecraft:smooth_stone"
+      "item": "minecraft:spruce_log"
     }
   },
   "result": {

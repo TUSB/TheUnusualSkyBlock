@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:enchanted_book"
+      "item": "minecraft:spruce_door"
     },
     "X": {
-      "item": "minecraft:redstone_ore"
+      "item": "minecraft:tube_coral_fan"
     }
   },
   "result": {

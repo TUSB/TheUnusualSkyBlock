@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:diamond_block"
+      "item": "minecraft:grass"
     },
     "B": {
-      "item": "minecraft:pink_wool"
+      "item": "minecraft:orange_concrete_powder"
     }
   },
   "result": {

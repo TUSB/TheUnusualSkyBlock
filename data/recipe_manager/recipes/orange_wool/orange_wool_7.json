@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:scute"
+      "item": "minecraft:cake"
     },
     {
-      "item": "minecraft:smooth_quartz"
+      "item": "minecraft:purpur_slab"
     }
   ],
   "result": {

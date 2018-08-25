@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:golden_chestplate"
+      "item": "minecraft:diamond_axe"
     },
     {
-      "item": "minecraft:red_carpet"
+      "item": "minecraft:emerald_block"
     }
   ],
   "result": {

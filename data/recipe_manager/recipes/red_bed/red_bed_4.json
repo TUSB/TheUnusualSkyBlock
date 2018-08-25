@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:bread"
+      "item": "minecraft:dark_oak_sapling"
     },
     "X": {
-      "item": "minecraft:piston"
+      "item": "minecraft:stripped_jungle_log"
     }
   },
   "result": {

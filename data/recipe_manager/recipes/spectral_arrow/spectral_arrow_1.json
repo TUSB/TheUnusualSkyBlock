@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:porkchop"
+      "item": "minecraft:cyan_concrete"
     },
     "X": {
-      "item": "minecraft:stripped_jungle_log"
+      "item": "minecraft:wooden_sword"
     }
   },
   "result": {

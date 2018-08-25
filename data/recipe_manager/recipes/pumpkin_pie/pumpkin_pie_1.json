@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:lime_terracotta"
+      "item": "minecraft:iron_helmet"
     },
     {
-      "item": "minecraft:stripped_oak_log"
+      "item": "minecraft:red_sandstone_stairs"
     },
     {
-      "item": "minecraft:wheat"
+      "item": "minecraft:yellow_concrete_powder"
     }
   ],
   "result": {

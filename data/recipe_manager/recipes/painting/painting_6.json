@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_glazed_terracotta"
+      "item": "minecraft:cyan_glazed_terracotta"
     },
     "X": {
-      "item": "minecraft:flint_and_steel"
+      "item": "minecraft:redstone"
     }
   },
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "I": {
-      "item": "minecraft:bricks"
+      "item": "minecraft:cocoa_beans"
     },
     "S": {
-      "item": "minecraft:saddle"
+      "item": "minecraft:dead_horn_coral_block"
     },
     "#": {
-      "item": "minecraft:spruce_log"
+      "item": "minecraft:wet_sponge"
     }
   },
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:magenta_wool"
+      "item": "minecraft:red_sand"
     },
     "Q": {
-      "item": "minecraft:soul_sand"
+      "item": "minecraft:redstone_block"
     },
     "W": {
-      "item": "minecraft:tube_coral_block"
+      "item": "minecraft:spruce_planks"
     }
   },
   "result": {

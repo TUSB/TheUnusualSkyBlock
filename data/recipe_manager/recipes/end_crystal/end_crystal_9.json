@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:anvil"
+      "item": "minecraft:blue_banner"
     },
     "E": {
-      "item": "minecraft:light_blue_shulker_box"
+      "item": "minecraft:jungle_sapling"
     },
     "T": {
-      "item": "minecraft:torch"
+      "item": "minecraft:pink_terracotta"
     }
   },
   "result": {

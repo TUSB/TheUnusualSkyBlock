@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:green_glazed_terracotta"
     },
     "#": {
-      "item": "minecraft:orange_tulip"
+      "item": "minecraft:light_blue_glazed_terracotta"
     }
   },
   "result": {

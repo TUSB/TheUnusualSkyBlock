@@ -2,7 +2,7 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:coarse_dirt"
+      "item": "minecraft:diamond_shovel"
     }
   ],
   "result": {

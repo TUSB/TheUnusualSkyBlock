@@ -6,10 +6,10 @@
   ],
   "key": {
     "B": {
-      "item": "minecraft:dirt"
+      "item": "minecraft:compass"
     },
     "#": {
-      "item": "minecraft:oak_wood"
+      "item": "minecraft:melon"
     }
   },
   "result": {

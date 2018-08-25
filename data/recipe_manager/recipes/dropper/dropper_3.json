@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:compass"
+      "item": "minecraft:gray_stained_glass"
     },
     "R": {
-      "item": "minecraft:diamond_horse_armor"
+      "item": "minecraft:poisonous_potato"
     }
   },
   "result": {

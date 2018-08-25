@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:anvil"
+      "item": "minecraft:cactus"
     },
     "X": {
-      "item": "minecraft:birch_fence"
+      "item": "minecraft:dead_fire_coral_block"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:birch_door"
+      "item": "minecraft:cyan_stained_glass"
     },
     "#": {
-      "item": "minecraft:splash_potion"
+      "item": "minecraft:magenta_banner"
     }
   },
   "result": {

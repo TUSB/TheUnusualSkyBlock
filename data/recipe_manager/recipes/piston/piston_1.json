@@ -7,16 +7,16 @@
   ],
   "key": {
     "T": {
-      "item": "minecraft:beetroot_soup"
+      "item": "minecraft:cobblestone"
     },
     "#": {
-      "item": "minecraft:lapis_ore"
+      "item": "minecraft:dandelion"
     },
     "X": {
-      "item": "minecraft:oak_wood"
+      "item": "minecraft:nether_brick_slab"
     },
     "R": {
-      "item": "minecraft:pink_terracotta"
+      "item": "minecraft:shulker_box"
     }
   },
   "result": {

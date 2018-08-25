@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:light_gray_shulker_box"
+      "item": "minecraft:blue_concrete"
     },
     "X": {
-      "item": "minecraft:white_concrete"
+      "item": "minecraft:dried_kelp_block"
     },
     "I": {
-      "item": "minecraft:white_terracotta"
+      "item": "minecraft:pink_bed"
     }
   },
   "result": {

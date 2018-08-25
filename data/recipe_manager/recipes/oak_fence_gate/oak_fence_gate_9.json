@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:dispenser"
+      "item": "minecraft:oak_wood"
     },
     "W": {
-      "item": "minecraft:redstone_torch"
+      "item": "minecraft:prismarine_crystals"
     }
   },
   "result": {

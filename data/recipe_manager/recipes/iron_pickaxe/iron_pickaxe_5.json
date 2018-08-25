@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:sandstone_stairs"
+      "item": "minecraft:coal"
     },
     "#": {
-      "item": "minecraft:torch"
+      "item": "minecraft:spruce_slab"
     }
   },
   "result": {

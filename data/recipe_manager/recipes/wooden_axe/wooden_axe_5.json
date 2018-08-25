@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_stairs"
+      "item": "minecraft:cobweb"
     },
     "#": {
-      "item": "minecraft:diamond_hoe"
+      "item": "minecraft:dead_fire_coral_block"
     }
   },
   "result": {

@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:iron_chestplate"
+      "item": "minecraft:magenta_glazed_terracotta"
     },
     {
-      "item": "minecraft:sunflower"
+      "item": "minecraft:melon_seeds"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:diamond_ore"
+      "item": "minecraft:dead_fire_coral_fan"
     },
     "|": {
-      "item": "minecraft:nether_brick"
+      "item": "minecraft:lily_pad"
     }
   },
   "result": {

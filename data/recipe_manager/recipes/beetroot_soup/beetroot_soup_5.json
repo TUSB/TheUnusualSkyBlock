@@ -7,10 +7,10 @@
   ],
   "key": {
     "O": {
-      "item": "minecraft:blue_carpet"
+      "item": "minecraft:iron_pickaxe"
     },
     "B": {
-      "item": "minecraft:stripped_acacia_log"
+      "item": "minecraft:stone_hoe"
     }
   },
   "result": {

@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_boat"
+      "item": "minecraft:lime_terracotta"
     },
     {
-      "item": "minecraft:dried_kelp"
+      "item": "minecraft:red_stained_glass"
     },
     {
-      "item": "minecraft:red_mushroom_block"
+      "item": "minecraft:wooden_axe"
     }
   ],
   "result": {

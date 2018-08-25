@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:acacia_button"
+      "item": "minecraft:pink_banner"
     },
     "#": {
-      "item": "minecraft:iron_pickaxe"
+      "item": "minecraft:pumpkin"
     }
   },
   "result": {

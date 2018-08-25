@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:nether_wart_block"
+      "item": "minecraft:light_gray_stained_glass_pane"
     },
     "X": {
-      "item": "minecraft:rotten_flesh"
+      "item": "minecraft:purple_glazed_terracotta"
     }
   },
   "result": {

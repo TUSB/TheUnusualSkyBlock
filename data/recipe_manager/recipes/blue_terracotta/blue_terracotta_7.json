@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:egg"
+      "item": "minecraft:stripped_acacia_wood"
     },
     "X": {
-      "item": "minecraft:magenta_terracotta"
+      "item": "minecraft:stripped_birch_wood"
     }
   },
   "result": {

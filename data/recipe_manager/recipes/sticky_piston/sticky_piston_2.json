@@ -6,10 +6,10 @@
   ],
   "key": {
     "S": {
-      "item": "minecraft:acacia_sapling"
+      "item": "minecraft:chest"
     },
     "P": {
-      "item": "minecraft:dried_kelp"
+      "item": "minecraft:cyan_concrete_powder"
     }
   },
   "result": {

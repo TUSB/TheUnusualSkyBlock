@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_terracotta"
+      "item": "minecraft:black_stained_glass"
     },
     "X": {
-      "item": "minecraft:ice"
+      "item": "minecraft:stone_slab"
     }
   },
   "result": {

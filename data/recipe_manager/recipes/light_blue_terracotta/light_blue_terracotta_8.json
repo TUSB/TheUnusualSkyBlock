@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:oak_wood"
+      "item": "minecraft:mossy_cobblestone_wall"
     },
     "X": {
-      "item": "minecraft:purple_banner"
+      "item": "minecraft:paper"
     }
   },
   "result": {

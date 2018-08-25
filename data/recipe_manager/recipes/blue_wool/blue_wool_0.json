@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:iron_axe"
+      "item": "minecraft:light_gray_concrete_powder"
     },
     {
-      "item": "minecraft:pink_wool"
+      "item": "minecraft:mossy_cobblestone"
     }
   ],
   "result": {

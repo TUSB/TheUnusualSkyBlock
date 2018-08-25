@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_terracotta"
+      "item": "minecraft:acacia_stairs"
     },
     "X": {
-      "item": "minecraft:diamond_hoe"
+      "item": "minecraft:item_frame"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:beetroot_soup"
+      "item": "minecraft:glowstone_dust"
     },
     "#": {
-      "item": "minecraft:item_frame"
+      "item": "minecraft:lime_carpet"
     }
   },
   "result": {

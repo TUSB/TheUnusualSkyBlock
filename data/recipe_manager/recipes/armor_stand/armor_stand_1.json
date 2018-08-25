@@ -7,10 +7,10 @@
   ],
   "key": {
     "/": {
-      "item": "minecraft:gray_stained_glass_pane"
+      "item": "minecraft:coarse_dirt"
     },
     "_": {
-      "item": "minecraft:potion"
+      "item": "minecraft:detector_rail"
     }
   },
   "result": {

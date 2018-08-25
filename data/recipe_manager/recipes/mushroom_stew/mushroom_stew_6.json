@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_fence_gate"
+      "item": "minecraft:brown_stained_glass_pane"
     },
     {
-      "item": "minecraft:iron_boots"
+      "item": "minecraft:red_bed"
     },
     {
-      "item": "minecraft:redstone_lamp"
+      "item": "minecraft:sand"
     }
   ],
   "result": {

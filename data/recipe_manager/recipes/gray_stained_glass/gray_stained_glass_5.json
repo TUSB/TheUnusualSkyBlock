@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lava_bucket"
+      "item": "minecraft:cooked_rabbit"
     },
     "X": {
-      "item": "minecraft:salmon_bucket"
+      "item": "minecraft:smooth_quartz"
     }
   },
   "result": {

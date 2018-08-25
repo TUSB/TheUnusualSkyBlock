@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:filled_map"
+      "item": "minecraft:diamond_hoe"
     },
     "#": {
-      "item": "minecraft:lapis_lazuli"
+      "item": "minecraft:end_crystal"
     },
     "R": {
-      "item": "minecraft:redstone_block"
+      "item": "minecraft:jungle_wood"
     }
   },
   "result": {

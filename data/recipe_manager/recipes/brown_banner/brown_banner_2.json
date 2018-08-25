@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:blue_concrete_powder"
+      "item": "minecraft:golden_sword"
     },
     "|": {
-      "item": "minecraft:yellow_stained_glass"
+      "item": "minecraft:lapis_block"
     }
   },
   "result": {

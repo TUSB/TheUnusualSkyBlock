@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:birch_planks"
+      "item": "minecraft:dark_oak_log"
     },
     {
-      "item": "minecraft:dark_oak_planks"
+      "item": "minecraft:gray_shulker_box"
     }
   ],
   "result": {

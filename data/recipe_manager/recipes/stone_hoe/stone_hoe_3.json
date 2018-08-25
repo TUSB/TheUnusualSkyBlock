@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:polished_diorite"
+      "item": "minecraft:acacia_boat"
     },
     "#": {
-      "item": "minecraft:rotten_flesh"
+      "item": "minecraft:pink_shulker_box"
     }
   },
   "result": {

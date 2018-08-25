@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:gray_concrete"
+      "item": "minecraft:chorus_plant"
     },
     "#": {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:egg"
     }
   },
   "result": {

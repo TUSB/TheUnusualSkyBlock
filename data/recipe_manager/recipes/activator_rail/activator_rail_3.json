@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:fire_coral_block"
+      "item": "minecraft:birch_leaves"
     },
     "S": {
-      "item": "minecraft:pink_concrete_powder"
+      "item": "minecraft:brown_mushroom"
     },
     "#": {
-      "item": "minecraft:water_bucket"
+      "item": "minecraft:red_terracotta"
     }
   },
   "result": {

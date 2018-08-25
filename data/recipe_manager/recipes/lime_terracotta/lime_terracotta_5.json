@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:magenta_terracotta"
+      "item": "minecraft:mycelium"
     },
     "X": {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:shield"
     }
   },
   "result": {

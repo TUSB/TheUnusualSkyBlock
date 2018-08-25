@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:acacia_fence_gate"
+      "item": "minecraft:birch_sapling"
     },
     {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:coarse_dirt"
     },
     {
-      "item": "minecraft:chipped_anvil"
+      "item": "minecraft:cooked_rabbit"
     },
     {
-      "item": "minecraft:crafting_table"
+      "item": "minecraft:diamond"
     },
     {
-      "item": "minecraft:dropper"
+      "item": "minecraft:end_stone"
     },
     {
-      "item": "minecraft:green_carpet"
+      "item": "minecraft:hopper"
     },
     {
-      "item": "minecraft:leather_leggings"
+      "item": "minecraft:pink_stained_glass_pane"
     },
     {
-      "item": "minecraft:scute"
+      "item": "minecraft:red_shulker_box"
     },
     {
-      "item": "minecraft:spruce_trapdoor"
+      "item": "minecraft:smooth_stone"
     }
   ],
   "result": {

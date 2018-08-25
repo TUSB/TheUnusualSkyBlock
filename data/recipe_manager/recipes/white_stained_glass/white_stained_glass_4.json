@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:gray_banner"
+      "item": "minecraft:fire_charge"
     },
     "X": {
-      "item": "minecraft:light_gray_bed"
+      "item": "minecraft:orange_bed"
     }
   },
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:redstone"
+      "item": "minecraft:birch_door"
     },
     "X": {
-      "item": "minecraft:wooden_hoe"
+      "item": "minecraft:red_concrete"
     }
   },
   "result": {

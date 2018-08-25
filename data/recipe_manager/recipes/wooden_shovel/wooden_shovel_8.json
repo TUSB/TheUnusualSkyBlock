@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:dark_prismarine_stairs"
+      "item": "minecraft:blue_stained_glass"
     },
     "#": {
-      "item": "minecraft:red_sandstone"
+      "item": "minecraft:cyan_concrete"
     }
   },
   "result": {

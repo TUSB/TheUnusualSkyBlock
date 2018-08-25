@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:arrow"
+      "item": "minecraft:golden_leggings"
     },
     "X": {
-      "item": "minecraft:blue_concrete_powder"
+      "item": "minecraft:oak_trapdoor"
     },
     "I": {
-      "item": "minecraft:light_gray_bed"
+      "item": "minecraft:smooth_sandstone"
     }
   },
   "result": {

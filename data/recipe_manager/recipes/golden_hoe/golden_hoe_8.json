@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:cyan_dye"
+      "item": "minecraft:iron_trapdoor"
     },
     "#": {
-      "item": "minecraft:oak_leaves"
+      "item": "minecraft:yellow_wool"
     }
   },
   "result": {

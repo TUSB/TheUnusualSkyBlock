@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cyan_stained_glass"
+      "item": "minecraft:gravel"
     },
     "X": {
-      "item": "minecraft:green_carpet"
+      "item": "minecraft:gunpowder"
     }
   },
   "result": {

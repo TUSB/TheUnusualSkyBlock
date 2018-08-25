@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:stripped_dark_oak_log"
+      "item": "minecraft:iron_nugget"
     },
     "X": {
-      "item": "minecraft:terracotta"
+      "item": "minecraft:stone_hoe"
     }
   },
   "result": {

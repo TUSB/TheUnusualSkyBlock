@@ -6,10 +6,10 @@
   ],
   "key": {
     "W": {
-      "item": "minecraft:purple_terracotta"
+      "item": "minecraft:black_shulker_box"
     },
     "#": {
-      "item": "minecraft:spruce_boat"
+      "item": "minecraft:brick_slab"
     }
   },
   "result": {

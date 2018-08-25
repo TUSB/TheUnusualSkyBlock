@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chest_minecart"
+      "item": "minecraft:brown_wool"
     },
     "X": {
-      "item": "minecraft:conduit"
+      "item": "minecraft:stone_bricks"
     }
   },
   "result": {

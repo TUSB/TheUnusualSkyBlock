@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:pink_concrete_powder"
+      "item": "minecraft:furnace"
     },
     "#": {
-      "item": "minecraft:stone_brick_stairs"
+      "item": "minecraft:pufferfish_bucket"
     }
   },
   "result": {

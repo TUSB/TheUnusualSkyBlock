@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:golden_hoe"
     },
     "B": {
-      "item": "minecraft:stick"
+      "item": "minecraft:podzol"
     }
   },
   "result": {

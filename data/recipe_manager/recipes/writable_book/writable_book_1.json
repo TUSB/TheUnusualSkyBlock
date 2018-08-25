@@ -2,13 +2,13 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dried_kelp"
+      "item": "minecraft:cobblestone_stairs"
     },
     {
-      "item": "minecraft:filled_map"
+      "item": "minecraft:diamond_boots"
     },
     {
-      "item": "minecraft:jungle_fence"
+      "item": "minecraft:nether_brick_stairs"
     }
   ],
   "result": {

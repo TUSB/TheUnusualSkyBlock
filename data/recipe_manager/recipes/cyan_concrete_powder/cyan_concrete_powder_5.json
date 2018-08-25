@@ -2,31 +2,31 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:beetroot_soup"
+      "item": "minecraft:bread"
     },
     {
-      "item": "minecraft:chicken"
+      "item": "minecraft:cooked_rabbit"
     },
     {
-      "item": "minecraft:magenta_terracotta"
+      "item": "minecraft:dark_prismarine"
     },
     {
-      "item": "minecraft:map"
+      "item": "minecraft:golden_boots"
     },
     {
-      "item": "minecraft:oak_sapling"
+      "item": "minecraft:grass_block"
     },
     {
-      "item": "minecraft:prismarine_bricks"
+      "item": "minecraft:pink_dye"
     },
     {
-      "item": "minecraft:purple_dye"
+      "item": "minecraft:redstone_lamp"
     },
     {
-      "item": "minecraft:sandstone"
+      "item": "minecraft:seagrass"
     },
     {
-      "item": "minecraft:stone_pressure_plate"
+      "item": "minecraft:spruce_trapdoor"
     }
   ],
   "result": {

@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:emerald"
+      "item": "minecraft:light_blue_concrete"
     },
     "E": {
-      "item": "minecraft:orange_concrete_powder"
+      "item": "minecraft:purple_dye"
     }
   },
   "result": {

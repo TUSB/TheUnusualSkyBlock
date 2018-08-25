@@ -6,10 +6,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:brick_slab"
+      "item": "minecraft:jungle_sapling"
     },
     "W": {
-      "item": "minecraft:light_gray_concrete_powder"
+      "item": "minecraft:white_glazed_terracotta"
     }
   },
   "result": {

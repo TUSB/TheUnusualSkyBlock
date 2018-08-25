@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:lead"
+      "item": "minecraft:fern"
     },
     "X": {
-      "item": "minecraft:scute"
+      "item": "minecraft:jungle_fence_gate"
     }
   },
   "result": {

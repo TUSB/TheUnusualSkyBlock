@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:green_terracotta"
+      "item": "minecraft:dragon_breath"
     },
     {
-      "item": "minecraft:pink_stained_glass"
+      "item": "minecraft:jungle_wood"
     }
   ],
   "result": {

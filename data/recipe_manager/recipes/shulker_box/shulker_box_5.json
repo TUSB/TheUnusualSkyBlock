@@ -7,10 +7,10 @@
   ],
   "key": {
     "-": {
-      "item": "minecraft:golden_axe"
+      "item": "minecraft:cobblestone_wall"
     },
     "#": {
-      "item": "minecraft:smooth_quartz"
+      "item": "minecraft:pink_banner"
     }
   },
   "result": {

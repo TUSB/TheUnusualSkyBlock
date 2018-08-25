@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:iron_horse_armor"
+      "item": "minecraft:birch_fence"
     },
     "|": {
-      "item": "minecraft:oak_boat"
+      "item": "minecraft:spruce_boat"
     }
   },
   "result": {

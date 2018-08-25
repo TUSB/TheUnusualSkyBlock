@@ -6,13 +6,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:chest"
+      "item": "minecraft:bow"
     },
     "X": {
-      "item": "minecraft:oak_stairs"
+      "item": "minecraft:coal_block"
     },
     "I": {
-      "item": "minecraft:seagrass"
+      "item": "minecraft:jungle_leaves"
     }
   },
   "result": {

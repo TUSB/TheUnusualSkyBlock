@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:gold_ingot"
+      "item": "minecraft:dark_oak_button"
     },
     "#": {
-      "item": "minecraft:packed_ice"
+      "item": "minecraft:flint"
     }
   },
   "result": {

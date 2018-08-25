@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:oak_planks"
+      "item": "minecraft:cyan_carpet"
     },
     "#": {
-      "item": "minecraft:trapped_chest"
+      "item": "minecraft:leather"
     }
   },
   "result": {

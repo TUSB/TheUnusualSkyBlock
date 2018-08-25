@@ -6,10 +6,10 @@
   ],
   "key": {
     "A": {
-      "item": "minecraft:red_glazed_terracotta"
+      "item": "minecraft:dark_oak_boat"
     },
     "B": {
-      "item": "minecraft:wooden_axe"
+      "item": "minecraft:stone_brick_stairs"
     }
   },
   "result": {

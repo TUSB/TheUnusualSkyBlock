@@ -7,10 +7,10 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:black_terracotta"
+      "item": "minecraft:orange_terracotta"
     },
     "#": {
-      "item": "minecraft:stone"
+      "item": "minecraft:redstone_torch"
     }
   },
   "result": {

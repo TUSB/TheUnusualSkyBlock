@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:cut_sandstone"
+      "item": "minecraft:dried_kelp"
     },
     "|": {
-      "item": "minecraft:nether_quartz_ore"
+      "item": "minecraft:white_glazed_terracotta"
     }
   },
   "result": {

@@ -7,13 +7,13 @@
   ],
   "key": {
     "G": {
-      "item": "minecraft:dead_bubble_coral_block"
+      "item": "minecraft:black_carpet"
     },
     "S": {
-      "item": "minecraft:potato"
+      "item": "minecraft:white_glazed_terracotta"
     },
     "O": {
-      "item": "minecraft:rotten_flesh"
+      "item": "minecraft:yellow_concrete_powder"
     }
   },
   "result": {

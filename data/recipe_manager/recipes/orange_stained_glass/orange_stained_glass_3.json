@@ -7,10 +7,10 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:ink_sac"
+      "item": "minecraft:flint_and_steel"
     },
     "X": {
-      "item": "minecraft:oak_leaves"
+      "item": "minecraft:purple_terracotta"
     }
   },
   "result": {

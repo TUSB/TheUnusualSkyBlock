@@ -7,13 +7,13 @@
   ],
   "key": {
     "X": {
-      "item": "minecraft:bow"
+      "item": "minecraft:dispenser"
     },
     "#": {
-      "item": "minecraft:clay_ball"
+      "item": "minecraft:nether_brick_slab"
     },
     "R": {
-      "item": "minecraft:light_blue_carpet"
+      "item": "minecraft:purpur_block"
     }
   },
   "result": {

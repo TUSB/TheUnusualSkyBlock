@@ -2,28 +2,28 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:dark_oak_fence"
+      "item": "minecraft:cyan_glazed_terracotta"
     },
     {
-      "item": "minecraft:dead_horn_coral_block"
+      "item": "minecraft:dried_kelp"
     },
     {
-      "item": "minecraft:dragon_head"
+      "item": "minecraft:gray_bed"
     },
     {
-      "item": "minecraft:fire_coral"
+      "item": "minecraft:green_stained_glass"
     },
     {
-      "item": "minecraft:iron_ore"
+      "item": "minecraft:jungle_boat"
     },
     {
-      "item": "minecraft:milk_bucket"
+      "item": "minecraft:purple_carpet"
     },
     {
-      "item": "minecraft:orange_bed"
+      "item": "minecraft:purple_glazed_terracotta"
     },
     {
-      "item": "minecraft:stripped_birch_wood"
+      "item": "minecraft:white_stained_glass"
     },
     {
       "item": "minecraft:white_tulip"

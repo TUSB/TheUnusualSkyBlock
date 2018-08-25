@@ -7,13 +7,13 @@
   ],
   "key": {
     "#": {
-      "item": "minecraft:acacia_wood"
+      "item": "minecraft:green_wool"
     },
     "R": {
-      "item": "minecraft:lime_bed"
+      "item": "minecraft:rabbit_hide"
     },
     "Q": {
-      "item": "minecraft:lime_wool"
+      "item": "minecraft:stripped_birch_log"
     }
   },
   "result": {

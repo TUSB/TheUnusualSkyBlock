@@ -2,10 +2,10 @@
   "type": "crafting_shapeless",
   "ingredients": [
     {
-      "item": "minecraft:blue_bed"
+      "item": "minecraft:birch_stairs"
     },
     {
-      "item": "minecraft:cookie"
+      "item": "minecraft:golden_apple"
     }
   ],
   "result": {
