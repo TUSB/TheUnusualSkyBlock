@@ -1,5 +1,4 @@
 *.dat
-.idea/misc.xml
-.idea/workspace.xml
+.idea/*
 *.iml
 *.xml
