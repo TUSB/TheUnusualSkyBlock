@@ -20,6 +20,7 @@ scoreboard objectives add DroppedBlue minecraft.dropped:minecraft.drowned_spawn_
 scoreboard objectives add UseSnowball minecraft.used:minecraft.snowball {"text":"雪玉使用"}
 scoreboard objectives add UseBow minecraft.used:minecraft.bow {"text":"弓使用"}
 scoreboard objectives add UseCarrotStick minecraft.used:minecraft.carrot_on_a_stick {"text":"人参棒使用"}
+scoreboard objectives add UseArmorStand minecraft.used:minecraft.armor_stand {"text":"アーマースタンド使用"}
 scoreboard objectives add SprintOneCm minecraft.custom:minecraft.sprint_one_cm {"text":"走った距離"}
 scoreboard objectives add DamageDealt minecraft.custom:minecraft.damage_dealt {"text":"与えたダメージ量"}
 scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken {"text":"受けたメージ量"}
