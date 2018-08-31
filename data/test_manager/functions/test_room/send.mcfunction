@@ -1,3 +1,3 @@
-function test_manager:test_room/spread
+execute at @s run function test_manager:test_room/spread
 data merge entity @s {Motion:[0d,-10d,0d],FallDistance:-1000f}
-tp @s ~ 29 ~
+execute at @s run tp @s ~ 29 ~
