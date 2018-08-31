@@ -17,5 +17,5 @@ execute rotated ~ 0 run particle minecraft:sweep_attack ^ ^0.5 ^2.5 0 0.2 0 1 10
 execute rotated ~ 0 run particle minecraft:totem_of_undying ^ ^7 ^2.5 3 0 3 0 100 force
 execute rotated ~ 0 run particle minecraft:totem_of_undying ^ ^0.5 ^2.5 0 0 0 1 50 force
 execute rotated ~ 0 run summon minecraft:item ^ ^0.5 ^2.5 {NoGravity:true,Motion:[0d,0.005d,0d],Item:{id:"minecraft:clock",Count:1b,tag:{Enchantments:[{lvl:1s,id:"minecraft:sharpness"}]}},Age:5930,PickupDelay:32767}
-execute rotated ~ 0 run summon minecraft:area_effect_cloud ^ ^ ^2.5 {Particle:mobSpell,ReapplicationDelay:40,Radius:1.5f,RadiusPerTick:0.05f,Duration:60,Color:16056148}
+execute rotated ~ 0 run summon minecraft:area_effect_cloud ^ ^ ^2.5 {Particle:"minecraft:entity_effect",ReapplicationDelay:40,Radius:1.5f,RadiusPerTick:0.05f,Duration:60,Color:16056148}
 ###---演出---End

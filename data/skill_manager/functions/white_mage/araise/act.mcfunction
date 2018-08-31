@@ -9,7 +9,7 @@ tag @a[distance=..10] add Reraise
 
 ###---演出---Start
 execute as @a[distance=..10] run tellraw @a [{"text":"","color":"green"},{"selector":"@s"},"に",{"text":"リレイズ","color":"white","hoverEvent":{"action":"show_text","value":"死亡時にレイズの効果を得る。","color":"white"}},"の効果！"]
-summon minecraft:area_effect_cloud ~ ~ ~ {Particle:mobSpell,ReapplicationDelay:40,Radius:1f,RadiusPerTick:0.05f,Duration:50,Color:16774912}
+summon minecraft:area_effect_cloud ~ ~ ~ {Particle:entity_effect,ReapplicationDelay:40,Radius:1f,RadiusPerTick:0.05f,Duration:50,Color:16774912}
 particle minecraft:end_rod ~ ~1.5 ~ 0.2 1.5 0.2 0 100 force
 particle minecraft:end_rod ~ ~3 ~ 1 0.2 0 0 50 force
 particle minecraft:end_rod ~ ~3 ~ 0 0.2 1 0 50 force

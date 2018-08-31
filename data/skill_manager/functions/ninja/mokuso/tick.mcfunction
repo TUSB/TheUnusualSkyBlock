@@ -13,7 +13,7 @@ execute if score $Success Global matches 0 run tellraw @s [{"text":"","color":"y
 execute if score @s Mokuso matches 1.. run effect give @s minecraft:regeneration 1 3
 
 ###---演出---Start
-playsound minecraft:ambient.underwater.loop.additions master @s ~ ~ ~ 1 
+playsound minecraft:ambient.underwater.loop.additions master @s ~ ~ ~ 1 1
 particle minecraft:nautilus ~ ~2 ~ 1.5 1 1.5 1 2 force
 execute if score $Success Global matches 0 run playsound minecraft:ambient.underwater.exit master @s ~ ~ ~ 1 1.6
 execute if score $Success Global matches 0 run playsound minecraft:block.glass.break master @s ~ ~ ~ 1 0

@@ -14,5 +14,5 @@ execute if score @s SneakTime matches 1.. run tellraw @a [{"text":"","color":"gr
 playsound minecraft:block.brewing_stand.brew master @a[distance=..16] ~ ~ ~ 1 0
 playsound minecraft:block.brewing_stand.brew master @a[distance=..16] ~ ~ ~ 1 0.5
 playsound minecraft:entity.cat.ambient master @a[distance=..16] ~ ~ ~ 0.5 1.5
-summon minecraft:area_effect_cloud ~ ~ ~ {Particle:mobSpell,Radius:3f,Duration:15f,Color:2752382}
+summon minecraft:area_effect_cloud ~ ~ ~ {Particle:"minecraft:entity_effect",Radius:3f,Duration:15f,Color:2752382}
 ###---演出---End
