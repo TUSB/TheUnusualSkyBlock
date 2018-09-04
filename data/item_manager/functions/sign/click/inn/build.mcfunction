@@ -21,7 +21,7 @@ execute if score $Inn Global matches 0 run particle minecraft:barrier ~3 ~6 ~3 0
 
 #設置
 execute if score $Inn Global matches 1 run setblock ~ ~ ~ minecraft:air
-execute if score $Inn Global matches 1 run clone -1923 13 -75 -1917 19 -69
+execute if score $Inn Global matches 1 run clone -1923 13 -75 -1917 19 -69 ~-3 ~ ~-3 masked
 execute if score $Inn Global matches 1 run playsound minecraft:entity.chicken.egg master @a[distance=..16] ~ ~ ~ 1 1
 execute if score $Inn Global matches 1 run playsound minecraft:entity.player.levelup master @a[distance=..16] ~ ~ ~ 1 1
 execute if score $Inn Global matches 1 run particle minecraft:happy_villager ~ ~3 ~ 3 3 3 0 100 force

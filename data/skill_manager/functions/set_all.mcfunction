@@ -12,7 +12,7 @@ scoreboard players set @s LevelPupMaster 100
 
 scoreboard players set @s Level 100
 scoreboard players set @s SubLevel 100
-scoreboard players set @s Job 1
+execute unless score @s Job matches 1..7 run scoreboard players set @s Job 1
 scoreboard players set @s MPMax 10000
 scoreboard players set @s MP 10000
 
