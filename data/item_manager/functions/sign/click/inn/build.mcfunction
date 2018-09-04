@@ -4,7 +4,7 @@
 
 #設置スペースの検知
 scoreboard players set $Inn Global 0
-execute if blocks ~-3 ~ ~-3 ~3 ~3 ~3 -1923 3 -75 all if blocks ~-3 ~4 ~-2 ~-2 ~4 ~2 -1923 3 -75 all if blocks ~-1 ~4 ~-3 ~1 ~4 ~3 -1923 3 -75 all if blocks ~2 ~4 ~-2 ~3 ~4 ~2 -1923 3 -75 all if blocks ~-3 ~5 ~-1 ~-2 ~5 ~1 -1923 3 -75 all if blocks ~-1 ~5 ~-3 ~-1 ~5 ~3 -1923 3 -75 all if blocks ~ ~5 ~-2 ~ ~5 ~2 -1923 3 -75 all if blocks ~1 ~5 ~-3 ~1 ~5 ~3 -1923 3 -75 all if blocks ~2 ~5 ~-1 ~3 ~5 ~1 -1923 3 -75 all if blocks ~-3 ~6 ~-1 ~-3 ~6 ~1 -1923 3 -75 all if blocks ~-1 ~6 ~-1 ~-1 ~6 ~1 -1923 3 -75 all if blocks ~1 ~6 ~-1 ~1 ~6 ~1 -1923 3 -75 all if blocks ~3 ~6 ~-1 ~3 ~6 ~1 -1923 3 -75 all if blocks ~-3 ~6 ~ ~3 ~6 ~ -1923 3 -75 all run scoreboard players set $Inn Global 1
+execute if blocks ~1 ~ ~-3 ~3 ~ ~3 -1923 3 -75 all if blocks ~ ~ ~1 ~ ~ ~3 -1923 3 -75 all if blocks ~ ~ ~-3 ~ ~ ~-1 -1923 3 -75 all if blocks ~-3 ~ ~-3 ~-1 ~ ~3 -1923 3 -75 all if blocks ~-3 ~1 ~-3 ~3 ~3 ~3 -1923 3 -75 all if blocks ~-3 ~4 ~-2 ~-2 ~4 ~2 -1923 3 -75 all if blocks ~-1 ~4 ~-3 ~1 ~4 ~3 -1923 3 -75 all if blocks ~2 ~4 ~-2 ~3 ~4 ~2 -1923 3 -75 all if blocks ~-3 ~5 ~-1 ~-2 ~5 ~1 -1923 3 -75 all if blocks ~-1 ~5 ~-3 ~-1 ~5 ~3 -1923 3 -75 all if blocks ~ ~5 ~-2 ~ ~5 ~2 -1923 3 -75 all if blocks ~1 ~5 ~-3 ~1 ~5 ~3 -1923 3 -75 all if blocks ~2 ~5 ~-1 ~3 ~5 ~1 -1923 3 -75 all if blocks ~-3 ~6 ~-1 ~-3 ~6 ~1 -1923 3 -75 all if blocks ~-1 ~6 ~-1 ~-1 ~6 ~1 -1923 3 -75 all if blocks ~1 ~6 ~-1 ~1 ~6 ~1 -1923 3 -75 all if blocks ~3 ~6 ~-1 ~3 ~6 ~1 -1923 3 -75 all if blocks ~-3 ~6 ~ ~3 ~6 ~ -1923 3 -75 all run scoreboard players set $Inn Global 1
 
 #スペース不十分時
 execute if score $Inn Global matches 0 run tellraw @s {"text":"スペースが足りない！"}
