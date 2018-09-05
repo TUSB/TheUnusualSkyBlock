@@ -45,7 +45,10 @@ execute if entity @s[tag=Holy] run function skill_manager:white_mage/holy/tick
 ###アイスストーム処理
 execute if entity @s[tag=IceStorm] run function skill_manager:black_mage/ice_storm/tick
 ###クロスファイア処理
-execute if entity @s[tag=CrossFire] run function skill_manager:black_mage/cross_fire/tick
+#execute if entity @s[tag=CrossFire] run function skill_manager:black_mage/cross_fire/tick
+###エクリプスフレイム処理
+execute if entity @s[tag=EclipseFlameCore] run function skill_manager:black_mage/eclipse_flame/tick
+execute if entity @s[tag=EclipseFlameParticle] run function skill_manager:black_mage/eclipse_flame/direction
 ###金タライ処理
 execute if entity @s[tag=KanaTarai] run function skill_manager:summoner/kana_tarai/tick
 ###つんつんペット処理

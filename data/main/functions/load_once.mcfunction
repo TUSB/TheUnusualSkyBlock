@@ -141,6 +141,7 @@ scoreboard objectives add PhotonicTick dummy {"text":"フォトニックレー�
 scoreboard objectives add ClericKnowledge dummy {"text":"クレリックナレッジ"}
 scoreboard objectives add PillarCount dummy {"text":"セイクリッドピラーダメージ付与上限"}
 scoreboard objectives add PillarDamage dummy {"text":"セイクリッドピラーダメージ"}
+scoreboard objectives add EclipseRadius dummy {"text":"エクリプスフレイム半径"}
 scoreboard objectives add DarkSwamp dummy {"text":"ダークスワンプ回数"}
 scoreboard objectives add PetitBlack dummy {"text":"ぷちブラック残りtick"}
 scoreboard objectives add MultiThread dummy {"text":"マルチスレッド"}

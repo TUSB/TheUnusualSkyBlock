@@ -101,8 +101,8 @@ execute if score @s ActiveSkill matches 41051..41059 run function skill_manager:
 ### 黒魔導士＜アイスストーム＞
 execute if score @s ActiveSkill matches 51011..51019 run function skill_manager:black_mage/ice_storm/act
 
-### 黒魔導士＜クロスファイア＞
-execute if score @s ActiveSkill matches 51021..51029 run function skill_manager:black_mage/cross_fire/act
+### 黒魔導士＜クロスファイア＞->＜エクリプスフレイム＞
+execute if score @s ActiveSkill matches 51021..51029 run function skill_manager:black_mage/eclipse_flame/act
 
 ### 黒魔導士＜サンダーボルト＞
 execute if score @s ActiveSkill matches 51031..51039 run function skill_manager:black_mage/thunder_bolt/act
