@@ -43,7 +43,9 @@ execute if entity @s[tag=SacredPillarBase] run function skill_manager:white_mage
 ###ホーリー処理
 execute if entity @s[tag=Holy] run function skill_manager:white_mage/holy/tick
 ###アイスストーム処理
-execute if entity @s[tag=IceStorm] run function skill_manager:black_mage/ice_storm/tick
+#execute if entity @s[tag=IceStorm] run function skill_manager:black_mage/ice_storm/tick
+###アイスジャベリン処理
+execute if entity @s[tag=JavelinIce] run function skill_manager:black_mage/ice_javelin/tick
 ###クロスファイア処理
 #execute if entity @s[tag=CrossFire] run function skill_manager:black_mage/cross_fire/tick
 ###エクリプスフレイム処理

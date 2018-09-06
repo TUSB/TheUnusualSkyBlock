@@ -2,6 +2,8 @@
 ### エクリプスフレイム発動
 ##############################
 
+execute positioned ~ ~1.52 ~ run kill @e[distance=..0.5,type=snowball]
+
 ###弾召喚
 summon minecraft:snowball 1 1 1 {Tags:[Initializing],Silent:true,Passengers:[{id:"minecraft:armor_stand",NoGravity:false,Marker:true,Invisible:true,Invulnerable:true,Tags:[EclipseFlameCore,InitializingChild,TickingTask]}]}
 ###モーションを計算する

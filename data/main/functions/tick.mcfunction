@@ -2,6 +2,9 @@
 ### 毎ティック処理
 ##############################
 
+###デクリメンタ(set/operation=以外禁止)
+scoreboard players remove * Decrementer 1
+
 ###レイズ処理
 execute as @a[tag=Raise,scores={TimeSinceDeath=1..}] at @s run function skill_manager:white_mage/araise/raised
 ### レーダーヴィジョン処理
