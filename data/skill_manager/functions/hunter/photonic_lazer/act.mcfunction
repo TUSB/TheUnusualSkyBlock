@@ -38,3 +38,8 @@ scoreboard players operation @e[tag=Initializing] SkillAttribute = $Damage Globa
 execute facing ^ ^ ^1 as @e[tag=Initializing] positioned as @s run tp @s ~ ~1.52 ~ ~ ~
 
 tag @e[tag=Initializing] remove Initializing
+
+###---演出---Start
+playsound minecraft:block.beacon.power_select master @a[distance=..16] ~ ~ ~ 1 2
+playsound minecraft:item.totem.use master @a[distance=..16] ~ ~ ~ 1 1
+###---演出---End

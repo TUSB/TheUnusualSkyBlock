@@ -5,7 +5,8 @@
 scoreboard players operation @e[distance=..3.5,tag=Mob] Damage > @s SkillAttribute
 
 ###---演出---Start
-playsound minecraft:entity.guardian.attack master @a[distance=..16] ~ ~ ~ 2 2
+execute if score $Second Count matches 1 run playsound minecraft:entity.guardian.attack master @a[distance=..16] ~ ~ ~ 2 2
+execute if score $Second Count matches 11 run playsound minecraft:entity.guardian.attack master @a[distance=..16] ~ ~ ~ 2 2
 
 scoreboard players add @s PhotonicTick 1
 scoreboard players operation @s PhotonicTick %= $18 Const

@@ -18,7 +18,7 @@ execute at @s if entity @s[y_rotation=30] run summon minecraft:area_effect_cloud
 tp @s ~ ~ ~ ~20 ~
 
 ###---演出---Start
-execute as @a[distance=..32] facing entity @s feet facing ^ ^ ^-1 positioned as @s run playsound minecraft:entity.blaze.ambient master @s ^ ^ ^24 1.6 0.5
+execute if score $Second Count matches 1 as @a[distance=..32] facing entity @s feet facing ^ ^ ^-1 positioned as @s run playsound minecraft:entity.blaze.ambient master @s ^ ^ ^24 1.6 0.5
 ###---演出---End
 
 ###魔法持続時間終了処理
