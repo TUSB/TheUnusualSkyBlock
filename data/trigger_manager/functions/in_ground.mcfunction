@@ -22,6 +22,8 @@ execute if entity @s[tag=Wool] run function enemy_manager:block_placer/wool
 ###氷設置処理
 execute if entity @s[tag=Ice] run function enemy_manager:block_placer/ice
 
+###ワイルドフレア処理
+execute if entity @s[tag=WildFlareSeed] run kill @s
 ###セイクリッドピラー処理
 execute if entity @s[tag=SacredPillar] run function skill_manager:white_mage/sacred_pillar/at0
 

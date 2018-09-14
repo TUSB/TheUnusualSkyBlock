@@ -3,7 +3,7 @@
 ##############################
 
 ### Usage: execute as Source at Destination run function this
-summon minecraft:armor_stand ~ ~ ~ {Invisible:true,Invulnerable:true,Marker:true,NoGravity:true,Tags:[CalcMarker]}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[CalcMarker],Particle:"minecraft:block minecraft:air"}
 ### Get Rotation from source to destination
 tp @e[distance=..0.1,tag=CalcMarker,limit=1] ^ ^ ^ facing entity @s
 execute as @e[distance=..0.1,tag=CalcMarker,limit=1] at @s run tp @s ^ ^ ^ facing ^ ^ ^-1

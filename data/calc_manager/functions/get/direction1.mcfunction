@@ -3,7 +3,7 @@
 ##############################
 
 ### Usage: execute as Source at Destination run function this
-summon minecraft:armor_stand ~ ~ ~ {Invisible:true,Invulnerable:true,Marker:true,NoGravity:true,Tags:[CalcMarker]}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[CalcMarker],Particle:"minecraft:block minecraft:air"}
 ### Get Pos of Destination
 execute as @e[distance=..0.1,tag=CalcMarker,limit=1] at @s run function calc_manager:get/pos1
 ### Get Pos of Target
