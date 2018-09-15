@@ -1,8 +1,8 @@
 ##############################
-### 幻影発生
+### テレポート
 ##############################
 
-scoreboard players set @s BlinkCount 100
+function enemy_manager:warp
 
 ###---演出---Start
 ###---演出---End

@@ -1,8 +1,8 @@
 ##############################
-### 魅了開始
+### 魅了開始レベル３
 ##############################
 
-scoreboard players set @s CharmCount 600
+scoreboard players set @s CharmCount 300
 tag @s[tag=TickingTask] add LockTickingTask
 tag @s add TickingTask
 
