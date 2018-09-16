@@ -36,7 +36,7 @@ execute if entity @s[tag=PhotonicLazer] run function skill_manager:hunter/photon
 execute if entity @s[tag=Dia] run function skill_manager:white_mage/dia/tick
 ###フラワーギフト
 execute if entity @s[tag=FlowerGift] run function skill_manager:white_mage/flower_gift/tick
-###セイクリッドピラー処理
+###レイズ処理
 execute if entity @s[tag=RaisePoint] run function skill_manager:white_mage/araise/tick
 ###セイクリッドピラー処理
 execute if entity @s[tag=SacredPillarBase] run function skill_manager:white_mage/sacred_pillar/tick/common

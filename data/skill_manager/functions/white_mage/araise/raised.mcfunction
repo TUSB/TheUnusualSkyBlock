@@ -5,6 +5,7 @@
 ### 座標移動
 scoreboard players operation $RaisePoint ID = @s ID
 execute as @e[tag=RaisePoint] if score @s ID = $RaisePoint ID run tag @s add TargetRaisePoint
+execute unless entity @e[tag=TargetRaisePoint,limit=1] run tellraw @s {"text":"帰還地点は消滅していた…。","color":"yellow"}
 execute at @e[tag=TargetRaisePoint,limit=1] run tp @s ~ ~ ~
 kill @e[tag=TargetRaisePoint,limit=1]
 
