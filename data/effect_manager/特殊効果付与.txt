@@ -8,8 +8,8 @@
 死の宣告3カウントバージョン
 ### invisibility 1 3
 やけど
-### invisibility 1 4
-衰弱
+    ### invisibility 1 4
+    衰弱(保留)
 ### invisibility 1 5
 病気
 ### invisibility 1 6
@@ -79,8 +79,8 @@ MP全回復・HP20割回復
 聖水
 ### invisibility 1 73
 やけど回復
-### invisibility 1 74
-衰弱回復
+    ### invisibility 1 74
+    衰弱回復(保留)
 ### invisibility 1 75
 病気回復
 ### invisibility 1 76

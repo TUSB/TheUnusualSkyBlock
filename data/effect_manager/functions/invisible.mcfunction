@@ -76,6 +76,12 @@ execute if entity @s[advancements={effect_manager:invisible={super_rate_potion=t
 execute if entity @s[advancements={effect_manager:invisible={super_rate_elixir=true}}] run scoreboard players operation @s HealthHealing += $Healing Global
 
 execute if entity @s[advancements={effect_manager:invisible={anti_doom=true}}] if score @s DoomCount matches 0.. run function effect_manager:doom/escape
+execute if entity @s[advancements={effect_manager:invisible={anti_burn=true}}] if entity @s[tag=Burn] run function effect_manager:burn/cure
+execute if entity @s[advancements={effect_manager:invisible={anti_virus=true}}] if score @s VirusCount matches 0.. run function effect_manager:virus/cure
+execute if entity @s[advancements={effect_manager:invisible={anti_confuse=true}}] if score @s ConfuseCount matches 0.. run function effect_manager:confuse/cure
+execute if entity @s[advancements={effect_manager:invisible={anti_curse=true}}] if entity @s[tag=Curse] run function effect_manager:curse/cure
+execute if entity @s[advancements={effect_manager:invisible={anti_terror=true}}] if score @s TerrorLevel matches 0.. run function effect_manager:terror/cure
+execute if entity @s[advancements={effect_manager:invisible={anti_tnt=true}}] if score @s TntCount matches 0.. run function effect_manager:tnt/cure
 
 execute if entity @s[advancements={effect_manager:invisible={vile_immunity=true}}] run scoreboard players operation @s ResistEffects > $20 Const
 execute if entity @s[advancements={effect_manager:invisible={normal_immunity=true}}] run scoreboard players operation @s ResistEffects > $40 Const
