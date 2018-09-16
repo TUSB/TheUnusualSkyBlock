@@ -17,5 +17,5 @@ execute if score $Random Global matches 2 unless entity @s[tag=Left] run scorebo
 execute if score $Random Global matches 3 unless entity @s[tag=Right] run scoreboard players set $M Global 0
 execute if score $Random Global matches 4 unless entity @s[tag=Up] run scoreboard players set $M Global 0
 execute if score $Random Global matches 5 unless entity @s[tag=Down] run scoreboard players set $M Global 0
-execute if score $Random Global matches 4 if entity @s[tag=Up] run scoreboard players operation $M Global /= $2 Const 
+execute if score $Random Global matches 4 if entity @s[tag=Up] run scoreboard players operation $M Global /= $2 Const
 execute if score $Random Global matches 5 if entity @s[tag=Down] run scoreboard players operation $M Global /= $2 Const
