@@ -531,6 +531,7 @@ scoreboard players operation $RndMWCCarry Global /= $MWCBase Const
 
 ###スコアボード表示設定
 scoreboard objectives setdisplay sidebar MP
+scoreboard objectives setdisplay list Level
 ###チーム作成
 team add NoCollision {"text":"衝突判定なし"}
 team modify NoCollision collisionRule never

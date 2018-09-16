@@ -59,10 +59,10 @@ tag @s[type=minecraft:armor_stand,nbt={Passengers:[{id:"minecraft:spawner_mineca
 execute as @e[type=minecraft:spawner_minecart] at @s positioned ~-0.5 ~-0.5 ~-0.5 if entity @e[dx=0,dy=0,dz=0,type=minecraft:armor_stand,tag=SpawnerCore] run tag @s add Spanwer
 
 ###追尾
-execute if entity @s[tag=AimingPlayer,tag=!Bullet] run function skill_manager:set/initialize
+execute if entity @s[tag=AimingPlayer,tag=!Bullet] run function entity_manager:aiming_player
 
 ### プレイヤー初期化
-execute as @s[type=minecraft:player] run function calc_manager:set/id
+execute as @s[type=minecraft:player] run function skill_manager:set/initialize
 
 tag @s[type=minecraft:area_effect_cloud] add
 tag @s[type=minecraft:boat] add
