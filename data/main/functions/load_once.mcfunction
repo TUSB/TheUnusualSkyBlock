@@ -32,6 +32,8 @@ scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game {"text
 scoreboard objectives add OpenEnderChest minecraft.custom:minecraft.open_enderchest {"text":"エンダーチェストを開いた回数"}
 scoreboard objectives add FoodLevel food {"text":"満腹度"}
 scoreboard objectives add LastFoodLevel dummy {"text":"直前満腹度"}
+scoreboard objectives add Hunger dummy {"text":"死亡時調整満腹度"}
+scoreboard objectives add UseMilkBucket minecraft.used:minecraft.milk_bucket {"text":"牛乳飲んだ"}
 ###変数や定数、カウンタ
 scoreboard objectives add Global dummy {"text":"グローバル変数"}
 scoreboard objectives add Decrementer dummy {"text":"減少カウンタ"}

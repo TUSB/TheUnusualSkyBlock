@@ -16,7 +16,6 @@ scoreboard players set @s Level 50
 scoreboard players set @s SubLevel 50
 execute unless score @s Job matches 1..7 run scoreboard players set @s Job 1
 
-function effect_manager:status/modify_max
 function effect_manager:status/lift_to_max
 
 team join Friendly @s

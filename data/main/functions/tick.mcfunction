@@ -5,8 +5,8 @@
 ###デクリメンタ(set/operation=以外禁止)
 scoreboard players remove * Decrementer 1
 
-###レイズ処理
-execute as @a[tag=Raise,scores={TimeSinceDeath=1..}] at @s run function skill_manager:white_mage/araise/raised
+### 死んでから起きた時の処理
+execute as @a[scores={Hunger=0..,TimeSinceDeath=1..}] at @s run function effect_manager:status/rise
 ### レーダーヴィジョン処理
 execute as @a[scores={RaderVision=0..}] at @s run function skill_manager:hunter/rader_vision/tick
 
@@ -35,6 +35,7 @@ execute as @a[scores={LeaveGame=1..}] at @s run function trigger_manager:leave_g
 ###スキルインターバル処理
 execute as @a[scores={SkillInterval=1..}] at @s run function skill_manager:update_interval
 ###ここからモード処理を入れる（エンティティ発生処理に割り込めるのでやりやすい）
+execute as @a[scores={UseMilkBucket=1..}] at @s run function trigger_manager:milk_bucket
 execute as @a[scores={CarrotTick=1..}] at @s run function trigger_manager:carrot_continue
 execute as @a[scores={UseSnowball=1..}] at @s run function trigger_manager:snowball
 execute as @a[scores={UseBow=1..}] at @s run function trigger_manager:bow

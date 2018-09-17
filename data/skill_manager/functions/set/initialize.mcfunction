@@ -17,7 +17,6 @@ scoreboard players set @s Job 0
 function skill_manager:set/blank_skill
 function skill_manager:set/critical
 
-function effect_manager:status/modify_max
 function effect_manager:status/lift_to_max
 
 function calc_manager:set/id
