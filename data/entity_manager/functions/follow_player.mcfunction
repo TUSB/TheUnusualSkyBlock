@@ -3,7 +3,7 @@
 ##############################
 
 ###モーション取得
-execute at @a[gamemode=!creative,gamemode=!spectator,scores={TimeSinceDeath=1..},limit=1] positioned ~ ~1 ~ run function calc_manager:get/direction1xz
+execute at @a[gamemode=!creative,gamemode=!spectator,scores={TimeSinceDeath=1..},sort=nearest,limit=1] positioned ~ ~1 ~ run function calc_manager:get/direction1xz
 ###モーション調整
 scoreboard players set $M Global 40
 function calc_manager:multiply/pos1
