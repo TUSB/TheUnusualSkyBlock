@@ -19,7 +19,7 @@ execute if entity @s[advancements={effect_manager:invisible={debility=true}},tag
 execute if entity @s[advancements={effect_manager:invisible={virus=true}}] run function effect_manager:virus/apply
 execute if entity @s[advancements={effect_manager:invisible={confuse=true}}] run function effect_manager:confuse/apply
 execute if entity @s[advancements={effect_manager:invisible={curse=true}}] run function effect_manager:curse/apply
-execute if entity @s[advancements={effect_manager:invisible={terror=true}}] run function effect_manager:terror/apply
+execute if entity @s[advancements={effect_manager:invisible={terror=true}}] unless score @s TerroeLevel matches 0.. run function effect_manager:terror/apply
 execute if entity @s[advancements={effect_manager:invisible={tnt=true}}] run function effect_manager:tnt/apply
 
 execute if entity @s[advancements={effect_manager:invisible={vile_ether=true}}] run scoreboard players remove @s MPConsumption 25
