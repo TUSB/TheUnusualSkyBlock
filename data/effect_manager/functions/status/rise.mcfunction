@@ -6,13 +6,13 @@
 function effect_manager:status/lift_to_max
 
 ### 空腹付与
-effect give @s[scores={Hunger=20}] minecraft:hunger 2 100
-effect give @s[scores={Hunger=19}] minecraft:hunger 2 120
-effect give @s[scores={Hunger=18}] minecraft:hunger 2 140
-effect give @s[scores={Hunger=17}] minecraft:hunger 2 160
-effect give @s[scores={Hunger=16}] minecraft:hunger 2 180
-effect give @s[scores={Hunger=15}] minecraft:hunger 2 200
-effect give @s[scores={Hunger=14}] minecraft:hunger 2 220
+effect give @s[scores={Hunger=20}] minecraft:hunger 4 50
+effect give @s[scores={Hunger=19}] minecraft:hunger 4 60
+effect give @s[scores={Hunger=18}] minecraft:hunger 4 70
+effect give @s[scores={Hunger=17}] minecraft:hunger 4 80
+effect give @s[scores={Hunger=16}] minecraft:hunger 4 90
+effect give @s[scores={Hunger=15}] minecraft:hunger 4 100
+effect give @s[scores={Hunger=14}] minecraft:hunger 4 110
 effect give @s[scores={Hunger=13}] minecraft:hunger 4 120
 effect give @s[scores={Hunger=12}] minecraft:hunger 4 130
 effect give @s[scores={Hunger=11}] minecraft:hunger 4 140
