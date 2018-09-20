@@ -145,3 +145,8 @@ execute as @a unless score @s ChangeModeRed matches 0 run function skill_manager
 execute as @a unless score @s ChangeModeBlue matches 0 run function skill_manager:set_skill/fork/mode/blue
 execute as @a unless score @s ChangeSupRed matches 0 run function skill_manager:set_skill/fork/support/red
 execute as @a unless score @s ChangeSupBlue matches 0 run function skill_manager:set_skill/fork/support/blue
+
+###クエスト関係
+execute as @a if score @s QuestClick matches 1.. run function quest_manager:main/list_clicked
+execute as @a if score @s QuestReceive matches 1.. run function quest_manager:main/receive_decide
+execute as @a if score @s QuestReport matches 1.. run function quest_manager:main/done_decide
