@@ -12,7 +12,7 @@ execute if score @s ModeSkill matches 41011..41019 run scoreboard players operat
 ### 白魔導士＜セイクリッドピラー＞
 execute if score @s ModeSkill matches 41041..41049 run scoreboard players operation @s ActiveSkill = @s ModeSkill
 
-### 黒魔導士＜サンダーボルト＞
+### 黒魔導士＜ライトニングブロー＞
 execute if score @s ModeSkill matches 51031..51039 run scoreboard players operation @s ActiveSkill = @s ModeSkill
 
 ### 黒魔導士＜ジオクラッシュ＞

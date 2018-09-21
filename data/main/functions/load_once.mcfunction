@@ -146,6 +146,7 @@ scoreboard objectives add PillarCount dummy {"text":"セイクリッドピラー
 scoreboard objectives add PillarDamage dummy {"text":"セイクリッドピラーダメージ"}
 scoreboard objectives add EclipseRadius dummy {"text":"エクリプスフレイム半径"}
 scoreboard objectives add DarkSwamp dummy {"text":"ダークスワンプ回数"}
+scoreboard objectives add LightningBlow dummy {"text":"ライトニングブロー威力"}
 scoreboard objectives add PetitBlack dummy {"text":"ぷちブラック残りtick"}
 scoreboard objectives add MultiThread dummy {"text":"マルチスレッド"}
 ###からくり士スキル系

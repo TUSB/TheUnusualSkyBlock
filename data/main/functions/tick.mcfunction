@@ -101,6 +101,8 @@ execute as @a[scores={Choyaku=0..},nbt={OnGround:false,FallDistance:0.0f}] at @s
 execute as @a[scores={Issen=1..}] at @s run function skill_manager:ninja/issen/tick
 ###介錯処理
 execute as @a[scores={Kaishaku=1..}] at @s run function skill_manager:ninja/kaishaku/wear
+###ライトニングブロー
+execute as @a[scores={LightningBlow=1..}] at @s run function skill_manager:black_mage/lightning_blow/tick
 
 ### スポナーカート空気時削除
 execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air run tag @e[dx=0,tag=Spawner] add Garbage

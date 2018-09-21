@@ -20,5 +20,7 @@ execute if score @s ModeSkill matches 11071..11079 unless entity @s[nbt=!{Select
 ### 忍者＜連舞＞
 execute if score @s ModeSkill matches 21031..21039 run scoreboard players operation @s ActiveSkill = @s ModeSkill
 
+### 黒魔導士＜ライトニングブロー＞
+execute if score @s LightningBlow matches 1.. run function skill_manager:black_mage/lightning_blow/damage
 ### トリガーリセット
 scoreboard players reset @s DamageDealt

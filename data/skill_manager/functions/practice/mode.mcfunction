@@ -104,8 +104,8 @@ execute if score @s ActiveSkill matches 51011..51019 run function skill_manager:
 ### 黒魔導士＜クロスファイア＞->＜エクリプスフレイム＞
 execute if score @s ActiveSkill matches 51021..51029 run function skill_manager:black_mage/eclipse_flame/act
 
-### 黒魔導士＜サンダーボルト＞
-execute if score @s ActiveSkill matches 51031..51039 run function skill_manager:black_mage/thunder_bolt/act
+### 黒魔導士＜ライトニングブロー＞
+execute if score @s ActiveSkill matches 51031..51039 run function skill_manager:black_mage/lightning_blow/act
 
 ### 黒魔導士＜ジオクラッシュ＞
 execute if score @s ActiveSkill matches 51041..51049 run function skill_manager:black_mage/geo_crash/act
