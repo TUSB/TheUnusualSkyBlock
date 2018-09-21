@@ -9,7 +9,7 @@ execute if score @s BlinkTick matches 3 run tp @s ~ ~ ~0.4
 execute if score @s BlinkTick matches 2 run tp @s ~0.4 ~ ~
 execute if score @s BlinkTick matches 1 run tp @s ~-0.2 ~ ~-0.2
 scoreboard players remove @s BlinkTick 1
-execute if score @s BlinkTick matches 0 run effect clear @s minecraft:glowing
+# execute if score @s BlinkTick matches 0 run effect clear @s minecraft:glowing
 #execute if score @s BlinkTick matches 0 run effect clear @s minecraft:invisibility
 
 ###---演出---Start

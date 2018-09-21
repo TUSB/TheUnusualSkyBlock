@@ -7,7 +7,7 @@ scoreboard players reset @s Damage
 scoreboard players set @s BlinkTick 6
 scoreboard players remove @s BlinkCount 1
 
-effect give @s minecraft:glowing 1 0 true
+# effect give @s minecraft:glowing 1 0 true
 #effect give @s minecraft:invisibility 1 0 true
 
 ###---演出---Start

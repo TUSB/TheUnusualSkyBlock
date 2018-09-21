@@ -4,7 +4,7 @@
 
 ### 状態異常回復
 function skill_manager:white_mage/clear/cure/level4
-scoreboard players reset @s ResistEffects
+scoreboard players operation @s ResistEffects < @s ResistMin
 
 ### 忍者＜サヨナラ＞
 execute if score @s ModeSkill matches 21061..21069 run scoreboard players operation @s ActiveSkill = @s ModeSkill
