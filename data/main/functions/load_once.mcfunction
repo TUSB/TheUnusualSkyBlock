@@ -158,6 +158,18 @@ scoreboard objectives add PupFlyability dummy {"text":"パペット空中機動�
 scoreboard objectives add PupMobility dummy {"text":"パペット陸上機動力"}
 scoreboard objectives add PupCurrentSlot dummy {"text":"パペット行動スロット"}
 scoreboard objectives add PuppetWait dummy {"text":"パペット行動ウェイト"}
+###クエスト系スコア
+scoreboard objectives add QuestClick trigger {"text":"クエスト一覧クリック検知用"}
+scoreboard objectives add QuestReceive trigger {"text":"クエストを受注するか"}
+scoreboard objectives add QuestReport trigger {"text":"クエストを報告するか"}
+scoreboard objectives add QuestReceiveID dummy {"text":"受注対象のクエストID"}
+scoreboard objectives add QuestReportID dummy {"text":"報告対象のクエストID"}
+scoreboard objectives add Quest1 dummy {"text":"受注中のクエスト1"}
+scoreboard objectives add Quest2 dummy {"text":"受注中のクエスト2"}
+scoreboard objectives add Quest3 dummy {"text":"受注中のクエスト3"}
+scoreboard objectives add Quest4 dummy {"text":"受注中のクエスト4"}
+scoreboard objectives add Quest5 dummy {"text":"受注中のクエスト5"}
+scoreboard objectives add QuestState dummy {"text":"クエスト状況リスト"}
 ###その他スコア
 scoreboard objectives add ProjectileLife dummy {"text":"飛翔物生存時間"}
 scoreboard objectives add MotionX dummy {"text":"モーションX保存"}
@@ -530,6 +542,8 @@ execute if score $RndMWC Global matches ..0 run scoreboard players operation $Rn
 execute if score $RndMWCCarry Global matches ..0 run scoreboard players operation $RndMWCCarry Global *= $-1 Const
 scoreboard players operation $RndMWC Global %= $MWCBase Const
 scoreboard players operation $RndMWCCarry Global /= $MWCBase Const
+###クエスト状況初期化(未開放:0, 開放済:1, 達成済:2)
+scoreboard players set $1 QuestState 1
 
 ###スコアボード表示設定
 scoreboard objectives setdisplay sidebar MP
