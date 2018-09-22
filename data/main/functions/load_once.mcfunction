@@ -51,6 +51,7 @@ scoreboard objectives add ResistLock dummy {"text":"状態異常回避時ロッ�
 scoreboard objectives add CharmCount dummy {"text":"魅了カウント"}
 scoreboard objectives add BlinkCount dummy {"text":"幻影カウント"}
 scoreboard objectives add BlinkTick dummy {"text":"残影tick"}
+scoreboard objectives add GameTime dummy {"text":"ゲームタイム"}
 scoreboard objectives add Settings dummy {"text":"設定"}
 ###ID系
 scoreboard objectives add ID dummy {"text":"紐付けID"}

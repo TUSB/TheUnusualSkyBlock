@@ -10,6 +10,9 @@ execute as @a[scores={Hunger=0..,TimeSinceDeath=1..}] at @s run function effect_
 ### レーダーヴィジョン処理
 execute as @a[scores={RaderVision=0..}] at @s run function skill_manager:hunter/rader_vision/tick
 
+### 即死床
+execute as @a positioned as @s if block ~ ~-2 ~ minecraft:smooth_red_sandstone run function entity_manager:death_floor
+
 ###エリア移動
 ##overworld
 execute in overworld as @a[x=-480,y=0,z=-1136,dx=1039,dy=255,dz=1039,gamemode=!spectator] unless score @s Dimension matches 00 run function area_manager:on_change/skylands
