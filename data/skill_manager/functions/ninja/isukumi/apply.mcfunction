@@ -2,8 +2,7 @@
 ### 居縮適用
 ##############################
 
-scoreboard players operation @s Isukumi > $MinValue Global
-data merge entity @s {NoAI:true}
+function skill_manager:ninja/isukumi/stop
 
 ###---演出---Start
 particle minecraft:dust 0 0 0 3 ~ ~5 ~ 0.2 5 0.2 0 100 force

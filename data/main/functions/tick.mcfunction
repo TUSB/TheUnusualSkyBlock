@@ -106,6 +106,8 @@ execute as @a[scores={Issen=1..}] at @s run function skill_manager:ninja/issen/t
 execute as @a[scores={Kaishaku=1..}] at @s run function skill_manager:ninja/kaishaku/wear
 ###ライトニングブロー
 execute as @a[scores={LightningBlow=1..}] at @s run function skill_manager:black_mage/lightning_blow/tick
+###ロックンロール
+execute as @a[scores={ModeSkill=51041..51049}] at @s run function skill_manager:black_mage/rock_n_roll/tick
 
 ### スポナーカート空気時削除
 execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air run tag @e[dx=0,tag=Spawner] add Garbage
@@ -130,6 +132,7 @@ execute as @a[scores={KillCount=1..}] run function entity_manager:defeat_enemy
 execute as @e[tag=Mob,nbt={AbsorptionAmount:0f}] at @s run function entity_manager:mob_death
 ##乗り物削除フラグ付与
 tag @e[tag=Vehicle,nbt=!{Passengers:[{}]}] add Garbage
+tag @e[tag=Vehicle,tag=Anchored,nbt=!{Passengers:[{Tags:[Anchor]}]}] add Garbage
 ##エンティティ削除
 execute as @e[tag=Garbage] run data merge entity @s {Size:0,DeathTime:19s,HandItems:[{},{}],ArmorItems:[{},{},{},{}]}
 kill @e[tag=Garbage]
