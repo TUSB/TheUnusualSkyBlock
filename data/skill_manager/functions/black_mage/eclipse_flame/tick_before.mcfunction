@@ -3,8 +3,8 @@
 ##############################
 
 ###着弾時リセット
-execute if entity @s[nbt=!{FallDistance:0f}] run scoreboard players set @s EclipseRadius 1000
-execute if entity @s[nbt=!{FallDistance:0f}] run data merge entity @s {NoGravity:true,FallDistance:0f,Rotation:[0d,0d]}
+execute unless entity @e[distance=..1,tag=EclipseFlameBullet,limit=1] run scoreboard players set @s EclipseRadius 1000
+execute unless entity @e[distance=..1,tag=EclipseFlameBullet,limit=1] run data merge entity @s {NoGravity:true,FallDistance:0f,Rotation:[0d,0d]}
 
 ###---演出---Start
 particle minecraft:dust 100000000 2 0 2 ~ ~ ~ 0.5 0.5 0.5 1 10 force

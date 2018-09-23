@@ -5,7 +5,7 @@
 execute positioned ~ ~1.52 ~ run kill @e[distance=..0.5,type=snowball]
 
 ###弾召喚
-summon minecraft:snowball 1 1 1 {Tags:[Initializing],Silent:true,Passengers:[{id:"minecraft:armor_stand",NoGravity:false,Marker:true,Invisible:true,Invulnerable:true,Tags:[EclipseFlameCore,InitializingChild,TickingTask]}]}
+summon minecraft:snowball ~ ~1.52 ~ {Tags:[Initializing,EclipseFlameBullet],Silent:true,Passengers:[{id:"minecraft:armor_stand",NoGravity:false,Marker:true,Invisible:true,Invulnerable:true,Tags:[EclipseFlameCore,InitializingChild,TickingTask]}]}
 ###モーションを計算する
 execute positioned ^ ^ ^-0.1 run tp @e[tag=Initializing,limit=1] ~ ~1.52 ~
 execute as @e[tag=Initializing,limit=1] positioned ~ ~1.52 ~ run function calc_manager:get/direction1

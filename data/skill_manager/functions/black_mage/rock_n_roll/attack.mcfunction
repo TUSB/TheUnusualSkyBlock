@@ -2,7 +2,7 @@
 ### ロックンロール攻撃処理
 ##############################
 
-execute at @s run tp @s ~ ~ ~ ~15 0
+execute at @s run tp @s ~ ~ ~ ~17 0
 execute facing entity @s feet rotated ~10 0 positioned ^ ^ ^5 run tp @s ~ ~ ~
 execute rotated as @s positioned ^ ^ ^102.4 if entity @s[distance=..102.4] positioned ^ ^ ^-102.4 facing entity @s feet positioned ^ ^ ^2 run tp @s ~ ~ ~
 
