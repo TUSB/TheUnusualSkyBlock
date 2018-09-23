@@ -11,7 +11,7 @@ execute as @a[scores={Hunger=0..,TimeSinceDeath=1..}] at @s run function effect_
 execute as @a[scores={RaderVision=0..}] at @s run function skill_manager:hunter/rader_vision/tick
 
 ### 即死床
-execute as @a positioned as @s if block ~ ~-2 ~ minecraft:smooth_red_sandstone run function entity_manager:death_floor
+execute as @a[gamemode=!spectator] positioned as @s if block ~ ~-2 ~ minecraft:smooth_red_sandstone run function entity_manager:death_floor
 
 ###エリア移動
 ##overworld
