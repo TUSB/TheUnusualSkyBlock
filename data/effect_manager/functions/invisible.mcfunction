@@ -89,11 +89,10 @@ execute if entity @s[advancements={effect_manager:invisible={high_immunity=true}
 execute if entity @s[advancements={effect_manager:invisible={super_immunity=true}}] run scoreboard players operation @s ResistEffects > $80 Const
 execute unless entity @s[advancements={effect_manager:invisible={vile_immunity=false,normal_immunity=false,high_immunity=false,super_immunity=false}}] run tellraw @s [{"text":"","color":"green"},{"selector":"@s"},"の",{"text":"免疫力","color":"white"},"が上がった！"]
 
-execute if entity @s[advancements={effect_manager:invisible={fire=true}}] run function effect_manager:fire/light
-
 execute if entity @s[advancements={effect_manager:invisible={panacea=true}}] run function skill_manager:white_mage/clear/cure/level4
 execute if entity @s[advancements={effect_manager:invisible={soma=true}}] run function effect_manager:soma
 execute if entity @s[advancements={effect_manager:invisible={fire=true}}] run function effect_manager:fire
+execute if entity @s[advancements={effect_manager:invisible={reload=true}}] run function effect_manager:reload
 
 effect clear @s minecraft:invisibility
 advancement revoke @s only effect_manager:invisible

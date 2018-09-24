@@ -8,5 +8,4 @@ scoreboard players remove $Duration Global 200
 execute positioned ~ ~-0.31 ~ store result entity @e[distance=0,type=minecraft:arrow,limit=1] Fire short 1 run scoreboard players get $Duration Global
 execute positioned ~ ~-0.31 ~ run data merge entity @e[distance=0,type=minecraft:arrow,limit=1] {Fire:1000s}
 execute store result score $Result Global positioned ~ ~-0.31 ~ run data get entity @e[distance=0,type=minecraft:arrow,limit=1] Fire
-tellraw @a {"score":{"name":"$Result","objective":"Global"}}
 effect clear @s minecraft:slowness

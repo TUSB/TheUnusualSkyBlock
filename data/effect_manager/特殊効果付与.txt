@@ -106,9 +106,6 @@ MP全回復・HP20割回復
 ### invisibility 1 122
 ソーマ(HPMP全回復+耐性100)
 ### invisibility 1 123
-スキル再設定可能
-
-
-
-### slowness 1 127
 炎上
+### invisibility 1 124
+スキル再設定可能
