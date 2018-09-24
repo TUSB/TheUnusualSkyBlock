@@ -3,7 +3,7 @@
 ##############################
 
 ###変数加算
-scoreboard players add @s EclipseRadius 20
+scoreboard players add @s EclipseRadius 30
 
 ###パーティクル生産
 function calc_manager:get/pos1
@@ -22,7 +22,7 @@ execute if score $Second Count matches 1 as @a[distance=..32] facing entity @s f
 ###---演出---End
 
 ###魔法持続時間終了処理
-execute if score @s EclipseRadius matches 10000 run kill @s
+execute if score @s EclipseRadius matches 15000.. run kill @s
 
 ###球内適当判定
 scoreboard players operation $Damage Global = @s SkillAttribute

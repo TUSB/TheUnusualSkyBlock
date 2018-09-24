@@ -8,16 +8,16 @@ execute rotated as @s positioned ^ ^ ^102.4 if entity @s[distance=..102.4] posit
 
 execute rotated as @s positioned ^ ^ ^10 if entity @s[distance=..15] positioned ^ ^ ^-20 if entity @s[distance=..15] run tag @s add Transition
 
-execute at @s run scoreboard players operation @e[dx=2,tag=Mob] Damage += @s SkillAttribute
-execute if entity @s[tag=Transition] facing entity @s feet positioned ^ ^ ^3 run scoreboard players operation @e[dx=2,tag=Mob] Damage += @s SkillAttribute
-execute if entity @s[tag=Transition] facing entity @s feet positioned ^ ^ ^4 run scoreboard players operation @e[dx=2,tag=Mob] Damage += @s SkillAttribute
+execute at @s run scoreboard players operation @e[dy=2,tag=Mob] Damage += @s SkillAttribute
+execute if entity @s[tag=Transition] facing entity @s feet positioned ^ ^ ^3 run scoreboard players operation @e[dy=2,tag=Mob] Damage += @s SkillAttribute
+execute if entity @s[tag=Transition] facing entity @s feet positioned ^ ^ ^4 run scoreboard players operation @e[dy=2,tag=Mob] Damage += @s SkillAttribute
 
 ###---演出---Start
-execute at @s if entity @e[dx=2,tag=Mob,limit=1] run playsound minecraft:block.stone.break master @a[distance=..16] ~ ~ ~ 1.5 0.5
-execute if entity @s[tag=Transition] facing entity @s feet positioned ^ ^ ^3 if entity @e[dx=2,tag=Mob,limit=1] run playsound minecraft:block.stone.break master @a[distance=..16] ~ ~ ~ 1.5 0.5
-execute if entity @s[tag=Transition] facing entity @s feet positioned ^ ^ ^4 if entity @e[dx=2,tag=Mob,limit=1] run playsound minecraft:block.stone.break master @a[distance=..16] ~ ~ ~ 1.5 0.5
-execute if entity @s[tag=Transition] facing entity @s feet positioned ^ ^ ^3 if entity @e[dx=2,tag=Mob,limit=1] positioned as @s run particle minecraft:item minecraft:netherrack ~ ~1.5 ~ 0.1 0.2 0.2 0.05 5 force
-execute if entity @s[tag=Transition] facing entity @s feet positioned ^ ^ ^4 if entity @e[dx=2,tag=Mob,limit=1] positioned as @s run particle minecraft:item minecraft:netherrack ~ ~1.5 ~ 0.1 0.2 0.2 0.05 5 force
+execute at @s if entity @e[dy=2,tag=Mob,limit=1] run playsound minecraft:block.stone.break master @a[distance=..16] ~ ~ ~ 1.5 0.5
+execute if entity @s[tag=Transition] facing entity @s feet positioned ^ ^ ^3 if entity @e[dy=2,tag=Mob,limit=1] run playsound minecraft:block.stone.break master @a[distance=..16] ~ ~ ~ 1.5 0.5
+execute if entity @s[tag=Transition] facing entity @s feet positioned ^ ^ ^4 if entity @e[dy=2,tag=Mob,limit=1] run playsound minecraft:block.stone.break master @a[distance=..16] ~ ~ ~ 1.5 0.5
+execute if entity @s[tag=Transition] facing entity @s feet positioned ^ ^ ^3 if entity @e[dy=2,tag=Mob,limit=1] positioned as @s run particle minecraft:item minecraft:netherrack ~ ~1.5 ~ 0.1 0.2 0.2 0.05 5 force
+execute if entity @s[tag=Transition] facing entity @s feet positioned ^ ^ ^4 if entity @e[dy=2,tag=Mob,limit=1] positioned as @s run particle minecraft:item minecraft:netherrack ~ ~1.5 ~ 0.1 0.2 0.2 0.05 5 force
 ###---演出---End
 
 tag @s[tag=Transition] remove Transition
