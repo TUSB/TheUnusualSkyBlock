@@ -4,7 +4,7 @@
 
 scoreboard players set $BlowPower Global 1500000
 scoreboard players operation $BlowPower Global -= @s LightningBlow
-execute if score @s ModeSkill matches 51031 run scoreboard players operation $BlowPower Global *= $1 Const
+#execute if score @s ModeSkill matches 51031 run scoreboard players operation $BlowPower Global *= $1 Const
 execute if score @s ModeSkill matches 51032 run scoreboard players operation $BlowPower Global *= $5 Const
 execute if score @s ModeSkill matches 51033 run scoreboard players operation $BlowPower Global *= $10 Const
 execute if score @s ModeSkill matches 51034 run scoreboard players operation $BlowPower Global *= $15 Const
