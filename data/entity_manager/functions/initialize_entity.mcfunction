@@ -86,7 +86,6 @@ tag @s[type=minecraft:tnt_minecart] add
 tag @s[type=minecraft:experience_orb] add
 
 tag @s[tag=FlyingRequired] add TickingTask
-tag @s[tag=GunPowder] add CooldownRequired
 tag @s[tag=CooldownRequired] add ObserveCooldown
 tag @s[tag=ObserveCooldown] add TickingTask
 tag @s[tag=Swim] add TickingTask
