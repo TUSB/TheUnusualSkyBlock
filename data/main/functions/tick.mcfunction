@@ -134,8 +134,7 @@ execute as @e[tag=Mob,nbt={AbsorptionAmount:0f}] at @s run function entity_manag
 tag @e[tag=Vehicle,nbt=!{Passengers:[{}]}] add Garbage
 tag @e[tag=Vehicle,tag=Anchored,nbt=!{Passengers:[{Tags:[Anchor]}]}] add Garbage
 ##エンティティ削除
-execute as @e[tag=Garbage] run data merge entity @s {Size:0,DeathTime:19s,HandItems:[{},{}],ArmorItems:[{},{},{},{}]}
-kill @e[tag=Garbage]
+execute as @e[tag=Garbage] run function entity_manager:garbage_collection
 
 ### MP消費
 execute as @a run function skill_manager:update_mp

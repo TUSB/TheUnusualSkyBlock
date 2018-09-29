@@ -21,8 +21,5 @@ execute if entity @s[tag=DarkSwamp] run function skill_manager:black_mage/dark_s
 ###ぽむぽむ花火処理
 execute if entity @s[tag=PomPom] run function skill_manager:summoner/pompom/at0
 
-###炸裂弾処理
-execute if entity @s[tag=GunPowder] run function entity_manager:ignite
-
 ###CooldownRequired処理
 tag @s[tag=CooldownRequired] add Garbage
