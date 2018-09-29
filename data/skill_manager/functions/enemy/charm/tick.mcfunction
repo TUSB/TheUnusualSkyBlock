@@ -10,7 +10,7 @@ execute if score $Tick Global matches 0 unless score @s CharmCount matches 0 run
 execute if score @s CharmCount matches 0 run tellraw @a [{"text":"","color":"green"},{"selector":"@s"},"の",{"text":"魅了","color":"white"},"が切れた。"]
 execute if score @s CharmCount matches 0 run tag @s[tag=!LockTickingTask] remove TickingTask
 
-execute as @a[distance=..32] facing entity @s feet facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
+execute as @a[distance=..32,gamemode=!creative,gamemode=!spectator] facing entity @s feet facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
 
 ###---演出---Start
 ###---演出---End
