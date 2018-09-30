@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:beacon"
+    },
+    "title": {
+      "text": "勇気有る者に栄光を"
+    },
+    "description": {
+      "text": "誘惑を断ち切り、いざというときは逃げ、前を向いて進むべし。さすれば栄光与えられん。"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement_manager:table_mountain/8f",
+  "criteria": {
+    "dummy": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:magma_block"
+    },
+    "title": {
+      "text": "火山登頂"
+    },
+    "description": {
+      "text": "燃え盛る山を登るには･･･？"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement_manager:nether/root",
+  "criteria": {
+    "join": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "the_nether",
+        "position": {
+          "x": {
+            "min": -480,
+            "max": 559
+          },
+          "y": {
+            "min": 80,
+            "max": 255
+          },
+          "z": {
+            "min": -1136,
+            "max": -97
+          }
+        }
+      }
+    }
+  }
+}

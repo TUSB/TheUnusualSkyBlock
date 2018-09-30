@@ -1,0 +1,66 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:water_bucket"
+    },
+    "title": {
+      "text": "温泉の癒し"
+    },
+    "description": {
+      "text": "急ぐとも 5秒は浸かれ TUSBの湯"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement_manager:common/root",
+  "criteria": {
+    "skill_setting_field": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimention": "overworld",
+        "position": {
+          "x": {
+            "min": -704,
+            "max": -697
+          },
+          "y": {
+            "min": 72,
+            "max": 73
+          },
+          "z": {
+            "min": -756,
+            "max": -751
+          }
+        }
+      }
+    },
+    "table_mountain": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimention": "overworld",
+        "position": {
+          "x": {
+            "min": 27,
+            "max": 29
+          },
+          "y": {
+            "min": 54,
+            "max": 55
+          },
+          "z": {
+            "min": -2809,
+            "max": -2897
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "skill_setting_field",
+      "table_mountain"
+    ]
+  ]
+}

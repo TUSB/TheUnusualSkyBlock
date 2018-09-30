@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "title": [
+      {
+        "text": ""
+      },
+      {
+        "text": "空へのいざない -通常世界-",
+        "color": "gray",
+        "bold": true
+      }
+    ],
+    "description": {
+      "text": "空の世界へ旅立とう"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/cyan_stained_glass.png"
+  },
+  "criteria": {
+    "join": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+        "position": {
+          "x": {
+            "min": -480,
+            "max": 559
+          },
+          "y": {
+            "min": 0,
+            "max": 255
+          },
+          "z": {
+            "min": -1136,
+            "max": -97
+          }
+        }
+      }
+    }
+  }
+}

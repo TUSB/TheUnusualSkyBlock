@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:end_portal_frame"
+    },
+    "title": {
+      "text": "統べようとする者"
+    },
+    "description": {
+      "text": "この空を制しつつある者"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "advancement_manager:common/conquest_first",
+  "criteria": {
+    "dummy": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

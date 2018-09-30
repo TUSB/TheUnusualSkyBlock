@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:egg"
+    },
+    "title": {
+      "text": "空島の秘宝"
+    },
+    "description": {
+      "text": "暗い"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement_manager:skill_setting_field/ex_domain/tutorial",
+  "criteria": {
+    "key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:egg",
+            "nbt": "{display:{Name:\"\\\"たまご\\\"\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

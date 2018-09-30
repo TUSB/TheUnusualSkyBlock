@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:egg"
+    },
+    "title": {
+      "text": "地獄の秘宝"
+    },
+    "description": {
+      "text": "暑い"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement_manager:skill_setting_field/ex_domain/underworld",
+  "criteria": {
+    "key": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:egg",
+            "nbt": "{display:{Name:\"\\\"たまご\\\"\"}}"
+          }
+        ]
+      }
+    }
+  }
+}

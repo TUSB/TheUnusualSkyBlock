@@ -1,0 +1,30 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:white_wool"
+    },
+    "title": {
+      "text": "足場    "
+    },
+    "description": {
+      "text": "足場がなければ始まらない"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement_manager:skylands/root",
+  "criteria": {
+    "wool": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:white_wool"
+          }
+        ]
+      }
+    }
+  }
+}

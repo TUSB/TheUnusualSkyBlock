@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:command_block"
+    },
+    "title": {
+      "text": "デバッグルーム"
+    },
+    "description": {
+      "text": "HelloCommand();"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "advancement_manager:common/root",
+  "criteria": {
+    "debug_room": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimention": "overworld",
+        "position": {
+          "x": {
+            "min": -1923,
+            "max": -1870
+          },
+          "y": {
+            "min": 3,
+            "max": 19
+          },
+          "z": {
+            "min": -202,
+            "max": -69
+          }
+        }
+      }
+    }
+  }
+}

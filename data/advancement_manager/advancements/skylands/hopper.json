@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:hopper"
+    },
+    "title": {
+      "text": "ホッパーの捕食"
+    },
+    "description": {
+      "text": "吸引力の変わらない、ただ一つのホッパー"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "advancement_manager:skylands/wool",
+  "criteria": {
+    "dummy": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

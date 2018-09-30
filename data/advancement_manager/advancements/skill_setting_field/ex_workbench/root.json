@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:crafting_table"
+    },
+    "title": {
+      "text": "更なるアイテムを求めて"
+    },
+    "description": {
+      "text": "超作業台を使うと、特殊なアイテムを作ることができる"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement_manager:skill_setting_field/root",
+  "criteria": {
+    "join": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimention": "overworld",
+        "position": {
+          "x": {
+            "min": -645,
+            "max": -639
+          },
+          "y": {
+            "min": 88,
+            "max": 93
+          },
+          "z": {
+            "min": -766,
+            "max": -760
+          }
+        }
+      }
+    }
+  }
+}

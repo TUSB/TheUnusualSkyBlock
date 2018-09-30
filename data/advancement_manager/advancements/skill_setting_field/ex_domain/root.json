@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cyan_stained_glass"
+    },
+    "title": {
+      "text": "財宝の眠る神殿"
+    },
+    "description": {
+      "text": "エクストラドメインには、鍵のかかった財宝が眠っている"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement_manager:skill_setting_field/root",
+  "criteria": {
+    "join": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+        "position": {
+          "x": {
+            "min": -650,
+            "max": -600
+          },
+          "y": {
+            "min": 0,
+            "max": 255
+          },
+          "z": {
+            "min": -463,
+            "max": -413
+          }
+        }
+      }
+    }
+  }
+}

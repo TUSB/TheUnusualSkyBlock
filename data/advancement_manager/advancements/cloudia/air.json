@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:stone_bricks"
+    },
+    "title": {
+      "text": "攻城戦"
+    },
+    "description": {
+      "text": "えあー・ω・"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement_manager:cloudia/root",
+  "criteria": {
+    "join": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+        "position": {
+          "x": {
+            "min": -880,
+            "max": -481
+          },
+          "y": {
+            "min": 0,
+            "max": 255
+          },
+          "z": {
+            "min": -944,
+            "max": -161
+          }
+        }
+      }
+    }
+  }
+}

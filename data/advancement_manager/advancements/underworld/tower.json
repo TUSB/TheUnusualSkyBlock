@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_block"
+    },
+    "title": {
+      "text": "地上へ続く聖塔"
+    },
+    "description": {
+      "text": "天井から生えているような塔であれば、地上に戻れるかもしれない。"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement_manager:underworld/village",
+  "criteria": {
+    "join": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+        "position": {
+          "x": {
+            "min": -480,
+            "max": 559
+          },
+          "y": {
+            "min": 80,
+            "max": 255
+          },
+          "z": {
+            "min": -1136,
+            "max": -97
+          }
+        }
+      }
+    }
+  }
+}

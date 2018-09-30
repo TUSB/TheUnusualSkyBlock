@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lily_pad"
+    },
+    "title": {
+      "text": "毒水に注意"
+    },
+    "description": {
+      "text": "地下世界は毒まみれ。水すらも汚染されている。"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "advancement_manager:underworld/root",
+  "criteria": {
+    "dummy": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

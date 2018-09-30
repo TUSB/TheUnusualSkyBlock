@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_axe"
+    },
+    "title": {
+      "text": "特訓開始"
+    },
+    "description": {
+      "text": "空に浮かぶ道場、ここで特訓して戦闘力を高めよう"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement_manager:skill_setting_field/root",
+  "criteria": {
+    "join": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "dimension": "overworld",
+        "position": {
+          "x": {
+            "min": -821,
+            "max": -790
+          },
+          "y": {
+            "min": 0,
+            "max": 255
+          },
+          "z": {
+            "min": -706,
+            "max": -675
+          }
+        }
+      }
+    }
+  }
+}

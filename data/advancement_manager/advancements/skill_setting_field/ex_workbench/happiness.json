@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:writable_book"
+    },
+    "title": {
+      "text": "識ることは幸福なり"
+    },
+    "description": {
+      "text": "幸福のためのレシピを入手した"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement_manager:skill_setting_field/ex_workbench/root",
+  "criteria": {
+    "recipe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:written_book",
+            "nbt": "{}"
+          }
+        ]
+      }
+    }
+  }
+}
