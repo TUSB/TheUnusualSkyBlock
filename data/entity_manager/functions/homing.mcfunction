@@ -14,9 +14,9 @@ execute if entity @s[tag=Homing16] run scoreboard players add $RY2 Global 16000
 scoreboard players operation $RX2 Global = $RY2 Global
 
 #回転角度加算
-execute unless entity @s[tag=HomingHorizontal] rotated as @s positioned as @a[limit=1,sort=nearest,gamemode=!creative,gamemode=!spectator,distance=..64] positioned ^ ^-1000 ^ positioned as @s[distance=..1000] run scoreboard players operation $RX1 Global -= $RX2 Global
-execute unless entity @s[tag=HomingHorizontal] rotated as @s positioned as @a[limit=1,sort=nearest,gamemode=!creative,gamemode=!spectator,distance=..64] positioned ^ ^1000 ^ positioned as @s[distance=..1000] run scoreboard players operation $RX1 Global += $RX2 Global
-execute unless entity @s[tag=HomingVertical] rotated as @s positioned as @a[limit=1,sort=nearest,gamemode=!creative,gamemode=!spectator,distance=..64] positioned ^-1000 ^ ^ positioned as @s[distance=..1000] run scoreboard players operation $RY1 Global -= $RY2 Global
-execute unless entity @s[tag=HomingVertical] rotated as @s positioned as @a[limit=1,sort=nearest,gamemode=!creative,gamemode=!spectator,distance=..64] positioned ^1000 ^ ^ positioned as @s[distance=..1000] run scoreboard players operation $RY1 Global += $RY2 Global
+execute unless entity @s[tag=HomingHorizontal] rotated as @s positioned as @a[limit=1,sort=nearest,gamemode=!creative,gamemode=!spectator,distance=..48] positioned ^ ^-1000 ^ positioned as @s[distance=..1000] run scoreboard players operation $RX1 Global -= $RX2 Global
+execute unless entity @s[tag=HomingHorizontal] rotated as @s positioned as @a[limit=1,sort=nearest,gamemode=!creative,gamemode=!spectator,distance=..48] positioned ^ ^1000 ^ positioned as @s[distance=..1000] run scoreboard players operation $RX1 Global += $RX2 Global
+execute unless entity @s[tag=HomingVertical] rotated as @s positioned as @a[limit=1,sort=nearest,gamemode=!creative,gamemode=!spectator,distance=..48] positioned ^-1000 ^ ^ positioned as @s[distance=..1000] run scoreboard players operation $RY1 Global -= $RY2 Global
+execute unless entity @s[tag=HomingVertical] rotated as @s positioned as @a[limit=1,sort=nearest,gamemode=!creative,gamemode=!spectator,distance=..48] positioned ^1000 ^ ^ positioned as @s[distance=..1000] run scoreboard players operation $RY1 Global += $RY2 Global
 
 function calc_manager:set/rotation1
