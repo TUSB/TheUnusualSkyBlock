@@ -14,7 +14,7 @@
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "advancement_manager:skylands/night_end",
+  "parent": "advancement_manager:skylands/end_night",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"
