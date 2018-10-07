@@ -60,6 +60,7 @@ execute as @e[type=minecraft:spawner_minecart] at @s positioned ~-0.5 ~-0.5 ~-0.
 
 ###追尾
 execute if entity @s[tag=AimingPlayer,tag=!Bullet] run function entity_manager:aiming_player
+execute if entity @s[tag=RandomRotation,tag=!Bullet] run function entity_manager:random_rotation
 
 ### プレイヤー初期化
 execute as @s[type=minecraft:player] run function skill_manager:set/initialize
