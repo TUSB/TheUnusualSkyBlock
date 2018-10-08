@@ -56,7 +56,7 @@ data merge entity @s[tag=TickingRequired,nbt={PortalCooldown:0}] {PortalCooldown
 
 ### スポナーカート属性
 tag @s[type=minecraft:armor_stand,nbt={Passengers:[{id:"minecraft:spawner_minecart"}]}] add SpawnerCore
-execute as @e[type=minecraft:spawner_minecart] at @s positioned ~-0.5 ~-0.5 ~-0.5 if entity @e[dx=0,dy=0,dz=0,type=minecraft:armor_stand,tag=SpawnerCore] run tag @s add Spanwer
+execute as @e[type=minecraft:spawner_minecart,tag=!NonBlockSpawner] at @s positioned ~-0.5 ~-0.5 ~-0.5 if entity @e[dx=0,dy=0,dz=0,type=minecraft:armor_stand,tag=SpawnerCore] run tag @s add Spawner
 
 ###追尾
 execute if entity @s[tag=AimingPlayer,tag=!Bullet] run function entity_manager:aiming_player

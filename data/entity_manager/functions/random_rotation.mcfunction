@@ -2,14 +2,7 @@
 ### ランダムな向きに設定
 ##############################
 
-#水平
-function calc_manager:update_random
-execute store result entity @s Rotation[0] float 1 run scoreboard players get $Random Global
-
-#垂直
-function calc_manager:update_random
-execute store result entity @s Rotation[1] float 1 run scoreboard players get $Random Global
-
+function calc_manager:set/random_rotation
 execute rotated as @s positioned ^ ^ ^1 run function calc_manager:get/direction1
 
 ###100mをAir tickかけて進む
