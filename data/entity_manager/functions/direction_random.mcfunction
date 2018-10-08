@@ -26,14 +26,14 @@ scoreboard players operation @s Global %= $RX2 Global
 scoreboard players operation @s Global *= $2 Const
 scoreboard players operation @s Global -= $RX2 Global
 
-scoreboard players operation $RX1 Global += @s Global
+execute unless score $RX2 Global matches 0 run scoreboard players operation $RX1 Global += @s Global
 #垂直
 function calc_manager:set_random
 scoreboard players operation @s Global %= $RY2 Global
 scoreboard players operation @s Global *= $2 Const
 scoreboard players operation @s Global -= $RY2 Global
 
-scoreboard players operation $RY1 Global += @s Global
+execute unless score $RY2 Global matches 0 run scoreboard players operation $RY1 Global += @s Global
 
 
 function calc_manager:set/rotation1
