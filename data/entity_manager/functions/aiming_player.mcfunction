@@ -3,7 +3,7 @@
 ##############################
 
 execute positioned as @s facing entity @a[gamemode=!creative,gamemode=!spectator,scores={TimeSinceDeath=1..},sort=nearest,limit=1] eyes run tp @s ~ ~ ~ ~ ~
-execute if entity @s[tag=Direction] run function entity_manager:direction
+execute if entity @s[tag=Direction] run function entity_manager:direction_aiming
 
 execute rotated as @s positioned ^ ^ ^1 run function calc_manager:get/direction1
 
