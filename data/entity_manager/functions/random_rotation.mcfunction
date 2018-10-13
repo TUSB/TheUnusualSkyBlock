@@ -1,9 +1,19 @@
 ##############################
-### プレイヤー狙い
+### ランダムな向きに設定
 ##############################
 
-execute positioned as @s facing entity @a[gamemode=!creative,gamemode=!spectator,scores={TimeSinceDeath=1..},sort=nearest,limit=1] eyes run tp @s ~ ~ ~ ~ ~
-execute if entity @s[tag=Direction] run function entity_manager:direction_aiming
+execute if entity @s[tag=!Direction] run function calc_manager:set/random_rotation
+
+execute if entity @s[tag=Direction] run function entity_manager:direction_random
+
+
+#水平
+#function calc_manager:update_random
+#execute store result entity @s Rotation[0] float 1 run scoreboard players get $Random Global
+
+#垂直
+#function calc_manager:update_random
+#execute store result entity @s Rotation[1] float 1 run scoreboard players get $Random Global
 
 execute rotated as @s positioned ^ ^ ^1 run function calc_manager:get/direction1
 
