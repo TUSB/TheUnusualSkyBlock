@@ -39,6 +39,7 @@ scoreboard objectives add Global dummy {"text":"グローバル変数"}
 scoreboard objectives add Decrementer dummy {"text":"減少カウンタ"}
 scoreboard objectives add Const dummy {"text":"定数"}
 scoreboard objectives add Count dummy {"text":"カウント"}
+scoreboard objectives add Flag dummy {"text":"一時的フラグ"}
 scoreboard objectives add DoomCount dummy {"text":"死の宣告カウント"}
 scoreboard objectives add TorchCount dummy {"text":"トカルトトーチ消費カウント"}
 scoreboard objectives add VirusCount dummy {"text":"病気カウント"}

@@ -4,14 +4,22 @@
 
 ###デクリメンタ(set/operation=以外禁止)
 scoreboard players remove * Decrementer 1
+##################################################     毎tick非ワールド依存処理の壁     ##################################################
 
 ### 死んでから起きた時の処理
 execute as @a[scores={Hunger=0..,TimeSinceDeath=1..}] at @s run function effect_manager:status/rise
 ### レーダーヴィジョン処理
 execute as @a[scores={RaderVision=0..}] at @s run function skill_manager:hunter/rader_vision/tick
+##################################################     移動させてからブロック参照させないといけない処理の壁     ##################################################
 
+### 奈落kill
+execute as @a at @s if entity @s[y=-250,dy=50] run kill @s
+###めり込み処理
+execute as @a[scores={TimeSinceDeath=1..},gamemode=!spectator,gamemode=!creative] at @s anchored eyes if block ^ ^ ^ minecraft:barrier run function entity_manager:suffocation
+execute as @a[scores={TimeSinceDeath=1..},gamemode=!spectator,gamemode=!creative] at @s anchored eyes if block ^ ^ ^ minecraft:bedrock run function entity_manager:suffocation
 ### 特殊床
 execute as @a[gamemode=!spectator,gamemode=!creative,scores={HP=1..}] positioned as @s if block ~ ~-2 ~ #main:unique_floors run function entity_manager:unique_floor
+##################################################     非エリア依存ブロック参照処理の壁     ##################################################
 
 ###エリア移動
 ##overworld
@@ -29,6 +37,7 @@ execute in the_nether as @a[x=-736,y=0,z=-1008,dx=1599,dy=255,dz=1679,gamemode=!
 execute in the_nether as @a[x=-2272,y=0,z=-464,dx=831,dy=1,dz=831,gamemode=!spectator] unless score @s Dimension matches 110 run function area_manager:on_change/nether_dungeon
 ##end
 execute in the_end as @a[distance=0..,gamemode=!spectator] unless score @s Dimension matches 210 run function area_manager:on_change/end
+##################################################     エリア移動の壁     ##################################################
 
 ###1tick遅れ処理
 execute as @e[tag=DelayedTask] at @s run function main:delayed_task
@@ -74,11 +83,12 @@ scoreboard players reset @s ActiveCost
 
 ###満腹度処理
 execute as @a[scores={FoodLevel=1..}] at @s run function trigger_manager:food
+##################################################     同tick内に初期化させるエンティティ発生の可能性の壁     ##################################################
 
 ###エンティティ発生時処理
 execute as @e[tag=!Initialized] at @s run function entity_manager:initialize_entity
 
-###毎tick処理呼び出し
+###一時的毎tick処理呼び出し
 execute as @e[tag=TickingTask] at @s run function main:ticking_task
 
 ###１秒処理
@@ -88,6 +98,10 @@ execute if score $Second Count matches 21.. run function main:one_second
 ###飛翔物スキル処理
 execute as @e[tag=Mob,scores={ProjectileSkill=1..}] at @s run function skill_manager:projectile/check
 execute as @e[tag=Projectile,scores={ProjectileSkill=1..}] at @s run function skill_manager:projectile/try
+
+### スポナーカート空気時削除
+execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air run tag @e[dx=0,tag=Spawner] add Garbage
+##################################################     エンティティ全般処理の壁     ##################################################
 
 ###パペット移動
 execute as @a[tag=WithPuppet] unless score @s ModeSkill matches 71031..71039 at @s run function puppet_manager:puppet_move
@@ -108,20 +122,7 @@ execute as @a[scores={Kaishaku=1..}] at @s run function skill_manager:ninja/kais
 execute as @a[scores={LightningBlow=1..}] at @s run function skill_manager:black_mage/lightning_blow/tick
 ###ロックンロール
 execute as @a[scores={ModeSkill=51041..51049}] at @s run function skill_manager:black_mage/rock_n_roll/tick
-
-### スポナーカート空気時削除
-execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air run tag @e[dx=0,tag=Spawner] add Garbage
-
-### 奈落kill
-execute as @a at @s if entity @s[y=-250,dy=50] run kill @s
-###めり込み処理
-execute as @a[scores={TimeSinceDeath=1..},gamemode=!spectator,gamemode=!creative] at @s anchored eyes if block ^ ^ ^ minecraft:barrier run function entity_manager:suffocation
-execute as @a[scores={TimeSinceDeath=1..},gamemode=!spectator,gamemode=!creative] at @s anchored eyes if block ^ ^ ^ minecraft:bedrock run function entity_manager:suffocation
-
-###バースト現象
-execute if score #Aura MP > $10000 Const run scoreboard players remove #Aura MP 1
-scoreboard players operation バースト MP = #Aura MP
-scoreboard players operation バースト MP < $99999 Const
+##################################################     継続系スキルの壁     ##################################################
 
 ###エンティティダメージ付与
 execute as @e[tag=Mob,scores={Damage=0..}] at @s run function entity_manager:apply_damage
@@ -135,12 +136,19 @@ tag @e[tag=Vehicle,nbt=!{Passengers:[{}]}] add Garbage
 tag @e[tag=Vehicle,tag=Anchored,nbt=!{Passengers:[{Tags:[Anchor]}]}] add Garbage
 ##エンティティ削除
 execute as @e[tag=Garbage] run function entity_manager:garbage_collection
+##################################################     エンティティダメージ＆削除処理の壁     ##################################################
+
+###バースト現象
+execute if score #Aura MP > $10000 Const run scoreboard players remove #Aura MP 1
+scoreboard players operation バースト MP = #Aura MP
+scoreboard players operation バースト MP < $99999 Const
 
 ### MP消費
 execute as @a run function skill_manager:update_mp
 
 ###カスタムHP回復
 execute as @a[scores={HealthHealing=-2147483648..}] run function effect_manager:health_healing
+##################################################     このtickの戦闘処理を完了させるHP/MP処理の壁     ##################################################
 
 ###スキル設定表示
 execute as @a if score @s ChangeModeRed matches 1..9 run function skill_manager:change_skill/list/mode/red
@@ -152,6 +160,13 @@ execute as @a unless score @s ChangeModeRed matches 0 run function skill_manager
 execute as @a unless score @s ChangeModeBlue matches 0 run function skill_manager:set_skill/fork/mode/blue
 execute as @a unless score @s ChangeSupRed matches 0 run function skill_manager:set_skill/fork/support/red
 execute as @a unless score @s ChangeSupBlue matches 0 run function skill_manager:set_skill/fork/support/blue
+##################################################     スキル表示・変更の壁     ##################################################
+
+###無限チェスト処理
+execute if score $InfinityChest Global matches 1.. as @e[tag=InfinityChest] at @s run function item_manager:infinity_chest/check
+scoreboard players set $InfinityChest Global 0
+execute as @a at @s if entity @e[distance=..7,tag=InfinityChest,limit=1] run scoreboard players set $InfinityChest Global 1
+
 
 ###クエスト関係
 execute as @a if score @s QuestClick matches 1.. run function quest_manager:main/list_clicked
