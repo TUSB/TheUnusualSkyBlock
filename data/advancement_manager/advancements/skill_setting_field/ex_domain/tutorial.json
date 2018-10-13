@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:firework_star",
-      "nbt": "{Explosion:{Type:0b,Colors:[I;]}}"
+      "item": "minecraft:egg"
     },
     "title": {
       "text": "最初の秘宝"
@@ -22,8 +21,7 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:firework_star",
-            "nbt": "{Explosion:{Type:0b,Colors:[I;]},display:{Name:\"\\\"\\\"\"}}"
+            "item": "minecraft:egg"
           }
         ]
       }
