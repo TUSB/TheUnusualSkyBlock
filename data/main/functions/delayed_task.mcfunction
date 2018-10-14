@@ -36,3 +36,6 @@ tag @s[tag=DarkSwampLevitation2] add DelayedTask
 ###ジオクラッシュも2tick遅らせる
 tag @s[tag=GeoCrash] add GeoCrash2
 tag @s[tag=GeoCrash] add DelayedTask
+
+###無限チェスト処理（いろは丸）
+execute if entity @s[tag=inf_chest] positioned as @s unless entity @p[distance=..5] run function item_manager:inf_chest/remove_chest
