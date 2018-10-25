@@ -17,6 +17,9 @@ tag @s[type=minecraft:magma_cube] add Slimy
 data merge entity @s[tag=Slimy,nbt={AbsorptionAmount:0f}] {DeathLootTable:"minecraft:empty",Tags:["Garbage"]}
 tag @s[tag=Slimy] add Mob
 
+### Vexタグ付与
+execute if entity @s[tag=BoundPlayer] positioned as @s run function entity_manager:bound_player
+
 ### AbsorptionAmount付与
 execute as @s[tag=Mob,nbt={AbsorptionAmount:0f}] store result entity @s AbsorptionAmount float 0.1 run data get entity @s Health 10
 data merge entity @s[tag=Mob] {Attributes:[{Name:"generic.maxHealth",Base:1024d}],Health:1024f}
