@@ -1,5 +1,5 @@
 ##############################
-### ソルジャーフラッガー シアン
+### ソルジャーフラッガー シアン召喚
 ##############################
 
 # give @p minecraft:leather_chestplate{Unbreakable:true,display:{color:3647935}} 1
