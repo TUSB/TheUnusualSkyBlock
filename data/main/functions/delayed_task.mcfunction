@@ -5,6 +5,9 @@
 execute if entity @s[tag=DelayedMotion] run function calc_manager:load/motion
 tag @s[tag=DelayedMotion] remove DelayedMotion
 
+###デコイ
+execute as @s[tag=AvoidFalling2] run function skill_manager:knight/decoy/avoid_falling
+
 ###ジオクラッシュ判定適用処理
 execute as @s[tag=GeoCrash2] run function skill_manager:black_mage/geo_crash/occur
 
@@ -27,6 +30,11 @@ execute if entity @s[tag=Caught] run function skill_manager:summoner/fukafuka/ca
 
 ###共通タグ削除
 tag @s remove DelayedTask
+
+###デコイは2tick遅らせる
+tag @s[tag=AvoidFalling] add AvoidFalling2
+tag @s[tag=AvoidFalling] add DelayedTask
+tag @s[tag=AvoidFalling2] add AvoidFalling
 
 ###ダークスワンプ復帰は2tick遅らせる必要がある
 tag @s[tag=DarkSwampLevitation] add DarkSwampLevitation2
