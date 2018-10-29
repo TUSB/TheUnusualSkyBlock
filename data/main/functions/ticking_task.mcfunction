@@ -10,6 +10,7 @@ execute if entity @s[tag=AroundPlayer,tag=Inverted] facing entity @a[gamemode=!c
 execute if entity @s[tag=AroundPlayer] run function calc_manager:set/rotation1
 
 execute if entity @s[tag=Homing] run function entity_manager:homing
+execute if entity @s[tag=Kurukuru] run function entity_manager:kurukuru
 
 ###地烈斬
 execute if entity @s[tag=CrackSlash] run function skill_manager:knight/crack_slash/tick

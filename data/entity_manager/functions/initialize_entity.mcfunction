@@ -98,6 +98,7 @@ tag @s[tag=TowardPlayer] add TickingTask
 tag @s[tag=LimitedTrading] add TickingTask
 tag @s[tag=AbyssWarp] add TickingTask
 tag @s[tag=Homing] add TickingTask
+tag @s[tag=Kurukuru] add TickingTask
 tag @s[tag=Mob,team=Friendly] remove Mob
 tag @s[tag=Mob,nbt={Invulnerable:true}] remove Mob
 tag @s[nbt={NoAI:true}] add NoAI
