@@ -5,7 +5,10 @@
 execute store result score $GameTime Global run time query gametime
 
 scoreboard players operation $GameTime Global -= @s GameTime
+execute if score $GameTime Global matches 40..59 run gamerule showDeathMessages false
 execute if score $GameTime Global matches 40..59 run kill @s
+execute if score $GameTime Global matches 40..59 run tellraw @a ["あ・・・ああっ！  みるみるうちに  のろいが  ",{"selector":"@s"},"のからだを  しんしょくしていく。\nああっ  ",{"selector":"@s"},"は・・・。こうきしんの  だいしょうを  いのちで  はらうことに  なってしまった・・・。"]
+execute if score $GameTime Global matches 40..59 run gamerule showDeathMessages true
 execute if score $GameTime Global matches 60.. run scoreboard players operation @s GameTime += $GameTime Global
 
 ###---演出---Start
