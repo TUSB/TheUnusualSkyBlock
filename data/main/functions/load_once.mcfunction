@@ -151,6 +151,9 @@ scoreboard objectives add DarkSwamp dummy {"text":"ダークスワンプ回数"}
 scoreboard objectives add LightningBlow dummy {"text":"ライトニングブロー威力"}
 scoreboard objectives add PetitBlack dummy {"text":"ぷちブラック残りtick"}
 scoreboard objectives add MultiThread dummy {"text":"マルチスレッド"}
+scoreboard objectives add HomeX dummy {"text":"ホームポイントX座標"}
+scoreboard objectives add HomeY dummy {"text":"ホームポイントY座標"}
+scoreboard objectives add HomeZ dummy {"text":"ホームポイントZ座標"}
 ###からくり士スキル系
 scoreboard objectives add PuppetScore dummy {"text":"パペット制御用スコア"}
 scoreboard objectives add PupRecordLevel dummy {"text":"レコード特性のレベル"}

@@ -107,6 +107,12 @@ execute if score @s SupportSkill matches 42061..42069 run function skill_manager
 ### アレイズ
 execute if score @s SupportSkill matches 42071..42079 run function skill_manager:white_mage/araise/act
 
+### グロウ
+execute if score @s SupportSkill matches 52041..52049 run function skill_manager:black_mage/grow/act
+
+### ルーラ
+execute if score @s SupportSkill matches 52091..52099 run function skill_manager:black_mage/return/act
+
 ### ダークスワンプ
 execute if score @s SupportSkill matches 52071..52079 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:black_mage/dark_swamp/act
 
