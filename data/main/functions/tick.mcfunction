@@ -18,7 +18,7 @@ execute as @a at @s if entity @s[y=-250,dy=50] run kill @s
 execute as @a[scores={TimeSinceDeath=1..},gamemode=!spectator,gamemode=!creative] at @s anchored eyes if block ^ ^ ^ minecraft:barrier run function entity_manager:suffocation
 execute as @a[scores={TimeSinceDeath=1..},gamemode=!spectator,gamemode=!creative] at @s anchored eyes if block ^ ^ ^ minecraft:bedrock run function entity_manager:suffocation
 ### 特殊床
-execute as @a[gamemode=!spectator,gamemode=!creative,scores={HP=1..}] positioned as @s if block ~ ~-2 ~ #main:unique_floors run function entity_manager:unique_floor
+execute as @a[gamemode=!spectator,gamemode=!creative] positioned as @s if block ~ ~-2 ~ #main:unique_floors run function entity_manager:unique_floor
 ##################################################     非エリア依存ブロック参照処理の壁     ##################################################
 
 ###エリア移動
