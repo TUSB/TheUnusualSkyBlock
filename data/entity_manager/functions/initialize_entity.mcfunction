@@ -58,8 +58,9 @@ tag @s[tag=Projectile] add FlyingRequired
 data merge entity @s[tag=TickingRequired,nbt={PortalCooldown:0}] {PortalCooldown:200}
 
 ### スポナーカート属性
-tag @s[type=minecraft:armor_stand,nbt={Passengers:[{id:"minecraft:spawner_minecart"}]}] add SpawnerCore
-execute as @s[type=minecraft:spawner_minecart,tag=!NonBlockSpawner] at @s positioned ~-0.5 ~-0.5 ~-0.5 if entity @e[dx=0,dy=0,dz=0,type=minecraft:armor_stand,tag=SpawnerCore] run tag @s add Spawner
+execute if score $Deploy Settings matches 1 if entity @s[type=minecraft:armor_stand,nbt={Passengers:[{id:"minecraft:spawner_minecart"}]}] if block ~ ~1 ~ minecraft:command_block run tag @s add SpawnerHolder
+tag @s[tag=SpawnerHolder] add Spawner
+execute if score $Deploy Settings matches 1 if entity @s[type=minecraft:spawner_minecart] align xyz if entity @s[dy=0,type=minecraft:armor_stand,nbt={Passengers:[{id:"minecraft:spawner_minecart"}]}] if block ~ ~1 ~ minecraft:command_block run tag @s add Spawner
 execute as @s[tag=OneOff] run data merge entity @s {SpawnPotentials:[{Entity:{id:"minecraft:area_effect_cloud",Tags:[Stopper]}}],MinSpawnDelay:10000s}
 
 ###追尾

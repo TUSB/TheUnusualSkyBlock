@@ -100,7 +100,7 @@ execute as @e[tag=Mob,scores={ProjectileSkill=1..}] at @s run function skill_man
 execute as @e[tag=Projectile,scores={ProjectileSkill=1..}] at @s run function skill_manager:projectile/try
 
 ### スポナーカート空気時削除
-execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air run tag @e[dx=0,tag=Spawner] add Garbage
+execute as @e[tag=SpawnerHolder] at @s if block ~ ~ ~ minecraft:air run tag @e[dx=0,tag=Spawner] add Garbage
 ##################################################     エンティティ全般処理の壁     ##################################################
 
 ###パペット移動

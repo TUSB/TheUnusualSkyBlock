@@ -26,8 +26,6 @@ execute as @e[tag=TickingRequired] run function entity_manager:check_freeze
 execute as @e[tag=Mob,tag=!Animal,nbt=!{PersistenceRequired:true}] at @s unless entity @a[distance=..128] run tag @s add Garbage
 
 ### スポナーカート処理
-execute as @e[tag=SpawnerCore] at @s if block ~ ~ ~ minecraft:air run kill @s
-execute as @e[type=minecraft:spawner_minecart,tag=Spawner] at @s positioned ~-0.5 ~-0.5 ~-0.5 unless entity @e[dx=0,dy=0,dz=0,tag=SpawnerCore,limit=1] run tag @s add Garbage
 kill @e[tag=OneOff,nbt={SpawnData:{id:"minecraft:area_effect_cloud",Tags:[Stopper]}}]
 
 ### １分処理呼び出し
