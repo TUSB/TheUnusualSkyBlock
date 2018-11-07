@@ -2,7 +2,7 @@
 ### スティッキーアイス発動
 ##############################
 
-execute if block ~ ~ ~ minecraft:air run summon minecraft:falling_block ~ ~ ~ {Tags:[SummonedBlock,TickingTask,Initializing],BlockState:{Name:"minecraft:ice"},PortalCooldown:1,NoGravity:1b,Time:1,DropItem:0b}
+execute if block ~ ~ ~ minecraft:air run summon minecraft:falling_block ~ ~ ~ {Tags:[StickyIce,TickingTask,Initializing],BlockState:{Name:"minecraft:ice"},PortalCooldown:1,NoGravity:1b,Time:1,DropItem:0b}
 execute as @e[tag=Initializing,limit=1] positioned as @s run setblock ~ ~ ~ minecraft:cobweb keep
 
 execute store result score $Height Global run data get entity @s Pos[1] 1
@@ -11,7 +11,7 @@ execute if score @s ModeSkill matches 52012 run scoreboard players operation $He
 scoreboard players add $Height Global 600
 
 execute as @e[tag=Initializing,limit=1] store result entity @s Time int 1 run scoreboard players get $Height Global
-execute as @e[type=minecraft:falling_block,distance=..0.01,tag=SummonedBlock,limit=1] store result entity @s Time int 1 run scoreboard players get $Height Global
+execute as @e[distance=..0.01,tag=StickyIce,limit=1] store result entity @s Time int 1 run scoreboard players get $Height Global
 tag @e[tag=Initializing,limit=1] remove Initializing
 
 ###---演出---Start
