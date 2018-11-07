@@ -107,6 +107,12 @@ execute if score @s SupportSkill matches 42061..42069 run function skill_manager
 ### アレイズ
 execute if score @s SupportSkill matches 42071..42079 run function skill_manager:white_mage/araise/act
 
+### スティッキーアイス
+execute if score @s SupportSkill matches 52011..52019 positioned as @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:black_mage/sticky_ice/act
+
+### キャンドル
+execute if score @s SupportSkill matches 52021..52029 positioned as @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:black_mage/candle/act
+
 ### グロウ
 execute if score @s SupportSkill matches 52041..52049 run function skill_manager:black_mage/grow/act
 

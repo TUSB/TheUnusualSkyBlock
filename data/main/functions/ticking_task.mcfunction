@@ -45,6 +45,8 @@ execute if entity @s[tag=Holy] run function skill_manager:white_mage/holy/tick
 #execute if entity @s[tag=IceStorm] run function skill_manager:black_mage/ice_storm/tick
 ###アイスジャベリン処理
 execute if entity @s[tag=JavelinIce] run function skill_manager:black_mage/ice_javelin/tick
+###キャンドル処理
+execute if entity @s[tag=Candle] positioned ~ ~1 ~ unless entity @e[tag=Candle,distance=..0.01,limit=1] positioned as @s run function skill_manager:black_mage/candle/tick
 ###クロスファイア処理
 #execute if entity @s[tag=CrossFire] run function skill_manager:black_mage/cross_fire/tick
 ###エクリプスフレイム処理

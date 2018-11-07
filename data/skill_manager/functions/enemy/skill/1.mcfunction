@@ -22,6 +22,10 @@ execute if entity @s[tag=BlinkLv3] run function skill_manager:enemy/blink/3
 execute if entity @s[tag=HealLv1] run function skill_manager:enemy/heal/1
 execute if entity @s[tag=HealLv2] run function skill_manager:enemy/heal/2
 execute if entity @s[tag=HealLv3] run function skill_manager:enemy/heal/3
+### セルフヒール
+execute if entity @s[tag=SelfHealLv1] run function skill_manager:enemy/self_heal/1
+execute if entity @s[tag=SelfHealLv2] run function skill_manager:enemy/self_heal/2
+execute if entity @s[tag=SelfHealLv3] run function skill_manager:enemy/self_heal/3
 ### 忍者
 execute if entity @s[tag=Ninja] run function skill_manager:enemy/teleport/1
 
