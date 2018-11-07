@@ -13,6 +13,8 @@ execute as @e[tag=Initializing,limit=1] store result entity @s PortalCooldown in
 execute as @e[tag=Candle,distance=..0.01,limit=1] store result entity @s PortalCooldown int 1 run scoreboard players get $Height Global
 tag @e[tag=Initializing,limit=1] remove Initializing
 
+execute positioned ~-5 ~-3 ~-5 as @e[type=minecraft:spawner_minecart,tag=Spawner,dx=10,dy=8,dz=10] store result entity @s Delay short 1 run scoreboard players get $Height Global
+
 ###---演出---Start
 playsound minecraft:entity.blaze.shoot master @a[distance=..16] ~ ~ ~ 1 0.8
 particle minecraft:lava ~ ~2.1 ~ 0.2 0 0.2 1 3 force
