@@ -3,6 +3,7 @@
 ##############################
 
 ###フィール
+execute if score $ChangeModeNo Global matches 6010 run 
 execute if score $ChangeModeNo Global matches 6101 run scoreboard players operation $ChangeModeCost Global = $6101 Cost
 execute if score $ChangeModeNo Global matches 6101 run scoreboard players operation $ChangeModeInterval Global = $6101 Interval
 execute if score $ChangeModeNo Global matches 6101 if score @s ChangeLevel matches 40.. run scoreboard players set $ChangeModeNo Global 61013
