@@ -17,6 +17,12 @@ execute if score $ChangeSupNo Global matches 5203 run scoreboard players operati
 execute if score $ChangeSupNo Global matches 5203 run scoreboard players operation $ChangeSupInterval Global = $5203 Interval
 execute if score $ChangeSupNo Global matches 5203 if score @s ChangeLevel matches 13.. run scoreboard players set $ChangeSupNo Global 52031
 
+###ジン・スピリット
+execute if score $ChangeSupNo Global matches 5111 run scoreboard players operation $ChangeSupCost Global = $5111 Cost
+execute if score $ChangeSupNo Global matches 5111 run scoreboard players operation $ChangeSupInterval Global = $5111 Interval
+execute if score $ChangeSupNo Global matches 5111 if score @s ChangeLevel matches 37.. run scoreboard players set $ChangeSupNo Global 51112
+execute if score $ChangeSupNo Global matches 5111 if score @s ChangeLevel matches 17.. run scoreboard players set $ChangeSupNo Global 51111
+
 ###グロウ
 execute if score $ChangeSupNo Global matches 5204 run scoreboard players operation $ChangeSupCost Global = $5204 Cost
 execute if score $ChangeSupNo Global matches 5204 run scoreboard players operation $ChangeSupInterval Global = $5204 Interval

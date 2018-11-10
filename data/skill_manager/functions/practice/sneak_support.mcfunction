@@ -24,10 +24,10 @@ scoreboard players operation @s[scores={SupportSkill=32071..32079}] SupportCost 
 scoreboard players operation @s[scores={SupportSkill=42011..42019}] SupportCost *= $3 Const
 
 ### 黒魔導士＜マナリフレッシュ＞
-scoreboard players operation @s[scores={SupportSkill=52051..52059}] SupportCost *= $3 Const
+scoreboard players operation @s[scores={SupportSkill=52061..52069}] SupportCost *= $3 Const
 
 ### 黒魔導士＜ウィンドウォール＞
-scoreboard players operation @s[scores={SupportSkill=52081..52089}] SupportCost *= $3 Const
+scoreboard players operation @s[scores={SupportSkill=52091..52099}] SupportCost *= $3 Const
 
 ### 召喚士＜ヘイカモン＞
 scoreboard players operation @s[scores={SupportSkill=62031..62039}] SupportCost *= $3 Const

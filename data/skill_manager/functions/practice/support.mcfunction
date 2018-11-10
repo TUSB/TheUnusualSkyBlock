@@ -113,14 +113,17 @@ execute if score @s SupportSkill matches 52011..52019 positioned as @e[tag=Egg,d
 ### キャンドル
 execute if score @s SupportSkill matches 52021..52029 positioned as @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:black_mage/candle/act
 
+### ジン・スピリット
+execute if score @s SupportSkill matches 52041..52049 positioned as @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:black_mage/gin_spirit/act
+
 ### グロウ
-execute if score @s SupportSkill matches 52041..52049 run function skill_manager:black_mage/grow/act
+execute if score @s SupportSkill matches 52051..52059 run function skill_manager:black_mage/grow/act
 
 ### ルーラ
-execute if score @s SupportSkill matches 52091..52099 run function skill_manager:black_mage/return/act
+execute if score @s SupportSkill matches 52101..52109 run function skill_manager:black_mage/return/act
 
 ### ダークスワンプ
-execute if score @s SupportSkill matches 52071..52079 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:black_mage/dark_swamp/act
+execute if score @s SupportSkill matches 52081..52089 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:black_mage/dark_swamp/act
 
 ### サモンＰ：スノー
 execute if score @s SupportSkill matches 62011..62019 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:summoner/summon_snow_golem/act

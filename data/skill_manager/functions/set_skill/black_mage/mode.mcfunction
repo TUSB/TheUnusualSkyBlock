@@ -30,11 +30,10 @@ execute if score $ChangeModeNo Global matches 5104 if score @s ChangeLevel match
 execute if score $ChangeModeNo Global matches 5104 if score @s ChangeLevel matches 35.. run scoreboard players set $ChangeModeNo Global 51042
 execute if score $ChangeModeNo Global matches 5104 if score @s ChangeLevel matches 15.. run scoreboard players set $ChangeModeNo Global 51041
 
-###ドレイン
+###スリプガ
 execute if score $ChangeModeNo Global matches 5105 run scoreboard players operation $ChangeModeCost Global = $5105 Cost
 execute if score $ChangeModeNo Global matches 5105 run scoreboard players operation $ChangeModeInterval Global = $5105 Interval
-execute if score $ChangeModeNo Global matches 5105 if score @s ChangeLevel matches 37.. run scoreboard players set $ChangeModeNo Global 51052
-execute if score $ChangeModeNo Global matches 5105 if score @s ChangeLevel matches 17.. run scoreboard players set $ChangeModeNo Global 51051
+execute if score $ChangeModeNo Global matches 5105 if score @s ChangeLevel matches 39.. run scoreboard players set $ChangeModeNo Global 51051
 
 ###パルプンテ
 execute if score $ChangeModeNo Global matches 5106 run scoreboard players operation $ChangeModeCost Global = $5106 Cost

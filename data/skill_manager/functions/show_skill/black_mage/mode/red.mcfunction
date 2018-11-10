@@ -19,7 +19,6 @@ tellraw @s[scores={ShowSkillNo=51041}] ["",{"text":"・ジオクラッシュ","c
 tellraw @s[scores={ShowSkillNo=51042}] ["",{"text":"・ジオクラッシュⅡ","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
 tellraw @s[scores={ShowSkillNo=51043}] ["",{"text":"・ジオクラッシュⅢ","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
 ###モード５
-tellraw @s[scores={ShowSkillNo=51051}] ["",{"text":"・ドレイン","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
-tellraw @s[scores={ShowSkillNo=51052}] ["",{"text":"・ドレインⅡ","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
+tellraw @s[scores={ShowSkillNo=51051}] ["",{"text":"・スリプガ","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
 ###モード６(50スキル)
 tellraw @s[scores={ShowSkillNo=51061}] ["",{"text":"・パルプンテ","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeRed set 9"}}]
