@@ -2,10 +2,16 @@
 ### ジン・スピリット処理
 ##############################
 
-execute if score $Second Count matches 1 positioned ~ ~0.5 ~ if entity @e[tag=Mob,distance=..4] run function skill_manager:black_mage/gin_spirit/damage
-execute if score $Second Count matches 11 positioned ~ ~0.5 ~ if entity @e[tag=Mob,distance=..4] run function skill_manager:black_mage/gin_spirit/damage
+tp @s ~ ~ ~ ~3 ~
+
+execute if score $Second Count matches 1 if score @s SkillAttribute matches 100000.. run function skill_manager:black_mage/gin_spirit/summon
+execute if score $Second Count matches 11 if score @s SkillAttribute matches 100000.. run function skill_manager:black_mage/gin_spirit/summon
 
 ###---演出---Start
 particle minecraft:smoke ~ ~0.75 ~ 0.1 0.25 0.1 0.001 1 force
-particle minecraft:falling_dust minecraft:magenta_wool ~ ~1 ~ 2 0 2 1 1 force
+particle minecraft:falling_dust minecraft:magenta_wool ~ ~6 ~ 6 1 6 1 3 force
+particle minecraft:witch ^ ^ ^8 0 0 0 1 0 force
+particle minecraft:witch ^8 ^ ^ 0 0 0 1 0 force
+particle minecraft:witch ^ ^ ^-8 0 0 0 1 0 force
+particle minecraft:witch ^-8 ^ ^ 0 0 0 1 0 force
 ###---演出---End

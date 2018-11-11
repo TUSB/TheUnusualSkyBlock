@@ -56,6 +56,8 @@ execute if entity @s[tag=EclipseFlameParticle] run function skill_manager:black_
 execute if entity @s[tag=Candle] positioned ~ ~1 ~ unless entity @e[tag=Candle,distance=..0.01,limit=1] positioned as @s run function skill_manager:black_mage/candle/tick
 ###ジン・スピリット処理
 execute if entity @s[tag=GinSpirit] run function skill_manager:black_mage/gin_spirit/tick
+###ジン・スピリットコウモリ処理
+execute if entity @s[tag=GinSpiritBat] if entity @a[dx=0,dy=0,dz=0,limit=1] run function skill_manager:black_mage/gin_spirit/heal
 ###金タライ処理
 execute if entity @s[tag=KanaTarai] run function skill_manager:summoner/kana_tarai/tick
 ###つんつんペット処理
