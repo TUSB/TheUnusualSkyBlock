@@ -30,7 +30,7 @@ tag @s[type=minecraft:chicken,nbt={Passengers:[{}]}] add Vehicle
 
 ###運び屋
 tag @s[nbt={Passengers:[{Tags:[Cargo]}]}] add Mule
-data merge entity @s[tag=Cargo] {PortalCooldown:40,Age:0,Duration:40,Time:560}
+data merge entity @s[tag=Cargo] {PortalCooldown:40,Age:0,Duration:41,Time:559}
 tag @s[tag=Cargo] add CooldownRequired
 
 ###タライ位置調整
