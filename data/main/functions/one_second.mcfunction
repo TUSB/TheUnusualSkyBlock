@@ -12,6 +12,9 @@ execute as @e[tag=Automaton] at @s run function puppet_manager:bio_handling/tick
 ### 常に炎上処理
 execute as @e[tag=Burning,nbt={Fire:-1s}] at @s if entity @p[distance=..48] run function entity_manager:burning
 
+### スリプガ処理
+execute as @e[scores={SleepgaTime=1..}] positioned as @s anchored eyes run function skill_manager:black_mage/sleepga/tick
+
 ### 死の宣告処理
 execute as @a[scores={DoomCount=1..}] run function effect_manager:doom/proceed
 
@@ -58,7 +61,7 @@ execute as @e[scores={Isukumi=0..}] at @s run function skill_manager:ninja/isuku
 scoreboard players remove @a[scores={ClericKnowledge=0..}] ClericKnowledge 1
 
 ### 敵スキル実行
-execute as @e[tag=HasSkill] at @s run function skill_manager:enemy/count
+execute as @e[tag=HasSkill] unless score @s SleepgaTime matches 1.. at @s run function skill_manager:enemy/count
 
 ### 特殊状態異常回復
 execute as @a[tag=Burn,nbt={Fire:-20s}] at @s run function effect_manager:burn/cure
