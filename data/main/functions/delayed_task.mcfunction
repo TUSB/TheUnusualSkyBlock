@@ -34,7 +34,7 @@ tag @s remove DelayedTask
 ###デコイは2tick遅らせる
 tag @s[tag=AvoidFalling] add AvoidFalling2
 tag @s[tag=AvoidFalling] add DelayedTask
-tag @s[tag=AvoidFalling2] add AvoidFalling
+tag @s[tag=AvoidFalling2] remove AvoidFalling
 
 ###ダークスワンプ復帰は2tick遅らせる必要がある
 tag @s[tag=DarkSwampLevitation] add DarkSwampLevitation2
