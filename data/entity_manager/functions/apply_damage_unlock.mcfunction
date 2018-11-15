@@ -25,9 +25,8 @@ execute store result entity @s AbsorptionAmount float 0.01 run scoreboard player
 execute if score $Debug Settings matches 1 run function calc_manager:tellraw/show_damage
 
 ###ダメージ演出 ※変更禁止
-execute unless entity @s[nbt={AbsorptionAmount:0f}] run summon minecraft:snowball ~ ~300 ~ {Tags:[DamageBall]}
-execute positioned ~ ~300 ~ run tp @e[distance=0,tag=DamageBall,limit=1] ~ ~-300.31 ~
-data merge entity @e[tag=DamageBall,limit=1] {Motion:[0d,10d,0d],Tags:[Initialized]}
+execute unless entity @s[nbt={AbsorptionAmount:0f}] run effect give @s minecraft:instant_damage 1 127
+execute unless entity @s[nbt={AbsorptionAmount:0f}] run effect give @s minecraft:instant_health 1 127
 data merge entity @s {ActiveEffects:[{Id:27b,Amplifier:127b,Duration:10,ShowParticles:false}]}
 
 function calc_manager:save/motion
