@@ -1,0 +1,7 @@
+##############################
+### MOB割り当て
+##############################
+
+execute if entity @s[tag=Pharaoh] run function enemy_manager:summon/global/boss/pharaoh_65
+execute if entity @s[tag=Prometheus] run function enemy_manager:summon/global/boss/prometheus_105
+execute if entity @s[tag=Thanatos] run function enemy_manager:summon/global/boss/thanatos_115
