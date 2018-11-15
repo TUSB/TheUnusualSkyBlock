@@ -85,6 +85,9 @@ scoreboard players reset @s ActiveCost
 execute as @a[scores={FoodLevel=1..}] at @s run function trigger_manager:food
 ##################################################     同tick内に初期化させるエンティティ発生の可能性の壁     ##################################################
 
+###スポナースポーン処理
+execute as @e[tag=Spawn] positioned as @s run function enemy_manager:spawn/allocate_dimension
+
 ###エンティティ発生時処理
 execute as @e[tag=!Initialized] at @s run function entity_manager:initialize_entity
 
