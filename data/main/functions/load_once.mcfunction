@@ -151,6 +151,7 @@ scoreboard objectives add SleepgaTime dummy {"text":"スリプガ残り秒数"}
 scoreboard objectives add DarkSwamp dummy {"text":"ダークスワンプ回数"}
 scoreboard objectives add LightningBlow dummy {"text":"ライトニングブロー威力"}
 scoreboard objectives add FillSize dummy {"text":"フィールサイズ"}
+scoreboard objectives add SetFillSize trigger {"text":"フィールサイズ選択"}
 scoreboard objectives add PetitBlack dummy {"text":"ぷちブラック残りtick"}
 scoreboard objectives add MultiThread dummy {"text":"マルチスレッド"}
 scoreboard objectives add HomeX dummy {"text":"ホームポイントX座標"}

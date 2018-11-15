@@ -6,6 +6,7 @@
 tellraw @s[scores={ShowSkillNo=61011}] ["",{"text":"・フィールα","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
 tellraw @s[scores={ShowSkillNo=61012}] ["",{"text":"・フィールβ","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
 tellraw @s[scores={ShowSkillNo=61013}] ["",{"text":"・フィールγ","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
+execute if entity @s[scores={ShowSkillNo=61011..61013}] run function skill_manager:show_skill/summoner/mode/show_fill
 ###モード２
 tellraw @s[scores={ShowSkillNo=61021}] ["",{"text":"・金タライ","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeModeBlue set 9"}}]
 ###モード３
