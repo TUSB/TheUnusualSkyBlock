@@ -3,7 +3,7 @@
 ##############################
 
 ###---演出---Start
-particle minecraft:block minecraft:ice ~ ~ ~ 0.3 0.3 0.3 0 20 force
+particle minecraft:block minecraft:ice ~ ~ ~ 0.3 0.3 0.3 1 5 force
 playsound minecraft:block.glass.break master @a ~ ~ ~ 10 0.5
 ###---演出---End
 

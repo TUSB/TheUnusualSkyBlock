@@ -488,11 +488,11 @@ scoreboard players set $4205 Interval 60
 scoreboard players set $4206 Interval 60
 scoreboard players set $4207 Interval 60
 ##黒魔導士
-scoreboard players set $5101 Interval 0
-scoreboard players set $5102 Interval 0
-scoreboard players set $5103 Interval 60
-scoreboard players set $5104 Interval 60
-scoreboard players set $5105 Interval 60
+scoreboard players set $5101 Interval 30
+scoreboard players set $5102 Interval 30
+scoreboard players set $5103 Interval 30
+scoreboard players set $5104 Interval 30
+scoreboard players set $5105 Interval 30
 scoreboard players set $5106 Interval 0
 scoreboard players set $5201 Interval 100
 scoreboard players set $5202 Interval 100
