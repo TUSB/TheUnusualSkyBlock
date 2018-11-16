@@ -22,6 +22,10 @@ execute if score $ChangeSupNo Global matches 7201..7299 run function skill_manag
 execute if score $ChangeSupNo Global matches 8201..8299 run function skill_manager:set_skill/common/support
 ###スキル未設定化
 execute unless score $ChangeSupNo Global matches 10000..99999 run scoreboard players set $ChangeSupNo Global 2000
+
+###スキル変更やさしさシステム前処理
+execute if entity @s[tag=SuppressLimit] run scoreboard players set @s ChangeSkillLimit 0
+
 ###スキル変更不可時
 scoreboard players reset @s[gamemode=creative] ChangeSkillLimit
 execute if score @s ChangeSkillLimit matches 1.. run scoreboard players operation $ChangeSupNo Global = @s SupportSkillRed
@@ -41,6 +45,10 @@ function skill_manager:show_skill/name
 execute if score @s ChangeSkillLimit matches 1.. run tellraw @s ["あと",{"score":{"name":"@s","objective":"ChangeSkillLimit"},"color":"gold"},"秒変更できません。"]
 ###---演出---End
 execute if score @s ChangeSkillLimit matches ..0 run scoreboard players set @s ChangeSkillLimit 180
+
+###スキル変更やさしさシステム後処理
+execute if score @s ChangeSkillLimit matches 180 run tag @s add SuppressLimit
+
 ###トリガー再有効化
 scoreboard players set @s ChangeSupRed 0
 scoreboard players enable @s ChangeSupRed

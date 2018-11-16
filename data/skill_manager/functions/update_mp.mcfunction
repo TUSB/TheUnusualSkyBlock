@@ -2,6 +2,9 @@
 ### MP更新
 ##############################
 
+### スキル使ったらスキル変更やさしさシステム解除
+execute if score @s MPConsumption matches 1.. run tag @s remove SuppressLimit
+
 ### 50-100 1500で1回復
 scoreboard players set $CountSum Global 50
 scoreboard players operation $CountSum Global += @s Level

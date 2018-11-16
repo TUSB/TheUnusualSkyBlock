@@ -24,6 +24,10 @@ execute if score $ChangeModeNo Global matches 8101..8199 run function skill_mana
 
 ###スキル未設定化
 execute unless score $ChangeModeNo Global matches 10000..99999 run scoreboard players set $ChangeModeNo Global 1000
+
+###スキル変更やさしさシステム前処理
+execute if entity @s[tag=SuppressLimit] run scoreboard players set @s ChangeSkillLimit 0
+
 ###スキル変更不可時
 scoreboard players reset @s[gamemode=creative] ChangeSkillLimit
 execute if score @s ChangeSkillLimit matches 1.. run scoreboard players operation $ChangeModeNo Global = @s ModeSkillRed
@@ -46,6 +50,10 @@ function skill_manager:show_skill/name
 execute if score @s ChangeSkillLimit matches 1.. run tellraw @s ["あと",{"score":{"name":"@s","objective":"ChangeSkillLimit"},"color":"gold"},"秒変更できません。"]
 ###---演出---End
 execute if score @s ChangeSkillLimit matches ..0 run scoreboard players set @s ChangeSkillLimit 180
-###トリガー再有効化
+
+###スキル変更やさしさシステム後処理
+execute if score @s ChangeSkillLimit matches 180 run tag @s add SuppressLimit
+
+####トリガー再有効化
 scoreboard players set @s ChangeModeRed 0
 scoreboard players enable @s ChangeModeRed
