@@ -165,6 +165,8 @@ execute as @a unless score @s ChangeSupRed matches 0 run function skill_manager:
 execute as @a unless score @s ChangeSupBlue matches 0 run function skill_manager:set_skill/fork/support/blue
 ###フィールサイズ変更
 execute as @a unless score @s SetFillSize matches 0 run function skill_manager:show_skill/summoner/mode/set_fill
+###プレイヤーゲーム設定
+execute as @a unless score @s ChangeSettings matches 0 run function main:settings/triggered
 ##################################################     スキル表示・変更の壁     ##################################################
 
 ###無限チェスト処理

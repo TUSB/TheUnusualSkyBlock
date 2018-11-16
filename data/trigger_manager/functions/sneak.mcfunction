@@ -2,15 +2,20 @@
 ### スニーク時処理
 ##############################
 
-### バーストトリガー加算
-execute if score @s SneakTime matches 3 run scoreboard players add @s BurstTrigger 1
-execute if score バースト MP matches 10000..99999 if score @s BurstTrigger matches 60 run function skill_manager:burst
-execute if score @s SneakTime matches ..2 run scoreboard players reset @s BurstTrigger
+### スニーク中
+execute if score @s SneakTime matches 3 run scoreboard players add @s SneakTrigger 1
 
-### 跳躍トリガー加算
-execute if score @s SneakTime matches 3 run scoreboard players add @s[nbt={OnGround:true}] ChoyakuTrigger 1
-execute if score @s ModeSkill matches 21021..21029 if score @s ChoyakuTrigger matches 5 run scoreboard players operation @s ActiveSkill = @s ModeSkill
-execute if score @s SneakTime matches ..2 run scoreboard players reset @s ChoyakuTrigger
+### バースト
+execute if score バースト MP matches 10000..99999 if score @s SneakTrigger matches 60 run function skill_manager:burst
+### 跳躍
+scoreboard players operation @s ChoyakuTrigger = @s SneakTrigger
+scoreboard players operation @s ChoyakuTrigger %= $5 Const
+execute if score @s ModeSkill matches 21021..21029 if score @s ChoyakuTrigger matches 0 run scoreboard players operation @s ActiveSkill = @s ModeSkill
+### 設定表示
+execute if score @s SneakTrigger matches 200 run function main:settings/show
+
+### スニーク解除
+execute if score @s SneakTime matches ..2 run scoreboard players reset @s SneakTrigger
 
 ### スニーク状態取得
 scoreboard players operation @s SneakTime *= $2 Const

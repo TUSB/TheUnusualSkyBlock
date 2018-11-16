@@ -11,6 +11,7 @@ scoreboard objectives add HealthHealing dummy {"text":"HP回復量"}
 scoreboard objectives add KillCount playerKillCount {"text":"討伐数"}
 scoreboard objectives add TimeSinceDeath minecraft.custom:minecraft.time_since_death {"text":"生きている時間"}
 scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time {"text":"スニーク時間"}
+scoreboard objectives add SneakTrigger dummy {"text":"スニーク累積時間"}
 scoreboard objectives add UseModeEgg minecraft.used:minecraft.polar_bear_spawn_egg {"text":"モードチェンジ使用"}
 scoreboard objectives add UseSupportRed minecraft.used:minecraft.pig_spawn_egg {"text":"サポートエッグルビー使用"}
 scoreboard objectives add UseSupportBlue minecraft.used:minecraft.drowned_spawn_egg {"text":"サポートエッグサファイア使用"}
@@ -113,7 +114,6 @@ scoreboard objectives add MPHealingWait dummy {"text":"MP回復ウェイト"}
 scoreboard objectives add MPConsumption dummy {"text":"MP消費量"}
 scoreboard objectives add Damage dummy {"text":"モブ付与ダメージ"}
 scoreboard objectives add StoredDamage dummy {"text":"累積型ダメージ"}
-scoreboard objectives add BurstTrigger dummy {"text":"バースト発動カウント"}
 scoreboard objectives add ChangeSkillLimit dummy {"text":"スキル変更不可時間"}
 scoreboard objectives add ProjectileSkill dummy {"text":"飛翔物付与スキル"}
 scoreboard objectives add SkillAttribute dummy {"text":"スキル付加情報"}

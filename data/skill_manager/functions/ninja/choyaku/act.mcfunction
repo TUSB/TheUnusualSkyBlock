@@ -2,8 +2,6 @@
 ### 跳躍発動
 ##############################
 
-scoreboard players reset @s ChoyakuTrigger
-
 scoreboard players set @s[nbt=!{ActiveEffects:[{Id:8b}]}] Choyaku 0
 scoreboard players add @s Choyaku 1
 
