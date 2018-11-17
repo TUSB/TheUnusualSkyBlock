@@ -167,6 +167,8 @@ execute as @a unless score @s ChangeSupBlue matches 0 run function skill_manager
 execute as @a unless score @s SetFillSize matches 0 run function skill_manager:show_skill/summoner/mode/set_fill
 ###プレイヤーゲーム設定
 execute as @a unless score @s ChangeSettings matches 0 run function main:settings/triggered
+###TIPS抑制
+execute as @a unless score @s TipsSupTrigger matches 0 run function main:tips/suppress
 ##################################################     スキル表示・変更の壁     ##################################################
 
 ###無限チェスト処理

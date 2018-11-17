@@ -22,7 +22,7 @@ execute store result score @s Hunger run data get entity @s foodLevel
 scoreboard players reset @s Deaths
 
 ### TIPS表示
-function main:tips
+function main:tips/show
 
 ### 進捗処理
 execute if entity @s[y=-64,dy=-1024,advancements={advancement_manager:common/void_death=false}] run advancement grant @s only advancement_manager:common/void_death

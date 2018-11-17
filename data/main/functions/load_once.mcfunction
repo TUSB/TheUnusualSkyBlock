@@ -36,6 +36,8 @@ scoreboard objectives add LastFoodLevel dummy {"text":"直前満腹度"}
 scoreboard objectives add Hunger dummy {"text":"死亡時調整満腹度"}
 scoreboard objectives add UseMilkBucket minecraft.used:minecraft.milk_bucket {"text":"牛乳飲んだ"}
 scoreboard objectives add ChangeSettings trigger {"text":"設定変更"}
+scoreboard objectives add TipsSuppressFlag dummy {"text":"TIPS抑制フラグ"}
+scoreboard objectives add TipsSupTrigger trigger {"text":"TIPS抑制トリガー"}
 ###変数や定数、カウンタ
 scoreboard objectives add Global dummy {"text":"グローバル変数"}
 scoreboard objectives add Decrementer dummy {"text":"減少カウンタ"}
