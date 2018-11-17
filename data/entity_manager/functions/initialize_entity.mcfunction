@@ -91,15 +91,15 @@ tag @s[type=minecraft:tnt] add
 tag @s[type=minecraft:tnt_minecart] add
 tag @s[type=minecraft:experience_orb] add
 
-tag @s[tag=FlyingRequired] add TickingTask
+tag @s[tag=FlyingRequired] add NativeTask
 tag @s[tag=CooldownRequired] add ObserveCooldown
-tag @s[tag=ObserveCooldown] add TickingTask
-tag @s[tag=Swim] add TickingTask
-tag @s[tag=TowardPlayer] add TickingTask
-tag @s[tag=LimitedTrading] add TickingTask
-tag @s[tag=AbyssWarp] add TickingTask
-tag @s[tag=Homing] add TickingTask
-tag @s[tag=Kurukuru] add TickingTask
+tag @s[tag=ObserveCooldown] add NativeTask
+tag @s[tag=Swim] add NativeTask
+tag @s[tag=TowardPlayer] add NativeTask
+tag @s[tag=LimitedTrading] add NativeTask
+tag @s[tag=AbyssWarp] add NativeTask
+tag @s[tag=Homing] add NativeTask
+tag @s[tag=Kurukuru] add NativeTask
 tag @s[tag=Mob,team=Friendly] remove Mob
 tag @s[tag=Mob,nbt={Invulnerable:true}] remove Mob
 tag @s[nbt={NoAI:true}] add NoAI

@@ -554,6 +554,7 @@ scoreboard players set $8101 Interval 0
 scoreboard players set $8102 Interval 500
 scoreboard players set $8201 Interval 0
 ###イベントタイマー初期化
+scoreboard players set $Second Global 0
 scoreboard players set $EventTimer Count 100
 ###乱数初期化
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,WaitTime:1,ReapplicationDelay:0,Duration:0,Tags:[Initialized]}

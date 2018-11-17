@@ -2,7 +2,7 @@
 ### スティッキーアイス発動
 ##############################
 
-execute if block ~ ~ ~ minecraft:air run summon minecraft:falling_block ~ ~ ~ {Tags:[StickyIce,TickingTask,Initializing],BlockState:{Name:"minecraft:ice"},PortalCooldown:1,NoGravity:1b,Time:1,DropItem:0b}
+execute if block ~ ~ ~ minecraft:air run summon minecraft:falling_block ~ ~ ~ {Tags:[StickyIce,NativeTask,Initializing],BlockState:{Name:"minecraft:ice"},PortalCooldown:1,NoGravity:1b,Time:1,DropItem:0b}
 execute as @e[tag=Initializing,limit=1] positioned as @s run setblock ~ ~ ~ minecraft:cobweb keep
 
 execute store result score $Height Global run data get entity @s Pos[1] 1

@@ -8,7 +8,7 @@ execute as @e[distance=..10,type=minecraft:item,nbt={Age:0s}] run data merge ent
 
 ### TP用設定
 execute in overworld run tp @s ~ ~ ~
-execute in overworld run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[RaisePoint,TickingTask,Initializing],Particle:"minecraft:block minecraft:air",WaitTime:6000}
+execute in overworld run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[RaisePoint,NativeTask,Initializing],Particle:"minecraft:block minecraft:air",WaitTime:6000}
 execute in overworld run tp @e[tag=Initializing,limit=1] ~ ~ ~ ~ ~
 scoreboard players operation @e[tag=Initializing,limit=1] ID = @s ID
 scoreboard players operation @e[tag=Initializing,limit=1] Dimension = @s Dimension

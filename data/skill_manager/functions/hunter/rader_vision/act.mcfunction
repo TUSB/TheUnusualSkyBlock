@@ -3,7 +3,7 @@
 ##############################
 
 ### TP用設定
-summon minecraft:armor_stand ~ ~ ~ {Tags:[RaderVisionPoint,TickingTask,Initializing,CooldownRequired],PortalCooldown:240,NoGravity:true,Marker:true,Invisible:true,Small:true,ArmorItems:[{},{},{},{id:"minecraft:beacon",Count:1b}],CustomName:"[\"レーダーサイト\"]",CustomNameVisible:true}
+summon minecraft:armor_stand ~ ~ ~ {Tags:[RaderVisionPoint,NativeTask,Initializing,CooldownRequired],PortalCooldown:240,NoGravity:true,Marker:true,Invisible:true,Small:true,ArmorItems:[{},{},{},{id:"minecraft:beacon",Count:1b}],CustomName:"[\"レーダーサイト\"]",CustomNameVisible:true}
 tp @e[tag=Initializing,limit=1] ~ ~ ~ ~ ~
 scoreboard players operation @e[tag=Initializing,limit=1] ID = @s ID
 tag @e[tag=Initializing,limit=1] remove Initializing

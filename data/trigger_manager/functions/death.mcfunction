@@ -17,6 +17,11 @@ execute if entity @s[tag=Raise] run function skill_manager:white_mage/araise/rai
 ### 呪詛処理
 execute if entity @s[tag=Curse] run function effect_manager:curse/death
 
+### 特殊床
+# execute if score @s Age matches ..0 run gamerule showDeathMessages false
+execute if block ~ ~-2 ~ minecraft:nether_wart_block if entity @s[nbt={OnGround:true}] run tellraw @a ["「うおーっ！！」",{"selector":"@s"},"は  さけび  ごえを  あげ、さんを  だす  にくいゆかへ   ホップ・ステップ・ジャンプ．．．かーるいす！！\n",{"selector":"@s"},"は  とけ、ゆかと  どうか  してしまった。"]
+# execute if score @s Age matches ..0 run gamerule showDeathMessages true
+
 ### 死亡トリガーリセット
 execute store result score @s Hunger run data get entity @s foodLevel
 scoreboard players reset @s Deaths

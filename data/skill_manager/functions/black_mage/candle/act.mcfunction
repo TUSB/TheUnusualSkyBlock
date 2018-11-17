@@ -2,7 +2,7 @@
 ### キャンドル発動
 ##############################
 
-execute if block ~ ~2.1 ~ minecraft:air run summon minecraft:endermite ~ ~2.1 ~ {Tags:[Candle,TickingTask,TickingRequired,Initializing,Initialized],PortalCooldown:1,LifeTime:2000,Fire:1200s,PortalCooldown:300,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:1200,ShowParticles:true}],Invulnerable:true,Silent:true,NoAI:true}
+execute if block ~ ~2.1 ~ minecraft:air run summon minecraft:endermite ~ ~2.1 ~ {Tags:[Candle,NativeTask,TickingRequired,Initializing,Initialized],PortalCooldown:1,LifeTime:2000,Fire:1200s,PortalCooldown:300,ActiveEffects:[{Id:14b,Amplifier:0b,Duration:1200,ShowParticles:true}],Invulnerable:true,Silent:true,NoAI:true}
 
 execute store result score $Height Global run data get entity @s Pos[1] 1
 scoreboard players remove $Height Global 300

@@ -3,7 +3,7 @@
 ##############################
 
 ###ObserveCooldown解除
-tag @s[tag=!LockTickingTask] remove TickingTask
+tag @s[tag=!LockNativeTask] remove NativeTask
 tag @s remove ObserveCooldown
 
 ###隼斬り遅延発動処理

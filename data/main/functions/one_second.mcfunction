@@ -13,7 +13,7 @@ execute as @e[tag=Automaton] at @s run function puppet_manager:bio_handling/tick
 execute as @e[tag=Burning,nbt={Fire:-1s}] at @s if entity @p[distance=..48] run function entity_manager:burning
 
 ### スリプガ処理
-execute as @e[scores={SleepgaTime=1..}] positioned as @s anchored eyes run function skill_manager:black_mage/sleepga/tick
+execute as @e[scores={SleepgaTime=0..}] positioned as @s anchored eyes run function skill_manager:black_mage/sleepga/tick
 
 ### 死の宣告処理
 execute as @a[scores={DoomCount=1..}] run function effect_manager:doom/proceed

@@ -2,8 +2,8 @@
 ### サモンＢ：エンダーチェスト発動
 ##############################
 
-execute if block ~ ~-0.875 ~ minecraft:air positioned ~ ~-0.875 ~ align xyz if block ~ ~ ~ minecraft:air run summon minecraft:armor_stand ~ ~ ~ {Marker:true,Invisible:true,Invulnerable:true,NoGravity:true,Tags:[SummonedBlock,TickingTask,Initializing]}
-execute unless block ~ ~-0.875 ~ minecraft:air if block ~ ~0.125 ~ minecraft:air align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ minecraft:air run summon minecraft:armor_stand ~ ~ ~ {Marker:true,Invisible:true,Invulnerable:true,NoGravity:true,Tags:[SummonedBlock,TickingTask,Initializing]}
+execute if block ~ ~-0.875 ~ minecraft:air positioned ~ ~-0.875 ~ align xyz if block ~ ~ ~ minecraft:air run summon minecraft:armor_stand ~ ~ ~ {Marker:true,Invisible:true,Invulnerable:true,NoGravity:true,Tags:[SummonedBlock,NativeTask,Initializing]}
+execute unless block ~ ~-0.875 ~ minecraft:air if block ~ ~0.125 ~ minecraft:air align xyz positioned ~0.5 ~0.5 ~0.5 if block ~ ~ ~ minecraft:air run summon minecraft:armor_stand ~ ~ ~ {Marker:true,Invisible:true,Invulnerable:true,NoGravity:true,Tags:[SummonedBlock,NativeTask,Initializing]}
 execute as @e[tag=Initializing] at @s run setblock ~ ~ ~ minecraft:ender_chest keep
 
 execute store result score $Height Global run data get entity @s Pos[1] 1

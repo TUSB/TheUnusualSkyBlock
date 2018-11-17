@@ -4,7 +4,7 @@
 
 execute positioned ~ ~1.52 ~ run kill @e[distance=..0.5,type=snowball]
 
-summon minecraft:armor_stand ^ ^ ^ {NoGravity:true,Marker:true,Invisible:true,Tags:[IceJavelin,JavelinIce,TickingTask]}
+summon minecraft:armor_stand ^ ^ ^ {NoGravity:true,Marker:true,Invisible:true,Tags:[IceJavelin,JavelinIce,NativeTask]}
 scoreboard players operation @e[distance=..0.01,tag=IceJavelin] ID = @s ID
 scoreboard players set @e[distance=..0.01,tag=IceJavelin] DecrementTimer 100
 

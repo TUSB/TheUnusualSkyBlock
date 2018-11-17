@@ -20,7 +20,7 @@ execute as @a at @s if entity @s[y=-250,dy=50] run kill @s
 ###めり込み処理
 execute as @a[scores={Age=1..},gamemode=!spectator,gamemode=!creative] at @s anchored eyes if block ^ ^ ^ #main:unbreakable run function entity_manager:suffocation
 ### 特殊床
-execute as @a[scores={Age=1..},gamemode=!spectator,gamemode=!creative] positioned as @s if block ~ ~-2 ~ #main:unique_floors run function entity_manager:unique_floor
+execute as @a[gamemode=!spectator,gamemode=!creative] positioned as @s if block ~ ~-2 ~ #main:unique_floors run function entity_manager:unique_floor
 ##################################################     非エリア依存ブロック参照処理の壁     ##################################################
 
 ###エリア移動
@@ -42,7 +42,7 @@ execute in the_end as @a[distance=0..,gamemode=!spectator] unless score @s Dimen
 ##################################################     エリア移動の壁     ##################################################
 
 ###１tick遅れ処理
-execute as @e[tag=DelayedTask] at @s run function main:delayed_task
+execute as @e[tag=DelayedTask] at @s run function main:task/delayed
 
 ###ログイン時処理
 execute as @a[scores={LeaveGame=1..}] at @s run function trigger_manager:leave_game
@@ -91,7 +91,8 @@ execute as @e[tag=Spawn] positioned as @s run function enemy_manager:spawn/alloc
 execute as @e[tag=!Initialized] at @s run function entity_manager:initialize_entity
 
 ###一時的毎tick処理呼び出し
-execute as @e[tag=TickingTask] at @s run function main:ticking_task
+execute as @e[tag=NativeTask] at @s run function main:task/native
+execute as @e[tag=TemporaryTask] at @s run function main:task/temporary
 
 ###１秒処理
 scoreboard players add $Second Count 1
