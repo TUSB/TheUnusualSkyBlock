@@ -3,7 +3,7 @@
 ##############################
 
 tp @s ^ ^ ^0.2
-tp @e[distance=..1,tag=Mob] ~ ~ ~
+execute positioned ~-0.5 ~-0.5 ~-0.5 run tp @e[dx=0,tag=Mob] @s
 ###---演出---Start
 particle minecraft:dust 0.7 0 0.7 3 ~ ~ ~ 0.2 0.2 0.2 0 3 force
 ###---演出---End
