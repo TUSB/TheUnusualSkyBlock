@@ -187,7 +187,6 @@ scoreboard objectives add ProjectileLife dummy {"text":"飛翔物生存時間"}
 scoreboard objectives add MotionX dummy {"text":"モーションX保存"}
 scoreboard objectives add MotionY dummy {"text":"モーションY保存"}
 scoreboard objectives add MotionZ dummy {"text":"モーションZ保存"}
-scoreboard objectives add SkillHurtTime dummy {"text":"スキルダメージ無効果時間"}
 scoreboard objectives add EnemySkillSpan dummy {"text":"敵スキル使用間隔"}
 ###無限チェスト（いろは丸）
 function item_manager:inf_chest/init

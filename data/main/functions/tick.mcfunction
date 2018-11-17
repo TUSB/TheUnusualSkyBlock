@@ -5,6 +5,9 @@
 ###デクリメンタ(set/operation=以外禁止)
 scoreboard players remove * DecrementTimer 1
 ##################################################     毎tick非ワールド依存処理の壁     ##################################################
+###敵被ダメ時処理(ここ以外HurtTime使用禁止)
+execute as @e[tag=Mob,nbt={HurtTime:10s}] at @s run function enemy_manager:on_damaged
+##################################################     全体スコープ処理の壁     ##################################################
 
 ### 死んでから起きた時の処理
 execute as @a[scores={Hunger=0..,TimeSinceDeath=1..}] at @s run function effect_manager:status/rise
@@ -40,8 +43,6 @@ execute in the_end as @a[distance=0..,gamemode=!spectator] unless score @s Dimen
 
 ###１tick遅れ処理
 execute as @e[tag=DelayedTask] at @s run function main:delayed_task
-###敵被ダメ時処理
-execute as @e[tag=Mob,nbt={HurtTime:10s}] at @s run function enemy_manager:on_damaged
 
 ###ログイン時処理
 execute as @a[scores={LeaveGame=1..}] at @s run function trigger_manager:leave_game
