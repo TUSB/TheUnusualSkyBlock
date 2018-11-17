@@ -555,8 +555,6 @@ scoreboard players set $7209 Interval 2000
 scoreboard players set $8101 Interval 0
 scoreboard players set $8102 Interval 500
 scoreboard players set $8201 Interval 0
-###バースト初期化
-scoreboard players set #Aura MP 10000
 ###イベントタイマー初期化
 scoreboard players set $EventTimer Count 100
 ###乱数初期化
@@ -615,7 +613,7 @@ summon minecraft:area_effect_cloud 0.0 1.0 0.0 {Age:-2147483648,WaitTime:2147483
 
 
 
-### 絡繰師エンティティ
+### 絡繰士エンティティ
 #$CloseAttack 1
 #$CloseRangeAttack 2
 #$LongAttack 3

@@ -54,5 +54,3 @@ execute if score @s TitleOffset matches 8 run title @s subtitle {"translate":"%2
 execute if score @s TitleOffset matches 9 run title @s subtitle {"translate":"%2$s→%2$s→%2$s→%2$s→%2$s→%2$s→%2$s→%2$s→%2$s→%1$s","with":[{"selector":"0-0-0-0-0"},{"text":"         "}]}
 execute if score @s TitleOffset matches 10.. run title @s subtitle {"translate":"%2$s→%2$s→%2$s→%2$s→%2$s→%2$s→%2$s→%2$s→%2$s→%2$s→%1$s","with":[{"selector":"0-0-0-0-0"},{"text":"         "}]}
 title @s title ""
-
-

@@ -142,9 +142,9 @@ tag @e[tag=Vehicle,tag=Anchored,nbt=!{Passengers:[{Tags:[Anchor]}]}] add Garbage
 execute as @e[tag=Garbage] run function entity_manager:garbage_collection
 ##################################################     エンティティダメージ＆削除処理の壁     ##################################################
 
-###バースト現象
-execute if score #Aura MP > $10000 Const run scoreboard players remove #Aura MP 1
-scoreboard players operation バースト MP = #Aura MP
+###バースト減少
+scoreboard players remove バースト MP 1
+scoreboard players operation バースト MP > $10000 Const
 scoreboard players operation バースト MP < $99999 Const
 
 ### MP消費
