@@ -3,12 +3,11 @@
 ##############################
 
 ###ステータスやトリガー
-scoreboard objectives add HP health {"text":"HP"}
 scoreboard objectives add MP dummy {"text":"MP"}
 scoreboard objectives add MPMax dummy {"text":"MP最大値"}
 scoreboard objectives add Armor armor {"text":"防御力"}
 scoreboard objectives add HealthHealing dummy {"text":"HP回復量"}
-scoreboard objectives add TimeSinceDeath minecraft.custom:minecraft.time_since_death {"text":"生きている時間"}
+scoreboard objectives add Age minecraft.custom:minecraft.time_since_death {"text":"生きている時間"}
 scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time {"text":"スニーク時間"}
 scoreboard objectives add SneakTrigger dummy {"text":"スニーク累積時間"}
 scoreboard objectives add UseModeEgg minecraft.used:minecraft.polar_bear_spawn_egg {"text":"モードチェンジ使用"}

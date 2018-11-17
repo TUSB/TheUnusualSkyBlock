@@ -5,7 +5,7 @@
 scoreboard players operation $PuppetID ID = @s ID
 execute as @a if score @s ID = $PuppetID ID run tag @s add ActivePlayer
 
-execute if entity @a[tag=ActivePlayer,scores={TimeSinceDeath=1..20},limit=1] run function puppet_manager:string_cut
+execute if entity @a[tag=ActivePlayer,scores={Age=1..20},limit=1] run function puppet_manager:string_cut
 effect give @a[tag=ActivePlayer,limit=1] minecraft:hunger 1 0
 
 execute unless block ~ ~ ~ minecraft:farmland run tellraw @a[tag=ActivePlayer,limit=1] {"text":"パペットは耕地を見つけられなかった…","color":"yellow"}

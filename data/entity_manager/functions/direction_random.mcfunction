@@ -3,7 +3,7 @@
 ##############################
 
 #補正角度: -90~90 - 0~360 : 垂直RX - 水平RY
-execute positioned as @s facing entity @a[gamemode=!creative,gamemode=!spectator,scores={TimeSinceDeath=1..},sort=nearest,limit=1] eyes run tp @s ~ ~ ~ ~ ~
+execute positioned as @s facing entity @a[gamemode=!creative,gamemode=!spectator,scores={Age=1..},sort=nearest,limit=1] eyes run tp @s ~ ~ ~ ~ ~
 function calc_manager:get/rotation1
 
 #補正角度取得

@@ -48,7 +48,7 @@ execute if score $FallingHeight PuppetScore matches 200.. if score $CrimbingGap 
 execute if score $Acrobat PuppetScore matches ..0 as @e[tag=ActivePuppet,limit=1] at @s if block ~ ~1.5 ~ minecraft:water run tp @s ~ ~1 ~
 
 ###糸切れ判定
-execute if entity @s[scores={TimeSinceDeath=1}] at @e[tag=ActivePuppet,limit=1] run function puppet_manager:string_cut
+execute if entity @s[scores={Age=1}] at @e[tag=ActivePuppet,limit=1] run function puppet_manager:string_cut
 execute at @e[distance=36..,tag=ActivePuppet,limit=1] run function puppet_manager:string_cut
 
 ###次ターゲットタグ付与

@@ -10,7 +10,7 @@ execute as @e[tag=Mob,nbt={HurtTime:10s}] at @s run function enemy_manager:on_da
 ##################################################     全体スコープ処理の壁     ##################################################
 
 ### 死んでから起きた時の処理
-execute as @a[scores={Hunger=0..,TimeSinceDeath=1..}] at @s run function effect_manager:status/rise
+execute as @a[scores={Hunger=0..,Age=1..}] at @s run function effect_manager:status/rise
 ### レーダーヴィジョン処理
 execute as @a[scores={RaderVision=0..}] at @s run function skill_manager:hunter/rader_vision/tick
 ##################################################     移動させてからブロック参照させないといけない処理の壁     ##################################################
@@ -18,9 +18,9 @@ execute as @a[scores={RaderVision=0..}] at @s run function skill_manager:hunter/
 ### 奈落kill
 execute as @a at @s if entity @s[y=-250,dy=50] run kill @s
 ###めり込み処理
-execute as @a[scores={TimeSinceDeath=1..},gamemode=!spectator,gamemode=!creative] at @s anchored eyes if block ^ ^ ^ #main:unbreakable run function entity_manager:suffocation
+execute as @a[scores={Age=1..},gamemode=!spectator,gamemode=!creative] at @s anchored eyes if block ^ ^ ^ #main:unbreakable run function entity_manager:suffocation
 ### 特殊床
-execute as @a[gamemode=!spectator,gamemode=!creative] positioned as @s if block ~ ~-2 ~ #main:unique_floors run function entity_manager:unique_floor
+execute as @a[scores={Age=1..},gamemode=!spectator,gamemode=!creative] positioned as @s if block ~ ~-2 ~ #main:unique_floors run function entity_manager:unique_floor
 ##################################################     非エリア依存ブロック参照処理の壁     ##################################################
 
 ###エリア移動
@@ -64,9 +64,6 @@ execute as @a[scores={Jump=1..}] at @s run function trigger_manager:jump
 execute as @a[scores={Deaths=1..}] at @s run function trigger_manager:death
 execute as @a[scores={FoodLevel=1..}] at @s run function trigger_manager:food_preview
 execute as @a[scores={SneakTime=1..}] at @s run function trigger_manager:sneak
-
-###ブラストスパーク継続
-execute as @a[scores={BlastSpark=1..}] at @s run function skill_manager:hunter/blast_spark/tick
 
 ###スキルエッグ
 execute as @a[scores={UseModeEgg=1..}] at @s run function trigger_manager:egg/mode_change
@@ -123,6 +120,8 @@ execute as @a[scores={Choyaku=0..},nbt={OnGround:false,FallDistance:0.0f}] at @s
 execute as @a[scores={Issen=1..}] at @s run function skill_manager:ninja/issen/tick
 ###介錯処理
 execute as @a[scores={Kaishaku=1..}] at @s run function skill_manager:ninja/kaishaku/wear
+###ブラストスパーク継続
+execute as @a[scores={BlastSpark=1..}] at @s run function skill_manager:hunter/blast_spark/tick
 ###ライトニングブロー
 execute as @a[scores={LightningBlow=1..}] at @s run function skill_manager:black_mage/lightning_blow/tick
 ###ロックンロール

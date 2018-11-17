@@ -3,10 +3,10 @@
 ##############################
 
 ###向き補正
-execute if entity @s[tag=TowardPlayer] at @a[gamemode=!creative,gamemode=!spectator,scores={TimeSinceDeath=1..},sort=nearest,limit=1] run function calc_manager:get/angle1
+execute if entity @s[tag=TowardPlayer] at @a[gamemode=!creative,gamemode=!spectator,scores={Age=1..},sort=nearest,limit=1] run function calc_manager:get/angle1
 execute if entity @s[tag=TowardPlayer] run function calc_manager:set/rotation1
-execute if entity @s[tag=AroundPlayer] facing entity @a[gamemode=!creative,gamemode=!spectator,scores={TimeSinceDeath=1..},sort=nearest,limit=1] feet rotated ~-45 ~ positioned ^ ^ ^1 run function calc_manager:get/angle1
-execute if entity @s[tag=AroundPlayer,tag=Inverted] facing entity @a[gamemode=!creative,gamemode=!spectator,scores={TimeSinceDeath=1..},sort=nearest,limit=1] feet rotated ~45 ~ positioned ^ ^ ^1 run function calc_manager:get/angle1
+execute if entity @s[tag=AroundPlayer] facing entity @a[gamemode=!creative,gamemode=!spectator,scores={Age=1..},sort=nearest,limit=1] feet rotated ~-45 ~ positioned ^ ^ ^1 run function calc_manager:get/angle1
+execute if entity @s[tag=AroundPlayer,tag=Inverted] facing entity @a[gamemode=!creative,gamemode=!spectator,scores={Age=1..},sort=nearest,limit=1] feet rotated ~45 ~ positioned ^ ^ ^1 run function calc_manager:get/angle1
 execute if entity @s[tag=AroundPlayer] run function calc_manager:set/rotation1
 
 execute if entity @s[tag=Homing] run function entity_manager:homing
