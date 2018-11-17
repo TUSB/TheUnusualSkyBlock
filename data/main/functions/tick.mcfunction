@@ -3,7 +3,7 @@
 ##############################
 
 ###デクリメンタ(set/operation=以外禁止)
-scoreboard players remove * Decrementer 1
+scoreboard players remove * DecrementTimer 1
 ##################################################     毎tick非ワールド依存処理の壁     ##################################################
 
 ### 死んでから起きた時の処理

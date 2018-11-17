@@ -40,7 +40,7 @@ scoreboard objectives add TipsSupTrigger trigger {"text":"TIPS抑制トリガー
 scoreboard objectives add TitleOffset dummy {"text":"タイトル表示オフセット"}
 ###変数や定数、カウンタ
 scoreboard objectives add Global dummy {"text":"グローバル変数"}
-scoreboard objectives add Decrementer dummy {"text":"減少カウンタ"}
+scoreboard objectives add DecrementTimer dummy {"text":"減少カウンタ"}
 scoreboard objectives add Const dummy {"text":"定数"}
 scoreboard objectives add Count dummy {"text":"カウント"}
 scoreboard objectives add Flag dummy {"text":"一時的フラグ"}
