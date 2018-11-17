@@ -10,7 +10,7 @@ execute if score バースト MP matches 10000..99999 if score @s SneakTrigger m
 ### 跳躍
 scoreboard players operation @s ChoyakuTrigger = @s SneakTrigger
 scoreboard players operation @s ChoyakuTrigger %= $5 Const
-execute if score @s ModeSkill matches 21021..21029 if score @s ChoyakuTrigger matches 0 run scoreboard players operation @s ActiveSkill = @s ModeSkill
+execute if score @s ModeSkill matches 21021..21029 if score @s ChoyakuTrigger matches 0 if entity @s[nbt={OnGround:true}] run scoreboard players operation @s ActiveSkill = @s ModeSkill
 ### 設定表示
 execute if score @s SneakTrigger matches 200 run function main:settings/show
 

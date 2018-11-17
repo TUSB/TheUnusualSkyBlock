@@ -5,10 +5,12 @@
 scoreboard players set @s[nbt=!{ActiveEffects:[{Id:8b}]}] Choyaku 0
 scoreboard players add @s Choyaku 1
 
-execute if score @s ModeSkill matches 21021 run scoreboard players operation @s Choyaku < $5 Const
-execute if score @s ModeSkill matches 21022 run scoreboard players operation @s Choyaku < $15 Const
-execute if score @s ModeSkill matches 21023 run scoreboard players operation @s Choyaku < $25 Const
-scoreboard players operation @s Choyaku < $35 Const
+execute if score @s ModeSkill matches 21021 run scoreboard players set $ChoyakuLimit Global 05
+execute if score @s ModeSkill matches 21022 run scoreboard players set $ChoyakuLimit Global 15
+execute if score @s ModeSkill matches 21023 run scoreboard players set $ChoyakuLimit Global 25
+execute if score @s ModeSkill matches 21024 run scoreboard players set $ChoyakuLimit Global 35
+
+scoreboard players operation @s Choyaku < $ChoyakuLimit Global
 
 effect clear @s minecraft:jump_boost
 execute if score @s Choyaku matches 1 run effect give @s minecraft:jump_boost 5 0
@@ -48,17 +50,13 @@ execute if score @s Choyaku matches 34 run effect give @s minecraft:jump_boost 5
 execute if score @s Choyaku matches 35 run effect give @s minecraft:jump_boost 5 34
 
 ###---演出---Start
-title @s subtitle [{"score":{"name":"@s","objective":"Choyaku"},"color":"yellow","bold":true}," Pyon!!                                "]
-execute if score @s ModeSkill matches 21021 if score @s Choyaku matches 5.. run title @s subtitle [{"score":{"name":"@s","objective":"Choyaku"},"color":"gold","bold":true}," Pyon!!                                "]
-execute if score @s ModeSkill matches 21022 if score @s Choyaku matches 15.. run title @s subtitle [{"score":{"name":"@s","objective":"Choyaku"},"color":"gold","bold":true}," Pyon!!                                "]
-execute if score @s ModeSkill matches 21023 if score @s Choyaku matches 25.. run title @s subtitle [{"score":{"name":"@s","objective":"Choyaku"},"color":"gold","bold":true}," Pyon!!                                "]
-execute if score @s ModeSkill matches 21024 if score @s Choyaku matches 35.. run title @s subtitle [{"score":{"name":"@s","objective":"Choyaku"},"color":"gold","bold":true}," Pyon!!                                "]
-title @s times 0 100 0
-title @s title [""]
-playsound minecraft:entity.witch.throw master @a[distance=..16] ~ ~ ~ 1 0.4
-execute if score @s ModeSkill matches 21021 if score @s Choyaku matches 5.. run playsound minecraft:item.trident.riptide_1 master @a[distance=..16] ~ ~ ~ 1 1.2
-execute if score @s ModeSkill matches 21022 if score @s Choyaku matches 15.. run playsound minecraft:item.trident.riptide_1 master @a[distance=..16] ~ ~ ~ 1 1.2
-execute if score @s ModeSkill matches 21023 if score @s Choyaku matches 25.. run playsound minecraft:item.trident.riptide_1 master @a[distance=..16] ~ ~ ~ 1 1.2
-execute if score @s ModeSkill matches 21024 if score @s Choyaku matches 35.. run playsound minecraft:item.trident.riptide_1 master @a[distance=..16] ~ ~ ~ 1 1.2
+execute if score @s Choyaku < $ChoyakuLimit Global run data merge entity 0-0-0-0-0 {CustomName:"[{\"score\":{\"name\":\"@s\",\"objective\":\"Choyaku\"},\"color\":\"yellow\",\"bold\":true},\" Pyon!!\"]"}
+execute if score @s Choyaku >= $ChoyakuLimit Global run data merge entity 0-0-0-0-0 {CustomName:"[{\"score\":{\"name\":\"@s\",\"objective\":\"Choyaku\"},\"color\":\"gold\",\"bold\":true},\" Pyon!!\"]"}
+scoreboard players set $TextLength Global 5
+title @s times 0 100 20
+function main:show_text/subtitle/show
+
+execute if score @s Choyaku < $ChoyakuLimit Global run playsound minecraft:entity.witch.throw master @a[distance=..16] ~ ~ ~ 1 0.4
+execute if score @s Choyaku >= $ChoyakuLimit Global run playsound minecraft:item.trident.riptide_1 master @a[distance=..16] ~ ~ ~ 1 1.2
 particle minecraft:sweep_attack ^ ^0.2 ^1.3 0 0 0 2.5 2 force
 ###---演出---End

@@ -10,6 +10,8 @@ execute if score @s ChangeSettings matches 2 run tellraw @s [{"text":"[INFO] 攻
 execute if score @s ChangeSettings matches 3 run function main:settings/clear_mp
 ### パーティクル設定
 execute if score @s ChangeSettings matches 4 run function main:settings/toggle_indicator
+### テキスト表示位置調整
+execute if score @s ChangeSettings matches 5..7 run function main:settings/tune_offset
 
 ### トリガーリセット
 scoreboard players reset @s ChangeSettings

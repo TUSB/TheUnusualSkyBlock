@@ -8,7 +8,6 @@ scoreboard objectives add MP dummy {"text":"MP"}
 scoreboard objectives add MPMax dummy {"text":"MP最大値"}
 scoreboard objectives add Armor armor {"text":"防御力"}
 scoreboard objectives add HealthHealing dummy {"text":"HP回復量"}
-scoreboard objectives add KillCount playerKillCount {"text":"討伐数"}
 scoreboard objectives add TimeSinceDeath minecraft.custom:minecraft.time_since_death {"text":"生きている時間"}
 scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time {"text":"スニーク時間"}
 scoreboard objectives add SneakTrigger dummy {"text":"スニーク累積時間"}
@@ -38,6 +37,7 @@ scoreboard objectives add UseMilkBucket minecraft.used:minecraft.milk_bucket {"t
 scoreboard objectives add ChangeSettings trigger {"text":"設定変更"}
 scoreboard objectives add TipsSuppressFlag dummy {"text":"TIPS抑制フラグ"}
 scoreboard objectives add TipsSupTrigger trigger {"text":"TIPS抑制トリガー"}
+scoreboard objectives add TitleOffset dummy {"text":"タイトル表示オフセット"}
 ###変数や定数、カウンタ
 scoreboard objectives add Global dummy {"text":"グローバル変数"}
 scoreboard objectives add Decrementer dummy {"text":"減少カウンタ"}
@@ -193,6 +193,14 @@ scoreboard objectives add EnemySkillSpan dummy {"text":"敵スキル使用間隔
 function item_manager:inf_chest/init
 
 ###定数
+scoreboard players set $-11 Const -11
+scoreboard players set $-10 Const -10
+scoreboard players set $-9 Const -9
+scoreboard players set $-8 Const -8
+scoreboard players set $-7 Const -7
+scoreboard players set $-6 Const -6
+scoreboard players set $-5 Const -5
+scoreboard players set $-4 Const -4
 scoreboard players set $-3 Const -3
 scoreboard players set $-2 Const -2
 scoreboard players set $-1 Const -1
@@ -433,18 +441,18 @@ scoreboard players set $8102 Cost 5
 scoreboard players set $8201 Cost 5
 ###スキル使用不能時間一覧
 ##剣士
-scoreboard players set $1101 Interval 30
-scoreboard players set $1102 Interval 20
+scoreboard players set $1101 Interval 1500
+scoreboard players set $1102 Interval 1000
 scoreboard players set $1103 Interval 0
 scoreboard players set $1104 Interval 0
 scoreboard players set $1105 Interval 0
-scoreboard players set $1106 Interval 40
+scoreboard players set $1106 Interval 2000
 scoreboard players set $1107 Interval 0
-scoreboard players set $1201 Interval 60
-scoreboard players set $1202 Interval 240
-scoreboard players set $1203 Interval 100
-scoreboard players set $1204 Interval 40
-scoreboard players set $1205 Interval 60
+scoreboard players set $1201 Interval 3000
+scoreboard players set $1202 Interval 12000
+scoreboard players set $1203 Interval 5000
+scoreboard players set $1204 Interval 2000
+scoreboard players set $1205 Interval 3000
 ##忍者
 scoreboard players set $2101 Interval 0
 scoreboard players set $2102 Interval 0
@@ -453,99 +461,99 @@ scoreboard players set $2104 Interval 0
 scoreboard players set $2105 Interval 0
 scoreboard players set $2106 Interval 0
 scoreboard players set $2201 Interval 0
-scoreboard players set $2202 Interval 40
-scoreboard players set $2203 Interval 40
-scoreboard players set $2204 Interval 100
-scoreboard players set $2205 Interval 20
-scoreboard players set $2206 Interval 160
-scoreboard players set $2207 Interval 100
+scoreboard players set $2202 Interval 2000
+scoreboard players set $2203 Interval 2000
+scoreboard players set $2204 Interval 5000
+scoreboard players set $2205 Interval 1000
+scoreboard players set $2206 Interval 8000
+scoreboard players set $2207 Interval 5000
 scoreboard players set $2208 Interval 0
-scoreboard players set $2209 Interval 20
+scoreboard players set $2209 Interval 1000
 ##狩人
 scoreboard players set $3101 Interval 0
-scoreboard players set $3102 Interval 20
-scoreboard players set $3103 Interval 20
+scoreboard players set $3102 Interval 1000
+scoreboard players set $3103 Interval 1000
 scoreboard players set $3104 Interval 0
-scoreboard players set $3105 Interval 20
-scoreboard players set $3106 Interval 100
+scoreboard players set $3105 Interval 1000
+scoreboard players set $3106 Interval 5000
 scoreboard players set $3107 Interval 0
 scoreboard players set $3201 Interval 0
-scoreboard players set $3202 Interval 60
-scoreboard players set $3203 Interval 100
-scoreboard players set $3204 Interval 60
-scoreboard players set $3205 Interval 40
-scoreboard players set $3206 Interval 200
-scoreboard players set $3207 Interval 60
-scoreboard players set $3208 Interval 60
+scoreboard players set $3202 Interval 3000
+scoreboard players set $3203 Interval 5000
+scoreboard players set $3204 Interval 3000
+scoreboard players set $3205 Interval 2000
+scoreboard players set $3206 Interval 10000
+scoreboard players set $3207 Interval 3000
+scoreboard players set $3208 Interval 3000
 ##白魔導士
 scoreboard players set $4101 Interval 0
 scoreboard players set $4102 Interval 0
-scoreboard players set $4103 Interval 20
-scoreboard players set $4104 Interval 80
+scoreboard players set $4103 Interval 1000
+scoreboard players set $4104 Interval 4000
 scoreboard players set $4105 Interval 0
-scoreboard players set $4201 Interval 60
-scoreboard players set $4202 Interval 60
-scoreboard players set $4203 Interval 60
-scoreboard players set $4204 Interval 60
-scoreboard players set $4205 Interval 60
-scoreboard players set $4206 Interval 60
-scoreboard players set $4207 Interval 60
+scoreboard players set $4201 Interval 3000
+scoreboard players set $4202 Interval 3000
+scoreboard players set $4203 Interval 3000
+scoreboard players set $4204 Interval 3000
+scoreboard players set $4205 Interval 3000
+scoreboard players set $4206 Interval 3000
+scoreboard players set $4207 Interval 3000
 ##黒魔導士
-scoreboard players set $5101 Interval 30
-scoreboard players set $5102 Interval 30
-scoreboard players set $5103 Interval 30
-scoreboard players set $5104 Interval 30
-scoreboard players set $5105 Interval 30
+scoreboard players set $5101 Interval 1500
+scoreboard players set $5102 Interval 1500
+scoreboard players set $5103 Interval 1500
+scoreboard players set $5104 Interval 1500
+scoreboard players set $5105 Interval 1500
 scoreboard players set $5106 Interval 0
-scoreboard players set $5201 Interval 100
-scoreboard players set $5202 Interval 100
-scoreboard players set $5203 Interval 60
-scoreboard players set $5204 Interval 20
-scoreboard players set $5205 Interval 100
-scoreboard players set $5206 Interval 20
-scoreboard players set $5207 Interval 20
-scoreboard players set $5208 Interval 100
-scoreboard players set $5209 Interval 100
-scoreboard players set $5210 Interval 10
+scoreboard players set $5201 Interval 5000
+scoreboard players set $5202 Interval 5000
+scoreboard players set $5203 Interval 3000
+scoreboard players set $5204 Interval 1000
+scoreboard players set $5205 Interval 5000
+scoreboard players set $5206 Interval 1000
+scoreboard players set $5207 Interval 1000
+scoreboard players set $5208 Interval 5000
+scoreboard players set $5209 Interval 5000
+scoreboard players set $5210 Interval 500
 ##召喚士
 scoreboard players set $6101 Interval 0
 scoreboard players set $6102 Interval 0
-scoreboard players set $6103 Interval 20
-scoreboard players set $6104 Interval 20
-scoreboard players set $6105 Interval 60
-scoreboard players set $6106 Interval 60
-scoreboard players set $6107 Interval 100
-scoreboard players set $6108 Interval 20
-scoreboard players set $6109 Interval 100
+scoreboard players set $6103 Interval 1000
+scoreboard players set $6104 Interval 1000
+scoreboard players set $6105 Interval 3000
+scoreboard players set $6106 Interval 3000
+scoreboard players set $6107 Interval 5000
+scoreboard players set $6108 Interval 1000
+scoreboard players set $6109 Interval 5000
 scoreboard players set $6110 Interval 0
 scoreboard players set $6111 Interval 0
 scoreboard players set $6201 Interval 0
-scoreboard players set $6202 Interval 60
+scoreboard players set $6202 Interval 3000
 scoreboard players set $6203 Interval 0
 scoreboard players set $6204 Interval 0
-scoreboard players set $6205 Interval 60
-scoreboard players set $6206 Interval 60
+scoreboard players set $6205 Interval 3000
+scoreboard players set $6206 Interval 3000
 scoreboard players set $6207 Interval 0
 scoreboard players set $6208 Interval 0
-scoreboard players set $6209 Interval 60
+scoreboard players set $6209 Interval 3000
 ##絡繰士
-scoreboard players set $7101 Interval 10
+scoreboard players set $7101 Interval 500
 scoreboard players set $7102 Interval 0
 scoreboard players set $7103 Interval 0
-scoreboard players set $7104 Interval 40
+scoreboard players set $7104 Interval 2000
 scoreboard players set $7105 Interval 0
-scoreboard players set $7201 Interval 60
+scoreboard players set $7201 Interval 3000
 scoreboard players set $7202 Interval 0
 scoreboard players set $7203 Interval 0
-scoreboard players set $7204 Interval 60
-scoreboard players set $7205 Interval 60
-scoreboard players set $7206 Interval 100
-scoreboard players set $7207 Interval 140
-scoreboard players set $7208 Interval 100
-scoreboard players set $7209 Interval 40
+scoreboard players set $7204 Interval 3000
+scoreboard players set $7205 Interval 3000
+scoreboard players set $7206 Interval 5000
+scoreboard players set $7207 Interval 7000
+scoreboard players set $7208 Interval 5000
+scoreboard players set $7209 Interval 2000
 ###共通
 scoreboard players set $8101 Interval 0
-scoreboard players set $8102 Interval 10
+scoreboard players set $8102 Interval 500
 scoreboard players set $8201 Interval 0
 ###バースト初期化
 scoreboard players set #Aura MP 10000
@@ -602,7 +610,12 @@ setworldspawn 0 4 0
 
 kill 0-0-FF-0-FF
 summon minecraft:area_effect_cloud 0.0 0.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:255l,UUIDLeast:255l,CustomName:"[\"羅針盤\"]"}
+kill 0-0-0-0-0
+summon minecraft:area_effect_cloud 0.0 1.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:0l,UUIDLeast:0l,CustomName:"[\"テキスト\"]"}
 
+
+
+### 絡繰師エンティティ
 #$CloseAttack 1
 #$CloseRangeAttack 2
 #$LongAttack 3

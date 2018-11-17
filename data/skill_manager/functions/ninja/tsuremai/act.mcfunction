@@ -36,10 +36,12 @@ scoreboard players add $TsuremaiCount Global 1
 execute positioned ^ ^ ^3 run tag @e[distance=..3,tag=Mob] add SkillTarget
 
 ###---演出---Start
-execute if score $TsuremaiCount Global matches ..24 run title @s subtitle [{"score":{"name":"$TsuremaiCount","objective":"Global"},"color":"yellow","bold":true}," Hit!!                                "]
-execute if score $TsuremaiCount Global matches 25.. run title @s subtitle [{"score":{"name":"$TsuremaiCount","objective":"Global"},"color":"gold","bold":true}," Hit!!                                "]
-title @s times 0 40 0
-title @s title [""]
+execute if score $TsuremaiCount Global matches ..24 run data merge entity 0-0-0-0-0 {CustomName:"[{\"score\":{\"name\":\"$TsuremaiCount\",\"objective\":\"Global\"},\"color\":\"yellow\",\"bold\":true},\" Hit!!\"]"}
+execute if score $TsuremaiCount Global matches 25.. run data merge entity 0-0-0-0-0 {CustomName:"[{\"score\":{\"name\":\"$TsuremaiCount\",\"objective\":\"Global\"},\"color\":\"gold\",\"bold\":true},\" Hit!!\"]"}
+scoreboard players set $TextLength Global 4
+title @s times 0 40 20
+function main:show_text/subtitle/show
+
 playsound minecraft:entity.zombie.attack_iron_door master @a[distance=..16] ~ ~ ~ 2 2
 execute if score $TsuremaiCount Global matches ..8 run playsound minecraft:entity.witch.throw master @a[distance=..16] ~ ~ ~ 1 0.4
 execute if score $TsuremaiCount Global matches 9..16 run playsound minecraft:entity.witch.throw master @a[distance=..16] ~ ~ ~ 1 0.8

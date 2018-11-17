@@ -2,9 +2,6 @@
 ### 敵討伐時処理
 ##############################
 
-###キルカウント初期化
-scoreboard players reset @s[type=minecraft:player] KillCount
-
 ###バーストスコア設定
 scoreboard players add #Aura MP 1000
 scoreboard players operation #Aura MP < $112000 Const

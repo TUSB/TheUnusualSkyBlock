@@ -39,8 +39,10 @@ execute in the_nether as @a[x=-2272,y=0,z=-464,dx=831,dy=1,dz=831,gamemode=!spec
 execute in the_end as @a[distance=0..,gamemode=!spectator] unless score @s Dimension matches 210 run function area_manager:on_change/end
 ##################################################     エリア移動の壁     ##################################################
 
-###1tick遅れ処理
+###１tick遅れ処理
 execute as @e[tag=DelayedTask] at @s run function main:delayed_task
+###敵被ダメ時処理
+execute as @e[tag=Mob,nbt={HurtTime:10s}] at @s run function enemy_manager:on_damaged
 
 ###ログイン時処理
 execute as @a[scores={LeaveGame=1..}] at @s run function trigger_manager:leave_game
@@ -132,7 +134,6 @@ execute as @e[tag=Mob,scores={Damage=0..}] at @s run function entity_manager:app
 execute as @e[tag=Mob,scores={BlinkTick=1..}] at @s run function skill_manager:enemy/blink/direction
 ###エンティティ削除処理
 ##敵討伐時処理
-execute as @a[scores={KillCount=1..}] run function entity_manager:defeat_enemy
 execute as @e[tag=Mob,nbt={AbsorptionAmount:0f}] at @s run function entity_manager:mob_death
 ##乗り物削除フラグ付与
 tag @e[tag=Vehicle,nbt=!{Passengers:[{}]}] add Garbage
