@@ -35,3 +35,26 @@ give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"フラッガー 
 give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"フラッガー ネガの卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Ground","Shoot","Flag","DarkGray"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
 
 give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"フラッガー ブラックのボス卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Ground","Shoot","Flag","BlackBoss"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
+
+give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"アクアドルフィンの卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Underworld","Water","Shoot","AquaDolphin"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
+
+give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"スティーブ(弓)の卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Ground","Blow","Steve","Bow"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
+
+give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"スティーブ(作業台)の卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Ground","Blow","Steve","CraftingTable"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
+
+give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"スティーブ(松明)の卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Ground","Blow","Steve","FireAspect"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
+
+give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"スティーブ(鍬)の卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Ground","Blow","Steve","Hoe"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
+
+give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"デーモンアイの卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Sky","Blow","Eye","Daemon"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
+
+give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"ルナティックアイの卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Sky","Blow","Eye","Lunatic"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
+
+give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"ナイトメアアイの卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Sky","Blow","Eye","Nightmare"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
+
+give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"バンパーストームの卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Sky","Blow","BumperStorm"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
+
+give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"バンパートルネードの卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Sky","Blow","BumperTornado"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
+
+give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"終熄の誘手の卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Sky","Blow","Death"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
+
