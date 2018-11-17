@@ -17,4 +17,4 @@ execute if score $Debug Settings matches 1 if score $Random Global < @s CritProb
 execute if score @s ClericKnowledge matches 1.. run scoreboard players operation @s CritProbability /= $2 Cosnt
 
 ###ダメージ上限補正
-scoreboard players operation $Damage Global < $9999999 Const
+scoreboard players operation $Damage Global < $DamageMax Const
