@@ -7,4 +7,4 @@ execute if score @s DecrementTimer matches 10 run function entity_manager:apply_
 execute if score @s DecrementTimer matches ..0 run function entity_manager:apply_damage_unlock
 
 ###スコアリセット
-scoreboard players set @s Damage 0
+scoreboard players reset @s Damage
