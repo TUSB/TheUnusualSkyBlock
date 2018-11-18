@@ -1,5 +1,5 @@
 ##############################
-### モブダメージ被ロック時計算
+### モブダメージ非ロック時計算
 ##############################
 
 ###幻影反映
@@ -15,6 +15,9 @@ execute store result score $Health Global run data get entity @s AbsorptionAmoun
 scoreboard players operation $Health Global -= @s Damage
 execute store result entity @s AbsorptionAmount float 0.01 run scoreboard players get $Health Global
 
+###被ダメージ中でないなら演出
+effect give @s[scores={DecrementTimer=0}] minecraft:instant_damage 1 127
+effect give @s[scores={DecrementTimer=0}] minecraft:instant_health 1 127
+
 ###ダメージ演出 ※変更禁止
-# data merge entity @s {ActiveEffects:[{Id:27b,Amplifier:127b,Duration:10,ShowParticles:false}]}
 function enemy_manager:on_damaged
