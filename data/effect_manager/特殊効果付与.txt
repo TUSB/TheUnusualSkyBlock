@@ -109,3 +109,8 @@ MP全回復・HP20割回復
 炎上
 ### invisibility 1 124
 スキル再設定可能
+
+### health_boost <ダメージ量> 0
+MOBのみにダメージを発生させる
+instant_damage 127レベル Duration 1と instant_health 127レベル Duration 1と health_boost 0 レベル Duration=ダメージ量 を同時に付与する
+
