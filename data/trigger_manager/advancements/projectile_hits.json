@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "inventory_changed": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "is_projectile": "true"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "trigger_manager:projectile_hits"
+    }
+}
