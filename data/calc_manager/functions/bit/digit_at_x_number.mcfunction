@@ -2,7 +2,7 @@
 ### BitFlagsの下からNumber番目に出てくるBitの桁数を返す
 ##############################
 
-### 引き数初期化
+### 引数初期化
 scoreboard players operation $Left Global = $Number Global
 scoreboard players set $Digit Global 0
 

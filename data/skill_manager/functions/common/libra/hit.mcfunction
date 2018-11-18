@@ -17,12 +17,12 @@ particle minecraft:entity_effect ~ ~0.3 ~ 0.3 0.1 0.3 10000000 100 force
 ###---演出---End
 
 execute store result score $MaxHP Global store result bossbar enemy_health max run scoreboard players get @s MobHPMax
-execute store result score $CurrentHP Global store result bossbar enemy_health value run data get entity @s AbsorptionAmount 10
+execute store result score $CurrentHP Global store result bossbar enemy_health value run data get entity @s AbsorptionAmount 100
 bossbar set minecraft:enemy_health players @a
 bossbar set minecraft:enemy_health visible true
 
-scoreboard players operation $MaxHP Global /= $10 Const
-scoreboard players operation $CurrentHP Global /= $10 Const
+scoreboard players operation $MaxHP Global /= $100 Const
+scoreboard players operation $CurrentHP Global /= $100 Const
 execute if score @s ProjectileSkill matches 81021 run bossbar set minecraft:enemy_health name {"selector":"@s","color":"dark_green"}
 execute if score @s ProjectileSkill matches 81022 run bossbar set minecraft:enemy_health name [{"selector":"@s","color":"dark_green"}," ",{"score":{"name":"$CurrentHP","objective":"Global"}},"/",{"score":{"name":"$MaxHP","objective":"Global"}}]
 

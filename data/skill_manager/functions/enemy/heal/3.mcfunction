@@ -2,8 +2,8 @@
 ### ヒールレベル３
 ##############################
 
-scoreboard players set $Heal Global 5000
-execute as @e[tag=Mob,distance=..8] positioned as @s run function skill_manager:enemy/heal/act
+scoreboard players set $Heal Global 50000
+execute as @e[tag=Mob,distance=..8] positioned as @s run function skill_manager:enemy/heal/apply
 
 ###---演出---Start
 summon minecraft:area_effect_cloud ~ ~ ~ {Particle:"minecraft:entity_effect",ReapplicationDelay:40,Radius:0f,RadiusPerTick:1f,Duration:8,Color:4063160}

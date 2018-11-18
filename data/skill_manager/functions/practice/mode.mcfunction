@@ -24,7 +24,7 @@ execute if score @s ActiveSkill matches 1.. run scoreboard players operation @s 
 execute if score @s TerrorLevel matches 0.. run function effect_manager:terror/check
 
 ### 剣士＜はやぶさ斬り＞
-execute if score @s ActiveSkill matches 11011..11019 run function skill_manager:knight/falcon_slash/act
+execute if score @s ActiveSkill matches 11011..11019 run function skill_manager:knight/falcon_slash/execute
 
 ### 剣士＜地裂斬＞
 execute if score @s ActiveSkill matches 11021..11029 run function skill_manager:knight/crack_slash/act

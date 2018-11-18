@@ -11,7 +11,8 @@ execute if entity @s[nbt={ActiveEffects:[{Id:11b,Amplifier:3b}]}] run scoreboard
 execute if score $DamageModifier Global matches 5 if entity @s[nbt={ActiveEffects:[{Id:11b}]}] run scoreboard players set $DamageModifier Global 0
 
 ###被ロック時演算
-execute if entity @s[nbt=!{ActiveEffects:[{Id:27b,Amplifier:127b}]}] run function entity_manager:apply_damage_unlock
+execute if score @s DecrementTimer matches 10 run function entity_manager:apply_damage_unlock
+execute if score @s DecrementTimer matches ..0 run function entity_manager:apply_damage_unlock
 
 ###スコアリセット
 scoreboard players set @s Damage 0

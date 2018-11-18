@@ -28,22 +28,19 @@ execute if entity @s[tag=Assault] run function skill_manager:summoner/ponpon/ass
 ###ふかふかケージ
 execute if entity @s[tag=Caught] run function skill_manager:summoner/fukafuka/cage_delayed
 
+### 2tick遅らせ処理
+## デコイ
+execute store success score $Success Count run tag @s remove AvoidFalling
+execute if score $Success Count matches 1.. run tag @s add AvoidFalling2
+## ダークスワンプ
+execute store success score $Success Count run tag @s remove DarkSwampLevitation
+execute if score $Success Count matches 1.. run tag @s add DarkSwampLevitation2
+## ジオクラッシュ
+execute store success score $Success Count run tag @s remove GeoCrash
+execute if score $Success Count matches 1.. run tag @s add GeoCrash2
 ###共通タグ削除
-tag @s remove DelayedTask
 
-###デコイは2tick遅らせる
-tag @s[tag=AvoidFalling] add AvoidFalling2
-tag @s[tag=AvoidFalling] add DelayedTask
-tag @s[tag=AvoidFalling2] remove AvoidFalling
-
-###ダークスワンプ復帰は2tick遅らせる必要がある
-tag @s[tag=DarkSwampLevitation] add DarkSwampLevitation2
-tag @s[tag=DarkSwampLevitation] remove DarkSwampLevitation
-tag @s[tag=DarkSwampLevitation2] add DelayedTask
-
-###ジオクラッシュも2tick遅らせる
-tag @s[tag=GeoCrash] add GeoCrash2
-tag @s[tag=GeoCrash] add DelayedTask
+tag @s[tag=!AvoidFalling2,tag=!DarkSwampLevitation2,tag=!GeoCrash2] remove DelayedTask
 
 ###無限チェスト処理（いろは丸）
 execute if entity @s[tag=inf_chest] positioned as @s unless entity @p[distance=..5] run function item_manager:inf_chest/remove_chest

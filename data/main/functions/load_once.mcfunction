@@ -54,7 +54,7 @@ scoreboard objectives add ResistMin dummy {"text":"状態異常耐性下限"}
 scoreboard objectives add ResistLock dummy {"text":"状態異常回避時ロック"}
 scoreboard objectives add CharmCount dummy {"text":"魅了カウント"}
 scoreboard objectives add BlinkCount dummy {"text":"幻影カウント"}
-scoreboard objectives add BlinkTick dummy {"text":"残影tick"}
+scoreboard objectives add BlinkSubTimer dummy {"text":"残影tick"}
 scoreboard objectives add GameTime dummy {"text":"ゲームタイム"}
 scoreboard objectives add Settings dummy {"text":"設定"}
 ###ID系
@@ -108,13 +108,17 @@ scoreboard objectives add ChangeLevel dummy {"text":"スキル変更時レベル
 scoreboard objectives add ActiveSkill dummy {"text":"発動スキル"}
 scoreboard objectives add ActiveCost dummy {"text":"発動スキルコスト"}
 scoreboard objectives add ActiveInterval dummy {"text":"発動スキル発動無効時間"}
-###スキル共通系
+###モブステータス系
 scoreboard objectives add MobHPMax dummy {"text":"モブ最大体力"}
+scoreboard objectives add Damage dummy {"text":"モブ付与ダメージ"}
+scoreboard objectives add StoredDamage dummy {"text":"累積型ダメージ"}
+scoreboard objectives add TemporaryEffects dummy {"text":"一時的ステータス変化Flags"}
+scoreboard objectives add PreviousMobHP dummy {"text":"モブ直前体力"}
+scoreboard objectives add LastDamage dummy {"text":"モブ最終ダメージ"}
+###スキル共通系
 scoreboard objectives add SkillInterval dummy {"text":"スキル使用不可tick数"}
 scoreboard objectives add MPHealingWait dummy {"text":"MP回復ウェイト"}
 scoreboard objectives add MPConsumption dummy {"text":"MP消費量"}
-scoreboard objectives add Damage dummy {"text":"モブ付与ダメージ"}
-scoreboard objectives add StoredDamage dummy {"text":"累積型ダメージ"}
 scoreboard objectives add ChangeSkillLimit dummy {"text":"スキル変更不可時間"}
 scoreboard objectives add ProjectileSkill dummy {"text":"飛翔物付与スキル"}
 scoreboard objectives add SkillAttribute dummy {"text":"スキル付加情報"}
@@ -123,6 +127,8 @@ scoreboard objectives add CarrotTick dummy {"text":"人参棒使用LastTick"}
 scoreboard objectives add CritProbability dummy {"text":"クリティカルヒット確率"}
 scoreboard objectives add CritRate dummy {"text":"クリティカルヒットダメージレート"}
 ###スキル個別系
+scoreboard objectives add FalconSlashTimer dummy {"text":"はやぶさ斬り遅延タイマー"}
+
 scoreboard objectives add FalconDamage dummy {"text":"はやぶさ斬り用ダメージ保存値"}
 scoreboard objectives add FalconHP dummy {"text":"はやぶさ斬り用敵HP"}
 scoreboard objectives add IronWill dummy {"text":"アイアンウィル残りtick数"}
@@ -256,6 +262,7 @@ scoreboard players set $50 Const 50
 scoreboard players set $60 Const 60
 scoreboard players set $70 Const 70
 scoreboard players set $80 Const 80
+scoreboard players set $84 Const 84
 scoreboard players set $90 Const 90
 scoreboard players set $100 Const 100
 scoreboard players set $110 Const 110
@@ -321,6 +328,8 @@ scoreboard players set $3000000 Const 3000000
 scoreboard players set $DamageMax Const 9999999
 scoreboard players set $MWCBase Const 65536
 scoreboard players set $MWCMultiplier Const 31743
+scoreboard players set $IntMin Const -2147483648
+scoreboard players set $IntMax Const 2147483647
 ###MP一覧
 ##剣士
 scoreboard players set $1101 Cost 15

@@ -51,3 +51,18 @@ tag @s[type=minecraft:zombie_horse] add Dead
 tag @s[type=minecraft:zombie_pigman] add Dead
 tag @s[type=minecraft:zombie_villager] add Dead
 tag @s[type=minecraft:drowned] add Dead
+
+### AbsorptionAmount付与
+execute if entity @s[nbt={AbsorptionAmount:0f}] store result entity @s AbsorptionAmount float 0.01 run data get entity @s Health 100
+data merge entity @s {Attributes:[{Name:"generic.maxHealth",Base:1024d}],Health:1024f}
+execute store result score @s MobHPMax run data get entity @s AbsorptionAmount 100
+scoreboard players operation @s PreviousMobHP = @s MobHPMax
+scoreboard players set @s LastDamage 0
+
+tag @s[nbt={Invisible:true}] add Invisible
+tag @s[nbt={ActiveEffects:[{Id:14b}]}] add Invisible
+
+tag @s[nbt={Glowing:true}] add Glowing
+tag @s[nbt={ActiveEffects:[{Id:24b}]}] add Glowing
+
+scoreboard players set @s TemporaryEffects 0

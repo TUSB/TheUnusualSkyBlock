@@ -2,7 +2,7 @@
 ### デバッグ用ダメージ表示
 ##############################
 
-scoreboard players operation $Damage Global = @s Damage
+scoreboard players operation $Damage Global = @s LastDamage
 scoreboard players operation $Digit654 Global = $Damage Global
 scoreboard players operation $Digit654 Global /= $100000 Const
 execute if score $Digit654 Global matches 0 run scoreboard players reset $Digit654 Global

@@ -90,9 +90,10 @@ execute as @e[tag=Spawn] positioned as @s run function enemy_manager:spawn/alloc
 ###エンティティ発生時処理
 execute as @e[tag=!Initialized] at @s run function entity_manager:initialize_entity
 
-###一時的毎tick処理呼び出し
+###存在する限り毎tick処理呼び出し
 execute as @e[tag=NativeTask] at @s run function main:task/native
-execute as @e[tag=TemporaryTask] at @s run function main:task/temporary
+###一時的毎tick処理呼び出し
+execute as @e[tag=Mob] unless score @s TemporaryEffects matches 0 at @s run function main:task/temporary
 
 ###１秒処理
 scoreboard players add $Second Count 1
@@ -131,7 +132,6 @@ execute as @a[scores={ModeSkill=51041..51049}] at @s run function skill_manager:
 
 ###エンティティダメージ付与
 execute as @e[tag=Mob,scores={Damage=0..}] at @s run function entity_manager:apply_damage
-execute as @e[tag=Mob,scores={BlinkTick=1..}] at @s run function skill_manager:enemy/blink/direction
 ###エンティティ削除処理
 ##敵討伐時処理
 execute as @e[tag=Mob,nbt={AbsorptionAmount:0f}] at @s run function entity_manager:mob_death

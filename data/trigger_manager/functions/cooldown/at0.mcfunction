@@ -3,11 +3,7 @@
 ##############################
 
 ###ObserveCooldown解除
-tag @s[tag=!LockNativeTask] remove NativeTask
 tag @s remove ObserveCooldown
-
-###隼斬り遅延発動処理
-execute if entity @s[tag=FalconSlashed] run function skill_manager:knight/falcon_slash/deal_damage
 
 ###ワイルドフレア拡散処理
 execute if entity @s[tag=WildFlareSeed] run function skill_manager:hunter/wild_flare/explode
