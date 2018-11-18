@@ -10,6 +10,7 @@ execute if score @s SleepgaTime matches 0.. run function skill_manager:black_mag
 
 ### HurtTime:10sの場合はRecentMaxDamageを初期化
 scoreboard players set @e[scores={DecrementTimer=10}] RecentMaxDamage 0
+execute if entity @s[scores={DecrementTimer=10},nbt={ActiveEffects:[{Id:21b}]}] run function skill_manager:enemy/self_damage/apply
 execute if score @s Damage matches 0.. run function entity_manager:damage/process_carry
 
 ### ダメージ量計算
