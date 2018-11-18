@@ -15,7 +15,7 @@ execute if entity @s[advancements={effect_manager:invisible={doom=true}}] unless
 execute if entity @s[advancements={effect_manager:invisible={super_doom=true}}] unless score @s DoomCount matches 1..13 run function effect_manager:doom/apply
 execute if entity @s[advancements={effect_manager:invisible={super_doom=true}}] run scoreboard players operation @s DoomCount < $10 Const
 execute if entity @s[advancements={effect_manager:invisible={burn=true}},tag=!Burn] unless entity @s[tag=Burn] run function effect_manager:burn/apply
-execute if entity @s[advancements={effect_manager:invisible={debility=true}},tag=!Debility] run function effect_manager:debility/apply
+execute if entity @s[advancements={effect_manager:invisible={debility=true}}] run function effect_manager:debility/apply
 execute if entity @s[advancements={effect_manager:invisible={virus=true}}] unless score @s VirusCount matches 0.. run function effect_manager:virus/apply
 execute if entity @s[advancements={effect_manager:invisible={confuse=true}}] unless score @s ConfuseCount matches 0.. run function effect_manager:confuse/apply
 execute if entity @s[advancements={effect_manager:invisible={curse=true}}] unless entity @s[tag=Curse] run function effect_manager:curse/apply
