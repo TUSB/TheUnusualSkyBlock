@@ -2,7 +2,6 @@
 ### summonエッグ give command 一括召喚
 ##############################
 
-give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"デイドラの卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Ground","Blow","Deidora"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
 
 give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"フラッガー ブラウンの卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Ground","Shoot","Flag","Brown"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
 
@@ -57,4 +56,24 @@ give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"バンパース�
 give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"バンパートルネードの卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Sky","Blow","BumperTornado"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
 
 give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"終熄の誘手の卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Sky","Blow","Death"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
+
+give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"ユミ・ニンジャの卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Ground","Blow","Ninja","TypeB"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
+
+give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"ノロイ・ニンジャの卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Ground","Blow","Ninja","TypeC"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
+give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"カトン・ニンジャの卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Ground","Blow","Ninja","TypeF"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
+give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"カルシファーの卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Ground","Blow","Calcifer"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
+
+give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"チャーミングエンダーの卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Ground","Blow","CharmingEnderman"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
+
+give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"チャーミングエンダーの卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Ground","Blow","Kawaii"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
+
+give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"ケールの卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Ground","Blow","Ker"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
+
+give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"デイドラの卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Ground","Blow","Deidora"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
+
+give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"不浄の髑髏の卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Sky","Shoot","DirtySkull"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
+
+give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"フォグスの卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Sky","Shoot","Fogs"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
+
+give @p minecraft:villager_spawn_egg{display:{Name:"{\"text\":\"ヘルズコッコの卵\",\"color\":\"dark_red\",\"bold\":\"true\"}"},Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:1,EntityTag:{Tags:["Spawn","Global","Sky","Shoot","HellsChicken"],Age:-2147483648,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:999,ShowParticles:false}]}} 1
 
