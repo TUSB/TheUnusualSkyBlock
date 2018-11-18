@@ -2,7 +2,7 @@
 ### 幻影演出開始処理
 ##############################
 
-scoreboard players set @s BlinkSubTimer 6
+scoreboard players set @s BlinkSubTimer 7
 
 effect give @s[tag=!Invisible] minecraft:invisibility 1 0 true
 effect give @s[tag=!Glowing] minecraft:glowing 1 0 true
