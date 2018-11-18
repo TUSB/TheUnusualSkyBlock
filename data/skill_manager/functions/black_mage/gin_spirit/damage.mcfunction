@@ -7,7 +7,7 @@ execute unless entity @e[tag=GinAEC,limit=1,distance=..0.1] run summon minecraft
 execute store result score $TotalDamage Global run data get entity @e[tag=GinAEC,limit=1,distance=..1] Radius 30000
 #ダメージ付与・総ダメージ計算
 scoreboard players operation $Damage Global = @s SkillAttribute
-execute as @e[tag=Mob,distance=..4] run scoreboard players operation @s Damage += $Damage Global
+execute as @e[tag=Mob,distance=..4] run scoreboard players operation @s Damage > $Damage Global
 execute as @e[tag=Mob,distance=..4] run scoreboard players operation $TotalDamage Global += $Damage Global
 effect give @e[tag=Mob,distance=..4] minecraft:slowness 1 0 false
 #半径設定

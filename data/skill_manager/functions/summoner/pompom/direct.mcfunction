@@ -3,7 +3,7 @@
 ##############################
 
 scoreboard players operation @s SkillAttribute *= $15 Const
-scoreboard players operation @s Damage += @s SkillAttribute
+scoreboard players operation @s Damage > @s SkillAttribute
 ###---演出---Start
 playsound minecraft:entity.firework_rocket.blast master @a[distance=..48] ~ ~ ~ 4 0
 playsound minecraft:entity.firework_rocket.twinkle_far master @a[distance=..48] ~ ~ ~ 4 0.8

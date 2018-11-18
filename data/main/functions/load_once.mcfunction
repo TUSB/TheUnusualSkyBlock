@@ -111,7 +111,6 @@ scoreboard objectives add ActiveInterval dummy {"text":"発動スキル発動無
 ###モブステータス系
 scoreboard objectives add MobHPMax dummy {"text":"モブ最大体力"}
 scoreboard objectives add Damage dummy {"text":"モブ付与ダメージ"}
-scoreboard objectives add StoredDamage dummy {"text":"累積型ダメージ"}
 scoreboard objectives add TemporaryEffects dummy {"text":"一時的ステータス変化Flags"}
 scoreboard objectives add PreviousMobHP dummy {"text":"モブ直前体力"}
 scoreboard objectives add LastDamage dummy {"text":"モブ最終ダメージ"}

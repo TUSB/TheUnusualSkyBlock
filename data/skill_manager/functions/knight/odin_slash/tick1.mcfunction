@@ -11,4 +11,4 @@ execute positioned ^ ^ ^14 run particle minecraft:crit ~ ~ ~ 3.5 0 3.5 0 30 forc
 tp @s ~ ~ ~ ~-48 ~-3.5
 ###---演出---End
 
-execute positioned ^ ^-2 ^10 run scoreboard players operation @e[dx=19,dy=3,dz=19,tag=Mob] Damage += @s SkillAttribute
+execute positioned ^ ^-2 ^10 run scoreboard players operation @e[dx=19,dy=3,dz=19,tag=Mob] Damage > @s SkillAttribute

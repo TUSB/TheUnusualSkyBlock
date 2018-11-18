@@ -2,7 +2,7 @@
 ### ライトニングブロー与ダメ処理
 ##############################
 
-scoreboard players operation @s Damage += $Damage Global
+scoreboard players operation @s Damage > $Damage Global
 
 ###スタン
 scoreboard players set $MinValue Global 2

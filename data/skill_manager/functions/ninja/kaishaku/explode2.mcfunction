@@ -9,4 +9,4 @@ playsound minecraft:entity.generic.explode master @a ~ ~ ~ 3 0.5
 ###爆発ダメージ付与 MobHPMax / 100 ダメージ ジッサイツヨイ
 scoreboard players operation $Damage Global = @s MobHPMax
 scoreboard players operation $Damage Global /= $2 Const
-scoreboard players operation @e[distance=..5,tag=Mob] Damage += $Damage Global
+scoreboard players operation @e[distance=..5,tag=Mob] Damage > $Damage Global

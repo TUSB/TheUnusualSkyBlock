@@ -11,7 +11,7 @@ scoreboard players operation $Damage Global *= @s Choyaku
 scoreboard players operation $Damage Global *= $10 Const
 function calc_manager:apply_damage_modifier
 
-scoreboard players operation @e[distance=..9,tag=Mob] Damage += $Damage Global
+scoreboard players operation @e[distance=..9,tag=Mob] Damage > $Damage Global
 
 ###---演出---Start
 particle minecraft:cloud ~ ~ ~ 2.7 0 2.7 0 90 force

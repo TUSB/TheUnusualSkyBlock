@@ -8,9 +8,9 @@ execute if score @s ProjectileSkill matches 51022 run scoreboard players set $Da
 execute if score @s ProjectileSkill matches 51023 run scoreboard players set $Damage Global 2000
 execute if score @s ProjectileSkill matches 51024 run scoreboard players set $Damage Global 4000
 
-execute positioned ~-10 ~ ~ run scoreboard players operation @e[dx=19,tag=Mob] Damage += $Damage Global
-execute positioned ~ ~-10 ~ run scoreboard players operation @e[dy=19,tag=Mob] Damage += $Damage Global
-execute positioned ~ ~ ~-10 run scoreboard players operation @e[dz=19,tag=Mob] Damage += $Damage Global
+execute positioned ~-10 ~ ~ run scoreboard players operation @e[dx=19,tag=Mob] Damage > $Damage Global
+execute positioned ~ ~-10 ~ run scoreboard players operation @e[dy=19,tag=Mob] Damage > $Damage Global
+execute positioned ~ ~ ~-10 run scoreboard players operation @e[dz=19,tag=Mob] Damage > $Damage Global
 
 ###---演出---Start
 particle minecraft:flame ~ ~ ~ 10 0.1 0.1 0 10 force

@@ -2,7 +2,7 @@
 ### チェインアローヒット時連鎖
 ##############################
 
-scoreboard players operation @s Damage += $Damage Global
+scoreboard players operation @s Damage > $Damage Global
 
 ###---演出---Start
 particle minecraft:crit ~ ~1 ~ 0.3 0.3 0.3 0 60 force

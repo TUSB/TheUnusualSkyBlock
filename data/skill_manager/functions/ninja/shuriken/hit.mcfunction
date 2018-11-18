@@ -23,5 +23,5 @@ execute at @s positioned ^ ^ ^8 positioned ~-0.5 ~-5 ~-0.5 as @e[dx=1,dy=9,dz=1,
 execute at @s positioned ^ ^ ^9 positioned ~-0.5 ~-5 ~-0.5 as @e[dx=1,dy=9,dz=1,type=minecraft:snowball,scores={ProjectileSkill=21011..21019}] run scoreboard players add $Damage Global 1
 scoreboard players operation $Damage Global *= @s SkillAttribute
 scoreboard players operation $Damage Global /= $2 Const
-scoreboard players operation @s Damage += $Damage Global
+scoreboard players operation @s Damage > $Damage Global
 tp @s ~ ~ ~ ~ ~

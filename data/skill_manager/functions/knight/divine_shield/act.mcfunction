@@ -2,7 +2,7 @@
 ### ディバインシールド発動
 ##############################
 
-execute anchored eyes positioned ^ ^ ^5 run scoreboard players operation @e[distance=..5,tag=Mob] Damage += @s DivineShield
+execute anchored eyes positioned ^ ^ ^5 run scoreboard players operation @e[distance=..5,tag=Mob] Damage > @s DivineShield
 
 ###---演出---Start
 playsound minecraft:block.conduit.activate master @a ~ ~ ~ 3 2

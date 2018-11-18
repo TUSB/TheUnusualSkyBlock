@@ -6,9 +6,9 @@
 execute if score @s ProjectileSkill matches 41051 at @s run scoreboard players set $Damage Global 1000000
 execute if score @s ProjectileSkill matches 41052 at @s run scoreboard players set $Damage Global 1500000
 function calc_manager:apply_damage_modifier
-scoreboard players operation @e[distance=..5,tag=Mob,tag=Dead] Damage += $Damage Global
+scoreboard players operation @e[distance=..5,tag=Mob,tag=Dead] Damage > $Damage Global
 scoreboard players operation $Damage Global /= $4 Const
-scoreboard players operation @e[distance=..5,tag=Mob,tag=Living] Damage += $Damage Global
+scoreboard players operation @e[distance=..5,tag=Mob,tag=Living] Damage > $Damage Global
 
 ###---演出---Start
 particle minecraft:end_rod ~ ~ ~ 1 0 0 0.2 0 force

@@ -10,4 +10,4 @@ playsound minecraft:item.trident.thunder master @a[distance=..48] ~ ~ ~ 1 2
 playsound minecraft:entity.firework_rocket.blast master @a[distance=..48] ~ ~ ~ 1 1
 ###---演出---End
 
-scoreboard players operation @s[tag=Mob,tag=Dead] Damage += @s SkillAttribute
+scoreboard players operation @s[tag=Mob,tag=Dead] Damage > @s SkillAttribute

@@ -2,14 +2,6 @@
 ### モブダメージ被ロック時計算
 ##############################
 
-###保存されたダメージを適用
-scoreboard players operation @s Damage += @s StoredDamage
-scoreboard players reset @s StoredDamage
-
-###補正を適用
-scoreboard players operation @s Damage *= $DamageModifier Global
-scoreboard players operation @s Damage /= $5 Const
-
 ###幻影反映
 function calc_manager:update_random
 scoreboard players operation $Random Global %= $100 Const
