@@ -1,5 +1,5 @@
 ##############################
-### モブダメージ非ロック時計算
+### モブダメージ適用
 ##############################
 
 ###幻影反映
@@ -14,10 +14,3 @@ scoreboard players operation @e[tag=GinSpirit,distance=..8] SkillAttribute += @s
 execute store result score $Health Global run data get entity @s AbsorptionAmount 100
 scoreboard players operation $Health Global -= @s Damage
 execute store result entity @s AbsorptionAmount float 0.01 run scoreboard players get $Health Global
-
-###被ダメージ中でないなら演出
-effect give @s[scores={DecrementTimer=0}] minecraft:instant_damage 1 127
-effect give @s[scores={DecrementTimer=0}] minecraft:instant_health 1 127
-
-###ダメージ演出 ※変更禁止
-function enemy_manager:on_damaged

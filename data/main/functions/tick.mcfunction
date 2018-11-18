@@ -131,7 +131,7 @@ execute as @a[scores={ModeSkill=51041..51049}] at @s run function skill_manager:
 ##################################################     継続系スキルの壁     ##################################################
 
 ###エンティティダメージ付与
-execute as @e[tag=Mob,scores={Damage=0..}] at @s run function entity_manager:apply_damage
+execute as @e[tag=Mob,scores={Damage=0..}] at @s run function entity_manager:damage/fork
 ###エンティティ削除処理
 ##敵討伐時処理
 execute as @e[tag=Mob,nbt={AbsorptionAmount:0f}] at @s run function entity_manager:mob_death
