@@ -1,5 +1,5 @@
 ##############################
-### フラッグ割り当て
+### ジョブ割り当て
 ##############################
 
 execute if entity @s[tag=EvilSummoner] run function enemy_manager:summon/global/ground/shoot/job/evilsummoner_60
