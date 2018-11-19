@@ -20,7 +20,7 @@ execute as @a at @s if entity @s[y=-250,dy=50] run kill @s
 ###めり込み処理
 execute as @a[scores={Age=1..},gamemode=!spectator,gamemode=!creative] at @s anchored eyes if block ^ ^ ^ #main:unbreakable run function entity_manager:suffocation
 ### 特殊床
-execute as @a[gamemode=!spectator,gamemode=!creative] positioned as @s if block ~ ~-2 ~ #main:unique_floors run function entity_manager:unique_floor
+execute as @a[gamemode=!spectator,gamemode=!creative] unless score @s Levitate matches 0.. positioned as @s if block ~ ~-2 ~ #main:unique_floors run function entity_manager:unique_floor
 ##################################################     非エリア依存ブロック参照処理の壁     ##################################################
 
 ###エリア移動
@@ -120,6 +120,8 @@ execute as @a[scores={OdinSlash=0..}] at @s run function skill_manager:knight/od
 execute as @a[scores={Choyaku=0..},nbt={OnGround:false,FallDistance:0.0f}] at @s run function skill_manager:ninja/choyaku/direction
 ###一閃処理
 execute as @a[scores={Issen=1..}] at @s run function skill_manager:ninja/issen/tick
+###風切
+execute as @a[scores={Levitate=0..}] at @s run function skill_manager:ninja/levitate/tick
 ###介錯処理
 execute as @a[scores={Kaishaku=1..}] at @s run function skill_manager:ninja/kaishaku/wear
 ###ブラストスパーク継続
@@ -133,7 +135,7 @@ execute as @a[scores={ModeSkill=51041..51049}] at @s run function skill_manager:
 ###エンティティダメージ付与
 execute as @e[tag=Mob,scores={Damage=0..}] at @s run function entity_manager:damage/fork
 ###エンティティ削除処理
-##敵討伐時処理
+##敵討伐時処理 -> HurtTime処理に纏められる
 execute as @e[tag=Mob,nbt={AbsorptionAmount:0f}] at @s run function entity_manager:mob_death
 ##乗り物削除フラグ付与
 tag @e[tag=Vehicle,nbt=!{Passengers:[{}]}] add Garbage

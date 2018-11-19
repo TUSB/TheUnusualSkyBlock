@@ -128,9 +128,6 @@ scoreboard objectives add CritProbability dummy {"text":"クリティカルヒ�
 scoreboard objectives add CritRate dummy {"text":"クリティカルヒットダメージレート"}
 ###スキル個別系
 scoreboard objectives add FalconSlashTimer dummy {"text":"はやぶさ斬り遅延タイマー"}
-
-scoreboard objectives add FalconDamage dummy {"text":"はやぶさ斬り用ダメージ保存値"}
-scoreboard objectives add FalconHP dummy {"text":"はやぶさ斬り用敵HP"}
 scoreboard objectives add IronWill dummy {"text":"アイアンウィル残りtick数"}
 scoreboard objectives add DivineShield dummy {"text":"ディバインシールドダメージ量"}
 scoreboard objectives add OdinSlash dummy {"text":"斬鉄剣発動タイミング調整"}
@@ -139,12 +136,12 @@ scoreboard objectives add Aisatsu dummy {"text":"アイサツ消費MP減少効�
 scoreboard objectives add WaterAffinity dummy {"text":"ウォータアフィニティ"}
 scoreboard objectives add FireAffinity dummy {"text":"ファイアアフィニティ"}
 scoreboard objectives add Choyaku dummy {"text":"跳躍跳躍力"}
-scoreboard objectives add ChoyakuTrigger dummy {"text":"跳躍発動タイミング調整"}
 scoreboard objectives add Mokuso dummy {"text":"黙想レベル"}
 scoreboard objectives add Issen dummy {"text":"一閃継続tick数"}
 scoreboard objectives add Isukumi dummy {"text":"居縮継続秒数"}
 scoreboard objectives add Kaishaku dummy {"text":"介錯残りtick数"}
 scoreboard objectives add Kazakiri dummy {"text":"風切残り秒数"}
+scoreboard objectives add Levitate dummy {"text":"レビテト残りtick"}
 scoreboard objectives add CookingSkill dummy {"text":"調理スキル"}
 scoreboard objectives add PiercingAim dummy {"text":"ピアッシングエイム回数"}
 scoreboard objectives add BlastSpark dummy {"text":"ブラストスパーク継続tick数"}
@@ -619,7 +616,8 @@ summon minecraft:area_effect_cloud 0.0 0.0 0.0 {Age:-2147483648,WaitTime:2147483
 kill 0-0-0-0-0
 summon minecraft:area_effect_cloud 0.0 1.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:0l,UUIDLeast:0l,CustomName:"[\"テキスト\"]"}
 
-
+###ブロック系
+fill 0 0 0 6 0 6 minecraft:water
 
 ### 絡繰士エンティティ
 #$CloseAttack 1
