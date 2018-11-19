@@ -59,9 +59,9 @@ scoreboard players remove @s Levitate 1
 execute if score @s Levitate matches 200.. run particle minecraft:cloud ~ ~-0.1 ~ 0.4 0 0.4 0.1 3 force
 execute if score @s Levitate matches 100..199 run particle minecraft:cloud ~ ~-0.1 ~ 0.4 0 0.4 0.1 2 force
 execute if score @s Levitate matches 20..99 run particle minecraft:cloud ~ ~-0.1 ~ 0.4 0 0.4 0.1 1 force
-execute if score @s Levitate matches 200.. run playsound minecraft:entity.phantom.flap master @s ~ ~64 ~ 8 0.5
-execute if score @s Levitate matches 100..199 run playsound minecraft:entity.phantom.flap master @s ~ ~64 ~ 8 1
-execute if score @s Levitate matches 20..99 run playsound minecraft:entity.phantom.flap master @s ~ ~64 ~ 8 2
+execute if score @s Levitate matches 200.. run playsound minecraft:entity.phantom.flap master @a[distance=..16] ~ ~64 ~ 8 0.5
+execute if score @s Levitate matches 100..199 run playsound minecraft:entity.phantom.flap master @a[distance=..16] ~ ~64 ~ 8 1
+execute if score @s Levitate matches 20..99 run playsound minecraft:entity.phantom.flap master @a[distance=..16] ~ ~64 ~ 8 2
 execute if blocks ~-2 ~-1 ~-2 ~2 ~-1 ~2 1 0 1 all run fill ~-1 ~-1 ~-1 ~1 ~-1 ~1 minecraft:water[level=1] replace minecraft:water
 fill ~-1 ~-1 ~-1 ~1 ~ ~1 minecraft:air replace minecraft:fire
 ###---演出---End
