@@ -114,6 +114,7 @@ scoreboard objectives add Damage dummy {"text":"モブ付与ダメージ"}
 scoreboard objectives add TemporaryEffects dummy {"text":"一時的ステータス変化Flags"}
 scoreboard objectives add PreviousMobHP dummy {"text":"モブ直前体力"}
 scoreboard objectives add LastDamage dummy {"text":"モブ最終ダメージ"}
+scoreboard objectives add LastNaturalDmg dummy {"text":"モブ最終自然ダメージ"}
 scoreboard objectives add RecentMaxDamage dummy {"text":"モブ10tick内最大ダメージ"}
 ###スキル共通系
 scoreboard objectives add SkillInterval dummy {"text":"スキル使用不可tick数"}

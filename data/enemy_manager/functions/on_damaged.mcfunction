@@ -2,21 +2,20 @@
 ### モブがダメージを受けた時の共通処理
 ##############################
 
-### HurtTimeをスコア化 (ここ以外から呼ばれても良いようにstoreで代入)
-execute store result score @s DecrementTimer run data get entity @s HurtTime
+### HurtTimeをリセット
+scoreboard players set @s DecrementTimer 10
 
-### スリプガ起こす
-execute if score @s SleepgaTime matches 0.. run function skill_manager:black_mage/sleepga/wake
+### 特殊ダメージでない場合は自然ダメージ更新
+execute as @s[nbt=!{ActiveEffects:[{Id:7b,Amplifier:127b}]}] run function enemy_manager:on_natural_damage
 
-### HurtTime:10sの場合はRecentMaxDamageを初期化
-scoreboard players set @e[scores={DecrementTimer=10}] RecentMaxDamage 0
-execute if entity @s[scores={DecrementTimer=10},nbt={ActiveEffects:[{Id:21b}]}] run function skill_manager:enemy/self_damage/apply
+### 最近ダメージをリセット
+scoreboard players set @s RecentMaxDamage 0
+
+### 対モブダメージ
+execute if entity @s[nbt={ActiveEffects:[{Id:21b}]}] run function skill_manager:enemy/self_damage/apply
+
+### スキルダメージがまだ残っていた場合
 execute if score @s Damage matches 0.. run function entity_manager:damage/process_carry
 
-### ダメージ量計算
-execute store result score $CurrentHP Global run data get entity @s AbsorptionAmount 100
-execute unless score $CurrentHP Global = @s PreviousMobHP run function enemy_manager:update_health_info
-
-###---演出---Start
-execute anchored eyes positioned ^ ^ ^ run particle minecraft:damage_indicator ~ ~ ~ 0.1 0.1 0.1 0.5 10 force @a[tag=!SuppressIndicator]
-###---演出---End
+### あとはスキル時と同じ
+function enemy_manager:on_skill_damaged

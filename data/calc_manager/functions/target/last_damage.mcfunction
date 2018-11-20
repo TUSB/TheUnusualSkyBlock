@@ -6,4 +6,4 @@ execute store result score $CurrentHP Global run data get entity @s AbsorptionAm
 scoreboard players operation $LastDamage Global = @s PreviousMobHP
 scoreboard players operation $LastDamage Global -= $CurrentHP Global
 
-scoreboard players operation $LastDamage Global += @s LastDamage
+scoreboard players operation $LastDamage Global += @s LastNaturalDmg
