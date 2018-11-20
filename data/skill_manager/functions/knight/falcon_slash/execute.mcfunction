@@ -2,9 +2,11 @@
 ### はやぶさ斬り発動
 ##############################
 
-###ダメージ計算
-scoreboard players set $Damage Global 0
-scoreboard players operation $Damage Global > @e[distance=..6,scores={DecrementTimer=10}] LastDamage
+###ダメージ取得
+function calc_manager:target/melee/catch
+execute as @e[tag=MeleeTarget,limit=1] run function calc_manager:target/last_damage
+function calc_manager:target/melee/release
+scoreboard players operation $Damage Global = $LastDamage Global
 
 ###スキルレベルによるダメージ補正
 execute if score @s ModeSkill matches 11011 run scoreboard players operation $Damage Global *= $4 Const

@@ -33,7 +33,8 @@ execute if score $TsuremaiCount Global matches 23.. run effect give @s minecraft
 
 scoreboard players add $TsuremaiCount Global 1
 
-execute positioned ^ ^ ^3 run tag @e[distance=..3,tag=Mob] add SkillTarget
+### ターゲット捕捉
+function calc_manager:target/melee/catch
 
 ###---演出---Start
 execute if score $TsuremaiCount Global matches ..24 run data merge entity 0-0-0-0-0 {CustomName:"[{\"score\":{\"name\":\"$TsuremaiCount\",\"objective\":\"Global\"},\"color\":\"yellow\",\"bold\":true},\" Hit!!\"]"}
@@ -48,12 +49,12 @@ execute if score $TsuremaiCount Global matches 9..16 run playsound minecraft:ent
 execute if score $TsuremaiCount Global matches 17..24 run playsound minecraft:entity.witch.throw master @a[distance=..16] ~ ~ ~ 1 1.2
 execute if score $TsuremaiCount Global matches 25.. run playsound minecraft:item.trident.riptide_1 master @a[distance=..16] ~ ~ ~ 1 1.2
 particle minecraft:sweep_attack ^ ^0.2 ^1.3 0 0 0 2.5 2 force
-execute as @e[distance=..6,tag=SkillTarget,sort=nearest,limit=1] at @s run particle minecraft:sweep_attack ~ ~0.5 ~ 0 0.5 0 1 5 force
+execute as @e[tag=MeleeTarget,limit=1] at @s run particle minecraft:sweep_attack ~ ~0.5 ~ 0 0.5 0 1 5 force
 ###---演出---End
 
-
-###ダメージ計算
-scoreboard players operation $Damage Global = @e[distance=..6,tag=SkillTarget,sort=nearest,limit=1] LastDamage
+###ダメージ取得
+execute as @e[tag=MeleeTarget,limit=1] run function calc_manager:target/last_damage
+scoreboard players operation $Damage Global = $LastDamage Global
 
 ###スキルレベルによるダメージ補正
 execute if score @s ModeSkill matches 21031 run scoreboard players operation $Damage Global *= $12 Const
@@ -63,5 +64,7 @@ execute if score @s ModeSkill matches 21034 run scoreboard players operation $Da
 function calc_manager:apply_damage_modifier
 
 ###ダメージ付与
-scoreboard players operation @e[distance=..6,tag=SkillTarget,sort=nearest,limit=1] Damage = $Damage Global
-tag @e[tag=SkillTarget] remove SkillTarget
+scoreboard players operation @e[tag=MeleeTarget,limit=1] Damage = $Damage Global
+
+### ターゲット解放
+function calc_manager:target/melee/release
