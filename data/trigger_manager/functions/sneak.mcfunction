@@ -20,6 +20,7 @@ execute if score @s SneakTrigger matches 200 run function main:settings/show
 execute if score @s SneakTime matches ..2 run scoreboard players reset @s SneakTrigger
 tag @s[tag=BurstReady,scores={SneakTime=..2}] remove BurstReady
 execute if entity @s[scores={Levitate=0..,SneakTime=2}] run function skill_manager:ninja/levitate/jump
+execute if score @s SneakTime matches 2 if score @s ModeSkill matches 11041..11049 unless entity @s[nbt=!{SelectedItem:{id:"minecraft:wooden_sword"}},nbt=!{SelectedItem:{id:"minecraft:stone_sword"}},nbt=!{SelectedItem:{id:"minecraft:golden_sword"}},nbt=!{SelectedItem:{id:"minecraft:iron_sword"}},nbt=!{SelectedItem:{id:"minecraft:diamond_sword"}}] run function skill_manager:knight/aerial_slash/act_check
 
 ### スニーク状態取得
 scoreboard players operation @s SneakTime *= $2 Const
