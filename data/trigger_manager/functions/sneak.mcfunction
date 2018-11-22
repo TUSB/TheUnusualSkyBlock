@@ -6,7 +6,7 @@
 execute if score @s SneakTime matches 3 run scoreboard players add @s SneakTrigger 1
 
 ### バースト準備
-execute if score @s SneakTrigger matches 60 run function skill_manager:burst/ready
+execute if score @s SneakTrigger matches 40 run function skill_manager:burst/ready
 ### 跳躍
 scoreboard players operation $ChoyakuTrigger Global = @s SneakTrigger
 scoreboard players operation $ChoyakuTrigger Global %= $20 Const

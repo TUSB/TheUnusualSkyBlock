@@ -127,6 +127,8 @@ scoreboard objectives add CarrotContinue dummy {"text":"人参棒連続カウン
 scoreboard objectives add CarrotTick dummy {"text":"人参棒使用LastTick"}
 scoreboard objectives add CritProbability dummy {"text":"クリティカルヒット確率"}
 scoreboard objectives add CritRate dummy {"text":"クリティカルヒットダメージレート"}
+scoreboard objectives add BurstInputTimer dummy {"text":"バースト入力受付中タイマー"}
+scoreboard objectives add BurstCommand dummy {"text":"バースト入力コマンド"}
 ###スキル個別系
 scoreboard objectives add FalconSlashTimer dummy {"text":"はやぶさ斬り遅延タイマー"}
 scoreboard objectives add IronWill dummy {"text":"アイアンウィル残りtick数"}
@@ -612,10 +614,8 @@ setworldspawn 0 4 0
 
 ###エンティティ系
 
-kill 0-0-FF-0-FF
-summon minecraft:area_effect_cloud 0.0 0.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:255l,UUIDLeast:255l,CustomName:"[\"羅針盤\"]"}
-kill 0-0-0-0-0
-summon minecraft:area_effect_cloud 0.0 1.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:0l,UUIDLeast:0l,CustomName:"[\"テキスト\"]"}
+execute unless entity 0-0-FF-0-FF run summon minecraft:area_effect_cloud 0.0 0.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:255l,UUIDLeast:255l,CustomName:"[\"羅針盤\"]"}
+execute unless entity 0-0-0-0-0 run summon minecraft:area_effect_cloud 0.0 1.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:0l,UUIDLeast:0l,CustomName:"[\"テキスト\"]"}
 
 ###ブロック系
 fill 0 0 0 6 0 6 minecraft:water

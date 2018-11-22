@@ -17,4 +17,4 @@ execute if score @s Job matches 7 run tellraw @a [{"selector":"@s"},{"text":"は
 playsound minecraft:entity.illusioner.cast_spell master @a ~ ~ ~ 6 0.5
 ###---演出---End
 
-tag @s remove BurstReady
+function skill_manager:burst/reset

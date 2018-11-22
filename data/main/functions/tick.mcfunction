@@ -44,6 +44,11 @@ execute in the_end as @a[distance=0..,gamemode=!spectator] unless score @s Dimen
 ###１tick遅れ処理
 execute as @e[tag=DelayedTask] at @s run function main:task/delayed
 
+##################################################     遅延の壁     ##################################################
+
+### バースト？
+execute as @a[scores={BurstInputTimer=1..}] at @s run function skill_manager:burst/show_command
+
 ###ログイン時処理
 execute as @a[scores={LeaveGame=1..}] at @s run function trigger_manager:leave_game
 ###スキルインターバル処理
