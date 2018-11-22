@@ -1,5 +1,5 @@
 ##############################
-### 被ダメ時だけ反対に進む
+### 被ダメ時だけ反対に一瞬で進む
 ##############################
 
 execute if entity @s[scores={DecrementTimer=10}] store result entity @s Motion[0] double -0.01 run data get entity @s Motion[0] 1000
