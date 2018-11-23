@@ -2,9 +2,11 @@
 ### ボミオストラップ発動
 ##############################
 
-execute if score @s SupportSkill matches 32041 run summon minecraft:area_effect_cloud ~ ~ ~ {Radius:0.01f,RadiusPerTick:0f,RadiusOnUse:0f,DurationOnUse:0,Invulnerable:true,Particle:"minecraft:angry_villager",Age:0,WaitTime:0,ReapplicationDelay:2147483647,Duration:300,Tags:[DeceleratleTrap,Level1,NativeTask]}
-execute if score @s SupportSkill matches 32042 run summon minecraft:area_effect_cloud ~ ~ ~ {Radius:0.01f,RadiusPerTick:0f,RadiusOnUse:0f,DurationOnUse:0,Invulnerable:true,Particle:"minecraft:angry_villager",Age:0,WaitTime:0,ReapplicationDelay:2147483647,Duration:300,Tags:[DeceleratleTrap,Level2,NativeTask]}
-execute if score @s SupportSkill matches 32043 run summon minecraft:area_effect_cloud ~ ~ ~ {Radius:0.01f,RadiusPerTick:0f,RadiusOnUse:0f,DurationOnUse:0,Invulnerable:true,Particle:"minecraft:angry_villager",Age:0,WaitTime:0,ReapplicationDelay:2147483647,Duration:300,Tags:[DeceleratleTrap,Level3,NativeTask]}
+summon minecraft:area_effect_cloud ~ ~ ~ {Radius:0.01f,RadiusPerTick:0f,RadiusOnUse:0f,DurationOnUse:0,Invulnerable:true,Particle:"minecraft:angry_villager",Age:0,WaitTime:0,ReapplicationDelay:2147483647,Duration:300,Tags:[DeceleratleTrap,NativeTask]}
+
+execute if score @s SupportSkill matches 32041 run scoreboard players set @e[distance=..6,tag=DeceleratleTrap,nbt={Duration:300},limit=1] SkillAttribute 80
+execute if score @s SupportSkill matches 32042 run scoreboard players set @e[distance=..6,tag=DeceleratleTrap,nbt={Duration:300},limit=1] SkillAttribute 60
+execute if score @s SupportSkill matches 32043 run scoreboard players set @e[distance=..6,tag=DeceleratleTrap,nbt={Duration:300},limit=1] SkillAttribute 40
 
 ###---演出---Start
 playsound minecraft:block.piston.extend master @a[distance=..16] ~ ~ ~ 1 1

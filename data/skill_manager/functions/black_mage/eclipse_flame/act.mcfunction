@@ -20,10 +20,10 @@ execute as @e[tag=Initializing,limit=1] at @s run function calc_manager:set/moti
 tag @e[tag=Initializing,limit=1] remove Initializing
 
 ###飛翔物スキル設定
-execute if score @s ModeSkill matches 51021 run scoreboard players set $Damage Global 2500
-execute if score @s ModeSkill matches 51022 run scoreboard players set $Damage Global 5000
-execute if score @s ModeSkill matches 51023 run scoreboard players set $Damage Global 10000
-execute if score @s ModeSkill matches 51024 run scoreboard players set $Damage Global 20000
+execute if score @s ModeSkill matches 51021 run scoreboard players set $Damage Global 1200
+execute if score @s ModeSkill matches 51022 run scoreboard players set $Damage Global 4400
+execute if score @s ModeSkill matches 51023 run scoreboard players set $Damage Global 20800
+execute if score @s ModeSkill matches 51024 run scoreboard players set $Damage Global 32000
 function calc_manager:apply_damage_modifier
 
 scoreboard players operation @e[tag=InitializingChild,limit=1] SkillAttribute = $Damage Global

@@ -19,10 +19,10 @@ execute as @e[tag=Initializing,limit=1] at @s run function calc_manager:set/moti
 execute store result score $Damage Global run data get entity @s Health 100
 scoreboard players operation $Damage Global -= @s PillarDamage
 ###ダメージ補正
-# Δhp * 20 (2列40HP*15=600) これくらい？ 20秒
-# Δhp * 30 (4列80HP*15=1200) これくらい？ 30秒
-# Δhp * 40 (6列120HP*15=1800) これくらい？ 40秒
-scoreboard players operation $Damage Global *= $15 Const
+# Δhp * 500 (3列60HP*25*20) これくらい？ 20秒
+# Δhp * 875 (4列80HP*25*35) これくらい？ 30秒
+# Δhp *1250 (6列120HP*25*50) これくらい？ 40秒
+scoreboard players operation $Damage Global *= $25 Const
 ###飛翔物属性付与
 scoreboard players operation @e[tag=Initializing,limit=1] SkillAttribute = $Damage Global
 scoreboard players operation @e[tag=Initializing,limit=1] ProjectileSkill = @s ModeSkill

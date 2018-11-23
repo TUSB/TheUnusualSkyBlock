@@ -9,4 +9,5 @@ execute if score $Y1 Global matches -10000..275000 unless entity @s[tag=Animal] 
 tag @s add Garbage
 
 ### 介錯サヨナラ処理
+execute if entity @a[distance=..10,scores={Kaishaku=1..},limit=1] if entity @a[distance=..32,scores={Job=7,Aura=0..}] run scoreboard players operation @s MobHPMax *= $5 Const
 execute if entity @a[distance=..10,scores={Kaishaku=1..},limit=1] run function skill_manager:ninja/kaishaku/explode

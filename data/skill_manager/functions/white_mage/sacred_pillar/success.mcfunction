@@ -4,8 +4,8 @@
 
 summon minecraft:arrow ~ ~ ~ {Invulnerable:true,NoGravity:true,Silent:true,Color:-1,damage:0d,Tags:[Initializing]}
 execute if score @s ProjectileSkill matches 41041 run scoreboard players set @e[tag=Initializing,limit=1] PillarCount 20
-execute if score @s ProjectileSkill matches 41042 run scoreboard players set @e[tag=Initializing,limit=1] PillarCount 30
-execute if score @s ProjectileSkill matches 41043 run scoreboard players set @e[tag=Initializing,limit=1] PillarCount 40
+execute if score @s ProjectileSkill matches 41042 run scoreboard players set @e[tag=Initializing,limit=1] PillarCount 35
+execute if score @s ProjectileSkill matches 41043 run scoreboard players set @e[tag=Initializing,limit=1] PillarCount 50
 
 ###ダメージ値保存
 scoreboard players operation @e[tag=Initializing,limit=1] PillarDamage = @s SkillAttribute

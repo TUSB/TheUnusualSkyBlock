@@ -4,7 +4,7 @@
 
 execute if score @s SkillAttribute matches 61071 run scoreboard players set $Damage Global 150000
 execute if score @s SkillAttribute matches 61072 run scoreboard players set $Damage Global 500000
-execute if score @s SkillAttribute matches 61073 run scoreboard players set $Damage Global 1000000
+execute if score @s SkillAttribute matches 61073 run scoreboard players set $Damage Global 1100000
 function calc_manager:apply_damage_modifier
 scoreboard players operation $BaseDamage Global = $Damage Global
 

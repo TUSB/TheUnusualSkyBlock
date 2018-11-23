@@ -2,9 +2,8 @@
 ### ボミオストラップ継続
 ##############################
 
-execute if entity @s[tag=Level1] run effect give @e[distance=..5,tag=Mob] minecraft:slowness 1 0
-execute if entity @s[tag=Level2] run effect give @e[distance=..5,tag=Mob] minecraft:slowness 1 3
-execute if entity @s[tag=Level3] run effect give @e[distance=..5,tag=Mob] minecraft:slowness 1 6
+scoreboard players operation $Modifier Global = @s SkillAttribute
+execute as @e[distance=..12,tag=Mob] run function skill_manager:hunter/deceleratle_trap/apply
 
 ###---演出---Start
 particle minecraft:falling_dust minecraft:diamond_block ~ ~0.7 ~ 1.7 0 1.7 1 3 force

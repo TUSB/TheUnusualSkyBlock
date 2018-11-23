@@ -56,11 +56,17 @@ execute as @e[tag=MeleeTarget,limit=1] at @s run particle minecraft:sweep_attack
 execute as @e[tag=MeleeTarget,limit=1] run function calc_manager:target/last_damage
 scoreboard players operation $Damage Global = $LastDamage Global
 
+###高ダメージ時の補正
+scoreboard players remove $Damage Global 20000
+scoreboard players operation $Damage Global /= $10 Const
+scoreboard players add $Damage Global 20000
+scoreboard players operation $Damage Global < $LastDamage Global
+
 ###スキルレベルによるダメージ補正
-execute if score @s ModeSkill matches 21031 run scoreboard players operation $Damage Global *= $12 Const
-execute if score @s ModeSkill matches 21032 run scoreboard players operation $Damage Global *= $25 Const
-execute if score @s ModeSkill matches 21033 run scoreboard players operation $Damage Global *= $70 Const
-execute if score @s ModeSkill matches 21034 run scoreboard players operation $Damage Global *= $160 Const
+execute if score @s ModeSkill matches 21031 run scoreboard players operation $Damage Global *= $3 Const
+execute if score @s ModeSkill matches 21032 run scoreboard players operation $Damage Global *= $5 Const
+execute if score @s ModeSkill matches 21033 run scoreboard players operation $Damage Global *= $8 Const
+execute if score @s ModeSkill matches 21034 run scoreboard players operation $Damage Global *= $17 Const
 function calc_manager:apply_damage_modifier
 
 ###ダメージ付与

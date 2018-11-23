@@ -13,10 +13,10 @@ scoreboard players operation @e[tag=Issen] ID += @s ID
 scoreboard players remove @s Issen 1
 ###ダメージ判定
 ###一閃ダメージ設定
-execute if score @s ModeSkill matches 21041 if score @s Issen matches 20.. at @s run scoreboard players set $Damage Global 240000
+execute if score @s ModeSkill matches 21041 if score @s Issen matches 20.. at @s run scoreboard players set $Damage Global 220000
 execute if score @s ModeSkill matches 21042 if score @s Issen matches 20.. at @s run scoreboard players set $Damage Global 400000
-execute if score @s ModeSkill matches 21043 if score @s Issen matches 20.. at @s run scoreboard players set $Damage Global 1000000
-execute if score @s ModeSkill matches 21044 if score @s Issen matches 20.. at @s run scoreboard players set $Damage Global 1600000
+execute if score @s ModeSkill matches 21043 if score @s Issen matches 20.. at @s run scoreboard players set $Damage Global 1250000
+execute if score @s ModeSkill matches 21044 if score @s Issen matches 20.. at @s run scoreboard players set $Damage Global 2000000
 function calc_manager:apply_damage_modifier
 execute if score @s Issen matches 20.. at @s run scoreboard players operation @e[distance=..2.5,tag=Mob] Damage > $Damage Global
 ###近接被ダメ回避

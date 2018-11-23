@@ -11,7 +11,7 @@ particle minecraft:lava ~ ~1 ~ 0.2 1 0.2 0 30
 effect give @s minecraft:weakness 30 100
 tp @s ~ ~-2 ~
 data merge entity @s {Motion:[0d,1.5d,0d]}
-scoreboard players set $Damage Global 400000
+scoreboard players set $Damage Global 500000
 function calc_manager:apply_damage_modifier
 scoreboard players operation @s Damage > $Damage Global
 effect give @s minecraft:slow_falling 1 0

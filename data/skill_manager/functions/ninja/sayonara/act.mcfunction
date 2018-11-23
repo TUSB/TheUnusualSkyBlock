@@ -7,6 +7,9 @@ particle minecraft:item minecraft:redstone_block ~ ~1 ~ 0 0 0 0.5 100 force
 particle minecraft:item minecraft:nether_wart ~ ~1 ~ 0 0 0 0.5 200 force
 ###---演出---End
 
+###レイズ付与
+execute if score @s MP matches 100.. run tag @s add Raise
+
 ###ダメージ算出/距離算出/MP補正
 scoreboard players operation $Damage Global = @s MP
 scoreboard players operation $Damage Global < $100 Const
@@ -14,16 +17,11 @@ scoreboard players operation $Distance Global = @s MP
 scoreboard players remove @s MP 100
 scoreboard players operation @s MP > $0 Const
 
-###レイズ付与
-execute if score $Damage Global matches 100 run tag @s add Raise
+scoreboard players operation $Damage Global *= $25 Cosnt
+execute if score @s ModeSkill matches 21062 run scoreboard players operation $Damage Global *= $3 Const
+execute if score @s ModeSkill matches 21062 run scoreboard players operation $Damage Global /= $2 Const
 
-###絡繰オーラ時補正
-execute if score @s ModeSkill matches 21062 run scoreboard players operation $Distance Global *= $2 Const
-
-###ダメージ付与/最大 2000 4000 6000 8000 10000
-scoreboard players operation $Damage Global *= $Damage Global
-scoreboard players operation $Damage Global *= $20 Const
-
+### ダメージ付与
 scoreboard players operation $ApplyDamage Global = $Damage Global
 execute if score $Distance Global matches 00.. run scoreboard players operation @e[distance=0..4,tag=Mob] Damage > $ApplyDamage Global
 execute if score $Distance Global matches 20.. run scoreboard players operation @e[distance=4..8,tag=Mob] Damage > $ApplyDamage Global

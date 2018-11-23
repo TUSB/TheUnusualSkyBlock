@@ -261,6 +261,7 @@ scoreboard players set $49 Const 49
 scoreboard players set $50 Const 50
 scoreboard players set $60 Const 60
 scoreboard players set $70 Const 70
+scoreboard players set $75 Const 75
 scoreboard players set $80 Const 80
 scoreboard players set $84 Const 84
 scoreboard players set $90 Const 90
@@ -512,11 +513,11 @@ scoreboard players set $5103 Interval 1500
 scoreboard players set $5104 Interval 1500
 scoreboard players set $5105 Interval 1500
 scoreboard players set $5106 Interval 0
-scoreboard players set $5201 Interval 5000
-scoreboard players set $5202 Interval 5000
-scoreboard players set $5203 Interval 3000
+scoreboard players set $5201 Interval 2000
+scoreboard players set $5202 Interval 2000
+scoreboard players set $5203 Interval 2000
 scoreboard players set $5204 Interval 1000
-scoreboard players set $5205 Interval 5000
+scoreboard players set $5205 Interval 2000
 scoreboard players set $5206 Interval 1000
 scoreboard players set $5207 Interval 1000
 scoreboard players set $5208 Interval 5000

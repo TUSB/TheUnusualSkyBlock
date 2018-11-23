@@ -2,12 +2,13 @@
 ### ライトニングブロー発動
 ##############################
 
-scoreboard players set $BlowPower Global 1500000
+### 8000 -> 20000 -> 90000 -> 130000
+scoreboard players set $BlowPower Global 20000000
 scoreboard players operation $BlowPower Global -= @s LightningBlow
-#execute if score @s ModeSkill matches 51031 run scoreboard players operation $BlowPower Global *= $1 Const
-execute if score @s ModeSkill matches 51032 run scoreboard players operation $BlowPower Global *= $5 Const
-execute if score @s ModeSkill matches 51033 run scoreboard players operation $BlowPower Global *= $10 Const
-execute if score @s ModeSkill matches 51034 run scoreboard players operation $BlowPower Global *= $15 Const
+execute if score @s ModeSkill matches 51031 run scoreboard players operation $BlowPower Global *= $4 Const
+execute if score @s ModeSkill matches 51032 run scoreboard players operation $BlowPower Global *= $10 Const
+execute if score @s ModeSkill matches 51033 run scoreboard players operation $BlowPower Global *= $45 Const
+execute if score @s ModeSkill matches 51034 run scoreboard players operation $BlowPower Global *= $65 Const
 scoreboard players operation $BlowPower Global /= $100 Const
 scoreboard players operation @s LightningBlow += $BlowPower Global
 
