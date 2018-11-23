@@ -1,5 +1,4 @@
 ##############################
-### MOB割り当て
+### モブID分岐 - Tocult Water Blow
 ##############################
 
-#execute if entity @s[tag=] run function enemy_manager:summon/tocult/water/blow/

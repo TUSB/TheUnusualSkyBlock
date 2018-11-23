@@ -1,5 +1,5 @@
 ##############################
-### MOB割り当て
+### モブID分岐 - Tocult Ground Blow
 ##############################
 
 execute if entity @s[tag=Durahan] run function enemy_manager:summon/tocult/ground/blow/durahan_70

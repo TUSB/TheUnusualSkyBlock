@@ -1,5 +1,4 @@
 ##############################
-### MOB割り当て
+### モブID分岐 - Purgatory Ground Summon
 ##############################
 
-#execute if entity @s[tag=] run function enemy_manager:summon/purgatory/ground/summon/

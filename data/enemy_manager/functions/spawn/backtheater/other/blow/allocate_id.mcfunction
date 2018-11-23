@@ -1,5 +1,4 @@
 ##############################
-### MOB割り当て
+### モブID分岐 - Backtheater Other Blow
 ##############################
 
-#execute if entity @s[tag=] run function enemy_manager:summon/backtheater/other/blow/
