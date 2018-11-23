@@ -344,7 +344,7 @@ scoreboard players set $1201 Cost 20
 scoreboard players set $1202 Cost 25
 scoreboard players set $1203 Cost 10
 scoreboard players set $1204 Cost 10
-scoreboard players set $1205 Cost 20
+scoreboard players set $1205 Cost 5
 ##忍者
 scoreboard players set $2101 Cost 2
 scoreboard players set $2102 Cost 3
@@ -391,22 +391,22 @@ scoreboard players set $4205 Cost 60
 scoreboard players set $4206 Cost 70
 scoreboard players set $4207 Cost 80
 ##黒魔導士
-scoreboard players set $5101 Cost 20
-scoreboard players set $5102 Cost 20
-scoreboard players set $5103 Cost 20
-scoreboard players set $5104 Cost 20
-scoreboard players set $5105 Cost 80
+scoreboard players set $5101 Cost 30
+scoreboard players set $5102 Cost 30
+scoreboard players set $5103 Cost 30
+scoreboard players set $5104 Cost 30
+scoreboard players set $5105 Cost 30
 scoreboard players set $5106 Cost 100
-scoreboard players set $5201 Cost 60
-scoreboard players set $5202 Cost 60
-scoreboard players set $5203 Cost 60
-scoreboard players set $5204 Cost 60
-scoreboard players set $5205 Cost 60
-scoreboard players set $5206 Cost 40
+scoreboard players set $5201 Cost 30
+scoreboard players set $5202 Cost 30
+scoreboard players set $5203 Cost 30
+scoreboard players set $5204 Cost 20
+scoreboard players set $5205 Cost 30
+scoreboard players set $5206 Cost 20
 scoreboard players set $5207 Cost 50
-scoreboard players set $5208 Cost 60
-scoreboard players set $5209 Cost 25
-scoreboard players set $5210 Cost 70
+scoreboard players set $5208 Cost 50
+scoreboard players set $5209 Cost 20
+scoreboard players set $5210 Cost 80
 ##召喚士
 scoreboard players set $6101 Cost 20
 scoreboard players set $6102 Cost 10
@@ -457,7 +457,7 @@ scoreboard players set $1105 Interval 0
 scoreboard players set $1106 Interval 2000
 scoreboard players set $1107 Interval 0
 scoreboard players set $1201 Interval 3000
-scoreboard players set $1202 Interval 12000
+scoreboard players set $1202 Interval 7000
 scoreboard players set $1203 Interval 5000
 scoreboard players set $1204 Interval 2000
 scoreboard players set $1205 Interval 3000
@@ -505,13 +505,13 @@ scoreboard players set $4203 Interval 3000
 scoreboard players set $4204 Interval 3000
 scoreboard players set $4205 Interval 3000
 scoreboard players set $4206 Interval 3000
-scoreboard players set $4207 Interval 3000
+scoreboard players set $4207 Interval 7000
 ##黒魔導士
 scoreboard players set $5101 Interval 1500
 scoreboard players set $5102 Interval 1500
 scoreboard players set $5103 Interval 1500
 scoreboard players set $5104 Interval 1500
-scoreboard players set $5105 Interval 1500
+scoreboard players set $5105 Interval 5000
 scoreboard players set $5106 Interval 0
 scoreboard players set $5201 Interval 2000
 scoreboard players set $5202 Interval 2000
@@ -522,7 +522,7 @@ scoreboard players set $5206 Interval 1000
 scoreboard players set $5207 Interval 1000
 scoreboard players set $5208 Interval 5000
 scoreboard players set $5209 Interval 5000
-scoreboard players set $5210 Interval 500
+scoreboard players set $5210 Interval 7000
 ##召喚士
 scoreboard players set $6101 Interval 0
 scoreboard players set $6102 Interval 0
