@@ -1,9 +1,9 @@
 ##############################
-### MOB割り当て
+### モブID分岐 - Global Ground Blow
 ##############################
 
-execute if entity @s[tag=Ninja] run function enemy_manager:spawn/global/ground/blow/ninja/allocate_ninja
-execute if entity @s[tag=Steve] run function enemy_manager:spawn/global/ground/blow/steve/allocate_steve
+execute if entity @s[tag=Ninja] run function enemy_manager:spawn/global/ground/blow/ninja/allocate_subfolder
+execute if entity @s[tag=Steve] run function enemy_manager:spawn/global/ground/blow/steve/allocate_subfolder
 execute if entity @s[tag=Calcifer] run function enemy_manager:summon/global/ground/blow/calcifer_35
 execute if entity @s[tag=CharmingEnderman] run function enemy_manager:summon/global/ground/blow/charming_enderman_15
 execute if entity @s[tag=Deidora] run function enemy_manager:summon/global/ground/blow/deidora_60

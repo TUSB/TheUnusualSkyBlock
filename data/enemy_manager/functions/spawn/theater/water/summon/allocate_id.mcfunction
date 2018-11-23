@@ -1,5 +1,4 @@
 ##############################
-### MOB割り当て
+### モブID分岐 - Theater Water Summon
 ##############################
 
-#execute if entity @s[tag=] run function enemy_manager:summon/theater/water/summon/

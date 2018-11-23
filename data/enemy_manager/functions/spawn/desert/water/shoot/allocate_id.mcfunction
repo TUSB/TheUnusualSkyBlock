@@ -1,5 +1,4 @@
 ##############################
-### MOB割り当て
+### モブID分岐 - Desert Water Shoot
 ##############################
 
-#execute if entity @s[tag=] run function enemy_manager:summon/desert/water/shoot/

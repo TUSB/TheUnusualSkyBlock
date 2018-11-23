@@ -1,5 +1,4 @@
 ##############################
-### MOB割り当て
+### モブID分岐 - Gulliver Sky Shoot
 ##############################
 
-#execute if entity @s[tag=] run function enemy_manager:summon/gulliver/sky/shoot/

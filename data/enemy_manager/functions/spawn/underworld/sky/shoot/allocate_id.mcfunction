@@ -1,5 +1,4 @@
 ##############################
-### MOB割り当て
+### モブID分岐 - Underworld Sky Shoot
 ##############################
 
-#execute if entity @s[tag=] run function enemy_manager:summon/underworld/sky/shoot/

@@ -1,5 +1,4 @@
 ##############################
-### MOB割り当て
+### モブID分岐 - Purgatory Sky Blow
 ##############################
 
-#execute if entity @s[tag=] run function enemy_manager:summon/purgatory/sky/blow/

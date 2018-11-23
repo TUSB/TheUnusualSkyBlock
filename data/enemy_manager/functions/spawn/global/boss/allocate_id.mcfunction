@@ -1,5 +1,5 @@
 ##############################
-### MOB割り当て
+### モブID分岐 - Global Boss 
 ##############################
 
 execute if entity @s[tag=Pharaoh] run function enemy_manager:summon/global/boss/pharaoh_65

@@ -1,5 +1,4 @@
 ##############################
-### MOB割り当て
+### モブID分岐 - Tablemountain Other Summon
 ##############################
 
-#execute if entity @s[tag=] run function enemy_manager:summon/tablemountain/other/summon/

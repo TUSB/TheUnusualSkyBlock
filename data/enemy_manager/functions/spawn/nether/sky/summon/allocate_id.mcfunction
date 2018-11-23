@@ -1,5 +1,4 @@
 ##############################
-### MOB割り当て
+### モブID分岐 - Nether Sky Summon
 ##############################
 
-#execute if entity @s[tag=] run function enemy_manager:summon/nether/sky/summon/

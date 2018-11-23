@@ -1,5 +1,4 @@
 ##############################
-### MOB割り当て
+### モブID分岐 - End Ground Shoot
 ##############################
 
-#execute if entity @s[tag=] run function enemy_manager:summon/end/ground/shoot/
