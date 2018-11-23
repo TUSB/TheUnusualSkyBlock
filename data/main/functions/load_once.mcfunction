@@ -326,7 +326,7 @@ scoreboard players set $1750000 Const 1750000
 scoreboard players set $1600000 Const 1600000
 scoreboard players set $2000000 Const 2000000
 scoreboard players set $3000000 Const 3000000
-scoreboard players set $DamageMax Const 9999999
+scoreboard players set $DamageMax Const 99999999
 scoreboard players set $MWCBase Const 65536
 scoreboard players set $MWCMultiplier Const 31743
 scoreboard players set $IntMin Const -2147483648
