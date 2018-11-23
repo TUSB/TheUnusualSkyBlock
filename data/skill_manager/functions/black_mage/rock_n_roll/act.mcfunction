@@ -6,10 +6,10 @@ execute rotated ~ 0 positioned ^ ^ ^5 run summon minecraft:armor_stand ~ ~ ~ {Ma
 execute rotated ~120 0 positioned ^ ^ ^5 run summon minecraft:armor_stand ~ ~ ~ {Marker:true,Invisible:true,Invulnerable:true,NoGravity:true,Tags:[RockNRoll,Initializing,CooldownRequired],PortalCooldown:600,ArmorItems:[{},{},{},{id:"minecraft:granite",Count:1b}],Fire:2000s}
 execute rotated ~-120 0 positioned ^ ^ ^5 run summon minecraft:armor_stand ~ ~ ~ {Marker:true,Invisible:true,Invulnerable:true,NoGravity:true,Tags:[RockNRoll,Initializing,CooldownRequired],PortalCooldown:600,ArmorItems:[{},{},{},{id:"minecraft:granite",Count:1b}],Fire:2000s}
 execute as @e[tag=Initializing] at @s run function calc_manager:set/random_pose_head
-execute if score @s ModeSkill matches 51041 run scoreboard players set $Damage Global 5000
-execute if score @s ModeSkill matches 51042 run scoreboard players set $Damage Global 12000
-execute if score @s ModeSkill matches 51043 run scoreboard players set $Damage Global 46000
-execute if score @s ModeSkill matches 51044 run scoreboard players set $Damage Global 66000
+execute if score @s ModeSkill matches 51041 run scoreboard players set $Damage Global 8500
+execute if score @s ModeSkill matches 51042 run scoreboard players set $Damage Global 19000
+execute if score @s ModeSkill matches 51043 run scoreboard players set $Damage Global 73000
+execute if score @s ModeSkill matches 51044 run scoreboard players set $Damage Global 105000
 function calc_manager:apply_damage_modifier
 scoreboard players operation @e[tag=Initializing] SkillAttribute = $Damage Global
 scoreboard players operation @e[tag=Initializing] ID = @s ID
