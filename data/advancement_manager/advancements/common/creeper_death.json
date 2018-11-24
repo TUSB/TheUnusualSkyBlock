@@ -7,14 +7,14 @@
       "text": "リフォームの匠"
     },
     "description": {
-      "text": "奴はどんな場所でも脅威、天空も例外ではない。"
+      "text": "奴はどんな場所でも脅威、天空も例外ではない"
     },
     "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "advancement_manager:common/death",
+  "parent": "advancement_manager:common/void_death",
   "criteria": {
     "death": {
       "trigger": "minecraft:entity_killed_player",

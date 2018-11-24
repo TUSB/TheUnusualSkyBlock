@@ -176,6 +176,9 @@ scoreboard objectives add PupFlyability dummy {"text":"パペット空中機動�
 scoreboard objectives add PupMobility dummy {"text":"パペット陸上機動力"}
 scoreboard objectives add PupCurrentSlot dummy {"text":"パペット行動スロット"}
 scoreboard objectives add PuppetWait dummy {"text":"パペット行動ウェイト"}
+###進捗系スコア
+scoreboard objectives add SheepKillCount dummy {"text":"羊キルカウント"}
+scoreboard objectives add DeathCountAd dummy {"text":"進捗用死亡回数カウント"}
 ###クエスト系スコア
 scoreboard objectives add QuestClick trigger {"text":"クエスト一覧クリック検知用"}
 scoreboard objectives add QuestReceive trigger {"text":"クエストを受注するか"}

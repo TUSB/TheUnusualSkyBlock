@@ -33,5 +33,8 @@ scoreboard players reset @s Deaths
 function main:tips/show
 
 ### 進捗処理
+execute if entity @s[advancements={advancement_manager:common/death=false}] run advancement grant @s only advancement_manager:common/death
 execute if entity @s[y=-64,dy=-1024,advancements={advancement_manager:common/void_death=false}] run advancement grant @s only advancement_manager:common/void_death
 execute if entity @s[x=-288,z=-3296,dx=639,dz=1311,advancements={advancement_manager:table_mountain/death=false}] run advancement grant @s only advancement_manager:table_mountain/death
+scoreboard players add @s DeathCountAd 1
+execute if entity @s[scores={DeathCountAd=100..},advancements={advancement_manager:common/many_death=false}] run advancement grant @s only advancement_manager:common/many_death

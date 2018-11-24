@@ -1,20 +1,20 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:glowstone"
+      "item": "minecraft:ice"
     },
     "title": {
-      "text": "夜の終わり"
+      "text": "封じられたゲート"
     },
     "description": {
-      "text": "世界は明るさを取り戻した"
+      "text": "冷え切った世界への入り口"
     },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "advancement_manager:skylands/trade_start",
+  "parent": "advancement_manager:common/root",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"

@@ -1,27 +1,27 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:white_wool"
+      "item": "minecraft:knowledge_book"
     },
     "title": {
-      "text": "足場"
+      "text": "知識を求めて"
     },
     "description": {
-      "text": "足場がなければ始まらない"
+      "text": "知識は力になる"
     },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "advancement_manager:skylands/root",
+  "parent": "advancement_manager:common/root",
   "criteria": {
-    "wool": {
+    "knowledge_book": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "item": "minecraft:white_wool"
+            "item": "minecraft:knowledge_book"
           }
         ]
       }
