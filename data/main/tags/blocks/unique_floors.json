@@ -2,7 +2,7 @@
   "replace": false,
   "values": [
     "minecraft:smooth_red_sandstone",
-    "minecraft:nether_wart_block"
-
+    "minecraft:nether_wart_block",
+    "minecraft:magenta_glazed_terracotta"
   ]
 }
