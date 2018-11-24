@@ -8,17 +8,17 @@ scoreboard players operation $AuraLife Global %= $10000 Const
 ### 剣士６秒＊１０
 execute if score @s Job matches 1 run scoreboard players operation $AuraLife Global *= $600 Const
 ### 忍者８秒＊１０
-execute if score @s Job matches 1 run scoreboard players operation $AuraLife Global *= $800 Const
+execute if score @s Job matches 2 run scoreboard players operation $AuraLife Global *= $800 Const
 ### 狩人４秒＊１０
-execute if score @s Job matches 1 run scoreboard players operation $AuraLife Global *= $400 Const
+execute if score @s Job matches 3 run scoreboard players operation $AuraLife Global *= $400 Const
 ### 白魔６秒＊１０
-execute if score @s Job matches 1 run scoreboard players operation $AuraLife Global *= $600 Const
+execute if score @s Job matches 4 run scoreboard players operation $AuraLife Global *= $600 Const
 ### 黒魔４秒＊１０
-execute if score @s Job matches 1 run scoreboard players operation $AuraLife Global *= $400 Const
+execute if score @s Job matches 5 run scoreboard players operation $AuraLife Global *= $400 Const
 ### 召喚６秒＊１０
-execute if score @s Job matches 1 run scoreboard players operation $AuraLife Global *= $600 Const
+execute if score @s Job matches 6 run scoreboard players operation $AuraLife Global *= $600 Const
 ### 絡繰４秒＊１０
-execute if score @s Job matches 1 run scoreboard players operation $AuraLife Global *= $400 Const
+execute if score @s Job matches 7 run scoreboard players operation $AuraLife Global *= $400 Const
 
 scoreboard players operation @s Aura > $AuraLife Global
 
