@@ -1,5 +1,0 @@
-##############################
-### 素晴らしいサンドバッグ召喚 - Global Other Blow
-##############################
-
-summon villager ~ ~1 ~ {Age:-2147483648,Silent:true,Health:0f,DeathTime:19s,Passengers:[{id:"minecraft:wither_skeleton",AbsorptionAmount:3000000f,CustomName:"{\"text\":\"素晴らしいサンドバッグ\"}",Attributes:[{Name:"generic.movementSpeed",Base:0.001d},{Name:"generic.attackDamage",Base:0d},{Name:"generic.knockbackResistance",Base:0d},{Name:"generic.followRange",Base:0d}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2000000,ShowParticles:false}],Passengers:[{id:"furnace_minecart",Tags:["Cargo"],NoGravity:true,Invulnerable:true,DisplayState:{Name:"minecraft:hay_block",Properties:{axis:"y"}},CustomDisplayTile:true,DisplayOffset:-13},{id:"furnace_minecart",Tags:["Cargo"],NoGravity:true,Invulnerable:true,DisplayState:{Name:"minecraft:hay_block",Properties:{axis:"y"}},CustomDisplayTile:true,DisplayOffset:-29},{id:"furnace_minecart",Tags:["Cargo"],NoGravity:true,Invulnerable:true,DisplayState:{Name:"minecraft:oak_fence",Properties:{east:false,north:false,south:false,west:false,waterlogged:false}},CustomDisplayTile:true,DisplayOffset:-45}]}]}
