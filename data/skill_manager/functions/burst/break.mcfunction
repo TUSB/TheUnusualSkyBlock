@@ -3,7 +3,7 @@
 ##############################
 
 scoreboard players operation $AuraLife Global = バースト MP
-scoreboard players operation $AuraLife Global %= $10000 Const
+scoreboard players operation $AuraLife Global /= $10000 Const
 ### 攻撃上系短め・バフ系普通・デバフ系長め
 ### 剣士６秒＊１０
 execute if score @s Job matches 1 run scoreboard players operation $AuraLife Global *= $600 Const
