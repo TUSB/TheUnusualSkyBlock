@@ -5,6 +5,9 @@
 ### HurtTimeをリセット
 scoreboard players set @s DecrementTimer 10
 
+execute store result score $Y Global run data get entity @s Pos[1] 1000
+execute if score $Y Global matches ..0 run kill @s
+
 ### 特殊ダメージでない場合は自然ダメージ更新
 execute as @s[nbt=!{ActiveEffects:[{Id:7b,Amplifier:127b}]}] run function enemy_manager:on_natural_damage
 
