@@ -120,11 +120,14 @@ execute if score @s SupportSkill matches 52041..52049 positioned as @e[tag=Egg,d
 ### グロウ
 execute if score @s SupportSkill matches 52051..52059 run function skill_manager:black_mage/grow/act
 
-### ルーラ
-execute if score @s SupportSkill matches 52101..52109 run function skill_manager:black_mage/return/act
+### マナリフレッシュ
+execute if score @s SupportSkill matches 52061..52069 run function skill_manager:black_mage/mana_refresh/act
 
 ### ダークスワンプ
 execute if score @s SupportSkill matches 52081..52089 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:black_mage/dark_swamp/act
+
+### ルーラ
+execute if score @s SupportSkill matches 52101..52109 run function skill_manager:black_mage/return/act
 
 ### サモンＰ：スノー
 execute if score @s SupportSkill matches 62011..62019 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:summoner/summon_snow_golem/act

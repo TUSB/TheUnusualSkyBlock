@@ -11,6 +11,7 @@ scoreboard players set $DarkSwampTotal DarkSwamp 0
 scoreboard players operation $AbsorbRate Global = @s SkillAttribute
 execute as @e[tag=DarkSwampTarget] run function skill_manager:black_mage/dark_swamp/total
 ###MP増加処理
+scoreboard players operation $DarkSwampTotal DarkSwamp /= $100 Const
 scoreboard players operation $DarkSwampId ID = @s ID
 execute as @a if score @s ID = $DarkSwampId ID run scoreboard players operation @s MPConsumption -= $DarkSwampTotal DarkSwamp
 ###カウント減算

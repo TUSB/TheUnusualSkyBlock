@@ -158,6 +158,7 @@ scoreboard objectives add PillarDamage dummy {"text":"セイクリッドピラ�
 scoreboard objectives add EclipseRadius dummy {"text":"エクリプスフレイム半径"}
 scoreboard objectives add SleepgaTime dummy {"text":"スリプガ残り秒数"}
 scoreboard objectives add DarkSwamp dummy {"text":"ダークスワンプ回数"}
+scoreboard objectives add ManaRefresh dummy {"text":"マナリフレッシュ残りミリ秒＆レベル"}
 scoreboard objectives add LightningBlow dummy {"text":"ライトニングブロー威力"}
 scoreboard objectives add FillSize dummy {"text":"フィールサイズ"}
 scoreboard objectives add SetFillSize trigger {"text":"フィールサイズ選択"}

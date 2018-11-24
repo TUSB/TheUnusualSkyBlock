@@ -15,8 +15,9 @@ scoreboard players add $Modifier Global 700
 scoreboard players operation $CountSum Global *= $Modifier Global
 scoreboard players operation $CountSum Global /= $100 Const
 scoreboard players operation @s MPHealingWait -= $CountSum Global
+
 ### 0でMP1回復
-execute if score @s MPHealingWait matches ..0 run scoreboard players remove @s MPConsumption 1
+execute if score @s MPHealingWait matches ..0 run function skill_manager:update_mp_wait
 ### MPウェイトリセット
 scoreboard players add @s[scores={MPHealingWait=..0}] MPHealingWait 700
 

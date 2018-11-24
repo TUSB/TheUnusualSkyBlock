@@ -15,6 +15,10 @@ particle minecraft:dust 0 0 0 3 ~-10 ~2 ~ 0 3 3 0 100 force
 
 function skill_manager:summoner/call_crystal/enhance/common
 
-execute if score @s SkillAttribute matches 61091..61092 run scoreboard players operation @a[distance=..10] ManaRefresh > $1200 Const
+execute if score @s SkillAttribute matches 61091 run scoreboard players set $ManaRefreshValue Global 300001
+execute if score @s SkillAttribute matches 61092 run scoreboard players set $ManaRefreshValue Global 600001
+execute if score @s SkillAttribute matches 61093 run scoreboard players set $ManaRefreshValue Global 900001
+
+execute if score @s SkillAttribute matches 61093 run scoreboard players operation @a[distance=..10] ManaRefresh > $ManaRefreshValue Global
+
 execute if score @s SkillAttribute matches 61092..61093 run effect give @a[distance=..10] minecraft:saturation 5 1
-execute if score @s SkillAttribute matches 61093 run scoreboard players operation @a[distance=..10] ManaRefresh > $3600 Const
