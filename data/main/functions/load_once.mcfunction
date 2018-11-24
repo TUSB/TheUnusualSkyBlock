@@ -160,6 +160,7 @@ scoreboard objectives add SleepgaTime dummy {"text":"スリプガ残り秒数"}
 scoreboard objectives add DarkSwamp dummy {"text":"ダークスワンプ回数"}
 scoreboard objectives add ManaRefresh dummy {"text":"マナリフレッシュ残りミリ秒＆レベル"}
 scoreboard objectives add LightningBlow dummy {"text":"ライトニングブロー威力"}
+scoreboard objectives add RockNRoll dummy {"text":"ロックンロール残り推定時間"}
 scoreboard objectives add FillSize dummy {"text":"フィールサイズ"}
 scoreboard objectives add SetFillSize trigger {"text":"フィールサイズ選択"}
 scoreboard objectives add PetitBlack dummy {"text":"ぷちブラック残りtick"}

@@ -140,7 +140,7 @@ execute as @a[scores={BlastSpark=1..}] at @s run function skill_manager:hunter/b
 ###ライトニングブロー
 execute as @a[scores={LightningBlow=1..}] at @s run function skill_manager:black_mage/lightning_blow/tick
 ###ロックンロール
-execute as @a[scores={ModeSkill=51041..51049}] at @s run function skill_manager:black_mage/rock_n_roll/tick
+execute as @a[scores={RockNRoll=0..}] at @s run function skill_manager:black_mage/rock_n_roll/tick
 ##################################################     継続系スキルの壁     ##################################################
 
 ###エンティティダメージ付与

@@ -24,3 +24,5 @@ playsound minecraft:entity.generic.explode master @a[distance=..16] ~ ~ ~ 1 1
 ###---演出---End
 
 tag @e[tag=Initializing] remove Initializing
+
+scoreboard players set @s RockNRoll 600

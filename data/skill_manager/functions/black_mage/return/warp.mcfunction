@@ -5,9 +5,9 @@
 summon minecraft:arrow ~ ~ ~ {Tags:[HomePoint],xTile:0,yTile:0,zTile:0}
 
 #初期設定
-execute unless score @s HomeX matches -2147483648.. run scoreboard players set @s HomeX -77
-execute unless score @s HomeY matches -2147483648.. run scoreboard players set @s HomeY 23
-execute unless score @s HomeZ matches -2147483648.. run scoreboard players set @s HomeZ -601
+execute unless score @s HomeX <= $IntMax Const run scoreboard players set @s HomeX -77
+execute unless score @s HomeY <= $IntMax Const run scoreboard players set @s HomeY 23
+execute unless score @s HomeZ <= $IntMax Const run scoreboard players set @s HomeZ -601
 #Pos代入
 scoreboard players operation $HomeX Global = @s HomeX
 scoreboard players operation $HomeY Global = @s HomeY
