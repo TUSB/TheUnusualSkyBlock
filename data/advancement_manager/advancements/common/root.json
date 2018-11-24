@@ -20,7 +20,7 @@
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false,
-    "background": "minecraft:textures/item/nether_star.png"
+    "background": "minecraft:textures/block/light_blue_stained_glass.png"
   },
   "criteria": {
     "tick": {

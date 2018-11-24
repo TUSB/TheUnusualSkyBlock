@@ -2,13 +2,13 @@
   "display": {
     "icon": {
       "item": "minecraft:potion",
-      "nbt": "{CustomPotionColor:0}"
+      "nbt": "{CustomPotionColor:8421631}"
     },
     "title": {
       "text": "神聖なる水"
     },
     "description": {
-      "text": "恐ろしき呪いをも打ち消すほどの、聖なる力が込められている。"
+      "text": "恐ろしき呪いをも打ち消すほどの、聖なる力が込められている"
     },
     "frame": "task",
     "show_toast": true,

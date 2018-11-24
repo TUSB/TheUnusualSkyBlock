@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "advancement_manager:skylands/wool",
+  "parent": "advancement_manager:skylands/upper",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"

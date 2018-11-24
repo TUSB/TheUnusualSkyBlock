@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "advancement_manager:skylands/wool",
+  "parent": "advancement_manager:skylands/end_night",
   "criteria": {
     "join": {
       "trigger": "minecraft:location",

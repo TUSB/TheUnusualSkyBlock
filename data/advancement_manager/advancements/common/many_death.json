@@ -1,20 +1,20 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:oak_planks"
+      "item": "minecraft:bone"
     },
     "title": {
-      "text": "交易開始"
+      "text": "俺の屍を超えてゆけ"
     },
     "description": {
-      "text": "交易島で交易をした"
+      "text": "数多の屍の上に立っている"
     },
-    "frame": "task",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "advancement_manager:skylands/wool",
+  "parent": "advancement_manager:common/void_death",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"
