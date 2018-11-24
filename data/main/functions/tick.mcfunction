@@ -160,7 +160,7 @@ execute as @a if score @s Aura matches 0.. at @s run function skill_manager:aura
 
 ###バースト減少
 scoreboard players remove バースト MP 10
-execute if score バースト MP matches 99990..99999 run team modify Burst color white
+execute if score バースト MP matches ..99999 run team modify Burst color white
 scoreboard players operation バースト MP > $10000 Const
 scoreboard players operation バースト MP < $999999 Const
 ##################################################     バースト後処理の壁     ##################################################
