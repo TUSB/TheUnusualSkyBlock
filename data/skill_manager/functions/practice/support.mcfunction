@@ -4,6 +4,7 @@
 
 ###消費MP決定
 execute if score @s SneakTime matches 1.. run function skill_manager:practice/sneak_support
+execute if entity @a[distance=..32,scores={Aura=0..,Job=5},limit=1] run scoreboard players set @s SupportCost 0
 ###アイサツ補正
 execute if score @s Aisatsu matches 0.. run function skill_manager:ninja/aisatsu/apply
 ###エナジーセーブ補正

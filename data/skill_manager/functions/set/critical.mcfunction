@@ -3,4 +3,4 @@
 ##############################
 
 scoreboard players set @s CritProbability 5
-scoreboard players set @s CritRate 200
+scoreboard players set @s CritRate 120

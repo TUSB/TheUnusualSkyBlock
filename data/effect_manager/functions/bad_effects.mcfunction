@@ -37,6 +37,9 @@ function calc_manager:update_random
 scoreboard players operation $Random Global %= $100 Const
 execute store success score $ResistFlag Global if score $Random Global < @s ResistEffects if entity @s[advancements={effect_manager:bad_effects={slowness=true}}] run effect clear @s minecraft:slowness
 
+execute if entity @a[distance=..32,scores={Aura=0..,Job=4}] run function skill_manager:white_mage/clear/cure/level2
+execute if entity @a[distance=..32,scores={Aura=0..,Job=4}] run scoreboard players set @s ResistLock 1
+
 ### レジストメッセージ
 execute unless score @s ResistLock matches 1 if score $ResistFlag Global matches 1.. run tellraw @a [{"text":"","color":"green"},{"selector":"@s"},"は",{"text":"悪い効果","color":"white"},"を防いだ！"]
 execute unless score @s ResistLock matches 1 if score $ResistFlag Global matches ..0 run scoreboard players add @s ResistEffects 3

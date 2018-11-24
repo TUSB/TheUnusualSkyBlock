@@ -2,6 +2,9 @@
 ### 死亡時処理
 ##############################
 
+### オーラ解除
+scoreboard players remove @s Aura
+
 ### 状態異常回復
 function skill_manager:white_mage/clear/cure/level4
 scoreboard players operation @s ResistEffects < @s ResistMin

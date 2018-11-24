@@ -78,6 +78,7 @@ scoreboard objectives add SubWhiteMage dummy {"text":"白魔導士のサブレ�
 scoreboard objectives add SubBlackMage dummy {"text":"黒魔導士のサブレベル"}
 scoreboard objectives add SubSummoner dummy {"text":"召喚士のサブレベル"}
 scoreboard objectives add SubPupMaster dummy {"text":"絡繰士のサブレベル"}
+scoreboard objectives add Aura dummy {"text":"オーラ残りミリ秒"}
 ###設定されたスキル
 scoreboard objectives add Cost dummy {"text":"MPコスト一覧"}
 scoreboard objectives add Interval dummy {"text":"スキル使用不能時間一覧"}
@@ -319,6 +320,7 @@ scoreboard players set $500000 Const 500000
 scoreboard players set $600000 Const 600000
 scoreboard players set $700000 Const 700000
 scoreboard players set $900000 Const 900000
+scoreboard players set $999999 Const 999999
 scoreboard players set $1000000 Const 1000000
 scoreboard players set $1400000 Const 1400000
 scoreboard players set $1500000 Const 1500000
@@ -591,10 +593,17 @@ team modify Friendly color white
 #team modify Friendly prefix {"text":"✿","color":"yellow"}
 team modify Friendly prefix {"text":"✦","color":"red"}
 team modify Friendly suffix {"text":"✦","color":"red"}
-team join Friendly バースト
 team add Enemy {"text":"敵チーム"}
 team modify Enemy color white
 team modify Enemy friendlyFire false
+###バーストチーム作成
+team add Burst {"text":"バーストチーム"}
+team modify Burst color white
+#team modify Friendly prefix {"text":"☘","color":"green"}
+#team modify Friendly prefix {"text":"✿","color":"yellow"}
+team modify Burst prefix {"text":"==","color":"white"}
+team modify Burst suffix {"text":"==","color":"white"}
+team join Burst バースト
 ###カラーチーム作成
 team add Red {"text":"赤色チーム"}
 team modify Red color red

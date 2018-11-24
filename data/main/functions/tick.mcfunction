@@ -46,8 +46,17 @@ execute as @e[tag=DelayedTask] at @s run function main:task/delayed
 
 ##################################################     遅延の壁     ##################################################
 
+execute as @a[scores={DroppedMode=1..}] at @s run function trigger_manager:egg/dropped_mode
+execute as @a[scores={DroppedRed=1..}] at @s run function trigger_manager:egg/dropped_red
+execute as @a[scores={DroppedBlue=1..}] at @s run function trigger_manager:egg/dropped_blue
+##################################################     スキルエッグドロップはバースト前処理より前必須の壁     ##################################################
+
 ### バースト？
 execute as @a[scores={BurstInputTimer=1..}] at @s run function skill_manager:burst/show_command
+
+### オーラ時処理
+execute as @a if score @s Aura matches 0.. at @s run function skill_manager:aura/before
+##################################################     バースト前処理の壁     ##################################################
 
 ###ログイン時処理
 execute as @a[scores={LeaveGame=1..}] at @s run function trigger_manager:leave_game
@@ -74,9 +83,6 @@ execute as @a[scores={SneakTime=1..}] at @s run function trigger_manager:sneak
 execute as @a[scores={UseModeEgg=1..}] at @s run function trigger_manager:egg/mode_change
 execute as @a[scores={UseSupportRed=1..}] at @s run function trigger_manager:egg/support_red
 execute as @a[scores={UseSupportBlue=1..}] at @s run function trigger_manager:egg/support_blue
-execute as @a[scores={DroppedMode=1..}] at @s run function trigger_manager:egg/dropped_mode
-execute as @a[scores={DroppedRed=1..}] at @s run function trigger_manager:egg/dropped_red
-execute as @a[scores={DroppedBlue=1..}] at @s run function trigger_manager:egg/dropped_blue
 
 ###スキル発動
 execute as @a[scores={ActiveSkill=1..}] at @s run function skill_manager:practice/mode
@@ -149,10 +155,15 @@ tag @e[tag=Vehicle,tag=Anchored,nbt=!{Passengers:[{Tags:[Anchor]}]}] add Garbage
 execute as @e[tag=Garbage] run function entity_manager:garbage_collection
 ##################################################     エンティティダメージ＆削除処理の壁     ##################################################
 
+### オーラ時後処理
+execute as @a if score @s Aura matches 0.. at @s run function skill_manager:aura/after
+
 ###バースト減少
-scoreboard players remove バースト MP 1
+scoreboard players remove バースト MP 10
+execute if score バースト MP matches 99990..99999 run team modify Burst color white
 scoreboard players operation バースト MP > $10000 Const
-scoreboard players operation バースト MP < $99999 Const
+scoreboard players operation バースト MP < $999999 Const
+##################################################     バースト後処理の壁     ##################################################
 
 ### MP消費
 execute as @a run function skill_manager:update_mp

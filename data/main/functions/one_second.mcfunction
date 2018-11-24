@@ -61,7 +61,7 @@ execute as @e[scores={Isukumi=0..}] at @s run function skill_manager:ninja/isuku
 scoreboard players remove @a[scores={ClericKnowledge=0..}] ClericKnowledge 1
 
 ### 敵スキル実行
-execute as @e[tag=HasSkill] unless score @s SleepgaTime matches 1.. at @s run function skill_manager:enemy/count
+execute as @e[tag=HasSkill] unless score @s SleepgaTime matches 0.. at @s run function skill_manager:enemy/count
 
 ### 特殊状態異常回復
 execute as @a[tag=Burn,nbt={Fire:-20s}] at @s run function effect_manager:burn/cure

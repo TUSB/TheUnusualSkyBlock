@@ -14,8 +14,8 @@ execute if score @s MP matches 100.. run tag @s add Raise
 scoreboard players operation $Damage Global = @s MP
 scoreboard players operation $Damage Global < $100 Const
 scoreboard players operation $Distance Global = @s MP
-scoreboard players remove @s MP 100
-scoreboard players operation @s MP > $0 Const
+scoreboard players operation @s MPConsumption = @s MP
+scoreboard players operation @s MPConsumption < $100 Const
 
 scoreboard players operation $Damage Global *= $25 Cosnt
 execute if score @s ModeSkill matches 21062 run scoreboard players operation $Damage Global *= $3 Const

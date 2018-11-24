@@ -5,6 +5,7 @@
 ###消費MP決定
 scoreboard players operation @s ActiveCost = @s ModeCost
 execute if score @s SneakTime matches 1.. run function skill_manager:practice/sneak_mode
+execute if entity @a[distance=..32,scores={Aura=0..,Job=5},limit=1] run scoreboard players set @s ActiveCost 0
 ###スキルインターバル設定
 scoreboard players operation @s ActiveInterval = @s ModeInterval
 ###アイサツ補正

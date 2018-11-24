@@ -2,7 +2,28 @@
 ### バースト発動
 ##############################
 
+scoreboard players operation $AuraLife Global = バースト MP
+scoreboard players operation $AuraLife Global %= $10000 Const
+### 攻撃上系短め・バフ系普通・デバフ系長め
+### 剣士６秒＊１０
+execute if score @s Job matches 1 run scoreboard players operation $AuraLife Global *= $600 Const
+### 忍者８秒＊１０
+execute if score @s Job matches 1 run scoreboard players operation $AuraLife Global *= $800 Const
+### 狩人４秒＊１０
+execute if score @s Job matches 1 run scoreboard players operation $AuraLife Global *= $400 Const
+### 白魔６秒＊１０
+execute if score @s Job matches 1 run scoreboard players operation $AuraLife Global *= $600 Const
+### 黒魔４秒＊１０
+execute if score @s Job matches 1 run scoreboard players operation $AuraLife Global *= $400 Const
+### 召喚６秒＊１０
+execute if score @s Job matches 1 run scoreboard players operation $AuraLife Global *= $600 Const
+### 絡繰４秒＊１０
+execute if score @s Job matches 1 run scoreboard players operation $AuraLife Global *= $400 Const
+
+scoreboard players operation @s Aura > $AuraLife Global
+
 scoreboard players reset バースト MP
+
 execute as @a run function effect_manager:reload
 tellraw @a {"text":"バーストブレイク！！","color":"gold","italic":true,"bold":true}
 execute if score @s Job matches 1 run tellraw @a [{"selector":"@s"},{"text":"は剣士のオーラを纏った！！！","color":"green"}]

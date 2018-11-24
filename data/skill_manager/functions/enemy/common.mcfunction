@@ -4,6 +4,7 @@
 
 function calc_manager:update_random
 scoreboard players operation $Random Global %= $100 Const
+execute if entity @s[tag=ForgotSkill] run scoreboard players operation $Random Global = $IntMax Const
 scoreboard players set $Threshold Global 0
 
 execute store result score $Probability Global run data get entity @s Attributes[1].Modifiers[2].Amount 1

@@ -4,23 +4,9 @@
 
 function calc_manager:update_random
 scoreboard players operation $Random Global %= $100 Const
-scoreboard players set $IsBadEffect Global 0
-execute store success score $IsBadEffect Global unless entity @s[advancements={effect_manager:invisible={doom=false,super_doom=false,burn=false,debility=false,virus=false,confuse=false,curse=false,terror=false,tnt=false}}] run seed
-execute unless score @s ResistLock matches 1 if score $IsBadEffect Global matches 1.. unless score $Random Global < @s ResistEffects run scoreboard players add @s ResistEffects 5
-execute unless score @s ResistLock matches 1 if score $IsBadEffect Global matches 1.. if score $Random Global < @s ResistEffects run tellraw @a [{"text":"","color":"green"},{"selector":"@s"},"は",{"text":"とても悪い効果","color":"white"},"を防いだ！"]
-execute if score $IsBadEffect Global matches 1.. if score $Random Global < @s ResistEffects run advancement revoke @s only effect_manager:invisible
+execute unless entity @a[distance=..32,scores={Aura=0..,Job=4},limit=1] unless entity @s[advancements={effect_manager:invisible={doom=false,super_doom=false,burn=false,debility=false,virus=false,confuse=false,curse=false,terror=false,tnt=false}}] run function effect_manager:too_bad_effect
+execute if entity @a[distance=..32,scores={Aura=0..,Job=4},limit=1] unless entity @s[advancements={effect_manager:invisible={doom=false,super_doom=false,burn=false,debility=false,virus=false,confuse=false,curse=false,terror=false,tnt=false}}] run advancement revoke @s only effect_manager:invisible
 scoreboard players set @s ResistLock 1
-
-execute if entity @s[advancements={effect_manager:invisible={doom=true}}] unless score @s DoomCount matches 1..31 run function effect_manager:doom/apply
-execute if entity @s[advancements={effect_manager:invisible={super_doom=true}}] unless score @s DoomCount matches 1..13 run function effect_manager:doom/apply
-execute if entity @s[advancements={effect_manager:invisible={super_doom=true}}] run scoreboard players operation @s DoomCount < $10 Const
-execute if entity @s[advancements={effect_manager:invisible={burn=true}},tag=!Burn] unless entity @s[tag=Burn] run function effect_manager:burn/apply
-execute if entity @s[advancements={effect_manager:invisible={debility=true}}] run function effect_manager:debility/apply
-execute if entity @s[advancements={effect_manager:invisible={virus=true}}] unless score @s VirusCount matches 0.. run function effect_manager:virus/apply
-execute if entity @s[advancements={effect_manager:invisible={confuse=true}}] unless score @s ConfuseCount matches 0.. run function effect_manager:confuse/apply
-execute if entity @s[advancements={effect_manager:invisible={curse=true}}] unless entity @s[tag=Curse] run function effect_manager:curse/apply
-execute if entity @s[advancements={effect_manager:invisible={terror=true}}] unless score @s TerrorLevel matches 0.. run function effect_manager:terror/apply
-execute if entity @s[advancements={effect_manager:invisible={tnt=true}}] unless score @s TntCount matches 0.. run function effect_manager:tnt/apply
 
 execute if entity @s[advancements={effect_manager:invisible={vile_ether=true}}] run scoreboard players remove @s MPConsumption 25
 execute if entity @s[advancements={effect_manager:invisible={normal_ether=true}}] run scoreboard players remove @s MPConsumption 50
