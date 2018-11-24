@@ -8,7 +8,7 @@
 # execute as @e[distance=..6,tag=Mob,scores={DecrementTimer=10},limit=1] at @s run function skill_manager:knight/aerial_slash/hit
 
 ###弾の設定をする
-execute positioned ^ ^ ^-0.25 run summon minecraft:arrow ~ ~1.52 ~ {damage:0d,NoGravity:true,Color:-1,Tags:[FlyingRequired,Projectile,Initializing,Rapid]}
+execute positioned ^ ^ ^-0.25 run summon minecraft:snowball ~ ~1.52 ~ {NoGravity:true,Color:-1,Tags:[FlyingRequired,Projectile,Initializing,Rapid]}
 
 ###モーションを計算する
 execute as @e[tag=Initializing,limit=1] positioned ~ ~1.52 ~ run function calc_manager:get/direction1
