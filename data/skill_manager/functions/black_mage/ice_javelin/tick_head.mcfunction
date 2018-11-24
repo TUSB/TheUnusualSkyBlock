@@ -20,7 +20,7 @@ scoreboard players operation $ReduceFlag Global = @s DecrementTimer
 scoreboard players operation $ReduceFlag Global %= $2 Const
 
 ### 氷発生
-playsound minecraft:block.glass.break master @a[distance=..32] ^ ^ ^ 3 2
+execute as @a[distance=..32] at @s run playsound minecraft:block.glass.break master @s ^ ^64 ^ 7 2
 execute if score $ReduceFlag Global matches 0 run summon minecraft:armor_stand ~ ~ ~ {Small:false,NoGravity:true,Invisible:true,Marker:true,PortalCooldown:49,Tags:[JavelinIce,NativeTask],ArmorItems:[{},{},{},{id:"minecraft:ice",Count:1b}],Pose:{Head:[1f,1f,1f]},Fire:1000s}
 scoreboard players operation @e[distance=..0.01,tag=JavelinIce,tag=!IceJavelin] SkillAttribute = @s SkillAttribute
 scoreboard players operation @e[distance=..0.01,tag=JavelinIce,tag=!IceJavelin] DecrementTimer = @s DecrementTimer

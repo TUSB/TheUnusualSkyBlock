@@ -4,7 +4,8 @@
 
 ###---演出---Start
 particle minecraft:block minecraft:ice ~ ~ ~ 0.3 0.3 0.3 1 10 force
-playsound minecraft:block.glass.break master @a ~ ~ ~ 10 0.5
+execute as @a[distance=..32] run stopsound @s master minecraft:block.glass.break
+execute as @a[distance=..32] at @s run playsound minecraft:block.glass.break master @s ~ ~64 ~ 8 0.5
 ###---演出---End
 
 scoreboard players operation $Damage Global = @s SkillAttribute
