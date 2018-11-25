@@ -20,10 +20,10 @@ execute if score @s ModeSkill matches 41031..41039 run scoreboard players operat
 ### 白魔導士＜ホーリー＞
 execute if score @s ModeSkill matches 41051..41059 run scoreboard players operation @s ActiveSkill = @s ModeSkill
 
-### 黒魔導士＜アイスストーム＞->＜アイスジャベリン＞
+### 黒魔導士＜アイスジャベリン＞->＜アイスジャベリン＞
 execute if score @s ModeSkill matches 51011..51019 run scoreboard players operation @s ActiveSkill = @s ModeSkill
 
-### 黒魔導士＜クロスファイア＞->＜エクリプスフレイム＞
+### 黒魔導士＜エクリプスフレイム＞->＜エクリプスフレイム＞
 execute if score @s ModeSkill matches 51021..51029 run scoreboard players operation @s ActiveSkill = @s ModeSkill
 
 ### 共通＜ウィークペイント＞

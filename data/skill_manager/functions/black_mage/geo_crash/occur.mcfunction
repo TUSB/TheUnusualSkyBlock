@@ -1,5 +1,5 @@
 ##############################
-### ジオクラッシュ発動
+### ロックンロール発動
 ##############################
 
 execute if score @s ModeSkill matches 51041 run scoreboard players add @e[distance=..20,tag=Mob,nbt={OnGround:true}] Damage 1000

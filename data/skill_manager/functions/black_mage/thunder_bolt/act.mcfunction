@@ -1,5 +1,5 @@
 ##############################
-### サンダーボルト発動
+### ライトニングブロー発動
 ##############################
 
 execute if score @s ModeSkill matches 51031 as @e[distance=2..13,tag=Mob] positioned ~-4 ~2 ~-4 if entity @s[dx=7,dy=10,dz=7] at @s run scoreboard players add @s Damage 1000

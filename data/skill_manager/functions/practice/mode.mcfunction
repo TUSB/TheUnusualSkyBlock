@@ -99,10 +99,10 @@ execute if score @s ActiveSkill matches 41041..41049 run function skill_manager:
 ### 白魔導士＜ホーリー＞
 execute if score @s ActiveSkill matches 41051..41059 run function skill_manager:white_mage/holy/act
 
-### 黒魔導士＜アイスストーム＞->＜アイスジャベリン＞
+### 黒魔導士＜アイスジャベリン＞->＜アイスジャベリン＞
 execute if score @s ActiveSkill matches 51011..51019 run function skill_manager:black_mage/ice_javelin/act
 
-### 黒魔導士＜クロスファイア＞->＜エクリプスフレイム＞
+### 黒魔導士＜エクリプスフレイム＞->＜エクリプスフレイム＞
 execute if score @s ActiveSkill matches 51021..51029 run function skill_manager:black_mage/eclipse_flame/act
 
 ### 黒魔導士＜ライトニングブロー＞

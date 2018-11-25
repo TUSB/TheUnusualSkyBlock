@@ -1,8 +1,8 @@
 ##############################
-### クロスファイア処理
+### エクリプスフレイム処理
 ##############################
 
-###クロスファイアダメージ設定
+###エクリプスフレイムダメージ設定
 execute if score @s ProjectileSkill matches 51021 run scoreboard players set $Damage Global 500
 execute if score @s ProjectileSkill matches 51022 run scoreboard players set $Damage Global 1000
 execute if score @s ProjectileSkill matches 51023 run scoreboard players set $Damage Global 2000

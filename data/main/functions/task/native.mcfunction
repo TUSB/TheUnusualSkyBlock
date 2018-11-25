@@ -41,13 +41,13 @@ execute if entity @s[tag=RaisePoint] run function skill_manager:white_mage/arais
 execute if entity @s[tag=SacredPillarBase] run function skill_manager:white_mage/sacred_pillar/tick/common
 ###ホーリー処理
 execute if entity @s[tag=Holy] run function skill_manager:white_mage/holy/tick
-###アイスストーム処理
+###アイスジャベリン処理
 #execute if entity @s[tag=IceStorm] run function skill_manager:black_mage/ice_storm/tick
 ###アイスジャベリン処理
 execute if entity @s[tag=JavelinIce] run function skill_manager:black_mage/ice_javelin/tick
 ###スティッキーアイス処理
 execute if entity @s[tag=StickyIce] run function skill_manager:black_mage/sticky_ice/tick
-###クロスファイア処理
+###エクリプスフレイム処理
 #execute if entity @s[tag=CrossFire] run function skill_manager:black_mage/cross_fire/tick
 ###エクリプスフレイム処理
 execute if entity @s[tag=EclipseFlameCore] run function skill_manager:black_mage/eclipse_flame/tick

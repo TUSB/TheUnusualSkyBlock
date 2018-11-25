@@ -8,7 +8,7 @@ tag @s[tag=DelayedMotion] remove DelayedMotion
 ###デコイ
 execute as @s[tag=AvoidFalling2] run function skill_manager:knight/decoy/avoid_falling
 
-###ジオクラッシュ判定適用処理
+###ロックンロール判定適用処理
 execute as @s[tag=GeoCrash2] run function skill_manager:black_mage/geo_crash/occur
 
 ###ダークスワンプ復帰処理
@@ -35,7 +35,7 @@ execute if score $Success Count matches 1.. run tag @s add AvoidFalling2
 ## ダークスワンプ
 execute store success score $Success Count run tag @s remove DarkSwampLevitation
 execute if score $Success Count matches 1.. run tag @s add DarkSwampLevitation2
-## ジオクラッシュ
+## ロックンロール
 execute store success score $Success Count run tag @s remove GeoCrash
 execute if score $Success Count matches 1.. run tag @s add GeoCrash2
 ###共通タグ削除
