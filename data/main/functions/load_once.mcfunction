@@ -87,6 +87,7 @@ scoreboard objectives add ExpWhiteMage dummy {"text":"ジョブ経験値白魔�
 scoreboard objectives add ExpBlackMage dummy {"text":"ジョブ経験値黒魔導士"}
 scoreboard objectives add ExpSummoner dummy {"text":"ジョブ経験値召喚士"}
 scoreboard objectives add ExpPupMaster dummy {"text":"ジョブ経験値絡繰士"}
+scoreboard objectives add RequiredExp dummy {"text":"ジョブ必要経験値"}
 ###設定されたスキル
 scoreboard objectives add Cost dummy {"text":"MPコスト一覧"}
 scoreboard objectives add Interval dummy {"text":"スキル使用不能時間一覧"}

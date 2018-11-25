@@ -28,6 +28,4 @@ execute if score プール Exp matches ..0 if score $PlayerCount Global matches 
 execute as @a at @s run playsound minecraft:entity.player.levelup master @s ~ ~64 ~ 16 2
 
 scoreboard players operation @a Exp += $Consumption Global
-execute as @a if score @s Exp >= @s RequiredExp run 
-
-advancement revoke @s only item_manager:nether_star
+execute as @a if score @s Exp >= @s RequiredExp run function main:status/level_up

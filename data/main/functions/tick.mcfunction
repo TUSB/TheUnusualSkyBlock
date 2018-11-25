@@ -188,7 +188,10 @@ execute as @a unless score @s SetFillSize matches 0 run function skill_manager:s
 execute as @a unless score @s ChangeSettings matches 0 run function main:settings/triggered
 ###TIPS抑制
 execute as @a unless score @s TipsSupTrigger matches 0 run function main:tips/suppress
-##################################################     スキル表示・変更の壁     ##################################################
+##################################################     スキル表示・設定変更の壁     ##################################################
+
+execute as @a[nbt={Inventory:[{id:"minecraft:nether_star"}]}] at @s run function item_manager:nether_star
+##################################################     レベルアップの壁     ##################################################
 
 ###無限チェスト処理
 execute if score $InfinityChest Global matches 1.. as @e[tag=InfinityChest] at @s run function item_manager:infinity_chest/check

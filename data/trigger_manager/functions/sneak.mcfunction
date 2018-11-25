@@ -14,7 +14,7 @@ execute if score $ChoyakuTrigger Global matches 0 if score @s ModeSkill matches 
 scoreboard players operation $ChoyakuTrigger Global %= $5 Const
 execute if score $ChoyakuTrigger Global matches 0 if score @s ModeSkill matches 21021..21029 if entity @s[nbt={OnGround:true}] run scoreboard players operation @s ActiveSkill = @s ModeSkill
 ### 設定表示
-execute if score @s SneakTrigger matches 200 run function main:settings/show
+execute if score @s SneakTrigger matches 200 if entity @s[tag=!SuppressSettings] run function main:settings/show
 
 ### スニーク解除
 execute if score @s SneakTime matches ..2 run scoreboard players reset @s SneakTrigger

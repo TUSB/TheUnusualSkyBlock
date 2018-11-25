@@ -2,6 +2,6 @@
 ### ログイントリガー
 ##############################
 
-function skill_manager:show_skill/current
+function main:settings/show
 
 scoreboard players reset @s LeaveGame
