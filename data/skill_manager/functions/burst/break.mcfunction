@@ -20,6 +20,10 @@ execute if score @s Job matches 6 run scoreboard players operation $AuraLife Glo
 ### 絡繰４秒＊１０
 execute if score @s Job matches 7 run scoreboard players operation $AuraLife Global *= $400 Const
 
+### オーラポテンシャル補正
+scoreboard players operation $AuraLife Global *= @s AuraRate
+scoreboard players operation $AuraLife Global /= $100 Const
+
 scoreboard players operation @s Aura > $AuraLife Global
 
 scoreboard players reset バースト MP

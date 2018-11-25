@@ -4,7 +4,16 @@
 
 ###消費MP決定
 scoreboard players operation @s ActiveCost = @s ModeCost
+# スニーク範囲化
 execute if score @s SneakTime matches 1.. run function skill_manager:practice/sneak_mode
+# 消費MP軽減潜在能力
+scoreboard players operation @s ActiveCost *= @s MPCostRate
+scoreboard players operation $Fraction Global = @s ActiveCost
+scoreboard players operation @s ActiveCost /= $100 Const
+scoreboard players operation $Fraction Global %= $100 Const
+function calc_manager:update_random
+execute if score $Random Global < $Fraction Global run scoreboard players add @s ActiveCost 1
+# オーラ
 execute if entity @a[distance=..32,scores={Aura=0..,Job=5},limit=1] run scoreboard players set @s ActiveCost 0
 ###スキルインターバル設定
 scoreboard players operation @s ActiveInterval = @s ModeInterval
@@ -20,6 +29,8 @@ function calc_manager:tellraw/interval
 execute if score @s SkillInterval > $0 Const run scoreboard players reset @s ActiveSkill
 execute if score @s ActiveSkill matches 1.. run scoreboard players operation @s MPConsumption += @s ActiveCost
 ###スキル発動不能時間設定
+scoreboard players operation @s ActiveInterval *= @s IntervalRate
+scoreboard players operation @s ActiveInterval /= $100 Const
 execute if score @s ActiveSkill matches 1.. run scoreboard players operation @s SkillInterval = @s ActiveInterval
 ###テラー判定
 execute if score @s TerrorLevel matches 0.. run function effect_manager:terror/check

@@ -50,7 +50,6 @@ scoreboard objectives add ConfuseCount dummy {"text":"混乱カウント"}
 scoreboard objectives add TerrorLevel dummy {"text":"恐怖レベル"}
 scoreboard objectives add TntCount dummy {"text":"トントカウント"}
 scoreboard objectives add ResistEffects dummy {"text":"状態異常耐性"}
-scoreboard objectives add ResistMin dummy {"text":"状態異常耐性下限"}
 scoreboard objectives add ResistLock dummy {"text":"状態異常回避時ロック"}
 scoreboard objectives add CharmCount dummy {"text":"魅了カウント"}
 scoreboard objectives add BlinkCount dummy {"text":"幻影カウント"}
@@ -71,13 +70,6 @@ scoreboard objectives add LevelBlackMage dummy {"text":"黒魔導士のレベル
 scoreboard objectives add LevelSummoner dummy {"text":"召喚士のレベル"}
 scoreboard objectives add LevelPupMaster dummy {"text":"絡繰士のレベル"}
 scoreboard objectives add SubLevel dummy {"text":"現在のジョブのサブレベル"}
-scoreboard objectives add SubKnight dummy {"text":"剣士のサブレベル"}
-scoreboard objectives add SubNinja dummy {"text":"忍者のサブレベル"}
-scoreboard objectives add SubHunter dummy {"text":"狩人のサブレベル"}
-scoreboard objectives add SubWhiteMage dummy {"text":"白魔導士のサブレベル"}
-scoreboard objectives add SubBlackMage dummy {"text":"黒魔導士のサブレベル"}
-scoreboard objectives add SubSummoner dummy {"text":"召喚士のサブレベル"}
-scoreboard objectives add SubPupMaster dummy {"text":"絡繰士のサブレベル"}
 scoreboard objectives add Aura dummy {"text":"オーラ残りミリ秒"}
 scoreboard objectives add Exp dummy {"text":"ジョブ経験値"}
 scoreboard objectives add ExpKnight dummy {"text":"ジョブ経験値剣士"}
@@ -88,6 +80,26 @@ scoreboard objectives add ExpBlackMage dummy {"text":"ジョブ経験値黒魔�
 scoreboard objectives add ExpSummoner dummy {"text":"ジョブ経験値召喚士"}
 scoreboard objectives add ExpPupMaster dummy {"text":"ジョブ経験値絡繰士"}
 scoreboard objectives add RequiredExp dummy {"text":"ジョブ必要経験値"}
+scoreboard objectives add CritProbability dummy {"text":"クリティカルヒット確率"}
+scoreboard objectives add CritRate dummy {"text":"クリティカルヒットダメージレート"}
+scoreboard objectives add ResistMin dummy {"text":"状態異常耐性下限"}
+scoreboard objectives add AuraRate dummy {"text":"オーラ延長割合"}
+scoreboard objectives add IntervalRate dummy {"text":"スキル発動無効時間短縮割合"}
+scoreboard objectives add MPCostRate dummy {"text":"MP消費軽減割合"}
+scoreboard objectives add Potential1Knight dummy {"text":"剣士潜在能力ポイント１"}
+scoreboard objectives add Potential1Ninja dummy {"text":"忍者潜在能力ポイント１"}
+scoreboard objectives add Potential1Hunter dummy {"text":"狩人潜在能力ポイント１"}
+scoreboard objectives add Potential1White dummy {"text":"白魔導士潜在能力ポイント１"}
+scoreboard objectives add Potential1Black dummy {"text":"黒魔導士潜在能力ポイント１"}
+scoreboard objectives add Potential1Summon dummy {"text":"召喚士潜在能力ポイント１"}
+scoreboard objectives add Potential1Puppet dummy {"text":"絡繰士潜在能力ポイント１"}
+scoreboard objectives add Potential2Knight dummy {"text":"剣士潜在能力ポイント２"}
+scoreboard objectives add Potential2Ninja dummy {"text":"忍者潜在能力ポイント２"}
+scoreboard objectives add Potential2Hunter dummy {"text":"狩人潜在能力ポイント２"}
+scoreboard objectives add Potential2White dummy {"text":"白魔導士潜在能力ポイント２"}
+scoreboard objectives add Potential2Black dummy {"text":"黒魔導士潜在能力ポイント２"}
+scoreboard objectives add Potential2Summon dummy {"text":"召喚士潜在能力ポイント２"}
+scoreboard objectives add Potential2Puppet dummy {"text":"絡繰士潜在能力ポイント２"}
 ###設定されたスキル
 scoreboard objectives add Cost dummy {"text":"MPコスト一覧"}
 scoreboard objectives add Interval dummy {"text":"スキル使用不能時間一覧"}
@@ -135,8 +147,6 @@ scoreboard objectives add ProjectileSkill dummy {"text":"飛翔物付与スキ�
 scoreboard objectives add SkillAttribute dummy {"text":"スキル付加情報"}
 scoreboard objectives add CarrotContinue dummy {"text":"人参棒連続カウント"}
 scoreboard objectives add CarrotTick dummy {"text":"人参棒使用LastTick"}
-scoreboard objectives add CritProbability dummy {"text":"クリティカルヒット確率"}
-scoreboard objectives add CritRate dummy {"text":"クリティカルヒットダメージレート"}
 scoreboard objectives add BurstInputTimer dummy {"text":"バースト入力受付中タイマー"}
 scoreboard objectives add BurstCommand dummy {"text":"バースト入力コマンド"}
 ###スキル個別系
@@ -274,6 +284,7 @@ scoreboard players set $47 Const 47
 scoreboard players set $48 Const 48
 scoreboard players set $49 Const 49
 scoreboard players set $50 Const 50
+scoreboard players set $51 Const 51
 scoreboard players set $60 Const 60
 scoreboard players set $70 Const 70
 scoreboard players set $75 Const 75

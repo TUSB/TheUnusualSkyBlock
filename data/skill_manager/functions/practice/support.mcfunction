@@ -3,7 +3,16 @@
 ##############################
 
 ###消費MP決定
+# スニーク範囲化
 execute if score @s SneakTime matches 1.. run function skill_manager:practice/sneak_support
+# 消費MP軽減潜在能力
+scoreboard players operation @s SupportCost *= @s MPCostRate
+scoreboard players operation $Fraction Global = @s SupportCost
+scoreboard players operation @s SupportCost /= $100 Const
+scoreboard players operation $Fraction Global %= $100 Const
+function calc_manager:update_random
+execute if score $Random Global < $Fraction Global run scoreboard players add @s SupportCost 1
+# オーラ
 execute if entity @a[distance=..32,scores={Aura=0..,Job=5},limit=1] run scoreboard players set @s SupportCost 0
 ###アイサツ補正
 execute if score @s Aisatsu matches 0.. run function skill_manager:ninja/aisatsu/apply
@@ -17,6 +26,8 @@ function calc_manager:tellraw/interval
 execute if score @s SkillInterval > $0 Const run scoreboard players reset @s SupportSkill
 execute if score @s SupportSkill matches 1.. run scoreboard players operation @s MPConsumption += @s SupportCost
 ###スキル発動不能時間設定
+scoreboard players operation @s SupportInterval *= @s IntervalRate
+scoreboard players operation @s SupportInterval /= $100 Const
 execute if score @s SupportSkill matches 1.. run scoreboard players operation @s SkillInterval = @s SupportInterval
 ###テラー判定
 execute if score @s TerrorLevel matches 0.. run function effect_manager:terror/check

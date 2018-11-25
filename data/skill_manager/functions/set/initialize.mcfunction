@@ -16,8 +16,24 @@ scoreboard players set @s Job 0
 scoreboard players set @s Exp 0
 scoreboard players set @s RequiredExp 0
 
+scoreboard players set @s Potential1Knight 0
+scoreboard players set @s Potential1Ninja 0
+scoreboard players set @s Potential1Hunter 0
+scoreboard players set @s Potential1White 0
+scoreboard players set @s Potential1Black 0
+scoreboard players set @s Potential1Summon 0
+scoreboard players set @s Potential1Puppet 0
+
+scoreboard players set @s Potential2Knight 0
+scoreboard players set @s Potential2Ninja 0
+scoreboard players set @s Potential2Hunter 0
+scoreboard players set @s Potential2White 0
+scoreboard players set @s Potential2Black 0
+scoreboard players set @s Potential2Summon 0
+scoreboard players set @s Potential2Puppet 0
+
 function skill_manager:set/blank_skill
-function skill_manager:set/critical
+function skill_manager:set/rate
 
 function effect_manager:status/lift_to_max
 
