@@ -22,3 +22,4 @@ tellraw @s ["",{"text":" ❖","color":"green"},{"translate":"クリティカル�
 tellraw @s ["",{"text":" ❖","color":"green"},{"translate":"他ジョブレベルアップ: %3$s(%1$sCP)","with":[{"text":"-1","color":"gold"},{"score":{"name":"$MPCostRate","objective":"Global"},"color":"green"},{"text":"✞","bold":false,"color":"aqua","clickEvent":{"action":"run_command","value":"/trigger PotentialTrigger set 31"}}]},{"text":" ❖","color":"green"},{"translate":"キャパシティポイントリセット: %3$s(%1$sCP)","with":[{"text":"-1","color":"gold"},{"score":{"name":"$IntervalRate","objective":"Global"},"color":"green"},{"text":"✞","bold":false,"color":"aqua","clickEvent":{"action":"run_command","value":"/trigger PotentialTrigger set 32"}}]}]
 
 scoreboard players enable @s PotentialTrigger
+scoreboard players reset @s PotentialPrev
