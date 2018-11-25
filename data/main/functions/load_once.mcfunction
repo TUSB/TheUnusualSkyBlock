@@ -86,6 +86,8 @@ scoreboard objectives add ResistMin dummy {"text":"状態異常耐性下限"}
 scoreboard objectives add AuraRate dummy {"text":"オーラ延長割合"}
 scoreboard objectives add IntervalRate dummy {"text":"スキル発動無効時間短縮割合"}
 scoreboard objectives add MPCostRate dummy {"text":"MP消費軽減割合"}
+scoreboard objectives add Potential1 dummy {"text":"現在の潜在能力ポイント１"}
+scoreboard objectives add Potential2 dummy {"text":"現在の潜在能力ポイント２"}
 scoreboard objectives add Potential1Knight dummy {"text":"剣士潜在能力ポイント１"}
 scoreboard objectives add Potential1Ninja dummy {"text":"忍者潜在能力ポイント１"}
 scoreboard objectives add Potential1Hunter dummy {"text":"狩人潜在能力ポイント１"}
