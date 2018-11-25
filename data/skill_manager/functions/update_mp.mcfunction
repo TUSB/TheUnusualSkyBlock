@@ -20,6 +20,9 @@ scoreboard players operation @s MPHealingWait -= $CountSum Global
 execute if score @s MPHealingWait matches ..0 run function skill_manager:update_mp_wait
 ### MPウェイトリセット
 scoreboard players add @s[scores={MPHealingWait=..0}] MPHealingWait 700
+### マナリフレッシュカウントダウン
+scoreboard players remove @s[scores={ManaRefresh=50..}] ManaRefresh 50
+scoreboard players reset @s[scores={ManaRefresh=..50}] ManaRefresh
 
 ### MP消費(回復)反映
 execute if entity @s[nbt={ActiveEffects:[{Id:17b}]}] run scoreboard players operation @s MPConsumption > $0 Const
