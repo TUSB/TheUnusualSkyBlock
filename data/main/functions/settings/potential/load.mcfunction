@@ -30,19 +30,19 @@ scoreboard players operation @s CritProbability = $Potential2 Global
 scoreboard players operation @s CritProbability %= $26 Const
 
 ### １消費系
-scoreboard players operation @s ResistMin = $Potential2 Global
+scoreboard players operation @s ResistMin = $Potential1 Global
 scoreboard players operation @s ResistMin %= $51 Const
 scoreboard players operation $Potential2 Global /= $51 Global
 
-scoreboard players operation @s AuraRate = $Potential2 Global
+scoreboard players operation @s AuraRate = $Potential1 Global
 scoreboard players operation @s AuraRate %= $51 Const
 scoreboard players operation $Potential2 Global /= $51 Global
 
-scoreboard players operation @s IntervalRate = $Potential2 Global
+scoreboard players operation @s IntervalRate = $Potential1 Global
 scoreboard players operation @s IntervalRate %= $51 Const
 scoreboard players operation $Potential2 Global /= $51 Global
 
-scoreboard players operation @s MPCostRate = $Potential2 Global
+scoreboard players operation @s MPCostRate = $Potential1 Global
 scoreboard players operation @s MPCostRate %= $51 Const
 
 ### 標準補正

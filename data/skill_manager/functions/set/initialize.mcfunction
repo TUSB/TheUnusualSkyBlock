@@ -33,6 +33,7 @@ scoreboard players set @s Potential2Summon 0
 scoreboard players set @s Potential2Puppet 0
 
 function skill_manager:set/blank_skill
+function main:settings/potential/default
 function main:settings/potential/load
 
 function effect_manager:status/lift_to_max

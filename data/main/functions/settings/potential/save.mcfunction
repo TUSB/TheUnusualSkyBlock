@@ -1,5 +1,5 @@
 ##############################
-### 潜在能力読み込み
+### 潜在能力保存
 ##############################
 
 ### １消費系
@@ -10,12 +10,12 @@ scoreboard players operation $Potential1 Global *= $51 Const
 
 scoreboard players set $OnePotential Global 100
 scoreboard players operation $OnePotential Global -= @s IntervalRate
-scoreboard players operation $Potential1 Global = $OnePotential Global
+scoreboard players operation $Potential1 Global += $OnePotential Global
 scoreboard players operation $Potential1 Global *= $51 Const
 
 scoreboard players operation $OnePotential Global = @s AuraRate
 scoreboard players remove $OnePotential Global 100
-scoreboard players operation $Potential1 Global = $OnePotential Global
+scoreboard players operation $Potential1 Global += $OnePotential Global
 scoreboard players operation $Potential1 Global *= $51 Const
 
 scoreboard players operation $Potential1 Global += @s ResistMin
