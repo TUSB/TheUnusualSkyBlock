@@ -137,6 +137,9 @@ execute if score @s SupportSkill matches 52061..52069 run function skill_manager
 ### ダークスワンプ
 execute if score @s SupportSkill matches 52081..52089 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:black_mage/dark_swamp/act
 
+### ウィンドウォール
+execute if score @s SupportSkill matches 52091..52099 run function skill_manager:black_mage/wind_wall/act
+
 ### ルーラ
 execute if score @s SupportSkill matches 52101..52109 run function skill_manager:black_mage/return/act
 
