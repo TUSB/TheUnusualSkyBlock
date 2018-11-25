@@ -6,7 +6,7 @@ scoreboard players set $Damage Global 40000
 execute if score @s ModeSkill matches 31023 run scoreboard players set $Damage Global 50000
 execute if score @s ModeSkill matches 31024 run scoreboard players set $Damage Global 60000
 
-function calc_manager:apply_damage_modifier
+function skill_manager:damage_modifier/apply
 
 scoreboard players operation @e[distance=..5,type=minecraft:arrow,tag=!Initialized,sort=nearest,limit=1] ProjectileSkill = @s ModeSkill
 scoreboard players operation @e[distance=..5,type=minecraft:arrow,tag=!Initialized,sort=nearest,limit=1] SkillAttribute = $Damage Global

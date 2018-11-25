@@ -3,7 +3,7 @@
 ##############################
 
 scoreboard players set $Damage Global 420000
-function calc_manager:apply_damage_modifier
+function skill_manager:damage_modifier/apply
 
 ###ダメージ判定
 scoreboard players operation @s[tag=!Vehicle] Damage > $Damage Global

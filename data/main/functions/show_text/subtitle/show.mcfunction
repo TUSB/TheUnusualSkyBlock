@@ -3,8 +3,8 @@
 ##############################
 
 scoreboard players operation $Width Global = $TextLength Global
-scoreboard players operation $Width Global /= $5 Const
-execute if score $Width Global matches 1.. run scoreboard players remove $Width Global 1
+scoreboard players operation $Width Global /= $6 Const
+# execute if score $Width Global matches 1.. run scoreboard players remove $Width Global 1
 
 execute if score @s TitleOffset matches ..-1 run scoreboard players operation $Width Global *= $-1 Const
 execute if score @s TitleOffset matches ..-1 run scoreboard players operation $Width Global > @s TitleOffset

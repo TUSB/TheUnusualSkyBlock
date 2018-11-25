@@ -12,7 +12,7 @@ execute rotated ~60 -30 run tp @e[tag=Initializing,limit=1] ~ ~0.8 ~ ~ ~
 ###ダメージ設定
 execute if score @s ModeSkill matches 11071 run scoreboard players set $Damage Global 850000
 execute if score @s ModeSkill matches 11072 run scoreboard players set $Damage Global 1200000
-function calc_manager:apply_damage_modifier
+function skill_manager:damage_modifier/apply
 scoreboard players operation @e[tag=Initializing,limit=1] SkillAttribute = $Damage Global
 
 ###初期化タグ削除

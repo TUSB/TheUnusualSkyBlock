@@ -16,7 +16,7 @@ execute as @e[tag=Initializing,limit=1] at @s run function calc_manager:set/moti
 scoreboard players operation @e[tag=Initializing,limit=1] ProjectileSkill = @s ModeSkill
 execute if score @s ModeSkill matches 61081 run scoreboard players set $Damage Global 35400
 execute if score @s ModeSkill matches 61082 run scoreboard players set $Damage Global 176000
-function calc_manager:apply_damage_modifier
+function skill_manager:damage_modifier/apply
 scoreboard players operation @e[tag=Initializing,limit=1] SkillAttribute = $Damage Global
 ###初期化タグ削除
 tag @e[tag=Initializing,limit=1] remove Initializing

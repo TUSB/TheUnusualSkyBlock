@@ -17,7 +17,7 @@ execute if score @s ModeSkill matches 21041 if score @s Issen matches 20.. at @s
 execute if score @s ModeSkill matches 21042 if score @s Issen matches 20.. at @s run scoreboard players set $Damage Global 400000
 execute if score @s ModeSkill matches 21043 if score @s Issen matches 20.. at @s run scoreboard players set $Damage Global 1250000
 execute if score @s ModeSkill matches 21044 if score @s Issen matches 20.. at @s run scoreboard players set $Damage Global 2000000
-function calc_manager:apply_damage_modifier
+function skill_manager:damage_modifier/apply
 execute if score @s Issen matches 20.. at @s run scoreboard players operation @e[distance=..2.5,tag=Mob] Damage > $Damage Global
 ###近接被ダメ回避
 execute if score @s Issen matches 20.. at @s run effect give @e[distance=..2.5,tag=Mob] minecraft:weakness 1 127 true

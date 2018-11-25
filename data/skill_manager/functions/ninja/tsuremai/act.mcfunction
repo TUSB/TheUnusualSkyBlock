@@ -67,7 +67,7 @@ execute if score @s ModeSkill matches 21031 run scoreboard players operation $Da
 execute if score @s ModeSkill matches 21032 run scoreboard players operation $Damage Global *= $5 Const
 execute if score @s ModeSkill matches 21033 run scoreboard players operation $Damage Global *= $8 Const
 execute if score @s ModeSkill matches 21034 run scoreboard players operation $Damage Global *= $17 Const
-function calc_manager:apply_damage_modifier
+function skill_manager:damage_modifier/apply
 
 ###ダメージ付与
 scoreboard players operation @e[tag=MeleeTarget,limit=1] Damage = $Damage Global

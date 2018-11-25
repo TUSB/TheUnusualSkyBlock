@@ -22,6 +22,6 @@ execute if score @s ModeSkill matches 21012 run scoreboard players set $Damage G
 execute if score @s ModeSkill matches 21013 run scoreboard players set $Damage Global 36000
 execute if score @s ModeSkill matches 21014 run scoreboard players set $Damage Global 110000
 execute if score @s ModeSkill matches 21015 run scoreboard players set $Damage Global 220000
-function calc_manager:apply_damage_modifier
+function skill_manager:damage_modifier/apply
 
 execute positioned ~ ~1.52 ~ run scoreboard players operation @e[distance=..5,type=minecraft:snowball,tag=!Initialized,sort=nearest,limit=1] SkillAttribute = $Damage Global

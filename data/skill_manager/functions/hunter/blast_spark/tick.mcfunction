@@ -21,7 +21,7 @@ execute as @e[tag=Initializing,limit=1] at @s run function calc_manager:set/moti
 execute if score @s ModeSkill matches 31051 run scoreboard players set $Damage Global 40000
 execute if score @s ModeSkill matches 31052 run scoreboard players set $Damage Global 120000
 execute if score @s ModeSkill matches 31053 run scoreboard players set $Damage Global 280000
-function calc_manager:apply_damage_modifier
+function skill_manager:damage_modifier/apply
 
 scoreboard players operation @e[tag=Initializing,limit=1] SkillAttribute = $Damage Global
 

@@ -5,7 +5,7 @@
 execute if score @s ModeSkill matches 61031 run scoreboard players set $Damage Global 100000
 execute if score @s ModeSkill matches 61032 run scoreboard players set $Damage Global 260000
 execute if score @s ModeSkill matches 61033 run scoreboard players set $Damage Global 1640000
-function calc_manager:apply_damage_modifier
+function skill_manager:damage_modifier/apply
 
 execute as @e[distance=..30,tag=Mob] at @s if block ~ ~-1 ~ minecraft:white_wool run scoreboard players operation @s Damage > $Damage Global
 

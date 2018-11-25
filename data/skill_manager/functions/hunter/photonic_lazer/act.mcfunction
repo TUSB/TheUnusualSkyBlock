@@ -32,7 +32,7 @@ summon minecraft:area_effect_cloud ^ ^ ^50 {Radius:0f,RadiusPerTick:0f,RadiusOnU
 
 execute if score @s ModeSkill matches 31071 run scoreboard players set $Damage Global 820000
 execute if score @s ModeSkill matches 31072 run scoreboard players set $Damage Global 1200000
-function calc_manager:apply_damage_modifier
+function skill_manager:damage_modifier/apply
 
 scoreboard players operation @e[tag=Initializing] SkillAttribute = $Damage Global
 execute facing ^ ^ ^1 as @e[tag=Initializing] positioned as @s run tp @s ~ ~1.52 ~ ~ ~

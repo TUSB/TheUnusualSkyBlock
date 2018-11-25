@@ -14,6 +14,6 @@ effect give @s minecraft:weakness 30 200
 tp @s ~ ~-2 ~
 data merge entity @s {HandItems:[],Motion:[0d,1.5d,0d]}
 scoreboard players set $Damage Global 1400000
-function calc_manager:apply_damage_modifier
+function skill_manager:damage_modifier/apply
 scoreboard players operation @s Damage > $Damage Global
 effect give @s minecraft:slow_falling 1 0

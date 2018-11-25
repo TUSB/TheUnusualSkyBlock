@@ -20,7 +20,7 @@ execute if score @s ModeSkill matches 11012 run scoreboard players operation $Da
 execute if score @s ModeSkill matches 11013 run scoreboard players operation $Damage Global *= $13 Const
 execute if score @s ModeSkill matches 11014 run scoreboard players operation $Damage Global *= $20 Const
 execute if score @s ModeSkill matches 11015 run scoreboard players operation $Damage Global *= $35 Const
-function calc_manager:apply_damage_modifier
+function skill_manager:damage_modifier/apply
 
 ###ダメージ付与
 execute positioned ^ ^ ^5 run scoreboard players operation @e[distance=..6,tag=Mob] Damage = $Damage Global

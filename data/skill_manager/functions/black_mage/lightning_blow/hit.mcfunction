@@ -3,7 +3,7 @@
 ##############################
 
 scoreboard players operation $Damage Global = @s LightningBlow
-function calc_manager:apply_damage_modifier
+function skill_manager:damage_modifier/apply
 scoreboard players reset @s LightningBlow
 
 function calc_manager:target/melee/catch

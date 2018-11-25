@@ -26,7 +26,7 @@ execute if score @s ModeSkill matches 11041 run scoreboard players set $Damage G
 execute if score @s ModeSkill matches 11042 run scoreboard players set $Damage Global 80000
 execute if score @s ModeSkill matches 11043 run scoreboard players set $Damage Global 145000
 execute if score @s ModeSkill matches 11044 run scoreboard players set $Damage Global 630000
-function calc_manager:apply_damage_modifier
+function skill_manager:damage_modifier/apply
 scoreboard players operation @e[tag=Initializing,limit=1] SkillAttribute = $Damage Global
 
 ###エンティティ切り離し
