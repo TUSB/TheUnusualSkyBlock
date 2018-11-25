@@ -79,6 +79,14 @@ scoreboard objectives add SubBlackMage dummy {"text":"黒魔導士のサブレ�
 scoreboard objectives add SubSummoner dummy {"text":"召喚士のサブレベル"}
 scoreboard objectives add SubPupMaster dummy {"text":"絡繰士のサブレベル"}
 scoreboard objectives add Aura dummy {"text":"オーラ残りミリ秒"}
+scoreboard objectives add Exp dummy {"text":"ジョブ経験値"}
+scoreboard objectives add ExpKnight dummy {"text":"ジョブ経験値剣士"}
+scoreboard objectives add ExpNinja dummy {"text":"ジョブ経験値忍者"}
+scoreboard objectives add ExpHunter dummy {"text":"ジョブ経験値狩人"}
+scoreboard objectives add ExpWhiteMage dummy {"text":"ジョブ経験値白魔導士"}
+scoreboard objectives add ExpBlackMage dummy {"text":"ジョブ経験値黒魔導士"}
+scoreboard objectives add ExpSummoner dummy {"text":"ジョブ経験値召喚士"}
+scoreboard objectives add ExpPupMaster dummy {"text":"ジョブ経験値絡繰士"}
 ###設定されたスキル
 scoreboard objectives add Cost dummy {"text":"MPコスト一覧"}
 scoreboard objectives add Interval dummy {"text":"スキル使用不能時間一覧"}
