@@ -9,6 +9,7 @@ execute as @e[tag=Projectile,tag=!WindWallTornado,distance=..3] at @s run functi
 scoreboard players remove @s WindWall 1
 scoreboard players reset @s[scores={WindWall=..0}] WindWall
 scoreboard players reset @s[scores={WindWall=9000..10000}] WindWall
+execute unless score @s WindWall matches 0.. run tellraw @s [{"text":"","color":"yellow"},{"selector":"@s"},"の",{"text":"ウィンドウォール","color":"white","hoverEvent":{"action":"show_text","value":"周囲の飛翔物を妨げる風を生み出す。","color":"white"}},"の効果が切れた。"]
 
 ###---演出---Start
 particle minecraft:sweep_attack ~ ~0.2 ~ 0 0.2 0 2 2 force
