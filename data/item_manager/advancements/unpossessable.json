@@ -1,0 +1,29 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:command_block"
+        },
+        "title": "不思議なアイテムだ",
+        "description": "今にも消えてしまいそう",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "unpossessable": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "nbt": "{Unpossessable:true}"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        ["unpossessable"]
+    ],
+    "rewards": {
+        "function": "item_manager:unpossessable"
+    }
+}
