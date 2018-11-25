@@ -168,6 +168,7 @@ scoreboard objectives add EclipseRadius dummy {"text":"エクリプスフレイ�
 scoreboard objectives add SleepgaTime dummy {"text":"スリプガ残り秒数"}
 scoreboard objectives add DarkSwamp dummy {"text":"ダークスワンプ回数"}
 scoreboard objectives add ManaRefresh dummy {"text":"マナリフレッシュ残りミリ秒＆レベル"}
+scoreboard objectives add WindWall dummy {"text":"ウィンドウォール残りtick＆レベル"}
 scoreboard objectives add LightningBlow dummy {"text":"ライトニングブロー威力"}
 scoreboard objectives add RockNRoll dummy {"text":"ロックンロール残り推定時間"}
 scoreboard objectives add FillSize dummy {"text":"フィールサイズ"}
