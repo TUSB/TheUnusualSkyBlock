@@ -32,4 +32,4 @@ execute if score @s Job matches 5 rotated as 0-0-FF-0-FF run function skill_mana
 execute if score @s Job matches 6 rotated as 0-0-FF-0-FF run function skill_manager:aura/decorate/summoner
 execute if score @s Job matches 7 rotated as 0-0-FF-0-FF run function skill_manager:aura/decorate/puppet_master
 
-scoreboard players reset @s[scores={Aura=..0}] Aura
+execute if score @s Aura matches ..0 run function skill_manager:aura/finish
