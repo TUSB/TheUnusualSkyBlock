@@ -23,15 +23,15 @@ scoreboard players operation @s SubLevel = @s Level
 scoreboard players remove @s SubLevel 50
 scoreboard players operation @s SubLevel /= $2 Const
 
-scoreboard players operation @s Level < $50 Const
+scoreboard players operation @s Level < $100 Const
 scoreboard players operation @s Level > $0 Const
 scoreboard players operation @s SubLevel < $25 Const
 scoreboard players operation @s SubLevel > $0 Const
 
-scoreboard players operation @s LevelKnight < $50 Const
-scoreboard players operation @s LevelNinja < $50 Const
-scoreboard players operation @s LevelHunter < $50 Const
-scoreboard players operation @s LevelWhiteMage < $50 Const
-scoreboard players operation @s LevelBlackMage < $50 Const
-scoreboard players operation @s LevelSummoner < $50 Const
-scoreboard players operation @s LevelPupMaster < $50 Const
+scoreboard players operation @s LevelKnight < $100 Const
+scoreboard players operation @s LevelNinja < $100 Const
+scoreboard players operation @s LevelHunter < $100 Const
+scoreboard players operation @s LevelWhiteMage < $100 Const
+scoreboard players operation @s LevelBlackMage < $100 Const
+scoreboard players operation @s LevelSummoner < $100 Const
+scoreboard players operation @s LevelPupMaster < $100 Const
