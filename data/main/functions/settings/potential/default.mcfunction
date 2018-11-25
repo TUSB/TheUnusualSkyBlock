@@ -11,3 +11,5 @@ scoreboard players set @s ResistMin 0
 scoreboard players set @s AuraRate 100
 scoreboard players set @s IntervalRate 100
 scoreboard players set @s MPCostRate 100
+
+function main:settings/potential/save
