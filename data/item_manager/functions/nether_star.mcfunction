@@ -5,8 +5,8 @@
 execute store result score $StarCount Global run clear @s minecraft:nether_star
 scoreboard players operation プール Exp += $StarCount Global
 
-execute store result score $PlayerCount Global if entity @e[team=Friendly]
-# execute store result score $PlayerCount Global if entity @a
+# execute store result score $PlayerCount Global if entity @e[team=Friendly]
+execute store result score $PlayerCount Global if entity @a
 scoreboard players operation $Input Global = $PlayerCount Global
 function calc_manager:square_root/value
 
