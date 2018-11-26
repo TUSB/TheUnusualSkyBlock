@@ -4,7 +4,7 @@
 
 ###投射物迎撃処理
 execute if entity @e[tag=Projectile,tag=!WindWallTornado,distance=..3,limit=1] run scoreboard players operation $WindWall Global = @s WindWall
-execute as @e[tag=Projectile,tag=!WindWallTornado,distance=..3] at @s run function skill_manager:black_mage/wind_wall/block
+execute as @e[tag=Projectile,tag=!WindWallTornado,distance=..3] unless entity @s[scores={SkillAttribute=1..}] at @s run function skill_manager:black_mage/wind_wall/block
 
 scoreboard players remove @s WindWall 1
 scoreboard players reset @s[scores={WindWall=..0}] WindWall
