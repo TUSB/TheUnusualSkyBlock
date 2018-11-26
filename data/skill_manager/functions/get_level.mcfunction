@@ -3,6 +3,7 @@
 ##############################
 
 scoreboard players operation @s ChangeLevel = @s SubLevel
+execute if score $QuestCompleted Settings matches 1 run scoreboard players operation @s ChangeLevel *= $2 Const
 execute if score $TargetSkillJob Global matches 1 run scoreboard players operation @s ChangeLevel < @s LevelKnight
 execute if score $TargetSkillJob Global matches 2 run scoreboard players operation @s ChangeLevel < @s LevelNinja
 execute if score $TargetSkillJob Global matches 3 run scoreboard players operation @s ChangeLevel < @s LevelHunter
