@@ -3,14 +3,30 @@
 ##############################
 
 scoreboard players set @s MPMax 100
-scoreboard players operation @s MPMax += @s Level
-scoreboard players operation @s MPMax += @s LevelKnight
-scoreboard players operation @s MPMax += @s LevelNinja
-scoreboard players operation @s MPMax += @s LevelHunter
-scoreboard players operation @s MPMax += @s LevelWhiteMage
-scoreboard players operation @s MPMax += @s LevelBlackMage
-scoreboard players operation @s MPMax += @s LevelSummoner
-scoreboard players operation @s MPMax += @s LevelPupMaster
+scoreboard players operation $Level Global = @s Level
+scoreboard players operation $Level Global < $50 Const
+scoreboard players operation @s MPMax += $Level Global
+scoreboard players operation $Level Global += @s LevelKnight
+scoreboard players operation $Level Global < $50 Const
+scoreboard players operation @s MPMax += $Level Global
+scoreboard players operation $Level Global += @s LevelNinja
+scoreboard players operation $Level Global < $50 Const
+scoreboard players operation @s MPMax += $Level Global
+scoreboard players operation $Level Global += @s LevelHunter
+scoreboard players operation $Level Global < $50 Const
+scoreboard players operation @s MPMax += $Level Global
+scoreboard players operation $Level Global += @s LevelWhiteMage
+scoreboard players operation $Level Global < $50 Const
+scoreboard players operation @s MPMax += $Level Global
+scoreboard players operation $Level Global += @s LevelBlackMage
+scoreboard players operation $Level Global < $50 Const
+scoreboard players operation @s MPMax += $Level Global
+scoreboard players operation $Level Global += @s LevelSummoner
+scoreboard players operation $Level Global < $50 Const
+scoreboard players operation @s MPMax += $Level Global
+scoreboard players operation $Level Global += @s LevelPupMaster
+scoreboard players operation $Level Global < $50 Const
+scoreboard players operation @s MPMax += $Level Global
 
 effect clear @s minecraft:health_boost
 execute if score @s MPMax matches 60.. run effect give @s minecraft:health_boost 1000000 0 true
