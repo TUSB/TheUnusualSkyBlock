@@ -4,6 +4,11 @@
 
 ###フィールサイズ
 scoreboard players enable @s SetFillSize
+
+execute if score @s ShowSkillNo matches 61011 run scoreboard players operation @s FillSize < $3 Const
+execute if score @s ShowSkillNo matches 61012 run scoreboard players operation @s FillSize < $4 Const
+execute if score @s ShowSkillNo matches 61013 run scoreboard players operation @s FillSize < $5 Const
+
 tellraw @s[scores={ShowSkillNo=61011,FillSize=..1}] ["",{"text":"サイズ変更","color":"white","bold":true}," ",{"text":"1x1","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/trigger SetFillSize set 1"}}," ",{"text":"3x3","color":"white","bold":true,"clickEvent":{"action":"run_command","value":"/trigger SetFillSize set 2"}}," ",{"text":"5x5","color":"white","bold":true,"clickEvent":{"action":"run_command","value":"/trigger SetFillSize set 3"}}]
 tellraw @s[scores={ShowSkillNo=61011,FillSize=2}] ["",{"text":"サイズ変更","color":"white","bold":true}," ",{"text":"1x1","color":"white","bold":true,"clickEvent":{"action":"run_command","value":"/trigger SetFillSize set 1"}}," ",{"text":"3x3","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/trigger SetFillSize set 2"}}," ",{"text":"5x5","color":"white","bold":true,"clickEvent":{"action":"run_command","value":"/trigger SetFillSize set 3"}}]
 tellraw @s[scores={ShowSkillNo=61011,FillSize=3..}] ["",{"text":"サイズ変更","color":"white","bold":true}," ",{"text":"1x1","color":"white","bold":true,"clickEvent":{"action":"run_command","value":"/trigger SetFillSize set 1"}}," ",{"text":"3x3","color":"white","bold":true,"clickEvent":{"action":"run_command","value":"/trigger SetFillSize set 2"}}," ",{"text":"5x5","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/trigger SetFillSize set 3"}}]
