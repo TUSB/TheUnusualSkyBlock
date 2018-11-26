@@ -32,6 +32,6 @@ scoreboard players operation $CurrentLevel Global < $50 Const
 
 scoreboard players operation $PreviousLevel Global < $50 Const
 
-execute if score $CurrentLevel Global matches ..49 run tellraw @a ["",{"selector":"@s"}," は レベルアップ した！！ LV: ",{"score":{"name":"$PreviousLevel","objective":"Global"},"color":"green"}," → ",{"score":{"name":"$CurrentLevel","objective":"Global"},"color":"green"}]
-execute if score $CurrentLevel Global matches 50.. if score $PreviousCP Global matches ..49 run tellraw @a ["",{"selector":"@s"}," は レベルアップ した！！ LV: ",{"score":{"name":"$PreviousLevel","objective":"Global"},"color":"green"}," → ",{"score":{"name":"$CurrentLevel","objective":"Global"},"color":"green"}," CP: ",{"score":{"name":"$PreviousCP","objective":"Global"},"color":"green"}," → ",{"score":{"name":"$CurrentCP","objective":"Global"},"color":"green"}]
+execute if score $CurrentLevel Global matches ..49 run tellraw @a ["",{"selector":"@s"}," はレベルアップした！！ LV: ",{"score":{"name":"$PreviousLevel","objective":"Global"},"color":"green"}," → ",{"score":{"name":"$CurrentLevel","objective":"Global"},"color":"green"}]
+execute if score $CurrentLevel Global matches 50.. if score $PreviousCP Global matches ..49 run tellraw @a ["",{"selector":"@s"}," はレベルアップした！！ LV: ",{"score":{"name":"$PreviousLevel","objective":"Global"},"color":"green"}," → ",{"score":{"name":"$CurrentLevel","objective":"Global"},"color":"green"}," CP: ",{"score":{"name":"$PreviousCP","objective":"Global"},"color":"green"}," → ",{"score":{"name":"$CurrentCP","objective":"Global"},"color":"green"}]
 execute if score $CurrentCP Global matches 50.. run tellraw @a ["",{"selector":"@s"}," のレベルはこれ以上あがらない。"]

@@ -191,7 +191,7 @@ execute as @a unless score @s ChangeSettings matches 0 run function main:setting
 ###TIPS抑制
 execute as @a unless score @s TipsSupTrigger matches 0 run function main:tips/suppress
 ###潜在能力
-execute as @a unless score @s PotentialTrigger matches 0 run function main:settings/potential/triggered
+execute as @a unless score @s PotentialTrigger matches 0 at @s run function main:settings/potential/triggered
 ##################################################     スキル表示・設定変更の壁     ##################################################
 
 execute as @a[nbt={Inventory:[{id:"minecraft:nether_star"}]}] at @s run function item_manager:nether_star

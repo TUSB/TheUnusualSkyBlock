@@ -10,6 +10,7 @@ scoreboard players operation $Potential1 Global *= $51 Const
 
 scoreboard players set $OnePotential Global 100
 scoreboard players operation $OnePotential Global -= @s IntervalRate
+scoreboard players operation $OnePotential Global /= $2 Const
 scoreboard players operation $Potential1 Global += $OnePotential Global
 scoreboard players operation $Potential1 Global *= $51 Const
 

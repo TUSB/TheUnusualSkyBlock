@@ -20,9 +20,12 @@ execute if score @s PotentialTrigger matches 121 if score $LeftPoint Global matc
 execute if score @s PotentialTrigger matches 122 if score $LeftPoint Global matches 0.. run function main:settings/potential/sublevel/set
 
 execute if score @s PotentialTrigger matches 131 if score $LeftPoint Global matches 0.. run function main:settings/potential/level/set
-execute if score @s PotentialTrigger matches 132 if score $LeftPoint Global matches 0.. run function main:settings/potential/reset/set
 
-execute if score $LeftPoint Global matches 0.. unless score @s PotentialTrigger matches 131..132 if score @s PotentialTrigger = @s PotentialPrev run function main:settings/potential/common/success
-execute if score $LeftPoint Global matches 0.. unless score @s PotentialTrigger matches 131..132 unless score @s PotentialTrigger = @s PotentialPrev run function main:settings/potential/common/sequence
-execute if score $LeftPoint Global matches ..-1 unless score @s PotentialTrigger matches 131..132 run function main:settings/potential/common/lack
-execute if score @s PotentialTrigger matches 131..132 run function main:settings/potential/common/consume
+execute if score $LeftPoint Global matches 0.. unless score @s PotentialTrigger matches 131..199 if score @s PotentialTrigger = @s PotentialPrev run function main:settings/potential/common/success
+execute if score $LeftPoint Global matches 0.. unless score @s PotentialTrigger matches 131..199 unless score @s PotentialTrigger = @s PotentialPrev run function main:settings/potential/common/sequence
+execute if score @s PotentialTrigger matches 199 run function main:settings/potential/common/cancel
+execute if score @s PotentialTrigger matches 131 run function main:settings/potential/common/consume
+execute if score $LeftPoint Global matches ..-1 unless score @s PotentialTrigger matches 131..199 run function main:settings/potential/common/lack
+
+execute if score @s PotentialTrigger matches 132 if score $CurrentPoint Global matches ..0 run function main:settings/potential/reset/unnecessary
+execute if score @s PotentialTrigger matches 132 if score $CurrentPoint Global matches 1.. run function main:settings/potential/reset/set

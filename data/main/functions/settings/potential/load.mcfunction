@@ -50,6 +50,7 @@ scoreboard players add @s CritProbability 10
 
 scoreboard players add @s AuraRate 100
 
+scoreboard players operation @s IntervalRate *= $2 Const
 scoreboard players remove @s IntervalRate 100
 scoreboard players operation @s IntervalRate *= $-1 Const
 

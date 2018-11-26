@@ -22,3 +22,7 @@ execute if score @s PotentialTrigger matches 100..199 run scoreboard players ope
 ### トリガーリセット
 scoreboard players reset @s PotentialTrigger
 scoreboard players enable @s PotentialTrigger
+
+###---演出---Start
+playsound minecraft:block.note_block.xylophone master @s ~ ~ ~ 1 2
+###---演出---End

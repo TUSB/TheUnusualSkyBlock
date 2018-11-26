@@ -1,5 +1,5 @@
 ##############################
-### 潜在能力が引き出された！！
+### キャパシティポイントリセット不必要
 ##############################
 
 tellraw @s [""]
@@ -12,13 +12,7 @@ tellraw @s [""]
 tellraw @s [""]
 tellraw @s [""]
 tellraw @s [""]
-tellraw @s ["",{"text":" キャパシティポイントを消費した！！","color":"green"}]
-
-function main:settings/potential/save
-
-###---演出---Start
-playsound minecraft:block.beacon.deactivate master @s ~ ~ ~ 1 2
-###---演出---End
+tellraw @s ["",{"text":" 潜在能力は既に解除されています。","color":"green"}]
 
 ### キャンセル扱いにする
 scoreboard players set @s PotentialTrigger 199
