@@ -3,10 +3,11 @@
 ##############################
 
 execute store result score $PlayerCount Global if entity @a[distance=..32]
-execute if score $PlayerCount Global matches 1..2 run scoreboard players remove @s Aura 50
-execute if score $PlayerCount Global matches 3..5 run scoreboard players remove @s Aura 100
-execute if score $PlayerCount Global matches 6..9 run scoreboard players remove @s Aura 150
-execute if score $PlayerCount Global matches 10.. run scoreboard players remove @s Aura 200
+execute if score $PlayerCount Global matches 1 run scoreboard players remove @s Aura 50
+execute if score $PlayerCount Global matches 2..3 run scoreboard players remove @s Aura 60
+execute if score $PlayerCount Global matches 4..6 run scoreboard players remove @s Aura 70
+execute if score $PlayerCount Global matches 7..10 run scoreboard players remove @s Aura 85
+execute if score $PlayerCount Global matches 11.. run scoreboard players remove @s Aura 100
 
 ###無敵
 execute if score @s Job matches 1 run effect give @a[distance=..32] minecraft:resistance 1 127

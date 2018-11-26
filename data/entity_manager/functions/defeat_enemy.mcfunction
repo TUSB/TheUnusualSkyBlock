@@ -3,7 +3,7 @@
 ##############################
 
 ###バーストスコア設定
-scoreboard players add バースト MP 10000
+scoreboard players add バースト MP 15000
 execute if score バースト MP matches 100000.. run team modify Burst color gold
 
 ###回復スコア設定
