@@ -39,6 +39,7 @@ scoreboard objectives add TipsSupTrigger trigger {"text":"TIPS抑制トリガー
 scoreboard objectives add TitleOffset dummy {"text":"タイトル表示オフセット"}
 scoreboard objectives add PotentialTrigger trigger {"text":"潜在能力変更トリガー"}
 scoreboard objectives add PotentialPrev trigger {"text":"潜在能力変更前回トリガー"}
+scoreboard objectives add ParticleDenom dummy {"text":"パーティクル表示割合"}
 ###変数や定数、カウンタ
 scoreboard objectives add Global dummy {"text":"グローバル変数"}
 scoreboard objectives add DecrementTimer dummy {"text":"減少カウンタ"}
@@ -598,6 +599,7 @@ scoreboard players set $8201 Interval 0
 ###イベントタイマー初期化
 scoreboard players set $Second Global 0
 scoreboard players set $EventTimer Count 100
+scoreboard players set $ParticleTimer DecrementTimer 0
 ###乱数初期化
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,WaitTime:1,ReapplicationDelay:0,Duration:0,Tags:[Initialized]}
 execute store result score $RndMWC Global run data get entity @e[distance=..1,type=minecraft:area_effect_cloud,limit=1] UUIDMost 0.0000000001

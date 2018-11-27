@@ -4,6 +4,8 @@
 
 ###デクリメンタ(set/operation=以外禁止)
 scoreboard players remove * DecrementTimer 1
+###パーティクル表示判定
+function main:particle/update_tag
 ##################################################     毎tick非ワールド依存処理の壁     ##################################################
 ###敵被ダメ時処理(ここ以外HurtTime使用禁止)
 execute as @e[tag=Mob,nbt={HurtTime:10s}] at @s run function enemy_manager:on_damaged
