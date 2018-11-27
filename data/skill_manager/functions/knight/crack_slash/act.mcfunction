@@ -4,7 +4,7 @@
 
 ###---演出---Start
 playsound minecraft:entity.lightning_bolt.impact master @a[distance=..16] ~ ~ ~ 2 0.5
-execute rotated ~ 0 positioned ^ ^ ^0.3 run particle minecraft:dust 1 1 0 0.5 ~ ~1 ~ 0.2 1 0.2 0 200 force
+execute rotated ~ 0 positioned ^ ^ ^0.3 run particle minecraft:dust 1 1 0 0.5 ~ ~1 ~ 0.2 1 0.2 0 200 force @a[tag=ShowParticles]
 ###---演出---End
 
 ###弾召喚
@@ -29,5 +29,5 @@ scoreboard players operation @e[tag=Initializing,limit=1] SkillAttribute = $Dama
 tag @e[tag=Initializing,limit=1] remove Initializing
 
 ###---演出---Start
-execute rotated ~ 0 positioned ^ ^ ^2 run particle item minecraft:black_terracotta ~ ~0.3 ~ 0.8 0 0.8 0.15 100 force
+execute rotated ~ 0 positioned ^ ^ ^2 run particle item minecraft:black_terracotta ~ ~0.3 ~ 0.8 0 0.8 0.15 100 force @a[tag=ShowParticles]
 ###---演出---End

@@ -8,7 +8,7 @@ execute as @e[tag=RockNRoll] if score @s ID = $ID Global run function skill_mana
 
 ###---演出---Start
 execute if entity @e[distance=..6,tag=RockNRoll,limit=1] run playsound minecraft:block.stone.step master @a[distance=..16] ~ ~ ~ 1.5 0.5
-execute at @e[distance=..6,tag=RockNRoll] anchored eyes run particle minecraft:item minecraft:granite ^ ^ ^-0.2 0.1 0.2 0.2 0.05 2 force
+execute at @e[distance=..6,tag=RockNRoll] anchored eyes run particle minecraft:item minecraft:granite ^ ^ ^-0.2 0.1 0.2 0.2 0.05 2 force @a[tag=ShowParticles]
 ###---演出---End
 
 scoreboard players remove @s RockNRoll 1

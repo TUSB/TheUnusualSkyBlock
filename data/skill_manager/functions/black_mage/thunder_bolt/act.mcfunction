@@ -8,8 +8,8 @@ execute if score @s ModeSkill matches 51033 as @e[distance=2..13,tag=Mob] positi
 execute if score @s ModeSkill matches 51034 as @e[distance=2..13,tag=Mob] positioned ~-4 ~2 ~-4 if entity @s[dx=7,dy=10,dz=7] at @s run scoreboard players add @s Damage 5500
 
 ###---演出---Start
-execute as @e[distance=2..13,tag=Mob] positioned ~-4 ~2 ~-4 if entity @s[dx=7,dy=10,dz=7] at @s run particle minecraft:dust 1 1 0 1.5 ~ ~10 ~ 0.15 5 0.15 0 100 force
-execute as @e[distance=2..13,tag=Mob] positioned ~-4 ~2 ~-4 if entity @s[dx=7,dy=10,dz=7] at @s run particle minecraft:end_rod ~ ~10 ~ 0.15 5 0.15 0 15 force
-execute as @e[distance=2..13,tag=Mob] positioned ~-4 ~2 ~-4 if entity @s[dx=7,dy=10,dz=7] at @s run particle minecraft:item minecraft:horn_coral_block ~ ~ ~ 0 0 0 0.3 50 force
+execute as @e[distance=2..13,tag=Mob] positioned ~-4 ~2 ~-4 if entity @s[dx=7,dy=10,dz=7] at @s run particle minecraft:dust 1 1 0 1.5 ~ ~10 ~ 0.15 5 0.15 0 100 force @a[tag=ShowParticles]
+execute as @e[distance=2..13,tag=Mob] positioned ~-4 ~2 ~-4 if entity @s[dx=7,dy=10,dz=7] at @s run particle minecraft:end_rod ~ ~10 ~ 0.15 5 0.15 0 15 force @a[tag=ShowParticles]
+execute as @e[distance=2..13,tag=Mob] positioned ~-4 ~2 ~-4 if entity @s[dx=7,dy=10,dz=7] at @s run particle minecraft:item minecraft:horn_coral_block ~ ~ ~ 0 0 0 0.3 50 force @a[tag=ShowParticles]
 playsound minecraft:entity.lightning_bolt.thunder master @a[distance=..16] ~ ~ ~ 2 2
 ###---演出---End

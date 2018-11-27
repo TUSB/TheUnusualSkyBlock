@@ -17,6 +17,6 @@ execute if score @s RaderVision matches 2 run function skill_manager:hunter/rade
 execute if score @s RaderVision matches 0 run function skill_manager:hunter/rader_vision/return
 
 ###---演出---Start
-particle minecraft:end_rod ~ ~1 ~ 0.1 0.1 0.1 0 2 force
+particle minecraft:end_rod ~ ~1 ~ 0.1 0.1 0.1 0 2 force @a[tag=ShowParticles]
 playsound minecraft:block.beacon.ambient master @s ~ ~ ~ 0.5 2
 ###---演出---End

@@ -13,12 +13,12 @@ execute positioned ~ ~-10 ~ run scoreboard players operation @e[dy=19,tag=Mob] D
 execute positioned ~ ~ ~-10 run scoreboard players operation @e[dz=19,tag=Mob] Damage > $Damage Global
 
 ###---演出---Start
-particle minecraft:flame ~ ~ ~ 10 0.1 0.1 0 10 force
-particle minecraft:flame ~ ~ ~ 0.1 10 0.1 0 10 force
-particle minecraft:flame ~ ~ ~ 0.1 0.1 10 0 10 force
-particle minecraft:flame ~ ~ ~ 2 0 0 0 5 force
-particle minecraft:flame ~ ~ ~ 0 2 0 0 5 force
-particle minecraft:flame ~ ~ ~ 0 0 2 0 5 force
-particle dust 100000000 2 0 3.5 ^ ^ ^1 0 0 0 1 1 force
+particle minecraft:flame ~ ~ ~ 10 0.1 0.1 0 10 force @a[tag=ShowParticles]
+particle minecraft:flame ~ ~ ~ 0.1 10 0.1 0 10 force @a[tag=ShowParticles]
+particle minecraft:flame ~ ~ ~ 0.1 0.1 10 0 10 force @a[tag=ShowParticles]
+particle minecraft:flame ~ ~ ~ 2 0 0 0 5 force @a[tag=ShowParticles]
+particle minecraft:flame ~ ~ ~ 0 2 0 0 5 force @a[tag=ShowParticles]
+particle minecraft:flame ~ ~ ~ 0 0 2 0 5 force @a[tag=ShowParticles]
+particle dust 100000000 2 0 3.5 ^ ^ ^1 0 0 0 1 1 force @a[tag=ShowParticles]
 execute as @a[distance=..48] run playsound minecraft:entity.blaze.shoot master @s ~ ~ ~ 0.5 1.414 0.2
 ###---演出---End

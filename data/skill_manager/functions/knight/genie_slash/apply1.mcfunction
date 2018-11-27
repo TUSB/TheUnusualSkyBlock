@@ -4,7 +4,7 @@
 
 ###---演出---Start
 playsound item.trident.riptide_3 master @a[distance=..16] ~ ~ ~ 0.7 0.9
-particle minecraft:sweep_attack ~ ~1 ~ 0 0 0 5 2 force
+particle minecraft:sweep_attack ~ ~1 ~ 0 0 0 5 2 force @a[tag=ShowParticles]
 particle minecraft:lava ~ ~1 ~ 0.2 1 0.2 0 30
 ###---演出---End
 

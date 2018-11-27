@@ -16,6 +16,6 @@ scoreboard players operation $Heal Global /= $10 Const
 scoreboard players operation @s HealthHealing += $Heal Global
 
 ###---演出---Start
-particle minecraft:heart ~ ~1 ~ 0.2 1 0.2 0 20 force
+particle minecraft:heart ~ ~1 ~ 0.2 1 0.2 0 20 force @a[tag=ShowParticles]
 playsound minecraft:entity.player.levelup master @a[distance=..16] ~ ~ ~ 1 2
 ###---演出---End

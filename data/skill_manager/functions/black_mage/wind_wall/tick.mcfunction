@@ -12,6 +12,6 @@ scoreboard players reset @s[scores={WindWall=9000..10000}] WindWall
 execute unless score @s WindWall matches 0.. run tellraw @s [{"text":"","color":"yellow"},{"selector":"@s"},"の",{"text":"ウィンドウォール","color":"white","hoverEvent":{"action":"show_text","value":"周囲の飛翔物を妨げる風を生み出す。","color":"white"}},"の効果が切れた。"]
 
 ###---演出---Start
-particle minecraft:sweep_attack ~ ~0.2 ~ 0 0.2 0 2 2 force
-particle minecraft:totem_of_undying ~ ~0.8 ~ 1 0.5 1 0.2 2 force
+particle minecraft:sweep_attack ~ ~0.2 ~ 0 0.2 0 2 2 force @a[tag=ShowParticles]
+particle minecraft:totem_of_undying ~ ~0.8 ~ 1 0.5 1 0.2 2 force @a[tag=ShowParticles]
 ###---演出---End

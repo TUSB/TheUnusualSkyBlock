@@ -45,7 +45,7 @@ scoreboard players remove @a ChangeSkillLimit 1
 scoreboard players reset @a[scores={Choyaku=0..},nbt=!{ActiveEffects:[{Id:8b}]}] Choyaku
 
 ### ダークスワンプパーティクル表示
-execute at @e[tag=DarkSwamp,sort=random,limit=3] run particle minecraft:squid_ink ~ ~ ~ 2.5 0.2 2.5 0 80 force
+execute at @e[tag=DarkSwamp,sort=random,limit=3] run particle minecraft:squid_ink ~ ~ ~ 2.5 0.2 2.5 0 80 force @a[tag=ShowParticles]
 
 ### アフィニティ
 execute as @a[scores={WaterAffinity=1..}] at @s run function skill_manager:ninja/suiton/affinity/tick

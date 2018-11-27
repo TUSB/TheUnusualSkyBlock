@@ -14,5 +14,5 @@ tag @e[tag=Initializing,limit=1] remove Initializing
 
 ###---演出---Start
 playsound minecraft:entity.evoker.prepare_attack master @a[distance=..16] ~ ~ ~ 1 1.6
-particle minecraft:angry_villager ~ ~1 ~ 0.3 1 0.3 1 10 force
+particle minecraft:angry_villager ~ ~1 ~ 0.3 1 0.3 1 10 force @a[tag=ShowParticles]
 ###---演出---End

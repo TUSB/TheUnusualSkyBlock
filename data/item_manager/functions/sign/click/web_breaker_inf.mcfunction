@@ -5,8 +5,8 @@
 playsound minecraft:entity.mooshroom.shear master @a[distance=..16] ~ ~ ~ 1 0.9
 playsound minecraft:entity.mooshroom.shear master @a[distance=..16] ~ ~ ~ 1 1
 playsound minecraft:entity.mooshroom.shear master @a[distance=..16] ~ ~ ~ 1 1.1
-particle minecraft:item minecraft:cobweb ~ ~3 ~ 6 3 6 0.05 300 force
-particle minecraft:crit ~ ~3 ~ 6 3 6 0 200 force
+particle minecraft:item minecraft:cobweb ~ ~3 ~ 6 3 6 0.05 300 force @a[tag=ShowParticles]
+particle minecraft:crit ~ ~3 ~ 6 3 6 0 200 force @a[tag=ShowParticles]
 
 #デバッグ用
 clone ~-6 ~-1 ~-6 ~6 ~7 ~6 -32 0 -32 filtered minecraft:cobweb move

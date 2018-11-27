@@ -8,5 +8,5 @@ execute unless entity @e[distance=..15,tag=EclipseFlameCore,limit=1] run kill @s
 kill @s[x_rotation=70..90]
 
 ###---演出---Start
-particle minecraft:flame ~ ~ ~ 0 0 0 0 1 force
+particle minecraft:flame ~ ~ ~ 0 0 0 0 1 force @a[tag=ShowParticles]
 ###---演出---End

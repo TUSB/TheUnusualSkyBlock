@@ -9,5 +9,5 @@ execute if score @s ModeSkill matches 11054 run scoreboard players set @s Health
 
 ###---演出---Start
 playsound minecraft:entity.player.levelup master @a ~ ~ ~ 3 2
-particle minecraft:heart ~ ~1 ~ 0.2 1 0.2 0 15 force
+particle minecraft:heart ~ ~1 ~ 0.2 1 0.2 0 15 force @a[tag=ShowParticles]
 ###---演出---End

@@ -3,7 +3,7 @@
 ##############################
 
 ###---演出---Start
-particle minecraft:firework ~ ~1.5 ~ 0.5 0.8 0.5 0 30 force
+particle minecraft:firework ~ ~1.5 ~ 0.5 0.8 0.5 0 30 force @a[tag=ShowParticles]
 playsound minecraft:block.conduit.deactivate master @a ~ ~ ~ 5 0.5
 ###---演出---End
 

@@ -8,5 +8,5 @@ scoreboard players operation $AbsorptionAmount Global < @s MobHPMax
 execute store result entity @s AbsorptionAmount int 0.01 run scoreboard players get $AbsorptionAmount Global
 
 ###---演出---Start
-particle minecraft:happy_villager ~ ~1 ~ 0.3 0.5 0.3 1 15 force
+particle minecraft:happy_villager ~ ~1 ~ 0.3 0.5 0.3 1 15 force @a[tag=ShowParticles]
 ###---演出---End

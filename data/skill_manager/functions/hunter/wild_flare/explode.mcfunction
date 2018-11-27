@@ -18,5 +18,5 @@ execute as @e[tag=WildFlareMarker,limit=1] at @s positioned ^ ^ ^2 run function 
 
 ###---演出---Start
 playsound minecraft:entity.generic.explode master @a[distance=..16] ~ ~ ~ 0.5 1
-particle minecraft:explosion ~ ~ ~ 0 0 0 0 0 force
+particle minecraft:explosion ~ ~ ~ 0 0 0 0 0 force @a[tag=ShowParticles]
 ###---演出---End

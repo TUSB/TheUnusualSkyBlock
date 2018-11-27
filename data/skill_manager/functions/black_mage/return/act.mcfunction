@@ -12,5 +12,5 @@ execute if score $Return Global matches 1 as @a[distance=..10,scores={Job=1..},g
 
 ###---演出---Start
 execute if score $Return Global matches 0 run playsound minecraft:block.beacon.deactivate master @a[distance=..16] ~ ~ ~ 1 2
-particle minecraft:witch ~ ~8 ~ 0.2 7 0.2 0 50 force
+particle minecraft:witch ~ ~8 ~ 0.2 7 0.2 0 50 force @a[tag=ShowParticles]
 ###---演出---End

@@ -25,7 +25,7 @@ scoreboard players operation $Weight1 Global = $Cos Global
 function calc_manager:split/1-2
 
 function calc_manager:set/pos1
-execute at @e[tag=CircleCore,sort=nearest,limit=1] facing entity @s feet run particle minecraft:heart ^ ^ ^10 0 0 0 0 1 force
+execute at @e[tag=CircleCore,sort=nearest,limit=1] facing entity @s feet run particle minecraft:heart ^ ^ ^10 0 0 0 0 1 force @a[tag=ShowParticles]
 tp @s ~ ~ ~ ~ ~
 
 function calc_manager:get/rotation1

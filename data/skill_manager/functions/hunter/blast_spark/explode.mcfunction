@@ -2,5 +2,5 @@
 ### ブラストスパーク炸裂
 ##############################
 
-particle minecraft:explosion ~ ~ ~ 0 0 0 0 1 force
+particle minecraft:explosion ~ ~ ~ 0 0 0 0 1 force @a[tag=ShowParticles]
 kill @s

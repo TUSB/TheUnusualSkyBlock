@@ -5,5 +5,5 @@
 kill @s[nbt={inGround:true}]
 
 ###---演出---Start
-particle minecraft:sweep_attack ~ ~ ~ 0.05 0.8 0.05 1 2 force
+particle minecraft:sweep_attack ~ ~ ~ 0.05 0.8 0.05 1 2 force @a[tag=ShowParticles]
 ###---演出---End

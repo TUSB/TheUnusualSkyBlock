@@ -8,6 +8,6 @@ execute if entity @s[type=minecraft:wolf] at @s store result entity @s Attribute
 execute store result entity @s Attributes[2].Base double 0.015 run data get entity @s Attributes[2].Base 100
 
 ###---演出---Start
-execute anchored eyes run particle minecraft:angry_villager ^ ^ ^ 0.1 0.1 0.1 0 10 force
-execute anchored eyes run particle minecraft:lava ^ ^-0.5 ^ 0.5 0.5 0.5 0 15 force
+execute anchored eyes run particle minecraft:angry_villager ^ ^ ^ 0.1 0.1 0.1 0 10 force @a[tag=ShowParticles]
+execute anchored eyes run particle minecraft:lava ^ ^-0.5 ^ 0.5 0.5 0.5 0 15 force @a[tag=ShowParticles]
 ###---演出---End

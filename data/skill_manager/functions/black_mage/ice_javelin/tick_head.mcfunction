@@ -3,7 +3,7 @@
 ##############################
 
 ###---演出---Start
-particle minecraft:firework ~ ~1.52 ~ 0.3 0.3 0.3 0.2 6 force
+particle minecraft:firework ~ ~1.52 ~ 0.3 0.3 0.3 0.2 6 force @a[tag=ShowParticles]
 ###---演出---End
 
 scoreboard players operation $Id Global = @s ID

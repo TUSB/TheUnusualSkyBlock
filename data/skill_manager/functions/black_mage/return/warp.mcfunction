@@ -30,5 +30,5 @@ execute in overworld positioned as @s run tp @s ~ ~ ~
 ###---演出---Start
 execute in overworld positioned as @s run playsound minecraft:entity.enderman.teleport master @a[distance=..16] ~ ~ ~ 1 1
 execute in overworld positioned as @s run playsound minecraft:entity.firework_rocket.launch master @a[distance=..16] ~ ~ ~ 1 0
-execute in overworld positioned as @s run particle minecraft:firework ~ ~6 ~ 0.2 5 0.2 0 50 force
+execute in overworld positioned as @s run particle minecraft:firework ~ ~6 ~ 0.2 5 0.2 0 50 force @a[tag=ShowParticles]
 ###---演出---End

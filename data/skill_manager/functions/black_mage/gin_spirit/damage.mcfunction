@@ -18,6 +18,6 @@ execute store result entity @e[tag=GinAEC,limit=1,distance=..0.1] Age int 1 run 
 ###---演出---Start
 tp @s ~ ~-0.5 ~ facing entity @e[tag=Mob,distance=..4,limit=1,sort=nearest]
 playsound minecraft:entity.guardian.death master @a[distance=..16] ~ ~ ~ 1 2
-particle minecraft:dust 1 0 0.5 1.5 ~ ~2 ~ 0 1 0 1 10 force
-execute as @e[tag=Mob,distance=..4] positioned as @s anchored eyes run particle minecraft:item minecraft:bubble_coral_block ^ ^ ^ 0 0 0 0.15 30 force
+particle minecraft:dust 1 0 0.5 1.5 ~ ~2 ~ 0 1 0 1 10 force @a[tag=ShowParticles]
+execute as @e[tag=Mob,distance=..4] positioned as @s anchored eyes run particle minecraft:item minecraft:bubble_coral_block ^ ^ ^ 0 0 0 0.15 30 force @a[tag=ShowParticles]
 ###---演出---End

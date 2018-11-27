@@ -3,5 +3,5 @@
 ##############################
 
 ###---演出---Start
-particle minecraft:dust 1 0 0 1 ~ ~ ~ 0.4 0.4 0.4 1 50 force
+particle minecraft:dust 1 0 0 1 ~ ~ ~ 0.4 0.4 0.4 1 50 force @a[tag=ShowParticles]
 ###---演出---End

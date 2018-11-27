@@ -13,6 +13,6 @@ scoreboard players operation $36 Global %= $3 Const
 execute if score $36 Global matches 0 run tag @a[scores={ParticleDenom=3}] add ShowParticles
 scoreboard players operation $24 Global %= $4 Const
 execute if score $24 Global matches 0 run tag @a[scores={ParticleDenom=4}] add ShowParticles
-scoreboard players operation $24 Global %= $2 Global
+scoreboard players operation $24 Global %= $2 Const
 execute if score $24 Global matches 0 run tag @a[scores={ParticleDenom=2}] add ShowParticles
 execute as @a unless score @s ParticleDenom matches 2.. run tag @s add ShowParticles

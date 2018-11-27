@@ -10,5 +10,5 @@ scoreboard players operation @e[distance=..5,tag=Mob] Damage += @s SkillAttribut
 ###水中削除
 kill @s[nbt={Fire:0s}]
 ###---演出---Start
-particle minecraft:flame ~ ~ ~ 2 1 2 0.01 1 force
+particle minecraft:flame ~ ~ ~ 2 1 2 0.01 1 force @a[tag=ShowParticles]
 ###---演出---End

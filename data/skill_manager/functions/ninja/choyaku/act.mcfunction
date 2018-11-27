@@ -58,5 +58,5 @@ function main:show_text/subtitle/show
 
 execute if score @s Choyaku < $ChoyakuLimit Global run playsound minecraft:entity.witch.throw master @a[distance=..16] ~ ~ ~ 1 0.4
 execute if score @s Choyaku >= $ChoyakuLimit Global run playsound minecraft:item.trident.riptide_1 master @a[distance=..16] ~ ~ ~ 1 1.2
-particle minecraft:sweep_attack ^ ^0.2 ^1.3 0 0 0 2.5 2 force
+particle minecraft:sweep_attack ^ ^0.2 ^1.3 0 0 0 2.5 2 force @a[tag=ShowParticles]
 ###---演出---End

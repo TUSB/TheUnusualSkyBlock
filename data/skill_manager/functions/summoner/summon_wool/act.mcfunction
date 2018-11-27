@@ -21,5 +21,5 @@ execute as @e[tag=Initializing] at @s store result entity @s PortalCooldown int 
 tag @e[tag=Initializing] remove Initializing
 
 ###---演出---Start
-particle minecraft:entity_effect ~ ~0.05 ~ 0.8 0.8 0.8 1 25 force
+particle minecraft:entity_effect ~ ~0.05 ~ 0.8 0.8 0.8 1 25 force @a[tag=ShowParticles]
 ###---演出---End

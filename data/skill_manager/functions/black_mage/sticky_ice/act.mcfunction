@@ -17,6 +17,6 @@ tag @e[tag=Initializing,limit=1] remove Initializing
 ###---演出---Start
 playsound minecraft:block.glass.break master @a[distance=..16] ~ ~ ~ 1 0
 playsound minecraft:item.trident.return master @a[distance=..16] ~ ~ ~ 1 2
-particle minecraft:item minecraft:ice ~ ~0.7 ~ 0.6 0.6 0.6 0.05 50 force
-particle minecraft:item minecraft:cobweb ~ ~0.7 ~ 0.6 0.6 0.6 0.05 30 force
+particle minecraft:item minecraft:ice ~ ~0.7 ~ 0.6 0.6 0.6 0.05 50 force @a[tag=ShowParticles]
+particle minecraft:item minecraft:cobweb ~ ~0.7 ~ 0.6 0.6 0.6 0.05 30 force @a[tag=ShowParticles]
 ###---演出---End

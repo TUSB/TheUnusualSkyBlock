@@ -22,6 +22,6 @@ execute if score @s SupportSkill matches 32063 run scoreboard players operation 
 gamemode spectator @s
 
 ###---演出---Start
-particle minecraft:end_rod ~ ~1 ~ 0.1 0.1 0.1 0.1 25 force
+particle minecraft:end_rod ~ ~1 ~ 0.1 0.1 0.1 0.1 25 force @a[tag=ShowParticles]
 playsound minecraft:entity.zombie_villager.converted master @a[distance=..16] ~ ~ ~ 2 2
 ###---演出---End

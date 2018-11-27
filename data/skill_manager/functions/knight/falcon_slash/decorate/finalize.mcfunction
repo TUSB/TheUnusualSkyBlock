@@ -11,6 +11,6 @@ function calc_manager:bit/drop_at_x_digit
 scoreboard players operation @s TemporaryEffects = $BitFlags Global
 
 ###---演出---Start
-execute anchored eyes positioned ^ ^ ^ positioned ~ ~-0.3 ~ run particle minecraft:sweep_attack ~ ~ ~ 0.3 0.3 0.3 0 3 force
+execute anchored eyes positioned ^ ^ ^ positioned ~ ~-0.3 ~ run particle minecraft:sweep_attack ~ ~ ~ 0.3 0.3 0.3 0 3 force @a[tag=ShowParticles]
 playsound minecraft:entity.player.attack.sweep master @a ~ ~ ~ 5 1.82
 ###---演出---End

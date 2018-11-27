@@ -3,7 +3,7 @@
 ##############################
 
 ###---演出---Start
-particle minecraft:firework ~ ~2 ~ 1 2 1 0 150 force
+particle minecraft:firework ~ ~2 ~ 1 2 1 0 150 force @a[tag=ShowParticles]
 playsound minecraft:block.bubble_column.whirlpool_inside master @a[distance=..16] ~ ~ ~ 0.6 0
 playsound minecraft:entity.firework_rocket.twinkle_far master @a[distance=..16] ~ ~ ~ 1 1.6
 playsound minecraft:entity.mule.chest master @a[distance=..16] ~ ~ ~ 1 1
