@@ -3,7 +3,7 @@
 ##############################
 
 tag @a remove ShowParticles
-execute if score $ParticleTimer DecrementTimer matches ..-1 run scoreboard players set $ParticleTimer DecrementTimer 10
+execute if score $ParticleTimer DecrementTimer matches ..-1 run scoreboard players set $ParticleTimer DecrementTimer 11
 
 execute store result score $24 Global run scoreboard players operation $36 Global = $ParticleTimer DecrementTimer
 
