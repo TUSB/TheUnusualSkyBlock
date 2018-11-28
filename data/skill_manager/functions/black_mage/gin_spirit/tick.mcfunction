@@ -2,10 +2,10 @@
 ### ジン・スピリット処理
 ##############################
 
+#回転
 tp @s ~ ~ ~ ~3 ~
-
-execute if score $Second Count matches 1 if score @s SkillAttribute matches 100000.. run function skill_manager:black_mage/gin_spirit/summon
-execute if score $Second Count matches 11 if score @s SkillAttribute matches 100000.. run function skill_manager:black_mage/gin_spirit/summon
+#コウモリ召喚
+execute if score @s DecrementTimer matches ..0 if entity @s[tag=DetectDamage] run function skill_manager:black_mage/gin_spirit/summon
 
 ###---演出---Start
 particle minecraft:smoke ~ ~0.75 ~ 0.1 0.25 0.1 0.001 1 force @a[tag=ShowParticles]

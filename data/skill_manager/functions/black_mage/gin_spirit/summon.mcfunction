@@ -2,12 +2,16 @@
 ### ジン・スピリット コウモリ召喚
 ##############################
 
-#それぞれLv1,2,3以上に適用
-execute if score @s SkillAttribute matches 100000.. run summon minecraft:bat ~ ~ ~ {PortalCooldown:400,Tags:[GinSpiritBat,TickingRequired,NativeTask,TowardPlayer,Swim,InAir,Step,Front,Initialized],Invulnerable:true,Team:Light_Purple,DeathTime:19s,Attributes:[{Name:"generic.maxHealth",Modifiers:[{Amount:0.07d,UUIDLeast:0l},{Amount:3.6d,UUIDLeast:1l},{Amount:1d,UUIDLeast:2}]}],ActiveEffects:[{Id:14,Amplifier:127,Duration:20000000,ShowParticles:0b},{Id:24,Amplifier:127,Duration:20000000,ShowParticles:0b}]}
-execute unless entity @s[tag=GinSpiritLv1] if score @s SkillAttribute matches 500000.. run summon minecraft:bat ~ ~ ~ {PortalCooldown:400,Tags:[GinSpiritBat,TickingRequired,TowardPlayer,Swim,InAir,Step,Front,Initialized],Invulnerable:true,Team:Light_Purple,DeathTime:19s,Attributes:[{Name:"generic.maxHealth",Modifiers:[{Amount:0.07d,UUIDLeast:0l},{Amount:3.6d,UUIDLeast:1l},{Amount:1d,UUIDLeast:2}]}],ActiveEffects:[{Id:14,Amplifier:127,Duration:20000000,ShowParticles:0b},{Id:24,Amplifier:127,Duration:20000000,ShowParticles:0b}]}
-execute if entity @s[tag=GinSpiritLv3] if score @s SkillAttribute matches 1000000.. run summon minecraft:bat ~ ~ ~ {PortalCooldown:400,Tags:[GinSpiritBat,TickingRequired,TowardPlayer,Swim,InAir,Step,Front,Initialized],Invulnerable:true,Team:Light_Purple,DeathTime:19s,Attributes:[{Name:"generic.maxHealth",Modifiers:[{Amount:0.07d,UUIDLeast:0l},{Amount:3.6d,UUIDLeast:1l},{Amount:1d,UUIDLeast:2}]}],ActiveEffects:[{Id:14,Amplifier:127,Duration:20000000,ShowParticles:0b},{Id:24,Amplifier:127,Duration:20000000,ShowParticles:0b}]}
+#回復コウモリ召喚
+summon minecraft:bat ~ ~ ~ {PortalCooldown:400,Tags:[GinSpiritBat,TickingRequired,NativeTask,TowardPlayer,Swim,InAir,Step,Front,Initializing,Initialized],Invulnerable:true,Team:Light_Purple,DeathTime:19s,Attributes:[{Name:"generic.maxHealth",Modifiers:[{Amount:0.1d,UUIDLeast:0l},{Amount:3.6d,UUIDLeast:1l},{Amount:1d,UUIDLeast:2}]}],ActiveEffects:[{Id:14,Amplifier:127,Duration:20000000,ShowParticles:0b},{Id:24,Amplifier:127,Duration:20000000,ShowParticles:0b}]}
+#スキルIDコピー
+scoreboard players operation @e[tag=Initializing,limit=1] SkillAttribute = @s SkillAttribute
 
-execute if score @s SkillAttribute matches 100000.. run scoreboard players operation @s SkillAttribute /= $50 Const
+tag @e[tag=Initializing,limit=1] remove Initializing
+
+#クールタイム設定
+scoreboard players set @s DecrementTimer 10
+tag @s remove DetectDamage
 
 ###---演出---Start
 execute facing entity @e[tag=Mob,limit=1,sort=nearest,distance=..8] eyes rotated ~ 0 run tp @s ~ ~ ~ ~ ~
