@@ -6,8 +6,9 @@
 execute if score @s MPConsumption matches 1.. run tag @s remove SuppressLimit
 
 ### 50-100 1500で1回復
-scoreboard players set $CountSum Global 50
-scoreboard players operation $CountSum Global += @s Level
+scoreboard players operation $CountSum Global = @s Level
+scoreboard players operation $CountSum Global < $50 Const
+scoreboard players add $CountSum Global 50
 execute store result score $Modifier Global run data get entity @s Health 30
 scoreboard players operation $Modifier Global < $600 Const
 scoreboard players operation $Modifier Global *= $-1 Const
