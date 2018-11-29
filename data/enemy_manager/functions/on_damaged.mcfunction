@@ -2,6 +2,9 @@
 ### モブがダメージを受けた時の共通処理
 ##############################
 
+###ジンスピリット ダメージカウント
+tag @e[tag=GinSpirit,distance=..8] add DetectDamage
+
 ### HurtTimeをリセット
 scoreboard players set @s DecrementTimer 10
 
