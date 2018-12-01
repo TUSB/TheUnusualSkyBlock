@@ -36,4 +36,12 @@ execute if score $CurrentLevel Global matches ..49 run tellraw @a ["",{"selector
 execute if score $CurrentLevel Global matches 50.. if score $PreviousCP Global matches ..49 run tellraw @a ["",{"selector":"@s"}," はレベルアップした！！ LV: ",{"score":{"name":"$PreviousLevel","objective":"Global"},"color":"green"}," → ",{"score":{"name":"$CurrentLevel","objective":"Global"},"color":"green"}," CP: ",{"score":{"name":"$PreviousCP","objective":"Global"},"color":"green"}," → ",{"score":{"name":"$CurrentCP","objective":"Global"},"color":"green"}]
 execute if score $CurrentCP Global matches 50.. run tellraw @a ["",{"selector":"@s"}," のレベルはこれ以上あがらない。"]
 
+execute if score @s Job matches 1 run scoreboard players operation @s LevelKnight > @s Level
+execute if score @s Job matches 2 run scoreboard players operation @s LevelNinja > @s Level
+execute if score @s Job matches 3 run scoreboard players operation @s LevelHunter > @s Level
+execute if score @s Job matches 4 run scoreboard players operation @s LevelWhiteMage > @s Level
+execute if score @s Job matches 5 run scoreboard players operation @s LevelBlackMage > @s Level
+execute if score @s Job matches 6 run scoreboard players operation @s LevelSummoner > @s Level
+execute if score @s Job matches 7 run scoreboard players operation @s LevelPupMaster > @s Level
+
 function effect_manager:status/lift_to_max
