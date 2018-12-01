@@ -10,7 +10,7 @@ scoreboard players operation @e[tag=Initializing,limit=1] SkillAttribute = @s Sk
 tag @e[tag=Initializing,limit=1] remove Initializing
 
 #クールタイム設定
-scoreboard players set @s DecrementTimer 10
+scoreboard players set @s DecrementTimer 30
 tag @s remove DetectDamage
 
 ###---演出---Start

@@ -549,7 +549,7 @@ scoreboard players set $5106 Interval 0
 scoreboard players set $5201 Interval 2000
 scoreboard players set $5202 Interval 2000
 scoreboard players set $5203 Interval 2000
-scoreboard players set $5204 Interval 1000
+scoreboard players set $5204 Interval 2000
 scoreboard players set $5205 Interval 2000
 scoreboard players set $5206 Interval 1000
 scoreboard players set $5207 Interval 1000
