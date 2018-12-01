@@ -10,4 +10,4 @@ scoreboard players add $MPHealAmount Global 1
 scoreboard players operation @s MPConsumption -= $MPHealAmount Global
 
 ### MPウェイトリセット
-scoreboard players add @s MPHealingWait 700
+scoreboard players add @s MPHealingWait 1500
