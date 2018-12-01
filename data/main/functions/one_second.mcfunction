@@ -85,5 +85,8 @@ execute as @e[tag=Mule] at @s run function entity_manager:maintain/cargo
 scoreboard players remove $Libra Global 1
 execute if score $Libra Global matches ..0 run bossbar set minecraft:enemy_health visible false
 
+### anti砂利学 ### for 1.13
+kill @e[type=minecraft:falling_block,nbt={FallDistance:0f},nbt=!{Time:1},nbt=!{Time:0}]
+
 ### チャンクロード
 execute as @a at @s run summon minecraft:arrow ~ -20 ~ {xTile:1,yTile:1,zTile:1,NoGravity:true,Color:-1,PortalCooldown:2,Tags:[CooldownRequired]}
