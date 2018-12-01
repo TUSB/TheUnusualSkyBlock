@@ -3,9 +3,6 @@
   "values": [
     "minecraft:bedrock",
     "minecraft:barrier",
-    "minecraft:command_block",
-    "minecraft:chain_command_block",
-    "minecraft:repeating_command_block",
     "minecraft:structure_block"
   ]
 }
