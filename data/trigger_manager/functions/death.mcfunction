@@ -3,7 +3,7 @@
 ##############################
 
 ### オーラ解除
-scoreboard players set @s Aura 0
+scoreboard players set @s[scores={Aura=1..}] Aura 0
 
 ### 状態異常回復
 function skill_manager:white_mage/clear/cure/level4
