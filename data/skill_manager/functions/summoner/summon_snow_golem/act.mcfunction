@@ -2,7 +2,7 @@
 ### サモンＰ：スノー
 ##############################
 
-summon minecraft:snow_golem ~ ~ ~ {Team:Friendly,Health:200f,ActiveEffects:[{Id:3b,Duration:2147483647,Amplifier:0b,ShowParticles:false},{Id:25b,Duration:18,Amplifier:2b,ShowParticles:true},{Id:28b,Duration:30,Amplifier:0b,ShowParticles:true}],Attributes:[{Name:"generic.maxHealth",Base:40d},{Name:"generic.movementSpeed",Base:0.4d}],CustomName:"[\"フレンドリー\"]",CustomNameVisible:true,DeathLootTable:"minecraft:empty"}
+summon minecraft:snow_golem ~ ~ ~ {Team:Friendly,Health:200f,ActiveEffects:[{Id:3b,Duration:2147483647,Amplifier:0b,ShowParticles:false},{Id:25b,Duration:18,Amplifier:2b,ShowParticles:true},{Id:28b,Duration:30,Amplifier:0b,ShowParticles:true}],Attributes:[{Name:"generic.maxHealth",Base:40d},{Name:"generic.movementSpeed",Base:0.4d},{Name:"generic.followRange",Base:48d}],CustomName:"[\"フレンドリー\"]",CustomNameVisible:true,DeathLootTable:"minecraft:empty"}
 execute if score @s SupportSkill matches 62012 as @e[distance=0,tag=!Initialized] at @s run function skill_manager:summoner/summon_snow_golem/health_boost
 
 ###---演出---Start
