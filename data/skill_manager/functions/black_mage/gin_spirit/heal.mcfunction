@@ -3,9 +3,9 @@
 ##############################
 
 #回復量設定
-execute if score @s SkillAttribute matches 52041 run scoreboard players add @a[dx=0,dy=0,dz=0,limit=1,sort=nearest] HealthHealing 1
-execute if score @s SkillAttribute matches 52042 run scoreboard players add @a[dx=0,dy=0,dz=0,limit=1,sort=nearest] HealthHealing 2
-execute if score @s SkillAttribute matches 52043 run scoreboard players add @a[dx=0,dy=0,dz=0,limit=1,sort=nearest] HealthHealing 3
+execute if score @s SkillAttribute matches 52041 run scoreboard players add @a[dx=0,dy=0,dz=0,limit=1,sort=nearest] HealthHealing 2
+execute if score @s SkillAttribute matches 52042 run scoreboard players add @a[dx=0,dy=0,dz=0,limit=1,sort=nearest] HealthHealing 4
+execute if score @s SkillAttribute matches 52043 run scoreboard players add @a[dx=0,dy=0,dz=0,limit=1,sort=nearest] HealthHealing 6
 
 kill @s
 
