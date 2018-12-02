@@ -134,6 +134,9 @@ execute if score @s SupportSkill matches 52051..52059 run function skill_manager
 ### マナリフレッシュ
 execute if score @s SupportSkill matches 52061..52069 run function skill_manager:black_mage/mana_refresh/act
 
+### マジックシールド
+execute if score @s SupportSkill matches 52071..52079 run function skill_manager:black_mage/magic_shield/act
+
 ### ダークスワンプ
 execute if score @s SupportSkill matches 52081..52089 at @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:black_mage/dark_swamp/act
 

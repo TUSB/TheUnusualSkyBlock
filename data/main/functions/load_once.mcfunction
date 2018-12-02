@@ -181,6 +181,7 @@ scoreboard objectives add PillarCount dummy {"text":"セイクリッドピラー
 scoreboard objectives add PillarDamage dummy {"text":"セイクリッドピラーダメージ"}
 scoreboard objectives add EclipseRadius dummy {"text":"エクリプスフレイム半径"}
 scoreboard objectives add SleepgaTime dummy {"text":"スリプガ残り秒数"}
+scoreboard objectives add MagicShield dummy {"text":"マジックシールド残りtick＆発動フラグ"}
 scoreboard objectives add DarkSwamp dummy {"text":"ダークスワンプ回数"}
 scoreboard objectives add ManaRefresh dummy {"text":"マナリフレッシュ残りミリ秒＆レベル"}
 scoreboard objectives add WindWall dummy {"text":"ウィンドウォール残りtick＆レベル"}

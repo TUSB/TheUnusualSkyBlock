@@ -3,7 +3,7 @@
 ##############################
 
 ### 即死床
-execute if block ~ ~-2 ~ minecraft:smooth_red_sandstone if score @s Age matches 1.. run function entity_manager:unique_floor/death_floor
+execute if block ~ ~-2 ~ minecraft:smooth_red_sandstone if score @s Age matches 1.. run function entity_manager:unique_floor/death_floor/tick
 
 ### ダメージ床
 execute if block ~ ~-2 ~ minecraft:nether_wart_block if entity @s[nbt={OnGround:true}] run function entity_manager:unique_floor/damage_floor
