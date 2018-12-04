@@ -5,18 +5,18 @@
 ### スキル使ったらスキル変更やさしさシステム解除
 execute if score @s MPConsumption matches 1.. run tag @s remove SuppressLimit
 
-### 50-100 1500で1回復
+### 50-100 2500で1回復
 scoreboard players operation $CountSum Global = @s Level
 scoreboard players operation $CountSum Global < $50 Const
 scoreboard players add $CountSum Global 50
-### 体力を30倍で取得、600以下(体力１列分)にして700から引くことで100-700の割合を取る
-execute store result score $Modifier Global run data get entity @s Health 30
-scoreboard players operation $Modifier Global < $600 Const
-scoreboard players operation $Modifier Global *= $-1 Const
-scoreboard players add $Modifier Global 700
-### *1~*7
-scoreboard players operation $CountSum Global *= $Modifier Global
-scoreboard players operation $CountSum Global /= $100 Const
+# ### 体力を30倍で取得、600以下(体力１列分)にして700から引くことで100-700の割合を取る
+# execute store result score $Modifier Global run data get entity @s Health 30
+# scoreboard players operation $Modifier Global < $600 Const
+# scoreboard players operation $Modifier Global *= $-1 Const
+# scoreboard players add $Modifier Global 700
+# ### *1~*7
+# scoreboard players operation $CountSum Global *= $Modifier Global
+# scoreboard players operation $CountSum Global /= $100 Const
 ### 適用
 scoreboard players operation @s MPHealingWait -= $CountSum Global
 
