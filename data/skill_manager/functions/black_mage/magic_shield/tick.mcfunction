@@ -8,7 +8,7 @@ execute if entity @s[scores={MagicShield=..0}] run function skill_manager:black_
 #耐性付与
 effect give @s[scores={MagicShield=1000..}] minecraft:resistance 2 4 false
 #ダメージを受けるとカウントダウン開始
-execute if entity @s[scores={MagicShield=1000..},nbt={HurtTime:10s}] run function skill_manager:black_mage/magic_shield/activate
+execute if entity @s[scores={MagicShield=1000..},nbt=!{HurtTime:0s}] run function skill_manager:black_mage/magic_shield/activate
 
 ###---演出---Start
 execute if entity @s[scores={MagicShield=..999}] run particle minecraft:dust 1 0 100000000 1 ~ ~0.2 ~ 1 0.2 1 0 10 force @a[tag=ShowParticles]
