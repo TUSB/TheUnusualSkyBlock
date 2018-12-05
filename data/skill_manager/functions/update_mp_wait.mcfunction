@@ -11,3 +11,7 @@ scoreboard players operation @s MPConsumption -= $MPHealAmount Global
 
 ### MPウェイトリセット
 scoreboard players add @s MPHealingWait 2500
+
+### マナリフレッシュカウントダウン
+scoreboard players remove @s[scores={ManaRefresh=10..}] ManaRefresh 10
+scoreboard players reset @s[scores={ManaRefresh=..10}] ManaRefresh
