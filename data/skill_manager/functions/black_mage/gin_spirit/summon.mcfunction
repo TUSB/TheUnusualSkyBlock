@@ -3,7 +3,7 @@
 ##############################
 
 #回復コウモリ召喚
-summon minecraft:bat ~ ~ ~ {PortalCooldown:400,Tags:[GinSpiritBat,TickingRequired,NativeTask,TowardPlayer,Swim,InAir,Step,Front,Initializing,Initialized],Invulnerable:true,Team:Light_Purple,DeathTime:19s,Attributes:[{Name:"generic.maxHealth",Modifiers:[{Amount:0.1d,UUIDLeast:0l},{Amount:3.6d,UUIDLeast:1l},{Amount:1d,UUIDLeast:2}]}],ActiveEffects:[{Id:14,Amplifier:127,Duration:20000000,ShowParticles:0b},{Id:24,Amplifier:127,Duration:20000000,ShowParticles:0b}]}
+summon minecraft:bat ~ ~ ~ {PortalCooldown:400,Tags:[GinSpiritBat,TickingRequired,NativeTask,FacingPlayer,Swim,InAir,Step,Front,Initializing,Initialized],Invulnerable:true,Team:Light_Purple,DeathTime:19s,Attributes:[{Name:"generic.maxHealth",Modifiers:[{Amount:0.1d,UUIDLeast:0l},{Amount:3.6d,UUIDLeast:1l},{Amount:1d,UUIDLeast:2}]}],ActiveEffects:[{Id:14,Amplifier:127,Duration:20000000,ShowParticles:0b},{Id:24,Amplifier:127,Duration:20000000,ShowParticles:0b}]}
 #スキルIDコピー
 scoreboard players operation @e[tag=Initializing,limit=1] SkillAttribute = @s SkillAttribute
 

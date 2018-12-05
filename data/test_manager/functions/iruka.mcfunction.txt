@@ -11,7 +11,7 @@ summon villager ~ ~ ~ {
 				\"color\":\"aqua\"
 			}",
 			Tags:[
-				"TowardPlayer",
+				"FacingPlayer",
 				"Mob",
 				"FlowingWater",
 				"BlockPlacer",
@@ -74,7 +74,7 @@ summon villager ~ ~ ~ {
 												CustomName:"\"何について調べますか？\"",
 												Tags:[
 													"FlowingWater",
-													"AimingPlayer"
+													"AimOnInit"
 												],
 												PortalCooldown:80,
 												life:1200,
@@ -171,7 +171,7 @@ summon villager ~ ~ ~ {
 														CustomName:"\"何について調べますか？\"",
 														Tags:[
 															"FlowingWater",
-															"AimingPlayer"
+															"AimOnInit"
 														],
 														PortalCooldown:120,
 														life:1200,
@@ -268,7 +268,7 @@ summon villager ~ ~ ~ {
 																CustomName:"\"何について調べますか？\"",
 																Tags:[
 																	"FlowingWater",
-																	"AimingPlayer"
+																	"AimOnInit"
 																],
 																PortalCooldown:160,
 																life:1200,
@@ -365,7 +365,7 @@ summon villager ~ ~ ~ {
 																		CustomName:"\"何について調べますか？\"",
 																		Tags:[
 																			"FlowingWater",
-																			"AimingPlayer"
+																			"AimOnInit"
 																		],
 																		PortalCooldown:200,
 																		life:1200,
@@ -462,7 +462,7 @@ summon villager ~ ~ ~ {
 																				CustomName:"\"何について調べますか？\"",
 																				Tags:[
 																					"FlowingWater",
-																					"AimingPlayer"
+																					"AimOnInit"
 																				],
 																				PortalCooldown:240,
 																				life:1200,

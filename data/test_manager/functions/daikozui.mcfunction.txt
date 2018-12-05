@@ -15,7 +15,7 @@ summon villager ~ ~ ~ {
 					Tags:[
 						"Horizontal",
 						"Swim",
-						"TowardPlayer",
+						"FacingPlayer",
 						"InAir"
 					],
 					Attributes:[

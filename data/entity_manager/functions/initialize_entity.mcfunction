@@ -59,7 +59,7 @@ execute if score $Deploy Settings matches 1 if entity @s[type=minecraft:spawner_
 execute as @s[tag=OneOff] run data merge entity @s {SpawnPotentials:[{Entity:{id:"minecraft:area_effect_cloud",Tags:[Stopper]}}],MinSpawnDelay:10000s}
 
 ###追尾
-execute if entity @s[tag=AimingPlayer,tag=!Bullet] run function entity_manager:aiming_player
+execute if entity @s[tag=AimOnInit,tag=!Bullet] run function entity_manager:aiming_player
 execute if entity @s[tag=RandomRotation,tag=!Bullet] run function entity_manager:random_rotation
 
 ### プレイヤー初期化
@@ -90,7 +90,7 @@ tag @s[tag=FlyingRequired] add NativeTask
 tag @s[tag=CooldownRequired] add ObserveCooldown
 tag @s[tag=ObserveCooldown] add NativeTask
 tag @s[tag=Swim] add NativeTask
-tag @s[tag=TowardPlayer] add NativeTask
+tag @s[tag=FacingPlayer] add NativeTask
 tag @s[tag=LimitedTrading] add NativeTask
 tag @s[tag=AbyssWarp] add NativeTask
 tag @s[tag=Homing] add NativeTask
