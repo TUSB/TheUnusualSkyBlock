@@ -22,9 +22,6 @@ scoreboard players operation @s MPHealingWait -= $CountSum Global
 
 ### 0でMP1回復
 execute if score @s MPHealingWait matches ..0 run function skill_manager:update_mp_wait
-### マナリフレッシュカウントダウン
-scoreboard players remove @s[scores={ManaRefresh=50..}] ManaRefresh 50
-scoreboard players reset @s[scores={ManaRefresh=..50}] ManaRefresh
 
 ### MP消費(回復)反映
 execute if entity @s[nbt={ActiveEffects:[{Id:17b}]}] run scoreboard players operation @s MPConsumption > $0 Const
