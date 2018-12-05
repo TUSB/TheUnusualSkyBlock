@@ -14,3 +14,5 @@ execute if entity @s[tag=HasteOnDeath] run function skill_manager:enemy/haste/de
 ### 爆発
 execute if entity @s[tag=ExplodeOnDeath] run function skill_manager:enemy/explode/death
 
+### コール
+execute if entity @s[tag=Call] run function skill_manager:enemy/call/death
