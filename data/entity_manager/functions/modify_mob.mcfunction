@@ -66,3 +66,6 @@ tag @s[nbt={Glowing:true}] add Glowing
 tag @s[nbt={ActiveEffects:[{Id:24b}]}] add Glowing
 
 scoreboard players set @s TemporaryEffects 0
+
+execute if entity @s[tag=HasSkill] store result score @s EnemySkillSpan run data get entity @s Attributes[1].Modifiers[0].Amount 1
+execute if score @s EnemySkillSpan matches ..0 run scoreboard players operation @s EnemySkillSpan = $IntMax Const

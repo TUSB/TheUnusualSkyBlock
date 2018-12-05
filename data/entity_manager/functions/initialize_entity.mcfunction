@@ -104,8 +104,6 @@ team join Enemy @s[tag=Mob]
 
 execute as @s[tag=Mob] run function entity_manager:modify_mob
 
-execute if entity @s[tag=HasSkill] store result score @s EnemySkillSpan run data get entity @s Attributes[1].Modifiers[0].Amount 1
-
 ### Initialized付与
 tag @s add Initialized
 
