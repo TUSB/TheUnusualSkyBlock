@@ -634,8 +634,8 @@ team add Burst {"text":"バーストチーム"}
 team modify Burst color white
 #team modify Friendly prefix {"text":"☘","color":"green"}
 #team modify Friendly prefix {"text":"✿","color":"yellow"}
-team modify Burst prefix {"text":"==","color":"white"}
-team modify Burst suffix {"text":"==","color":"white"}
+team modify Burst prefix {"text":"≪≪","color":"white"}
+team modify Burst suffix {"text":"≫≫","color":"white"}
 team join Burst バースト
 ###カラーチーム作成
 team add Red {"text":"赤色チーム"}
