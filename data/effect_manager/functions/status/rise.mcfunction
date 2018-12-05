@@ -3,7 +3,9 @@
 ##############################
 
 ### 体力再設定処理
-function effect_manager:status/lift_to_max
+function effect_manager:status/modify_max
+scoreboard players operation @s MP < @s MPMax
+effect give @p minecraft:instant_health 1 10
 
 ### 空腹付与
 effect give @s[scores={Hunger=20}] minecraft:hunger 4 50
