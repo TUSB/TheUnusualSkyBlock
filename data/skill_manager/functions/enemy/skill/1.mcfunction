@@ -29,7 +29,9 @@ execute if entity @s[tag=SelfHealLv3] run function skill_manager:enemy/self_heal
 ### 忍者
 execute if entity @s[tag=Ninja] run function skill_manager:enemy/teleport/1
 ### Swim補正
-#execute if entity @s[tag=Interpolator] run function skill_manager:enemy/Interpolator/1
+execute if entity @s[tag=Interpolator] run function skill_manager:enemy/interpolator/1
+### コール
+execute if entity @s[tag=Call] run function skill_manager:enemy/call/1
 
 ### 発生確率0%セット
 scoreboard players reset $Threshold Global

@@ -17,4 +17,4 @@ execute if entity @s[tag=Tocult] run function enemy_manager:spawn/tocult/allocat
 execute if entity @s[tag=Underworld] run function enemy_manager:spawn/underworld/allocate_group
 execute if entity @s[tag=Tool] run function enemy_manager:spawn/tool/allocate_id
 
-kill @s
+kill @s[tag=!Call]
