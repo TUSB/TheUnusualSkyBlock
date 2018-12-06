@@ -54,8 +54,9 @@ execute store result score $Max Global run data get entity @s Attributes[1].Modi
 
 ### 再使用間隔リセット
 scoreboard players operation $Max Global -= $Min Global
+scoreboard players add $Max Global 1
 function calc_manager:update_random
 scoreboard players operation $Random Global %= $Max Global
 scoreboard players operation $Random Global += $Min Global
 scoreboard players operation @s EnemySkillSpan = $Random Global
-execute if score $Max Global matches 0 run scoreboard players operation @s EnemySkillSpan = $IntMax Const
+execute if score $Min Global matches ..0 run scoreboard players operation @s EnemySkillSpan = $IntMax Const
