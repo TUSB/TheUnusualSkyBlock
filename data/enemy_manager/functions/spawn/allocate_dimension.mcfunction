@@ -16,5 +16,6 @@ execute if entity @s[tag=Theater] run function enemy_manager:spawn/theater/alloc
 execute if entity @s[tag=Tocult] run function enemy_manager:spawn/tocult/allocate_group
 execute if entity @s[tag=Underworld] run function enemy_manager:spawn/underworld/allocate_group
 execute if entity @s[tag=Tool] run function enemy_manager:spawn/tool/allocate_id
+execute if entity @s[tag=Event] run function enemy_manager:spawn/event/allocate_id
 
 kill @s[tag=!Call]
