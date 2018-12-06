@@ -9,3 +9,4 @@ execute if entity @s[tag=04ManaBlast] run function enemy_manager:summon/event/04
 execute if entity @s[tag=05ManaBlast] run function enemy_manager:summon/event/05_mana_blast_40
 execute if entity @s[tag=06ManaBlast] run function enemy_manager:summon/event/06_mana_blast_50
 execute if entity @s[tag=07ManaBlast] run function enemy_manager:summon/event/07_mana_blast_60
+execute if entity @s[tag=GreenPearl] run function enemy_manager:summon/event/green_pearl_16
