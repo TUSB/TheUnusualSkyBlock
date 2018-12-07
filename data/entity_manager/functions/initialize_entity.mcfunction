@@ -4,6 +4,7 @@
 
 ### 不要アイテム削除
 kill @s[type=item,nbt={Item:{tag:{NeverRemain:true}}}]
+kill @s[type=item,nbt={Item:{tag:{Unpossessable:true}}}]
 
 ### Mobタグ付与
 tag @s[type=!minecraft:player,team=!Friendly,nbt={Attributes:[{Name:"generic.followRange"},{Name:"generic.attackDamage"}]}] add Mob
