@@ -6,30 +6,30 @@ execute store result score $TsuremaiCount Global run data get entity @s Attribut
 scoreboard players operation $TsuremaiCount Global /= $3 Const
 
 effect clear @s minecraft:strength
-execute if score $TsuremaiCount Global matches 0 run effect give @s minecraft:strength 2 0
-execute if score $TsuremaiCount Global matches 1 run effect give @s minecraft:strength 2 1
-execute if score $TsuremaiCount Global matches 2 run effect give @s minecraft:strength 2 2
-execute if score $TsuremaiCount Global matches 3 run effect give @s minecraft:strength 2 3
-execute if score $TsuremaiCount Global matches 4 run effect give @s minecraft:strength 2 4
-execute if score $TsuremaiCount Global matches 5 run effect give @s minecraft:strength 2 5
-execute if score $TsuremaiCount Global matches 6 run effect give @s minecraft:strength 2 6
-execute if score $TsuremaiCount Global matches 7 run effect give @s minecraft:strength 2 7
-execute if score $TsuremaiCount Global matches 8 run effect give @s minecraft:strength 2 8
-execute if score $TsuremaiCount Global matches 9 run effect give @s minecraft:strength 2 9
-execute if score $TsuremaiCount Global matches 10 run effect give @s minecraft:strength 2 10
-execute if score $TsuremaiCount Global matches 11 run effect give @s minecraft:strength 2 11
-execute if score $TsuremaiCount Global matches 12 run effect give @s minecraft:strength 2 12
-execute if score $TsuremaiCount Global matches 13 run effect give @s minecraft:strength 2 13
-execute if score $TsuremaiCount Global matches 14 run effect give @s minecraft:strength 2 14
-execute if score $TsuremaiCount Global matches 15 run effect give @s minecraft:strength 2 15
-execute if score $TsuremaiCount Global matches 16 run effect give @s minecraft:strength 2 16
-execute if score $TsuremaiCount Global matches 17 run effect give @s minecraft:strength 2 17
-execute if score $TsuremaiCount Global matches 18 run effect give @s minecraft:strength 2 18
-execute if score $TsuremaiCount Global matches 19 run effect give @s minecraft:strength 2 19
-execute if score $TsuremaiCount Global matches 20 run effect give @s minecraft:strength 2 20
-execute if score $TsuremaiCount Global matches 21 run effect give @s minecraft:strength 2 21
-execute if score $TsuremaiCount Global matches 22 run effect give @s minecraft:strength 2 22
-execute if score $TsuremaiCount Global matches 23.. run effect give @s minecraft:strength 2 23
+execute if score $TsuremaiCount Global matches 0 run effect give @s minecraft:strength 5 0
+execute if score $TsuremaiCount Global matches 1 run effect give @s minecraft:strength 5 1
+execute if score $TsuremaiCount Global matches 2 run effect give @s minecraft:strength 5 2
+execute if score $TsuremaiCount Global matches 3 run effect give @s minecraft:strength 5 3
+execute if score $TsuremaiCount Global matches 4 run effect give @s minecraft:strength 5 4
+execute if score $TsuremaiCount Global matches 5 run effect give @s minecraft:strength 5 5
+execute if score $TsuremaiCount Global matches 6 run effect give @s minecraft:strength 5 6
+execute if score $TsuremaiCount Global matches 7 run effect give @s minecraft:strength 5 7
+execute if score $TsuremaiCount Global matches 8 run effect give @s minecraft:strength 5 8
+execute if score $TsuremaiCount Global matches 9 run effect give @s minecraft:strength 5 9
+execute if score $TsuremaiCount Global matches 10 run effect give @s minecraft:strength 5 10
+execute if score $TsuremaiCount Global matches 11 run effect give @s minecraft:strength 5 11
+execute if score $TsuremaiCount Global matches 12 run effect give @s minecraft:strength 5 12
+execute if score $TsuremaiCount Global matches 13 run effect give @s minecraft:strength 5 13
+execute if score $TsuremaiCount Global matches 14 run effect give @s minecraft:strength 5 14
+execute if score $TsuremaiCount Global matches 15 run effect give @s minecraft:strength 5 15
+execute if score $TsuremaiCount Global matches 16 run effect give @s minecraft:strength 5 16
+execute if score $TsuremaiCount Global matches 17 run effect give @s minecraft:strength 5 17
+execute if score $TsuremaiCount Global matches 18 run effect give @s minecraft:strength 5 18
+execute if score $TsuremaiCount Global matches 19 run effect give @s minecraft:strength 5 19
+execute if score $TsuremaiCount Global matches 20 run effect give @s minecraft:strength 5 20
+execute if score $TsuremaiCount Global matches 21 run effect give @s minecraft:strength 5 21
+execute if score $TsuremaiCount Global matches 22 run effect give @s minecraft:strength 5 22
+execute if score $TsuremaiCount Global matches 23.. run effect give @s minecraft:strength 5 23
 
 scoreboard players add $TsuremaiCount Global 1
 
@@ -40,7 +40,7 @@ function calc_manager:target/melee/catch
 execute if score $TsuremaiCount Global matches ..24 run data merge entity 0-0-0-0-0 {CustomName:"[{\"score\":{\"name\":\"$TsuremaiCount\",\"objective\":\"Global\"},\"color\":\"yellow\",\"bold\":true},\" Hit!!\"]"}
 execute if score $TsuremaiCount Global matches 25.. run data merge entity 0-0-0-0-0 {CustomName:"[{\"score\":{\"name\":\"$TsuremaiCount\",\"objective\":\"Global\"},\"color\":\"gold\",\"bold\":true},\" Hit!!\"]"}
 scoreboard players set $TextLength Global 4
-title @s times 0 20 20
+title @s times 0 80 20
 function main:show_text/subtitle/show
 
 playsound minecraft:entity.zombie.attack_iron_door master @a[distance=..16] ~ ~ ~ 2 2
