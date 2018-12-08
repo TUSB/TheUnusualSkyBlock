@@ -97,6 +97,7 @@ tag @s[tag=AbyssWarp] add NativeTask
 tag @s[tag=Homing] add NativeTask
 tag @s[tag=Reversed] add NativeTask
 tag @s[tag=ReversedOnHurt] add NativeTask
+tag @s[tag=CircleCore] add NativeTask
 # tag @s[tag=Kurukuru] add NativeTask
 tag @s[tag=Mob,team=Friendly] remove Mob
 tag @s[tag=Mob,nbt={Invulnerable:true}] remove Mob
