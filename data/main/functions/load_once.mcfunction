@@ -59,6 +59,7 @@ scoreboard objectives add BlinkCount dummy {"text":"幻影カウント"}
 scoreboard objectives add BlinkSubTimer dummy {"text":"残影tick"}
 scoreboard objectives add GameTime dummy {"text":"ゲームタイム"}
 scoreboard objectives add Settings dummy {"text":"設定"}
+scoreboard objectives add CircleAngle dummy {"text":"円描画用角度保存"}
 ###ID系
 scoreboard objectives add ID dummy {"text":"紐付けID"}
 scoreboard objectives add Dimension dummy {"text":"ディメンション"}
