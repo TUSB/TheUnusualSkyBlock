@@ -10,6 +10,6 @@ execute if entity @s[tag=05ManaBlast] run function enemy_manager:summon/event/05
 execute if entity @s[tag=06ManaBlast] run function enemy_manager:summon/event/06_mana_blast_50
 execute if entity @s[tag=07ManaBlast] run function enemy_manager:summon/event/07_mana_blast_60
 execute if entity @s[tag=GreenPearl] run function enemy_manager:summon/event/green_pearl_16
-execute if entity @s[tag=HasteMisssile] run function enemy_manager:summon/event/haste_misssile_20
+execute if entity @s[tag=HasteMissile] run function enemy_manager:summon/event/haste_missile_20
 execute if entity @s[tag=HealMissile] run function enemy_manager:summon/event/heal_missile_10
 execute if entity @s[tag=MagicMissile] run function enemy_manager:summon/event/magic_missile_10
