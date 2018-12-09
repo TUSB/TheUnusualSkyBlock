@@ -2,6 +2,7 @@
 ### サブフォルダ分岐 - Global Ground Shoot Flag
 ##############################
 
+execute if entity @s[tag=01Brown] run function enemy_manager:summon/global/ground/shoot/flag/01_brown_20
 execute if entity @s[tag=02Red] run function enemy_manager:summon/global/ground/shoot/flag/02_red_30
 execute if entity @s[tag=03Orange] run function enemy_manager:summon/global/ground/shoot/flag/03_orange_38
 execute if entity @s[tag=04Yellow] run function enemy_manager:summon/global/ground/shoot/flag/04_yellow_45
