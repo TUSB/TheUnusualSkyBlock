@@ -47,7 +47,7 @@ execute store result score $Probability Global run data get entity @s Attributes
 execute if score $Threshold Global matches 0.. run scoreboard players operation $Threshold Global += $Probability Global
 execute if score $Random Global < $Threshold Global run function skill_manager:enemy/skill/10
 
-execute if entity @s[tag=Silent] if score $Threshold Global matches 0.. run function skill_manager:enemy/skill/none
+execute if score $Threshold Global matches 0.. run function skill_manager:enemy/skill/none
 
 execute store result score $Min Global run data get entity @s Attributes[1].Modifiers[0].Amount 1
 execute store result score $Max Global run data get entity @s Attributes[1].Modifiers[1].Amount 1
