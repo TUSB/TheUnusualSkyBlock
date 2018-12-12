@@ -1,9 +1,10 @@
 ##############################
-### フレンドリー狙い
+### ランダムな向きに設定
 ##############################
 
-execute positioned as @s facing entity @e[team=Friendly,gamemode=!creative,gamemode=!spectator,nbt=!{Health:0f},sort=nearest,limit=1] eyes run tp @s ~ ~ ~ ~ ~
-execute if entity @s[tag=Direction] run function entity_manager:direction_aiming
+execute if entity @s[tag=!Direction] run function calc_manager:set/random_rotation
+
+execute if entity @s[tag=Direction] run function entity_manager:rotation/direction_random
 
 execute rotated as @s positioned ^ ^ ^1 run function calc_manager:get/direction1
 

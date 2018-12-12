@@ -60,9 +60,9 @@ execute if score $Deploy Settings matches 1 if entity @s[type=minecraft:spawner_
 execute as @s[tag=OneOff] run data merge entity @s {SpawnPotentials:[{Entity:{id:"minecraft:area_effect_cloud",Tags:[Stopper]}}],MinSpawnDelay:10000s}
 
 ###追尾
-execute if entity @s[tag=AimOnInit,tag=!Bullet] run function entity_manager:aiming_player
-execute if entity @s[tag=RandomRotation,tag=!Bullet] run function entity_manager:random_rotation
-
+execute unless entity @s[tag=!AimOnInit,tag=RandomRotation,tag=!LateEntity] run function entity_manager:rotation/aiming_player
+execute if entity @s[tag=RandomRotation,tag=!LateEntity] run function entity_manager:rotation/random_rotation
+execute if entity @s[tag=!RandomRotation,tag=LateEntity] run function calc_manager:save/motion
 ### プレイヤー初期化
 execute as @s[type=minecraft:player] run function skill_manager:set/initialize
 

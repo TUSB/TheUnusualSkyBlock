@@ -222,9 +222,7 @@ scoreboard objectives add Quest5 dummy {"text":"受注中のクエスト5"}
 scoreboard objectives add QuestState dummy {"text":"クエスト状況リスト"}
 ###その他スコア
 scoreboard objectives add ProjectileLife dummy {"text":"飛翔物生存時間"}
-scoreboard objectives add MotionX dummy {"text":"モーションX保存"}
-scoreboard objectives add MotionY dummy {"text":"モーションY保存"}
-scoreboard objectives add MotionZ dummy {"text":"モーションZ保存"}
+scoreboard objectives add Motion dummy {"text":"モーション保存"}
 scoreboard objectives add EnemySkillSpan dummy {"text":"敵スキル使用間隔"}
 ###無限チェスト（いろは丸）
 function item_manager:inf_chest/init

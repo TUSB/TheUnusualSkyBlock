@@ -3,7 +3,7 @@
 ##############################
 
 ###炸裂弾処理
-execute if entity @s[tag=GunPowder] run function entity_manager:ignite
+execute if entity @s[tag=LateInitializer] run function entity_manager:ignite
 
 ###投射物コール処理
 execute if entity @s[tag=CallOnFin] positioned as @s run function enemy_manager:spawn/allocate_dimension
