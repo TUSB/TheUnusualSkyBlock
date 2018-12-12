@@ -26,5 +26,3 @@ execute if score $Z1 Global matches 500..999 run scoreboard players remove $Z1 G
 execute store result entity @s Motion[0] double 0.02 run scoreboard players get $X1 Global
 execute store result entity @s Motion[1] double 0.02 run scoreboard players get $Y1 Global
 execute store result entity @s Motion[2] double 0.02 run scoreboard players get $Z1 Global
-
-function calc_manager:tellraw/pos1
