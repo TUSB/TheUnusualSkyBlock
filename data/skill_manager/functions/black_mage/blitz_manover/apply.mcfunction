@@ -3,6 +3,7 @@
 ##############################
 
 scoreboard players operation @s BlitzManover = $BlitzManover Global
+scoreboard players set @s SkillInterval 0
 
 ###---演出---Start
 playsound minecraft:entity.wither.hurt master @a[distance=..16] ~ ~ ~ 1 2
