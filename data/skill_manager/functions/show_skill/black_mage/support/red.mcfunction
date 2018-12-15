@@ -7,7 +7,7 @@ tellraw @s[scores={ShowSkillNo=52011}] ["",{"text":"・スティッキーアイ�
 ###サポート２
 tellraw @s[scores={ShowSkillNo=52021}] ["",{"text":"・キャンドル","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeSupRed set 9"}}]
 ###サポート３
-tellraw @s[scores={ShowSkillNo=52031}] ["",{"text":"・ラナリオン","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeSupRed set 9"}}]
+tellraw @s[scores={ShowSkillNo=52031}] ["",{"text":"・ブリッツマニューバ","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeSupRed set 9"}}]
 ###サポート４
 tellraw @s[scores={ShowSkillNo=52041}] ["",{"text":"・ドレイン","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeSupRed set 9"}}]
 tellraw @s[scores={ShowSkillNo=52042}] ["",{"text":"・ドレインⅡ","color":"light_purple"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeSupRed set 9"}}]

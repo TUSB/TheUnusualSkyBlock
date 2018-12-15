@@ -182,6 +182,7 @@ scoreboard objectives add PillarCount dummy {"text":"セイクリッドピラー
 scoreboard objectives add PillarDamage dummy {"text":"セイクリッドピラーダメージ"}
 scoreboard objectives add EclipseRadius dummy {"text":"エクリプスフレイム半径"}
 scoreboard objectives add SleepgaTime dummy {"text":"スリプガ残り秒数"}
+scoreboard objectives add BlitzManover dummy {"text":"ブリッツマニューバ残りtick数"}
 scoreboard objectives add MagicShield dummy {"text":"マジックシールド残りtick＆発動フラグ"}
 scoreboard objectives add DarkSwamp dummy {"text":"ダークスワンプ回数"}
 scoreboard objectives add ManaRefresh dummy {"text":"マナリフレッシュ残りミリ秒＆レベル"}
@@ -432,7 +433,7 @@ scoreboard players set $5105 Cost 30
 scoreboard players set $5106 Cost 100
 scoreboard players set $5201 Cost 30
 scoreboard players set $5202 Cost 30
-scoreboard players set $5203 Cost 30
+scoreboard players set $5203 Cost 50
 scoreboard players set $5204 Cost 20
 scoreboard players set $5205 Cost 30
 scoreboard players set $5206 Cost 20
@@ -548,7 +549,7 @@ scoreboard players set $5105 Interval 5000
 scoreboard players set $5106 Interval 0
 scoreboard players set $5201 Interval 2000
 scoreboard players set $5202 Interval 2000
-scoreboard players set $5203 Interval 2000
+scoreboard players set $5203 Interval 0
 scoreboard players set $5204 Interval 2000
 scoreboard players set $5205 Interval 2000
 scoreboard players set $5206 Interval 1000

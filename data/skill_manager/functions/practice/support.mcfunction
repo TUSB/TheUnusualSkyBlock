@@ -31,6 +31,8 @@ scoreboard players operation @s SupportInterval /= $100 Const
 execute if score @s SupportSkill matches 1.. run scoreboard players operation @s SkillInterval = @s SupportInterval
 ###テラー判定
 execute if score @s TerrorLevel matches 0.. run function effect_manager:terror/check
+###ブリッツマニューバトリガー
+execute if score @s SupportSkill matches 1.. if score @s BlitzManover matches 0.. run function skill_manager:black_mage/blitz_manover/trigger
 
 ### ファランクス
 execute if score @s SupportSkill matches 12011..12019 run function skill_manager:knight/phalanx/act
@@ -124,6 +126,9 @@ execute if score @s SupportSkill matches 52011..52019 positioned as @e[tag=Egg,d
 
 ### キャンドル
 execute if score @s SupportSkill matches 52021..52029 positioned as @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:black_mage/candle/act
+
+### ブリッツマニューバ
+execute if score @s SupportSkill matches 52031..52039 run function skill_manager:black_mage/blitz_manover/act
 
 ### ジン・スピリット
 execute if score @s SupportSkill matches 52041..52049 positioned as @e[tag=Egg,distance=..6,sort=nearest,limit=1] run function skill_manager:black_mage/gin_spirit/act

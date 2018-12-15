@@ -34,6 +34,8 @@ scoreboard players operation @s ActiveInterval /= $100 Const
 execute if score @s ActiveSkill matches 1.. run scoreboard players operation @s SkillInterval = @s ActiveInterval
 ###テラー判定
 execute if score @s TerrorLevel matches 0.. run function effect_manager:terror/check
+###ブリッツマニューバトリガー
+execute if score @s ActiveSkill matches 1.. if score @s BlitzManover matches 0.. run function skill_manager:black_mage/blitz_manover/trigger
 
 ### 剣士＜はやぶさ斬り＞
 execute if score @s ActiveSkill matches 11011..11019 run function skill_manager:knight/falcon_slash/execute

@@ -143,6 +143,8 @@ execute as @a[scores={BlastSpark=1..}] at @s run function skill_manager:hunter/b
 execute as @a[scores={LightningBlow=1..}] at @s run function skill_manager:black_mage/lightning_blow/tick
 ###ロックンロール
 execute as @a[scores={RockNRoll=0..}] at @s run function skill_manager:black_mage/rock_n_roll/tick
+###ブリッツマニューバ
+execute as @a[scores={BlitzManover=0..}] at @s run function skill_manager:black_mage/blitz_manover/tick
 ###マジックシールド
 execute as @a[scores={MagicShield=0..}] at @s run function skill_manager:black_mage/magic_shield/tick
 ###ウィンドウォール
