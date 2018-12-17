@@ -13,4 +13,5 @@ execute if entity @s[tag=GreenPearl] run function enemy_manager:summon/event/gre
 execute if entity @s[tag=HasteMissile] run function enemy_manager:summon/event/haste_missile_20
 execute if entity @s[tag=HealMissile] run function enemy_manager:summon/event/heal_missile_10
 execute if entity @s[tag=MagicMissile] run function enemy_manager:summon/event/magic_missile_10
+execute if entity @s[tag=SoulOfAbyss] run function enemy_manager:summon/event/soul_of_abyss_10
 execute if entity @s[tag=TrapBomb] run function enemy_manager:summon/event/trap_bomb_35
