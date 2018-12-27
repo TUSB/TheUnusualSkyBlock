@@ -1,0 +1,6 @@
+##############################
+### パンプキンモータ召喚 - Event  
+##############################
+
+summon minecraft:villager ~ ~1 ~ {Age:-2147483648,Silent:true,Health:0f,DeathTime:19s,Passengers:[{id:"minecraft:zombie",CustomName:"\"Grumm\"",AbsorptionAmount:1f,Fire:30000s,Silent:true,IsBaby:true,PortalCooldown:100,Air:100s,DeathLootTable:"minecraft:empty",DeathLootTableSeed:5015,Tags:["TickingRequired","Swim","InAir","Homing","Homing8","HomingHorizontal","RandomRotation","Direction","HasSkill","CallOnDeath","Event","StardustBomb"],Attributes:[{Name:"generic.maxHealth",Modifiers:[{Amount:0.05d,UUIDLeast:0l}]},{Name:"generic.movementSpeed",Base:0d},{Name:"generic.attackDamage",Base:0d}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2000000,ShowParticles:false},{Id:25b,Amplifier:60b,Duration:80,ShowParticles:false}],ArmorItems:[{},{},{},{tag:{Enchantments:[{id:"minecraft:protection",lvl:0s}]},id:"minecraft:pumpkin",Count:1b}],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f]}],Passengers:[{id:"minecraft:area_effect_cloud",CustomName:"\"パンプキンモータ\"",Particle:"minecraft:flame",Tags:["Cargo"],Duration:38,Radius:0.01f,RadiusPerTick:0f}]}
+playsound minecraft:entity.firework_rocket.blast master @a[distance=..16] ~ ~ ~ 2 0 1

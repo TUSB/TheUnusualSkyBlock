@@ -15,3 +15,4 @@ execute if entity @s[tag=Kawaii] run function enemy_manager:summon/global/ground
 execute if entity @s[tag=Ker] run function enemy_manager:summon/global/ground/blow/ker_50
 execute if entity @s[tag=PastyChef] run function enemy_manager:summon/global/ground/blow/pasty_chef_40
 execute if entity @s[tag=PerverseCreeper] run function enemy_manager:summon/global/ground/blow/perverse_creeper_30
+execute if entity @s[tag=ZombieWarrior] run function enemy_manager:summon/global/ground/blow/zombie_warrior_35
