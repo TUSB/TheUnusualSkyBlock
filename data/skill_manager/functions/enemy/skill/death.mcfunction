@@ -14,6 +14,6 @@ execute if entity @s[tag=ExplodeOnDeath,tag=!Revival] run function skill_manager
 ### コール
 execute if entity @s[tag=CallOnDeath,tag=!Revival] run function skill_manager:enemy/call/death
 
-##########最後##########
+##################################################     最後にする     ##################################################
 ### 蘇生
 execute if entity @s[tag=Revival] run function skill_manager:enemy/revival/death
