@@ -1,3 +1,7 @@
 
 
-summon villager ~ ~7 ~ {Age:-32768,Silent:1b,Health:0f,DeathTime:19s,Passengers:[{Lifetime:1800,CustomName:"\"バンパーストーム\"",AbsorptionAmount:100f,Tags:[Swim,FacingPlayer,InAir,Step,Front,AroundPlayer,Inverted],Attributes:[{Name:"generic.maxHealth",Modifiers:[{Amount:0.7d,UUIDLeast:0l},{Amount:10.0d,UUIDLeast:1l},{Amount:3.5d,UUIDLeast:2l}]},{Base:48d,Name:"generic.followRange"},{Base:1d,Name:"generic.knockbackResistance"},{Base:0.265d,Name:"generic.movementSpeed"},{Base:0.05d,Name:"generic.attackDamage"}],Silent:1b,id:"endermite",ActiveEffects:[{Id:14b,Amplifier:127b,Duration:700,ShowParticles:0b},{Id:28b,Amplifier:127b,Duration:700,ShowParticles:0b}],HandItems:[{tag:{display:{Name:"\"バンパーストームの衝撃波\""},Enchantments:[{id:"knockback",lvl:15s}]},HandDropChances:[-1E40f,-1E40f],id:"minecraft:stone_sword",Count:1b},{}],Passengers:[{id:"ender_pearl",CustomName:"\"バンパーストーム\"",CustomNameVisible:1b,Tags:["Cargo"]},{Particle:"minecraft:explosion",Tags:["Cargo"],CustomName:"\"ストームオーラ\"",Radius:0.001f,Duration:80,id:"area_effect_cloud",Effects:[],Passengers:[{Particle:"minecraft:block minecraft:air",Tags:["Cargo"],CustomName:"\"衝撃波\"",Radius:1.55f,ReapplicationDelay:0,Duration:120,id:"area_effect_cloud",Effects:[{Id:25b,Amplifier:60b,Duration:4},{Id:8b,Amplifier:20b,Duration:40}]}]}]}]}
+give @p stick{display:{Name:"{\"text\":\"testtest\"}",Lore:["[\"§abcde\",\"§defgh\"]"]}}
+
+
+give @p stick{display:{Name:"{\"text\":\"testtest\"}",Lore:["§abcde§defgh","§01234§5678"]}}
+
