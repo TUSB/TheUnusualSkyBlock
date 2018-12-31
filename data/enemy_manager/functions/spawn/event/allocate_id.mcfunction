@@ -20,3 +20,4 @@ execute if entity @s[tag=PumpkinMortar] run function enemy_manager:summon/event/
 execute if entity @s[tag=SoulOfAbyss] run function enemy_manager:summon/event/soul_of_abyss_10
 execute if entity @s[tag=StardustBomb] run function enemy_manager:summon/event/stardust_bomb_30
 execute if entity @s[tag=TrapBomb] run function enemy_manager:summon/event/trap_bomb_35
+execute if entity @s[tag=WarriorExplosive] run function enemy_manager:summon/event/warrior_explosive_30
