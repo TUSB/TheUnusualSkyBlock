@@ -30,8 +30,8 @@ summon minecraft:area_effect_cloud ^ ^ ^46 {Radius:0f,RadiusPerTick:0f,RadiusOnU
 summon minecraft:area_effect_cloud ^ ^ ^48 {Radius:0f,RadiusPerTick:0f,RadiusOnUse:0f,DurationOnUse:0,Invulnerable:true,Particle:"minecraft:block minecraft:air",Age:0,WaitTime:0,ReapplicationDelay:2147483647,Duration:100,Tags:[PhotonicLazer,NativeTask,Initializing]}
 summon minecraft:area_effect_cloud ^ ^ ^50 {Radius:0f,RadiusPerTick:0f,RadiusOnUse:0f,DurationOnUse:0,Invulnerable:true,Particle:"minecraft:block minecraft:air",Age:0,WaitTime:0,ReapplicationDelay:2147483647,Duration:100,Tags:[PhotonicLazer,NativeTask,Initializing]}
 
-execute if score @s ModeSkill matches 31071 run scoreboard players set $Damage Global 820000
-execute if score @s ModeSkill matches 31072 run scoreboard players set $Damage Global 1200000
+execute if score @s ModeSkill matches 31071 run scoreboard players set $Damage Global 82000
+execute if score @s ModeSkill matches 31072 run scoreboard players set $Damage Global 120000
 function skill_manager:damage_modifier/apply
 
 scoreboard players operation @e[tag=Initializing] SkillAttribute = $Damage Global
