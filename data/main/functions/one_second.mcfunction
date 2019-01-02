@@ -67,6 +67,7 @@ execute as @e[tag=HasSkill] unless score @s SleepgaTime matches 0.. at @s run fu
 execute as @a[tag=Burn,nbt={Fire:-20s}] at @s run function effect_manager:burn/cure
 execute as @a[scores={VirusCount=0..}] at @s run function effect_manager:virus/tick
 execute as @a[scores={ConfuseCount=0..}] at @s run function effect_manager:confuse/tick
+execute as @a[scores={TerrorLevel=0..}] at @s run function effect_manager:terror/tick
 
 ### 状態異常耐性
 execute as @a[scores={ResistEffects=1..}] at @s run function effect_manager:resist
