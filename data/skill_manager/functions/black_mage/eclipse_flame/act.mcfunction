@@ -22,7 +22,7 @@ tag @e[tag=Initializing,limit=1] remove Initializing
 ###飛翔物スキル設定
 execute if score @s ModeSkill matches 51021 run scoreboard players set $Damage Global 1200
 execute if score @s ModeSkill matches 51022 run scoreboard players set $Damage Global 4400
-execute if score @s ModeSkill matches 51023 run scoreboard players set $Damage Global 20800
+execute if score @s ModeSkill matches 51023 run scoreboard players set $Damage Global 14000
 execute if score @s ModeSkill matches 51024 run scoreboard players set $Damage Global 32000
 function skill_manager:damage_modifier/apply
 

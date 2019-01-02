@@ -491,9 +491,9 @@ scoreboard players set $1105 Interval 0
 scoreboard players set $1106 Interval 2000
 scoreboard players set $1107 Interval 0
 scoreboard players set $1201 Interval 3000
-scoreboard players set $1202 Interval 7000
+scoreboard players set $1202 Interval 5000
 scoreboard players set $1203 Interval 5000
-scoreboard players set $1204 Interval 2000
+scoreboard players set $1204 Interval 1000
 scoreboard players set $1205 Interval 3000
 ##忍者
 scoreboard players set $2101 Interval 0

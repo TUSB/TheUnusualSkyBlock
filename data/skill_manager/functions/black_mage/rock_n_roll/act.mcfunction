@@ -8,7 +8,7 @@ execute rotated ~-120 0 positioned ^ ^ ^5 run summon minecraft:armor_stand ~ ~ ~
 execute as @e[tag=Initializing] at @s run function calc_manager:set/random_pose_head
 execute if score @s ModeSkill matches 51041 run scoreboard players set $Damage Global 8500
 execute if score @s ModeSkill matches 51042 run scoreboard players set $Damage Global 19000
-execute if score @s ModeSkill matches 51043 run scoreboard players set $Damage Global 73000
+execute if score @s ModeSkill matches 51043 run scoreboard players set $Damage Global 64000
 execute if score @s ModeSkill matches 51044 run scoreboard players set $Damage Global 105000
 function skill_manager:damage_modifier/apply
 scoreboard players operation @e[tag=Initializing] SkillAttribute = $Damage Global
