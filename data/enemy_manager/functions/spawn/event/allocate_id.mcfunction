@@ -15,6 +15,7 @@ execute if entity @s[tag=GoblinsGate] run function enemy_manager:summon/event/go
 execute if entity @s[tag=GreenPearl] run function enemy_manager:summon/event/green_pearl_16
 execute if entity @s[tag=HasteMissile] run function enemy_manager:summon/event/haste_missile_20
 execute if entity @s[tag=HealMissile] run function enemy_manager:summon/event/heal_missile_10
+execute if entity @s[tag=HellSpark] run function enemy_manager:summon/event/hell_spark_50
 execute if entity @s[tag=MagicMissile] run function enemy_manager:summon/event/magic_missile_10
 execute if entity @s[tag=PumpkinMortar] run function enemy_manager:summon/event/pumpkin_mortar_30
 execute if entity @s[tag=SoulOfAbyss] run function enemy_manager:summon/event/soul_of_abyss_10
