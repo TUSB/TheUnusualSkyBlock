@@ -44,7 +44,7 @@ execute anchored eyes run particle minecraft:end_rod ^ ^ ^39 0 0 0 0 10
 execute anchored eyes run particle minecraft:end_rod ^ ^ ^40 0 0 0 0 10
 tag @s add Shooter
 execute positioned ^ ^ ^10.1 as @a[gamemode=!creative,gamemode=!spectator,distance=..40] positioned as @s positioned ^ ^ ^1000 facing entity @e[tag=Shooter,limit=1] eyes positioned ^ ^ ^1000 positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0,dy=0,dz=0] run tag @s add SteaveLaserTarget
-effect give @a[tag=SteaveLaserTarget] instant_damage 20 1
+effect give @a[tag=SteaveLaserTarget] instant_damage 30 1
 tag @s remove Shooter
 tag @e[tag=SteaveLaserTarget] remove SteaveLaserTarget
 playsound minecraft:entity.wither.death master @a[distance=..40] ~ ~ ~ 10 2
