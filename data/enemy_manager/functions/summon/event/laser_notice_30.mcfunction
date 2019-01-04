@@ -42,6 +42,7 @@ execute anchored eyes run particle minecraft:flame ^ ^ ^37 0 0 0 0 10
 execute anchored eyes run particle minecraft:flame ^ ^ ^38 0 0 0 0 10
 execute anchored eyes run particle minecraft:flame ^ ^ ^39 0 0 0 0 10
 execute anchored eyes run particle minecraft:flame ^ ^ ^40 0 0 0 0 10
-summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["CallOnFin","Event","Laser","CooldownRequired","FaceToPlayer"],Duration:600,Radius:0f,Particle:"minecraft:block minecraft:air",PortalCooldown:5s}
+summon minecraft:area_effect_cloud ~ ~ ~ {Tags:["CallOnFin","Event","Laser","CooldownRequired","FaceToPlayer"],Duration:600,Radius:0f,Particle:"minecraft:block minecraft:air",PortalCooldown:10s}
 execute as @e[tag=FaceToPlayer,limit=1] at @s run tp @s ~ ~ ~ facing entity @p[gamemode=!creative,gamemode=!spectator]
 tag @e[tag=FaceToPlayer,limit=1] remove FaceToPlayer
+playsound minecraft:block.beacon.activate master @a[distance=..40] ~ ~ ~ 10 2
