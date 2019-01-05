@@ -2,9 +2,10 @@
 ### チェインアロー発動
 ##############################
 
-scoreboard players set $Damage Global 40000
-execute if score @s ModeSkill matches 31023 run scoreboard players set $Damage Global 50000
-execute if score @s ModeSkill matches 31024 run scoreboard players set $Damage Global 60000
+scoreboard players set $Damage Global 45000
+execute if score @s ModeSkill matches 31022 run scoreboard players set $Damage Global 47000
+execute if score @s ModeSkill matches 31023 run scoreboard players set $Damage Global 60000
+execute if score @s ModeSkill matches 31024 run scoreboard players set $Damage Global 70000
 
 function skill_manager:damage_modifier/apply
 
