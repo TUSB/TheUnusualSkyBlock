@@ -40,8 +40,10 @@ execute if score @s ActiveSkill matches 1.. if score @s BlitzManover matches 0..
 ### 剣士＜はやぶさ斬り＞
 execute if score @s ActiveSkill matches 11011..11019 run function skill_manager:knight/falcon_slash/execute
 
-### 剣士＜地裂斬＞
-execute if score @s ActiveSkill matches 11021..11029 run function skill_manager:knight/crack_slash/act
+# ### 剣士＜地裂斬＞
+# execute if score @s ActiveSkill matches 11021..11029 run function skill_manager:knight/crack_slash/act
+### 剣士＜猛火斬＞
+execute if score @s ActiveSkill matches 11021..11029 run function skill_manager:knight/raging_slash/act
 
 ### 剣士＜ディバインシールド＞
 execute if score @s ActiveSkill matches 11031..11039 run function skill_manager:knight/divine_shield/act

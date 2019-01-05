@@ -14,3 +14,7 @@ execute if score $Flags Global matches ..-1 run function skill_manager:enemy/bli
 scoreboard players operation $Flags Global *= $2 Const
 ###隼斬り遅延発動処理(30)
 execute if score $Flags Global matches ..-1 run function skill_manager:knight/falcon_slash/decorate/tick
+
+scoreboard players operation $Flags Global *= $2 Const
+###猛火斬ダメージ付与処理(29)
+execute if score $Flags Global matches ..-1 run function skill_manager:knight/raging_slash/tick

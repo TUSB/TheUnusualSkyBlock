@@ -2,13 +2,18 @@
 ### MP更新
 ##############################
 
+### MPアクセラ
+execute unless score @s MPAcceleration matches 900.. run scoreboard players add @s MPAcceleration 1
+
 ### スキル使ったらスキル変更やさしさシステム解除
 execute if score @s MPConsumption matches 1.. run tag @s remove SuppressLimit
+execute if score @s MPConsumption matches 1.. run scoreboard players set @s MPAcceleration -200
 
-### 50-100 2500で1回復
+### 50-100 2000で1回復
 scoreboard players operation $CountSum Global = @s Level
 scoreboard players operation $CountSum Global < $50 Const
 scoreboard players add $CountSum Global 50
+execute if score @s MPAcceleration matches 1.. run scoreboard players operation $CountSum Global += @s MPAcceleration
 # ### 体力を30倍で取得、600以下(体力１列分)にして700から引くことで100-700の割合を取る
 # execute store result score $Modifier Global run data get entity @s Health 30
 # scoreboard players operation $Modifier Global < $600 Const

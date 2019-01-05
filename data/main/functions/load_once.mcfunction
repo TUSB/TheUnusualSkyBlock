@@ -139,6 +139,7 @@ scoreboard objectives add ActiveInterval dummy {"text":"発動スキル発動無
 ###モブステータス系
 scoreboard objectives add MobHPMax dummy {"text":"モブ最大体力"}
 scoreboard objectives add Damage dummy {"text":"モブ付与ダメージ"}
+scoreboard objectives add StackDamage dummy {"text":"モブ付与ダメージスタック版"}
 scoreboard objectives add TemporaryEffects dummy {"text":"一時的ステータス変化Flags"}
 scoreboard objectives add PreviousMobHP dummy {"text":"モブ直前体力"}
 scoreboard objectives add LastDamage dummy {"text":"モブ最終ダメージ"}
@@ -147,6 +148,7 @@ scoreboard objectives add RecentMaxDamage dummy {"text":"モブ10tick内最大�
 ###スキル共通系
 scoreboard objectives add SkillInterval dummy {"text":"スキル使用不可tick数"}
 scoreboard objectives add MPHealingWait dummy {"text":"MP回復ウェイト"}
+scoreboard objectives add MPAcceleration dummy {"text":"MP回復加速量"}
 scoreboard objectives add MPConsumption dummy {"text":"MP消費量"}
 scoreboard objectives add ChangeSkillLimit dummy {"text":"スキル変更不可時間"}
 scoreboard objectives add ProjectileSkill dummy {"text":"飛翔物付与スキル"}
@@ -158,6 +160,7 @@ scoreboard objectives add BurstCommand dummy {"text":"バースト入力コマ�
 ###スキル個別系
 scoreboard objectives add FalconSlashTimer dummy {"text":"はやぶさ斬り遅延タイマー"}
 scoreboard objectives add IronWill dummy {"text":"アイアンウィル残りtick数"}
+scoreboard objectives add RagingDamage dummy {"text":"猛火斬ダメージ"}
 scoreboard objectives add DivineShield dummy {"text":"ディバインシールドダメージ量"}
 scoreboard objectives add OdinSlash dummy {"text":"斬鉄剣発動タイミング調整"}
 scoreboard objectives add TacticalHeal dummy {"text":"タクティカルヒール持続確率"}
@@ -302,6 +305,7 @@ scoreboard players set $75 Const 75
 scoreboard players set $80 Const 80
 scoreboard players set $84 Const 84
 scoreboard players set $90 Const 90
+scoreboard players set $99 Const 99
 scoreboard players set $100 Const 100
 scoreboard players set $110 Const 110
 scoreboard players set $120 Const 120
@@ -372,7 +376,7 @@ scoreboard players set $IntMax Const 2147483647
 ###MP一覧
 ##剣士
 scoreboard players set $1101 Cost 15
-scoreboard players set $1102 Cost 20
+scoreboard players set $1102 Cost 30
 scoreboard players set $1103 Cost 10
 scoreboard players set $1104 Cost 15
 scoreboard players set $1105 Cost 10
