@@ -1,20 +1,20 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:oak_planks"
+      "item": "minecraft:wooden_sword"
     },
     "title": {
-      "text": "旧世界の痕跡"
+      "text": "異変解決屋の初仕事"
     },
     "description": {
-      "text": "地底の僻地には怪しい影が"
+      "text": "クエストを達成すると、報酬を貰うことができる"
     },
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "advancement_manager:underworld/root",
+  "parent": "advancement_manager:skill_setting_field/quest",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"

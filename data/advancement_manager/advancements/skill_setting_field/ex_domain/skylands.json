@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:egg"
+      "item": "minecraft:firework_star",
+      "nbt": "{Explosion:{Type:0b,Colors:[I;4408131]}}"
     },
     "title": {
       "text": "空島の秘宝"
@@ -21,8 +22,8 @@
       "conditions": {
         "items": [
           {
-            "item": "minecraft:egg",
-            "nbt": "{display:{Name:\"\\\"たまご\\\"\"}}"
+            "item": "minecraft:firework_star",
+            "nbt": "{display:{Name:\"\\\"\\\"\"},Explosion:{Type:0b,Colors:[I;4408131]}}"
           }
         ]
       }

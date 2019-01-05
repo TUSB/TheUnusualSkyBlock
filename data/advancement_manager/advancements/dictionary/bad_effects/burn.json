@@ -1,20 +1,20 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:end_portal_frame"
+      "item": "minecraft:blaze_powder"
     },
     "title": {
-      "text": "意志を持つ者"
+      "text": "やけど            "
     },
     "description": {
-      "text": "この空を制そうと志す者"
+      "text": "炎上ダメージが増加する\n火炎耐性などが有効"
     },
     "frame": "task",
-    "show_toast": true,
+    "show_toast": false,
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "advancement_manager:common/root",
+  "parent": "advancement_manager:dictionary/bad_effects/doom",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"

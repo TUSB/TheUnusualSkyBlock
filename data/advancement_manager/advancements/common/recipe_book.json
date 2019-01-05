@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "advancement_manager:common/root",
+  "parent": "advancement_manager:common/conquest_first",
   "criteria": {
     "knowledge_book": {
       "trigger": "minecraft:inventory_changed",

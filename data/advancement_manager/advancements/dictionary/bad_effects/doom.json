@@ -4,17 +4,17 @@
       "item": "minecraft:wither_skeleton_skull"
     },
     "title": {
-      "text": "恐ろしき呪い"
+      "text": "死の宣告          "
     },
     "description": {
-      "text": "死の宣告を受けて耐え抜くことはできない"
+      "text": "数カウントの後即死する\n聖水などで回避可能"
     },
     "frame": "task",
-    "show_toast": true,
-    "announce_to_chat": true,
+    "show_toast": false,
+    "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "advancement_manager:common/death",
+  "parent": "advancement_manager:dictionary/bad_effects",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"

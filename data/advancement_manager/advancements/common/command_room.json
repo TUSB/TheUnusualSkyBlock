@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "advancement_manager:common/root",
+  "parent": "advancement_manager:common/conquest_all",
   "criteria": {
     "debug_room": {
       "trigger": "minecraft:location",

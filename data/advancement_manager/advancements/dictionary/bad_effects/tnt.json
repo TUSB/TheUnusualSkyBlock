@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:tnt"
+    },
+    "title": {
+      "text": "トント                "
+    },
+    "description": {
+      "text": "付与された後ダメージを一定回数受けると爆発する\n一定時間経過後に解除される"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "advancement_manager:dictionary/bad_effects/terror",
+  "criteria": {
+    "dummy": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
