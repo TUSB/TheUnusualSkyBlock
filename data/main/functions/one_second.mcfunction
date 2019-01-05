@@ -49,7 +49,7 @@ execute at @e[tag=DarkSwamp,sort=random,limit=3] run particle minecraft:squid_in
 
 ### 遁術
 execute as @a[scores={Suiton=1..}] at @s run function skill_manager:ninja/suiton/tick
-execute as @a[scores={FireAffinity=1..}] at @s run function skill_manager:ninja/katon/affinity/tick
+execute as @a[scores={Katon=1..}] at @s run function skill_manager:ninja/katon/tick
 
 ### 黙想
 execute as @a[scores={Mokuso=0..}] at @s run function skill_manager:ninja/mokuso/tick
