@@ -15,6 +15,8 @@ execute if entity @s[tag=Homing] run function entity_manager:homing
 # execute if entity @s[tag=Kurukuru] run function entity_manager:kurukuru
 execute if entity @s[tag=CircleCore] run function entity_manager:special_circle
 
+###真空斬り
+execute if entity @s[tag=AerialSlash,scores={DecrementTimer=..0}] run function skill_manager:knight/aerial_slash/re_aim
 ###地烈斬
 execute if entity @s[tag=CrackSlash] run function skill_manager:knight/crack_slash/tick
 ###斬鉄剣

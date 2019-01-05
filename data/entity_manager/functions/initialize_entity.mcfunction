@@ -64,6 +64,7 @@ execute if entity @s[tag=AimOnInit] run function entity_manager:rotation/aiming_
 execute if entity @s[tag=LateEntity,tag=!RandomRotation] run function entity_manager:rotation/aiming_player
 execute if entity @s[tag=RandomRotation,tag=!LateEntity] run function entity_manager:rotation/random_rotation
 execute if entity @s[tag=!RandomRotation,tag=LateEntity] run function calc_manager:save/motion
+
 ### プレイヤー初期化
 execute as @s[type=minecraft:player] run function skill_manager:set/initialize
 

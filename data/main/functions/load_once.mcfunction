@@ -374,7 +374,7 @@ scoreboard players set $IntMax Const 2147483647
 scoreboard players set $1101 Cost 15
 scoreboard players set $1102 Cost 20
 scoreboard players set $1103 Cost 10
-scoreboard players set $1104 Cost 5
+scoreboard players set $1104 Cost 15
 scoreboard players set $1105 Cost 10
 scoreboard players set $1106 Cost 10
 scoreboard players set $1107 Cost 100
