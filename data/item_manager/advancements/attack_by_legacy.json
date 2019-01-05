@@ -16,7 +16,7 @@
                     "type": {
                         "source_entity": {
                             "type": "minecraft:player",
-                            "nbt": "{SelectedItemSlot:0, Inventory:[{Slot:0b, tag:{Legacy:[{Name:\"Legacy\"}]}}]}"
+                            "nbt": "{SelectedItemSlot:0, Inventory:[{Slot:0b, tag:{Legacy:{}}}]}"
                         }
                     }
                 }
@@ -29,7 +29,7 @@
                     "type": {
                         "source_entity": {
                             "type": "minecraft:player",
-                            "nbt": "{SelectedItemSlot:1, Inventory:[{Slot:1b, tag:{Legacy:[{Name:\"Legacy\"}]}}]}"
+                            "nbt": "{SelectedItemSlot:1, Inventory:[{Slot:1b, tag:{Legacy:{}}}]}"
                         }
                     }
                 }
@@ -42,7 +42,7 @@
                     "type": {
                         "source_entity": {
                             "type": "minecraft:player",
-                            "nbt": "{SelectedItemSlot:2, Inventory:[{Slot:2b, tag:{Legacy:[{Name:\"Legacy\"}]}}]}"
+                            "nbt": "{SelectedItemSlot:2, Inventory:[{Slot:2b, tag:{Legacy:{}}}]}"
                         }
                     }
                 }
@@ -55,7 +55,7 @@
                     "type": {
                         "source_entity": {
                             "type": "minecraft:player",
-                            "nbt": "{SelectedItemSlot:3, Inventory:[{Slot:3b, tag:{Legacy:[{Name:\"Legacy\"}]}}]}"
+                            "nbt": "{SelectedItemSlot:3, Inventory:[{Slot:3b, tag:{Legacy:{}}}]}"
                         }
                     }
                 }
@@ -68,7 +68,7 @@
                     "type": {
                         "source_entity": {
                             "type": "minecraft:player",
-                            "nbt": "{SelectedItemSlot:4, Inventory:[{Slot:4b, tag:{Legacy:[{Name:\"Legacy\"}]}}]}"
+                            "nbt": "{SelectedItemSlot:4, Inventory:[{Slot:4b, tag:{Legacy:{}}}]}"
                         }
                     }
                 }
@@ -81,7 +81,7 @@
                     "type": {
                         "source_entity": {
                             "type": "minecraft:player",
-                            "nbt": "{SelectedItemSlot:5, Inventory:[{Slot:5b, tag:{Legacy:[{Name:\"Legacy\"}]}}]}"
+                            "nbt": "{SelectedItemSlot:5, Inventory:[{Slot:5b, tag:{Legacy:{}}}]}"
                         }
                     }
                 }
@@ -94,7 +94,7 @@
                     "type": {
                         "source_entity": {
                             "type": "minecraft:player",
-                            "nbt": "{SelectedItemSlot:6, Inventory:[{Slot:6b, tag:{Legacy:[{Name:\"Legacy\"}]}}]}"
+                            "nbt": "{SelectedItemSlot:6, Inventory:[{Slot:6b, tag:{Legacy:{}}}]}"
                         }
                     }
                 }
@@ -107,7 +107,7 @@
                     "type": {
                         "source_entity": {
                             "type": "minecraft:player",
-                            "nbt": "{SelectedItemSlot:7, Inventory:[{Slot:7b, tag:{Legacy:[{Name:\"Legacy\"}]}}]}"
+                            "nbt": "{SelectedItemSlot:7, Inventory:[{Slot:7b, tag:{Legacy:{}}}]}"
                         }
                     }
                 }
@@ -120,7 +120,7 @@
                     "type": {
                         "source_entity": {
                             "type": "minecraft:player",
-                            "nbt": "{SelectedItemSlot:8, Inventory:[{Slot:8b, tag:{Legacy:[{Name:\"Legacy\"}]}}]}"
+                            "nbt": "{SelectedItemSlot:8, Inventory:[{Slot:8b, tag:{Legacy:{}}}]}"
                         }
                     }
                 }
