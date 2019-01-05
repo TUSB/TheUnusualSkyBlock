@@ -162,7 +162,9 @@ scoreboard objectives add DivineShield dummy {"text":"ディバインシール�
 scoreboard objectives add OdinSlash dummy {"text":"斬鉄剣発動タイミング調整"}
 scoreboard objectives add TacticalHeal dummy {"text":"タクティカルヒール持続確率"}
 scoreboard objectives add Aisatsu dummy {"text":"アイサツ消費MP減少効果量"}
+scoreboard objectives add Suiton dummy {"text":"水遁"}
 scoreboard objectives add WaterAffinity dummy {"text":"ウォータアフィニティ"}
+scoreboard objectives add Katon dummy {"text":"火遁"}
 scoreboard objectives add FireAffinity dummy {"text":"ファイアアフィニティ"}
 scoreboard objectives add Choyaku dummy {"text":"跳躍跳躍力"}
 scoreboard objectives add Mokuso dummy {"text":"黙想レベル"}
