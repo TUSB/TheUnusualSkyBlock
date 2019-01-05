@@ -7,7 +7,7 @@
       "text": "海底神殿"
     },
     "description": {
-      "text": "ボートでしか行けない場所もある。"
+      "text": "ボートでしか行けない場所もある"
     },
     "frame": "task",
     "show_toast": true,

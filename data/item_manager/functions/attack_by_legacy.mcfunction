@@ -3,7 +3,7 @@
 ##############################
 
 ###耐久取得
-execute store result score $LegacyDurability Global run data get entity @s SelectedItem.tag.AttributeModifiers[0].Amount 1000
+execute store result score $LegacyDurability Global run data get entity @s SelectedItem.tag.Legacy.Durability 1000
 ###スタック時用カウント取得
 execute store result score $LegacyCount Global run data get entity @s SelectedItem.Count
 scoreboard players set $Legacy1000 Global 1000
@@ -11,7 +11,7 @@ execute store result score $LegacyCount Global run scoreboard players operation 
 ###耐久変化計算
 scoreboard players operation $LegacyDurability Global -= $LegacyCount Global
 ###耐久変化反映
-execute store result entity @s SelectedItem.tag.AttributeModifiers[0].Amount double 0.001 run scoreboard players get $LegacyDurability Global
+execute store result entity @s SelectedItem.tag.Legacy.Durability double 0.001 run scoreboard players get $LegacyDurability Global
 
 ###０以下壊れる
 execute if score $LegacyDurability Global matches ..0 run replaceitem entity @s weapon.mainhand minecraft:air

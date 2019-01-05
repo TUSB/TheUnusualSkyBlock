@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:glass"
+    },
+    "title": {
+      "text": "見えない道の先へ 単位取得！"
+    },
+    "description": {
+      "text": "インビジブルを突破しよう"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement_manager:athletics/3rd",
+  "criteria": {
+    "dummy": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

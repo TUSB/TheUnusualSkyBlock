@@ -1,7 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:cyan_stained_glass"
+      "item": "minecraft:cyan_stained_glass",
+      "nbt": "{Enchantments:[{}]}"
     },
     "title": {
       "text": "財宝の眠る神殿"

@@ -1,20 +1,20 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:ice"
+      "item": "minecraft:spruce_sapling"
     },
     "title": {
-      "text": "封じられたゲート"
+      "text": "神社に参拝"
     },
     "description": {
-      "text": "冷え切った世界への入り口"
+      "text": "二礼、二拍手、一礼、お賽銭も忘れずに"
     },
     "frame": "task",
     "show_toast": true,
-    "announce_to_chat": false,
+    "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "advancement_manager:skylands/upper",
+  "parent": "advancement_manager:skill_setting_field/root",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"

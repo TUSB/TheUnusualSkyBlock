@@ -7,14 +7,14 @@
       "text": "大革命"
     },
     "description": {
-      "text": "物の価値は大きく変化した"
+      "text": "知識によって物の価値は大きく変化する"
     },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "advancement_manager:common/root",
+  "parent": "advancement_manager:common/recipe_book",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"

@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "advancement_manager:job/grew_puppet_master",
+  "parent": "advancement_manager:job/become_any",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"

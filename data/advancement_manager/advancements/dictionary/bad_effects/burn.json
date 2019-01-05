@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:blaze_powder"
+    },
+    "title": {
+      "text": "やけど            "
+    },
+    "description": {
+      "text": "炎上ダメージが増加する\n火炎耐性などが有効"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "advancement_manager:dictionary/bad_effects/doom",
+  "criteria": {
+    "dummy": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

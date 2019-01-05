@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "advancement_manager:common/root",
+  "parent": "advancement_manager:common/death",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"
