@@ -295,6 +295,7 @@ scoreboard players set $48 Const 48
 scoreboard players set $49 Const 49
 scoreboard players set $50 Const 50
 scoreboard players set $51 Const 51
+scoreboard players set $54 Const 54
 scoreboard players set $60 Const 60
 scoreboard players set $70 Const 70
 scoreboard players set $75 Const 75

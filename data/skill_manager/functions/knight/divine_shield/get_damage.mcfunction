@@ -41,6 +41,6 @@ execute if entity @s[advancements={skill_manager:divine_shield={144_damage_taken
 execute if entity @s[advancements={skill_manager:divine_shield={148_damage_taken=true}}] run scoreboard players set $Damage Global 14800
 execute if entity @s[advancements={skill_manager:divine_shield={150_damage_taken=true}}] run scoreboard players set $Damage Global 15000
 
-execute if score @s ModeSkill matches 11031 run scoreboard players operation $Damage Global *= $10 Const
-execute if score @s ModeSkill matches 11032 run scoreboard players operation $Damage Global *= $40 Const
-execute if score @s ModeSkill matches 11033 run scoreboard players operation $Damage Global *= $100 Const
+execute if score @s ModeSkill matches 11031 run scoreboard players operation $Damage Global *= $14 Const
+execute if score @s ModeSkill matches 11032 run scoreboard players operation $Damage Global *= $54 Const
+execute if score @s ModeSkill matches 11033 run scoreboard players operation $Damage Global *= $150 Const
