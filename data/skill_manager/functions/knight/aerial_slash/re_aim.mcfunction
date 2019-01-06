@@ -7,7 +7,7 @@ scoreboard players operation $Id Global = @s ID
 execute as @e[distance=..16,tag=Mob] if score @s ID = $Id Global run tag @s add Target
 
 ###モーション計算
-execute anchored eyes at @e[distance=..16,tag=Target,limit=1] run function calc_manager:get/direction1
+execute at @e[distance=..16,tag=Target,limit=1] run function calc_manager:get/direction1
 
 ###モーション量を補正
 scoreboard players set $M Global 250
