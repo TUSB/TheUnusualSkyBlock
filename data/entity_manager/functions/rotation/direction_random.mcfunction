@@ -9,6 +9,7 @@ function calc_manager:get/rotation1
 #補正角度取得
 execute if entity @s[tag=Projectile] store result score $RX2 Global run data get entity @s FallDistance 1
 execute if entity @s[tag=Mob] store result score $RX2 Global run data get entity @s DeathLootTableSeed 1
+execute if entity @s[tag=Mob] store result entity @s DeathLootTableSeed int 1 run scoreboard players get $0 Const
 scoreboard players operation $RY2 Global = $RX2 Global
 
 #垂直と水平に分離
