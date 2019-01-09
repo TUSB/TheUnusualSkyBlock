@@ -17,4 +17,5 @@ playsound minecraft:entity.ender_dragon.ambient master @a[tag=screamTarget] ~ ~ 
 scoreboard players reset @a[tag=screamTarget] Global
 effect give @a[tag=screamTarget] minecraft:mining_fatigue 5 20
 effect give @a[tag=screamTarget] minecraft:slowness 5 20
+execute as @a[tag=screamTarget,scores={Global=0..6554}] run function effect_manager:
 tag @a[tag=screamTarget] remove screamTarget
