@@ -12,6 +12,9 @@ execute as @e[tag=Automaton] at @s run function puppet_manager:bio_handling/tick
 ### 常に炎上処理
 execute as @e[tag=Burning,nbt={Fire:-1s}] at @s if entity @p[distance=..48] run function entity_manager:burning
 
+### 弱点処理
+execute as @e[tag=WeakPoint] at @s run function entity_manager:weak_point/fork
+
 ### スリプガ処理
 execute as @e[scores={SleepgaTime=0..}] positioned as @s anchored eyes run function skill_manager:black_mage/sleepga/tick
 
