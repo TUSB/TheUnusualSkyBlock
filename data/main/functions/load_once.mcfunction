@@ -3,6 +3,7 @@
 ##############################
 
 ###ステータスやトリガー
+scoreboard objectives add HP health {"text":"HP"} 
 scoreboard objectives add MP dummy {"text":"MP"}
 scoreboard objectives add MPMax dummy {"text":"MP最大値"}
 scoreboard objectives add Armor armor {"text":"防御力"}
@@ -623,6 +624,7 @@ scoreboard players set $1 QuestState 1
 ###スコアボード表示設定
 scoreboard objectives setdisplay sidebar MP
 scoreboard objectives setdisplay list Level
+scoreboard objectives setdisplay belowname HP
 ###チーム作成
 team add NoCollision {"text":"衝突判定なし"}
 team modify NoCollision collisionRule never
