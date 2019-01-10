@@ -7,3 +7,4 @@ tellraw @a [{"text":"","color":"red"},{"selector":"@s"},"は",{"text":"死の宣
 
 ###進捗
 execute if entity @s[advancements={advancement_manager:common/doom=false}] run advancement grant @s only advancement_manager:common/doom
+execute if entity @s[advancements={advancement_manager:dictionary/bad_effects/doom=false}] run advancement grant @s only advancement_manager:dictionary/bad_effects/doom

@@ -1,20 +1,20 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:string"
+      "item": "minecraft:white_stained_glass"
     },
     "title": {
-      "text": "混乱                  "
+      "text": "幻影        "
     },
     "description": {
-      "text": "定期的に視点が強制的に変更される\n一定時間経過後に解除される"
+      "text": "一定時間スキル攻撃を無効化する"
     },
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "advancement_manager:dictionary/bad_effects/virus",
+  "parent": "advancement_manager:dictionary/enemy_skill/teleport",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"

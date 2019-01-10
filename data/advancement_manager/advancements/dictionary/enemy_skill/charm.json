@@ -1,20 +1,20 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:string"
+      "item": "minecraft:ender_eye"
     },
     "title": {
-      "text": "混乱                  "
+      "text": "魅了        "
     },
     "description": {
-      "text": "定期的に視点が強制的に変更される\n一定時間経過後に解除される"
+      "text": "一定時間周囲のプレイヤーの視線を自身へと向ける"
     },
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "advancement_manager:dictionary/bad_effects/virus",
+  "parent": "advancement_manager:dictionary/enemy_skill/blink",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"

@@ -1,0 +1,23 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:polar_bear_spawn_egg"
+    },
+    "title": {
+        "text": "能力を持ちし敵"
+    },
+    "description": {
+      "text": "スキルを使うのはプレイヤーのみではない"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "advancement_manager:dictionary/root",
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

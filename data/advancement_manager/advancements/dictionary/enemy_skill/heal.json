@@ -1,20 +1,21 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:string"
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:healing\"}"
     },
     "title": {
-      "text": "混乱                  "
+      "text": "回復        "
     },
     "description": {
-      "text": "定期的に視点が強制的に変更される\n一定時間経過後に解除される"
+      "text": "自身の体力を回復する\n周囲の味方を回復する者も居る"
     },
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "advancement_manager:dictionary/bad_effects/virus",
+  "parent": "advancement_manager:dictionary/enemy_skill/scream",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"
