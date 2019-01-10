@@ -135,6 +135,18 @@ summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{display:{Name
 # 邪神 イゴールナク_右手
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{display:{Name:"[{\"text\":\"\",\"italic\":false},{\"text\":\"daraku\",\"color\":\"blue\",\"obfuscated\":true},{\"text\":\"邪神 イゴールナク_左手\",\"color\":\"dark_red\",\"bold\":true},{\"text\":\"daraku\",\"color\":\"blue\",\"obfuscated\":true},{\"text\":\"\",\"color\":\"reset\"}]"},SkullOwner:{Id:"a48963e4-e6ae-4f4c-8a96-b904e1aba1d5",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzIyOGNjZDQzODU0OGRjNjYxMGY0YzZiZGNkOTg0NzM5NDg2ZDg4MzA1MjVmY2Y5Y2M5MTFkM2MyMTE4NTgifX19"}]}}}}}
 
+# モガー_右手
+summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"23531fcc-2dd0-4934-a9ff-6732910decac",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjE1NzlkODIwOWVlMGE2ZDNhMzllNDgzOTA4NjJjZDhmODZiYzg2Y2Y0YTMwMjljMTJiMjU3YTgxY2ZmMTIwZSJ9fX0="}]}}}}}
+
+# モガー_左手
+summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"9b3fadcf-6524-4ea6-bb32-5f66e39a7e75",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjdlMWJjM2I4NjBkODI5NmM5NmJhZDU0YjMyM2FiMzlmZTUzMDEzYjg1YmJkMTYyYmYzNDdkZGRjODhkYzc3MCJ9fX0="}]}}}}}
+
+# 堕落の肉腫_右手
+summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"83660800-dbc6-4ca7-9f95-9d827092ff74",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2Q1Nzk4MWQ3ZTY5MzA3NzM2ZTNmYTRlOTM2NThhNGI4MDQzMjk2NTNlZGE4ZGJlOWQ3NDdjNTQ2ODg4NDEyZiJ9fX0="}]}}}}}
+
+# 堕落の肉腫_左手
+summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"8e8710f3-c9d3-45eb-9e19-093d86a526ca",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI2NTQ2Yzk1NDc5ZmUzNzc3MDQ4MTFiYjY5MDc3MjE0NDNmNmUwN2U3ZTEzMTg1Mzc4NDdmYzdjZDI4MWMyYiJ9fX0="}]}}}}}
+
 # 終熄の誘手
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"終熄の誘手",Id:"eb9f87d8-df1a-4a02-854a-1770c92d7f70",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMwOThkZGJjZmUyNGYzNWFiY2Y3NTVkODllY2U4YTk0ZmEwZjMyZmZkODgyODBlMmEyNzE2NTYzYTliOGU3YiJ9fX0="}]}}}}}
 
