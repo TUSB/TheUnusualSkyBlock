@@ -1,21 +1,20 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:potion",
-      "nbt": "{Potion:\"minecraft:healing\"}"
+      "item": "minecraft:stone_bricks"
     },
     "title": {
-      "text": "しあわせの街"
+      "text": "地獄へと続く道"
     },
     "description": {
-      "text": "あなたもこの街に住めば幸福に！"
+      "text": "突破できるか、試練の道"
     },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "advancement_manager:table_mountain/6-7f",
+  "parent": "advancement_manager:table_mountain/4f",
   "criteria": {
     "join": {
       "trigger": "minecraft:location",
@@ -23,16 +22,16 @@
         "dimension": "overworld",
         "position": {
           "x": {
-            "min": -3,
-            "max": 52
+            "min": 0,
+            "max": 56
           },
           "y": {
-            "min": 114,
-            "max": 126
+            "min": 66,
+            "max": 71
           },
           "z": {
-            "min": -2861,
-            "max": -2840
+            "min": -2863,
+            "max": -2785
           }
         }
       }

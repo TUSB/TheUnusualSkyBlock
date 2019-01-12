@@ -1,21 +1,20 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:potion",
-      "nbt": "{Potion:\"minecraft:healing\"}"
+      "item": "minecraft:lava_bucket"
     },
     "title": {
-      "text": "しあわせの街"
+      "text": "灼熱迷宮"
     },
     "description": {
-      "text": "あなたもこの街に住めば幸福に！"
+      "text": "暑く過酷な、溶岩の迷宮"
     },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "advancement_manager:table_mountain/6-7f",
+  "parent": "advancement_manager:table_mountain/5f",
   "criteria": {
     "join": {
       "trigger": "minecraft:location",
@@ -23,16 +22,16 @@
         "dimension": "overworld",
         "position": {
           "x": {
-            "min": -3,
-            "max": 52
+            "min": 0,
+            "max": 56
           },
           "y": {
-            "min": 114,
-            "max": 126
+            "min": 82,
+            "max": 91
           },
           "z": {
-            "min": -2861,
-            "max": -2840
+            "min": -2863,
+            "max": -2785
           }
         }
       }

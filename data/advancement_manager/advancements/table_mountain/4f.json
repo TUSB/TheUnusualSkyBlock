@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "advancement_manager:table_mountain/root",
+  "parent": "advancement_manager:table_mountain/1-3f",
   "criteria": {
     "join": {
       "trigger": "minecraft:location",

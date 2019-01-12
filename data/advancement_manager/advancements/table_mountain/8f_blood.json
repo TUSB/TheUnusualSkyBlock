@@ -10,7 +10,7 @@
     "description": {
       "text": "ここは地獄ですが、我々は幸福です、コンピューター様"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false

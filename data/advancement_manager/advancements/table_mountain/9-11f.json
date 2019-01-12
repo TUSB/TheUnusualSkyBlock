@@ -1,21 +1,20 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:potion",
-      "nbt": "{Potion:\"minecraft:healing\"}"
+      "item": "minecraft:oak_planks"
     },
     "title": {
-      "text": "しあわせの街"
+      "text": "美麗なる迷宮"
     },
     "description": {
-      "text": "あなたもこの街に住めば幸福に！"
+      "text": "美しく厳しい、木材の迷宮"
     },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "advancement_manager:table_mountain/6-7f",
+  "parent": "advancement_manager:table_mountain/8f",
   "criteria": {
     "join": {
       "trigger": "minecraft:location",
@@ -23,16 +22,16 @@
         "dimension": "overworld",
         "position": {
           "x": {
-            "min": -3,
-            "max": 52
+            "min": 0,
+            "max": 56
           },
           "y": {
-            "min": 114,
-            "max": 126
+            "min": 130,
+            "max": 140
           },
           "z": {
-            "min": -2861,
-            "max": -2840
+            "min": -2863,
+            "max": -2785
           }
         }
       }

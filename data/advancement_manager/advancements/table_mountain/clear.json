@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "advancement_manager:table_mountain/8f",
+  "parent": "advancement_manager:table_mountain/top",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"
