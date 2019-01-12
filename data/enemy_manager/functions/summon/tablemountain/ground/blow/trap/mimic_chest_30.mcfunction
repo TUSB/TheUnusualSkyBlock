@@ -1,5 +1,5 @@
 ##############################
-### test召喚 - Global Friendly 
+### ミミックの元召喚 - Tablemountain Ground Blow
 ##############################
 
 
