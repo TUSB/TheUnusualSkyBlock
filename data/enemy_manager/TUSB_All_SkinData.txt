@@ -1,4 +1,4 @@
-# 剣士
+# 剣士(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"剣士",Id:"0-0-ca-0-1",Properties:{textures:[{Value:"eyJ0aW1lc3RhbXAiOjE0NTk0MzQxMjI1MTUsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInNpZ25hdHVyZVJlcXVpcmVkIjp0cnVlLCJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVjMjU2ZWJjM2JhZDI5ZTNiYWYwYTBhZmI5M2I5MTE2N2U3NjZiZGMyODU1YTljZDcxZjg3ZTg2NTg3ZGM5In19fQ=="}]}}}}}
 
 # 忍者
@@ -7,13 +7,13 @@ summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{N
 # 狩人
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"狩人",Id:"0-0-ca-0-3",Properties:{textures:[{Value:"eyJ0aW1lc3RhbXAiOjE0NTk0MzQzOTU2MjQsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80ZTQxOTE3OGQyNTM3MzNkY2EzMjRjZmQ5NTc0MzNmNzRiOTkwOTAzZDRkMjZmYmIyNmFiNDNkZjM5ZjNjY2QifX19"}]}}}}}
 
-# 白魔道士
+# 白魔道士(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"白魔導士",Id:"0-0-ca-0-4",Properties:{textures:[{Value:"eyJ0aW1lc3RhbXAiOjE0NTk0MzQ0OTAxNTUsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mZmFmZGRmODZkNTVkY2Y4ZWQ5MTY3MWI3MTlkMzkwZWU2YzZjNTY4NWNlNWIyM2NhZjJjYjlkOWUyN2NmOGYifX19"}]}}}}}
 
-# 黒魔道士
+# 黒魔道士(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"黒魔導士",Id:"0-0-ca-0-5",Properties:{textures:[{Value:"eyJ0aW1lc3RhbXAiOjE0NTk0MzUxMjc5OTQsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85OTVkMTNlNGI5ODhjNzVjNGFhMTVhYjc1N2M0ZjJhY2FmMzBkNGE2ZjRlZDdkNGVlM2ZhY2VmNWM0OTIifX19"}]}}}}}
 
-# 召喚士
+# 召喚士(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"召喚士",Id:"0-0-ca-0-6",Properties:{textures:[{Value:"eyJ0aW1lc3RhbXAiOjE0NTk0MzUzMzU1NTIsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mYWY1NTA1OWI3NzkzMzc4YTdkM2E1YWVmNzllZjBlZGY0YzE0OGMzODBhMTk3MjYwMjNhNTQ1MjQxZjc2OTIifX19"}]}}}}}
 
 ### MOB
@@ -21,22 +21,22 @@ summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{N
 # ススガミノオトシゴ
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"ススガミノオトシゴ",Id:"23b5956e-183b-411a-8d3a-61714ecd6e49",Properties:{textures:[{Value:"eyJ0aW1lc3RhbXAiOjE0Njg3Mjk5MDg1ODgsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yN2ZkYmZjZGFiZjRhMTI0YmVhYTNmYjk3MDY0NDgyMTE1MTI1ZDlhMmE1MTJjZGJmZGU0Nzk3MTMxMmIwMWUifX19"}]}}}}}
 
-# デーモンアイ
+# デーモンアイ(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"デーモンアイ",Id:"a66308e4-3716-4c4f-957b-713c44d59d72",Properties:{textures:[{Value:"eyJ0aW1lc3RhbXAiOjE0NjY4MjYyMjY3MjcsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lYWIzYmJjMmY5NDA3YmU0MGVmNzkzYjY5MzNmNGIzMjIyOTk5ZmUyOTU5ZWQwZmU5Y2ZhODFiY2Q0NCJ9fX0="}]}}}}}
 
-# ポイゾンアイ
+# ポイゾンアイ(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"ポイゾンアイ",Id:"2c015606-6488-40ec-a6e0-6ae127142788",Properties:{textures:[{Value:"eyJ0aW1lc3RhbXAiOjE0NjUzODQzNzI1NzgsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iMjllOTU5OWU4MzA0ZDM2MWQxN2UyODMxYjBmZDQzYjA3NDFjYjVkN2ZiNmRiNTcwNTM1ODdjZDI5ZTI5In19fQ=="}]}}}}}
 
-# クリムゾンアイ
+# クリムゾンアイ(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"クリムゾンアイ",Id:"17e8d7dc-e770-47ef-a471-b704861aa33e",Properties:{textures:[{Value:"eyJ0aW1lc3RhbXAiOjE0NjUzNDA5OTUwODAsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kMjM1MjU0ZjhmNmU2OWVkNjRmNmIxNTViN2Y2N2UwNDY3OGQ3NzU5MzI2Yjc1MThlNjZhYmI5ZDhhYmEwIn19fQ=="}]}}}}}
 
-# ルナティックアイ
+# ルナティックアイ(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"ルナティックアイ",Id:"b8beb4f6-a950-4a07-9f9d-a169a3414fd0",Properties:{textures:[{Value:"eyJ0aW1lc3RhbXAiOjE0NjUzNDExMzQ3MjksInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lNWVlNWM3M2VhOTY4ODFlMmY3YTM5ZDc5YjViYTllMTg1ZmJmZGZmZTExMDI1NGM1NmU2NDM1OThiNjE1ZjYifX19"}]}}}}}
 
-# シャーベットアイ
+# シャーベットアイ(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"シャーベットアイ",Id:"5c0296c3-54bf-4b15-867b-54c705f98b87",Properties:{textures:[{Value:"eyJ0aW1lc3RhbXAiOjE0NjUzODQ1OTg0MzcsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iMWZmODg4M2U2MzVmM2E5N2NhODcxMjk0ODgwMWU2ODk1YjI2OTZjMDY1ZWM3YmRkNGY0YmFlZGRmYmEyNDYifX19"}]}}}}}
 
-# ナイトメアアイ
+# ナイトメアアイ(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"ナイトメアアイ",Id:"40786ce9-b230-4d71-be12-24bac7f8ad68",Properties:{textures:[{Value:"eyJ0aW1lc3RhbXAiOjE0NjUzODQ3MDM2OTksInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MmNiZWE5YWE1OWRmZTdhODQ2N2VjMTUxNmUwNTFlZmRlZGNkYTMxMzg0NmM1ODExY2Q0OGU1MDYzYzJkMyJ9fX0="}]}}}}}
 
 # オーロラメーカー
@@ -78,43 +78,43 @@ summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{N
 # 魔弾の射手
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"魔弾の射手",Id:"56a3aa3b-9b29-4ca8-9208-bfb306560f05",Properties:{textures:[{Value:"eyJ0aW1lc3RhbXAiOjE0Njg4NDQxMjg2OTcsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lZGVkNTE5YjY0ZjgxNDc0N2U2OTA4NTdjNDJiMjk3MjAzOWVlZDYxNWJiNmVkMDY3ZGNmOWU0MjYwZTYifX19"}]}}}}}
 
-# MHF_Cake(ケーキ)
+# MHF_Cake(ケーキ)(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:"MHF_Cake"}}}
 
-# ユミ・ニンジャ
+# ニンジャ(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"ユミ・ニンジャ",Id:"ea52b04a-c631-400e-aeea-23c3820e85c9",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDBiZmNkZjNjYjcxNzQyNTNkMzdlOGQzNDVhODU4MmY1Zjc0ZDdmNTljN2M3OTU3YjcwYzJhYmM3NzQ1Y2E3In19fQ=="}]}}}}}
 
-# ホワイトシューター
+# ホワイトシューター(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"ﾎﾜｲﾄｼｭｰﾀｰ",Id:"a75928d1-3fd1-4696-bc0d-bcc2c0f1b241",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2JkMmUxOTllMjc5ZWRjNDgxMThjMTg1OTdhYjgwMWNhMmJhMmY3OGM5NzExNTVkNGQ2MGYxZmI0MGRlNjY0OSJ9fX0="}]}}}}}
 
-# ホワイトアタッカー
+# ホワイトアタッカー(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"ﾎﾜｲﾄｱﾀｯｶｰ",Id:"29ebbfac-94b1-4f08-86ea-7f2838e1a5bd",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FmMTEwMjRlY2Y5YWM5Yjc4OTQ3NWZmNGExMzVmNzFkYTA0MzJlYTlmZjY0YzE3ZWZlMzViMjkzMzRmZCJ9fX0="}]}}}}}
 
-# レッドベイビー
+# レッドベイビー(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"ﾚｯﾄﾞﾍﾞｲﾋﾞｰ",Id:"e49cc289-5e35-4a37-9b08-98ef5cf05382",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTg5OTk5YjRkODE0NWJhNjc3YjY5ZmI5MTNiOWE2YTY3MTlkMWM2ZDE3ZWM0ZDNlMjRiZThiMjIxZDY3MjQzIn19fQ=="}]}}}}}
 
-# レッドベイビーの右手に持ってる髑髏
+# レッドベイビーの右手に持ってる髑髏(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"レッドベイビーの右手に持ってる髑髏",Id:"c892c147-37db-45ef-88d5-980173fc72f8",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGIyNjY3YTc1YzJjODNiODVjNzBlYjA3YjQ4MzNmZjY3MjEzMmUxZWNhNGFmNjk4NjI0NjVmN2EzYmYzOWE2In19fQ=="}]}}}}}
 
-# レギオン
+# レギオン(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"レギオン",Id:"b622d670-e628-4476-a206-d0c05f76797d",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjJjNThhMTQ4N2JjOTUzZmFhNjg3ODk2YWFhZWFjZTI3MWI0YTEyMGUyNzZmYTlkMmQ2ZWE4YjY2NTYxMmMifX19"}]}}}}}
 
-# ギーガ
+# ギーガ(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"ギーガ",Id:"670dcff0-1f67-4c9e-a440-d9d98facbdd3",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGEzNmYxOWMzMDVjY2RiMzZlNDdiMmRhZGNmNTllNmFkOGRkOTNjZGY0NzQ4Nzc1ZDVhNmVjNDFlZDk3ZiJ9fX0="}]}}}}}
 
-# メーガ
+# メーガ(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"メーガ",Id:"90e51213-80fc-4183-9d5c-ec9cfa03ff16",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmFlZjIzM2NkNmZkOTE4NzhkNTEzNzY2ZWRjMjNkZjMwODI3OGMwY2U4MDU5NzZlOTY5YzM5NDUxNjRkNmM4In19fQ=="}]}}}}}
 
-# 不浄の髑髏
+# 不浄の髑髏(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"不浄の髑髏",Id:"7014f1dd-5ce0-42d9-b8a2-2d853d990f04",Properties:{textures:[{Value:"eyJ0aW1lc3RhbXAiOjE0NjU3Mzk3Mzc2ODMsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNWNkYWY4ZWE4NjJiNDZhYTBjOGY0ZGY5ZGM2ZjY1M2ViNTRiNDUwODZkNzkzMTM3YjkwYWY5YzgwNWUifX19"}]}}}}}
 
-# ファラオ
+# ファラオ(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"ファラオ",Id:"a8b6ca86-4498-443c-93b1-45692c1b66c2",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM0ZGU0NmIzNWJmYjc5NDE4ZTk2NjMzZjRhMWE5YmI1NTQ3YzhlYWQ2YmI4NGQ4MWIyZGUzYjFjZDFiZWMifX19"}]}}}}}
 
-# タナトス
+# タナトス(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"タナトス",Id:"8fe67583-28bb-408e-a2e5-e8e43cb64de9",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGZjN2UzYzRjNjc0Y2Y4Mzc3M2FjOTI3ZGVkMWE1MzZiYjQ1ZTYzZmIyZTZhOTVhYWExYjYzZWQ3ODZmYzlmIn19fQ=="}]}}}}}
 
-# ケール
+# ケール(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"ケール",Id:"33623f0c-07d4-4887-a9fd-06a4a809961f",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTg4ODExM2E5ZWE2OGM4ZDg4N2U3ZDNlZTU0YmFjM2VhNDIxMGJmYmFiNzIwZDhlODRiZTU3MDVjZmFkYzViIn19fQ=="}]}}}}}
 
 # ホワイトライダー
@@ -147,34 +147,34 @@ summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{I
 # 堕落の肉腫_左手
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"8e8710f3-c9d3-45eb-9e19-093d86a526ca",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI2NTQ2Yzk1NDc5ZmUzNzc3MDQ4MTFiYjY5MDc3MjE0NDNmNmUwN2U3ZTEzMTg1Mzc4NDdmYzdjZDI4MWMyYiJ9fX0="}]}}}}}
 
-# 終熄の誘手
+# 終熄の誘手(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"終熄の誘手",Id:"eb9f87d8-df1a-4a02-854a-1770c92d7f70",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGMwOThkZGJjZmUyNGYzNWFiY2Y3NTVkODllY2U4YTk0ZmEwZjMyZmZkODgyODBlMmEyNzE2NTYzYTliOGU3YiJ9fX0="}]}}}}}
 
-# 魔術師の従者(剣士金色ver)
+# 魔術師の従者(剣士金色ver)(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Name:"魔術師の従者",Id:"68c35b06-2839-4ea7-b35a-cfa9dbca45e5",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWRmN2I1ODZhZmMzM2NkNjRlZTZmMzdmNzJjMzU0YmE4MjExMWQxYzYzMWM3MGJiMGU4YWVlMjE4NmFlMjczMyJ9fX0="}]}}}}}
 
-# ゴブリン
+# ゴブリン(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"8008210f-55df-4fcd-8257-43dc7ed6377f",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjNhMmNkMTEzYzdlZTZiZjliMDk2OGNmNTUwMTc1M2E0ODU1MmU2ZGJiNDgxYzVhMWY5NDg3Njg3MDg5NmIyZSJ9fX0="}]}}}}}
 
-# ゴブリンメイジ
+# ゴブリンメイジ(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"96d483b9-f62b-4972-9587-c2672f4f4878",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTFjMmE2MDliZGZlNDhjMGYzMGEwZGMwYTdjYjU5MWJlZWMzNjY1YmRhNjFhMzI4OTIzMjE4MTQ0NTBiZTU2NiJ9fX0="}]}}}}}
 
-# ゴブリンチャンピオン
+# ゴブリンチャンピオン(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"91f8ed00-5cf1-47fc-b191-3135a60d2b59",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ4OTNmNWMxMjk2Y2IwZmRlZTFjMmI0ODM5ZTUyZTVkNDEwOWNmMWExMDhhYWRlMzhhZDQ3OTNhNmJlYmQ3ZiJ9fX0="}]}}}}}
 
-# ゴブリンブレイズ
+# ゴブリンブレイズ(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"d6fc3ed6-06e9-4a87-b5ac-45f40b83cc4c",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDliMmU4NWUwZDEyZmJjODNmZGFjZjlhYmQ3MDdjYTY4ZmQ4YmQ5ZTkxY2RjMzE3M2VhODk3MjFkNTUxNmY4ZSJ9fX0="}]}}}}}
 
-# ゴブリンロード
+# ゴブリンロード(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"9453cf62-c8ba-4499-ad0c-c44b1b13949c",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGJiZGNlNzNlYjY2MTI0ZDk2ODU5ZWUyZWUxNDI3ZjgxYjgzNDY3MjVkYzdiMzc0YWIyYzE2MGRmOTU4NjAxZSJ9fX0="}]}}}}}
 
-# ロックゴブリン
+# ロックゴブリン(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"72292a27-2976-40a6-8072-79b3c202ef6d",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDhjM2Q0YmNmOTA1NDgyZjFkZWFjMTI5ODBkNjdkN2Q0ZDdiZGE2ZTQ3MDIzYThlOGQ1ODFkZDdkZGRiOTU3NyJ9fX0="}]}}}}}
 
-# ダークゴブリン
+# ダークゴブリン(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"8cb14267-82d7-4552-bfce-4286c94e1338",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzAzODljYTg4ZmVmN2IxYjgxMDdkOTM0OWI4NTNkNmYzOGY5Y2Q3Mjk5N2RlNWRlYTkyNjU5NGM3MmI5N2U2In19fQ=="}]}}}}}
 
-# ホブゴブリン
+# ホブゴブリン(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"403f358c-9791-4d93-b74e-56d0455d7242",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWVkMzkyNGM1NzQwYjg4NjYxZTNjMjNlOGEwM2EzZjNiZWM5NTEwOGIwYmFjMmMyMDU2Yjg2OTA4Zjg0NTVlOCJ9fX0="}]}}}}}
 
 # 商業ゴブリン_ゴブリン・ミクスクッカ(イエロー)
@@ -186,7 +186,7 @@ summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{I
 # 商業ゴブリン_ゴブリン・ジャンクスフィカ(バイオレット)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"dc958677-2456-422b-8b19-faaa83677a0a",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2UxNWE5ZGZjNDhiNWQ4ODY5M2UxYjQxNjE4MmMyNWQyM2M0Nzg3ZWMyYTBiMGNhOTFmYWNkMGZjMjhjZmE1NyJ9fX0="}]}}}}}
 
-# スーパースティーブ
+# スーパースティーブ(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"9f9a1200-4dd6-47c9-9fa1-fd66440617d5",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGE1ODE2ZmU5NzZmNDk0Yjk0MjI5ZTZiYzg0YTAzZGUyYjQ0YjQxZDI5NDdhMTZhZTcxZmJlMWNlYTdjYjQ1YyJ9fX0="}]}}}}}
 
 # ミミック
