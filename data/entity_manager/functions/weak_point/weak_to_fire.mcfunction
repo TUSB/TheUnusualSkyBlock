@@ -2,7 +2,7 @@
 ### 火弱点
 ##############################
 
-kill @s
+function entity_manager:mob_death
 
 ###---演出---Start
 playsound minecraft:entity.blaze.burn master @a[distance=..16] ~ ~ ~ 1 0

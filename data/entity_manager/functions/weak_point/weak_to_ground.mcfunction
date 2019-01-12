@@ -2,7 +2,7 @@
 ### 地面弱点
 ##############################
 
-kill @s
+function entity_manager:mob_death
 
 ###---演出---Start
 playsound minecraft:entity.hostile.big_fall master @a[distance=..16] ~ ~ ~ 1 0.7

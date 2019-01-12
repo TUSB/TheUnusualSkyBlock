@@ -2,7 +2,7 @@
 ### 浮遊弱点
 ##############################
 
-kill @s
+function entity_manager:mob_death
 
 ###---演出---Start
 playsound minecraft:entity.shulker_bullet.hit master @a[distance=..16] ~ ~ ~ 1 0

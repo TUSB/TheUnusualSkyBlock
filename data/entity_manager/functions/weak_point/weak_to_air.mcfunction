@@ -2,7 +2,7 @@
 ### 空気弱点
 ##############################
 
-kill @s
+function entity_manager:mob_death
 
 ###---演出---Start
 playsound minecraft:entity.player.breath master @a[distance=..16] ~ ~ ~ 1 0

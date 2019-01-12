@@ -2,7 +2,7 @@
 ### ウィザー弱点
 ##############################
 
-kill @s
+function entity_manager:mob_death
 
 ###---演出---Start
 playsound minecraft:entity.silverfish.death master @a[distance=..16] ~ ~ ~ 0.6 0.8
