@@ -34,6 +34,8 @@ execute if entity @s[tag=Interpolator] run function skill_manager:enemy/interpol
 execute if entity @s[tag=Call] run function skill_manager:enemy/call/1
 ### 叫び
 execute if entity @s[tag=Scream] run function skill_manager:enemy/scream/1
+### スキル詰め合わせ
+execute if entity @s[tag=SkillBox] run function skill_manager:enemy/teleport/1
 
 ### 発生確率0%セット
 scoreboard players reset $Threshold Global
