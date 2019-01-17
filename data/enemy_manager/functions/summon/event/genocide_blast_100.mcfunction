@@ -4,6 +4,7 @@
 
 effect give @a[gamemode=!creative,distance=..6] minecraft:instant_damage 1 5 true 
 scoreboard players set @e[limit=64,distance=..6,tag=Mob] Damage 1000000 
+playsound minecraft:entity.wither.death master @a[distance=..32] ~ ~ ~ 0.4 0 0.1 
 playsound minecraft:entity.blaze.ambient master @a[distance=..32] ~ ~ ~ 3 0 
 playsound minecraft:block.end_portal.spawn master @a[distance=..32] ~ ~ ~ 3 1.5 
 playsound minecraft:entity.generic.explode master @a[distance=..32] ~ ~ ~ 3 0 
