@@ -207,8 +207,11 @@ summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{I
 # マミー(MOB使用済)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"3200c4e8-0a0c-4acb-ae83-759c2f09a068",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGI2YmZiMGRlNzA2NDg5ODc3ZDdmYTI0NWFiYjhiYjA0OWY1M2YyNmYyM2NkZjFjMDFkYmE3NmY0YzQ2ZDhjNCJ9fX0="}]}}}}}
 
-# ジェノサイドボム 起動前
+# 旧ジェノサイドボム 起動前(没ver)
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"617844bb-fbc4-465a-b703-3bd4d673f747",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjk3MDNmMmEzNTVhZTgzY2UyYWMzZDZlYzMzY2VmOGJiMjIxMzZkN2VmYjcwYjMxM2FhOTYzMzhhNTJjMDM5NyJ9fX0="}]}}}}}
+
+# ジェノサイドボム 起動前
+summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"69fe1dbd-e33f-43f0-9420-7c05e325e1bb",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQzODVlYzk1OTAyOTFjNjkzNGU4YmNjMzVmNTQxMmM5YjhjODlhYWMzOTQxMDVkNWU1MzMxZmFiNzgyNjJjNCJ9fX0="}]}}}}}
 
 # ジェノサイドボム 起動カウント03
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"47b9206f-53dc-4293-8fcc-d622a1f00271",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2EzOWRjZDNmOTQ5MDU5M2E3OWUyNmM1YzlkYmU4ODY4OTVhNDcwYjgxOGRiZDU1OWE3YmIzZDc0MmUyMWExYiJ9fX0="}]}}}}}
