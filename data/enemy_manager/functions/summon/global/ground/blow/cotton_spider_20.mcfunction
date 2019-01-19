@@ -1,0 +1,5 @@
+##############################
+### 綿蜘蛛召喚 - Global Ground Blow
+##############################
+
+summon minecraft:villager ~ ~1 ~ {Silent:true,Health:0f,DeathTime:19s,Passengers:[{CustomName:"\"綿蜘蛛\"",id:"minecraft:cave_spider",DeathLootTable:"loot_manager:empty",AbsorptionAmount:600f,Attributes:[{Name:"generic.movementSpeed",Base:0.22d},{Name:"generic.attackDamage",Base:10d},{Name:"generic.knockbackResistance",Base:1d},{Name:"generic.followRange",Base:32d}],Passengers:[{id:"minecraft:falling_block",Tags:["Cargo"],Time:1,FallDistance:1f,DropItem:0b,HurtEntities:1b,FallHurtAmount:30f,FallHurtMax:30,BlockState:{Name:"minecraft:cobweb"}},{id:"minecraft:potion",Tags:["Cargo"],Potion:{id:"minecraft:splash_potion",Count:1b,tag:{CustomPotionEffects:[{Id:2b,Amplifier:4b,Duration:180,ShowParticles:false},{Id:4b,Amplifier:1b,Duration:180,ShowParticles:false},{Id:25b,Amplifier:-10b,Duration:180}]}}},{id:"minecraft:area_effect_cloud",Tags:["Cargo"],Particle:"minecraft:end_rod",CustomName:"\"綿毛\"",Duration:80,Radius:0.05f,RadiusOnUse:0f,ReapplicationDelay:0}]}]}

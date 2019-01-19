@@ -12,6 +12,7 @@ execute if entity @s[tag=07ManaBlast] run function enemy_manager:summon/event/07
 execute if entity @s[tag=BlazeBall] run function enemy_manager:summon/event/blaze_ball_15
 execute if entity @s[tag=BlockShieldAlpha] run function enemy_manager:summon/event/block_shield_alpha_20
 execute if entity @s[tag=DeathMagic] run function enemy_manager:summon/event/death_magic_40
+execute if entity @s[tag=FirebombSummoner] run function enemy_manager:summon/event/firebomb_summoner_20
 execute if entity @s[tag=GenocideBlast] run function enemy_manager:summon/event/genocide_blast_100
 execute if entity @s[tag=GoblinsGate] run function enemy_manager:summon/event/goblins_gate_50
 execute if entity @s[tag=GreenPearl] run function enemy_manager:summon/event/green_pearl_16
