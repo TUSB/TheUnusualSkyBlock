@@ -13,7 +13,7 @@
 #F:0~3「防御力を高める / 回復する / ダメージを与える」
 #魔法に変化した！！！
 
-scoreboard players set @s WildCard -130
+scoreboard players set @s WildCard -40
 
 summon minecraft:area_effect_cloud 0 0 0 {Tags:[Banner,Center,Initializing],Duration:131}
 tp @e[tag=Initializing,limit=1] ~ ~ ~ ~30 0

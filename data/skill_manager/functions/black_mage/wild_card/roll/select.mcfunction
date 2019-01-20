@@ -53,7 +53,7 @@ execute if score $WildCard Global matches 1 run summon minecraft:area_effect_clo
 execute if score $WildCard Global matches 2 run summon minecraft:area_effect_cloud ~ 0 ~ {CustomName:"{\"text\":\"長い\"}",Tags:[WCText,WCText5]}
 execute if score $WildCard Global matches 3 run summon minecraft:area_effect_cloud ~ 0 ~ {CustomName:"{\"text\":\"とても長い\"}",Tags:[WCText,WCText5]}
 
-tellraw @a ["",{"text":"ワイルドカードは"},{"selector":"@e[tag=WCText1,limit=1]","color":"red"},{"selector":"@e[tag=WCText2,limit=1]","color":"gold"},{"selector":"@e[tag=WCText3,limit=1]","color":"yellow"},{"selector":"@e[tag=WCText4,limit=1]","color":"green"},{"selector":"@e[tag=WCText5,limit=1]","color":"aqua"},{"selector":"@e[tag=WCText6,limit=1]","color":"blue"},{"text":"魔法に変化した！！！"}]
+tellraw @s ["",{"text":"ワイルドカードは"},{"selector":"@e[tag=WCText1,limit=1]","color":"red"},{"selector":"@e[tag=WCText2,limit=1]","color":"gold"},{"selector":"@e[tag=WCText3,limit=1]","color":"yellow"},{"selector":"@e[tag=WCText4,limit=1]","color":"green"},{"selector":"@e[tag=WCText5,limit=1]","color":"aqua"},{"selector":"@e[tag=WCText6,limit=1]","color":"light_purple"},{"text":"魔法に変化した！！！"}]
 kill @e[tag=WCText]
 
 ###---演出---Start

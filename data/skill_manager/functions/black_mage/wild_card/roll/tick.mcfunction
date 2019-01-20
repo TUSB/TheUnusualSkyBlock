@@ -10,7 +10,7 @@ scoreboard players operation $WildCard Global = @s WildCard
 #回転
 execute rotated as @e[tag=Center,tag=MyBanner,limit=1] as @e[tag=MyBanner] run function skill_manager:black_mage/wild_card/roll/rotate
 #召喚
-scoreboard players operation $WildCard Global %= $6 Const
+scoreboard players operation $WildCard Global %= $3 Const
 execute if score $WildCard Global matches 0 rotated as @e[tag=Center,tag=MyBanner,limit=1] run function skill_manager:black_mage/wild_card/roll/summon
 #選択
 execute if score @s WildCard matches 0 run function skill_manager:black_mage/wild_card/roll/select

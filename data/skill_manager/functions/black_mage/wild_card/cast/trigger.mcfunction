@@ -2,8 +2,8 @@
 ### ワイルドカード トリガー
 ##############################
 
-execute if entity @s[tag=WCVerySmall] run tag @e[tag=Mob,distance=..4] add WCTarget
-execute if entity @s[tag=WCVerySmall] run tag @e[team=Friendly,gamemode=!creative,gamemode=!spectator,distance=..4] add WCTarget
+execute if entity @s[tag=WCVerySmall] run tag @e[tag=Mob,distance=..3.99] add WCTarget
+execute if entity @s[tag=WCVerySmall] run tag @e[team=Friendly,gamemode=!creative,gamemode=!spectator,distance=..3.99] add WCTarget
 execute if entity @s[tag=WCSmall] run tag @e[tag=Mob,distance=..8] add WCTarget
 execute if entity @s[tag=WCSmall] run tag @e[team=Friendly,gamemode=!creative,gamemode=!spectator,distance=..8] add WCTarget
 execute if entity @s[tag=WCBig] run tag @e[tag=Mob,distance=..12] add WCTarget
