@@ -35,7 +35,8 @@ execute if score $ChangeModeNo Global matches 5105 run scoreboard players operat
 execute if score $ChangeModeNo Global matches 5105 run scoreboard players operation $ChangeModeInterval Global = $5105 Interval
 execute if score $ChangeModeNo Global matches 5105 if score @s ChangeLevel matches 39.. run scoreboard players set $ChangeModeNo Global 51051
 
-###パルプンテ
+###ワイルドカード
+execute if score $ChangeModeNo Global matches 5106 if score @s WildCard matches -2100000000.. run scoreboard players set $ChangeModeNo Global 5107
 execute if score $ChangeModeNo Global matches 5106 run scoreboard players operation $ChangeModeCost Global = $5106 Cost
 execute if score $ChangeModeNo Global matches 5106 run scoreboard players operation $ChangeModeInterval Global = $5106 Interval
 execute if score $ChangeModeNo Global matches 5106 if score @s ChangeLevel matches 50.. run scoreboard players set $ChangeModeNo Global 51061

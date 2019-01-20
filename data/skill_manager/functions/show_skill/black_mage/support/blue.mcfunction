@@ -9,8 +9,8 @@ tellraw @s[scores={ShowSkillNo=52021}] ["",{"text":"・キャンドル","color":
 ###サポート３
 tellraw @s[scores={ShowSkillNo=52031}] ["",{"text":"・ブリッツマニューバ","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeSupBlue set 9"}}]
 ###サポート４
-tellraw @s[scores={ShowSkillNo=52041}] ["",{"text":"・ドレイン","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeSupBlue set 9"}}]
-tellraw @s[scores={ShowSkillNo=52042}] ["",{"text":"・ドレインⅡ","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeSupBlue set 9"}}]
+tellraw @s[scores={ShowSkillNo=52041}] ["",{"text":"・ジン・スピリット","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeSupBlue set 9"}}]
+tellraw @s[scores={ShowSkillNo=52042}] ["",{"text":"・ジン・スピリットⅡ","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeSupBlue set 9"}}]
 ###サポート５
 tellraw @s[scores={ShowSkillNo=52051}] ["",{"text":"・グロウ","color":"aqua"},"   ",{"text":"→変更！","underlined":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeSupBlue set 9"}}]
 ###サポート６

@@ -12,7 +12,7 @@ execute if score $ChangeSupNo Global matches 5202 run scoreboard players operati
 execute if score $ChangeSupNo Global matches 5202 run scoreboard players operation $ChangeSupCost Global = $5202 Cost
 execute if score $ChangeSupNo Global matches 5202 if score @s ChangeLevel matches 8.. run scoreboard players set $ChangeSupNo Global 52021
 
-###ラナリオン
+###ブリッツマニューバ
 execute if score $ChangeSupNo Global matches 5203 run scoreboard players operation $ChangeSupCost Global = $5203 Cost
 execute if score $ChangeSupNo Global matches 5203 run scoreboard players operation $ChangeSupInterval Global = $5203 Interval
 execute if score $ChangeSupNo Global matches 5203 if score @s ChangeLevel matches 13.. run scoreboard players set $ChangeSupNo Global 52031
