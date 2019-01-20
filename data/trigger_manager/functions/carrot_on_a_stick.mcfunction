@@ -21,6 +21,10 @@ execute if score @s ModeSkill matches 51041..51049 run scoreboard players operat
 ### 黒魔導士＜スリプガ＞
 execute if score @s ModeSkill matches 51051..51059 run scoreboard players operation @s ActiveSkill = @s ModeSkill
 
+### 黒魔導士＜ワイルドカード＞
+execute if score @s ModeSkill matches 51061..51069 run scoreboard players operation @s ActiveSkill = @s ModeSkill
+execute if score @s ModeSkill matches 51071..51079 run scoreboard players operation @s ActiveSkill = @s ModeSkill
+
 ### 召喚士＜フィール＞
 execute if score @s ModeSkill matches 61011..61019 run scoreboard players operation @s ActiveSkill = @s ModeSkill
 

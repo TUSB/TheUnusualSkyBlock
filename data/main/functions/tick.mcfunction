@@ -145,6 +145,8 @@ execute as @a[scores={LightningBlow=1..}] at @s run function skill_manager:black
 execute as @a[scores={RockNRoll=0..}] at @s run function skill_manager:black_mage/rock_n_roll/tick
 ###ブリッツマニューバ
 execute as @a[scores={BlitzManover=0..}] at @s run function skill_manager:black_mage/blitz_manover/tick
+###ワイルドカード
+execute as @a[scores={WildCard=-2100000000..}] at @s run function skill_manager:black_mage/wild_card/fork
 ###マジックシールド
 execute as @a[scores={MagicShield=0..}] at @s run function skill_manager:black_mage/magic_shield/tick
 ###ウィンドウォール

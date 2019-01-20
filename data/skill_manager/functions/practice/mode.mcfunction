@@ -129,6 +129,10 @@ execute if score @s ActiveSkill matches 51041..51049 run function skill_manager:
 ### 黒魔導士＜スリプガ＞
 execute if score @s ActiveSkill matches 51051..51059 run function skill_manager:black_mage/sleepga/act
 
+### 黒魔導士＜ワイルドカード＞
+execute if score @s ActiveSkill matches 51061..51069 run function skill_manager:black_mage/wild_card/roll/act
+execute if score @s ActiveSkill matches 51071..51079 run function skill_manager:black_mage/wild_card/cast/act
+
 ### 召喚士＜フィール＞
 execute if score @s ActiveSkill matches 61011..61019 run function skill_manager:summoner/fill/act
 

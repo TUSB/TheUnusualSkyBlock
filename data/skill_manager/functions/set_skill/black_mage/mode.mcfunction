@@ -39,3 +39,6 @@ execute if score $ChangeModeNo Global matches 5105 if score @s ChangeLevel match
 execute if score $ChangeModeNo Global matches 5106 run scoreboard players operation $ChangeModeCost Global = $5106 Cost
 execute if score $ChangeModeNo Global matches 5106 run scoreboard players operation $ChangeModeInterval Global = $5106 Interval
 execute if score $ChangeModeNo Global matches 5106 if score @s ChangeLevel matches 50.. run scoreboard players set $ChangeModeNo Global 51061
+execute if score $ChangeModeNo Global matches 5107 run scoreboard players operation $ChangeModeCost Global = $5107 Cost
+execute if score $ChangeModeNo Global matches 5107 run scoreboard players operation $ChangeModeInterval Global = $5107 Interval
+execute if score $ChangeModeNo Global matches 5107 if score @s ChangeLevel matches 50.. run scoreboard players set $ChangeModeNo Global 51071

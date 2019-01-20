@@ -440,6 +440,7 @@ scoreboard players set $5103 Cost 30
 scoreboard players set $5104 Cost 30
 scoreboard players set $5105 Cost 30
 scoreboard players set $5106 Cost 100
+scoreboard players set $5107 Cost 0
 scoreboard players set $5201 Cost 30
 scoreboard players set $5202 Cost 30
 scoreboard players set $5203 Cost 50
@@ -555,7 +556,8 @@ scoreboard players set $5102 Interval 1500
 scoreboard players set $5103 Interval 1500
 scoreboard players set $5104 Interval 1500
 scoreboard players set $5105 Interval 5000
-scoreboard players set $5106 Interval 0
+scoreboard players set $5106 Interval 3000
+scoreboard players set $5107 Interval 0
 scoreboard players set $5201 Interval 2000
 scoreboard players set $5202 Interval 2000
 scoreboard players set $5203 Interval 0
