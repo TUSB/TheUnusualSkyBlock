@@ -1,4 +1,7 @@
 13vにおけるMOBの平均的なHP指定 (Entity)
+
+例：現在のTUSBにおいてのAbsorptionAmount:3500f は HP3500となります。
+
 雑魚と言われる部類のMOBのHP
 平均HP:500以下
 
