@@ -6,19 +6,29 @@ scoreboard players operation $WildCard Global = @s WildCard
 
 ##### A
 #0/4/8/16/32m前方
-execute if score $WildCard Global matches 10000000..10999999 anchored eyes run summon minecraft:area_effect_cloud ^ ^ ^ {Tags:[NativeTask,WildCard,Initializing],Duration:220}
-execute if score $WildCard Global matches 11000000..11999999 anchored eyes run summon minecraft:area_effect_cloud ^ ^ ^4 {Tags:[NativeTask,WildCard,Initializing],Duration:220}
-execute if score $WildCard Global matches 12000000..12999999 anchored eyes run summon minecraft:area_effect_cloud ^ ^ ^8 {Tags:[NativeTask,WildCard,Initializing],Duration:220}
-execute if score $WildCard Global matches 13000000..13999999 anchored eyes run summon minecraft:area_effect_cloud ^ ^ ^16 {Tags:[NativeTask,WildCard,Initializing],Duration:220}
-execute if score $WildCard Global matches 14000000..14999999 anchored eyes run summon minecraft:area_effect_cloud ^ ^ ^32 {Tags:[NativeTask,WildCard,Initializing],Duration:220}
+###弾召喚
+summon minecraft:trident 1 1 1 {Tags:[Initializing0,CooldownRequired],PortalCooldown:3,NoGravity:true,Silent:true,DealtDamage:true,Passengers:[{id:"minecraft:area_effect_cloud",Tags:[NativeTask,WildCard,Initializing],Duration:220}]}
+###モーションを計算する
+execute positioned ^ ^ ^-0.1 run tp @e[tag=Initializing0,limit=1] ~ ~1.52 ~
+execute as @e[tag=Initializing0,limit=1] positioned ~ ~1.52 ~ run function calc_manager:get/direction1
+###モーション補正
+execute if score $WildCard Global matches 10000000..10999999 anchored eyes run kill @e[tag=Initializing0,limit=1]
+execute if score $WildCard Global matches 11000000..11999999 anchored eyes run scoreboard players set $M Global 125
+execute if score $WildCard Global matches 12000000..12999999 anchored eyes run scoreboard players set $M Global 250
+execute if score $WildCard Global matches 13000000..13999999 anchored eyes run scoreboard players set $M Global 500
+execute if score $WildCard Global matches 14000000..14999999 anchored eyes run scoreboard players set $M Global 999
+
+function calc_manager:multiply/pos1
+###モーション適用
+execute as @e[tag=Initializing0,limit=1] at @s run function calc_manager:set/motion1
 
 ##### B
 #0/2/5/10秒後
 scoreboard players operation $WildCard Global %= $1000000 Const
-execute if score $WildCard Global matches 0..99999 run scoreboard players set @e[tag=Initializing,limit=1] WildCard -1000
-execute if score $WildCard Global matches 100000..199999 run scoreboard players set @e[tag=Initializing,limit=1] WildCard -1040
-execute if score $WildCard Global matches 200000..299999 run scoreboard players set @e[tag=Initializing,limit=1] WildCard -1100
-execute if score $WildCard Global matches 300000..399999 run scoreboard players set @e[tag=Initializing,limit=1] WildCard -1200
+execute if score $WildCard Global matches 0..99999 run scoreboard players set @e[tag=Initializing,limit=1] WildCard -1003
+execute if score $WildCard Global matches 100000..199999 run scoreboard players set @e[tag=Initializing,limit=1] WildCard -1043
+execute if score $WildCard Global matches 200000..299999 run scoreboard players set @e[tag=Initializing,limit=1] WildCard -1103
+execute if score $WildCard Global matches 300000..399999 run scoreboard players set @e[tag=Initializing,limit=1] WildCard -1203
 
 ##### C
 #半径4/8/12/16m

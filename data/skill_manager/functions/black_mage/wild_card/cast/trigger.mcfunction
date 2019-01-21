@@ -19,8 +19,8 @@ tag @e[tag=WCTarget] remove WCTarget
 kill @s
 
 ###---演出---Start
-playsound minecraft:block.beacon.power_select master @a[distance=..48] ~ ~ ~ 1 2
-playsound minecraft:block.end_portal.spawn master @a[distance=..48] ~ ~ ~ 0.5 2
+playsound minecraft:block.beacon.power_select master @a[distance=..48] ~ ~ ~ 4 2
+playsound minecraft:block.end_portal.spawn master @a[distance=..48] ~ ~ ~ 4 2
 particle minecraft:entity_effect ~ ~0.2 ~ 1 1 1 10000000 100 force @a[tag=ShowParticles]
 particle minecraft:witch ~ ~0.1 ~ 1 1 1 1 50 force @a[tag=ShowParticles]
 ###---演出---End

@@ -2,9 +2,9 @@
 ### ワイルドカード バナー回転
 ##############################
 
-execute if score $WildCard Global matches -40..-20 if entity @s[tag=Center] positioned as @s run tp @s ~ ~ ~ ~40 ~
-execute if score $WildCard Global matches -20..-10 if entity @s[tag=Center] positioned as @s run tp @s ~ ~ ~ ~20 ~
-execute if score $WildCard Global matches -10..-5 if entity @s[tag=Center] positioned as @s run tp @s ~ ~ ~ ~10 ~
+execute if score $WildCard Global matches -40..-21 if entity @s[tag=Center] positioned as @s run tp @s ~ ~ ~ ~40 ~
+execute if score $WildCard Global matches -20..-11 if entity @s[tag=Center] positioned as @s run tp @s ~ ~ ~ ~20 ~
+execute if score $WildCard Global matches -10..-6 if entity @s[tag=Center] positioned as @s run tp @s ~ ~ ~ ~10 ~
 execute if score $WildCard Global matches -5..0 if entity @s[tag=Center] positioned as @s run tp @s ~ ~ ~ ~5 ~
 
 execute if entity @s[tag=Banner1] rotated ~ ~ run tp @s ^ ^ ^3 ~180 ~

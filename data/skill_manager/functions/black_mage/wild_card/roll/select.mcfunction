@@ -4,7 +4,8 @@
 
 #最寄りのバナー選択
 kill @e[tag=MyBanner,tag=Center,limit=1]
-execute positioned ^ ^ ^100 run kill @e[tag=MyBanner,limit=5,sort=furthest]
+execute unless score $WildCard Settings matches 1 positioned ^ ^ ^100 run kill @e[tag=MyBanner,limit=5,sort=random]
+execute if score $WildCard Settings matches 1 positioned ^ ^ ^100 run kill @e[tag=MyBanner,limit=5,sort=furthest]
 execute as @e[tag=MyBanner,limit=1] run data merge entity @s {PortalCooldown:40,NoGravity:0b,ActiveEffects:[{Id:24,Amplifier:0,Duration:100},{Id:25,Amplifier:0,Duration:100}]}
 scoreboard players operation @s WildCard = @e[tag=MyBanner,limit=1] WildCard
 scoreboard players operation $WildCard Global = @s WildCard
