@@ -36,6 +36,8 @@ execute if entity @s[tag=Call] run function skill_manager:enemy/call/1
 execute if entity @s[tag=Scream] run function skill_manager:enemy/scream/1
 ### スキル詰め合わせ
 execute if entity @s[tag=SkillBox] run function skill_manager:enemy/teleport/1
+### セキュリティレーザー
+execute if entity @s[tag=SecurityLaser] run function skill_manager:enemy/security_laser/1/act1
 
 ### 発生確率0%セット
 scoreboard players reset $Threshold Global
