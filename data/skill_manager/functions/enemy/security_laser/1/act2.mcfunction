@@ -3,6 +3,7 @@
 ##############################
 
 
+playsound minecraft:entity.blaze.death master @a[distance=..16] ~ ~ ~ 1 0
 summon minecraft:area_effect_cloud ~ ~ ~ {Duration:1,Radius:0f,Particle:"minecraft:block minecraft:air",Tags:["Initializing"]}
 scoreboard players set $LoopCount Global 20
 execute at @s anchored eyes run tp @e[tag=Initializing,limit=1] ^ ^ ^ ~ ~
