@@ -3,7 +3,7 @@
 ##############################
 
 particle minecraft:end_rod ~ ~ ~ 0 0 0 0 4 normal
-tp @s ^ ^ ^1 ~ ~
+tp @s ^ ^ ^1
 execute positioned ~-0.5 ~-0.5 ~-0.5 as @a[gamemode=!creative,gamemode=!spectator,dx=0,dy=0,dz=0] at @s run function skill_manager:enemy/security_laser/1/damage_apply
 scoreboard players remove $LoopCount Global 1
 execute positioned as @s align xyz unless block ~0.5 ~0.5 ~0.5 air run scoreboard players set $LoopCount Global -1
