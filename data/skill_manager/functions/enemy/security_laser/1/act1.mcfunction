@@ -2,5 +2,5 @@
 ### セキュリティレーザーLv1
 ##############################
 
-execute if entity @a[distance=..20,gamemode=!creative,gamemode=!spectator,limit=1] at @s anchored eyes positioned ^ ^ ^ run function skill_manager:enemy/security_laser/1/act2
+execute if entity @a[distance=..20,gamemode=!creative,gamemode=!spectator,limit=1] run function skill_manager:enemy/security_laser/1/act2
 playsound minecraft:entity.blaze.death master @a[distance=..16] ~ ~ ~ 1 0
