@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:0b,Duration:1,Id:14b,Amplifier:14b}],CustomPotionColor:7602035,HideFlags:32,display:{Lore:[\"§aマナがたぽっと詰まった飲み物\",\"§a飲むとMPがとても回復する。\"],Name:\"{\\\"text\\\":\\\"スーパーエーテル\\\",\\\"color\\\":\\\"dark_green\\\",\\\"bold\\\":\\\"true\\\"}\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
