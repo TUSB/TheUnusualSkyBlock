@@ -1,0 +1,20 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "name": "minecraft:potion",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{CustomPotionEffects:[{ShowParticles:0b,Duration:1,Id:14b,Amplifier:12b}],CustomPotionColor:39424,HideFlags:32,display:{Lore:[\"§aマナがちょぴっと詰まった飲み物\",\"§a飲むとMPが少し回復する。\"],Name:\"{\\\"text\\\":\\\"エーテル\\\",\\\"color\\\":\\\"dark_green\\\",\\\"bold\\\":\\\"true\\\"}\"}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
