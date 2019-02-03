@@ -3,7 +3,7 @@
 ##############################
 
 #プレイヤーからモブに向けてXm先にピンを立てる
-execute positioned as @s positioned as @a[distance=..32,limit=1,sort=nearest] run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[SurveyPin]}
+execute positioned as @s positioned as @a[gamemode=!creative,gamemode=!spectator,scores={Age=1..},distance=..32,limit=1,sort=nearest] run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[SurveyPin]}
 execute as @e[tag=SurveyPin,limit=1] positioned as @s facing entity @s feet run tp @s ~ ~ ~ ~ ~
 execute if entity @s[tag=Leave1] as @e[tag=SurveyPin,limit=1] at @s run tp @s ^ ^ ^1
 execute if entity @s[tag=Leave2] as @e[tag=SurveyPin,limit=1] at @s run tp @s ^ ^ ^2
