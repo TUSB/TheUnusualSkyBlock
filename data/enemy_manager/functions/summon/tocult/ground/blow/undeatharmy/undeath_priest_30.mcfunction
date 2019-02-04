@@ -1,0 +1,5 @@
+##############################
+### アンデスプリースト召喚 - Tocult Ground Blow
+##############################
+
+summon minecraft:villager ~ ~1 ~ {Health:0f,DeathTime:19s,ActiveEffects:[{ShowParticles:false,Duration:20,Id:14b,Amplifier:0b}],Passengers:[{CustomName:"\"アンデスプリースト\"",AbsorptionAmount:2000f,DeathLootTable:"loot_manager:empty", ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:3093109}}},{id:"minecraft:iron_leggings",Count:1b},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:13487103}}},{id:"minecraft:iron_helmet",Count:1b}],Tags:[HasSkill,HealLv3,HealOnDeath], Attributes:[{Base:50d,Name:"generic.maxHealth"},{Base:48d,Name:"generic.followRange"}, {Name:generic.knockbackResistance,Modifiers:[{Amount:10d,UUIDLeast:0l},{Amount:20d,UUIDLeast:1l},{Amount:50d,UUIDLeast:2l}]},{Base:0.3d,Name:"generic.movementSpeed"},{Base:5d,Name:"generic.attackDamage"}],Silent:true,id:"minecraft:skeleton",ActiveEffects:[],HandItems:[{id:"minecraft:carrot_on_a_stick",Count:1b,RepairCost:20000000},{}]}]}

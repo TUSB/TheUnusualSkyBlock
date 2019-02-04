@@ -12,6 +12,7 @@ execute if entity @s[tag=Corpse] run function enemy_manager:summon/global/ground
 execute if entity @s[tag=CorpseKnight] run function enemy_manager:summon/global/ground/blow/corpse_knight_8
 execute if entity @s[tag=CottonSpider] run function enemy_manager:summon/global/ground/blow/cotton_spider_20
 execute if entity @s[tag=Deidora] run function enemy_manager:summon/global/ground/blow/deidora_60
+execute if entity @s[tag=HourHand] run function enemy_manager:summon/global/ground/blow/hour_hand_30
 execute if entity @s[tag=Kawaii] run function enemy_manager:summon/global/ground/blow/kawaii_25
 execute if entity @s[tag=Ker] run function enemy_manager:summon/global/ground/blow/ker_50
 execute if entity @s[tag=PastyChef] run function enemy_manager:summon/global/ground/blow/pasty_chef_40

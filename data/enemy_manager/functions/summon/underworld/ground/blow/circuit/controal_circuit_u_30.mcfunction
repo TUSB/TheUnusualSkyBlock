@@ -1,0 +1,5 @@
+##############################
+### 管理回路U召喚 - Underworld Ground Blow
+##############################
+
+summon minecraft:villager ~ ~ ~ {Health:0f,DeathTime:19s,Passengers:[{CustomName:"\"管理回路U\"",Glowing:1b,AbsorptionAmount:2000f,DeathLootTable:"loot_manager:empty",Tags:[HasSkill,HealLv3],Attributes:[{Name:"generic.movementSpeed",Base:0.25d},{Name:"generic.attackDamage",Base:5d},{Name:generic.knockbackResistance,Modifiers:[{Amount:20d,UUIDLeast:0l},{Amount:40d,UUIDLeast:1l},{Amount:50d,UUIDLeast:2l}]}],HandItems:[{id:"minecraft:glass_pane",Count:1b},{id:"minecraft:glass_pane",Count:1b}],HandDropChances:[-1E40f,-1E40f],ArmorItems:[{tag:{Enchantments:[{id:"respiration",lvl:10s},{id:"depth_strider",lvl:10s}],display:{color:33023}},id:"minecraft:leather_boots",Count:1b},{tag:{Enchantments:[{id:"respiration",lvl:10s},{id:"depth_strider",lvl:10s}],display:{color:33023}},id:"minecraft:leather_leggings",Count:1b},{tag:{Enchantments:[{id:"respiration",lvl:10s},{id:"depth_strider",lvl:10s}],display:{color:33023}},id:"minecraft:leather_chestplate",Count:1b},{id:"minecraft:blue_concrete",Count:1b,Damage:9s}],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f],id:"skeleton"}]}

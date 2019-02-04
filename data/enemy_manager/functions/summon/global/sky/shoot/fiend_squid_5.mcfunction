@@ -1,0 +1,5 @@
+##############################
+### アオリイカ召喚 - Global Sky Shoot
+##############################
+
+summon minecraft:villager ~ ~1 ~ {Silent:true,Health:0f,DeathTime:19s,Passengers:[{id:"minecraft:bat",Silent:true,DeathLootTable:"loot_manager:x",CustomName:"\"アオリイカ\"",AbsorptionAmount:25f,Tags:["Vehicle","Homing","Homing2","Homing8","Swim","InAir","InWater","Step","Behind","Left","Right","Leave","Leave4","Approach","Approach2","Approach8"],Attributes:[{Name:"generic.maxHealth",Modifiers:[{Amount:0.05d,UUIDLeast:0l},{Amount:2d,UUIDLeast:1l},{Amount:6d,UUIDLeast:2l}]}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:false}],Passengers:[{id:"minecraft:squid",Air:32767s,CustomName:"\"アオリイカ\"",AbsorptionAmount:25f,DeathLootTable:"loot_manager:empty",NoGravity:true,PortalCooldown:1600,Tags:["TickingRequired","FacingPlayer","Mob","HasSkill","Call","Event","FiendSquidink"],Attributes:[{Name:"generic.knockbackResistance",Modifiers:[{Amount:1d,UUIDLeast:0l},{Amount:6d,UUIDLeast:1l},{Amount:100d,UUIDLeast:2l}]}]}]}]}

@@ -1,0 +1,5 @@
+##############################
+### ツチグモ召喚 - Underworld Ground Summon
+##############################
+
+summon minecraft:villager ~ ~ ~ {Health:0f,DeathTime:19s,Passengers:[{CustomName:"\"ツチグモ\"",AbsorptionAmount:3000f,DeathLootTable:"loot_manager:empty",Attributes:[{Name:"generic.movementSpeed",Base:0.1d},{Name:"generic.attackDamage",Base:10d}],ArmorItems:[{},{},{},{tag:{Enchantments:[{id:"fire_protection",lvl:5s},{id:"feather_falling",lvl:5s},{id:"blast_protection",lvl:5s},{id:"thorns",lvl:1s}]},id:"minecraft:web",Count:1b}],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f],id:"spider",Passengers:[{Tags:[Cargo],SpawnCount:4s,SpawnRange:4s,MaxNearbyEntities:16s,Delay:-1s,MinSpawnDelay:50s,MaxSpawnDelay:500s,RequiredPlayerRange:16s,SpawnPotentials:[{Weight:1,Entity:{Health:0f,DeathTime:19s,id:"villager",Passengers:[{CustomName:"\"ツチグモベビー\"",id:"minecraft:cave_spider",AbsorptionAmount:500f}]}}],CustomDisplayTile:1b,DisplayState:{Name:"minecraft:cobweb"},DisplayOffset:0,Invulnerable:true,id:"spawner_minecart"}]}]}

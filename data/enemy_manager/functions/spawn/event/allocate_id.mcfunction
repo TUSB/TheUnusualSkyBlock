@@ -14,6 +14,7 @@ execute if entity @s[tag=BlockShieldAlpha] run function enemy_manager:summon/eve
 execute if entity @s[tag=BlockShieldBeta] run function enemy_manager:summon/event/block_shield_beta_30
 execute if entity @s[tag=DeathMagic] run function enemy_manager:summon/event/death_magic_40
 execute if entity @s[tag=ExplodeLaser] run function enemy_manager:summon/event/explode_laser_50
+execute if entity @s[tag=FiendSquidink] run function enemy_manager:summon/event/fiend_squidink_10
 execute if entity @s[tag=FirebombSummoner] run function enemy_manager:summon/event/firebomb_summoner_20
 execute if entity @s[tag=GenocideBlast] run function enemy_manager:summon/event/genocide_blast_100
 execute if entity @s[tag=GoblinsGate] run function enemy_manager:summon/event/goblins_gate_50
