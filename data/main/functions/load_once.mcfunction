@@ -31,6 +31,7 @@ scoreboard objectives add Deaths minecraft.custom:minecraft.deaths {"text":"死�
 scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game {"text":"ログインフラグ"}
 scoreboard objectives add OpenEnderChest minecraft.custom:minecraft.open_enderchest {"text":"エンダーチェストを開いた回数"}
 scoreboard objectives add UseEnderPearl minecraft.used:minecraft.ender_pearl {"text":"エンダーパールを使った回数"}
+scoreboard objectives add UseEnderEye minecraft.used:minecraft.ender_eye {"text":"エンダーアイを使った回数"}
 scoreboard objectives add FoodLevel food {"text":"満腹度"}
 scoreboard objectives add LastFoodLevel dummy {"text":"直前満腹度"}
 scoreboard objectives add Hunger dummy {"text":"死亡時調整満腹度"}

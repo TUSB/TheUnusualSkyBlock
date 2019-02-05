@@ -101,6 +101,7 @@ execute as @a[scores={FoodLevel=1..}] at @s run function trigger_manager:food
 execute as @e[tag=Spawn] positioned as @s run function enemy_manager:spawn/allocate_dimension
 
 ###エンティティ発生時処理
+execute unless score $ReplaceRate DecrementTimer matches -50..50 run scoreboard players set $ReplaceChance DecrementTimer 50
 execute as @e[tag=!Initialized] at @s run function entity_manager:initialize_entity
 
 ###存在する限り毎tick処理呼び出し
@@ -120,6 +121,8 @@ execute as @e[tag=Projectile,scores={ProjectileSkill=1..}] at @s run function sk
 execute as @e[tag=SpawnerHolder] at @s if block ~ ~ ~ minecraft:air align xyz run tag @e[dy=0,tag=Spawner] add Garbage
 ##################################################     エンティティ全般処理の壁     ##################################################
 
+### 達成率
+execute as @a[scores={UseEnderEye=1..}] at @s run function event_manager:conquer
 ###パペット移動
 execute as @a[tag=WithPuppet] unless score @s ModeSkill matches 71031..71039 at @s run function puppet_manager:puppet_move
 ###アイアンウィル復帰
