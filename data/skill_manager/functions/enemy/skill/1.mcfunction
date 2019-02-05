@@ -33,6 +33,14 @@ execute if entity @s[tag=HealLv10] run function skill_manager:enemy/heal/10
 execute if entity @s[tag=SelfHealLv1] run function skill_manager:enemy/self_heal/1
 execute if entity @s[tag=SelfHealLv2] run function skill_manager:enemy/self_heal/2
 execute if entity @s[tag=SelfHealLv3] run function skill_manager:enemy/self_heal/3
+execute if entity @s[tag=SelfHealLv4] run function skill_manager:enemy/self_heal/4
+execute if entity @s[tag=SelfHealLv5] run function skill_manager:enemy/self_heal/5
+execute if entity @s[tag=SelfHealLv6] run function skill_manager:enemy/self_heal/6
+execute if entity @s[tag=SelfHealLv7] run function skill_manager:enemy/self_heal/7
+execute if entity @s[tag=SelfHealLv8] run function skill_manager:enemy/self_heal/8
+execute if entity @s[tag=SelfHealLv9] run function skill_manager:enemy/self_heal/9
+execute if entity @s[tag=SelfHealLv10] run function skill_manager:enemy/self_heal/10
+
 ### 忍者
 execute if entity @s[tag=Ninja] run function skill_manager:enemy/teleport/1
 ### Swim補正
