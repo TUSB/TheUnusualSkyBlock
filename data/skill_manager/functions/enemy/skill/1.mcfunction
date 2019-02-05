@@ -22,6 +22,13 @@ execute if entity @s[tag=BlinkLv3] run function skill_manager:enemy/blink/3
 execute if entity @s[tag=HealLv1] run function skill_manager:enemy/heal/1
 execute if entity @s[tag=HealLv2] run function skill_manager:enemy/heal/2
 execute if entity @s[tag=HealLv3] run function skill_manager:enemy/heal/3
+execute if entity @s[tag=HealLv4] run function skill_manager:enemy/heal/4
+execute if entity @s[tag=HealLv5] run function skill_manager:enemy/heal/5
+execute if entity @s[tag=HealLv6] run function skill_manager:enemy/heal/6
+execute if entity @s[tag=HealLv7] run function skill_manager:enemy/heal/7
+execute if entity @s[tag=HealLv8] run function skill_manager:enemy/heal/8
+execute if entity @s[tag=HealLv9] run function skill_manager:enemy/heal/9
+execute if entity @s[tag=HealLv10] run function skill_manager:enemy/heal/10
 ### セルフヒール
 execute if entity @s[tag=SelfHealLv1] run function skill_manager:enemy/self_heal/1
 execute if entity @s[tag=SelfHealLv2] run function skill_manager:enemy/self_heal/2
