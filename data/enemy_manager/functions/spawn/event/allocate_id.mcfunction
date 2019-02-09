@@ -22,6 +22,7 @@ execute if entity @s[tag=GreenPearl] run function enemy_manager:summon/event/gre
 execute if entity @s[tag=HasteMissile] run function enemy_manager:summon/event/haste_missile_20
 execute if entity @s[tag=HealMissile] run function enemy_manager:summon/event/heal_missile_10
 execute if entity @s[tag=HellSpark] run function enemy_manager:summon/event/hell_spark_50
+execute if entity @s[tag=KillerknifeSp] run function enemy_manager:summon/event/killerknife_sp_35
 execute if entity @s[tag=Laser] run function enemy_manager:summon/event/laser_30
 execute if entity @s[tag=LaserNotice] run function enemy_manager:summon/event/laser_notice_30
 execute if entity @s[tag=MagicMissile] run function enemy_manager:summon/event/magic_missile_10
