@@ -13,3 +13,4 @@ execute if entity @s[tag=MinuteHand] run function enemy_manager:summon/global/gr
 execute if entity @s[tag=PumpkinKid] run function enemy_manager:summon/global/ground/shoot/pumpkin_kid_40
 execute if entity @s[tag=Sankaku] run function enemy_manager:summon/global/ground/shoot/sankaku_30
 execute if entity @s[tag=SkeletonRider] run function enemy_manager:summon/global/ground/shoot/skeleton_rider_5
+execute if entity @s[tag=SlimeBeetle] run function enemy_manager:summon/global/ground/shoot/slime_beetle_15

@@ -1,0 +1,5 @@
+##############################
+### 地獄の妖精召喚 - Nether Sky Shoot
+##############################
+
+summon minecraft:zombie ~ ~1 ~ {NoGravity:true,DeathLootTable:"loot_manager:empty",AbsorptionAmount:2500f,IsBaby:true,Tags:["Swim","InAir","Step","Behind","Right","Left","Up","FacingPlayer","Leave","Leave8","Leave4","HasSkill","Call","Event","LunaticBullet"],CustomName:"{\"text\":\"地獄の妖精\"}",HandItems:[{id:"minecraft:redstone_torch",Count:1b},{}],HandDropChances:[-1E40f,-1E40f],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:16777215},Unbreakable:1b}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:16711680},Unbreakable:1b}},{id:"minecraft:elytra",Count:1b},{id:"minecraft:end_stone",Count:1b}],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f],Attributes:[{Name:"generic.maxHealth",Modifiers:[{Amount:0.3d,UUIDLeast:0l},{Amount:10d,UUIDLeast:1l},{Amount:2d,UUIDLeast:2l}]},{Name:"generic.knockbackResistance",Modifiers:[{Amount:5d,UUIDLeast:0l},{Amount:10d,UUIDLeast:1l},{Amount:75d,UUIDLeast:2l}]},{Name:generic.followRange,Base:0d},{Name:generic.attackDamage,Base:0d}]}
