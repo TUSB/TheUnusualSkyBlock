@@ -3,7 +3,7 @@
 ##############################
 
 function calc_manager:update_random
-scoreboard players operation $Random Global %= $3 Global
+scoreboard players operation $Random Global %= $3 Const
 
 #ランダムパターン1 - 高速ナイフ
 execute if score $Random Global matches 0 run summon minecraft:armor_stand ~ ~1 ~ {Tags:["CooldownRequired","LateInitializer"],PortalCooldown:5,Small:true,Invulnerable:true,Invisible:true,DisabledSlots:31,Passengers:[{id:"minecraft:silverfish",DeathTime:19s,CustomName:"\"キラーナイフ\"",Invulnerable:true,NoGravity:true,Silent:true,PortalCooldown:30,Air:60s,Tags:["CooldownRequired","Direction","LateInitializer","LateEntity"],Attributes:[{Name:"generic.attackDamage",Base:0d},{Name:"generic.followRange",Base:0d}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2000000,ShowParticles:false}],Passengers:[{id:"minecraft:armor_stand",Tags:["CooldownRequired","AimOnInit"],Air:10s,PortalCooldown:30,HandItems:[{id:"minecraft:iron_sword",Count:1b}],Invulnerable:true,Small:true,Invisible:true,DisabledSlots:31,Pose:{RightArm:[-10f,0f,180f]}},{id:"minecraft:area_effect_cloud",CustomName:"\"キラーナイフ\"",Tags:["Cargo"],Radius:1.5f,Particle:"minecraft:block minecraft:air",ReapplicationDelay:0,Duration:99,Effects:[{Id:7b,Amplifier:2b,Duration:1,ShowParticles:false}]}]}]}
