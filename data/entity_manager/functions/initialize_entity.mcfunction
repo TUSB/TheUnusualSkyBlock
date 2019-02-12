@@ -34,6 +34,10 @@ execute if entity @s[tag=AbovePlayer] at @a[distance=..32,sort=nearest,limit=1] 
 execute if entity @s[tag=AboveEnemy] at @e[distance=..32,tag=Mob,sort=nearest,limit=1] run tp @s ~ ~5 ~
 execute if entity @s[tag=NeverRemain] run data merge entity @s {FallHurtMax:2147483647,FallingDistance:1E10f,DropItem:false,BlockState:{Name:"minecraft:command_block"},TileEntityData:{Command:"/setblock ~ ~ ~ minecraft:air",auto:true}}
 
+###アマスタのポーズをランダムにする
+execute if entity @s[tag=RandomPoseHead] run function calc_manager:set/random_pose_head
+execute if entity @s[tag=RandomPoseHands] run function calc_manager:set/random_pose_hands
+
 ### 飛翔物属性付与
 tag @s[type=minecraft:arrow] add Projectile
 tag @s[type=minecraft:dragon_fireball] add Projectile
