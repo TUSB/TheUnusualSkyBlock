@@ -12,6 +12,7 @@ execute if entity @s[tag=07ManaBlast] run function enemy_manager:summon/event/07
 execute if entity @s[tag=BlazeBall] run function enemy_manager:summon/event/blaze_ball_15
 execute if entity @s[tag=BlockShieldAlpha] run function enemy_manager:summon/event/block_shield_alpha_20
 execute if entity @s[tag=BlockShieldBeta] run function enemy_manager:summon/event/block_shield_beta_30
+execute if entity @s[tag=CrushedIce] run function enemy_manager:summon/event/crushed_ice_55
 execute if entity @s[tag=DeathMagic] run function enemy_manager:summon/event/death_magic_40
 execute if entity @s[tag=ExplodeLaser] run function enemy_manager:summon/event/explode_laser_50
 execute if entity @s[tag=FiendSquidink] run function enemy_manager:summon/event/fiend_squidink_10
