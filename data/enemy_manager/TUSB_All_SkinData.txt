@@ -17,7 +17,7 @@ summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{display:{Name
 summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{display:{Name:"[\"召喚士\"]"},SkullOwner:{Name:"召喚士",Id:"0-0-ca-0-6",Properties:{textures:[{Value:"eyJ0aW1lc3RhbXAiOjE0NTk0MzUzMzU1NTIsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mYWY1NTA1OWI3NzkzMzc4YTdkM2E1YWVmNzllZjBlZGY0YzE0OGMzODBhMTk3MjYwMjNhNTQ1MjQxZjc2OTIifX19"}]}}}}}
 
 # 絡繰士
-summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{display:{Name:"[\"絡繰士\"]"},SkullOwner:{Id:"0-0-ca-0-7",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzBlZWU1OGI1ODQxNDY2ZGVlMTRiM2Y1NmU5ODQzODNjMjM5MDE4ODRmNTYwYjY0MGZiZWFjMDczMGNkMTZhZiJ9fX0="}]}}}}}
+summon item ~ ~1 ~ {Item:{id:"minecraft:player_head",Count:1b,tag:{display:{Name:"[\"絡繰士\"]"},SkullOwner:{Name:"絡繰士",Id:"0-0-ca-0-7",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzBlZWU1OGI1ODQxNDY2ZGVlMTRiM2Y1NmU5ODQzODNjMjM5MDE4ODRmNTYwYjY0MGZiZWFjMDczMGNkMTZhZiJ9fX0="}]}}}}}
 
 
 ### MOB
