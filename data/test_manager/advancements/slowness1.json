@@ -1,0 +1,24 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:command_block"
+        },
+        "title": "どんそく",
+        "description": "",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "damage_taken": {
+            "trigger": "minecraft:entity_hurt_player",
+            "condition": {
+                "source_entity": {
+                    "nbt": "{Tags:[slowness1]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "test_manager:slowness1"
+    }
+} 
