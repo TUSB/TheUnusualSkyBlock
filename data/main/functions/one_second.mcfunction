@@ -9,6 +9,10 @@ scoreboard players set $Second Count 0
 execute as @a[tag=WithPuppet] unless score @s ModeSkill matches 71031..71039 run function puppet_manager:calc_and_act
 execute as @e[tag=Automaton] at @s run function puppet_manager:bio_handling/tick
 
+### 敵固定処理
+execute as @e[tag=Mob,tag=!Lock,nbt={ActiveEffects:[{Id:27b,Amplifier:1b}]}] unless entity @s[nbt={NoAI:1b}] run function entity_manager:lock/lock
+execute as @e[tag=Lock,nbt=!{ActiveEffects:[{Id:27b,Amplifier:1b}]}] run function entity_manager:lock/unlock
+
 ### 常に炎上処理
 execute as @e[tag=Burning,nbt={Fire:-1s}] at @s if entity @p[distance=..48] run function entity_manager:burning
 
