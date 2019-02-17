@@ -55,6 +55,8 @@ execute if entity @s[tag=SkillBox] run function skill_manager:enemy/teleport/1
 execute if entity @s[tag=SecurityLaserLv1] run function skill_manager:enemy/security_laser/1/act1
 execute if entity @s[tag=SecurityLaserLv2] run function skill_manager:enemy/security_laser/2/act1
 execute if entity @s[tag=SecurityLaserLv3] run function skill_manager:enemy/security_laser/3/act1
+### ホワイトライダー
+execute if entity @s[tag=WhiteRider] run function skill_manager:enemy/whiterider/summon
 
 ### 発生確率0%セット
 scoreboard players reset $Threshold Global
