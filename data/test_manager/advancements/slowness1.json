@@ -12,8 +12,10 @@
         "damage_taken": {
             "trigger": "minecraft:entity_hurt_player",
             "condition": {
-                "source_entity": {
-                    "nbt": "{Tags:[slowness1]}"
+				"damage": {
+					"source_entity": {
+						"nbt": "{Tags:["slowness1"]}"
+					}
                 }
             }
         }
