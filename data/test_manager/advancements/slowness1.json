@@ -14,7 +14,7 @@
             "condition": {
 				"damage": {
 					"source_entity": {
-						"nbt": "{Tags:["slowness1"]}"
+						"nbt": "{Tags:[slowness1]}"
 					}
                 }
             }
