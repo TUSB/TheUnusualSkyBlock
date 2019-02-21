@@ -20,3 +20,5 @@ give @p minecraft:armor_stand{RepairCost:1000000000,HideFlags:3,EntityTag:{Tags:
 give @p minecraft:armor_stand{RepairCost:1000000000,HideFlags:3,EntityTag:{Tags:[SignStand,WebBreakerOnce]},display: {Lore: ["§r§e設置して使用すると、看板から", "§aちょっとの§e範囲にある§f§l蜘蛛の巣§eを", "§3粉砕/回収§eできる。", "§d§n一度だけ§e使用できる。", "§e§o※§c§oネザー§e§oや§5§oエンド§e§oでは使用出来ない。"], Name: "{\"text\":\"§r§3§l粉砕の印板：§f§l蜘蛛の巣\"}"},Enchantments:[{id:""}]}
 ###蜘蛛の巣粉砕の印版_無限
 give @p minecraft:armor_stand{RepairCost:1000000000,HideFlags:3,EntityTag:{Tags:[SignStand,WebBreakerInf]},display: {Lore: ["§r§e設置して使用すると、看板から", "§aちょっとの§e範囲にある§f§l蜘蛛の巣§eを", "§3粉砕/回収§eできる。看板が壊れない限り", "§d§n半永久的§eに使用できる。", "§e§o※§c§oネザー§e§oや§5§oエンド§e§oでは使用出来ない。"], Name: "{\"text\":\"§r§3§l粉砕の印板：§f§l蜘蛛の巣\"}"},Enchantments:[{id:""}]}
+###羊スポナー
+give @p minecraft:armor_stand{RepairCost:1000000000,HideFlags:3,EntityTag:{Tags:[SignStand,SheepSpawner]},display: {Lore: ["§r§e設置して使用すると、","§r§e羊スポナーを設置する"], Name: "{\"text\":\"羊スポナー\"}"},Enchantments:[{id:""}]}
