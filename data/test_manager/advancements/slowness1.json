@@ -11,10 +11,10 @@
     "criteria": {
         "damage_taken": {
             "trigger": "minecraft:entity_hurt_player",
-            "condition": {
-				"damage": {
+            "conditions": {
+			   "damage": {
 					"source_entity": {
-						"nbt": "{Tags:[slowness1]}"
+						"nbt": "{Tags:[\"slowness1\"]}"
 					}
                 }
             }
