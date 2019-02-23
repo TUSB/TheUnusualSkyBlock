@@ -52,6 +52,8 @@ tag @s[type=minecraft:zombie_pigman] add Dead
 tag @s[type=minecraft:zombie_villager] add Dead
 tag @s[type=minecraft:drowned] add Dead
 
+###バニラモブ置き換え判定
+execute if entity @s[nbt={AbsorptionAmount:0f}] if score $ReplaceChance DecrementTimer <= $ConquerNumber Global run function enemy_manager:replace/allocate_dimension
 ### AbsorptionAmount付与
 execute if entity @s[nbt={AbsorptionAmount:0f}] store result entity @s AbsorptionAmount float 0.01 run data get entity @s Health 100
 data merge entity @s {Attributes:[{Name:"generic.maxHealth",Base:1024d}],Health:1024f}

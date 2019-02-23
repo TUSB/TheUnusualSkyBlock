@@ -101,8 +101,8 @@ execute as @a[scores={FoodLevel=1..}] at @s run function trigger_manager:food
 execute as @e[tag=Spawn] positioned as @s run function enemy_manager:spawn/allocate_dimension
 
 ###エンティティ発生時処理
-execute unless score $ReplaceRate DecrementTimer matches -50..50 run scoreboard players set $ReplaceChance DecrementTimer 50
-execute as @e[tag=!Initialized] at @s run function entity_manager:initialize_entity
+execute unless score $ReplaceChance DecrementTimer matches -50..50 run scoreboard players set $ReplaceChance DecrementTimer 50
+execute store success score $Replaced Global as @e[tag=!Initialized] at @s run function entity_manager:initialize_entity
 
 ###存在する限り毎tick処理呼び出し
 execute as @e[tag=NativeTask] at @s run function main:task/native
