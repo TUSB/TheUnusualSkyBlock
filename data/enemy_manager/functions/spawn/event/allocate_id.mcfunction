@@ -27,6 +27,7 @@ execute if entity @s[tag=HasteMissile] run function enemy_manager:summon/event/h
 execute if entity @s[tag=HealMissile] run function enemy_manager:summon/event/heal_missile_10
 execute if entity @s[tag=HellSpark] run function enemy_manager:summon/event/hell_spark_50
 execute if entity @s[tag=IcicleEdge] run function enemy_manager:summon/event/icicle_edge_55
+execute if entity @s[tag=JumpingAttack] run function enemy_manager:summon/event/jumping_attack_30
 execute if entity @s[tag=KillerknifeBarrage] run function enemy_manager:summon/event/killerknife_barrage_50
 execute if entity @s[tag=KillerknifeSp] run function enemy_manager:summon/event/killerknife_sp_35
 execute if entity @s[tag=Laser] run function enemy_manager:summon/event/laser_30
