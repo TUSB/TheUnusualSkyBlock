@@ -5,7 +5,6 @@
 execute if entity @s[tag=Goblin] run function enemy_manager:spawn/global/ground/blow/goblin/allocate_subfolder
 execute if entity @s[tag=Ninja] run function enemy_manager:spawn/global/ground/blow/ninja/allocate_subfolder
 execute if entity @s[tag=Steve] run function enemy_manager:spawn/global/ground/blow/steve/allocate_subfolder
-execute if entity @s[tag=AngrySilverfish] run function enemy_manager:summon/global/ground/blow/angry_silverfish_5
 execute if entity @s[tag=BacktheCreeper] run function enemy_manager:summon/global/ground/blow/backthe_creeper_3
 execute if entity @s[tag=Calcifer] run function enemy_manager:summon/global/ground/blow/calcifer_35
 execute if entity @s[tag=CharmingEnderman] run function enemy_manager:summon/global/ground/blow/charming_enderman_15
