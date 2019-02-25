@@ -57,6 +57,8 @@ execute if entity @s[tag=SecurityLaserLv2] run function skill_manager:enemy/secu
 execute if entity @s[tag=SecurityLaserLv3] run function skill_manager:enemy/security_laser/3/act1
 ### ホワイトライダー
 execute if entity @s[tag=WhiteRider] run function skill_manager:enemy/whiterider/summon
+### ななめジャンプ
+execute if entity @s[tag=JumpingAttack] run function skill_manager:enemy/jump/1
 
 ### 発生確率0%セット
 scoreboard players reset $Threshold Global
