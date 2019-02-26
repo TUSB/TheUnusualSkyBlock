@@ -21,4 +21,4 @@ execute if score $Random Global matches 5027..5690 run function enemy_manager:su
 execute if score $Random Global matches 5690..6684 run function enemy_manager:summon/global/other/blow/colony/slime_5
 execute if score $Random Global matches 6684..7678 run function enemy_manager:summon/global/neutrality_1
 execute if score $Random Global matches 7678..8672 run function enemy_manager:summon/global/ground/blow/corpse_3
-execute if score $Random Global matches 8672..9998 run function enemy_manager:summon/global/ground/blow/goblin/goblin_single_3
+execute if score $Random Global matches 8672..9997 run function enemy_manager:summon/global/ground/blow/goblin/goblin_single_3
