@@ -15,4 +15,5 @@ function enemy_manager:give_spawner/tablemountain/all_group
 function enemy_manager:give_spawner/theater/all_group
 function enemy_manager:give_spawner/tocult/all_group
 function enemy_manager:give_spawner/underworld/all_group
+function enemy_manager:give_spawner/event/all
 function enemy_manager:give_spawner/tool/all
