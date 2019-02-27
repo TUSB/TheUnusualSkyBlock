@@ -20,6 +20,7 @@ execute if entity @s[tag=ExplodeLaser] run function enemy_manager:summon/event/e
 execute if entity @s[tag=FiendSquidink] run function enemy_manager:summon/event/fiend_squidink_10
 execute if entity @s[tag=FireBreath] run function enemy_manager:summon/event/fire_breath_30
 execute if entity @s[tag=FirebombSummoner] run function enemy_manager:summon/event/firebomb_summoner_20
+execute if entity @s[tag=FirebreathHold] run function enemy_manager:summon/event/firebreath_hold_30
 execute if entity @s[tag=FlameBurst] run function enemy_manager:summon/event/flame_burst_55
 execute if entity @s[tag=GenocideBlast] run function enemy_manager:summon/event/genocide_blast_100
 execute if entity @s[tag=GoblinsGate] run function enemy_manager:summon/event/goblins_gate_50
