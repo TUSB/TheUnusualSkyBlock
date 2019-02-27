@@ -14,7 +14,7 @@ execute if score $Random Global matches 722..1053 run function enemy_manager:sum
 execute if score $Random Global matches 1053..1384 run function enemy_manager:summon/global/sky/blow/wing_slime_30
 execute if score $Random Global matches 1384..1715 run function enemy_manager:summon/global/ground/blow/corpse_knight_8
 execute if score $Random Global matches 1715..2378 run function enemy_manager:summon/global/sky/blow/ghost_20
-execute if score $Random Global matches 2378..3041 run function enemy_manager:summon/global/ground/blow/goblin/goblin_archer_single_3
+execute if score $Random Global matches 2378..3041 run function enemy_manager:summon/global/ground/blow/goblins/goblin_archer_single_3
 execute if score $Random Global matches 3041..3704 run function enemy_manager:summon/global/ground/shoot/flag/01_brown_20
 execute if score $Random Global matches 3704..4367 run function enemy_manager:summon/global/ground/shoot/skeleton_rider_5
 execute if score $Random Global matches 4367..5030 run function enemy_manager:summon/global/ground/shoot/slime_beetle_15
@@ -22,4 +22,4 @@ execute if score $Random Global matches 5030..5693 run function enemy_manager:su
 execute if score $Random Global matches 5693..6687 run function enemy_manager:summon/global/other/blow/colony/slime_5
 execute if score $Random Global matches 6687..7681 run function enemy_manager:summon/global/neutrality_1
 execute if score $Random Global matches 7681..8675 run function enemy_manager:summon/global/ground/blow/corpse_3
-execute if score $Random Global matches 8675..10000 run function enemy_manager:summon/global/ground/blow/goblin/goblin_single_3
+execute if score $Random Global matches 8675..10000 run function enemy_manager:summon/global/ground/blow/goblins/goblin_single_3

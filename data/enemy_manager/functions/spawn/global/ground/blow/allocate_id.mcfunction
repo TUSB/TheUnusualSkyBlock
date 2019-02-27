@@ -2,7 +2,7 @@
 ### モブID分岐 - Global Ground Blow
 ##############################
 
-execute if entity @s[tag=Goblin] run function enemy_manager:spawn/global/ground/blow/goblin/allocate_subfolder
+execute if entity @s[tag=Goblins] run function enemy_manager:spawn/global/ground/blow/goblins/allocate_subfolder
 execute if entity @s[tag=Ninja] run function enemy_manager:spawn/global/ground/blow/ninja/allocate_subfolder
 execute if entity @s[tag=Steve] run function enemy_manager:spawn/global/ground/blow/steve/allocate_subfolder
 execute if entity @s[tag=AngrySilverfish] run function enemy_manager:summon/global/ground/blow/angry_silverfish_5
