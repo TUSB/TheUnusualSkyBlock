@@ -677,6 +677,9 @@ execute unless entity 0-0-0-0-0 run summon minecraft:area_effect_cloud 0.0 1.0 0
 ###ブロック系
 fill 0 0 0 6 0 6 minecraft:water
 
+#進捗率
+execute unless score $ConquerNumber Global matches 0.. run scoreboard players set $ConquerNumber Global 0
+
 ### 絡繰士エンティティ
 #$CloseAttack 1
 #$CloseRangeAttack 2
