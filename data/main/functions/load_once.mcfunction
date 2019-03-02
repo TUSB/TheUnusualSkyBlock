@@ -234,8 +234,6 @@ scoreboard objectives add QuestState dummy {"text":"クエスト状況リスト"
 scoreboard objectives add ProjectileLife dummy {"text":"飛翔物生存時間"}
 scoreboard objectives add Motion dummy {"text":"モーション保存"}
 scoreboard objectives add EnemySkillSpan dummy {"text":"敵スキル使用間隔"}
-###無限チェスト（いろは丸）
-function item_manager:inf_chest/init
 
 ###定数
 scoreboard players set $-11 Const -11

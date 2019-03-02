@@ -213,10 +213,6 @@ execute if score $InfinityChest Global matches 1.. as @e[tag=InfinityChest] at @
 scoreboard players set $InfinityChest Global 0
 execute as @a at @s if entity @e[distance=..7,tag=InfinityChest,limit=1] run scoreboard players set $InfinityChest Global 1
 
-###無限チェスト処理（いろは丸）
-execute as @a positioned as @s as @e[tag=inf_chest,distance=..5] positioned as @s run function item_manager:inf_chest/main
-
-
 ###クエスト関係
 execute as @a if score @s QuestClick matches 1.. run function quest_manager:main/list_clicked
 execute as @a if score @s QuestReceive matches 1.. run function quest_manager:main/receive_decide

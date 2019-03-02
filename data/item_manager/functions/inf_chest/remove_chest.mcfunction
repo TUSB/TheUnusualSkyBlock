@@ -1,1 +1,0 @@
-setblock ~ ~ ~ minecraft:air replace
