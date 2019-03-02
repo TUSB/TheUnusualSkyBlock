@@ -2,7 +2,7 @@
 ### 死亡時ヒール
 ##############################
 
-me は 最後の力を振り絞り、味方を回復した！
+tellraw @a[distance=..16] [{"selector":"@s"},{"text":" は 最後の力を振り絞り、味方を回復した！"}]
 scoreboard players set $Heal Global 1000000
 execute as @e[tag=Mob,distance=..8] positioned as @s run function skill_manager:enemy/heal/apply
 

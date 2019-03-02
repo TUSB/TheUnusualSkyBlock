@@ -4,7 +4,7 @@
 
 scoreboard players reset @s CharmCount
 
-tellraw @a [{"text":"","color":"green"},{"selector":"@s"},"の",{"text":"魅了","color":"white"},"が切れた。"]
+tellraw @a[distance=..16] [{"text":"","color":"green"},{"selector":"@s"},"の",{"text":"魅了","color":"white"},"が切れた。"]
 
 ### ビットドロップ
 scoreboard players operation $BitFlags Global = @s TemporaryEffects

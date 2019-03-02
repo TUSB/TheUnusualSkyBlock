@@ -6,7 +6,8 @@ execute store result score $TargetCount Global if entity @e[distance=..5,tag=Mob
 execute if entity @s[tag=Sicced] store result score $TargetCount Global if entity @e[distance=..5,tag=Mob]
 effect give @e[distance=..5,tag=Mob,nbt=!{ActiveEffects:[{Id:18b}]}] minecraft:weakness 1000000 9
 # execute if score $TargetCount Global matches 0 run me の アブゾーブアタック！…しかし上手くきまらなかった。
-execute if score $TargetCount Global matches 1.. run me の アブゾーブアタック！敵の攻撃力を吸収した！
+execute if score $TargetCount Global matches 1.. run tellraw @a[distance=..16] [{"selector":"@s"},{"text":" の アブゾーブアタック！敵の攻撃力を吸収した！"}]
+
 scoreboard players operation $TargetCount Global *= $2000 Const
 execute store result score $Attack Global run data get entity @s Attributes[6].Base 100
 scoreboard players operation $Attack Global += $TargetCount Global
