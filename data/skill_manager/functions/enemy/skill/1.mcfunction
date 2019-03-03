@@ -61,6 +61,8 @@ execute if entity @s[tag=IcingRay] run function skill_manager:enemy/icing_ray/1/
 execute if entity @s[tag=WhiteRider] run function skill_manager:enemy/whiterider/summon
 ### ななめジャンプ
 execute if entity @s[tag=JumpingAttack] run function skill_manager:enemy/jump/1
+### 魔弾の射手
+execute if entity @s[tag=Shooter] run function skill_manager:enemy/shooter/move/1
 
 ### 発生確率0%セット
 scoreboard players reset $Threshold Global
