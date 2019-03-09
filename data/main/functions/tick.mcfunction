@@ -80,6 +80,7 @@ execute as @a[scores={Jump=1..}] at @s run function trigger_manager:jump
 execute as @a[scores={Deaths=1..}] at @s run function trigger_manager:death
 execute as @a[scores={FoodLevel=1..}] at @s run function trigger_manager:food_preview
 execute as @a[scores={SneakTime=1..}] at @s run function trigger_manager:sneak
+execute as @a[scores={TalkToVillager=1..}] at @s run function trigger_manager:villager/talk
 
 ###スキルエッグ
 execute as @a[scores={UseModeEgg=1..}] at @s run function trigger_manager:egg/mode_change
@@ -183,6 +184,9 @@ execute as @a run function skill_manager:update_mp
 
 ###カスタムHP回復
 execute as @a[scores={HealthHealing=-2147483648..}] run function effect_manager:health_healing
+
+###村人会話
+execute as @a[scores={VillagerTrigger=1..}] at @s run function trigger_manager:villager/trigger
 ##################################################     このtickの戦闘処理を完了させるHP/MP処理の壁     ##################################################
 
 ###スキル設定表示
