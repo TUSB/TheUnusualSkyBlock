@@ -2,6 +2,8 @@
 ### 村人と会話
 ##############################
 
+scoreboard players enable @s VillagerTrigger
+
 ###視線検知
 tag @s add Talking
 execute positioned ^ ^ ^3 as @e[type=villager,distance=..3] positioned as @s positioned ^ ^ ^1000 facing entity @a[tag=Talking,limit=1] eyes positioned ^ ^ ^1000 positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0.5,dy=0.5,dz=0.5] run tag @s add TalkingVillager

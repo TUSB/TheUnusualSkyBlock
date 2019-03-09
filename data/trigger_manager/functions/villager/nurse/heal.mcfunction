@@ -18,6 +18,10 @@ execute if score $Cost Global matches 1.. run clear @s minecraft:emerald 1
 tellraw @s ["",{"selector":"@e[tag=Nurse,limit=1,sort=nearest]"},{"text":" : これでよくなりましたよ。"}]
 playsound minecraft:entity.villager.yes master @a[distance=..16] ~ ~ ~ 1 1.6
 playsound minecraft:entity.player.levelup master @a[distance=..16] ~ ~ ~ 1 1.9
+playsound minecraft:block.note_block.bell master @a[distance=..16] ~ ~ ~ 1 1
+playsound minecraft:block.note_block.bell master @a[distance=..16] ~ ~ ~ 1 2
+playsound minecraft:block.note_block.chime master @a[distance=..16] ~ ~ ~ 1 1
+playsound minecraft:block.note_block.chime master @a[distance=..16] ~ ~ ~ 1 2
 particle minecraft:heart ~ ~0.5 ~ 1 0.5 1 1 10 force @a[tag=ShowParticles]
 particle minecraft:happy_villager ~ ~0.5 ~ 1 0.5 1 1 15 force @a[tag=ShowParticles]
 ###---演出---End
