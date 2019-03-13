@@ -1,2 +1,0 @@
-advancement revoke @s only test_manager:blastweak
-summon minecraft:creeper ~ ~ ~ {CustomName:"\"怒れるシルバーフィッシュ\"",Invulnerable:true,AbsorptionAmount:99f,Silent:true,NoAI:true,ExplosionRadius:1b,Fuse:0s,ignited:true}
