@@ -21,6 +21,6 @@
         }
     },
     "rewards": {
-        "function": "enemy_manager:attackevent/terror"
+        "function": "enemy_manager:attackevent/confuse"
     }
 } 
