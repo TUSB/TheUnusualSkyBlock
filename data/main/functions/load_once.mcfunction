@@ -235,6 +235,7 @@ scoreboard objectives add QuestState dummy {"text":"クエスト状況リスト"
 ###その他スコア
 scoreboard objectives add ProjectileLife dummy {"text":"飛翔物生存時間"}
 scoreboard objectives add Motion dummy {"text":"モーション保存"}
+scoreboard objectives add Rotation dummy {"text":"ローテーション保存"}
 scoreboard objectives add EnemySkillSpan dummy {"text":"敵スキル使用間隔"}
 
 ###定数
