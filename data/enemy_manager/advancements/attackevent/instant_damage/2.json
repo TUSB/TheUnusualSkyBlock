@@ -9,17 +9,35 @@
         "announce_to_chat": false
     },
     "criteria": {
-        "damage_taken": {
+        "damage_taken1": {
             "trigger": "minecraft:entity_hurt_player",
             "conditions": {
-			   "damage": {
+			    "damage": {
 					"source_entity": {
 						"nbt": "{Tags:[\"AttackInstantDamageLv2\"]}"
 					}
                 }
             }
+        },
+		"damage_taken2": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+			    "damage": {
+				"type": {
+					"direct_entity": {
+						"nbt": "{Tags:[\"InstantDamageBulletLv2\"]}"
+						}
+					}
+                }
+            }
         }
     },
+		"requirements": [
+        [
+		"damage_taken1", 
+		"damage_taken2"
+		]
+    ],
     "rewards": {
         "function": "enemy_manager:attackevent/instant_damage/2"
     }
