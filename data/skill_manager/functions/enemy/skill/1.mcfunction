@@ -63,6 +63,8 @@ execute if entity @s[tag=WhiteRider] run function skill_manager:enemy/whiterider
 execute if entity @s[tag=JumpingAttack] run function skill_manager:enemy/jump/1
 ### 魔弾の射手
 execute if entity @s[tag=Shooter] run function skill_manager:enemy/shooter/move/1
+### キャプチャー
+execute if entity @s[tag=Capture] run function skill_manager:enemy/capture/1
 
 ### 発生確率0%セット
 scoreboard players reset $Threshold Global
