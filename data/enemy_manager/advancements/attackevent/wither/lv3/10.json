@@ -1,0 +1,44 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:command_block"
+        },
+        "title": "うぃざーLv3",
+        "description": "",
+        "show_toast": false,
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "damage_taken1": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+			    "damage": {
+					"source_entity": {
+						"nbt": "{Tags:[\"AttackWither10SecLv3\"]}"
+					}
+                }
+            }
+        },
+		"damage_taken2": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+			    "damage": {
+				"type": {
+					"direct_entity": {
+						"nbt": "{Tags:[\"WitherBullet10SecLv3\"]}"
+						}
+					}
+                }
+            }
+        }
+    },
+		"requirements": [
+        [
+		"damage_taken1", 
+		"damage_taken2"
+		]
+    ],
+    "rewards": {
+        "function": "enemy_manager:attackevent/wither/lv3/10"
+    }
+} 
