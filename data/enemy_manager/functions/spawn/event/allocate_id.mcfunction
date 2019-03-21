@@ -28,6 +28,7 @@ execute if entity @s[tag=GreenPearl] run function enemy_manager:summon/event/gre
 execute if entity @s[tag=HasteMissile] run function enemy_manager:summon/event/haste_missile_20
 execute if entity @s[tag=HealMissile] run function enemy_manager:summon/event/heal_missile_10
 execute if entity @s[tag=HellSpark] run function enemy_manager:summon/event/hell_spark_50
+execute if entity @s[tag=HomingBullet] run function enemy_manager:summon/event/homing_bullet_35
 execute if entity @s[tag=IcicleEdge] run function enemy_manager:summon/event/icicle_edge_55
 execute if entity @s[tag=IcingRay] run function enemy_manager:summon/event/icing_ray_30
 execute if entity @s[tag=KillerknifeBarrage] run function enemy_manager:summon/event/killerknife_barrage_50

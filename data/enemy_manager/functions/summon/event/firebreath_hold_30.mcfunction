@@ -2,6 +2,7 @@
 ### ファイアーブレス 溜め召喚 - Event  
 ##############################
 
+execute facing entity @e[team=Friendly,gamemode=!creative,gamemode=!spectator,nbt=!{Health:0f},sort=nearest,limit=1] eyes run tp @s ~ ~ ~ ~ ~
 function entity_manager:lock/lock
 effect give @s minecraft:unluck 4 1 true
 
