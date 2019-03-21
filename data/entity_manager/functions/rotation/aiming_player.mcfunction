@@ -2,8 +2,7 @@
 ### フレンドリー狙い
 ##############################
 
-execute positioned as @s[tag=!Straight] facing entity @e[team=Friendly,gamemode=!creative,gamemode=!spectator,nbt=!{Health:0f},sort=nearest,limit=1] eyes run tp @s ~ ~ ~ ~ ~
-execute positioned as @s[tag=Straight] facing entity @e[team=Friendly,gamemode=!creative,gamemode=!spectator,nbt=!{Health:0f},sort=nearest,limit=1] feet run tp @s ~ ~ ~ ~ ~
+execute positioned as @s facing entity @e[team=Friendly,gamemode=!creative,gamemode=!spectator,nbt=!{Health:0f},sort=nearest,limit=1] feet run tp @s ~ ~ ~ ~ ~
 execute if entity @s[tag=Direction] run function entity_manager:rotation/direction_aiming
 execute rotated as @s positioned ^ ^ ^1 run function calc_manager:get/direction1
 
@@ -16,4 +15,3 @@ function calc_manager:multiply/pos1
 
 function calc_manager:set/motion1
 function calc_manager:set/dir_and_pow
-execute if entity @s[tag=Straight] run function calc_manager:save/rotation

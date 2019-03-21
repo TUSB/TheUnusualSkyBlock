@@ -17,4 +17,3 @@ function calc_manager:multiply/pos1
 
 function calc_manager:set/motion1
 function calc_manager:set/dir_and_pow
-execute if entity @s[tag=Straight] run function calc_manager:save/rotation
