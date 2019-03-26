@@ -62,7 +62,7 @@ execute if entity @s[tag=WhiteRider] run function skill_manager:enemy/whiterider
 ### ななめジャンプ
 execute if entity @s[tag=JumpingAttack] run function skill_manager:enemy/jump/1
 ### 魔弾の射手
-execute if entity @s[tag=Shooter] run function skill_manager:enemy/shooter/move/1
+execute if entity @s[tag=Shooter,tag=!DontMove] run function skill_manager:enemy/shooter/move/1
 ### キャプチャー
 execute if entity @s[tag=Capture] run function skill_manager:enemy/capture/1
 
