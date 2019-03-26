@@ -11,6 +11,6 @@ execute if entity @s[tag=Reraise] run function skill_manager:enemy/reraise/1
 ### スキル詰め合わせ
 execute if entity @s[tag=SkillBox] run function skill_manager:enemy/blink/1
 ### 魔弾の射手
-execute if entity @s[tag=Shooter] run function skill_manager:enemy/shooter/skill/1/start
+execute if entity @s[tag=Shooter,tag=!DontMove] run function skill_manager:enemy/shooter/skill/1/start
 ### 発生確率0%セット
 scoreboard players reset $Threshold Global
