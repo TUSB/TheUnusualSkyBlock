@@ -15,5 +15,8 @@ execute if score バースト MP matches 100000.. run team modify Burst color go
 ### スキル持ち
 execute if entity @s[tag=HasSkill,tag=!ForgotSkill] run function skill_manager:enemy/skill/death
 
+### CallOnFin解除
+tag @s[tag=DeadOff] remove CallOnFin
+
 ### 介錯サヨナラ処理
 execute if entity @s[tag=Garbage] if entity @a[distance=..10,scores={Kaishaku=1..},limit=1] run function skill_manager:ninja/kaishaku/explode
