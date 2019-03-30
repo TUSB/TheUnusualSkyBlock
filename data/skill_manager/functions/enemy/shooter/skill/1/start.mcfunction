@@ -3,11 +3,11 @@
 ##############################
 
 tag @s add DontMove
-data merge entity @s {Tags:["CallOnFin","Event","BlazingBulletStart","CooldownRequired"],PortalCooldown:20s}
+data merge entity @s {Tags:["CallOnFin","Event","BlazingBulletStart","CooldownRequired","ObserveCooldown","Initialized"],PortalCooldown:20s}
 #後ろに移動
 scoreboard players set $M Global 100
 
-execute at @s positioned ^ ^ ^-1 run function calc_manager:get/direction1xz
+execute at @s facing entity @a[gamemode=!spectator,gamemode=!creative,sort=nearest,limit=1] eyes positioned ^ ^ ^-1 run function calc_manager:get/direction1xz
 
 function calc_manager:multiply/pos1
 
