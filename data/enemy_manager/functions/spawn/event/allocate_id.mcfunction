@@ -46,6 +46,7 @@ execute if entity @s[tag=MimicEPlace] run function enemy_manager:summon/event/mi
 execute if entity @s[tag=MimicESpawn] run function enemy_manager:summon/event/mimic_e_spawn_60
 execute if entity @s[tag=PumpkinMortar] run function enemy_manager:summon/event/pumpkin_mortar_30
 execute if entity @s[tag=RavageBomb] run function enemy_manager:summon/event/ravage_bomb_15
+execute if entity @s[tag=RavageBombthrow] run function enemy_manager:summon/event/ravage_bombthrow_20
 execute if entity @s[tag=SlimeBall] run function enemy_manager:summon/event/slime_ball_15
 execute if entity @s[tag=SoulOfAbyss] run function enemy_manager:summon/event/soul_of_abyss_10
 execute if entity @s[tag=Stamping] run function enemy_manager:summon/event/stamping_15

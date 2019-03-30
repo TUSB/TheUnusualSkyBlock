@@ -3,6 +3,5 @@
 ##############################
 
 tag @s remove Garbage
-scoreboard players set @s DecrementTimer 100
+scoreboard players set @s DecrementTimer 40
 data merge entity @s {Tags:["Swim","InAir","InWater","InLava","Straight","Horizontal","CallOnFin","Event","BlazingBullet","CooldownRequired"],PortalCooldown:5s,Attributes:[{Name:"generic.maxHealth",Modifiers:[{Amount:0.3d,UUIDLeast:0l}]}]}
-function enemy_manager:swim/straight

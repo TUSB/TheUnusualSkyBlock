@@ -10,6 +10,7 @@ execute if entity @s[tag=CloudSpider] run function enemy_manager:summon/global/g
 execute if entity @s[tag=DragonKnight] run function enemy_manager:summon/global/ground/shoot/dragon_knight_20
 execute if entity @s[tag=MagicalAttendant] run function enemy_manager:summon/global/ground/shoot/magical_attendant_50
 execute if entity @s[tag=Magician] run function enemy_manager:summon/global/ground/shoot/magician_75
+execute if entity @s[tag=Melancholy] run function enemy_manager:summon/global/ground/shoot/melancholy_25
 execute if entity @s[tag=MinuteHand] run function enemy_manager:summon/global/ground/shoot/minute_hand_30
 execute if entity @s[tag=PierrotSmile] run function enemy_manager:summon/global/ground/shoot/pierrot_smile_80
 execute if entity @s[tag=PumpkinKid] run function enemy_manager:summon/global/ground/shoot/pumpkin_kid_40
