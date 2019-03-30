@@ -3,7 +3,7 @@
 ##############################
 
 tag @s add DontMove
-data merge entity @s {Tags:["CallOnFin","Event","LikeBlazingBulletStart","CooldownRequired"],PortalCooldown:20s}
+data merge entity @s {Tags:["CallOnFin","Event","BlazingBulletStart","CooldownRequired"],PortalCooldown:20s}
 #後ろに移動
 scoreboard players set $M Global 100
 
