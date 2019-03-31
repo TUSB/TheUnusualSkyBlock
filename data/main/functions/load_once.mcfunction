@@ -68,6 +68,7 @@ scoreboard objectives add CircleAngle dummy {"text":"円描画用角度保存"}
 ###ID系
 scoreboard objectives add ID dummy {"text":"紐付けID"}
 scoreboard objectives add Dimension dummy {"text":"ディメンション"}
+scoreboard objectives add LastDimension dummy {"text":"前ディメンション"}
 ###ジョブ別設定
 scoreboard objectives add Job dummy {"text":"現在のジョブ"}
 scoreboard objectives add Level dummy {"text":"レベル"}
