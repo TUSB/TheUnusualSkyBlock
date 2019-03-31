@@ -675,6 +675,8 @@ setworldspawn 0 4 0
 
 execute unless entity 0-0-FF-0-FF run summon minecraft:area_effect_cloud 0.0 0.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:255l,UUIDLeast:255l,CustomName:"[\"羅針盤\"]"}
 execute unless entity 0-0-0-0-0 run summon minecraft:area_effect_cloud 0.0 1.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:0l,UUIDLeast:0l,CustomName:"[\"テキスト\"]"}
+execute unless entity 0-0-11-0-20 run summon minecraft:area_effect_cloud 0.0 2.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:17l,UUIDLeast:32l,CustomName:"[\"視線判定用１\"]"}
+execute unless entity 0-0-11-0-21 run summon minecraft:area_effect_cloud 0.0 2.1 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:17l,UUIDLeast:33l,CustomName:"[\"視線判定用２\"]"}
 
 ###ブロック系
 fill 0 0 0 6 0 6 minecraft:water
