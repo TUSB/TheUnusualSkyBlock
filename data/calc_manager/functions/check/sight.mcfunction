@@ -3,7 +3,7 @@
 ##############################
 
 ### Usage: execute as [Source] at [Destination] run function this
-### Example: If you want to check the pass between a player and an entity, run below.
+### Example: If you want to check the path between a player and an entity, run below.
 ### execute as @p at @e[tag=X,limit=1] anchored eyes positioned ^ ^ ^ anchored feet run function <this>
 ### Returns: $CanSight Global == 0 when [Source] can sight on [Destination]
 ###                           == 1 when [Source] cannot sight on [Destination]
