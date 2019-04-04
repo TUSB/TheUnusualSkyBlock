@@ -12,5 +12,3 @@ execute if score @s EclipseRadius matches 1000 run particle minecraft:flame ~ ~ 
 execute if score @s EclipseRadius matches 1000 run playsound minecraft:entity.wither.shoot master @a[distance=..32] ~ ~ ~ 3 0.6
 execute if score @s EclipseRadius matches 1000 run playsound minecraft:entity.generic.explode master @a[distance=..32] ~ ~ ~ 3 1
 ###---演出---End
-
-execute if score @s EclipseRadius matches 1000 run tp @s ~ ~-2 ~ ~ ~

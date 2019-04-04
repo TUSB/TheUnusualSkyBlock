@@ -72,7 +72,7 @@ execute rotated as @s rotated ~216 ~-66 positioned ^ ^ ^2048 facing entity @s fe
 execute rotated as @s rotated ~288 ~-66 positioned ^ ^ ^2048 facing entity @s feet positioned ^ ^ ^2048 run particle minecraft:flame ~ ~ ~ 0 0 0 0 1 force @a[tag=ShowParticles]
 ###---演出---End
 
-tp @s ~ ~ ~ ~10 ~-1
-tp @s[x_rotation=-90..68] ~ ~ ~ ~ 89
+tp @s ~ ~-0.01 ~ ~10 ~-1
+execute at @s[x_rotation=-90..68] run tp @s ~ ~ ~ ~ 89
 
 execute if score @s EclipseRadius matches 6500.. run kill @s
