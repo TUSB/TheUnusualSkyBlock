@@ -2,10 +2,11 @@
 ### エクリプスフレイム発動
 ##############################
 
+### 雪玉削除
 execute positioned ~ ~1.52 ~ run kill @e[distance=..0.5,type=snowball]
 
 ###弾召喚
-summon minecraft:snowball ~ ~1.52 ~ {Tags:[Initializing,EclipseFlameBullet],Silent:true,Passengers:[{id:"minecraft:armor_stand",NoGravity:false,Marker:true,Invisible:true,Invulnerable:true,Tags:[EclipseFlameCore,InitializingChild,NativeTask]}]}
+summon minecraft:snowball ~ ~1.52 ~ {Tags:[Initializing,EclipseFlameBullet],Silent:true,Passengers:[{id:"minecraft:area_effect_cloud",Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Tags:[EclipseFlameCore,InitializingChild,NativeTask]}]}
 ###モーションを計算する
 execute positioned ^ ^ ^-0.1 run tp @e[tag=Initializing,limit=1] ~ ~1.52 ~
 execute as @e[tag=Initializing,limit=1] positioned ~ ~1.52 ~ run function calc_manager:get/direction1

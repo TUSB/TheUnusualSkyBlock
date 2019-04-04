@@ -46,7 +46,8 @@ scoreboard objectives add PotentialTrigger trigger {"text":"潜在能力変更�
 scoreboard objectives add PotentialPrev trigger {"text":"潜在能力変更前回トリガー"}
 scoreboard objectives add ParticleDenom dummy {"text":"パーティクル表示割合"}
 ###変数や定数、カウンタ
-scoreboard objectives add Global dummy {"text":"グローバル変数"}
+scoreboard objectives add Global dummy {"text":"グローバル保持変数"}
+scoreboard objectives add Local dummy {"text":"ローカル消費変数"}
 scoreboard objectives add DecrementTimer dummy {"text":"減少カウンタ"}
 scoreboard objectives add Const dummy {"text":"定数"}
 scoreboard objectives add Count dummy {"text":"カウント"}
@@ -677,6 +678,7 @@ execute unless entity 0-0-FF-0-FF run summon minecraft:area_effect_cloud 0.0 0.0
 execute unless entity 0-0-0-0-0 run summon minecraft:area_effect_cloud 0.0 1.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:0l,UUIDLeast:0l,CustomName:"[\"テキスト\"]"}
 execute unless entity 0-0-11-0-20 run summon minecraft:area_effect_cloud 0.0 2.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:17l,UUIDLeast:32l,CustomName:"[\"視線判定用１\"]"}
 execute unless entity 0-0-11-0-21 run summon minecraft:area_effect_cloud 0.0 2.1 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:17l,UUIDLeast:33l,CustomName:"[\"視線判定用２\"]"}
+execute unless entity 0-0-0-0-30 run summon minecraft:area_effect_cloud 0.0 3.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:0l,UUIDLeast:48l,CustomName:"[\"位置取得用\"]"}
 
 ###ブロック系
 fill 0 0 0 6 0 6 minecraft:water
