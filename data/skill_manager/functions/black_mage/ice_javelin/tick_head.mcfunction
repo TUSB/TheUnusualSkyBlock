@@ -27,11 +27,11 @@ scoreboard players operation @e[distance=..0.01,tag=JavelinIce,tag=!IceJavelin] 
 execute as @e[distance=..0.01,tag=JavelinIce,tag=!IceJavelin] run function calc_manager:set/random_pose_head
 
 ### 氷進行
-tp @s ^ ^ ^1
+tp @s ^ ^ ^2
 
 ### 氷制限
 execute unless block ~ ~1.52 ~ minecraft:air run kill @s
-execute unless entity @a[distance=..32,tag=Caster,limit=1] run kill @s
+execute unless entity @a[distance=..34,tag=Caster,limit=1] run kill @s
 execute unless entity @a[distance=..28,tag=Caster,limit=1] run tag @s add Reversed
 execute if entity @a[distance=..3,limit=1] run kill @s[tag=Reversed]
 
