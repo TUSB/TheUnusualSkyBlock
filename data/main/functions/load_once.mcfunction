@@ -239,6 +239,12 @@ scoreboard objectives add ProjectileLife dummy {"text":"飛翔物生存時間"}
 scoreboard objectives add Motion dummy {"text":"モーション保存"}
 scoreboard objectives add Rotation dummy {"text":"ローテーション保存"}
 scoreboard objectives add EnemySkillSpan dummy {"text":"敵スキル使用間隔"}
+###放物線用スコア
+scoreboard objectives add ParabolicX dummy {"text":"放物軌道X"}
+scoreboard objectives add ParabolicY dummy {"text":"放物軌道Y"}
+scoreboard objectives add ParabolicZ dummy {"text":"放物軌道Z"}
+scoreboard objectives add ParabolicD dummy {"text":"放物軌道D"}
+scoreboard objectives add ParabolicT dummy {"text":"放物軌道T"}
 
 ###定数
 scoreboard players set $-11 Const -11
@@ -306,10 +312,12 @@ scoreboard players set $50 Const 50
 scoreboard players set $51 Const 51
 scoreboard players set $54 Const 54
 scoreboard players set $60 Const 60
+scoreboard players set $64 Const 64
 scoreboard players set $70 Const 70
 scoreboard players set $75 Const 75
 scoreboard players set $80 Const 80
 scoreboard players set $84 Const 84
+scoreboard players set $85 Const 85
 scoreboard players set $90 Const 90
 scoreboard players set $99 Const 99
 scoreboard players set $100 Const 100
@@ -679,6 +687,8 @@ execute unless entity 0-0-0-0-0 run summon minecraft:area_effect_cloud 0.0 1.0 0
 execute unless entity 0-0-11-0-20 run summon minecraft:area_effect_cloud 0.0 2.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:17l,UUIDLeast:32l,CustomName:"[\"視線判定用１\"]"}
 execute unless entity 0-0-11-0-21 run summon minecraft:area_effect_cloud 0.0 2.1 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:17l,UUIDLeast:33l,CustomName:"[\"視線判定用２\"]"}
 execute unless entity 0-0-0-0-30 run summon minecraft:area_effect_cloud 0.0 3.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:0l,UUIDLeast:48l,CustomName:"[\"位置取得用\"]"}
+execute unless entity 0-0-0-0-31 run summon minecraft:area_effect_cloud 0.0 3.1 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:heart",Radius:0.1f,UUIDMost:0l,UUIDLeast:49l,Tags:[AEC31AND32],CustomName:"[\"位置取得用アンカー１\"]"}
+execute unless entity 0-0-0-0-32 run summon minecraft:area_effect_cloud 0.0 3.2 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:angry_villager",Radius:0.1f,UUIDMost:0l,UUIDLeast:50l,Tags:[AEC31AND32],CustomName:"[\"位置取得用アンカー２\"]"}
 
 ###ブロック系
 fill 0 0 0 6 0 6 minecraft:water

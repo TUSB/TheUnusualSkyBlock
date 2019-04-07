@@ -2,6 +2,8 @@
 ### 視線が通るか判定する
 ##############################
 
+### Note: Limit of Distance is 153.6m. Limit of Resolution is 0.5m.
+
 ### Usage: execute as [Source] at [Destination] run function this
 ### Example: If you want to check the path between a player and an entity, run below.
 ### execute as @p at @e[tag=X,limit=1] anchored eyes positioned ^ ^ ^ anchored feet run function <this>
@@ -12,6 +14,8 @@
 execute facing entity @s eyes positioned as 0-0-11-0-20 in overworld run tp 0-0-11-0-20 ~ ~ ~ ~ ~
 execute as 0-0-11-0-20 at @s facing ^ ^ ^-1 run tp 0-0-11-0-21 ~ ~0.01 ~ ~ ~
 scoreboard players set $BlockThickness Global 0
+
+### ディメンション取得
 execute store result score $Dimension Global run data get entity @s Dimension 0
 
 ### 判定

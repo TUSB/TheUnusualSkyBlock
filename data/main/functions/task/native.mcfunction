@@ -14,6 +14,11 @@ execute if entity @s[tag=Homing] run function entity_manager:homing
 ###くるくる
 # execute if entity @s[tag=Kurukuru] run function entity_manager:kurukuru
 execute if entity @s[tag=CircleCore] run function entity_manager:special_circle
+###放物線
+execute if entity @s[tag=ParabolicEntity] run function calc_manager:parabora/move
+
+###ピクミン
+execute if entity @s[tag=Pikmin] run function pikmin_manager:throw/tick
 
 ###真空斬り
 execute if entity @s[tag=AerialSlash,scores={DecrementTimer=..0}] run function skill_manager:knight/aerial_slash/re_aim
