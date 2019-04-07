@@ -27,7 +27,7 @@ execute if entity @s[scores={Levitate=0..,SneakTime=2}] unless block ~ ~-0.40 ~ 
 # 真空斬り
 execute if score @s SneakTime matches 2 if score @s ModeSkill matches 11041..11049 unless entity @s[nbt=!{SelectedItem:{id:"minecraft:wooden_sword"}},nbt=!{SelectedItem:{id:"minecraft:stone_sword"}},nbt=!{SelectedItem:{id:"minecraft:golden_sword"}},nbt=!{SelectedItem:{id:"minecraft:iron_sword"}},nbt=!{SelectedItem:{id:"minecraft:diamond_sword"}}] run function skill_manager:knight/aerial_slash/act_check
 # ピクミン投げる
-execute if score @s SneakTime matches 2 run function pikmin_manager:throw/cast
+execute if score @s[tag=Olimar] SneakTime matches 2 run function pikmin_manager:throw/cast
 
 ### スニーク状態取得
 scoreboard players operation @s SneakTime *= $2 Const
