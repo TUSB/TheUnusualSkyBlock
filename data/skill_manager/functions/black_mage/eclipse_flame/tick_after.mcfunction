@@ -37,10 +37,11 @@ execute store result score $Y1 Global run data get entity @s Pos[1] 1000
 scoreboard players operation $Y1 Global += @s EclipseRadius
 execute store result entity @s Pos[1] double 0.001 run scoreboard players get $Y1 Global
 
+### ダメージ半径取得
+scoreboard players set $Radius Global 1000
+scoreboard players operation $Radius Global += @s EclipseRadius
+
 ### ダメージ処理
-scoreboard players set $SqrRadius Global 1000
-scoreboard players operation $SqrRadius Global += @s EclipseRadius
-scoreboard players operation $SqrRadius Global *= $SqrRadius Global
 scoreboard players operation $Damage Global = @s SkillAttribute
 execute at @s as @e[distance=..10,tag=Mob] run function skill_manager:black_mage/eclipse_flame/deal_damage
 
