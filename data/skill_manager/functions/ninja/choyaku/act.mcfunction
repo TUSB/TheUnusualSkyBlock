@@ -50,8 +50,8 @@ execute if score @s Choyaku matches 34 run effect give @s minecraft:jump_boost 5
 execute if score @s Choyaku matches 35 run effect give @s minecraft:jump_boost 5 34
 
 ###---演出---Start
-execute if score @s Choyaku < $ChoyakuLimit Global run data merge entity 0-0-0-0-0 {CustomName:"[{\"score\":{\"name\":\"@s\",\"objective\":\"Choyaku\"},\"color\":\"yellow\",\"bold\":true},\" Pyon!!\"]"}
-execute if score @s Choyaku >= $ChoyakuLimit Global run data merge entity 0-0-0-0-0 {CustomName:"[{\"score\":{\"name\":\"@s\",\"objective\":\"Choyaku\"},\"color\":\"gold\",\"bold\":true},\" Pyon!!\"]"}
+execute if score @s Choyaku < $ChoyakuLimit Global run data merge entity 0-0-0-0-10 {CustomName:"[{\"score\":{\"name\":\"@s\",\"objective\":\"Choyaku\"},\"color\":\"yellow\",\"bold\":true},\" Pyon!!\"]"}
+execute if score @s Choyaku >= $ChoyakuLimit Global run data merge entity 0-0-0-0-10 {CustomName:"[{\"score\":{\"name\":\"@s\",\"objective\":\"Choyaku\"},\"color\":\"gold\",\"bold\":true},\" Pyon!!\"]"}
 scoreboard players set $TextLength Global 5
 title @s times 0 100 20
 function main:show_text/subtitle/show

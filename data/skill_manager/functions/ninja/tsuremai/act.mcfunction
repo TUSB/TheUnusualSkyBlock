@@ -37,8 +37,8 @@ scoreboard players add $TsuremaiCount Global 1
 function calc_manager:target/melee/catch
 
 ###---演出---Start
-execute if score $TsuremaiCount Global matches ..24 run data merge entity 0-0-0-0-0 {CustomName:"[{\"score\":{\"name\":\"$TsuremaiCount\",\"objective\":\"Global\"},\"color\":\"yellow\",\"bold\":true},\" Hit!!\"]"}
-execute if score $TsuremaiCount Global matches 25.. run data merge entity 0-0-0-0-0 {CustomName:"[{\"score\":{\"name\":\"$TsuremaiCount\",\"objective\":\"Global\"},\"color\":\"gold\",\"bold\":true},\" Hit!!\"]"}
+execute if score $TsuremaiCount Global matches ..24 run data merge entity 0-0-0-0-10 {CustomName:"[{\"score\":{\"name\":\"$TsuremaiCount\",\"objective\":\"Global\"},\"color\":\"yellow\",\"bold\":true},\" Hit!!\"]"}
+execute if score $TsuremaiCount Global matches 25.. run data merge entity 0-0-0-0-10 {CustomName:"[{\"score\":{\"name\":\"$TsuremaiCount\",\"objective\":\"Global\"},\"color\":\"gold\",\"bold\":true},\" Hit!!\"]"}
 scoreboard players set $TextLength Global 4
 title @s times 0 80 20
 function main:show_text/subtitle/show

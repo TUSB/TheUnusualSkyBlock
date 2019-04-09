@@ -3,5 +3,5 @@
 ##############################
 
 ### Usage: execute as Source at Destination run function this
-execute facing entity @s feet facing ^ ^ ^-1 positioned 0.0 0.0 0.0 run tp 0-0-FF-0-FF ^ ^ ^1 ~ ~
-execute as 0-0-FF-0-FF run function calc_manager:get/pos1
+execute facing entity @s feet facing ^ ^ ^-1 positioned 0.0 0.0 0.0 run tp 0-0-0-0-0 ^ ^ ^1 ~ ~
+execute as 0-0-0-0-0 run function calc_manager:get/pos1

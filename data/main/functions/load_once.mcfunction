@@ -682,13 +682,17 @@ setworldspawn 0 4 0
 
 ###エンティティ系
 
-execute unless entity 0-0-FF-0-FF run summon minecraft:area_effect_cloud 0.0 0.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:255l,UUIDLeast:255l,CustomName:"[\"羅針盤\"]"}
-execute unless entity 0-0-0-0-0 run summon minecraft:area_effect_cloud 0.0 1.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:0l,UUIDLeast:0l,CustomName:"[\"テキスト\"]"}
-execute unless entity 0-0-11-0-20 run summon minecraft:area_effect_cloud 0.0 2.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:17l,UUIDLeast:32l,CustomName:"[\"視線判定用１\"]"}
-execute unless entity 0-0-11-0-21 run summon minecraft:area_effect_cloud 0.0 2.1 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:17l,UUIDLeast:33l,CustomName:"[\"視線判定用２\"]"}
+execute unless entity 0-0-0-0-0 run summon minecraft:area_effect_cloud 0.0 0.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:0l,UUIDLeast:0l,CustomName:"[\"角度保持用\"]"}
+execute unless entity 0-0-0-0-10 run summon minecraft:area_effect_cloud 0.0 1.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:0l,UUIDLeast:16l,CustomName:"[\"テキスト\"]"}
+execute unless entity 0-0-0-0-20 run summon minecraft:area_effect_cloud 0.0 2.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:0l,UUIDLeast:32l,CustomName:"[\"視線判定用１\"]"}
+execute unless entity 0-0-0-0-21 run summon minecraft:area_effect_cloud 0.0 2.1 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:0l,UUIDLeast:33l,CustomName:"[\"視線判定用２\"]"}
 execute unless entity 0-0-0-0-30 run summon minecraft:area_effect_cloud 0.0 3.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:0l,UUIDLeast:48l,CustomName:"[\"位置取得用\"]"}
-execute unless entity 0-0-0-0-31 run summon minecraft:area_effect_cloud 0.0 3.1 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:heart",Radius:0.1f,UUIDMost:0l,UUIDLeast:49l,Tags:[AEC31AND32],CustomName:"[\"位置取得用アンカー１\"]"}
-execute unless entity 0-0-0-0-32 run summon minecraft:area_effect_cloud 0.0 3.2 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:angry_villager",Radius:0.1f,UUIDMost:0l,UUIDLeast:50l,Tags:[AEC31AND32],CustomName:"[\"位置取得用アンカー２\"]"}
+execute unless entity 0-0-0-0-31 run summon minecraft:area_effect_cloud 0.0 3.1 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Radius:0.1f,UUIDMost:0l,UUIDLeast:49l,CustomName:"[\"位置取得用アンカー１\"]"}
+execute unless entity 0-0-0-0-32 run summon minecraft:area_effect_cloud 0.0 3.2 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Radius:0.1f,UUIDMost:0l,UUIDLeast:50l,CustomName:"[\"位置取得用アンカー２\"]"}
+kill 0-0-FF-0-FF
+execute as 0-0-0-0-0 at @s run tp @s 0.0 0.0 0.0
+kill 0-0-11-0-20
+kill 0-0-11-0-21
 
 ###ブロック系
 fill 0 0 0 6 0 6 minecraft:water

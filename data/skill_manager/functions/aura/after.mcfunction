@@ -24,13 +24,13 @@ execute if score @s Job matches 6 run function skill_manager:aura/summoner/apply
 ###スキルレベル上昇
 execute if score @s Job matches 7 as @a[distance=..32] run function skill_manager:aura/puppet_master/remove
 
-execute as 0-0-FF-0-FF at @s run function calc_manager:set/random_rotation
-execute if score @s Job matches 1 rotated as 0-0-FF-0-FF run function skill_manager:aura/decorate/knight
-execute if score @s Job matches 2 rotated as 0-0-FF-0-FF run function skill_manager:aura/decorate/ninja
-execute if score @s Job matches 3 rotated as 0-0-FF-0-FF run function skill_manager:aura/decorate/hunter
-execute if score @s Job matches 4 rotated as 0-0-FF-0-FF run function skill_manager:aura/decorate/white_mage
-execute if score @s Job matches 5 rotated as 0-0-FF-0-FF run function skill_manager:aura/decorate/black_mage
-execute if score @s Job matches 6 rotated as 0-0-FF-0-FF run function skill_manager:aura/decorate/summoner
-execute if score @s Job matches 7 rotated as 0-0-FF-0-FF run function skill_manager:aura/decorate/puppet_master
+execute as 0-0-0-0-0 at @s run function calc_manager:set/random_rotation
+execute if score @s Job matches 1 rotated as 0-0-0-0-0 run function skill_manager:aura/decorate/knight
+execute if score @s Job matches 2 rotated as 0-0-0-0-0 run function skill_manager:aura/decorate/ninja
+execute if score @s Job matches 3 rotated as 0-0-0-0-0 run function skill_manager:aura/decorate/hunter
+execute if score @s Job matches 4 rotated as 0-0-0-0-0 run function skill_manager:aura/decorate/white_mage
+execute if score @s Job matches 5 rotated as 0-0-0-0-0 run function skill_manager:aura/decorate/black_mage
+execute if score @s Job matches 6 rotated as 0-0-0-0-0 run function skill_manager:aura/decorate/summoner
+execute if score @s Job matches 7 rotated as 0-0-0-0-0 run function skill_manager:aura/decorate/puppet_master
 
 execute if score @s Aura matches ..0 run function skill_manager:aura/finish
