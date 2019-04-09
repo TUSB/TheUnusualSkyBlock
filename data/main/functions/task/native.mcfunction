@@ -106,6 +106,9 @@ execute if entity @s[tag=Swim] run function enemy_manager:swim/common
 execute if entity @s[tag=Reversed] run function entity_manager:motion/reversed
 execute if entity @s[tag=ReversedOnHurt,tag=!Reversed,scores={DecrementTimer=9..}] run function entity_manager:motion/reversed_on_hurt
 
+### カーゴエンティティ維持
+execute if entity @e[tag=Cargo] at @s run function entity_manager:maintain/cargo
+
 ###村人１回制限
 execute if entity @s[tag=LimitedTrading] run function enemy_manager:trade_once
 

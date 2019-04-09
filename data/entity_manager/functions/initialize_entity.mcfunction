@@ -25,9 +25,8 @@ execute if entity @s[tag=BoundPlayer] positioned as @s run function entity_manag
 tag @s[type=minecraft:chicken,nbt={Passengers:[{}]}] add Vehicle
 
 ###運び屋
-tag @s[nbt={Passengers:[{Tags:[Cargo]}]}] add Mule
-data merge entity @s[tag=Cargo] {PortalCooldown:40,Age:0,Duration:42,Time:559}
-tag @s[tag=Cargo] add CooldownRequired
+# data merge entity @s[tag=Cargo] {PortalCooldown:40,Age:0,Duration:42,Time:559}
+tag @s[tag=Cargo] add NativeTask
 
 ###タライ位置調整
 execute if entity @s[tag=AbovePlayer] at @a[distance=..32,sort=nearest,limit=1] run tp @s ~ ~5 ~
