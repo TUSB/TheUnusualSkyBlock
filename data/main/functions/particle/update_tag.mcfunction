@@ -2,8 +2,10 @@
 ### パーティクル表示タグ更新
 ##############################
 
+## パーティクル表示タグを削除
 tag @a remove ShowParticles
-execute if score $ParticleTimer DecrementTimer matches ..-1 run scoreboard players set $ParticleTimer DecrementTimer 11
+## パーティクルタイマーをリセット
+execute if score $ParticleTimer GlobalTimer matches 11 run scoreboard players set $ParticleTimer GlobalTimer 0
 
 execute store result score $24 Global run scoreboard players operation $36 Global = $ParticleTimer DecrementTimer
 
