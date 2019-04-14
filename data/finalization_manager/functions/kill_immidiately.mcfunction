@@ -2,5 +2,5 @@
 ### エンティティ即時削除
 ##############################
 
-data merge entity @s[tag=Garbage] {Size:0,DeathTime:19s,HandItems:[{},{}],ArmorItems:[{},{},{},{}]}
-kill @s[tag=Garbage]
+data merge entity @s {Size:0,DeathTime:19s,HandItems:[{},{}],ArmorItems:[{},{},{},{}]}
+kill @s

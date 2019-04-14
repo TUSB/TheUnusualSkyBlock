@@ -46,6 +46,8 @@ scoreboard objectives add Settings dummy {"text":"設定"}
 scoreboard objectives add GlobalTimer dummy {"text":"共通使用タイマー"}
 ### グローバル変数(要らないデータしか入れてはいけない!!!!!!!!!!!!!)
 scoreboard objectives add Global dummy {"text":"グローバル変数"}
+### 成功カウント
+scoreboard objectives add SuccessCount dummy {"text":"コマンド成功カウント"}
 
 ### 管理エンティティ共通スコアボード
 scoreboard objectives add ManagedDataID dummy {"text":"データ管理ID"}
@@ -60,3 +62,5 @@ scoreboard objectives add MobHPMax dummy {"text":"Mob最大HP"}
 scoreboard objectives add MobHP dummy {"text":"Mob現在HP"}
 scoreboard objectives add MobLastDamage dummy {"text":"Mob最終ダメージ"}
 
+### 振舞い定義用
+scoreboard objectives add DesiredDistance dummy {"text":"ターゲット希望距離"}
