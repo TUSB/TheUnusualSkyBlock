@@ -2,9 +2,6 @@
 ### プレイヤーデータ管理初期化
 ##############################
 
-### データ管理ID採番
-function data_manager:initializer/define_id
-
 ### データ管理エンティティ生成
 function data_manager:initializer/create_entity
 
