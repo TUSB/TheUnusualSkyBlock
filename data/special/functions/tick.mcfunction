@@ -2,13 +2,20 @@
 ### 毎ティック処理
 ##############################
 
-###共通使用タイマー(set/operation=以外で設定しないこと)
+### 共通使用タイマー(set/operation=以外で設定しないこと)
 scoreboard players add * GlobalTimer 1
 
-
-
-###パーティクル表示判定
+### パーティクル表示判定
 function decoration_manager:update_show_tag
+
+### エンティティ初期化
+function initialization_manager:main_all
+
+
+
+
+
+
 ##################################################     毎tick非ワールド依存処理の壁     ##################################################
 ###敵被ダメ時処理(ここ以外HurtTime使用禁止)
 # execute as @e[tag=Mob,nbt={HurtTime:10s}] at @s run function enemy_manager:on_damaged

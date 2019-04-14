@@ -4,4 +4,3 @@
 
 ### Brokenタグが付いていればすぐに消しちゃってok
 kill @s[nbt={Item:{tag:{Broken:true}}}]
-
