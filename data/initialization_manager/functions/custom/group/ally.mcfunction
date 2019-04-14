@@ -3,10 +3,10 @@
 ##############################
 
 ### データ管理初期化
-execute if entity @s[tag=!Colony,tag=!Pet] run function initialization_manager:data_management/ally/initialize
+execute if entity @s[tag=!Colony,tag=!Pet] run function data_manager:initializer/ally/initialize
 
 ### HP管理初期化
-function initialization_manager:health_management/initialize
+function health_manager:initializer/initialize
 
 ### チーム設定
 team join Friendly @s

@@ -3,7 +3,7 @@
 ##############################
 
 ### データ管理初期化
-function initialization_manager:data_management/player/initialize
+function data_manager:initializer/player/initialize
 
 ### チーム設定
 team join Friendly @s
