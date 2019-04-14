@@ -2,6 +2,28 @@
 ### 初回ロード処理
 ##############################
 
+#################### 全般エンティティ作成 ####################
+### 角度保持エンティティ
+execute unless entity 0-0-0-0-0 run summon minecraft:area_effect_cloud 0.0 0.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Tags:[System],UUIDMost:0l,UUIDLeast:0l,CustomName:"[\"角度保持用\"]"}
+### テキスト保持エンティティ
+execute unless entity 0-0-1-0-0 run summon minecraft:area_effect_cloud 0.0 1.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Tags:[System],UUIDMost:1l,UUIDLeast:0l,CustomName:"[\"テキスト\"]"}
+### 視線判定エンティティ１・２
+execute unless entity 0-0-2-0-0 run summon minecraft:area_effect_cloud 0.0 2.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Tags:[System],UUIDMost:2l,UUIDLeast:0l,CustomName:"[\"視線判定用１\"]"}
+execute unless entity 0-0-2-0-1 run summon minecraft:area_effect_cloud 0.0 2.1 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Tags:[System],UUIDMost:2l,UUIDLeast:1l,CustomName:"[\"視線判定用２\"]"}
+### 位置取得エンティティ０・１・２
+execute unless entity 0-0-3-0-0 run summon minecraft:area_effect_cloud 0.0 3.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Tags:[System],UUIDMost:3l,UUIDLeast:0l,CustomName:"[\"位置取得用\"]"}
+execute unless entity 0-0-3-0-1 run summon minecraft:area_effect_cloud 0.0 3.1 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Tags:[System],UUIDMost:3l,UUIDLeast:1l,CustomName:"[\"位置取得用アンカー１\"]"}
+execute unless entity 0-0-3-0-2 run summon minecraft:area_effect_cloud 0.0 3.2 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Tags:[System],UUIDMost:3l,UUIDLeast:2l,CustomName:"[\"位置取得用アンカー２\"]"}
+
+#################### データ管理用エンティティ作成 ####################
+### データ管理カーソルエンティティ
+execute unless entity 1-0-0-0-0 run summon minecraft:area_effect_cloud 1.0 0.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Tags:[System],UUIDMost:4294967296l,UUIDLeast:0l,CustomName:"[\"データ管理カーソル\"]"}
+
+#################### スポナー管理用エンティティ作成 ####################
+### スポナーエリア管理エンティティ
+execute unless entity 2-0-0-0-0 run summon minecraft:area_effect_cloud 2.0 0.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Tags:[System],UUIDMost:8589934592l,UUIDLeast:0l,CustomName:"[\"スポナーエリア管理カーソル\"]"}
+
+
 #################### チーム作成 ####################
 team add Friendly {"text":"プレイヤー・ペット・アライアンス連合チーム"}
 team add Enemy {"text":"モンスター連合チーム"}
@@ -37,3 +59,4 @@ scoreboard objectives add SuppressParticle dummy {"text":"パーティクル抑�
 scoreboard objectives add MobHPMax dummy {"text":"Mob最大HP"}
 scoreboard objectives add MobHP dummy {"text":"Mob現在HP"}
 scoreboard objectives add MobLastDamage dummy {"text":"Mob最終ダメージ"}
+

@@ -9,9 +9,10 @@ scoreboard players add * GlobalTimer 1
 function decoration_manager:update_show_tag
 
 ### エンティティ初期化
-function initialization_manager:main_all
+function initialization_manager:check_all
 
-
+### 管理データ更新
+function data_manager:updater/check_all
 
 
 

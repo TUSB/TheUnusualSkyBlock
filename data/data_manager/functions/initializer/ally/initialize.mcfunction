@@ -12,10 +12,7 @@ function data_manager:initializer/create_entity
 function data_manager:initializer/set_parameter
 
 ### データ管理エンティティタグ設定
-execute in overworld positioned 0.0 0.0 0.0 run tag @e[distance=0,tag=DataHolder,limit=1] add AllyData
-
-### データ管理エンティティ配置
-function data_manager:initializer/locate_entity
+execute at 1-0-0-0-0 run tag @e[distance=0,tag=DataHolder,limit=1] add AllyData
 
 ### データ管理タグ付与
 tag @s add DataManaged
