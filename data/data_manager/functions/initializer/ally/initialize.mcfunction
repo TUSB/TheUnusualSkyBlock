@@ -13,3 +13,4 @@ execute at 1-0-0-0-0 run tag @e[distance=0,tag=DataHolder,limit=1] add AllyData
 
 ### データ管理タグ付与
 tag @s add DataManaged
+tag @s add MayTargeted
