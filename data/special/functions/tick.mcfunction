@@ -3,7 +3,8 @@
 ##############################
 
 ### 共通使用タイマー(set/operation=以外で設定しないこと)
-scoreboard players add * GlobalTimer 1
+scoreboard players add * GlobalTickTimer 1
+scoreboard players add * GlobalCSTimer 5
 
 ### パーティクル表示判定
 function decoration_manager:update_show_tag

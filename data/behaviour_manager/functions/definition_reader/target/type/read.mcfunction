@@ -3,13 +3,13 @@
 ##############################
 
 ### 一番近いプレイヤー
-tag @s[nbt={Passengers:[{Tags:[Parameter],ArmorItems:[{tag:{DefineTarget:{TargetType:NearPlayer}}}]}]}] add TargetType.NearPlayer
+tag @s[nbt={Passengers:[{Tags:[Parameter],Item:{tag:{DefineTarget:{TargetType:NearPlayer}}}}]}] add TargetType.NearPlayer
 ### ターゲットしたプレイヤー
-tag @s[nbt={Passengers:[{Tags:[Parameter],ArmorItems:[{tag:{DefineTarget:{TargetType:TargetPlayer}}}]}]}] add TargetType.TargetPlayer
+tag @s[nbt={Passengers:[{Tags:[Parameter],Item:{tag:{DefineTarget:{TargetType:TargetPlayer}}}}]}] add TargetType.TargetPlayer
 ### ターゲットした、自身にとって味方側のモブ
-tag @s[nbt={Passengers:[{Tags:[Parameter],ArmorItems:[{tag:{DefineTarget:{TargetType:TargetAlly}}}]}]}] add TargetType.TargetAlly
+tag @s[nbt={Passengers:[{Tags:[Parameter],Item:{tag:{DefineTarget:{TargetType:TargetAlly}}}}]}] add TargetType.TargetAlly
 ### ターゲットした、自身にとって敵側のモブ
-tag @s[nbt={Passengers:[{Tags:[Parameter],ArmorItems:[{tag:{DefineTarget:{TargetType:TargetEnemy}}}]}]}] add TargetType.TargetEnemy
+tag @s[nbt={Passengers:[{Tags:[Parameter],Item:{tag:{DefineTarget:{TargetType:TargetEnemy}}}}]}] add TargetType.TargetEnemy
 
 ### それ以外は規定値
 tag @s[tag=!TargetType.NearPlayer,tag=!TargetType.TargetPlayer,tag=!TargetType.TargetAlly,tag=!TargetType.TargetEnemy] add TargetType.Natural
