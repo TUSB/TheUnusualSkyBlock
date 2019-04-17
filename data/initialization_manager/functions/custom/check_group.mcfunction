@@ -13,6 +13,3 @@ execute if entity @s[tag=Ally] run function initialization_manager:custom/group/
 
 ### 敵
 execute if entity @s[tag=Enemy] run function initialization_manager:custom/group/enemy
-
-### 弾
-execute if entity @s[tag=Bullet] run function initialization_manager:custom/group/bullet

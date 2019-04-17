@@ -6,7 +6,7 @@
 execute if entity @s[tag=!System,type=!minecraft:spawner_minecart] run function initialization_manager:check_is_vanilla
 
 ### トロッコスポナーは別処理
-execute if entity @s[type=!minecraft:spawner_minecart] run function initialization_manager:spawner/initialize
+execute if entity @s[type=minecraft:spawner_minecart] run function initialization_manager:spawner/initialize
 
 ### 初期化タグ付ける
 tag @s add Initialized

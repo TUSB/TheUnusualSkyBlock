@@ -3,4 +3,7 @@
 ##############################
 
 ### ターゲット定義読み込み
-function behaviour_manager:definition_reader/target/check_has_target_definition
+function behaviour_manager:definition_reader/target/check
+
+### 向き定義読み込み
+function behaviour_manager:definition_reader/directions/check

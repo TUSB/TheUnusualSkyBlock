@@ -4,5 +4,7 @@
 
 ### 乱数更新
 function calc_manager:random/next
-### 割るだけ
-scoreboard players operation $Result Random %= $Range Random
+### +1して割るだけ
+scoreboard players operation $_ Random = $Range Random
+scoreboard players add $_ Random 1
+scoreboard players operation $Result Random %= $_ Random

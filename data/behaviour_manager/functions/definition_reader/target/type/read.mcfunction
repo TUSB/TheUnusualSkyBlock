@@ -10,7 +10,7 @@ tag @s[nbt={Passengers:[{Tags:[Parameter],Item:{tag:{DefineTarget:{TargetType:Ta
 tag @s[nbt={Passengers:[{Tags:[Parameter],Item:{tag:{DefineTarget:{TargetType:TargetEnemy}}}}]}] add TargetType.TargetEnemy
 
 ### それ以外は規定値
-tag @s[tag=!TargetType.NearPlayer,tag=!TargetType.TargetAlly,tag=!TargetType.TargetEnemy] add TargetType.Natural
+execute if entity @s[tag=!TargetType.NearPlayer,tag=!TargetType.TargetAlly,tag=!TargetType.TargetEnemy] run function behaviour_manager:definition_reader/target/type/default
 
 ### ターゲットを取るかどうかタグ付与
 execute unless entity @s[tag=!TargetType.TargetAlly,tag=!TargetType.TargetEnemy] run tag @s add UseTarget
