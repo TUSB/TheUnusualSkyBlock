@@ -47,17 +47,17 @@ scoreboard objectives add TargetLinkID dummy {"text":"ターゲット紐付けID
 
 #################### プレイヤー共通スコアボード ####################
 scoreboard objectives add SuppressParticle dummy {"text":"パーティクル抑制レベル"}
-
+scoreboard objectives add Health health {"text":"プレイヤー現在HP"}
 
 #################### 計算関連共通スコアボード ####################
 scoreboard objectives add Distance dummy {"text":"ターゲットとの距離(cm)"}
-
-
+scoreboard objectives add BlockThickness dummy {"text":"ブロックの厚み(cm)"}
+scoreboard objectives add Dimension dummy {"text":"ディメンション"}
 
 #################### 敵ステータス関連スコアボード ####################
 ### 敵HP関連
-scoreboard objectives add MobHPMax dummy {"text":"Mob最大HP(chp)"}
-scoreboard objectives add MobHP dummy {"text":"Mob現在HP(chp)"}
+scoreboard objectives add MobMaxHealth dummy {"text":"Mob最大HP(chp)"}
+scoreboard objectives add MobHealth dummy {"text":"Mob現在HP(chp)"}
 scoreboard objectives add MobLastDamage dummy {"text":"Mob最終ダメージ(chp)"}
 
 #################### 振舞い定義用スコアボード ####################

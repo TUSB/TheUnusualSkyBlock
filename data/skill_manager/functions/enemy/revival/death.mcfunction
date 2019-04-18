@@ -3,7 +3,7 @@
 ##############################
 
 tellraw @a[distance=..16] [{"selector":"@s"},{"text":" は 蘇った！"}]
-execute store result entity @s AbsorptionAmount float 0.01 run scoreboard players get @s MobHPMax
+execute store result entity @s AbsorptionAmount float 0.01 run scoreboard players get @s MobMaxHealth
 tag @s remove Garbage
 tag @s remove Revival
 

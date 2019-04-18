@@ -144,7 +144,7 @@ scoreboard objectives add ActiveSkill dummy {"text":"発動スキル"}
 scoreboard objectives add ActiveCost dummy {"text":"発動スキルコスト"}
 scoreboard objectives add ActiveInterval dummy {"text":"発動スキル発動無効時間"}
 ###モブステータス系
-scoreboard objectives add MobHPMax dummy {"text":"モブ最大体力"}
+scoreboard objectives add MobMaxHealth dummy {"text":"モブ最大体力"}
 scoreboard objectives add Damage dummy {"text":"モブ付与ダメージ"}
 scoreboard objectives add StackDamage dummy {"text":"モブ付与ダメージスタック版"}
 scoreboard objectives add TemporaryEffects dummy {"text":"一時的ステータス変化Flags"}

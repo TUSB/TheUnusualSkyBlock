@@ -10,5 +10,5 @@ execute if score $DefineTarget SuccessCount matches 1.. run function behaviour_m
 ### 定義なしならデフォルト読み込み
 execute if score $DefineTarget SuccessCount matches ..0 run function behaviour_manager:definition_reader/target/default_data
 
-### 探索開始時間を規定値に設定(ms)
-scoreboard players set @s TimeToSearch 5000
+### 探索開始時間を規定値に設定(cs)
+scoreboard players set @s TimeToSearch 0

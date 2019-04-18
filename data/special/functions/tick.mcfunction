@@ -7,7 +7,9 @@ scoreboard players add * GlobalTickTimer 1
 scoreboard players add * GlobalCSTimer 5
 
 ### パーティクル表示判定
-function decoration_manager:update_show_tag
+function decoration_manager:show_tag/update_all
+### プレイヤー対象か判定
+function player_manager:active_state/update_all
 
 ### エンティティ初期化
 function initialization_manager:check_all
@@ -15,7 +17,8 @@ function initialization_manager:check_all
 ### 管理データ更新
 function data_manager:updater/check_all
 
-
+### ターゲット発見チェック
+function behaviour_manager:behaviour_applier/target/searcher/check_all
 
 
 ##################################################     毎tick非ワールド依存処理の壁     ##################################################

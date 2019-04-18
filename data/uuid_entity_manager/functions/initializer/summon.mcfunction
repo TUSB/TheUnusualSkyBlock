@@ -16,9 +16,9 @@ execute unless entity 0-0-0-0-2 run summon minecraft:area_effect_cloud ~ ~ ~ {Ta
 execute unless entity 0-0-1-0-0 run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[System],UUIDMost:1l,UUIDLeast:0l,CustomName:"[\"視線判定用１\"]"}
 execute unless entity 0-0-1-0-1 run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[System],UUIDMost:1l,UUIDLeast:1l,CustomName:"[\"視線判定用２\"]"}
 ### 位置取得エンティティ０・１・２
-execute unless entity 0-0-2-0-0 run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[System],UUIDMost:2l,UUIDLeast:0l,CustomName:"[\"位置取得用\"]"}
-execute unless entity 0-0-2-0-1 run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[System],UUIDMost:2l,UUIDLeast:1l,CustomName:"[\"位置取得用アンカー１\"]"}
-execute unless entity 0-0-2-0-2 run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[System],UUIDMost:2l,UUIDLeast:2l,CustomName:"[\"位置取得用アンカー２\"]"}
+execute unless entity 0-0-2-0-0 run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[System],UUIDMost:2l,UUIDLeast:0l,CustomName:"[\"位置保存用０\"]"}
+execute unless entity 0-0-2-0-1 run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[System],UUIDMost:2l,UUIDLeast:1l,CustomName:"[\"位置保存用１\"]"}
+execute unless entity 0-0-2-0-2 run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[System],UUIDMost:2l,UUIDLeast:2l,CustomName:"[\"位置保存用２\"]"}
 
 #################### データ管理用エンティティ作成 ####################
 ### データ管理カーソルエンティティ

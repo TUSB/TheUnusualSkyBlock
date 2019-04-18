@@ -2,6 +2,8 @@
 ### 視線が通るか判定する
 ##############################
 
+# [Obsolete]
+
 ### Note: Limit of Distance is 153.6m. Limit of Resolution is 0.5m.
 
 ### Usage: execute as [Source] at [Destination] run function this
