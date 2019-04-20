@@ -8,6 +8,9 @@ function behaviour_manager:definition_reader/target/type/default
 ### アクションタイプ規定値
 function behaviour_manager:definition_reader/target/active/default
 
+### 検知タイプ規定値
+function behaviour_manager:definition_reader/target/detect/default
+
 ### 希望距離規定値
 function behaviour_manager:definition_reader/target/desired_distance/default
 

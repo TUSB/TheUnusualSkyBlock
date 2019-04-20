@@ -4,7 +4,8 @@
 
 schedule function assert_manager:behaviour/reader/target/type/default 2t
 schedule function assert_manager:behaviour/reader/target/type/natural 4t
-schedule function assert_manager:behaviour/reader/target/type/near_player 6t
+### [[Suspended]]
+# schedule function assert_manager:behaviour/reader/target/type/near_player 6t
 schedule function assert_manager:behaviour/reader/target/type/target_ally 8t
 schedule function assert_manager:behaviour/reader/target/type/target_enemy 10t
 
@@ -20,24 +21,24 @@ schedule function assert_manager:behaviour/reader/target/follow_range/default_bu
 schedule function assert_manager:behaviour/reader/target/follow_range/set_mob 26t
 schedule function assert_manager:behaviour/reader/target/follow_range/set_bullet 28t
 
-schedule function assert_manager:behaviour/reader/directions/interpolator/continue/default 30t
-schedule function assert_manager:behaviour/reader/directions/interpolator/continue/true 32t
-schedule function assert_manager:behaviour/reader/directions/interpolator/continue/false 34t
+schedule function assert_manager:behaviour/reader/directions/repeater/continue/default 30t
+schedule function assert_manager:behaviour/reader/directions/repeater/continue/true 32t
+schedule function assert_manager:behaviour/reader/directions/repeater/continue/false 34t
 
-schedule function assert_manager:behaviour/reader/directions/interpolator/duration/default 36t
-schedule function assert_manager:behaviour/reader/directions/interpolator/duration/set 38t
+schedule function assert_manager:behaviour/reader/directions/repeater/duration/default 36t
+schedule function assert_manager:behaviour/reader/directions/repeater/duration/set 38t
 
-schedule function assert_manager:behaviour/reader/directions/interpolator/end/default 40t
-schedule function assert_manager:behaviour/reader/directions/interpolator/end/set 42t
+schedule function assert_manager:behaviour/reader/directions/repeater/end/default 40t
+schedule function assert_manager:behaviour/reader/directions/repeater/end/set 42t
 
-schedule function assert_manager:behaviour/reader/directions/interpolator/random_delay/default 44t
-schedule function assert_manager:behaviour/reader/directions/interpolator/random_delay/set 46t
+schedule function assert_manager:behaviour/reader/directions/repeater/random_delay/default 44t
+schedule function assert_manager:behaviour/reader/directions/repeater/random_delay/set 46t
 
-schedule function assert_manager:behaviour/reader/directions/interpolator/repeat_count/default 48t
-schedule function assert_manager:behaviour/reader/directions/interpolator/repeat_count/set 50t
+schedule function assert_manager:behaviour/reader/directions/repeater/count/default 48t
+schedule function assert_manager:behaviour/reader/directions/repeater/count/set 50t
 
-schedule function assert_manager:behaviour/reader/directions/interpolator/start/default 52t
-schedule function assert_manager:behaviour/reader/directions/interpolator/start/set 54t
+schedule function assert_manager:behaviour/reader/directions/repeater/start/default 52t
+schedule function assert_manager:behaviour/reader/directions/repeater/start/set 54t
 
 schedule function assert_manager:behaviour/reader/directions/target_pos/default 56t
 schedule function assert_manager:behaviour/reader/directions/target_pos/set_x 58t

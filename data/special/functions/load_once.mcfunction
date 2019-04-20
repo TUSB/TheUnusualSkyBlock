@@ -65,39 +65,22 @@ scoreboard objectives add MobLastDamage dummy {"text":"Mob最終ダメージ(chp
 scoreboard objectives add DesiredDistance dummy {"text":"ターゲット希望距離(cm)"}
 scoreboard objectives add FollowRange dummy {"text":"ターゲット補足距離(cm)"}
 scoreboard objectives add TimeToSearch dummy {"text":"探索開始時間(cs)"}
-### DefineDirections
-scoreboard objectives add TargetPosX dummy {"text":"ターゲット位置X(cm)"}
-scoreboard objectives add TargetPosY dummy {"text":"ターゲット位置Y(cm)"}
-scoreboard objectives add TargetPosZ dummy {"text":"ターゲット位置Z(cm)"}
-scoreboard objectives add TargetOffsetX dummy {"text":"ターゲット相対位置X(cm)"}
-scoreboard objectives add TargetOffsetY dummy {"text":"ターゲット相対位置Y(cm)"}
-scoreboard objectives add TargetOffsetZ dummy {"text":"ターゲット相対位置Z(cm)"}
-scoreboard objectives add TargetUpdateTick dummy {"text":"ターゲット位置更新間隔(tick)"}
-scoreboard objectives add RotateAngle dummy {"text":"ターゲットに対する横回転角(deg)"}
-scoreboard objectives add TiltAngle dummy {"text":"ターゲットに対する縦回転角度(deg)"}
-scoreboard objectives add RotateSpeed dummy {"text":"ターゲットへの横回転可能速度(deg/s)"}
-scoreboard objectives add TiltSpeed dummy {"text":"ターゲットへの縦回転可能速度(deg/s)"}
-scoreboard objectives add IntrpDirStart dummy {"text":"向き変化開始時間(cs)"}
-scoreboard objectives add IntrpDirEnd dummy {"text":"向き変化終了時間(cs)"}
-scoreboard objectives add IntrpDirRanDelay dummy {"text":"向き変化遅延乱数(cs)"}
-scoreboard objectives add IntrpDirDuration dummy {"text":"向き変化繰り返し間隔(cs)"}
-scoreboard objectives add IntrpDirRepCount dummy {"text":"向き変化繰り返し回数"}
-scoreboard objectives add IntrpDirActStart dummy {"text":"向き変化開始時間乱数適用後(cs)"}
-scoreboard objectives add IntrpDirActEnd dummy {"text":"向き変化終了時間乱数適用後(cs)"}
+scoreboard objectives add DetectType dummy {"text":"ターゲット検知タイプ(検知判定時に一時使用)"}
 ### DefineMoves
-
-scoreboard objectives add IntrpMovStart dummy {"text":"動き変化開始時間(cs)"}
-scoreboard objectives add IntrpMovEnd dummy {"text":"動き変化終了時間(cs)"}
-scoreboard objectives add IntrpMovRanDelay dummy {"text":"動き変化遅延乱数(cs)"}
-scoreboard objectives add IntrpMovDuration dummy {"text":"動き変化繰り返し間隔(cs)"}
-scoreboard objectives add IntrpMovRepCount dummy {"text":"動き変化繰り返し回数"}
-
-### DefineDance
-
-scoreboard objectives add IntrpDanStart dummy {"text":"ダンス開始時間(cs)"}
-scoreboard objectives add IntrpDanEnd dummy {"text":"ダンス終了時間(cs)"}
-scoreboard objectives add IntrpDanRanDelay dummy {"text":"ダンス遅延乱数(cs)"}
-scoreboard objectives add IntrpDanDuration dummy {"text":"ダンス繰り返し間隔(cs)"}
-scoreboard objectives add IntrpDanRepCount dummy {"text":"ダンス繰り返し回数"}
-
-
+scoreboard objectives add TargetUpward dummy {"text":"ターゲット位置補正垂直上(cm)"}
+scoreboard objectives add TargetForward dummy {"text":"ターゲット位置補正水平上(cm)"}
+#
+scoreboard objectives add RotateAngle dummy {"text":"現在水平角度(cdeg)"}
+scoreboard objectives add TiltAngle dummy {"text":"現在垂直角度(cdeg)"}
+#
+scoreboard objectives add RotateOffset dummy {"text":"ターゲット初期相対水平角度(cdeg)"}
+scoreboard objectives add TiltOffset dummy {"text":"ターゲット初期相対垂直角度(cdeg)"}
+#
+scoreboard objectives add SpinSpeed dummy {"text":"ターゲットへの回転可能速度(cdeg/t)"}
+scoreboard objectives add SpinAmount dummy {"text":"ターゲットへの回転量(cdeg)"}
+#
+scoreboard objectives add RepeaterDelay dummy {"text":"動き開始時間(cs)"}
+scoreboard objectives add RepeaterToStart dummy {"text":"動き開始実時間(cs)"}
+scoreboard objectives add RepeaterDuration dummy {"text":"動き終了時間(cs)"}
+scoreboard objectives add RepeaterToNext dummy {"text":"動き終了実時間(cs)"}
+scoreboard objectives add RepeaterContinue dummy {"text":"動き変化繰り返し回数"}

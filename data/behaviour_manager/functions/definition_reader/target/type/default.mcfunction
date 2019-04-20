@@ -3,4 +3,4 @@
 ##############################
 
 ### 規定値は自然
-tag @s add TargetType.Natural
+tag @s add Target.Natural

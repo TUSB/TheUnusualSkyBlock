@@ -31,13 +31,13 @@ execute unless entity @s[type=!minecraft:evoker_fangs] run function initializati
 execute unless entity @s[type=!minecraft:chest_minecart,type=!minecraft:hopper_minecart] run function initialization_manager:vanilla/handle/cart/container
 
 ########## 爆発物 ##########
-### TNT [DONE]
+### TNT [[DONE]]
 execute unless entity @s[type=!minecraft:tnt] run function initialization_manager:vanilla/handle/tnt
 
-### トロッコ(TNT) [DONE]
+### トロッコ(TNT) [[DONE]]
 execute unless entity @s[type=!minecraft:tnt_minecart] run function initialization_manager:vanilla/handle/cart/tnt
 
-### エンドクリスタル -> 敵にだけダメージを与える爆発スキルが発動するようにする [TODO]
+### エンドクリスタル -> 敵にだけダメージを与える爆発スキルが発動するようにする [[TODO]]
 execute unless entity @s[type=!minecraft:end_crystal] run function initialization_manager:vanilla/handle/crystal
 
 ########## 何もしないリスト ##########

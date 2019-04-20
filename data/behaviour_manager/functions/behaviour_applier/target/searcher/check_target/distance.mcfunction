@@ -5,4 +5,4 @@
 
 ### 距離確認
 execute positioned as 0-0-2-0-1 run function calc_manager:distance/get
-execute if score $_ FollowRange < $Result Distance run function behaviour_manager:behaviour_applier/target/searcher/check_target/sight
+execute if score $Result Distance < $_ FollowRange run function behaviour_manager:behaviour_applier/target/searcher/check_target/sight

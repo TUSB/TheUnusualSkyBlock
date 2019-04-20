@@ -2,7 +2,7 @@
 ### キャリー付き乗算乱数
 ##############################
 
-# [Obsolete]
+# [[Obsolete]]
 
 ###剰余を利用するため、乱数を退避
 scoreboard players operation $Random Global = $RndMWC Global
