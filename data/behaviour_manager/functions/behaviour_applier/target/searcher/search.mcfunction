@@ -29,21 +29,5 @@ function uuid_entity_manager:00201/return
 
 ### ヒットしようとしまいとセットしてok
 scoreboard players operation @s TargetID = $_ TargetID
-### ヒットした時だけタグはセット
-execute if score $_ TargetID matches 1.. run tag @s add HasTarget
-### ターゲット位置更新タイプがMemorizeなら、コピーを生成
-execute if entity @s[tag=HasTarget,tag=TargetPosition.Memorize] run function behaviour_manager:behaviour_applier/target/searcher/memorize
-
-### カーソル移動
-function data_manager:move_cursor/target_id
-### 姿勢読み込み
-function data_manager:posture/load
-### 向く
-execute facing entity 1-0-1-0-0 feet run tp @s ~ ~ ~ ~ ~
-### 向き保存
-execute store result score @s RotateAngle run data get entity @s Rotation[0] 100
-execute store result score @s TiltAngle run data get entity @s Rotation[1] 100
-### 向き補正
-scoreboard players operation @s RotateAngle += @s RotateOffset
-scoreboard players operation @s TiltAngle += @s TiltOffset
-
+### ヒットした時だけターゲット付与処理
+execute if score $_ TargetID matches 1.. run function behaviour_manager:behaviour_applier/target/searcher/on_hit/common

@@ -3,7 +3,7 @@
 ##############################
 
 ### nbtチェック
-execute store result score $Interpolator SuccessCount if entity @s[nbt={Passengers:[{Tags:[Parameter],Item:{tag:{DefineMoves:[{Interpolator:{}}]}}}]}]
+execute store result score $Interpolator SuccessCount if entity @s[nbt={Passengers:[{Tags:[Parameter],Item:{tag:{DefineMove:{Repeater:{}}}}}]}]
 
 ### 定義持ちなら読み込み
 execute if score $Interpolator SuccessCount matches 1.. run function behaviour_manager:definition_reader/moves/repeater/read_data

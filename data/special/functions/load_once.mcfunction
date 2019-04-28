@@ -53,6 +53,9 @@ scoreboard objectives add Health health {"text":"プレイヤー現在HP"}
 scoreboard objectives add Distance dummy {"text":"ターゲットとの距離(cm)"}
 scoreboard objectives add BlockThickness dummy {"text":"ブロックの厚み(cm)"}
 scoreboard objectives add Dimension dummy {"text":"ディメンション"}
+scoreboard objectives add X dummy {"text":"X座標(cm)"}
+scoreboard objectives add Y dummy {"text":"Y座標(cm)"}
+scoreboard objectives add Z dummy {"text":"Z座標(cm)"}
 
 #################### 敵ステータス関連スコアボード ####################
 ### 敵HP関連
@@ -66,6 +69,7 @@ scoreboard objectives add DesiredDistance dummy {"text":"ターゲット希望�
 scoreboard objectives add FollowRange dummy {"text":"ターゲット補足距離(cm)"}
 scoreboard objectives add TimeToSearch dummy {"text":"探索開始時間(cs)"}
 scoreboard objectives add DetectType dummy {"text":"ターゲット検知タイプ(検知判定時に一時使用)"}
+scoreboard objectives add MovementSpeed dummy {"text":"通常時移動速度(cm/t)"}
 ### DefineMoves
 scoreboard objectives add TargetUpward dummy {"text":"ターゲット位置補正垂直上(cm)"}
 scoreboard objectives add TargetForward dummy {"text":"ターゲット位置補正水平上(cm)"}
@@ -84,3 +88,18 @@ scoreboard objectives add RepeaterToStart dummy {"text":"動き開始実時間(c
 scoreboard objectives add RepeaterDuration dummy {"text":"動き終了時間(cs)"}
 scoreboard objectives add RepeaterToNext dummy {"text":"動き終了実時間(cs)"}
 scoreboard objectives add RepeaterContinue dummy {"text":"動き変化繰り返し回数"}
+#
+scoreboard objectives add ForwardSpeed dummy {"text":"前への速さ(cm/t)"}
+scoreboard objectives add ForwardGravity dummy {"text":"前への加速度(cm/t)"}
+scoreboard objectives add ForwardSpeedMin dummy {"text":"前への速さ(cm/t)"}
+scoreboard objectives add ForwardSpeedMax dummy {"text":"前への加速度(cm/t)"}
+scoreboard objectives add LeftwardSpeed dummy {"text":"左への速さ(cm/t)"}
+scoreboard objectives add LeftwardGravity dummy {"text":"左への加速度(cm/t)"}
+scoreboard objectives add LeftwardSpeedMin dummy {"text":"左への速さ(cm/t)"}
+scoreboard objectives add LeftwardSpeedMax dummy {"text":"左への加速度(cm/t)"}
+scoreboard objectives add UpwardSpeed dummy {"text":"上への速さ(cm/t)"}
+scoreboard objectives add UpwardGravity dummy {"text":"上への加速度(cm/t)"}
+scoreboard objectives add UpwardSpeedMin dummy {"text":"上への速さ(cm/t)"}
+scoreboard objectives add UpwardSpeedMax dummy {"text":"上への加速度(cm/t)"}
+
+

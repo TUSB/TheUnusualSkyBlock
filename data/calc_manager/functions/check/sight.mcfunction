@@ -14,7 +14,7 @@
 
 ### 初期化
 execute facing entity @s eyes positioned as 0-0-0-0-20 in overworld run tp 0-0-0-0-20 ~ ~ ~ ~ ~
-execute as 0-0-0-0-20 at @s facing ^ ^ ^-1 run tp 0-0-0-0-21 ~ ~0.01 ~ ~ ~
+execute as 0-0-0-0-20 at @s facing ^ ^ ^-1 run tp 0-0-0-0-30 ~ ~0.01 ~ ~ ~
 scoreboard players set $BlockThickness Global 0
 
 ### ディメンション取得

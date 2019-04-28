@@ -6,3 +6,6 @@
 scoreboard players set @s[tag=Bullet] FollowRange 12800
 ### モブの規定値は3200cm
 scoreboard players set @s[tag=!Bullet] FollowRange 3200
+
+### データ持ちならそれを設定
+execute if data entity @s Attributes[{Name:"generic.followRange"}].Base store result score @s FollowRange run data get entity @s Attributes[{Name:"generic.followRange"}].Base 100

@@ -4,8 +4,7 @@
 
 schedule function assert_manager:behaviour/reader/target/type/default 2t
 schedule function assert_manager:behaviour/reader/target/type/natural 4t
-### [[Suspended]]
-# schedule function assert_manager:behaviour/reader/target/type/near_player 6t
+
 schedule function assert_manager:behaviour/reader/target/type/target_ally 8t
 schedule function assert_manager:behaviour/reader/target/type/target_enemy 10t
 
@@ -20,6 +19,21 @@ schedule function assert_manager:behaviour/reader/target/follow_range/default_mo
 schedule function assert_manager:behaviour/reader/target/follow_range/default_bullet 24t
 schedule function assert_manager:behaviour/reader/target/follow_range/set_mob 26t
 schedule function assert_manager:behaviour/reader/target/follow_range/set_bullet 28t
+
+schedule function assert_manager:behaviour/reader/target/detect/default 30t
+schedule function assert_manager:behaviour/reader/target/detect/nearest 32t
+schedule function assert_manager:behaviour/reader/target/detect/perspective 34t
+schedule function assert_manager:behaviour/reader/target/detect/sight 36t
+
+
+
+
+
+
+
+
+
+
 
 schedule function assert_manager:behaviour/reader/directions/repeater/continue/default 30t
 schedule function assert_manager:behaviour/reader/directions/repeater/continue/true 32t

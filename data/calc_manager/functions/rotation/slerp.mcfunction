@@ -9,4 +9,5 @@
 
 ### SpinAmount >= 500 で回転処理
 scoreboard players operation @s SpinAmount += @s SpinSpeed
+execute unless score @s SpinAmount matches 500.. run function calc_manager:rotation/__noerp
 execute if score @s SpinAmount matches 500.. run function calc_manager:rotation/__slerp

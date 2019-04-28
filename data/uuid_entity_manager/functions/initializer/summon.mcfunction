@@ -8,9 +8,12 @@
 #################### 全般管理エンティティ作成 ####################
 ### テキスト保持エンティティ
 execute unless entity 0-0-0-0-1 run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[System],UUIDMost:0l,UUIDLeast:1l,CustomName:"[\"テキスト\"]"}
-### 角度保持エンティティ
-execute unless entity 0-0-0-0-2 run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[System],UUIDMost:0l,UUIDLeast:2l,CustomName:"[\"角度保持用１\"]"}
-execute unless entity 0-0-0-0-3 run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[System],UUIDMost:0l,UUIDLeast:3l,CustomName:"[\"角度保持用２\"]"}
+### 角度計算エンティティ
+execute unless entity 0-0-0-0-10 run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[System],UUIDMost:0l,UUIDLeast:16l,CustomName:"[\"角度計算用\"]"}
+### 動き計算エンティティ
+execute unless entity 0-0-0-0-20 run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[System],UUIDMost:0l,UUIDLeast:32l,CustomName:"[\"動き計算用\"]"}
+### 鏡エンティティ
+execute unless entity 0-0-0-0-30 run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[System],UUIDMost:0l,UUIDLeast:48l,CustomName:"[\"鏡像変換用\"]"}
 ### 視線判定エンティティ１・２
 execute unless entity 0-0-1-0-0 run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[System],UUIDMost:1l,UUIDLeast:0l,CustomName:"[\"視線判定用１\"]"}
 execute unless entity 0-0-1-0-1 run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[System],UUIDMost:1l,UUIDLeast:1l,CustomName:"[\"視線判定用２\"]"}
@@ -23,7 +26,7 @@ execute unless entity 0-0-2-0-2 run summon minecraft:area_effect_cloud ~ ~ ~ {Ta
 ### データ管理カーソルエンティティ
 execute unless entity 1-0-0-0-0 run summon minecraft:armor_stand ~ ~ ~ {Tags:[System],UUIDMost:4294967296l,UUIDLeast:0l,CustomName:"[\"データ管理カーソル\"]"}
 ### データ姿勢操作エンティティ
-execute unless entity 0-0-2-0-0 run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[System],UUIDMost:2l,UUIDLeast:0l,CustomName:"[\"データ姿勢操作エンティティ\"]"}
+execute unless entity 1-0-1-0-0 run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[System],UUIDMost:4294967297l,UUIDLeast:0l,CustomName:"[\"データ姿勢操作エンティティ\"]"}
 
 #################### スポナー管理用エンティティ作成 ####################
 ### スポナーエリア管理エンティティ

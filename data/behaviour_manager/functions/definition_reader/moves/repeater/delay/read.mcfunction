@@ -3,8 +3,8 @@
 ##############################
 
 ### 開始時間(cs)(中央値と振れ幅を取得)
-execute store result score $Result Local run data get entity @s Passengers[{Tags:[Parameter]}].Item.tag.DefineMoves[0].Repeater.Delay.Mean 100
-execute store result score $Range Random run data get entity @s Passengers[{Tags:[Parameter]}].Item.tag.DefineMoves[0].Repeater.Delay.Range 100
+execute store result score $Result Local run data get entity @s Passengers[{Tags:[Parameter]}].Item.tag.DefineMove.Repeater.Delay.Mean 100
+execute store result score $Range Random run data get entity @s Passengers[{Tags:[Parameter]}].Item.tag.DefineMove.Repeater.Delay.Range 100
 
 ### MinとRangeに変換(最小値と振れ幅の２倍)
 scoreboard players operation $Result Local -= $Range Random

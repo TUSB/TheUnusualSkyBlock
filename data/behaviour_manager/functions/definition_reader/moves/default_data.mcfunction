@@ -10,12 +10,11 @@ function behaviour_manager:definition_reader/moves/target_offset/upward/default
 function behaviour_manager:definition_reader/moves/target_offset/forward/default
 
 ### 開始向き
-function behaviour_manager:definition_reader/moves/start_direction/offset_rotate/default
-function behaviour_manager:definition_reader/moves/start_direction/offset_tilt/default
+function behaviour_manager:definition_reader/moves/start_direction/rotate_offset/default
+function behaviour_manager:definition_reader/moves/start_direction/tilt_offset/default
 
 ### 回転角度
-function behaviour_manager:definition_reader/moves/rotate_speed/default
-function behaviour_manager:definition_reader/moves/tilt_speed/default
+function behaviour_manager:definition_reader/moves/spin_speed/default
 
 ### 繰り返し
 function behaviour_manager:definition_reader/moves/repeater/default_data

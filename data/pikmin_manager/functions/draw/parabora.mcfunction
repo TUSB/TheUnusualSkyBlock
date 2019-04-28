@@ -10,7 +10,7 @@ execute positioned as @s anchored eyes positioned ^ ^ ^ anchored feet in overwor
 
 ### 初期化２
 execute facing entity @s eyes positioned as 0-0-0-0-20 in overworld run tp 0-0-0-0-20 ~ ~ ~ ~ ~
-execute as 0-0-0-0-20 at @s facing ^ ^ ^-1 run tp 0-0-0-0-21 ~ ~0.01 ~ ~ ~
+execute as 0-0-0-0-20 at @s facing ^ ^ ^-1 run tp 0-0-0-0-30 ~ ~0.01 ~ ~ ~
 
 ### ディメンション取得
 execute store result score $Dimension Global run data get entity @s Dimension 0

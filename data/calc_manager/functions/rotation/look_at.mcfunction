@@ -7,6 +7,6 @@
 ###          based on the direction from [Source] toward [Destination]
 
 ### 向かせる
-execute facing entity @s feet facing ^ ^ ^-1 positioned as @s run tp @s ~ ~ ~ ~ ~
-### スコアセット
-function calc_manager:rotation/read
+execute facing entity @s feet facing ^ ^ ^-1 positioned 0.0 0.0 0.0 in overworld run tp 0-0-0-0-10 ~ ~ ~ ~ ~
+### 向きセット
+function calc_manager:rotation/__set_rotation
