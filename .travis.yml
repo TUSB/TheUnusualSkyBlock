@@ -4,6 +4,8 @@ python:
 install:
   - pip install jsonschema
 script:
+  - pwd
+  - ls 
   - wget https://raw.githubusercontent.com/TUSB/minecraft-json-schemas/master/scripts/validate_check.py
   - chmod +x validate_check.py
   - python ./validate_check.py
