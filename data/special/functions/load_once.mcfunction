@@ -66,12 +66,12 @@ scoreboard objectives add MobLastDamage dummy {"text":"Mob最終ダメージ(chp
 #################### 振舞い定義用スコアボード ####################
 ### DefineTarget
 scoreboard objectives add DesiredDistance dummy {"text":"ターゲット希望距離(cm)"}
+scoreboard objectives add DesiredHeight dummy {"text":"ターゲット希望高度差(cm)"}
 scoreboard objectives add FollowRange dummy {"text":"ターゲット補足距離(cm)"}
 scoreboard objectives add TimeToSearch dummy {"text":"探索開始時間(cs)"}
 scoreboard objectives add DetectType dummy {"text":"ターゲット検知タイプ(検知判定時に一時使用)"}
 scoreboard objectives add MovementSpeed dummy {"text":"通常時移動速度(cm/t)"}
 ### DefineMoves
-scoreboard objectives add TargetUpward dummy {"text":"ターゲット位置補正垂直上(cm)"}
 scoreboard objectives add TargetForward dummy {"text":"ターゲット位置補正水平上(cm)"}
 #
 scoreboard objectives add RotateAngle dummy {"text":"現在水平角度(cdeg)"}

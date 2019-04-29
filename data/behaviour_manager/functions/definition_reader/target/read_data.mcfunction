@@ -14,5 +14,8 @@ function behaviour_manager:definition_reader/target/detect/read
 ### 希望距離読み込み
 function behaviour_manager:definition_reader/target/desired_distance/read
 
+### 希望高度差読み込み
+function behaviour_manager:definition_reader/target/desired_height/read
+
 ### 追跡距離読み込み
 function behaviour_manager:definition_reader/target/follow_range/read

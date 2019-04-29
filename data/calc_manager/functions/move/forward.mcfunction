@@ -9,4 +9,4 @@ execute positioned ^ ^ ^-1 positioned ~ ~1 ~ facing entity @s feet positioned 0.
 function calc_manager:move/upward
 
 ### 前に補正
-execute rotated as 0-0-0-0-30 run function calc_manager:mirror/change
+execute rotated as 0-0-0-0-30 run function calc_manager:mirror/rechange

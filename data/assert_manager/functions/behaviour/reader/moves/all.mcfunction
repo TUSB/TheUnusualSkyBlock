@@ -37,5 +37,3 @@ schedule function assert_manager:behaviour/reader/moves/target_position/directio
 
 schedule function assert_manager:behaviour/reader/moves/target_offset/forward/default 52t
 schedule function assert_manager:behaviour/reader/moves/target_offset/forward/set 54t
-schedule function assert_manager:behaviour/reader/moves/target_offset/upward/default 56t
-schedule function assert_manager:behaviour/reader/moves/target_offset/upward/set 58t
