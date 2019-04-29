@@ -1,5 +1,5 @@
 ##############################
-### 向き定義テスト
+### 動き定義テスト
 ##############################
 
 execute unless entity 0-0-0-0-0 run me function assert_manager:behaviour/reader/moves/repeater/delay/mean 1t
