@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:map"
+      "item": "minecraft:paper"
     },
     "title": {
         "text": "就職"
@@ -9,7 +9,7 @@
     "description": {
       "text": "職に就いた"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
