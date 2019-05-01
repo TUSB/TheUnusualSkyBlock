@@ -1,20 +1,20 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:snowball"
+      "item": "minecraft:carrot_on_a_stick"
     },
     "title": {
-        "text": "忍者の道"
+        "text": "白魔の道"
       },
     "description": {
-      "text": "忍者になった"
+      "text": "白魔導士になった"
     },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
-  "parent": "advancement_manager:job/root",
+  "parent": "advancement_manager:job/become_ninja",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"

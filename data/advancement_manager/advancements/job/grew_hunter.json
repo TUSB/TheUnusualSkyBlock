@@ -14,7 +14,7 @@
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "advancement_manager:job/1_hunter",
+  "parent": "advancement_manager:job/grew_knight",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"

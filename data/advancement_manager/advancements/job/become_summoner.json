@@ -4,17 +4,17 @@
       "item": "minecraft:ghast_spawn_egg"
     },
     "title": {
-        "text": "グランドサモナー"
+        "text": "召喚の道"
       },
     "description": {
-      "text": "召喚士を究めた"
+      "text": "召喚士になった"
     },
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": true
+    "hidden": false
   },
-  "parent": "advancement_manager:job/1_summoner",
+  "parent": "advancement_manager:job/become_black_mage",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"

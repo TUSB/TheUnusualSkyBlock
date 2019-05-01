@@ -1,20 +1,20 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:music_disc_strad"
+      "item": "minecraft:carrot_on_a_stick"
     },
     "title": {
-        "text": "機巧技師"
+        "text": "救済導士"
       },
     "description": {
-      "text": "絡繰士を究めた"
+      "text": "白魔導士を究めた"
     },
     "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "advancement_manager:job/1_puppet_master",
+  "parent": "advancement_manager:job/grew_ninja",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"

@@ -1,15 +1,15 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stone_sword"
+      "item": "minecraft:diamond_sword"
     },
     "title": {
-        "text": "剣士の道"
+        "text": "剣技の達人"
       },
     "description": {
-      "text": "剣士になった"
+      "text": "剣士を究めた"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true

@@ -1,20 +1,20 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:nether_star"
+      "item": "minecraft:map"
     },
     "title": {
-        "text": "高みを目指す者"
+        "text": "探究者"
       },
     "description": {
-      "text": "一つの職を極限まで高めた"
+      "text": "職を究めた"
     },
-    "frame": "challenge",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "advancement_manager:job/51_any",
+  "parent": "advancement_manager:job/become_any",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"

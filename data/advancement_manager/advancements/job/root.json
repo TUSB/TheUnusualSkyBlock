@@ -8,13 +8,13 @@
         "text": ""
       },
       {
-        "text": " -職業-",
+        "text": "生き抜くために -職業-",
         "color": "gray",
         "bold": true
       }
     ],
     "description": {
-      "text": ""
+      "text": "使いこなせ！"
     },
     "frame": "task",
     "show_toast": true,
