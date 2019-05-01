@@ -19,7 +19,7 @@
     "join": {
       "trigger": "minecraft:location",
       "conditions": {
-        "dimension": "the_end"
+        "dimension": "minecraft:the_end"
       }
     }
   }
