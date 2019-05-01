@@ -19,7 +19,7 @@
     "skill_setting_field": {
       "trigger": "minecraft:location",
       "conditions": {
-        "dimention": "overworld",
+        "dimension": "minecraft:overworld",
         "position": {
           "x": {
             "min": -704,
@@ -39,7 +39,7 @@
     "table_mountain": {
       "trigger": "minecraft:location",
       "conditions": {
-        "dimention": "overworld",
+        "dimension": "minecraft:overworld",
         "position": {
           "x": {
             "min": 27,

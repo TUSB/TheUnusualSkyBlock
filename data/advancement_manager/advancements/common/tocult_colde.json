@@ -19,7 +19,7 @@
     "join": {
       "trigger": "minecraft:location",
       "conditions": {
-        "dimension": "overworld",
+        "dimension": "minecraft:overworld",
         "position": {
           "x": {
             "min": 768,

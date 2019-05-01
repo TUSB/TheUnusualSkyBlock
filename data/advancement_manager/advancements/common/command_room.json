@@ -19,7 +19,7 @@
     "debug_room": {
       "trigger": "minecraft:location",
       "conditions": {
-        "dimention": "overworld",
+        "dimension": "minecraft:overworld",
         "position": {
           "x": {
             "min": -1923,

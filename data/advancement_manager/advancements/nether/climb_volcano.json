@@ -19,7 +19,7 @@
     "join": {
       "trigger": "minecraft:location",
       "conditions": {
-        "dimension": "the_nether",
+        "dimension": "minecraft:the_nether",
         "position": {
           "x": {
             "min": -480,
