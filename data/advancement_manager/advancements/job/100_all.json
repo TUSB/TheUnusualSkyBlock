@@ -1,20 +1,20 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:snowball"
+      "item": "minecraft:nether_star"
     },
     "title": {
-        "text": "忍者の道"
+        "text": "全知と成りし者"
       },
     "description": {
-      "text": "忍者になった"
+      "text": "全ての職を極限まで高めた"
     },
-    "frame": "task",
+    "frame": "challenge",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
-  "parent": "advancement_manager:job/become_hunter",
+  "parent": "advancement_manager:job/100_any",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"

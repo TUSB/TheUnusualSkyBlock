@@ -1,18 +1,18 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stone_sword"
+      "item": "minecraft:music_disc_strad"
     },
     "title": {
-        "text": "剣士の道"
+        "text": "絡繰の道"
       },
     "description": {
-      "text": "剣士になった"
+      "text": "絡繰士になった"
     },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
   "parent": "advancement_manager:job/root",
   "criteria": {

@@ -4,17 +4,17 @@
       "item": "minecraft:carrot_on_a_stick"
     },
     "title": {
-        "text": "大魔導士"
+        "text": "黒魔の道"
       },
     "description": {
-      "text": "黒魔導士を究めた"
+      "text": "黒魔導士になった"
     },
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "advancement_manager:job/grew_white_mage",
+  "parent": "advancement_manager:job/root",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"
