@@ -89,17 +89,17 @@ scoreboard objectives add RepeaterDuration dummy {"text":"動き終了時間(cs)
 scoreboard objectives add RepeaterToNext dummy {"text":"動き終了実時間(cs)"}
 scoreboard objectives add RepeaterContinue dummy {"text":"動き変化繰り返し回数"}
 #
-scoreboard objectives add ForwardSpeed dummy {"text":"前への速さ(cm/t)"}
-scoreboard objectives add ForwardGravity dummy {"text":"前への加速度(cm/t)"}
-scoreboard objectives add ForwardSpeedMin dummy {"text":"前への速さ(cm/t)"}
-scoreboard objectives add ForwardSpeedMax dummy {"text":"前への加速度(cm/t)"}
-scoreboard objectives add LeftwardSpeed dummy {"text":"左への速さ(cm/t)"}
-scoreboard objectives add LeftwardGravity dummy {"text":"左への加速度(cm/t)"}
-scoreboard objectives add LeftwardSpeedMin dummy {"text":"左への速さ(cm/t)"}
-scoreboard objectives add LeftwardSpeedMax dummy {"text":"左への加速度(cm/t)"}
-scoreboard objectives add UpwardSpeed dummy {"text":"上への速さ(cm/t)"}
-scoreboard objectives add UpwardGravity dummy {"text":"上への加速度(cm/t)"}
-scoreboard objectives add UpwardSpeedMin dummy {"text":"上への速さ(cm/t)"}
-scoreboard objectives add UpwardSpeedMax dummy {"text":"上への加速度(cm/t)"}
+scoreboard objectives add ForwardSpeed dummy {"text":"前への速さ(ccm/t)"}
+scoreboard objectives add ForwardGravity dummy {"text":"前への加速度(ccm/t)"}
+scoreboard objectives add ForwardSpeedMin dummy {"text":"前への速さ(ccm/t)"}
+scoreboard objectives add ForwardSpeedMax dummy {"text":"前への加速度(ccm/t)"}
+scoreboard objectives add LeftwardSpeed dummy {"text":"左への速さ(ccm/t)"}
+scoreboard objectives add LeftwardGravity dummy {"text":"左への加速度(ccm/t)"}
+scoreboard objectives add LeftwardSpeedMin dummy {"text":"左への速さ(ccm/t)"}
+scoreboard objectives add LeftwardSpeedMax dummy {"text":"左への加速度(ccm/t)"}
+scoreboard objectives add UpwardSpeed dummy {"text":"上への速さ(ccm/t)"}
+scoreboard objectives add UpwardGravity dummy {"text":"上への加速度(ccm/t)"}
+scoreboard objectives add UpwardSpeedMin dummy {"text":"上への速さ(ccm/t)"}
+scoreboard objectives add UpwardSpeedMax dummy {"text":"上への加速度(ccm/t)"}
 
 
