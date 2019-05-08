@@ -47,7 +47,6 @@ execute unless score $Result Distance > @s DesiredDistance run scoreboard player
 scoreboard players operation $Offset Distance > @s ForwardSpeedMin
 scoreboard players operation $Offset Distance < @s ForwardSpeedMax
 ### 前に移動
-scoreboard players operation $Offset Distance *= $100 Const
 execute at 0-0-0-0-20 rotated as 0-0-0-0-10 as 0-0-0-0-20 run function calc_manager:move/forward
 ### 希望高度補正
 execute at @s as 1-0-1-0-0 run function calc_manager:distance/height
@@ -57,11 +56,9 @@ execute unless score $Result Distance > @s DesiredHeight run scoreboard players 
 scoreboard players operation $Offset Distance > @s UpwardSpeedMin
 scoreboard players operation $Offset Distance < @s UpwardSpeedMax
 ### 上に移動
-scoreboard players operation $Offset Distance *= $100 Const
 execute at 0-0-0-0-20 rotated as 0-0-0-0-10 facing ^ ^1 ^ as 0-0-0-0-20 run function calc_manager:move/forward
 ### 左に移動
 scoreboard players operation $Offset Distance = @s LeftwardSpeed
-scoreboard players operation $Offset Distance *= $100 Const
 execute at 0-0-0-0-20 rotated as 0-0-0-0-10 facing ^1 ^ ^ as 0-0-0-0-20 run function calc_manager:move/forward
 ### モーション適用
 execute at 0-0-0-0-20 positioned ~0.5 ~0.5 ~0.5 align xyz run tp 0-0-0-0-20 ~ ~ ~ ~ ~

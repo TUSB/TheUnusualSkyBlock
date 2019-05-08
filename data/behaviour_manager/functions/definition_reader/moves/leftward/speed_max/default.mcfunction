@@ -2,5 +2,5 @@
 ### 左回り速度最大値規定値
 ##############################
 
-### 規定値は1000
-scoreboard players set @s LeftwardSpeedMax 1000
+### 規定値は10.0000m/s
+scoreboard players set @s LeftwardSpeedMax 100000

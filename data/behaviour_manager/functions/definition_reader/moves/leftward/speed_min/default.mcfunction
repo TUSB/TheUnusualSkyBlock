@@ -2,5 +2,5 @@
 ### 左回り速度最小値規定値
 ##############################
 
-### 規定値は-1000
-scoreboard players set @s LeftwardSpeedMin -1000
+### 規定値は-10.0000m/s
+scoreboard players set @s LeftwardSpeedMin -100000

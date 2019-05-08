@@ -2,5 +2,5 @@
 ### 前進速度最小値規定値
 ##############################
 
-### 規定値は-1000
-scoreboard players set @s ForwardSpeedMin -1000
+### 規定値は-10.0000m/s
+scoreboard players set @s ForwardSpeedMin -100000
