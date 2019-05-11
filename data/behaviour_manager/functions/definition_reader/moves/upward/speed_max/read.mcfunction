@@ -3,7 +3,7 @@
 ##############################
 
 ### 上昇速度最大値
-execute store result score @s UpwardSpeedMax run data get entity @s Passengers[{Tags:[Parameter]}].Item.tag.DefineMove.Upward.MaxSpeed 10000
+execute store result score @s UpwardSpeedMax at 1-0-0-0-0 run data get entity @e[distance=0,tag=DataHolder,limit=1] Item.tag.Parameter.MoveSettings.Upward.MaxSpeed 10000
 
 ### 0なら規定値設定
-execute unless data entity @s Passengers[0].Item.tag.DefineMove.Upward.MaxSpeed run function behaviour_manager:definition_reader/moves/upward/speed_max/default
+execute at 1-0-0-0-0 unless data entity @e[distance=0,tag=DataHolder,limit=1] Item.tag.Parameter.MoveSettings.Upward.MaxSpeed run function behaviour_manager:definition_reader/moves/upward/speed_max/default

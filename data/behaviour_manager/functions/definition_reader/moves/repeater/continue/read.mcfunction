@@ -1,11 +1,9 @@
 ##############################
-### インターポレーター継続読み込み
+### リピータ―継続するか読み込み
 ##############################
 
-### 繰り返し回数
-execute store result score $RepeaterContinue SuccessCount run data get entity @s Passengers[{Tags:[Parameter]}].Item.tag.DefineMove.Repeater.Continue 1
+### 繰り返しタグ設定
+execute at 1-0-0-0-0 if entity @e[distance=0,tag=DataHolder,limit=1,nbt={Item:{tag:{Parameter:{MoveSettings:{Repeater:{Continue:True}}}}}}] run tag @s add Repeater.Continue
 
 ### trueでないなら規定値設定
-execute unless score $RepeaterContinue SuccessCount matches 1.. run function behaviour_manager:definition_reader/moves/repeater/continue/default
-### trueならタグ設定
-tag @s[tag=!Repeater.Break] add Repeater.Continue
+execute unless entity @s[tag=Repeater.Continue] run function behaviour_manager:definition_reader/moves/repeater/continue/default

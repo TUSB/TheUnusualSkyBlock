@@ -2,9 +2,9 @@
 ### ターゲットとの相対垂直向き初期値読み込み
 ##############################
 
-### ターゲットとの相対水平向き(中央値と振れ幅を取得)
-execute store result score $Result Local run data get entity @s Passengers[{Tags:[Parameter]}].Item.tag.DefineMove.StartDirection.TiltOffset.Mean 100
-execute store result score $Range Random run data get entity @s Passengers[{Tags:[Parameter]}].Item.tag.DefineMove.StartDirection.TiltOffset.Range 100
+### ターゲットとの相対垂直向き(中央値と振れ幅を取得)
+execute store result score $Result Local at 1-0-0-0-0 run data get entity @e[distance=0,tag=DataHolder,limit=1] Item.tag.Parameter.MoveSettings.StartDirection.TiltOffset.Mean 100
+execute store result score $Range Random at 1-0-0-0-0 run data get entity @e[distance=0,tag=DataHolder,limit=1] Item.tag.Parameter.MoveSettings.StartDirection.TiltOffset.Range 100
 
 ### MinとRangeに変換(最小値と振れ幅の２倍)
 scoreboard players operation $Result Local -= $Range Random

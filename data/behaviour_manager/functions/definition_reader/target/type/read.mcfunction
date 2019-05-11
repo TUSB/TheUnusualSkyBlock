@@ -2,10 +2,10 @@
 ### ターゲットタイプ読み込み
 ##############################
 
-### ターゲットした、自身にとって味方側のモブ
-tag @s[nbt={Passengers:[{Tags:[Parameter],Item:{tag:{DefineTarget:{Target:Ally}}}}]}] add Target.Ally
-### ターゲットした、自身にとって敵側のモブ
-tag @s[nbt={Passengers:[{Tags:[Parameter],Item:{tag:{DefineTarget:{Target:Enemy}}}}]}] add Target.Enemy
+### Allyをターゲット
+execute at 1-0-0-0-0 if entity @e[distance=0,tag=DataHolder,limit=1,nbt={Item:{tag:{Parameter:{TargetSettings:{Target:Ally}}}}}] run tag @s add Target.Ally
+### Enemyをターゲット
+execute at 1-0-0-0-0 if entity @e[distance=0,tag=DataHolder,limit=1,nbt={Item:{tag:{Parameter:{TargetSettings:{Target:Enemy}}}}}] run tag @s add Target.Enemy
 
 ### それ以外は規定値
 execute if entity @s[tag=!Target.Ally,tag=!Target.Enemy] run function behaviour_manager:definition_reader/target/type/default

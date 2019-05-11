@@ -8,4 +8,4 @@ execute unless entity 0-0-0-0-0 run schedule function assert_manager:behaviour/r
 execute as 0-0-0-0-0 unless score @s ForwardGravity matches 12345 run say function assert_manager:behaviour/reader/moves/forward/acceleration/set 1
 
 execute as 0-0-0-0-0 run function finalization_manager:kill_immidiately
-summon husk ~ ~ ~ {Team:Assert,UUIDMost:0l,UUIDLeast:0l,Tags:[Enemy],Passengers:[{id:item_frame,Tags:[Parameter],Item:{id:stone,Count:1b,tag:{DefineMoves:[{Forward:{Acceleration:1.2345d}}]}}}]}
+summon husk ~ ~ ~ {Team:Assert,UUIDMost:0l,UUIDLeast:0l,Tags:[Enemy],Passengers:[{id:item_frame,Tags:[Parameter],Item:{id:stone,Count:1b,tag:{MoveSettingsList:[{Forward:{Acceleration:1.2345d}}]}}}]}

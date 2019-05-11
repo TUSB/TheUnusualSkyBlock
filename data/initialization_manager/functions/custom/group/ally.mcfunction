@@ -3,7 +3,7 @@
 ##############################
 
 ### データ管理初期化
-execute if entity @s[tag=!Colony,tag=!Pet,tag=!Bullet] run function data_manager:initializer/ally/initialize
+function data_manager:initializer/ally/initialize
 
 ### 振舞い設定読み込み
 function behaviour_manager:definition_reader/check

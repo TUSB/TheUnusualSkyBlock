@@ -17,8 +17,8 @@ schedule function assert_manager:behaviour/reader/target/desired_distance/set 20
 
 schedule function assert_manager:behaviour/reader/target/follow_range/default_mob 22t
 schedule function assert_manager:behaviour/reader/target/follow_range/default_bullet 24t
-schedule function assert_manager:behaviour/reader/target/follow_range/set_mob 26t
-schedule function assert_manager:behaviour/reader/target/follow_range/set_bullet 28t
+schedule function assert_manager:behaviour/reader/target/follow_range/custom_mob 26t
+schedule function assert_manager:behaviour/reader/target/follow_range/custom_bullet 28t
 
 schedule function assert_manager:behaviour/reader/target/detect/default 30t
 schedule function assert_manager:behaviour/reader/target/detect/nearest 32t

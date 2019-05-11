@@ -15,13 +15,13 @@ execute if entity @s[tag=!] run function initialization_manager:custom/main
 # Ally               -> Ally + Friendly + HealthManaged + DataManaged
 # Ally + Colony      -> Ally + Friendly + HealthManaged + Colony
 # Ally + Pet         -> Ally + Friendly + HealthManaged + Pet
+# Ally + Bullet      -> Ally + Bullet
 
 # Enemy + Boss      -> Enemy + HealthManaged + DataManaged + Boss
 # Enemy             -> Enemy + HealthManaged + DataManaged
 # Enemy + Colony    -> Enemy + HealthManaged + Colony
 # Enemy + Pet       -> Enemy + HealthManaged + Pet
+# Enemy + Bullet    -> Enemy + Bullet
 
 # player            -> Player + Friendly + DataManaged
 # Player + Pet      -> Player + Friendly + HealthManaged + Pet
-
-# Bullet            -> Bullet

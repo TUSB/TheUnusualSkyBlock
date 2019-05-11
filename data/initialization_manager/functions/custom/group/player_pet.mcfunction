@@ -2,6 +2,9 @@
 ### プレイヤーペット初期化
 ##############################
 
+### データ管理初期化
+function data_manager:initializer/ally/initialize
+
 ### 振舞い設定読み込み
 function behaviour_manager:definition_reader/check
 

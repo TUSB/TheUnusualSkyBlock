@@ -17,6 +17,6 @@ tag @s[nbt={Glowing:true}] add NativeGlowing
 tag @s[nbt={ActiveEffects:[{Id:24b}]}] add NativeGlowing
 
 ### 平時移動速度
-execute store result score @s MovementSpeed run data get entity @s Attributes[{Name:"generic.movementSpeed"}].Base 100
+execute store result score @s MovementSpeed run data get entity @s Attributes[{Name:"generic.movementSpeed"}].Base 10000
 
 ### 自動判定した方がいい内容があったら追加

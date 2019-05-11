@@ -1,9 +1,9 @@
 ##############################
-### インターポレーター繰り返し時間設定
+### リピーター繰り返し時間設定
 ##############################
 
 ### 繰り返し時間(cs)
-execute store result score @s RepeaterDuration run data get entity @s Passengers[{Tags:[Parameter]}].Item.tag.DefineMove.Repeater.Duration 100
+execute store result score @s RepeaterDuration at 1-0-0-0-0 run data get entity @e[distance=0,tag=DataHolder,limit=1] Item.tag.Parameter.MoveSettings.Repeater.Duration 100
 
 ### 0なら規定値設定
 execute if score @s RepeaterDuration matches 0 run function behaviour_manager:definition_reader/moves/repeater/duration/default

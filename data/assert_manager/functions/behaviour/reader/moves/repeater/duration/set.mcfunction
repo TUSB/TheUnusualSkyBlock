@@ -9,4 +9,4 @@ execute as 0-0-0-0-0 unless score @s RepeaterDuration matches 1024 run say funct
 execute as 0-0-0-0-0 unless score @s RepeaterToNext matches 1024 run say function assert_manager:behaviour/reader/moves/repeater/duration/set 2
 
 execute as 0-0-0-0-0 run function finalization_manager:kill_immidiately
-summon husk ~ ~ ~ {Team:Assert,UUIDMost:0l,UUIDLeast:0l,Tags:[Enemy],Passengers:[{id:item_frame,Tags:[Parameter],Item:{id:stone,Count:1b,tag:{DefineMoves:[{Repeater:{Duration:10.24d}}]}}}]}
+summon husk ~ ~ ~ {Team:Assert,UUIDMost:0l,UUIDLeast:0l,Tags:[Enemy],Passengers:[{id:item_frame,Tags:[Parameter],Item:{id:stone,Count:1b,tag:{MoveSettingsList:[{Repeater:{Duration:10.24d}}]}}}]}

@@ -3,7 +3,7 @@
 ##############################
 
 ### 左回り加速度
-execute store result score @s LeftwardGravity run data get entity @s Passengers[{Tags:[Parameter]}].Item.tag.DefineMove.Leftward.Acceleration 10000
+execute store result score @s LeftwardGravity at 1-0-0-0-0 run data get entity @e[distance=0,tag=DataHolder,limit=1] Item.tag.Parameter.MoveSettings.Leftward.Acceleration 10000
 
 ### 0なら規定値設定
-execute if score @s LeftwardGravity matches 0 run function behaviour_manager:definition_reader/moves/leftward/acceleration/default
+execute at 1-0-0-0-0 unless data entity @e[distance=0,tag=DataHolder,limit=1] Item.tag.Parameter.MoveSettings.Leftward.Acceleration run function behaviour_manager:definition_reader/moves/leftward/acceleration/default

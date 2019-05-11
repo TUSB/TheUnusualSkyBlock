@@ -1,5 +1,5 @@
 ##############################
-### インターポレーター時間補正
+### リピーター時間補正
 ##############################
 
 scoreboard players operation @s RepeaterToStart = @s RepeaterDelay

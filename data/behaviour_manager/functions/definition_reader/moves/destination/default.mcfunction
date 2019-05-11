@@ -3,4 +3,4 @@
 ##############################
 
 ### 規定値は常に更新
-tag @s add TargetPosition.Update
+tag @s add Destination.Update

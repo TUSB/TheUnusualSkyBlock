@@ -3,7 +3,7 @@
 ##############################
 
 ### ターゲット位置基準
-function behaviour_manager:definition_reader/moves/target_position/read
+function behaviour_manager:definition_reader/moves/destination/read
 
 ### ターゲット位置補正値
 function behaviour_manager:definition_reader/moves/target_offset/upward/read

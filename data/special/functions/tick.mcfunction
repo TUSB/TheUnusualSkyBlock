@@ -18,7 +18,7 @@ function initialization_manager:check_all
 function data_manager:updater/check_all
 
 ### 行動フロー
-function behaviour_manager:behaviour_applier/behaviour_flow/check_all
+function behaviour_manager:behaviour_applier/action/check_all
 
 ### ターゲット発見チェック
 function behaviour_manager:behaviour_applier/target/searcher/check_all

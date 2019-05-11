@@ -1,10 +1,10 @@
 ##############################
-### インターポレーター開始時間設定
+### リピータ―開始時間設定
 ##############################
 
 ### 開始時間(cs)(中央値と振れ幅を取得)
-execute store result score $Result Local run data get entity @s Passengers[{Tags:[Parameter]}].Item.tag.DefineMove.Repeater.Delay.Mean 100
-execute store result score $Range Random run data get entity @s Passengers[{Tags:[Parameter]}].Item.tag.DefineMove.Repeater.Delay.Range 100
+execute store result score $Result Local at 1-0-0-0-0 run data get entity @e[distance=0,tag=DataHolder,limit=1] Item.tag.Parameter.MoveSettings.Repeater.Delay.Mean 100
+execute store result score $Range Random at 1-0-0-0-0 run data get entity @e[distance=0,tag=DataHolder,limit=1] Item.tag.Parameter.MoveSettings.Repeater.Delay.Range 100
 
 ### MinとRangeに変換(最小値と振れ幅の２倍)
 scoreboard players operation $Result Local -= $Range Random

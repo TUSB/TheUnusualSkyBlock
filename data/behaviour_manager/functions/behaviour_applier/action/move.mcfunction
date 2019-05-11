@@ -1,26 +1,23 @@
 ##############################
-### ターゲットへの行動確認個別
+### ターゲットへ向けての移動
 ##############################
 
-### カーソル移動
-function data_manager:move_cursor/target_id
 ### 姿勢読み込み
 function data_manager:posture/load
 
 ### 上へ補正
 scoreboard players set $Offset Distance 0
-scoreboard players operation $Offset Distance = @s[tag=TargetPosition.Update] TargetUpward
+scoreboard players operation $Offset Distance = @s[tag=Destination.Update] TargetUpward
+function data_manager:posture/get_value/eye_height
+execute if entity @s[tag=Bullet] run scoreboard players operation $Offset Distance += $Result EyeHeight
 execute unless score $Offset Distance matches 0 run function data_manager:posture/modify/upward
 ### 前へ補正
 scoreboard players set $Offset Distance 0
-scoreboard players operation $Offset Distance = @s[tag=TargetPosition.Update] TargetForward
+scoreboard players operation $Offset Distance = @s[tag=Destination.Update] TargetForward
 execute unless score $Offset Distance matches 0 run function data_manager:posture/modify/forward
 
 ### モーション保持
-execute store result entity 0-0-0-0-20 Pos[0] double 0.01 run data get entity @s Motion[0] 9000
-execute store result entity 0-0-0-0-20 Pos[1] double 0.01 run data get entity @s Motion[1] 9000
-execute store result entity 0-0-0-0-20 Pos[2] double 0.01 run data get entity @s Motion[2] 9000
-execute at 0-0-0-0-20 positioned ~0.5 ~0.5 ~0.5 align xyz run tp 0-0-0-0-20 ~ ~ ~ ~ ~
+execute if entity @s[tag=!Bullet] run function behaviour_manager:behaviour_applier/action/carry_motion
 
 ### 姿勢補正
 execute positioned as 1-0-1-0-0 run function calc_manager:rotation/slerp
@@ -67,5 +64,5 @@ execute store result entity @s Motion[1] double 0.01 run data get entity 0-0-0-0
 execute store result entity @s Motion[2] double 0.01 run data get entity 0-0-0-0-20 Pos[2] 1
 execute positioned 0.0 0.0 0.0 in overworld run tp 0-0-0-0-20 ~ ~ ~ ~ ~
 
-# ### エンティティ返却
+### エンティティ返却
 function data_manager:posture/return

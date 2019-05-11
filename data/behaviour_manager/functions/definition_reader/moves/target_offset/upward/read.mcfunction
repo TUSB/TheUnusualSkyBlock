@@ -3,7 +3,7 @@
 ##############################
 
 ### 垂直上方向補正(cm)
-execute store result score @s TargetUpward run data get entity @s Passengers[{Tags:[Parameter]}].Item.tag.DefineMove.TargetOffset.Upward 100
+execute store result score @s TargetUpward at 1-0-0-0-0 run data get entity @e[distance=0,tag=DataHolder,limit=1] Item.tag.Parameter.MoveSettings.TargetOffset.Upward 100
 
 ### 0なら規定値設定
-execute if score @s TargetUpward matches 0 run function behaviour_manager:definition_reader/moves/target_offset/upward/default
+execute at 1-0-0-0-0 unless data entity @e[distance=0,tag=DataHolder,limit=1] Item.tag.Parameter.MoveSettings.TargetOffset.Upward run function behaviour_manager:definition_reader/moves/target_offset/upward/default

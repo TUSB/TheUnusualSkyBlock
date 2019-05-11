@@ -30,10 +30,10 @@ schedule function assert_manager:behaviour/reader/moves/repeater/delay/mean_rang
 schedule function assert_manager:behaviour/reader/moves/repeater/duration/default 40t
 schedule function assert_manager:behaviour/reader/moves/repeater/duration/set 42t
 
-schedule function assert_manager:behaviour/reader/moves/target_position/default 44t
-schedule function assert_manager:behaviour/reader/moves/target_position/update 46t
-schedule function assert_manager:behaviour/reader/moves/target_position/memorize 48t
-schedule function assert_manager:behaviour/reader/moves/target_position/direction 50t
+schedule function assert_manager:behaviour/reader/moves/destination/default 44t
+schedule function assert_manager:behaviour/reader/moves/destination/update 46t
+schedule function assert_manager:behaviour/reader/moves/destination/memorize 48t
+schedule function assert_manager:behaviour/reader/moves/destination/direction 50t
 
 schedule function assert_manager:behaviour/reader/moves/target_offset/forward/default 52t
 schedule function assert_manager:behaviour/reader/moves/target_offset/forward/set 54t

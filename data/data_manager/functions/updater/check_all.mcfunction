@@ -3,4 +3,5 @@
 ##############################
 
 ### データ管理エンティティならデータ更新
-execute as @e[tag=DataManaged] run function data_manager:updater/update
+execute as @e[type=!minecraft:player,tag=MayTargeted] run function data_manager:updater/update
+execute as @a run function data_manager:updater/update
