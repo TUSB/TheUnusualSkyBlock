@@ -15,14 +15,10 @@ scoreboard players set $_ DetectType 0
 execute if entity @s[tag=Detect.BySight] run scoreboard players set $_ DetectType 2
 execute if entity @s[tag=Detect.ByXRay] run scoreboard players set $_ DetectType 1
 
-### 敵の味方は敵
-execute if entity @s[tag=Enemy,tag=Target.Ally] as @e[tag=Enemy,tag=MayTargeted,sort=nearest] run function behaviour_manager:behaviour_applier/target/searcher/check_target/necessity
-### 敵の敵は味方
-execute if entity @s[tag=Enemy,tag=Target.Enemy] as @e[tag=Friendly,tag=MayTargeted,sort=nearest] run function behaviour_manager:behaviour_applier/target/searcher/check_target/necessity
-### 味方の味方は味方
-execute if entity @s[tag=Friendly,tag=Target.Ally] as @e[tag=Friendly,tag=MayTargeted,sort=nearest] run function behaviour_manager:behaviour_applier/target/searcher/check_target/necessity
-### 味方の敵は敵
-execute if entity @s[tag=Friendly,tag=Target.Enemy] as @e[tag=Enemy,tag=MayTargeted,sort=nearest] run function behaviour_manager:behaviour_applier/target/searcher/check_target/necessity
+### プレイヤー側をターゲット
+execute if entity @s[tag=Enemy,tag=Target.Ally] as @e[tag=Friendly,tag=MayTargeted,sort=nearest] run function behaviour_manager:behaviour_applier/target/searcher/check_target/necessity
+### 敵側をターゲット
+execute if entity @s[tag=Enemy,tag=Target.Enemy] as @e[tag=Enemy,tag=MayTargeted,sort=nearest] run function behaviour_manager:behaviour_applier/target/searcher/check_target/necessity
 
 ### エンティティ返却
 function uuid_entity_manager:00201/return
