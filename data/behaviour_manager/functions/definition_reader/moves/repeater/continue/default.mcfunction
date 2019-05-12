@@ -3,4 +3,4 @@
 ##############################
 
 ### 規定値は非継続
-tag @s add Repeater.Break
+# tag @s remove CarryMove

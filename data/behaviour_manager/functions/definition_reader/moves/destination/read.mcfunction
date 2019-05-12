@@ -2,6 +2,11 @@
 ### ターゲット位置タイプ読み込み
 ##############################
 
+### タグリセット
+tag @s remove Destination.Update
+tag @s remove Destination.Memorize
+tag @s remove Destination.Direction
+
 ### 記憶
 execute at 1-0-0-0-0 if entity @e[distance=0,tag=DataHolder,limit=1,nbt={Item:{tag:{Parameter:{MoveSettings:{Destination:Memorize}}}}}] run tag @s add Destination.Memorize
 ### 向きだけ記憶

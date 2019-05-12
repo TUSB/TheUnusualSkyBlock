@@ -69,7 +69,6 @@ scoreboard objectives add MobLastDamage dummy {"text":"Mob最終ダメージ(chp
 scoreboard objectives add DesiredDistance dummy {"text":"ターゲット希望距離(cm)"}
 scoreboard objectives add DesiredHeight dummy {"text":"ターゲット希望高度差(cm)"}
 scoreboard objectives add FollowRange dummy {"text":"ターゲット補足距離(cm)"}
-scoreboard objectives add TimeToSearch dummy {"text":"探索開始時間(cs)"}
 scoreboard objectives add DetectType dummy {"text":"ターゲット検知タイプ(検知判定時に一時使用)"}
 scoreboard objectives add MovementSpeed dummy {"text":"通常時移動速度(ccm/t)"}
 ### MoveSettingsList
@@ -89,6 +88,7 @@ scoreboard objectives add RepeaterToStart dummy {"text":"動き開始実時間(c
 scoreboard objectives add RepeaterDuration dummy {"text":"動き終了時間(cs)"}
 scoreboard objectives add RepeaterToNext dummy {"text":"動き終了実時間(cs)"}
 scoreboard objectives add RepeaterCount dummy {"text":"動き変化繰り返し回数"}
+scoreboard objectives add RepeatedCount dummy {"text":"動き変化繰り返し済み回数"}
 #
 scoreboard objectives add ForwardSpeed dummy {"text":"前への速さ(ccm/t)"}
 scoreboard objectives add ForwardGravity dummy {"text":"前への加速度(ccm/t)"}

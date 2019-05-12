@@ -4,8 +4,11 @@
 
 ### タグセット
 tag @s add HasTarget
-### 移動速度削除
-data modify entity @s Attributes[{"Name":"generic.movementSpeed"}].Base set value 0
+
+### カーソル移動
+function data_manager:move_cursor/data_id
+### 動き定義を初期化
+function data_manager:parameter/move_settings/load
 
 ### カーソル移動
 function data_manager:move_cursor/target_id
