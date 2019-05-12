@@ -5,6 +5,9 @@
 ### 姿勢読み込み
 function data_manager:posture/load
 
+### 向きデータがない時は向きを補正
+execute unless score @s RotateAngle matches -2147483648.. run function data_manager:posture/get_value/angle_with_offset
+
 ### 上へ補正
 scoreboard players set $Offset Distance 0
 scoreboard players operation $Offset Distance = @s[tag=Destination.Update] TargetUpward

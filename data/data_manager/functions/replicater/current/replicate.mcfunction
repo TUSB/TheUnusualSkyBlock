@@ -7,6 +7,7 @@ execute at 1-0-0-0-0 run summon minecraft:item ~ ~ ~ {Age:-32768s,PickupDelay:32
 
 ### データコピー
 execute at 1-0-0-0-0 run data modify entity @e[distance=0,tag=DataHolder,tag=Copy,limit=1] Item.tag.EntityData set from entity @e[distance=0,tag=DataHolder,tag=!Copy,limit=1] Item.tag.EntityData
+execute at 1-0-0-0-0 run scoreboard players operation @e[distance=0,tag=DataHolder,tag=Copy,limit=1] EyeHeight = @e[distance=0,tag=DataHolder,tag=!Copy,limit=1] EyeHeight
 
 ### リンク用エンティティ重なり防止
 execute at 1-0-0-0-0 store result entity @e[distance=0,tag=DataHolder,tag=Copy,limit=1] Item.tag.DataID int 1 run scoreboard players add $_ ManagedDataID 1

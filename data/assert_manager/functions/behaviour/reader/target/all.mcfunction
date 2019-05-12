@@ -27,3 +27,8 @@ schedule function assert_manager:behaviour/reader/target/detect/sight 36t
 
 schedule function assert_manager:behaviour/reader/target/desired_height/default 38t
 schedule function assert_manager:behaviour/reader/target/desired_height/set 40t
+
+schedule function assert_manager:behaviour/reader/target/destination/default 42t
+schedule function assert_manager:behaviour/reader/target/destination/direction 44t
+schedule function assert_manager:behaviour/reader/target/destination/memorize 46t
+schedule function assert_manager:behaviour/reader/target/destination/update 48t

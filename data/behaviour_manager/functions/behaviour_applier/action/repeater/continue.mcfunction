@@ -12,7 +12,10 @@ function data_manager:parameter/move_settings/check
 execute unless score $MoveSettings SuccessCount matches 1.. run scoreboard players set @s RepeaterToStart 2147483647
 execute unless score $MoveSettings SuccessCount matches 1.. run scoreboard players set @s RepeaterToNext 2147483647
 
-### 設定が存在したら読み込み
-## 繰り返した回数を加算
+### 繰り返した回数を加算
 scoreboard players add @s RepeatedCount 1
+### 角度をリセット
+scoreboard players reset @s RotateAngle
+scoreboard players reset @s TiltAngle
+### 設定が存在したら読み込み
 execute if score $MoveSettings SuccessCount matches 1.. run function behaviour_manager:definition_reader/moves/check

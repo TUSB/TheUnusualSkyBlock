@@ -19,3 +19,6 @@ function behaviour_manager:definition_reader/target/desired_height/default
 
 ### 追跡距離規定値
 function behaviour_manager:definition_reader/target/follow_range/default
+
+### ターゲット位置基準
+function behaviour_manager:definition_reader/target/destination/default

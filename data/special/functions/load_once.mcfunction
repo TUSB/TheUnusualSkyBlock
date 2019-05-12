@@ -102,5 +102,6 @@ scoreboard objectives add UpwardSpeed dummy {"text":"上への速さ(ccm/t)"}
 scoreboard objectives add UpwardGravity dummy {"text":"上への加速度(ccm/t)"}
 scoreboard objectives add UpwardSpeedMin dummy {"text":"上への速さ(ccm/t)"}
 scoreboard objectives add UpwardSpeedMax dummy {"text":"上への加速度(ccm/t)"}
-
+# 
+scoreboard objectives add StepRotate dummy {"text":"ステップ時相対水平角度"}
 
