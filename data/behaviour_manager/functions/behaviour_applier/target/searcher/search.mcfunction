@@ -12,8 +12,8 @@ execute in overworld run tp 0-0-2-0-1 ~ ~ ~ ~ ~
 
 ### 検知タイプ一時保存
 scoreboard players set $_ DetectType 0
-execute if entity @s[tag=Detect.BySight] run scoreboard players set $_ DetectType 2
 execute if entity @s[tag=Detect.ByXRay] run scoreboard players set $_ DetectType 1
+execute if entity @s[tag=Detect.BySight] run scoreboard players set $_ DetectType 2
 
 ### プレイヤー側をターゲット
 execute if entity @s[tag=Enemy,tag=Target.Ally] as @e[tag=Friendly,tag=MayTargeted,sort=nearest] run function behaviour_manager:behaviour_applier/target/searcher/check_target/necessity

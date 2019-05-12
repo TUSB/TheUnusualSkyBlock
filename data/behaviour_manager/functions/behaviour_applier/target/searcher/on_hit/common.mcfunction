@@ -9,6 +9,7 @@ tag @s add HasTarget
 function data_manager:move_cursor/data_id
 ### 動き定義を初期化
 function data_manager:parameter/move_settings/load
+scoreboard players reset @s RepeaterToNext
 
 ### カーソル移動
 function data_manager:move_cursor/target_id
