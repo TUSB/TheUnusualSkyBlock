@@ -3,4 +3,4 @@
 ##############################
 
 ### 規定値は常に
-tag @s add ActiveTrigger.Always
+tag @s add Active.Always
