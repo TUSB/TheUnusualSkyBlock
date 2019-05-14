@@ -6,8 +6,8 @@
 function data_manager:initializer/player/initialize
 
 ### チーム設定
-team join Friendly @s
+team join Ally @s
 
-### タグ設定
+### タグ付与
 tag @s add Player
-tag @s add Friendly
+tag @s add Ally

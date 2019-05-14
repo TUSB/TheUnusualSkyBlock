@@ -16,7 +16,7 @@ execute if entity @s[tag=Detect.ByXRay] run scoreboard players set $_ DetectType
 execute if entity @s[tag=Detect.BySight] run scoreboard players set $_ DetectType 2
 
 ### プレイヤー側をターゲット
-execute if entity @s[tag=Enemy,tag=Target.Ally] as @e[tag=Friendly,tag=MayTargeted,sort=nearest] run function behaviour_manager:behaviour_applier/target/searcher/check_target/necessity
+execute if entity @s[tag=Enemy,tag=Target.Ally] as @e[tag=Ally,tag=MayTargeted,sort=nearest] run function behaviour_manager:behaviour_applier/target/searcher/check_target/necessity
 ### 敵側をターゲット
 execute if entity @s[tag=Enemy,tag=Target.Enemy] as @e[tag=Enemy,tag=MayTargeted,sort=nearest] run function behaviour_manager:behaviour_applier/target/searcher/check_target/necessity
 

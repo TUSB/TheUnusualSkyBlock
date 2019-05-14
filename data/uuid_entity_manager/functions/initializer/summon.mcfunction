@@ -32,6 +32,9 @@ execute unless entity 1-0-1-0-0 run summon minecraft:area_effect_cloud ~ ~ ~ {Ta
 ### スポナーエリア管理エンティティ
 execute unless entity 2-0-0-0-0 run summon minecraft:armor_stand ~ ~ ~ {Tags:[System],UUIDMost:8589934592l,UUIDLeast:0l,CustomName:"[\"スポナーエリア管理カーソル\"]"}
 
+#################### プレイヤー管理用エンティティ作成 ####################
+### プレイヤー管理エンティティ
+execute unless entity 3-0-0-0-0 run summon minecraft:armor_stand ~ ~ ~ {Tags:[System],UUIDMost:12884901888l,UUIDLeast:0l,CustomName:"[\"プレイヤー管理カーソル\"]"}
 
 #################### 後処理 ####################
 ### 共通データを設定

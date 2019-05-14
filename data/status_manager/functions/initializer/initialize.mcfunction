@@ -2,6 +2,8 @@
 ### HP管理データセット
 ##############################
 
+# [Unused]
+
 ### HP最大値をセット
 execute store result score @s MobMaxHealth run data get entity @s AbsorptionAmount
 ### 緩衝体力がなければHPから取得

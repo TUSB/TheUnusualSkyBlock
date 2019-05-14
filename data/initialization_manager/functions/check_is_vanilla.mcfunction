@@ -11,17 +11,17 @@ execute if entity @s[tag=] run function initialization_manager:vanilla/main
 ### 非自然湧きを処理する
 execute if entity @s[tag=!] run function initialization_manager:custom/main
 
-# Ally + Boss        -> Ally + Friendly + HealthManaged + DataManaged + Boss
-# Ally               -> Ally + Friendly + HealthManaged + DataManaged
-# Ally + Colony      -> Ally + Friendly + HealthManaged + Colony
-# Ally + Pet         -> Ally + Friendly + HealthManaged + Pet
+# Ally + Boss        -> Ally + MayTargeted + Boss
+# Ally               -> Ally + MayTargeted
+# Ally + Colony      -> Ally + Colony
+# Ally + Pet         -> Ally + Pet
 # Ally + Bullet      -> Ally + Bullet
 
-# Enemy + Boss      -> Enemy + HealthManaged + DataManaged + Boss
-# Enemy             -> Enemy + HealthManaged + DataManaged
-# Enemy + Colony    -> Enemy + HealthManaged + Colony
-# Enemy + Pet       -> Enemy + HealthManaged + Pet
+# Enemy + Boss      -> Enemy + MayTargeted + Boss
+# Enemy             -> Enemy + MayTargeted
+# Enemy + Colony    -> Enemy + Colony
+# Enemy + Pet       -> Enemy + Pet
 # Enemy + Bullet    -> Enemy + Bullet
 
-# player            -> Player + Friendly + DataManaged
-# Player + Pet      -> Player + Friendly + HealthManaged + Pet
+# player            -> Player + Ally + MayTargeted
+# Player + Pet      -> Player + Ally + Pet

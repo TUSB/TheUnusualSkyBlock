@@ -5,6 +5,9 @@
 ### データ管理エンティティ生成
 function data_manager:initializer/create_entity
 
+### プレイヤー管理エンティティ生成
+function player_manager:initializer/initialize
+
 ### ボディセンターセット
 function data_manager:initializer/set_eye_height
 

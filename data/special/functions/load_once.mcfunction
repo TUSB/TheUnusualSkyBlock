@@ -6,18 +6,18 @@
 function uuid_entity_manager:initializer/initialize
 
 #################### チーム作成 ####################
-team add Friendly {"text":"プレイヤー・ペット・アライアンス連合チーム"}
+team add Ally {"text":"プレイヤー・ペット・アライアンス連合チーム"}
 team add Enemy {"text":"モンスター連合チーム"}
-team modify Friendly collisionRule never
+team modify Ally collisionRule never
 team modify Enemy collisionRule never
-team modify Friendly friendlyFire false
+team modify Ally friendlyFire false
 team modify Enemy friendlyFire false
-team modify Friendly prefix {"text":"[Ally] ","color":"aqua","bold":true}
+team modify Ally prefix {"text":"[Ally] ","color":"aqua","bold":true}
 team modify Enemy prefix {"text":"[Enemy] ","color":"light_purple","bold":true}
-team modify Friendly suffix {"text":" [L]","color":"red","bold":true}
-team modify Friendly suffix {"text":" [E]","color":"red","bold":true}
-team modify Friendly suffix {"text":" [C]","color":"gold","bold":true}
-team modify Friendly suffix {"text":" [P]","color":"green","bold":true}
+team modify Ally suffix {"text":" [L]","color":"red","bold":true}
+team modify Ally suffix {"text":" [E]","color":"red","bold":true}
+team modify Ally suffix {"text":" [C]","color":"gold","bold":true}
+team modify Ally suffix {"text":" [P]","color":"green","bold":true}
 #################### チーム作成 ####################
 
 
@@ -44,7 +44,8 @@ function calc_manager:random/initialize
 scoreboard objectives add ManagedDataID dummy {"text":"データ管理ID"}
 scoreboard objectives add TargetID dummy {"text":"ターゲットID"}
 scoreboard objectives add TargetLinkID dummy {"text":"ターゲット紐付けID"}
-scoreboard objectives add EyeHeight dummy {"text":"体の中心の高さ(cm)"}
+scoreboard objectives add EyeHeight dummy {"text":"目線の高さ(cm)"}
+scoreboard objectives add PlayerID dummy {"text":"プレイヤー管理ID"}
 
 #################### プレイヤー共通スコアボード ####################
 scoreboard objectives add SuppressParticle dummy {"text":"パーティクル抑制レベル"}
@@ -60,9 +61,10 @@ scoreboard objectives add Z dummy {"text":"Z座標(cm)"}
 
 #################### 敵ステータス関連スコアボード ####################
 ### 敵HP関連
-scoreboard objectives add MobMaxHealth dummy {"text":"Mob最大HP(chp)"}
-scoreboard objectives add MobHealth dummy {"text":"Mob現在HP(chp)"}
-scoreboard objectives add MobLastDamage dummy {"text":"Mob最終ダメージ(chp)"}
+scoreboard objectives add MaxHP dummy {"text":"最大HP(hp)"}
+scoreboard objectives add HP dummy {"text":"現在HP(hp)"}
+scoreboard objectives add Damage dummy {"text":"ダメージ(hp)"}
+scoreboard objectives add NaturalDamage dummy {"text":"自然ダメージ(hp)"}
 
 #################### 振舞い定義用スコアボード ####################
 ### TargetSettings
