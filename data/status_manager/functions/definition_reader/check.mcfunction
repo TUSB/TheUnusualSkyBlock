@@ -15,4 +15,4 @@ scoreboard players operation @s MaxHP = @s HP
 ### HPがそもそもないならタグを付与
 execute unless entity @s[team=] unless entity @s[team=!] run tag @s add NoNaturalDamage
 ### AbsorptionAmountを1000000に設定
-execute if entity @s[tag=NoNaturalDamage] run data merge entity @s {AbsorptionAmount:1000000f}
+execute if entity @s[tag=!NoNaturalDamage] run data merge entity @s {AbsorptionAmount:1000000f}

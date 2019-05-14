@@ -13,7 +13,8 @@ function data_manager:initializer/set_eye_height
 
 ### データ管理エンティティタグ設定
 execute at 1-0-0-0-0 run tag @e[distance=0,tag=DataHolder,limit=1] add EnemyData
+execute if entity @s[tag=Boss] at 1-0-0-0-0 run tag @e[distance=0,tag=DataHolder,limit=1] add BossData
 
 ### データ管理タグ付与
 tag @s add DataManaged
-tag @s[tag=!Colony,tag=!Pet,tag=Bullet] add MayTargeted
+tag @s[tag=!Light,tag=!Bullet] add MayTargeted

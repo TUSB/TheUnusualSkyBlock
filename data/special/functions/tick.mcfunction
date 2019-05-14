@@ -17,6 +17,9 @@ function initialization_manager:check_all
 ### 管理データ更新
 function data_manager:updater/check_all
 
+### 管理データ所有者なし削除
+kill @e[tag=DataHolder,tag=!PlayerData,tag=!BossData,scores={GlobalCSTimer=0..}]
+
 ### 行動フロー
 function behaviour_manager:behaviour_applier/action/check_all
 
