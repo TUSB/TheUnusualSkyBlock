@@ -44,7 +44,6 @@ function calc_manager:random/initialize
 scoreboard objectives add ManagedDataID dummy {"text":"データ管理ID"}
 scoreboard objectives add TargetID dummy {"text":"ターゲットID"}
 scoreboard objectives add TargetLinkID dummy {"text":"ターゲット紐付けID"}
-scoreboard objectives add EyeHeight dummy {"text":"目線の高さ(cm)"}
 scoreboard objectives add PlayerID dummy {"text":"プレイヤー管理ID"}
 
 #################### プレイヤー共通スコアボード ####################
@@ -58,6 +57,9 @@ scoreboard objectives add Dimension dummy {"text":"ディメンション"}
 scoreboard objectives add X dummy {"text":"X座標(cm)"}
 scoreboard objectives add Y dummy {"text":"Y座標(cm)"}
 scoreboard objectives add Z dummy {"text":"Z座標(cm)"}
+scoreboard objectives add MotionX dummy {"text":"X速度(cm/t)"}
+scoreboard objectives add MotionY dummy {"text":"Y速度(cm/t)"}
+scoreboard objectives add MotionZ dummy {"text":"Z速度(cm/t)"}
 
 #################### 敵ステータス関連スコアボード ####################
 ### 敵HP関連

@@ -23,8 +23,10 @@ execute unless entity 0-0-2-0-1 run summon minecraft:area_effect_cloud ~ ~ ~ {Ta
 execute unless entity 0-0-2-0-2 run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[System],UUIDMost:2l,UUIDLeast:2l,CustomName:"[\"位置保存用２\"]"}
 
 #################### データ管理用エンティティ作成 ####################
-### データ管理カーソルエンティティ
-execute unless entity 1-0-0-0-0 run summon minecraft:armor_stand ~ ~ ~ {Tags:[System],UUIDMost:4294967296l,UUIDLeast:0l,CustomName:"[\"データ管理カーソル\"]"}
+### データ管理カーソルエンティティ(自身)
+execute unless entity 1-0-0-0-0 run summon minecraft:armor_stand ~ ~ ~ {Tags:[System],UUIDMost:4294967296l,UUIDLeast:0l,CustomName:"[\"データ管理カーソル(自身)\"]"}
+### データ管理カーソルエンティティ(ターゲット)
+execute unless entity 1-0-0-0-1 run summon minecraft:armor_stand ~ ~ ~ {Tags:[System],UUIDMost:4294967296l,UUIDLeast:1l,CustomName:"[\"データ管理カーソル(ターゲット)\"]"}
 ### データ姿勢操作エンティティ
 execute unless entity 1-0-1-0-0 run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[System],UUIDMost:4294967297l,UUIDLeast:0l,CustomName:"[\"データ姿勢操作エンティティ\"]"}
 

@@ -24,8 +24,10 @@ function uuid_entity_manager:00201/return
 function uuid_entity_manager:00202/return
 
 #################### データ管理用エンティティ作成 ####################
-### データ管理カーソルエンティティ
+### データ管理カーソルエンティティ(自身)
 tp 1-0-0-0-0 -3.0 3.0 3.0
+### データ管理カーソルエンティティ(ターゲット)
+tp 1-0-0-0-1 -3.0 3.0 3.0
 ### データ姿勢操作エンティティ
 function uuid_entity_manager:10100/return
 

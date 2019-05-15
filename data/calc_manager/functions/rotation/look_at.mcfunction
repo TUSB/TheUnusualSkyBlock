@@ -7,6 +7,4 @@
 ###          based on the direction from [Source] toward [Destination]
 
 ### 向かせる
-execute facing entity @s feet facing ^ ^ ^-1 positioned 0.0 0.0 0.0 in overworld run tp 0-0-0-0-10 ~ ~ ~ ~ ~
-### 向きセット
-function calc_manager:rotation/__set_rotation
+execute facing entity @s feet facing ^ ^ ^-1 positioned 0.0 0.0 0.0 in overworld positioned as 1-0-0-0-0 run tp @e[distance=0,tag=DataHolder,limit=1] ~ ~ ~ ~ ~

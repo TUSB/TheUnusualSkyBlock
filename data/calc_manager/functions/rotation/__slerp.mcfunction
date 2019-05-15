@@ -2,12 +2,8 @@
 ### ターゲットへ速度制限付きで向かせる
 ##############################
 
-### アマスタをスコアで保存された向きにする
-execute store result entity 0-0-0-0-10 Rotation[0] float 0.01 run scoreboard players get @s RotateAngle
-execute store result entity 0-0-0-0-10 Rotation[1] float 0.01 run scoreboard players get @s TiltAngle
-
 ## 自身の角度(アマスタ)での位置ベクトルを用意
-execute at 0-0-0-0-10 positioned 0.0 0.0 0.0 positioned ^ ^ ^40.96 run tp 0-0-0-0-10 ~ ~ ~ ~ ~
+execute at 1-0-0-0-0 rotated as @e[distance=0,tag=DataHolder,limit=1] positioned 0.0 0.0 0.0 positioned ^ ^ ^40.96 run tp 0-0-0-0-10 ~ ~ ~ ~ ~
 
 ### 目的の向きの角度の単位ベクトルから鉛直方向の単位ベクトルへの法線を持つ鏡を用意し鏡像変換
 execute facing entity @s feet facing ^ ^ ^-1 positioned 0.0 0.0 0.0 positioned ^ ^ ^1 positioned ~ ~-1 ~ facing 0.0 0.0 0.0 as 0-0-0-0-10 run function calc_manager:mirror/change
@@ -28,4 +24,4 @@ execute facing entity @s feet facing ^ ^ ^-1 positioned 0.0 0.0 0.0 positioned ^
 execute at 0-0-0-0-10 facing 0.0 0.0 0.0 facing ^ ^ ^-1 positioned 0.0 0.0 0.0 run tp 0-0-0-0-10 ~ ~ ~ ~ ~
 
 ### 向きセット
-function calc_manager:rotation/__set_rotation
+execute at 1-0-0-0-0 rotated as 0-0-0-0-10 run tp @e[distance=0,tag=DataHolder,limit=1] ~ ~ ~ ~ ~

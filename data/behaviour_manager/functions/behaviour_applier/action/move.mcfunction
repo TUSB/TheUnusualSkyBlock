@@ -8,16 +8,16 @@ function data_manager:posture/load
 ### 向きデータがない時は向きを補正
 execute unless score @s RotateAngle matches -2147483648.. run function data_manager:posture/get_value/angle_with_offset
 
-### 上へ補正
-scoreboard players set $Offset Distance 0
-scoreboard players operation $Offset Distance = @s[tag=Destination.Update] TargetUpward
-function data_manager:posture/get_value/eye_height
-execute if entity @s[tag=Bullet] run scoreboard players operation $Offset Distance += $Result EyeHeight
-execute unless score $Offset Distance matches 0 run function data_manager:posture/modify/upward
-### 前へ補正
-scoreboard players set $Offset Distance 0
-scoreboard players operation $Offset Distance = @s[tag=Destination.Update] TargetForward
-execute unless score $Offset Distance matches 0 run function data_manager:posture/modify/forward
+# ### 上へ補正
+# scoreboard players set $Offset Distance 0
+# scoreboard players operation $Offset Distance = @s[tag=Destination.Update] TargetUpward
+# function data_manager:posture/get_value/eye_height
+# execute if entity @s[tag=Bullet] run scoreboard players operation $Offset Distance += $Result EyeHeight
+# execute unless score $Offset Distance matches 0 run function data_manager:posture/modify/upward
+# ### 前へ補正
+# scoreboard players set $Offset Distance 0
+# scoreboard players operation $Offset Distance = @s[tag=Destination.Update] TargetForward
+# execute unless score $Offset Distance matches 0 run function data_manager:posture/modify/forward
 
 ### モーション保持
 execute if entity @s[tag=!Bullet] run function behaviour_manager:behaviour_applier/action/carry_motion
@@ -67,5 +67,5 @@ execute store result entity @s Motion[1] double 0.01 run data get entity 0-0-0-0
 execute store result entity @s Motion[2] double 0.01 run data get entity 0-0-0-0-20 Pos[2] 1
 execute positioned 0.0 0.0 0.0 in overworld run tp 0-0-0-0-20 ~ ~ ~ ~ ~
 
-### エンティティ返却
-function data_manager:posture/return
+# ### エンティティ返却
+# function data_manager:posture/return

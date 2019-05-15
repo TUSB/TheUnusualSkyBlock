@@ -8,9 +8,6 @@ function data_manager:initializer/create_entity
 ### プレイヤー管理エンティティ生成
 function player_manager:initializer/initialize
 
-### ボディセンターセット
-function data_manager:initializer/set_eye_height
-
 ### データ管理エンティティタグ設定
 execute at 1-0-0-0-0 run tag @e[distance=0,tag=DataHolder,limit=1] add PlayerData
 

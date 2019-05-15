@@ -2,7 +2,7 @@
 ### 体力読み込み
 ##############################
 
-###　カーソル移動
+### カーソル移動
 function status_manager:move_cursor/data_id
 
 ### 体力読み込み
