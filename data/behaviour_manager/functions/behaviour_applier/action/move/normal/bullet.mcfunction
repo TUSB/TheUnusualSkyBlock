@@ -9,8 +9,8 @@ function data_manager:posture/load
 execute positioned as 1-0-1-0-0 run function calc_manager:rotation/slerp
 
 # ### 向きを補正しておく
-execute if entity @s[tag=IgnoreTilt] at 0-0-0-0-10 run tp 0-0-0-0-10 ~ ~ ~ ~ 0
-execute if entity @s[tag=IgnoreRotate] at 0-0-0-0-10 run tp 0-0-0-0-10 ~ ~ ~ 0 ~
+execute if entity @s[tag=Ignore.Tilt] at 0-0-0-0-10 run tp 0-0-0-0-10 ~ ~ ~ ~ 0
+execute if entity @s[tag=Ignore.Rotate] at 0-0-0-0-10 run tp 0-0-0-0-10 ~ ~ ~ 0 ~
 execute at 0-0-0-0-10 positioned ^ ^ ^-1 positioned ~ ~ ~-1 facing entity 0-0-0-0-10 feet positioned as 0-0-0-0-10 run tp 0-0-0-0-10 ~ ~ ~ ~ ~
 
 ### 速度代入
@@ -32,6 +32,6 @@ execute store result entity 0-0-0-0-20 Pos[1] double 0.01 run scoreboard players
 execute store result entity 0-0-0-0-20 Pos[0] double 0.01 run scoreboard players get $_ LeftwardSpeed
 ### モーション適用
 execute at 0-0-0-0-20 positioned ~ ~ ~1000 facing 0.0 0.0 0.0 positioned ^ ^ ^2000 positioned ~ ~ ~1000 rotated as 0-0-0-0-10 positioned ^ ^ ^1000 facing 0.0 0.0 0.0 positioned ^ ^ ^2000 rotated as 0-0-0-0-10 positioned ^ ^ ^1000 positioned ~0.5 ~0.5 ~0.5 align xyz facing 0.0 0.0 0.0 run tp 0-0-0-0-20 ~ ~ ~ ~ ~
-execute store result entity @s Motion[0] double 0.00001 run data get entity 0-0-0-0-20 Pos[0] 100
-execute store result entity @s Motion[1] double 0.00001 run data get entity 0-0-0-0-20 Pos[1] 100
-execute store result entity @s Motion[2] double 0.00001 run data get entity 0-0-0-0-20 Pos[2] 100
+execute store result entity @s Motion[0] double 0.0001 run data get entity 0-0-0-0-20 Pos[0] 100
+execute store result entity @s Motion[1] double 0.0001 run data get entity 0-0-0-0-20 Pos[1] 100
+execute store result entity @s Motion[2] double 0.0001 run data get entity 0-0-0-0-20 Pos[2] 100

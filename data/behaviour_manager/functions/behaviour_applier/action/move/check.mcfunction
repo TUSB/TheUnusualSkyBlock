@@ -3,6 +3,6 @@
 ##############################
 
 ### 通常
-execute if entity @s[tag=!Light] run function behaviour_manager:behaviour_applier/action/move/normal/check
+execute if entity @s[tag=!LightMove] run function behaviour_manager:behaviour_applier/action/move/normal/check
 ### 軽量
-execute if entity @s[tag=Light] run function behaviour_manager:behaviour_applier/action/move/light/check
+execute if entity @s[tag=LightMove] run function behaviour_manager:behaviour_applier/action/move/light/check

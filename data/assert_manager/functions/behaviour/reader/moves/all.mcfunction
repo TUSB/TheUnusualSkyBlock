@@ -45,30 +45,38 @@ schedule function assert_manager:behaviour/reader/moves/forward/speed/default 56
 schedule function assert_manager:behaviour/reader/moves/forward/speed/set 58t
 schedule function assert_manager:behaviour/reader/moves/forward/acceleration/default 60t
 schedule function assert_manager:behaviour/reader/moves/forward/acceleration/set 62t
-schedule function assert_manager:behaviour/reader/moves/forward/speed_min/default 64t
-schedule function assert_manager:behaviour/reader/moves/forward/speed_min/set 66t
-schedule function assert_manager:behaviour/reader/moves/forward/speed_max/default 68t
-schedule function assert_manager:behaviour/reader/moves/forward/speed_max/set 70t
+# schedule function assert_manager:behaviour/reader/moves/forward/speed_min/default 64t
+# schedule function assert_manager:behaviour/reader/moves/forward/speed_min/set 66t
+# schedule function assert_manager:behaviour/reader/moves/forward/speed_max/default 68t
+# schedule function assert_manager:behaviour/reader/moves/forward/speed_max/set 70t
 
 schedule function assert_manager:behaviour/reader/moves/upward/speed/default 72t
 schedule function assert_manager:behaviour/reader/moves/upward/speed/set 74t
 schedule function assert_manager:behaviour/reader/moves/upward/acceleration/default 76t
 schedule function assert_manager:behaviour/reader/moves/upward/acceleration/set 78t
-schedule function assert_manager:behaviour/reader/moves/upward/speed_min/default 80t
-schedule function assert_manager:behaviour/reader/moves/upward/speed_min/set 82t
-schedule function assert_manager:behaviour/reader/moves/upward/speed_max/default 84t
-schedule function assert_manager:behaviour/reader/moves/upward/speed_max/set 86t
+# schedule function assert_manager:behaviour/reader/moves/upward/speed_min/default 80t
+# schedule function assert_manager:behaviour/reader/moves/upward/speed_min/set 82t
+# schedule function assert_manager:behaviour/reader/moves/upward/speed_max/default 84t
+# schedule function assert_manager:behaviour/reader/moves/upward/speed_max/set 86t
 
 schedule function assert_manager:behaviour/reader/moves/leftward/speed/default 88t
 schedule function assert_manager:behaviour/reader/moves/leftward/speed/set 90t
 schedule function assert_manager:behaviour/reader/moves/leftward/acceleration/default 92t
 schedule function assert_manager:behaviour/reader/moves/leftward/acceleration/set 94t
-schedule function assert_manager:behaviour/reader/moves/leftward/speed_min/default 96t
-schedule function assert_manager:behaviour/reader/moves/leftward/speed_min/set 98t
-schedule function assert_manager:behaviour/reader/moves/leftward/speed_max/default 100t
-schedule function assert_manager:behaviour/reader/moves/leftward/speed_max/set 102t
+# schedule function assert_manager:behaviour/reader/moves/leftward/speed_min/default 96t
+# schedule function assert_manager:behaviour/reader/moves/leftward/speed_min/set 98t
+# schedule function assert_manager:behaviour/reader/moves/leftward/speed_max/default 100t
+# schedule function assert_manager:behaviour/reader/moves/leftward/speed_max/set 102t
 
 schedule function assert_manager:behaviour/reader/moves/on_close/forward/default 104t
 schedule function assert_manager:behaviour/reader/moves/on_close/forward/read 106t
 schedule function assert_manager:behaviour/reader/moves/on_close/upward/default 108t
 schedule function assert_manager:behaviour/reader/moves/on_close/upward/read 110t
+
+schedule function assert_manager:behaviour/reader/moves/light/default 112t
+schedule function assert_manager:behaviour/reader/moves/light/set 114t
+
+schedule function assert_manager:behaviour/reader/moves/ignore/default 116t
+schedule function assert_manager:behaviour/reader/moves/ignore/rotate 118t
+schedule function assert_manager:behaviour/reader/moves/ignore/tilt 120t
+schedule function assert_manager:behaviour/reader/moves/ignore/rotate_tilt 122t

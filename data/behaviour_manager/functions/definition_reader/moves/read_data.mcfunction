@@ -27,3 +27,10 @@ function behaviour_manager:definition_reader/moves/leftward/acceleration/read
 ### 近い時乗数
 function behaviour_manager:definition_reader/moves/on_close/forward/read
 function behaviour_manager:definition_reader/moves/on_close/upward/read
+
+### 軽量化設定
+function behaviour_manager:definition_reader/moves/light/read
+
+### 無視設定
+function behaviour_manager:definition_reader/moves/ignore_rotate/read
+function behaviour_manager:definition_reader/moves/ignore_tilt/read

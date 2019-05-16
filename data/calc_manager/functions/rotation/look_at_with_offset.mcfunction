@@ -9,12 +9,7 @@
 ###          based on the direction from [Source] toward [Destination], modified with the offsets.
 
 ### 向かせる
-function calc_manager:rotation/look_at
+execute facing entity @s feet facing ^ ^ ^-1 in overworld positioned as 1-0-0-0-0 run tp @e[distance=0,tag=DataHolder,limit=1] ~ ~ ~ ~ ~
 
-### 向き読み込み
-execute at 1-0-0-0-0 store result score $_ RotateAngle run data get entity @e[distance=0,tag=DataHolder,limit=1] Rotation[0] 100
-execute at 1-0-0-0-0 store result score $_ TiltAngle run data get entity @e[distance=0,tag=DataHolder,limit=1] Rotation[1] 100
-
-### 向きセット
-execute at 1-0-0-0-0 store result entity @e[distance=0,tag=DataHolder,limit=1] Rotation[0] float 0.01 run scoreboard players operation $_ RotateAngle += @s RotateOffset
-execute at 1-0-0-0-0 store result entity @e[distance=0,tag=DataHolder,limit=1] Rotation[1] float 0.01 run scoreboard players operation $_ TiltAngle += @s TiltOffset
+### 座標を移動して残りを実行
+execute at 1-0-0-0-0 run function calc_manager:rotation/__look_at_with_offset

@@ -11,12 +11,6 @@ function decoration_manager:show_tag/update_all
 ### プレイヤー対象か判定
 function player_manager:active_state/update_all
 
-### 行動フロー
-function behaviour_manager:behaviour_applier/action/check_all
-
-### エンティティ初期化
-function initialization_manager:check_all
-
 ### 管理データ更新
 function data_manager:updater/check_all
 
@@ -25,6 +19,12 @@ kill @e[tag=DataHolder,tag=!PlayerData,tag=!BossData,scores={GlobalCSTimer=0..}]
 
 ### ターゲット発見チェック
 function behaviour_manager:behaviour_applier/target/searcher/check_all
+
+### 行動フロー
+function behaviour_manager:behaviour_applier/action/check_all
+
+### エンティティ初期化
+function initialization_manager:check_all
 
 ### エンティティ返却
 function data_manager:posture/return

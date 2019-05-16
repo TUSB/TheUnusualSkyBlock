@@ -14,8 +14,8 @@ execute store result score $_ MotionY run data get entity @s Motion[1] 10000
 execute store result score $_ MotionZ run data get entity @s Motion[2] 10000
 
 # ### 向きを補正しておく
-execute if entity @s[tag=IgnoreTilt] at 0-0-0-0-10 run tp 0-0-0-0-10 ~ ~ ~ ~ 0
-execute if entity @s[tag=IgnoreRotate] at 0-0-0-0-10 run tp 0-0-0-0-10 ~ ~ ~ 0 ~
+execute if entity @s[tag=Ignore.Tilt] at 0-0-0-0-10 run tp 0-0-0-0-10 ~ ~ ~ ~ 0
+execute if entity @s[tag=Ignore.Rotate] at 0-0-0-0-10 run tp 0-0-0-0-10 ~ ~ ~ 0 ~
 execute at 0-0-0-0-10 positioned ^ ^ ^-1 positioned ~ ~ ~-1 facing entity 0-0-0-0-10 feet positioned as 0-0-0-0-10 run tp 0-0-0-0-10 ~ ~ ~ ~ ~
 
 ### 速度代入
