@@ -76,8 +76,6 @@ scoreboard objectives add FollowRange dummy {"text":"ターゲット補足距離
 scoreboard objectives add DetectType dummy {"text":"ターゲット検知タイプ(検知判定時に一時使用)"}
 scoreboard objectives add MovementSpeed dummy {"text":"通常時移動速度(ccm/t)"}
 ### MoveSettingsList
-scoreboard objectives add TargetForward dummy {"text":"ターゲット位置補正水平上(cm)"}
-#
 scoreboard objectives add RotateAngle dummy {"text":"現在水平角度(cdeg)"}
 scoreboard objectives add TiltAngle dummy {"text":"現在垂直角度(cdeg)"}
 #
@@ -96,16 +94,12 @@ scoreboard objectives add RepeatedCount dummy {"text":"動き変化繰り返し�
 #
 scoreboard objectives add ForwardSpeed dummy {"text":"前への速さ(ccm/t)"}
 scoreboard objectives add ForwardGravity dummy {"text":"前への加速度(ccm/t)"}
-scoreboard objectives add ForwardSpeedMin dummy {"text":"前への速さ(ccm/t)"}
-scoreboard objectives add ForwardSpeedMax dummy {"text":"前への加速度(ccm/t)"}
 scoreboard objectives add LeftwardSpeed dummy {"text":"左への速さ(ccm/t)"}
 scoreboard objectives add LeftwardGravity dummy {"text":"左への加速度(ccm/t)"}
-scoreboard objectives add LeftwardSpeedMin dummy {"text":"左への速さ(ccm/t)"}
-scoreboard objectives add LeftwardSpeedMax dummy {"text":"左への加速度(ccm/t)"}
 scoreboard objectives add UpwardSpeed dummy {"text":"上への速さ(ccm/t)"}
 scoreboard objectives add UpwardGravity dummy {"text":"上への加速度(ccm/t)"}
-scoreboard objectives add UpwardSpeedMin dummy {"text":"上への速さ(ccm/t)"}
-scoreboard objectives add UpwardSpeedMax dummy {"text":"上への加速度(ccm/t)"}
+#
+scoreboard objectives add OnCloseForwardBy dummy {"text":"近い時乗数"}
+scoreboard objectives add OnCloseUpwardBy dummy {"text":"低い時乗数"}
 # 
 scoreboard objectives add StepRotate dummy {"text":"ステップ時相対水平角度"}
-

@@ -38,8 +38,8 @@ schedule function assert_manager:behaviour/reader/moves/repeater/end/mean_range 
 # schedule function assert_manager:behaviour/reader/moves/destination/memorize 48t
 # schedule function assert_manager:behaviour/reader/moves/destination/direction 50t
 
-schedule function assert_manager:behaviour/reader/moves/target_offset/forward/default 52t
-schedule function assert_manager:behaviour/reader/moves/target_offset/forward/set 54t
+# schedule function assert_manager:behaviour/reader/moves/target_offset/forward/default 52t
+# schedule function assert_manager:behaviour/reader/moves/target_offset/forward/set 54t
 
 schedule function assert_manager:behaviour/reader/moves/forward/speed/default 56t
 schedule function assert_manager:behaviour/reader/moves/forward/speed/set 58t
@@ -67,3 +67,8 @@ schedule function assert_manager:behaviour/reader/moves/leftward/speed_min/defau
 schedule function assert_manager:behaviour/reader/moves/leftward/speed_min/set 98t
 schedule function assert_manager:behaviour/reader/moves/leftward/speed_max/default 100t
 schedule function assert_manager:behaviour/reader/moves/leftward/speed_max/set 102t
+
+schedule function assert_manager:behaviour/reader/moves/on_close/forward/default 104t
+schedule function assert_manager:behaviour/reader/moves/on_close/forward/read 106t
+schedule function assert_manager:behaviour/reader/moves/on_close/upward/default 108t
+schedule function assert_manager:behaviour/reader/moves/on_close/upward/read 110t
