@@ -87,9 +87,9 @@ scoreboard objectives add TiltOffset dummy {"text":"ターゲット初期相対�
 scoreboard objectives add SpinSpeed dummy {"text":"ターゲットへの回転可能速度(cdeg/t)"}
 scoreboard objectives add SpinAmount dummy {"text":"ターゲットへの回転量(cdeg)"}
 #
-scoreboard objectives add RepeaterDelay dummy {"text":"動き開始時間(cs)"}
+scoreboard objectives add RepeaterStart dummy {"text":"動き開始時間(cs)"}
 scoreboard objectives add RepeaterToStart dummy {"text":"動き開始実時間(cs)"}
-scoreboard objectives add RepeaterDuration dummy {"text":"動き終了時間(cs)"}
+scoreboard objectives add RepeaterEnd dummy {"text":"動き終了時間(cs)"}
 scoreboard objectives add RepeaterToNext dummy {"text":"動き終了実時間(cs)"}
 scoreboard objectives add RepeaterCount dummy {"text":"動き変化繰り返し回数"}
 scoreboard objectives add RepeatedCount dummy {"text":"動き変化繰り返し済み回数"}

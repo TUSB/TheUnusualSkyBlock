@@ -22,13 +22,16 @@ schedule function assert_manager:behaviour/reader/moves/repeater/continue/true 2
 schedule function assert_manager:behaviour/reader/moves/repeater/count/default 28t
 schedule function assert_manager:behaviour/reader/moves/repeater/count/set 30t
 
-schedule function assert_manager:behaviour/reader/moves/repeater/delay/default 32t
-schedule function assert_manager:behaviour/reader/moves/repeater/delay/mean 34t
-schedule function assert_manager:behaviour/reader/moves/repeater/delay/range 36t
-schedule function assert_manager:behaviour/reader/moves/repeater/delay/mean_range 38t
+schedule function assert_manager:behaviour/reader/moves/repeater/start/default 32t
+schedule function assert_manager:behaviour/reader/moves/repeater/start/mean 34t
+schedule function assert_manager:behaviour/reader/moves/repeater/start/range 36t
+schedule function assert_manager:behaviour/reader/moves/repeater/start/mean_range 38t
 
-schedule function assert_manager:behaviour/reader/moves/repeater/duration/default 40t
-schedule function assert_manager:behaviour/reader/moves/repeater/duration/set 42t
+schedule function assert_manager:behaviour/reader/moves/repeater/end/default 40t
+schedule function assert_manager:behaviour/reader/moves/repeater/end/bullet 42t
+schedule function assert_manager:behaviour/reader/moves/repeater/end/mean 44t
+schedule function assert_manager:behaviour/reader/moves/repeater/end/range 46t
+schedule function assert_manager:behaviour/reader/moves/repeater/end/mean_range 48t
 
 # schedule function assert_manager:behaviour/reader/moves/destination/default 44t
 # schedule function assert_manager:behaviour/reader/moves/destination/update 46t

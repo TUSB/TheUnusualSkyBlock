@@ -3,4 +3,4 @@
 ##############################
 
 ### 規定値は0秒
-scoreboard players set @s RepeaterDelay 0
+scoreboard players set @s RepeaterStart 0

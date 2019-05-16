@@ -3,10 +3,10 @@
 ##############################
 
 ### 開始時間
-function behaviour_manager:definition_reader/moves/repeater/delay/default
+function behaviour_manager:definition_reader/moves/repeater/start/default
 
 ### 繰り返し間隔
-function behaviour_manager:definition_reader/moves/repeater/duration/default
+function behaviour_manager:definition_reader/moves/repeater/end/default
 
 ### 繰り返し回数
 function behaviour_manager:definition_reader/moves/repeater/count/default

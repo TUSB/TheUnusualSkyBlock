@@ -2,9 +2,6 @@
 ### 繰り返し動作コンティニュー
 ##############################
 
-### カーソル移動
-function data_manager:move_cursor/data_id
-
 ### 設定を確認
 function data_manager:parameter/move_settings/check
 
