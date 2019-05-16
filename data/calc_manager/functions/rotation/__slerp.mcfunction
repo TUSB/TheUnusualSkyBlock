@@ -13,7 +13,6 @@ execute at 0-0-0-0-10 facing 0.0 0.0 0.0 facing ^ ^ ^-1 positioned 0.0 0.0 0.0 r
 execute store result score $_ TiltAngle run data get entity 0-0-0-0-10 Rotation[1] 100
 ### Speedに応じて回転させて角度を設定
 scoreboard players operation $_ TiltAngle -= @s SpinAmount
-scoreboard players reset @s SpinAmount
 execute unless score $_ TiltAngle matches -9000.. run scoreboard players set $_ TiltAngle -9000
 execute store result entity 0-0-0-0-10 Rotation[1] float 0.01 run scoreboard players get $_ TiltAngle
 ### 角度に応じて位置を補正
@@ -25,3 +24,6 @@ execute at 0-0-0-0-10 facing 0.0 0.0 0.0 facing ^ ^ ^-1 positioned 0.0 0.0 0.0 r
 
 ### 向きセット
 execute at 1-0-0-0-0 rotated as 0-0-0-0-10 run tp @e[distance=0,tag=DataHolder,limit=1] ~ ~ ~ ~ ~
+
+### 回転量リセット
+scoreboard players reset @s SpinAmount

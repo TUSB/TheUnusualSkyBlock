@@ -45,6 +45,7 @@ scoreboard objectives add ManagedDataID dummy {"text":"データ管理ID"}
 scoreboard objectives add TargetID dummy {"text":"ターゲットID"}
 scoreboard objectives add TargetLinkID dummy {"text":"ターゲット紐付けID"}
 scoreboard objectives add PlayerID dummy {"text":"プレイヤー管理ID"}
+scoreboard objectives add QueueID dummy {"text":"順番管理ID"}
 
 #################### プレイヤー共通スコアボード ####################
 scoreboard objectives add SuppressParticle dummy {"text":"パーティクル抑制レベル"}
@@ -60,6 +61,8 @@ scoreboard objectives add Z dummy {"text":"Z座標(cm)"}
 scoreboard objectives add MotionX dummy {"text":"X速度(cm/t)"}
 scoreboard objectives add MotionY dummy {"text":"Y速度(cm/t)"}
 scoreboard objectives add MotionZ dummy {"text":"Z速度(cm/t)"}
+scoreboard objectives add RotateAngle dummy {"text":"水平角度(cdeg)"}
+scoreboard objectives add TiltAngle dummy {"text":"鉛直角度(cdeg)"}
 
 #################### 敵ステータス関連スコアボード ####################
 ### 敵HP関連
@@ -73,12 +76,11 @@ scoreboard objectives add NaturalDamage dummy {"text":"自然ダメージ(hp)"}
 scoreboard objectives add DesiredDistance dummy {"text":"ターゲット希望距離(cm)"}
 scoreboard objectives add DesiredHeight dummy {"text":"ターゲット希望高度差(cm)"}
 scoreboard objectives add FollowRange dummy {"text":"ターゲット補足距離(cm)"}
-scoreboard objectives add DetectType dummy {"text":"ターゲット検知タイプ(検知判定時に一時使用)"}
+scoreboard objectives add LostRange dummy {"text":"ターゲット諦め距離(cm)"}
 scoreboard objectives add MovementSpeed dummy {"text":"通常時移動速度(ccm/t)"}
+scoreboard objectives add SearcherToStart dummy {"text":"ターゲット探索開始時間(cs)"}
+scoreboard objectives add TargetDistance dummy {"text":"ターゲットとの距離(cm)"}
 ### MoveSettingsList
-scoreboard objectives add RotateAngle dummy {"text":"現在水平角度(cdeg)"}
-scoreboard objectives add TiltAngle dummy {"text":"現在垂直角度(cdeg)"}
-#
 scoreboard objectives add RotateOffset dummy {"text":"ターゲット初期相対水平角度(cdeg)"}
 scoreboard objectives add TiltOffset dummy {"text":"ターゲット初期相対垂直角度(cdeg)"}
 #
@@ -92,12 +94,15 @@ scoreboard objectives add RepeaterToNext dummy {"text":"動き終了実時間(cs
 scoreboard objectives add RepeaterCount dummy {"text":"動き変化繰り返し回数"}
 scoreboard objectives add RepeatedCount dummy {"text":"動き変化繰り返し済み回数"}
 #
+scoreboard objectives add ForwardAmount dummy {"text":"前への移動量(ccm)"}
 scoreboard objectives add ForwardSpeed dummy {"text":"前への速さ(ccm/t)"}
-scoreboard objectives add ForwardGravity dummy {"text":"前への加速度(ccm/t)"}
+scoreboard objectives add ForwardGravity dummy {"text":"前への加速度(ccm/t/t)"}
+scoreboard objectives add LeftwardAmount dummy {"text":"左への移動量(ccm)"}
 scoreboard objectives add LeftwardSpeed dummy {"text":"左への速さ(ccm/t)"}
-scoreboard objectives add LeftwardGravity dummy {"text":"左への加速度(ccm/t)"}
+scoreboard objectives add LeftwardGravity dummy {"text":"左への加速度(ccm/t/t)"}
+scoreboard objectives add UpwardAmount dummy {"text":"上への移動量(ccm)"}
 scoreboard objectives add UpwardSpeed dummy {"text":"上への速さ(ccm/t)"}
-scoreboard objectives add UpwardGravity dummy {"text":"上への加速度(ccm/t)"}
+scoreboard objectives add UpwardGravity dummy {"text":"上への加速度(ccm/t/t)"}
 #
 scoreboard objectives add OnCloseForwardBy dummy {"text":"近い時乗数"}
 scoreboard objectives add OnCloseUpwardBy dummy {"text":"低い時乗数"}

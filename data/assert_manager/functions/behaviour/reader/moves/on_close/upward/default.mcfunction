@@ -5,8 +5,8 @@
 execute unless entity 0-0-0-0-0 run me function assert_manager:behaviour/reader/moves/on_close/upward/default 1t
 execute unless entity 0-0-0-0-0 run schedule function assert_manager:behaviour/reader/moves/on_close/upward/default 1t
 
-execute as 0-0-0-0-0 run function behaviour_manager:behaviour_applier/target/searcher/on_hit/common
-execute as 0-0-0-0-0 run function behaviour_manager:behaviour_applier/action/repeater/check
+execute as 0-0-0-0-0 run function behaviour_manager:target/searcher/on_hit/common
+execute as 0-0-0-0-0 run function behaviour_manager:action/repeater/check
 execute as 0-0-0-0-0 unless score @s OnCloseUpwardBy matches -1 run me function assert_manager:behaviour/reader/moves/on_close/upward/default 1
 
 execute as 0-0-0-0-0 run function finalization_manager:kill_immidiately

@@ -12,3 +12,6 @@ execute if score $TargetSettings SuccessCount matches ..0 run function behaviour
 
 ### 探索距離を上書き
 execute store result entity @s Attributes[{Name:"generic.FollowRange"}].Base double 0.01 run scoreboard players get @s FollowRange
+### 諦め距離設定
+scoreboard players operation @s LostRange = @s FollowRange
+scoreboard players operation @s LostRange += @s FollowRange

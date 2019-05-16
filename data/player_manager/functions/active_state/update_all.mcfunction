@@ -9,3 +9,6 @@ tag @a remove Ally
 ### 1.サバイバル or アドベンチャー
 ### 2.生きている
 tag @a[gamemode=!creative,gamemode=!spectator,scores={Health=1..}] add Ally
+
+### Ally 付きならデータ更新
+execute if entity @s[tag=Ally] run function data_manager:updater/player/check

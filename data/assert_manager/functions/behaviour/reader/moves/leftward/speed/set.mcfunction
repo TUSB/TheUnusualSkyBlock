@@ -5,8 +5,8 @@
 execute unless entity 0-0-0-0-0 run me function assert_manager:behaviour/reader/moves/leftward/speed/set 1t
 execute unless entity 0-0-0-0-0 run schedule function assert_manager:behaviour/reader/moves/leftward/speed/set 1t
 
-execute as 0-0-0-0-0 run function behaviour_manager:behaviour_applier/target/searcher/on_hit/common
-execute as 0-0-0-0-0 run function behaviour_manager:behaviour_applier/action/repeater/check
+execute as 0-0-0-0-0 run function behaviour_manager:target/searcher/on_hit/common
+execute as 0-0-0-0-0 run function behaviour_manager:action/repeater/check
 execute as 0-0-0-0-0 unless score @s LeftwardSpeed matches 12345 run me function assert_manager:behaviour/reader/moves/leftward/speed/set 1
 
 execute as 0-0-0-0-0 run function finalization_manager:kill_immidiately
