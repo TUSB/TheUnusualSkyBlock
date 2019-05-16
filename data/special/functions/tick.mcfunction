@@ -28,6 +28,7 @@ function behaviour_manager:behaviour_applier/target/searcher/check_all
 
 ### エンティティ返却
 function data_manager:posture/return
+execute in overworld positioned 0.0 0.0 0.0 run tp 0-0-0-0-20 ~ ~ ~ ~ ~
 
 ##################################################     毎tick非ワールド依存処理の壁     ##################################################
 ###敵被ダメ時処理(ここ以外HurtTime使用禁止)

@@ -11,8 +11,8 @@ execute unless score $MoveSettings SuccessCount matches 1.. run scoreboard playe
 
 ### 繰り返した回数を加算
 scoreboard players add @s RepeatedCount 1
-### 角度をリセット
-scoreboard players reset @s RotateAngle
-scoreboard players reset @s TiltAngle
 ### 設定が存在したら読み込み
 execute if score $MoveSettings SuccessCount matches 1.. run function behaviour_manager:definition_reader/moves/check
+
+### AI解除扱いにする
+function behaviour_manager:custom_ai/off

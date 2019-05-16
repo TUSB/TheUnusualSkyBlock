@@ -43,5 +43,3 @@ execute store result score @s MotionZ run data get entity 0-0-0-0-20 Pos[2] 100
 execute store result entity @s Motion[0] double 0.0001 run scoreboard players operation @s MotionX += $_ MotionX
 execute store result entity @s Motion[1] double 0.0001 run scoreboard players operation @s MotionY += $_ MotionY
 execute store result entity @s Motion[2] double 0.0001 run scoreboard players operation @s MotionZ += $_ MotionZ
-### エンティティ返却
-execute in overworld positioned 0.0 0.0 0.0 run tp 0-0-0-0-20 ~ ~ ~ ~ ~
