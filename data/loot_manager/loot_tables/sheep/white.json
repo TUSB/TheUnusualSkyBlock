@@ -20,7 +20,7 @@
             "rolls": 1,
             "conditions" : [
                 {
-                    "condition": "random_chance_with_looting",
+                    "condition": "minecraft:random_chance_with_looting",
                     "chance": 0.08,
                     "looting_multiplier": 0.01
                 }
@@ -58,7 +58,7 @@
             "rolls": 1,
             "conditions" : [
                 {
-                    "condition": "random_chance",
+                    "condition": "minecraft:random_chance",
                     "chance": 1
                 }
             ],
@@ -76,7 +76,7 @@
                             "function": "furnace_smelt",
                             "conditions": [
                                 {
-                                    "condition": "entity_properties",
+                                    "condition": "minecraft:entity_properties",
                                     "entity": "this",
                                     "properties": {
                                         "on_fire": true
@@ -92,7 +92,7 @@
             "rolls": 1,
             "conditions" : [
                 {
-                    "condition": "random_chance",
+                    "condition": "minecraft:random_chance",
                     "chance": 0.005
                 }
             ],

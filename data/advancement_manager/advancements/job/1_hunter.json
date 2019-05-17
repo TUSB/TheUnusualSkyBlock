@@ -12,9 +12,9 @@
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
-  "parent": "advancement_manager:job/become_knight",
+  "parent": "advancement_manager:job/root",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"

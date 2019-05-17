@@ -1,20 +1,20 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:music_disc_strad"
+      "item": "minecraft:diamond_sword"
     },
     "title": {
-        "text": "絡繰の道"
+        "text": "剣技の達人"
       },
     "description": {
-      "text": "絡繰士になった"
+      "text": "剣士を究めた"
     },
-    "frame": "task",
+    "frame": "goal",
     "show_toast": true,
     "announce_to_chat": true,
-    "hidden": false
+    "hidden": true
   },
-  "parent": "advancement_manager:job/become_summoner",
+  "parent": "advancement_manager:job/1_knight",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"

@@ -8,13 +8,13 @@
         "text": ""
       },
       {
-        "text": "みんなが主役 -劇場-",
+        "text": "主役はあなた -劇場-",
         "color": "dark_purple",
         "bold": true
       }
     ],
     "description": {
-      "text": "君も主人公だ"
+      "text": "あなたの物語"
     },
     "frame": "task",
     "show_toast": true,
@@ -26,7 +26,7 @@
     "join": {
       "trigger": "minecraft:location",
       "conditions": {
-        "dimension": "overworld",
+        "dimension": "minecraft:overworld",
         "position": {
           "x": {
             "min": -1167,

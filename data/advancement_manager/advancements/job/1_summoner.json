@@ -1,20 +1,20 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:iron_sword"
+      "item": "minecraft:ghast_spawn_egg"
     },
     "title": {
-        "text": "ニンジャスレイヤー"
+        "text": "召喚の道"
       },
     "description": {
-      "text": "忍者を究めた"
+      "text": "召喚士になった"
     },
-    "frame": "goal",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": true
   },
-  "parent": "advancement_manager:job/grew_hunter",
+  "parent": "advancement_manager:job/root",
   "criteria": {
     "dummy": {
       "trigger": "minecraft:impossible"

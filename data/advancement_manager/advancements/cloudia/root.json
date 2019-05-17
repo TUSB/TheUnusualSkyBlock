@@ -26,7 +26,7 @@
     "gate_in": {
       "trigger": "minecraft:location",
       "conditions": {
-        "dimension": "overworld",
+        "dimension": "minecraft:overworld",
         "position": {
           "x": {
             "min": -2586,

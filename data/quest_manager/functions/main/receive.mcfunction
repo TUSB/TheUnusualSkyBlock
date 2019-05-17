@@ -7,7 +7,7 @@ scoreboard players operation @s Global = @s QuestReceiveID
 function quest_manager:main/function/add_number
 
 ###各クエストごとの受注時処理
-function quest_manager:quest/1_test/receive
+function quest_manager:quest/1_first/receive
 
 ###---演出---Start
 playsound entity.experience_orb.pickup master @s
