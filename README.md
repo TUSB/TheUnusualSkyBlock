@@ -7,4 +7,4 @@ Minecraft 配布ワールド 「The Unusual SkyBlock」次期開発用データ�
 
 公式サイト: https://skyblock.jp/
 
-1-14-pre-release: Preリリース開発用Branch  [1.14 Pre2](https://www.minecraft.net/en-us/article/minecraft-1-14-pre-release-1)
+1-14-pre-release: Preリリース開発用Branch  [1.14.1](https://www.minecraft.net/en-us/article/minecraft-1-14-pre-release-1)
