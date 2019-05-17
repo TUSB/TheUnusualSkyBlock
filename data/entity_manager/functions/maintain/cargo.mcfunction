@@ -5,7 +5,7 @@
 execute store result score $UpVector Local run data get entity @s Motion[1] 100
 execute if score $UpVector Local matches ..-10 run tag @s add Garbage
 
-# [Obsoleted]
+# [[Obsolete]]
 # function calc_manager:get/motion1s
 # execute store result entity @s Pos[0] double 0.001 run data get entity @s Passengers[0].Pos[0] 1000
 # execute store result entity @s Pos[1] double 0.001 run data get entity @s Passengers[0].Pos[1] 1000
