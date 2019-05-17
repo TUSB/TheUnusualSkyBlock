@@ -7,7 +7,7 @@ scoreboard players operation @s Global = @s QuestReportID
 function quest_manager:main/function/delete_number
 
 ###各クエストごとの報告時処理
-function quest_manager:quest/1_test/done
+function quest_manager:quest/1_first/done
 
 ###---演出---Start
 playsound ui.button.click master @s

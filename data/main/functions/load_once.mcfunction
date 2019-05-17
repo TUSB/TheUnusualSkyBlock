@@ -144,7 +144,7 @@ scoreboard objectives add ActiveSkill dummy {"text":"発動スキル"}
 scoreboard objectives add ActiveCost dummy {"text":"発動スキルコスト"}
 scoreboard objectives add ActiveInterval dummy {"text":"発動スキル発動無効時間"}
 ###モブステータス系
-scoreboard objectives add MobMaxHealth dummy {"text":"モブ最大体力"}
+scoreboard objectives add MobHPMax dummy {"text":"モブ最大体力"}
 scoreboard objectives add Damage dummy {"text":"モブ付与ダメージ"}
 scoreboard objectives add StackDamage dummy {"text":"モブ付与ダメージスタック版"}
 scoreboard objectives add TemporaryEffects dummy {"text":"一時的ステータス変化Flags"}
@@ -685,7 +685,7 @@ setworldspawn 0 4 0
 execute unless entity 0-0-0-0-0 run summon minecraft:area_effect_cloud 0.0 0.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:0l,UUIDLeast:0l,CustomName:"[\"角度保持用\"]"}
 execute unless entity 0-0-0-0-10 run summon minecraft:area_effect_cloud 0.0 1.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:0l,UUIDLeast:16l,CustomName:"[\"テキスト\"]"}
 execute unless entity 0-0-0-0-20 run summon minecraft:area_effect_cloud 0.0 2.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:0l,UUIDLeast:32l,CustomName:"[\"視線判定用１\"]"}
-execute unless entity 0-0-0-0-30 run summon minecraft:area_effect_cloud 0.0 2.1 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:0l,UUIDLeast:33l,CustomName:"[\"視線判定用２\"]"}
+execute unless entity 0-0-0-0-21 run summon minecraft:area_effect_cloud 0.0 2.1 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:0l,UUIDLeast:33l,CustomName:"[\"視線判定用２\"]"}
 execute unless entity 0-0-0-0-30 run summon minecraft:area_effect_cloud 0.0 3.0 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",UUIDMost:0l,UUIDLeast:48l,CustomName:"[\"位置取得用\"]"}
 execute unless entity 0-0-0-0-31 run summon minecraft:area_effect_cloud 0.0 3.1 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Radius:0.1f,UUIDMost:0l,UUIDLeast:49l,CustomName:"[\"位置取得用アンカー１\"]"}
 execute unless entity 0-0-0-0-32 run summon minecraft:area_effect_cloud 0.0 3.2 0.0 {Age:-2147483648,WaitTime:2147483647,ReapplicationDelay:2147483647,Duration:2147483647,Particle:"minecraft:block minecraft:air",Radius:0.1f,UUIDMost:0l,UUIDLeast:50l,CustomName:"[\"位置取得用アンカー２\"]"}

@@ -6,7 +6,7 @@
 tellraw @s ["",{"text":"<発生中のクエスト>"}]
 
 ###各クエストごとに表示
-execute if score $1 QuestState matches 1 run function quest_manager:quest/1_test/list
+execute if score $1 QuestState matches 1 run function quest_manager:quest/1_first/list
 
 
 
