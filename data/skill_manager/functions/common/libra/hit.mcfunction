@@ -16,7 +16,7 @@ particle minecraft:dust 100000000 1 0.2 1.2 ~ ~0.5 ~-1.5 0 0 0.25 1 10 force @a[
 particle minecraft:entity_effect ~ ~0.3 ~ 0.3 0.1 0.3 10000000 100 force @a[tag=ShowParticles]
 ###---演出---End
 
-execute store result score $MaxHP Global store result bossbar enemy_health max run scoreboard players get @s MobMaxHealth
+execute store result score $MaxHP Global store result bossbar enemy_health max run scoreboard players get @s MobHPMax
 execute store result score $CurrentHP Global store result bossbar enemy_health value run data get entity @s AbsorptionAmount 100
 bossbar set minecraft:enemy_health players @a
 bossbar set minecraft:enemy_health visible true

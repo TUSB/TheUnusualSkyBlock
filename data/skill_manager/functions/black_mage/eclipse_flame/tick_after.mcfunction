@@ -2,7 +2,7 @@
 ### エクリプスフレイム本処理
 ##############################
 
-# [[Obsolete]]
+# [Obsoleted]
 # ###変数加算
 # scoreboard players add @s EclipseRadius 30
 

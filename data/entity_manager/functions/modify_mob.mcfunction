@@ -54,12 +54,11 @@ tag @s[type=minecraft:drowned] add Dead
 
 ###バニラモブ置き換え判定
 execute if entity @s[nbt={AbsorptionAmount:0f}] if score $ReplaceChance DecrementTimer <= $ConquerNumber Global run function enemy_manager:replace/allocate_dimension
-
 ### AbsorptionAmount付与
 execute if entity @s[nbt={AbsorptionAmount:0f}] store result entity @s AbsorptionAmount float 0.01 run data get entity @s Health 100
 data merge entity @s {Attributes:[{Name:"generic.maxHealth",Base:1024d}],Health:1024f}
-execute store result score @s MobMaxHealth run data get entity @s AbsorptionAmount 100
-scoreboard players operation @s PreviousMobHP = @s MobMaxHealth
+execute store result score @s MobHPMax run data get entity @s AbsorptionAmount 100
+scoreboard players operation @s PreviousMobHP = @s MobHPMax
 scoreboard players set @s LastDamage 0
 
 tag @s[nbt={Invisible:true}] add Invisible
