@@ -1,0 +1,89 @@
+﻿{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:entities/sheep/random/white",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:entities/sheep/random/orange",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:entities/sheep/random/magenta",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:entities/sheep/random/light_blue",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:entities/sheep/random/yellow",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:entities/sheep/random/lime",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:entities/sheep/random/pink",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:entities/sheep/random/gray",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:entities/sheep/random/silver",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:entities/sheep/random/cyan",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:entities/sheep/random/purple",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:entities/sheep/random/blue",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:entities/sheep/random/brown",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:entities/sheep/random/green",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:entities/sheep/random/red",
+                    "weight": 1
+                },
+                {
+                    "type": "loot_table",
+                    "name": "minecraft:entities/sheep/random/black",
+                    "weight": 1
+                }
+            ]
+        }
+    ]
+}
