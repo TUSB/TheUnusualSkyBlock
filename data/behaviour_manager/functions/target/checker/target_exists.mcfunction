@@ -3,7 +3,7 @@
 ##############################
 
 ### カーソル移動
-function data_manager:move_cursor/target_id
+function data_manager:cursor/target_id/move
 
 ### ターゲットが存在するかチェック
 function data_manager:presence/check

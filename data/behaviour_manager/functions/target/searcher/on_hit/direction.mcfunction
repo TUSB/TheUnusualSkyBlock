@@ -8,7 +8,7 @@ function data_manager:replicater/current/replicate
 scoreboard players operation @s TargetID = $Result ManagedDataID
 
 ### カーソル移動
-function data_manager:move_cursor/target_id
+function data_manager:cursor/target_id/move
 ### 姿勢読み込み
 function data_manager:posture/load
 ### 向きのみにする

@@ -7,6 +7,3 @@
 
 ### SpinAmount >= 500 で回転処理
 execute if score @s SpinAmount matches 500.. run function calc_manager:rotation/__slerp
-
-### 向きエンティティに保存
-execute at 1-0-0-0-0 rotated as @e[distance=0,tag=DataHolder,limit=1] positioned 0.0 0.0 0.0 run tp 0-0-0-0-10 ~ ~ ~ ~ ~

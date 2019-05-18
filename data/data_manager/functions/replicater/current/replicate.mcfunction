@@ -8,8 +8,8 @@ execute at 1-0-0-0-1 run summon minecraft:item ~ ~ ~ {Age:-32768s,PickupDelay:32
 ### データコピー
 execute at 1-0-0-0-1 run data modify entity @e[distance=0,tag=DataHolder,tag=Copy,limit=1] Item.tag.EntityData set from entity @e[distance=0,tag=DataHolder,tag=!Copy,limit=1] Item.tag.EntityData
 execute at 1-0-0-0-1 run data modify entity @e[distance=0,tag=DataHolder,tag=Copy,limit=1] Item.tag.EyePosition set from entity @e[distance=0,tag=DataHolder,tag=!Copy,limit=1] Item.tag.EyePosition
-### 寿命を設定(10秒)
-execute at 1-0-0-0-1 run scoreboard players set @e[distance=0,tag=DataHolder,tag=Copy,limit=1] -1000
+### 寿命を設定(1秒)
+execute at 1-0-0-0-1 run scoreboard players set @e[distance=0,tag=DataHolder,tag=Copy,limit=1] GlobalCSTimer -100
 
 ### リンク用エンティティ重なり防止
 execute at 1-0-0-0-1 store result entity @e[distance=0,tag=DataHolder,tag=Copy,limit=1] Item.tag.DataID int 1 run scoreboard players add $_ ManagedDataID 1

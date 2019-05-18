@@ -3,7 +3,7 @@
 ##############################
 
 ### 自身のデータを更新
-function data_manager:move_cursor/data_id
+function data_manager:cursor/data_id/move
 function data_manager:updater/mob/check
 
 ### ターゲットを取り得るならターゲットを取っているか確認
