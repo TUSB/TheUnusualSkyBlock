@@ -1,5 +1,5 @@
 ##############################
-### バニラ定義規定値テスト
+### ターゲット定義規定値テスト
 ##############################
 
 execute unless entity 0-0-0-0-0 run me function assert_manager:behaviour/reader/target/follow_range/default_bullet 1t

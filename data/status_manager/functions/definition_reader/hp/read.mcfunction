@@ -2,9 +2,6 @@
 ### 体力読み込み
 ##############################
 
-### カーソル移動
-function status_manager:cursor/data_id/move
-
 ### 体力読み込み
 execute store result score @s HP at 1-0-0-0-0 run data get entity @e[distance=0,tag=DataHolder,limit=1] Item.tag.Parameter.StatusSettings.HP 1
 

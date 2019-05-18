@@ -7,3 +7,6 @@ function status_manager:definition_reader/hp/read
 
 ### MP
 function status_manager:definition_reader/mp/read
+
+### 寿命
+function status_manager:definition_reader/lifetime/read
