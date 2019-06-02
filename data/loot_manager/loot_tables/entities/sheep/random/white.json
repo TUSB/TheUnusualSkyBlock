@@ -11,10 +11,6 @@
                         {
                             "function": "minecraft:set_count",
                             "count": 5
-                        },
-                        {
-                            "function": "minecraft:set_data",
-                            "data": 0
                         }
                     ]
                 }
@@ -53,10 +49,6 @@
                                 "min": 60,
                                 "max": 70
                             }
-                        },
-                        {
-                            "function": "minecraft:set_data",
-                            "data": 0
                         }
                     ]
                 }
