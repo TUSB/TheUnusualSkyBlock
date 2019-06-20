@@ -36,7 +36,6 @@ scoreboard objectives add Local dummy {"text":"ローカル変数"}
 scoreboard objectives add SuccessCount dummy {"text":"コマンド成功カウント"}
 ### 乱数
 scoreboard objectives add Random dummy {"text":"乱数"}
-function calc_manager:random/initialize
 
 
 
@@ -68,6 +67,8 @@ scoreboard objectives add TiltAngle dummy {"text":"鉛直角度(cdeg)"}
 ### 敵HP関連
 scoreboard objectives add MaxHP dummy {"text":"最大HP(hp)"}
 scoreboard objectives add HP dummy {"text":"現在HP(hp)"}
+scoreboard objectives add MaxMP dummy {"text":"現在MP(mp)"}
+scoreboard objectives add MP dummy {"text":"現在MP(mp)"}
 scoreboard objectives add Damage dummy {"text":"ダメージ(hp)"}
 scoreboard objectives add NaturalDamage dummy {"text":"自然ダメージ(hp)"}
 
@@ -108,3 +109,8 @@ scoreboard objectives add OnCloseForwardBy dummy {"text":"近い時乗数"}
 scoreboard objectives add OnCloseUpwardBy dummy {"text":"低い時乗数"}
 # 
 scoreboard objectives add StepRotate dummy {"text":"ステップ時相対水平角度"}
+
+
+#################### スコア初期化 ####################
+function calc_manager:initialize_score
+function status_manager:initialize_score

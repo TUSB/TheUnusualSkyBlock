@@ -7,7 +7,12 @@
 ###        execute as [Source] at @s positioned as [Destination] run function this
 
 ### 向かせる
-execute facing entity @s feet facing ^ ^ ^-1 in overworld positioned as 1-0-0-0-0 run tp @e[distance=0,tag=DataHolder,limit=1] ~ ~ ~ ~ ~
+execute facing entity @s feet facing ^ ^ ^-1 in overworld positioned as 1-0-0-0-0 run tp 1-0-0-0-0 ~ ~ ~ ~ ~
 
-### 座標を移動して残りを実行
-execute at 1-0-0-0-0 run function calc_manager:rotation/__look_at_with_offset
+### 向き読み込み
+execute store result score $_ RotateOffset run data get entity 1-0-0-0-0 Rotation[0] 100
+execute store result score $_ TiltOffset run data get entity 1-0-0-0-0 Rotation[1] 100
+
+### 向きセット
+execute store result entity 1-0-0-0-0 Rotation[0] float 0.01 run scoreboard players operation $_ RotateOffset += @s RotateOffset
+execute store result entity 1-0-0-0-0 Rotation[1] float 0.01 run scoreboard players operation $_ TiltOffset += @s TiltOffset

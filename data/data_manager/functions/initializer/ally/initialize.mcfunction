@@ -15,3 +15,6 @@ execute if entity @s[tag=Boss] at 1-0-0-0-0 run tag @e[distance=0,tag=DataHolder
 ### データ管理タグ付与
 tag @s add DataManaged
 tag @s[tag=!Light,tag=!Bullet] add MayTargeted
+
+### 探索開始を遅らせる
+scoreboard players add @s SearcherToStart 10

@@ -11,7 +11,7 @@ function data_manager:parameter/move_settings/load
 scoreboard players reset @s RepeaterToNext
 
 ### カーソル移動
-function data_manager:move_cursor/target_id
+function data_manager:cursor/target_id/move
 
 ### ヘイト付与
 execute if entity @s[tag=!Bullet] run function data_manager:hate/current/generate
