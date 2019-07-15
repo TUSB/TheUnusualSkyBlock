@@ -19,3 +19,4 @@ execute if entity @s[tag=Tool] run function enemy_manager:spawn/tool/allocate_id
 execute if entity @s[tag=Event] run function enemy_manager:spawn/event/allocate_id
 
 kill @s[tag=!Call,tag=!SkillBox]
+say ya

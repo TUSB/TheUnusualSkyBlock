@@ -117,7 +117,7 @@ execute in overworld positioned 0.0 0.0 0.0 run tp 0-0-0-0-20 ~ ~ ~ ~ ~
 # ##################################################     同tick内に初期化させるエンティティ発生の可能性の壁     ##################################################
 
 # ###スポナースポーン処理
-# execute as @e[tag=Spawn] positioned as @s run function enemy_manager:spawn/allocate_dimension
+execute as @e[tag=Spawn] positioned as @s run function enemy_manager:spawn/allocate_dimension
 
 # ###エンティティ発生時処理
 # execute unless score $ReplaceChance DecrementTimer matches -50..50 run scoreboard players set $ReplaceChance DecrementTimer 50
