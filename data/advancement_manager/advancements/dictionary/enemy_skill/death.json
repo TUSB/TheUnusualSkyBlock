@@ -7,7 +7,7 @@
       "text": "死亡時スキル        "
     },
     "description": {
-      "text": "･周囲の味方を超回復する\n･周囲の味方のスキル発動を早める\n･蘇生する\n等"
+      "text": "死んだ際にスキルを使用することがある"
     },
     "frame": "task",
     "show_toast": false,

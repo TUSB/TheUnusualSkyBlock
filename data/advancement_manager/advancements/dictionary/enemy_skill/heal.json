@@ -8,7 +8,7 @@
       "text": "回復        "
     },
     "description": {
-      "text": "自身の体力を回復する\n周囲の味方を回復する者も居る"
+      "text": "自身や周囲の味方の体力を回復する"
     },
     "frame": "task",
     "show_toast": false,
