@@ -14,3 +14,6 @@ execute if entity @s[tag=HasTarget] run function behaviour_manager:target/checke
 
 ### ターゲットをまだ持っていたらactionさせる
 execute if entity @s[tag=HasTarget] run function behaviour_manager:action/check
+
+### スキル発動
+execute if entity @s[tag=HasSkill] run function skill_manager:enemy/check
