@@ -11,7 +11,6 @@ execute if entity @s[tag=Capture] run function skill_manager:enemy/capture/1
 execute if entity @s[tag=Charm] run function skill_manager:enemy/charm/level
 execute if entity @s[tag=Heal] run function skill_manager:enemy/heal/level
 execute if entity @s[tag=IcingRay] run function skill_manager:enemy/icing_ray/1
-execute if entity @s[tag=Interpolator] run function skill_manager:enemy/interpolator/level
 execute if entity @s[tag=Jump] run function skill_manager:enemy/jump/1
 execute if entity @s[tag=Reraise] run function skill_manager:enemy/reraise/1
 execute if entity @s[tag=Satelite] run function skill_manager:enemy/satelite/1
