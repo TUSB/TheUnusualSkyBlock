@@ -88,7 +88,7 @@ execute in overworld positioned 0.0 0.0 0.0 run tp 0-0-0-0-20 ~ ~ ~ ~ ~
 # execute as @a[scores={UseSnowball=1..}] at @s run function trigger_manager:snowball
 # execute as @a[scores={UseBow=1..}] at @s run function trigger_manager:bow
 # execute as @a[scores={UseCarrotStick=1..}] at @s run function trigger_manager:carrot_on_a_stick
-# execute as @a[scores={UseArmorStand=1..}] at @s run function trigger_manager:armor_stand
+execute as @a[scores={UseArmorStand=1..}] at @s run function trigger_manager:armor_stand
 # execute as @a[scores={DamageDealt=0..}] at @s run function trigger_manager:damage_dealt
 # execute as @a[scores={DamageTaken=0..}] at @s run function trigger_manager:damage_taken
 # execute as @a[scores={SprintOneCm=1..}] at @s run function trigger_manager:sprint
