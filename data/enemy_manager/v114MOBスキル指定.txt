@@ -19,14 +19,14 @@ Skill:[{Name:"A",Loop:3},{Name:"B",Loop:2}] ⇒AAAABBBAAAABBB…
 Skill:[{Name:"A",Once:1b},{Name:"B"}] ⇒ABBB…
 Skill:[{Name:"A",Loop:3,Once:1b}] ⇒AAAA(終了)
 
-1.14から法になったNBT等
-不要なもの
+1.14から不要になったNBT等
 AbsorptionAmount:
 TickingRequiredタグ
 PortalCooldown:
 
 
-
+1.14でも継続するもの
+Tags:["Cargo"]、Tags:["Vehicle"]
 
 
 
