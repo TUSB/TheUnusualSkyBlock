@@ -3,8 +3,8 @@
 ##############################
 
 ### Tags書き換え
-data modify entity @s Tags set from block 0 0 0 RecordItem.tag.Parameter.Skill[0].Target
-
+data modify entity @s Tags set from block 0 0 0 RecordItem.tag.CurrentSkill[0].Target
+### Call実行
 function enemy_manager:spawn/allocate_dimension
 
 ###---演出---Start
