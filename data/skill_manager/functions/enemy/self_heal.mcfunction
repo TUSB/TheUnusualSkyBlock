@@ -2,10 +2,11 @@
 ### セルフヒール 回復
 ##############################
 
-execute store result score $AbsorptionAmount Global run data get entity @s AbsorptionAmount 100
-scoreboard players operation $AbsorptionAmount Global += $Heal Global
-scoreboard players operation $AbsorptionAmount Global < @s MobMaxHealth
-execute store result entity @s AbsorptionAmount int 0.01 run scoreboard players get $AbsorptionAmount Global
+### 回復量読み込み
+execute store result score $Amount Global run data get block 0 0 0 RecordItem.tag.CurrentSkill[0].Amount 1
+
+scoreboard players operation @s HP += $Amount Global
+scoreboard players operation @s HP < @s MaxHP
 
 ###---演出---Start
 playsound minecraft:entity.bat.hurt master @a[distance=..16] ~ ~ ~ 1 2

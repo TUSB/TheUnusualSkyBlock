@@ -1,8 +1,10 @@
 ##############################
-### ヒールレベル１
+### ヒール 回復
 ##############################
 
-scoreboard players set $Heal Global 10000
+### 回復量読み込み
+execute store result score $Amount Global run data get block 0 0 0 RecordItem.tag.CurrentSkill[0].Amount 1
+
 execute as @e[tag=Mob,distance=..8] positioned as @s run function skill_manager:enemy/heal/apply
 
 ###---演出---Start
