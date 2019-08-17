@@ -15,7 +15,7 @@ execute if entity @s[tag=Charm] run function skill_manager:enemy/charm/level
 execute if entity @s[tag=Explode] run function skill_manager:enemy/explode
 execute if entity @s[tag=Haste] run function skill_manager:enemy/haste
 execute if entity @s[tag=Heal] run function skill_manager:enemy/heal/select
-execute if entity @s[tag=IcingRay] run function skill_manager:enemy/icing_ray
+execute if entity @s[tag=IcingRay] run function skill_manager:enemy/icing_ray/act1
 execute if entity @s[tag=Jump] run function skill_manager:enemy/jump
 execute if entity @s[tag=Reraise] run function skill_manager:enemy/reraise/select
 execute if entity @s[tag=Revival,scores={LifeTime=0..}] run function skill_manager:enemy/revival
