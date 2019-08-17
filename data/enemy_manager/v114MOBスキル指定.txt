@@ -1,0 +1,53 @@
+Skill---通常時スキル。MinTime, MaxTimeでクールダウンを指定すること。
+SkillOnHurt---被ダメ時スキル。
+SkillOnDeath---死亡時スキル。モブ用。
+SkillOnFin---消滅時スキル。投射物用。
+
+書き方はlist型で共通。左にあるcompoundから順にスキルを実行し、その後listの最後尾に移動する。
+summon husk ~ ~ ~ {Tags:[Enemy],Passengers:[{id:snowball,Tags:[Parameter],Item:{id:snowball,Count:1b,tag:{Skill:[{Name:"Scream",MinTime:100,MaxTime:200},{Name:"Teleport",Loop:2,MinTime:50,MaxTime:100}],SkillOnDeath:[{Name:"Revival",Once:1b}],StatusSettings:{HP:20,MP:0,LifeTime:1000.00d}}}}]}
+
+Name---発動するスキル名。指定無しの場合は何も実行されない。一部スキルは追加のnbtが必要。
+MinTime(tick)---最小クールダウンtick。Skillのみ必須。
+MaxTime(tick)---最大クールダウンtick。Skillのみ必須。
+Chance(%)---任意。実行確率。判定に失敗時スキルが不発になる。指定なしの場合は必ず成功する。
+Loop(回)---任意。回数分繰り返し実行する。
+Once:1b---任意。実行後最後尾に回らずに消滅する。Loopと併用時は回数分繰り返した後に消滅する。
+
+実行順：
+Skill:[{Name:"A"},{Name:"B"}] ⇒ABAB…
+Skill:[{Name:"A",Loop:3},{Name:"B",Loop:2}] ⇒AAAABBBAAAABBB…
+Skill:[{Name:"A",Once:1b},{Name:"B"}] ⇒ABBB…
+Skill:[{Name:"A",Loop:3,Once:1b}] ⇒AAAA(終了)
+
+1.14から法になったNBT等
+不要なもの
+AbsorptionAmount:
+TickingRequiredタグ
+PortalCooldown:
+
+
+
+
+
+
+Name一覧と追加nbt
+Blink---Level:1-3
+Call---Target:[Global,Ground,Blow,Deidora]
+Capture
+Charm---Level:1-3
+Explode
+Haste
+Heal---Level:1-10
+IcingRay
+Jump
+Reraise
+Revival
+Satelite
+Scream
+SecurityLaser---Level:1-3
+SelfDamage
+SelfHeal
+Servant
+Shooter
+Teleport
+WhiteRider
