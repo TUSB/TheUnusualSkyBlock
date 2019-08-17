@@ -14,4 +14,4 @@ scoreboard players operation $Random Global /= $MWCBase Const
 scoreboard players operation $Random Global += $Min Global
 ### SkillTimerにセット
 scoreboard players operation @s SkillTimer = $Random Global
-tag @s add HasSkill
+tag @s add NormalSkill

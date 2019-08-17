@@ -20,6 +20,9 @@ kill @e[tag=DataHolder,tag=!PlayerData,tag=!BossData,scores={GlobalCSTimer=0..}]
 ### エンティティ初期化
 function initialization_manager:check_all
 
+### エンティティダメージ処理
+function status_manager:damage_handler/check_all
+
 ### エンティティ返却
 function data_manager:posture/return
 execute in overworld positioned 0.0 0.0 0.0 run tp 0-0-0-0-20 ~ ~ ~ ~ ~
@@ -184,7 +187,7 @@ execute as @e[tag=Spawn] positioned as @s run function enemy_manager:spawn/alloc
 # tag @e[tag=Vehicle,nbt=!{Passengers:[{}]}] add Garbage
 # tag @e[tag=Vehicle,tag=Anchored,nbt=!{Passengers:[{Tags:[Anchor]}]}] add Garbage
 # ##エンティティ削除
-# execute as @e[tag=Garbage] run function entity_manager:garbage_collection
+execute as @e[tag=Garbage] run function entity_manager:garbage_collection
 # ##################################################     エンティティダメージ＆削除処理の壁     ##################################################
 
 # ### オーラ時後処理

@@ -8,4 +8,4 @@ scoreboard players remove @s NaturalDamage 1000000
 data merge entity @s {AbsorptionAmount:1000000f}
 
 ### ダメージに加算しておく
-scoreboard players operation @s Damage += @s NaturalDamage
+scoreboard players operation @s Damage -= @s NaturalDamage

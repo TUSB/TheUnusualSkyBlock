@@ -16,4 +16,7 @@ execute if entity @s[tag=HasTarget] run function behaviour_manager:target/checke
 execute if entity @s[tag=HasTarget] run function behaviour_manager:action/check
 
 ### スキル発動
-execute if entity @s[tag=HasSkill] run function skill_manager:enemy/check
+execute if entity @s[tag=NormalSkill] run function skill_manager:enemy/skill/normal/check
+
+### 寿命
+execute if entity @s[tag=HasLifeTime] run function entity_manager:lifetime

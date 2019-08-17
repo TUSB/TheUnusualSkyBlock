@@ -20,3 +20,4 @@ execute if entity @s[tag=!NoNaturalDamage] run data merge entity @s {AbsorptionA
 ### 寿命を制限
 scoreboard players operation @s[tag=!Bullet] LifeTime < $MobMax LifeTime
 scoreboard players operation @s[tag=Bullet] LifeTime < $BulletMax LifeTime
+tag @s add HasLifeTime

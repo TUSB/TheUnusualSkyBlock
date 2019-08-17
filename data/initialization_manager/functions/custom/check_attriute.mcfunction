@@ -20,3 +20,4 @@ tag @s[nbt={ActiveEffects:[{Id:24b}]}] add NativeGlowing
 execute store result score @s MovementSpeed run data get entity @s Attributes[{Name:"generic.movementSpeed"}].Base 10000
 
 ### 自動判定した方がいい内容があったら追加
+tag @s[type=!minecraft:armor_stand] add Mob

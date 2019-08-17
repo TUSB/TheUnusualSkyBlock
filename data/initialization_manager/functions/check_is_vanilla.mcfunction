@@ -3,13 +3,13 @@
 ##############################
 
 ### チームなしで検知できなければ、モブ系ではないので、飛翔物タグを付与
-execute if entity @s[team=] run tag @s add Projectile
-
-### 自然湧きを処理する
-execute if entity @s[tag=] run function initialization_manager:vanilla/main
+execute unless entity @s[team=] run tag @s add Projectile
 
 ### 非自然湧きを処理する
 execute if entity @s[tag=!] run function initialization_manager:custom/main
+
+### 自然湧きを処理する
+execute if entity @s[tag=] run function initialization_manager:vanilla/main
 
 # Ally + Boss        -> Ally + Boss
 # Ally               -> Ally

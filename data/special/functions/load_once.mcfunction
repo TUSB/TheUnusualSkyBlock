@@ -73,6 +73,8 @@ scoreboard objectives add Damage dummy {"text":"ダメージ(hp)"}
 scoreboard objectives add NaturalDamage dummy {"text":"自然ダメージ(hp)"}
 ### 敵スキル
 scoreboard objectives add SkillTimer dummy {"text":"スキルタイマー"}
+### 寿命
+scoreboard objectives add LifeTime dummy {"text":"寿命"}
 
 #################### 振舞い定義用スコアボード ####################
 ### TargetSettings
@@ -118,6 +120,8 @@ function calc_manager:initialize_score
 function status_manager:initialize_score
 
 #################### システムブロック設置 ####################
+### 上書きするとnbtが消えるので一旦消去
+fill 0 0 0 0 2 0 minecraft:air
 setblock 0 0 0 minecraft:jukebox{RecordItem:{id:"minecraft:stone",Count:1b,tag:{}}}
 setblock 0 1 0 minecraft:oak_sign
 setblock 0 2 0 minecraft:shulker_box
