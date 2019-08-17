@@ -23,6 +23,7 @@ execute if entity @s[tag=Satelite] run function skill_manager:enemy/satelite
 execute if entity @s[tag=Scream] run function skill_manager:enemy/scream
 execute if entity @s[tag=SecurityLaser] run function skill_manager:enemy/security_laser/level
 execute if entity @s[tag=SelfHeal] run function skill_manager:enemy/self_heal
+execute if entity @s[tag=SetBlock] run function skill_manager:enemy/setblock
 execute if entity @s[tag=Servant] run function skill_manager:enemy/servant
 execute if entity @s[tag=Shinen] run function skill_manager:enemy/shinen
 execute if entity @s[tag=Shooter] run function skill_manager:enemy/shootor
