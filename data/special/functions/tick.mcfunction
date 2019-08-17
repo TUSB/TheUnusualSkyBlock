@@ -127,13 +127,13 @@ execute as @e[tag=Spawn] positioned as @s run function enemy_manager:spawn/alloc
 # execute store success score $Replaced Global as @e[tag=!Initialized] at @s run function entity_manager:initialize_entity
 
 # ###存在する限り毎tick処理呼び出し
-# execute as @e[tag=NativeTask] at @s run function main:task/native
+execute as @e[tag=NativeTask] at @s run function main:task/native
 # ###一時的毎tick処理呼び出し
 # execute as @e[tag=Mob] unless score @s TemporaryEffects matches 0 at @s run function main:task/temporary
 
 # ###１秒処理
-# scoreboard players add $Second Count 1
-# execute if score $Second Count matches 21.. run function main:one_second
+scoreboard players add $Second Count 1
+execute if score $Second Count matches 21.. run function main:one_second
 
 # ###飛翔物スキル処理
 # execute as @e[tag=Mob,scores={ProjectileSkill=1..}] at @s run function skill_manager:projectile/check
@@ -184,8 +184,8 @@ execute as @e[tag=Spawn] positioned as @s run function enemy_manager:spawn/alloc
 # ##敵討伐時処理 -> HurtTime処理に纏められる
 # execute as @e[tag=Mob,nbt={AbsorptionAmount:0f}] at @s run function entity_manager:mob_death
 # ##乗り物削除フラグ付与
-# tag @e[tag=Vehicle,nbt=!{Passengers:[{}]}] add Garbage
-# tag @e[tag=Vehicle,tag=Anchored,nbt=!{Passengers:[{Tags:[Anchor]}]}] add Garbage
+tag @e[tag=Vehicle,nbt=!{Passengers:[{}]}] add Garbage
+tag @e[tag=Vehicle,tag=Anchored,nbt=!{Passengers:[{Tags:[Anchor]}]}] add Garbage
 # ##エンティティ削除
 execute as @e[tag=Garbage] run function entity_manager:garbage_collection
 # ##################################################     エンティティダメージ＆削除処理の壁     ##################################################
