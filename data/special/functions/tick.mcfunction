@@ -2,6 +2,8 @@
 ### 毎ティック処理
 ##############################
 
+## テストコミット用
+
 ### 共通使用タイマー(set/operation=以外で設定しないこと)
 scoreboard players add * GlobalTickTimer 1
 scoreboard players add * GlobalCSTimer 5
