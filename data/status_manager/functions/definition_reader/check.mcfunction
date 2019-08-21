@@ -6,9 +6,9 @@
 function data_manager:parameter/status_settings/check
 
 ### 定義持ちなら読み込み
-execute if score $StatusSettings SuccessCount matches 1.. run function status_manager:definition_reader/read_data
+execute if score $StatusSettings ItSelf matches 1.. run function status_manager:definition_reader/read_data
 ### 定義なしならデフォルト読み込み
-execute if score $StatusSettings SuccessCount matches ..0 run function status_manager:definition_reader/default_data
+execute if score $StatusSettings ItSelf matches ..0 run function status_manager:definition_reader/default_data
 
 ### 最大値を現在値と同じに
 scoreboard players operation @s MaxHP = @s HP

@@ -32,8 +32,8 @@ scoreboard objectives add GlobalCSTimer dummy {"text":"共通CentiSecタイマ�
 scoreboard objectives add Global dummy {"text":"グローバル変数"}
 ### ローカル変数(要らないデータしか入れてはいけない!!!!!!!!!!!!!)
 scoreboard objectives add Local dummy {"text":"ローカル変数"}
-### 成功カウント
-scoreboard objectives add SuccessCount dummy {"text":"コマンド成功カウント"}
+### 専用スコア
+scoreboard objectives add ItSelf dummy {"text":"専用スコア"}
 ### 乱数
 scoreboard objectives add Random dummy {"text":"乱数"}
 
