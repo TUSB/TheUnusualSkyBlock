@@ -15,9 +15,9 @@ schedule function assert_manager:behaviour/reader/moves/start_direction/tilt_off
 schedule function assert_manager:behaviour/reader/moves/spin_speed/default 18t
 schedule function assert_manager:behaviour/reader/moves/spin_speed/set 20t
 
-schedule function assert_manager:behaviour/reader/moves/repeater/continue/default 22t
-schedule function assert_manager:behaviour/reader/moves/repeater/continue/false 24t
-schedule function assert_manager:behaviour/reader/moves/repeater/continue/true 26t
+schedule function assert_manager:behaviour/reader/moves/repeater/recycle/default 22t
+schedule function assert_manager:behaviour/reader/moves/repeater/recycle/off 24t
+schedule function assert_manager:behaviour/reader/moves/repeater/recycle/on 26t
 
 schedule function assert_manager:behaviour/reader/moves/repeater/count/default 28t
 schedule function assert_manager:behaviour/reader/moves/repeater/count/set 30t

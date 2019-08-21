@@ -3,4 +3,4 @@
 ##############################
 
 ### 規定値は非継続
-# tag @s remove CarryMove
+# tag @s remove MoveRecycle

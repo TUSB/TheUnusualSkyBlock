@@ -12,7 +12,7 @@ function behaviour_manager:definition_reader/moves/repeater/end/read
 function behaviour_manager:definition_reader/moves/repeater/count/read
 
 ### 継続するか
-function behaviour_manager:definition_reader/moves/repeater/continue/read
+function behaviour_manager:definition_reader/moves/repeater/recycle/read
 
 ### 時間補正
 function behaviour_manager:definition_reader/moves/repeater/time_modifier
