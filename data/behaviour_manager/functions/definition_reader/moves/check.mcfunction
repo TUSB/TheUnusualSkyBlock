@@ -3,7 +3,7 @@
 ##############################
 
 ### nbtチェック
-function data_manager:parameter/check_move_settings
+function data_manager:parameter/move_settings/check
 
 ### 定義持ちなら読み込み
 execute if score $MoveSettings SuccessCount matches 1.. run function behaviour_manager:definition_reader/moves/read_data
