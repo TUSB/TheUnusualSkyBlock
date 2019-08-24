@@ -17,6 +17,9 @@ execute store result score $_ MotionX run data get entity @s Motion[0] 10000
 execute store result score $_ MotionY run data get entity @s Motion[1] 10000
 execute store result score $_ MotionZ run data get entity @s Motion[2] 10000
 
+### 向きを合わせる
+execute at @s rotated as 1-0-0-0-0 run tp @s ~ ~ ~ ~ ~
+
 ### 向きを補正しておく
 execute if entity @s[tag=Ignore.Tilt] at 1-0-0-0-0 run tp 1-0-0-0-0 ~ ~ ~ ~ 0
 execute if entity @s[tag=Ignore.Rotate] at 1-0-0-0-0 run tp 1-0-0-0-0 ~ ~ ~ 0 ~

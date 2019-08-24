@@ -12,6 +12,9 @@ execute positioned as 1-0-1-0-0 run function calc_manager:rotation/slerp
 ### 自身の向きを保存する
 function data_manager:cursor/data_id/save_rotation
 
+### 向きを合わせる
+execute at @s rotated as 1-0-0-0-0 run tp @s ~ ~ ~ ~ ~
+
 ### 向きを補正しておく
 execute if entity @s[tag=Ignore.Tilt] at 1-0-0-0-0 run tp 1-0-0-0-0 ~ ~ ~ ~ 0
 execute if entity @s[tag=Ignore.Rotate] at 1-0-0-0-0 run tp 1-0-0-0-0 ~ ~ ~ 0 ~
