@@ -21,3 +21,4 @@ execute store result score @s MovementSpeed run data get entity @s Attributes[{N
 
 ### 自動判定した方がいい内容があったら追加
 tag @s[type=!minecraft:armor_stand] add Mob
+tag @s[tag=Cargo] add NativeTask
