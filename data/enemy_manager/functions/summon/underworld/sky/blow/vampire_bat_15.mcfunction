@@ -1,0 +1,5 @@
+##############################
+### 吸血コウモリ召喚 - Underworld Sky Blow
+##############################
+
+summon bat ~ ~1 ~ {DeathLootTable:"loot_manager:empty",CustomName:"\"吸血コウモリ\"",Passengers:[{id:snowball,Tags:[Parameter],Item:{id:snowball,Count:1b,tag:{StatusSettings:{HP:50,LifeTime:1600.00d},TargetSettings:{Target:"Ally",Active:"Always",Detect:"BySight",Destination:"Update",FollowRange:16.00d,DesiredHeight:4.00d,DesiredDistance:4.00d},MoveSettingsList:[{OnClose:{ForwardBy:1},SpinSpeed:2d,Forward:{Speed:0.3d},Repeater:{Start:{Mean:5d,Range:5d},End:{Mean:20d,Range:5d},Count:3,Recycle:On}},{OnClose:{ForwardBy:-2},SpinSpeed:2d,Forward:{Speed:-0.3d},Repeater:{Start:{Mean:5d,Range:5d},End:{Mean:20d,Range:5d},Count:1,Recycle:On}}]}}},{id:area_effect_cloud,Tags:["Cargo"],Particle:"minecraft:dripping_lava",Duration:99,Radius:0.5f,Passengers:[{id:area_effect_cloud,CustomName:"\"吸血コウモリ\"",Tags:["Cargo"],Particle:"minecraft:block minecraft:air",Duration:99,Radius:1.5f,Effects:[{Id:7b,Amplifier:0b,Duration:1},{Id:9b,Amplifier:0b,Duration:70},{Id:15b,Amplifier:0b,Duration:23},{Id:18b,Amplifier:5b,Duration:70}]}]}]}

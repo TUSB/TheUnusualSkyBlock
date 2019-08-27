@@ -1,0 +1,5 @@
+##############################
+### 鉄を貪る者_弱召喚 - Tocult Ground Blow
+##############################
+
+summon husk ~ ~1 ~ {Tags:[Enemy],id:"minecraft:husk",CustomName:"\"鉄を貪る者:弱\"",Silent:true,DeathLootTable:"loot_manager:empty",Attributes:[{Name:"generic.movementSpeed",Base:0.22d},{Name:"generic.attackDamage",Base:10d},{Name:"generic.followRange",Base:48d}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2000000,ShowParticles:false}],ArmorItems:[{},{},{id:"minecraft:iron_chestplate",Count:1b,tag:{Unbreakable:1b}},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"e49a7f35-e644-476d-bd3d-ce2aca71455f",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFhMTc1MGY2ZWYzMTRiYjM2Njg2YTlmN2VjNzdkOTgzNzgzZjZhM2VjZGEyZTMyYzJmYWViMDM4M2Y3N2EzIn19fQ=="}]}}}}],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f],Passengers:[{id:snowball,Tags:[Parameter],Item:{id:snowball,Count:1b,tag:{Skill:[{Name:"IcingRay",MinTime:20,MaxTime:100}],StatusSettings:{HP:3000}}}}]}
