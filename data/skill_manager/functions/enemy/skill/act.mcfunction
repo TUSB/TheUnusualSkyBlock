@@ -30,6 +30,9 @@ execute if entity @s[tag=Shooter] run function skill_manager:enemy/shootor
 execute if entity @s[tag=Teleport] run function skill_manager:enemy/teleport
 execute if entity @s[tag=WhiteRider] run function skill_manager:enemy/white_rider/summon
 
+### イベント移植
+execute if entity @s[tag=StardustBomb] run function skill_manager:enemy/event/stardust_bomb
+
 ### タグを復元
 data modify entity @s Tags set from entity 1-0-0-0-0 Tags
 data merge entity 1-0-0-0-0 {Tags:[Initialized,System]}
