@@ -32,6 +32,7 @@ execute if entity @s[tag=WhiteRider] run function skill_manager:enemy/white_ride
 
 ### イベント移植
 execute if entity @s[tag=StardustBomb] run function skill_manager:enemy/event/stardust_bomb
+execute if entity @s[tag=StardustBomb] run function skill_manager:enemy/event/genocide_blast
 
 ### タグを復元
 data modify entity @s Tags set from entity 1-0-0-0-0 Tags
