@@ -244,3 +244,6 @@ execute as @e[tag=Garbage] run function entity_manager:garbage_collection
 # execute as @a if score @s QuestClick matches 1.. run function quest_manager:main/list_clicked
 # execute as @a if score @s QuestReceive matches 1.. run function quest_manager:main/receive_decide
 # execute as @a if score @s QuestReport matches 1.. run function quest_manager:main/done_decide
+
+#新デバッグルーム
+execute if score $GenerateTick Global matches 0.. as @e[tag=TilePos] positioned as @s run function test_manager:test_room/generate/tick
