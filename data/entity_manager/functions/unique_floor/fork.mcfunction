@@ -10,3 +10,6 @@ execute if block ~ ~-2 ~ minecraft:nether_wart_block if entity @s[nbt={OnGround:
 
 ### 移動床
 execute if block ~ ~-2 ~ minecraft:magenta_glazed_terracotta run function entity_manager:unique_floor/moving_walkway
+
+### 赤石床
+execute if block ~ ~-2 ~ minecraft:smooth_quartz run function entity_manager:unique_floor/redstone_floor
