@@ -102,7 +102,7 @@ execute as @a[scores={UseArmorStand=1..}] at @s run function trigger_manager:arm
 # execute as @a[scores={Jump=1..}] at @s run function trigger_manager:jump
 # execute as @a[scores={Deaths=1..}] at @s run function trigger_manager:death
 # execute as @a[scores={FoodLevel=1..}] at @s run function trigger_manager:food_preview
-# execute as @a[scores={SneakTime=1..}] at @s run function trigger_manager:sneak
+execute as @a[scores={SneakTime=1..}] at @s run function trigger_manager:sneak
 # execute as @a[scores={TalkToVillager=1..}] at @s run function trigger_manager:villager/talk
 
 # ###スキルエッグ

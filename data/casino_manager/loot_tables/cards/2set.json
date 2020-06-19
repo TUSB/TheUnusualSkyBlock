@@ -1,0 +1,3124 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:1,Rank:\"A\",Name:\"A♣\",ID:1001,display:{Name:'{\"text\":\"A♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1001]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:2,Rank:\"2\",Name:\"2♣\",ID:1002,display:{Name:'{\"text\":\"2♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1002]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:3,Rank:\"3\",Name:\"3♣\",ID:1003,display:{Name:'{\"text\":\"3♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1003]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:4,Rank:\"4\",Name:\"4♣\",ID:1004,display:{Name:'{\"text\":\"4♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1004]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:5,Rank:\"5\",Name:\"5♣\",ID:1005,display:{Name:'{\"text\":\"5♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1005]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:6,Rank:\"6\",Name:\"6♣\",ID:1006,display:{Name:'{\"text\":\"6♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1006]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:7,Rank:\"7\",Name:\"7♣\",ID:1007,display:{Name:'{\"text\":\"7♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1007]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:8,Rank:\"8\",Name:\"8♣\",ID:1008,display:{Name:'{\"text\":\"8♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1008]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:9,Rank:\"9\",Name:\"9♣\",ID:1009,display:{Name:'{\"text\":\"9♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1009]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:10,Rank:\"10\",Name:\"10♣\",ID:1010,display:{Name:'{\"text\":\"10♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1010]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:11,Rank:\"J\",Name:\"J♣\",ID:1011,display:{Name:'{\"text\":\"J♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1011]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:12,Rank:\"Q\",Name:\"Q♣\",ID:1012,display:{Name:'{\"text\":\"Q♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1012]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:13,Rank:\"K\",Name:\"K♣\",ID:1013,display:{Name:'{\"text\":\"K♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1013]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:1,Rank:\"A\",Name:\"A♦\",ID:1101,display:{Name:'{\"text\":\"A♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1101]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:2,Rank:\"2\",Name:\"2♦\",ID:1102,display:{Name:'{\"text\":\"2♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1102]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:3,Rank:\"3\",Name:\"3♦\",ID:1103,display:{Name:'{\"text\":\"3♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1103]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:4,Rank:\"4\",Name:\"4♦\",ID:1104,display:{Name:'{\"text\":\"4♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1104]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:5,Rank:\"5\",Name:\"5♦\",ID:1105,display:{Name:'{\"text\":\"5♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1105]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:6,Rank:\"6\",Name:\"6♦\",ID:1106,display:{Name:'{\"text\":\"6♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1106]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:7,Rank:\"7\",Name:\"7♦\",ID:1107,display:{Name:'{\"text\":\"7♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1107]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:8,Rank:\"8\",Name:\"8♦\",ID:1108,display:{Name:'{\"text\":\"8♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1108]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:9,Rank:\"9\",Name:\"9♦\",ID:1109,display:{Name:'{\"text\":\"9♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1109]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:10,Rank:\"10\",Name:\"10♦\",ID:1110,display:{Name:'{\"text\":\"10♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1110]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:11,Rank:\"J\",Name:\"J♦\",ID:1111,display:{Name:'{\"text\":\"J♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1111]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:12,Rank:\"Q\",Name:\"Q♦\",ID:1112,display:{Name:'{\"text\":\"Q♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1112]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:13,Rank:\"K\",Name:\"K♦\",ID:1113,display:{Name:'{\"text\":\"K♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1113]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:1,Rank:\"A\",Name:\"A♥\",ID:1201,display:{Name:'{\"text\":\"A♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1201]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:2,Rank:\"2\",Name:\"2♥\",ID:1202,display:{Name:'{\"text\":\"2♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1202]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:3,Rank:\"3\",Name:\"3♥\",ID:1203,display:{Name:'{\"text\":\"3♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1203]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:4,Rank:\"4\",Name:\"4♥\",ID:1204,display:{Name:'{\"text\":\"4♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1204]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:5,Rank:\"5\",Name:\"5♥\",ID:1205,display:{Name:'{\"text\":\"5♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1205]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:6,Rank:\"6\",Name:\"6♥\",ID:1206,display:{Name:'{\"text\":\"6♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1206]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:7,Rank:\"7\",Name:\"7♥\",ID:1207,display:{Name:'{\"text\":\"7♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1207]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:8,Rank:\"8\",Name:\"8♥\",ID:1208,display:{Name:'{\"text\":\"8♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1208]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:9,Rank:\"9\",Name:\"9♥\",ID:1209,display:{Name:'{\"text\":\"9♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1209]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:10,Rank:\"10\",Name:\"10♥\",ID:1210,display:{Name:'{\"text\":\"10♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1210]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:11,Rank:\"J\",Name:\"J♥\",ID:1211,display:{Name:'{\"text\":\"J♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1211]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:12,Rank:\"Q\",Name:\"Q♥\",ID:1212,display:{Name:'{\"text\":\"Q♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1212]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:13,Rank:\"K\",Name:\"K♥\",ID:1213,display:{Name:'{\"text\":\"K♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1213]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:1,Rank:\"A\",Name:\"A♠\",ID:1301,display:{Name:'{\"text\":\"A♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1301]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:2,Rank:\"2\",Name:\"2♠\",ID:1302,display:{Name:'{\"text\":\"2♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1302]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:3,Rank:\"3\",Name:\"3♠\",ID:1303,display:{Name:'{\"text\":\"3♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1303]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:4,Rank:\"4\",Name:\"4♠\",ID:1304,display:{Name:'{\"text\":\"4♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1304]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:5,Rank:\"5\",Name:\"5♠\",ID:1305,display:{Name:'{\"text\":\"5♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1305]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:6,Rank:\"6\",Name:\"6♠\",ID:1306,display:{Name:'{\"text\":\"6♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1306]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:7,Rank:\"7\",Name:\"7♠\",ID:1307,display:{Name:'{\"text\":\"7♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1307]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:8,Rank:\"8\",Name:\"8♠\",ID:1308,display:{Name:'{\"text\":\"8♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1308]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:9,Rank:\"9\",Name:\"9♠\",ID:1309,display:{Name:'{\"text\":\"9♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1309]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:10,Rank:\"10\",Name:\"10♠\",ID:1310,display:{Name:'{\"text\":\"10♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1310]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:11,Rank:\"J\",Name:\"J♠\",ID:1311,display:{Name:'{\"text\":\"J♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1311]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:12,Rank:\"Q\",Name:\"Q♠\",ID:1312,display:{Name:'{\"text\":\"Q♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1312]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:13,Rank:\"K\",Name:\"K♠\",ID:1313,display:{Name:'{\"text\":\"K♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[1313]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:1,Rank:\"A\",Name:\"A♣\",ID:2001,display:{Name:'{\"text\":\"A♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2001]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:2,Rank:\"2\",Name:\"2♣\",ID:2002,display:{Name:'{\"text\":\"2♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2002]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:3,Rank:\"3\",Name:\"3♣\",ID:2003,display:{Name:'{\"text\":\"3♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2003]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:4,Rank:\"4\",Name:\"4♣\",ID:2004,display:{Name:'{\"text\":\"4♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2004]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:5,Rank:\"5\",Name:\"5♣\",ID:2005,display:{Name:'{\"text\":\"5♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2005]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:6,Rank:\"6\",Name:\"6♣\",ID:2006,display:{Name:'{\"text\":\"6♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2006]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:7,Rank:\"7\",Name:\"7♣\",ID:2007,display:{Name:'{\"text\":\"7♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2007]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:8,Rank:\"8\",Name:\"8♣\",ID:2008,display:{Name:'{\"text\":\"8♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2008]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:9,Rank:\"9\",Name:\"9♣\",ID:2009,display:{Name:'{\"text\":\"9♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2009]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:10,Rank:\"10\",Name:\"10♣\",ID:2010,display:{Name:'{\"text\":\"10♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2010]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:11,Rank:\"J\",Name:\"J♣\",ID:2011,display:{Name:'{\"text\":\"J♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2011]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:12,Rank:\"Q\",Name:\"Q♣\",ID:2012,display:{Name:'{\"text\":\"Q♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2012]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:0,Suit:\"♣\",Number:13,Rank:\"K\",Name:\"K♣\",ID:2013,display:{Name:'{\"text\":\"K♣\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2013]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:1,Rank:\"A\",Name:\"A♦\",ID:2101,display:{Name:'{\"text\":\"A♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2101]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:2,Rank:\"2\",Name:\"2♦\",ID:2102,display:{Name:'{\"text\":\"2♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2102]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:3,Rank:\"3\",Name:\"3♦\",ID:2103,display:{Name:'{\"text\":\"3♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2103]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:4,Rank:\"4\",Name:\"4♦\",ID:2104,display:{Name:'{\"text\":\"4♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2104]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:5,Rank:\"5\",Name:\"5♦\",ID:2105,display:{Name:'{\"text\":\"5♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2105]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:6,Rank:\"6\",Name:\"6♦\",ID:2106,display:{Name:'{\"text\":\"6♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2106]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:7,Rank:\"7\",Name:\"7♦\",ID:2107,display:{Name:'{\"text\":\"7♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2107]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:8,Rank:\"8\",Name:\"8♦\",ID:2108,display:{Name:'{\"text\":\"8♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2108]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:9,Rank:\"9\",Name:\"9♦\",ID:2109,display:{Name:'{\"text\":\"9♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2109]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:10,Rank:\"10\",Name:\"10♦\",ID:2110,display:{Name:'{\"text\":\"10♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2110]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:11,Rank:\"J\",Name:\"J♦\",ID:2111,display:{Name:'{\"text\":\"J♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2111]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:12,Rank:\"Q\",Name:\"Q♦\",ID:2112,display:{Name:'{\"text\":\"Q♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2112]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:1,Suit:\"♦\",Number:13,Rank:\"K\",Name:\"K♦\",ID:2113,display:{Name:'{\"text\":\"K♦\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2113]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:1,Rank:\"A\",Name:\"A♥\",ID:2201,display:{Name:'{\"text\":\"A♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2201]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:2,Rank:\"2\",Name:\"2♥\",ID:2202,display:{Name:'{\"text\":\"2♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2202]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:3,Rank:\"3\",Name:\"3♥\",ID:2203,display:{Name:'{\"text\":\"3♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2203]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:4,Rank:\"4\",Name:\"4♥\",ID:2204,display:{Name:'{\"text\":\"4♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2204]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:5,Rank:\"5\",Name:\"5♥\",ID:2205,display:{Name:'{\"text\":\"5♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2205]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:6,Rank:\"6\",Name:\"6♥\",ID:2206,display:{Name:'{\"text\":\"6♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2206]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:7,Rank:\"7\",Name:\"7♥\",ID:2207,display:{Name:'{\"text\":\"7♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2207]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:8,Rank:\"8\",Name:\"8♥\",ID:2208,display:{Name:'{\"text\":\"8♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2208]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:9,Rank:\"9\",Name:\"9♥\",ID:2209,display:{Name:'{\"text\":\"9♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2209]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:10,Rank:\"10\",Name:\"10♥\",ID:2210,display:{Name:'{\"text\":\"10♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2210]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:11,Rank:\"J\",Name:\"J♥\",ID:2211,display:{Name:'{\"text\":\"J♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2211]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:12,Rank:\"Q\",Name:\"Q♥\",ID:2212,display:{Name:'{\"text\":\"Q♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2212]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:2,Suit:\"♥\",Number:13,Rank:\"K\",Name:\"K♥\",ID:2213,display:{Name:'{\"text\":\"K♥\",\"color\":\"red\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2213]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:1,Rank:\"A\",Name:\"A♠\",ID:2301,display:{Name:'{\"text\":\"A♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2301]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:2,Rank:\"2\",Name:\"2♠\",ID:2302,display:{Name:'{\"text\":\"2♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2302]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:3,Rank:\"3\",Name:\"3♠\",ID:2303,display:{Name:'{\"text\":\"3♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2303]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:4,Rank:\"4\",Name:\"4♠\",ID:2304,display:{Name:'{\"text\":\"4♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2304]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:5,Rank:\"5\",Name:\"5♠\",ID:2305,display:{Name:'{\"text\":\"5♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2305]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:6,Rank:\"6\",Name:\"6♠\",ID:2306,display:{Name:'{\"text\":\"6♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2306]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:7,Rank:\"7\",Name:\"7♠\",ID:2307,display:{Name:'{\"text\":\"7♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2307]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:8,Rank:\"8\",Name:\"8♠\",ID:2308,display:{Name:'{\"text\":\"8♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2308]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:9,Rank:\"9\",Name:\"9♠\",ID:2309,display:{Name:'{\"text\":\"9♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2309]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:10,Rank:\"10\",Name:\"10♠\",ID:2310,display:{Name:'{\"text\":\"10♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2310]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:11,Rank:\"J\",Name:\"J♠\",ID:2311,display:{Name:'{\"text\":\"J♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2311]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:12,Rank:\"Q\",Name:\"Q♠\",ID:2312,display:{Name:'{\"text\":\"Q♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2312]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:red_carpet",
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{SuitID:3,Suit:\"♠\",Number:13,Rank:\"K\",Name:\"K♠\",ID:2313,display:{Name:'{\"text\":\"K♠\",\"color\":\"white\",\"italic\":false}'}}"
+                        }
+                    ]
+                }
+            ],
+            "conditions": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                        "condition": "minecraft:location_check",
+                        "offsetY": -2,
+                        "predicate": {
+                            "block": {
+                                "nbt": "{RecordItem:{tag:{UsedID:[2313]}}}"
+                            }
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
