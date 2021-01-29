@@ -1,9 +1,0 @@
-##############################
-### 恐怖付与
-##############################
-
-scoreboard players operation @s TerrorLevel > $40 Const
-tellraw @a [{"text":"","color":"red"},{"selector":"@s"},"は",{"text":"恐怖","color":"white","hoverEvent":{"action":"show_text","value":"スキルが発動しにくくなる。","color":"white"}},"した！"]
-
-###進捗
-execute if entity @s[advancements={advancement_manager:dictionary/bad_effects/terror=false}] run advancement grant @s only advancement_manager:dictionary/bad_effects/terror
