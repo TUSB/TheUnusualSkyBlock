@@ -12,5 +12,5 @@
           "biome": "minecraft:the_void"
       }
   },
-  "type": "area_manager:imaginary_space"
+  "type": "area:imaginary_space"
 }
