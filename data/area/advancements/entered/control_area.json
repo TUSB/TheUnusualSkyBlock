@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "triggered": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "area:control_area"
+            }
+        }
+    },
+    "rewards": {
+        "function": "area:entered/control_area"
+    }
+}

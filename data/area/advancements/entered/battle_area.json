@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "triggered": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "area:battle_area"
+            }
+        }
+    },
+    "rewards": {
+        "function": "area:entered/battle_area"
+    }
+}
