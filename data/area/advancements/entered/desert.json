@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "triggered": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "area:desert"
+            }
+        }
+    },
+    "rewards": {
+        "function": "area:entered/desert"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "triggered": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "area:gllivers_land"
+            }
+        }
+    },
+    "rewards": {
+        "function": "area:entered/gllivers_land"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "triggered": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "area:table_mountain"
+            }
+        }
+    },
+    "rewards": {
+        "function": "area:entered/table_mountain"
+    }
+}

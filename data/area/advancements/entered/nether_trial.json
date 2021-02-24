@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "triggered": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "area:nether_trial"
+            }
+        }
+    },
+    "rewards": {
+        "function": "area:entered/nether_trial"
+    }
+}

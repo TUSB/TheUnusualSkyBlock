@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "triggered": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "area:theater"
+            }
+        }
+    },
+    "rewards": {
+        "function": "area:entered/theater"
+    }
+}
