@@ -1,0 +1,1 @@
+execute in area:nether run tp @s 1343 100 1194 -90 0

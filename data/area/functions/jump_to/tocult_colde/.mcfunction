@@ -1,0 +1,1 @@
+execute in area:tocult_colde run tp @s 1317 213 1561 0 0
