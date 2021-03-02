@@ -1,6 +1,6 @@
 {
     "criteria": {
-        "gullivers_land":{
+        "skylands":{
             "trigger": "enter_block",
             "conditions": {
                 "block": "end_gateway",
@@ -12,19 +12,19 @@
                             "location": {
                                 "position": {
                                     "x": {
-                                        "min": 84,
-                                        "max": 86
+                                        "min": -2587,
+                                        "max": -2585
                                     },
                                     "y": {
                                         "min": 22,
                                         "max": 24
                                     },
                                     "z": {
-                                        "min": -680,
-                                        "max": -678
+                                        "min": -140,
+                                        "max": -134
                                     }
                                 },
-                                "dimension": "area:skylands"
+                                "dimension": "area:cloudia"
                             }
                         }
                     }
@@ -33,6 +33,6 @@
         }
     },
     "rewards": {
-        "function": "area:jump_to/gullivers_land/"
+        "function": "area:jump_to/cloudia/skylands"
     }
 }
