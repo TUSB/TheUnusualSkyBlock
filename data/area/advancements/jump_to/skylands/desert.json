@@ -1,34 +1,28 @@
 {
     "criteria": {
-        "desert":{
-            "trigger": "enter_block",
+        "requirement": {
+            "trigger": "minecraft:location",
             "conditions": {
-                "block": "end_gateway",
-                "player": [
-                    {
-                        "condition": "entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "location": {
-                                "position": {
-                                    "x": {
-                                        "min": 76,
-                                        "max": 80
-                                    },
-                                    "y": {
-                                        "min": 200,
-                                        "max": 204
-                                    },
-                                    "z": {
-                                        "min": -580,
-                                        "max": -578
-                                    }
-                                },
-                                "dimension": "area:skylands"
-                            }
+                "location": {
+                    "position": {
+                        "x": {
+                            "min": 76,
+                            "max": 80
+                        },
+                        "y": {
+                            "min": 200,
+                            "max": 204
+                        },
+                        "z": {
+                            "min": -580,
+                            "max": -578
                         }
+                    },
+                    "dimension": "area:skylands",
+                    "block": {
+                        "block": "minecraft:end_gateway"
                     }
-                ]
+                }
             }
         }
     },
