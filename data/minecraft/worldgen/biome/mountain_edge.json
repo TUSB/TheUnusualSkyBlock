@@ -9,10 +9,10 @@
     },
     "foliage_color": 16750848,
     "grass_color": 16758528,
-    "sky_color": 7907327,
-    "fog_color": 12638463,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "sky_color": 14333825,
+    "fog_color": 16446357,
+    "water_color": 13945336,
+    "water_fog_color": 14252696
   },
   "surface_builder": "minecraft:nope",
   "carvers": {},

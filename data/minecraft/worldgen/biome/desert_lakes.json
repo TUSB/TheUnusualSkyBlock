@@ -15,10 +15,10 @@
       },
     "foliage_color": 10027008,
     "grass_color": 6684672,
-    "sky_color": 10027008,
+    "sky_color": 4718592,
     "fog_color": 6684672,
-    "water_color": 10027008,
-    "water_fog_color": 6684672
+    "water_color": 16711680,
+    "water_fog_color": 11796480
   },
   "surface_builder": "minecraft:nope",
   "carvers": {},

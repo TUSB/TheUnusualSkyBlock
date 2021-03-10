@@ -7,12 +7,18 @@
       "block_search_extent": 8,
       "offset": 2.0
     },
-    "foliage_color": 9551193,
-    "grass_color": 9551193,
-    "sky_color": 7907327,
-    "fog_color": 12638463,
-    "water_color": 4159204,
-    "water_fog_color": 329011
+    "particle": {
+      "options": {
+        "type": "minecraft:ash"
+      },
+      "probability": 0.005
+      },
+    "foliage_color": 16776960,
+    "grass_color": 4538706,
+    "sky_color": 2829099,
+    "fog_color": 9801392,
+    "water_color": 65450,
+    "water_fog_color": 16777215
   },
   "surface_builder": "minecraft:nope",
   "carvers": {},
