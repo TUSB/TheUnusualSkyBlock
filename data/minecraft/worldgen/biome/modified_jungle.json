@@ -14,11 +14,11 @@
       "probability": 0.003
     },
     "foliage_color": 10027008,
-    "grass_color": 9515389,
+    "grass_color": 65450,
     "sky_color": 4860224,
     "fog_color": 6684672,
-    "water_color": 7548246,
-    "water_fog_color": 11796480
+    "water_color": 16711680,
+    "water_fog_color": 180
   },
   "surface_builder": "minecraft:nope",
   "carvers": {},
