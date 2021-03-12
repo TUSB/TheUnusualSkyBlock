@@ -2,5 +2,5 @@
 
 function makeup:area/entered/
 title @s subtitle {"text":"== THE END =="}
-title @s title {"text":"エンド","color":"dark_purple"}
+title @s title {"text":"エンド","color":"#ffffff"}
 playsound minecraft:block.end_portal.spawn master @s ~ ~ ~ 0.5 0.5
