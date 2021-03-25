@@ -17,8 +17,8 @@
     "grass_color": 102,
     "sky_color": 72,
     "fog_color": 102,
-    "water_color": 255,
-    "water_fog_color": 180
+    "water_color": 54015,
+    "water_fog_color": 13169151
   },
   "surface_builder": "minecraft:nope",
   "carvers": {},
