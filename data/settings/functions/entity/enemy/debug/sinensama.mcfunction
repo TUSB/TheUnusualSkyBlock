@@ -14,18 +14,16 @@ data modify storage tusb_mob: "固有ステータス"."基本移動力" set valu
 data modify storage tusb_mob: "固有ステータス"."ノックバック耐性" set value 1d
 data modify storage tusb_mob: "固有ステータス"."ノックバック力" set value 5d
 # 基礎ポイント
-data modify storage tusb_mob: "基礎ポイント"."最大HP" set value 3
-data modify storage tusb_mob: "基礎ポイント"."最大MP" set value 1
-data modify storage tusb_mob: "基礎ポイント"."物理攻撃力" set value 5
-data modify storage tusb_mob: "基礎ポイント"."物理防御力" set value 3
-data modify storage tusb_mob: "基礎ポイント"."魔法攻撃力" set value 3
-data modify storage tusb_mob: "基礎ポイント"."魔法防御力" set value 5
-data modify storage tusb_mob: "基礎ポイント"."合計ポイント" set value 20
+data modify storage tusb_mob: "最大HP"."基礎ポイント" set value 3
+data modify storage tusb_mob: "最大MP"."基礎ポイント" set value 1
+data modify storage tusb_mob: "物理攻撃力"."基礎ポイント" set value 5
+data modify storage tusb_mob: "物理防御力"."基礎ポイント" set value 3
+data modify storage tusb_mob: "魔法攻撃力"."基礎ポイント" set value 3
+data modify storage tusb_mob: "魔法防御力"."基礎ポイント" set value 5
 # 成長ポイント
-data modify storage tusb_mob: "成長ポイント"."最大HP" set value 3
-data modify storage tusb_mob: "成長ポイント"."最大MP" set value 1
-data modify storage tusb_mob: "成長ポイント"."物理攻撃力" set value 2
-data modify storage tusb_mob: "成長ポイント"."物理防御力" set value 1
-data modify storage tusb_mob: "成長ポイント"."魔法攻撃力" set value 1
-data modify storage tusb_mob: "成長ポイント"."魔法防御力" set value 2
-data modify storage tusb_mob: "成長ポイント"."合計ポイント" set value 20
+data modify storage tusb_mob: "最大HP"."成長ポイント" set value 3
+data modify storage tusb_mob: "最大MP"."成長ポイント" set value 1
+data modify storage tusb_mob: "物理攻撃力"."成長ポイント" set value 2
+data modify storage tusb_mob: "物理防御力"."成長ポイント" set value 1
+data modify storage tusb_mob: "魔法攻撃力"."成長ポイント" set value 1
+data modify storage tusb_mob: "魔法防御力"."成長ポイント" set value 2

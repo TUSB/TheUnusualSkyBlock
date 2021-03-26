@@ -22,3 +22,4 @@ scoreboard objectives add GrowTotal dummy {"text":"合計成長ポイント"}
 
 ###変数や定数、カウンタ
 scoreboard objectives add _ dummy {"text":"一時変数"}
+scoreboard objectives add Ret dummy {"text":"戻り値用一時変数"}
