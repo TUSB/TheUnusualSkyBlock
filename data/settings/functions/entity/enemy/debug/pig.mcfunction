@@ -1,6 +1,6 @@
 ### 深淵様データ
 # TODO: tag=Mobは他でつけたい
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie",CustomName:'"深淵様"',Tags:[Mob]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:pig",CustomName:'"深淵様"',Tags:[Mob]}
 
 ### 即時ステータス
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {HandItems:[{id:"minecraft:diamond_pickaxe",Count:1b},{}]}
@@ -17,7 +17,7 @@ data modify storage tusb_mob: "遅延ステータス"."雷属性値" set value 1
 data modify storage tusb_mob: "遅延ステータス"."光属性値" set value 80
 data modify storage tusb_mob: "遅延ステータス"."闇属性値" set value 180
 # 基礎ポイント
-data modify storage tusb_mob: "遅延ステータス"."最大HP"."基礎ポイント" set value 3
+data modify storage tusb_mob: "遅延ステータス"."最大HP"."基礎ポイント" set value 30
 data modify storage tusb_mob: "遅延ステータス"."最大MP"."基礎ポイント" set value 1
 data modify storage tusb_mob: "遅延ステータス"."物理攻撃力"."基礎ポイント" set value 5
 data modify storage tusb_mob: "遅延ステータス"."物理防御力"."基礎ポイント" set value 3

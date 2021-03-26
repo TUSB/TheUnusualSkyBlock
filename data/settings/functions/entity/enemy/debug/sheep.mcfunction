@@ -1,6 +1,6 @@
 ### 深淵様データ
 # TODO: tag=Mobは他でつけたい
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie",CustomName:'"深淵様"',Tags:[Mob]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:sheep",CustomName:'"深淵様"',Tags:[Mob]}
 
 ### 即時ステータス
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {HandItems:[{id:"minecraft:diamond_pickaxe",Count:1b},{}]}
