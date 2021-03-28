@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:374,EnchantStone:1b,StoneID:\"羽毛\",Tier:7,Enchantments:[{id:\"minecraft:feather_falling\",lvl:7}],display:{Name:'{\"translate\":\"羽毛の宝珠(VII)\",\"color\":\"aqua\",\"italic\":false}',Lore:['[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"足\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:374,EnchantStone:1b,StoneID:\"羽毛\",Tier:7,display:{Name:'{\"translate\":\"羽毛の宝珠(VII)\",\"color\":\"aqua\",\"italic\":false}',Lore:['[{\"translate\":\"enchantment.minecraft.feather_falling\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.7\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"足\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:341,EnchantStone:1b,StoneID:\"大盾\",Tier:1,Enchantments:[{id:\"minecraft:projectile_protection\",lvl:1}],display:{Name:'{\"translate\":\"大盾の欠片(I)\",\"color\":\"aqua\",\"italic\":false}',Lore:['[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:341,EnchantStone:1b,StoneID:\"大盾\",Tier:1,display:{Name:'{\"translate\":\"大盾の欠片(I)\",\"color\":\"aqua\",\"italic\":false}',Lore:['[{\"translate\":\"enchantment.minecraft.projectile_protection\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.1\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

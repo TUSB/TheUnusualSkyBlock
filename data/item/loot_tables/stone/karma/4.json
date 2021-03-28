@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:492,EnchantStone:1b,StoneID:\"因果\",Tier:4,Enchantments:[{id:\"minecraft:looting\",lvl:4},{id:\"minecraft:fortune\",lvl:4},{id:\"minecraft:luck_of_the_sea\",lvl:4}],display:{Name:'{\"translate\":\"因果の原石(IV)\",\"color\":\"aqua\",\"italic\":false}',Lore:['[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"剣・道具・釣り竿\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:492,EnchantStone:1b,StoneID:\"因果\",Tier:4,display:{Name:'{\"translate\":\"因果の原石(IV)\",\"color\":\"aqua\",\"italic\":false}',Lore:['[{\"translate\":\"enchantment.minecraft.looting\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.4\"}]','[{\"translate\":\"enchantment.minecraft.fortune\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.4\"}]','[{\"translate\":\"enchantment.minecraft.luck_of_the_sea\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.4\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"剣・道具・釣り竿\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

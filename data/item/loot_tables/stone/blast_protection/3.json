@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:352,EnchantStone:1b,StoneID:\"耐爆\",Tier:3,Enchantments:[{id:\"minecraft:blast_protection\",lvl:3}],display:{Name:'{\"translate\":\"耐爆の原石(III)\",\"color\":\"aqua\",\"italic\":false}',Lore:['[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:352,EnchantStone:1b,StoneID:\"耐爆\",Tier:3,display:{Name:'{\"translate\":\"耐爆の原石(III)\",\"color\":\"aqua\",\"italic\":false}',Lore:['[{\"translate\":\"enchantment.minecraft.blast_protection\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.3\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

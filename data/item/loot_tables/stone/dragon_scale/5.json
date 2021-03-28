@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:383,EnchantStone:1b,StoneID:\"竜鱗\",Tier:5,Enchantments:[{id:\"minecraft:protection\",lvl:5},{id:\"minecraft:projectile_protection\",lvl:5},{id:\"minecraft:blast_protection\",lvl:5},{id:\"minecraft:fire_protection\",lvl:5}],display:{Name:'{\"translate\":\"竜鱗の結晶(V)\",\"color\":\"aqua\",\"italic\":false}',Lore:['[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:383,EnchantStone:1b,StoneID:\"竜鱗\",Tier:5,display:{Name:'{\"translate\":\"竜鱗の結晶(V)\",\"color\":\"aqua\",\"italic\":false}',Lore:['[{\"translate\":\"enchantment.minecraft.protection\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.5\"}]','[{\"translate\":\"enchantment.minecraft.projectile_protection\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.5\"}]','[{\"translate\":\"enchantment.minecraft.blast_protection\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.5\"}]','[{\"translate\":\"enchantment.minecraft.fire_protection\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.5\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

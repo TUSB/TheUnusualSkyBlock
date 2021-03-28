@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:491,EnchantStone:1b,StoneID:\"因果\",Tier:2,Enchantments:[{id:\"minecraft:looting\",lvl:2},{id:\"minecraft:fortune\",lvl:2},{id:\"minecraft:luck_of_the_sea\",lvl:2}],display:{Name:'{\"translate\":\"因果の欠片(II)\",\"color\":\"aqua\",\"italic\":false}',Lore:['[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"剣・道具・釣り竿\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:491,EnchantStone:1b,StoneID:\"因果\",Tier:2,display:{Name:'{\"translate\":\"因果の欠片(II)\",\"color\":\"aqua\",\"italic\":false}',Lore:['[{\"translate\":\"enchantment.minecraft.looting\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.2\"}]','[{\"translate\":\"enchantment.minecraft.fortune\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.2\"}]','[{\"translate\":\"enchantment.minecraft.luck_of_the_sea\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.2\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"剣・道具・釣り竿\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

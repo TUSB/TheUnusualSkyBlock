@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:224,EnchantStone:1b,StoneID:\"衝撃\",Tier:8,Enchantments:[{id:\"minecraft:knockback\",lvl:8},{id:\"minecraft:punch\",lvl:8}],display:{Name:'{\"translate\":\"衝撃の宝珠(VIII)\",\"color\":\"aqua\",\"italic\":false}',Lore:['[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"剣・弓\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:224,EnchantStone:1b,StoneID:\"衝撃\",Tier:8,display:{Name:'{\"translate\":\"衝撃の宝珠(VIII)\",\"color\":\"aqua\",\"italic\":false}',Lore:['[{\"translate\":\"enchantment.minecraft.knockback\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.8\"}]','[{\"translate\":\"enchantment.minecraft.punch\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.8\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"剣・弓\",\"color\":\"gray\"}]']}}"
             }
           ]
         }
