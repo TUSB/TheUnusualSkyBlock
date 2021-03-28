@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:493,EnchantStone:1b,StoneID:\"因果\",Tier:5,Enchantments:[{id:\"minecraft:looting\",lvl:5},{id:\"minecraft:fortune\",lvl:5},{id:\"minecraft:luck_of_the_sea\",lvl:5}],display:{Name:'{\"translate\":\"因果の結晶(V)\",\"color\":\"aqua\",\"italic\":false}',Lore:['[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"剣・道具・釣り竿\",\"color\":\"gray\"}]']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

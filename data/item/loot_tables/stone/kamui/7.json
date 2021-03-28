@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:194,EnchantStone:1b,StoneID:\"神威\",Tier:7,display:{Name:'{\"translate\":\"神威の宝珠(VII)\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"translate\":\"フレアブースト VII\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"アイスブースト VII\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"エレキブースト VII\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"ホーリーブースト VII\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"ダークブースト VII\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

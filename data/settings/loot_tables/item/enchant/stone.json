@@ -1,0 +1,457 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "minecraft:empty",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"謎\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/blade",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"刃\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/add_fire",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"炎\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/add_ice",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"氷\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/add_lightning",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"雷\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/add_light",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"光\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/add_dark",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"闇\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/element",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"元素\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/yin_yang",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"陰陽\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/spirit",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"精霊\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/boost_fire",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"炎威\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/boost_ice",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"氷威\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/boost_lightning",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"雷威\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/boost_light",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"光威\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/boost_dark",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"闇威\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/philosopher",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"賢者\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/purification",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"純化\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/kamui",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"神威\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/mystic",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"神秘\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/knockback",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"衝撃\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/protection",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"防護\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/projectile_protection",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"大盾\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/blast_protection",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"耐爆\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/fire_protection",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"耐火\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/feather_falling",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"羽毛\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/dragon_scale",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"竜鱗\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/life",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"生命\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/mana",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"魔力\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/evolution",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"進化\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/wave_of_element",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"波動\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/mana_leech",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"魔吸\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/karma",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"因果\"}}]}"
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

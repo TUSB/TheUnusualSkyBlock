@@ -1,0 +1,25 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "settings:item/enchant/stone/weapon"
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"血吸\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"魔吸\"}}]}"
+        }
+      }
+    }
+  ]
+}

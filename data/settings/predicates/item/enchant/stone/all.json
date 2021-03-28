@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"謎\"}}]}"
+        }
+      }
+    }
+  ]
+}

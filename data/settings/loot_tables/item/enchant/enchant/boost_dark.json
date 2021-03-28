@@ -1,0 +1,169 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EnchantLore:['{\"translate\":\"ダークブースト I\",\"color\":\"gray\",\"italic\":false}'],Enchantments:[{id:\"tusb:闇威\",lvl:1}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EnchantLore:['{\"translate\":\"ダークブースト II\",\"color\":\"gray\",\"italic\":false}'],Enchantments:[{id:\"tusb:闇威\",lvl:2}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EnchantLore:['{\"translate\":\"ダークブースト III\",\"color\":\"gray\",\"italic\":false}'],Enchantments:[{id:\"tusb:闇威\",lvl:3}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EnchantLore:['{\"translate\":\"ダークブースト IV\",\"color\":\"gray\",\"italic\":false}'],Enchantments:[{id:\"tusb:闇威\",lvl:4}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EnchantLore:['{\"translate\":\"ダークブースト V\",\"color\":\"gray\",\"italic\":false}'],Enchantments:[{id:\"tusb:闇威\",lvl:5}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EnchantLore:['{\"translate\":\"ダークブースト VI\",\"color\":\"gray\",\"italic\":false}'],Enchantments:[{id:\"tusb:闇威\",lvl:6}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EnchantLore:['{\"translate\":\"ダークブースト VII\",\"color\":\"gray\",\"italic\":false}'],Enchantments:[{id:\"tusb:闇威\",lvl:7}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EnchantLore:['{\"translate\":\"ダークブースト VIII\",\"color\":\"gray\",\"italic\":false}'],Enchantments:[{id:\"tusb:闇威\",lvl:8}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": 8
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

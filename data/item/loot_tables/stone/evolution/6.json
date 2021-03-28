@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:453,EnchantStone:1b,StoneID:\"進化\",Tier:6,Enchantments:[{id:\"tusb:生命\",lvl:6,Unique:1b}],display:{Name:'{\"translate\":\"進化の結晶(VI)\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"translate\":\"ライフ VI\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"マナ VI\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

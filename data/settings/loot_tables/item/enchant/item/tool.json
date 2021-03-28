@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "settings:item/enchant/enchant/efficiency",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"minecraft:efficiency\"}]}}]}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "settings:item/enchant/enchant/fortune",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "settings:item/enchant/exclusive/fortune_and_silk_touch"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 1,
+          "name": "settings:item/enchant/enchant/silk_touch",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "settings:item/enchant/exclusive/fortune_and_silk_touch"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

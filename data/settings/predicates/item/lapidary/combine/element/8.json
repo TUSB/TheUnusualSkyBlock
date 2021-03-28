@@ -1,0 +1,8 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "block": {
+      "nbt": "{Items:[{tag:{EnchantStone:1b,StoneID:\"炎\",Tier:8}},{tag:{EnchantStone:1b,StoneID:\"氷\",Tier:8}},{tag:{EnchantStone:1b,StoneID:\"雷\",Tier:8}}]}"
+    }
+  }
+}

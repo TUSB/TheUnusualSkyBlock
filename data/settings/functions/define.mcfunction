@@ -3,8 +3,11 @@
 #> エリア用ストレージ
 #define storage area:
 
+#> アイテム用ストレージ
+#define storage item:
+
 #> モブ設定用ストレージ
-#define storage tusb_mob: 
+#define storage tusb_mob:
 
 #> 個別ストレージ
 #define storage oh_my_dat:

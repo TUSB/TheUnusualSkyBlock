@@ -1,0 +1,119 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/item/sword",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "settings:item/enchant/item/sword"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/item/trident",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "settings:item/enchant/item/trident"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/item/bow",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "settings:item/enchant/item/bow"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/item/crossbow",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "settings:item/enchant/item/crossbow"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/item/axe",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "settings:item/enchant/item/axe"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/item/tool",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "settings:item/enchant/item/tool"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/item/fishing_rod",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "settings:item/enchant/item/fishing_rod"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/item/helmet",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "settings:item/enchant/item/helmet"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/item/chestplate",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "settings:item/enchant/item/chestplate"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/item/leggings",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "settings:item/enchant/item/leggings"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/item/boots",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "settings:item/enchant/item/boots"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
