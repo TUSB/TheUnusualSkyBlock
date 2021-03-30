@@ -5,13 +5,13 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{SocketedStone:{}}"
+            "nbt": "{Engraving:{}}"
           }
         ]
       }
     }
   },
   "rewards": {
-    "function": "item:enchant/socketed_stone/trigger"
+    "function": "item:enchant/engraving/trigger"
   }
 }
