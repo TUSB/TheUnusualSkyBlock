@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{SocketedStone:{}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "item:enchant/socketed_stone/trigger"
+  }
+}
