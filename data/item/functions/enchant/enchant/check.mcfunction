@@ -1,6 +1,6 @@
 #ブロックに移す
 data modify storage item: Items set from entity @s Items
-function calc:block/shulker_box/save
+function item:system/shulker_box/save
 #正しい組み合わせか確認
 execute in area:control_area positioned 2 2 2 store result score _ _ run function settings:item/enchant/
 #成功時演出
