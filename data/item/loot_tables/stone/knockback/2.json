@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:221,EnchantStone:1b,StoneID:\"衝撃\",Tier:2,display:{Name:'{\"translate\":\"衝撃の欠片(II)\",\"color\":\"aqua\",\"italic\":false}',Lore:['[{\"translate\":\"enchantment.minecraft.knockback\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.2\"}]','[{\"translate\":\"enchantment.minecraft.punch\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.2\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"剣・弓\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:221,EnchantStone:1b,StoneID:\"衝撃\",Tier:2,display:{Name:'{\"translate\":\"%1$s%2$s(II)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"衝撃の\"},{\"translate\":\"欠片\"}]}',Lore:['[{\"translate\":\"enchantment.minecraft.knockback\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.2\"}]','[{\"translate\":\"enchantment.minecraft.punch\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.2\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"剣・弓\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

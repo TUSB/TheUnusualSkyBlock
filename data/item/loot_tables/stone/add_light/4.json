@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:72,EnchantStone:1b,StoneID:\"光\",Tier:4,display:{Name:'{\"translate\":\"光の原石(IV)\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"translate\":\"光ダメージ追加 IV\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:72,EnchantStone:1b,StoneID:\"光\",Tier:4,display:{Name:'{\"translate\":\"%1$s%2$s(IV)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"光の\"},{\"translate\":\"原石\"}]}',Lore:['{\"translate\":\"光ダメージ追加 IV\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

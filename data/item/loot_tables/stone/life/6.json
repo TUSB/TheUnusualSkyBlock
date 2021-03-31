@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:433,EnchantStone:1b,StoneID:\"生命\",Tier:6,Enchantments:[{id:\"tusb:生命\",lvl:6,Unique:1b}],display:{Name:'{\"translate\":\"生命の結晶(VI)\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"translate\":\"ライフ VI\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:433,EnchantStone:1b,StoneID:\"生命\",Tier:6,Enchantments:[{id:\"tusb:生命\",lvl:6,Unique:1b}],display:{Name:'{\"translate\":\"%1$s%2$s(VI)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"生命の\"},{\"translate\":\"結晶\"}]}',Lore:['{\"translate\":\"ライフ VI\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

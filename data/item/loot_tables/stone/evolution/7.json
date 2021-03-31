@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:454,EnchantStone:1b,StoneID:\"進化\",Tier:7,Enchantments:[{id:\"tusb:生命\",lvl:7,Unique:1b}],display:{Name:'{\"translate\":\"進化の宝珠(VII)\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"translate\":\"ライフ VII\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"マナ VII\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:454,EnchantStone:1b,StoneID:\"進化\",Tier:7,Enchantments:[{id:\"tusb:生命\",lvl:7,Unique:1b}],display:{Name:'{\"translate\":\"%1$s%2$s(VII)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"進化の\"},{\"translate\":\"宝珠\"}]}',Lore:['{\"translate\":\"ライフ VII\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"マナ VII\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

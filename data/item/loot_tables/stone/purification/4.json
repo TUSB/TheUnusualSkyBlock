@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:182,EnchantStone:1b,StoneID:\"純化\",Tier:4,display:{Name:'{\"translate\":\"純化の原石(IV)\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"translate\":\"ホーリーブースト IV\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"ダークブースト IV\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:182,EnchantStone:1b,StoneID:\"純化\",Tier:4,display:{Name:'{\"translate\":\"%1$s%2$s(IV)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"純化の\"},{\"translate\":\"原石\"}]}',Lore:['{\"translate\":\"ホーリーブースト IV\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"ダークブースト IV\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:481,EnchantStone:1b,StoneID:\"血吸\",Tier:1,display:{Name:'{\"translate\":\"血吸の欠片(I)\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"translate\":\"血吸 I\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:481,EnchantStone:1b,StoneID:\"血吸\",Tier:1,display:{Name:'{\"translate\":\"%1$s%2$s(I)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"血吸の\"},{\"translate\":\"欠片\"}]}',Lore:['{\"translate\":\"血吸 I\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

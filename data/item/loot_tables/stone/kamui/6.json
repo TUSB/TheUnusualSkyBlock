@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:193,EnchantStone:1b,StoneID:\"神威\",Tier:6,display:{Name:'{\"translate\":\"神威の結晶(VI)\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"translate\":\"フレアブースト VI\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"アイスブースト VI\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"エレキブースト VI\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"ホーリーブースト VI\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"ダークブースト VI\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:193,EnchantStone:1b,StoneID:\"神威\",Tier:6,display:{Name:'{\"translate\":\"%1$s%2$s(VI)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"神威の\"},{\"translate\":\"結晶\"}]}',Lore:['{\"translate\":\"フレアブースト VI\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"アイスブースト VI\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"エレキブースト VI\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"ホーリーブースト VI\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"ダークブースト VI\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

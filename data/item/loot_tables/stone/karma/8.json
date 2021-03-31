@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:494,EnchantStone:1b,StoneID:\"因果\",Tier:8,display:{Name:'{\"translate\":\"因果の宝珠(VIII)\",\"color\":\"aqua\",\"italic\":false}',Lore:['[{\"translate\":\"enchantment.minecraft.looting\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.8\"}]','[{\"translate\":\"enchantment.minecraft.fortune\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.8\"}]','[{\"translate\":\"enchantment.minecraft.luck_of_the_sea\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.8\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"剣・道具・釣り竿\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:494,EnchantStone:1b,StoneID:\"因果\",Tier:8,display:{Name:'{\"translate\":\"%1$s%2$s(VIII)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"因果の\"},{\"translate\":\"宝珠\"}]}',Lore:['[{\"translate\":\"enchantment.minecraft.looting\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.8\"}]','[{\"translate\":\"enchantment.minecraft.fortune\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.8\"}]','[{\"translate\":\"enchantment.minecraft.luck_of_the_sea\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.8\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"剣・道具・釣り竿\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

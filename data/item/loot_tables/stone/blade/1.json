@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,EnchantStone:1b,StoneID:\"刃\",Tier:1,display:{Name:'{\"translate\":\"刃の欠片(I)\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"translate\":\"物理ダメージ追加 I\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:1,EnchantStone:1b,StoneID:\"刃\",Tier:1,display:{Name:'{\"translate\":\"%1$s%2$s(I)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"刃の\"},{\"translate\":\"欠片\"}]}',Lore:['{\"translate\":\"物理ダメージ追加 I\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:92,EnchantStone:1b,StoneID:\"元素\",Tier:4,display:{Name:'{\"translate\":\"元素の原石(IV)\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"translate\":\"炎ダメージ追加 IV\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"氷ダメージ追加 IV\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"雷ダメージ追加 IV\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:92,EnchantStone:1b,StoneID:\"元素\",Tier:4,display:{Name:'{\"translate\":\"%1$s%2$s(IV)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"元素の\"},{\"translate\":\"原石\"}]}',Lore:['{\"translate\":\"炎ダメージ追加 IV\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"氷ダメージ追加 IV\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"雷ダメージ追加 IV\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

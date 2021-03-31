@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:4,EnchantStone:1b,StoneID:\"謎\",Tier:8,display:{Name:'{\"translate\":\"謎の宝珠(VIII)\",\"color\":\"aqua\",\"italic\":false}',Lore:['[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"全て\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:4,EnchantStone:1b,StoneID:\"謎\",Tier:8,display:{Name:'{\"translate\":\"%1$s%2$s(VIII)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"謎の\"},{\"translate\":\"宝珠\"}]}',Lore:['[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"全て\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

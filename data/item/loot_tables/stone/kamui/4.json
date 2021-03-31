@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:192,EnchantStone:1b,StoneID:\"神威\",Tier:4,display:{Name:'{\"translate\":\"神威の原石(IV)\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"translate\":\"フレアブースト IV\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"アイスブースト IV\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"エレキブースト IV\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"ホーリーブースト IV\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"ダークブースト IV\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:192,EnchantStone:1b,StoneID:\"神威\",Tier:4,display:{Name:'{\"translate\":\"%1$s%2$s(IV)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"神威の\"},{\"translate\":\"原石\"}]}',Lore:['{\"translate\":\"フレアブースト IV\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"アイスブースト IV\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"エレキブースト IV\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"ホーリーブースト IV\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"ダークブースト IV\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

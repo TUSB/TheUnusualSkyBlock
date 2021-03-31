@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:441,EnchantStone:1b,StoneID:\"魔力\",Tier:1,display:{Name:'{\"translate\":\"魔力の欠片(I)\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"translate\":\"マナ I\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:441,EnchantStone:1b,StoneID:\"魔力\",Tier:1,display:{Name:'{\"translate\":\"%1$s%2$s(I)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"魔力の\"},{\"translate\":\"欠片\"}]}',Lore:['{\"translate\":\"マナ I\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

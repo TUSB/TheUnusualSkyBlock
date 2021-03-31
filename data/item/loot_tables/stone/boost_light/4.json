@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:152,EnchantStone:1b,StoneID:\"光威\",Tier:4,display:{Name:'{\"translate\":\"光威の原石(IV)\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"translate\":\"ホーリーブースト IV\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:152,EnchantStone:1b,StoneID:\"光威\",Tier:4,display:{Name:'{\"translate\":\"%1$s%2$s(IV)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"光威の\"},{\"translate\":\"原石\"}]}',Lore:['{\"translate\":\"ホーリーブースト IV\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

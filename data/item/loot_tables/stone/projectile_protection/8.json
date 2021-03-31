@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:344,EnchantStone:1b,StoneID:\"大盾\",Tier:8,display:{Name:'{\"translate\":\"大盾の宝珠(VIII)\",\"color\":\"aqua\",\"italic\":false}',Lore:['[{\"translate\":\"enchantment.minecraft.projectile_protection\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.8\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:344,EnchantStone:1b,StoneID:\"大盾\",Tier:8,display:{Name:'{\"translate\":\"%1$s%2$s(VIII)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"大盾の\"},{\"translate\":\"宝珠\"}]}',Lore:['[{\"translate\":\"enchantment.minecraft.projectile_protection\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.8\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

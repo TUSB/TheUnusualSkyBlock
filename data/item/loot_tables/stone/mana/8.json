@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:444,EnchantStone:1b,StoneID:\"魔力\",Tier:8,display:{Name:'{\"translate\":\"魔力の宝珠(VIII)\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"translate\":\"マナ VIII\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:444,EnchantStone:1b,StoneID:\"魔力\",Tier:8,display:{Name:'{\"translate\":\"%1$s%2$s(VIII)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"魔力の\"},{\"translate\":\"宝珠\"}]}',Lore:['{\"translate\":\"マナ VIII\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:332,EnchantStone:1b,StoneID:\"防護\",Tier:4,display:{Name:'{\"translate\":\"防護の原石(IV)\",\"color\":\"aqua\",\"italic\":false}',Lore:['[{\"translate\":\"enchantment.minecraft.protection\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.4\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:332,EnchantStone:1b,StoneID:\"防護\",Tier:4,display:{Name:'{\"translate\":\"%1$s%2$s(IV)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"防護の\"},{\"translate\":\"原石\"}]}',Lore:['[{\"translate\":\"enchantment.minecraft.protection\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.4\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

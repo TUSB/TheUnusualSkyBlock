@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:174,EnchantStone:1b,StoneID:\"賢者\",Tier:8,display:{Name:'{\"translate\":\"賢者の宝珠(VIII)\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"translate\":\"フレアブースト VIII\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"アイスブースト VIII\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"エレキブースト VIII\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:174,EnchantStone:1b,StoneID:\"賢者\",Tier:8,display:{Name:'{\"translate\":\"%1$s%2$s(VIII)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"賢者の\"},{\"translate\":\"宝珠\"}]}',Lore:['{\"translate\":\"フレアブースト VIII\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"アイスブースト VIII\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"エレキブースト VIII\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

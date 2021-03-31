@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:43,EnchantStone:1b,StoneID:\"炎\",Tier:6,display:{Name:'{\"translate\":\"炎の結晶(VI)\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"translate\":\"炎ダメージ追加 VI\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:43,EnchantStone:1b,StoneID:\"炎\",Tier:6,display:{Name:'{\"translate\":\"%1$s%2$s(VI)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"炎の\"},{\"translate\":\"結晶\"}]}',Lore:['{\"translate\":\"炎ダメージ追加 VI\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
             }
           ]
         }
