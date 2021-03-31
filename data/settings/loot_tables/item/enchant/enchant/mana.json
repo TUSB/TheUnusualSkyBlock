@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EnchantLore:['{\"translate\":\"マナ I\",\"color\":\"gray\",\"italic\":false}'],Enchantments:[{id:\"tusb:マナ\",lvl:1}]}"
+              "tag": "{EnchantLore:['{\"translate\":\"%s I\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"マナ\"}]}'],Enchantments:[{id:\"tusb:マナ\",lvl:1}]}"
             }
           ],
           "conditions": [
@@ -30,7 +30,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EnchantLore:['{\"translate\":\"マナ II\",\"color\":\"gray\",\"italic\":false}'],Enchantments:[{id:\"tusb:マナ\",lvl:2}]}"
+              "tag": "{EnchantLore:['{\"translate\":\"%s II\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"マナ\"}]}'],Enchantments:[{id:\"tusb:マナ\",lvl:2}]}"
             }
           ],
           "conditions": [
@@ -50,7 +50,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EnchantLore:['{\"translate\":\"マナ III\",\"color\":\"gray\",\"italic\":false}'],Enchantments:[{id:\"tusb:マナ\",lvl:3}]}"
+              "tag": "{EnchantLore:['{\"translate\":\"%s III\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"マナ\"}]}'],Enchantments:[{id:\"tusb:マナ\",lvl:3}]}"
             }
           ],
           "conditions": [
@@ -70,7 +70,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EnchantLore:['{\"translate\":\"マナ IV\",\"color\":\"gray\",\"italic\":false}'],Enchantments:[{id:\"tusb:マナ\",lvl:4}]}"
+              "tag": "{EnchantLore:['{\"translate\":\"%s IV\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"マナ\"}]}'],Enchantments:[{id:\"tusb:マナ\",lvl:4}]}"
             }
           ],
           "conditions": [
@@ -90,7 +90,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EnchantLore:['{\"translate\":\"マナ V\",\"color\":\"gray\",\"italic\":false}'],Enchantments:[{id:\"tusb:マナ\",lvl:5}]}"
+              "tag": "{EnchantLore:['{\"translate\":\"%s V\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"マナ\"}]}'],Enchantments:[{id:\"tusb:マナ\",lvl:5}]}"
             }
           ],
           "conditions": [
@@ -110,7 +110,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EnchantLore:['{\"translate\":\"マナ VI\",\"color\":\"gray\",\"italic\":false}'],Enchantments:[{id:\"tusb:マナ\",lvl:6}]}"
+              "tag": "{EnchantLore:['{\"translate\":\"%s VI\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"マナ\"}]}'],Enchantments:[{id:\"tusb:マナ\",lvl:6}]}"
             }
           ],
           "conditions": [
@@ -130,7 +130,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EnchantLore:['{\"translate\":\"マナ VII\",\"color\":\"gray\",\"italic\":false}'],Enchantments:[{id:\"tusb:マナ\",lvl:7}]}"
+              "tag": "{EnchantLore:['{\"translate\":\"%s VII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"マナ\"}]}'],Enchantments:[{id:\"tusb:マナ\",lvl:7}]}"
             }
           ],
           "conditions": [
@@ -150,7 +150,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EnchantLore:['{\"translate\":\"マナ VIII\",\"color\":\"gray\",\"italic\":false}'],Enchantments:[{id:\"tusb:マナ\",lvl:8}]}"
+              "tag": "{EnchantLore:['{\"translate\":\"%s VIII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"マナ\"}]}'],Enchantments:[{id:\"tusb:マナ\",lvl:8}]}"
             }
           ],
           "conditions": [

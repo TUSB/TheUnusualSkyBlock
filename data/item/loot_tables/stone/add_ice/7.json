@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:54,EnchantStone:1b,StoneID:\"氷\",Tier:7,display:{Name:'{\"translate\":\"%1$s%2$s(VII)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"氷の\"},{\"translate\":\"宝珠\"}]}',Lore:['{\"translate\":\"氷ダメージ追加 VII\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:54,EnchantStone:1b,StoneID:\"氷\",Tier:7,display:{Name:'{\"translate\":\"%1$s%2$s(VII)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"氷の\"},{\"translate\":\"宝珠\"}]}',Lore:['{\"translate\":\"%s VII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"氷ダメージ追加\"}]}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

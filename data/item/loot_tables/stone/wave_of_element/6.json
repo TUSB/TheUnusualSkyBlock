@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:463,EnchantStone:1b,StoneID:\"波動\",Tier:6,display:{Name:'{\"translate\":\"%1$s%2$s(VI)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"波動の\"},{\"translate\":\"結晶\"}]}',Lore:['{\"translate\":\"波動 VI\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:463,EnchantStone:1b,StoneID:\"波動\",Tier:6,display:{Name:'{\"translate\":\"%1$s%2$s(VI)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"波動の\"},{\"translate\":\"結晶\"}]}',Lore:['{\"translate\":\"%s VI\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"波動\"}]}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

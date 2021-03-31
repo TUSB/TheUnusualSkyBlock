@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:431,EnchantStone:1b,StoneID:\"生命\",Tier:1,Enchantments:[{id:\"tusb:生命\",lvl:1,Unique:1b}],display:{Name:'{\"translate\":\"%1$s%2$s(I)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"生命の\"},{\"translate\":\"欠片\"}]}',Lore:['{\"translate\":\"ライフ I\",\"color\":\"gray\",\"italic\":false}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:431,EnchantStone:1b,StoneID:\"生命\",Tier:1,Enchantments:[{id:\"tusb:生命\",lvl:1,Unique:1b}],display:{Name:'{\"translate\":\"%1$s%2$s(I)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"生命の\"},{\"translate\":\"欠片\"}]}',Lore:['{\"translate\":\"%s I\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ライフ\"}]}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]']}}"
             }
           ]
         }
