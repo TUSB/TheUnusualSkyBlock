@@ -27,6 +27,10 @@ scoreboard objectives add EnchantLevel dummy {"text":"エンチャントレベ�
 scoreboard objectives add _ dummy {"text":"一時変数"}
 scoreboard objectives add Ret dummy {"text":"戻り値用一時変数"}
 
+###計算、乱数
+scoreboard objectives add Calc dummy {"text": "計算用"}
+scoreboard objectives add Random dummy {"text": "乱数用"}
+
 ###乱数初期化
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,WaitTime:1,ReapplicationDelay:0,Duration:0,Tags:[Initialized]}
 execute store result score $RndMWC Random run data get entity @e[distance=..1,type=minecraft:area_effect_cloud,limit=1] UUID[0] 0.01
