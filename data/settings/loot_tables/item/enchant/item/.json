@@ -25,6 +25,16 @@
         },
         {
           "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/item/carrot_on_a_stick",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "settings:item/enchant/item/carrot_on_a_stick"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "name": "settings:item/enchant/item/bow",
           "conditions": [
             {
