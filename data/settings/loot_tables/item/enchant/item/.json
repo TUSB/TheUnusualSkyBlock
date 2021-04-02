@@ -85,6 +85,16 @@
         },
         {
           "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/item/shield",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "settings:item/enchant/item/shield"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "name": "settings:item/enchant/item/helmet",
           "conditions": [
             {

@@ -44,6 +44,30 @@
           "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"竜鱗\"}}]}"
         }
       }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"生命\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"魔力\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"進化\"}}]}"
+        }
+      }
     }
   ]
 }

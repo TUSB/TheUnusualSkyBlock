@@ -450,6 +450,62 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/speed",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"俊敏\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/knockback_resistance",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"不動\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/armor",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"鉄壁\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/attack_speed",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"達人\"}}]}"
+                }
+              }
+            }
+          ]
         }
       ]
     }
