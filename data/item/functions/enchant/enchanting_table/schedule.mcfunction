@@ -1,1 +1,1 @@
-execute as @e[tag=EnchantChest] at @s run function item:enchant/enchanting_table/tick
+execute as @e[tag=EnchantAEC] at @s run function item:enchant/enchanting_table/tick
