@@ -1,4 +1,5 @@
 #AttributeModifiersを作成
+data modify storage item: Enchant.AttributeModifiers set value []
 execute unless data storage item: Items[{Slot:4b}].tag.AttributeModifiers run function settings:item/enchant/default_attributes/
 execute if predicate settings:item/enchant/item/shield run data modify storage item: Enchant.AttributeModifiers append value {AttributeName:"generic.attack_speed",Name:"エンチャント",Operation:1,UUID:[I;11,0,2,53],Slot:"mainhand"}
 execute if predicate settings:item/enchant/item/shield run data modify storage item: Enchant.AttributeModifiers append value {AttributeName:"generic.attack_speed",Name:"エンチャント",Operation:1,UUID:[I;12,0,2,53],Slot:"offhand"}

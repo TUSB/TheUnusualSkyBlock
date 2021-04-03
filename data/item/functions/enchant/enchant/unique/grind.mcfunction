@@ -1,4 +1,5 @@
 #AttributeModifiersを作成
+data modify storage item: Enchant.AttributeModifiers set value []
 execute unless data storage item: Items[{Slot:4b}].tag.AttributeModifiers run function settings:item/enchant/default_attributes/
 data modify storage item: Enchant.AttributeModifiers append value {AttributeName:"generic.attack_damage",Name:"エンチャント",Operation:1,UUID:[I;11,0,2,1],Slot:"mainhand"}
 #Amountを取得、代入

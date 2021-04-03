@@ -1,5 +1,3 @@
-#AttributeModifiersを作成
-data modify storage item: Enchant.AttributeModifiers set value []
 #Default Attribute有り
 execute if predicate settings:item/enchant/item/sword run function settings:item/enchant/default_attributes/sword
 execute if predicate settings:item/enchant/item/trident run function settings:item/enchant/default_attributes/trident
