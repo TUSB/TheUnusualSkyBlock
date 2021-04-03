@@ -1,7 +1,7 @@
 #AttributeModifiersを作成
 execute unless data storage item: Items[{Slot:4b}].tag.AttributeModifiers run function settings:item/enchant/default_attributes/
-execute if predicate settings:item/enchant/item/shield run data modify storage item: Enchant.AttributeModifiers append value {AttributeName:"generic.attack_speed",Name:"エンチャント",Operation:1,UUID:[I;11,0,100,53],Slot:"mainhand"}
-execute if predicate settings:item/enchant/item/shield run data modify storage item: Enchant.AttributeModifiers append value {AttributeName:"generic.attack_speed",Name:"エンチャント",Operation:1,UUID:[I;12,0,100,53],Slot:"offhand"}
+execute if predicate settings:item/enchant/item/shield run data modify storage item: Enchant.AttributeModifiers append value {AttributeName:"generic.attack_speed",Name:"エンチャント",Operation:1,UUID:[I;11,0,2,53],Slot:"mainhand"}
+execute if predicate settings:item/enchant/item/shield run data modify storage item: Enchant.AttributeModifiers append value {AttributeName:"generic.attack_speed",Name:"エンチャント",Operation:1,UUID:[I;12,0,2,53],Slot:"offhand"}
 #Amountを取得、代入
 data modify storage item: Enchant.Level set from storage item: Enchant.Item.tag.Enchantments[0].lvl
 function settings:item/enchant/value/attack_speed
