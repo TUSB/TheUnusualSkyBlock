@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:434,EnchantStone:1b,StoneID:\"生命\",Tier:7,Enchantments:[{id:\"tusb:生命\",lvl:7,Unique:1b}],display:{Name:'{\"translate\":\"%1$s%2$s(VII)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"生命の\"},{\"translate\":\"宝珠\"}]}',Lore:['{\"translate\":\"%s VII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ライフ\"}]}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:434,EnchantStone:1b,StoneID:\"生命\",Tier:7,display:{Name:'{\"translate\":\"%1$s%2$s(VII)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"生命の\"},{\"translate\":\"宝珠\"}]}',Lore:['{\"translate\":\"%s VII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ライフ\"}]}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具・盾\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

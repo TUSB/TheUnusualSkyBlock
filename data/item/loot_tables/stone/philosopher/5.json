@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:173,EnchantStone:1b,StoneID:\"賢者\",Tier:5,display:{Name:'{\"translate\":\"%1$s%2$s(V)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"賢者の\"},{\"translate\":\"結晶\"}]}',Lore:['{\"translate\":\"%s V\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"フレアブースト\"}]}','{\"translate\":\"%s V\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"アイスブースト\"}]}','{\"translate\":\"%s V\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"エレキブースト\"}]}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:173,EnchantStone:1b,StoneID:\"賢者\",Tier:5,display:{Name:'{\"translate\":\"%1$s%2$s(V)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"賢者の\"},{\"translate\":\"結晶\"}]}',Lore:['{\"translate\":\"%s V\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"フレアブースト\"}]}','{\"translate\":\"%s V\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"アイスブースト\"}]}','{\"translate\":\"%s V\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"エレキブースト\"}]}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器・盾\",\"color\":\"gray\"}]']}}"
             }
           ]
         }
