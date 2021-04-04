@@ -8,11 +8,11 @@ data modify entity @s Tags set from storage tusb_mob: MobTags[-1].Tags
 # タグに応じて、データを取得する
 execute if entity @s[tag=Pig] run function settings:entity/enemy/debug/pig
 execute if entity @s[tag=Sheep] run function settings:entity/enemy/debug/sheep
+execute if entity @s[tag=Sheep1] run function settings:entity/enemy/debug/sheep1
+execute if entity @s[tag=Sheep2] run function settings:entity/enemy/debug/sheep2
 execute if entity @s[tag=Cow] run function settings:entity/enemy/debug/cow
 
-# tusb_mob: SpawnDataがすでにあったら、上に乗るモブなので、保存しておく
-execute if data storage tusb_mob: SpawnData run data modify storage tusb_mob: Passenger set from storage tusb_mob: SpawnData
-# tsub_mob: SpawnDataを初期化する
+# tusb_mob: SpawnDataを初期化する
 data modify storage tusb_mob: SpawnData set value {Attributes:[{Name:"minecraft:generic.movement_speed",Modifiers:[{Amount:0d,Operation:0,UUID:[I;0,0,0,0]}]},{Name:"minecraft:generic.knockback_resistance"},{Name:"minecraft:generic.attack_knockback"}],Passengers:[]}
 # Attributes[{Name:"minecraft:generic.movement_speed"}].Modifiers[0].UUID[0]にOhMyDatIDを保存
 execute store result storage tusb_mob: SpawnData.Attributes[{Name:"minecraft:generic.movement_speed"}].Modifiers[0].UUID[0] int 1 run scoreboard players get @s OhMyDatID
@@ -30,10 +30,8 @@ data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList[-1].Level set from storage tusb_mob: MobTags[-1].Level
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList[-1]."遅延ステータス" set from storage tusb_mob: "遅延ステータス"
 
-### 上のモブを乗せる
-data modify storage tusb_mob: SpawnData.Passengers append from storage tusb_mob: Passenger
-### Pos設定
-data modify entity @s SpawnData.Pos set from storage tusb_mob: Pos
+### 上のモブをリストに追加する
+data modify storage tusb_mob: Passengers prepend from storage tusb_mob: SpawnData
 
 ### まだ読み込んでいないタグがあれば、繰り返す
 data remove storage tusb_mob: MobTags[-1]
