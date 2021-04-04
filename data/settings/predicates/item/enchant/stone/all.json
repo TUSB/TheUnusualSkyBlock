@@ -5,7 +5,7 @@
       "condition": "location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"謎\"}}]}"
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"謎\"}}]}"
         }
       }
     }

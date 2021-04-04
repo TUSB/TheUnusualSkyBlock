@@ -9,7 +9,7 @@
       "condition": "location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"防護\"}}]}"
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"防護\"}}]}"
         }
       }
     },
@@ -17,7 +17,7 @@
       "condition": "location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"大盾\"}}]}"
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"大盾\"}}]}"
         }
       }
     },
@@ -25,7 +25,7 @@
       "condition": "location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"耐爆\"}}]}"
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"耐爆\"}}]}"
         }
       }
     },
@@ -33,7 +33,7 @@
       "condition": "location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"耐火\"}}]}"
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"耐火\"}}]}"
         }
       }
     },
@@ -41,7 +41,7 @@
       "condition": "location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"竜鱗\"}}]}"
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"竜鱗\"}}]}"
         }
       }
     },
@@ -49,7 +49,7 @@
       "condition": "location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"生命\"}}]}"
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"生命\"}}]}"
         }
       }
     },
@@ -57,7 +57,7 @@
       "condition": "location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"魔力\"}}]}"
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"魔力\"}}]}"
         }
       }
     },
@@ -65,7 +65,7 @@
       "condition": "location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"進化\"}}]}"
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"進化\"}}]}"
         }
       }
     }

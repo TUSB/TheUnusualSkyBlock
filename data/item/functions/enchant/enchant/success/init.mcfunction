@@ -15,7 +15,7 @@ function item:enchant/enchant/success/save
 execute store result score _ Calc run function calc:random
 scoreboard players set _ _ 5
 scoreboard players operation _ Calc %= _ _
-execute if data storage item: {Items:[{Slot:22b,tag:{StoneID:"謎"}}]} run scoreboard players add _ Calc 1
+execute if data storage item: {Items:[{Slot:22b,tag:{EnchantID:"謎"}}]} run scoreboard players add _ Calc 1
 execute store result storage item: Enchant.Loop int 1 run scoreboard players get _ Calc
 #ランダムエンチャント付与
 execute unless data storage item: {Enchant:{Loop:0}} run function item:enchant/enchant/success/loop

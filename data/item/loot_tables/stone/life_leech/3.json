@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:482,EnchantStone:1b,StoneID:\"血吸\",Tier:3,display:{Name:'{\"translate\":\"%1$s%2$s(III)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"血吸の\"},{\"translate\":\"原石\"}]}',Lore:['{\"translate\":\"%s III\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"血吸\"}]}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:482,EnchantStone:1b,EnchantID:\"血吸\",Tier:3,display:{Name:'{\"translate\":\"%1$s%2$s(III)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"血吸の\"},{\"translate\":\"原石\"}]}',Lore:['{\"translate\":\"%s III\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"血吸\"}]}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

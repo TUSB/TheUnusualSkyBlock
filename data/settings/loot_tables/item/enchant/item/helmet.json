@@ -16,25 +16,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 2,
-          "name": "settings:item/enchant/enchant/aqua_affinity",
-          "conditions": [
-            {
-              "condition": "minecraft:inverted",
-              "term": {
-                "condition": "location_check",
-                "predicate": {
-                  "block": {
-                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"minecraft:aqua_affinity\"}]}}]}"
-                  }
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
-          "weight": 2,
-          "name": "settings:item/enchant/enchant/respiration",
+          "name": "settings:item/enchant/enchant/water_dragon",
           "conditions": [
             {
               "condition": "minecraft:inverted",
