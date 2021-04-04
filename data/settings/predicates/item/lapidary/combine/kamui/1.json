@@ -2,7 +2,7 @@
   "condition": "minecraft:location_check",
   "predicate": {
     "block": {
-      "nbt": "{Items:[{tag:{EnchantStone:1b,StoneID:\"賢者\",Tier:1}},{tag:{EnchantStone:1b,StoneID:\"純化\",Tier:1}}]}"
+      "nbt": "{Items:[{tag:{EnchantStone:1b,EnchantID:\"賢者\",Tier:1}},{tag:{EnchantStone:1b,EnchantID:\"純化\",Tier:1}}]}"
     }
   }
 }

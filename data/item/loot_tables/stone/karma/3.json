@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:492,EnchantStone:1b,StoneID:\"因果\",Tier:3,display:{Name:'{\"translate\":\"%1$s%2$s(III)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"因果の\"},{\"translate\":\"原石\"}]}',Lore:['[{\"translate\":\"enchantment.minecraft.looting\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.3\"}]','[{\"translate\":\"enchantment.minecraft.fortune\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.3\"}]','[{\"translate\":\"enchantment.minecraft.luck_of_the_sea\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.3\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"剣・道具・釣り竿\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:492,EnchantStone:1b,EnchantID:\"因果\",Tier:3,display:{Name:'{\"translate\":\"%1$s%2$s(III)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"因果の\"},{\"translate\":\"原石\"}]}',Lore:['[{\"translate\":\"enchantment.minecraft.looting\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.3\"}]','[{\"translate\":\"enchantment.minecraft.fortune\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.3\"}]','[{\"translate\":\"enchantment.minecraft.luck_of_the_sea\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.3\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"剣・道具・釣り竿\",\"color\":\"gray\"}]']}}"
             }
           ]
         }

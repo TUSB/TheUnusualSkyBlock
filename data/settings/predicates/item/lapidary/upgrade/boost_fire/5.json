@@ -2,7 +2,7 @@
   "condition": "minecraft:location_check",
   "predicate": {
     "block": {
-      "nbt": "{Items:[{Slot:10b,tag:{EnchantStone:1b,StoneID:\"炎威\",Tier:5}},{Slot:11b,tag:{EnchantStone:1b,StoneID:\"炎威\",Tier:5}},{Slot:15b,tag:{EnchantStone:1b,StoneID:\"炎威\",Tier:5}},{Slot:16b,tag:{EnchantStone:1b,StoneID:\"炎威\",Tier:5}}]}"
+      "nbt": "{Items:[{Slot:10b,tag:{EnchantStone:1b,EnchantID:\"炎威\",Tier:5}},{Slot:11b,tag:{EnchantStone:1b,EnchantID:\"炎威\",Tier:5}},{Slot:15b,tag:{EnchantStone:1b,EnchantID:\"炎威\",Tier:5}},{Slot:16b,tag:{EnchantStone:1b,EnchantID:\"炎威\",Tier:5}}]}"
     }
   }
 }

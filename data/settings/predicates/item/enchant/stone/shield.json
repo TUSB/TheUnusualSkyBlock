@@ -9,7 +9,7 @@
       "condition": "location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"炎威\"}}]}"
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"炎威\"}}]}"
         }
       }
     },
@@ -17,7 +17,7 @@
       "condition": "location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"氷威\"}}]}"
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"氷威\"}}]}"
         }
       }
     },
@@ -25,7 +25,7 @@
       "condition": "location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"雷威\"}}]}"
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"雷威\"}}]}"
         }
       }
     },
@@ -33,7 +33,7 @@
       "condition": "location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"光威\"}}]}"
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"光威\"}}]}"
         }
       }
     },
@@ -41,7 +41,7 @@
       "condition": "location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"闇威\"}}]}"
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"闇威\"}}]}"
         }
       }
     },
@@ -49,7 +49,7 @@
       "condition": "location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"賢者\"}}]}"
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"賢者\"}}]}"
         }
       }
     },
@@ -57,7 +57,7 @@
       "condition": "location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"純化\"}}]}"
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"純化\"}}]}"
         }
       }
     },
@@ -65,7 +65,7 @@
       "condition": "location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"神威\"}}]}"
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"神威\"}}]}"
         }
       }
     },
@@ -73,7 +73,7 @@
       "condition": "location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"生命\"}}]}"
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"生命\"}}]}"
         }
       }
     },
@@ -81,7 +81,7 @@
       "condition": "location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"魔力\"}}]}"
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"魔力\"}}]}"
         }
       }
     },
@@ -89,7 +89,7 @@
       "condition": "location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"進化\"}}]}"
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"進化\"}}]}"
         }
       }
     },
@@ -97,7 +97,7 @@
       "condition": "location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"俊敏\"}}]}"
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"俊敏\"}}]}"
         }
       }
     },
@@ -105,7 +105,7 @@
       "condition": "location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"不動\"}}]}"
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"不動\"}}]}"
         }
       }
     },
@@ -113,7 +113,7 @@
       "condition": "location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"鉄壁\"}}]}"
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"鉄壁\"}}]}"
         }
       }
     },
@@ -121,7 +121,7 @@
       "condition": "location_check",
       "predicate": {
         "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantStone:1b,StoneID:\"達人\"}}]}"
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"達人\"}}]}"
         }
       }
     }
