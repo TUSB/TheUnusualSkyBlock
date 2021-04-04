@@ -34,7 +34,7 @@
         {
           "type": "minecraft:loot_table",
           "weight": 2,
-          "name": "settings:item/enchant/enchant/depth_strider",
+          "name": "settings:item/enchant/enchant/water_dragon",
           "conditions": [
             {
               "condition": "minecraft:inverted",
