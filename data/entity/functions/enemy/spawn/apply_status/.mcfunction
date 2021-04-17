@@ -21,3 +21,7 @@ execute store result score @s ElementLight run data get storage tusb_mob: "遅�
 execute store result score @s ElementDark run data get storage tusb_mob: "遅延ステータス"."闇属性値"
 ### ステータスを計算して反映する
 function entity:enemy/spawn/apply_status/calc
+
+### 共通NBT
+data modify entity @s AbsorptionAmount set value 1000000f
+data modify entity @s DeathTime set value 19s

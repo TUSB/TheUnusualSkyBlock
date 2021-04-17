@@ -2,6 +2,10 @@
 ### 初回ロード処理
 ##############################
 
+#criteria変更につき一旦削除
+#TODO: 配布時には消す
+scoreboard objectives remove HP
+
 ###ステータス
 scoreboard objectives add Level dummy {"text":"レベル"}
 scoreboard objectives add ElementFire dummy {"text":"炎属性値"}
@@ -9,7 +13,7 @@ scoreboard objectives add ElementCold dummy {"text":"氷属性値"}
 scoreboard objectives add ElementLightning dummy {"text":"雷属性値"}
 scoreboard objectives add ElementLight dummy {"text":"光属性値"}
 scoreboard objectives add ElementDark dummy {"text":"闇属性値"}
-scoreboard objectives add HP health {"text":"HP"}
+scoreboard objectives add HP dummy {"text":"HP"}
 scoreboard objectives add HPMax dummy {"text":"HP最大値"}
 scoreboard objectives add MP dummy {"text":"MP"}
 scoreboard objectives add MPMax dummy {"text":"MP最大値"}
@@ -19,7 +23,8 @@ scoreboard objectives add SpecialAttack dummy {"text":"魔法攻撃力"}
 scoreboard objectives add SpecialDefense dummy {"text":"魔法防御力"}
 scoreboard objectives add BaseTotal dummy {"text":"合計基礎ポイント"}
 scoreboard objectives add GrowTotal dummy {"text":"合計成長ポイント"}
-
+scoreboard objectives add Damage dummy {"text":"ダメージ"}
+scoreboard objectives add HealthHealing dummy {"text":"HP回復量"}
 ###アイテム
 scoreboard objectives add EnchantLevel dummy {"text":"エンチャントレベル"}
 
@@ -43,3 +48,9 @@ scoreboard players operation $RndMWCCarry Random /= _ _
 execute in area:control_area run forceload add 0 0
 execute in area:control_area run setblock 2 2 2 shulker_box
 execute in area:control_area run setblock 2 3 2 oak_sign
+
+###トリガー
+scoreboard objectives add UseSnowball minecraft.used:minecraft.snowball {"text": "雪玉使用"}
+scoreboard objectives add UseBow minecraft.used:minecraft.bow {"text": "弓使用"}
+scoreboard objectives add UseCrossbow minecraft.used:minecraft.crossbow {"text": "クロスボウ使用"}
+scoreboard objectives add UseTrident minecraft.used:minecraft.trident {"text": "トライデント使用"}
