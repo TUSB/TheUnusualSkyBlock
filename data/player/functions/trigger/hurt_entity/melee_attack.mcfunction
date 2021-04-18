@@ -3,13 +3,13 @@
 #装備を取得
 function player:load_equipments
 #物理ダメージ取得
-function player:damage_dealt
+function player:damage_dealt/melee
 
 ### スキル
 
 ### エンチャント
 #属性ダメージ
-function skill:enchant/elemental_damage/trigger/melee_attack
+function skill:enchant/elemental_damage/
 #血吸
 execute if data storage item: SelectedItem.tag.Enchantments[{id:"tusb:血吸"}] run function skill:enchant/life_leech
 #魔吸

@@ -24,5 +24,3 @@ scoreboard players operation _ Calc = _ ElementDark
 scoreboard players operation _ Calc *= @s ElementDark
 scoreboard players operation _ Calc /= _ _
 scoreboard players operation @s Damage += _ Calc
-
-tellraw @p [{"text":"ブースト後Damage:"},{"score":{"name":"_","objective":"ElementFire"},"color": "red"},{"score":{"name":"_","objective":"ElementCold"},"color": "aqua"},{"score":{"name":"_","objective":"ElementLightning"},"color": "yellow"},{"score":{"name":"_","objective":"ElementLight"},"color": "white"},{"score":{"name":"_","objective":"ElementDark"},"color": "light_purple"}]

@@ -1,5 +1,6 @@
 ### 装備をストレージに保存
 #SelectedItem
+data remove storage item: SelectedItem
 data modify storage item: SelectedItem set from entity @s SelectedItem
 #Equipments 両手+防具
 data modify storage item: Equipments set value []

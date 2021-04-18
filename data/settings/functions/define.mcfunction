@@ -3,6 +3,9 @@
 #> エリア用ストレージ
 #define storage area:
 
+#> 計算用ストレージ
+#define storage calc:
+
 #> アイテム用ストレージ
 #define storage item:
 
