@@ -156,6 +156,14 @@
           "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"衝撃\"}}]}"
         }
       }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"波動\"}}]}"
+        }
+      }
     }
   ]
 }
