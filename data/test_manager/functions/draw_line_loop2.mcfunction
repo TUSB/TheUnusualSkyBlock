@@ -1,6 +1,0 @@
-
-
-
-scoreboard players remove $Count Global 1
-particle minecraft:flame ~ ~ ~ 0 0 0 0 1 force @a[tag=ShowParticles]
-execute if score $Count Global matches 1.. positioned ^ ^ ^2 run function test_manager:draw_line_loop2

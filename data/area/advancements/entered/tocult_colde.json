@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "triggered": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "area:tocult_colde"
+            }
+        }
+    },
+    "rewards": {
+        "function": "area:entered/tocult_colde"
+    }
+}

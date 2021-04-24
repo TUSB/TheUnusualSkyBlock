@@ -1,0 +1,8 @@
+{
+  "condition": "minecraft:location_check",
+  "predicate": {
+    "block": {
+      "nbt": "{Items:[{Slot:10b,tag:{EnchantStone:1b,EnchantID:\"闇威\",Tier:1}},{Slot:11b,tag:{EnchantStone:1b,EnchantID:\"闇威\",Tier:1}},{Slot:15b,tag:{EnchantStone:1b,EnchantID:\"闇威\",Tier:1}},{Slot:16b,tag:{EnchantStone:1b,EnchantID:\"闇威\",Tier:1}}]}"
+    }
+  }
+}

@@ -1,5 +1,6 @@
 {
-	"values": [
-		"main:load"
-	]
+    "replace": false,
+    "values": [
+        "main:load"
+    ]
 }

@@ -1,0 +1,1 @@
+execute in area:nether run tp @s 745 217 806 -90 0

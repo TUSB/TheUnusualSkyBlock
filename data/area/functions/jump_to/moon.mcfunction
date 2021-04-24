@@ -1,0 +1,1 @@
+execute in area:moon run tp @s 0 50 -2049 0 0

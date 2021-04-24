@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{Engraving:{}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "item:enchant/engraving/trigger"
+  }
+}

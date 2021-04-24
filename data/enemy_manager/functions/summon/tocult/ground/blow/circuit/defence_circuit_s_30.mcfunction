@@ -1,5 +1,0 @@
-##############################
-### 防衛回路S召喚 - Tocult Ground Blow
-##############################
-
-summon minecraft:villager ~ ~1 ~ {Silent:true,Health:0f,DeathTime:19s,Passengers:[{CustomName:"\"防衛回路S\"",DeathLootTable:"loot_manager:empty",AbsorptionAmount:3000f,Tags:["HasSkill","SecurityLaserLv2"],Attributes:[{Name:generic.knockbackResistance,Modifiers:[{Amount:20d,UUIDLeast:0l},{Amount:20d,UUIDLeast:1l},{Amount:100d,UUIDLeast:2l}]},{Name:"generic.movementSpeed",Base:0.25d},{Name:"generic.attackDamage",Base:10d}],ActiveEffects:[{Id:24b,Amplifier:0b,Duration:2147483647,ShowParticles:false}],HandItems:[{tag:{Enchantments:[{id:"minecraft:fire_aspect",lvl:1s}]},id:"minecraft:redstone",Count:1b},{tag:{Enchantments:[{id:"minecraft:fire_aspect",lvl:1s}]},id:"minecraft:redstone",Count:1b}],HandDropChances:[-1E40f,-1E40f],ArmorItems:[{tag:{display:{color:2497833}},id:"minecraft:leather_boots",Count:1b},{tag:{display:{color:2497833}},id:"minecraft:leather_leggings",Count:1b},{tag:{display:{color:2497833}},id:"minecraft:leather_chestplate",Count:1b},{id:"minecraft:structure_block",Count:1b}],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f],id:"minecraft:skeleton"}]}

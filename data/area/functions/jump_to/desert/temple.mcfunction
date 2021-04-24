@@ -1,0 +1,1 @@
+execute in area:desert run tp @s -1682 145 2257 0 0

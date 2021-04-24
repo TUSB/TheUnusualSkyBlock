@@ -1,0 +1,89 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "settings:item/enchant/enchant/protection",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "settings:item/enchant/exclusive/protections"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "name": "settings:item/enchant/enchant/projectile_protection",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "settings:item/enchant/exclusive/protections"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "name": "settings:item/enchant/enchant/blast_protection",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "settings:item/enchant/exclusive/protections"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "name": "settings:item/enchant/enchant/fire_protection",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "settings:item/enchant/exclusive/protections"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "settings:item/enchant/enchant/life",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:生命\"}]}}]}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "settings:item/enchant/enchant/mana",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:マナ\"}]}}]}"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

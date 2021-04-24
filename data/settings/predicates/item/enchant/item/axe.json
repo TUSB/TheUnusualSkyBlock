@@ -1,0 +1,66 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:エンチャント済み\"}]}}]}"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:wooden_axe\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:stone_axe\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:golden_axe\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:iron_axe\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:diamond_axe\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:netherite_axe\"}]}"
+          }
+        }
+      }
+    ]
+  }
+]

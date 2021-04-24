@@ -1,0 +1,26 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:エンチャント済み\"}]}}]}"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:bow\"}]}"
+          }
+        }
+      }
+    ]
+  }
+]

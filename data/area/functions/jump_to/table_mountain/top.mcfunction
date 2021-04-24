@@ -1,0 +1,1 @@
+execute in area:table_mountain run tp @s 5 248 -2769 180 0

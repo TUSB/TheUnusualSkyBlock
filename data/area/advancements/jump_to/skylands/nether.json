@@ -1,0 +1,32 @@
+{
+    "criteria": {
+        "nether": {
+            "trigger": "location",
+            "conditions": {
+                "location": {
+                    "position": {
+                        "x": {
+                            "min": 129,
+                            "max": 131
+                        },
+                        "y": {
+                            "min": 72,
+                            "max": 77
+                        },
+                        "z": {
+                            "min": -703,
+                            "max": -698
+                        }
+                    },
+                    "dimension": "area:skylands",
+                    "block": {
+                        "block": "end_gateway"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "area:jump_to/nether/"
+    }
+}

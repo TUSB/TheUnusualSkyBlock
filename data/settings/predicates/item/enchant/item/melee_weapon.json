@@ -1,0 +1,21 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "settings:item/enchant/item/sword"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "settings:item/enchant/item/axe"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "settings:item/enchant/item/trident"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "settings:item/enchant/item/carrot_on_a_stick"
+    }
+  ]
+}

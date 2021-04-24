@@ -1,0 +1,1 @@
+execute in area:skylands run tp @s 21.5 215 -665 0 0

@@ -1,0 +1,44 @@
+#Slot取得
+execute store result score _ _ run data get storage item: Slot
+#Items[{Slot:0b}]をプレイヤーにloot
+execute if score _ _ matches 0 in area:control_area run loot replace entity @s container.0 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 1 in area:control_area run loot replace entity @s container.1 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 2 in area:control_area run loot replace entity @s container.2 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 3 in area:control_area run loot replace entity @s container.3 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 4 in area:control_area run loot replace entity @s container.4 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 5 in area:control_area run loot replace entity @s container.5 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 6 in area:control_area run loot replace entity @s container.6 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 7 in area:control_area run loot replace entity @s container.7 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 8 in area:control_area run loot replace entity @s container.8 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 9 in area:control_area run loot replace entity @s container.9 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 10 in area:control_area run loot replace entity @s container.10 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 11 in area:control_area run loot replace entity @s container.11 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 12 in area:control_area run loot replace entity @s container.12 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 13 in area:control_area run loot replace entity @s container.13 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 14 in area:control_area run loot replace entity @s container.14 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 15 in area:control_area run loot replace entity @s container.15 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 16 in area:control_area run loot replace entity @s container.16 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 17 in area:control_area run loot replace entity @s container.17 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 18 in area:control_area run loot replace entity @s container.18 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 19 in area:control_area run loot replace entity @s container.19 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 20 in area:control_area run loot replace entity @s container.20 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 21 in area:control_area run loot replace entity @s container.21 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 22 in area:control_area run loot replace entity @s container.22 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 23 in area:control_area run loot replace entity @s container.23 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 24 in area:control_area run loot replace entity @s container.24 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 25 in area:control_area run loot replace entity @s container.25 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 26 in area:control_area run loot replace entity @s container.26 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 27 in area:control_area run loot replace entity @s container.27 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 28 in area:control_area run loot replace entity @s container.28 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 29 in area:control_area run loot replace entity @s container.29 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 30 in area:control_area run loot replace entity @s container.30 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 31 in area:control_area run loot replace entity @s container.31 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 32 in area:control_area run loot replace entity @s container.32 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 33 in area:control_area run loot replace entity @s container.33 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 34 in area:control_area run loot replace entity @s container.34 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 35 in area:control_area run loot replace entity @s container.35 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 100 in area:control_area run loot replace entity @s armor.feet 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 101 in area:control_area run loot replace entity @s armor.legs 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 102 in area:control_area run loot replace entity @s armor.chest 1 mine 2 2 2 debug_stick
+execute if score _ _ matches 103 in area:control_area run loot replace entity @s armor.head 1 mine 2 2 2 debug_stick
+execute if score _ _ matches -106 in area:control_area run loot replace entity @s weapon.offhand 1 mine 2 2 2 debug_stick

@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:381,EnchantStone:1b,EnchantID:\"竜鱗\",Tier:2,display:{Name:'{\"translate\":\"%1$s%2$s(II)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"竜鱗の\"},{\"translate\":\"欠片\"}]}',Lore:['[{\"translate\":\"enchantment.minecraft.protection\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.2\"}]','[{\"translate\":\"enchantment.minecraft.projectile_protection\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.2\"}]','[{\"translate\":\"enchantment.minecraft.blast_protection\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.2\"}]','[{\"translate\":\"enchantment.minecraft.fire_protection\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.2\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

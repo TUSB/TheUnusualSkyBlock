@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "triggered": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "area:extra_domain"
+            }
+        }
+    },
+    "rewards": {
+        "function": "area:entered/extra_domain"
+    }
+}

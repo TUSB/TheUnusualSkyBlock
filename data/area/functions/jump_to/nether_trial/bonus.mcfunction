@@ -1,0 +1,1 @@
+execute in area:nether_trial run tp @s -2449 138 -1789 -90 0

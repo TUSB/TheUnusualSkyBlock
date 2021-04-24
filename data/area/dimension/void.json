@@ -1,0 +1,16 @@
+{
+  "generator": {
+      "type": "minecraft:flat",
+      "seed": 0,
+      "settings": {
+          "structures": {
+              "structures": {
+              }
+          },
+          "layers": [
+          ],
+          "biome": "minecraft:the_void"
+      }
+  },
+  "type": "area:void"
+}

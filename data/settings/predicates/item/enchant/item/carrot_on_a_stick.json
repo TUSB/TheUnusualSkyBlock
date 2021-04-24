@@ -1,0 +1,34 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:エンチャント済み\"}]}}]}"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:carrot_on_a_stick\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:warped_fungus_on_a_stick\"}]}"
+          }
+        }
+      }
+    ]
+  }
+]

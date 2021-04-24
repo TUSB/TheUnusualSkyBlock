@@ -1,0 +1,73 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "settings:item/enchant/stone/all"
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"防護\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"大盾\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"耐爆\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"耐火\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"竜鱗\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"生命\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"魔力\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"進化\"}}]}"
+        }
+      }
+    }
+  ]
+}

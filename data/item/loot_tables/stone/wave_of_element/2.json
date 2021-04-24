@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:461,EnchantStone:1b,EnchantID:\"波動\",Tier:2,display:{Name:'{\"translate\":\"%1$s%2$s(II)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"波動の\"},{\"translate\":\"欠片\"}]}',Lore:['{\"translate\":\"%s II\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"波動\"}]}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:エンチャント済み\"}]}}]}"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:wooden_pickaxe\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:stone_pickaxe\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:golden_pickaxe\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:iron_pickaxe\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:diamond_pickaxe\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:netherite_pickaxe\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:wooden_shovel\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:stone_shovel\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:golden_shovel\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:iron_shovel\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:diamond_shovel\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:netherite_shovel\"}]}"
+          }
+        }
+      }
+    ]
+  }
+]

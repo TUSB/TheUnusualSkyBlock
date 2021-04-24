@@ -1,0 +1,169 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EnchantLore:['{\"translate\":\"%s I\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"炎ダメージ追加\"}]}','{\"translate\":\"%s I\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"氷ダメージ追加\"}]}','{\"translate\":\"%s I\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"雷ダメージ追加\"}]}','{\"translate\":\"%s I\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"光ダメージ追加\"}]}','{\"translate\":\"%s I\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"闇ダメージ追加\"}]}'],Enchantments:[{id:\"tusb:炎\",lvl:1},{id:\"tusb:氷\",lvl:1},{id:\"tusb:雷\",lvl:1},{id:\"tusb:光\",lvl:1},{id:\"tusb:闇\",lvl:1}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EnchantLore:['{\"translate\":\"%s II\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"炎ダメージ追加\"}]}','{\"translate\":\"%s II\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"氷ダメージ追加\"}]}','{\"translate\":\"%s II\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"雷ダメージ追加\"}]}','{\"translate\":\"%s II\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"光ダメージ追加\"}]}','{\"translate\":\"%s II\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"闇ダメージ追加\"}]}'],Enchantments:[{id:\"tusb:炎\",lvl:2},{id:\"tusb:氷\",lvl:2},{id:\"tusb:雷\",lvl:2},{id:\"tusb:光\",lvl:2},{id:\"tusb:闇\",lvl:2}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EnchantLore:['{\"translate\":\"%s III\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"炎ダメージ追加\"}]}','{\"translate\":\"%s III\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"氷ダメージ追加\"}]}','{\"translate\":\"%s III\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"雷ダメージ追加\"}]}','{\"translate\":\"%s III\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"光ダメージ追加\"}]}','{\"translate\":\"%s III\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"闇ダメージ追加\"}]}'],Enchantments:[{id:\"tusb:炎\",lvl:3},{id:\"tusb:氷\",lvl:3},{id:\"tusb:雷\",lvl:3},{id:\"tusb:光\",lvl:3},{id:\"tusb:闇\",lvl:3}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EnchantLore:['{\"translate\":\"%s IV\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"炎ダメージ追加\"}]}','{\"translate\":\"%s IV\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"氷ダメージ追加\"}]}','{\"translate\":\"%s IV\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"雷ダメージ追加\"}]}','{\"translate\":\"%s IV\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"光ダメージ追加\"}]}','{\"translate\":\"%s IV\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"闇ダメージ追加\"}]}'],Enchantments:[{id:\"tusb:炎\",lvl:4},{id:\"tusb:氷\",lvl:4},{id:\"tusb:雷\",lvl:4},{id:\"tusb:光\",lvl:4},{id:\"tusb:闇\",lvl:4}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EnchantLore:['{\"translate\":\"%s V\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"炎ダメージ追加\"}]}','{\"translate\":\"%s V\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"氷ダメージ追加\"}]}','{\"translate\":\"%s V\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"雷ダメージ追加\"}]}','{\"translate\":\"%s V\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"光ダメージ追加\"}]}','{\"translate\":\"%s V\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"闇ダメージ追加\"}]}'],Enchantments:[{id:\"tusb:炎\",lvl:5},{id:\"tusb:氷\",lvl:5},{id:\"tusb:雷\",lvl:5},{id:\"tusb:光\",lvl:5},{id:\"tusb:闇\",lvl:5}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EnchantLore:['{\"translate\":\"%s VI\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"炎ダメージ追加\"}]}','{\"translate\":\"%s VI\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"氷ダメージ追加\"}]}','{\"translate\":\"%s VI\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"雷ダメージ追加\"}]}','{\"translate\":\"%s VI\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"光ダメージ追加\"}]}','{\"translate\":\"%s VI\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"闇ダメージ追加\"}]}'],Enchantments:[{id:\"tusb:炎\",lvl:6},{id:\"tusb:氷\",lvl:6},{id:\"tusb:雷\",lvl:6},{id:\"tusb:光\",lvl:6},{id:\"tusb:闇\",lvl:6}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EnchantLore:['{\"translate\":\"%s VII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"炎ダメージ追加\"}]}','{\"translate\":\"%s VII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"氷ダメージ追加\"}]}','{\"translate\":\"%s VII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"雷ダメージ追加\"}]}','{\"translate\":\"%s VII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"光ダメージ追加\"}]}','{\"translate\":\"%s VII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"闇ダメージ追加\"}]}'],Enchantments:[{id:\"tusb:炎\",lvl:7},{id:\"tusb:氷\",lvl:7},{id:\"tusb:雷\",lvl:7},{id:\"tusb:光\",lvl:7},{id:\"tusb:闇\",lvl:7}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EnchantLore:['{\"translate\":\"%s VIII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"炎ダメージ追加\"}]}','{\"translate\":\"%s VIII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"氷ダメージ追加\"}]}','{\"translate\":\"%s VIII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"雷ダメージ追加\"}]}','{\"translate\":\"%s VIII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"光ダメージ追加\"}]}','{\"translate\":\"%s VIII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"闇ダメージ追加\"}]}'],Enchantments:[{id:\"tusb:炎\",lvl:8},{id:\"tusb:氷\",lvl:8},{id:\"tusb:雷\",lvl:8},{id:\"tusb:光\",lvl:8},{id:\"tusb:闇\",lvl:8}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": 8
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
