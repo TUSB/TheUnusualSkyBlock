@@ -27,7 +27,7 @@ jobs:
             -H "Authorization: Bearer ${{ secrets.VULTR_API_KEY }}" \
             -H "Content-Type: application/json" \
             --data '{"ip_type" : "v4", "protocol" : "tcp", "port": "22","subnet" : "$IP_ADDRESS", "subnet_size" : 32,"source" : "","notes" : "GitHub Action Firewall Rule"}'
-
+      - name: Deploy by rsync
         uses: trendyminds/github-actions-rsync@master
         with:
           RSYNC_OPTIONS: -avzr --delete
