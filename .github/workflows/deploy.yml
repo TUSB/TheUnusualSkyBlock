@@ -30,12 +30,19 @@ jobs:
       - uses: actions/checkout@v2
       - name: Add Firewalld IP Address
         run: |
-          echo '{"ip_type": "v4", "protocol": "tcp", "port": "22", "subnet":"${{ steps.ip.outputs.ipv4 }}", "subnet_size": 32, "source" : "", "notes" : "GitHub Action Firewall Rule"}'
           ADD_FIREWALL=`curl "https://api.vultr.com/v2/firewalls/${{ secrets.VULTR_FIREWALL_GROUP_ID }}/rules" \
-            -X POST \
-            -H "Authorization: Bearer ${{ secrets.VULTR_API_KEY }}" \
-            -H "Content-Type: application/json" \
-            --data '{"ip_type": "v4", "protocol": "tcp", "port": "22", "subnet":"${{ steps.ip.outputs.ipv4 }}", "subnet_size" : 32,"source" : "","notes" : "GitHub Action Firewall Rule"}'`
+              -X POST \
+              -H "Authorization: Bearer ${{ secrets.VULTR_API_KEY }}" \
+              -H "Content-Type: application/json" \
+              --data '{
+              "ip_type": "v4",
+              "protocol": "tcp",
+              "port": "22",
+              "subnet": "${{ steps.ip.outputs.ipv4 }}",
+              "subnet_size": 32,
+              "source": "",
+              "notes": "GitHub Action Firewall Rule"
+          }'`
           echo $ADD_FIREWALL
       - name: Deploy by rsync
         uses: trendyminds/github-actions-rsync@master
@@ -47,3 +54,10 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.TUSB_MINECRAFT_SERVER_PRIVATE_KEY }}
           SSH_USERNAME: ${{ secrets.TUSB_MINECRAFT_SERVER_REMOTE_USER }}
           SSH_HOSTNAME: ${{ secrets.TUSB_MINECRAFT_SERVER_REMOTE_HOST }}
+          
+      - name: Delete Firewalld IP Address
+        run: |
+          FIREWALL_ID=`echo "$ADD_FIREWALL" | jq '.firewall_rule.id'`
+          DELETE_FIRE=`curl "https://api.vultr.com/v2/firewalls/${{ secrets.VULTR_FIREWALL_GROUP_ID }}/rules/$FIREWALL_ID" \
+            -X DELETE \
+            -H "Authorization: Bearer ${{ secrets.VULTR_API_KEY }}"`
