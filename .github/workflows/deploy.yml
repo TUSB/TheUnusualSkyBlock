@@ -22,7 +22,7 @@ jobs:
       - name: Deploy by rsync
         uses: trendyminds/github-actions-rsync@master
         with:
-          RSYNC_OPTIONS: -avzr --delete --exclude-from=.rsyncignore
+          RSYNC_OPTIONS: -avzr --delete
           RSYNC_TARGET: /
           RSYNC_SOURCE: /home/git/deploy/
         env:
