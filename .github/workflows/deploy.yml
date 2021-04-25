@@ -12,26 +12,55 @@ on:
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+  
 jobs:
   deploy:
+    name: deploy
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v2
-      - name: Deploy
-        env:
-          PRIVATE_KEY: ${{ secrets.TUSB_MINECRAFT_SERVER_PRIVATE_KEY }}
-          USER_NAME: ${{ secrets.TUSB_MINECRAFT_SERVER_REMOTE_USER }}
-          HOST_NAME: ${{ secrets.TUSB_MINECRAFT_SERVER_REMOTE_HOST }}
+      - name: Set env
         run: |
-          ls -al
-          tree
-          # SSH接続して、git pullする
-          echo "$PRIVATE_KEY" > private_key && chmod 600 private_key
-          ssh -o StrictHostKeyChecking=no -i private_key ${USER_NAME}@${HOST_NAME} -vvv
-          cd /home/git/deploy/ &&
-          git checkout master &&
-          git fetch --all &&
-          git reset --hard origin/master &&
-          git pull origin master
+          echo ::set-env name=RSYNC_SOURCE::/
+          echo ::set-env name=RSYNC_TARGET::/home/git/deploy/
+
+      - name: Deploy by rsync
+        uses: trendyminds/github-actions-rsync@master
+        with:
+          RSYNC_OPTIONS: -avzr --delete --exclude-from=.rsyncignore
+          RSYNC_TARGET: $RSYNC_TARGET
+          RSYNC_SOURCE: $RSYNC_SOURCE
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.TUSB_MINECRAFT_SERVER_PRIVATE_KEY }}
+          SSH_USERNAME: ${{ secrets.TUSB_MINECRAFT_SERVER_REMOTE_USER }}
+          SSH_HOSTNAME: ${{ secrets.TUSB_MINECRAFT_SERVER_REMOTE_HOST }}
+
+      - name: Cache ssh config
+        id: cache-ssh-config
+        uses: actions/cache@v1
+        with:
+          path: /home/runner/.ssh
+          key: ${{ runner.os }}-ssh-config-${{ hashFiles('/home/runner/.ssh/private-key-for-deploy') }}
+          restore-keys: |
+            ${{ runner.os }}-ssh-config-
+
+      - name: Make ssh config
+        if: steps.cache-ssh-config.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p /home/runner/.ssh
+          touch /home/runner/.ssh/private-key-for-deploy
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > /home/runner/.ssh/private-key-for-deploy
+          chmod 600 /home/runner/.ssh/private-key-for-deploy
+          ssh-keyscan ${{ secrets.SSH_HOSTNAME }} >> ~/.ssh/known_hosts
+
+      - name: Make shell
+        run: |
+          touch ./ssh-script.sh
+          echo "cd $RSYNC_TARGET" >> ssh-script.sh
+          echo "ls -al" >> ssh-script.sh
+          cat ssh-script.sh
+
+      - name: Excute shell
+        run: |
+          ssh -i ~/.ssh/private-key-for-deploy ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOSTNAME }} 'bash -s' < ./ssh-script.sh
