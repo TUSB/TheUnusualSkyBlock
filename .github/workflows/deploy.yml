@@ -44,9 +44,9 @@ jobs:
         run: |
           mkdir -p /home/runner/.ssh
           touch /home/runner/.ssh/private-key-for-deploy
-          echo "${{ secrets.SSH_PRIVATE_KEY }}" > /home/runner/.ssh/private-key-for-deploy
+          echo "$SSH_PRIVATE_KEY" > /home/runner/.ssh/private-key-for-deploy
           chmod 600 /home/runner/.ssh/private-key-for-deploy
-          ssh-keyscan ${{ secrets.SSH_HOSTNAME }} >> ~/.ssh/known_hosts
+          ssh-keyscan $SSH_HOSTNAME >> ~/.ssh/known_hosts
 
       - name: Make shell
         run: |
@@ -57,4 +57,4 @@ jobs:
 
       - name: Excute shell
         run: |
-          ssh -i ~/.ssh/private-key-for-deploy ${{ secrets.SSH_USERNAME }}@${{ secrets.SSH_HOSTNAME }} 'bash -s' < ./ssh-script.sh
+          ssh -i ~/.ssh/private-key-for-deploy $SSH_USERNAME@$SSH_HOSTNAME 'bash -s' < ./ssh-script.sh
