@@ -41,7 +41,7 @@ jobs:
               "subnet": "${{ steps.ip.outputs.ipv4 }}",
               "subnet_size": 32,
               "source": "",
-              "notes": "GitHub Action Firewall Rule `date`"
+              "notes": "GitHub Action Firewall Rule"
           }'`
           echo $ADD_FIREWALL
       - name: Deploy by rsync
