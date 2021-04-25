@@ -18,12 +18,12 @@ jobs:
     name: deploy
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
       - name: Get Public IP
         id: ip
         uses: haythem/public-ip@v1
       
-      - name: IP Address
+      - uses: actions/checkout@v2
+      - name: Add Firewalld IP Address
         run: |
           # https://github.com/haythem/public-ip
           IP_ADDRESS=`echo ${{ steps.ip.outputs.ipv4 }}`
