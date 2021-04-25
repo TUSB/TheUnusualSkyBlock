@@ -19,9 +19,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+      - name: Get Public IP
+        id: ip
+        uses: haythem/public-ip@v1
+      
       - name: IP Address
         run: |
-          IP_ADDRESS=`curl ifconfig.io`
+          # https://github.com/haythem/public-ip
+          IP_ADDRESS=`echo ${{ steps.ip.outputs.ipv4 }}`
+
           ADD_FIREWALL=`curl "https://api.vultr.com/v2/firewalls/${{ secrets.VULTR_FIREWALL_GROUP_ID }}/rules" \
             -X POST \
             -H "Authorization: Bearer ${{ secrets.VULTR_API_KEY }}" \
