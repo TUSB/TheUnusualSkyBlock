@@ -24,37 +24,9 @@ jobs:
         with:
           RSYNC_OPTIONS: -avzr --delete
           RSYNC_SOURCE: /
-          RSYNC_TARGET: /home/git/deploy/
+          RSYNC_TARGET: /home/git/deploy/${{ github.event.repository.name }}
         env:
           SSH_PRIVATE_KEY: ${{ secrets.TUSB_MINECRAFT_SERVER_PRIVATE_KEY }}
           SSH_USERNAME: ${{ secrets.TUSB_MINECRAFT_SERVER_REMOTE_USER }}
           SSH_HOSTNAME: ${{ secrets.TUSB_MINECRAFT_SERVER_REMOTE_HOST }}
 
-      - name: Cache ssh config
-        id: cache-ssh-config
-        uses: actions/cache@v1
-        with:
-          path: /home/runner/.ssh
-          key: ${{ runner.os }}-ssh-config-${{ hashFiles('/home/runner/.ssh/private-key-for-deploy') }}
-          restore-keys: |
-            ${{ runner.os }}-ssh-config-
-
-      - name: Make ssh config
-        if: steps.cache-ssh-config.outputs.cache-hit != 'true'
-        run: |
-          mkdir -p /home/runner/.ssh
-          touch /home/runner/.ssh/private-key-for-deploy
-          echo "$SSH_PRIVATE_KEY" > /home/runner/.ssh/private-key-for-deploy
-          chmod 600 /home/runner/.ssh/private-key-for-deploy
-          ssh-keyscan $SSH_HOSTNAME >> ~/.ssh/known_hosts
-
-      - name: Make shell
-        run: |
-          touch ./ssh-script.sh
-          echo "cd $RSYNC_TARGET" >> ssh-script.sh
-          echo "ls -al" >> ssh-script.sh
-          cat ssh-script.sh
-
-      - name: Excute shell
-        run: |
-          ssh -i ~/.ssh/private-key-for-deploy $SSH_USERNAME@$SSH_HOSTNAME 'bash -s' < ./ssh-script.sh
