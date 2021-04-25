@@ -64,7 +64,7 @@ jobs:
         name: Delete Firewalld IP Address
         run: |
           FIREWALL_ID=`echo "$ADD_FIREWALL" | jq '.firewall_rule.id'`
-          DELETE_FIREWALL=`curl "https://api.vultr.com/v2/firewalls/${{ secrets.VULTR_FIREWALL_GROUP_ID }}/rules/$FIREWALL_ID" \
+          DELETE_FIREWALL=`curl "https://api.vultr.com/v2/firewalls/${{ secrets.VULTR_FIREWALL_GROUP_ID }}/rules/`echo "$FIREWALL_ID"`" \
             -X DELETE \
             -H "Authorization: Bearer ${{ secrets.VULTR_API_KEY }}"`
           echo $DELETE_FIREWALL
