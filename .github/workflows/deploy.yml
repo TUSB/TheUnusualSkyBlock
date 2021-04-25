@@ -21,16 +21,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Set env
-        run: |
-          echo "RSYNC_SOURCE=/" >> $GITHUB_ENV
-          echo "RSYNC_TARGET=/home/git/deploy/" >> $GITHUB_ENV
-          
       - name: Deploy by rsync
         uses: trendyminds/github-actions-rsync@master
         with:
           RSYNC_OPTIONS: -avzr --delete --exclude-from=.rsyncignore
-          RSYNC_TARGET: $RSYNC_TARGET
-          RSYNC_SOURCE: $RSYNC_SOURCE
+          RSYNC_TARGET: /
+          RSYNC_SOURCE: /home/git/deploy/
         env:
           SSH_PRIVATE_KEY: ${{ secrets.TUSB_MINECRAFT_SERVER_PRIVATE_KEY }}
           SSH_USERNAME: ${{ secrets.TUSB_MINECRAFT_SERVER_REMOTE_USER }}
