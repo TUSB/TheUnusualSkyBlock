@@ -19,7 +19,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Set env
       - name: Deploy by rsync
         uses: trendyminds/github-actions-rsync@master
         with:
