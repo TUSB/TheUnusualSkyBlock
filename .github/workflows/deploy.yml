@@ -44,6 +44,11 @@ jobs:
               "notes": "GitHub Action Firewall Rule"
           }'`
           echo $ADD_FIREWALL
+          
+      - name: Sleep for 30 seconds
+        uses: jakejarvis/wait-action@master
+        with:
+          time: '30s'
       - name: Deploy by rsync
         uses: trendyminds/github-actions-rsync@master
         with:
