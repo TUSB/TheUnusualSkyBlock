@@ -46,7 +46,7 @@ jobs:
           }'`
           
           firewall_id=`echo "${{ env.ADD_FIREWALLD_RES }}" | jq '.firewall_rule.id'`
-          echo '::set-output name=ID::$firewall_id'
+          echo "::set-output name=ID::$firewall_id"
       - name: Sleep for 30 seconds
         uses: jakejarvis/wait-action@master
         with:
