@@ -45,8 +45,12 @@ jobs:
               "notes": "GitHub Action Firewall Rule"
           }'`
           
-          firewall_id=`echo "${{ env.ADD_FIREWALLD_RES }}" | jq '.firewall_rule.id'`
+          firewall_id=`echo "$ADD_FIREWALL" | jq '.firewall_rule.id'`
           echo "::set-output name=ID::$firewall_id"
+          echo "-----DEBUG-----"
+          echo "$ADD_FIREWALL"
+          echo "$firewall_id"
+          echo "${{ steps.FIREWALL.outputs.ID }}"
       - name: Sleep for 30 seconds
         uses: jakejarvis/wait-action@master
         with:
@@ -69,6 +73,4 @@ jobs:
           -X DELETE  \
           -H 'Authorization: Bearer ${{ secrets.VULTR_API_KEY }}')
           echo $DELETE_FIREWALL
-
-        
 
