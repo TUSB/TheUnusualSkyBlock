@@ -43,7 +43,7 @@ jobs:
               "source": "",
               "notes": "GitHub Action Firewall Rule"
           }'`
-          echo "{ADD_FIREWALLD_RES}=${ADD_FIREWALL}" >> $GITHUB_ENV
+          echo "{ADD_FIREWALLD_RES}=$ADD_FIREWALL" >> $GITHUB_ENV
       - name: Sleep for 30 seconds
         uses: jakejarvis/wait-action@master
         with:
