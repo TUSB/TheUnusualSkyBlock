@@ -49,8 +49,7 @@ jobs:
           echo "::set-output name=ID::$firewall_id"
           echo "-----DEBUG-----"
           echo "$ADD_FIREWALL"
-          echo "$firewall_id"
-          echo "${{ steps.FIREWALL.outputs.ID }}"
+   
       - name: Sleep for 30 seconds
         uses: jakejarvis/wait-action@master
         with:
@@ -73,4 +72,5 @@ jobs:
           -X DELETE  \
           -H 'Authorization: Bearer ${{ secrets.VULTR_API_KEY }}')
           echo $DELETE_FIREWALL
-
+          echo "-----DEBUG-----"
+          echo "$DELETE_FIREWALL"
