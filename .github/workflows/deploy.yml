@@ -29,6 +29,7 @@ jobs:
       
       - uses: actions/checkout@v2
       - name: Add Firewalld IP Address
+        id: FIREWALL
         run: |
           ADD_FIREWALL=`curl "https://api.vultr.com/v2/firewalls/${{ secrets.VULTR_FIREWALL_GROUP_ID }}/rules" \
               -X POST \
@@ -43,9 +44,9 @@ jobs:
               "source": "",
               "notes": "GitHub Action Firewall Rule"
           }'`
-          echo "ADD_FIREWALLD_RES=$ADD_FIREWALL" >> $GITHUB_ENV
           
-        if: ${{ env.ADD_FIREWALLD_RES != '' }}
+          firewall_id=`echo "${{ env.ADD_FIREWALLD_RES }}" | jq '.firewall_rule.id'`
+          echo '::set-output name=ID::$firewall_id'
       - name: Sleep for 30 seconds
         uses: jakejarvis/wait-action@master
         with:
@@ -64,9 +65,7 @@ jobs:
       - if: always()
         name: Delete Firewalld IP Address
         run: |
-          FIREWALL_ID=`echo "${{ env.ADD_FIREWALLD_RES }}" | jq '.firewall_rule.id'`
-          echo $FIREWALL_ID
-          DELETE_FIREWALL=$(curl "https://api.vultr.com/v2/firewalls/${{ secrets.VULTR_FIREWALL_GROUP_ID }}/rules/${FIREWALL_ID}"  \
+          DELETE_FIREWALL=$(curl "https://api.vultr.com/v2/firewalls/${{ secrets.VULTR_FIREWALL_GROUP_ID }}/rules/${{ steps.FIREWALL.outputs.ID }}"  \
           -X DELETE  \
           -H 'Authorization: Bearer ${{ secrets.VULTR_API_KEY }}')
           echo $DELETE_FIREWALL
