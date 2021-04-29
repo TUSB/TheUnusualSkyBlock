@@ -1,6 +1,4 @@
-# This is a basic workflow to help you get started with Actions
-
-name: Deploy
+name: Deploy Relay Servers
 
 # Controls when the action will run. 
 on:
@@ -57,9 +55,9 @@ jobs:
       - name: Deploy by rsync
         uses: trendyminds/github-actions-rsync@master
         with:
-          RSYNC_OPTIONS: -avzr --delete
+          RSYNC_OPTIONS: -avzre "ssh -o 'StrictHostKeyChecking no'" --delete --bwlimit=8192 --timeout=600
           RSYNC_SOURCE: /
-          RSYNC_TARGET: /home/git/deploy/${{ github.event.repository.name }}
+          RSYNC_TARGET: /home/${{ secrets.TUSB_MINECRAFT_SERVER_REMOTE_USER }}/deploy/${{ github.event.repository.name }}
         env:
           SSH_PRIVATE_KEY: ${{ secrets.TUSB_MINECRAFT_SERVER_PRIVATE_KEY }}
           SSH_USERNAME: ${{ secrets.TUSB_MINECRAFT_SERVER_REMOTE_USER }}
