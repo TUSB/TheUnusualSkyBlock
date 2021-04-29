@@ -36,7 +36,7 @@ jobs:
               --data '{
               "ip_type": "v4",
               "protocol": "tcp",
-              "port": "22",
+              "port": "${{ secrets.TUSB_MINECRAFT_SERVER_SSH_PORT }}", 
               "subnet": "${{ steps.ip.outputs.ipv4 }}",
               "subnet_size": 32,
               "source": "",
@@ -61,7 +61,7 @@ jobs:
         env:
           SSH_PRIVATE_KEY: ${{ secrets.TUSB_MINECRAFT_SERVER_PRIVATE_KEY }}
           SSH_USERNAME: ${{ secrets.TUSB_MINECRAFT_SERVER_REMOTE_USER }}
-          SSH_HOSTNAME: ${{ secrets.TUSB_MINECRAFT_SERVER_REMOTE_HOST }}
+          SSH_HOSTNAME: ${{ secrets.TUSB_MINECRAFT_SERVER_REMOTE_HOST_IP }}
           
       - if: always()
         name: Delete Firewalld IP Address
