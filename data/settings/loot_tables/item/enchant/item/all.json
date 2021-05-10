@@ -20,6 +20,24 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "settings:item/enchant/enchant/mending",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"minecraft:mending\"}]}}]}"
+                  }
+                }
+              }
+            }
+          ]
         }
       ]
     }
