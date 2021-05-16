@@ -32,4 +32,4 @@ execute as @e[tag=Garbage] run function entity:garbage_collection
 execute as @a[scores={HealthHealing=-2147483648..}] run function player:health_healing
 
 ###ネザースター取得
-execute as @a[nbt={Inventory:[{id:"minecraft:nether_star"}]}] run function job:exp/get
+execute as @a[nbt={Inventory:[{id:"minecraft:nether_star"}]}] at @s run function job:exp/get
