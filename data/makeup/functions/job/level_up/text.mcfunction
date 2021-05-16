@@ -1,0 +1,4 @@
+
+execute if score $CurrentLevel _ matches ..49 run tellraw @a [{"translate":"%1$s はレベルアップした！！ LV: %2$s → %3$s","with":[{"selector":"@s"},{"score":{"name":"$PreviousLevel","objective":"_"},"color":"green"},{"score":{"name":"$CurrentLevel","objective":"_"},"color":"green"}]}]
+execute if score $CurrentLevel _ matches 50.. if score $PreviousCP _ matches ..49 run tellraw @a [{"translate":"%1$s はレベルアップした！！ LV: %2$s → %3$s CP: %4$s → %5$s","with":[{"selector":"@s"},{"score":{"name":"$PreviousLevel","objective":"_"},"color":"green"},{"score":{"name":"$CurrentLevel","objective":"_"},"color":"green"},{"score":{"name":"$PreviousCP","objective":"_"},"color":"green"},{"score":{"name":"$CurrentCP","objective":"_"},"color":"green"}]}]
+execute if score $CurrentCP _ matches 50.. run tellraw @a [{"translate":"%1$s のレベルはこれ以上あがらない。","with":[{"selector":"@s"}]}]

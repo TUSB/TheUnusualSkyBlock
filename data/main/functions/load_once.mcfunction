@@ -39,6 +39,7 @@ scoreboard objectives add Random dummy {"text": "乱数用"}
 ###ジョブ系
 scoreboard objectives add Exp dummy {"text":"ジョブ経験値"}
 scoreboard objectives add AllExp dummy {"text": "総獲得経験値"}
+scoreboard objectives add RequiredExp dummy {"text": "ジョブ必要経験値"}
 
 ###乱数初期化
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,WaitTime:1,ReapplicationDelay:0,Duration:0,Tags:[Initialized]}
