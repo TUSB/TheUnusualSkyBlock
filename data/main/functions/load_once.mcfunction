@@ -36,6 +36,10 @@ scoreboard objectives add Ret dummy {"text":"戻り値用一時変数"}
 scoreboard objectives add Calc dummy {"text": "計算用"}
 scoreboard objectives add Random dummy {"text": "乱数用"}
 
+###ジョブ系
+scoreboard objectives add Exp dummy {"text":"ジョブ経験値"}
+scoreboard objectives add AllExp dummy {"text": "総獲得経験値"}
+
 ###乱数初期化
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,WaitTime:1,ReapplicationDelay:0,Duration:0,Tags:[Initialized]}
 execute store result score $RndMWC Random run data get entity @e[distance=..1,type=minecraft:area_effect_cloud,limit=1] UUID[0] 0.01
@@ -43,6 +47,9 @@ execute store result score $RndMWCCarry Random run data get entity @e[distance=.
 scoreboard players set _ _ 65536
 scoreboard players operation $RndMWC Random %= _ _
 scoreboard players operation $RndMWCCarry Random /= _ _
+
+###総獲得経験値量初期化
+scoreboard players add $World AllExp 0
 
 ###コントロールエリア設定
 execute in area:control_area run forceload add 0 0
