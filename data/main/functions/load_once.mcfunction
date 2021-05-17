@@ -62,3 +62,4 @@ scoreboard objectives add UseSnowball minecraft.used:minecraft.snowball {"text":
 scoreboard objectives add UseBow minecraft.used:minecraft.bow {"text": "弓使用"}
 scoreboard objectives add UseCrossbow minecraft.used:minecraft.crossbow {"text": "クロスボウ使用"}
 scoreboard objectives add UseTrident minecraft.used:minecraft.trident {"text": "トライデント使用"}
+scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game {"text":"ログインフラグ"}

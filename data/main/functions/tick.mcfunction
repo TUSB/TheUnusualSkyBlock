@@ -2,6 +2,9 @@
 ### 毎ティック処理
 ##############################
 
+###ログイン時処理
+execute as @a[scores={LeaveGame=1..}] at @s run function player:leave_game
+
 ###トリガー
 execute as @a[scores={UseSnowball=1..}] at @s run function player:trigger/use/snowball
 execute as @a[scores={UseBow=1..}] at @s run function player:trigger/use/bow
