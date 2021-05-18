@@ -37,9 +37,24 @@ scoreboard objectives add Calc dummy {"text": "計算用"}
 scoreboard objectives add Random dummy {"text": "乱数用"}
 
 ###ジョブ系
+scoreboard objectives add Job dummy {"text": "現在のジョブ"}
 scoreboard objectives add Exp dummy {"text":"ジョブ経験値"}
 scoreboard objectives add AllExp dummy {"text": "総獲得経験値"}
 scoreboard objectives add RequiredExp dummy {"text": "ジョブ必要経験値"}
+scoreboard objectives add SubLevel dummy {"text":"現在のジョブのサブレベル"}
+scoreboard objectives add CritProbability dummy {"text":"クリティカルヒット確率"}
+scoreboard objectives add ResistMin dummy {"text":"状態異常耐性下限"}
+scoreboard objectives add AuraRate dummy {"text":"オーラ延長割合"}
+scoreboard objectives add IntervalRate dummy {"text":"スキル発動無効時間短縮割合"}
+scoreboard objectives add MPCostRate dummy {"text":"MP消費軽減割合"}
+scoreboard objectives add AddKnight dummy {"text": "追加レベル：剣士"}
+scoreboard objectives add AddNinja dummy {"text": "追加レベル：忍者"}
+scoreboard objectives add AddHunter dummy {"text": "追加レベル：狩人"}
+scoreboard objectives add AddWhite_mage dummy {"text": "追加レベル：白魔導士"}
+scoreboard objectives add AddBlack_mage dummy {"text": "追加レベル：黒魔導士"}
+scoreboard objectives add AddSummoner dummy {"text": "追加レベル：召喚士"}
+scoreboard objectives add AddPuppet_master dummy {"text": "追加レベル：絡繰師"}
+scoreboard objectives add AddThief dummy {"text": "追加レベル：怪盗"}
 
 ###乱数初期化
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,WaitTime:1,ReapplicationDelay:0,Duration:0,Tags:[Initialized]}
