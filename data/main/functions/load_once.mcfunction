@@ -53,7 +53,7 @@ scoreboard objectives add AddHunter dummy {"text": "追加レベル：狩人"}
 scoreboard objectives add AddWhite_mage dummy {"text": "追加レベル：白魔導士"}
 scoreboard objectives add AddBlack_mage dummy {"text": "追加レベル：黒魔導士"}
 scoreboard objectives add AddSummoner dummy {"text": "追加レベル：召喚士"}
-scoreboard objectives add AddPuppet_master dummy {"text": "追加レベル：絡繰師"}
+scoreboard objectives add AddPuppet_master dummy {"text": "追加レベル：絡繰士"}
 scoreboard objectives add AddThief dummy {"text": "追加レベル：怪盗"}
 
 ###乱数初期化
