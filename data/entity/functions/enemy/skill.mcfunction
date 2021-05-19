@@ -16,18 +16,22 @@ execute as @s[tag=Skill_call] run data modify storage oh_my_dat: _[-4][-4][-4][-
 execute as @s[tag=Skill_call] run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI.Skills.Call set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI.Skills.Call.Call
 execute as @s[tag=Skill_call] run function entity:enemy/call
 ##Interval のリセット LoopCountの減算
-execute as @s[tag=Skill_call] store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI.Skills.Skill[0].Interval int 1 run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI.Skills.Skill[0].highInterval
+execute as @s[tag=Skill_call] run function entity:enemy/interval
+execute as @s[tag=Skill_call] store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI.Skills.Skill[0].Interval int 1 run scoreboard players get _ Random
 execute as @s[tag=Skill_call] store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI.Skills.Skill[0].LoopCount int 0.99999 run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI.Skills.Skill[0].LoopCount
 
 ###LoopCount=0 次に飛ばす
 execute if data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI.Skills.SkillCheck{LoopCount:0} run tag @s add Skill_skip
-##次のskillを引っ張り出す
+##次のskillを引っ張り出す Onceの減算
+execute as @s[tag=Skill_call,tag=Skill_skip] if data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI.Skills.SkillCheck{Once:1} run data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI.Skills.Skill[0]
+execute as @s[tag=Skill_call,tag=Skill_skip] if data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI.Skills.Skill[0].Once store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI.Skills.Skill[0].Once int 0.99999 run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI.Skills.Skill[0].Once
 execute as @s[tag=Skill_call,tag=Skill_skip] run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI.Skills.Skill append from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI.Skills.Skill[0]
 execute as @s[tag=Skill_call,tag=Skill_skip] run data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI.Skills.Skill[0]
-#LoopCount Intervalを設定
-execute as @s[tag=Skill_call,tag=Skill_skip] store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI.Skills.Skill[0].Interval int 1 run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI.Skills.Skill[0].highInterval
+##LoopCount Intervalを設定
+execute as @s[tag=Skill_call,tag=Skill_skip] run function entity:enemy/interval
+execute as @s[tag=Skill_call,tag=Skill_skip] store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI.Skills.Skill[0].Interval int 1 run scoreboard players get _ Random
 execute as @s[tag=Skill_call,tag=Skill_skip] store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI.Skills.Skill[0].LoopCount int 0.99999 run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI.Skills.Skill[0].Loop
 
-#Tag外し
+###Tag外し
 execute as @s[tag=Skill_call] run tag @s remove Skill_call
 execute as @s[tag=Skill_skip] run tag @s remove Skill_skip
