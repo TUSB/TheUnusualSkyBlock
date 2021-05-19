@@ -22,11 +22,14 @@ kill @e[tag=OneTimeSpawner,nbt={SpawnData:{id:"tusb_mob:empty"}}]
 
 ###１秒処理
 scoreboard players add $Second Count 1
-execute if score $Second Count matches 21.. run function main:one_second
+execute if score $Second Count matches 20.. run function main:one_second
 
 ###Mobダメージ反映
 execute as @e[tag=Mob,nbt=!{HurtTime:0s}] run function entity:enemy/update_health
 execute as @e[tag=Mob,scores={Damage=1..}] run function entity:enemy/update_health
+
+###エンティティAI分岐
+execute as @e[tag=Mob] run function entity:enemy/main
 
 ###エンティティ削除
 execute as @e[tag=Garbage] run function entity:garbage_collection
