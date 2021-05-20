@@ -10,6 +10,7 @@ execute as @a[scores={UseSnowball=1..}] at @s run function player:trigger/use/sn
 execute as @a[scores={UseBow=1..}] at @s run function player:trigger/use/bow
 execute as @a[scores={UseCrossbow=1..}] at @s run function player:trigger/use/crossbow
 execute as @a[scores={UseTrident=1..}] at @s run function player:trigger/use/trident
+execute as @a[scores={SneakTime=1..}] at @s run function player:trigger/sneak
 
 ### エンティティ初期化
 execute as @e[tag=!Initialized] at @s run function entity:initialize_entity
@@ -36,6 +37,9 @@ execute as @e[tag=Garbage] run function entity:garbage_collection
 
 ###カスタムHP回復
 execute as @a[scores={HealthHealing=-2147483648..}] run function player:health_healing
+
+###プレイヤーゲーム設定
+execute as @a unless score @s ChangeSettings matches 0 run function player:setting/triggered
 
 ###ネザースター取得
 execute as @a[nbt={Inventory:[{id:"minecraft:nether_star"}]}] at @s run function job:exp/get

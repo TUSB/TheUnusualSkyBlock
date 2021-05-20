@@ -78,3 +78,6 @@ scoreboard objectives add UseBow minecraft.used:minecraft.bow {"text": "弓使�
 scoreboard objectives add UseCrossbow minecraft.used:minecraft.crossbow {"text": "クロスボウ使用"}
 scoreboard objectives add UseTrident minecraft.used:minecraft.trident {"text": "トライデント使用"}
 scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game {"text":"ログインフラグ"}
+scoreboard objectives add ChangeSettings trigger {"text":"設定変更"}
+scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time {"text":"スニーク時間"}
+scoreboard objectives add SneakTrigger dummy {"text":"スニーク累積時間"}
