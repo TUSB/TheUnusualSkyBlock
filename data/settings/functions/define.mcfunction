@@ -12,6 +12,9 @@
 #> モブ設定用ストレージ
 #define storage tusb_mob:
 
+#> プレイヤー設定用ストレージ
+#define storage tusb_player:
+
 #> 個別ストレージ
 #define storage oh_my_dat:
 
