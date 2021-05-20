@@ -40,6 +40,8 @@ execute as @a[scores={HealthHealing=-2147483648..}] run function player:health_h
 
 ###プレイヤーゲーム設定
 execute as @a unless score @s ChangeSettings matches 0 run function player:setting/triggered
+###潜在能力
+execute as @a unless score @s PotentialTrigger matches 0 at @s run function job:potentials/triggered
 
 ###ネザースター取得
 execute as @a[nbt={Inventory:[{id:"minecraft:nether_star"}]}] at @s run function job:exp/get

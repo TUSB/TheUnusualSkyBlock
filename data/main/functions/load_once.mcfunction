@@ -81,3 +81,5 @@ scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game {"text
 scoreboard objectives add ChangeSettings trigger {"text":"設定変更"}
 scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time {"text":"スニーク時間"}
 scoreboard objectives add SneakTrigger dummy {"text":"スニーク累積時間"}
+scoreboard objectives add PotentialTrigger trigger {"text":"潜在能力変更トリガー"}
+scoreboard objectives add PotentialPrev trigger {"text":"潜在能力変更前回トリガー"}

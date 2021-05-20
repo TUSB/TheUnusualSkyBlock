@@ -24,7 +24,7 @@ execute if score @s Job matches 7 run data modify storage tusb_player: Job set v
 execute if score @s Job matches 8 run data modify storage tusb_player: Job set value '{"translate":"怪盗","color":"green"}'
 
 tellraw @s[scores={Level=..49}] [{"translate":"Job:%1$s LV:%2$s Exp:%3$s/%4$s   ","with":[{"storage":"tusb_player:","nbt":"Job","interpret": true},{"score":{"name":"_","objective":"Level"},"color":"green"},{"score":{"name": "@s","objective": "Exp"},"color": "green"},{"score":{"name": "@s","objective": "RequiredExp"},"color": "green"}]}]
-tellraw @s[scores={Level=50..}] [{"translate":"Job:%1$s LV:%2$s CP:%3$s Exp:%4$s/%5$s   ","with":[{"storage":"tusb_player:","nbt":"Job","interpret": true},{"score":{"name":"_","objective":"Level"},"color":"green"},{"score":{"name": "_","objective": "Exp"},"color":"green"},{"score":{"name": "@s","objective": "Exp"},"color": "green"},{"score":{"name": "@s","objective": "RequiredExp"},"color": "green"}]}]
+tellraw @s[scores={Level=50..}] [{"translate":"Job:%1$s LV:%2$s CP:%3$s Exp:%4$s/%5$s   ","with":[{"storage":"tusb_player:","nbt":"Job","interpret": true},{"score":{"name":"_","objective":"Level"},"color":"green"},{"score":{"name": "_","objective": "Exp"},"color":"green"},{"score":{"name": "@s","objective": "Exp"},"color": "green"},{"score":{"name": "@s","objective": "RequiredExp"},"color": "green"}]},"   ",{"translate":"⇨ 潜在能力を引き上げる","clickEvent": {"action": "run_command","value": "/trigger PotentialTrigger set 1"}}]
 
 #各職業レベル表示
 scoreboard players set _ AddKnight 0
@@ -66,3 +66,5 @@ scoreboard players operation _ AddPuppet_master < _ _
 scoreboard players operation _ AddThief < _ _
 
 tellraw @s [{"translate":"剣士"},":",{"score":{"name":"_","objective":"AddKnight"},"color":"green"}," ",{"translate":"忍者"},":",{"score":{"name":"_","objective":"AddNinja"},"color":"green"}," ",{"translate":"狩人"},":",{"score":{"name":"_","objective":"AddHunter"},"color":"green"}," ",{"translate":"白魔導士"},":",{"score":{"name":"_","objective":"AddWhite_mage"},"color":"green"}," ",{"translate":"黒魔導士"},":",{"score":{"name":"_","objective":"AddBlack_mage"},"color":"green"}," ",{"translate":"召喚士"},":",{"score":{"name":"_","objective":"AddSummoner"},"color":"green"}," ",{"translate":"絡繰士"},":",{"score":{"name":"_","objective":"AddPuppet_master"},"color":"green"}," ",{"translate":"怪盗"},":",{"score":{"name":"_","objective":"AddThief"},"color":"green"}]
+
+scoreboard players enable @s PotentialTrigger
