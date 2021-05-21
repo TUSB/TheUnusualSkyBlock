@@ -4,6 +4,6 @@ execute if entity @e[distance=..7,tag=EnchantTable] run schedule function item:e
 execute if entity @e[distance=..7,tag=Anvil] run schedule function item:lapidary/anvil/schedule 2t
 
 #プレイヤーゲーム設定
-function player:setting/reshow
+function player:game_settings/reshow
 
 scoreboard players reset @s LeaveGame

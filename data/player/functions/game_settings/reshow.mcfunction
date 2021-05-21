@@ -11,4 +11,4 @@ tellraw @s [{"translate":"・ステータス","bold": true,"clickEvent": {"actio
 # 99: スニークで設定表示切り替え
 #
 
-function makeup:player/setting/reshow
+function makeup:player/game_settings/reshow

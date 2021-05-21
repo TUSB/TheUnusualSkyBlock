@@ -39,7 +39,7 @@ execute as @e[tag=Garbage] run function entity:garbage_collection
 execute as @a[scores={HealthHealing=-2147483648..}] run function player:health_healing
 
 ###プレイヤーゲーム設定
-execute as @a unless score @s ChangeSettings matches 0 run function player:setting/triggered
+execute as @a unless score @s ChangeSettings matches 0 run function player:game_settings/triggered
 ###潜在能力
 execute as @a unless score @s PotentialTrigger matches 0 at @s run function job:potentials/triggered
 

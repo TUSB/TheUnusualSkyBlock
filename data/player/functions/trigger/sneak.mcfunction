@@ -6,7 +6,7 @@ execute if score @s SneakTime matches 3 run scoreboard players add @s SneakTrigg
 
 
 ### 設定表示
-execute if score @s SneakTrigger matches 200 if entity @s[tag=!SuppressSettings] run function player:setting/show
+execute if score @s SneakTrigger matches 200 if entity @s[tag=!SuppressSettings] run function player:game_settings/show
 
 
 #スニーク解除   スニークし終わったときに実行したい処理はこの下に追加
