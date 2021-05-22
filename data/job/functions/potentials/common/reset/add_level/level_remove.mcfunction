@@ -44,5 +44,5 @@ scoreboard players operation @s Job = _ RequiredExp
 # _ RequiredExp CPを剥奪中の職業の番号が入っている
 # @s Job なんでも入れられるスコア。各処理関数へ引き渡す引数的存在
 #
-# tusb_player: SaveJobs 他ジョブのレベルを剥奪するシステムのループがあったとき、 _ Required のスコアを記憶するためのstorage
+# tusb_player: SaveJobs さらに他ジョブのCPを剥奪するシステムのループがあったとき、 _ Required のスコアを記憶するためのstorage
 #
