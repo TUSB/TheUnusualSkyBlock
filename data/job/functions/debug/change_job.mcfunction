@@ -39,4 +39,4 @@ clear @s player_head{display:{Name:'["絡繰士"]'}}
 clear @s player_head{display:{Name:'["怪盗"]'}}
 
 #レベルアップ可能ならレベルアップする
-execute if score @s Exp = @s RequiredExp run function job:level_up/
+execute if score @s Exp >= @s RequiredExp run function job:level_up/
