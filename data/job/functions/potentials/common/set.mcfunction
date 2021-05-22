@@ -10,6 +10,7 @@ function job:potentials/get_point
 #CP残量確認
 execute if score @s PotentialTrigger matches 111..114 run scoreboard players remove _ Exp 1
 execute if score @s PotentialTrigger matches 121..122 run scoreboard players remove _ Exp 2
+execute if score @s PotentialTrigger matches 141..149 run scoreboard players remove _ Exp 1
 
 #潜在能力引き出し
 execute if score @s PotentialTrigger matches 111 if score _ Exp matches 0.. run scoreboard players remove @s MPCostRate 1
@@ -18,17 +19,20 @@ execute if score @s PotentialTrigger matches 113 if score _ Exp matches 0.. run 
 execute if score @s PotentialTrigger matches 114 if score _ Exp matches 0.. run scoreboard players add @s ResistMin 1
 execute if score @s PotentialTrigger matches 121 if score _ Exp matches 0.. run scoreboard players add @s CritProbability 1
 execute if score @s PotentialTrigger matches 122 if score _ Exp matches 0.. run scoreboard players add @s SubLevel 1
-
-#他ジョブレベルはまだ
-execute if score @s PotentialTrigger matches 131 if score _ Exp matches 0.. run function job:potentials/common/add_level/show
+execute if score @s PotentialTrigger matches 141..149 if score _ Exp matches 0.. run function job:potentials/common/add_level/
 
 #成功時
-execute if score _ Exp matches 0.. unless score @s PotentialTrigger matches 131..199 unless score @s PotentialTrigger = @s PotentialPrev run function job:potentials/common/success
-execute if score _ Exp matches 0.. unless score @s PotentialTrigger matches 131..199 if score @s PotentialTrigger = @s PotentialPrev run function makeup:job/potentials/common/success
+execute if score _ Exp matches 0.. unless score @s PotentialTrigger matches 131..132 unless score @s PotentialTrigger matches 199 unless score @s PotentialTrigger = @s PotentialPrev run function job:potentials/common/success
+execute if score _ Exp matches 0.. unless score @s PotentialTrigger matches 132 unless score @s PotentialTrigger matches 199 if score @s PotentialTrigger = @s PotentialPrev run function makeup:job/potentials/common/success
 #キャンセル時
 execute if score @s PotentialTrigger matches 199 run function job:potentials/common/cancel
 #不成功時
-execute if score _ Exp matches ..-1 unless score @s PotentialTrigger matches 131..199 run function job:potentials/common/lack
+execute if score _ Exp matches ..-1 unless score @s PotentialTrigger matches 132 unless score @s PotentialTrigger matches 199 run function job:potentials/common/lack
+
+#他ジョブレベルアップ ジョブ選択表示
+execute if score @s PotentialTrigger matches 131 run function job:potentials/common/add_level/show
+execute if score _ PotentialTrigger matches 141..149 run scoreboard players operation @s PotentialTrigger = _ PotentialTrigger
+execute if score _ PotentialTrigger matches 141..149 run scoreboard players reset _ PotentialTrigger
 
 #キャパシティポイントリセット
 execute if score @s PotentialTrigger matches 132 if score _ Calc matches ..0 run function job:potentials/common/reset/unnecessary

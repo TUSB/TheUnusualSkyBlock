@@ -16,7 +16,7 @@ execute if score @s PotentialTrigger matches 100..199 run function job:potential
 execute if score @s PotentialTrigger matches 10..99 if score @s PotentialTrigger = @s PotentialPrev run function job:potentials/common/skip
 
 #再表示
-execute if score @s PotentialTrigger matches 100..199 run function job:potentials/show
+execute if score @s PotentialTrigger matches 100..199 unless score @s PotentialTrigger matches 131 unless score @s PotentialTrigger matches 141..149 run function job:potentials/show
 
 #前回のトリガー保存
 execute if score @s PotentialTrigger matches 100..199 run scoreboard players operation @s PotentialPrev = @s PotentialTrigger
@@ -38,6 +38,7 @@ function makeup:job/potentials/triggered
 # y=1: CP1ポイント消費潜在能力
 # y=2: CP2ポイント消費潜在能力
 # y=3: 特殊潜在能力
+# y=4: 他ジョブレベルアップ
 # y=9: キャンセル
 #
 # z=1~9: yのオプション
@@ -54,6 +55,8 @@ function makeup:job/potentials/triggered
 #
 # 31: 他ジョブレベルアップ (AddJobLevel)
 # 32: キャパシティポイントリセット (reset)
+#
+# 41 ~ 48: 他ジョブレベルアップのジョブ選択
 #
 # 99: キャンセル
 #
