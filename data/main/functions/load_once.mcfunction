@@ -66,6 +66,8 @@ scoreboard players operation $RndMWCCarry Random /= _ _
 
 ###総獲得経験値量初期化
 scoreboard players add $World AllExp 0
+###他ジョブレベルアップ最大値初期化
+function settings:job/potentials/add_level/upper_limit
 
 ###コントロールエリア設定
 execute in area:control_area run forceload add 0 0
