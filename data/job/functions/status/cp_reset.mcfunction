@@ -5,14 +5,14 @@
 function settings:job/status/cp_default
 
 # CP 2P 消費系
-scoreboard players operation @s SubLevel = $Default SubLevel 
-scoreboard players operation @s CritProbability = $Default CritProbability 
+execute store result score @s SubLevel run data get storage tusb_player: Potentials.Default.SubLevel 1
+execute store result score @s CritProbability run data get storage tusb_player: Potentials.Default.CritProbability 1
 
 # CP 1P 消費系
-scoreboard players operation @s ResistMin = $Default ResistMin
-scoreboard players operation @s AuraRate = $Default AuraRate
-scoreboard players operation @s IntervalRate = $Default IntervalRate
-scoreboard players operation @s MPCostRate = $Default MPCostRate
+execute store result score @s ResistMin run data get storage tusb_player: Potentials.Default.ResistMin 1
+execute store result score @s AuraRate run data get storage tusb_player: Potentials.Default.AuraRate 1
+execute store result score @s IntervalRate run data get storage tusb_player: Potentials.Default.IntervalRate 1
+execute store result score @s MPCostRate run data get storage tusb_player: Potentials.Default.MPCostRate 1
 
 scoreboard players set @s AddKnight 0
 scoreboard players set @s AddNinja 0

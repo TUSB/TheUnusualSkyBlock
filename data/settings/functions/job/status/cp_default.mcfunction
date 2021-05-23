@@ -2,14 +2,14 @@
 ###CP類の初期値を設定
 
 # CP 2P 消費系
-scoreboard players set $Default SubLevel 0
-scoreboard players set $Default CritProbability 10
+data modify storage tusb_player: Potentials.Default.SubLevel set value 0
+data modify storage tusb_player: Potentials.Default.CritProbability set value 10
 
 # CP 1P 消費系
-scoreboard players set $Default ResistMin 0
-scoreboard players set $Default AuraRate 100
-scoreboard players set $Default IntervalRate 100
-scoreboard players set $Default MPCostRate 100
+data modify storage tusb_player: Potentials.Default.ResistMin set value 0
+data modify storage tusb_player: Potentials.Default.AuraRate set value 100
+data modify storage tusb_player: Potentials.Default.IntervalRate set value 100
+data modify storage tusb_player: Potentials.Default.MPCostRate set value 100
 
 
 #> 各パラメーターの説明
