@@ -31,6 +31,8 @@ scoreboard objectives add EnchantLevel dummy {"text":"エンチャントレベ�
 ###変数や定数、カウンタ
 scoreboard objectives add _ dummy {"text":"一時変数"}
 scoreboard objectives add Ret dummy {"text":"戻り値用一時変数"}
+scoreboard objectives add ResistEffects dummy {"text":"状態異常耐性"}
+scoreboard objectives add ResistLock dummy {"text":"状態異常回避時ロック"}
 
 ###計算、乱数
 scoreboard objectives add Calc dummy {"text": "計算用"}
