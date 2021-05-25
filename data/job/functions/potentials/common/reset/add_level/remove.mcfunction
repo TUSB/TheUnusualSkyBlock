@@ -37,7 +37,7 @@ execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobSta
 #一応セーブしておく
 function job:status/save
 
-#このfunction内ではステータス常にはリセットする職業のもの。スコアの@s Jobはなんでもよい
+#このfunction内ではステータスは常にリセットする職業のもの。スコアの@s Jobはなんでもよい
 scoreboard players operation _ Job = @s Job
 
 #リセット

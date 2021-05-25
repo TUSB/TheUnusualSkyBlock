@@ -40,9 +40,8 @@ execute if score _ Ret matches 0 if score _ Exp = _ AuraRate store success score
 execute if score _ Ret matches 1 if score _ Exp = _ AuraRate run scoreboard players set _ Ret 2
 execute if score _ Ret matches 0 if score _ Exp = _ ResistMin store success score _ Ret run scoreboard players operation @s ResistMin -= _ Calc
 execute if score _ Ret matches 1 if score _ Exp = _ ResistMin run scoreboard players set _ Ret 2
-execute if score _ Ret matches 0 if score _ Exp = _ CritProbability store success score _ Ret run scoreboard players operation @s CritProbability -= _ Calc
-execute if score _ Ret matches 1 if score _ Exp = _ CritProbability run scoreboard players set _ Ret 2
 #
+execute if score _ Ret matches 0 if score _ Exp = _ CritProbability store success score _ Ret run scoreboard players operation @s CritProbability -= _ Calc
 execute if score _ Ret matches 1 if score _ Exp = _ CritProbability run scoreboard players set _ _ 2
 execute if score _ Ret matches 1 if score _ Exp = _ CritProbability run scoreboard players operation _ Calc /= _ _
 execute if score _ Ret matches 1 if score _ Exp = _ CritProbability run scoreboard players operation @s CritProbability += _ Calc
