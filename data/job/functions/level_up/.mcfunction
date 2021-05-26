@@ -36,4 +36,4 @@ scoreboard players operation _ Level < _ _
 function makeup:job/level_up/text
 
 #体力・MP調整
-
+function effects:status/life_to_max
