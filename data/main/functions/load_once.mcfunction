@@ -89,3 +89,5 @@ scoreboard objectives add PotentialTrigger trigger {"text":"潜在能力変更�
 scoreboard objectives add PotentialPrev trigger {"text":"潜在能力変更前回トリガー"}
 scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken {"text":"受けたメージ量"}
 scoreboard objectives add Deaths minecraft.custom:minecraft.deaths {"text":"死亡"}
+scoreboard objectives add Hunger dummy {"text":"死亡時調整満腹度"}
+scoreboard objectives add Age minecraft.custom:minecraft.time_since_death {"text":"生きている時間"}

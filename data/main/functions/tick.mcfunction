@@ -2,6 +2,9 @@
 ### 毎ティック処理
 ##############################
 
+###生き返り後処理
+execute as @a[scores={Hunger=0..,Age=1..}] at @s run function player:rise
+
 ###ログイン時処理
 execute as @a[scores={LeaveGame=1..}] at @s run function player:leave_game
 
