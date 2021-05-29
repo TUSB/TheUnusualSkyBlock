@@ -12,6 +12,7 @@ execute as @a[scores={UseCrossbow=1..}] at @s run function player:trigger/use/cr
 execute as @a[scores={UseTrident=1..}] at @s run function player:trigger/use/trident
 execute as @a[scores={SneakTime=1..}] at @s run function player:trigger/sneak
 execute as @a[scores={DamageTaken=0..}] at @s run function player:trigger/damage_taken
+execute as @a[scores={Deaths=1..}] at @s run function player:trigger/death
 
 ### エンティティ初期化
 execute as @e[tag=!Initialized] at @s run function entity:initialize_entity

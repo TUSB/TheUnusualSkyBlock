@@ -88,3 +88,4 @@ scoreboard objectives add SneakTrigger dummy {"text":"スニーク累積時間"}
 scoreboard objectives add PotentialTrigger trigger {"text":"潜在能力変更トリガー"}
 scoreboard objectives add PotentialPrev trigger {"text":"潜在能力変更前回トリガー"}
 scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken {"text":"受けたメージ量"}
+scoreboard objectives add Deaths minecraft.custom:minecraft.deaths {"text":"死亡"}
