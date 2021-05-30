@@ -33,6 +33,12 @@ scoreboard objectives add _ dummy {"text":"一時変数"}
 scoreboard objectives add Ret dummy {"text":"戻り値用一時変数"}
 scoreboard objectives add ResistEffects dummy {"text":"状態異常耐性"}
 scoreboard objectives add ResistLock dummy {"text":"状態異常回避時ロック"}
+scoreboard objectives add PaleLevel dummy {"text":"ペイルレベル"}
+scoreboard objectives add ConfuseCount dummy {"text":"混乱カウント"}
+scoreboard objectives add DoomCount dummy {"text":"死の宣告カウント"}
+scoreboard objectives add PalsyLevel dummy {"text":"麻痺レベル"}
+scoreboard objectives add TntCount dummy {"text":"トントカウント"}
+scoreboard objectives add VirusCount dummy {"text":"病気カウント"}
 
 ###計算、乱数
 scoreboard objectives add Calc dummy {"text": "計算用"}
@@ -70,6 +76,8 @@ scoreboard players operation $RndMWCCarry Random /= _ _
 scoreboard players add $World AllExp 0
 ###他ジョブレベルアップ最大値初期化
 function settings:job/potentials/add_level/upper_limit
+###特殊デバフ名初期化
+function settings:effects/too_bad_effects
 
 ###コントロールエリア設定
 execute in area:control_area run forceload add 0 0

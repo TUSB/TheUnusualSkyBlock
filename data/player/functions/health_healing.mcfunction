@@ -10,3 +10,6 @@ effect give @s[scores={HealthHealing=2}] minecraft:regeneration 3 1 true
 effect give @s[scores={HealthHealing=1}] minecraft:regeneration 3 0 true
 #スコアリセット
 scoreboard players reset @s[scores={HealthHealing=..3}] HealthHealing
+
+# 病気 回復阻害
+execute if score @s VirusCount matches 0.. if score @s HealthHealing matches 0.. run function effects:virus/on_healing

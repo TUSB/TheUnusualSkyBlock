@@ -6,6 +6,9 @@
 function effects:status/modify_max
 #MP超過修正
 scoreboard players operation @s MP < @s MPMax
+#ペイル再付与
+execute if score @s PaleLevel matches 0.. run function effects:pale/health_down
+execute if score @s PaleLevel matches 0.. run function makeup:effects/pale/apply
 #全回復
 effect give @s instant_health 1 10 true
 

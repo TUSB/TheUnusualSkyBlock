@@ -15,6 +15,9 @@
 #> プレイヤー設定用ストレージ
 #define storage tusb_player:
 
+#> エフェクト用ストレージ
+#define storage effects:
+
 #> 個別ストレージ
 #define storage oh_my_dat:
 
