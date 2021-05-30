@@ -1,5 +1,5 @@
 
-###魂削回復
+###ペイル回復
 
 scoreboard players reset @s PaleLevel
 
