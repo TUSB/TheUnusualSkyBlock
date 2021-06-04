@@ -19,6 +19,10 @@ execute store result score @s ElementCold run data get storage tusb_mob: "遅延
 execute store result score @s ElementLightning run data get storage tusb_mob: "遅延ステータス"."雷属性値"
 execute store result score @s ElementLight run data get storage tusb_mob: "遅延ステータス"."光属性値"
 execute store result score @s ElementDark run data get storage tusb_mob: "遅延ステータス"."闇属性値"
+
+### AI
+data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from storage tusb_mob: "遅延ステータス".AI
+
 ### ステータスを計算して反映する
 function entity:enemy/spawn/apply_status/calc
 
