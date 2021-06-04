@@ -57,7 +57,7 @@ execute if score _ Ret matches 1 if score _ Exp = _ SubLevel run scoreboard play
 #
 execute if score _ Ret matches 0 if score _ Exp = @s AddKnight store success score _ Ret run scoreboard players operation _ AllExp = @s AddKnight
 execute if score _ Ret matches 1 if score _ Exp = @s AddKnight run scoreboard players operation @s AddKnight -= _ Calc
-execute if score _ Ret matches 1 if score _ Exp = _ AllExp run scoreboard players operation _ RequiredExp -= @s Job
+execute if score _ Ret matches 1 if score _ Exp = _ AllExp run scoreboard players operation _ RequiredExp = @s Job
 execute if score _ Ret matches 1 if score _ Exp = _ AllExp run scoreboard players set @s Job 1
 execute if score _ Ret matches 1 if score _ Exp = _ AllExp run function job:potentials/common/reset/add_level/level_remove
 #
