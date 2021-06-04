@@ -19,7 +19,7 @@ data modify storage mob_data: AI.Turn[-1].Target merge value {Look:"",Radius:0.0
 #Moveの管理
 data modify storage mob_data: AI.Turn[-1].Move merge value {Front:0,Side:0,Rotate:{Speed_x:0,Speed_y:0}}
 #Skillsの管理
-data modify storage mob_data: AI.Turn[-1].Skills merge value {Damage:"Damage",OnBlock:"OnBlock",Fire:"Fire",Water:"Water",Falling:"Falling",Flying:"Flying"}
+data modify storage mob_data: AI.Turn[-1].Skills merge value {Damage:"Damage",InBlock:"InBlock",Fire:"Fire",Water:"Water",Falling:"Falling",Flying:"Flying"}
 #data modify storage mob_data: AI.Turn[-1].Skills.Passenger append value {}
 #data modify storage mob_data: AI.Turn[-1].Skills.Skill append value {}
 
@@ -48,7 +48,7 @@ data remove storage mob_data: AI
 #				},
 #				Skills:{
 #					Damage:""
-#					OnBlock:""
+#					InBlock:""
 #					Fire:""
 #					Water:""
 #					Falling:""
@@ -98,7 +98,7 @@ data remove storage mob_data: AI
 #*|					Speed_y:縦方向の回転速度を管理
 #?|			Skills:スキルに関するもの
 # |				Damage:ダメージを受けたときに呼び出し
-# |				Onblock:視線座標^^^のところがairじゃないときに呼び出し
+# |				InBlock:視線座標^^^のところがairじゃないときに呼び出し
 # |				Fire:炎上したら呼び出し
 # |				Water:水に足が浸かったら呼び出し
 # |				Falling:落下しきったら呼び出し
