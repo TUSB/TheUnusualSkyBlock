@@ -5,6 +5,8 @@ summon husk ~ ~ ~ {Tags:["now_spawn"],PortalCooldown:100}
 ###Oh My Datの呼び出し
 execute as @e[tag=now_spawn] run function oh_my_dat:please
 
+###データリセット
+data remove storage mob_data: AI
 ###行動の設定
 ##死亡でのcall
 #data modify storage mob_data: AI merge value {Death:""}
@@ -23,7 +25,7 @@ data modify storage mob_data: AI.Turn[-1].Skills merge value {Damage:"Damage",In
 #data modify storage mob_data: AI.Turn[-1].Skills.Passenger append value {}
 #data modify storage mob_data: AI.Turn[-1].Skills.Skill append value {}
 #exitの管理
-data modify storage mob_data: AI.Turn[-1].Exit merge value {}
+data modify storage mob_data: AI.Turn[-1].Exit merge value {Loop:2}
 
 ##Turn1
 #Turnの追加
@@ -37,12 +39,12 @@ data modify storage mob_data: AI.Turn[-1].Move merge value {Front:0,Side:0,Rotat
 #data modify storage mob_data: AI.Turn[-1].Skills.Passenger append value {}
 #data modify storage mob_data: AI.Turn[-1].Skills.Skill append value {}
 #exitの管理
-data modify storage mob_data: AI.Turn[-1].Exit merge value {}
+data modify storage mob_data: AI.Turn[-1].Exit merge value {Time:10}
 
 #データの移行
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from storage mob_data: AI
 data merge entity @e[tag=now_spawn,limit=1] {Tags:["tusb_dummy"]}
-data remove storage mob_data: AI
+#data remove storage mob_data: AI
 #######NBT階層
 #######小数点の最小単位0.1
 #	AI:{
