@@ -17,7 +17,7 @@ data remove storage mob_data: AI
 #Turnの追加
 data modify storage mob_data: AI.Turn append value {}
 #Targetの管理
-data modify storage mob_data: AI.Turn[-1].Target merge value {Look:"player",Radius:50.0d,Block:0b}
+data modify storage mob_data: AI.Turn[-1].Target merge value {Look:"player",Radius:5.0d,Block:0b}
 #Moveの管理
 #data modify storage mob_data: AI.Turn[-1].Move merge value {Front:0,Side:0,Rotate:{Speed_x:0,Speed_y:0}}
 #Skillsの管理
@@ -25,7 +25,7 @@ data modify storage mob_data: AI.Turn[-1].Skills merge value {Damage:"Damage",In
 #data modify storage mob_data: AI.Turn[-1].Skills.Passenger append value {}
 #data modify storage mob_data: AI.Turn[-1].Skills.Skill append value {}
 #exitの管理
-data modify storage mob_data: AI.Turn[-1].Exit merge value {Loop:2}
+data modify storage mob_data: AI.Turn[-1].Exit merge value {Half:"up"}
 
 ##Turn1
 #Turnの追加
@@ -90,7 +90,7 @@ data merge entity @e[tag=now_spawn,limit=1] {Tags:["tusb_dummy"]}
 #				},
 #				Exit:{
 #					Loop:int
-#					Radius:double
+#					Radius:double ==>実装なしの可能性
 #					Half:"up","down","flont","back"
 #					Time:int
 #			}
@@ -107,8 +107,8 @@ data merge entity @e[tag=now_spawn,limit=1] {Tags:["tusb_dummy"]}
 # |		Time:PortalCooldownが0の時呼び出される
 #*|		Turn:ここでMOBの動きがメインとして管理されている
 #*|			Target:MOBが反応する対象の親
-#*|				Look:MOBが敵対する相手を指定 最寄りのプレイヤー(player) 最寄りの敵(enemy) 全て(all) 設定なし(none)
-#*|				Radius:MOBが敵対する相手を探す際の半径を指定
+#*|				Look:MOBが敵対する相手を指定 最寄りのプレイヤー(player) 最寄りの敵(enemy) 全て(all) 設定なし=無敵対(none)
+#*|				Radius:MOBが敵対する相手を探す際の半径を指定 実質半径 n*0.5
 #*|			Move:MOBの移動を管理
 #*|				Front:前後方向の移動速度を管理 1.0d=1block
 #*|				Side:左右方向の移動速度を管理 上に同じ
@@ -136,4 +136,4 @@ data merge entity @e[tag=now_spawn,limit=1] {Tags:["tusb_dummy"]}
 #?|			Exit:このTurnから抜ける条件
 #_|				Loop:n回繰り返した後に次に移る
 #_|				Time:n tickたったら抜ける
-#_|				Target:Trun.Targetの対象がいなかったら抜ける
+#_|				Half:Turn.Targetの対象がいたら抜ける
