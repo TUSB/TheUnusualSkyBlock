@@ -17,3 +17,6 @@ execute as @a[scores={DoomCount=1..}] at @s run function effects:doom/proceed
 execute as @a[scores={PalsyLevel=1..}] at @s run function effects:palsy/tick
 execute as @a[scores={TntCount=0..}] at @s if block ~ ~ ~ water run function effects:tnt/cure
 execute as @a[scores={VirusCount=1..}] run function effects:virus/tick
+
+###MOBのSkillsの特殊項目をtrigger
+execute as @e[tag=Mob] at @s run function entity:enemy/call/one_second
