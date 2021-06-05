@@ -1,6 +1,8 @@
 function oh_my_dat:please
 data modify storage mob_data: AI set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI
 
+#通常のcall
+function entity:enemy/call/normal_skill
 #死亡時のcall
 
 #時間でのcall

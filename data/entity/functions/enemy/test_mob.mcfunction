@@ -15,20 +15,36 @@ execute as @e[tag=now_spawn] run function oh_my_dat:please
 #Turnの追加
 data modify storage mob_data: AI.Turn append value {}
 #Targetの管理
-data modify storage mob_data: AI.Turn[-1].Target merge value {Look:"",Radius:0.0d}
+data modify storage mob_data: AI.Turn[-1].Target merge value {Look:"player",Radius:50.0d,Block:0b}
 #Moveの管理
-data modify storage mob_data: AI.Turn[-1].Move merge value {Front:0,Side:0,Rotate:{Speed_x:0,Speed_y:0}}
+#data modify storage mob_data: AI.Turn[-1].Move merge value {Front:0,Side:0,Rotate:{Speed_x:0,Speed_y:0}}
 #Skillsの管理
 data modify storage mob_data: AI.Turn[-1].Skills merge value {Damage:"Damage",InBlock:"InBlock",Fire:"Fire",Water:"Water",Falling:"Falling",Flying:"Flying"}
 #data modify storage mob_data: AI.Turn[-1].Skills.Passenger append value {}
 #data modify storage mob_data: AI.Turn[-1].Skills.Skill append value {}
+#exitの管理
+data modify storage mob_data: AI.Turn[-1].Exit merge value {}
 
+##Turn1
+#Turnの追加
+data modify storage mob_data: AI.Turn append value {}
+#Targetの管理
+data modify storage mob_data: AI.Turn[-1].Target merge value {Look:"enemy",Radius:50.0d,Block:0b}
+#Moveの管理
+data modify storage mob_data: AI.Turn[-1].Move merge value {Front:0,Side:0,Rotate:{Speed_x:0,Speed_y:0}}
+#Skillsの管理
+#data modify storage mob_data: AI.Turn[-1].Skills merge value {Damage:"Damage",InBlock:"InBlock",Fire:"Fire",Water:"Water",Falling:"Falling",Flying:"Flying"}
+#data modify storage mob_data: AI.Turn[-1].Skills.Passenger append value {}
+#data modify storage mob_data: AI.Turn[-1].Skills.Skill append value {}
+#exitの管理
+data modify storage mob_data: AI.Turn[-1].Exit merge value {}
 
 #データの移行
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from storage mob_data: AI
 data merge entity @e[tag=now_spawn,limit=1] {Tags:["tusb_dummy"]}
 data remove storage mob_data: AI
 #######NBT階層
+#######小数点の最小単位0.1
 #	AI:{
 #		Death:""
 #		Time:""
@@ -37,6 +53,7 @@ data remove storage mob_data: AI
 #				Target:{
 #					Look:"player","enemy","all","none"
 #					Radius:double
+#					Block:0b,1b
 #				},
 #				Move:{
 #					Front:int
