@@ -1,3 +1,6 @@
+function oh_my_dat:please
+data modify storage mob_data: AI set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI
+
 ###Skillsのcall(1秒間隔
 execute if data storage mob_data: AI.Turn[0].Skills.Damage if data entity @s {HurtTime:5s} run function entity:enemy/call/damage
 execute if data storage mob_data: AI.Turn[0].Skills.InBlock anchored eyes unless block ^ ^ ^ air run function entity:enemy/call/in_block
