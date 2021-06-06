@@ -1,6 +1,6 @@
 ###summonさせるmob ここに装備とかいろいろと設定
 ###PortalCooldownが時間経過に使ってる
-summon husk ~ ~ ~ {Tags:["now_spawn"],PortalCooldown:100}
+summon husk ~ ~ ~ {Tags:["now_spawn"],PortalCooldown:100,AbsorptionAmount:1000000f}
 
 ###Oh My Datの呼び出し
 execute as @e[tag=now_spawn] run function oh_my_dat:please
@@ -21,9 +21,9 @@ data modify storage mob_data: AI.Turn[-1].Target merge value {Look:"player",Radi
 #Moveの管理
 #data modify storage mob_data: AI.Turn[-1].Move merge value {Front:0,Side:0,Rotate:{Speed_x:0,Speed_y:0}}
 #Skillsの管理
-data modify storage mob_data: AI.Turn[-1].Skills merge value {Damage:"Damage",InBlock:"InBlock",Fire:"Fire",Water:"Water",Falling:"Falling",Flying:"Flying"}
-#data modify storage mob_data: AI.Turn[-1].Skills.Passenger append value {}
-#data modify storage mob_data: AI.Turn[-1].Skills.Skill append value {}
+data modify storage mob_data: AI.Turn[-1] merge value {Call:"aaaa"}
+#data modify storage mob_data: AI.Turn[-1].Passenger append value {}
+#data modify storage mob_data: AI.Turn[-1].Skill append value {}
 #exitの管理
 data modify storage mob_data: AI.Turn[-1].Exit merge value {Half:"up"}
 
@@ -35,105 +35,88 @@ data modify storage mob_data: AI.Turn[-1].Target merge value {Look:"enemy",Radiu
 #Moveの管理
 data modify storage mob_data: AI.Turn[-1].Move merge value {Front:0,Side:0,Rotate:{Speed_x:0,Speed_y:0}}
 #Skillsの管理
-#data modify storage mob_data: AI.Turn[-1].Skills merge value {Damage:"Damage",InBlock:"InBlock",Fire:"Fire",Water:"Water",Falling:"Falling",Flying:"Flying"}
-#data modify storage mob_data: AI.Turn[-1].Skills.Passenger append value {}
-#data modify storage mob_data: AI.Turn[-1].Skills.Skill append value {}
+data modify storage mob_data: AI.Turn[-1] merge value {Call:"aaaa"}
+#data modify storage mob_data: AI.Turn[-1].Passenger append value {}
+#data modify storage mob_data: AI.Turn[-1].Skill append value {}
 #exitの管理
 data modify storage mob_data: AI.Turn[-1].Exit merge value {Time:10}
 
 #データの移行
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from storage mob_data: AI
+scoreboard players set @e[tag=now_spawn] HPMax 100
+scoreboard players set @e[tag=now_spawn] HP 100
 data merge entity @e[tag=now_spawn,limit=1] {Tags:["tusb_dummy"]}
-#data remove storage mob_data: AI
+data remove storage mob_data: AI
+
 #######NBT階層
 #######小数点の最小単位0.1
 #	AI:{
+#		#死んだときにcall
 #		Death:""
+#		#PortalCoolDown:0のときにcall
 #		Time:""
+#		#ダメージを受けたときにcall
+#		Damage:""
+#		#Passenngerの管理
+#		Passenger:{
+#			#上||下 の指定
+#			Type:"up","down"
+#     #いない||いる の指定
+#			Check:0b,1b
+#			#呼び出しを指定
+#			Call:""
+#		},
+#		#ターンの管理
 #		Turn:[
 #			{
+#				#敵対対象の管理
 #				Target:{
+#					#敵対するentityの種類
 #					Look:"player","enemy","all","none"
+#					#敵対の半径
 #					Radius:double
+#					#ブロック越しに見る||見ない
 #					Block:0b,1b
 #				},
+#				#移動に関する管理
 #				Move:{
+#					#前方向の移動速度
 #					Front:int
+#					#横の移動速度
 #					Side:int
+#					#視点の回転の管理
 #					Rotate:{
+#						#横方向の回転速度
 #						Speed_x:double
+#						#縦方向の回転速度
 #						Speed_y:double
 #					}
 #				},
-#				Skills:{
-#					Damage:""
-#					InBlock:""
-#					Fire:""
-#					Water:""
-#					Falling:""
-#					Flying:""
-#					Passenger:{
-#						Type:"up","down"
-#						Check:0b,1b
+#				#Skillの管理
+#				Skill:[
+#					{
+#						#乱数の下限
+#						lowInterval:int
+#						#乱数の上限
+#						highInterval:int
+#						#クールタイム(実行までに遅延を発生させたい時のみ設定)
+#						Iterval:int
+#						#このSkillの実行上限(Loopによるカウントは無し)
+#						Once:int
+#						#このスキルを連続で繰り返す回数
+#						Loop:int
+#						#呼び出し先
 #						Call:""
-#					},
-#					Skill:[
-#						{
-#							lowInterval:int
-#							highInterval:int
-#							Iterval:int(実行までに遅延を発生させたいのみ設定)
-#							Once:int
-#							Loop:int
-#							Call:""
-#						}
-#					]
-#				},
+#					}
+#				],
+#				#このTurnの抜ける条件の管理
 #				Exit:{
+#					#中のSkillがLoopした回数
 #					Loop:int
-#					Radius:double ==>実装なしの可能性
-#					Half:"up","down","flont","back"
+#					#Targetがどこにいるときに抜けるかを指定
+#					Half:"up","down","front","back"
+#					#このTurnに入ってから抜ける回数を指定
 #					Time:int
 #			}
 #		]
 #	}
-#######NBT解説
-###### の場合どちらでもよい
-######*が付いている行は必須
-######親に!が付いていて使用する場合その子の全ての設定が必須
-######親に?が付いていて使用する場合その子のどれか(1個以上)の設定が必須
-######_の場合は親に依存する
-#*|	AI:MOBを動かすAIの親
-# |		Death:死んだときに呼び出される
-# |		Time:PortalCooldownが0の時呼び出される
-#*|		Turn:ここでMOBの動きがメインとして管理されている
-#*|			Target:MOBが反応する対象の親
-#*|				Look:MOBが敵対する相手を指定 最寄りのプレイヤー(player) 最寄りの敵(enemy) 全て(all) 設定なし=無敵対(none)
-#*|				Radius:MOBが敵対する相手を探す際の半径を指定 実質半径 n*0.5
-#*|			Move:MOBの移動を管理
-#*|				Front:前後方向の移動速度を管理 1.0d=1block
-#*|				Side:左右方向の移動速度を管理 上に同じ
-#*|				Rotate:視線の回転速度を管理
-#*|					Speed_x:横方向の回転速度を管理
-#*|					Speed_y:縦方向の回転速度を管理
-#?|			Skills:スキルに関するもの
-# |				Damage:ダメージを受けたときに呼び出し
-# |				InBlock:視線座標^^^のところがairじゃないときに呼び出し
-# |				Fire:炎上したら呼び出し
-# |				Water:水に足が浸かったら呼び出し
-# |				Falling:落下しきったら呼び出し
-# |				Flying:空に浮いたら呼び出し
-#!|				Passenger:乗ってる||乗られてる系に関する処理
-#_|					Type:上か下かを指定
-#_|					Check:0bでいないときに 1bでいる時を指定
-#_|					Call:条件が一致したときに呼び出すもの
-#!|				Skill:スキルメイン部分
-#_|					lowInterval:待機時間の最低値を指定
-#_|					hightInterval:待機の最大値を指定
-#_|					Interval:待機時間を指定(一回のみ)
-#_|					Once:何回Loop出来るかを指定 0になると実行されなくなる
-#_|					Loop:Loopの回数を指定 0になると次に移る
-#_|					Call:呼び出しする物の指定
-#?|			Exit:このTurnから抜ける条件
-#_|				Loop:n回繰り返した後に次に移る
-#_|				Time:n tickたったら抜ける
-#_|				Half:Turn.Targetの対象がいたら抜ける

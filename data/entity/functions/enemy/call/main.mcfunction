@@ -7,3 +7,6 @@ function entity:enemy/call/normal_skill
 
 #時間でのcall
 execute if data storage mob_data: AI.Time if data entity @s {PortalCooldown:0} run function entity:enemy/call/time
+
+#ダメージでのcall
+execute if data storage mob_data: AI.Damage if data entity @s {HurtTime:8s} run function entity:enemy/call/damage
