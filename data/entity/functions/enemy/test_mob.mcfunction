@@ -25,7 +25,7 @@ data modify storage mob_data: AI.Turn[-1].Target merge value {Look:"player",Radi
 #Moveの管理
 #data modify storage mob_data: AI.Turn[-1].Move merge value {Front:0,Side:0,Rotate:{Speed_x:0,Speed_y:0}}
 #Skillの管理
-data modify storage mob_data: AI.Turn[-1].Skill append value {lowInterval:10,highInterval:10,Call:"target_is_me",Loop:1}
+data modify storage mob_data: AI.Turn[-1].Skill append value {lowInterval:10,highInterval:100,Call:"target_is_me",Loop:1}
 data modify storage mob_data: AI.Turn[-1].Skill append value {lowInterval:5,highInterval:5,Call:"target_is_find",Loop:1}
 #exitの管理
 #data modify storage mob_data: AI.Turn[-1].Exit merge value {Half:"up"}
