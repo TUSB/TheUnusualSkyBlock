@@ -2,5 +2,5 @@
 ### エンティティ死亡時処理
 ##############################
 
-function entitiy:enemy/call/death
+function entity:enemy/call/death
 kill @s

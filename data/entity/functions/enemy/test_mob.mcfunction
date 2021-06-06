@@ -9,7 +9,7 @@ execute as @e[tag=now_spawn] run function oh_my_dat:please
 data remove storage mob_data: AI
 ###行動の設定
 ##死亡でのcall
-#data modify storage mob_data: AI merge value {Death:""}
+data modify storage mob_data: AI merge value {Death:"Death"}
 ##時間でのcall
 #data modify storage mob_data: AI merge value {Time:"Time"}
 ##メイン部分
@@ -18,12 +18,15 @@ data remove storage mob_data: AI
 data modify storage mob_data: AI.Turn append value {}
 #Targetの管理
 data modify storage mob_data: AI.Turn[-1].Target merge value {Look:"player",Radius:5.0d,Block:0b}
+#sec Callの管理
+#data modify storage mob_data: AI.Turn[-1] merge value {Call:"aaaa"}
+#Passengerの管理
+#data modify storage mob_data: AI.Turn[-1].Passenger append value {}
 #Moveの管理
 #data modify storage mob_data: AI.Turn[-1].Move merge value {Front:0,Side:0,Rotate:{Speed_x:0,Speed_y:0}}
-#Skillsの管理
-data modify storage mob_data: AI.Turn[-1] merge value {Call:"aaaa"}
-#data modify storage mob_data: AI.Turn[-1].Passenger append value {}
-#data modify storage mob_data: AI.Turn[-1].Skill append value {}
+#Skillの管理
+data modify storage mob_data: AI.Turn[-1].Skill append value {lowInterval:10,highInterval:10,Call:"target_is_me",Loop:1}
+data modify storage mob_data: AI.Turn[-1].Skill append value {lowInterval:5,highInterval:5,Call:"target_is_find",Loop:1}
 #exitの管理
 data modify storage mob_data: AI.Turn[-1].Exit merge value {Half:"up"}
 
@@ -31,13 +34,14 @@ data modify storage mob_data: AI.Turn[-1].Exit merge value {Half:"up"}
 #Turnの追加
 data modify storage mob_data: AI.Turn append value {}
 #Targetの管理
-data modify storage mob_data: AI.Turn[-1].Target merge value {Look:"enemy",Radius:50.0d,Block:0b}
+data modify storage mob_data: AI.Turn[-1].Target merge value {Look:"all",Radius:50.0d,Block:0b}
 #Moveの管理
 data modify storage mob_data: AI.Turn[-1].Move merge value {Front:0,Side:0,Rotate:{Speed_x:0,Speed_y:0}}
 #Skillsの管理
 data modify storage mob_data: AI.Turn[-1] merge value {Call:"aaaa"}
 #data modify storage mob_data: AI.Turn[-1].Passenger append value {}
-#data modify storage mob_data: AI.Turn[-1].Skill append value {}
+data modify storage mob_data: AI.Turn[-1].Skill append value {lowInterval:5,highInterval:5,Call:"target_is_me",Loop:2}
+data modify storage mob_data: AI.Turn[-1].Skill append value {lowInterval:1,highInterval:1,Call:"target_is_find",Loop:1}
 #exitの管理
 data modify storage mob_data: AI.Turn[-1].Exit merge value {Time:10}
 
@@ -46,7 +50,7 @@ data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from sto
 scoreboard players set @e[tag=now_spawn] HPMax 100
 scoreboard players set @e[tag=now_spawn] HP 100
 data merge entity @e[tag=now_spawn,limit=1] {Tags:["tusb_dummy"]}
-data remove storage mob_data: AI
+#data remove storage mob_data: AI
 
 #######NBT階層
 #######小数点の最小単位0.1
