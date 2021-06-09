@@ -35,7 +35,7 @@ execute as @e[tag=Mob,nbt=!{HurtTime:0s}] run function entity:enemy/update_healt
 execute as @e[tag=Mob,scores={Damage=1..}] run function entity:enemy/update_health
 
 ###エンティティAI分岐
-execute as @e[tag=Mob] at @s run function entity:enemy/call/main
+execute as @e[tag=Mob,tag=HasAI] at @s run function entity:enemy/ai/tick
 
 ###エンティティ削除
 execute as @e[tag=Garbage] run function entity:garbage_collection

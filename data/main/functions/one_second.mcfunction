@@ -19,4 +19,4 @@ execute as @a[scores={TntCount=0..}] at @s if block ~ ~ ~ water run function eff
 execute as @a[scores={VirusCount=1..}] run function effects:virus/tick
 
 ###MOBのSkillsの特殊項目をtrigger
-execute as @e[tag=Mob] at @s run function entity:enemy/call/one_second
+execute as @e[tag=Mob,tag=HasAI] at @s run function entity:enemy/ai/one_second

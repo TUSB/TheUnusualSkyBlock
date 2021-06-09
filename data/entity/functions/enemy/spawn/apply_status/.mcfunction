@@ -22,6 +22,9 @@ execute store result score @s ElementDark run data get storage tusb_mob: "遅延
 
 ### AI
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from storage tusb_mob: "遅延ステータス".AI
+execute if data storage tusb_mob: "遅延ステータス".AI run tag @s add HasAI
+execute if data storage tusb_mob: "遅延ステータス".AI.Damage run tag @s add CallOnDamage
+execute if data storage tusb_mob: "遅延ステータス".AI.Death run tag @s add CallOnDeath
 
 ### ステータスを計算して反映する
 function entity:enemy/spawn/apply_status/calc

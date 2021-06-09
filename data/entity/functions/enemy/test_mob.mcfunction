@@ -25,8 +25,8 @@ data modify storage mob_data: AI.Turn[-1].Target merge value {Look:"player",Radi
 #Moveの管理
 #data modify storage mob_data: AI.Turn[-1].Move merge value {Front:0,Side:0,Rotate:{Speed_x:0,Speed_y:0}}
 #Skillの管理
-data modify storage mob_data: AI.Turn[-1].Skill append value {lowInterval:10,highInterval:100,Call:"target_is_me",Loop:1}
-data modify storage mob_data: AI.Turn[-1].Skill append value {lowInterval:5,highInterval:5,Call:"target_is_find",Loop:1}
+data modify storage mob_data: AI.Turn[-1].Skill append value {lowInterval:10,highInterval:100,Call:"target_is_me",Loop:3,LoopCount:3}
+data modify storage mob_data: AI.Turn[-1].Skill append value {lowInterval:5,highInterval:5,Call:"target_is_find",Loop:2,LoopCount:2}
 #exitの管理
 #data modify storage mob_data: AI.Turn[-1].Exit merge value {Half:"up"}
 
@@ -34,7 +34,7 @@ data modify storage mob_data: AI.Turn[-1].Skill append value {lowInterval:5,high
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from storage mob_data: AI
 scoreboard players set @e[tag=now_spawn] HPMax 100
 scoreboard players set @e[tag=now_spawn] HP 100
-data merge entity @e[tag=now_spawn,limit=1] {Tags:["tusb_dummy"]}
+data merge entity @e[tag=now_spawn,limit=1] {Tags:["Initialized","tusb_dummy","Mob","HasAI"]}
 #data remove storage mob_data: AI
 
 #######NBT階層
