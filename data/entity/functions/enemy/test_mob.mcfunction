@@ -25,11 +25,12 @@ data modify storage mob_data: AI.Turn[-1].Target merge value {Look:"player",Radi
 #Moveの管理
 #data modify storage mob_data: AI.Turn[-1].Move merge value {Front:0,Side:0,Rotate:{Speed_x:0,Speed_y:0}}
 #Skillの管理
-data modify storage mob_data: AI.Turn[-1].Skill append value {lowInterval:10,highInterval:100,Call:"target_is_me",Loop:3,LoopCount:3}
-data modify storage mob_data: AI.Turn[-1].Skill append value {lowInterval:5,highInterval:5,Call:"target_is_find",Loop:2,LoopCount:2}
+data modify storage mob_data: AI.Turn[-1].Skill append value {Interval:{Current:50,Min:10,Max:100},Call:"target_is_me",Loop:{Current:3,Max:3}}
+data modify storage mob_data: AI.Turn[-1].Skill append value {Interval:{Min:5,Max:5},Call:"target_is_find",Loop:{Current:2,Max:2},Once:{Current:3}}
 #exitの管理
-#data modify storage mob_data: AI.Turn[-1].Exit merge value {Half:"up"}
-
+data modify storage mob_data: AI.Turn[-1].Exit merge value {Loop:{Current:2,Max:2}}
+#Turnの追加
+data modify storage mob_data: AI.Turn append value {Skill:[{Call:"Death",Interval:{Min:10,Max:10},Loop:{Current:1,Max:1}}],Exit:{Loop:{Current:2,Max:2}}}
 #データの移行
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from storage mob_data: AI
 scoreboard players set @e[tag=now_spawn] HPMax 100
