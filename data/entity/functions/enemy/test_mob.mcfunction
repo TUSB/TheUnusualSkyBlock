@@ -71,8 +71,8 @@ data remove storage mob_data: AI
 ###					Front: double 0.01単位
 ###					#横の移動速度
 ###					Side: double 0.01単位
-# #					#視点の回転速度
-# #					Rotate: int
+###					#視点の回転速度
+###					Rotate: int
 ###				},
 ###				#Skillの管理
 ###				Skill:[
