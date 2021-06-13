@@ -8,7 +8,7 @@ execute if data storage mob_data: AI.Time if data entity @s {PortalCooldown:0} r
 execute if data storage mob_data: AI.Turn[0].Target run function entity:enemy/ai/target/
 
 ##Move処理
-#execute if data storage mob_data: AI.Turn[0].Move run function entity:enemy/ai/move/
+execute if data storage mob_data: AI.Turn[0].Move run function entity:enemy/ai/move/
 
 ##skill処理
 execute if data storage mob_data: AI.Turn[0].Skill run function entity:enemy/ai/skill/
