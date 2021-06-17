@@ -8,4 +8,4 @@ execute if entity @e[tag=Target] run function entity:enemy/ai/move/move_front
 #横
 execute if entity @e[tag=Target] run function entity:enemy/ai/move/move_side
 #最終処理
-execute if entity @e[tag=Target] run function entity:enemy/ai/move/move_end
+execute if entity @e[tag=Target] in minecraft:overworld run function entity:enemy/ai/move/move_end
