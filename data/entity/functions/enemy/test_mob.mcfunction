@@ -31,7 +31,7 @@ data modify storage mob_data: AI.Turn[-1].Skill append value {Interval:{Min:5,Ma
 #data modify storage mob_data: AI.Turn[-1].Exit merge value {Loop:{Current:2,Max:2}}
 #データの移行
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from storage mob_data: AI
-data merge entity @e[tag=now_spawn,limit=1] {Tags:["Initialized","tusb_dummy","HasAI"]}
+data merge entity @e[tag=now_spawn,limit=1] {Tags:["Mob","Initialized","tusb_dummy","HasAI"]}
 data remove storage mob_data: AI
 
 #######NBT階層
