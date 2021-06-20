@@ -19,7 +19,6 @@ execute if score @s Job matches 6 run scoreboard players operation _ AddSummoner
 execute if score @s Job matches 7 run scoreboard players operation _ AddPuppet_master = @s Level
 execute if score @s Job matches 8 run scoreboard players operation _ AddThief = @s Level
 
-function oh_my_dat:please
 execute if score _ AddKnight matches 0 store result score _ AddKnight run data get storage job: JobStatus[1].Level
 execute if score _ AddNinja matches 0 store result score _ AddNinja run data get storage job: JobStatus[2].Level
 execute if score _ AddHunter matches 0 store result score _ AddHunter run data get storage job: JobStatus[3].Level

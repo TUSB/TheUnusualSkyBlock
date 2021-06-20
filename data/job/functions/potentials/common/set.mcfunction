@@ -1,6 +1,9 @@
 
 ###確認処理分岐
 
+execute if score @s PotentialTrigger matches 131..149 run function job:status/operation_start
+execute if score @s PotentialTrigger matches 131..149 run tag @s add OhMyDatCall
+
 #PotentialPrev修正
 scoreboard players add @s PotentialPrev 100
 
@@ -37,3 +40,6 @@ execute if score _ PotentialTrigger matches 141..149 run scoreboard players rese
 #キャパシティポイントリセット
 execute if score @s PotentialTrigger matches 132 if score _ Calc matches ..0 run function job:potentials/common/reset/unnecessary
 execute if score @s PotentialTrigger matches 132 if score _ Calc matches 1.. run function job:potentials/common/reset/
+
+execute if entity @s[tag=OhMyDatCall] run function job:status/operation_end
+execute if entity @s[tag=OhMyDatCall] run tag @s remove OhMyDatCall
