@@ -2,17 +2,14 @@
 ###レベルダウン
 ###Add(Job)が0以外のもののみfunctionを呼び出す
 
-#プレイヤーのステータス群呼び出し
-function oh_my_dat:please
-
-execute store result score _ AddKnight run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[1].Level 1
-execute store result score _ AddNinja run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[2].Level 1
-execute store result score _ AddHunter run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[3].Level 1
-execute store result score _ AddWhite_mage run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[4].Level 1
-execute store result score _ AddBlack_mage run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[5].Level 1
-execute store result score _ AddSummoner run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[6].Level 1
-execute store result score _ AddPuppet_master run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[7].Level 1
-execute store result score _ AddThief run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[8].Level 1
+execute store result score _ AddKnight run data get storage job: JobStatus[1].Level 1
+execute store result score _ AddNinja run data get storage job: JobStatus[2].Level 1
+execute store result score _ AddHunter run data get storage job: JobStatus[3].Level 1
+execute store result score _ AddWhite_mage run data get storage job: JobStatus[4].Level 1
+execute store result score _ AddBlack_mage run data get storage job: JobStatus[5].Level 1
+execute store result score _ AddSummoner run data get storage job: JobStatus[6].Level 1
+execute store result score _ AddPuppet_master run data get storage job: JobStatus[7].Level 1
+execute store result score _ AddThief run data get storage job: JobStatus[8].Level 1
 
 #レベルダウン
 scoreboard players operation _ AddKnight -= @s AddKnight
@@ -24,14 +21,14 @@ scoreboard players operation _ AddSummoner -= @s AddSummoner
 scoreboard players operation _ AddPuppet_master -= @s AddPuppet_master
 scoreboard players operation _ AddThief -= @s AddThief
 
-execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[1].Level int 1 run scoreboard players get _ AddKnight
-execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[2].Level int 1 run scoreboard players get _ AddNinja
-execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[3].Level int 1 run scoreboard players get _ AddHunter
-execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[4].Level int 1 run scoreboard players get _ AddWhite_mage
-execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[5].Level int 1 run scoreboard players get _ AddBlack_mage
-execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[6].Level int 1 run scoreboard players get _ AddSummoner
-execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[7].Level int 1 run scoreboard players get _ AddPuppet_master
-execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[8].Level int 1 run scoreboard players get _ AddThief
+execute store result storage job: JobStatus[1].Level int 1 run scoreboard players get _ AddKnight
+execute store result storage job: JobStatus[2].Level int 1 run scoreboard players get _ AddNinja
+execute store result storage job: JobStatus[3].Level int 1 run scoreboard players get _ AddHunter
+execute store result storage job: JobStatus[4].Level int 1 run scoreboard players get _ AddWhite_mage
+execute store result storage job: JobStatus[5].Level int 1 run scoreboard players get _ AddBlack_mage
+execute store result storage job: JobStatus[6].Level int 1 run scoreboard players get _ AddSummoner
+execute store result storage job: JobStatus[7].Level int 1 run scoreboard players get _ AddPuppet_master
+execute store result storage job: JobStatus[8].Level int 1 run scoreboard players get _ AddThief
 
 ##CPチェック
 #一応セーブしておく

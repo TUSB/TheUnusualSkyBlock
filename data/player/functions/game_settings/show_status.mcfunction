@@ -1,6 +1,7 @@
 
 ###ステータス表示
 
+function job:status/operation_start
 
 #レベルとCPを算出
 #レベル: _ Level  CP: _ Exp

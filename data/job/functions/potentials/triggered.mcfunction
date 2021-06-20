@@ -1,6 +1,8 @@
 
 ###潜在能力設定
 
+function job:status/operation_start
+
 ##前回のトリガー値を2桁にする
 scoreboard players set _ _ 100
 scoreboard players operation @s PotentialPrev %= _ _
@@ -27,6 +29,7 @@ scoreboard players enable @s PotentialTrigger
 
 function makeup:job/potentials/triggered
 
+function job:status/operation_end
 
 #> トリガーの見方
 #

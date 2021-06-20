@@ -15,6 +15,8 @@
 # Levelを変更するときは、その職業のステータスが初期化されている必要がある。
 #
 
+function job:status/operation_start
+
 #ステータスセーブ
 function job:status/save
 
@@ -30,17 +32,19 @@ execute if data entity @s SelectedItem.tag.display{Name:'["絡繰士"]'} run sco
 execute if data entity @s SelectedItem.tag.display{Name:'["怪盗"]'} run scoreboard players set @s Job 8
 
 #頭削除&レベル設定
-execute if data entity @s Inventory[{tag:{display:{Name:'["剣士"]'}}}] store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[1].Level int 1 run clear @s player_head{display:{Name:'["剣士"]'}}
-execute if data entity @s Inventory[{tag:{display:{Name:'["忍者"]'}}}] store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[2].Level int 1 run clear @s player_head{display:{Name:'["忍者"]'}}
-execute if data entity @s Inventory[{tag:{display:{Name:'["狩人"]'}}}] store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[3].Level int 1 run clear @s player_head{display:{Name:'["狩人"]'}}
-execute if data entity @s Inventory[{tag:{display:{Name:'["白魔導士"]'}}}] store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[4].Level int 1 run clear @s player_head{display:{Name:'["白魔導士"]'}}
-execute if data entity @s Inventory[{tag:{display:{Name:'["黒魔導士"]'}}}] store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[5].Level int 1 run clear @s player_head{display:{Name:'["黒魔導士"]'}}
-execute if data entity @s Inventory[{tag:{display:{Name:'["召喚士"]'}}}] store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[6].Level int 1 run clear @s player_head{display:{Name:'["召喚士"]'}}
-execute if data entity @s Inventory[{tag:{display:{Name:'["絡繰士"]'}}}] store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[7].Level int 1 run clear @s player_head{display:{Name:'["絡繰士"]'}}
-execute if data entity @s Inventory[{tag:{display:{Name:'["怪盗"]'}}}] store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[8].Level int 1 run clear @s player_head{display:{Name:'["怪盗"]'}}
+execute if data entity @s Inventory[{tag:{display:{Name:'["剣士"]'}}}] store result storage job: JobStatus[1].Level int 1 run clear @s player_head{display:{Name:'["剣士"]'}}
+execute if data entity @s Inventory[{tag:{display:{Name:'["忍者"]'}}}] store result storage job: JobStatus[2].Level int 1 run clear @s player_head{display:{Name:'["忍者"]'}}
+execute if data entity @s Inventory[{tag:{display:{Name:'["狩人"]'}}}] store result storage job: JobStatus[3].Level int 1 run clear @s player_head{display:{Name:'["狩人"]'}}
+execute if data entity @s Inventory[{tag:{display:{Name:'["白魔導士"]'}}}] store result storage job: JobStatus[4].Level int 1 run clear @s player_head{display:{Name:'["白魔導士"]'}}
+execute if data entity @s Inventory[{tag:{display:{Name:'["黒魔導士"]'}}}] store result storage job: JobStatus[5].Level int 1 run clear @s player_head{display:{Name:'["黒魔導士"]'}}
+execute if data entity @s Inventory[{tag:{display:{Name:'["召喚士"]'}}}] store result storage job: JobStatus[6].Level int 1 run clear @s player_head{display:{Name:'["召喚士"]'}}
+execute if data entity @s Inventory[{tag:{display:{Name:'["絡繰士"]'}}}] store result storage job: JobStatus[7].Level int 1 run clear @s player_head{display:{Name:'["絡繰士"]'}}
+execute if data entity @s Inventory[{tag:{display:{Name:'["怪盗"]'}}}] store result storage job: JobStatus[8].Level int 1 run clear @s player_head{display:{Name:'["怪盗"]'}}
 
 #ステータスロード
 function job:status/load
+
+function job:status/operation_end
 
 #レベルアップ可能ならレベルアップする
 execute if score @s Exp = @s RequiredExp run function job:level_up/

@@ -11,6 +11,8 @@
 # 転職前のステータスは保存され、転職先のステータスが呼び出される。
 #
 
+function job:status/operation_start
+
 #ステータスセーブ
 function job:status/save
 
@@ -37,6 +39,8 @@ clear @s player_head{display:{Name:'["黒魔導士"]'}}
 clear @s player_head{display:{Name:'["召喚士"]'}}
 clear @s player_head{display:{Name:'["絡繰士"]'}}
 clear @s player_head{display:{Name:'["怪盗"]'}}
+
+function job:status/operation_end
 
 #レベルアップ可能ならレベルアップする
 execute if score @s Exp >= @s RequiredExp run function job:level_up/

@@ -5,9 +5,9 @@
 function job:status/call
 
 #レベルダウンする
-execute store result score _ Level run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[-9].Level 1
+execute store result score _ Level run data get storage job: JobStatus[-9].Level 1
 scoreboard players operation _ Level -= _ Calc
-execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[-9].Level int 1 run scoreboard players get _ Level
+execute store result storage job: JobStatus[-9].Level int 1 run scoreboard players get _ Level
 
 #一応セーブしておく
 scoreboard players operation @s Job >< _ RequiredExp

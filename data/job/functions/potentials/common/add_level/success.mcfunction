@@ -3,7 +3,7 @@
 
 scoreboard players operation _ _ = _ Level
 scoreboard players add _ Level 1
-execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[-9].Level int 1 run scoreboard players get _ Level
+execute store result storage job: JobStatus[-9].Level int 1 run scoreboard players get _ Level
 
 #表示
 tellraw @s [""]

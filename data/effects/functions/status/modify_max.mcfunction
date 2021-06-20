@@ -1,32 +1,34 @@
 
 ### 最大体力を調整する
 
+function job:status/operation_start
+
 #全ての職業のレベルの総和を求める
 function job:status/save
 scoreboard players set _ _ 50
 scoreboard players set @s MPMax 100
-execute store result score _ Level run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[1].Level
+execute store result score _ Level run data get storage job: JobStatus[1].Level
 scoreboard players operation _ Level < _ _
 scoreboard players operation @s MPMax += _ Level
-execute store result score _ Level run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[2].Level
+execute store result score _ Level run data get storage job: JobStatus[2].Level
 scoreboard players operation _ Level < _ _
 scoreboard players operation @s MPMax += _ Level
-execute store result score _ Level run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[3].Level
+execute store result score _ Level run data get storage job: JobStatus[3].Level
 scoreboard players operation _ Level < _ _
 scoreboard players operation @s MPMax += _ Level
-execute store result score _ Level run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[4].Level
+execute store result score _ Level run data get storage job: JobStatus[4].Level
 scoreboard players operation _ Level < _ _
 scoreboard players operation @s MPMax += _ Level
-execute store result score _ Level run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[5].Level
+execute store result score _ Level run data get storage job: JobStatus[5].Level
 scoreboard players operation _ Level < _ _
 scoreboard players operation @s MPMax += _ Level
-execute store result score _ Level run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[6].Level
+execute store result score _ Level run data get storage job: JobStatus[6].Level
 scoreboard players operation _ Level < _ _
 scoreboard players operation @s MPMax += _ Level
-execute store result score _ Level run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[7].Level
+execute store result score _ Level run data get storage job: JobStatus[7].Level
 scoreboard players operation _ Level < _ _
 scoreboard players operation @s MPMax += _ Level
-execute store result score _ Level run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[8].Level
+execute store result score _ Level run data get storage job: JobStatus[8].Level
 scoreboard players operation _ Level < _ _
 scoreboard players operation @s MPMax += _ Level
 

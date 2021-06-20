@@ -10,9 +10,9 @@ scoreboard players operation @s Job = @s PotentialTrigger
 function job:status/call
 
 #もし初期化されていないなら初期化する
-execute unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[-9].CP run function job:potentials/common/add_level/status_init
+execute unless data storage job: JobStatus[-9].CP run function job:potentials/common/add_level/status_init
 
-execute store result score _ Level run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[-9].Level
+execute store result score _ Level run data get storage job: JobStatus[-9].Level
 
 #レベルアップできるかどうか判定
 execute if score @s Job matches 1 store result score _ _ run data get storage tusb_player: Potentials.AddLevel[1] 1

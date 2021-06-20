@@ -20,14 +20,14 @@ execute if score @s Job matches 7 run scoreboard players operation _ AddPuppet_m
 execute if score @s Job matches 8 run scoreboard players operation _ AddThief = @s Level
 
 function oh_my_dat:please
-execute if score _ AddKnight matches 0 store result score _ AddKnight run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[1].Level
-execute if score _ AddNinja matches 0 store result score _ AddNinja run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[2].Level
-execute if score _ AddHunter matches 0 store result score _ AddHunter run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[3].Level
-execute if score _ AddWhite_mage matches 0 store result score _ AddWhite_mage run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[4].Level
-execute if score _ AddBlack_mage matches 0 store result score _ AddBlack_mage run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[5].Level
-execute if score _ AddSummoner matches 0 store result score _ AddSummoner run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[6].Level
-execute if score _ AddPuppet_master matches 0 store result score _ AddPuppet_master run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[7].Level
-execute if score _ AddThief matches 0 store result score _ AddThief run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].JobStatus[8].Level
+execute if score _ AddKnight matches 0 store result score _ AddKnight run data get storage job: JobStatus[1].Level
+execute if score _ AddNinja matches 0 store result score _ AddNinja run data get storage job: JobStatus[2].Level
+execute if score _ AddHunter matches 0 store result score _ AddHunter run data get storage job: JobStatus[3].Level
+execute if score _ AddWhite_mage matches 0 store result score _ AddWhite_mage run data get storage job: JobStatus[4].Level
+execute if score _ AddBlack_mage matches 0 store result score _ AddBlack_mage run data get storage job: JobStatus[5].Level
+execute if score _ AddSummoner matches 0 store result score _ AddSummoner run data get storage job: JobStatus[6].Level
+execute if score _ AddPuppet_master matches 0 store result score _ AddPuppet_master run data get storage job: JobStatus[7].Level
+execute if score _ AddThief matches 0 store result score _ AddThief run data get storage job: JobStatus[8].Level
 
 scoreboard players set _ _ 50
 scoreboard players operation _ AddKnight < _ _
