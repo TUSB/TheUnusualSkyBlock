@@ -45,6 +45,9 @@ execute as @e[tag=Mob,tag=HasAI] at @s run function entity:enemy/ai/tick
 ###エンティティ削除
 execute as @e[tag=Garbage] run function entity:garbage_collection
 
+###エンティティAI分岐
+execute as @e[tag=Mob] run function entity:enemy/main
+
 ###カスタムHP回復
 execute as @a[scores={HealthHealing=-2147483648..}] run function player:health_healing
 

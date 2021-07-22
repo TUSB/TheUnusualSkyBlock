@@ -1,0 +1,2 @@
+execute if data entity @s {PortalCooldown:0} run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI.Skills.Call set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI.Skills.Time
+execute if data entity @s {PortalCooldown:0} run function entity:enemy/call
