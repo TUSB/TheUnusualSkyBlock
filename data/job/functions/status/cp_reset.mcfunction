@@ -17,8 +17,8 @@ execute store result score @s MPCostRate run data get storage tusb_player: Poten
 scoreboard players set @s AddKnight 0
 scoreboard players set @s AddNinja 0
 scoreboard players set @s AddHunter 0
-scoreboard players set @s AddWhite_mage 0
-scoreboard players set @s AddBlack_mage 0
+scoreboard players set @s AddWhiteMage 0
+scoreboard players set @s AddBlackMage 0
 scoreboard players set @s AddSummoner 0
-scoreboard players set @s AddPuppet_master 0
+scoreboard players set @s AddPuppetMaster 0
 scoreboard players set @s AddThief 0

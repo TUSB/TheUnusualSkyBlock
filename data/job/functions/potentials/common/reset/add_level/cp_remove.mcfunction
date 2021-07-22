@@ -19,10 +19,10 @@ scoreboard players operation _ Exp > _ SubLevel
 scoreboard players operation _ Exp > @s AddKnight
 scoreboard players operation _ Exp > @s AddNinja
 scoreboard players operation _ Exp > @s AddHunter
-scoreboard players operation _ Exp > @s AddWhite_mage
-scoreboard players operation _ Exp > @s AddBlack_mage
+scoreboard players operation _ Exp > @s AddWhiteMage
+scoreboard players operation _ Exp > @s AddBlackMage
 scoreboard players operation _ Exp > @s AddSummoner
-scoreboard players operation _ Exp > @s AddPuppet_master
+scoreboard players operation _ Exp > @s AddPuppetMaster
 scoreboard players operation _ Exp > @s AddThief
 
 #割り振られているCPの最大値より減少CPが多い時は剥奪するCPがマイナスにならないようにする
@@ -73,14 +73,14 @@ execute if score _ Ret matches 1 if score _ Exp = _ AllExp run scoreboard player
 execute if score _ Ret matches 1 if score _ Exp = _ AllExp run scoreboard players set @s Job 3
 execute if score _ Ret matches 1 if score _ Exp = _ AllExp run function job:potentials/common/reset/add_level/level_remove
 #
-execute if score _ Ret matches 0 if score _ Exp = @s AddWhite_mage store success score _ Ret run scoreboard players operation _ AllExp = @s AddWhite_mage
-execute if score _ Ret matches 1 if score _ Exp = @s AddWhite_mage run scoreboard players operation @s AddWhite_mage -= _ Calc
+execute if score _ Ret matches 0 if score _ Exp = @s AddWhiteMage store success score _ Ret run scoreboard players operation _ AllExp = @s AddWhiteMage
+execute if score _ Ret matches 1 if score _ Exp = @s AddWhiteMage run scoreboard players operation @s AddWhiteMage -= _ Calc
 execute if score _ Ret matches 1 if score _ Exp = _ AllExp run scoreboard players operation _ RequiredExp = @s Job
 execute if score _ Ret matches 1 if score _ Exp = _ AllExp run scoreboard players set @s Job 4
 execute if score _ Ret matches 1 if score _ Exp = _ AllExp run function job:potentials/common/reset/add_level/level_remove
 #
-execute if score _ Ret matches 0 if score _ Exp = @s AddBlack_mage store success score _ Ret run scoreboard players operation _ AllExp = @s AddBlack_mage
-execute if score _ Ret matches 1 if score _ Exp = @s AddBlack_mage run scoreboard players operation @s AddBlack_mage -= _ Calc
+execute if score _ Ret matches 0 if score _ Exp = @s AddBlackMage store success score _ Ret run scoreboard players operation _ AllExp = @s AddBlackMage
+execute if score _ Ret matches 1 if score _ Exp = @s AddBlackMage run scoreboard players operation @s AddBlackMage -= _ Calc
 execute if score _ Ret matches 1 if score _ Exp = _ AllExp run scoreboard players operation _ RequiredExp = @s Job
 execute if score _ Ret matches 1 if score _ Exp = _ AllExp run scoreboard players set @s Job 5
 execute if score _ Ret matches 1 if score _ Exp = _ AllExp run function job:potentials/common/reset/add_level/level_remove
@@ -91,8 +91,8 @@ execute if score _ Ret matches 1 if score _ Exp = _ AllExp run scoreboard player
 execute if score _ Ret matches 1 if score _ Exp = _ AllExp run scoreboard players set @s Job 6
 execute if score _ Ret matches 1 if score _ Exp = _ AllExp run function job:potentials/common/reset/add_level/level_remove
 #
-execute if score _ Ret matches 0 if score _ Exp = @s AddPuppet_master store success score _ Ret run scoreboard players operation _ AllExp = @s AddPuppet_master
-execute if score _ Ret matches 1 if score _ Exp = @s AddPuppet_master run scoreboard players operation @s AddPuppet_master -= _ Calc
+execute if score _ Ret matches 0 if score _ Exp = @s AddPuppetMaster store success score _ Ret run scoreboard players operation _ AllExp = @s AddPuppetMaster
+execute if score _ Ret matches 1 if score _ Exp = @s AddPuppetMaster run scoreboard players operation @s AddPuppetMaster -= _ Calc
 execute if score _ Ret matches 1 if score _ Exp = _ AllExp run scoreboard players operation _ RequiredExp = @s Job
 execute if score _ Ret matches 1 if score _ Exp = _ AllExp run scoreboard players set @s Job 7
 execute if score _ Ret matches 1 if score _ Exp = _ AllExp run function job:potentials/common/reset/add_level/level_remove

@@ -58,10 +58,10 @@ scoreboard objectives add MPCostRate dummy {"text":"MP消費軽減割合"}
 scoreboard objectives add AddKnight dummy {"text": "追加レベル：剣士"}
 scoreboard objectives add AddNinja dummy {"text": "追加レベル：忍者"}
 scoreboard objectives add AddHunter dummy {"text": "追加レベル：狩人"}
-scoreboard objectives add AddWhite_mage dummy {"text": "追加レベル：白魔導士"}
-scoreboard objectives add AddBlack_mage dummy {"text": "追加レベル：黒魔導士"}
+scoreboard objectives add AddWhiteMage dummy {"text": "追加レベル：白魔導士"}
+scoreboard objectives add AddBlackMage dummy {"text": "追加レベル：黒魔導士"}
 scoreboard objectives add AddSummoner dummy {"text": "追加レベル：召喚士"}
-scoreboard objectives add AddPuppet_master dummy {"text": "追加レベル：絡繰士"}
+scoreboard objectives add AddPuppetMaster dummy {"text": "追加レベル：絡繰士"}
 scoreboard objectives add AddThief dummy {"text": "追加レベル：怪盗"}
 
 ###乱数初期化

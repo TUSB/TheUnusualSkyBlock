@@ -27,10 +27,10 @@ tellraw @s[scores={PotentialTrigger=8}] ["",{"translate":" %1$s のレベルを�
 scoreboard players add @s[scores={PotentialTrigger=1}] AddKnight 1
 scoreboard players add @s[scores={PotentialTrigger=2}] AddNinja 1
 scoreboard players add @s[scores={PotentialTrigger=3}] AddHunter 1
-scoreboard players add @s[scores={PotentialTrigger=4}] AddWhite_mage 1
-scoreboard players add @s[scores={PotentialTrigger=5}] AddBlack_mage 1
+scoreboard players add @s[scores={PotentialTrigger=4}] AddWhiteMage 1
+scoreboard players add @s[scores={PotentialTrigger=5}] AddBlackMage 1
 scoreboard players add @s[scores={PotentialTrigger=6}] AddSummoner 1
-scoreboard players add @s[scores={PotentialTrigger=7}] AddPuppet_master 1
+scoreboard players add @s[scores={PotentialTrigger=7}] AddPuppetMaster 1
 scoreboard players add @s[scores={PotentialTrigger=8}] AddThief 1
 
 #持っているCP(Lv)を消費する
