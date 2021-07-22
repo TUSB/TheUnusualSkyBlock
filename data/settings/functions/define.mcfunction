@@ -12,6 +12,21 @@
 #> モブ設定用ストレージ
 #define storage tusb_mob:
 
+#> モブAI用ストレージ
+#define storage mob_data:
+
+#> プレイヤー設定用ストレージ
+#define storage tusb_player:
+
+#> 職業データ用ストレージ
+#define storage job:
+
+#> スキル用ストレージ
+#define storage skill:
+
+#> エフェクト用ストレージ
+#define storage effects:
+
 #> 個別ストレージ
 #define storage oh_my_dat:
 

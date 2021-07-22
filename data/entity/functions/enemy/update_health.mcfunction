@@ -11,5 +11,7 @@ data modify entity @s HurtTime set value 0s
 #ダメージ演出
 effect give @s instant_damage 1 127 true
 effect give @s instant_health 1 127 true
+#CallOnDamage
+execute if entity @s[tag=CallOnDamage] run function entity:enemy/ai/call/damage
 #死亡処理
 execute if score @s HP matches ..0 run function entity:mob_death

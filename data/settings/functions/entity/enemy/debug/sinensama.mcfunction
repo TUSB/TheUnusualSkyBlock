@@ -30,3 +30,5 @@ data modify storage tusb_mob: "遅延ステータス"."物理攻撃力"."成長�
 data modify storage tusb_mob: "遅延ステータス"."物理防御力"."成長ポイント" set value 1
 data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力"."成長ポイント" set value 1
 data modify storage tusb_mob: "遅延ステータス"."魔法防御力"."成長ポイント" set value 2
+# AI
+data modify storage tusb_mob: "遅延ステータス".AI set value {Turn:[{Target:{Look:"",Radius:0.0d},Move:{Front:0,Side:0,Rotate:{Speed_x:0,Speed_y:0}},Skills:{Damage:"Damage",InBlock:"InBlock",Fire:"Fire",Water:"Water",Falling:"Falling",Flying:"Flying"}}]}
