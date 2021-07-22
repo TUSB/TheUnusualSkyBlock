@@ -44,6 +44,9 @@ execute if data entity @s Inventory[{tag:{display:{Name:'["怪盗"]'}}}] store r
 #ステータスロード
 function job:status/load
 
+#スキルレベル更新
+function job:status/get_all_job_level
+
 function job:status/operation_end
 
 #レベルアップ可能ならレベルアップする
