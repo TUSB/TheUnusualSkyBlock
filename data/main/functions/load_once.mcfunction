@@ -2,10 +2,6 @@
 ### 初回ロード処理
 ##############################
 
-#criteria変更につき一旦削除
-#TODO: 配布時には消す
-scoreboard objectives remove HP
-
 ###ステータス
 scoreboard objectives add Level dummy {"text":"レベル"}
 scoreboard objectives add ElementFire dummy {"text":"炎属性値"}
@@ -53,6 +49,7 @@ scoreboard objectives add SubLevel dummy {"text":"現在のジョブのサブレ
 scoreboard objectives add CritProbability dummy {"text":"クリティカルヒット確率"}
 scoreboard objectives add ResistMin dummy {"text":"状態異常耐性下限"}
 scoreboard objectives add AuraRate dummy {"text":"オーラ延長割合"}
+scoreboard objectives add Interval dummy {"text":"スキル発動無効時間"}
 scoreboard objectives add IntervalRate dummy {"text":"スキル発動無効時間短縮割合"}
 scoreboard objectives add MPCostRate dummy {"text":"MP消費軽減割合"}
 scoreboard objectives add AddKnight dummy {"text": "追加レベル：剣士"}
@@ -63,7 +60,14 @@ scoreboard objectives add AddBlackMage dummy {"text": "追加レベル：黒魔�
 scoreboard objectives add AddSummoner dummy {"text": "追加レベル：召喚士"}
 scoreboard objectives add AddPuppetMaster dummy {"text": "追加レベル：絡繰士"}
 scoreboard objectives add AddThief dummy {"text": "追加レベル：怪盗"}
-
+scoreboard objectives add KnightLv dummy {"text": "剣士スキルレベル"}
+scoreboard objectives add NinjaLv dummy {"text": "忍者スキルレベル"}
+scoreboard objectives add HunterLv dummy {"text": "狩人スキルレベル"}
+scoreboard objectives add WhiteMageLv dummy {"text": "白魔道士スキルレベル"}
+scoreboard objectives add BlackMageLv dummy {"text": "黒魔道士スキルレベル"}
+scoreboard objectives add SummonerLv dummy {"text": "召喚士スキルレベル"}
+scoreboard objectives add PuppetMasterLv dummy {"text": "絡繰士スキルレベル"}
+scoreboard objectives add ThiefLv dummy {"text": "怪盗スキルレベル"}
 ###乱数初期化
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,WaitTime:1,ReapplicationDelay:0,Duration:0,Tags:[Initialized]}
 execute store result score $RndMWC Random run data get entity @e[distance=..1,type=minecraft:area_effect_cloud,limit=1] UUID[0] 0.01
@@ -89,13 +93,19 @@ scoreboard objectives add UseSnowball minecraft.used:minecraft.snowball {"text":
 scoreboard objectives add UseBow minecraft.used:minecraft.bow {"text": "弓使用"}
 scoreboard objectives add UseCrossbow minecraft.used:minecraft.crossbow {"text": "クロスボウ使用"}
 scoreboard objectives add UseTrident minecraft.used:minecraft.trident {"text": "トライデント使用"}
+scoreboard objectives add UseCarrotStick minecraft.used:minecraft.carrot_on_a_stick {"text": "人参棒使用"}
 scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game {"text":"ログインフラグ"}
 scoreboard objectives add ChangeSettings trigger {"text":"設定変更"}
+scoreboard objectives add ChangeSkill trigger {"text":"スキル変更"}
 scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time {"text":"スニーク時間"}
 scoreboard objectives add SneakTrigger dummy {"text":"スニーク累積時間"}
+scoreboard objectives add SneakFrequency dummy {"text":"スニーク頻度"}
 scoreboard objectives add PotentialTrigger trigger {"text":"潜在能力変更トリガー"}
 scoreboard objectives add PotentialPrev trigger {"text":"潜在能力変更前回トリガー"}
 scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken {"text":"受けたメージ量"}
 scoreboard objectives add Deaths minecraft.custom:minecraft.deaths {"text":"死亡"}
 scoreboard objectives add Hunger dummy {"text":"死亡時調整満腹度"}
 scoreboard objectives add Age minecraft.custom:minecraft.time_since_death {"text":"生きている時間"}
+
+#スキルデータ
+function skill:data/

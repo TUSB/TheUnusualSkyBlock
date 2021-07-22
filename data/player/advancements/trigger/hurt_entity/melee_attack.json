@@ -5,12 +5,15 @@
       "conditions": {
         "player": [
           {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "equipment": {
-                "mainhand": {
-                  "tag": "item:bows"
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "tag": "item:bows"
+                  }
                 }
               }
             }
@@ -35,6 +38,6 @@
     }
   },
   "rewards": {
-    "function": "player:trigger/hurt_entity/melee_bow_attack"
+    "function": "player:trigger/hurt_entity/melee_attack"
   }
 }

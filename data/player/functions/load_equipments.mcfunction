@@ -2,6 +2,7 @@
 #SelectedItem
 data remove storage item: SelectedItem
 data modify storage item: SelectedItem set from entity @s SelectedItem
+data modify storage item: SelectedItem.Slot set from entity @s SelectedItemSlot
 #Equipments 両手+防具
 data modify storage item: Equipments set value []
 data modify storage item: Equipments append from entity @s SelectedItem

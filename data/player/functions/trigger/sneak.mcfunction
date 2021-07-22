@@ -3,6 +3,8 @@
 
 #スニーク中   スニークしているときに実行したい処理はこの下に追加
 execute if score @s SneakTime matches 3 run scoreboard players add @s SneakTrigger 1
+#スニーク頻度
+execute if score @s SneakTime matches 1 run scoreboard players add @s SneakFrequency 10
 
 
 ### 設定表示

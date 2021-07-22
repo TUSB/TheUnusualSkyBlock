@@ -21,6 +21,9 @@
 #> 職業データ用ストレージ
 #define storage job:
 
+#> スキル用ストレージ
+#define storage skill:
+
 #> エフェクト用ストレージ
 #define storage effects:
 
