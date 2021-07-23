@@ -68,6 +68,10 @@ scoreboard objectives add BlackMageLv dummy {"text": "黒魔道士スキルレ�
 scoreboard objectives add SummonerLv dummy {"text": "召喚士スキルレベル"}
 scoreboard objectives add PuppetMasterLv dummy {"text": "絡繰士スキルレベル"}
 scoreboard objectives add ThiefLv dummy {"text": "怪盗スキルレベル"}
+
+###スキル
+scoreboard objectives add Aisatsu dummy {"text":"アイサツ消費MP減少効果量"}
+
 ###乱数初期化
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,WaitTime:1,ReapplicationDelay:0,Duration:0,Tags:[Initialized]}
 execute store result score $RndMWC Random run data get entity @e[distance=..1,type=minecraft:area_effect_cloud,limit=1] UUID[0] 0.01
@@ -106,6 +110,14 @@ scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken {"
 scoreboard objectives add Deaths minecraft.custom:minecraft.deaths {"text":"死亡"}
 scoreboard objectives add Hunger dummy {"text":"死亡時調整満腹度"}
 scoreboard objectives add Age minecraft.custom:minecraft.time_since_death {"text":"生きている時間"}
+
+###カラーチーム作成
+team add Red {"text":"赤色チーム"}
+team modify Red color red
+team add LightPurple {"text":"赤紫色チーム"}
+team modify LightPurple color light_purple
+team add Gold {"text":"黄色チーム"}
+team modify Gold color gold
 
 #スキルデータ
 function skill:data/
