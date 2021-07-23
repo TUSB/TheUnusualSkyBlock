@@ -25,6 +25,7 @@ data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from sto
 execute if data storage tusb_mob: "遅延ステータス".AI run tag @s add HasAI
 execute if data storage tusb_mob: "遅延ステータス".AI.Damage run tag @s add CallOnDamage
 execute if data storage tusb_mob: "遅延ステータス".AI.Death run tag @s add CallOnDeath
+execute if data storage tusb_mob: "遅延ステータス".AI.Time run tag @s add CallOnTimeOut
 
 ### ステータスを計算して反映する
 function entity:enemy/spawn/apply_status/calc

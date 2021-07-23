@@ -39,8 +39,11 @@ scoreboard players remove @a Interval 1
 execute as @e[tag=Mob,nbt=!{HurtTime:0s}] run function entity:enemy/update_health
 execute as @e[tag=Mob,scores={Damage=1..}] run function entity:enemy/update_health
 
+###エンティティPortalCooldownチェック
+execute as @e[tag=CooldownRequired,nbt={PortalCooldown:0}] run function entity:cooldown
+
 ###エンティティAI分岐
-execute as @e[tag=Mob,tag=HasAI] at @s run function entity:enemy/ai/tick
+execute as @e[tag=HasAI] at @s run function entity:enemy/ai/tick
 
 ###エンティティ削除
 execute as @e[tag=Garbage] run function entity:garbage_collection
