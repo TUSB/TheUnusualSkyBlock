@@ -7,4 +7,4 @@ execute store result score _ Level run data get storage skill: Skill.Level
 execute store result score _ Interval run data get storage skill: Skill.Interval
 #職業とTUSBメモリー分岐
 execute if data storage skill: Skill{Type:"Job"} run function skill:practice/job/check_acquirement
-execute if data storage skill: Skill{Type:"TUSBMemory"} run function skill:practice/tusb_memory
+execute if data storage skill: Skill{Type:"TUSBMemory"} in area:control_area run function skill:practice/tusb_memory
