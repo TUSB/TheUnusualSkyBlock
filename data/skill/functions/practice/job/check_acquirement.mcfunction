@@ -1,7 +1,7 @@
 #スキル習得確認
 
 #スキルの習得レベル取得
-execute store result score _ Calc run data get storage skill: Skill.AcquireLevel
+execute store result score _ Calc run data get storage skill: Skill.AcquireLevel.Min
 #プレイヤーのジョブレベル取得
 execute if data storage skill: Skill{Job:"共通"} run scoreboard players operation _ _ = @s Level
 execute if data storage skill: Skill{Job:"剣士"} run scoreboard players operation _ _ = @s KnightLv
