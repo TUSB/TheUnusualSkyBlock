@@ -1,0 +1,13 @@
+##############################
+### 風切毎秒処理
+##############################
+
+effect give @s minecraft:slow_falling 2 0
+execute if entity @s[x_rotation=-90..0] run effect give @s minecraft:levitation 1 0
+scoreboard players remove @s SkyWalk 1
+execute if score @s SkyWalk matches 5 run tellraw @s [{"text":"","color":"yellow"},{"text":"スカイウォーク","color":"white","hoverEvent":{"action":"show_text","value":"風を纏い、空中を浮遊する。","color":"white"}},"の効果が切れそうだ。"]
+execute if score @s SkyWalk matches 2 run tellraw @s [{"text":"","color":"yellow"},{"text":"スカイウォーク","color":"white","hoverEvent":{"action":"show_text","value":"風を纏い、空中を浮遊する。","color":"white"}},"の効果が切れそうだ！！！"]
+execute if score @s SkyWalk matches ..0 run tellraw @s [{"text":"","color":"yellow"},{"selector":"@s"},"の",{"text":"スカイウォーク","color":"white","hoverEvent":{"action":"show_text","value":"風を纏い、空中を浮遊する。","color":"white"}},"の効果が切れた。"]
+execute if score @s SkyWalk matches ..0 run scoreboard players reset @s SkyWalk
+#演出
+function makeup:skill/act/common/sky_walk/tick

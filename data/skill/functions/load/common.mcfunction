@@ -40,6 +40,7 @@ execute if data storage skill: Skill{Name:"転倒",Level:1} run data modify stor
 execute if data storage skill: Skill{Name:"ホームラン",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"ホームラン",Level:1}]
 execute if data storage skill: Skill{Name:"奈落",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"奈落",Level:1}]
 execute if data storage skill: Skill{Name:"破壊の波動",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"破壊の波動",Level:1}]
+execute if data storage skill: Skill{Name:"スカイウォーク",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"スカイウォーク",Level:1}]
 execute if data storage skill: Skill{Name:"ライブラ",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"ライブラ",Level:1}]
 execute if data storage skill: Skill{Name:"ウィークペイント",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"ウィークペイント",Level:1}]
 execute if data storage skill: Skill{Name:"アナライズ",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"アナライズ",Level:1}]

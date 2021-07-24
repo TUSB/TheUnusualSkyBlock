@@ -39,6 +39,7 @@ scoreboard objectives add VirusCount dummy {"text":"病気カウント"}
 ###計算、乱数
 scoreboard objectives add Calc dummy {"text": "計算用"}
 scoreboard objectives add Random dummy {"text": "乱数用"}
+scoreboard objectives add TitleOffset dummy {"text":"タイトル表示オフセット"}
 
 ###ジョブ系
 scoreboard objectives add Job dummy {"text": "現在のジョブ"}
@@ -70,7 +71,15 @@ scoreboard objectives add PuppetMasterLv dummy {"text": "絡繰士スキルレ�
 scoreboard objectives add ThiefLv dummy {"text": "怪盗スキルレベル"}
 
 ###スキル
+#忍者
+scoreboard objectives add Choyaku dummy {"text":"跳躍跳躍力"}
 scoreboard objectives add Aisatsu dummy {"text":"アイサツ消費MP減少効果量"}
+scoreboard objectives add Katon dummy {"text":"火遁"}
+scoreboard objectives add Kazakiri dummy {"text":"風切"}
+scoreboard objectives add Mokuso dummy {"text":"黙想"}
+scoreboard objectives add Suiton dummy {"text":"水遁"}
+#共通
+scoreboard objectives add SkyWalk dummy {"text":"スカイウォーク"}
 
 ###乱数初期化
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,WaitTime:1,ReapplicationDelay:0,Duration:0,Tags:[Initialized]}
@@ -107,6 +116,7 @@ scoreboard objectives add SneakFrequency dummy {"text":"スニーク頻度"}
 scoreboard objectives add PotentialTrigger trigger {"text":"潜在能力変更トリガー"}
 scoreboard objectives add PotentialPrev trigger {"text":"潜在能力変更前回トリガー"}
 scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken {"text":"受けたメージ量"}
+scoreboard objectives add Jump minecraft.custom:minecraft.jump {"text":"ジャンプ"}
 scoreboard objectives add Deaths minecraft.custom:minecraft.deaths {"text":"死亡"}
 scoreboard objectives add Hunger dummy {"text":"死亡時調整満腹度"}
 scoreboard objectives add Age minecraft.custom:minecraft.time_since_death {"text":"生きている時間"}

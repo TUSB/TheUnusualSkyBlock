@@ -17,6 +17,7 @@ execute as @a[scores={UseCarrotStick=1..}] at @s run function player:trigger/use
 execute as @a[scores={SneakTime=1..}] at @s run function player:trigger/sneak
 execute as @a[scores={SneakFrequency=1..}] at @s run function player:trigger/sneak_frequency
 execute as @a[scores={DamageTaken=0..}] at @s run function player:trigger/damage_taken
+execute as @a[scores={Jump=1..}] at @s run function player:trigger/jump
 execute as @a[scores={Deaths=1..}] at @s run function player:trigger/death
 
 ### エンティティ初期化
@@ -34,6 +35,9 @@ execute if score $Second Count matches 20.. run function main:one_second
 
 ### スキル
 scoreboard players remove @a Interval 1
+#忍者
+execute as @a[scores={Choyaku=0..},nbt={OnGround:false,FallDistance:0.0f}] at @s run function makeup:skill/act/ninja/choyaku/direction
+execute as @a[scores={Kazakiri=0..}] at @s run function skill:act/ninja/kazakiri/tick
 
 ###Mobダメージ反映
 execute as @e[tag=Mob,nbt=!{HurtTime:0s}] run function entity:enemy/update_health

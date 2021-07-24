@@ -7,6 +7,6 @@ execute if entity @e[distance=..7,tag=Anvil] run schedule function item:lapidary
 execute if entity @e[tag=Freeze,distance=..10] run schedule function effects:freeze/fix 1t
 
 #プレイヤーゲーム設定
-function player:game_settings/reshow
+function player:game_settings/show
 
 scoreboard players reset @s LeaveGame
