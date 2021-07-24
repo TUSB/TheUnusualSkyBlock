@@ -10,7 +10,7 @@ data modify storage item: Item.tag.display.Lore[-1] set from block 2 3 2 Text1
 data modify storage item: Slot set from storage item: Item.Slot
 data remove storage item: Item.Slot
 #カウント0で破壊
-execute if data storage item: Item.tag.Skill{Count:0} run function makeup:skill/practice/break_tusb_memory
+execute if data storage item: Item.tag.Skill{Count:0} at @s run function makeup:skill/practice/break_tusb_memory
 execute if data storage item: Item.tag.Skill{Count:0} run data remove storage item: Item
 #アイテム更新
 data modify storage item: Items set value []
