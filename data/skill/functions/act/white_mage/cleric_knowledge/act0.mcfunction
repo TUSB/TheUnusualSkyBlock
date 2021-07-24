@@ -9,4 +9,4 @@ execute if score _ Level matches 3 run effect give @a[distance=..10] minecraft:l
 scoreboard players set _ _ 60
 scoreboard players operation @a[distance=..10] ClericKnowledge > _ _
 #演出
-function makeup:skill/act/white_mage/cleric_knowledge/act0
+execute rotated ~ 0 positioned ^ ^0.1 ^2.5 run function makeup:skill/act/white_mage/cleric_knowledge/act0
