@@ -7,10 +7,10 @@ data modify storage item: Items[0].tag.display.Lore append from block 2 3 2 Text
 #説明
 data modify storage item: Items[0].tag.display.Lore append from storage skill: Skill.Lore[]
 #発動条件
-data modify block 2 3 2 Text1 set value '[{"text":"","color":"white","italic":false},{"text":"K","font":"icon","color":"gold"},{"text":" 発動条件: "},{"storage":"skill:","nbt":"Skill.Trigger"}]}}]'
+data modify block 2 3 2 Text1 set value '[{"text":"","color":"white","italic":false},{"text":"K","font":"icon","color":"gold"},{"translate":" 発動条件: "},{"storage":"skill:","nbt":"Skill.Trigger"}]}}]'
 data modify storage item: Items[0].tag.display.Lore append from block 2 3 2 Text1
 #消費MP
-data modify block 2 3 2 Text1 set value '[{"text":"","color":"white","italic":false},{"text":"M","font":"icon","color":"aqua"},{"text":" 消費MP: "},{"storage":"skill:","nbt":"Skill.MP"}]}}]'
+data modify block 2 3 2 Text1 set value '[{"text":"","color":"white","italic":false},{"text":"M","font":"icon","color":"aqua"},{"translate":" 消費MP: "},{"storage":"skill:","nbt":"Skill.MP"}]}}]'
 data modify storage item: Items[0].tag.display.Lore append from block 2 3 2 Text1
 #スキル付与
 data modify storage item: Items[0].tag.Skill set from storage skill: Skill

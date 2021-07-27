@@ -55,9 +55,9 @@ effect give @s minecraft:slow_falling 1 0
 
 scoreboard players remove @s Kazakiri 1
 
-execute if score @s Kazakiri matches 100 run tellraw @s [{"text":"","color":"yellow"},{"text":"風切","color":"white","hoverEvent":{"action":"show_text","value":"風を纏い、空中を浮遊する。","color":"white"}},"の効果が切れそうだ。"]
-execute if score @s Kazakiri matches 40 run tellraw @s [{"text":"","color":"yellow"},{"text":"風切","color":"white","hoverEvent":{"action":"show_text","value":"風を纏い、空中を浮遊する。","color":"white"}},"の効果が切れそうだ！！！"]
-execute if score @s Kazakiri matches ..0 run tellraw @s [{"text":"","color":"yellow"},{"selector":"@s"},"の",{"text":"風切","color":"white","hoverEvent":{"action":"show_text","value":"風を纏い、空中を浮遊する。","color":"white"}},"の効果が切れた。"]
+execute if score @s Kazakiri matches 100 run tellraw @s [{"translate": "%1$sの効果が切れそうだ。","color":"yellow","with":[{"translate":"風切","color":"white","hoverEvent":{"action":"show_text","value":{"translate":"風を纏い、空中を浮遊する。"},"color":"white"}}]}]
+execute if score @s Kazakiri matches 40 run tellraw @s [{"translate": "%1$sの効果が切れそうだ！！！","color":"yellow","with":[{"translate":"風切","color":"white","hoverEvent":{"action":"show_text","value":{"translate":"風を纏い、空中を浮遊する。"},"color":"white"}}]}]
+execute if score @s Kazakiri matches ..0 run tellraw @s [{"translate":"%1$sの%2$sの効果が切れた。","color":"yellow","with":[{"selector":"@s","color":"white"},{"translate":"風切","color":"white","hoverEvent":{"action":"show_text","value":{"translate":"風を纏い、空中を浮遊する。"},"color":"white"}}]}]
 
 execute if score @s Kazakiri matches ..0 run effect clear @s minecraft:levitation
 execute if score @s Kazakiri matches ..0 run effect clear @s minecraft:slow_falling
