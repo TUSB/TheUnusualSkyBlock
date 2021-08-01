@@ -8,7 +8,8 @@ scoreboard players operation _ TitleOffset = _ Calc
 scoreboard players set _ _ 6
 scoreboard players operation _ TitleOffset /= _ _
 
-execute if score @s TitleOffset matches ..-1 run scoreboard players operation _ TitleOffset *= $-1 Const
+scoreboard players set _ _ -1
+execute if score @s TitleOffset matches ..-1 run scoreboard players operation _ TitleOffset *= _ _
 execute if score @s TitleOffset matches ..-1 run scoreboard players operation _ TitleOffset > @s TitleOffset
 execute if score @s TitleOffset matches 1.. run scoreboard players operation _ TitleOffset < @s TitleOffset
 
