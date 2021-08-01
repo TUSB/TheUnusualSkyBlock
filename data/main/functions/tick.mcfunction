@@ -8,6 +8,9 @@ execute as @a[scores={Hunger=0..,Age=1..}] at @s run function player:rise
 ###ログイン時処理
 execute as @a[scores={LeaveGame=1..}] at @s run function player:leave_game
 
+###１tick遅れ処理
+execute as @e[tag=DelayedTask] at @s run function main:task/delayed
+
 ###トリガー
 execute as @a[scores={UseSnowball=1..}] at @s run function player:trigger/use/snowball
 execute as @a[scores={UseBow=1..}] at @s run function player:trigger/use/bow
@@ -42,6 +45,9 @@ execute as @a[scores={Kazakiri=0..}] at @s run function skill:act/ninja/kazakiri
 ###Mobダメージ反映
 execute as @e[tag=Mob,nbt=!{HurtTime:0s}] run function entity:enemy/update_health
 execute as @e[tag=Mob,scores={Damage=1..}] run function entity:enemy/update_health
+
+###存在する限り毎tick処理呼び出し
+execute as @e[tag=NativeTask] at @s run function main:task/native
 
 ###エンティティPortalCooldownチェック
 execute as @e[tag=CooldownRequired,nbt={PortalCooldown:0}] run function entity:cooldown

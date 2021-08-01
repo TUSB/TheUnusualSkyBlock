@@ -11,3 +11,5 @@ function job:status/operation_end
 scoreboard players set @s AllExp 0
 
 function job:level_up/
+
+team join Friendly

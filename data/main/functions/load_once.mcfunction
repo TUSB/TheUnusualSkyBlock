@@ -78,6 +78,8 @@ scoreboard objectives add Katon dummy {"text":"火遁"}
 scoreboard objectives add Kazakiri dummy {"text":"風切"}
 scoreboard objectives add Mokuso dummy {"text":"黙想"}
 scoreboard objectives add Suiton dummy {"text":"水遁"}
+#召喚士
+scoreboard objectives add FillSize dummy {"text":"フィールサイズ"}
 #共通
 scoreboard objectives add SkyWalk dummy {"text":"スカイウォーク"}
 
@@ -121,6 +123,13 @@ scoreboard objectives add Deaths minecraft.custom:minecraft.deaths {"text":"死�
 scoreboard objectives add Hunger dummy {"text":"死亡時調整満腹度"}
 scoreboard objectives add Age minecraft.custom:minecraft.time_since_death {"text":"生きている時間"}
 
+###チーム作成
+team add Friendly {"text":"味方チーム"}
+team modify Friendly friendlyFire false
+team modify Friendly collisionRule never
+team modify Friendly color white
+team modify Friendly prefix {"text":"✦","color":"red"}
+team modify Friendly suffix {"text":"✦","color":"red"}
 ###カラーチーム作成
 team add Red {"text":"赤色チーム"}
 team modify Red color red
