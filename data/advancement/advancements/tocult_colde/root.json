@@ -8,13 +8,13 @@
                 "text": ""
             },
             {
-                "text": "凍てつく世界 -トカルトコルデ-",
+                "translate": "凍てつく世界 -トカルトコルデ-",
                 "color": "aqua",
                 "bold": true
             }
         ],
         "description": {
-          "text": "生物は停まり、全ては凍てつく"
+          "translate": "生物は停まり、全ては凍てつく"
         },
         "frame": "task",
         "show_toast": true,

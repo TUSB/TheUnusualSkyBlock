@@ -8,13 +8,13 @@
                 "text": ""
             },
             {
-                "text": "空へのいざない -通常世界-",
+                "translate": "空へのいざない -通常世界-",
                 "color": "gray",
                 "bold": true
             }
         ],
         "description": {
-          "text": "空の世界へ旅立とう"
+          "translate": "空の世界へ旅立とう"
         },
         "frame": "task",
         "show_toast": true,

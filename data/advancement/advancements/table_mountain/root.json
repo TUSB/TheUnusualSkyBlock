@@ -8,13 +8,13 @@
                 "text": ""
             },
             {
-                "text": "試練の山 -テーブルマウンテン-",
+                "translate": "試練の山 -テーブルマウンテン-",
                 "color": "green",
                 "bold": true
             }
         ],
         "description": {
-          "text": "我、汝に試練を与えん"
+          "translate": "我、汝に試練を与えん"
         },
         "frame": "task",
         "show_toast": true,

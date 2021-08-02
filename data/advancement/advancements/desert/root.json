@@ -8,13 +8,13 @@
                 "text": ""
             },
             {
-                "text": " -砂漠-",
+                "translate": " -砂漠-",
                 "color": "light_purple",
                 "bold": true
             }
         ],
         "description": {
-            "text": "ようこそ、この世界へ！"
+            "translate": "ようこそ、この世界へ！"
         },
         "frame": "task",
         "show_toast": true,

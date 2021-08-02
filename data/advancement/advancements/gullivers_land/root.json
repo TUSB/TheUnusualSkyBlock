@@ -8,13 +8,13 @@
                 "text": ""
             },
             {
-                "text": "巨人の世界 -ガリバーランド-",
+                "translate": "巨人の世界 -ガリバーランド-",
                 "color": "yellow",
                 "bold": true
             }
         ],
         "description": {
-          "text": "ちっちゃくなっちゃった！？"
+          "translate": "ちっちゃくなっちゃった！？"
         },
         "frame": "task",
         "show_toast": true,

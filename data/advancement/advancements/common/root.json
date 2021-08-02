@@ -8,13 +8,13 @@
                 "text": ""
             },
             {
-                "text": "非日常の空 -日々の進捗-",
+                "translate": "非日常の空 -日々の進捗-",
                 "color": "light_purple",
                 "bold": true
             }
         ],
         "description": {
-          "text": "ようこそ、この世界へ！"
+          "translate": "ようこそ、この世界へ！"
         },
         "frame": "task",
         "show_toast": true,

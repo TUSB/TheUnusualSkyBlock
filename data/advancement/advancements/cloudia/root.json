@@ -8,13 +8,13 @@
                 "text": ""
             },
             {
-                "text": "雲の世界 -クラウディア-",
+                "translate": "雲の世界 -クラウディア-",
                 "color": "white",
                 "bold": true
             }
         ],
         "description": {
-            "text": "雲の浮く世界"
+            "translate": "雲の浮く世界"
         },
         "frame": "task",
         "show_toast": true,

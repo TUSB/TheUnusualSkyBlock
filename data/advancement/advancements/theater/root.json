@@ -8,13 +8,13 @@
                 "text": ""
             },
             {
-                "text": "主役はあなた -劇場-",
+                "translate": "主役はあなた -劇場-",
                 "color": "dark_purple",
                 "bold": true
             }
         ],
         "description": {
-          "text": "あなたの物語"
+          "translate": "あなたの物語"
         },
         "frame": "task",
         "show_toast": true,

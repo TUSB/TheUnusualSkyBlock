@@ -8,13 +8,13 @@
                 "text": ""
             },
             {
-                "text": "試練の門よ開け -アスレチック-",
+                "translate": "試練の門よ開け -アスレチック-",
                 "color": "gold",
                 "bold": true
             }
         ],
         "description": {
-          "text": "目指せ人間卒業"
+          "translate": "目指せ人間卒業"
         },
         "frame": "task",
         "show_toast": true,

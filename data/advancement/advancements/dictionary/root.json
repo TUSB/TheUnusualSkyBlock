@@ -8,13 +8,13 @@
                 "text": ""
             },
             {
-                "text": "攻略の助けに -空島辞典-",
+                "translate": "攻略の助けに -空島辞典-",
                 "color": "dark_aqua",
                 "bold": true
             }
         ],
         "description": {
-            "text": "冒険者の必読書"
+            "translate": "冒険者の必読書"
         },
         "frame": "challenge",
         "show_toast": false,

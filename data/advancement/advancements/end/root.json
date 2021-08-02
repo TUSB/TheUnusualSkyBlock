@@ -8,13 +8,13 @@
                 "text": ""
             },
             {
-                "text": "おしまい？ -エンド-",
+                "translate": "おしまい？ -エンド-",
                 "color": "dark_gray",
                 "bold": true
             }
         ],
         "description": {
-          "text": "終わりの始まり"
+          "translate": "終わりの始まり"
         },
         "frame": "task",
         "show_toast": true,

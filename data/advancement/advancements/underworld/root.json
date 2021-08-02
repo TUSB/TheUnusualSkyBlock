@@ -8,13 +8,13 @@
                 "text": ""
             },
             {
-                "text": "地の奥深くへ -地下世界-",
+                "translate": "地の奥深くへ -地下世界-",
                 "color": "dark_blue",
                 "bold": true
             }
         ],
         "description": {
-          "text": "薄暗く湿った世界"
+          "translate": "薄暗く湿った世界"
         },
         "frame": "task",
         "show_toast": true,
