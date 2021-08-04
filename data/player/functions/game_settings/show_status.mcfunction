@@ -28,7 +28,17 @@ tellraw @s[scores={Level=..49}] [{"translate":"Job:%1$s LV:%2$s Exp:%3$s/%4$s   
 tellraw @s[scores={Level=50..}] [{"translate":"Job:%1$s LV:%2$s CP:%3$s Exp:%4$s/%5$s   ","with":[{"storage":"tusb_player:","nbt":"Job","interpret": true},{"score":{"name":"_","objective":"Level"},"color":"green"},{"score":{"name": "_","objective": "Exp"},"color":"green"},{"score":{"name": "@s","objective": "Exp"},"color": "green"},{"score":{"name": "@s","objective": "RequiredExp"},"color": "green"}]},"   ",{"translate":"⇨ 潜在能力を引き上げる","clickEvent": {"action": "run_command","value": "/trigger PotentialTrigger set 1"}}]
 
 #各職業レベル表示
-function job:status/get_all_job_level
+function job:status/call
+execute store result storage job: JobStatus[-9].Level int 1 run scoreboard players get @s Level
+
+execute store result score _ KnightLv run data get storage job: JobStatus[1].Level
+execute store result score _ NinjaLv run data get storage job: JobStatus[2].Level
+execute store result score _ HunterLv run data get storage job: JobStatus[3].Level
+execute store result score _ WhiteMageLv run data get storage job: JobStatus[4].Level
+execute store result score _ BlackMageLv run data get storage job: JobStatus[5].Level
+execute store result score _ SummonerLv run data get storage job: JobStatus[6].Level
+execute store result score _ PuppetMasterLv run data get storage job: JobStatus[7].Level
+execute store result score _ ThiefLv run data get storage job: JobStatus[8].Level
 
 tellraw @s [{"translate":"剣士"},":",{"score":{"name":"_","objective":"KnightLv"},"color":"green"}," ",{"translate":"忍者"},":",{"score":{"name":"_","objective":"NinjaLv"},"color":"green"}," ",{"translate":"狩人"},":",{"score":{"name":"_","objective":"HunterLv"},"color":"green"}," ",{"translate":"白魔導士"},":",{"score":{"name":"_","objective":"WhiteMageLv"},"color":"green"}," ",{"translate":"黒魔導士"},":",{"score":{"name":"_","objective":"BlackMageLv"},"color":"green"}," ",{"translate":"召喚士"},":",{"score":{"name":"_","objective":"SummonerLv"},"color":"green"}," ",{"translate":"絡繰士"},":",{"score":{"name":"_","objective":"PuppetMasterLv"},"color":"green"}," ",{"translate":"怪盗"},":",{"score":{"name":"_","objective":"ThiefLv"},"color":"green"}]
 

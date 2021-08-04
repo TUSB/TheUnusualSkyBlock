@@ -4,7 +4,8 @@
 function job:status/operation_start
 
 #全ての職業のレベルの総和を求める
-function job:status/save
+function job:status/call
+execute store result storage job: JobStatus[-9].Level int 1 run scoreboard players get @s Level
 scoreboard players set _ _ 50
 scoreboard players set @s MPMax 100
 execute store result score _ Level run data get storage job: JobStatus[1].Level

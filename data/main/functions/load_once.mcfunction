@@ -53,14 +53,6 @@ scoreboard objectives add AuraRate dummy {"text":"オーラ延長割合"}
 scoreboard objectives add Interval dummy {"text":"スキル発動無効時間"}
 scoreboard objectives add IntervalRate dummy {"text":"スキル発動無効時間短縮割合"}
 scoreboard objectives add MPCostRate dummy {"text":"MP消費軽減割合"}
-scoreboard objectives add AddKnight dummy {"text": "追加レベル：剣士"}
-scoreboard objectives add AddNinja dummy {"text": "追加レベル：忍者"}
-scoreboard objectives add AddHunter dummy {"text": "追加レベル：狩人"}
-scoreboard objectives add AddWhiteMage dummy {"text": "追加レベル：白魔導士"}
-scoreboard objectives add AddBlackMage dummy {"text": "追加レベル：黒魔導士"}
-scoreboard objectives add AddSummoner dummy {"text": "追加レベル：召喚士"}
-scoreboard objectives add AddPuppetMaster dummy {"text": "追加レベル：絡繰士"}
-scoreboard objectives add AddThief dummy {"text": "追加レベル：怪盗"}
 scoreboard objectives add KnightLv dummy {"text": "剣士スキルレベル"}
 scoreboard objectives add NinjaLv dummy {"text": "忍者スキルレベル"}
 scoreboard objectives add HunterLv dummy {"text": "狩人スキルレベル"}

@@ -43,12 +43,3 @@ scoreboard players operation _ MPCostRate -= _ _
 scoreboard players set _ _ -1
 scoreboard players operation _ MPCostRate *= _ _
 scoreboard players operation _ Calc += _ MPCostRate
-
-scoreboard players operation _ Calc += @s AddKnight
-scoreboard players operation _ Calc += @s AddNinja
-scoreboard players operation _ Calc += @s AddHunter
-scoreboard players operation _ Calc += @s AddWhiteMage
-scoreboard players operation _ Calc += @s AddBlackMage
-scoreboard players operation _ Calc += @s AddSummoner
-scoreboard players operation _ Calc += @s AddPuppetMaster
-scoreboard players operation _ Calc += @s AddThief

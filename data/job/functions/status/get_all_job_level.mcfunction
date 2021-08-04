@@ -1,6 +1,9 @@
 
 ###全ての職業のレベルを取得する
 
+function job:status/call
+execute store result storage job: JobStatus[-9].Level int 1 run scoreboard players get @s Level
+
 execute store result score _ KnightLv run data get storage job: JobStatus[1].Level
 execute store result score _ NinjaLv run data get storage job: JobStatus[2].Level
 execute store result score _ HunterLv run data get storage job: JobStatus[3].Level

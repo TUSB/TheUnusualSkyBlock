@@ -22,6 +22,3 @@ data modify storage tusb_player: Potentials.Default.MPCostRate set value 100
 # IntervalRate: スキルインターバルの割合(%)
 # MPCostRate: MP消費の割合(%)
 #
-# Add(Job): 他の(Job)のレベルを上げた値
-# Add類は調整が大変なので初期値の変更はできない。
-#

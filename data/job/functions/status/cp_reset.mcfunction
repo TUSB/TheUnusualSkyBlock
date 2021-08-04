@@ -14,11 +14,3 @@ execute store result score @s AuraRate run data get storage tusb_player: Potenti
 execute store result score @s IntervalRate run data get storage tusb_player: Potentials.Default.IntervalRate 1
 execute store result score @s MPCostRate run data get storage tusb_player: Potentials.Default.MPCostRate 1
 
-scoreboard players set @s AddKnight 0
-scoreboard players set @s AddNinja 0
-scoreboard players set @s AddHunter 0
-scoreboard players set @s AddWhiteMage 0
-scoreboard players set @s AddBlackMage 0
-scoreboard players set @s AddSummoner 0
-scoreboard players set @s AddPuppetMaster 0
-scoreboard players set @s AddThief 0
