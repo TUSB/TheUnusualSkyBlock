@@ -12,5 +12,5 @@
           "biome": "minecraft:the_void"
       }
   },
-  "type": "area:overworld"
+  "type": "area:overworld_survival"
 }
