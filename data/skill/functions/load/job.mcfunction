@@ -1,6 +1,5 @@
 #スコアからスキルをロード
 #SkillID = 職業ID * 100 + 習得Lv
-scoreboard players operation _ _ = @s ChangeSkill
 #職業を選択
 execute if score _ _ matches 100..199 run data modify storage skill: Data.Job set from storage skill: Data.Knight
 execute if score _ _ matches 200..299 run data modify storage skill: Data.Job set from storage skill: Data.Ninja
@@ -15,6 +14,7 @@ execute if score _ _ matches 900..999 run data modify storage skill: Data.Job se
 scoreboard players set _ Calc 100
 scoreboard players operation _ _ %= _ Calc
 
+execute if score _ _ matches 0 run data modify storage skill: Skill set from storage skill: Data.Job[{AcquireLevel:{Min:0}}]
 execute if score _ _ matches 1 run data modify storage skill: Skill set from storage skill: Data.Job[{AcquireLevel:{Min:1}}]
 execute if score _ _ matches 3 run data modify storage skill: Skill set from storage skill: Data.Job[{AcquireLevel:{Min:3}}]
 execute if score _ _ matches 5 run data modify storage skill: Skill set from storage skill: Data.Job[{AcquireLevel:{Min:5}}]

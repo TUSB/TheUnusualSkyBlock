@@ -39,6 +39,7 @@ scoreboard objectives add VirusCount dummy {"text":"病気カウント"}
 ###計算、乱数
 scoreboard objectives add Calc dummy {"text": "計算用"}
 scoreboard objectives add Random dummy {"text": "乱数用"}
+scoreboard objectives add TitleOffset dummy {"text":"タイトル表示オフセット"}
 
 ###ジョブ系
 scoreboard objectives add Job dummy {"text": "現在のジョブ"}
@@ -52,14 +53,6 @@ scoreboard objectives add AuraRate dummy {"text":"オーラ延長割合"}
 scoreboard objectives add Interval dummy {"text":"スキル発動無効時間"}
 scoreboard objectives add IntervalRate dummy {"text":"スキル発動無効時間短縮割合"}
 scoreboard objectives add MPCostRate dummy {"text":"MP消費軽減割合"}
-scoreboard objectives add AddKnight dummy {"text": "追加レベル：剣士"}
-scoreboard objectives add AddNinja dummy {"text": "追加レベル：忍者"}
-scoreboard objectives add AddHunter dummy {"text": "追加レベル：狩人"}
-scoreboard objectives add AddWhiteMage dummy {"text": "追加レベル：白魔導士"}
-scoreboard objectives add AddBlackMage dummy {"text": "追加レベル：黒魔導士"}
-scoreboard objectives add AddSummoner dummy {"text": "追加レベル：召喚士"}
-scoreboard objectives add AddPuppetMaster dummy {"text": "追加レベル：絡繰士"}
-scoreboard objectives add AddThief dummy {"text": "追加レベル：怪盗"}
 scoreboard objectives add KnightLv dummy {"text": "剣士スキルレベル"}
 scoreboard objectives add NinjaLv dummy {"text": "忍者スキルレベル"}
 scoreboard objectives add HunterLv dummy {"text": "狩人スキルレベル"}
@@ -68,6 +61,20 @@ scoreboard objectives add BlackMageLv dummy {"text": "黒魔道士スキルレ�
 scoreboard objectives add SummonerLv dummy {"text": "召喚士スキルレベル"}
 scoreboard objectives add PuppetMasterLv dummy {"text": "絡繰士スキルレベル"}
 scoreboard objectives add ThiefLv dummy {"text": "怪盗スキルレベル"}
+
+###スキル
+#忍者
+scoreboard objectives add Choyaku dummy {"text":"跳躍跳躍力"}
+scoreboard objectives add Aisatsu dummy {"text":"アイサツ消費MP減少効果量"}
+scoreboard objectives add Katon dummy {"text":"火遁"}
+scoreboard objectives add Kazakiri dummy {"text":"風切"}
+scoreboard objectives add Mokuso dummy {"text":"黙想"}
+scoreboard objectives add Suiton dummy {"text":"水遁"}
+#召喚士
+scoreboard objectives add FillSize dummy {"text":"フィールサイズ"}
+#共通
+scoreboard objectives add SkyWalk dummy {"text":"スカイウォーク"}
+
 ###乱数初期化
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,WaitTime:1,ReapplicationDelay:0,Duration:0,Tags:[Initialized]}
 execute store result score $RndMWC Random run data get entity @e[distance=..1,type=minecraft:area_effect_cloud,limit=1] UUID[0] 0.01
@@ -103,9 +110,25 @@ scoreboard objectives add SneakFrequency dummy {"text":"スニーク頻度"}
 scoreboard objectives add PotentialTrigger trigger {"text":"潜在能力変更トリガー"}
 scoreboard objectives add PotentialPrev trigger {"text":"潜在能力変更前回トリガー"}
 scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken {"text":"受けたメージ量"}
+scoreboard objectives add Jump minecraft.custom:minecraft.jump {"text":"ジャンプ"}
 scoreboard objectives add Deaths minecraft.custom:minecraft.deaths {"text":"死亡"}
 scoreboard objectives add Hunger dummy {"text":"死亡時調整満腹度"}
 scoreboard objectives add Age minecraft.custom:minecraft.time_since_death {"text":"生きている時間"}
+
+###チーム作成
+team add Friendly {"text":"味方チーム"}
+team modify Friendly friendlyFire false
+team modify Friendly collisionRule never
+team modify Friendly color white
+team modify Friendly prefix {"text":"✦","color":"red"}
+team modify Friendly suffix {"text":"✦","color":"red"}
+###カラーチーム作成
+team add Red {"text":"赤色チーム"}
+team modify Red color red
+team add LightPurple {"text":"赤紫色チーム"}
+team modify LightPurple color light_purple
+team add Gold {"text":"黄色チーム"}
+team modify Gold color gold
 
 #スキルデータ
 function skill:data/

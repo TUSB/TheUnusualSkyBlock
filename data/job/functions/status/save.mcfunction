@@ -14,12 +14,3 @@ execute store result storage job: JobStatus[-9].CP.ResistMin int 1 run scoreboar
 execute store result storage job: JobStatus[-9].CP.AuraRate int 1 run scoreboard players get @s AuraRate
 execute store result storage job: JobStatus[-9].CP.IntervalRate int 1 run scoreboard players get @s IntervalRate
 execute store result storage job: JobStatus[-9].CP.MPCostRate int 1 run scoreboard players get @s MPCostRate
-data modify storage job: JobStatus[-9].CP.AddLevel set value [0,0,0,0,0,0,0,0,0]
-execute store result storage job: JobStatus[-9].CP.AddLevel[1] int 1 run scoreboard players get @s AddKnight
-execute store result storage job: JobStatus[-9].CP.AddLevel[2] int 1 run scoreboard players get @s AddNinja
-execute store result storage job: JobStatus[-9].CP.AddLevel[3] int 1 run scoreboard players get @s AddHunter
-execute store result storage job: JobStatus[-9].CP.AddLevel[4] int 1 run scoreboard players get @s AddWhiteMage
-execute store result storage job: JobStatus[-9].CP.AddLevel[5] int 1 run scoreboard players get @s AddBlackMage
-execute store result storage job: JobStatus[-9].CP.AddLevel[6] int 1 run scoreboard players get @s AddSummoner
-execute store result storage job: JobStatus[-9].CP.AddLevel[7] int 1 run scoreboard players get @s AddPuppetMaster
-execute store result storage job: JobStatus[-9].CP.AddLevel[8] int 1 run scoreboard players get @s AddThief

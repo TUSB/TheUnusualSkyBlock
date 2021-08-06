@@ -3,8 +3,6 @@ data modify storage skill: Skill set from storage item: Item.tag.Skill
 #スキルレベル取得
 execute store result score _ Level run data get storage skill: Skill.Level
 #execute if entity @s[tag=からくりオーラ] run scoreboard players add _ Level 1
-#MP取得
-execute store result score _ MP run data get storage skill: Skill.MP
 #インターバル取得
 execute store result score _ Interval run data get storage skill: Skill.Interval
 #職業とTUSBメモリー分岐

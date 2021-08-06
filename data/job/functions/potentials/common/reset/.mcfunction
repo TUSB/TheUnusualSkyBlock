@@ -3,9 +3,6 @@
 
 scoreboard players remove @s Level 1
 
-#他ジョブレベルダウンチェック(要確認)
-execute unless entity @s[scores={AddKnight=0,AddNinja=0,AddHunter=0,AddWhiteMage=0,AddBlackMage=0,AddSummoner=0,AddPuppetMaster=0,AddThief=0}] run function job:potentials/common/reset/add_level/remove
-
 #リセット
 function job:status/cp_reset
 

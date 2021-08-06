@@ -37,3 +37,13 @@ function makeup:job/level_up/text
 
 #体力・MP調整
 function effects:status/life_to_max
+
+#スキルレベル更新
+execute if score @s Job matches 1 run scoreboard players operation @s KnightLv = @s Level
+execute if score @s Job matches 2 run scoreboard players operation @s NinjaLv = @s Level
+execute if score @s Job matches 3 run scoreboard players operation @s HunterLv = @s Level
+execute if score @s Job matches 4 run scoreboard players operation @s WhiteMageLv = @s Level
+execute if score @s Job matches 5 run scoreboard players operation @s BlackMageLv = @s Level
+execute if score @s Job matches 6 run scoreboard players operation @s SummonerLv = @s Level
+execute if score @s Job matches 7 run scoreboard players operation @s PuppetMasterLv = @s Level
+execute if score @s Job matches 8 run scoreboard players operation @s ThiefLv = @s Level

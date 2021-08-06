@@ -40,6 +40,9 @@ clear @s player_head{display:{Name:'["召喚士"]'}}
 clear @s player_head{display:{Name:'["絡繰士"]'}}
 clear @s player_head{display:{Name:'["怪盗"]'}}
 
+#スキルレベル更新
+function job:status/get_all_job_level
+
 function job:status/operation_end
 
 #レベルアップ可能ならレベルアップする

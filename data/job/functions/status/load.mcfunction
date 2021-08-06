@@ -18,14 +18,6 @@ execute store result score @s ResistMin run data get storage job: JobStatus[-9].
 execute store result score @s AuraRate run data get storage job: JobStatus[-9].CP.AuraRate 1
 execute store result score @s ntervalRate run data get storage job: JobStatus[-9].CP.ntervalRate 1
 execute store result score @s MPCostRate run data get storage job: JobStatus[-9].CP.MPCostRate 1
-execute store result score @s AddKnight run data get storage job: JobStatus[-9].CP.AddLevel[1] 1
-execute store result score @s AddNinja run data get storage job: JobStatus[-9].CP.AddLevel[2] 1
-execute store result score @s AddHunter run data get storage job: JobStatus[-9].CP.AddLevel[3] 1
-execute store result score @s AddWhiteMage run data get storage job: JobStatus[-9].CP.AddLevel[4] 1
-execute store result score @s AddBlackMage run data get storage job: JobStatus[-9].CP.AddLevel[5] 1
-execute store result score @s AddSummoner run data get storage job: JobStatus[-9].CP.AddLevel[6] 1
-execute store result score @s AddPuppetMaster run data get storage job: JobStatus[-9].CP.AddLevel[7] 1
-execute store result score @s AddThief run data get storage job: JobStatus[-9].CP.AddLevel[8] 1
 
 # 必要経験値計算
 scoreboard players operation @s _ = @s Level

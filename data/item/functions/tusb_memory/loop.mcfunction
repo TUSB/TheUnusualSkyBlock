@@ -1,5 +1,6 @@
 #スキルをロード
 data modify storage skill: Skill set from storage item: Inventory[-1].tag.Skill
+execute store result score _ _ run data get storage skill: Skill.SkillID
 function skill:load/
 data modify storage skill: Skill.Type set value "TUSBMemory"
 data modify storage skill: Skill.Trigger set from storage item: Inventory[-1].tag.Skill.Trigger
@@ -10,11 +11,11 @@ data remove storage item: Inventory[-1].tag.display.Lore[-1]
 #説明
 data modify storage item: Inventory[-1].tag.display.Lore append from storage item: Inventory[-1].tag.Skill.Lore[]
 #発動条件
-data modify block 0 4 0 Text1 set value '[{"text":"","color":"white","italic":false},{"text":"K","font":"icon","color":"gold"},{"text":" 発動条件: "},{"storage":"skill:","nbt":"Skill.Trigger"}]}}]'
-data modify storage item: Inventory[-1].tag.display.Lore append from block 0 4 0 Text1
+execute in area:control_area run data modify block 2 3 2 Text1 set value '[{"text":"","color":"white","italic":false},{"text":"K","font":"icon","color":"gold"},{"translate":" 発動条件: "},{"storage":"skill:","nbt":"Skill.Trigger"}]}}]'
+execute in area:control_area run data modify storage item: Inventory[-1].tag.display.Lore append from block 2 3 2 Text1
 #残り使用回数
-data modify block 0 4 0 Text1 set value '[{"text":"","color":"white","italic":false},{"text":" 残り使用回数: "},{"storage":"skill:","nbt":"Skill.Count"}]}}]'
-data modify storage item: Inventory[-1].tag.display.Lore append from block 0 4 0 Text1
+execute in area:control_area run data modify block 2 3 2 Text1 set value '[{"text":"","color":"white","italic":false},{"translate":" 残り使用回数: "},{"storage":"skill:","nbt":"Skill.Count"}]}}]'
+execute in area:control_area run data modify storage item: Inventory[-1].tag.display.Lore append from block 2 3 2 Text1
 #シュルカーボックスにセット
 data modify storage item: Items set value []
 data modify storage item: Items append from storage item: Inventory[-1]

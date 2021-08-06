@@ -35,4 +35,7 @@ data modify storage job: JobStatus[8].Level set value 100
 scoreboard players set @s Job 0
 function job:status/load
 
+#スキルレベル更新
+function job:status/get_all_job_level
+
 function job:status/operation_end
