@@ -1,5 +1,5 @@
 {
-  "logical_height": 256,
+  "logical_height": 0,
   "infiniburn": "minecraft:infiniburn_end",
   "effects": "minecraft:the_end",
   "ambient_light": 0.0,
@@ -12,5 +12,7 @@
   "piglin_safe": true,
   "fixed_time": 6000,
   "has_skylight": false,
-  "has_ceiling": false
+  "has_ceiling": false,
+  "height": 256,
+  "min_y": 0
 }
