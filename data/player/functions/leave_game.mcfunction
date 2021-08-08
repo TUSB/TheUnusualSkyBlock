@@ -4,7 +4,7 @@ execute if entity @e[distance=..7,tag=EnchantTable] run schedule function item:e
 execute if entity @e[distance=..7,tag=Anvil] run schedule function item:lapidary/anvil/schedule 2t
 
 #凍結 schedule 再起動
-execute if entity @e[tag=Freeze,distance=..10] run schedule function effects:freeze/fix 1t
+execute if entity @s[tag=Freeze] run schedule function effects:freeze/fix 1t
 
 #プレイヤーゲーム設定
 function player:game_settings/show
