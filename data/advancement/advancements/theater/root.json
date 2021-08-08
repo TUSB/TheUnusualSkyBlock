@@ -14,7 +14,7 @@
             }
         ],
         "description": {
-          "translate": "あなたの物語"
+            "translate": "あなたの物語"
         },
         "frame": "task",
         "show_toast": true,

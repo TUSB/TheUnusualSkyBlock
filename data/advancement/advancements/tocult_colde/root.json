@@ -14,7 +14,7 @@
             }
         ],
         "description": {
-          "translate": "生物は停まり、全ては凍てつく"
+            "translate": "生物は停まり、全ては凍てつく"
         },
         "frame": "task",
         "show_toast": true,

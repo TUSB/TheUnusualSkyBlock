@@ -14,7 +14,7 @@
             }
         ],
         "description": {
-          "translate": "薄暗く湿った世界"
+            "translate": "薄暗く湿った世界"
         },
         "frame": "task",
         "show_toast": true,

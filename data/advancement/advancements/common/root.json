@@ -14,7 +14,7 @@
             }
         ],
         "description": {
-          "translate": "ようこそ、この世界へ！"
+            "translate": "ようこそ、この世界へ！"
         },
         "frame": "task",
         "show_toast": true,

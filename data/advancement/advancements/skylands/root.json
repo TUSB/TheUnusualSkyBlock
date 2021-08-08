@@ -14,7 +14,7 @@
             }
         ],
         "description": {
-          "translate": "空の世界へ旅立とう"
+            "translate": "空の世界へ旅立とう"
         },
         "frame": "task",
         "show_toast": true,

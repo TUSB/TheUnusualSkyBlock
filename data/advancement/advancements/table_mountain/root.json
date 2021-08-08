@@ -14,7 +14,7 @@
             }
         ],
         "description": {
-          "translate": "我、汝に試練を与えん"
+            "translate": "我、汝に試練を与えん"
         },
         "frame": "task",
         "show_toast": true,

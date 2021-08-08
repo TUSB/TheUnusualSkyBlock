@@ -14,7 +14,7 @@
             }
         ],
         "description": {
-          "translate": "終わりの始まり"
+            "translate": "終わりの始まり"
         },
         "frame": "task",
         "show_toast": true,

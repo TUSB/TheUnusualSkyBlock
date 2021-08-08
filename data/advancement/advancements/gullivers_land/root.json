@@ -14,7 +14,7 @@
             }
         ],
         "description": {
-          "translate": "ちっちゃくなっちゃった！？"
+            "translate": "ちっちゃくなっちゃった！？"
         },
         "frame": "task",
         "show_toast": true,

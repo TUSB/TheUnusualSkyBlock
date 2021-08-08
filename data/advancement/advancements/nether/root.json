@@ -14,7 +14,7 @@
             }
         ],
         "description": {
-          "translate": "灼熱の地獄には何があるのだろうか"
+            "translate": "灼熱の地獄には何があるのだろうか"
         },
         "frame": "task",
         "show_toast": true,
