@@ -10,7 +10,7 @@ execute if score _ Level matches 3 run effect give @e[distance=..15,team=Friendl
 function makeup:skill/act/summoner/ponpon/act0
 
 #TODO: replaceitem -> item
-replaceitem entity @e[distance=..15,team=Friendly,type=!minecraft:player] armor.feet minecraft:leather_boots{AttributeModifiers:[{AttributeName:"generic.follow_range",Amount:-1d,Operation:2,UUID:[I;24,0,11,11],Slot:feet}]}
+item replace entity @e[distance=..15,team=Friendly,type=!minecraft:player] armor.feet with minecraft:leather_boots{AttributeModifiers:[{AttributeName:"generic.follow_range",Amount:-1d,Operation:2,UUID:[I;24,0,11,11],Slot:feet}]}
 tag @e[distance=..15,team=Friendly,type=!minecraft:player] add Assault
 tag @e[distance=..15,team=Friendly,type=!minecraft:player] add DelayedTask
 
