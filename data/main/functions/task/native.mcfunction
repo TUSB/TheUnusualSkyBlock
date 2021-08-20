@@ -33,8 +33,7 @@
 ###介錯処理
 # execute if entity @s[tag=KaishakuExplosion] run function skill:act/ninja/kaishaku/tick
 ###ステークスファイア処理
-# execute if entity @s[tag=StakesSucceeded] run function skill:act/hunter/stakes_fire/success
-# execute if entity @s[tag=StakesFailed] run function skill:act/hunter/stakes_fire/failure
+execute if entity @s[tag=StakesFire] run function makeup:skill/act/hunter/stakes_fire/tick
 ###バードストライク処理
 # execute if entity @s[tag=BirdStrike] run function skill:act/hunter/bird_strike/tick
 ###ワイルドフレア継続処理
@@ -92,3 +91,6 @@ execute if entity @s[tag=Glider] run function skill:act/summoner/summon_glider/g
 # execute if entity @s[tag=WeakPaint] run function skill:act/common/weakness_paint/tick
 ###ライブラ
 # execute if entity @s[tag=Libra] run function skill:act/common/libra/tick
+
+###接地矢(など)Projectileタグ削除
+execute if entity @s[tag=FlyingRequired,nbt={inGround:true}] run function entity:in_ground

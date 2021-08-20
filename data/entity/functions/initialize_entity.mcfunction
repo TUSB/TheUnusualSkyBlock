@@ -12,6 +12,11 @@ execute if entity @s[tag=Mob] run function entity:enemy/spawn/apply_status/
 ### プレイヤー初期化
 execute if entity @s[type=player] run function player:initialized
 
+### 飛翔物属性付与
+tag @s[type=#entity:projectiles,tag=!Cargo] add TickingRequired
+tag @s[type=#entity:projectiles] add FlyingRequired
+data modify entity @s[tag=TickingRequired,nbt={PortalCooldown:0}] PortalCooldown set value 200
+
 ### スポナーカート属性
 execute if entity @s[type=minecraft:armor_stand,nbt={Passengers:[{id:"minecraft:spawner_minecart"}]}] if block ~ ~1 ~ minecraft:command_block run tag @s add SpawnerHolder
 tag @s[tag=SpawnerHolder] add Spawner
