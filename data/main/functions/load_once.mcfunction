@@ -35,6 +35,7 @@ scoreboard objectives add DoomCount dummy {"text":"死の宣告カウント"}
 scoreboard objectives add PalsyLevel dummy {"text":"麻痺レベル"}
 scoreboard objectives add TntCount dummy {"text":"トントカウント"}
 scoreboard objectives add VirusCount dummy {"text":"病気カウント"}
+scoreboard objectives add FreezeTimer dummy {"text":"凍結タイマー"}
 
 ###計算、乱数
 scoreboard objectives add Calc dummy {"text": "計算用"}
