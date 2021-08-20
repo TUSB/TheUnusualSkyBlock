@@ -5,8 +5,8 @@ scoreboard players operation _ Calc *= @s ElementFire
 scoreboard players operation _ Calc /= _ _
 scoreboard players operation @s Damage += _ Calc
 #氷
-scoreboard players operation _ Calc = _ ElementCold
-scoreboard players operation _ Calc *= @s ElementCold
+scoreboard players operation _ Calc = _ ElementIce
+scoreboard players operation _ Calc *= @s ElementIce
 scoreboard players operation _ Calc /= _ _
 scoreboard players operation @s Damage += _ Calc
 #雷

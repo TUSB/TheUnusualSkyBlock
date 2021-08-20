@@ -19,5 +19,3 @@ scoreboard players set _ _ 100
 scoreboard players operation _ Damage /= _ _
 scoreboard players operation _ Damage *= _ Calc
 scoreboard players operation _ Damage /= _ _
-#付与
-execute as @e[tag=Mob,nbt=!{HurtTime:0s}] run scoreboard players operation @s Damage += _ Damage

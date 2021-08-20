@@ -7,5 +7,5 @@ scoreboard players operation _ Calc *= _ _
 scoreboard players add _ Calc 100
 #補正ダメージ = ダメージ * ブースト%
 scoreboard players set _ _ 100
-scoreboard players operation _ ElementCold *= _ Calc
-scoreboard players operation _ ElementCold /= _ _
+scoreboard players operation _ ElementIce *= _ Calc
+scoreboard players operation _ ElementIce /= _ _
