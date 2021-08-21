@@ -72,7 +72,7 @@ execute if entity @s[tag=Holy] run function skill:act/white_mage/holy/tick
 ###ウィンドウォール竜巻処理
 # execute if entity @s[tag=WindWallTornado] run function skill:act/black_mage/wind_wall/tick_tornado
 ###金タライ処理
-# execute if entity @s[tag=KanaTarai] run function skill:act/summoner/kana_tarai/tick
+execute if entity @s[tag=KanaTarai] if entity @e[tag=Mob,dx=0] run function skill:act/summoner/kana_tarai/hit
 ###つんつんペット処理
 # execute if entity @s[tag=Sicced] run function skill:act/sicced/pets
 ###サモンＢ処理
