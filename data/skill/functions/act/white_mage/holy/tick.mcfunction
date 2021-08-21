@@ -3,7 +3,7 @@
 ##############################
 
 #ダメージをロード
-function skill:damage/load/
+function skill:damage/load
 #生物にダメージ付与
 execute as @e[tag=Mob,type=#entity:living,distance=..5] positioned as @s run function skill:act/white_mage/holy/hit
 #アンデッドはダメージ4倍

@@ -3,7 +3,7 @@
 ##############################
 
 #ダメージをロード
-function skill:damage/load/
+function skill:damage/load
 #ダメージ付与
 execute as @e[distance=..8,tag=Mob] run function skill:damage/apply/
 #演出

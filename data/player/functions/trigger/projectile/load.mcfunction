@@ -4,7 +4,7 @@ data modify storage item: SelectedItem set from storage oh_my_dat: _[-4][-4][-4]
 data modify storage item: Equipments set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Equipments
 
 #ダメージをロード
-function skill:damage/load/
+function skill:damage/load
 
 ### スキル
 execute if entity @s[tag=Skill] run function player:trigger/projectile/skill

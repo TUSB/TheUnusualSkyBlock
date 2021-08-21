@@ -4,7 +4,7 @@
 
 ### 直撃したモブには投射物と範囲で2倍のダメージ
 #ダメージをロード
-function skill:damage/load/
+function skill:damage/load
 #ダメージ付与
 execute as @e[distance=..2,tag=Mob] run function skill:damage/apply/
 #演出
