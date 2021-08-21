@@ -50,7 +50,7 @@ execute as @e[tag=Mob,scores={Damage=1..}] run function entity:enemy/update_heal
 execute as @e[tag=NativeTask] at @s run function main:task/native
 
 ###エンティティPortalCooldownチェック
-execute as @e[tag=CooldownRequired,nbt={PortalCooldown:0}] run function entity:cooldown
+execute as @e[tag=CooldownRequired,nbt={PortalCooldown:0}] at @s run function entity:cooldown
 
 ###エンティティAI分岐
 execute as @e[tag=HasAI] at @s run function entity:enemy/ai/tick
