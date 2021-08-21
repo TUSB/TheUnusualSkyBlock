@@ -4,3 +4,5 @@ execute if entity @s[tag=StakesSucceeded] run function makeup:skill/act/hunter/s
 execute if entity @s[tag=Shuriken] run function makeup:skill/act/ninja/shuriken/hit
 #召喚士
 execute if entity @s[tag=PomPom] run function skill:act/summoner/pompom/hit
+#白魔道士
+execute if entity @s[tag=Dia] run function makeup:skill/act/white_mage/dia/hit
