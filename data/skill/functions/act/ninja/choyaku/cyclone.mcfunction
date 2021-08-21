@@ -2,15 +2,13 @@
 ### 跳躍ダメージ
 ##############################
 
-#TODO: ダメージ処理
-### 10 35 100 250
-#execute if score @s Choyaku matches 1..4 run scoreboard players set $Damage Global 1000
-#execute if score @s Choyaku matches 5..14 run scoreboard players set $Damage Global 3500
-#execute if score @s Choyaku matches 15..24 run scoreboard players set $Damage Global 10000
-#execute if score @s Choyaku matches 25..35 run scoreboard players set $Damage Global 25000
-#function skill_manager:damage_modifier/apply
-
-#scoreboard players operation @e[distance=..9,tag=Mob] Damage > $Damage Global
-
+#ダメージ
+execute if score _ Level matches 1 run data modify storage skill: Damage set from storage skill: Data.Ninja[{Name:"跳躍",Level:1}].Damage
+execute if score _ Level matches 2 run data modify storage skill: Damage set from storage skill: Data.Ninja[{Name:"跳躍",Level:2}].Damage
+execute if score _ Level matches 3 run data modify storage skill: Damage set from storage skill: Data.Ninja[{Name:"跳躍",Level:3}].Damage
+execute if score _ Level matches 4 run data modify storage skill: Damage set from storage skill: Data.Ninja[{Name:"跳躍",Level:4}].Damage
+function skill:damage/add/skill/magic
+#ダメージ付与
+execute as @e[tag=Mob,distance=..9] run function skill:damage/apply/
 #演出
 function makeup:skill/act/ninja/choyaku/cyclone
