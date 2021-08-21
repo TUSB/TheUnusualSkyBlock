@@ -49,7 +49,7 @@ execute if entity @s[tag=Dia] run function makeup:skill/act/white_mage/dia/tick
 ###セイクリッドピラー処理
 # execute if entity @s[tag=SacredPillarBase] run function skill:act/white_mage/sacred_pillar/tick/common
 ###ホーリー処理
-# execute if entity @s[tag=Holy] run function skill:act/white_mage/holy/tick
+execute if entity @s[tag=Holy] run function skill:act/white_mage/holy/tick
 ###アイスジャベリン処理
 #execute if entity @s[tag=IceStorm] run function skill:act/black_mage/ice_storm/tick
 ###アイスジャベリン処理
