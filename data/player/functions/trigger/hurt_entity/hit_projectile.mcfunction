@@ -14,7 +14,7 @@ execute if data storage item: SelectedItem.tag.Enchantments[{id:"tusb:血吸"}] 
 #魔吸
 execute if data storage item: SelectedItem.tag.Enchantments[{id:"tusb:魔吸"}] run function skill:enchant/mana_leech
 
-##Mobダメージ反映
-execute as @e[tag=Mob,nbt=!{HurtTime:0s}] run function entity:enemy/update_health
+##HurtTimeリセット
+execute as @e[tag=Mob,nbt=!{HurtTime:0s}] run data modify entity @s HurtTime set value 0s
 #トリガーリセット
 advancement revoke @s only player:trigger/hurt_entity/hit_projectile

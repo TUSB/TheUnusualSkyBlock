@@ -42,12 +42,14 @@ scoreboard players remove @a Interval 1
 execute as @a[scores={Choyaku=0..},nbt={OnGround:false,FallDistance:0.0f}] at @s run function makeup:skill/act/ninja/choyaku/direction
 execute as @a[scores={Kazakiri=0..}] at @s run function skill:act/ninja/kazakiri/tick
 
-###Mobダメージ反映
-execute as @e[tag=Mob,nbt=!{HurtTime:0s}] run function entity:enemy/update_health
-execute as @e[tag=Mob,scores={Damage=1..}] run function entity:enemy/update_health
+###Mob自然ダメージ反映
+execute as @e[tag=Mob,nbt=!{AbsorptionAmount:1000000f}] run function entity:enemy/update_absorption_amount
 
 ###存在する限り毎tick処理呼び出し
 execute as @e[tag=NativeTask] at @s run function main:task/native
+
+###Mobダメージ反映
+execute as @e[tag=Mob,scores={Damage=1..}] run function entity:enemy/update_health
 
 ###エンティティPortalCooldownチェック
 execute as @e[tag=CooldownRequired,nbt={PortalCooldown:0}] at @s run function entity:cooldown

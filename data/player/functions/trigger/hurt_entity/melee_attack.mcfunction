@@ -22,8 +22,8 @@ execute if data storage item: SelectedItem.tag.Enchantments[{id:"tusb:魔吸"}] 
 execute if data storage item: SelectedItem.tag.Skill{Trigger:"近接攻撃する"} run data modify storage item: Item set from storage item: SelectedItem
 execute if data storage item: SelectedItem.tag.Skill{Trigger:"近接攻撃する"} run function skill:practice/
 
-#Mobダメージ反映
-execute as @e[tag=Mob,nbt=!{HurtTime:0s},distance=..7] run function entity:enemy/update_health
+##HurtTimeリセット
+execute as @e[tag=Mob,nbt=!{HurtTime:0s}] run data modify entity @s HurtTime set value 0s
 #トリガーリセット
 advancement revoke @s only player:trigger/hurt_entity/melee_attack
 
