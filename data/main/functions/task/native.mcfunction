@@ -92,3 +92,6 @@ execute if entity @s[tag=Glider] run function skill:act/summoner/summon_glider/g
 
 ###接地矢(など)Projectileタグ削除
 execute if entity @s[tag=FlyingRequired,nbt={inGround:true}] run function entity:in_ground
+
+###トラップ
+execute if entity @s[tag=DecelerateTrap] run function skill:act/hunter/decelerate_trap/tick
