@@ -95,4 +95,5 @@ execute if entity @s[tag=FlyingRequired,nbt={inGround:true}] run function entity
 
 ###トラップ
 execute if entity @s[tag=DecelerateTrap] run function skill:act/hunter/decelerate_trap/tick
+execute if entity @s[tag=ExpelTrap] run function skill:act/hunter/expel_trap/tick
 execute if entity @s[tag=KasapTrap] run function skill:act/hunter/kasap_trap/tick
