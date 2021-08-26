@@ -59,8 +59,7 @@ execute if entity @s[tag=Holy] run function skill:act/white_mage/holy/tick
 ###エクリプスフレイム処理
 #execute if entity @s[tag=CrossFire] run function skill:act/black_mage/cross_fire/tick
 ###エクリプスフレイム処理
-# execute if entity @s[tag=EclipseFlameCore] run function skill:act/black_mage/eclipse_flame/tick
-# execute if entity @s[tag=EclipseFlameParticle] run function skill:act/black_mage/eclipse_flame/direction
+execute if entity @s[tag=EclipseFlameCore] run function skill:act/black_mage/eclipse_flame/tick
 ###ワイルドカード処理
 # execute if entity @s[tag=WildCard] run function skill:act/black_mage/wild_card/cast/tick
 ###キャンドル処理

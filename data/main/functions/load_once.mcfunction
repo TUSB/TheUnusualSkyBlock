@@ -71,6 +71,8 @@ scoreboard objectives add Katon dummy {"text":"火遁"}
 scoreboard objectives add Kazakiri dummy {"text":"風切"}
 scoreboard objectives add Mokuso dummy {"text":"黙想"}
 scoreboard objectives add Suiton dummy {"text":"水遁"}
+#黒魔道士
+scoreboard objectives add EclipseRadius dummy {"text":"エクリプスフレイム半径"}
 #召喚士
 scoreboard objectives add FillSize dummy {"text":"フィールサイズ"}
 #共通
