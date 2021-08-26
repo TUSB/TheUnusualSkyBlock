@@ -12,7 +12,14 @@ function skill:damage/add/skill/magic
 #雪玉を召喚
 execute anchored eyes run summon snowball ^ ^ ^0.5 {Tags:[Skill,EclipseFlameBullet],NoGravity:1b,Item:{id:"minecraft:fire_charge",Count:1b},Passengers:[{id:"minecraft:area_effect_cloud",Duration:1200,Tags:[Skill,EclipseFlameCore,NativeTask]}]}
 execute as @e[tag=EclipseFlameBullet,tag=!Initialized,distance=..3] positioned 0.0 0.0 0.0 positioned ^ ^ ^1.55 run function calc:throw_projectile/
-#ダメージを保存
+#コアのダメージを保存
 execute as @e[tag=EclipseFlameCore,tag=!Initialized,distance=..3] run function skill:damage/save
+#投射物のダメージを保存 50倍=2.5s分
+scoreboard players set _ Calc 500
+function skill:damage/modify
+execute as @e[tag=EclipseFlameBullet,tag=!Initialized,distance=..3] run function skill:damage/save
+#投射物のOwnerを設定
+data modify entity @e[tag=EclipseFlameBullet,tag=!Initialized,distance=..3,limit=1] Owner set from entity @s UUID
+
 #演出
 function makeup:skill/act/black_mage/eclipse_flame/act0
