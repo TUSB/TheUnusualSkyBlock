@@ -12,7 +12,7 @@ execute anchored eyes run summon arrow ^ ^ ^0.5 {Tags:[Skill,PomPom,NativeTask,C
 execute as @e[tag=PomPom,tag=!Initialized,distance=..3] positioned 0.0 0.0 0.0 positioned ^ ^ ^2.5 run function calc:throw_projectile/
 
 #ダメージと装備を保存
-execute as @e[tag=PomPom,tag=!Initialized,distance=..3] run function player:trigger/projectile/save
+execute as @e[tag=PomPom,tag=!Initialized,distance=..3] run function skill:damage/save
 
 #Ownerを設定
 data modify entity @e[tag=PomPom,tag=!Initialized,distance=..3,limit=1] Owner set from entity @s UUID

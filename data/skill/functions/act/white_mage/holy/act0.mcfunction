@@ -10,7 +10,7 @@ function skill:damage/add/skill/magic
 execute anchored eyes run summon snowball ^ ^ ^0.5 {Tags:[Skill,Holy,NativeTask],NoGravity:1b}
 execute as @e[tag=Holy,tag=!Initialized,distance=..3] positioned 0.0 0.0 0.0 positioned ^ ^ ^1.55 run function calc:throw_projectile/
 #ダメージと装備を保存
-execute as @e[tag=Holy,tag=!Initialized,distance=..3] run function player:trigger/projectile/save
+execute as @e[tag=Holy,tag=!Initialized,distance=..3] run function skill:damage/save
 #Ownerを設定
 data modify entity @e[tag=Holy,tag=!Initialized,distance=..3,limit=1] Owner set from entity @s UUID
 #演出
