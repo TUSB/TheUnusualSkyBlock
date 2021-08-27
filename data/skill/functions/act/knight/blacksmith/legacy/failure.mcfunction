@@ -3,7 +3,7 @@
 ##############################
 
 ###ロスト処理
-replaceitem entity @s weapon.mainhand minecraft:air
+item replace entity @s weapon.mainhand with minecraft:air
 
 ###---演出---Start
 function makeup:skill/act/knight/blacksmith/legacy/failure
