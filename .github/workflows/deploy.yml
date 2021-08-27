@@ -48,10 +48,10 @@ jobs:
           echo "-----DEBUG-----"
           echo "$ADD_FIREWALL"
    
-      - name: Sleep for 60 seconds
+      - name: Sleep for 45 seconds
         uses: jakejarvis/wait-action@master
         with:
-          time: '60s'
+          time: '45s'
       - name: Deploy by rsync
         uses: trendyminds/github-actions-rsync@master
         with:
