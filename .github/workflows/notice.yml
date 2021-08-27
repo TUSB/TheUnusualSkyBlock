@@ -50,10 +50,10 @@ jobs:
       - name: Check outputs
         run: echo ${{ steps.vars.outputs.sha_short }}
 
-      - name: Sleep for 60 seconds
+      - name: Sleep for 45 seconds
         uses: jakejarvis/wait-action@master
         with:
-          time: '60s'
+          time: '45s'
 
       - name: Notice Bungeecord
         run: |
