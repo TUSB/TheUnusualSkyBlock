@@ -9,3 +9,10 @@ Minecraft 配布ワールド 「The Unusual SkyBlock」次期開発用データ�
 公式サイト: https://skyblock.jp/
 
 開発用Branch 1.17.1
+
+
+
+
+The Unusual SkyBlock
+Copyright (c) 2020 TUSB
+
