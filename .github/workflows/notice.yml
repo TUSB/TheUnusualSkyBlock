@@ -1,6 +1,5 @@
 name: Server Notice Action
 on: push
-  workflow_dispatch:
 jobs:
   deploy:
     name: notice mcrcon
