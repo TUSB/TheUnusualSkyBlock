@@ -12,7 +12,7 @@ execute as @a[scores={LeaveGame=1..}] at @s run function player:leave_game
 execute as @e[tag=DelayedTask] at @s run function main:task/delayed
 
 ###トリガー
-execute as @a[scores={UseSnowball=1..}] at @s run function player:trigger/use/snowball
+#execute as @a[scores={UseSnowball=1..}] at @s run function player:trigger/use/snowball
 execute as @a[scores={UseBow=1..}] at @s run function player:trigger/use/bow
 execute as @a[scores={UseCrossbow=1..}] at @s run function player:trigger/use/crossbow
 execute as @a[scores={UseTrident=1..}] at @s run function player:trigger/use/trident
