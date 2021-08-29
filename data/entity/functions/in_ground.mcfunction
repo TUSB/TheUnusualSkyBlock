@@ -29,5 +29,8 @@ execute if entity @s[tag=SacredPillar] run function skill_manager:white_mage/sac
 ###ぽむぽむ花火処理
 execute if entity @s[tag=PomPom] run function skill:act/summoner/pompom/block
 
+tag @s[tag=KillInGround] add Garbage
+execute if entity @s[tag=HasSkillSnowball] run kill @e[tag=SkillSnowball,distance=..0.5]
+
 tag @s[tag=BlastSpark] add NativeTask
 kill @s[type=minecraft:trident,tag=!BlastSpark]

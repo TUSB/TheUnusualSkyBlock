@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_projectile": true
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "player:trigger/hurt_entity/hit_skill_snowball"
+  }
+}
