@@ -21,6 +21,7 @@ scoreboard objectives add BaseTotal dummy {"text":"合計基礎ポイント"}
 scoreboard objectives add GrowTotal dummy {"text":"合計成長ポイント"}
 scoreboard objectives add Damage dummy {"text":"ダメージ"}
 scoreboard objectives add HealthHealing dummy {"text":"HP回復量"}
+scoreboard objectives add Age minecraft.custom:minecraft.time_since_death {"text":"生きている時間"}
 ###アイテム
 scoreboard objectives add EnchantLevel dummy {"text":"エンチャントレベル"}
 
@@ -36,6 +37,7 @@ scoreboard objectives add PalsyLevel dummy {"text":"麻痺レベル"}
 scoreboard objectives add TntCount dummy {"text":"トントカウント"}
 scoreboard objectives add VirusCount dummy {"text":"病気カウント"}
 scoreboard objectives add FreezeTimer dummy {"text":"凍結タイマー"}
+scoreboard objectives add GameTime dummy {"text":"ゲームタイム"}
 
 ###計算、乱数
 scoreboard objectives add Calc dummy {"text": "計算用"}
