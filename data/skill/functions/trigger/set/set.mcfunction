@@ -1,9 +1,15 @@
+#初回スキル付与時 固有のNameがあるか確認
+execute unless data storage item: Items[0].tag.Skill if data storage item: Items[0].tag.display.Name run data modify storage item: Items[0].tag.UniqueName set value 1b
 #以前のスキルLoreを削除
 execute if data storage item: Items[0].tag.Skill{Type:"Job"} run function skill:trigger/set/remove_lore
 #Loreセット
 #スキル名
 data modify block 2 3 2 Text1 set value '[{"text":"","color":"white","italic":false},{"storage":"skill:","nbt":"Skill.Icon","font":"icon","color":"green"},{"text":" "},{"storage":"skill:","nbt":"Skill.Skill"}]'
-data modify storage item: Items[0].tag.display.Lore append from block 2 3 2 Text1
+#固有のNameがなければスキル名をNameに入れる LoreCount-1
+execute unless data storage item: Items[0].tag.UniqueName run data modify storage item: Items[0].tag.display.Name set from block 2 3 2 Text1
+execute unless data storage item: Items[0].tag.UniqueName store result storage skill: Skill.LoreCount int 0.99999 run data get storage skill: Skill.LoreCount
+#固有のNameがあればスキル名をLoreに入れる
+execute if data storage item: Items[0].tag.UniqueName run data modify storage item: Items[0].tag.display.Lore append from block 2 3 2 Text1
 #説明
 data modify storage item: Items[0].tag.display.Lore append from storage skill: Skill.Lore[]
 #発動条件
