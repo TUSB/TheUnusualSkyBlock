@@ -40,8 +40,8 @@ execute if entity @s[tag=StakesFire] run function makeup:skill/act/hunter/stakes
 # execute if entity @s[tag=WildFlare] run function skill:act/hunter/wild_flare/tick
 ###フォトニックレーザー
 # execute if entity @s[tag=PhotonicLazer] run function skill:act/hunter/photonic_lazer/tick
-###ディア
-execute if entity @s[tag=Dia] run function makeup:skill/act/white_mage/dia/tick
+###シャイニングボルト
+execute if entity @s[tag=ShingingBolt] run function makeup:skill/act/white_mage/shining_bolt/tick
 ###フラワーギフト
 # execute if entity @s[tag=FlowerGift] run function skill:act/white_mage/flower_gift/tick
 ###レイズ処理

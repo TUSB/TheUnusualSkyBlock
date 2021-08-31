@@ -8,5 +8,5 @@ execute if data storage skill: Skill{Name:"リジェネレーション"} run fun
 execute if data storage skill: Skill{Name:"バオル"} run function skill:act/white_mage/buffall/act0
 execute if data storage skill: Skill{Name:"ハートブースト"} run function skill:act/white_mage/heart_boost/act0
 execute if data storage skill: Skill{Name:"キアリク"} run function skill:act/white_mage/clear/act0
-execute if data storage skill: Skill{Name:"ディア"} run function skill:act/white_mage/dia/act0
+execute if data storage skill: Skill{Name:"シャイニングボルト"} run function skill:act/white_mage/shining_bolt/act0
 execute if data storage skill: Skill{Name:"ケアル"} run function skill:act/white_mage/cure/act0
