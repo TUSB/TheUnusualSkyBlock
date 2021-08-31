@@ -167,15 +167,6 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:debug/stone/karma"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
           "name": "item:debug/stone/knockback"
         }
       ]
@@ -185,25 +176,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:debug/stone/life_leech"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
           "name": "item:debug/stone/life"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:debug/stone/mana_leech"
         }
       ]
     },
