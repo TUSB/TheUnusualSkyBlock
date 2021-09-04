@@ -9,7 +9,7 @@ execute as @a[scores={Hunger=0..,Age=1..}] at @s run function player:rise
 execute as @a[scores={LeaveGame=1..}] at @s run function player:leave_game
 
 ### 特殊床
-execute as @a[gamemode=!creative,gamemode=!spectator] at @s if block ~ ~-2 ~ #main:unique_floors run function entity:unique_floor/fork
+execute as @a[gamemode=!creative,gamemode=!spectator] unless score @s Kazakiri matches 1.. at @s if block ~ ~-2 ~ #main:unique_floors run function entity:unique_floor/fork
 
 ###１tick遅れ処理
 execute as @e[tag=DelayedTask] at @s run function main:task/delayed
