@@ -621,6 +621,48 @@
         },
         {
           "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/life_leech",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"血吸\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/mana_leech",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"魔吸\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/karma",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"因果\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
           "name": "settings:item/enchant/enchant/speed",
           "conditions": [
             {
