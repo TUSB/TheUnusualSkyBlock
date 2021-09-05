@@ -43,6 +43,7 @@ scoreboard objectives add GameTime dummy {"text":"ゲームタイム"}
 scoreboard objectives add Calc dummy {"text": "計算用"}
 scoreboard objectives add Random dummy {"text": "乱数用"}
 scoreboard objectives add TitleOffset dummy {"text":"タイトル表示オフセット"}
+scoreboard objectives add ArrowRotation dummy {"text":"矢の向き"}
 
 ###ジョブ系
 scoreboard objectives add Job dummy {"text": "現在のジョブ"}

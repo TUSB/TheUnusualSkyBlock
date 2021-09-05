@@ -89,6 +89,8 @@ execute if entity @s[tag=Glider] run function skill:act/summoner/summon_glider/g
 ###ライブラ
 # execute if entity @s[tag=Libra] run function skill:act/common/libra/tick
 
+###矢の反射削除処理
+execute if entity @s[type=arrow,tag=SkillProjectile2] run function entity:arrow_reflection
 ###接地矢(など)Projectileタグ削除
 execute if entity @s[tag=FlyingRequired,nbt={inGround:true}] run function entity:in_ground
 
