@@ -41,7 +41,7 @@ execute if entity @s[tag=StakesFire] run function makeup:skill/act/hunter/stakes
 ###フォトニックレーザー
 # execute if entity @s[tag=PhotonicLazer] run function skill:act/hunter/photonic_lazer/tick
 ###シャイニングボルト
-execute if entity @s[tag=ShingingBolt] run function makeup:skill/act/white_mage/shining_bolt/tick
+execute if entity @s[tag=ShiningBolt] run function makeup:skill/act/white_mage/shining_bolt/tick
 ###フラワーギフト
 # execute if entity @s[tag=FlowerGift] run function skill:act/white_mage/flower_gift/tick
 ###レイズ処理
