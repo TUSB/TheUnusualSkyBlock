@@ -22,7 +22,7 @@ scoreboard players operation @s MPHealingWait > _ _
 
 ### MP回復反映
 execute if entity @s[nbt={ActiveEffects:[{Id:17b}]}] run scoreboard players set @s MPConsumption 0
-scoreboard players operation @s MP -= @s MPConsumption
+execute if score @s MP < @s MPMax run scoreboard players operation @s MP -= @s MPConsumption
 scoreboard players reset @s MPConsumption
 
 ### MPバー反映
