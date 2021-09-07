@@ -14,7 +14,7 @@ execute if score _ MP matches 1.. run function player:mp_bar/set_loop
 experience add @s -40 levels
 
 scoreboard players operation _ MP = @s MP
-execute if score _ MP matches 1.. run function player:mp_bar/set_level_loop
+execute if score _ MP matches 1.. run function player:mp_bar/set_level
 
 #音消去
 stopsound @s player entity.player.levelup
