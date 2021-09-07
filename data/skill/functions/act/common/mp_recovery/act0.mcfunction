@@ -8,5 +8,6 @@ execute if score _ Level matches 4 run scoreboard players set _ _ 200
 
 scoreboard players operation @s MP += _ _
 scoreboard players operation @s MP < @s MPMax
+function player:mp_bar/set
 
 function makeup:skill/act/common/mp_recovery/act0

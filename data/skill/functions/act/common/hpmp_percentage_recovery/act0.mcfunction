@@ -23,5 +23,6 @@ scoreboard players operation @s _ *= _ MPMax
 scoreboard players operation @s _ /= _ _
 scoreboard players operation @s MP += @s _
 scoreboard players operation @s MP < @s MPMax
+function player:mp_bar/set
 
 function makeup:skill/act/common/hpmp_percentage_recovery/act0
