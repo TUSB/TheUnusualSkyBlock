@@ -25,8 +25,5 @@ execute if entity @s[nbt={ActiveEffects:[{Id:17b}]}] run scoreboard players set 
 scoreboard players operation @s MP -= @s MPConsumption
 scoreboard players reset @s MPConsumption
 
-### MP上限補正
-scoreboard players operation @s MP < @s MPMax
-
 ### MPバー反映
 function player:mp_bar/set
