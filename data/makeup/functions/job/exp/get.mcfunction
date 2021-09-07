@@ -18,4 +18,4 @@ tag @a[tag=NoExpBonus] remove NoExpBonus
 tag @a[tag=GetExpBonus] remove GetExpBonus
 
 #サウンド
-execute as @a[distance=..50] at @s run playsound minecraft:entity.player.levelup master @s ~ ~64 ~ 8 2
+execute as @a[distance=..50] at @s run playsound minecraft:tusb.levelup master @s ~ ~64 ~ 8 2
