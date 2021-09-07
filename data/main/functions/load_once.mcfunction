@@ -68,6 +68,9 @@ scoreboard objectives add PuppetMasterLv dummy {"text": "絡繰士スキルレ�
 scoreboard objectives add ThiefLv dummy {"text": "怪盗スキルレベル"}
 
 ###スキル
+scoreboard objectives add MPHealingWait dummy {"text":"MP回復ウェイト"}
+scoreboard objectives add MPAcceleration dummy {"text":"MP回復加速量"}
+scoreboard objectives add MPConsumption dummy {"text":"MP回復量"}
 #忍者
 scoreboard objectives add Choyaku dummy {"text":"跳躍跳躍力"}
 scoreboard objectives add Aisatsu dummy {"text":"アイサツ消費MP減少効果量"}

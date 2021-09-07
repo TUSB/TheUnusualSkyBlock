@@ -66,6 +66,9 @@ execute as @e[tag=Garbage] run function entity:garbage_collection
 ###エンティティAI分岐
 execute as @e[tag=Mob] run function entity:enemy/main
 
+### MP回復
+execute as @a run function skill:update_mp/
+
 ###カスタムHP回復
 execute as @a[scores={HealthHealing=-2147483648..}] run function player:health_healing
 
