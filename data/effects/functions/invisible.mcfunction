@@ -22,5 +22,10 @@ execute if entity @s[advancements={effects:invisible={anti_virus=true}}] if scor
 execute if entity @s[advancements={effects:invisible={anti_tnt=true}}] if score @s TntCount matches 0.. run function effects:tnt/cure
 execute if entity @s[advancements={effects:invisible={anti_pale=true}}] if score @s PaleLevel matches 0.. run function effects:pale/cure
 
+
+
+## Lv 100 温泉入浴
+execute if entity @s[advancements={effects:invisible={hot_spring=true}}] run function effects:hot_spring/apply
+
 effect clear @s minecraft:invisibility
 advancement revoke @s only effects:invisible
