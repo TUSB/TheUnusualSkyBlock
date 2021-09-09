@@ -1,3 +1,4 @@
+
 execute if score _ MP matches 2048.. run experience add @s 2048 levels
 execute if score _ MP matches 2048.. run scoreboard players remove _ MP 2048
 
@@ -21,9 +22,6 @@ execute if score _ MP matches 32.. run scoreboard players remove _ MP 32
 
 execute if score _ MP matches 16.. run experience add @s 16 levels
 execute if score _ MP matches 16.. run scoreboard players remove _ MP 16
-
-execute if score _ MP matches 8.. run experience add @s 8 levels
-execute if score _ MP matches 8.. run scoreboard players remove _ MP 8
 
 execute if score _ MP matches 8.. run experience add @s 8 levels
 execute if score _ MP matches 8.. run scoreboard players remove _ MP 8
