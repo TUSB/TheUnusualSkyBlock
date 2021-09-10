@@ -7,7 +7,7 @@
       "predicate": {
         "equipment": {
           "mainhand": {
-            "item": "minecraft:wooden_sword"
+            "items": ["minecraft:wooden_sword"]
           }
         }
       }
@@ -18,7 +18,7 @@
       "predicate": {
         "equipment": {
           "mainhand": {
-            "item": "minecraft:stone_sword"
+            "items": ["minecraft:stone_sword"]
           }
         }
       }
@@ -29,7 +29,7 @@
       "predicate": {
         "equipment": {
           "mainhand": {
-            "item": "minecraft:golden_sword"
+            "items": ["minecraft:golden_sword"]
           }
         }
       }
@@ -40,7 +40,7 @@
       "predicate": {
         "equipment": {
           "mainhand": {
-            "item": "minecraft:iron_sword"
+            "items": ["minecraft:iron_sword"]
           }
         }
       }
@@ -51,7 +51,7 @@
       "predicate": {
         "equipment": {
           "mainhand": {
-            "item": "minecraft:diamond_sword"
+            "items": ["minecraft:diamond_sword"]
           }
         }
       }
@@ -62,7 +62,7 @@
       "predicate": {
         "equipment": {
           "mainhand": {
-            "item": "minecraft:netherite_sword"
+            "items": ["minecraft:netherite_sword"]
           }
         }
       }
@@ -73,7 +73,7 @@
       "predicate": {
         "equipment": {
           "mainhand": {
-            "item": "minecraft:wooden_axe"
+            "items": ["minecraft:wooden_axe"]
           }
         }
       }
@@ -84,7 +84,7 @@
       "predicate": {
         "equipment": {
           "mainhand": {
-            "item": "minecraft:stone_axe"
+            "items": ["minecraft:stone_axe"]
           }
         }
       }
@@ -95,7 +95,7 @@
       "predicate": {
         "equipment": {
           "mainhand": {
-            "item": "minecraft:golden_axe"
+            "items": ["minecraft:golden_axe"]
           }
         }
       }
@@ -106,7 +106,7 @@
       "predicate": {
         "equipment": {
           "mainhand": {
-            "item": "minecraft:iron_axe"
+            "items": ["minecraft:iron_axe"]
           }
         }
       }
@@ -117,7 +117,7 @@
       "predicate": {
         "equipment": {
           "mainhand": {
-            "item": "minecraft:diamond_axe"
+            "items": ["minecraft:diamond_axe"]
           }
         }
       }
@@ -128,7 +128,7 @@
       "predicate": {
         "equipment": {
           "mainhand": {
-            "item": "minecraft:netherite_axe"
+            "items": ["minecraft:netherite_axe"]
           }
         }
       }
