@@ -22,6 +22,9 @@ execute if data storage item: SelectedItem.tag.Enchantments[{id:"tusb:魔吸"}] 
 execute if data storage item: SelectedItem.tag.Skill{Trigger:"近接攻撃する"} run data modify storage item: Item set from storage item: SelectedItem
 execute if data storage item: SelectedItem.tag.Skill{Trigger:"近接攻撃する"} run function skill:practice/
 
+#属性ダメージ演出
+execute at @e[tag=Mob,nbt=!{AbsorptionAmount:1000000f}] run function makeup:skill/enchant/elmental_damage/hit
+
 ##AbsorptionAmountリセット
 execute as @e[tag=Mob,nbt=!{AbsorptionAmount:1000000f}] run function entity:enemy/update_absorption_amount
 #トリガーリセット

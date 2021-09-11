@@ -4,6 +4,9 @@
 #剣能
 execute if data storage item: SelectedItem.tag.Enchantments[{id:"tusb:剣能"}] run function skill:enchant/sweeping/apply
 
+#属性ダメージ演出
+execute at @e[tag=Mob,nbt=!{AbsorptionAmount:1000000f}] run function makeup:skill/enchant/elmental_damage/hit
+
 ##AbsorptionAmountリセット
 execute as @e[tag=Mob,nbt=!{AbsorptionAmount:1000000f}] run function entity:enemy/update_absorption_amount
 #トリガーリセット
