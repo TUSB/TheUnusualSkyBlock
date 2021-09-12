@@ -46,19 +46,19 @@ execute as @a[scores={Choyaku=0..},nbt={OnGround:false,FallDistance:0.0f}] at @s
 execute as @a[scores={Kazakiri=0..}] at @s run function skill:act/ninja/kazakiri/tick
 
 ###Mob自然ダメージ反映
-execute as @e[tag=Mob,nbt=!{AbsorptionAmount:1000000f}] run function entity:enemy/update_absorption_amount
+execute as @e[tag=Mob,nbt=!{AbsorptionAmount:1000000f}] run function enemy:update_absorption_amount
 
 ###存在する限り毎tick処理呼び出し
 execute as @e[tag=NativeTask] at @s run function main:task/native
 
 ###Mobダメージ反映
-execute as @e[tag=Mob,scores={Damage=1..}] run function entity:enemy/update_health
+execute as @e[tag=Mob,scores={Damage=1..}] run function enemy:update_health
 
 ###エンティティPortalCooldownチェック
 execute as @e[tag=CooldownRequired,nbt={PortalCooldown:0}] at @s run function entity:cooldown
 
 ###エンティティAI分岐
-execute as @e[tag=HasAI] at @s run function entity:enemy/ai/tick
+execute as @e[tag=HasAI] at @s run function enemy:ai/tick
 
 ###エンティティ削除
 execute as @e[tag=Garbage] run function entity:garbage_collection

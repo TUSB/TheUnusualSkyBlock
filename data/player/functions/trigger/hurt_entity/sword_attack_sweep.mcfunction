@@ -8,6 +8,6 @@ execute if data storage item: SelectedItem.tag.Enchantments[{id:"tusb:剣能"}] 
 execute at @e[tag=Mob,nbt=!{AbsorptionAmount:1000000f}] run function makeup:skill/enchant/elmental_damage/hit
 
 ##AbsorptionAmountリセット
-execute as @e[tag=Mob,nbt=!{AbsorptionAmount:1000000f}] run function entity:enemy/update_absorption_amount
+execute as @e[tag=Mob,nbt=!{AbsorptionAmount:1000000f}] run function enemy:update_absorption_amount
 #トリガーリセット
 advancement revoke @s only player:trigger/hurt_entity/sword_attack_sweep
