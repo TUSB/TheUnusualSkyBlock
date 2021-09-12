@@ -63,9 +63,6 @@ execute as @e[tag=HasAI] at @s run function entity:enemy/ai/tick
 ###エンティティ削除
 execute as @e[tag=Garbage] run function entity:garbage_collection
 
-###エンティティAI分岐
-execute as @e[tag=Mob] run function entity:enemy/main
-
 ### MP回復
 execute as @a run function skill:update_mp/
 
