@@ -7,7 +7,7 @@
 execute if entity @s[tag=Spawn] run function enemy:spawn/
 
 ### モブステータス適用
-execute if entity @s[tag=Mob] run function enemy:spawn/apply_status/
+execute unless entity @s[tag=!Mob,tag=!HasAI] run function enemy:spawn/apply_status/
 
 ### プレイヤー初期化
 execute if entity @s[type=player] run function player:initialized

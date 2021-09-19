@@ -13,23 +13,9 @@ execute store result score @s Level run data get storage oh_my_dat: _[-4][-4][-4
 data modify storage tusb_mob: "遅延ステータス" set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList[-1]."遅延ステータス"
 data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList[-1]
 
-### 属性値
-execute store result score @s ElementFire run data get storage tusb_mob: "遅延ステータス"."炎属性値"
-execute store result score @s ElementIce run data get storage tusb_mob: "遅延ステータス"."氷属性値"
-execute store result score @s ElementLightning run data get storage tusb_mob: "遅延ステータス"."雷属性値"
-execute store result score @s ElementLight run data get storage tusb_mob: "遅延ステータス"."光属性値"
-execute store result score @s ElementDark run data get storage tusb_mob: "遅延ステータス"."闇属性値"
+### モブにステータスを計算して反映する
+execute if entity @s[tag=Mob] run function enemy:spawn/apply_status/calc
 
 ### AI
-data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from storage tusb_mob: "遅延ステータス".AI
-execute if data storage tusb_mob: "遅延ステータス".AI run tag @s add HasAI
-execute if data storage tusb_mob: "遅延ステータス".AI.Damage run tag @s add CallOnDamage
-execute if data storage tusb_mob: "遅延ステータス".AI.Death run tag @s add CallOnDeath
-execute if data storage tusb_mob: "遅延ステータス".AI.Time run tag @s add CallOnTimeOut
-
-### ステータスを計算して反映する
-function enemy:spawn/apply_status/calc
-
-### 共通NBT
-data modify entity @s AbsorptionAmount set value 1000000f
-data modify entity @s DeathTime set value 19s
+execute if entity @s[tag=HasAI] run function oh_my_dat:please
+execute if entity @s[tag=HasAI] run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from storage tusb_mob: "遅延ステータス".AI

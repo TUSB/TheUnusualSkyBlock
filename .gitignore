@@ -7,3 +7,9 @@
 .git/
 *.swp
 *.bak
+*.py
+*.exe
+*.spec
+__pycache__/*
+build/*
+dist/*

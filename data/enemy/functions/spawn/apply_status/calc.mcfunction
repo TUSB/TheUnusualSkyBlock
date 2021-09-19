@@ -2,6 +2,17 @@
 # モブの基本情報とレベルから、ステータスを計算する。
 ###########################################################################
 
+### 共通NBT
+data modify entity @s AbsorptionAmount set value 1000000f
+data modify entity @s DeathTime set value 19s
+
+### 属性値
+execute store result score @s ElementFire run data get storage tusb_mob: "遅延ステータス"."炎属性値"
+execute store result score @s ElementIce run data get storage tusb_mob: "遅延ステータス"."氷属性値"
+execute store result score @s ElementLightning run data get storage tusb_mob: "遅延ステータス"."雷属性値"
+execute store result score @s ElementLight run data get storage tusb_mob: "遅延ステータス"."光属性値"
+execute store result score @s ElementDark run data get storage tusb_mob: "遅延ステータス"."闇属性値"
+
 ### 成長ステータス
 
 ### 合計値の計算
