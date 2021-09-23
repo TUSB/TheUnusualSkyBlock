@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie",CustomName:'{"translate":"テストPonpon"}',Tags:[Mob,HasAI,"Mob"]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie",Tags:[Mob,HasAI],CustomName:'{"translate":"テストPonpon"}'}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {ArmorItems:[{},{},{},{id:"minecraft:ice",Count:1b,tag:{display:{Name:'{"translate":"頭冷えてるやつ","color":"aqua"}'}}}]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 32d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.35d
@@ -28,4 +28,4 @@ data modify storage tusb_mob: "遅延ステータス"."物理防御力"."成長�
 data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力"."成長ポイント" set value 2
 data modify storage tusb_mob: "遅延ステータス"."魔法防御力"."成長ポイント" set value 2
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Turn:[{Target:{Look:"player",Radius:10d,Block:false},Move:{Front:3d,Side:1.2d,Rotate:15}}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Turn:[{Target:{Look:"player",Radius:10d,Block:false},Move:{Front:3d,Side:1.2d,Rotate:{Horizontal:15d}}}]}

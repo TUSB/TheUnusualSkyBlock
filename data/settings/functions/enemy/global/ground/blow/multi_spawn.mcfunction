@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie",Tags:[Mob,HasAI],CustomName:'{"translate":"Turnが2つスキルが(2,3)つあるMob"}'}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:goat",Tags:[Mob,HasAI]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 32d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.35d
@@ -28,4 +28,4 @@ data modify storage tusb_mob: "遅延ステータス"."物理防御力"."成長�
 data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力"."成長ポイント" set value 2
 data modify storage tusb_mob: "遅延ステータス"."魔法防御力"."成長ポイント" set value 2
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Turn:[{Target:{Look:"player",Radius:5d,Block:false},Move:{Front:2d,Side:1d,Rotate:{Horizontal:10d}},Skill:[{Interval:{Min:30,Max:100,Current:60},Loop:{Max:1,Current:1},Call:[{Name:"A"}]},{Interval:{Min:70,Max:90,Current:80},Loop:{Max:2,Current:2},Call:[{Name:"B"}]}],Exit:{Time:1200}},{Target:{Look:"player",Radius:5d,Block:false},Move:{Front:2d,Side:1d,Rotate:{Horizontal:10d}},Skill:[{Interval:{Min:10,Max:80,Current:30},Loop:{Max:1,Current:1},Call:[{Name:"A"}]},{Interval:{Min:5,Max:30,Current:10},Loop:{Max:2,Current:2},Call:[{Name:"B"}]},{Interval:{Min:20,Max:20,Current:10},Loop:{Max:5,Current:5},Call:[{Name:"C"}]}],Exit:{Time:600}}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Turn:[{Skill:[{Interval:{Min:30,Max:100,Current:0},Loop:{Max:1},Call:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Ground,Blow,Sinensama],Level:10}]]}]},{Interval:{Min:30,Max:100,Current:0},Loop:{Max:1},Call:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Ground,Blow,HurtPotionSilverfish],Level:10}]]}]}]}]}

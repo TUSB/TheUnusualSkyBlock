@@ -28,4 +28,4 @@ data modify storage tusb_mob: "遅延ステータス"."物理防御力"."成長�
 data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力"."成長ポイント" set value 1
 data modify storage tusb_mob: "遅延ステータス"."魔法防御力"."成長ポイント" set value 2
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Death:{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Ground,Blow,Sinensama],Level:10}]]},Turn:[{}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Death:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Ground,Blow,Sinensama],Level:10}]]}],Turn:[{}]}
