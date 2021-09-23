@@ -1,6 +1,5 @@
 #Marker召喚
-execute unless entity 0-0-0-0-0 run summon marker 0.0 0.0 0.0 {UUID:[I;0,0,0,0]}
-tp 0-0-0-0-0 0.0 0.0 0.0
+execute positioned 0.0 0.0 0.0 run function calc:geometry/tp_00000
 #向きを設定
 execute store result score _ Calc run data get entity @s Rotation[0] 100
 execute store result score _ _ run data get storage mob_data: Call.Direction[0] 100
