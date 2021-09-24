@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:shulker_bullet",Tags:[Mob,HasAI],CustomName:'{"translate":"HPのあるテスト弾"}'}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:shulker_bullet",Tags:[Mob,HasAI],CustomName:'{"translate":"HPのあるテスト弾"}',NoGravity:true}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 1d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 1d
