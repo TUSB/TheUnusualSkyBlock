@@ -1,6 +1,7 @@
 execute if entity @s[tag=100TickDespawn] run function settings:enemy/global/ground/blow/100tick_despawn
 execute if entity @s[tag=MultiTurnAndSkill] run function settings:enemy/global/ground/blow/multi_turn_and_skill
 execute if entity @s[tag=Minecart] run function settings:enemy/global/ground/blow/minecart
+execute if entity @s[tag=Deidora] run function settings:enemy/global/ground/blow/deidora
 execute if entity @s[tag=GazingSheep] run function settings:enemy/global/ground/blow/gazing_sheep
 execute if entity @s[tag=Hopper] run function settings:enemy/global/ground/blow/hopper
 execute if entity @s[tag=CheckPassengerCart] run function settings:enemy/global/ground/blow/check_passenger_cart
