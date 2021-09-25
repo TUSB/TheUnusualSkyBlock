@@ -1,6 +1,7 @@
 #Marker召喚
 execute positioned 0.0 0.0 0.0 run function calc:geometry/tp_00000
 #向きを設定
+execute if data storage mob_data: Call.DirectionRange run function skill:enemy/step/range
 execute store result score _ Calc run data get entity @s Rotation[0] 100
 execute store result score _ _ run data get storage mob_data: Call.Direction[0] 100
 execute store result entity 0-0-0-0-0 Rotation[0] float 0.01 run scoreboard players operation _ Calc += _ _
