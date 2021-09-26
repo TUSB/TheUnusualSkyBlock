@@ -1,5 +1,7 @@
 #Marker召喚
-execute positioned 0.0 0.0 0.0 run function calc:geometry/tp_00000
+execute in area:control_area positioned 0.0 0.0 0.0 run function calc:geometry/tp_00000
+#ターゲット
+execute if data storage mob_data: Call.Target run function skill:enemy/step/target
 #向きを設定
 execute if data storage mob_data: Call.DirectionRange run function skill:enemy/step/range
 #水平
