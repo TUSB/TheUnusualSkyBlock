@@ -1,6 +1,5 @@
-##############################
+
 ### アイアンウィル発動
-##############################
 
 execute if score _ Level matches 1 run scoreboard players set @s IronWill 100
 execute if score _ Level matches 2 run scoreboard players set @s IronWill 400

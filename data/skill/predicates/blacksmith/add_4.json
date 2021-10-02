@@ -1,32 +1,27 @@
 {
-  "condition": "alternative",
-  "terms": [
-    {
-      "condition": "entity_properties",
-      "entity": "this",
-      "predicate": {
-        "equipment": {
-          "offhand": {
-            "items": [
-              "minecraft:wooden_sword",
-              "minecraft:wooden_shovel",
-              "minecraft:wooden_pickaxe",
-              "minecraft:wooden_axe",
-              "minecraft:wooden_hoe",
-              "minecraft:leather_helmet",
-              "minecraft:leather_chestplate",
-              "minecraft:leather_leggings",
-              "minecraft:leather_boots",
-              "minecraft:fishing_rod",
-              "minecraft:carrot_on_a_stick",
-              "warped_fungus_on_a_stick",
-              "minecraft:shield",
-              "minecraft:bow",
-              "minecraft:crossbow"
-            ]
-          }
-        }
+  "condition": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "items": [
+          "minecraft:wooden_sword",
+          "minecraft:wooden_shovel",
+          "minecraft:wooden_pickaxe",
+          "minecraft:wooden_axe",
+          "minecraft:wooden_hoe",
+          "minecraft:leather_helmet",
+          "minecraft:leather_chestplate",
+          "minecraft:leather_leggings",
+          "minecraft:leather_boots",
+          "minecraft:fishing_rod",
+          "minecraft:carrot_on_a_stick",
+          "warped_fungus_on_a_stick",
+          "minecraft:shield",
+          "minecraft:bow",
+          "minecraft:crossbow"
+        ]
       }
     }
-  ]
+  }
 }
