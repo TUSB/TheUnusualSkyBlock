@@ -3,9 +3,9 @@
 # カスタムモブを召喚する
 ###################################################
 
-### Pos取得
+### PosとRotation取得
 data modify storage tusb_mob: Pos set from entity @s Pos
-
+data modify storage tusb_mob: Rotation set from entity @s Rotation
 ### 例えば、村人が複数のタグを持っていたら？
 ### タグで判定するとしても、リストで保持しておいて、タグに移してから反映とかの方がいいかも
 data modify storage tusb_mob: MobLayers set from entity @s HandItems[0].tag.SpawnEntities
