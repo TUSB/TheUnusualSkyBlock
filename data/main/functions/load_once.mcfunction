@@ -71,6 +71,13 @@ scoreboard objectives add ThiefLv dummy {"text": "怪盗スキルレベル"}
 scoreboard objectives add MPHealingWait dummy {"text":"MP回復ウェイト"}
 scoreboard objectives add MPAcceleration dummy {"text":"MP回復加速量"}
 scoreboard objectives add MPConsumption dummy {"text":"MP回復量"}
+#剣士
+scoreboard objectives add FalconSlashTimer dummy {"text":"はやぶさ斬り遅延タイマー"}
+scoreboard objectives add IronWill dummy {"text":"アイアンウィル残りtick数"}
+scoreboard objectives add RagingDamage dummy {"text":"猛火斬ダメージ"}
+scoreboard objectives add DivineShield dummy {"text":"ディバインシールドダメージ量"}
+scoreboard objectives add OdinSlash dummy {"text":"斬鉄剣発動タイミング調整"}
+scoreboard objectives add TacticalHeal dummy {"text":"タクティカルヒール持続確率"}
 #忍者
 scoreboard objectives add Choyaku dummy {"text":"跳躍跳躍力"}
 scoreboard objectives add Aisatsu dummy {"text":"アイサツ消費MP減少効果量"}
@@ -123,7 +130,6 @@ scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken {"
 scoreboard objectives add Jump minecraft.custom:minecraft.jump {"text":"ジャンプ"}
 scoreboard objectives add Deaths minecraft.custom:minecraft.deaths {"text":"死亡"}
 scoreboard objectives add Hunger dummy {"text":"死亡時調整満腹度"}
-scoreboard objectives add Age minecraft.custom:minecraft.time_since_death {"text":"生きている時間"}
 
 ###チーム作成
 team add Friendly {"text":"味方チーム"}

@@ -6,7 +6,7 @@
 # tag @s[tag=DelayedMotion] remove DelayedMotion
 
 ###デコイ
-# execute as @s[tag=AvoidFalling2] run function skill:act/knight/decoy/avoid_falling
+execute as @s[tag=AvoidFalling2] run function skill:act/knight/decoy/avoid_falling
 
 ###ロックンロール判定適用処理
 # execute as @s[tag=GeoCrash2] run function skill:act/black_mage/geo_crash/occur
@@ -30,14 +30,14 @@ execute if entity @s[tag=Assault] run function skill:act/summoner/ponpon/assault
 
 ### 2tick遅らせ処理
 ## デコイ
-# execute store success score $Success Count run tag @s remove AvoidFalling
-# execute if score $Success Count matches 1.. run tag @s add AvoidFalling2
+execute store success score _ _ run tag @s remove AvoidFalling
+execute if score _ _ matches 1.. run tag @s add AvoidFalling2
 ## ダークスワンプ
-# execute store success score $Success Count run tag @s remove DarkSwampLevitation
-# execute if score $Success Count matches 1.. run tag @s add DarkSwampLevitation2
+# execute store success score _ _ run tag @s remove DarkSwampLevitation
+# execute if score _ _ matches 1.. run tag @s add DarkSwampLevitation2
 ## ロックンロール
-# execute store success score $Success Count run tag @s remove GeoCrash
-# execute if score $Success Count matches 1.. run tag @s add GeoCrash2
+# execute store success score _ _ run tag @s remove GeoCrash
+# execute if score _ _ matches 1.. run tag @s add GeoCrash2
 ###共通タグ削除
 
 tag @s[tag=!AvoidFalling2,tag=!DarkSwampLevitation2,tag=!GeoCrash2] remove DelayedTask

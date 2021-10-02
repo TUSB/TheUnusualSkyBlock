@@ -41,6 +41,9 @@ execute if score $Second Count matches 20.. run function main:one_second
 
 ### スキル
 scoreboard players remove @a Interval 1
+#剣士
+execute as @a[scores={IronWill=1..}] at @s run function skill:act/knight/iron_will/count
+execute as @a[tag=IronWill] run function skill:act/knight/iron_will/load
 #忍者
 execute as @a[scores={Choyaku=0..},nbt={OnGround:false,FallDistance:0.0f}] at @s run function makeup:skill/act/ninja/choyaku/direction
 execute as @a[scores={Kazakiri=0..}] at @s run function skill:act/ninja/kazakiri/tick

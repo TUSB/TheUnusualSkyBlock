@@ -1,0 +1,41 @@
+{
+  "condition": "alternative",
+  "terms": [
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "equipment": {
+          "offhand": {
+            "items": [
+              "minecraft:iron_sword",
+              "minecraft:iron_shovel",
+              "minecraft:iron_pickaxe",
+              "minecraft:iron_axe",
+              "minecraft:iron_hoe",
+              "minecraft:iron_helmet",
+              "minecraft:iron_chestplate",
+              "minecraft:iron_leggings",
+              "minecraft:iron_boots",
+              "minecraft:chainmail_helmet",
+              "minecraft:chainmail_chestplate",
+              "minecraft:chainmail_leggings",
+              "minecraft:chainmail_boots",
+              "minecraft:shears",
+              "minecraft:flint_and_steel",
+              "minecraft:golden_sword",
+              "minecraft:golden_shovel",
+              "minecraft:golden_pickaxe",
+              "minecraft:golden_axe",
+              "minecraft:golden_hoe",
+              "minecraft:golden_helmet",
+              "minecraft:golden_chestplate",
+              "minecraft:golden_leggings",
+              "minecraft:golden_boots"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

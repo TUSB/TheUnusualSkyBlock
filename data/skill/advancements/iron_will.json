@@ -1,0 +1,30 @@
+{
+  "criteria": {
+      "damage_taken": {
+          "trigger": "minecraft:entity_hurt_player",
+          "conditions": {
+              "damage": {
+                  "type": {
+                      "is_fire": false,
+                      "is_magic": false
+                  }
+              },
+              "player": [
+                {
+                  "condition": "entity_scores",
+                  "entity": "this",
+                  "scores": {
+                    "IronWill": {
+                      "min": 1,
+                      "max": 2147483647
+                    }
+                  } 
+                }
+              ]
+          }
+      }
+  },
+  "rewards": {
+      "function": "skill:act/knight/iron_will/trigger"
+  }
+}
