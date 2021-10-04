@@ -1,3 +1,5 @@
+execute if data storage skill: Skill{Name:"冷やしパンプキンスープ"} run function skill:act/common/cold_pumpkin_soup/act0
+execute if data storage skill: Skill{Name:"コーンスープ"} run function skill:act/common/corn_soup/act0
 execute if data storage skill: Skill{Name:"フォトン・レイ"} run function skill:act/common/photon_ray/act0
 execute if data storage skill: Skill{Name:"アイスストーム"} run function skill:act/common/ice_storm/act0
 execute if data storage skill: Skill{Name:"ドニ"} run function skill:act/common/doni/act0
