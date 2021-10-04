@@ -1,4 +1,6 @@
 ##Target処理
+#Target有無フラグをリセット
+scoreboard players set 0-0-0-0-2 _ 0
 #Radiusを倍で取得
 execute store result score _ Calc run data get storage mob_data: Target.Radius 2
 
