@@ -21,13 +21,14 @@
 # execute if entity @s[tag=Pikmin] run function pikmin_manager:throw/tick
 
 ###真空斬り
-# execute if entity @s[tag=AerialSlash,scores={DecrementTimer=..0}] run function skill:act/knight/aerial_slash/re_aim
+# execute as @e[tag=AerialSlash] at @s run function skill:act/knight/aerial_slash/re_aim
+# execute if entity @s[tag=AerialSlash] run function makeup:skill/act/knight/aerial_slash/fly
 ###地烈斬
 # execute if entity @s[tag=CrackSlash] run function skill:act/knight/crack_slash/tick
 ###斬鉄剣
-# execute if entity @s[tag=OdinSlash1] run function skill:act/knight/odin_slash/tick1
-# execute if entity @s[tag=OdinSlash2] run function skill:act/knight/odin_slash/tick2
-# execute if entity @s[tag=OdinSlash3] run function skill:act/knight/odin_slash/tick3
+execute if entity @s[tag=OdinSlash1] run function skill:act/knight/odin_slash/tick1
+execute if entity @s[tag=OdinSlash2] run function skill:act/knight/odin_slash/tick2
+execute if entity @s[tag=OdinSlash3] run function skill:act/knight/odin_slash/tick3
 ###手裏剣
 # execute if entity @s[tag=Shuriken] run function skill:act/ninja/shuriken/tick
 ###介錯処理

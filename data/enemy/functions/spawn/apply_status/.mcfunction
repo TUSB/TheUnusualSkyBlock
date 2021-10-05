@@ -19,3 +19,6 @@ execute if entity @s[tag=Mob] run function enemy:spawn/apply_status/calc
 ### AI
 execute if entity @s[tag=HasAI] run function oh_my_dat:please
 execute if entity @s[tag=HasAI] run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from storage tusb_mob: "遅延ステータス".AI
+
+### 共通データ
+scoreboard players set @s TemporaryEffects 0

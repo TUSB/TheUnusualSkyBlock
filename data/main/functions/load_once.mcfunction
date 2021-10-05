@@ -22,6 +22,8 @@ scoreboard objectives add GrowTotal dummy {"text":"合計成長ポイント"}
 scoreboard objectives add Damage dummy {"text":"ダメージ"}
 scoreboard objectives add HealthHealing dummy {"text":"HP回復量"}
 scoreboard objectives add Age minecraft.custom:minecraft.time_since_death {"text":"生きている時間"}
+scoreboard objectives add TemporaryEffects dummy {"text":"一時的ステータス変化Flags"}
+
 ###アイテム
 scoreboard objectives add EnchantLevel dummy {"text":"エンチャントレベル"}
 

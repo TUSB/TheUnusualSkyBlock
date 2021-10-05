@@ -44,6 +44,7 @@ scoreboard players remove @a Interval 1
 #剣士
 execute as @a[scores={IronWill=1..}] at @s run function skill:act/knight/iron_will/count
 execute as @a[tag=IronWill] run function skill:act/knight/iron_will/load
+execute as @a[scores={OdinSlash=0..}] at @s run function skill:act/knight/odin_slash/tick
 #忍者
 execute as @a[scores={Choyaku=0..},nbt={OnGround:false,FallDistance:0.0f}] at @s run function makeup:skill/act/ninja/choyaku/direction
 execute as @a[scores={Kazakiri=0..}] at @s run function skill:act/ninja/kazakiri/tick
@@ -53,6 +54,8 @@ execute as @e[tag=Mob,nbt=!{AbsorptionAmount:1000000f}] run function enemy:updat
 
 ###存在する限り毎tick処理呼び出し
 execute as @e[tag=NativeTask] at @s run function main:task/native
+###一時的毎tick処理呼び出し
+execute as @e[tag=Mob] unless score @s TemporaryEffects matches 0 at @s run function main:task/temporary
 
 ###Mobダメージ反映
 execute as @e[tag=Mob,scores={Damage=1..}] run function enemy:update_health
