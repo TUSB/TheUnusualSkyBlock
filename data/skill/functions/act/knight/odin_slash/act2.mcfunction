@@ -10,12 +10,7 @@ scoreboard players operation _ Level = @e[tag=!Initialized,tag=OdinSlash0,sort=n
 # 装備
 data modify storage item: Equipments set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Equipments
 # 各種ダメージ
-scoreboard players operation _ Damage = @e[tag=!Initialized,tag=OdinSlash0,sort=nearest,limit=1] Damage
-scoreboard players operation _ ElementFire = @e[tag=!Initialized,tag=OdinSlash0,sort=nearest,limit=1] ElementFire
-scoreboard players operation _ ElementIce = @e[tag=!Initialized,tag=OdinSlash0,sort=nearest,limit=1] ElementIce
-scoreboard players operation _ ElementLightning = @e[tag=!Initialized,tag=OdinSlash0,sort=nearest,limit=1] ElementLightning
-scoreboard players operation _ ElementLight = @e[tag=!Initialized,tag=OdinSlash0,sort=nearest,limit=1] ElementLight
-scoreboard players operation _ ElementDark = @e[tag=!Initialized,tag=OdinSlash0,sort=nearest,limit=1] ElementDark
+execute as @e[tag=!Initialized,tag=OdinSlash0,sort=nearest,limit=1] run function skill:damage/load
 
 # スキルダメージ
 execute if score _ Level matches 1 run data modify storage skill: Damage set from storage skill: Data.Knight[{Name:"斬鉄剣",Level:1}].Damage

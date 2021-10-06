@@ -1,0 +1,41 @@
+
+### ディバインシールドダメージ取得
+
+execute if entity @s[advancements={player:trigger/use/shield={4_damage_taken=true}}] run scoreboard players set _ _ 2
+execute if entity @s[advancements={player:trigger/use/shield={8_damage_taken=true}}] run scoreboard players set _ _ 4
+execute if entity @s[advancements={player:trigger/use/shield={12_damage_taken=true}}] run scoreboard players set _ _ 6
+execute if entity @s[advancements={player:trigger/use/shield={16_damage_taken=true}}] run scoreboard players set _ _ 8
+execute if entity @s[advancements={player:trigger/use/shield={20_damage_taken=true}}] run scoreboard players set _ _ 10
+execute if entity @s[advancements={player:trigger/use/shield={24_damage_taken=true}}] run scoreboard players set _ _ 12
+execute if entity @s[advancements={player:trigger/use/shield={28_damage_taken=true}}] run scoreboard players set _ _ 14
+execute if entity @s[advancements={player:trigger/use/shield={32_damage_taken=true}}] run scoreboard players set _ _ 16
+execute if entity @s[advancements={player:trigger/use/shield={36_damage_taken=true}}] run scoreboard players set _ _ 18
+execute if entity @s[advancements={player:trigger/use/shield={40_damage_taken=true}}] run scoreboard players set _ _ 20
+execute if entity @s[advancements={player:trigger/use/shield={44_damage_taken=true}}] run scoreboard players set _ _ 22
+execute if entity @s[advancements={player:trigger/use/shield={48_damage_taken=true}}] run scoreboard players set _ _ 24
+execute if entity @s[advancements={player:trigger/use/shield={52_damage_taken=true}}] run scoreboard players set _ _ 26
+execute if entity @s[advancements={player:trigger/use/shield={56_damage_taken=true}}] run scoreboard players set _ _ 28
+execute if entity @s[advancements={player:trigger/use/shield={60_damage_taken=true}}] run scoreboard players set _ _ 30
+execute if entity @s[advancements={player:trigger/use/shield={64_damage_taken=true}}] run scoreboard players set _ _ 32
+execute if entity @s[advancements={player:trigger/use/shield={68_damage_taken=true}}] run scoreboard players set _ _ 34
+execute if entity @s[advancements={player:trigger/use/shield={72_damage_taken=true}}] run scoreboard players set _ _ 36
+execute if entity @s[advancements={player:trigger/use/shield={76_damage_taken=true}}] run scoreboard players set _ _ 38
+execute if entity @s[advancements={player:trigger/use/shield={80_damage_taken=true}}] run scoreboard players set _ _ 40
+execute if entity @s[advancements={player:trigger/use/shield={84_damage_taken=true}}] run scoreboard players set _ _ 42
+execute if entity @s[advancements={player:trigger/use/shield={88_damage_taken=true}}] run scoreboard players set _ _ 44
+execute if entity @s[advancements={player:trigger/use/shield={92_damage_taken=true}}] run scoreboard players set _ _ 46
+execute if entity @s[advancements={player:trigger/use/shield={96_damage_taken=true}}] run scoreboard players set _ _ 48
+execute if entity @s[advancements={player:trigger/use/shield={100_damage_taken=true}}] run scoreboard players set _ _ 50
+execute if entity @s[advancements={player:trigger/use/shield={104_damage_taken=true}}] run scoreboard players set _ _ 52
+execute if entity @s[advancements={player:trigger/use/shield={108_damage_taken=true}}] run scoreboard players set _ _ 54
+execute if entity @s[advancements={player:trigger/use/shield={112_damage_taken=true}}] run scoreboard players set _ _ 56
+execute if entity @s[advancements={player:trigger/use/shield={116_damage_taken=true}}] run scoreboard players set _ _ 58
+execute if entity @s[advancements={player:trigger/use/shield={120_damage_taken=true}}] run scoreboard players set _ _ 60
+execute if entity @s[advancements={player:trigger/use/shield={124_damage_taken=true}}] run scoreboard players set _ _ 62
+execute if entity @s[advancements={player:trigger/use/shield={128_damage_taken=true}}] run scoreboard players set _ _ 64
+execute if entity @s[advancements={player:trigger/use/shield={132_damage_taken=true}}] run scoreboard players set _ _ 66
+execute if entity @s[advancements={player:trigger/use/shield={136_damage_taken=true}}] run scoreboard players set _ _ 68
+execute if entity @s[advancements={player:trigger/use/shield={140_damage_taken=true}}] run scoreboard players set _ _ 70
+execute if entity @s[advancements={player:trigger/use/shield={144_damage_taken=true}}] run scoreboard players set _ _ 72
+execute if entity @s[advancements={player:trigger/use/shield={148_damage_taken=true}}] run scoreboard players set _ _ 74
+execute if entity @s[advancements={player:trigger/use/shield={150_damage_taken=true}}] run scoreboard players set _ _ 75

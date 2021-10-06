@@ -77,7 +77,6 @@ scoreboard objectives add MPConsumption dummy {"text":"MP回復量"}
 scoreboard objectives add FalconSlashTimer dummy {"text":"はやぶさ斬り遅延タイマー"}
 scoreboard objectives add IronWill dummy {"text":"アイアンウィル残りtick数"}
 scoreboard objectives add RagingDamage dummy {"text":"猛火斬ダメージ"}
-scoreboard objectives add DivineShield dummy {"text":"ディバインシールドダメージ量"}
 scoreboard objectives add OdinSlash dummy {"text":"斬鉄剣発動タイミング調整"}
 scoreboard objectives add TacticalHeal dummy {"text":"タクティカルヒール持続確率"}
 #忍者
