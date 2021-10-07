@@ -13,5 +13,5 @@ execute if score _ Calc matches 6 run data modify storage mob_data: Call set fro
 execute if score _ Calc matches 7 run data modify storage mob_data: Call set from storage mob_data: CallList[7]
 execute if score _ Calc matches 8 run data modify storage mob_data: Call set from storage mob_data: CallList[8]
 execute if score _ Calc matches 9 run data modify storage mob_data: Call set from storage mob_data: CallList[9]
-
-function enemy:ai/call/call
+execute unless data storage mob_data: Call.Condition run function enemy:ai/call/call
+execute if data storage mob_data: Call.Condition run function enemy:ai/call/condition/
