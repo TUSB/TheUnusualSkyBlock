@@ -13,7 +13,10 @@ function skill:damage/add/skill/magic
 function skill:act/knight/divine_shield/get_damage
 scoreboard players operation _ Damage *= _ _
 scoreboard players operation _ ElementLight *= _ _
+scoreboard players set _ _ 10
+scoreboard players operation _ Damage /= _ _
+scoreboard players operation _ ElementLight /= _ _
 
 execute anchored eyes positioned ^ ^ ^5 as @e[distance=..5,tag=Mob] run function skill:damage/apply/
-
+execute anchored eyes positioned ^ ^ ^5 as @e[distance=..5,tag=Mob] run tellraw @a {"score":{"name":"@s","objective":"Damage"}}
 function makeup:skill/act/knight/divine_shield/act
