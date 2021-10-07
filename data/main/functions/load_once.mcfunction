@@ -73,6 +73,7 @@ scoreboard objectives add ThiefLv dummy {"text": "怪盗スキルレベル"}
 scoreboard objectives add MPHealingWait dummy {"text":"MP回復ウェイト"}
 scoreboard objectives add MPAcceleration dummy {"text":"MP回復加速量"}
 scoreboard objectives add MPConsumption dummy {"text":"MP回復量"}
+scoreboard objectives add TrackingID dummy {"text":"追尾スキル同期ID"}
 #剣士
 scoreboard objectives add FalconSlashTimer dummy {"text":"はやぶさ斬り遅延タイマー"}
 scoreboard objectives add IronWill dummy {"text":"アイアンウィル残りtick数"}

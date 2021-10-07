@@ -21,8 +21,8 @@
 # execute if entity @s[tag=Pikmin] run function pikmin_manager:throw/tick
 
 ###真空斬り
-# execute as @e[tag=AerialSlash] at @s run function skill:act/knight/aerial_slash/re_aim
-# execute if entity @s[tag=AerialSlash] run function makeup:skill/act/knight/aerial_slash/fly
+execute if entity @s[tag=AerialSlash] run function skill:act/knight/aerial_slash/re_aim_check
+execute if entity @s[tag=AerialSlash] run function makeup:skill/act/knight/aerial_slash/fly
 ###地烈斬
 # execute if entity @s[tag=CrackSlash] run function skill:act/knight/crack_slash/tick
 ###斬鉄剣

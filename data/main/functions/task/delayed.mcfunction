@@ -19,9 +19,6 @@ execute as @s[tag=AvoidFalling2] run function skill:act/knight/decoy/avoid_falli
 # execute if score @s PillarDamage matches 0.. run function skill:act/white_mage/sacred_pillar/act2
 # scoreboard players reset @s[scores={PillarDamage=0..}] PillarDamage
 
-###真空切りモーション増加処理
-# execute if entity @s[tag=Accelerate] run function skill:act/knight/aerial_slash/accelerate
-
 ###ぽんぽん突撃
 execute if entity @s[tag=Assault] run function skill:act/summoner/ponpon/assault
 

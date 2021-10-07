@@ -15,6 +15,9 @@ execute if score @s SneakTrigger matches 200 if entity @s[tag=!SuppressSettings]
 #スニーク解除   スニークし終わったときに実行したい処理はこの下に追加
 execute if score @s SneakTime matches ..2 run scoreboard players reset @s SneakTrigger
 
+# スニーク解除時スキル
+execute if score @s SneakTime matches 2 if data entity @s SelectedItem.tag{Skill:{Trigger:"剣を持った状態でスニーク解除"}} if entity @s[predicate=skill:trigger/weapon] run function skill:trigger/after_sneak_skill
+
 ##スニーク状態取得
 scoreboard players set _ _ 2
 scoreboard players operation @s SneakTime *= _ _
