@@ -28,4 +28,4 @@ data modify storage tusb_mob: "遅延ステータス"."物理防御力"."成長�
 data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力"."成長ポイント" set value 1
 data modify storage tusb_mob: "遅延ステータス"."魔法防御力"."成長ポイント" set value 1
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Turn:[{Target:{Look:"player",Radius:32d,Block:true},Move:{Front:0.08d,Side:0d},Rotate:[15f,0f],Exit:{Half:"front",Time:200}},{Target:{Look:"player",Radius:32d,Block:true},Move:{Front:0.08d,Side:0d},Rotate:[0f,15f],Exit:{Half:"up",Time:120}},{Target:{Look:"player",Radius:32d,Block:true},Move:{Front:0.08d,Side:0d},Rotate:[0f,15f],Exit:{Half:"down",Time:120}}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Turn:[{Target:{Look:"player",Radius:32d,IgnoreBlocks:1b},Move:{Front:0.08d},Rotate:[15f,0f],Exit:{Half:"front",Time:200}},{Target:{Look:"player",Radius:32d,IgnoreBlocks:1b},Move:{Front:0.08d},Rotate:[0f,15f],Exit:{Half:"up",Time:120}},{Target:{Look:"player",Radius:32d,IgnoreBlocks:1b},Move:{Front:0.08d},Rotate:[0f,15f],Exit:{Half:"down",Time:120}}]}

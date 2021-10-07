@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:shulker_bullet",Tags:[Mob,HasAI],CustomName:'{"translate":"HPのあるテスト弾"}',NoGravity:true}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:shulker_bullet",Tags:[Mob,HasAI,CooldownRequired,CallOnTime],CustomName:'{"translate":"追尾爆裂弾"}',NoGravity:true,PortalCooldown:240}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 1d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 1d
@@ -28,4 +28,4 @@ data modify storage tusb_mob: "遅延ステータス"."物理防御力"."成長�
 data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力"."成長ポイント" set value 1
 data modify storage tusb_mob: "遅延ステータス"."魔法防御力"."成長ポイント" set value 1
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Turn:[{Target:{Look:"player",Radius:32d},Skill:[{Call:[{Name:"Step",Direction:[0f,0f],Speed:2.0d}],Once:{Max:1}}]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Time:[{Name:"Kill"}],Turn:[{Target:{Look:"player",Radius:8d},Move:{Front:0.25d},Rotate:[15f,0f]}]}

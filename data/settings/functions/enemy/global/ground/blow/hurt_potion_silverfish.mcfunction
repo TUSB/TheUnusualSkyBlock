@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:silverfish",Tags:[Mob],Passengers:[{id:"minecraft:potion",PortalCooldown:1000000,Item:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:harming"}}}]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:silverfish",Tags:[Mob,HasAI],Passengers:[{id:"minecraft:potion",PortalCooldown:1000000,Item:{id:"minecraft:splash_potion",Count:1b,tag:{Potion:"minecraft:harming"}}}]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 48d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.2d
