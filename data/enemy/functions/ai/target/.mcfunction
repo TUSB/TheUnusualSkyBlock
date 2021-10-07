@@ -1,6 +1,8 @@
 ##Target処理
+### ai/tickではas 0-0-0-0-2 それ以外では0-0-0-0-Xで実行
+
 #Target有無フラグをリセット
-scoreboard players set 0-0-0-0-2 _ 0
+scoreboard players set @s _ 0
 #Radiusを倍で取得
 execute store result score _ Calc run data get storage mob_data: Target.Radius 2
 
