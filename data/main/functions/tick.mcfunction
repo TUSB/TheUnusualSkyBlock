@@ -8,8 +8,10 @@ execute as @a[scores={Hunger=0..,Age=1..}] at @s run function player:rise
 ###ログイン時処理
 execute as @a[scores={LeaveGame=1..}] at @s run function player:leave_game
 
+###めり込み処理
+execute as @a[scores={Age=1..},gamemode=!spectator,gamemode=!creative] at @s anchored eyes if block ^ ^ ^ #entity:unbreakable run function entity:suffocation
 ### 特殊床
-execute as @a[gamemode=!creative,gamemode=!spectator] unless score @s Kazakiri matches 1.. at @s if block ~ ~-2 ~ #main:unique_floors run function entity:unique_floor/fork
+execute as @a[gamemode=!creative,gamemode=!spectator] unless score @s Kazakiri matches 1.. at @s if block ~ ~-2 ~ #entity:unique_floors run function entity:unique_floor/fork
 
 ###１tick遅れ処理
 execute as @e[tag=DelayedTask] at @s run function main:task/delayed
