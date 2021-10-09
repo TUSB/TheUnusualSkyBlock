@@ -12,7 +12,7 @@ data modify storage tusb_mob: MobLayers set from entity @s ArmorItems[0].tag.Spa
 ### スポナートロッコ召喚
 summon spawner_minecart ~ ~500 ~ {Tags:[OneTimeSpawner],SpawnCount:1s,SpawnRange:6s,Delay:0s,MaxNearbyEntities:106s,RequiredPlayerRange:1000s,MinSpawnDelay:200s,MaxSpawnDelay:800s,SpawnData:{id:"minecraft:experience_orb",Age:6000s,Passengers:[{id:"minecraft:experience_orb"}]},SpawnPotentials:[{Weight:1,Entity:{id:"tusb_mob:empty"}}]}
 ### ステータス適用
-execute positioned ~ ~500 ~ as @e[type=spawner_minecart,limit=1,distance=..0.01] run function enemy:spawn/set_spawner/
+execute positioned ~ ~500 ~ as @e[type=spawner_minecart,limit=1,distance=..0.01] positioned ~ ~-500 ~ run function enemy:spawn/set_spawner/
 ### Count設定
 execute if data entity @s ArmorItems[0].tag.Count positioned ~ ~500 ~ run data modify entity @e[type=spawner_minecart,limit=1,distance=..0.01] SpawnCount set from entity @s ArmorItems[0].tag.Count
 
