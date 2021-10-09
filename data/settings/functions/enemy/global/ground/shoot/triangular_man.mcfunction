@@ -1,6 +1,6 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:shulker_bullet",Tags:[Mob,HasAI],CustomName:'{"translate":"HPのあるテスト弾"}',NoGravity:true}
-data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:skeleton",Tags:[Mob,HasAI],CustomName:'{"translate":"三角様","color":"#FFFFFF"}',ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:0b}]}
+data modify storage tusb_mob: "即時ステータス"."見た目" set value {ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f],HandDropChances:[-1E40f,-1E40f],HandItems:[{id:"minecraft:bow",Count:1b,tag:{display:{Name:"\"チェイサーの弓\""},Unbreakable:true,Enchantments:[{lvl:0s,id:"minecraft:power"}],RepairCost:-99999999}}],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:8388736,Name:"\"チェイサーの靴\""},Unbreakable:true,Enchantments:[{lvl:0s,id:"minecraft:protection"}],RepairCost:-99999999}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:8388736,Name:"\"チェイサーのズボン\""},Unbreakable:true,Enchantments:[{lvl:0s,id:"minecraft:protection"}],RepairCost:-99999999}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:8388736,Name:"\"チェイサーの服\""},Unbreakable:true,Enchantments:[{lvl:0s,id:"minecraft:protection"}],RepairCost:-99999999}},{id:"minecraft:dragon_egg",Count:1b,tag:{Unbreakable:true,Enchantments:[{lvl:0s,id:"minecraft:protection"}],RepairCost:-99999999}}]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 1d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 1d
 data modify storage tusb_mob: "即時ステータス"."ノックバック耐性" set value 1d
@@ -28,4 +28,4 @@ data modify storage tusb_mob: "遅延ステータス"."物理防御力"."成長�
 data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力"."成長ポイント" set value 1
 data modify storage tusb_mob: "遅延ステータス"."魔法防御力"."成長ポイント" set value 1
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Turn:[{Target:{Look:"player",Radius:32d},Skill:[{Call:[{Name:"Step",Direction:[0f,0f],Speed:2.0d}],Once:{Max:1}}]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Turn:[{},{},{},{}]}

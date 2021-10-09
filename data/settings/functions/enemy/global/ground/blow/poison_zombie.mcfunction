@@ -21,11 +21,11 @@ data modify storage tusb_mob: "遅延ステータス"."物理防御力"."基礎�
 data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力"."基礎ポイント" set value 3
 data modify storage tusb_mob: "遅延ステータス"."魔法防御力"."基礎ポイント" set value 5
 # 成長ポイント
-data modify storage tusb_mob: "遅延ステータス"."最大HP"."成長ポイント" set value 3
-data modify storage tusb_mob: "遅延ステータス"."最大MP"."成長ポイント" set value 1
-data modify storage tusb_mob: "遅延ステータス"."物理攻撃力"."成長ポイント" set value 2
-data modify storage tusb_mob: "遅延ステータス"."物理防御力"."成長ポイント" set value 1
-data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力"."成長ポイント" set value 1
-data modify storage tusb_mob: "遅延ステータス"."魔法防御力"."成長ポイント" set value 2
+data modify storage tusb_mob: "遅延ステータス"."最大HP"."成長ポイント" set value 80
+data modify storage tusb_mob: "遅延ステータス"."最大MP"."成長ポイント" set value 40
+data modify storage tusb_mob: "遅延ステータス"."物理攻撃力"."成長ポイント" set value 100
+data modify storage tusb_mob: "遅延ステータス"."物理防御力"."成長ポイント" set value 55
+data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力"."成長ポイント" set value 33
+data modify storage tusb_mob: "遅延ステータス"."魔法防御力"."成長ポイント" set value 22
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Ground,Blow,PoisonPotion],Level:10}]]}]}
