@@ -123,6 +123,8 @@ scoreboard objectives add UseCarrotStick minecraft.used:minecraft.carrot_on_a_st
 scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game {"text":"ログインフラグ"}
 scoreboard objectives add ChangeSettings trigger {"text":"設定変更"}
 scoreboard objectives add ChangeSkill trigger {"text":"スキル変更"}
+scoreboard objectives add TipsSuppressFlag dummy {"text":"TIPS抑制フラグ"}
+scoreboard objectives add TipsSupTrigger trigger {"text":"TIPS抑制トリガー"}
 scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time {"text":"スニーク時間"}
 scoreboard objectives add SneakTrigger dummy {"text":"スニーク累積時間"}
 scoreboard objectives add SneakFrequency dummy {"text":"スニーク頻度"}
@@ -150,3 +152,6 @@ team modify Gold color gold
 
 #スキルデータ
 function skill:data/
+
+#TIPSデータ
+function settings:player/tips

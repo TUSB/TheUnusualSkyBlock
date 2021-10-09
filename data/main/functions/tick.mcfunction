@@ -81,6 +81,8 @@ execute as @a[scores={HealthHealing=-2147483648..}] run function player:health_h
 execute as @a unless score @s ChangeSettings matches 0 run function player:game_settings/triggered
 ###プレイヤースキル設定
 execute as @a unless score @s ChangeSkill matches 0 at @s run function skill:trigger/
+###TIPS抑制
+execute as @a unless score @s TipsSupTrigger matches 0 run function player:tips/suppress
 ###潜在能力
 execute as @a unless score @s PotentialTrigger matches 0 at @s run function job:potentials/triggered
 

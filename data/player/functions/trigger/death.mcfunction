@@ -10,3 +10,6 @@ execute if block ~ ~-2 ~ minecraft:nether_wart_block if entity @s[nbt={OnGround:
 ## 死亡トリガーリセット
 execute store result score @s Hunger run data get entity @s foodLevel
 scoreboard players reset @s Deaths
+
+# TIPS表示
+function player:tips/show
