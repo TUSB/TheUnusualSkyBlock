@@ -113,6 +113,9 @@ function settings:effects/too_bad_effects
 execute in area:control_area run forceload add 0 0
 execute in area:control_area run setblock 2 2 2 shulker_box
 execute in area:control_area run setblock 2 3 2 oak_sign
+execute in area:control_area positioned 5 5 5 run function calc:geometry/tp_00000
+execute in area:control_area positioned 5 5 5 run function calc:geometry/tp_00001
+execute in area:control_area positioned 5 5 5 run function calc:geometry/tp_00002
 
 ###トリガー
 scoreboard objectives add UseSnowball minecraft.used:minecraft.snowball {"text": "雪玉使用"}
