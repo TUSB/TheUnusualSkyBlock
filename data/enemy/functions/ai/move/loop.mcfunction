@@ -1,3 +1,3 @@
-execute if score _ _ matches 1.. run scoreboard players remove _ _ 1
-execute if score _ _ matches 0 run function calc:geometry/tp_00000
-execute if score _ _ matches 1.. positioned ^ ^ ^0.01 run function enemy:ai/move/loop
+execute store result storage mob_data: Loop int 0.99999 run data get storage mob_data: Loop
+execute if data storage mob_data: {Loop:0} run function calc:geometry/tp_00000
+execute unless data storage mob_data: {Loop:0} positioned ^ ^ ^0.01 run function enemy:ai/move/loop
