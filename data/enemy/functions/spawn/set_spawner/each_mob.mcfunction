@@ -14,10 +14,8 @@ execute if entity @s[tag=SpawnParticles] run function makeup:enemy/spawn
 # tusb_mob: SpawnDataを初期化する
 data modify storage tusb_mob: SpawnData set value {Attributes:[{Name:"minecraft:generic.movement_speed"},{Name:"minecraft:generic.knockback_resistance"},{Name:"minecraft:generic.attack_knockback"}],Passengers:[]}
 
-# UUID[1]と[2]を-1して保存
-execute store result storage tusb_mob: UUID[1] int 0.99999 run data get storage tusb_mob: UUID[1]
-execute store result storage tusb_mob: UUID[2] int 0.99999 run data get storage tusb_mob: UUID[2]
-data modify storage tusb_mob: SpawnData.UUID set from storage tusb_mob: UUID
+# OhMyDatIDを保存
+execute store result storage tusb_mob: SpawnData.TicksFrozen int 1 run scoreboard players get @s OhMyDatID
 
 # 即時ステータスを反映させる
 data modify storage tusb_mob: SpawnData merge from storage tusb_mob: "即時ステータス"."ベース"
