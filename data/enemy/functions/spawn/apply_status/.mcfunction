@@ -4,6 +4,7 @@
 
 ### スポナーカートのOhMyDatIDを取得
 execute store result score _ OhMyDatID run data get entity @s TicksFrozen
+data remove entity @s TicksFrozen
 
 ### OhMyDatIDをIDを使って呼び出す
 function oh_its_dat:please
