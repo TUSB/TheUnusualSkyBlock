@@ -5,7 +5,9 @@
 # スポナーカートでOhMyDatIDを取得
 function oh_my_dat:please
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList set value []
-
+# 保存用UUIDを生成
+data modify storage tusb_mob: UUID set from entity @s UUID
+execute store result storage tusb_mob: UUID[0] int 1 run scoreboard players get @s OhMyDatID
 # それぞれのモブの情報を読み取る
 data remove storage tusb_mob: Passengers
 data remove storage tusb_mob: PrevPassengers

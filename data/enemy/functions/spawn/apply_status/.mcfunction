@@ -3,7 +3,7 @@
 ###################################################
 
 ### スポナーカートのOhMyDatIDを取得
-execute store result score _ OhMyDatID run data get entity @s Attributes[{Name:"minecraft:generic.movement_speed"}].Modifiers[0].UUID[0]
+execute store result score _ OhMyDatID run data get entity @s UUID[0]
 
 ### OhMyDatIDをIDを使って呼び出す
 function oh_its_dat:please

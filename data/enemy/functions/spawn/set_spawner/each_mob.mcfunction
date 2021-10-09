@@ -11,14 +11,13 @@ function settings:enemy/
 #召喚時演出
 execute if entity @s[tag=SpawnParticles] run function makeup:enemy/spawn
 
-#summon minecraft:armor_stand ~ ~-1.4999 ~ {CustomName:'{"text":"システムアマスタ"}',NoGravity:true,Small:true,Invulnerable:true,Invisible:true,Marker:true,Passengers:[{id:"minecraft:spawner_minecart",CustomName:'{"text":"擬態スポナー"}',Invulnerable:1b,CustomDisplayTile:1b,DisplayOffset:12,DisplayState:{Name:"minecraft:chorus_plant",Properties:{up:"true"}},SpawnCount:1s,SpawnRange:5s,MaxNearbyEntities:6s,Delay:-1s,MinSpawnDelay:90s,MaxSpawnDelay:250s,RequiredPlayerRange:20s,SpawnPotentials:[{Weight:1,Entity:{id:"minecraft:villager",Tags:[Spawn],Attributes:[{Name:"minecraft:generic.movement_speed",Modifiers:[{Amount:0d,Operation:0,UUID:[I;50,0,0,0]}]}],DeathTime:19s,NoAI:true,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:9999,ShowParticles:false}],Inventory:[{id:"minecraft:stick",Count:1b,tag:{SpawnEntities:[[{Tags:[Pig],Level:10}],[{Tags:[Sheep],Level:1},{Tags:[Sheep1],Level:2},{Tags:[Sheep2],Level:3}],[{Tags:[Cow],Level:20}]]}}]}}]}]}
-
-#summon villager ~ ~ ~ {Tags:[Spawn],Attributes:[{Name:"minecraft:generic.movement_speed",Modifiers:[{Amount:0d,Operation:0,UUID:[I;50,0,0,0]}]}],DeathTime:19s,NoAI:true,Silent:true,Invulnerable:true,AbsorptionAmount:99f,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:9999,ShowParticles:false}],Inventory:[{id:"minecraft:stick",Count:1b,tag:{SpawnEntities:[[{Tags:[Pig],Level:10}],[{Tags:[Sheep],Level:1},{Tags:[Sheep1],Level:2},{Tags:[Sheep2],Level:3}],[{Tags:[Cow],Level:20}]]}}]}
-
 # tusb_mob: SpawnDataを初期化する
-data modify storage tusb_mob: SpawnData set value {Attributes:[{Name:"minecraft:generic.movement_speed",Modifiers:[{Amount:0d,Operation:0,UUID:[I;0,0,0,0]}]},{Name:"minecraft:generic.knockback_resistance"},{Name:"minecraft:generic.attack_knockback"}],Passengers:[]}
-# Attributes[{Name:"minecraft:generic.movement_speed"}].Modifiers[0].UUID[0]にOhMyDatIDを保存
-execute store result storage tusb_mob: SpawnData.Attributes[{Name:"minecraft:generic.movement_speed"}].Modifiers[0].UUID[0] int 1 run scoreboard players get @s OhMyDatID
+data modify storage tusb_mob: SpawnData set value {Attributes:[{Name:"minecraft:generic.movement_speed"},{Name:"minecraft:generic.knockback_resistance"},{Name:"minecraft:generic.attack_knockback"}],Passengers:[]}
+
+# UUID[1]と[2]を-1して保存
+execute store result storage tusb_mob: UUID[1] int 0.99999 run data get storage tusb_mob: UUID[1]
+execute store result storage tusb_mob: UUID[2] int 0.99999 run data get storage tusb_mob: UUID[2]
+data modify storage tusb_mob: SpawnData.UUID set from storage tusb_mob: UUID
 
 # 即時ステータスを反映させる
 data modify storage tusb_mob: SpawnData merge from storage tusb_mob: "即時ステータス"."ベース"
