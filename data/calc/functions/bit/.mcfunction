@@ -19,3 +19,6 @@
 execute if data storage calc: Bit{Operation:1} run function calc:bit/raise
 execute if data storage calc: Bit{Operation:2} run function calc:bit/drop
 execute if data storage calc: Bit{Operation:3} run function calc:bit/get/digit_at_number/
+
+# 結果を返す
+scoreboard players get _ Ret

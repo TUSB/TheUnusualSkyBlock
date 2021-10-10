@@ -9,7 +9,7 @@ function calc:bit/get/flag_of_digit
 
 # 今、フラグが立っているならフラグを落とす
 #スコアに移動
-execute store result score _ Calc run data get storage calc: Bit.Flags
+execute store result score _ Ret run data get storage calc: Bit.Flags
 execute store result score _ _ run data get storage calc: Bit.Flag
 
-execute unless data storage calc: Bit{_:0} store result storage calc: Bit.Flags int 1 run scoreboard players operation _ Calc -= _ _
+execute unless data storage calc: Bit{_:0} store result score _ Ret run scoreboard players operation _ Ret -= _ _

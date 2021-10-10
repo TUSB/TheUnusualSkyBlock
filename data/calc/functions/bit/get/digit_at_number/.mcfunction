@@ -7,3 +7,5 @@ data modify storage calc: Bit.Digit set value 0
 
 # BitFlagsが0でない時だけ求める
 execute unless data storage calc: Bit{Flags:0} run function calc:bit/get/digit_at_number/loop
+
+execute store result score _ Ret run data get storage calc: Bit.Digit
