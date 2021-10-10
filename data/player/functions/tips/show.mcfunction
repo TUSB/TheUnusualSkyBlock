@@ -14,13 +14,12 @@ execute store result storage calc: Bit.Number int 1 run scoreboard players add _
 # BitFlagsを反転させて入れないといけない 2^総数-1
 execute store result storage calc: Power.value int 1 run scoreboard players get _ _
 data modify storage calc: Power.Base set value 2
-function calc:power/
-execute store result score _ _ run data get storage calc: Power.result
-scoreboard players remove _ _ 1
-scoreboard players operation _ _ -= @s TipsSuppressFlag
+execute store result score _ TipsSuppressFlag run function calc:power/
+scoreboard players remove _ TipsSuppressFlag 1
+scoreboard players operation _ TipsSuppressFlag -= @s TipsSuppressFlag
 
 # Number番目のBitFlag取得
-execute store result storage calc: Bit.Flags int 1 run scoreboard players get _ _
+execute store result storage calc: Bit.Flags int 1 run scoreboard players get _ TipsSuppressFlag
 data modify storage calc: Bit.Operation set value 3
 function calc:bit/
 execute store result score _ _ run data get storage calc: Bit.Digit

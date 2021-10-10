@@ -7,8 +7,6 @@ execute store result storage calc: Power.value int 1 run data get storage calc: 
 # 底を2に設定
 data modify storage calc: Power.Base set value 2
 
-# 累乗する
-function calc:power/
+# 累乗して値を詰める
+execute store result storage calc: Bit.Flag int 1 run function calc:power/
 
-# 累乗した値を詰める
-data modify storage calc: Bit.Flag set from storage calc: Power.result

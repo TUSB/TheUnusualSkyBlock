@@ -9,9 +9,12 @@
 #}
 
 # スコアに移動
-execute store result score _ Calc run data modify storage calc: Power.result set value 1
 execute store result score _ _ run data get storage calc: Power.Base
+scoreboard players set _ Calc 1
 
 # 1乗以上で計算開始
 execute store result score _ Ret run data get storage calc: Power.value
 execute if score _ Ret matches 1.. store result storage calc: Power.result int 1 run function calc:power/loop
+
+# 結果を返す
+scoreboard players get _ Calc
