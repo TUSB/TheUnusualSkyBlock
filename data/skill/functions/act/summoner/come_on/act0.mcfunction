@@ -3,7 +3,7 @@
 ##############################
 
 #前方を探索
-data modify storage calc: SearchForward set value {Loop:5,Stop:[Block]}
+data modify storage calc: SearchForward set value {Loop:5,Stop:[Block],Align:1b}
 execute anchored eyes positioned ^ ^ ^ anchored feet run function calc:geometry/search_forward/
 #フレンドリーTP
 execute if score _ Level matches 1 positioned as 0-0-0-0-0 run tp @e[distance=..10,team=Friendly,type=!minecraft:player] ~ ~ ~
