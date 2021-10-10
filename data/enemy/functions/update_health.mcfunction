@@ -5,6 +5,6 @@ scoreboard players reset @s Damage
 effect give @s instant_damage 1 127 true
 effect give @s instant_health 1 127 true
 #CallOnDamage
-execute if entity @s[tag=CallOnDamage] at @s run function enemy:ai/call/damage
+execute if entity @s[tag=CallOnDamage] at @s run function enemy:ai/call/trigger/damage
 #死亡処理
 execute if score @s HP matches ..0 run function entity:mob_death

@@ -1,6 +1,6 @@
 #Call
 data modify storage mob_data: CallList set from storage mob_data: AI.Turn[0].Skill[0].Call
-function enemy:ai/call/random
+function enemy:ai/call/execute/
 #Interval計算
 execute store result score @s _ run function enemy:ai/skill/set_interval
 #Loop削減 0のときNext処理
