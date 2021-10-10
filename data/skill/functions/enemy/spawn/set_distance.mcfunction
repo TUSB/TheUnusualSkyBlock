@@ -1,5 +1,7 @@
-#速度を取得
+#向きを設定
 function skill:enemy/step/direction
+#速度を設定
+function skill:enemy/step/speed
 #Posに加える
 execute store result score _ Calc run data get entity @s Pos[0] 100
 execute store result score _ _ run data get entity 0-0-0-0-0 Pos[0] 100
