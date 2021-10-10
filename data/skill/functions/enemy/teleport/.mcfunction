@@ -8,3 +8,5 @@ data remove storage mob_data: Call.Target
 execute if score 00000000-0000-0000-0000-000000000001 _ matches 1 if data storage mob_data: Call.Speed run function skill:enemy/teleport/set_distance
 #元の向きに戻す
 execute positioned as @s run tp @s ~ ~ ~ ~ ~
+#演出
+execute if score 00000000-0000-0000-0000-000000000001 _ matches 1 if data storage mob_data: Call{Message:1b} run function makeup:skill/enemy/teleport
