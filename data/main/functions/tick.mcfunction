@@ -50,6 +50,7 @@ execute as @a[scores={OdinSlash=0..}] at @s run function skill:act/knight/odin_s
 #忍者
 execute as @a[scores={Choyaku=0..},nbt={OnGround:false,FallDistance:0.0f}] at @s run function makeup:skill/act/ninja/choyaku/direction
 execute as @a[scores={Kazakiri=0..}] at @s run function skill:act/ninja/kazakiri/tick
+execute as @a[scores={Kaishaku=0..}] at @s run function skill:act/ninja/kaishaku/wear
 
 ###Mob自然ダメージ反映
 execute as @e[tag=Mob,nbt=!{AbsorptionAmount:1000000f}] run function enemy:update_absorption_amount
