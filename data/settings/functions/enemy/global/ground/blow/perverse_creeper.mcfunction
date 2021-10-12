@@ -1,8 +1,8 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:armor_stand",Tags:[Mob,HasAI,CallOnInit,CooldownRequired,CallOnTime],PortalCooldown:2,Marker:true,Invisible:true}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:creeper",Tags:[Mob,HasAI,CallOnDamage],CustomName:'{"translate":"アマノジャクリーパー","color":"#FFFFFF"}',Fuse:200,ExplosionRadius:0f,Glowing:true}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
-data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 0d
-data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0d
+data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 32d
+data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.29d
 data modify storage tusb_mob: "即時ステータス"."ノックバック耐性" set value 0d
 data modify storage tusb_mob: "即時ステータス"."ノックバック力" set value 0d
 
@@ -28,7 +28,4 @@ data modify storage tusb_mob: "遅延ステータス"."物理防御力"."成長�
 data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力"."成長ポイント" set value 1
 data modify storage tusb_mob: "遅延ステータス"."魔法防御力"."成長ポイント" set value 1
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Execute:"All",Name:"Spawn",SpawnEntities:[[{Tags:[Global,Event,Shoot,Bullet,MaintainOutputDirection],Level:1}]],Direction:[-30f,0f],Speed:0.1d,Target:{Look:"player",Radius:32d}},{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Event,Shoot,Bullet,MaintainOutputDirection],Level:1}]],Direction:[-15f,0f],Speed:0.1d,Target:{Look:"player",Radius:32d}},{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Event,Shoot,Bullet,MaintainOutputDirection],Level:1}]],Direction:[0f,0f],Speed:0.1d,Target:{Look:"player",Radius:32d}},{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Event,Shoot,Bullet,MaintainOutputDirection],Level:1}]],Direction:[15f,0f],Speed:0.1d,Target:{Look:"player",Radius:32d}},{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Event,Shoot,Bullet,MaintainOutputDirection],Level:1}]],Direction:[30f,0f],Speed:0.1d,Target:{Look:"player",Radius:32d}}],Time:[{Name:"Kill"}]}
-#演出
-particle ambient_entity_effect ~ ~ ~ 0.8 0.1 0.8 1 32 normal
-playsound minecraft:block.beacon.activate master @a[distance=..16] ~ ~ ~ 2 2 1
+data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Execute:"All",Name:"Teleport",Direction:[-180f,0f],Absolute:{Horizontal:true,Vertical:true},Target:{Look:"player",Radius:8},Speed:2d},{Name:"MergeNBT",NBT:{ExplosionRadius:5b,Fuse:0s,ignited:true}}]}
