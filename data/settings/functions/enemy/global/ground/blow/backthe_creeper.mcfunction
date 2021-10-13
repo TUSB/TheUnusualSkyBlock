@@ -1,8 +1,8 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:creeper",Tags:[Mob,HasAI,CallOnDamage],CustomName:'{"translate":"アマノジャクリーパー","color":"#FFFFFF"}',Fuse:200,ExplosionRadius:0f,Glowing:true}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:creeper",Tags:[Mob,HasAI,CallOnDamage],CustomName:'{"translate":"バックザ・ク・リーパー","color":"#FFFFFF"}',Fuse:45,ExplosionRadius:3f}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
-data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 32d
-data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.29d
+data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 24d
+data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.25d
 data modify storage tusb_mob: "即時ステータス"."ノックバック耐性" set value 0d
 data modify storage tusb_mob: "即時ステータス"."ノックバック力" set value 0d
 
@@ -28,4 +28,4 @@ data modify storage tusb_mob: "遅延ステータス"."物理防御力"."成長�
 data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力"."成長ポイント" set value 1
 data modify storage tusb_mob: "遅延ステータス"."魔法防御力"."成長ポイント" set value 1
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Execute:"All",Name:"Teleport",Direction:[-180f,0f],Target:{Look:"player",Radius:8},Speed:2d},{Name:"MergeNBT",NBT:{ExplosionRadius:5b,Fuse:0s,ignited:true}}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Name:"Teleport",Direction:[-180f,0f],Target:{Look:"player",Radius:8},Speed:2d}]}
