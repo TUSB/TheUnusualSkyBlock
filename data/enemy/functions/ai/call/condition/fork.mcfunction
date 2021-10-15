@@ -5,3 +5,6 @@ execute unless data storage mob_data: Call.Condition[].Logic run data modify sto
 # OR,ANDに分岐
 execute if data storage mob_data: Call.Condition[{Logic:"OR"}] run function enemy:ai/call/condition/or
 execute if data storage mob_data: Call.Condition[{Logic:"AND"}] run function enemy:ai/call/condition/and
+
+#スキルを実行するフラグが立っていればスキル実行
+execute if score _ Ret matches 1 run function enemy:ai/call/call
