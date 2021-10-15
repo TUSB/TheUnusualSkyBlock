@@ -24,6 +24,4 @@ data modify storage item: Items[{Slot:4b}].tag.Enchantments append value {id:"tu
 #OriginalLoreをappend
 data modify storage item: Items[{Slot:4b}].tag.display.Lore append from storage item: Items[{Slot:4b}].tag.OriginalLore[]
 #石の個数-1
-execute store result score _ _ run data get storage item: Items[{Slot:22b}].Count
-scoreboard players remove _ _ 1
-execute store result storage item: Items[{Slot:22b}].Count byte 1 run scoreboard players get _ _
+execute store result storage item: Items[{Slot:22b}].Count byte 0.99999 run data get storage item: Items[{Slot:22b}].Count
