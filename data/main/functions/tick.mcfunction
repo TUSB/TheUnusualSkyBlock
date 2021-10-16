@@ -61,7 +61,7 @@ execute as @e[tag=NativeTask] at @s run function main:task/native
 execute as @e[tag=Mob] unless score @s TemporaryEffects matches 0 at @s run function main:task/temporary
 
 ###Mobダメージ反映
-execute as @e[tag=Mob,scores={Damage=1..}] run function enemy:update_health
+execute as @e[tag=Mob,scores={Damage=-2147483648..}] run function enemy:update_health
 
 ###エンティティPortalCooldownチェック
 execute as @e[tag=CooldownRequired,nbt={PortalCooldown:0}] at @s run function entity:cooldown

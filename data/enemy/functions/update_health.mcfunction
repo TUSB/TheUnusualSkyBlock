@@ -1,4 +1,5 @@
 #属性・スキルダメージ反映
+scoreboard players add @s[scores={Damage=0}] Damage 1
 scoreboard players operation @s HP -= @s Damage
 scoreboard players reset @s Damage
 #ダメージ演出
