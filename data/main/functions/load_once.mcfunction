@@ -154,6 +154,12 @@ team modify LightPurple color light_purple
 team add Gold {"text":"黄色チーム"}
 team modify Gold color gold
 
+
+###Callから呼び出されるスキル系統のスコア
+scoreboard objectives add CastingTick dummy
+
+
+
 #スキルデータ
 function skill:data/
 
