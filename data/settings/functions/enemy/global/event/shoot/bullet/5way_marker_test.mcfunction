@@ -29,6 +29,6 @@ data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力"."成長�
 data modify storage tusb_mob: "遅延ステータス"."魔法防御力"."成長ポイント" set value 1
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Execute:"All",Name:"Spawn",SpawnEntities:[[{Tags:[Global,Event,Shoot,Bullet,MaintainOutputDirection],Level:1}]],Direction:[-30f,-5f],Speed:0.1d,Target:{Look:"player",Radius:32d}},{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Event,Shoot,Bullet,MaintainOutputDirection],Level:1}]],Direction:[-15f,-5f],Speed:0.1d,Target:{Look:"player",Radius:32d}},{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Event,Shoot,Bullet,MaintainOutputDirection],Level:1}]],Direction:[0f,-5f],Speed:0.1d,Target:{Look:"player",Radius:32d}},{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Event,Shoot,Bullet,MaintainOutputDirection],Level:1}]],Direction:[15f,-5f],Speed:0.1d,Target:{Look:"player",Radius:32d}},{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Event,Shoot,Bullet,MaintainOutputDirection],Level:1}]],Direction:[30f,-5f],Speed:0.1d,Target:{Look:"player",Radius:32d}}]}
-#演出
+#Function
 particle ambient_entity_effect ~ ~ ~ 0.8 0.1 0.8 1 32 normal
 playsound minecraft:block.beacon.activate master @a[distance=..16] ~ ~ ~ 2 2 1

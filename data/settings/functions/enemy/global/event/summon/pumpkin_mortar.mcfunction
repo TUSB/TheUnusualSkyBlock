@@ -29,5 +29,5 @@ data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力"."成長�
 data modify storage tusb_mob: "遅延ステータス"."魔法防御力"."成長ポイント" set value 1
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Step",Direction:[0f,-55f],Speed:0.2d,SpeedRange:0.6d,Target:{Look:"player",Radius:32d},Condition:[{Name:"HasTarget",Target:{Look:"player",Radius:32d}}]}],Death:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Event,Summon,Bomb,StardustBombAec],Level:1}]],Target:{Look:"player",Radius:32.0d}}],Turn:[{Skill:[{Interval:{Min:4,Max:4,Current:30},Loop:{Max:10,Current:10},Call:[{Name:"Step",Direction:[0f,0f],Speed:1.0d,Target:{Look:"player",Radius:64d}}],Once:{Max:10}}]}]}
-#演出
+#Function
 playsound minecraft:entity.firework_rocket.launch master @a[distance=..16] ~ ~ ~ 2 0.7 1
