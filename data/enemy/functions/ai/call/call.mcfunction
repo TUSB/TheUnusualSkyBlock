@@ -5,3 +5,4 @@ execute if data storage mob_data: Call{Name:"ChangeTurn"} run function skill:ene
 execute if data storage mob_data: Call{Name:"MergeNBT"} run function skill:enemy/merge_nbt
 execute if data storage mob_data: Call{Name:"Teleport"} run function skill:enemy/teleport/
 execute if data storage mob_data: Call{Name:"Message"} run function skill:enemy/message
+execute if data storage mob_data: Call{Name:"Function"} run function skill:enemy/function
