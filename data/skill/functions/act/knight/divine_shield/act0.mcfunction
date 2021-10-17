@@ -9,14 +9,10 @@ execute if score _ Level matches 3 run data modify storage skill: Damage set fro
 # ダメージ計算
 function skill:damage/add/skill/magic
 
-# 防いだダメージ分を乗算する
+# 防いだダメージに応じてダメージ倍率を計算、適用
 function skill:act/knight/divine_shield/get_damage
-scoreboard players operation _ Damage *= _ _
-scoreboard players operation _ ElementLight *= _ _
-scoreboard players set _ _ 10
-scoreboard players operation _ Damage /= _ _
-scoreboard players operation _ ElementLight /= _ _
-
+function skill:damage/modify
 execute anchored eyes positioned ^ ^ ^5 as @e[distance=..5,tag=Mob] run function skill:damage/apply/
-execute anchored eyes positioned ^ ^ ^5 as @e[distance=..5,tag=Mob] run tellraw @a {"score":{"name":"@s","objective":"Damage"}}
+
+# 演出
 function makeup:skill/act/knight/divine_shield/act
