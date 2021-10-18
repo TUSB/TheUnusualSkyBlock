@@ -88,6 +88,9 @@ scoreboard objectives add Kazakiri dummy {"text":"風切"}
 scoreboard objectives add Mokuso dummy {"text":"黙想"}
 scoreboard objectives add Suiton dummy {"text":"水遁"}
 scoreboard objectives add Kaishaku dummy {"text":"介錯残りtick数"}
+#白魔導士
+scoreboard objectives add PillarCount dummy {"text":"セイクリッドピラーダメージ付与上限"}
+scoreboard objectives add PillarDamage dummy {"text":"セイクリッドピラーダメージ"}
 #黒魔道士
 scoreboard objectives add EclipseRadius dummy {"text":"エクリプスフレイム半径"}
 #召喚士

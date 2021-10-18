@@ -25,7 +25,7 @@ execute if entity @s[tag=Ice] run function entity:block_placer/ice
 ###ワイルドフレア処理
 execute if entity @s[tag=WildFlareSeed] run kill @s
 ###セイクリッドピラー処理
-execute if entity @s[tag=SacredPillar] run function skill_manager:white_mage/sacred_pillar/at0
+execute if entity @s[tag=SacredPillar] run function skill:act/white_mage/sacred_pillar/at0
 ###ぽむぽむ花火処理
 execute if entity @s[tag=PomPom] run function skill:act/summoner/pompom/block
 

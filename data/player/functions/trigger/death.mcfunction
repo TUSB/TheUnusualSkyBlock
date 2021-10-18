@@ -1,6 +1,11 @@
 
 ### 死亡時処理
 
+# レイズ処理
+tag @s[tag=Reraise] add Raise
+tag @s[tag=Reraise] remove Reraise
+execute if entity @s[tag=Raise] run function skill:act/white_mage/araise/raise
+
 # 呪詛
 execute if entity @s[tag=Curse] run function effects:curse/death
 

@@ -44,11 +44,11 @@ execute if entity @s[tag=StakesFire] run function makeup:skill/act/hunter/stakes
 ###シャイニングボルト
 execute if entity @s[tag=ShiningBolt] run function makeup:skill/act/white_mage/shining_bolt/tick
 ###フラワーギフト
-# execute if entity @s[tag=FlowerGift] run function skill:act/white_mage/flower_gift/tick
+execute if entity @s[tag=FlowerGift] run function skill:act/white_mage/flower_gift/tick
 ###レイズ処理
-# execute if entity @s[tag=RaisePoint] run function skill:act/white_mage/araise/tick
+execute if entity @s[tag=RaisePoint] run function makeup:skill/act/white_mage/araise/tick
 ###セイクリッドピラー処理
-# execute if entity @s[tag=SacredPillarBase] run function skill:act/white_mage/sacred_pillar/tick/common
+execute if entity @s[tag=SacredPillarBase] run function skill:act/white_mage/sacred_pillar/tick/common
 ###ホーリー処理
 execute if entity @s[tag=Holy] run function skill:act/white_mage/holy/tick
 ###アイスジャベリン処理

@@ -17,5 +17,8 @@ function player:mp_bar/set
 ##満腹度調整
 function effects:status/hunger
 
+### レイズ処理
+execute if entity @s[tag=Raise] run function skill:act/white_mage/araise/raise_check
+
 ## フラグリセット
 scoreboard players reset @s Hunger

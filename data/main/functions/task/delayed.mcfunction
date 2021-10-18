@@ -16,8 +16,8 @@ execute as @s[tag=AvoidFalling2] run function skill:act/knight/decoy/avoid_falli
 # tag @s[tag=DarkSwampLevitation2] remove DarkSwampLevitation2
 
 ###セイクリッドピラー発動処理
-# execute if score @s PillarDamage matches 0.. run function skill:act/white_mage/sacred_pillar/act2
-# scoreboard players reset @s[scores={PillarDamage=0..}] PillarDamage
+execute if score @s PillarDamage matches 0.. run function skill:act/white_mage/sacred_pillar/act1
+scoreboard players reset @s[scores={PillarDamage=0..}] PillarDamage
 
 ###ぽんぽん突撃
 execute if entity @s[tag=Assault] run function skill:act/summoner/ponpon/assault
