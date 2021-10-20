@@ -15,6 +15,7 @@ scoreboard players reset @a[scores={Choyaku=0..},nbt=!{ActiveEffects:[{Id:8b}]}]
 execute as @a[scores={Katon=1..}] at @s run function skill:act/ninja/katon/tick
 execute as @a[scores={Mokuso=1..}] at @s run function skill:act/ninja/mokuso/tick
 execute as @a[scores={Suiton=1..}] at @s run function skill:act/ninja/suiton/tick
+execute as @e[scores={Isukumi=1..}] at @s run function skill:act/ninja/isukumi/tick
 #共通
 execute as @a[scores={SkyWalk=1..}] at @s run function skill:act/common/sky_walk/tick
 
