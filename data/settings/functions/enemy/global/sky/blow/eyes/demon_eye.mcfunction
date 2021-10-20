@@ -13,19 +13,12 @@ data modify storage tusb_mob: "遅延ステータス"."氷属性値" set value 1
 data modify storage tusb_mob: "遅延ステータス"."雷属性値" set value 100
 data modify storage tusb_mob: "遅延ステータス"."光属性値" set value 100
 data modify storage tusb_mob: "遅延ステータス"."闇属性値" set value 100
-# 基礎ポイント
-data modify storage tusb_mob: "遅延ステータス"."最大HP"."基礎ポイント" set value 1
-data modify storage tusb_mob: "遅延ステータス"."最大MP"."基礎ポイント" set value 1
-data modify storage tusb_mob: "遅延ステータス"."物理攻撃力"."基礎ポイント" set value 1
-data modify storage tusb_mob: "遅延ステータス"."物理防御力"."基礎ポイント" set value 1
-data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力"."基礎ポイント" set value 1
-data modify storage tusb_mob: "遅延ステータス"."魔法防御力"."基礎ポイント" set value 1
-# 成長ポイント
-data modify storage tusb_mob: "遅延ステータス"."最大HP"."成長ポイント" set value 1
-data modify storage tusb_mob: "遅延ステータス"."最大MP"."成長ポイント" set value 1
-data modify storage tusb_mob: "遅延ステータス"."物理攻撃力"."成長ポイント" set value 1
-data modify storage tusb_mob: "遅延ステータス"."物理防御力"."成長ポイント" set value 1
-data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力"."成長ポイント" set value 1
-data modify storage tusb_mob: "遅延ステータス"."魔法防御力"."成長ポイント" set value 1
+# ステータス
+data modify storage tusb_mob: "遅延ステータス"."最大HP" set value 1
+data modify storage tusb_mob: "遅延ステータス"."最大MP" set value 1
+data modify storage tusb_mob: "遅延ステータス"."物理攻撃力" set value 1
+data modify storage tusb_mob: "遅延ステータス"."物理防御力" set value 1
+data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力" set value 1
+data modify storage tusb_mob: "遅延ステータス"."魔法防御力" set value 1
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Turn:[{Target:{Look:"player",Radius:32d},Move:{Front:0.2d},Rotate:[30f,30f],Skill:[{Interval:{Min:60,Max:60,Current:1},Loop:{Max:1,Current:1},Call:[{Name:"ChangeTurn",Random:true}]}],Exit:{Loop:{Max:1,Current:1},Time:60,TimeCount:60}},{Target:{Look:"player",Radius:32d},Move:{Front:0.1d,Up:0.2d},Rotate:[30f,30f],Skill:[{Interval:{Min:60,Max:60,Current:1},Loop:{Max:1,Current:1},Call:[{Name:"ChangeTurn",Random:true}]}],Exit:{Loop:{Max:1,Current:1},Half:"down",Time:30,TimeCount:30}},{Target:{Look:"player",Radius:32d},Move:{Front:0.1d,Up:-0.2d},Rotate:[30f,30f],Skill:[{Interval:{Min:60,Max:60,Current:1},Loop:{Max:1,Current:1},Call:[{Name:"ChangeTurn",Random:true}]}],Exit:{Loop:{Max:1,Current:1},Half:"up",Time:30,TimeCount:30}}]}

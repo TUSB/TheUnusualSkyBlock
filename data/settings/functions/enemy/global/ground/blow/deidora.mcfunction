@@ -13,19 +13,12 @@ data modify storage tusb_mob: "遅延ステータス"."氷属性値" set value 1
 data modify storage tusb_mob: "遅延ステータス"."雷属性値" set value 100
 data modify storage tusb_mob: "遅延ステータス"."光属性値" set value 150
 data modify storage tusb_mob: "遅延ステータス"."闇属性値" set value 50
-# 基礎ポイント
-data modify storage tusb_mob: "遅延ステータス"."最大HP"."基礎ポイント" set value 20
-data modify storage tusb_mob: "遅延ステータス"."最大MP"."基礎ポイント" set value 20
-data modify storage tusb_mob: "遅延ステータス"."物理攻撃力"."基礎ポイント" set value 20
-data modify storage tusb_mob: "遅延ステータス"."物理防御力"."基礎ポイント" set value 20
-data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力"."基礎ポイント" set value 20
-data modify storage tusb_mob: "遅延ステータス"."魔法防御力"."基礎ポイント" set value 20
-# 成長ポイント
-data modify storage tusb_mob: "遅延ステータス"."最大HP"."成長ポイント" set value 3
-data modify storage tusb_mob: "遅延ステータス"."最大MP"."成長ポイント" set value 1
-data modify storage tusb_mob: "遅延ステータス"."物理攻撃力"."成長ポイント" set value 2
-data modify storage tusb_mob: "遅延ステータス"."物理防御力"."成長ポイント" set value 1
-data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力"."成長ポイント" set value 1
-data modify storage tusb_mob: "遅延ステータス"."魔法防御力"."成長ポイント" set value 2
+# ステータス
+data modify storage tusb_mob: "遅延ステータス"."最大HP" set value 3
+data modify storage tusb_mob: "遅延ステータス"."最大MP" set value 1
+data modify storage tusb_mob: "遅延ステータス"."物理攻撃力" set value 2
+data modify storage tusb_mob: "遅延ステータス"."物理防御力" set value 1
+data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力" set value 1
+data modify storage tusb_mob: "遅延ステータス"."魔法防御力" set value 2
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Death:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Other,Blow,FinalAttack,FinalAttackPotion01],Level:1}]]}],Turn:[{Target:{Look:"player",Radius:24d},Skill:[{Interval:{Min:15,Max:60,Current:1},Call:[{}]}],Exit:{Loop:{Max:1,Current:1}}},{Target:{Look:"player",Radius:24d},Skill:[{Interval:{Min:5,Max:5,Current:5},Call:[{Execute:"Random",Name:"Step",Direction:[90f,-5f],Speed:0.9d},{Name:"Step",Direction:[-90f,-5f],Speed:0.9d}]}],Exit:{Loop:{Max:1,Current:1}}},{Target:{Look:"player",Radius:24d,IgnoreBlocks:1b},Skill:[{Interval:{Min:7,Max:7,Current:7},Loop:{Max:3,Current:3},Call:[{Name:"Step",Direction:[0f,0f],Speed:1.0d}]},{Interval:{Min:2,Max:7,Current:5},Call:[{Name:"Step",Direction:[0f,-80f],Speed:2.0d}]},{Interval:{Min:12,Max:12,Current:12},Call:[{Name:"Step",Direction:[0f,0f],Speed:2.0d}]}],Exit:{Loop:{Max:3,Current:3}}}]}

@@ -13,19 +13,12 @@ data modify storage tusb_mob: "遅延ステータス"."氷属性値" set value 4
 data modify storage tusb_mob: "遅延ステータス"."雷属性値" set value 110
 data modify storage tusb_mob: "遅延ステータス"."光属性値" set value 100
 data modify storage tusb_mob: "遅延ステータス"."闇属性値" set value 85
-# 基礎ポイント
-data modify storage tusb_mob: "遅延ステータス"."最大HP"."基礎ポイント" set value 2
-data modify storage tusb_mob: "遅延ステータス"."最大MP"."基礎ポイント" set value 5
-data modify storage tusb_mob: "遅延ステータス"."物理攻撃力"."基礎ポイント" set value 1
-data modify storage tusb_mob: "遅延ステータス"."物理防御力"."基礎ポイント" set value 1
-data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力"."基礎ポイント" set value 2
-data modify storage tusb_mob: "遅延ステータス"."魔法防御力"."基礎ポイント" set value 2
-# 成長ポイント
-data modify storage tusb_mob: "遅延ステータス"."最大HP"."成長ポイント" set value 5
-data modify storage tusb_mob: "遅延ステータス"."最大MP"."成長ポイント" set value 3
-data modify storage tusb_mob: "遅延ステータス"."物理攻撃力"."成長ポイント" set value 3
-data modify storage tusb_mob: "遅延ステータス"."物理防御力"."成長ポイント" set value 3
-data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力"."成長ポイント" set value 2
-data modify storage tusb_mob: "遅延ステータス"."魔法防御力"."成長ポイント" set value 2
+# ステータス
+data modify storage tusb_mob: "遅延ステータス"."最大HP" set value 5
+data modify storage tusb_mob: "遅延ステータス"."最大MP" set value 3
+data modify storage tusb_mob: "遅延ステータス"."物理攻撃力" set value 3
+data modify storage tusb_mob: "遅延ステータス"."物理防御力" set value 3
+data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力" set value 2
+data modify storage tusb_mob: "遅延ステータス"."魔法防御力" set value 2
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Turn:[{Target:{Look:"player",Radius:5d},Move:{Front:2d,Side:1d},Rotate:[10f,0f],Skill:[{Interval:{Min:30,Max:100,Current:60},Loop:{Max:1,Current:1},Call:[{Name:"A"}]},{Interval:{Min:70,Max:90,Current:80},Loop:{Max:2,Current:2},Call:[{Name:"B"}]}],Exit:{Time:1200,TimeCount:1200}},{Target:{Look:"player",Radius:5d},Move:{Front:2d,Side:1d},Rotate:[10f,0f],Skill:[{Interval:{Min:10,Max:80,Current:30},Loop:{Max:1,Current:1},Call:[{Name:"A"}]},{Interval:{Min:5,Max:30,Current:10},Loop:{Max:2,Current:2},Call:[{Name:"B"}]},{Interval:{Min:20,Max:20,Current:10},Loop:{Max:5,Current:5},Call:[{Name:"C"}]}],Exit:{Time:600,TimeCount:600}}]}
