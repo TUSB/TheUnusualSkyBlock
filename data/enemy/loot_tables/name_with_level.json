@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "nbt": "CustomName",
+                    "entity": "@s",
+                    "interpret": true
+                  },
+                  " Lv",
+                  {
+                    "score": {
+                      "name": "@s",
+                      "objective": "Level"
+                    }
+                  }
+                ],
+                [
+                  {
+                    "text": ""
+                  },
+                  {
+                    "selector": "@s"
+                  },
+                  " Lv",
+                  {
+                    "score": {
+                      "name": "@s",
+                      "objective": "Level"
+                    }
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

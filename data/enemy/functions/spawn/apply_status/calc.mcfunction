@@ -2,6 +2,11 @@
 # モブの基本情報とレベルから、ステータスを計算する。
 ###########################################################################
 
+### レベルを表示
+execute if entity @s[tag=!HideLevel] in area:control_area run loot replace block 2 2 2 container.0 loot enemy:name_with_level
+execute if data entity @s[tag=!HideLevel] CustomName in area:control_area run data modify entity @s CustomName set from block 2 2 2 Items[0].tag.display.Lore[0]
+execute unless data entity @s[tag=!HideLevel] CustomName in area:control_area run data modify entity @s CustomName set from block 2 2 2 Items[0].tag.display.Lore[1]
+
 ### 共通NBT
 data modify entity @s AbsorptionAmount set value 1000000f
 data modify entity @s DeathTime set value 19s
