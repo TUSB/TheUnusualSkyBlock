@@ -14,11 +14,11 @@ data modify storage tusb_mob: "遅延ステータス"."雷属性値" set value 1
 data modify storage tusb_mob: "遅延ステータス"."光属性値" set value 100
 data modify storage tusb_mob: "遅延ステータス"."闇属性値" set value 100
 # ステータス
-data modify storage tusb_mob: "遅延ステータス"."最大HP" set value 1
-data modify storage tusb_mob: "遅延ステータス"."最大MP" set value 1
-data modify storage tusb_mob: "遅延ステータス"."物理攻撃力" set value 1
-data modify storage tusb_mob: "遅延ステータス"."物理防御力" set value 1
-data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力" set value 1
-data modify storage tusb_mob: "遅延ステータス"."魔法防御力" set value 1
+data modify storage tusb_mob: "遅延ステータス"."最大HP" set value 25
+data modify storage tusb_mob: "遅延ステータス"."最大MP" set value 50
+data modify storage tusb_mob: "遅延ステータス"."物理攻撃力" set value 5
+data modify storage tusb_mob: "遅延ステータス"."物理防御力" set value 20
+data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力" set value 30
+data modify storage tusb_mob: "遅延ステータス"."魔法防御力" set value 30
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Step",Direction:[-180f,-180f],DirectionRange:[360f,360f],Speed:1.2d,Target:{Look:"player",Radius:24d,IgnoreBlocks:true}}],Time:[{Name:"Spawn",Count:1,CountRange:8,SpawnEntities:[[{Tags:[Global,Ground,Blow,Goblins,Goblin,SpawnParticles],Level:1}]],Condition:[{Name:"RandomChance",Chance:0.40d},{Name:"HasTarget",Target:{Look:"player",Radius:16}}]}],Turn:[{Skill:[{Interval:{Min:8,Max:48,Current:250},Call:[{Name:"Step",Direction:[0f,-13f],Speed:0.7d,SpeedRange:1.3d,Target:{Look:"player",Radius:8d},Condition:[{Name:"HasTarget",Target:{Look:"player",Radius:8d}}]}]}]}]}

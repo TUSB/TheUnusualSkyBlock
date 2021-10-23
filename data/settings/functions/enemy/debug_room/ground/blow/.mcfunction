@@ -14,3 +14,4 @@ execute if entity @s[tag=MultiSpawn] run function settings:enemy/debug_room/grou
 execute if entity @s[tag=HurtPotionSilverfish] run function settings:enemy/debug_room/ground/blow/hurt_potion_silverfish
 execute if entity @s[tag=TestMob] run function settings:enemy/debug_room/ground/blow/test_mob/
 execute if entity @s[tag=TestPonpon] run function settings:enemy/debug_room/ground/blow/test_ponpon/
+execute if entity @s[tag=Debug] run function settings:enemy/debug_room/ground/blow/debug/

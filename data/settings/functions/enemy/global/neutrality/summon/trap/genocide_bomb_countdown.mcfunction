@@ -14,12 +14,12 @@ data modify storage tusb_mob: "遅延ステータス"."雷属性値" set value 1
 data modify storage tusb_mob: "遅延ステータス"."光属性値" set value 100
 data modify storage tusb_mob: "遅延ステータス"."闇属性値" set value 100
 # ステータス
-data modify storage tusb_mob: "遅延ステータス"."最大HP" set value 1
-data modify storage tusb_mob: "遅延ステータス"."最大MP" set value 1
+data modify storage tusb_mob: "遅延ステータス"."最大HP" set value 9999
+data modify storage tusb_mob: "遅延ステータス"."最大MP" set value 9999
 data modify storage tusb_mob: "遅延ステータス"."物理攻撃力" set value 1
-data modify storage tusb_mob: "遅延ステータス"."物理防御力" set value 1
+data modify storage tusb_mob: "遅延ステータス"."物理防御力" set value 9999
 data modify storage tusb_mob: "遅延ステータス"."魔法攻撃力" set value 1
-data modify storage tusb_mob: "遅延ステータス"."魔法防御力" set value 1
+data modify storage tusb_mob: "遅延ステータス"."魔法防御力" set value 9999
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Event,Blow,Trap,GenocideBomb3CountAec],Level:1}]]}],Damage:[{Name:"Step",Direction:[180f,-10f],Speed:1.8d,Target:{Look:"player",Radius:32d,IgnoreBlocks:true}}],Turn:[{Exit:{Time:60,TimeCount:60}},{Skill:[{Interval:{Min:999,Max:999,Current:1},Loop:{Max:1,Current:1},Call:[{Execute:"All",Name:"Spawn",SpawnEntities:[[{Tags:[Global,Event,Blow,Trap,GenocideBomb2CountAec],Level:1}]]},{Name:"MergeNBT",NBT:{ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;1,0,59,2],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2VjODg1MjI2OTg4ZmE5NjkyYzBhZDc3ZDQ2ZjcwN2EwNDUzZTVjOWIwMDI4MDgyZDZmOGMxZjVkM2QwOTJkYSJ9fX0="}]}}}}]}}],Once:{Max:1}},{Call:[{}]}],Exit:{Time:60,TimeCount:60}},{Skill:[{Interval:{Min:999,Max:999,Current:1},Loop:{Max:1,Current:1},Call:[{Execute:"All",Name:"Spawn",SpawnEntities:[[{Tags:[Global,Event,Blow,Trap,GenocideBomb1CountAec],Level:1}]]},{Name:"MergeNBT",NBT:{ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;1,0,59,3],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWJkYTcwZjYzZGFlNmQ5YjAwMDQ0OTdkNGRmMmU1ZTQ2ZjhiZjE2NTRjYmRiMWY1ODUyNTk4MGE4NTdhMDg1MyJ9fX0="}]}}}}]}}],Once:{Max:1}},{Interval:{Min:999,Max:999,Current:60},Loop:{Max:1,Current:1},Call:[{Execute:"All",Name:"Spawn",SpawnEntities:[[{Tags:[Global,Event,Function,Trap,GenocideBlast],Level:1}]]},{Name:"Kill"}],Once:{Max:1}}]}]}
 #Function

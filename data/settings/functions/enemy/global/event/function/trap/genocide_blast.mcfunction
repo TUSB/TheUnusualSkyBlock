@@ -1,12 +1,5 @@
 #Function
 effect give @a[gamemode=!creative,distance=..6] instant_damage 1 5 true
-scoreboard players set _ Damage 100
-scoreboard players set _ ElementFire 100
-scoreboard players set _ ElementIce 100
-scoreboard players set _ ElementLightning 100
-scoreboard players set _ ElementLight 100
-scoreboard players set _ ElementDark 100
-execute as @e[tag=Mob,distance=..6] run function skill:damage/apply/
 playsound entity.wither.death master @a[distance=..32] ~ ~ ~ 0.4 0 0.1
 playsound entity.blaze.ambient master @a[distance=..32] ~ ~ ~ 3 0
 playsound block.end_portal.spawn master @a[distance=..32] ~ ~ ~ 3 1.5
