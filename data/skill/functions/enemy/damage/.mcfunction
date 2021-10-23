@@ -11,6 +11,7 @@ execute store result score 0-0-0-0-0 Calc run data get storage mob_data: Call.Di
 execute store result score 0-0-0-0-1 Calc run data get storage mob_data: Call.Distance.Min 100
 
 #大雑把に目標とするモブを探す
+execute if score 0-0-0-0-1 Calc matches 0 run function skill:damage/apply/
 execute if score 0-0-0-0-0 Calc matches 1.. if score 0-0-0-0-1 Calc matches ..200 run tag @e[tag=Mob,distance=0.01..2] add TargetCards
 execute if score 0-0-0-0-0 Calc matches 201.. if score 0-0-0-0-1 Calc matches ..400 run tag @e[tag=Mob,distance=2.01..4] add TargetCards
 execute if score 0-0-0-0-0 Calc matches 401.. if score 0-0-0-0-1 Calc matches ..800 run tag @e[tag=Mob,distance=4.01..8] add TargetCards
