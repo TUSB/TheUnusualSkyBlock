@@ -3,6 +3,7 @@ execute if entity @s[tag=MultiTurnAndSkill] run function settings:enemy/debug_ro
 execute if entity @s[tag=Minecart] run function settings:enemy/debug_room/ground/blow/minecart
 execute if entity @s[tag=SuyarumiTestingmob] run function settings:enemy/debug_room/ground/blow/suyarumi_testingmob
 execute if entity @s[tag=TeleportWitch] run function settings:enemy/debug_room/ground/blow/teleport_witch
+execute if entity @s[tag=DebugMan] run function settings:enemy/debug_room/ground/blow/debug_man
 execute if entity @s[tag=GazingSheep] run function settings:enemy/debug_room/ground/blow/gazing_sheep
 execute if entity @s[tag=Hopper] run function settings:enemy/debug_room/ground/blow/hopper
 execute if entity @s[tag=CheckPassengerCart] run function settings:enemy/debug_room/ground/blow/check_passenger_cart
