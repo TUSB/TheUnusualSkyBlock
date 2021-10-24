@@ -8,4 +8,3 @@ data remove storage mob_data: AI.Turn[0].Skill[0]
 execute unless data storage mob_data: AI.Turn[0].Skill[0] run data remove storage mob_data: AI.Turn[0].Skill
 #TurnLoop削減 0のときexit処理
 execute if data storage mob_data: AI.Turn[0].Exit.Loop.Current store result storage mob_data: AI.Turn[0].Exit.Loop.Current int 0.99999 run data get storage mob_data: AI.Turn[0].Exit.Loop.Current 1
-execute if data storage mob_data: AI.Turn[0].Exit.Loop{Current:0} run function enemy:ai/exit/loop
