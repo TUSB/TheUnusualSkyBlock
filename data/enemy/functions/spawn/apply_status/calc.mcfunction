@@ -37,6 +37,7 @@ execute store result score _ Calc run data get storage tusb_mob: "遅延ステ�
 scoreboard players operation _ Calc *= @s Level
 scoreboard players operation _ Calc /= _ _
 execute store result score @s Attack run scoreboard players add _ Calc 5
+execute store result entity @s Attributes[{Name:"minecraft:generic.attack_damage"}].Base double 0.5 run scoreboard players get @s Attack
 ### 物理防御力を計算する
 execute store result score _ Calc run data get storage tusb_mob: "遅延ステータス"."物理防御力" 1
 scoreboard players operation _ Calc *= @s Level
