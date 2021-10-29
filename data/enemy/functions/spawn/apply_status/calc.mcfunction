@@ -33,21 +33,21 @@ scoreboard players operation _ Calc /= _ _
 scoreboard players operation _ Calc += @s Level
 execute store result score @s MP store result score @s MPMax run scoreboard players add _ Calc 10
 ### 物理攻撃力を計算する
-execute store result score _ Calc run data get storage tusb_mob: "遅延ステータス"."物理攻撃力" 1
+execute store result score _ Calc run data get storage tusb_mob: "遅延ステータス"."物理攻撃力" 0.5
 scoreboard players operation _ Calc *= @s Level
 scoreboard players operation _ Calc /= _ _
-execute store result score @s Attack run scoreboard players add _ Calc 5
-execute store result entity @s Attributes[{Name:"minecraft:generic.attack_damage"}].Base double 0.5 run scoreboard players get @s Attack
+execute store result score @s Attack run scoreboard players add _ Calc 2
+execute store result entity @s Attributes[{Name:"minecraft:generic.attack_damage"}].Base double 1 run scoreboard players get @s Attack
 ### 物理防御力を計算する
 execute store result score _ Calc run data get storage tusb_mob: "遅延ステータス"."物理防御力" 1
 scoreboard players operation _ Calc *= @s Level
 scoreboard players operation _ Calc /= _ _
 execute store result score @s Defense run scoreboard players add _ Calc 5
 ### 魔法攻撃力を計算する
-execute store result score _ Calc run data get storage tusb_mob: "遅延ステータス"."魔法攻撃力" 1
+execute store result score _ Calc run data get storage tusb_mob: "遅延ステータス"."魔法攻撃力" 0.5
 scoreboard players operation _ Calc *= @s Level
 scoreboard players operation _ Calc /= _ _
-execute store result score @s SpecialAttack run scoreboard players add _ Calc 5
+execute store result score @s SpecialAttack run scoreboard players add _ Calc 2
 ### 魔法防御力を計算する
 execute store result score _ Calc run data get storage tusb_mob: "遅延ステータス"."魔法防御力" 1
 scoreboard players operation _ Calc *= @s Level
