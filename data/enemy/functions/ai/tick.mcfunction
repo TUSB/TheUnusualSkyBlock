@@ -1,6 +1,9 @@
 function oh_my_dat:please
 data modify storage mob_data: AI set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI
 
+##Passenger処理
+execute if data storage mob_data: AI.Passenger run function enemy:ai/call/trigger/passenger/
+
 ##Target処理
 # as 0-0-0-0-2
 execute if data storage mob_data: AI.Turn[0].Target run data modify storage mob_data: Target set from storage mob_data: AI.Turn[0].Target
