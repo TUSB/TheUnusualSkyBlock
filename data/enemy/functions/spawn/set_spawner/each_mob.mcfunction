@@ -7,12 +7,16 @@ data modify entity @s Tags set from storage tusb_mob: MobTags[-1].Tags
 
 #データを初期化
 data remove storage tusb_mob: "即時ステータス"
+data remove storage tusb_mob: "遅延ステータス"
 
 # タグに応じて、データを取得する
 function settings:enemy/
 
 #召喚時演出
 execute if entity @s[tag=SpawnParticles] run function makeup:enemy/spawn
+
+#モブのレベルを引き継ぐ
+execute if score _ Level matches 1.. store result storage tusb_mob: MobTags[-1].Level int 1 run scoreboard players get _ Level
 
 # tusb_mob: SpawnDataを初期化する
 data modify storage tusb_mob: SpawnData set value {Attributes:[{Name:"minecraft:generic.movement_speed"},{Name:"minecraft:generic.knockback_resistance"},{Name:"minecraft:generic.attack_knockback"}],Passengers:[]}

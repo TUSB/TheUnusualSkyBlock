@@ -3,7 +3,8 @@
 # カスタムモブを召喚する
 ###################################################
 
-### PosとRotation取得
+### LevelとPosとRotation取得
+scoreboard players operation _ Level = @s Level
 data modify storage tusb_mob: Pos set from entity @s Pos
 data modify storage tusb_mob: Rotation set from entity @s Rotation
 ### 例えば、村人が複数のタグを持っていたら？
