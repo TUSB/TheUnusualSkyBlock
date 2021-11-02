@@ -165,7 +165,8 @@ team modify Gold color gold
 ###Callから呼び出されるスキル系統のスコア
 scoreboard objectives add CastingTick dummy
 
-
+#ScoreDamage
+function score_damage:core/init
 
 #スキルデータ
 function skill:data/
