@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "minecraft:firework_rocket",
     "#minecraft:impact_projectiles",
     "minecraft:ender_pearl",
     "minecraft:potion",
