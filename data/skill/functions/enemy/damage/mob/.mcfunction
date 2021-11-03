@@ -7,8 +7,8 @@ data remove storage item: Equipments
 data modify storage skill: Damage set from storage mob_data: Call.Mob
 function skill:damage/add/skill/magic
 
-execute store result score 00000000-0000-0000-0000-000000000000 Calc run data get storage mob_data: Call.Mob.Distance.Max 100
-execute store result score 00000000-0000-0000-0000-000000000001 Calc run data get storage mob_data: Call.Mob.Distance.Min 100
+execute store result score 00000000-0000-0000-0000-000000000000 Calc run data get storage mob_data: Call.Distance.Max 100
+execute store result score 00000000-0000-0000-0000-000000000001 Calc run data get storage mob_data: Call.Distance.Min 100
 
 #大雑把に目標とするモブを探す
 execute if score 00000000-0000-0000-0000-000000000001 Calc matches 0 run function skill:damage/apply/

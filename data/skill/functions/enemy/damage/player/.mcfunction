@@ -6,8 +6,8 @@ data remove storage score_damage: Argument
 data modify storage score_damage: Argument set from storage mob_data: Call.Player
 execute unless data storage score_damage: Argument.Damage store result storage score_damage: Argument.Damage double 1 run scoreboard players get @s SpecialAttack
 
-execute store result score 00000000-0000-0000-0000-000000000000 Calc run data get storage mob_data: Call.Player.Distance.Max 100
-execute store result score 00000000-0000-0000-0000-000000000001 Calc run data get storage mob_data: Call.Player.Distance.Min 100
+execute store result score 00000000-0000-0000-0000-000000000000 Calc run data get storage mob_data: Call.Distance.Max 100
+execute store result score 00000000-0000-0000-0000-000000000001 Calc run data get storage mob_data: Call.Distance.Min 100
 
 #大雑把に目標とするモブを探す
 execute if score 00000000-0000-0000-0000-000000000001 Calc matches 0 run tag @a[distance=0] add TargetCards
