@@ -14,11 +14,15 @@ execute store result score @s Level run data get storage oh_my_dat: _[-4][-4][-4
 data modify storage tusb_mob: "遅延ステータス" set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList[-1]."遅延ステータス"
 data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList[-1]
 
-### モブにステータスを計算して反映する
-execute if entity @s[tag=Mob] run function enemy:spawn/apply_status/calc
+### 攻撃力を計算
+execute if data storage tusb_mob: "遅延ステータス"."ステータス" run function enemy:spawn/apply_status/attacks
 
-### AI
-execute if entity @s[tag=HasAI] run function oh_my_dat:please
+### モブに他のステータスを計算して反映する
+execute if entity @s[tag=Mob] run function enemy:spawn/apply_status/mob
+
+### OhMyDatに保存
+function oh_my_dat:please
+data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4]."ステータス" set from storage tusb_mob: "遅延ステータス"."ステータス"
 execute if entity @s[tag=HasAI] run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from storage tusb_mob: "遅延ステータス".AI
 
 ### 共通データ

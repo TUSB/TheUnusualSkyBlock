@@ -7,7 +7,7 @@
 execute if entity @s[tag=Spawn] run function enemy:spawn/
 
 ### モブステータス適用
-execute unless entity @s[tag=!Mob,tag=!HasAI] run function enemy:spawn/apply_status/
+execute if entity @s[tag=DelayedData] run function enemy:spawn/apply_status/
 
 ### CallOnInit
 execute if entity @s[tag=CallOnInit] run function enemy:ai/call/trigger/initial
