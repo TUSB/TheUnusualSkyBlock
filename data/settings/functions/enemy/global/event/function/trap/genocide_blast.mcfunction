@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:marker",Tags:[HasAI,CallOnInit]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:marker",Tags:[DelayedData,HasAI,CallOnInit]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Execute:"All",Name:"Damage",Damage:{Physical:100,Fire:100,Ice:100,Lightning:100,Light:100,Dark:100},Distance:{Min:0.0d,Max:6.0d}},{Name:"Kill"}]}
