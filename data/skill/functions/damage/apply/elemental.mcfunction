@@ -35,3 +35,6 @@ scoreboard players operation _ _ += _ _
 scoreboard players operation _ _ += @s SpecialDefense
 scoreboard players operation _ Calc /= _ _
 scoreboard players operation @s Damage += _ Calc
+
+#CallOnAttack用に与えた属性を保存
+execute if entity @s[tag=CallOnDamage] run function skill:damage/apply/save_elements
