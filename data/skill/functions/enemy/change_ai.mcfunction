@@ -3,6 +3,7 @@ execute if data storage mob_data: Call.Death run data modify storage mob_data: A
 execute if data storage mob_data: Call.Time run data modify storage mob_data: AI.Time set from storage mob_data: Call.Time
 execute if data storage mob_data: Call.Damage run data modify storage mob_data: AI.Damage set from storage mob_data: Call.Damage
 execute if data storage mob_data: Call.Attack run data modify storage mob_data: AI.Attack set from storage mob_data: Call.Attack
+execute if data storage mob_data: Call.Passenger run data modify storage mob_data: AI.Passenger set from storage mob_data: Call.Passenger
 #タグを付与
 execute if data storage mob_data: Call.Death run tag @s add CallOnDeath
 execute if data storage mob_data: Call.Time run tag @s add CallOnTime
