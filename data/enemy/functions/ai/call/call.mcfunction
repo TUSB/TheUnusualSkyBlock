@@ -4,6 +4,7 @@ execute if data storage mob_data: Call{Name:"Step"} run function skill:enemy/ste
 execute if data storage mob_data: Call{Name:"ChangeTurn"} run function skill:enemy/change_turn/
 execute if data storage mob_data: Call{Name:"ChangeMove"} run function skill:enemy/change_move/
 execute if data storage mob_data: Call{Name:"ChangeAI"} run function skill:enemy/change_ai
+execute if data storage mob_data: Call{Name:"ChangeStatus"} run function skill:enemy/change_status/
 execute if data storage mob_data: Call{Name:"MergeNBT"} run function skill:enemy/merge_nbt
 execute if data storage mob_data: Call{Name:"Teleport"} run function skill:enemy/teleport/
 execute if data storage mob_data: Call{Name:"Message"} run function skill:enemy/message

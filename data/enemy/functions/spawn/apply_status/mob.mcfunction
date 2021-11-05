@@ -19,26 +19,10 @@ execute store result score @s ElementLight run data get storage tusb_mob: "遅�
 execute store result score @s ElementDark run data get storage tusb_mob: "遅延ステータス"."ステータス"."闇属性値"
 
 ### ステータス
-scoreboard players set _ _ 100
-### 最大HPを計算する
-execute store result score _ Calc run data get storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" 4
-scoreboard players operation _ Calc *= @s Level
-scoreboard players operation _ Calc /= _ _
-scoreboard players operation _ Calc += @s Level
-execute store result score @s HP store result score @s HPMax run scoreboard players add _ Calc 10
-### 最大MPを計算する
-execute store result score _ Calc run data get storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" 4
-scoreboard players operation _ Calc *= @s Level
-scoreboard players operation _ Calc /= _ _
-scoreboard players operation _ Calc += @s Level
-execute store result score @s MP store result score @s MPMax run scoreboard players add _ Calc 10
-### 物理防御力を計算する
-execute store result score _ Calc run data get storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" 1
-scoreboard players operation _ Calc *= @s Level
-scoreboard players operation _ Calc /= _ _
-execute store result score @s Defense run scoreboard players add _ Calc 5
-### 魔法防御力を計算する
-execute store result score _ Calc run data get storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" 1
-scoreboard players operation _ Calc *= @s Level
-scoreboard players operation _ Calc /= _ _
-execute store result score @s SpecialDefense run scoreboard players add _ Calc 5
+function enemy:spawn/apply_status/status/hp
+function enemy:spawn/apply_status/status/mp
+function enemy:spawn/apply_status/status/defense
+function enemy:spawn/apply_status/status/special_defense
+
+scoreboard players operation @s HP = @s HPMax
+scoreboard players operation @s MP = @s MPMax
