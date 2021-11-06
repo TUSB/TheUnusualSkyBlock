@@ -6,6 +6,7 @@
 scoreboard players set _ FillSize 2
 execute if data entity @s Inventory[{tag:{Skill:{Name:"フィール",Level:2}}}] run scoreboard players set _ FillSize 3
 execute if data entity @s Inventory[{tag:{Skill:{Name:"フィール",Level:3}}}] run scoreboard players set _ FillSize 4
+execute unless score @s FillSize matches 1.. run scoreboard players operation @s FillSize = _ FillSize
 scoreboard players operation @s FillSize < _ FillSize
 
 data modify block 2 3 2 Text1 set value '[{"translate":"・フィールサイズ:","bold":true}]'

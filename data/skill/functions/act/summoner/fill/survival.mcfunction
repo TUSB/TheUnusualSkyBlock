@@ -4,6 +4,7 @@
 
 #FillSizeの上限を設定
 scoreboard players add _ Level 1
+execute unless score @s FillSize matches 1.. run scoreboard players operation @s FillSize = _ Level
 scoreboard players operation @s FillSize < _ Level
 scoreboard players operation _ FillSize = @s FillSize
 #execute if entity @s[tag=からくりオーラ] run scoreboard players add _ FillSize 1
