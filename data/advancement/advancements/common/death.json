@@ -16,8 +16,13 @@
     },
     "parent": "advancement:common/root",
     "criteria": {
-        "dummy": {
-            "trigger": "minecraft:impossible"
+        "death": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "player": {
+                    "nbt": "{Health:0.0f}"
+                }
+            }
         }
     }
 }

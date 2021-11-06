@@ -16,8 +16,25 @@
     },
     "parent": "advancement:common/death",
     "criteria": {
-        "dummy": {
-            "trigger": "minecraft:impossible"
+        "death": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "bypasses_invulnerability": true
+                    }
+                },
+                "player": {
+                    "nbt": "{Health:0.0f}",
+                    "location": {
+                        "position": {
+                            "y": {
+                                "max": -63
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
