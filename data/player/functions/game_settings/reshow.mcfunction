@@ -5,6 +5,9 @@
 #適度に改行も入れてよい
 tellraw @s [{"translate":"・ステータス","bold": true,"clickEvent": {"action": "run_command","value": "/trigger ChangeSettings set 1"}}," ",{"translate":"・スキル","bold": true,"clickEvent": {"action": "run_command","value": "/trigger ChangeSkill set 1"}}," ",{"translate":"・テキスト表示位置","bold":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeSettings set 5"}}," ",{"text":"⇦","bold":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeSettings set 6"}}," ",{"text":"⇨","bold":true,"clickEvent":{"action":"run_command","value":"/trigger ChangeSettings set 7"}}," ",{"translate":"・スニークで設定を表示","bold": true,"clickEvent": {"action": "run_command","value": "/trigger ChangeSettings set 99"}}]
 
+#フィールサイズ設定
+execute if data entity @s Inventory[{tag:{Skill:{Name:"フィール"}}}] in area:control_area run function skill:act/summoner/fill/show_size
+
 #> ChangeSettingsの値と設定
 # 1: ステータス表示
 #
@@ -14,5 +17,6 @@ tellraw @s [{"translate":"・ステータス","bold": true,"clickEvent": {"actio
 #
 # 99: スニークで設定表示切り替え
 #
+# 101-104: フィールサイズ
 
 function makeup:player/game_settings/reshow
