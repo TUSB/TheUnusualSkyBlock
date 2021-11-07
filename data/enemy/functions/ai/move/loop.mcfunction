@@ -1,7 +1,7 @@
 execute if score _ _ matches 512.. positioned as @s positioned ^ ^ ^5.12 run tp @s ~ ~ ~ ~ ~
 execute if score _ _ matches 512.. run scoreboard players remove _ _ 512
-execute if score _ _ matches 216.. positioned as @s positioned ^ ^ ^2.56 run tp @s ~ ~ ~ ~ ~
-execute if score _ _ matches 216.. run scoreboard players remove _ _ 256
+execute if score _ _ matches 256.. positioned as @s positioned ^ ^ ^2.56 run tp @s ~ ~ ~ ~ ~
+execute if score _ _ matches 256.. run scoreboard players remove _ _ 256
 execute if score _ _ matches 128.. positioned as @s positioned ^ ^ ^1.28 run tp @s ~ ~ ~ ~ ~
 execute if score _ _ matches 128.. run scoreboard players remove _ _ 128
 execute if score _ _ matches 64.. positioned as @s positioned ^ ^ ^0.64 run tp @s ~ ~ ~ ~ ~
