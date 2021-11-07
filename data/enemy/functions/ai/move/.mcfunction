@@ -1,4 +1,5 @@
 ##移動
+#値の距離だけ各方向に進める 上限は10
 data remove storage mob_data: Move
 #前
 execute if data storage mob_data: AI.Turn[0].Move.Front run function enemy:ai/move/front
