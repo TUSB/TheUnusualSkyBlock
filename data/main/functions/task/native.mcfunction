@@ -17,6 +17,9 @@
 ###放物線
 # execute if entity @s[tag=ParabolicEntity] run function calc_manager:parabora/move
 
+###雪玉ヒット検知
+execute if entity @s[tag=DamageSnowball] run function entity:snowball_hit
+
 ###ピクミン
 # execute if entity @s[tag=Pikmin] run function pikmin_manager:throw/tick
 
