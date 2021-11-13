@@ -3,5 +3,5 @@
 
 function makeup:effects/palsy/fail
 
-## TODO
-## スキル失敗処理を追加する
+# 必要MPをあげることで失敗させる。
+scoreboard players set _ MP 2147483647
