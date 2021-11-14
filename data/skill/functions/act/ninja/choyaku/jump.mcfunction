@@ -11,4 +11,4 @@ function skill:damage/add/skill/magic
 #ダメージ付与
 execute as @e[tag=Mob,distance=..9] run function skill:damage/apply/
 #演出
-function makeup:skill/act/ninja/choyaku/cyclone
+function makeup:skill/act/ninja/choyaku/jump

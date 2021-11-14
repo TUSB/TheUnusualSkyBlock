@@ -83,6 +83,7 @@ scoreboard objectives add OdinSlash dummy {"text":"斬鉄剣発動タイミン�
 scoreboard objectives add TacticalHeal dummy {"text":"タクティカルヒール持続確率"}
 #忍者
 scoreboard objectives add Choyaku dummy {"text":"跳躍跳躍力"}
+scoreboard objectives add ChoyakuLevel dummy {"text":"跳躍レベル"}
 scoreboard objectives add Aisatsu dummy {"text":"アイサツ消費MP減少効果量"}
 scoreboard objectives add Katon dummy {"text":"火遁"}
 scoreboard objectives add Kazakiri dummy {"text":"風切"}

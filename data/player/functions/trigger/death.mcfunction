@@ -15,6 +15,9 @@ execute if block ~ ~-2 ~ minecraft:nether_wart_block if entity @s[nbt={OnGround:
 #凍結デバフ解除
 execute if score @s FreezeTimer matches 0.. run function effects:freeze/cure
 
+#跳躍解除
+scoreboard players reset @s ChoyakuLevel
+
 ## 死亡トリガーリセット
 execute store result score @s Hunger run data get entity @s foodLevel
 scoreboard players reset @s Deaths
