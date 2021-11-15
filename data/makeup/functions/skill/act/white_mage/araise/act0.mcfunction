@@ -5,5 +5,5 @@ particle minecraft:end_rod ~ ~1.5 ~ 0.2 1.5 0.2 0 100 force @a[tag=ShowParticles
 particle minecraft:end_rod ~ ~3 ~ 1 0.2 0 0 50 force @a[tag=ShowParticles]
 particle minecraft:end_rod ~ ~3 ~ 0 0.2 1 0 50 force @a[tag=ShowParticles]
 playsound minecraft:entity.firework_rocket.launch master @a[distance=..16] ~ ~ ~ 1 2
-playsound minecraft:entity.player.levelup master @a[distance=..16] ~ ~ ~ 1 0.7
-playsound minecraft:entity.player.levelup master @a[distance=..16] ~ ~ ~ 1 1.6
+playsound minecraft:tusb.levelup master @a[distance=..16] ~ ~ ~ 1 0.7
+playsound minecraft:tusb.levelup master @a[distance=..16] ~ ~ ~ 1 1.6
