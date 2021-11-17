@@ -20,4 +20,4 @@ execute if score 00000000-0000-0000-0000-000000000000 Calc matches 3201.. if sco
 execute if score 00000000-0000-0000-0000-000000000000 Calc matches 6401.. if score 00000000-0000-0000-0000-000000000001 Calc matches ..12800 run tag @a[gamemode=!creative,gamemode=!spectator,distance=64.01..128] add TargetCards
 
 #細かく調べてダメージを与える
-execute as @e[tag=TargetCards] run function skill:enemy/damage/player/apply
+execute as @e[tag=TargetCards] run function skill:enemy/damage/check_distance
