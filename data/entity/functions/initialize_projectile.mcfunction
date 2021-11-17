@@ -14,5 +14,6 @@ tag @s[type=#entity:non_damage_projectiles,tag=DamageProjectile] add DamageSnowb
 execute if entity @s[tag=DamageSnowball] run function entity:initialize_snowball/
 
 ### CallOnAttack設定
+tag @s[tag=CallOnAttack] add CallOnAttackProjectile
 execute if entity @e[tag=Mob,tag=CallOnAttack,distance=..3,limit=1,sort=nearest] run tag @s add CallOnAttackProjectile
 data modify entity @s[tag=CallOnAttackProjectile] Owner set from entity @e[tag=Mob,tag=CallOnAttack,limit=1,sort=nearest,distance=..3] UUID
