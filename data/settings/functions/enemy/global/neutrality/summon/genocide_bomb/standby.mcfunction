@@ -21,6 +21,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 0
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 1
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Event,Blow,Trap,GenocideBombStandbyAec],Level:1}]]},{Name:"Step",Direction:[-180f,-180f],DirectionRange:[360f,360f],Absolute:{Horizontal:true,Vertical:true},Speed:0.01d}],Damage:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Neutrality,Summon,Trap,GenocideBombCountdown,SpawnParticles],Level:100}]]},{Name:"Kill"}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Neutrality,Summon,GenocideBomb,StandbyAec],Level:1}]]},{Name:"Step",Direction:[-180f,-180f],DirectionRange:[360f,360f],Absolute:{Horizontal:true,Vertical:true},Speed:0.01d}],Damage:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Neutrality,Summon,GenocideBomb,Countdown,SpawnParticles],Level:100}]]},{Name:"Kill"}]}
 #Function
 playsound block.end_portal_frame.fill master @a[distance=..32] ~ ~ ~ 1.5 0 0.3
