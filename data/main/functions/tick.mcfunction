@@ -31,8 +31,8 @@ execute as @a[scores={Deaths=1..}] at @s run function player:trigger/death
 ### エンティティ初期化
 execute as @e[tag=!Initialized] at @s run function entity:initialize_entity
 
-### スポナーカート空気時削除
-execute as @e[tag=SpawnerHolder] at @s if block ~ ~ ~ minecraft:air align xyz run tag @e[dy=0,tag=Spawner] add Garbage
+### スポナーカート空気時処理
+execute as @e[tag=SpawnerHolder] at @s if block ~ ~ ~ minecraft:air run function enemy:break_spawner/
 
 ### 召喚済み単回スポナー削除
 kill @e[tag=OneTimeSpawner,nbt={SpawnData:{id:"tusb_mob:empty"}}]
