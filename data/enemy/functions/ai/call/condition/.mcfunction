@@ -6,3 +6,4 @@ execute if data storage mob_data: Condition{Name:"HP"} run function enemy:ai/cal
 execute if data storage mob_data: Condition{Name:"MinMP"} run function enemy:ai/call/condition/min_mp
 execute if data storage mob_data: Condition{Name:"MinHP"} run function enemy:ai/call/condition/min_hp
 execute if data storage mob_data: Condition{Name:"CheckNBT"} run function enemy:ai/call/condition/check_nbt
+execute if data storage mob_data: Condition{Name:"CheckBlock"} run function enemy:ai/call/condition/check_block
