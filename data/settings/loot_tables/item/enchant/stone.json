@@ -758,6 +758,20 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/double_break",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"双壊\"}}]}"
+                }
+              }
+            }
+          ]
         }
       ]
     }

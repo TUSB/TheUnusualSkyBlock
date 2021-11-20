@@ -5,4 +5,4 @@ execute store result entity @s AbsorptionAmount float 1 run scoreboard players g
 
 execute if score _ _ matches 1.. run function enemy:break_spawner/count_down
 execute unless score _ _ matches 1.. align xyz run tag @e[dy=0,tag=Spawner] add Garbage
-execute unless score _ _ matches 1.. run function makeup:enemy/break_spawner
+execute unless score _ _ matches 1.. run function makeup:enemy/break_spawner/

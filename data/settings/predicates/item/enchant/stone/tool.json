@@ -2,6 +2,14 @@
   "condition": "minecraft:alternative",
   "terms": [
     {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"双壊\"}}]}"
+        }
+      }
+    },
+    {
       "condition": "minecraft:reference",
       "name": "settings:item/enchant/stone/all"
     }

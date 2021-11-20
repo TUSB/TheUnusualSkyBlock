@@ -27,6 +27,7 @@ execute as @a[scores={SneakFrequency=1..}] at @s run function player:trigger/sne
 execute as @a[scores={DamageTaken=0..}] at @s run function player:trigger/damage_taken
 execute as @a[scores={Jump=1..}] at @s run function player:trigger/jump
 execute as @a[scores={Deaths=1..}] at @s run function player:trigger/death
+execute as @a[scores={MineSpawner=1..}] at @s run function player:trigger/mine/spawner
 
 ### エンティティ初期化
 execute as @e[tag=!Initialized] at @s run function entity:initialize_entity
