@@ -1,7 +1,8 @@
 
 ### セイクリッドピラー発動
 
-#HP算出前処理
-execute store result score @s PillarDamage run data get entity @s Health 100
-effect give @s minecraft:instant_health 1 20 true
-tag @s add DelayedTask
+#前方を探索
+data modify storage calc: SearchForward set value {Loop:8,Stop:[Block],Align:1b}
+execute anchored eyes positioned ^ ^ ^ anchored feet run function calc:geometry/search_forward/
+
+execute at 0-0-0-0-0 run function skill:act/white_mage/sacred_pillar/act1

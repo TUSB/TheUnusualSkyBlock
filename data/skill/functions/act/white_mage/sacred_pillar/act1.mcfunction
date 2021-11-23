@@ -1,28 +1,15 @@
 
 ### セイクリッドピラー発動
 
-#弾召喚
-execute anchored eyes run summon minecraft:trident ^ ^ ^-0.1 {Tags:[SacredPillar,NativeTask,CooldownRequired,FlyingRequired,KillInGround],PortalCooldown:10,NoGravity:true,Silent:true,DealtDamage:true,Rotation:[0f,90f]}
-execute as @e[tag=SacredPillar,tag=!Initialized,distance=..3] positioned 0.0 0.0 0.0 positioned ^ ^ ^9.99 run function calc:throw_projectile/
+#減少HPを取得
+execute store result score _ SpecialAttack run attribute @s minecraft:generic.max_health get 10
+execute store result score _ _ run data get entity @s Health 10
+scoreboard players operation _ SpecialAttack -= _ _
 
-#ダメージ
-execute if score _ Level matches 1 run data modify storage skill: Damage set from storage skill: Data.WhiteMage[{Name:"セイクリッドピラー",Level:1}].Damage
-execute if score _ Level matches 2 run data modify storage skill: Damage set from storage skill: Data.WhiteMage[{Name:"セイクリッドピラー",Level:2}].Damage
-execute if score _ Level matches 3 run data modify storage skill: Damage set from storage skill: Data.WhiteMage[{Name:"セイクリッドピラー",Level:3}].Damage
-function skill:damage/add/skill/magic
+#ダメージあれば成功
+execute if score _ SpecialAttack matches ..0 run function makeup:skill/act/white_mage/sacred_pillar/failure
+execute if score _ SpecialAttack matches 1.. run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[Skill,SacredPillar,NativeTask],Duration:1}
+execute if score _ SpecialAttack matches 1.. as @e[tag=SacredPillar,tag=!Initialized,limit=1,distance=..0.01] run function skill:act/white_mage/sacred_pillar/success
 
-execute store result score _ Calc run data get entity @s Health 100
-scoreboard players operation _ Calc -= @s PillarDamage
-#>ダメージ補正
-# Δhp/4 * (3列60HP*<属性攻撃値>*20) これくらい？ 20秒
-# Δhp/4 * (4列80HP*<属性攻撃値>*35) これくらい？ 30秒
-# Δhp/4 * (6列120HP*<属性攻撃値>*50) これくらい？ 40秒
-scoreboard players set _ _ 4
-scoreboard players operation _ Calc /= _ _
-function skill:damage/modify
-
-#ダメージ保存
-execute as @e[tag=!Initialized,limit=1,distance=..3] run function skill:damage/save
-
-#レベル保存
-scoreboard players operation @e[tag=!Initialized,limit=1,distance=..3] Level = _ Level
+#HP回復
+effect give @s minecraft:instant_health 1 20 true

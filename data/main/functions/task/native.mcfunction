@@ -51,7 +51,7 @@ execute if entity @s[tag=FlowerGift] run function skill:act/white_mage/flower_gi
 ###レイズ処理
 execute if entity @s[tag=RaisePoint] run function makeup:skill/act/white_mage/araise/tick
 ###セイクリッドピラー処理
-execute if entity @s[tag=SacredPillarBase] run function skill:act/white_mage/sacred_pillar/tick/common
+execute if entity @s[tag=SacredPillar] run function skill:act/white_mage/sacred_pillar/tick/
 ###ホーリー処理
 execute if entity @s[tag=Holy] run function skill:act/white_mage/holy/tick
 ###アイスジャベリン処理

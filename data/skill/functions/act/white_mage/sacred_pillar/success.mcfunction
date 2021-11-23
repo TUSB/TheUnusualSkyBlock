@@ -1,18 +1,21 @@
 
 ### セイクリッドピラーダメージあり
 
-summon minecraft:area_effect_cloud ~ ~ ~ {Age:-2147483648,Radius:0f,Particle:"minecraft:block minecraft:air"}
-execute if score @s Level matches 1 run scoreboard players set @e[tag=!Initialized,limit=1,distance=..3] PillarCount 20
-execute if score @s Level matches 2 run scoreboard players set @e[tag=!Initialized,limit=1,distance=..3] PillarCount 35
-execute if score @s Level matches 3 run scoreboard players set @e[tag=!Initialized,limit=1,distance=..3] PillarCount 50
+#ダメージ
+execute if score _ Level matches 1 run data modify storage skill: Damage set from storage skill: Data.WhiteMage[{Name:"セイクリッドピラー",Level:1}].Damage
+execute if score _ Level matches 2 run data modify storage skill: Damage set from storage skill: Data.WhiteMage[{Name:"セイクリッドピラー",Level:2}].Damage
+execute if score _ Level matches 3 run data modify storage skill: Damage set from storage skill: Data.WhiteMage[{Name:"セイクリッドピラー",Level:3}].Damage
+function skill:damage/add/skill/magic
 
-#ダメージ値 引き渡し
-function skill:damage/load
-execute as @e[tag=!Initialized,limit=1,distance=..3] run function skill:damage/save
+#ダメージ補正 = 1倍/10減少HP
+scoreboard players operation _ Calc = _ SpecialAttack
+function skill:damage/modify
+function skill:damage/save
+execute if score _ Level matches 1 run data modify entity @s Duration set value 400
+execute if score _ Level matches 2 run data modify entity @s Duration set value 600
+execute if score _ Level matches 3 run data modify entity @s Duration set value 800
 
-execute if score @s Level matches 1 run data merge entity @e[tag=!Initialized,limit=1,distance=..3] {PortalCooldown:400,Tags:[CooldownRequired,SacredPillarBase,PillarLevel1,NativeTask]}
-execute if score @s Level matches 2 run data merge entity @e[tag=!Initialized,limit=1,distance=..3] {PortalCooldown:600,Tags:[CooldownRequired,SacredPillarBase,PillarLevel2,NativeTask]}
-execute if score @s Level matches 3 run data merge entity @e[tag=!Initialized,limit=1,distance=..3] {PortalCooldown:800,Tags:[CooldownRequired,SacredPillarBase,PillarLevel3,NativeTask]}
+scoreboard players operation @s Level = _ Level
 
 #演出
 function makeup:skill/act/white_mage/sacred_pillar/success
