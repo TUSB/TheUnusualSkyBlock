@@ -10,7 +10,7 @@ execute if score _ Level matches 4 run data modify storage skill: Damage set fro
 execute if score _ Level matches 5 run data modify storage skill: Damage set from storage skill: Data.BlackMage[{Name:"エクリプスフレイム",Level:5}].Damage
 function skill:damage/add/skill/magic
 #雪玉を召喚
-execute anchored eyes run summon arrow ^ ^ ^0.5 {Tags:[Skill,EclipseFlameBullet,NativeTask,FlyingRequired,KillInGround],NoGravity:1b,damage:1,Color:13720589,Passengers:[{id:"minecraft:area_effect_cloud",Duration:1200,Tags:[Skill,EclipseFlameCore,NativeTask]}]}
+execute anchored eyes run summon arrow ^ ^ ^0.5 {Tags:[Skill,EclipseFlameBullet,NativeTask,FlyingRequired,KillInGround],damage:1,Color:13720589,Passengers:[{id:"minecraft:area_effect_cloud",Duration:1200,Tags:[Skill,EclipseFlameCore,NativeTask]}]}
 execute as @e[tag=EclipseFlameBullet,tag=!Initialized,distance=..3] positioned 0.0 0.0 0.0 positioned ^ ^ ^1.55 run function calc:throw_projectile/
 #コアのダメージを保存
 execute as @e[tag=EclipseFlameCore,tag=!Initialized,distance=..3] run function skill:damage/save

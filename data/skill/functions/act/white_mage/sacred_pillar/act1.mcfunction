@@ -2,7 +2,7 @@
 ### セイクリッドピラー発動
 
 #弾召喚
-execute anchored eyes run summon minecraft:trident ^ ^ ^-0.1 {Tags:[SacredPillar,NativeTask,CooldownRequired,NoGravity,FlyingRequired,KillInGround],PortalCooldown:10,NoGravity:true,Silent:true,DealtDamage:true,Rotation:[0f,90f]}
+execute anchored eyes run summon minecraft:trident ^ ^ ^-0.1 {Tags:[SacredPillar,NativeTask,CooldownRequired,FlyingRequired,KillInGround],PortalCooldown:10,NoGravity:true,Silent:true,DealtDamage:true,Rotation:[0f,90f]}
 execute as @e[tag=SacredPillar,tag=!Initialized,distance=..3] positioned 0.0 0.0 0.0 positioned ^ ^ ^9.99 run function calc:throw_projectile/
 
 #ダメージ

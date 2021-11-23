@@ -1,7 +1,7 @@
 ### 投射物による攻撃
 
 #投射物からロード
-execute at @e[tag=Mob,nbt=!{AbsorptionAmount:1000000f}] as @e[type=#minecraft:impact_projectiles,limit=1,sort=nearest] run function player:trigger/projectile/load
+execute at @e[tag=Mob,nbt=!{AbsorptionAmount:1000000f}] as @e[type=#entity:projectiles,limit=1,sort=nearest] run function player:trigger/projectile/load
 
 #物理・属性ダメージ付与
 execute as @e[tag=Mob,nbt=!{AbsorptionAmount:1000000f}] run function skill:damage/apply/

@@ -9,7 +9,7 @@ execute if score _ Level matches 4 run data modify storage skill: Damage set fro
 function skill:damage/add/skill/weapon
 
 # 投てき物を召喚
-execute anchored eyes run summon arrow ^ ^ ^2.5 {Tags:[Skill,AerialSlash,NativeTask,FlyingRequired,KillInGround,NoGravity,IgnoreReflection],NoGravity:1b,damage:1,Color:-1}
+execute anchored eyes run summon arrow ^ ^ ^2.5 {Tags:[Skill,AerialSlash,NativeTask,FlyingRequired,KillInGround,IgnoreReflection],NoGravity:1b,damage:1,Color:-1}
 
 #ダメージを保存
 execute as @e[tag=AerialSlash,tag=!Initialized,distance=..6] run function skill:damage/save

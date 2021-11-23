@@ -6,7 +6,7 @@ scoreboard players operation _ OhMyDatID = @s OhMyDatID
 execute as @e[tag=Issen] if score @s OhMyDatID = _ OhMyDatID run kill @s
 
 #新たに一閃を発生させる
-summon minecraft:villager ~ ~ ~ {NoGravity:true,PortalCooldown:30,Tags:[Issen,NoGravity],Team:NoCollision,Silent:true,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:false}],Offers:{Recipes:[]}}
+summon minecraft:villager ~ ~ ~ {NoGravity:true,PortalCooldown:30,Tags:[Issen],Team:NoCollision,Silent:true,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:false}],Offers:{Recipes:[]}}
 scoreboard players operation @e[tag=!Initialized,tag=Issen,limit=1] OhMyDatID = @s OhMyDatID
 
 #一閃速度設定
