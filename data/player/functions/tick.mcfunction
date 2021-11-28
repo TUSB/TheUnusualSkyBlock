@@ -34,7 +34,7 @@ execute if entity @s[scores={OdinSlash=0..}] run function skill:act/knight/odin_
 # 忍者
 execute if entity @s[scores={Choyaku=0..},nbt={OnGround:false,FallDistance:0.0f}] run function makeup:skill/act/ninja/choyaku/direction
 execute if entity @s[scores={Kazakiri=0..}] run function skill:act/ninja/kazakiri/tick
-execute if entity @s[scores={Kaishaku=0..}] run function skill:act/ninja/kaishaku/wear
+execute if entity @s[scores={Kaishaku=0..}] run function skill:act/ninja/kaishaku/player_tick
 execute if entity @s[scores={Issen=0..}] run function skill:act/ninja/issen/tick
 
 ### MP回復

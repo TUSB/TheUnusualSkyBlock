@@ -11,3 +11,6 @@ execute as @e[tag=TickingRequired] run function entity:check_freeze
 
 ### プレイヤー
 execute as @a at @s run function player:one_second
+
+### Mob
+execute as @e[tag=Mob] at @s run function enemy:one_second

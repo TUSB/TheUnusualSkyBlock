@@ -35,7 +35,7 @@ execute if entity @s[tag=OdinSlash3] run function skill:act/knight/odin_slash/ti
 ###手裏剣
 # execute if entity @s[tag=Shuriken] run function skill:act/ninja/shuriken/tick
 ###介錯処理
-execute if entity @s[tag=KaishakuExplosion] run function skill:act/ninja/kaishaku/tick
+execute if entity @s[tag=KaishakuExplosion] run function skill:act/ninja/kaishaku/explode_tick
 ###ステークスファイア処理
 execute if entity @s[tag=StakesFire] run function makeup:skill/act/hunter/stakes_fire/tick
 ###バードストライク処理
