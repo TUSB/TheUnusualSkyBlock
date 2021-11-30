@@ -80,6 +80,7 @@ scoreboard objectives add FalconSlashTimer dummy {"text":"はやぶさ斬り遅�
 scoreboard objectives add IronWill dummy {"text":"アイアンウィル残りtick数"}
 scoreboard objectives add RagingDamage dummy {"text":"猛火斬ダメージ"}
 scoreboard objectives add OdinSlash dummy {"text":"斬鉄剣発動タイミング調整"}
+scoreboard objectives add ReactiveLevel dummy {"text":"リアクティブヒールレベル"}
 scoreboard objectives add TacticalHeal dummy {"text":"タクティカルヒール持続確率"}
 #忍者
 scoreboard objectives add Choyaku dummy {"text":"跳躍跳躍力"}
