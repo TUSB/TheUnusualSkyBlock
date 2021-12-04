@@ -8,3 +8,4 @@ execute if data storage mob_data: Condition{Name:"MinHP"} run function enemy:ai/
 execute if data storage mob_data: Condition{Name:"CheckNBT"} run function enemy:ai/call/condition/check_nbt
 execute if data storage mob_data: Condition{Name:"CheckBlock"} run function enemy:ai/call/condition/check_block
 execute if data storage mob_data: Condition{Name:"Function"} run function enemy:ai/call/condition/function
+execute if data storage mob_data: Condition{Name:"Pass"} store result score _ Calc run data get storage mob_data: Condition.Pass

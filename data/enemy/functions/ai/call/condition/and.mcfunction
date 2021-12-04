@@ -9,9 +9,13 @@ function enemy:ai/call/condition/
 
 #Notフラグ
 execute store success score _ _ if data storage mob_data: Condition{Inverse:1b}
+scoreboard players operation _ Calc += _ _
+
+# グローバルコンディション
+execute if data storage mob_data: Condition{Global:1b} if score _ Calc matches 1 run data modify storage mob_data: CallList[].Condition append value {Name:"Pass",Pass:1b}
+execute if data storage mob_data: Condition{Global:1b} if score _ Calc matches 0 run data modify storage mob_data: CallList[].Condition append value {Name:"Pass",Pass:0b}
 
 # 成功時次のConditionを試す。
-scoreboard players operation _ Calc += _ _
 execute if score _ Calc matches 1 if data storage mob_data: Call.Condition[0] run function enemy:ai/call/condition/and
 
 #失敗時スキルを実行するフラグを落とす
