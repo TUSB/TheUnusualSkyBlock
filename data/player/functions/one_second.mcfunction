@@ -17,7 +17,7 @@ execute if entity @s[scores={ResistEffects=1..}] run function effects:resist
 scoreboard players reset @s[scores={ResistLock=1..}] ResistLock
 
 ###特殊デバフ処理
-execute if entity @s[tag=Burn,nbt={Fire:-20s}] run function effects:burn/cure
+execute if entity @s[scores={BurnCount=0..}] run function effects:burn/tick
 execute if entity @s[scores={ConfuseCount=1..}] run function effects:confuse/tick
 execute if entity @s[scores={DoomCount=1..}] run function effects:doom/proceed
 execute if entity @s[scores={PalsyLevel=1..}] run function effects:palsy/tick

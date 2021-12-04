@@ -9,7 +9,7 @@ execute if entity @s[advancements={effects:invisible={doom=true}}] unless score 
 execute if entity @s[advancements={effects:invisible={super_doom=true}}] unless score @s DoomCount matches 1..13 run function effects:doom/apply
 execute if entity @s[advancements={effects:invisible={super_doom=true}}] unless score @s DoomCount matches 1..13 run scoreboard players set _ _ 10
 execute if entity @s[advancements={effects:invisible={super_doom=true}}] unless score @s DoomCount matches 1..13 run scoreboard players operation @s DoomCount < _ _
-execute if entity @s[advancements={effects:invisible={burn=true}}] unless entity @s[tag=Burn] run function effects:burn/apply
+execute if entity @s[advancements={effects:invisible={burn=true}}] unless block ~ ~ ~ water run function effects:burn/apply
 execute if entity @s[advancements={effects:invisible={freeze=true}}] unless entity @s[tag=Freeze] run function effects:freeze/apply0
 execute if entity @s[advancements={effects:invisible={palsy=true}}] unless score @s PalsyLevel matches 0.. run function effects:palsy/apply
 execute if entity @s[advancements={effects:invisible={confuse=true}}] unless score @s ConfuseCount matches 0.. run function effects:confuse/apply
