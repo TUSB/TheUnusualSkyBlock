@@ -1,2 +1,2 @@
 #Function
-execute if entity @e[type=item,nbt={Item:{id:"oak_log"}},distance=..16]
+execute if entity @e[type=item,nbt={Item:{id:"minecraft:oak_log"}},distance=..16]
