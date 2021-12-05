@@ -6,3 +6,4 @@ execute if data storage mob_data: Condition{Percent:1b} run scoreboard players o
 execute if data storage mob_data: Condition{Percent:1b} run scoreboard players operation _ MP /= _ _
 
 execute if score @s MP >= _ MP store success score _ Calc run scoreboard players operation @s MP -= _ MP
+scoreboard players operation @s MP < @s MPMax
