@@ -175,3 +175,6 @@ function skill:data/
 
 #TIPSデータ
 function settings:player/tips
+
+#飛空島ゲート駅schedule開始
+function area:flying_islands_gate/change
