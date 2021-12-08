@@ -1,8 +1,12 @@
+execute if entity @s[tag=Creeper100TickDeath] run function settings:enemy/global/ground/blow/creeper_100tick_death
 execute if entity @s[tag=IceCreeper] run function settings:enemy/global/ground/blow/ice_creeper
 execute if entity @s[tag=PerverseCreeper] run function settings:enemy/global/ground/blow/perverse_creeper
+execute if entity @s[tag=CreeperSummoner] run function settings:enemy/global/ground/blow/creeper_summoner
+execute if entity @s[tag=PoyonPoyonCreeper] run function settings:enemy/global/ground/blow/poyon_poyon_creeper/
 execute if entity @s[tag=WitherSkeletonPlus] run function settings:enemy/global/ground/blow/wither_skeleton_plus/
 execute if entity @s[tag=Ninja] run function settings:enemy/global/ground/blow/ninja/
 execute if entity @s[tag=Goblins] run function settings:enemy/global/ground/blow/goblins/
 execute if entity @s[tag=Executioner] run function settings:enemy/global/ground/blow/executioner/
 execute if entity @s[tag=Deidora] run function settings:enemy/global/ground/blow/deidora/
+execute if entity @s[tag=DropZombie] run function settings:enemy/global/ground/blow/drop_zombie/
 execute if entity @s[tag=BacktheCreeper] run function settings:enemy/global/ground/blow/backthe_creeper/
