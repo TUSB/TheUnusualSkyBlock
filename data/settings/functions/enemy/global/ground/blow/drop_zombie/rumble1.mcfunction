@@ -21,7 +21,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 0
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 0
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Damage",Player:{Damage:12d,BypassArmor:true},Distance:{Min:0,Max:1}}],Time:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Ground,Blow,DropZombie,Rumble2],Level:1}]],Speed:0.0d,SpeedRange:0.0d,Count:1}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Damage",Player:{Damage:28d,BypassArmor:true},Distance:{Min:0,Max:1}}],Time:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Ground,Blow,DropZombie,Rumble2],Level:1}]],Speed:0.0d,SpeedRange:0.0d,Count:1}]}
 #Function
 playsound block.composter.fill master @a[distance=..20] ~ ~ ~ 1.0 1.5
 particle block stone ^0 ^ ^-1 0 0 0 0 1
