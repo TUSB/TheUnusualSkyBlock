@@ -2,6 +2,6 @@
 data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:snowball",NoGravity:1b,PortalCooldown:600,Tags:[DelayedData,HasAI,CallOnInit,CallOnTimeOut,CooldownRequired]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {Item:{id:"minecraft:tnt",Count:1b}}
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Step",Direction:[0f,-60f],Speed:0.7d,Target:{Look:"enemy",Radius:24d,IgnoreBlocks:true}}],Time:[{Name:"Kill"}],Turn:[{Skill:[{Interval:{Min:3,Max:3,Current:20},Loop:{Max:5,Current:5},Call:[{Name:"Step",Direction:[0f,0f],Speed:0.7d,Target:{Look:"enemy",Radius:64d},Condition:[{Name:"HasTarget",Target:{Look:"enemy",Radius:64}}]}]}]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Step",Direction:[0f,-60f],Speed:0.7d,Target:{Look:"enemy",Radius:24d,IgnoreBlocks:true}}],Time:[{Name:"Kill"}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:3,Max:3,Current:20},Loop:{Max:5,Current:5},Call:[{Name:"Step",Direction:[0f,0f],Speed:0.7d,Target:{Look:"enemy",Radius:64d},Condition:[{Name:"HasTarget",Target:{Look:"enemy",Radius:64}}]}]}]}]}
 #Function
 playsound entity.shulker.shoot master @a[distance=..20] ~ ~ ~ 1.0 2.0

@@ -21,4 +21,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 1
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 1
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Turn:[{Skill:[{Interval:{Min:50,Max:200,Current:50},Call:[{Name:"Teleport",Target:{Look:"player",Radius:24,IgnoreBlocks:1b},Direction:[-60f,0f],DirectionRange:[120f,0f],Speed:3d,SpeedRange:3d},{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Other,Blow,RootAec,SpawnParticles],Level:1}]]}]}]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:50,Max:200,Current:50},Call:[{Name:"Teleport",Target:{Look:"player",Radius:24,IgnoreBlocks:1b},Direction:[-60f,0f],DirectionRange:[120f,0f],Speed:3d,SpeedRange:3d},{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Other,Blow,RootAec,SpawnParticles],Level:1}]]}]}]}]}

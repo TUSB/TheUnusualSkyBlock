@@ -21,4 +21,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 1
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Time:[{Name:"Kill"}],Turn:[{Target:{Look:"player",Radius:32d},Rotate:[360f,360f]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Time:[{Name:"Kill"}],TurnCount:1,Turn:[{Index:1,Target:{Look:"player",Radius:32d},Rotate:[360f,360f]}]}
