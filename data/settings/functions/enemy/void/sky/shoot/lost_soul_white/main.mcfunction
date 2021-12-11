@@ -14,11 +14,11 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."雷属�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."光属性値" set value -100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."闇属性値" set value 200
 # ステータス
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 221
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 221
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 221
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 221
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 221
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 221
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:2,Turn:[{Index:1,Skill:[{Interval:{Min:1,Max:1,Current:1},Loop:{Max:1,Current:1},Call:[{Condition:[{Name:"HasTarget",Target:{Look:"player",Radius:100d,IgnoreBlocks:true}}],Name:"Step",Speed:0.4d,Target:{Look:"player",Radius:44d,IgnoreBlocks:true}}]},{Interval:{Min:1,Max:1,Current:1},Loop:{Max:1,Current:1},Call:[{Condition:[{Name:"HasTarget",Target:{Look:"player",Radius:100d,IgnoreBlocks:true},Half:"up"}],Name:"Step",Direction:[0f,-90f],DirectionRange:[0f,25f],Speed:0.8d}]}],Exit:{Condition:[{Name:"HasTarget",Target:{Look:"player",Radius:10d,IgnoreBlocks:true}}]}},{Index:2,Skill:[{Interval:{Min:1,Max:1,Current:1},Loop:{Max:1,Current:1},Call:[{Condition:[{Grobal:1b,Name:"HasTarget",Target:{Look:"player",Radius:44d,IgnoreBlocks:true}}],Name:"Step",Speed:-0.3d,Target:{Look:"player",Radius:44d,IgnoreBlocks:true}}]},{Interval:{Min:1,Max:1,Current:1},Loop:{Max:1,Current:1},Call:[{Condition:[{Name:"HasTarget",Target:{Look:"player",Radius:44d,IgnoreBlocks:true},Half:"up"}],Name:"Step",Direction:[0f,-90f],DirectionRange:[0f,25f],Speed:0.8d}]}],Exit:{Condition:[{Name:"HasTarget",Inverse:true,Target:{Look:"player",Radius:10d,IgnoreBlocks:true}}]}}]}
