@@ -1,6 +1,9 @@
 
 ### 死亡時処理
 
+#奈落死亡処理
+execute if entity @s[advancements={player:trigger/death={void_death=true}}] run function player:trigger/void_death
+
 # レイズ処理
 tag @s[tag=Reraise] add Raise
 tag @s[tag=Reraise] remove Reraise
@@ -22,6 +25,7 @@ scoreboard players reset @s ChoyakuLevel
 ## 死亡トリガーリセット
 execute store result score @s Hunger run data get entity @s foodLevel
 scoreboard players reset @s Deaths
+advancement revoke @s only player:trigger/death
 
 # TIPS表示
 function player:tips/show

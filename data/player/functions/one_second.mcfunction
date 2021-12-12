@@ -23,3 +23,6 @@ execute if entity @s[scores={DoomCount=1..}] run function effects:doom/proceed
 execute if entity @s[scores={PalsyLevel=1..}] run function effects:palsy/tick
 execute if entity @s[scores={TntCount=0..}] if block ~ ~ ~ water run function effects:tnt/cure
 execute if entity @s[scores={VirusCount=1..}] run function effects:virus/tick
+
+#エリア外死亡処理
+execute unless predicate entity:kill_check run kill @s
