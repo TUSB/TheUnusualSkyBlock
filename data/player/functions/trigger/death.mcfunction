@@ -2,7 +2,7 @@
 ### 死亡時処理
 
 #奈落死亡処理
-execute if entity @s[advancements={player:trigger/death={void_death=true}}] run function player:trigger/void_death
+execute if entity @s[advancements={player:trigger/death={void_death=true}}] run function player:trigger/void_death/
 
 # レイズ処理
 tag @s[tag=Reraise] add Raise
