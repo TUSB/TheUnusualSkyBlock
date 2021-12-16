@@ -1,7 +1,7 @@
-execute store success entity @s[tag=InitDamageSnowball2] NoGravity byte 1 unless data entity @s NoGravity
-tag @s[tag=InitDamageSnowball2] remove InitDamageSnowball
-tag @s[tag=InitDamageSnowball2] remove InitDamageSnowball2
-tag @s[tag=InitDamageSnowball] add InitDamageSnowball2
+execute store success entity @s[tag=InitSnowball2] NoGravity byte 1 unless data entity @s NoGravity
+tag @s[tag=InitSnowball2] remove InitSnowball
+tag @s[tag=InitSnowball2] remove InitSnowball2
+tag @s[tag=InitSnowball] add InitSnowball2
 
 execute store result score _ _ run data get entity @s Motion[1] 100
 scoreboard players add _ _ 3
