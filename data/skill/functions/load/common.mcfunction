@@ -1,4 +1,8 @@
 execute if data storage skill: Skill{Name:"虚無の取り出し",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"虚無の取り出し",Level:1}]
+execute if data storage skill: Skill{Name:"ハイジャンプ",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"ハイジャンプ",Level:1}]
+execute if data storage skill: Skill{Name:"ハイジャンプ",Level:2} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"ハイジャンプ",Level:2}]
+execute if data storage skill: Skill{Name:"ハイジャンプ",Level:3} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"ハイジャンプ",Level:3}]
+execute if data storage skill: Skill{Name:"ハイジャンプ",Level:4} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"ハイジャンプ",Level:4}]
 execute if data storage skill: Skill{Name:"冷やしパンプキンスープ",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"冷やしパンプキンスープ",Level:1}]
 execute if data storage skill: Skill{Name:"コーンスープ",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"コーンスープ",Level:1}]
 execute if data storage skill: Skill{Name:"フォトン・レイ",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"フォトン・レイ",Level:1}]

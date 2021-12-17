@@ -1,4 +1,5 @@
 execute if data storage skill: Skill{Name:"虚無の取り出し"} run function skill:act/common/void_loot/act0
+execute if data storage skill: Skill{Name:"ハイジャンプ"} run function skill:act/common/high_jump/act0
 execute if data storage skill: Skill{Name:"冷やしパンプキンスープ"} run function skill:act/common/cold_pumpkin_soup/act0
 execute if data storage skill: Skill{Name:"コーンスープ"} run function skill:act/common/corn_soup/act0
 execute if data storage skill: Skill{Name:"フォトン・レイ"} run function skill:act/common/photon_ray/act0
