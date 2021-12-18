@@ -4,4 +4,4 @@ data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 ### 遅延ステータス
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 100
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Step",Direction:[-7f,-12f],DirectionRange:[14f,9f],Speed:0.3d,Target:{Look:"player",Radius:64d,IgnoreBlocks:true}}],Attack:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Event,Summon,Tnt,TntBulletExplosion],Level:1}]]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Step",Direction:[-7f,-12f],DirectionRange:[14f,9f],Speed:0.3d,Target:{Look:"player",Radius:64d,IgnoreBlocks:true}}],Attack:[{Name:"Damage",Explosion:2},{Name:"Kill"}]}
