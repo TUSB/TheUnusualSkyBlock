@@ -21,11 +21,11 @@ execute as @e[tag=!Initialized] at @s run function entity:initialize_entity
 scoreboard players add $Second Count 1
 execute if score $Second Count matches 20.. run function main:one_second
 
-### 存在する限り毎tick処理呼び出し
-execute as @e[tag=NativeTask] at @s run function main:task/native
-
 ### エンティティAI分岐
 execute as @e[tag=HasAI] at @s run function enemy:ai/tick
+
+### 存在する限り毎tick処理呼び出し
+execute as @e[tag=NativeTask] at @s run function main:task/native
 
 ### Mob tick
 execute as @e[tag=Mob] at @s run function enemy:tick
