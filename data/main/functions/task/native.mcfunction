@@ -87,7 +87,7 @@ execute if entity @s[tag=SummonedBlock] run function skill:act/summoner/fill/tic
 ###グライダー処理
 execute if entity @s[tag=Glider] run function skill:act/summoner/summon_glider/glide
 ###ぷちブラック処理
-# execute if entity @s[tag=PetitBlack] run function skill:act/summoner/petit_black/tick/all
+execute if entity @s[tag=PetitBlack] run function skill:act/summoner/petit_black/tick
 ###ウィークペイント
 # execute if entity @s[tag=WeakPaint] run function skill:act/common/weakness_paint/tick
 ###ライブラ
