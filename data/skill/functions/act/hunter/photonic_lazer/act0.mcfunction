@@ -3,7 +3,7 @@
 ##############################
 
 #召喚
-execute positioned ^ ^ ^18 run summon armor_stand ~ ~ ~ {Tags:[Skill,PhotonicLazer,NativeTask,CooldownRequired],PortalCooldown:100,Marker:1b,Small:1b,NoAI:1b}
+execute positioned ^ ^ ^18 run summon armor_stand ~ ~ ~ {Tags:[Skill,PhotonicLazer,NativeTask,CooldownRequired],PortalCooldown:100,Marker:1b,Small:1b,Invisible:1b}
 execute positioned ^ ^ ^18 as @e[tag=PhotonicLazer,tag=!Initialized,distance=..0.01] run tp @s ~ ~ ~ ~ ~
 
 #ダメージ
