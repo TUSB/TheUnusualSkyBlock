@@ -8,4 +8,4 @@ scoreboard players operation _ _ += @s Defense
 scoreboard players operation _ Calc /= _ _
 scoreboard players operation @s Damage += _ Calc
 
-tag @s add ReceivedPhysicalDamage
+tag @s[tag=CallOnDamage] add ReceivedPhysicalDamage

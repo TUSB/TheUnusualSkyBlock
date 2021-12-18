@@ -9,6 +9,4 @@ tag @s add CallOnDamage
 data modify storage mob_data: AI.Damage append from storage mob_data: Blink
 data remove storage mob_data: Blink
 
-##サウンド
-playsound minecraft:block.enchantment_table.use master @a[distance=..32] ~ ~ ~ 3 0.9
-playsound minecraft:block.enchantment_table.use master @a[distance=..32] ~ ~ ~ 3 0.92
+function makeup:skill/enemy/blink/cast/0
