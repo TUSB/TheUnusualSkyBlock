@@ -1,0 +1,1 @@
+execute unless data storage mob_data: AI.Damage[{Name:"BlinkActivate"}] run function skill:enemy/blink/cast/success

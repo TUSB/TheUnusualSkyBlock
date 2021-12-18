@@ -167,6 +167,7 @@ team modify Gold color gold
 
 ###Callから呼び出されるスキル系統のスコア
 scoreboard objectives add CastingTick dummy
+scoreboard objectives add BlinkSubTimer dummy
 
 #ScoreDamage
 function score_damage:core/init

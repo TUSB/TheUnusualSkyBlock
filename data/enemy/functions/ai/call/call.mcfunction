@@ -11,3 +11,5 @@ execute if data storage mob_data: Call{Name:"Message"} run function skill:enemy/
 execute if data storage mob_data: Call{Name:"Function"} run function skill:enemy/function
 execute if data storage mob_data: Call{Name:"Casting"} run function skill:enemy/casting/
 execute if data storage mob_data: Call{Name:"Damage"} run function skill:enemy/damage/
+execute if data storage mob_data: Call{Name:"Blink"} run function skill:enemy/blink/cast/
+execute if data storage mob_data: Call{Name:"BlinkActivate"} run function skill:enemy/blink/activate/
