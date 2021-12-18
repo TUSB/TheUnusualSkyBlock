@@ -3,7 +3,6 @@ execute if entity @s[tag=TargetBullet] run function settings:enemy/global/event/
 execute if entity @s[tag=IedTnt] run function settings:enemy/global/event/bullet/ied_tnt
 execute if entity @s[tag=SpreadTargetBullet] run function settings:enemy/global/event/bullet/spread_target_bullet
 execute if entity @s[tag=LatticeBullet] run function settings:enemy/global/event/bullet/lattice_bullet
-execute if entity @s[tag=HomingBombshell] run function settings:enemy/global/event/bullet/homing_bombshell
 execute if entity @s[tag=Ice] run function settings:enemy/global/event/bullet/ice/
 execute if entity @s[tag=Fire] run function settings:enemy/global/event/bullet/fire/
 execute if entity @s[tag=Tnt] run function settings:enemy/global/event/bullet/tnt/
