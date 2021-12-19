@@ -2,7 +2,7 @@ function oh_my_dat:please
 data modify storage mob_data: AI set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI
 data modify storage mob_data: CallList set from storage mob_data: AI.Damage
 ##幻影呼び出し
-execute if data storage mob_data: Blink run function skill:enemy/blink/activate/
+execute if data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Blink run function skill:enemy/blink/activate/
 ##
 execute if data storage mob_data: CallList[0].Element run function enemy:ai/call/trigger/damage/element
 
