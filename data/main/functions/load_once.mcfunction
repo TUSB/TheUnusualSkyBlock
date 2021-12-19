@@ -140,7 +140,7 @@ scoreboard objectives add SneakTrigger dummy {"text":"スニーク累積時間"}
 scoreboard objectives add SneakFrequency dummy {"text":"スニーク頻度"}
 scoreboard objectives add PotentialTrigger trigger {"text":"潜在能力変更トリガー"}
 scoreboard objectives add PotentialPrev trigger {"text":"潜在能力変更前回トリガー"}
-scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken {"text":"受けたメージ量"}
+scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken {"text":"受けたダメージ量"}
 scoreboard objectives add Jump minecraft.custom:minecraft.jump {"text":"ジャンプ"}
 scoreboard objectives add Deaths minecraft.custom:minecraft.deaths {"text":"死亡"}
 scoreboard objectives add Hunger dummy {"text":"死亡時調整満腹度"}
@@ -166,8 +166,8 @@ team modify Gold color gold
 
 
 ###Callから呼び出されるスキル系統のスコア
-scoreboard objectives add CastingTick dummy
-scoreboard objectives add BlinkSubTimer dummy
+scoreboard objectives add CastingTick dummy {"text":"詠唱時間"}
+scoreboard objectives add BlinkSubTimer dummy {"text":"幻影発動時タイマー"}
 
 #ScoreDamage
 function score_damage:core/init
