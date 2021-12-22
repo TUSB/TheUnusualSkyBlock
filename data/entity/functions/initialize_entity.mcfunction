@@ -28,5 +28,8 @@ kill @s[type=minecraft:item,nbt={Item:{tag:{NeverRemain:true}}}]
 ### FallingBlockの消滅処理
 execute if entity @s[tag=NeverRemain] run data merge entity @s {FallHurtMax:2147483647,FallingDistance:1E10f,DropItem:false,BlockState:{Name:"minecraft:command_block"},TileEntityData:{Command:"/setblock ~ ~ ~ minecraft:air",auto:true}}
 
+#クリーパー爆発のAEC削除
+kill @s[type=area_effect_cloud,nbt={Radius:2.5f,RadiusOnUse:-0.5f,RadiusPerTick:-0.008333334f}]
+
 ### 初期化済みタグ付与
 tag @s add Initialized
