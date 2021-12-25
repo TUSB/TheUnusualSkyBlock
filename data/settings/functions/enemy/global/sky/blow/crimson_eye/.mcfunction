@@ -1,8 +1,8 @@
 execute if entity @s[tag=Main] run function settings:enemy/global/sky/blow/crimson_eye/main
 execute if entity @s[tag=AttackAura] run function settings:enemy/global/sky/blow/crimson_eye/attack_aura
 execute if entity @s[tag=AttackDrippingBlood] run function settings:enemy/global/sky/blow/crimson_eye/attack_dripping_blood
-execute if entity @s[tag=Appearance] run function settings:enemy/global/sky/blow/crimson_eye/appearance
 execute if entity @s[tag=Direction] run function settings:enemy/global/sky/blow/crimson_eye/direction
+execute if entity @s[tag=Appearance] run function settings:enemy/global/sky/blow/crimson_eye/appearance
 execute if entity @s[tag=Aura] run function settings:enemy/global/sky/blow/crimson_eye/aura
 execute if entity @s[tag=AuraResidual] run function settings:enemy/global/sky/blow/crimson_eye/aura_residual
 execute if entity @s[tag=AuraFireResistanceDelete] run function settings:enemy/global/sky/blow/crimson_eye/aura_fire_resistance_delete
