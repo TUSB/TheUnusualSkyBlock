@@ -9,4 +9,4 @@ data modify storage mob_data: Call.Owner set from entity @s Owner
 data modify storage mob_data: Call.Tags set from entity @s Tags
 
 #ループ実行
-function skill:enemy/laser/main/fork
+execute anchored eyes run function skill:enemy/laser/main/fork
