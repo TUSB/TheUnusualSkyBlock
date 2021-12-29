@@ -10,7 +10,7 @@
 data modify storage mob_data: Settings set from storage mob_data: SettingsList[0]
 data remove storage mob_data: SettingsList[0]
 #Target有無フラグ：Target NBTあるが見つからなかったとき0で失敗
-scoreboard players set 000000000-0000-0000-0000-000000000002 _ 1
+scoreboard players set 00000000-0000-0000-0000-000000000002 _ 1
 
 execute if data storage mob_data: Settings{Name:"At"} run function enemy:ai/call/settings/at
 execute if data storage mob_data: Settings{Name:"Direction"} run function enemy:ai/call/settings/direction
@@ -19,4 +19,4 @@ execute if data storage mob_data: Settings{Name:"Facing"} run function enemy:ai/
 execute if data storage mob_data: Settings{Name:"Anchor"} run function enemy:ai/call/settings/anchor
 
 execute if data storage mob_data: Settings{Name:"As"} run function enemy:ai/call/settings/as
-execute unless data storage mob_data: Settings{Name:"As"} if data storage mob_data: SettingsList[0] if score 000000000-0000-0000-0000-000000000002 _ matches 1 at 0-0-0-0-1 run function enemy:ai/call/settings/
+execute unless data storage mob_data: Settings{Name:"As"} if data storage mob_data: SettingsList[0] if score 00000000-0000-0000-0000-000000000002 _ matches 1 at 0-0-0-0-1 run function enemy:ai/call/settings/

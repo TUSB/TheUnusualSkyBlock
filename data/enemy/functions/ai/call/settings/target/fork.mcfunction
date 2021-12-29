@@ -1,5 +1,4 @@
 ##Target処理
-### ai/tickではas 0-0-0-0-2 それ以外では0-0-0-0-Xで実行
 
 #Target有無フラグをリセット
 scoreboard players set @s _ 0
