@@ -2,8 +2,8 @@
 #{Name:"At",Target:{}}
 #{Name:"Direction",Target:{},Direction:[0f,0f],DirectionRange:[0f,0f],Speed:1d,SpeedRange:1d}
 #{Name:"Rotation",Target:{},Direction:[0f,0f],DirectionRange:[0f,0f],Absolute:{Horizontal:1b,Vertical:1b}}
-#{Name:"Facing",Target:{},Direction:[0f,0f],DirectionRange:[0f,0f]}
-#{Name:"Anchor",Anchor:"eyes|feet"}
+#{Name:"Facing",Target:{}}
+#{Name:"Anchor",Anchor:"Eyes|Feet"}
 
 #Target:{Look:"self|player|enemy|all",Radius:10,IgnoreBlocks:1b}
 
