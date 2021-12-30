@@ -10,7 +10,8 @@
 data modify storage mob_data: Settings set from storage mob_data: SettingsList[0]
 data remove storage mob_data: SettingsList[0]
 
-execute unless data storage mob_data: Settings.Name if score 00000000-0000-0000-0000-000000000002 _ matches 1 at 0-0-0-0-1 run function enemy:ai/call/call
+execute unless data storage mob_data: Settings.Name if data storage mob_data: Settings{Global:1b} if score 00000000-0000-0000-0000-000000000002 _ matches 1 at 0-0-0-0-1 run function enemy:ai/call/execute/fork
+execute unless data storage mob_data: Settings.Name unless data storage mob_data: Settings{Global:1b} if score 00000000-0000-0000-0000-000000000002 _ matches 1 at 0-0-0-0-1 run function enemy:ai/call/call
 
 #Target有無フラグ：Target NBTあるが見つからなかったとき0で失敗
 scoreboard players set 00000000-0000-0000-0000-000000000002 _ 1
