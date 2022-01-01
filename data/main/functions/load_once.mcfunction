@@ -167,6 +167,7 @@ team modify Gold color gold
 
 ###Callから呼び出されるスキル系統のスコア
 scoreboard objectives add CastingTick dummy {"text":"詠唱時間"}
+scoreboard objectives add NextCastingTick dummy {"text":"次の詠唱時間"}
 scoreboard objectives add BlinkSubTimer dummy {"text":"幻影発動時タイマー"}
 
 #ScoreDamage

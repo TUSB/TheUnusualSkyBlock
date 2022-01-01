@@ -21,4 +21,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 1
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 1
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Blink",Count:3,Chance:1d,TriggerOn:[Physical]}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:40,Max:100,Current:0},Loop:{Max:1,Current:1},Call:[{Name:"Blink",Count:3,Chance:1d,TriggerOn:[Physical]}]}]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Casting",Tags:["Cast","Normal"]}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:40,Max:100,Current:40},Loop:{Max:1,Current:1},Call:[{Name:"Casting",Tags:["Cast","Normal"]}]}]}]}

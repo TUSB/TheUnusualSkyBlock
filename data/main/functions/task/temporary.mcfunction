@@ -21,3 +21,8 @@ scoreboard players set _ Calc 2
 scoreboard players operation _ TemporaryEffects *= _ Calc
 ###猛火斬ダメージ付与処理(29)
 execute if score _ TemporaryEffects matches ..-1 run function skill:act/knight/raging_slash/tick
+
+scoreboard players set _ Calc 2
+scoreboard players operation _ TemporaryEffects *= _ Calc
+###詠唱演出(28)
+execute if score _ TemporaryEffects matches ..-1 run function skill:enemy/casting/act/
