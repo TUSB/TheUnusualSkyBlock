@@ -10,19 +10,6 @@
         }
       }
     },
-    "hit_skill_snowball": {
-      "trigger": "minecraft:player_hurt_entity",
-      "conditions": {
-        "damage": {
-          "type": {
-            "is_projectile": true,
-            "direct_entity": {
-              "nbt": "{Tags:[HasSkillSnowball]}"
-            }
-          }
-        }
-      }
-    },
     "melee_attack": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
@@ -124,7 +111,7 @@
       }
     }
   },
-  "requirements": [["hit_projectile","hit_skill_snowball","melee_attack","melee_bow_attack","sword_attack_sweep"]],
+  "requirements": [["hit_projectile","melee_attack","melee_bow_attack","sword_attack_sweep"]],
   "rewards": {
     "function": "player:trigger/hurt_entity/"
   }
