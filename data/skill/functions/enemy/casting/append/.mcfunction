@@ -1,9 +1,7 @@
 #oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4]
-data remove storage mob_data: Casting
 data modify storage mob_data: Casting set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Casting
 
 
-data remove storage mob_data: AddingCast
 execute if data storage mob_data: Call{Tags:["Cast"]} run function skill:enemy/casting/append/cast/
 execute if data storage mob_data: Call{Type:["LaserPointer"]}
 
@@ -20,9 +18,17 @@ execute if score @s NextCastingTick matches -2147483647..2147483647 run scoreboa
 ###挿入する場所の探索
 function skill:enemy/casting/append/search
 
+
+
+###Ohmydatに保存
+data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Casting
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Casting set from storage mob_data: Casting
 
 
+
+###一時的に保存したデータの破棄
+data remove storage mob_data: Casting
+data remove storage mob_data: AddingCast
 
 ###ビットレイズ
 execute store result storage calc: Bit.Flags int 1 run scoreboard players get @s TemporaryEffects
