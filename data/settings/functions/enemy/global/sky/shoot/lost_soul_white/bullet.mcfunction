@@ -5,4 +5,4 @@ data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Step",Speed:0.6d,Target:{Look:"player",Radius:64d,IgnoreBlocks:true}}],Time:[{Name:"Kill"}],TurnCount:1,Turn:[{Index:1}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Step",Speed:0.6d,Target:{Look:"Player",Radius:64d,IgnoreBlocks:true}}],Time:[{Name:"Kill"}],TurnCount:1,Turn:[{Index:1}]}

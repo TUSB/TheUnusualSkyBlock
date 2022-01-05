@@ -21,4 +21,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 1
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 1
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Name:"Teleport",Direction:[-180f,0f],Target:{Look:"player",Radius:8},Speed:2d},{Name:"MergeNBT",NBT:{ExplosionRadius:5b,Fuse:0s,ignited:true}}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Name:"Teleport",Direction:[-180f,0f],Target:{Look:"Player",Radius:8},Speed:2d},{Name:"MergeNBT",NBT:{ExplosionRadius:5b,Fuse:0s,ignited:true}}]}

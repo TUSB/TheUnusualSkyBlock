@@ -21,4 +21,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 1
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 1
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:32,Max:96,Current:250},Call:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Ground,Shoot,PumpkinKid,Mortar],Level:1}],[{Tags:[Global,Ground,Shoot,PumpkinKid,MortarAec],Level:1}]],Target:{Look:"player",Radius:32.0d,IgnoreBlocks:true},Speed:0.2d,Condition:[{Name:"HasTarget",Target:{Look:"player",Radius:32}}]}]}]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:32,Max:96,Current:250},Call:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Ground,Shoot,PumpkinKid,Mortar],Level:1}],[{Tags:[Global,Ground,Shoot,PumpkinKid,MortarAec],Level:1}]],Target:{Look:"Player",Radius:32.0d,IgnoreBlocks:true},Speed:0.2d,Condition:[{Name:"HasTarget",Target:{Look:"Player",Radius:32}}]}]}]}]}

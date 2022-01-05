@@ -4,4 +4,4 @@ data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 ### 遅延ステータス
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 100
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Step",Direction:[0f,180f],Speed:0.5d,Target:{Look:"enemy",Radius:0.12d}}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Step",Direction:[0f,180f],Speed:0.5d,Target:{Look:"Enemy",Radius:0.12d}}]}
