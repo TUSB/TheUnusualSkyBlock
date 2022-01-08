@@ -1,4 +1,5 @@
 #向きを設定
+tp @s ~ ~ ~ ~ ~
 #Marker召喚
 execute in area:control_area positioned 0.0 0.0 0.0 run function calc:geometry/tp_00000
 #ターゲット
