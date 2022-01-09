@@ -23,12 +23,12 @@ scoreboard players operation _ Calc %= _ _
 execute if score _ Calc matches 1 at @s run tp @s ~160 ~ ~
 execute if score _ Calc matches 2 at @s run tp @s ~320 ~ ~
 execute if score _ Calc matches 3 at @s run tp @s ~480 ~ ~
-execute if score _ Calc matches 4 at @s run tp @s ~720 ~ ~
-execute if score _ Calc matches 5 at @s run tp @s ~980 ~ ~
+execute if score _ Calc matches 4 at @s run tp @s ~640 ~ ~
+execute if score _ Calc matches 5 at @s run tp @s ~800 ~ ~
 
 #spreadplayersしてY255の天井下にTP
-execute at @s run spreadplayers ~ ~ 0 50 false @s
-execute at @s run tp @s ~ ~-8 ~
+execute at @s run spreadplayers ~ ~ 0 40 false @s
+execute at @s run tp @s ~ ~-10 ~
 
 #プレイヤーTP、返却
 tp @a[distance=0,limit=1] @s
