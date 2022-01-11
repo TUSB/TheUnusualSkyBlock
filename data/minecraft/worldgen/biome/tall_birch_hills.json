@@ -14,7 +14,7 @@
       "probability": 0.0005
     },
     "foliage_color": 15414455,
-    "grass_color": 9626092,
+    "grass_color": 6541794,
     "sky_color": 16777167,
     "fog_color": 16777215,
     "water_color": 16087771,
@@ -74,12 +74,6 @@
         "maxCount": 4
       },
       {
-        "type": "minecraft:enderman",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 4
-      },
-      {
         "type": "minecraft:witch",
         "weight": 5,
         "minCount": 1,
@@ -94,7 +88,7 @@
   },
   "spawn_costs": {},
   "player_spawn_friendly": false,
-  "precipitation": "rain",
+  "precipitation": "none",
   "temperature": 0.5,
   "downfall": 0.5,
   "category": "none",

@@ -56,12 +56,6 @@
         "maxCount": 4
       },
       {
-        "type": "minecraft:enderman",
-        "weight": 1,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
         "type": "minecraft:piglin",
         "weight": 15,
         "minCount": 4,
