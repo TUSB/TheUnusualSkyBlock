@@ -11,11 +11,8 @@ tag 0-0-0-0-0 add PhotonicMarker
 scoreboard players add @s Calc 1
 scoreboard players set @s[scores={Calc=18}] Calc 0
 
-#10tickごとにダメージ用カウント
-scoreboard players add @s Interval 1
-scoreboard players set @s[scores={Interval=11}] Interval 1
 #ダメージをロード
-execute if score _ Interval matches 10 run function skill:damage/load
+function skill:damage/load
 
 #2m間隔16地点で実行
 execute at @e[tag=PhotonicMarker,distance=..0.01,limit=2] positioned ^ ^ ^8 rotated as @e[tag=PhotonicMarker,distance=..8.01,limit=2] positioned ^ ^ ^4 rotated as @e[tag=PhotonicMarker,distance=..12.01,limit=2] positioned ^ ^ ^2 rotated as @e[tag=PhotonicMarker,distance=..14.01,limit=2] positioned ^ ^ ^1 run function skill:act/hunter/photonic_laser/tick1

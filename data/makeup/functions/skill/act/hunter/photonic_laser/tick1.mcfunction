@@ -1,4 +1,5 @@
-execute if score @s Interval matches 1 run playsound minecraft:entity.guardian.attack master @a[distance=..16] ~ ~ ~ 1 2
+execute if score @s Calc matches 1 run playsound minecraft:entity.guardian.attack master @a[distance=..16] ~ ~ ~ 1 2
+execute if score @s Calc matches 9 run playsound minecraft:entity.guardian.attack master @a[distance=..16] ~ ~ ~ 1 2
 
 execute if score @s Calc matches 1 run particle minecraft:happy_villager ^0.3045 ^3.486 ^0.111111111111111 0 0 0 0 1 force @a[tag=ShowParticles]
 execute if score @s Calc matches 2 run particle minecraft:happy_villager ^0.6055 ^3.444 ^0.222222222222222 0 0 0 0 1 force @a[tag=ShowParticles]

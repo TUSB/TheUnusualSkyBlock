@@ -2,7 +2,7 @@
 ### サモン：ぷちブラック tick MOB適用
 ##############################
 
-execute facing entity @s feet in area:control_area positioned 0.0 0.0 0.0 positioned ^ ^ ^-1.5 run function calc:geometry/tp_00000
+execute facing entity @s feet in area:control_area positioned 0.0 0.0 0.0 positioned ^ ^ ^-1 run function calc:geometry/tp_00000
 
 execute store result score @s Calc run data get entity @s Motion[0] 100
 execute store result score @s _ run data get entity 0-0-0-0-0 Pos[0] 100
@@ -16,4 +16,4 @@ execute store result score @s Calc run data get entity @s Motion[2] 100
 execute store result score @s _ run data get entity 0-0-0-0-0 Pos[2] 100
 execute store result entity @s Motion[2] double 0.01 run scoreboard players operation @s Calc += @s _
 
-execute if score _ Interval matches 10 run function skill:damage/apply/
+function skill:damage/apply/
