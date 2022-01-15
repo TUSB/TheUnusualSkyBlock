@@ -1,5 +1,6 @@
 #CallOnDamage
-execute if entity @s[tag=CallOnDamage] at @s run function enemy:ai/call/trigger/damage/
+execute if entity @s[tag=CallOnDamage,tag=HitDamageTaken] at @s run function enemy:ai/call/trigger/damage/
+tag @s remove HitDamageTaken
 #属性・スキルダメージ反映
 scoreboard players add @s[scores={Damage=0}] Damage 1
 scoreboard players operation @s HP -= @s Damage

@@ -12,7 +12,7 @@ execute at 0-0-0-0-2 as @e[tag=Mob,nbt=!{AbsorptionAmount:1000000f},distance=0] 
 
 ### エンチャント
 #波動
-execute if data storage item: SelectedItem.tag.Enchantments[{id:"tusb:波動"}] at 0-0-0-0-2 run function skill:enchant/wave_of_element
+execute if data storage item: SelectedItem.tag.Enchantments[{id:"tusb:波動"}] at 0-0-0-0-2 run function skill:enchant/wave_of_element/
 #血吸
 execute if data storage item: SelectedItem.tag.Enchantments[{id:"tusb:血吸"}] run function skill:enchant/life_leech
 #魔吸
