@@ -8,11 +8,11 @@ data modify storage tusb_mob: "即時ステータス"."ノックバック力" se
 
 ### 遅延ステータス
 # 属性値
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."炎属性値" set value -100
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."氷属性値" set value 200
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."雷属性値" set value 200
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."光属性値" set value 200
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."闇属性値" set value 200
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."炎属性値" set value 150
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."氷属性値" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."雷属性値" set value 50
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."光属性値" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."闇属性値" set value 100
 # ステータス
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 50
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 150
@@ -21,4 +21,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 150
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 20
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:40,Max:160,Current:80},Call:[{Condition:[{Name:"HasTarget",Target:{Look:"Player",Radius:32d,IgnoreBlocks:true}}],Name:"Spawn",SpawnEntities:[[{Tags:[Skylands,Ground,Blow,Throwper,DefeatTnt],Level:10}]],Direction:[0f,0f],Speed:1d,Target:{Look:"Player",Radius:32d,IgnoreBlocks:true},Rotation:{}}]}]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:120,Max:480,Current:240},Call:[{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:32d,IgnoreBlocks:true}},{Name:"Direction",Direction:[0f,0f],Speed:1d,Target:{Look:"Player",Radius:32d,IgnoreBlocks:true}}],Name:"Spawn",SpawnEntities:[[{Tags:[Skylands,Ground,Blow,Throwper,DefeatTnt],Level:10}]]}]}]}]}
