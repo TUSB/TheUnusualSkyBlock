@@ -1,4 +1,4 @@
-execute unless data entity @s ArmorItems[0].tag run data modify entity @s ArmorItems[0].tag set from storage mob_data: Call
+execute unless data entity @s ArmorItems[3].tag run data modify entity @s ArmorItems[3].tag set from storage mob_data: Call
 scoreboard players operation @s Level = _ Level
 #向きを合わせる
 tp @s ~ ~ ~ ~ ~
