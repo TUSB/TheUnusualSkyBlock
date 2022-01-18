@@ -38,10 +38,10 @@
   "spawners": {
     "monster": [
       {
-        "type": "minecraft:enderman",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
+        "type": "creeper",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 1
       }
     ],
     "creature": [],

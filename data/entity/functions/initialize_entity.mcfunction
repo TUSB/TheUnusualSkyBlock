@@ -3,6 +3,9 @@
 # エンティティの初期化処理を行う
 ###################################################
 
+### 自然沸き処理
+execute if entity @s[type=creeper,tag=] run function enemy:natural_spawn
+
 ### モブ召喚
 execute if entity @s[tag=Spawn] run function enemy:spawn/
 
