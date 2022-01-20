@@ -4,4 +4,5 @@ execute if entity @s[tag=HeartEnemy] run function settings:enemy/global/ground/s
 execute if entity @s[tag=PumpkinKid] run function settings:enemy/global/ground/shoot/pumpkin_kid/
 execute if entity @s[tag=AngryTree] run function settings:enemy/global/ground/shoot/angry_tree/
 execute if entity @s[tag=MineCrafter] run function settings:enemy/global/ground/shoot/mine_crafter/
+execute if entity @s[tag=WizardOfTeleportation] run function settings:enemy/global/ground/shoot/wizard_of_teleportation/
 execute if entity @s[tag=SorcerersSquire] run function settings:enemy/global/ground/shoot/sorcerers_squire/

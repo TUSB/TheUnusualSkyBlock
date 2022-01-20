@@ -3,7 +3,7 @@ data modify storage mob_data: Casting set from storage oh_my_dat: _[-4][-4][-4][
 
 
 execute if data storage mob_data: Call{Tags:["Cast"]} run function skill:enemy/casting/append/cast/
-execute if data storage mob_data: Call{Type:["LaserPointer"]}
+execute if data storage mob_data: Call{Tags:["LaserPointer"]} run function skill:enemy/casting/append/laser_pointer/
 
 data modify storage mob_data: AddingCast.Tags set from storage mob_data: Call.Tags
 data modify storage mob_data: AddingCast.ExtraSettings set from storage mob_data: Call.ExtraSettings

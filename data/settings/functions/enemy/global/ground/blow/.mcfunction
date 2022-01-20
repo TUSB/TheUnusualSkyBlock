@@ -16,3 +16,4 @@ execute if entity @s[tag=DangerCreeper] run function settings:enemy/global/groun
 execute if entity @s[tag=DropZombie] run function settings:enemy/global/ground/blow/drop_zombie/
 execute if entity @s[tag=HeartEnemy] run function settings:enemy/global/ground/blow/heart_enemy/
 execute if entity @s[tag=BacktheCreeper] run function settings:enemy/global/ground/blow/backthe_creeper/
+execute if entity @s[tag=Lumberjack] run function settings:enemy/global/ground/blow/lumberjack/
