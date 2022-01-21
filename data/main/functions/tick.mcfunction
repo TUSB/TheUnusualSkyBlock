@@ -11,11 +11,11 @@ execute as @a at @s run function player:tick
 ### スポナーカート空気時処理
 execute as @e[tag=SpawnerHolder] at @s if block ~ ~ ~ minecraft:air run function enemy:break_spawner/
 
-### 召喚済み単回スポナー削除
-kill @e[tag=OneTimeSpawner,nbt={SpawnData:{id:"tusb_mob:empty"}}]
-
 ### エンティティ初期化
 execute as @e[tag=!Initialized] at @s run function entity:initialize_entity
+
+### 召喚済み単回スポナー削除
+kill @e[tag=OneTimeSpawner,nbt={SpawnData:{id:"tusb_mob:empty"}}]
 
 ### 1秒処理
 scoreboard players add $Second Count 1
