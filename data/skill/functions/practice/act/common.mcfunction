@@ -1,3 +1,6 @@
+execute if data storage skill: Skill{Name:"サモンSサーモン"} run function skill:act/common/summon_salmon/act0
+execute if data storage skill: Skill{Name:"サモンSバグ"} run function skill:act/common/summon_bug/act0
+execute if data storage skill: Skill{Name:"ムーン・ストライク"} run function skill:act/common/moon_strike/act0
 execute if data storage skill: Skill{Name:"サモンSカカッシー"} run function skill:act/common/summon_scarecrow/act0
 execute if data storage skill: Skill{Name:"時間加速"} run function skill:act/common/time_acceleration/act0
 execute if data storage skill: Skill{Name:"虚無の取り出し"} run function skill:act/common/void_loot/act0
