@@ -83,7 +83,7 @@ execute if entity @s[tag=SummonedBlock] run function skill:act/summoner/fill/tic
 ###ふかふか処理
 # execute if entity @s[tag=Fukafuka] run function skill:act/summoner/fukafuka/tick
 ###コールC処理
-# execute if entity @s[tag=Crystal] run function skill:act/summoner/call_crystal/tick/all
+execute if entity @s[tag=Crystal] run function skill:act/summoner/call_crystal_attack/tick/all
 ###グライダー処理
 execute if entity @s[tag=Glider] run function skill:act/summoner/summon_glider/glide
 ###ぷちブラック処理
