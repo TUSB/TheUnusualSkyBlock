@@ -10,7 +10,7 @@ execute if score _ TemporaryEffects matches ..-1 run function skill:enemy/charm/
 scoreboard players set _ Calc 2
 scoreboard players operation _ TemporaryEffects *= _ Calc
 ###幻影(31)
-execute if score _ TemporaryEffects matches ..-1 run function skill:enemy/blink/decorate/tick
+execute if score _ TemporaryEffects matches ..-1 run function skill:enemy/blink/activate/decorate/tick
 
 scoreboard players set _ Calc 2
 scoreboard players operation _ TemporaryEffects *= _ Calc

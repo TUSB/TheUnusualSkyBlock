@@ -9,6 +9,7 @@ execute if entity @s[tag=BoomSkeleton] run function settings:enemy/global/ground
 execute if entity @s[tag=Bandit] run function settings:enemy/global/ground/blow/bandit
 execute if entity @s[tag=ArmedZombie] run function settings:enemy/global/ground/blow/armed_zombie/
 execute if entity @s[tag=WitherSkeletonPlus] run function settings:enemy/global/ground/blow/wither_skeleton_plus/
+execute if entity @s[tag=Combat] run function settings:enemy/global/ground/blow/combat/
 execute if entity @s[tag=Goblins] run function settings:enemy/global/ground/blow/goblins/
 execute if entity @s[tag=Executioner] run function settings:enemy/global/ground/blow/executioner/
 execute if entity @s[tag=Deidora] run function settings:enemy/global/ground/blow/deidora/

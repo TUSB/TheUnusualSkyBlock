@@ -1,5 +1,6 @@
 execute if entity @s[tag=TriangularMan] run function settings:enemy/global/ground/shoot/triangular_man/
 execute if entity @s[tag=NinjaTypeF] run function settings:enemy/global/ground/shoot/ninja_type_f/
+execute if entity @s[tag=Combat] run function settings:enemy/global/ground/shoot/combat/
 execute if entity @s[tag=HeartEnemy] run function settings:enemy/global/ground/shoot/heart_enemy/
 execute if entity @s[tag=PumpkinKid] run function settings:enemy/global/ground/shoot/pumpkin_kid/
 execute if entity @s[tag=AngryTree] run function settings:enemy/global/ground/shoot/angry_tree/

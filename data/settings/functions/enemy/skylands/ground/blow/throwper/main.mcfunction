@@ -21,4 +21,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 150
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 20
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:120,Max:480,Current:240},Call:[{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:32d,IgnoreBlocks:true}},{Name:"Direction",Direction:[0f,0f],Speed:1d}],Name:"Spawn",SpawnEntities:[[{Tags:[Skylands,Ground,Blow,Throwper,DefeatTnt],Level:10}]]}]}]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:120,Max:480,Current:120},Call:[{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:32d,IgnoreBlocks:true}},{Name:"Direction",Direction:[0f,0f],Speed:1d}],Name:"Spawn",SpawnEntities:[[{Tags:[Skylands,Ground,Blow,Throwper,DefeatTnt],Level:10}]]}]}]}]}
