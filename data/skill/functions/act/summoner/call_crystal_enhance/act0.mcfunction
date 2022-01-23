@@ -9,7 +9,7 @@
 scoreboard players add _ Level 200
 
 # クリスタル召喚
-function skill:act/summoner/call_crystal_attack/summon/random
+execute rotated ~ 0 positioned ^ ^1 ^3.5 run function skill:act/summoner/call_crystal_attack/summon/random
 
 ### クリスタル支援共通
 
