@@ -14,3 +14,6 @@ execute as @a at @s run function player:one_second
 
 ### Mob
 execute as @e[tag=Mob] at @s run function enemy:one_second
+
+###各エリア処理
+execute as @a[predicate=area:system/underworld/in_water] run function area:system/underworld/food_rot
