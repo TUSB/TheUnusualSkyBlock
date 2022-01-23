@@ -28,6 +28,8 @@ execute if entity @s[tag=AerialSlash] run function skill:act/knight/aerial_slash
 execute if entity @s[tag=AerialSlash] run function makeup:skill/act/knight/aerial_slash/fly
 ###地烈斬
 # execute if entity @s[tag=CrackSlash] run function skill:act/knight/crack_slash/tick
+###影封縫
+execute if entity @s[tag=ShadowThrust] run function skill:act/knight/shadow_thrust/tick
 ###斬鉄剣
 execute if entity @s[tag=OdinSlash1] run function skill:act/knight/odin_slash/tick1
 execute if entity @s[tag=OdinSlash2] run function skill:act/knight/odin_slash/tick2
