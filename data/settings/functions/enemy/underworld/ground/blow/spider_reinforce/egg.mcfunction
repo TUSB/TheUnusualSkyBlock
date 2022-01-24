@@ -23,6 +23,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法�
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Time:[{Condition:[{Name:"RandomChance",Chance:0.75d}],Name:"Spawn",SpawnEntities:[[{Tags:[Underworld,Ground,Blow,SpiderReinforce,Main],Level:1}]]},{Name:"Kill"}]}
 #Function
-particle minecraft:block end_stone ~ ~0.5 ~ 0.3 0 0.3 0 1 force @a
-particle minecraft:dust 1 0 0 1 ~ ~4 ~ 0.2 0.1 0.2 20 10 force @a
+particle minecraft:block end_stone ~ ~0.5 ~ 0.3 0 0.3 0 1 force @a[tag=ShowParticles]
+particle minecraft:dust 1 0 0 1 ~ ~4 ~ 0.2 0.1 0.2 20 10 force @a[tag=ShowParticles]
 playsound entity.spider.death master @a[distance=..10] ~ ~ ~ 1.0 1.5

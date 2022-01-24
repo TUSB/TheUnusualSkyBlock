@@ -24,33 +24,33 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法�
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Damage",Player:{Damage:24d,BypassArmor:true},Distance:{Min:0,Max:3}}],Time:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Ground,Blow,DropZombie,Rumble3],Level:1}]],Speed:0.0d,SpeedRange:0.0d,Count:1}]}
 #Function
 playsound block.composter.fill master @a[distance=..20] ~ ~ ~ 1.0 1.5
-particle block stone ^0 ^ ^-3 0 0 0 0 1
-particle block stone ^0.62374 ^ ^-2.93444 0 0 0 0 1
-particle block stone ^1.22021 ^ ^-2.74064 0 0 0 0 1
-particle block stone ^1.76336 ^ ^-2.42705 0 0 0 0 1
-particle block stone ^2.22943 ^ ^-2.00739 0 0 0 0 1
-particle block stone ^2.59808 ^ ^-1.5 0 0 0 0 1
+particle block stone ^0 ^ ^-3 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^0.62374 ^ ^-2.93444 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^1.22021 ^ ^-2.74064 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^1.76336 ^ ^-2.42705 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^2.22943 ^ ^-2.00739 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^2.59808 ^ ^-1.5 0 0 0 0 1 force @a[tag=ShowParticles]
 particle block stone ^2.85317 ^ ^-0.92705 0 0 0 0 1
-particle block stone ^2.98357 ^ ^-0.31359 0 0 0 0 1
-particle block stone ^2.98357 ^ ^0.31359 0 0 0 0 1
-particle block stone ^2.85317 ^ ^0.92705 0 0 0 0 1
-particle block stone ^2.59808 ^ ^1.5 0 0 0 0 1
-particle block stone ^2.22943 ^ ^2.00739 0 0 0 0 1
-particle block stone ^1.76336 ^ ^2.42705 0 0 0 0 1
-particle block stone ^1.22021 ^ ^2.74064 0 0 0 0 1
-particle block stone ^0.62374 ^ ^2.93444 0 0 0 0 1
-particle block stone ^0 ^ ^3 0 0 0 0 1
-particle block stone ^-0.62374 ^ ^2.93444 0 0 0 0 1
-particle block stone ^-1.22021 ^ ^2.74064 0 0 0 0 1
-particle block stone ^-1.76336 ^ ^2.42705 0 0 0 0 1
-particle block stone ^-2.22943 ^ ^2.00739 0 0 0 0 1
-particle block stone ^-2.59808 ^ ^1.5 0 0 0 0 1
-particle block stone ^-2.85317 ^ ^0.92705 0 0 0 0 1
-particle block stone ^-2.98357 ^ ^0.31359 0 0 0 0 1
-particle block stone ^-2.98357 ^ ^-0.31359 0 0 0 0 1
-particle block stone ^-2.85317 ^ ^-0.92705 0 0 0 0 1
-particle block stone ^-2.59808 ^ ^-1.5 0 0 0 0 1
-particle block stone ^-2.22943 ^ ^-2.00739 0 0 0 0 1
-particle block stone ^-1.76336 ^ ^-2.42705 0 0 0 0 1
-particle block stone ^-1.22021 ^ ^-2.74064 0 0 0 0 1
-particle block stone ^-0.62374 ^ ^-2.93444 0 0 0 0 1
+particle block stone ^2.98357 ^ ^-0.31359 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^2.98357 ^ ^0.31359 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^2.85317 ^ ^0.92705 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^2.59808 ^ ^1.5 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^2.22943 ^ ^2.00739 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^1.76336 ^ ^2.42705 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^1.22021 ^ ^2.74064 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^0.62374 ^ ^2.93444 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^0 ^ ^3 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^-0.62374 ^ ^2.93444 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^-1.22021 ^ ^2.74064 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^-1.76336 ^ ^2.42705 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^-2.22943 ^ ^2.00739 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^-2.59808 ^ ^1.5 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^-2.85317 ^ ^0.92705 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^-2.98357 ^ ^0.31359 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^-2.98357 ^ ^-0.31359 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^-2.85317 ^ ^-0.92705 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^-2.59808 ^ ^-1.5 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^-2.22943 ^ ^-2.00739 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^-1.76336 ^ ^-2.42705 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^-1.22021 ^ ^-2.74064 0 0 0 0 1 force @a[tag=ShowParticles]
+particle block stone ^-0.62374 ^ ^-2.93444 0 0 0 0 1 force @a[tag=ShowParticles]
