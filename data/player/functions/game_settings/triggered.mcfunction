@@ -4,6 +4,9 @@
 # 1 ステータス確認 (ジョブ・レベル・経験値・(スキル)・CP)
 execute if score @s ChangeSettings matches 1 run function player:game_settings/show_status
 
+# 4 パーティクル抑制
+execute if score @s ChangeSettings matches 4 run function player:game_settings/tune_particle
+
 # 5,6,7 テキスト表示位置調整
 execute if score @s ChangeSettings matches 5..7 run function player:game_settings/tune_offset
 

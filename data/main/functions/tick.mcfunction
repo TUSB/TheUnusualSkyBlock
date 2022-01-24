@@ -2,6 +2,9 @@
 ### 毎ティック処理
 ##############################
 
+###パーティクル表示判定
+function main:particle/update_tag
+
 ### 1tick遅れ処理
 execute as @e[tag=DelayedTask] at @s run function main:task/delayed
 
