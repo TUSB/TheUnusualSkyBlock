@@ -4,6 +4,7 @@ data modify storage item: Items[{Slot:4b}].tag.OriginalLore append from storage 
 #EnchantmentsとLoreを初期化
 data modify storage item: Items[{Slot:4b}].tag.Enchantments set value []
 data modify storage item: Items[{Slot:4b}].tag.display.Lore set value []
+data remove storage item: Enchant
 #石のTierを取得
 execute store result score @s _ run data get storage item: Items[{Slot:22b}].tag.Tier
 #石のエンチャントをルート
