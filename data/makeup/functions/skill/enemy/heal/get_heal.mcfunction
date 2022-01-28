@@ -1,0 +1,1 @@
+particle minecraft:happy_villager ~ ~1 ~ 0.3 0.5 0.3 1 15 force @a[tag=ShowParticles]
