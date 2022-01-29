@@ -3,6 +3,12 @@
         "requirement": {
             "trigger": "minecraft:location",
             "conditions": {
+                "player": [
+                    {
+                      "condition": "minecraft:reference",
+                      "name": "entity:player"
+                    }
+                ],
                 "location": {
                     "position": {
                         "x": {
