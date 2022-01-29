@@ -98,6 +98,7 @@ scoreboard objectives add Isukumi dummy {"text":"居縮継続秒数"}
 scoreboard objectives add Kaishaku dummy {"text":"介錯残りtick数"}
 #狩人
 scoreboard objectives add PiercingAim dummy {"text":"ピアッシングエイム継続秒数"}
+scoreboard objectives add RaderVision dummy {"text":"レーダーヴィジョン継続tick数"}
 #黒魔道士
 scoreboard objectives add EclipseRadius dummy {"text":"エクリプスフレイム半径"}
 #召喚士

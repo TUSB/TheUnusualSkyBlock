@@ -35,6 +35,8 @@ execute if entity @s[scores={Choyaku=0..},nbt={OnGround:false,FallDistance:0.0f}
 execute if entity @s[scores={Kazakiri=0..}] run function skill:act/ninja/kazakiri/tick
 execute if entity @s[scores={Kaishaku=0..}] run function skill:act/ninja/kaishaku/player_tick
 execute if entity @s[scores={Issen=0..}] run function skill:act/ninja/issen/tick
+#狩人
+execute if entity @s[scores={RaderVision=1..}] run function skill:act/hunter/rader_vision/tick
 
 ### MP回復
 function skill:update_mp/
