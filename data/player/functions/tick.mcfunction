@@ -56,3 +56,5 @@ execute unless score @s PotentialTrigger matches 0 run function job:potentials/t
 ### ネザースター取得
 execute if entity @s[nbt={Inventory:[{id:"minecraft:nether_star"}]}] run function job:exp/get
 
+### 1秒処理
+execute if score $Second Count matches 0 run function player:one_second
