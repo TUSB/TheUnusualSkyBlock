@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_chicken",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{WildCooking:1b,display:{Name:'{\"text\":\"こんがり肉\",\"color\":\"aqua\",\"italic\":false}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_stew",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{WildCooking:1b,display:{Name:'{\"text\":\"ごった煮スープ\",\"color\":\"aqua\",\"italic\":false}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{WildCooking:1b,display:{Name:'{\"text\":\"マナのクッキー\",\"color\":\"aqua\",\"italic\":false}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_pie",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{WildCooking:1b,display:{Name:'{\"text\":\"ハニータルト\",\"color\":\"aqua\",\"italic\":false}'}}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:honey_bottle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{WildCooking:1b,display:{Name:'{\"text\":\"活力のエキス\",\"color\":\"aqua\",\"italic\":false}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -42,6 +42,8 @@ execute if entity @s[tag=KaishakuExplosion] run function skill:act/ninja/kaishak
 execute if entity @s[tag=StakesFire] run function makeup:skill/act/hunter/stakes_fire/tick
 ###バードストライク処理
 # execute if entity @s[tag=BirdStrike] run function skill:act/hunter/bird_strike/tick
+###ワイルドクッキング継続処理
+execute if entity @s[tag=WildCooking] run function skill:act/hunter/wild_cooking/tick
 ###ワイルドフレア継続処理
 # execute if entity @s[tag=WildFlare] run function skill:act/hunter/wild_flare/tick
 ###フォトニックレーザー
