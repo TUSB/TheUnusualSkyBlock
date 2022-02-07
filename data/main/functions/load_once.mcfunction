@@ -152,6 +152,7 @@ scoreboard objectives add Jump minecraft.custom:minecraft.jump {"text":"ジャ�
 scoreboard objectives add Deaths minecraft.custom:minecraft.deaths {"text":"死亡"}
 scoreboard objectives add Hunger dummy {"text":"死亡時調整満腹度"}
 scoreboard objectives add MineSpawner minecraft.mined:minecraft.spawner {"text":"スポナー破壊"}
+scoreboard objectives add Trade minecraft.custom:traded_with_villager {"text":"取引回数"}
 
 ###チーム作成
 team add NoCollision {"text":"衝突判定なし"}
