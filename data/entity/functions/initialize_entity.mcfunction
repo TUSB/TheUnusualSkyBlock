@@ -10,6 +10,7 @@ execute if entity @s[type=creeper,tag=] run function enemy:natural_spawn
 execute if entity @s[tag=Spawn] run function enemy:spawn/
 
 ### モブステータス適用
+execute unless entity @s[tag=DelayedData] run data remove entity @s TicksFrozen
 execute if entity @s[tag=DelayedData] run function enemy:spawn/apply_status/
 
 ### CallOnInit
