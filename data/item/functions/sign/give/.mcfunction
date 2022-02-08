@@ -28,5 +28,3 @@
 #give @p armor_stand{RepairCost:2147483647,HideFlags:3,EntityTag:{Tags:[SignStand]},display:{Lore:[],Name:'{"text":"宿の印板"}'},Enchantments:[{id:""}]}
 #積み上げの印板
 #give @p armor_stand{RepairCost:2147483647,HideFlags:3,EntityTag:{Tags:[SignStand]},display:{Lore:[],Name:'{"text":"積み上げの印板"}'},Enchantments:[{id:""}]}
-#全滅の印板
-#give @p armor_stand{RepairCost:2147483647,HideFlags:3,EntityTag:{Tags:[SignStand]},display:{Lore:[],Name:'{"text":"全滅の印板"}'},Enchantments:[{id:""}]}
