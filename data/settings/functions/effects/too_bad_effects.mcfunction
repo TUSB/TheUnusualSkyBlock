@@ -19,3 +19,4 @@ data modify storage effects: BadEffectsName.Curse set value '{"translate":"呪�
 data modify storage effects: BadEffectsName.Virus set value '{"translate":"病気","hoverEvent":{"action":"show_text","value":{"translate":"体力が回復しづらくなる。","color":"white"}},"color":"white"}'
 data modify storage effects: BadEffectsName.Tnt set value '{"translate":"トント","hoverEvent":{"action":"show_text","value":{"translate":"一定回数ダメージを受けると爆発する。","color":"white"}},"color":"white"}'
 data modify storage effects: BadEffectsName.Pale set value '{"translate":"ペイル","hoverEvent":{"action":"show_text","value":{"translate":"最大体力が減少する。","color":"white"}},"color":"white"}'
+data modify storage effects: BadEffectsName.Debility set value '{"translate":"衰弱","hoverEvent":{"action":"show_text","value":{"translate":"体力が一列になる。","color":"white"}},"color":"white"}'

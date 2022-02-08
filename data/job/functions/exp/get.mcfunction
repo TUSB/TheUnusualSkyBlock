@@ -15,7 +15,7 @@ execute as @a[distance=..50] run scoreboard players operation @s Exp += @s _
 execute as @a[distance=..50] run scoreboard players operation @s AllExp += @s _
 
 #演出
-execute as @a run function makeup:job/exp/get
+function makeup:job/exp/get
 
 #レベルアップ
 execute as @a[distance=..50] at @s if score @s Exp >= @s RequiredExp run function job:level_up/

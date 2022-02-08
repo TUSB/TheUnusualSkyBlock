@@ -8,3 +8,6 @@ function skill:damage/load
 
 ### スキル
 execute if entity @s[tag=Skill] run function player:trigger/projectile/skill
+
+### HasSnowballの雪玉削除
+execute if entity @s[tag=HasSkillSnowball] run kill @e[tag=SkillSnowball,sort=nearest,limit=1]

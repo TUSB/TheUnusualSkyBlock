@@ -1,4 +1,4 @@
-execute if data storage skill: Skill{Name:"フォトニックレーザー"} run function skill:act/hunter/photonic_lazer/act0
+execute if data storage skill: Skill{Name:"フォトニックレーザー"} run function skill:act/hunter/photonic_laser/act0
 execute if data storage skill: Skill{Name:"ニフラムトラップ"} run function skill:act/hunter/expel_trap/act0
 execute if data storage skill: Skill{Name:"ワイルドフレア"} run function skill:act/hunter/wild_flare/act0
 execute if data storage skill: Skill{Name:"ピアッシングエイム"} run function skill:act/hunter/piercing_aim/act0

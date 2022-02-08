@@ -36,6 +36,7 @@ scoreboard players operation _ IntervalRate *= _ _
 scoreboard players set _ _ 2
 scoreboard players operation _ IntervalRate /= _ _
 scoreboard players operation _ Calc += _ IntervalRate
+scoreboard players operation _ IntervalRate *= _ _
 
 scoreboard players operation _ MPCostRate = @s MPCostRate
 execute store result score _ _ run data get storage tusb_player: Potentials.Default.MPCostRate

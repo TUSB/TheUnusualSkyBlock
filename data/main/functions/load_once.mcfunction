@@ -21,6 +21,10 @@ scoreboard objectives add BaseTotal dummy {"text":"合計基礎ポイント"}
 scoreboard objectives add GrowTotal dummy {"text":"合計成長ポイント"}
 scoreboard objectives add Damage dummy {"text":"ダメージ"}
 scoreboard objectives add HealthHealing dummy {"text":"HP回復量"}
+scoreboard objectives add Age minecraft.custom:minecraft.time_since_death {"text":"生きている時間"}
+scoreboard objectives add TemporaryEffects dummy {"text":"一時的ステータス変化Flags"}
+scoreboard objectives add ParticleDenom dummy {"text":"パーティクル表示割合"}
+
 ###アイテム
 scoreboard objectives add EnchantLevel dummy {"text":"エンチャントレベル"}
 
@@ -36,11 +40,16 @@ scoreboard objectives add PalsyLevel dummy {"text":"麻痺レベル"}
 scoreboard objectives add TntCount dummy {"text":"トントカウント"}
 scoreboard objectives add VirusCount dummy {"text":"病気カウント"}
 scoreboard objectives add FreezeTimer dummy {"text":"凍結タイマー"}
+scoreboard objectives add BurnCount dummy {"text":"やけどカウント"}
+scoreboard objectives add GameTime dummy {"text":"ゲームタイム"}
+scoreboard objectives add SnowballTime minecraft.custom:minecraft.play_time {"text":"雪玉ヒットタイマー"}
 
 ###計算、乱数
 scoreboard objectives add Calc dummy {"text": "計算用"}
 scoreboard objectives add Random dummy {"text": "乱数用"}
 scoreboard objectives add TitleOffset dummy {"text":"タイトル表示オフセット"}
+scoreboard objectives add ArrowRotation dummy {"text":"矢の向き"}
+scoreboard objectives add ProjectileLife dummy {"text":"飛翔物生存時間"}
 
 ###ジョブ系
 scoreboard objectives add Job dummy {"text": "現在のジョブ"}
@@ -64,13 +73,33 @@ scoreboard objectives add PuppetMasterLv dummy {"text": "絡繰士スキルレ�
 scoreboard objectives add ThiefLv dummy {"text": "怪盗スキルレベル"}
 
 ###スキル
+scoreboard objectives add MPHealingWait dummy {"text":"MP回復ウェイト"}
+scoreboard objectives add MPAcceleration dummy {"text":"MP回復加速量"}
+scoreboard objectives add MPConsumption dummy {"text":"MP回復量"}
+scoreboard objectives add TrackingID dummy {"text":"追尾スキル同期ID"}
+scoreboard objectives add SkillAttribute dummy {"text":"スキル付加情報"}
+#剣士
+scoreboard objectives add FalconSlashTimer dummy {"text":"はやぶさ斬り遅延タイマー"}
+scoreboard objectives add IronWill dummy {"text":"アイアンウィル残りtick数"}
+scoreboard objectives add RagingDamage dummy {"text":"猛火斬ダメージ"}
+scoreboard objectives add OdinSlash dummy {"text":"斬鉄剣発動タイミング調整"}
+scoreboard objectives add ReactiveLevel dummy {"text":"リアクティブヒールレベル"}
+scoreboard objectives add TacticalHeal dummy {"text":"タクティカルヒール持続確率"}
 #忍者
 scoreboard objectives add Choyaku dummy {"text":"跳躍跳躍力"}
+scoreboard objectives add ChoyakuLevel dummy {"text":"跳躍レベル"}
 scoreboard objectives add Aisatsu dummy {"text":"アイサツ消費MP減少効果量"}
 scoreboard objectives add Katon dummy {"text":"火遁"}
 scoreboard objectives add Kazakiri dummy {"text":"風切"}
 scoreboard objectives add Mokuso dummy {"text":"黙想"}
 scoreboard objectives add Suiton dummy {"text":"水遁"}
+scoreboard objectives add Issen dummy {"text":"一閃継続tick数"}
+scoreboard objectives add Isukumi dummy {"text":"居縮継続秒数"}
+scoreboard objectives add Kaishaku dummy {"text":"介錯残りtick数"}
+#狩人
+scoreboard objectives add PiercingAim dummy {"text":"ピアッシングエイム継続秒数"}
+scoreboard objectives add RaderVision dummy {"text":"レーダーヴィジョン継続tick数"}
+scoreboard objectives add WildCooking dummy {"text":"ワイルドクッキング継続秒数"}
 #黒魔道士
 scoreboard objectives add EclipseRadius dummy {"text":"エクリプスフレイム半径"}
 #召喚士
@@ -97,6 +126,9 @@ function settings:effects/too_bad_effects
 execute in area:control_area run forceload add 0 0
 execute in area:control_area run setblock 2 2 2 shulker_box
 execute in area:control_area run setblock 2 3 2 oak_sign
+execute in area:control_area positioned 5 5 5 run function calc:geometry/tp_00000
+execute in area:control_area positioned 5 5 5 run function calc:geometry/tp_00001
+execute in area:control_area positioned 5 5 5 run function calc:geometry/tp_00002
 
 ###トリガー
 scoreboard objectives add UseSnowball minecraft.used:minecraft.snowball {"text": "雪玉使用"}
@@ -104,24 +136,31 @@ scoreboard objectives add UseBow minecraft.used:minecraft.bow {"text": "弓使�
 scoreboard objectives add UseCrossbow minecraft.used:minecraft.crossbow {"text": "クロスボウ使用"}
 scoreboard objectives add UseTrident minecraft.used:minecraft.trident {"text": "トライデント使用"}
 scoreboard objectives add UseCarrotStick minecraft.used:minecraft.carrot_on_a_stick {"text": "人参棒使用"}
+scoreboard objectives add UseFungusStick minecraft.used:minecraft.warped_fungus_on_a_stick {"text": "きのこ棒使用"}
 scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game {"text":"ログインフラグ"}
 scoreboard objectives add ChangeSettings trigger {"text":"設定変更"}
 scoreboard objectives add ChangeSkill trigger {"text":"スキル変更"}
+scoreboard objectives add TipsSuppressFlag dummy {"text":"TIPS抑制フラグ"}
+scoreboard objectives add TipsSupTrigger trigger {"text":"TIPS抑制トリガー"}
 scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time {"text":"スニーク時間"}
 scoreboard objectives add SneakTrigger dummy {"text":"スニーク累積時間"}
 scoreboard objectives add SneakFrequency dummy {"text":"スニーク頻度"}
 scoreboard objectives add PotentialTrigger trigger {"text":"潜在能力変更トリガー"}
 scoreboard objectives add PotentialPrev trigger {"text":"潜在能力変更前回トリガー"}
-scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken {"text":"受けたメージ量"}
+scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken {"text":"受けたダメージ量"}
 scoreboard objectives add Jump minecraft.custom:minecraft.jump {"text":"ジャンプ"}
 scoreboard objectives add Deaths minecraft.custom:minecraft.deaths {"text":"死亡"}
 scoreboard objectives add Hunger dummy {"text":"死亡時調整満腹度"}
-scoreboard objectives add Age minecraft.custom:minecraft.time_since_death {"text":"生きている時間"}
+scoreboard objectives add MineSpawner minecraft.mined:minecraft.spawner {"text":"スポナー破壊"}
+scoreboard objectives add Trade minecraft.custom:traded_with_villager {"text":"取引回数"}
 
 ###チーム作成
+team add NoCollision {"text":"衝突判定なし"}
+team modify NoCollision collisionRule never
 team add Friendly {"text":"味方チーム"}
 team modify Friendly friendlyFire false
 team modify Friendly collisionRule never
+team modify Friendly seeFriendlyInvisibles false
 team modify Friendly color white
 team modify Friendly prefix {"text":"✦","color":"red"}
 team modify Friendly suffix {"text":"✦","color":"red"}
@@ -133,5 +172,20 @@ team modify LightPurple color light_purple
 team add Gold {"text":"黄色チーム"}
 team modify Gold color gold
 
+
+###Callから呼び出されるスキル系統のスコア
+scoreboard objectives add CastingTick dummy {"text":"詠唱時間"}
+scoreboard objectives add NextCastingTick dummy {"text":"次の詠唱時間"}
+scoreboard objectives add BlinkSubTimer dummy {"text":"幻影発動時タイマー"}
+
+#ScoreDamage
+function score_damage:core/init
+
 #スキルデータ
 function skill:data/
+
+#TIPSデータ
+function settings:player/tips
+
+#飛空島ゲート駅schedule開始
+function area:flying_islands_gate/change

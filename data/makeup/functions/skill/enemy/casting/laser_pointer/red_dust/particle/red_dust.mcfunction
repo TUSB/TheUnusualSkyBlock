@@ -1,0 +1,1 @@
+particle dust 0.941 0.063 0.063 1 ~ ~ ~ 0 0 0 0 1 normal @a[tag=ShowParticles,distance=..24]

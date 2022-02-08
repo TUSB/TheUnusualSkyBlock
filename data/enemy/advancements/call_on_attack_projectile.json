@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "is_projectile": true,
+            "direct_entity": {
+              "nbt": "{Tags:[CallOnAttackProjectile]}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "enemy:ai/call/trigger/attack/projectile"
+  }
+}

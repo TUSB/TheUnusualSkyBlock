@@ -2,8 +2,6 @@
 ### ステークスファイア適用
 ##############################
 
-#ダメージと装備を保存
-function skill:damage/save
 #タグ付与
 tag @s add Skill
 tag @s add StakesFire

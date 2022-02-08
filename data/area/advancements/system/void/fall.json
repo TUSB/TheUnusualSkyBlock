@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "player": {
+            "gamemode": "adventure"
+          }
+        },
+        "location": {
+          "position": {
+            "y": {
+              "min": -100,
+              "max": 0
+            }
+          },
+          "dimension": "area:void"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "area:system/void/fall"
+  }
+}

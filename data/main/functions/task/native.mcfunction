@@ -17,37 +17,45 @@
 ###放物線
 # execute if entity @s[tag=ParabolicEntity] run function calc_manager:parabora/move
 
+###雪玉ヒット検知
+execute if entity @s[tag=DamageSnowball] run function entity:snowball_hit
+
 ###ピクミン
 # execute if entity @s[tag=Pikmin] run function pikmin_manager:throw/tick
 
 ###真空斬り
-# execute if entity @s[tag=AerialSlash,scores={DecrementTimer=..0}] run function skill:act/knight/aerial_slash/re_aim
+execute if entity @s[tag=AerialSlash] run function skill:act/knight/aerial_slash/re_aim_check
+execute if entity @s[tag=AerialSlash] run function makeup:skill/act/knight/aerial_slash/fly
 ###地烈斬
 # execute if entity @s[tag=CrackSlash] run function skill:act/knight/crack_slash/tick
+###影封縫
+execute if entity @s[tag=ShadowThrust] run function skill:act/knight/shadow_thrust/tick
 ###斬鉄剣
-# execute if entity @s[tag=OdinSlash1] run function skill:act/knight/odin_slash/tick1
-# execute if entity @s[tag=OdinSlash2] run function skill:act/knight/odin_slash/tick2
-# execute if entity @s[tag=OdinSlash3] run function skill:act/knight/odin_slash/tick3
+execute if entity @s[tag=OdinSlash1] run function skill:act/knight/odin_slash/tick1
+execute if entity @s[tag=OdinSlash2] run function skill:act/knight/odin_slash/tick2
+execute if entity @s[tag=OdinSlash3] run function skill:act/knight/odin_slash/tick3
 ###手裏剣
 # execute if entity @s[tag=Shuriken] run function skill:act/ninja/shuriken/tick
 ###介錯処理
-# execute if entity @s[tag=KaishakuExplosion] run function skill:act/ninja/kaishaku/tick
+execute if entity @s[tag=KaishakuExplosion] run function skill:act/ninja/kaishaku/explode_tick
 ###ステークスファイア処理
 execute if entity @s[tag=StakesFire] run function makeup:skill/act/hunter/stakes_fire/tick
 ###バードストライク処理
 # execute if entity @s[tag=BirdStrike] run function skill:act/hunter/bird_strike/tick
+###ワイルドクッキング継続処理
+execute if entity @s[tag=WildCooking] run function skill:act/hunter/wild_cooking/tick
 ###ワイルドフレア継続処理
 # execute if entity @s[tag=WildFlare] run function skill:act/hunter/wild_flare/tick
 ###フォトニックレーザー
-# execute if entity @s[tag=PhotonicLazer] run function skill:act/hunter/photonic_lazer/tick
-###ディア
-execute if entity @s[tag=Dia] run function makeup:skill/act/white_mage/dia/tick
+execute if entity @s[tag=PhotonicLaser] run function skill:act/hunter/photonic_laser/tick0
+###シャイニングボルト
+execute if entity @s[tag=ShiningBolt] run function makeup:skill/act/white_mage/shining_bolt/tick
 ###フラワーギフト
-# execute if entity @s[tag=FlowerGift] run function skill:act/white_mage/flower_gift/tick
+execute if entity @s[tag=FlowerGift] run function skill:act/white_mage/flower_gift/tick
 ###レイズ処理
-# execute if entity @s[tag=RaisePoint] run function skill:act/white_mage/araise/tick
+execute if entity @s[tag=RaisePoint] run function makeup:skill/act/white_mage/araise/tick
 ###セイクリッドピラー処理
-# execute if entity @s[tag=SacredPillarBase] run function skill:act/white_mage/sacred_pillar/tick/common
+execute if entity @s[tag=SacredPillar] run function skill:act/white_mage/sacred_pillar/tick/
 ###ホーリー処理
 execute if entity @s[tag=Holy] run function skill:act/white_mage/holy/tick
 ###アイスジャベリン処理
@@ -79,16 +87,18 @@ execute if entity @s[tag=SummonedBlock] run function skill:act/summoner/fill/tic
 ###ふかふか処理
 # execute if entity @s[tag=Fukafuka] run function skill:act/summoner/fukafuka/tick
 ###コールC処理
-# execute if entity @s[tag=Crystal] run function skill:act/summoner/call_crystal/tick/all
+execute if entity @s[tag=Crystal] run function skill:act/summoner/call_crystal_attack/tick/all
 ###グライダー処理
 execute if entity @s[tag=Glider] run function skill:act/summoner/summon_glider/glide
 ###ぷちブラック処理
-# execute if entity @s[tag=PetitBlack] run function skill:act/summoner/petit_black/tick/all
+execute if entity @s[tag=PetitBlack] run function skill:act/summoner/petit_black/tick
 ###ウィークペイント
 # execute if entity @s[tag=WeakPaint] run function skill:act/common/weakness_paint/tick
 ###ライブラ
 # execute if entity @s[tag=Libra] run function skill:act/common/libra/tick
 
+###矢の反射削除処理
+execute if entity @s[type=arrow,tag=!IgnoreReflection,nbt={HasBeenShot:1b}] run function entity:arrow_reflection
 ###接地矢(など)Projectileタグ削除
 execute if entity @s[tag=FlyingRequired,nbt={inGround:true}] run function entity:in_ground
 

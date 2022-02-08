@@ -1,4 +1,6 @@
-
+#指定の穴にTP
+execute if entity @s[gamemode=adventure] store result score _ Calc run data get storage area: Void.StartHole
+execute if entity @s[gamemode=adventure] run function area:system/void/teleport0
 
 # トリガー解除
 advancement revoke @s only area:entered/void

@@ -1,6 +1,6 @@
 
 ### やけど 解除
 
-tag @s remove Burn
+scoreboard players reset @s BurnCount
 
 function makeup:effects/burn/cure

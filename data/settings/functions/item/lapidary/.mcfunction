@@ -19,12 +19,9 @@ execute if predicate settings:item/lapidary/upgrade/evolution/ run function sett
 execute if predicate settings:item/lapidary/upgrade/feather_falling/ run function settings:item/lapidary/upgrade/feather_falling
 execute if predicate settings:item/lapidary/upgrade/fire_protection/ run function settings:item/lapidary/upgrade/fire_protection
 execute if predicate settings:item/lapidary/upgrade/kamui/ run function settings:item/lapidary/upgrade/kamui
-execute if predicate settings:item/lapidary/upgrade/karma/ run function settings:item/lapidary/upgrade/karma
 execute if predicate settings:item/lapidary/upgrade/knockback/ run function settings:item/lapidary/upgrade/knockback
 execute if predicate settings:item/lapidary/upgrade/life/ run function settings:item/lapidary/upgrade/life
-execute if predicate settings:item/lapidary/upgrade/life_leech/ run function settings:item/lapidary/upgrade/life_leech
 execute if predicate settings:item/lapidary/upgrade/mana/ run function settings:item/lapidary/upgrade/mana
-execute if predicate settings:item/lapidary/upgrade/mana_leech/ run function settings:item/lapidary/upgrade/mana_leech
 execute if predicate settings:item/lapidary/upgrade/mystery/ run function settings:item/lapidary/upgrade/mystery
 execute if predicate settings:item/lapidary/upgrade/mystic/ run function settings:item/lapidary/upgrade/mystic
 execute if predicate settings:item/lapidary/upgrade/philosopher/ run function settings:item/lapidary/upgrade/philosopher

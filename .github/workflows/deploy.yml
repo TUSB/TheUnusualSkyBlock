@@ -48,14 +48,14 @@ jobs:
           echo "-----DEBUG-----"
           echo "$ADD_FIREWALL"
    
-      - name: Sleep for 60 seconds
+      - name: Sleep for 45 seconds
         uses: jakejarvis/wait-action@master
         with:
-          time: '60s'
+          time: '45s'
       - name: Deploy by rsync
         uses: trendyminds/github-actions-rsync@master
         with:
-          RSYNC_OPTIONS: -avzre "ssh -o 'StrictHostKeyChecking no'" --delete --bwlimit=8192 --timeout=600
+          RSYNC_OPTIONS: -avzre "ssh -o 'StrictHostKeyChecking no'" --delete --timeout=1200
           RSYNC_SOURCE: /
           RSYNC_TARGET: /home/${{ secrets.TUSB_MINECRAFT_SERVER_REMOTE_USER }}/deploy/${{ github.event.repository.name }}
         env:

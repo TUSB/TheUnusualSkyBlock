@@ -42,6 +42,24 @@
               "name": "settings:item/enchant/exclusive/fortune_and_silk_touch"
             }
           ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "settings:item/enchant/enchant/double_break",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:双壊\"}]}}]}"
+                  }
+                }
+              }
+            }
+          ]
         }
       ]
     }

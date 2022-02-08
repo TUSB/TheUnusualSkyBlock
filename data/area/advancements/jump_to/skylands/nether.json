@@ -3,6 +3,12 @@
         "nether": {
             "trigger": "location",
             "conditions": {
+                "player": [
+                    {
+                      "condition": "minecraft:reference",
+                      "name": "entity:player"
+                    }
+                ],
                 "location": {
                     "position": {
                         "x": {

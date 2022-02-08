@@ -3,19 +3,24 @@
 # エンティティの初期化処理を行う
 ###################################################
 
+### 自然沸き処理
+execute if entity @s[type=creeper,tag=] run function enemy:natural_spawn
+
 ### モブ召喚
-execute if entity @s[tag=Spawn] run function entity:enemy/spawn/
+execute if entity @s[tag=Spawn] run function enemy:spawn/
 
 ### モブステータス適用
-execute if entity @s[tag=Mob] run function entity:enemy/spawn/apply_status/
+execute unless entity @s[tag=DelayedData] run data remove entity @s TicksFrozen
+execute if entity @s[tag=DelayedData] run function enemy:spawn/apply_status/
+
+### CallOnInit
+execute if entity @s[tag=CallOnInit] run function enemy:ai/call/trigger/initial
 
 ### プレイヤー初期化
 execute if entity @s[type=player] run function player:initialized
 
 ### 飛翔物属性付与
-tag @s[type=#entity:projectiles,tag=!Cargo] add TickingRequired
-tag @s[type=#entity:projectiles] add FlyingRequired
-data modify entity @s[tag=TickingRequired,nbt={PortalCooldown:0}] PortalCooldown set value 200
+execute if entity @s[type=#entity:projectiles] run function entity:initialize_projectile
 
 ### スポナーカート属性
 execute if entity @s[type=minecraft:armor_stand,nbt={Passengers:[{id:"minecraft:spawner_minecart"}]}] if block ~ ~1 ~ minecraft:command_block run tag @s add SpawnerHolder
@@ -26,6 +31,9 @@ execute if entity @s[type=minecraft:spawner_minecart] align xyz if entity @e[dy=
 kill @s[type=minecraft:item,nbt={Item:{tag:{NeverRemain:true}}}]
 ### FallingBlockの消滅処理
 execute if entity @s[tag=NeverRemain] run data merge entity @s {FallHurtMax:2147483647,FallingDistance:1E10f,DropItem:false,BlockState:{Name:"minecraft:command_block"},TileEntityData:{Command:"/setblock ~ ~ ~ minecraft:air",auto:true}}
+
+#クリーパー爆発のAEC削除
+kill @s[type=area_effect_cloud,nbt={Radius:2.5f,RadiusOnUse:-0.5f,RadiusPerTick:-0.008333334f}]
 
 ### 初期化済みタグ付与
 tag @s add Initialized

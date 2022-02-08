@@ -2,5 +2,9 @@
 ### エンティティ死亡時処理
 ##############################
 
-execute if entity @s[tag=CallOnDeath] run function entity:enemy/ai/call/death
-kill @s
+tag @s add Garbage
+
+# 忍者スキル - 介錯
+execute if entity @s[scores={Kaishaku=1..},tag=!KaishakuExplosion] run function skill:act/ninja/kaishaku/explode
+# ワイルドクッキング
+execute if entity @s[scores={WildCooking=1..}] run function skill:act/hunter/wild_cooking/cook

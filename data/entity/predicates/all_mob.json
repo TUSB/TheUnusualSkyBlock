@@ -3,11 +3,8 @@
     "condition": "minecraft:alternative",
     "terms": [
       {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "type": "minecraft:player"
-        }
+        "condition": "minecraft:reference",
+        "name": "entity:player"
       },
       {
         "condition": "minecraft:entity_properties",

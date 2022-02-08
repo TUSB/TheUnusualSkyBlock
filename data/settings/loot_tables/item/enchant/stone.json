@@ -4,8 +4,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:loot_table",
-          "name": "minecraft:empty",
+          "type": "minecraft:item",
+          "name": "minecraft:stone",
           "conditions": [
             {
               "condition": "location_check",
@@ -754,6 +754,20 @@
               "predicate": {
                 "block": {
                   "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"氷渡\"}}]}"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "settings:item/enchant/enchant/double_break",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "block": {
+                  "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"双壊\"}}]}"
                 }
               }
             }

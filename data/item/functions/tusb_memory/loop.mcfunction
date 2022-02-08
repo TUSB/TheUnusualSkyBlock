@@ -6,6 +6,11 @@ data modify storage skill: Skill.Type set value "TUSBMemory"
 data modify storage skill: Skill.Trigger set from storage item: Inventory[-1].tag.Skill.Trigger
 data modify storage skill: Skill.Count set from storage item: Inventory[-1].tag.Skill.Count
 data modify storage item: Inventory[-1].tag.Skill set from storage skill: Skill
+#元のNameを保存
+data modify storage item: Inventory[-1].tag.OriginalName set from storage item: Inventory[-1].tag.display.Name
+#残り使用回数を追加
+execute in area:control_area run data modify block 2 3 2 Text1 set value '[{"text":"","color":"white","italic":false},{"storage":"item:","nbt":"Inventory[-1].tag.OriginalName","interpret":true},{"text":" ("},{"storage":"skill:","nbt":"Skill.Count"},{"text":")"}]}}]'
+execute in area:control_area run data modify storage item: Inventory[-1].tag.display.Name set from block 2 3 2 Text1
 #Loreセット
 data remove storage item: Inventory[-1].tag.display.Lore[-1]
 #説明

@@ -1,0 +1,42 @@
+{
+  "criteria": {
+      "gullivers_land":{
+          "trigger": "enter_block",
+          "conditions": {
+              "block": "end_gateway",
+              "player": [
+                  {
+                      "condition": "minecraft:reference",
+                      "name": "entity:player"
+                  },
+                  {
+                      "condition": "entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "location": {
+                              "position": {
+                                  "x": {
+                                      "min": -616,
+                                      "max": -613
+                                  },
+                                  "y": {
+                                      "min": 89,
+                                      "max": 91
+                                  },
+                                  "z": {
+                                      "min": -784,
+                                      "max": -781
+                                  }
+                              },
+                              "dimension": "area:flying_island"
+                          }
+                      }
+                  }
+              ]
+          }
+      }
+  },
+  "rewards": {
+      "function": "area:jump_to/skylands/gates"
+  }
+}
