@@ -1,0 +1,5 @@
+##############################
+### 転移の印版
+##############################
+execute positioned as @p run particle minecraft:portal ~ ~1 ~ 0 0.5 0 1 100 force @a[tag=ShowParticles]
+execute positioned as @p run playsound minecraft:entity.enderman.teleport master @a[distance=..16] ~ ~ ~ 1 1
