@@ -85,7 +85,7 @@ execute if entity @s[tag=KanaTarai] if entity @e[tag=Mob,dx=0] run function skil
 ###サモンＢ処理
 execute if entity @s[tag=SummonedBlock] run function skill:act/summoner/fill/tick
 ###ふかふか処理
-# execute if entity @s[tag=Fukafuka] run function skill:act/summoner/fukafuka/tick
+execute if entity @s[tag=Fukafuka] run function skill:act/summoner/fukafuka/tick
 ###コールC処理
 execute if entity @s[tag=Crystal] run function skill:act/summoner/call_crystal_attack/tick/all
 ###グライダー処理
@@ -106,3 +106,6 @@ execute if entity @s[tag=FlyingRequired,nbt={inGround:true}] run function entity
 execute if entity @s[tag=DecelerateTrap] run function skill:act/hunter/decelerate_trap/tick
 execute if entity @s[tag=ExpelTrap] run function skill:act/hunter/expel_trap/tick
 execute if entity @s[tag=KasapTrap] run function skill:act/hunter/kasap_trap/tick
+
+###ふかふかケージ
+execute if entity @s[tag=Cage] run function skill:act/summoner/fukafuka/cage

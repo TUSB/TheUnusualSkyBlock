@@ -19,7 +19,7 @@ execute as @s[tag=AvoidFalling2] run function skill:act/knight/decoy/avoid_falli
 execute if entity @s[tag=Assault] run function skill:act/summoner/ponpon/assault
 
 ###ふかふかケージ
-# execute if entity @s[tag=Caught] run function skill:act/summoner/fukafuka/cage_delayed
+execute if entity @s[tag=Caught] run function skill:act/summoner/fukafuka/cage_delayed
 
 ### 2tick遅らせ処理
 ## デコイ

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:player",
+    "minecraft:armor_stand",
+    "minecraft:area_effect_cloud",
+    "minecraft:spawner_minecart",
+    "minecraft:falling_block"
+  ]
+}
