@@ -5,7 +5,7 @@
 execute store result score _ ResistEffects run function calc:random
 scoreboard players set _ _ 100
 scoreboard players operation _ ResistEffects %= _ _
-execute unless entity @s[advancements={effects:invisible={doom=false,super_doom=false,burn=false,freeze=false,palsy=false,confuse=false,curse=false,virus=false,tnt=false,pale=false,debilitu=false}}] run function effects:too_bad_effect
+execute if entity @s[predicate=effects:too_bad_effect] run function effects:too_bad_effect
 scoreboard players set @s ResistLock 1
 
 
