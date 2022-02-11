@@ -61,7 +61,7 @@ execute if entity @s[tag=Holy] run function skill:act/white_mage/holy/tick
 ###アイスジャベリン処理
 #execute if entity @s[tag=IceStorm] run function skill:act/black_mage/ice_storm/tick
 ###アイスジャベリン処理
-# execute if entity @s[tag=JavelinIce] run function skill:act/black_mage/ice_javelin/tick
+execute if entity @s[tag=JavelinIce] run function skill:act/black_mage/ice_javelin/tick
 ###スティッキーアイス処理
 # execute if entity @s[tag=StickyIce] run function skill:act/black_mage/sticky_ice/tick
 ###エクリプスフレイム処理
