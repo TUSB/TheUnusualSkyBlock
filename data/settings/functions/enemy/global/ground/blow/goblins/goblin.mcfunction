@@ -11,8 +11,8 @@ data modify storage tusb_mob: "即時ステータス"."ノックバック力" se
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."炎属性値" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."氷属性値" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."雷属性値" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."光属性値" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."闇属性値" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."光属性値" set value 200
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."闇属性値" set value 80
 # ステータス
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 25
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 50

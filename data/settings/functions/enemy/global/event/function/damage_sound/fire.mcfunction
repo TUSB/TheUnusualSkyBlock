@@ -1,2 +1,4 @@
 #Function
-playsound minecraft:entity.blaze.shoot master @a[distance=..32] ~ ~ ~ 5 0.8
+playsound entity.zombie.infect hostile @a[distance=..32] ~ ~ ~ 1.0 0.9
+playsound entity.generic.extinguish_fire hostile @a[distance=..32] ~ ~ ~ 1.0 1.2
+playsound item.firecharge.use hostile @a[distance=..32] ~ ~ ~ 1.0 1.4

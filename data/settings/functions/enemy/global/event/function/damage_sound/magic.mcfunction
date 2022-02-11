@@ -1,2 +1,5 @@
 #Function
-playsound minecraft:entity.blaze.shoot master @a[distance=..32] ~ ~ ~ 5 0.8
+playsound entity.ender_eye.death hostile @a[distance=..32] ~ ~ ~ 1.0 2.0
+playsound entity.ender_dragon.hurt hostile @a[distance=..32] ~ ~ ~ 1.0 2.0
+playsound entity.iron_golem.hurt hostile @a[distance=..32] ~ ~ ~ 1.0 2.0
+playsound block.respawn_anchor.ambient hostile @a[distance=..32] ~ ~ ~ 1.0 2.0

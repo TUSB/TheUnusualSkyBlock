@@ -1,2 +1,3 @@
 #Function
-playsound minecraft:entity.blaze.shoot master @a[distance=..32] ~ ~ ~ 5 0.8
+playsound entity.puffer_fish.death hostile @a[distance=..32] ~ ~ ~ 1.0 1.3
+playsound entity.rabbit.attack hostile @a[distance=..32] ~ ~ ~ 1.0 0.7

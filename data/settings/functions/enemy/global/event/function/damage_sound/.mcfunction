@@ -1,4 +1,5 @@
 execute if entity @s[tag=Undead] run function settings:enemy/global/event/function/damage_sound/undead
+execute if entity @s[tag=Ghost] run function settings:enemy/global/event/function/damage_sound/ghost
 execute if entity @s[tag=Amorphous] run function settings:enemy/global/event/function/damage_sound/amorphous
 execute if entity @s[tag=Mankind] run function settings:enemy/global/event/function/damage_sound/mankind
 execute if entity @s[tag=Light] run function settings:enemy/global/event/function/damage_sound/light

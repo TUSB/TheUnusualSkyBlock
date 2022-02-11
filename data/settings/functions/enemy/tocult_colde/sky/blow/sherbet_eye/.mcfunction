@@ -1,3 +1,9 @@
 execute if entity @s[tag=Main] run function settings:enemy/tocult_colde/sky/blow/sherbet_eye/main
+execute if entity @s[tag=Shoot] run function settings:enemy/tocult_colde/sky/blow/sherbet_eye/shoot
+execute if entity @s[tag=Bullet] run function settings:enemy/tocult_colde/sky/blow/sherbet_eye/bullet
+execute if entity @s[tag=BulletEffect] run function settings:enemy/tocult_colde/sky/blow/sherbet_eye/bullet_effect
+execute if entity @s[tag=BulletEffectDirection] run function settings:enemy/tocult_colde/sky/blow/sherbet_eye/bullet_effect_direction
+execute if entity @s[tag=BulletAppearance] run function settings:enemy/tocult_colde/sky/blow/sherbet_eye/bullet_appearance
+execute if entity @s[tag=BulletDirection] run function settings:enemy/tocult_colde/sky/blow/sherbet_eye/bullet_direction
 execute if entity @s[tag=Direction] run function settings:enemy/tocult_colde/sky/blow/sherbet_eye/direction
 execute if entity @s[tag=Appearance] run function settings:enemy/tocult_colde/sky/blow/sherbet_eye/appearance

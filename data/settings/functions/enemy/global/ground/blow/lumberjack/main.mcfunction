@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie_villager",CustomName:'{"translate":"木こり","color":"#FFFFFF"}',Silent:true,VillagerData:{level:99,profession:"minecraft:weaponsmith",type:"minecraft:jungle"},Offers:{},Tags:[Mob,DelayedData,HasAI,CallOnDeath]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie_villager",CustomName:'{"translate":"木こり","color":"#FFFFFF"}',Silent:true,VillagerData:{level:99,profession:"weaponsmith",type:"swamp"},Tags:[Mob,DelayedData,HasAI,CallOnDeath]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {HandItems:[{id:"minecraft:iron_axe",Count:1b},{}],HandDropChances:[-1E40f,-1E40f]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 16d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.28d
