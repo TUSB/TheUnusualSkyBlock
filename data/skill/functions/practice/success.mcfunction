@@ -8,6 +8,3 @@ execute if score _ MP matches 1.. run scoreboard players set @s MPAcceleration -
 
 #MPバー反映
 function player:mp_bar/set
-
-#インターバル適用
-scoreboard players operation @s Interval = _ Interval

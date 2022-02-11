@@ -10,5 +10,7 @@ execute if score _ Level matches 4 run data modify storage skill: Damage set fro
 function skill:damage/add/skill/magic
 #ダメージ付与
 execute as @e[tag=Mob,distance=..9] run function skill:damage/apply/
+#インターバル設定
+scoreboard players set @s Interval 5
 #演出
 function makeup:skill/act/ninja/choyaku/jump

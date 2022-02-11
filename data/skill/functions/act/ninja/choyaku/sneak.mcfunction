@@ -49,5 +49,7 @@ execute if score @s Choyaku matches 33 run effect give @s minecraft:jump_boost 5
 execute if score @s Choyaku matches 34 run effect give @s minecraft:jump_boost 5 33
 execute if score @s Choyaku matches 35 run effect give @s minecraft:jump_boost 5 34
 
+#インターバル設定
+scoreboard players set @s Interval 5
 #演出
 function makeup:skill/act/ninja/choyaku/sneak
