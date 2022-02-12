@@ -20,28 +20,30 @@ scoreboard players set _ _ 20
 scoreboard players operation _ Calc *= _ _
 scoreboard players operation _ Calc /= _ Interval
 
-execute if score _ Calc matches 00 run data modify storage calc: Text set value '[{"text":"▍","color":"green"},{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"red"}]'
-execute if score _ Calc matches 01 run data modify storage calc: Text set value '[{"text":"▍▍","color":"green"},{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"red"}]'
-execute if score _ Calc matches 02 run data modify storage calc: Text set value '[{"text":"▍▍▍","color":"green"},{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"red"}]'
-execute if score _ Calc matches 03 run data modify storage calc: Text set value '[{"text":"▍▍▍▍","color":"green"},{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"red"}]'
-execute if score _ Calc matches 04 run data modify storage calc: Text set value '[{"text":"▍▍▍▍▍","color":"green"},{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"red"}]'
-execute if score _ Calc matches 05 run data modify storage calc: Text set value '[{"text":"▍▍▍▍▍▍","color":"green"},{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"red"}]'
-execute if score _ Calc matches 06 run data modify storage calc: Text set value '[{"text":"▍▍▍▍▍▍▍","color":"green"},{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"red"}]'
-execute if score _ Calc matches 07 run data modify storage calc: Text set value '[{"text":"▍▍▍▍▍▍▍▍","color":"green"},{"text":"▍▍▍▍▍▍▍▍▍▍▍▍","color":"red"}]'
-execute if score _ Calc matches 08 run data modify storage calc: Text set value '[{"text":"▍▍▍▍▍▍▍▍▍","color":"green"},{"text":"▍▍▍▍▍▍▍▍▍▍▍","color":"red"}]'
-execute if score _ Calc matches 09 run data modify storage calc: Text set value '[{"text":"▍▍▍▍▍▍▍▍▍▍","color":"green"},{"text":"▍▍▍▍▍▍▍▍▍▍","color":"red"}]'
-execute if score _ Calc matches 10 run data modify storage calc: Text set value '[{"text":"▍▍▍▍▍▍▍▍▍▍▍","color":"green"},{"text":"▍▍▍▍▍▍▍▍▍","color":"red"}]'
-execute if score _ Calc matches 11 run data modify storage calc: Text set value '[{"text":"▍▍▍▍▍▍▍▍▍▍▍▍","color":"green"},{"text":"▍▍▍▍▍▍▍▍","color":"red"}]'
-execute if score _ Calc matches 12 run data modify storage calc: Text set value '[{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"green"},{"text":"▍▍▍▍▍▍▍","color":"red"}]'
-execute if score _ Calc matches 13 run data modify storage calc: Text set value '[{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"green"},{"text":"▍▍▍▍▍▍","color":"red"}]'
-execute if score _ Calc matches 14 run data modify storage calc: Text set value '[{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"green"},{"text":"▍▍▍▍▍","color":"red"}]'
-execute if score _ Calc matches 15 run data modify storage calc: Text set value '[{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"green"},{"text":"▍▍▍▍","color":"red"}]'
-execute if score _ Calc matches 16 run data modify storage calc: Text set value '[{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"green"},{"text":"▍▍▍","color":"red"}]'
-execute if score _ Calc matches 17 run data modify storage calc: Text set value '[{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"green"},{"text":"▍▍","color":"red"}]'
-execute if score _ Calc matches 18 run data modify storage calc: Text set value '[{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"green"},{"text":"▍","color":"red"}]'
-execute if score _ Calc matches 19 run data modify storage calc: Text set value '[{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"green"}]'
+execute if score _ Calc matches 00 run data modify storage skill: Text set value '[{"text":"▍","color":"green"},{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"red"}]'
+execute if score _ Calc matches 01 run data modify storage skill: Text set value '[{"text":"▍▍","color":"green"},{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"red"}]'
+execute if score _ Calc matches 02 run data modify storage skill: Text set value '[{"text":"▍▍▍","color":"green"},{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"red"}]'
+execute if score _ Calc matches 03 run data modify storage skill: Text set value '[{"text":"▍▍▍▍","color":"green"},{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"red"}]'
+execute if score _ Calc matches 04 run data modify storage skill: Text set value '[{"text":"▍▍▍▍▍","color":"green"},{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"red"}]'
+execute if score _ Calc matches 05 run data modify storage skill: Text set value '[{"text":"▍▍▍▍▍▍","color":"green"},{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"red"}]'
+execute if score _ Calc matches 06 run data modify storage skill: Text set value '[{"text":"▍▍▍▍▍▍▍","color":"green"},{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"red"}]'
+execute if score _ Calc matches 07 run data modify storage skill: Text set value '[{"text":"▍▍▍▍▍▍▍▍","color":"green"},{"text":"▍▍▍▍▍▍▍▍▍▍▍▍","color":"red"}]'
+execute if score _ Calc matches 08 run data modify storage skill: Text set value '[{"text":"▍▍▍▍▍▍▍▍▍","color":"green"},{"text":"▍▍▍▍▍▍▍▍▍▍▍","color":"red"}]'
+execute if score _ Calc matches 09 run data modify storage skill: Text set value '[{"text":"▍▍▍▍▍▍▍▍▍▍","color":"green"},{"text":"▍▍▍▍▍▍▍▍▍▍","color":"red"}]'
+execute if score _ Calc matches 10 run data modify storage skill: Text set value '[{"text":"▍▍▍▍▍▍▍▍▍▍▍","color":"green"},{"text":"▍▍▍▍▍▍▍▍▍","color":"red"}]'
+execute if score _ Calc matches 11 run data modify storage skill: Text set value '[{"text":"▍▍▍▍▍▍▍▍▍▍▍▍","color":"green"},{"text":"▍▍▍▍▍▍▍▍","color":"red"}]'
+execute if score _ Calc matches 12 run data modify storage skill: Text set value '[{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"green"},{"text":"▍▍▍▍▍▍▍","color":"red"}]'
+execute if score _ Calc matches 13 run data modify storage skill: Text set value '[{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"green"},{"text":"▍▍▍▍▍▍","color":"red"}]'
+execute if score _ Calc matches 14 run data modify storage skill: Text set value '[{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"green"},{"text":"▍▍▍▍▍","color":"red"}]'
+execute if score _ Calc matches 15 run data modify storage skill: Text set value '[{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"green"},{"text":"▍▍▍▍","color":"red"}]'
+execute if score _ Calc matches 16 run data modify storage skill: Text set value '[{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"green"},{"text":"▍▍▍","color":"red"}]'
+execute if score _ Calc matches 17 run data modify storage skill: Text set value '[{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"green"},{"text":"▍▍","color":"red"}]'
+execute if score _ Calc matches 18 run data modify storage skill: Text set value '[{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"green"},{"text":"▍","color":"red"}]'
+execute if score _ Calc matches 19 run data modify storage skill: Text set value '[{"text":"▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍▍","color":"green"}]'
 
-execute if score _ Calc matches 0..19 run title @s actionbar [{"text":"","color":"white","italic":false},{"storage":"skill:","nbt":"Skill.Icon","font":"icon","color":"green"},{"text":" "},{"storage":"skill:","nbt":"Skill.Skill"},{"text":" "},{"storage":"calc:","nbt":"Text","interpret":true}]
+execute if score _ Calc matches 0..19 run data modify storage calc: Text set value '[{"text":"","color":"white","italic":false},{"storage":"skill:","nbt":"Skill.Icon","font":"icon","color":"green"},{"text":" "},{"storage":"skill:","nbt":"Skill.Skill"},{"text":" "},{"storage":"skill:","nbt":"Text","interpret":true}]'
+execute if score _ Calc matches 0..19 run data modify storage calc: TextLength set value 8
+execute if score _ Calc matches 0..19 run function calc:show_text/actionbar
 execute if score _ Calc matches 20 run title @s actionbar [""]
 
 #インターバルが終了していればNBT削除
