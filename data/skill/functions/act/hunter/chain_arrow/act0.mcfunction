@@ -9,13 +9,7 @@ execute if score _ Level matches 3 run data modify storage skill: Damage set fro
 execute if score _ Level matches 4 run data modify storage skill: Damage set from storage skill: Data.Hunter[{Name:"チェインアロー",Level:4}].Damage
 #ダメージ計算
 function skill:damage/add/skill/weapon
-#タグ一覧
-data modify storage skill: Tags set value [Skill,ChainArrow,NativeTask]
-execute if score _ Level matches 1 run data modify storage skill: Tags append value "Level1"
-execute if score _ Level matches 2 run data modify storage skill: Tags append value "Level2"
-execute if score _ Level matches 3 run data modify storage skill: Tags append value "Level3"
-execute if score _ Level matches 4 run data modify storage skill: Tags append value "Level4"
-#タグ付与
-data modify entity @e[distance=..5,type=minecraft:arrow,tag=!Initialized,sort=nearest,limit=1] Tags append from storage skill: Tags[]
+#適用
+execute as @e[distance=..5,type=minecraft:arrow,tag=!Initialized,sort=nearest,limit=1] run function skill:act/hunter/chain_arrow/act1
 #演出
 function makeup:skill/act/hunter/chain_arrow/act0
