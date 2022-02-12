@@ -11,4 +11,4 @@ execute if score @s Level matches 2 run scoreboard players set @e[tag=Mob,distan
 #水中でkill
 execute if block ~ ~ ~ water run kill @s
 #演出
-execute if score $Second Count matches 0 run function makeup:skill/act/hunter/wild_cooking/tick
+execute if score $Tick Count matches 0 run function makeup:skill/act/hunter/wild_cooking/tick

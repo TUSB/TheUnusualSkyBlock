@@ -1,5 +1,5 @@
 ##############################
-### プレイヤー毎ティック処理
+### プレイヤー毎秒処理
 ##############################
 
 ###スキル
@@ -31,3 +31,9 @@ execute unless predicate entity:kill_check run kill @s
 
 # 職業変更制限
 scoreboard players remove @s ChangeJobLock 1
+
+###各エリア処理
+execute as @a[predicate=area:system/underworld/in_water] run function area:system/underworld/food_rot
+
+### 10秒処理
+execute if score $Second Count matches 0 run function player:ten_seconds

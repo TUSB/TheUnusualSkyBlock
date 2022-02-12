@@ -12,4 +12,4 @@ execute if entity @s[nbt=!{AbsorptionAmount:1000000f}] run function enemy:update
 execute if entity @s[scores={Damage=-2147483648..}] run function enemy:update_health
 
 ### 1秒処理
-execute if score $Second Count matches 0 run function enemy:one_second
+execute if score $Tick Count matches 0 run function enemy:one_second

@@ -21,8 +21,8 @@ execute as @e[tag=!Initialized] at @s run function entity:initialize_entity
 kill @e[tag=OneTimeSpawner,nbt={SpawnData:{id:"tusb_mob:empty"}}]
 
 ### 1秒処理
-scoreboard players add $Second Count 1
-execute if score $Second Count matches 20.. run function main:one_second
+scoreboard players add $Tick Count 1
+execute if score $Tick Count matches 20.. run function main:one_second
 
 ### エンティティAI分岐
 execute as @e[tag=HasAI] at @s run function enemy:ai/tick

@@ -2,12 +2,9 @@
 ### １秒処理
 ##############################
 
-scoreboard players add $TenSeconds Count 1
-execute if score $TenSeconds Count matches 10.. run function main:ten_seconds
-scoreboard players set $Second Count 0
+scoreboard players add $Seconds Count 1
+execute if score $Seconds Count matches 10.. run function main:ten_seconds
+scoreboard players set $Tick Count 0
 
 ### 停止飛翔物削除
 execute as @e[tag=TickingRequired] run function entity:check_freeze
-
-###各エリア処理
-execute as @a[predicate=area:system/underworld/in_water] run function area:system/underworld/food_rot
