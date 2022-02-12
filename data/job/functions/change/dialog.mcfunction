@@ -1,12 +1,8 @@
 
-#時間分解
-execute store result score _ Calc run scoreboard players operation _ _ = @s ChangeJobLock
-scoreboard players set @s _ 60
-scoreboard players operation _ _ /= @s _
-scoreboard players operation _ Calc %= @s _
+#時間表示
 
 execute if score @s ChangeJobLock matches ..0 run tellraw @s ["\n",{"translate":"・職業変更"}," | ",{"translate":"スキルを使用すると 1時間の変更制限がかかります。"},"\n"]
-execute if score @s ChangeJobLock matches 1.. run tellraw @s ["\n",{"translate":"・職業変更"}," | ",{"translate":"変更制限 %1$s分 %2$s秒","with":[{"score":{"name":"_","objective":"_"}},{"score":{"name":"_","objective":"Calc"}}]},"\n"]
+execute if score @s ChangeJobLock matches 1.. run tellraw @s ["\n",{"translate":"・職業変更"}," | ",{"translate":"変更制限:残り %1$s分","with":[{"score":{"name":"@s","objective":"ChangeJobLock"}}]},"\n"]
 
 # bitシフトで変更可能か確認する
 # 最上位ビットから順に剣士 ~ 怪盗

@@ -29,9 +29,6 @@ execute if entity @s[scores={VirusCount=1..}] run function effects:virus/tick
 #エリア外死亡処理
 execute unless predicate entity:kill_check run kill @s
 
-# 職業変更制限
-scoreboard players remove @s ChangeJobLock 1
-
 ###各エリア処理
 execute as @a[predicate=area:system/underworld/in_water] run function area:system/underworld/food_rot
 
