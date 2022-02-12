@@ -71,6 +71,8 @@ scoreboard objectives add BlackMageLv dummy {"text": "黒魔道士スキルレ�
 scoreboard objectives add SummonerLv dummy {"text": "召喚士スキルレベル"}
 scoreboard objectives add PuppetMasterLv dummy {"text": "絡繰士スキルレベル"}
 scoreboard objectives add ThiefLv dummy {"text": "怪盗スキルレベル"}
+scoreboard objectives add CanChangeJobFlag dummy {"text":"常時職業変更可能フラグ"}
+scoreboard objectives add ChangeJobLock dummy {"text":"職業変更制限"}
 
 ###スキル
 scoreboard objectives add MPHealingWait dummy {"text":"MP回復ウェイト"}
@@ -141,6 +143,7 @@ scoreboard objectives add UseArmorStand minecraft.used:minecraft.armor_stand {"t
 scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game {"text":"ログインフラグ"}
 scoreboard objectives add ChangeSettings trigger {"text":"設定変更"}
 scoreboard objectives add ChangeSkill trigger {"text":"スキル変更"}
+scoreboard objectives add ChangeJob trigger {"text":"職業変更"}
 scoreboard objectives add TipsSuppressFlag dummy {"text":"TIPS抑制フラグ"}
 scoreboard objectives add TipsSupTrigger trigger {"text":"TIPS抑制トリガー"}
 scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time {"text":"スニーク時間"}

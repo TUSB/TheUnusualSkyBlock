@@ -10,6 +10,9 @@ execute if score @s ChangeSettings matches 4 run function player:game_settings/t
 # 5,6,7 テキスト表示位置調整
 execute if score @s ChangeSettings matches 5..7 run function player:game_settings/tune_offset
 
+# 10 職業変更
+execute if score @s ChangeSettings matches 10 in area:control_area run function job:change/dialog
+
 # 99 スニークで設定表示切り替え
 execute if score @s ChangeSettings matches 99 run function player:game_settings/toggle_sneak_trigger
 

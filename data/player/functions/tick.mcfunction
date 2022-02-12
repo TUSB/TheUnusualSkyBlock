@@ -54,6 +54,8 @@ execute if entity @s[scores={HealthHealing=-2147483648..}] run function player:h
 execute unless score @s ChangeSettings matches 0 run function player:game_settings/triggered
 ### プレイヤースキル設定
 execute unless score @s ChangeSkill matches 0 run function skill:trigger/
+### 職業変更
+execute unless score @s ChangeJob matches 0 run function job:change/
 ### TIPS抑制
 execute unless score @s TipsSupTrigger matches 0 run function player:tips/suppress
 ### 潜在能力
