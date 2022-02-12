@@ -55,7 +55,7 @@ jobs:
       - name: Deploy by rsync
         uses: trendyminds/github-actions-rsync@master
         with:
-          RSYNC_OPTIONS: -avzre "ssh -o 'StrictHostKeyChecking no'" --delete --timeout=1200
+          RSYNC_OPTIONS: -avzre "ssh -o 'StrictHostKeyChecking no'" --delete --timeout=1200 --exclude=".git/"
           RSYNC_SOURCE: /
           RSYNC_TARGET: /home/${{ secrets.TUSB_MINECRAFT_SERVER_REMOTE_USER }}/deploy/${{ github.event.repository.name }}
         env:
