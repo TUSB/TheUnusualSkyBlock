@@ -8,3 +8,6 @@ execute if score _ MP matches 1.. run scoreboard players set @s MPAcceleration -
 
 #MPバー反映
 function player:mp_bar/set
+
+#成功フラグ
+data modify storage skill: Success set value 1b

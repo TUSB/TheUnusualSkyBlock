@@ -13,6 +13,9 @@ execute if entity @s[scores={Age=1..},gamemode=!spectator,gamemode=!creative] an
 ### 特殊床
 execute if entity @s[gamemode=!creative,gamemode=!spectator] unless score @s Kazakiri matches 1.. if block ~ ~-2 ~ #entity:unique_floors run function entity:unique_floor/fork
 
+#インターバル表示
+execute if entity @s[nbt={Inventory:[{tag:{Skill:{ShowInterval:1b}}}]}] run function player:show_interval/check
+
 ### トリガー
 execute if entity @s[scores={UseBow=1..}] run function player:trigger/use/bow
 execute if entity @s[scores={UseCrossbow=1..}] run function player:trigger/use/crossbow
