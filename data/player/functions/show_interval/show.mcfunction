@@ -46,6 +46,5 @@ execute if score _ Calc matches 20 run title @s actionbar [""]
 
 #インターバルが終了していればNBT削除
 execute if score _ Calc matches 20.. run data remove storage item: Item.tag.Skill.ShowInterval
-execute if score _ Calc matches 20.. unless data storage item: Item{Slot:-106b} run item replace entity @s weapon.mainhand with carrot_on_a_stick
 execute if score _ Calc matches 20.. unless data storage item: Item{Slot:-106b} run item modify entity @s weapon.mainhand item:storage/item
 execute if score _ Calc matches 20.. if data storage item: Item{Slot:-106b} run item modify entity @s weapon.offhand item:storage/item
