@@ -5,4 +5,4 @@
 function calc:bit/get/digit_at_number/
 
 # 何桁か(Digit)が帰ってくるので、2のDigit乗して返す
-function calc:bit/get/bit_at_digit
+function calc:bit/get/bit_at_digit/
