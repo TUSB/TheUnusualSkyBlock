@@ -22,7 +22,3 @@ execute if score @s ChangeJob matches 8 run function makeup:job/change/thief
 function job:status/get_all_job_level
 
 function job:status/operation_end
-
-# トリガーリセット
-scoreboard players reset @s ChangeJob
-scoreboard players enable @s ChangeJob
