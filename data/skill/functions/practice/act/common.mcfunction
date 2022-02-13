@@ -1,3 +1,4 @@
+execute if data storage skill: Skill{Name:"職業どこでも変更許可"} run function skill:act/common/permission_to_change_job_anywhere/act0
 execute if data storage skill: Skill{Name:"サモンSトラベルカノン"} run function skill:act/common/travel_cannon/act0
 execute if data storage skill: Skill{Name:"全滅の印板"} run function skill:act/common/annihilation_engraving_plate/act0
 execute if data storage skill: Skill{Name:"積み上げの印板"} run function skill:act/common/pile_up_engraving_plate/act0
