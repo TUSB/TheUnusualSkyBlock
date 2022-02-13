@@ -33,4 +33,4 @@ execute unless predicate entity:kill_check run kill @s
 execute as @a[predicate=area:system/underworld/in_water] run function area:system/underworld/food_rot
 
 ### 10秒処理
-execute if score $Second Count matches 0 run function player:ten_seconds
+execute if score $Seconds Count matches 0 run function player:ten_seconds
