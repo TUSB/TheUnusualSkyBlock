@@ -104,6 +104,7 @@ scoreboard objectives add RaderVision dummy {"text":"レーダーヴィジョン
 scoreboard objectives add WildCooking dummy {"text":"ワイルドクッキング継続秒数"}
 #黒魔道士
 scoreboard objectives add EclipseRadius dummy {"text":"エクリプスフレイム半径"}
+scoreboard objectives add LightningBlow dummy {"text":"ライトニングブロー威力"}
 #召喚士
 scoreboard objectives add FillSize dummy {"text":"フィールサイズ"}
 #共通
