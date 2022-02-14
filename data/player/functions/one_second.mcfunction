@@ -8,7 +8,6 @@ scoreboard players reset @s[scores={Choyaku=0..},nbt=!{ActiveEffects:[{Id:8b}]}]
 execute if entity @s[scores={Katon=1..}] run function skill:act/ninja/katon/tick
 execute if entity @s[scores={Mokuso=1..}] run function skill:act/ninja/mokuso/tick
 execute if entity @s[scores={Suiton=1..}] run function skill:act/ninja/suiton/tick
-execute if entity @s[scores={Isukumi=1..}] run function skill:act/ninja/isukumi/tick
 #狩人
 execute if entity @s[scores={PiercingAim=1..}] run function skill:act/hunter/piercing_aim/tick
 #共通
