@@ -105,6 +105,7 @@ scoreboard objectives add WildCooking dummy {"text":"ワイルドクッキング
 #黒魔道士
 scoreboard objectives add EclipseRadius dummy {"text":"エクリプスフレイム半径"}
 scoreboard objectives add LightningBlow dummy {"text":"ライトニングブロー威力"}
+scoreboard objectives add BlitzManover dummy {"text":"ブリッツマニューバ残りtick数"}
 #召喚士
 scoreboard objectives add FillSize dummy {"text":"フィールサイズ"}
 #共通
