@@ -22,8 +22,10 @@ execute if data storage item: SelectedItem.tag.Enchantments[{id:"tusb:血吸"}] 
 execute if data storage item: SelectedItem.tag.Enchantments[{id:"tusb:魔吸"}] run function skill:enchant/mana_leech
 
 ### スキル
-execute if data storage item: SelectedItem.tag.Skill{Trigger:"近接攻撃する"} run data modify storage item: Item set from storage item: SelectedItem
-execute if data storage item: SelectedItem.tag.Skill{Trigger:"近接攻撃する"} run function skill:practice/
+function skill:equipments_to_items
+data remove storage item: Item
+data modify storage item: Item set from storage item: Items[{tag:{Skill:{Trigger:"近接攻撃する"}}}]
+execute if data storage item: Item.tag.Skill{Trigger:"近接攻撃する"} run function skill:practice/
 
 #属性ダメージ演出
 execute at 0-0-0-0-2 run function makeup:skill/enchant/elmental_damage/hit

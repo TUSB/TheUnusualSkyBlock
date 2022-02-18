@@ -5,5 +5,7 @@
 function player:load_equipments
 
 # スキル発動
-data modify storage item: Item set from storage item: SelectedItem
-function skill:practice/
+function skill:equipments_to_items
+data remove storage item: Item
+data modify storage item: Item set from storage item: Items[{tag:{Skill:{Trigger:"剣を持った状態でスニーク解除"}}}]
+execute if data storage item: Item.tag.Skill{Trigger:"剣を持った状態でスニーク解除"} run function skill:practice/

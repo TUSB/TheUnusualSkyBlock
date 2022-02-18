@@ -1,12 +1,5 @@
 #インターバル表示
 
-#装備を取得
-function player:load_equipments
-#メインハンド
-execute if data storage item: SelectedItem.tag.Skill{ShowInterval:1b} run data modify storage item: Item set from storage item: SelectedItem
-#オフハンド
-execute unless data storage item: SelectedItem.tag.Skill{ShowInterval:1b} if data storage item: Equipments[{Slot:-106b}].tag.Skill{ShowInterval:1b} run data modify storage item: Item set from storage item: Equipments[{Slot:-106b}]
-
 #スキル取得
 data modify storage skill: Skill set from storage item: Item.tag.Skill
 
@@ -48,5 +41,9 @@ execute if score _ Calc matches 20 run title @s actionbar [""]
 
 #インターバルが終了していればNBT削除
 execute if score _ Calc matches 20.. run data modify storage item: Item.tag.Skill.ShowInterval set value 0b
-execute if score _ Calc matches 20.. unless data storage item: Item{Slot:-106b} run item modify entity @s weapon.mainhand item:storage/item
+execute if score _ Calc matches 20.. unless data storage item: Item.Slot run item modify entity @s weapon.mainhand item:storage/item
 execute if score _ Calc matches 20.. if data storage item: Item{Slot:-106b} run item modify entity @s weapon.offhand item:storage/item
+execute if score _ Calc matches 20.. if data storage item: Item{Slot:100b} run item modify entity @s armor.feet item:storage/item
+execute if score _ Calc matches 20.. if data storage item: Item{Slot:101b} run item modify entity @s armor.legs item:storage/item
+execute if score _ Calc matches 20.. if data storage item: Item{Slot:102b} run item modify entity @s armor.chest item:storage/item
+execute if score _ Calc matches 20.. if data storage item: Item{Slot:103b} run item modify entity @s armor.head item:storage/item
