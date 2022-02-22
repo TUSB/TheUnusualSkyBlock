@@ -1,8 +1,3 @@
-
-#ジンスピリット ダメージカウント
-tag @e[tag=GinSpirit,distance=..8] add DetectDamage
-scoreboard players add @e[tag=GinSpirit,distance=..8] SkillAttribute 1
-
 #CallOnDamage
 execute if entity @s[tag=CallOnDamage,tag=HitDamageTaken] at @s run function enemy:ai/call/trigger/damage/
 tag @s remove HitDamageTaken
