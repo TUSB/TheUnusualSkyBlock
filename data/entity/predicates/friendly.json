@@ -14,5 +14,24 @@
         }
       }
     ]
+  },
+  {
+    "condition": "alternative",
+    "terms": [
+      {
+        "condition": "reference",
+        "name": "entity:player"
+      },
+      {
+        "condition": "inverted",
+        "term": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "type": "minecraft:player"
+          }
+        }
+      }
+    ]
   }
 ]
