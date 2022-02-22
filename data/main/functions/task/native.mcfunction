@@ -73,9 +73,9 @@ execute if entity @s[tag=EclipseFlameCore] run function skill:act/black_mage/ecl
 ###キャンドル処理
 execute if entity @s[tag=Candle] positioned ~ ~1 ~ unless entity @e[tag=Candle,distance=..0.01,limit=1] positioned as @s run function skill:act/black_mage/candle/tick
 ###ジン・スピリット処理
-# execute if entity @s[tag=GinSpirit] run function skill:act/black_mage/gin_spirit/tick
+execute if entity @s[tag=GinSpirit] run function skill:act/black_mage/gin_spirit/tick
 ###ジン・スピリットコウモリ処理
-# execute if entity @s[tag=GinSpiritBat] positioned ~-0.5 ~-0.5 ~-0.5 if entity @a[dx=0,dy=0,dz=0,gamemode=!creative,gamemode=!spectator,limit=1] run function skill:act/black_mage/gin_spirit/heal
+execute if entity @s[tag=GinSpiritBat] positioned ~-0.5 ~-0.5 ~-0.5 if entity @a[dx=0,dy=0,dz=0,gamemode=!creative,gamemode=!spectator,limit=1] run function skill:act/black_mage/gin_spirit/heal
 ###ウィンドウォール竜巻処理
 # execute if entity @s[tag=WindWallTornado] run function skill:act/black_mage/wind_wall/tick_tornado
 ###金タライ処理
