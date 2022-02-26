@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie",Silent:1b,IsBaby:1b,ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2147483647,ShowParticles:0b}],PortalCooldown:5,DeathLootTable:"empty",Tags:[Mob,DelayedData,HasAI,CallOnInit,CallOnTimeOut,CooldownRequired]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie",Silent:1b,IsBaby:1b,ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2147483647,ShowParticles:0b}],PortalCooldown:5,DeathLootTable:"empty",Tags:[Mob,DelayedData,CallOnInit,CallOnTimeOut,CooldownRequired]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 0d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0d

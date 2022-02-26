@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:snowball",Tags:[DelayedData,HasAI,CallOnInit,CallOnAttack]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:snowball",Tags:[DelayedData,CallOnInit,CallOnAttack]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 ### 遅延ステータス
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 80
