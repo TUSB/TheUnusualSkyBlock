@@ -1,7 +1,7 @@
 
 ### アイスジャベリン発動
 
-summon minecraft:armor_stand ^ ^ ^ {NoGravity:true,Marker:true,Invisible:true,Tags:[IceJavelin,JavelinIce,NativeTask],PortalCooldown:100}
+summon minecraft:armor_stand ^ ^ ^ {NoGravity:true,Marker:true,Invisible:true,Tags:[Skill,IceJavelin,JavelinIce,NativeTask],PortalCooldown:100}
 scoreboard players operation @e[distance=..0.01,tag=IceJavelin] TrackingID = @s OhMyDatID
 
 # ダメージ

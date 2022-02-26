@@ -20,7 +20,7 @@ scoreboard players operation @s _ %= _ _
 
 ### 氷発生
 execute as @a[distance=..32] at @s run playsound minecraft:block.glass.break master @s ^ ^64 ^ 7 2
-execute if score @s _ matches 0 run summon minecraft:armor_stand ~ ~ ~ {Small:false,NoGravity:true,Invisible:true,Marker:true,PortalCooldown:49,Tags:[JavelinIce,NativeTask],ArmorItems:[{},{},{},{id:"minecraft:ice",Count:1b}],Pose:{Head:[1f,1f,1f]},Fire:1000s}
+execute if score @s _ matches 0 run summon minecraft:armor_stand ~ ~ ~ {Small:false,NoGravity:true,Invisible:true,Marker:true,PortalCooldown:49,Tags:[Skill,JavelinIce,NativeTask],ArmorItems:[{},{},{},{id:"minecraft:ice",Count:1b}],Pose:{Head:[1f,1f,1f]},Fire:1000s}
 function skill:damage/load
 execute as @e[distance=..0.01,tag=JavelinIce,tag=!IceJavelin] run function skill:damage/save
 data modify entity @e[distance=..0.01,tag=JavelinIce,tag=!IceJavelin,limit=1] PortalCooldown set from entity @s PortalCooldown
