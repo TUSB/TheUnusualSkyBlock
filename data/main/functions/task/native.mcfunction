@@ -31,9 +31,7 @@ execute if entity @s[tag=AerialSlash] run function makeup:skill/act/knight/aeria
 ###影封縫
 execute if entity @s[tag=ShadowThrust] run function skill:act/knight/shadow_thrust/tick
 ###斬鉄剣
-execute if entity @s[tag=OdinSlash1] run function skill:act/knight/odin_slash/tick1
-execute if entity @s[tag=OdinSlash2] run function skill:act/knight/odin_slash/tick2
-execute if entity @s[tag=OdinSlash3] run function skill:act/knight/odin_slash/tick3
+execute if entity @s[tag=OdinSlash] run function skill:act/knight/odin_slash/tick_slash
 ###手裏剣
 # execute if entity @s[tag=Shuriken] run function skill:act/ninja/shuriken/tick
 ###介錯処理
