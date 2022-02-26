@@ -17,6 +17,9 @@
 ###放物線
 # execute if entity @s[tag=ParabolicEntity] run function calc_manager:parabora/move
 
+###SmartMotion
+execute if entity @s[tag=SmartMotion] run function smart_motion:core/entity_tick
+
 ###雪玉ヒット検知
 execute if entity @s[tag=DamageSnowball] run function entity:snowball_hit
 

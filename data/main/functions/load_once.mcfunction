@@ -187,6 +187,9 @@ scoreboard objectives add BlinkSubTimer dummy {"text":"幻影発動時タイマ�
 #ScoreDamage
 function score_damage:core/init
 
+#SmartMotion
+function smart_motion:core/load_once
+
 #スキルデータ
 function skill:data/
 
