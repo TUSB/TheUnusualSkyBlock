@@ -25,7 +25,6 @@ execute if entity @s[tag=DamageSnowball] run function entity:snowball_hit
 
 ###真空斬り
 execute if entity @s[tag=AerialSlash] run function skill:act/knight/aerial_slash/re_aim_check
-execute if entity @s[tag=AerialSlash] run function makeup:skill/act/knight/aerial_slash/fly
 ###地烈斬
 # execute if entity @s[tag=CrackSlash] run function skill:act/knight/crack_slash/tick
 ###影封縫
