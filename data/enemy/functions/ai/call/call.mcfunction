@@ -14,3 +14,4 @@ execute if data storage mob_data: Call{Name:"Damage"} run function skill:enemy/d
 execute if data storage mob_data: Call{Name:"Blink"} run function skill:enemy/blink/cast/
 execute if data storage mob_data: Call{Name:"Laser"} run function skill:enemy/laser/main/init
 execute if data storage mob_data: Call{Name:"Heal"} run function skill:enemy/heal/
+execute if data storage mob_data: Call{Name:"SmartMotion"} run function skill:enemy/smart_motion
