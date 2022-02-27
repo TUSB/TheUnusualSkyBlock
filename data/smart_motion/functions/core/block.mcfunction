@@ -1,3 +1,5 @@
+#CallOnBlock
+execute if entity @s[tag=CallOnBlock] run function enemy:ai/call/trigger/block
 #ブロックに当たると消える tag=Break
 tag @s[tag=Break] add Garbage
 #ブロックに当たるとくっつく tag=Stick
