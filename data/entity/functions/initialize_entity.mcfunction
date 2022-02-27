@@ -20,7 +20,7 @@ execute if entity @s[tag=CallOnInit] run function enemy:ai/call/trigger/initial
 execute if entity @s[type=player] run function player:initialized
 
 ### 飛翔物属性付与
-execute if entity @s[type=#entity:projectiles] run function entity:initialize_projectile
+execute unless entity @s[type=!#entity:projectiles,tag=!DamageProjectile] run function entity:initialize_projectile
 
 ### スポナーカート属性
 execute if entity @s[type=minecraft:armor_stand,nbt={Passengers:[{id:"minecraft:spawner_minecart"}]}] if block ~ ~1 ~ minecraft:command_block run tag @s add SpawnerHolder

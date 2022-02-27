@@ -9,7 +9,7 @@ data modify entity @s[type=#minecraft:arrows,nbt={pickup:0b,damage:0d}] damage s
 
 ### 雪玉系のダメージ設定
 #NoGravityを反転->2tick後に反転させて描画を直す
-tag @s[type=#entity:non_damage_projectiles,tag=DamageProjectile] add DamageSnowball
+tag @s[tag=DamageProjectile] add DamageSnowball
 tag @s[tag=DamageSnowball] add NativeTask
 #execute if entity @s[type=#entity:non_damage_projectiles] if entity @e[tag=SummonedSnowGolem,distance=..3] run function skill:act/summoner/summon_snow_golem/apply
 execute if entity @s[type=#entity:non_damage_projectiles,tag=DelayedData] run function entity:initialize_snowball/
