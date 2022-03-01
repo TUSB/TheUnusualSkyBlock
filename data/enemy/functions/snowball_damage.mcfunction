@@ -5,3 +5,6 @@ execute if entity @e[tag=CallOnAttackProjectile,distance=..3,limit=1,sort=neares
 tag @e[tag=DamageSnowball,distance=..3,limit=1,sort=nearest] remove DamageSnowball
 execute if entity @s[scores={SnowballTime=0..},nbt=!{Health:0.0f}] run function makeup:enemy/snowball_damage
 scoreboard players set @s[scores={SnowballTime=0..}] SnowballTime -10
+
+#トント
+execute if score @s TntCount matches 0.. run function effects:tnt/check
