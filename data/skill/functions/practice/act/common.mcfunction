@@ -1,3 +1,9 @@
+execute if data storage skill: Skill{Name:"サモンSジェノサイドボム"} run function skill:act/common/summon_genocide_bomb/act0
+execute if data storage skill: Skill{Name:"ジャッジメント"} run function skill:act/common/judgement/act0
+execute if data storage skill: Skill{Name:"ダークネス・サイス"} run function skill:act/common/darkness_scythe/act0
+execute if data storage skill: Skill{Name:"砂利生成"} run function skill:act/common/gravel_production/act0
+execute if data storage skill: Skill{Name:"異界生還"} run function skill:act/common/return_of_world/act0
+execute if data storage skill: Skill{Name:"レベル・オブ・デス"} run function skill:act/common/level_of_death/act0
 execute if data storage skill: Skill{Name:"職業どこでも変更許可"} run function skill:act/common/permission_to_change_job_anywhere/act0
 execute if data storage skill: Skill{Name:"サモンSトラベルカノン"} run function skill:act/common/travel_cannon/act0
 execute if data storage skill: Skill{Name:"全滅の印板"} run function skill:act/common/annihilation_engraving_plate/act0
@@ -52,7 +58,8 @@ execute if data storage skill: Skill{Name:"モンスター"} run function skill:
 execute if data storage skill: Skill{Name:"転倒"} run function skill:act/common/fall/act0
 execute if data storage skill: Skill{Name:"ホームラン"} run function skill:act/common/home_run/act0
 execute if data storage skill: Skill{Name:"奈落"} run function skill:act/common/abyss/act0
-execute if data storage skill: Skill{Name:"破壊の波動"} run function skill:act/common/wave_of_destruction/act0
+execute if data storage skill: Skill{Name:"オール・オーバー"} run function skill:act/common/all_over/act0
+execute if data storage skill: Skill{Name:"ライフスカウター"} run function skill:act/common/life_scouter/act0
 execute if data storage skill: Skill{Name:"スカイウォーク"} run function skill:act/common/sky_walk/act0
 execute if data storage skill: Skill{Name:"ライブラ"} run function skill:act/common/libra/act0
 execute if data storage skill: Skill{Name:"ウィークペイント"} run function skill:act/common/weakness_paint/act0
