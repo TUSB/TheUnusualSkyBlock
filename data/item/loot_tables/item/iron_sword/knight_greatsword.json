@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2,display:{Name:'{\"translate\":\"\u5263\u58eb\u306e\u5927\u5263\",\"color\":\"gray\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"\u2756 \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(II)\",\"color\":\"white\",\"with\":[{\"translate\":\"\u5203\u306e\"},{\"translate\":\"\u523b\u5370\"}]}]','{\"translate\":\"\u5e45\u5e83\u3044\u5263\u8eab\u3067\u653b\u6483\u3092\u53d7\u3051\u6b62\u3081\u308b\u5927\u5263\",\"color\":\"white\",\"italic\":false}']},Engraving:{EnchantID:\"\u5203\",Tier:2},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:8,Operation:0,UUID:[I;11,0,0,10],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:0.4,Operation:1,UUID:[I;11,0,0,21],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:-0.45,Operation:1,UUID:[I;11,0,0,31],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:175,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:-0.25,Operation:1,UUID:[I;11,0,0,51],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:10,Operation:0,UUID:[I;11,0,0,60],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"\u30c7\u30d5\u30a9\u30eb\u30c8\",Amount:15,Operation:0,UUID:[I;11,0,1,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"\u30c7\u30d5\u30a9\u30eb\u30c8\",Amount:1.6,Operation:0,UUID:[I;11,0,1,50],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

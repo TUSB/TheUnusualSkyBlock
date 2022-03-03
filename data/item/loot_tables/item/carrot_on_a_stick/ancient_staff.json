@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:15,display:{Name:'{\"translate\":\"\u53e4\u306e\u6756\",\"color\":\"#0000FF\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"\u2756 \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(IV)\",\"color\":\"white\",\"with\":[{\"translate\":\"\u708e\u5a01\u306e\"},{\"translate\":\"\u523b\u5370\"}]}]','{\"translate\":\"An ancient staff passed down\",\"color\":\"#C20000\",\"bold\":true,\"obfuscated\":true,\"italic\":false}','{\"translate\":\"from generation to generation...\",\"bold\":true,\"obfuscated\":true,\"italic\":false}']},Engraving:{EnchantID:\"\u708e\u5a01\",Tier:4},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:-0.25,Operation:2,UUID:[I;11,0,0,12],Slot:\"mainhand\"},{AttributeName:\"generic.max_health\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:-0.25,Operation:2,UUID:[I;12,0,0,12],Slot:\"offhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:0.6,Operation:1,UUID:[I;11,0,0,21],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:0.6,Operation:1,UUID:[I;12,0,0,21],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:444,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:444,Operation:0,UUID:[I;12,0,0,40],Slot:\"offhand\"},{AttributeName:\"generic.attack_speed\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:-0.5,Operation:1,UUID:[I;11,0,0,51],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:-0.5,Operation:1,UUID:[I;12,0,0,51],Slot:\"offhand\"},{AttributeName:\"generic.armor\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:0.75,Operation:1,UUID:[I;11,0,0,61],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:0.75,Operation:1,UUID:[I;12,0,0,61],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:0.25,Operation:1,UUID:[I;11,0,0,70],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:0.25,Operation:1,UUID:[I;12,0,0,70],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"\u30c7\u30d5\u30a9\u30eb\u30c8\",Amount:10,Operation:0,UUID:[I;11,0,1,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"\u30c7\u30d5\u30a9\u30eb\u30c8\",Amount:1.2,Operation:0,UUID:[I;11,0,1,50],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2,display:{Name:'{\"translate\":\"\u6cc9\u304b\u3089\u51fa\u3066\u304d\u305f\u9280\u306e\u65a7\",\"color\":\"#D9D9D9\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"\u2756 \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(IV)\",\"color\":\"white\",\"with\":[{\"translate\":\"\u9b54\u5438\u306e\"},{\"translate\":\"\u523b\u5370\"}]}]','{\"translate\":\"\u3068\u3042\u308b\u6cc9\u306e\u4e2d\u304b\u3089\u73fe\u308c\u308b\",\"color\":\"#9DFFFF\",\"italic\":false}','{\"translate\":\"\u5973\u795e\u304b\u3089\u8cb0\u3048\u308b\u3068\u3055\u308c\u308b\",\"color\":\"#9DFFFF\",\"italic\":false}','{\"translate\":\"\u4e0d\u601d\u8b70\u306a\u65a7\",\"color\":\"#9DFFFF\",\"italic\":false}']},Engraving:{EnchantID:\"\u9b54\u5438\",Tier:4},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:0.1,Operation:2,UUID:[I;11,0,0,12],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:0.2,Operation:1,UUID:[I;11,0,0,21],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:120,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:0.05,Operation:1,UUID:[I;11,0,0,51],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"\u30c7\u30d5\u30a9\u30eb\u30c8\",Amount:21,Operation:0,UUID:[I;11,0,1,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"\u30c7\u30d5\u30a9\u30eb\u30c8\",Amount:0.9,Operation:0,UUID:[I;11,0,1,50],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

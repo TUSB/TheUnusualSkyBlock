@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:5,JobChangeTo:5,display:{Name:'[\"\",{\"text\":\"B \",\"color\":\"green\",\"font\":\"icon\"},{\"translate\":\"\u9ed2\u9b54\u5c0e\u58eb\u5909\u66f4\u7533\u8acb\u66f8\",\"bold\":true}]',Lore:['{\"translate\":\"\u4f7f\u3044\u307e\u3059\u3088\uff1f\u30a4\u30aa\u30ca\u30ba\u30f3\",\"color\":\"dark_gray\"}','{\"translate\":\"USB\u8077\u696d\u5b89\u5b9a\u6240\"}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:6,display:{Name:'{\"translate\":\"\u30dc\u30eb\u30c6\u30c3\u30af\u30bb\u30a4\u30d0\u30fc\",\"color\":\"#FFFF00\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"\u2756 \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(III)\",\"color\":\"white\",\"with\":[{\"translate\":\"\u96f7\u306e\"},{\"translate\":\"\u523b\u5370\"}]}]','{\"translate\":\"\u8d85\u6280\u8853\u306b\u3088\u3063\u3066\u9020\u3089\u308c\u305f\u89b3\u8cde\u7528\u306e\u5263\",\"color\":\"aqua\",\"italic\":false}','{\"translate\":\"\u5b9f\u7528\u3082\u3067\u304d\u308b\u30ed\u30de\u30f3\u304c\u3042\u308b\",\"color\":\"aqua\",\"italic\":false}']},Engraving:{EnchantID:\"\u96f7\",Tier:3},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:2,Operation:1,UUID:[I;11,0,0,31],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:193,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:1,Operation:2,UUID:[I;11,0,0,52],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"\u30c7\u30d5\u30a9\u30eb\u30c8\",Amount:15,Operation:0,UUID:[I;11,0,1,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"\u30c7\u30d5\u30a9\u30eb\u30c8\",Amount:1.6,Operation:0,UUID:[I;11,0,1,50],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

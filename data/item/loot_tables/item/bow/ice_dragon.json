@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:4,display:{Name:'{\"translate\":\"\u6c37\u9f8d\",\"color\":\"#0096FF\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"\u2756 \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(VI)\",\"color\":\"white\",\"with\":[{\"translate\":\"\u6c37\u306e\"},{\"translate\":\"\u523b\u5370\"}]}]']},Engraving:{EnchantID:\"\u6c37\",Tier:6},AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:0.3,Operation:1,UUID:[I;11,0,0,21],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:-0.15,Operation:1,UUID:[I;11,0,0,31],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:100,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:-0.4,Operation:1,UUID:[I;11,0,0,51],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:0.2,Operation:1,UUID:[I;11,0,0,61],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:5,HideFlags:2,display:{Name:'{\"translate\":\"\u6b7b\u4ea1\u30d5\u30e9\u30b0\",\"color\":\"#F1C232\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"\u5927\u4e08\u592b\u3060\u3001\u3053\u308c\u306f\u541b\u7b49\u3092\u52dd\u5229\u3078\u3068\u7e4b\u3052\u308b\u6b66\u5668\u3060\uff01\",\"color\":\"#A9A9A9\",\"italic\":false}','{\"translate\":\"\u7d76\u5bfe\u751f\u304d\u3066\u5e30\u308b\u305e\uff01\",\"color\":\"#A9A9A9\",\"italic\":false}','{\"translate\":\"\u3053\u306e\u6226\u3044\u304c\u7d42\u308f\u3063\u305f\u3089\u30fb\u30fb\u30fb\u3059\u307e\u3093\u3001\u5c11\u3057\u7720\u308b\u30fb\u30fb\u30fb\",\"color\":\"#A9A9A9\",\"italic\":false}']},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:80,Operation:0,UUID:[I;11,0,0,10],Slot:\"mainhand\"},{AttributeName:\"generic.max_health\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:80,Operation:0,UUID:[I;12,0,0,10],Slot:\"offhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:-0.8,Operation:2,UUID:[I;11,0,0,22],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:-0.8,Operation:2,UUID:[I;12,0,0,22],Slot:\"offhand\"},{AttributeName:\"generic.movement_speed\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:0.4,Operation:1,UUID:[I;11,0,0,31],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:0.4,Operation:1,UUID:[I;12,0,0,31],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:444,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:444,Operation:0,UUID:[I;12,0,0,40],Slot:\"offhand\"},{AttributeName:\"generic.attack_speed\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:-0.2,Operation:2,UUID:[I;11,0,0,52],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:-0.2,Operation:2,UUID:[I;12,0,0,52],Slot:\"offhand\"},{AttributeName:\"generic.armor\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:-0.5,Operation:2,UUID:[I;11,0,0,62],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:-0.5,Operation:2,UUID:[I;12,0,0,62],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:-0.5,Operation:2,UUID:[I;11,0,0,71],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:-0.5,Operation:2,UUID:[I;12,0,0,71],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"\u30c7\u30d5\u30a9\u30eb\u30c8\",Amount:15,Operation:0,UUID:[I;11,0,1,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"\u30c7\u30d5\u30a9\u30eb\u30c8\",Amount:1.6,Operation:0,UUID:[I;11,0,1,50],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

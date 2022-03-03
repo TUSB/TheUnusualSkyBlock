@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"\u98a8\u3092\u821e\u3046\u30ec\u30ae\u30f3\u30b9\",\"color\":\"aqua\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"\u2756 \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(II)\",\"color\":\"white\",\"with\":[{\"translate\":\"\u62e1\u6563\u306e\"},{\"translate\":\"\u523b\u5370\"}]}]','{\"translate\":\"\u98a8\u306e\u3088\u3046\u306b\u306a\u308b\u3053\u3068\u304c\u3067\u304d\u308b...\u3002\",\"color\":\"white\",\"bold\":true,\"italic\":false}'],color:12775423},Engraving:{EnchantID:\"\u62e1\u6563\",Tier:2},AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:-500,Operation:1,UUID:[I;23,0,0,21],Slot:\"legs\"},{AttributeName:\"generic.movement_speed\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:5,Operation:0,UUID:[I;23,0,0,30],Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"\u30c7\u30d5\u30a9\u30eb\u30c8\",Amount:2,Operation:0,UUID:[I;23,0,1,60],Slot:\"legs\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

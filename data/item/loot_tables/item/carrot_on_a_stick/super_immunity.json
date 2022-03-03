@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:42,display:{Name:'{\"translate\":\"\u30b9\u30fc\u30d1\u30fc\u30a4\u30df\u30e5\u30cb\u30c6\u30a3\",\"color\":\"blue\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" \u514d\u75ab\u2163\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"\u5171\u901a\",Name:\"\u514d\u75ab\",Level:4,Trigger:\"\u4eba\u53c2\u68d2\u3092\u4f7f\u7528\",Count:4}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

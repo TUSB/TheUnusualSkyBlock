@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"\u51e1\u7ffc\",\"color\":\"#999999\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"\u2756 \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(IV)\",\"color\":\"white\",\"with\":[{\"translate\":\"\u68d8\u306e\"},{\"translate\":\"\u523b\u5370\"}]}]','{\"translate\":\"\u91cf\u7523\u578b\u306e\u4f7f\u3044\u6368\u3066\u306e\u30a8\u30ea\u30c8\u30e9\",\"color\":\"#990000\",\"italic\":false}','{\"translate\":\"\u6240\u3005\u7a74\u304c\u958b\u3044\u3066\u3044\u308b\",\"color\":\"#990000\",\"italic\":false}']},Engraving:{EnchantID:\"\u68d8\",Tier:4},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:-0.5,Operation:2,UUID:[I;22,0,0,12],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:-0.8,Operation:2,UUID:[I;22,0,0,22],Slot:\"chest\"},{AttributeName:\"generic.movement_speed\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:-1,Operation:2,UUID:[I;22,0,0,32],Slot:\"chest\"},{AttributeName:\"generic.attack_damage\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:30,Operation:0,UUID:[I;22,0,0,40],Slot:\"chest\"},{AttributeName:\"generic.attack_speed\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:-0.4,Operation:2,UUID:[I;22,0,0,52],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:-0.7,Operation:2,UUID:[I;22,0,0,62],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:-0.5,Operation:2,UUID:[I;22,0,0,71],Slot:\"chest\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:56,PermissionJob:7,display:{Name:'[\"\",{\"text\":\"P \",\"color\":\"green\",\"font\":\"icon\"},{\"translate\":\"\u7d61\u7e70\u58eb\u3069\u3053\u3067\u3082\u5909\u66f4\u7533\u8acb\u66f8\",\"bold\":true}]',Lore:['{\"translate\":\"USB\u8077\u696d\u5b89\u5b9a\u6240\"}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" \u8077\u696d\u3069\u3053\u3067\u3082\u5909\u66f4\u8a31\u53ef\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"\u5171\u901a\",Name:\"\u8077\u696d\u3069\u3053\u3067\u3082\u5909\u66f4\u8a31\u53ef\",Level:1,Trigger:\"\u4eba\u53c2\u68d2\u3092\u4f7f\u7528\",Count:1}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

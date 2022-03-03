@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:tipped_arrow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomPotionEffects:[{Id:6b,Amplifier:4b,Duration:1,ShowParticles:0b}],CustomPotionColor:15794175,display:{Name:'[{\"translate\":\"\u7948\u308a\u306e\u77e2\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false},{\"translate\":\"Lv1\",\"color\":\"#FFFF00\",\"bold\":true,\"italic\":false}]',Lore:['{\"translate\":\"\u30a2\u30f3\u30c7\u30c3\u30c9\u306b\u5bfe\u3057\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"\u305d\u308c\u4ee5\u5916\u306e\u3082\u306e\u3092\u7652\u3059\",\"color\":\"#CCCCCC\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
