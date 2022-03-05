@@ -133,6 +133,7 @@ execute in area:control_area run setblock 2 3 2 oak_sign
 execute in area:control_area positioned 5 5 5 run function calc:geometry/tp_00000
 execute in area:control_area positioned 5 5 5 run function calc:geometry/tp_00001
 execute in area:control_area positioned 5 5 5 run function calc:geometry/tp_00002
+execute in area:control_area positioned 5 10 5 run summon bat ~ ~ ~ {Invulnerable:1b,PersistenceRequired:1b,NoAI:1b,Silent:1b,BatFlags:1b,UUID:[I;0,0,0,3]}
 
 ###トリガー
 scoreboard objectives add UseSnowball minecraft.used:minecraft.snowball {"text": "雪玉使用"}
