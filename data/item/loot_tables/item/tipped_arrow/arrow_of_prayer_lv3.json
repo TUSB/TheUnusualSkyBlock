@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:6b,Amplifier:7b,Duration:1,ShowParticles:0b}],CustomPotionColor:15794175,display:{Name:'[{\"translate\":\"\u7948\u308a\u306e\u77e2\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false},{\"translate\":\"Lv3\",\"color\":\"#FFFF00\",\"bold\":true,\"italic\":false}]',Lore:['{\"translate\":\"\u30a2\u30f3\u30c7\u30c3\u30c9\u306b\u5bfe\u3057\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"\u305d\u308c\u4ee5\u5916\u306e\u3082\u306e\u3092\u7652\u3059\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"Lv2\u3088\u308a\u3082\u52b9\u679c\u304c\u307e\u305f\u3055\u3089\u306b\u5927\u304d\u304f\u6539\u5584\u3057\u305f\u304c\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"\u91cf\u7523\u3067\u304d\u306a\u3044\u975e\u58f2\u54c1\u3068\u306a\u3063\u305f\",\"color\":\"#CCCCCC\",\"italic\":false}']}}"
+              "tag": "{CustomPotionEffects:[{Id:6b,Amplifier:7b,Duration:1,ShowParticles:0b}],CustomPotionColor:15794175,display:{Name:'[{\"translate\":\"祈りの矢\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false},{\"translate\":\"Lv3\",\"color\":\"#FFFF00\",\"bold\":true,\"italic\":false}]',Lore:['{\"translate\":\"アンデッドに対しダメージを与え\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"それ以外のものを癒す\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"Lv2よりも効果がまたさらに大きく改善したが\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"量産できない非売品となった\",\"color\":\"#CCCCCC\",\"italic\":false}']}}"
             }
           ]
         }

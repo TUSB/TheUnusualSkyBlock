@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"\u30cf\u30ed\u30a6\u30a3\u30f3\u30d8\u30c3\u30c9\",\"color\":\"gold\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"\u2756 \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(IV)\",\"color\":\"white\",\"with\":[{\"translate\":\"\u4fca\u654f\u306e\"},{\"translate\":\"\u523b\u5370\"}]}]']},Engraving:{EnchantID:\"\u4fca\u654f\",Tier:4},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"\u30ab\u30b9\u30bf\u30e0\",Amount:10,Operation:0,UUID:[I;21,0,0,30],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"\u30c7\u30d5\u30a9\u30eb\u30c8\",Amount:1,Operation:0,UUID:[I;24,0,1,60],Slot:\"feet\"}]}"
+              "tag": "{display:{Name:'{\"translate\":\"ハロウィンヘッド\",\"color\":\"gold\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(IV)\",\"color\":\"white\",\"with\":[{\"translate\":\"俊敏の\"},{\"translate\":\"刻印\"}]}]']},Engraving:{EnchantID:\"俊敏\",Tier:4},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:10,Operation:0,UUID:[I;21,0,0,30],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"デフォルト\",Amount:1,Operation:0,UUID:[I;24,0,1,60],Slot:\"feet\"}]}"
             }
           ]
         }

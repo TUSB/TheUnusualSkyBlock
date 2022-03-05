@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:4,JobChangeTo:4,display:{Name:'[\"\",{\"text\":\"W \",\"color\":\"green\",\"font\":\"icon\"},{\"translate\":\"\u767d\u9b54\u5c0e\u58eb\u5909\u66f4\u7533\u8acb\u66f8\",\"bold\":true}]',Lore:['{\"translate\":\"\u307b\u30fc\u30fc\u30fc\u30fc\u308a\u30fc\u30fc\u30fc\u30fc\uff01\",\"color\":\"white\"}','{\"translate\":\"USB\u8077\u696d\u5b89\u5b9a\u6240\"}']}}"
+              "tag": "{CustomModelData:4,JobChangeTo:4,display:{Name:'[\"\",{\"text\":\"W \",\"color\":\"green\",\"font\":\"icon\"},{\"translate\":\"白魔導士変更申請書\",\"bold\":true}]',Lore:['{\"translate\":\"ほーーーーりーーーー！\",\"color\":\"white\"}','{\"translate\":\"USB職業安定所\"}']}}"
             }
           ]
         }

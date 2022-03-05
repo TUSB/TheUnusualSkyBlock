@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:28,display:{Name:'{\"translate\":\"\u30a8\u30ea\u30a2\u30d0\u30a4\u30eb\u30a8\u30fc\u30c6\u30eb\",\"color\":\"#4A86E8\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" \u7bc4\u56f2MP\u56de\u5fa9\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"\u5171\u901a\",Name:\"\u7bc4\u56f2MP\u56de\u5fa9\",Level:1,Trigger:\"\u4eba\u53c2\u68d2\u3092\u4f7f\u7528\",Count:3}}"
+              "tag": "{CustomModelData:28,display:{Name:'{\"translate\":\"エリアバイルエーテル\",\"color\":\"#4A86E8\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" 範囲MP回復\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"範囲MP回復\",Level:1,Trigger:\"人参棒を使用\",Count:3}}"
             }
           ]
         }
