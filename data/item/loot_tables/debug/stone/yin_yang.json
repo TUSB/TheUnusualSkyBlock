@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/yin_yang/1"
+          "name": "item:item/gold_nugget/yin_yang/1"
         }
       ]
     },
@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/yin_yang/2"
+          "name": "item:item/gold_nugget/yin_yang/2"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/yin_yang/3"
+          "name": "item:item/gold_nugget/yin_yang/3"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/yin_yang/4"
+          "name": "item:item/gold_nugget/yin_yang/4"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/yin_yang/5"
+          "name": "item:item/gold_nugget/yin_yang/5"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/yin_yang/6"
+          "name": "item:item/gold_nugget/yin_yang/6"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/yin_yang/7"
+          "name": "item:item/gold_nugget/yin_yang/7"
         }
       ]
     },
@@ -68,7 +68,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/yin_yang/8"
+          "name": "item:item/gold_nugget/yin_yang/8"
         }
       ]
     }

@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/spirit/1"
+          "name": "item:item/gold_nugget/spirit/1"
         }
       ]
     },
@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/spirit/2"
+          "name": "item:item/gold_nugget/spirit/2"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/spirit/3"
+          "name": "item:item/gold_nugget/spirit/3"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/spirit/4"
+          "name": "item:item/gold_nugget/spirit/4"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/spirit/5"
+          "name": "item:item/gold_nugget/spirit/5"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/spirit/6"
+          "name": "item:item/gold_nugget/spirit/6"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/spirit/7"
+          "name": "item:item/gold_nugget/spirit/7"
         }
       ]
     },
@@ -68,7 +68,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/spirit/8"
+          "name": "item:item/gold_nugget/spirit/8"
         }
       ]
     }

@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/boost_ice/1"
+          "name": "item:item/gold_nugget/boost_ice/1"
         }
       ]
     },
@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/boost_ice/2"
+          "name": "item:item/gold_nugget/boost_ice/2"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/boost_ice/3"
+          "name": "item:item/gold_nugget/boost_ice/3"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/boost_ice/4"
+          "name": "item:item/gold_nugget/boost_ice/4"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/boost_ice/5"
+          "name": "item:item/gold_nugget/boost_ice/5"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/boost_ice/6"
+          "name": "item:item/gold_nugget/boost_ice/6"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/boost_ice/7"
+          "name": "item:item/gold_nugget/boost_ice/7"
         }
       ]
     },
@@ -68,7 +68,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/boost_ice/8"
+          "name": "item:item/gold_nugget/boost_ice/8"
         }
       ]
     }

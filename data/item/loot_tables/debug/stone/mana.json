@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/mana/1"
+          "name": "item:item/gold_nugget/mana/1"
         }
       ]
     },
@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/mana/2"
+          "name": "item:item/gold_nugget/mana/2"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/mana/3"
+          "name": "item:item/gold_nugget/mana/3"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/mana/4"
+          "name": "item:item/gold_nugget/mana/4"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/mana/5"
+          "name": "item:item/gold_nugget/mana/5"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/mana/6"
+          "name": "item:item/gold_nugget/mana/6"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/mana/7"
+          "name": "item:item/gold_nugget/mana/7"
         }
       ]
     },
@@ -68,7 +68,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/mana/8"
+          "name": "item:item/gold_nugget/mana/8"
         }
       ]
     }

@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/evolution/1"
+          "name": "item:item/gold_nugget/evolution/1"
         }
       ]
     },
@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/evolution/2"
+          "name": "item:item/gold_nugget/evolution/2"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/evolution/3"
+          "name": "item:item/gold_nugget/evolution/3"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/evolution/4"
+          "name": "item:item/gold_nugget/evolution/4"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/evolution/5"
+          "name": "item:item/gold_nugget/evolution/5"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/evolution/6"
+          "name": "item:item/gold_nugget/evolution/6"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/evolution/7"
+          "name": "item:item/gold_nugget/evolution/7"
         }
       ]
     },
@@ -68,7 +68,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/evolution/8"
+          "name": "item:item/gold_nugget/evolution/8"
         }
       ]
     }

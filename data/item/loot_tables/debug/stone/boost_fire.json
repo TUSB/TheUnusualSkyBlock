@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/boost_fire/1"
+          "name": "item:item/gold_nugget/boost_fire/1"
         }
       ]
     },
@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/boost_fire/2"
+          "name": "item:item/gold_nugget/boost_fire/2"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/boost_fire/3"
+          "name": "item:item/gold_nugget/boost_fire/3"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/boost_fire/4"
+          "name": "item:item/gold_nugget/boost_fire/4"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/boost_fire/5"
+          "name": "item:item/gold_nugget/boost_fire/5"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/boost_fire/6"
+          "name": "item:item/gold_nugget/boost_fire/6"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/boost_fire/7"
+          "name": "item:item/gold_nugget/boost_fire/7"
         }
       ]
     },
@@ -68,7 +68,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/boost_fire/8"
+          "name": "item:item/gold_nugget/boost_fire/8"
         }
       ]
     }

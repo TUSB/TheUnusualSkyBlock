@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/philosopher/1"
+          "name": "item:item/gold_nugget/philosopher/1"
         }
       ]
     },
@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/philosopher/2"
+          "name": "item:item/gold_nugget/philosopher/2"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/philosopher/3"
+          "name": "item:item/gold_nugget/philosopher/3"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/philosopher/4"
+          "name": "item:item/gold_nugget/philosopher/4"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/philosopher/5"
+          "name": "item:item/gold_nugget/philosopher/5"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/philosopher/6"
+          "name": "item:item/gold_nugget/philosopher/6"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/philosopher/7"
+          "name": "item:item/gold_nugget/philosopher/7"
         }
       ]
     },
@@ -68,7 +68,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/philosopher/8"
+          "name": "item:item/gold_nugget/philosopher/8"
         }
       ]
     }

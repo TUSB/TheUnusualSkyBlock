@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/purification/1"
+          "name": "item:item/gold_nugget/purification/1"
         }
       ]
     },
@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/purification/2"
+          "name": "item:item/gold_nugget/purification/2"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/purification/3"
+          "name": "item:item/gold_nugget/purification/3"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/purification/4"
+          "name": "item:item/gold_nugget/purification/4"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/purification/5"
+          "name": "item:item/gold_nugget/purification/5"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/purification/6"
+          "name": "item:item/gold_nugget/purification/6"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/purification/7"
+          "name": "item:item/gold_nugget/purification/7"
         }
       ]
     },
@@ -68,7 +68,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/purification/8"
+          "name": "item:item/gold_nugget/purification/8"
         }
       ]
     }

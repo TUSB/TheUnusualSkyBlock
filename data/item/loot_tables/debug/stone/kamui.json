@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/kamui/1"
+          "name": "item:item/gold_nugget/kamui/1"
         }
       ]
     },
@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/kamui/2"
+          "name": "item:item/gold_nugget/kamui/2"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/kamui/3"
+          "name": "item:item/gold_nugget/kamui/3"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/kamui/4"
+          "name": "item:item/gold_nugget/kamui/4"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/kamui/5"
+          "name": "item:item/gold_nugget/kamui/5"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/kamui/6"
+          "name": "item:item/gold_nugget/kamui/6"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/kamui/7"
+          "name": "item:item/gold_nugget/kamui/7"
         }
       ]
     },
@@ -68,7 +68,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:stone/kamui/8"
+          "name": "item:item/gold_nugget/kamui/8"
         }
       ]
     }
