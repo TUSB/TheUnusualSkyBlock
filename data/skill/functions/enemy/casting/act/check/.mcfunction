@@ -11,6 +11,9 @@ scoreboard players set _ Calc 1
 execute if data storage mob_data: Casting[0] run function skill:enemy/casting/act/check/loop
 ###削除予定の要素を削除
 data remove storage mob_data: Casting[{Delete:1b}]
+###Castingのソートをする
+###Executed:1bのついた要素だけ位置を調整する
+execute if data storage mob_data: Casting[0] run function skill:enemy/casting/act/sort/
 ###次の詠唱Tick更新
 execute if data storage mob_data: Casting[0] store result score @s NextCastingTick run data get storage mob_data: Casting[0].NextAction
 execute unless data storage mob_data: Casting[0] run scoreboard players reset @s NextCastingTick
@@ -25,4 +28,5 @@ execute unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Casting
 
 ###一時的に保存したデータの破棄
 data remove storage mob_data: Casting
+data remove storage mob_data: SortingCastingData
 data remove storage mob_data: ExecutingCast
