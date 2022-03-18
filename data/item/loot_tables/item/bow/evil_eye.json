@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:6,display:{Name:'{\"translate\":\"昏き邪視\",\"color\":\"#00008B\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(VI)\",\"color\":\"white\",\"with\":[{\"translate\":\"闇の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"恐ろしい視線を感じる……\",\"color\":\"#00008B\",\"italic\":false}']},Engraving:{EnchantID:\"闇\",Tier:6},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:-0.21,Operation:2,UUID:[I;11,0,0,12],Slot:\"mainhand\"},{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:-0.21,Operation:2,UUID:[I;12,0,0,12],Slot:\"offhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:-0.6993,Operation:2,UUID:[I;11,0,0,22],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:-0.6993,Operation:2,UUID:[I;12,0,0,22],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:171.5,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:171.5,Operation:0,UUID:[I;12,0,0,40],Slot:\"offhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

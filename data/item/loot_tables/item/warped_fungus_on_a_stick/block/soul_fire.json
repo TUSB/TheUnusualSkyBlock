@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1003,Wearable:true,display:{Name:'{\"translate\":\"魂の炎\",\"color\":\"#AC43FF\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"特殊装備枠。\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"右クリックで頭に装備可能。\",\"color\":\"#CCCCCC\",\"italic\":false}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"H\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" ワイルドフレア\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"狩人\",SkillID:335,Name:\"ワイルドフレア\",Level:1,Trigger:\"スニークする\",Count:32},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:-0.245,Operation:2,UUID:[I;21,0,0,12],Slot:\"head\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:84,Operation:0,UUID:[I;21,0,0,40],Slot:\"head\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:0.42,Operation:1,UUID:[I;21,0,0,51],Slot:\"head\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
