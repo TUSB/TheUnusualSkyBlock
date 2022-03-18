@@ -1,3 +1,8 @@
+execute if data storage skill: Skill{Name:"サモンS幽霊騎士"} run function skill:act/common/summon_ghost_knight/act0
+execute if data storage skill: Skill{Name:"サモンSニル"} run function skill:act/common/summon_nil/act0
+execute if data storage skill: Skill{Name:"殺虫剤"} run function skill:act/common/pesticide/act0
+execute if data storage skill: Skill{Name:"サモンSスケルトン"} run function skill:act/common/summon_skeleton/act0
+execute if data storage skill: Skill{Name:"フリーシューター"} run function skill:act/common/free_shooter/act0
 execute if data storage skill: Skill{Name:"サモンSジェノサイドボム"} run function skill:act/common/summon_genocide_bomb/act0
 execute if data storage skill: Skill{Name:"ジャッジメント"} run function skill:act/common/judgement/act0
 execute if data storage skill: Skill{Name:"ダークネス・サイス"} run function skill:act/common/darkness_scythe/act0
