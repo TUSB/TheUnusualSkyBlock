@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:13,display:{Name:'{\"translate\":\"赤い糸\",\"color\":\"#FFD966\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"無限奈落の通貨\",\"color\":\"#999999\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

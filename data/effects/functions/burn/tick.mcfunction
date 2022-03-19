@@ -3,7 +3,7 @@
 
 #やけどダメージ付与
 execute unless block ~ ~ ~ water run data modify storage score_damage: Argument set value {Damage:6,DamageType:[Fire]}
-execute unless block ~ ~ ~ water run function score_damage:api/attack
+execute unless block ~ ~ ~ water if entity @s[gamemode=!creative,gamemode=!spectator] run function score_damage:api/attack
 execute unless block ~ ~ ~ water run function makeup:effects/burn/tick
 
 #やけど回復
