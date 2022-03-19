@@ -3,8 +3,11 @@
 ##############################
 
 #ルート
-data modify entity 0-0-0-0-3 DeathLootTable set from storage item: LootTable.Name
-loot spawn ~ ~ ~ kill 0-0-0-0-3
+execute if data storage item: LootTable.Loot run data modify entity 0-0-0-0-3 DeathLootTable set from storage item: LootTable.Loot
+execute if data storage item: LootTable.Loot run loot spawn ~ ~ ~ kill 0-0-0-0-3
+
+execute if data storage item: LootTable.Item run loot spawn ~ ~ ~ loot minecraft:blocks/acacia_button
+execute if data storage item: LootTable.Item run data modify entity @e[type=item,tag=,distance=0,limit=1] Item merge from storage item: LootTable.Item
 #個数を設定
 execute if data storage item: LootTable.Count run function entity:loot/set_count
 #初期化回避
