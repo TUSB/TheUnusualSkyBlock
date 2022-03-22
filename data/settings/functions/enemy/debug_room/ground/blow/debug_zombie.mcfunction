@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie",Tags:[Mob,DelayedData,CallOnAttack]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie",DeathLootTable:"empty",Tags:[Mob,DelayedData,CallOnAttack,HasLootTable]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 16d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.17d
@@ -20,5 +20,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:item/bow/a_ray_on_the_move",Count:2,CountRange:3,Chance:0.5d},{Loot:"item:item/gold_nugget/dragon_scale/3",Chance:0.7d},{Item:{id:"minecraft:diamond"},Count:2,Chance:1d},{Item:{id:"minecraft:stone",tag:{display:{Name:'{"text":"aaa"}'}}},Chance:1d}]
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Name:"Damage",Distance:{Max:0.2},Player:{Damage:5},AEC:{Duration:10,Particle:"minecraft:witch",Radius:2d}}]}
