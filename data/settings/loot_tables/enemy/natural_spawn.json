@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,PerverseCreeper],Level:10}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         },
@@ -21,7 +21,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Iron],Level:1}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         },
@@ -32,7 +32,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Gold],Level:1}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         },
@@ -43,7 +43,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Diamond],Level:1}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         },
@@ -54,7 +54,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Chain],Level:1}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         },
@@ -65,7 +65,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Netherite],Level:1}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         },
@@ -76,7 +76,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Leather],Level:1}]],Count:2}"
+              "tag": "{CustomModelData:1,,Count:2}"
             }
           ]
         },
@@ -87,7 +87,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Blow,DaemonEye,Main],Level:3}],[{Tags:[Global,Sky,Blow,DaemonEye,Direction],Level:1}]]}"
+              "tag": "{CustomModelData:1,\u901a\u5e38\u4e16\u754c_\u4e2d\u5c64}"
             }
           ]
         },
@@ -98,7 +98,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,BacktheCreeper,Main],Level:5}],[{Tags:[Global,Ground,Blow,BacktheCreeper,AngerAec],Level:1}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         },
@@ -109,7 +109,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Blow,AnticrafterBallisticCreeper,Main],Level:10}]]}"
+              "tag": "{CustomModelData:1,\u901a\u5e38\u4e16\u754c_\u4e0b\u5c64}"
             }
           ]
         },
@@ -120,7 +120,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Neutrality,Blow,PassingTree,Main],Level:40}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         }
@@ -144,7 +144,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Nether,Sky,Shoot,BlazeInferno,Main],Level:30}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         }
@@ -168,7 +168,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,PerverseCreeper],Level:10}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         },
@@ -179,7 +179,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Iron],Level:1}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         },
@@ -190,7 +190,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Gold],Level:1}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         },
@@ -201,7 +201,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Diamond],Level:1}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         },
@@ -212,7 +212,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Chain],Level:1}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         },
@@ -223,7 +223,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Netherite],Level:1}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         },
@@ -234,7 +234,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Leather],Level:1}]],Count:2}"
+              "tag": "{CustomModelData:1,,Count:2}"
             }
           ]
         },
@@ -245,7 +245,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,ElixirMerchant],Level:1}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         },
@@ -256,7 +256,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,EtherMerchant],Level:1}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         },
@@ -267,7 +267,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,SoupMerchant],Level:1}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         },
@@ -278,7 +278,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Blow,DaemonEye,Main],Level:3}],[{Tags:[Global,Sky,Blow,DaemonEye,Direction],Level:1}]]}"
+              "tag": "{CustomModelData:1,\u901a\u5e38\u4e16\u754c_\u4e2d\u5c64}"
             }
           ]
         },
@@ -289,18 +289,29 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,BacktheCreeper,Main],Level:5}],[{Tags:[Global,Ground,Blow,BacktheCreeper,AngerAec],Level:1}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
+          "weight": 10,
           "name": "minecraft:stick",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Neutrality,Shoot,GoblinMerchantMetaltinka,Main],Level:75}]]}"
+              "tag": "{CustomModelData:1,}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,}"
             }
           ]
         },
@@ -311,7 +322,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Blow,AnticrafterBallisticCreeper,Main],Level:10}]]}"
+              "tag": "{CustomModelData:1,\u901a\u5e38\u4e16\u754c_\u4e0b\u5c64}"
             }
           ]
         },
@@ -322,7 +333,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Neutrality,Blow,PassingTree,Main],Level:40}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         }
@@ -346,7 +357,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,IceCreeper],Level:50}]]}"
+              "tag": "{CustomModelData:1,\u901a\u5e38\u4e16\u754c_\u4e2d\u5c64}"
             }
           ]
         },
@@ -357,7 +368,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[TocultColde,Ground,Shoot,FrozenZombie,Main],Level:20}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         }
@@ -381,7 +392,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Goblins,Goblin],Level:10}]]}"
+              "tag": "{CustomModelData:1,\u5730\u4e0b\u4e16\u754c}"
             }
           ]
         },
@@ -392,7 +403,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Goblins,GoblinBomber],Level:12}]]}"
+              "tag": "{CustomModelData:1,\u901a\u5e38\u4e16\u754c_\u4e2d\u5c64}"
             }
           ]
         },
@@ -403,7 +414,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Underworld,Water,Blow,Predator,Main],Level:60}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         },
@@ -414,7 +425,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Underworld,Ground,Blow,SpiderReinforce,Main],Level:30}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         },
@@ -425,7 +436,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Underworld,Sky,Blow,VampireBat,Main],Level:15}],[{Tags:[Underworld,Sky,Blow,VampireBat,Direction],Level:1}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         }
@@ -449,7 +460,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Void,Boss,Blow,Predictor,Main],Level:444}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         },
@@ -460,7 +471,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Void,Boss,Blow,Executioner,Main],Level:444}]]}"
+              "tag": "{CustomModelData:1,}"
             }
           ]
         }
