@@ -1,3 +1,16 @@
+execute if data storage skill: Skill{Name:"サモンS迫撃砲"} run function skill:act/common/summon_mortar/act0
+execute if data storage skill: Skill{Name:"陰鬱の悪夢"} run function skill:act/common/nightmare_of_gloom/act0
+execute if data storage skill: Skill{Name:"陰鬱の記憶"} run function skill:act/common/memory_of_gloom/act0
+execute if data storage skill: Skill{Name:"煌乱の悪夢"} run function skill:act/common/nightmare_of_glimmering/act0
+execute if data storage skill: Skill{Name:"煌乱の記憶"} run function skill:act/common/memory_of_glimmering/act0
+execute if data storage skill: Skill{Name:"激雷の悪夢"} run function skill:act/common/nightmare_of_fierce_thunder/act0
+execute if data storage skill: Skill{Name:"激雷の記憶"} run function skill:act/common/memory_of_fierce_thunder/act0
+execute if data storage skill: Skill{Name:"寒寒の悪夢"} run function skill:act/common/nightmare_of_cold_and_cold/act0
+execute if data storage skill: Skill{Name:"寒寒の記憶"} run function skill:act/common/memory_of_cold_and_cold/act0
+execute if data storage skill: Skill{Name:"燃焦の悪夢"} run function skill:act/common/nightmare_of_scorching/act0
+execute if data storage skill: Skill{Name:"燃焦の記憶"} run function skill:act/common/memory_of_scorching/act0
+execute if data storage skill: Skill{Name:"アシッドポンプ"} run function skill:act/common/acid_pump/act0
+execute if data storage skill: Skill{Name:"サモンSマグナム"} run function skill:act/common/summon_magnum/act0
 execute if data storage skill: Skill{Name:"サモンS幽霊騎士"} run function skill:act/common/summon_ghost_knight/act0
 execute if data storage skill: Skill{Name:"サモンSニル"} run function skill:act/common/summon_nil/act0
 execute if data storage skill: Skill{Name:"殺虫剤"} run function skill:act/common/pesticide/act0
