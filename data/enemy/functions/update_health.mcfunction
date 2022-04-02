@@ -4,6 +4,7 @@ tag @s remove HitDamageTaken
 #属性・スキルダメージ反映
 scoreboard players add @s[scores={Damage=0}] Damage 1
 scoreboard players operation @s HP -= @s Damage
+scoreboard players operation @s HP < @s HPMax
 scoreboard players reset @s Damage
 #ダメージ演出
 effect give @s instant_damage 1 127 true
