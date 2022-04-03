@@ -22,3 +22,6 @@ execute if score @s ChangeJob matches 8 run function makeup:job/change/thief
 function job:status/get_all_job_level
 
 function job:status/operation_end
+
+#レベルアップ可能ならレベルアップする
+execute if score @s Exp >= @s RequiredExp run function job:level_up/
