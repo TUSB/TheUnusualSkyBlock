@@ -4,4 +4,4 @@ data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:24d,IgnoreBlocks:true}}],Name:"Step",Direction:[-180f,-5f],DirectionRange:[360f,0f],Speed:1.1d,SpeedRange:1.55d,Absolute:{Vertical:true}}],Time:[{Name:"Damage",Player:{DamageType:[Global]},Mob:{Physical:100},Distance:{Max:3d},Explosion:1}]}
 #Function
-playsound minecraft:entity.blaze.shoot master @a[distance=..32] ~ ~ ~ 5 0.8
+playsound minecraft:entity.blaze.shoot hostile @a[distance=..32] ~ ~ ~ 5 0.8

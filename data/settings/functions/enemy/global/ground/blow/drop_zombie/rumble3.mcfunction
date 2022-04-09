@@ -23,7 +23,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法�
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Damage",Player:{Damage:20d,BypassArmor:true},Distance:{Min:0,Max:5}}],Time:[{Name:"Kill"}]}
 #Function
-playsound block.composter.fill master @a[distance=..20] ~ ~ ~ 1.0 1.5
+playsound block.composter.fill hostile @a[distance=..20] ~ ~ ~ 1.0 1.5
 particle block stone ^0 ^ ^-5 0 0 0 0 1 force @a[tag=ShowParticles]
 particle block stone ^0.62667 ^ ^-4.96057 0 0 0 0 1 force @a[tag=ShowParticles]
 particle block stone ^1.24345 ^ ^-4.84292 0 0 0 0 1 force @a[tag=ShowParticles]

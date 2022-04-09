@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:sheep",CustomName:'{"translate":"羊毛","color":"#FFFFFF","bold":true}',Color:0b,CustomNameVisible:true,Tags:[Mob,DelayedData,CallOnDamage]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:sheep",CustomName:'{"translate":"羊毛","color":"#FFFFFF","bold":true}',Color:0b,CustomNameVisible:true,PortalCooldown:200,DeathLootTable:"empty",Tags:[Mob,DelayedData,CallOnDamage,CooldownRequired,HasLootTable]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 16d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.1d

@@ -23,4 +23,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法�
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:32d}}],Name:"Step",Direction:[0f,-60f],Speed:1.0d,SpeedRange:2.0d}],Time:[{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:32.0d}}],Name:"Spawn",SpawnEntities:[[{Tags:[Global,Event,Summon,StardustBomb,Aec],Level:1}]]}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:4,Max:4,Current:30},Loop:{Max:10,Current:10},Call:[{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:64d}}],Name:"Step",Direction:[0f,0f],Speed:1.0d,Condition:[{Name:"HasTarget",Half:"down",Target:{Look:"Player",Radius:64}}]}],Once:10}]}]}
 #Function
-playsound minecraft:entity.firework_rocket.launch master @a[distance=..16] ~ ~ ~ 2 0.7 1
+playsound minecraft:entity.firework_rocket.launch hostile @a[distance=..16] ~ ~ ~ 2 0.7 1

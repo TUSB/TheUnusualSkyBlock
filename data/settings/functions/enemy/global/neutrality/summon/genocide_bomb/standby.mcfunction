@@ -23,4 +23,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法�
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Neutrality,Summon,GenocideBomb,StandbyAec],Level:1}]]},{Name:"Step",Direction:[-180f,-180f],DirectionRange:[360f,360f],Speed:0.01d,Absolute:{Horizontal:true,Vertical:true}}],Damage:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Neutrality,Summon,GenocideBomb,Countdown,SpawnParticles],Level:100}]]},{Name:"Kill"}]}
 #Function
-playsound block.end_portal_frame.fill master @a[distance=..32] ~ ~ ~ 1.5 0 0.3
+playsound block.end_portal_frame.fill neutral @a[distance=..32] ~ ~ ~ 1.5 0 0.3

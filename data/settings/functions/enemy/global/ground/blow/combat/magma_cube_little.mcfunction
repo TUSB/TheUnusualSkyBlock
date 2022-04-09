@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:magma_cube",CustomName:'{"translate":"コンバットマグマキューブ"}',Size:0,DeathLootTable:"empty",Tags:[Mob,DelayedData,CallOnDeath]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:magma_cube",CustomName:'{"translate":"コンバットマグマキューブ"}',Size:0,DeathLootTable:"empty",Tags:[Mob,DelayedData,CallOnDeath,HasLootTable]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 32d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.3d
@@ -20,5 +20,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 50
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/magic_stone/tier1/mix",Count:1,Chance:0.1d}]
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Death:[{Name:"Damage",Player:{DamageType:["Global","Blast"]},Distance:{Max:2d},Explosion:2}]}

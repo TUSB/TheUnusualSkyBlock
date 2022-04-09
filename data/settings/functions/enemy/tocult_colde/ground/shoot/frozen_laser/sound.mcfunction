@@ -1,2 +1,2 @@
 #Function
-playsound block.beacon.deactivate master @a[distance=..64] ~ ~ ~ 1.0 2.0
+playsound block.beacon.deactivate hostile @a[distance=..64] ~ ~ ~ 1.0 2.0
