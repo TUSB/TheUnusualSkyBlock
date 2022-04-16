@@ -1,7 +1,9 @@
 execute if entity @s[tag=Numalos] run function settings:enemy/global/ground/shoot/numalos/
 execute if entity @s[tag=TriangularMan] run function settings:enemy/global/ground/shoot/triangular_man/
 execute if entity @s[tag=NinjaTypeF] run function settings:enemy/global/ground/shoot/ninja_type_f/
+execute if entity @s[tag=Crystal] run function settings:enemy/global/ground/shoot/crystal/
 execute if entity @s[tag=Combat] run function settings:enemy/global/ground/shoot/combat/
+execute if entity @s[tag=SkeletonPitcher] run function settings:enemy/global/ground/shoot/skeleton_pitcher/
 execute if entity @s[tag=SecurityPoleSingle] run function settings:enemy/global/ground/shoot/security_pole_single/
 execute if entity @s[tag=SecurityPoleDual] run function settings:enemy/global/ground/shoot/security_pole_dual/
 execute if entity @s[tag=SecurityPoleTriple] run function settings:enemy/global/ground/shoot/security_pole_triple/
