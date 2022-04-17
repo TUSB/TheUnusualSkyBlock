@@ -57,7 +57,7 @@ scoreboard objectives add Exp dummy {"text":"ジョブ経験値"}
 scoreboard objectives add AllExp dummy {"text": "総獲得経験値"}
 scoreboard objectives add RequiredExp dummy {"text": "ジョブ必要経験値"}
 scoreboard objectives add SubLevel dummy {"text":"現在のジョブのサブレベル"}
-scoreboard objectives add CritProbability dummy {"text":"クリティカルヒット確率"}
+scoreboard objectives add ElementDamageAdd dummy {"text":"属性攻撃力追加"}
 scoreboard objectives add ResistMin dummy {"text":"状態異常耐性下限"}
 scoreboard objectives add AuraRate dummy {"text":"オーラ延長割合"}
 scoreboard objectives add Interval dummy {"text":"スキル発動無効時間"}
