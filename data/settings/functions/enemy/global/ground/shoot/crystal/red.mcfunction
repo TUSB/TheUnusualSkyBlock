@@ -21,4 +21,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 150
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 150
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:2,Turn:[{Index:1,Target:{Look:"Fixed",Radius:d},Move:{Front:0.01d},Rotate:[1f,0f],Skill:[{Interval:{Min:50,Max:50,Current:50},Call:[{}]}],Exit:{Loop:{Max:1,Current:1}}},{Index:2,Target:{Look:"Fixed",Radius:d},Move:{Front:0.01d},Rotate:[5f,0f],Skill:[{Interval:{Min:50,Max:50,Current:50},Call:[{}]}],Exit:{Loop:{Max:1,Current:1}}}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:2,Turn:[{Index:1,Target:{Look:"Fixed",Rotation:"LeftUp"},Move:{Front:0.15d,Up:0.01d},Rotate:[4f,0f],Skill:[{Interval:{Min:150,Max:150,Current:150},Call:[{}]}],Exit:{Loop:{Max:1,Current:1}}},{Index:2,Target:{Look:"Fixed",Rotation:"RightUp"},Move:{Front:0.01d},Rotate:[30f,0f],Skill:[{Interval:{Min:50,Max:50,Current:50},Call:[{}]}],Exit:{Loop:{Max:1,Current:1}}}]}
