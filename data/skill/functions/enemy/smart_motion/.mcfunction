@@ -4,14 +4,10 @@
 execute if data storage mob_data: Call{TP:1b} run function smart_motion:core/tp
 
 #Speed
-execute if data storage mob_data: Call.Speed.Set store result score @s sm.Speed run data get storage mob_data: Call.Speed.Set
-execute if data storage mob_data: Call.Speed.Add store result score _ _ run data get storage mob_data: Call.Speed.Add
-execute if data storage mob_data: Call.Speed.Add run scoreboard players operation @s sm.Speed += _ _
+execute if data storage mob_data: Call.Speed run function skill:enemy/smart_motion/speed
 
 #Gravity
-execute if data storage mob_data: Call.Gravity.Set store result score @s sm.Gravity run data get storage mob_data: Call.Gravity.Set
-execute if data storage mob_data: Call.Gravity.Add store result score _ _ run data get storage mob_data: Call.Gravity.Add
-execute if data storage mob_data: Call.Gravity.Add run scoreboard players operation @s sm.Gravity += _ _
+execute if data storage mob_data: Call.Gravity run function skill:enemy/smart_motion/gravity
 
 #Start
 execute if data storage mob_data: Call{Start:1b} run tag @s add NativeTask
