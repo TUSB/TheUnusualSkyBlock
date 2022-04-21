@@ -16,9 +16,9 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."闇属�
 # ステータス
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 50
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 0
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value -100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 50
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 0
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 1
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 50
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/magic_stone/tier1/mix",Count:1,Chance:0.1d}]
 # AI
