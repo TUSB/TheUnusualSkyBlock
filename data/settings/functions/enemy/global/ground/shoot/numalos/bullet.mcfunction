@@ -21,4 +21,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Message",Message:'{"translate":"!","color":"#FF00FF"}'}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:1,Max:1,Current:1},Loop:{Max:1,Current:1},Call:[{Name:"Function",Tags:[Global,Ground,Shoot,Numalos,BulletSummonsCircle]}]}],Exit:{Loop:{Max:1,Current:1}}}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Message",Message:'{"translate":"!","color":"#FF00FF"}'},{Name:"Step",Direction:[0f,-90f],DirectionRange:[0f,0f],Speed:0.7d}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:1,Max:1,Current:1},Loop:{Max:1,Current:1},Call:[{Name:"Function",Tags:[Global,Ground,Shoot,Numalos,BulletSummonsCircle]}]}],Exit:{Loop:{Max:1,Current:1}}}]}
