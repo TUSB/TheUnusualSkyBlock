@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:13}"
+              "tag": "{CustomModelData:13,Wearable:true,display:{Name:'{\"translate\":\"魔女の帽子(黃)\",\"color\":\"#AC43FF\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"特殊装備枠。\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"右クリックで頭に装備可能。\",\"color\":\"#CCCCCC\",\"italic\":false}']}}"
             }
           ]
         }
