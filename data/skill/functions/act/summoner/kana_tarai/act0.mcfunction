@@ -3,7 +3,7 @@
 ##############################
 
 #タライ召喚
-execute as @e[distance=..15,tag=Mob] at @s anchored eyes positioned ^ ^ ^ run summon minecraft:falling_block ~ ~2 ~ {BlockState:{Name:"minecraft:light_weighted_pressure_plate"},Time:540,Tags:[Skill,NeverRemain,KanaTarai,NativeTask]}
+execute as @e[distance=..15,tag=Mob] at @s anchored eyes positioned ^ ^ ^ run summon armor_stand ~ ~2 ~ {PortalCooldown:80,Silent:true,Invulnerable:true,ShowArms:false,Invisible:true,NoBasePlate:true,DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:firework_star",Count:1b,tag:{CustomModelData:150,Explosion:{Type:0,Colors:[I;16767791]}}}],Tags:[Skill,NeverRemain,KanaTarai,NativeTask,CooldownRequired]}
 #ダメージ
 execute if score _ Level matches 1 run data modify storage skill: Damage set from storage skill: Data.Summoner[{Name:"金タライ",Level:1}].Damage
 execute if score _ Level matches 2 run data modify storage skill: Damage set from storage skill: Data.Summoner[{Name:"金タライ",Level:2}].Damage
