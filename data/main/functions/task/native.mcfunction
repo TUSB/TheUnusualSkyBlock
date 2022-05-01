@@ -20,8 +20,8 @@
 ###SmartMotion
 execute if entity @s[tag=SmartMotion] run function smart_motion:core/entity_tick
 
-###雪玉ヒット検知
-execute if entity @s[tag=DamageSnowball] run function entity:snowball_hit
+###投射物ヒット検知
+execute if entity @s[tag=DamageProjectile] run function entity:projectile_hit/
 
 ###ピクミン
 # execute if entity @s[tag=Pikmin] run function pikmin_manager:throw/tick

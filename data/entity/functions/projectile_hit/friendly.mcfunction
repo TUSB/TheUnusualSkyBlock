@@ -1,0 +1,12 @@
+#ダメージ
+data modify storage score_damage: Argument set value {DamageType:[Global,Projectile]}
+execute store result storage score_damage: Argument.Damage double 1 run scoreboard players get @e[tag=EnemyProjectile,distance=..3,limit=1,sort=nearest] Attack 
+execute unless data storage score_damage: Argument{Damage:0} run function score_damage:api/attack
+#CallOnAttack
+execute if entity @e[tag=EnemyProjectile,tag=CallOnAttackProjectile,distance=..3,limit=1,sort=nearest] at @s run function enemy:ai/call/trigger/attack/projectile
+#演出
+execute if entity @s[nbt=!{Health:0.0f}] run function makeup:enemy/projectile_hit
+#無敵時間を設定
+scoreboard players set @s ProjectileTime -10
+#トント
+execute if score @s TntCount matches 0.. run function effects:tnt/check

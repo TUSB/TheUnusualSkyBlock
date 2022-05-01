@@ -42,7 +42,7 @@ scoreboard objectives add VirusCount dummy {"text":"病気カウント"}
 scoreboard objectives add FreezeTimer dummy {"text":"凍結タイマー"}
 scoreboard objectives add BurnCount dummy {"text":"やけどカウント"}
 scoreboard objectives add GameTime dummy {"text":"ゲームタイム"}
-scoreboard objectives add SnowballTime minecraft.custom:minecraft.play_time {"text":"雪玉ヒットタイマー"}
+scoreboard objectives add ProjectileTime minecraft.custom:minecraft.play_time {"text":"投射物ヒットタイマー"}
 
 ###計算、乱数
 scoreboard objectives add Calc dummy {"text": "計算用"}

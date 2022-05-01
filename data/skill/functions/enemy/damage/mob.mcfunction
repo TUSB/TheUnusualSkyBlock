@@ -1,11 +1,9 @@
 
 ### 他のモブに対して属性ダメージを与える。
 
-#余分なデータ削除
-data remove storage item: Equipments
 #ダメージ取得
 data modify storage skill: Damage set from storage mob_data: Call.Mob
-function skill:damage/add/skill/magic
+function skill:damage/add/skill/normal
 
 execute store result score 00000000-0000-0000-0000-000000000000 Calc run data get storage mob_data: Call.Distance.Max 100
 execute store result score 00000000-0000-0000-0000-000000000001 Calc run data get storage mob_data: Call.Distance.Min 100

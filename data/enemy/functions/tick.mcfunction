@@ -15,4 +15,4 @@ execute if entity @s[scores={Damage=-2147483648..}] run function enemy:update_he
 execute if score $Tick Count matches 0 run function enemy:one_second
 
 #投射物無敵時間を更新
-scoreboard players add @s[team=Friendly] SnowballTime 1
+scoreboard players add @s ProjectileTime 1

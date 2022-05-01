@@ -14,9 +14,9 @@ execute store result score _ Calc run data get entity @s Pos[2] 100
 execute store result score _ _ run data get entity @s Motion[2] 100
 execute store result entity 0-0-0-0-0 Pos[2] double 0.01 run scoreboard players operation _ Calc += _ _
 
-#tag=Skill: Mobに1ダメージ
-execute if entity @s[tag=Skill] at 0-0-0-0-0 positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=Mob,dx=0,dy=0,dz=0,limit=1,sort=nearest] store result entity @s AbsorptionAmount float 0.99999 run data get entity @s AbsorptionAmount
-#tag=DamageProjectile: Playerにダメージ
-execute if entity @s[tag=DamageProjectile] at 0-0-0-0-0 positioned ~-0.5 ~-0.5 ~-0.5 as @e[predicate=entity:friendly,dx=0,dy=0,dz=0,limit=1,sort=nearest] run function enemy:snowball_damage
+#tag=FriendlyProjectile: Mobにダメージ
+execute if entity @s[tag=FriendlyProjectile] at 0-0-0-0-0 positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=Mob,scores={ProjectileTime=0..},dx=0,dy=0,dz=0,limit=1,sort=nearest] run function entity:projectile_hit/enemy
+#tag=EnemyProjectile: Playerにダメージ
+execute if entity @s[tag=EnemyProjectile] at 0-0-0-0-0 positioned ~-0.5 ~-0.5 ~-0.5 as @e[predicate=entity:friendly,scores={ProjectileTime=0..},dx=0,dy=0,dz=0,limit=1,sort=nearest] run function entity:projectile_hit/friendly
 
 execute as 0-0-0-0-0 run function calc:geometry/return_marker
