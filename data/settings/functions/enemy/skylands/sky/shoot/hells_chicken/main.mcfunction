@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:chicken",CustomName:'{"translate":"ヘルズコッコ","color":"#FF0000"}',ActiveEffects:[{Id:28b,Amplifier:10b,Duration:2147483647}],IsChickenJockey:true,Silent:true,PortalCooldown:2000,DeathLootTable:"empty",Tags:[Mob,DelayedData,HasAI,CallOnInit,CooldownRequired,NativeTask,SmartMotion,Bounce,DamageProjectile,HasLootTable]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:chicken",CustomName:'{"translate":"ヘルズコッコ","color":"#FF0000"}',ActiveEffects:[{Id:28b,Amplifier:10b,Duration:2147483647}],IsChickenJockey:true,Silent:true,PortalCooldown:2000,DeathLootTable:"empty",Tags:[Mob,DelayedData,HasAI,CallOnInit,CooldownRequired,NativeTask,SmartMotion,Bounce,DamageProjectile,EnemyProjectile,HasLootTable]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 0d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0d

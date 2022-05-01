@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:husk",CustomName:'{"translate":"獰猛なサーモン","color":"#FF0000","bold":true}',NoGravity:true,DeathLootTable:"empty",Tags:[Mob,DelayedData,HasAI,DamageProjectile,HasLootTable]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:husk",CustomName:'{"translate":"獰猛なサーモン","color":"#FF0000","bold":true}',DeathLootTable:"empty",Tags:[Mob,DelayedData,HasAI,HasLootTable]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:1001}}]}
 
 ### 遅延ステータス
