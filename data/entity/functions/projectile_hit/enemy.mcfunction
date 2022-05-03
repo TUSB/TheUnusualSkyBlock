@@ -6,7 +6,5 @@ execute if data storage skill: Damage run function skill:damage/add/skill/normal
 execute if data storage skill: Damage run function skill:damage/apply/
 #CallOnAttack
 execute if entity @e[tag=FriendlyProjectile,tag=CallOnAttackProjectile,distance=..3,limit=1,sort=nearest] at @s run function enemy:ai/call/trigger/attack/projectile
-#演出
-function makeup:enemy/projectile_hit
 #無敵時間を設定
 scoreboard players set @s ProjectileTime -10
