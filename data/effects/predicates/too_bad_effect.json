@@ -138,7 +138,7 @@
         "player": {
           "advancements": {
             "effects:invisible": {
-              "debilitu": true
+              "debility": true
             }
           }
         }
