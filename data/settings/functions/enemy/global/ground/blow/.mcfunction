@@ -3,6 +3,7 @@ execute if entity @s[tag=PoyonPoyonCreeper] run function settings:enemy/global/g
 execute if entity @s[tag=IceCreeper] run function settings:enemy/global/ground/blow/ice_creeper
 execute if entity @s[tag=PerverseCreeper] run function settings:enemy/global/ground/blow/perverse_creeper
 execute if entity @s[tag=AnvilZombie] run function settings:enemy/global/ground/blow/anvil_zombie
+execute if entity @s[tag=Testmob1] run function settings:enemy/global/ground/blow/testmob_1
 execute if entity @s[tag=TeleportWitch] run function settings:enemy/global/ground/blow/teleport_witch
 execute if entity @s[tag=PalsyZombie] run function settings:enemy/global/ground/blow/palsy_zombie
 execute if entity @s[tag=BoomSkeleton] run function settings:enemy/global/ground/blow/boom_skeleton
