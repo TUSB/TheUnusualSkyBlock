@@ -14,12 +14,14 @@ execute unless entity @s[scores={sm.Z=-1..1}] run function smart_motion:core/can
 execute unless entity @s[scores={sm.Y=..1}] store success score @s sm.Y run tp @s ~ ~0.01 ~
 #天井をすり抜けないように上限補正
 scoreboard players set #YMotion sm.Calc 100000
-execute if entity @s[x_rotation=-90..0] if predicate smart_motion:limit_y_motion run function smart_motion:core/limit_y_motion/
+execute if entity @s[scores={sm.RotationX=-9000..0}] if predicate smart_motion:limit_y_motion run function smart_motion:core/limit_y_motion/
 #ブロック判定
 execute unless entity @s[scores={sm.X=-1..1,sm.Y=-1..1,sm.Z=-1..1}] run function smart_motion:core/block
 
 #単位ベクトル取得、スピード補正、Motionに適用
-execute in minecraft:overworld positioned 0.0 0.0 0.0 rotated as @s run tp 0-0-1913-0-0 ^ ^ ^1
+execute store result entity 0-0-1913-0-0 Rotation[0] float 0.01 run scoreboard players get @s sm.RotationX
+execute store result entity 0-0-1913-0-0 Rotation[1] float 0.01 run scoreboard players get @s sm.RotationY
+execute in area:control_area positioned 0.0 0.0 0.0 as 0-0-1913-0-0 rotated as @s run tp @s ^ ^ ^1
 execute store result score @s sm.X run data get entity 0-0-1913-0-0 Pos[0] 100
 execute store result score @s sm.Y run data get entity 0-0-1913-0-0 Pos[1] 100
 execute store result score @s sm.Z run data get entity 0-0-1913-0-0 Pos[2] 100
