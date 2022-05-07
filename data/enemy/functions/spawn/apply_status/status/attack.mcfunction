@@ -8,4 +8,4 @@ execute store result score @s Attack run scoreboard players add _ Calc 2
 execute store result entity @s[type=#arrows,scores={Attack=1..}] damage double 1 run scoreboard players get @s Attack
 tag @s[type=#entity:projectiles,type=!#arrows,scores={Attack=1..}] add DamageProjectile
 ### 物理攻撃力をAttributeに保存する
-execute store result entity @s[scores={Attack=1..}] Attributes[{Name:"minecraft:generic.attack_damage"}].Base double 1 run scoreboard players get @s Attack
+execute store result entity @s Attributes[{Name:"minecraft:generic.attack_damage"}].Base double 1 run scoreboard players get @s Attack
