@@ -20,6 +20,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 120
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/magic_stone/tier1/mix",Count:1,Chance:0.1d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/currency_and_magic_stone/tier1/mix",Count:1,Chance:0.3d}]
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:4,Turn:[{Index:1,Exit:{Condition:[{Name:"HasTarget",Target:{Look:"Player",Radius:6,IgnoreBlocks:true}}]}},{Index:2,Skill:[{Call:[{Name:"MergeNBT",NBT:{HandItems:[{id:"minecraft:iron_sword",Count:1b},{}]}}]}],Exit:{Loop:{Max:1,Current:1}}},{Index:3,Exit:{Condition:[{Name:"HasTarget",Inverse:true,Target:{Look:"Player",Radius:6,IgnoreBlocks:true}}]}},{Index:4,Skill:[{Call:[{Name:"MergeNBT",NBT:{HandItems:[{id:"minecraft:bow",Count:1b},{}]}}]}],Exit:{Loop:{Max:1,Current:1}}}]}

@@ -1,3 +1,6 @@
+execute if data storage skill: Skill{Name:"ブラストショット"} run function skill:act/common/blast_shot/act0
+execute if data storage skill: Skill{Name:"生もの"} run function skill:act/common/fresh_food/act0
+execute if data storage skill: Skill{Name:"サモンSボム"} run function skill:act/common/summon_bomb/act0
 execute if data storage skill: Skill{Name:"サモンS迫撃砲"} run function skill:act/common/summon_mortar/act0
 execute if data storage skill: Skill{Name:"陰鬱の悪夢"} run function skill:act/common/nightmare_of_gloom/act0
 execute if data storage skill: Skill{Name:"煌乱の悪夢"} run function skill:act/common/nightmare_of_glimmering/act0

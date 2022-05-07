@@ -20,6 +20,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 40
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 75
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 120
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/magic_stone/tier1/mix",Count:1,Chance:0.1d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/currency_and_magic_stone/tier1/mix",Count:1,Chance:0.3d}]
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Position:"Source",Settings:[{Name:"As",Target:{Look:"Player",Radius:32,IgnoreBlocks:true}}],Name:"Teleport"}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:120,Max:240,Current:100},Call:[{Settings:[{Name:"Anchor",Anchor:"Eyes"},{Name:"Facing",Target:{Look:"Player",Radius:18,IgnoreBlocks:true}}],Name:"Spawn",SpawnEntities:[[{Tags:[Global,Ground,Shoot,WizardOfTeleportation,TeleportBullet],Level:1}]]}]}]}]}

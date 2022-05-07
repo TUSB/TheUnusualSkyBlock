@@ -20,6 +20,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/magic_stone/tier1/mix",Count:1,Chance:0.1d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/currency_and_magic_stone/tier1/mix",Count:1,Chance:0.1d}]
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:2,Turn:[{Index:1,Target:{Look:"Player",Radius:20d},Move:{Front:0.35d,Side:0d,Up:0.25d},Rotate:[-5f,-5f],Skill:[{Interval:{Min:1,Max:1,Current:1},Call:[{Name:"Spawn",Count:2,SpawnEntities:[[{Tags:["Underworld","Ground","Blow","Slygum","Body"],Level:1}]],Settings:[{Name:"Direction",Direction:[0f,-90f],DirectionRange:[360f,360f],Speed:1.5,SpeedRange:4}]}]}],Exit:{Condition:[{Name:"HasTarget",Target:{Look:"Player",Radius:15,IgnoreBlocks:false},Inverse:true}]}},{Index:2,Skill:[{Interval:{Min:1,Max:1,Current:1},Call:[{}]}],Exit:{Condition:[{Name:"HasTarget",Target:{Look:"Player",Radius:15,IgnoreBlocks:false}}]}}]}
