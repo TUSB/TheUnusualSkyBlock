@@ -4,6 +4,9 @@
 execute if data storage mob_data: Call{TP:1b} unless data storage mob_data: Call{KeepRotation:1b} run function smart_motion:core/tp
 execute if data storage mob_data: Call{TP:1b,KeepRotation:1b} run function smart_motion:core/tp_keep_rotation
 
+#Rotation
+execute if data storage mob_data: Call.Rotation run function skill:enemy/smart_motion/rotation
+
 #Speed
 execute if data storage mob_data: Call.Speed run function skill:enemy/smart_motion/speed
 
