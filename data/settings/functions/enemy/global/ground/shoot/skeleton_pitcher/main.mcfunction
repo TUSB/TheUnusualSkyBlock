@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:skeleton",CustomName:'{"translate":"スケルトンピッチャー","color":"#FFFFFF"}',Tags:[Mob,DelayedData,HasAI,HasLootTable]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:skeleton",CustomName:'{"translate":"スケルトンピッチャー","color":"#FFFFFF"}',Tags:[Mob,Enemy,DelayedData,HasAI,HasLootTable]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:3026478}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:16777215}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:16777215}}},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;-14844490,-1309914490,-1302249427,239519193],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODgwN2RmOGEyY2RiNTg1MDBjN2QyNjY0MzNjM2FhMzU5M2QyM2RkMmU0Yzc5ZjQ4ZGFkZmE4NmJjOWJmNWQxZCJ9fX0="}]}}}}],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 32d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.18d

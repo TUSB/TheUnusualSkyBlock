@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:horse",CustomNameVisible:true,CustomName:'{"translate":"魔術師の従者の騎乗馬","color":"#FFFFFF"}',Variant:4,Tame:1b,DeathLootTable:"empty",Tags:[Mob,DelayedData,HasAI]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:horse",CustomNameVisible:true,CustomName:'{"translate":"魔術師の従者の騎乗馬","color":"#FFFFFF"}',Variant:4,Tame:1b,DeathLootTable:"empty",Tags:[Mob,Enemy,DelayedData,HasAI]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {SaddleItem:{id:"minecraft:saddle",Count:1b,tag:{Unpossessable:true}},ArmorItem:{id:"minecraft:golden_horse_armor",Count:1b,tag:{Unpossessable:true}},ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 32d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.3d

@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:skeleton",CustomName:'{"translate":"ハートスケルトン"}',Tags:[Mob,DelayedData,CallOnDeath,HasLootTable]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:skeleton",CustomName:'{"translate":"ハートスケルトン"}',Tags:[Mob,Enemy,DelayedData,CallOnDeath,HasLootTable]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {HandItems:[{id:"minecraft:bow",Count:1b,tag:{Unbreakable:1b}},{}],HandDropChances:[-1e+300F,0.085F],ArmorItems:[{},{},{},{id:"minecraft:leather_helmet",Count:1b,tag:{Unbreakable:1b,display:{color:16711680}}}],ArmorDropChances:[0.085F,0.085F,0.085F,-1e+300F]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 16d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.18d

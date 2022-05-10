@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:armor_stand",CustomName:'{"translate":"日向喰らい","color":"#FF0000","bold":true}',Silent:true,Invulnerable:true,ShowArms:false,Invisible:true,NoBasePlate:true,DisabledSlots:4144959,PortalCooldown:2000,Tags:[Mob,DelayedData,HasAI,CallOnInit,CallOnDamage,CallOnBlock,CooldownRequired,DamageProjectile,EnemyProjectile,HasLootTable]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:armor_stand",CustomName:'{"translate":"日向喰らい","color":"#FF0000","bold":true}',Silent:true,Invulnerable:true,ShowArms:false,Invisible:true,NoBasePlate:true,DisabledSlots:4144959,PortalCooldown:2000,Tags:[Mob,Enemy,DelayedData,HasAI,CallOnInit,CallOnDamage,CallOnBlock,CooldownRequired,DamageProjectile,EnemyProjectile,HasLootTable]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {ArmorItems:[{},{},{},{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:1002}}]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 0d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0d

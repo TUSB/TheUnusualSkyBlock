@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie",CustomName:'{"translate":"アンビルゾンビ"}',ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2147483647,ShowParticles:0b}],DeathLootTable:"empty",Tags:[Mob,DelayedData,HasLootTable]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie",CustomName:'{"translate":"アンビルゾンビ"}',ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2147483647,ShowParticles:0b}],DeathLootTable:"empty",Tags:[Mob,Enemy,DelayedData,HasLootTable]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {ArmorItems:[{id:"minecraft:leather_boots",tag:{display:{color:14737632}},Count:1},{id:"minecraft:leather_leggings",tag:{display:{color:14737632}},Count:1},{id:"minecraft:leather_chestplate",tag:{display:{color:14737632}},Count:1},{id:"minecraft:iron_block",Count:1}],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 60d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.15d

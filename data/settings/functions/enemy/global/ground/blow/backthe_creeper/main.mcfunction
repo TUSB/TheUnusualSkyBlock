@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:creeper",CustomName:'{"translate":"バックザ・ク・リーパー","color":"#FFFFFF"}',Fuse:45,ExplosionRadius:3f,Tags:[Mob,DelayedData,CallOnDamage,HasLootTable]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:creeper",CustomName:'{"translate":"バックザ・ク・リーパー","color":"#FFFFFF"}',Fuse:45,ExplosionRadius:3f,Tags:[Mob,Enemy,DelayedData,CallOnDamage,HasLootTable]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 24d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.25d

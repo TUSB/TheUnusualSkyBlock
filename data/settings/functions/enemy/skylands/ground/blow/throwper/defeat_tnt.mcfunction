@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie",CustomName:'{"translate":"破壊可能なTNT","color":"#FFFFFF"}',Silent:true,DeathTime:19s,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:false},{Id:18b,Amplifier:127b,Duration:2147483647,ShowParticles:false}],DeathLootTable:"empty",Tags:[Mob,DelayedData,HasAI,CallOnInit]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie",CustomName:'{"translate":"破壊可能なTNT","color":"#FFFFFF"}',Silent:true,DeathTime:19s,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:false},{Id:18b,Amplifier:127b,Duration:2147483647,ShowParticles:false}],DeathLootTable:"empty",Tags:[Mob,Enemy,DelayedData,HasAI,CallOnInit]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {ArmorItems:[{},{},{},{id:"firework_star",Count:1b,tag:{CustomModelData:2001,Explosion:{Type:0,Colors:[I;16738408]}}}],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 0d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0d
