@@ -12,7 +12,7 @@ execute if score _ Level matches 5 run data modify storage skill: Damage set fro
 function skill:damage/add/skill/weapon
 
 # 周りのモブにダメージ付与
-execute positioned ^ ^ ^5 as @e[tag=Mob,distance=..6] run function skill:damage/apply/
+execute positioned ^ ^ ^5 as @e[tag=Enemy,distance=..6] run function skill:damage/apply/
 
 scoreboard players set _ FalconSlashTimer 0
-execute positioned ^ ^ ^5 as @e[distance=..6,tag=Mob] run function skill:act/knight/falcon_slash/decorate/initialize
+execute positioned ^ ^ ^5 as @e[distance=..6,tag=Enemy] run function skill:act/knight/falcon_slash/decorate/initialize

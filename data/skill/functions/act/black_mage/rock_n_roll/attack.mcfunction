@@ -9,9 +9,9 @@ execute rotated as @s positioned ^ ^ ^10 if entity @s[distance=..15] positioned 
 
 function skill:damage/load
 
-execute at @s as @e[dy=2,tag=Mob] run function skill:damage/apply/
-execute if entity @s[tag=Transition] facing entity @s feet positioned ^ ^ ^3 as @e[dy=2,tag=Mob] run function skill:damage/apply/
-execute if entity @s[tag=Transition] facing entity @s feet positioned ^ ^ ^4 as @e[dy=2,tag=Mob] run function skill:damage/apply/
+execute at @s as @e[dy=2,tag=Enemy] run function skill:damage/apply/
+execute if entity @s[tag=Transition] facing entity @s feet positioned ^ ^ ^3 as @e[dy=2,tag=Enemy] run function skill:damage/apply/
+execute if entity @s[tag=Transition] facing entity @s feet positioned ^ ^ ^4 as @e[dy=2,tag=Enemy] run function skill:damage/apply/
 
 function makeup:skil/act/black_mage/rock_n_roll/attack
 

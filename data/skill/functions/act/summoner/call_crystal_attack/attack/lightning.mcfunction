@@ -9,4 +9,4 @@ data modify storage skill: Damage.Lightning set from storage skill: Damage.Physi
 data remove storage skill: Damage.Physical
 function skill:damage/add/skill/magic
 
-execute as @e[tag=Mob,distance=..10] run function skill:damage/apply/
+execute as @e[tag=Enemy,distance=..10] run function skill:damage/apply/

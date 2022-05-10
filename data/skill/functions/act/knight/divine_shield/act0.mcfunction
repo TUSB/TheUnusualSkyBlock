@@ -12,7 +12,7 @@ function skill:damage/add/skill/magic
 # 防いだダメージに応じてダメージ倍率を計算、適用
 function skill:act/knight/divine_shield/get_damage
 function skill:damage/modify
-execute anchored eyes positioned ^ ^ ^5 as @e[distance=..5,tag=Mob] run function skill:damage/apply/
+execute anchored eyes positioned ^ ^ ^5 as @e[distance=..5,tag=Enemy] run function skill:damage/apply/
 
 # 演出
 function makeup:skill/act/knight/divine_shield/act

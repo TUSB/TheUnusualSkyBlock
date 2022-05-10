@@ -17,7 +17,7 @@ function skill:damage/load
 #モブとの距離を計算し重力、ダメージ適用
 scoreboard players set _ Calc 80
 scoreboard players operation _ Calc *= @s Level
-execute as @e[tag=Mob,distance=..8] run function skill:act/summoner/petit_black/tick_mob
+execute as @e[tag=Enemy,distance=..8] run function skill:act/summoner/petit_black/tick_mob
 
 #演出
 function makeup:skill/act/summoner/petit_black/tick

@@ -15,8 +15,8 @@ execute store result score _ _ run data get entity @s Motion[2] 100
 execute store result entity 0-0-0-0-0 Pos[2] double 0.01 run scoreboard players operation _ Calc += _ _
 
 tag @s add NonTarget
-#tag=FriendlyProjectile: Mobにダメージ
-execute if entity @s[tag=FriendlyProjectile] at 0-0-0-0-0 positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=Mob,tag=!NonTarget,scores={ProjectileTime=0..},dx=0,dy=0,dz=0,limit=1,sort=nearest] run function entity:projectile_hit/enemy
+#tag=FriendlyProjectile: Enemyにダメージ
+execute if entity @s[tag=FriendlyProjectile] at 0-0-0-0-0 positioned ~-0.5 ~-0.5 ~-0.5 as @e[tag=Enemy,tag=!NonTarget,scores={ProjectileTime=0..},dx=0,dy=0,dz=0,limit=1,sort=nearest] run function entity:projectile_hit/enemy
 #tag=EnemyProjectile: Playerにダメージ
 execute if entity @s[tag=EnemyProjectile] at 0-0-0-0-0 positioned ~-0.5 ~-0.5 ~-0.5 as @e[predicate=entity:friendly,tag=!NonTarget,scores={ProjectileTime=0..},dx=0,dy=0,dz=0,limit=1,sort=nearest] run function entity:projectile_hit/friendly
 tag @s remove NonTarget

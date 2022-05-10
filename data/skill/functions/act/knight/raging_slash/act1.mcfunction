@@ -5,9 +5,9 @@
 scoreboard players operation _ RagingDamage = @s RagingDamage
 scoreboard players set _ _ 100
 scoreboard players operation _ RagingDamage %= _ _
-execute store result score _ _ if entity @e[distance=..5,tag=Mob]
+execute store result score _ _ if entity @e[distance=..5,tag=Enemy]
 # 幻影
-scoreboard players operation _ _ += @e[distance=..5,tag=Mob] BlinkCount
+scoreboard players operation _ _ += @e[distance=..5,tag=Enemy] BlinkCount
 scoreboard players operation _ RagingDamage += _ _
 scoreboard players add _ RagingDamage 3
 scoreboard players set _ _ 99

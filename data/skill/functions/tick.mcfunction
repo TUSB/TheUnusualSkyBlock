@@ -49,7 +49,7 @@ execute if entity @s[tag=GinSpiritBat] positioned ~-0.5 ~-0.5 ~-0.5 if entity @a
 ###ウィンドウォール竜巻処理
 # execute if entity @s[tag=WindWallTornado] run function skill:act/black_mage/wind_wall/tick_tornado
 ###金タライ処理
-execute if entity @s[tag=KanaTarai] if entity @e[tag=Mob,dx=0] run function skill:act/summoner/kana_tarai/hit
+execute if entity @s[tag=KanaTarai] if entity @e[tag=Enemy,dx=0] run function skill:act/summoner/kana_tarai/hit
 ###つんつんペット処理
 # execute if entity @s[tag=Sicced] run function skill:act/sicced/pets
 ###サモンＢ処理

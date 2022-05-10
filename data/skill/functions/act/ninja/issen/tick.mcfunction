@@ -7,7 +7,7 @@ execute at @e[tag=Issen,scores={OhMyDatID=0},distance=..3,limit=1] run tp @s ~ ~
 
 ###ダメージ判定
 execute if score @s Issen matches 20.. as @e[tag=Issen,scores={OhMyDatID=0},distance=..3,limit=1] run function skill:damage/load
-execute if score @s Issen matches 20.. as @e[distance=..2.5,tag=Mob] at @s run function skill:act/ninja/issen/apply
+execute if score @s Issen matches 20.. as @e[distance=..2.5,tag=Enemy] at @s run function skill:act/ninja/issen/apply
 
 #演出
 execute if score @s Issen matches 20.. run function makeup:skill/act/ninja/issen/tick

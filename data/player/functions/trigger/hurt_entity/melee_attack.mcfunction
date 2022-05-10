@@ -8,7 +8,7 @@ function skill:damage/add/physical/melee
 function skill:damage/add/elemental
 
 #属性ダメージ付与
-execute at 0-0-0-0-2 as @e[tag=Mob,nbt=!{AbsorptionAmount:1000000f},distance=0] run function skill:damage/apply/elemental
+execute at 0-0-0-0-2 as @e[tag=Enemy,nbt=!{AbsorptionAmount:1000000f},distance=0] run function skill:damage/apply/elemental
 
 ### 黒魔導士＜ライトニングブロー＞
 execute if score @s LightningBlow matches 1.. run function skill:act/black_mage/lightning_blow/hit

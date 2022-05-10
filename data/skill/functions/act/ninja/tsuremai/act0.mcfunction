@@ -50,4 +50,4 @@ execute store result score _ Calc run scoreboard players operation @s _ *= _ Cal
 function skill:damage/modify
 
 #ダメージ付与
-execute at 0-0-0-0-2 as @e[tag=Mob,nbt=!{AbsorptionAmount:1000000f},distance=0] run function skill:damage/apply/
+execute at 0-0-0-0-2 as @e[tag=Enemy,nbt=!{AbsorptionAmount:1000000f},distance=0] run function skill:damage/apply/

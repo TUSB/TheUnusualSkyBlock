@@ -13,4 +13,4 @@ item replace entity @e[distance=..15,team=Friendly,type=!minecraft:player] armor
 tag @e[distance=..15,team=Friendly,type=!minecraft:player] add Assault
 tag @e[distance=..15,team=Friendly,type=!minecraft:player] add DelayedTask
 
-execute positioned as @e[distance=..15,tag=Mob,sort=nearest,limit=1] run tp @e[distance=..15,team=Friendly,type=!minecraft:player] ~ ~ ~
+execute positioned as @e[distance=..15,tag=Enemy,sort=nearest,limit=1] run tp @e[distance=..15,team=Friendly,type=!minecraft:player] ~ ~ ~

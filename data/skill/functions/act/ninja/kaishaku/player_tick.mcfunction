@@ -8,5 +8,5 @@ scoreboard players reset @s[scores={Kaishaku=9000..10000}] Kaishaku
 
 #半径10のモブに介錯を約4秒付与
 #Level2のときは4秒 + 100で区別
-execute if entity @s[scores={Kaishaku=0..9000}] run scoreboard players set @e[tag=Mob,distance=..10] Kaishaku 4
-execute if entity @s[scores={Kaishaku=10000..}] run scoreboard players set @e[tag=Mob,distance=..10] Kaishaku 104
+execute if entity @s[scores={Kaishaku=0..9000}] run scoreboard players set @e[tag=Enemy,distance=..10] Kaishaku 4
+execute if entity @s[scores={Kaishaku=10000..}] run scoreboard players set @e[tag=Enemy,distance=..10] Kaishaku 104

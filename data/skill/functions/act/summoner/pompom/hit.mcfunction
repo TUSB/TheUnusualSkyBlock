@@ -6,6 +6,6 @@
 #ダメージをロード
 function skill:damage/load
 #ダメージ付与
-execute as @e[distance=..2,tag=Mob] run function skill:damage/apply/
+execute as @e[distance=..2,tag=Enemy] run function skill:damage/apply/
 #演出
 function makeup:skill/act/summoner/pompom/hit

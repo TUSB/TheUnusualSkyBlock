@@ -14,7 +14,7 @@ scoreboard players set _ EclipseRadius 100
 scoreboard players operation _ EclipseRadius += @s EclipseRadius
 ### ダメージ処理
 function skill:damage/load
-execute at @s positioned ~ ~-1 ~ as @e[distance=..10,tag=Mob] run function skill:act/black_mage/eclipse_flame/deal_damage
+execute at @s positioned ~ ~-1 ~ as @e[distance=..10,tag=Enemy] run function skill:act/black_mage/eclipse_flame/deal_damage
 
 ### 座標変更
 execute store result score _ EclipseRadius run data get entity @s Pos[1] 100

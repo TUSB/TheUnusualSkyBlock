@@ -15,5 +15,5 @@ scoreboard players set _ _ 5
 scoreboard players operation _ Damage /= _ _
 execute store result storage skill: Damage.Physical int 1 run scoreboard players operation _ Calc += _ Damage
 
-execute as @e[distance=..5,tag=Mob] run function skill:damage/apply/
+execute as @e[distance=..5,tag=Enemy] run function skill:damage/apply/
 

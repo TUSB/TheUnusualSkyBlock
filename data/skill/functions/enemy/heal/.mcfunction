@@ -23,7 +23,7 @@ scoreboard players operation _ Calc /= @s Calc
 
 
 ###対象探索
-execute as @e[tag=Mob,distance=..32] run function skill:enemy/heal/search
+execute as @e[tag=Enemy,distance=..32] run function skill:enemy/heal/search
 
 
 
