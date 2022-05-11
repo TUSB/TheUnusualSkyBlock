@@ -3,7 +3,7 @@
 
 # CP 2P 消費系
 data modify storage tusb_player: Potentials.Default.SubLevel set value 0
-data modify storage tusb_player: Potentials.Default.ElementDamageAdd set value 0
+data modify storage tusb_player: Potentials.Default.ElementDamageAdd set value 100
 
 # CP 1P 消費系
 data modify storage tusb_player: Potentials.Default.ResistMin set value 0
