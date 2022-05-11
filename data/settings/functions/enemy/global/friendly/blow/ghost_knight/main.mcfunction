@@ -4,11 +4,11 @@ data modify storage tusb_mob: "即時ステータス"."見た目" set value {Han
 
 ### 遅延ステータス
 # ステータス
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Death:[{Name:"Function",Tags:[Global,Friendly,Blow,GhostKnight,ManifestationTime]}],Time:[{Name:"Kill"}],TurnCount:2,Turn:[{Index:1,Skill:[{Interval:{Min:1,Max:1,Current:1},Loop:{Max:1,Current:1},Call:[{Settings:[{Name:"Facing",Target:{Look:"Enemy",Radius:64d,IgnoreBlocks:true}}],Name:"Step",Direction:[0f,0f],Speed:0.3d}]}],Exit:{Condition:[{Name:"HasTarget",Target:{Look:"Enemy",Radius:3d,IgnoreBlocks:true},Half:"front"}]}},{Index:2,Skill:[{Interval:{Min:20,Max:20,Current:1},Loop:{Max:1,Current:1},Call:[{Name:"Damage",Mob:{Physical:10},Distance:{Min:0.5d,Max:3d}},{Name:"Function",Tags:[Global,Friendly,Blow,GhostKnight,SlashParticle]}]}],Exit:{Condition:[{Name:"HasTarget",Inverse:true,Target:{Look:"Enemy",Radius:3d,IgnoreBlocks:true},Half:"front"}]}}]}

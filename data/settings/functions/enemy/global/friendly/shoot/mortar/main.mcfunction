@@ -4,11 +4,11 @@ data modify storage tusb_mob: "即時ステータス"."見た目" set value {Arm
 
 ### 遅延ステータス
 # ステータス
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Time:[{Name:"Kill"}],TurnCount:2,Turn:[{Index:1,Skill:[{Interval:{Min:40,Max:40,Current:1},Loop:{Max:1,Current:1},Call:[{Settings:[{Name:"Facing",Target:{Look:"Enemy",Radius:24d,IgnoreBlocks:true}},{Name:"Anchor",Anchor:"Eyes"}],Name:"Spawn",SpawnEntities:[[{Tags:[Global,Friendly,Shoot,Mortar,MortarsBullet],Level:1}],[{Tags:[Global,Friendly,Shoot,Mortar,BulletCheck],Level:1}]],Count:1}]}],Exit:{Loop:{Max:1,Current:1}}},{Index:2,Skill:[{Interval:{Min:1,Max:1,Current:1},Loop:{Max:1,Current:1},Call:[{Settings:[{Name:"Facing",Target:{Look:"Enemy",Radius:64d,IgnoreBlocks:true}}],Name:"Step",Speed:0d}]}],Exit:{Loop:{Max:1,Current:1}}}]}

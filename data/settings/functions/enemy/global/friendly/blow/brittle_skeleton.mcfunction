@@ -8,11 +8,11 @@ data modify storage tusb_mob: "即時ステータス"."ノックバック力" se
 
 ### 遅延ステータス
 # ステータス
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Name:"Kill"}],Attack:[{Name:"Kill"}]}

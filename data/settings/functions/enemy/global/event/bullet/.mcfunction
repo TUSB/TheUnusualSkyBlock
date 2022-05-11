@@ -3,6 +3,7 @@ execute if entity @s[tag=CommonBombHuge] run function settings:enemy/global/even
 execute if entity @s[tag=CommonBomb] run function settings:enemy/global/event/bullet/common_bomb/
 execute if entity @s[tag=TargetBullet] run function settings:enemy/global/event/bullet/target_bullet
 execute if entity @s[tag=Magnum] run function settings:enemy/global/event/bullet/magnum
+execute if entity @s[tag=LaserShot] run function settings:enemy/global/event/bullet/laser_shot
 execute if entity @s[tag=IedTnt] run function settings:enemy/global/event/bullet/ied_tnt
 execute if entity @s[tag=ThrowedBlade] run function settings:enemy/global/event/bullet/throwed_blade
 execute if entity @s[tag=SpreadTargetBullet] run function settings:enemy/global/event/bullet/spread_target_bullet

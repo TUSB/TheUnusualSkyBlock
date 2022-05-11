@@ -8,11 +8,11 @@ data modify storage tusb_mob: "即時ステータス"."ノックバック力" se
 
 ### 遅延ステータス
 # ステータス
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:3,Turn:[{Index:1,Skill:[{Interval:{Min:1,Max:1,Current:1},Loop:{Max:1,Current:1},Call:[{Condition:[{Name:"HasTarget",Target:{Look:"Enemy",Radius:64d,IgnoreBlocks:true}}],Name:"ChangeTurn",Set:2}]}]},{Index:2,Target:{Look:"Enemy",Radius:100d,IgnoreBlocks:1b},Move:{Front:0.2d},Rotate:[-1f,-1f],Skill:[{Interval:{Min:1,Max:1,Current:1},Loop:{Max:1,Current:1},Call:[{Condition:[{Name:"HasTarget",Target:{Look:"Enemy",Radius:5d,IgnoreBlocks:true}}],Name:"ChangeTurn",Set:2}]}]},{Index:3,Target:{Look:"Enemy",Radius:-30d,IgnoreBlocks:1b},Move:{Front:-0.1d},Rotate:[-1f,-1f],Skill:[{Interval:{Min:1,Max:1,Current:1},Loop:{Max:1,Current:1},Call:[{Condition:[{Name:"HasTarget",Inverse:true,Target:{Look:"Enemy",Radius:10d,IgnoreBlocks:true}}],Name:"ChangeTurn",Set:1}]}]}]}
