@@ -73,6 +73,7 @@ scoreboard objectives add PuppetMasterLv dummy {"text": "絡繰士スキルレ�
 scoreboard objectives add ThiefLv dummy {"text": "怪盗スキルレベル"}
 scoreboard objectives add CanChangeJobFlag dummy {"text":"常時職業変更可能フラグ"}
 scoreboard objectives add ChangeJobLock dummy {"text":"職業変更制限"}
+scoreboard objectives add PotentialLock dummy {"text":"潜在能力割り振り制限"}
 
 ###スキル
 scoreboard objectives add MPHealingWait dummy {"text":"MP回復ウェイト"}
