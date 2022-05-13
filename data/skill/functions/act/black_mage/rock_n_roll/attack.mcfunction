@@ -13,6 +13,6 @@ execute at @s as @e[dy=2,tag=Enemy] run function skill:damage/apply/
 execute if entity @s[tag=Transition] facing entity @s feet positioned ^ ^ ^3 as @e[dy=2,tag=Enemy] run function skill:damage/apply/
 execute if entity @s[tag=Transition] facing entity @s feet positioned ^ ^ ^4 as @e[dy=2,tag=Enemy] run function skill:damage/apply/
 
-function makeup:skil/act/black_mage/rock_n_roll/attack
+function makeup:skill/act/black_mage/rock_n_roll/attack
 
 tag @s[tag=Transition] remove Transition

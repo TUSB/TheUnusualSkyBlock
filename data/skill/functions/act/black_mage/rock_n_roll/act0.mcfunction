@@ -13,7 +13,7 @@ function skill:damage/add/skill/magic
 execute as @e[tag=Initializing] run function skill:damage/save
 scoreboard players operation @e[tag=Initializing] TrackingID = @s OhMyDatID
 
-function makeup:skil/act/black_mage/rock_n_roll/act0
+function makeup:skill/act/black_mage/rock_n_roll/act0
 
 tag @e[tag=Initializing] remove Initializing
 
