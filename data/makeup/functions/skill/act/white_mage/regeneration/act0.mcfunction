@@ -1,7 +1,7 @@
 playsound minecraft:block.brewing_stand.brew master @a[distance=..16] ~ ~ ~ 1 0
 playsound minecraft:block.brewing_stand.brew master @a[distance=..16] ~ ~ ~ 1 0.4
 playsound minecraft:block.brewing_stand.brew master @a[distance=..16] ~ ~ ~ 1 0.8
-playsound minecraft:tusb.levelup master @a[distance=..16] ~ ~ ~ 1 2
+playsound minecraft:entity.player.levelup master @a[distance=..16] ~ ~ ~ 1 2
 playsound minecraft:entity.player.splash.high_speed master @a[distance=..16] ~ ~ ~ 0.8 0.8
 summon minecraft:area_effect_cloud ~ ~ ~ {Particle:"minecraft:entity_effect",ReapplicationDelay:40,Radius:1.5f,RadiusPerTick:0.05f,Duration:30,Color:16754929}
 particle minecraft:instant_effect ~ ~0.2 ~ 1 0.2 1 1 40 force @a[tag=ShowParticles]
