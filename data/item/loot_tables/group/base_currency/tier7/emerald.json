@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "Weight": 3,
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 60
+            }
+          ]
+        },
+        {
+          "Weight": 2,
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 120
+            }
+          ]
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/emerald/currency_megaton_emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/emerald/currency_megaton_emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

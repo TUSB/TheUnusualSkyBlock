@@ -1,0 +1,34 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "Weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/projectile_protection/5"
+        },
+        {
+          "Weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/blast_protection/5"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/fire_protection/5"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/feather_falling/5"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/protection/5"
+        }
+      ]
+    }
+  ]
+}
