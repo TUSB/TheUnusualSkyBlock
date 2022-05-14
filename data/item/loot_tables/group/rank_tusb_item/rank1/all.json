@@ -1,0 +1,154 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/bow/hunter_bow"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/carrot_on_a_carrot"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/summoner_tact"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/white_mage_closure"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/black_mage_mace"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/puppet_master_wrench"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/vile_ether"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/area_vile_ether"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/holy_water"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/corn_soup"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/golden_mutton"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/crossbow/phantom_thief_qualal"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/elytra/ordinary_wings"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/1"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/blade/1"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_fire/1"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_ice/1"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_lightning/1"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_light/1"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_dark/1"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/knockback/1"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/blast_protection/1"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/fire_protection/1"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/feather_falling/1"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_axe/ninja_kodachi"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_pickaxe/general_purpose_pickaxe"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_sword/knight_greatsword"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/cobblestone_shield"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/gold_ornaments_shield"
+        }
+      ]
+    }
+  ]
+}

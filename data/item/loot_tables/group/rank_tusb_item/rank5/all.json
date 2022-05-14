@@ -1,0 +1,329 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/armor_stand/sign/trading_engraving_plate"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/armor_stand/sign/transfer_engraving_plate"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/armor_stand/sign/log_grinding_engraving_plate"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/armor_stand/sign/gravel_grinding_engraving_plate"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/armor_stand/sign/snow_crushing_engraving_plate"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/armor_stand/sign/spider_web_grinding_engraving_plate"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/armor_stand/sign/boulder_crushing_engraving_plate"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/armor_stand/sign/wheat_harvesting_engraving_plate"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/armor_stand/sign/potato_harvesting_engraving_plate"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/armor_stand/sign/carrot_harvesting_engraving_plate"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/armor_stand/sign/beet_harvesting_engraving_plate"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/armor_stand/sign/white_wood_strengthening_engraving_plate"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/armor_stand/sign/black_wood_reinforced_engraving_plate"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/armor_stand/sign/inn_engraving_plate"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/armor_stand/sign/pile_up_engraving_plate"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/armor_stand/sign/annihilation_engraving_plate"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/red_carrot"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/lightsaber_chopstick"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/area_high_ether"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/last_elixir"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/load"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/synthetic_narcotics_rta"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/corn_soup"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/sword_of_oath"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/staff_of_fire"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/staff_of_ice"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/staff_of_lightning"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/staff_of_light"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/staff_of_dark"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/sun"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/moon"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/forbidden_book"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/m_rimo_z"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/entity/sun_eater"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/chainmail_boots/turbine"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/crossbow/volcanic_cannon"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/dragon_head/vakhtang_golgasari"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/elytra/strong_wings"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/3"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/blade/3"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_fire/3"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_ice/3"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_lightning/3"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_light/3"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_dark/3"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/knockback/3"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/blast_protection/3"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/fire_protection/3"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/feather_falling/3"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/golden_sword/legendary_treasure_sword"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_sword/monohosizao"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/netherite_axe/strong_meat"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/tatami"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/spooky_shield"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/windmill_shield"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/stone_axe/fountain_axe"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/stone_sword/dillen_wise"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/stone_sword/gram_sword"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/tipped_arrow/arrow_of_prayer_lv2"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/tipped_arrow/arrow_of_defilement_lv2"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/top_hat"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/red_hair_bow"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/the_game_over"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/wooden_sword/powerful_fish"
+        }
+      ]
+    }
+  ]
+}

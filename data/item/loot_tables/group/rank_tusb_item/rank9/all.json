@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/green_carrot"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_sword/ice_sword"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/time_feeding_shield"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/abyss_shield"
+        }
+      ]
+    }
+  ]
+}

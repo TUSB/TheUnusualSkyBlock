@@ -9,7 +9,7 @@
           "name": "item:group/debug/random_ores"
         },
         {
-          "Weight": 1,
+          "Weight": 2,
           "type": "loot_table",
           "name": "item:group/debug/random_element_stone"
         },

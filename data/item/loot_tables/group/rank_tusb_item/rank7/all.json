@@ -1,0 +1,139 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/bow/a_ray_on_the_move"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/philosophers_staff"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/area_super_ether"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/ex_elixir"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/fishing_rod_of_anger"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/god_of_waraxe"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/knuckle_dusters"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carved_pumpkin/halloween_head"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_sword/a_end_of_end"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/4"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/blade/4"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_fire/4"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_ice/4"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_lightning/4"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_light/4"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_dark/4"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/knockback/4"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/blast_protection/4"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/fire_protection/4"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/feather_falling/4"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_sword/world_tree_sword"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/netherite_sword/rusted_blade"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/terrifying_shield"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/tipped_arrow/arrow_of_prayer_lv3"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/tipped_arrow/arrow_of_defilement_lv3"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/trident/gungnir"
+        }
+      ]
+    }
+  ]
+}

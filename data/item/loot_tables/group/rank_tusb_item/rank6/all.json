@@ -1,0 +1,204 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/bow/ice_dragon"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/bow/evil_eye"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/purely_stick_dx"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/a_sugar_cane_menace"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/high_immunity"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/cold_pumpkin_soup"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/floating_rock"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/holy_sword_replica"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/hover_gift"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_sword/kusanagi_reiken"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/element/2"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/yin_yang/2"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_fire/3"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_ice/3"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_lightning/3"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_light/3"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_dark/3"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/philosopher/2"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/purification/2"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/protection/3"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/projectile_protection/3"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/dragon_scale/2"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/life/3"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mana/3"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/evolution/2"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/wave_of_element/3"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/double_break/3"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/golden_axe/golden_lost_dream"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_sword/argentum"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_sword/a_death_flag"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/enderman_shield"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/gear_shield"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/golden_sheep_coat"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/stone_axe/mushroom_debris"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/trident/triple_dirt_darts"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/headphone"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/block/fire"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/block/soul_fire"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/block/giant_cobweb"
+        }
+      ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "Weight": 1,
+          "Weight": 3,
           "type": "loot_table",
           "name": "item:group/base_currency/tier3/emerald"
         },

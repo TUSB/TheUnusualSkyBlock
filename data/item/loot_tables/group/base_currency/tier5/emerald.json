@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "Weight": 3,
+          "Weight": 4,
           "type": "minecraft:item",
           "name": "minecraft:emerald",
           "functions": [
@@ -15,7 +15,7 @@
           ]
         },
         {
-          "Weight": 2,
+          "Weight": 3,
           "type": "minecraft:item",
           "name": "minecraft:emerald",
           "functions": [
@@ -26,7 +26,7 @@
           ]
         },
         {
-          "Weight": 1,
+          "Weight": 2,
           "type": "minecraft:item",
           "name": "minecraft:emerald",
           "functions": [

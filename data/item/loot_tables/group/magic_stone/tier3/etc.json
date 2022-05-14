@@ -14,7 +14,7 @@
           "name": "item:item/gold_nugget/blade/3"
         },
         {
-          "Weight": 1,
+          "Weight": 3,
           "type": "loot_table",
           "name": "item:item/gold_nugget/knockback/3"
         },
