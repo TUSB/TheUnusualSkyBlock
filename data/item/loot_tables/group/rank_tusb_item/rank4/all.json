@@ -26,22 +26,7 @@
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/cure_ether_field"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/immunity"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/banana_peel"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/spring"
         },
         {
           "Weight": 1,
@@ -152,11 +137,6 @@
           "Weight": 1,
           "type": "loot_table",
           "name": "item:item/iron_sword/fire_sword_sensau"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/shears/kuwagata"
         },
         {
           "Weight": 1,

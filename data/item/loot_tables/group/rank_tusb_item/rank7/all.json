@@ -31,16 +31,6 @@
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/god_of_waraxe"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/knuckle_dusters"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
           "name": "item:item/carved_pumpkin/halloween_head"
         },
         {

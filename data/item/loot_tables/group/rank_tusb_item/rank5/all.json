@@ -6,86 +6,6 @@
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:item/armor_stand/sign/trading_engraving_plate"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/armor_stand/sign/transfer_engraving_plate"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/armor_stand/sign/log_grinding_engraving_plate"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/armor_stand/sign/gravel_grinding_engraving_plate"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/armor_stand/sign/snow_crushing_engraving_plate"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/armor_stand/sign/spider_web_grinding_engraving_plate"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/armor_stand/sign/boulder_crushing_engraving_plate"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/armor_stand/sign/wheat_harvesting_engraving_plate"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/armor_stand/sign/potato_harvesting_engraving_plate"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/armor_stand/sign/carrot_harvesting_engraving_plate"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/armor_stand/sign/beet_harvesting_engraving_plate"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/armor_stand/sign/white_wood_strengthening_engraving_plate"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/armor_stand/sign/black_wood_reinforced_engraving_plate"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/armor_stand/sign/inn_engraving_plate"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/armor_stand/sign/pile_up_engraving_plate"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/armor_stand/sign/annihilation_engraving_plate"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/red_carrot"
         },
         {
@@ -106,16 +26,6 @@
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/load"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/synthetic_narcotics_rta"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/corn_soup"
         },
         {
@@ -126,62 +36,7 @@
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/staff_of_fire"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/staff_of_ice"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/staff_of_lightning"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/staff_of_light"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/staff_of_dark"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/sun"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/moon"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/forbidden_book"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/m_rimo_z"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/entity/sun_eater"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/chainmail_boots/turbine"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/crossbow/volcanic_cannon"
         },
         {
           "Weight": 1,

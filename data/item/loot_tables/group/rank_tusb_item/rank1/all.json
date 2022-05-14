@@ -46,22 +46,12 @@
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/holy_water"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/corn_soup"
         },
         {
           "Weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/golden_mutton"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/crossbow/phantom_thief_qualal"
         },
         {
           "Weight": 1,
