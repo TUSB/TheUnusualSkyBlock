@@ -10,7 +10,8 @@ execute if score _ _ matches 500..599 run function debug:tusb_memory_plus/load_s
 execute if score _ _ matches 600..699 run function debug:tusb_memory_plus/load_skill/summoner
 execute if score _ _ matches 700..799 run function debug:tusb_memory_plus/load_skill/puppet_master
 execute if score _ _ matches 800..899 run function debug:tusb_memory_plus/load_skill/thief
-execute if score _ _ matches 900..999 run function debug:tusb_memory_plus/load_skill/common
+execute if score _ _ matches 900..999 run function debug:tusb_memory_plus/load_skill/common1
+execute if score _ _ matches 1000..1999 run function debug:tusb_memory_plus/load_skill/common2
 #スキルを選択
 scoreboard players set _ Calc 100
 scoreboard players operation _ _ %= _ Calc
