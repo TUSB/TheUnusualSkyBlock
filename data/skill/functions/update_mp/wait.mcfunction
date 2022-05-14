@@ -21,9 +21,11 @@ scoreboard players operation @s MPHealingWait > _ _
 # scoreboard players reset @s[scores={ManaRefresh=..10}] ManaRefresh
 
 ### MP回復反映
+scoreboard players set _ _ 0
 execute if entity @s[nbt={ActiveEffects:[{Id:17b}]}] run scoreboard players set @s MPConsumption 0
-execute if score @s MP < @s MPMax run scoreboard players operation @s MP -= @s MPConsumption
+execute store success score _ _ if score @s MP < @s MPMax run scoreboard players operation @s MP -= @s MPConsumption
+execute if score _ _ matches 0 store success score _ _ if score @s MP > @s MPMax
 scoreboard players reset @s MPConsumption
 
 ### MPバー反映
-function player:mp_bar/set
+execute if score _ _ matches 1 run function player:mp_bar/set
