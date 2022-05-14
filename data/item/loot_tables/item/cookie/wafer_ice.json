@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2,display:{Name:'{\"translate\":\"空島ｳｴﾊｰｽ\",\"color\":\"aqua\",\"italic\":false,\"underlined\":true}',Lore:['{\"translate\":\"触っていると指が凍りそうだ\",\"color\":\"white\",\"italic\":false,\"underlined\":false}','[{\"translate\":\"トカルト凍るで\",\"color\":\"aqua\",\"italic\":false,\"underlined\":true},{\"translate\":\"味。\",\"color\":\"white\",\"italic\":false,\"underlined\":false}]']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

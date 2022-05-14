@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,display:{Name:'{\"translate\":\"空島ｳｴﾊｰｽ\",\"color\":\"white\",\"italic\":false,\"underlined\":true}',Lore:['{\"translate\":\"サクサクとしたウエハース\",\"color\":\"white\",\"italic\":false,\"underlined\":false}','[{\"translate\":\"通常世界プレーン\",\"color\":\"gray\",\"italic\":false,\"underlined\":true},{\"translate\":\"味。\",\"color\":\"white\",\"italic\":false,\"underlined\":false}]']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
