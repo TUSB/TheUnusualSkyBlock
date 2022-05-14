@@ -1,3 +1,6 @@
+execute if data storage skill: Skill{Name:"フラッシュライト"} run function skill:act/common/flash_light/act0
+execute if data storage skill: Skill{Name:"ブリザードヴェール"} run function skill:act/common/blizzard_veil/act0
+execute if data storage skill: Skill{Name:"クロスファイアー"} run function skill:act/common/cross_fire/act0
 execute if data storage skill: Skill{Name:"ブラストショット"} run function skill:act/common/blast_shot/act0
 execute if data storage skill: Skill{Name:"生もの"} run function skill:act/common/fresh_food/act0
 execute if data storage skill: Skill{Name:"サモンSボム"} run function skill:act/common/summon_bomb/act0
