@@ -20,6 +20,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/currency_and_magic_stone/tier1/mix",Count:1,Chance:0.3d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"#N/A",Count:1,Chance:0.3d}]
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Name:"Damage",Player:{Damage:0d},Distance:{Max:0d},AEC:{Effects:[{Id:14b,Amplifier:8b,Duration:5,ShowParticles:false}]},Condition:[{Name:"RandomChance",Chance:0.04d}]}]}

@@ -14,12 +14,12 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."雷属�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."光属性値" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."闇属性値" set value 100
 # ステータス
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 1
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 1
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 1
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 1
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 1
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 1
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:32d}}],Name:"Step",Direction:[0f,-60f],Speed:1.0d,SpeedRange:2.0d}],Time:[{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:32.0d}}],Name:"Spawn",SpawnEntities:[[{Tags:[Global,Event,Summon,StardustBomb,Aec],Level:1}]]}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:4,Max:4,Current:30},Loop:{Max:10,Current:10},Call:[{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:32d}}],Name:"Step",Direction:[0f,-60f],Speed:1.0d,SpeedRange:2.0d}],Once:10}]}]}
 #Function

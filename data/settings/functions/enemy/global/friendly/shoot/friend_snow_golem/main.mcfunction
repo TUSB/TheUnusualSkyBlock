@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:snow_golem",Team:"Friendly",CustomName:'{"translate":"フレンド・スノーゴーレム","color":"#FFBB00","bold":true}',CustomNameVisible:true,Team:"Friendly",AbsorptionAmount:200f,ActiveEffects:[{Id:3b,Duration:2147483647,Amplifier:0b,ShowParticles:false},{Id:25b,Duration:18,Amplifier:2b,ShowParticles:true},{Id:28b,Duration:30,Amplifier:0b,ShowParticles:true}],PortalCooldown:2000,DeathLootTable:"empty",Tags:[Mob,DelayedData,HasAI,CooldownRequired]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:snow_golem",Team:"Friendly",CustomName:'{"translate":"フレンド・スノーゴーレム","color":"#FFBB00","bold":true}',CustomNameVisible:true,Team:"Friendly",ActiveEffects:[{Id:3b,Duration:2147483647,Amplifier:0b,ShowParticles:false},{Id:25b,Duration:18,Amplifier:2b,ShowParticles:true},{Id:28b,Duration:30,Amplifier:0b,ShowParticles:true}],PortalCooldown:2000,DeathLootTable:"empty",Tags:[Mob,DelayedData,HasAI,CooldownRequired]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 32d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.29d
