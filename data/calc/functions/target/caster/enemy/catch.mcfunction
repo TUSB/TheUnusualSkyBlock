@@ -4,7 +4,7 @@
 
 tag @s add CasterPlayer
 
-execute positioned ^ ^ ^0.1 run function calc:target/caster/catch_loop
+execute positioned ^ ^ ^0.1 run function calc:target/caster/enemy/catch_loop
 
 tag @s remove CasterPlayer
 

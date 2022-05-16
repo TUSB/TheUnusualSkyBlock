@@ -8,4 +8,4 @@ execute positioned ^ ^ ^5 as @e[distance=..5,tag=Enemy] positioned as @s positio
 tag @e[tag=CasterTargetCand,sort=nearest,limit=1] add CasterTarget
 tag @e[tag=CasterTargetCand] remove CasterTargetCand
 # ヒットしなかったら更に先を探索
-execute unless data storage calc: {Depth:0} unless entity @e[tag=CasterTarget,limit=1] positioned ^ ^ ^10 run function calc:target/caster/catch_loop
+execute unless data storage calc: {Depth:0} unless entity @e[tag=CasterTarget,limit=1] positioned ^ ^ ^10 run function calc:target/caster/enemy/catch_loop
