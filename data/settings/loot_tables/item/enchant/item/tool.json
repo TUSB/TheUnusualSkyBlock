@@ -40,6 +40,16 @@
             {
               "condition": "minecraft:reference",
               "name": "settings:item/enchant/exclusive/fortune_and_silk_touch"
+            },
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": {
+                  "min": 3,
+                  "max": 8
+                }
+              }
             }
           ]
         },
