@@ -27,6 +27,9 @@ execute if entity @s[type=minecraft:armor_stand,nbt={Passengers:[{id:"minecraft:
 tag @s[tag=SpawnerHolder] add Spawner
 execute if entity @s[type=minecraft:spawner_minecart] align xyz if entity @e[dy=0,type=minecraft:armor_stand,nbt={Passengers:[{id:"minecraft:spawner_minecart"}]},limit=1] if block ~ ~1 ~ minecraft:command_block run tag @s add Spawner
 
+### Item to Spawn
+execute if data entity @s[type=item] Item.tag.SpawnEntities run function enemy:spawn/item_to_spawn
+
 ### NeverRemain削除
 kill @s[type=minecraft:item,nbt={Item:{tag:{NeverRemain:true}}}]
 
