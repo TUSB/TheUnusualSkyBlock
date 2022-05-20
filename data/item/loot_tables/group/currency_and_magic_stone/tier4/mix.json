@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "Weight": 2,
+          "type": "loot_table",
+          "name": "item:group/base_currency/tier3/emerald"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier4/mix"
+        }
+      ]
+    }
+  ]
+}

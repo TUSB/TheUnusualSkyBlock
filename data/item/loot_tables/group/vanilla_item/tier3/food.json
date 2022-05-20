@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "Weight": 64,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/food/lower_food",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "Weight": 32,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/food/middle_food",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "Weight": 16,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/food/farming_food",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "Weight": 8,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/food/top_food",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 8
+            }
+          ]
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/food/quality_food",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 8
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

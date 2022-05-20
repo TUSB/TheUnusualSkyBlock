@@ -1,0 +1,119 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "Weight": 12,
+          "type": "loot_table",
+          "name": "item:item/iron_axe/fountain_silver_axe"
+        },
+        {
+          "Weight": 12,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/entity/scarecrow_doll"
+        },
+        {
+          "Weight": 12,
+          "type": "loot_table",
+          "name": "item:item/shield/knight_shield"
+        },
+        {
+          "Weight": 12,
+          "type": "loot_table",
+          "name": "item:item/shield/ninja_shield"
+        },
+        {
+          "Weight": 12,
+          "type": "loot_table",
+          "name": "item:item/shield/hunter_shield"
+        },
+        {
+          "Weight": 12,
+          "type": "loot_table",
+          "name": "item:item/shield/white_mage_shield"
+        },
+        {
+          "Weight": 12,
+          "type": "loot_table",
+          "name": "item:item/shield/black_mage_shield"
+        },
+        {
+          "Weight": 12,
+          "type": "loot_table",
+          "name": "item:item/shield/summoner_shield"
+        },
+        {
+          "Weight": 12,
+          "type": "loot_table",
+          "name": "item:item/tipped_arrow/arrow_of_prayer_lv1"
+        },
+        {
+          "Weight": 12,
+          "type": "loot_table",
+          "name": "item:item/tipped_arrow/arrow_of_defilement_lv1"
+        },
+        {
+          "Weight": 12,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/villager_nose"
+        },
+        {
+          "Weight": 12,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/block/water"
+        },
+        {
+          "Weight": 6,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/fire_wand"
+        },
+        {
+          "Weight": 6,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/ice_wand"
+        },
+        {
+          "Weight": 6,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/lightning_wand"
+        },
+        {
+          "Weight": 6,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/light_wand"
+        },
+        {
+          "Weight": 6,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/dark_wand"
+        },
+        {
+          "Weight": 3,
+          "type": "loot_table",
+          "name": "item:item/golden_axe/fountain_goleden_axe"
+        },
+        {
+          "Weight": 3,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/sunglasses"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/red_hair_bow"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/stone_axe/fountain_axe"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/the_game_over"
+        }
+      ]
+    }
+  ]
+}

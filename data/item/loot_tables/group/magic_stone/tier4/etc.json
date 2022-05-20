@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "Weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/4"
+        },
+        {
+          "Weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/blade/4"
+        },
+        {
+          "Weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/knockback/4"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/wave_of_element/4"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/double_break/4"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mana/4"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/life/4"
+        }
+      ]
+    }
+  ]
+}

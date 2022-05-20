@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/nether_star"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/ender_pearl"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/ores"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier5/food"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier5/carved_seal_items"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:group/currency_and_magic_stone/tier3/mix"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:group/portion/ether/ether_set"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:group/portion/area_ether/area_ether_set"
+        }
+      ]
+    }
+  ]
+}

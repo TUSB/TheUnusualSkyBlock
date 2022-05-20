@@ -1,0 +1,98 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "Weight": 8,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_predator"
+        },
+        {
+          "Weight": 8,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/food/lower_food",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "Weight": 8,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/etc",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "Weight": 8,
+          "type": "loot_table",
+          "name": "item:group/base_currency/tier1/emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "Weight": 4,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier3/carved_seal_items",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "Weight": 4,
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier2/mix",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:group/plains/fishing/lucky_items",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

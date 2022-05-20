@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"風を舞うレギンス\",\"color\":\"aqua\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(II)\",\"color\":\"white\",\"with\":[{\"translate\":\"拡散の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"風のようになることができる...。\",\"color\":\"white\",\"bold\":true,\"italic\":false}'],color:12775423},Engraving:{EnchantID:\"拡散\",Tier:2},AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:-350,Operation:1,UUID:[I;23,0,0,21],Slot:\"legs\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:3.5,Operation:0,UUID:[I;23,0,0,30],Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"デフォルト\",Amount:2,Operation:0,UUID:[I;23,0,1,60],Slot:\"legs\"}]}"
+              "tag": "{Unbreakable:true,display:{Name:'{\"translate\":\"風を舞うレギンス\",\"color\":\"aqua\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(II)\",\"color\":\"white\",\"with\":[{\"translate\":\"拡散の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"風のようになることができる...。\",\"color\":\"white\",\"bold\":true,\"italic\":false}'],color:12775423},Engraving:{EnchantID:\"拡散\",Tier:2},AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:-350,Operation:1,UUID:[I;23,0,0,21],Slot:\"legs\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:3.5,Operation:0,UUID:[I;23,0,0,30],Slot:\"legs\"},{AttributeName:\"generic.armor\",Name:\"デフォルト\",Amount:2,Operation:0,UUID:[I;23,0,1,60],Slot:\"legs\"}]}"
             }
           ]
         }

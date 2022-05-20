@@ -141,6 +141,11 @@
         {
           "Weight": 1,
           "type": "loot_table",
+          "name": "item:item/leather_chestplate/life_jacket"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
           "name": "item:item/shield/mysterious_shield"
         },
         {
@@ -182,6 +187,11 @@
           "Weight": 1,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/block/cobweb"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/golden_apple/konpeito"
         }
       ]
     }

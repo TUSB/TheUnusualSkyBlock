@@ -31,7 +31,7 @@
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/cold_pumpkin_soup"
+          "name": "item:item/carrot_on_a_stick/cold_pumpkin_soup_pot"
         },
         {
           "Weight": 1,

@@ -1,0 +1,79 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "Weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:beetroot"
+        },
+        {
+          "Weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:carrot"
+        },
+        {
+          "Weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:melon_slice"
+        },
+        {
+          "Weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:potato"
+        },
+        {
+          "Weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:sweet_berries"
+        },
+        {
+          "Weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:glow_berries"
+        },
+        {
+          "Weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:beetroot_seeds"
+        },
+        {
+          "Weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:pumpkin_seeds"
+        },
+        {
+          "Weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:nether_wart"
+        },
+        {
+          "Weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:cocoa_beans"
+        },
+        {
+          "Weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:wheat_seeds"
+        },
+        {
+          "Weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:melon_seeds"
+        },
+        {
+          "Weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:sugar_cane"
+        },
+        {
+          "Weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:kelp"
+        }
+      ]
+    }
+  ]
+}

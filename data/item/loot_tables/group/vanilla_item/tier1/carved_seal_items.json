@@ -1,0 +1,79 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/stone_shovel/tier1_stone_shovel"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/stone_pickaxe/tier1_stone_pickaxe"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/stone_axe/tier1_stone_axe"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/stone_hoe/tier1_stone_hoe"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/stone_sword/tier1_stone_sword"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/tier1_carrot_on_a_stick"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/bow/tier1_bow"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/tier1_shield"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/crossbow/tier1_crossbow"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/trident/tier1_trident"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/chainmail_helmet/tier1_chainmail_helmet"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/chainmail_chestplate/tier1_chainmail_chestplate"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/chainmail_leggings/tier1_chainmail_leggings"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/chainmail_boots/tier1_chainmail_boots"
+        }
+      ]
+    }
+  ]
+}

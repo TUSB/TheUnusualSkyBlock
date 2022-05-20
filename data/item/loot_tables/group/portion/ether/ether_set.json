@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "Weight": 64,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/vile_ether"
+        },
+        {
+          "Weight": 32,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/ether"
+        },
+        {
+          "Weight": 16,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/high_ether"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/super_ether"
+        }
+      ]
+    }
+  ]
+}
