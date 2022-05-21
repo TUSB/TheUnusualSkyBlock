@@ -273,6 +273,17 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 20,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,Daizo,SpawnParticles],Level:5}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 30,
           "name": "minecraft:stick",
           "functions": [
