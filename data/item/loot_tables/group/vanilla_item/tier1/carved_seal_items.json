@@ -56,22 +56,7 @@
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:item/chainmail_helmet/tier1_chainmail_helmet"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/chainmail_chestplate/tier1_chainmail_chestplate"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/chainmail_leggings/tier1_chainmail_leggings"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/chainmail_boots/tier1_chainmail_boots"
+          "name": "item:item/carrot_on_a_stick/tier1_chainmail_memory_star"
         }
       ]
     }

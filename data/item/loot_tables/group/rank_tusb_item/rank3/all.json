@@ -46,6 +46,11 @@
         {
           "Weight": 1,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/mortar"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/fire_wand"
         },
         {
@@ -72,6 +77,16 @@
           "Weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/blue_eyes_nantoka_dragon"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/book_off"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/tier1_chainmail_memory_star"
         },
         {
           "Weight": 1,
@@ -227,6 +242,11 @@
           "Weight": 1,
           "type": "loot_table",
           "name": "item:item/shield/ice_shield"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/gravel_wall"
         },
         {
           "Weight": 1,

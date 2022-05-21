@@ -56,22 +56,7 @@
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:item/diamond_helmet/tier5_diamond_helmet"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/diamond_chestplate/tier5_diamond_chestplate"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/diamond_leggings/tier5_diamond_leggings"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/diamond_boots/tier5_diamond_boots"
+          "name": "item:item/carrot_on_a_stick/tier1_chainmail_memory_star"
         }
       ]
     }

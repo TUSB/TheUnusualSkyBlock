@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item_and_magic_stone/tier1/all"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:group/rank_tusb_item/rank1/all"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item_and_magic_stone/tier1/all"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:group/rank_tusb_item/rank2/all"
+        }
+      ]
+    }
+  ]
+}

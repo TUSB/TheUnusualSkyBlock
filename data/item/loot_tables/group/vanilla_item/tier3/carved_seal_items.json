@@ -56,22 +56,7 @@
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:item/iron_helmet/tier3_iron_helmet"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/iron_chestplate/tier3_iron_chestplate"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/iron_leggings/tier3_iron_leggings"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/iron_boots/tier3_iron_boots"
+          "name": "item:item/carrot_on_a_stick/tier1_chainmail_memory_star"
         }
       ]
     }

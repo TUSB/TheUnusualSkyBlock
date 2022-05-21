@@ -36,7 +36,27 @@
         {
           "Weight": 1,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/sun"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/moon"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/forbidden_book"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/entity/sun_eater"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/tier1_chainmail_memory_star"
         },
         {
           "Weight": 1,

@@ -56,22 +56,7 @@
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:item/netherite_helmet/tier7_netherite_helmet"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/netherite_chestplate/tier7_netherite_chestplate"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/netherite_leggings/tier7_netherite_leggings"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
-          "name": "item:item/netherite_boots/tier7_netherite_boots"
+          "name": "item:item/carrot_on_a_stick/tier1_chainmail_memory_star"
         }
       ]
     }

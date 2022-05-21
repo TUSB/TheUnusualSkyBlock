@@ -31,6 +31,11 @@
         {
           "Weight": 1,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/spring"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
           "name": "item:item/diamond_sword/unsigned_light_sword"
         },
         {
