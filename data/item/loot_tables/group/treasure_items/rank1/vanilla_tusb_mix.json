@@ -6,6 +6,11 @@
         {
           "Weight": 1,
           "type": "loot_table",
+          "name": "item:group/tusb_item/trap/summon"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
           "name": "item:group/vanilla_item/tier_all/nether_star"
         },
         {
@@ -21,17 +26,22 @@
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier7/food"
+          "name": "item:group/vanilla_item/tier1/food"
         },
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier7/carved_seal_items"
+          "name": "item:group/vanilla_item/tier1/carved_seal_items"
         },
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:group/currency_and_magic_stone/tier4/mix"
+          "name": "item:group/currency_and_magic_stone/tier1/mix"
+        },
+        {
+          "Weight": 3,
+          "type": "loot_table",
+          "name": "item:group/rank_tusb_item/rank1/tusb_all"
         }
       ]
     }

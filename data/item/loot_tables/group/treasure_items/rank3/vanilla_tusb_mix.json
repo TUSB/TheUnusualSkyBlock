@@ -6,7 +6,21 @@
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/nether_star"
+          "name": "item:group/tusb_item/trap/summon"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/nether_star",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
         },
         {
           "Weight": 1,
@@ -32,6 +46,11 @@
           "Weight": 1,
           "type": "loot_table",
           "name": "item:group/currency_and_magic_stone/tier2/mix"
+        },
+        {
+          "Weight": 3,
+          "type": "loot_table",
+          "name": "item:group/rank_tusb_item/rank3/tusb_all"
         }
       ]
     }

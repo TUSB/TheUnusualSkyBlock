@@ -1,0 +1,94 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:group/tusb_item/trap/summon"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/nether_star",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/ender_pearl",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/ores",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier5/food",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier5/carved_seal_items"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:group/currency_and_magic_stone/tier3/mix",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "Weight": 3,
+          "type": "loot_table",
+          "name": "item:group/rank_tusb_item/rank6/tusb_all"
+        }
+      ]
+    }
+  ]
+}
