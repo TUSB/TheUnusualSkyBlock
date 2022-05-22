@@ -15,7 +15,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 3
+              "count": 2
             }
           ]
         },
@@ -26,18 +26,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 6
-            }
-          ]
-        },
-        {
-          "Weight": 16,
-          "type": "minecraft:item",
-          "name": "minecraft:ender_pearl",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 9
+              "count": 3
             }
           ]
         },
@@ -48,7 +37,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 16
+              "count": 4
             }
           ]
         }

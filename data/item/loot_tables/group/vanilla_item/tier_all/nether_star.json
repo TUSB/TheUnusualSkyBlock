@@ -4,13 +4,18 @@
       "rolls": 1,
       "entries": [
         {
+          "Weight": 256,
+          "type": "minecraft:item",
+          "name": "minecraft:nether_star"
+        },
+        {
           "Weight": 128,
           "type": "minecraft:item",
           "name": "minecraft:nether_star",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 4
+              "count": 2
             }
           ]
         },
@@ -21,29 +26,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 8
-            }
-          ]
-        },
-        {
-          "Weight": 32,
-          "type": "minecraft:item",
-          "name": "minecraft:nether_star",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 16
-            }
-          ]
-        },
-        {
-          "Weight": 16,
-          "type": "minecraft:item",
-          "name": "minecraft:nether_star",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 32
+              "count": 3
             }
           ]
         },
@@ -54,7 +37,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 64
+              "count": 4
             }
           ]
         }

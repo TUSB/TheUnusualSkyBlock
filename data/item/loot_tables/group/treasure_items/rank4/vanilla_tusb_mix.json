@@ -28,7 +28,7 @@
           "name": "item:group/vanilla_item/tier_all/ender_pearl"
         },
         {
-          "Weight": 1,
+          "Weight": 2,
           "type": "loot_table",
           "name": "item:group/vanilla_item/tier_all/ores",
           "functions": [
@@ -42,7 +42,7 @@
           ]
         },
         {
-          "Weight": 1,
+          "Weight": 2,
           "type": "loot_table",
           "name": "item:group/vanilla_item/tier3/food",
           "functions": [
@@ -61,7 +61,7 @@
           "name": "item:group/vanilla_item/tier3/carved_seal_items"
         },
         {
-          "Weight": 1,
+          "Weight": 2,
           "type": "loot_table",
           "name": "item:group/currency_and_magic_stone/tier2/mix",
           "functions": [
@@ -75,7 +75,7 @@
           ]
         },
         {
-          "Weight": 3,
+          "Weight": 4,
           "type": "loot_table",
           "name": "item:group/rank_tusb_item/rank4/tusb_all"
         }
