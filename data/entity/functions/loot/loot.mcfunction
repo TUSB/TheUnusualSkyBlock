@@ -11,4 +11,5 @@ execute if data storage item: LootTable.Item run data modify entity @e[type=item
 #個数を設定
 execute if data storage item: LootTable.Count run function entity:loot/set_count
 #初期化回避
+execute as @e[type=item,tag=,distance=0] if data entity @s Item.tag.SpawnEntities run function enemy:spawn/item_to_spawn
 tag @e[type=item,tag=,distance=0] add Initialized
