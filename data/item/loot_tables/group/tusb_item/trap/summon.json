@@ -30,6 +30,20 @@
               }
             }
           ]
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_igar_thorn",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
         }
       ]
     }

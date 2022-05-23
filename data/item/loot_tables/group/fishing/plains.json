@@ -48,7 +48,7 @@
         {
           "Weight": 6,
           "type": "loot_table",
-          "name": "item:item/firework_star/etc/trap_spawn_predator"
+          "name": "item:group/plains/fishing/bad_items"
         },
         {
           "Weight": 4,
