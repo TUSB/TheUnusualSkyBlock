@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "Weight": 20,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_heavenly_messenger",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:group/rank_tusb_item/rank11/tusb_all"
+        }
+      ]
+    }
+  ]
+}

@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"サン\",\"color\":\"red\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(II)\",\"color\":\"white\",\"with\":[{\"translate\":\"光威の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"使うと時間が正午になる\",\"color\":\"white\",\"italic\":false}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" サン\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Engraving:{EnchantID:\"光威\",Tier:2},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"サン\",Level:1,Trigger:\"人参棒を使用\",Count:3}}"
+              "tag": "{display:{Name:'{\"translate\":\"サン\",\"color\":\"red\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(II)\",\"color\":\"white\",\"with\":[{\"translate\":\"光威の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"使うと時間が正午になる\",\"color\":\"white\",\"italic\":false}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" サン\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Engraving:{EnchantID:\"光威\",Tier:2},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"sun\",Level:サン,Trigger:\"人参棒を使用\",Count:3}}"
             }
           ]
         }

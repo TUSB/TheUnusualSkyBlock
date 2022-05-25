@@ -86,7 +86,7 @@
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier1_chainmail_memory_star"
+          "name": "item:item/carrot_on_a_stick/tier3_iron_memory_star"
         },
         {
           "Weight": 1,
