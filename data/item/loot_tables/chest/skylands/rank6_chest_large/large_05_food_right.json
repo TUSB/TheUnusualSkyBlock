@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier1/emerald"
+          "name": "item:group/base_currency/tier5/emerald"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank1/tusb_all"
+          "name": "item:group/rank_tusb_item/rank6/tusb_all"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/treasure_items/rank2/vanilla_tusb_mix"
+          "name": "item:group/treasure_items/rank7/vanilla_tusb_mix"
         }
       ]
     },
@@ -50,52 +50,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank1/tusb_all"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank1/tusb_all"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/vanilla_item/tier1/food"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/base_currency/tier1/emerald"
+          "name": "item:group/rank_tusb_item/rank6/tusb_all"
         }
       ]
     },
@@ -122,7 +77,25 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank1/tusb_all"
+          "name": "item:group/rank_tusb_item/rank5/tusb_all"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier5/food"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/base_currency/tier5/emerald"
         }
       ]
     },
@@ -149,7 +122,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank1/tusb_all"
+          "name": "item:group/rank_tusb_item/rank6/tusb_all"
         }
       ]
     },
@@ -158,7 +131,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/treasure_items/rank1/vanilla_tusb_mix"
+          "name": "item:group/vanilla_item/decorative/panel_01"
         }
       ]
     },
@@ -167,7 +140,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier1/food"
+          "name": "item:group/vanilla_item/decorative/panel_01"
         }
       ]
     },
@@ -176,7 +149,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier1/food"
+          "name": "item:group/rank_tusb_item/rank5/tusb_all"
         }
       ]
     },
@@ -185,7 +158,34 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier1/emerald"
+          "name": "item:group/treasure_items/rank6/vanilla_tusb_mix"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier5/food"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier5/food"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/base_currency/tier5/emerald"
         }
       ]
     },
@@ -221,7 +221,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank1/tusb_all"
+          "name": "item:group/rank_tusb_item/rank5/tusb_all"
         }
       ]
     },
@@ -230,7 +230,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/treasure_items/rank1/vanilla_tusb_mix"
+          "name": "item:group/treasure_items/rank6/vanilla_tusb_mix"
         }
       ]
     },
@@ -239,7 +239,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/treasure_items/rank1/vanilla_tusb_mix"
+          "name": "item:group/treasure_items/rank6/vanilla_tusb_mix"
         }
       ]
     }

@@ -146,6 +146,11 @@
         {
           "Weight": 1,
           "type": "loot_table",
+          "name": "item:item/iron_sword/ninja_sword"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
           "name": "item:item/leather_chestplate/life_jacket"
         },
         {

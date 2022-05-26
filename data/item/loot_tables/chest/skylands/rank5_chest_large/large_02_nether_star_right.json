@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank1/tusb_all"
+          "name": "item:group/rank_tusb_item/rank5/tusb_all"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank1/tusb_all"
+          "name": "item:group/rank_tusb_item/rank4/tusb_all"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/treasure_items/rank2/vanilla_tusb_mix"
+          "name": "item:group/treasure_items/rank6/vanilla_tusb_mix"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank1/tusb_all"
+          "name": "item:group/rank_tusb_item/rank4/tusb_all"
         }
       ]
     },
@@ -77,25 +77,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank1/tusb_all"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/base_currency/tier5/emerald"
+          "name": "item:group/rank_tusb_item/rank5/tusb_all"
         }
       ]
     },
@@ -122,7 +104,25 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/treasure_items/rank1/vanilla_tusb_mix"
+          "name": "item:group/vanilla_item/decorative/panel_01"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/base_currency/tier5/emerald"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/treasure_items/rank5/vanilla_tusb_mix"
         }
       ]
     },
