@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "Weight": 100,
+          "Weight": 1000,
           "type": "loot_table",
           "name": "item:item/firework_star/etc/trap_spawn_genocide_bomb",
           "functions": [
@@ -18,7 +18,7 @@
           ]
         },
         {
-          "Weight": 100,
+          "Weight": 1000,
           "type": "loot_table",
           "name": "item:item/firework_star/etc/trap_spawn_common_bomb",
           "functions": [
@@ -32,7 +32,7 @@
           ]
         },
         {
-          "Weight": 100,
+          "Weight": 1000,
           "type": "loot_table",
           "name": "item:item/firework_star/etc/trap_spawn_igar_thorn",
           "functions": [
