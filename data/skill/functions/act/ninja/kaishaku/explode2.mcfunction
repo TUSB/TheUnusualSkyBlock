@@ -17,3 +17,5 @@ execute store result storage skill: Damage.Physical int 1 run scoreboard players
 
 execute as @e[distance=..5,tag=Enemy] run function skill:damage/apply/
 
+#ルートテーブル削除
+tag @s remove HasLootTable
