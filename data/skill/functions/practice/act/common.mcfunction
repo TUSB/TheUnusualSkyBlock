@@ -1,3 +1,4 @@
+execute if data storage skill: Skill{Name:"サモンSトゲフレンド"} run function skill:act/common/summon_friendly_thorn/act0
 execute if data storage skill: Skill{Name:"索引顕界"} run function skill:act/common/index_manifest/act0
 execute if data storage skill: Skill{Name:"フラッシュライト"} run function skill:act/common/flash_light/act0
 execute if data storage skill: Skill{Name:"ブリザードヴェール"} run function skill:act/common/blizzard_veil/act0
