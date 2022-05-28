@@ -22,4 +22,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Item:{id:"minecraft:raw_copper"},Count:1,CountRange:5,Chance:0.32d}]
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:20,Max:20,Current:20},Call:[{Settings:[{Name:"As",Target:{Look:"Self"}}],Name:"Heal",Multiplier:1d,Range:0.1}]}]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:60,Max:60,Current:60},Call:[{Settings:[{Name:"As",Target:{Look:"Self"}}],Name:"Heal",Multiplier:1d,Range:0.1}]}]}]}
