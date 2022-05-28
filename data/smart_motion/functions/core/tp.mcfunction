@@ -6,4 +6,4 @@ execute store result score @s sm.Z run data get entity @s Pos[2] 100
 execute store result score @s sm.RotationX run data get entity @s Rotation[0] 100
 execute store result score @s sm.RotationY run data get entity @s Rotation[1] 100
 #アーマースタンドのY方向Pose補正
-function smart_motion:core/update_pose
+execute if entity @s[type=armor_stand,tag=!sm.KeepPose] run function smart_motion:core/update_pose

@@ -8,4 +8,4 @@ execute unless entity @s[scores={sm.Z=-1..1}] run scoreboard players operation @
 execute unless entity @s[scores={sm.Z=-1..1}] if score @s sm.RotationX matches 0.. store success score @s sm.Z store result entity @s Rotation[0] float 0.01 run scoreboard players remove @s sm.RotationX 18000
 execute unless entity @s[scores={sm.Z=-1..1}] if score @s sm.RotationX matches ..-1 store success score @s sm.Z store result entity @s Rotation[0] float 0.01 run scoreboard players add @s sm.RotationX 18000
 #アーマースタンドのY方向Pose補正
-function smart_motion:core/update_pose
+execute if entity @s[type=armor_stand,tag=!sm.KeepPose] run function smart_motion:core/update_pose
