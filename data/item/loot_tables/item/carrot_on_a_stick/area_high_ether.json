@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:30,display:{Name:'{\"translate\":\"エリアハイエーテル\",\"color\":\"#4A86E8\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" 範囲MP回復Ⅲ\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"range_mp_recovery\",Level:範囲MP回復,Trigger:\"人参棒を使用\",Count:3}}"
+              "tag": "{CustomModelData:30,display:{Name:'{\"translate\":\"エリアハイエーテル\",\"color\":\"#4A86E8\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" 範囲MP回復Ⅲ\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"範囲MP回復\",Level:3,Trigger:\"人参棒を使用\",Count:3}}"
             }
           ]
         }

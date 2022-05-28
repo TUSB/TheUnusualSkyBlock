@@ -91,6 +91,11 @@
         {
           "Weight": 1,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/tier7_netherite_memory_star"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
           "name": "item:item/gold_nugget/mystery/2"
         },
         {
@@ -222,6 +227,11 @@
           "Weight": 1,
           "type": "loot_table",
           "name": "item:item/iron_sword/voltec_saber"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_boots/boots_of_the_wind"
         },
         {
           "Weight": 1,

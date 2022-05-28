@@ -113,7 +113,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_02"
+          "name": "item:group/vanilla_item/decorative/panel_02_mono"
         }
       ]
     },
@@ -194,7 +194,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_02"
+          "name": "item:group/vanilla_item/decorative/panel_02_mono"
         }
       ]
     },
@@ -203,7 +203,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_02"
+          "name": "item:group/vanilla_item/decorative/panel_02_mono"
         }
       ]
     },
@@ -212,7 +212,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_02"
+          "name": "item:group/vanilla_item/decorative/panel_02_mono"
         }
       ]
     },
@@ -266,7 +266,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_02"
+          "name": "item:group/vanilla_item/decorative/panel_02_mono"
         }
       ]
     },
@@ -275,7 +275,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_02"
+          "name": "item:group/vanilla_item/decorative/panel_02_mono"
         }
       ]
     }

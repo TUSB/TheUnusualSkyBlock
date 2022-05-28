@@ -61,6 +61,16 @@
         {
           "Weight": 1,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/tier7_netherite_memory_star"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/chainmail_boots/turbine"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
           "name": "item:item/dragon_head/vakhtang_golgasari"
         },
         {
@@ -211,17 +221,17 @@
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:item/leather_boots/blood_menace_b"
+          "name": "item:item/leather_chestplate/blood_menace_c"
         },
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:item/leather_boots/blood_menace_b"
+          "name": "item:item/leather_helmet/blood_menace_h"
         },
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:item/leather_boots/blood_menace_b"
+          "name": "item:item/leather_leggings/blood_menace_l"
         },
         {
           "Weight": 1,

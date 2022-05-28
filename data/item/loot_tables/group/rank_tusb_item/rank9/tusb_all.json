@@ -11,6 +11,11 @@
         {
           "Weight": 1,
           "type": "loot_table",
+          "name": "item:item/diamond_axe/morning_star"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
           "name": "item:item/diamond_sword/ice_sword"
         },
         {

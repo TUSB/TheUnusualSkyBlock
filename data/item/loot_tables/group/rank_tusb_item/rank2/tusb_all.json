@@ -106,11 +106,6 @@
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:item/leather_boots/boots_of_the_wind"
-        },
-        {
-          "Weight": 1,
-          "type": "loot_table",
           "name": "item:item/shield/diamond_shield"
         },
         {
@@ -197,6 +192,11 @@
           "Weight": 1,
           "type": "loot_table",
           "name": "item:item/golden_apple/edible_copper"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/golden_apple/redstone_onigiri"
         }
       ]
     }

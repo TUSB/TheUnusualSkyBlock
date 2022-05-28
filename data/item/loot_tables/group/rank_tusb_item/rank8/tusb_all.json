@@ -16,6 +16,11 @@
         {
           "Weight": 1,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/tier7_netherite_memory_star"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
           "name": "item:item/fishing_rod/amazing_fishing_rods"
         },
         {
@@ -111,22 +116,22 @@
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:item/leather_boots/pretty_clothes_with_splinter"
+          "name": "item:item/leather_boots/pretty_clothes_with_splinter_b"
         },
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:item/leather_boots/pretty_clothes_with_splinter"
+          "name": "item:item/leather_chestplate/pretty_clothes_with_splinter_c"
         },
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:item/leather_boots/pretty_clothes_with_splinter"
+          "name": "item:item/leather_helmet/pretty_clothes_with_splinter_h"
         },
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:item/leather_boots/pretty_clothes_with_splinter"
+          "name": "item:item/leather_leggings/pretty_clothes_with_splinter_l"
         },
         {
           "Weight": 1,

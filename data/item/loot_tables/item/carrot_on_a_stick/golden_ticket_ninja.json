@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:51,PermissionJob:2,display:{Name:'[\"\",{\"text\":\"N \",\"color\":\"green\",\"font\":\"icon\"},{\"translate\":\"忍者どこでも変更申請書\",\"bold\":true}]',Lore:['{\"translate\":\"USB職業安定所\"}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" 職業どこでも変更許可\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"permission_to_change_job_anywhere\",Level:職業どこでも変更許可,Trigger:\"人参棒を使用\",Count:1}}"
+              "tag": "{CustomModelData:51,PermissionJob:2,display:{Name:'[\"\",{\"text\":\"N \",\"color\":\"green\",\"font\":\"icon\"},{\"translate\":\"忍者どこでも変更申請書\",\"bold\":true}]',Lore:['{\"translate\":\"USB職業安定所\"}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" 職業どこでも変更許可\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"職業どこでも変更許可\",Level:1,Trigger:\"人参棒を使用\",Count:1}}"
             }
           ]
         }

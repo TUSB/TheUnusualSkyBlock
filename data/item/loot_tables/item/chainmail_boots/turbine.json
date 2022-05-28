@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chainmail_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"たぁびん\",\"color\":\"white\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(V)\",\"color\":\"white\",\"with\":[{\"translate\":\"水竜の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"一、水中で速い\",\"color\":\"aqua\",\"italic\":false}','{\"translate\":\"一、陸上でもちょっと速い\",\"color\":\"aqua\",\"italic\":false}','{\"translate\":\"一、金曜日はカレーのひ\",\"color\":\"aqua\",\"italic\":false}']},Engraving:{EnchantID:\"水竜\",Tier:5},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:0.35,Operation:1,UUID:[I;24,0,0,31],Slot:\"feet\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
