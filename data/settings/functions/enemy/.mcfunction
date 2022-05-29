@@ -1,5 +1,6 @@
 execute if entity @s[tag=Global] run function settings:enemy/global/
 execute if entity @s[tag=Underworld] run function settings:enemy/underworld/
+execute if entity @s[tag=Desert] run function settings:enemy/desert/
 execute if entity @s[tag=TocultColde] run function settings:enemy/tocult_colde/
 execute if entity @s[tag=End] run function settings:enemy/end/
 execute if entity @s[tag=Skylands] run function settings:enemy/skylands/
