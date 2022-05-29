@@ -7,7 +7,7 @@ execute if data storage skill: Skill{Trigger:"剣・斧で攻撃"} if predicate 
 scoreboard players set _ _ 0
 execute if data storage skill: Skill{Trigger:"弓を構えて矢を撃つ"} if data storage item: Item{id:"minecraft:bow"} run scoreboard players set _ _ 1
 execute if data storage skill: Skill{Trigger:"クロスボウを構えて矢を撃つ"} if data storage item: Item{id:"minecraft:crossbow"} run scoreboard players set _ _ 1
-execute if data storage skill: Skill{Trigger:"人参棒を使用"} if data storage item: Item{id:"minecraft:carrot_on_a_stick"} run scoreboard players set _ _ 1
+execute if data storage skill: Skill{Trigger:"手に持って右クリック"} if data storage item: Item{id:"minecraft:carrot_on_a_stick"} run scoreboard players set _ _ 1
 execute if data storage skill: Skill{Trigger:"盾で攻撃を防ぐ"} if data storage item: Item{id:"minecraft:shield"} run scoreboard players set _ _ 1
 execute if data storage skill: Skill{Trigger:"剣を持った状態でスニーク解除"} if predicate skill:trigger/sword run scoreboard players set _ _ 1
 execute if data storage skill: Skill{Trigger:"近接攻撃する"} run scoreboard players set _ _ 1
