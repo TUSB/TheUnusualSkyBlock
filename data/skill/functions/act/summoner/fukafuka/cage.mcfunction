@@ -2,7 +2,7 @@
 ### ふかふかケージ経過
 
 
-tag @e[distance=..5,type=!#skill:fukafuka_ignore,tag=!Cage,tag=Enemy,tag=!Unmoved] add Caught
+tag @e[distance=..5,tag=!Cage,tag=Enemy,tag=!Unmoved] add Caught
 tag @e[distance=..5,tag=Caught] add DelayedTask
 
 ###向きランダム化
