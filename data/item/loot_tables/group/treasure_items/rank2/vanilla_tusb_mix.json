@@ -4,12 +4,12 @@
       "rolls": 1,
       "entries": [
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:group/tusb_item/trap/summon"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:group/vanilla_item/tier_all/nether_star",
           "functions": [
@@ -23,17 +23,17 @@
           ]
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:group/vanilla_item/tier_all/ender_pearl"
         },
         {
-          "Weight": 2,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:group/vanilla_item/tier_all/ores"
         },
         {
-          "Weight": 2,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:group/vanilla_item/tier1/food",
           "functions": [
@@ -47,12 +47,12 @@
           ]
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:group/vanilla_item/tier1/carved_seal_items"
         },
         {
-          "Weight": 2,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:group/currency_and_magic_stone/tier1/mix",
           "functions": [
@@ -66,7 +66,7 @@
           ]
         },
         {
-          "Weight": 4,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:group/rank_tusb_item/rank2/tusb_all"
         }

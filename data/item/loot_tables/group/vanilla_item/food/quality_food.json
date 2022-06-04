@@ -4,32 +4,32 @@
       "rolls": 1,
       "entries": [
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:enchanted_golden_apple"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/golden_apple/konpeito"
         },
         {
-          "Weight": 4,
+          "weight": 4,
           "type": "minecraft:item",
           "name": "minecraft:golden_apple"
         },
         {
-          "Weight": 4,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/golden_apple/edible_gold"
         },
         {
-          "Weight": 4,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/golden_apple/edible_iron"
         },
         {
-          "Weight": 4,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/golden_apple/edible_copper"
         }

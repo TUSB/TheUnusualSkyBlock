@@ -4,232 +4,232 @@
       "rolls": 1,
       "entries": [
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/bow/a_ray_on_the_move"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/philosophers_staff"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/area_super_ether"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/ex_elixir"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/fishing_rod_of_anger"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/god_of_waraxe"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/knuckle_dusters"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/tier7_netherite_memory_star"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/tier7_netherite_memory_star"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/carved_pumpkin/halloween_head"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/diamond_sword/a_end_of_end"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/gold_nugget/mystery/4"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/gold_nugget/blade/4"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/gold_nugget/add_fire/4"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/gold_nugget/add_ice/4"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/gold_nugget/add_lightning/4"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/gold_nugget/add_light/4"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/gold_nugget/add_dark/4"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/gold_nugget/knockback/4"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/gold_nugget/blast_protection/4"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/gold_nugget/fire_protection/4"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/gold_nugget/feather_falling/4"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/netherite_shovel/tier7_netherite_shovel"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/netherite_pickaxe/tier7_netherite_pickaxe"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/netherite_axe/tier7_netherite_axe"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/netherite_hoe/tier7_netherite_hoe"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/netherite_sword/tier7_netherite_sword"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/tier7_carrot_on_a_stick"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/bow/tier7_bow"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/shield/tier7_shield"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/crossbow/tier7_crossbow"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/trident/tier7_trident"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/netherite_helmet/tier7_netherite_helmet"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/netherite_chestplate/tier7_netherite_chestplate"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/netherite_leggings/tier7_netherite_leggings"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/netherite_boots/tier7_netherite_boots"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/iron_sword/world_tree_sword"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/leather_boots/yggdrasil_b"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/leather_chestplate/yggdrasil_c"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/leather_helmet/yggdrasil_h"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/leather_leggings/yggdrasil_l"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/netherite_sword/rusted_blade"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/shield/terrifying_shield"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/tipped_arrow/arrow_of_prayer_lv3"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/tipped_arrow/arrow_of_defilement_lv3"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/trident/gungnir"
         }

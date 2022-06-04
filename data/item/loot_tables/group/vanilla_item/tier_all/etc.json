@@ -4,17 +4,17 @@
       "rolls": 1,
       "entries": [
         {
-          "Weight": 3,
+          "weight": 3,
           "type": "minecraft:item",
           "name": "minecraft:leather"
         },
         {
-          "Weight": 3,
+          "weight": 3,
           "type": "minecraft:item",
           "name": "minecraft:rabbit_hide"
         },
         {
-          "Weight": 3,
+          "weight": 3,
           "type": "minecraft:item",
           "name": "minecraft:coal",
           "functions": [
@@ -25,7 +25,7 @@
           ]
         },
         {
-          "Weight": 3,
+          "weight": 3,
           "type": "minecraft:item",
           "name": "minecraft:flint",
           "functions": [
@@ -36,7 +36,7 @@
           ]
         },
         {
-          "Weight": 3,
+          "weight": 3,
           "type": "minecraft:item",
           "name": "minecraft:quartz",
           "functions": [
@@ -47,7 +47,7 @@
           ]
         },
         {
-          "Weight": 3,
+          "weight": 3,
           "type": "minecraft:item",
           "name": "minecraft:bone",
           "functions": [
@@ -58,7 +58,7 @@
           ]
         },
         {
-          "Weight": 3,
+          "weight": 3,
           "type": "minecraft:item",
           "name": "minecraft:item_frame",
           "functions": [
@@ -69,7 +69,7 @@
           ]
         },
         {
-          "Weight": 3,
+          "weight": 3,
           "type": "minecraft:item",
           "name": "minecraft:slime_ball",
           "functions": [
@@ -80,7 +80,7 @@
           ]
         },
         {
-          "Weight": 3,
+          "weight": 3,
           "type": "minecraft:item",
           "name": "minecraft:magma_cream",
           "functions": [
@@ -91,7 +91,7 @@
           ]
         },
         {
-          "Weight": 3,
+          "weight": 3,
           "type": "minecraft:item",
           "name": "minecraft:honeycomb",
           "functions": [
@@ -102,12 +102,12 @@
           ]
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:totem_of_undying"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:bundle"
         }

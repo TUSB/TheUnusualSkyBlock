@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "Weight": 100,
+          "weight": 100,
           "type": "minecraft:item",
           "name": "minecraft:emerald",
           "functions": [
@@ -18,12 +18,12 @@
           ]
         },
         {
-          "Weight": 50,
+          "weight": 50,
           "type": "loot_table",
           "name": "item:item/golden_apple/fruit_of_nose"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/villager_nose"
         }

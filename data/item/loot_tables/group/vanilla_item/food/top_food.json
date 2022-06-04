@@ -4,22 +4,22 @@
       "rolls": 1,
       "entries": [
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:cooked_mutton"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:cooked_porkchop"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:cooked_salmon"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:cooked_beef"
         }

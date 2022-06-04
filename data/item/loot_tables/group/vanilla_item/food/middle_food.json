@@ -4,77 +4,77 @@
       "rolls": 1,
       "entries": [
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:baked_potato"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:bread"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:cooked_chicken"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:cooked_rabbit"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:cooked_cod"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:mushroom_stew"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:rabbit_stew"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:suspicious_stew"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:pumpkin_pie"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:beef"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:chicken"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:mutton"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:porkchop"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:rabbit"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:cake"
         }

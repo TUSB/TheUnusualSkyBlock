@@ -4,77 +4,77 @@
       "rolls": 1,
       "entries": [
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:apple"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:beetroot_soup"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:dried_kelp"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:cookie"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:honey_bottle"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:spider_eye"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:pufferfish"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:cod"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:rotten_flesh"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:tropical_fish"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/cookie/wafer_skylands"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/cookie/wafer_ice"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/cookie/wafer_nether"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/cookie/wafer_gulliver"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/cookie/wafer_cloudia"
         }

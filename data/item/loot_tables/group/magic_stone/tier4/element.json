@@ -4,52 +4,52 @@
       "rolls": 1,
       "entries": [
         {
-          "Weight": 3,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/gold_nugget/add_fire/4"
         },
         {
-          "Weight": 3,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/gold_nugget/add_ice/4"
         },
         {
-          "Weight": 3,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/gold_nugget/add_lightning/4"
         },
         {
-          "Weight": 3,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/gold_nugget/add_light/4"
         },
         {
-          "Weight": 3,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/gold_nugget/add_dark/4"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/gold_nugget/boost_fire/4"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/gold_nugget/boost_ice/4"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/gold_nugget/boost_lightning/4"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/gold_nugget/boost_light/4"
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/gold_nugget/boost_dark/4"
         }

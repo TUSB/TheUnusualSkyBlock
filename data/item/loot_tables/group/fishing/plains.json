@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "Weight": 8,
+          "weight": 8,
           "type": "loot_table",
           "name": "item:group/vanilla_item/food/lower_food",
           "functions": [
@@ -18,7 +18,7 @@
           ]
         },
         {
-          "Weight": 8,
+          "weight": 8,
           "type": "loot_table",
           "name": "item:group/vanilla_item/tier_all/etc",
           "functions": [
@@ -32,7 +32,7 @@
           ]
         },
         {
-          "Weight": 8,
+          "weight": 8,
           "type": "loot_table",
           "name": "item:group/base_currency/tier1/emerald",
           "functions": [
@@ -46,12 +46,12 @@
           ]
         },
         {
-          "Weight": 6,
+          "weight": 6,
           "type": "loot_table",
           "name": "item:group/plains/fishing/bad_items"
         },
         {
-          "Weight": 4,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:group/vanilla_item/tier3/carved_seal_items",
           "functions": [
@@ -65,7 +65,7 @@
           ]
         },
         {
-          "Weight": 4,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:group/magic_stone/tier2/mix",
           "functions": [
@@ -79,7 +79,7 @@
           ]
         },
         {
-          "Weight": 1,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:group/plains/fishing/lucky_items",
           "functions": [
