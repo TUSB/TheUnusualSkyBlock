@@ -232,6 +232,11 @@
           "Weight": 1,
           "type": "loot_table",
           "name": "item:item/cookie/wafer_cloudia"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/spider_eye/empty_can"
         }
       ]
     }

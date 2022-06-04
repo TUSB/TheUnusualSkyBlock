@@ -49,6 +49,11 @@
           "Weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/bug_memory_star"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/secret_exp_bug_memory_star"
         }
       ]
     }

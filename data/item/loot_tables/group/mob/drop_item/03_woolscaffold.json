@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "Weight": 50,
+          "type": "loot_table",
+          "name": "item:group/mob/drop_item/01_woolscaffold",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        },
+        {
+          "Weight": 25,
+          "type": "minecraft:item",
+          "name": "minecraft:raw_gold"
+        },
+        {
+          "Weight": 5,
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget"
+        },
+        {
+          "Weight": 5,
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/golden_mutton"
+        }
+      ]
+    }
+  ]
+}

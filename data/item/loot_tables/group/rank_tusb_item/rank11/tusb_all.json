@@ -51,17 +51,27 @@
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/"
+          "name": "item:item/carrot_on_a_stick/soft_weak_trap"
         },
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/"
+          "name": "item:item/carrot_on_a_stick/blunt_trap"
         },
         {
           "Weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/"
+          "name": "item:item/carrot_on_a_stick/damned_trap"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/mix_food_bug_memory_star"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/secret_exp_bug_memory_star"
         },
         {
           "Weight": 1,
@@ -817,6 +827,11 @@
           "Weight": 1,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/block/portal"
+        },
+        {
+          "Weight": 1,
+          "type": "loot_table",
+          "name": "item:item/golden_apple/fruit_of_nose"
         }
       ]
     }

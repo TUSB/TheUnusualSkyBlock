@@ -1,0 +1,40 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "Weight": 50,
+          "type": "loot_table",
+          "name": "item:group/mob/drop_item/01_woolscaffold",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "Weight": 25,
+          "type": "minecraft:item",
+          "name": "minecraft:raw_iron"
+        },
+        {
+          "Weight": 5,
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_mutton"
+        },
+        {
+          "Weight": 5,
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget"
+        },
+        {
+          "Weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot"
+        }
+      ]
+    }
+  ]
+}
