@@ -11,6 +11,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Settings:[{Name:"Facing",Target:{Look:"Enemy",Radius:64,IgnoreBlocks:true}}],Name:"Step",Speed:1d}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:1,Max:1,Current:1},Loop:{Max:1,Current:1},Call:[{Name:"Function",Tags:[Global,Friendly,Shoot,SalamanderKid,BreathAppearance]}]}],Exit:{Loop:{Max:1,Current:1}}}],ProjectileDamage:{Fire:100}}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Settings:[{Name:"Facing",Target:{Look:"Enemy",Radius:64,IgnoreBlocks:true}}],Name:"Step",Speed:1.5d}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:1,Max:1,Current:1},Loop:{Max:1,Current:1},Call:[{Name:"Function",Tags:[Global,Friendly,Shoot,SalamanderKid,BreathAppearance]}]}],Exit:{Loop:{Max:1,Current:1}}}],ProjectileDamage:{Fire:50}}
 #Function
 playsound item.firecharge.use master @a[distance=..64] ~ ~ ~ 1.0 1.0
