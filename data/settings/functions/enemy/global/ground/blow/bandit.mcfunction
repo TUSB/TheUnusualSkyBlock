@@ -1,6 +1,6 @@
 ### 即時ステータス
 data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie_villager",CustomName:'{"translate":"山賊"}',DeathLootTable:"empty",Tags:[Mob,Enemy,DelayedData,HasLootTable]}
-data modify storage tusb_mob: "即時ステータス"."見た目" set value {HandItems:[{id:"minecraft:iron_sword",Count:1},{}]}
+data modify storage tusb_mob: "即時ステータス"."見た目" set value {HandItems:[{id:"minecraft:iron_sword",Count:1},{}],ArmorItems:[{},{},{},{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:16}}],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 30d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.25d
 data modify storage tusb_mob: "即時ステータス"."ノックバック耐性" set value 0d
