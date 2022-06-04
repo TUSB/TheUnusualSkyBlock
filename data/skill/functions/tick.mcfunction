@@ -1,7 +1,7 @@
 #NativeTask
 
 ###真空斬り
-execute if entity @s[tag=AerialSlash] run function skill:act/knight/aerial_slash/re_aim_check
+execute if entity @s[tag=AerialSlash] run function skill:act/knight/aerial_slash/tick
 ###地烈斬
 # execute if entity @s[tag=CrackSlash] run function skill:act/knight/crack_slash/tick
 ###影封縫
