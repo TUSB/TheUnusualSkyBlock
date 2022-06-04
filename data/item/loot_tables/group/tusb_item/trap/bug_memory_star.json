@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 10,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/firework_star/etc/trap_spawn_heavenly_messenger",
           "functions": [
