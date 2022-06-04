@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2,display:{Name:'{\"translate\":\"ギガントエメラルド\",\"color\":\"#FFD966\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"通常世界、飛空島の最上位通貨\",\"color\":\"#999999\",\"italic\":false}']}}"
+              "tag": "{CustomModelData:2,display:{Name:'{\"translate\":\"ギガントエメラルド\",\"color\":\"#FFD966\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"全エリア共通の最上位共通通貨\",\"color\":\"#999999\",\"italic\":false}']}}"
             }
           ]
         }

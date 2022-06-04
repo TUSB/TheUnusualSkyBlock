@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,display:{Name:'{\"translate\":\"メガトンエメラルド\",\"color\":\"#FFD966\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"通常世界、飛空島の上位通貨\",\"color\":\"#999999\",\"italic\":false}']}}"
+              "tag": "{CustomModelData:1,display:{Name:'{\"translate\":\"メガトンエメラルド\",\"color\":\"#FFD966\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"全エリア共通の上位共通通貨\",\"color\":\"#999999\",\"italic\":false}']}}"
             }
           ]
         }
