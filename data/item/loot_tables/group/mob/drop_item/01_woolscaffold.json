@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 1000,
+          "weight": 500,
           "type": "minecraft:item",
           "name": "minecraft:white_wool",
           "functions": [
@@ -15,7 +15,7 @@
           ]
         },
         {
-          "weight": 500,
+          "weight": 250,
           "type": "minecraft:item",
           "name": "minecraft:white_wool",
           "functions": [
@@ -26,7 +26,7 @@
           ]
         },
         {
-          "weight": 250,
+          "weight": 100,
           "type": "minecraft:item",
           "name": "minecraft:white_wool",
           "functions": [
@@ -37,7 +37,7 @@
           ]
         },
         {
-          "weight": 250,
+          "weight": 100,
           "type": "minecraft:item",
           "name": "minecraft:mutton"
         },
