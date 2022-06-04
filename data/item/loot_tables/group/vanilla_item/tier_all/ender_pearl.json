@@ -4,12 +4,12 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 128,
+          "weight": 64,
           "type": "minecraft:item",
           "name": "minecraft:ender_pearl"
         },
         {
-          "weight": 64,
+          "weight": 32,
           "type": "minecraft:item",
           "name": "minecraft:ender_pearl",
           "functions": [
@@ -20,7 +20,7 @@
           ]
         },
         {
-          "weight": 32,
+          "weight": 16,
           "type": "minecraft:item",
           "name": "minecraft:ender_pearl",
           "functions": [
