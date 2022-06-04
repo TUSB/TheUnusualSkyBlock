@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 60
+              "count": 30
             }
           ]
         },
@@ -21,20 +21,14 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 120
+              "count": 60
             }
           ]
         },
         {
           "weight": 2,
           "type": "loot_table",
-          "name": "item:item/emerald/currency_megaton_emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 3
-            }
-          ]
+          "name": "item:item/emerald/currency_megaton_emerald"
         },
         {
           "weight": 1,
@@ -43,7 +37,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 4
+              "count": 2
             }
           ]
         }

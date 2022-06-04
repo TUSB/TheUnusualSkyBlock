@@ -11,13 +11,7 @@
         {
           "weight": 3,
           "type": "minecraft:item",
-          "name": "minecraft:emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 2
-            }
-          ]
+          "name": "minecraft:emerald"
         },
         {
           "weight": 2,
@@ -26,7 +20,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 3
+              "count": 2
             }
           ]
         },
@@ -37,7 +31,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 4
+              "count": 2
             }
           ]
         }
