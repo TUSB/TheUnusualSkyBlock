@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magma_cube_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2,EntityTag:{Tags:[Sign,Warped],Silent:1b,Size:0b,DeathLootTable:\"item:item/magma_cube_spawn_egg/sign/teleport\",ArmorItems:[{id:\"minecraft:stone\",Count:1b,tag:{Data:{Text4:'{\"text\":\"②\",\"font\":\"sign\",\"color\":\"white\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"function item:sign/click/teleport\"}}}'}}},{},{},{}]},display:{Name:'{\"translate\":\"転移の印板\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
