@@ -1,4 +1,4 @@
-execute if data storage skill: Skill{Name:"ワイルドカード"} run function skill:act/black_mage/wild_card/act0
+execute if data storage skill: Skill{Name:"メテオストライク"} run function skill:act/black_mage/meteor_strike/act0
 execute if data storage skill: Skill{Name:"スリプガ"} run function skill:act/black_mage/sleepga/act0
 execute if data storage skill: Skill{Name:"ルーラ"} run function skill:act/black_mage/return/act0
 execute if data storage skill: Skill{Name:"ウィンドウォール"} run function skill:act/black_mage/wind_wall/act0

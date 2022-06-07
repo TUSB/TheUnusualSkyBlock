@@ -143,7 +143,7 @@ scoreboard objectives add UseCrossbow minecraft.used:minecraft.crossbow {"text":
 scoreboard objectives add UseTrident minecraft.used:minecraft.trident {"text": "トライデント使用"}
 scoreboard objectives add UseCarrotStick minecraft.used:minecraft.carrot_on_a_stick {"text": "人参棒使用"}
 scoreboard objectives add UseFungusStick minecraft.used:minecraft.warped_fungus_on_a_stick {"text": "きのこ棒使用"}
-scoreboard objectives add UseArmorStand minecraft.used:minecraft.armor_stand {"text":"アーマースタンド使用"}
+scoreboard objectives add UseMagmaCubeEgg minecraft.used:minecraft.magma_cube_spawn_egg {"text":"マグマキューブエッグ使用"}
 scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game {"text":"ログインフラグ"}
 scoreboard objectives add ChangeSettings trigger {"text":"設定変更"}
 scoreboard objectives add ChangeSkill trigger {"text":"スキル変更"}

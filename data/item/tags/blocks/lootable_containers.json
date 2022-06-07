@@ -2,6 +2,7 @@
   "replace": false,
   "values": [
     "minecraft:chest",
+    "minecraft:trapped_chest",
     "minecraft:dispenser",
     "minecraft:hopper",
     "minecraft:dropper",

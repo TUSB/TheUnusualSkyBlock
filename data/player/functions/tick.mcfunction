@@ -22,7 +22,7 @@ execute if entity @s[scores={UseCrossbow=1..}] run function player:trigger/use/c
 execute if entity @s[scores={UseTrident=1..}] run function player:trigger/use/trident
 execute if entity @s[scores={UseCarrotStick=1..}] run function player:trigger/use/carrot_on_a_stick
 execute if entity @s[scores={UseFungusStick=1..}] run function player:trigger/use/warped_fungus_on_a_stick
-execute if entity @s[scores={UseArmorStand=1..}] run function player:trigger/use/armor_stand
+execute if entity @s[scores={UseMagmaCubeEgg=1..}] run function player:trigger/use/magma_cube_spawn_egg
 execute if entity @s[scores={SneakTime=1..}] run function player:trigger/sneak
 execute if entity @s[scores={SneakFrequency=1..}] run function player:trigger/sneak_frequency
 execute if entity @s[scores={DamageTaken=0..}] run function player:trigger/damage_taken

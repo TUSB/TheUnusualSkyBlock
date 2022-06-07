@@ -12,6 +12,6 @@
     }
   },
   "rewards": {
-    "function": "player:trigger/using/shield"
+    "function": "player:trigger/using/shield/"
   }
 }
