@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2000,LootTable:\"item:chest/memory_star/armor/usual_iron\",display:{Name:'{\"translate\":\"《鉄防具一式》のメモリスター\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false}',Lore:['[{\"translate\":\"なんらか\",\"color\":\"#FF0000\",\"bold\":true,\"strikethrough\":true,\"obfuscated\":true},{\"translate\":\"のデータを記した隕石。\",\"color\":\"#CCCCCC\",\"bold\":true,\"strikethrough\":false,\"obfuscated\":false}]','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" 索引顕界\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"索引顕界\",Level:1,Trigger:\"手に持って右クリック\",Count:1},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:0,Operation:0,UUID:[I;11,0,0,10],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"デフォルト\",Amount:10,Operation:0,UUID:[I;11,0,1,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"デフォルト\",Amount:1.2,Operation:0,UUID:[I;11,0,1,50],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

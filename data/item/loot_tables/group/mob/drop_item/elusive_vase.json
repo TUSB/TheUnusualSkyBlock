@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 10,
+          "type": "loot_table",
+          "name": "item:group/currency_and_magic_stone/all/mix"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/tusb_item/trap/summon"
+        }
+      ]
+    }
+  ]
+}

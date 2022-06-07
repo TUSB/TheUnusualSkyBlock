@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magma_cube_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{EntityTag:{Tags:[Sign,Birch],Silent:1b,Size:0b,DeathLootTable:\"item:item/magma_cube_spawn_egg/sign/upgrade_white\",ArmorItems:[{id:\"minecraft:stone\",Count:1b,tag:{Data:{Text4:'{\"text\":\"⑪\",\"font\":\"sign\",\"color\":\"white\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"function item:sign/click/upgrade_white\"}}}'}}},{},{},{}]},display:{Name:'{\"translate\":\"白材強化の印板\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

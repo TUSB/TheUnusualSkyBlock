@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:20,display:{Name:'{\"translate\":\"ビーフジャーキー\",\"color\":\"#771411\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"うまい。\",\"color\":\"#FFFFFF\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

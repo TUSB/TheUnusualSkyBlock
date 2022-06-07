@@ -4,9 +4,9 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 500,
-          "type": "minecraft:item",
-          "name": "minecraft:white_wool",
+          "weight": 10,
+          "type": "loot_table",
+          "name": "item:group/mob/drop_item/wool_set",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -15,53 +15,9 @@
           ]
         },
         {
-          "weight": 250,
-          "type": "minecraft:item",
-          "name": "minecraft:white_wool",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 8
-            }
-          ]
-        },
-        {
-          "weight": 100,
-          "type": "minecraft:item",
-          "name": "minecraft:white_wool",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 16
-            }
-          ]
-        },
-        {
-          "weight": 100,
-          "type": "minecraft:item",
-          "name": "minecraft:mutton"
-        },
-        {
-          "weight": 50,
-          "type": "minecraft:item",
-          "name": "minecraft:white_wool",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 32
-            }
-          ]
-        },
-        {
           "weight": 1,
           "type": "minecraft:item",
-          "name": "minecraft:white_wool",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 64
-            }
-          ]
+          "name": "minecraft:mutton"
         }
       ]
     }

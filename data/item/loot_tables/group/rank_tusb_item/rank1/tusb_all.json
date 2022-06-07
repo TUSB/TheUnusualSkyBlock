@@ -236,6 +236,21 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/cookie/beef_jerky"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/cookie/marmite"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/cookie/chocolate_chip"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/spider_eye/empty_can"
         }
       ]
