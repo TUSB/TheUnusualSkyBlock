@@ -1,1 +1,1 @@
-execute if entity @s[tag=HelloWork] run function settings:enemy/cloudia/friendly/blow/hello_work
+execute if entity @s[tag=Employee] run function settings:enemy/cloudia/friendly/blow/employee/
