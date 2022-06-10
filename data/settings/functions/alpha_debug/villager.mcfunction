@@ -1,0 +1,7 @@
+execute in area:skylands positioned -256 100 768 run kill @e[type=villager,distance=..128]
+
+execute in area:cloudia positioned -1765 116 -139 run summon armor_stand ~ ~1 ~ {Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Cloudia,Friendly,Blow,Employee,HelloWork],Level:100}]]}}]}
+execute in area:cloudia positioned -1765 116 -135 run summon armor_stand ~ ~1 ~ {Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Cloudia,Friendly,Blow,Employee,HelloWork],Level:100}]]}}]}
+execute in area:skylands positioned -168 51 761 run summon armor_stand ~ ~1 ~ {Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,Employee,HolyHoriHollick],Level:100}]]}}]}
+execute in area:skylands positioned -166 51 761 run summon armor_stand ~ ~1 ~ {Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,Employee,SundriesPart],Level:100}]]}}]}
+execute in area:skylands positioned -168 51 759 run summon armor_stand ~ ~1 ~ {Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,Employee,Totetsu1],Level:100}]]}}]}
