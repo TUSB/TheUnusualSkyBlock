@@ -1,0 +1,403 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
