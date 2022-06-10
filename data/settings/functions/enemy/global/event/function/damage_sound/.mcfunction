@@ -13,3 +13,4 @@ execute if entity @s[tag=Dark] run function settings:enemy/global/event/function
 execute if entity @s[tag=Lightning] run function settings:enemy/global/event/function/damage_sound/lightning
 execute if entity @s[tag=Bone] run function settings:enemy/global/event/function/damage_sound/bone
 execute if entity @s[tag=Magic] run function settings:enemy/global/event/function/damage_sound/magic
+execute if entity @s[tag=VaseBreak] run function settings:enemy/global/event/function/damage_sound/vase_break
