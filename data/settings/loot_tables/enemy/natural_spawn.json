@@ -304,7 +304,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 5,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -315,7 +315,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 300,
+          "weight": 200,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -359,7 +359,18 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
+          "weight": 5,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Summon,DecoyTeleportPot,Main,SpawnParticles],Level:100}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
           "name": "minecraft:stick",
           "functions": [
             {
