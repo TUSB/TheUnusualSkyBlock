@@ -19,8 +19,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier1_carrot_on_a_stick"
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick"
         }
       ]
     },
@@ -28,8 +28,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier1_carrot_on_a_stick"
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick"
         }
       ]
     },
@@ -37,8 +37,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier1_carrot_on_a_stick"
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick"
         }
       ]
     },
@@ -46,8 +46,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier1_carrot_on_a_stick"
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick"
         }
       ]
     },
@@ -55,8 +55,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier1_carrot_on_a_stick"
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick"
         }
       ]
     },
@@ -64,8 +64,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier1_carrot_on_a_stick"
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick"
         }
       ]
     },
@@ -73,8 +73,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier1_carrot_on_a_stick"
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick"
         }
       ]
     },
@@ -112,8 +112,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/bow/tier1_bow"
+          "type": "minecraft:item",
+          "name": "minecraft:bow"
         }
       ]
     },
@@ -121,8 +121,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/bow/tier1_bow"
+          "type": "minecraft:item",
+          "name": "minecraft:bow"
         }
       ]
     },
@@ -130,8 +130,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/bow/tier1_bow"
+          "type": "minecraft:item",
+          "name": "minecraft:bow"
         }
       ]
     },
@@ -139,8 +139,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/bow/tier1_bow"
+          "type": "minecraft:item",
+          "name": "minecraft:bow"
         }
       ]
     },
@@ -148,8 +148,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/bow/tier1_bow"
+          "type": "minecraft:item",
+          "name": "minecraft:bow"
         }
       ]
     },
@@ -157,8 +157,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/bow/tier1_bow"
+          "type": "minecraft:item",
+          "name": "minecraft:bow"
         }
       ]
     },
@@ -166,8 +166,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/bow/tier1_bow"
+          "type": "minecraft:item",
+          "name": "minecraft:bow"
         }
       ]
     },
@@ -205,8 +205,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/shield/tier1_shield"
+          "type": "minecraft:item",
+          "name": "minecraft:shield"
         }
       ]
     },
@@ -214,8 +214,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/shield/tier1_shield"
+          "type": "minecraft:item",
+          "name": "minecraft:shield"
         }
       ]
     },
@@ -223,8 +223,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/shield/tier1_shield"
+          "type": "minecraft:item",
+          "name": "minecraft:shield"
         }
       ]
     },
@@ -232,8 +232,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/shield/tier1_shield"
+          "type": "minecraft:item",
+          "name": "minecraft:shield"
         }
       ]
     },
@@ -241,8 +241,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/shield/tier1_shield"
+          "type": "minecraft:item",
+          "name": "minecraft:shield"
         }
       ]
     },
@@ -250,8 +250,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/shield/tier1_shield"
+          "type": "minecraft:item",
+          "name": "minecraft:shield"
         }
       ]
     },
@@ -259,8 +259,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/shield/tier1_shield"
+          "type": "minecraft:item",
+          "name": "minecraft:shield"
         }
       ]
     },

@@ -20,7 +20,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier1_chainmail_memory_star"
+          "name": "item:item/carrot_on_a_stick/usual_chainmail_memory_star"
         }
       ]
     },
@@ -29,7 +29,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier1_chainmail_memory_star"
+          "name": "item:item/carrot_on_a_stick/usual_chainmail_memory_star"
         }
       ]
     },
@@ -38,7 +38,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier1_chainmail_memory_star"
+          "name": "item:item/carrot_on_a_stick/usual_chainmail_memory_star"
         }
       ]
     },
@@ -47,7 +47,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier1_chainmail_memory_star"
+          "name": "item:item/carrot_on_a_stick/usual_chainmail_memory_star"
         }
       ]
     },
@@ -56,7 +56,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier1_chainmail_memory_star"
+          "name": "item:item/carrot_on_a_stick/usual_chainmail_memory_star"
         }
       ]
     },
@@ -65,7 +65,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier1_chainmail_memory_star"
+          "name": "item:item/carrot_on_a_stick/usual_chainmail_memory_star"
         }
       ]
     },
@@ -74,7 +74,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier1_chainmail_memory_star"
+          "name": "item:item/carrot_on_a_stick/usual_chainmail_memory_star"
         }
       ]
     },
@@ -112,8 +112,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/stone_pickaxe/tier1_stone_pickaxe"
+          "type": "minecraft:item",
+          "name": "minecraft:stone_pickaxe"
         }
       ]
     },
@@ -121,8 +121,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/stone_pickaxe/tier1_stone_pickaxe"
+          "type": "minecraft:item",
+          "name": "minecraft:stone_pickaxe"
         }
       ]
     },
@@ -130,8 +130,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/stone_pickaxe/tier1_stone_pickaxe"
+          "type": "minecraft:item",
+          "name": "minecraft:stone_pickaxe"
         }
       ]
     },
@@ -139,8 +139,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/stone_pickaxe/tier1_stone_pickaxe"
+          "type": "minecraft:item",
+          "name": "minecraft:stone_pickaxe"
         }
       ]
     },
@@ -148,8 +148,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/stone_pickaxe/tier1_stone_pickaxe"
+          "type": "minecraft:item",
+          "name": "minecraft:stone_pickaxe"
         }
       ]
     },
@@ -157,8 +157,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/stone_pickaxe/tier1_stone_pickaxe"
+          "type": "minecraft:item",
+          "name": "minecraft:stone_pickaxe"
         }
       ]
     },
@@ -166,8 +166,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/stone_pickaxe/tier1_stone_pickaxe"
+          "type": "minecraft:item",
+          "name": "minecraft:stone_pickaxe"
         }
       ]
     },
@@ -205,8 +205,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/stone_sword/tier1_stone_sword"
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword"
         }
       ]
     },
@@ -214,8 +214,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/stone_sword/tier1_stone_sword"
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword"
         }
       ]
     },
@@ -223,8 +223,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/stone_sword/tier1_stone_sword"
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword"
         }
       ]
     },
@@ -232,8 +232,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/stone_sword/tier1_stone_sword"
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword"
         }
       ]
     },
@@ -241,8 +241,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/stone_sword/tier1_stone_sword"
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword"
         }
       ]
     },
@@ -250,8 +250,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/stone_sword/tier1_stone_sword"
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword"
         }
       ]
     },
@@ -259,8 +259,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:item/stone_sword/tier1_stone_sword"
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword"
         }
       ]
     },
