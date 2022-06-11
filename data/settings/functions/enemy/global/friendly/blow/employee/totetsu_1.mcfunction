@@ -6,4 +6,4 @@ data modify storage tusb_mob: "即時ステータス"."基本移動力" set valu
 data modify storage tusb_mob: "即時ステータス"."ノックバック耐性" set value 1d
 data modify storage tusb_mob: "即時ステータス"."ノックバック力" set value 0d
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Time:[{Condition:[{Name:"HasTarget",Global:true,Target:{Look:"Player",Radius:32d,IgnoreBlocks:true}}],Name:"Spawn",SpawnEntities:[[{Tags:[Global,Friendly,Blow,Employee,Totetsu2],Level:100}]]},{Name:"Kill"}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Time:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Friendly,Blow,Employee,Totetsu2],Level:100}]]}]}
