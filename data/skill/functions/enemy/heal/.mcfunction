@@ -23,9 +23,8 @@ scoreboard players operation _ Calc /= @s Calc
 
 
 ###対象探索
-execute as @e[tag=Enemy,distance=..32] run function skill:enemy/heal/search
-
-
+scoreboard players set 00000000-0000-0000-0000-000000000000 _ 0
+execute as @e[tag=Enemy,distance=..32] if score @s HP < @s HPMax run function skill:enemy/heal/search
 
 ###演出
-function makeup:skill/enemy/heal/
+execute if score 00000000-0000-0000-0000-000000000000 _ matches 1 run function makeup:skill/enemy/heal/
