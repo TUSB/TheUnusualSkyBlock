@@ -260,17 +260,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Neutrality,Summon,Bank,Main,SpawnParticles],Level:1}]]}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:stick",
           "functions": [
