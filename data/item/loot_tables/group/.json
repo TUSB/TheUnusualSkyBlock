@@ -6,12 +6,12 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:group/portion/ether/ether_set"
+          "name": "item:group/potion/ether/ether_set"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:group/portion/area_ether/area_ether_set"
+          "name": "item:group/potion/area_ether/area_ether_set"
         }
       ]
     }

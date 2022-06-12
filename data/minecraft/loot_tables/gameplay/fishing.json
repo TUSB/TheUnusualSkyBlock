@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
-          "name": "item:group/fishing/plains",
+          "name": "item:group/fishing/plains/",
           "conditions": [
             {
               "condition": "minecraft:location_check",
