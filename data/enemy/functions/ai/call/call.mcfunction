@@ -9,7 +9,7 @@ execute if data storage mob_data: Call{Name:"MergeNBT"} run function skill:enemy
 execute if data storage mob_data: Call{Name:"Teleport"} unless entity @s[tag=TargetChanged,tag=Unmoved] run function skill:enemy/teleport/
 execute if data storage mob_data: Call{Name:"Message"} run function skill:enemy/message
 execute if data storage mob_data: Call{Name:"Function"} run function skill:enemy/function/
-execute if data storage mob_data: Call{Name:"Casting"} run function skill:enemy/casting/append/
+execute if data storage mob_data: Call{Name:"DelayAction"} run function skill:enemy/delay_action/append/
 execute if data storage mob_data: Call{Name:"Damage"} run function skill:enemy/damage/
 execute if data storage mob_data: Call{Name:"Blink"} run function skill:enemy/blink/cast/
 execute if data storage mob_data: Call{Name:"Laser"} run function skill:enemy/laser/main/init

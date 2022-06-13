@@ -25,4 +25,4 @@ execute if score _ TemporaryEffects matches ..-1 run function skill:act/knight/r
 scoreboard players set _ Calc 2
 scoreboard players operation _ TemporaryEffects *= _ Calc
 ###詠唱演出(28)
-execute if score _ TemporaryEffects matches ..-1 run function skill:enemy/casting/act/
+execute if score _ TemporaryEffects matches ..-1 run function skill:enemy/delay_action/act/

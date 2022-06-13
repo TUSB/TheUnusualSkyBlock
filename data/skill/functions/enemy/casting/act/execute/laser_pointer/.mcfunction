@@ -1,1 +1,0 @@
-execute if data storage mob_data: ExecutingCast{Tags:[RedDust]} run function skill:enemy/casting/act/execute/laser_pointer/red_dust/

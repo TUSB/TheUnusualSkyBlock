@@ -1,1 +1,0 @@
-execute if data storage mob_data: Call{Tags:["Normal"]} run function skill:enemy/casting/append/cast/normal/

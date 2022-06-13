@@ -1,1 +1,0 @@
-execute if data storage mob_data: ExecutingCast{Tags:[Normal]} run function skill:enemy/casting/act/execute/cast/normal/
