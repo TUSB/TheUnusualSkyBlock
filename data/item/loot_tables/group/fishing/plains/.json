@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 8,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:group/vanilla_item/food/lower_food",
           "functions": [
@@ -12,13 +12,13 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 8
+                "max": 12
               }
             }
           ]
         },
         {
-          "weight": 8,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:group/vanilla_item/tier_all/etc",
           "functions": [
@@ -26,13 +26,13 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 8
+                "max": 12
               }
             }
           ]
         },
         {
-          "weight": 8,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:group/base_currency/tier1/emerald",
           "functions": [
@@ -40,13 +40,13 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 8
+                "max": 12
               }
             }
           ]
         },
         {
-          "weight": 6,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:group/fishing/plains/bad_items"
         },
@@ -59,7 +59,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 8
+                "max": 12
               }
             }
           ]
@@ -73,7 +73,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 8
+                "max": 12
               }
             }
           ]
@@ -87,7 +87,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 8
+                "max": 12
               }
             }
           ]

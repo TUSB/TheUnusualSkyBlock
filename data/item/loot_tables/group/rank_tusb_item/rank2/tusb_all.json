@@ -46,6 +46,11 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/fishing_rod/fishing_rod_with_false_bait"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/gold_nugget/boost_fire/1"
         },
         {

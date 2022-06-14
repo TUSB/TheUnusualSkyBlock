@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "name": "minecraft:iron_nugget",
           "functions": [
             {
               "function": "minecraft:set_nbt",

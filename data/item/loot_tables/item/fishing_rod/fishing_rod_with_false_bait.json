@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fishing_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"疑似餌付き釣り竿\",\"color\":\"#4A86E8\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(II)\",\"color\":\"white\",\"with\":[{\"translate\":\"練餌の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"おもちゃのような疑似餌の付いた釣り竿\",\"color\":\"white\",\"italic\":false}']},Engraving:{EnchantID:\"練餌\",Tier:2}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

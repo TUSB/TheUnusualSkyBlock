@@ -28,12 +28,12 @@
         {
           "weight": 2,
           "type": "loot_table",
-          "name": "item:item/emerald/currency_megaton_emerald"
+          "name": "item:item/iron_nugget/currency_megaton_emerald"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/emerald/currency_megaton_emerald",
+          "name": "item:item/iron_nugget/currency_megaton_emerald",
           "functions": [
             {
               "function": "minecraft:set_count",

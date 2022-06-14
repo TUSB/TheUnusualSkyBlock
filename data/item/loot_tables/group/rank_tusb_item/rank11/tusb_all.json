@@ -66,6 +66,11 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/weapon/pay_for_storage"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/usual_chainmail_memory_star"
         },
         {
@@ -96,17 +101,17 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/emerald/currency_megaton_emerald"
+          "name": "item:item/iron_nugget/currency_megaton_emerald"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/emerald/currency_gigant_emerald"
+          "name": "item:item/iron_nugget/currency_gigant_emerald"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/emerald/currency_void"
+          "name": "item:item/iron_nugget/currency_void"
         },
         {
           "weight": 1,

@@ -96,6 +96,11 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/fishing_rod/fishing_rod_with_high_quality_bait"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/gold_nugget/mystery/2"
         },
         {
