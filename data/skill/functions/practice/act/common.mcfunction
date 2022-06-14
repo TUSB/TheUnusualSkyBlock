@@ -1,3 +1,6 @@
+execute if data storage skill: Skill{Name:"禁忌・冥界落とし"} run function skill:act/common/contraindicated_hell_drop/act0
+execute if data storage skill: Skill{Name:"解毒"} run function skill:act/common/detoxification/act0
+execute if data storage skill: Skill{Name:"不完全な解毒"} run function skill:act/common/incomplete_detoxification/act0
 execute if data storage skill: Skill{Name:"サモンS友好的なポイゾンアイ"} run function skill:act/common/summon_friendly_poison_eye/act0
 execute if data storage skill: Skill{Name:"サモンSトゲフレンド"} run function skill:act/common/summon_friendly_thorn/act0
 execute if data storage skill: Skill{Name:"索引顕界"} run function skill:act/common/index_manifest/act0

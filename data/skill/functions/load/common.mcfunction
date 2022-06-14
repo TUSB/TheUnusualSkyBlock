@@ -1,3 +1,6 @@
+execute if data storage skill: Skill{Name:"禁忌・冥界落とし",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"禁忌・冥界落とし",Level:1}]
+execute if data storage skill: Skill{Name:"解毒",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"解毒",Level:1}]
+execute if data storage skill: Skill{Name:"不完全な解毒",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"不完全な解毒",Level:1}]
 execute if data storage skill: Skill{Name:"サモンS友好的なポイゾンアイ",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"サモンS友好的なポイゾンアイ",Level:1}]
 execute if data storage skill: Skill{Name:"サモンSトゲフレンド",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"サモンSトゲフレンド",Level:1}]
 execute if data storage skill: Skill{Name:"索引顕界",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"索引顕界",Level:1}]
