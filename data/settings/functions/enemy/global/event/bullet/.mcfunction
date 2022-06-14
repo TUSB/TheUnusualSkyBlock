@@ -14,3 +14,4 @@ execute if entity @s[tag=FriendlyDarkBall] run function settings:enemy/global/ev
 execute if entity @s[tag=FriendlyFireBall] run function settings:enemy/global/event/bullet/friendly_fire_ball/
 execute if entity @s[tag=FriendlyLightningBall] run function settings:enemy/global/event/bullet/friendly_lightning_ball/
 execute if entity @s[tag=FriendlyLightBall] run function settings:enemy/global/event/bullet/friendly_light_ball/
+execute if entity @s[tag=ContraindicatedHellDrop] run function settings:enemy/global/event/bullet/contraindicated_hell_drop/

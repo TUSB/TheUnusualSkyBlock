@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:witch",DeathLootTable:"empty",Tags:[Mob,Enemy,DelayedData,HasAI,CallOnAttack,HasLootTable]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:witch",PortalCooldown:2000,DeathLootTable:"empty",Tags:[Mob,Enemy,DelayedData,HasAI,CallOnAttack,CooldownRequired,HasLootTable]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 32d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.3d
@@ -20,6 +20,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 150
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 120
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/currency_and_magic_stone/tier1/mix",Count:1,Chance:0.3d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/currency_and_magic_stone/tier1/mix",Chance:0.3d}]
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Name:"Damage",Player:{DamageType:["Global"],BypassArmor:true},Distance:{Max:0d}}],TurnCount:2,Turn:[{Index:1,Skill:[{Interval:{Min:200,Max:300,Current:300},Call:[{Name:"Casting",Tags:["Cast","Normal"]}]},{Interval:{Min:40,Max:40,Current:40},Call:[{Name:"Heal",Range:10d,Multiplier:1.5d,Condition:[{Name:"MP",MP:9,Percent:true}]}]}],Exit:{Loop:{Max:2,Current:2}}},{Index:2,Exit:{Condition:[{Name:"MinMP",MP:9,Percent:true}]}}]}

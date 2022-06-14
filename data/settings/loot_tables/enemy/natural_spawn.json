@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Iron],Level:15}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Iron],Level:12}]]}"
             }
           ]
         },
@@ -21,7 +21,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Gold],Level:5}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Gold],Level:4}]]}"
             }
           ]
         },
@@ -32,7 +32,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Diamond],Level:20}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Diamond],Level:16}]]}"
             }
           ]
         },
@@ -43,7 +43,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Chain],Level:10}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Chain],Level:8}]]}"
             }
           ]
         },
@@ -54,7 +54,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Netherite],Level:25}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Netherite],Level:20}]]}"
             }
           ]
         },
@@ -144,7 +144,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Iron],Level:15}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Iron],Level:12}]]}"
             }
           ]
         },
@@ -155,7 +155,29 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Gold],Level:5}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Gold],Level:4}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Diamond],Level:16}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Chain],Level:8}]]}"
             }
           ]
         },
@@ -166,7 +188,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Diamond],Level:20}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Netherite],Level:20}]]}"
             }
           ]
         },
@@ -177,35 +199,13 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Chain],Level:10}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Leather],Level:1}]]}"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Netherite],Level:25}]]}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 100,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Leather],Level:1}]],Count:2}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 20,
+          "weight": 30,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -216,7 +216,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 30,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -227,7 +227,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 30,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -238,7 +238,18 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 100,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Combat,Skeleton],Level:8}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -249,18 +260,18 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 30,
           "name": "minecraft:stick",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,Daizo,SpawnParticles],Level:5}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,Daizo,Main,SpawnParticles],Level:5}]]}"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 50,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -271,7 +282,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 50,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -282,7 +293,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 50,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -315,7 +326,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 50,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -326,7 +337,18 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 10,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Shoot,SkeletonPitcher,Main,SpawnParticles],Level:8}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -337,12 +359,45 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
+          "weight": 100,
           "name": "minecraft:stick",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,BacktheCreeper,Main,SpawnParticles],Level:5}],[{Tags:[Global,Ground,Blow,BacktheCreeper,AngerAec],Level:1}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Bandit,SpawnParticles],Level:5}]],Count:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Shoot,SunEater,Main,SpawnParticles],Level:20}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Shoot,WizardOfTeleportation,Main,SpawnParticles],Level:15}]]}"
             }
           ]
         },
@@ -359,7 +414,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 7,
           "name": "minecraft:stick",
           "functions": [
             {

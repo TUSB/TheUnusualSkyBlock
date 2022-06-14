@@ -11,7 +11,7 @@ data modify storage tusb_mob: "即時ステータス"."ノックバック力" se
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."炎属性値" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."氷属性値" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."雷属性値" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."光属性値" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."光属性値" set value 200
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."闇属性値" set value 100
 # ステータス
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 1
@@ -20,6 +20,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 1
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 1
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 1
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/currency_and_magic_stone/tier1/mix",Count:1,Chance:0.1d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/currency_and_magic_stone/tier1/mix",Chance:0.3d}]
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:50,Max:200,Current:50},Call:[{Settings:[{Name:"At",Target:{Look:"Friendly",Radius:24,IgnoreBlocks:1b}},{Name:"Direction",Direction:[-60f,0f],DirectionRange:[120f,0f],Speed:3d,SpeedRange:3d}],Name:"Teleport"},{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Other,Blow,RootAec,SpawnParticles],Level:1}]]}]}]}]}

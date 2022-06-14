@@ -8,11 +8,11 @@ data modify storage tusb_mob: "即時ステータス"."ノックバック力" se
 
 ### 遅延ステータス
 # 属性値
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."炎属性値" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."氷属性値" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."雷属性値" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."炎属性値" set value 200
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."氷属性値" set value 50
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."雷属性値" set value 200
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."光属性値" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."闇属性値" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."闇属性値" set value 150
 # ステータス
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 1
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 1
@@ -20,6 +20,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 1
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 0
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 1
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Item:{id:"minecraft:white_wool"},Count:4,Chance:1d},{Item:{id:"minecraft:white_wool"},Count:8,Chance:0.5d},{Item:{id:"minecraft:white_wool"},Count:16,Chance:0.1d},{Item:{id:"minecraft:white_wool"},Count:32,Chance:0.05d},{Item:{id:"minecraft:white_wool"},Count:64,Chance:0.01d},{Item:{id:"minecraft:mutton"},Count:1,Chance:0.1d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/mob/drop_item/01_woolscaffold",Chance:1d}]
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Name:"Damage",Mob:{Physical:100}}]}

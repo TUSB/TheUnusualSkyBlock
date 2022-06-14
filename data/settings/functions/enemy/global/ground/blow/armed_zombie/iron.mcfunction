@@ -10,14 +10,14 @@ data modify storage tusb_mob: "即時ステータス"."ノックバック力" se
 # 属性値
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."炎属性値" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."氷属性値" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."雷属性値" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."雷属性値" set value 200
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."光属性値" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."闇属性値" set value 100
 # ステータス
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 130
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 130
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 130
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 130
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/currency_and_magic_stone/tier1/mix",Count:1,Chance:0.1d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 33
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 25
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 33
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 33
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 25
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 33
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/currency_and_magic_stone/tier1/mix",Chance:0.2d}]

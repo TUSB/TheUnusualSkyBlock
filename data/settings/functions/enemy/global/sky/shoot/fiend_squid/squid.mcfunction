@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:squid",CustomNameVisible:true,CustomName:'{"translate":"アオリイカ","color":"#FFFFFF"}',Air:32767s,NoGravity:true,PortalCooldown:1600,Tags:[Mob,Enemy,DelayedData,HasAI,CallOnTimeOut,CooldownRequired,HasLootTable]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:squid",CustomNameVisible:true,CustomName:'{"translate":"アオリイカ","color":"#FFFFFF"}',Air:32767s,NoGravity:true,PortalCooldown:2000,Tags:[Mob,Enemy,DelayedData,HasAI,CallOnTimeOut,CooldownRequired,HasLootTable]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 0d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0d
@@ -20,6 +20,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 200
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 1
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/currency_and_magic_stone/tier1/mix",Count:1,Chance:0.1d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/currency_and_magic_stone/tier1/mix",Chance:0.5d}]
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Time:[{Name:"Kill"}],TurnCount:1,Turn:[{Index:1,Target:{Look:"Friendly",Radius:32d},Rotate:[360f,360f]}]}
