@@ -10,9 +10,8 @@
 
 data modify storage mob_data: DelayAction set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayAction
 
+execute if data storage mob_data: Call{Tags:["Casting"]} run function skill:enemy/delay_action/append/casting/
 
-execute if data storage mob_data: Call{Tags:["Cast"]} run function skill:enemy/delay_action/append/cast/
-execute if data storage mob_data: Call{Tags:["LaserPointer"]} run function skill:enemy/delay_action/append/laser_pointer/
 
 data modify storage mob_data: AddingAction.Tags set from storage mob_data: Call.Tags
 data modify storage mob_data: AddingAction.ExtraSettings set from storage mob_data: Call.ExtraSettings
