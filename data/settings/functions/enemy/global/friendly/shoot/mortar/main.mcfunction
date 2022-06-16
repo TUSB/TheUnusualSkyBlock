@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:skeleton",Team:"Friendly",CustomName:'{"translate":"迫撃砲"}',Silent:1b,NoAI:1b,PortalCooldown:2000,DeathLootTable:"empty",Tags:[Mob,DelayedData,HasAI,CallOnTimeOut,CooldownRequired]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:skeleton",Team:"Friendly",CustomName:'{"translate":"迫撃砲"}',Silent:1b,NoAI:1b,PortalCooldown:3000,DeathLootTable:"empty",Tags:[Mob,DelayedData,HasAI,CallOnTimeOut,CooldownRequired]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {ArmorItems:[{id:"minecraft:leather_boots",tag:{display:{color:0}},Count:1},{id:"minecraft:leather_leggings",tag:{display:{color:0}},Count:1},{id:"minecraft:leather_chestplate",tag:{display:{color:0}},Count:1},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;1541052264,-1399829841,-1639069699,162324962],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmIyYWJkNjY5MzlmNGNiNzI1N2E4OGNmNTJmYmM2ZmRjZWVjMTQzM2VjMmE2ZWYxNmQ2MmUzNGY2MjM4NzgxIn19fQ=="}]}}}}],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f]}
 
 ### 遅延ステータス
