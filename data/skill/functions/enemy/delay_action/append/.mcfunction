@@ -1,5 +1,6 @@
 #oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4]
 
+# 対応表
 # Casting → DelayAction
 # AddingCast → AddingAction
 # CastingTick → ActionTick
@@ -10,8 +11,12 @@
 
 data modify storage mob_data: DelayAction set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayAction
 
+
+#########
+
 execute if data storage mob_data: Call{Tags:["Casting"]} run function skill:enemy/delay_action/append/casting/
 
+#########
 
 data modify storage mob_data: AddingAction.Tags set from storage mob_data: Call.Tags
 data modify storage mob_data: AddingAction.ExtraSettings set from storage mob_data: Call.ExtraSettings
@@ -36,7 +41,7 @@ data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayAction set
 
 ###一時的に保存したデータの破棄
 data remove storage mob_data: DelayAction
-data remove storage mob_data: AddingCast
+data remove storage mob_data: AddingAction
 
 ###ビットレイズ
 execute store result storage calc: Bit.Flags int 1 run scoreboard players get @s TemporaryEffects
