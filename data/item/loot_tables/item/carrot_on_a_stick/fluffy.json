@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:111,display:{Name:'{\"translate\":\"もふもふ\",\"color\":\"#0AC500\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"召喚士監修の至高のもふもふ。\",\"color\":\"#CCCCCC\"}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"S\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" フィールα\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"召喚士\",SkillID:601,Name:\"フィール\",Level:1,Trigger:\"手に持って右クリック\",Count:10}}"
+              "tag": "{CustomModelData:111,display:{Name:'{\"translate\":\"もふもふ\",\"color\":\"#0AC500\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"召喚士監修の至高のもふもふ。\",\"color\":\"#CCCCCC\"}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"S\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" フィールα\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"召喚士\",SkillID:601,Name:\"フィール\",Level:1,Interval:4,Trigger:\"手に持って右クリック\",Count:10}}"
             }
           ]
         }
