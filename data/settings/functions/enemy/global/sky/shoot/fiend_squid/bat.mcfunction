@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:bat",CustomNameVisible:true,CustomName:'{"translate":"アオリイカ","color":"#FFFFFF"}',NoGravity:true,DeathTime:19s,NoAI:true,Silent:true,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:false}],PortalCooldown:1500,Tags:[Mob,Enemy,DelayedData,HasAI,CallOnTimeOut,CooldownRequired]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:bat",CustomNameVisible:true,CustomName:'{"translate":"アオリイカ","color":"#FFFFFF"}',NoGravity:true,DeathTime:19s,NoAI:true,Silent:true,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:false}],PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,HasAI,CallOnTimeOut,TickingRequired]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 0d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0d
