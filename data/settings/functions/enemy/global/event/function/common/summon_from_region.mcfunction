@@ -1,0 +1,2 @@
+#Function
+summon minecraft:creeper ~ ~ ~
