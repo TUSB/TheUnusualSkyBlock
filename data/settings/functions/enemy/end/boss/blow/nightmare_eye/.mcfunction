@@ -25,4 +25,5 @@ execute if entity @s[tag=ParkSummon] run function settings:enemy/end/boss/blow/n
 execute if entity @s[tag=ArrestBulletBlockSound] run function settings:enemy/end/boss/blow/nightmare_eye/arrest_bullet_block_sound
 execute if entity @s[tag=ArrestBulletHitSound] run function settings:enemy/end/boss/blow/nightmare_eye/arrest_bullet_hit_sound
 execute if entity @s[tag=ArrestBulletEffect] run function settings:enemy/end/boss/blow/nightmare_eye/arrest_bullet_effect
+execute if entity @s[tag=ArrestBulletCurseEffect] run function settings:enemy/end/boss/blow/nightmare_eye/arrest_bullet_curse_effect
 execute if entity @s[tag=ArrestBulletAppearance] run function settings:enemy/end/boss/blow/nightmare_eye/arrest_bullet_appearance
