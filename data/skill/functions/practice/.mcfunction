@@ -16,7 +16,5 @@ execute if score @s BlitzManover matches 0.. if score _ Calc matches ..-1 run sc
 scoreboard players operation _ Interval -= _ Calc
 #インターバル中
 execute if score _ Interval matches 1.. run function makeup:skill/practice/error/while_interval
-#凍結時、職業スキル・TUSBメモリー無効
-execute if score @s FreezeTimer matches 0.. run function makeup:effects/freeze/fail
 #成功時
-execute unless score _ Interval matches 1.. unless score @s FreezeTimer matches 0.. run function skill:practice/check_type
+execute unless score _ Interval matches 1.. run function skill:practice/check_type
