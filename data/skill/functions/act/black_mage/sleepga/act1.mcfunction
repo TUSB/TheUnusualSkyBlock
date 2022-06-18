@@ -3,7 +3,8 @@
 ##############################
 
 #睡眠時間 = 450/(Lv+20) + (-5～5) 秒
-scoreboard players set @s Sleepga 450
+execute if score _ Level matches 1 run scoreboard players set @s Sleepga 450
+execute if score _ Level matches 2 run scoreboard players set @s Sleepga 700
 scoreboard players operation _ _ = @s Level
 scoreboard players add _ _ 20
 scoreboard players operation @s Sleepga /= _ _
