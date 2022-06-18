@@ -25,7 +25,7 @@ scoreboard players add $Tick Count 1
 execute if score $Tick Count matches 20.. run function main:one_second
 
 ### エンティティAI分岐
-execute as @e[tag=HasAI] at @s run function enemy:ai/tick
+execute as @e[tag=HasAI,tag=!SleepgaNoAI] at @s run function enemy:ai/tick
 
 ### 存在する限り毎tick処理呼び出し
 execute as @e[tag=NativeTask] at @s run function main:task/native
