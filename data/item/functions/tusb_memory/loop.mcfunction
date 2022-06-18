@@ -4,6 +4,7 @@ execute store result score _ _ run data get storage skill: Skill.SkillID
 function skill:load/
 data modify storage skill: Skill.Type set value "TUSBMemory"
 data modify storage skill: Skill.Trigger set from storage item: Inventory[-1].tag.Skill.Trigger
+data modify storage skill: Skill.Interval set from storage item: Inventory[-1].tag.Skill.Interval
 data modify storage skill: Skill.Count set from storage item: Inventory[-1].tag.Skill.Count
 data modify storage skill: Skill.MaxCount set from storage item: Inventory[-1].tag.Skill.Count
 data modify storage item: Inventory[-1].tag.Skill set from storage skill: Skill
