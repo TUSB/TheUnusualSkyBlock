@@ -27,140 +27,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Diamond],Level:16}]]}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 100,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Chain],Level:8}]]}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Netherite],Level:20}]]}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 100,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Leather],Level:1}]],Count:2}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 20,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,PerverseCreeper,SpawnParticles],Level:10}]]}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 30,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Blow,DaemonEye,Main,SpawnParticles],Level:3}],[{Tags:[Global,Sky,Blow,DaemonEye,Direction],Level:1}]]}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 15,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,BacktheCreeper,Main,SpawnParticles],Level:5}],[{Tags:[Global,Ground,Blow,BacktheCreeper,AngerAec],Level:1}]]}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 5,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Blow,AnticrafterBallisticCreeper,Main,SpawnParticles],Level:10}]]}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 3,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Neutrality,Blow,PassingTree,Main,SpawnParticles],Level:40}]]}"
-            }
-          ]
-        }
-      ],
-      "conditions": [
-        {
-          "condition": "minecraft:location_check",
-          "predicate": {
-            "dimension": "area:debug_room"
-          }
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "weight": 50,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Iron],Level:12}]]}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 100,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Gold],Level:4}]]}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "weight": 50,
           "name": "minecraft:stick",
           "functions": [
@@ -205,7 +71,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 40,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -216,7 +82,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 40,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -227,7 +93,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 40,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -249,7 +115,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 40,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -260,7 +126,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 40,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -271,7 +137,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 40,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -282,23 +148,23 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 40,
           "name": "minecraft:stick",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Neutrality,Shoot,GoblinMerchantMetaltinka,MainA,SpawnParticles],Level:75}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Neutrality,Shoot,GoblinMerchantMixcooker,Main,SpawnParticles],Level:45}]]}"
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 200,
           "name": "minecraft:stick",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Neutrality,Shoot,GoblinMerchantMetaltinka,MainB,SpawnParticles],Level:75}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Neutrality,Shoot,GoblinMerchantMetaltinka,MainA,SpawnParticles],Level:75}]]}"
             }
           ]
         },
@@ -315,7 +181,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 200,
+          "weight": 400,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -414,7 +280,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 10,
+          "weight": 15,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -425,7 +291,328 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 25,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,ElusiveVase,SpawnParticles],Level:100}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Neutrality,Blow,PassingTree,Main,SpawnParticles],Level:40}]]}"
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "dimension": "area:debug_room"
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Iron],Level:12}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Gold],Level:4}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Diamond],Level:16}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Chain],Level:8}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Netherite],Level:20}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ArmedZombie,Leather],Level:1}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,ElixirMerchant,SpawnParticles],Level:1}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,EtherMerchant,SpawnParticles],Level:1}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,CarrotCarrotski,SpawnParticles],Level:10}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Combat,Skeleton],Level:8}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,SoupMerchant,SpawnParticles],Level:1}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,Daizo,Main,SpawnParticles],Level:5}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Neutrality,Shoot,GoblinMerchantJunksfika,Main,SpawnParticles],Level:25}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Neutrality,Shoot,GoblinMerchantMixcooker,Main,SpawnParticles],Level:45}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 200,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Neutrality,Shoot,GoblinMerchantMetaltinka,MainA,SpawnParticles],Level:75}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Neutrality,Summon,JobSearchAgents,SpawnParticles],Level:100}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 400,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Other,Blow,Air],Level:1}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,PerverseCreeper,SpawnParticles],Level:10}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Shoot,SkeletonPitcher,Main,SpawnParticles],Level:8}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,TeleportWitch,SpawnParticles],Level:10}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Blow,DaemonEye,Main,SpawnParticles],Level:3}],[{Tags:[Global,Sky,Blow,DaemonEye,Direction],Level:1}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,BacktheCreeper,Main,SpawnParticles],Level:5}],[{Tags:[Global,Ground,Blow,BacktheCreeper,AngerAec],Level:1}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 100,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Bandit,SpawnParticles],Level:5}]],Count:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Shoot,SunEater,Main,SpawnParticles],Level:20}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 30,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Shoot,WizardOfTeleportation,Main,SpawnParticles],Level:15}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Summon,DecoyTeleportPot,Main,SpawnParticles],Level:100}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 25,
           "name": "minecraft:stick",
           "functions": [
             {
