@@ -1,8 +1,8 @@
 
 ### テキスト表示位置調整
 
-execute if score @s ChangeSettings matches 12 run scoreboard players remove @s TitleOffset 1
-execute if score @s ChangeSettings matches 13 run scoreboard players add @s TitleOffset 1
+execute if score @s ChangeSettings matches 13 run scoreboard players remove @s TitleOffset 1
+execute if score @s ChangeSettings matches 14 run scoreboard players add @s TitleOffset 1
 scoreboard players set _ _ -10
 scoreboard players operation @s TitleOffset > _ _
 scoreboard players set _ _ 10
