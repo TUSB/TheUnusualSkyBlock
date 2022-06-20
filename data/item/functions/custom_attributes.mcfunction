@@ -34,7 +34,8 @@ execute if data storage item: Item{id:"minecraft:netherite_hoe"} run data modify
 execute if data storage item: Item{id:"minecraft:trident"} run data modify storage item: AttributeModifiers set value [{AttributeName:"generic.attack_damage",Name:"デフォルト",Amount:35,Operation:0,UUID:[I;11,0,1,40],Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"デフォルト",Amount:1.1,Operation:0,UUID:[I;11,0,1,50],Slot:"mainhand"}]
 execute if data storage item: Item{id:"minecraft:carrot_on_a_stick"} run data modify storage item: AttributeModifiers set value [{AttributeName:"generic.attack_damage",Name:"デフォルト",Amount:10,Operation:0,UUID:[I;11,0,1,40],Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"デフォルト",Amount:1.2,Operation:0,UUID:[I;11,0,1,50],Slot:"mainhand"}]
 # アイテム更新
-execute unless data storage item: Item.tag.AttributeModifiers run data modify storage item: Item.tag.AttributeModifiers append from storage item: AttributeModifiers[]
+execute unless data storage item: Item.tag.AttributeModifiers[{AttributeName:"generic.attack_damage",Name:"カスタム"}] run data modify storage item: Item.tag.AttributeModifiers append from storage item: AttributeModifiers[{AttributeName:"generic.attack_damage",Name:"デフォルト"}]
+execute unless data storage item: Item.tag.AttributeModifiers[{AttributeName:"generic.attack_speed",Name:"カスタム"}] run data modify storage item: Item.tag.AttributeModifiers append from storage item: AttributeModifiers[{AttributeName:"generic.attack_speed",Name:"デフォルト"}]
 data modify storage item: Item.tag.CustomAttributes set value 1b
 item modify entity @s weapon.mainhand item:storage/item
 # 演出

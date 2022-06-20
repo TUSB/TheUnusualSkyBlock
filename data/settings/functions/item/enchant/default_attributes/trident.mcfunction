@@ -1,1 +1,0 @@
-execute if data storage item: Items[{Slot:4b,id:"minecraft:trident"}] run data modify storage item: Enchant.AttributeModifiers set value [{AttributeName:"generic.attack_damage",Name:"デフォルト",Amount:9,Operation:0,UUID:[I;11,0,1,4],Slot:"mainhand"},{AttributeName:"generic.attack_speed",Name:"デフォルト",Amount:1.1,Operation:0,UUID:[I;11,0,1,5],Slot:"mainhand"}]
