@@ -1,3 +1,4 @@
+execute if data storage skill: Skill{Name:"聖水",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"聖水",Level:1}]
 execute if data storage skill: Skill{Name:"禁忌・冥界落とし",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"禁忌・冥界落とし",Level:1}]
 execute if data storage skill: Skill{Name:"解毒",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"解毒",Level:1}]
 execute if data storage skill: Skill{Name:"不完全な解毒",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"不完全な解毒",Level:1}]
