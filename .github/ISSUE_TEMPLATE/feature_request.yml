@@ -1,7 +1,7 @@
 name: 要望&アイデア
 description: 新しいアイデアを提案する
 title: "[要望] <ここにタイトルを入力>"
-labels: [要望]
+labels: [提案]
 body: 
 - type: markdown
   attributes:
@@ -43,5 +43,5 @@ body:
   id: command
   attributes:
     label: コマンド例
-    description: 実現するためのコマンド例を記入する。
+    description: 実現するためのコマンド例を記入する。functionと同じように記述することができます。
     render: mcfunction
