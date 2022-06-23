@@ -48,7 +48,7 @@ body:
   attributes:
     label: 原因となるコマンド
     description: コマンドを貼り付けてください。functionと同じように記述することができます。
-    value: |
+    placeholder: |
       #> <ここにファイルパスを記入>
     render: mcfunction
 - type: textarea
