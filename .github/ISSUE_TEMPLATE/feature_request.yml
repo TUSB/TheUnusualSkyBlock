@@ -16,7 +16,6 @@ body:
     description: |
       新しいアイデアについての説明を記入する。  
       画像のアップロードも可能です。
-    render: markdown
   validations:
     required: true
 - type: textarea
@@ -29,7 +28,6 @@ body:
       2.
       3.
       ...
-    render: markdown
 - type: markdown
   attributes:
     value: |
