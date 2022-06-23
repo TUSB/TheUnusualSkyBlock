@@ -8,6 +8,7 @@ body:
     value: |
       ## 新しいアイデアの提案ありがとうございます。
       以下の質問に答えていただくと、採用しやすくなります。
+      赤い印がついているものは必ず答えてください。
 - type: textarea
   id: idea
   attributes:
@@ -23,7 +24,7 @@ body:
   attributes:
     label: 実現方法
     description: どのようにアイデアを実現するかを記入する。
-    value: |
+    placeholder: |
       1.
       2.
       3.
