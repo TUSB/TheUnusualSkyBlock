@@ -1,4 +1,4 @@
-execute as @a[distance=..32] facing entity @s feet facing ^ ^ ^-1 positioned as @s run playsound minecraft:entity.blaze.ambient master @s ^ ^ ^24 1.6 0.5
+execute as @a[distance=..32] facing entity @s feet facing ^ ^ ^-1 positioned as @s run playsound minecraft:entity.blaze.ambient master @s ^ ^ ^15 0.5 0.5
 execute rotated as @s rotated ~000 ~-00 positioned ^ ^ ^2048 facing entity @s feet positioned ^ ^ ^2048 run particle minecraft:flame ~ ~ ~ 0 0 0 0 1 force @a[tag=ShowParticles]
 execute rotated as @s rotated ~72 ~-00 positioned ^ ^ ^2048 facing entity @s feet positioned ^ ^ ^2048 run particle minecraft:flame ~ ~ ~ 0 0 0 0 1 force @a[tag=ShowParticles]
 execute rotated as @s rotated ~144 ~-00 positioned ^ ^ ^2048 facing entity @s feet positioned ^ ^ ^2048 run particle minecraft:flame ~ ~ ~ 0 0 0 0 1 force @a[tag=ShowParticles]
