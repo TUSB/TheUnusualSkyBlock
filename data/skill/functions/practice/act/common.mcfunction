@@ -1,3 +1,10 @@
+execute if data storage skill: Skill{Name:"リスト・アイテム"} run function skill:act/common/restore_item/act0
+execute if data storage skill: Skill{Name:"自爆キャンセラー"} run function skill:act/common/self_destruct_canceller/act0
+execute if data storage skill: Skill{Name:"病気治し"} run function skill:act/common/disease_cure/act0
+execute if data storage skill: Skill{Name:"混乱治し"} run function skill:act/common/confusion_cure/act0
+execute if data storage skill: Skill{Name:"麻痺治し"} run function skill:act/common/paralysis_cure/act0
+execute if data storage skill: Skill{Name:"凍結治し"} run function skill:act/common/freez_cure/act0
+execute if data storage skill: Skill{Name:"火傷治し"} run function skill:act/common/burn_cure/act0
 execute if data storage skill: Skill{Name:"禁忌・冥界落とし"} run function skill:act/common/contraindicated_hell_drop/act0
 execute if data storage skill: Skill{Name:"解毒"} run function skill:act/common/detoxification/act0
 execute if data storage skill: Skill{Name:"不完全な解毒"} run function skill:act/common/incomplete_detoxification/act0
