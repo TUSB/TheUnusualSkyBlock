@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:374,EnchantStone:1b,EnchantID:\"羽毛\",Tier:7,display:{Name:'{\"translate\":\"%1$s%2$s(VII)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"羽毛の\"},{\"translate\":\"宝珠\"}]}',Lore:['[{\"translate\":\"enchantment.minecraft.feather_falling\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.7\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"足\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:374,EnchantStone:1b,EnchantID:\"羽毛\",Tier:7,display:{Name:'{\"translate\":\"%1$s%2$s(VII)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"羽毛の\"},{\"translate\":\"宝珠\"}]}',Lore:['[{\"translate\":\"enchantment.minecraft.feather_falling\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.7\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"足\",\"color\":\"gray\"}]','{\"text\":\"エンチャント台で使用\",\"italic\":false}']}}"
             }
           ]
         }

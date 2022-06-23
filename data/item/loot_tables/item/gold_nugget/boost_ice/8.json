@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:134,EnchantStone:1b,EnchantID:\"氷威\",Tier:8,display:{Name:'{\"translate\":\"%1$s%2$s(VIII)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"氷威の\"},{\"translate\":\"宝珠\"}]}',Lore:['{\"translate\":\"%s VIII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"アイスブースト\"}]}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器・盾\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:134,EnchantStone:1b,EnchantID:\"氷威\",Tier:8,display:{Name:'{\"translate\":\"%1$s%2$s(VIII)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"氷威の\"},{\"translate\":\"宝珠\"}]}',Lore:['{\"translate\":\"%s VIII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"アイスブースト\"}]}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器・盾\",\"color\":\"gray\"}]','{\"text\":\"エンチャント台で使用\",\"italic\":false}']}}"
             }
           ]
         }

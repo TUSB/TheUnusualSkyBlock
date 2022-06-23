@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:353,EnchantStone:1b,EnchantID:\"耐爆\",Tier:5,display:{Name:'{\"translate\":\"%1$s%2$s(V)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"耐爆の\"},{\"translate\":\"結晶\"}]}',Lore:['[{\"translate\":\"enchantment.minecraft.blast_protection\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.5\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]']}}"
+              "tag": "{CustomModelData:353,EnchantStone:1b,EnchantID:\"耐爆\",Tier:5,display:{Name:'{\"translate\":\"%1$s%2$s(V)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"耐爆の\"},{\"translate\":\"結晶\"}]}',Lore:['[{\"translate\":\"enchantment.minecraft.blast_protection\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.5\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"防具\",\"color\":\"gray\"}]','{\"text\":\"エンチャント台で使用\",\"italic\":false}']}}"
             }
           ]
         }
