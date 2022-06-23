@@ -1,0 +1,48 @@
+name: 要望
+description: 新しいアイデアを提案する
+title: "[要望] <ここにタイトルを入力>"
+labels: [要望]
+body: 
+- type: markdown
+  attributes:
+    value: |
+      ## 新しいアイデアの提案ありがとうございます。
+      以下の質問に答えていただくと、採用しやすくなります。
+- type: textarea
+  id: idea
+  attributes:
+    label: アイデア概要
+    description: |
+      新しいアイデアについての説明を記入する。  
+      画像のアップロードも可能です。
+    render: markdown
+  validations:
+    required: true
+- type: textarea
+  id: realization
+  attributes:
+    label: 実現方法
+    description: どのようにアイデアを実現するかを記入する。
+    value: |
+      1.
+      2.
+      3.
+      ...
+    render: markdown
+- type: markdown
+  attributes:
+    value: |
+      以下は技術的な報告です。
+
+      ---
+- type: textarea
+  id: use_system
+  attributes:
+    label: 使用するシステム
+    description: アイデアを実現するために使用するシステムを指定する。
+- type: textarea
+  id: command
+  attributes:
+    label: コマンド例
+    description: 実現するためのコマンド例を記入する。
+    render: mcfunction

@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: TUSB公式Discord
+    url: https://skyblock.jp/discord
+    about: 直接質問する場合、こちらもご利用ください。
+  - name: その他のissues
+    url: https://github.com/TUSB/TheUnusualSkyBlock/issues/new
+    about: テンプレートを使用しないissuesはこちらから。
