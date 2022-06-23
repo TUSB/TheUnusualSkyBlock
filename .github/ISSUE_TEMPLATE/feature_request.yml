@@ -14,6 +14,7 @@ body:
   attributes:
     label: アイデアのカテゴリー
     options:
+      - 島・エリア・建築物
       - Mob
       - アイテム・TUSBメモリー
       - 刻印
