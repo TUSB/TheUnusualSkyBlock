@@ -9,6 +9,22 @@ body:
       ## 新しいアイデアの提案ありがとうございます。
       以下の質問に答えていただくと、採用しやすくなります。
       赤い印がついているものは必ず答えてください。
+- type: dropdown
+  id: category
+  attributes:
+    label: アイデアのカテゴリー
+    options:
+      - Mob
+      - アイテム・TUSBメモリー
+      - 刻印
+      - 交易
+      - 釣り・報酬・ドロップアイテム
+      - レシピ
+      - 職業スキル
+      - インターフェイス全般
+      - TIPS
+      - 進捗
+      - チュートリアル
 - type: textarea
   id: idea
   attributes:
