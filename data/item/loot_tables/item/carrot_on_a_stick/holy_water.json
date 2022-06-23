@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:43,display:{Name:'{\"translate\":\"聖水\",\"color\":\"white\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" 解呪の祝福\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"解呪の祝福\",Level:1,Interval:0,Trigger:\"手に持って右クリック\",Count:4}}"
+              "tag": "{CustomModelData:43,Enchantments:[{}],display:{Name:'{\"translate\":\"聖水\",\"color\":\"white\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" 解呪の祝福\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"解呪の祝福\",Level:1,Interval:0,Trigger:\"手に持って右クリック\",Count:4}}"
             }
           ]
         }
