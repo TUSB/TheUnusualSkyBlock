@@ -11,6 +11,11 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/bow/tier1_bow"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/carrot_on_a_carrot"
         },
         {
@@ -46,6 +51,16 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/vile_immunity"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/holy_water"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/corn_soup"
         },
         {
@@ -61,7 +76,112 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/anti_burn"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/anti_freeze"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/anti_paralyze"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/anti_confusion"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/anti_disease"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/anti_tnt"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/tier1_chainmail_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/tier1_carrot_on_a_stick"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/chainmail_boots/tier1_chainmail_boots"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/chainmail_chestplate/tier1_chainmail_chestplate"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/chainmail_helmet/tier1_chainmail_helmet"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/chainmail_leggings/tier1_chainmail_leggings"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/cookie/wafer_skylands"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/cookie/wafer_ice"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/cookie/wafer_nether"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/cookie/wafer_gulliver"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/cookie/wafer_cloudia"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/cookie/beef_jerky"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/cookie/marmite"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/cookie/chocolate_chip"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/cookie/void_confectionery"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/crossbow/tier1_crossbow"
         },
         {
           "weight": 1,
@@ -131,77 +251,12 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/stone_shovel/tier1_stone_shovel"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/stone_pickaxe/tier1_stone_pickaxe"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/stone_axe/tier1_stone_axe"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/stone_hoe/tier1_stone_hoe"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/stone_sword/tier1_stone_sword"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier1_carrot_on_a_stick"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/bow/tier1_bow"
+          "name": "item:item/iron_sword/knight_greatsword"
         },
         {
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/shield/tier1_shield"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/crossbow/tier1_crossbow"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/trident/tier1_trident"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/chainmail_helmet/tier1_chainmail_helmet"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/chainmail_chestplate/tier1_chainmail_chestplate"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/chainmail_leggings/tier1_chainmail_leggings"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/chainmail_boots/tier1_chainmail_boots"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/iron_sword/knight_greatsword"
         },
         {
           "weight": 1,
@@ -216,47 +271,37 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/cookie/wafer_skylands"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/cookie/wafer_ice"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/cookie/wafer_nether"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/cookie/wafer_gulliver"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/cookie/wafer_cloudia"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/cookie/beef_jerky"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/cookie/marmite"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/cookie/chocolate_chip"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
           "name": "item:item/spider_eye/empty_can"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/stone_axe/tier1_stone_axe"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/stone_hoe/tier1_stone_hoe"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/stone_pickaxe/tier1_stone_pickaxe"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/stone_shovel/tier1_stone_shovel"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/stone_sword/tier1_stone_sword"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/trident/tier1_trident"
         }
       ]
     }

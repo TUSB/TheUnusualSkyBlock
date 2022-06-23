@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 4,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:group/vanilla_item/food/lower_food",
           "functions": [
@@ -18,7 +18,7 @@
           ]
         },
         {
-          "weight": 4,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:group/vanilla_item/tier_all/etc",
           "functions": [
@@ -32,7 +32,7 @@
           ]
         },
         {
-          "weight": 4,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:group/base_currency/tier1/emerald",
           "functions": [
@@ -46,9 +46,14 @@
           ]
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:group/fishing/plains/bad_items"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:group/potion/ether_area_ether_set"
         },
         {
           "weight": 4,
@@ -79,7 +84,7 @@
           ]
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:group/fishing/plains/lucky_items",
           "functions": [

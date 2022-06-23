@@ -96,22 +96,12 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/sapling_chance"
+          "name": "item:item/carrot_on_a_stick/sapling_chance_bug_memory_star"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/iron_nugget/currency_megaton_emerald"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/iron_nugget/currency_gigant_emerald"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/iron_nugget/currency_void"
+          "name": "item:item/carrot_on_a_stick/magic_stone_bug_memory_star"
         },
         {
           "weight": 1,
@@ -796,6 +786,26 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/golden_apple/fruit_of_nose"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_nugget/currency_megaton_emerald"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_nugget/currency_gigant_emerald"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_nugget/currency_void"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/iron_pickaxe/jewel_mining"
         },
         {
@@ -852,11 +862,6 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/block/portal"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/golden_apple/fruit_of_nose"
         }
       ]
     }

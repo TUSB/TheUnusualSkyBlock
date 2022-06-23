@@ -136,6 +136,11 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/golden_apple/konpeito"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/golden_axe/fountain_goleden_axe"
         },
         {
@@ -197,11 +202,6 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/block/cobweb"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/golden_apple/konpeito"
         }
       ]
     }

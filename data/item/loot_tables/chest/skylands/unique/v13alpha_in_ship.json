@@ -152,7 +152,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/sapling_chance"
+          "name": "item:item/carrot_on_a_stick/sapling_chance_bug_memory_star"
         }
       ]
     },

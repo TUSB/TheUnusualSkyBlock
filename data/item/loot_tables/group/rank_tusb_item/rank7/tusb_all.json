@@ -11,6 +11,11 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/bow/tier7_bow"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/philosophers_staff"
         },
         {
@@ -22,6 +27,11 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/ex_elixir"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/high_immunity"
         },
         {
           "weight": 1,
@@ -51,7 +61,17 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/tier7_carrot_on_a_stick"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/carved_pumpkin/halloween_head"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/crossbow/tier7_crossbow"
         },
         {
           "weight": 1,
@@ -116,76 +136,6 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/netherite_shovel/tier7_netherite_shovel"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/netherite_pickaxe/tier7_netherite_pickaxe"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/netherite_axe/tier7_netherite_axe"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/netherite_hoe/tier7_netherite_hoe"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/netherite_sword/tier7_netherite_sword"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier7_carrot_on_a_stick"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/bow/tier7_bow"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/shield/tier7_shield"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/crossbow/tier7_crossbow"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/trident/tier7_trident"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/netherite_helmet/tier7_netherite_helmet"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/netherite_chestplate/tier7_netherite_chestplate"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/netherite_leggings/tier7_netherite_leggings"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/netherite_boots/tier7_netherite_boots"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
           "name": "item:item/iron_sword/world_tree_sword"
         },
         {
@@ -211,7 +161,57 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/netherite_axe/tier7_netherite_axe"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/netherite_boots/tier7_netherite_boots"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/netherite_chestplate/tier7_netherite_chestplate"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/netherite_helmet/tier7_netherite_helmet"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/netherite_hoe/tier7_netherite_hoe"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/netherite_leggings/tier7_netherite_leggings"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/netherite_pickaxe/tier7_netherite_pickaxe"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/netherite_shovel/tier7_netherite_shovel"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/netherite_sword/rusted_blade"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/netherite_sword/tier7_netherite_sword"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/tier7_shield"
         },
         {
           "weight": 1,
@@ -227,6 +227,11 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/tipped_arrow/arrow_of_defilement_lv3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/trident/tier7_trident"
         },
         {
           "weight": 1,

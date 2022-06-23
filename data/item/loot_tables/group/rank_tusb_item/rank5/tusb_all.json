@@ -6,22 +6,7 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/magma_cube_spawn_egg/sign/trade"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/magma_cube_spawn_egg/sign/teleport"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/magma_cube_spawn_egg/sign/upgrade_white"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/magma_cube_spawn_egg/sign/upgrade_black"
+          "name": "item:item/bow/tier5_bow"
         },
         {
           "weight": 1,
@@ -91,7 +76,62 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/tier5_carrot_on_a_stick"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/chainmail_boots/turbine"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/crossbow/tier5_crossbow"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_axe/tier5_diamond_axe"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_boots/tier5_diamond_boots"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_chestplate/tier5_diamond_chestplate"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_helmet/tier5_diamond_helmet"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_hoe/tier5_diamond_hoe"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_leggings/tier5_diamond_leggings"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_pickaxe/tier5_diamond_pickaxe"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_shovel/tier5_diamond_shovel"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_sword/tier5_diamond_sword"
         },
         {
           "weight": 1,
@@ -166,76 +206,6 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/diamond_shovel/tier5_diamond_shovel"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/diamond_pickaxe/tier5_diamond_pickaxe"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/diamond_axe/tier5_diamond_axe"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/diamond_hoe/tier5_diamond_hoe"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/diamond_sword/tier5_diamond_sword"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier5_carrot_on_a_stick"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/bow/tier5_bow"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/shield/tier5_shield"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/crossbow/tier5_crossbow"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/trident/tier5_trident"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/diamond_helmet/tier5_diamond_helmet"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/diamond_chestplate/tier5_diamond_chestplate"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/diamond_leggings/tier5_diamond_leggings"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/diamond_boots/tier5_diamond_boots"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
           "name": "item:item/iron_sword/monohosizao"
         },
         {
@@ -261,7 +231,32 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/trade"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/teleport"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/upgrade_white"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/upgrade_black"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/netherite_axe/strong_meat"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/tier5_shield"
         },
         {
           "weight": 1,
@@ -302,6 +297,11 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/tipped_arrow/arrow_of_defilement_lv2"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/trident/tier5_trident"
         },
         {
           "weight": 1,
