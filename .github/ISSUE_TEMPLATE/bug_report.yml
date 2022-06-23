@@ -23,7 +23,7 @@ body:
   attributes:
     label: 再現方法
     description: バグを確認できるように再現方法を記入する。
-    value: |
+    placeholder: |
       1.
       2.
       3.
@@ -42,7 +42,8 @@ body:
 - type: markdown
   attributes:
     value: |
-      以下は技術的な報告です。  
+      以下は技術的な報告です。
+
       ---
 - type: textarea
   id: command
