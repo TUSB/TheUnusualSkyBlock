@@ -45,9 +45,9 @@ execute if entity @s[scores={Issen=0..}] run function skill:act/ninja/issen/tick
 # 狩人
 execute if entity @s[scores={RaderVision=1..}] run function skill:act/hunter/rader_vision/tick
 # 黒魔導士
-execute as @a[scores={LightningBlow=1..}] at @s run function makeup:skill/act/black_mage/lightning_blow/tick
-execute as @a[scores={BlitzManover=0..}] at @s run function skill:act/black_mage/blitz_manover/tick
-execute as @a[scores={RockNRoll=0..}] at @s run function skill:act/black_mage/rock_n_roll/tick
+execute if entity @s[scores={LightningBlow=1..}] at @s run function makeup:skill/act/black_mage/lightning_blow/tick
+execute if entity @s[scores={BlitzManover=0..}] at @s run function skill:act/black_mage/blitz_manover/tick
+execute if entity @s[scores={RockNRoll=0..}] at @s run function skill:act/black_mage/rock_n_roll/tick
 
 ### MP回復
 function skill:update_mp/
