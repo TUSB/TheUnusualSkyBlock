@@ -17,8 +17,12 @@ function player:mp_bar/set
 ##満腹度調整
 function effects:status/hunger
 
+##### この先座標が変更される可能性があるため、at @s で位置を修正すること。
+### レスト・アイテム処理
+execute if entity @s[tag=HasRestoreItems,tag=!Raise] in area:control_area run function skill:act/common/restore_item/restore/
+execute if entity @s[tag=HasRestoreItems,tag=Raise] run function skill:act/common/restore_item/restore/cancel
 ### レイズ処理
-execute if entity @s[tag=Raise] run function skill:act/white_mage/araise/raise_check
+execute if entity @s[tag=Raise] at @s run function skill:act/white_mage/araise/raise_check
 
 ## フラグリセット
 scoreboard players reset @s Hunger

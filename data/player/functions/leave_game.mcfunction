@@ -6,6 +6,9 @@ execute if entity @e[distance=..7,tag=Anvil] run schedule function item:lapidary
 #凍結 schedule 再起動
 execute if entity @s[tag=Freeze] run schedule function effects:freeze/fix 1t
 
+#リスト・アイテム キャンセル
+tag @s remove SelectRestoreItem
+
 #プレイヤーゲーム設定
 function player:game_settings/show
 

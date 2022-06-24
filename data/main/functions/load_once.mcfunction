@@ -112,6 +112,7 @@ scoreboard objectives add Sleepga dummy {"text":"スリプガ継続秒数"}
 scoreboard objectives add FillSize dummy {"text":"フィールサイズ"}
 #共通
 scoreboard objectives add SkyWalk dummy {"text":"スカイウォーク"}
+scoreboard objectives add RestoreItem trigger {"text":"リスト・アイテム処理選択"}
 
 ###乱数初期化
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,WaitTime:1,ReapplicationDelay:0,Duration:0,Tags:[Initialized]}
