@@ -91,4 +91,4 @@ execute at @s run function skill:act/white_mage/araise/raise_tp_dimension
 tag @s remove Raising
 
 tellraw @s {"translate":"インベントリと位置情報を復元しました。","color":"green"}
-function makeup:skill/act/common/restore_item/return
+execute at @s run function makeup:skill/act/common/restore_item/return
