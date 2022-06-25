@@ -36,6 +36,11 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/old_iblis_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/diamond_sword/unsigned_light_sword"
         },
         {
@@ -156,7 +161,27 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/leather_boots/old_iblis_b"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/leather_chestplate/life_jacket"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_chestplate/old_iblis_c"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_helmet/old_iblis_h"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_leggings/old_iblis_l"
         },
         {
           "weight": 1,

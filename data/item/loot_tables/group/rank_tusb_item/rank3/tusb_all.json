@@ -6,6 +6,11 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/bow/tier3_bow"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/bow/fion_seatra"
         },
         {
@@ -16,7 +21,7 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/bow/tier3_bow"
+          "name": "item:item/carrot_on_a_stick/tier3_carrot_on_a_stick"
         },
         {
           "weight": 1,
@@ -97,11 +102,6 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/the_wind_memory_star"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier3_carrot_on_a_stick"
         },
         {
           "weight": 1,

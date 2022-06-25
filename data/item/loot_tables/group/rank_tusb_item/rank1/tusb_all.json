@@ -6,12 +6,17 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/bow/tier1_bow"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/bow/hunter_bow"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/bow/tier1_bow"
+          "name": "item:item/carrot_on_a_stick/tier1_carrot_on_a_stick"
         },
         {
           "weight": 1,
@@ -107,11 +112,6 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/tier1_chainmail_memory_star"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier1_carrot_on_a_stick"
         },
         {
           "weight": 1,

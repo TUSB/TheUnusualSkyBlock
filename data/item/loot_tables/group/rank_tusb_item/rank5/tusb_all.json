@@ -11,6 +11,11 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/tier5_carrot_on_a_stick"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/red_carrot"
         },
         {
@@ -76,7 +81,7 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier5_carrot_on_a_stick"
+          "name": "item:item/carrot_on_a_stick/prism_soteira_memory_star"
         },
         {
           "weight": 1,
@@ -87,6 +92,11 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/crossbow/tier5_crossbow"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/crossbow/volcanic_cannon"
         },
         {
           "weight": 1,
@@ -102,6 +112,26 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/diamond_chestplate/tier5_diamond_chestplate"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_helmet/dragon_mail_h"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_chestplate/dragon_mail_c"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_leggings/dragon_mail_l"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_boots/dragon_mail_b"
         },
         {
           "weight": 1,
@@ -216,12 +246,32 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/leather_boots/prism_soteira_b"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/leather_chestplate/blood_menace_c"
         },
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/leather_chestplate/prism_soteira_c"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/leather_helmet/blood_menace_h"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_helmet/prism_soteira_h"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_leggings/prism_soteira_l"
         },
         {
           "weight": 1,

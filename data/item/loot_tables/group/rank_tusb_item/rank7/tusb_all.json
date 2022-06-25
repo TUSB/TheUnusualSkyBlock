@@ -6,12 +6,17 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/bow/tier7_bow"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/bow/a_ray_on_the_move"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/bow/tier7_bow"
+          "name": "item:item/carrot_on_a_stick/tier7_carrot_on_a_stick"
         },
         {
           "weight": 1,
@@ -61,7 +66,7 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier7_carrot_on_a_stick"
+          "name": "item:item/carrot_on_a_stick/phantasma_memory_star"
         },
         {
           "weight": 1,
@@ -72,6 +77,11 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/crossbow/tier7_crossbow"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/crossbow/ballistic"
         },
         {
           "weight": 1,
@@ -146,12 +156,32 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/leather_boots/phantasma_b"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/leather_chestplate/yggdrasil_c"
         },
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/leather_chestplate/phantasma_c"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/leather_helmet/yggdrasil_h"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_helmet/phantasma_h"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_leggings/phantasma_l"
         },
         {
           "weight": 1,
@@ -201,12 +231,12 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/netherite_sword/rusted_blade"
+          "name": "item:item/netherite_sword/tier7_netherite_sword"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/netherite_sword/tier7_netherite_sword"
+          "name": "item:item/netherite_sword/rusted_blade"
         },
         {
           "weight": 1,
