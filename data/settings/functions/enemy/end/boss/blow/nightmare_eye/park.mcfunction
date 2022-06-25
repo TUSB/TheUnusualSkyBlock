@@ -23,4 +23,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法�
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Message",Message:'{"translate":"ナイトメアが辺りを覆う...","color":"#FF0000"}'}],Time:[{Name:"Kill"}],TurnCount:1,Turn:[{Index:1,Target:{Look:"Friendly",Radius:30d,IgnoreBlocks:1b},Skill:[{Interval:{Min:10,Max:150,Current:1},Loop:{Max:1,Current:1},Call:[{Settings:[{Name:"Direction",Target:{Look:"Player",Radius:20d},Direction:[-90f,30f],DirectionRange:[180f,0f]}],Name:"Spawn",SpawnEntities:[[{Tags:[End,Boss,Blow,NightmareEye,Zombie,SpawnParticles],Level:40}]]}]}],Exit:{Loop:{Max:1,Current:1}}}]}
 #Function
-playsound block.end_portal.spawn master @a[distance=..40] ~ ~ ~ 1.0 0.8
+playsound block.end_portal.spawn master @a[distance=..40] ~ ~ ~ 0.7 0.8 0

@@ -8,4 +8,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法�
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Step",Speed:0.3d}]}
 #Function
 particle flame ~ ~ ~ 0.01 0.01 0.01 0.1 5 normal
-playsound entity.item_frame.break hostile @a[distance=..32] ~ ~ ~ 1 1.8 0.8
+playsound entity.item_frame.break hostile @a[distance=..32] ~ ~ ~ 0.7 1.8 0.8

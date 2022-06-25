@@ -23,4 +23,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法�
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Condition:[{Name:"HasTarget",Inverse:true,Target:{Look:"Player",Radius:5d,IgnoreBlocks:true}}],Settings:[{Name:"Rotation",Direction:[0f,-90f]}],Name:"Step",Speed:0.8d}]}
 #Function
-playsound minecraft:block.amethyst_block.step ambient @a[distance=32] ~ ~ ~ 10 0.1 1
+playsound minecraft:block.amethyst_block.step ambient @a[distance=32] ~ ~ ~ 1 0.5 0

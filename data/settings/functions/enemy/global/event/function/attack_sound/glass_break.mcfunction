@@ -1,3 +1,3 @@
 #Function
-playsound entity.splash_potion.break hostile @a[distance=..32] ~ ~ ~ 1.0 1
-playsound block.small_amethyst_bud.break hostile @a[distance=..32] ~ ~ ~ 1.0 1.1
+execute if block ~ ~ ~ minecraft:air run playsound minecraft:block.wool.place block @a[distance=..32] ~ ~ ~ 0.7 1.2 0
+execute if block ~ ~ ~ minecraft:air run setblock ~ ~ ~ white_wool keep

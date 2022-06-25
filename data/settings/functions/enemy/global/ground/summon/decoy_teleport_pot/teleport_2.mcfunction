@@ -4,7 +4,7 @@ tp @e[gamemode=!creative,gamemode=!spectator,sort=random,team=Friendly,distance=
 tp @e[tag=Mob,sort=random,distance=0.01..16,limit=3] @s
 effect give @a[distance=..4,gamemode=!creative,gamemode=!spectator,sort=nearest] minecraft:blindness 5 1 true
 # サウンド
-playsound block.portal.ambient hostile @a[distance=..32] ~ ~ ~ 2 1 0.5
+playsound block.portal.ambient hostile @a[distance=..32] ~ ~ ~ 0.7 1.0 0.25
 # パーティクル
 # 多角形 1
 particle dust 0.000 0.341 0.239 2 ^0 ^ ^-9 1.5 1.5 1.5 0 2 force @a[tag=ShowParticles]

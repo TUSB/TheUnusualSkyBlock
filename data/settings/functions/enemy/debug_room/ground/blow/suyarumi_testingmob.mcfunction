@@ -21,4 +21,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Casting",Tags:["Cast","Normal"]}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:40,Max:100,Current:0},Loop:{Max:1,Current:1},Call:[{Name:"Heal",Range:8.00d,Multiplier:1.0000d}]}]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"DelayAction",Tags:["Casting","Cast","Normal"]}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:40,Max:100,Current:0},Loop:{Max:1,Current:1},Call:[{Name:"Heal",Range:8.00d,Multiplier:1.0000d}]}]}]}

@@ -20,4 +20,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 33
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 25
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 33
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/currency_and_magic_stone/tier1/mix",Count:1,Chance:0.2d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/currency_and_magic_stone/tier1/mix",Count:1,Chance:0.6d}]

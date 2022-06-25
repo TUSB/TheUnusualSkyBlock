@@ -1,6 +1,6 @@
 #Function
 # サウンド
-playsound ambient.cave hostile @a[distance=..32] ~ ~ ~ 0.4 0.7 0.2
+playsound ambient.cave hostile @a[distance=..32] ~ ~ ~ 0.2 0.7 0.1
 # パーティクル
 # 円 1
 particle dust 0.000 1.000 0.635 2 ^0 ^ ^-16 0 0 0 0 0 force @a[tag=ShowParticles]
