@@ -6,7 +6,7 @@
         {
           "weight": 60,
           "type": "loot_table",
-          "name": "item:group/mob/drop_item/wool_set",
+          "name": "item:group/drop_item/all/wool_set",
           "functions": [
             {
               "function": "minecraft:set_count",

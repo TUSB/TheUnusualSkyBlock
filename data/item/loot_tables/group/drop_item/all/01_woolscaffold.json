@@ -6,7 +6,7 @@
         {
           "weight": 10,
           "type": "loot_table",
-          "name": "item:group/mob/drop_item/wool_set"
+          "name": "item:group/drop_item/all/wool_set"
         },
         {
           "weight": 1,
