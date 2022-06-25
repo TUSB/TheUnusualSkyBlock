@@ -59,4 +59,4 @@ particle flame ^0.43301 ^ ^0.25 0 0 0 0 1 force @a[distance=..64,tag=ShowParticl
 particle flame ^0.32476 ^ ^0.4375 0 0 0 0 1 force @a[distance=..64,tag=ShowParticles]
 particle flame ^0.21651 ^ ^0.625 0 0 0 0 1 force @a[distance=..64,tag=ShowParticles]
 particle flame ^0.10825 ^ ^0.8125 0 0 0 0 1 force @a[distance=..64,tag=ShowParticles]
-playsound item.firecharge.use master @a[distance=..64] ~ ~ ~ 0.7.0 2.0
+playsound item.firecharge.use master @a[distance=..64] ~ ~ ~ 0.7 2.0 0

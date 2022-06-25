@@ -9,4 +9,4 @@ execute if entity @s[tag=Main] run function settings:enemy/global/friendly/shoot
 execute if entity @s[tag=Breath] run function settings:enemy/global/friendly/shoot/salamander_kid/breath
 execute if entity @s[tag=BreathAppearance] run function settings:enemy/global/friendly/shoot/salamander_kid/breath_appearance
 execute if entity @s[tag=Ball] run function settings:enemy/global/friendly/shoot/salamander_kid/ball
-execute if entity @s[tag=BallSub] run function settings:enemy/global/friendly/shoot/salamander_kid/ball_sub
+execute if entity @s[tag=BallBullet] run function settings:enemy/global/friendly/shoot/salamander_kid/ball_bullet
