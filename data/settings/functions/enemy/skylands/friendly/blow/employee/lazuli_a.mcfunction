@@ -8,5 +8,5 @@ data modify storage tusb_mob: "即時ステータス"."ノックバック力" se
 #Function
 data modify storage tusb_mob: Offers set from storage tusb_mob: "即時ステータス"."ベース".Offers
 function settings:enemy/skylands/friendly/blow/employee/lazuli_b
-data modify storage tusb_mob: Offers append from storage tusb_mob: "即時ステータス"."ベース".Offers[]
+data modify storage tusb_mob: Offers.Recipes append from storage tusb_mob: "即時ステータス"."ベース".Offers.Recipes[]
 data modify storage tusb_mob: "即時ステータス"."ベース".Offers set from storage tusb_mob: Offers

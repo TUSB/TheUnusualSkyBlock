@@ -26,5 +26,5 @@ data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Set
 #Function
 data modify storage tusb_mob: Offers set from storage tusb_mob: "即時ステータス"."ベース".Offers
 function settings:enemy/global/neutrality/shoot/goblin_merchant_metaltinka/main_b
-data modify storage tusb_mob: Offers append from storage tusb_mob: "即時ステータス"."ベース".Offers[]
+data modify storage tusb_mob: Offers.Recipes append from storage tusb_mob: "即時ステータス"."ベース".Offers.Recipes[]
 data modify storage tusb_mob: "即時ステータス"."ベース".Offers set from storage tusb_mob: Offers

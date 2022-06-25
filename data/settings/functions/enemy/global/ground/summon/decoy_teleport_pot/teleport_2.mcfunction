@@ -2,7 +2,7 @@
 # 効果
 tp @e[gamemode=!creative,gamemode=!spectator,sort=random,team=Friendly,distance=0.01..16,limit=3] @s
 tp @e[tag=Mob,sort=random,distance=0.01..16,limit=3] @s
-effect give @a[distance=..4,gamemode=!creative,gamemode=!spectator,sort=nearest] minecraft:blindness 5 1 true
+effect give @a[distance=..4,gamemode=!creative,gamemode=!spectator,sort=nearest] minecraft:blindness 15 1 true
 # サウンド
 playsound block.portal.ambient hostile @a[distance=..32] ~ ~ ~ 0.7 1.0 0.25
 # パーティクル
