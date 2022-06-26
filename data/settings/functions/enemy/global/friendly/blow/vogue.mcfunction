@@ -14,6 +14,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"memory_star",Count:1,CountRange:32,Chance:1d},{Loot:"item:group/drop_item/all/villager",Count:1,Chance:0.6d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"memory_star",Count:1,CountRange:32,Chance:1d},{Loot:"item:group/drop_item/all/villager",Count:1,Chance:0.51d}]
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Condition:[{Name:"MinHP",Inverse:true,HP:50,Percent:true},{Name:"HasTarget",Target:{Look:"Enemy",Radius:4d,IgnoreBlocks:true}}],Name:"Kill"}]}

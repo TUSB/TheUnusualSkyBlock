@@ -14,6 +14,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/all/villager",Count:1,Chance:0.6d},{Item:{id:"minecraft:beef"},Count:1,CountRange:8,Chance:1d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/all/villager",Count:1,Chance:0.51d},{Item:{id:"minecraft:beef"},Count:1,CountRange:8,Chance:1d}]
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Condition:[{Name:"HasTarget",Target:{Look:"Enemy",Radius:4d,IgnoreBlocks:true}},{Name:"MinHP",Inverse:true,HP:50,Percent:true}],Name:"Spawn",SpawnEntities:[[{Tags:[Skylands,Neutrality,Blow,Emon,Betrayal],Level:60}]]},{Condition:[{Name:"HasTarget",Target:{Look:"Enemy",Radius:4d,IgnoreBlocks:true}},{Name:"MinHP",Inverse:true,HP:50,Percent:true}],Name:"Kill"},{Condition:[{Name:"MP",MP:20}],Settings:[{Name:"Facing",Target:{Look:"Enemy",Radius:24}}],Name:"Step",Direction:[0f,-3f],Speed:3.0d}],ProjectileDamage:{Physical:50,Light:50,Dark:50}}
