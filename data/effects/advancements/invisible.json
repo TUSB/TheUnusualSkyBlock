@@ -291,6 +291,6 @@
     ["default"]
   ],
   "rewards": {
-    "function": "effects:invisible"
+    "function": "effects:invisible/trigger"
   }
 }
