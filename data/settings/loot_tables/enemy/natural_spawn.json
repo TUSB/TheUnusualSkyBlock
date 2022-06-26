@@ -181,7 +181,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 600,
+          "weight": 1000,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -557,7 +557,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 600,
+          "weight": 1000,
           "name": "minecraft:stick",
           "functions": [
             {
