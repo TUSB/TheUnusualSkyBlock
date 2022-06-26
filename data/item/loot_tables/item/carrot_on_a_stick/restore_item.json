@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:124,display:{Name:'{\"translate\":\"先払い復元機\"}',Lore:['{\"translate\":\"次の自分を保存する。\",\"color\":\"yellow\"}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" リスト・アイテム\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"リスト・アイテム\",Level:1,Interval:0,Trigger:\"手に持って右クリック\",Count:30}}"
+              "tag": "{CustomModelData:124,display:{Name:'{\"translate\":\"先払い復元機\"}',Lore:['{\"translate\":\"次の自分を保存する。\",\"color\":\"yellow\"}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" リスト・アイテム\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"リスト・アイテム\",Level:1,Interval:0,Trigger:\"手に持って右クリック\",Count:16}}"
             }
           ]
         }
