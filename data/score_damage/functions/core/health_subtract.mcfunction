@@ -27,7 +27,8 @@
     # Mob
         execute if entity @s[type=!player] if score $SubtractedHealth ScoreDamageCore matches 1.. store result entity @s Health float 0.0001 run scoreboard players get $SubtractedHealth ScoreDamageCore
     # Common
-        execute if score $SubtractedHealth ScoreDamageCore matches ..0 run kill @s
+        # execute if score $SubtractedHealth ScoreDamageCore matches ..0 run kill @s
+        execute if score $SubtractedHealth ScoreDamageCore matches ..0 run function score_damage:core/death
 # 演出
     execute if score $SubtractedHealth ScoreDamageCore matches 1.. if entity @s[type=#entity:undead] run effect give @s instant_health 1 30 true
     execute if score $SubtractedHealth ScoreDamageCore matches 1.. if score $Resistance ScoreDamageCore matches 5.. if entity @s[type=!#entity:undead] run effect give @s instant_damage 1 0 true
