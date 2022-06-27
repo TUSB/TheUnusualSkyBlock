@@ -6,6 +6,9 @@ data remove storage score_damage: Argument
 data modify storage score_damage: Argument set from storage mob_data: Call.Player
 execute unless data storage score_damage: Argument.Damage store result storage score_damage: Argument.Damage double 1 run scoreboard players get @s SpecialAttack
 
+#モブ名取得
+data modify storage mob_data: MobName set from entity @s CustomName
+
 execute store result score 00000000-0000-0000-0000-000000000000 Calc run data get storage mob_data: Call.Distance.Max 100
 execute store result score 00000000-0000-0000-0000-000000000001 Calc run data get storage mob_data: Call.Distance.Min 100
 

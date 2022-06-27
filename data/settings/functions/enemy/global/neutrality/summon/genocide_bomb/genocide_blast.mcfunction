@@ -1,8 +1,8 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:marker",Tags:[DelayedData,CallOnInit]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:marker",CustomName:'[{"translate":"|","color":"#FF5555","bold":"true","obfuscated":"true"},{"translate":"|","color":"#FFAA00"},{"translate":"|","color":"#FFFF55"},{"translate":"|","color":"#55FF55"},{"translate":"|","color":"#00AAAA"},{"translate":"|","color":"#55FFFF"},{"translate":"|","color":"#5555FF"},{"translate":"|","color":"#FF55FF"},{"translate":"-=< ","color":"#FFFFFF","bold":"true","obfuscated":"false"},{"translate":"ジェノサイドボム","color":"#FF5555","bold":"true","obfuscated":"false"},{"translate":" >=-","color":"#FFFFFF","bold":"true","obfuscated":"false"},{"translate":"|","color":"#FF55FF"},{"translate":"|","color":"#5555FF"},{"translate":"|","color":"#55FFFF"},{"translate":"|","color":"#00AAAA"},{"translate":"|","color":"#55FF55"},{"translate":"|","color":"#FFFF55"},{"translate":"|","color":"#FFAA00"},{"translate":"|","color":"#FF5555"}]',Tags:[DelayedData,CallOnInit]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Damage",Player:{Damage:9999d,DamageType:[Global],BypassArmor:true,BypassResistance:true},Mob:{Physical:999,Fire:999,Ice:999,Lightning:999,Light:999,Dark:999},Distance:{Max:6.0d}},{Name:"Kill"}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Damage",Player:{Damage:9999d,DamageType:[Global],BypassArmor:true,BypassResistance:true,DeathCause:'[{"translate":"%1$sの爆風で吹き飛んだ。","with":[{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'},Mob:{Physical:999,Fire:999,Ice:999,Lightning:999,Light:999,Dark:999},Distance:{Max:6.0d}},{Name:"Kill"}]}
 #Function
 playsound entity.wither.death neutral @a[distance=..32] ~ ~ ~ 0.4 0.5 0
 playsound entity.blaze.ambient neutral @a[distance=..32] ~ ~ ~ 0.7 0 0
