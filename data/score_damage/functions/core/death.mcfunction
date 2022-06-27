@@ -8,7 +8,7 @@
 # 死亡メッセージを非表示にする
     gamerule showDeathMessages false
 # カスタム死亡メッセージを表示し、killする
-    tellraw @s {"translate":"%1$sは%2$s","with":[{"selector":"@s"},{"storage":"score_damage:","nbt":"Argument.DeathCause","interpret":true}]}
+    tellraw @s {"storage":"score_damage:","nbt":"Argument.DeathCause","interpret":true}
     kill @s
 # 死亡メッセージを表示に戻す
     gamerule showDeathMessages true

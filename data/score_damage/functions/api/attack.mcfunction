@@ -17,6 +17,8 @@
 #       防御力/防具強度を無視するか否か, bool値
 #   Argument.BypassResistance: boolean
 #       耐性エフェクトを無視するか否か, bool値
+#   Argument.DeathCause: string,raw_json
+#       カスタム死亡メッセージを表示する。
 # @context EPFが-1以下の時 EntityのProtectionを参照します
 # @api
 
@@ -31,6 +33,6 @@
     execute unless data storage score_damage: Argument.DisableParticle run data modify storage score_damage: Argument.DisableParticle set value 0b
     execute unless data storage score_damage: Argument.BypassArmor run data modify storage score_damage: Argument.BypassArmor set value 0b
     execute unless data storage score_damage: Argument.BypassResistance run data modify storage score_damage: Argument.BypassResistance set value 0b
-    execute unless data storage score_damage: Argument.DeathCause run data modify storage score_damage: Argument.DeathCause set value '{"translate":"ダメージを受けて死んだ。"}'
+    execute unless data storage score_damage: Argument.DeathCause run data modify storage score_damage: Argument.DeathCause set value '{"translate":"%1$sはダメージを受けて死んだ。","with":[{"selector":"@s"}]}'
 # Healthを持つEntityであれば実行
     execute if data storage score_damage: Argument.Damage if entity @s[team=!Null] run function score_damage:core/attack
