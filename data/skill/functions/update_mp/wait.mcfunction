@@ -2,11 +2,10 @@
 ### MPウェイト更新
 
 ##マナリフレッシュ
-# scoreboard players operation _ _ = @s ManaRefresh
-# scoreboard players operation _ _ %= $10 Const
-# scoreboard players add _ _ 1
-#下のコマンドは仮なので、マナリフレッシュのときに削除する。
-scoreboard players set _ _ 1
+scoreboard players operation _ _ = @s ManaRefresh
+scoreboard players set _ Calc 10
+scoreboard players operation _ _ %= _ Calc
+scoreboard players add _ _ 1
 
 ### 0でMP回復
 scoreboard players operation @s MPConsumption -= _ _
@@ -17,8 +16,8 @@ scoreboard players set _ _ 1
 scoreboard players operation @s MPHealingWait > _ _
 
 ### マナリフレッシュカウントダウン
-# scoreboard players remove @s[scores={ManaRefresh=10..}] ManaRefresh 10
-# scoreboard players reset @s[scores={ManaRefresh=..10}] ManaRefresh
+scoreboard players remove @s[scores={ManaRefresh=10..}] ManaRefresh 10
+scoreboard players reset @s[scores={ManaRefresh=..10}] ManaRefresh
 
 ### MP回復反映
 scoreboard players set _ _ 0

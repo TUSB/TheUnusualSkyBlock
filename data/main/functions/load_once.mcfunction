@@ -108,6 +108,7 @@ scoreboard objectives add LightningBlow dummy {"text":"ライトニングブロ�
 scoreboard objectives add BlitzManover dummy {"text":"ブリッツマニューバ残りtick数"}
 scoreboard objectives add RockNRoll dummy {"text":"ロックンロール残り推定時間"}
 scoreboard objectives add Sleepga dummy {"text":"スリプガ継続秒数"}
+scoreboard objectives add ManaRefresh dummy {"text":"マナリフレッシュ残りミリ秒＆レベル"}
 #召喚士
 scoreboard objectives add FillSize dummy {"text":"フィールサイズ"}
 #共通
