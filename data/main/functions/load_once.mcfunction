@@ -110,6 +110,7 @@ scoreboard objectives add RockNRoll dummy {"text":"ロックンロール残り�
 scoreboard objectives add Sleepga dummy {"text":"スリプガ継続秒数"}
 scoreboard objectives add ManaRefresh dummy {"text":"マナリフレッシュ残りミリ秒＆レベル"}
 scoreboard objectives add MagicShield dummy {"text":"マジックシールド残りtick＆発動フラグ"}
+scoreboard objectives add DarkSwamp dummy {"text":"ダークスワンプ回数"}
 #召喚士
 scoreboard objectives add FillSize dummy {"text":"フィールサイズ"}
 #共通

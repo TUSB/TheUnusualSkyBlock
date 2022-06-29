@@ -12,8 +12,8 @@ execute as @s[tag=AvoidFalling2] run function skill:act/knight/decoy/avoid_falli
 # execute as @s[tag=GeoCrash2] run function skill:act/black_mage/geo_crash/occur
 
 ###ダークスワンプ復帰処理
-# effect give @s[tag=DarkSwampLevitation2,nbt={OnGround:true}] minecraft:levitation 1 1 true
-# tag @s[tag=DarkSwampLevitation2] remove DarkSwampLevitation2
+effect give @s[tag=DarkSwampLevitation2,nbt={OnGround:true}] minecraft:levitation 1 1 true
+tag @s[tag=DarkSwampLevitation2] remove DarkSwampLevitation2
 
 ###ぽんぽん突撃
 execute if entity @s[tag=Assault] run function skill:act/summoner/ponpon/assault
@@ -26,8 +26,8 @@ execute if entity @s[tag=Caught] run function skill:act/summoner/fukafuka/cage_d
 execute store success score _ _ run tag @s remove AvoidFalling
 execute if score _ _ matches 1.. run tag @s add AvoidFalling2
 ## ダークスワンプ
-# execute store success score _ _ run tag @s remove DarkSwampLevitation
-# execute if score _ _ matches 1.. run tag @s add DarkSwampLevitation2
+execute store success score _ _ run tag @s remove DarkSwampLevitation
+execute if score _ _ matches 1.. run tag @s add DarkSwampLevitation2
 ## ロックンロール
 # execute store success score _ _ run tag @s remove GeoCrash
 # execute if score _ _ matches 1.. run tag @s add GeoCrash2
