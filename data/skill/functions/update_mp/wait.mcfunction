@@ -23,6 +23,7 @@ scoreboard players reset @s[scores={ManaRefresh=..10}] ManaRefresh
 scoreboard players set _ _ 0
 execute if entity @s[nbt={ActiveEffects:[{Id:17b}]}] run scoreboard players set @s MPConsumption 0
 execute store success score _ _ if score @s MP < @s MPMax run scoreboard players operation @s MP -= @s MPConsumption
+execute if score _ _ matches 1 run scoreboard players operation @s MP < @s MPMax
 execute if score _ _ matches 0 store success score _ _ if score @s MP > @s MPMax
 execute if score _ _ matches 0 store result score _ Calc run xp query @s levels
 execute if score _ _ matches 0 store success score _ _ if score @s MP < _ Calc
