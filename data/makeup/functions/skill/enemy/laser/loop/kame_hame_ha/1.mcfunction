@@ -1,0 +1,1 @@
+particle end_rod ~ ~ ~ 0.01 0.01 0.01 0 1 @a[tag=ShowParticles]
