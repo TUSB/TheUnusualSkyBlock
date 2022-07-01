@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie",CustomName:'{"translate":"羊の亡霊"}',ActiveEffects:[{Id:14b,Amplifier:0b,Duration:2147483647,ShowParticles:0b},{Id:28b,Amplifier:0b,Duration:2147483647,ShowParticles:0b}],Silent:1b,PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,HasAI,TickingRequired,HasLootTable]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie",CustomName:'{"translate":"羊の亡霊","color":"#FF0000","bold":true}',ActiveEffects:[{Id:14b,Amplifier:0b,Duration:2147483647,ShowParticles:0b},{Id:28b,Amplifier:0b,Duration:2147483647,ShowParticles:0b}],Silent:1b,PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,HasAI,TickingRequired,HasLootTable]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {ArmorItems:[{},{},{},{id:"minecraft:white_wool",Count:1b}],ArmorDropChances:[0.085F,0.085F,0.085F,-1e+300F]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 30d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.2d

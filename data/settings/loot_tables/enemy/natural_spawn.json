@@ -362,6 +362,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Neutrality,Summon,BombThreatMan,Main,SpawnParticles],Level:50}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Neutrality,Blow,PassingTree,Main,SpawnParticles],Level:40}]]}"
             }
           ]
@@ -447,7 +458,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 40,
+          "weight": 30,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -458,7 +469,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 40,
+          "weight": 30,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -469,7 +480,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 40,
+          "weight": 30,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -491,7 +502,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 40,
+          "weight": 30,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -502,7 +513,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 40,
+          "weight": 30,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -513,7 +524,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 40,
+          "weight": 30,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -524,7 +535,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 40,
+          "weight": 30,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -535,7 +546,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 200,
+          "weight": 30,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -728,6 +739,17 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Neutrality,Blow,Emon,Main,SpawnParticles],Level:60}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Neutrality,Summon,BombThreatMan,Main,SpawnParticles],Level:50}]]}"
             }
           ]
         },

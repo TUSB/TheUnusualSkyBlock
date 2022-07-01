@@ -4,5 +4,6 @@ data modify storage tusb_mob: "即時ステータス"."見た目" set value {Arm
 ### 遅延ステータス
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"%1$sは%2$sによって未知の手段で死亡した。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:32,IgnoreBlocks:true}}],Name:"SmartMotion",TP:1b,Speed:{Set:50},Gravity:{Set:70}}],Time:[{Name:"Kill"}],Attack:[{Name:"Function",Tags:[Global,Event,Function,DamageSound,Ice]},{Name:"Function",Tags:[TocultColde,Sky,Blow,SherbetEye,ServantShootDebuff]}],Block:[{Name:"Function",Tags:[TocultColde,Sky,Blow,SherbetEye,ServantShootSound]}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:1,Max:1,Current:1},Loop:{Max:1,Current:1},Call:[{Name:"Function",Tags:[TocultColde,Sky,Blow,SherbetEye,ServantShootAppearance]}]}],Exit:{Loop:{Max:1,Current:1}}}]}
