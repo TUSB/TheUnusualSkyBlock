@@ -1,1 +1,1 @@
-particle end_rod ~ ~ ~ 0.01 0.01 0.01 0 1 @a[tag=ShowParticles]
+particle end_rod ~ ~ ~ 0.01 0.01 0.01 0 1 force @a[tag=ShowParticles]
