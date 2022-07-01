@@ -112,6 +112,7 @@ scoreboard objectives add ManaRefresh dummy {"text":"マナリフレッシュ残
 scoreboard objectives add MagicShield dummy {"text":"マジックシールド残りtick＆発動フラグ"}
 scoreboard objectives add DarkSwamp dummy {"text":"ダークスワンプ回数"}
 scoreboard objectives add WindWall dummy {"text":"ウィンドウォール残りtick＆レベル"}
+scoreboard objectives add HomePoint trigger {"text":"ホームポイント設定トリガー"}
 #召喚士
 scoreboard objectives add FillSize dummy {"text":"フィールサイズ"}
 #共通
@@ -207,3 +208,6 @@ function settings:player/tips
 
 #飛空島ゲート駅schedule開始
 function area:flying_islands_gate/change
+
+#ルーラデフォルト定義
+function settings:skill/black_mage/return/default

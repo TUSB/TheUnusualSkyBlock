@@ -50,6 +50,7 @@ execute if entity @s[scores={BlitzManover=0..}] at @s run function skill:act/bla
 execute if entity @s[scores={RockNRoll=0..}] at @s run function skill:act/black_mage/rock_n_roll/tick
 execute if entity @s[scores={MagicShield=0..}] at @s run function skill:act/black_mage/magic_shield/tick
 execute if entity @s[scores={WindWall=0..}] at @s run function skill:act/black_mage/wind_wall/tick
+execute if entity @s[scores={HomePoint=1..}] at @s run function skill:act/black_mage/return/home_point/trigger
 
 ### MP回復
 function skill:update_mp/
