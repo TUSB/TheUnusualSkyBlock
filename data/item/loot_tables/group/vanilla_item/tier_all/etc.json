@@ -16,6 +16,11 @@
         {
           "weight": 3,
           "type": "minecraft:item",
+          "name": "minecraft:bundle"
+        },
+        {
+          "weight": 3,
+          "type": "minecraft:item",
           "name": "minecraft:coal",
           "functions": [
             {
@@ -102,14 +107,79 @@
           ]
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "minecraft:item",
-          "name": "minecraft:totem_of_undying"
+          "name": "minecraft:slime_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "weight": 2,
+          "type": "minecraft:item",
+          "name": "minecraft:magma_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "weight": 2,
+          "type": "minecraft:item",
+          "name": "minecraft:honey_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "weight": 2,
+          "type": "minecraft:item",
+          "name": "minecraft:tinted_glass",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "weight": 2,
+          "type": "minecraft:item",
+          "name": "minecraft:tnt",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
         },
         {
           "weight": 1,
           "type": "minecraft:item",
-          "name": "minecraft:bundle"
+          "name": "minecraft:totem_of_undying"
         }
       ]
     }
