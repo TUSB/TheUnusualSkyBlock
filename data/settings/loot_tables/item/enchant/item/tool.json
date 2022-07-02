@@ -5,6 +5,11 @@
       "entries": [
         {
           "type": "minecraft:loot_table",
+          "weight": 7,
+          "name": "settings:item/enchant/item/all"
+        },
+        {
+          "type": "minecraft:loot_table",
           "weight": 10,
           "name": "settings:item/enchant/enchant/efficiency",
           "conditions": [
