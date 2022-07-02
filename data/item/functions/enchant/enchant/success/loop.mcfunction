@@ -1,4 +1,4 @@
-#ランダムTier = floor(石のTier/2)～石のTier
+#ランダムTier = min(1,floor(石のTier/2)～石のTier)
 scoreboard players set @s _ 2
 execute store result score @s Calc store result score _ Level run data get storage item: Items[{Slot:22b}].tag.Tier
 scoreboard players operation @s Calc /= @s _
@@ -7,6 +7,7 @@ scoreboard players add _ Level 1
 execute store result score @s _ run function calc:random
 scoreboard players operation @s _ %= _ Level
 scoreboard players operation @s _ += @s Calc
+execute if score @s _ matches 0 run scoreboard players set @s _ 1
 #ブロックを更新
 function item:system/shulker_box/save
 #エンチャントをルート
