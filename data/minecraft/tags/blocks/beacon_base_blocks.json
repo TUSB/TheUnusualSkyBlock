@@ -1,4 +1,5 @@
 {
+  "replace": true,
   "values": [
     "minecraft:barrier",
     "minecraft:tnt",
