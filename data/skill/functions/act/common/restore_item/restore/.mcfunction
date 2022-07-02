@@ -71,24 +71,9 @@ loot replace entity @s inventory.0 27 mine 2 2 2 debug_stick
 
 execute unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].RestoreItemData[-1] run tag @s remove HasRestoreItems
 
-#復活地点調整 レイズ処理を利用
-data modify storage tusb_player: Raise set from storage tusb_player: RestoreItem.RaisePoint
-
-tag @s add Raising
-
-# 蘇生先tpエンティティ召喚
-execute at @s run summon marker ~ ~ ~ {Tags:[RaiseTP]}
-
-# 蘇生先tp
-# 非読み込みチャンク内では @s で呼び出す。
-execute as @e[tag=RaiseTP] run function skill:act/white_mage/araise/raise_tp_pos
-
-# ディメンション移動
-# この後座標は移動後のものにするので、今後は全て at @s
-execute at @s run function skill:act/white_mage/araise/raise_tp_dimension
-
-#タグ削除
-tag @s remove Raising
+#復活地点調整 AnywhereTeleport処理を利用
+data modify storage anywhere: at set from storage tusb_player: RestoreItem.RaisePoint
+execute at @s run function #anywhere:tp
 
 tellraw @s {"translate":"インベントリと位置情報を復元しました。","color":"green"}
 execute at @s run function makeup:skill/act/common/restore_item/return
