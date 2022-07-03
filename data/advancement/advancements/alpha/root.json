@@ -9,7 +9,7 @@
         "text": ""
       },
       {
-        "translate": "< v13α >  -達成度-  ",
+        "translate": "< v13α >  -完全制覇-  ",
         "color": "white",
         "bold": true
       }
@@ -1306,5 +1306,8 @@
     [
       "64"
     ]
-  ]
+  ],
+  "rewards": {
+    "function": "enemy:break_spawner/alpha_advancements/complete"
+  }
 }

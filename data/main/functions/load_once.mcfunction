@@ -189,6 +189,9 @@ team modify LightPurple color light_purple
 team add Gold {"text":"黄色チーム"}
 team modify Gold color gold
 
+#時間初期化
+execute unless score $Hours Count matches 0.. run scoreboard players set $Hours Count 0
+execute unless score $Minutes Count matches 0.. run scoreboard players set $Minutes Count 0
 
 ###Callから呼び出されるスキル系統のスコア
 scoreboard objectives add ActionTick dummy {"text":"行動時間"}
