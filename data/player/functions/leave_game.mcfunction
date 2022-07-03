@@ -12,4 +12,7 @@ tag @s remove SelectRestoreItem
 #プレイヤーゲーム設定
 function player:game_settings/show
 
+#v13Alpha 進捗更新
+function enemy:break_spawner/alpha_advancements/update
+
 scoreboard players reset @s LeaveGame

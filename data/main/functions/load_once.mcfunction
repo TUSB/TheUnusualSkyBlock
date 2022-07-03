@@ -24,6 +24,7 @@ scoreboard objectives add HealthHealing dummy {"text":"HP回復量"}
 scoreboard objectives add Age minecraft.custom:minecraft.time_since_death {"text":"生きている時間"}
 scoreboard objectives add TemporaryEffects dummy {"text":"一時的ステータス変化Flags"}
 scoreboard objectives add ParticleDenom dummy {"text":"パーティクル表示割合"}
+scoreboard objectives add BreakSpawner dummy {"text":"スポナー破壊数"}
 
 ###アイテム
 scoreboard objectives add EnchantLevel dummy {"text":"エンチャントレベル"}
@@ -166,7 +167,7 @@ scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken {"
 scoreboard objectives add Jump minecraft.custom:minecraft.jump {"text":"ジャンプ"}
 scoreboard objectives add Deaths minecraft.custom:minecraft.deaths {"text":"死亡"}
 scoreboard objectives add Hunger dummy {"text":"死亡時調整満腹度"}
-scoreboard objectives add MineLodestone minecraft.mined:minecraft.lodestone {"text":"スポナー破壊"}
+scoreboard objectives add MineLodestone minecraft.mined:minecraft.lodestone {"text":"ロードストーン採掘"}
 scoreboard objectives add Talk minecraft.custom:talked_to_villager {"text":"会話回数"}
 scoreboard objectives add Trade minecraft.custom:traded_with_villager {"text":"取引回数"}
 
