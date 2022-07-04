@@ -25,6 +25,8 @@ scoreboard objectives add Age minecraft.custom:minecraft.time_since_death {"text
 scoreboard objectives add TemporaryEffects dummy {"text":"一時的ステータス変化Flags"}
 scoreboard objectives add ParticleDenom dummy {"text":"パーティクル表示割合"}
 scoreboard objectives add BreakSpawner dummy {"text":"スポナー破壊数"}
+scoreboard objectives add FoodLevel food {"text":"満腹度"}
+scoreboard objectives add LastFoodLevel dummy {"text":"直前満腹度"}
 
 ###アイテム
 scoreboard objectives add EnchantLevel dummy {"text":"エンチャントレベル"}
@@ -103,6 +105,7 @@ scoreboard objectives add Kaishaku dummy {"text":"介錯残りtick数"}
 scoreboard objectives add PiercingAim dummy {"text":"ピアッシングエイム継続秒数"}
 scoreboard objectives add RaderVision dummy {"text":"レーダーヴィジョン継続tick数"}
 scoreboard objectives add WildCooking dummy {"text":"ワイルドクッキング継続秒数"}
+scoreboard objectives add WildHealing dummy {"text":"ワイルドヒーリングレベル"}
 #黒魔道士
 scoreboard objectives add EclipseRadius dummy {"text":"エクリプスフレイム半径"}
 scoreboard objectives add LightningBlow dummy {"text":"ライトニングブロー威力"}
