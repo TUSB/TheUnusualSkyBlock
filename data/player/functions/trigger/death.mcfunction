@@ -22,6 +22,7 @@ function skill:act/white_mage/clear/cure/level4
 #トグルスキル解除
 scoreboard players reset @s ReactiveLevel
 scoreboard players reset @s ChoyakuLevel
+scoreboard players reset @s WildHealing
 
 ## 死亡トリガーリセット
 execute store result score @s Hunger run data get entity @s foodLevel
