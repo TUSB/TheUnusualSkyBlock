@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 15,
+          "weight": 16,
           "type": "loot_table",
           "name": "item:item/firework_star/etc/trap_spawn_genocide_bomb",
           "functions": [
@@ -18,7 +18,7 @@
           ]
         },
         {
-          "weight": 15,
+          "weight": 16,
           "type": "loot_table",
           "name": "item:item/firework_star/etc/trap_spawn_common_bomb",
           "functions": [
@@ -32,7 +32,7 @@
           ]
         },
         {
-          "weight": 15,
+          "weight": 16,
           "type": "loot_table",
           "name": "item:item/firework_star/etc/trap_spawn_igar_thorn",
           "functions": [
@@ -46,7 +46,12 @@
           ]
         },
         {
-          "weight": 5,
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_decoy_teleport_pot"
+        },
+        {
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/firework_star/etc/trap_spawn_spawner_vase"
         },
