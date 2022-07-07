@@ -31,5 +31,9 @@ kill @s[type=minecraft:item,nbt={Item:{tag:{NeverRemain:true}}}]
 #クリーパー爆発のAEC削除
 kill @s[type=area_effect_cloud,nbt={Radius:2.5f,RadiusOnUse:-0.5f,RadiusPerTick:-0.008333334f}]
 
+#ゾンビ増援制御
+attribute @s[type=zombie] zombie.spawn_reinforcements base set 0.0
+data remove entity @s[type=zombie] Attributes[{Name:"minecraft:zombie.spawn_reinforcements"}].Modifiers
+
 ### 初期化済みタグ付与
 tag @s add Initialized
