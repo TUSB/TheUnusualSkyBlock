@@ -24,7 +24,7 @@ tellraw @s[gamemode=!adventure] {"translate":"<キャンセルする>","color":"
 #アドベンチャー
 tellraw @s[gamemode=adventure] {"translate":"アドベンチャーエリアでは使用できません","color":"red","bold":true}
 
-scoreboard players reset @s[gamemode=!adventure] RestoreItem
+scoreboard players reset @a RestoreItem
 scoreboard players enable @s[gamemode=!adventure] RestoreItem
 
 tag @s[gamemode=!adventure] add SelectRestoreItem
