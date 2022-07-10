@@ -13,9 +13,6 @@ execute if score @s ChangeSettings matches 11 run function player:game_settings/
 # 11,12,13 テキスト表示位置調整
 execute if score @s ChangeSettings matches 12..14 run function player:game_settings/tune_offset
 
-# 14 スニークで設定表示切り替え
-execute if score @s ChangeSettings matches 15 run function player:game_settings/toggle_sneak_trigger
-
 # 101-105 フィールサイズ
 execute if score @s ChangeSettings matches 101..105 run function skill:act/summoner/fill/set_size
 
