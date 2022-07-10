@@ -3,19 +3,19 @@
 ##############################
 
 execute store result score _ _ run time query daytime
-execute if score _ _ matches 05000..07000 run scoreboard players set _ Calc 1
-execute if score _ _ matches 07000..09000 run scoreboard players set _ Calc 2
-execute if score _ _ matches 09000..11000 run scoreboard players set _ Calc 3
-execute if score _ _ matches 11000..13000 run scoreboard players set _ Calc 4
-execute if score _ _ matches 13000..15000 run scoreboard players set _ Calc 5
-execute if score _ _ matches 15000..17000 run scoreboard players set _ Calc 6
-execute if score _ _ matches 17000..19000 run scoreboard players set _ Calc 7
-execute if score _ _ matches 19000..21000 run scoreboard players set _ Calc 6
-execute if score _ _ matches 21000..23000 run scoreboard players set _ Calc 5
-execute if score _ _ matches 23000..24000 run scoreboard players set _ Calc 4
-execute if score _ _ matches 00000..01000 run scoreboard players set _ Calc 4
-execute if score _ _ matches 01000..03000 run scoreboard players set _ Calc 3
-execute if score _ _ matches 03000..05000 run scoreboard players set _ Calc 2
+
+#17:00-19:00=>2 19:00-20:30=>3 20:30-22:00=>4 22:00-23:30=>5 23:30-0:30=>6 0:30-2:00=>5 2:00-3:30=>4 3:30-5:00=>3 5:00-7:00=>2 7:00-17:00=>1
+execute if score _ _ matches 11000..13000 run scoreboard players set _ Calc 2
+execute if score _ _ matches 13000..14500 run scoreboard players set _ Calc 3
+execute if score _ _ matches 14500..16000 run scoreboard players set _ Calc 4
+execute if score _ _ matches 16000..17500 run scoreboard players set _ Calc 5
+execute if score _ _ matches 17500..18500 run scoreboard players set _ Calc 6
+execute if score _ _ matches 18500..20000 run scoreboard players set _ Calc 5
+execute if score _ _ matches 20000..21500 run scoreboard players set _ Calc 4
+execute if score _ _ matches 21500..23000 run scoreboard players set _ Calc 3
+execute if score _ _ matches 23000..24000 run scoreboard players set _ Calc 2
+execute if score _ _ matches 00000..01000 run scoreboard players set _ Calc 2
+execute if score _ _ matches 01000..11000 run scoreboard players set _ Calc 1
 execute if score _ Level matches 2 run scoreboard players add _ Calc 1
 execute if score _ Level matches 3 run scoreboard players add _ Calc 2
 
