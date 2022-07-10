@@ -1,15 +1,13 @@
 #周回時
 
+#周回数+1
+execute store result score _ _ run data get storage v13alpha: Loops
+execute store result storage v13alpha: Loops int 1 run scoreboard players add _ _ 1
 #島のスポナー、コンテナ設置
 execute in area:skylands positioned -256 100 768 at @e[tag=Spawner,tag=v13Alpha,distance=..128] run kill @e[tag=Spawner,distance=..1]
 function settings:alpha_debug/container
 function settings:alpha_debug/spawner
-execute in area:skylands positioned -256 100 768 at @e[tag=Spawner,tag=v13Alpha,distance=..128] run setblock ~ ~ ~ obsidian
-execute in area:skylands positioned -256 100 768 as @e[tag=Spawner,tag=v13Alpha,distance=..128] store result entity @s AbsorptionAmount int 1 run data get entity @s AbsorptionAmount 2
-execute in area:skylands positioned -256 100 768 as @e[tag=Spawner,tag=v13Alpha,distance=..128] store result entity @s ArmorItems[0].tag.Experience int 1 run data get entity @s ArmorItems[0].tag.Experience 2
-#周回数+1
-execute store result score _ _ run data get storage v13alpha: Loops
-execute store result storage v13alpha: Loops int 1 run scoreboard players add _ _ 1
+execute in area:skylands positioned -256 100 768 as @e[tag=Spawner,tag=v13Alpha,distance=..128] run function settings:alpha_debug/new_game_apply
 #クリア時間リセット 本編では絶対実行しない
 scoreboard players set $Seconds Count 0
 scoreboard players set $TenSeconds Count 0
