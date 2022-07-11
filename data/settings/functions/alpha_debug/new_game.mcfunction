@@ -15,7 +15,7 @@ scoreboard players set $Minutes Count 0
 scoreboard players set $Hours Count 0
 #初期地点にTP ログアウトしているプレイヤーは考慮しない
 tp @a -172 49 767 ~ ~
-tellraw @a {"text":"島のスポナーと報酬が復活した。","color":"green"}
+tellraw @a {"translate":"島のスポナーと報酬が復活した。","color":"green"}
 playsound minecraft:block.beacon.power_select master @a -172 49 767 1 0.9
 playsound minecraft:block.beacon.power_select master @a -172 49 767 1 0.92
 #進捗リセット
