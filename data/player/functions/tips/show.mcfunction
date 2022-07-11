@@ -62,9 +62,9 @@ execute if score _ TipsSuppressFlag matches 25 run tellraw @s {"storage":"tusb_p
 execute if score _ TipsSuppressFlag matches 26 run tellraw @s {"storage":"tusb_player:","nbt":"TIPS[25]","interpret":true}
 execute if score _ TipsSuppressFlag matches 27 run tellraw @s {"storage":"tusb_player:","nbt":"TIPS[26]","interpret":true}
 execute if score _ TipsSuppressFlag matches 28 run tellraw @s {"storage":"tusb_player:","nbt":"TIPS[27]","interpret":true}
-# execute if score _ TipsSuppressFlag matches 29 run tellraw @s {"storage":"tusb_player:","nbt":"TIPS[28]","interpret":true}
-# execute if score _ TipsSuppressFlag matches 20 run tellraw @s {"storage":"tusb_player:","nbt":"TIPS[29]","interpret":true}
+execute if score _ TipsSuppressFlag matches 29 run tellraw @s {"storage":"tusb_player:","nbt":"TIPS[28]","interpret":true}
+execute if score _ TipsSuppressFlag matches 20 run tellraw @s {"storage":"tusb_player:","nbt":"TIPS[29]","interpret":true}
 
 ## 31-32
-# execute if score _ TipsSuppressFlag matches 31 run tellraw @s {"storage":"tusb_player:","nbt":"TIPS[30]","interpret":true}
-# execute if score _ TipsSuppressFlag matches 32 run tellraw @s {"storage":"tusb_player:","nbt":"TIPS[31]","interpret":true}
+execute if score _ TipsSuppressFlag matches 31 run tellraw @s {"storage":"tusb_player:","nbt":"TIPS[30]","interpret":true}
+execute if score _ TipsSuppressFlag matches 32 run tellraw @s {"storage":"tusb_player:","nbt":"TIPS[31]","interpret":true}
