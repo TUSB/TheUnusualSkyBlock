@@ -6,6 +6,8 @@ scoreboard players operation _ MP *= @s MPCostRate
 scoreboard players operation _ MP /= _ _
 #アイサツ補正
 execute if score @s Aisatsu matches 1.. run function skill:act/ninja/aisatsu/apply
+###エナジーセーブ補正
+execute if score @s EnergySave matches 0.. run function skill:act/hunter/energy_save/calc
 #MP確認
 execute unless score @s MP >= _ MP run function makeup:skill/practice/error/low_mp
 #麻痺確認

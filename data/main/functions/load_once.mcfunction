@@ -106,6 +106,7 @@ scoreboard objectives add PiercingAim dummy {"text":"ピアッシングエイム
 scoreboard objectives add RaderVision dummy {"text":"レーダーヴィジョン継続tick数"}
 scoreboard objectives add WildCooking dummy {"text":"ワイルドクッキング継続秒数"}
 scoreboard objectives add WildHealing dummy {"text":"ワイルドヒーリングレベル"}
+scoreboard objectives add EnergySave dummy {"text":"エナジーセーブ消費MP減少効果量"}
 #黒魔道士
 scoreboard objectives add EclipseRadius dummy {"text":"エクリプスフレイム半径"}
 scoreboard objectives add LightningBlow dummy {"text":"ライトニングブロー威力"}
