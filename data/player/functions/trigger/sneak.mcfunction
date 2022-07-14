@@ -6,13 +6,13 @@ execute if score @s SneakTime matches 3 run scoreboard players add @s SneakTrigg
 #スニーク頻度
 execute if score @s SneakTime matches 1 run scoreboard players add @s SneakFrequency 10
 # スニークスキル
-execute if score @s SneakTime matches 3 run function skill:trigger/sneak
+execute if score @s[gamemode=!spectator] SneakTime matches 3 run function skill:trigger/sneak
 
 #スニーク解除   スニークし終わったときに実行したい処理はこの下に追加
 execute if score @s SneakTime matches ..2 run scoreboard players reset @s SneakTrigger
 
 # スニーク解除時スキル
-execute if score @s SneakTime matches 2 if data entity @s SelectedItem.tag{Skill:{Trigger:"剣を持った状態でスニーク解除"}} if entity @s[predicate=skill:trigger/weapon] run function skill:trigger/after_sneak_skill
+execute if score @s[gamemode=!spectator] SneakTime matches 2 if data entity @s SelectedItem.tag{Skill:{Trigger:"剣を持った状態でスニーク解除"}} if entity @s[predicate=skill:trigger/weapon] run function skill:trigger/after_sneak_skill
 
 ##スニーク状態取得
 scoreboard players set _ _ 2
