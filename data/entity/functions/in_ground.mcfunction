@@ -22,7 +22,7 @@ tag @s remove NativeTask
 #execute if entity @s[tag=Ice] run function entity:block_placer/ice
 
 ###ワイルドフレア処理
-#execute if entity @s[tag=WildFlareSeed] run kill @s
+execute if entity @s[tag=WildFlareSeed] run kill @s
 ###ぽむぽむ花火処理
 execute if entity @s[tag=PomPom] run function skill:act/summoner/pompom/block
 
