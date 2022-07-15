@@ -9,6 +9,9 @@ tag @s[tag=Reraise] add Raise
 tag @s[tag=Reraise] remove Reraise
 execute if entity @s[tag=Raise] run function skill:act/white_mage/araise/raise
 
+# サヨナラ処理
+execute if score @s SayonaraLevel matches 1.. run function skill:act/ninja/sayonara/trigger/death
+
 # 呪詛
 execute if entity @s[tag=Curse] run function effects:curse/death
 
@@ -23,6 +26,7 @@ function skill:act/white_mage/clear/cure/level4
 scoreboard players reset @s ReactiveLevel
 scoreboard players reset @s ChoyakuLevel
 scoreboard players reset @s WildHealing
+scoreboard players reset @s SayonaraLevel
 
 ## 死亡トリガーリセット
 execute store result score @s Hunger run data get entity @s foodLevel
