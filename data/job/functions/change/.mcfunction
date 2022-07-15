@@ -25,3 +25,6 @@ function job:status/operation_end
 
 #レベルアップ可能ならレベルアップする
 execute if score @s Exp >= @s RequiredExp run function job:level_up/
+
+# トグルスキルリセット
+function skill:toggle_reset
