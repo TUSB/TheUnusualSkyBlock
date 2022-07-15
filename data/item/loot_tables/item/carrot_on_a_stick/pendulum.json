@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:127,display:{Name:'{\"translate\":\"ペンデュラム\"}',Lore:['{\"translate\":\"先端に青い石のついた振り子。\",\"color\":\"white\"}','{\"translate\":\"直感力を研ぎ澄ますことができる。\",\"color\":\"white\"}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" ダウジングスポナー\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"ダウジングスポナー\",Level:1,Interval:20,Trigger:\"手に持って右クリック\",Count:300}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

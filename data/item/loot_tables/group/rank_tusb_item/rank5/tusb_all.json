@@ -21,11 +21,6 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/lightsaber_chopstick"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/area_high_ether"
         },
         {
@@ -367,11 +362,6 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/the_game_over"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/wooden_sword/powerful_fish"
         }
       ]
     }
