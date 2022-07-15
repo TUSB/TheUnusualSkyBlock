@@ -1,3 +1,4 @@
+execute if data storage skill: Skill{Name:"ダウジングスポナー"} run function skill:act/common/dowsing_spawner/act0
 execute if data storage skill: Skill{Name:"リスト・アイテム"} run function skill:act/common/restore_item/act0
 execute if data storage skill: Skill{Name:"自爆キャンセラー"} run function skill:act/common/self_destruct_canceller/act0
 execute if data storage skill: Skill{Name:"病気治し"} run function skill:act/common/disease_cure/act0
