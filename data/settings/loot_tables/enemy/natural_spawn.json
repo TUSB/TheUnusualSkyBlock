@@ -71,6 +71,17 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 100,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Combat,Skeleton],Level:8}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 40,
           "name": "minecraft:stick",
           "functions": [
@@ -99,17 +110,6 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,CarrotCarrotski,SpawnParticles],Level:10}]]}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 100,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Combat,Skeleton],Level:8}]]}"
             }
           ]
         },
@@ -176,17 +176,6 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Neutrality,Summon,JobSearchAgents,SpawnParticles],Level:100}]]}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1000,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Other,Blow,Air],Level:1}]]}"
             }
           ]
         },
@@ -458,39 +447,6 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,ElixirMerchant,SpawnParticles],Level:1}]]}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 30,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,EtherMerchant,SpawnParticles],Level:1}]]}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 30,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,CarrotCarrotski,SpawnParticles],Level:10}]]}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "weight": 100,
           "name": "minecraft:stick",
           "functions": [
@@ -502,7 +458,40 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 15,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,ElixirMerchant,SpawnParticles],Level:1}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,EtherMerchant,SpawnParticles],Level:1}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,CarrotCarrotski,SpawnParticles],Level:10}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 15,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -513,7 +502,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 15,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -524,7 +513,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 15,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -535,7 +524,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 15,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -546,7 +535,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 15,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -557,23 +546,12 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 2,
           "name": "minecraft:stick",
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Neutrality,Summon,JobSearchAgents,SpawnParticles],Level:100}]]}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1000,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Other,Blow,Air],Level:1}]]}"
             }
           ]
         },
@@ -711,7 +689,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 15,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -722,7 +700,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 25,
+          "weight": 12,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -733,7 +711,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 15,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -744,7 +722,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
+          "weight": 2,
           "name": "minecraft:stick",
           "functions": [
             {
