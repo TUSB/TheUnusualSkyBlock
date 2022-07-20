@@ -1,10 +1,11 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:creeper_head"
     },
     "title": {
-      "translate": "アームドゾンビ"
+      "translate": "スローパー",
+      "color": "#FF0000"
     },
     "description": {
       "translate": ""
