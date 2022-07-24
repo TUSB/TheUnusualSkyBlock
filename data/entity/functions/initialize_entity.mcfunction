@@ -28,6 +28,9 @@ execute if data entity @s[type=item] Item.tag.SpawnEntities run function enemy:s
 ### NeverRemain削除
 kill @s[type=minecraft:item,nbt={Item:{tag:{NeverRemain:true}}}]
 
+#TNTを即時起爆
+data modify entity @s[type=tnt] Fuse set value 0s
+
 #クリーパー爆発のAEC削除
 kill @s[type=area_effect_cloud,nbt={Radius:2.5f,RadiusOnUse:-0.5f,RadiusPerTick:-0.008333334f}]
 
