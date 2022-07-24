@@ -3,7 +3,7 @@
 scoreboard players set _ _ 5001
 execute store result score _ _ positioned as @e[tag=Spawner,distance=..50,limit=1,sort=nearest] run function calc:geometry/distance/
 
-execute if score _ _ matches 0000..0250 run tellraw @s [{"text":"<"},{"text":"◆◆◆◆◆◆◆◆◆◆","color":"#459fff"},{"text":"","color":"gray"},{"text":">  "},{"translate":"近くに強い反応がある。"}]
+execute if score _ _ matches 0000..0250 run tellraw @s [{"text":"<"},{"text":"◆◆◆◆◆◆◆◆◆◆","color":"#459fff"},{"text":"","color":"gray"},{"text":">  "},{"translate":"すぐ側にスポナーの反応がある。"}]
 execute if score _ _ matches 0251..0500 run tellraw @s [{"text":"<"},{"text":"◆◆◆◆◆◆◆◆◆+","color":"#459fff"},{"text":"","color":"gray"},{"text":">  "},{"translate":"近くに強い反応がある。"}]
 execute if score _ _ matches 0501..0750 run tellraw @s [{"text":"<"},{"text":"◆◆◆◆◆◆◆◆◆","color":"#459fff"},{"text":"-","color":"gray"},{"text":">  "},{"translate":"近くに強い反応がある。"}]
 execute if score _ _ matches 0751..1000 run tellraw @s [{"text":"<"},{"text":"◆◆◆◆◆◆◆◆+","color":"#459fff"},{"text":"-","color":"gray"},{"text":">  "},{"translate":"近くに強い反応がある。"}]
