@@ -35,6 +35,9 @@ scoreboard players operation _ Level < _ _
 #演出 - テキスト
 function makeup:job/level_up/text
 
+#スキル習得表示
+execute if score _ Level matches ..50 run function job:level_up/acquirement/
+
 #体力・MP調整
 function effects:status/life_to_max
 
