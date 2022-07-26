@@ -53,6 +53,8 @@ execute if entity @s[scores={RockNRoll=0..}] run function skill:act/black_mage/r
 execute if entity @s[scores={MagicShield=0..}] run function skill:act/black_mage/magic_shield/tick
 execute if entity @s[scores={WindWall=0..}] run function skill:act/black_mage/wind_wall/tick
 execute if entity @s[scores={HomePoint=1..}] run function skill:act/black_mage/return/home_point/trigger
+# 共通
+execute if entity @s[scores={RestoreItem=0..}] run function skill:act/common/restore_item/tick
 
 ### MP回復
 function skill:update_mp/

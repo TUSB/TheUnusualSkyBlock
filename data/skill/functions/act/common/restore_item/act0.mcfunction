@@ -20,15 +20,9 @@ tellraw @s[scores={RestoreItem=..2},gamemode=!adventure] {"translate":"<今の�
 #返却
 tellraw @s[tag=HasRestoreItems,gamemode=!adventure] {"translate":"<最後に保存したインベントリを返却する>","color":"red","clickEvent":{"action":"run_command","value":"/trigger RestoreItem set 2"}}
 #キャンセル
-tellraw @s[gamemode=!adventure] {"translate":"<キャンセルする>","color":"white","clickEvent": {"action":"run_command","value":"/trigger RestoreItem set 3"}}
+tellraw @s[gamemode=!adventure] {"translate":"<キャンセルする>","color":"white","clickEvent": {"action":"run_command","value":"/trigger RestoreItem set 0"}}
 #アドベンチャー
 tellraw @s[gamemode=adventure] {"translate":"アドベンチャーエリアでは使用できません","color":"red","bold":true}
 
-scoreboard players reset @a RestoreItem
+scoreboard players set @s[gamemode=!adventure] RestoreItem 6000
 scoreboard players enable @s[gamemode=!adventure] RestoreItem
-
-tag @s[gamemode=!adventure] add SelectRestoreItem
-#選択開始schedule
-execute if entity @s[gamemode=!adventure] run schedule function skill:act/common/restore_item/schedule/select 1s
-#選択終了schedule
-execute if entity @s[gamemode=!adventure] run schedule function skill:act/common/restore_item/schedule/select_end 30s
