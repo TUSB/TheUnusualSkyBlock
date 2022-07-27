@@ -1,4 +1,4 @@
-say SmartMotion の導入に成功しました
+#say SmartMotion の導入に成功しました
 
 scoreboard objectives add sm.Calc dummy
 scoreboard objectives add sm.X dummy
