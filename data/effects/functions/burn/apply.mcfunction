@@ -1,5 +1,5 @@
 
-### やけど
+### 火だるま
 
 execute unless score @s BurnCount matches 0.. run function makeup:effects/burn/apply
 

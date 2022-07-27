@@ -1,5 +1,5 @@
 
-### やけど 解除
+### 火だるま 解除
 
 scoreboard players reset @s BurnCount
 
