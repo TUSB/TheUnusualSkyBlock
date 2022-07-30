@@ -19,7 +19,7 @@ tellraw @s [""]
 tellraw @s [""]
 tellraw @s [""]
 tellraw @s ["",{"translate":" 潜在能力がリセットされた！！","color":"green"}]
-tellraw @s ["",{"translate":" 次の割り振りまで1時間の制限がかかった。","color":"green"}]
+tellraw @s ["",{"translate":" 次のリセットまで1時間の制限がかかった。","color":"green"}]
 
 function makeup:job/potentials/common/reset/
 

@@ -38,8 +38,8 @@ execute if score _ PotentialTrigger matches 141..149 run scoreboard players oper
 execute if score _ PotentialTrigger matches 141..149 run scoreboard players reset _ PotentialTrigger
 
 #キャパシティポイントリセット
-execute if score @s PotentialTrigger matches 132 if score _ Calc matches ..0 run function job:potentials/common/reset/unnecessary
-execute if score @s PotentialTrigger matches 132 if score _ Calc matches 1.. run function job:potentials/common/reset/
+execute if score @s PotentialTrigger matches 132 if score _ Calc matches ..0 unless score @s PotentialLock matches 1.. run function job:potentials/common/reset/unnecessary
+execute if score @s PotentialTrigger matches 132 if score _ Calc matches 1.. unless score @s PotentialLock matches 1.. run function job:potentials/common/reset/
 
 execute if entity @s[tag=OhMyDatCall] run function job:status/get_all_job_level
 execute if entity @s[tag=OhMyDatCall] run function job:status/operation_end
