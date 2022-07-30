@@ -23,3 +23,5 @@ execute if score _ Level matches 51..66 run tellraw @s {"translate":"たぶん�
 execute if score _ Level matches 34..50 run tellraw @s {"translate":"負ける気はしない。"}
 execute if score _ Level matches 21..33 run tellraw @s {"translate":"目隠ししていても勝てそうだ。"}
 execute if score _ Level matches ..20 run tellraw @s {"translate":"目隠しして座っていても勝てる。"}
+
+execute at @e[tag=CasterTarget,distance=..128] facing entity @s eyes positioned ^ ^ ^1 facing ^ ^ ^-1 rotated ~ ~-90 anchored eyes run function makeup:skill/act/common/analyse/success
