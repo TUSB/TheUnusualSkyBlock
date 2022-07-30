@@ -6,6 +6,7 @@ execute if entity @s[tag=SoupMerchant] run function settings:enemy/global/friend
 execute if entity @s[tag=CatCatch] run function settings:enemy/global/friendly/blow/cat_catch
 execute if entity @s[tag=Vogue] run function settings:enemy/global/friendly/blow/vogue
 execute if entity @s[tag=BrittleSkeleton] run function settings:enemy/global/friendly/blow/brittle_skeleton
+execute if entity @s[tag=ThoughtPot] run function settings:enemy/global/friendly/blow/thought_pot/
 execute if entity @s[tag=ScarecrowDoll] run function settings:enemy/global/friendly/blow/scarecrow_doll/
 execute if entity @s[tag=SpawnerVase] run function settings:enemy/global/friendly/blow/spawner_vase/
 execute if entity @s[tag=Employee] run function settings:enemy/global/friendly/blow/employee/
