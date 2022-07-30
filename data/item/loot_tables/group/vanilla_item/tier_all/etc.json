@@ -180,6 +180,11 @@
           "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:totem_of_undying"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/all_record"
         }
       ]
     }
