@@ -15,7 +15,7 @@ execute if score _ _ matches 2001..2250 run tellraw @s [{"text":"<"},{"text":"�
 execute if score _ _ matches 2251..2500 run tellraw @s [{"text":"<"},{"text":"◆◆◆◆◆+","color":"#459fff"},{"text":"----","color":"gray"},{"text":">  "},{"translate":"中くらいの反応がある。"}]
 execute if score _ _ matches 2501..2750 run tellraw @s [{"text":"<"},{"text":"◆◆◆◆◆","color":"#459fff"},{"text":"-----","color":"gray"},{"text":">  "},{"translate":"中くらいの反応がある。"}]
 execute if score _ _ matches 2751..3000 run tellraw @s [{"text":"<"},{"text":"◆◆◆◆+","color":"#459fff"},{"text":"-----","color":"gray"},{"text":">  "},{"translate":"中くらいの反応がある。"}]
-execute if score _ _ matches 3001..3250 run tellraw @s [{"text":"<"},{"text":"◆◆◆◆","color":"#459fff"},{"text":"------","color":"gray"},{"text":">  "},{"translate":"近くに強+反応が-る。"}]
+execute if score _ _ matches 3001..3250 run tellraw @s [{"text":"<"},{"text":"◆◆◆◆","color":"#459fff"},{"text":"------","color":"gray"},{"text":">  "},{"translate":"遠くから弱い反応がある。"}]
 execute if score _ _ matches 3251..3500 run tellraw @s [{"text":"<"},{"text":"◆◆◆+","color":"#459fff"},{"text":"------","color":"gray"},{"text":">  "},{"translate":"遠くから弱い反応がある。"}]
 execute if score _ _ matches 3501..3750 run tellraw @s [{"text":"<"},{"text":"◆◆◆","color":"#459fff"},{"text":"-------","color":"gray"},{"text":">  "},{"translate":"遠くから弱い反応がある。"}]
 execute if score _ _ matches 3751..4000 run tellraw @s [{"text":"<"},{"text":"◆◆+","color":"#459fff"},{"text":"-------","color":"gray"},{"text":">  "},{"translate":"遠くから弱い反応がある。"}]
