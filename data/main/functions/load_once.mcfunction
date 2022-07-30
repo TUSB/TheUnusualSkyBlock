@@ -2,6 +2,9 @@
 ### 初回ロード処理
 ##############################
 
+###ワールド初期スポーン地点
+execute in area:cloudia run setworldspawn -1901 110 -137
+
 ###ステータス
 scoreboard objectives add Level dummy {"text":"レベル"}
 scoreboard objectives add ElementFire dummy {"text":"炎属性値"}
