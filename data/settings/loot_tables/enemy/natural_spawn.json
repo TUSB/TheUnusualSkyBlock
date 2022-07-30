@@ -557,6 +557,17 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Ignore,Main],Level:10}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 50,
           "name": "minecraft:stick",
           "functions": [
