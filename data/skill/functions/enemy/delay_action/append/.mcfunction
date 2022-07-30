@@ -22,7 +22,7 @@ data modify storage mob_data: AddingAction.Tags set from storage mob_data: Call.
 data modify storage mob_data: AddingAction.ExtraSettings set from storage mob_data: Call.ExtraSettings
 
 ###次の詠唱Tick更新
-execute store result score _ _ run data get storage mob_data: AddingCast.NextAction
+execute store result score _ _ run data get storage mob_data: AddingAction.NextAction
 execute if score @s ActionTick matches -2147483647..2147483647 run scoreboard players operation _ _ += @s ActionTick
 execute unless score @s NextActionTick matches -2147483647..2147483647 run scoreboard players operation @s NextActionTick = _ _
 execute if score @s NextActionTick matches -2147483647..2147483647 run scoreboard players operation @s NextActionTick < _ _
