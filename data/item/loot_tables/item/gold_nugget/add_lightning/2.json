@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:61,EnchantStone:1b,EnchantID:\"雷\",Tier:2,display:{Name:'{\"translate\":\"%1$s%2$s(II)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"雷の\"},{\"translate\":\"欠片\"}]}',Lore:['{\"translate\":\"%s II\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"雷ダメージ追加\"}]}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器\",\"color\":\"gray\"}]','{\"text\":\"エンチャント台で使用\",\"italic\":false}']}}"
+              "tag": "{CustomModelData:61,EnchantStone:1b,EnchantID:\"雷\",Tier:2,display:{Name:'{\"translate\":\"%1$s%2$s(II)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"雷の\"},{\"translate\":\"欠片\"}]}',Lore:['{\"translate\":\"%s II\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"雷ダメージ追加\"}]}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器・道具\",\"color\":\"gray\"}]','{\"text\":\"エンチャント台で使用\",\"italic\":false}']}}"
             }
           ]
         }
