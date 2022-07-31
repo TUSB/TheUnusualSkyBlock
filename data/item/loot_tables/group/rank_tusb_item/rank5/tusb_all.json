@@ -206,6 +206,21 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/gold_nugget/spirit/2"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/philosopher/2"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/purification/2"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/gold_nugget/knockback/3"
         },
         {
@@ -312,11 +327,6 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/shield/spooky_shield"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/shield/windmill_shield"
         },
         {
           "weight": 1,

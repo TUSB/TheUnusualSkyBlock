@@ -16,12 +16,12 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/gold_nugget/element/3"
+          "name": "item:item/gold_nugget/element/4"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/gold_nugget/yin_yang/3"
+          "name": "item:item/gold_nugget/yin_yang/4"
         },
         {
           "weight": 1,
@@ -51,12 +51,7 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/gold_nugget/philosopher/3"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/purification/3"
+          "name": "item:item/gold_nugget/kamui/3"
         },
         {
           "weight": 1,
