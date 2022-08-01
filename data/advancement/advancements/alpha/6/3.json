@@ -1,10 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:zombie_head"
+      "item": "minecraft:flint",
+      "nbt": "{CustomModelData:3}"
     },
     "title": {
-      "translate": "アームドゾンビ"
+      "translate": "グリーンクリスタル",
+      "color": "#FF0000"
     },
     "description": {
       "translate": ""
