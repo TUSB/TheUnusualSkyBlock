@@ -17,6 +17,11 @@ function player:mp_bar/set
 ##満腹度調整
 function effects:status/hunger
 
+## ディメンション移動処理
+function oh_my_dat:please
+execute store success score _ _ run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].LastDeathDimension set from entity @s Dimension
+execute if score _ _ matches 1 run function player:rise/enter_dimension
+
 ##### この先座標が変更される可能性があるため、at @s で位置を修正すること。
 ## プレイヤー初期リスポーン修正
 execute unless data entity @s SpawnForced run function player:rise/none_spawn_point
