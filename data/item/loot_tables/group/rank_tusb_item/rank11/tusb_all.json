@@ -346,21 +346,6 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/gold_nugget/spirit/2"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/spirit/3"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/spirit/4"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
           "name": "item:item/gold_nugget/spirit/5"
         },
         {
@@ -517,21 +502,6 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/gold_nugget/purification/8"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/kamui/1"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/kamui/3"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/kamui/4"
         },
         {
           "weight": 1,

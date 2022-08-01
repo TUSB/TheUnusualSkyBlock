@@ -4,7 +4,8 @@
       "item": "minecraft:creeper_head"
     },
     "title": {
-      "translate": "ハートクリーパー"
+      "translate": "スローパー",
+      "color": "#FF0000"
     },
     "description": {
       "translate": ""

@@ -121,6 +121,21 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/gold_nugget/spirit/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/philosopher/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/purification/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/gold_nugget/knockback/4"
         },
         {

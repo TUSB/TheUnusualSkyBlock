@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 3,
+          "weight": 6,
           "type": "loot_table",
           "name": "item:item/gold_nugget/mystery/3"
         },

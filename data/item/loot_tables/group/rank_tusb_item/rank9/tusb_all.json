@@ -36,6 +36,21 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/gold_nugget/spirit/4"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/philosopher/4"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/purification/4"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/shield/time_feeding_shield"
         },
         {

@@ -108,6 +108,54 @@
             "nbt": "{Items:[{Slot:4b,id:\"minecraft:netherite_shovel\"}]}"
           }
         }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:wooden_hoe\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:stone_hoe\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:golden_hoe\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:iron_hoe\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:diamond_hoe\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:netherite_hoe\"}]}"
+          }
+        }
       }
     ]
   }
