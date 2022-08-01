@@ -1,4 +1,4 @@
-
+#> player:rise/
 ###生き返り後処理
 
 ##体力再設定
@@ -18,6 +18,9 @@ function player:mp_bar/set
 function effects:status/hunger
 
 ##### この先座標が変更される可能性があるため、at @s で位置を修正すること。
+## プレイヤー初期リスポーン修正
+execute unless data entity @s SpawnForced run function player:rise/none_spawn_point
+
 ### レスト・アイテム処理
 execute if entity @s[tag=HasRestoreItems,tag=!Raise] in area:control_area run function skill:act/common/restore_item/restore/
 execute if entity @s[tag=HasRestoreItems,tag=Raise] run function skill:act/common/restore_item/restore/cancel
