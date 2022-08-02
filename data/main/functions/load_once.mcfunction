@@ -123,6 +123,7 @@ scoreboard objectives add HomePoint trigger {"text":"ホームポイント設定
 #召喚士
 scoreboard objectives add FillSize dummy {"text":"フィールサイズ"}
 #共通
+scoreboard objectives add Weakness dummy {"text":"ウィークペイント効果時間"}
 scoreboard objectives add SkyWalk dummy {"text":"スカイウォーク"}
 scoreboard objectives add RestoreItem trigger {"text":"リスト・アイテム処理選択"}
 
