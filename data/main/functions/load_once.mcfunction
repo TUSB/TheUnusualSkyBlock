@@ -206,6 +206,7 @@ execute unless score $Minutes Count matches 0.. run scoreboard players set $Minu
 scoreboard objectives add ActionTick dummy {"text":"行動時間"}
 scoreboard objectives add NextActionTick dummy {"text":"次の行動時間"}
 scoreboard objectives add BlinkSubTimer dummy {"text":"幻影発動時タイマー"}
+scoreboard objectives add ParentID dummy {"text":"親ID"}
 
 #ScoreDamage
 function score_damage:core/init

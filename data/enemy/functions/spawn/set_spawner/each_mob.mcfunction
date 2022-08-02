@@ -37,6 +37,10 @@ data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList[-1].Level set from storage tusb_mob: MobTags[-1].Level
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList[-1]."遅延ステータス" set from storage tusb_mob: "遅延ステータス"
 
+# 親IDを保存する
+data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList[-1].ParentID set from storage tusb_mob: MobTags[-1].ParentID
+
+
 ### 上のモブをリストに追加する
 data modify storage tusb_mob: Passengers prepend from storage tusb_mob: SpawnData
 
