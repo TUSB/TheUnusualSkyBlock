@@ -191,11 +191,6 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/gold_nugget/mystery/1"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
           "name": "item:item/gold_nugget/blade/1"
         },
         {
@@ -242,6 +237,11 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/gold_nugget/feather_falling/1"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/1"
         },
         {
           "weight": 1,

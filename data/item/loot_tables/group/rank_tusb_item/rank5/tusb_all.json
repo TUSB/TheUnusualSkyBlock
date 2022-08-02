@@ -31,11 +31,6 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/corn_soup_pot"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/sword_of_oath"
         },
         {
@@ -57,6 +52,11 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/non_disadvantage"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/corn_soup_pot"
         },
         {
           "weight": 1,
@@ -106,12 +106,12 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/diamond_chestplate/tier5_diamond_chestplate"
+          "name": "item:item/diamond_boots/dragon_mail_b"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/diamond_helmet/dragon_mail_h"
+          "name": "item:item/diamond_chestplate/tier5_diamond_chestplate"
         },
         {
           "weight": 1,
@@ -121,17 +121,12 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/diamond_leggings/dragon_mail_l"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/diamond_boots/dragon_mail_b"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
           "name": "item:item/diamond_helmet/tier5_diamond_helmet"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_helmet/dragon_mail_h"
         },
         {
           "weight": 1,
@@ -142,6 +137,11 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/diamond_leggings/tier5_diamond_leggings"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_leggings/dragon_mail_l"
         },
         {
           "weight": 1,
