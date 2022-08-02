@@ -1,10 +1,12 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:skeleton_skull"
+      "item": "minecraft:flint",
+      "nbt": "{CustomModelData:4}"
     },
     "title": {
-      "translate": "コンバットスケルトン"
+      "translate": "ブルークリスタル",
+      "color": "#FF0000"
     },
     "description": {
       "translate": ""

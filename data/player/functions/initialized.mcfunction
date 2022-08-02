@@ -13,4 +13,6 @@ scoreboard players set @s AllExp 0
 function job:level_up/
 function job:status/get_all_job_level
 
+function player:rise/none_spawn_point
+
 team join Friendly

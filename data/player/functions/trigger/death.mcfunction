@@ -1,6 +1,10 @@
 
 ### 死亡時処理
 
+# 死亡ディメンション記録
+function oh_my_dat:please
+data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].LastDeathDimension set from entity @s Dimension
+
 #奈落死亡処理
 execute if entity @s[advancements={player:trigger/death={void_death=true}}] run function player:trigger/void_death/
 

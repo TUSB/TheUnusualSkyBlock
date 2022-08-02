@@ -8,7 +8,7 @@ execute if score _ Level matches 3 run data modify storage skill: Damage set fro
 #ダメージ計算
 function skill:damage/add/skill/weapon
 #ダメージを保存
-execute as @e[distance=..5,type=minecraft:arrow,tag=!Initialized,sort=nearest,limit=1] run function skill:damage/save
-execute as @e[distance=..5,type=minecraft:arrow,tag=!Initialized,sort=nearest,limit=1] run data merge entity @s {PortalCooldown:2,Tags:[WildFlareSeed,CooldownRequired]}
+execute as @e[distance=..5,type=#minecraft:arrows,tag=!Initialized,sort=nearest,limit=1] run function skill:damage/save
+execute as @e[distance=..5,type=#minecraft:arrows,tag=!Initialized,sort=nearest,limit=1] run data merge entity @s {PortalCooldown:2,Tags:[WildFlareSeed,CooldownRequired]}
 
 function makeup:skill/act/hunter/wild_flare/act0

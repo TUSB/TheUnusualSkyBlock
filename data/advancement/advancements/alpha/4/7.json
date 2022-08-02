@@ -2,10 +2,10 @@
   "display": {
     "icon": {
       "item": "minecraft:flint",
-      "nbt": "{CustomModelData:1}"
+      "nbt": "{CustomModelData:2}"
     },
     "title": {
-      "translate": "クリスタル",
+      "translate": "イエロークリスタル",
       "color": "#FF0000"
     },
     "description": {
