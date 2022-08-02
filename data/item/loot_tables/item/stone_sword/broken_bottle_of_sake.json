@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"割れた酒瓶\",\"color\":\"#FF0053\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"一応武器にはなるはず。\",\"color\":\"white\",\"italic\":false}']},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:0.2,Operation:1,UUID:[I;11,0,0,31],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:5,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:0.2,Operation:1,UUID:[I;11,0,0,51],Slot:\"mainhand\"}]}"
+              "tag": "{display:{Name:'{\"translate\":\"割れた酒瓶\",\"color\":\"#FF0053\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"一応武器にはなるはず。\",\"color\":\"white\",\"italic\":false}']},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:0.2,Operation:1,UUID:[I;11,0,0,31],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:5,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:0.2,Operation:1,UUID:[I;11,0,0,51],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"デフォルト\",Amount:1.6,Operation:0,UUID:[I;11,0,1,50],Slot:\"mainhand\"}]}"
             }
           ]
         }
