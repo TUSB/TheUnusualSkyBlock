@@ -6,7 +6,7 @@ execute if data storage item: Item.tag.Skill unless data storage item: Item.tag.
 execute if data storage item: Item.tag.Skill run function skill:trigger/set/remove_lore
 #Loreセット
 #スキル名
-data modify block 2 3 2 Text1 set value '[{"text":"","color":"white","italic":false},{"storage":"skill:","nbt":"Skill.Icon","font":"icon","color":"green"},{"text":" "},{"storage":"skill:","nbt":"Skill.Skill"}]'
+data modify block 2 3 2 Text1 set value '[{"text":"","color":"white","italic":false},{"storage":"skill:","nbt":"Skill.Icon","font":"icon","color":"light_purple"},{"text":" "},{"storage":"skill:","nbt":"Skill.Skill"}]'
 #固有のNameがなければスキル名をNameに入れる LoreCount-1
 execute unless data storage item: Item.tag.UniqueName run data modify storage item: Item.tag.display.Name set from block 2 3 2 Text1
 #固有のNameがあればスキル名をLoreに入れる
