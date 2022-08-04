@@ -111,7 +111,7 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/the_wind_memory_star"
+          "name": "item:item/carrot_on_a_stick/blood_menace_memory_star"
         },
         {
           "weight": 1,
@@ -251,22 +251,22 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/leather_boots/boots_of_the_wind"
+          "name": "item:item/leather_boots/blood_menace_b"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/leather_chestplate/chest_of_the_wind"
+          "name": "item:item/leather_chestplate/blood_menace_c"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/leather_helmet/helmet_of_the_wind"
+          "name": "item:item/leather_helmet/blood_menace_h"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/leather_leggings/leggings_of_the_wind"
+          "name": "item:item/leather_leggings/blood_menace_l"
         },
         {
           "weight": 1,

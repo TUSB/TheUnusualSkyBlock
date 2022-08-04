@@ -191,6 +191,11 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/1"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/gold_nugget/blade/1"
         },
         {
@@ -241,17 +246,17 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/gold_nugget/mystery/1"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
           "name": "item:item/iron_axe/ninja_kodachi"
         },
         {
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/iron_sword/knight_greatsword"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/potion/very_glow"
         },
         {
           "weight": 1,

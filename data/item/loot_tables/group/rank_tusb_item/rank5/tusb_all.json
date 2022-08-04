@@ -71,11 +71,6 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/blood_menace_memory_star"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/prism_soteira_memory_star"
         },
         {
@@ -251,27 +246,12 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/leather_boots/blood_menace_b"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
           "name": "item:item/leather_boots/prism_soteira_b"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/leather_chestplate/blood_menace_c"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
           "name": "item:item/leather_chestplate/prism_soteira_c"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/leather_helmet/blood_menace_h"
         },
         {
           "weight": 1,
@@ -282,11 +262,6 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/leather_leggings/prism_soteira_l"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/leather_leggings/blood_menace_l"
         },
         {
           "weight": 1,
