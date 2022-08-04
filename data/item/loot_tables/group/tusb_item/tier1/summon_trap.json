@@ -34,7 +34,7 @@
         {
           "weight": 18,
           "type": "loot_table",
-          "name": "item:item/firework_star/etc/trap_spawn_03woolscaffold",
+          "name": "item:item/firework_star/etc/trap_spawn_02woolscaffold",
           "functions": [
             {
               "function": "minecraft:set_count",
