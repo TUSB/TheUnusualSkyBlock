@@ -41,12 +41,12 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/diving_suit_memory_star"
+          "name": "item:item/carrot_on_a_stick/dragon_mail_memory_star"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/dragon_mail_memory_star"
+          "name": "item:item/carrot_on_a_stick/diving_suit_memory_star"
         },
         {
           "weight": 1,
@@ -181,12 +181,12 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/shield/gear_shield"
+          "name": "item:item/shield/golden_sheep_coat"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/shield/golden_sheep_coat"
+          "name": "item:item/shield/gear_shield"
         },
         {
           "weight": 1,

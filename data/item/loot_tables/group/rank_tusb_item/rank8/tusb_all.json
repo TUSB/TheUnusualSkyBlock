@@ -106,17 +106,12 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/leather_boots/boots_of_the_wind"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
           "name": "item:item/leather_boots/pretty_clothes_with_splinter_b"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/leather_chestplate/chest_of_the_wind"
+          "name": "item:item/leather_boots/boots_of_the_wind"
         },
         {
           "weight": 1,
@@ -126,7 +121,7 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/leather_helmet/helmet_of_the_wind"
+          "name": "item:item/leather_chestplate/chest_of_the_wind"
         },
         {
           "weight": 1,
@@ -136,12 +131,17 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/leather_leggings/leggings_of_the_wind"
+          "name": "item:item/leather_helmet/helmet_of_the_wind"
         },
         {
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/leather_leggings/pretty_clothes_with_splinter_l"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_leggings/leggings_of_the_wind"
         },
         {
           "weight": 1,
