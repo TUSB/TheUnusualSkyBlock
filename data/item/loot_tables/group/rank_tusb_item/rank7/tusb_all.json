@@ -51,7 +51,7 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/knuckle_dusters"
+          "name": "item:item/carrot_on_a_stick/weapon/knuckle_dusters"
         },
         {
           "weight": 1,

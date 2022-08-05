@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,Items:[{id:\"nether_star\",Count:64b}],display:{Name:'{\"translate\":\"ネザースターバンドル\",\"color\":\"#E4D3FB\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"ネザースター専用のバンドル。\",\"color\":\"#CCCCCC\",\"italic\":false}']},AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:0.3,Operation:1,UUID:[I;11,0,0,21],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:0.3,Operation:1,UUID:[I;12,0,0,21],Slot:\"offhand\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:0.15,Operation:1,UUID:[I;11,0,0,31],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:0.15,Operation:1,UUID:[I;12,0,0,31],Slot:\"offhand\"}]}"
+              "tag": "{CustomModelData:1,Items:[{id:\"nether_star\",Count:64b}],display:{Name:'{\"translate\":\"ネザースターバンドル\",\"color\":\"#E4D3FB\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"ネザースター専用のバンドル。\",\"color\":\"#CCCCCC\",\"italic\":false}']},AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:0.3,Operation:1,UUID:[I;11,0,0,21],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:0.15,Operation:1,UUID:[I;11,0,0,31],Slot:\"mainhand\"}]}"
             }
           ]
         }
