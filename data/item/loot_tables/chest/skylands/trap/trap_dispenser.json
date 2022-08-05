@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/tusb_item/trap/summon",
+          "name": "item:group/tusb_item/all/summon_trap",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -35,7 +35,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/tusb_item/trap/summon",
+          "name": "item:group/tusb_item/all/summon_trap",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -65,7 +65,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/tusb_item/trap/summon",
+          "name": "item:group/tusb_item/all/summon_trap",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -95,7 +95,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/tusb_item/trap/summon",
+          "name": "item:group/tusb_item/all/summon_trap",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -125,7 +125,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/tusb_item/trap/summon",
+          "name": "item:group/tusb_item/all/summon_trap",
           "functions": [
             {
               "function": "minecraft:set_count",

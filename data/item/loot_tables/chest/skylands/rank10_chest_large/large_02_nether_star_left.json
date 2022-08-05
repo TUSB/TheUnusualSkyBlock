@@ -266,7 +266,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/tusb_item/trap/summon"
+          "name": "item:group/tusb_item/tier4/summon_trap"
         }
       ]
     },

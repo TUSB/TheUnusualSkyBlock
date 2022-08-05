@@ -161,12 +161,12 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/leather_chestplate/life_jacket"
+          "name": "item:item/leather_chestplate/old_iblis_c"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/leather_chestplate/old_iblis_c"
+          "name": "item:item/leather_chestplate/life_jacket"
         },
         {
           "weight": 1,
@@ -181,17 +181,12 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/shield/mysterious_shield"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
           "name": "item:item/shield/bentler"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/shield/holy_shield"
+          "name": "item:item/shield/mysterious_shield"
         },
         {
           "weight": 1,
@@ -202,6 +197,11 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/shield/spell_shield"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/holy_shield"
         },
         {
           "weight": 1,

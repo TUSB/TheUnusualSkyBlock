@@ -4,21 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 16,
-          "type": "loot_table",
-          "name": "item:item/firework_star/etc/trap_spawn_genocide_bomb",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
-        },
-        {
-          "weight": 16,
+          "weight": 24,
           "type": "loot_table",
           "name": "item:item/firework_star/etc/trap_spawn_common_bomb",
           "functions": [
@@ -32,9 +18,9 @@
           ]
         },
         {
-          "weight": 16,
+          "weight": 24,
           "type": "loot_table",
-          "name": "item:item/firework_star/etc/trap_spawn_igar_thorn",
+          "name": "item:item/firework_star/etc/trap_spawn_common_bomb_huge",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -56,14 +42,9 @@
           "name": "item:item/firework_star/etc/trap_spawn_spawner_vase"
         },
         {
-          "weight": 3,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/secret_exp_bug_memory_star"
-        },
-        {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/bug_memory_star"
+          "name": "item:group/tusb_item/common/summon_trap"
         }
       ]
     }

@@ -276,7 +276,7 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/shield/ice_shield"
+          "name": "item:item/shield/jack_o_lantern"
         },
         {
           "weight": 1,
@@ -286,12 +286,17 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/shield/jack_o_lantern"
+          "name": "item:item/shield/red_eye_shield"
         },
         {
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/shield/perpetual_shield"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/ice_shield"
         },
         {
           "weight": 1,

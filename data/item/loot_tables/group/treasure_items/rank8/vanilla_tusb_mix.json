@@ -4,9 +4,9 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 2,
+          "weight": 1,
           "type": "loot_table",
-          "name": "item:group/tusb_item/trap/summon"
+          "name": "item:group/tusb_item/tier3/summon_trap"
         },
         {
           "weight": 1,

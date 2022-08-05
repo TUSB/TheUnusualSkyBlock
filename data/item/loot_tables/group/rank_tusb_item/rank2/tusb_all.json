@@ -146,12 +146,12 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/shield/diamond_shield"
+          "name": "item:item/shield/red_signal"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/shield/red_signal"
+          "name": "item:item/shield/diamond_shield"
         },
         {
           "weight": 1,
@@ -161,22 +161,12 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/shield/ninja_shield"
+          "name": "item:item/shield/black_mage_shield"
         },
         {
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/shield/hunter_shield"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/shield/white_mage_shield"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/shield/black_mage_shield"
         },
         {
           "weight": 1,
@@ -187,6 +177,16 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/shield/spider_web_shield"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/ninja_shield"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/white_mage_shield"
         },
         {
           "weight": 1,

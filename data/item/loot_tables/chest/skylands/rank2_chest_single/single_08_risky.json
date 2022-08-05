@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/tusb_item/trap/summon"
+          "name": "item:group/tusb_item/tier1/summon_trap"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/tusb_item/trap/summon"
+          "name": "item:group/tusb_item/tier1/summon_trap"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/tusb_item/trap/summon"
+          "name": "item:group/tusb_item/tier1/summon_trap"
         }
       ]
     },
@@ -77,7 +77,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/tusb_item/trap/summon"
+          "name": "item:group/tusb_item/tier1/summon_trap"
         }
       ]
     },
@@ -167,7 +167,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/tusb_item/trap/summon"
+          "name": "item:group/tusb_item/tier1/summon_trap"
         }
       ]
     },
@@ -194,7 +194,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/tusb_item/trap/summon"
+          "name": "item:group/tusb_item/tier1/summon_trap"
         }
       ]
     },
@@ -212,7 +212,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/tusb_item/trap/summon"
+          "name": "item:group/tusb_item/tier1/summon_trap"
         }
       ]
     },
@@ -239,7 +239,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/tusb_item/trap/summon"
+          "name": "item:group/tusb_item/tier1/summon_trap"
         }
       ]
     }
