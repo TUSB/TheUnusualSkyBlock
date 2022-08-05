@@ -41,6 +41,16 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/a_chin_egg"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/dubious_powder"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/high_ether"
         },
         {
@@ -52,6 +62,11 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/elixir"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/nil"
         },
         {
           "weight": 1,

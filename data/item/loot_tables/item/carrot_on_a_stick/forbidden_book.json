@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"魔導書\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"禁忌の魔術が記された本\",\"color\":\"dark_purple\",\"italic\":false}','{\"translate\":\"厳重な封印が掛けられている……\",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"K\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" 鍛冶\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"剣士\",SkillID:115,Name:\"鍛冶\",Level:1,Interval:10,Trigger:\"手に持って右クリック\",Count:10}}"
+              "tag": "{CustomModelData:92,display:{Name:'{\"translate\":\"魔導書\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"禁忌の魔術が記された本\",\"color\":\"dark_purple\",\"italic\":false}','{\"translate\":\"厳重な封印が掛けられている……\",\"color\":\"dark_purple\",\"italic\":false}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"K\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" 鍛冶\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"剣士\",SkillID:115,Name:\"鍛冶\",Level:1,Interval:10,Trigger:\"手に持って右クリック\",Count:10}}"
             }
           ]
         }
