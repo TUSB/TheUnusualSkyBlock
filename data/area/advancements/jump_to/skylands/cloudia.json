@@ -1,0 +1,42 @@
+{
+    "criteria": {
+        "cloudia":{
+            "trigger": "enter_block",
+            "conditions": {
+                "block": "end_gateway",
+                "player": [
+                    {
+                      "condition": "minecraft:reference",
+                      "name": "entity:player"
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "position": {
+                                    "x": {
+                                        "min": 3,
+                                        "max": 9
+                                    },
+                                    "y": {
+                                        "min": 148,
+                                        "max": 150
+                                    },
+                                    "z": {
+                                        "min": -780,
+                                        "max": -778
+                                    }
+                                },
+                                "dimension": "area:skylands"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "area:jump_to/cloudia/"
+    }
+}

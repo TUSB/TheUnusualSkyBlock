@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(I)\",\"color\":\"white\",\"with\":[{\"translate\":\"謎の\"},{\"translate\":\"刻印\"}]}]']},Engraving:{EnchantID:\"謎\",Tier:1}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

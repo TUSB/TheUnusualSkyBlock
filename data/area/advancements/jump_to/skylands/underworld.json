@@ -1,0 +1,42 @@
+{
+    "criteria": {
+        "underworld":{
+            "trigger": "enter_block",
+            "conditions": {
+                "block": "end_gateway",
+                "player": [
+                    {
+                      "condition": "minecraft:reference",
+                      "name": "entity:player"
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "position": {
+                                    "x": {
+                                        "min": -33,
+                                        "max": -31
+                                    },
+                                    "y": {
+                                        "min": 5,
+                                        "max": 7
+                                    },
+                                    "z": {
+                                        "min": -682,
+                                        "max": -680
+                                    }
+                                },
+                                "dimension": "area:skylands"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "area:jump_to/underworld/"
+    }
+}

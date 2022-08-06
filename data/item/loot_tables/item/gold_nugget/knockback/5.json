@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:223,EnchantStone:1b,EnchantID:\"衝撃\",Tier:5,display:{Name:'{\"translate\":\"%1$s%2$s(V)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"衝撃の\"},{\"translate\":\"結晶\"}]}',Lore:['[{\"translate\":\"enchantment.minecraft.knockback\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.5\"}]','[{\"translate\":\"enchantment.minecraft.punch\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.5\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器・道具\",\"color\":\"gray\"}]','{\"text\":\"エンチャント台で使用\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

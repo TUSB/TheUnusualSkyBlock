@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magma_cube_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,EntityTag:{Tags:[Sign,Acacia],Silent:1b,Size:0b,DeathLootTable:\"item:item/magma_cube_spawn_egg/sign/trade\",ArmorItems:[{id:\"minecraft:stone\",Count:1b,tag:{Data:{Text2:'{\"text\":\"取          引\",\"color\":\"white\",\"bold\":true}',Text4:'{\"text\":\"①\",\"font\":\"sign\",\"color\":\"white\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"function item:sign/click/trade\"}}}'}}},{},{},{}]},display:{Name:'{\"translate\":\"取引の印板\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

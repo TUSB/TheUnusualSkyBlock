@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:jack_o_lantern"
+    },
+    "title": {
+      "translate": "パンプキンキッド",
+      "color": "#FF0000",
+      "bold": true
+    },
+    "description": {
+      "translate": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "advancement:alpha/3/5",
+  "criteria": {
+    "dummy": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

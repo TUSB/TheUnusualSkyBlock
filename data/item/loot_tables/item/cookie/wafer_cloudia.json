@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:5,display:{Name:'{\"translate\":\"空島ｳｴﾊｰｽ\",\"color\":\"white\",\"bold\":true,\"italic\":false,\"underlined\":true}',Lore:['{\"translate\":\"天にも昇る美味しさだ！\",\"color\":\"white\",\"italic\":false,\"underlined\":false}','[{\"translate\":\"黒糖\",\"color\":\"light_purple\",\"italic\":false,\"underlined\":true},{\"translate\":\"安眠\",\"color\":\"black\",\"italic\":false,\"underlined\":true},{\"translate\":\"饅頭\",\"color\":\"light_purple\",\"italic\":false,\"underlined\":true},{\"translate\":\"味。\",\"color\":\"white\",\"italic\":false,\"underlined\":false}]']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

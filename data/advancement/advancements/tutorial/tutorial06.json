@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:25,Enchantments:[{}]}"
+    },
+    "title": [
+      {
+        "translate": "MPについて                  ",
+        "color": "green",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "スキルを使うために必要な%1$s。\nスキルを使わない時間が長いほど\n%2$sする。\n%3$sにはMPの回復が%4$s。",
+      "color": "white",
+      "with": [
+        {
+          "translate": "魔法の力",
+          "color": "blue"
+        },
+        {
+          "translate": "回復速度が増加",
+          "color": "aqua"
+        },
+        {
+          "translate": "空腹時",
+          "color": "red"
+        },
+        {
+          "translate": "止まってしまう",
+          "color": "red"
+        }
+      ]
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "advancement:tutorial/tutorial05",
+  "criteria": {
+    "use_skill": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{Skill:{ShowInterval:true}}"
+          }
+        ]
+      }
+    }
+  }
+}

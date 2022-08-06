@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"忘れられたエリトラ\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"この世界に１つしかないまともなエリトラ\",\"color\":\"#FFFFFF\",\"italic\":false}']},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:7,Operation:0,UUID:[I;22,0,0,10],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:0.175,Operation:1,UUID:[I;22,0,0,21],Slot:\"chest\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:0.07,Operation:1,UUID:[I;22,0,0,31],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:0.14,Operation:1,UUID:[I;22,0,0,61],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"カスタム\",Amount:0.07,Operation:1,UUID:[I;22,0,0,70],Slot:\"chest\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

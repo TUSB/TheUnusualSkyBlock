@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/golden_apple/konpeito"
+        },
+        {
+          "weight": 4,
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/golden_apple/edible_gold"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/golden_apple/edible_iron"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/golden_apple/edible_copper"
+        }
+      ]
+    }
+  ]
+}

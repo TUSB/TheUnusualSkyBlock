@@ -1,0 +1,110 @@
+{
+    "criteria": {
+        "flying_island_1":{
+            "trigger": "enter_block",
+            "conditions": {
+                "block": "end_gateway",
+                "player": [
+                    {
+                      "condition": "minecraft:reference",
+                      "name": "entity:player"
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "position": {
+                                    "x": {
+                                        "min": -53,
+                                        "max": -51
+                                    },
+                                    "y": {
+                                        "min": 12,
+                                        "max": 14
+                                    },
+                                    "z": {
+                                        "min": -598,
+                                        "max": -596
+                                    }
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "flying_island_2":{
+            "trigger": "enter_block",
+            "conditions": {
+                "block": "end_gateway",
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "position": {
+                                    "x": {
+                                        "min": -65,
+                                        "max": -63
+                                    },
+                                    "y": {
+                                        "min": 120,
+                                        "max": 122
+                                    },
+                                    "z": {
+                                        "min": -702,
+                                        "max": -700
+                                    }
+                                },
+                                "dimension": "area:skylands"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "flying_island_3":{
+            "trigger": "enter_block",
+            "conditions": {
+                "block": "end_gateway",
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "position": {
+                                    "x": {
+                                        "min": 114,
+                                        "max": 116
+                                    },
+                                    "y": {
+                                        "min": 34,
+                                        "max": 36
+                                    },
+                                    "z": {
+                                        "min": -519,
+                                        "max": -517
+                                    }
+                                },
+                                "dimension": "area:skylands"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "flying_island_1",
+            "flying_island_2",
+            "flying_island_3"
+        ]
+    ],
+    "rewards": {
+        "function": "area:jump_to/flying_island"
+    }
+}

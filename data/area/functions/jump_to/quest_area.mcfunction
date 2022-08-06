@@ -1,0 +1,1 @@
+execute in area:quest_area run tp @s -663 116 248 90 0

@@ -1,0 +1,1 @@
+execute in area:underworld run tp @s 1200 21 312 0 0

@@ -1,0 +1,38 @@
+{
+    "criteria": {
+        "skylands": {
+            "trigger": "location",
+            "conditions": {
+                "player": [
+                    {
+                      "condition": "minecraft:reference",
+                      "name": "entity:player"
+                    }
+                ],
+                "location": {
+                    "position": {
+                        "x": {
+                            "min": -1832,
+                            "max": -1827
+                        },
+                        "y": {
+                            "min": 47,
+                            "max": 51
+                        },
+                        "z": {
+                            "min": 2388,
+                            "max": 2390
+                        }
+                    },
+                    "dimension": "area:desert",
+                    "block": {
+                        "blocks": ["end_gateway"]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "area:jump_to/desert/skylands"
+    }
+}

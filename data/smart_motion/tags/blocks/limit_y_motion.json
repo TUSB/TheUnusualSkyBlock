@@ -1,0 +1,10 @@
+{
+  "values": [
+    "#smart_motion:full_block",
+    "#minecraft:stairs",
+    "#minecraft:slabs",
+    "#smart_motion:wall_shape",
+    "#smart_motion:fence_shape",
+    "#smart_motion:pane_shape"
+  ]
+}

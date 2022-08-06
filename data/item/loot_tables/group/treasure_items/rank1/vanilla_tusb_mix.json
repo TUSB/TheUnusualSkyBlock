@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/tusb_item/tier1/summon_trap"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/nether_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/ender_pearl"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/ores"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier1/food"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier1/carved_seal_items"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:group/currency_and_magic_stone/tier1/mix"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:group/rank_tusb_item/rank1/tusb_all"
+        }
+      ]
+    }
+  ]
+}

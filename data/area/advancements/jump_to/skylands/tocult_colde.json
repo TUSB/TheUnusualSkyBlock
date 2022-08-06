@@ -1,0 +1,42 @@
+{
+    "criteria": {
+        "tocult_colde":{
+            "trigger": "enter_block",
+            "conditions": {
+                "block": "end_gateway",
+                "player": [
+                    {
+                      "condition": "minecraft:reference",
+                      "name": "entity:player"
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "position": {
+                                    "x": {
+                                        "min": 202,
+                                        "max": 204
+                                    },
+                                    "y": {
+                                        "min": 139,
+                                        "max": 141
+                                    },
+                                    "z": {
+                                        "min": -645,
+                                        "max": -643
+                                    }
+                                },
+                                "dimension": "area:skylands"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "area:jump_to/tocult_colde/"
+    }
+}

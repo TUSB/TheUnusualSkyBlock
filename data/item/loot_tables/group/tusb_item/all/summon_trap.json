@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/tusb_item/tier1/summon_trap"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/tusb_item/tier2/summon_trap"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/tusb_item/tier3/summon_trap"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/tusb_item/tier4/summon_trap"
+        }
+      ]
+    }
+  ]
+}

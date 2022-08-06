@@ -1,0 +1,74 @@
+[
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:エンチャント済み\"}]}}]}"
+        }
+      }
+    }
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:leather_helmet\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:golden_helmet\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:chainmail_helmet\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:iron_helmet\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:diamond_helmet\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:netherite_helmet\"}]}"
+          }
+        }
+      },
+      {
+        "condition": "location_check",
+        "predicate": {
+          "block": {
+            "nbt": "{Items:[{Slot:4b,id:\"minecraft:turtle_helmet\"}]}"
+          }
+        }
+      }
+    ]
+  }
+]

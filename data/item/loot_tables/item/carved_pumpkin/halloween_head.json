@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carved_pumpkin",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"ハロウィンヘッド\",\"color\":\"gold\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(IV)\",\"color\":\"white\",\"with\":[{\"translate\":\"俊敏の\"},{\"translate\":\"刻印\"}]}]']},Engraving:{EnchantID:\"俊敏\",Tier:4},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:7,Operation:0,UUID:[I;21,0,0,30],Slot:\"head\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

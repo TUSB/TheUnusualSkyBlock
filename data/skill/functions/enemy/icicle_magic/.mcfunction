@@ -1,0 +1,2 @@
+summon area_effect_cloud ~ ~ ~ {Tags:["IcicleSummoner"],Duration:4,Radius:0f,Particle:"minecraft:block minecraft:air"}
+schedule function skill:enemy/icicle_magic/schedule_loop/icicle_summoner 1t replace

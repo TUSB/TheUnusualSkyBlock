@@ -1,0 +1,69 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:player_head",
+      "nbt": "{SkullOwner:{Name:\"ナイトメアアイ\",Id:[I;1,0,6,0],Properties:{textures:[{Value:\"eyJ0aW1lc3RhbXAiOjE0NjUzODQ3MDM2OTksInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83MmNiZWE5YWE1OWRmZTdhODQ2N2VjMTUxNmUwNTFlZmRlZGNkYTMxMzg0NmM1ODExY2Q0OGU1MDYzYzJkMyJ9fX0=\"}]}}}"
+    },
+    "title": [
+      {
+        "translate": "t",
+        "color": "#440066",
+        "obfuscated": true
+      },
+      {
+        "translate": "u",
+        "color": "#53007D",
+        "obfuscated": true
+      },
+      {
+        "translate": "s",
+        "color": "#68009C",
+        "obfuscated": true
+      },
+      {
+        "translate": "b",
+        "color": "#8300C4",
+        "obfuscated": true
+      },
+      {
+        "translate": "ナイトメアアイ",
+        "color": "#AA00FF",
+        "bold": true,
+        "obfuscated": false
+      },
+      {
+        "translate": "b",
+        "color": "#8300C4",
+        "obfuscated": true
+      },
+      {
+        "translate": "s",
+        "color": "#68009C",
+        "obfuscated": true
+      },
+      {
+        "translate": "u",
+        "color": "#53007D",
+        "obfuscated": true
+      },
+      {
+        "translate": "t",
+        "color": "#440066",
+        "obfuscated": true
+      }
+    ],
+    "description": {
+      "translate": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "advancement:alpha/8/7",
+  "criteria": {
+    "dummy": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

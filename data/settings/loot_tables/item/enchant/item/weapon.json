@@ -1,0 +1,243 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 8,
+          "name": "settings:item/enchant/enchant/grind",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:研磨\"}]}}]}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "settings:item/enchant/enchant/blade",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:刃\"}]}}]}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 4,
+          "name": "settings:item/enchant/enchant/add_fire",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:炎\"}]}}]}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 4,
+          "name": "settings:item/enchant/enchant/add_ice",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:氷\"}]}}]}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 4,
+          "name": "settings:item/enchant/enchant/add_lightning",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:雷\"}]}}]}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 4,
+          "name": "settings:item/enchant/enchant/add_light",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:光\"}]}}]}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 4,
+          "name": "settings:item/enchant/enchant/add_dark",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:闇\"}]}}]}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "settings:item/enchant/enchant/boost_fire",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:炎威\"}]}}]}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "settings:item/enchant/enchant/boost_ice",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:氷威\"}]}}]}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "settings:item/enchant/enchant/boost_lightning",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:雷威\"}]}}]}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "settings:item/enchant/enchant/boost_light",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:光威\"}]}}]}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "settings:item/enchant/enchant/boost_dark",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:闇威\"}]}}]}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "settings:item/enchant/enchant/wave_of_element",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:波動\"}]}}]}"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 7,
+          "name": "settings:item/enchant/item/all"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 9,
+          "name": "settings:item/enchant/item/melee_weapon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 50,
+          "name": "settings:item/enchant/item/weapon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 13,
+          "name": "settings:item/enchant/item/tool"
+        }
+      ]
+    }
+  ]
+}

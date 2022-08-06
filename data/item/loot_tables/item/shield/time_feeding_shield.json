@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shield",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:32,BlockEntityTag:{Patterns:[{Pattern:\"dls\",Color:3},{Pattern:\"drs\",Color:3},{Pattern:\"sc\",Color:3},{Pattern:\"mr\",Color:7},{Pattern:\"tts\",Color:9},{Pattern:\"bts\",Color:9},{Pattern:\"cbo\",Color:9},{Pattern:\"cr\",Color:9},{Pattern:\"mc\",Color:3},{Pattern:\"bo\",Color:15},{Pattern:\"bo\",Color:3},{Pattern:\"flo\",Color:15}],Base:7},display:{Name:'[{\"translate\":\"time\",\"color\":\"dark_aqua\",\"obfuscated\":true,\"italic\":false},{\"translate\":\"時送りの盾\",\"color\":\"dark_aqua\",\"bold\":true,\"obfuscated\":false,\"italic\":false},{\"translate\":\"time\",\"color\":\"dark_aqua\",\"obfuscated\":true,\"italic\":false}]',Lore:['[{\"text\":\"❖ \",\"color\":\"3\",\"italic\":false},{\"translate\":\"%1$s%2$s(VII)\",\"color\":\"white\",\"with\":[{\"translate\":\"進化の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"時と共に強くなる盾。\",\"color\":\"dark_aqua\",\"italic\":false}']},Engraving:{EnchantID:\"進化\",Tier:7},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:0.091,Operation:1,UUID:[I;11,0,0,11],Slot:\"mainhand\"},{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:0.091,Operation:1,UUID:[I;12,0,0,11],Slot:\"offhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:0.091,Operation:1,UUID:[I;11,0,0,21],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:0.091,Operation:1,UUID:[I;12,0,0,21],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:0.091,Operation:1,UUID:[I;11,0,0,41],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:0.091,Operation:1,UUID:[I;12,0,0,41],Slot:\"offhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:0.091,Operation:1,UUID:[I;11,0,0,51],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:0.091,Operation:1,UUID:[I;12,0,0,51],Slot:\"offhand\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:0.091,Operation:1,UUID:[I;11,0,0,61],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:0.091,Operation:1,UUID:[I;12,0,0,61],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"カスタム\",Amount:0.091,Operation:1,UUID:[I;11,0,0,70],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"カスタム\",Amount:0.091,Operation:1,UUID:[I;12,0,0,70],Slot:\"offhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

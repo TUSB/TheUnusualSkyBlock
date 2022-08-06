@@ -1,0 +1,79 @@
+{
+    "criteria": {
+        "skylands_1":{
+            "trigger": "enter_block",
+            "conditions": {
+                "block": "end_gateway",
+                "player": [
+                    {
+                      "condition": "minecraft:reference",
+                      "name": "entity:player"
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "position": {
+                                    "x": {
+                                        "min": 1349,
+                                        "max": 1351
+                                    },
+                                    "y": {
+                                        "min": 26,
+                                        "max": 28
+                                    },
+                                    "z": {
+                                        "min": -268,
+                                        "max": -266
+                                    }
+                                },
+                                "dimension": "area:underworld"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "skylands_2":{
+            "trigger": "enter_block",
+            "conditions": {
+                "block": "end_gateway",
+                "player": [
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "position": {
+                                    "x": {
+                                        "min": 817,
+                                        "max": 819
+                                    },
+                                    "y": {
+                                        "min": 252,
+                                        "max": 254
+                                    },
+                                    "z": {
+                                        "min": 334,
+                                        "max": 336
+                                    }
+                                },
+                                "dimension": "area:underworld"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "skylands_1",
+            "skylands_2"
+        ]
+    ],
+    "rewards": {
+        "function": "area:jump_to/underworld/skylands"
+    }
+}

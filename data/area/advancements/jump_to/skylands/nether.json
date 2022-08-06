@@ -1,0 +1,38 @@
+{
+    "criteria": {
+        "nether": {
+            "trigger": "location",
+            "conditions": {
+                "player": [
+                    {
+                      "condition": "minecraft:reference",
+                      "name": "entity:player"
+                    }
+                ],
+                "location": {
+                    "position": {
+                        "x": {
+                            "min": 129,
+                            "max": 131
+                        },
+                        "y": {
+                            "min": 72,
+                            "max": 77
+                        },
+                        "z": {
+                            "min": -703,
+                            "max": -698
+                        }
+                    },
+                    "dimension": "area:skylands",
+                    "block": {
+                        "blocks": ["end_gateway"]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "area:jump_to/nether/"
+    }
+}

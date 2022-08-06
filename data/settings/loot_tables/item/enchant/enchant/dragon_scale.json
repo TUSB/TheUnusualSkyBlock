@@ -1,0 +1,169 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:1},{id:\"minecraft:projectile_protection\",lvl:1},{id:\"minecraft:blast_protection\",lvl:1},{id:\"minecraft:fire_protection\",lvl:1}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": 1
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:2},{id:\"minecraft:projectile_protection\",lvl:2},{id:\"minecraft:blast_protection\",lvl:2},{id:\"minecraft:fire_protection\",lvl:2}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:3},{id:\"minecraft:projectile_protection\",lvl:3},{id:\"minecraft:blast_protection\",lvl:3},{id:\"minecraft:fire_protection\",lvl:3}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:4},{id:\"minecraft:projectile_protection\",lvl:4},{id:\"minecraft:blast_protection\",lvl:4},{id:\"minecraft:fire_protection\",lvl:4}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:5},{id:\"minecraft:projectile_protection\",lvl:5},{id:\"minecraft:blast_protection\",lvl:5},{id:\"minecraft:fire_protection\",lvl:5}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": 5
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:6},{id:\"minecraft:projectile_protection\",lvl:6},{id:\"minecraft:blast_protection\",lvl:6},{id:\"minecraft:fire_protection\",lvl:6}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": 6
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:7},{id:\"minecraft:projectile_protection\",lvl:7},{id:\"minecraft:blast_protection\",lvl:7},{id:\"minecraft:fire_protection\",lvl:7}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": 7
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 1,
+          "name": "minecraft:stone",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:protection\",lvl:8},{id:\"minecraft:projectile_protection\",lvl:8},{id:\"minecraft:blast_protection\",lvl:8},{id:\"minecraft:fire_protection\",lvl:8}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "_": 8
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

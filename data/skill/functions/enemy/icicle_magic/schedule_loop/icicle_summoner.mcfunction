@@ -1,0 +1,2 @@
+execute as @e[tag=IcicleSummoner] at @s run function skill:enemy/icicle_magic/icicle_summoner/
+execute if entity @e[tag=IcicleSummoner,limit=1] run schedule function skill:enemy/icicle_magic/schedule_loop/icicle_summoner

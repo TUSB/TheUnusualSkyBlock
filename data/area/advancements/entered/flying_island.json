@@ -1,0 +1,13 @@
+{
+    "criteria": {
+        "triggered": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "area:flying_island"
+            }
+        }
+    },
+    "rewards": {
+        "function": "area:entered/flying_island"
+    }
+}

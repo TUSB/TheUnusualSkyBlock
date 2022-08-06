@@ -1,0 +1,9 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "settings:item/enchant/stone/all"
+    }
+  ]
+}

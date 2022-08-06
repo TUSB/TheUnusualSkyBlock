@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:64,Unbreakable:true,display:{Name:'[{\"translate\":\"a\",\"color\":\"#9900FF\",\"bold\":true,\"obfuscated\":true,\"italic\":false},{\"translate\":\"オールドイブリース\",\"color\":\"#9900FF\",\"bold\":true,\"italic\":false},{\"translate\":\"a\",\"color\":\"#9900FF\",\"bold\":true,\"obfuscated\":true,\"italic\":false}]',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(III)\",\"color\":\"white\",\"with\":[{\"translate\":\"闇威の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"原天使の力を宿した衣\",\"color\":\"#9900FF\",\"bold\":true,\"italic\":false}'],color:0},Engraving:{EnchantID:\"闇威\",Tier:3},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:20,Operation:0,UUID:[I;22,0,0,10],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:0.3,Operation:0,UUID:[I;22,0,0,20],Slot:\"chest\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:0.1,Operation:0,UUID:[I;22,0,0,30],Slot:\"chest\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:10,Operation:0,UUID:[I;22,0,0,40],Slot:\"chest\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:3,Operation:0,UUID:[I;22,0,0,50],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:20,Operation:0,UUID:[I;22,0,0,60],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"デフォルト\",Amount:3,Operation:0,UUID:[I;22,0,1,60],Slot:\"chest\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

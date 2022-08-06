@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "block": {
+            "blocks": ["minecraft:grindstone"]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "item:grindstone/interact"
+  }
+}

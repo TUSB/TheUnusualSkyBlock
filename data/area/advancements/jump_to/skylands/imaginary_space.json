@@ -1,0 +1,42 @@
+{
+    "criteria": {
+        "imaginary_space":{
+            "trigger": "enter_block",
+            "conditions": {
+                "block": "end_gateway",
+                "player": [
+                    {
+                      "condition": "minecraft:reference",
+                      "name": "entity:player"
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "position": {
+                                    "x": {
+                                        "min": 236,
+                                        "max": 240
+                                    },
+                                    "y": {
+                                        "min": 82,
+                                        "max": 84
+                                    },
+                                    "z": {
+                                        "min": -460,
+                                        "max": -456
+                                    }
+                                },
+                                "dimension": "area:skylands"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "area:jump_to/imaginary_space/"
+    }
+}

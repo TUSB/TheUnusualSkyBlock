@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:572,EnchantStone:1b,EnchantID:\"双壊\",Tier:4,display:{Name:'{\"translate\":\"%1$s%2$s(IV)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"双壊の\"},{\"translate\":\"原石\"}]}',Lore:['{\"translate\":\"%s IV\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ダブルブレイク\"}]}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"道具\",\"color\":\"gray\"}]','{\"text\":\"エンチャント台で使用\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

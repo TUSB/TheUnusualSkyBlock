@@ -1,0 +1,1 @@
+function makeup:skill/enemy/laser/loop/piglin_snipe/firework

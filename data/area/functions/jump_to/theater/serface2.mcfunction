@@ -1,0 +1,1 @@
+execute in area:theater run tp @s -754 24 767 0 0

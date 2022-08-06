@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_fire/2"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_ice/2"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_lightning/2"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_light/2"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_dark/2"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_fire/2"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_ice/2"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_lightning/2"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_light/2"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_dark/2"
+        }
+      ]
+    }
+  ]
+}

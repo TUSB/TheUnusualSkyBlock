@@ -1,0 +1,41 @@
+
+### ディバインシールドダメージ取得
+scoreboard players set _ Calc 100
+execute if entity @s[advancements={player:trigger/use/shield={4_damage_taken=true}}] run scoreboard players set _ Calc 120
+execute if entity @s[advancements={player:trigger/use/shield={8_damage_taken=true}}] run scoreboard players set _ Calc 140
+execute if entity @s[advancements={player:trigger/use/shield={12_damage_taken=true}}] run scoreboard players set _ Calc 160
+execute if entity @s[advancements={player:trigger/use/shield={16_damage_taken=true}}] run scoreboard players set _ Calc 180
+execute if entity @s[advancements={player:trigger/use/shield={20_damage_taken=true}}] run scoreboard players set _ Calc 200
+execute if entity @s[advancements={player:trigger/use/shield={24_damage_taken=true}}] run scoreboard players set _ Calc 220
+execute if entity @s[advancements={player:trigger/use/shield={28_damage_taken=true}}] run scoreboard players set _ Calc 240
+execute if entity @s[advancements={player:trigger/use/shield={32_damage_taken=true}}] run scoreboard players set _ Calc 260
+execute if entity @s[advancements={player:trigger/use/shield={36_damage_taken=true}}] run scoreboard players set _ Calc 280
+execute if entity @s[advancements={player:trigger/use/shield={40_damage_taken=true}}] run scoreboard players set _ Calc 300
+execute if entity @s[advancements={player:trigger/use/shield={44_damage_taken=true}}] run scoreboard players set _ Calc 320
+execute if entity @s[advancements={player:trigger/use/shield={48_damage_taken=true}}] run scoreboard players set _ Calc 340
+execute if entity @s[advancements={player:trigger/use/shield={52_damage_taken=true}}] run scoreboard players set _ Calc 360
+execute if entity @s[advancements={player:trigger/use/shield={56_damage_taken=true}}] run scoreboard players set _ Calc 380
+execute if entity @s[advancements={player:trigger/use/shield={60_damage_taken=true}}] run scoreboard players set _ Calc 400
+execute if entity @s[advancements={player:trigger/use/shield={64_damage_taken=true}}] run scoreboard players set _ Calc 420
+execute if entity @s[advancements={player:trigger/use/shield={68_damage_taken=true}}] run scoreboard players set _ Calc 440
+execute if entity @s[advancements={player:trigger/use/shield={72_damage_taken=true}}] run scoreboard players set _ Calc 460
+execute if entity @s[advancements={player:trigger/use/shield={76_damage_taken=true}}] run scoreboard players set _ Calc 480
+execute if entity @s[advancements={player:trigger/use/shield={80_damage_taken=true}}] run scoreboard players set _ Calc 500
+execute if entity @s[advancements={player:trigger/use/shield={84_damage_taken=true}}] run scoreboard players set _ Calc 520
+execute if entity @s[advancements={player:trigger/use/shield={88_damage_taken=true}}] run scoreboard players set _ Calc 540
+execute if entity @s[advancements={player:trigger/use/shield={92_damage_taken=true}}] run scoreboard players set _ Calc 560
+execute if entity @s[advancements={player:trigger/use/shield={96_damage_taken=true}}] run scoreboard players set _ Calc 580
+execute if entity @s[advancements={player:trigger/use/shield={100_damage_taken=true}}] run scoreboard players set _ Calc 600
+execute if entity @s[advancements={player:trigger/use/shield={104_damage_taken=true}}] run scoreboard players set _ Calc 620
+execute if entity @s[advancements={player:trigger/use/shield={108_damage_taken=true}}] run scoreboard players set _ Calc 640
+execute if entity @s[advancements={player:trigger/use/shield={112_damage_taken=true}}] run scoreboard players set _ Calc 660
+execute if entity @s[advancements={player:trigger/use/shield={116_damage_taken=true}}] run scoreboard players set _ Calc 680
+execute if entity @s[advancements={player:trigger/use/shield={120_damage_taken=true}}] run scoreboard players set _ Calc 700
+execute if entity @s[advancements={player:trigger/use/shield={124_damage_taken=true}}] run scoreboard players set _ Calc 720
+execute if entity @s[advancements={player:trigger/use/shield={128_damage_taken=true}}] run scoreboard players set _ Calc 740
+execute if entity @s[advancements={player:trigger/use/shield={132_damage_taken=true}}] run scoreboard players set _ Calc 760
+execute if entity @s[advancements={player:trigger/use/shield={136_damage_taken=true}}] run scoreboard players set _ Calc 780
+execute if entity @s[advancements={player:trigger/use/shield={140_damage_taken=true}}] run scoreboard players set _ Calc 800
+execute if entity @s[advancements={player:trigger/use/shield={144_damage_taken=true}}] run scoreboard players set _ Calc 820
+execute if entity @s[advancements={player:trigger/use/shield={148_damage_taken=true}}] run scoreboard players set _ Calc 840
+execute if entity @s[advancements={player:trigger/use/shield={150_damage_taken=true}}] run scoreboard players set _ Calc 860

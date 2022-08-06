@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:3,display:{Name:'{\"translate\":\"食用銅\",\"color\":\"#AC43FF\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"自然な味わいを感じられます(粉砕)\",\"color\":\"#CCCCCC\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

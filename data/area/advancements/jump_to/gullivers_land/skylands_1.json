@@ -1,0 +1,42 @@
+{
+    "criteria": {
+        "skylands":{
+            "trigger": "enter_block",
+            "conditions": {
+                "block": "end_gateway",
+                "player": [
+                    {
+                      "condition": "minecraft:reference",
+                      "name": "entity:player"
+                    },
+                    {
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "location": {
+                                "position": {
+                                    "x": {
+                                        "min": -33,
+                                        "max": -30
+                                    },
+                                    "y": {
+                                        "min": 67,
+                                        "max": 69
+                                    },
+                                    "z": {
+                                        "min": 744,
+                                        "max": 747
+                                    }
+                                },
+                                "dimension": "area:gullivers_land"
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "function": "area:jump_to/gullivers_land/skylands_1"
+    }
+}

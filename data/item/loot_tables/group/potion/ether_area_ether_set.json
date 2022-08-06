@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/potion/ether/ether_set"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/potion/area_ether/area_ether_set"
+        }
+      ]
+    }
+  ]
+}

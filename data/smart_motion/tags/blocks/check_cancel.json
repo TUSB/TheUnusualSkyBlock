@@ -1,0 +1,9 @@
+{
+  "values": [
+    "#smart_motion:no_collision",
+    "#minecraft:stairs",
+    "#minecraft:slabs",
+    "#minecraft:trapdoors",
+    "#minecraft:doors"
+  ]
+}

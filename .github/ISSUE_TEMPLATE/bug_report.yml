@@ -1,0 +1,63 @@
+name: バグ報告
+description: 発見したバグを報告するときはこちら
+title: "[バグ] <ここにタイトルを入力>"
+labels: [バグ]
+body: 
+- type: markdown
+  attributes:
+    value: |
+      ## バグの報告をしていただきありがとうございます。
+      以下の質問に答えていただくと、解決しやすくなります。
+      赤い印がついているものは必ず答えてください。
+- type: textarea
+  id: "overview"
+  attributes:
+    label: 概要
+    description: |
+      バグについての説明を記入する。  
+      画像のアップロードも可能です。
+  validations:
+    required: true
+- type: textarea
+  id: reproduction
+  attributes:
+    label: 再現方法
+    description: バグを確認できるように再現方法を記入する。
+    placeholder: |
+      1.
+      2.
+      3.
+      ...
+  validations:
+    required: true
+- type: textarea
+  id: predict
+  attributes:
+    label: 予想される動作
+    description: |
+      あなたが予想した動作を記入する。  
+      バグと思われるものは仕様だったという場合があります。
+- type: markdown
+  attributes:
+    value: |
+      以下は技術的な報告です。
+
+      ---
+- type: textarea
+  id: command
+  attributes:
+    label: 原因となるコマンド
+    description: コマンドを貼り付けてください。functionと同じように記述することができます。
+    placeholder: |
+      #> <ここにファイルパスを記入>
+    render: mcfunction
+- type: textarea
+  id: nbt
+  attributes:
+    label: NBTデータ
+    description: 原因となったアイテムやMobのNBTを貼り付けてください。
+- type: textarea
+  id: log
+  attributes:
+    label: ログ
+    description: 出力されているエラーログがあれば全てコピペしてください。

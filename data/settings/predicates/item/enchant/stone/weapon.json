@@ -1,0 +1,169 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "settings:item/enchant/stone/all"
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"刃\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"炎\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"氷\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"雷\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"光\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"闇\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"元素\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"陰陽\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"精霊\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"炎威\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"氷威\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"雷威\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"光威\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"闇威\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"賢者\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"純化\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"神威\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"神秘\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"衝撃\"}}]}"
+        }
+      }
+    },
+    {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"波動\"}}]}"
+        }
+      }
+    }
+  ]
+}

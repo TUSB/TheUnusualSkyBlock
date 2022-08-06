@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:64,Unbreakable:true,display:{Name:'{\"translate\":\"プリズムソーテイラー\",\"color\":\"aqua\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(IV)\",\"color\":\"white\",\"with\":[{\"translate\":\"魔力の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"あらゆる可能性を秘めた水晶の礼装\",\"color\":\"aqua\",\"bold\":true,\"italic\":false}'],color:2081791},Engraving:{EnchantID:\"魔力\",Tier:4},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:0.1,Operation:1,UUID:[I;22,0,0,11],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:0.4,Operation:1,UUID:[I;22,0,0,21],Slot:\"chest\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:0.3,Operation:1,UUID:[I;22,0,0,31],Slot:\"chest\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:0.2,Operation:1,UUID:[I;22,0,0,41],Slot:\"chest\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:0.6,Operation:1,UUID:[I;22,0,0,51],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:0.5,Operation:1,UUID:[I;22,0,0,61],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"デフォルト\",Amount:3,Operation:0,UUID:[I;22,0,1,60],Slot:\"chest\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

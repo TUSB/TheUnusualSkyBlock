@@ -1,0 +1,42 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 7,
+          "name": "settings:item/enchant/item/all"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 9,
+          "name": "settings:item/enchant/item/melee_weapon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 50,
+          "name": "settings:item/enchant/item/weapon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "name": "settings:item/enchant/enchant/loyalty",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"minecraft:loyalty\"}]}}]}"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

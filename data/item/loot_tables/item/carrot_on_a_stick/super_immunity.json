@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:42,Enchantments:[{}],display:{Name:'{\"translate\":\"スーパーイミュニティ\",\"color\":\"blue\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" 免疫Ⅳ\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"免疫\",Level:4,Interval:40,Trigger:\"手に持って右クリック\",Count:4}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

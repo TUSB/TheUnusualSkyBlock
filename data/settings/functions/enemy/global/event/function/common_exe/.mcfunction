@@ -1,0 +1,13 @@
+execute if entity @s[tag=DownAlign2] run function settings:enemy/global/event/function/common_exe/down_align_2
+execute if entity @s[tag=DownAlign1] run function settings:enemy/global/event/function/common_exe/down_align_1
+execute if entity @s[tag=SmartMotionToRotation] run function settings:enemy/global/event/function/common_exe/smart_motion_to_rotation
+execute if entity @s[tag=TpWithRotation] run function settings:enemy/global/event/function/common_exe/tp_with_rotation
+execute if entity @s[tag=SummonFromRegion] run function settings:enemy/global/event/function/common_exe/summon_from_region
+execute if entity @s[tag=BlockAlign] run function settings:enemy/global/event/function/common_exe/block_align
+execute if entity @s[tag=RandomTeleportEnemy] run function settings:enemy/global/event/function/common_exe/random_teleport_enemy
+execute if entity @s[tag=RandomRotation] run function settings:enemy/global/event/function/common_exe/random_rotation
+execute if entity @s[tag=MotionToRotation] run function settings:enemy/global/event/function/common_exe/motion_to_rotation
+execute if entity @s[tag=ExtendExistingTime] run function settings:enemy/global/event/function/common_exe/extend_existing_time
+execute if entity @s[tag=SearchForRides] run function settings:enemy/global/event/function/common_exe/search_for_rides
+execute if entity @s[tag=SearchAndDestroy] run function settings:enemy/global/event/function/common_exe/search_and_destroy
+execute if entity @s[tag=RandomPoseHead] run function settings:enemy/global/event/function/common_exe/random_pose_head

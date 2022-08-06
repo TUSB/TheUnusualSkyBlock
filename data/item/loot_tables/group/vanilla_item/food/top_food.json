@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_mutton"
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_porkchop"
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_salmon"
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:cooked_beef"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:71,EnchantStone:1b,EnchantID:\"光\",Tier:2,display:{Name:'{\"translate\":\"%1$s%2$s(II)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"光の\"},{\"translate\":\"欠片\"}]}',Lore:['{\"translate\":\"%s II\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"光ダメージ追加\"}]}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器・道具\",\"color\":\"gray\"}]','{\"text\":\"エンチャント台で使用\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

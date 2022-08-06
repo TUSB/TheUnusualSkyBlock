@@ -1,0 +1,2 @@
+execute if data storage mob_data: Call{Tags:["Cast"]} run function skill:enemy/delay_action/append/casting/cast/
+execute if data storage mob_data: Call{Tags:["LaserPointer"]} run function skill:enemy/delay_action/append/casting/laser_pointer/

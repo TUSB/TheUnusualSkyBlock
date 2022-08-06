@@ -1,0 +1,23 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bone"
+        },
+        "title": {
+            "translate": "俺の屍を超えてゆけ"
+        },
+        "description": {
+            "translate": "数多の屍の上に立っている"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "advancement:common/death_void",
+    "criteria": {
+        "dummy": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

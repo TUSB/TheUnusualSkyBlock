@@ -1,0 +1,78 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "weight": 7,
+          "name": "settings:item/enchant/item/all"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "name": "settings:item/enchant/item/ranged_weapon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 50,
+          "name": "settings:item/enchant/item/weapon"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 2,
+          "name": "settings:item/enchant/enchant/multishot",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"minecraft:multishot\"}]}}]}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 10,
+          "name": "settings:item/enchant/enchant/piercing",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"minecraft:piercing\"}]}}]}"
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "weight": 5,
+          "name": "settings:item/enchant/enchant/quick_charge",
+          "conditions": [
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"minecraft:quick_charge\"}]}}]}"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+execute if entity @s[tag=Undead] run function settings:enemy/global/event/function/damage_sound/undead
+execute if entity @s[tag=Ghost] run function settings:enemy/global/event/function/damage_sound/ghost
+execute if entity @s[tag=Amorphous] run function settings:enemy/global/event/function/damage_sound/amorphous
+execute if entity @s[tag=Mankind] run function settings:enemy/global/event/function/damage_sound/mankind
+execute if entity @s[tag=Light] run function settings:enemy/global/event/function/damage_sound/light
+execute if entity @s[tag=Machine] run function settings:enemy/global/event/function/damage_sound/machine
+execute if entity @s[tag=Ice] run function settings:enemy/global/event/function/damage_sound/ice
+execute if entity @s[tag=Fire] run function settings:enemy/global/event/function/damage_sound/fire
+execute if entity @s[tag=Inorganic] run function settings:enemy/global/event/function/damage_sound/inorganic
+execute if entity @s[tag=Animal] run function settings:enemy/global/event/function/damage_sound/animal
+execute if entity @s[tag=Insect] run function settings:enemy/global/event/function/damage_sound/insect
+execute if entity @s[tag=Dark] run function settings:enemy/global/event/function/damage_sound/dark
+execute if entity @s[tag=Lightning] run function settings:enemy/global/event/function/damage_sound/lightning
+execute if entity @s[tag=Bone] run function settings:enemy/global/event/function/damage_sound/bone
+execute if entity @s[tag=Magic] run function settings:enemy/global/event/function/damage_sound/magic
+execute if entity @s[tag=VaseBreak] run function settings:enemy/global/event/function/damage_sound/vase_break

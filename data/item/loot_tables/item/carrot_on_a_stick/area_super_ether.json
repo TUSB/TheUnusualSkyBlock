@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:31,Enchantments:[{}],display:{Name:'{\"translate\":\"エリアスーパーエーテル\",\"color\":\"#4A86E8\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" 範囲MP回復Ⅳ\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"範囲MP回復\",Level:4,Interval:100,Trigger:\"手に持って右クリック\",Count:3}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

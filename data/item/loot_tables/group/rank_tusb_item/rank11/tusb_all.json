@@ -1,0 +1,959 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/bundle/nether_star_bundle"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/bundle/emerald_bundle"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/void_bundle"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/golden_ticket_knight"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/golden_ticket_ninja"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/golden_ticket_hunter"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/golden_ticket_white_mage"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/golden_ticket_black_mage"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/golden_ticket_summoner"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/soft_weak_trap"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/blunt_trap"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/damned_trap"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/weapon/pay_for_storage"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/restore_item"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/tusb_publicity_flyer"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/usual_diamond_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/usual_chainmail_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/usual_iron_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/rank1_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/rank10_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/rank2_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/rank3_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/rank4_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/rank5_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/rank6_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/rank7_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/rank8_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/rank9_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/mix_food_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/secret_exp_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/sapling_chance_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/magic_stone_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/fishing_rod/cthulure"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/fishing_rod/legendary_fishing_rod"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/blade/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/blade/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/blade/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/blade/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_fire/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_fire/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_fire/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_fire/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_ice/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_ice/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_ice/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_ice/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_lightning/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_lightning/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_lightning/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_lightning/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_light/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_light/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_light/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_light/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_dark/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_dark/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_dark/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_dark/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/element/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/element/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/element/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/element/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/yin_yang/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/yin_yang/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/yin_yang/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/yin_yang/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/spirit/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/spirit/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/spirit/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/spirit/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_fire/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_fire/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_fire/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_fire/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_ice/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_ice/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_ice/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_ice/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_lightning/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_lightning/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_lightning/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_lightning/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_light/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_light/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_light/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_light/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_dark/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_dark/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_dark/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_dark/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/philosopher/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/philosopher/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/philosopher/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/philosopher/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/purification/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/purification/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/purification/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/purification/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/kamui/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/kamui/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/kamui/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/kamui/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystic/1"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystic/2"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystic/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystic/4"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystic/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystic/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystic/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystic/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/knockback/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/knockback/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/knockback/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/knockback/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/protection/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/protection/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/protection/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/protection/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/projectile_protection/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/projectile_protection/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/projectile_protection/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/projectile_protection/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/blast_protection/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/blast_protection/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/blast_protection/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/blast_protection/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/fire_protection/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/fire_protection/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/fire_protection/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/fire_protection/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/feather_falling/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/feather_falling/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/feather_falling/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/feather_falling/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/dragon_scale/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/dragon_scale/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/dragon_scale/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/dragon_scale/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/life/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/life/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/life/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/life/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mana/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mana/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mana/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mana/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/evolution/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/evolution/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/evolution/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/evolution/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/wave_of_element/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/wave_of_element/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/wave_of_element/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/wave_of_element/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/double_break/5"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/double_break/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/double_break/7"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/double_break/8"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/golden_apple/fruit_of_nose"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_nugget/currency_megaton_emerald"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_nugget/currency_gigant_emerald"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_nugget/currency_void"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_pickaxe/jewel_mining"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/player_head/daemon_eye_headgear"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/player_head/poison_eye_headgear"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/player_head/crimson_eye_headgear"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/player_head/lunatic_eye_headgear"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/player_head/sherbet_eye_headgear"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/player_head/nightmare_eye_headgear"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/player_head/aurora_maker_headgear"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/player_head/der_freischutz_headgear"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/player_head/golden_eye_headgear"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/player_head/knight_head"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/player_head/ninja_head"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/player_head/hunter_head"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/player_head/white_mage_head"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/player_head/black_mage_head"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/player_head/summoner_head"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/pyramid_head"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/security_pole/security_pole_single_body"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/security_pole/security_pole_dual_body"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/security_pole/security_pole_triple_body"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/no_one_inside"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/block/portal"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/written_book/synthesis_guide"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/written_book/meaning_of_color_name"
+        }
+      ]
+    }
+  ]
+}

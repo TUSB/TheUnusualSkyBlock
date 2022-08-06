@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{SkullOwner:{Name:\"白魔導士\",Id:[I;0,0,0,4],Properties:{textures:[{Value:\"eyJ0aW1lc3RhbXAiOjE0NTk0MzQ0OTAxNTUsInByb2ZpbGVJZCI6IjRiMjJmMDliNTM4ZjQ3ZDdiN2VhYzc5YWIyMjI3NmZkIiwicHJvZmlsZU5hbWUiOiJhbm1pbm1ha3VyYSIsInRleHR1cmVzIjp7IlNLSU4iOnsidXJsIjoiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mZmFmZGRmODZkNTVkY2Y4ZWQ5MTY3MWI3MTlkMzkwZWU2YzZjNTY4NWNlNWIyM2NhZjJjYjlkOWUyN2NmOGYifX19\"}]}},display:{Name:'{\"translate\":\"白魔導士の魂\",\"color\":\"white\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"W\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" キアリク\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"白魔道士\",SkillID:405,Name:\"キアリク\",Level:1,Interval:5,Trigger:\"スニークする\",Count:300},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:0.84,Operation:1,UUID:[I;21,0,0,11],Slot:\"head\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:5,display:{Name:'{\"translate\":\"フィオンシートラ\",\"color\":\"aqua\",\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(III)\",\"color\":\"white\",\"with\":[{\"translate\":\"光の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"少女弓士フィオンが残した弓\",\"color\":\"aqua\",\"italic\":false}','{\"translate\":\"僅かに聖なる力を宿している。\",\"color\":\"aqua\",\"italic\":false}']},Engraving:{EnchantID:\"光\",Tier:3},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:0.14,Operation:1,UUID:[I;11,0,0,31],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:52.5,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

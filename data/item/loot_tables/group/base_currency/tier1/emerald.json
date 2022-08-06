@@ -1,0 +1,46 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 16,
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "weight": 8,
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "weight": 4,
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "weight": 2,
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/bundle/emerald_bundle"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:22,display:{Name:'{\"translate\":\"チョコチップ\",\"color\":\"#7C2800\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"ビター200%\",\"color\":\"#FFFFFF\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

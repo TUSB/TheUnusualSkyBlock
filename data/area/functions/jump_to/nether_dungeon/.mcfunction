@@ -1,0 +1,1 @@
+execute in area:nether_dungeon run tp @s -1111 117 494 -90 0

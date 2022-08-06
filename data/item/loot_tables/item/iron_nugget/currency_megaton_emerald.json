@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,display:{Name:'{\"translate\":\"メガトンエメラルド\",\"color\":\"#FFD966\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"全エリア共通の上位共通通貨\",\"color\":\"#999999\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

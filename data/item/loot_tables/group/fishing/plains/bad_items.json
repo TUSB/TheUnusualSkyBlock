@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 8,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_fiend_squid"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_predator"
+        }
+      ]
+    }
+  ]
+}

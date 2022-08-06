@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:6,JobChangeTo:6,display:{Name:'[\"\",{\"text\":\"S \",\"color\":\"green\",\"font\":\"icon\"},{\"translate\":\"召喚士変更申請書\",\"bold\":true}]',Lore:['{\"translate\":\"僕と契約して召喚士になってよ\",\"color\":\"yellow\"}','{\"translate\":\"USB職業安定所\"}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

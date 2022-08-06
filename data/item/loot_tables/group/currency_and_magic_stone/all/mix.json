@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 128,
+          "type": "loot_table",
+          "name": "item:group/currency_and_magic_stone/tier1/mix"
+        },
+        {
+          "weight": 64,
+          "type": "loot_table",
+          "name": "item:group/currency_and_magic_stone/tier2/mix"
+        },
+        {
+          "weight": 32,
+          "type": "loot_table",
+          "name": "item:group/currency_and_magic_stone/tier3/mix"
+        },
+        {
+          "weight": 16,
+          "type": "loot_table",
+          "name": "item:group/currency_and_magic_stone/tier4/mix"
+        },
+        {
+          "weight": 8,
+          "type": "loot_table",
+          "name": "item:group/currency_and_magic_stone/tier5/mix"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:group/currency_and_magic_stone/tier6/mix"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:group/currency_and_magic_stone/tier7/mix"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/currency_and_magic_stone/tier8/mix"
+        }
+      ]
+    }
+  ]
+}

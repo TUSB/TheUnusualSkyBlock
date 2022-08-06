@@ -1,0 +1,1 @@
+particle minecraft:dust 1 1 1 0.5 ~ ~ ~ 0.2 0.2 0.2 0 4 normal

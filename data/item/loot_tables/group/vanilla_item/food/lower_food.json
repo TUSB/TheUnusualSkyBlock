@@ -1,0 +1,84 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:apple"
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:beetroot_soup"
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:dried_kelp"
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:cookie"
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:honey_bottle"
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye"
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:pufferfish"
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:cod"
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:tropical_fish"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/cookie/wafer_skylands"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/cookie/wafer_ice"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/cookie/wafer_nether"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/cookie/wafer_gulliver"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/cookie/wafer_cloudia"
+        }
+      ]
+    }
+  ]
+}

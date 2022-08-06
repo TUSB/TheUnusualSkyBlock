@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{WildCooking:1b}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "skill:act/hunter/wild_cooking/eat0"
+  }
+}

@@ -1,0 +1,118 @@
+{
+  "criteria": {
+    "hit_projectile": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "damage": {
+          "type": {
+            "is_projectile": true
+          }
+        }
+      }
+    },
+    "melee_attack": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "equipment": {
+                  "mainhand": {
+                    "tag": "item:bows"
+                  }
+                }
+              }
+            }
+          }
+        ],
+        "damage": {
+          "dealt": {
+            "min": 2
+          },
+          "type": {
+            "is_explosion": false,
+            "is_fire": false,
+            "is_magic": false,
+            "is_projectile": false,
+            "is_lightning": false,
+            "bypasses_armor": false,
+            "bypasses_invulnerability": false,
+            "bypasses_magic": false
+          }
+        }
+      }
+    },
+    "melee_bow_attack": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "tag": "item:bows"
+                }
+              }
+            }
+          }
+        ],
+        "damage": {
+          "dealt": {
+            "min": 2
+          },
+          "type": {
+            "is_explosion": false,
+            "is_fire": false,
+            "is_magic": false,
+            "is_projectile": false,
+            "is_lightning": false,
+            "bypasses_armor": false,
+            "bypasses_invulnerability": false,
+            "bypasses_magic": false
+          }
+        }
+      }
+    },
+    "sword_attack_sweep": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "tag": "item:swords"
+                }
+              }
+            }
+          }
+        ],
+        "damage": {
+          "dealt": 1,
+          "type": {
+            "is_explosion": false,
+            "is_fire": false,
+            "is_magic": false,
+            "is_projectile": false,
+            "is_lightning": false,
+            "bypasses_armor": false,
+            "bypasses_invulnerability": false,
+            "bypasses_magic": false
+          }
+        }
+      }
+    }
+  },
+  "requirements": [["hit_projectile","melee_attack","melee_bow_attack","sword_attack_sweep"]],
+  "rewards": {
+    "function": "player:trigger/hurt_entity/"
+  }
+}

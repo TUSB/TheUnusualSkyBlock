@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:4,display:{Name:'{\"translate\":\"草薙霊剣\",\"color\":\"dark_aqua\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"3\",\"italic\":false},{\"translate\":\"%1$s%2$s(V)\",\"color\":\"white\",\"with\":[{\"translate\":\"陰陽の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"古来より祀られる伝承の剣\",\"color\":\"dark_aqua\",\"italic\":false}','{\"translate\":\"重ねられた信仰により、霊性を帯びている。\",\"color\":\"dark_aqua\",\"italic\":false}']},Engraving:{EnchantID:\"陰陽\",Tier:5},AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:0.42,Operation:0,UUID:[I;11,0,0,20],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:-0.14,Operation:1,UUID:[I;11,0,0,31],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:311.5,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"デフォルト\",Amount:1.6,Operation:0,UUID:[I;11,0,1,50],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

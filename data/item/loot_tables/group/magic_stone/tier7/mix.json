@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier7/etc"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier7/element"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier7/armor"
+        }
+      ]
+    }
+  ]
+}

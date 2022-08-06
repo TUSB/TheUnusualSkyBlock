@@ -1,0 +1,30 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:knowledge_book"
+        },
+        "title": [
+            {
+                "text": ""
+            },
+            {
+                "translate": "攻略の助けに -空島辞典-",
+                "color": "dark_aqua",
+                "bold": true
+            }
+        ],
+        "description": {
+            "translate": "冒険者の必読書"
+        },
+        "frame": "challenge",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false,
+        "background": "minecraft:textures/block/bookshelf.png"
+    },
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

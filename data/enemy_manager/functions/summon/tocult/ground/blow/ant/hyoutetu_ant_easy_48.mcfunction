@@ -1,5 +1,0 @@
-##############################
-### 鉄を貪る者:弱召喚 - Tocult Ground Blow
-##############################
-
-summon minecraft:villager ~ ~1 ~ {Health:0f,DeathTime:19s,Silent:true,Passengers:[{id:"minecraft:husk",CustomName:"\"鉄を貪る者:弱\"",AbsorptionAmount:3000f,Silent:true,DeathLootTable:"loot_manager:empty",Tags:["HasSkill","IcingRay"],Attributes:[{Name:"generic.knockbackResistance",Modifiers:[{Amount:1d,UUIDLeast:0l},{Amount:5d,UUIDLeast:1l},{Amount:100d,UUIDLeast:2l}]},{Name:"generic.movementSpeed",Base:0.22d},{Name:"generic.attackDamage",Base:10d},{Name:"generic.followRange",Base:48d}],ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2000000,ShowParticles:false}],ArmorItems:[{},{},{id:"minecraft:iron_chestplate",Count:1b,tag:{Unbreakable:1b}},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:"e49a7f35-e644-476d-bd3d-ce2aca71455f",Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmFhMTc1MGY2ZWYzMTRiYjM2Njg2YTlmN2VjNzdkOTgzNzgzZjZhM2VjZGEyZTMyYzJmYWViMDM4M2Y3N2EzIn19fQ=="}]}}}}],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f]}]}
