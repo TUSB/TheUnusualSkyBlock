@@ -18,3 +18,4 @@ advancement revoke @a from advancement:alpha/root
 gamerule doMobSpawning true
 gamerule keepInventory false
 gamerule doDaylightCycle true
+gamerule sendCommandFeedback false
