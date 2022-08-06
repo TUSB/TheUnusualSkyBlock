@@ -1,1 +1,1 @@
-particle minecraft:instant_effect ^ ^ ^ 0.05 0.2 0.05 0 10 force @a[tag=ShowParticles]
+particle minecraft:instant_effect ^ ^ ^ 0.05 0.2 0.05 0 10 force

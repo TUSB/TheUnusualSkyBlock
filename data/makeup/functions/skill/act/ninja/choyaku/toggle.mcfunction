@@ -3,5 +3,5 @@ execute unless entity @s[scores={ChoyakuLevel=1..}] run tellraw @s [{"translate"
 
 execute if entity @s[scores={ChoyakuLevel=1..}] run playsound minecraft:entity.witch.throw master @a[distance=..16] ~ ~ ~ 1 0.4
 execute if entity @s[scores={ChoyakuLevel=1..}] run playsound minecraft:item.trident.riptide_1 master @a[distance=..16] ~ ~ ~ 1 1.2
-execute if entity @s[scores={ChoyakuLevel=1..}] rotated ~ 0 run particle minecraft:sweep_attack ^ ^0.2 ^1.3 0 0 0 2.5 2 force @a[tag=ShowParticles]
+execute if entity @s[scores={ChoyakuLevel=1..}] rotated ~ 0 run particle minecraft:sweep_attack ^ ^0.2 ^1.3 0 0 0 2.5 2 force
 execute unless entity @s[scores={ChoyakuLevel=1..}] run playsound minecraft:block.lever.click master @s ~ ~ ~ 1 1
