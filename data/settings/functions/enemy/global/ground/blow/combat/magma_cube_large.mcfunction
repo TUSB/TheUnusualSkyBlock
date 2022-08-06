@@ -22,4 +22,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/currency_and_magic_stone/tier1/mix",Count:1,Chance:0.51d}]
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Death:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Ground,Blow,Combat,MagmaCubeMedium],Level:1}]],Count:2,CountRange:1}],Time:[{Name:"ChangeAI",Death:[{}]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Death:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Ground,Blow,Combat,MagmaCubeMedium],Level:1}]],Count:1,CountRange:2}],Time:[{Name:"ChangeAI",Death:[{}]}]}
