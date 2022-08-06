@@ -1,2 +1,2 @@
 #Function
-effect give @a[distance=..2] minecraft:invisibility 10 11
+effect give @a[distance=..2,gamemode=!creative,gamemode=!spectator] minecraft:invisibility 10 11

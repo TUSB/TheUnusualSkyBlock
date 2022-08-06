@@ -1,2 +1,2 @@
 #Function
-effect give @a[distance=..2] minecraft:poison 5 1 
+effect give @a[gamemode=!creative,gamemode=!spectator,distance=..2] minecraft:poison 5 1 
