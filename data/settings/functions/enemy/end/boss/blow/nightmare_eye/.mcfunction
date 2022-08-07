@@ -9,6 +9,7 @@ execute if entity @s[tag=Direction] run function settings:enemy/end/boss/blow/ni
 execute if entity @s[tag=Appearance] run function settings:enemy/end/boss/blow/nightmare_eye/appearance
 execute if entity @s[tag=Aura] run function settings:enemy/end/boss/blow/nightmare_eye/aura
 execute if entity @s[tag=AuraSystem] run function settings:enemy/end/boss/blow/nightmare_eye/aura_system
+execute if entity @s[tag=AuraBuff] run function settings:enemy/end/boss/blow/nightmare_eye/aura_buff
 execute if entity @s[tag=AuraResidual] run function settings:enemy/end/boss/blow/nightmare_eye/aura_residual
 execute if entity @s[tag=AuraAppearance] run function settings:enemy/end/boss/blow/nightmare_eye/aura_appearance
 execute if entity @s[tag=AuraSummon] run function settings:enemy/end/boss/blow/nightmare_eye/aura_summon
