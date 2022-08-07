@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:sheep",CustomName:'{"translate":"銀羊裘","color":"#FFFFFF","bold":true}',Color:8b,CustomNameVisible:true,ActiveEffects:[{Id:8b,Amplifier:9b,Duration:2147483647,ShowParticles:false}],PortalCooldown:3000,DeathLootTable:"empty",Tags:[Mob,Enemy,DelayedData,HasAI,TickingRequired,HasLootTable]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:sheep",Tags:[Mob,Enemy,DelayedData,HasAI,TickingRequired,HasLootTable,NoLootTableAdd],CustomName:'{"translate":"銀羊裘","color":"#FFFFFF","bold":true}',Color:8b,CustomNameVisible:true,ActiveEffects:[{Id:8b,Amplifier:9b,Duration:2147483647,ShowParticles:false}],PortalCooldown:3000,DeathLootTable:"empty"}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {ArmorItems:[{},{},{id:"minecraft:leather_chestplate",Count:1b,tag:{Unbreakable:1b,Enchantments:[{id:"minecraft:thorns",lvl:10s}]}},{}],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 16d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 1d
