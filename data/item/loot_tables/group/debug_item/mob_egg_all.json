@@ -395,6 +395,28 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"global ナイトメアオーラ Lv1\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[End,Boss,Blow,NightmareEye,Aura],Level:1}],[{Tags:[End,Boss,Blow,NightmareEye,AuraSystem],Level:1}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"global ナイトメアメテオ Lv1\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[End,Boss,Blow,NightmareEye,Meteor],Level:1}],[{Tags:[End,Boss,Blow,NightmareEye,MeteorSystem],Level:1}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"text\":\"global コンバットゾンビ Lv8\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Combat,Zombie],Level:8}]]}}]}}"
             }
           ]
@@ -1209,7 +1231,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 上層のナイトメアアイ Lv50\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[End,Boss,Blow,NightmareEye,Main,SpawnParticles],Level:50}],[{Tags:[End,Boss,Blow,NightmareEye,Direction],Level:1},{Tags:[End,Boss,Blow,NightmareEye,ShortSummon],Level:1},{Tags:[End,Boss,Blow,NightmareEye,AuraSummon],Level:1},{Tags:[End,Boss,Blow,NightmareEye,ParkSummon],Level:1}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 上層のナイトメアアイ Lv50\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[End,Boss,Blow,NightmareEye,Main,SpawnParticles],Level:50}],[{Tags:[End,Boss,Blow,NightmareEye,Direction],Level:1},{Tags:[End,Boss,Blow,NightmareEye,ShortSummon],Level:1},{Tags:[End,Boss,Blow,NightmareEye,AuraSummon],Level:1},{Tags:[End,Boss,Blow,NightmareEye,MeteorSummon],Level:1}]]}}]}}"
             }
           ]
         },
