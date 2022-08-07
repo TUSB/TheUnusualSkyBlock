@@ -14,7 +14,7 @@ body:
   attributes:
     label: 発生したTUSBのVersion
     options:
-      - v13.0.0
+      - v13.0.0α
   validations:
     required: true
 - type: textarea
