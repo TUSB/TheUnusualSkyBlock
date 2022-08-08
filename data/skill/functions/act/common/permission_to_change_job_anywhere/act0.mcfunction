@@ -12,12 +12,8 @@ execute store result storage calc: Bit.Flags int 1 run scoreboard players get @s
 execute store result storage calc: Bit.Digit int 1 run scoreboard players get _ CanChangeJobFlag
 execute store result score @s CanChangeJobFlag run function calc:bit/
 
-# 各職業の演出を表示する
-execute if score _ CanChangeJobFlag matches 31 run function makeup:job/change/knight
-execute if score _ CanChangeJobFlag matches 30 run function makeup:job/change/ninja
-execute if score _ CanChangeJobFlag matches 29 run function makeup:job/change/hunter
-execute if score _ CanChangeJobFlag matches 28 run function makeup:job/change/white_mage
-execute if score _ CanChangeJobFlag matches 27 run function makeup:job/change/black_mage
-execute if score _ CanChangeJobFlag matches 26 run function makeup:job/change/summoner
-execute if score _ CanChangeJobFlag matches 25 run function makeup:job/change/puppet_master
-execute if score _ CanChangeJobFlag matches 24 run function makeup:job/change/thief
+# 変更制限を解除する
+scoreboard players set @s ChangeJobLock 0
+
+# 職業変更画面表示
+execute in area:control_area run function job:change/dialog
