@@ -50,7 +50,7 @@ scoreboard players operation _ PuppetMasterLv < _ _
 execute store result score _ ThiefLv run data get storage job: JobStatus[8].Level
 scoreboard players operation _ ThiefLv < _ _
 
-tellraw @s "-----------------------------------------------------"
+tellraw @s ""
 tellraw @s ["",{"text":"K","color":"green","font":"icon"},{"translate":"剣士"},":",{"score":{"name":"_","objective":"KnightLv"},"color":"green"}," ",{"text":"N","color":"green","font":"icon"},{"translate":"忍者"},":",{"score":{"name":"_","objective":"NinjaLv"},"color":"green"}," ",{"text":"H","color":"green","font":"icon"},{"translate":"狩人"},":",{"score":{"name":"_","objective":"HunterLv"},"color":"green"}," ",{"text":"W","color":"green","font":"icon"},{"translate":"白魔導士"},":",{"score":{"name":"_","objective":"WhiteMageLv"},"color":"green"},"\n",{"text":"B","color":"green","font":"icon"},{"translate":"黒魔導士"},":",{"score":{"name":"_","objective":"BlackMageLv"},"color":"green"}," ",{"text":"S","color":"green","font":"icon"},{"translate":"召喚士"},":",{"score":{"name":"_","objective":"SummonerLv"},"color":"green"}," ",{"text":"P","color":"green","font":"icon"},{"translate":"絡繰士"},":",{"score":{"name":"_","objective":"PuppetMasterLv"},"color":"green"}," ",{"text":"T","color":"green","font":"icon"},{"translate":"怪盗"},":",{"score":{"name":"_","objective":"ThiefLv"},"color":"green"}]
 tellraw @s "====================================================="
 
