@@ -12,7 +12,8 @@ Minecraft 配布ワールド 「The Unusual SkyBlock」次期開発用データ�
 
 
 
-
 The Unusual SkyBlock
 Copyright (c) 2020 TUSB
 
+Minecraft 公式製品ではありません。Mojang から承認されておらず、Mojang とは関係ありません。
+Not an official Minecraft product, not endorsed by or affiliated with Mojang.
