@@ -1,0 +1,9 @@
+### 即時ステータス
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:snowball",NoGravity:1b,Silent:1b,PortalCooldown:200,Tags:[DelayedData,HasAI,CallOnInit,CallOnTimeOut,CallOnAttack,TickingRequired,DamageProjectile,EnemyProjectile]}
+data modify storage tusb_mob: "即時ステータス"."見た目" set value {Item:{id:"minecraft:fire_charge",Count:1b}}
+### 遅延ステータス
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"%1$sは%2$sにより灰と化した。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
+# AI
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Damage",Player:{DamageType:[Fire],DeathCause:'[{"translate":"%1$sは%2$sにより灰と化した。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName"}]}]'},Distance:{Max:2d}},{Condition:[{Name:"RandomChance",Chance:0.55d}],Name:"Function",Tags:[Desert,Ground,Shoot,Wizard,FireFlame]}],Time:[{Name:"Kill"}],Attack:[{Name:"Damage",Player:{DamageType:[Fire],DeathCause:'[{"translate":"%1$sは%2$sにより灰と化した。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName"}]}]'},Distance:{Max:2d}},{Condition:[{Name:"RandomChance",Chance:0.55d}],Name:"Function",Tags:[Desert,Ground,Shoot,W,FireFlame]}],TurnCount:3,Turn:[{Index:1,Target:{Look:"Player",Radius:64d,IgnoreBlocks:1b},Move:{Front:0.25d},Rotate:[-1f,-1f],Skill:[{Interval:{Min:1,Max:1,Current:20},Loop:{Max:1,Current:1},Call:[{Name:"Message",Message:'{"translate":"[1-1]:成功","color":"#FF00FF"}'}]}],Exit:{Time:60,TimeCount:60}},{Index:2,Skill:[{Interval:{Min:1,Max:1,Current:1},Loop:{Max:1,Current:1},Call:[{}]}],Exit:{Time:60,TimeCount:60}},{Index:3,Skill:[{Interval:{Min:1,Max:1,Current:1},Loop:{Max:1,Current:1},Call:[{Name:"Kill"}]}]}]}
