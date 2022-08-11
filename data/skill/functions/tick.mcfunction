@@ -62,6 +62,8 @@ execute if entity @s[tag=Crystal] run function skill:act/summoner/call_crystal_a
 execute if entity @s[tag=Glider] run function skill:act/summoner/summon_glider/glide
 ###ぷちブラック処理
 execute if entity @s[tag=PetitBlack] run function skill:act/summoner/petit_black/tick
+###ぷむぽむ花火処理
+execute if entity @s[tag=PomPom] run function skill:act/summoner/pompom/tick
 ###ウィークペイント
 execute if entity @s[tag=WeakPaint] run function makeup:skill/act/common/weakness_paint/tick
 ###ライブラ
