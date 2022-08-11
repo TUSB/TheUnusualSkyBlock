@@ -81,17 +81,17 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/usual_diamond_memory_star"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/usual_chainmail_memory_star"
         },
         {
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/usual_iron_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/usual_diamond_memory_star"
         },
         {
           "weight": 1,
