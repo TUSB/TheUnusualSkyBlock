@@ -28,13 +28,15 @@
   },
   "parent": "advancement:tutorial/tutorial09",
   "criteria": {
-    "use_grindstone": {
+    "requirement": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "block": {
-          "blocks": [
-            "minecraft:grindstone"
-          ]
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:grindstone"
+            ]
+          }
         }
       }
     }
