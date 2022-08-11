@@ -153,7 +153,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{#N/}"
+              "tag": "{display:{Name:'{\"text\":\"desert ロストメイジ Lv40\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Desert,Ground,Shoot,LostMage,Main],Level:40}],[{Tags:[Desert,Ground,Shoot,LostMage,Attaker],Level:1}]]}}]}}"
             }
           ]
         },
