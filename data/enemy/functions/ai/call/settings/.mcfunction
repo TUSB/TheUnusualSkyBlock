@@ -22,5 +22,6 @@ execute if data storage mob_data: Settings{Name:"Rotation"} run function enemy:a
 execute if data storage mob_data: Settings{Name:"Facing"} run function enemy:ai/call/settings/facing
 execute if data storage mob_data: Settings{Name:"Anchor"} run function enemy:ai/call/settings/anchor
 execute if data storage mob_data: Settings{Name:"As"} run function enemy:ai/call/settings/as
+execute if data storage mob_data: Settings{Name:"Align"} run function enemy:ai/call/settings/align/
 
 execute if data storage mob_data: Settings.Name if score 00000000-0000-0000-0000-000000000002 _ matches 1 at 0-0-0-0-1 run function enemy:ai/call/settings/
