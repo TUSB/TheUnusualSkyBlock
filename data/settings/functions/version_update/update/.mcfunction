@@ -1,9 +1,8 @@
 #アップデート
 data modify storage v13alpha: Version set from storage v13alpha: UpdatingVersion
-function main:load_once
 
-#v13.0.1 個別実行なし
-#execute if data storage v13alpha: {Version:{Major:0,Minor:1}} run function settings:version_update/update/13_0_1_alpha
+#execute if data storage v13alpha: {Version:{Major:1}} if score $World Calc matches ..0 run function settings:version_update/update/13_1_1_alpha
+#execute if data storage v13alpha: {Version:{Major:1}} if score $World Calc matches ..1 run function settings:version_update/update/13_1_2_alpha
 
 #看板書き換え
 execute in area:skylands run forceload add -169 770
