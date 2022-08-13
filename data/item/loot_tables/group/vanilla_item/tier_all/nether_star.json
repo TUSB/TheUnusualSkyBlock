@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 32,
+          "weight": 16,
           "type": "minecraft:item",
           "name": "minecraft:nether_star",
           "functions": [
@@ -15,7 +15,7 @@
           ]
         },
         {
-          "weight": 16,
+          "weight": 8,
           "type": "minecraft:item",
           "name": "minecraft:nether_star",
           "functions": [
@@ -26,7 +26,7 @@
           ]
         },
         {
-          "weight": 8,
+          "weight": 4,
           "type": "minecraft:item",
           "name": "minecraft:nether_star",
           "functions": [

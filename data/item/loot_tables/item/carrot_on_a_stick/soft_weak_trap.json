@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:106,display:{Name:'{\"translate\":\"柔弱の罠\",\"color\":\"#6D9EEB\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"H\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" ルカナントラップⅡ\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"狩人\",SkillID:325,Name:\"ルカナントラップ\",Level:2,Interval:10,Trigger:\"手に持って右クリック\",Count:3}}"
+              "tag": "{CustomModelData:106,CustomAttributes:1b,display:{Name:'{\"translate\":\"柔弱の罠\",\"color\":\"#6D9EEB\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"H\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" ルカナントラップⅡ\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"狩人\",SkillID:325,Name:\"ルカナントラップ\",Level:2,Interval:10,Trigger:\"手に持って右クリック\",Count:3}}"
             }
           ]
         }

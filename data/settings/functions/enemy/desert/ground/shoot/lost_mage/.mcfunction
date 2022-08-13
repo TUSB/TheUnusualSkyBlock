@@ -1,6 +1,8 @@
 execute if entity @s[tag=Main] run function settings:enemy/desert/ground/shoot/lost_mage/main
 execute if entity @s[tag=IceFreeze] run function settings:enemy/desert/ground/shoot/lost_mage/ice_freeze
+execute if entity @s[tag=DarkCurse] run function settings:enemy/desert/ground/shoot/lost_mage/dark_curse
 execute if entity @s[tag=FireFlame] run function settings:enemy/desert/ground/shoot/lost_mage/fire_flame
+execute if entity @s[tag=DarkBuff] run function settings:enemy/desert/ground/shoot/lost_mage/dark_buff
 execute if entity @s[tag=LightningParalysis] run function settings:enemy/desert/ground/shoot/lost_mage/lightning_paralysis
 execute if entity @s[tag=Attaker] run function settings:enemy/desert/ground/shoot/lost_mage/attaker
 execute if entity @s[tag=Ice] run function settings:enemy/desert/ground/shoot/lost_mage/ice

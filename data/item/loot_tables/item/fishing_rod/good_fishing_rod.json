@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,display:{Name:'{\"translate\":\"いいつりざお\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(IV)\",\"color\":\"white\",\"with\":[{\"translate\":\"練餌の\"},{\"translate\":\"刻印\"}]}]']},Engraving:{EnchantID:\"練餌\",Tier:4},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:105,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:0.21,Operation:1,UUID:[I;11,0,0,51],Slot:\"mainhand\"}]}"
+              "tag": "{CustomModelData:1,display:{Name:'{\"translate\":\"いいつりざお\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(IV)\",\"color\":\"white\",\"with\":[{\"translate\":\"練餌の\"},{\"translate\":\"刻印\"}]}]']},Engraving:{EnchantID:\"練餌\",Tier:4},AttributeModifiers:[]}"
             }
           ]
         }

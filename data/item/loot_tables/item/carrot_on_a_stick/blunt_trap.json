@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:107,display:{Name:'{\"translate\":\"鈍足の罠\",\"color\":\"#0000FF\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"H\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" ボミオストラップⅡ\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"狩人\",SkillID:333,Name:\"ボミオストラップ\",Level:2,Interval:10,Trigger:\"手に持って右クリック\",Count:3}}"
+              "tag": "{CustomModelData:107,CustomAttributes:1b,display:{Name:'{\"translate\":\"鈍足の罠\",\"color\":\"#0000FF\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"H\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" ボミオストラップⅡ\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"狩人\",SkillID:333,Name:\"ボミオストラップ\",Level:2,Interval:10,Trigger:\"手に持って右クリック\",Count:3}}"
             }
           ]
         }
