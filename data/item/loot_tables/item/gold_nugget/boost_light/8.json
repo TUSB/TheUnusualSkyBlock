@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:154,EnchantStone:1b,EnchantID:\"光威\",Tier:8,display:{Name:'{\"translate\":\"%1$s%2$s(VIII)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"光威の\"},{\"translate\":\"宝珠\"}]}',Lore:['{\"translate\":\"%s VIII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ホーリーブースト\"}]}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器・盾\",\"color\":\"gray\"}]','{\"text\":\"エンチャント台で使用\",\"italic\":false}']}}"
+              "tag": "{CustomModelData:154,EnchantStone:1b,EnchantID:\"光威\",Tier:8,display:{Name:'{\"translate\":\"%1$s%2$s(VIII)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"光威の\"},{\"translate\":\"宝珠\"}]}',Lore:['[{\"translate\":\"%s VIII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ホーリーブースト\"}]},{\"text\":\"  \"},{\"text\":\"l\",\"font\":\"icon\",\"color\":\"yellow\"},{\"text\":\"+80%\",\"color\":\"gray\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器・盾\",\"color\":\"gray\"}]','{\"text\":\"エンチャント台で使用\",\"italic\":false}']}}"
             }
           ]
         }

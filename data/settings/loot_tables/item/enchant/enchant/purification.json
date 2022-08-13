@@ -10,7 +10,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EnchantLore:['{\"translate\":\"%s I\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ホーリーブースト\"}]}','{\"translate\":\"%s I\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ダークブースト\"}]}'],Enchantments:[{id:\"tusb:光威\",lvl:1},{id:\"tusb:闇威\",lvl:1}]}"
+              "tag": "{EnchantLore:['[{\"translate\":\"%s I\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ホーリーブースト\"}]},{\"text\":\"  \"},{\"text\":\"l\",\"font\":\"icon\",\"color\":\"yellow\"},{\"text\":\"+10%\",\"color\":\"gray\"}]','[{\"translate\":\"%s I\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ダークブースト\"}]},{\"text\":\"  \"},{\"text\":\"d\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\"+10%\",\"color\":\"gray\"}]'],Enchantments:[{id:\"tusb:光威\",lvl:1},{id:\"tusb:闇威\",lvl:1}]}"
             }
           ],
           "conditions": [
@@ -30,7 +30,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EnchantLore:['{\"translate\":\"%s II\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ホーリーブースト\"}]}','{\"translate\":\"%s II\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ダークブースト\"}]}'],Enchantments:[{id:\"tusb:光威\",lvl:2},{id:\"tusb:闇威\",lvl:2}]}"
+              "tag": "{EnchantLore:['[{\"translate\":\"%s II\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ホーリーブースト\"}]},{\"text\":\"  \"},{\"text\":\"l\",\"font\":\"icon\",\"color\":\"yellow\"},{\"text\":\"+20%\",\"color\":\"gray\"}]','[{\"translate\":\"%s II\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ダークブースト\"}]},{\"text\":\"  \"},{\"text\":\"d\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\"+20%\",\"color\":\"gray\"}]'],Enchantments:[{id:\"tusb:光威\",lvl:2},{id:\"tusb:闇威\",lvl:2}]}"
             }
           ],
           "conditions": [
@@ -50,7 +50,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EnchantLore:['{\"translate\":\"%s III\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ホーリーブースト\"}]}','{\"translate\":\"%s III\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ダークブースト\"}]}'],Enchantments:[{id:\"tusb:光威\",lvl:3},{id:\"tusb:闇威\",lvl:3}]}"
+              "tag": "{EnchantLore:['[{\"translate\":\"%s III\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ホーリーブースト\"}]},{\"text\":\"  \"},{\"text\":\"l\",\"font\":\"icon\",\"color\":\"yellow\"},{\"text\":\"+30%\",\"color\":\"gray\"}]','[{\"translate\":\"%s III\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ダークブースト\"}]},{\"text\":\"  \"},{\"text\":\"d\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\"+30%\",\"color\":\"gray\"}]'],Enchantments:[{id:\"tusb:光威\",lvl:3},{id:\"tusb:闇威\",lvl:3}]}"
             }
           ],
           "conditions": [
@@ -70,7 +70,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EnchantLore:['{\"translate\":\"%s IV\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ホーリーブースト\"}]}','{\"translate\":\"%s IV\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ダークブースト\"}]}'],Enchantments:[{id:\"tusb:光威\",lvl:4},{id:\"tusb:闇威\",lvl:4}]}"
+              "tag": "{EnchantLore:['[{\"translate\":\"%s IV\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ホーリーブースト\"}]},{\"text\":\"  \"},{\"text\":\"l\",\"font\":\"icon\",\"color\":\"yellow\"},{\"text\":\"+40%\",\"color\":\"gray\"}]','[{\"translate\":\"%s IV\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ダークブースト\"}]},{\"text\":\"  \"},{\"text\":\"d\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\"+40%\",\"color\":\"gray\"}]'],Enchantments:[{id:\"tusb:光威\",lvl:4},{id:\"tusb:闇威\",lvl:4}]}"
             }
           ],
           "conditions": [
@@ -90,7 +90,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EnchantLore:['{\"translate\":\"%s V\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ホーリーブースト\"}]}','{\"translate\":\"%s V\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ダークブースト\"}]}'],Enchantments:[{id:\"tusb:光威\",lvl:5},{id:\"tusb:闇威\",lvl:5}]}"
+              "tag": "{EnchantLore:['[{\"translate\":\"%s V\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ホーリーブースト\"}]},{\"text\":\"  \"},{\"text\":\"l\",\"font\":\"icon\",\"color\":\"yellow\"},{\"text\":\"+50%\",\"color\":\"gray\"}]','[{\"translate\":\"%s V\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ダークブースト\"}]},{\"text\":\"  \"},{\"text\":\"d\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\"+50%\",\"color\":\"gray\"}]'],Enchantments:[{id:\"tusb:光威\",lvl:5},{id:\"tusb:闇威\",lvl:5}]}"
             }
           ],
           "conditions": [
@@ -110,7 +110,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EnchantLore:['{\"translate\":\"%s VI\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ホーリーブースト\"}]}','{\"translate\":\"%s VI\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ダークブースト\"}]}'],Enchantments:[{id:\"tusb:光威\",lvl:6},{id:\"tusb:闇威\",lvl:6}]}"
+              "tag": "{EnchantLore:['[{\"translate\":\"%s VI\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ホーリーブースト\"}]},{\"text\":\"  \"},{\"text\":\"l\",\"font\":\"icon\",\"color\":\"yellow\"},{\"text\":\"+60%\",\"color\":\"gray\"}]','[{\"translate\":\"%s VI\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ダークブースト\"}]},{\"text\":\"  \"},{\"text\":\"d\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\"+60%\",\"color\":\"gray\"}]'],Enchantments:[{id:\"tusb:光威\",lvl:6},{id:\"tusb:闇威\",lvl:6}]}"
             }
           ],
           "conditions": [
@@ -130,7 +130,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EnchantLore:['{\"translate\":\"%s VII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ホーリーブースト\"}]}','{\"translate\":\"%s VII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ダークブースト\"}]}'],Enchantments:[{id:\"tusb:光威\",lvl:7},{id:\"tusb:闇威\",lvl:7}]}"
+              "tag": "{EnchantLore:['[{\"translate\":\"%s VII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ホーリーブースト\"}]},{\"text\":\"  \"},{\"text\":\"l\",\"font\":\"icon\",\"color\":\"yellow\"},{\"text\":\"+70%\",\"color\":\"gray\"}]','[{\"translate\":\"%s VII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ダークブースト\"}]},{\"text\":\"  \"},{\"text\":\"d\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\"+70%\",\"color\":\"gray\"}]'],Enchantments:[{id:\"tusb:光威\",lvl:7},{id:\"tusb:闇威\",lvl:7}]}"
             }
           ],
           "conditions": [
@@ -150,7 +150,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{EnchantLore:['{\"translate\":\"%s VIII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ホーリーブースト\"}]}','{\"translate\":\"%s VIII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ダークブースト\"}]}'],Enchantments:[{id:\"tusb:光威\",lvl:8},{id:\"tusb:闇威\",lvl:8}]}"
+              "tag": "{EnchantLore:['[{\"translate\":\"%s VIII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ホーリーブースト\"}]},{\"text\":\"  \"},{\"text\":\"l\",\"font\":\"icon\",\"color\":\"yellow\"},{\"text\":\"+80%\",\"color\":\"gray\"}]','[{\"translate\":\"%s VIII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ダークブースト\"}]},{\"text\":\"  \"},{\"text\":\"d\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\"+80%\",\"color\":\"gray\"}]'],Enchantments:[{id:\"tusb:光威\",lvl:8},{id:\"tusb:闇威\",lvl:8}]}"
             }
           ],
           "conditions": [
