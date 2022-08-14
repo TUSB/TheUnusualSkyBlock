@@ -1,0 +1,1 @@
+particle minecraft:flame ^ ^ ^ ^ ^ ^100000000000 0.000000000005 0 force
