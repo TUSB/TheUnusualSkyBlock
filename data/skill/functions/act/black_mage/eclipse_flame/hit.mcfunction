@@ -2,6 +2,8 @@
 ### エクリプスフレイム着弾
 ##############################
 
+#位置補正
+tp @s ~ ~-2 ~
 #着弾時リセット
 scoreboard players set @s EclipseRadius 100
 data modify entity @s Duration set value 400
