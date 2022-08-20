@@ -1,7 +1,7 @@
 #アップデート
 data modify storage v13alpha: Version set from storage v13alpha: UpdatingVersion
 
-#execute if data storage v13alpha: {Version:{Major:1}} if score $World Calc matches ..0 run function settings:version_update/update/13_1_1_alpha
+execute if data storage v13alpha: {Version:{Major:1}} if score $World Calc matches ..0 run function settings:version_update/update/13_1_1_alpha
 #execute if data storage v13alpha: {Version:{Major:1}} if score $World Calc matches ..1 run function settings:version_update/update/13_1_2_alpha
 
 #看板書き換え
