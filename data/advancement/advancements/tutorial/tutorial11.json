@@ -40,7 +40,7 @@
   },
   "parent": "advancement:tutorial/tutorial10",
   "criteria": {
-    "fishing_rod": {
+    "emerald": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
