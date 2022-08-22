@@ -13,6 +13,7 @@ execute if predicate settings:item/lapidary/upgrade/boost_fire/ run function set
 execute if predicate settings:item/lapidary/upgrade/boost_ice/ run function settings:item/lapidary/upgrade/boost_ice
 execute if predicate settings:item/lapidary/upgrade/boost_light/ run function settings:item/lapidary/upgrade/boost_light
 execute if predicate settings:item/lapidary/upgrade/boost_lightning/ run function settings:item/lapidary/upgrade/boost_lightning
+execute if predicate settings:item/lapidary/upgrade/double_break/ run function settings:item/lapidary/upgrade/double_break
 execute if predicate settings:item/lapidary/upgrade/dragon_scale/ run function settings:item/lapidary/upgrade/dragon_scale
 execute if predicate settings:item/lapidary/upgrade/element/ run function settings:item/lapidary/upgrade/element
 execute if predicate settings:item/lapidary/upgrade/evolution/ run function settings:item/lapidary/upgrade/evolution
