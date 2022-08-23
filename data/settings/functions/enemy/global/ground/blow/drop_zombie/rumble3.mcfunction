@@ -21,7 +21,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 0
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 0
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Damage",Player:{Damage:20d,BypassArmor:true,DeathCause:'[{"translate":"%1$sは%2$sの地鳴りによって転ばせられ頭部の陥没により絶命した。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'},Distance:{Min:0,Max:5}}],Time:[{Name:"Kill"}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Damage",Player:{Damage:20d,DeathCause:'[{"translate":"%1$sは%2$sの地鳴りによって転ばせられ頭部の陥没により絶命した。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'},Distance:{Min:0,Max:5}}],Time:[{Name:"Kill"}]}
 #Function
 playsound block.composter.fill hostile @a[distance=..20] ~ ~ ~ 0.7 1.5 0
 particle block stone ^0 ^ ^-5 0 0 0 0 1 force @a[tag=ShowParticles]
