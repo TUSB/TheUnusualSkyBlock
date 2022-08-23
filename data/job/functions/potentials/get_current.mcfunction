@@ -19,9 +19,9 @@ scoreboard players operation _ ResistMin = @s ResistMin
 execute store result score _ _ run data get storage tusb_player: Potentials.Default.ResistMin
 scoreboard players operation _ ResistMin -= _ _
 scoreboard players set _ _ 2
-scoreboard players operation _ ResisMin /= _ _
+scoreboard players operation _ ResistMin /= _ _
 scoreboard players operation _ Calc += _ ResistMin
-scoreboard players operation _ ResisMin *= _ _
+scoreboard players operation _ ResistMin *= _ _
 
 scoreboard players operation _ AuraRate = @s AuraRate
 execute store result score _ _ run data get storage tusb_player: Potentials.Default.AuraRate
