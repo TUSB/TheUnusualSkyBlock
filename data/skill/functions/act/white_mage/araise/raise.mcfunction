@@ -12,7 +12,7 @@ data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Raise.Rotation 
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Raise.Dimension set from entity @s Dimension
 
 # 演出用エンティティ召喚
-summon marker ~ ~ ~ {Tags:[Skill,RaisePoint,NativeTask]}
+summon armor_stand ~ ~ ~ {Tags:[TickingRequired,NativeTask,Skill,RaisePoint],PortalCooldown:3600,Small:true,Invulnerable:true,Invisible:true}
 
 # 描画防止用暗闇
 effect give @s minecraft:blindness 1000000 127 true
