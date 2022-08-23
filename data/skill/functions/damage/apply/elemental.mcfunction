@@ -46,10 +46,10 @@ scoreboard players operation _ Calc *= _ Calc
 scoreboard players operation _ Calc += _ Calc
 scoreboard players operation _ _ = @s _
 scoreboard players operation _ _ += _ _
-scoreboard players operation _ _ += @s SpecialDefense
+execute if score @s _ matches 1.. run scoreboard players operation _ _ += @s SpecialDefense
 scoreboard players operation _ Calc /= _ _
 scoreboard players operation @s Damage += _ Calc
-
+tellraw @p [{"text":""},{"score":{"name":"@s","objective":"Damage"}}]
 #回復演出
 execute if score @s Calc matches 1 run function makeup:skill/damage/heal
 #CallOnAttack用に与えた属性を保存
