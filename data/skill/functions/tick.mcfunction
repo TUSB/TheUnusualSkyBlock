@@ -68,6 +68,8 @@ execute if entity @s[tag=PomPom] run function skill:act/summoner/pompom/tick
 execute if entity @s[tag=WeakPaint] run function makeup:skill/act/common/weakness_paint/tick
 ###ライブラ
 # execute if entity @s[tag=Libra] run function skill:act/common/libra/tick
+###ホームラン
+execute if entity @s[tag=HomeRun] run function skill:act/common/home_run/tick/
 
 ###トラップ
 execute if entity @s[tag=DecelerateTrap] run function skill:act/hunter/decelerate_trap/tick
