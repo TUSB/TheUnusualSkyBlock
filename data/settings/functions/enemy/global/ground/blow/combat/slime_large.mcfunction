@@ -1,9 +1,9 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:slime",Tags:[Mob,Enemy,DelayedData,CallOnDeath,CallOnTimeOut,TickingRequired,HasLootTable,NoLootTableAdd],CustomName:'{"translate":"コンバットスライム"}',Size:7,PortalCooldown:3000}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:slime",Tags:[Mob,Enemy,DelayedData,CallOnDeath,CallOnTimeOut,CallOnAttack,TickingRequired,HasLootTable,NoLootTableAdd],CustomName:'{"translate":"コンバットスライム"}',Size:7,PortalCooldown:3000}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 32d
-data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.4d
-data modify storage tusb_mob: "即時ステータス"."ノックバック耐性" set value 0.3d
+data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.1d
+data modify storage tusb_mob: "即時ステータス"."ノックバック耐性" set value 0.1d
 data modify storage tusb_mob: "即時ステータス"."ノックバック力" set value 2.3d
 
 ### 遅延ステータス
@@ -22,4 +22,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 80
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/currency_and_magic_stone/tier1/mix",Count:1,Chance:0.51d}]
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Death:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Ground,Blow,Combat,SlimeMedium],Level:1}]],Count:1,CountRange:2}],Time:[{Name:"ChangeAI",Death:[{}]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Death:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Ground,Blow,Combat,SlimeMedium],Level:1}]],Count:1}],Time:[{Name:"ChangeAI",Death:[{}]}],Attack:[{Name:"Damage",Player:{Damage:0d},Distance:{Max:0d},AEC:{Effects:[{Id:2b,Amplifier:1b,Duration:30,ShowParticles:false}]}}]}
