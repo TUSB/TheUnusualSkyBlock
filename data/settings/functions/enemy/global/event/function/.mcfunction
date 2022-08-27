@@ -9,5 +9,6 @@ execute if entity @s[tag=Conditions] run function settings:enemy/global/event/fu
 execute if entity @s[tag=IceExplosion] run function settings:enemy/global/event/function/ice_explosion/
 execute if entity @s[tag=FireExplosion] run function settings:enemy/global/event/function/fire_explosion/
 execute if entity @s[tag=HomingTest] run function settings:enemy/global/event/function/homing_test
+execute if entity @s[tag=Lightningbolt] run function settings:enemy/global/event/function/lightningbolt
 execute if entity @s[tag=DarkExplosion] run function settings:enemy/global/event/function/dark_explosion/
 execute if entity @s[tag=LightningExplosion] run function settings:enemy/global/event/function/lightning_explosion/

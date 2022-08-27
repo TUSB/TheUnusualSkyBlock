@@ -4,6 +4,7 @@ execute if entity @s[tag=Skeleton] run function settings:enemy/global/ground/blo
 execute if entity @s[tag=Spider] run function settings:enemy/global/ground/blow/combat/spider
 execute if entity @s[tag=Zombie] run function settings:enemy/global/ground/blow/combat/zombie
 execute if entity @s[tag=ZombieBaby] run function settings:enemy/global/ground/blow/combat/zombie_baby
+execute if entity @s[tag=Drowned] run function settings:enemy/global/ground/blow/combat/drowned
 execute if entity @s[tag=MagmaCubeMedium] run function settings:enemy/global/ground/blow/combat/magma_cube_medium
 execute if entity @s[tag=SlimeMedium] run function settings:enemy/global/ground/blow/combat/slime_medium
 execute if entity @s[tag=SlimeLarge] run function settings:enemy/global/ground/blow/combat/slime_large
