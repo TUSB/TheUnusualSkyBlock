@@ -30,7 +30,6 @@ execute if data storage skill: Skill{Name:"冷やしパンプキンスープ"} r
 execute if data storage skill: Skill{Name:"コーンスープ"} run function skill:act/common/corn_soup/act0
 execute if data storage skill: Skill{Name:"サン"} run function skill:act/common/sun/act0
 execute if data storage skill: Skill{Name:"ムーン"} run function skill:act/common/moon/act0
-execute if data storage skill: Skill{Name:"真・魔神斬り"} run function skill:act/common/true_genie_slash/act0
 execute if data storage skill: Skill{Name:"MP回復"} run function skill:act/common/mp_recovery/act0
 execute if data storage skill: Skill{Name:"範囲MP回復"} run function skill:act/common/range_mp_recovery/act0
 execute if data storage skill: Skill{Name:"HPMP割合回復"} run function skill:act/common/hpmp_percentage_recovery/act0
