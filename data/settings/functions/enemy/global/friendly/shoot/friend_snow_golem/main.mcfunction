@@ -8,7 +8,7 @@ data modify storage tusb_mob: "即時ステータス"."ノックバック力" se
 
 ### 遅延ステータス
 # ステータス
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 425
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 150
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
