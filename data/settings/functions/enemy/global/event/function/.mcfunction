@@ -1,5 +1,6 @@
 execute if entity @s[tag=CommonExe] run function settings:enemy/global/event/function/common_exe/
 execute if entity @s[tag=Debuffs] run function settings:enemy/global/event/function/debuffs/
+execute if entity @s[tag=Combat] run function settings:enemy/global/event/function/combat/
 execute if entity @s[tag=AttackSound] run function settings:enemy/global/event/function/attack_sound/
 execute if entity @s[tag=DamageSound] run function settings:enemy/global/event/function/damage_sound/
 execute if entity @s[tag=CommonParticle] run function settings:enemy/global/event/function/common_particle/

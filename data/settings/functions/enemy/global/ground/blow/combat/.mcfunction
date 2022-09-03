@@ -1,3 +1,4 @@
+execute if entity @s[tag=WitherSkeleton] run function settings:enemy/global/ground/blow/combat/wither_skeleton
 execute if entity @s[tag=Creeper] run function settings:enemy/global/ground/blow/combat/creeper
 execute if entity @s[tag=CaveSpider] run function settings:enemy/global/ground/blow/combat/cave_spider
 execute if entity @s[tag=Skeleton] run function settings:enemy/global/ground/blow/combat/skeleton
