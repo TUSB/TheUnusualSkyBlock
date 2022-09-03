@@ -33,14 +33,14 @@ execute if score _ Calc matches ..-7 if block ~ ~-1 ~ minecraft:air run scoreboa
 tag @s[tag=KazakiriJump,nbt=!{ActiveEffects:[{Id:25b}]}] remove KazakiriJump
 execute if entity @s[tag=KazakiriJump] run scoreboard players reset _ Calc
 
-execute if score _ Calc matches -5 run effect clear @s[nbt=!{ActiveEffects:[{Id:25b,Amplifier:-6b}]}] minecraft:levitation
-execute if score _ Calc matches -5 run effect give @s minecraft:levitation 1 250
+#execute if score _ Calc matches -5 run effect clear @s[nbt=!{ActiveEffects:[{Id:25b,Amplifier:-6b}]}] minecraft:levitation
+#execute if score _ Calc matches -5 run effect give @s minecraft:levitation 1 250
 
-execute if score _ Calc matches -3 run effect clear @s[nbt=!{ActiveEffects:[{Id:25b,Amplifier:-4b}]}] minecraft:levitation
-execute if score _ Calc matches -3 run effect give @s minecraft:levitation 1 252
+#execute if score _ Calc matches -3 run effect clear @s[nbt=!{ActiveEffects:[{Id:25b,Amplifier:-4b}]}] minecraft:levitation
+#execute if score _ Calc matches -3 run effect give @s minecraft:levitation 1 252
 
-execute if score _ Calc matches -1 run effect clear @s[nbt=!{ActiveEffects:[{Id:25b,Amplifier:-2b}]}] minecraft:levitation
-execute if score _ Calc matches -1 run effect give @s minecraft:levitation 1 254
+#execute if score _ Calc matches -1 run effect clear @s[nbt=!{ActiveEffects:[{Id:25b,Amplifier:-2b}]}] minecraft:levitation
+#execute if score _ Calc matches -1 run effect give @s minecraft:levitation 1 254
 
 execute if score _ Calc matches 1 run effect clear @s[nbt=!{ActiveEffects:[{Id:25b,Amplifier:0b}]}] minecraft:levitation
 execute if score _ Calc matches 1 run effect give @s minecraft:levitation 1 0
