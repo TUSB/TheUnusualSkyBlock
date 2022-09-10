@@ -32,6 +32,8 @@ scoreboard players operation @s MPMax += _ Level
 execute store result score _ Level run data get storage job: JobStatus[8].Level
 scoreboard players operation _ Level < _ _
 scoreboard players operation @s MPMax += _ Level
+execute store result score @s Luck run attribute @s minecraft:generic.luck get
+scoreboard players operation @s MPMax += @s Luck
 
 #体力リセット
 attribute @s generic.max_health modifier remove 000-0-0-1-0
