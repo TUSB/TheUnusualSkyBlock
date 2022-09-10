@@ -127,7 +127,7 @@
                 "condition": "location_check",
                 "predicate": {
                   "block": {
-                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:マナ\"}]}}]}"
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:魔力\"}]}}]}"
                   }
                 }
               }
