@@ -1,3 +1,3 @@
 
 
-execute in area:control_area run tp @s -3841 1 2304 180 0
+execute in area:control_area run tp @s 0 0 0 180 0
