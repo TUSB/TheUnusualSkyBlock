@@ -3,7 +3,7 @@
 # エンティティの初期化処理を行う
 ###################################################
 
-### 自然沸き処理
+### 自然湧き処理
 execute if entity @s[type=#entity:natural_spawn,tag=] run function enemy:natural_spawn
 
 ### モブ召喚
