@@ -26,6 +26,8 @@ execute if entity @s[tag=ShiningBolt] run function makeup:skill/act/white_mage/s
 execute if entity @s[tag=FlowerGift] run function skill:act/white_mage/flower_gift/tick
 ###レイズ処理
 execute if entity @s[tag=RaisePoint] run function makeup:skill/act/white_mage/araise/tick
+###サンクチュアリ処理
+execute if entity @s[tag=Sanctuary] run function skill:act/white_mage/sanctuary/tick
 ###セイクリッドピラー処理
 execute if entity @s[tag=SacredPillar] run function skill:act/white_mage/sacred_pillar/tick/
 ###ホーリー処理
