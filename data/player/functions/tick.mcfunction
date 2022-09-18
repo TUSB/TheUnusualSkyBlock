@@ -57,7 +57,7 @@ execute if entity @s[scores={HomePoint=1..}] run function skill:act/black_mage/r
 execute if entity @s[scores={RestoreItem=0..}] run function skill:act/common/restore_item/tick
 
 ### 幸運によるMP補正
-execute store result score _ Luck run attribute @s minecraft:generic.luck get
+execute store result score _ Luck run attribute @s minecraft:generic.luck get 10
 execute unless score _ Luck = @s Luck run function player:luck_update
 
 ### MP回復
