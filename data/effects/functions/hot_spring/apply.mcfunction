@@ -1,11 +1,11 @@
 
 ### 温泉入浴
 
-#体力・MP全回復 + MPは+50される
-effect give @s instant_health 1 120 true
-scoreboard players operation _ _ = @s MPMax
-scoreboard players add _ _ 50
-scoreboard players operation @s MP = _ _
+#体力・MP持続回復 + Luck5を10分
+effect give @s regeneration 1 5 true
+scoreboard players set @s[scores={MPAcceleration=..0}] MPAcceleration 0
+scoreboard players add @s MPAcceleration 20
+effect give @s luck 600 4 true
 
 #状態異常回復
 function skill:act/white_mage/clear/cure/level4
