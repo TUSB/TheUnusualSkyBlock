@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:52,EnchantStone:1b,EnchantID:\"氷\",Tier:4,display:{Name:'{\"translate\":\"%1$s%2$s(IV)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"氷の\"},{\"translate\":\"原石\"}]}',Lore:['[{\"translate\":\"%s IV\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"氷ダメージ追加\"}]},{\"text\":\"  \"},{\"text\":\"c\",\"font\":\"icon\",\"color\":\"aqua\"},{\"text\":\"+35\",\"color\":\"gray\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器・道具\",\"color\":\"gray\"}]','{\"text\":\"エンチャント台で使用\",\"italic\":false}']}}"
+              "tag": "{CustomModelData:52,EnchantStone:1b,EnchantID:\"氷\",Tier:4,display:{Name:'{\"translate\":\"%1$s%2$s(IV)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"氷の\"},{\"translate\":\"原石\"}]}',Lore:['[{\"translate\":\"%s IV\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"氷ダメージ追加\"}]},{\"text\":\"  \"},{\"text\":\"c\",\"font\":\"icon\",\"color\":\"aqua\"},{\"text\":\"+35\",\"color\":\"gray\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器・道具\",\"color\":\"gray\"}]','{\"translate\":\"エンチャント台で使用\",\"italic\":false}']}}"
             }
           ]
         }
