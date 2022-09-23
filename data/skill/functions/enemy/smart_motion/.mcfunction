@@ -23,3 +23,7 @@ execute if data storage mob_data: Call{Stop:1b} run tag @s remove SmartMotion
 
 #OnBlock
 execute if data storage mob_data: Call.OnBlock run function skill:enemy/smart_motion/on_block
+
+#E (反発係数)
+execute if data storage mob_data: Call.E store result score @s sm.E run data get storage mob_data: Call.E
+execute unless score @s sm.E matches -2147483648..2147483647 run scoreboard players set @s sm.E 100

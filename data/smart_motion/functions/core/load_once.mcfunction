@@ -9,6 +9,7 @@ scoreboard objectives add sm.RotationY dummy
 scoreboard objectives add sm.Speed dummy
 scoreboard objectives add sm.Gravity dummy
 scoreboard objectives add sm.GravitySum dummy
+scoreboard objectives add sm.E dummy
 
 scoreboard players set #-1 sm.Calc -1
 scoreboard players set #100 sm.Calc 100
