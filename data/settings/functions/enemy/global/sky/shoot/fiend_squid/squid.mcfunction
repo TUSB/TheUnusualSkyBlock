@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:squid",CustomName:'{"translate":"アオリイカ","color":"#FFFFFF"}',Air:32767s,NoGravity:true,PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,HasAI,CallOnTimeOut,TickingRequired,DamageProjectile,EnemyProjectile,HasLootTable]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:squid",CustomName:'{"translate":"アオリイカ","color":"#FFFFFF"}',Air:32767s,NoGravity:true,PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,HasAI,TickingRequired,DamageProjectile,EnemyProjectile,HasLootTable]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 0d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0d
@@ -23,4 +23,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法�
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/currency_and_magic_stone/tier1/mix",Count:1,Chance:1d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"%1$sは%2$sの餌になった。。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Time:[{Name:"Kill"}],TurnCount:1,Turn:[{Index:1,Target:{Look:"Friendly",Radius:32d},Rotate:[360f,360f]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:1,Turn:[{Index:1,Target:{Look:"Friendly",Radius:32d},Rotate:[360f,360f]}]}
