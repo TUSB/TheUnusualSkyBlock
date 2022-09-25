@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:4002,BreakContainer:true,HideFlags:32,SpawnEntities:[[{Tags:[Global,Ground,Blow,Simic,SpawnParticles],Level:40}]],Explosion:{Type:0,Colors:[I;10987431]},display:{Name:'{\"translate\":\"破壊召喚の罠「シミック」\",\"color\":\"#A7A7A7\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"デストロイカウンタートラップアイテム。\",\"color\":\"#FF0029\"}','{\"translate\":\"このアイテムがインベントリー外、または\",\"color\":\"#FF0029\"}','{\"translate\":\"チェスト等に紛れ、開いた際そのブロックを破壊し\",\"color\":\"#FF0029\"}','{\"translate\":\"フィールドに「」内のモンスターを特殊召喚をする。\",\"color\":\"#FF0029\"}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
