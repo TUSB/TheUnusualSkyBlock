@@ -12,11 +12,11 @@
 data modify storage mob_data: DelayAction set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayAction
 
 
-#########
+### 追加用枠
 
 execute if data storage mob_data: Call{Tags:["Casting"]} run function skill:enemy/delay_action/append/casting/
 
-#########
+###
 
 data modify storage mob_data: AddingAction.Tags set from storage mob_data: Call.Tags
 data modify storage mob_data: AddingAction.ExtraSettings set from storage mob_data: Call.ExtraSettings
