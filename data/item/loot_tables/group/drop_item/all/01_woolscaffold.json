@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 10,
+          "weight": 16,
           "type": "loot_table",
           "name": "item:group/drop_item/all/wool_set"
         },
@@ -17,7 +17,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 8
+                "max": 3
               }
             }
           ]
