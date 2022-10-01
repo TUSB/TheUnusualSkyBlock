@@ -4,6 +4,7 @@ execute if entity @s[tag=SmartMotionToRotation] run function settings:enemy/glob
 execute if entity @s[tag=ApplyRotation] run function settings:enemy/global/event/function/common_exe/apply_rotation
 execute if entity @s[tag=TpWithRotation] run function settings:enemy/global/event/function/common_exe/tp_with_rotation
 execute if entity @s[tag=SummonFromRegion] run function settings:enemy/global/event/function/common_exe/summon_from_region
+execute if entity @s[tag=SmartMotionZerospeed] run function settings:enemy/global/event/function/common_exe/smart_motion_zerospeed
 execute if entity @s[tag=BlockAlign] run function settings:enemy/global/event/function/common_exe/block_align
 execute if entity @s[tag=RandomTeleportEnemy] run function settings:enemy/global/event/function/common_exe/random_teleport_enemy
 execute if entity @s[tag=RandomRotation] run function settings:enemy/global/event/function/common_exe/random_rotation
