@@ -15,4 +15,4 @@ data modify storage calc: Triangle.Cos set from entity 0-0-0-0-0 Pos[0]
 
 ## Return
 execute as 0-0-0-0-0 run function calc:geometry/return_marker
-data get storage calc: Triangle.Cos
+data get storage calc: Triangle.Cos 10000

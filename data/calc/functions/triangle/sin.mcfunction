@@ -15,4 +15,4 @@ data modify storage calc: Triangle.Sin set from entity 0-0-0-0-0 Pos[2]
 
 ## Return
 execute as 0-0-0-0-0 run function calc:geometry/return_marker
-data get storage calc: Triangle.Sin
+data get storage calc: Triangle.Sin 10000
