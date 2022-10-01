@@ -11,9 +11,9 @@ execute if score _ Level matches 4 run data modify storage skill: Damage set fro
 execute store result score _ Calc run function calc:random
 scoreboard players set _ _ 1000
 scoreboard players operation _ Calc %= _ _
-#確率でEffectivenessを0に
-execute if score _ Level matches 1..3 if score _ Calc matches 0..200 run data modify storage skill: Damage.Effectiveness set value 0
-execute if score _ Level matches 4 if score _ Calc matches 0..100 run data modify storage skill: Damage.Effectiveness set value 0
+#確率でEffectivenessとスキルダメージを0に
+execute if score _ Calc matches 0..200 run data modify storage skill: Damage.Effectiveness set value 0
+execute if score _ Calc matches 0..200 run data modify storage skill: Damage.Fire set value 0
 #ダメージ計算
 function skill:damage/add/skill/weapon
 
