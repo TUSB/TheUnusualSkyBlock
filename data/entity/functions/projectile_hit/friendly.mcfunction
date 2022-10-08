@@ -5,6 +5,7 @@ data modify storage score_damage: Argument set value {DamageType:[Global,Project
 data modify storage score_damage: Argument.DeathCause set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4]."ステータス".DeathCause
 execute store result storage score_damage: Argument.Damage double 1 run scoreboard players get @e[tag=EnemyProjectile,distance=..3,limit=1,sort=nearest] Attack 
 execute unless data storage score_damage: Argument{Damage:0} run function score_damage:api/attack
+tag @s[type=!player] add HitDamageTaken
 #CallOnAttack
 execute if entity @e[tag=EnemyProjectile,tag=CallOnAttackProjectile,distance=..3,limit=1,sort=nearest] at @s run function enemy:ai/call/trigger/attack/projectile
 #演出
