@@ -21,4 +21,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 50
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Death:[{Name:"Function",Tags:[Global,Event,Function,Combat,DelayedDeath]}],Time:[{Name:"ChangeAI",Death:[{}]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Death:[{Settings:[{Name:"Direction",DirectionRange:[360f,0f],Speed:5d,SpeedRange:10d}],Name:"Spawn",SpawnEntities:[[{Tags:[Global,Ground,Blow,Combat,SlimeLittle],Level:1}]],Count:1}],Time:[{Name:"Spawn"},{Name:"ChangeAI",Death:[{}]}]}

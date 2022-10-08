@@ -22,4 +22,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 20
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/currency_and_magic_stone/tier1/mix",Count:1,Chance:0.51d}]
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:120,Max:480,Current:120},Call:[{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:32d,IgnoreBlocks:true}},{Name:"Direction",Direction:[0f,0f],Speed:1d}],Name:"Spawn",SpawnEntities:[[{Tags:[Skylands,Ground,Blow,Throwper,DefeatTnt],Level:10}]]}]}]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:80,Max:240,Current:80},Call:[{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:32d,IgnoreBlocks:true}},{Name:"Direction",Direction:[0f,0f],Speed:1d}],Name:"Spawn",SpawnEntities:[[{Tags:[Skylands,Ground,Blow,Throwper,DefeatTnt],Level:10}]]}]}]}]}
