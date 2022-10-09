@@ -8,6 +8,7 @@ execute at @e[tag=Enemy,nbt=!{AbsorptionAmount:1000000f}] run function calc:geom
 #分岐
 execute if entity @s[advancements={player:trigger/hurt_entity={hit_projectile=true}}] run function player:trigger/hurt_entity/hit_projectile
 execute if entity @s[advancements={player:trigger/hurt_entity={melee_attack=true}}] run function player:trigger/hurt_entity/melee_attack
+execute if entity @s[advancements={player:trigger/hurt_entity={melee_attack2=true}}] run function player:trigger/hurt_entity/melee_attack
 execute if entity @s[advancements={player:trigger/hurt_entity={melee_bow_attack=true}}] run function player:trigger/hurt_entity/melee_bow_attack
 execute if entity @s[advancements={player:trigger/hurt_entity={sword_attack_sweep=true}}] run function player:trigger/hurt_entity/sword_attack_sweep
 

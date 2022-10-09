@@ -46,6 +46,58 @@
         }
       }
     },
+    "melee_attack2": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "mainhand": {
+                        "tag": "item:bows"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "mainhand": {
+                        "tag": "item:swords"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "damage": {
+          "dealt": {
+            "max": 1
+          },
+          "type": {
+            "is_explosion": false,
+            "is_fire": false,
+            "is_magic": false,
+            "is_projectile": false,
+            "is_lightning": false,
+            "bypasses_armor": false,
+            "bypasses_invulnerability": false,
+            "bypasses_magic": false
+          }
+        }
+      }
+    },
     "melee_bow_attack": {
       "trigger": "minecraft:player_hurt_entity",
       "conditions": {
@@ -111,7 +163,15 @@
       }
     }
   },
-  "requirements": [["hit_projectile","melee_attack","melee_bow_attack","sword_attack_sweep"]],
+  "requirements": [
+    [
+      "hit_projectile",
+      "melee_attack",
+      "melee_attack2",
+      "melee_bow_attack",
+      "sword_attack_sweep"
+    ]
+  ],
   "rewards": {
     "function": "player:trigger/hurt_entity/"
   }
