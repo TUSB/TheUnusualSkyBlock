@@ -10,6 +10,9 @@ function skill:damage/add/elemental
 #属性ダメージ付与
 execute at 0-0-0-0-2 as @e[tag=Enemy,nbt=!{AbsorptionAmount:1000000f},distance=0] run function skill:damage/apply/elemental
 
+### 忍者＜連舞＞
+execute if score @s TsuremaiLevel matches 1.. run function skill:act/ninja/tsuremai/trigger/attack
+
 ### 黒魔導士＜ライトニングブロー＞
 execute if score @s LightningBlow matches 1.. run function skill:act/black_mage/lightning_blow/hit
 

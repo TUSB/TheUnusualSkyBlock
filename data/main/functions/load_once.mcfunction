@@ -87,6 +87,7 @@ scoreboard objectives add MPHealingWait dummy {"text":"MP回復ウェイト"}
 scoreboard objectives add MPAcceleration dummy {"text":"MP回復加速量"}
 scoreboard objectives add MPConsumption dummy {"text":"MP回復量"}
 scoreboard objectives add TrackingID dummy {"text":"追尾スキル同期ID"}
+scoreboard objectives add SkillShortcut dummy {"text":"スキル設定中tick"}
 #剣士
 scoreboard objectives add FalconSlashTimer dummy {"text":"はやぶさ斬り遅延タイマー"}
 scoreboard objectives add IronWill dummy {"text":"アイアンウィル残りtick数"}
@@ -106,6 +107,7 @@ scoreboard objectives add Issen dummy {"text":"一閃継続tick数"}
 scoreboard objectives add Isukumi dummy {"text":"居縮継続秒数"}
 scoreboard objectives add Kaishaku dummy {"text":"介錯残りtick数"}
 scoreboard objectives add SayonaraLevel dummy {"text":"サヨナラレベル"}
+scoreboard objectives add TsuremaiLevel dummy {"text":"連舞レベル"}
 #狩人
 scoreboard objectives add PiercingAim dummy {"text":"ピアッシングエイム継続秒数"}
 scoreboard objectives add RaderVision dummy {"text":"レーダーヴィジョン継続tick数"}

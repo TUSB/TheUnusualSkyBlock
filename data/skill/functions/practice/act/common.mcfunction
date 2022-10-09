@@ -1,3 +1,4 @@
+execute if data storage skill: Skill{Name:"ラピッドコンボ"} run function skill:act/common/rapid_combo/act0
 execute if data storage skill: Skill{Name:"ダウジングスポナー"} run function skill:act/common/dowsing_spawner/act0
 execute if data storage skill: Skill{Name:"TUSB宣伝"} run function skill:act/common/tusb_promotion/act0
 execute if data storage skill: Skill{Name:"リスト・アイテム"} run function skill:act/common/restore_item/act0

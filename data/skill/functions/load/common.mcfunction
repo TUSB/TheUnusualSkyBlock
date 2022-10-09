@@ -1,3 +1,7 @@
+execute if data storage skill: Skill{Name:"ラピッドコンボ",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"ラピッドコンボ",Level:1}]
+execute if data storage skill: Skill{Name:"ラピッドコンボ",Level:2} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"ラピッドコンボ",Level:2}]
+execute if data storage skill: Skill{Name:"ラピッドコンボ",Level:3} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"ラピッドコンボ",Level:3}]
+execute if data storage skill: Skill{Name:"ラピッドコンボ",Level:4} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"ラピッドコンボ",Level:4}]
 execute if data storage skill: Skill{Name:"ダウジングスポナー",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"ダウジングスポナー",Level:1}]
 execute if data storage skill: Skill{Name:"TUSB宣伝",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"TUSB宣伝",Level:1}]
 execute if data storage skill: Skill{Name:"リスト・アイテム",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"リスト・アイテム",Level:1}]
