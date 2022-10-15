@@ -769,7 +769,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"global 通常湧きの木のコンテナ Lv1\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Neutrality,Blow,WoodenContainer,Main,SpawnParticles],Level:1}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"global 通常湧きの木のコンテナ Lv10\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Neutrality,Blow,WoodenContainer,Main,SpawnParticles],Level:10}]]}}]}}"
             }
           ]
         },
@@ -780,7 +780,18 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"imaginary_space 迷える魂(白) Lv50\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Shoot,LostSoulWhite,Main,SpawnParticles],Level:50}],[{Tags:[Global,Sky,Shoot,LostSoulWhite,Appearance],Level:1},{Tags:[Global,Sky,Shoot,LostSoulWhite,Turret],Level:50}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"global ローリングバレル Lv20\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Neutrality,Blow,RollingBarrel,Main],Level:20}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"imaginary_space 迷える魂(白) Lv50\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Shoot,LostSoulWhite,Main,SpawnParticles],Level:50}],[{Tags:[Global,Sky,Shoot,LostSoulWhite,Appearance],Level:1},{Tags:[Global,Sky,Shoot,LostSoulWhite,Turret],Level:1}]]}}]}}"
             }
           ]
         },
