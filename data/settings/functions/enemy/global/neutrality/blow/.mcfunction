@@ -1,3 +1,4 @@
+execute if entity @s[tag=RollingBarrel] run function settings:enemy/global/neutrality/blow/rolling_barrel/
 execute if entity @s[tag=04Woolscaffold] run function settings:enemy/global/neutrality/blow/04_woolscaffold/
 execute if entity @s[tag=WoodenContainer] run function settings:enemy/global/neutrality/blow/wooden_container/
 execute if entity @s[tag=01Woolscaffold] run function settings:enemy/global/neutrality/blow/01_woolscaffold
