@@ -6,17 +6,17 @@
     },
     "title": [
       {
-        "translate": "自然沸きについて               ",
+        "translate": "自然湧きについて               ",
         "color": "white",
         "bold": true
       }
     ],
     "description": {
-      "translate": "%1$sは全て%2$sがスポーンする。\n%3$sが現れることも。\n沸いたMobは%4$sする。",
+      "translate": "%1$sは全て%2$sがスポーンする。\n%3$sが現れることも。\n湧いたMobは%4$sする。",
       "color": "white",
       "with": [
         {
-          "translate": "自然沸き",
+          "translate": "自然湧き",
           "color": "aqua"
         },
         {
