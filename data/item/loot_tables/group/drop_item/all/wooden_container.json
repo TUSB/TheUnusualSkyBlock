@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 7,
+          "weight": 8,
           "type": "loot_table",
           "name": "item:group/base_currency/tier1/emerald",
           "functions": [
@@ -16,6 +16,11 @@
               }
             }
           ]
+        },
+        {
+          "weight": 8,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/entity/wooden_container"
         },
         {
           "weight": 5,
