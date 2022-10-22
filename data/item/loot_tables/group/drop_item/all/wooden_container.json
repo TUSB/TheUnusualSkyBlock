@@ -30,6 +30,11 @@
         {
           "weight": 3,
           "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_common_bomb"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/ether"
         },
         {
