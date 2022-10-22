@@ -10,9 +10,9 @@ playsound block.end_portal.spawn neutral @a[distance=..32] ~ ~ ~ 0.2 1.5 0.1
 playsound entity.generic.explode neutral @a[distance=..32] ~ ~ ~ 0.3 0.5 0.1
 playsound block.end_portal_frame.fill neutral @a[distance=..32] ~ ~ ~ 0.4 0.5 0.1
 playsound block.ender_chest.open neutral @a[distance=..32] ~ ~ ~ 0.4 0.5 0.1
-particle flame ~ ~0.5 ~ 0.5 0.5 0.5 0.4 100 force @a[tag=ShowParticles]
-particle portal ~ ~0.5 ~ 0 0 0 5 100 force @a[tag=ShowParticles]
-particle dust -100000000 0 -10 3 ~ ~0.5 ~ 1.7 1.7 1.7 0.7 100 force @a[tag=ShowParticles]
-particle dust -1 -100 100000000 4 ~ ~0.5 ~ 3.5 3.5 3.5 1 100 force @a[tag=ShowParticles]
-particle dust 1 -100000000 100000000 2 ~ ~0.5 ~ 1.2 1.2 1.2 0.5 100 force @a[tag=ShowParticles]
-particle dust 0 0 0 3 ~ ~0.5 ~ 0.2 0.2 0.2 0 100 force @a[tag=ShowParticles]
+particle flame ~ ~0.5 ~ 0.5 0.5 0.5 0.4 100 force
+particle portal ~ ~0.5 ~ 0 0 0 5 100 force
+particle dust -100000000 0 -10 3 ~ ~0.5 ~ 1.7 1.7 1.7 0.7 100 force
+particle dust -1 -100 100000000 4 ~ ~0.5 ~ 3.5 3.5 3.5 1 100 force
+particle dust 1 -100000000 100000000 2 ~ ~0.5 ~ 1.2 1.2 1.2 0.5 100 force
+particle dust 0 0 0 3 ~ ~0.5 ~ 0.2 0.2 0.2 0 100 force
