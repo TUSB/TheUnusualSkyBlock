@@ -7,3 +7,5 @@ execute store result score _ _ run scoreboard players reset @s[scores={WildHeali
 execute if score _ _ matches 1 run function makeup:skill/act/hunter/wild_healing/toggle
 execute store result score _ _ run scoreboard players reset @s[scores={SayonaraLevel=1..}] SayonaraLevel
 execute if score _ _ matches 1 run function makeup:skill/act/ninja/sayonara/toggle
+execute store result score _ _ run scoreboard players reset @s[scores={TsuremaiLevel=1..}] TsuremaiLevel
+execute if score _ _ matches 1 run function makeup:skill/act/ninja/tsuremai/toggle
