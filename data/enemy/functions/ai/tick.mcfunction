@@ -12,7 +12,7 @@ execute if data storage mob_data: AI.Turn[0].Target run function enemy:ai/target
 execute if data storage mob_data: AI.Turn[0].Rotate facing entity 0-0-0-0-2 feet positioned ^ ^ ^0.003 rotated as @s run function enemy:ai/rotate/
 
 ##Move処理
-execute if data storage mob_data: AI.Turn[0].Move rotated as @s run function enemy:ai/move/
+execute if data storage mob_data: AI.Turn[0].Move if score 00000000-0000-0000-0000-000000000002 _ matches 1 rotated as @s run function enemy:ai/move/
 
 ##skill処理
 execute if data storage mob_data: AI.Turn[0].Skill run function enemy:ai/skill/
