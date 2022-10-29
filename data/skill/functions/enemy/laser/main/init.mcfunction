@@ -2,6 +2,7 @@
 data modify storage score_damage: Argument set value {DamageType:[Global,Projectile]}
 data modify storage score_damage: Argument merge from storage mob_data: Call.Argument
 execute unless data storage score_damage: Argument.Damage store result storage score_damage: Argument.Damage int 1 run scoreboard players get @s Attack
+data modify storage score_damage: MobName set from entity @s CustomName
 
 #CallOnAttack
 data modify storage mob_data: Call.UUID set from entity @s UUID

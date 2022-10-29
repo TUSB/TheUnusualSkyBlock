@@ -1,5 +1,5 @@
 #ダメージ処理
-execute positioned ~-2 ~-2 ~-2 as @a[gamemode=!creative,gamemode=!spectator,scores={ProjectileTime=0..},dx=0,dy=0,dz=0] run function skill:enemy/laser/main/damage
+execute positioned ~-2 ~-2 ~-2 as @a[gamemode=!creative,gamemode=!spectator,nbt={DeathTime:0s},scores={ProjectileTime=0..},dx=0,dy=0,dz=0] run function skill:enemy/laser/main/damage
 
 #演出
 function makeup:skill/enemy/laser/loop/kame_hame_ha/4
