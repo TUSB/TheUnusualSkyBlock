@@ -3,8 +3,6 @@
 #Target有無フラグをリセット
 scoreboard players set @s _ 0
 scoreboard players set @s Calc 0
-#現在位置に0-0-0-0-2をtp
-tp @s ^ ^ ^
 #Radiusを倍で取得
 execute store result score _ Calc run data get storage mob_data: Target.Radius 2
 #Radius - MinRadius
