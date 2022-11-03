@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"強翼\",\"color\":\"#FF9900\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"非売品のエリトラ\",\"color\":\"#FFFFFF\",\"italic\":false}','{\"translate\":\"攻撃力と耐久度を犠牲に一部制限を開放した一品\",\"color\":\"#FFFFFF\",\"italic\":false}']},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:-0.35,Operation:2,UUID:[I;22,0,0,32],Slot:\"chest\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:-0.7,Operation:2,UUID:[I;22,0,0,42],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:-1.05,Operation:1,UUID:[I;22,0,0,61],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"カスタム\",Amount:-1.05,Operation:1,UUID:[I;22,0,0,70],Slot:\"chest\"}]}"
+              "tag": "{display:{Name:'{\"translate\":\"強翼\",\"color\":\"#FF9900\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"非売品のエリトラ\",\"color\":\"#FFFFFF\",\"italic\":false}','{\"translate\":\"攻撃力と耐久度を犠牲に一部制限を開放した一品\",\"color\":\"#FFFFFF\",\"italic\":false}']},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:-0.35,Operation:2,UUID:[I;22,0,0,32],Slot:\"chest\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:-0.7,Operation:2,UUID:[I;22,0,0,42],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:-1.05,Operation:1,UUID:[I;22,0,0,61],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"カスタム\",Amount:-1.05,Operation:1,UUID:[I;22,0,0,71],Slot:\"chest\"}]}"
             }
           ]
         }

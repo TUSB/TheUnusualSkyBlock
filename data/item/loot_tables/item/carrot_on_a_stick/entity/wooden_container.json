@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1014,CustomAttributes:1b,LootTable:\"item:chest/memory_star/container/wooden_container\",display:{Name:'{\"translate\":\"木のコンテナ\",\"color\":\"#876147\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"使用用途で効果が異なる箱\",\"color\":\"#FFFFFF\",\"italic\":false}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" 索引顕界\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"索引顕界\",Level:1,Interval:0,Trigger:\"手に持って右クリック\",Count:1}}"
+              "tag": "{CustomModelData:1014,LootTable:\"item:chest/memory_star/container/wooden_container\",display:{Name:'{\"translate\":\"木のコンテナ\",\"color\":\"#876147\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"使用用途で効果が異なる箱\",\"color\":\"#FFFFFF\",\"italic\":false}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" 索引顕界\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"索引顕界\",Level:1,Interval:0,Trigger:\"手に持って右クリック\",Count:1}}"
             }
           ]
         }
