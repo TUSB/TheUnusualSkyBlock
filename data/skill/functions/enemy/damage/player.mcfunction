@@ -4,7 +4,9 @@
 #ダメージ取得
 data remove storage score_damage: Argument
 data modify storage score_damage: Argument set from storage mob_data: Call.Player
-execute unless data storage score_damage: Argument.Damage store result storage score_damage: Argument.Damage double 1 run scoreboard players get @s SpecialAttack
+execute unless data storage score_damage: Argument.Effectiveness run data modify storage score_damage: Argument.Effectiveness set value 100
+execute store result score _ _ run data get storage score_damage: Argument.Effectiveness
+execute unless data storage score_damage: Argument.Damage store result storage score_damage: Argument.Damage double 0.01 run scoreboard players operation _ _ *= @s SpecialAttack
 
 #モブ名取得
 data modify storage mob_data: MobName set from entity @s CustomName
