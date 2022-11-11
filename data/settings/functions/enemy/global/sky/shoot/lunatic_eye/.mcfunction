@@ -1,0 +1,13 @@
+execute if entity @s[tag=Main] run function settings:enemy/global/sky/shoot/lunatic_eye/main
+execute if entity @s[tag=Direction] run function settings:enemy/global/sky/shoot/lunatic_eye/direction
+execute if entity @s[tag=Appearance] run function settings:enemy/global/sky/shoot/lunatic_eye/appearance
+execute if entity @s[tag=AttackAura] run function settings:enemy/global/sky/shoot/lunatic_eye/attack_aura
+execute if entity @s[tag=Aura] run function settings:enemy/global/sky/shoot/lunatic_eye/aura
+execute if entity @s[tag=Buff] run function settings:enemy/global/sky/shoot/lunatic_eye/buff
+execute if entity @s[tag=AuraResidual] run function settings:enemy/global/sky/shoot/lunatic_eye/aura_residual
+execute if entity @s[tag=AuraCheck] run function settings:enemy/global/sky/shoot/lunatic_eye/aura_check
+execute if entity @s[tag=AuraAppearance] run function settings:enemy/global/sky/shoot/lunatic_eye/aura_appearance
+execute if entity @s[tag=Powder] run function settings:enemy/global/sky/shoot/lunatic_eye/powder
+execute if entity @s[tag=PowderResidual] run function settings:enemy/global/sky/shoot/lunatic_eye/powder_residual
+execute if entity @s[tag=PowderAppearance] run function settings:enemy/global/sky/shoot/lunatic_eye/powder_appearance
+execute if entity @s[tag=AttackPowder] run function settings:enemy/global/sky/shoot/lunatic_eye/attack_powder

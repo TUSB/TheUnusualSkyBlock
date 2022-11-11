@@ -22,4 +22,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/all/03_woolscaffold",Count:1,Chance:1d}]
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:60,Max:60,Current:60},Call:[{Settings:[{Name:"As",Target:{Look:"Self"}}],Name:"Heal",Multiplier:2d,Range:0.1}]}]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:60,Max:60,Current:60},Call:[{Name:"Heal",Multiplier:2d,Range:0.1}]}]}]}

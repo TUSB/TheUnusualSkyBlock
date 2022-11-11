@@ -2,6 +2,7 @@ execute if entity @s[tag=DownAlign2] run function settings:enemy/global/event/fu
 execute if entity @s[tag=DownAlign1] run function settings:enemy/global/event/function/common_exe/down_align_1
 execute if entity @s[tag=SmartMotionToRotation] run function settings:enemy/global/event/function/common_exe/smart_motion_to_rotation
 execute if entity @s[tag=ApplyRotation] run function settings:enemy/global/event/function/common_exe/apply_rotation
+execute if entity @s[tag=CheckPassenger] run function settings:enemy/global/event/function/common_exe/check_passenger
 execute if entity @s[tag=TpWithRotation] run function settings:enemy/global/event/function/common_exe/tp_with_rotation
 execute if entity @s[tag=SummonFromRegion] run function settings:enemy/global/event/function/common_exe/summon_from_region
 execute if entity @s[tag=SmartMotionZerospeed] run function settings:enemy/global/event/function/common_exe/smart_motion_zerospeed
