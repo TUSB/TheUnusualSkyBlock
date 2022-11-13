@@ -5,3 +5,4 @@ execute if entity @s[tag=DaemonEye] run function settings:enemy/global/sky/shoot
 execute if entity @s[tag=PoisonEye] run function settings:enemy/global/sky/shoot/poison_eye/
 execute if entity @s[tag=LunaticEye] run function settings:enemy/global/sky/shoot/lunatic_eye/
 execute if entity @s[tag=LostSoulWhite] run function settings:enemy/global/sky/shoot/lost_soul_white/
+execute if entity @s[tag=LostSoulRed] run function settings:enemy/global/sky/shoot/lost_soul_red/
