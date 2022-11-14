@@ -20,6 +20,9 @@ execute if data storage mob_data: AI.Turn[0].Skill run function enemy:ai/skill/
 ##Turn exit確認
 execute if data storage mob_data: AI.Turn[0].Exit run function enemy:ai/exit/
 
+##CallOnTick
+execute if entity @s[tag=CallOnTick] run function enemy:ai/call/trigger/tick
+
 #データを元に戻す
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from storage mob_data: AI
 
