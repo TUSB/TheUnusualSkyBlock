@@ -61,4 +61,4 @@ data modify storage calc: Rotate.Triangle.X+Y-Z set from storage calc: Triangle.
 ## X-Y+Zのsincosを取得
 execute store result storage calc: Triangle.Rotation float 1 run scoreboard players get $X-Y+Z _
 function calc:triangle/sincos
-data modify storage calc: Rotate.Triangle.Y+Z-X set from storage calc: Triangle.SinCos
+data modify storage calc: Rotate.Triangle.X-Y+Z set from storage calc: Triangle.SinCos

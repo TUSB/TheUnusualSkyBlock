@@ -3,7 +3,7 @@
 #> calc: Triangle
 #{
 #  Rotation : 角度を指定(Float)
-#  SinCos[] : 結果の出力 [0]がCos [1]がSin
+#  SinCos[] : 結果の出力 [0]がSin [1]がCos
 #}
 
 ## Initialize

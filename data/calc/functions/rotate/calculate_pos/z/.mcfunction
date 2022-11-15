@@ -1,9 +1,13 @@
+#https://ja.wolframalpha.com/input?i=+ysin%28X%29cos%28Y%29%2Bzcos%28X%29cos%28Y%29%E2%88%92xsin%28Y%29
 scoreboard players set $Pos-Z-X _ 0
 scoreboard players set $Pos-Z-Y _ 0
 scoreboard players set $Pos-Z-Z _ 0
 
+#end
 execute unless score $Pos-X _ matches 0 run function calc:rotate/calculate_pos/z/1
+#end
 execute unless score $Pos-Y _ matches 0 run function calc:rotate/calculate_pos/z/2
+#
 execute unless score $Pos-Z _ matches 0 run function calc:rotate/calculate_pos/z/3
 
 

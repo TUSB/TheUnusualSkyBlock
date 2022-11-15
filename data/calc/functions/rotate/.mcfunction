@@ -6,10 +6,6 @@
 #  Angle[X,Y,Z] : 回転角度をオイラー角で指定
 #}
 
-tag 0-0-0-0-1 add Marker
 
 
-execute positioned 0.0 0.0 0.0 if entity @e[tag=Marker,distance=..30,limit=1] as 0-0-0-0-1 run function calc:rotate/act
-
-
-tag 0-0-0-0-1 remove Marker
+execute as 0-0-0-0-1 in area:control_area positioned 0.0 0.0 0.0 if entity @s[distance=..30] run function calc:rotate/act
