@@ -5,6 +5,10 @@
 ###バージョン
 function settings:version_update/check/
 
+###ゲームルール
+gamerule forgiveDeadPlayers false
+gamerule universalAnger true
+
 ###ステータス
 scoreboard objectives add Level dummy {"text":"レベル"}
 scoreboard objectives add ElementFire dummy {"text":"炎属性値"}
