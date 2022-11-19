@@ -1836,6 +1836,28 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"skylands 下層のなんにでも水をかけるクラフター Lv10\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,CrafterWhoWaterOnEverything,Main,SpawnParticles],Level:10}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"skylands 下層のなんにでもマグマをかけるクラフター Lv10\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,CrafterWhoLavaOnEverything,Main,SpawnParticles],Level:10}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"text\":\"table_mountain カトン・ニンジャ Lv23\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Shoot,NinjaTypeF,Main,SpawnParticles],Level:23}]]}}]}}"
             }
           ]
