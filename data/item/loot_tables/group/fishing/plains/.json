@@ -32,7 +32,7 @@
           ]
         },
         {
-          "weight": 3,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:group/fishing/plains/bad_items"
         },
