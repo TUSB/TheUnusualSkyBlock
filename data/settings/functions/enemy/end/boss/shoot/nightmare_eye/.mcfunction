@@ -5,7 +5,6 @@ execute if entity @s[tag=ShortNightmareEyeAppearance] run function settings:enem
 execute if entity @s[tag=ShortSummon] run function settings:enemy/end/boss/shoot/nightmare_eye/short_summon
 execute if entity @s[tag=Main] run function settings:enemy/end/boss/shoot/nightmare_eye/main
 execute if entity @s[tag=ArrestBullet] run function settings:enemy/end/boss/shoot/nightmare_eye/arrest_bullet
-execute if entity @s[tag=Direction] run function settings:enemy/end/boss/shoot/nightmare_eye/direction
 execute if entity @s[tag=Appearance] run function settings:enemy/end/boss/shoot/nightmare_eye/appearance
 execute if entity @s[tag=Aura] run function settings:enemy/end/boss/shoot/nightmare_eye/aura
 execute if entity @s[tag=AuraSystem] run function settings:enemy/end/boss/shoot/nightmare_eye/aura_system

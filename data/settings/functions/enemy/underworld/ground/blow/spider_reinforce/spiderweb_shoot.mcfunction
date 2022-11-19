@@ -6,7 +6,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 10
 data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"%1$sは%2$sによって糸に絡め取られてしまった。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:32d,IgnoreBlocks:true},Anchor:"Eyes"}],Name:"Step",Speed:0.3d,SpeedRange:0.2d}],Attack:[{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:1.0d,IgnoreBlocks:true}},{Name:"Direction",Direction:[0f,0f],Speed:0.2d}],Name:"Spawn",SpawnEntities:[[{Tags:[Underworld,Ground,Blow,SpiderReinforce,SpiderwebEffect],Level:1}]]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Settings:[{Name:"Rotation",Target:{Look:"Player",Radius:64d,IgnoreBlocks:true},Direction:[0f,-30f],DirectionRange:[0f,15f]}],Name:"Step",Speed:0.5d,SpeedRange:0.2d}],Attack:[{Name:"Function",Tags:[Underworld,Ground,Blow,SpiderReinforce,SpiderwebEffect]}]}
 #Function
 particle minecraft:item cobweb ~ ~ ~ 0.1 1 0.1 0.1 10 force @a
 playsound entity.spider.hurt hostile @a[distance=..20] ~ ~ ~ 0.7 2.0

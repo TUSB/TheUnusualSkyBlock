@@ -1,4 +1,5 @@
 execute if entity @s[tag=Throwper] run function settings:enemy/skylands/ground/blow/throwper/
+execute if entity @s[tag=BioFish] run function settings:enemy/skylands/ground/blow/bio_fish/
 execute if entity @s[tag=Hopper] run function settings:enemy/skylands/ground/blow/hopper
 execute if entity @s[tag=ExperienceOne] run function settings:enemy/skylands/ground/blow/experience_one
 execute if entity @s[tag=BombPig] run function settings:enemy/skylands/ground/blow/bomb_pig/

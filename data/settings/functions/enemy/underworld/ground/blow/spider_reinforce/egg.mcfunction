@@ -21,7 +21,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Time:[{Condition:[{Name:"RandomChance",Chance:0.75d}],Name:"Spawn",SpawnEntities:[[{Tags:[Underworld,Ground,Blow,SpiderReinforce,Main],Level:1}]]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Time:[{Condition:[{Name:"RandomChance",Chance:0.65d}],Name:"Spawn",SpawnEntities:[[{Tags:[Underworld,Ground,Blow,SpiderReinforce,Main],Level:1}]]}]}
 #Function
 particle minecraft:block end_stone ~ ~0.5 ~ 0.3 0 0.3 0 1 force @a
 particle minecraft:dust 1 0 0 1 ~ ~4 ~ 0.2 0.1 0.2 20 10 force @a
