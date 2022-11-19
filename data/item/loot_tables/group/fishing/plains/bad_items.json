@@ -4,7 +4,12 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 8,
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_water_column"
+        },
+        {
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/firework_star/etc/trap_spawn_fiend_squid"
         },
