@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank3/tusb_all"
+          "name": "item:group/rank_tusb_item/rank7/tusb_all"
         }
       ]
     },
@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank3/tusb_all"
+          "name": "item:group/rank_tusb_item/rank7/tusb_all"
         }
       ]
     },
@@ -81,7 +81,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 4
+              "count": 16
             }
           ]
         }
@@ -92,7 +92,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank2/tusb_all"
+          "name": "item:group/rank_tusb_item/rank7/tusb_all"
         }
       ]
     },
@@ -101,7 +101,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank2/tusb_all"
+          "name": "item:group/rank_tusb_item/rank7/tusb_all"
         }
       ]
     },
@@ -119,7 +119,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:item/tipped_arrow/arrow_of_prayer_lv1",
+          "name": "item:item/tipped_arrow/arrow_of_prayer_lv2",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -134,7 +134,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier3_carrot_on_a_stick"
+          "name": "item:item/carrot_on_a_stick/tier7_carrot_on_a_stick"
         }
       ]
     },
@@ -158,7 +158,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/cold_pumpkin_soup"
+          "name": "item:item/carrot_on_a_stick/elixir"
         }
       ]
     },
@@ -167,7 +167,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/ether"
+          "name": "item:item/carrot_on_a_stick/super_ether"
         }
       ]
     },
@@ -180,7 +180,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{Items:[{id:\"emerald\",Count:16b}]}"
+              "tag": "{Items:[{id:\"emerald\",Count:64b}]}"
             }
           ]
         }
@@ -191,7 +191,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank1/tusb_all"
+          "name": "item:group/rank_tusb_item/rank7/tusb_all"
         }
       ]
     },
@@ -200,7 +200,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank1/tusb_all"
+          "name": "item:group/rank_tusb_item/rank7/tusb_all"
         }
       ]
     },
@@ -210,21 +210,6 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:torch",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 32
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:item/tipped_arrow/arrow_of_defilement_lv1",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -239,7 +224,22 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier3_carrot_on_a_stick"
+          "name": "item:item/tipped_arrow/arrow_of_defilement_lv2",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 64
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/tier7_carrot_on_a_stick"
         }
       ]
     },
@@ -263,7 +263,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/cold_pumpkin_soup"
+          "name": "item:item/carrot_on_a_stick/elixir"
         }
       ]
     },
@@ -272,7 +272,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/ether"
+          "name": "item:item/carrot_on_a_stick/super_ether"
         }
       ]
     },
