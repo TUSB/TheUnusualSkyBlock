@@ -6,7 +6,7 @@
         {
           "weight": 16,
           "type": "loot_table",
-          "name": "item:item/firework_star/etc/trap_spawn_common_bomb_huge",
+          "name": "item:group/tusb_item/all/huge_bomb_trap_summary",
           "functions": [
             {
               "function": "minecraft:set_count",

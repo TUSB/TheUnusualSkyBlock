@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:4001,HideFlags:32,SpawnEntities:[[{Tags:[Global,Event,Bullet,LightBomb,Main],Level:30}]],Explosion:{Type:0,Colors:[I;16744319]},display:{Name:'{\"translate\":\"召喚の罠「光爆弾」\",\"color\":\"#FF0000\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"カウンタートラップアイテム。\",\"color\":\"#FF0061\"}','{\"translate\":\"このアイテムがインベントリー外に出た際、\",\"color\":\"#FF0061\"}','{\"translate\":\"フィールドに「」内のモンスターを特殊召喚をする。\",\"color\":\"#FF0061\"}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

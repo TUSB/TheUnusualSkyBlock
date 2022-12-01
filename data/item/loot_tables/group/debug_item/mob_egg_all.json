@@ -604,6 +604,94 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"global 氷爆弾 Lv1\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Event,Bullet,IceBomb,Main],Level:1}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"global 巨大氷爆弾 Lv30\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Event,Bullet,IceBombHuge,Main],Level:30}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"global 雷爆弾 Lv1\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Event,Bullet,LightningBomb,Main],Level:1}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"global 巨大雷爆弾 Lv30\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Event,Bullet,LightningBombHuge,Main],Level:30}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"global 光爆弾 Lv1\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Event,Bullet,LightBomb,Main],Level:1}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"global 巨大光爆弾 Lv30\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Event,Bullet,LightBombHuge,Main],Level:30}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"global 闇爆弾 Lv1\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Event,Bullet,DarkBomb,Main],Level:1}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"global 巨大闇爆弾 Lv30\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Event,Bullet,DarkBombHuge,Main],Level:30}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"text\":\"global ナイトメアオーラ Lv1\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[End,Boss,Shoot,NightmareEye,Aura],Level:1}],[{Tags:[End,Boss,Shoot,NightmareEye,AuraSystem],Level:1}]]}}]}}"
             }
           ]
@@ -913,6 +1001,39 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"text\":\"global 迷える魂(赤)_爆発 Lv1\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Shoot,LostSoulRed,Explosion],Level:1}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"global 竜巻テスト Lv1\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Event,Bullet,Vortex,Main],Level:1}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"global 深紅の幻魔師 Lv55\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Shoot,CrimzonWizard,Main],Level:55}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"gullivers_land 通常湧きの巨人のドン Lv65\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[GulliversLand,Ground,Blow,GiantDon,Main,SpawnParticles],Level:65}]]}}]}}"
             }
           ]
         },
@@ -1814,7 +1935,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 中層の特殊部隊SAT Lv23\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Shoot,SatSpider,Main],Level:23}],[{Tags:[Skylands,Ground,Shoot,SatSpider,Turret],Level:1}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 中層の急襲部隊SAT Lv23\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Shoot,SatSpider,Main],Level:23}],[{Tags:[Skylands,Ground,Shoot,SatSpider,Turret],Level:23}]]}}]}}"
             }
           ]
         },
@@ -1848,6 +1969,50 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"text\":\"skylands 下層のなんにでもマグマをかけるクラフター Lv10\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,CrafterWhoLavaOnEverything,Main,SpawnParticles],Level:10}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"skylands 上層の黒怨之徘徊者 Lv32\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,BlackGrudge,Main],Level:32}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"skylands 上層の黒怨之狙撃者 Lv32\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Shoot,BlackGrudge2,Main],Level:32}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"skylands 上層の黒怨之飛翔者 Lv44\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Sky,Shoot,BlackGrudge3,Main],Level:44}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"skylands 上層の黒怨之狙撃者&飛翔者 Lv44\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Sky,Shoot,BlackGrudge3,Main],Level:44}],[{Tags:[Skylands,Ground,Shoot,BlackGrudge2,Main],Level:32}]]}}]}}"
             }
           ]
         },
