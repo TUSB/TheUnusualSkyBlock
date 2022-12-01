@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:vex",CustomName:'{"translate":"魔吸の精","color":"#FFFFFF","bold":true}',Glowing:1b,Tags:[Mob,Enemy,DelayedData,HasAI,CallOnAttack,CooldownRequired,HasLootTable,"AbsorberVex_C"],PortalCooldown:3000,DeathLootTable:"empty"}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:vex",CustomName:'{"translate":"魔吸の精","color":"#FFFFFF","bold":true}',Tags:[Mob,Enemy,DelayedData,HasAI,CallOnDamage,CallOnAttack,CooldownRequired,HasLootTable,"AbsorberVex_C"],PortalCooldown:3000,DeathLootTable:"empty"}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {HandItems:[{id:"minecraft:diamond_sword",Count:1b,tag:{Unbreakable:1b,Damage:0}},{}],ArmorItems:[{},{},{},{id:"minecraft:crying_obsidian",Count:1b,tag:{Unbreakable:1b}}],HandDropChances:[-1E40f,-1E40f],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 64d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.3d
@@ -22,4 +22,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/magic_stone/tier2/element",Count:1,Chance:0.51d}]
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Name:"Damage",Player:{},MP:{MP:15}}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:60,Max:120,Current:60},Loop:{Max:1,Current:1},Call:[{Condition:[{Name:"HasTarget",Global:true,Target:{Look:"Player",Radius:8d}}],Name:"Damage",Player:{},MP:{MP:15},Distance:{Max:5d}},{Name:"Function",Tags:[Skylands,Sky,Blow,AbsorberVex,Particle]}]}]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Name:"Function",Tags:[Skylands,Sky,Blow,AbsorberVex,Grow]}],Attack:[{Name:"Damage",Player:{},MP:{MP:15}}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:60,Max:120,Current:60},Loop:{Max:1,Current:1},Call:[{Condition:[{Name:"HasTarget",Global:true,Target:{Look:"Player",Radius:8d}}],Name:"Damage",Player:{},MP:{MP:15},Distance:{Max:5d}},{Name:"Function",Tags:[Skylands,Sky,Blow,AbsorberVex,Particle]}]}]}]}
