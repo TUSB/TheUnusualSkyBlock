@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie_villager",CustomName:'{"translate":"木こり","color":"#FFFFFF"}',Silent:true,PortalCooldown:3000,VillagerData:{level:99,profession:"toolsmith",type:"taiga"},Tags:[Mob,Enemy,DelayedData,TickingRequired,HasLootTable]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie_villager",CustomName:'{"translate":"木こり","color":"#FFFFFF"}',Silent:true,PortalCooldown:3000,VillagerData:{level:99,profession:"toolsmith",type:"taiga"},Tags:[Mob,Enemy,DelayedData,CallOnAttack,TickingRequired,HasLootTable]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {HandItems:[{id:"minecraft:water_bucket",Count:1b},{}],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b,tag:{}}],HandDropChances:[-1E40f,-1E40f],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 32d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.25d
@@ -21,3 +21,5 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/currency_and_magic_stone/tier1/mix",Count:1,Chance:0.51d},{Item:{id:"minecraft:lava_bucket"},Count:1,Chance:0.25d}]
+# AI
+data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Settings:[{Name:"As",Target:{Look:"Friendly",Radius:3d}}],Name:"Spawn",SpawnEntities:[[{Tags:[Skylands,Ground,Blow,CrafterWhoWaterOnEverything,WaterMarker],Level:10}]]}]}
