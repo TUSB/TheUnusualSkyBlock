@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "minecraft:firework_star",
-      "nbt": "{Explosion:{Type:0,Colors:[I;16777215]},CustomModelData:123}"
+      "nbt": "{Explosion:{Type:0b,Colors:[I;16777215]},CustomModelData:123}"
     },
     "title": {
       "translate": "トゲイガー",

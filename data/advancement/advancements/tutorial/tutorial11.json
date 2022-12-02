@@ -2,7 +2,7 @@
   "display": {
     "icon": {
       "item": "minecraft:firework_star",
-      "nbt": "{CustomModelData:1007,Explosion:{Type:0,Colors:[I;6684641]}}"
+      "nbt": "{CustomModelData:1007,Explosion:{Type:0b,Colors:[I;6684641]}}"
     },
     "title": [
       {
