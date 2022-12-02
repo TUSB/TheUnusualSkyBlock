@@ -27,6 +27,11 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/firework_star/etc/trap_spawn_dark_bomb"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_deadly_poison_bomb"
         }
       ]
     }
