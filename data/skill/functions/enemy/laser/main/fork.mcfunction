@@ -3,3 +3,4 @@ execute if data storage mob_data: Call{Laser:"PiglinSnipe"} run function skill:e
 execute if data storage mob_data: Call{Laser:"FrozenLaser"} run function skill:enemy/laser/loop/frozenlaser/
 execute if data storage mob_data: Call{Laser:"KameHameHa"} run function skill:enemy/laser/loop/kame_hame_ha/
 execute if data storage mob_data: Call{Laser:"SecurityLaser"} run function skill:enemy/laser/loop/security_laser/
+execute if data storage mob_data: Call{Laser:"LightningLaser"} run function skill:enemy/laser/loop/lightning_laser/
