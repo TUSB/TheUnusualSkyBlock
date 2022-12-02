@@ -3,7 +3,7 @@ data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {HandItems:[{id:"minecraft:bow",Count:1b,tag:{Unbreakable:1b}},{}],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{display:{color:0}}},{id:"minecraft:leather_leggings",Count:1b,tag:{display:{color:0},Unbreakable:1b}},{id:"minecraft:leather_chestplate",Count:1b,tag:{display:{color:0},Unbreakable:1b}},{id:"minecraft:leather_helmet",Count:1b,tag:{display:{color:0},Unbreakable:1b}}],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f],HandDropChances:[-1E40f,-1E40f]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 32d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.25d
-data modify storage tusb_mob: "即時ステータス"."ノックバック耐性" set value 4d
+data modify storage tusb_mob: "即時ステータス"."ノックバック耐性" set value 1d
 data modify storage tusb_mob: "即時ステータス"."ノックバック力" set value 3d
 
 ### 遅延ステータス

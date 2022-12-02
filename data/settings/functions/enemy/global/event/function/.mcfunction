@@ -8,6 +8,7 @@ execute if entity @s[tag=LightExplosion] run function settings:enemy/global/even
 execute if entity @s[tag=Debuffs] run function settings:enemy/global/event/function/debuffs/
 execute if entity @s[tag=IceExplosion] run function settings:enemy/global/event/function/ice_explosion/
 execute if entity @s[tag=FireExplosion] run function settings:enemy/global/event/function/fire_explosion/
+execute if entity @s[tag=DeadlyPoisonExplosion] run function settings:enemy/global/event/function/deadly_poison_explosion/
 execute if entity @s[tag=DarkExplosion] run function settings:enemy/global/event/function/dark_explosion/
 execute if entity @s[tag=LightningExplosion] run function settings:enemy/global/event/function/lightning_explosion/
 execute if entity @s[tag=Lightningbolt] run function settings:enemy/global/event/function/lightningbolt
