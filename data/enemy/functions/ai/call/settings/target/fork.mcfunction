@@ -14,6 +14,8 @@ execute if data storage mob_data: Target{Look:"Friendly"} store success score @s
 execute if data storage mob_data: Target{Look:"Enemy"} store success score @s Calc at @e[tag=Enemy,tag=!NonTarget,sort=nearest,limit=1] run tp 0-0-0-0-0 ^ ^ ^
 execute if data storage mob_data: Target{Look:"All"} store success score @s Calc at @e[predicate=entity:all_mob,tag=!NonTarget,sort=nearest,limit=1] run tp 0-0-0-0-0 ^ ^ ^
 execute if data storage mob_data: Target{Look:"Mob"} store success score @s Calc at @e[tag=Mob,tag=!NonTarget,sort=nearest,limit=1] run tp 0-0-0-0-0 ^ ^ ^
+execute if data storage mob_data: Target{Look:"Parent"} run function enemy:ai/call/settings/target/parent
+execute if data storage mob_data: Target{Look:"Child"} run function enemy:ai/call/settings/target/child
 
 execute if score @s Calc matches 1 facing entity 0-0-0-0-0 feet facing ^ ^ ^-1 positioned as 0-0-0-0-0 run function enemy:ai/call/settings/target/loop
 
