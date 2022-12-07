@@ -18,6 +18,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大H
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 40
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 500
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 0
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 80
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"%1$sは下級魔法%2$sによって焼き尽くされてしまった。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'

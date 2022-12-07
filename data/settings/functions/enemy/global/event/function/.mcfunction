@@ -6,6 +6,7 @@ execute if entity @s[tag=CommonParticle] run function settings:enemy/global/even
 execute if entity @s[tag=Attributes] run function settings:enemy/global/event/function/attributes/
 execute if entity @s[tag=LightExplosion] run function settings:enemy/global/event/function/light_explosion/
 execute if entity @s[tag=Debuffs] run function settings:enemy/global/event/function/debuffs/
+execute if entity @s[tag=ForReferenceExplosion] run function settings:enemy/global/event/function/for_reference_explosion/
 execute if entity @s[tag=IceExplosion] run function settings:enemy/global/event/function/ice_explosion/
 execute if entity @s[tag=FireExplosion] run function settings:enemy/global/event/function/fire_explosion/
 execute if entity @s[tag=DeadlyPoisonExplosion] run function settings:enemy/global/event/function/deadly_poison_explosion/

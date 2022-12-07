@@ -1,10 +1,10 @@
 #Function
 # サウンド
-playsound block.nylium.step hostile @a[distance=..48] ~ ~ ~ 1.0 0.5 0.1
-playsound block.pointed_dripstone.land hostile @a[distance=..48] ~ ~ ~ 1.0 0.5 0.1
-playsound entity.turtle.egg_break hostile @a[distance=..48] ~ ~ ~ 1.0 0.5 0.1
-playsound entity.hoglin.step hostile @a[distance=..48] ~ ~ ~ 1.0 0.5 0.1
-playsound entity.strider.step hostile @a[distance=..48] ~ ~ ~ 1.0 0.5 0.1
+playsound block.nylium.step hostile @a[distance=..48] ~ ~ ~ 5.0 0.5 0.5
+playsound block.pointed_dripstone.land hostile @a[distance=..48] ~ ~ ~ 5.0 0.5 0.5
+playsound entity.turtle.egg_break hostile @a[distance=..48] ~ ~ ~ 5.0 0.5 0.5
+playsound entity.hoglin.step hostile @a[distance=..48] ~ ~ ~ 5.0 0.5 0.5
+playsound entity.strider.step hostile @a[distance=..48] ~ ~ ~ 5.0 0.5 0.5
 # パーティクル
 particle poof ^0.000000 ^0.000000 ^-1.150699 0.000000 0.200000 -2.474081 0.35 0 force
 particle poof ^-0.297823 ^0.000000 ^-1.111490 -0.640339 0.200000 -2.389779 0.35 0 force
