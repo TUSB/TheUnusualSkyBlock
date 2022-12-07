@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:group/instant_item/tier1/heart"
+        },
+        {
+          "weight": 6,
+          "type": "loot_table",
+          "name": "item:group/instant_item/tier1/mana"
+        }
+      ]
+    }
+  ]
+}

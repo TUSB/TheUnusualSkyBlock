@@ -6,22 +6,17 @@
         {
           "weight": 2,
           "type": "loot_table",
-          "name": "item:group/base_currency/tier7/emerald"
+          "name": "item:group/base_currency/tier5/emerald"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:group/magic_stone/tier8/mix"
+          "name": "item:group/magic_stone/tier6/mix"
         },
         {
           "weight": 2,
           "type": "loot_table",
-          "name": "item:group/base_currency/tier7/emerald"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:group/magic_stone/tier8/mix"
+          "name": "item:group/instant_item/tier6/mix_heart_and_mana"
         }
       ]
     }
