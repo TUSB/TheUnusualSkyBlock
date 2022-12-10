@@ -9,14 +9,13 @@ execute if score _ Level matches 4 run data modify storage skill: Damage set fro
 function skill:damage/add/skill/weapon
 
 # 投てき物を召喚
-execute anchored eyes run summon arrow ^ ^ ^2.5 {Tags:[Skill,AerialSlash,NativeTask,FlyingRequired,KillInGround,IgnoreReflection],NoGravity:1b,damage:1,Color:-1}
+summon arrow ^ ^ ^ {Tags:[Skill,AerialSlash,NativeTask,FlyingRequired,KillInGround,IgnoreReflection],NoGravity:1b,damage:1,Color:-1}
 
 #ダメージを保存
-execute as @e[tag=AerialSlash,tag=!Initialized,distance=..6] run function skill:damage/save
+execute as @e[tag=AerialSlash,tag=!Initialized,distance=..0.01] run function skill:damage/save
 #Ownerを設定
-data modify entity @e[tag=AerialSlash,tag=!Initialized,distance=..6,limit=1] Owner set from entity @s UUID
+data modify entity @e[tag=AerialSlash,tag=!Initialized,distance=..0.01,limit=1] Owner set from entity @s UUID
 
 # 追尾する敵を特定
-execute as @e[tag=AerialSlash,tag=!Initialized,distance=..6] facing entity @e[tag=CasterTarget,distance=..128] feet positioned 0.0 0.0 0.0 positioned ^ ^ ^2.5 run function calc:throw_projectile/
-execute store result score @e[tag=CasterTarget,distance=..128] TrackingID run scoreboard players add $World TrackingID 1
-scoreboard players operation @e[tag=AerialSlash,tag=!Initialized,distance=..6] TrackingID = @e[tag=CasterTarget,distance=..128] TrackingID
+execute store result score @e[tag=AerialSlash,tag=!Initialized,distance=..0.01] TrackingID at 0-0-0-0-0 store result score @e[tag=Mob,distance=..0.01,sort=nearest,limit=1] TrackingID run scoreboard players add $World TrackingID 1
+execute as @e[tag=AerialSlash,tag=!Initialized,distance=..0.01] facing entity 0-0-0-0-0 feet positioned 0.0 0.0 0.0 positioned ^ ^ ^2.5 run function calc:throw_projectile/
