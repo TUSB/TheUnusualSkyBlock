@@ -2,9 +2,7 @@
 ### ウィンドウォール処理
 
 ###投射物迎撃処理
-execute if entity @e[type=#entity:projectiles,tag=!WindWallTornado,tag=!Skill,distance=..3,limit=1] run scoreboard players operation _ WindWall = @s WindWall
-execute if entity @e[type=#entity:projectiles,tag=!WindWallTornado,tag=!Skill,distance=..3,limit=1] run data modify storage tusb_player: UUID set from entity @s UUID
-execute as @e[type=#entity:projectiles,tag=!WindWallTornado,tag=!Skill,distance=..3] at @s run function skill:act/black_mage/wind_wall/block
+execute at @e[type=#entity:projectiles,tag=!WindWallTornado,tag=!Skill,distance=..3,limit=1] run function skill:act/black_mage/wind_wall/detect
 
 scoreboard players remove @s WindWall 1
 scoreboard players reset @s[scores={WindWall=..0}] WindWall
