@@ -45,7 +45,7 @@ execute if entity @s[scores={Kaishaku=0..}] run function skill:act/ninja/kaishak
 execute if entity @s[scores={Issen=0..}] run function skill:act/ninja/issen/tick
 # 狩人
 execute if entity @s[scores={RaderVision=1..}] run function skill:act/hunter/rader_vision/tick
-execute if entity @s[scores={BlastSpark=1..}] run function skill:act/hunter/blast_spark/tick
+execute if entity @s[scores={BlastSpark=1..}] anchored eyes positioned ^ ^ ^-0.1 run function skill:act/hunter/blast_spark/tick
 # 黒魔導士
 execute if entity @s[scores={LightningBlow=1..}] run function makeup:skill/act/black_mage/lightning_blow/tick
 execute if entity @s[scores={BlitzManover=0..}] run function skill:act/black_mage/blitz_manover/tick

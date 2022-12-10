@@ -18,6 +18,8 @@ execute if entity @s[tag=BirdStrike] run function skill:act/hunter/bird_strike/t
 execute if entity @s[tag=WildCooking] run function skill:act/hunter/wild_cooking/tick
 ###ワイルドフレア継続処理
 execute if entity @s[tag=WildFlare] run function skill:act/hunter/wild_flare/tick
+###ブラストスパーク
+execute if entity @s[tag=BlastSpark] run function makeup:skill/act/hunter/blast_spark/direction
 ###フォトニックレーザー
 execute if entity @s[tag=PhotonicLaser] run function skill:act/hunter/photonic_laser/tick0
 ###シャイニングボルト

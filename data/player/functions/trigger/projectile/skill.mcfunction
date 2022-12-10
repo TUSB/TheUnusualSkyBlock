@@ -1,6 +1,7 @@
 #狩人
 execute if entity @s[tag=ChainArrow] run function skill:act/hunter/chain_arrow/hit
 execute if entity @s[tag=StakesSucceeded] run function makeup:skill/act/hunter/stakes_fire/hit
+execute if entity @s[tag=BlastSpark] run function skill:act/hunter/blast_spark/hit
 #忍者
 execute if entity @s[tag=Shuriken] run function makeup:skill/act/ninja/shuriken/hit
 #召喚士

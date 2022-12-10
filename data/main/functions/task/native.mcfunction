@@ -29,9 +29,6 @@ execute if entity @s[tag=DamageProjectile] run function entity:projectile_hit/
 ###スキル
 execute if entity @s[tag=Skill] run function skill:tick
 
-###ブラストスパーク
-execute if entity @s[tag=BlastSpark] run function skill:act/hunter/blast_spark/direction
-
 ###矢の反射削除処理
 execute if entity @s[type=arrow,tag=!IgnoreReflection,nbt={HasBeenShot:1b}] run function entity:arrow_reflection
 ###接地矢(など)Projectileタグ削除
