@@ -1,0 +1,49 @@
+{
+  "criteria": {
+    "mainhand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "tag": "skill:skill_settable"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "offhand": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "offhand": {
+                  "tag": "skill:skill_settable"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "mainhand",
+      "offhand"
+    ]
+  ],
+  "rewards": {
+    "function": "skill:shortcut/set/check_item"
+  }
+}

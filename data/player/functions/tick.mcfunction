@@ -33,6 +33,7 @@ execute if entity @s[scores={Trade=1..}] run function player:trigger/trade/
 execute if entity @s[scores={FoodLevel=1..}] run function player:trigger/food
 
 ### スキル
+execute if entity @s[scores={SkillShortcut=1..}] run function skill:shortcut/tick
 scoreboard players remove @s Interval 1
 # 剣士
 execute if entity @s[scores={IronWill=1..}] run function skill:act/knight/iron_will/count
