@@ -13,5 +13,5 @@ execute if entity @s[nbt={Inventory:[{Slot:-106b}]}] run data remove storage ite
 
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].OffhandItem set from storage item: Item
 
-#トリガー解除
-advancement revoke @s only skill:shortcut
+#トリガー解除 不具合回避のため1tick遅らせる
+schedule function skill:shortcut/set/revoke 1t replace
