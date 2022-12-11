@@ -6,7 +6,7 @@ function skill:load/job
 
 function oh_my_dat:please
 
-execute if score _ SkillShortcut matches 10 run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Skill set from storage skill: Skill
+execute if score _ SkillShortcut matches 10 run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].SkillShortcut[0] set from storage skill: Skill
 execute if score _ SkillShortcut matches 11 run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].SkillShortcut[1] set from storage skill: Skill
 execute if score _ SkillShortcut matches 12 run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].SkillShortcut[2] set from storage skill: Skill
 execute if score _ SkillShortcut matches 13 run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].SkillShortcut[3] set from storage skill: Skill
