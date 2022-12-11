@@ -1,0 +1,12 @@
+execute if entity @s[tag=CrimsonSoul] run function settings:enemy/debug_room/sky/shoot/nightmare_eye/crimson_soul
+execute if entity @s[tag=CrimsonSoulAttacker] run function settings:enemy/debug_room/sky/shoot/nightmare_eye/crimson_soul_attacker
+execute if entity @s[tag=CrimsonSoulAppearance] run function settings:enemy/debug_room/sky/shoot/nightmare_eye/crimson_soul_appearance
+execute if entity @s[tag=CrimsonSoulMissile] run function settings:enemy/debug_room/sky/shoot/nightmare_eye/crimson_soul_missile
+execute if entity @s[tag=CrimsonSoulMissileAppearance] run function settings:enemy/debug_room/sky/shoot/nightmare_eye/crimson_soul_missile_appearance
+execute if entity @s[tag=DaemonSoul] run function settings:enemy/debug_room/sky/shoot/nightmare_eye/daemon_soul
+execute if entity @s[tag=DaemonSoulAppearance] run function settings:enemy/debug_room/sky/shoot/nightmare_eye/daemon_soul_appearance
+execute if entity @s[tag=Main] run function settings:enemy/debug_room/sky/shoot/nightmare_eye/main
+execute if entity @s[tag=Appearance] run function settings:enemy/debug_room/sky/shoot/nightmare_eye/appearance
+execute if entity @s[tag=PoisonSoul] run function settings:enemy/debug_room/sky/shoot/nightmare_eye/poison_soul
+execute if entity @s[tag=PoisonSoulGivePoison] run function settings:enemy/debug_room/sky/shoot/nightmare_eye/poison_soul_give_poison
+execute if entity @s[tag=PoisonSoulAppearance] run function settings:enemy/debug_room/sky/shoot/nightmare_eye/poison_soul_appearance
