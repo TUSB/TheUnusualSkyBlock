@@ -3,7 +3,7 @@
 function oh_my_dat:please
 function skill:shortcut/gui/
 
-data modify entity @e[tag=SkillShortcut,tag=!Initialized,distance=..0.01,limit=1] CustomName set value '{"text":"<編集モード>","color":"light_purple"}'
+data modify entity @e[tag=SkillShortcut,tag=!Initialized,distance=..0.01,limit=1] CustomName set value '{"translate":"<編集モード>","color":"light_purple"}'
 execute as @e[tag=SkillShortcut,tag=!Initialized,distance=..3] run data modify entity @s Duration set value 6000
 
 scoreboard players set @s SkillShortcut 6000
