@@ -1,5 +1,6 @@
 execute if entity @s[tag=FiendSquid] run function settings:enemy/global/sky/shoot/fiend_squid/
 execute if entity @s[tag=Witherlord] run function settings:enemy/global/sky/shoot/witherlord
+execute if entity @s[tag=ElectroEye] run function settings:enemy/global/sky/shoot/electro_eye/
 execute if entity @s[tag=Ghast] run function settings:enemy/global/sky/shoot/ghast/
 execute if entity @s[tag=CrimsonEye] run function settings:enemy/global/sky/shoot/crimson_eye/
 execute if entity @s[tag=PoisonEye] run function settings:enemy/global/sky/shoot/poison_eye/
