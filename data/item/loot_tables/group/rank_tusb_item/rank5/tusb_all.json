@@ -31,6 +31,11 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/high_immunity"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/synthetic_narcotics_rta"
         },
         {
@@ -102,6 +107,11 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/diamond_axe/tier5_diamond_axe"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_axe/death_scythe"
         },
         {
           "weight": 1,

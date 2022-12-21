@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2,display:{Name:'{\"translate\":\"デスサイス\",\"color\":\"#A64D79\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"死神をモチーフにした大鎌だが\",\"color\":\"#B30000\",\"italic\":false}','{\"translate\":\"非常に重いので扱いにくい\",\"color\":\"#B30000\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

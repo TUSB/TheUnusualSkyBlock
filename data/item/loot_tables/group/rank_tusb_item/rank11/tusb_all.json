@@ -891,6 +891,11 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/player_head/golden_eye_headgear"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/player_head/knight_head"
         },
         {

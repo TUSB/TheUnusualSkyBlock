@@ -11,11 +11,6 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/super_immunity"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
           "name": "item:item/gold_nugget/kamui/4"
         },
         {
