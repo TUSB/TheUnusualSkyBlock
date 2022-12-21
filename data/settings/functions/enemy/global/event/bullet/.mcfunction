@@ -23,6 +23,5 @@ execute if entity @s[tag=LightningBombHuge] run function settings:enemy/global/e
 execute if entity @s[tag=IceBomb] run function settings:enemy/global/event/bullet/ice_bomb/
 execute if entity @s[tag=DeadlyPoisonBomb] run function settings:enemy/global/event/bullet/deadly_poison_bomb/
 execute if entity @s[tag=ContraindicatedHellDrop] run function settings:enemy/global/event/bullet/contraindicated_hell_drop/
-execute if entity @s[tag=Vortex] run function settings:enemy/global/event/bullet/vortex/
 execute if entity @s[tag=DarkBomb] run function settings:enemy/global/event/bullet/dark_bomb/
 execute if entity @s[tag=LightningBomb] run function settings:enemy/global/event/bullet/lightning_bomb/

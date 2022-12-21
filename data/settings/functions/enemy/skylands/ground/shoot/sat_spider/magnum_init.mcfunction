@@ -8,7 +8,7 @@ data modify storage mob_data: MobName set from entity @s CustomName
 #CallOnAttack
 data modify storage mob_data: Call.UUID set from entity @s UUID
 data modify storage mob_data: Call.Owner set from entity @s Owner
-data modify storage mob_data: Call.Tags set from entity @s Tags
+data modify storage mob_data: Call.Tags set from storage mob_data: Tags
 
 scoreboard players set _ _ 4
 scoreboard players set @s _ 0

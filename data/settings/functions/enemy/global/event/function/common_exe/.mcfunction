@@ -1,4 +1,5 @@
 execute if entity @s[tag=DownAlign2] run function settings:enemy/global/event/function/common_exe/down_align_2
+execute if entity @s[tag=EnhancedSpawnerStrength] run function settings:enemy/global/event/function/common_exe/enhanced_spawner_strength
 execute if entity @s[tag=DownAlign1] run function settings:enemy/global/event/function/common_exe/down_align_1
 execute if entity @s[tag=SmartMotionToRotation] run function settings:enemy/global/event/function/common_exe/smart_motion_to_rotation
 execute if entity @s[tag=ApplyRotation] run function settings:enemy/global/event/function/common_exe/apply_rotation

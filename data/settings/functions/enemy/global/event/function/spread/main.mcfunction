@@ -6,7 +6,7 @@
 # CheckBlock : boolean
 #
 # CheckBlock はTP先が #main:no_collision になるまで再計算する機能です
-# ただし128回再計算してもtp先が見つからない場合はtpを中断するので注意してください
+# ただし6回再計算してもtp先が見つからない場合はtpを中断するので注意してください
 
 # 実行座標と向きを習得
     function calc:geometry/tp_00002
@@ -26,7 +26,7 @@
 # Sin,Cosの習得
     function settings:enemy/global/event/function/spread/sincos
 # ランダム処理の開始
-    data modify storage mob_data: Call.SpreadLoop set value 128
+    data modify storage mob_data: Call.SpreadLoop set value 6
     function settings:enemy/global/event/function/spread/loop
 # 計算された座標を入れる（CheckBlock再計算に全失敗していた場合は移動しない）
     execute store result score _ _ run data get storage mob_data: Call.CheckBlock[0]

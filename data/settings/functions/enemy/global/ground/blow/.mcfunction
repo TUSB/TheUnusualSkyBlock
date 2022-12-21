@@ -13,6 +13,7 @@ execute if entity @s[tag=Ignore] run function settings:enemy/global/ground/blow/
 execute if entity @s[tag=WitherSkeletonPlus] run function settings:enemy/global/ground/blow/wither_skeleton_plus/
 execute if entity @s[tag=Combat] run function settings:enemy/global/ground/blow/combat/
 execute if entity @s[tag=Goblins] run function settings:enemy/global/ground/blow/goblins/
+execute if entity @s[tag=ThornFloorTrap] run function settings:enemy/global/ground/blow/thorn_floor_trap/
 execute if entity @s[tag=DropZombie] run function settings:enemy/global/ground/blow/drop_zombie/
 execute if entity @s[tag=HeartEnemy] run function settings:enemy/global/ground/blow/heart_enemy/
 execute if entity @s[tag=BacktheCreeper] run function settings:enemy/global/ground/blow/backthe_creeper/
