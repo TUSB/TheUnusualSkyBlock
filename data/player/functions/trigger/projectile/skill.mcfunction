@@ -6,7 +6,7 @@ execute if entity @s[tag=BlastSpark] run function skill:act/hunter/blast_spark/h
 execute if entity @s[tag=Shuriken] run function makeup:skill/act/ninja/shuriken/hit
 #召喚士
 execute if entity @s[tag=PomPom] run function skill:act/summoner/pompom/hit
-#白魔道士
+#白魔導士
 execute if entity @s[tag=ShiningBolt] run function skill:act/white_mage/shining_bolt/hit
 #黒魔導士
 execute if entity @s[tag=WindWallTornado] run function makeup:skill/act/black_mage/wind_wall/hit

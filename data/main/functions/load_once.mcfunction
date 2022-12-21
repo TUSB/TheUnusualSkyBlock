@@ -77,8 +77,8 @@ scoreboard objectives add MPCostRate dummy {"text":"MP消費軽減割合"}
 scoreboard objectives add KnightLv dummy {"text": "剣士スキルレベル"}
 scoreboard objectives add NinjaLv dummy {"text": "忍者スキルレベル"}
 scoreboard objectives add HunterLv dummy {"text": "狩人スキルレベル"}
-scoreboard objectives add WhiteMageLv dummy {"text": "白魔道士スキルレベル"}
-scoreboard objectives add BlackMageLv dummy {"text": "黒魔道士スキルレベル"}
+scoreboard objectives add WhiteMageLv dummy {"text": "白魔導士スキルレベル"}
+scoreboard objectives add BlackMageLv dummy {"text": "黒魔導士スキルレベル"}
 scoreboard objectives add SummonerLv dummy {"text": "召喚士スキルレベル"}
 scoreboard objectives add PuppetMasterLv dummy {"text": "絡繰士スキルレベル"}
 scoreboard objectives add ThiefLv dummy {"text": "怪盗スキルレベル"}
@@ -119,7 +119,7 @@ scoreboard objectives add WildCooking dummy {"text":"ワイルドクッキング
 scoreboard objectives add WildHealing dummy {"text":"ワイルドヒーリングレベル"}
 scoreboard objectives add EnergySave dummy {"text":"エナジーセーブ消費MP減少効果量"}
 scoreboard objectives add BlastSpark dummy {"text":"ブラストスパーク継続tick数"}
-#黒魔道士
+#黒魔導士
 scoreboard objectives add EclipseRadius dummy {"text":"エクリプスフレイム半径"}
 scoreboard objectives add LightningBlow dummy {"text":"ライトニングブロー威力"}
 scoreboard objectives add BlitzManover dummy {"text":"ブリッツマニューバ残りtick数"}
