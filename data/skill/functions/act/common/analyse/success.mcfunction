@@ -24,4 +24,7 @@ execute if score _ Level matches 34..50 run tellraw @s {"translate":"負ける�
 execute if score _ Level matches 21..33 run tellraw @s {"translate":"目隠ししていても勝てそうだ。"}
 execute if score _ Level matches ..20 run tellraw @s {"translate":"目隠しして座っていても勝てる。"}
 
+execute as @e[tag=Enemy,tag=AnalyseLog,distance=..0.01,sort=nearest,limit=1] run function oh_my_dat:please
+execute if entity @e[tag=Enemy,tag=AnalyseLog,distance=..0.01,sort=nearest,limit=1] run tellraw @s [{"text":""},{"text":"m","font":"icon"},{"text":" "},{"storage":"oh_my_dat:","nbt":"_[-4][-4][-4][-4][-4][-4][-4][-4].\"ステータス\".AnalyseLog","interpret":true}]
+
 execute facing entity @s eyes positioned ^ ^ ^1 facing ^ ^ ^-1 rotated ~ ~-90 anchored eyes run function makeup:skill/act/common/analyse/success
