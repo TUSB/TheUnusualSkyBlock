@@ -1,5 +1,5 @@
 #Function
 scoreboard players operation * ParentID -= @s OhMyDatID
-execute as @e[scores={ParentID=0},tag=!NonTarget,tag=!Carried] run effect give @s slow_falling 15 2 true
-execute as @e[scores={ParentID=0},tag=!NonTarget] run tag @s add Carried
+effect give @e[scores={ParentID=0},tag=!Carried] slow_falling 15 2 true
+tag @e[scores={ParentID=0}] add Carried
 scoreboard players operation * ParentID += @s OhMyDatID
