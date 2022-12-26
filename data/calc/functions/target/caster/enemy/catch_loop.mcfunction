@@ -9,4 +9,4 @@ execute positioned ^ ^ ^5 store success storage calc: Success byte 1 run tp 0-0-
 execute positioned ^ ^ ^5 run tag @e[tag=CasterTargetCand,distance=..5] remove CasterTargetCand
 
 # ヒットしなかったら更に先を探索
-execute unless data storage calc: {Depth:0} unless data storage calc: {Success:1b} positioned ^ ^ ^10 run function calc:target/caster/test/catch_loop
+execute unless data storage calc: {Depth:0} unless data storage calc: {Success:1b} positioned ^ ^ ^10 run function calc:target/caster/enemy/catch_loop
