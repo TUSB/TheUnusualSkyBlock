@@ -1,3 +1,5 @@
+#現在のターンスキルにCallOnExitがあるか保存
+execute store success storage mob_data: CallOnExit byte 1 run data get storage mob_data: AI.Turn[0].Skill[0].Call[{CallOnExit:1b}]
 #ChangeTurnによるexit
 execute if data storage mob_data: AI.Turn[0].Exit.ChangeTurn run function enemy:ai/exit/change_turn
 #Conditionによるexit
