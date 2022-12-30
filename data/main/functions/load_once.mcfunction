@@ -35,6 +35,7 @@ scoreboard objectives add BreakSpawner dummy {"text":"スポナー破壊数"}
 scoreboard objectives add FoodLevel food {"text":"満腹度"}
 scoreboard objectives add LastFoodLevel dummy {"text":"直前満腹度"}
 scoreboard objectives add Luck dummy {"text":"幸運"}
+scoreboard objectives add StoredDamage dummy {"text":"累積ダメージ"}
 
 ###アイテム
 scoreboard objectives add EnchantLevel dummy {"text":"エンチャントレベル"}
