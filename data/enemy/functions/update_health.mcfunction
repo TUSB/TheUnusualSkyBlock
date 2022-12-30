@@ -5,9 +5,7 @@ scoreboard players add @s[scores={Damage=0}] Damage 1
 scoreboard players operation @s HP -= @s Damage
 scoreboard players operation @s HP < @s HPMax
 #ダメージ演出
-effect give @s instant_damage 1 127 true
-effect give @s instant_health 1 127 true
-execute if score @s Damage matches ..-1 run function makeup:skill/damage/heal
+execute if score @s Damage matches 0.. run function makeup:skill/damage/damage
 #ダメージ表示
 execute if entity @s[tag=HitDamageTaken] run function enemy:show_damage/
 #リセット
