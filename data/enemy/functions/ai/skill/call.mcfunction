@@ -1,8 +1,8 @@
 #Call
 data modify storage mob_data: CallList set from storage mob_data: AI.Turn[0].Skill[0].Call
 execute store result score _ MP run data get storage mob_data: AI.Turn[0].Skill[0].MP
-execute if score _ MP <= @s MP run function enemy:ai/call/execute/
-execute if score _ MP <= @s MP run scoreboard players operation @s MP -= _ MP
+execute unless score _ MP > @s MP run function enemy:ai/call/execute/
+execute unless score _ MP > @s MP run scoreboard players operation @s MP -= _ MP
 #Interval適用
 execute store result storage mob_data: AI.Turn[0].Skill[0].Interval.Current int 1 run function enemy:ai/skill/set_interval
 #Loop削減 0のときNext処理
