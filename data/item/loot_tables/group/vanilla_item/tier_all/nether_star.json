@@ -46,11 +46,6 @@
               "count": 16
             }
           ]
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/bundle/nether_star_bundle"
         }
       ]
     }
