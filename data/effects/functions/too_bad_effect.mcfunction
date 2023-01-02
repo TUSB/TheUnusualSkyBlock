@@ -17,4 +17,4 @@ execute if entity @s[advancements={effects:invisible={curse=true}}] unless entit
 execute if entity @s[advancements={effects:invisible={virus=true}}] unless score @s VirusCount matches 0.. run function effects:virus/apply
 execute if entity @s[advancements={effects:invisible={tnt=true}}] unless score @s TntCount matches 0.. run function effects:tnt/apply
 execute if entity @s[advancements={effects:invisible={pale=true}}] unless score @s PaleLevel matches 9.. run function effects:pale/apply
-execute if entity @s[advancements={effects:invisible={debility=true}}] unless score @s PaleLevel matches 9.. run function effects:debility/apply
+execute if entity @s[advancements={effects:invisible={debility=true}}] run function effects:debility/apply
