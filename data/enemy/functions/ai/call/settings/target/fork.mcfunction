@@ -1,7 +1,5 @@
 ##Target処理
 
-#現在の実行位置を保存
-tp @s ^ ^ ^
 #Target有無フラグをリセット
 scoreboard players set @s _ 0
 scoreboard players set @s Calc 0
