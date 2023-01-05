@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{SkullOwner:{Name:\"エレクトロアイ\",Id:[I;1,0,65,0],Properties:{textures:[{Value:\"ewogICJ0aW1lc3RhbXAiIDogMTY3MDgyMjY3NzM5NCwKICAicHJvZmlsZUlkIiA6ICJiNmQyZTEyNGRkMjg0ZGM2ODQzNDg0OTgzZWZkYmFlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJQYTFmeSIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yOTE0ODIxZDVkZDRmZTU4NGYzZWY3ODMwNGFjNDAwNjdjZTYzYzg1YTliMGUzNTEzMjIwYTE5YjE4ZWViMWI2IgogICAgfQogIH0KfQ==\"}]}},display:{Name:'{\"translate\":\"エレクトロアイの被り物\",\"color\":\"#0ECF55\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"特にこれといって特殊な能力などない。\",\"color\":\"#CCCCCC\",\"italic\":false}']},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:10,Operation:0,UUID:[I;21,0,0,10],Slot:\"head\"},{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:0.3,Operation:1,UUID:[I;21,0,0,21],Slot:\"head\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:0.2,Operation:1,UUID:[I;21,0,0,31],Slot:\"head\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:10,Operation:0,UUID:[I;21,0,0,40],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:0.3,Operation:1,UUID:[I;21,0,0,61],Slot:\"head\"},{AttributeName:\"generic.armor_toughness\",Name:\"カスタム\",Amount:0.1,Operation:1,UUID:[I;21,0,0,71],Slot:\"head\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

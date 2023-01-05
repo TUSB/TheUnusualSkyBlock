@@ -384,7 +384,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"debug_room ナイトメアアイ-new Lv50\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[DebugRoom,Sky,Shoot,NightmareEye,Main,SpawnParticles],Level:50}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"debug_room ナイトメアアイ-new Lv50\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[DebugRoom,Sky,Shoot,NightmareEye,Main,SpawnParticles],Level:50}],[{Tags:[DebugRoom,Sky,Shoot,NightmareEye,Necromancer],Level:1},{Tags:[DebugRoom,Sky,Shoot,NightmareEye,Pitcher],Level:1}]]}}]}}"
             }
           ]
         },
@@ -2210,7 +2210,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 中層の海廻＆氷海魚 Lv18\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Water,Shoot,IceGuardian,Main],Level:18}],[{Tags:[Skylands,Water,Shoot,Umimawari,Main],Level:18}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 上層の深海廻 Lv30\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Water,Shoot,Shinkaimawari,Main],Level:30}]]}}]}}"
             }
           ]
         },
