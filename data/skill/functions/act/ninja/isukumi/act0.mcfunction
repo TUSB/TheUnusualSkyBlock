@@ -10,4 +10,4 @@ execute if score _ Level matches 3 run scoreboard players set _ Isukumi 20
 execute positioned ^ ^ ^-1 run function calc:get/angle/1
 #0-0-0-0-1にRotationを保存しておく
 data modify entity 0-0-0-0-1 Rotation set from storage calc: Rotation.1
-execute as @e[distance=..48,tag=Enemy,tag=!NoAI] run function skill:act/ninja/isukumi/calc
+execute as @e[distance=..48,tag=Enemy,tag=!NoAI,tag=!Unmoved] run function skill:act/ninja/isukumi/calc
