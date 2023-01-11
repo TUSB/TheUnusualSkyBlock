@@ -33,12 +33,10 @@ scoreboard players operation _ Calc *= $ElementDamageAdd ElementDamageAdd
 scoreboard players operation _ Calc /= _ _
 scoreboard players operation @s _ += _ Calc
 
-#軽減後ダメージ = 2×ダメージ^2/(2×ダメージ+防御力)
+#軽減後ダメージ = ダメージ^2/(ダメージ+防御力)
 scoreboard players operation _ Calc = @s _
 scoreboard players operation _ Calc *= _ Calc
-scoreboard players operation _ Calc += _ Calc
 scoreboard players operation _ _ = @s _
-scoreboard players operation _ _ += _ _
 execute if score @s _ matches 1.. run scoreboard players operation _ _ += @s SpecialDefense
 scoreboard players operation _ Calc /= _ _
 scoreboard players operation @s Damage += _ Calc
