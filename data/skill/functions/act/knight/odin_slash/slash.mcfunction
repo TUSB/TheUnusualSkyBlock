@@ -14,6 +14,11 @@ data modify storage item: Equipments set from storage oh_my_dat: _[-4][-4][-4][-
 execute if score _ Level matches 1 run data modify storage skill: Damage set from storage skill: Data.Knight[{Name:"斬鉄剣",Level:1}].Damage
 execute if score _ Level matches 2 run data modify storage skill: Damage set from storage skill: Data.Knight[{Name:"斬鉄剣",Level:2}].Damage
 
+#物理ダメージ取得
+function skill:damage/add/physical/projectile
+#属性ダメージ取得
+function skill:damage/add/elemental
+
 # ダメージ計算
 function skill:damage/add/skill/weapon
 
