@@ -41,6 +41,7 @@ execute if score @s _ matches 1.. run scoreboard players operation _ _ += @s Spe
 scoreboard players operation _ Calc /= _ _
 scoreboard players operation @s Damage += _ Calc
 
+execute unless data storage skill: Damage{Hit:1b} run scoreboard players operation @s StoredDamage += _ Calc
 #CallOnAttack用に与えた属性を保存
 execute if entity @s[tag=CallOnDamage] run function skill:damage/apply/save_elements
 
