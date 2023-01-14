@@ -2,7 +2,7 @@
 ### キュアフィールド毎秒処理
 ##############################
 
-#MP回復量-1を取得 MPHealingWaitを<0にするため直後に+1される
+#-(MP回復量-1)を取得  MPHealingWaitを<0にするため直後にMP+1される
 scoreboard players operation _ _ = @s MP
 
 #効果発動
