@@ -137,8 +137,6 @@ scoreboard objectives add FillSize dummy {"text":"フィールサイズ"}
 scoreboard objectives add Weakness dummy {"text":"ウィークペイント効果時間"}
 scoreboard objectives add SkyWalk dummy {"text":"スカイウォーク"}
 scoreboard objectives add RestoreItem trigger {"text":"リスト・アイテム処理選択"}
-scoreboard objectives add CureField dummy {"text":"キュアフィールド"}
-scoreboard objectives add CureFieldLevel dummy {"text":"キュアフィールドLv"}
 
 ###乱数初期化
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,WaitTime:1,ReapplicationDelay:0,Duration:0,Tags:[Initialized]}

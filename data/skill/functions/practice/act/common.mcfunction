@@ -34,6 +34,7 @@ execute if data storage skill: Skill{Name:"サン"} run function skill:act/commo
 execute if data storage skill: Skill{Name:"ムーン"} run function skill:act/common/moon/act0
 execute if data storage skill: Skill{Name:"MP回復"} run function skill:act/common/mp_recovery/act0
 execute if data storage skill: Skill{Name:"範囲MP回復"} run function skill:act/common/range_mp_recovery/act0
+execute if data storage skill: Skill{Name:"キュアフィールド"} run function skill:act/common/cure_field/act0
 execute if data storage skill: Skill{Name:"HPMP割合回復"} run function skill:act/common/hpmp_percentage_recovery/act0
 execute if data storage skill: Skill{Name:"免疫"} run function skill:act/common/immunity/act0
 execute if data storage skill: Skill{Name:"解呪の祝福"} run function skill:act/common/blessing_of_dispelling/act0
