@@ -15,3 +15,7 @@ scoreboard players operation @s Damage /= _ _
 scoreboard players operation _ RagingDamage = @s RagingDamage
 scoreboard players operation _ RagingDamage %= _ _
 execute if score _ RagingDamage matches ..0 run function skill:act/knight/raging_slash/finalize
+
+tag @s add HitDamageTaken
+tag @s[tag=CallOnDamage] add ReceivedPhysicalDamage
+execute if entity @s[tag=CallOnDamage] run tag @s add ReceivedFireDamage
