@@ -1,5 +1,5 @@
 ##############################
-### 連舞 ジャンプ時
+### 連舞 近接攻撃時
 ##############################
 
 scoreboard players operation _ Level = @s TsuremaiLevel

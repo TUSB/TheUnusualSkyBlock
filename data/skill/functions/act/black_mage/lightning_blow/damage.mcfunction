@@ -1,7 +1,5 @@
 
-### ライトニングブロー与ダメ処理
-
-scoreboard players operation @s Damage += _ LightningBlow
+### ライトニングブロー攻撃
 
 ###スタン
 scoreboard players set _ Isukumi 2
