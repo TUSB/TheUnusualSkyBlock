@@ -35,7 +35,7 @@ execute if data storage item: Item.tag.Skill{Trigger:"近接攻撃する"} run f
 execute if data storage item: Item.tag.Skill.Damage{Melee:1b} at 0-0-0-0-2 run data modify entity @e[tag=Enemy,nbt=!{AbsorptionAmount:1000000f},distance=0,limit=1] AbsorptionAmount set value 1000000f
 
 #属性ダメージ演出
-execute at 0-0-0-0-2 run function makeup:skill/enchant/elmental_damage/hit
+execute at 0-0-0-0-2 run function makeup:skill/enchant/elemental_damage/hit
 
 ### 剣の薙ぎ払いの初期設定
 #剣能
