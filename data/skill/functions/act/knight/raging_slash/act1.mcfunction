@@ -17,17 +17,18 @@ execute if score _ Level matches 1 run data modify storage skill: Damage set fro
 execute if score _ Level matches 2 run data modify storage skill: Damage set from storage skill: Data.Knight[{Name:"猛火斬",Level:2}].Damage
 execute if score _ Level matches 3 run data modify storage skill: Damage set from storage skill: Data.Knight[{Name:"猛火斬",Level:3}].Damage
 
+#計算前のダメージを保存してリセット
+scoreboard players operation # Damage = @s Damage
+scoreboard players reset @s Damage
 # ダメージ計算
 function skill:damage/add/skill/weapon
-
-# ダメージ付与
-# ダメージは100倍にして保存
 function skill:damage/apply/
+# ダメージ*100+回数 として保存
 scoreboard players set _ _ 100
 scoreboard players operation @s Damage *= _ _
 scoreboard players operation @s RagingDamage += @s Damage
 scoreboard players operation @s RagingDamage += _ RagingDamage
-#ダメージ自体は別で付与するのでここでは消しておく
-scoreboard players reset @s Damage
+#ダメージ自体は別で付与するので計算前のダメージに戻す
+scoreboard players operation @s Damage = # Damage
 
 function skill:act/knight/raging_slash/initialize
