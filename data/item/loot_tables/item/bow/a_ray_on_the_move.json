@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,display:{Name:'{\"translate\":\"雷上道\",\"color\":\"#FFFF00\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(VI)\",\"color\":\"white\",\"with\":[{\"translate\":\"雷の\"},{\"translate\":\"刻印\"}]}]']},Engraving:{EnchantID:\"雷\",Tier:6},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:3.5,Operation:1,UUID:[I;11,0,0,31],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:99,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:2.1,Operation:1,UUID:[I;11,0,0,51],Slot:\"mainhand\"}]}"
+              "tag": "{CustomModelData:1,display:{Name:'{\"translate\":\"雷上道\",\"color\":\"#FFFF00\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(VI)\",\"color\":\"white\",\"with\":[{\"translate\":\"雷の\"},{\"translate\":\"刻印\"}]}]']},Engraving:{EnchantID:\"雷\",Tier:6},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:3.5d,Operation:1,UUID:[I;11,0,0,31],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:99d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:2.1d,Operation:1,UUID:[I;11,0,0,51],Slot:\"mainhand\"}]}"
             }
           ]
         }

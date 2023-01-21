@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:7,Wearable:true,display:{Name:'{\"translate\":\"ヘッドホン\",\"color\":\"#AC43FF\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"特殊装備枠。\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"右クリックで頭に装備可能。\",\"color\":\"#CCCCCC\",\"italic\":false}']},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:53,Operation:0,UUID:[I;21,0,0,40],Slot:\"head\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:0.105,Operation:1,UUID:[I;21,0,0,51],Slot:\"head\"}]}"
+              "tag": "{CustomModelData:7,Wearable:true,display:{Name:'{\"translate\":\"ヘッドホン\",\"color\":\"#AC43FF\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"特殊装備枠。\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"右クリックで頭に装備可能。\",\"color\":\"#CCCCCC\",\"italic\":false}']},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:53d,Operation:0,UUID:[I;21,0,0,40],Slot:\"head\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:0.105d,Operation:1,UUID:[I;21,0,0,51],Slot:\"head\"}]}"
             }
           ]
         }

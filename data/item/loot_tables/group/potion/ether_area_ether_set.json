@@ -4,14 +4,19 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:group/potion/ether/ether_set"
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:group/potion/area_ether/area_ether_set"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/potion/cure_ether_field/cure_ether_field_set"
         }
       ]
     }

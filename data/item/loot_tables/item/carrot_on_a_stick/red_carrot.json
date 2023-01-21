@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2,display:{Name:'{\"translate\":\"レッドキャロット\",\"color\":\"#CC0000\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(IV)\",\"color\":\"white\",\"with\":[{\"translate\":\"炎の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"一味違うニンジン棒\",\"color\":\"#ED0000\",\"italic\":false}','{\"translate\":\"火が付く凄味を持っているので\",\"color\":\"#ED0000\",\"italic\":false}','{\"translate\":\"決して舐めてはならない\",\"color\":\"#ED0000\",\"italic\":false}']},Engraving:{EnchantID:\"炎\",Tier:4},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:70,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"デフォルト\",Amount:1.2,Operation:0,UUID:[I;11,0,1,50],Slot:\"mainhand\"}]}"
+              "tag": "{CustomModelData:2,display:{Name:'{\"translate\":\"レッドキャロット\",\"color\":\"#CC0000\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(IV)\",\"color\":\"white\",\"with\":[{\"translate\":\"炎の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"一味違うニンジン棒\",\"color\":\"#ED0000\",\"italic\":false}','{\"translate\":\"火が付く凄味を持っているので\",\"color\":\"#ED0000\",\"italic\":false}','{\"translate\":\"決して舐めてはならない\",\"color\":\"#ED0000\",\"italic\":false}']},Engraving:{EnchantID:\"炎\",Tier:4},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:70d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"デフォルト\",Amount:1.2,Operation:0,UUID:[I;11,0,1,50],Slot:\"mainhand\"}]}"
             }
           ]
         }

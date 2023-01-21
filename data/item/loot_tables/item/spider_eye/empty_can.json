@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"空き缶\",\"color\":\"#999999\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"GYOE社特性のスープの空缶。\",\"color\":\"#FFAF83\",\"italic\":false}','{\"translate\":\"淡白な魚と穀物がブレンドされていた。\",\"color\":\"#FFAF83\",\"italic\":false}']},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:-0.05,Operation:2,UUID:[I;11,0,0,12],Slot:\"mainhand\"},{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:-0.05,Operation:2,UUID:[I;12,0,0,12],Slot:\"offhand\"}]}"
+              "tag": "{display:{Name:'{\"translate\":\"空き缶\",\"color\":\"#999999\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"GYOE社特性のスープの空缶。\",\"color\":\"#FFAF83\",\"italic\":false}','{\"translate\":\"淡白な魚と穀物がブレンドされていた。\",\"color\":\"#FFAF83\",\"italic\":false}']},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:-0.05d,Operation:2,UUID:[I;11,0,0,12],Slot:\"mainhand\"},{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:-0.05d,Operation:2,UUID:[I;12,0,0,12],Slot:\"offhand\"}]}"
             }
           ]
         }
