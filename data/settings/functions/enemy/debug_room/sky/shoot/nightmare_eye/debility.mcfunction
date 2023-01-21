@@ -1,5 +1,5 @@
 #Function
-effect give @a[distance=..3,gamemode=!creative,gamemode=!spectator,sort=nearest] minecraft:invisibility 1 11
+effect give @a[gamemode=!creative,gamemode=!spectator,limit=1,sort=nearest,distance=..5] minecraft:invisibility 1 11
 particle minecraft:dust 0.047 0.047 0.227 2 ~ ~ ~ 1 1 1 0 20
 particle crit ~ ~ ~ 0.5 0.5 0.5 0 20
 particle damage_indicator ~ ~ ~ 0.5 0.5 0.5 0 20

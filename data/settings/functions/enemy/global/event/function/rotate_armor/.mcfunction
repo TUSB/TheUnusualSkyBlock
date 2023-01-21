@@ -1,0 +1,10 @@
+execute if entity @s[tag=Main] run function settings:enemy/global/event/function/rotate_armor/main
+execute if entity @s[tag=Schedule1] run function settings:enemy/global/event/function/rotate_armor/schedule1
+execute if entity @s[tag=Schedule2] run function settings:enemy/global/event/function/rotate_armor/schedule2
+execute if entity @s[tag=ScheduleRightarm] run function settings:enemy/global/event/function/rotate_armor/schedule_rightarm
+execute if entity @s[tag=ScheduleLeftarm] run function settings:enemy/global/event/function/rotate_armor/schedule_leftarm
+execute if entity @s[tag=ScheduleHead] run function settings:enemy/global/event/function/rotate_armor/schedule_head
+execute if entity @s[tag=Rightarm] run function settings:enemy/global/event/function/rotate_armor/rightarm
+execute if entity @s[tag=Leftarm] run function settings:enemy/global/event/function/rotate_armor/leftarm
+execute if entity @s[tag=Which] run function settings:enemy/global/event/function/rotate_armor/which
+execute if entity @s[tag=Head] run function settings:enemy/global/event/function/rotate_armor/head

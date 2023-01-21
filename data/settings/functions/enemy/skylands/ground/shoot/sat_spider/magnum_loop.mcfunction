@@ -1,8 +1,8 @@
 #Function
 #ダメージ処理
-execute if entity @a[gamemode=!creative,gamemode=!spectator,scores={ProjectileTime=0..},dx=0,dy=0,dz=0] run scoreboard players set @s _ 1
+execute positioned ~-0.5 ~-0.5 ~-0.5 if entity @a[gamemode=!creative,gamemode=!spectator,scores={ProjectileTime=0..},dx=0] run scoreboard players set @s _ 1
 execute unless block ^ ^ ^0.5 #main:no_collision run scoreboard players set @s _ 1
-execute as @a[gamemode=!creative,gamemode=!spectator,scores={ProjectileTime=0..},dx=0,dy=0,dz=0] run function skill:enemy/laser/main/damage
+execute positioned ~-0.5 ~-0.5 ~-0.5 as @a[gamemode=!creative,gamemode=!spectator,scores={ProjectileTime=0..},dx=0] run function skill:enemy/laser/main/damage
 
 #演出
 particle dust 0.360 1.000 0.870 0.5 ^ ^ ^ 0 0 0 0 6 force @a[distance=..32]

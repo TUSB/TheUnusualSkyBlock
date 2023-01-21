@@ -32,3 +32,4 @@ scoreboard players operation _ Level += _ Random
 execute store result storage mob_data: Summon.Level int 1 run scoreboard players get _ Level
 execute store result storage mob_data: Summon.ParentID int 1 run scoreboard players get @s OhMyDatID
 data modify entity @e[tag=Spawn,distance=0,limit=1] ArmorItems[3].tag.SpawnEntities[0][0] merge from storage mob_data: Summon
+data remove storage mob_data: Summon
