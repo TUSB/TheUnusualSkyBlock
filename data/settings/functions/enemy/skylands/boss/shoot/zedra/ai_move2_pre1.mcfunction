@@ -16,14 +16,13 @@ scoreboard players operation _ Calc -= _ _
 execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AdditionalAI.SeparatePos[2] double 0.001 run scoreboard players operation _ Calc /= # _
 ## ポーズ変更
 execute store result score _ _ run scoreboard players get @s OhMyDatID
-execute as @e[type=armor_stand,distance=..3] run scoreboard players operation @s ParentID -= _ _
-execute as @e[type=armor_stand,distance=..3,scores={ParentID=0}] run tag @s add NowTarget
-execute as @e[type=armor_stand,distance=..3] run scoreboard players operation @s ParentID += _ _
-item replace entity @e[distance=..3,tag=ZedraBody,tag=NowTarget] armor.head with stick{CustomModelData:2008}
-item replace entity @e[distance=..3,tag=ZedraHead,tag=NowTarget] armor.head with stick{CustomModelData:2002}
-data modify entity @e[distance=..3,tag=ZedraHead,tag=NowTarget,limit=1] Pose set value {Head:[0.01f,0f,0f]}
-execute as @e[distance=..3,tag=ZedraBody,tag=NowTarget] run function oh_my_dat:please
-execute as @e[distance=..3,tag=ZedraBody,tag=NowTarget] run function settings:enemy/global/event/function/rotate_armor/main
-execute as @e[distance=..3,tag=ZedraBody,tag=NowTarget] run tag @s add Rotating
-tag @e[tag=NowTarget] remove NowTarget
+execute as @e[type=armor_stand,distance=..0.5] run scoreboard players operation @s ParentID -= _ _
+execute as @e[type=armor_stand,distance=..0.5,scores={ParentID=0}] run tag @s add NowTarget
+execute as @e[type=armor_stand,distance=..0.5] run scoreboard players operation @s ParentID += _ _
+item replace entity @e[distance=..0.5,tag=ZedraBody,tag=NowTarget] armor.head with stick{CustomModelData:2008}
+item replace entity @e[distance=..0.5,tag=ZedraHead,tag=NowTarget] armor.head with stick{CustomModelData:2002}
+data modify entity @e[distance=..0.5,tag=ZedraHead,tag=NowTarget,limit=1] Pose set value {Head:[0.01f,0f,0f]}
+execute as @e[distance=..0.5,tag=ZedraBody,tag=NowTarget] run function oh_my_dat:please
+execute as @e[distance=..0.5,tag=ZedraBody,tag=NowTarget] run function settings:enemy/global/event/function/rotate_armor/main
+tag @e[distance=..3,tag=NowTarget] remove NowTarget
 function oh_my_dat:please

@@ -44,7 +44,7 @@ playsound minecraft:block.respawn_anchor.deplete hostile @a[distance=..32] ~ ~ ~
 execute as @a[distance=..12,gamemode=!creative,gamemode=!spectator] run tag @s add NowTarget
 effect clear @a[tag=NowTarget] speed
 effect clear @a[tag=NowTarget] jump_boost
-effect give @a[tag=NowTarget] minecraft:jump_boost 6 128 true
-effect give @a[tag=NowTarget] minecraft:slowness 6 7 true
-effect give @a[tag=NowTarget] minecraft:slow_falling 6 0 true
+effect give @a[tag=NowTarget] minecraft:jump_boost 3 128 true
+effect give @a[tag=NowTarget] minecraft:slowness 3 3 false
+effect give @a[tag=NowTarget] minecraft:slow_falling 3 0 true
 tag @a[tag=NowTarget] remove NowTarget

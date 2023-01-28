@@ -1,2 +1,11 @@
-execute if entity @s[tag=Effect1] run function settings:enemy/skylands/boss/shoot/zedra_aec/effect1
-execute if entity @s[tag=Main1] run function settings:enemy/skylands/boss/shoot/zedra_aec/main1
+execute if entity @s[tag=1Effect] run function settings:enemy/skylands/boss/shoot/zedra_aec/1_effect
+execute if entity @s[tag=1Main] run function settings:enemy/skylands/boss/shoot/zedra_aec/1_main
+execute if entity @s[tag=2Main] run function settings:enemy/skylands/boss/shoot/zedra_aec/2_main
+execute if entity @s[tag=2Initial] run function settings:enemy/skylands/boss/shoot/zedra_aec/2_initial
+execute if entity @s[tag=2Tick] run function settings:enemy/skylands/boss/shoot/zedra_aec/2_tick
+execute if entity @s[tag=2Range] run function settings:enemy/skylands/boss/shoot/zedra_aec/2_range
+execute if entity @s[tag=2Slash1] run function settings:enemy/skylands/boss/shoot/zedra_aec/2_slash1
+execute if entity @s[tag=2Slash2] run function settings:enemy/skylands/boss/shoot/zedra_aec/2_slash2
+execute if entity @s[tag=2SlashDebuff] run function settings:enemy/skylands/boss/shoot/zedra_aec/2_slash_debuff
+execute if entity @s[tag=2SlashEffect] run function settings:enemy/skylands/boss/shoot/zedra_aec/2_slash_effect
+execute if entity @s[tag=2Charge] run function settings:enemy/skylands/boss/shoot/zedra_aec/2_charge

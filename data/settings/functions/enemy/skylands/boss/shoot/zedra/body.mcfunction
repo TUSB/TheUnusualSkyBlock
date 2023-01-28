@@ -16,9 +16,9 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."闇属�
 # ステータス
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 5000
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 0
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 120
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 150
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 120
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Function",Tags:[Skylands,Boss,Shoot,Zedra,Initial]}],Death:[{Name:"Function",Tags:[Skylands,Boss,Shoot,Zedra,Death]}],Damage:[{Name:"Function",Tags:[Skylands,Boss,Shoot,Zedra,Damage]}],Tick:[{Name:"Function",Tags:[Skylands,Boss,Shoot,Zedra,Tick]},{Name:"Function",Tags:[Global,Event,Function,KillGenocide]}],Passenger:{Type:"down",Check:true,Call:[{Name:"Function",Tags:[Global,Event,Function,CommonExe,SearchAndDestroy]}]},TurnCount:1,Turn:[{Index:1}]}
