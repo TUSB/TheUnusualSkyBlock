@@ -18,6 +18,7 @@ data modify storage item: Item set from storage item: Items[{tag:{Skill:{Trigger
 execute if score @s TsuremaiLevel matches 1.. run function skill:act/ninja/tsuremai/trigger/attack
 
 #属性ダメージ付与
+execute unless data storage item: Item.tag.Skill.Damage{Melee:1b} run data modify storage skill: Damage set value {Hit:1b}
 execute unless data storage item: Item.tag.Skill.Damage{Melee:1b} at 0-0-0-0-2 as @e[tag=Enemy,nbt=!{AbsorptionAmount:1000000f},distance=0] run function skill:damage/apply/elemental
 
 ### エンチャント
