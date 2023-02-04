@@ -17,3 +17,6 @@ data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from sto
 
 ### 共通データ
 scoreboard players set @s TemporaryEffects 0
+
+### CallOnInit
+execute if entity @s[tag=CallOnInit] run function enemy:ai/call/trigger/initial

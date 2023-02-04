@@ -13,9 +13,6 @@ execute if entity @s[tag=Spawn] run function enemy:spawn/
 execute unless entity @s[tag=DelayedData] run data remove entity @s TicksFrozen
 execute if entity @s[tag=DelayedData] run function enemy:spawn/apply_status/
 
-### CallOnInit
-execute if entity @s[tag=CallOnInit] run function enemy:ai/call/trigger/initial
-
 ### プレイヤー初期化
 execute if entity @s[type=player] run function player:initialized
 
