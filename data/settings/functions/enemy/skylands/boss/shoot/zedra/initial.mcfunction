@@ -6,5 +6,5 @@ data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AdditionalAI.Ra
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AdditionalAI.RageAttack set value 0
 scoreboard players set @s HPMax 10000
 scoreboard players operation @s HP = @s HPMax
-scoreboard players set @s MPMax 0
-scoreboard players operation @s MP = @s MPMax
+execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AdditionalAI.Defense int 1 run scoreboard players get @s Defense
+execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AdditionalAI.SpecialDefense int 1 run scoreboard players get @s SpecialDefense

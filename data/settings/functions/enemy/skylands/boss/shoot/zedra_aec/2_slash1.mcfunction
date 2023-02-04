@@ -1,7 +1,7 @@
 #Function
-## RageAttackの取得（+N/3%）
-execute store result score # _ run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AdditionalAI.Attack 1
-scoreboard players set # Calc 3
+## RageAttackの取得（+N/4%）
+execute store result score # _ run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AdditionalAI.RageAttack 1
+scoreboard players set # Calc 4
 scoreboard players operation # _ /= # Calc
 ## 攻撃力調整
 scoreboard players set # Calc 100
