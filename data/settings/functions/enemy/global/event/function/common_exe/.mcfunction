@@ -13,6 +13,7 @@ execute if entity @s[tag=RandomTeleportEnemy] run function settings:enemy/global
 execute if entity @s[tag=RandomRotation] run function settings:enemy/global/event/function/common_exe/random_rotation
 execute if entity @s[tag=BulletDelete] run function settings:enemy/global/event/function/common_exe/bullet_delete
 execute if entity @s[tag=MotionToRotation] run function settings:enemy/global/event/function/common_exe/motion_to_rotation
+execute if entity @s[tag=SetMp0] run function settings:enemy/global/event/function/common_exe/set_mp0
 execute if entity @s[tag=IsDaytime] run function settings:enemy/global/event/function/common_exe/is_daytime
 execute if entity @s[tag=ExtendExistingTime] run function settings:enemy/global/event/function/common_exe/extend_existing_time
 execute if entity @s[tag=RotationYFixed] run function settings:enemy/global/event/function/common_exe/rotation_y_fixed
