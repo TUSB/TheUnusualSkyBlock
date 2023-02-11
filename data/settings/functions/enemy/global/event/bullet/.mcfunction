@@ -1,6 +1,7 @@
 execute if entity @s[tag=SmartMotion] run function settings:enemy/global/event/bullet/smart_motion/
 execute if entity @s[tag=CommonBombHuge] run function settings:enemy/global/event/bullet/common_bomb_huge/
 execute if entity @s[tag=CommonBomb] run function settings:enemy/global/event/bullet/common_bomb/
+execute if entity @s[tag=Dark] run function settings:enemy/global/event/bullet/dark/
 execute if entity @s[tag=TargetBullet] run function settings:enemy/global/event/bullet/target_bullet
 execute if entity @s[tag=Magnum] run function settings:enemy/global/event/bullet/magnum
 execute if entity @s[tag=LaserShot] run function settings:enemy/global/event/bullet/laser_shot
