@@ -1,8 +1,9 @@
 ### 落とし床処理
 
-execute align xz positioned ~0.5 ~ ~0.5 run tp @s ~ ~-4 ~
+scoreboard players set _ _ 0
+execute if block ~ ~-4 ~ #main:no_collision if block ~ ~-5 ~ #main:no_collision run scoreboard players add _ _ 1
+execute if block ~ ~-3 ~ minecraft:warped_wart_block run scoreboard players add _ _ 1
 
-execute at @s unless block ~ ~1 ~ minecraft:warped_wart_block run function makeup:entity/unique_floor/drop_floor
-execute at @s if block ~ ~1 ~ minecraft:warped_wart_block positioned ~ ~3 ~ run function entity:unique_floor/drop_floor
- 
-
+execute if score _ _ matches 1.. unless block ~ ~-3 ~ minecraft:warped_wart_block align xz positioned ~0.5 ~ ~0.5 run tp @s ~ ~-5 ~
+execute if score _ _ matches 1.. unless block ~ ~-3 ~ minecraft:warped_wart_block at @s run function makeup:entity/unique_floor/drop_floor
+execute if score _ _ matches 1.. if block ~ ~-3 ~ minecraft:warped_wart_block positioned ~ ~-1 ~ run function entity:unique_floor/drop_floor
