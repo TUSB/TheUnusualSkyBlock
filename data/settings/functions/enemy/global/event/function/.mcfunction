@@ -4,6 +4,7 @@ execute if entity @s[tag=Combat] run function settings:enemy/global/event/functi
 execute if entity @s[tag=AttackSound] run function settings:enemy/global/event/function/attack_sound/
 execute if entity @s[tag=KillGenocide] run function settings:enemy/global/event/function/kill_genocide
 execute if entity @s[tag=Lightningbolt] run function settings:enemy/global/event/function/lightningbolt
+execute if entity @s[tag=SecurityPole] run function settings:enemy/global/event/function/security_pole/
 execute if entity @s[tag=DamageSound] run function settings:enemy/global/event/function/damage_sound/
 execute if entity @s[tag=CommonParticle] run function settings:enemy/global/event/function/common_particle/
 execute if entity @s[tag=Attributes] run function settings:enemy/global/event/function/attributes/
