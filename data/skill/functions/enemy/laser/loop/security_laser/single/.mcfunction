@@ -1,5 +1,5 @@
 #ダメージ処理
-execute positioned ~-0.5 ~-0.5 ~-0.5 as @a[gamemode=!creative,gamemode=!spectator,nbt={DeathTime:0s},scores={ProjectileTime=0..},dx=0,dy=0,dz=0] run function skill:enemy/laser/loop/security_laser/single/damage
+execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[predicate=entity:friendly,scores={ProjectileTime=0..},dx=0,dy=0,dz=0] run function skill:enemy/laser/loop/security_laser/single/damage
 
 #演出
 function makeup:skill/enemy/laser/loop/security_laser/single/
