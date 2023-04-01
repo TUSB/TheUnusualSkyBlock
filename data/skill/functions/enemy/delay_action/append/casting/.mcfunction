@@ -3,3 +3,4 @@ execute if data storage mob_data: Call{Tags:["LaserPointer"]} run function skill
 execute if data storage mob_data: Call{Tags:["Charge"]} run function skill:enemy/delay_action/append/casting/charge/
 execute if data storage mob_data: Call{Tags:["WaterBolt"]} run function skill:enemy/delay_action/append/casting/water_bolt/
 execute if data storage mob_data: Call{Tags:["SludgeGarbager"]} run function skill:enemy/delay_action/append/casting/sludge_garbager/
+execute if data storage mob_data: Call{Tags:["PillarOfWater"]} run function skill:enemy/delay_action/append/casting/pillar_of_water/
