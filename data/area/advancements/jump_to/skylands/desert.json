@@ -1,38 +1,43 @@
 {
-    "criteria": {
-        "requirement": {
-            "trigger": "minecraft:location",
-            "conditions": {
-                "player": [
-                    {
-                      "condition": "minecraft:reference",
-                      "name": "entity:player"
-                    }
-                ],
-                "location": {
-                    "position": {
-                        "x": {
-                            "min": 76,
-                            "max": 80
-                        },
-                        "y": {
-                            "min": 200,
-                            "max": 204
-                        },
-                        "z": {
-                            "min": -580,
-                            "max": -578
-                        }
-                    },
-                    "dimension": "area:skylands",
-                    "block": {
-                        "blocks": ["minecraft:end_gateway"]
-                    }
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "entity:player"
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "x": {
+                  "min": 76,
+                  "max": 80
+                },
+                "y": {
+                  "min": 200,
+                  "max": 204
+                },
+                "z": {
+                  "min": -580,
+                  "max": -578
                 }
+              },
+              "dimension": "area:skylands",
+              "block": {
+                "blocks": [
+                  "minecraft:end_gateway"
+                ]
+              }
             }
-        }
-    },
-    "rewards": {
-        "function": "area:jump_to/desert/"
+          }
+        ]
+      }
     }
+  },
+  "rewards": {
+    "function": "area:jump_to/desert/"
+  }
 }

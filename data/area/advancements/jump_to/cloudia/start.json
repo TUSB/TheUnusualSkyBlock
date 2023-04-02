@@ -1,71 +1,80 @@
 {
   "criteria": {
-      "start": {
-          "trigger": "minecraft:location",
-          "conditions": {
-              "player": [
-                  {
-                    "condition": "minecraft:reference",
-                    "name": "entity:player"
-                  }
-              ],
-              "location": {
-                  "position": {
-                      "x": {
-                          "min": -1941,
-                          "max": -1939
-                      },
-                      "y": {
-                          "min": 113,
-                          "max": 119
-                      },
-                      "z": {
-                          "min": -139,
-                          "max": -135
-                      }
-                  },
-                  "dimension": "area:cloudia",
-                  "block": {
-                      "blocks": ["minecraft:end_gateway"]
-                  }
-              }
-          }
-      },
-      "brazil": {
-        "trigger": "minecraft:location",
-        "conditions": {
-            "player": [
-                {
-                    "condition": "minecraft:reference",
-                    "name": "entity:player"
-                }
-            ],
-            "location": {
-                "position": {
-                    "x": {
-                        "min": -1752,
-                        "max": -1726
-                    },
-                    "y": {
-                        "min": 85,
-                        "max": 108
-                    },
-                    "z": {
-                        "min": -150,
-                        "max": -124
-                    }
+    "start": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "entity:player"
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "x": {
+                  "min": -1941,
+                  "max": -1939
                 },
-                "dimension": "area:cloudia"
+                "y": {
+                  "min": 113,
+                  "max": 119
+                },
+                "z": {
+                  "min": -139,
+                  "max": -135
+                }
+              },
+              "dimension": "area:cloudia",
+              "block": {
+                "blocks": [
+                  "minecraft:end_gateway"
+                ]
+              }
             }
-        }
+          }
+        ]
+      }
+    },
+    "brazil": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "entity:player"
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "position": {
+                "x": {
+                  "min": -1752,
+                  "max": -1726
+                },
+                "y": {
+                  "min": 85,
+                  "max": 108
+                },
+                "z": {
+                  "min": -150,
+                  "max": -124
+                }
+              },
+              "dimension": "area:cloudia"
+            }
+          }
+        ]
+      }
     }
   },
   "requirements": [
     [
-      "start","brazil"
+      "start",
+      "brazil"
     ]
   ],
   "rewards": {
-      "function": "area:system/cloudia/start"
+    "function": "area:system/cloudia/start"
   }
 }
