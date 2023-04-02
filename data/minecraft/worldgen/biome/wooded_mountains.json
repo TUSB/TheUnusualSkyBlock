@@ -46,7 +46,7 @@
   },
   "spawn_costs": {},
   "player_spawn_friendly": false,
-  "precipitation": "rain",
+  "has_precipitation": true,
   "temperature": 0.5,
   "downfall": 0.5,
   "category": "none",
