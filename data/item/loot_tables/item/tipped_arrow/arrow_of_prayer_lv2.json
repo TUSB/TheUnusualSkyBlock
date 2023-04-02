@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:6b,Amplifier:5b,Duration:2,ShowParticles:0b}],CustomPotionColor:15794175,display:{Name:'[{\"translate\":\"祈りの矢\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false},{\"translate\":\"Lv2\",\"color\":\"#FFFF00\",\"bold\":true,\"italic\":false}]',Lore:['{\"translate\":\"アンデッドに対しダメージを与え\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"それ以外のものを癒す\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"Lv1よりも効果がより大きく改善した\",\"color\":\"#CCCCCC\",\"italic\":false}']}}"
+              "tag": "{CustomPotionEffects:[{Id:6,Amplifier:5b,Duration:2,ShowParticles:0b}],CustomPotionColor:15794175,display:{Name:'[{\"translate\":\"祈りの矢\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false},{\"translate\":\"Lv2\",\"color\":\"#FFFF00\",\"bold\":true,\"italic\":false}]',Lore:['{\"translate\":\"アンデッドに対しダメージを与え\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"それ以外のものを癒す\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"Lv1よりも効果がより大きく改善した\",\"color\":\"#CCCCCC\",\"italic\":false}']}}"
             }
           ]
         }

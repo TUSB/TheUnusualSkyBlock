@@ -4,7 +4,7 @@
 
 ###スキル
 #忍者
-scoreboard players reset @s[scores={Choyaku=0..},nbt=!{ActiveEffects:[{Id:8b}]}] Choyaku
+scoreboard players reset @s[scores={Choyaku=0..},nbt=!{ActiveEffects:[{Id:8}]}] Choyaku
 execute if entity @s[scores={Katon=1..}] run function skill:act/ninja/katon/tick
 execute if entity @s[scores={Mokuso=1..}] run function skill:act/ninja/mokuso/tick
 execute if entity @s[scores={Suiton=1..}] run function skill:act/ninja/suiton/tick

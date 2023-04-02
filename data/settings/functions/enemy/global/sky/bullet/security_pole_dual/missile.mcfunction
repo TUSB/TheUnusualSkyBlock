@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:silverfish",NoGravity:true,Silent:1b,ActiveEffects:[{Id:14b,Amplifier:1b,Duration:2147483647,ShowParticles:false},{Id:28b,Amplifier:1b,Duration:2147483647,ShowParticles:false}],PortalCooldown:100,DeathLootTable:"empty",Tags:[Mob,Enemy,DelayedData,HasAI,CallOnInit,CallOnBlock,CallOnTick,CooldownRequired]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:silverfish",NoGravity:true,Silent:1b,ActiveEffects:[{Id:14,Amplifier:1b,Duration:2147483647,ShowParticles:false},{Id:28,Amplifier:1b,Duration:2147483647,ShowParticles:false}],PortalCooldown:100,DeathLootTable:"empty",Tags:[Mob,Enemy,DelayedData,HasAI,CallOnInit,CallOnBlock,CallOnTick,CooldownRequired]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 0d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0d

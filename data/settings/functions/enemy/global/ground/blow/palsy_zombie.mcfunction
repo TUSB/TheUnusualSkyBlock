@@ -22,4 +22,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.51d}]
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Name:"Damage",Player:{},Distance:{Max:3d},AEC:{Effects:[{Id:14b,Amplifier:5b,Duration:5,ShowParticles:false}]}}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Name:"Damage",Player:{},Distance:{Max:3d},AEC:{Effects:[{Id:14,Amplifier:5b,Duration:5,ShowParticles:false}]}}]}

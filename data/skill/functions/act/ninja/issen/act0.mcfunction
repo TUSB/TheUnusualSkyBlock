@@ -6,7 +6,7 @@ scoreboard players operation _ OhMyDatID = @s OhMyDatID
 execute as @e[tag=Issen,distance=..3] if score @s OhMyDatID = _ OhMyDatID run kill @s
 
 #新たに一閃を発生させる
-summon minecraft:villager ~ ~500 ~ {NoGravity:true,PortalCooldown:30,Tags:[Skill,Issen,CooldownRequired],Team:NoCollision,Silent:true,ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:false}],Offers:{Recipes:[]}}
+summon minecraft:villager ~ ~500 ~ {NoGravity:true,PortalCooldown:30,Tags:[Skill,Issen,CooldownRequired],Team:NoCollision,Silent:true,ActiveEffects:[{Id:14,Amplifier:127b,Duration:2147483647,ShowParticles:false}],Offers:{Recipes:[]}}
 execute positioned ~ ~500 ~ run tp @e[tag=!Initialized,tag=Issen,distance=..0.01,limit=1] ~ ~-500 ~
 scoreboard players operation @e[tag=!Initialized,tag=Issen,distance=..0.01,limit=1] OhMyDatID = @s OhMyDatID
 

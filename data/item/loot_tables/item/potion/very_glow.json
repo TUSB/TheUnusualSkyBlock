@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:24b,Duration:2147483647,Amplifier:0b,ShowParticles:false,ShowIcon:false},{Id:16b,Duration:60,Amplifier:0b}],CustomPotionColor:16777132,display:{Name:'{\"translate\":\"メッサヒカル\",\"color\":\"yellow\",\"bold\":true,\"italic\":false}',Lore:['[{\"translate\":\"服用すると\",\"color\":\"white\"},{\"translate\":\"メッサヒカル\",\"color\":\"yellow\",\"bold\":true,\"italic\":true}]']}}"
+              "tag": "{CustomPotionEffects:[{Id:24,Duration:2147483647,Amplifier:0b,ShowParticles:false,ShowIcon:false},{Id:16,Duration:60,Amplifier:0b}],CustomPotionColor:16777132,display:{Name:'{\"translate\":\"メッサヒカル\",\"color\":\"yellow\",\"bold\":true,\"italic\":false}',Lore:['[{\"translate\":\"服用すると\",\"color\":\"white\"},{\"translate\":\"メッサヒカル\",\"color\":\"yellow\",\"bold\":true,\"italic\":true}]']}}"
             }
           ]
         }

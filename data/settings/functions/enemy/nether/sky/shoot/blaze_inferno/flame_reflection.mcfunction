@@ -5,6 +5,6 @@ data modify storage tusb_mob: "即時ステータス"."見た目" set value {Ite
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 200
 data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"%1$sは%2$sの反射弾を受けて丸焦げにされた。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:64d,IgnoreBlocks:true}}],Name:"Step",Direction:[-3f,-3f],DirectionRange:[6f,6f],Speed:0.3d,SpeedRange:0.9d}],Attack:[{Name:"Damage",Player:{DamageType:[Global]},AEC:{Effects:[{Id:14b,Amplifier:3b,Duration:100,ShowParticles:false}]}}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:64d,IgnoreBlocks:true}}],Name:"Step",Direction:[-3f,-3f],DirectionRange:[6f,6f],Speed:0.3d,SpeedRange:0.9d}],Attack:[{Name:"Damage",Player:{DamageType:[Global]},AEC:{Effects:[{Id:14,Amplifier:3b,Duration:100,ShowParticles:false}]}}]}
 #Function
 playsound minecraft:entity.blaze.shoot hostile @a[distance=..32] ~ ~ ~ 0.7 0.8 0
