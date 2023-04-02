@@ -1,6 +1,6 @@
 {
   "logical_height": 0,
-  "infiniburn": "minecraft:infiniburn_end",
+  "infiniburn": "#minecraft:infiniburn_end",
   "effects": "minecraft:the_end",
   "ambient_light": 0.0,
   "bed_works": false,
@@ -14,5 +14,13 @@
   "has_skylight": false,
   "has_ceiling": false,
   "height": 256,
-  "min_y": 0
+  "min_y": 0,
+  "monster_spawn_block_light_limit": 0,
+  "monster_spawn_light_level": {
+    "type": "minecraft:uniform",
+    "value": {
+      "max_inclusive": 7,
+      "min_inclusive": 0
+    }
+  }
 }

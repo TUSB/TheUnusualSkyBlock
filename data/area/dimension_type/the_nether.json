@@ -1,6 +1,6 @@
 {
   "logical_height": 0,
-  "infiniburn": "minecraft:infiniburn_nether",
+  "infiniburn": "#minecraft:infiniburn_nether",
   "effects": "minecraft:overworld",
   "ambient_light": 0.1,
   "bed_works": false,
@@ -14,5 +14,7 @@
   "has_skylight": false,
   "has_ceiling": false,
   "height": 256,
-  "min_y": 0
+  "min_y": 0,
+  "monster_spawn_block_light_limit": 15,
+  "monster_spawn_light_level": 7
 }
