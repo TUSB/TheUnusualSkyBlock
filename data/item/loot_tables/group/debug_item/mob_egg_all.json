@@ -1143,7 +1143,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{#N/}"
+              "tag": "{display:{Name:'{\"text\":\"gullivers_land 通常湧きの巨人のドン Lv65\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[GulliversLand,Ground,Blow,GiantDon,Main,SpawnParticles],Level:65}]]}}]}}"
             }
           ]
         },
@@ -2243,7 +2243,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{#N/}"
+              "tag": "{display:{Name:'{\"text\":\"skylands ヅェドラ_本体 Lv60\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Boss,Shoot,Zedra,Body],Level:60}]]}}]}}"
             }
           ]
         },
