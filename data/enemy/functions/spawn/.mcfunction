@@ -15,7 +15,6 @@ data modify storage tusb_mob: MobLayers set from entity @s ArmorItems[3].tag.Spa
 summon spawner_minecart ~ ~500 ~ {Tags:[OneTimeSpawner,TickingRequired],SpawnCount:1s,SpawnRange:6s,Delay:0s,MaxNearbyEntities:106s,RequiredPlayerRange:1000s,MinSpawnDelay:200s,MaxSpawnDelay:800s,SpawnData:{entity:{id:"minecraft:experience_orb",Age:6000,Passengers:[{id:"tusb_mob:creation"}]}},SpawnPotentials:[{weight:1,data:{entity:{id:"tusb_mob:empty"}}}]}
 ### ステータス適用
 execute positioned ~ ~500 ~ as @e[type=spawner_minecart,distance=..0.01] if data entity @s SpawnData.entity.Passengers[{id:"tusb_mob:creation"}] positioned ~ ~-500 ~ run function enemy:spawn/set_spawner/
-execute positioned ~ ~500 ~ as @e[type=spawner_minecart,distance=..0.01] run data modify storage tusb_mob: Test set from entity @s
 ### Count設定
 execute if data entity @s ArmorItems[3].tag.Count positioned ~ ~500 ~ run data modify entity @e[type=spawner_minecart,limit=1,distance=..0.01] SpawnCount set from entity @s ArmorItems[3].tag.Count
 execute if data entity @s ArmorItems[3].tag.Count run function enemy:spawn/set_spawner/count/
