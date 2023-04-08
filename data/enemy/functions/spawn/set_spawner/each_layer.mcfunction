@@ -22,6 +22,6 @@ data remove storage tusb_mob: MobLayers[-1]
 ### 最後のデータならスポーンデータとする
 execute unless data storage tusb_mob: MobLayers[-1] run data modify storage tusb_mob: SpawnData set from storage tusb_mob: Passengers[-1]
 ### Pos設定
-data modify entity @s SpawnData.Pos set from storage tusb_mob: Pos
+data modify entity @s SpawnData.entity.Pos set from storage tusb_mob: Pos
 ### まだ読み込んでいないタグがあれば、繰り返す
 execute if data storage tusb_mob: MobLayers[-1] run function enemy:spawn/set_spawner/each_layer
