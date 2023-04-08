@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:snowball",CustomName:'{"translate":"怒れるりんご弾","color":"#FF0000","bold":true}',NoGravity:true,PortalCooldown:120,Tags:[DelayedData,CallOnInit,CallOnAttack,TickingRequired,DamageProjectile,EnemyProjectile]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:snowball",Tags:[DelayedData,CallOnInit,CallOnAttack,TickingRequired,DamageProjectile,EnemyProjectile,Unknown],CustomName:'{"translate":"怒れるりんご弾","color":"#FF0000","bold":true}',NoGravity:true,PortalCooldown:120}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {Item:{id:"apple",Count:1b}}
 ### 遅延ステータス
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 50
