@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomPotionEffects:[{Id:7,Amplifier:7b,Duration:2,ShowParticles:0b}],CustomPotionColor:4227200,display:{Name:'[{\"translate\":\"穢れの矢\",\"color\":\"#209F9F\",\"bold\":true,\"italic\":false},{\"translate\":\"Lv3\",\"color\":\"#FFFF00\",\"bold\":true,\"italic\":false}]',Lore:['{\"translate\":\"生物に対しダメージを与え\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"それ以外のものを癒す\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"Lv2よりも効果がまたさらに大きく改善したが\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"量産できない非売品となった\",\"color\":\"#CCCCCC\",\"italic\":false}']}}"
+              "tag": "{CustomPotionEffects:[{Id:7b,Amplifier:7b,Duration:2,ShowParticles:0b}],CustomPotionColor:4227200,display:{Name:'[{\"translate\":\"穢れの矢\",\"color\":\"#209F9F\",\"bold\":true,\"italic\":false},{\"translate\":\"Lv3\",\"color\":\"#FFFF00\",\"bold\":true,\"italic\":false}]',Lore:['{\"translate\":\"生物に対しダメージを与え\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"それ以外のものを癒す\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"Lv2よりも効果がまたさらに大きく改善したが\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"量産できない非売品となった\",\"color\":\"#CCCCCC\",\"italic\":false}']}}"
             }
           ]
         }
