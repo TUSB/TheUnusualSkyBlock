@@ -5,7 +5,12 @@
       "conditions": {
         "damage": {
           "type": {
-            "is_projectile": true
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ]
           }
         }
       }
@@ -34,14 +39,36 @@
             "min": 2
           },
           "type": {
-            "is_explosion": false,
-            "is_fire": false,
-            "is_magic": false,
-            "is_projectile": false,
-            "is_lightning": false,
-            "bypasses_armor": false,
-            "bypasses_invulnerability": false,
-            "bypasses_magic": false
+            "tags": [
+              {
+                "id": "minecraft:is_explosion",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_fire",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_projectile",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_effects",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_enchantments",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_resistance",
+                "expected": false
+              }
+            ]
           }
         }
       }
@@ -86,14 +113,36 @@
             "max": 1
           },
           "type": {
-            "is_explosion": false,
-            "is_fire": false,
-            "is_magic": false,
-            "is_projectile": false,
-            "is_lightning": false,
-            "bypasses_armor": false,
-            "bypasses_invulnerability": false,
-            "bypasses_magic": false
+            "tags": [
+              {
+                "id": "minecraft:is_explosion",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_fire",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_projectile",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_effects",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_enchantments",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_resistance",
+                "expected": false
+              }
+            ]
           }
         }
       }
@@ -119,14 +168,36 @@
             "min": 2
           },
           "type": {
-            "is_explosion": false,
-            "is_fire": false,
-            "is_magic": false,
-            "is_projectile": false,
-            "is_lightning": false,
-            "bypasses_armor": false,
-            "bypasses_invulnerability": false,
-            "bypasses_magic": false
+            "tags": [
+              {
+                "id": "minecraft:is_explosion",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_fire",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_projectile",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_effects",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_enchantments",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_resistance",
+                "expected": false
+              }
+            ]
           }
         }
       }
@@ -150,14 +221,36 @@
         "damage": {
           "dealt": 1,
           "type": {
-            "is_explosion": false,
-            "is_fire": false,
-            "is_magic": false,
-            "is_projectile": false,
-            "is_lightning": false,
-            "bypasses_armor": false,
-            "bypasses_invulnerability": false,
-            "bypasses_magic": false
+            "tags": [
+              {
+                "id": "minecraft:is_explosion",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_fire",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_projectile",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_effects",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_enchantments",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_resistance",
+                "expected": false
+              }
+            ]
           }
         }
       }
