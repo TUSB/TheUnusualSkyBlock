@@ -7,8 +7,10 @@ execute if score _ Level matches 2 run data modify storage skill: Damage set fro
 execute if score _ Level matches 3 run data modify storage skill: Damage set from storage skill: Data.WhiteMage[{Name:"セイクリッドピラー",Level:3}].Damage
 function skill:damage/add/skill/magic
 
-#ダメージ補正 = 1倍/10減少HP
-scoreboard players operation _ Calc = _ SpecialAttack
+#ダメージ補正 = (減少HP / 最大HP) ^ 2 * 2 倍
+scoreboard players operation _ SpecialAttack *= _ SpecialAttack
+scoreboard players set _ _ 5000
+execute store result score _ Calc run scoreboard players operation _ SpecialAttack /= _ _
 function skill:damage/modify
 function skill:damage/save
 execute if score _ Level matches 1 run data modify entity @s Duration set value 400

@@ -3,9 +3,9 @@
 ##############################
 
 #属性耐性をmin(+X|X)にする
-execute if score _ Level matches 1 run scoreboard players set _ Calc 10
-execute if score _ Level matches 2 run scoreboard players set _ Calc 20
-execute if score _ Level matches 3 run scoreboard players set _ Calc 30
+execute if score _ Level matches 1 run scoreboard players set _ Calc 15
+execute if score _ Level matches 2 run scoreboard players set _ Calc 30
+execute if score _ Level matches 3 run scoreboard players set _ Calc 45
 
 scoreboard players operation @s ElementFire += _ Calc
 scoreboard players operation @s ElementFire > _ Calc

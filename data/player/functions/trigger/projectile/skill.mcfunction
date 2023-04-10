@@ -7,7 +7,7 @@ execute if entity @s[tag=Shuriken] run function makeup:skill/act/ninja/shuriken/
 #召喚士
 execute if entity @s[tag=PomPom] run function skill:act/summoner/pompom/hit
 #白魔導士
-execute if entity @s[tag=ShiningBolt] run function skill:act/white_mage/shining_bolt/hit
+execute if entity @s[tag=ShiningBolt] run function makeup:skill/act/white_mage/shining_bolt/hit
 #黒魔導士
 execute if entity @s[tag=WindWallTornado] run function makeup:skill/act/black_mage/wind_wall/hit
 #共通
