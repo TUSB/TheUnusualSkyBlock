@@ -17,11 +17,10 @@ execute store result storage skill: NBT.Motion[2] double 0.001 run data get stor
 ###跳ね返したプレイヤー記録
 data modify storage skill: NBT.Owner set from storage tusb_player: UUID
 
-###ダメージ計算 Attack=Damage、属性ダメージなし、HitDamage、Level2でダメージ2倍
-execute if score _ WindWall matches 10000..11200 run scoreboard players operation @s Attack += @s Attack
-
-#保存
-scoreboard players operation @e[tag=WindWallTornado,distance=0] Damage = @s Attack
+###ダメージ計算 矢のダメージ=Damage、属性ダメージなし、HitDamage
+###Level2でダメージ2倍
+execute if score _ WindWall matches ..9999 store result score @e[tag=WindWallTornado,distance=0] Damage run data get entity @s damage
+execute if score _ WindWall matches 10000..11200 store result score @e[tag=WindWallTornado,distance=0] Damage run data get entity @s damage 2
 data modify entity @e[tag=WindWallTornado,distance=0,limit=1] {} merge from storage skill: NBT
 data remove storage skill: NBT
 
