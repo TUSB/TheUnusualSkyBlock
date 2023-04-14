@@ -1,0 +1,1 @@
+function makeup:skill/enemy/laser/loop/white_laser/spark
