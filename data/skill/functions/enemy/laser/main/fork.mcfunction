@@ -5,3 +5,8 @@ execute if data storage mob_data: Call{Laser:"KameHameHa"} run function skill:en
 execute if data storage mob_data: Call{Laser:"SecurityLaser"} run function skill:enemy/laser/loop/security_laser/
 execute if data storage mob_data: Call{Laser:"LightningLaser"} run function skill:enemy/laser/loop/lightning_laser/
 execute if data storage mob_data: Call{Laser:"RedLaser"} run function skill:enemy/laser/loop/red_laser/
+execute if data storage mob_data: Call{Laser:"BlueLaser"} run function skill:enemy/laser/loop/blue_laser/
+execute if data storage mob_data: Call{Laser:"GreenLaser"} run function skill:enemy/laser/loop/green_laser/
+execute if data storage mob_data: Call{Laser:"YellowLaser"} run function skill:enemy/laser/loop/yellow_laser/
+execute if data storage mob_data: Call{Laser:"VioletLaser"} run function skill:enemy/laser/loop/violet_laser/
+execute if data storage mob_data: Call{Laser:"WhiteLaser"} run function skill:enemy/laser/loop/white_laser/
