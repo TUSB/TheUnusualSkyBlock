@@ -1,196 +1,160 @@
-# frame 13 / 30
+# frame 13 / 60
 # 0_sound
-playsound block.bell.resonate hostile @a[distance=..32] ~ ~ ~ 0.7 0.896 0
-# 1_Circle
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.99 ^0.0 ^-1.58 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.87 ^0.0 ^-0.07 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.87 ^0.0 ^1.65 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.44 ^0.0 ^-0.83 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.5 ^0.0 ^0.79 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.93 ^0.0 ^0.03 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.28 ^0.0 ^-1.2 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.18 ^0.0 ^0.36 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.9 ^0.0 ^0.84 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.15 ^0.0 ^-0.45 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.19 ^0.0 ^1.22 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.96 ^0.0 ^-0.77 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.64 ^0.0 ^-1.39 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.52 ^0.0 ^0.15 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.89 ^0.0 ^1.25 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.79 ^0.0 ^-0.64 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.15 ^0.0 ^1.01 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.95 ^0.0 ^-0.37 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.08 ^0.0 ^-1.01 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.84 ^0.0 ^0.58 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.92 ^0.0 ^0.44 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.51 ^0.0 ^-0.26 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.53 ^0.0 ^1.44 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.98 ^0.0 ^-1.18 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.81 ^0.0 ^-1.49 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.69 ^0.0 ^0.04 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.88 ^0.0 ^1.45 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.61 ^0.0 ^-0.73 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.33 ^0.0 ^0.9 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.94 ^0.0 ^-0.17 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.1 ^0.0 ^-1.11 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.01 ^0.0 ^0.47 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.91 ^0.0 ^0.64 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.33 ^0.0 ^-0.35 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.36 ^0.0 ^1.33 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.97 ^0.0 ^-0.97 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.46 ^0.0 ^-1.3 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.35 ^0.0 ^0.25 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.9 ^0.0 ^1.04 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.97 ^0.0 ^-0.54 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.02 ^0.0 ^1.11 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.96 ^0.0 ^-0.57 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.26 ^0.0 ^-0.92 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.67 ^0.0 ^0.68 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.93 ^0.0 ^0.24 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.69 ^0.0 ^-0.16 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.7 ^0.0 ^1.54 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.99 ^0.0 ^-1.38 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^2.64 ^0.6 ^0.67 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.72 ^-0.3 ^-2.67 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.91 ^-0.3 ^2.0 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.96 ^0.15 ^-1.0 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.32 ^-0.3 ^-0.34 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.36 ^0.15 ^1.34 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^1.8 ^0.37 ^-0.16 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.02 ^-0.3 ^-1.5 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.78 ^-0.07 ^1.67 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.12 ^-0.07 ^-1.84 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.62 ^-0.3 ^0.83 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^1.5 ^0.37 ^1.0 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^2.22 ^0.49 ^0.25 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.87 ^-0.3 ^-2.09 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.34 ^-0.19 ^1.84 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.54 ^0.04 ^-1.42 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.47 ^-0.3 ^0.25 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.93 ^0.26 ^1.17 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^1.38 ^0.26 ^-0.58 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.17 ^-0.3 ^-0.92 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.21 ^0.04 ^1.5 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.3 ^-0.19 ^-2.26 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.76 ^-0.3 ^1.42 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^2.07 ^0.49 ^0.84 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^2.43 ^0.54 ^0.46 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.8 ^-0.3 ^-2.38 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.63 ^-0.24 ^1.92 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.75 ^0.09 ^-1.21 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.39 ^-0.3 ^-0.04 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.65 ^0.21 ^1.25 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^1.59 ^0.32 ^-0.37 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.1 ^-0.3 ^-1.21 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.49 ^-0.02 ^1.59 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.09 ^-0.13 ^-2.05 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.69 ^-0.3 ^1.13 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^1.78 ^0.43 ^0.92 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^2.01 ^0.43 ^0.04 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.95 ^-0.3 ^-1.8 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.06 ^-0.13 ^1.75 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.33 ^-0.02 ^-1.63 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.54 ^-0.3 ^0.54 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^1.21 ^0.32 ^1.09 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^1.17 ^0.21 ^-0.79 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.24 ^-0.3 ^-0.63 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.08 ^0.09 ^1.42 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.51 ^-0.24 ^-2.46 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.84 ^-0.3 ^1.71 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^2.35 ^0.54 ^0.75 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.04 ^1.14 ^4.0 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^3.5 ^0.17 ^-2.24 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-3.54 ^-1.31 ^-1.76 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^1.77 ^0.65 ^0.88 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.02 ^-0.57 ^-2.0 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.75 ^-0.08 ^1.12 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.9 ^0.9 ^2.44 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^1.74 ^-0.2 ^-2.12 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-2.64 ^-0.7 ^-0.32 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^2.63 ^0.41 ^-0.68 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.78 ^-0.94 ^-1.88 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.86 ^0.53 ^2.56 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.47 ^1.02 ^3.22 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^2.62 ^-0.02 ^-2.18 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-3.09 ^-1.0 ^-1.04 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^2.2 ^0.53 ^0.1 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.9 ^-0.76 ^-1.94 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.3 ^0.22 ^1.84 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^1.34 ^0.78 ^1.66 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.86 ^-0.39 ^-2.06 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-2.2 ^-0.39 ^0.4 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^3.07 ^0.29 ^-1.46 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-2.66 ^-1.12 ^-1.82 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.41 ^0.84 ^3.28 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.25 ^1.08 ^3.61 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^3.06 ^0.07 ^-2.21 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-3.31 ^-1.16 ^-1.4 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^1.98 ^0.59 ^0.49 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.46 ^-0.66 ^-1.97 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.53 ^0.07 ^1.48 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^1.12 ^0.84 ^2.05 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^1.3 ^-0.29 ^-2.09 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-2.42 ^-0.54 ^0.04 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^2.85 ^0.35 ^-1.07 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-2.22 ^-1.03 ^-1.85 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.63 ^0.68 ^2.92 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.69 ^0.96 ^2.83 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^2.18 ^-0.11 ^-2.15 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-2.87 ^-0.85 ^-0.68 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^2.42 ^0.47 ^-0.29 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.34 ^-0.85 ^-1.91 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.08 ^0.38 ^2.2 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^1.55 ^0.71 ^1.27 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.42 ^-0.48 ^-2.03 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.97 ^-0.24 ^0.76 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^3.28 ^0.23 ^-1.85 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-3.1 ^-1.22 ^-1.79 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.19 ^0.99 ^3.64 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-5.9 ^0.58 ^1.82 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^4.61 ^1.45 ^3.9 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^1.3 ^-2.03 ^-5.72 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.65 ^1.02 ^2.86 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^2.95 ^-0.29 ^-0.91 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-2.3 ^-0.73 ^-1.95 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-3.28 ^0.8 ^2.34 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^3.78 ^0.58 ^1.49 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.5 ^-1.38 ^-3.83 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^1.98 ^1.23 ^3.38 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^2.12 ^-1.16 ^-3.31 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-4.1 ^-0.07 ^-0.06 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-4.59 ^0.69 ^2.08 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^4.19 ^1.01 ^2.7 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.4 ^-1.71 ^-4.78 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.67 ^1.12 ^3.12 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^2.54 ^-0.73 ^-2.11 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-3.2 ^-0.4 ^-1.01 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.96 ^0.91 ^2.6 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^3.37 ^0.14 ^0.29 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.4 ^-1.05 ^-2.89 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^3.29 ^1.34 ^3.64 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^1.71 ^-1.6 ^-4.52 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-5.0 ^0.26 ^0.88 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-5.25 ^0.64 ^1.95 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^4.4 ^1.23 ^3.3 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.85 ^-1.87 ^-5.25 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^0.01 ^1.07 ^2.99 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^2.75 ^-0.51 ^-1.51 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-2.75 ^-0.56 ^-1.48 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-2.62 ^0.85 ^2.47 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^3.57 ^0.36 ^0.89 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.95 ^-1.22 ^-3.36 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^2.64 ^1.29 ^3.51 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^1.92 ^-1.38 ^-3.92 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-4.55 ^0.09 ^0.41 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-3.93 ^0.75 ^2.21 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^3.99 ^0.8 ^2.09 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-0.05 ^-1.54 ^-4.3 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^1.32 ^1.18 ^3.25 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^2.33 ^-0.94 ^-2.71 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-3.65 ^-0.23 ^-0.54 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.31 ^0.96 ^2.73 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^3.16 ^-0.07 ^-0.31 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-1.85 ^-0.89 ^-2.42 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^3.95 ^1.4 ^3.77 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^1.5 ^-1.82 ^-5.12 0.0 0.0 0.0 0.5 1 normal
-particle dust_color_transition 0.589 0.0 0.411 0.605 0.589 0.0 0.308 ^-5.45 ^0.42 ^1.35 0.0 0.0 0.0 0.5 1 normal
+playsound block.bell.resonate hostile @a[distance=..32] ~ ~ ~ 0.7 0.698 0
+# Circle
+particle dust 0.801 0.0 0.0 2.199 ^1.23 ^0.0 ^3.82 0.0 0.0 0.0 0.5 1 normal
+particle dust 0.801 0.0 0.0 2.199 ^2.98 ^0.0 ^2.69 0.0 0.0 0.0 0.5 1 normal
+particle dust 0.801 0.0 0.0 2.199 ^3.93 ^0.0 ^0.84 0.0 0.0 0.0 0.5 1 normal
+particle dust 0.801 0.0 0.0 2.199 ^3.82 ^0.0 ^-1.23 0.0 0.0 0.0 0.5 1 normal
+particle dust 0.801 0.0 0.0 2.199 ^2.69 ^0.0 ^-2.98 0.0 0.0 0.0 0.5 1 normal
+particle dust 0.801 0.0 0.0 2.199 ^0.84 ^0.0 ^-3.93 0.0 0.0 0.0 0.5 1 normal
+particle dust 0.801 0.0 0.0 2.199 ^-1.23 ^0.0 ^-3.82 0.0 0.0 0.0 0.5 1 normal
+particle dust 0.801 0.0 0.0 2.199 ^-2.98 ^0.0 ^-2.69 0.0 0.0 0.0 0.5 1 normal
+particle dust 0.801 0.0 0.0 2.199 ^-3.93 ^0.0 ^-0.84 0.0 0.0 0.0 0.5 1 normal
+particle dust 0.801 0.0 0.0 2.199 ^-3.82 ^0.0 ^1.23 0.0 0.0 0.0 0.5 1 normal
+particle dust 0.801 0.0 0.0 2.199 ^-2.69 ^0.0 ^2.98 0.0 0.0 0.0 0.5 1 normal
+particle dust 0.801 0.0 0.0 2.199 ^-0.84 ^0.0 ^3.93 0.0 0.0 0.0 0.5 1 normal
+# Collection 3--Vert
+particle dust_color_transition 0.646 0.0 0.426 0.528 0.085 0.0 0.185 ^-2.99 ^0.0 ^1.56 0.0 0.0 0.0 0.5 1 normal
+# Collection 3--Vert.001
+particle dust_color_transition 0.829 0.0 0.205 0.462 0.041 0.0 0.089 ^1.47 ^3.56 ^-0.2 0.0 0.0 0.0 0.5 1 normal
+# Collection 3--Vert.002
+particle dust_color_transition 1.0 0.0 0.0 0.4 0.0 0.0 0.0 ^2.62 ^2.35 ^1.91 0.0 0.0 0.0 0.5 1 normal
+# Collection 3--Vert.006
+particle dust_color_transition 0.646 0.0 0.426 0.528 0.085 0.0 0.185 ^1.03 ^2.41 ^-2.12 0.0 0.0 0.0 0.5 1 normal
+# Collection 3--Vert.007
+particle dust_color_transition 0.829 0.0 0.205 0.462 0.041 0.0 0.089 ^1.05 ^-3.49 ^-1.25 0.0 0.0 0.0 0.5 1 normal
+# Collection 3--Vert.008
+particle dust_color_transition 1.0 0.0 0.0 0.4 0.0 0.0 0.0 ^2.87 ^-2.73 ^0.58 0.0 0.0 0.0 0.5 1 normal
+# Collection 3--Vert.012
+particle dust_color_transition 0.646 0.0 0.426 0.528 0.085 0.0 0.185 ^-0.32 ^3.35 ^-0.18 0.0 0.0 0.0 0.5 1 normal
+# Collection 3--Vert.013
+particle dust_color_transition 0.829 0.0 0.205 0.462 0.041 0.0 0.089 ^1.26 ^-1.46 ^-3.34 0.0 0.0 0.0 0.5 1 normal
+# Collection 3--Vert.014
+particle dust_color_transition 1.0 0.0 0.0 0.4 0.0 0.0 0.0 ^3.4 ^-1.21 ^-1.73 0.0 0.0 0.0 0.5 1 normal
+# Collection 3--Vert.018
+particle dust_color_transition 0.646 0.0 0.426 0.528 0.085 0.0 0.185 ^-0.76 ^-2.11 ^-2.51 0.0 0.0 0.0 0.5 1 normal
+# Collection 3--Vert.019
+particle dust_color_transition 0.829 0.0 0.205 0.462 0.041 0.0 0.089 ^-1.08 ^-1.44 ^3.41 0.0 0.0 0.0 0.5 1 normal
+# Collection 3--Vert.020
+particle dust_color_transition 1.0 0.0 0.0 0.4 0.0 0.0 0.0 ^1.54 ^-1.98 ^3.12 0.0 0.0 0.0 0.5 1 normal
+# Collection 3--Vert.024
+particle dust_color_transition 0.646 0.0 0.426 0.528 0.085 0.0 0.185 ^2.08 ^2.61 ^0.49 0.0 0.0 0.0 0.5 1 normal
+# Collection 3--Vert.025
+particle dust_color_transition 0.829 0.0 0.205 0.462 0.041 0.0 0.089 ^-1.5 ^0.07 ^-3.55 0.0 0.0 0.0 0.5 1 normal
+# Collection 3--Vert.026
+particle dust_color_transition 1.0 0.0 0.0 0.4 0.0 0.0 0.0 ^0.58 ^-1.63 ^-3.6 0.0 0.0 0.0 0.5 1 normal
+# Collection 3--Vert.030
+particle dust_color_transition 0.646 0.0 0.426 0.528 0.085 0.0 0.185 ^-2.88 ^0.17 ^-1.74 0.0 0.0 0.0 0.5 1 normal
+# Collection 3--Vert.031
+particle dust_color_transition 0.829 0.0 0.205 0.462 0.041 0.0 0.089 ^-0.39 ^-2.23 ^3.12 0.0 0.0 0.0 0.5 1 normal
+# Collection 3--Vert.032
+particle dust_color_transition 1.0 0.0 0.0 0.4 0.0 0.0 0.0 ^0.73 ^-3.75 ^1.2 0.0 0.0 0.0 0.5 1 normal
+# Collection 3--Vert.036
+particle dust_color_transition 0.646 0.0 0.426 0.528 0.085 0.0 0.185 ^-1.05 ^1.62 ^-2.76 0.0 0.0 0.0 0.5 1 normal
+# Collection 3--Vert.037
+particle dust_color_transition 0.829 0.0 0.205 0.462 0.041 0.0 0.089 ^-2.97 ^-1.45 ^1.98 0.0 0.0 0.0 0.5 1 normal
+# Collection 3--Vert.038
+particle dust_color_transition 1.0 0.0 0.0 0.4 0.0 0.0 0.0 ^-1.98 ^-3.44 ^0.48 0.0 0.0 0.0 0.5 1 normal
+# Collection 3--Vert.042
+particle dust_color_transition 0.646 0.0 0.426 0.528 0.085 0.0 0.185 ^-1.59 ^0.08 ^2.97 0.0 0.0 0.0 0.5 1 normal
+# Collection 3--Vert.043
+particle dust_color_transition 0.829 0.0 0.205 0.462 0.041 0.0 0.089 ^3.83 ^0.14 ^0.47 0.0 0.0 0.0 0.5 1 normal
+# Collection 3--Vert.044
+particle dust_color_transition 1.0 0.0 0.0 0.4 0.0 0.0 0.0 ^3.17 ^-2.44 ^0.13 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.001--Vert.048
+particle dust_color_transition 0.646 0.0 0.426 0.528 0.085 0.0 0.185 ^1.1 ^3.68 ^-0.6 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.001--Vert.049
+particle dust_color_transition 0.829 0.0 0.205 0.462 0.041 0.0 0.089 ^-1.5 ^-0.56 ^4.15 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.001--Vert.050
+particle dust_color_transition 1.0 0.0 0.0 0.4 0.0 0.0 0.0 ^-3.98 ^-0.18 ^2.32 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.001--Vert.054
+particle dust_color_transition 0.646 0.0 0.426 0.528 0.085 0.0 0.185 ^0.58 ^-1.94 ^3.31 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.001--Vert.055
+particle dust_color_transition 0.829 0.0 0.205 0.462 0.041 0.0 0.089 ^0.67 ^-2.62 ^-3.53 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.001--Vert.056
+particle dust_color_transition 1.0 0.0 0.0 0.4 0.0 0.0 0.0 ^-2.38 ^-2.55 ^-3.01 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.001--Vert.060
+particle dust_color_transition 0.646 0.0 0.426 0.528 0.085 0.0 0.185 ^-0.06 ^0.88 ^3.78 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.001--Vert.061
+particle dust_color_transition 0.829 0.0 0.205 0.462 0.041 0.0 0.089 ^1.94 ^-3.94 ^-0.69 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.001--Vert.062
+particle dust_color_transition 1.0 0.0 0.0 0.4 0.0 0.0 0.0 ^-1.12 ^-4.42 ^-0.68 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.001--Vert.066
+particle dust_color_transition 0.646 0.0 0.426 0.528 0.085 0.0 0.185 ^2.96 ^-1.77 ^-1.78 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.001--Vert.067
+particle dust_color_transition 0.829 0.0 0.205 0.462 0.041 0.0 0.089 ^-1.74 ^3.19 ^-2.56 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.001--Vert.068
+particle dust_color_transition 1.0 0.0 0.0 0.4 0.0 0.0 0.0 ^-3.51 ^0.67 ^-2.91 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.001--Vert.072
+particle dust_color_transition 0.646 0.0 0.426 0.528 0.085 0.0 0.185 ^-2.42 ^-0.76 ^2.94 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.001--Vert.073
+particle dust_color_transition 0.829 0.0 0.205 0.462 0.041 0.0 0.089 ^4.1 ^-1.47 ^0.88 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.001--Vert.074
+particle dust_color_transition 1.0 0.0 0.0 0.4 0.0 0.0 0.0 ^2.72 ^-3.62 ^-0.87 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.001--Vert.078
+particle dust_color_transition 0.646 0.0 0.426 0.528 0.085 0.0 0.185 ^3.7 ^1.09 ^0.44 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.001--Vert.079
+particle dust_color_transition 0.829 0.0 0.205 0.462 0.041 0.0 0.089 ^-1.94 ^2.22 ^-3.33 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.001--Vert.080
+particle dust_color_transition 1.0 0.0 0.0 0.4 0.0 0.0 0.0 ^-1.05 ^-0.52 ^-4.46 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.001--Vert.084
+particle dust_color_transition 0.646 0.0 0.426 0.528 0.085 0.0 0.185 ^2.88 ^-0.88 ^2.45 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.001--Vert.085
+particle dust_color_transition 0.829 0.0 0.205 0.462 0.041 0.0 0.089 ^0.94 ^3.66 ^-2.33 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.001--Vert.086
+particle dust_color_transition 1.0 0.0 0.0 0.4 0.0 0.0 0.0 ^1.65 ^1.23 ^-4.12 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.001--Vert.090
+particle dust_color_transition 0.646 0.0 0.426 0.528 0.085 0.0 0.185 ^-1.18 ^3.62 ^-0.78 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.001--Vert.091
+particle dust_color_transition 0.829 0.0 0.205 0.462 0.041 0.0 0.089 ^-3.46 ^-2.78 ^0.3 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.001--Vert.092
+particle dust_color_transition 1.0 0.0 0.0 0.4 0.0 0.0 0.0 ^-2.3 ^-3.07 ^-2.56 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.002--Vert.096
+particle dust_color_transition 0.646 0.0 0.426 0.528 0.085 0.0 0.185 ^-2.3 ^-0.76 ^3.76 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.002--Vert.097
+particle dust_color_transition 0.829 0.0 0.205 0.462 0.041 0.0 0.089 ^-2.8 ^2.65 ^-3.37 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.002--Vert.098
+particle dust_color_transition 1.0 0.0 0.0 0.4 0.0 0.0 0.0 ^-0.7 ^4.99 ^-1.68 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.002--Vert.102
+particle dust_color_transition 0.646 0.0 0.426 0.528 0.085 0.0 0.185 ^-1.78 ^-0.11 ^-4.1 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.002--Vert.103
+particle dust_color_transition 0.829 0.0 0.205 0.462 0.041 0.0 0.089 ^4.67 ^-2.1 ^0.05 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.002--Vert.104
+particle dust_color_transition 1.0 0.0 0.0 0.4 0.0 0.0 0.0 ^5.11 ^1.44 ^-0.17 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.002--Vert.108
+particle dust_color_transition 0.646 0.0 0.426 0.528 0.085 0.0 0.185 ^-3.9 ^1.2 ^-1.83 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.002--Vert.109
+particle dust_color_transition 0.829 0.0 0.205 0.462 0.041 0.0 0.089 ^2.68 ^-2.99 ^-3.17 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.002--Vert.110
+particle dust_color_transition 1.0 0.0 0.0 0.4 0.0 0.0 0.0 ^3.94 ^0.33 ^-3.54 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.002--Vert.114
+particle dust_color_transition 0.646 0.0 0.426 0.528 0.085 0.0 0.185 ^1.85 ^-4.04 ^-0.46 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.002--Vert.115
+particle dust_color_transition 0.829 0.0 0.205 0.462 0.041 0.0 0.089 ^0.62 ^1.79 ^4.75 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.002--Vert.116
+particle dust_color_transition 1.0 0.0 0.0 0.4 0.0 0.0 0.0 ^3.18 ^3.25 ^2.74 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.002--Vert.120
+particle dust_color_transition 0.646 0.0 0.426 0.528 0.085 0.0 0.185 ^-1.32 ^3.32 ^-2.68 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.002--Vert.121
+particle dust_color_transition 0.829 0.0 0.205 0.462 0.041 0.0 0.089 ^-1.04 ^-4.57 ^-2.07 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.002--Vert.122
+particle dust_color_transition 1.0 0.0 0.0 0.4 0.0 0.0 0.0 ^2.38 ^-3.85 ^-2.77 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.002--Vert.126
+particle dust_color_transition 0.646 0.0 0.426 0.528 0.085 0.0 0.185 ^-2.27 ^-3.81 ^0.6 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.002--Vert.127
+particle dust_color_transition 0.829 0.0 0.205 0.462 0.041 0.0 0.089 ^2.01 ^1.66 ^4.4 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.002--Vert.128
+particle dust_color_transition 1.0 0.0 0.0 0.4 0.0 0.0 0.0 ^4.59 ^-0.08 ^2.66 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.002--Vert.132
+particle dust_color_transition 0.646 0.0 0.426 0.528 0.085 0.0 0.185 ^-2.44 ^-2.7 ^-2.59 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.002--Vert.133
+particle dust_color_transition 0.829 0.0 0.205 0.462 0.041 0.0 0.089 ^-0.72 ^-1.04 ^4.96 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.002--Vert.134
+particle dust_color_transition 1.0 0.0 0.0 0.4 0.0 0.0 0.0 ^2.27 ^-2.7 ^3.96 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.002--Vert.138
+particle dust_color_transition 0.646 0.0 0.426 0.528 0.085 0.0 0.185 ^-1.41 ^1.71 ^3.89 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.002--Vert.139
+particle dust_color_transition 0.829 0.0 0.205 0.462 0.041 0.0 0.089 ^2.68 ^3.45 ^-2.67 0.0 0.0 0.0 0.5 1 normal
+# Collection 3.002--Vert.140
+particle dust_color_transition 1.0 0.0 0.0 0.4 0.0 0.0 0.0 ^5.03 ^1.37 ^-0.97 0.0 0.0 0.0 0.5 1 normal
