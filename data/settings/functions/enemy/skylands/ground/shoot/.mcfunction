@@ -1,4 +1,5 @@
 execute if entity @s[tag=SatSpider] run function settings:enemy/skylands/ground/shoot/sat_spider/
+execute if entity @s[tag=Slimy] run function settings:enemy/skylands/ground/shoot/slimy/
 execute if entity @s[tag=SunEater] run function settings:enemy/skylands/ground/shoot/sun_eater/
 execute if entity @s[tag=IllusionAbsorber] run function settings:enemy/skylands/ground/shoot/illusion_absorber/
 execute if entity @s[tag=ThunderSpirit] run function settings:enemy/skylands/ground/shoot/thunder_spirit/
