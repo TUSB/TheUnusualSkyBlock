@@ -8,11 +8,11 @@ data modify storage tusb_mob: "即時ステータス"."ノックバック力" se
 
 ### 遅延ステータス
 # 属性値
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."炎属性値" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."氷属性値" set value 50
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."雷属性値" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."光属性値" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."闇属性値" set value 50
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."炎属性値" set value 125
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."氷属性値" set value 80
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."雷属性値" set value 80
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."光属性値" set value 40
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."闇属性値" set value 80
 # ステータス
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 125
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 100
@@ -20,6 +20,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 70
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 70
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 150
-data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"%1$sは%2$sの身体を無理やりTの字に折り曲げようとした結果、%2$sを骨折させてしまった。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
+data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"%2$sは%1$sの身体を無理やりTの字に折り曲げようとした結果、%1$sを骨折させてしまった。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Condition:[{Name:"RandomChance",Chance:0.15d}],Name:"Function",Tags:[Skylands,Sky,Shoot,Tippy,Poppy]}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:100,Max:100,Current:100},Loop:{Max:1,Current:1},Call:[{Condition:[{Name:"HasTarget",Target:{Look:"Player",Radius:16d,IgnoreBlocks:true}},{Name:"RandomChance",Chance:0.12d}],Name:"Function",Tags:[Skylands,Sky,Shoot,Tippy,Summon1]}]}]}]}
