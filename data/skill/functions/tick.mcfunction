@@ -87,3 +87,6 @@ execute if entity @s[tag=Cage] run function skill:act/summoner/fukafuka/cage
 
 ###ジン・スピリット処理
 execute if entity @s[tag=GinSpirit] run function skill:act/black_mage/gin_spirit/tick
+
+###断罪処理
+execute if entity @s[tag=Condemnation] run function skill:act/common/condemnation/tick0
