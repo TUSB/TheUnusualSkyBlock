@@ -26,6 +26,7 @@ execute if data storage skill: Skill{Name:"サモンS幽霊騎士"} run function
 execute if data storage skill: Skill{Name:"サモンSジェノサイドボム"} run function skill:act/common/summon_genocide_bomb/act0
 execute if data storage skill: Skill{Name:"職業どこでも変更許可"} run function skill:act/common/permission_to_change_job_anywhere/act0
 execute if data storage skill: Skill{Name:"サモンSカカッシー"} run function skill:act/common/summon_scarecrow/act0
+execute if data storage skill: Skill{Name:"時間加速"} run function skill:act/common/time_acceleration/act0
 execute if data storage skill: Skill{Name:"虚無の取り出し"} run function skill:act/common/void_loot/act0
 execute if data storage skill: Skill{Name:"ハイジャンプ"} run function skill:act/common/high_jump/act0
 execute if data storage skill: Skill{Name:"冷やしパンプキンスープ"} run function skill:act/common/cold_pumpkin_soup/act0
