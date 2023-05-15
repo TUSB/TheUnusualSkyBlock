@@ -5,3 +5,4 @@ execute if data storage mob_data: ExecutingAction{Tags:[WaterBolt]} run function
 execute if data storage mob_data: ExecutingAction{Tags:[SludgeGarbager]} run function skill:enemy/delay_action/act/execute/casting/sludge_garbager/
 execute if data storage mob_data: ExecutingAction{Tags:[PillarOfWater]} run function skill:enemy/delay_action/act/execute/casting/pillar_of_water/
 execute if data storage mob_data: ExecutingAction{Tags:[FinishingMove]} run function skill:enemy/delay_action/act/execute/casting/finishing_move/
+execute if data storage mob_data: ExecutingAction{Tags:[CrossRing]} run function skill:enemy/delay_action/act/execute/casting/cross_ring/

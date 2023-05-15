@@ -7,4 +7,4 @@ scoreboard players set _ _ 2
 scoreboard players operation _ Random %= _ _
 execute if score _ Random matches 0 run effect give @a[tag=NowTarget] invisibility 10 4 true
 execute if score _ Random matches 1 run effect give @a[tag=NowTarget] slowness 5 4 true
-tag @a[tag=NowTarget] remove NoeTarget
+tag @a[tag=NowTarget] remove NowTarget
