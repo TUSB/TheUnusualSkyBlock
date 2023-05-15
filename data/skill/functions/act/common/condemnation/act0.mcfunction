@@ -8,8 +8,8 @@ function skill:damage/add/skill/weapon
 
 #斬撃を生成
 execute anchored eyes run summon minecraft:marker ~ ~ ~ {Tags:["Skill","NativeTask","Condemnation"]}
-execute as @e[tag=Condemnation,tag=!Initialized] positioned as @s run tp @s ~ ~ ~ ~180 -60
-execute as @e[tag=Condemnation,tag=!Initialized] run function skill:damage/save
+execute anchored eyes as @e[tag=Condemnation,tag=!Initialized,distance=..0.01,limit=1] run tp @s ~ ~ ~ ~180 -60
+execute anchored eyes as @e[tag=Condemnation,tag=!Initialized,distance=..0.01,limit=1] run function skill:damage/save
 
 #当たり判定
 execute at 0-0-0-0-2 as @e[tag=Enemy,distance=..1] at @s run function skill:act/common/condemnation/effect0

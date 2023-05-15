@@ -11,16 +11,9 @@ function makeup:skill/act/common/condemnation/effect0
 #データ呼び出し
 function oh_my_dat:please
 
-#レベル減少幅を計算(通常10%、ボスなら20%)
-scoreboard players operation _ _ = @s Level
-execute unless entity @s[tag=Boss] run scoreboard players set _ Calc -10
-execute if entity @s[tag=Boss] run scoreboard players set _ Calc -20
-scoreboard players operation _ _ *= _ Calc
-scoreboard players set _ Calc 100
-scoreboard players operation _ _ /= _ Calc
-
-#Call_Level
-execute store result storage mob_data: Call.Level.Add int 1 run scoreboard players get _ _
+#Call_Level レベル減少幅:通常10%、ボスなら20%
+execute store result storage mob_data: Call.Level.Add int -0.1 run scoreboard players get @s[tag=!Boss] Level
+execute store result storage mob_data: Call.Level.Add int -0.2 run scoreboard players get @s[tag=Boss] Level
 data modify storage mob_data: Call.Level.Range set value 0
 function skill:enemy/change_status/
 
