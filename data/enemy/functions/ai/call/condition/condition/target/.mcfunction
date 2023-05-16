@@ -1,6 +1,6 @@
 #Targetの有無を確認
 data modify storage mob_data: Target set from storage mob_data: Condition.Target
-tp 0-0-0-0-1 @s
+function calc:geometry/tp_00001
 execute as 0-0-0-0-1 run function enemy:ai/call/settings/target/fork
 scoreboard players set _ Calc 0
 execute if score 00000000-0000-0000-0000-000000000001 _ matches 1 unless data storage mob_data: Condition.Half run scoreboard players set _ Calc 1
