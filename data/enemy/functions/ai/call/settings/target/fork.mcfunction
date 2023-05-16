@@ -17,7 +17,7 @@ execute if data storage mob_data: Target{Look:"Mob"} store success score @s Calc
 execute if data storage mob_data: Target{Look:"Parent"} run function enemy:ai/call/settings/target/parent
 execute if data storage mob_data: Target{Look:"Child"} run function enemy:ai/call/settings/target/child
 
-execute if score @s Calc matches 1 facing entity 0-0-0-0-0 feet facing ^ ^ ^-1 positioned as 0-0-0-0-0 run function enemy:ai/call/settings/target/loop
+execute if score @s Calc matches 1 at @s facing entity 0-0-0-0-0 feet facing ^ ^ ^-1 positioned as 0-0-0-0-0 run function enemy:ai/call/settings/target/loop
 
 #Target解除
 execute as 0-0-0-0-0 run function calc:geometry/return_marker
