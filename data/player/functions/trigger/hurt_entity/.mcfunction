@@ -1,8 +1,5 @@
 ### モブへのダメージトリガー
 
-#潜在能力 - 属性攻撃増加
-scoreboard players operation $ElementDamageAdd ElementDamageAdd = @s ElementDamageAdd
-
 #モブの位置をマーク
 execute at @e[tag=Enemy,nbt=!{AbsorptionAmount:1000000f}] run function calc:geometry/tp_00002
 #分岐
