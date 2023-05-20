@@ -3,6 +3,7 @@
 ##############################
 
 #フレンドリースノーゴーレム進化
+scoreboard players reset @s[tag=BeforeEvolution,type=snow_golem] Level
 data merge entity @s[tag=BeforeEvolution,type=snow_golem] {Tags:[Spawn],ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Shoot,FriendSentrySnowGolem,Main,SpawnParticles],Level:40}]]}}]}
 
 tag @s add Sicced
