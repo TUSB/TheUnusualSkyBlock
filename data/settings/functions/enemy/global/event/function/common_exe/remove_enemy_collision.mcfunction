@@ -1,4 +1,5 @@
 #Function
 # 敵弾判定削除
-tag @s[tag=EnemyProjectile] remove EnemyProjectile
-tag @s[tag=DamageProjectile] remove DamageProjectile
+scoreboard players remove @s[tag=DamageProjectile] NativeFlag 1
+tag @s remove EnemyProjectile
+tag @s remove DamageProjectile

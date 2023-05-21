@@ -1,5 +1,5 @@
 #Function
 # 味方弾判定追加
-tag @s[tag=!FriendlyProjectile] add FriendlyProjectile
-tag @s[tag=!DamageProjectile] add DamageProjectile
-tag @s[tag=!NativeTask] add NativeTask
+scoreboard players add @s[tag=!DamageProjectile] NativeFlag 1
+tag @s add FriendlyProjectile
+tag @s add DamageProjectile
