@@ -15,8 +15,5 @@ function oh_my_dat:please
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4]."ステータス" set from storage tusb_mob: "遅延ステータス"."ステータス"
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from storage tusb_mob: "遅延ステータス".AI
 
-### 共通データ
-scoreboard players set @s TemporaryEffects 0
-
 ### CallOnInit
 execute if entity @s[tag=CallOnInit] run function enemy:ai/call/trigger/initial

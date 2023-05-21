@@ -31,4 +31,4 @@ scoreboard players operation @s RagingDamage += _ RagingDamage
 #ダメージ自体は別で付与するので計算前のダメージに戻す
 scoreboard players operation @s Damage = # Damage
 
-function skill:act/knight/raging_slash/initialize
+scoreboard players add @s NativeFlag 100

@@ -29,7 +29,6 @@ scoreboard objectives add GrowTotal dummy {"text":"合計成長ポイント"}
 scoreboard objectives add Damage dummy {"text":"ダメージ"}
 scoreboard objectives add HealthHealing dummy {"text":"HP回復量"}
 scoreboard objectives add Age minecraft.custom:minecraft.time_since_death {"text":"生きている時間"}
-scoreboard objectives add TemporaryEffects dummy {"text":"一時的ステータス変化Flags"}
 scoreboard objectives add ParticleDenom dummy {"text":"パーティクル表示割合"}
 scoreboard objectives add BreakSpawner dummy {"text":"スポナー破壊数"}
 scoreboard objectives add FoodLevel food {"text":"満腹度"}
@@ -38,6 +37,7 @@ scoreboard objectives add Luck dummy {"text":"幸運"}
 scoreboard objectives add StoredDamage dummy {"text":"累積ダメージ"}
 scoreboard objectives add Health health {"text":"HP"}
 scoreboard objectives setdisplay belowName Health
+scoreboard objectives add NativeFlag dummy {"text":"常時実行フラグ"}
 
 ###アイテム
 scoreboard objectives add EnchantLevel dummy {"text":"エンチャントレベル"}

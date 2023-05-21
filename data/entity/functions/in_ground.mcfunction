@@ -4,6 +4,7 @@
 
 tag @s remove FlyingRequired
 tag @s remove TickingRequired
+scoreboard players remove @s[tag=NativeTask,tag=!BlastSpark] NativeFlag 1
 tag @s remove NativeTask
 
 ###水流設置処理
@@ -29,5 +30,4 @@ execute if entity @s[tag=PomPom] run function skill:act/summoner/pompom/block
 tag @s[tag=KillInGround] add Garbage
 execute if entity @s[tag=HasSkillSnowball] run kill @e[tag=SkillSnowball,distance=..0.5]
 
-tag @s[tag=BlastSpark] add NativeTask
 kill @s[type=minecraft:trident,tag=!BlastSpark]

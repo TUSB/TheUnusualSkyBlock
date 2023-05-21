@@ -28,7 +28,7 @@ execute if score $Tick Count matches 20.. run function main:one_second
 execute as @e[tag=HasAI] at @s run function enemy:ai/tick
 
 ### 存在する限り毎tick処理呼び出し
-execute as @e[tag=NativeTask] at @s run function main:task/native
+execute as @e[scores={NativeFlag=1..}] at @s run function main:task/native
 
 ### Mob tick
 execute as @e[tag=Mob] at @s run function enemy:tick

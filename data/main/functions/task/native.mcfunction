@@ -17,6 +17,9 @@
 ###放物線
 # execute if entity @s[tag=ParabolicEntity] run function calc_manager:parabora/move
 
+### temporary task
+execute if entity @s[scores={NativeFlag=100..}] run function main:task/temporary
+
 ###SmartMotion
 execute if entity @s[tag=SmartMotion] run function smart_motion:core/entity_tick
 

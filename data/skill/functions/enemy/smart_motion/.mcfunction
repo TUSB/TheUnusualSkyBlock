@@ -14,11 +14,11 @@ execute if data storage mob_data: Call.Speed run function skill:enemy/smart_moti
 execute if data storage mob_data: Call.Gravity run function skill:enemy/smart_motion/gravity
 
 #Start
-execute if data storage mob_data: Call{Start:1b} run tag @s add NativeTask
+execute if data storage mob_data: Call{Start:1b} run scoreboard players add @s[tag=!SmartMotion] NativeFlag 1
 execute if data storage mob_data: Call{Start:1b} run tag @s add SmartMotion
 
 #Stop
-execute if data storage mob_data: Call{Stop:1b} run tag @s remove NativeTask
+execute if data storage mob_data: Call{Stop:1b} run scoreboard players remove @s[tag=SmartMotion] NativeFlag 1
 execute if data storage mob_data: Call{Stop:1b} run tag @s remove SmartMotion
 
 #OnBlock

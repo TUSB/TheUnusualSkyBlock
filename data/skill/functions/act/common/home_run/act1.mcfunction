@@ -1,5 +1,5 @@
 
-tag @s add NativeTask
+scoreboard players add @s[tag=!HomeRun] NativeFlag 1
 tag @s add Skill
 tag @s add HomeRun
 

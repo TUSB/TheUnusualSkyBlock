@@ -38,5 +38,10 @@ data remove entity @s[type=zombie] Attributes[{Name:"minecraft:zombie.spawn_rein
 #SmartMotion E (反発係数)
 execute unless score @s[tag=SmartMotion] sm.E matches -2147483648..2147483647 run scoreboard players set @s sm.E 100
 
+#NativeFlag スコア付与 それぞれのタグで付与を独立させる
+scoreboard players add @s[tag=DamageProjectile] NativeFlag 1
+scoreboard players add @s[tag=SmartMotion] NativeFlag 1
+scoreboard players add @s[tag=NativeTask] NativeFlag 1
+
 ### 初期化済みタグ付与
 tag @s add Initialized
