@@ -20,7 +20,7 @@ scoreboard players reset @s ActionTick
 data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayAction
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayAction set from storage mob_data: DelayAction
 
-
+execute unless score @s NextActionTick matches 1.. run function skill:enemy/delay_action/act/bit_drop
 
 
 ###一時的に保存したデータの破棄
