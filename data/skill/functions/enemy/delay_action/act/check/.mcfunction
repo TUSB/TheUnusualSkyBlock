@@ -20,8 +20,7 @@ scoreboard players reset @s ActionTick
 data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayAction
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayAction set from storage mob_data: DelayAction
 
-###一時的処理を継続するかどうか
-execute unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayAction[0] run scoreboard players set 00000000-0000-0000-0000-000000000000 _ 0
+
 
 
 ###一時的に保存したデータの破棄
