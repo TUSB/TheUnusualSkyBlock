@@ -1,3 +1,4 @@
+execute if entity @s[tag=Steve] run function settings:enemy/global/event/function/damage_sound/steve
 execute if entity @s[tag=Undead] run function settings:enemy/global/event/function/damage_sound/undead
 execute if entity @s[tag=Ghost] run function settings:enemy/global/event/function/damage_sound/ghost
 execute if entity @s[tag=Amorphous] run function settings:enemy/global/event/function/damage_sound/amorphous
@@ -7,6 +8,7 @@ execute if entity @s[tag=Machine] run function settings:enemy/global/event/funct
 execute if entity @s[tag=Ice] run function settings:enemy/global/event/function/damage_sound/ice
 execute if entity @s[tag=Fire] run function settings:enemy/global/event/function/damage_sound/fire
 execute if entity @s[tag=Animal] run function settings:enemy/global/event/function/damage_sound/animal
+execute if entity @s[tag=Stone] run function settings:enemy/global/event/function/damage_sound/stone
 execute if entity @s[tag=Insect] run function settings:enemy/global/event/function/damage_sound/insect
 execute if entity @s[tag=Metal] run function settings:enemy/global/event/function/damage_sound/metal
 execute if entity @s[tag=Mineral] run function settings:enemy/global/event/function/damage_sound/mineral

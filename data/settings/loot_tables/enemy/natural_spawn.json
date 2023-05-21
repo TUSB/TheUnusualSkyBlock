@@ -423,6 +423,17 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,SheepMan,Main,SpawnParticles],Level:3}]],Count:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 30,
           "name": "minecraft:stick",
           "functions": [
@@ -909,6 +920,17 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,SheepMan,Main,SpawnParticles],Level:3}]],Count:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 30,
           "name": "minecraft:stick",
           "functions": [
@@ -1017,7 +1039,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Goblins,Goblin,SpawnParticles],Level:10}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Goblins,Goblin,SpawnParticles],Level:15}]]}"
             }
           ]
         },
@@ -1028,7 +1050,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Goblins,GoblinBomber,SpawnParticles],Level:12}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Goblins,GoblinBomber,SpawnParticles],Level:18}]]}"
             }
           ]
         },

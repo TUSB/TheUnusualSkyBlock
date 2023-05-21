@@ -1,6 +1,9 @@
+execute if entity @s[tag=ReverseLinkingRotation] run function settings:enemy/global/event/function/common_exe/reverse_linking_rotation
 execute if entity @s[tag=DownAlign2] run function settings:enemy/global/event/function/common_exe/down_align_2
 execute if entity @s[tag=EnhancedSpawnerStrength] run function settings:enemy/global/event/function/common_exe/enhanced_spawner_strength
 execute if entity @s[tag=DownAlign1] run function settings:enemy/global/event/function/common_exe/down_align_1
+execute if entity @s[tag=ToFriendly] run function settings:enemy/global/event/function/common_exe/to_friendly
+execute if entity @s[tag=PassengersKill] run function settings:enemy/global/event/function/common_exe/passengers_kill
 execute if entity @s[tag=SmartMotionToRotation] run function settings:enemy/global/event/function/common_exe/smart_motion_to_rotation
 execute if entity @s[tag=ApplyRotation] run function settings:enemy/global/event/function/common_exe/apply_rotation
 execute if entity @s[tag=CheckPassenger] run function settings:enemy/global/event/function/common_exe/check_passenger
@@ -24,3 +27,4 @@ execute if entity @s[tag=RemoveFriendlyCollision] run function settings:enemy/gl
 execute if entity @s[tag=AddEnemyCollision] run function settings:enemy/global/event/function/common_exe/add_enemy_collision
 execute if entity @s[tag=AddFriendlyCollision] run function settings:enemy/global/event/function/common_exe/add_friendly_collision
 execute if entity @s[tag=RandomPoseHead] run function settings:enemy/global/event/function/common_exe/random_pose_head
+execute if entity @s[tag=LinkingRotation] run function settings:enemy/global/event/function/common_exe/linking_rotation

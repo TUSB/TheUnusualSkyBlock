@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:drowned",CustomName:'{"translate":"コンバットドラウンド"}',PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,CallOnAttack,TickingRequired]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:drowned",CustomName:'{"translate":"コンバットドラウンド"}',PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,CallOnAttack,TickingRequired,AnalyseLog]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {HandItems:[{id:"minecraft:trident",Count:1b},{}],HandDropChances:[-1E300f,-1E300f]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 32d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.3d
@@ -20,5 +20,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 80
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 120
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 80
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"標準的なドラウンドです。"}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Name:"Function",Tags:[Global,Event,Function,Lightningbolt]},{Name:"Damage",Player:{BypassArmor:1b,BypassResistance:1b,EPF:0},Distance:{Max:0d}}]}

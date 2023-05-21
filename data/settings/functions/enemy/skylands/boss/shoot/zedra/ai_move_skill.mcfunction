@@ -18,7 +18,7 @@ execute if score _ _ matches 600..3200 unless score _ Random matches 0 run data 
 execute if score _ _ matches 600..3200 unless score _ Random matches 0 run function settings:enemy/skylands/boss/shoot/zedra/ai_move1_pre
 ## データを元に戻す
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from storage mob_data: AI
-## 滞空モーションOFF
-data modify entity @s Tags set from storage mob_data: Tags
-tag @s remove SkyMotion
+## 滞空モーションOFF
+data modify entity @s Tags set from storage mob_data: Tags
+tag @s remove SkyMotion
 data modify storage mob_data: Tags set from entity @s Tags
