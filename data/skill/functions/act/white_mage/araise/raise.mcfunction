@@ -15,7 +15,7 @@ data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Raise.Dimension
 summon armor_stand ~ ~ ~ {Tags:[TickingRequired,NativeTask,Skill,RaisePoint],PortalCooldown:3600,Small:true,Invulnerable:true,Invisible:true}
 
 # 描画防止用暗闇
-effect give @s minecraft:blindness 1000000 127 true
+effect give @s minecraft:blindness infinite 127 true
 
 #演出
 function makeup:skill/act/white_mage/araise/raise
