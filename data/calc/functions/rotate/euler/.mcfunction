@@ -8,4 +8,4 @@
 
 
 
-execute as 0-0-0-0-1 in area:control_area positioned 0.0 0.0 0.0 if entity @s[distance=..30] run function calc:rotate/act
+execute as 0-0-0-0-1 in area:control_area positioned 0.0 0.0 0.0 if entity @s[distance=..30] run function calc:rotate/euler/act

@@ -3,8 +3,8 @@
 
 
 
-function calc:rotate/get_angle
-function calc:rotate/get_sincos
+function calc:rotate/euler/get_angle
+function calc:rotate/euler/get_sincos
 
 ## 現在座標を100倍で取得
 execute store result score $Pos-X _ run data get entity @s Pos[0] 100
@@ -17,13 +17,13 @@ scoreboard players set $Rotated-Pos-Y _ 0
 scoreboard players set $Rotated-Pos-Z _ 0
 
 ## X座標の計算
-function calc:rotate/calculate_pos/x/
+function calc:rotate/euler/calculate_pos/x/
 
 ## Y座標の計算
-function calc:rotate/calculate_pos/y/
+function calc:rotate/euler/calculate_pos/y/
 
 ## Z座標の計算
-function calc:rotate/calculate_pos/z/
+function calc:rotate/euler/calculate_pos/z/
 
 
 ##座標に代入
@@ -32,4 +32,4 @@ execute store result entity @s Pos[1] double 0.00001 run scoreboard players get 
 execute store result entity @s Pos[2] double 0.00001 run scoreboard players get $Rotated-Pos-Z _
 
 ##一時変数のリセット
-function calc:rotate/reset
+function calc:rotate/euler/reset

@@ -4,11 +4,11 @@ scoreboard players set $Pos-X-Y _ 0
 scoreboard players set $Pos-X-Z _ 0
 
 #end
-execute unless score $Pos-X _ matches 0 run function calc:rotate/calculate_pos/x/1
+execute unless score $Pos-X _ matches 0 run function calc:rotate/euler/calculate_pos/x/1
 #end
-execute unless score $Pos-Y _ matches 0 run function calc:rotate/calculate_pos/x/2
+execute unless score $Pos-Y _ matches 0 run function calc:rotate/euler/calculate_pos/x/2
 #end
-execute unless score $Pos-Z _ matches 0 run function calc:rotate/calculate_pos/x/3
+execute unless score $Pos-Z _ matches 0 run function calc:rotate/euler/calculate_pos/x/3
 
 
 scoreboard players operation $Pos-X-X _ *= $Pos-X _
