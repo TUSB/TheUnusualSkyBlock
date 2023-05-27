@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:husk",CustomName:'{"translate":"綿飴","color":"#FFFFFF","bold":true}',Silent:1b,Invulnerable:1b,ActiveEffects:[{Id:12,Amplifier:1b,Duration:2147483647,ShowParticles:0b},{Id:14,Amplifier:127b,Duration:2147483647,ShowParticles:0b}],IsBaby:1b,PortalCooldown:3000,DeathLootTable:"empty",Tags:[DelayedData,HasAI,CallOnAttack,CallOnTick,TickingRequired,DamageProjectile,EnemyProjectile]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:husk",CustomName:'{"translate":"綿飴","color":"#FFFFFF","bold":true}',Silent:1b,Invulnerable:1b,ActiveEffects:[{Id:12,Amplifier:1b,Duration:-1,ShowParticles:0b},{Id:14,Amplifier:127b,Duration:-1,ShowParticles:0b}],IsBaby:1b,PortalCooldown:3000,DeathLootTable:"empty",Tags:[DelayedData,HasAI,CallOnAttack,CallOnTick,TickingRequired,DamageProjectile,EnemyProjectile]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1003}}],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f]}
 ### 遅延ステータス
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 120

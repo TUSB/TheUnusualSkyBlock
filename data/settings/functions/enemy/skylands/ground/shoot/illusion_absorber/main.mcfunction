@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:pillager",Silent:1b,CustomName:'{"translate":"魔吸の導師","color":"#FF0000","bold":true}',PatrolLeader:0b,Patrolling:0b,CanJoinRaid:0b,ActiveEffects:[{Id:14,Amplifier:127b,Duration:2147483647,ShowParticles:0b}],PortalCooldown:3000,DeathLootTable:"empty",Tags:[Mob,Enemy,DelayedData,HasAI,CallOnAttack,CallOnTick,CooldownRequired]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:pillager",Silent:1b,CustomName:'{"translate":"魔吸の導師","color":"#FF0000","bold":true}',PatrolLeader:0b,Patrolling:0b,CanJoinRaid:0b,ActiveEffects:[{Id:14,Amplifier:127b,Duration:-1,ShowParticles:0b}],PortalCooldown:3000,DeathLootTable:"empty",Tags:[Mob,Enemy,DelayedData,HasAI,CallOnAttack,CallOnTick,CooldownRequired]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {HandItems:[{id:"minecraft:crossbow",Count:1b,tag:{Unbreakable:1b}},{}],ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1001}}],HandDropChances:[-1E40f,-1E40f],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 32d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.5d
