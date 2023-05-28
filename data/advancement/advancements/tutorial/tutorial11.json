@@ -1,35 +1,23 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:firework_star",
-      "nbt": "{CustomModelData:1007,Explosion:{Type:0b,Colors:[I;16777215]}}"
+      "item": "minecraft:grindstone",
+      "nbt": "{}"
     },
     "title": [
       {
-        "translate": "自然湧きについて               ",
+        "translate": "砥石の使用制限                      ",
         "color": "white",
         "bold": true
       }
     ],
     "description": {
-      "translate": "%1$sは全て%2$sがスポーンする。\n%3$sが現れることも。\n湧いたMobは%4$sする。",
+      "translate": "魔石によるエンチャントシステム導入に伴い\n%1$sように制限している。",
       "color": "white",
       "with": [
         {
-          "translate": "自然湧き",
-          "color": "aqua"
-        },
-        {
-          "translate": "特殊なMob",
-          "color": "#FF0000"
-        },
-        {
-          "translate": "取引のできる村人",
-          "color": "#00FF00"
-        },
-        {
-          "translate": "時間経過で消滅",
-          "color": "#7293B8"
+          "translate": "砥石を利用できない",
+          "color": "red"
         }
       ]
     },
@@ -38,18 +26,18 @@
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "advancement:tutorial/tutorial10",
+  "parent": "advancement:tutorial/tutorial09",
   "criteria": {
-    "emerald": {
-      "trigger": "minecraft:inventory_changed",
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:emerald"
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:grindstone"
             ]
           }
-        ]
+        }
       }
     }
   }

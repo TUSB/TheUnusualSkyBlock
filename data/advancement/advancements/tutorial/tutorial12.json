@@ -1,49 +1,55 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:scute",
-      "nbt": "{CustomModelData:2}"
+      "item": "minecraft:firework_star",
+      "nbt": "{CustomModelData:1007,Explosion:{Type:0b,Colors:[I;16777215]}}"
     },
     "title": [
       {
-        "translate": "UNKNOWNについて        ",
-        "color": "#AA00FF",
+        "translate": "自然湧きについて               ",
+        "color": "white",
         "bold": true
       }
     ],
     "description": {
-      "translate": "最近この世界で%1$sが出没しています。\nもし見かけても%2$sに戦闘を挑んでは…。\nあっもう%3$sでしたか。すみません。",
+      "translate": "%1$sは全て%2$sがスポーンする。\n%3$sが現れることも。\n湧いたMobは%4$sする。",
       "color": "white",
       "with": [
         {
-          "translate": "未知の個体",
-          "color": "#AA00FF"
-        },
-        {
-          "translate": "安易",
+          "translate": "自然湧き",
           "color": "aqua"
         },
         {
-          "translate": "手遅れ",
+          "translate": "特殊なMob",
           "color": "#FF0000"
+        },
+        {
+          "translate": "取引のできる村人",
+          "color": "#00FF00"
+        },
+        {
+          "translate": "時間経過で消滅",
+          "color": "#7293B8"
         }
       ]
     },
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false,
-    "hidden": true
+    "hidden": false
   },
-  "parent": "advancement:tutorial/tutorial11",
+  "parent": "advancement:tutorial/tutorial10",
   "criteria": {
-    "requirement": {
-      "trigger": "minecraft:entity_hurt_player",
+    "emerald": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "damage": {
-          "source_entity": {
-            "nbt": "{Tags:[Unknown]}"
+        "items": [
+          {
+            "items": [
+              "minecraft:emerald"
+            ]
           }
-        }
+        ]
       }
     }
   }

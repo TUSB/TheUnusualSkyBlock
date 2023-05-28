@@ -1,36 +1,52 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:carrot_on_a_stick",
+      "item": "minecraft:iron_sword",
       "nbt": "{}"
     },
     "title": [
       {
-        "translate": "スキルの設定              ",
+        "translate": "スキルについて                ",
         "color": "white",
         "bold": true
       }
     ],
-    "description": {
-      "translate": "メニューから「%1$s」を選択し、\n発動条件に合う%2$s\nスキル名をクリックする。",
-      "color": "white",
-      "with": [
-        {
-          "translate": "・スキル",
-          "color": "green"
-        },
-        {
-          "translate": "アイテムを持ちながら",
-          "color": "light_purple"
-        }
-      ]
-    },
+    "description": [
+      {
+        "translate": "自分の%1$sのスキル%2$sと\n全職業で使用できる%3$sスキル%4$sがある。\nスキルは%5$sする。",
+        "color": "white",
+        "with": [
+          {
+            "translate": "職業",
+            "color": "light_purple"
+          },
+          {
+            "text": "KNHWBSPT",
+            "color": "green",
+            "font": "icon"
+          },
+          {
+            "translate": "共通",
+            "color": "light_purple"
+          },
+          {
+            "text": "C",
+            "color": "green",
+            "font": "icon"
+          },
+          {
+            "translate": "アイテムに設定",
+            "color": "aqua"
+          }
+        ]
+      }
+    ],
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "advancement:tutorial/tutorial04",
+  "parent": "advancement:tutorial/tutorial03",
   "criteria": {
     "get_skill": {
       "trigger": "minecraft:tick",

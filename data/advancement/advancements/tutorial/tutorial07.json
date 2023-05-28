@@ -1,35 +1,39 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:gold_nugget",
-      "nbt": "{CustomModelData:52,EnchantStone:1b,EnchantID:\"氷\",Tier:3,display:{Name:'{\"translate\":\"%1$s%2$s(III)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"氷の\"},{\"translate\":\"原石\"}]}',Lore:['[{\"translate\":\"%s III\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"氷ダメージ追加\"}]},{\"text\":\"  \"},{\"text\":\"c\",\"font\":\"icon\",\"color\":\"aqua\"},{\"text\":\"+20\",\"color\":\"gray\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器・道具\",\"color\":\"gray\"}]','{\"translate\":\"エンチャント台で使用\",\"italic\":false}']}}"
+      "item": "minecraft:carrot_on_a_stick",
+      "nbt": "{CustomModelData:25,CustomAttributes:1b,Enchantments:[{}]}"
     },
     "title": [
       {
-        "translate": "魔石について                  ",
-        "color": "light_purple",
+        "translate": "MPについて                  ",
+        "color": "green",
         "bold": true
       }
     ],
     "description": {
-      "translate": "%1$sを使って秘められた力を\nアイテムに付与できる%2$s。\n%3$sでは同じ魔石もしくは特定の魔石の\n組み合わせで%4$sできる。",
+      "translate": "スキルを使うために必要な%1$s。\n%2$sに表示される。\nスキルを使わない時間が長いほど\n%3$sする。\n%4$sにはMPの回復が%5$s。",
       "color": "white",
       "with": [
         {
-          "translate": "エンチャント台",
-          "color": "gold"
-        },
-        {
-          "translate": "魔力の結晶",
+          "translate": "魔法の力",
           "color": "blue"
         },
         {
-          "translate": "金床",
-          "color": "gold"
+          "translate": "経験値バー",
+          "color": "yellow"
         },
         {
-          "translate": "上位魔石を合成",
+          "translate": "回復速度が増加",
           "color": "aqua"
+        },
+        {
+          "translate": "空腹時",
+          "color": "red"
+        },
+        {
+          "translate": "止まってしまう",
+          "color": "red"
         }
       ]
     },
@@ -38,14 +42,14 @@
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "advancement:tutorial/tutorial06",
+  "parent": "advancement:tutorial/tutorial05",
   "criteria": {
-    "get_enchantstone": {
+    "use_skill": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "nbt": "{EnchantStone:true}"
+            "nbt": "{Skill:{ShowInterval:true}}"
           }
         ]
       }

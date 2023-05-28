@@ -1,54 +1,46 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:iron_sword",
+      "item": "minecraft:nether_star",
       "nbt": "{}"
     },
     "title": [
       {
-        "translate": "スキルについて                ",
-        "color": "white",
+        "translate": "経験値ボーナスについて               ",
+        "color": "light_purple",
         "bold": true
       }
     ],
-    "description": [
-      {
-        "translate": "自分の%1$sのスキル%2$sと\n全職業で使用できる%3$sスキル%4$sがある。\nスキルは%5$sする。",
-        "color": "white",
-        "with": [
-          {
-            "translate": "職業",
-            "color": "light_purple"
-          },
-          {
-            "text": "KNHWBSPT",
-            "color": "green",
-            "font": "icon"
-          },
-          {
-            "translate": "共通",
-            "color": "light_purple"
-          },
-          {
-            "text": "C",
-            "color": "green",
-            "font": "icon"
-          },
-          {
-            "translate": "アイテムに設定",
-            "color": "aqua"
-          }
-        ]
-      }
-    ],
+    "description": {
+      "translate": "%1$sで%2$sを取り損ねた際\n%3$sことができるように\n%2$sに%4$sが付与されます。",
+      "color": "white",
+      "with": [
+        {
+          "translate": "マルチプレイ",
+          "color": "green"
+        },
+        {
+          "translate": "経験値",
+          "color": "yellow"
+        },
+        {
+          "translate": "みんなに追いつく",
+          "color": "#E17143"
+        },
+        {
+          "translate": "ボーナス",
+          "color": "#FF40B8"
+        }
+      ]
+    },
     "frame": "task",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "advancement:tutorial/tutorial03",
+  "parent": "advancement:tutorial/tutorial02",
   "criteria": {
-    "get_skill": {
+    "get_exp": {
       "trigger": "minecraft:tick",
       "conditions": {
         "player": [
@@ -56,9 +48,9 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "Level": {
+              "Exp": {
                 "min": 1,
-                "max": 100
+                "max": 10000
               }
             }
           }
