@@ -962,6 +962,11 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/written_book/meaning_of_color_name"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/bread/entity/sky_share"
         }
       ]
     }
