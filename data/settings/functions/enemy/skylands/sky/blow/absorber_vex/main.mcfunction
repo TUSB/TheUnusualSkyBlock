@@ -1,6 +1,6 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:vex",CustomName:'{"translate":"魔吸の精","color":"#FFFFFF","bold":true}',Tags:[Mob,Enemy,DelayedData,HasAI,CallOnDamage,CallOnAttack,CooldownRequired,HasLootTable,"AbsorberVex_C"],PortalCooldown:3000,DeathLootTable:"empty"}
-data modify storage tusb_mob: "即時ステータス"."見た目" set value {HandItems:[{id:"minecraft:diamond_sword",Count:1b,tag:{Unbreakable:1b,Damage:0}},{}],ArmorItems:[{},{},{},{id:"minecraft:crying_obsidian",Count:1b,tag:{Unbreakable:1b}}],HandDropChances:[-1E40f,-1E40f],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:vex",CustomName:'{"translate":"魔吸の精","color":"#FFFFFF","bold":true}',Tags:[Mob,Enemy,DelayedData,HasAI,CallOnDamage,CallOnAttack,CooldownRequired,HasLootTable,"AbsVex"],PortalCooldown:3000,DeathLootTable:"empty"}
+data modify storage tusb_mob: "即時ステータス"."見た目" set value {HandItems:[{id:"minecraft:netherite_sword",Count:1b,tag:{Unbreakable:1b}},{id:"minecraft:netherite_sword",Count:1b,tag:{Unbreakable:1b}}],HandDropChances:[-1E40f,-1E40f]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 64d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.3d
 data modify storage tusb_mob: "即時ステータス"."ノックバック耐性" set value 0d

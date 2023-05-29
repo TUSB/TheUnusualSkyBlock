@@ -1,6 +1,10 @@
 execute if entity @s[tag=SatSpider] run function settings:enemy/skylands/ground/shoot/sat_spider/
+execute if entity @s[tag=YellowShulker] run function settings:enemy/skylands/ground/shoot/yellow_shulker/
+execute if entity @s[tag=Shulkers] run function settings:enemy/skylands/ground/shoot/shulkers/
 execute if entity @s[tag=Slimy] run function settings:enemy/skylands/ground/shoot/slimy/
 execute if entity @s[tag=SunEater] run function settings:enemy/skylands/ground/shoot/sun_eater/
+execute if entity @s[tag=BlueShulker] run function settings:enemy/skylands/ground/shoot/blue_shulker/
+execute if entity @s[tag=RedShulker] run function settings:enemy/skylands/ground/shoot/red_shulker/
 execute if entity @s[tag=IllusionAbsorber] run function settings:enemy/skylands/ground/shoot/illusion_absorber/
 execute if entity @s[tag=ThunderSpirit] run function settings:enemy/skylands/ground/shoot/thunder_spirit/
 execute if entity @s[tag=FierceSalmon] run function settings:enemy/skylands/ground/shoot/fierce_salmon/
