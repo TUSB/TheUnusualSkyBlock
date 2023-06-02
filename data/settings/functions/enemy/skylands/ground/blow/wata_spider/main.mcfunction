@@ -21,4 +21,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 120
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 125
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Death:[{Name:"Spawn",SpawnEntities:[[{Tags:[Skylands,Ground,Blow,WataSpider,Watage],Level:15}]]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Death:[{Settings:[{Name:"Direction",Direction:[0f,-90f],Speed:1d,Absolute:{Vertical:true}}],Name:"Spawn",SpawnEntities:[[{Tags:[Skylands,Ground,Blow,WataSpider,Watage],Level:15}]]}]}
