@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stone_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1000,display:{Name:'{\"translate\":\"<死んだプレイヤーの名前>の墓\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"名前が彫り込まれた者でないと\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"掘り起こす事は出来ないようだ。\",\"color\":\"#CCCCCC\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

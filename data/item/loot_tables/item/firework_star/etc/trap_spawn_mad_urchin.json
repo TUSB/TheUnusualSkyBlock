@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:4001,HideFlags:32,SpawnEntities:[[{Tags:[Global,Sky,Blow,MadUrchin,Main,SpawnParticles],Level:10}]],Explosion:{Type:0b,Colors:[I;3163741]},display:{Name:'{\"translate\":\"召喚の罠「発狂ウニ」\",\"color\":\"#FF0000\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"カウンタートラップアイテム。\",\"color\":\"#FF0061\"}','{\"translate\":\"このアイテムがインベントリー外に出た際、\",\"color\":\"#FF0061\"}','{\"translate\":\"フィールドに「」内のモンスターを特殊召喚をする。\",\"color\":\"#FF0061\"}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
