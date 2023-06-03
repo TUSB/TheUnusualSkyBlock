@@ -1,4 +1,5 @@
 execute if entity @s[tag=Steve] run function settings:enemy/global/event/function/damage_sound/steve
+execute if entity @s[tag=SteveHighPitch] run function settings:enemy/global/event/function/damage_sound/steve_high_pitch
 execute if entity @s[tag=Undead] run function settings:enemy/global/event/function/damage_sound/undead
 execute if entity @s[tag=Ghost] run function settings:enemy/global/event/function/damage_sound/ghost
 execute if entity @s[tag=Amorphous] run function settings:enemy/global/event/function/damage_sound/amorphous

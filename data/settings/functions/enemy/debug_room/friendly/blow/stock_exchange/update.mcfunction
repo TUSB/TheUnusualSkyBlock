@@ -19,7 +19,7 @@ execute unless score _ Calc matches 0 run function settings:enemy/debug_room/fri
 scoreboard players add _ _ 1
 execute store result storage mob_data: StockVillager.Recipes[-1].sell.tag.Stock.ID int 1 run scoreboard players get _ _
 execute in area:control_area run data modify block 2 3 2 Text1 set value '[{"translate":"取引番号："},{"score":{"name":"_","objective":"_"}}]'
-execute in area:control_area run data modify storage mob_data: StockVillager.Recipes[-1].sell.tag.display.Lore[0] set from block 2 3 2 Text1
+execute in area:control_area run data modify storage mob_data: StockVillager.Recipes[-1].sell.tag.display.Lore[-1] set from block 2 3 2 Text1
 
 # エメラルド取引値変動
 data modify storage mob_data: StockVillager.Exchanged set value []

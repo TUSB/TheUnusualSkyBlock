@@ -1,11 +1,12 @@
 execute if entity @s[tag=CommonExe] run function settings:enemy/global/event/function/common_exe/
+execute if entity @s[tag=SynchronizeHead] run function settings:enemy/global/event/function/synchronize_head
+execute if entity @s[tag=KillGenocide] run function settings:enemy/global/event/function/kill_genocide
+execute if entity @s[tag=DeathCancel] run function settings:enemy/global/event/function/death_cancel
+execute if entity @s[tag=Lightningbolt] run function settings:enemy/global/event/function/lightningbolt
 execute if entity @s[tag=RotateArmor] run function settings:enemy/global/event/function/rotate_armor/
 execute if entity @s[tag=Combat] run function settings:enemy/global/event/function/combat/
 execute if entity @s[tag=DamageSound] run function settings:enemy/global/event/function/damage_sound/
 execute if entity @s[tag=AttackSound] run function settings:enemy/global/event/function/attack_sound/
-execute if entity @s[tag=KillGenocide] run function settings:enemy/global/event/function/kill_genocide
-execute if entity @s[tag=DeathCancel] run function settings:enemy/global/event/function/death_cancel
-execute if entity @s[tag=Lightningbolt] run function settings:enemy/global/event/function/lightningbolt
 execute if entity @s[tag=SecurityPole] run function settings:enemy/global/event/function/security_pole/
 execute if entity @s[tag=VanillaExplosion] run function settings:enemy/global/event/function/vanilla_explosion/
 execute if entity @s[tag=CommonParticle] run function settings:enemy/global/event/function/common_particle/

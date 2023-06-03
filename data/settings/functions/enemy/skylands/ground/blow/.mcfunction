@@ -1,5 +1,6 @@
 execute if entity @s[tag=CrafterWhoLavaOnEverything] run function settings:enemy/skylands/ground/blow/crafter_who_lava_on_everything/
 execute if entity @s[tag=CrafterWhoWaterOnEverything] run function settings:enemy/skylands/ground/blow/crafter_who_water_on_everything/
+execute if entity @s[tag=Giga] run function settings:enemy/skylands/ground/blow/giga/
 execute if entity @s[tag=SilverWarrior] run function settings:enemy/skylands/ground/blow/silver_warrior/
 execute if entity @s[tag=SilverSorcerer] run function settings:enemy/skylands/ground/blow/silver_sorcerer/
 execute if entity @s[tag=SilverTank] run function settings:enemy/skylands/ground/blow/silver_tank/
