@@ -8,3 +8,4 @@ execute if data storage mob_data: ExecutingAction{Tags:[FinishingMove]} run func
 execute if data storage mob_data: ExecutingAction{Tags:[CrossRing]} run function skill:enemy/delay_action/act/execute/casting/cross_ring/
 execute if data storage mob_data: ExecutingAction{Tags:[Healing]} run function skill:enemy/delay_action/act/execute/casting/healing/
 execute if data storage mob_data: ExecutingAction{Tags:[BubbleLauncher]} run function skill:enemy/delay_action/act/execute/casting/bubble_launcher/
+execute if data storage mob_data: ExecutingAction{Tags:[DoomBomb]} run function skill:enemy/delay_action/act/execute/casting/doom_bomb/
