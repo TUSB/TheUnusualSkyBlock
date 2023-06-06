@@ -9,3 +9,4 @@ execute if data storage mob_data: ExecutingAction{Tags:[CrossRing]} run function
 execute if data storage mob_data: ExecutingAction{Tags:[Healing]} run function skill:enemy/delay_action/act/execute/casting/healing/
 execute if data storage mob_data: ExecutingAction{Tags:[BubbleLauncher]} run function skill:enemy/delay_action/act/execute/casting/bubble_launcher/
 execute if data storage mob_data: ExecutingAction{Tags:[DoomBomb]} run function skill:enemy/delay_action/act/execute/casting/doom_bomb/
+execute if data storage mob_data: ExecutingAction{Tags:[DoomCast]} run function skill:enemy/delay_action/act/execute/casting/doom_cast/

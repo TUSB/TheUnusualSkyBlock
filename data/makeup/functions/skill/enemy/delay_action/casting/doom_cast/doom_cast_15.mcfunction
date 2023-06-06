@@ -1,0 +1,43 @@
+# frame 15 / 15
+# 円
+particle dust 0.700 0.35 0.875 0.75 ^-0.0 ^0.0 ^0.75 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^-0.0 ^0.15 ^0.74 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^-0.0 ^0.29 ^0.69 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^-0.0 ^0.42 ^0.62 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^-0.0 ^0.53 ^0.53 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^-0.0 ^0.62 ^0.42 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^-0.0 ^0.69 ^0.29 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^-0.0 ^0.74 ^0.15 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^-0.0 ^0.75 ^-0.0 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^-0.0 ^0.74 ^-0.15 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^-0.0 ^0.69 ^-0.29 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^-0.0 ^0.62 ^-0.42 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^-0.0 ^0.53 ^-0.53 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^-0.0 ^0.42 ^-0.62 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^-0.0 ^0.29 ^-0.69 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^-0.0 ^0.15 ^-0.74 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^-0.0 ^-0.0 ^-0.75 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^0.0 ^-0.15 ^-0.74 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^0.0 ^-0.29 ^-0.69 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^0.0 ^-0.42 ^-0.62 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^0.0 ^-0.53 ^-0.53 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^0.0 ^-0.62 ^-0.42 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^0.0 ^-0.69 ^-0.29 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^0.0 ^-0.74 ^-0.15 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^0.0 ^-0.75 ^0.0 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^0.0 ^-0.74 ^0.15 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^0.0 ^-0.69 ^0.29 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^0.0 ^-0.62 ^0.42 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^0.0 ^-0.53 ^0.53 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^0.0 ^-0.42 ^0.62 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^0.0 ^-0.29 ^0.69 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.700 0.35 0.875 0.75 ^0.0 ^-0.15 ^0.74 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+# 平面
+particle dust 0.385 0.175 0.7 1.5 ^-0.1 ^-0.0 ^0.53 0.0 0.0 0.0 0.0 5 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.385 0.175 0.7 1.5 ^-0.1 ^0.53 ^0.0 0.0 0.0 0.0 0.0 5 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.385 0.175 0.7 1.5 ^-0.1 ^-0.53 ^-0.0 0.0 0.0 0.0 0.0 5 force @a[distance=..32,tag=ShowParticles]
+particle dust 0.385 0.175 0.7 1.5 ^-0.1 ^0.0 ^-0.53 0.0 0.0 0.0 0.0 5 force @a[distance=..32,tag=ShowParticles]
+# 平面.001
+playsound minecraft:entity.mooshroom.convert_2 hostile @a ~ ~ ~ 0.5 1.95 
+# 平面.002
+playsound minecraft:entity.illusioner.prepare_mirror hostile @a ~ ~ ~ 1.5 1.6 
