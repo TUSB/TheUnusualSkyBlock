@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"高級疑似餌付き釣り竿\",\"color\":\"#00FFFF\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(III)\",\"color\":\"white\",\"with\":[{\"translate\":\"練餌の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"精巧な疑似餌の付いた釣り竿\",\"color\":\"gold\",\"italic\":false}']},Engraving:{EnchantID:\"練餌\",Tier:3}}"
+              "tag": "{CustomModelData:3,display:{Name:'{\"translate\":\"高級疑似餌付き釣り竿\",\"color\":\"#00FFFF\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(III)\",\"color\":\"white\",\"with\":[{\"translate\":\"練餌の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"精巧な疑似餌の付いた釣り竿\",\"color\":\"gold\",\"italic\":false}']},Engraving:{EnchantID:\"練餌\",Tier:3}}"
             }
           ]
         }

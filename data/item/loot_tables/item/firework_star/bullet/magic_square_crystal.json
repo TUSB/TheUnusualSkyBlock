@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:4003,HideFlags:32,SpawnEntities:[[{Tags:[Global,Friendly,Bullet,MagicSquareStone,WaterStream],Level:1}]],Explosion:{Type:0b,Colors:[I;9225471]},display:{Name:'{\"translate\":\"魔晶「流水」\",\"color\":\"#8CC4FF\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"クイックマジックアイテム。\",\"color\":\"#59EFFB\"}','{\"translate\":\"このアイテムがインベントリー外に出た際、\",\"color\":\"#59EFFB\"}','{\"translate\":\"フィールドに「」内の魔法を発動し敵に効果を与える。\",\"color\":\"#59EFFB\"}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

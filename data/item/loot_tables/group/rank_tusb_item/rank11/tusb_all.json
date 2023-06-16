@@ -846,6 +846,11 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/netherite_axe/slice_ham"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/player_head/daemon_eye_headgear"
         },
         {
