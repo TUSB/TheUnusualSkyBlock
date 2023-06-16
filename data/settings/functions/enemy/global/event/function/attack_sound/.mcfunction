@@ -4,6 +4,7 @@ execute if entity @s[tag=FiringLaser] run function settings:enemy/global/event/f
 execute if entity @s[tag=ThrownBeing] run function settings:enemy/global/event/function/attack_sound/thrown_being
 execute if entity @s[tag=Explosion] run function settings:enemy/global/event/function/attack_sound/explosion
 execute if entity @s[tag=FireworkLaunch] run function settings:enemy/global/event/function/attack_sound/firework_launch
+execute if entity @s[tag=Warning] run function settings:enemy/global/event/function/attack_sound/warning
 execute if entity @s[tag=Jump] run function settings:enemy/global/event/function/attack_sound/jump
 execute if entity @s[tag=Metal] run function settings:enemy/global/event/function/attack_sound/metal
 execute if entity @s[tag=WitchCelebrate] run function settings:enemy/global/event/function/attack_sound/witch_celebrate

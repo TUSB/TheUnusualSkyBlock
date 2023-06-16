@@ -13,6 +13,7 @@ execute if entity @s[tag=ExperienceOne] run function settings:enemy/skylands/gro
 execute if entity @s[tag=BombPig] run function settings:enemy/skylands/ground/blow/bomb_pig/
 execute if entity @s[tag=MiteBro] run function settings:enemy/skylands/ground/blow/mite_bro/
 execute if entity @s[tag=EnderBoomer] run function settings:enemy/skylands/ground/blow/ender_boomer/
+execute if entity @s[tag=MadSugarMan] run function settings:enemy/skylands/ground/blow/mad_sugar_man/
 execute if entity @s[tag=WataSpider] run function settings:enemy/skylands/ground/blow/wata_spider/
 execute if entity @s[tag=GhostSheep] run function settings:enemy/skylands/ground/blow/ghost_sheep/
 execute if entity @s[tag=BlackGrudge] run function settings:enemy/skylands/ground/blow/black_grudge/
