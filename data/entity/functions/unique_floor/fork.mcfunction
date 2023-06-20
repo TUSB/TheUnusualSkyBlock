@@ -14,5 +14,5 @@ execute if block ~ ~-2 ~ minecraft:magenta_glazed_terracotta run function entity
 ### 落とし床
 execute if block ~ ~-2 ~ minecraft:warped_wart_block run function entity:unique_floor/drop_floor
 
-### コマンド床
+### カスタム床
 execute if block ~ ~-2 ~ minecraft:command_block{CustomName:'{"text":"Trap"}'} run function entity:unique_floor/command_floor
