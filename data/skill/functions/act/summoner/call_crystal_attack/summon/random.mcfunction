@@ -10,5 +10,3 @@ execute if score _ _ matches 1 run function skill:act/summoner/call_crystal_atta
 execute if score _ _ matches 2 run function skill:act/summoner/call_crystal_attack/summon/lightning
 execute if score _ _ matches 3 run function skill:act/summoner/call_crystal_attack/summon/light
 execute if score _ _ matches 4 run function skill:act/summoner/call_crystal_attack/summon/dark
-
-tag @e[tag=Initializing,limit=1] remove Initializing

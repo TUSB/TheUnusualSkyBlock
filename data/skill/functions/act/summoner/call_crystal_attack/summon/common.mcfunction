@@ -9,4 +9,7 @@ execute if score _ Level matches 103 run data merge entity @e[tag=Initializing,l
 execute if score _ Level matches 202 run data merge entity @e[tag=Initializing,limit=1] {PortalCooldown:160}
 execute if score _ Level matches 203 run data merge entity @e[tag=Initializing,limit=1] {PortalCooldown:200}
 
+# NativeTask
+scoreboard players add @e[tag=Initializing,limit=1] NativeFlag 1
+
 function makeup:skill/act/summoner/call_crystal_attack/summon/common
