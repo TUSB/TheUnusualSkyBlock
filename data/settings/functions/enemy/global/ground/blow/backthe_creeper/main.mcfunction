@@ -23,4 +23,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法�
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.51d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"アマノジャとは同期。回り込み職人だぞ。"}]'
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Settings:[{Name:"At",Target:{Look:"Friendly",Radius:8}},{Name:"Direction",Direction:[-180f,0f],Speed:2d}],Name:"Teleport"}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Settings:[{Name:"At",Target:{Look:"Friendly",Radius:8d}},{Name:"Direction",Direction:[-180f,0f],Speed:2d}],Name:"Teleport"}]}
