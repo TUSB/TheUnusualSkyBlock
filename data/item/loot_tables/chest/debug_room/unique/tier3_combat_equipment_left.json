@@ -175,14 +175,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:bundle",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{Items:[{id:\"emerald\",Count:16b}]}"
-            }
-          ]
+          "type": "loot_table",
+          "name": "item:item/bundle/emerald_bundle"
         }
       ]
     },
@@ -280,8 +274,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:spyglass"
+          "type": "loot_table",
+          "name": "item:item/bundle/jewel_bundle"
         }
       ]
     }
