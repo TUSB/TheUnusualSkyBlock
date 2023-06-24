@@ -10,4 +10,3 @@ execute if data storage mob_data: ExecutingAction{Tags:[Healing]} run function s
 execute if data storage mob_data: ExecutingAction{Tags:[BubbleLauncher]} run function skill:enemy/delay_action/act/execute/casting/bubble_launcher/
 execute if data storage mob_data: ExecutingAction{Tags:[DoomBomb]} run function skill:enemy/delay_action/act/execute/casting/doom_bomb/
 execute if data storage mob_data: ExecutingAction{Tags:[DoomCast]} run function skill:enemy/delay_action/act/execute/casting/doom_cast/
-execute if data storage mob_data: ExecutingAction{Tags:[HugeExplosion]} run function skill:enemy/delay_action/act/execute/casting/huge_explosion/

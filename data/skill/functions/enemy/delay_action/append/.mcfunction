@@ -15,6 +15,7 @@ data modify storage mob_data: DelayAction set from storage oh_my_dat: _[-4][-4][
 ### 追加用枠
 
 execute if data storage mob_data: Call{Tags:["Casting"]} run function skill:enemy/delay_action/append/casting/
+execute if data storage mob_data: Call{Tags:["Affect"]} run function skill:enemy/delay_action/append/affect/
 
 ###
 
