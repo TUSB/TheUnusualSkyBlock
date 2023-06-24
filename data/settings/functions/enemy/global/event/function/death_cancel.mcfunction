@@ -5,4 +5,4 @@ tag @s remove Garbage
 data modify storage mob_data: Tags set from entity @s Tags
 data remove entity @s Tags
 scoreboard players set @s HP 999
-tellraw @a {"storage":"mob_data:","nbt":"Tags"}
+#tellraw @a {"storage":"mob_data:","nbt":"Tags"}

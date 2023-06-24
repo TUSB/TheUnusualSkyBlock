@@ -1,4 +1,3 @@
-execute if entity @s[tag=GenocideBlast] run function settings:enemy/global/neutrality/summon/genocide_bomb/genocide_blast
 execute if entity @s[tag=RandomBlasts] run function settings:enemy/global/neutrality/summon/genocide_bomb/random_blasts
 execute if entity @s[tag=RandomParticleAndSound1] run function settings:enemy/global/neutrality/summon/genocide_bomb/random_particle_and_sound_1
 execute if entity @s[tag=RandomParticleAndSound2] run function settings:enemy/global/neutrality/summon/genocide_bomb/random_particle_and_sound_2
