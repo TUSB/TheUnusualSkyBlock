@@ -9,7 +9,7 @@ execute store result score 00000000-0000-0000-0000-000000000000 Calc run data ge
 execute store result score 00000000-0000-0000-0000-000000000001 Calc run data get storage mob_data: Call.Distance.Min 100
 
 #大雑把に目標とするモブを探す
-execute if score 00000000-0000-0000-0000-000000000001 Calc matches 0 run function skill:damage/apply/
+execute if score 00000000-0000-0000-0000-000000000001 Calc matches 0 as @e[tag=Enemy,distance=0] run function skill:damage/apply/
 execute if score 00000000-0000-0000-0000-000000000000 Calc matches 1.. if score 00000000-0000-0000-0000-000000000001 Calc matches ..200 run tag @e[tag=Enemy,distance=0.01..2] add TargetCards
 execute if score 00000000-0000-0000-0000-000000000000 Calc matches 201.. if score 00000000-0000-0000-0000-000000000001 Calc matches ..400 run tag @e[tag=Enemy,distance=2.01..4] add TargetCards
 execute if score 00000000-0000-0000-0000-000000000000 Calc matches 401.. if score 00000000-0000-0000-0000-000000000001 Calc matches ..800 run tag @e[tag=Enemy,distance=4.01..8] add TargetCards
