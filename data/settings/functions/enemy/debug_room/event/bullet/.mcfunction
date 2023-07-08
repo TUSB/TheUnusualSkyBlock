@@ -8,5 +8,6 @@ execute if entity @s[tag=ThrowedBlade] run function settings:enemy/debug_room/ev
 execute if entity @s[tag=LaserShotHuge] run function settings:enemy/debug_room/event/bullet/laser_shot_huge
 execute if entity @s[tag=SpreadTargetBullet] run function settings:enemy/debug_room/event/bullet/spread_target_bullet
 execute if entity @s[tag=LatticeBullet] run function settings:enemy/debug_room/event/bullet/lattice_bullet
+execute if entity @s[tag=Egg] run function settings:enemy/debug_room/event/bullet/egg
 execute if entity @s[tag=Vortex] run function settings:enemy/debug_room/event/bullet/vortex/
 execute if entity @s[tag=MagicCircle] run function settings:enemy/debug_room/event/bullet/magic_circle/
