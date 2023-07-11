@@ -200,8 +200,8 @@ team modify Friendly friendlyFire false
 team modify Friendly collisionRule never
 team modify Friendly seeFriendlyInvisibles false
 team modify Friendly color white
-team modify Friendly prefix {"text":"✦","color":"red"}
-team modify Friendly suffix {"text":"✦","color":"red"}
+# team modify Friendly prefix {"text":"✦","color":"red"}
+# team modify Friendly suffix {"text":"✦","color":"red"}
 ###カラーチーム作成
 team add Red {"text":"赤色チーム"}
 team modify Red color red
@@ -237,3 +237,6 @@ function area:flying_islands_gate/change
 
 #ルーラデフォルト定義
 function settings:skill/black_mage/return/default
+
+#難易度リセット カジュアル
+function main:difficulty/reset
