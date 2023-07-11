@@ -10,5 +10,5 @@ function area:entered/
 # 演出表示
 function makeup:area/entered/void
 
-# ピクニックなら無限奈落専用処理実行
-execute if data storage main: difficult{world:"picnic"} run function main:difficulty/void
+# 難易度別処理
+function main:difficulty/void
