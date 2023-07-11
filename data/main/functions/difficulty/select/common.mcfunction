@@ -8,3 +8,6 @@ data modify storage main: difficult.selected set value true
 
 # 職業島のAECを削除
 schedule function main:difficulty/select/end 1t replace
+
+# 難易度変更演出
+function makeup:main/difficulty/select/common
