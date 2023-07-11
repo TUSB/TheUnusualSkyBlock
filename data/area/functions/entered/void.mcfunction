@@ -9,3 +9,6 @@ function settings:area/void
 function area:entered/
 # 演出表示
 function makeup:area/entered/void
+
+# ピクニックなら無限奈落専用処理実行
+execute if data storage main: difficult{world:"picnic"} run function main:difficulty/void
