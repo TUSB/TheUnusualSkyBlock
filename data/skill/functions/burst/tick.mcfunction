@@ -38,14 +38,11 @@ execute if score @s Job matches 7 rotated as 0-0-0-0-0 run function makeup:skill
 
 # ボスバー更新
 execute store result bossbar skill:burst value run scoreboard players get @s Burst
-scoreboard players operation _ Burst = $Tick Count
-scoreboard players set _ _ 18
-scoreboard players operation _ Burst %= _ _
-execute if score _ Burst matches 0..2 run bossbar set skill:burst color yellow
-execute if score _ Burst matches 3..5 run bossbar set skill:burst color red
-execute if score _ Burst matches 6..8 run bossbar set skill:burst color pink
-execute if score _ Burst matches 9..11 run bossbar set skill:burst color purple
-execute if score _ Burst matches 12..14 run bossbar set skill:burst color blue
-execute if score _ Burst matches 15..17 run bossbar set skill:burst color green
+execute if score $Tick Count matches 0..2 run bossbar set skill:burst color yellow
+execute if score $Tick Count matches 3..6 run bossbar set skill:burst color red
+execute if score $Tick Count matches 7..9 run bossbar set skill:burst color pink
+execute if score $Tick Count matches 10..12 run bossbar set skill:burst color purple
+execute if score $Tick Count matches 13..16 run bossbar set skill:burst color blue
+execute if score $Tick Count matches 17..19 run bossbar set skill:burst color green
 
 execute if score @s Burst matches ..0 run function skill:burst/finish
