@@ -7,7 +7,7 @@ scoreboard players add _ Level 2
 execute unless score @s FillSize matches 1.. run scoreboard players operation @s FillSize = _ Level
 scoreboard players operation _ FillSize = @s FillSize
 scoreboard players operation _ FillSize < _ Level
-#execute if entity @s[tag=からくりオーラ] run scoreboard players add _ FillSize 1
+execute if entity @a[distance=..32,scores={Burst=0..,Job=7}] run scoreboard players remove _ Level 1
 
 execute if score _ FillSize matches 1 run function skill:act/summoner/fill/level1
 execute if score _ FillSize matches 2 run function skill:act/summoner/fill/level3

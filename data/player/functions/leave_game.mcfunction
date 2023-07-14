@@ -15,4 +15,13 @@ function player:game_settings/show
 #v13Alpha 進捗更新
 function enemy:break_spawner/alpha_advancements/update
 
+# バースト必要値 更新
+execute store result score _ _ run bossbar set skill:burst players @a
+scoreboard players remove _ _ 1
+scoreboard players add _ _ 10
+scoreboard players set _ Calc 10
+execute store result bossbar skill:burst max run scoreboard players operation _ _ *= _ Calc
+
+function skill:burst/bossbar
+
 scoreboard players reset @s LeaveGame

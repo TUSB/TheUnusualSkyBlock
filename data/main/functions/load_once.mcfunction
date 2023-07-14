@@ -96,6 +96,7 @@ scoreboard objectives add MPAcceleration dummy {"text":"MP回復加速量"}
 scoreboard objectives add MPConsumption dummy {"text":"MP回復量"}
 scoreboard objectives add TrackingID dummy {"text":"追尾スキル同期ID"}
 scoreboard objectives add SkillShortcut dummy {"text":"スキル設定中tick"}
+scoreboard objectives add Burst dummy {"text":"バースト管理"}
 #剣士
 scoreboard objectives add FalconSlashTimer dummy {"text":"はやぶさ斬り遅延タイマー"}
 scoreboard objectives add IronWill dummy {"text":"アイアンウィル残りtick数"}
@@ -140,6 +141,11 @@ scoreboard objectives add FillSize dummy {"text":"フィールサイズ"}
 scoreboard objectives add Weakness dummy {"text":"ウィークペイント効果時間"}
 scoreboard objectives add SkyWalk dummy {"text":"スカイウォーク"}
 scoreboard objectives add RestoreItem trigger {"text":"リスト・アイテム処理選択"}
+
+###バースト ボスバー
+bossbar add skill:burst {"translate":"バーストゲージ","italic":true,"bold":"true"}
+bossbar set skill:burst color white
+bossbar set skill:burst visible false
 
 ###乱数初期化
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,WaitTime:1,ReapplicationDelay:0,Duration:0,Tags:[Initialized]}
