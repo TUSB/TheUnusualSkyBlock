@@ -11,7 +11,7 @@
         {
           "weight": 2,
           "type": "loot_table",
-          "name": "item:group/instant_item/tier1_8/mix_heart_and_mana"
+          "name": "item:group/instant_item/tier1_8/mix_instant_items"
         }
       ]
     }

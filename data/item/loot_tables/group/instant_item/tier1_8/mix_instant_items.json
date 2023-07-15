@@ -6,42 +6,42 @@
         {
           "weight": 8,
           "type": "loot_table",
-          "name": "item:group/instant_item/tier1/mix_heart_and_mana"
+          "name": "item:group/instant_item/tier1/mix_instant_items"
         },
         {
           "weight": 7,
           "type": "loot_table",
-          "name": "item:group/instant_item/tier2/mix_heart_and_mana"
+          "name": "item:group/instant_item/tier2/mix_instant_items"
         },
         {
           "weight": 6,
           "type": "loot_table",
-          "name": "item:group/instant_item/tier3/mix_heart_and_mana"
+          "name": "item:group/instant_item/tier3/mix_instant_items"
         },
         {
           "weight": 5,
           "type": "loot_table",
-          "name": "item:group/instant_item/tier4/mix_heart_and_mana"
+          "name": "item:group/instant_item/tier4/mix_instant_items"
         },
         {
           "weight": 4,
           "type": "loot_table",
-          "name": "item:group/instant_item/tier5/mix_heart_and_mana"
+          "name": "item:group/instant_item/tier5/mix_instant_items"
         },
         {
           "weight": 3,
           "type": "loot_table",
-          "name": "item:group/instant_item/tier6/mix_heart_and_mana"
+          "name": "item:group/instant_item/tier6/mix_instant_items"
         },
         {
           "weight": 2,
           "type": "loot_table",
-          "name": "item:group/instant_item/tier7/mix_heart_and_mana"
+          "name": "item:group/instant_item/tier7/mix_instant_items"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:group/instant_item/tier8/mix_heart_and_mana"
+          "name": "item:group/instant_item/tier8/mix_instant_items"
         }
       ]
     }

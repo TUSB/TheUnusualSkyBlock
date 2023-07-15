@@ -582,7 +582,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"global 迷える魂(白) Lv30\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Shoot,LostSoulWhite,Main,SpawnParticles],Level:30}],[{Tags:[Global,Sky,Shoot,LostSoulWhite,Appearance],Level:1},{Tags:[Global,Sky,Shoot,LostSoulWhite,Turret],Level:1},{Tags:[Global,Sky,Shoot,LostSoulWhite,TimeLimit],Level:1}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"global 迷える魂(白) Lv30\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Shoot,LostSoulWhite,Main,SpawnParticles],Level:30}],[{Tags:[Global,Sky,Shoot,LostSoulWhite,Turret],Level:1},{Tags:[Global,Sky,Shoot,LostSoulWhite,TimeLimit],Level:1}]]}}]}}"
             }
           ]
         },
@@ -2320,7 +2320,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 中層の蒼白霊_Lv20 Lv20\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Shoot,PaleSpirit,Main],Level:20}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 中層の蒼白霊 Lv20\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Shoot,PaleSpirit,Main],Level:20}]]}}]}}"
             }
           ]
         },
@@ -2331,7 +2331,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 中層の自爆霊_Lv20 Lv20\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Shoot,SuicideSpirit,Main],Level:20}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 中層の自爆霊 Lv20\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Shoot,SuicideSpirit,Main],Level:20}]]}}]}}"
             }
           ]
         },
@@ -2342,7 +2342,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 中層の召雷霊_Lv20 Lv20\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Shoot,ThunderSpirit,Main],Level:20}],[{Tags:[Skylands,Ground,Shoot,ThunderSpirit,Marker],Level:1}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 中層の召雷霊 Lv20\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Shoot,ThunderSpirit,Main],Level:20}],[{Tags:[Skylands,Ground,Shoot,ThunderSpirit,Marker],Level:1}]]}}]}}"
             }
           ]
         },
@@ -2353,7 +2353,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 中層の魔吸の精_Lv16 Lv16\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Sky,Blow,AbsorberVex,Main],Level:16}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 中層の魔吸の精 Lv16\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Sky,Blow,AbsorberVex,Main],Level:16}]]}}]}}"
             }
           ]
         },
@@ -2364,7 +2364,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 中層の魔吸の導師_Lv30 Lv30\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Shoot,IllusionAbsorber,Main],Level:30}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 中層の魔吸の導師 Lv30\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Shoot,IllusionAbsorber,Main],Level:30}]]}}]}}"
             }
           ]
         },
@@ -2375,7 +2375,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 上層の魔吸の導師_Lv45 Lv45\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Shoot,IllusionAbsorber,Main],Level:45}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 上層の魔吸の導師 Lv45\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Shoot,IllusionAbsorber,Main],Level:45}]]}}]}}"
             }
           ]
         },
@@ -2386,7 +2386,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 上層の黒怨之徘徊者_Lv32 Lv32\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,BlackGrudge,Main],Level:32}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 上層の黒怨之徘徊者 Lv32\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,BlackGrudge,Main],Level:32}]]}}]}}"
             }
           ]
         },
@@ -2397,7 +2397,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 上層の黒怨之徘徊者_Lv40 Lv40\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,BlackGrudge,Main],Level:40}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 上層の黒怨之徘徊者 Lv40\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,BlackGrudge,Main],Level:40}]]}}]}}"
             }
           ]
         },
@@ -2408,7 +2408,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 上層の黒怨之狙撃者_Lv32 Lv32\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Shoot,BlackGrudge2,Main],Level:32}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 上層の黒怨之狙撃者 Lv32\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Shoot,BlackGrudge2,Main],Level:32}]]}}]}}"
             }
           ]
         },
@@ -2419,7 +2419,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 上層の黒怨之狙撃者_Lv40 Lv40\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Shoot,BlackGrudge2,Main],Level:40}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 上層の黒怨之狙撃者 Lv40\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Shoot,BlackGrudge2,Main],Level:40}]]}}]}}"
             }
           ]
         },
@@ -2430,7 +2430,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 上層の黒怨之飛翔者_Lv44 Lv44\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Sky,Shoot,BlackGrudge3,Main],Level:44}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 上層の黒怨之飛翔者 Lv44\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Sky,Shoot,BlackGrudge3,Main],Level:44}]]}}]}}"
             }
           ]
         },
@@ -2441,7 +2441,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 上層の黒怨之飛翔者+狙撃者_Lv44 Lv44\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Sky,Shoot,BlackGrudge3,Main],Level:44}],[{Tags:[Global,Other,Bullet,RideDisplay],Level:1}],[{Tags:[Skylands,Ground,Shoot,BlackGrudge2,Main],Level:44}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 上層の黒怨之飛翔者+狙撃者 Lv44\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Sky,Shoot,BlackGrudge3,Main],Level:44}],[{Tags:[Global,Other,Bullet,RideDisplay],Level:1}],[{Tags:[Skylands,Ground,Shoot,BlackGrudge2,Main],Level:44}]]}}]}}"
             }
           ]
         },
@@ -2452,7 +2452,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 下層の綿蜘蛛_Lv15 Lv15\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,WataSpider,Main],Level:15}],[{Tags:[Skylands,Ground,Blow,WataSpider,Zombie],Level:15}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 下層の綿蜘蛛 Lv15\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,WataSpider,Main],Level:15}],[{Tags:[Skylands,Ground,Blow,WataSpider,Zombie],Level:15}]]}}]}}"
             }
           ]
         },
@@ -2463,7 +2463,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 中層の綿蜘蛛_Lv20 Lv20\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,WataSpider,Main],Level:20}],[{Tags:[Skylands,Ground,Blow,WataSpider,Zombie],Level:20}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 中層の綿蜘蛛 Lv20\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,WataSpider,Main],Level:20}],[{Tags:[Skylands,Ground,Blow,WataSpider,Zombie],Level:20}]]}}]}}"
             }
           ]
         },
@@ -2474,7 +2474,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 上層の綿蜘蛛_Lv30 Lv30\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,WataSpider,Main],Level:30}],[{Tags:[Skylands,Ground,Blow,WataSpider,Zombie],Level:30}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 上層の綿蜘蛛 Lv30\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,WataSpider,Main],Level:30}],[{Tags:[Skylands,Ground,Blow,WataSpider,Zombie],Level:30}]]}}]}}"
             }
           ]
         },
@@ -2485,7 +2485,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 中層の爆弾処理班_Lv23 Lv23\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,EnderBoomer,Main],Level:23}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 中層の爆弾処理班 Lv23\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,EnderBoomer,Main],Level:23}]]}}]}}"
             }
           ]
         },
@@ -2496,7 +2496,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 下層のシルバーウォーリア_Lv12 Lv12\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,SilverWarrior,Main],Level:12}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 下層のシルバーウォーリア Lv12\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,SilverWarrior,Main],Level:12}]]}}]}}"
             }
           ]
         },
@@ -2507,7 +2507,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 下層のシルバータンク_Lv12 Lv12\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,SilverTank,Main],Level:12}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 下層のシルバータンク Lv12\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,SilverTank,Main],Level:12}]]}}]}}"
             }
           ]
         },
@@ -2518,7 +2518,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 下層のシルバーヒーラー_Lv12 Lv12\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,SilverHealer,Main],Level:12}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 下層のシルバーヒーラー Lv12\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,SilverHealer,Main],Level:12}]]}}]}}"
             }
           ]
         },
@@ -2529,7 +2529,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 下層のシルバーソーサラー_Lv12 Lv12\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,SilverSorcerer,Main],Level:12}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 下層のシルバーソーサラー Lv12\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,SilverSorcerer,Main],Level:12}]]}}]}}"
             }
           ]
         },
@@ -2540,7 +2540,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 中層のシルバーウォーリア+ソーサラー_Lv24 Lv24\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,SilverSorcerer,Main],Level:24}],[{Tags:[Skylands,Ground,Blow,SilverWarrior,Main],Level:24}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 中層のシルバーウォーリア+ソーサラー Lv24\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,SilverSorcerer,Main],Level:24}],[{Tags:[Skylands,Ground,Blow,SilverWarrior,Main],Level:24}]]}}]}}"
             }
           ]
         },
@@ -2551,7 +2551,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 中層のシルバーヒーラー+タンク_Lv24 Lv24\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,SilverHealer,Main],Level:24}],[{Tags:[Skylands,Ground,Blow,SilverTank,Main],Level:24}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 中層のシルバーヒーラー+タンク Lv24\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,SilverHealer,Main],Level:24}],[{Tags:[Skylands,Ground,Blow,SilverTank,Main],Level:24}]]}}]}}"
             }
           ]
         },
@@ -2562,7 +2562,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 下層のビックリーパー_Lv12 Lv12\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,BigReeper,Main],Level:12}],[{Tags:[Skylands,Ground,Blow,BigReeper,Head],Level:1}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 下層のビックリーパー Lv12\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,BigReeper,Main],Level:12}],[{Tags:[Skylands,Ground,Blow,BigReeper,Head],Level:1}]]}}]}}"
             }
           ]
         },
@@ -2573,7 +2573,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 下層のベビーフレイマーズ_Lv14 Lv14\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Nether,Ground,Blow,FlamerBaby,Main],Level:14}],[{Tags:[Nether,Ground,Blow,FlamerBaby,Sound],Level:1}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 下層のベビーフレイマーズ Lv14\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Nether,Ground,Blow,FlamerBaby,Main],Level:14}],[{Tags:[Nether,Ground,Blow,FlamerBaby,Sound],Level:1}]]}}]}}"
             }
           ]
         },
@@ -2584,7 +2584,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 中層のスイカの兵隊と妖精_Lv18 Lv18\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Sky,Blow,WaterMelon,Fairy],Level:18}],[{Tags:[Global,Other,Bullet,RideDisplay],Level:1}],[{Tags:[Skylands,Sky,Blow,WaterMelon,Zombie],Level:18}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 中層のスイカの兵隊と妖精 Lv18\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Sky,Blow,WaterMelon,Fairy],Level:18}],[{Tags:[Global,Other,Bullet,RideDisplay],Level:1}],[{Tags:[Skylands,Sky,Blow,WaterMelon,Zombie],Level:18}]]}}]}}"
             }
           ]
         },

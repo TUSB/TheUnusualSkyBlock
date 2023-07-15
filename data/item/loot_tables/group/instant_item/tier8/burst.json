@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/mushroom_stew/burst/large",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/mushroom_stew/burst/giant"
+        }
+      ]
+    }
+  ]
+}
