@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 3,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:group/base_currency/tier1/emerald"
         },
@@ -14,7 +14,7 @@
           "name": "item:group/magic_stone/tier1/mix"
         },
         {
-          "weight": 2,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:group/instant_item/tier1/mix_instant_items"
         }

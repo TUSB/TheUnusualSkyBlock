@@ -14,7 +14,7 @@
           "name": "item:group/magic_stone/tier6/mix"
         },
         {
-          "weight": 2,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:group/instant_item/tier6/mix_instant_items"
         }
