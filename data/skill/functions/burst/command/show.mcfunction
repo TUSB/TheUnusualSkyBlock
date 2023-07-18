@@ -17,3 +17,5 @@ execute as @e[tag=BurstCommand,tag=!Initialized,distance=..3] positioned as @s r
 scoreboard players operation @e[tag=BurstCommand,tag=!Initialized,distance=..3] ParentID = @s OhMyDatID
 
 scoreboard players set @s Burst 80
+
+function makeup:skill/burst/command/show

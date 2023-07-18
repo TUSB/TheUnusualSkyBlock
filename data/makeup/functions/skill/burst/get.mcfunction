@@ -1,0 +1,1 @@
+playsound minecraft:entity.player.attack.nodamage master @a ~ ~ ~ 1 1.5

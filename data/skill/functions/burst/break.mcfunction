@@ -65,4 +65,7 @@ execute in area:control_area run bossbar set skill:burst name {"block":"2 3 2","
 # 値変更
 execute store result bossbar skill:burst value store result bossbar skill:burst max run scoreboard players get @s Burst
 
+# 演出
+function makeup:skill/burst/break 
+
 kill @e[tag=BurstCommand,scores={ParentID=0},distance=..13]
