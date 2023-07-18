@@ -16,7 +16,8 @@ function player:game_settings/show
 function enemy:break_spawner/alpha_advancements/update
 
 # バースト必要値 更新
-execute store result score _ _ run bossbar set skill:burst players @a
+bossbar set skill:burst players @a
+execute store result score _ _ if entity @a
 scoreboard players remove _ _ 1
 scoreboard players add _ _ 10
 scoreboard players set _ Calc 10

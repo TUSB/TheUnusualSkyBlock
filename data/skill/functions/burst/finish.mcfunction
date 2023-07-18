@@ -11,8 +11,8 @@ execute if score @s Job matches 6 run tellraw @a ["",{"translate":"%1$sは%2$s�
 execute if score @s Job matches 7 run tellraw @a ["",{"translate":"%1$sは%2$sの効果が切れた。","color":"light_purple","with":[{"selector":"@s"},{"text":"絡繰士のオーラ","hoverEvent":{"action":"show_text","value":"範囲内のプレイヤーのスキルレベルが１上昇する。"}}]}]
 
 # ボスバー修正
-bossbar set skill:burst name {"translate":"バーストゲージ","italic":true,"bold":"true"}
-execute store result score _ _ run bossbar set skill:burst players @a
+bossbar set skill:burst name {"translate":"バーストゲージ","italic":true,"bold":true}
+execute store result score _ _ if entity @a
 scoreboard players remove _ _ 1
 scoreboard players add _ _ 10
 scoreboard players set _ Calc 10
