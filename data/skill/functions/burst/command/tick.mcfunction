@@ -3,7 +3,6 @@
 scoreboard players operation * ParentID -= @s OhMyDatID
 
 #全て入力済みになったらバーストブレイク
-execute anchored eyes positioned ^ ^-0.85 ^5 unless entity @e[tag=BurstCommand,tag=!Center,scores={ParentID=0,Burst=0},distance=..32] run say @e[tag=BurstCommand] ばーすとぶれいく
 execute anchored eyes positioned ^ ^-0.85 ^5 unless entity @e[tag=BurstCommand,tag=!Center,scores={ParentID=0,Burst=0},distance=..64] run function skill:burst/break
 
 #バーストコマンド入力
