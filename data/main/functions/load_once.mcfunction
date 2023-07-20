@@ -143,7 +143,7 @@ scoreboard objectives add SkyWalk dummy {"text":"スカイウォーク"}
 scoreboard objectives add RestoreItem trigger {"text":"リスト・アイテム処理選択"}
 
 ###バースト ボスバー
-bossbar add skill:burst {"translate":"バーストゲージ","italic":true,"bold":"true"}
+bossbar add skill:burst {"translate":"バーストゲージ","italic":true,"bold":true}
 bossbar set skill:burst color white
 bossbar set skill:burst visible false
 
