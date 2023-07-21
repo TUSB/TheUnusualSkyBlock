@@ -20,7 +20,7 @@ bossbar set skill:burst players @a
 execute store result score _ _ if entity @a
 scoreboard players remove _ _ 1
 scoreboard players add _ _ 10
-scoreboard players set _ Calc 10
+scoreboard players set _ Calc 30
 execute store result bossbar skill:burst max run scoreboard players operation _ _ *= _ Calc
 
 function skill:burst/bossbar

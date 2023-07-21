@@ -146,6 +146,7 @@ scoreboard objectives add RestoreItem trigger {"text":"リスト・アイテム�
 bossbar add skill:burst {"translate":"バーストゲージ","italic":true,"bold":true}
 bossbar set skill:burst color white
 bossbar set skill:burst visible false
+bossbar set skill:burst style notched_6
 
 ###乱数初期化
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,WaitTime:1,ReapplicationDelay:0,Duration:0,Tags:[Initialized]}

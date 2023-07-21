@@ -4,7 +4,9 @@ execute store result bossbar skill:burst value run scoreboard players get $World
 
 # バースト使用可能かどうか？
 execute store result score _ _ run bossbar get skill:burst max
-execute if score _ _ < $World Burst run bossbar set skill:burst color yellow
+scoreboard players set _ Calc 3
+scoreboard players operation _ _ /= _ Calc
+execute if score _ _ <= $World Burst run bossbar set skill:burst color yellow
 execute if score _ _ > $World Burst run bossbar set skill:burst color white
 
 # 表示
