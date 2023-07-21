@@ -12,7 +12,7 @@ execute if score _ _ matches 11.. run scoreboard players remove @s Burst 100
 ###無敵
 execute if score @s Job matches 1 run effect give @a[distance=..32] minecraft:resistance 1 127
 ###忍者
-# 
+# 最初に付与した分で処理終了
 ###狩人
 # 
 ###常時キアリク
@@ -20,7 +20,7 @@ execute if score @s Job matches 1 run effect give @a[distance=..32] minecraft:re
 ###消費MP0
 # practice内で処理
 ###召喚士
-# 
+# damage/apply内で処理
 ###スキルレベル上昇
 # practice内で処理
 ###怪盗

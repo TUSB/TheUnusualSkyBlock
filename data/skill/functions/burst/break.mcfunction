@@ -26,9 +26,10 @@ execute if score @s Job matches 4 run scoreboard players operation @s Burst *= _
 ### 黒魔４秒＊１０
 execute if score @s Job matches 5 run scoreboard players set _ _ 400
 execute if score @s Job matches 5 run scoreboard players operation @s Burst *= _ _
-### 召喚８秒＊１０
-execute if score @s Job matches 6 run scoreboard players set _ _ 800
+### 召喚２０秒＊１０
+execute if score @s Job matches 6 run scoreboard players set _ _ 2000
 execute if score @s Job matches 6 run scoreboard players operation @s Burst *= _ _
+execute if score @s Job matches 6 run function skill:burst/summoner/act
 ### 絡繰４秒＊１０
 execute if score @s Job matches 7 run scoreboard players set _ _ 400
 execute if score @s Job matches 7 run scoreboard players operation @s Burst *= _ _

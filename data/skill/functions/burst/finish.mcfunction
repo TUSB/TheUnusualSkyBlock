@@ -1,6 +1,8 @@
 
 ### バースト終了
 
+##召喚士
+execute if score @s Job matches 6 run function skill:burst/summoner/finish
 
 execute if score @s Job matches 1 run tellraw @a ["",{"translate":"%1$sは%2$sの効果が切れた。","color":"light_purple","with":[{"selector":"@s"},{"text":"剣士のオーラ","hoverEvent":{"action":"show_text","value":"範囲内のプレイヤーのダメージを無効化する。"}}]}]
 execute if score @s Job matches 2 run tellraw @a ["",{"translate":"%1$sは%2$sの効果が切れた。","color":"light_purple","with":[{"selector":"@s"},{"text":"忍者のオーラ","hoverEvent":{"action":"show_text","value":"範囲内のプレイヤーの周囲の敵がスキルを使えなくなる。"}}]}]
