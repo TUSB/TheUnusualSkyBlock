@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 80
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 50
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 50
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.51d},{Item:{id:"minecraft:oak_log"},Count:3,CountRange:8,Chance:1d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.51d},{Item:{id:"minecraft:oak_planks"},Count:1,CountRange:4,Chance:0.3d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"この筋肉は飾りではない。"}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Name:"Function",Tags:[Global,Event,Function,DamageSound,Mankind]}]}

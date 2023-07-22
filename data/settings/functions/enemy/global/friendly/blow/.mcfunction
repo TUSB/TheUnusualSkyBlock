@@ -5,6 +5,7 @@ execute if entity @s[tag=EtherMerchant] run function settings:enemy/global/frien
 execute if entity @s[tag=CarrotCarrotski] run function settings:enemy/global/friendly/blow/carrot_carrotski
 execute if entity @s[tag=SoupMerchant] run function settings:enemy/global/friendly/blow/soup_merchant
 execute if entity @s[tag=CatCatch] run function settings:enemy/global/friendly/blow/cat_catch
+execute if entity @s[tag=HolyHoriHollick] run function settings:enemy/global/friendly/blow/holy_hori__hollick
 execute if entity @s[tag=Vogue] run function settings:enemy/global/friendly/blow/vogue
 execute if entity @s[tag=ThoughtPot] run function settings:enemy/global/friendly/blow/thought_pot/
 execute if entity @s[tag=ScarecrowDoll] run function settings:enemy/global/friendly/blow/scarecrow_doll/

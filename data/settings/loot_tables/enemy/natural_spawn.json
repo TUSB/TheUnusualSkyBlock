@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -16,7 +16,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 100,
+          "weight": 200,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -27,7 +27,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -38,7 +38,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 100,
+          "weight": 200,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -49,7 +49,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 130,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -60,7 +60,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -71,7 +71,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -82,7 +82,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -93,7 +93,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -104,7 +104,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -115,7 +115,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -126,7 +126,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -137,7 +137,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 120,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -148,18 +148,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Combat,MagmaCubeLarge],Level:8}]]}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -269,7 +258,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -291,7 +280,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -302,7 +291,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 20,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -313,7 +302,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 20,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -324,7 +313,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 100,
+          "weight": 200,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -335,7 +324,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
+          "weight": 20,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -346,7 +335,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 100,
+          "weight": 200,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -357,7 +346,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -368,7 +357,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 20,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -379,7 +368,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 20,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -401,7 +390,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 20,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -412,7 +401,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
+          "weight": 20,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -423,7 +412,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 40,
+          "weight": 140,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -478,7 +467,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
+          "weight": 10,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -502,7 +491,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -513,7 +502,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 100,
+          "weight": 200,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -524,7 +513,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -535,7 +524,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 100,
+          "weight": 200,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -546,7 +535,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 130,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -557,7 +546,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -568,7 +557,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -579,7 +568,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -590,7 +579,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -601,7 +590,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -612,7 +601,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -623,7 +612,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -634,7 +623,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
+          "weight": 120,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -645,18 +634,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 20,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Combat,MagmaCubeLarge],Level:8}]]}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -766,7 +744,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -788,7 +766,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -799,7 +777,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 20,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -810,7 +788,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 20,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -821,7 +799,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 100,
+          "weight": 200,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -832,7 +810,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
+          "weight": 20,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -843,7 +821,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 100,
+          "weight": 200,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -854,7 +832,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 50,
+          "weight": 150,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -865,7 +843,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 20,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -876,7 +854,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 20,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -898,7 +876,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 30,
+          "weight": 20,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -909,7 +887,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
+          "weight": 20,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -920,7 +898,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 40,
+          "weight": 140,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -975,7 +953,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 15,
+          "weight": 10,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -999,7 +977,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 100,
+          "weight": 200,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -1010,7 +988,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 100,
+          "weight": 200,
           "name": "minecraft:stick",
           "functions": [
             {
