@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:23,InstantEffect:{RecoverBP:100},display:{Name:'{\"translate\":\"バースト(大)\",\"color\":\"#FFF37A\",\"bold\":true,\"italic\":false}'}}"
+              "tag": "{CustomModelData:23,InstantEffect:{RecoverBP:80},display:{Name:'{\"translate\":\"バースト(大)\",\"color\":\"#FFF37A\",\"bold\":true,\"italic\":false}'}}"
             }
           ]
         }
