@@ -6,7 +6,9 @@
 function effects:status/modify_max
 #MP超過修正
 scoreboard players operation @s MP < @s MPMax
-#ペイル再付与
+#ペイル再付与 ロック解除
+scoreboard players set _ _ -1
+execute if score @s PaleLevel matches ..-1 run scoreboard players operation @s PaleLevel *= _ _
 execute if score @s PaleLevel matches 0.. run function effects:pale/health_down
 execute if score @s PaleLevel matches 0.. run function makeup:effects/pale/apply
 #全回復

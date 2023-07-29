@@ -36,3 +36,7 @@ scoreboard players add @s PaleLevel 1
 function effects:pale/health_down
 
 execute run function makeup:effects/pale/apply
+
+# 一生に一回だけ付与 ロックする
+scoreboard players set _ _ -1
+scoreboard players operation @s PaleLevel *= _ _
