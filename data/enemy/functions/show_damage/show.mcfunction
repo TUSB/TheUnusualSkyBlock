@@ -1,7 +1,12 @@
 #ダメージ表示
-execute if score @s StoredDamage matches 0.. run loot spawn ~ ~ ~ loot enemy:health_minus
+data modify storage popup: data set value {duration:0.7}
+execute if score @s StoredDamage matches 0.. run data modify storage popup: data.format set value '{"text":"","color":"#ff8600"}'
+# execute if score @s StoredDamage matches 0.. run data modify storage popup: data.format set value '{"text":"","color":"#ffd300"}'
+execute if score @s StoredDamage matches 0.. store result storage popup: data.value int 1 run scoreboard players get @s StoredDamage
 scoreboard players set _ _ -1
 scoreboard players operation @s StoredDamage *= _ _
-execute if score @s StoredDamage matches 1.. run loot spawn ~ ~ ~ loot enemy:health_plus
-execute as @e[type=item,tag=!Initialized,distance=..0.01,limit=1] run data modify entity @s CustomName set from entity @s Item.tag.display.Name
-data merge entity @e[type=item,tag=!Initialized,distance=..0.01,limit=1] {Tags:[Initialized],CustomNameVisible:1b,Age:5986,PickupDelay:32767}
+execute if score @s StoredDamage matches 1.. run data modify storage popup: data.format set value '{"text":"","color":"#a8ff00"}'
+execute if score @s StoredDamage matches 1.. store result storage popup: data.value int 1 run scoreboard players get @s StoredDamage
+execute as @a[distance=..32,limit=1,sort=nearest] run function #util:distance
+execute store result storage popup: data.size double 0.01 run data get storage util: out 25
+function popup:
