@@ -4,14 +4,14 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 4,
+          "weight": 16,
           "type": "loot_table",
-          "name": "item:item/mushroom_stew/burst/large",
+          "name": "item:item/mushroom_stew/radiance/medium",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
+                "min": 3,
                 "max": 5
               }
             }
@@ -20,7 +20,16 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/mushroom_stew/burst/giant"
+          "name": "item:item/mushroom_stew/radiance/large",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
         }
       ]
     }

@@ -6,13 +6,13 @@
         {
           "weight": 16,
           "type": "loot_table",
-          "name": "item:item/mushroom_stew/burst/small",
+          "name": "item:item/mushroom_stew/radiance/medium",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3,
-                "max": 5
+                "min": 2,
+                "max": 4
               }
             }
           ]
@@ -20,16 +20,7 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/mushroom_stew/burst/medium",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
+          "name": "item:item/mushroom_stew/radiance/large"
         }
       ]
     }

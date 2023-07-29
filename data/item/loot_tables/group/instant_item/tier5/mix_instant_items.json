@@ -16,7 +16,7 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:group/instant_item/tier5/burst"
+          "name": "item:group/instant_item/tier5/radiance"
         }
       ]
     }
