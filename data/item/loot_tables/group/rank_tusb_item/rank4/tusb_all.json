@@ -186,6 +186,11 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/shears/kuwagata"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/shield/bentler"
         },
         {

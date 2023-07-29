@@ -326,6 +326,11 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/shield/windmill_shield"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/stone_axe/fountain_axe"
         },
         {
