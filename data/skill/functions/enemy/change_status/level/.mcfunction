@@ -23,3 +23,5 @@ scoreboard players operation @s _ = @s MPMax
 function enemy:spawn/apply_status/status/mp
 scoreboard players operation @s MP *= @s MPMax
 scoreboard players operation @s MP /= @s _
+#名前の修正
+execute if entity @s[tag=!HideLevel] run function skill:enemy/change_status/level/rename
