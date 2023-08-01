@@ -1,0 +1,1 @@
+playsound minecraft:entity.cat.hurt master @s ~ ~ ~ 1 1.6
