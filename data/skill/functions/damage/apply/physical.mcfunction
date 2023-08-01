@@ -8,4 +8,4 @@ scoreboard players operation @s Damage += _ Calc
 
 execute unless data storage skill: Damage{Hit:1b} run scoreboard players operation @s StoredDamage += _ Calc
 
-tag @s[tag=CallOnDamage] add ReceivedPhysicalDamage
+tag @s add ReceivedPhysicalDamage

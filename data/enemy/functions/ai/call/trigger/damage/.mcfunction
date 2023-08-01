@@ -6,12 +6,5 @@ execute if data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Blink run f
 ##
 execute if data storage mob_data: CallList[0].Element run function enemy:ai/call/trigger/damage/element
 
-tag @s remove ReceivedPhysicalDamage
-tag @s remove ReceivedFireDamage
-tag @s remove ReceivedIceDamage
-tag @s remove ReceivedLightningDamage
-tag @s remove ReceivedLightDamage
-tag @s remove ReceivedDarkDamage
-
 execute unless data storage mob_data: CallList[0].Element run function enemy:ai/call/execute/
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from storage mob_data: AI

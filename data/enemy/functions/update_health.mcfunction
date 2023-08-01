@@ -16,3 +16,10 @@ tag @s remove HitDamageTaken
 execute if score @s HP matches ..0 run function entity:mob_death/check
 #共通 - ライフスカウター
 execute if entity @s[tag=LifeScouter] run function skill:act/common/life_scouter/bar_set
+
+tag @s remove ReceivedPhysicalDamage
+tag @s remove ReceivedFireDamage
+tag @s remove ReceivedIceDamage
+tag @s remove ReceivedLightningDamage
+tag @s remove ReceivedLightDamage
+tag @s remove ReceivedDarkDamage

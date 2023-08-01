@@ -10,13 +10,19 @@
             {
               "function": "minecraft:set_name",
               "entity": "this",
-              "name": {
-                "score": {
-                  "name": "@s",
-                  "objective": "StoredDamage"
+              "name": [
+                {
+                  "text": " "
                 },
-                "font": "health_minus"
-              }
+                {
+                  "storage": "mob_data:",
+                  "nbt": "WeakElement[]",
+                  "interpret": true,
+                  "separator": {
+                    "text": ""
+                  }
+                }
+              ]
             },
             {
               "function": "minecraft:set_nbt",
