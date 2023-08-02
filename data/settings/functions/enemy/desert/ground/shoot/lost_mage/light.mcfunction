@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:armor_stand",CustomName:'{"translate":"ロストメイジの光魔法","color":"#FFFFFF"}',Silent:1b,Invulnerable:1b,Small:1b,Invisible:1b,PortalCooldown:120,Tags:[DelayedData,HasAI,CallOnInit,CallOnAttack,CallOnBlock,TickingRequired,SmartMotion,Bounce,DamageProjectile,EnemyProjectile]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:armor_stand",CustomName:'{"translate":"ロストメイジの光魔法","color":"#FFFFFF"}',Silent:1b,Invulnerable:1b,Small:1b,Invisible:1b,PortalCooldown:120,Tags:[DelayedData,HasAI,CallOnInit,CallOnAttack,CallOnBlock,TickingRequired,NativeTask,SmartMotion,Bounce,DamageProjectile,EnemyProjectile]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"%1$sは%2$によって分子化してしまった。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
 # AI

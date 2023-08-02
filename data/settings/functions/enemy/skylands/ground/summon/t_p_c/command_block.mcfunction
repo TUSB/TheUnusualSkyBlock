@@ -1,0 +1,5 @@
+### 即時ステータス
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:block_display",interpolation_duration:6,Tags:[DelayedData,HasAI]}
+data modify storage tusb_mob: "即時ステータス"."見た目" set value {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.5f,0f,-0.5f],scale:[1f,1f,1f]},block_state:{Name:"minecraft:command_block",Properties:{conditional:"false",facing:"up"}}}
+# AI
+data modify storage tusb_mob: "遅延ステータス".AI set value {Passenger:{Type:"down",Check:false,Call:[{Name:"ChangeTurn",Set:2},{Name:"ChangeAI",Passenger:{Call:[]}}]},TurnCount:3,Turn:[{Index:1},{Index:2,Exit:{Loop:{Max:9,Current:9}}},{Index:3,Skill:[{Interval:{Min:1,Max:1,Current:1},Loop:{Max:1,Current:1},Call:[{Name:"Damage",Player:{Damage:9999d,BypassArmor:true,BypassResistance:true,CanBeBlocked:false,DeathCause:'[{"translate":"%1$sは%2$sに/killを実行されて死んだ。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'},Distance:{Max:4d}}]},{Interval:{Min:20,Max:20,Current:20},Loop:{Max:1,Current:1},Call:[{Name:"Kill"}]}],Exit:{Loop:{Max:2,Current:2}}}]}

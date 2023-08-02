@@ -1,3 +1,4 @@
+execute if entity @s[tag=TPC] run function settings:enemy/skylands/ground/blow/t_p_c/
 execute if entity @s[tag=CrafterWhoLavaOnEverything] run function settings:enemy/skylands/ground/blow/crafter_who_lava_on_everything/
 execute if entity @s[tag=CrafterWhoWaterOnEverything] run function settings:enemy/skylands/ground/blow/crafter_who_water_on_everything/
 execute if entity @s[tag=Giga] run function settings:enemy/skylands/ground/blow/giga/

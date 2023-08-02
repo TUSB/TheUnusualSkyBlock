@@ -1,6 +1,8 @@
 execute if entity @s[tag=SpikeMain] run function settings:enemy/skylands/ground/blow/silver_sorcerer/spike_main
 execute if entity @s[tag=SpikeInit] run function settings:enemy/skylands/ground/blow/silver_sorcerer/spike_init
+execute if entity @s[tag=SpikeInitLoop] run function settings:enemy/skylands/ground/blow/silver_sorcerer/spike_init_loop
 execute if entity @s[tag=SpikeDamage1] run function settings:enemy/skylands/ground/blow/silver_sorcerer/spike_damage1
+execute if entity @s[tag=SpikeDamage2] run function settings:enemy/skylands/ground/blow/silver_sorcerer/spike_damage2
 execute if entity @s[tag=Spike1] run function settings:enemy/skylands/ground/blow/silver_sorcerer/spike_1
 execute if entity @s[tag=Spike2] run function settings:enemy/skylands/ground/blow/silver_sorcerer/spike_2
 execute if entity @s[tag=Spike3] run function settings:enemy/skylands/ground/blow/silver_sorcerer/spike_3

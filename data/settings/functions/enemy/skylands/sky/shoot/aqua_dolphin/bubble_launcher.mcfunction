@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:armor_stand",CustomName:'{"translate":"バブルランチャー","color":"#FF0000","bold":true}',Tags:[Mob,DelayedData,HasAI,CallOnInit,CallOnTick,TickingRequired,SmartMotion,Break,DamageProjectile,EnemyProjectile,HideLevel],Small:1b,Invisible:1b,Invulnerable:1b,PortalCooldown:100}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:armor_stand",CustomName:'{"translate":"バブルランチャー","color":"#FF0000","bold":true}',Tags:[Mob,DelayedData,HasAI,CallOnInit,CallOnTick,TickingRequired,NativeTask,SmartMotion,Break,DamageProjectile,EnemyProjectile,HideLevel],Small:1b,Invisible:1b,Invulnerable:1b,PortalCooldown:100}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {ArmorItems:[{},{},{},{}],DisabledSlots:4144959}
 ### 遅延ステータス
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 200

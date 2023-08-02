@@ -1,6 +1,6 @@
 #Function
 # サウンド
-playsound entity.lightning_bolt.thunder neutral @a[distance=..32] ~ ~ ~ 1.0 2.0 0.1
+playsound entity.lightning_bolt.thunder neutral @a[distance=..32] ~ ~ ~ 0.5 2.0 0.1
 # ランダム処理
 execute store result score _ Random run function calc:random
 scoreboard players set _ _ 3
