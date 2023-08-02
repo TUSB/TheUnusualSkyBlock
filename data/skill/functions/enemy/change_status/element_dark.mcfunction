@@ -8,3 +8,5 @@ scoreboard players operation @s ElementDark += @s Calc
 execute if data storage mob_data: Call.ElementDark.Limit store result score @s _ run data get storage mob_data: Call.ElementDark.Limit
 execute if score @s Calc matches 1.. if data storage mob_data: Call.ElementDark.Limit run scoreboard players operation @s ElementDark < @s _
 execute if score @s Calc matches ..-1 if data storage mob_data: Call.ElementDark.Limit run scoreboard players operation @s ElementDark > @s _
+
+execute if entity @s[tag=LifeScouter] run function skill:act/common/life_scouter/element_text

@@ -1,0 +1,80 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  {
+                    "storage": "skill:",
+                    "nbt": "LifeScouter.OriginalName",
+                    "interpret": true
+                  },
+                  "\n",
+                  {
+                    "storage": "skill:",
+                    "nbt": "LifeScouter.HPBar",
+                    "interpret": true
+                  },
+                  "\n",
+                  {
+                    "translate": "【%1$s】",
+                    "color": "#ffd300",
+                    "with": [
+                      {
+                        "storage": "skill:",
+                        "nbt": "LifeScouter.WeakElement[]",
+                        "color": "white",
+                        "interpret": true,
+                        "separator": {
+                          "text": ""
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "translate": "【%1$s】",
+                    "color": "#ff8600",
+                    "with": [
+                      {
+                        "storage": "skill:",
+                        "nbt": "LifeScouter.ResistanceElement[]",
+                        "color": "white",
+                        "interpret": true,
+                        "separator": {
+                          "text": ""
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "translate": "【%1$s】",
+                    "color": "#a8ff00",
+                    "with": [
+                      {
+                        "storage": "skill:",
+                        "nbt": "LifeScouter.RecoverElement[]",
+                        "color": "white",
+                        "interpret": true,
+                        "separator": {
+                          "text": ""
+                        }
+                      }
+                    ]
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

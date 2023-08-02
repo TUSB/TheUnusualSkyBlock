@@ -8,3 +8,5 @@ scoreboard players operation @s ElementLightning += @s Calc
 execute if data storage mob_data: Call.ElementLightning.Limit store result score @s _ run data get storage mob_data: Call.ElementLightning.Limit
 execute if score @s Calc matches 1.. if data storage mob_data: Call.ElementLightning.Limit run scoreboard players operation @s ElementLightning < @s _
 execute if score @s Calc matches ..-1 if data storage mob_data: Call.ElementLightning.Limit run scoreboard players operation @s ElementLightning > @s _
+
+execute if entity @s[tag=LifeScouter] run function skill:act/common/life_scouter/element_text
