@@ -12,6 +12,7 @@
               "entity": "this",
               "lore": [
                 [
+                  "",
                   {
                     "storage": "skill:",
                     "nbt": "LifeScouter.OriginalName",
@@ -25,49 +26,34 @@
                   },
                   "\n",
                   {
-                    "translate": "【%1$s】",
-                    "color": "#ffd300",
-                    "with": [
-                      {
-                        "storage": "skill:",
-                        "nbt": "LifeScouter.WeakElement[]",
-                        "color": "white",
-                        "interpret": true,
-                        "separator": {
-                          "text": ""
-                        }
-                      }
-                    ]
+                    "text": "fcnld",
+                    "font": "element"
+                  },
+                  "\n",
+                  {
+                    "storage": "skill:",
+                    "nbt": "LifeScouter.Fire",
+                    "interpret": true
                   },
                   {
-                    "translate": "【%1$s】",
-                    "color": "#ff8600",
-                    "with": [
-                      {
-                        "storage": "skill:",
-                        "nbt": "LifeScouter.ResistanceElement[]",
-                        "color": "white",
-                        "interpret": true,
-                        "separator": {
-                          "text": ""
-                        }
-                      }
-                    ]
+                    "storage": "skill:",
+                    "nbt": "LifeScouter.Ice",
+                    "interpret": true
                   },
                   {
-                    "translate": "【%1$s】",
-                    "color": "#a8ff00",
-                    "with": [
-                      {
-                        "storage": "skill:",
-                        "nbt": "LifeScouter.RecoverElement[]",
-                        "color": "white",
-                        "interpret": true,
-                        "separator": {
-                          "text": ""
-                        }
-                      }
-                    ]
+                    "storage": "skill:",
+                    "nbt": "LifeScouter.Lightning",
+                    "interpret": true
+                  },
+                  {
+                    "storage": "skill:",
+                    "nbt": "LifeScouter.Light",
+                    "interpret": true
+                  },
+                  {
+                    "storage": "skill:",
+                    "nbt": "LifeScouter.Dark",
+                    "interpret": true
                   }
                 ]
               ]
