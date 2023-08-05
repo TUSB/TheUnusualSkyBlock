@@ -1,14 +1,11 @@
 execute if entity @s[tag=DoomSummon1] run function settings:enemy/skylands/sky/shoot/impure_skull/doom_summon1
-execute if entity @s[tag=DoomSummon2] run function settings:enemy/skylands/sky/shoot/impure_skull/doom_summon2
 execute if entity @s[tag=BeamPre] run function settings:enemy/skylands/sky/shoot/impure_skull/beam_pre
 execute if entity @s[tag=BeamFinish] run function settings:enemy/skylands/sky/shoot/impure_skull/beam_finish
 execute if entity @s[tag=Main] run function settings:enemy/skylands/sky/shoot/impure_skull/main
 execute if entity @s[tag=Doom] run function settings:enemy/skylands/sky/shoot/impure_skull/doom
 execute if entity @s[tag=DoomDamage1] run function settings:enemy/skylands/sky/shoot/impure_skull/doom_damage1
-execute if entity @s[tag=DoomDamage2] run function settings:enemy/skylands/sky/shoot/impure_skull/doom_damage2
 execute if entity @s[tag=DoomInit] run function settings:enemy/skylands/sky/shoot/impure_skull/doom_init
 execute if entity @s[tag=DoomTick1] run function settings:enemy/skylands/sky/shoot/impure_skull/doom_tick1
-execute if entity @s[tag=DoomTick2] run function settings:enemy/skylands/sky/shoot/impure_skull/doom_tick2
 execute if entity @s[tag=Soul] run function settings:enemy/skylands/sky/shoot/impure_skull/soul
 execute if entity @s[tag=SoulParticle] run function settings:enemy/skylands/sky/shoot/impure_skull/soul_particle
 execute if entity @s[tag=SoulDirection] run function settings:enemy/skylands/sky/shoot/impure_skull/soul_direction

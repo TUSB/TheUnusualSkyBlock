@@ -1,5 +1,4 @@
 execute if entity @s[tag=WaveEffect1] run function settings:enemy/skylands/ground/shoot/illusion_absorber/wave_effect1
-execute if entity @s[tag=WaveEffect2] run function settings:enemy/skylands/ground/shoot/illusion_absorber/wave_effect2
 execute if entity @s[tag=WavePre] run function settings:enemy/skylands/ground/shoot/illusion_absorber/wave_pre
 execute if entity @s[tag=WaveShape] run function settings:enemy/skylands/ground/shoot/illusion_absorber/wave_shape
 execute if entity @s[tag=WaveMain] run function settings:enemy/skylands/ground/shoot/illusion_absorber/wave_main
@@ -11,4 +10,3 @@ execute if entity @s[tag=MagicEffect] run function settings:enemy/skylands/groun
 execute if entity @s[tag=MagicShape] run function settings:enemy/skylands/ground/shoot/illusion_absorber/magic_shape
 execute if entity @s[tag=Main] run function settings:enemy/skylands/ground/shoot/illusion_absorber/main
 execute if entity @s[tag=SummonCommand] run function settings:enemy/skylands/ground/shoot/illusion_absorber/summon_command
-execute if entity @s[tag=SummonDirection] run function settings:enemy/skylands/ground/shoot/illusion_absorber/summon_direction
