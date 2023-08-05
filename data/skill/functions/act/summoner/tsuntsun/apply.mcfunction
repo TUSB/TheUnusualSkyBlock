@@ -7,6 +7,7 @@ scoreboard players reset @s[tag=BeforeEvolution,type=snow_golem] Level
 data merge entity @s[tag=BeforeEvolution,type=snow_golem] {Tags:[Spawn],ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Shoot,FriendSentrySnowGolem,Main,SpawnParticles],Level:40}]]}}]}
 
 #フレンド・ウルフ進化
+execute if entity @s[type=wolf] run data merge entity @s {Owner:[I;0,0,0,0]}
 scoreboard players reset @s[tag=BeforeEvolution,type=wolf] Level
 data merge entity @s[tag=BeforeEvolution,type=wolf] {Tags:[Spawn],ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,FriendThunderbolf,Main,SpawnParticles],Level:50}]]}}]}
 
