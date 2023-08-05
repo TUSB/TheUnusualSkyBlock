@@ -6,6 +6,10 @@
 scoreboard players reset @s[tag=BeforeEvolution,type=snow_golem] Level
 data merge entity @s[tag=BeforeEvolution,type=snow_golem] {Tags:[Spawn],ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Shoot,FriendSentrySnowGolem,Main,SpawnParticles],Level:40}]]}}]}
 
+#フレンド・ウルフ進化
+scoreboard players reset @s[tag=BeforeEvolution,type=wolf] Level
+data merge entity @s[tag=BeforeEvolution,type=wolf] {Tags:[Spawn],ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,FriendThunderbolf,Main,SpawnParticles],Level:50}]]}}]}
+
 tag @s add Sicced
 tag @s add CooldownRequired
 execute store result entity @s PortalCooldown int 1 run scoreboard players get _ Calc
