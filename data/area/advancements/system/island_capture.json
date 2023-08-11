@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "overworld_test": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:ender_eye"
+          ]
+        },
+        "location": {
+          "position": {
+            "x": 0.5,
+            "y": 100.5,
+            "z": 0.5
+          },
+          "dimension": "minecraft:overworld"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+    "overworld_test"
+    ]
+  ],
+  "rewards": {
+    "function": "area:system/island_capture"
+  }
+}

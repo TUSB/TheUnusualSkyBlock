@@ -247,3 +247,7 @@ function settings:skill/black_mage/return/default
 
 #難易度リセット カジュアル
 function main:difficulty/reset
+
+#島の攻略率
+data remove storage area: capture
+data merge storage area: {capture:{overworld:{}}}
