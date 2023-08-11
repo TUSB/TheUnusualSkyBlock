@@ -1,4 +1,4 @@
-fill ^-1 ^-1 ^ ^1 ^1 ^ black_wool replace barrier
+fill ^-1 ^-1 ^ ^1 ^1 ^ air replace barrier
 kill @s
 
 function makeup:area/key_block/break
