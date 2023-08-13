@@ -17,3 +17,6 @@ execute if data storage item: SelectedItem.tag.Enchantments[{id:"tusb:魔吸"}] 
 
 #属性ダメージ演出
 execute at 0-0-0-0-2 run function makeup:skill/enchant/elemental_damage/hit
+
+#狩人バースト用フラグ
+tag @s add BurstArrow

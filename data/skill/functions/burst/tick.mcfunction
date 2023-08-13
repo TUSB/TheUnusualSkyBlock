@@ -14,7 +14,8 @@ execute if score @s Job matches 1 run effect give @a[distance=..32] minecraft:re
 ###忍者
 # 最初に付与した分で処理終了
 ###狩人
-# 
+execute if score @s Job matches 3 run function skill:burst/hunter/act0
+#if data storage skill: BurstHunter 
 ###常時キアリク
 # effects:bad_effects内で処理
 ###消費MP0
