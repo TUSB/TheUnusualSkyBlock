@@ -13,6 +13,7 @@ execute if entity @s[tag=SpawnerVase] run function settings:enemy/global/friendl
 execute if entity @s[tag=FriendWolf] run function settings:enemy/global/friendly/blow/friend_wolf/
 execute if entity @s[tag=FriendThunderbolf] run function settings:enemy/global/friendly/blow/friend_thunderbolf/
 execute if entity @s[tag=FriendBumperStorm] run function settings:enemy/global/friendly/blow/friend_bumper_storm/
+execute if entity @s[tag=HealingCat] run function settings:enemy/global/friendly/blow/healing_cat/
 execute if entity @s[tag=ElusiveVase] run function settings:enemy/global/friendly/blow/elusive_vase/
 execute if entity @s[tag=GhostKnight] run function settings:enemy/global/friendly/blow/ghost_knight/
 execute if entity @s[tag=BrittleSkeleton] run function settings:enemy/global/friendly/blow/brittle_skeleton/

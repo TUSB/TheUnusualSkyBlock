@@ -11,7 +11,7 @@ data modify storage tusb_mob: "即時ステータス"."ノックバック力" se
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."炎属性値" set value 150
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."氷属性値" set value 20
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."雷属性値" set value 150
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."光属性値" set value 20
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."光属性値" set value 200
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."闇属性値" set value 20
 # ステータス
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 100
@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/all/villager",Count:1,Chance:0.51d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/all/villager",Count:1,Chance:0.31d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"「今宵のエンド・オブ・エンドは一味違うぞい」%1$sは%2$sの裏切りによって哀れにも一刀両断された。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"お前の肉を削ぎたくなったぞい！！ 覚悟するぞい！！"}]'
 # AI

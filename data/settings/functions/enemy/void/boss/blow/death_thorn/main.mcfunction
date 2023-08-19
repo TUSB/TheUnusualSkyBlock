@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:armor_stand",Tags:[Mob,Enemy,DelayedData,HasAI,CallOnInit,CallOnTimeOut,CallOnDamage,CallOnBlock,TickingRequired,SmartMotion,Bounce,DamageProjectile,EnemyProjectile,FriendlyProjectile,HasLootTable,Unknown],CustomName:'[{"translate":"t","color":"#440066","obfuscated":true},{"translate":"u","color":"#53007D","obfuscated":true},{"translate":"s","color":"#68009C","obfuscated":true},{"translate":"b","color":"#8300C4","obfuscated":true},{"translate":"トゲデスデス","color":"#AA00FF","bold":true,"obfuscated":false},{"translate":"b","color":"#8300C4","obfuscated":true},{"translate":"s","color":"#68009C","obfuscated":true},{"translate":"u","color":"#53007D","obfuscated":true},{"translate":"t","color":"#440066","obfuscated":true}]',Silent:true,Invulnerable:true,ShowArms:false,Invisible:true,NoBasePlate:true,DisabledSlots:4144959,PortalCooldown:7000}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:armor_stand",Tags:[Mob,Enemy,DelayedData,HasAI,CallOnInit,CallOnTimeOut,CallOnDamage,CallOnBlock,TickingRequired,NativeTask,SmartMotion,Bounce,DamageProjectile,EnemyProjectile,FriendlyProjectile,HasLootTable,Unknown],CustomName:'[{"translate":"t","color":"#440066","obfuscated":true},{"translate":"u","color":"#53007D","obfuscated":true},{"translate":"s","color":"#68009C","obfuscated":true},{"translate":"b","color":"#8300C4","obfuscated":true},{"translate":"トゲデスデス","color":"#AA00FF","bold":true,"obfuscated":false},{"translate":"b","color":"#8300C4","obfuscated":true},{"translate":"s","color":"#68009C","obfuscated":true},{"translate":"u","color":"#53007D","obfuscated":true},{"translate":"t","color":"#440066","obfuscated":true}]',Silent:true,Invulnerable:true,ShowArms:false,Invisible:true,NoBasePlate:true,DisabledSlots:4144959,PortalCooldown:7000}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {ArmorItems:[{},{},{},{id:"minecraft:firework_star",Count:1b,tag:{Explosion:{Type:0b,Colors:[I;16711808]},CustomModelData:123}}]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 0d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0d
@@ -11,8 +11,8 @@ data modify storage tusb_mob: "即時ステータス"."ノックバック力" se
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."炎属性値" set value 10
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."氷属性値" set value 10
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."雷属性値" set value 10
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."光属性値" set value 10
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."闇属性値" set value 10
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."光属性値" set value 200
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."闇属性値" set value -100
 # ステータス
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value -20
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 1

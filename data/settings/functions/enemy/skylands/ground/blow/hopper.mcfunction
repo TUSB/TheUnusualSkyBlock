@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 3
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 2
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 2
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.51d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.31d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"実は最初に作られました。"}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:5,Max:20,Current:30},Call:[{Execute:"Random",Name:"Step",Direction:[0f,-10f],Speed:1.2d},{Name:"Step",Direction:[70f,-20f],Speed:0.6d},{Name:"Step",Direction:[-70f,-20f],Speed:0.6d}],MP:1}]}]}

@@ -20,6 +20,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 20
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 120
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 120
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.51d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.31d}]
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Passenger:{Type:"down",Check:false,Call:[{Name:"Function",Tags:[Skylands,Ground,Blow,MiteBro,SisterAnger]},{Name:"ChangeAI",Passenger:{}}]}}

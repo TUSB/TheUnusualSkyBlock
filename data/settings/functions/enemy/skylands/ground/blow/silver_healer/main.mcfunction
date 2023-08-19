@@ -20,6 +20,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 80
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 120
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.51d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.31d}]
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Condition:[{Name:"HasTarget",Target:{Look:"Friendly",Radius:16d,IgnoreBlocks:true}},{Name:"RandomChance",Chance:0.15d}],Name:"Spawn",Count:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,SilverHealer,Main],Level:15}]]}],Tick:[{Name:"Function",Tags:[Skylands,Ground,Blow,SilverHealer,Particle]}],TurnCount:2,Turn:[{Index:1,Skill:[{Interval:{Min:200,Max:400,Current:300},Loop:{Max:1,Current:1},Call:[{Condition:[{Name:"HasTarget",Global:true,Target:{Look:"Friendly",Radius:24d,IgnoreBlocks:true}}],Name:"DelayAction",Tags:["Casting","Healing"]},{Name:"ChangeTurn",Loop:1}]}]},{Index:2,Skill:[{Interval:{Min:30,Max:30,Current:30},Loop:{Max:1,Current:1},Call:[{Name:"Function",Tags:[Skylands,Ground,Blow,SilverHealer,Heal1]}]}]}]}

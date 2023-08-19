@@ -4,3 +4,4 @@ execute if entity @s[tag=Turn] run function settings:enemy/skylands/ground/blow/
 execute if entity @s[tag=Boom1] run function settings:enemy/skylands/ground/blow/ender_boomer/boom1
 execute if entity @s[tag=Boom2] run function settings:enemy/skylands/ground/blow/ender_boomer/boom2
 execute if entity @s[tag=SetTnt1] run function settings:enemy/skylands/ground/blow/ender_boomer/set_tnt1
+execute if entity @s[tag=SetTnt2] run function settings:enemy/skylands/ground/blow/ender_boomer/set_tnt2
