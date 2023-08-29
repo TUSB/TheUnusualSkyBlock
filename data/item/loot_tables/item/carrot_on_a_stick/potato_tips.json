@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomAttributes:1b,display:{Name:'{\"translate\":\"ポテトティップス\",\"color\":\"gold\",\"italic\":false,\"bold\":false}',Lore:['{\"translate\":\"叡智の味がするポテトチップス。\",\"color\":\"#FFFFFF\",\"italic\":false}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" Tips表示\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"Tips表示\",Level:1,Interval:0,Trigger:\"手に持って右クリック\",Count:32}}"
+              "tag": "{CustomModelData:131,CustomAttributes:1b,display:{Name:'{\"translate\":\"ポテトティップス\",\"color\":\"gold\",\"italic\":false,\"bold\":false}',Lore:['{\"translate\":\"叡智の味がするポテトチップス。\",\"color\":\"#FFFFFF\",\"italic\":false}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" Tips表示\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"Tips表示\",Level:1,Interval:60,Trigger:\"手に持って右クリック\",Count:32}}"
             }
           ]
         }
