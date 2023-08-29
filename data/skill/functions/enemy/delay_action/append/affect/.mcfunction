@@ -1,1 +1,2 @@
-execute if data storage mob_data: Call{Tags:["HugeExplosion"]} run function skill:enemy/delay_action/append/affect/huge_explosion/
+execute if data storage mob_data: Call{Tags:["HugeExplosion01"]} run function skill:enemy/delay_action/append/affect/huge_explosion_01/
+execute if data storage mob_data: Call{Tags:["HugeExplosion02"]} run function skill:enemy/delay_action/append/affect/huge_explosion_02/
