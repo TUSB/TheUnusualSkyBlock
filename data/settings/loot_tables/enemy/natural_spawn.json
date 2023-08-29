@@ -318,7 +318,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,BacktheCreeper,Main,SpawnParticles],Level:5}],[{Tags:[Global,Ground,Blow,BacktheCreeper,AngerAec],Level:1}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,BacktheCreeper,Main,SpawnParticles],Level:5}],[{Tags:[Global,Ground,Blow,BacktheCreeper,AngerAec],Level:5}]]}"
             }
           ]
         },
@@ -804,7 +804,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,BacktheCreeper,Main,SpawnParticles],Level:5}],[{Tags:[Global,Ground,Blow,BacktheCreeper,AngerAec],Level:1}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,BacktheCreeper,Main,SpawnParticles],Level:5}],[{Tags:[Global,Ground,Blow,BacktheCreeper,AngerAec],Level:5}]]}"
             }
           ]
         },
@@ -1061,7 +1061,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Underworld,Sky,Blow,VampireBat,Main,SpawnParticles],Level:15}],[{Tags:[Underworld,Sky,Blow,VampireBat,Direction],Level:1}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Underworld,Sky,Blow,VampireBat,Main,SpawnParticles],Level:15}],[{Tags:[Underworld,Sky,Blow,VampireBat,Direction],Level:15}]]}"
             }
           ]
         }
