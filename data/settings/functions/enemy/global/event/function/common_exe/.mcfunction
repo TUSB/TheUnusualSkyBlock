@@ -21,6 +21,7 @@ execute if entity @s[tag=SetMp0] run function settings:enemy/global/event/functi
 execute if entity @s[tag=IsDaytime] run function settings:enemy/global/event/function/common_exe/is_daytime
 execute if entity @s[tag=ExtendExistingTime] run function settings:enemy/global/event/function/common_exe/extend_existing_time
 execute if entity @s[tag=ReduceExistingTime] run function settings:enemy/global/event/function/common_exe/reduce_existing_time
+execute if entity @s[tag=RandomizeWalkSpeed] run function settings:enemy/global/event/function/common_exe/randomize_walk_speed
 execute if entity @s[tag=RotationYFixed] run function settings:enemy/global/event/function/common_exe/rotation_y_fixed
 execute if entity @s[tag=SearchForRides] run function settings:enemy/global/event/function/common_exe/search_for_rides
 execute if entity @s[tag=SearchAndDestroy] run function settings:enemy/global/event/function/common_exe/search_and_destroy
