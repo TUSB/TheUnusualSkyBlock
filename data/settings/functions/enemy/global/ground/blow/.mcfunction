@@ -23,3 +23,7 @@ execute if entity @s[tag=AnvilMan] run function settings:enemy/global/ground/blo
 execute if entity @s[tag=ManEater] run function settings:enemy/global/ground/blow/man_eater/
 execute if entity @s[tag=Executioner] run function settings:enemy/global/ground/blow/executioner/
 execute if entity @s[tag=Lumberjack] run function settings:enemy/global/ground/blow/lumberjack/
+execute if entity @s[tag=TorchlightSteve] run function settings:enemy/global/ground/blow/torchlight_steve/
+execute if entity @s[tag=CoalMineSteve] run function settings:enemy/global/ground/blow/coal_mine_steve/
+execute if entity @s[tag=AgricultureSteve] run function settings:enemy/global/ground/blow/agriculture_steve/
+execute if entity @s[tag=GoldenAppleSteve] run function settings:enemy/global/ground/blow/golden_apple_steve/

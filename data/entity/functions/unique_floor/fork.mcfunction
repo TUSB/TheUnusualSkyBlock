@@ -12,7 +12,7 @@ execute if block ~ ~-2 ~ minecraft:nether_wart_block if entity @s[nbt={OnGround:
 execute if block ~ ~-2 ~ minecraft:magenta_glazed_terracotta run function entity:unique_floor/moving_walkway
 
 ### 落とし床
-execute if block ~ ~-2 ~ minecraft:warped_wart_block run function entity:unique_floor/drop_floor
+execute if block ~ ~-2 ~ minecraft:warped_wart_block if entity @s[nbt={OnGround:true}] run function entity:unique_floor/drop_floor
 
 ### カスタム床
 execute if block ~ ~-2 ~ minecraft:command_block{CustomName:'{"text":"Trap"}'} run function entity:unique_floor/command_floor
