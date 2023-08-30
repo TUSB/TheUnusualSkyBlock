@@ -13,7 +13,6 @@
     scoreboard players set _ _ -10000
     scoreboard players operation _ Calc > _ _
     execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].ParabolicMotion.Motion[1] double 0.001 run scoreboard players get _ Calc
-    tellraw @a {"nbt":"_[-4][-4][-4][-4][-4][-4][-4][-4].ParabolicMotion","storage":"oh_my_dat:"}
 
 # Motion適用
     data modify entity @s Motion set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].ParabolicMotion.Motion

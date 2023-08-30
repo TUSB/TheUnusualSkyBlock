@@ -19,8 +19,8 @@
     function calc:geometry/tp_00001
 
 # 数値をスコアに代入する
-    execute store result score # _ run data get storage mob_data: Argument.MotionTick
-    execute store result score # Calc run data get storage mob_data: Argument.MotionGravity 500
+    execute store result score # _ run data get storage mob_data: Call.MotionTick
+    execute store result score # Calc run data get storage mob_data: Call.MotionGravity 500
 
 # Motionを計算する
     function skill:enemy/parabolic_motion/core/calc

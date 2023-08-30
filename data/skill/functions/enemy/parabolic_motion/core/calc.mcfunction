@@ -5,9 +5,10 @@
 # @within function skill:enemy/parabolic_motion/core/
 
 # Oh_my_datにMotion,Tick,Gravityを保存するための初期化
-    data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].ParabolicMotion set value {Motion:[0d,0d,0d],Tick:0,Gravity:0d}
-    data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].ParabolicMotion.Tick set from storage mob_data: Argument.MotionTick
-    data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].ParabolicMotion.Gravity set from storage mob_data: Argument.MotionGravity
+    data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].ParabolicMotion set value {Motion:[0d,0d,0d],Tick:0,EnableTick:0,Gravity:0d}
+    data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].ParabolicMotion.Tick set from storage mob_data: Call.MotionTick
+    execute store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].ParabolicMotion.EnableTick int 2 run data get storage mob_data: Call.MotionTick
+    data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].ParabolicMotion.Gravity set from storage mob_data: Call.MotionGravity
 
 # 0-0-0-0-0 と 0-0-0-0-1 のX座標差を求め、X_Motionを求める
     execute store result score _ _ run data get entity 0-0-0-0-0 Pos[0] 1000

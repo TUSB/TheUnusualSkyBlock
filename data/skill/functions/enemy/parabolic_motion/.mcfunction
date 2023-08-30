@@ -16,11 +16,11 @@
 # @api
 
 # ストレージ検証
-    execute unless data storage mob_data: Argument.MotionTick run tellraw @a [{"text":"ParabolicMotionの着弾時間は必ず設定する必要があります"}]
-    execute unless data storage mob_data: Argument.MotionGravity run tellraw @a [{"text":"ParabolicMotionの重力加速度は必ず設定する必要があります"}]
+    execute unless data storage mob_data: Call.MotionTick run tellraw @a [{"text":"ParabolicMotionの着弾時間は必ず設定する必要があります"}]
+    execute unless data storage mob_data: Call.MotionGravity run tellraw @a [{"text":"ParabolicMotionの重力加速度は必ず設定する必要があります"}]
 
 # 本処理に移行
-    execute if data storage mob_data: Argument.MotionTick if data storage mob_data: Argument.MotionGravity run function skill:enemy/parabolic_motion/core/
+    execute if data storage mob_data: Call.MotionTick if data storage mob_data: Call.MotionGravity run function skill:enemy/parabolic_motion/core/
 
 # リセット
-    data remove storage mob_data: Argument
+    data remove storage mob_data: Call
