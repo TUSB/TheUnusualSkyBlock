@@ -11,6 +11,7 @@
 # 毎Tick処理を行うためNativeFlagを立てる
     scoreboard players add @s NativeFlag 100
     tag @s add Parabolic
+    data modify storage mob_data: Tags append value "Parabolic"
     data modify entity @s OnGround set value 0b
 
 # 0-0-0-0-0を実行者の座標に召喚する
