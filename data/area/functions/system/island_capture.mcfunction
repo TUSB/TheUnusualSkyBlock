@@ -50,7 +50,7 @@ execute if entity @s[advancements={area:system/island_capture={skylands.044=true
 execute if entity @s[advancements={area:system/island_capture={skylands.045=true}}] run data modify storage area: capture.skylands.045 set value true
 # ##flying_island
 execute if entity @s[advancements={area:system/island_capture={flying_island.001=true}}] run data modify storage area: capture.flying_island.046 set value true
-# execute if entity @s[advancements={area:system/island_capture={flying_island.002=true}}] run data modify storage area: capture.flying_island.047 set value true
+execute if entity @s[advancements={area:system/island_capture={flying_island.002=true}}] run data modify storage area: capture.flying_island.047 set value true
 # ##cloudia
 # execute if entity @s[advancements={area:system/island_capture={cloudia.001=true}}] run data modify storage area: capture.cloudia.048 set value true
 # execute if entity @s[advancements={area:system/island_capture={cloudia.002=true}}] run data modify storage area: capture.cloudia.049 set value true

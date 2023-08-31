@@ -809,7 +809,42 @@
           "dimension": "area:skylands"
         }
       },
-      "flying_island.001":{"trigger":"minecraft:item_used_on_block","conditions":{"item":{"items":["minecraft:ender_eye"]},"location":{"position":{"x":-796.5,"y":100.5,"z":-772.5},"dimension":"area:flying_island"}}}
+      "flying_island.001": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:ender_eye"
+            ]
+          },
+          "location": {
+            "position": {
+              "x": -796.5,
+              "y": 100.5,
+              "z": -772.5
+            },
+            "dimension": "area:flying_island"
+          }
+        }
+      },
+      "flying_island.002": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:ender_eye"
+            ]
+          },
+          "location": {
+            "position": {
+              "x": -801.5,
+              "y": 131.5,
+              "z": -676.5
+            },
+            "dimension": "area:flying_island"
+          }
+        }
+      }
     }
   },
   "requirements": [
@@ -859,8 +894,9 @@
       "skylands.043",
       "skylands.044",
       "skylands.045",
-      "flying_island.001"
-]
+      "flying_island.001",
+      "flying_island.002"
+    ]
   ],
   "rewards": {
     "function": "area:system/island_capture"
