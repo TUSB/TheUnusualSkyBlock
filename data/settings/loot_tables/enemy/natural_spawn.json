@@ -71,7 +71,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 150,
+          "weight": 75,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -104,7 +104,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 150,
+          "weight": 75,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -258,7 +258,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 150,
+          "weight": 75,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -318,7 +318,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,BacktheCreeper,Main,SpawnParticles],Level:5}],[{Tags:[Global,Ground,Blow,BacktheCreeper,AngerAec],Level:1}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,BacktheCreeper,Main,SpawnParticles],Level:5}],[{Tags:[Global,Ground,Blow,BacktheCreeper,AngerAec],Level:5}]]}"
             }
           ]
         },
@@ -412,7 +412,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 140,
+          "weight": 47,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -557,7 +557,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 150,
+          "weight": 75,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -590,7 +590,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 150,
+          "weight": 75,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -744,7 +744,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 150,
+          "weight": 75,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -804,7 +804,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,BacktheCreeper,Main,SpawnParticles],Level:5}],[{Tags:[Global,Ground,Blow,BacktheCreeper,AngerAec],Level:1}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,BacktheCreeper,Main,SpawnParticles],Level:5}],[{Tags:[Global,Ground,Blow,BacktheCreeper,AngerAec],Level:5}]]}"
             }
           ]
         },
@@ -898,7 +898,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 140,
+          "weight": 47,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -1061,7 +1061,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Underworld,Sky,Blow,VampireBat,Main,SpawnParticles],Level:15}],[{Tags:[Underworld,Sky,Blow,VampireBat,Direction],Level:1}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Underworld,Sky,Blow,VampireBat,Main,SpawnParticles],Level:15}],[{Tags:[Underworld,Sky,Blow,VampireBat,Direction],Level:15}]]}"
             }
           ]
         }

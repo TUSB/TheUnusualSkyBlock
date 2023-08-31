@@ -1,0 +1,13 @@
+{
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "vehicle": {
+          "type": "minecraft:experience_orb",
+          "nbt": "{Tags:[\"NotTriggerCallPassenger\"]}"
+        }
+      }
+    }
+}
