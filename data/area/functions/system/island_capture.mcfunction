@@ -1,5 +1,5 @@
 #島の個数(後で変更)
-scoreboard players set # _ 45
+scoreboard players set # _ 46
 
 #進捗の判定
 ##skylands
@@ -49,7 +49,7 @@ execute if entity @s[advancements={area:system/island_capture={skylands.043=true
 execute if entity @s[advancements={area:system/island_capture={skylands.044=true}}] run data modify storage area: capture.skylands.044 set value true
 execute if entity @s[advancements={area:system/island_capture={skylands.045=true}}] run data modify storage area: capture.skylands.045 set value true
 # ##flying_island
-# execute if entity @s[advancements={area:system/island_capture={flying_island.001=true}}] run data modify storage area: capture.flying_island.046 set value true
+execute if entity @s[advancements={area:system/island_capture={flying_island.001=true}}] run data modify storage area: capture.flying_island.046 set value true
 # execute if entity @s[advancements={area:system/island_capture={flying_island.002=true}}] run data modify storage area: capture.flying_island.047 set value true
 # ##cloudia
 # execute if entity @s[advancements={area:system/island_capture={cloudia.001=true}}] run data modify storage area: capture.cloudia.048 set value true
@@ -62,9 +62,9 @@ scoreboard players set _ Calc 0
 ##skylands
 execute store result score _ _ run data get storage area: capture.skylands
 scoreboard players operation _ Calc += _ _
-# ##flying_island
-# execute store result score _ _ run data get storage area: capture.flying_island
-# scoreboard players operation _ Calc += _ _
+##flying_island
+execute store result score _ _ run data get storage area: capture.flying_island
+scoreboard players operation _ Calc += _ _
 # ##cloudia
 # execute store result score _ _ run data get storage area: capture.cloudia
 # scoreboard players operation _ Calc += _ _

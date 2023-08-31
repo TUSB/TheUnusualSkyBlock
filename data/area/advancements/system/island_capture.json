@@ -808,7 +808,8 @@
           },
           "dimension": "area:skylands"
         }
-      }
+      },
+      "flying_island.001":{"trigger":"minecraft:item_used_on_block","conditions":{"item":{"items":["minecraft:ender_eye"]},"location":{"position":{"x":-796.5,"y":100.5,"z":-772.5},"dimension":"area:flying_island"}}}
     }
   },
   "requirements": [
@@ -857,7 +858,8 @@
       "skylands.042",
       "skylands.043",
       "skylands.044",
-      "skylands.045"
+      "skylands.045",
+      "flying_island.001"
 ]
   ],
   "rewards": {
