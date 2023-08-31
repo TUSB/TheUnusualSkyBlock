@@ -7,6 +7,8 @@ execute if data storage mob_data: Call{Tags:["PillarOfWater"]} run function skil
 execute if data storage mob_data: Call{Tags:["FinishingMove"]} run function skill:enemy/delay_action/append/casting/finishing_move/
 execute if data storage mob_data: Call{Tags:["CrossRing"]} run function skill:enemy/delay_action/append/casting/cross_ring/
 execute if data storage mob_data: Call{Tags:["Healing"]} run function skill:enemy/delay_action/append/casting/healing/
-execute if data storage mob_data: Call{Tags:["BubbleLauncher"]} run function skill:enemy/delay_action/append/casting/bubble_launcher/
+execute if data storage mob_data: Call{Tags:["BubbleLauncher01"]} run function skill:enemy/delay_action/append/casting/bubble_launcher_01/
+execute if data storage mob_data: Call{Tags:["BubbleLauncher02"]} run function skill:enemy/delay_action/append/casting/bubble_launcher_02/
+execute if data storage mob_data: Call{Tags:["BubbleLauncher03"]} run function skill:enemy/delay_action/append/casting/bubble_launcher_03/
 execute if data storage mob_data: Call{Tags:["DoomBomb"]} run function skill:enemy/delay_action/append/casting/doom_bomb/
 execute if data storage mob_data: Call{Tags:["DoomCast"]} run function skill:enemy/delay_action/append/casting/doom_cast/
