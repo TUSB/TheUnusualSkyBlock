@@ -250,4 +250,4 @@ function main:difficulty/reset
 
 #島の攻略率
 data remove storage area: capture
-data merge storage area: {capture:{overworld:{}}}
+data merge storage area: {capture:{skylands:{},flying_island:{},cloudia:{}}}
