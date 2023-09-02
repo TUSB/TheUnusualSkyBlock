@@ -17,4 +17,4 @@ execute if data storage mob_data: Call{Name:"Rotate"} run function skill:enemy/r
 execute if data storage mob_data: Call{Name:"Heal"} run function skill:enemy/heal/
 execute if data storage mob_data: Call{Name:"SmartMotion"} unless entity @s[tag=TargetChanged,tag=Unmoved] run function skill:enemy/smart_motion/
 execute if data storage mob_data: Call{Name:"Reraise"} run function skill:enemy/reraise/
-execute if data storage mob_data: Call{Name:"Paraboric"} run function skill:enemy/parabolic_motion/core/
+execute if data storage mob_data: Call{Name:"Parabolic"} run function skill:enemy/parabolic_motion/core/
