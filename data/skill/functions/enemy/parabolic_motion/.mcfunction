@@ -21,6 +21,6 @@
 
 # 本処理に移行
     execute if data storage mob_data: Call.MotionTick if data storage mob_data: Call.MotionGravity run function skill:enemy/parabolic_motion/core/
-    
+
 # リセット
     data remove storage mob_data: Call
