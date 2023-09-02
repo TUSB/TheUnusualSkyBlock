@@ -30,8 +30,8 @@
     execute as 0-0-0-0-0 run function calc:geometry/return_marker
     execute as 0-0-0-0-1 run function calc:geometry/return_marker
     data modify entity 0-0-0-0-0 Pos set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].ParabolicMotion.Motion[1]
-    execute store result storage mob_data: Call.Speed.Set int 1 run function calc:geometry/distance/
-    execute store result storage mob_data: Call.Gravity.Set int 0.2 run data get storage mob_data: Call.MotionGravity
+    execute store result storage mob_data: Call.Speed.Set float 0.01 run function calc:geometry/distance/
+    data modify storage mob_data: Call.Gravity.Add set from storage mob_data: Call.MotionGravity
     execute at 0-0-0-0-1 facing entity 0-0-0-0-1 feet run function skill:enemy/smart_motion/
     playsound minecraft:block.note_block.bell master @a ~ ~ ~ 1 1
 
