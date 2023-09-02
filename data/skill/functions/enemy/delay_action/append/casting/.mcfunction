@@ -12,3 +12,4 @@ execute if data storage mob_data: Call{Tags:["BubbleLauncher02"]} run function s
 execute if data storage mob_data: Call{Tags:["BubbleLauncher03"]} run function skill:enemy/delay_action/append/casting/bubble_launcher_03/
 execute if data storage mob_data: Call{Tags:["DoomBomb"]} run function skill:enemy/delay_action/append/casting/doom_bomb/
 execute if data storage mob_data: Call{Tags:["DoomCast"]} run function skill:enemy/delay_action/append/casting/doom_cast/
+execute if data storage mob_data: Call{Tags:["CircleHearts"]} run function skill:enemy/delay_action/append/casting/circle_hearts/

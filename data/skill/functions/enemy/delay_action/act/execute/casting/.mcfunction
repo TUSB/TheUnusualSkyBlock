@@ -12,3 +12,4 @@ execute if data storage mob_data: ExecutingAction{Tags:[BubbleLauncher02]} run f
 execute if data storage mob_data: ExecutingAction{Tags:[BubbleLauncher03]} run function skill:enemy/delay_action/act/execute/casting/bubble_launcher_03/
 execute if data storage mob_data: ExecutingAction{Tags:[DoomBomb]} run function skill:enemy/delay_action/act/execute/casting/doom_bomb/
 execute if data storage mob_data: ExecutingAction{Tags:[DoomCast]} run function skill:enemy/delay_action/act/execute/casting/doom_cast/
+execute if data storage mob_data: ExecutingAction{Tags:[CircleHearts]} run function skill:enemy/delay_action/act/execute/casting/circle_hearts/
