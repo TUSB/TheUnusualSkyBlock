@@ -37,6 +37,7 @@
 
     #SmartMotionの引数を設定、呼び出し
     data modify storage mob_data: Call merge value {Start:1b,TP:1b}
-    execute store result storage mob_data: Call.Speed.Set int 0.1 positioned 0.0 0.0 0.0 as 0-0-0-0-0 run function calc:geometry/distance/
-    execute store result storage mob_data: Call.Gravity.Set int 1 run data get storage mob_data: Call.MotionGravity 11500
+    execute in area:control_area positioned 0.0 0.0 0.0 as 0-0-0-0-0 run function #util:distance
+    execute store result storage mob_data: Call.Speed.Set int 1 run data get storage util: out 10
+    execute store result storage mob_data: Call.Gravity.Set int 1 run data get storage mob_data: Call.MotionGravity 10000
     execute at @s run function skill:enemy/smart_motion/
