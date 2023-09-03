@@ -15,6 +15,3 @@ execute if score @s RagingDamage matches 1.. run function skill:act/knight/ragin
 
 ###詠唱演出
 execute if score @s NextActionTick matches 1.. run function skill:enemy/delay_action/act/
-
-###放物運動処理
-execute if entity @s[tag=Parabolic] run function skill:enemy/parabolic_motion/tick
