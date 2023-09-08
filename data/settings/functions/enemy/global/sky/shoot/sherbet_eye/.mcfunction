@@ -1,0 +1,9 @@
+execute if entity @s[tag=Main] run function settings:enemy/global/sky/shoot/sherbet_eye/main
+execute if entity @s[tag=Tick] run function settings:enemy/global/sky/shoot/sherbet_eye/tick
+execute if entity @s[tag=Attack1] run function settings:enemy/global/sky/shoot/sherbet_eye/attack1
+execute if entity @s[tag=Servant] run function settings:enemy/global/sky/shoot/sherbet_eye/servant
+execute if entity @s[tag=ServantParticle] run function settings:enemy/global/sky/shoot/sherbet_eye/servant_particle
+execute if entity @s[tag=ServantDirection] run function settings:enemy/global/sky/shoot/sherbet_eye/servant_direction
+execute if entity @s[tag=ServantShot] run function settings:enemy/global/sky/shoot/sherbet_eye/servant_shot
+execute if entity @s[tag=ServantShotParticle] run function settings:enemy/global/sky/shoot/sherbet_eye/servant_shot_particle
+execute if entity @s[tag=ServantShotSound] run function settings:enemy/global/sky/shoot/sherbet_eye/servant_shot_sound

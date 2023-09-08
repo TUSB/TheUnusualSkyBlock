@@ -9,14 +9,14 @@ data modify storage tusb_mob: "即時ステータス"."ノックバック力" se
 ### 遅延ステータス
 # ステータス
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 200
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 200
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 200
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"あんまり癒すの得意じゃないのよね～。どこかに闇系の小動物いないかしら～？"}]'
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:2,Turn:[{Index:1,Once:1,Skill:[{Interval:{Min:20,Max:20,Current:20},Loop:{Max:1,Current:1},Call:[{Name:"MergeNBT",NBT:{Sitting:false}}]}],Exit:{Loop:{Max:1,Current:1}}},{Index:2,Skill:[{Interval:{Min:40,Max:40,Current:40},Call:[{Name:"Function",Tags:[Global,Friendly,Blow,HealingCat,ParticleAndSound]},{Name:"Damage",Mob:{Hit:true,Light:60},Distance:{Max:4d}},{Name:"Function",Tags:[Global,Friendly,Blow,HealingCat,ParticleAndSound]}],MP:10}]}],ProjectileDamage:{Light:15}}
+data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:2,Turn:[{Index:1,Once:1,Skill:[{Interval:{Min:20,Max:20,Current:20},Loop:{Max:1,Current:1},Call:[{Name:"MergeNBT",NBT:{Sitting:false}},{Name:"DelayAction",Tags:["Casting","CircleHearts"]}]}],Exit:{Loop:{Max:1,Current:1}}},{Index:2,Skill:[{Interval:{Min:30,Max:30,Current:30},Call:[{Name:"Function",Tags:[Global,Friendly,Blow,HealingCat,ParticleAndSound]},{Name:"Damage",Player:{Damage:0d,DamageType:[Global]},Distance:{Max:6d},AEC:{Effects:[{Id:6b,Amplifier:2b,Duration:100}]}},{Name:"Damage",Mob:{Hit:true,Light:60},Distance:{Max:6d}},{Name:"Function",Tags:[Global,Friendly,Blow,HealingCat,ParticleAndSound]},{Name:"DelayAction",Tags:["Casting","CircleHearts"]}],MP:10}]}],ProjectileDamage:{Light:15}}
 #Function
 # Sample_01--Circle
 particle end_rod ^-0.0 ^0.0 ^0.03 ^3.78 ^0.0 ^999999936.0 0.00000000010 0 force

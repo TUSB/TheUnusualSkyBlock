@@ -20,7 +20,6 @@ execute if entity @s[tag=HeartEnemy] run function settings:enemy/global/ground/b
 execute if entity @s[tag=BacktheCreeper] run function settings:enemy/global/ground/blow/backthe_creeper/
 execute if entity @s[tag=SheepMan] run function settings:enemy/global/ground/blow/sheep_man/
 execute if entity @s[tag=AnvilMan] run function settings:enemy/global/ground/blow/anvil_man/
-execute if entity @s[tag=ManEater] run function settings:enemy/global/ground/blow/man_eater/
 execute if entity @s[tag=Executioner] run function settings:enemy/global/ground/blow/executioner/
 execute if entity @s[tag=Lumberjack] run function settings:enemy/global/ground/blow/lumberjack/
 execute if entity @s[tag=TorchlightSteve] run function settings:enemy/global/ground/blow/torchlight_steve/

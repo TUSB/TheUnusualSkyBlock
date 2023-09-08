@@ -1,8 +1,10 @@
 execute if entity @s[tag=Main] run function settings:enemy/global/sky/shoot/poison_eye/main
-execute if entity @s[tag=PoisonBallResidual] run function settings:enemy/global/sky/shoot/poison_eye/poison_ball_residual
-execute if entity @s[tag=VomitingPoison] run function settings:enemy/global/sky/shoot/poison_eye/vomiting_poison
-execute if entity @s[tag=PoisonEffect] run function settings:enemy/global/sky/shoot/poison_eye/poison_effect
+execute if entity @s[tag=Tick] run function settings:enemy/global/sky/shoot/poison_eye/tick
+execute if entity @s[tag=Effect] run function settings:enemy/global/sky/shoot/poison_eye/effect
 execute if entity @s[tag=PoisonBall] run function settings:enemy/global/sky/shoot/poison_eye/poison_ball
-execute if entity @s[tag=PoisonBallDirection] run function settings:enemy/global/sky/shoot/poison_eye/poison_ball_direction
-execute if entity @s[tag=PoisonBallAppearance] run function settings:enemy/global/sky/shoot/poison_eye/poison_ball_appearance
-execute if entity @s[tag=Appearance] run function settings:enemy/global/sky/shoot/poison_eye/appearance
+execute if entity @s[tag=PoisonBallInit] run function settings:enemy/global/sky/shoot/poison_eye/poison_ball_init
+execute if entity @s[tag=PoisonBallTick] run function settings:enemy/global/sky/shoot/poison_eye/poison_ball_tick
+execute if entity @s[tag=PoisonBallMarker] run function settings:enemy/global/sky/shoot/poison_eye/poison_ball_marker
+execute if entity @s[tag=Smog] run function settings:enemy/global/sky/shoot/poison_eye/smog
+execute if entity @s[tag=SmogTick] run function settings:enemy/global/sky/shoot/poison_eye/smog_tick
+execute if entity @s[tag=SmogSummon] run function settings:enemy/global/sky/shoot/poison_eye/smog_summon

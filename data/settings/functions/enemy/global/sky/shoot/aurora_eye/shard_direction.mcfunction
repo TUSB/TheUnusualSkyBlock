@@ -1,0 +1,5 @@
+### 即時ステータス
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:item_display",Silent:1b,transformation:{left_rotation:[0.7071f,0f,0f,0.7071f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.75f,0.5f]},Tags:[DelayedData,HasAI,CallOnInit]}
+data modify storage tusb_mob: "即時ステータス"."見た目" set value {item:{id:"minecraft:firework_star",Count:1b,tag:{CustomModelData:4004,Explosion:{Type:0,Colors:[I;5767150]}}}}
+# AI
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:32d,IgnoreBlocks:true},Anchor:"Eyes"}],Name:"Function",Tags:[Global,Sky,Shoot,AuroraEye,ShardInit]}],Passenger:{Type:"down",Check:false,Call:[{Name:"Kill"}]},TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:3,Max:3,Current:3},Loop:{Max:1,Current:1},Call:[{Name:"MergeNBT",NBT:{start_interpolation:-1,interpolation_duration:4,transformation:{left_rotation:[0.3536f,0.6124f,0.6124f,0.3536f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0.5f,0.75f,0.5f]}}}]}]}]}
