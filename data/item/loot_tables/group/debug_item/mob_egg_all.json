@@ -1176,51 +1176,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"global 下層のNewデーモンアイ Lv5\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Blow,DemonEye,Main,SpawnParticles],Level:5}]]}}]}}"
-            }
-          ]
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:villager_spawn_egg",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"global 中層のNewポイゾンアイ Lv25\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Shoot,PoisonEye,Main,SpawnParticles],Level:25}],[{Tags:[Global,Sky,Shoot,PoisonEye,PoisonBallMarker],Level:25}]]}}]}}"
-            }
-          ]
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:villager_spawn_egg",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"global 中層のNewクリムゾンアイ Lv30\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Shoot,CrimsonEye,Main,SpawnParticles],Level:30}]]}}]}}"
-            }
-          ]
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:villager_spawn_egg",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"global 上層のNewルナティックアイ Lv40\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Shoot,LunaticEye,Main,SpawnParticles],Level:40}],[{Tags:[Global,Sky,Shoot,LunaticEye,Aura],Level:40}]]}}]}}"
-            }
-          ]
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:villager_spawn_egg",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"global 上層のオーロラアイ Lv50\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Shoot,AuroraEye,Main,SpawnParticles],Level:50}],[{Tags:[Global,Sky,Shoot,AuroraEye,ShardMarker],Level:50}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"global 砲台 Lv10\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Shoot,Shotzo,Main],Level:10}],[{Tags:[Global,Ground,Shoot,Shotzo,Battery],Level:10},{Tags:[Global,Ground,Shoot,Shotzo,Base],Level:10}]]}}]}}"
             }
           ]
         },
@@ -2475,6 +2431,83 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"text\":\"skylands 上層のオトシハリカエル Lv45\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,HellFlooringFrog,Main,SpawnParticles],Level:45}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"skylands 下層のNewデーモンアイ Lv5\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Blow,DemonEye,Main,SpawnParticles],Level:5}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"skylands 中層のNewポイゾンアイ Lv25\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Shoot,PoisonEye,Main,SpawnParticles],Level:25}],[{Tags:[Global,Sky,Shoot,PoisonEye,PoisonBallMarker],Level:25}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"skylands 中層のNewクリムゾンアイ Lv30\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Shoot,CrimsonEye,Main,SpawnParticles],Level:30}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"skylands 上層のNewルナティックアイ Lv40\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Shoot,LunaticEye,Main,SpawnParticles],Level:40}],[{Tags:[Global,Sky,Shoot,LunaticEye,Aura],Level:40}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"skylands 上層のオーロラアイ Lv50\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Shoot,AuroraEye,Main,SpawnParticles],Level:50}],[{Tags:[Global,Sky,Shoot,AuroraEye,ShardMarker],Level:50}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"skylands 上層のNewシャーベットアイ Lv45\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Shoot,SherbetEye,Main,SpawnParticles],Level:45}],[{Tags:[Global,Sky,Shoot,SherbetEye,DryMarker],Level:45},{Tags:[Global,Sky,Shoot,SherbetEye,TurretMarker],Level:45}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"skylands 目玉アイ好家 Lv90\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Sky,Shoot,ILoveEye,MainMarker],Level:90}]]}}]}}"
             }
           ]
         },
