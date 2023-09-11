@@ -10,5 +10,5 @@
 # 演出
     particle dust 0.45 0 0 1 ~ ~1 ~ 0.25 0.5 0.25 1 50 force @a[distance=..32,tag=ShowParticles]
     particle witch ~ ~ ~ 0.15 0 0.15 1 15 force @a[distance=..32,tag=ShowParticles]
-    playsound entity.evoker.prepare_attack hostile @a[distance=..32] ~ ~ ~ 1 2 0
-    playsound entity.blaze.death hostile @a[distance=..32] ~ ~ ~ 1 0 0
+    playsound entity.evoker.prepare_attack hostile @a[distance=..32] ~ ~ ~ 0.5 2 0
+    playsound entity.blaze.death hostile @a[distance=..32] ~ ~ ~ 0.5 0 0
