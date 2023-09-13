@@ -1,0 +1,12 @@
+{
+    "values": [
+        "air",
+        "cave_air",
+        "void_air",
+        "dirt",
+        "grass_block",
+        "stone",
+        "cobblestone",
+        "white_wool"
+    ]
+}

@@ -9,6 +9,9 @@ tag @s add LifeScouter
 summon text_display ~ ~ ~ {Tags:["LifeScouterText","Initialized"],transformation:{right_rotation:[0f,0f,0f,1f],scale:[1f,1f,1f],left_rotation:[0f,0f,0f,1f],translation:[0f,0.8f,0f]},"billboard":"center",see_through:true}
 ride @e[tag=LifeScouterText,distance=..0.1,limit=1] mount @s
 
+#元の名前を非表示
+data modify entity @s CustomNameVisible set value 0b
+
 function makeup:skill/act/common/life_scouter/success
 
 function skill:act/common/life_scouter/bar_set

@@ -1,0 +1,4 @@
+data modify entity @s Item.tag.AttributeModifiers append value {AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Amount:10,Operation:0,UUID:[I;0,0,0,4],Slot:"mainhand"}
+data modify entity @s Item.tag.AttributeModifiers append value {AttributeName:"generic.armor_toughness",Name:"generic.armor_toughness",Amount:0.3,Operation:1,UUID:[I;0,0,0,4],Slot:"mainhand"}
+data modify entity @s Item.tag.AttributeModifiers append value {AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Amount:0.5,Operation:0,UUID:[I;0,0,0,4],Slot:"mainhand"}
+data modify entity @s Item.tag.AttributeModifiers append value {AttributeName:"generic.knockback_resistance",Name:"generic.knockback_resistance",Amount:0.25,Operation:1,UUID:[I;0,0,0,4],Slot:"mainhand"}
