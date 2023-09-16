@@ -87,7 +87,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Combat,Creeper],Level:8}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Combat,Creeper],Level:8}],[{Tags:[Global,Other,Summon,Combat,CallCreeper],Level:8}]]}"
             }
           ]
         },
@@ -280,6 +280,17 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 25,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Blow,DemonEye,Main,SpawnParticles],Level:5}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 100,
           "name": "minecraft:stick",
           "functions": [
@@ -297,17 +308,6 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Shoot,SkeletonPitcher,Main,SpawnParticles],Level:8}]]}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 25,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Blow,DaemonEye,Main,SpawnParticles],Level:3}]]}"
             }
           ]
         },
@@ -573,7 +573,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Combat,Creeper],Level:8}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Combat,Creeper],Level:8}],[{Tags:[Global,Other,Summon,Combat,CallCreeper],Level:8}]]}"
             }
           ]
         },
@@ -766,6 +766,17 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 25,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Blow,DemonEye,Main,SpawnParticles],Level:5}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 100,
           "name": "minecraft:stick",
           "functions": [
@@ -783,17 +794,6 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Shoot,SkeletonPitcher,Main,SpawnParticles],Level:8}]]}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 25,
-          "name": "minecraft:stick",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Blow,DaemonEye,Main,SpawnParticles],Level:3}]]}"
             }
           ]
         },

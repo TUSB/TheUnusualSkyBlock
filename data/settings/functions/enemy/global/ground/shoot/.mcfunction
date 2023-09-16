@@ -13,6 +13,7 @@ execute if entity @s[tag=HeartEnemy] run function settings:enemy/global/ground/s
 execute if entity @s[tag=BananaGarbager] run function settings:enemy/global/ground/shoot/banana_garbager/
 execute if entity @s[tag=PumpkinKid] run function settings:enemy/global/ground/shoot/pumpkin_kid/
 execute if entity @s[tag=CrimzonWizard] run function settings:enemy/global/ground/shoot/crimzon_wizard/
+execute if entity @s[tag=Shotzo] run function settings:enemy/global/ground/shoot/shotzo/
 execute if entity @s[tag=AngryTree] run function settings:enemy/global/ground/shoot/angry_tree/
 execute if entity @s[tag=SuspiciousShadow] run function settings:enemy/global/ground/shoot/suspicious_shadow/
 execute if entity @s[tag=MineCrafter] run function settings:enemy/global/ground/shoot/mine_crafter/

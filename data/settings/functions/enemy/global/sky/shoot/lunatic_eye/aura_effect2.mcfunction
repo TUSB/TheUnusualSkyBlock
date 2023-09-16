@@ -3,7 +3,7 @@
     effect give @s hunger 5 3
     effect give @s mining_fatigue 5 3
     effect give @s weakness 5 9
-    effect give @s poison 5 3
+    effect give @s poison 5 7
     effect clear @s fire_resistance
     effect clear @s night_vision
 # 低確率でデバフ

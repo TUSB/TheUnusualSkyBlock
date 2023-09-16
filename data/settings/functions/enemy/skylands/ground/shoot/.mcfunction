@@ -11,4 +11,5 @@ execute if entity @s[tag=ThunderSpirit] run function settings:enemy/skylands/gro
 execute if entity @s[tag=FierceSalmon] run function settings:enemy/skylands/ground/shoot/fierce_salmon/
 execute if entity @s[tag=SuicideSpirit] run function settings:enemy/skylands/ground/shoot/suicide_spirit/
 execute if entity @s[tag=PaleSpirit] run function settings:enemy/skylands/ground/shoot/pale_spirit/
+execute if entity @s[tag=GrimoireZombie] run function settings:enemy/skylands/ground/shoot/grimoire_zombie/
 execute if entity @s[tag=BlackGrudge2] run function settings:enemy/skylands/ground/shoot/black_grudge2/

@@ -1,4 +1,11 @@
 #Function
+# 攻撃力設定
+    scoreboard players operation _ Calc = @s Level
+    scoreboard players set _ _ 3
+    scoreboard players operation _ Calc *= _ _
+    scoreboard players set _ _ 4
+    scoreboard players operation _ Calc /= _ _
+    execute store result score @s SpecialAttack run scoreboard players add _ Calc 2
 #ループ処理の準備
 scoreboard players set # _ 0
 scoreboard players set # Calc 0
