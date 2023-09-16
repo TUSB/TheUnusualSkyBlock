@@ -4,6 +4,9 @@
 #
 # @within function skill:enemy/parabolic_motion/
 
+# 一時的にForceloadする
+    execute in area:control_area run forceload add -1 -1 0 0
+
 # 0-0-0-0-0を原点に召喚する
 # 0-0-0-0-1を実行位置に召喚する
     execute as 0-0-0-0-0 run function calc:geometry/return_marker
@@ -17,5 +20,7 @@
     function skill:enemy/parabolic_motion/core/calc
 
 # リセット
+    execute in area:control_area run forceload remove -1 -1 0 0
+    execute in area:control_area run forceload add 0 0
     execute as 0-0-0-0-0 run function calc:geometry/return_marker
     execute as 0-0-0-0-1 run function calc:geometry/return_marker
