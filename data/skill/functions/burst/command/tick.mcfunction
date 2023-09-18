@@ -16,3 +16,4 @@ execute anchored eyes positioned ^ ^-0.85 ^5 at @e[tag=BurstCommand,scores={Pare
 scoreboard players operation * ParentID += @s OhMyDatID
 
 scoreboard players remove @s Burst 1
+scoreboard players reset @s[scores={Burst=0}] Burst
