@@ -18,6 +18,8 @@ execute at 0-0-0-0-1 run tp 0-0-0-0-1 ~ ~ ~ facing entity @s
 
 ###ワイルドフレア生成
 function skill:damage/load
+scoreboard players operation _ Level = @s Level
+data modify storage skill: Skill.Owner set from entity @s Owner
 execute as 0-0-0-0-1 at @s positioned ^ ^ ^2 run function skill:act/hunter/wild_flare/make_flare
-
+data remove storage skill: Skill.Owner
 function makeup:skill/act/hunter/wild_flare/explode

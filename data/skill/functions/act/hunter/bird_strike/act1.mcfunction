@@ -6,3 +6,4 @@
 tag @s add Skill
 tag @s add BirdStrike
 tag @s add NativeTask
+function skill:damage/save
