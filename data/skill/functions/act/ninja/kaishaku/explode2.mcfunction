@@ -10,10 +10,10 @@ execute if entity @s[scores={Kaishaku=100..}] run data modify storage skill: Dam
 execute store result score _ Calc run data get storage skill: Damage.Physical
 
 ###爆発ダメージ = 固定ダメージ + HPMax / 5 ジッサイツヨイ
-scoreboard players operation _ Damage = @s HPMax
+scoreboard players operation _ HPMax = @s HPMax
 scoreboard players set _ _ 5
-scoreboard players operation _ Damage /= _ _
-execute store result storage skill: Damage.Physical int 1 run scoreboard players operation _ Calc += _ Damage
+scoreboard players operation _ HPMax /= _ _
+execute store result score _ Damage run scoreboard players operation _ Calc += _ HPMax
 
 execute as @e[distance=..5,tag=Enemy] run function skill:damage/apply/
 
