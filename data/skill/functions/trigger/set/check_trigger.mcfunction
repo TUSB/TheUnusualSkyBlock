@@ -2,7 +2,7 @@
 scoreboard players operation _ _ = @s ChangeSkill
 function skill:load/job
 #剣・斧で攻撃は条件を満たしていれば近接攻撃に切り替え
-execute if data storage skill: Skill{Trigger:"剣・斧で攻撃"} if predicate skill:trigger/weapon run data modify storage skill: Skill.Trigger set value "近接攻撃する"
+execute if data storage skill: Skill{Trigger:"剣・斧で攻撃"} if predicate skill:trigger/weapon/mainhand run data modify storage skill: Skill.Trigger set value "近接攻撃する"
 execute if data storage skill: Skill{Trigger:"人参棒を使用"} run data modify storage skill: Skill.Trigger set value "手に持って右クリック"
 #付与可能かチェック
 scoreboard players set _ _ 0
