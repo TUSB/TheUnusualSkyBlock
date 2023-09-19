@@ -6,6 +6,7 @@ execute if score @s ChangeSkill matches 1000..9000 in area:control_area run func
 execute if score @s ChangeSkill matches 10000 anchored eyes positioned ^ ^-0.85 ^5 run function skill:shortcut/edit/show
 execute if score @s ChangeSkill matches 10001 anchored eyes positioned ^ ^-0.85 ^5 run function skill:shortcut/reset
 execute if score @s ChangeSkill matches 10001 run function makeup:skill/shortcut/sound
+execute if score @s ChangeSkill matches 10010 run function skill:trigger/set/delete
 
 #スコアリセット
 scoreboard players reset @s ChangeSkill
