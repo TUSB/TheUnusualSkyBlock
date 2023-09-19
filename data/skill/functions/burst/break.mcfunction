@@ -1,7 +1,6 @@
 
 ### バーストブレイク
 
-tag @s add BurstBreak
 scoreboard players operation @s Burst = $World Burst
 
 execute store result score _ _ if entity @a
@@ -51,6 +50,7 @@ execute if score @s Job matches 7 run tellraw @a ["",{"translate":"%1$sは%2$s�
 
 ## バースト ボスバー
 # 名前変更
+tag @s add BurstBreak
 execute if score @s Job matches 1 run data modify storage skill: Text set value '["",{"text":"～","color":"gold","italic":true,"bold":true},{"text":"B","obfuscated":true,"color":"gold","italic":true,"bold":true},{"translate":"バーストブレイク！！","color":"gold","italic":true,"bold":true},{"text":"B","obfuscated":true,"color":"gold","italic":true,"bold":true},{"text":"～","color":"gold","italic":true,"bold":true}," ",{"selector":"@a[tag=BurstBreak]"}," < ",{"text":"K","font":"icon","color":"aqua"}," >"]'
 execute if score @s Job matches 2 run data modify storage skill: Text set value '["",{"text":"～","color":"gold","italic":true,"bold":true},{"text":"B","obfuscated":true,"color":"gold","italic":true,"bold":true},{"translate":"バーストブレイク！！","color":"gold","italic":true,"bold":true},{"text":"B","obfuscated":true,"color":"gold","italic":true,"bold":true},{"text":"～","color":"gold","italic":true,"bold":true}," ",{"selector":"@a[tag=BurstBreak]"}," < ",{"text":"N","font":"icon","color":"aqua"}," >"]'
 execute if score @s Job matches 3 run data modify storage skill: Text set value '["",{"text":"～","color":"gold","italic":true,"bold":true},{"text":"B","obfuscated":true,"color":"gold","italic":true,"bold":true},{"translate":"バーストブレイク！！","color":"gold","italic":true,"bold":true},{"text":"B","obfuscated":true,"color":"gold","italic":true,"bold":true},{"text":"～","color":"gold","italic":true,"bold":true}," ",{"selector":"@a[tag=BurstBreak]"}," < ",{"text":"H","font":"icon","color":"aqua"}," >"]'
@@ -61,6 +61,7 @@ execute if score @s Job matches 7 run data modify storage skill: Text set value 
 execute if score @s Job matches 8 run data modify storage skill: Text set value '["",{"text":"～","color":"gold","italic":true,"bold":true},{"text":"B","obfuscated":true,"color":"gold","italic":true,"bold":true},{"translate":"バーストブレイク！！","color":"gold","italic":true,"bold":true},{"text":"B","obfuscated":true,"color":"gold","italic":true,"bold":true},{"text":"～","color":"gold","italic":true,"bold":true}," ",{"selector":"@a[tag=BurstBreak]"}," < ",{"text":"T","font":"icon","color":"aqua"}," >"]'
 execute in area:control_area run data modify block 2 3 2 Text1 set from storage skill: Text
 execute in area:control_area run bossbar set skill:burst name {"block":"2 3 2","nbt":"Text1","interpret":true}
+tag @s remove BurstBreak
 # 値変更
 execute store result bossbar skill:burst value store result bossbar skill:burst max run scoreboard players get @s Burst
 bossbar set skill:burst style progress
