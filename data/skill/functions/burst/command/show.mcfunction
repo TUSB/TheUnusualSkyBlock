@@ -16,6 +16,6 @@ kill @e[tag=BurstCommand,tag=!Initialized,tag=!Center,distance=..3,sort=random,l
 execute as @e[tag=BurstCommand,tag=!Initialized,distance=..3] positioned as @s run tp @s ~ ~ ~ ~ ~
 scoreboard players operation @e[tag=BurstCommand,tag=!Initialized,distance=..3] ParentID = @s OhMyDatID
 
-scoreboard players set @s Burst 80
+scoreboard players set @s Burst -80
 
 function makeup:skill/burst/command/show
