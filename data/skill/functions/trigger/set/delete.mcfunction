@@ -20,5 +20,5 @@
     execute in area:control_area run item replace entity @s weapon.mainhand from block 2 2 2 container.0
 
 # 演出
-    tellraw @s {"text":"スキルを削除しました。"}
+    tellraw @s {"translate":"スキルを削除しました。"}
     function makeup:skill/shortcut/sound
