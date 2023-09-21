@@ -1,11 +1,18 @@
 
-execute store result score _ _ run function calc:random
-scoreboard players set _ Calc 5
-scoreboard players operation _ _ %= _ Calc
-
 #付与する弱点をランダムに選択
-execute if score _ _ matches 0 run tag @s add BurstWeek.Fire
-execute if score _ _ matches 1 run tag @s add BurstWeek.Ice
-execute if score _ _ matches 2 run tag @s add BurstWeek.Lightning
-execute if score _ _ matches 3 run tag @s add BurstWeek.Light
-execute if score _ _ matches 4 run tag @s add BurstWeek.Dark
+function skill:burst/summoner/element/choice
+
+scoreboard players set # ElementFire 300
+scoreboard players set # ElementIce 300
+scoreboard players set # ElementLightning 300
+scoreboard players set # ElementLight 300
+scoreboard players set # ElementDark 300
+
+bossbar add skill:burst_summoner ""
+bossbar set skill:burst_summoner color white
+bossbar set skill:burst_summoner players @a
+bossbar set skill:burst_summoner visible true
+bossbar set skill:burst_summoner style progress
+bossbar set skill:burst_summoner color green
+bossbar set skill:burst_summoner max 5000
+function skill:burst/summoner/element/bossbar

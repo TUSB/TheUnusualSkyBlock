@@ -21,7 +21,7 @@ execute if score @s Job matches 3 run function skill:burst/hunter/act0
 ###消費MP0
 # practice内で処理
 ###召喚士
-# damage/apply内で処理
+execute if score @s Job matches 6 run function skill:burst/summoner/tick
 ###スキルレベル上昇
 # practice内で処理
 ###怪盗
