@@ -1,6 +1,6 @@
 ### バーストコマンド表示中tick
 
-scoreboard players operation * ParentID -= @s OhMyDatID
+scoreboard players operation @e[tag=BurstCommand] ParentID -= @s OhMyDatID
 
 #全て入力済みになったらバーストブレイク
 execute anchored eyes positioned ^ ^-0.85 ^5 unless entity @e[tag=BurstCommand,tag=!Center,scores={ParentID=0,Burst=0},distance=..64] run function skill:burst/break
@@ -13,7 +13,7 @@ execute anchored eyes positioned ^ ^-0.85 ^5 as @e[tag=BurstCommand,scores={Pare
 execute anchored eyes positioned ^ ^-0.85 ^5 at @e[tag=BurstCommand,scores={ParentID=0,Burst=0},distance=..6] positioned ^ ^0.85 ^ run function makeup:skill/burst/command/on
 execute anchored eyes positioned ^ ^-0.85 ^5 at @e[tag=BurstCommand,scores={ParentID=0,Burst=1},distance=..6] positioned ^ ^0.85 ^ run function makeup:skill/burst/command/off
 
-scoreboard players operation * ParentID += @s OhMyDatID
+scoreboard players operation @e[tag=BurstCommand] ParentID += @s OhMyDatID
 
 scoreboard players add @s Burst 1
 scoreboard players reset @s[scores={Burst=0}] Burst
