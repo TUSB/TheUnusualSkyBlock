@@ -6,6 +6,11 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/bread/entity/sky_share"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/bundle/jewel_bundle"
         },
         {
@@ -81,11 +86,6 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/estrella"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/usual_chainmail_memory_star"
         },
         {
@@ -106,52 +106,52 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/rank1_bug_memory_star"
+          "name": "item:item/carrot_on_a_stick/rank01_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/rank02_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/rank03_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/rank04_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/rank05_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/rank06_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/rank07_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/rank08_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/rank09_bug_memory_star"
         },
         {
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/rank10_bug_memory_star"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/rank2_bug_memory_star"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/rank3_bug_memory_star"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/rank4_bug_memory_star"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/rank5_bug_memory_star"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/rank6_bug_memory_star"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/rank7_bug_memory_star"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/rank8_bug_memory_star"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/rank9_bug_memory_star"
         },
         {
           "weight": 1,
@@ -167,6 +167,11 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/sapling_chance_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/estrella"
         },
         {
           "weight": 1,
@@ -906,12 +911,12 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/player_head/ninja_head"
+          "name": "item:item/magma_cube_spawn_egg/sign/ninja_soul"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/player_head/hunter_head"
+          "name": "item:item/magma_cube_spawn_egg/sign/hunter_soul"
         },
         {
           "weight": 1,
@@ -926,7 +931,7 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/player_head/summoner_head"
+          "name": "item:item/magma_cube_spawn_egg/sign/summoner_soul"
         },
         {
           "weight": 1,
@@ -961,17 +966,12 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/written_book/synthesis_guide"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
           "name": "item:item/written_book/meaning_of_color_name"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/bread/entity/sky_share"
+          "name": "item:item/written_book/synthesis_guide"
         }
       ]
     }
