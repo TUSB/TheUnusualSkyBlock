@@ -30,7 +30,8 @@ execute if entity @s[tag=DamageProjectile] run function entity:projectile_hit/
 # execute if entity @s[tag=Pikmin] run function pikmin_manager:throw/tick
 
 ###スキル
-execute if entity @s[tag=Skill] run function skill:tick
+execute if entity @s[tag=Skill] run function skill:tick0
+execute if entity @s[tag=BurstShadow] run function skill:tick1
 
 ###矢の反射削除処理
 execute if entity @s[type=arrow,tag=!IgnoreReflection,nbt={HasBeenShot:1b}] run function entity:arrow_reflection

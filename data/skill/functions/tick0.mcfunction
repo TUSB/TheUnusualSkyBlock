@@ -1,7 +1,8 @@
 #NativeTask
+#非プレイヤーエンティティのスキル処理
 
 ### 1秒処理
-execute if score $Tick Count matches 0 run function skill:one_second
+execute if score $Tick Count matches 0 run function skill:one_second0
 ###真空斬り
 execute if entity @s[tag=AerialSlash] run function skill:act/knight/aerial_slash/tick
 ###地烈斬
