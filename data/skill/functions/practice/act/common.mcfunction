@@ -44,6 +44,7 @@ execute if data storage skill: Skill{Name:"HPMP割合回復"} run function skill
 execute if data storage skill: Skill{Name:"免疫"} run function skill:act/common/immunity/act0
 execute if data storage skill: Skill{Name:"解呪の祝福"} run function skill:act/common/blessing_of_dispelling/act0
 execute if data storage skill: Skill{Name:"万能薬"} run function skill:act/common/panacea/act0
+execute if data storage skill: Skill{Name:"神酒"} run function skill:act/common/sacred_wine_or_sake/act0
 execute if data storage skill: Skill{Name:"ホームラン"} run function skill:act/common/home_run/act0
 execute if data storage skill: Skill{Name:"ライフスカウター"} run function skill:act/common/life_scouter/act0
 execute if data storage skill: Skill{Name:"スカイウォーク"} run function skill:act/common/sky_walk/act0
