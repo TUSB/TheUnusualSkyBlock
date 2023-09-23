@@ -158,7 +158,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank9/tusb_all"
+          "name": "item:group/rank_tusb_item/rank09/tusb_all"
         }
       ]
     },
@@ -185,7 +185,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank9/tusb_all"
+          "name": "item:group/rank_tusb_item/rank09/tusb_all"
         }
       ]
     },
@@ -275,7 +275,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank9/tusb_all"
+          "name": "item:group/rank_tusb_item/rank09/tusb_all"
         }
       ]
     },

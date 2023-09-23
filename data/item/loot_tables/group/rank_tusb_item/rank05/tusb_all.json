@@ -1,0 +1,384 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/bow/tier5_bow"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/red_carrot"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/area_high_ether"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/last_elixir"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/high_immunity"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/synthetic_narcotics_rta"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/sword_of_oath"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/sun"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/moon"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/forbidden_book"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/non_disadvantage"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/corn_soup_pot"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/entity/sun_eater"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/entity/jumping_board"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/tier5_diamond_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/prism_soteira_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/tier5_carrot_on_a_stick"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/chainmail_boots/turbine"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/crossbow/tier5_crossbow"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/crossbow/volcanic_cannon"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_axe/death_scythe"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_axe/tier5_diamond_axe"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_boots/tier5_diamond_boots"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_boots/dragon_mail_b"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_chestplate/tier5_diamond_chestplate"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_chestplate/dragon_mail_c"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_helmet/tier5_diamond_helmet"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_helmet/dragon_mail_h"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_hoe/tier5_diamond_hoe"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_leggings/tier5_diamond_leggings"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_leggings/dragon_mail_l"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_pickaxe/tier5_diamond_pickaxe"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_shovel/tier5_diamond_shovel"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_sword/tier5_diamond_sword"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/dragon_head/vakhtang_golgasari"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/elytra/strong_wings"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/blade/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_fire/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_ice/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_lightning/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_light/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_dark/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/spirit/2"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/philosopher/2"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/purification/2"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/knockback/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/blast_protection/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/fire_protection/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/feather_falling/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/golden_sword/legendary_treasure_sword"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_sword/monohosizao"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_boots/prism_soteira_b"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_chestplate/prism_soteira_c"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_helmet/prism_soteira_h"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_leggings/prism_soteira_l"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/trade"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/teleport"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/upgrade_white"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/upgrade_black"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/netherite_axe/strong_meat"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/tier5_shield"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/tatami"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/spooky_shield"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/windmill_shield"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/stone_axe/fountain_axe"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/stone_sword/dillen_wise"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/stone_sword/gram_sword"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/tipped_arrow/arrow_of_prayer_lv2"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/tipped_arrow/arrow_of_defilement_lv2"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/trident/tier5_trident"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/top_hat"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/red_hair_bow"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/the_game_over"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/butlers_glasses"
+        }
+      ]
+    }
+  ]
+}

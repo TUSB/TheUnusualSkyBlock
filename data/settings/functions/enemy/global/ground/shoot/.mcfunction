@@ -1,4 +1,5 @@
 execute if entity @s[tag=TriangularMan] run function settings:enemy/global/ground/shoot/triangular_man/
+execute if entity @s[tag=AtomicShotzo] run function settings:enemy/global/ground/shoot/atomic_shotzo/
 execute if entity @s[tag=NinjaTypeF] run function settings:enemy/global/ground/shoot/ninja_type_f/
 execute if entity @s[tag=CookieGarbager] run function settings:enemy/global/ground/shoot/cookie_garbager/
 execute if entity @s[tag=Crystal] run function settings:enemy/global/ground/shoot/crystal/

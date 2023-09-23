@@ -24,7 +24,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 6
+              "count": 16
             }
           ]
         }
@@ -54,7 +54,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 6
+              "count": 16
             }
           ]
         }
@@ -78,7 +78,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 6
+              "count": 16
             }
           ]
         }
@@ -108,7 +108,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 6
+              "count": 16
             }
           ]
         }

@@ -1,0 +1,234 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/bow/ice_dragon"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/bow/evil_eye"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/purely_stick_dx"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/a_sugar_cane_menace"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/cure_high_ether_field"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/floating_rock"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/cold_pumpkin_soup_pot"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/entity/stormy_jumping_board"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/dragon_mail_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/diving_suit_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/holy_sword_replica"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_sword/kusanagi_reiken"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/element/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/yin_yang/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_fire/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_ice/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_lightning/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_light/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_dark/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/kamui/1"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/protection/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/projectile_protection/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/dragon_scale/2"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/life/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mana/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/evolution/2"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/wave_of_element/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/double_break/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/golden_axe/golden_lost_dream"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/golden_axe/dragonel"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_sword/argentum"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_sword/a_death_flag"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_boots/diving_suit_b"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_chestplate/diving_suit_c"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_helmet/diving_suit_h"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_leggings/diving_suit_l"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/enderman_shield"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/golden_sheep_coat"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/gear_shield"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/stone_axe/mushroom_debris"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/trident/triple_dirt_darts"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/headphone"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/block/fire"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/block/soul_fire"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/block/giant_cobweb"
+        }
+      ]
+    }
+  ]
+}

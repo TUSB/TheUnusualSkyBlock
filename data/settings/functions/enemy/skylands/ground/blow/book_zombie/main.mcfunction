@@ -21,4 +21,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 125
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 75
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Name:"Function",Tags:[Global,Ground,Blow,BookZombie,Anger]},{Name:"ChangeAI",Damage:[]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Name:"Function",Tags:[Skylands,Ground,Blow,BookZombie,Anger]},{Name:"ChangeAI",Damage:[]}]}

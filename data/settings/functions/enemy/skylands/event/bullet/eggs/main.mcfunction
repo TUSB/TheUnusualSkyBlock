@@ -8,4 +8,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCau
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:64d,IgnoreBlocks:true},Anchor:"Eyes"}],Name:"Step",Speed:0.6d,SpeedRange:0.4d}],Attack:[{Name:"Function",Tags:[Skylands,Event,Bullet,Eggs,Debuff]}]}
 #Function
-playsound minecraft:entity.snowball.throw hostile @a[distance=..32] ~ ~ ~ 1 0 1
+playsound minecraft:entity.snowball.throw hostile @a[distance=..32] ~ ~ ~ 1 0 0
