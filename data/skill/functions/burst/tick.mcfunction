@@ -12,7 +12,7 @@ execute if score _ _ matches 11.. run scoreboard players remove @s Burst 100
 ###無敵
 execute if score @s Job matches 1 run effect give @a[distance=..32] minecraft:resistance 1 127
 ###忍者
-# 最初に付与した分で処理終了
+execute if score @s Job matches 2 run function skill:burst/ninja/tick0
 ###狩人
 execute if score @s Job matches 3 run function skill:burst/hunter/act0
 #if data storage skill: BurstHunter 

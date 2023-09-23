@@ -14,6 +14,7 @@ execute if score @s Job matches 1 run scoreboard players operation @s Burst *= _
 ### 忍者８秒＊１０
 execute if score @s Job matches 2 run scoreboard players set _ _ 800
 execute if score @s Job matches 2 run scoreboard players operation @s Burst *= _ _
+execute if score @s Job matches 2 run function skill:burst/ninja/act0
 ### 狩人４秒＊１０
 execute if score @s Job matches 3 run scoreboard players set _ _ 400
 execute if score @s Job matches 3 run scoreboard players operation @s Burst *= _ _

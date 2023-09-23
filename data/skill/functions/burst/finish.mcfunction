@@ -1,6 +1,8 @@
 
 ### バースト終了
 
+##忍者
+execute if score @s Job matches 2 run function skill:burst/ninja/finish
 ##召喚士
 execute if score @s Job matches 6 run function skill:burst/summoner/finish
 
