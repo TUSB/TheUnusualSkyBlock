@@ -2,7 +2,8 @@
 ### 補足成功
 
 execute as @e[tag=Mob,distance=..0.01,sort=nearest,limit=1] run function oh_my_dat:please
-tellraw @s [{"translate":"アナライズ：【 %1$s 】","with":[{"storage":"oh_my_dat:","nbt":"_[-4][-4][-4][-4][-4][-4][-4][-4].\"ステータス\".CustomName","interpret":true}]}]
+execute if data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4]."ステータス".CustomName run tellraw @s [{"translate":"アナライズ：【 %1$s 】","with":[{"storage":"oh_my_dat:","nbt":"_[-4][-4][-4][-4][-4][-4][-4][-4].\"ステータス\".CustomName","interpret":true}]}]
+execute unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4]."ステータス".CustomName run tellraw @s [{"translate":"アナライズ：【 %1$s 】","with":[{"entity":"@e[tag=Mob,distance=..0.01,sort=nearest,limit=1]","nbt":"CustomName","interpret":true}]}]
 
 scoreboard players set _ _ 100
 scoreboard players operation _ Level = @e[tag=Mob,distance=..0.01,sort=nearest,limit=1] Level
