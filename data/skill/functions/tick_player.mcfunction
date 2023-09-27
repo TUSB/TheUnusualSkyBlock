@@ -29,4 +29,4 @@ execute if entity @s[scores={HomePoint=1..}] run function skill:act/black_mage/r
 execute if entity @s[scores={RestoreItem=0..}] run function skill:act/common/restore_item/tick
 
 ### 1秒処理
-execute if score $Tick Count matches 0 run function skill:one_second1
+execute if score $Tick Count matches 0 run function skill:one_second_player
