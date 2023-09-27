@@ -12,6 +12,17 @@ execute as @e[type=!player,tag=BurstShadow,scores={ParentID=0}] run data modify 
 
 scoreboard players operation @e[type=!player,tag=BurstShadow,scores={ParentID=0}] MP = @s MP
 
+# プレイヤーの放った矢をコピーする
+# 発射方向は一番近いEnemy、いなければプレイヤーと同じ向き
+# 発射速度はプレイヤーと大体同じになる
+
+execute if data storage skill: Skill{Trigger:"弓を構えて矢を撃つ"} run function skill:burst/ninja/shadow/arrow_calc
+execute if data storage skill: Skill{Trigger:"クロスボウを構えて矢を撃つ"} run function skill:burst/ninja/shadow/arrow_calc
+
+execute if data storage skill: Skill{Trigger:"弓を構えて矢を撃つ"} as @e[type=!player,tag=BurstShadow,scores={ParentID=0}] at @s anchored eyes positioned ^ ^ ^ run function skill:burst/ninja/shadow/arrow
+execute if data storage skill: Skill{Trigger:"クロスボウを構えて矢を撃つ"} as @e[type=!player,tag=BurstShadow,scores={ParentID=0}] at @s anchored eyes positioned ^ ^ ^ run function skill:burst/ninja/shadow/arrow
+
+
 ## 影分身の位置で、一番近いEnemyに向いてスキルを実行する
 ## Enemyがいなければ、プレイヤーと同じ向きでスキルを実行する
 execute as @e[type=!player,tag=BurstShadow,scores={ParentID=0}] positioned as @s facing entity @e[tag=Enemy,distance=..32,limit=1] feet run function skill:practice/act/
@@ -32,6 +43,9 @@ execute if data storage skill: Skill{Trigger:"死ぬ"} run tag @s remove BurstSh
 # ダークスワンプのMP回復先を変更
 execute if data storage skill: Skill{Name:"ダークスワンプ"} at @e[type=!player,tag=BurstShadow,scores={ParentID=0}] run scoreboard players operation @e[tag=DarkSwamp,tag=!Initialized,limit=1,distance=..0.01] TrackingID = @s OhMyDatID
 
+# 矢に装備とダメージを保存
+execute if data storage skill: Skill{Trigger:"弓を構えて矢を撃つ"} as @e[type=!player,tag=BurstShadow,scores={ParentID=0}] at @s anchored eyes positioned ^ ^ ^ as @e[type=arrow,tag=!Initialized,distance=..0.01,limit=1] run function player:trigger/projectile/save
+execute if data storage skill: Skill{Trigger:"クロスボウを構えて矢を撃つ"} as @e[type=!player,tag=BurstShadow,scores={ParentID=0}] at @s anchored eyes positioned ^ ^ ^ as @e[type=arrow,tag=!Initialized,distance=..0.01,limit=1] run function player:trigger/projectile/save
 
 # 特定終了
 scoreboard players operation @e[type=!player,tag=BurstShadow] ParentID += @s OhMyDatID
