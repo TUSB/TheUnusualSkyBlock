@@ -12,8 +12,11 @@ execute in area:control_area run function skill:burst/ninja/shadow/name
 scoreboard players operation @e[type=!player,tag=BurstShadow,distance=..0] ParentID = @s OhMyDatID
 tag @s add BurstShadow
 
-# OhMyDatIDの取得
-execute as @e[type=!player,tag=BurstShadow,distance=..0] run function oh_my_dat:please
+# OhMyDatIDの取得とプレイヤーのUUIDを持っておく
+execute as @e[type=!player,tag=Shadow.Left,distance=..0] run function oh_my_dat:please
+data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].BurstShadow.UUID set from entity @s UUID
+execute as @e[type=!player,tag=Shadow.Right,distance=..0] run function oh_my_dat:please
+data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].BurstShadow.UUID set from entity @s UUID
 
 # NativeTask登録
 scoreboard players add @e[type=!player,tag=BurstShadow,distance=..0] NativeFlag 1
