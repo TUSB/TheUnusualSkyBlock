@@ -8,7 +8,7 @@
 # 18  19  20  21  22  23
 
 #左端にTP
-tp @s -401.0 256 1625.0
+tp @s -401.0 320 1625.0
 execute if score _ Calc matches 06..11 at @s run tp @s ~ ~ ~282
 execute if score _ Calc matches 12..17 at @s run tp @s ~ ~ ~564
 execute if score _ Calc matches 18..23 at @s run tp @s ~ ~ ~846
@@ -28,7 +28,7 @@ execute if score _ Calc matches 5 at @s run tp @s ~800 ~ ~
 
 #spreadplayersしてY255の天井下にTP
 execute at @s run spreadplayers ~ ~ 0 40 false @s
-execute at @s run tp @s ~ ~-10 ~
+execute at @s run tp @s ~ ~-75 ~
 
 #プレイヤーTP、返却
 tp @a[distance=0,limit=1] @s

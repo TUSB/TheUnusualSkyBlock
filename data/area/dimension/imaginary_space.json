@@ -3,12 +3,8 @@
       "type": "minecraft:flat",
       "seed": 0,
       "settings": {
-          "structures": {
-              "structures": {
-              }
-          },
-          "layers": [
-          ],
+          "structure_overrides": [],
+          "layers": [],
           "biome": "minecraft:the_void"
       }
   },
