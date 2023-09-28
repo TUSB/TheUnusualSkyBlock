@@ -33,7 +33,7 @@ execute if entity @s[scores={Trade=1..}] run function player:trigger/trade/
 execute if entity @s[scores={FoodLevel=1..}] run function player:trigger/food
 
 ### スキル
-function skill:tick
+function skill:tick_player
 
 ### 幸運によるMP補正
 execute store result score _ Luck run attribute @s minecraft:generic.luck get 10
