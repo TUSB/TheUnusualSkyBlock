@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 12,
+          "type": "loot_table",
+          "name": "item:item/bundle/jewel_bundle"
+        },
+        {
+          "weight": 12,
+          "type": "loot_table",
+          "name": "item:item/bundle/emerald_bundle"
+        },
+        {
+          "weight": 12,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/tusb_publicity_flyer"
+        },
+        {
+          "weight": 12,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/euphoric_face_pie"
+        },
+        {
+          "weight": 6,
+          "type": "loot_table",
+          "name": "item:item/potion/very_glow"
+        },
+        {
+          "weight": 6,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/who_dropped_items_into_abyss"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/pendulum"
+        }
+      ]
+    }
+  ]
+}

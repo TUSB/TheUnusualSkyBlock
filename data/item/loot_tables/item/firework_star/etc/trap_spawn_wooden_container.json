@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:4001,HideFlags:32,SpawnEntities:[[{Tags:[Global,Neutrality,Blow,WoodenContainer,Main,SpawnParticles],Level:10}]],Explosion:{Type:0b,Colors:[I;13539934]},display:{Name:'{\"translate\":\"召喚の罠「木のコンテナ」\",\"color\":\"#FF5100\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"カウンタートラップアイテム。\",\"color\":\"#FF0061\"}','{\"translate\":\"このアイテムがインベントリー外に出た際、\",\"color\":\"#FF0061\"}','{\"translate\":\"フィールドに「」内のモンスターを特殊召喚をする。\",\"color\":\"#FF0061\"}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

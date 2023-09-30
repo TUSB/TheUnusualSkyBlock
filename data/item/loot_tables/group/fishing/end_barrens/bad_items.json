@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_spawner_vase"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_death_thorn"
+        }
+      ]
+    }
+  ]
+}

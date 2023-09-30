@@ -11,6 +11,11 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/tier5_carrot_on_a_stick"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/red_carrot"
         },
         {
@@ -86,11 +91,6 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier5_carrot_on_a_stick"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
           "name": "item:item/chainmail_boots/turbine"
         },
         {
@@ -106,12 +106,12 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/diamond_axe/death_scythe"
+          "name": "item:item/diamond_axe/tier5_diamond_axe"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/diamond_axe/tier5_diamond_axe"
+          "name": "item:item/diamond_axe/death_scythe"
         },
         {
           "weight": 1,

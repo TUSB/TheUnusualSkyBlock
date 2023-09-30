@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/bow/ragged_bow"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/ragged_carrot_on_a_stick"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/golden_sword/ragged_sword"
+        }
+      ]
+    }
+  ]
+}
