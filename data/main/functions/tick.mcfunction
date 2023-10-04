@@ -18,7 +18,7 @@ execute as @e[tag=SpawnerHolder] at @s if block ~ ~ ~ minecraft:air run function
 execute as @e[tag=!Initialized] at @s run function entity:initialize_entity
 
 ### 召喚済み単回スポナー削除
-kill @e[tag=OneTimeSpawner,nbt={SpawnData:{id:"tusb_mob:empty"}}]
+kill @e[tag=OneTimeSpawner,nbt={SpawnData:{entity:{id:"tusb_mob:empty"}}}]
 
 ### 1秒処理
 scoreboard players add $Tick Count 1
