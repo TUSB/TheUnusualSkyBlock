@@ -38,3 +38,6 @@ execute as @e[tag=CooldownRequired,nbt={PortalCooldown:0}] at @s run function en
 
 ### エンティティ削除
 execute as @e[tag=Garbage] run function entity:garbage_collection
+
+### 通常世界脅威島 チェストの上の石は壊れない
+execute in area:skylands positioned 39 6 -557 if entity @a[distance=..10] if block 39 7 -556 air if block 39 6 -556 chest run setblock 39 7 -556 smooth_stone

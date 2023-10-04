@@ -11,3 +11,7 @@ execute as @e[tag=TickingRequired] at @s run function entity:check_freeze
 
 ### バースト減少
 execute if score $World Burst matches 1.. run function skill:burst/decrement
+
+### 通常世界 脅威島
+execute in area:skylands positioned 39 6 -557 if entity @a[distance=..10] run function area:system/skylands/threat
+execute in area:skylands positioned 39 318 -557 if entity @a[distance=..10] run function area:system/skylands/threat
