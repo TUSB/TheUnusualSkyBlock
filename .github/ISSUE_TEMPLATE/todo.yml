@@ -10,9 +10,15 @@ body:
       赤い印がついているものは必ず答えてください。
 - type: dropdown 
   id: priority
-  description: TEST
   attributes:
     label: 重要度
+    description: |
+      このタスクに対しての重要度を記入してください。
+      - 低め: コードのリファクタリングや設計思想で気になるなどのやらなくても今回のVerではやらなくてもいいレベル
+      - 通常: 今回のバージョンは入れなくても良いが、できたらやったほうがいいよなぁレベル
+      - 高い: 動作に不都合(困る)ので、今後のためにも入れておきたいレベル
+      - 急いで: 動作に支障出るので、リリース前までに入れておきたいレベル
+      - 今すぐ: 動作に支障出るので、v13αまでに必ず入れたいレベル
     options:
       - 低め
       - 通常
@@ -24,11 +30,12 @@ body:
 - type: dropdown
   id: Version
   attributes:
-    label: このTODOの対象TUSBv13 Version
+    label: このTODOはこのUSBv13 Versionに影響が出る
     options:
       - v13α
       - v13.1α
       - v13.2α
       - v13 Release
+      - v14 以降
   validations:
     required: false
