@@ -1,0 +1,41 @@
+name: やるべきリスト
+description: TODOとか今後やらないといけない少タスク
+title: "[TODO] <ここにタイトルを入力>"
+labels: [todo]
+body:
+- type: markdown
+  attributes:
+    value: |
+      ## リリースまでや今後必要になるであろうTODOを記載してください。
+      赤い印がついているものは必ず答えてください。- type: dropdown
+  id: priority
+  attributes:
+    label: 重要度
+    options:
+      - 低め
+      - 通常
+      - 高い
+      - 急いで
+      - 今すぐ
+  validations:
+    required: true
+- type: dropdown
+  id: Version
+  attributes:
+    label: このTODOの対象TUSBv13 Version
+    options:
+      - v13α
+      - v13.1α
+      - v13.2α
+      - v13 Release
+  validations:
+    required: false
+- type: textarea
+  id: "overview"
+  attributes:
+    label: 概要
+    description: |
+      TODOについての説明を記入する。
+      画像のアップロードも可能です。
+  validations:
+    required: true
