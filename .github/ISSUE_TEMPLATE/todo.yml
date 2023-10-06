@@ -87,28 +87,3 @@ body:
       ...
   validations:
     required: true
-
-- type: textarea
-  id: task-priority
-  attributes:
-    label: 
-    description: |
-      上記の内容と関連性があるように記載してください。
-      深掘りする場合は 1.1. のように段落構成にしてください。
-    placeholder : |
-      # TODO/タスク の詳細
-      ## 何故必要なのか
-      1.  `/kill @e` が実行される
-      2.
-      3.
-      ...
-    value : |
-      # TODO/タスク の詳細
-      <!-- 知らない人から見てもわかりやすく、簡潔に。　短すぎず長すぎず -->
-      ## 何故必要なのか
-      1. 
-      2.
-      3.
-      ...
-  validations:
-    required: true
