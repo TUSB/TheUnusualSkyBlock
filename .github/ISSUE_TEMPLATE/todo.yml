@@ -1,5 +1,5 @@
 name: やるべきリスト
-description: TODOとか今後やらないといけない少タスク
+description: TODOとか今後やらないといけないタスク
 title: "[TODO] <ここにタイトルを入力>"
 labels: [todo]
 body:
@@ -30,12 +30,3 @@ body:
       - v13 Release
   validations:
     required: false
-- type: textarea
-  id: "overview"
-  attributes:
-    label: 概要
-    description: |
-      TODOについての説明を記入する。
-      画像のアップロードも可能です。
-  validations:
-    required: true
