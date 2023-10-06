@@ -8,8 +8,9 @@ body:
     value: |
       ## リリースまでや今後必要になるであろうTODOを記載してください。
       赤い印がついているものは必ず答えてください。
-- type: dropdown     
+- type: dropdown 
   id: priority
+  description: TEST
   attributes:
     label: 重要度
     options:
