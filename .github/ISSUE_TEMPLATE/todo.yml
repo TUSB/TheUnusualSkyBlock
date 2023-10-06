@@ -1,7 +1,7 @@
 name: やるべきリスト
 description: TODOとか今後やらないといけないタスク
 title: "[TODO] <ここにタイトルを入力>"
-labels: [todo]
+labels: [Todo]
 body:
 - type: markdown
   attributes:
