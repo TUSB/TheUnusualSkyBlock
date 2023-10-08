@@ -11,6 +11,11 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/infinity_diamond_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/panacea"
         },
         {
@@ -47,6 +52,26 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/gold_nugget/purification/4"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/netherite_boots/infinity_netherite_b"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/netherite_chestplate/infinity_netherite_c"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/netherite_helmet/infinity_netherite_h"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/netherite_leggings/infinity_netherite_l"
         },
         {
           "weight": 1,
