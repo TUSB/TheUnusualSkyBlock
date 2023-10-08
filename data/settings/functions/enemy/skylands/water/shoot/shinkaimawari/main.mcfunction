@@ -20,6 +20,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 115
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 125
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 85
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier3/common",Count:1,Chance:0.31d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier3/common",Count:1,Chance:0.25d}]
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Name:"Function",Tags:[Skylands,Water,Shoot,Shinkaimawari,Debuff]}],Attack:[{Name:"Function",Tags:[Skylands,Water,Shoot,Shinkaimawari,Flood]}],Tick:[{Condition:[{Name:"RandomChance",Chance:0.05d},{Name:"CheckBlock",Block:[Water]}],Name:"Heal",Multiplier:0.5d,Range:0.1}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:90,Max:150,Current:120},Loop:{Max:1,Current:1},Call:[{Name:"Function",Tags:[Skylands,Water,Shoot,Shinkaimawari,IceDirection]},{Name:"Function",Tags:[Skylands,Water,Shoot,Shinkaimawari,Ice1],Player:{DamageType:[Global],DeathCause:'[{"translate":"%1$sは%2$sの呪縛によって凍らせられてしまった。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'},MP:{MP:50},Distance:{Max:0.1d}}]}]}]}

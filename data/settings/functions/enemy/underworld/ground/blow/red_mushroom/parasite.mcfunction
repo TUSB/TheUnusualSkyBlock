@@ -20,6 +20,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 50
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 50
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 50
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:2,Chance:0.31d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:2,Chance:0.25d}]
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Function",Tags:[Global,Event,Function,Attributes,MovementSpeedRandom],MinSpeed:10,RangeSpeed:25}],Death:[{Name:"Spawn",SpawnEntities:[[{Tags:[Underworld,Ground,Blow,RedMushroom,Metamorphose,SpawnParticles],Level:22}]]}],Damage:[{Name:"Function",Tags:[Global,Event,Function,DamageSound,Mankind]}],Attack:[{Name:"Function",Tags:[Global,Event,Function,DamageSound,Mankind]}]}
