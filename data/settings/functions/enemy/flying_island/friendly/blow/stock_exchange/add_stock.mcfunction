@@ -13,6 +13,6 @@ data modify storage mob_data: StockVillager.Recipes[-1].xp set value 15
 execute store result storage mob_data: StockVillager.Recipes[-1].maxUses int 1 run scoreboard players get _ Calc
 
 
-function settings:enemy/debug_room/friendly/blow/stock_exchange/main
+function settings:enemy/flying_island/friendly/blow/stock_exchange/main
 data modify storage mob_data: StockVillager.Recipes append from storage tusb_mob: "即時ステータス"."ベース".Offers.Recipes[0]
 data modify storage mob_data: StockVillager.Recipes[-1].buy.Count set from storage mob_data: StockVillager.Recipes[-2].sell.Count

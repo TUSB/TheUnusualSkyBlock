@@ -9,6 +9,6 @@ execute store result score _ _ run data get storage mob_data: StockVillager.Reci
 scoreboard players operation _ _ += _ Random
 execute if score _ _ matches ..0 run scoreboard players set _ _ 1
 execute if score _ _ matches 64.. run scoreboard players set _ _ 64
-tellraw @a ["次の売値: ",{"score":{"name":"_","objective":"_"}}]
+#tellraw @a ["次の売値: ",{"score":{"name":"_","objective":"_"}}]
 execute store result storage mob_data: StockVillager.Recipe.buy.Count byte 1 run scoreboard players get _ _
 data modify storage mob_data: StockVillager.Exchanged append from storage mob_data: StockVillager.Recipe
