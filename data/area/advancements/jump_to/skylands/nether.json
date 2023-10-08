@@ -1,35 +1,36 @@
 {
     "criteria": {
         "nether": {
-            "trigger": "minecraft:location",
+            "trigger": "minecraft:enter_block",
             "conditions": {
+                "block": "end_gateway",
                 "player": [
                     {
-                      "condition": "minecraft:reference",
-                      "name": "entity:player"
+                        "condition": "minecraft:reference",
+                        "name": "entity:player"
                     },
                     {
-                      "condition": "minecraft:location_check",
-                      "predicate": {
-                          "position": {
-                              "x": {
-                                  "min": 129,
-                                  "max": 131
-                              },
-                              "y": {
-                                  "min": 72,
-                                  "max": 77
-                              },
-                              "z": {
-                                  "min": -703,
-                                  "max": -698
-                              }
-                          },
-                          "dimension": "area:skylands",
-                          "block": {
-                              "blocks": ["end_gateway"]
-                          }
-                      }
+                        "condition": "entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "position": {
+                                "location": {
+                                    "x": {
+                                        "min": 129,
+                                        "max": 131
+                                    },
+                                    "y": {
+                                        "min": 72,
+                                        "max": 77
+                                    },
+                                    "z": {
+                                        "min": -703,
+                                        "max": -698
+                                    }
+                                }
+                            },
+                            "dimension": "area:skylands"
+                        }
                     }
                 ]
             }

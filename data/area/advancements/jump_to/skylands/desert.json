@@ -1,35 +1,33 @@
 {
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:location",
+      "trigger": "minecraft:enter_block",
       "conditions": {
+        "block": "minecraft:end_gateway",
         "player": [
           {
             "condition": "minecraft:reference",
             "name": "entity:player"
           },
           {
-            "condition": "minecraft:location_check",
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
             "predicate": {
-              "position": {
-                "x": {
-                  "min": 76,
-                  "max": 80
-                },
-                "y": {
-                  "min": 200,
-                  "max": 204
-                },
-                "z": {
-                  "min": -580,
-                  "max": -578
+              "location": {
+                "position": {
+                  "x": {
+                    "min": 76,
+                    "max": 80
+                  },
+                  "y": {
+                    "min": 200,
+                    "max": 204
+                  },
+                  "z": {
+                    "min": -580,
+                    "max": -578
+                  }
                 }
-              },
-              "dimension": "area:skylands",
-              "block": {
-                "blocks": [
-                  "minecraft:end_gateway"
-                ]
               }
             }
           }
