@@ -35,7 +35,7 @@
         ]
       }
     },
-    "brazil": {
+    "india": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -70,7 +70,7 @@
   "requirements": [
     [
       "start",
-      "brazil"
+      "india"
     ]
   ],
   "rewards": {
