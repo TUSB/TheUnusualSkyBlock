@@ -207,6 +207,7 @@ team modify Friendly friendlyFire false
 team modify Friendly collisionRule never
 team modify Friendly seeFriendlyInvisibles false
 team modify Friendly color white
+team add Enemy {"text":"敵チーム"}
 # team modify Friendly prefix {"text":"✦","color":"red"}
 # team modify Friendly suffix {"text":"✦","color":"red"}
 ###カラーチーム作成

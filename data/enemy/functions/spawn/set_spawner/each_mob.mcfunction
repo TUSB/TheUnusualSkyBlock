@@ -28,6 +28,7 @@ data modify storage tusb_mob: SpawnData set value {Attributes:[{Name:"minecraft:
 execute store result storage tusb_mob: SpawnData.TicksFrozen int 1 run scoreboard players get @s OhMyDatID
 
 # 即時ステータスを反映させる
+data modify storage tusb_mob: SpawnData.Team set value "Enemy"
 data modify storage tusb_mob: SpawnData merge from storage tusb_mob: "即時ステータス"."ベース"
 data modify storage tusb_mob: SpawnData merge from storage tusb_mob: "即時ステータス"."見た目"
 data modify storage tusb_mob: SpawnData.Attributes[{Name:"minecraft:generic.follow_range"}].Base set from storage tusb_mob: "即時ステータス"."最大感知範囲"
