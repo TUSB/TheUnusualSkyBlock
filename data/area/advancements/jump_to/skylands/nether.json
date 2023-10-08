@@ -13,8 +13,8 @@
                         "condition": "entity_properties",
                         "entity": "this",
                         "predicate": {
-                            "position": {
-                                "location": {
+                            "location": {
+                                "position": {
                                     "x": {
                                         "min": 129,
                                         "max": 131
@@ -27,9 +27,9 @@
                                         "min": -703,
                                         "max": -698
                                     }
-                                }
-                            },
-                            "dimension": "area:skylands"
+                                },
+                                "dimension": "area:skylands"
+                            }
                         }
                     }
                 ]
