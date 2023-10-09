@@ -10,14 +10,24 @@ body:
       赤い印がついているものは必ず答えてください。
       基本は1チケット=1タスク原則にしてください。
 
-
+- type: dropdown 
+  id: priority
+  attributes:
+    label: 重要度
+    description: |
+      重要度 
+    options:
+      - 低め
+      - 通常
+      - 高い
+      - 急いで
+      - 今すぐ
+  validations:
+    required: true
 
 - type: markdown
   attributes:
     value: |
-
-      重要度 
-      ---
       
       このタスクに対しての重要度を記入してください。
       - 低め: コードのリファクタリングや設計思想で気になるなどのやらなくても今回のVerではやらなくてもいいレベル
@@ -25,7 +35,6 @@ body:
       - 高い: 動作に不都合(困る)ので、今後のためにも入れておきたいレベル
       - 急いで: 動作に支障出るので、入れておきたいレベル(リリース後でもUpdateで対処できる)
       - 今すぐ: 動作に支障出るので、入れておきたいレベル(リリース後でもUpdateで対処できない、もしくはv13αまでに必須)
-      
       ---
       
       ```
@@ -38,18 +47,7 @@ body:
                     ┗ ただし、コマンドブロックは一般プレイヤーが実行する可能性がある → 急いで
                         ┗ さらに、データパックのUpdateだけでは、置き換えとかで対処できない → 今すぐ
       ```
-- type: dropdown 
-  id: priority
-  attributes:
-    label: 重要度
-    options:
-      - 低め
-      - 通常
-      - 高い
-      - 急いで
-      - 今すぐ
-  validations:
-    required: true
+
 - type: dropdown
   id: Version
   attributes:
