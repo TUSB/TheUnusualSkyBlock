@@ -27,7 +27,8 @@
                     "min": -580,
                     "max": -578
                   }
-                }
+                },
+                "dimension": "area:skylands"
               }
             }
           }
