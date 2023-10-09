@@ -1,4 +1,4 @@
 #ゴーストアイテム回避で1tickずらす
-schedule function item:tusb_memory/schedule 1t
+schedule function item:tusb_memory/schedule 1t replace
 #トリガー解除
-advancement revoke @s only item:init_tusb_memory
+schedule function item:tusb_memory/trigger_revoke 1t replace
