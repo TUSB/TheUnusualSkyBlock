@@ -44,6 +44,7 @@ body:
   attributes:
     label: このTODOはこのTUSB Versionに影響が出る
     options:
+      - 未選択
       - v13α
       - v13 Release
       - v14 以降
@@ -69,7 +70,6 @@ body:
       <!-- ※ ここはコメントアウトされます
       ## 何故必要なのか?
       1. 〇〇に`/kill @e` を実行する、コマンドブロックがある
-     --!> 
   validations:
     required: true
 
@@ -95,8 +95,7 @@ body:
       <!-- ※ ここはコメントアウトされます
       ## 何故必要なのか
       1.  `/kill @e` が実行される可能性がある
-        1.1. `/kill @e` が実行されるとシステムが停止する。
-      --!>
+        1.1. `/kill @e` が実行されるとシステムが停止する。 -->
   validations:
     required: true
 
@@ -139,7 +138,6 @@ body:
       その為、重要度は`急いで` を適用しました。
 
       ## いつまで対応が必要か
-      1. World崩壊引き起こすのでTUSB v13α のリリースまでに必須
-      --!>
+      1. World崩壊引き起こすのでTUSB v13α のリリースまでに必須-->
   validations:
     required: true
