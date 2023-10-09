@@ -424,9 +424,9 @@
         },
         "location": {
           "position": {
-            "x": 297.5,
-            "y": 50.5,
-            "z": -558.5
+            "x": 296.5,
+            "y": 47.5,
+            "z": -580.5
           },
           "dimension": "area:skylands"
         }
@@ -695,8 +695,8 @@
         "location": {
           "position": {
             "x": 19.5,
-            "y": 182.5,
-            "z": -450.5
+            "y": 168.5,
+            "z": -461.5
           },
           "dimension": "area:skylands"
         }
@@ -784,9 +784,9 @@
         },
         "location": {
           "position": {
-            "x": -158.5,
-            "y": 104.5,
-            "z": -813.5
+            "x": -171.5,
+            "y": 99.5,
+            "z": -777.5
           },
           "dimension": "area:skylands"
         }
