@@ -9,6 +9,10 @@ execute if entity @s[tag=Freeze] run schedule function effects:freeze/fix 1t
 #リスト・アイテム キャンセル
 tag @s remove SelectRestoreItem
 
+#エンチャント・TUSBM設定進捗解除
+advancement revoke @s only item:init_tusb_memory
+advancement revoke @s only item:engraving
+
 #プレイヤーゲーム設定
 function player:game_settings/show
 
