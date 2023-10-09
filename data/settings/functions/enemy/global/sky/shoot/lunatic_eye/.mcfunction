@@ -1,7 +1,7 @@
 execute if entity @s[tag=Main] run function settings:enemy/global/sky/shoot/lunatic_eye/main
 execute if entity @s[tag=Tick] run function settings:enemy/global/sky/shoot/lunatic_eye/tick
-execute if entity @s[tag=AuraTick] run function settings:enemy/global/sky/shoot/lunatic_eye/aura_tick
 execute if entity @s[tag=Aura] run function settings:enemy/global/sky/shoot/lunatic_eye/aura
+execute if entity @s[tag=AuraTick] run function settings:enemy/global/sky/shoot/lunatic_eye/aura_tick
 execute if entity @s[tag=AuraEffect] run function settings:enemy/global/sky/shoot/lunatic_eye/aura_effect
 execute if entity @s[tag=BackTp] run function settings:enemy/global/sky/shoot/lunatic_eye/back_tp
 execute if entity @s[tag=ModeChange] run function settings:enemy/global/sky/shoot/lunatic_eye/mode_change
