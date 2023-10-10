@@ -81,5 +81,8 @@ scoreboard players operation # Calc /= # _
 execute at @a run playsound minecraft:ui.toast.challenge_complete player @a
 title @a title [{"translate":"島 攻略率"},{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}},"(",{"score":{"name": "#","objective": "Calc"}},"%)"]
 
+#夜を司る島(月島)
+execute if entity @s[advancements={area:system/island_capture={skylands.011=true}}] run function area:system/skylands/moon
+
 #リセット
 advancement revoke @s only area:system/island_capture

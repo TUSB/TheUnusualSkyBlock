@@ -8,6 +8,8 @@ function settings:version_update/check/
 ###ゲームルール
 gamerule forgiveDeadPlayers false
 gamerule universalAnger true
+time set 14000
+gamerule doDaylightCycle false
 
 ###ステータス
 scoreboard objectives add Level dummy {"text":"レベル"}
