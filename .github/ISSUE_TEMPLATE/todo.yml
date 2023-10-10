@@ -50,10 +50,10 @@ body:
   attributes:
     label: このTODOはこのTUSB Versionに影響が出る
     options:
-      - 未選択
       - v13α
       - v13 Release
       - v14 以降
+      - その他
       
   validations:
     required: false
@@ -84,7 +84,7 @@ body:
 - type: textarea
   id: task-progress
   attributes:
-    label: これをしないとどうなるのか予想される問題を記載してください
+    label: 予想される問題
     description: |
       上記の内容と関連性があるように記載してください。
       深掘りする場合は 1.1. のように段落構成にしてください。
@@ -95,6 +95,7 @@ body:
       3.
       
     value : |
+      <!-- これをしないとどうなるのか予想される問題を記載してください -->
       ## 何故必要なのか
       1. 
       2.
@@ -111,10 +112,11 @@ body:
 - type: textarea
   id: task-priority
   attributes:
-    label: なぜこの重要度にしたのか(重要度 高い 以上向け)
+    label: なぜこの重要度にしたのか
     description: |
       なぜこの重要度にしたのかを詳細記載してください。(重要度 高い 以上向け)
     placeholder : |
+      <!-- (重要度 高い 以上向け) -->
       ## 何故この重要度なのか
       1. 
       2. 
