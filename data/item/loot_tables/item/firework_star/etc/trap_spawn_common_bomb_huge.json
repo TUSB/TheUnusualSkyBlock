@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:4001,HideFlags:32,SpawnEntities:[[{Tags:[Global,Event,Bullet,CommonBombHuge,Main],Level:30}]],Explosion:{Type:0b,Colors:[I;16732995]},display:{Name:'{\"translate\":\"召喚の罠「よくある巨大爆弾」\",\"color\":\"#FF0000\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"カウンタートラップアイテム。\",\"color\":\"#FF0061\"}','{\"translate\":\"このアイテムがインベントリー外に出た際、\",\"color\":\"#FF0061\"}','{\"translate\":\"フィールドに「」内のモンスターを特殊召喚をする。\",\"color\":\"#FF0061\"}']}}"
+              "tag": "{CustomModelData:4001,HideFlags:32,SpawnEntities:[[{Tags:[Global,Event,Bullet,CommonBombHuge,Main],Level:30}]],Explosion:{Type:0b,Colors:[I;16732995]},display:{Name:'{\"translate\":\"召喚の罠「よくある巨大爆弾」\",\"color\":\"#FF0000\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"このアイテムが地面に落ちた時、\",\"color\":\"#FF0061\"}','{\"translate\":\"「」のモンスターが召喚される。\",\"color\":\"#FF0061\"}']}}"
             }
           ]
         }

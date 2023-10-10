@@ -140,7 +140,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+          "name": "item:item/firework_star/etc/key_block_key_skylands_001"
         }
       ]
     },
@@ -188,7 +188,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+          "name": "item:item/firework_star/etc/key_block_key_skylands_001"
         }
       ]
     },
