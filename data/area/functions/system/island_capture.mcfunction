@@ -1,5 +1,5 @@
 #島の個数(後で変更)
-scoreboard players set # _ 46
+scoreboard players set # _ 45
 
 #進捗の判定
 ##skylands
