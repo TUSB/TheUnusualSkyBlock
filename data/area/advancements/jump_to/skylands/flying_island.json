@@ -105,6 +105,6 @@
         ]
     ],
     "rewards": {
-        "function": "area:jump_to/flying_island"
+        "function": "area:jump_to/trigger/flying_island/"
     }
 }

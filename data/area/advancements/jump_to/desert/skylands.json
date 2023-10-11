@@ -37,6 +37,6 @@
     }
   },
   "rewards": {
-    "function": "area:jump_to/desert/skylands"
+    "function": "area:jump_to/trigger/desert/skylands/"
   }
 }

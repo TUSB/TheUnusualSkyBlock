@@ -37,6 +37,6 @@
         }
     },
     "rewards": {
-        "function": "area:jump_to/imaginary_space/skylands"
+        "function": "area:jump_to/trigger/imaginary_space/skylands/"
     }
 }

@@ -1,0 +1,1 @@
+schedule function area:jump_to/trigger/skylands/gates/schedule 1t replace

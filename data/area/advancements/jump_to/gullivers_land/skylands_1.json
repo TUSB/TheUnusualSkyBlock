@@ -37,6 +37,6 @@
         }
     },
     "rewards": {
-        "function": "area:jump_to/gullivers_land/skylands_1"
+        "function": "area:jump_to/trigger/gullivers_land/skylands_1/"
     }
 }

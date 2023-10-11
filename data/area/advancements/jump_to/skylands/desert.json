@@ -37,6 +37,6 @@
     }
   },
   "rewards": {
-    "function": "area:jump_to/desert/"
+    "function": "area:jump_to/trigger/desert/"
   }
 }

@@ -37,6 +37,6 @@
         }
     },
     "rewards": {
-        "function": "area:jump_to/imaginary_space/"
+        "function": "area:jump_to/trigger/imaginary_space/"
     }
 }

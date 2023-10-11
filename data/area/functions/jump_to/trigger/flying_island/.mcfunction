@@ -1,0 +1,1 @@
+schedule function area:jump_to/trigger/flying_island/schedule 1t replace

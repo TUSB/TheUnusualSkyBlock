@@ -1,0 +1,1 @@
+schedule function area:jump_to/trigger/nether/schedule 1t replace

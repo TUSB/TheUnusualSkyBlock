@@ -37,6 +37,6 @@
         }
     },
     "rewards": {
-        "function": "area:jump_to/nether/"
+        "function": "area:jump_to/trigger/nether/"
     }
 }
