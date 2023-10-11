@@ -30,4 +30,5 @@ execute if entity @s[tag=Main] run function settings:enemy/skylands/sky/shoot/i_
 execute if entity @s[tag=MainMarker] run function settings:enemy/skylands/sky/shoot/i_love_eye/main_marker
 execute if entity @s[tag=MainInit] run function settings:enemy/skylands/sky/shoot/i_love_eye/main_init
 execute if entity @s[tag=MainSummon] run function settings:enemy/skylands/sky/shoot/i_love_eye/main_summon
+execute if entity @s[tag=MainDeath1] run function settings:enemy/skylands/sky/shoot/i_love_eye/main_death1
 execute if entity @s[tag=MainTick] run function settings:enemy/skylands/sky/shoot/i_love_eye/main_tick
