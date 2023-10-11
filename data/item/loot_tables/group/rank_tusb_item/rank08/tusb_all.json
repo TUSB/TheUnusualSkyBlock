@@ -187,6 +187,11 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/shield/shield_of_foreign_law"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/mask_of_potatoism"
         }
       ]
     }
