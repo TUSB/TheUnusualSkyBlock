@@ -9,3 +9,4 @@ execute if entity @s[scores={Suiton=1..}] run function skill:act/ninja/suiton/ti
 execute if entity @s[scores={PiercingAim=1..}] run function skill:act/hunter/piercing_aim/tick
 #共通
 execute if entity @s[scores={SkyWalk=1..}] run function skill:act/common/sky_walk/tick
+execute if entity @s[scores={SuspiciousPowderTime=1..}] run function skill:act/common/suspicious_powder/one_second

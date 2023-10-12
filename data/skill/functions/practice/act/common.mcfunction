@@ -34,6 +34,7 @@ execute if data storage skill: Skill{Name:"虚無の取り出し"} run function 
 execute if data storage skill: Skill{Name:"ハイジャンプ"} run function skill:act/common/high_jump/act0
 execute if data storage skill: Skill{Name:"冷やしパンプキンスープ"} run function skill:act/common/cold_pumpkin_soup/act0
 execute if data storage skill: Skill{Name:"コーンスープ"} run function skill:act/common/corn_soup/act0
+execute if data storage skill: Skill{Name:"怪しい粉"} run function skill:act/common/suspicious_powder/act0
 execute if data storage skill: Skill{Name:"断罪"} run function skill:act/common/condemnation/act0
 execute if data storage skill: Skill{Name:"サン"} run function skill:act/common/sun/act0
 execute if data storage skill: Skill{Name:"ムーン"} run function skill:act/common/moon/act0
