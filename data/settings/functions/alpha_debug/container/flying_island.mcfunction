@@ -252,5 +252,4 @@ execute in area:flying_island positioned -803 9 -669 run forceload add ~ ~
 execute in area:flying_island positioned -803 9 -669 run data merge block ~ ~ ~ {CustomName:'{"translate":"通常世界の罠ディスペンサー","color":"#FF0000","bold":true,"italic":false}',Lock:"item:chest/flying_island/trap/trap_dispenser",LootTable:"item:chest/flying_island/trap/trap_dispenser"}
 execute in area:flying_island positioned -814 129 -653 run forceload add ~ ~
 execute in area:flying_island positioned -814 129 -653 run data merge block ~ ~ ~ {CustomName:'{"translate":"通常世界の罠ディスペンサー","color":"#FF0000","bold":true,"italic":false}',Lock:"item:chest/flying_island/trap/trap_dispenser",LootTable:"item:chest/flying_island/trap/trap_dispenser"}
-
 execute in area:flying_island run forceload remove all

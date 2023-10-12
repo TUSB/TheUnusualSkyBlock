@@ -94,6 +94,8 @@ execute in area:skylands positioned 6 2 -566 run forceload add ~ ~
 execute in area:skylands positioned 6 2 -566 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_06_currency",LootTable:"item:chest/skylands/rank07_chest_single/single_06_currency"}
 execute in area:skylands positioned 7 19 -579 run forceload add ~ ~
 execute in area:skylands positioned 7 19 -579 run data merge block ~ ~ ~ {CustomName:'{"translate":"拠点作成キット","color":"#D4D400","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/ghast_islands_unique",LootTable:"item:chest/skylands/unique/ghast_islands_unique"}
+execute in area:skylands positioned 7 1 -552 run forceload add ~ ~
+execute in area:skylands positioned 7 1 -552 run data merge block ~ ~ ~ {CustomName:'{"translate":"もっふもふ～","color":"#FFFFFF","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/ghast_islands_unique_mofu",LootTable:"item:chest/skylands/unique/ghast_islands_unique_mofu"}
 execute in area:skylands positioned 39 6 -556 run forceload add ~ ~
 execute in area:skylands positioned 39 6 -556 run data merge block ~ ~ ~ {CustomName:'{"translate":"脅威はここに眠る","color":"#980000","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/sugar_islands_unique",LootTable:"item:chest/skylands/unique/sugar_islands_unique"}
 execute in area:skylands positioned 39 78 -589 run forceload add ~ ~
@@ -208,6 +210,10 @@ execute in area:skylands positioned -65 58 -684 run forceload add ~ ~
 execute in area:skylands positioned -65 58 -684 run data merge block ~ ~ ~ {CustomName:'{"translate":"隠し報酬","color":"#FCCA67","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/steave_islands_unique3",LootTable:"item:chest/skylands/unique/steave_islands_unique3"}
 execute in area:skylands positioned -65 58 -665 run forceload add ~ ~
 execute in area:skylands positioned -65 58 -665 run data merge block ~ ~ ~ {CustomName:'{"translate":"隠し報酬","color":"#FCCA67","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/steave_islands_unique4",LootTable:"item:chest/skylands/unique/steave_islands_unique4"}
+execute in area:skylands positioned 108 36 -601 run forceload add ~ ~
+execute in area:skylands positioned 108 36 -601 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3D0004","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_large/large_01_tusb_left",LootTable:"item:chest/skylands/rank07_chest_large/large_01_tusb_left"}
+execute in area:skylands positioned 109 36 -601 run forceload add ~ ~
+execute in area:skylands positioned 109 36 -601 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3D0004","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_large/large_01_tusb_right",LootTable:"item:chest/skylands/rank07_chest_large/large_01_tusb_right"}
 execute in area:skylands positioned 162 64 -754 run forceload add ~ ~
 execute in area:skylands positioned 162 64 -754 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#393505","bold":true,"italic":false}',Lock:"item:chest/skylands/rank03_chest_single/single_03_ores",LootTable:"item:chest/skylands/rank03_chest_single/single_03_ores"}
 execute in area:skylands positioned 165 64 -768 run forceload add ~ ~
@@ -872,6 +878,10 @@ execute in area:skylands positioned -94 28 -606 run forceload add ~ ~
 execute in area:skylands positioned -94 28 -606 run data merge block ~ ~ ~ {CustomName:'{"translate":"隠し報酬","color":"#FCCA67","bold":true,"italic":false}',Lock:"item:chest/skylands/rank_all_dispenser/all",LootTable:"item:chest/skylands/rank_all_dispenser/all"}
 execute in area:skylands positioned -77 24 -601 run forceload add ~ ~
 execute in area:skylands positioned -77 24 -601 run data merge block ~ ~ ~ {CustomName:'{"translate":"隠し報酬","color":"#FCCA67","bold":true,"italic":false}',Lock:"item:chest/skylands/rank_all_hopper/all",LootTable:"item:chest/skylands/rank_all_hopper/all"}
+execute in area:skylands positioned -50 11 -608 run forceload add ~ ~
+execute in area:skylands positioned -50 11 -608 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank01_chest_single/single_07_magic_stone",LootTable:"item:chest/skylands/rank01_chest_single/single_07_magic_stone"}
+execute in area:skylands positioned -96 32 -632 run forceload add ~ ~
+execute in area:skylands positioned -96 32 -632 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#033A09","bold":true,"italic":false}',Lock:"item:chest/skylands/rank01_chest_single/single_04_ender_pearl",LootTable:"item:chest/skylands/rank01_chest_single/single_04_ender_pearl"}
 execute in area:skylands positioned 148 57 -652 run forceload add ~ ~
 execute in area:skylands positioned 148 57 -652 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#000000","bold":true,"italic":false}',Lock:"item:chest/skylands/rank01_chest_single/single_08_risky",LootTable:"item:chest/skylands/rank01_chest_single/single_08_risky"}
 execute in area:skylands positioned 149 58 -652 run forceload add ~ ~
@@ -890,6 +900,12 @@ execute in area:skylands positioned 154 66 -648 run forceload add ~ ~
 execute in area:skylands positioned 154 66 -648 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_large/large_06_currency_left",LootTable:"item:chest/skylands/rank04_chest_large/large_06_currency_left"}
 execute in area:skylands positioned 154 66 -647 run forceload add ~ ~
 execute in area:skylands positioned 154 66 -647 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_large/large_06_currency_right",LootTable:"item:chest/skylands/rank04_chest_large/large_06_currency_right"}
+execute in area:skylands positioned 162 53 -660 run forceload add ~ ~
+execute in area:skylands positioned 162 53 -660 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_large/large_07_magic_stone_left",LootTable:"item:chest/skylands/rank04_chest_large/large_07_magic_stone_left"}
+execute in area:skylands positioned 161 53 -660 run forceload add ~ ~
+execute in area:skylands positioned 161 53 -660 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_large/large_07_magic_stone_right",LootTable:"item:chest/skylands/rank04_chest_large/large_07_magic_stone_right"}
+execute in area:skylands positioned 155 53 -654 run forceload add ~ ~
+execute in area:skylands positioned 155 53 -654 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3D0004","bold":true,"italic":false}',Lock:"item:chest/skylands/rank06_chest_single/single_01_tusb",LootTable:"item:chest/skylands/rank06_chest_single/single_01_tusb"}
 execute in area:skylands positioned -16 3 -621 run forceload add ~ ~
 execute in area:skylands positioned -16 3 -621 run data merge block ~ ~ ~ {CustomName:'{"translate":"隠し報酬","color":"#FCCA67","bold":true,"italic":false}',Lock:"item:chest/skylands/rank_all_dispenser/all",LootTable:"item:chest/skylands/rank_all_dispenser/all"}
 execute in area:skylands positioned -16 4 -621 run forceload add ~ ~
@@ -936,12 +952,40 @@ execute in area:skylands positioned 83 177 -857 run forceload add ~ ~
 execute in area:skylands positioned 83 177 -857 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#393505","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_03_ores",LootTable:"item:chest/skylands/rank07_chest_single/single_03_ores"}
 execute in area:skylands positioned 83 177 -853 run forceload add ~ ~
 execute in area:skylands positioned 83 177 -853 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#033A09","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_04_ender_pearl",LootTable:"item:chest/skylands/rank07_chest_single/single_04_ender_pearl"}
+execute in area:skylands positioned 31 8 -648 run forceload add ~ ~
+execute in area:skylands positioned 31 8 -648 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3D0004","bold":true,"italic":false}',Lock:"item:chest/skylands/rank02_chest_single/single_01_tusb",LootTable:"item:chest/skylands/rank02_chest_single/single_01_tusb"}
 execute in area:skylands positioned 26 7 -648 run forceload add ~ ~
 execute in area:skylands positioned 26 7 -648 run data merge block ~ ~ ~ {CustomName:'{"translate":"隠し報酬","color":"#FCCA67","bold":true,"italic":false}',Lock:"item:chest/skylands/rank_all_dispenser/all",LootTable:"item:chest/skylands/rank_all_dispenser/all"}
+execute in area:skylands positioned 26 0 -648 run forceload add ~ ~
+execute in area:skylands positioned 26 0 -648 run data merge block ~ ~ ~ {CustomName:'{"translate":"隠し報酬","color":"#FCCA67","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/silver_islands_unique",LootTable:"item:chest/skylands/unique/silver_islands_unique"}
 execute in area:skylands positioned 19 182 -452 run forceload add ~ ~
 execute in area:skylands positioned 19 182 -452 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3B1C02","bold":true,"italic":false}',Lock:"item:chest/skylands/rank08_chest_single/single_02_nether_star",LootTable:"item:chest/skylands/rank08_chest_single/single_02_nether_star"}
 execute in area:skylands positioned 19 177 -462 run forceload add ~ ~
 execute in area:skylands positioned 19 177 -462 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank09_chest_single/single_07_magic_stone",LootTable:"item:chest/skylands/rank09_chest_single/single_07_magic_stone"}
+execute in area:skylands positioned 37 147 -486 run forceload add ~ ~
+execute in area:skylands positioned 37 147 -486 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank06_chest_single/single_07_magic_stone",LootTable:"item:chest/skylands/rank06_chest_single/single_07_magic_stone"}
+execute in area:skylands positioned -6 147 -449 run forceload add ~ ~
+execute in area:skylands positioned -6 147 -449 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank06_chest_single/single_07_magic_stone",LootTable:"item:chest/skylands/rank06_chest_single/single_07_magic_stone"}
+execute in area:skylands positioned 31 147 -437 run forceload add ~ ~
+execute in area:skylands positioned 31 147 -437 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank06_chest_single/single_07_magic_stone",LootTable:"item:chest/skylands/rank06_chest_single/single_07_magic_stone"}
+execute in area:skylands positioned 19 138 -462 run forceload add ~ ~
+execute in area:skylands positioned 19 138 -462 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3B1C02","bold":true,"italic":false}',Lock:"item:chest/skylands/rank08_chest_single/single_02_nether_star",LootTable:"item:chest/skylands/rank08_chest_single/single_02_nether_star"}
+execute in area:skylands positioned 16 165 -477 run forceload add ~ ~
+execute in area:skylands positioned 16 165 -477 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3D0004","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_01_tusb",LootTable:"item:chest/skylands/rank07_chest_single/single_01_tusb"}
+execute in area:skylands positioned 4 165 -459 run forceload add ~ ~
+execute in area:skylands positioned 4 165 -459 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#393505","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_03_ores",LootTable:"item:chest/skylands/rank07_chest_single/single_03_ores"}
+execute in area:skylands positioned 22 165 -447 run forceload add ~ ~
+execute in area:skylands positioned 22 165 -447 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3D0004","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_01_tusb",LootTable:"item:chest/skylands/rank07_chest_single/single_01_tusb"}
+execute in area:skylands positioned 34 165 -465 run forceload add ~ ~
+execute in area:skylands positioned 34 165 -465 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#393505","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_03_ores",LootTable:"item:chest/skylands/rank07_chest_single/single_03_ores"}
+execute in area:skylands positioned 28 171 -466 run forceload add ~ ~
+execute in area:skylands positioned 28 171 -466 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#033A09","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_large/large_04_ender_pearl_left",LootTable:"item:chest/skylands/rank07_chest_large/large_04_ender_pearl_left"}
+execute in area:skylands positioned 28 171 -465 run forceload add ~ ~
+execute in area:skylands positioned 28 171 -465 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#033A09","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_large/large_04_ender_pearl_right",LootTable:"item:chest/skylands/rank07_chest_large/large_04_ender_pearl_right"}
+execute in area:skylands positioned 10 171 -458 run forceload add ~ ~
+execute in area:skylands positioned 10 171 -458 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3D0004","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_large/large_01_tusb_left",LootTable:"item:chest/skylands/rank07_chest_large/large_01_tusb_left"}
+execute in area:skylands positioned 10 171 -459 run forceload add ~ ~
+execute in area:skylands positioned 10 171 -459 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3D0004","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_large/large_01_tusb_right",LootTable:"item:chest/skylands/rank07_chest_large/large_01_tusb_right"}
 execute in area:skylands positioned -1 4 -621 run forceload add ~ ~
 execute in area:skylands positioned -1 4 -621 run data merge block ~ ~ ~ {CustomName:'{"translate":"初期チェスト","color":"#FFBF00","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/early_islands",LootTable:"item:chest/skylands/unique/early_islands"}
 execute in area:skylands positioned 4 2 -621 run forceload add ~ ~
@@ -983,21 +1027,21 @@ execute in area:skylands positioned 238 115 -453 run data merge block ~ ~ ~ {Cus
 execute in area:skylands positioned 238 115 -452 run forceload add ~ ~
 execute in area:skylands positioned 238 115 -452 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#393505","bold":true,"italic":false}',Lock:"item:chest/skylands/rank06_chest_large/large_03_ores_right",LootTable:"item:chest/skylands/rank06_chest_large/large_03_ores_right"}
 execute in area:skylands positioned 234 115 -459 run forceload add ~ ~
-execute in area:skylands positioned 234 115 -459 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#053438","bold":true,"italic":false}',Lock:"item:chest/skylands/rank06_chest_large/large_05_food_left",LootTable:"item:chest/skylands/rank06_chest_large/large_05_food_left"}
+execute in area:skylands positioned 234 115 -459 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank06_chest_large/large_07_magic_stone_left",LootTable:"item:chest/skylands/rank06_chest_large/large_07_magic_stone_left"}
 execute in area:skylands positioned 234 115 -460 run forceload add ~ ~
-execute in area:skylands positioned 234 115 -460 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#053438","bold":true,"italic":false}',Lock:"item:chest/skylands/rank06_chest_large/large_05_food_right",LootTable:"item:chest/skylands/rank06_chest_large/large_05_food_right"}
+execute in area:skylands positioned 234 115 -460 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank06_chest_large/large_07_magic_stone_right",LootTable:"item:chest/skylands/rank06_chest_large/large_07_magic_stone_right"}
 execute in area:skylands positioned 241 166 -448 run forceload add ~ ~
-execute in area:skylands positioned 241 166 -448 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#053438","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_large/large_05_food_left",LootTable:"item:chest/skylands/rank07_chest_large/large_05_food_left"}
+execute in area:skylands positioned 241 166 -448 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#053438","bold":true,"italic":false}',Lock:"item:chest/skylands/rank05_chest_large/large_05_food_left",LootTable:"item:chest/skylands/rank05_chest_large/large_05_food_left"}
 execute in area:skylands positioned 242 166 -448 run forceload add ~ ~
-execute in area:skylands positioned 242 166 -448 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#053438","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_large/large_05_food_right",LootTable:"item:chest/skylands/rank07_chest_large/large_05_food_right"}
+execute in area:skylands positioned 242 166 -448 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#053438","bold":true,"italic":false}',Lock:"item:chest/skylands/rank05_chest_large/large_05_food_right",LootTable:"item:chest/skylands/rank05_chest_large/large_05_food_right"}
 execute in area:skylands positioned 222 165 -464 run forceload add ~ ~
-execute in area:skylands positioned 222 165 -464 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#053438","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_large/large_05_food_left",LootTable:"item:chest/skylands/rank07_chest_large/large_05_food_left"}
+execute in area:skylands positioned 222 165 -464 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#053438","bold":true,"italic":false}',Lock:"item:chest/skylands/rank05_chest_large/large_05_food_left",LootTable:"item:chest/skylands/rank05_chest_large/large_05_food_left"}
 execute in area:skylands positioned 221 165 -464 run forceload add ~ ~
-execute in area:skylands positioned 221 165 -464 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#053438","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_large/large_05_food_right",LootTable:"item:chest/skylands/rank07_chest_large/large_05_food_right"}
+execute in area:skylands positioned 221 165 -464 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#053438","bold":true,"italic":false}',Lock:"item:chest/skylands/rank05_chest_large/large_05_food_right",LootTable:"item:chest/skylands/rank05_chest_large/large_05_food_right"}
 execute in area:skylands positioned 241 180 -462 run forceload add ~ ~
-execute in area:skylands positioned 241 180 -462 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#053438","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_large/large_05_food_left",LootTable:"item:chest/skylands/rank07_chest_large/large_05_food_left"}
+execute in area:skylands positioned 241 180 -462 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#053438","bold":true,"italic":false}',Lock:"item:chest/skylands/rank05_chest_large/large_05_food_left",LootTable:"item:chest/skylands/rank05_chest_large/large_05_food_left"}
 execute in area:skylands positioned 242 180 -462 run forceload add ~ ~
-execute in area:skylands positioned 242 180 -462 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#053438","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_large/large_05_food_right",LootTable:"item:chest/skylands/rank07_chest_large/large_05_food_right"}
+execute in area:skylands positioned 242 180 -462 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#053438","bold":true,"italic":false}',Lock:"item:chest/skylands/rank05_chest_large/large_05_food_right",LootTable:"item:chest/skylands/rank05_chest_large/large_05_food_right"}
 execute in area:skylands positioned 255 84 -468 run forceload add ~ ~
 execute in area:skylands positioned 255 84 -468 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3B1C02","bold":true,"italic":false}',Lock:"item:chest/skylands/rank08_chest_large/large_02_nether_star_left",LootTable:"item:chest/skylands/rank08_chest_large/large_02_nether_star_left"}
 execute in area:skylands positioned 255 84 -467 run forceload add ~ ~
@@ -1027,7 +1071,29 @@ execute in area:skylands positioned 241 147 -481 run data merge block ~ ~ ~ {Cus
 execute in area:skylands positioned -53 61 -739 run forceload add ~ ~
 execute in area:skylands positioned -53 61 -739 run data merge block ~ ~ ~ {CustomName:'{"translate":"隠し報酬","color":"#FCCA67","bold":true,"italic":false}',Lock:"item:chest/skylands/rank_all_dispenser/all",LootTable:"item:chest/skylands/rank_all_dispenser/all"}
 execute in area:skylands positioned -45 52 -752 run forceload add ~ ~
-execute in area:skylands positioned -45 52 -752 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank10_chest_single/single_06_currency",LootTable:"item:chest/skylands/rank10_chest_single/single_06_currency"}
+execute in area:skylands positioned -45 52 -752 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank05_chest_single/single_06_currency",LootTable:"item:chest/skylands/rank05_chest_single/single_06_currency"}
+execute in area:skylands positioned -56 54 -728 run forceload add ~ ~
+execute in area:skylands positioned -56 54 -728 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank03_chest_single/single_06_currency",LootTable:"item:chest/skylands/rank03_chest_single/single_06_currency"}
+execute in area:skylands positioned -62 54 -742 run forceload add ~ ~
+execute in area:skylands positioned -62 54 -742 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#053438","bold":true,"italic":false}',Lock:"item:chest/skylands/rank03_chest_single/single_05_food",LootTable:"item:chest/skylands/rank03_chest_single/single_05_food"}
+execute in area:skylands positioned -62 53 -734 run forceload add ~ ~
+execute in area:skylands positioned -62 53 -734 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank03_chest_single/single_07_magic_stone",LootTable:"item:chest/skylands/rank03_chest_single/single_07_magic_stone"}
+execute in area:skylands positioned -57 50 -738 run forceload add ~ ~
+execute in area:skylands positioned -57 50 -738 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank06_chest_single/single_06_currency",LootTable:"item:chest/skylands/rank06_chest_single/single_06_currency"}
+execute in area:skylands positioned -80 79 -733 run forceload add ~ ~
+execute in area:skylands positioned -80 79 -733 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#033A09","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_large/large_04_ender_pearl_left",LootTable:"item:chest/skylands/rank04_chest_large/large_04_ender_pearl_left"}
+execute in area:skylands positioned -80 79 -734 run forceload add ~ ~
+execute in area:skylands positioned -80 79 -734 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#033A09","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_large/large_04_ender_pearl_right",LootTable:"item:chest/skylands/rank04_chest_large/large_04_ender_pearl_right"}
+execute in area:skylands positioned -51 83 -724 run forceload add ~ ~
+execute in area:skylands positioned -51 83 -724 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#000000","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_large/large_08_risky_left",LootTable:"item:chest/skylands/rank04_chest_large/large_08_risky_left"}
+execute in area:skylands positioned -51 83 -725 run forceload add ~ ~
+execute in area:skylands positioned -51 83 -725 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#000000","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_large/large_08_risky_right",LootTable:"item:chest/skylands/rank04_chest_large/large_08_risky_right"}
+execute in area:skylands positioned -52 83 -725 run forceload add ~ ~
+execute in area:skylands positioned -52 83 -725 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#000000","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_large/large_08_risky_left",LootTable:"item:chest/skylands/rank04_chest_large/large_08_risky_left"}
+execute in area:skylands positioned -52 83 -724 run forceload add ~ ~
+execute in area:skylands positioned -52 83 -724 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#000000","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_large/large_08_risky_right",LootTable:"item:chest/skylands/rank04_chest_large/large_08_risky_right"}
+execute in area:skylands positioned -69 67 -750 run forceload add ~ ~
+execute in area:skylands positioned -69 67 -750 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#033A09","bold":true,"italic":false}',Lock:"item:chest/skylands/rank06_chest_single/single_04_ender_pearl",LootTable:"item:chest/skylands/rank06_chest_single/single_04_ender_pearl"}
 execute in area:skylands positioned 222 137 -741 run forceload add ~ ~
 execute in area:skylands positioned 222 137 -741 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank03_chest_large/large_07_magic_stone_left",LootTable:"item:chest/skylands/rank03_chest_large/large_07_magic_stone_left"}
 execute in area:skylands positioned 221 137 -741 run forceload add ~ ~
@@ -1149,7 +1215,7 @@ execute in area:skylands positioned 260 138 -768 run data merge block ~ ~ ~ {Cus
 execute in area:skylands positioned 242 198 -754 run forceload add ~ ~
 execute in area:skylands positioned 242 198 -754 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank08_chest_single/single_07_magic_stone",LootTable:"item:chest/skylands/rank08_chest_single/single_07_magic_stone"}
 execute in area:skylands positioned 62 27 -452 run forceload add ~ ~
-execute in area:skylands positioned 62 27 -452 run data merge block ~ ~ ~ {CustomName:'{"translate":"隠し報酬","color":"#FCCA67","bold":true,"italic":false}',Lock:"item:chest/skylands/rank_all_dispenser/all",LootTable:"item:chest/skylands/rank_all_dispenser/all"}
+execute in area:skylands positioned 62 27 -452 run data merge block ~ ~ ~ {CustomName:'{"translate":"こんなところによく来たね","color":"#009400","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/rudder_islands_unique",LootTable:"item:chest/skylands/unique/rudder_islands_unique"}
 execute in area:skylands positioned 172 39 -693 run forceload add ~ ~
 execute in area:skylands positioned 172 39 -693 run data merge block ~ ~ ~ {CustomName:'{"translate":"隠し報酬","color":"#FCCA67","bold":true,"italic":false}',Lock:"item:chest/skylands/rank_all_hopper/all",LootTable:"item:chest/skylands/rank_all_hopper/all"}
 execute in area:skylands positioned 183 39 -693 run forceload add ~ ~
@@ -1158,6 +1224,14 @@ execute in area:skylands positioned 172 39 -704 run forceload add ~ ~
 execute in area:skylands positioned 172 39 -704 run data merge block ~ ~ ~ {CustomName:'{"translate":"隠し報酬","color":"#FCCA67","bold":true,"italic":false}',Lock:"item:chest/skylands/rank_all_hopper/all",LootTable:"item:chest/skylands/rank_all_hopper/all"}
 execute in area:skylands positioned 183 39 -704 run forceload add ~ ~
 execute in area:skylands positioned 183 39 -704 run data merge block ~ ~ ~ {CustomName:'{"translate":"隠し報酬","color":"#FCCA67","bold":true,"italic":false}',Lock:"item:chest/skylands/rank_all_hopper/all",LootTable:"item:chest/skylands/rank_all_hopper/all"}
+execute in area:skylands positioned 178 27 -699 run forceload add ~ ~
+execute in area:skylands positioned 178 27 -699 run data merge block ~ ~ ~ {CustomName:'{"translate":"エンダーチェスト持ってきた？","color":"#009400","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/hopper_islands_unique1_left",LootTable:"item:chest/skylands/unique/hopper_islands_unique1_left"}
+execute in area:skylands positioned 177 27 -699 run forceload add ~ ~
+execute in area:skylands positioned 177 27 -699 run data merge block ~ ~ ~ {CustomName:'{"translate":"エンダーチェスト持ってきた？","color":"#009400","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/hopper_islands_unique1_right",LootTable:"item:chest/skylands/unique/hopper_islands_unique1_right"}
+execute in area:skylands positioned 177 27 -698 run forceload add ~ ~
+execute in area:skylands positioned 177 27 -698 run data merge block ~ ~ ~ {CustomName:'{"translate":"本当に持ち帰れる？","color":"#009400","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/hopper_islands_unique2_left",LootTable:"item:chest/skylands/unique/hopper_islands_unique2_left"}
+execute in area:skylands positioned 178 27 -698 run forceload add ~ ~
+execute in area:skylands positioned 178 27 -698 run data merge block ~ ~ ~ {CustomName:'{"translate":"本当に持ち帰れる？","color":"#009400","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/hopper_islands_unique2_right",LootTable:"item:chest/skylands/unique/hopper_islands_unique2_right"}
 execute in area:skylands positioned 6 150 -776 run forceload add ~ ~
 execute in area:skylands positioned 6 150 -776 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#033A09","bold":true,"italic":false}',Lock:"item:chest/skylands/rank05_chest_single/single_04_ender_pearl",LootTable:"item:chest/skylands/rank05_chest_single/single_04_ender_pearl"}
 execute in area:skylands positioned 140 54 -466 run forceload add ~ ~
@@ -1175,11 +1249,11 @@ execute in area:skylands positioned 93 201 -587 run data merge block ~ ~ ~ {Cust
 execute in area:skylands positioned 78 199 -571 run forceload add ~ ~
 execute in area:skylands positioned 78 199 -571 run data merge block ~ ~ ~ {CustomName:'{"translate":"通常世界の罠ディスペンサー","color":"#FF0000","bold":true,"italic":false}',Lock:"item:chest/skylands/trap/trap_dispenser",LootTable:"item:chest/skylands/trap/trap_dispenser"}
 execute in area:skylands positioned 87 199 -593 run forceload add ~ ~
-execute in area:skylands positioned 87 199 -593 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#000000","bold":true,"italic":false}',Lock:"item:chest/skylands/rank08_chest_single/single_08_risky",LootTable:"item:chest/skylands/rank08_chest_single/single_08_risky"}
+execute in area:skylands positioned 87 199 -593 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#000000","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_08_risky",LootTable:"item:chest/skylands/rank07_chest_single/single_08_risky"}
 execute in area:skylands positioned 88 199 -593 run forceload add ~ ~
-execute in area:skylands positioned 88 199 -593 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#000000","bold":true,"italic":false}',Lock:"item:chest/skylands/rank08_chest_single/single_08_risky",LootTable:"item:chest/skylands/rank08_chest_single/single_08_risky"}
+execute in area:skylands positioned 88 199 -593 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#000000","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_08_risky",LootTable:"item:chest/skylands/rank07_chest_single/single_08_risky"}
 execute in area:skylands positioned 86 199 -593 run forceload add ~ ~
-execute in area:skylands positioned 86 199 -593 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#393505","bold":true,"italic":false}',Lock:"item:chest/skylands/rank09_chest_single/single_03_ores",LootTable:"item:chest/skylands/rank09_chest_single/single_03_ores"}
+execute in area:skylands positioned 86 199 -593 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#393505","bold":true,"italic":false}',Lock:"item:chest/skylands/rank08_chest_single/single_03_ores",LootTable:"item:chest/skylands/rank08_chest_single/single_03_ores"}
 execute in area:skylands positioned -34 37 -611 run forceload add ~ ~
 execute in area:skylands positioned -34 37 -611 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#053438","bold":true,"italic":false}',Lock:"item:chest/skylands/rank01_chest_single/single_05_food",LootTable:"item:chest/skylands/rank01_chest_single/single_05_food"}
 execute in area:skylands positioned -32 35 -608 run forceload add ~ ~
@@ -1188,6 +1262,16 @@ execute in area:skylands positioned -60 43 -648 run forceload add ~ ~
 execute in area:skylands positioned -60 43 -648 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#393505","bold":true,"italic":false}',Lock:"item:chest/skylands/rank03_chest_large/large_03_ores_left",LootTable:"item:chest/skylands/rank03_chest_large/large_03_ores_left"}
 execute in area:skylands positioned -60 43 -649 run forceload add ~ ~
 execute in area:skylands positioned -60 43 -649 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#393505","bold":true,"italic":false}',Lock:"item:chest/skylands/rank03_chest_large/large_03_ores_right",LootTable:"item:chest/skylands/rank03_chest_large/large_03_ores_right"}
+execute in area:skylands positioned -58 9 -654 run forceload add ~ ~
+execute in area:skylands positioned -58 9 -654 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank03_chest_large/large_06_currency_left",LootTable:"item:chest/skylands/rank03_chest_large/large_06_currency_left"}
+execute in area:skylands positioned -58 9 -653 run forceload add ~ ~
+execute in area:skylands positioned -58 9 -653 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank03_chest_large/large_06_currency_right",LootTable:"item:chest/skylands/rank03_chest_large/large_06_currency_right"}
+execute in area:skylands positioned -71 1 -650 run forceload add ~ ~
+execute in area:skylands positioned -71 1 -650 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3B1C02","bold":true,"italic":false}',Lock:"item:chest/skylands/rank02_chest_large/large_02_nether_star_left",LootTable:"item:chest/skylands/rank02_chest_large/large_02_nether_star_left"}
+execute in area:skylands positioned -70 1 -650 run forceload add ~ ~
+execute in area:skylands positioned -70 1 -650 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3B1C02","bold":true,"italic":false}',Lock:"item:chest/skylands/rank02_chest_large/large_02_nether_star_right",LootTable:"item:chest/skylands/rank02_chest_large/large_02_nether_star_right"}
+execute in area:skylands positioned -67 33 -654 run forceload add ~ ~
+execute in area:skylands positioned -67 33 -654 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3D0004","bold":true,"italic":false}',Lock:"item:chest/skylands/rank02_chest_single/single_01_tusb",LootTable:"item:chest/skylands/rank02_chest_single/single_01_tusb"}
 execute in area:skylands positioned -134 189 -676 run forceload add ~ ~
 execute in area:skylands positioned -134 189 -676 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3B1C02","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_02_nether_star",LootTable:"item:chest/skylands/rank07_chest_single/single_02_nether_star"}
 execute in area:skylands positioned -128 184 -614 run forceload add ~ ~
@@ -1202,20 +1286,106 @@ execute in area:skylands positioned -132 210 -677 run forceload add ~ ~
 execute in area:skylands positioned -132 210 -677 run data merge block ~ ~ ~ {CustomName:'{"translate":"隠し報酬","color":"#FCCA67","bold":true,"italic":false}',Lock:"item:chest/skylands/rank_all_dispenser/all",LootTable:"item:chest/skylands/rank_all_dispenser/all"}
 execute in area:skylands positioned -133 211 -672 run forceload add ~ ~
 execute in area:skylands positioned -133 211 -672 run data merge block ~ ~ ~ {CustomName:'{"translate":"隠し報酬","color":"#FCCA67","bold":true,"italic":false}',Lock:"item:chest/skylands/rank_all_dispenser/all",LootTable:"item:chest/skylands/rank_all_dispenser/all"}
+execute in area:skylands positioned -109 177 -674 run forceload add ~ ~
+execute in area:skylands positioned -109 177 -674 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#393505","bold":true,"italic":false}',Lock:"item:chest/skylands/rank06_chest_single/single_03_ores",LootTable:"item:chest/skylands/rank06_chest_single/single_03_ores"}
+execute in area:skylands positioned -109 177 -671 run forceload add ~ ~
+execute in area:skylands positioned -109 177 -671 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3B1C02","bold":true,"italic":false}',Lock:"item:chest/skylands/rank06_chest_single/single_02_nether_star",LootTable:"item:chest/skylands/rank06_chest_single/single_02_nether_star"}
+execute in area:skylands positioned -143 178 -673 run forceload add ~ ~
+execute in area:skylands positioned -143 178 -673 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank06_chest_single/single_07_magic_stone",LootTable:"item:chest/skylands/rank06_chest_single/single_07_magic_stone"}
+execute in area:skylands positioned -132 181 -661 run forceload add ~ ~
+execute in area:skylands positioned -132 181 -661 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3D0004","bold":true,"italic":false}',Lock:"item:chest/skylands/rank06_chest_single/single_01_tusb",LootTable:"item:chest/skylands/rank06_chest_single/single_01_tusb"}
+execute in area:skylands positioned -132 181 -658 run forceload add ~ ~
+execute in area:skylands positioned -132 181 -658 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3B1C02","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_02_nether_star",LootTable:"item:chest/skylands/rank07_chest_single/single_02_nether_star"}
+execute in area:skylands positioned -123 173 -680 run forceload add ~ ~
+execute in area:skylands positioned -123 173 -680 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#033A09","bold":true,"italic":false}',Lock:"item:chest/skylands/rank08_chest_single/single_04_ender_pearl",LootTable:"item:chest/skylands/rank08_chest_single/single_04_ender_pearl"}
+execute in area:skylands positioned -116 172 -675 run forceload add ~ ~
+execute in area:skylands positioned -116 172 -675 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#393505","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_03_ores",LootTable:"item:chest/skylands/rank07_chest_single/single_03_ores"}
+execute in area:skylands positioned -135 164 -681 run forceload add ~ ~
+execute in area:skylands positioned -135 164 -681 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank06_chest_single/single_06_currency",LootTable:"item:chest/skylands/rank06_chest_single/single_06_currency"}
+execute in area:skylands positioned -135 164 -684 run forceload add ~ ~
+execute in area:skylands positioned -135 164 -684 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_07_magic_stone",LootTable:"item:chest/skylands/rank07_chest_single/single_07_magic_stone"}
+execute in area:skylands positioned -135 164 -687 run forceload add ~ ~
+execute in area:skylands positioned -135 164 -687 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#393505","bold":true,"italic":false}',Lock:"item:chest/skylands/rank09_chest_single/single_03_ores",LootTable:"item:chest/skylands/rank09_chest_single/single_03_ores"}
+execute in area:skylands positioned -123 168 -678 run forceload add ~ ~
+execute in area:skylands positioned -123 168 -678 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3B1C02","bold":true,"italic":false}',Lock:"item:chest/skylands/rank09_chest_single/single_02_nether_star",LootTable:"item:chest/skylands/rank09_chest_single/single_02_nether_star"}
+execute in area:skylands positioned -100 167 -678 run forceload add ~ ~
+execute in area:skylands positioned -100 167 -678 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3D0004","bold":true,"italic":false}',Lock:"item:chest/skylands/rank08_chest_single/single_01_tusb",LootTable:"item:chest/skylands/rank08_chest_single/single_01_tusb"}
+execute in area:skylands positioned -141 169 -673 run forceload add ~ ~
+execute in area:skylands positioned -141 169 -673 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3D0004","bold":true,"italic":false}',Lock:"item:chest/skylands/rank06_chest_single/single_01_tusb",LootTable:"item:chest/skylands/rank06_chest_single/single_01_tusb"}
+execute in area:skylands positioned -152 176 -704 run forceload add ~ ~
+execute in area:skylands positioned -152 176 -704 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3B1C02","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_02_nether_star",LootTable:"item:chest/skylands/rank07_chest_single/single_02_nether_star"}
+execute in area:skylands positioned -121 178 -707 run forceload add ~ ~
+execute in area:skylands positioned -121 178 -707 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#033A09","bold":true,"italic":false}',Lock:"item:chest/skylands/rank06_chest_single/single_04_ender_pearl",LootTable:"item:chest/skylands/rank06_chest_single/single_04_ender_pearl"}
+execute in area:skylands positioned -120 168 -703 run forceload add ~ ~
+execute in area:skylands positioned -120 168 -703 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#393505","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_03_ores",LootTable:"item:chest/skylands/rank07_chest_single/single_03_ores"}
+execute in area:skylands positioned -116 172 -687 run forceload add ~ ~
+execute in area:skylands positioned -116 172 -687 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank09_chest_single/single_06_currency",LootTable:"item:chest/skylands/rank09_chest_single/single_06_currency"}
+execute in area:skylands positioned -101 177 -697 run forceload add ~ ~
+execute in area:skylands positioned -101 177 -697 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_07_magic_stone",LootTable:"item:chest/skylands/rank07_chest_single/single_07_magic_stone"}
+execute in area:skylands positioned -98 173 -679 run forceload add ~ ~
+execute in area:skylands positioned -98 173 -679 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#393505","bold":true,"italic":false}',Lock:"item:chest/skylands/rank06_chest_single/single_03_ores",LootTable:"item:chest/skylands/rank06_chest_single/single_03_ores"}
+execute in area:skylands positioned -135 176 -682 run forceload add ~ ~
+execute in area:skylands positioned -135 176 -682 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_07_magic_stone",LootTable:"item:chest/skylands/rank07_chest_single/single_07_magic_stone"}
+execute in area:skylands positioned -125 177 -695 run forceload add ~ ~
+execute in area:skylands positioned -125 177 -695 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank08_chest_single/single_06_currency",LootTable:"item:chest/skylands/rank08_chest_single/single_06_currency"}
+execute in area:skylands positioned -125 177 -692 run forceload add ~ ~
+execute in area:skylands positioned -125 177 -692 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_06_currency",LootTable:"item:chest/skylands/rank07_chest_single/single_06_currency"}
+execute in area:skylands positioned -139 187 -653 run forceload add ~ ~
+execute in area:skylands positioned -139 187 -653 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3B1C02","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_02_nether_star",LootTable:"item:chest/skylands/rank07_chest_single/single_02_nether_star"}
+execute in area:skylands positioned -135 187 -661 run forceload add ~ ~
+execute in area:skylands positioned -135 187 -661 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#033A09","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_04_ender_pearl",LootTable:"item:chest/skylands/rank07_chest_single/single_04_ender_pearl"}
+execute in area:skylands positioned -131 191 -709 run forceload add ~ ~
+execute in area:skylands positioned -131 191 -709 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#393505","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_03_ores",LootTable:"item:chest/skylands/rank07_chest_single/single_03_ores"}
+execute in area:skylands positioned -133 194 -655 run forceload add ~ ~
+execute in area:skylands positioned -133 194 -655 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_06_currency",LootTable:"item:chest/skylands/rank07_chest_single/single_06_currency"}
+execute in area:skylands positioned -138 196 -653 run forceload add ~ ~
+execute in area:skylands positioned -138 196 -653 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank08_chest_single/single_07_magic_stone",LootTable:"item:chest/skylands/rank08_chest_single/single_07_magic_stone"}
+execute in area:skylands positioned -141 201 -660 run forceload add ~ ~
+execute in area:skylands positioned -141 201 -660 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3D0004","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_01_tusb",LootTable:"item:chest/skylands/rank07_chest_single/single_01_tusb"}
+execute in area:skylands positioned -133 208 -666 run forceload add ~ ~
+execute in area:skylands positioned -133 208 -666 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank08_chest_large/large_07_magic_stone_left",LootTable:"item:chest/skylands/rank08_chest_large/large_07_magic_stone_left"}
+execute in area:skylands positioned -133 208 -667 run forceload add ~ ~
+execute in area:skylands positioned -133 208 -667 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank08_chest_large/large_07_magic_stone_right",LootTable:"item:chest/skylands/rank08_chest_large/large_07_magic_stone_right"}
+execute in area:skylands positioned -141 208 -647 run forceload add ~ ~
+execute in area:skylands positioned -141 208 -647 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_06_currency",LootTable:"item:chest/skylands/rank07_chest_single/single_06_currency"}
+execute in area:skylands positioned -170 188 -694 run forceload add ~ ~
+execute in area:skylands positioned -170 188 -694 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank10_chest_single/single_07_magic_stone",LootTable:"item:chest/skylands/rank10_chest_single/single_07_magic_stone"}
+execute in area:skylands positioned -110 183 -692 run forceload add ~ ~
+execute in area:skylands positioned -110 183 -692 run data merge block ~ ~ ~ {CustomName:'{"translate":"廃病院に眠る秘宝","color":"#38008C","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/hospital_islands_unique",LootTable:"item:chest/skylands/unique/hospital_islands_unique"}
 execute in area:skylands positioned 15 12 -687 run forceload add ~ ~
 execute in area:skylands positioned 15 12 -687 run data merge block ~ ~ ~ {CustomName:'{"translate":"隠し報酬","color":"#FCCA67","bold":true,"italic":false}',Lock:"item:chest/skylands/rank_all_dispenser/all",LootTable:"item:chest/skylands/rank_all_dispenser/all"}
 execute in area:skylands positioned 16 12 -687 run forceload add ~ ~
 execute in area:skylands positioned 16 12 -687 run data merge block ~ ~ ~ {CustomName:'{"translate":"隠し報酬","color":"#FCCA67","bold":true,"italic":false}',Lock:"item:chest/skylands/rank_all_dispenser/all",LootTable:"item:chest/skylands/rank_all_dispenser/all"}
+execute in area:skylands positioned 15 14 -685 run forceload add ~ ~
+execute in area:skylands positioned 15 14 -685 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3D0004","bold":true,"italic":false}',Lock:"item:chest/skylands/rank02_chest_large/large_01_tusb_left",LootTable:"item:chest/skylands/rank02_chest_large/large_01_tusb_left"}
+execute in area:skylands positioned 16 14 -685 run forceload add ~ ~
+execute in area:skylands positioned 16 14 -685 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3D0004","bold":true,"italic":false}',Lock:"item:chest/skylands/rank02_chest_large/large_01_tusb_right",LootTable:"item:chest/skylands/rank02_chest_large/large_01_tusb_right"}
+execute in area:skylands positioned 16 3 -685 run forceload add ~ ~
+execute in area:skylands positioned 16 3 -685 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3B1C02","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_single/single_02_nether_star",LootTable:"item:chest/skylands/rank04_chest_single/single_02_nether_star"}
 execute in area:skylands positioned 273 52 -564 run forceload add ~ ~
 execute in area:skylands positioned 273 52 -564 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3D0004","bold":true,"italic":false}',Lock:"item:chest/skylands/rank03_chest_single/single_01_tusb",LootTable:"item:chest/skylands/rank03_chest_single/single_01_tusb"}
+execute in area:skylands positioned 298 24 -582 run forceload add ~ ~
+execute in area:skylands positioned 298 24 -582 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_single/single_06_currency",LootTable:"item:chest/skylands/rank04_chest_single/single_06_currency"}
+execute in area:skylands positioned 264 77 -559 run forceload add ~ ~
+execute in area:skylands positioned 264 77 -559 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#033A09","bold":true,"italic":false}',Lock:"item:chest/skylands/rank05_chest_single/single_04_ender_pearl",LootTable:"item:chest/skylands/rank05_chest_single/single_04_ender_pearl"}
+execute in area:skylands positioned 322 26 -559 run forceload add ~ ~
+execute in area:skylands positioned 322 26 -559 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank06_chest_single/single_07_magic_stone",LootTable:"item:chest/skylands/rank06_chest_single/single_07_magic_stone"}
+execute in area:skylands positioned 304 22 -529 run forceload add ~ ~
+execute in area:skylands positioned 304 22 -529 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3B1C02","bold":true,"italic":false}',Lock:"item:chest/skylands/rank03_chest_single/single_02_nether_star",LootTable:"item:chest/skylands/rank03_chest_single/single_02_nether_star"}
 execute in area:skylands positioned 303 25 -559 run forceload add ~ ~
 execute in area:skylands positioned 303 25 -559 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_single/single_07_magic_stone",LootTable:"item:chest/skylands/rank04_chest_single/single_07_magic_stone"}
 execute in area:skylands positioned 273 66 -552 run forceload add ~ ~
 execute in area:skylands positioned 273 66 -552 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#033A09","bold":true,"italic":false}',Lock:"item:chest/skylands/rank05_chest_single/single_04_ender_pearl",LootTable:"item:chest/skylands/rank05_chest_single/single_04_ender_pearl"}
 execute in area:skylands positioned 291 48 -587 run forceload add ~ ~
 execute in area:skylands positioned 291 48 -587 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3B1C02","bold":true,"italic":false}',Lock:"item:chest/skylands/rank05_chest_single/single_02_nether_star",LootTable:"item:chest/skylands/rank05_chest_single/single_02_nether_star"}
+execute in area:skylands positioned 265 18 -597 run forceload add ~ ~
+execute in area:skylands positioned 265 18 -597 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank05_chest_single/single_07_magic_stone",LootTable:"item:chest/skylands/rank05_chest_single/single_07_magic_stone"}
+execute in area:skylands positioned 265 18 -521 run forceload add ~ ~
+execute in area:skylands positioned 265 18 -521 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank05_chest_single/single_07_magic_stone",LootTable:"item:chest/skylands/rank05_chest_single/single_07_magic_stone"}
+execute in area:skylands positioned 307 109 -559 run forceload add ~ ~
+execute in area:skylands positioned 307 109 -559 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#393505","bold":true,"italic":false}',Lock:"item:chest/skylands/rank06_chest_single/single_03_ores",LootTable:"item:chest/skylands/rank06_chest_single/single_03_ores"}
 execute in area:skylands positioned 280 42 -592 run forceload add ~ ~
-execute in area:skylands positioned 280 42 -592 run data merge block ~ ~ ~ {CustomName:'{"translate":"隠し報酬","color":"#FCCA67","bold":true,"italic":false}',Lock:"item:chest/skylands/rank_all_dispenser/all",LootTable:"item:chest/skylands/rank_all_dispenser/all"}
+execute in area:skylands positioned 280 42 -592 run data merge block ~ ~ ~ {CustomName:'{"translate":"隠し報酬","color":"#FCCA67","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/book_islands_unique",LootTable:"item:chest/skylands/unique/book_islands_unique"}
 execute in area:skylands positioned -76 166 -537 run forceload add ~ ~
 execute in area:skylands positioned -76 166 -537 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#393505","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_03_ores",LootTable:"item:chest/skylands/rank07_chest_single/single_03_ores"}
 execute in area:skylands positioned -73 165 -522 run forceload add ~ ~
@@ -1228,11 +1398,64 @@ execute in area:skylands positioned -74 166 -522 run forceload add ~ ~
 execute in area:skylands positioned -74 166 -522 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank08_chest_large/large_07_magic_stone_right",LootTable:"item:chest/skylands/rank08_chest_large/large_07_magic_stone_right"}
 execute in area:skylands positioned -74 214 -538 run forceload add ~ ~
 execute in area:skylands positioned -74 214 -538 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3D0004","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_01_tusb",LootTable:"item:chest/skylands/rank07_chest_single/single_01_tusb"}
+execute in area:skylands positioned -89 164 -537 run forceload add ~ ~
+execute in area:skylands positioned -89 164 -537 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#033A09","bold":true,"italic":false}',Lock:"item:chest/skylands/rank06_chest_large/large_04_ender_pearl_left",LootTable:"item:chest/skylands/rank06_chest_large/large_04_ender_pearl_left"}
+execute in area:skylands positioned -88 164 -537 run forceload add ~ ~
+execute in area:skylands positioned -88 164 -537 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#033A09","bold":true,"italic":false}',Lock:"item:chest/skylands/rank06_chest_large/large_04_ender_pearl_right",LootTable:"item:chest/skylands/rank06_chest_large/large_04_ender_pearl_right"}
+execute in area:skylands positioned -80 172 -541 run forceload add ~ ~
+execute in area:skylands positioned -80 172 -541 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_large/large_07_magic_stone_left",LootTable:"item:chest/skylands/rank07_chest_large/large_07_magic_stone_left"}
+execute in area:skylands positioned -80 172 -540 run forceload add ~ ~
+execute in area:skylands positioned -80 172 -540 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_large/large_07_magic_stone_right",LootTable:"item:chest/skylands/rank07_chest_large/large_07_magic_stone_right"}
+execute in area:skylands positioned -77 173 -536 run forceload add ~ ~
+execute in area:skylands positioned -77 173 -536 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3D0004","bold":true,"italic":false}',Lock:"item:chest/skylands/rank09_chest_single/single_01_tusb",LootTable:"item:chest/skylands/rank09_chest_single/single_01_tusb"}
+execute in area:skylands positioned -78 173 -535 run forceload add ~ ~
+execute in area:skylands positioned -78 173 -535 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3B1C02","bold":true,"italic":false}',Lock:"item:chest/skylands/rank09_chest_single/single_02_nether_star",LootTable:"item:chest/skylands/rank09_chest_single/single_02_nether_star"}
+execute in area:skylands positioned -79 173 -536 run forceload add ~ ~
+execute in area:skylands positioned -79 173 -536 run data merge block ~ ~ ~ {CustomName:'{"translate":"魔女の隠し財産","color":"#FCCA67","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/witch_islands_unique",LootTable:"item:chest/skylands/unique/witch_islands_unique"}
+execute in area:skylands positioned -78 173 -537 run forceload add ~ ~
+execute in area:skylands positioned -78 173 -537 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#033A09","bold":true,"italic":false}',Lock:"item:chest/skylands/rank09_chest_single/single_04_ender_pearl",LootTable:"item:chest/skylands/rank09_chest_single/single_04_ender_pearl"}
+execute in area:skylands positioned -59 192 -536 run forceload add ~ ~
+execute in area:skylands positioned -59 192 -536 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_large/large_06_currency_left",LootTable:"item:chest/skylands/rank04_chest_large/large_06_currency_left"}
+execute in area:skylands positioned -60 192 -536 run forceload add ~ ~
+execute in area:skylands positioned -60 192 -536 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_single/single_06_currency",LootTable:"item:chest/skylands/rank04_chest_single/single_06_currency"}
+execute in area:skylands positioned -59 193 -536 run forceload add ~ ~
+execute in area:skylands positioned -59 193 -536 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_large/large_06_currency_left",LootTable:"item:chest/skylands/rank04_chest_large/large_06_currency_left"}
+execute in area:skylands positioned -60 193 -536 run forceload add ~ ~
+execute in area:skylands positioned -60 193 -536 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_single/single_06_currency",LootTable:"item:chest/skylands/rank04_chest_single/single_06_currency"}
+execute in area:skylands positioned -59 194 -536 run forceload add ~ ~
+execute in area:skylands positioned -59 194 -536 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_large/large_06_currency_left",LootTable:"item:chest/skylands/rank04_chest_large/large_06_currency_left"}
+execute in area:skylands positioned -60 194 -536 run forceload add ~ ~
+execute in area:skylands positioned -60 194 -536 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_single/single_06_currency",LootTable:"item:chest/skylands/rank04_chest_single/single_06_currency"}
+execute in area:skylands positioned -60 192 -530 run forceload add ~ ~
+execute in area:skylands positioned -60 192 -530 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_large/large_06_currency_left",LootTable:"item:chest/skylands/rank04_chest_large/large_06_currency_left"}
+execute in area:skylands positioned -59 192 -530 run forceload add ~ ~
+execute in area:skylands positioned -59 192 -530 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_single/single_06_currency",LootTable:"item:chest/skylands/rank04_chest_single/single_06_currency"}
+execute in area:skylands positioned -60 193 -530 run forceload add ~ ~
+execute in area:skylands positioned -60 193 -530 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_large/large_06_currency_left",LootTable:"item:chest/skylands/rank04_chest_large/large_06_currency_left"}
+execute in area:skylands positioned -59 193 -530 run forceload add ~ ~
+execute in area:skylands positioned -59 193 -530 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_single/single_06_currency",LootTable:"item:chest/skylands/rank04_chest_single/single_06_currency"}
+execute in area:skylands positioned -60 194 -530 run forceload add ~ ~
+execute in area:skylands positioned -60 194 -530 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_large/large_06_currency_left",LootTable:"item:chest/skylands/rank04_chest_large/large_06_currency_left"}
+execute in area:skylands positioned -59 194 -530 run forceload add ~ ~
+execute in area:skylands positioned -59 194 -530 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_single/single_06_currency",LootTable:"item:chest/skylands/rank04_chest_single/single_06_currency"}
+execute in area:skylands positioned -81 192 -542 run forceload add ~ ~
+execute in area:skylands positioned -81 192 -542 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#053438","bold":true,"italic":false}',Lock:"item:chest/skylands/rank03_chest_large/large_05_food_left",LootTable:"item:chest/skylands/rank03_chest_large/large_05_food_left"}
+execute in area:skylands positioned -82 192 -542 run forceload add ~ ~
+execute in area:skylands positioned -82 192 -542 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#053438","bold":true,"italic":false}',Lock:"item:chest/skylands/rank03_chest_large/large_05_food_right",LootTable:"item:chest/skylands/rank03_chest_large/large_05_food_right"}
+execute in area:skylands positioned -74 192 -542 run forceload add ~ ~
+execute in area:skylands positioned -74 192 -542 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#053438","bold":true,"italic":false}',Lock:"item:chest/skylands/rank03_chest_large/large_05_food_left",LootTable:"item:chest/skylands/rank03_chest_large/large_05_food_left"}
+execute in area:skylands positioned -75 192 -542 run forceload add ~ ~
+execute in area:skylands positioned -75 192 -542 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#053438","bold":true,"italic":false}',Lock:"item:chest/skylands/rank03_chest_large/large_05_food_right",LootTable:"item:chest/skylands/rank03_chest_large/large_05_food_right"}
+execute in area:skylands positioned -78 203 -541 run forceload add ~ ~
+execute in area:skylands positioned -78 203 -541 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/skylands/rank09_chest_single/single_06_currency",LootTable:"item:chest/skylands/rank09_chest_single/single_06_currency"}
+execute in area:skylands positioned -78 198 -548 run forceload add ~ ~
+execute in area:skylands positioned -78 198 -548 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#033A09","bold":true,"italic":false}',Lock:"item:chest/skylands/rank07_chest_single/single_04_ender_pearl",LootTable:"item:chest/skylands/rank07_chest_single/single_04_ender_pearl"}
 execute in area:skylands positioned 3 78 -537 run forceload add ~ ~
 execute in area:skylands positioned 3 78 -537 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#033A09","bold":true,"italic":false}',Lock:"item:chest/skylands/rank03_chest_single/single_04_ender_pearl",LootTable:"item:chest/skylands/rank03_chest_single/single_04_ender_pearl"}
 execute in area:skylands positioned 3 80 -537 run forceload add ~ ~
 execute in area:skylands positioned 3 80 -537 run data merge block ~ ~ ~ {CustomName:'{"translate":"隠し報酬","color":"#FCCA67","bold":true,"italic":false}',Lock:"item:chest/skylands/rank_all_dispenser/all",LootTable:"item:chest/skylands/rank_all_dispenser/all"}
 execute in area:skylands positioned -3 4 -598 run forceload add ~ ~
 execute in area:skylands positioned -3 4 -598 run data merge block ~ ~ ~ {CustomName:'{"translate":"羊毛の島のディスペンサー","color":"#CCCCCC","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/sheep_islands_dispenser",LootTable:"item:chest/skylands/unique/sheep_islands_dispenser"}
-
+execute in area:skylands positioned 61 4 -689 run forceload add ~ ~
+execute in area:skylands positioned 61 4 -689 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank05_chest_single/single_07_magic_stone",LootTable:"item:chest/skylands/rank05_chest_single/single_07_magic_stone"}
 execute in area:skylands run forceload remove all
