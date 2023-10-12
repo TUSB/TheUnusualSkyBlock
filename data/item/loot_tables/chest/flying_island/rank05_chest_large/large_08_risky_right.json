@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/tusb_item/tier2/summon_trap"
+          "name": "item:group/vanilla_item/decorative/panel_03_red"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier5/emerald"
+          "name": "item:group/vanilla_item/decorative/panel_03_red"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/tusb_item/tier2/summon_trap"
+          "name": "item:group/vanilla_item/decorative/panel_03_red"
         }
       ]
     },
@@ -86,7 +86,16 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/tusb_item/tier2/summon_trap"
+          "name": "item:group/vanilla_item/decorative/panel_03_red"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_03_red"
         }
       ]
     },
@@ -104,7 +113,16 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/tusb_item/tier2/summon_trap"
+          "name": "item:group/vanilla_item/decorative/panel_03_red"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_03_red"
         }
       ]
     },
@@ -122,7 +140,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier5/emerald"
+          "name": "item:group/vanilla_item/decorative/panel_03_red"
         }
       ]
     },
@@ -131,25 +149,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier5/emerald"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/tusb_item/tier2/summon_trap"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/tusb_item/tier2/summon_trap"
+          "name": "item:group/vanilla_item/decorative/panel_03_red"
         }
       ]
     },

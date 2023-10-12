@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier7/emerald"
+          "name": "item:group/vanilla_item/decorative/panel_03_red"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_03_red"
+          "name": "item:group/tusb_item/tier3/summon_trap"
         }
       ]
     },
@@ -95,7 +95,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_03_red"
+          "name": "item:group/base_currency/tier7/emerald"
         }
       ]
     },
