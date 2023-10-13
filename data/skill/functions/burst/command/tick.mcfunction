@@ -15,5 +15,8 @@ execute anchored eyes positioned ^ ^-0.85 ^5 at @e[tag=BurstCommand,scores={Pare
 
 scoreboard players operation @e[tag=BurstCommand] ParentID += @s OhMyDatID
 
+# バーストブレイクしたら他の人のバーストコマンドを解除
+execute if score @s Burst matches 1.. as @a[scores={Burst=..-1}] run function skill:burst/command/reset
+
 scoreboard players add @s Burst 1
 scoreboard players reset @s[scores={Burst=0}] Burst
