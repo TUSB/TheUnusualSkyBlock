@@ -4,14 +4,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 3
-            }
-          ]
+          "type": "loot_table",
+          "name": "item:group/potion/ether/ether_set"
         }
       ]
     },
@@ -19,17 +13,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:red_bed"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:bread",
+          "type": "loot_table",
+          "name": "item:item/tipped_arrow/arrow_of_defilement_lv1",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -44,20 +29,11 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "name": "item:item/glistering_melon_slice/boom_melon_slice",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 3
+              "count": 4
             }
           ]
         }
@@ -68,44 +44,11 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:oak_log",
+          "name": "item:item/tipped_arrow/arrow_of_prayer_lv1",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 2
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:red_bed"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 3
+              "count": 32
             }
           ]
         }
@@ -116,16 +59,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/magic_stone/tier1/mix"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:grass_block"
+          "name": "item:group/potion/ether/ether_set"
         }
       ]
     },
@@ -134,20 +68,11 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:item/firework_star/etc/key_block_key_skylands_001"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "name": "item:item/tipped_arrow/arrow_of_prayer_lv1",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 3
+              "count": 32
             }
           ]
         }
@@ -158,20 +83,11 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/sapling_chance_bug_memory_star"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "name": "item:item/glistering_melon_slice/boom_melon_slice",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 3
+              "count": 4
             }
           ]
         }
@@ -182,62 +98,11 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:item/firework_star/etc/key_block_key_skylands_001"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:grass_block"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/magic_stone/tier1/mix"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "name": "item:item/tipped_arrow/arrow_of_defilement_lv1",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 3
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:red_bed"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:chain",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 5
+              "count": 32
             }
           ]
         }
@@ -248,7 +113,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+          "name": "item:group/potion/ether/ether_set"
         }
       ]
     },
@@ -256,12 +121,21 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "type": "loot_table",
+          "name": "item:group/potion/ether/ether_set"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:item/glistering_melon_slice/boom_melon_slice",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 3
+              "count": 4
             }
           ]
         }
@@ -272,7 +146,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+          "name": "item:item/stone_axe/watermelon_axe"
         }
       ]
     },
@@ -280,12 +154,12 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
+          "type": "loot_table",
+          "name": "item:item/glistering_melon_slice/boom_melon_slice",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 3
+              "count": 4
             }
           ]
         }
@@ -295,8 +169,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:red_bed"
+          "type": "loot_table",
+          "name": "item:group/potion/ether/ether_set"
         }
       ]
     },
@@ -304,14 +178,164 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "type": "loot_table",
+          "name": "item:item/glistering_melon_slice/boom_melon_slice",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 3
+              "count": 4
             }
           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:item/stone_axe/watermelon_axe"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:item/glistering_melon_slice/boom_melon_slice",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/potion/ether/ether_set"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/potion/ether/ether_set"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:item/tipped_arrow/arrow_of_prayer_lv1",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 32
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:item/glistering_melon_slice/boom_melon_slice",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:item/tipped_arrow/arrow_of_defilement_lv1",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 32
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/potion/ether/ether_set"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:item/tipped_arrow/arrow_of_defilement_lv1",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 32
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:item/glistering_melon_slice/boom_melon_slice",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:item/tipped_arrow/arrow_of_prayer_lv1",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 32
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/potion/ether/ether_set"
         }
       ]
     }

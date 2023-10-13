@@ -4,17 +4,6 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 64,
-          "type": "minecraft:item",
-          "name": "minecraft:nether_star",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 4
-            }
-          ]
-        },
-        {
           "weight": 32,
           "type": "minecraft:item",
           "name": "minecraft:nether_star",
@@ -55,17 +44,6 @@
             {
               "function": "minecraft:set_count",
               "count": 64
-            }
-          ]
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:nether_star",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 127
             }
           ]
         }

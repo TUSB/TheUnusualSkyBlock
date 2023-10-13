@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/treasure_items/rank_all/vanilla_tusb_mix"
+          "name": "item:group/treasure_items/rank05/vanilla_tusb_mix"
         }
       ]
     },
@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+          "name": "item:group/potion/ether/ether_set"
         }
       ]
     },
@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/treasure_items/rank_all/vanilla_tusb_mix"
+          "name": "item:group/treasure_items/rank05/vanilla_tusb_mix"
         }
       ]
     },
@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+          "name": "item:group/potion/ether/ether_set"
         }
       ]
     },
@@ -41,7 +41,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/tusb_item/all/summon_trap"
+          "name": "item:item/carrot_on_a_stick/last_elixir"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+          "name": "item:group/potion/ether/ether_set"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/treasure_items/rank_all/vanilla_tusb_mix"
+          "name": "item:group/treasure_items/rank05/vanilla_tusb_mix"
         }
       ]
     },
@@ -68,7 +68,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+          "name": "item:group/potion/ether/ether_set"
         }
       ]
     },
@@ -77,7 +77,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/treasure_items/rank_all/vanilla_tusb_mix"
+          "name": "item:group/treasure_items/rank05/vanilla_tusb_mix"
         }
       ]
     }

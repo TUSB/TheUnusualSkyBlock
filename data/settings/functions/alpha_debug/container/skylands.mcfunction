@@ -905,7 +905,7 @@ execute in area:skylands positioned 162 53 -660 run data merge block ~ ~ ~ {Cust
 execute in area:skylands positioned 161 53 -660 run forceload add ~ ~
 execute in area:skylands positioned 161 53 -660 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank04_chest_large/large_07_magic_stone_right",LootTable:"item:chest/skylands/rank04_chest_large/large_07_magic_stone_right"}
 execute in area:skylands positioned 155 53 -654 run forceload add ~ ~
-execute in area:skylands positioned 155 53 -654 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3D0004","bold":true,"italic":false}',Lock:"item:chest/skylands/rank06_chest_single/single_01_tusb",LootTable:"item:chest/skylands/rank06_chest_single/single_01_tusb"}
+execute in area:skylands positioned 155 53 -654 run data merge block ~ ~ ~ {CustomName:'{"translate":"豪邸に眠る苗木","color":"#38008C","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/mansion_islands_unique",LootTable:"item:chest/skylands/unique/mansion_islands_unique"}
 execute in area:skylands positioned -16 3 -621 run forceload add ~ ~
 execute in area:skylands positioned -16 3 -621 run data merge block ~ ~ ~ {CustomName:'{"translate":"隠し報酬","color":"#FCCA67","bold":true,"italic":false}',Lock:"item:chest/skylands/rank_all_dispenser/all",LootTable:"item:chest/skylands/rank_all_dispenser/all"}
 execute in area:skylands positioned -16 4 -621 run forceload add ~ ~
@@ -1458,4 +1458,22 @@ execute in area:skylands positioned -3 4 -598 run forceload add ~ ~
 execute in area:skylands positioned -3 4 -598 run data merge block ~ ~ ~ {CustomName:'{"translate":"羊毛の島のディスペンサー","color":"#CCCCCC","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/sheep_islands_dispenser",LootTable:"item:chest/skylands/unique/sheep_islands_dispenser"}
 execute in area:skylands positioned 61 4 -689 run forceload add ~ ~
 execute in area:skylands positioned 61 4 -689 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#1A0B32","bold":true,"italic":false}',Lock:"item:chest/skylands/rank05_chest_single/single_07_magic_stone",LootTable:"item:chest/skylands/rank05_chest_single/single_07_magic_stone"}
+execute in area:skylands positioned -29 12 -644 run forceload add ~ ~
+execute in area:skylands positioned -29 12 -644 run data merge block ~ ~ ~ {CustomName:'{"translate":"危険な卵の秘宝","color":"#38008C","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/egg_islands_unique1_left",LootTable:"item:chest/skylands/unique/egg_islands_unique1_left"}
+execute in area:skylands positioned -29 12 -645 run forceload add ~ ~
+execute in area:skylands positioned -29 12 -645 run data merge block ~ ~ ~ {CustomName:'{"translate":"危険な卵の秘宝","color":"#38008C","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/egg_islands_unique1_right",LootTable:"item:chest/skylands/unique/egg_islands_unique1_right"}
+execute in area:skylands positioned -30 12 -645 run forceload add ~ ~
+execute in area:skylands positioned -30 12 -645 run data merge block ~ ~ ~ {CustomName:'{"translate":"危険な卵の秘宝","color":"#38008C","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/egg_islands_unique2_left",LootTable:"item:chest/skylands/unique/egg_islands_unique2_left"}
+execute in area:skylands positioned -30 12 -644 run forceload add ~ ~
+execute in area:skylands positioned -30 12 -644 run data merge block ~ ~ ~ {CustomName:'{"translate":"危険な卵の秘宝","color":"#38008C","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/egg_islands_unique2_right",LootTable:"item:chest/skylands/unique/egg_islands_unique2_right"}
+execute in area:skylands positioned -31 13 -646 run forceload add ~ ~
+execute in area:skylands positioned -31 13 -646 run data merge block ~ ~ ~ {CustomName:'{"translate":"卵の秘宝","color":"#38008C","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/egg_islands_unique_shulker",LootTable:"item:chest/skylands/unique/egg_islands_unique_shulker"}
+execute in area:skylands positioned -31 13 -643 run forceload add ~ ~
+execute in area:skylands positioned -31 13 -643 run data merge block ~ ~ ~ {CustomName:'{"translate":"卵の秘宝","color":"#38008C","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/egg_islands_unique_shulker",LootTable:"item:chest/skylands/unique/egg_islands_unique_shulker"}
+execute in area:skylands positioned -28 13 -646 run forceload add ~ ~
+execute in area:skylands positioned -28 13 -646 run data merge block ~ ~ ~ {CustomName:'{"translate":"卵の秘宝","color":"#38008C","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/egg_islands_unique_shulker",LootTable:"item:chest/skylands/unique/egg_islands_unique_shulker"}
+execute in area:skylands positioned -28 13 -643 run forceload add ~ ~
+execute in area:skylands positioned -28 13 -643 run data merge block ~ ~ ~ {CustomName:'{"translate":"卵の秘宝","color":"#38008C","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/egg_islands_unique_shulker",LootTable:"item:chest/skylands/unique/egg_islands_unique_shulker"}
+execute in area:skylands positioned 11 122 -588 run forceload add ~ ~
+execute in area:skylands positioned 11 122 -588 run data merge block ~ ~ ~ {CustomName:'{"translate":"スイカは爆弾する","color":"#38008C","bold":true,"italic":false}',Lock:"item:chest/skylands/unique/melon_islands_unique",LootTable:"item:chest/skylands/unique/melon_islands_unique"}
 execute in area:skylands run forceload remove all
