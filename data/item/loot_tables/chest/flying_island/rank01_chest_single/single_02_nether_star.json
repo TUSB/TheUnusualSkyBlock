@@ -5,6 +5,24 @@
       "entries": [
         {
           "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
           "name": "item:group/base_currency/tier1/emerald"
         }
       ]
@@ -32,42 +50,6 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier1/emerald"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/treasure_items/rank01/vanilla_tusb_mix"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/base_currency/tier1/emerald"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/treasure_items/rank01/vanilla_tusb_mix"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
           "name": "item:group/vanilla_item/tier_all/nether_star"
         }
       ]
@@ -78,6 +60,24 @@
         {
           "type": "loot_table",
           "name": "item:group/base_currency/tier1/emerald"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
         }
       ]
     },
@@ -167,24 +167,6 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
           "name": "item:group/base_currency/tier1/emerald"
         }
       ]
@@ -212,7 +194,16 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/nether_star"
+          "name": "item:group/base_currency/tier1/emerald"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/treasure_items/rank01/vanilla_tusb_mix"
         }
       ]
     },
@@ -230,7 +221,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+          "name": "item:group/treasure_items/rank01/vanilla_tusb_mix"
         }
       ]
     },
@@ -239,7 +230,16 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+          "name": "item:group/vanilla_item/tier_all/nether_star"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/base_currency/tier1/emerald"
         }
       ]
     }

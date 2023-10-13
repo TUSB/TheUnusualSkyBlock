@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:64,Unbreakable:true}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

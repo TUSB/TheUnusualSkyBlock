@@ -86,15 +86,6 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/magic_stone/tier1/mix"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
           "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
         }
       ]
@@ -176,6 +167,69 @@
       "entries": [
         {
           "type": "loot_table",
+          "name": "item:group/rank_tusb_item/rank01/tusb_all"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/rank_tusb_item/rank01/tusb_all"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/rank_tusb_item/rank01/tusb_all"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/rank_tusb_item/rank02/tusb_all"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/rank_tusb_item/rank02/tusb_all"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/rank_tusb_item/rank02/tusb_all"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/rank_tusb_item/rank02/tusb_all"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
           "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
         }
       ]
@@ -185,61 +239,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank02/tusb_all"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank02/tusb_all"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank02/tusb_all"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank02/tusb_all"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank01/tusb_all"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank01/tusb_all"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/rank_tusb_item/rank01/tusb_all"
+          "name": "item:group/magic_stone/tier1/mix"
         }
       ]
     }

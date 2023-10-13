@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 40
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 75
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 120
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.31d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.25d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"得意のテレポート魔術で生贄の儀式の贄を探そうとしている。"}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Position:"Source",Settings:[{Name:"As",Target:{Look:"Friendly",Radius:32,IgnoreBlocks:true}}],Name:"Teleport"}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:120,Max:240,Current:100},Call:[{Settings:[{Name:"Anchor",Anchor:"Eyes"},{Name:"Facing",Target:{Look:"Player",Radius:18,IgnoreBlocks:true}}],Name:"Spawn",SpawnEntities:[[{Tags:[Global,Ground,Shoot,WizardOfTeleportation,TeleportBullet],Level:1}]]}],MP:5}]}]}

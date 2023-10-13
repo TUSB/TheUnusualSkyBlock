@@ -6,7 +6,7 @@ scoreboard players set # _ 46
 execute if entity @s[advancements={area:system/island_capture={skylands.001=true}}] run data modify storage area: capture.skylands.001 set value true
 execute if entity @s[advancements={area:system/island_capture={skylands.002=true}}] run data modify storage area: capture.skylands.002 set value true
 execute if entity @s[advancements={area:system/island_capture={skylands.003=true}}] run data modify storage area: capture.skylands.003 set value true
-execute if entity @s[advancements={area:system/island_capture={skylands.004=true}}] run data modify storage area: capture.skylands.004 set value true
+# execute if entity @s[advancements={area:system/island_capture={skylands.004=true}}] run data modify storage area: capture.skylands.004 set value true
 execute if entity @s[advancements={area:system/island_capture={skylands.005=true}}] run data modify storage area: capture.skylands.005 set value true
 execute if entity @s[advancements={area:system/island_capture={skylands.006=true}}] run data modify storage area: capture.skylands.006 set value true
 execute if entity @s[advancements={area:system/island_capture={skylands.007=true}}] run data modify storage area: capture.skylands.007 set value true
@@ -80,6 +80,10 @@ scoreboard players operation # Calc /= # _
 #クリアを通知
 execute at @a run playsound minecraft:ui.toast.challenge_complete player @a
 title @a title [{"translate":"島 攻略率"},{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}},"(",{"score":{"name": "#","objective": "Calc"}},"%)"]
+tellraw @a [{"translate":"攻略時間:%1$s時間%2$s分%3$s秒","color":"gold","with":[{"score":{"name":"$Hours","objective":"Count"}},{"score":{"name":"$Minutes","objective":"Count"}},[{"score":{"name":"$TenSeconds","objective":"Count"}},{"score":{"name":"$Seconds","objective":"Count"}}]]}]
+
+#夜を司る島(月島)
+execute if entity @s[advancements={area:system/island_capture={skylands.011=true}}] run function area:system/skylands/moon
 
 #リセット
 advancement revoke @s only area:system/island_capture

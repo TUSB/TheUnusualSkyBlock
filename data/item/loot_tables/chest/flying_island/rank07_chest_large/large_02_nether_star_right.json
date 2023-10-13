@@ -5,78 +5,6 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/nether_star"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
           "name": "item:group/treasure_items/rank08/vanilla_tusb_mix"
         }
       ]
@@ -95,7 +23,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/nether_star"
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
         }
       ]
     },
@@ -104,7 +32,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/nether_star"
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
         }
       ]
     },
@@ -113,7 +41,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/nether_star"
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
         }
       ]
     },
@@ -122,7 +50,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/nether_star"
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
         }
       ]
     },
@@ -131,7 +59,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/nether_star"
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
         }
       ]
     },
@@ -140,7 +68,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/nether_star"
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
         }
       ]
     },
@@ -149,7 +77,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/nether_star"
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
         }
       ]
     },
@@ -159,6 +87,78 @@
         {
           "type": "loot_table",
           "name": "item:group/rank_tusb_item/rank06/tusb_all"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/nether_star"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/nether_star"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/nether_star"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/nether_star"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/nether_star"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/nether_star"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/nether_star"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/nether_star"
         }
       ]
     },

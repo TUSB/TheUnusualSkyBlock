@@ -21,11 +21,14 @@
         {
           "weight": 3,
           "type": "minecraft:item",
-          "name": "minecraft:coal",
+          "name": "minecraft:oak_wood",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 8
+              "count": {
+                "min": 8,
+                "max": 16
+              }
             }
           ]
         },
@@ -175,6 +178,11 @@
               }
             }
           ]
+        },
+        {
+          "weight": 2,
+          "type": "minecraft:item",
+          "name": "minecraft:jungle_leaves"
         },
         {
           "weight": 2,

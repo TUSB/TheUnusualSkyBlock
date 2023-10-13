@@ -1,0 +1,115 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:item/bow/tier5_bow"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/tier5_carrot_on_a_stick"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sea_lantern",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 8
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:item/shield/tier5_shield"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:item/trident/tier5_trident"
+        }
+      ]
+    }
+  ]
+}

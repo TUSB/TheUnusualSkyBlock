@@ -59,15 +59,6 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_03_red"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
           "name": "item:group/base_currency/tier3/emerald"
         }
       ]
@@ -78,6 +69,15 @@
         {
           "type": "loot_table",
           "name": "item:group/vanilla_item/decorative/panel_03_red"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/base_currency/tier3/emerald"
         }
       ]
     },
@@ -122,25 +122,25 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/tusb_item/tier2/summon_trap"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/tusb_item/tier2/summon_trap"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
           "name": "item:group/vanilla_item/decorative/panel_03_red"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/tusb_item/tier2/summon_trap"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/base_currency/tier3/emerald"
         }
       ]
     },
@@ -159,6 +159,15 @@
         {
           "type": "loot_table",
           "name": "item:group/vanilla_item/decorative/panel_03_red"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/treasure_items/rank05/vanilla_tusb_mix"
         }
       ]
     },
@@ -212,25 +221,16 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/treasure_items/rank04/vanilla_tusb_mix"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/treasure_items/rank04/vanilla_tusb_mix"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
           "name": "item:group/rank_tusb_item/rank03/tusb_all"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/rank_tusb_item/rank04/tusb_all"
         }
       ]
     },

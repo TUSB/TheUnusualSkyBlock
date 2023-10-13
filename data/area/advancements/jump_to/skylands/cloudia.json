@@ -37,6 +37,6 @@
         }
     },
     "rewards": {
-        "function": "area:jump_to/cloudia/"
+        "function": "area:jump_to/trigger/cloudia/"
     }
 }

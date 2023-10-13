@@ -271,12 +271,32 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/leather_boots/infinity_leather_b"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_chestplate/infinity_leather_c"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/leather_chestplate/prism_soteira_c"
         },
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/leather_helmet/infinity_leather_h"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/leather_helmet/prism_soteira_h"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_leggings/infinity_leather_l"
         },
         {
           "weight": 1,

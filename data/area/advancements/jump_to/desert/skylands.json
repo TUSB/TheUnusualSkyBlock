@@ -1,35 +1,34 @@
 {
   "criteria": {
     "skylands": {
-      "trigger": "minecraft:location",
+      "trigger": "minecraft:enter_block",
       "conditions": {
+        "block": "end_gateway",
         "player": [
           {
             "condition": "minecraft:reference",
             "name": "entity:player"
           },
           {
-            "condition": "minecraft:location_check",
+            "condition": "entity_properties",
+            "entity": "this",
             "predicate": {
-              "position": {
-                "x": {
-                  "min": -1832,
-                  "max": -1827
+              "location": {
+                "position": {
+                  "x": {
+                    "min": -1832,
+                    "max": -1827
+                  },
+                  "y": {
+                    "min": 47,
+                    "max": 51
+                  },
+                  "z": {
+                    "min": 2388,
+                    "max": 2390
+                  }
                 },
-                "y": {
-                  "min": 47,
-                  "max": 51
-                },
-                "z": {
-                  "min": 2388,
-                  "max": 2390
-                }
-              },
-              "dimension": "area:desert",
-              "block": {
-                "blocks": [
-                  "end_gateway"
-                ]
+                "dimension": "area:desert"
               }
             }
           }
@@ -38,6 +37,6 @@
     }
   },
   "rewards": {
-    "function": "area:jump_to/desert/skylands"
+    "function": "area:jump_to/trigger/desert/skylands/"
   }
 }

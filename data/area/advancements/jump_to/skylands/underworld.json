@@ -37,6 +37,6 @@
         }
     },
     "rewards": {
-        "function": "area:jump_to/underworld/"
+        "function": "area:jump_to/trigger/underworld/"
     }
 }

@@ -14,51 +14,6 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_03_red"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/base_currency/tier1/emerald"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/tusb_item/tier1/summon_trap"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_03_red"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/tusb_item/tier1/summon_trap"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
           "name": "item:group/base_currency/tier1/emerald"
         }
       ]
@@ -86,7 +41,43 @@
       "entries": [
         {
           "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_03_red"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/tusb_item/tier1/summon_trap"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_03_red"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
           "name": "item:group/base_currency/tier1/emerald"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/tusb_item/tier1/summon_trap"
         }
       ]
     },
@@ -131,6 +122,24 @@
       "entries": [
         {
           "type": "loot_table",
+          "name": "item:group/base_currency/tier1/emerald"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/base_currency/tier1/emerald"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
           "name": "item:group/treasure_items/rank02/vanilla_tusb_mix"
         }
       ]
@@ -158,7 +167,43 @@
       "entries": [
         {
           "type": "loot_table",
+          "name": "item:group/tusb_item/tier1/summon_trap"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
           "name": "item:group/base_currency/tier1/emerald"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_03_red"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/tusb_item/tier1/summon_trap"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_03_red"
         }
       ]
     },
@@ -186,51 +231,6 @@
         {
           "type": "loot_table",
           "name": "item:group/base_currency/tier1/emerald"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/tusb_item/tier1/summon_trap"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_03_red"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/tusb_item/tier1/summon_trap"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/base_currency/tier1/emerald"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_03_red"
         }
       ]
     },

@@ -35,8 +35,10 @@ kill @s[type=area_effect_cloud,nbt={Radius:2.5f,RadiusOnUse:-0.5f,RadiusPerTick:
 attribute @s[type=zombie] zombie.spawn_reinforcements base set 0.0
 data remove entity @s[type=zombie] Attributes[{Name:"minecraft:zombie.spawn_reinforcements"}].Modifiers
 
-#自然湧きシュルカー削除
+#自然湧きシュルカー・エンダーマイト・シルバーフィッシュ削除
 tag @s[type=shulker,tag=] add Garbage
+tag @s[type=endermite,tag=] add Garbage
+tag @s[type=silverfish,tag=] add Garbage
 
 #SmartMotion E (反発係数)
 execute unless score @s[tag=SmartMotion] sm.E matches -2147483648..2147483647 run scoreboard players set @s sm.E 100

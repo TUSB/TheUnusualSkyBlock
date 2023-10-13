@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 1000
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 1
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier3/common",Count:1,Chance:0.31d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier3/common",Count:1,Chance:0.25d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"「ﾄﾞｺﾞｫｫｫｫ!!」%2$sの質量のある突風に激突し%1$sはきりもみ回転をしながら地面へと激突した。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"盾は構えずにおとなしく吹っ飛ばされてね。"}]'
 # AI

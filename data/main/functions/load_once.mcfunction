@@ -8,6 +8,8 @@ function settings:version_update/check/
 ###ゲームルール
 gamerule forgiveDeadPlayers false
 gamerule universalAnger true
+time set 14000
+gamerule doDaylightCycle false
 
 ###ステータス
 scoreboard objectives add Level dummy {"text":"レベル"}
@@ -209,6 +211,7 @@ team modify Friendly friendlyFire false
 team modify Friendly collisionRule never
 team modify Friendly seeFriendlyInvisibles false
 team modify Friendly color white
+team add Enemy {"text":"敵チーム"}
 # team modify Friendly prefix {"text":"✦","color":"red"}
 # team modify Friendly suffix {"text":"✦","color":"red"}
 ###カラーチーム作成

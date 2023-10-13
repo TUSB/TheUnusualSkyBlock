@@ -1,4 +1,6 @@
 #Function
+execute as @a if data entity @s Inventory[{tag:{Stock:{}}}] run tellraw @s [" --- ",{"translate":"証券取引情報"}," --- "]
+
 # 取引データ取得
 data modify storage calc: Array.reverse.Input set from entity @s Offers.Recipes
 function calc:array/reverse/
@@ -13,7 +15,7 @@ execute store result score _ _ run data get storage mob_data: StockVillager.Reci
 
 # 現在の株が売れていたら取引開始
 execute store result score _ Calc run data get storage mob_data: StockVillager.Recipes[-1].uses
-execute unless score _ Calc matches 0 run function settings:enemy/debug_room/friendly/blow/stock_exchange/add_stock
+execute unless score _ Calc matches 0 run function settings:enemy/flying_island/friendly/blow/stock_exchange/add_stock
 
 # 次の売り出しの株ID設定
 scoreboard players add _ _ 1
@@ -24,7 +26,7 @@ execute in area:control_area run data modify storage mob_data: StockVillager.Rec
 # エメラルド取引値変動
 data modify storage mob_data: StockVillager.Exchanged set value []
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].StockInfo set value []
-function settings:enemy/debug_room/friendly/blow/stock_exchange/exchange_fluctuation
+function settings:enemy/flying_island/friendly/blow/stock_exchange/exchange_fluctuation
 
 # 情報開示(必要ならば)
 scoreboard players set _ _ 0
@@ -32,8 +34,14 @@ execute if data storage mob_data: StockVillager.Exchanged[-2] store success scor
 execute if score _ _ matches 1 run data modify storage mob_data: StockVillager.Exchanged[0].sell.tag.display.Lore append from storage mob_data: StockVillager.InfoLore[]
 
 # 更新お知らせ
-execute if data storage mob_data: StockVillager.Exchanged[-2] run playsound minecraft:item.goat_horn.sound.1 voice @a[distance=..3] ~ ~ ~
+execute if data storage mob_data: StockVillager.Exchanged[-2] run playsound minecraft:item.goat_horn.sound.1 voice @a[distance=..7] ~ ~ ~
+execute if data storage mob_data: StockVillager.Exchanged[-2] as @a if data entity @s Inventory[{tag:{Stock:{}}}] at @s run playsound minecraft:item.goat_horn.sound.1 voice @s ~ ~ ~ 0.2
 
 # 取引データ返却
 data modify entity @s Offers.Recipes set from storage mob_data: StockVillager.Exchanged
 data remove storage mob_data: StockVillager
+
+# 一応サウンドストップ
+stopsound @a[distance=..10] * minecraft:block.portal.trigger
+
+execute as @a if data entity @s Inventory[{tag:{Stock:{}}}] run tellraw @s " ---------------- "

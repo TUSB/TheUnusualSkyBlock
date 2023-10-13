@@ -4,39 +4,49 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 10000,
+          "weight": 2500,
           "type": "minecraft:item",
           "name": "minecraft:gravel"
         },
         {
-          "weight": 1500,
-          "type": "minecraft:item",
-          "name": "minecraft:dirt"
-        },
-        {
-          "weight": 1500,
-          "type": "minecraft:item",
-          "name": "minecraft:coarse_dirt"
-        },
-        {
-          "weight": 1500,
-          "type": "minecraft:item",
-          "name": "minecraft:sand"
-        },
-        {
-          "weight": 1500,
-          "type": "minecraft:item",
-          "name": "minecraft:red_sand"
-        },
-        {
-          "weight": 1500,
+          "weight": 375,
           "type": "minecraft:item",
           "name": "minecraft:cobblestone"
         },
         {
-          "weight": 1500,
+          "weight": 200,
+          "type": "minecraft:item",
+          "name": "minecraft:dirt"
+        },
+        {
+          "weight": 200,
+          "type": "minecraft:item",
+          "name": "minecraft:coarse_dirt"
+        },
+        {
+          "weight": 200,
+          "type": "minecraft:item",
+          "name": "minecraft:sand"
+        },
+        {
+          "weight": 200,
+          "type": "minecraft:item",
+          "name": "minecraft:red_sand"
+        },
+        {
+          "weight": 375,
           "type": "minecraft:item",
           "name": "minecraft:flint"
+        },
+        {
+          "weight": 375,
+          "type": "loot_table",
+          "name": "item:group/tusb_item/lottery/first_items"
+        },
+        {
+          "weight": 150,
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
         },
         {
           "weight": 100,
@@ -47,6 +57,16 @@
           "weight": 100,
           "type": "minecraft:item",
           "name": "minecraft:coal"
+        },
+        {
+          "weight": 100,
+          "type": "minecraft:item",
+          "name": "minecraft:dead_bush"
+        },
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier1_7/mix"
         },
         {
           "weight": 80,
@@ -74,16 +94,6 @@
           "name": "minecraft:lapis_lazuli"
         },
         {
-          "weight": 200,
-          "type": "minecraft:item",
-          "name": "minecraft:emerald"
-        },
-        {
-          "weight": 200,
-          "type": "loot_table",
-          "name": "item:group/tusb_item/lottery/first_items"
-        },
-        {
           "weight": 10,
           "type": "loot_table",
           "name": "item:item/iron_nugget/currency_megaton_emerald"
@@ -107,11 +117,6 @@
           "weight": 40,
           "type": "minecraft:item",
           "name": "minecraft:amethyst_shard"
-        },
-        {
-          "weight": 100,
-          "type": "loot_table",
-          "name": "item:group/magic_stone/tier1_7/mix"
         }
       ]
     }

@@ -30,14 +30,7 @@
   ],
   "starts": [],
   "spawners": {
-    "monster": [
-      {
-        "type": "creeper",
-        "weight": 100,
-        "minCount": 1,
-        "maxCount": 1
-      }
-    ],
+    "monster": [],
     "creature": [],
     "ambient": [],
     "water_creature": [],

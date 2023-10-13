@@ -5,15 +5,6 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier5/emerald"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
           "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
         }
       ]
@@ -50,7 +41,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+          "name": "item:group/base_currency/tier5/emerald"
         }
       ]
     },
@@ -78,42 +69,6 @@
         {
           "type": "loot_table",
           "name": "item:group/base_currency/tier5/emerald"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/base_currency/tier5/emerald"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/treasure_items/rank06/vanilla_tusb_mix"
         }
       ]
     },
@@ -185,7 +140,52 @@
       "entries": [
         {
           "type": "loot_table",
+          "name": "item:group/base_currency/tier5/emerald"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
           "name": "item:group/treasure_items/rank06/vanilla_tusb_mix"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/treasure_items/rank06/vanilla_tusb_mix"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
         }
       ]
     },
@@ -221,7 +221,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/treasure_items/rank06/vanilla_tusb_mix"
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
         }
       ]
     },
@@ -230,7 +230,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+          "name": "item:group/treasure_items/rank06/vanilla_tusb_mix"
         }
       ]
     },

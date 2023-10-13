@@ -20,6 +20,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 150
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 60
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 90
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier4/common",Count:1,Chance:0.31d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier4/common",Count:1,Chance:0.25d}]
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Name:"Function",Tags:[Skylands,Ground,Function,Ryomen,Rage1]}],Attack:[{Name:"Function",Tags:[Skylands,Ground,Blow,Mega,Debuff1]}],Tick:[{Name:"Function",Tags:[Skylands,Ground,Function,Ryomen,RageTick]}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:1200,Max:1200,Current:1200},Loop:{Max:1,Current:1},Call:[{Condition:[{Name:"HasTarget",Target:{Look:"Player",Radius:64d}}],Settings:[{Name:"Direction",Direction:[-180f,-20f],DirectionRange:[360f,20f],Speed:0d,SpeedRange:6d,Absolute:{Vertical:true}}],Name:"Function",Tags:[Skylands,Ground,Function,Ryomen,Summoner]}],Once:2}]}]}

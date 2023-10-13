@@ -1,0 +1,36 @@
+[
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "location": {
+        "position": {
+          "x": {
+            "min": -145,
+            "max": -45
+          },
+          "y": {
+            "min": 124,
+            "max": 274
+          },
+          "z": {
+            "min": -825,
+            "max": -725
+          }
+        },
+        "dimension": "area:skylands"
+      }
+    }
+  },
+  {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{PortalCooldown:0}"
+      }
+    }
+  }
+]
+  

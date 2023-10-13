@@ -3,7 +3,7 @@
 
 execute in area:skylands run setblock -52 13 -597 minecraft:bedrock
 execute in area:skylands run setblock 115 35 -518 minecraft:bedrock
-execute in area:skylands run setblock -64 121 -701 minecraft:end_gateway{Age:201L}
+execute in area:skylands positioned -64 121 -701 run function area:end_gateway
 
 execute in area:skylands run setblock -52 11 -597 minecraft:obsidian
 execute in area:skylands run setblock 115 33 -518 minecraft:obsidian

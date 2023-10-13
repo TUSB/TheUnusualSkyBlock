@@ -37,6 +37,6 @@
         }
     },
     "rewards": {
-        "function": "area:jump_to/tocult_colde/"
+        "function": "area:jump_to/trigger/tocult_colde/"
     }
 }

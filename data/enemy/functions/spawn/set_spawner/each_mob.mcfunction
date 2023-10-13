@@ -30,6 +30,8 @@ execute store result storage tusb_mob: SpawnData.TicksFrozen int 1 run scoreboar
 # 即時ステータスを反映させる
 data modify storage tusb_mob: SpawnData merge from storage tusb_mob: "即時ステータス"."ベース"
 data modify storage tusb_mob: SpawnData merge from storage tusb_mob: "即時ステータス"."見た目"
+execute if data storage tusb_mob: SpawnData{Tags:[Enemy]} unless data storage tusb_mob: SpawnData.Team run data modify storage tusb_mob: SpawnData.Team set value "Enemy"
+execute if data storage tusb_mob: SpawnData{Team:"None"} run data remove storage tusb_mob: SpawnData.Team
 data modify storage tusb_mob: SpawnData.Attributes[{Name:"minecraft:generic.follow_range"}].Base set from storage tusb_mob: "即時ステータス"."最大感知範囲"
 data modify storage tusb_mob: SpawnData.Attributes[{Name:"minecraft:generic.movement_speed"}].Base set from storage tusb_mob: "即時ステータス"."基本移動力"
 data modify storage tusb_mob: SpawnData.Attributes[{Name:"minecraft:generic.knockback_resistance"}].Base set from storage tusb_mob: "即時ステータス"."ノックバック耐性"

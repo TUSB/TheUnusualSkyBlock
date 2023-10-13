@@ -5,14 +5,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:tnt",
+          "name": "minecraft:mutton",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 7
-              }
+              "count": 8
             }
           ]
         }
@@ -23,23 +20,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:air"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:tnt",
+          "name": "minecraft:item_frame",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 7
-              }
+              "count": 16
             }
           ]
         }
@@ -50,7 +35,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:air"
+          "name": "minecraft:shield"
         }
       ]
     },
@@ -59,14 +44,20 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:tnt",
+          "name": "minecraft:grass_block"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_star",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 7
-              }
+              "count": 4
             }
           ]
         }
@@ -77,23 +68,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:air"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:tnt",
+          "name": "minecraft:torch",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 7
-              }
+              "count": 32
             }
           ]
         }
@@ -104,7 +83,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:air"
+          "name": "minecraft:oak_log",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
         }
       ]
     },
@@ -113,14 +98,26 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:tnt",
+          "name": "minecraft:ender_eye",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 7
-              }
+              "count": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cobblestone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
             }
           ]
         }

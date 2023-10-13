@@ -401,18 +401,6 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "item:group/fishing/the_void/",
-          "conditions": [
-            {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "biome": "minecraft:the_void"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:loot_table",
           "name": "item:group/fishing/plains/",
           "conditions": [
             {

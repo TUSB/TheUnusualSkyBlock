@@ -19,4 +19,5 @@ execute positioned ~ ~500 ~ as @e[type=spawner_minecart,distance=..0.01] if data
 execute if data entity @s ArmorItems[3].tag.Count positioned ~ ~500 ~ run data modify entity @e[type=spawner_minecart,limit=1,distance=..0.01] SpawnCount set from entity @s ArmorItems[3].tag.Count
 execute if data entity @s ArmorItems[3].tag.Count run function enemy:spawn/set_spawner/count/
 
+data modify entity @s CustomName set value ''
 kill @s

@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie_villager",CustomName:'{"translate":"ヒツジンさん","color":"#FFFFFF"}',IsBaby:true,Silent:true,Team:"",Tags:[Mob,Enemy,DelayedData,HasAI,CallOnDeath,CallOnInit,CallOnAttack,TickingRequired,DamageProjectile,EnemyProjectile,HasLootTable,AnalyseLog,NonBurst],PortalCooldown:3000}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie_villager",CustomName:'{"translate":"ヒツジンさん","color":"#FFFFFF"}',IsBaby:true,Silent:true,Team:"None",Tags:[Mob,Enemy,DelayedData,HasAI,CallOnDeath,CallOnInit,CallOnAttack,TickingRequired,DamageProjectile,EnemyProjectile,HasLootTable,AnalyseLog,NonBurst],PortalCooldown:3000}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {HandDropChances:[-1E40f,-1E40f],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f],HandItems:[],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{Unbreakable:true,display:{color:16777215}}},{id:"minecraft:leather_leggings",Count:1b,tag:{Unbreakable:true,display:{color:16777215}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{Unbreakable:true,display:{color:16777215}}},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;9999,0,0,0],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzBmNTAzOTRjNmQ3ZGJjMDNlYTU5ZmRmNTA0MDIwZGM1ZDY1NDhmOWQzYmM5ZGNhYzg5NmJiNWNhMDg1ODdhIn19fQ=="}]}}}}]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 32d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.15d
@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 5
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 5
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 5
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.31d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.25d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"%1$sはチュートリアルを読まなかったので、哀れにも%2$sの持っていた羊毛の角に当たってしまいその日は家に帰宅した。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"この世界において最弱の敵。チュートリアルは済んだか？ヒューマン"}]'
 # AI

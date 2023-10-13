@@ -4,14 +4,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 3
-            }
-          ]
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/nether_star"
         }
       ]
     },
@@ -20,7 +14,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:red_bed"
+          "name": "minecraft:jungle_leaves"
         }
       ]
     },
@@ -29,11 +23,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:bread",
+          "name": "minecraft:egg",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 32
+              "count": 4
             }
           ]
         }
@@ -44,7 +38,25 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+          "name": "item:group/vanilla_item/tier_all/ores"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_big_reeper"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/ores"
         }
       ]
     },
@@ -53,11 +65,62 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "name": "minecraft:egg",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 3
+              "count": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jungle_leaves"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/nether_star"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/nether_star"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jungle_leaves"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:egg",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
             }
           ]
         }
@@ -68,46 +131,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:oak_log",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 2
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:red_bed"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 3
-            }
-          ]
+          "name": "item:group/vanilla_item/tier_all/ores"
         }
       ]
     },
@@ -116,22 +140,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/magic_stone/tier1/mix"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:grass_block",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 2
-            }
-          ]
+          "name": "item:item/carrot_on_a_stick/infinity_leather_memory_star"
         }
       ]
     },
@@ -140,7 +149,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+          "name": "item:group/vanilla_item/tier_all/ores"
         }
       ]
     },
@@ -149,13 +158,22 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "name": "minecraft:egg",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 3
+              "count": 4
             }
           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jungle_leaves"
         }
       ]
     },
@@ -164,22 +182,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/sapling_chance_bug_memory_star"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 3
-            }
-          ]
+          "name": "item:group/vanilla_item/tier_all/nether_star"
         }
       ]
     },
@@ -188,22 +191,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:grass_block",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 2
-            }
-          ]
+          "name": "item:group/vanilla_item/tier_all/nether_star"
         }
       ]
     },
@@ -212,7 +200,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/magic_stone/tier1/mix"
+          "name": "item:group/vanilla_item/tier_all/nether_star"
         }
       ]
     },
@@ -221,11 +209,20 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "name": "minecraft:jungle_leaves"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:egg",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 3
+              "count": 4
             }
           ]
         }
@@ -236,7 +233,13 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:red_bed"
+          "name": "minecraft:egg",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
         }
       ]
     },
@@ -245,13 +248,22 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:chain",
+          "name": "minecraft:egg",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 10
+              "count": 4
             }
           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:jungle_leaves"
         }
       ]
     },
@@ -260,22 +272,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 3
-            }
-          ]
+          "name": "item:group/vanilla_item/tier_all/nether_star"
         }
       ]
     },
@@ -284,46 +281,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 3
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:red_bed"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 3
-            }
-          ]
+          "name": "item:group/vanilla_item/tier_all/nether_star"
         }
       ]
     }

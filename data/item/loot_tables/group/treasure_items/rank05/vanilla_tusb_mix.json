@@ -11,6 +11,20 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/etc",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:group/vanilla_item/tier_all/nether_star",
           "functions": [
             {
@@ -66,7 +80,7 @@
           "name": "item:group/currency_and_magic_stone/tier3/mix"
         },
         {
-          "weight": 4,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:group/rank_tusb_item/rank05/tusb_all"
         }

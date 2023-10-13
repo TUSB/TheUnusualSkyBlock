@@ -1,42 +1,41 @@
 {
   "criteria": {
     "start": {
-      "trigger": "minecraft:location",
+      "trigger": "minecraft:enter_block",
       "conditions": {
+        "block": "end_gateway",
         "player": [
           {
             "condition": "minecraft:reference",
             "name": "entity:player"
           },
           {
-            "condition": "minecraft:location_check",
+            "condition": "entity_properties",
+            "entity": "this",
             "predicate": {
-              "position": {
-                "x": {
-                  "min": -1941,
-                  "max": -1939
+              "location": {
+                "position": {
+                  "x": {
+                    "min": -1941,
+                    "max": -1939
+                  },
+                  "y": {
+                    "min": 113,
+                    "max": 119
+                  },
+                  "z": {
+                    "min": -139,
+                    "max": -135
+                  }
                 },
-                "y": {
-                  "min": 113,
-                  "max": 119
-                },
-                "z": {
-                  "min": -139,
-                  "max": -135
-                }
-              },
-              "dimension": "area:cloudia",
-              "block": {
-                "blocks": [
-                  "minecraft:end_gateway"
-                ]
+                "dimension": "area:cloudia"
               }
             }
           }
         ]
       }
     },
-    "brazil": {
+    "india": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [
@@ -71,7 +70,7 @@
   "requirements": [
     [
       "start",
-      "brazil"
+      "india"
     ]
   ],
   "rewards": {

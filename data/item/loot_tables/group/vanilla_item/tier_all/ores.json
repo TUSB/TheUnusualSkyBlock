@@ -9,7 +9,18 @@
           "name": "minecraft:iron_ingot"
         },
         {
-          "weight": 13,
+          "weight": 12,
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "weight": 7,
           "type": "minecraft:item",
           "name": "minecraft:redstone",
           "functions": [
@@ -20,7 +31,7 @@
           ]
         },
         {
-          "weight": 11,
+          "weight": 7,
           "type": "minecraft:item",
           "name": "minecraft:copper_ingot",
           "functions": [
