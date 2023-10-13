@@ -9,6 +9,11 @@
           "name": "minecraft:ender_pearl"
         },
         {
+          "weight": 64,
+          "type": "minecraft:item",
+          "name": "minecraft:ender_eye"
+        },
+        {
           "weight": 32,
           "type": "minecraft:item",
           "name": "minecraft:ender_pearl",

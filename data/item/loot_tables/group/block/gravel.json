@@ -9,17 +9,22 @@
           "name": "minecraft:gravel"
         },
         {
-          "weight": 375,
+          "weight": 300,
+          "type": "loot_table",
+          "name": "item:group/tusb_item/lottery/first_items"
+        },
+        {
+          "weight": 400,
           "type": "minecraft:item",
           "name": "minecraft:cobblestone"
         },
         {
-          "weight": 200,
+          "weight": 300,
           "type": "minecraft:item",
-          "name": "minecraft:dirt"
+          "name": "minecraft:grass_block"
         },
         {
-          "weight": 200,
+          "weight": 400,
           "type": "minecraft:item",
           "name": "minecraft:coarse_dirt"
         },
@@ -34,67 +39,62 @@
           "name": "minecraft:red_sand"
         },
         {
-          "weight": 375,
+          "weight": 300,
           "type": "minecraft:item",
           "name": "minecraft:flint"
         },
         {
-          "weight": 375,
-          "type": "loot_table",
-          "name": "item:group/tusb_item/lottery/first_items"
-        },
-        {
-          "weight": 150,
-          "type": "minecraft:item",
-          "name": "minecraft:emerald"
-        },
-        {
-          "weight": 100,
-          "type": "minecraft:item",
-          "name": "minecraft:clay_ball"
-        },
-        {
-          "weight": 100,
+          "weight": 400,
           "type": "minecraft:item",
           "name": "minecraft:coal"
         },
         {
-          "weight": 100,
+          "weight": 400,
           "type": "minecraft:item",
           "name": "minecraft:dead_bush"
         },
         {
-          "weight": 100,
+          "weight": 80,
+          "type": "minecraft:item",
+          "name": "minecraft:emerald"
+        },
+        {
+          "weight": 200,
+          "type": "minecraft:item",
+          "name": "minecraft:clay_ball"
+        },
+        {
+          "weight": 80,
           "type": "loot_table",
           "name": "item:group/magic_stone/tier1_7/mix"
         },
         {
-          "weight": 80,
+          "weight": 200,
           "type": "minecraft:item",
           "name": "minecraft:raw_copper"
         },
         {
-          "weight": 70,
+          "weight": 175,
           "type": "minecraft:item",
           "name": "minecraft:raw_iron"
         },
         {
-          "weight": 60,
+          "weight": 150,
           "type": "minecraft:item",
           "name": "minecraft:raw_gold"
         },
         {
-          "weight": 50,
+          "weight": 75,
           "type": "minecraft:item",
           "name": "minecraft:redstone"
         },
         {
-          "weight": 50,
+          "weight": 75,
           "type": "minecraft:item",
           "name": "minecraft:lapis_lazuli"
         },
         {
-          "weight": 10,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/iron_nugget/currency_megaton_emerald"
         },
@@ -104,17 +104,17 @@
           "name": "item:item/iron_nugget/currency_gigant_emerald"
         },
         {
-          "weight": 30,
+          "weight": 50,
           "type": "minecraft:item",
           "name": "minecraft:diamond"
         },
         {
-          "weight": 80,
+          "weight": 75,
           "type": "minecraft:item",
           "name": "minecraft:quartz"
         },
         {
-          "weight": 40,
+          "weight": 75,
           "type": "minecraft:item",
           "name": "minecraft:amethyst_shard"
         }

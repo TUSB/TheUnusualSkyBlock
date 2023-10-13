@@ -9,7 +9,7 @@
           "name": "item:group/tusb_item/tier2/summon_trap"
         },
         {
-          "weight": 1,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:group/vanilla_item/tier_all/etc",
           "functions": [
@@ -51,7 +51,7 @@
           ]
         },
         {
-          "weight": 2,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:group/vanilla_item/tier_all/ores",
           "functions": [
@@ -65,22 +65,22 @@
           ]
         },
         {
-          "weight": 2,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:group/vanilla_item/tier5/food"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:group/vanilla_item/tier5/carved_seal_items"
         },
         {
-          "weight": 2,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:group/currency_and_magic_stone/tier3/mix"
         },
         {
-          "weight": 5,
+          "weight": 10,
           "type": "loot_table",
           "name": "item:group/rank_tusb_item/rank05/tusb_all"
         }
