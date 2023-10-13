@@ -14,7 +14,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."雷属�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."光属性値" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."闇属性値" set value 100
 # ステータス
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 140
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 75
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 301
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 30

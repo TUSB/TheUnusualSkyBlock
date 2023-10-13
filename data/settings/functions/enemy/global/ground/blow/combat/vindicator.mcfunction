@@ -14,10 +14,10 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."雷属�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."光属性値" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."闇属性値" set value 100
 # ステータス
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 130
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 60
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 150
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 90
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.25d}]

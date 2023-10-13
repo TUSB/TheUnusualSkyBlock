@@ -17,3 +17,4 @@ execute if entity @s[tag=DeadlyPoisonBomb] run function settings:enemy/global/ev
 execute if entity @s[tag=ContraindicatedHellDrop] run function settings:enemy/global/event/bullet/contraindicated_hell_drop/
 execute if entity @s[tag=DarkBomb] run function settings:enemy/global/event/bullet/dark_bomb/
 execute if entity @s[tag=LightningBomb] run function settings:enemy/global/event/bullet/lightning_bomb/
+execute if entity @s[tag=MagicCircle] run function settings:enemy/global/event/bullet/magic_circle/
