@@ -1,3 +1,4 @@
+execute if data storage skill: Skill{Name:"飛空島周回券"} run function skill:act/common/flying_island_tour_ticket/act0
 execute if data storage skill: Skill{Name:"デバリア"} run function skill:act/common/debarrier/act0
 execute if data storage skill: Skill{Name:"サモンSストームフレンド"} run function skill:act/common/summon_friend_bumper_storm/act0
 execute if data storage skill: Skill{Name:"Tips表示"} run function skill:act/common/show_tips/act0
