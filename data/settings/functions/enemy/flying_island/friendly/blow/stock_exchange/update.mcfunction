@@ -39,6 +39,7 @@ execute if data storage mob_data: StockVillager.Exchanged[-2] as @a if data enti
 
 # 取引データ返却
 data modify entity @s Offers.Recipes set from storage mob_data: StockVillager.Exchanged
+execute unless data storage mob_data: StockVillager.Exchanged[-2] run forceload remove ~ ~
 data remove storage mob_data: StockVillager
 
 # 一応サウンドストップ
