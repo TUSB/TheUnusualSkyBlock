@@ -340,7 +340,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"cloudia ルナティックアイ Lv42\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Shoot,LunaticEye,Main,SpawnParticles],Level:42}],[{Tags:[Global,Sky,Shoot,LunaticEye,Direction],Level:42},{Tags:[Global,Sky,Shoot,LunaticEye,AttackPowder],Level:42},{Tags:[Global,Sky,Shoot,LunaticEye,AttackAura],Level:42}]]}}]}}"
+              "tag": "{#N/}"
             }
           ]
         },
@@ -472,7 +472,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"desert クリムゾンアイ Lv50\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Shoot,CrimsonEye,Main,SpawnParticles],Level:50}],[{Tags:[Global,Sky,Shoot,CrimsonEye,Direction],Level:50},{Tags:[Global,Sky,Shoot,CrimsonEye,AttackDrippingBlood],Level:50},{Tags:[Global,Sky,Shoot,CrimsonEye,AttackAura],Level:50}]]}}]}}"
+              "tag": "{#N/}"
             }
           ]
         },
@@ -1209,7 +1209,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"nether クリムゾンアイ Lv30\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Shoot,CrimsonEye,Main,SpawnParticles],Level:30}],[{Tags:[Global,Sky,Shoot,CrimsonEye,Direction],Level:30},{Tags:[Global,Sky,Shoot,CrimsonEye,AttackDrippingBlood],Level:30},{Tags:[Global,Sky,Shoot,CrimsonEye,AttackAura],Level:30}]]}}]}}"
+              "tag": "{#N/}"
             }
           ]
         },
@@ -1539,7 +1539,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 下層のデーモンアイ Lv3\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Blow,DaemonEye,Main,SpawnParticles],Level:3}]]}}]}}"
+              "tag": "{#N/}"
             }
           ]
         },
@@ -1550,7 +1550,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 中層のデーモンアイ Lv15\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Blow,DaemonEye,Main,SpawnParticles],Level:15}]]}}]}}"
+              "tag": "{#N/}"
             }
           ]
         },
@@ -1572,7 +1572,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 上層のルナティックアイ Lv32\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Shoot,LunaticEye,Main,SpawnParticles],Level:32}],[{Tags:[Global,Sky,Shoot,LunaticEye,Direction],Level:32},{Tags:[Global,Sky,Shoot,LunaticEye,AttackPowder],Level:32},{Tags:[Global,Sky,Shoot,LunaticEye,AttackAura],Level:32}]]}}]}}"
+              "tag": "{#N/}"
             }
           ]
         },
@@ -1638,7 +1638,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 下層のデンジャークリーパー Lv10\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,DangerCreeper,Main,SpawnParticles],Level:10}]]}}]}}"
+              "tag": "{#N/}"
             }
           ]
         },
@@ -2980,7 +2980,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"tocult_colde シャーベットアイ Lv47\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[TocultColde,Sky,Shoot,SherbetEye,Main,SpawnParticles],Level:47}],[{Tags:[TocultColde,Sky,Shoot,SherbetEye,Direction],Level:47},{Tags:[TocultColde,Sky,Shoot,SherbetEye,Shoots],Level:47},{Tags:[TocultColde,Sky,Shoot,SherbetEye,SummonServant],Level:47},{Tags:[TocultColde,Sky,Shoot,SherbetEye,SummonPowder],Level:47}]]}}]}}"
+              "tag": "{#N/}"
             }
           ]
         },
@@ -3134,7 +3134,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"underworld ポイゾンアイ Lv25\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Shoot,PoisonEye,Main,SpawnParticles],Level:25}],[{Tags:[Global,Sky,Shoot,PoisonEye,VomitingPoison],Level:25}]]}}]}}"
+              "tag": "{#N/}"
             }
           ]
         },
