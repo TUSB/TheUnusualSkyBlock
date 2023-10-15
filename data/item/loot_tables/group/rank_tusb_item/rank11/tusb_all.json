@@ -941,12 +941,12 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/player_head/white_mage_head"
+          "name": "item:item/magma_cube_spawn_egg/sign/white_mage_soul"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/player_head/black_mage_head"
+          "name": "item:item/magma_cube_spawn_egg/sign/black_mage_soul"
         },
         {
           "weight": 1,

@@ -156,6 +156,11 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/shears/shears"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/shield/red_signal"
         },
         {
