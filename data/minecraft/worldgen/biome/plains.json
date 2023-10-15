@@ -32,7 +32,7 @@
   "spawners": {
     "monster": [
       {
-        "type": "minecraft:creeper",
+        "type": "vex",
         "weight": 100,
         "minCount": 1,
         "maxCount": 1
