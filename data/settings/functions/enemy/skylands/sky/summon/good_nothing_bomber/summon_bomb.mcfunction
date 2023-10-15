@@ -12,14 +12,7 @@ execute if score _ Random matches 3 run data modify storage mob_data: Summon.Tag
 execute if score _ Random matches 4 run data modify storage mob_data: Summon.Tags set value [Global,Event,Bullet,DarkBomb,Main]
 execute if score _ Random matches 5 run data modify storage mob_data: Summon.Tags set value [Global,Event,Bullet,DeadlyPoisonBomb,Main]
 #レベルを設定
-execute store result score _ Level run scoreboard players get @s Level
-scoreboard players set _ _ 2
-scoreboard players operation _ Level /= _ _
-execute store result score _ Random run function calc:random
-scoreboard players set _ _ 7
-scoreboard players operation _ Random %= _ _
-scoreboard players remove _ Random 3
-scoreboard players operation _ Level += _ Random
+scoreboard players set _ Level 1
 execute store result storage mob_data: Summon.Level int 1 run scoreboard players get _ Level
 execute store result storage mob_data: Summon.ParentID int 1 run scoreboard players get @s OhMyDatID
 data modify entity @e[tag=Spawn,distance=0,limit=1] ArmorItems[3].tag.SpawnEntities[0][0] merge from storage mob_data: Summon

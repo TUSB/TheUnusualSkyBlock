@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:fireball",CustomName:'{"translate":"ガストの火球","color":"#FFFFFF","bold":true}',ExplosionPower:2b,NoGravity:1b,PortalCooldown:600,Tags:[DelayedData,CallOnInit,CooldownRequired,DamageProjectile,EnemyProjectile]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:fireball",CustomName:'{"translate":"ガストの火球","color":"#FFFFFF","bold":true}',ExplosionPower:1b,NoGravity:1b,PortalCooldown:600,Tags:[DelayedData,CallOnInit,CooldownRequired,DamageProjectile,EnemyProjectile]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 ### 遅延ステータス
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 0
