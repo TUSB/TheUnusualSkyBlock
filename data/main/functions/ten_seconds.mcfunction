@@ -10,3 +10,6 @@ execute as @e[type=!player] unless predicate entity:kill_check run kill @s
 
 # ライフスカウター デスポーン削除チェック
 execute as @e[tag=LifeScouterText] unless predicate entity:vehicle run kill @s
+
+# スポナーカートサウンド停止
+stopsound @a neutral minecraft:entity.minecart.riding
