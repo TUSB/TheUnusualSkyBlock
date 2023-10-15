@@ -1,10 +1,6 @@
 {
   "replace": false,
   "values": [
-    "minecraft:creeper",
-    "minecraft:drowned",
-    "minecraft:stray",
-    "minecraft:zombie",
-    "minecraft:zombie_villager"
+    "vex"
   ]
 }
