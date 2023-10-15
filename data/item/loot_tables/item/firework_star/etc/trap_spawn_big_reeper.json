@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:4001,HideFlags:32,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,BigReeper,Main,SpawnParticles],Level:12}],[{Tags:[Skylands,Ground,Blow,BigReeper,Head],Level:12}]],Explosion:{Type:0b,Colors:[I;2924088]},display:{Name:'{\"translate\":\"召喚の罠「ビックリーパー」\",\"color\":\"#08B502\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"このアイテムが地面に落ちた時、\",\"color\":\"#FF0061\"}','{\"translate\":\"「」のモンスターが召喚される。\",\"color\":\"#FF0061\"}']}}"
+              "tag": "{CustomModelData:4001,HideFlags:32,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,BigReeper,Main,SpawnParticles],Level:12}],[{Tags:[Skylands,Ground,Blow,BigReeper,Head],Level:12}]],Explosion:{Type:0b,Colors:[I;2924088]},display:{Name:'{\"translate\":\"召喚の罠「ビックリーパー」\",\"color\":\"#08B502\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"このアイテムが地面に落ちた時、\",\"color\":\"#FF0061\"}','{\"translate\":\"アイテム名のモンスターが召喚される。\",\"color\":\"#FF0061\"}']}}"
             }
           ]
         }
