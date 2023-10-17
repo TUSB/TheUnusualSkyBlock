@@ -1,13 +1,13 @@
-data modify storage item: Inventory set from entity @s Inventory
+data modify storage item: InstantInventory set from entity @s Inventory
 
 #RecoverHP
-execute if data storage item: Inventory[].tag.InstantEffect.RecoverHP run function item:instant_item/recover_hp
+execute if data storage item: InstantInventory[].tag.InstantEffect.RecoverHP run function item:instant_item/recover_hp
 #RecoverMP
-execute if data storage item: Inventory[].tag.InstantEffect.RecoverMP run function item:instant_item/recover_mp
+execute if data storage item: InstantInventory[].tag.InstantEffect.RecoverMP run function item:instant_item/recover_mp
 #RecoverHB
-execute if data storage item: Inventory[].tag.InstantEffect.RecoverHB run function item:instant_item/recover_hb
+execute if data storage item: InstantInventory[].tag.InstantEffect.RecoverHB run function item:instant_item/recover_hb
 
-data remove storage item: Inventory
+data remove storage item: InstantInventory
 clear @s mushroom_stew{InstantEffect:{}}
 #トリガー解除
 advancement revoke @s only item:instant_item

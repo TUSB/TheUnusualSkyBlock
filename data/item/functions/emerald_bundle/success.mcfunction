@@ -12,17 +12,17 @@ execute if score _ Calc matches 1.. in area:control_area run loot replace block 
 execute if score _ Calc matches 1.. in area:control_area run function item:emerald_bundle/exchange
 
 #メガトンエメラルドを入れる
-data modify storage item: Items set value []
-data modify storage item: Items append from storage item: Inventory[{id:"minecraft:iron_nugget",tag:{CustomModelData:1}}]
-execute if score # Calc matches 1.. if data storage item: Items[0] run function item:emerald_bundle/store
+data modify storage item: EmeraldBundle.Items set value []
+data modify storage item: EmeraldBundle.Items append from storage item: EmeraldBundle.Inventory[{id:"minecraft:iron_nugget",tag:{CustomModelData:1}}]
+execute if score # Calc matches 1.. if data storage item: EmeraldBundle.Items[0] run function item:emerald_bundle/store
 
 #バンドルをルート
 data modify storage item: Items set value []
-data modify storage item: Items append from storage item: Bundle
+data modify storage item: Items append from storage item: EmeraldBundle.Bundle
 data modify storage item: Slot set from storage item: Items[0].Slot
 data modify storage item: Items[0].Slot set value 0b
 function item:system/shulker_box/save
 function item:system/shulker_box/loot_to_player
 
 #成功フラグを立てる
-data modify storage calc: Success set value 1b
+data modify storage calc: SuccessA set value 1b
