@@ -12,7 +12,7 @@ execute as @e[tag=DelayedTask] at @s run function main:task/delayed
 execute as @a at @s run function player:tick
 
 ### スポナーカート空気時処理
-execute as @e[tag=SpawnerHolder] at @s if block ~ ~ ~ minecraft:air run function enemy:break_spawner/
+execute as @e[tag=SpawnerHolder] at @s unless block ~ ~ ~ minecraft:spawner run function enemy:break_spawner/
 
 ### エンティティ初期化
 execute as @e[tag=!Initialized] at @s run function entity:initialize_entity
