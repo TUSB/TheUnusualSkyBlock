@@ -1,3 +1,5 @@
+#経験値オーブをKill
+kill @e[distance=..1,type=experience_orb]
 #スポナー採掘時 item.tag.Count>=2のときスポナー再設置
 execute store result score _ _ run data get entity @s item.tag.Count 1
 scoreboard players remove _ _ 1
