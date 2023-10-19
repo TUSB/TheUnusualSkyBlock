@@ -199,7 +199,7 @@ scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken {"
 scoreboard objectives add Jump minecraft.custom:minecraft.jump {"text":"ジャンプ"}
 scoreboard objectives add Deaths minecraft.custom:minecraft.deaths {"text":"死亡"}
 scoreboard objectives add Hunger dummy {"text":"死亡時調整満腹度"}
-scoreboard objectives add MineLodestone minecraft.mined:minecraft.lodestone {"text":"ロードストーン採掘"}
+scoreboard objectives add MineSpawner minecraft.mined:minecraft.spawner {"text":"ロードストーン採掘"}
 scoreboard objectives add Talk minecraft.custom:talked_to_villager {"text":"会話回数"}
 scoreboard objectives add Trade minecraft.custom:traded_with_villager {"text":"取引回数"}
 
