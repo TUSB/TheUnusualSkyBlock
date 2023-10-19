@@ -40,6 +40,6 @@ execute if data storage item: {Slot:100b} in area:control_area run loot replace 
 execute if data storage item: {Slot:101b} in area:control_area run loot replace entity @s armor.legs 1 mine 2 2 2 debug_stick
 execute if data storage item: {Slot:102b} in area:control_area run loot replace entity @s armor.chest 1 mine 2 2 2 debug_stick
 execute if data storage item: {Slot:103b} in area:control_area run loot replace entity @s armor.head 1 mine 2 2 2 debug_stick
-execute if data storage item: {Slot:104b} in area:control_area run loot replace entity @s weapon.offhand 1 mine 2 2 2 debug_stick
+execute if data storage item: {Slot:-106b} in area:control_area run loot replace entity @s weapon.offhand 1 mine 2 2 2 debug_stick
 #競合対策でremoveする
 data remove storage item: Slot
