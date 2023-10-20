@@ -37,7 +37,32 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{NoHold:1b,DamageItem:1b,SpawnerDamage:1}"
+          "tag": "{NoHold:1b,DamageItem:1b,SpawnerDamage:5}"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": [
+              "minecraft:wooden_pickaxe"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lodestone"
+        }
+      ],
+      "functions": [
+        {
+          "function": "minecraft:set_nbt",
+          "tag": "{NoHold:1b,DamageItem:1b,SpawnerDamage:10}"
         }
       ],
       "conditions": [
@@ -62,7 +87,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{NoHold:1b,DamageItem:1b,SpawnerDamage:2}"
+          "tag": "{NoHold:1b,DamageItem:1b,SpawnerDamage:20}"
         }
       ],
       "conditions": [
@@ -87,7 +112,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{NoHold:1b,DamageItem:1b,SpawnerDamage:3}"
+          "tag": "{NoHold:1b,DamageItem:1b,SpawnerDamage:30}"
         }
       ],
       "conditions": [
@@ -112,7 +137,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{NoHold:1b,DamageItem:1b,SpawnerDamage:4}"
+          "tag": "{NoHold:1b,DamageItem:1b,SpawnerDamage:40}"
         }
       ],
       "conditions": [
@@ -137,7 +162,7 @@
       "functions": [
         {
           "function": "minecraft:set_nbt",
-          "tag": "{NoHold:1b,DamageItem:1b,SpawnerDamage:6}"
+          "tag": "{NoHold:1b,DamageItem:1b,SpawnerDamage:60}"
         }
       ],
       "conditions": [
