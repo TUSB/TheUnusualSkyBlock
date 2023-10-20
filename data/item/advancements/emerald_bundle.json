@@ -48,6 +48,6 @@
     ]
   ],
   "rewards": {
-    "function": "item:emerald_bundle/"
+    "function": "item:emerald_bundle/trigger"
   }
 }

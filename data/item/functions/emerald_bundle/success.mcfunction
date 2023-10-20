@@ -25,4 +25,4 @@ function item:system/shulker_box/save
 function item:system/shulker_box/loot_to_player
 
 #成功フラグを立てる
-data modify storage calc: SuccessA set value 1b
+data modify storage item: EmeraldBundle.Success set value 1b

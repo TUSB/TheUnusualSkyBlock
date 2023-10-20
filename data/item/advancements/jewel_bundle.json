@@ -21,6 +21,6 @@
     }
   },
   "rewards": {
-    "function": "item:jewel_bundle/"
+    "function": "item:jewel_bundle/trigger"
   }
 }
