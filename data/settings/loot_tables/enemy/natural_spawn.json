@@ -178,7 +178,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 100,
+          "weight": 50,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -409,7 +409,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 100,
+          "weight": 50,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -1060,7 +1060,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 100,
+          "weight": 50,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -1291,7 +1291,7 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 100,
+          "weight": 50,
           "name": "minecraft:stick",
           "functions": [
             {
@@ -1572,12 +1572,12 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 100,
+          "weight": 50,
           "name": "minecraft:stick",
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,IceCreeper],Level:10}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,IceCreeper,Main],Level:10}]]}"
             }
           ]
         }

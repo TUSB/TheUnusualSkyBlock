@@ -74,7 +74,7 @@ execute in area:control_area if score # _ matches 01..02 run data modify block 2
 execute in area:control_area if score # _ matches 0003.. run data modify block 2 3 2 Text1 set value '[{"block":"2 3 2","nbt":"Text1","interpret":true},{"translate":"傾向："},{"text":"⇧⇧","color":"red"}]'
 execute in area:control_area run data modify storage mob_data: StockVillager.InfoLore append from block 2 3 2 Text1
 
-execute in area:control_area unless score _ Calc matches 0 as @a if data entity @s Inventory[{tag:{Stock:{}}}] run tellraw @s {"nbt":"Text1","block":"2 3 2","interpret":true}
+execute in area:control_area unless score _ Calc matches 0 run tellraw @a[nbt={Inventory:[{tag:{Stock:{}}}]}] {"nbt":"Text1","block":"2 3 2","interpret":true}
 
 # 取引の登録
 execute unless data storage mob_data: StockVillager.Recipe{xp:0} run data modify storage mob_data: StockVillager.Exchanged append from storage mob_data: StockVillager.Recipe

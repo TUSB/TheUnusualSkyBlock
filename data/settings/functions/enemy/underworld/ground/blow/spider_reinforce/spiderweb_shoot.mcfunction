@@ -8,6 +8,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCau
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Settings:[{Name:"Rotation",Target:{Look:"Player",Radius:64d,IgnoreBlocks:true},Direction:[0f,-30f],DirectionRange:[0f,15f]}],Name:"Step",Speed:0.5d,SpeedRange:0.2d}],Attack:[{Name:"Function",Tags:[Underworld,Ground,Blow,SpiderReinforce,SpiderwebEffect]}]}
 #Function
-particle minecraft:item cobweb ~ ~ ~ 0.1 1 0.1 0.1 10 force @a
-playsound entity.spider.hurt hostile @a[distance=..20] ~ ~ ~ 0.7 2.0
+particle minecraft:item cobweb ~ ~ ~ 0.1 1 0.1 0.1 10 force @a[distance=..64]
+playsound entity.spider.hurt hostile @a[distance=..20] ~ ~ ~ 0.7 2.0 0
 playsound entity.wither.shoot hostile @a[distance=..20] ~ ~ ~ 0.7 2.0 0
