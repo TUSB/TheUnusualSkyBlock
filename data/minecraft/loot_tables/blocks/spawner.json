@@ -45,7 +45,10 @@
           "condition": "minecraft:match_tool",
           "predicate": {
             "items": [
-              "minecraft:wooden_pickaxe"
+              "minecraft:wooden_pickaxe",
+              "minecraft:wooden_axe",
+              "minecraft:wooden_shovel",
+              "minecraft:wooden_hoe"
             ]
           }
         }
@@ -70,7 +73,10 @@
           "condition": "minecraft:match_tool",
           "predicate": {
             "items": [
-              "minecraft:stone_pickaxe"
+              "minecraft:stone_pickaxe",
+              "minecraft:stone_axe",
+              "minecraft:stone_shovel",
+              "minecraft:stone_hoe"
             ]
           }
         }
@@ -95,7 +101,10 @@
           "condition": "minecraft:match_tool",
           "predicate": {
             "items": [
-              "minecraft:iron_pickaxe"
+              "minecraft:iron_pickaxe",
+              "minecraft:iron_axe",
+              "minecraft:iron_shovel",
+              "minecraft:iron_hoe"
             ]
           }
         }
@@ -120,7 +129,10 @@
           "condition": "minecraft:match_tool",
           "predicate": {
             "items": [
-              "minecraft:golden_pickaxe"
+              "minecraft:golden_pickaxe",
+              "minecraft:golden_axe",
+              "minecraft:golden_shovel",
+              "minecraft:golden_hoe"
             ]
           }
         }
@@ -145,7 +157,10 @@
           "condition": "minecraft:match_tool",
           "predicate": {
             "items": [
-              "minecraft:diamond_pickaxe"
+              "minecraft:diamond_pickaxe",
+              "minecraft:diamond_axe",
+              "minecraft:diamond_shovel",
+              "minecraft:diamond_hoe"
             ]
           }
         }
@@ -170,7 +185,10 @@
           "condition": "minecraft:match_tool",
           "predicate": {
             "items": [
-              "minecraft:netherite_pickaxe"
+              "minecraft:netherite_pickaxe",
+              "minecraft:netherite_axe",
+              "minecraft:netherite_shovel",
+              "minecraft:netherite_hoe"
             ]
           }
         }
