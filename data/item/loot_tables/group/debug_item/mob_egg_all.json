@@ -219,39 +219,6 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"テストmob1 Lv10\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[DebugRoom,Ground,Blow,Testmob1],Level:10}]]}}]}}"
-            }
-          ]
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:villager_spawn_egg",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"passengerのテスト1 Lv10\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[DebugRoom,Sky,Blow,PassengerTest1],Level:10}]]}}]}}"
-            }
-          ]
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:villager_spawn_egg",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"passengerのテスト2 Lv10\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[DebugRoom,Sky,Blow,PassengerTest2],Level:10}]]}}]}}"
-            }
-          ]
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:villager_spawn_egg",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"text\":\"サラマンダーキット Lv15\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Shoot,SalamanderKid,Main,SpawnParticles],Level:15}],[{Tags:[Global,Friendly,Shoot,SalamanderKid,Direction],Level:15},{Tags:[Global,Friendly,Shoot,SalamanderKid,Attacker],Level:15}]]}}]}}"
             }
           ]
@@ -340,17 +307,6 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{#N/}"
-            }
-          ]
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:villager_spawn_egg",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"text\":\"cloudia 魔術師の従者 Lv30\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Shoot,SorcerersSquire,SorcerersSquiresHorse,SpawnParticles],Level:30}],[{Tags:[Global,Ground,Shoot,SorcerersSquire,Main,SpawnParticles],Level:30}]]}}]}}"
             }
           ]
@@ -374,6 +330,17 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"text\":\"cloudia セキュリティコア・デュアル Lv40\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Summon,SecurityCoreDual,SpawnParticles],Level:40}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"cloudia ファンボム Lv25\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Cloudia,Sky,Shoot,Phanbomb,Main],Level:25}],[{Tags:[Cloudia,Sky,Shoot,Phanbomb,ThrowBomb],Level:25}]]}}]}}"
             }
           ]
         },
@@ -462,17 +429,6 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"text\":\"debug_room Newルナティックアイ_発狂モード Lv40\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[DebugRoom,Sky,Shoot,LunaticEye,Main,SpawnParticles],Level:40}],[{Tags:[Global,Sky,Shoot,LunaticEye,Aura],Level:40}]]}}]}}"
-            }
-          ]
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:villager_spawn_egg",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{#N/}"
             }
           ]
         },
@@ -1209,17 +1165,6 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{#N/}"
-            }
-          ]
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:villager_spawn_egg",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"text\":\"nether ベビーフレイマーズ Lv22\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Nether,Ground,Blow,FlamerBaby,Main,SpawnParticles],Level:22}],[{Tags:[Nether,Ground,Blow,FlamerBaby,Marker],Level:22}]]}}]}}"
             }
           ]
@@ -1429,7 +1374,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 中層のアイスクリーパー Lv10\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,IceCreeper],Level:10}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 中層のアイスクリーパー Lv10\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,IceCreeper,Main],Level:10}]]}}]}}"
             }
           ]
         },
@@ -1539,40 +1484,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{#N/}"
-            }
-          ]
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:villager_spawn_egg",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{#N/}"
-            }
-          ]
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:villager_spawn_egg",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"text\":\"skylands 中層のカトン・ニンジャ Lv18\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Shoot,NinjaTypeF,Main,SpawnParticles],Level:18}]]}}]}}"
-            }
-          ]
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:villager_spawn_egg",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{#N/}"
             }
           ]
         },
@@ -1628,17 +1540,6 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"text\":\"skylands 下層のハートクリーパー Lv1\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,HeartEnemy,Creeper,SpawnParticles],Level:1}],[{Tags:[Global,Other,Blow,HeartEnemy,Effect],Level:1}]]}}]}}"
-            }
-          ]
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:villager_spawn_egg",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{#N/}"
             }
           ]
         },
@@ -2266,6 +2167,17 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"text\":\"skylands 下層のスライミー Lv15\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Shoot,Slimy,Main,SpawnParticles],Level:15}],[{Tags:[Skylands,Ground,Shoot,Slimy,Body],Level:15}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"skylands 下層の砂利モドキ Lv1\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,FakeGravel,Body],Level:1}],[{Tags:[Skylands,Ground,Blow,FakeGravel,Display],Level:1}]]}}]}}"
             }
           ]
         },
@@ -2969,18 +2881,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"tocult_colde アイスクリーパー Lv30\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,IceCreeper],Level:30}]]}}]}}"
-            }
-          ]
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:villager_spawn_egg",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{#N/}"
+              "tag": "{display:{Name:'{\"text\":\"tocult_colde アイスクリーパー Lv30\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,IceCreeper,Main],Level:30}]]}}]}}"
             }
           ]
         },
@@ -3134,17 +3035,6 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{#N/}"
-            }
-          ]
-        },
-        {
-          "weight": 1,
-          "type": "minecraft:item",
-          "name": "minecraft:villager_spawn_egg",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"text\":\"underworld 吸血コウモリ Lv15\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Underworld,Sky,Blow,VampireBat,Main,SpawnParticles],Level:15}],[{Tags:[Underworld,Sky,Blow,VampireBat,Direction],Level:15}]]}}]}}"
             }
           ]
@@ -3190,6 +3080,105 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"text\":\"underworld パイラシーゾンビ Lv1\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,PalsyZombie,SpawnParticles],Level:1}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"underworld アマノツカイ Lv25\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Underworld,Ground,Blow,HeavenlyMessenger,Main,SpawnParticles],Level:25}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"underworld 通常湧きのソルジャースパイダー Lv10\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Underworld,Ground,Blow,SoldierSpider],Level:10}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"underworld アンデッドマイナーZ Lv2\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Underworld,Ground,Blow,UndeadMiner,Zombie],Level:2}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"underworld アンデッドマイナーS Lv2\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Underworld,Ground,Blow,UndeadMiner,Skeleton],Level:2}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"underworld アンデッドマイナーW Lv5\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Underworld,Ground,Blow,UndeadMiner,WitherSkeleton],Level:5}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"underworld ヘドロ・ガベージャ Lv20\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Underworld,Ground,Shoot,SludgeGarbager,Main],Level:20}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"void 執行者 Lv444\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Void,Boss,Blow,Executioner,Main,SpawnParticles],Level:444}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"void 予測者 Lv444\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Void,Boss,Blow,Predictor,Main,SpawnParticles],Level:444}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"void トゲデスデス Lv444\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Void,Boss,Blow,DeathThorn,Main,SpawnParticles],Level:444}]]}}]}}"
             }
           ]
         },

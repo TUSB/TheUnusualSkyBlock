@@ -3,6 +3,7 @@ execute if entity @s[tag=WavePre] run function settings:enemy/skylands/ground/sh
 execute if entity @s[tag=WaveShape] run function settings:enemy/skylands/ground/shoot/illusion_absorber/wave_shape
 execute if entity @s[tag=WaveMain] run function settings:enemy/skylands/ground/shoot/illusion_absorber/wave_main
 execute if entity @s[tag=WaveChant] run function settings:enemy/skylands/ground/shoot/illusion_absorber/wave_chant
+execute if entity @s[tag=Message] run function settings:enemy/skylands/ground/shoot/illusion_absorber/message
 execute if entity @s[tag=MagicPre] run function settings:enemy/skylands/ground/shoot/illusion_absorber/magic_pre
 execute if entity @s[tag=MagicChant] run function settings:enemy/skylands/ground/shoot/illusion_absorber/magic_chant
 execute if entity @s[tag=MagicShaper] run function settings:enemy/skylands/ground/shoot/illusion_absorber/magic_shaper

@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2001,HideFlags:32,Explosion:{Type:0b,Colors:[I;16777170]},key_block:{LootTable:\"item:group/vanilla_item/tier5/food\",key:\"始まりの島\"},display:{Name:'{\"translate\":\"%1$sの鍵\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false,\"with\":[{\"translate\":\"始まりの鍵\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false}]}',Lore:['{\"translate\":\"そこにある「キーブロック」に\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"右クリックをして封印を解いてみよう！\",\"color\":\"white\",\"italic\":false}']}}"
+              "tag": "{CustomModelData:2001,HideFlags:32,Explosion:{Type:0b,Colors:[I;16777170]},key_block:{LootTable:\"item:group/vanilla_item/tier5/food\",key:\"始まりの島\"},display:{Name:'{\"translate\":\"%1$sの鍵\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false,\"with\":[{\"translate\":\"始まりの島\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false}]}',Lore:['{\"translate\":\"そこにある「キーブロック」に\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"右クリックをして封印を解いてみよう！\",\"color\":\"white\",\"italic\":false}']}}"
             }
           ]
         }

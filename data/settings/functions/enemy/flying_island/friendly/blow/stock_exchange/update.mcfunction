@@ -1,5 +1,5 @@
 #Function
-execute as @a if data entity @s Inventory[{tag:{Stock:{}}}] run tellraw @s [" --- ",{"translate":"証券取引情報"}," --- "]
+tellraw @a[nbt={Inventory:[{tag:{Stock:{}}}]}] [" --- ",{"translate":"証券取引情報"}," --- "]
 
 # 取引データ取得
 data modify storage calc: Array.reverse.Input set from entity @s Offers.Recipes
@@ -45,4 +45,4 @@ data remove storage mob_data: StockVillager
 # 一応サウンドストップ
 stopsound @a[distance=..10] * minecraft:block.portal.trigger
 
-execute as @a if data entity @s Inventory[{tag:{Stock:{}}}] run tellraw @s " ---------------- "
+tellraw @a[nbt={Inventory:[{tag:{Stock:{}}}]}] " ---------------- "

@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie_villager",CustomName:'{"translate":"農業スティーブ","color":"#FF0000","bold":true}',PortalCooldown:200,DeathLootTable:"empty",VillagerData:{level:99,profession:"nitwit",type:"plains"},Tags:[Mob,Enemy,DelayedData,TickingRequired,HasLootTable,AnalyseLog]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie_villager",CustomName:'{"translate":"農業スティーブ","color":"#FF0000","bold":true}',PortalCooldown:200,DeathLootTable:"empty",VillagerData:{level:99,profession:"nitwit",type:"plains"},Tags:[Mob,Enemy,DelayedData,CallOnDamage,TickingRequired,HasLootTable,AnalyseLog]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {HandItems:[{id:"minecraft:enchanted_golden_apple",Count:1},{}],ArmorItems:[{},{},{},{id:"minecraft:player_head",Count:1b}],HandDropChances:[-1E40f,-1E40f],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 32d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.15d
@@ -22,3 +22,5 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 1
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Item:{id:"minecraft:golden_apple"},Count:1,Chance:1d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"私はただの一般人ですぅぅ！"}]'
+# AI
+data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Condition:[{Name:"HasTarget",Target:{Look:"Player",Radius:16d}}],Name:"Spawn",SpawnEntities:[[{Tags:[Global,Sky,Shoot,SuperSteve,Main],Level:50}]]},{Condition:[{Name:"HasTarget",Target:{Look:"Player",Radius:16d}}],Name:"Kill"}]}

@@ -25,6 +25,7 @@ execute if entity @s[tag=Chillness] run function settings:enemy/skylands/ground/
 execute if entity @s[tag=BookZombie] run function settings:enemy/skylands/ground/blow/book_zombie/
 execute if entity @s[tag=EnderBoomer] run function settings:enemy/skylands/ground/blow/ender_boomer/
 execute if entity @s[tag=MadSugarMan] run function settings:enemy/skylands/ground/blow/mad_sugar_man/
+execute if entity @s[tag=FakeGravel] run function settings:enemy/skylands/ground/blow/fake_gravel/
 execute if entity @s[tag=WataSpider] run function settings:enemy/skylands/ground/blow/wata_spider/
 execute if entity @s[tag=GhostSheep] run function settings:enemy/skylands/ground/blow/ghost_sheep/
 execute if entity @s[tag=EvilEye] run function settings:enemy/skylands/ground/blow/evil_eye/

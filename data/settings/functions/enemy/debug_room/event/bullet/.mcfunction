@@ -1,5 +1,4 @@
 execute if entity @s[tag=SmartMotion] run function settings:enemy/debug_room/event/bullet/smart_motion/
-execute if entity @s[tag=FriendlyBulletTest] run function settings:enemy/debug_room/event/bullet/friendly_bullet_test
 execute if entity @s[tag=TargetBullet] run function settings:enemy/debug_room/event/bullet/target_bullet
 execute if entity @s[tag=Magnum] run function settings:enemy/debug_room/event/bullet/magnum
 execute if entity @s[tag=LaserShot] run function settings:enemy/debug_room/event/bullet/laser_shot
