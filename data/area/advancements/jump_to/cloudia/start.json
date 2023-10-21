@@ -74,6 +74,6 @@
     ]
   ],
   "rewards": {
-    "function": "area:system/cloudia/start"
+    "function": "area:jump_to/trigger/cloudia/start/"
   }
 }
