@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 70
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 70
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 150
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier2/common",Count:1,Chance:0.25d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier2/common",Count:1,Chance:0.35d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"%2$sは%1$sの身体を無理やりTの字に折り曲げようとした結果、%1$sを骨折させてしまった。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Condition:[{Name:"RandomChance",Chance:0.15d}],Name:"Function",Tags:[Skylands,Sky,Shoot,Tippy,Poppy]}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:100,Max:100,Current:100},Loop:{Max:1,Current:1},Call:[{Condition:[{Name:"HasTarget",Target:{Look:"Player",Radius:16d,IgnoreBlocks:true}},{Name:"RandomChance",Chance:0.12d}],Name:"Function",Tags:[Skylands,Sky,Shoot,Tippy,Summon1]}]}]}]}

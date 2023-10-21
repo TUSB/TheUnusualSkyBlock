@@ -20,6 +20,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 75
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 80
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 150
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier3/common",Count:1,Chance:0.25d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier3/common",Count:1,Chance:0.35d}]
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Condition:[{Name:"RandomChance",Chance:0.1d}],Name:"Function",Tags:[Skylands,Ground,Blow,BlackGrudge,Debuff1]}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:60,Max:100,Current:80},Loop:{Max:1,Current:1},Call:[{Condition:[{Name:"HasTarget",Target:{Look:"Player",Radius:16d}}],Settings:[{Name:"Anchor",Anchor:"Eyes"},{Name:"Direction",Direction:[0f,-90f],Speed:0.5d,SpeedRange:1d,Absolute:{Vertical:true}},{Name:"Direction",Direction:[-180f,0f],DirectionRange:[360f,0f],Speed:0d,SpeedRange:1.5d}],Name:"Spawn",IsChild:true,SpawnEntities:[[{Tags:[Skylands,Ground,Shoot,BlackGrudge2,Bullet],Level:32}]]}]}]}]}

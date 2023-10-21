@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 20
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 30
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 30
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier5/common",Count:1,Chance:0.25d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier5/common",Count:1,Chance:0.35d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"キレイナ、モン、ヒロッタ！ ウレシイ！"}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:24d,IgnoreBlocks:true}}],Name:"Step",Direction:[-180f,-180f],DirectionRange:[360f,360f],Speed:1.2d}],Death:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Neutrality,Summon,GenocideBomb,Countdown],Level:100}]]}],Time:[{Name:"Spawn",Count:1,CountRange:8,SpawnEntities:[[{Tags:[Global,Ground,Blow,Goblins,GoblinGenocideBomber],Level:100}]],Condition:[{Name:"RandomChance",Chance:0.40d},{Name:"HasTarget",Target:{Look:"Player",Radius:16}}]}],Attack:[{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Neutrality,Summon,GenocideBomb,Countdown],Level:100}]]},{Name:"Kill"}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:40,Max:100,Current:120},Call:[{Name:"Step",Direction:[0f,-13f],Speed:0.7d,SpeedRange:1.3d,Settings:[{Name:"Facing",Target:{Look:"Player",Radius:8d}}]}],MP:5}]}]}

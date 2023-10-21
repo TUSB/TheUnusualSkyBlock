@@ -557,6 +557,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,HolyHoriHollick,SpawnParticles],Level:30}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,Vogue,SpawnParticles],Level:10}]]}"
             }
           ]
@@ -1429,6 +1440,17 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,SheepMan,Main,SpawnParticles],Level:3}]],Count:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,HolyHoriHollick,SpawnParticles],Level:30}]]}"
             }
           ]
         },

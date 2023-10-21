@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.25d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.35d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"冷気の秘訣はおやじギャグ。"}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"MergeNBT",NBT:{TicksFrozen:2147483647}}],Attack:[{Name:"Damage",Player:{DamageType:[Global,Blast]},MP:{MP:20},Distance:{Max:4d},AEC:{Particle:"block ice",Duration:10,Radius:0.25f,Effects:[{Id:14b,Amplifier:4b,Duration:5}]}}],Tick:[{Name:"Function",Tags:[Global,Ground,Blow,IceCreeper,ParticleAndSound]}]}
