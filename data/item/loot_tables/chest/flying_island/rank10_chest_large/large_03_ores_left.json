@@ -5,16 +5,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier7/emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
+          "name": "item:group/base_currency/tier7/emerald"
         }
       ]
     },
@@ -23,16 +14,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier7/emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
+          "name": "item:group/base_currency/tier7/emerald"
         }
       ]
     },
@@ -59,16 +41,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier7/emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
+          "name": "item:group/base_currency/tier7/emerald"
         }
       ]
     },
@@ -77,16 +50,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier7/emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
+          "name": "item:group/base_currency/tier7/emerald"
         }
       ]
     },
@@ -95,16 +59,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier7/emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
+          "name": "item:group/base_currency/tier7/emerald"
         }
       ]
     },
@@ -113,16 +68,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier7/emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
+          "name": "item:group/base_currency/tier7/emerald"
         }
       ]
     },
@@ -131,16 +77,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier7/emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
+          "name": "item:group/base_currency/tier7/emerald"
         }
       ]
     },
@@ -149,16 +86,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier7/emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
+          "name": "item:group/base_currency/tier7/emerald"
         }
       ]
     },
@@ -203,16 +131,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier7/emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
+          "name": "item:group/base_currency/tier7/emerald"
         }
       ]
     },
@@ -221,16 +140,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier7/emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
+          "name": "item:group/base_currency/tier7/emerald"
         }
       ]
     },
@@ -239,16 +149,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier7/emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
+          "name": "item:group/base_currency/tier7/emerald"
         }
       ]
     },
@@ -302,16 +203,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/ores",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
+          "name": "item:group/vanilla_item/tier7/ores"
         }
       ]
     },
@@ -329,16 +221,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier7/emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
+          "name": "item:group/base_currency/tier7/emerald"
         }
       ]
     },

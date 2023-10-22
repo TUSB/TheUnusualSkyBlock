@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/ender_pearl"
+          "name": "item:group/vanilla_item/tier7/ender_pearl"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/ender_pearl"
+          "name": "item:group/vanilla_item/tier7/ender_pearl"
         }
       ]
     },
@@ -113,7 +113,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/ender_pearl"
+          "name": "item:group/vanilla_item/tier7/ender_pearl"
         }
       ]
     },
@@ -131,7 +131,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/ender_pearl"
+          "name": "item:group/vanilla_item/tier7/ender_pearl"
         }
       ]
     },
@@ -203,7 +203,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/ender_pearl"
+          "name": "item:group/vanilla_item/tier7/ender_pearl"
         }
       ]
     },

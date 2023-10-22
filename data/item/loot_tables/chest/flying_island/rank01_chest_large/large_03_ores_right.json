@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/ores"
+          "name": "item:group/vanilla_item/tier1/ores"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/ores"
+          "name": "item:group/vanilla_item/tier1/ores"
         }
       ]
     },
@@ -95,7 +95,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/ores"
+          "name": "item:group/vanilla_item/tier1/ores"
         }
       ]
     },
@@ -113,7 +113,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/ores"
+          "name": "item:group/vanilla_item/tier1/ores"
         }
       ]
     },
@@ -131,7 +131,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/ores"
+          "name": "item:group/vanilla_item/tier1/ores"
         }
       ]
     },
@@ -149,7 +149,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/ores"
+          "name": "item:group/vanilla_item/tier1/ores"
         }
       ]
     },
@@ -185,7 +185,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/ores"
+          "name": "item:group/vanilla_item/tier1/ores"
         }
       ]
     },
@@ -221,7 +221,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/ores"
+          "name": "item:group/vanilla_item/tier1/ores"
         }
       ]
     },

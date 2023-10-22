@@ -24,6 +24,11 @@
           "name": "item:item/carrot_on_a_stick/euphoric_face_pie"
         },
         {
+          "weight": 12,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/ender_pearl"
+        },
+        {
           "weight": 6,
           "type": "loot_table",
           "name": "item:item/potion/very_glow"

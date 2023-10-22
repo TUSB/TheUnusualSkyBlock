@@ -5,16 +5,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/nether_star",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
+          "name": "item:group/vanilla_item/tier7/nether_star"
         }
       ]
     },
@@ -32,16 +23,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier7/emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
+          "name": "item:group/base_currency/tier7/emerald"
         }
       ]
     },
@@ -68,16 +50,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/nether_star",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
+          "name": "item:group/vanilla_item/tier7/nether_star"
         }
       ]
     },
@@ -86,16 +59,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/nether_star",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
+          "name": "item:group/vanilla_item/tier7/nether_star"
         }
       ]
     },
@@ -149,16 +113,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/nether_star",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
+          "name": "item:group/vanilla_item/tier7/nether_star"
         }
       ]
     },
@@ -167,16 +122,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/nether_star",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
+          "name": "item:group/vanilla_item/tier7/nether_star"
         }
       ]
     },
@@ -203,16 +149,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier7/emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
+          "name": "item:group/base_currency/tier7/emerald"
         }
       ]
     },
@@ -230,16 +167,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier7/emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
+          "name": "item:group/base_currency/tier7/emerald"
         }
       ]
     },
@@ -257,16 +185,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier7/emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
+          "name": "item:group/base_currency/tier7/emerald"
         }
       ]
     },
@@ -320,16 +239,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/nether_star",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
+          "name": "item:group/vanilla_item/tier7/nether_star"
         }
       ]
     }

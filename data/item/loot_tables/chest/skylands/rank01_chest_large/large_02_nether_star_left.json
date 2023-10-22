@@ -23,7 +23,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/nether_star"
+          "name": "item:group/vanilla_item/tier1/nether_star"
         }
       ]
     },
@@ -59,7 +59,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/nether_star"
+          "name": "item:group/vanilla_item/tier1/nether_star"
         }
       ]
     },

@@ -16,17 +16,17 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/nether_star"
+          "name": "item:group/vanilla_item/tier1/nether_star"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/ender_pearl"
+          "name": "item:group/vanilla_item/tier1/ender_pearl"
         },
         {
           "weight": 4,
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/ores"
+          "name": "item:group/vanilla_item/tier1/ores"
         },
         {
           "weight": 4,
@@ -41,7 +41,12 @@
         {
           "weight": 4,
           "type": "loot_table",
-          "name": "item:group/currency_and_magic_stone/tier1/mix"
+          "name": "item:group/base_currency/tier1/emerald"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier1/mix"
         },
         {
           "weight": 10,
