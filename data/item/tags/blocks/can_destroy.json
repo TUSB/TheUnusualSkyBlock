@@ -2,6 +2,7 @@
   "values": [
     "minecraft:spawner",
     "minecraft:torch",
-    "minecraft:cobweb"
+    "minecraft:cobweb",
+    "minecraft:vine"
   ]
 }
