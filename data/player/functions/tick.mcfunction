@@ -56,7 +56,8 @@ execute unless score @s TipsSupTrigger matches 0 run function player:tips/suppre
 execute unless score @s PotentialTrigger matches 0 run function job:potentials/triggered
 
 ### ネザースター取得
-execute if entity @s[nbt={Inventory:[{id:"minecraft:nether_star"}]}] run function job:exp/get
+# execute if entity @s[nbt={Inventory:[{id:"minecraft:nether_star"}]}] run function job:exp/get
+execute if entity @s[nbt={Inventory:[{id:"minecraft:nether_star"}]}] run function player:trigger/nether_star
 
 ### 1秒処理
 execute if score $Tick Count matches 0 run function player:one_second
