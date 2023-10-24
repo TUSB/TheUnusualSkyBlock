@@ -326,11 +326,6 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/magma_cube_spawn_egg/sign/sheep_spawner"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
           "name": "item:item/netherite_axe/strong_meat"
         },
         {
