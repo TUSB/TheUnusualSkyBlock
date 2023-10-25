@@ -12,7 +12,7 @@ data modify storage tusb_mob: Count set from entity @s ArmorItems[3].tag.Count
 ### タグで判定するとしても、リストで保持しておいて、タグに移してから反映とかの方がいいかも
 data modify storage tusb_mob: MobLayers set from entity @s ArmorItems[3].tag.SpawnEntities
 ### スポナートロッコ召喚
-summon spawner_minecart ~ ~500 ~ {Tags:[OneTimeSpawner,TickingRequired],SpawnCount:1s,SpawnRange:6s,Delay:0s,MaxNearbyEntities:106s,RequiredPlayerRange:1000s,MinSpawnDelay:200s,MaxSpawnDelay:800s,SpawnData:{entity:{id:"minecraft:experience_orb",Tags:["NotTriggerCallPassenger"],Age:6000,Passengers:[{id:"tusb_mob:creation"}]}},SpawnPotentials:[{weight:1,data:{entity:{id:"tusb_mob:empty"}}}]}
+summon spawner_minecart ~ ~500 ~ {Tags:[OneTimeSpawner,TickingRequired],SpawnCount:1s,SpawnRange:6s,Delay:0s,MaxNearbyEntities:106s,RequiredPlayerRange:1000s,MinSpawnDelay:200s,MaxSpawnDelay:800s,NoGravity:1b,SpawnData:{entity:{id:"minecraft:experience_orb",Tags:["NotTriggerCallPassenger"],Age:6000,Passengers:[{id:"tusb_mob:creation"}]}},SpawnPotentials:[{weight:1,data:{entity:{id:"tusb_mob:empty"}}}]}
 ### ステータス適用
 execute positioned ~ ~500 ~ as @e[type=spawner_minecart,distance=..0.01] if data entity @s SpawnData.entity.Passengers[{id:"tusb_mob:creation"}] positioned ~ ~-500 ~ run function enemy:spawn/set_spawner/
 ### Count設定
