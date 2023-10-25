@@ -74,6 +74,11 @@
           "name": "minecraft:emerald"
         },
         {
+          "weight": 80,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_fake_gravel"
+        },
+        {
           "weight": 75,
           "type": "minecraft:item",
           "name": "minecraft:raw_gold"
