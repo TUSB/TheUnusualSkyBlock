@@ -1,0 +1,83 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Combat,Silverfish],Level:5}]]}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Ignore,Innore],Level:5}]]}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,SilverWarrior,Main,SpawnParticles],Level:5}]]}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,SilverTank,Main,SpawnParticles],Level:5}]]}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,SilverHealer,Main,SpawnParticles],Level:5}]]}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,SilverSorcerer,Main,SpawnParticles],Level:5}]]}"
+              }
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "dimension": "area:skylands"
+            }
+          }
+        ]
+      }
+    ]
+}
