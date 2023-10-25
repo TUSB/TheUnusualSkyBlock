@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:wither_skeleton",CustomName:'{"translate":"ウィザースケルトン＋"}',Tags:[Mob,Enemy,DelayedData,CallOnAttack,HasLootTable]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:wither_skeleton",CustomName:'{"translate":"ウィザースケルトン＋"}',Tags:[Mob,Enemy,DelayedData,CallOnAttack,HasLootTable,AnalyseLog]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {HandItems:[{id:"minecraft:stone_sword",Count:1b},{}]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 30d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.29d
@@ -21,5 +21,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.35d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"＋なんだぜー！"}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Name:"Damage",Player:{},AEC:{Effects:[{Id:2,Amplifier:2b,Duration:200},{Id:15,Amplifier:0b,Duration:200},{Id:17,Amplifier:1b,Duration:200}]}}]}
