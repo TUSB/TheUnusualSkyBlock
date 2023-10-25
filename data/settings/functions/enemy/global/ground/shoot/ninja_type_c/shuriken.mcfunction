@@ -5,6 +5,6 @@ data modify storage tusb_mob: "即時ステータス"."見た目" set value {Ite
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"%1$sは%2$sの熱鉄よって細炭となった。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Step",Speed:0.8d}],Attack:[{Name:"Damage",Player:{Damage:0d},Distance:{Max:1d},AEC:{Effects:[{Id:14,Amplifier:3b,Duration:600,ShowParticles:false}]}}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Step",Speed:0.8d}],Attack:[{Name:"Damage",Player:{Damage:0d},Distance:{Max:1d},AEC:{Effects:[{Id:14,Amplifier:7b,Duration:80,ShowParticles:false}]}}]}
 #Function
 playsound minecraft:entity.blaze.shoot hostile @a[distance=..32] ~ ~ ~ 5 0.8 0

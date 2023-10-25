@@ -20,6 +20,20 @@
         {
           "weight": 18,
           "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_fake_gravel",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "weight": 18,
+          "type": "loot_table",
           "name": "item:item/firework_star/etc/trap_spawn_03woolscaffold",
           "functions": [
             {

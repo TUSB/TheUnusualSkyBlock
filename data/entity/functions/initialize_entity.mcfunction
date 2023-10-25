@@ -4,7 +4,7 @@
 ###################################################
 
 ### 自然湧き処理
-execute if entity @s[type=#entity:natural_spawn,tag=] run function enemy:natural_spawn_condition
+execute if entity @s[type=#entity:natural_spawn,tag=] run function enemy:natural_spawn_type
 
 ### モブ召喚
 execute if entity @s[tag=Spawn] run function enemy:spawn/

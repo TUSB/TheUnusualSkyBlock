@@ -1,7 +1,7 @@
 #Function
 execute store result score _ Random run function calc:random
 #コンバット系統の種類によって以下の値を変更
-scoreboard players set _ _ 10
+scoreboard players set _ _ 14
 scoreboard players operation _ Random %= _ _
 summon armor_stand ~ ~ ~ {Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{}]]}}]}
 data modify storage mob_data: Summon set value {}
@@ -15,11 +15,12 @@ execute if score _ Random matches 6 run data modify storage mob_data: Summon.Tag
 execute if score _ Random matches 7 run data modify storage mob_data: Summon.Tags set value [Global,Ground,Blow,Combat,WitherSkeleton]
 execute if score _ Random matches 8 run data modify storage mob_data: Summon.Tags set value [Global,Ground,Blow,Combat,Vindicator]
 execute if score _ Random matches 9 run data modify storage mob_data: Summon.Tags set value [Global,Ground,Blow,Combat,SlimeMedium]
-#execute if score _ Random matches 10 run data modify storage mob_data: Summon.Tags set value [Global,Ground,Blow,Combat,Zombie]
-#execute if score _ Random matches 11 run data modify storage mob_data: Summon.Tags set value [Global,Ground,Blow,Combat,ZombieBaby]
-#execute if score _ Random matches 12 run data modify storage mob_data: Summon.Tags set value [Global,Ground,Blow,Combat,Husk]
-#execute if score _ Random matches 13 run data modify storage mob_data: Summon.Tags set value [Global,Ground,Blow,Combat,Guardian]
+execute if score _ Random matches 10 run data modify storage mob_data: Summon.Tags set value [Global,Ground,Blow,Combat,Zombie]
+execute if score _ Random matches 11 run data modify storage mob_data: Summon.Tags set value [Global,Sky,Shoot,Combat,Blaze]
+execute if score _ Random matches 12 run data modify storage mob_data: Summon.Tags set value [Global,Ground,Blow,Combat,MagmaCubeMedium]
+execute if score _ Random matches 13 run data modify storage mob_data: Summon.Tags set value [Global,Ground,Blow,Combat,Silverfish]
 #execute if score _ Random matches 14 run data modify storage mob_data: Summon.Tags set value [Global,Ground,Blow,Combat,MagmaCubeMedium]
+
 #レベルを設定
 execute store result score _ Level run scoreboard players get @s Level
 scoreboard players set _ _ 2
