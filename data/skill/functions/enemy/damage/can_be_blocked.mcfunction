@@ -1,2 +1,2 @@
 execute unless data storage score_damage: Argument{CanBeBlocked:false} run function skill:enemy/damage/is_using_shield
-execute if data storage score_damage: Argument{CanBeBlocked:false} run function score_damage:api/attack
+execute if data storage score_damage: Argument{CanBeBlocked:false} run function skill:enemy/damage/apply_to_player
