@@ -12,5 +12,5 @@ execute if entity @e[tag=EnemyProjectile,tag=CallOnAttackProjectile,distance=..3
 execute if entity @s[nbt=!{Health:0.0f}] run function makeup:enemy/projectile_hit
 #無敵時間を設定
 scoreboard players set @s ProjectileTime -10
-#トント
-execute if score @s TntCount matches 0.. run function effects:tnt/check
+#被ダメージトリガー
+function player:trigger/damage_taken
