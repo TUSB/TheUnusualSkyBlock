@@ -8,5 +8,5 @@
 #AiUtilのdistance機能に任せる
 function util:distance/
 
-scoreboard players operation _ Ret = _ AiUtil
+scoreboard players operation _ Ret = _ AiMath
 scoreboard players get _ Ret
