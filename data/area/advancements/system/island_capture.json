@@ -17,7 +17,7 @@
     "skylands.016":{"trigger":"minecraft:item_used_on_block","conditions":{"item":{"items":["minecraft:ender_eye"]},"location":{"position":{"x":-104.5,"y":13.5,"z":-703.5},"dimension":"area:skylands"}}},
     "skylands.017":{"trigger":"minecraft:item_used_on_block","conditions":{"item":{"items":["minecraft:ender_eye"]},"location":{"position":{"x":-51.5,"y":60.5,"z":-677.5},"dimension":"area:skylands"}}},
     "skylands.018":{"trigger":"minecraft:item_used_on_block","conditions":{"item":{"items":["minecraft:ender_eye"]},"location":{"position":{"x":-2.5,"y":69.5,"z":-631.5},"dimension":"area:skylands"}}},
-    "skylands.019":{"trigger":"minecraft:item_used_on_block","conditions":{"item":{"items":["minecraft:ender_eye"]},"location":{"position":{"x":101.5,"y":18.5,"z":-727.5},"dimension":"area:skylands"}}},
+    "skylands.019":{"trigger":"minecraft:item_used_on_block","conditions":{"item":{"items":["minecraft:ender_eye"]},"location":{"position":{"x":103.5,"y":20.5,"z":-727.5},"dimension":"area:skylands"}}},
     "skylands.020":{"trigger":"minecraft:item_used_on_block","conditions":{"item":{"items":["minecraft:ender_eye"]},"location":{"position":{"x":-68.5,"y":97.5,"z":-633.5},"dimension":"area:skylands"}}},
     "skylands.021":{"trigger":"minecraft:item_used_on_block","conditions":{"item":{"items":["minecraft:ender_eye"]},"location":{"position":{"x":39.5,"y":78.5,"z":-595.5},"dimension":"area:skylands"}}},
     "skylands.022":{"trigger":"minecraft:item_used_on_block","conditions":{"item":{"items":["minecraft:ender_eye"]},"location":{"position":{"x":66.5,"y":51.5,"z":-536.5},"dimension":"area:skylands"}}},
