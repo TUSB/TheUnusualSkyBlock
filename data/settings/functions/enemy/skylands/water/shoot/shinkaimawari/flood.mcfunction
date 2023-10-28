@@ -6,10 +6,4 @@ execute as @a[gamemode=survival,tag=NowTarget] at @s run fill ~ ~ ~ ~ ~4 ~ water
 playsound minecraft:entity.fish.swim hostile @a[tag=NowTarget] ~ ~ ~ 1 0
 playsound minecraft:entity.player.swim hostile @a[tag=NowTarget] ~ ~ ~ 0.7 0
 playsound minecraft:entity.player.swim hostile @a[tag=NowTarget] ~ ~ ~ 0.7 0.5
-effect clear @a[tag=NowTarget] water_breathing
-effect clear @a[tag=NowTarget] night_vision
-effect clear @a[tag=NowTarget] dolphins_grace
-effect clear @a[tag=NowTarget] conduit_power
-effect clear @a[tag=NowTarget] haste
-effect clear @a[tag=NowTarget] resistance
 tag @a[tag=NowTarget] remove NowTarget
