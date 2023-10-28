@@ -255,6 +255,17 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 13,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Shoot,Shotzo,Main,SpawnParticles],Level:10}],[{Tags:[Global,Ground,Shoot,Shotzo,Battery],Level:10},{Tags:[Global,Ground,Shoot,Shotzo,Base],Level:10}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 50,
           "name": "minecraft:stick",
           "functions": [
@@ -1143,6 +1154,17 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Combat,Vindicator],Level:8}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 13,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Shoot,Shotzo,Main,SpawnParticles],Level:10}],[{Tags:[Global,Ground,Shoot,Shotzo,Battery],Level:10},{Tags:[Global,Ground,Shoot,Shotzo,Base],Level:10}]]}"
             }
           ]
         },
