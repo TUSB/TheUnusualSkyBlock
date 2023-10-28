@@ -16,10 +16,8 @@ execute if score _ Random matches 7 run data modify storage mob_data: Summon.Tag
 execute if score _ Random matches 8 run data modify storage mob_data: Summon.Tags set value [Global,Ground,Blow,Combat,Vindicator]
 execute if score _ Random matches 9 run data modify storage mob_data: Summon.Tags set value [Global,Ground,Blow,Combat,SlimeMedium]
 execute if score _ Random matches 10 run data modify storage mob_data: Summon.Tags set value [Global,Ground,Blow,Combat,Zombie]
-execute if score _ Random matches 11 run data modify storage mob_data: Summon.Tags set value [Global,Sky,Shoot,Combat,Blaze]
-execute if score _ Random matches 12 run data modify storage mob_data: Summon.Tags set value [Global,Ground,Blow,Combat,MagmaCubeMedium]
-execute if score _ Random matches 13 run data modify storage mob_data: Summon.Tags set value [Global,Ground,Blow,Combat,Silverfish]
-#execute if score _ Random matches 14 run data modify storage mob_data: Summon.Tags set value [Global,Ground,Blow,Combat,MagmaCubeMedium]
+execute if score _ Random matches 11 run data modify storage mob_data: Summon.Tags set value [Global,Ground,Blow,Combat,MagmaCubeMedium]
+execute if score _ Random matches 12 run data modify storage mob_data: Summon.Tags set value [Global,Ground,Blow,Combat,Silverfish]
 
 #レベルを設定
 execute store result score _ Level run scoreboard players get @s Level
