@@ -196,12 +196,35 @@
         {
           "weight": 2,
           "type": "minecraft:item",
-          "name": "minecraft:jungle_leaves"
+          "name": "minecraft:jungle_leaves",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
         },
         {
           "weight": 2,
           "type": "minecraft:item",
           "name": "minecraft:echo_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "weight": 2,
+          "type": "minecraft:item",
+          "name": "minecraft:sea_lantern",
           "functions": [
             {
               "function": "minecraft:set_count",

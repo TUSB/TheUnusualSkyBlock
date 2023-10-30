@@ -66,16 +66,6 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/leather_leggings/cosmo_shadow_l"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/leather_leggings/cosmo_photon_l"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
           "name": "item:item/leather_chestplate/cosmo_shadow_c"
         },
         {
@@ -92,6 +82,16 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/leather_helmet/cosmo_photon_h"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_leggings/cosmo_shadow_l"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_leggings/cosmo_photon_l"
         },
         {
           "weight": 1,
