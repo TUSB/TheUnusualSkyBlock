@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:slime",Tags:[Mob,Enemy,DelayedData,CallOnDeath,CallOnTimeOut,CallOnAttack,TickingRequired,HasLootTable,AnalyseLog,NoLootTableAdd],CustomName:'{"translate":"コンバットスライム"}',Size:7,PortalCooldown:3000}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:slime",Tags:[Mob,Enemy,DelayedData,CallOnDeath,CallOnTimeOut,CallOnAttack,TickingRequired,HasLootTable,AnalyseLog,NoLootTableAdd],CustomName:'{"translate":"コンバットスライム"}',Size:5,PortalCooldown:3000}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 32d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.1d
