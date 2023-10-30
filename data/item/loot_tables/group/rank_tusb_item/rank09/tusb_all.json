@@ -56,6 +56,46 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/leather_boots/cosmo_shadow_b"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_boots/cosmo_photon_b"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_leggings/cosmo_shadow_l"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_leggings/cosmo_photon_l"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_chestplate/cosmo_shadow_c"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_chestplate/cosmo_photon_c"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_helmet/cosmo_shadow_h"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/leather_helmet/cosmo_photon_h"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/netherite_boots/infinity_netherite_b"
         },
         {
