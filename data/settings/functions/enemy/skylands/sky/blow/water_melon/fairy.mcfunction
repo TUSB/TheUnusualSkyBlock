@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:vex",CustomName:'{"translate":"スイカの妖精","color":"#FFFFFF","bold":true}',PortalCooldown:6000,Tags:[Mob,Enemy,DelayedData,HasAI,CallOnInit,CallOnAttack,TickingRequired,HasLootTable]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:vex",CustomName:'{"translate":"スイカの妖精","color":"#FFFFFF","bold":true}',PersistenceRequired:1b,PortalCooldown:6000,Tags:[Mob,Enemy,DelayedData,HasAI,CallOnInit,CallOnAttack,TickingRequired,HasLootTable]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {HandItems:[{id:"minecraft:melon",Count:1b},{id:"minecraft:melon",Count:1b}],HandDropChances:[-1E40f,-1E40f]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 48d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.3d
