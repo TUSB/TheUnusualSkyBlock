@@ -1,6 +1,8 @@
 execute if entity @s[tag=CommonExe] run function settings:enemy/global/event/function/common_exe/
 execute if entity @s[tag=SynchronizeHead] run function settings:enemy/global/event/function/synchronize_head
 execute if entity @s[tag=KillGenocide] run function settings:enemy/global/event/function/kill_genocide
+execute if entity @s[tag=ForgetTarget] run function settings:enemy/global/event/function/forget_target
+execute if entity @s[tag=RecordTarget] run function settings:enemy/global/event/function/record_target
 execute if entity @s[tag=HomingTest] run function settings:enemy/global/event/function/homing_test
 execute if entity @s[tag=DismountUpper] run function settings:enemy/global/event/function/dismount_upper
 execute if entity @s[tag=KillUpper] run function settings:enemy/global/event/function/kill_upper
