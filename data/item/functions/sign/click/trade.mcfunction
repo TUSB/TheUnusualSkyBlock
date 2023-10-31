@@ -21,4 +21,4 @@
 
 # 演出分岐
     execute unless score _ Calc matches 0 run function makeup:item/sign/trade/success
-    execute if score _ Calc matches 0 run function makeup:item/sign/trade/false
+    execute if score _ Calc matches 0 run function makeup:item/sign/trade/fail

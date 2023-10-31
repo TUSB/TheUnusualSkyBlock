@@ -1,4 +1,4 @@
-#> makeup:item/sign/trade/false
+#> makeup:item/sign/trade/fail
 #
 # トレード失敗時
 #
