@@ -12,6 +12,10 @@
         "soul_sand",
         "podzol",
         "cobweb",
-        "coarse_dirt"
+        "coarse_dirt",
+        "snow_block",
+        "quartz_block",
+        "gray_wool",
+        "andesite"
     ]
 }

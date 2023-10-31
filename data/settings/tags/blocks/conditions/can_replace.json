@@ -7,6 +7,10 @@
         "grass_block",
         "stone",
         "cobblestone",
-        "white_wool"
+        "white_wool",
+        "snow_block",
+        "quartz_block",
+        "gray_wool",
+        "andesite"
     ]
 }
