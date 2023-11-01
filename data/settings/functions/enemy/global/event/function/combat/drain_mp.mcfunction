@@ -13,6 +13,7 @@ scoreboard players operation @a[tag=Target,limit=1] MP -= _ _
 scoreboard players set _ _ 0
 scoreboard players operation @a[tag=Target,limit=1] MP > _ _
 
+## 演出
 particle minecraft:reverse_portal ~ ~1 ~ 0.5 0.5 0.5 0.1 100 normal
 execute as @a[tag=Target,limit=1] at @s run particle minecraft:reverse_portal ~ ~1 ~ 0.5 0.5 0.5 0.1 100 normal
 execute as @a[tag=Target,limit=1] at @s run playsound entity.witch.drink hostile @s ~ ~ ~ 1.0 1.0

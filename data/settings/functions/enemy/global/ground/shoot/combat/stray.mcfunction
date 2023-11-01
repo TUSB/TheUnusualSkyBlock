@@ -1,6 +1,6 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:stray",CustomName:'{"translate":"コンバットストレイ"}',PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,CallOnAttack,TickingRequired,HasLootTable,AnalyseLog]}
-data modify storage tusb_mob: "即時ステータス"."見た目" set value {HandItems:[{id:"minecraft:bow",Count:1b},{}],HandDropChances:[-1E300f,-1E300f]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:stray",CustomName:'{"translate":"コンバットストレイ"}',HandDropChances:[-1E300f,-1E300f],PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,CallOnAttack,TickingRequired,HasLootTable,AnalyseLog]}
+data modify storage tusb_mob: "即時ステータス"."見た目" set value {HandItems:[{id:"minecraft:bow",Count:1b},{}]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 32d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.3d
 data modify storage tusb_mob: "即時ステータス"."ノックバック耐性" set value 0d
