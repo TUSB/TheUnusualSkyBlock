@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:phantom",PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,CallOnInit,CooldownRequired,HasLootTable,AnalyseLog]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:phantom",CustomName:'{"translate":"ファンボム","color":"#FFFFFF","bold":true}',Size:3,PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,CallOnInit,TickingRequired,HasLootTable,AnalyseLog]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 64d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.28d

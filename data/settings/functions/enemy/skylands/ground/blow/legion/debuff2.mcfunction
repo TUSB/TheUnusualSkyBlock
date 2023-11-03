@@ -6,7 +6,7 @@
     scoreboard players set _ _ 100
     scoreboard players operation _ MP *= @s MPMax
     scoreboard players operation _ MP /= _ _
-    execute unless score @s MP > _ MP run scoreboard players set @s MP 0
+    execute unless score @s MP > _ MP run scoreboard players set @s MP 0
     execute if score @s MP > _ MP run scoreboard players operation @s MP -= _ MP
 # MPアクセラを無効化
     scoreboard players set @s MPAcceleration -600
