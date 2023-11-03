@@ -20,6 +20,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"標準的なウィザースケルトンです。"}]'
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"健康的なウィザースケルトンです。黒くなったのは火焼けのおかげ。"}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Death:[{Name:"Function",Tags:[Global,Event,Function,Combat,WitherSkull]},{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Sky,Bullet,Combat,WitherSkull],Level:1}]],Count:1,Settings:[{Name:"Anchor",Anchor:Eyes}]}]}

@@ -3,6 +3,7 @@ execute if entity @s[tag=GlassBreak] run function settings:enemy/global/event/fu
 execute if entity @s[tag=Teleport] run function settings:enemy/global/event/function/attack_sound/teleport
 execute if entity @s[tag=FiringLaser] run function settings:enemy/global/event/function/attack_sound/firing_laser
 execute if entity @s[tag=ThrownBeing] run function settings:enemy/global/event/function/attack_sound/thrown_being
+execute if entity @s[tag=Equiping] run function settings:enemy/global/event/function/attack_sound/equiping
 execute if entity @s[tag=Explosion] run function settings:enemy/global/event/function/attack_sound/explosion
 execute if entity @s[tag=FireworkLaunch] run function settings:enemy/global/event/function/attack_sound/firework_launch
 execute if entity @s[tag=Warning] run function settings:enemy/global/event/function/attack_sound/warning
