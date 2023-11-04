@@ -18,3 +18,6 @@ execute in area:skylands positioned 39 318 -557 if entity @a[distance=..10] run 
 
 ### 通常世界 エンダーチェスト島
 execute in area:skylands positioned 67 110 -718 if entity @a[distance=..30] run function area:system/skylands/enderchest
+
+### エンティティ数カウント
+function entity:count/

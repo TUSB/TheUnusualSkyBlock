@@ -10,6 +10,7 @@ gamerule forgiveDeadPlayers false
 gamerule universalAnger true
 time set 14000
 gamerule doDaylightCycle false
+gamerule maxCommandChainLength 2147483647
 
 ###ステータス
 scoreboard objectives add Level dummy {"text":"レベル"}
