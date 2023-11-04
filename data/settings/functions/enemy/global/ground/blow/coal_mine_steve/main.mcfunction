@@ -23,4 +23,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法�
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier3/common",Count:1,Chance:0.35d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"ヒャッハー！ 掘るより奪った方が早いぜぇぇ！"}]'
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Condition:[{Name:"MP",MP:5}],Name:"ChangeStatus",Defense:{Add:10,Limit:300},SpecialDefense:{Add:10,Limit:300}},{Condition:[{Name:"MinMP",MP:5}],Name:"Function",Tags:[Global,Ground,Blow,CoalMineSteve,ParticleAndSound]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Position:Source,Settings:[{Name:"As",Target:{Look:"Self"}},{Name:"At",Target:{Look:"Self"}},{Name:"Anchor",Anchor:"Eyes"}],Condition:[{Name:"MP",MP:5}],Name:"ChangeStatus",Defense:{Add:600,Limit:6000},SpecialDefense:{Add:600,Limit:6000}},{Condition:[{Name:"MinMP",MP:5}],Name:"Function",Tags:[Global,Ground,Blow,CoalMineSteve,ParticleAndSound]}]}

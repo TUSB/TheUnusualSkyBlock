@@ -101,6 +101,17 @@
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Cloudia,Sky,Shoot,Phanbomb,Main],Level:25}],[{Tags:[Cloudia,Sky,Shoot,Phanbomb,ThrowBomb],Level:25}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 100,
           "name": "minecraft:stick",
           "functions": [
@@ -1014,6 +1025,17 @@
     {
       "rolls": 1,
       "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 10,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Cloudia,Sky,Shoot,Phanbomb,Main],Level:25}],[{Tags:[Cloudia,Sky,Shoot,Phanbomb,ThrowBomb],Level:25}]]}"
+            }
+          ]
+        },
         {
           "type": "minecraft:item",
           "weight": 100,

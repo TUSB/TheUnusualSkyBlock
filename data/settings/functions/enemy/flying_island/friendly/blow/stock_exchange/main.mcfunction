@@ -3,4 +3,4 @@ data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {ArmorItems:[{},{},{},{id:"minecraft:bread",Count:1b,tag:{CustomModelData:1}}],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f]}
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"ソラカブは寝かせすぎると腐るよ。ちゃんと売れる時に売ろうね！"}]'
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:300,Max:450,Current:2},Loop:{Max:1,Current:1},Call:[{Name:"Function",Tags:[FlyingIsland,Friendly,Blow,StockExchange,ExitExchange]}]},{Interval:{Min:5,Max:5,Current:2},Loop:{Max:1,Current:1},Call:[{Name:"Function",Tags:[FlyingIsland,Friendly,Blow,StockExchange,Update]}]}]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:250,Max:400,Current:2},Loop:{Max:1,Current:1},Call:[{Name:"Function",Tags:[Global,Event,Function,ExitExchange]}]},{Interval:{Min:5,Max:5,Current:2},Loop:{Max:1,Current:1},Call:[{Name:"Function",Tags:[FlyingIsland,Friendly,Blow,StockExchange,Update]}]}]}]}

@@ -4,9 +4,39 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 1,
+          "weight": 50,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/player_head/knight_head"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/player_head/ninja_head"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/player_head/hunter_head"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/player_head/white_mage_head"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/player_head/black_mage_head"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/player_head/summoner_head"
         }
       ]
     }
