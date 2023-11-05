@@ -9,7 +9,7 @@
           "name": "item:group/fishing/windswept_gravelly_hills/bad_items"
         },
         {
-          "weight": 3,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:group/fishing/windswept_gravelly_hills/lucky_items"
         }

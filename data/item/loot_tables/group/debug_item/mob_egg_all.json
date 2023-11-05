@@ -505,7 +505,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"flying_island 下層の安山岩？ Lv9\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[FlyingIsland,Ground,Blow,FakeAndesite,Body],Level:9}],[{Tags:[FlyingIsland,Ground,Blow,FakeAndesite,Display],Level:9}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"flying_island 下層の安山岩もどき Lv9\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[FlyingIsland,Ground,Blow,FakeAndesite,Body],Level:9}],[{Tags:[FlyingIsland,Ground,Blow,FakeAndesite,Display],Level:9}]]}}]}}"
             }
           ]
         },
@@ -516,7 +516,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"flying_island 下層の石レンガ？ Lv13\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[FlyingIsland,Ground,Blow,FakeStonebrick,Body],Level:13}],[{Tags:[FlyingIsland,Ground,Blow,FakeStonebrick,Display],Level:13}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"flying_island 下層の石レンガもどき Lv13\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[FlyingIsland,Ground,Blow,FakeStonebrick,Body],Level:13}],[{Tags:[FlyingIsland,Ground,Blow,FakeStonebrick,Display],Level:13}]]}}]}}"
             }
           ]
         },

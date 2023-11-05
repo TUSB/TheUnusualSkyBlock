@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 50,
+          "weight": 10,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/bug_memory_star"
         },
