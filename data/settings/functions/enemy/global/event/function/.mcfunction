@@ -9,7 +9,6 @@ execute if entity @s[tag=DismountUpper] run function settings:enemy/global/event
 execute if entity @s[tag=KillUpper] run function settings:enemy/global/event/function/kill_upper
 execute if entity @s[tag=Lightningbolt] run function settings:enemy/global/event/function/lightningbolt
 execute if entity @s[tag=Dismount] run function settings:enemy/global/event/function/dismount
-execute if entity @s[tag=FakeTnt] run function settings:enemy/global/event/function/fake_tnt/
 execute if entity @s[tag=RotateArmor] run function settings:enemy/global/event/function/rotate_armor/
 execute if entity @s[tag=Combat] run function settings:enemy/global/event/function/combat/
 execute if entity @s[tag=DamageSound] run function settings:enemy/global/event/function/damage_sound/

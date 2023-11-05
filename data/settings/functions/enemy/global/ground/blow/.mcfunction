@@ -1,5 +1,4 @@
 execute if entity @s[tag=CreeperSummoner] run function settings:enemy/global/ground/blow/creeper_summoner/
-execute if entity @s[tag=FakeTnt] run function settings:enemy/global/ground/blow/fake_tnt/
 execute if entity @s[tag=GlitteringSheepMan] run function settings:enemy/global/ground/blow/glittering_sheep_man/
 execute if entity @s[tag=PoyonPoyonCreeper] run function settings:enemy/global/ground/blow/poyon_poyon_creeper/
 execute if entity @s[tag=IceCreeper] run function settings:enemy/global/ground/blow/ice_creeper/
