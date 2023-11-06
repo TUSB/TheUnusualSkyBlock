@@ -12,7 +12,8 @@ execute if predicate player:is_holding_chestplate run function item:sign/soul_se
 execute if predicate player:is_holding_helmet run function item:sign/soul_series/apply_to/helmet
 
 data modify storage item: Item.tag.AttributeModifiers append from storage item: Soul.Attributes[]
-data modify storage item: Item.tag.ApplyedSoul set value "白魔道士"
+data modify storage item: Item.tag.ApplyedSoul set value "白魔導士"
+data modify storage item: Item.tag.display.Lore insert 0 value '[{"translate":"魂 : ","color":"white","italic":"false"},{"translate":"白魔導士","color":"white","italic":"false"}]'
 
 ## 付与
 item modify entity @s weapon.mainhand item:storage/item
