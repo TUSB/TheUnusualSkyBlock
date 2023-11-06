@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magma_cube_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:27,EntityTag:{Tags:[Sign,Birch],Silent:1b,Size:0b,DeathLootTable:\"item:item/magma_cube_spawn_egg/sign/black_mage_soul\",ArmorItems:[{id:\"minecraft:stone\",Count:1b,tag:{Data:{Text2:'{\"translate\":\"付          与\",\"color\":\"blue\",\"bold\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"function item:sign/click/black_mage_soul\"}}}',Text4:'{\"text\":\"㉖\",\"font\":\"sign\",\"color\":\"white\"}'}}},{},{},{}]},display:{Name:'[{\"translate\":\"黒魔導士\",\"color\":\"blue\",\"bold\":true,\"italic\":false},{\"translate\":\"の魂\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false}]',Lore:['{\"translate\":\"手に持ったアイテムに黒魔導士の魂を刻む。\",\"color\":\"white\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

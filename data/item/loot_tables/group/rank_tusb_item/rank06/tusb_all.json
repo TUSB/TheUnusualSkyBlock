@@ -211,6 +211,36 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/knight_soul"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/ninja_soul"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/hunter_soul"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/white_mage_soul"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/black_mage_soul"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/summoner_soul"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/shield/enderman_shield"
         },
         {
