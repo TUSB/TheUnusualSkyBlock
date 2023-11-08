@@ -1,3 +1,5 @@
+execute if data storage skill: Skill{Name:"サモンSるなちー",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"サモンSるなちー",Level:1}]
+execute if data storage skill: Skill{Name:"サモンPゴーレム",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"サモンPゴーレム",Level:1}]
 execute if data storage skill: Skill{Name:"カロリー爆弾",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"カロリー爆弾",Level:1}]
 execute if data storage skill: Skill{Name:"飛空島周回券",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"飛空島周回券",Level:1}]
 execute if data storage skill: Skill{Name:"デバリア",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"デバリア",Level:1}]
@@ -65,7 +67,6 @@ execute if data storage skill: Skill{Name:"免疫",Level:1} run data modify stor
 execute if data storage skill: Skill{Name:"免疫",Level:2} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"免疫",Level:2}]
 execute if data storage skill: Skill{Name:"免疫",Level:3} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"免疫",Level:3}]
 execute if data storage skill: Skill{Name:"免疫",Level:4} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"免疫",Level:4}]
-execute if data storage skill: Skill{Name:"サモンPゴーレム",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"サモンPゴーレム",Level:1}]
 execute if data storage skill: Skill{Name:"解呪の祝福",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"解呪の祝福",Level:1}]
 execute if data storage skill: Skill{Name:"万能薬",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"万能薬",Level:1}]
 execute if data storage skill: Skill{Name:"神酒",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"神酒",Level:1}]

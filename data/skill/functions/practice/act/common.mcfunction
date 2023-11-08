@@ -1,3 +1,5 @@
+execute if data storage skill: Skill{Name:"サモンSるなちー"} run function skill:act/common/summon_lunatic_eye/act0
+execute if data storage skill: Skill{Name:"サモンPゴーレム"} run function skill:act/common/summon_iron_golem/act0
 execute if data storage skill: Skill{Name:"カロリー爆弾"} run function skill:act/common/calorie_bomb/act0
 execute if data storage skill: Skill{Name:"飛空島周回券"} run function skill:act/common/flying_island_tour_ticket/act0
 execute if data storage skill: Skill{Name:"デバリア"} run function skill:act/common/debarrier/act0
@@ -45,7 +47,6 @@ execute if data storage skill: Skill{Name:"範囲MP回復"} run function skill:a
 execute if data storage skill: Skill{Name:"キュアフィールド"} run function skill:act/common/cure_field/act0
 execute if data storage skill: Skill{Name:"HPMP割合回復"} run function skill:act/common/hpmp_percentage_recovery/act0
 execute if data storage skill: Skill{Name:"免疫"} run function skill:act/common/immunity/act0
-execute if data storage skill: Skill{Name:"サモンPゴーレム"} run function skill:act/common/summon_iron_golem/act0
 execute if data storage skill: Skill{Name:"解呪の祝福"} run function skill:act/common/blessing_of_dispelling/act0
 execute if data storage skill: Skill{Name:"万能薬"} run function skill:act/common/panacea/act0
 execute if data storage skill: Skill{Name:"神酒"} run function skill:act/common/sacred_wine_or_sake/act0

@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"translate\":\"✡\",\"color\":\"light_purple\",\"bold\":true,\"obfuscated\":false,\"italic\":false},{\"translate\":\"狂気の杖\",\"color\":\"#D494FF\",\"bold\":true,\"obfuscated\":false,\"italic\":false},{\"translate\":\"✡\",\"color\":\"light_purple\",\"bold\":true,\"obfuscated\":false,\"italic\":false}]',Lore:['[{\"text\":\"❖ \",\"color\":\"3\",\"italic\":false},{\"translate\":\"%1$s%2$s(VI)\",\"color\":\"white\",\"with\":[{\"translate\":\"純化の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"狂気の力が封じ込められた杖\",\"color\":\"#D28FFF\",\"italic\":false}','{\"translate\":\"かつてのライバルが君に力を貸してくれるだろう\",\"color\":\"#D28FFF\",\"italic\":false}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" サモンS：るなちー\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Engraving:{EnchantID:\"純化\",Tier:6},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"サモンSるなちー\",Level:1,Interval:400,Trigger:\"手に持って右クリック\",Count:128},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:0.16d,Operation:1,UUID:[I;11,0,0,11],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:0.6d,Operation:0,UUID:[I;11,0,0,20],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:66d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:-0.16d,Operation:1,UUID:[I;11,0,0,51],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:0.06d,Operation:1,UUID:[I;11,0,0,61],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"カスタム\",Amount:0.06d,Operation:1,UUID:[I;11,0,0,71],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"デフォルト\",Amount:1.2,Operation:0,UUID:[I;11,0,1,50],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

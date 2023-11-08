@@ -96,11 +96,6 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/estrella"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/flying_island_ticket"
         },
         {
@@ -192,6 +187,11 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/sapling_chance_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/estrella"
         },
         {
           "weight": 1,
@@ -991,12 +991,12 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/written_book/synthesis_guide"
+          "name": "item:item/written_book/meaning_of_color_name"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/written_book/meaning_of_color_name"
+          "name": "item:item/written_book/synthesis_guide"
         }
       ]
     }
