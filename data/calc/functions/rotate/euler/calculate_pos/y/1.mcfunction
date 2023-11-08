@@ -3,9 +3,9 @@
 scoreboard players set $Add _ 0
 
 ## - 1/2 sin(Y-Z)
-execute store result score $Add _ run data get storage calc: Rotate.Triangle.Y-Z.[0] -500
+execute store result score $Add _ run data get storage calc: Rotate.Euler.Triangle.Y-Z.[0] -500
 scoreboard players operation $Pos-Y-X _ += $Add _
 
 ## + 1/2 sin(Y+Z)
-execute store result score $Add _ run data get storage calc: Rotate.Triangle.Y+Z.[0] 500
+execute store result score $Add _ run data get storage calc: Rotate.Euler.Triangle.Y+Z.[0] 500
 scoreboard players operation $Pos-Y-X _ += $Add _

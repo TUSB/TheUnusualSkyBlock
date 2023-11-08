@@ -8,9 +8,9 @@
 ## X+Y-Z X-Y+Z
 
 ## X,Y,Zを取得
-execute store result score $X _ run data get storage calc: Rotate.Angle[0]
-execute store result score $Y _ run data get storage calc: Rotate.Angle[1]
-execute store result score $Z _ run data get storage calc: Rotate.Angle[2]
+execute store result score $X _ run data get storage calc: Rotate.Euler.Angle[0]
+execute store result score $Y _ run data get storage calc: Rotate.Euler.Angle[1]
+execute store result score $Z _ run data get storage calc: Rotate.Euler.Angle[2]
 
 
 ## X+Yを取得
