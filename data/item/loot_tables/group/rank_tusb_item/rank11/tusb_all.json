@@ -981,11 +981,6 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/warped_fungus_on_a_stick/safety_first"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/block/portal"
         },
         {

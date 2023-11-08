@@ -1,3 +1,4 @@
+execute if data storage skill: Skill{Name:"爆弾解除"} run function skill:act/common/bomb_defuse/act0
 execute if data storage skill: Skill{Name:"サモンSるなちー"} run function skill:act/common/summon_lunatic_eye/act0
 execute if data storage skill: Skill{Name:"サモンPゴーレム"} run function skill:act/common/summon_iron_golem/act0
 execute if data storage skill: Skill{Name:"カロリー爆弾"} run function skill:act/common/calorie_bomb/act0
