@@ -1,0 +1,1 @@
+playsound minecraft:entity.cat.ambient voice @a[distance=..7] ~ ~ ~ 1 1
