@@ -17,3 +17,5 @@
 # レベルを合わせる
     scoreboard players operation _ Level = @s Level
     execute positioned ~ ~1 ~ as @e[tag=Spawn,tag=!CallSpawned,distance=..0.01] run scoreboard players operation @s Level = _ Level
+
+    function makeup:skill/act/summoner/summon_element_pixely/act1
