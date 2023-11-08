@@ -4,7 +4,7 @@ execute if data storage skill: Skill{Name:"サモンPサーヴァント"} run fu
 execute if data storage skill: Skill{Name:"サモンBエンダーチェスト"} run function skill:act/summoner/summon_ender_chest/act0
 execute if data storage skill: Skill{Name:"コールCエンハンス"} run function skill:act/summoner/call_crystal_enhance/act0
 execute if data storage skill: Skill{Name:"ぽむぽむ花火"} run function skill:act/summoner/pompom/act0
-execute if data storage skill: Skill{Name:"サモンPゴーレム"} run function skill:act/summoner/summon_iron_golem/act0
+execute if data storage skill: Skill{Name:"サモンPエレメントピクセリー"} run function skill:act/summoner/summon_element_pixely/act0
 execute if data storage skill: Skill{Name:"サモンEマーチャント"} run function skill:act/summoner/summon_merchant/act0
 execute if data storage skill: Skill{Name:"コールCマジック"} run function skill:act/summoner/call_crystal_attack/act0
 execute if data storage skill: Skill{Name:"つんつん"} run function skill:act/summoner/tsuntsun/act0
