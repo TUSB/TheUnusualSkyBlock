@@ -16,5 +16,8 @@ execute if data storage skill: {Success:true} if score _ MP matches 1.. run scor
 #怪しい粉補正
 execute unless data storage skill: {Success:true} if score @s SuspiciousPowderTime matches 1.. run function skill:act/common/suspicious_powder/use_skill1
 
+# 職業変更制限反映
+execute if score @s ChangeJobLock matches ..0 store result score @s ChangeJobLock run time query gametime
+
 #MPバー反映
 function player:mp_bar/set
