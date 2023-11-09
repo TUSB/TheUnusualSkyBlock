@@ -1,5 +1,11 @@
 
 #時間表示
+execute store result score _ ChangeJobLock run time query gametime
+scoreboard players operation _ ChangeJobLock -= @s ChangeJobLock
+scoreboard players set _ _ -1200
+scoreboard players operation _ ChangeJobLock /= _ _
+scoreboard players add _ ChangeJobLock 60
+scoreboard players operation @s ChangeJobLock >< _ ChangeJobLock
 
 execute if score @s ChangeJobLock matches ..0 run tellraw @s ["\n",{"translate":"・職業変更"}," | ",{"translate":"スキルを使用すると 1時間の変更制限がかかります。"},"\n"]
 execute if score @s ChangeJobLock matches 1.. run tellraw @s ["\n",{"translate":"・職業変更"}," | ",{"translate":"変更制限:残り %1$s分","with":[{"score":{"name":"@s","objective":"ChangeJobLock"}}]},"\n"]
@@ -54,3 +60,5 @@ execute if score @s ChangeJobLock matches 1.. run tellraw @s ["",{"text":" < "},
 
 # 改行
 tellraw @s ""
+
+execute if score @s ChangeJobLock matches 1.. run scoreboard players operation @s ChangeJobLock >< _ ChangeJobLock
