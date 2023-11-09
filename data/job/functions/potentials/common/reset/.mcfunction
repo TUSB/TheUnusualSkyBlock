@@ -5,7 +5,7 @@
 function job:status/cp_reset
 
 #割り振り制限
-scoreboard players set @s PotentialLock 60
+execute if score @s PotentialLock matches ..0 store result score @s PotentialLock run time query gametime
 
 #表示
 tellraw @s [""]
