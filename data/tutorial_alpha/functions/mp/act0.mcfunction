@@ -1,3 +1,3 @@
-tellraw @a[distance=..7] {"translate":"[チュートリアル：MP]\n%1$s","bold":true,"with":[{"translate":"スキルを使うために必要な%1$s。\n%2$sに表示される。\nスキルを使わない時間が長いほど\n%3$sする。\n%4$sにはMPの回復が%5$s。","color":"white","bold":false,"with":[{"translate":"魔法の力","color":"blue"},{"translate":"経験値バー","color":"yellow"},{"translate":"回復速度が増加","color":"aqua"},{"translate":"空腹時","color":"red"},{"translate":"止まってしまう","color":"red"}]}]}
+tellraw @a[distance=..7] ["",{"translate":"[チュートリアル：%1$s]","bold":true,"with":[{"translate":"MP"}]},"\n",{"translate":"スキルを使うために必要な%1$s。\n%2$sに表示される。\nスキルを使わない時間が長いほど\n%3$sする。\n%4$sにはMPの回復が%5$s。","color":"white","with":[{"translate":"魔法の力","color":"blue"},{"translate":"経験値バー","color":"yellow"},{"translate":"回復速度が増加","color":"aqua"},{"translate":"空腹時","color":"red"},{"translate":"止まってしまう","color":"red"}]}]
 
 function makeup:tutorial_alpha/sound
