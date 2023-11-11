@@ -6,7 +6,7 @@ tag @a[scores={OhMyDatID=0}] add Target
 scoreboard players operation * OhMyDatID += _ _
 
 scoreboard players operation _ _ = @s SpecialAttack
-scoreboard players set _ Calc 10
+scoreboard players set _ Calc 7
 scoreboard players operation _ _ /= _ Calc
 scoreboard players add _ _ 1
 scoreboard players operation @a[tag=Target,limit=1] MP -= _ _
