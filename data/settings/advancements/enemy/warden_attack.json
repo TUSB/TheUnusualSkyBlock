@@ -1,0 +1,18 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "damage": {
+            "blocked": false,
+            "source_entity": {
+              "nbt": "{Tags:[AssaultWarden]}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "settings:enemy/global/ground/shoot/assault_warden/attack"
+    }
+  }

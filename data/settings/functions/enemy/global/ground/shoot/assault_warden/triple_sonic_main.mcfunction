@@ -1,0 +1,8 @@
+### 即時ステータス
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:item_display",CustomName:'[{"translate":"t","color":"#440066","obfuscated":true},{"translate":"u","color":"#53007D","obfuscated":true},{"translate":"s","color":"#68009C","obfuscated":true},{"translate":"b","color":"#8300C4","obfuscated":true},{"translate":"トリプルソニックブーム","color":"#AA00FF","bold":true,"obfuscated":false},{"translate":"b","color":"#8300C4","obfuscated":true},{"translate":"s","color":"#68009C","obfuscated":true},{"translate":"u","color":"#53007D","obfuscated":true},{"translate":"t","color":"#440066","obfuscated":true}]',billboard:"center",Tags:[DelayedData,HasAI,CallOnInit]}
+data modify storage tusb_mob: "即時ステータス"."見た目" set value {item:{id:"minecraft:firework_star",Count:1b,tag:{CustomModelData:151,Explosion:{Type:0,Colors:[I;2739711]}}}}
+### 遅延ステータス
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 200
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 200
+# AI
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Function",Tags:[Global,Ground,Shoot,AssaultWarden,TripleSonicInit]},{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:32d,IgnoreBlocks:true},Anchor:"Eyes"}],Name:"Function",Tags:[Global,Event,Function,CommonExe,TpWithXRotation]}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:1,Max:1,Current:1},Loop:{Max:21,Current:21},Call:[{Name:"Function",Tags:[Global,Ground,Shoot,AssaultWarden,TripleSonicParticle1]}]},{Interval:{Min:1,Max:1,Current:1},Loop:{Max:1,Current:1},Call:[{Name:"Function",Tags:[Global,Ground,Shoot,AssaultWarden,TripleSonicAttack1]},{Name:"Kill"}]}]}]}
