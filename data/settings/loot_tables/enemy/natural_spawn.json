@@ -585,6 +585,17 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Underworld,Ground,Blow,Puclme,Main,SpawnParticles],Level:18}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 50,
           "name": "minecraft:stick",
           "functions": [
@@ -1517,6 +1528,17 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Summon,BlackTeleportPot,Main,SpawnParticles],Level:100}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 40,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Underworld,Ground,Blow,Puclme,Main,SpawnParticles],Level:18}]]}"
             }
           ]
         },

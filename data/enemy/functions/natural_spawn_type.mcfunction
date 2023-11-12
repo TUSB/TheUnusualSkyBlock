@@ -6,3 +6,4 @@
 
 execute if entity @s[type=creeper] run function enemy:natural_spawn_condition
 execute if entity @s[type=silverfish] run function enemy:silverfish_spawn/condition
+execute if entity @s[type=warden] run function enemy:warden_spawn/condition
