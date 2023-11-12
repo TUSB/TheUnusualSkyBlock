@@ -20,6 +20,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"標準的なハスクです。"}]'
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"オデ、オマエノマリョク、クウ、オデ、カイフクスル。"}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Name:"Function",Tags:[Global,Event,Function,RecordTarget]},{Name:"ChangeTurn",Set:2}],TurnCount:2,Turn:[{Index:1,Skill:[{Interval:{Min:1,Max:1,Current:1},Call:[{}]}]},{Index:2,Skill:[{Interval:{Min:15,Max:20,Current:30},Loop:{Max:3,Current:3},Call:[{Name:"Function",Tags:[Global,Event,Function,Combat,DrainMp]},{Name:"Heal",Range:1d,Multiplier:1.5d}]},{Interval:{Min:1,Max:1,Current:1},Loop:{Max:1,Current:1},Call:[{Name:"Function",Tags:[Global,Event,Function,ForgetTarget]}]}],Exit:{Loop:{Max:2,Current:2}}}]}

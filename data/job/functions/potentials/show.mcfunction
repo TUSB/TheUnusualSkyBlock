@@ -1,6 +1,14 @@
 
 ###潜在能力割り振り画面
 
+#時間表示
+execute store result score _ PotentialLock run time query gametime
+scoreboard players operation _ PotentialLock -= @s PotentialLock
+scoreboard players set _ _ -1200
+scoreboard players operation _ PotentialLock /= _ _
+scoreboard players add _ PotentialLock 60
+scoreboard players operation @s PotentialLock >< _ PotentialLock
+
 function job:potentials/get_point
 
 tellraw @s [{"translate":"キャパシティポイントで潜在能力を引き出せます。"}," ",{"translate":"総CP:%1$s 残りCP:%2$s","with":[{"score":{"name": "_","objective": "AllExp"},"color":"green"},{"score":{"name":"_","objective":"Exp"},"color":"green"}]}]
@@ -15,5 +23,6 @@ tellraw @s[scores={PotentialLock=..0}] [{"translate":" ❖%1$s","color": "green"
 ## 制限あり
 tellraw @s[scores={PotentialLock=1..}] [{"translate":" ❖%1$s","color": "green","with":[{"translate":"他ジョブレベルアップ","color":"white"}]},": ",{"translate":"%1$s(%2$sCP)","color":"white","with":[{"translate":"✞","color": "black"},{"text": "-1","color":"gold"}]},"\n",{"translate":" ❖%1$s","color": "red","with":[{"translate":"キャパシティポイントリセット","color":"gray"}]},": ",{"translate":"%1$s(%2$sCP)","color":"white","with":[{"translate":"制限 残り%1$s分","with": [{"score":{"name": "@s","objective": "PotentialLock"}}]},{"text": "0","color":"gold"}]}]
 
+execute if score @s PotentialLock matches 1.. run scoreboard players operation @s PotentialLock >< _ PotentialLock
 scoreboard players enable @s PotentialTrigger
 scoreboard players reset @s PotentialPrev
