@@ -1,9 +1,14 @@
+execute if data storage skill: Skill{Name:"スーパーデバリア"} run function skill:act/common/super_debaria/act0
+execute if data storage skill: Skill{Name:"ディジーズデバリア"} run function skill:act/common/disease_debaria/act0
+execute if data storage skill: Skill{Name:"コンフュージョンデバリア"} run function skill:act/common/confusion_debaria/act0
+execute if data storage skill: Skill{Name:"パラライズデバリア"} run function skill:act/common/paralysis_debaria/act0
+execute if data storage skill: Skill{Name:"フリーズデバリア"} run function skill:act/common/freeze_debaria/act0
+execute if data storage skill: Skill{Name:"バーンデバリア"} run function skill:act/common/burn_debaria/act0
 execute if data storage skill: Skill{Name:"爆弾解除"} run function skill:act/common/bomb_defuse/act0
 execute if data storage skill: Skill{Name:"サモンSるなちー"} run function skill:act/common/summon_lunatic_eye/act0
 execute if data storage skill: Skill{Name:"サモンPゴーレム"} run function skill:act/common/summon_iron_golem/act0
 execute if data storage skill: Skill{Name:"カロリー爆弾"} run function skill:act/common/calorie_bomb/act0
 execute if data storage skill: Skill{Name:"飛空島周回券"} run function skill:act/common/flying_island_tour_ticket/act0
-execute if data storage skill: Skill{Name:"デバリア"} run function skill:act/common/debarrier/act0
 execute if data storage skill: Skill{Name:"サモンSストームフレンド"} run function skill:act/common/summon_friend_bumper_storm/act0
 execute if data storage skill: Skill{Name:"Tips表示"} run function skill:act/common/show_tips/act0
 execute if data storage skill: Skill{Name:"サモンSローリングバレル"} run function skill:act/common/summon_rolling_barrel/act0

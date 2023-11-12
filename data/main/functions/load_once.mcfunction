@@ -146,6 +146,12 @@ scoreboard objectives add SkyWalk dummy {"text":"スカイウォーク"}
 scoreboard objectives add RestoreItem trigger {"text":"リスト・アイテム処理選択"}
 scoreboard objectives add SuspiciousPowderTime dummy {"text":"怪しい粉継続秒数"}
 scoreboard objectives add SuspiciousPowderToken dummy {"text":"怪しい粉消費MP量"}
+scoreboard objectives add BurnDebaria dummy {"text":"バーンデバリア効果時間"}
+scoreboard objectives add FreezeDebaria dummy {"text":"フリーズデバリア効果時間"}
+scoreboard objectives add ParalysisDebaria dummy {"text":"パラライズデバリア効果時間"}
+scoreboard objectives add ConfusionDebaria dummy {"text":"コンフュージョンデバリア効果時間"}
+scoreboard objectives add DiseaseDebaria dummy {"text":"ディズィーズデバリア効果時間"}
+scoreboard objectives add DoomDebaria dummy {"text":"ドゥームデバリア効果時間"}
 
 ###バースト ボスバー
 bossbar add skill:burst {"translate":"バーストゲージ","italic":true,"bold":true}
