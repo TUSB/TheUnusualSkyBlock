@@ -10,4 +10,7 @@ data modify storage main: difficult.world set value "expert"
 # スコアホルダー節約のために $World RequiredExp を用いる。
 scoreboard players set $World RequiredExp 6
 
+# エキスパートのみKeepInventoryはfalseとなる
+gamerule keepInventory false
+
 tellraw @a {"translate":"難易度を%1$sに変更しました。","with":[{"translate":"エキスパート","color":"#932AFF"}]}

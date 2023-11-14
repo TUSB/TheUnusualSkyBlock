@@ -8,6 +8,9 @@ execute if entity @s[scores={Hunger=0..,Age=1..}] run function player:rise/
 ### ログイン時処理
 execute if entity @s[scores={LeaveGame=1..}] run function player:leave_game
 
+### インベントリ保存
+execute if entity @s[predicate=entity:player] run function player:save_inventory
+
 ### めり込み処理
 execute if entity @s[scores={Age=1..},gamemode=!spectator,gamemode=!creative] if block ^ ^ ^ #entity:unbreakable anchored eyes if block ^ ^ ^ #entity:unbreakable run function entity:suffocation
 ### 特殊床

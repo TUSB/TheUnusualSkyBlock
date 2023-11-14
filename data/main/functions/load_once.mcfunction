@@ -11,6 +11,7 @@ gamerule universalAnger true
 time set 14000
 gamerule doDaylightCycle false
 gamerule maxCommandChainLength 2147483647
+gamerule keepInventory true
 
 ###ステータス
 scoreboard objectives add Level dummy {"text":"レベル"}

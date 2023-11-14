@@ -11,6 +11,7 @@ tag @s remove SelectRestoreItem
 
 #スキル用タグリセット
 tag @s remove SummonPixely
+tag @s remove DigTomb
 
 #進捗解除
 advancement revoke @s only item:init_tusb_memory
