@@ -13,6 +13,7 @@ execute if entity @s[tag=RotateArmor] run function settings:enemy/global/event/f
 execute if entity @s[tag=Combat] run function settings:enemy/global/event/function/combat/
 execute if entity @s[tag=DamageSound] run function settings:enemy/global/event/function/damage_sound/
 execute if entity @s[tag=AttackSound] run function settings:enemy/global/event/function/attack_sound/
+execute if entity @s[tag=FakeEndstone] run function settings:enemy/global/event/function/fake_endstone/
 execute if entity @s[tag=EtcSound] run function settings:enemy/global/event/function/etc_sound/
 execute if entity @s[tag=AmbientSound] run function settings:enemy/global/event/function/ambient_sound/
 execute if entity @s[tag=SecurityPole] run function settings:enemy/global/event/function/security_pole/
