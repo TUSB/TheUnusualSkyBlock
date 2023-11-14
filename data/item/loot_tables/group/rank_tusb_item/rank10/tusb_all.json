@@ -9,22 +9,17 @@
           "name": "item:item/carrot_on_a_stick/nebula_rod"
         },
         {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/weapon/super_debaria"
-        },
-        {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/infinity_netherite_memory_star"
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/cosmo_shadow_memory_star"
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/cosmo_photon_memory_star"
         },
@@ -34,12 +29,12 @@
           "name": "item:item/gold_nugget/kamui/4"
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/gold_nugget/dragon_scale/4"
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/gold_nugget/evolution/4"
         },
