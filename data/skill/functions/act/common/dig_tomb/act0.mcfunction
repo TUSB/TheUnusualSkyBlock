@@ -5,7 +5,8 @@
 # @within function skill:practice/act/common
 
 # スケジュール起動する
-    function oh_my_dat:please
-    data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DeathInventory append from storage item: Item.tag.DeathInventory
-    tag @s add DigTomb
-    schedule function skill:act/common/dig_tomb/schedule1 1t
+    data modify storage item: UUID set from entity @s UUID
+    scoreboard players set _ _ 0
+    execute store result score _ _ run data modify storage item: UUID set from storage item: Item.tag.DeathUUID
+    execute if score _ _ matches 1 run function skill:act/common/dig_tomb/fail
+    execute if score _ _ matches 0 run function skill:act/common/dig_tomb/success

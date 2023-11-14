@@ -20,7 +20,7 @@ execute if score @s SayonaraLevel matches 1.. run function skill:act/ninja/sayon
 execute if entity @s[tag=!Raise] run function skill:toggle_reset
 
 # アイテムドロップ処理
-    function player:death_item_drop/
+function player:death_item_drop/
 
 # 特殊床
 execute if block ~ ~-2 ~ minecraft:nether_wart_block if entity @s[nbt={OnGround:true}] run tellraw @a [{"translate":"「うおーっ！！」%1$sは  さけび  ごえを  あげ、さんを  だす  にくいゆかへ   ホップ・ステップ・ジャンプ．．．かーるいす！！\n%1$sは  とけ、ゆかと  どうか  してしまった。","with":[{"selector":"@s"}]}]
