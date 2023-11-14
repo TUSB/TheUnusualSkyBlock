@@ -4,7 +4,6 @@ execute if entity @s[tag=Shulkers] run function settings:enemy/skylands/ground/s
 execute if entity @s[tag=Slimy] run function settings:enemy/skylands/ground/shoot/slimy/
 execute if entity @s[tag=SunEater] run function settings:enemy/skylands/ground/shoot/sun_eater/
 execute if entity @s[tag=Patissier] run function settings:enemy/skylands/ground/shoot/patissier/
-execute if entity @s[tag=Framer] run function settings:enemy/skylands/ground/shoot/framer/
 execute if entity @s[tag=BlueShulker] run function settings:enemy/skylands/ground/shoot/blue_shulker/
 execute if entity @s[tag=RedShulker] run function settings:enemy/skylands/ground/shoot/red_shulker/
 execute if entity @s[tag=IllusionAbsorber] run function settings:enemy/skylands/ground/shoot/illusion_absorber/

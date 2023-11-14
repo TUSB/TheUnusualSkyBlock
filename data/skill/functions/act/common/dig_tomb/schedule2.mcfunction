@@ -140,15 +140,6 @@
     summon chest_minecart ~ ~ ~
     data modify entity @e[type=chest_minecart,distance=..0.01,sort=nearest,limit=1] Items set from storage item: NowInventory
     kill @e[type=chest_minecart,distance=..0.01,sort=nearest,limit=1]
-    data modify storage item: DeathInventory.Armor append from storage item: NowInventory[{Slot:27b}]
-    data modify storage item: DeathInventory.Armor append from storage item: NowInventory[{Slot:28b}]
-    data modify storage item: DeathInventory.Armor append from storage item: NowInventory[{Slot:29b}]
-    data modify storage item: DeathInventory.Armor append from storage item: NowInventory[{Slot:30b}]
-    data modify storage item: DeathInventory.Armor append from storage item: NowInventory[{Slot:31b}]
-    data modify storage item: DeathInventory.Armor append from storage item: NowInventory[{Slot:32b}]
-    data modify storage item: DeathInventory.Armor append from storage item: NowInventory[{Slot:33b}]
-    data modify storage item: DeathInventory.Armor append from storage item: NowInventory[{Slot:34b}]
-    data modify storage item: DeathInventory.Armor append from storage item: NowInventory[{Slot:35b}]
     data modify storage item: DeathInventory.Armor append from storage item: NowInventory[{Slot:100b}]
     data modify storage item: DeathInventory.Armor append from storage item: NowInventory[{Slot:101b}]
     data modify storage item: DeathInventory.Armor append from storage item: NowInventory[{Slot:102b}]
@@ -159,15 +150,6 @@
     data modify storage item: DeathInventory.Armor[2].Slot set value 2b
     data modify storage item: DeathInventory.Armor[3].Slot set value 3b
     data modify storage item: DeathInventory.Armor[4].Slot set value 4b
-    data modify storage item: DeathInventory.Armor[5].Slot set value 5b
-    data modify storage item: DeathInventory.Armor[6].Slot set value 6b
-    data modify storage item: DeathInventory.Armor[7].Slot set value 7b
-    data modify storage item: DeathInventory.Armor[8].Slot set value 8b
-    data modify storage item: DeathInventory.Armor[9].Slot set value 9b
-    data modify storage item: DeathInventory.Armor[10].Slot set value 10b
-    data modify storage item: DeathInventory.Armor[11].Slot set value 11b
-    data modify storage item: DeathInventory.Armor[12].Slot set value 12b
-    data modify storage item: DeathInventory.Armor[13].Slot set value 13b
     summon chest_minecart ~ ~ ~
     data modify entity @e[type=chest_minecart,distance=..0.01,sort=nearest,limit=1] Items set from storage item: DeathInventory.Armor
     kill @e[type=chest_minecart,distance=..0.01,sort=nearest,limit=1]
