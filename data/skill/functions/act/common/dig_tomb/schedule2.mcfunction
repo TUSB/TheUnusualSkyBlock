@@ -136,8 +136,23 @@
     execute unless data storage item: DeathInventory.Set[0] run data modify storage item: DeathInventory.Set append value {Slot:-106b}
     function skill:act/common/dig_tomb/act1
 
-# 今持っているアイテムを吐き出す
-    execute if data storage item: NowInventory[0] run function skill:act/common/dig_tomb/act2
+# 今持っているアイテムをマインカートで吐き出す
+    summon chest_minecart ~ ~ ~
+    data modify entity @e[type=chest_minecart,distance=..0.01,sort=nearest,limit=1] Items set from storage item: NowInventory
+    kill @e[type=chest_minecart,distance=..0.01,sort=nearest,limit=1]
+    data modify storage item: DeathInventory.Armor append from storage item: NowInventory[{Slot:100b}]
+    data modify storage item: DeathInventory.Armor append from storage item: NowInventory[{Slot:101b}]
+    data modify storage item: DeathInventory.Armor append from storage item: NowInventory[{Slot:102b}]
+    data modify storage item: DeathInventory.Armor append from storage item: NowInventory[{Slot:103b}]
+    data modify storage item: DeathInventory.Armor append from storage item: NowInventory[{Slot:-106b}]
+    data modify storage item: DeathInventory.Armor[0].Slot set value 0b
+    data modify storage item: DeathInventory.Armor[1].Slot set value 1b
+    data modify storage item: DeathInventory.Armor[2].Slot set value 2b
+    data modify storage item: DeathInventory.Armor[3].Slot set value 3b
+    data modify storage item: DeathInventory.Armor[4].Slot set value 4b
+    summon chest_minecart ~ ~ ~
+    data modify entity @e[type=chest_minecart,distance=..0.01,sort=nearest,limit=1] Items set from storage item: DeathInventory.Armor
+    kill @e[type=chest_minecart,distance=..0.01,sort=nearest,limit=1]
 
 # スキルアイテムが復元されないようにする
     data modify storage item: Item.Slot set value -128b
