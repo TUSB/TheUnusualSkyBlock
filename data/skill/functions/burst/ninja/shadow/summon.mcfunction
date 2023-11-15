@@ -13,9 +13,9 @@ scoreboard players operation @e[type=!player,tag=BurstShadow,distance=..0] Paren
 tag @s add BurstShadow
 
 # OhMyDatIDの取得とプレイヤーのUUIDを持っておく
-execute as @e[type=!player,tag=Shadow.Left,distance=..0] run function oh_my_dat:please
+execute as @e[type=!player,tag=Shadow.Left,distance=..0] run function #oh_my_dat:please
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].BurstShadow.UUID set from entity @s UUID
-execute as @e[type=!player,tag=Shadow.Right,distance=..0] run function oh_my_dat:please
+execute as @e[type=!player,tag=Shadow.Right,distance=..0] run function #oh_my_dat:please
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].BurstShadow.UUID set from entity @s UUID
 
 # NativeTask登録

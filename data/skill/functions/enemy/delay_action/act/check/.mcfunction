@@ -1,5 +1,5 @@
 ###ohmydat確認
-function oh_my_dat:please
+function #oh_my_dat:please
 ###List移行
 data modify storage mob_data: DelayAction set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayAction
 ###反転

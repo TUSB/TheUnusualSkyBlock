@@ -4,7 +4,7 @@
 function makeup:skill/act/knight/odin_slash/act
 
 # データ復元
-function oh_my_dat:please
+function #oh_my_dat:please
 # レベル
 execute store result score _ Level run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].OdinSlash.Level
 # 装備

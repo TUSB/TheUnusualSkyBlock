@@ -1,5 +1,5 @@
 #Function
-function oh_my_dat:please
+function #oh_my_dat:please
 data modify storage mob_data: Pose set from entity @s Pose
 execute unless data storage mob_data: Pose.Head run data modify entity @s Pose.Head set value [0.01f,0f,0f]
 execute unless data storage mob_data: Pose.RightArm run data modify entity @s Pose.RightArm set value [0.01f,0f,0f]
