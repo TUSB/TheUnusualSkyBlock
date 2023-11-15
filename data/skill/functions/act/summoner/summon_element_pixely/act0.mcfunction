@@ -11,7 +11,7 @@
 # プレイヤーにタグを付与
 # 装備データ保存
     tag @s add SummonPixely
-    function #oh_my_dat:please
+    function oh_my_dat:please
     data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4]."一時保存".SummonPixelyBoost set from storage item: Equipments
     schedule function skill:act/summoner/summon_element_pixely/schedule0 2t
 

@@ -1,5 +1,5 @@
 
-function #oh_my_dat:please
+function oh_my_dat:please
 data remove storage tusb_player: RestoreItemData
 data modify storage tusb_player: RestoreItemData set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].RestoreItemData
 

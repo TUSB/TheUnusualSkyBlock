@@ -1,5 +1,5 @@
 #ダメージ
-execute as @e[tag=FriendlyProjectile,distance=..3,limit=1,sort=nearest] run function #oh_my_dat:please
+execute as @e[tag=FriendlyProjectile,distance=..3,limit=1,sort=nearest] run function oh_my_dat:please
 data remove storage skill: Damage
 data modify storage skill: Damage set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI.ProjectileDamage
 execute if data storage skill: Damage run function skill:damage/add/skill/normal

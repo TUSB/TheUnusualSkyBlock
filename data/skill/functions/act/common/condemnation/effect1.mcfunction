@@ -9,7 +9,7 @@ tellraw @a {"translate":"%s のレベルが減少した！","with":[{"entity":"@
 function makeup:skill/act/common/condemnation/effect0
 
 #データ呼び出し
-function #oh_my_dat:please
+function oh_my_dat:please
 
 #Call_Level レベル減少幅:通常10%、ボスなら20%
 execute store result storage mob_data: Call.Level.Add int -0.1 run scoreboard players get @s[tag=!Boss] Level

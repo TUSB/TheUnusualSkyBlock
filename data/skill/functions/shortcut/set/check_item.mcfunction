@@ -1,5 +1,5 @@
 ### メインハンドとオフハンドのスワップ検知処理
-function #oh_my_dat:please
+function oh_my_dat:please
 data modify storage item: Item set value {}
 data modify storage item: Item set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].OffhandItem
 

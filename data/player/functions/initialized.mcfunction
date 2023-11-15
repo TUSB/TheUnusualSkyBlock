@@ -1,6 +1,6 @@
 
 #OhMyDat登録
-function #oh_my_dat:please
+function oh_my_dat:please
 
 #各種初期化
 data modify storage job: JobStatus set value [{},{},{},{},{},{},{},{},{}]

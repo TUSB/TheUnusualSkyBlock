@@ -8,4 +8,4 @@ execute in area:control_area run loot replace block 2 2 2 container.0 loot enemy
 execute in area:control_area run data modify storage popup: data.suffix set from block 2 2 2 Items[0].tag.display.Name
 execute as @a[distance=..32,limit=1,sort=nearest] run function #util:distance
 execute store result storage popup: data.size double 0.0001 run data get storage util: out 2500
-function #popup:
+function popup:

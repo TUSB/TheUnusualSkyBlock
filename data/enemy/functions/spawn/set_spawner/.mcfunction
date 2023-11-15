@@ -3,7 +3,7 @@
 ###########################################################################
 
 # スポナーカートでOhMyDatIDを取得
-function #oh_my_dat:please
+function oh_my_dat:please
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList set value []
 
 # それぞれのモブの情報を読み取る

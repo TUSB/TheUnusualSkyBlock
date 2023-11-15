@@ -12,10 +12,6 @@
                 "mainhand": {
                   "tag": "item:adv_can_place"
                 }
-              },
-              "type_specific": {
-                "type": "player",
-                "gamemode": "adventure"
               }
             }
           },

@@ -6,7 +6,7 @@
 ### Returns: set _ Ret to the magnitude of the distance between [Source] and [Destination].
 
 #AiUtilのdistance機能に任せる
-function #util:distance
+function util:distance/
 
 scoreboard players operation _ Ret = _ AiUtil
 scoreboard players get _ Ret
