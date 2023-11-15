@@ -1,6 +1,6 @@
 ### ショートカット編集用GUI表示
 
-function oh_my_dat:please
+function #oh_my_dat:please
 function skill:shortcut/gui/
 
 data modify entity @e[tag=SkillShortcut,tag=!Initialized,distance=..0.01,limit=1] CustomName set value '{"translate":"<編集モード>","color":"light_purple"}'

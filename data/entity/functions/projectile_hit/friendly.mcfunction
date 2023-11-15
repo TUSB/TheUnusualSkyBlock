@@ -1,5 +1,5 @@
 #ダメージ
-execute as @e[tag=EnemyProjectile,distance=..3,limit=1,sort=nearest] run function oh_my_dat:please
+execute as @e[tag=EnemyProjectile,distance=..3,limit=1,sort=nearest] run function #oh_my_dat:please
 data modify storage mob_data: MobName set from entity @e[tag=EnemyProjectile,distance=..3,limit=1,sort=nearest] CustomName
 data modify storage score_damage: Argument set value {DamageType:[Global,Projectile]}
 data modify storage score_damage: Argument.DeathCause set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4]."ステータス".DeathCause
