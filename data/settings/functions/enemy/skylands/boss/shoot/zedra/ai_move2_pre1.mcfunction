@@ -22,7 +22,7 @@ execute as @e[type=armor_stand,distance=..0.5] run scoreboard players operation 
 item replace entity @e[distance=..0.5,tag=ZedraBody,tag=NowTarget] armor.head with stick{CustomModelData:2008}
 item replace entity @e[distance=..0.5,tag=ZedraHead,tag=NowTarget] armor.head with stick{CustomModelData:2002}
 data modify entity @e[distance=..0.5,tag=ZedraHead,tag=NowTarget,limit=1] Pose set value {Head:[0.01f,0f,0f]}
-execute as @e[distance=..0.5,tag=ZedraBody,tag=NowTarget] run function oh_my_dat:please
+execute as @e[distance=..0.5,tag=ZedraBody,tag=NowTarget] run function #oh_my_dat:please
 execute as @e[distance=..0.5,tag=ZedraBody,tag=NowTarget] run function settings:enemy/global/event/function/rotate_armor/main
 tag @e[distance=..3,tag=NowTarget] remove NowTarget
-function oh_my_dat:please
+function #oh_my_dat:please

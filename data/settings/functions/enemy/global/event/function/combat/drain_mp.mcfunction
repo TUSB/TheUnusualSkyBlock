@@ -1,5 +1,5 @@
 #Function
-function oh_my_dat:please
+function #oh_my_dat:please
 execute store result score _ _ run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].CombatHusk.TargetID 1
 scoreboard players operation * OhMyDatID -= _ _
 tag @a[scores={OhMyDatID=0}] add Target

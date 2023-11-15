@@ -11,7 +11,7 @@
 # RaisePoint : Skill:WhiteMage/Araise
 #}
 
-function oh_my_dat:please
+function #oh_my_dat:please
 execute store result score @s RestoreItem run data get storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].RestoreItemData
 
 tellraw @s [{"translate":"現在保存されているインベントリ %1$s/3","bold":true,"with":[{"score":{"name":"@s","objective":"RestoreItem"}}]}]

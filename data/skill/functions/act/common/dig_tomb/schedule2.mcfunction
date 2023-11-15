@@ -5,7 +5,7 @@
 # @within function skill:act/common/dig_tomb/schedule1
 
 # アイテム
-    function oh_my_dat:please
+    function #oh_my_dat:please
     data modify storage item: NowInventory set from entity @s Inventory
     data modify storage item: DeathInventory.Inventory set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DeathInventory[0]
     data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DeathInventory

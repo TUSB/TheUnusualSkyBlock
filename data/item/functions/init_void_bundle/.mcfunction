@@ -1,5 +1,5 @@
 #oh_my_datのVoidItemsを新しいものから300個バンドルに移す
-function oh_my_dat:please
+function #oh_my_dat:please
 data modify storage item: Items set value []
 data modify storage item: Items append from entity @s Inventory[{tag:{VoidBundle:1b}}]
 data modify storage item: Count set value 300

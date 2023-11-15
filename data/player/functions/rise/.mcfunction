@@ -20,7 +20,7 @@ function player:mp_bar/set
 function effects:status/hunger
 
 ## ディメンション移動処理
-function oh_my_dat:please
+function #oh_my_dat:please
 execute store success score _ _ run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].LastDeathDimension set from entity @s Dimension
 execute if score _ _ matches 1 run function player:rise/enter_dimension
 
