@@ -44,6 +44,7 @@
     "skylands.043":{"trigger":"minecraft:item_used_on_block","conditions":{"item":{"items":["minecraft:ender_eye"]},"location":{"position":{"x":-171.5,"y":99.5,"z":-777.5},"dimension":"area:skylands"}}},
     "skylands.044":{"trigger":"minecraft:item_used_on_block","conditions":{"item":{"items":["minecraft:ender_eye"]},"location":{"position":{"x":111.5,"y":35.5,"z":-600.5},"dimension":"area:skylands"}}},
     "skylands.045":{"trigger":"minecraft:item_used_on_block","conditions":{"item":{"items":["minecraft:ender_eye"]},"location":{"position":{"x":22.5,"y":213.5,"z":-663.5},"dimension":"area:skylands"}}},
+    "skylands.046":{"trigger":"minecraft:item_used_on_block","conditions":{"item":{"items":["minecraft:ender_eye"]},"location":{"position":{"x":226.5,"y":309.5,"z":-922.5},"dimension":"area:skylands"}}},
     "flying_island.001":{"trigger":"minecraft:item_used_on_block","conditions":{"item":{"items":["minecraft:ender_eye"]},"location":{"position":{"x":-796.5,"y":100.5,"z":-772.5},"dimension":"area:flying_island"}}},
     "flying_island.002":{"trigger":"minecraft:item_used_on_block","conditions":{"item":{"items":["minecraft:ender_eye"]},"location":{"position":{"x":-801.5,"y":131.5,"z":-676.5},"dimension":"area:flying_island"}}}
   },
@@ -93,6 +94,7 @@
       "skylands.043",
       "skylands.044",
       "skylands.045",
+      "skylands.046",
       "flying_island.001",
       "flying_island.002"
     ]
