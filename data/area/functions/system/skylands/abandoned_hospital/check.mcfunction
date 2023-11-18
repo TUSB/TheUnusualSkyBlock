@@ -8,4 +8,4 @@ execute if entity @s[advancements={area:system/skylands/abandoned_hospital={flow
 
 advancement revoke @s only area:system/skylands/abandoned_hospital
 
-gamerule doTileDrops false
+gamerule doTileDrops true
