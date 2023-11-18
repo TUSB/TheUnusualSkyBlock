@@ -15,4 +15,4 @@ execute if block ~ ~-2 ~ minecraft:magenta_glazed_terracotta run function entity
 execute if block ~ ~-2 ~ minecraft:warped_wart_block if entity @s[nbt={OnGround:true}] run function entity:unique_floor/drop_floor
 
 ### カスタム床
-execute if block ~ ~-2 ~ minecraft:command_block{CustomName:'{"text":"Trap"}'} run function entity:unique_floor/command_floor
+execute if block ~ ~-2 ~ minecraft:command_block{CustomName:'{"text":"Trap"}'} run function entity:unique_floor/custom_floor
