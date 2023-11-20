@@ -1,40 +1,17 @@
 {
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:tick",
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [
+        "items": [
           {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "equipment": {
-                "mainhand": {
-                  "tag": "item:adv_can_place"
-                }
-              }
-            }
-          },
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "equipment": {
-                  "mainhand": {
-                    "tag": "item:tools",
-                    "nbt": "{CustomCanPlaceOn:1b}"
-                  }
-                }
-              }
-            }
+            "tag": "item:adv_can_place"
           }
         ]
       }
     }
   },
   "rewards": {
-    "function": "item:custom_can_place_on"
+    "function": "item:custom_can_place_on/trigger"
   }
 }
