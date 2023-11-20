@@ -1,3 +1,4 @@
+execute if entity @s[tag=OrdinaryPerson] run function settings:enemy/global/friendly/blow/ordinary_person/
 execute if entity @s[tag=Employee] run function settings:enemy/global/friendly/blow/employee/
 execute if entity @s[tag=Daizo] run function settings:enemy/global/friendly/blow/daizo/
 execute if entity @s[tag=ElixirMerchant] run function settings:enemy/global/friendly/blow/elixir_merchant

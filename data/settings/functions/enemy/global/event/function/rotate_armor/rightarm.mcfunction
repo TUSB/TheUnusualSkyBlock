@@ -39,5 +39,5 @@ execute if score # _ matches 0 run scoreboard players operation _ _ -= _ Calc
 execute if score # _ matches 1 store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AdditionalAI.Pose.RightArmTick[2] float 0.01 run scoreboard players operation _ Calc /= # Calc
 execute if score # _ matches 0 store result storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AdditionalAI.Pose.RightArmTick[2] float -0.01 run scoreboard players operation _ _ /= # Calc
 #右腕のPoseを再保存する
-#tellraw @a [{"storage":"oh_my_dat:","nbt":"_[-4][-4][-4][-4][-4][-4][-4][-4].AdditionalAI.Pose.Tick"}]
+#tellraw @a [{"storage":"#oh_my_dat:","nbt":"_[-4][-4][-4][-4][-4][-4][-4][-4].AdditionalAI.Pose.Tick"}]
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AdditionalAI.Pose.RightArm set from storage mob_data: Call.Pose.RightArm
