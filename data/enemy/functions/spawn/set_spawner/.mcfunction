@@ -17,3 +17,6 @@ data modify entity @s SpawnData.entity.Passengers[0] set from storage tusb_mob: 
 data modify entity @s SpawnData.entity.Pos set from storage tusb_mob: Pos
 ### 召喚したら消えるようにタグを付与
 data modify entity @s Tags set value [OneTimeSpawner,TickingRequired]
+
+# タグ付け
+tag @s add Runner
