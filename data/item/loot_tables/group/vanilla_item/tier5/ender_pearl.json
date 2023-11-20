@@ -19,8 +19,8 @@
         },
         {
           "weight": 8,
-          "type": "minecraft:item",
-          "name": "minecraft:ender_eye",
+          "type": "loot_table",
+          "name": "item:item/ender_eye/adv_ender_eye",
           "functions": [
             {
               "function": "minecraft:set_count",

@@ -1,0 +1,3 @@
+#Function
+execute as @a[distance=..13] run tellraw @s [{"translate":"t","color":"#092622","obfuscated":true},{"translate":"u","color":"#135249","obfuscated":true},{"translate":"s","color":"#1E8072","obfuscated":true},{"translate":"b","color":"#2BB8A4","obfuscated":true},{"translate":"不気味な静寂の中、%1$sはきたるべき戦いに備えた。","color":"#3CFFE3","bold":true,"obfuscated":false,"with":[{"selector":"@s"}]},{"translate":"b","color":"#2BB8A4","obfuscated":true},{"translate":"s","color":"#1E8072","obfuscated":true},{"translate":"u","color":"#135249","obfuscated":true},{"translate":"t","color":"#092622","obfuscated":true}]
+data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AdditionalAI.CountDown set value 5

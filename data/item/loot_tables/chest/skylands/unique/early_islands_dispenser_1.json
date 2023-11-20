@@ -19,8 +19,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:torch",
+          "type": "loot_table",
+          "name": "item:item/torch/adv_torch",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -49,8 +49,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:torch",
+          "type": "loot_table",
+          "name": "item:item/torch/adv_torch",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -73,8 +73,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:torch",
+          "type": "loot_table",
+          "name": "item:item/torch/adv_torch",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -103,8 +103,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:torch",
+          "type": "loot_table",
+          "name": "item:item/torch/adv_torch",
           "functions": [
             {
               "function": "minecraft:set_count",

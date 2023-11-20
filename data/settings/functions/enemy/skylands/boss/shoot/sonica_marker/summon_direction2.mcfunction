@@ -1,0 +1,16 @@
+#Function
+# CustomModelと位置を適用
+    data merge entity @s[tag=Head] {item:{tag:{CustomModelData:3001}},transformation:{right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f],left_rotation:[-0.0f,0.971f,0.238f,0.0f],translation:[0.0f,1.558f,0.173f]}}
+    data merge entity @s[tag=Body0] {item:{tag:{CustomModelData:3005}},transformation:{right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f],left_rotation:[-0.0f,0.971f,0.238f,0.0f],translation:[0.0f,1.225f,-0.0f]}}
+    data merge entity @s[tag=Body1] {item:{tag:{CustomModelData:3006}},transformation:{right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f],left_rotation:[0.039f,-0.98f,-0.191f,0.029f],translation:[0.01f,1.086f,-0.057f]}}
+    data merge entity @s[tag=RightArm0] {item:{tag:{CustomModelData:3007}},transformation:{right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f],left_rotation:[-0.367f,-0.434f,-0.531f,0.628f],translation:[-0.25f,1.484f,0.15f]}}
+    data merge entity @s[tag=RightArm1] {item:{tag:{CustomModelData:3008}},transformation:{right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f],left_rotation:[-0.581f,-0.381f,-0.383f,0.609f],translation:[-0.224f,1.353f,0.51f]}}
+    data merge entity @s[tag=LeftArm0] {item:{tag:{CustomModelData:3009}},transformation:{right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f],left_rotation:[-0.615f,0.286f,0.523f,0.517f],translation:[0.248f,1.489f,0.147f]}}
+    data merge entity @s[tag=LeftArm1] {item:{tag:{CustomModelData:3010}},transformation:{right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f],left_rotation:[-0.67f,0.217f,0.44f,0.557f],translation:[0.134f,1.416f,0.508f]}}
+    data merge entity @s[tag=RightLeg0] {item:{tag:{CustomModelData:3011}},transformation:{right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f],left_rotation:[-0.009f,0.776f,-0.631f,0.001f],translation:[-0.098f,0.848f,-0.14f]}}
+    data merge entity @s[tag=RightLeg1] {item:{tag:{CustomModelData:3012}},transformation:{right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f],left_rotation:[0.016f,-0.99f,0.14f,0.004f],translation:[-0.093f,0.759f,0.217f]}}
+    data merge entity @s[tag=LeftLeg0] {item:{tag:{CustomModelData:3013}},transformation:{right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f],left_rotation:[0.0f,-0.934f,-0.357f,0.004f],translation:[0.15f,0.867f,-0.157f]}}
+    data merge entity @s[tag=LeftLeg1] {item:{tag:{CustomModelData:3014}},transformation:{right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f],left_rotation:[-0.001f,-0.838f,-0.546f,0.004f],translation:[0.149f,0.593f,-0.411f]}}
+    data merge entity @s[tag=Sword] {item:{tag:{CustomModelData:3015}},transformation:{right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f],left_rotation:[-0.977f,-0.013f,0.213f,0.015f],translation:[-0.097f,1.346f,0.787f]}}
+    data merge entity @s[tag=WingRight] {item:{tag:{CustomModelData:3016}},transformation:{right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f],left_rotation:[0.0f,0.966f,0.0f,0.259f],translation:[0.1f,1.25f,-0.173f]}}
+    data merge entity @s[tag=WingLeft] {item:{tag:{CustomModelData:3017}},transformation:{right_rotation:[0.0f,0.0f,0.0f,1.0f],scale:[1.0f,1.0f,1.0f],left_rotation:[-0.0f,-0.966f,-0.0f,0.259f],translation:[-0.1f,1.25f,-0.173f]}}
