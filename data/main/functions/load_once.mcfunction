@@ -2,6 +2,10 @@
 ### 初回ロード処理
 ##############################
 
+###デバッグモード
+# リリースする際は必ずオフにすること
+data modify storage main: debug set value 1b
+
 ###バージョン
 function settings:version_update/check/
 
@@ -260,6 +264,7 @@ function settings:skill/black_mage/return/default
 
 #難易度リセット カジュアル
 function main:difficulty/reset
+execute if data storage main: {debug:1b} run function main:difficulty/apply/debug
 
 #島の攻略率
 data remove storage area: capture
