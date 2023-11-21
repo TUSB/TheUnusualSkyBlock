@@ -10,7 +10,7 @@
     data remove storage score_damage: Argument
     data modify storage mob_data: MobName set value '[{""translate"":""t"",""color"":""#440066"",""obfuscated"":true},{""translate"":""u"",""color"":""#53007D"",""obfuscated"":true},{""translate"":""s"",""color"":""#68009C"",""obfuscated"":true},{""translate"":""b"",""color"":""#8300C4"",""obfuscated"":true},{""translate"":""《音速の堕天使》SonicA"",""color"":""#AA00FF"",""bold"":true,""obfuscated"":false},{""translate"":""b"",""color"":""#8300C4"",""obfuscated"":true},{""translate"":""s"",""color"":""#68009C"",""obfuscated"":true},{""translate"":""u"",""color"":""#53007D"",""obfuscated"":true},{""translate"":""t"",""color"":""#440066"",""obfuscated"":true}]'
     data modify storage score_damage: Argument set value {BypassResistance:1b,DamageType:[Global],DeathCause:'[{"translate":"%1$sは%2$sの放った斬撃に切り裂かれてしまった。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'}
-    execute store result storage score_damage: Argument.Damage int 0.8 run scoreboard players get @s Attack
+    execute store result storage score_damage: Argument.Damage int 0.6 run scoreboard players get @s Attack
     execute as @a[predicate=entity:player,distance=..6] run function score_damage:api/attack
     execute as @a[predicate=entity:player,distance=..6] run function makeup:enemy/projectile_hit
     scoreboard players set @a[predicate=entity:player,distance=..6] ProjectileTime -10

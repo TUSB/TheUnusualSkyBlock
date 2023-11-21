@@ -1,3 +1,5 @@
+execute if entity @s[tag=Attack5Pose] run function settings:enemy/skylands/boss/shoot/sonica_attack/attack5_pose
+execute if entity @s[tag=Attack5Pre] run function settings:enemy/skylands/boss/shoot/sonica_attack/attack5_pre
 execute if entity @s[tag=Attack3Summon] run function settings:enemy/skylands/boss/shoot/sonica_attack/attack3_summon
 execute if entity @s[tag=Attack3Pose1] run function settings:enemy/skylands/boss/shoot/sonica_attack/attack3_pose1
 execute if entity @s[tag=Attack3Pose2] run function settings:enemy/skylands/boss/shoot/sonica_attack/attack3_pose2
@@ -21,6 +23,9 @@ execute if entity @s[tag=Slash1] run function settings:enemy/skylands/boss/shoot
 execute if entity @s[tag=Slash2] run function settings:enemy/skylands/boss/shoot/sonica_attack/slash2
 execute if entity @s[tag=Attack1Pre] run function settings:enemy/skylands/boss/shoot/sonica_attack/attack1_pre
 execute if entity @s[tag=Attack1PreSound] run function settings:enemy/skylands/boss/shoot/sonica_attack/attack1_pre_sound
+execute if entity @s[tag=Attack4] run function settings:enemy/skylands/boss/shoot/sonica_attack/attack4
+execute if entity @s[tag=Attack4Damage] run function settings:enemy/skylands/boss/shoot/sonica_attack/attack4_damage
+execute if entity @s[tag=Attack4Pre] run function settings:enemy/skylands/boss/shoot/sonica_attack/attack4_pre
 execute if entity @s[tag=SonicBoom] run function settings:enemy/skylands/boss/shoot/sonica_attack/sonic_boom
 execute if entity @s[tag=SonicBoomAttack] run function settings:enemy/skylands/boss/shoot/sonica_attack/sonic_boom_attack
 execute if entity @s[tag=SonicBoomInit] run function settings:enemy/skylands/boss/shoot/sonica_attack/sonic_boom_init

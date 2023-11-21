@@ -49,4 +49,4 @@
     data remove storage score_damage: Argument
     data modify storage score_damage: Argument set value {BypassArmor:1b,BypassResistance:1b,DamageType:[Global],EPF:0,DeathCause:'[{"translate":"%1$sは%2$sの放った衝撃波に全身を粉砕されてしまった。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'}
     execute store result storage score_damage: Argument.Damage int 2 run scoreboard players get @s Attack
-#    execute as @e[distance=..6,predicate=entity:friendly] run function skill:enemy/laser/main/damage
+    execute as @e[distance=..6,predicate=entity:friendly] run function skill:enemy/laser/main/damage

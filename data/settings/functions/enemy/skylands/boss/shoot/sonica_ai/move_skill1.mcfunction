@@ -6,7 +6,7 @@
     tp @s 0-0-0-0-0
 
 # 移動演出
-    execute facing entity 0-0-0-0-0 feet run function settings:enemy/skylands/boss/shoot/sonica_ai/move_skill2
+    execute facing entity 0-0-0-0-0 feet unless entity @s[distance=..0.5] run function settings:enemy/skylands/boss/shoot/sonica_ai/move_skill2
     playsound entity.wither.shoot hostile @a[distance=..16] ~ ~ ~ 0.5 0.65
     playsound item.trident.riptide_1 hostile @a[distance=..16] ~ ~ ~ 0.5 0.5
     execute at @s run playsound entity.wither.shoot hostile @a[distance=..16] ~ ~ ~ 0.5 0.65
