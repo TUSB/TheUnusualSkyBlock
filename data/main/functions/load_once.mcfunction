@@ -6,6 +6,9 @@
 # リリースする際は必ずオフにすること
 data modify storage main: debug set value 1b
 
+### Git情報(値はデバッグサーバ側で置き換え文字置換される)
+data modify storage main: Repository set value {CommitHash:"__GIT_COMMIT_HASH__",CommitHashShort:"__GIT_COMMIT_HASH_SHORT__",Branch:"__GIT_BRANCH__"}
+
 ###バージョン
 function settings:version_update/check/
 
