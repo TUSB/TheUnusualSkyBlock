@@ -4,6 +4,7 @@ execute if entity @s[tag=BombTnt] run function settings:enemy/global/ground/shoo
 execute if entity @s[tag=PinkPearlParticle] run function settings:enemy/global/ground/shoot/angry_cherry_tree/pink_pearl_particle
 execute if entity @s[tag=PinkPearl] run function settings:enemy/global/ground/shoot/angry_cherry_tree/pink_pearl
 execute if entity @s[tag=Pale] run function settings:enemy/global/ground/shoot/angry_cherry_tree/pale
+execute if entity @s[tag=Death2] run function settings:enemy/global/ground/shoot/angry_cherry_tree/death2
 execute if entity @s[tag=Bomb] run function settings:enemy/global/ground/shoot/angry_cherry_tree/bomb
 execute if entity @s[tag=BombParticle] run function settings:enemy/global/ground/shoot/angry_cherry_tree/bomb_particle
 execute if entity @s[tag=BombMarker] run function settings:enemy/global/ground/shoot/angry_cherry_tree/bomb_marker

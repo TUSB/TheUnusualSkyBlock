@@ -1,4 +1,5 @@
 execute if entity @s[tag=Main] run function settings:enemy/global/ground/shoot/assault_warden/main
+execute if entity @s[tag=Death] run function settings:enemy/global/ground/shoot/assault_warden/death
 execute if entity @s[tag=Heal] run function settings:enemy/global/ground/shoot/assault_warden/heal
 execute if entity @s[tag=HealMarker] run function settings:enemy/global/ground/shoot/assault_warden/heal_marker
 execute if entity @s[tag=Init] run function settings:enemy/global/ground/shoot/assault_warden/init
