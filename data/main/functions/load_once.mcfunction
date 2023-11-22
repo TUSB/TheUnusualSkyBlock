@@ -272,3 +272,12 @@ execute if data storage main: {debug:1b} run function main:difficulty/apply/debu
 #島の攻略率
 data remove storage area: capture
 data merge storage area: {capture:{skylands:{},flying_island:{},cloudia:{}}}
+
+# システムストレージ初期化
+    data remove storage main: System
+    advancement revoke @a only area:system/skylands/chaos_islands/first
+    advancement revoke @a only area:system/skylands/chaos_islands/second
+    advancement revoke @a only area:system/skylands/chaos_islands/fourth
+    advancement revoke @a only area:system/skylands/chaos_islands/fifth
+    advancement revoke @a only area:system/skylands/chaos_islands/sixth
+    advancement revoke @a only area:system/skylands/chaos_islands/boss
