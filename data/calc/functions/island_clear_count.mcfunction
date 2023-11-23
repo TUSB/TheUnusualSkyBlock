@@ -10,5 +10,4 @@ scoreboard players operation _ Calc += _ _
 # ##cloudia
 # execute store result score _ _ run data get storage area: capture.cloudia
 # scoreboard players operation _ Calc += _ _
-tellraw @p [{"text":"_ Calc(Island Count) : "},{"score":{"name":"_","objective":"Calc"}}]
 scoreboard players get _ Calc
