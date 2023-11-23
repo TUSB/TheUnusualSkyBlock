@@ -12,6 +12,7 @@ execute if entity @s[tag=ArmedZombie] run function settings:enemy/global/ground/
 execute if entity @s[tag=Ignore] run function settings:enemy/global/ground/blow/ignore/
 execute if entity @s[tag=WitherSkeletonPlus] run function settings:enemy/global/ground/blow/wither_skeleton_plus/
 execute if entity @s[tag=FakeEndstone] run function settings:enemy/global/ground/blow/fake_endstone/
+execute if entity @s[tag=DungeonRock] run function settings:enemy/global/ground/blow/dungeon_rock/
 execute if entity @s[tag=Combat] run function settings:enemy/global/ground/blow/combat/
 execute if entity @s[tag=Goblins] run function settings:enemy/global/ground/blow/goblins/
 execute if entity @s[tag=ThornFloorTrap] run function settings:enemy/global/ground/blow/thorn_floor_trap/

@@ -1220,6 +1220,28 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"global アサルトウォーデン Lv111\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Shoot,AssaultWarden,Main,SpawnParticles],Level:111}],[{Tags:[Global,Ground,Shoot,AssaultWarden,HealMarker],Level:111},{Tags:[Global,Ground,Shoot,AssaultWarden,TripleSonicMarker],Level:111}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"global 通常湧きのヴォルケリーパー Lv12\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Volcareeper,Main,SpawnParticles],Level:12}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"text\":\"gullivers_land 通常湧きの巨人のドン Lv65\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[GulliversLand,Ground,Blow,GiantDon,Main,SpawnParticles],Level:65}]]}}]}}"
             }
           ]
@@ -2364,7 +2386,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 上層のTPC Lv80\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,TPC,Creeper],Level:80}],[{Tags:[Skylands,Ground,Summon,TPC,CommandBlock],Level:80},{Tags:[Skylands,Ground,Summon,TPC,Text],Level:80}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 上層のTPC Lv80\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,TPC,Creeper,SpawnParticles],Level:80}],[{Tags:[Skylands,Ground,Summon,TPC,CommandBlock],Level:80},{Tags:[Skylands,Ground,Summon,TPC,Text],Level:80}]]}}]}}"
             }
           ]
         },
@@ -2375,7 +2397,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"skylands 中層のTPC Lv35\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,TPC,Creeper],Level:35}],[{Tags:[Skylands,Ground,Summon,TPC,CommandBlockTp],Level:35},{Tags:[Skylands,Ground,Summon,TPC,TextTp],Level:35}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"skylands 中層のTPC Lv35\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,TPC,Creeper,SpawnParticles],Level:35}],[{Tags:[Skylands,Ground,Summon,TPC,CommandBlockTp],Level:35},{Tags:[Skylands,Ground,Summon,TPC,TextTp],Level:35}]]}}]}}"
             }
           ]
         },

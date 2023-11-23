@@ -1,2 +1,2 @@
 #Function
-particle flame ~ ~ ~ 0.5 0.5 0.5 0.3 5 force @a[distance=..32]
+particle small_flame ~ ~ ~ 0.1 0.1 0.1 0.1 3 force @a[distance=..32]

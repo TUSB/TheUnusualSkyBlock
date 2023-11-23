@@ -2,6 +2,7 @@ execute if entity @s[tag=TPC] run function settings:enemy/skylands/ground/blow/t
 execute if entity @s[tag=CrafterWhoLavaOnEverything] run function settings:enemy/skylands/ground/blow/crafter_who_lava_on_everything/
 execute if entity @s[tag=CrafterWhoWaterOnEverything] run function settings:enemy/skylands/ground/blow/crafter_who_water_on_everything/
 execute if entity @s[tag=AcidWalker] run function settings:enemy/skylands/ground/blow/acid_walker/
+execute if entity @s[tag=AbyssWalker] run function settings:enemy/skylands/ground/blow/abyss_walker/
 execute if entity @s[tag=HellFlooringFrog] run function settings:enemy/skylands/ground/blow/hell_flooring_frog/
 execute if entity @s[tag=Giga] run function settings:enemy/skylands/ground/blow/giga/
 execute if entity @s[tag=SilverWarrior] run function settings:enemy/skylands/ground/blow/silver_warrior/

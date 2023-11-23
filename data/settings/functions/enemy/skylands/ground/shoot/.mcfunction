@@ -1,4 +1,6 @@
 execute if entity @s[tag=SatSpider] run function settings:enemy/skylands/ground/shoot/sat_spider/
+execute if entity @s[tag=AbyssSwordman] run function settings:enemy/skylands/ground/shoot/abyss_swordman/
+execute if entity @s[tag=AbyssMage] run function settings:enemy/skylands/ground/shoot/abyss_mage/
 execute if entity @s[tag=YellowShulker] run function settings:enemy/skylands/ground/shoot/yellow_shulker/
 execute if entity @s[tag=Shulkers] run function settings:enemy/skylands/ground/shoot/shulkers/
 execute if entity @s[tag=Slimy] run function settings:enemy/skylands/ground/shoot/slimy/

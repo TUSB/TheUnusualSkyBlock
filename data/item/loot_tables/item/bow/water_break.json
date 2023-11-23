@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:3,display:{Name:'{\"translate\":\"水破\",\"color\":\"aqua\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(II)\",\"color\":\"white\",\"with\":[{\"translate\":\"氷威の\"},{\"translate\":\"刻印\"}]}]']},Engraving:{EnchantID:\"氷威\",Tier:2},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:0.035d,Operation:0,UUID:[I;11,0,0,30],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:21d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"}]}"
+              "tag": "{CustomModelData:3,display:{Name:'{\"translate\":\"水破\",\"color\":\"aqua\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(II)\",\"color\":\"white\",\"with\":[{\"translate\":\"氷威の\"},{\"translate\":\"刻印\"}]}]']},Engraving:{EnchantID:\"氷威\",Tier:2},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:21d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"}]}"
             }
           ]
         }
