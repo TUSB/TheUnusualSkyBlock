@@ -41,6 +41,11 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/warden_kit"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/netherite_sword/blade_of_executioner"
         },
         {
