@@ -69,12 +69,17 @@
             "type": "minecraft:loot_table",
             "functions": [
               {
+                "function": "minecraft:set_count",
+                "count": 0,
+                "add": false
+              },
+              {
+                "function": "minecraft:apply_bonus",
                 "enchantment": "minecraft:fortune",
                 "formula": "minecraft:binomial_with_bonus_count",
-                "function": "minecraft:apply_bonus",
                 "parameters": {
                   "extra": 0,
-                  "probability": 0.0121
+                  "probability": 0.05
                 }
               }
             ],
