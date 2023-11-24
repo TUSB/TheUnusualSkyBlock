@@ -1,5 +1,6 @@
 execute if entity @s[tag=Tippy] run function settings:enemy/skylands/sky/shoot/tippy/
 execute if entity @s[tag=AquaDolphin] run function settings:enemy/skylands/sky/shoot/aqua_dolphin/
+execute if entity @s[tag=MorningGhast] run function settings:enemy/skylands/sky/shoot/morning_ghast/
 execute if entity @s[tag=ILoveEye] run function settings:enemy/skylands/sky/shoot/i_love_eye/
 execute if entity @s[tag=ImpureSkull] run function settings:enemy/skylands/sky/shoot/impure_skull/
 execute if entity @s[tag=CockdoHellchef] run function settings:enemy/skylands/sky/shoot/cockdo_hellchef/
