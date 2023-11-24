@@ -12,6 +12,11 @@
           "weight": 3,
           "type": "loot_table",
           "name": "item:item/firework_star/etc/trap_spawn_predator"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_assault_warden"
         }
       ]
     }
