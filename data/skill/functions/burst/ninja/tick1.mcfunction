@@ -11,7 +11,7 @@ execute as @e[type=!player,tag=BurstShadow,scores={ParentID=0}] positioned as @s
 execute as @e[type=!player,tag=BurstShadow,scores={ParentID=0}] positioned as @s unless entity @e[tag=Enemy,distance=..32] run tp @s ~ ~ ~ ~ ~
 
 # バーストブレイクしたプレイヤーから離れたら影は蒸発する
-execute if entity @a[distance=32..,scores={Burst=0..}] run function skill:burst/ninja/shadow/evaporationa
+execute if entity @a[distance=32..,scores={Burst=0..}] run function skill:burst/ninja/shadow/evaporation
 
 # 特定終了
 scoreboard players operation @e[type=!player,tag=BurstShadow] ParentID += @s OhMyDatID
