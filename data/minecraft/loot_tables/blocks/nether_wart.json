@@ -55,18 +55,18 @@
       },
       {
         "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "minecraft:nether_wart",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "3"
+            }
+          }
+        ],
         "entries": [
           {
             "type": "minecraft:loot_table",
-            "conditions": [
-                  {
-                    "block": "minecraft:nether_wart",
-                    "condition": "minecraft:block_state_property",
-                    "properties": {
-                      "age": "3"
-                    }
-                  }
-                ],
             "functions": [
               {
                 "enchantment": "minecraft:fortune",
@@ -79,11 +79,6 @@
               }
             ],
             "name": "item:group/magic_stone/tier1_7/mix"
-          }
-        ],
-        "functions": [
-          {
-            "function": "minecraft:explosion_decay"
           }
         ],
         "rolls": 1.0
