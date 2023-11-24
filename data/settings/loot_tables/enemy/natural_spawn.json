@@ -310,6 +310,17 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,DungeonRock,Main],Level:100}],[{Tags:[Global,Ground,Blow,DungeonRock,Display],Level:100}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 25,
           "name": "minecraft:stick",
           "functions": [
@@ -1253,6 +1264,17 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,EtherMerchant,SpawnParticles],Level:1}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 7,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,DungeonRock,Main],Level:100}],[{Tags:[Global,Ground,Blow,DungeonRock,Display],Level:100}]]}"
             }
           ]
         },
