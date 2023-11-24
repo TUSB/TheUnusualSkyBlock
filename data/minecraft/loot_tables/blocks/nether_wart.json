@@ -44,30 +44,6 @@
               }
             ],
             "name": "minecraft:nether_wart"
-          },
-          {
-            "type": "minecraft:loot_table",
-            "conditions": [
-                  {
-                    "block": "minecraft:nether_wart",
-                    "condition": "minecraft:block_state_property",
-                    "properties": {
-                      "age": "3"
-                    }
-                  }
-                ],
-            "functions": [
-              {
-                "enchantment": "minecraft:fortune",
-                "formula": "minecraft:binomial_with_bonus_count",
-                "function": "minecraft:apply_bonus",
-                "parameters": {
-                  "extra": 0,
-                  "probability": 0.0121
-                }
-              }
-            ],
-            "name": "item:group/magic_stone/tier1_7/mix"
           }
         ],
         "functions": [
