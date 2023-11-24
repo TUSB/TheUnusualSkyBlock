@@ -3,7 +3,8 @@
 execute store result score @s _ run data get entity @s ArmorItems[3].tag.SpawnEntities[0][0].Level 1
 scoreboard players add @s _ 1
 # _ Calc 占有
-execute store result score _ Calc run function calc:island_clear_count
+scoreboard players set _ Calc 50
+#execute store result score _ Calc run function calc:island_clear_count
 scoreboard players add _ Calc 10
 # _ _ 占有
 execute store result score _ _ run function calc:random
@@ -23,5 +24,5 @@ execute if score _ _ matches 0..511 run scoreboard players add @s _ 10
 execute if score _ _ matches 0..511 run scoreboard players operation @s _ *= @s Calc
 # @s Calc 解放
 # _ _ 解放
-execute store result entity @s ArmorItems[3].tag.SpawnEntities[][].Level int 1 run scoreboard players get @s _
+scoreboard players operation @s Level = @s _
 # @s _ 解放
