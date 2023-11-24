@@ -1,6 +1,6 @@
 ## 自然湧きレベル変更
 # @s _ 占有
-execute store result score @s _ run data get entity @s ArmorItems[3].tag.SpawnEntities[][].Level 1
+execute store result score @s _ run data get entity @s ArmorItems[3].tag.SpawnEntities[0][0].Level 1
 scoreboard players add @s _ 1
 # _ Calc 占有
 execute store result score _ Calc run function calc:island_clear_count
