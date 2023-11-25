@@ -1,0 +1,22 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "item": {
+            "items": [
+              "minecraft:item_frame"
+            ]
+          },
+          "location": {
+            "block": {
+              "tag": "entity:unbreakable"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "entity:item_frame_destroy/item_frame"
+    }
+  }
