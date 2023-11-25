@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:25,EntityTag:{Tags:[Sign,Birch],Silent:1b,Size:0b,DeathLootTable:\"item:item/magma_cube_spawn_egg/sign/nhunter_soul\",ArmorItems:[{id:\"minecraft:stone\",Count:1b,tag:{Data:{Text2:'{\"translate\":\"付          与\",\"color\":\"dark_green\",\"bold\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"function item:sign/click/hunter_soul\"}}}',Text4:'{\"text\":\"㉔\",\"font\":\"sign\",\"color\":\"white\"}'}}},{},{},{}]},display:{Name:'[{\"translate\":\"狩人\",\"color\":\"dark_green\",\"bold\":true,\"italic\":false},{\"translate\":\"の魂\",\"color\":\"#FFFFFF\",\"italic\":false}]',Lore:['{\"translate\":\"手に持ったアイテムに狩人の魂を刻む。\",\"color\":\"white\",\"italic\":false}']}}"
+              "tag": "{CustomModelData:25,EntityTag:{Tags:[Sign,Birch],Silent:1b,Size:0b,DeathLootTable:\"item:item/magma_cube_spawn_egg/sign/nhunter_soul\",ArmorItems:[{id:\"minecraft:stone\",Count:1b,tag:{Data:{Text2:'{\"translate\":\"付          与\",\"color\":\"dark_green\",\"bold\":true,\"clickEvent\":{\"action\":\"run_command\",\"value\":\"function item:sign/click/hunter_soul\"}}}',Text4:'{\"text\":\"㉔\",\"font\":\"sign\",\"color\":\"white\"}'}}},{},{},{}]},display:{Name:'[{\"translate\":\"%1$sの魂\",\"color\":\"#FFFFFF\",\"italic\":false,\"with\":[{\"translate\":\"狩人\",\"color\":\"dark_green\",\"bold\":true,\"italic\":false}]}]',Lore:['{\"translate\":\"手に持ったアイテムに%1$sの魂を刻む。\",\"color\":\"white\",\"italic\":false,\"with\":[{\"translate\":\"狩人\",\"color\":\"white\",\"italic\":false}]}']}}"
             }
           ]
         }
