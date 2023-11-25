@@ -38,6 +38,10 @@ data remove entity @s[type=zombie] Attributes[{Name:"minecraft:zombie.spawn_rein
 #自然湧きシュルカー・エンダーマイト・シルバーフィッシュ削除
 tag @s[type=#entity:enemy,tag=] add Garbage
 
+#額縁を無敵に
+data modify entity @s[type=item_frame] Invulnerable set value 1b
+data modify entity @s[type=glow_item_frame] Invulnerable set value 1b
+
 #SmartMotion E (反発係数)
 execute unless score @s[tag=SmartMotion] sm.E matches -2147483648..2147483647 run scoreboard players set @s sm.E 100
 
