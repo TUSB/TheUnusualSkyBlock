@@ -1,8 +1,8 @@
 #Function
-# 対象の最大HPの1%を確定で与える
+# 対象の最大HPの4%を確定で与える
     data remove storage score_damage: Argument
-    data modify storage score_damage: Argument set value {BypassArmor:1b,BypassResistance:1b,EPF:0,DeathCause:'[{"translate":"%1$sは星屑となって消えてしまった。","with":[{"selector":"@s"}]}]'}
-    execute store result storage score_damage: Argument.Damage int 0.01 run attribute @s generic.max_health get 1
+    data modify storage score_damage: Argument set value {BypassArmor:1b,DeathCause:'[{"translate":"%1$sは星屑となって消えてしまった。","with":[{"selector":"@s"}]}]'}
+    execute store result storage score_damage: Argument.Damage int 0.04 run attribute @s generic.max_health get 1
     execute if data storage score_damage: Argument{Damage:0} run data modify storage score_damage: Argument.Damage set value 1
     function score_damage:api/attack
     function makeup:enemy/projectile_hit

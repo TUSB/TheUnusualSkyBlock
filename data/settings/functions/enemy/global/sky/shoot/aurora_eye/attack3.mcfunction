@@ -1,7 +1,7 @@
 #Function
-# 対象の最大HPの8%を防御無視で与える
+# 対象の最大HPの10%を防御無視で与える
     scoreboard players operation _ Damage = @s HPMax
-    scoreboard players set _ _ 8
+    scoreboard players set _ _ 10
     scoreboard players operation _ Damage *= _ _
     scoreboard players set _ _ 100
     scoreboard players operation _ Damage /= _ _
