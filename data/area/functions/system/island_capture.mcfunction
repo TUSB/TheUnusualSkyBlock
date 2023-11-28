@@ -58,7 +58,7 @@ execute if entity @s[advancements={area:system/island_capture={flying_island.002
 # execute if entity @s[advancements={area:system/island_capture={cloudia.003=true}}] run data modify storage area: capture.cloudia.050 set value true
 
 #クリア数抽出
-execute store result score _ _ run function calc:island_clear_count
+execute store result score _ _ run function calc:island/clear_count
 
 #パーセント計算
 ##係数定数
