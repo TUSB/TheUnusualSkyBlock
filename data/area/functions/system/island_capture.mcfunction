@@ -1,6 +1,3 @@
-#島の個数(後で変更)
-scoreboard players set # _ 47
-
 #進捗の判定
 ##skylands
 execute if entity @s[advancements={area:system/island_capture={skylands.001=true}}] run data modify storage area: capture.skylands.001 set value true
@@ -58,15 +55,9 @@ execute if entity @s[advancements={area:system/island_capture={flying_island.002
 # execute if entity @s[advancements={area:system/island_capture={cloudia.003=true}}] run data modify storage area: capture.cloudia.050 set value true
 
 #クリア数抽出
-execute store result score _ _ run function calc:island/clear_count
-
-#パーセント計算
-##係数定数
-scoreboard players set @s _ 100
-##算出
-scoreboard players operation # Calc = _ _
-scoreboard players operation # Calc *= @s _
-scoreboard players operation # Calc /= # _
+execute store result score # _ run function calc:island/get_total
+execute store result score _ Calc run function calc:island/clear_count
+execute store result score # Calc run function calc:island/clear_count_percent
 
 #クリアを通知
 execute at @a run playsound minecraft:ui.toast.challenge_complete player @a ~ ~ ~ 0.5 1 0
