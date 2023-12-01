@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:vindicator",CustomName:'{"translate":"寄生された地底人","color":"#FFFFFF","bold":true}',Silent:true,PatrolLeader:false,Patrolling:false,CanJoinRaid:false,PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,TickingRequired,HasLootTable]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:vindicator",CustomName:'{"translate":"金キノコに寄生された村人","color":"#FFFFFF","bold":true}',Silent:true,PatrolLeader:false,Patrolling:false,CanJoinRaid:false,PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,TickingRequired,HasLootTable]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {ArmorItems:[{},{},{},{id:"scute",Count:1b,tag:{CustomModelData:12}}],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 24d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.05d

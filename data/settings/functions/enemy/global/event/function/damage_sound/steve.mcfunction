@@ -1,2 +1,2 @@
 #Function
-playsound random.classic_hurt hostile @a[distance=..32] ~ ~ ~ 0.8 0.9 0
+playsound random.classic_hurt hostile @a[distance=..32] ~ ~ ~ 1.5 0.9 0

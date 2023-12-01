@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:ghast",CustomName:'{"translate":"アサガスト","color":"#FFFFFF","bold":true}',Silent:true,ExplosionPower:1b,PortalCooldown:1000,DeathLootTable:"empty",Tags:[Mob,Enemy,DelayedData,HasAI,TickingRequired,HasLootTable,AnalyseLog]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:ghast",CustomName:'{"translate":"アサガスト","color":"#FFFFFF","bold":true}',Silent:true,ExplosionPower:1b,PortalCooldown:1000,DeathLootTable:"empty",Tags:[Mob,Enemy,DelayedData,HasAI,CallOnInit,TickingRequired,HasLootTable,AnalyseLog]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 64d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.2d
@@ -23,4 +23,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法�
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.35d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"モーニングコールの機関だ！ ヒャッハー！"}]'
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:100,Max:160,Current:125},Loop:{Max:1,Current:1},Call:[{}]},{Interval:{Min:2,Max:2,Current:2},Loop:{Max:16,Current:16},Call:[{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:64d},Anchor:"Eyes"},{Name:"Direction",Speed:3d}],Name:"Spawn",SpawnEntities:[[{Tags:[Skylands,Sky,Shoot,MorningGhast,Bullet],Level:5}]]}],MP:5}]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Condition:[{Name:"Function",Tags:[Global,Event,Function,CommonExe,IsDaytime],Inverse:true}],Name:"Kill"}],TurnCount:2,Turn:[{Index:1,Skill:[{Interval:{Min:80,Max:80,Current:80},Call:[{}]}]},{Index:2,Target:{Look:"Friendly",Radius:64d},Skill:[{Interval:{Min:2,Max:2,Current:2},Loop:{Max:16,Current:16},Call:[{Name:"Function",Tags:[Skylands,Sky,Shoot,MorningGhast,Sound]},{Settings:[{Name:"Facing",Target:{Look:"Friendly",Radius:64d},Anchor:"Eyes"},{Name:"Direction",Speed:3d}],Name:"Spawn",SpawnEntities:[[{Tags:[Skylands,Sky,Shoot,MorningGhast,Bullet],Level:5}]]}],MP:5},{Interval:{Min:40,Max:40,Current:40},Loop:{Max:1,Current:1},Call:[{}]}],Exit:{Time:120,TimeCount:120}}]}
