@@ -9,6 +9,11 @@
           "name": "item:item/bow/tier5_bow"
         },
         {
+          "weight": 7,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/tier5_carrot_on_a_stick"
+        },
+        {
           "weight": 5,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/red_carrot"
@@ -64,6 +69,16 @@
           "name": "item:item/carrot_on_a_stick/corn_soup_pot"
         },
         {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/blue_purple_mushrooms"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/gold_mushrooms"
+        },
+        {
           "weight": 2,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/entity/sun_eater"
@@ -84,11 +99,6 @@
           "name": "item:item/carrot_on_a_stick/prism_soteira_memory_star"
         },
         {
-          "weight": 7,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier5_carrot_on_a_stick"
-        },
-        {
           "weight": 6,
           "type": "loot_table",
           "name": "item:item/chainmail_boots/turbine"
@@ -104,14 +114,14 @@
           "name": "item:item/crossbow/volcanic_cannon"
         },
         {
-          "weight": 8,
-          "type": "loot_table",
-          "name": "item:item/diamond_axe/death_scythe"
-        },
-        {
           "weight": 5,
           "type": "loot_table",
           "name": "item:item/diamond_axe/tier5_diamond_axe"
+        },
+        {
+          "weight": 8,
+          "type": "loot_table",
+          "name": "item:item/diamond_axe/death_scythe"
         },
         {
           "weight": 7,

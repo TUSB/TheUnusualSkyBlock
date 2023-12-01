@@ -505,6 +505,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"flying_island 釣り限定のディーナス Lv100\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Neutrality,Summon,StatueOfGoddessMercy,SpawnParticles],Level:100}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"text\":\"flying_island 下層の安山岩もどき Lv9\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[FlyingIsland,Ground,Blow,FakeAndesite,Body],Level:9}],[{Tags:[FlyingIsland,Ground,Blow,FakeAndesite,Display],Level:9}]]}}]}}"
             }
           ]
@@ -2122,6 +2133,17 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"skylands 通常湧きのアサガスト Lv10\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Sky,Shoot,MorningGhast,Main],Level:10}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"text\":\"skylands 中層のコンバットキャリアー（16m上空湧き） Lv30\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Sky,Summon,CombatSummoner,Init],Level:30}]]}}]}}"
             }
           ]
@@ -3322,6 +3344,50 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{display:{Name:'{\"text\":\"underworld ヘドロ・ガベージャ Lv20\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Underworld,Ground,Shoot,SludgeGarbager,Main],Level:20}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"underworld 赤キノコに寄生された村人 Lv12\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Underworld,Ground,Blow,RedMushroom,Parasite,SpawnParticles],Level:12}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"underworld 茶キノコに寄生された村人 Lv12\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Underworld,Ground,Summon,BrownMushroom,Parasite,SpawnParticles],Level:12}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"underworld 完全体赤キノコ Lv22\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Underworld,Ground,Blow,RedMushroom,Metamorphose,SpawnParticles],Level:22}]]}}]}}"
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:villager_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"text\":\"underworld 完全体茶キノコ Lv22\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Underworld,Ground,Summon,BrownMushroom,Metamorphose,SpawnParticles],Level:22}]]}}]}}"
             }
           ]
         },

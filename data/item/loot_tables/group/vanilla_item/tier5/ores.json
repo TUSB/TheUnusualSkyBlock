@@ -80,10 +80,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
-                "min": 16,
-                "max": 32
-              }
+              "count": 24
             }
           ]
         }

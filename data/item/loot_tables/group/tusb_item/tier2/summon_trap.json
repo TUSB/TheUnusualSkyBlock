@@ -6,30 +6,12 @@
         {
           "weight": 24,
           "type": "loot_table",
-          "name": "item:group/tusb_item/all/bomb_trap_summary",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
+          "name": "item:group/tusb_item/all/bomb_trap_summary"
         },
         {
           "weight": 24,
           "type": "loot_table",
-          "name": "item:group/tusb_item/all/huge_bomb_trap_summary",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
+          "name": "item:group/tusb_item/all/huge_bomb_trap_summary"
         },
         {
           "weight": 4,

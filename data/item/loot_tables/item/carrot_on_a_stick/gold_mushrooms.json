@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:140,CustomAttributes:1b,display:{Name:'{\"translate\":\"金キノコ\",\"color\":\"#FFC106\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"とあるキノコ型モンスターから抽出したキノコ\",\"color\":\"#FF007F\",\"italic\":false}','{\"translate\":\"強力な薬品を作成する為の材料としての使用されている\",\"color\":\"#FF007F\",\"italic\":false}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" 万能薬\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"万能薬\",Level:1,Interval:30,Trigger:\"手に持って右クリック\",Count:1}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -19,6 +19,11 @@
           "name": "item:item/carrot_on_a_stick/cure_super_ether_field"
         },
         {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/lunatic_wand"
+        },
+        {
           "weight": 2,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/infinity_iron_memory_star"
@@ -32,11 +37,6 @@
           "weight": 2,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/the_wind_memory_star"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/lunatic_wand"
         },
         {
           "weight": 6,

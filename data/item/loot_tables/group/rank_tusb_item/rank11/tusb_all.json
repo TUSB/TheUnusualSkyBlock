@@ -94,6 +94,11 @@
           "name": "item:item/carrot_on_a_stick/tusb_publicity_flyer"
         },
         {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/estrella"
+        },
+        {
           "weight": 20,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/flying_island_ticket"
@@ -192,11 +197,6 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/sapling_chance_bug_memory_star"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/estrella"
         },
         {
           "weight": 11,
@@ -991,12 +991,12 @@
         {
           "weight": 200,
           "type": "loot_table",
-          "name": "item:item/written_book/meaning_of_color_name"
+          "name": "item:item/written_book/synthesis_guide"
         },
         {
           "weight": 200,
           "type": "loot_table",
-          "name": "item:item/written_book/synthesis_guide"
+          "name": "item:item/written_book/meaning_of_color_name"
         }
       ]
     }

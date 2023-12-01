@@ -9,6 +9,11 @@
           "name": "item:item/carrot_on_a_stick/nebula_rod"
         },
         {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/weapon/statue_of_goddess_mercy"
+        },
+        {
           "weight": 2,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/infinity_netherite_memory_star"

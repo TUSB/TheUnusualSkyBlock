@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2001,HideFlags:32,Explosion:{Type:0b,Colors:[I;4358422]},key_block:{LootTable:\"item:group/vanilla_item/tier5/food\",key:\"試練の道１\"},display:{Name:'{\"translate\":\"%1$sの鍵\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false,\"with\":[{\"translate\":\"試練の道１\",\"color\":\"#428116\",\"bold\":true,\"italic\":false}]}',Lore:['{\"translate\":\"テーブルマウンテンの\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"キーブロックを開く為のキーその１\",\"color\":\"#CCCCCC\",\"italic\":false}']}}"
+              "tag": "{CustomModelData:2001,HideFlags:32,Explosion:{Type:0b,Colors:[I;4358422]},key_block:{LootTable:\"item:group/vanilla_item/tier5/food\",key:\"試練の道１\"},display:{Name:'{\"translate\":\"%1$sの鍵\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false,\"with\":[{\"translate\":\"試練の道１\",\"color\":\"#428116\",\"bold\":true,\"italic\":false}]}',Lore:['{\"translate\":\"テーブルマウンテンの\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"キーブロックを開く為の鍵その１\",\"color\":\"#CCCCCC\",\"italic\":false}']}}"
             }
           ]
         }

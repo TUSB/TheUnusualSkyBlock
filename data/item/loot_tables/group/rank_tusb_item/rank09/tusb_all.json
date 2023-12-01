@@ -6,6 +6,11 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/bow/demons_repel_bow"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/bow/amenoha_bow"
         },
         {

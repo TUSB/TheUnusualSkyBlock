@@ -42,6 +42,11 @@
           "weight": 3,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/pendulum"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_statue_of_goddess_mercy"
         }
       ]
     }

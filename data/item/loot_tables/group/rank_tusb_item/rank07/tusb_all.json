@@ -4,6 +4,11 @@
       "rolls": 1,
       "entries": [
         {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/bow/tier7_bow"
+        },
+        {
           "weight": 2,
           "type": "loot_table",
           "name": "item:item/bow/a_ray_on_the_move"
@@ -11,7 +16,7 @@
         {
           "weight": 4,
           "type": "loot_table",
-          "name": "item:item/bow/tier7_bow"
+          "name": "item:item/carrot_on_a_stick/tier7_carrot_on_a_stick"
         },
         {
           "weight": 1,
@@ -92,11 +97,6 @@
           "weight": 3,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/yggdrasil_memory_star"
-        },
-        {
-          "weight": 4,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier7_carrot_on_a_stick"
         },
         {
           "weight": 9,
@@ -301,12 +301,12 @@
         {
           "weight": 4,
           "type": "loot_table",
-          "name": "item:item/netherite_sword/rusted_blade"
+          "name": "item:item/netherite_sword/tier7_netherite_sword"
         },
         {
           "weight": 4,
           "type": "loot_table",
-          "name": "item:item/netherite_sword/tier7_netherite_sword"
+          "name": "item:item/netherite_sword/rusted_blade"
         },
         {
           "weight": 9,
@@ -337,6 +337,11 @@
           "weight": 2,
           "type": "loot_table",
           "name": "item:item/trident/gungnir"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/glasses_for_combat_races"
         },
         {
           "weight": 1,

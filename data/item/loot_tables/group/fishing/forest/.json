@@ -6,16 +6,7 @@
         {
           "weight": 3,
           "type": "loot_table",
-          "name": "item:group/vanilla_item/food/lower_food",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 12
-              }
-            }
-          ]
+          "name": "item:group/vanilla_item/food/lower_food"
         },
         {
           "weight": 3,
@@ -30,7 +21,13 @@
         {
           "weight": 3,
           "type": "loot_table",
-          "name": "item:group/potion/ether_area_ether_set"
+          "name": "item:group/potion/ether_area_ether_set",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
         },
         {
           "weight": 4,

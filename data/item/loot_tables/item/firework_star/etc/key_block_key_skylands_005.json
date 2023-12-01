@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2001,HideFlags:32,Explosion:{Type:0b,Colors:[I;16757758]},key_block:{LootTable:\"item:item/firework_star/etc/trap_spawn_assault_warden\",key:\"Unusual Sky\"},display:{Name:'{\"translate\":\"%1$sの鍵\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false,\"with\":[{\"translate\":\"Usual Sky\",\"color\":\"#FFB3FE\",\"bold\":true,\"italic\":false}]}',Lore:['{\"translate\":\"クラウティアに存在する\",\"color\":\"#FF94E8\",\"italic\":false}','{\"translate\":\"職業島のキープロックを開く為の鍵\",\"color\":\"#94E7FF\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

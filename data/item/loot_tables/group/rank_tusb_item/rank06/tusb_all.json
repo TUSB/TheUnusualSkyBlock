@@ -36,6 +36,11 @@
         {
           "weight": 2,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/holy_sword_replica"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/cold_pumpkin_soup_pot"
         },
         {
@@ -57,11 +62,6 @@
           "weight": 3,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/infinity_leather_memory_star"
-        },
-        {
-          "weight": 2,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/holy_sword_replica"
         },
         {
           "weight": 17,

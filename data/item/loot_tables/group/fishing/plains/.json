@@ -6,16 +6,7 @@
         {
           "weight": 3,
           "type": "loot_table",
-          "name": "item:group/vanilla_item/food/lower_food",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 12
-              }
-            }
-          ]
+          "name": "item:group/vanilla_item/food/lower_food"
         },
         {
           "weight": 3,

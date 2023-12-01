@@ -4,6 +4,11 @@
       "rolls": 1,
       "entries": [
         {
+          "weight": 11,
+          "type": "loot_table",
+          "name": "item:item/bow/tier3_bow"
+        },
+        {
           "weight": 10,
           "type": "loot_table",
           "name": "item:item/bow/fion_seatra"
@@ -14,9 +19,9 @@
           "name": "item:item/bow/nermai_resanter"
         },
         {
-          "weight": 11,
+          "weight": 12,
           "type": "loot_table",
-          "name": "item:item/bow/tier3_bow"
+          "name": "item:item/carrot_on_a_stick/tier3_carrot_on_a_stick"
         },
         {
           "weight": 10,
@@ -119,6 +124,11 @@
           "name": "item:item/carrot_on_a_stick/pendulum"
         },
         {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/kaentake_mushroom"
+        },
+        {
           "weight": 5,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/tier3_iron_memory_star"
@@ -127,11 +137,6 @@
           "weight": 5,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/blood_menace_memory_star"
-        },
-        {
-          "weight": 12,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier3_carrot_on_a_stick"
         },
         {
           "weight": 13,

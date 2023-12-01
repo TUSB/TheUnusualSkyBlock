@@ -72,7 +72,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 8
+              "count": 16
             }
           ]
         },

@@ -44,6 +44,11 @@
           "name": "item:item/carrot_on_a_stick/contraindicated_hell_drop"
         },
         {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/green_mushrooms"
+        },
+        {
           "weight": 40,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/entity/scarecrow_doll"
@@ -229,7 +234,7 @@
           "name": "item:item/warped_fungus_on_a_stick/villager_nose"
         },
         {
-          "weight": 12,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/glasses"
         },

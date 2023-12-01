@@ -4,6 +4,11 @@
       "rolls": 1,
       "entries": [
         {
+          "weight": 25,
+          "type": "loot_table",
+          "name": "item:item/bow/tier1_bow"
+        },
+        {
           "weight": 22,
           "type": "loot_table",
           "name": "item:item/bow/hunter_bow"
@@ -11,7 +16,7 @@
         {
           "weight": 25,
           "type": "loot_table",
-          "name": "item:item/bow/tier1_bow"
+          "name": "item:item/carrot_on_a_stick/tier1_carrot_on_a_stick"
         },
         {
           "weight": 25,
@@ -117,11 +122,6 @@
           "weight": 10,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/tier1_chainmail_memory_star"
-        },
-        {
-          "weight": 25,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier1_carrot_on_a_stick"
         },
         {
           "weight": 50,
