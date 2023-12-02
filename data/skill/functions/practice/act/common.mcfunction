@@ -50,6 +50,7 @@ execute if data storage skill: Skill{Name:"怪しい粉"} run function skill:act
 execute if data storage skill: Skill{Name:"断罪"} run function skill:act/common/condemnation/act0
 execute if data storage skill: Skill{Name:"サン"} run function skill:act/common/sun/act0
 execute if data storage skill: Skill{Name:"ムーン"} run function skill:act/common/moon/act0
+execute if data storage skill: Skill{Name:"どこでも回復の泉"} run function skill:act/common/fountain_of_recovery_everywhere/act0
 execute if data storage skill: Skill{Name:"MP回復"} run function skill:act/common/mp_recovery/act0
 execute if data storage skill: Skill{Name:"範囲MP回復"} run function skill:act/common/range_mp_recovery/act0
 execute if data storage skill: Skill{Name:"キュアフィールド"} run function skill:act/common/cure_field/act0
