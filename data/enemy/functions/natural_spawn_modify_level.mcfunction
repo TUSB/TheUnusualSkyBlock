@@ -21,8 +21,10 @@ scoreboard players operation _ _ >< @s _
 
 # _ _ 占有
 execute store result score _ _ run function calc:random
+execute if score _ _ matches 0..511 run scoreboard players set @s Calc 10
 execute if score _ _ matches 0..511 run scoreboard players add @s _ 10
 execute if score _ _ matches 0..511 run scoreboard players operation @s _ *= @s Calc
+execute if score _ _ matches 0..511 run tag @s add MutatedSpawn
 # @s Calc 解放
 # _ _ 解放
 scoreboard players operation @s Level = @s _

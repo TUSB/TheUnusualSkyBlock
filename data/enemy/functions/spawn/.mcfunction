@@ -8,6 +8,8 @@ scoreboard players operation _ Level = @s Level
 data modify storage tusb_mob: Pos set from entity @s Pos
 data modify storage tusb_mob: Rotation set from entity @s Rotation
 data modify storage tusb_mob: Count set from entity @s ArmorItems[3].tag.Count
+execute store result storage tusb_mob: Extra.NaturalSpawn byte 1 if entity @s[tag=NaturalSpawn]
+execute store result storage tusb_mob: Extra.MutatedSpawn byte 1 if entity @s[tag=MutatedSpawn]
 ### 例えば、村人が複数のタグを持っていたら？
 ### タグで判定するとしても、リストで保持しておいて、タグに移してから反映とかの方がいいかも
 data modify storage tusb_mob: MobLayers set from entity @s ArmorItems[3].tag.SpawnEntities
