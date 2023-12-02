@@ -1,5 +1,6 @@
 #自然湧きのVexにスポーンタグを付与
 tag @s add Spawn
+tag @s add NaturalSpawn
 loot replace entity @s armor.head loot settings:enemy/natural_spawn
 function enemy:natural_spawn_modify_level
 #召喚に失敗した場合はそのまま残す

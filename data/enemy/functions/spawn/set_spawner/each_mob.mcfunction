@@ -42,6 +42,10 @@ data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList[-1].Level set from storage tusb_mob: MobTags[-1].Level
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList[-1]."遅延ステータス" set from storage tusb_mob: "遅延ステータス"
 
+# 自然湧き用処理
+# tellraw @p [{"text":"LootTable: "},{"nbt":"","entity":"@s"}]
+execute if data storage tusb_mob: Extra{NaturalSpawn:1b} run function enemy:spawn/set_spawner/for_natural_spawn
+
 # 親IDを保存する
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList[-1].ParentID set from storage tusb_mob: MobTags[-1].ParentID
 
