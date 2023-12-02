@@ -1,5 +1,5 @@
 function calc:island/clear_count_percent
-scoreboard players set _ Ret 100
+
 
 execute if score _ Ret matches 20.. run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList[-1]."遅延ステータス"."ステータス".LootTable append from storage tusb_mob: "遅延ステータス"."ステータス".LootTable[]
 execute if score _ Ret matches 40.. run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList[-1]."遅延ステータス"."ステータス".LootTable append from storage tusb_mob: "遅延ステータス"."ステータス".LootTable[]
