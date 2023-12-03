@@ -1,3 +1,5 @@
+execute in area:skylands positioned -71 12 -618 run forceload add ~ ~
+execute in area:skylands positioned -71 12 -618 run summon armor_stand ~ ~1 ~ {Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,OrdinaryPerson,WalkingDictionary],Level:100}]]}}]}
 execute in area:skylands positioned -60 22 -588 run forceload add ~ ~
 execute in area:skylands positioned -60 22 -588 run summon armor_stand ~ ~1 ~ {Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Friendly,Blow,Employee,Pappas],Level:100}]]}}]}
 execute in area:skylands positioned -79 23 -586 run forceload add ~ ~
