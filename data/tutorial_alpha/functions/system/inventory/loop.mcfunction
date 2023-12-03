@@ -4,4 +4,4 @@ execute store result storage tutorial_alpha: pop.Items[-1].Slot byte 1 run score
 data modify block 2 2 2 Items append from storage tutorial_alpha: pop.Items[-1]
 data remove storage tutorial_alpha: pop.Items[-1]
 
-execute if data storage tutorial_alpha: pop.Items[-1] run function skill:act/common/restore_item/restore/inventory
+execute if data storage tutorial_alpha: pop.Items[-1] run function tutorial_alpha:system/inventory/loop
