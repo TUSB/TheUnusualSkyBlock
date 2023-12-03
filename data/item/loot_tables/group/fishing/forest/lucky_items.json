@@ -29,6 +29,20 @@
           "name": "item:group/vanilla_item/tier_all/ender_pearl"
         },
         {
+          "weight": 8,
+          "type": "minecraft:item",
+          "name": "minecraft:wither_rose",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
           "weight": 6,
           "type": "loot_table",
           "name": "item:item/potion/very_glow"

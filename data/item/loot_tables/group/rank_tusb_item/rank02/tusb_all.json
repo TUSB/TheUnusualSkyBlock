@@ -29,7 +29,7 @@
           "name": "item:item/carrot_on_a_stick/cure_vile_ether_field"
         },
         {
-          "weight": 5,
+          "weight": 10,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/cold_pumpkin_soup"
         },

@@ -16,7 +16,16 @@
         {
           "weight": 3,
           "type": "minecraft:item",
-          "name": "minecraft:bundle"
+          "name": "minecraft:bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
         },
         {
           "weight": 3,
@@ -174,7 +183,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 32
+                "max": 31
               }
             }
           ]

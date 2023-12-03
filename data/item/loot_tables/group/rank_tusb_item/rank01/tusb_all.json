@@ -69,7 +69,7 @@
           "name": "item:item/carrot_on_a_stick/holy_water"
         },
         {
-          "weight": 13,
+          "weight": 40,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/corn_soup"
         },
