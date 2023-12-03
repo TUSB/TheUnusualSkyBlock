@@ -1,0 +1,83 @@
+{
+  "criteria": {
+    "gate_1": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "end_gateway",
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "entity:player"
+          },
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "x": {
+                    "min": -4298,
+                    "max": -4296
+                  },
+                  "y": {
+                    "min": 32,
+                    "max": 36
+                  },
+                  "z": {
+                    "min": 806,
+                    "max": 809
+                  }
+                },
+                "dimension": "area:debug_room"
+              }
+            }
+          }
+        ]
+      }
+    },
+    "gate_2": {
+      "trigger": "minecraft:enter_block",
+      "conditions": {
+        "block": "end_gateway",
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "entity:player"
+          },
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "position": {
+                  "x": {
+                    "min": -4298,
+                    "max": -4296
+                  },
+                  "y": {
+                    "min": 32,
+                    "max": 36
+                  },
+                  "z": {
+                    "min": 726,
+                    "max": 729
+                  }
+                },
+                "dimension": "area:debug_room"
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "gate_1",
+      "gate_2"
+    ]
+  ],
+  "rewards": {
+    "function": "area:jump_to/trigger/debug_room/cloudia/"
+  }
+}

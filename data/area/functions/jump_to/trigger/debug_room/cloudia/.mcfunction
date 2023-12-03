@@ -1,0 +1,1 @@
+schedule function area:jump_to/trigger/debug_room/cloudia/schedule 1t replace
