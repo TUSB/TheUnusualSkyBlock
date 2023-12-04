@@ -3,6 +3,7 @@
     "minecraft:torch",
     "minecraft:cobweb",
     "minecraft:vine",
-    "minecraft:ender_eye"
+    "minecraft:ender_eye",
+    "minecraft:filled_map"
   ]
 }
