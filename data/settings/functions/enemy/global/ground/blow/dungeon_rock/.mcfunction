@@ -1,6 +1,8 @@
 execute if entity @s[tag=Main] run function settings:enemy/global/ground/blow/dungeon_rock/main
 execute if entity @s[tag=Display] run function settings:enemy/global/ground/blow/dungeon_rock/display
+execute if entity @s[tag=DamageColor] run function settings:enemy/global/ground/blow/dungeon_rock/damage_color
 execute if entity @s[tag=ParticleAndSound] run function settings:enemy/global/ground/blow/dungeon_rock/particle_and_sound
+execute if entity @s[tag=ScaleUp] run function settings:enemy/global/ground/blow/dungeon_rock/scale_up
 execute if entity @s[tag=DisplayAnime1A] run function settings:enemy/global/ground/blow/dungeon_rock/display_anime1_a
 execute if entity @s[tag=DisplayAnime1B] run function settings:enemy/global/ground/blow/dungeon_rock/display_anime1_b
 execute if entity @s[tag=DisplayAnime1C] run function settings:enemy/global/ground/blow/dungeon_rock/display_anime1_c
@@ -17,3 +19,4 @@ execute if entity @s[tag=DisplayAnime4A] run function settings:enemy/global/grou
 execute if entity @s[tag=DisplayAnime4B] run function settings:enemy/global/ground/blow/dungeon_rock/display_anime4_b
 execute if entity @s[tag=DisplayAnime4C] run function settings:enemy/global/ground/blow/dungeon_rock/display_anime4_c
 execute if entity @s[tag=DisplayAnime4D] run function settings:enemy/global/ground/blow/dungeon_rock/display_anime4_d
+execute if entity @s[tag=NormalColor] run function settings:enemy/global/ground/blow/dungeon_rock/normal_color
