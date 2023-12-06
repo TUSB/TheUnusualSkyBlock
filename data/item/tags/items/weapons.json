@@ -9,6 +9,8 @@
     "minecraft:netherite_sword",
     "minecraft:trident",
     "minecraft:carrot_on_a_stick",
+    "minecraft:bow",
+    "minecraft:crossbow",
     "#item:tools"
   ]
 }
