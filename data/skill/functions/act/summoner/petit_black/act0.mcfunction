@@ -6,7 +6,7 @@
     function skill:damage/add/skill/magic
 
 # 矢とAECを召喚
-    execute anchored eyes run summon arrow ^ ^ ^0.5 {Tags:[Skill,PetitBlackBullet,NativeTask,FlyingRequired,KillInGround],NoGravity:1b,damage:1,Color:11144657,Passengers:[{id:"minecraft:area_effect_cloud",Duration:200,Tags:[Skill,PetitBlack,NativeTask]}]}
+    execute anchored eyes run summon arrow ^ ^ ^0.5 {Tags:[Skill,PetitBlackBullet,NativeTask,FlyingRequired,KillInGround],NoGravity:1b,damage:1,Color:11144657,Passengers:[{id:"minecraft:area_effect_cloud",Duration:300,Tags:[Skill,PetitBlack,NativeTask]}]}
     execute as @e[tag=PetitBlackBullet,tag=!Initialized,distance=..3] positioned 0.0 0.0 0.0 positioned ^ ^ ^0.5 run function calc:throw_projectile/
 #コアのダメージを保存
     execute as @e[tag=PetitBlack,tag=!Initialized,distance=..3] run function skill:damage/save
