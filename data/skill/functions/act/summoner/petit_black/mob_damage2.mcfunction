@@ -1,7 +1,7 @@
 #> skill:act/summoner/petit_black/mob_damage2
 # モブを実行者にして距離を測り、ダメージを与える
 # 半径計算
-    scoreboard players set _ Calc 12
+    scoreboard players set _ Calc 6
     scoreboard players operation # Calc *= _ Calc
     scoreboard players add # Calc 100
 # 距離を取得
