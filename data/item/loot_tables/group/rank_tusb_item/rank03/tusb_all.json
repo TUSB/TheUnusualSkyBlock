@@ -69,7 +69,7 @@
           "name": "item:item/carrot_on_a_stick/immunity"
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/nil"
         },
