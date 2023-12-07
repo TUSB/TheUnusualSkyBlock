@@ -49,6 +49,7 @@ execute unless score @s[tag=SmartMotion] sm.E matches -2147483648..2147483647 ru
 scoreboard players add @s[tag=DamageProjectile] NativeFlag 1
 scoreboard players add @s[tag=SmartMotion] NativeFlag 1
 scoreboard players add @s[tag=NativeTask] NativeFlag 1
+scoreboard players add @s[tag=Mutated] NativeFlag 1
 
 ### 初期化済みタグ付与
 tag @s add Initialized

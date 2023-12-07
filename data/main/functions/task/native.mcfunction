@@ -23,6 +23,9 @@ execute if entity @s[scores={NativeFlag=100..}] run function main:task/temporary
 ###SmartMotion
 execute if entity @s[tag=SmartMotion] run function smart_motion:core/entity_tick
 
+### Mutated
+execute if entity @s[tag=Mutated] run function makeup:enemy/mutated
+
 ###投射物ヒット検知
 execute if entity @s[tag=DamageProjectile] run function entity:projectile_hit/
 
