@@ -11,5 +11,8 @@ data modify storage main: difficult.world set value "debug"
 # スコアホルダー節約のために $World RequiredExp を用いる。
 scoreboard players set $World RequiredExp 5
 
+# エキスパートのみKeepInventoryはfalseとなる
+gamerule keepInventory true
+
 # デバッグ用なのでtranslateじゃなくてもいいよ
 tellraw @a {"translate":"難易度を%1$sに変更しました。","with":[{"text":"デバッグ","color":"dark_gray"}]}
