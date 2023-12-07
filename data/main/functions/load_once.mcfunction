@@ -13,12 +13,8 @@ data modify storage main: Repository set value {CommitHash:"__GIT_COMMIT_HASH__"
 function settings:version_update/check/
 
 ###ゲームルール
-gamerule forgiveDeadPlayers false
-gamerule universalAnger true
-time set 14000
-gamerule doDaylightCycle false
-gamerule maxCommandChainLength 1048576
-gamerule keepInventory true
+execute unless data storage main: {debug:1b} run time set 14000
+function settings:main/define/gamerule
 
 ###ステータス
 scoreboard objectives add Level dummy {"text":"レベル"}
