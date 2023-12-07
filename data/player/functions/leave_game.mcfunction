@@ -1,3 +1,5 @@
+#難易度修正
+difficulty hard
 
 #エンチャント・金床 schedule 再起動
 execute if entity @e[distance=..7,tag=EnchantTable] run schedule function item:enchant/enchanting_table/schedule 2t
