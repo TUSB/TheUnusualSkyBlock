@@ -2,21 +2,21 @@
 # 定期的に
 data modify storage mob_data: CCHelper.Repeat.texts set value ["次の方どうぞ。"]
 data modify storage mob_data: CCHelper.Repeat.y_offset set value 0.6f
-data modify storage mob_data: CCHelper.Repeat.background set value "#C6D9CB"
+data modify storage mob_data: CCHelper.Repeat.background set value "#FFC6D9CB"
 data modify storage mob_data: CCHelper.Repeat.palette set value {0:'{"text":"","color":"#FF0000"}',1:'{"text":"","color":"#FF8000"}',2:'{"text":"","color":"#FFFF00"}',3:'{"text":"","color":"#B7FF00"}',4:'{"text":"","color":"#00FF00"}',5:'{"text":"","color":"#00FF66"}',6:'{"text":"","color":"#00FFC2"}',7:'{"text":"","color":"#00A5FF"}',8:'{"text":"","color":"#AA00FF"}',9:'{"text":"","color":"#FF009A"}',a:'{"text":"","color":"#FFFFFF"}',b:'{"text":"","color":"#cecece"}',c:'{"text":"","color":"#888888"}',d:'{"text":"","color":"#555555"}',e:'{"text":"","color":"#000000"}',f:'{"storage":"skill:","nbt":"NewLine","interpret":true}'}
 data modify storage mob_data: Tags append value CCHelperRepeat
 
 # 目が合ったら
 data modify storage mob_data: CCHelper.Insight.texts set value ["§7青色の職業チケット§rを購入し\\nお好きな職業に就いて下さい。\\nその後§0ゲーム難易度§rを選択した後\\n中央の穴に落ちて下さい。"]
 data modify storage mob_data: CCHelper.Insight.y_offset set value 0.6f
-data modify storage mob_data: CCHelper.Insight.background set value "#C6D9CB"
+data modify storage mob_data: CCHelper.Insight.background set value "#FFC6D9CB"
 data modify storage mob_data: CCHelper.Insight.palette set value {0:'{"text":"","color":"#FF0000"}',1:'{"text":"","color":"#FF8000"}',2:'{"text":"","color":"#FFFF00"}',3:'{"text":"","color":"#B7FF00"}',4:'{"text":"","color":"#00FF00"}',5:'{"text":"","color":"#00FF66"}',6:'{"text":"","color":"#00FFC2"}',7:'{"text":"","color":"#0000FF"}',8:'{"text":"","color":"#AA00FF"}',9:'{"text":"","color":"#FF009A"}',a:'{"text":"","color":"#FFFFFF"}',b:'{"text":"","color":"#cecece"}',c:'{"text":"","color":"#888888"}',d:'{"text":"","color":"#555555"}',e:'{"text":"","color":"#000000"}',f:'{"storage":"skill:","nbt":"NewLine","interpret":true}'}
 data modify storage mob_data: Tags append value CCHelperInsight
 
 # 話し掛けたら
 data modify storage mob_data: CCHelper.Interact.texts set value ["この角、実は光るんですよ。\\n夜間でもバッチリ書類が見えます。"]
 data modify storage mob_data: CCHelper.Interact.y_offset set value 0.6f
-data modify storage mob_data: CCHelper.Interact.background set value "#C6D9CB"
+data modify storage mob_data: CCHelper.Interact.background set value "#FFC6D9CB"
 data modify storage mob_data: CCHelper.Interact.palette set value {0:'{"text":"","color":"#FF0000"}',1:'{"text":"","color":"#FF8000"}',2:'{"text":"","color":"#FFFF00"}',3:'{"text":"","color":"#B7FF00"}',4:'{"text":"","color":"#00FF00"}',5:'{"text":"","color":"#00FF66"}',6:'{"text":"","color":"#00FFC2"}',7:'{"text":"","color":"#0000FF"}',8:'{"text":"","color":"#AA00FF"}',9:'{"text":"","color":"#FF009A"}',a:'{"text":"","color":"#FFFFFF"}',b:'{"text":"","color":"#cecece"}',c:'{"text":"","color":"#888888"}',d:'{"text":"","color":"#555555"}',e:'{"text":"","color":"#000000"}',f:'{"storage":"skill:","nbt":"NewLine","interpret":true}'}
 data modify storage mob_data: Tags append value CCHelperInteract
 
