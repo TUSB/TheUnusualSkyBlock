@@ -4,7 +4,6 @@ execute store result score @s _ run data get entity @s ArmorItems[3].tag.SpawnEn
 scoreboard players add @s _ 1
 # _ Calc 占有
 execute store result score _ Calc run function calc:island/clear_count_percent
-scoreboard players add _ Calc 100
 scoreboard players operation _ Calc *= _ Calc
 scoreboard players add _ Calc 2000
 # _ _ 占有
