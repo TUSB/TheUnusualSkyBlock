@@ -1,6 +1,7 @@
 execute if entity @s[tag=HandingOutFlyers] run function settings:enemy/skylands/friendly/blow/employee/handing_out_flyers
 execute if entity @s[tag=Lucky] run function settings:enemy/skylands/friendly/blow/employee/lucky
 execute if entity @s[tag=Pappas] run function settings:enemy/skylands/friendly/blow/employee/pappas
+execute if entity @s[tag=Lines] run function settings:enemy/skylands/friendly/blow/employee/lines
 execute if entity @s[tag=Bank] run function settings:enemy/skylands/friendly/blow/employee/bank
 execute if entity @s[tag=Farmer] run function settings:enemy/skylands/friendly/blow/employee/farmer
 execute if entity @s[tag=Ender] run function settings:enemy/skylands/friendly/blow/employee/ender

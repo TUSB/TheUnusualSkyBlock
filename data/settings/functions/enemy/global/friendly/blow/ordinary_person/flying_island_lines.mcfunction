@@ -2,7 +2,7 @@
 # 改行はskill: NewLineを使わせてもらう。
 # §fで改行可
 # 話し掛けたら
-data modify storage mob_data: CCHelper.Interact.texts set value ["ここに来るのはもしかして初めてかな？§fここは飛空島だよ。かつてここには何かの装置があったみたい。§fきっと重要な施設だったんだろうなー。君はどう思う？§fここに住む族に聞いてみたんだけど、「記念碑として残している」らしいんだ。§f何か卵を使用して力を得ていたらしいよ。僕の考えとしてはきっと職業に関係していたんだろうね。"]
+data modify storage mob_data: CCHelper.Interact.texts set value ["ここに来るのはもしかして初めてかな？§fここは飛空島だよ。かつてここには何かの装置があったみたい。§fきっと重要な施設だったんだろうなー。君はどう思う？","ここに住む族に聞いてみたんだけど、「記念碑として残している」らしいんだ。§f何か卵を使用して力を得ていたらしいよ。僕の考えとしてはきっと職業に関係していたんだろうね。"]
 data modify storage mob_data: CCHelper.Interact.y_offset set value 0.6f
 data modify storage mob_data: CCHelper.Interact.background set value "#FFF8EB"
 data modify storage mob_data: CCHelper.Interact.palette set value {f:'{"storage":"skill:","nbt":"NewLine","interpret":true}'}

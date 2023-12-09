@@ -9,7 +9,7 @@ data modify storage mob_data: CCHelper.Interact.palette set value {f:'{"storage"
 data modify storage mob_data: Tags append value "CCHelperInteract"
 
 # 目があったら
-data modify storage mob_data: CCHelper.Insight.texts set value ["おや、初めましてかな？ 僕は「モノシリー」色々な場所を巡っている村人だよ。§f僕の役目は君のような存在に情報を提供することさ。§fチュートリアルは済ませたかな？ 初めてならそこの§b主張が激しい看板§rを右クリックするといいよ。"]
+data modify storage mob_data: CCHelper.Insight.texts set value ["おや、初めましてかな？ 僕は「モノシリー」色々な場所を巡っている村人だよ。§f僕の役目は君のような存在に情報を提供することさ。","チュートリアルは済ませたかな？ 初めてならそこの§b主張が激しい看板§rを右クリックするといいよ。"]
 data modify storage mob_data: CCHelper.Insight.y_offset set value 0.6f
 data modify storage mob_data: CCHelper.Insight.background set value "#FFF8D6"
 data modify storage mob_data: CCHelper.Insight.palette set value {f:'{"storage":"skill:","nbt":"NewLine","interpret":true}'}
