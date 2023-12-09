@@ -7,4 +7,4 @@ data modify storage tusb_mob: "即時ステータス"."ノックバック耐性"
 data modify storage tusb_mob: "即時ステータス"."ノックバック力" set value 0d
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"一部の商品は着色しただけのただの水じゃよ。売れるだけ儲かるわ、ホッホッホ。"}]'
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Function",Tags:[Skylands,Friendly,Blow,Employee,Lines]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Function",Tags:[Skylands,Friendly,Blow,Employee,PappasLines]}]}
