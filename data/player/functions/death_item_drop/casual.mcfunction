@@ -18,7 +18,6 @@
 # 墓情報をディスプレイに刻む
     data modify storage item: Items set from entity @s Inventory
     execute if data storage item: Items[0] in area:control_area run function player:death_item_drop/tomb
-    execute unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DeathInventory[0] run kill @e[type=item_display,distance=..0.01,tag=TombInit]
 
 # 名前を表示するためのtext_displayを呼び出す
     summon text_display ~ ~ ~ {billboard:"center",alignment:"center",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,1f,0f],scale:[1f,1f,1f]},text:'{"text":""}',Tags:[TombName,TombInit]}
@@ -32,6 +31,10 @@
     execute in area:control_area run loot give @s mine 2 2 2 debug_stick
     data modify entity @e[type=text_display,distance=..0.01,tag=TombInit,limit=1] text set from entity @s Inventory[0].tag.display.Name
     clear @s
+
+# 墓を生成しない場合は削除
+    execute unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DeathInventory[0] run kill @e[distance=..0.01,tag=TombInit]
+    execute unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DeathInventory[0] run kill @e[distance=..0.01,tag=TombInit2]
 
 # Oh_my_dat リセット
     function #oh_my_dat:please
