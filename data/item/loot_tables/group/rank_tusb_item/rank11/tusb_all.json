@@ -997,6 +997,11 @@
           "weight": 200,
           "type": "loot_table",
           "name": "item:item/written_book/meaning_of_color_name"
+        },
+        {
+          "weight": 200,
+          "type": "loot_table",
+          "name": "item:item/written_book/enchant_book"
         }
       ]
     }
