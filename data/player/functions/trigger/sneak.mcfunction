@@ -14,6 +14,9 @@ execute if score @s SneakTime matches ..2 run scoreboard players reset @s SneakT
 # スニーク解除時スキル
 execute if score @s[gamemode=!spectator] SneakTime matches 2 if data entity @s[predicate=skill:trigger/weapon/] Inventory[{tag:{Skill:{Trigger:"剣を持った状態でスニーク解除"}}}] run function skill:trigger/after_sneak_skill
 
+# 近くに墓がある場合、墓からものを取り出す
+    execute if score @s SneakTime matches 3 as @e[type=item_display,tag=Tomb,distance=..1] run function player:death_item_drop/tomb_drop
+
 ##スニーク状態取得
 scoreboard players set _ _ 2
 scoreboard players operation @s SneakTime *= _ _
