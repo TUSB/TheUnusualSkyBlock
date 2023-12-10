@@ -1,3 +1,7 @@
+execute in area:flying_island positioned -638 88 -782 run forceload add ~ ~
+execute in area:flying_island positioned -638 88 -782 run data merge block ~ ~ ~ {CustomName:'{"translate":"記念碑チェスト","color":"#FFE049","bold":true,"italic":false}',Lock:"item:chest/flying_island/unique/monument_left",LootTable:"item:chest/flying_island/unique/monument_left"}
+execute in area:flying_island positioned -638 88 -783 run forceload add ~ ~
+execute in area:flying_island positioned -638 88 -783 run data merge block ~ ~ ~ {CustomName:'{"translate":"固定チェスト","color":"#FFE049","bold":true,"italic":false}',Lock:"item:chest/flying_island/unique/monument_right",LootTable:"item:chest/flying_island/unique/monument_right"}
 execute in area:flying_island positioned -768 87 -811 run forceload add ~ ~
 execute in area:flying_island positioned -768 87 -811 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/flying_island/rank04_chest_large/large_06_currency_left",LootTable:"item:chest/flying_island/rank04_chest_large/large_06_currency_left"}
 execute in area:flying_island positioned -768 87 -810 run forceload add ~ ~
