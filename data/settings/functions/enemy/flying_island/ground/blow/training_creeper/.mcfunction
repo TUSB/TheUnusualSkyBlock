@@ -1,1 +1,1 @@
-execute if entity @s[tag=Creeper] run function settings:enemy/flying_island/ground/blow/training_creeper/creeper
+execute if entity @s[tag=Main] run function settings:enemy/flying_island/ground/blow/training_creeper/main
