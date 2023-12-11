@@ -695,6 +695,17 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[TocultColde,Ground,Shoot,FlagBrown,Main,SpawnParticles],Level:30}]],Count:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 10,
           "name": "minecraft:stick",
           "functions": [
@@ -1693,6 +1704,17 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Neutrality,Blow,PassingTree,Main,SpawnParticles],Level:40}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 3,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[TocultColde,Ground,Shoot,FlagBrown,Main,SpawnParticles],Level:30}]],Count:3}"
             }
           ]
         },

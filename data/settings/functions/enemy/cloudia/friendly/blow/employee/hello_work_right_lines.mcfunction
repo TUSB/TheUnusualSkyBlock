@@ -1,11 +1,4 @@
 #Function
-# 定期的に
-data modify storage mob_data: CCHelper.Repeat.texts set value ["次の方どうぞ。"]
-data modify storage mob_data: CCHelper.Repeat.y_offset set value 0.6f
-data modify storage mob_data: CCHelper.Repeat.background set value "#FFC6D9CB"
-data modify storage mob_data: CCHelper.Repeat.palette set value {0:'{"text":"","color":"#FF0000"}',1:'{"text":"","color":"#FF8000"}',2:'{"text":"","color":"#F1C232"}',3:'{"text":"","color":"#B7FF00"}',4:'{"text":"","color":"#00FF00"}',5:'{"text":"","color":"#00FF66"}',6:'{"text":"","color":"#00FFC2"}',7:'{"text":"","color":"#0000FF"}',8:'{"text":"","color":"#AA00FF"}',9:'{"text":"","color":"#FF009A"}',a:'{"text":"","color":"#FFFFFF"}',b:'{"text":"","color":"#cecece"}',c:'{"text":"","color":"#888888"}',d:'{"text":"","color":"#555555"}',e:'{"text":"","color":"#000000"}',f:'{"storage":"skill:","nbt":"NewLine","interpret":true}'}
-data modify storage mob_data: Tags append value CCHelperRepeat
-
 # 目が合ったら
 data modify storage mob_data: CCHelper.Insight.texts set value ["ようこそ、ここは§0職業島§rです。\\n§2金色の職業チケット§rは任意のタイミングで\\n各職業に就職可能となるTUSBメモリーです。\\n購入する機会がありましたら是非使用してみて下さいね。"]
 data modify storage mob_data: CCHelper.Insight.y_offset set value 0.6f
