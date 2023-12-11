@@ -18,6 +18,10 @@ execute in area:flying_island positioned -805 46 -761 run forceload add ~ ~
 execute in area:flying_island positioned -805 46 -761 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3B1C02","bold":true,"italic":false}',Lock:"item:chest/flying_island/rank07_chest_single/single_02_nether_star",LootTable:"item:chest/flying_island/rank07_chest_single/single_02_nether_star"}
 execute in area:flying_island positioned -818 75 -812 run forceload add ~ ~
 execute in area:flying_island positioned -818 75 -812 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#3B1C02","bold":true,"italic":false}',Lock:"item:chest/flying_island/rank08_chest_single/single_02_nether_star",LootTable:"item:chest/flying_island/rank08_chest_single/single_02_nether_star"}
+execute in area:flying_island positioned -797 30 -788 run forceload add ~ ~
+execute in area:flying_island positioned -797 30 -788 run data merge block ~ ~ ~ {CustomName:'{"translate":"記念碑チェスト","color":"#FFE049","bold":true,"italic":false}',Lock:"item:chest/flying_island/unique/shinto_shrine_left",LootTable:"item:chest/flying_island/unique/shinto_shrine_left"}
+execute in area:flying_island positioned -797 30 -787 run forceload add ~ ~
+execute in area:flying_island positioned -797 30 -787 run data merge block ~ ~ ~ {CustomName:'{"translate":"固定チェスト","color":"#FFE049","bold":true,"italic":false}',Lock:"item:chest/flying_island/unique/shinto_shrine_right",LootTable:"item:chest/flying_island/unique/shinto_shrine_right"}
 execute in area:flying_island positioned -798 27 -787 run forceload add ~ ~
 execute in area:flying_island positioned -798 27 -787 run data merge block ~ ~ ~ {CustomName:'{"translate":"隠し報酬","color":"#FCCA67","bold":true,"italic":false}',Lock:"item:chest/flying_island/rank_all_dispenser/all",LootTable:"item:chest/flying_island/rank_all_dispenser/all"}
 execute in area:flying_island positioned -630 104 -747 run forceload add ~ ~
