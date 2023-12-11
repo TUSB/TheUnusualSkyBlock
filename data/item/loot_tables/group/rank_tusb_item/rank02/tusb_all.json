@@ -19,7 +19,7 @@
           "name": "item:item/carrot_on_a_stick/arcadia"
         },
         {
-          "weight": 14,
+          "weight": 16,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/ether"
         },
