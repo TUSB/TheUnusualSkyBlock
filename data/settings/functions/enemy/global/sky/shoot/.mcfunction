@@ -9,5 +9,6 @@ execute if entity @s[tag=Ghast] run function settings:enemy/global/sky/shoot/gha
 execute if entity @s[tag=Combat] run function settings:enemy/global/sky/shoot/combat/
 execute if entity @s[tag=SuperSteve] run function settings:enemy/global/sky/shoot/super_steve/
 execute if entity @s[tag=SecurityPoleDual] run function settings:enemy/global/sky/shoot/security_pole_dual/
+execute if entity @s[tag=Yasaosan] run function settings:enemy/global/sky/shoot/yasaosan/
 execute if entity @s[tag=LostSoulWhite] run function settings:enemy/global/sky/shoot/lost_soul_white/
 execute if entity @s[tag=LostSoulRed] run function settings:enemy/global/sky/shoot/lost_soul_red/
