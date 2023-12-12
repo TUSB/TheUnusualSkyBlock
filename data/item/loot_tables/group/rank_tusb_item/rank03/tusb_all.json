@@ -49,7 +49,7 @@
           "name": "item:item/carrot_on_a_stick/dubious_powder"
         },
         {
-          "weight": 6,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/high_ether"
         },

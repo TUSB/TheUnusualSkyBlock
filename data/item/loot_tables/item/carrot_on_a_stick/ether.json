@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:25,CustomAttributes:1b,Enchantments:[{}],display:{Name:'{\"translate\":\"エーテル\",\"color\":\"#6AA84F\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"一般的な市販薬と知られる\",\"color\":\"gray\"}','{\"translate\":\"平凡な造りをしたポーション。\",\"color\":\"gray\"}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" MP回復Ⅱ\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"MP回復\",Level:2,Interval:30,Trigger:\"手に持って右クリック\",Count:5}}"
+              "tag": "{CustomModelData:25,CustomAttributes:1b,Enchantments:[{}],display:{Name:'{\"translate\":\"エーテル\",\"color\":\"#6AA84F\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"一般的な市販薬と知られる\",\"color\":\"gray\"}','{\"translate\":\"平凡な造りをしたポーション。\",\"color\":\"gray\"}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" MP回復Ⅱ\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"MP回復\",Level:2,Interval:80,Trigger:\"手に持って右クリック\",Count:5}}"
             }
           ]
         }

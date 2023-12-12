@@ -1,0 +1,27 @@
+### 即時ステータス
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:husk",CustomName:'{"translate":"コンバットフラッガー・ブラウン","color":"#FFFFFF","bold":true}',Silent:1b,ActiveEffects:[{Id:14,Amplifier:1b,Duration:-1,ShowParticles:false},{Id:28,Amplifier:0b,Duration:-1,ShowParticles:false}],PortalCooldown:3000,DeathLootTable:"empty",Tags:[Mob,Enemy,DelayedData,HasAI,CallOnDeath,CallOnInit,CallOnDamage,TickingRequired,DamageProjectile,EnemyProjectile,HasLootTable,AnalyseLog]}
+data modify storage tusb_mob: "即時ステータス"."見た目" set value {HandItems:[{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;2,0,0,0],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWFjYzE2MGZkMTdhNmZjNmVkZDIzODE4NWJmNDgxOTdiN2JmN2U0MTc4NDdiMzdiMDY0ZjczYzBhYTlhOTNiOCJ9fX0="}]}}}},{id:"minecraft:player_head",Count:1b,tag:{SkullOwner:{Id:[I;2,0,0,0],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWFjYzE2MGZkMTdhNmZjNmVkZDIzODE4NWJmNDgxOTdiN2JmN2U0MTc4NDdiMzdiMDY0ZjczYzBhYTlhOTNiOCJ9fX0="}]}}}}],ArmorItems:[{id:"minecraft:leather_boots",Count:1b,tag:{Unbreakable:true,display:{color:8344112}}},{id:"minecraft:leather_leggings",Count:1b,tag:{Unbreakable:true,display:{color:8344112}}},{id:"minecraft:leather_chestplate",Count:1b,tag:{Unbreakable:true,display:{color:8344112}}},{id:"minecraft:black_banner",Count:1b,tag:{Unbreakable:true,BlockEntityTag:{Patterns:[{Color:12,Pattern:"gra"},{Color:15,Pattern:"gru"},{Color:12,Pattern:"cbo"},{Color:12,Pattern:"cre"},{Color:12,Pattern:"tt"},{Color:12,Pattern:"bts"}]}}}],HandDropChances:[-1E40f,-1E40f],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f]}
+data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 32d
+data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.3d
+data modify storage tusb_mob: "即時ステータス"."ノックバック耐性" set value 0d
+data modify storage tusb_mob: "即時ステータス"."ノックバック力" set value 1d
+
+### 遅延ステータス
+# 属性値
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."炎属性値" set value 50
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."氷属性値" set value 50
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."雷属性値" set value 150
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."光属性値" set value 150
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."闇属性値" set value 50
+# ステータス
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 200
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 20
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 20
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 150
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 150
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier2/common",Count:1,CountRange:2,Chance:0.35d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"「気合が足りんぞ！」%1$sは%2$sの旗の骨に接触し意外と柔らかいなと感想を抱き今日のところは引き上げることにした。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"トカルトから派遣されて4年の月日が経ちました。"}]'
+# AI
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:24d,IgnoreBlocks:true}}],Name:"Step",Direction:[-180f,-180f],DirectionRange:[360f,360f],Speed:1.2d}],Death:[{Name:"Function",Tags:[Global,Event,Function,DamageSound,Machine]}],Damage:[{Name:"Function",Tags:[Global,Event,Function,Attributes,MovementSpeedRandom],MinSpeed:32,RangeSpeed:64},{Name:"Function",Tags:[Global,Event,Function,DamageSound,Machine]}],TurnCount:2,Turn:[{Index:1,Skill:[{Interval:{Min:40,Max:80,Current:80},Call:[{Name:"Function",Tags:[Global,Event,Function,Attributes,MovementSpeedRandom],MinSpeed:32,RangeSpeed:64},{Condition:[{Name:"HasTarget",Target:{Look:"Friendly",Radius:32d}},{Name:"RandomChance",Chance:0.64d}],Name:"ChangeTurn",Set:2}]}]},{Index:2,Skill:[{Interval:{Min:1,Max:1,Current:1},Loop:{Max:1,Current:1},Call:[{Condition:[{Name:"HasTarget",Target:{Look:"Friendly",Radius:64d}},{Name:"MinMP",MP:1}],Name:"Function",Tags:[Global,Event,Function,Attributes,MovementSpeedRandom],MinSpeed:0,RangeSpeed:0}]},{Interval:{Min:2,Max:2,Current:2},Loop:{Max:16,Current:16},Call:[{Condition:[{Name:"HasTarget",Target:{Look:"Friendly",Radius:64d}},{Name:"MinMP",MP:1}],Settings:[{Name:"Facing",Target:{Look:"Friendly",Radius:64d,IgnoreBlocks:true}},{Name:"Direction",Speed:1d},{Name:"Rotation",Direction:[3f,3f],DirectionRange:[-6f,-6f]}],Name:"Laser",Laser:"Test",Loop:64,Argument:{Damage:1d,BypassArmor:true,DeathCause:'[{"translate":"%1$sは%2$sのフレイムレーザーによって炭となった。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'}},{Condition:[{Name:"HasTarget",Target:{Look:"Friendly",Radius:64d}},{Name:"MinMP",MP:1}],Name:"Function",Tags:[Global,Event,Function,AttackSound,Warning]}],MP:1},{Interval:{Min:1,Max:3,Current:1},Loop:{Max:3,Current:3},Call:[{Name:"Function",Tags:[Global,Event,Function,Attributes,MovementSpeedRandom],MinSpeed:32,RangeSpeed:64},{Settings:[{Name:"Facing",Target:{Look:"Friendly",Radius:64,IgnoreBlocks:true}},{Name:"Direction",Speed:1d},{Name:"Rotation",Direction:[-3f,-3f],DirectionRange:[6f,6f]}],Name:"Spawn",SpawnEntities:[[{Tags:[TocultColde,Ground,Shoot,FlagBrown,Bullet],Level:1}]]}],MP:8}],Exit:{Loop:{Max:3,Current:3}}}]}
