@@ -5,6 +5,9 @@
 function #oh_my_dat:please
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].LastDeathDimension set from entity @s Dimension
 
+# TUSBv13α2 チュートリアル中の死亡処理
+execute if data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].tutorial_alpha run function tutorial_alpha:system/respawn
+
 #奈落死亡処理
 execute if entity @s[advancements={player:trigger/death={void_death=true}}] run function player:trigger/void_death/
 
