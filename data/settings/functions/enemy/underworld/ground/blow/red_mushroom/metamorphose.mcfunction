@@ -8,7 +8,7 @@ data modify storage tusb_mob: "即時ステータス"."ノックバック力" se
 
 ### 遅延ステータス
 # 属性値
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."炎属性値" set value 0
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."炎属性値" set value 1
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."氷属性値" set value 80
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."雷属性値" set value 80
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."光属性値" set value 130

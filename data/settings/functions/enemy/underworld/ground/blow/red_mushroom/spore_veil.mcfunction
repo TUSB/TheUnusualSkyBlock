@@ -1,7 +1,6 @@
 #Function
 playsound block.honey_block.slide hostile @a[distance=..32] ~ ~ ~ 1.5 0.5 0.1
 # Sphere
-# Sphere
 particle dust_color_transition 0.282 0.0 0.0 0.157 0.024 0.0 0.0 ^-0.0 ^1.49 ^2.9 0.05 0.05 0.05 0.5 1 normal
 particle dust_color_transition 0.075 0.0 0.0 0.051 0.024 0.0 0.0 ^-0.0 ^0.01 ^2.85 0.05 0.05 0.05 0.5 1 normal
 particle dust_color_transition 1.0 0.0 0.0 0.714 0.024 0.0 0.0 ^-0.27 ^3.9 ^0.99 0.05 0.05 0.05 0.5 1 normal
