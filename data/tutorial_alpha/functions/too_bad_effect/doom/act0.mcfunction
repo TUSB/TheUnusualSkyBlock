@@ -2,5 +2,5 @@ tellraw @a[distance=..7] ["",{"translate":"[チュートリアル：%1$s]","bold
 
 function makeup:tutorial_alpha/sound
 
-give @a[distance=..7] minecraft:splash_potion{tutorial_item:true,CustomPotionColor:4194491,CustomPotionEffects:[{Duration:40,Id:14b,Amplifier:1b}],display:{ Name:'[{"translate":"死の宣告","color":"red","bold":true}," ",{"text":"(10)"}]'}}
-give @a[distance=..7] minecraft:splash_potion{tutorial_item:true,CustomPotionColor:4194491,CustomPotionEffects:[{Duration:40,Id:14b,Amplifier:2b}],display:{ Name:'[{"translate":"死の宣告","color":"red","bold":true}," ",{"text":"(3)"}]'}}
+give @a[distance=..7] minecraft:splash_potion{tutorial_item:true,CustomPotionColor:4194491,CustomPotionEffects:[{Duration:40,Id:14,Amplifier:1b}],display:{ Name:'[{"translate":"死の宣告","color":"red","bold":true}," ",{"text":"(10)"}]'}}
+give @a[distance=..7] minecraft:splash_potion{tutorial_item:true,CustomPotionColor:4194491,CustomPotionEffects:[{Duration:40,Id:14,Amplifier:2b}],display:{ Name:'[{"translate":"死の宣告","color":"red","bold":true}," ",{"text":"(3)"}]'}}
