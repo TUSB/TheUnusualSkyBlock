@@ -71,6 +71,11 @@
         {
           "weight": 2,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/solar_wind"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/nil"
         },
         {
@@ -322,6 +327,11 @@
           "weight": 17,
           "type": "loot_table",
           "name": "item:item/shield/perpetual_shield"
+        },
+        {
+          "weight": 15,
+          "type": "loot_table",
+          "name": "item:item/shield/gravel_wall"
         },
         {
           "weight": 25,

@@ -169,9 +169,19 @@
           "name": "item:item/shears/shears"
         },
         {
+          "weight": 12,
+          "type": "loot_table",
+          "name": "item:item/shield/ikachan_body_pillow"
+        },
+        {
           "weight": 33,
           "type": "loot_table",
           "name": "item:item/shield/red_signal"
+        },
+        {
+          "weight": 20,
+          "type": "loot_table",
+          "name": "item:item/shield/bone_shield"
         },
         {
           "weight": 50,

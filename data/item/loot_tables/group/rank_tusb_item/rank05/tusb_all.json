@@ -412,6 +412,11 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/safety_helmet"
+        },
+        {
+          "weight": 15,
+          "type": "loot_table",
+          "name": "item:item/wooden_sword/powerful_fish"
         }
       ]
     }
