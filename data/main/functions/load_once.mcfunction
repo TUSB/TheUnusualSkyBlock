@@ -199,6 +199,7 @@ scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game {"text
 scoreboard objectives add ChangeSettings trigger {"text":"設定変更"}
 scoreboard objectives add ChangeSkill trigger {"text":"スキル変更"}
 scoreboard objectives add ChangeJob trigger {"text":"職業変更"}
+scoreboard objectives add ChangeDifficulty trigger {"text":"難易度変更"}
 scoreboard objectives add TipsSuppressFlag dummy {"text":"TIPS抑制フラグ"}
 scoreboard objectives add TipsSupTrigger trigger {"text":"TIPS抑制トリガー"}
 scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time {"text":"スニーク時間"}

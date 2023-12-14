@@ -4,6 +4,7 @@
 # チーム色変更
 execute unless data storage main: difficult{world:"picnic"} run function main:difficulty/color/picnic
 
+data modify storage main: difficult.before set from storage main: difficult.world
 data modify storage main: difficult.world set value "picnic"
 
 # 必要経験値数 調整

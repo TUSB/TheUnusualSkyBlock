@@ -21,3 +21,6 @@ execute in area:skylands positioned 67 110 -718 if entity @a[distance=..30] run 
 
 ### エンティティ数カウント
 function entity:count/
+
+### 難易度変更
+execute if score $World ChangeDifficulty matches 0.. run function main:difficulty/change/adopt

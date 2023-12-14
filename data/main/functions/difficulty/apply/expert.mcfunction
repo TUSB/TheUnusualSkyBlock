@@ -4,6 +4,7 @@
 # チーム色変更
 function main:difficulty/color/expert
 
+data modify storage main: difficult.before set from storage main: difficult.world
 data modify storage main: difficult.world set value "expert"
 
 # 必要経験値数 調整
