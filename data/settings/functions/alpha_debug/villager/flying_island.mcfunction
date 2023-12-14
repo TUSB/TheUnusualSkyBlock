@@ -17,3 +17,4 @@ execute in area:flying_island positioned -806 145 -660 run summon armor_stand ~ 
 execute in area:flying_island positioned -587 90 -800 run forceload add ~ ~
 execute in area:flying_island positioned -587 90 -800 run summon armor_stand ~ ~1 ~ {Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[FlyingIsland,Friendly,Blow,Employee,RoseNose],Level:100}]]}}]}
 execute in area:flying_island run forceload remove all
+data modify storage main: System.SetVillager.FlyingIsland set value 1b

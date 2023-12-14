@@ -19,3 +19,4 @@ execute in area:skylands positioned -105 20 -609 run summon armor_stand ~ ~1 ~ {
 execute in area:skylands positioned -93 32 -630 run forceload add ~ ~
 execute in area:skylands positioned -93 32 -630 run summon armor_stand ~ ~1 ~ {Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Friendly,Blow,Employee,Bank],Level:100}]]}}]}
 execute in area:skylands run forceload remove all
+data modify storage main: System.SetVillager.Skylands set value 1b
