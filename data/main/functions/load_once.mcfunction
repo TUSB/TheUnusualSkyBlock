@@ -278,3 +278,5 @@ data merge storage area: {capture:{skylands:{},flying_island:{},cloudia:{}}}
     advancement revoke @a only area:system/skylands/chaos_islands/fifth
     advancement revoke @a only area:system/skylands/chaos_islands/sixth
     advancement revoke @a only area:system/skylands/chaos_islands/boss
+
+execute unless data storage main: {debug:1b} run function settings:alpha_debug/
