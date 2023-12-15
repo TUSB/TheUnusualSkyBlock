@@ -31,7 +31,7 @@
 #define storage oh_my_dat:
 
 #> 個別ストレージ取得
-#define function #oh_my_dat:please
+#define tag/function #oh_my_dat:please
 
 #> ワールドストレージ
 #define storage main:
