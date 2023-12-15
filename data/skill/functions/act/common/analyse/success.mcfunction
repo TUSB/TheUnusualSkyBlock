@@ -3,7 +3,8 @@
 
 execute as @e[distance=..0.01,sort=nearest,limit=1] run function #oh_my_dat:please
 execute if data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4]."ステータス".CustomName run tellraw @s [{"translate":"アナライズ：【 %1$s 】","with":[{"storage":"oh_my_dat:","nbt":"_[-4][-4][-4][-4][-4][-4][-4][-4].\"ステータス\".CustomName","interpret":true}]}]
-execute unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4]."ステータス".CustomName run tellraw @s [{"translate":"アナライズ：【 %1$s 】","with":[{"entity":"@e[distance=..0.01,sort=nearest,limit=1]","nbt":"CustomName","interpret":true}]}]
+execute unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4]."ステータス".CustomName if data entity @e[distance=..0.01,sort=nearest,limit=1] CustomName run tellraw @s [{"translate":"アナライズ：【 %1$s 】","with":[{"entity":"@e[distance=..0.01,sort=nearest,limit=1]","nbt":"CustomName","interpret":true}]}]
+execute unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4]."ステータス".CustomName unless data entity @e[distance=..0.01,sort=nearest,limit=1] CustomName run tellraw @s [{"translate":"アナライズ：【 %1$s 】","with":[{"selector":"@e[distance=..0.01,sort=nearest,limit=1]"}]}]
 
 execute if entity @e[tag=Mob,distance=..0.01,sort=nearest,limit=1] run function skill:act/common/analyse/mob
 
