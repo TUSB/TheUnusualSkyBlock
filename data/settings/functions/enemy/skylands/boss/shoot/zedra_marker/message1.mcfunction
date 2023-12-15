@@ -1,2 +1,0 @@
-#Function
-tellraw @a[distance=..10] [{"translate":"t","color":"#350000","obfuscated":true},{"translate":"u","color":"#650000","obfuscated":true},{"translate":"s","color":"#950000","obfuscated":true},{"translate":"b","color":"#C50000","obfuscated":true},{"translate":"強大な力を持つ者がこちらに近づいて来ている","color":"#FF0000","bold":true,"obfuscated":false},{"translate":"b","color":"#C50000","obfuscated":true},{"translate":"s","color":"#950000","obfuscated":true},{"translate":"u","color":"#650000","obfuscated":true},{"translate":"t","color":"#350000","obfuscated":true}]
