@@ -1,1 +1,5 @@
-particle minecraft:smoke ~ ~ ~ 0.3 0 0.3 0.2 7 normal @a
+particle minecraft:smoke ~ ~ ~ 0.3 0 0.3 0.2 7 force @a[distance=..64]
+particle dust_color_transition 1.000 0.000 0.000 1.5 -0.447 0.000 -1.000 ~ ~ ~ 1.5 1.5 1.5 1 1 force @a[distance=..64]
+particle dust_color_transition 0.447 0.000 1.000 3 0.000 0.000 0.000 ~ ~ ~ 1.2 1.8 1.2 1 1 force @a[distance=..64]
+particle dust_color_transition 0.000 0.000 -1.000 0.7 -0.447 0.000 -1.000 ~ ~ ~ 1.5 1.5 1.5 1 10 force @a[distance=..64]
+particle dust_color_transition -1.000 0.000 0.000 1.7 0.000 0.000 1.000 ~ ~ ~ 0.8 1.0 0.8 1 1 force @a[distance=..64]
