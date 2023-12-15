@@ -1,6 +1,6 @@
 #Function
 # 効果
-tp @e[tag=Mob,tag=!Unmoved,sort=furthest,distance=16.01..48,limit=3] @s
+tp @e[tag=Mob,tag=!Unmoved,sort=furthest,distance=16.01..32,limit=3] @s
 
 # サウンド
 playsound block.portal.ambient hostile @a[distance=..32] ~ ~ ~ 0.7 1.0 0.25

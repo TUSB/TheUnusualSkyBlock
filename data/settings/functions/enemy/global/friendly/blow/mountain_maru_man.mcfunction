@@ -9,6 +9,6 @@ data modify storage tusb_mob: "即時ステータス"."ノックバック力" se
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Item:{id:"minecraft:oak_log"},Count:1,CountRange:4,Chance:0.35d},{Loot:"item:group/drop_item/all/villager",Count:1,Chance:0.35d}]
-data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"これかい？ 魅せ筋だよ。"}]'
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$sこれかい？ 魅せ筋だよ。","with":[{"translate":"【能力：逃走・取引】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Time:[{Condition:[{Name:"HasTarget",Target:{Look:"Player",Radius:8d,IgnoreBlocks:true}}],Name:"Function",Tags:[Global,Event,Function,CommonExe,ExtendExistingTime]}],Damage:[{Condition:[{Name:"MinHP",Inverse:true,HP:50,Percent:true},{Name:"HasTarget",Target:{Look:"Enemy",Radius:4d,IgnoreBlocks:true}}],Name:"Kill"}]}

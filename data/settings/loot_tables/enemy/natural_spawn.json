@@ -486,6 +486,17 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[TocultColde,Ground,Shoot,FrozenZombie,Main,SpawnParticles],Level:10}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 100,
           "name": "minecraft:stick",
           "functions": [
@@ -503,6 +514,17 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Lumberjack,Main,SpawnParticles],Level:3}]],Count:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,BombPig,Main,SpawnParticles],Level:20}]]}"
             }
           ]
         },
@@ -1599,6 +1621,17 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[TocultColde,Ground,Shoot,FrozenZombie,Main,SpawnParticles],Level:10}]]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
           "weight": 100,
           "name": "minecraft:stick",
           "functions": [
@@ -1616,6 +1649,17 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,Lumberjack,Main,SpawnParticles],Level:3}]],Count:3}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 8,
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Ground,Blow,BombPig,Main,SpawnParticles],Level:20}]]}"
             }
           ]
         },

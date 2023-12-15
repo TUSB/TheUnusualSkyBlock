@@ -28,7 +28,6 @@ execute if entity @s[tag=EnderBoomer] run function settings:enemy/skylands/groun
 execute if entity @s[tag=MadSugarMan] run function settings:enemy/skylands/ground/blow/mad_sugar_man/
 execute if entity @s[tag=FakeGravel] run function settings:enemy/skylands/ground/blow/fake_gravel/
 execute if entity @s[tag=WataSpider] run function settings:enemy/skylands/ground/blow/wata_spider/
-execute if entity @s[tag=GhostSheep] run function settings:enemy/skylands/ground/blow/ghost_sheep/
 execute if entity @s[tag=EvilEye] run function settings:enemy/skylands/ground/blow/evil_eye/
 execute if entity @s[tag=AcidFlooringFrog] run function settings:enemy/skylands/ground/blow/acid_flooring_frog/
 execute if entity @s[tag=BlackGrudge] run function settings:enemy/skylands/ground/blow/black_grudge/

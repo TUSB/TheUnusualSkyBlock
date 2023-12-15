@@ -5,6 +5,6 @@ data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set v
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0d
 data modify storage tusb_mob: "即時ステータス"."ノックバック耐性" set value 1d
 data modify storage tusb_mob: "即時ステータス"."ノックバック力" set value 0d
-data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"「・・・」基本的に無口だが行商人をする為に見つけられた際興奮してしまう癖と水を克服してきた努力家。"}]'
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s「・・・」基本的に無口だが行商人をする為に見つけられた際興奮してしまう癖と水を克服してきた努力家。","with":[{"translate":"【能力：取引・無敵】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Function",Tags:[Skylands,Friendly,Blow,Employee,EnderLines]}]}

@@ -21,6 +21,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/block/gravel",Count:1,CountRange:19,Chance:1d}]
-data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"ジャリ...ジャリ...ジャリ...。"}]'
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$sジャリ...ジャリ...ジャリ...。","with":[{"translate":"【能力：なし】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Death:[{Name:"Function",Tags:[Skylands,Ground,Blow,FakeGravel,Destroyed]}],Damage:[{Name:"Function",Tags:[Global,Event,Function,DamageSound,Stone]}],ProjectileDamage:{Physical:10,Dark:10}}

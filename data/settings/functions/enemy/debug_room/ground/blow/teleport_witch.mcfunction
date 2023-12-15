@@ -21,6 +21,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 1
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 1
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.35d}]
-data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"後ろががら空きだぜ！"}]'
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s後ろががら空きだぜ！","with":[{"translate":"【能力：ワープ】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:50,Max:200,Current:50},Call:[{Settings:[{Name:"At",Target:{Look:"Friendly",Radius:24,IgnoreBlocks:1b}},{Name:"Direction",Direction:[-60f,0f],DirectionRange:[120f,0f],Speed:3d,SpeedRange:3d}],Name:"Teleport"},{Name:"Spawn",SpawnEntities:[[{Tags:[Global,Other,Blow,RootAec,SpawnParticles],Level:1}]]}],MP:4}]}]}

@@ -20,4 +20,3 @@ execute if entity @s[tag=FriendBumperStorm] run function settings:enemy/global/f
 execute if entity @s[tag=HealingCat] run function settings:enemy/global/friendly/blow/healing_cat/
 execute if entity @s[tag=ElusiveVase] run function settings:enemy/global/friendly/blow/elusive_vase/
 execute if entity @s[tag=GhostKnight] run function settings:enemy/global/friendly/blow/ghost_knight/
-execute if entity @s[tag=BrittleSkeleton] run function settings:enemy/global/friendly/blow/brittle_skeleton/

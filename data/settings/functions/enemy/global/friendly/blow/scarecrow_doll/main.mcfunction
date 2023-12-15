@@ -21,6 +21,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Item:{id:"minecraft:stick"},Count:1,CountRange:3,Chance:1d}]
-data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"さぁ計測してやるぞ、かかってくるがいい。"}]'
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$sさぁ計測してやるぞ、かかってくるがいい。","with":[{"translate":"【能力：デコイ】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"SmartMotion",Gravity:{Set:100d}},{Settings:[{Name:"Rotation",Target:{Look:"Player",Radius:24d,IgnoreBlocks:true},Flip:true}],Name:"Function",Tags:[Global,Event,Function,CommonExe,TpWithRotation]}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:200,Max:200,Current:200},Loop:{Max:1,Current:1},Call:[{Name:"Function",Tags:[Global,Friendly,Blow,ScarecrowDoll,Skill]}]}]}]}

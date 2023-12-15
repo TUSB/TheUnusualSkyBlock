@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:magma_cube",Tags:[Mob,Enemy,DelayedData,TickingRequired,HasLootTable,NoLootTableAdd,CombatLittleMagmacube],CustomName:'{"translate":"コンバットマグマキューブ"}',Size:1,PortalCooldown:3000}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:magma_cube",Tags:[Mob,Enemy,DelayedData,TickingRequired,HasLootTable,AnalyseLog,NoLootTableAdd,CombatLittleMagmacube],CustomName:'{"translate":"コンバットマグマキューブ"}',Size:1,PortalCooldown:3000}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 32d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.8d
@@ -21,3 +21,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.35d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s大きなマグマキューブに食べられる側なんだよなぁ","with":[{"translate":"【能力：終撃・コール・ステータス変動】","color":"#00FF00"}]}]'

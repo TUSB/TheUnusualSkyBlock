@@ -20,6 +20,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 80
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 120
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 80
-data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"標準的なドラウンドです。"}]'
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s標準的なドラウンドです。","with":[{"translate":"【能力：追撃・貫通】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Name:"Function",Tags:[Global,Event,Function,Lightningbolt]},{Name:"Damage",Player:{BypassArmor:true,BypassResistance:true,EPF:0,DeathCause:'[{"translate":"%1$sは%2$sが呼び寄せた雷に打たれた。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'},Distance:{Max:0d}}]}

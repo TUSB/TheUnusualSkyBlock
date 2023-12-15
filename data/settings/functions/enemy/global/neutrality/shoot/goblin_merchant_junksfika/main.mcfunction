@@ -16,7 +16,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/tusb_item/all/summon_trap",Count:1,Chance:1d}]
-data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"攻撃ノ意思ハナイゾ、危険物ヲ取リ扱ッテルカラ、攻撃ハスルナヨ！"}]'
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/tusb_item/all/summon_trap",Count:8,Chance:1d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s攻撃ノ意思ハナイゾ、危険物ヲ取リ扱ッテルカラ、攻撃ハスルナヨ！","with":[{"translate":"【能力：逃走・取引・終撃】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Time:[{Condition:[{Name:"HasTarget",Target:{Look:"Player",Radius:8d,IgnoreBlocks:true}}],Name:"Function",Tags:[Global,Event,Function,CommonExe,ExtendExistingTime]}],Damage:[{Condition:[{Name:"HasTarget",Target:{Look:"Enemy",Radius:4d},Global:true},{Name:"MinHP",Inverse:true,HP:50}],Name:"Message",Message:'{"translate":"コンナ危ナイ場所ニ、居ラレルカ！ 帰ルゾ！","color":"#872272"}'},{Name:"Damage",Mob:{Physical:9999},Distance:{Max:0.1d}}]}

@@ -21,6 +21,6 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/all/chested_bat",Count:1,Chance:1d}]
-data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"絶滅危惧種。倒すと9割の確率で序盤に嬉しいアイテムを落とす。"}]'
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s絶滅危惧種。倒すと9割の確率で序盤に嬉しいアイテムを落とす。","with":[{"translate":"【能力：未設定】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Function",Tags:[Skylands,Sky,Blow,ChestedBat,ParticleAndSound1]}],Damage:[{Name:"Function",Tags:[Skylands,Sky,Blow,ChestedBat,ParticleAndSound1]},{Name:"Damage",Mob:{Physical:9999}}],Tick:[{Name:"Function",Tags:[Skylands,Sky,Blow,ChestedBat,ParticleAndSound2]}]}

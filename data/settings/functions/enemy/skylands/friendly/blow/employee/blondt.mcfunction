@@ -5,6 +5,6 @@ data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set v
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0d
 data modify storage tusb_mob: "即時ステータス"."ノックバック耐性" set value 1d
 data modify storage tusb_mob: "即時ステータス"."ノックバック力" set value 0d
-data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"何いきなりアナライズかけて来てるわけ？ おれは謙虚で人気者の一級商人だから貧弱一般人には助言を惜しまない。「もうついたのか！」「はやい！」「きた！盾きた！」「メイン盾きた！」「これで勝つる！」と大歓迎状態になる。盾なしはアワレにも死んでいた。やはり攻撃や弾が来た時盾を前方に構える事でダメージを無効化できるのは格が違った！ 盾を持たぬジョブは未来はにい。アドバンスのお礼はギガントエメラルド9こで良い。"}]'
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s何いきなりアナライズかけて来てるわけ？ おれは謙虚で人気者の一級商人だから貧弱一般人には助言を惜しまない。「もうついたのか！」「はやい！」「きた！盾きた！」「メイン盾きた！」「これで勝つる！」と大歓迎状態になる。盾なしはアワレにも死んでいた。やはり攻撃や弾が来た時盾を前方に構える事でダメージを無効化できるのは格が違った！ 盾を持たぬジョブは未来はにい。アドバンスのお礼はギガントエメラルド9こで良い。","with":[{"translate":"【能力：取引・無敵】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Function",Tags:[Skylands,Friendly,Blow,Employee,BlondtLines]}]}

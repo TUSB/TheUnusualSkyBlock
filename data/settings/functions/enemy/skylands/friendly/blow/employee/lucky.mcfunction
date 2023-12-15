@@ -5,6 +5,6 @@ data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set v
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0d
 data modify storage tusb_mob: "即時ステータス"."ノックバック耐性" set value 1d
 data modify storage tusb_mob: "即時ステータス"."ノックバック力" set value 0d
-data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"ようこそ。ここでは職業スキルで扱う武器やTUSBメモリーを売っています。"}]'
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$sようこそ。ここでは職業スキルで扱う武器やTUSBメモリーを売っています。","with":[{"translate":"【能力：取引・無敵】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Function",Tags:[Skylands,Friendly,Blow,Employee,LuckyLines]}]}

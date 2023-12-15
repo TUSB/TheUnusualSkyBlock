@@ -9,6 +9,6 @@ data modify storage tusb_mob: "即時ステータス"."ノックバック力" se
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 1
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 1
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:item/carrot_on_a_stick/weapon/statue_of_goddess_mercy",Count:1,Chance:0.01d},{Item:{id:"minecraft:gold_block"},Count:4,CountRange:8,Chance:0.35d}]
-data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"そんな餌に私が釣られるか～"}]'
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$sそんな餌に私が釣られるか～","with":[{"translate":"【能力：取引・反撃・コール】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Function",Tags:[Global,Event,Function,CommonParticle,Flash]}],Time:[{Condition:[{Name:"HasTarget",Target:{Look:"Player",Radius:8d,IgnoreBlocks:true}}],Name:"Function",Tags:[Global,Event,Function,CommonExe,ExtendExistingTime]}],Damage:[{Name:"Function",Tags:[Global,Event,Function,DamageSound,Light]},{Condition:[{Name:"HasTarget",Target:{Look:"Player",Radius:16d,IgnoreBlocks:true}},{Name:"MP",MP:99,Percent:true}],Name:"Spawn",Count:1,SpawnEntities:[[{Tags:[Global,Neutrality,Summon,GenocideBomb,Countdown],Level:100}]]},{Name:"Function",Tags:[Global,Event,Function,CommonExe,ReduceExistingTime]}],Tick:[{Settings:[{Name:"Anchor",Anchor:"Eyes"}],Name:"Function",Tags:[Global,Event,Function,CommonParticle,DiscreetFlash]}]}

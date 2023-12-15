@@ -7,7 +7,6 @@ execute if entity @s[tag=ElectroEye] run function settings:enemy/global/sky/shoo
 execute if entity @s[tag=AuroraEye] run function settings:enemy/global/sky/shoot/aurora_eye/
 execute if entity @s[tag=Ghast] run function settings:enemy/global/sky/shoot/ghast/
 execute if entity @s[tag=Combat] run function settings:enemy/global/sky/shoot/combat/
-execute if entity @s[tag=SuperSteve] run function settings:enemy/global/sky/shoot/super_steve/
 execute if entity @s[tag=SecurityPoleDual] run function settings:enemy/global/sky/shoot/security_pole_dual/
 execute if entity @s[tag=Yasaosan] run function settings:enemy/global/sky/shoot/yasaosan/
 execute if entity @s[tag=LostSoulWhite] run function settings:enemy/global/sky/shoot/lost_soul_white/

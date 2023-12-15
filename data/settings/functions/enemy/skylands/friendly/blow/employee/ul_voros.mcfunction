@@ -5,6 +5,6 @@ data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set v
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0d
 data modify storage tusb_mob: "即時ステータス"."ノックバック耐性" set value 1d
 data modify storage tusb_mob: "即時ステータス"."ノックバック力" set value 0d
-data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"無限奈落を管理","color":"#FF0000","bold":true,"obfuscated":true},{"translate":"するの疲れるからたまには現世で息抜きしたいなって。","color":"dark_gray","obfuscated":false}]'
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s無限奈落を管理","with":[{"translate":"【能力：取引・無敵】","color":"#00FF00"}],"color":"#FF0000","bold":true,"obfuscated":true},{"translate":"するの疲れるからたまには現世で息抜きしたいなって。","color":"dark_gray","obfuscated":false}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Function",Tags:[Skylands,Friendly,Blow,Employee,UlVorosLines]}]}
