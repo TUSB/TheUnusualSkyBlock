@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 2,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/buster_axe"
         },
@@ -222,11 +222,6 @@
           "weight": 8,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/king_crown"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/warped_fungus_on_a_stick/sunglasses"
         },
         {
           "weight": 2,
