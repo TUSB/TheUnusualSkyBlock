@@ -1,22 +1,31 @@
-execute in area:skylands positioned -71 12 -618 run forceload add ~ ~
-execute in area:skylands positioned -71 12 -618 run summon armor_stand ~ ~1 ~ {Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,OrdinaryPerson,WalkingDictionary],Level:100}]]}}]}
-execute in area:skylands positioned -60 22 -588 run forceload add ~ ~
-execute in area:skylands positioned -60 22 -588 run summon armor_stand ~ ~1 ~ {Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Friendly,Blow,Employee,Pappas],Level:100}]]}}]}
-execute in area:skylands positioned -79 23 -586 run forceload add ~ ~
-execute in area:skylands positioned -79 23 -586 run summon armor_stand ~ ~1 ~ {Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Friendly,Blow,Employee,Lucky],Level:100}]]}}]}
-execute in area:skylands positioned -87 23 -604 run forceload add ~ ~
-execute in area:skylands positioned -87 23 -604 run summon armor_stand ~ ~1 ~ {Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,Employee,SundriesPart],Level:100}]]}}]}
-execute in area:skylands positioned -86 23 -604 run forceload add ~ ~
-execute in area:skylands positioned -86 23 -604 run summon armor_stand ~ ~1 ~ {Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Friendly,Blow,Employee,Blondt],Level:100}]]}}]}
-execute in area:skylands positioned -85 23 -612 run forceload add ~ ~
-execute in area:skylands positioned -85 23 -612 run summon armor_stand ~ ~1 ~ {Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Friendly,Blow,Employee,Farmer],Level:100}]]}}]}
-execute in area:skylands positioned -74 13 -608 run forceload add ~ ~
-execute in area:skylands positioned -74 13 -608 run summon armor_stand ~ ~1 ~ {Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Friendly,Blow,Employee,PeaceOfMind],Level:100}]]}}]}
-execute in area:skylands positioned -103 18 -591 run forceload add ~ ~
-execute in area:skylands positioned -103 18 -591 run summon armor_stand ~ ~1 ~ {Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Friendly,Blow,Employee,Ender],Level:100}]]}}]}
-execute in area:skylands positioned -105 20 -609 run forceload add ~ ~
-execute in area:skylands positioned -105 20 -609 run summon armor_stand ~ ~1 ~ {Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Friendly,Blow,Employee,UlVoros],Level:666}]]}}]}
-execute in area:skylands positioned -93 32 -630 run forceload add ~ ~
-execute in area:skylands positioned -93 32 -630 run summon armor_stand ~ ~1 ~ {Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Skylands,Friendly,Blow,Employee,Bank],Level:100}]]}}]}
+execute in area:skylands positioned -71 13 -618 run forceload add ~ ~
+execute in area:skylands positioned -71 13 -618 run data modify storage tusb_mob: Tags set value {SpawnEntities:[[{Tags:[Global,Friendly,Blow,OrdinaryPerson,WalkingDictionary],Level:100}]]}
+execute in area:skylands positioned -71 13 -618 summon villager run function settings:alpha_debug/villager/common
+execute in area:skylands positioned -60 23 -588 run forceload add ~ ~
+execute in area:skylands positioned -60 23 -588 run data modify storage tusb_mob: Tags set value {SpawnEntities:[[{Tags:[Skylands,Friendly,Blow,Employee,Pappas],Level:100}]]}
+execute in area:skylands positioned -60 23 -588 summon villager run function settings:alpha_debug/villager/common
+execute in area:skylands positioned -79 24 -586 run forceload add ~ ~
+execute in area:skylands positioned -79 24 -586 run data modify storage tusb_mob: Tags set value {SpawnEntities:[[{Tags:[Skylands,Friendly,Blow,Employee,Lucky],Level:100}]]}
+execute in area:skylands positioned -79 24 -586 summon villager run function settings:alpha_debug/villager/common
+execute in area:skylands positioned -87 24 -604 run forceload add ~ ~
+execute in area:skylands positioned -87 24 -604 run data modify storage tusb_mob: Tags set value {SpawnEntities:[[{Tags:[Global,Friendly,Blow,Employee,SundriesPart],Level:100}]]}
+execute in area:skylands positioned -87 24 -604 summon villager run function settings:alpha_debug/villager/common
+execute in area:skylands positioned -86 24 -604 run forceload add ~ ~
+execute in area:skylands positioned -86 24 -604 run data modify storage tusb_mob: Tags set value {SpawnEntities:[[{Tags:[Skylands,Friendly,Blow,Employee,Blondt],Level:100}]]}
+execute in area:skylands positioned -86 24 -604 summon villager run function settings:alpha_debug/villager/common
+execute in area:skylands positioned -85 24 -612 run forceload add ~ ~
+execute in area:skylands positioned -85 24 -612 run data modify storage tusb_mob: Tags set value {SpawnEntities:[[{Tags:[Skylands,Friendly,Blow,Employee,Farmer],Level:100}]]}
+execute in area:skylands positioned -85 24 -612 summon villager run function settings:alpha_debug/villager/common
+execute in area:skylands positioned -74 14 -608 run forceload add ~ ~
+execute in area:skylands positioned -74 14 -608 run data modify storage tusb_mob: Tags set value {SpawnEntities:[[{Tags:[Skylands,Friendly,Blow,Employee,PeaceOfMind],Level:100}]]}
+execute in area:skylands positioned -74 14 -608 summon villager run function settings:alpha_debug/villager/common
+execute in area:skylands positioned -103 19 -591 run forceload add ~ ~
+execute in area:skylands positioned -103 19 -591 run data modify storage tusb_mob: Tags set value {SpawnEntities:[[{Tags:[Skylands,Friendly,Blow,Employee,Ender],Level:100}]]}
+execute in area:skylands positioned -103 19 -591 summon villager run function settings:alpha_debug/villager/common
+execute in area:skylands positioned -105 21 -609 run forceload add ~ ~
+execute in area:skylands positioned -105 21 -609 run data modify storage tusb_mob: Tags set value {SpawnEntities:[[{Tags:[Skylands,Friendly,Blow,Employee,UlVoros],Level:666}]]}
+execute in area:skylands positioned -105 21 -609 summon villager run function settings:alpha_debug/villager/common
+execute in area:skylands positioned -93 33 -630 run forceload add ~ ~
+execute in area:skylands positioned -93 33 -630 run data modify storage tusb_mob: Tags set value {SpawnEntities:[[{Tags:[Skylands,Friendly,Blow,Employee,Bank],Level:100}]]}
+execute in area:skylands positioned -93 33 -630 summon villager run function settings:alpha_debug/villager/common
 execute in area:skylands run forceload remove all
-data modify storage main: System.SetVillager.Skylands set value 1b
