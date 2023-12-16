@@ -30,3 +30,6 @@
     scoreboard players set $World Burst 0
     bossbar set skill:burst style notched_6
     function skill:burst/bossbar
+
+# ストレージリセット
+    data remove storage main: System.Burst.Job
