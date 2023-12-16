@@ -64,6 +64,9 @@ execute at @a run playsound minecraft:ui.toast.challenge_complete player @a ~ ~ 
 title @a title [{"translate":"島 攻略率"},{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}},"(",{"score":{"name": "#","objective": "Calc"}},"%)"]
 tellraw @a [{"translate":"攻略時間:%1$s時間%2$s分%3$s秒","color":"gold","with":[{"score":{"name":"$Hours","objective":"Count"}},{"score":{"name":"$Minutes","objective":"Count"}},[{"score":{"name":"$TenSeconds","objective":"Count"}},{"score":{"name":"$Seconds","objective":"Count"}}]]}]
 
+# おめでとう！ メッセージ
+    execute if score # Calc matches 100.. run schedule function area:system/all_clear_message 3s
+
 #夜を司る島(月島)
 execute if entity @s[advancements={area:system/island_capture={skylands.011=true}}] run function area:system/skylands/moon
 
