@@ -67,6 +67,9 @@ tag @s remove BurstBreak
 execute store result bossbar skill:burst value store result bossbar skill:burst max run scoreboard players get @s Burst
 bossbar set skill:burst style progress
 
+# ストレージにジョブを保存
+    execute store result storage main: System.Burst.Job int 1 run scoreboard players get @s Job
+
 # 演出
 function makeup:skill/burst/break 
 

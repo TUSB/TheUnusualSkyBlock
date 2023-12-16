@@ -52,4 +52,8 @@ execute store result bossbar skill:burst max run scoreboard players operation _ 
 
 function skill:burst/bossbar
 
+# バーストリセット
+    scoreboard players reset @s Burst
+    function skill:burst/summoner/element/reset
+
 scoreboard players reset @s LeaveGame

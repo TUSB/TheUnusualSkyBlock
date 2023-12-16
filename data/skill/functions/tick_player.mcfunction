@@ -3,7 +3,6 @@
 
 execute if entity @s[scores={SkillShortcut=1..}] run function skill:shortcut/tick
 execute if entity @s[scores={Burst=..-1}] run function skill:burst/command/tick
-execute if entity @s[scores={Burst=1..}] run function skill:burst/tick
 scoreboard players remove @s Interval 1
 # 剣士
 execute if entity @s[scores={IronWill=1..}] run function skill:act/knight/iron_will/count
