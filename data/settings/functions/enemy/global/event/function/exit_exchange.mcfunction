@@ -1,7 +1,7 @@
 #Function
 execute at @e[tag=ExitExchangeMarker] run stopsound @a[distance=..3,limit=1,sort=nearest] * minecraft:block.portal.trigger
 execute at @e[tag=ExitExchangeMarker] run setblock ~ 319 ~ light[level=0]
-execute as @e[tag=ExitExchangeMarker] at @s run tp @a[y=0,dy=320,dx=0,dz=0] @s
+execute as @e[tag=ExitExchangeMarker] at @s positioned ~-0.5 ~ ~-0.5 run tp @a[y=0,dy=320,dx=1,dz=1] @s
 kill @e[tag=ExitExchangeMarker]
 
 execute if entity @s as @a[distance=..4,predicate=entity:player] at @s run summon marker ~ ~ ~ {Tags:[ExitExchangeMarker]}
