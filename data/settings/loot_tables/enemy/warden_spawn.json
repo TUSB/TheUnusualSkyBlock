@@ -10,7 +10,7 @@
             "functions": [
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Shoot,AssaultWarden,Main,SpawnParticles],Level:111}],[{Tags:[Global,Ground,Shoot,AssaultWarden,HealMarker],Level:111},{Tags:[Global,Ground,Shoot,AssaultWarden,TripleSonicMarker],Level:111}]]}"
+                "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Shoot,FakeWarden,Main,SpawnParticles],Level:111}],[{Tags:[Global,Ground,Shoot,AssaultWarden,HealMarker],Level:111}]]}"
               }
             ]
           }

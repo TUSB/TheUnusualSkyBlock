@@ -11,7 +11,7 @@
         {
           "weight": 2,
           "type": "loot_table",
-          "name": "item:item/firework_star/etc/trap_spawn_assault_warden"
+          "name": "item:item/firework_star/etc/trap_spawn_fake_warden"
         },
         {
           "weight": 1,
