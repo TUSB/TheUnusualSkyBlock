@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 95,
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier1_7/mix"
+        },
+        {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "item:item/firework_star/entity/yasaosan",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
