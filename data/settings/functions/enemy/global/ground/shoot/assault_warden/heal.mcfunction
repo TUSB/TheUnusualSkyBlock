@@ -11,11 +11,11 @@
     scoreboard players operation _ Random %= _ _
     execute if score _ Random matches ..3 run effect give @a[predicate=entity:player,distance=..4] invisibility 5 4
     execute if score _ Random matches ..50 as @a[predicate=entity:player,distance=..16] at @s if block ~ ~ ~ water run effect give @s invisibility 5 4
-    execute if block ~ ~ ~ water run effect give @a[predicate=entity:player,distance=..16] invisibility 5 4
+    execute if score _ Random matches ..75 on vehicle at @s if block ~ ~ ~ water run effect give @a[predicate=entity:player,distance=..16] invisibility 5 4
 # 悪いが火だるまになってもらう
     execute store result score _ Random run function calc:random
     scoreboard players set _ _ 100
     scoreboard players operation _ Random %= _ _
-    execute if score _ Random matches ..3 run effect give @a[predicate=entity:player,distance=..4] invisibility 5 3
-    execute if score _ Random matches ..50 as @a[predicate=entity:player,distance=..16] at @s if block ~ ~ ~ lava run effect give @s invisibility 5 3
-    execute if block ~ ~ ~ lava run effect give @a[predicate=entity:player,distance=..16] invisibility 5 3
+    execute if score _ Random matches ..3 run effect give @a[predicate=entity:player,distance=..4] invisibility 5 30
+    execute if score _ Random matches ..50 as @a[predicate=entity:player,distance=..16] at @s if block ~ ~ ~ lava run effect give @s invisibility 5 30
+    execute if score _ Random matches ..75 on vehicle at @s if block ~ ~ ~ lava run effect give @a[predicate=entity:player,distance=..16] invisibility 200 3
