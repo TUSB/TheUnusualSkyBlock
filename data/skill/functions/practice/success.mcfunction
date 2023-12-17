@@ -3,7 +3,7 @@
 data modify storage skill: Success set value 1b
 
 # 忍者 バースト
-execute if entity @s[tag=BurstShadow] run function skill:burst/ninja/act1
+execute unless data storage skill: Skill{Type:"TUSBMemory"} if entity @s[tag=BurstShadow] run function skill:burst/ninja/act1
 
 # 職業変更制限反映
 execute if score @s ChangeJobLock matches ..0 store result score @s ChangeJobLock run time query gametime
