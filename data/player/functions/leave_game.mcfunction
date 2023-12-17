@@ -50,7 +50,7 @@ scoreboard players add _ _ 10
 scoreboard players set _ Calc 30
 execute store result bossbar skill:burst max run scoreboard players operation _ _ *= _ Calc
 
-function skill:burst/bossbar
+execute unless score $World Burst matches -1 run function skill:burst/bossbar
 
 # バーストリセット
     scoreboard players reset @s Burst
