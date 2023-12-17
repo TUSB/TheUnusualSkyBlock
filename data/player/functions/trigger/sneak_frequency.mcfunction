@@ -5,7 +5,7 @@
 execute if score @s SneakFrequency matches 15 store result score _ _ run bossbar get skill:burst max
 execute if score @s SneakFrequency matches 15 run scoreboard players set _ Calc 3
 execute if score @s SneakFrequency matches 15 run scoreboard players operation _ _ /= _ Calc
-execute if score @s SneakFrequency matches 15 if score $World Burst > _ _ anchored eyes positioned ^ ^-0.85 ^5 run function skill:burst/command/show
+execute if entity @s[scores={Age=1..},predicate=entity:player] if score @s SneakFrequency matches 15 if score $World Burst > _ _ anchored eyes positioned ^ ^-0.85 ^5 run function skill:burst/command/show
 
 #設定表示
 execute if score @s SneakFrequency matches 20.. run function player:game_settings/show
