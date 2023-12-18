@@ -1,5 +1,11 @@
 
-function #oh_my_dat:please
+# OhMyDat呼び出しとJobStatus操作開始を兼ねる
+function job:status/operation_start
+
+# 現在の職業情報を記録する
+function job:status/save
+function job:status/operation_end
+
 data remove storage tutorial_alpha: push
 data modify storage tutorial_alpha: push.backup set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4]
 data modify storage tutorial_alpha: push.SpawnPoint set value {Dimension:"",Pos:[0d,0d,0d],Rotation:[0f,0f]}
