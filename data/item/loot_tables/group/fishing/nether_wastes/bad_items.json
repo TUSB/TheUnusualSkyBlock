@@ -9,9 +9,9 @@
           "name": "item:item/firework_star/etc/trap_spawn_spawner_vase"
         },
         {
-          "weight": 3,
+          "weight": 1,
           "type": "loot_table",
-          "name": "item:item/firework_star/etc/trap_spawn_predator"
+          "name": "item:item/firework_star/etc/trap_break_container_spawn_giant_don"
         }
       ]
     }
