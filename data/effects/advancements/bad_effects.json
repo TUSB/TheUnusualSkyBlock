@@ -119,10 +119,25 @@
           }
         }
       }
+    },
+    "darkness": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:darkness": {
+            "duration": {
+              "min": 1
+            },
+            "amplifier": {
+              "max": 126
+            }
+          }
+        }
+      }
     }
   },
   "requirements": [
-    ["nausea","poison","weakness","wither","blindness","hunger","mining_fatigue","slowness"]
+    ["nausea","poison","weakness","wither","blindness","hunger","mining_fatigue","slowness","darkness"]
   ],
   "rewards": {
     "function": "effects:bad_effects"
