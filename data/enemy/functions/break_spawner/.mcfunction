@@ -1,4 +1,7 @@
 #スポナー破壊時
+# 初破壊時にマルチ補正
+    execute unless entity @s[tag=MultiplyInit] unless entity @e[type=item,nbt={Item:{tag:{ExplodedLodestone:1b}}}] if entity @e[distance=..2,type=item,nbt={Item:{tag:{DamageItem:1b}}}] run function enemy:break_spawner/multiply_count
+
 #採掘時はドロップなし 採掘時以外はロードストーンがドロップ
 #採掘時と爆破時で分岐
 execute unless entity @e[type=item,nbt={Item:{tag:{ExplodedLodestone:1b}}}] run function enemy:break_spawner/mined
