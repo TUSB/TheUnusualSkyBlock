@@ -317,6 +317,9 @@
       "conditions": {
         "effects": {
           "minecraft:invisibility":{
+            "amplifier": {
+              "min": 1
+            },
             "duration": {
               "min":1
             }

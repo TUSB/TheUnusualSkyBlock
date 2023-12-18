@@ -31,4 +31,6 @@ execute if entity @s[advancements={effects:invisible={anti_pale=true}}] if score
 execute if entity @s[advancements={effects:invisible={hot_spring=true}}] run function effects:hot_spring/apply
 
 effect clear @s minecraft:invisibility
+#透明化付与
+function effects:invisible/wearable_invisible
 advancement revoke @s only effects:invisible
