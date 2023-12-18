@@ -14,6 +14,11 @@
           "name": "item:item/firework_star/etc/trap_spawn_predator"
         },
         {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_break_container_spawn_simic"
+        },
+        {
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/firework_star/etc/trap_spawn_fake_warden"
