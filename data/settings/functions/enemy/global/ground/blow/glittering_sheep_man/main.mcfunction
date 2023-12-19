@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 128
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 9999
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 9999
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier7/common",Count:1,CountRange:2,Chance:1d},{Loot:"item:item/iron_nugget/currency_megaton_emerald",Count:1,CountRange:31,Chance:1d},{Item:{id:"minecraft:nether_star"},Count:1,CountRange:63,Chance:1d},{Item:{id:"minecraft:nether_star"},Count:1,CountRange:63,Chance:1d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier5/common",Count:1,CountRange:1,Chance:1d},{Loot:"item:item/iron_nugget/currency_megaton_emerald",Count:1,CountRange:32,Chance:1d},{Item:{id:"minecraft:nether_star"},Count:1,CountRange:4,Chance:0.28d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"%1$sは勇敢にも挑んだが哀れにも%2$sの持っていた金の羊毛の角に当たってしまいその日は土に還った。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$sヒツジン界において最強の存在。どうやらチュートリアルは終わったらしいぞ。ヒューマン。","with":[{"translate":"【能力：ワープ・格闘・反撃・射的】","color":"#00FF00"}]}]'
 # AI

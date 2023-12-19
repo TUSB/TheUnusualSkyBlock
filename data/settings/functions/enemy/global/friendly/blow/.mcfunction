@@ -11,6 +11,7 @@ execute if entity @s[tag=ClayEdible] run function settings:enemy/global/friendly
 execute if entity @s[tag=HolyHoriHollick] run function settings:enemy/global/friendly/blow/holy_hori__hollick
 execute if entity @s[tag=Vogue] run function settings:enemy/global/friendly/blow/vogue
 execute if entity @s[tag=MountainMaruMan] run function settings:enemy/global/friendly/blow/mountain_maru_man
+execute if entity @s[tag=CommonVillager] run function settings:enemy/global/friendly/blow/common_villager
 execute if entity @s[tag=ThoughtPot] run function settings:enemy/global/friendly/blow/thought_pot/
 execute if entity @s[tag=ScarecrowDoll] run function settings:enemy/global/friendly/blow/scarecrow_doll/
 execute if entity @s[tag=SpawnerVase] run function settings:enemy/global/friendly/blow/spawner_vase/

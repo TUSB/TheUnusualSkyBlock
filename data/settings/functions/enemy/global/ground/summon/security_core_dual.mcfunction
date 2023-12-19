@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 0
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 0
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier5/common",Count:1,Chance:0.35d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier5/common",Count:1,Chance:0.28d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s侵入者ハッケン！ 戦闘モードニ移行中・・・。","with":[{"translate":"【能力：時間・置換】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:2,Turn:[{Index:1,Exit:{Condition:[{Name:"HasTarget",Target:{Look:"Player",Radius:30,IgnoreBlocks:false}}]}},{Index:2,Skill:[{Call:[{Name:"DelayAction",Tags:[Casting,Cast,Normal]}]},{Interval:{Min:40,Max:40,Current:40},Call:[{Condition:[{Name:"HasTarget",Global:true,Target:{Look:"Player",Radius:24d,IgnoreBlocks:false}}],Settings:[{Name:"Align",Vector:[X,Y,Z],Center:[X,Z]},{Name:"Direction",Direction:[0f,-90f],Absolute:{Vertical:true},Speed:2d}],Name:"Spawn",SpawnEntities:[[{Tags:[Global,Ground,Shoot,SecurityPoleDual,Body],Level:1}],[{Tags:[Global,Ground,Shoot,SecurityPoleDual,Main],Level:1}]],Count:1},{Name:"Kill"}]}],Exit:{Loop:{Max:2,Current:2}}}]}

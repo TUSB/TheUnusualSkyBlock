@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier4/common",Count:1,Chance:0.35d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier4/common",Count:1,Chance:0.28d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"%1$sは%2$sの栄養になった。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s圧倒的増殖力と寄生能力を備え、砂に擬態する能力、一度触れた敵対生物を凍らせ動けなくしつつ溶かす殺傷力を持つ危険生物。簡易的にバイオハザードを引き起こす凶悪な存在であるので、１匹も残さず根絶やしにしなければならないとされており、マグマに漬けると細胞が溶解し死ぬ弱点を持っている。","with":[{"translate":"【移動・物理無効・貫通・病気・寄生・増殖】","color":"#00FF00"}]}]'
 # AI

@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier2/common",Count:1,Chance:0.35d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier2/common",Count:1,Chance:0.28d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s強い怨念によって生み出された蒼い亡霊。追尾弾が厄介。","with":[{"translate":"【能力：射的・凍結】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Condition:[{Name:"RandomChance",Chance:0.4d}],Name:"Function",Tags:[Skylands,Ground,Shoot,PaleSpirit,Effect1]}],Tick:[{Name:"Function",Tags:[Skylands,Ground,Shoot,PaleSpirit,Appearence]}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:100,Max:160,Current:100},Loop:{Max:1,Current:1},Call:[{Condition:[{Name:"HasTarget",Target:{Look:"Player",Radius:32d,MinRadius:3d,IgnoreBlocks:true}}],Settings:[{Name:"Anchor",Anchor:"Eyes"},{Name:"Direction",Direction:[0f,0f],DirectionRange:[360f,0f],Speed:0.1d,SpeedRange:1d}],Name:"Spawn",Count:1,SpawnEntities:[[{Tags:[Skylands,Ground,Shoot,PaleSpirit,Bullet],Level:1}]]}],MP:5}],Exit:{Loop:{Max:1,Current:1}}}]}

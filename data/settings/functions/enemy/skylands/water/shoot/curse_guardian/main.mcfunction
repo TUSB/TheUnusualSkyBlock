@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 80
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 110
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 125
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier4/common",Count:1,Chance:0.35d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier4/common",Count:1,Chance:0.28d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$sｷﾐﾓﾉﾛｲｺﾛｻﾚﾀｲｯﾃ……?","with":[{"translate":"【能力：射的・追撃】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Condition:[{Name:"RandomChance",Chance:0.75d}],Name:"Function",Tags:[Skylands,Water,Shoot,CurseGuardian,Debuff1]}],Tick:[{Name:"Function",Tags:[Skylands,Water,Shoot,CurseGuardian,Curse1]}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:90,Max:150,Current:120},Loop:{Max:1,Current:1},Call:[{Name:"Function",Tags:[Skylands,Water,Shoot,Shinkaimawari,IceDirection]},{Name:"Function",Tags:[Skylands,Water,Shoot,CurseGuardian,Ice1],Player:{DamageType:[Global],DeathCause:'[{"translate":"%1$sは%2$sの呪いによって凍らせられてしまった。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'},MP:{MP:50},Distance:{Max:0.1d}}]}]}]}
