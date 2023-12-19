@@ -2,6 +2,7 @@
 ### 凍結
 
 scoreboard players set @s FreezeTimer 60
+tag @s add Unmoved
 data modify storage effects: Freeze.PlayerRotated set from entity @s Rotation
 
 summon marker ^ ^ ^ {Tags:["Freeze","Initializing"]}

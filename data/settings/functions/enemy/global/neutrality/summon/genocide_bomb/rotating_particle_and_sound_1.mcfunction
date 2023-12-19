@@ -1,6 +1,6 @@
 #Function
 # 効果
-tp @e[gamemode=!creative,gamemode=!spectator,sort=furthest,team=Friendly,distance=..3.0,limit=3] @s
+tp @e[gamemode=!creative,gamemode=!spectator,tag=!Unmoved,sort=furthest,team=Friendly,distance=..3.0,limit=3] @s
 tp @e[tag=Mob,tag=!Unmoved,sort=furthest,distance=..3.0,limit=3] @s
 effect give @a[distance=..3.0,gamemode=!creative,gamemode=!spectator,sort=furthest] minecraft:darkness 15 1 true
 # rotation_3.001
