@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 50
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 50
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 50
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:2,Chance:0.35d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:2,Chance:0.28d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$sキノコに人格が支配されている。","with":[{"translate":"【能力：移動・置換】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Function",Tags:[Global,Event,Function,Attributes,MovementSpeedRandom],MinSpeed:10,RangeSpeed:25}],Death:[{Condition:[{Name:"HasTarget",Target:{Look:"Player",Radius:48d}},{Name:"RandomChance",Chance:0.35d}],Name:"Spawn",SpawnEntities:[[{Tags:[Underworld,Ground,Blow,RedMushroom,Metamorphose,SpawnParticles],Level:22}]]}],Damage:[{Name:"Function",Tags:[Global,Event,Function,DamageSound,Mankind]}],Attack:[{Name:"Function",Tags:[Global,Event,Function,DamageSound,Mankind]}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:80,Max:140,Current:80},Call:[{Settings:[{Name:"Facing",Target:{Look:"Friendly",Radius:16d}}],Name:"Step",Direction:[0f,-13f],Speed:0.8d,SpeedRange:1.6d}],MP:3}]}]}

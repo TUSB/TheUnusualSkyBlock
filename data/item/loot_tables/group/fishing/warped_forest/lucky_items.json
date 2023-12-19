@@ -7,6 +7,36 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/bug_memory_star"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/paper/ticket_knight"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/paper/ticket_ninja"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/paper/ticket_hunter"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/paper/ticket_white_mage"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/paper/ticket_black_mage"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/paper/ticket_summoner"
         }
       ]
     }

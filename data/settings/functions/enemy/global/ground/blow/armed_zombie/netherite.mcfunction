@@ -20,5 +20,5 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 38
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 25
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 38
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.35d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.28d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s踏み込みが足りてるな！ ヨシッ！","with":[{"translate":"【能力：なし】","color":"#00FF00"}]}]'

@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 0
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 50
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.35d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.28d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$sちょっと変異したガスト。","with":[{"translate":"【能力：射的】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:100,Max:160,Current:125},Loop:{Max:1,Current:1},Call:[{}]},{Interval:{Min:15,Max:15,Current:15},Loop:{Max:3,Current:3},Call:[{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:64d},Anchor:"Eyes"},{Name:"Direction",Speed:3d}],Name:"Spawn",SpawnEntities:[[{Tags:[Global,Sky,Shoot,Ghast,Bullet],Level:5}]]}]}]}]}
