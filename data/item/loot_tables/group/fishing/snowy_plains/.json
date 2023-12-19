@@ -4,12 +4,12 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 6,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:group/fishing/snowy_plains/bad_items"
         },
         {
-          "weight": 3,
+          "weight": 6,
           "type": "loot_table",
           "name": "item:group/fishing/snowy_plains/lucky_items"
         }
