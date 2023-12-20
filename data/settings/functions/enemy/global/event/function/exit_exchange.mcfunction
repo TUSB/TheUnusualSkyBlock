@@ -10,4 +10,4 @@ execute if entity @s as @a[distance=..4,predicate=entity:player,tag=!Unmoved] at
 execute if entity @s as @a[distance=..4,predicate=entity:player,tag=!Unmoved] at @s run tp @s ~ 318 ~
 
 # 村人が実行していればスケジュール登録
-execute if entity @s run schedule function settings:enemy/global/event/function/exit_exchange 2ttag=!Unmoved,
+execute if entity @s run schedule function settings:enemy/global/event/function/exit_exchange 2t
