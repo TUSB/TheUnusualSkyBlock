@@ -11,27 +11,17 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/synthetic_narcotics_rta"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/blue_purple_mushrooms"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/green_mushrooms"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/gold_mushrooms"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/kaentake_mushroom"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/synthetic_narcotics_rta"
         }
       ]
     }

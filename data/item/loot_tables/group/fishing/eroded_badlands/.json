@@ -4,12 +4,12 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 6,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:group/fishing/eroded_badlands/bad_items"
         },
         {
-          "weight": 3,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:group/fishing/eroded_badlands/lucky_items"
         }

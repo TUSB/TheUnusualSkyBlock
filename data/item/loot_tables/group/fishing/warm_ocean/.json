@@ -4,14 +4,28 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 6,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:group/fishing/warm_ocean/bad_items"
         },
         {
-          "weight": 3,
+          "weight": 6,
           "type": "loot_table",
           "name": "item:group/fishing/warm_ocean/lucky_items"
+        },
+        {
+          "weight": 6,
+          "type": "minecraft:item",
+          "name": "minecraft:sand",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 16
+              }
+            }
+          ]
         }
       ]
     }

@@ -9,9 +9,19 @@
           "name": "item:item/firework_star/etc/trap_spawn_spawner_vase"
         },
         {
-          "weight": 3,
+          "weight": 2,
           "type": "loot_table",
-          "name": "item:item/firework_star/etc/trap_break_container_spawn_giant_don"
+          "name": "item:item/firework_star/etc/trap_break_container_spawn_thorn_floor_trap"
+        },
+        {
+          "weight": 6,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_genocide_bomb"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_fake_warden"
         }
       ]
     }

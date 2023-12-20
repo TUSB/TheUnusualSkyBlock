@@ -4,9 +4,19 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 1,
+          "weight": 20,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/bug_memory_star"
+        },
+        {
+          "weight": 10,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/nil"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/soma"
         }
       ]
     }
