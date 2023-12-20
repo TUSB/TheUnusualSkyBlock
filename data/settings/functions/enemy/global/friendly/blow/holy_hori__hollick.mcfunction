@@ -5,7 +5,7 @@ data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set v
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.28d
 data modify storage tusb_mob: "即時ステータス"."ノックバック耐性" set value 0d
 data modify storage tusb_mob: "即時ステータス"."ノックバック力" set value 0d
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/all/villager",Count:1,Chance:0.28d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/all/villager",Count:1,Chance:0.3d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s安心して下さい、良心価格で取引しますよ。","with":[{"translate":"【能力：逃走・取引】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Time:[{Condition:[{Name:"HasTarget",Target:{Look:"Player",Radius:8d,IgnoreBlocks:true}}],Name:"Function",Tags:[Global,Event,Function,CommonExe,ExtendExistingTime]}],Damage:[{Condition:[{Name:"MinHP",Inverse:true,HP:50,Percent:true},{Name:"HasTarget",Target:{Look:"Enemy",Radius:4d,IgnoreBlocks:true}}],Name:"Kill"}]}

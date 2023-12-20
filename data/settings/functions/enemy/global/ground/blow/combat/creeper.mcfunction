@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 30
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 301
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 30
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.28d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.3d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s標準的なクリーパーです。","with":[{"translate":"【能力：追撃・置換】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Death:[{Name:"Function",Tags:[Global,Event,Function,KillUpper]}],Time:[{Name:"Function",Tags:[Global,Event,Function,KillUpper]}],Attack:[{Name:"Damage",Player:{DamageType:["Global","Blast"],DeathCause:'[{"translate":"%1$sは%2$sに爆破解体された。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'},Distance:{Max:0d}}]}

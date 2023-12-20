@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 50
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 30
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 30
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.28d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.3d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$sそぉぉぉぉい！","with":[{"translate":"【能力：追撃】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Name:"Function",Tags:[Global,Event,Function,DamageSound,Steve]}],Attack:[{Name:"MergeNBT",NBT:{HandItems:[{id:"minecraft:bucket",Count:1b},{}]}},{Condition:[{Name:"MP",MP:100,Percent:true}],Name:"Function",Tags:[Skylands,Ground,Blow,CrafterWhoLavaOnEverything,LavaPlace]}]}

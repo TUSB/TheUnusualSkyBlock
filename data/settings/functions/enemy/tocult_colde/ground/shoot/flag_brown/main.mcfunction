@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 20
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 150
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 150
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier2/common",Count:1,CountRange:2,Chance:0.28d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier2/common",Count:1,CountRange:2,Chance:0.3d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"「気合が足りんぞ！」%1$sは%2$sの旗の骨に接触し意外と柔らかいなと感想を抱き今日のところは引き上げることにした。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$sトカルトから派遣されて4年の月日が経ちました。","with":[{"translate":"【能力：移動・射的・爆撃】","color":"#00FF00"}]}]'
 # AI

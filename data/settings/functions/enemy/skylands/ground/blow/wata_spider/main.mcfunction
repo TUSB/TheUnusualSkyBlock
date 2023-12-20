@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 50
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 120
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 125
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier2/common",Count:1,Chance:0.28d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier2/common",Count:1,Chance:0.3d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s綿菓子みたいで甘い名前だけど、攻撃はそうあまくない。","with":[{"translate":"【能力：射的】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Death:[{Settings:[{Name:"Direction",Direction:[0f,-90f],Speed:1d,Absolute:{Vertical:true}}],Name:"Spawn",SpawnEntities:[[{Tags:[Skylands,Ground,Blow,WataSpider,Watage],Level:15}]]}]}

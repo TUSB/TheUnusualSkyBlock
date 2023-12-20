@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier2/common",Count:1,Chance:0.28d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier2/common",Count:1,Chance:0.3d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s強い怨念によって生み出された稲妻をほとばしらせる亡霊。","with":[{"translate":"【能力：貫通・座標攻撃】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Name:"Damage",Player:{DamageType:[Global],BypassArmor:true,Effectiveness:50},Distance:{Max:1.5d},AEC:{Radius:0.5f,Effects:[{Id:2,Amplifier:2b,Duration:100,ShowParticles:false}]}}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:100,Max:160,Current:100},Loop:{Max:1,Current:1},Call:[{Settings:[{Name:"At",Target:{Look:"Player",Radius:24d,IgnoreBlocks:true}}],Name:"Spawn",SpawnEntities:[[{Tags:[Skylands,Ground,Shoot,ThunderSpirit,Thunder],Level:1}]]},{Name:"Function",Tags:[Skylands,Ground,Shoot,ThunderSpirit,ThunderAct]}],MP:5}]}]}

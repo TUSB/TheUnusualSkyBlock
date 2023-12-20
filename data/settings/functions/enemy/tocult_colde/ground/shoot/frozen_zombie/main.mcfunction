@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 50
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 50
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.28d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.3d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$sいわなきゃ石入ってるってバレないバレない～","with":[{"translate":"【能力：射的】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:20,Max:100,Current:40},Call:[{Name:"MergeNBT",NBT:{HandItems:[{id:"minecraft:snowball",Count:1b},{}]}}]},{Interval:{Min:20,Max:35,Current:20},Call:[{Settings:[{Global:1b,Name:"Facing",Target:{Look:"Player",Radius:16d,IgnoreBlocks:1b}},{Name:"Direction",Direction:[30f,-60f],Speed:1.5d}],Name:"MergeNBT",NBT:{HandItems:[]}},{Name:"Spawn",SpawnEntities:[[{Tags:[TocultColde,Ground,Shoot,FrozenZombie,Snowball],Level:20}]]}],MP:5}]}]}

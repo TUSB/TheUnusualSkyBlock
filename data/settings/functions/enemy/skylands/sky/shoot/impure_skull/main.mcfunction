@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 125
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 125
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 125
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier4/common",Count:1,Chance:0.28d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier4/common",Count:1,Chance:0.3d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"%1$sは%2$sに取り憑かれてしまい、発狂してしまった。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s穢れをその身に溜め込んだことで意志を持ったドクロ。","with":[{"translate":"【能力：射的・追撃】","color":"#00FF00"}]}]'
 # AI

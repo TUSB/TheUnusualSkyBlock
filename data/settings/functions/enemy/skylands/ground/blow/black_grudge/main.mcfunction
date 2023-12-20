@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 75
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 80
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 150
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier3/common",Count:1,Chance:0.28d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier3/common",Count:1,Chance:0.3d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s非常に強力な怨念を纏った不死者。自身に受けた呪いを他の者にも与えようとする。","with":[{"translate":"【能力：追撃】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Condition:[{Name:"RandomChance",Chance:0.2d}],Name:"Function",Tags:[Skylands,Ground,Blow,BlackGrudge,Debuff1]}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:60,Max:100,Current:80},Loop:{Max:1,Current:1},Call:[{Name:"Function",Tags:[Skylands,Ground,Blow,BlackGrudge,Scream]},{Condition:[{Name:"HasTarget",Target:{Look:"Player",Radius:3d,IgnoreBlocks:true}},{Name:"RandomChance",Chance:0.25d}],Name:"Function",Tags:[Skylands,Ground,Blow,BlackGrudge,Debuff2]},{Name:"Damage",Player:{Effectiveness:100,DeathCause:'[{"translate":"%1$sは%2$sの叫び声に震え上がり、心肺停止してしまった。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'},Distance:{Max:3.5d}}]}]}]}

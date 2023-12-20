@@ -20,4 +20,3 @@ execute if entity @s[tag=DisplayAnime4B] run function settings:enemy/global/grou
 execute if entity @s[tag=DisplayAnime4C] run function settings:enemy/global/ground/blow/dungeon_rock/display_anime4_c
 execute if entity @s[tag=DisplayAnime4D] run function settings:enemy/global/ground/blow/dungeon_rock/display_anime4_d
 execute if entity @s[tag=NormalColor] run function settings:enemy/global/ground/blow/dungeon_rock/normal_color
-execute if entity @s[tag=MysteryShardsDrop] run function settings:enemy/global/ground/blow/dungeon_rock/mystery_shards_drop
