@@ -14,6 +14,11 @@
           "name": "item:item/bread/food_clay"
         },
         {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/bread/entity/golden_sky_share"
+        },
+        {
           "weight": 50,
           "type": "loot_table",
           "name": "item:item/bundle/jewel_bundle"
@@ -997,11 +1002,6 @@
           "weight": 6,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/block/portal"
-        },
-        {
-          "weight": 200,
-          "type": "loot_table",
-          "name": "item:item/written_book/synthesis_guide"
         }
       ]
     }
