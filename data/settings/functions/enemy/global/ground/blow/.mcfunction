@@ -18,6 +18,7 @@ execute if entity @s[tag=ThornFloorTrap] run function settings:enemy/global/grou
 execute if entity @s[tag=DropZombie] run function settings:enemy/global/ground/blow/drop_zombie/
 execute if entity @s[tag=BacktheCreeper] run function settings:enemy/global/ground/blow/backthe_creeper/
 execute if entity @s[tag=SheepMan] run function settings:enemy/global/ground/blow/sheep_man/
+execute if entity @s[tag=FireBarFloorTrap] run function settings:enemy/global/ground/blow/fire_bar_floor_trap/
 execute if entity @s[tag=AnvilMan] run function settings:enemy/global/ground/blow/anvil_man/
 execute if entity @s[tag=Volcareeper] run function settings:enemy/global/ground/blow/volcareeper/
 execute if entity @s[tag=Executioner] run function settings:enemy/global/ground/blow/executioner/

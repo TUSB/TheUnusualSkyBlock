@@ -18,6 +18,7 @@ execute if entity @s[tag=AmbientSound] run function settings:enemy/global/event/
 execute if entity @s[tag=SecurityPole] run function settings:enemy/global/event/function/security_pole/
 execute if entity @s[tag=VanillaExplosion] run function settings:enemy/global/event/function/vanilla_explosion/
 execute if entity @s[tag=CommonParticle] run function settings:enemy/global/event/function/common_particle/
+execute if entity @s[tag=TextDisplay] run function settings:enemy/global/event/function/text_display/
 execute if entity @s[tag=Attributes] run function settings:enemy/global/event/function/attributes/
 execute if entity @s[tag=LightExplosion] run function settings:enemy/global/event/function/light_explosion/
 execute if entity @s[tag=Spread] run function settings:enemy/global/event/function/spread/
