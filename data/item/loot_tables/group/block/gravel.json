@@ -43,38 +43,9 @@
           "name": "minecraft:coarse_dirt"
         },
         {
-          "weight": 1000,
-          "type": "minecraft:item",
-          "name": "minecraft:coal",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "weight": 500,
-          "type": "minecraft:item",
-          "name": "minecraft:sand"
-        },
-        {
-          "weight": 500,
-          "type": "minecraft:item",
-          "name": "minecraft:red_sand"
-        },
-        {
           "weight": 200,
           "type": "minecraft:item",
           "name": "minecraft:grass_block"
-        },
-        {
-          "weight": 200,
-          "type": "minecraft:item",
-          "name": "minecraft:clay_ball"
         },
         {
           "weight": 200,
@@ -148,11 +119,6 @@
           "weight": 50,
           "type": "minecraft:item",
           "name": "minecraft:redstone"
-        },
-        {
-          "weight": 50,
-          "type": "minecraft:item",
-          "name": "minecraft:lapis_lazuli"
         },
         {
           "weight": 4,
