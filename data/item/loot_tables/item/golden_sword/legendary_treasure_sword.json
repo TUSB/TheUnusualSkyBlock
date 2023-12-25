@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2,display:{Name:'{\"translate\":\"伝家の宝刀\",\"color\":\"#FF9900\",\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(I)\",\"color\":\"white\",\"with\":[{\"translate\":\"因果の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"宝（がたくさん取れる）刀。\",\"color\":\"yellow\",\"italic\":false}']},Engraving:{EnchantID:\"因果\",Tier:1},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:70d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"デフォルト\",Amount:1.6,Operation:0,UUID:[I;11,0,1,50],Slot:\"mainhand\"}]}"
+              "tag": "{CustomModelData:2,display:{Name:'{\"translate\":\"伝家の宝刀\",\"color\":\"#FF9900\",\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(I)\",\"color\":\"white\",\"with\":[{\"translate\":\"因果の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"宝（がたくさん取れる）刀。\",\"color\":\"yellow\",\"italic\":false}']},Engraving:{EnchantID:\"因果\",Tier:1},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:70d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:-2.4d,Operation:0,UUID:[I;11,0,0,50],Slot:\"mainhand\"}]}"
             }
           ]
         }
