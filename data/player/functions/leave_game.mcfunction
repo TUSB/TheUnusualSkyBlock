@@ -43,12 +43,7 @@ function player:game_settings/show
 function enemy:break_spawner/alpha_advancements/update
 
 # バースト必要値 更新
-bossbar set skill:burst players @a
-execute store result score _ _ if entity @a
-scoreboard players remove _ _ 1
-scoreboard players add _ _ 10
-scoreboard players set _ Calc 30
-execute store result bossbar skill:burst max run scoreboard players operation _ _ *= _ Calc
+function skill:burst/required_amount
 
 execute unless score $World Burst matches -1 run function skill:burst/bossbar
 
