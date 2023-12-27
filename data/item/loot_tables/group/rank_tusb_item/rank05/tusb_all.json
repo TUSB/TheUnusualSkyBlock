@@ -114,7 +114,7 @@
           "name": "item:item/crossbow/volcanic_cannon"
         },
         {
-          "weight": 5,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/diamond_axe/tier5_diamond_axe"
         },
@@ -154,7 +154,7 @@
           "name": "item:item/diamond_helmet/dragon_mail_h"
         },
         {
-          "weight": 7,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/diamond_hoe/tier5_diamond_hoe"
         },
@@ -169,17 +169,17 @@
           "name": "item:item/diamond_leggings/dragon_mail_l"
         },
         {
-          "weight": 7,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/diamond_pickaxe/tier5_diamond_pickaxe"
         },
         {
-          "weight": 7,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/diamond_shovel/tier5_diamond_shovel"
         },
         {
-          "weight": 5,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/diamond_sword/tier5_diamond_sword"
         },

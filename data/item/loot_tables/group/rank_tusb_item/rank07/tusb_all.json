@@ -279,7 +279,7 @@
           "name": "item:item/netherite_helmet/tier7_netherite_helmet"
         },
         {
-          "weight": 4,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/netherite_hoe/tier7_netherite_hoe"
         },
@@ -289,17 +289,17 @@
           "name": "item:item/netherite_leggings/tier7_netherite_leggings"
         },
         {
-          "weight": 4,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/netherite_pickaxe/tier7_netherite_pickaxe"
         },
         {
-          "weight": 4,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/netherite_shovel/tier7_netherite_shovel"
         },
         {
-          "weight": 4,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/netherite_sword/tier7_netherite_sword"
         },

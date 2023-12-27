@@ -39,6 +39,11 @@
           "name": "item:item/carrot_on_a_stick/hover_gift"
         },
         {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/sacred_potatoes"
+        },
+        {
           "weight": 4,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/old_iblis_memory_star"
