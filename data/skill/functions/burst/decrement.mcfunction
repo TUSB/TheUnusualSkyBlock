@@ -1,5 +1,5 @@
 
-#バーストゲージ超過で減少量増加
+#バーストゲージ 減少量
 scoreboard players operation _ Burst = $World Burst
 scoreboard players set _ Calc 100
 scoreboard players operation _ Burst /= _ Calc
