@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Lore:['{\"translate\":\"爆発に耐えられるように強化された。\",\"italic\":false,\"color\":\"gray\"}','{\"translate\":\"何も手に持たずに\",\"italic\":false,\"color\":\"gray\"}','{\"translate\":\"スニーク+%1$sで剥がすことができる。\",\"italic\":false,\"color\":\"gray\",\"with\":[{\"keybind\":\"key.use\"}]}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
