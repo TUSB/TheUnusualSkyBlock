@@ -379,6 +379,11 @@
           "name": "item:item/warped_fungus_on_a_stick/witch_hat_white"
         },
         {
+          "weight": 10,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/mandarin_oranges"
+        },
+        {
           "weight": 5,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/block/lava"
