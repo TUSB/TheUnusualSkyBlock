@@ -1,5 +1,0 @@
-
-
-■ title/playsound等は、演出なので、makeupに作る
-■ ゲームモードを何にするか等は、変更のあり得る設定なので、settingsに指定しておいて読み取りたいかも
-■ 実際に適用するのはsettingsやmakeupの外にしたい
