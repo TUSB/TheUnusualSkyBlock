@@ -1,0 +1,38 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 32,
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier3/mix"
+        },
+        {
+          "weight": 8,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_common_bomb"
+        },
+        {
+          "weight": 8,
+          "type": "loot_table",
+          "name": "item:item/firework_star/entity/cheriff"
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:enchanted_golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
