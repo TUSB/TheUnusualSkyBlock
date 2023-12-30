@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:filled_map",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{map:1,display:{Name:'{\"translate\":\"%1$sの地図\",\"color\":\"#b7b7b7\",\"with\":[{\"translate\":\"通常世界\"}]}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

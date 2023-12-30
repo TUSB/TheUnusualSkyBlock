@@ -182,7 +182,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:item/firework_star/etc/key_block_key_skylands_001"
+          "name": "item:item/filled_map/skylands"
         }
       ]
     },
