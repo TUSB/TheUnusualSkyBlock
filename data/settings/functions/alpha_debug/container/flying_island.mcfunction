@@ -226,4 +226,6 @@ execute in area:flying_island positioned -794 129 -650 run forceload add ~ ~
 execute in area:flying_island positioned -794 129 -650 run data merge block ~ ~ ~ {CustomName:'{"translate":"よく見つけたね","color":"#FCCA67","bold":true,"italic":false}',Lock:"item:chest/flying_island/unique/dojo_unique_dispenser",LootTable:"item:chest/flying_island/unique/dojo_unique_dispenser"}
 execute in area:flying_island positioned -817 131 -678 run forceload add ~ ~
 execute in area:flying_island positioned -817 131 -678 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#033A09","bold":true,"italic":false}',Lock:"item:chest/flying_island/rank03_chest_single/single_04_ender_pearl",LootTable:"item:chest/flying_island/rank03_chest_single/single_04_ender_pearl"}
+execute in area:flying_island positioned -608 78 -811 run forceload add ~ ~
+execute in area:flying_island positioned -608 78 -811 run data merge block ~ ~ ~ {CustomName:'{"translate":"古びたチェスト","color":"#071B36","bold":true,"italic":false}',Lock:"item:chest/flying_island/rank07_chest_single/single_06_currency",LootTable:"item:chest/flying_island/rank07_chest_single/single_06_currency"}
 execute in area:flying_island run forceload remove all
