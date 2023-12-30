@@ -1,2 +1,2 @@
 #Function
-playsound entity.experience_orb.pickup neutral @a[distance=..32] ~ ~ ~ 0.6 0.9 0
+playsound minecraft:block.amethyst_block.resonate neutral @a[distance=..32] ~ ~ ~ 1.35 0.9 0.01

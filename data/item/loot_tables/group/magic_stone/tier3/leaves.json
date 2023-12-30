@@ -14,12 +14,7 @@
           "name": "item:item/firework_star/etc/trap_spawn_common_bomb"
         },
         {
-          "weight": 8,
-          "type": "loot_table",
-          "name": "item:item/firework_star/entity/cheriff"
-        },
-        {
-          "weight": 1,
+          "weight": 4,
           "type": "minecraft:item",
           "name": "minecraft:enchanted_golden_apple",
           "functions": [
@@ -31,6 +26,11 @@
               }
             }
           ]
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/firework_star/entity/cheriff"
         }
       ]
     }
