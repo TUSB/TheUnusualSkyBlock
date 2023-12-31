@@ -80,7 +80,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 31
+                "max": 63
               }
             }
           ]
@@ -94,6 +94,20 @@
           "weight": 80,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/calling_grass"
+        },
+        {
+          "weight": 80,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/1",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
         },
         {
           "weight": 75,
