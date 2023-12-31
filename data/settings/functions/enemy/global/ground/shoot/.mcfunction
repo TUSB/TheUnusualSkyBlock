@@ -16,4 +16,5 @@ execute if entity @s[tag=Shotzo] run function settings:enemy/global/ground/shoot
 execute if entity @s[tag=AngryTree] run function settings:enemy/global/ground/shoot/angry_tree/
 execute if entity @s[tag=AngryCherryTree] run function settings:enemy/global/ground/shoot/angry_cherry_tree/
 execute if entity @s[tag=MineCrafter] run function settings:enemy/global/ground/shoot/mine_crafter/
+execute if entity @s[tag=CommonParticle] run function settings:enemy/global/ground/shoot/common_particle/
 execute if entity @s[tag=WizardOfTeleportation] run function settings:enemy/global/ground/shoot/wizard_of_teleportation/

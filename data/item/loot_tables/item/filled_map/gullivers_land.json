@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:filled_map",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{map:4,display:{Name:'{\"translate\":\"%1$sの地図\",\"color\":\"#ffd966\",\"with\":[{\"translate\":\"ガリバーランド\"}]}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

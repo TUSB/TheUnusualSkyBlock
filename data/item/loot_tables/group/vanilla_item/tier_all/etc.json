@@ -76,8 +76,8 @@
         },
         {
           "weight": 3,
-          "type": "minecraft:item",
-          "name": "minecraft:item_frame",
+          "type": "loot_table",
+          "name": "item:item/item_frame/described_item_frame",
           "functions": [
             {
               "function": "minecraft:set_count",

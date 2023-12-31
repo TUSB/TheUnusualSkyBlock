@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:filled_map",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{map:3,display:{Name:'{\"translate\":\"%1$sの地図\",\"color\":\"#ff9900\",\"with\":[{\"translate\":\"テーブルマウンテン\"}]}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

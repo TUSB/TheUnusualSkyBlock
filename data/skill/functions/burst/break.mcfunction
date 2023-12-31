@@ -4,8 +4,10 @@
 scoreboard players operation @s Burst = $World Burst
 
 execute store result score _ _ if entity @a
-scoreboard players add _ _ 9
-scoreboard players operation @s Burst /= _ _
+scoreboard players set _ Calc 25
+scoreboard players operation _ Calc *= _ _
+scoreboard players add _ Calc 175
+scoreboard players operation @s Burst /= _ Calc
 
 ### 攻撃上系短め
 ### 剣士８秒＊１０

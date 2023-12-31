@@ -3,8 +3,6 @@
 execute store result score _ Random run function calc:random
 scoreboard players set _ _ 3
 scoreboard players operation _ Random %= _ _
-playsound entity.generic.explode hostile @a ~ ~ ~ 0.75 2 0
-# particle minecraft:smoke ^ ^ ^0.5 0.2 0.2 0.2 0.05 15 force @a[distance=..32,tag=ShowParticles]
 ## Particle1
 execute if score _ Random matches 0 at @s run particle smoke ^-0.0 ^0.12 ^0.0 ^-0.0 ^939322752.0 ^343034432.0 0.00000000013 0 force @a[distance=..64,tag=ShowParticles]
 execute if score _ Random matches 0 at @s run particle smoke ^-0.03 ^0.11 ^0.0 ^-248280576.0 ^926595712.0 ^282448608.0 0.00000000013 0 force @a[distance=..64,tag=ShowParticles]

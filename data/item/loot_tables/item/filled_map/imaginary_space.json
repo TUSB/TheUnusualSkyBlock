@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:filled_map",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{map:14,display:{Name:'{\"translate\":\"%1$sの地図\",\"color\":\"#434343\",\"with\":[{\"translate\":\"虚数空間\"}]}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

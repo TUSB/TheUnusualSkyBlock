@@ -4,40 +4,46 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 16,
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "weight": 64,
+          "type": "loot_table",
+          "name": "item:item/iron_nugget/currency_megaton_emerald",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 30
+              "count": 3
             }
           ]
         },
         {
           "weight": 8,
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
+          "type": "loot_table",
+          "name": "item:item/iron_nugget/currency_megaton_emerald",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 60
+              "count": 5
             }
           ]
         },
         {
           "weight": 4,
           "type": "loot_table",
-          "name": "item:item/iron_nugget/currency_megaton_emerald"
+          "name": "item:item/iron_nugget/currency_megaton_emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 7
+            }
+          ]
         },
         {
-          "weight": 2,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/iron_nugget/currency_megaton_emerald",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 2
+              "count": 12
             }
           ]
         }

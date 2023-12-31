@@ -4,6 +4,7 @@ data modify storage item: Items set value []
 data modify storage item: Items append from storage item: CanPlaceOn[-1]
 data modify storage item: Items[0].Slot set value 0b
 # アイテム更新 HideFlags 他のフラグは無視
+execute if data storage item: Items[0].tag.map run function item:custom_can_place_on/filled_map
 data modify storage item: Items[0].tag.CanPlaceOn set value ["#item:can_place_on"]
 data modify storage item: Items[0].tag.HideFlags set value 16
 data modify storage item: Items[0].tag.CustomCanPlaceOn set value 1b

@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,display:{Name:'{\"translate\":\"スティックキャロット\",\"color\":\"gold\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"素材の味を活かした杖\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"控えめに言って歯が折れる硬度の為\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"食用ではないのは明らかである\",\"color\":\"white\",\"italic\":false}']},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:0.05d,Operation:1,UUID:[I;11,0,0,31],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:21d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"デフォルト\",Amount:1.2,Operation:0,UUID:[I;11,0,1,50],Slot:\"mainhand\"}]}"
+              "tag": "{CustomModelData:1,display:{Name:'{\"translate\":\"スティックキャロット\",\"color\":\"gold\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"素材の味を活かした杖\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"控えめに言って歯が折れる硬度の為\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"食用ではないのは明らかである\",\"color\":\"white\",\"italic\":false}']},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:0.05d,Operation:1,UUID:[I;11,0,0,31],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:21d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:-2.4d,Operation:0,UUID:[I;11,0,0,50],Slot:\"mainhand\"}]}"
             }
           ]
         }

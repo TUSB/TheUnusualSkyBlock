@@ -22,11 +22,7 @@
 
 # ボスバー修正
     bossbar set skill:burst name {"translate":"バーストゲージ","italic":true,"bold":true}
-    execute store result score _ _ if entity @a
-    scoreboard players remove _ _ 1
-    scoreboard players add _ _ 10
-    scoreboard players set _ Calc 30
-    execute store result bossbar skill:burst max run scoreboard players operation _ _ *= _ Calc
+    function skill:burst/required_amount
     scoreboard players set $World Burst 0
     bossbar set skill:burst style notched_6
     function skill:burst/bossbar
