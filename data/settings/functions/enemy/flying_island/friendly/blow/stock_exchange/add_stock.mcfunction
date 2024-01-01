@@ -9,7 +9,7 @@ data modify storage mob_data: StockVillager.Recipes[-1].sell set from storage mo
 data modify storage mob_data: StockVillager.Recipes[-1].buy set from storage mob_data: StockVillager.Recipes[-1].buyB
 data remove storage mob_data: StockVillager.Recipes[-1].buyB
 data modify storage mob_data: StockVillager.Recipes[-1].uses set value 0
-data modify storage mob_data: StockVillager.Recipes[-1].xp set value 15
+data modify storage mob_data: StockVillager.Recipes[-1].xp set value 16
 execute store result storage mob_data: StockVillager.Recipes[-1].maxUses int 1 run scoreboard players get _ Calc
 
 

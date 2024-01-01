@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:3,CustomAttributes:1b,display:{Name:'{\"translate\":\"ゴールデン・ソラカブ\",\"color\":\"#FFD65B\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"毎日価値が変動する高級志向の不思議な株。\",\"color\":\"#FF0075\",\"italic\":false}','{\"translate\":\"数日経つと腐り価値がなくなる。\",\"color\":\"#FF0075\",\"italic\":false},[{\"translate\":\"取引番号：\".\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\"1\"}]']}}"
+              "tag": "{CustomModelData:3,CustomAttributes:1b,Stock:{Status:\"vip\"},display:{Name:'{\"translate\":\"ゴールデン・ソラカブ\",\"color\":\"#FFD65B\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"毎日価値が変動する高級志向の不思議な株。\",\"color\":\"#FF0075\",\"italic\":false}','{\"translate\":\"数日経つと腐り価値がなくなる。\",\"color\":\"#FF0075\",\"italic\":false},[{\"translate\":\"取引番号：\".\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\"1\"}]']}}"
             }
           ]
         }

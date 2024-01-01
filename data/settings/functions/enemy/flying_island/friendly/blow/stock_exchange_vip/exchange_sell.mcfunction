@@ -21,17 +21,22 @@ scoreboard players operation # _ -= # Calc
 
 # # _が -1 ~ 1 以外なら符号反転
 execute unless score # _ matches -1..1 run scoreboard players operation # _ *= @s _
-# # _が 0 なら2回前の変化
+# # _が 0 なら3回前の変化の2倍
+execute if score # _ matches 0 store result score _ Calc run data get storage mob_data: StockVillager.StockInfo[-1].History[-4]
+execute if score # _ matches 0 store result score # Calc run data get storage mob_data: StockVillager.StockInfo[-1].History[-3]
+execute if score # _ matches 0 run scoreboard players operation # Calc -= _ Calc
+execute if score # _ matches 0 if score # Calc matches ..-1 run scoreboard players operation # Calc *= @s _
 execute if score # _ matches 0 run scoreboard players operation # _ = # Calc
+execute if score # _ matches 0 run scoreboard players operation # _ += # Calc
 
 #tellraw @a ["影響値: ",{"score":{"name":"#","objective":"_"}}]
 
 # 変動値を求める
-# 基本は -10 ~ 5
+# 基本は -12 ~ 1
 execute store result score _ Random run function calc:random
-scoreboard players set _ _ 16
+scoreboard players set _ _ 14
 scoreboard players operation _ Random %= _ _
-scoreboard players remove _ Random 10
+scoreboard players remove _ Random 12
 
 #tellraw @a ["乱数: ",{"score":{"name":"_","objective":"Random"}}]
 
@@ -68,7 +73,7 @@ scoreboard players operation _ Calc -= # Calc
 # 取引状況を表示する
 execute in area:control_area unless score _ Calc matches 0 run data modify block 2 3 2 Text1 set value '[{"text":"","bold":true,"color":"aqua"}]'
 execute in area:control_area if score _ Calc matches 0 run data modify block 2 3 2 Text1 set value '[{"text":"","bold":true,"color":"aqua","strikethrough":true}]'
-execute in area:control_area run data modify block 2 3 2 Text1 set value '[{"block":"2 3 2","nbt":"Text1","interpret":true},{"translate":"取引番号："},{"storage":"mob_data:","nbt":"StockVillager.Recipe.buy.tag.Stock.ID"}," / ",{"translate":"残り取引："},{"storage":"mob_data:","nbt":"StockVillager.Recipe.xp"}," / ",{"translate":"買値："},{"storage":"mob_data:","nbt":"StockVillager.StockInfo[-1].BuyCount"}," / ",{"translate":"売値："},{"score":{"name":"_","objective":"_"}}," / "]'
+execute in area:control_area run data modify block 2 3 2 Text1 set value '[{"block":"2 3 2","nbt":"Text1","interpret":true},{"translate":"取引番号："},{"storage":"mob_data:","nbt":"StockVillager.Recipe.buy.tag.Stock.ID"}," / ",{"translate":"残り取引："},[{"storage":"mob_data:","nbt":"StockVillager.Recipe{xp:5}.xp","color":"aqua"},{"storage":"mob_data:","nbt":"StockVillager.Recipe{xp:4}.xp","color":"aqua"},{"storage":"mob_data:","nbt":"StockVillager.Recipe{xp:3}.xp","color":"yellow"},{"storage":"mob_data:","nbt":"StockVillager.Recipe{xp:2}.xp","color":"yellow"},{"storage":"mob_data:","nbt":"StockVillager.Recipe{xp:1}.xp","color":"red"},{"storage":"mob_data:","nbt":"StockVillager.Recipe{xp:0}.xp","color":"red"}],"/5"," / ",{"translate":"買値："},{"storage":"mob_data:","nbt":"StockVillager.StockInfo[-1].BuyCount"}," / ",{"translate":"売値："},{"score":{"name":"_","objective":"_"}}," / "]'
 execute in area:control_area if score # _ matches ..-002 run data modify block 2 3 2 Text1 set value '[{"block":"2 3 2","nbt":"Text1","interpret":true},{"translate":"傾向："},{"text":"⇩⇩","color":"blue"}]'
 execute in area:control_area if score # _ matches -1..-1 run data modify block 2 3 2 Text1 set value '[{"block":"2 3 2","nbt":"Text1","interpret":true},{"translate":"傾向："},{"text":"⇩ ","color":"blue"}]'
 execute in area:control_area if score # _ matches 00..00 run data modify block 2 3 2 Text1 set value '[{"block":"2 3 2","nbt":"Text1","interpret":true},{"translate":"傾向："},{"text":"?! ","color":"yellow"}]'
