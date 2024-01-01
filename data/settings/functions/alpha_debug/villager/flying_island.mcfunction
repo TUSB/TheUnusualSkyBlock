@@ -28,4 +28,7 @@ execute in area:flying_island positioned -610 79 -812 summon villager run functi
 execute in area:flying_island positioned -642.0 90.0 -782.0 run forceload add ~ ~
 execute in area:flying_island positioned -642.0 90.0 -782.0 run data modify storage tusb_mob: Tags set value {SpawnEntities:[[{Tags:[FlyingIsland,Friendly,Blow,Employee,Guide],Level:100}]]}
 execute in area:flying_island positioned -642.0 90.0 -782.0 summon villager run function settings:alpha_debug/villager/common
+execute in area:flying_island positioned -804 95 -752 run forceload add ~ ~
+execute in area:flying_island positioned -804 95 -752 run data modify storage tusb_mob: Tags set value {SpawnEntities:[[{Tags:[FlyingIsland,Friendly,Blow,Employee,StockVictim],Level:100}]]}
+execute in area:flying_island positioned -804 95 -752 summon villager run function settings:alpha_debug/villager/common
 execute in area:flying_island run forceload remove all
