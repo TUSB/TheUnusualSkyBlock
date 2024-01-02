@@ -11,12 +11,12 @@
         {
           "weight": 4,
           "type": "minecraft:item",
-          "name": "minecraft:copper_ingot"
+          "name": "minecraft:raw_copper"
         },
         {
-          "weight": 2,
+          "weight": 4,
           "type": "minecraft:item",
-          "name": "minecraft:lapis_lazuli"
+          "name": "minecraft:copper_ingot"
         },
         {
           "weight": 1,

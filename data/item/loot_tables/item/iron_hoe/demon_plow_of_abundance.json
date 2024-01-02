@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_hoe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,display:{Name:'{\"translate\":\"豊穣の妖鍬\",\"color\":\"#A2FF00\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(III)\",\"color\":\"white\",\"with\":[{\"translate\":\"因果の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"幸運が付与された妖鍬。\",\"color\":\"#FFC800\",\"italic\":false}','{\"translate\":\"とある伝承に幸運が付いた道具で作物や植物を掘ると\",\"color\":\"#FFC800\",\"italic\":false}','{\"translate\":\"変わった作物が収穫できたと言い伝えられている\",\"color\":\"#FFC800\",\"italic\":false}']},Engraving:{EnchantID:\"因果\",Tier:3},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:-0.3d,Operation:2,UUID:[I;11,0,0,12],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:50d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:0.5d,Operation:1,UUID:[I;11,0,0,51],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"デフォルト\",Amount:3,Operation:0,UUID:[I;11,0,1,50],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

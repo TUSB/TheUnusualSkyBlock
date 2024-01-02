@@ -869,6 +869,11 @@
           "name": "item:item/golden_apple/fruit_of_nose"
         },
         {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_hoe/demon_plow_of_abundance"
+        },
+        {
           "weight": 3,
           "type": "loot_table",
           "name": "item:item/iron_nugget/currency_megaton_emerald"
@@ -997,11 +1002,6 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/no_one_inside"
-        },
-        {
-          "weight": 6,
-          "type": "loot_table",
-          "name": "item:item/warped_fungus_on_a_stick/block/portal"
         }
       ]
     }

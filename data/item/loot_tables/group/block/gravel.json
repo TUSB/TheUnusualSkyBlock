@@ -17,7 +17,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 7
+                "max": 9
               }
             }
           ]
@@ -63,8 +63,8 @@
         },
         {
           "weight": 100,
-          "type": "minecraft:item",
-          "name": "minecraft:raw_copper"
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/1"
         },
         {
           "weight": 88,
@@ -94,20 +94,6 @@
           "weight": 80,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/calling_grass"
-        },
-        {
-          "weight": 80,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/mystery/1",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 2
-              }
-            }
-          ]
         },
         {
           "weight": 75,
