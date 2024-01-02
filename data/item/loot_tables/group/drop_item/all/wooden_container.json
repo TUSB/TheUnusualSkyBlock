@@ -21,7 +21,7 @@
         {
           "weight": 3,
           "type": "loot_table",
-          "name": "item:item/firework_star/etc/trap_spawn_common_bomb"
+          "name": "item:group/tusb_item/all/bomb_trap_summary"
         },
         {
           "weight": 3,
@@ -42,6 +42,20 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/cure_ether_field"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/1",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
         }
       ]
     }

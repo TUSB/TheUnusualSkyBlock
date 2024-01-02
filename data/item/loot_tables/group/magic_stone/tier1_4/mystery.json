@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 4096,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/1"
+        },
+        {
+          "weight": 256,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/2"
+        },
+        {
+          "weight": 16,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/3"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/4"
+        }
+      ]
+    }
+  ]
+}

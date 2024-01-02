@@ -1,5 +1,5 @@
 #Function
-tellraw @a[nbt={Inventory:[{tag:{Stock:{}}}]}] [" --- ",{"translate":"証券取引情報","color":"gold"}," --- "]
+tellraw @a[nbt={Inventory:[{tag:{Stock:{Status:"vip"}}}]}] [" --- ",{"translate":"証券取引情報","color":"gold"}," --- "]
 
 # 取引データ取得
 data modify storage calc: Array.reverse.Input set from entity @s Offers.Recipes
@@ -35,7 +35,7 @@ execute if score _ _ matches 1 run data modify storage mob_data: StockVillager.E
 
 # 更新お知らせ
 execute if data storage mob_data: StockVillager.Exchanged[-2] run playsound minecraft:item.goat_horn.sound.1 voice @a[distance=..7] ~ ~ ~
-execute if data storage mob_data: StockVillager.Exchanged[-2] as @a if data entity @s Inventory[{tag:{Stock:{}}}] at @s run playsound minecraft:item.goat_horn.sound.1 voice @s ~ ~ ~ 0.2
+execute if data storage mob_data: StockVillager.Exchanged[-2] as @a if data entity @s Inventory[{tag:{Stock:{Status:"vip"}}}] at @s run playsound minecraft:item.goat_horn.sound.1 voice @s ~ ~ ~ 0.2
 
 # 取引データ返却
 data modify entity @s Offers.Recipes set from storage mob_data: StockVillager.Exchanged
@@ -45,4 +45,4 @@ data remove storage mob_data: StockVillager
 # 一応サウンドストップ
 stopsound @a[distance=..10] * minecraft:block.portal.trigger
 
-tellraw @a[nbt={Inventory:[{tag:{Stock:{}}}]}] " ---------------- "
+tellraw @a[nbt={Inventory:[{tag:{Stock:{Status:"vip"}}}]}] " ---------------- "

@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,CustomAttributes:1b,display:{Name:'{\"translate\":\"ソラカブ\",\"color\":\"#B0D9FF\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"毎日価値が変動する不思議な株。\",\"color\":\"#FFEB00\",\"italic\":false}','{\"translate\":\"数日経つと腐り価値がなくなる。\",\"color\":\"#FFEB00\",\"italic\":false},[{\"translate\":\"取引番号：\".\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\"1\"}]']}}"
+              "tag": "{CustomModelData:1,CustomAttributes:1b,Stock:{Status:\"normal\"},display:{Name:'{\"translate\":\"ソラカブ\",\"color\":\"#B0D9FF\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"毎日価値が変動する不思議な株。\",\"color\":\"#FFEB00\",\"italic\":false}','{\"translate\":\"数日経つと腐り価値がなくなる。\",\"color\":\"#FFEB00\",\"italic\":false},[{\"translate\":\"取引番号：\".\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\"1\"}]']}}"
             }
           ]
         }

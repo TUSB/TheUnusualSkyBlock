@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:4002,BreakContainer:true,HideFlags:32,SpawnEntities:[[{Tags:[Global,Ground,Blow,DungeonRock,Main],Level:150}],[{Tags:[Global,Ground,Blow,DungeonRock,Display],Level:150}]],Explosion:{Type:0b,Colors:[I;12996351]},display:{Name:'{\"translate\":\"破壊召喚の罠「オモイワー」\",\"color\":\"#8D00FF\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"このアイテムが地面に落ちた時、\",\"color\":\"#FF0029\"}','{\"translate\":\"アイテム名のモンスターが召喚される。\",\"color\":\"#FF0029\"}','{\"translate\":\"またチェスト類の中に紛れている場合、\",\"color\":\"#FF0029\"}','{\"translate\":\"開いた瞬間にモンスターを召喚する。\",\"color\":\"#FF0029\"}']}}"
+              "tag": "{CustomModelData:4002,BreakContainer:true,HideFlags:32,SpawnEntities:[[{Tags:[GulliversLand,Ground,Blow,GiantDon,Main,SpawnParticles],Level:75}]],Explosion:{Type:0b,Colors:[I;12996351]},display:{Name:'{\"translate\":\"破壊召喚の罠「巨人のドン」\",\"color\":\"#8D00FF\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"このアイテムが地面に落ちた時、\",\"color\":\"#FF0029\"}','{\"translate\":\"アイテム名のモンスターが召喚される。\",\"color\":\"#FF0029\"}','{\"translate\":\"またチェスト類の中に紛れている場合、\",\"color\":\"#FF0029\"}','{\"translate\":\"開いた瞬間にモンスターを召喚する。\",\"color\":\"#FF0029\"}']}}"
             }
           ]
         }

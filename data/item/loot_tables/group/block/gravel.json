@@ -17,7 +17,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 7
+                "max": 9
               }
             }
           ]
@@ -63,8 +63,8 @@
         },
         {
           "weight": 100,
-          "type": "minecraft:item",
-          "name": "minecraft:raw_copper"
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/1"
         },
         {
           "weight": 88,
@@ -80,7 +80,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 31
+                "max": 63
               }
             }
           ]
