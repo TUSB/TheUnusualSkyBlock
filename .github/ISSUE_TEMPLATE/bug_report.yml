@@ -17,6 +17,9 @@ body:
       - v13.0.0α
       - v13.1.0α
       - v13.1.1α
+      - v13.2.0α
+      - v13.2.1α
+      - v13.0.0α2
   validations:
     required: true
 - type: textarea
