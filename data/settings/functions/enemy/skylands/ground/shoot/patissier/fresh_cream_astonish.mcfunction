@@ -1,6 +1,6 @@
 ### 即時ステータス
 data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:firework_rocket",CustomName:'{"translate":"ビックリーム","color":"#FF0000"}',NoGravity:true,Silent:true,Life:0.5,LifeTime:35,ShotAtAngle:true,PortalCooldown:140,Tags:[DelayedData,CallOnInit,CallOnAttack,TickingRequired,DamageProjectile,EnemyProjectile]}
-data modify storage tusb_mob: "即時ステータス"."見た目" set value {FireworksItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1,tag:{CustomModelData:1008,display:{color:16777215},Fireworks:{Explosions:[{Type:0,Flicker:1b,Trail:1b,Colors:[I;16777215]}]}}}}
+data modify storage tusb_mob: "即時ステータス"."見た目" set value {FireworksItem:{id:"minecraft:warped_fungus_on_a_stick",Count:1,tag:{CustomModelData:1008,Fireworks:{Explosions:[{Type:0,Flicker:1b,Trail:1b,Colors:[I;16777215]}]}}}}
 ### 遅延ステータス
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 200
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
