@@ -590,7 +590,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,SpawnerVase,Main,SpawnParticles],Level:100}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,SpawnerVase,Main,SpawnParticles],Level:100}]]}"
             }
           ]
         },
@@ -678,7 +678,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,ElusiveVase,Main,SpawnParticles],Level:100}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ElusiveVase,Main,SpawnParticles],Level:100}]]}"
             }
           ]
         },
@@ -851,7 +851,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Sky,Shoot,Yasaosan,Main],Level:200}],[{Tags:[Global,Sky,Shoot,Yasaosan,Display],Level:200}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Shoot,Yasaosan,Main],Level:200}],[{Tags:[Global,Friendly,Shoot,Yasaosan,Display],Level:200}]]}"
             }
           ]
         },
@@ -1560,7 +1560,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,SpawnerVase,Main,SpawnParticles],Level:100}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,SpawnerVase,Main,SpawnParticles],Level:100}]]}"
             }
           ]
         },
@@ -1626,7 +1626,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Friendly,Blow,ElusiveVase,Main,SpawnParticles],Level:100}]]}"
+              "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Blow,ElusiveVase,Main,SpawnParticles],Level:100}]]}"
             }
           ]
         },
