@@ -4,14 +4,14 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 95,
+          "weight": 90,
           "type": "loot_table",
           "name": "item:group/magic_stone/tier1_4/mix"
         },
         {
-          "weight": 5,
+          "weight": 10,
           "type": "loot_table",
-          "name": "item:item/firework_star/entity/yasaosan",
+          "name": "item:item/firework_star/entity/magic_vegetable_yasaosan",
           "functions": [
             {
               "function": "minecraft:set_count",

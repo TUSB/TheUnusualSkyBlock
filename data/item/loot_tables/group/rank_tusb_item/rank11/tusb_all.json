@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 7,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/bread/entity/sky_share"
         },
