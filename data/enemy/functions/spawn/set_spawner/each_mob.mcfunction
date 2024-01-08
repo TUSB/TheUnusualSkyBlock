@@ -5,8 +5,6 @@
 # tusb_mob: MobTags から、モブを召喚させるためのタグを１セット取り出す
 data modify entity @s Tags set from storage tusb_mob: MobTags[-1].Tags
 
-tellraw @a {"storage":"tusb_mob:","nbt":"MobTags[-1].Tags"}
-
 #データを初期化
 data remove storage tusb_mob: "即時ステータス"
 data remove storage tusb_mob: "遅延ステータス"
