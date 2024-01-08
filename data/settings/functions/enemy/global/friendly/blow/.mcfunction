@@ -1,3 +1,4 @@
+execute if entity @s[tag=Donchian] run function settings:enemy/global/friendly/blow/donchian/
 execute if entity @s[tag=OrdinaryPerson] run function settings:enemy/global/friendly/blow/ordinary_person/
 execute if entity @s[tag=Employee] run function settings:enemy/global/friendly/blow/employee/
 execute if entity @s[tag=Enigma] run function settings:enemy/global/friendly/blow/enigma
@@ -15,7 +16,6 @@ execute if entity @s[tag=CommonVillager] run function settings:enemy/global/frie
 execute if entity @s[tag=Daizo] run function settings:enemy/global/friendly/blow/daizo/
 execute if entity @s[tag=ThoughtPot] run function settings:enemy/global/friendly/blow/thought_pot/
 execute if entity @s[tag=ScarecrowDoll] run function settings:enemy/global/friendly/blow/scarecrow_doll/
-execute if entity @s[tag=Donchian] run function settings:enemy/global/friendly/blow/donchian/
 execute if entity @s[tag=FriendWolf] run function settings:enemy/global/friendly/blow/friend_wolf/
 execute if entity @s[tag=FriendThunderbolf] run function settings:enemy/global/friendly/blow/friend_thunderbolf/
 execute if entity @s[tag=FriendBumperStorm] run function settings:enemy/global/friendly/blow/friend_bumper_storm/

@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:phantom",CustomName:'{"translate":"黒怨之飛翔者","color":"#FF0000","bold":true}',Tags:[Mob,Enemy,DelayedData,HasAI,CallOnAttack,CallOnTick,CooldownRequired,HasLootTable,AnalyseLog,BlackGrudge_C],Size:4,PortalCooldown:3000,DeathLootTable:"empty"}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:phantom",CustomName:'{"translate":"黒怨之飛翔者","color":"#FF0000","bold":true}',Tags:[Mob,Enemy,DelayedData,HasAI,CallOnAttack,CallOnTick,CooldownRequired,HasLootTable,AnalyseLog,"BlackGrudge_C"],Size:4,PortalCooldown:3000,DeathLootTable:"empty"}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 40d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.3d

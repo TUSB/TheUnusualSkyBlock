@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:wolf",Team:"Friendly",Tags:[Mob,DelayedData,HasAI,CallOnInit,TickingRequired,DamageProjectile,FriendlyProjectile,AnalyseLog,BeforeEvolution],CustomNameVisible:true,CustomName:'{"translate":"フレンド・ウルフ","color":"#FFFF00","bold":true}',ActiveEffects:[{Id:11,Amplifier:4b,Duration:50}],Motion:[0d,0.5d,0d],PortalCooldown:3000,DeathLootTable:"empty"}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:wolf",Team:"Friendly",Tags:[Mob,DelayedData,HasAI,CallOnInit,TickingRequired,DamageProjectile,FriendlyProjectile,AnalyseLog,"BeforeEvolution"],CustomNameVisible:true,CustomName:'{"translate":"フレンド・ウルフ","color":"#FFFF00","bold":true}',ActiveEffects:[{Id:11,Amplifier:4b,Duration:50}],Motion:[0d,0.5d,0d],PortalCooldown:3000,DeathLootTable:"empty"}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 48d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.29d
