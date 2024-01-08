@@ -5,6 +5,8 @@
 # tusb_mob: MobTags から、モブを召喚させるためのタグを１セット取り出す
 data modify entity @s Tags set from storage tusb_mob: MobTags[-1].Tags
 
+tellraw @a {"storage":"tusb_mob:","nbt":"MobTags[-1].Tags"}
+
 #データを初期化
 data remove storage tusb_mob: "即時ステータス"
 data remove storage tusb_mob: "遅延ステータス"
@@ -41,6 +43,7 @@ data modify storage tusb_mob: SpawnData.Attributes[{Name:"minecraft:generic.atta
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList append value {}
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList[-1].Level set from storage tusb_mob: MobTags[-1].Level
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList[-1]."遅延ステータス" set from storage tusb_mob: "遅延ステータス"
+execute unless data storage tusb_mob: "即時ステータス"."ベース"{Tags:[DelayedData]} run data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList[-1]
 
 # 自然湧き用処理
 # tellraw @p [{"text":"LootTable: "},{"nbt":"","entity":"@s"}]
