@@ -1,4 +1,3 @@
-execute if entity @s[tag=Donchian] run function settings:enemy/global/friendly/blow/donchian/
 execute if entity @s[tag=OrdinaryPerson] run function settings:enemy/global/friendly/blow/ordinary_person/
 execute if entity @s[tag=Employee] run function settings:enemy/global/friendly/blow/employee/
 execute if entity @s[tag=Enigma] run function settings:enemy/global/friendly/blow/enigma

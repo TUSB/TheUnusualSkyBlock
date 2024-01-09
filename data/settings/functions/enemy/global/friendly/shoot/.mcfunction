@@ -1,3 +1,4 @@
+execute if entity @s[tag=Donchian] run function settings:enemy/global/friendly/shoot/donchian/
 execute if entity @s[tag=Cheriff] run function settings:enemy/global/friendly/shoot/cheriff/
 execute if entity @s[tag=SparkPixely] run function settings:enemy/global/friendly/shoot/spark_pixely/
 execute if entity @s[tag=Yasaosan] run function settings:enemy/global/friendly/shoot/yasaosan/
