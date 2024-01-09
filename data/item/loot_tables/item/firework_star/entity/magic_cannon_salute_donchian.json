@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1043,CustomAttributes:1b,HideFlags:32,SpawnEntities:[[{Tags:[Global,Friendly,Shoot,Donchian,Main],Level:20}]],Explosion:{Type:0b,Colors:[I;10551102]},display:{Name:'{\"translate\":\"魔祝砲「ドンチャン」\",\"color\":\"#FF8000\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"このアイテムが地面に落ちた時、\",\"color\":\"#FFFF00\"}','{\"translate\":\"味方の祝砲が召喚される。\",\"color\":\"#FFFF00\"}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

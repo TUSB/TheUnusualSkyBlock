@@ -64,6 +64,11 @@
           "name": "item:item/diamond_axe/tomahawk"
         },
         {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/firework_star/entity/magic_cannon_salute_donchian"
+        },
+        {
           "weight": 22,
           "type": "loot_table",
           "name": "item:item/fishing_rod/fishing_rod_with_false_bait"
