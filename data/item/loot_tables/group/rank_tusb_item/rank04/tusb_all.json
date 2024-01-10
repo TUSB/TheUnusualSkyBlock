@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/buster_axe"
         },
@@ -47,6 +47,11 @@
           "weight": 4,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/old_iblis_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/leaves_bug_memory_star"
         },
         {
           "weight": 6,

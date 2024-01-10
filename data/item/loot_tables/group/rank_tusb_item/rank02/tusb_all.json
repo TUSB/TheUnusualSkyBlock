@@ -64,7 +64,7 @@
           "name": "item:item/diamond_axe/tomahawk"
         },
         {
-          "weight": 3,
+          "weight": 20,
           "type": "loot_table",
           "name": "item:item/firework_star/entity/magic_cannon_salute_donchian"
         },
