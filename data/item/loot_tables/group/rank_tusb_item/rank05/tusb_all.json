@@ -369,6 +369,11 @@
           "name": "item:item/magma_cube_spawn_egg/sign/upgrade_black"
         },
         {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/very_glow"
+        },
+        {
           "weight": 4,
           "type": "loot_table",
           "name": "item:item/netherite_axe/strong_meat"
