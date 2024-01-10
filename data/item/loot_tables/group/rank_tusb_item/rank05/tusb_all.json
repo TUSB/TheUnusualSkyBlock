@@ -326,6 +326,21 @@
         {
           "weight": 3,
           "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/break_gravel"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/break_cobweb"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/break_cobblestone"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
           "name": "item:item/magma_cube_spawn_egg/sign/harvest_wheat"
         },
         {

@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magma_cube_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:4,EntityTag:{Tags:[Sign,Oak],Silent:1b,Size:0b,DeathLootTable:\"item:item/magma_cube_spawn_egg/sign/break_gravel\",ArmorItems:[{id:\"minecraft:stone\",Count:1b,tag:{Data:{Text3:'{\"text\":\"B\",\"font\":\"sign\",\"color\":\"white\"}',Text4:'{\"text\":\"④\",\"font\":\"sign\",\"color\":\"white\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"function item:sign/click/break_gravel\"}}}'}}},{},{},{}]},display:{Name:'{\"translate\":\"粉砕の印板（砂利）\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"設置してクリックすると\",\"color\":\"white\",\"bold\":false,\"italic\":false}','{\"translate\":\"ちょっとの範囲にある%1$sを粉砕/回収する。\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"with\":[{\"translate\":\"block.minecraft.gravel\",\"color\":\"#C0C0C0\"}]}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
