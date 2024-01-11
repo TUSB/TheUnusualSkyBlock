@@ -34,7 +34,7 @@
           "name": "item:item/carrot_on_a_stick/high_immunity"
         },
         {
-          "weight": 2,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/synthetic_narcotics_rta"
         },
@@ -322,6 +322,11 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/magma_cube_spawn_egg/sign/teleport"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/break_log"
         },
         {
           "weight": 3,
