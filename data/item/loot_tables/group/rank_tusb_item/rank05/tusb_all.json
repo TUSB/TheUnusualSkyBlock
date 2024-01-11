@@ -379,6 +379,11 @@
           "name": "item:item/magma_cube_spawn_egg/sign/very_glow"
         },
         {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/harvest_nether_wart"
+        },
+        {
           "weight": 4,
           "type": "loot_table",
           "name": "item:item/netherite_axe/strong_meat"
@@ -459,7 +464,7 @@
           "name": "item:item/warped_fungus_on_a_stick/safety_helmet"
         },
         {
-          "weight": 15,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/wooden_sword/powerful_fish"
         }

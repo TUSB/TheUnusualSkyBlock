@@ -4,12 +4,12 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 16,
+          "weight": 64,
           "type": "loot_table",
           "name": "item:group/drop_item/all/wool_set"
         },
         {
-          "weight": 1,
+          "weight": 4,
           "type": "minecraft:item",
           "name": "minecraft:emerald",
           "functions": [

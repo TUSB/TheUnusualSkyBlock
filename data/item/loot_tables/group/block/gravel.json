@@ -24,13 +24,13 @@
         },
         {
           "weight": 1500,
-          "type": "loot_table",
-          "name": "item:group/tusb_item/lottery/first_items"
-        },
-        {
-          "weight": 1500,
           "type": "minecraft:item",
           "name": "minecraft:flint"
+        },
+        {
+          "weight": 1400,
+          "type": "loot_table",
+          "name": "item:group/tusb_item/lottery/first_items"
         },
         {
           "weight": 1200,
@@ -64,7 +64,16 @@
         {
           "weight": 100,
           "type": "loot_table",
-          "name": "item:item/gold_nugget/mystery/1"
+          "name": "item:item/gold_nugget/mystery/1",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
         },
         {
           "weight": 88,
@@ -80,7 +89,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 63
+                "max": 31
               }
             }
           ]

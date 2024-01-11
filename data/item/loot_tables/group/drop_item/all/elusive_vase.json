@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 30,
+          "weight": 20,
           "type": "loot_table",
           "name": "item:group/currency_and_magic_stone/all/mix"
         },

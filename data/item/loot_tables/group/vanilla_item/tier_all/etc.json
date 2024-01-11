@@ -76,6 +76,20 @@
         },
         {
           "weight": 3,
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_rod",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/item_frame/described_item_frame",
           "functions": [

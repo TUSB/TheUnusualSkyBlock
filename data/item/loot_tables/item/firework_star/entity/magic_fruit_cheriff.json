@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1042,CustomAttributes:1b,HideFlags:32,SpawnEntities:[[{Tags:[Global,Friendly,Shoot,Cheriff,Main],Level:155}],[{Tags:[Global,Sky,Shoot,Cheriff,Display],Level:155}]],Explosion:{Type:0b,Colors:[I;14614326]},display:{Name:'{\"translate\":\"魔果実「チェリフ」\",\"color\":\"#FF8000\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"このアイテムが地面に落ちた時、\",\"color\":\"#FFFF00\"}','{\"translate\":\"味方のさくらんぼが召喚される。\",\"color\":\"#FFFF00\"}']}}"
+              "tag": "{CustomModelData:1042,CustomAttributes:1b,HideFlags:32,SpawnEntities:[[{Tags:[Global,Friendly,Shoot,Cheriff,Main],Level:155}],[{Tags:[Global,Friendly,Shoot,Cheriff,Display],Level:155}]],Explosion:{Type:0b,Colors:[I;14614326]},display:{Name:'{\"translate\":\"魔果実「チェリフ」\",\"color\":\"#FF8000\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"このアイテムが地面に落ちた時、\",\"color\":\"#FFFF00\"}','{\"translate\":\"味方のさくらんぼが召喚される。\",\"color\":\"#FFFF00\"}']}}"
             }
           ]
         }
