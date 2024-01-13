@@ -9,7 +9,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 3
+              "count": {
+                "min": 3,
+                "max": 7
+              }
             }
           ]
         }
@@ -19,8 +22,17 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:red_bed"
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier1/mix",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
         }
       ]
     },
@@ -57,7 +69,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 3
+              "count": {
+                "min": 3,
+                "max": 7
+              }
             }
           ]
         }
@@ -81,7 +96,7 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 2
+              "count": 3
             }
           ]
         }
@@ -91,8 +106,17 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:red_bed"
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier1/mix",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
         }
       ]
     },
@@ -105,7 +129,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 3
+              "count": {
+                "min": 3,
+                "max": 7
+              }
             }
           ]
         }
@@ -115,8 +142,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:group/magic_stone/tier1/mix"
+          "type": "minecraft:item",
+          "name": "minecraft:green_bed"
         }
       ]
     },
@@ -134,7 +161,13 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:item/firework_star/etc/key_block_key_skylands_001"
+          "name": "item:item/firework_star/etc/key_block_key_skylands_001",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
         }
       ]
     },
@@ -147,7 +180,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 3
+              "count": {
+                "min": 3,
+                "max": 7
+              }
             }
           ]
         }
@@ -171,7 +207,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 3
+              "count": {
+                "min": 3,
+                "max": 7
+              }
             }
           ]
         }
@@ -199,8 +238,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "loot_table",
-          "name": "item:group/magic_stone/tier1/mix"
+          "type": "minecraft:item",
+          "name": "minecraft:green_bed"
         }
       ]
     },
@@ -213,7 +252,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 3
+              "count": {
+                "min": 3,
+                "max": 7
+              }
             }
           ]
         }
@@ -223,23 +265,26 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:red_bed"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:chain",
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier1/mix",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 5
+              "count": {
+                "min": 1,
+                "max": 2
+              }
             }
           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/weapon/pay_for_storage"
         }
       ]
     },
@@ -261,7 +306,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 3
+              "count": {
+                "min": 3,
+                "max": 7
+              }
             }
           ]
         }
@@ -295,8 +343,17 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:red_bed"
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier1/mix",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
         }
       ]
     },
@@ -309,7 +366,10 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 3
+              "count": {
+                "min": 3,
+                "max": 7
+              }
             }
           ]
         }
