@@ -9,6 +9,9 @@
 # エキスパート : NotKeepInventory
 # なお呪詛の場合は異なる処理となる
 
+# ピクニック処理(呪詛)
+    execute if data storage main: difficult{world:"picnic"} if entity @s[tag=Curse,tag=!Raise] run function player:death_item_drop/casual_curse
+
 # カジュアル処理(Not 呪詛)
     execute if data storage main: difficult{world:"casual"} if entity @s[tag=!Curse,tag=!Raise] run function player:death_item_drop/casual
 
