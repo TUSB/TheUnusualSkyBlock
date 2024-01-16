@@ -39,7 +39,7 @@
           "name": "item:item/carrot_on_a_stick/aarons_rod"
         },
         {
-          "weight": 3,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/a_chin_egg"
         },

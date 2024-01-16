@@ -9,7 +9,12 @@
           "name": "item:item/carrot_on_a_stick/bug_memory_star"
         },
         {
-          "weight": 1,
+          "weight": 128,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/fluffy"
+        },
+        {
+          "weight": 128,
           "type": "minecraft:item",
           "name": "minecraft:enchanted_golden_apple",
           "functions": [
@@ -21,6 +26,41 @@
               }
             }
           ]
+        },
+        {
+          "weight": 64,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/elixir"
+        },
+        {
+          "weight": 64,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/angel_stick"
+        },
+        {
+          "weight": 32,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/hover_gift"
+        },
+        {
+          "weight": 32,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/leaves_bug_memory_star"
+        },
+        {
+          "weight": 32,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/panacea"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/iron_pickaxe/jewel_mining"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_statue_of_goddess_mercy"
         }
       ]
     }

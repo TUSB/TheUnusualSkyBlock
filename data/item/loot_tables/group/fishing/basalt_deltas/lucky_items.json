@@ -7,6 +7,51 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/bug_memory_star"
+        },
+        {
+          "weight": 16,
+          "type": "loot_table",
+          "name": "item:item/shield/knight_shield"
+        },
+        {
+          "weight": 16,
+          "type": "loot_table",
+          "name": "item:item/shield/ninja_shield"
+        },
+        {
+          "weight": 16,
+          "type": "loot_table",
+          "name": "item:item/shield/hunter_shield"
+        },
+        {
+          "weight": 16,
+          "type": "loot_table",
+          "name": "item:item/shield/black_mage_shield"
+        },
+        {
+          "weight": 16,
+          "type": "loot_table",
+          "name": "item:item/shield/white_mage_shield"
+        },
+        {
+          "weight": 16,
+          "type": "loot_table",
+          "name": "item:item/shield/summoner_shield"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/tier3_iron_memory_star"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/pendulum"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/very_glow"
         }
       ]
     }

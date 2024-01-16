@@ -59,6 +59,11 @@
           "name": "item:item/diamond_leggings/infinity_diamond_l"
         },
         {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/firework_star/entity/magic_fruit_cheriff"
+        },
+        {
           "weight": 2,
           "type": "loot_table",
           "name": "item:item/fishing_rod/amazing_fishing_rods"

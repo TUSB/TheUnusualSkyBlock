@@ -889,7 +889,7 @@
           "name": "item:item/iron_nugget/currency_void"
         },
         {
-          "weight": 33,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/iron_pickaxe/jewel_mining"
         },

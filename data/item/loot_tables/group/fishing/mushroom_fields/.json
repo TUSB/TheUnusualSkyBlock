@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 5,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:group/fishing/mushroom_fields/bad_items"
         },
@@ -12,6 +12,16 @@
           "weight": 5,
           "type": "loot_table",
           "name": "item:group/fishing/mushroom_fields/lucky_items"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/spider_eye/dirty_mud"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/spider_eye/empty_can"
         },
         {
           "weight": 1,

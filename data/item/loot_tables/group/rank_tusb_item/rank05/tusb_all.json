@@ -194,6 +194,11 @@
           "name": "item:item/elytra/strong_wings"
         },
         {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/firework_star/entity/magic_vegetable_yasaosan"
+        },
+        {
           "weight": 6,
           "type": "loot_table",
           "name": "item:item/gold_nugget/mystery/3"

@@ -4,14 +4,19 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 6,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:group/fishing/the_end/bad_items"
         },
         {
-          "weight": 3,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:group/fishing/the_end/lucky_items"
+        },
+        {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/all_record"
         }
       ]
     }

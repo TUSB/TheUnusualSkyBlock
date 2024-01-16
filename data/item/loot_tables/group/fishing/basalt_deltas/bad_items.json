@@ -4,14 +4,24 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 3,
+          "weight": 12,
           "type": "loot_table",
           "name": "item:item/firework_star/etc/trap_spawn_spawner_vase"
         },
         {
-          "weight": 3,
+          "weight": 8,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_fake_gravel"
+        },
+        {
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/firework_star/etc/trap_spawn_predator"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_break_container_spawn_dungeon_rock"
         }
       ]
     }
