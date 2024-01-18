@@ -1,6 +1,6 @@
 ### 即時ステータス
 data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:villager",Team:"Friendly",Tags:[Mob,Enemy,DelayedData,HasAI,CallOnDeath,CallOnInit,CallOnTimeOut,CallOnDamage,TickingRequired,AnalyseLog,"Unmoved","Trap"],CustomName:'{"translate":"ドンチャン","color":"#FF8000"}',Age:-9999,InLove:0,ForcedAge:-9999,Silent:true,DeathTime:19s,ActiveEffects:[{Id:14,Amplifier:127b,Duration:-1,ShowParticles:false}],PortalCooldown:3000,DeathLootTable:"empty"}
-data modify storage tusb_mob: "即時ステータス"."見た目" set value {ArmorItems:[{},{},{},{id:"minecraft:firework_star",Count:1b,tag:{Explosion:{Type:0b,Colors:[I;10551102]},CustomModelData:1043}}],DisabledSlots:4144959}
+data modify storage tusb_mob: "即時ステータス"."見た目" set value {ArmorItems:[{},{},{},{id:"minecraft:firework_star",Count:1b,tag:{Explosion:{Type:0b,Colors:[I;10551102]},CustomModelData:1043}}]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 0d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0d
 data modify storage tusb_mob: "即時ステータス"."ノックバック耐性" set value 0d
