@@ -1,3 +1,4 @@
+execute if data storage skill: Skill{Name:"サモンSメニクル"} run function skill:act/common/summon_menicles/act0
 execute if data storage skill: Skill{Name:"ソニックバースト"} run function skill:act/common/sonic_burst/act0
 execute if data storage skill: Skill{Name:"墓掘り"} run function skill:act/common/dig_tomb/act0
 execute if data storage skill: Skill{Name:"スーパーデバリア"} run function skill:act/common/super_debaria/act0
