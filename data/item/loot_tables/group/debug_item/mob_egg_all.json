@@ -1341,7 +1341,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"text\":\"global メニクル Lv40\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Shoot,Menicles,Main],Level:40}],[{Tags:[Global,Ground,Blow,DungeonRock,Display],Level:40}]]}}]}}"
+              "tag": "{display:{Name:'{\"text\":\"global メニクル Lv40\"}'},EntityTag:{Tags:[Spawn],DeathTime:19s,NoAI:1b,Silent:1b,Invisible:1b,ArmorItems:[{},{},{},{id:\"minecraft:stick\",Count:1b,tag:{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Shoot,Menicles,Main],Level:40}],[{Tags:[Global,Ground,Shoot,Menicles,Display],Level:40}]]}}]}}"
             }
           ]
         },
