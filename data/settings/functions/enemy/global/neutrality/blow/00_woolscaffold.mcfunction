@@ -20,4 +20,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 0
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s頑丈な羊毛ですが燃えやすいです。","with":[{"translate":"【能力：なし】","color":"#00FF00"}]}]'
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s頑丈な羊毛ですが燃えやすいです。","with":[{"translate":"【能力：ノンバースト】","color":"#00FF00"}]}]'

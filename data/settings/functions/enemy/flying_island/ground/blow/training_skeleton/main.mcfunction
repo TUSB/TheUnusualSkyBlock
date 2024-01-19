@@ -20,4 +20,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value -1000
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s攻撃力以外平均的なLv50のモブです。","with":[{"translate":"【能力：なし】","color":"#00FF00"}]}]'
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s攻撃力以外平均的なLv50のモブです。","with":[{"translate":"【能力：ノンバースト】","color":"#00FF00"}]}]'
