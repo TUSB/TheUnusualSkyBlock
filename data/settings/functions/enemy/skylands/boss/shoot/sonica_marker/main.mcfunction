@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:item_display",Tags:[DelayedData,HasAI,CallOnDeath,CallOnInit,SonicAMarker,SleepgaImmune,Unmoved],UUID:[I;100,0,0,1],DeathLootTable:"empty"}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:item_display",Tags:[DelayedData,HasAI,CallOnDeath,CallOnInit,"SonicAMarker","SleepgaImmune","Unmoved"],UUID:[I;100,0,0,1],DeathLootTable:"empty"}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 ### 遅延ステータス
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 160
