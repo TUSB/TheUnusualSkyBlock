@@ -16,3 +16,5 @@ execute unless score _ _ matches 1.. run function enemy:break_spawner/break
 
 #経験値オーブをKill
 kill @e[distance=..2,type=experience_orb]
+# 岩盤演出をkill
+tag @e[distance=..0.1,tag=FailedMine] add Garbage
