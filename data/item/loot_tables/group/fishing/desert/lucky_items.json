@@ -4,27 +4,27 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 1,
+          "weight": 32,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/bug_memory_star"
         },
         {
-          "weight": 1,
+          "weight": 16,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/super_immunity"
         },
         {
-          "weight": 1,
+          "weight": 16,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/cure_super_ether_field"
         },
         {
-          "weight": 1,
+          "weight": 16,
           "type": "loot_table",
           "name": "item:group/magic_stone/tier1_7/mystery"
         },
         {
-          "weight": 1,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:group/treasure_items/rank_all/vanilla_tusb_mix"
         }
