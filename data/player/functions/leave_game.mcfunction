@@ -43,7 +43,7 @@ function player:game_settings/show
 function enemy:break_spawner/alpha_advancements/update
 
 # バースト必要値 更新
-function skill:burst/required_amount
+execute unless score $World Burst matches -1 run function skill:burst/required_amount
 
 execute unless score $World Burst matches -1 run function skill:burst/bossbar
 
