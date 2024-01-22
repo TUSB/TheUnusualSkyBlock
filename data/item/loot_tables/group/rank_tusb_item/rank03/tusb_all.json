@@ -319,7 +319,7 @@
           "name": "item:item/shield/skeleton_shield"
         },
         {
-          "weight": 3,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/shield/red_eye_shield"
         },
@@ -329,7 +329,7 @@
           "name": "item:item/shield/perpetual_shield"
         },
         {
-          "weight": 15,
+          "weight": 10,
           "type": "loot_table",
           "name": "item:item/shield/gravel_wall"
         },

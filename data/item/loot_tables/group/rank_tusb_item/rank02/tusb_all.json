@@ -174,7 +174,7 @@
           "name": "item:item/shears/shears"
         },
         {
-          "weight": 12,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/shield/ikachan_body_pillow"
         },
@@ -184,7 +184,7 @@
           "name": "item:item/shield/red_signal"
         },
         {
-          "weight": 20,
+          "weight": 7,
           "type": "loot_table",
           "name": "item:item/shield/bone_shield"
         },
@@ -194,27 +194,27 @@
           "name": "item:item/shield/diamond_shield"
         },
         {
-          "weight": 18,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/shield/knight_shield"
         },
         {
-          "weight": 11,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/shield/black_mage_shield"
         },
         {
-          "weight": 15,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/shield/hunter_shield"
         },
         {
-          "weight": 28,
+          "weight": 8,
           "type": "loot_table",
           "name": "item:item/shield/summoner_shield"
         },
         {
-          "weight": 10,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/shield/spider_web_shield"
         },
@@ -224,7 +224,7 @@
           "name": "item:item/shield/ninja_shield"
         },
         {
-          "weight": 15,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/shield/white_mage_shield"
         },

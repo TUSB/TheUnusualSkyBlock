@@ -404,12 +404,12 @@
           "name": "item:item/shield/tatami"
         },
         {
-          "weight": 2,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/shield/spooky_shield"
         },
         {
-          "weight": 2,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/shield/windmill_shield"
         },
