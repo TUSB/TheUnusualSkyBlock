@@ -264,7 +264,7 @@ function settings:skill/black_mage/return/default
 
 #難易度リセット カジュアル
 function main:difficulty/reset
-execute if data storage main: {debug:1b} run function main:difficulty/apply/debug
+execute if data storage main: {debug:1b} run function main:difficulty/select/debug
 
 #島の攻略率
 data remove storage area: capture
