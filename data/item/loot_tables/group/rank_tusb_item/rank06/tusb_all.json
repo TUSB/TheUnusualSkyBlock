@@ -254,7 +254,7 @@
           "name": "item:item/shield/golden_sheep_coat"
         },
         {
-          "weight": 2,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/shield/gear_shield"
         },

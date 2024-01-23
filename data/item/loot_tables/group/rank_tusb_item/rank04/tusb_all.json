@@ -194,12 +194,12 @@
           "name": "item:item/leather_leggings/old_iblis_l"
         },
         {
-          "weight": 4,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/shears/kuwagata"
         },
         {
-          "weight": 4,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/shield/bentler"
         },
@@ -209,17 +209,17 @@
           "name": "item:item/shield/mysterious_shield"
         },
         {
-          "weight": 6,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/shield/mirror_shield"
         },
         {
-          "weight": 4,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/shield/spell_shield"
         },
         {
-          "weight": 3,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/shield/holy_shield"
         },

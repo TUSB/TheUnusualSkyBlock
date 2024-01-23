@@ -21,6 +21,6 @@ team join Friendly
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].SkillShortcut set value [{Skill:"<未設定>"},{Skill:"<未設定>"},{Skill:"<未設定>"},{Skill:"<未設定>"},{Skill:"<未設定>"},{Skill:"<未設定>"}]
 
 # バースト必要値 更新
-function skill:burst/required_amount
+execute unless score $World Burst matches -1 run function skill:burst/required_amount
 
 function skill:burst/bossbar
