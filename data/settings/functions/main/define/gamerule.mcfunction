@@ -15,7 +15,7 @@ gamerule commandBlockOutput false
 gamerule forgiveDeadPlayers false
 execute unless data storage main: {debug:1b} run gamerule doMobSpawning true
 gamerule maxEntityCramming 24
-gamerule disableRaids false
+gamerule disableRaids true
 gamerule doWeatherCycle true
 gamerule mobExplosionDropDecay true
 execute unless data storage main: {debug:1b} run gamerule doDaylightCycle false
