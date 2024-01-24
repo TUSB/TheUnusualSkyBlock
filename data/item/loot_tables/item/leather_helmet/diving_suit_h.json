@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:64,Unbreakable:true,display:{Name:'{\"translate\":\"潜水服\",\"color\":\"blue\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(V)\",\"color\":\"white\",\"with\":[{\"translate\":\"水竜の\"},{\"translate\":\"刻印\"}]}]'],color:7041279},Engraving:{EnchantID:\"水竜\",Tier:5},AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:0.5d,Operation:1,UUID:[I;21,0,0,21],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:0.1d,Operation:1,UUID:[I;21,0,0,61],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"デフォルト\",Amount:1,Operation:0,UUID:[I;21,0,1,60],Slot:\"head\"}]}"
+              "tag": "{HideFlags:64,Unbreakable:true,display:{Name:'{\"translate\":\"潜水服\",\"color\":\"blue\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"%1$s%2$s(V)\",\"color\":\"white\",\"with\":[{\"translate\":\"水竜の\"},{\"translate\":\"刻印\"}]}]'],color:7041279},Engraving:{EnchantID:\"水竜\",Tier:5},AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:0.5d,Operation:1,UUID:[I;21,0,0,21],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:0.1d,Operation:1,UUID:[I;21,0,0,61],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"デフォルト\",Amount:1,Operation:0,UUID:[I;21,0,1,60],Slot:\"head\"}]}"
             }
           ]
         }

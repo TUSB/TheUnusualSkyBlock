@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:32,BlockEntityTag:{Patterns:[{Pattern:\"ss\",Color:2},{Pattern:\"ss\",Color:2},{Pattern:\"ms\",Color:15},{Pattern:\"sc\",Color:15},{Pattern:\"hhb\",Color:15},{Pattern:\"ts\",Color:15}],Base:10},display:{Name:'{\"translate\":\"エンダーマンの盾\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(III)\",\"color\":\"white\",\"with\":[{\"translate\":\"俊敏の\"},{\"translate\":\"刻印\"}]}]']},Engraving:{EnchantID:\"俊敏\",Tier:3},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:2.1d,Operation:0,UUID:[I;11,0,0,30],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:2.1d,Operation:0,UUID:[I;12,0,0,30],Slot:\"offhand\"}]}"
+              "tag": "{HideFlags:32,BlockEntityTag:{Patterns:[{Pattern:\"ss\",Color:2},{Pattern:\"ss\",Color:2},{Pattern:\"ms\",Color:15},{Pattern:\"sc\",Color:15},{Pattern:\"hhb\",Color:15},{Pattern:\"ts\",Color:15}],Base:10},display:{Name:'{\"translate\":\"エンダーマンの盾\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"green\",\"italic\":false},{\"translate\":\"%1$s%2$s(III)\",\"color\":\"white\",\"with\":[{\"translate\":\"俊敏の\"},{\"translate\":\"刻印\"}]}]']},Engraving:{EnchantID:\"俊敏\",Tier:3},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:2.1d,Operation:0,UUID:[I;11,0,0,30],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:2.1d,Operation:0,UUID:[I;12,0,0,30],Slot:\"offhand\"}]}"
             }
           ]
         }
