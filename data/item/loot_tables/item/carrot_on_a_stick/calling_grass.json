@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:148,CustomAttributes:1b,display:{Name:'{\"translate\":\"ヨビヨセソウ\",\"color\":\"#AB97C3\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(I)\",\"color\":\"white\",\"with\":[{\"translate\":\"闇の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"砂利の中に自生している草\",\"color\":\"#CCCCCC\"}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"N\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" 呼魂\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Engraving:{EnchantID:\"闇\",Tier:1},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"忍者\",SkillID:235,Name:\"呼魂\",Level:1,Interval:200,Trigger:\"手に持って右クリック\",Count:3}}"
+              "tag": "{CustomModelData:148,CustomAttributes:1b,display:{Name:'{\"translate\":\"ヨビヨセソウ\",\"color\":\"#AB97C3\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"#8356A6\",\"italic\":false},{\"translate\":\"%1$s%2$s(I)\",\"color\":\"white\",\"with\":[{\"translate\":\"闇の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"砂利の中に自生している草\",\"color\":\"#CCCCCC\"}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"N\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" 呼魂\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Engraving:{EnchantID:\"闇\",Tier:1},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"忍者\",SkillID:235,Name:\"呼魂\",Level:1,Interval:200,Trigger:\"手に持って右クリック\",Count:3}}"
             }
           ]
         }
