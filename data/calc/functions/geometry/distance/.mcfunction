@@ -9,4 +9,4 @@
 function #util:distance
 
 scoreboard players operation _ Ret = _ AiUtil
-scoreboard players get _ Ret
+return run scoreboard players get _ Ret
