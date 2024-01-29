@@ -4,4 +4,4 @@ function makeup:tutorial_alpha/sound
 
 # 特殊デバフ最初のみアイテムを消す
 clear @s #item:all{tutorial_item:true}
-give @s minecraft:splash_potion{tutorial_item:true,CustomPotionColor:12522773,CustomPotionEffects:[{Duration:160,Id:14,Amplifier:3b}],display:{ Name:'[{"translate":"火だるま","color":"red","bold":true}," ",{"text":"(8s)"}]'}}
+give @s minecraft:splash_potion{tutorial_item:true,CustomPotionColor:12522773,custom_potion_effects:[{duration:160,id:"minecraft:invisibility",amplifier:3b}],display:{ Name:'[{"translate":"火だるま","color":"red","bold":true}," ",{"text":"(8s)"}]'}}

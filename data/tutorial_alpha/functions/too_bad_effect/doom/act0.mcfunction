@@ -2,5 +2,5 @@ tellraw @s ["",{"translate":"[チュートリアル：%1$s]","bold":true,"with":
 
 function makeup:tutorial_alpha/sound
 
-give @s minecraft:splash_potion{tutorial_item:true,CustomPotionColor:4194491,CustomPotionEffects:[{Duration:40,Id:14,Amplifier:1b}],display:{ Name:'[{"translate":"死の宣告","color":"red","bold":true}," ",{"text":"(10)"}]'}}
-give @s minecraft:splash_potion{tutorial_item:true,CustomPotionColor:4194491,CustomPotionEffects:[{Duration:40,Id:14,Amplifier:2b}],display:{ Name:'[{"translate":"死の宣告","color":"red","bold":true}," ",{"text":"(3)"}]'}}
+give @s minecraft:splash_potion{tutorial_item:true,CustomPotionColor:4194491,custom_potion_effects:[{duration:40,id:"minecraft:invisibility",amplifier:1b}],display:{ Name:'[{"translate":"死の宣告","color":"red","bold":true}," ",{"text":"(10)"}]'}}
+give @s minecraft:splash_potion{tutorial_item:true,CustomPotionColor:4194491,custom_potion_effects:[{duration:40,id:"minecraft:invisibility",amplifier:2b}],display:{ Name:'[{"translate":"死の宣告","color":"red","bold":true}," ",{"text":"(3)"}]'}}
