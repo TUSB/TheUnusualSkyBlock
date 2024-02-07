@@ -6,6 +6,10 @@
                 "block": "end_gateway",
                 "player": [
                     {
+                      "condition": "minecraft:reference",
+                      "name": "entity:player"
+                    },
+                    {
                         "condition": "entity_properties",
                         "entity": "this",
                         "predicate": {
@@ -101,6 +105,6 @@
         ]
     ],
     "rewards": {
-        "function": "area:jump_to/flying_island"
+        "function": "area:jump_to/trigger/flying_island/"
     }
 }

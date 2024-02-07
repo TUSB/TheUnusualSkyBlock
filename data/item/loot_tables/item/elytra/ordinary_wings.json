@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:elytra",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"凡翼\",\"color\":\"#999999\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"red\",\"italic\":false},{\"translate\":\"%1$s%2$s(IV)\",\"color\":\"white\",\"with\":[{\"translate\":\"棘の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"量産型の使い捨てのエリトラ\",\"color\":\"#990000\",\"italic\":false}','{\"translate\":\"所々穴が開いている\",\"color\":\"#990000\",\"italic\":false}']},Engraving:{EnchantID:\"棘\",Tier:4},AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:-0.56d,Operation:2,UUID:[I;22,0,0,22],Slot:\"chest\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:-0.7d,Operation:2,UUID:[I;22,0,0,32],Slot:\"chest\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:11d,Operation:0,UUID:[I;22,0,0,40],Slot:\"chest\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:-0.28d,Operation:2,UUID:[I;22,0,0,52],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:-0.49d,Operation:2,UUID:[I;22,0,0,62],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"カスタム\",Amount:-0.35d,Operation:2,UUID:[I;22,0,0,72],Slot:\"chest\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "condition": "alternative",
+  "terms": [
+    {
+      "condition": "reference",
+      "name": "skill:blacksmith/add_0"
+    },
+    {
+      "condition": "reference",
+      "name": "skill:blacksmith/add_1"
+    },
+    {
+      "condition": "reference",
+      "name": "skill:blacksmith/add_4"
+    },
+    {
+      "condition": "reference",
+      "name": "skill:blacksmith/add_7"
+    },
+    {
+      "condition": "reference",
+      "name": "skill:blacksmith/add_10"
+    }
+  ]
+}

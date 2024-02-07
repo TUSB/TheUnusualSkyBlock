@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 95,
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier1_4/mix"
+        },
+        {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "item:item/firework_star/entity/magic_vegetable_yasaosan"
+        }
+      ]
+    }
+  ]
+}

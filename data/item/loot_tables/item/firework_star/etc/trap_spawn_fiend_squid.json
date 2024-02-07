@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:4001,HideFlags:32,SpawnEntities:[[{Tags:[Global,Sky,Shoot,FiendSquid,Bat,SpawnParticles],Level:23}],[{Tags:[Global,Sky,Shoot,FiendSquid,Squid,SpawnParticles],Level:23}]],Explosion:{Type:0b,Colors:[I;38351]},display:{Name:'{\"translate\":\"召喚の罠「アオリイカ」\",\"color\":\"#FF0000\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"このアイテムが地面に落ちた時、\",\"color\":\"#FF0061\"}','{\"translate\":\"アイテム名のモンスターが召喚される。\",\"color\":\"#FF0061\"}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "criteria": {
+    "select": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction",
+          "nbt": "{Tags:[Picnic]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "main:difficulty/select/picnic"
+  }
+}

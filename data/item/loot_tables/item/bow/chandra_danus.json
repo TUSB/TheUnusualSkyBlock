@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"チャンドラダヌス\",\"color\":\"red\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"#FF4400\",\"italic\":false},{\"translate\":\"%1$s%2$s(III)\",\"color\":\"white\",\"with\":[{\"translate\":\"炎威の\"},{\"translate\":\"刻印\"}]}]','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"H\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" ワイルドフレアⅡ\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Engraving:{EnchantID:\"炎威\",Tier:3},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"狩人\",SkillID:349,Name:\"ワイルドフレア\",Level:2,Interval:60,Trigger:\"弓を構えて矢を撃つ\",Count:20},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:66d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

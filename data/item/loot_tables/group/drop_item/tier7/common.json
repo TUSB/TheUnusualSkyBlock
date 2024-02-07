@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:group/base_currency/tier7/emerald"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier7/mix"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:group/instant_item/tier7/mix_instant_items"
+        }
+      ]
+    }
+  ]
+}

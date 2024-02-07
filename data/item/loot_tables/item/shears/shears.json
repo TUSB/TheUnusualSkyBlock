@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:shears",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"庭師のハサミ\",\"color\":\"#00B50C\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"green\",\"italic\":false},{\"translate\":\"%1$s%2$s(V)\",\"color\":\"white\",\"with\":[{\"translate\":\"効率の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"これで拠点周りをキレイにしてあげよう！\",\"color\":\"white\",\"italic\":false}']},Engraving:{EnchantID:\"効率\",Tier:5}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

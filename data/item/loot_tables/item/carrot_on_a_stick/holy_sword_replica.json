@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"聖剣のレプリカ\",\"color\":\"gold\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"有名な聖剣のレプリカ。\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"レプリカとは言え聖剣としての力は本物で、\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"闇を祓い、相手を弱体化する一閃を放つ。\",\"color\":\"white\",\"italic\":false}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" 断罪\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"断罪\",Level:1,Interval:0,Trigger:\"近接攻撃する\",Count:1},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:0.35d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:-2.4d,Operation:0,UUID:[I;11,0,0,50],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

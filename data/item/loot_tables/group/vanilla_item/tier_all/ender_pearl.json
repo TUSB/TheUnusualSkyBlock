@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 8,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier1/ender_pearl"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier3/ender_pearl"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier5/ender_pearl"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier7/ender_pearl"
+        }
+      ]
+    }
+  ]
+}

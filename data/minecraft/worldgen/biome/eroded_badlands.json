@@ -1,0 +1,54 @@
+{
+  "scale": 0.025,
+  "effects": {
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2.0
+    },
+    "foliage_color": 16419270,
+    "grass_color": 16623046,
+    "sky_color": 16743980,
+    "fog_color": 16768040,
+    "water_color": 11330039,
+    "water_fog_color": 3343652
+  },
+  "surface_builder": "minecraft:nope",
+  "carvers": {},
+  "features": [
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    [],
+    []
+  ],
+  "starts": [],
+  "spawners": {
+    "monster": [
+      {
+        "type": "creeper",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "creature": [],
+    "ambient": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  },
+  "spawn_costs": {},
+  "player_spawn_friendly": false,
+  "has_precipitation": true,
+  "temperature": 0.5,
+  "downfall": 0.5,
+  "category": "none",
+  "depth": 0.0
+}

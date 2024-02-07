@@ -6,6 +6,10 @@
                 "block": "end_gateway",
                 "player": [
                     {
+                      "condition": "minecraft:reference",
+                      "name": "entity:player"
+                    },
+                    {
                         "condition": "entity_properties",
                         "entity": "this",
                         "predicate": {
@@ -70,6 +74,6 @@
         ]
     ],
     "rewards": {
-        "function": "area:jump_to/underworld/skylands"
+        "function": "area:jump_to/trigger/underworld/skylands/"
     }
 }

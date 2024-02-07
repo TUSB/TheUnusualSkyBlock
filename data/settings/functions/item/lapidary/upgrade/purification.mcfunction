@@ -1,7 +1,7 @@
-execute store success score _ Ret if predicate settings:item/lapidary/upgrade/prification/1 run loot replace block ~ ~ ~ container.26 loot item:stone/prification/2
-execute store success score _ Ret if predicate settings:item/lapidary/upgrade/prification/2 run loot replace block ~ ~ ~ container.26 loot item:stone/prification/3
-execute store success score _ Ret if predicate settings:item/lapidary/upgrade/prification/3 run loot replace block ~ ~ ~ container.26 loot item:stone/prification/4
-execute store success score _ Ret if predicate settings:item/lapidary/upgrade/prification/4 run loot replace block ~ ~ ~ container.26 loot item:stone/prification/5
-execute store success score _ Ret if predicate settings:item/lapidary/upgrade/prification/5 run loot replace block ~ ~ ~ container.26 loot item:stone/prification/6
-execute store success score _ Ret if predicate settings:item/lapidary/upgrade/prification/6 run loot replace block ~ ~ ~ container.26 loot item:stone/prification/7
-execute store success score _ Ret if predicate settings:item/lapidary/upgrade/prification/7 run loot replace block ~ ~ ~ container.26 loot item:stone/prification/8
+execute store success score _ Ret if predicate settings:item/lapidary/upgrade/purification/1 run loot replace block ~ ~ ~ container.26 loot item:item/gold_nugget/purification/2
+execute store success score _ Ret if predicate settings:item/lapidary/upgrade/purification/2 run loot replace block ~ ~ ~ container.26 loot item:item/gold_nugget/purification/3
+execute store success score _ Ret if predicate settings:item/lapidary/upgrade/purification/3 run loot replace block ~ ~ ~ container.26 loot item:item/gold_nugget/purification/4
+execute store success score _ Ret if predicate settings:item/lapidary/upgrade/purification/4 run loot replace block ~ ~ ~ container.26 loot item:item/gold_nugget/purification/5
+execute store success score _ Ret if predicate settings:item/lapidary/upgrade/purification/5 run loot replace block ~ ~ ~ container.26 loot item:item/gold_nugget/purification/6
+execute store success score _ Ret if predicate settings:item/lapidary/upgrade/purification/6 run loot replace block ~ ~ ~ container.26 loot item:item/gold_nugget/purification/7
+execute store success score _ Ret if predicate settings:item/lapidary/upgrade/purification/7 run loot replace block ~ ~ ~ container.26 loot item:item/gold_nugget/purification/8

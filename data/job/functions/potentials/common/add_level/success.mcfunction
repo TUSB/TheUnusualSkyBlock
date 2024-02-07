@@ -23,15 +23,5 @@ tellraw @s[scores={PotentialTrigger=6}] ["",{"translate":" %1$s のレベルを�
 tellraw @s[scores={PotentialTrigger=7}] ["",{"translate":" %1$s のレベルを上げた！！ %2$sLV → %3$sLV","with":[{"translate":"絡繰士"},{"score":{"name":"_","objective": "_"},"color":"green"},{"score":{"name":"_","objective":"Level"},"color":"green"}]}]
 tellraw @s[scores={PotentialTrigger=8}] ["",{"translate":" %1$s のレベルを上げた！！ %2$sLV → %3$sLV","with":[{"translate":"怪盗"},{"score":{"name":"_","objective": "_"},"color":"green"},{"score":{"name":"_","objective":"Level"},"color":"green"}]}]
 
-#CP反映
-scoreboard players add @s[scores={PotentialTrigger=1}] AddKnight 1
-scoreboard players add @s[scores={PotentialTrigger=2}] AddNinja 1
-scoreboard players add @s[scores={PotentialTrigger=3}] AddHunter 1
-scoreboard players add @s[scores={PotentialTrigger=4}] AddWhiteMage 1
-scoreboard players add @s[scores={PotentialTrigger=5}] AddBlackMage 1
-scoreboard players add @s[scores={PotentialTrigger=6}] AddSummoner 1
-scoreboard players add @s[scores={PotentialTrigger=7}] AddPuppetMaster 1
-scoreboard players add @s[scores={PotentialTrigger=8}] AddThief 1
-
 #持っているCP(Lv)を消費する
 scoreboard players remove @s Level 1

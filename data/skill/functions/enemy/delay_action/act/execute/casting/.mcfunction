@@ -1,0 +1,15 @@
+execute if data storage mob_data: ExecutingAction{Tags:[Cast]} run function skill:enemy/delay_action/act/execute/casting/cast/
+execute if data storage mob_data: ExecutingAction{Tags:[LaserPointer]} run function skill:enemy/delay_action/act/execute/casting/laser_pointer/
+execute if data storage mob_data: ExecutingAction{Tags:[Charge]} run function skill:enemy/delay_action/act/execute/casting/charge/
+execute if data storage mob_data: ExecutingAction{Tags:[WaterBolt]} run function skill:enemy/delay_action/act/execute/casting/water_bolt/
+execute if data storage mob_data: ExecutingAction{Tags:[SludgeGarbager]} run function skill:enemy/delay_action/act/execute/casting/sludge_garbager/
+execute if data storage mob_data: ExecutingAction{Tags:[PillarOfWater]} run function skill:enemy/delay_action/act/execute/casting/pillar_of_water/
+execute if data storage mob_data: ExecutingAction{Tags:[FinishingMove]} run function skill:enemy/delay_action/act/execute/casting/finishing_move/
+execute if data storage mob_data: ExecutingAction{Tags:[CrossRing]} run function skill:enemy/delay_action/act/execute/casting/cross_ring/
+execute if data storage mob_data: ExecutingAction{Tags:[Healing]} run function skill:enemy/delay_action/act/execute/casting/healing/
+execute if data storage mob_data: ExecutingAction{Tags:[BubbleLauncher01]} run function skill:enemy/delay_action/act/execute/casting/bubble_launcher_01/
+execute if data storage mob_data: ExecutingAction{Tags:[BubbleLauncher02]} run function skill:enemy/delay_action/act/execute/casting/bubble_launcher_02/
+execute if data storage mob_data: ExecutingAction{Tags:[BubbleLauncher03]} run function skill:enemy/delay_action/act/execute/casting/bubble_launcher_03/
+execute if data storage mob_data: ExecutingAction{Tags:[DoomBomb]} run function skill:enemy/delay_action/act/execute/casting/doom_bomb/
+execute if data storage mob_data: ExecutingAction{Tags:[DoomCast]} run function skill:enemy/delay_action/act/execute/casting/doom_cast/
+execute if data storage mob_data: ExecutingAction{Tags:[CircleHearts]} run function skill:enemy/delay_action/act/execute/casting/circle_hearts/

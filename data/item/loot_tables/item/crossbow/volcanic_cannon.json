@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"translate\":\"Volcanic\",\"color\":\"dark_red\",\"obfuscated\":true,\"italic\":false},{\"translate\":\"V\",\"color\":\"red\",\"bold\":true,\"obfuscated\":true,\"italic\":false},{\"translate\":\"ヴォルカニック・キャノン\",\"color\":\"gold\",\"bold\":true,\"obfuscated\":false,\"italic\":false},{\"translate\":\"V\",\"color\":\"red\",\"bold\":true,\"obfuscated\":true,\"italic\":false},{\"translate\":\"cinacloV\",\"color\":\"dark_red\",\"obfuscated\":true,\"italic\":false}]',Lore:['[{\"text\":\"❖ \",\"color\":\"#00FFC6\",\"italic\":false},{\"translate\":\"%1$s%2$s(V)\",\"color\":\"white\",\"with\":[{\"translate\":\"波動の\"},{\"translate\":\"刻印\"}]}]']},Engraving:{EnchantID:\"波動\",Tier:5},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:-0.56d,Operation:2,UUID:[I;11,0,0,32],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:35d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:-0.35d,Operation:1,UUID:[I;11,0,0,61],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

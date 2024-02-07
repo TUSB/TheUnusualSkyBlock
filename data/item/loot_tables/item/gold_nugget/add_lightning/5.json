@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:63,EnchantStone:1b,EnchantID:\"雷\",Tier:5,display:{Name:'{\"translate\":\"%1$s%2$s(V)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"雷の\"},{\"translate\":\"結晶\"}]}',Lore:['[{\"translate\":\"%s V\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"雷ダメージ追加\"}]},{\"text\":\"  \"},{\"text\":\"n\",\"font\":\"icon\",\"color\":\"gold\"},{\"text\":\"+55\",\"color\":\"gray\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器・道具\",\"color\":\"gray\"}]','{\"translate\":\"エンチャント台で使用\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

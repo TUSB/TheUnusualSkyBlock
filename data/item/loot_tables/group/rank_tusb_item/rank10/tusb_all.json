@@ -1,0 +1,69 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/philosophers_staff"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/nebula_rod"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/weapon/statue_of_goddess_mercy"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/infinity_netherite_memory_star"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/cosmo_shadow_memory_star"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/cosmo_photon_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/kamui/4"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/dragon_scale/4"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/evolution/4"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/warden_kit"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/netherite_sword/blade_of_executioner"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/shield_of_reaper"
+        }
+      ]
+    }
+  ]
+}

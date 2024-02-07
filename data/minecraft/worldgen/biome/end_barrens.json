@@ -14,7 +14,7 @@
       "probability": 0.0005
     },
     "foliage_color": 9187729,
-    "grass_color": 7025041,
+    "grass_color": 4538706,
     "sky_color": 4335946,
     "fog_color": 5651294,
     "water_color": 7548256,
@@ -38,50 +38,8 @@
   "spawners": {
     "monster": [
       {
-        "type": "minecraft:spider",
+        "type": "creeper",
         "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:zombie",
-        "weight": 95,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:zombie_villager",
-        "weight": 5,
-        "minCount": 1,
-        "maxCount": 1
-      },
-      {
-        "type": "minecraft:skeleton",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:creeper",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:slime",
-        "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:enderman",
-        "weight": 10,
-        "minCount": 1,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:witch",
-        "weight": 5,
         "minCount": 1,
         "maxCount": 1
       }
@@ -94,7 +52,7 @@
   },
   "spawn_costs": {},
   "player_spawn_friendly": false,
-  "precipitation": "none",
+  "has_precipitation": false,
   "temperature": 0.5,
   "downfall": 0.5,
   "category": "none",

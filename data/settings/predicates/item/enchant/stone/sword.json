@@ -4,14 +4,6 @@
     {
       "condition": "minecraft:reference",
       "name": "settings:item/enchant/stone/melee_weapon"
-    },
-    {
-      "condition": "location_check",
-      "predicate": {
-        "block": {
-          "nbt": "{Items:[{Slot:22b,tag:{EnchantID:\"因果\"}}]}"
-        }
-      }
     }
   ]
 }

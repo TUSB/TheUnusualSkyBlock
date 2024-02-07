@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:4001,HideFlags:32,SpawnEntities:[[{Tags:[Global,Ground,Shoot,FakeWarden,Main,SpawnParticles],Level:222}],[{Tags:[Global,Ground,Shoot,AssaultWarden,HealMarker],Level:222}]],Explosion:{Type:0b,Colors:[I;9240831]},display:{Name:'{\"translate\":\"召喚の罠「ウォーデンもどき」\",\"color\":\"#8D00FF\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"このアイテムが地面に落ちた時、\",\"color\":\"#FF0061\"}','{\"translate\":\"アイテム名のモンスターが召喚される。\",\"color\":\"#FF0061\"}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

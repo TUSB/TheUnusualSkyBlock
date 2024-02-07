@@ -1,0 +1,12 @@
+execute if entity @s[tag=RingDisplayTp] run function settings:enemy/global/friendly/shoot/flare_pixely/ring_display_tp
+execute if entity @s[tag=SlashMarker] run function settings:enemy/global/friendly/shoot/flare_pixely/slash_marker
+execute if entity @s[tag=SlashMarkerInit] run function settings:enemy/global/friendly/shoot/flare_pixely/slash_marker_init
+execute if entity @s[tag=Slash] run function settings:enemy/global/friendly/shoot/flare_pixely/slash
+execute if entity @s[tag=SlashMain] run function settings:enemy/global/friendly/shoot/flare_pixely/slash_main
+execute if entity @s[tag=SlashTp] run function settings:enemy/global/friendly/shoot/flare_pixely/slash_tp
+execute if entity @s[tag=BaseDisplay1] run function settings:enemy/global/friendly/shoot/flare_pixely/base_display1
+execute if entity @s[tag=BaseDisplay2] run function settings:enemy/global/friendly/shoot/flare_pixely/base_display2
+execute if entity @s[tag=RingDisplay] run function settings:enemy/global/friendly/shoot/flare_pixely/ring_display
+execute if entity @s[tag=BodyDisplay] run function settings:enemy/global/friendly/shoot/flare_pixely/body_display
+execute if entity @s[tag=HeadDisplay] run function settings:enemy/global/friendly/shoot/flare_pixely/head_display
+execute if entity @s[tag=Main] run function settings:enemy/global/friendly/shoot/flare_pixely/main

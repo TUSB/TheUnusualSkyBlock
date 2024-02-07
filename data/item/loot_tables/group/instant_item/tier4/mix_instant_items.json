@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/instant_item/tier4/heart"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/instant_item/tier4/mana"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/instant_item/tier4/radiance"
+        }
+      ]
+    }
+  ]
+}

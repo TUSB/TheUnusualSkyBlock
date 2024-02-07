@@ -1,0 +1,51 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 100,
+          "type": "minecraft:item",
+          "name": "minecraft:ender_pearl",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"ラムネ玉\",\"color\":\"gold\",\"bold\":true,\"italic\":false}'}}"
+            }
+          ]
+        },
+        {
+          "weight": 100,
+          "type": "minecraft:item",
+          "name": "minecraft:fern",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"シダの苗\",\"color\":\"gold\",\"bold\":true,\"italic\":false}'}}"
+            }
+          ]
+        },
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "item:item/cookie/beef_jerky"
+        },
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "item:item/cookie/marmite"
+        },
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "item:item/cookie/chocolate_chip"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/tusb_item/lottery/sapling_winners"
+        }
+      ]
+    }
+  ]
+}

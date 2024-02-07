@@ -7,7 +7,7 @@ scoreboard players operation @s Exp -= @s RequiredExp
 scoreboard players operation @s RequiredExp = @s _
 scoreboard players set _ _ 10
 scoreboard players operation @s RequiredExp /= _ _
-scoreboard players add @s RequiredExp 5
+scoreboard players operation @s RequiredExp += $World RequiredExp
 scoreboard players operation @s RequiredExp *= @s _
 
 execute if score @s Exp >= @s RequiredExp run function job:level_up/loop

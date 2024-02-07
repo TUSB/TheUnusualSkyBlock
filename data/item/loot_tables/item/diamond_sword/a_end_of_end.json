@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,Damage:1529,display:{Name:'{\"translate\":\"エンド・オブ・エンド\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"#767E8C\",\"italic\":false},{\"translate\":\"%1$s%2$s(VI)\",\"color\":\"white\",\"with\":[{\"translate\":\"刃の\"},{\"translate\":\"刻印\"}]}]']},Engraving:{EnchantID:\"刃\",Tier:6},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:189d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:-2.4d,Operation:0,UUID:[I;11,0,0,50],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

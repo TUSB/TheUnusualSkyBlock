@@ -48,9 +48,9 @@ function makeup:job/potentials/triggered
 # 12: スキル使用不可時間短縮 (IntervalRate)
 # 13: オーラ継続時間延長 (AuraRate)
 # 14: 免疫力最低値 (ResistMin)
+# 15: 属性攻撃力追加 (ElementDamageAdd)
 #
-# 21: クリティカル確率増加 (CritProbability)
-# 22: 他職スキル解放 (SubLevel)
+# 21: 他職スキル解放 (SubLevel)
 #
 # 31: 他ジョブレベルアップ (AddJobLevel)
 # 32: キャパシティポイントリセット (reset)

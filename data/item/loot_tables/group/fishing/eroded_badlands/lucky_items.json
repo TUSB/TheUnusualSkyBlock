@@ -1,0 +1,103 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 30,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/bug_memory_star"
+        },
+        {
+          "weight": 120,
+          "type": "loot_table",
+          "name": "item:item/crossbow/tier1_crossbow"
+        },
+        {
+          "weight": 70,
+          "type": "loot_table",
+          "name": "item:item/crossbow/tier3_crossbow"
+        },
+        {
+          "weight": 50,
+          "type": "loot_table",
+          "name": "item:item/crossbow/tier5_crossbow"
+        },
+        {
+          "weight": 30,
+          "type": "loot_table",
+          "name": "item:item/crossbow/tier7_crossbow"
+        },
+        {
+          "weight": 120,
+          "type": "loot_table",
+          "name": "item:item/bow/tier1_bow"
+        },
+        {
+          "weight": 70,
+          "type": "loot_table",
+          "name": "item:item/bow/tier3_bow"
+        },
+        {
+          "weight": 50,
+          "type": "loot_table",
+          "name": "item:item/bow/tier5_bow"
+        },
+        {
+          "weight": 30,
+          "type": "loot_table",
+          "name": "item:item/bow/tier7_bow"
+        },
+        {
+          "weight": 30,
+          "type": "loot_table",
+          "name": "item:item/bow/a_ray_on_the_move"
+        },
+        {
+          "weight": 120,
+          "type": "loot_table",
+          "name": "item:item/bow/hunter_bow"
+        },
+        {
+          "weight": 80,
+          "type": "loot_table",
+          "name": "item:item/bow/water_break"
+        },
+        {
+          "weight": 40,
+          "type": "loot_table",
+          "name": "item:item/bow/ice_dragon"
+        },
+        {
+          "weight": 70,
+          "type": "loot_table",
+          "name": "item:item/bow/fion_seatra"
+        },
+        {
+          "weight": 40,
+          "type": "loot_table",
+          "name": "item:item/bow/evil_eye"
+        },
+        {
+          "weight": 70,
+          "type": "loot_table",
+          "name": "item:item/bow/nermai_resanter"
+        },
+        {
+          "weight": 8,
+          "type": "loot_table",
+          "name": "item:item/iron_nugget/currency_megaton_emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

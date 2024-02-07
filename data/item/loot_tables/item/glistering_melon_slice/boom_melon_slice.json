@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glistering_melon_slice",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:32,SpawnEntities:[[{Tags:[Skylands,Sky,Blow,WaterMelon,Boom],Level:18}]],display:{Name:'{\"translate\":\"item.minecraft.glistering_melon_slice\",\"color\":\"gold\",\"bold\":true,\"italic\":true}',Lore:['{\"translate\":\"とっても、みずみずしくて美味しいよ！\",\"color\":\"gray\"}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

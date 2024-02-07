@@ -1,0 +1,69 @@
+{
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "is_projectile": true,
+            "direct_entity": {
+              "nbt": "{Tags:[DamageProjectile]}"
+            }
+          }
+        }
+      }
+    },
+    "fireball": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "is_projectile": true,
+            "direct_entity": {
+              "type": "minecraft:fireball",
+              "nbt": "{Tags:[DamageProjectile]}"
+            }
+          }
+        }
+      }
+    },
+    "small_fireball": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "is_projectile": true,
+            "direct_entity": {
+              "type": "minecraft:small_fireball",
+              "nbt": "{Tags:[DamageProjectile]}"
+            }
+          }
+        }
+      }
+    },
+    "shulker_bullet": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "is_projectile": true,
+            "direct_entity": {
+              "type": "minecraft:shulker_bullet",
+              "nbt": "{Tags:[DamageProjectile]}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["default","small_fireball","fireball","shulker_bullet"]
+  ],
+  "rewards": {
+    "function": "enemy:projectile_damage"
+  }
+}

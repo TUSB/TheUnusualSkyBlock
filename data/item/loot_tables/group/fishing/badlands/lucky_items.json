@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 10,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/bug_memory_star"
+        },
+        {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/nil"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/sapling_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/soma"
+        }
+      ]
+    }
+  ]
+}

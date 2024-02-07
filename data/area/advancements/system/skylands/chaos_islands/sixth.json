@@ -1,0 +1,41 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "position": {
+                    "x": {
+                      "min": 166,
+                      "max": 294
+                    },
+                    "y": {
+                      "min": 246,
+                      "max": 294
+                    },
+                    "z": {
+                      "min": -995,
+                      "max": -847
+                    }
+                  },
+                  "dimension": "area:skylands"
+                }
+              }
+            },
+            {
+              "condition": "minecraft:reference",
+              "name": "entity:player"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "area:system/skylands/chaos_islands/sixth"
+    }
+  }

@@ -1,0 +1,47 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "item:group/fishing/nether_wastes/bad_items"
+        },
+        {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "item:group/fishing/nether_wastes/lucky_items"
+        },
+        {
+          "weight": 4,
+          "type": "minecraft:item",
+          "name": "minecraft:magma_block",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "weight": 4,
+          "type": "minecraft:item",
+          "name": "minecraft:soul_sand",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

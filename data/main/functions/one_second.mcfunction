@@ -2,21 +2,25 @@
 ### １秒処理
 ##############################
 
-scoreboard players add $TenSeconds Count 1
-execute if score $TenSeconds Count matches 10.. run function main:ten_seconds
-scoreboard players set $Second Count 0
+scoreboard players add $Seconds Count 1
+execute if score $Seconds Count matches 10.. run function main:ten_seconds
+scoreboard players set $Tick Count 0
 
-###状態異常耐性
-execute as @a[scores={ResistEffects=1..}] at @s run function effects:resist
-scoreboard players reset @a[scores={ResistLock=1..}] ResistLock
+### 停止飛翔物削除
+execute as @e[tag=TickingRequired] at @s run function entity:check_freeze
 
-###特殊デバフ処理
-execute as @a[tag=Burn,nbt={Fire:-20s}] at @s run function effects:burn/cure
-execute as @a[scores={ConfuseCount=1..}] at @s run function effects:confuse/tick
-execute as @a[scores={DoomCount=1..}] at @s run function effects:doom/proceed
-execute as @a[scores={PalsyLevel=1..}] at @s run function effects:palsy/tick
-execute as @a[scores={TntCount=0..}] at @s if block ~ ~ ~ water run function effects:tnt/cure
-execute as @a[scores={VirusCount=1..}] run function effects:virus/tick
+### バースト減少
+execute if score $World Burst matches 1.. run function skill:burst/decrement
 
-###MOBのSkillsの特殊項目をtrigger
-execute as @e[tag=Mob,tag=HasAI] at @s run function entity:enemy/ai/one_second
+### 通常世界 脅威島
+execute in area:skylands positioned 39 6 -557 if entity @a[distance=..10] run function area:system/skylands/threat
+execute in area:skylands positioned 39 318 -557 if entity @a[distance=..10] run function area:system/skylands/threat
+
+### 通常世界 エンダーチェスト島
+execute in area:skylands positioned 67 110 -718 if entity @a[distance=..30] run function area:system/skylands/enderchest
+
+### エンティティ数カウント
+function entity:count/
+
+### 難易度変更
+execute if score $World ChangeDifficulty matches 0.. run function main:difficulty/change/adopt

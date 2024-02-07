@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2,EmeraldBundle:1b,display:{Name:'{\"translate\":\"エメラルドバンドル\",\"color\":\"#0ECF55\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"インベントリの右端の列に置くと\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"エメラルド1スタックを自動で\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"メガトンエメラルドに圧縮・収納する。\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"中に他のアイテムが入っていると機能しない。\",\"color\":\"white\",\"italic\":false}']},AttributeModifiers:[]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

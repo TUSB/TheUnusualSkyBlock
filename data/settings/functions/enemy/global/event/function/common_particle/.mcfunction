@@ -1,0 +1,10 @@
+execute if entity @s[tag=Flash] run function settings:enemy/global/event/function/common_particle/flash
+execute if entity @s[tag=DiscreetFlash] run function settings:enemy/global/event/function/common_particle/discreet_flash
+execute if entity @s[tag=WarningLine4M] run function settings:enemy/global/event/function/common_particle/warning_line_4m
+execute if entity @s[tag=WarningLine7M] run function settings:enemy/global/event/function/common_particle/warning_line_7m
+execute if entity @s[tag=Cure] run function settings:enemy/global/event/function/common_particle/cure
+execute if entity @s[tag=RegularHexahedron] run function settings:enemy/global/event/function/common_particle/regular_hexahedron
+execute if entity @s[tag=RegularDodecahedron] run function settings:enemy/global/event/function/common_particle/regular_dodecahedron
+execute if entity @s[tag=RegularTetrahedron] run function settings:enemy/global/event/function/common_particle/regular_tetrahedron
+execute if entity @s[tag=CloudLine] run function settings:enemy/global/event/function/common_particle/cloud_line
+execute if entity @s[tag=CloudLine2] run function settings:enemy/global/event/function/common_particle/cloud_line_2

@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:6,display:{Name:'{\"translate\":\"黒魔導士のメイス\",\"color\":\"blue\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"#8356A6\",\"italic\":false},{\"translate\":\"%1$s%2$s(II)\",\"color\":\"white\",\"with\":[{\"translate\":\"闇の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"マナがなければ殴ればいいじゃない\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"というコンセプトで作られた杖\",\"color\":\"white\",\"italic\":false}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"B\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" アイスジャベリン\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Engraving:{EnchantID:\"闇\",Tier:2},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"黒魔導士\",SkillID:501,Name:\"アイスジャベリン\",Level:1,Interval:240,Trigger:\"手に持って右クリック\",Count:8},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:40d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:-2.5d,Operation:0,UUID:[I;11,0,0,50],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:16,display:{Name:'{\"translate\":\"ハナの果実\",\"color\":\"#FF9900\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"罪悪無き者が好んで食すとされる果実。\",\"color\":\"#FF0053\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

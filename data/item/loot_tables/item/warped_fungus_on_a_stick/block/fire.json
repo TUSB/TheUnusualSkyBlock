@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1002,Wearable:true,display:{Name:'{\"translate\":\"炎\",\"color\":\"#AC43FF\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"特殊装備枠。\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"右クリックで頭に装備可能。\",\"color\":\"#CCCCCC\",\"italic\":false}','{\"translate\":\"燃える漢。\",\"color\":\"#FFFFFF\",\"italic\":false}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"K\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" 猛火斬Ⅱ\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"剣士\",SkillID:130,Name:\"猛火斬\",Level:2,Interval:10,Trigger:\"近接攻撃する\",Count:48},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:-0.14d,Operation:2,UUID:[I;21,0,0,12],Slot:\"head\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:35d,Operation:0,UUID:[I;21,0,0,40],Slot:\"head\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:0.35d,Operation:1,UUID:[I;21,0,0,51],Slot:\"head\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

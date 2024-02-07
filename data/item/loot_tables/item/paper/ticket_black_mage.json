@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:5,JobChangeTo:5,display:{Name:'[\"\",{\"text\":\"B\",\"color\":\"green\",\"font\":\"icon\"},\" \",{\"translate\":\"黒魔導士変更申請書\",\"bold\":true}]',Lore:['{\"translate\":\"使いますよ？イオナズン\",\"color\":\"dark_gray\"}','{\"translate\":\"USB職業安定所\"}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:gold_nugget"
+            ],
+            "nbt": "{EnchantStone:1b}"
+          },
+          {
+            "items": [
+              "minecraft:bundle"
+            ],
+            "nbt": "{JewelBundle:1b}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "item:jewel_bundle/trigger"
+  }
+}

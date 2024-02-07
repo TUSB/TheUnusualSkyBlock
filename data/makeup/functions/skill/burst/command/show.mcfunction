@@ -1,0 +1,1 @@
+playsound minecraft:entity.illusioner.mirror_move master @s ~ ~ ~ 1 0.5

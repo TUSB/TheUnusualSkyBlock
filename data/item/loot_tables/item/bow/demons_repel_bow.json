@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:7,display:{Name:'{\"translate\":\"魔を弾く弓\",\"color\":\"#211674\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"#8356A6\",\"italic\":false},{\"translate\":\"%1$s%2$s(VI)\",\"color\":\"white\",\"with\":[{\"translate\":\"闇威の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"魔弾の射手が持っているとされる呪われた弓\",\"color\":\"#FF0000\",\"italic\":false}','{\"translate\":\"使用者に絶大な力を与える代わりに破滅に誘うと伝えられている\",\"color\":\"#FF0000\",\"italic\":false}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"H\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" ピアッシングエイム\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Engraving:{EnchantID:\"闇威\",Tier:6},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"狩人\",SkillID:330,Name:\"ピアッシングエイム\",Level:1,Interval:0,Trigger:\"弓を構えて矢を撃つ\",Count:666},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:-0.44d,Operation:2,UUID:[I;11,0,0,12],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:-0.44d,Operation:2,UUID:[I;11,0,0,22],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:0.3d,Operation:1,UUID:[I;11,0,0,31],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:80d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:0.25d,Operation:1,UUID:[I;11,0,0,51],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:-0.44d,Operation:2,UUID:[I;11,0,0,62],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"カスタム\",Amount:-0.44d,Operation:2,UUID:[I;11,0,0,72],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

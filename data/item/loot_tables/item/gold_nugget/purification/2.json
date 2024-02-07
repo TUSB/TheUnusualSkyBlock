@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:181,EnchantStone:1b,EnchantID:\"純化\",Tier:2,display:{Name:'{\"translate\":\"%1$s%2$s(II)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"純化の\"},{\"translate\":\"欠片\"}]}',Lore:['[{\"translate\":\"%s II\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ホーリーブースト\"}]},{\"text\":\"  \"},{\"text\":\"l\",\"font\":\"icon\",\"color\":\"yellow\"},{\"text\":\"+20%\",\"color\":\"gray\"}]','[{\"translate\":\"%s II\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"ダークブースト\"}]},{\"text\":\"  \"},{\"text\":\"d\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\"+20%\",\"color\":\"gray\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器・盾\",\"color\":\"gray\"}]','{\"translate\":\"エンチャント台で使用\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

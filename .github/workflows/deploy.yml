@@ -4,9 +4,9 @@ name: Deploy Relay Servers
 on:
   # Triggers the workflow on push or pull request events but only for the dev branch
   push:
-    branches: [ dev ]
+    branches: [ 1-19-4 ]
   pull_request:
-    branches: [ dev ]
+    branches: [ 1-19-4 ]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -48,14 +48,14 @@ jobs:
           echo "-----DEBUG-----"
           echo "$ADD_FIREWALL"
    
-      - name: Sleep for 60 seconds
+      - name: Sleep for 45 seconds
         uses: jakejarvis/wait-action@master
         with:
-          time: '60s'
+          time: '45s'
       - name: Deploy by rsync
         uses: trendyminds/github-actions-rsync@master
         with:
-          RSYNC_OPTIONS: -avzre "ssh -o 'StrictHostKeyChecking no'" --delete --bwlimit=8192 --timeout=600
+          RSYNC_OPTIONS: -avzre "ssh -o 'StrictHostKeyChecking no'" --delete --timeout=1200 --exclude=".git/" --exclude=".github/" --exclude="*.md" --exclude="*.py"
           RSYNC_SOURCE: /
           RSYNC_TARGET: /home/${{ secrets.TUSB_MINECRAFT_SERVER_REMOTE_USER }}/deploy/${{ github.event.repository.name }}
         env:

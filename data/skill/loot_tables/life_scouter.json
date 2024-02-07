@@ -1,0 +1,66 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:stick",
+          "functions": [
+            {
+              "function": "minecraft:set_lore",
+              "entity": "this",
+              "lore": [
+                [
+                  "",
+                  {
+                    "storage": "skill:",
+                    "nbt": "LifeScouter.OriginalName",
+                    "interpret": true
+                  },
+                  "\n",
+                  {
+                    "storage": "skill:",
+                    "nbt": "LifeScouter.HPBar",
+                    "interpret": true
+                  },
+                  "\n",
+                  {
+                    "text": "fcnld",
+                    "font": "element"
+                  },
+                  "\n",
+                  {
+                    "storage": "skill:",
+                    "nbt": "LifeScouter.Fire",
+                    "interpret": true
+                  },
+                  {
+                    "storage": "skill:",
+                    "nbt": "LifeScouter.Ice",
+                    "interpret": true
+                  },
+                  {
+                    "storage": "skill:",
+                    "nbt": "LifeScouter.Lightning",
+                    "interpret": true
+                  },
+                  {
+                    "storage": "skill:",
+                    "nbt": "LifeScouter.Light",
+                    "interpret": true
+                  },
+                  {
+                    "storage": "skill:",
+                    "nbt": "LifeScouter.Dark",
+                    "interpret": true
+                  }
+                ]
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

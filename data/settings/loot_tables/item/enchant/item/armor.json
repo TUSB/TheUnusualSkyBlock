@@ -9,8 +9,15 @@
           "name": "settings:item/enchant/enchant/protection",
           "conditions": [
             {
-              "condition": "minecraft:reference",
-              "name": "settings:item/enchant/exclusive/protections"
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"minecraft:protection\"}]}}]}"
+                  }
+                }
+              }
             }
           ]
         },
@@ -20,8 +27,15 @@
           "name": "settings:item/enchant/enchant/projectile_protection",
           "conditions": [
             {
-              "condition": "minecraft:reference",
-              "name": "settings:item/enchant/exclusive/protections"
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"minecraft:projectile_protection\"}]}}]}"
+                  }
+                }
+              }
             }
           ]
         },
@@ -31,8 +45,15 @@
           "name": "settings:item/enchant/enchant/blast_protection",
           "conditions": [
             {
-              "condition": "minecraft:reference",
-              "name": "settings:item/enchant/exclusive/protections"
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"minecraft:blast_protection\"}]}}]}"
+                  }
+                }
+              }
             }
           ]
         },
@@ -42,8 +63,15 @@
           "name": "settings:item/enchant/enchant/fire_protection",
           "conditions": [
             {
-              "condition": "minecraft:reference",
-              "name": "settings:item/enchant/exclusive/protections"
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "block": {
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"minecraft:fire_protection\"}]}}]}"
+                  }
+                }
+              }
             }
           ]
         },
@@ -76,7 +104,7 @@
                 "condition": "location_check",
                 "predicate": {
                   "block": {
-                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:マナ\"}]}}]}"
+                    "nbt": "{Items:[{Slot:4b,tag:{Enchantments:[{id:\"tusb:魔力\"}]}}]}"
                   }
                 }
               }

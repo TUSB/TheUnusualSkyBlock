@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:3,display:{Name:'{\"translate\":\"無銘の闇剣\",\"color\":\"#674EA7\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"#8356A6\",\"italic\":false},{\"translate\":\"%1$s%2$s(IV)\",\"color\":\"white\",\"with\":[{\"translate\":\"闇の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"闇属性に特化した無銘の剣\",\"color\":\"#999999\",\"italic\":false}']},Engraving:{EnchantID:\"闇\",Tier:4},AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:0.035d,Operation:1,UUID:[I;11,0,0,21],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:45d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:-2.4d,Operation:0,UUID:[I;11,0,0,50],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:0.35d,Operation:1,UUID:[I;11,0,0,51],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:0.07d,Operation:1,UUID:[I;11,0,0,61],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

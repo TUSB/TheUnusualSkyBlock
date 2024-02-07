@@ -1,0 +1,64 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_shovel/tier3_iron_shovel"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_pickaxe/tier3_iron_pickaxe"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_axe/tier3_iron_axe"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_hoe/tier3_iron_hoe"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_sword/tier3_iron_sword"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/tier3_carrot_on_a_stick"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/bow/tier3_bow"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/tier3_shield"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/crossbow/tier3_crossbow"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/trident/tier3_trident"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/tier3_iron_memory_star"
+        }
+      ]
+    }
+  ]
+}

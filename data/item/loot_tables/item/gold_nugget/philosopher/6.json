@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:173,EnchantStone:1b,EnchantID:\"賢者\",Tier:6,display:{Name:'{\"translate\":\"%1$s%2$s(VI)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"賢者の\"},{\"translate\":\"結晶\"}]}',Lore:['[{\"translate\":\"%s VI\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"フレアブースト\"}]},{\"text\":\"  \"},{\"text\":\"f\",\"font\":\"icon\",\"color\":\"red\"},{\"text\":\"+60%\",\"color\":\"gray\"}]','[{\"translate\":\"%s VI\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"アイスブースト\"}]},{\"text\":\"  \"},{\"text\":\"c\",\"font\":\"icon\",\"color\":\"aqua\"},{\"text\":\"+60%\",\"color\":\"gray\"}]','[{\"translate\":\"%s VI\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"エレキブースト\"}]},{\"text\":\"  \"},{\"text\":\"n\",\"font\":\"icon\",\"color\":\"gold\"},{\"text\":\"+60%\",\"color\":\"gray\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器・盾\",\"color\":\"gray\"}]','{\"translate\":\"エンチャント台で使用\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

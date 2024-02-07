@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cookie",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:21,display:{Name:'{\"translate\":\"マーマイト\",\"color\":\"#C2F2FF\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"イギリスに到着。\",\"color\":\"#FFFFFF\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

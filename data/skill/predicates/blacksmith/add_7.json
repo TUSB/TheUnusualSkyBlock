@@ -1,0 +1,17 @@
+{
+  "condition": "entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "offhand": {
+        "items": [
+          "minecraft:stone_sword",
+          "minecraft:stone_shovel",
+          "minecraft:stone_pickaxe",
+          "minecraft:stone_axe",
+          "minecraft:stone_hoe"
+        ]
+      }
+    }
+  }
+}

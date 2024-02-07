@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/food/lower_food"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/etc"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:group/fishing/plains/bad_items"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:group/potion/ether_area_ether_set"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier3/carved_seal_items"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier_all/ores"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:group/fishing/plains/lucky_items"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier1_4/mix"
+        }
+      ]
+    }
+  ]
+}

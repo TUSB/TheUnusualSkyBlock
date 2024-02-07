@@ -1,0 +1,72 @@
+{
+  "criteria": {
+    "item_frame": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "item_frame"
+        },
+        "player": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_sneaking": true
+              }
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": "adventure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "glow_item_frame": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "glow_item_frame"
+        },
+        "player": [
+          {
+            "condition": "entity_properties",
+            "entity": "this",
+            "predicate": {
+              "flags": {
+                "is_sneaking": true
+              }
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": "adventure"
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements":[["item_frame","glow_item_frame"]],
+  "rewards": {
+    "function": "entity:item_frame_destroy/item_frames"
+  }
+}

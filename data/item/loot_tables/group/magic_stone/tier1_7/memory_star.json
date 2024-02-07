@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 729,
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier1/mix"
+        },
+        {
+          "weight": 243,
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier2/mix"
+        },
+        {
+          "weight": 81,
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier3/mix"
+        },
+        {
+          "weight": 27,
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier4/mix"
+        },
+        {
+          "weight": 9,
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier5/mix"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier6/mix"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier7/mix"
+        }
+      ]
+    }
+  ]
+}

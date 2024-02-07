@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{VoidBundle:1b}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "item:init_void_bundle/"
+  }
+}

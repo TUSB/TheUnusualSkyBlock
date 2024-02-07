@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2,display:{Name:'{\"translate\":\"執行者の刃\",\"color\":\"#D50000\",\"bold\":true}',Lore:['[{\"text\":\"❖ \",\"color\":\"#B7B7B7\",\"italic\":false},{\"translate\":\"%1$s%2$s(VII)\",\"color\":\"white\",\"with\":[{\"translate\":\"陰陽の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"かつて静寂の丘に葬られたとされる\",\"color\":\"#666666\"}','{\"translate\":\"伝説の執行者の刃\",\"color\":\"#666666\"}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"K\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" 影封縫Ⅱ\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Engraving:{EnchantID:\"陰陽\",Tier:7},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"剣士\",SkillID:143,Name:\"影封縫\",Level:2,Interval:0,Trigger:\"近接攻撃する\",Count:444},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:-0.35d,Operation:2,UUID:[I;11,0,0,12],Slot:\"mainhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:0.49d,Operation:1,UUID:[I;11,0,0,21],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:-0.14d,Operation:2,UUID:[I;11,0,0,32],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:99d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:-3.9d,Operation:0,UUID:[I;11,0,0,50],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:-0.35d,Operation:2,UUID:[I;11,0,0,52],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:0.14d,Operation:1,UUID:[I;11,0,0,61],Slot:\"mainhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"カスタム\",Amount:0.105d,Operation:1,UUID:[I;11,0,0,71],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

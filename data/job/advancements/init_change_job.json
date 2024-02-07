@@ -1,0 +1,90 @@
+{
+  "criteria": {
+    "1": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{JobChangeTo:1}"
+          }
+        ]
+      }
+    },
+    "2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{JobChangeTo:2}"
+          }
+        ]
+      }
+    },
+    "3": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{JobChangeTo:3}"
+          }
+        ]
+      }
+    },
+    "4": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{JobChangeTo:4}"
+          }
+        ]
+      }
+    },
+    "5": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{JobChangeTo:5}"
+          }
+        ]
+      }
+    },
+    "6": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{JobChangeTo:6}"
+          }
+        ]
+      }
+    },
+    "7": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{JobChangeTo:7}"
+          }
+        ]
+      }
+    },
+    "8": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "nbt": "{JobChangeTo:8}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    ["1","2","3","4","5","6","7","8"]
+  ],
+  "rewards": {
+    "function": "job:change/instant/trigger"
+  }
+}

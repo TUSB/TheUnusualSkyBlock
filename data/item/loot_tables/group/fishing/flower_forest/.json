@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 6,
+          "type": "loot_table",
+          "name": "item:group/fishing/flower_forest/bad_items"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:group/fishing/flower_forest/lucky_items"
+        }
+      ]
+    }
+  ]
+}

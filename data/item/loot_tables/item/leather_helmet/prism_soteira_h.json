@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:64,Unbreakable:true,display:{Name:'{\"translate\":\"プリズムソーテイラー\",\"color\":\"aqua\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"blue\",\"italic\":false},{\"translate\":\"%1$s%2$s(IV)\",\"color\":\"white\",\"with\":[{\"translate\":\"魔力の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"あらゆる可能性を秘めた水晶の礼装\",\"color\":\"aqua\",\"bold\":true,\"italic\":false}'],color:2081791},Engraving:{EnchantID:\"魔力\",Tier:4},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:0.1d,Operation:1,UUID:[I;21,0,0,11],Slot:\"head\"},{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:0.2d,Operation:1,UUID:[I;21,0,0,21],Slot:\"head\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:0.3d,Operation:1,UUID:[I;21,0,0,31],Slot:\"head\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:0.2d,Operation:1,UUID:[I;21,0,0,41],Slot:\"head\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:0.6d,Operation:1,UUID:[I;21,0,0,51],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:0.3d,Operation:1,UUID:[I;21,0,0,61],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"デフォルト\",Amount:1,Operation:0,UUID:[I;21,0,1,60],Slot:\"head\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -38,10 +38,10 @@
   "spawners": {
     "monster": [
       {
-        "type": "minecraft:enderman",
-        "weight": 10,
-        "minCount": 4,
-        "maxCount": 4
+        "type": "creeper",
+        "weight": 100,
+        "minCount": 1,
+        "maxCount": 1
       }
     ],
     "creature": [],
@@ -52,7 +52,7 @@
   },
   "spawn_costs": {},
   "player_spawn_friendly": false,
-  "precipitation": "none",
+  "has_precipitation": false,
   "temperature": 0.5,
   "downfall": 0.5,
   "category": "none",

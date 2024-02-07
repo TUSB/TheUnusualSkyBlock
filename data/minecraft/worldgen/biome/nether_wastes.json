@@ -38,34 +38,10 @@
   "spawners": {
     "monster": [
       {
-        "type": "minecraft:ghast",
-        "weight": 50,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:zombified_piglin",
+        "type": "creeper",
         "weight": 100,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:magma_cube",
-        "weight": 2,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:enderman",
-        "weight": 1,
-        "minCount": 4,
-        "maxCount": 4
-      },
-      {
-        "type": "minecraft:piglin",
-        "weight": 15,
-        "minCount": 4,
-        "maxCount": 4
+        "minCount": 1,
+        "maxCount": 1
       }
     ],
     "creature": [],
@@ -76,7 +52,7 @@
   },
   "spawn_costs": {},
   "player_spawn_friendly": false,
-  "precipitation": "none",
+  "has_precipitation": false,
   "temperature": 0.5,
   "downfall": 0.5,
   "category": "none",

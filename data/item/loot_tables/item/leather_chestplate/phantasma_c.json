@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:64,Unbreakable:true,display:{Name:'{\"translate\":\"ファンタズマ\",\"color\":\"white\",\"bold\":true,\"underline\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"#0000FF\",\"italic\":false},{\"translate\":\"%1$s%2$s(VI)\",\"color\":\"white\",\"with\":[{\"translate\":\"防護の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"神気に包まれた変幻の鎧\",\"color\":\"#9900FF\",\"bold\":true,\"italic\":false}'],color:16777215},Engraving:{EnchantID:\"防護\",Tier:6},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:-0.1d,Operation:2,UUID:[I;22,0,0,12],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:0.7d,Operation:1,UUID:[I;22,0,0,21],Slot:\"chest\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:0.2d,Operation:1,UUID:[I;22,0,0,31],Slot:\"chest\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:0.15d,Operation:2,UUID:[I;22,0,0,42],Slot:\"chest\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:0.5d,Operation:1,UUID:[I;22,0,0,51],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:5d,Operation:0,UUID:[I;22,0,0,60],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:0.15d,Operation:2,UUID:[I;22,0,0,62],Slot:\"chest\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

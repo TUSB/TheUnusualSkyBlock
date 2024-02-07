@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:113,CustomAttributes:1b,display:{Name:'{\"translate\":\"禁忌・冥界落とし\",\"color\":\"#007D49\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"投げつける薬。これを浴びた弱者は、\",\"color\":\"dark_red\",\"italic\":false}','{\"translate\":\"ほぼ間違いなく即死？\",\"color\":\"dark_red\",\"italic\":false}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" 禁忌・冥界落とし\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"禁忌・冥界落とし\",Level:1,Interval:45,Trigger:\"手に持って右クリック\",Count:16}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

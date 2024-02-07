@@ -1,1 +1,0 @@
-execute in area:debug_room run tp @s -3841 1 1280 0 0

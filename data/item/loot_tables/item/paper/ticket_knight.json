@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,JobChangeTo:1,display:{Name:'[\"\",{\"text\":\"K\",\"color\":\"green\",\"font\":\"icon\"},\"\",{\"translate\":\"剣士変更申請書\",\"bold\":true}]',Lore:['{\"translate\":\"黄金の鉄の塊\",\"color\":\"aqua\"}','{\"translate\":\"USB職業安定所\"}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

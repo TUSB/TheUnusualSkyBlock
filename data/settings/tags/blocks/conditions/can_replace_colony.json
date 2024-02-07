@@ -1,0 +1,21 @@
+{
+    "values": [
+        "air",
+        "cave_air",
+        "void_air",
+        "dirt",
+        "grass_block",
+        "stone",
+        "cobblestone",
+        "white_wool",
+        "infested_cobblestone",
+        "soul_sand",
+        "podzol",
+        "cobweb",
+        "coarse_dirt",
+        "snow_block",
+        "quartz_block",
+        "gray_wool",
+        "andesite"
+    ]
+}

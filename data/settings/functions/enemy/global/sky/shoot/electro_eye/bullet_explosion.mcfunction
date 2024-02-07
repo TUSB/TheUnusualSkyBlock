@@ -1,0 +1,28 @@
+#Function
+#外炎2m
+particle dust 100000000 100000000 4 1.5 ^0 ^ ^-2 0 0 0 0 0 force @a[distance=..32,tag=ShowParticles]
+particle dust 100000000 100000000 4 1.5 ^1 ^ ^-1.73205 0 0 0 0 0 force @a[distance=..32,tag=ShowParticles]
+particle dust 100000000 100000000 4 1.5 ^1.73205 ^ ^-1 0 0 0 0 0 force @a[distance=..32,tag=ShowParticles]
+particle dust 100000000 100000000 4 1.5 ^2 ^ ^0 0 0 0 0 0 force @a[distance=..32,tag=ShowParticles]
+particle dust 100000000 100000000 4 1.5 ^1.73205 ^ ^1 0 0 0 0 0 force @a[distance=..32,tag=ShowParticles]
+particle dust 100000000 100000000 4 1.5 ^1 ^ ^1.73205 0 0 0 0 0 force @a[distance=..32,tag=ShowParticles]
+particle dust 100000000 100000000 4 1.5 ^0 ^ ^2 0 0 0 0 0 force @a[distance=..32,tag=ShowParticles]
+particle dust 100000000 100000000 4 1.5 ^-1 ^ ^1.73205 0 0 0 0 0 force @a[distance=..32,tag=ShowParticles]
+particle dust 100000000 100000000 4 1.5 ^-1.73205 ^ ^1 0 0 0 0 0 force @a[distance=..32,tag=ShowParticles]
+particle dust 100000000 100000000 4 1.5 ^-2 ^ ^0 0 0 0 0 0 force @a[distance=..32,tag=ShowParticles]
+particle dust 100000000 100000000 4 1.5 ^-1.73205 ^ ^-1 0 0 0 0 0 force @a[distance=..32,tag=ShowParticles]
+particle dust 100000000 100000000 4 1.5 ^-1 ^ ^-1.73205 0 0 0 0 0 force @a[distance=..32,tag=ShowParticles]
+
+#中央円1m
+particle minecraft:electric_spark ^0 ^ ^-1 0 0 0 0 0 force @a[distance=..32,tag=ShowParticles]
+particle minecraft:electric_spark ^0.5 ^ ^-0.86603 0 0 0 0 0 force @a[distance=..32,tag=ShowParticles]
+particle minecraft:electric_spark ^0.86603 ^ ^-0.5 0 0 0 0 0 force @a[distance=..32,tag=ShowParticles]
+particle minecraft:electric_spark ^1 ^ ^0 0 0 0 0 0 force @a[distance=..32,tag=ShowParticles]
+particle minecraft:electric_spark ^0.86603 ^ ^0.5 0 0 0 0 0 force @a[distance=..32,tag=ShowParticles]
+particle minecraft:electric_spark ^0.5 ^ ^0.86603 0 0 0 0 0 force @a[distance=..32,tag=ShowParticles]
+particle minecraft:electric_spark ^0 ^ ^1 0 0 0 0 0 force @a[distance=..32,tag=ShowParticles]
+particle minecraft:electric_spark ^-0.5 ^ ^0.86603 0 0 0 0 0 force @a[distance=..32,tag=ShowParticles]
+particle minecraft:electric_spark ^-0.86603 ^ ^0.5 0 0 0 0 0 force @a[distance=..32,tag=ShowParticles]
+particle minecraft:electric_spark ^-1 ^ ^0 0 0 0 0 0 force @a[distance=..32,tag=ShowParticles]
+particle minecraft:electric_spark ^-0.86603 ^ ^-0.5 0 0 0 0 0 force @a[distance=..32,tag=ShowParticles]
+particle minecraft:electric_spark ^-0.5 ^ ^-0.86603 0 0 0 0 0 force @a[distance=..32,tag=ShowParticles]

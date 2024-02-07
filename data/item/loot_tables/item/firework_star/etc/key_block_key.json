@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2001,HideFlags:32,Explosion:{Type:0b,Colors:[I;16777170]},key_block:{LootTable:\"item:group/vanilla_item/tier5/food\",key:\"デバッグ倉庫\"},display:{Name:'{\"translate\":\"%1$sの鍵\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false,\"with\":[{\"translate\":\"デバッグ倉庫\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false}]}',Lore:['{\"translate\":\"デバッグ用。この説明文にどこで使えるキーブロックの鍵なのかを書く。自由記述可\",\"color\":\"white\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

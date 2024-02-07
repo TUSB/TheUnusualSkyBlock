@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:4,display:{Name:'{\"translate\":\"レッドストーンおにぎり\",\"color\":\"#FF0000\",\"bold\":true,\"italic\":false}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:group/potion/ether/ether_set"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:group/potion/area_ether/area_ether_set"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/potion/cure_ether_field/cure_ether_field_set"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:group/potion/immunity/immunity_set"
+        }
+      ]
+    }
+  ]
+}

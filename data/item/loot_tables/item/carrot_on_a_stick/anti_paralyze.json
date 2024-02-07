@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:120,CustomAttributes:1b,display:{Name:'{\"translate\":\"アンチ・パラライズ\",\"color\":\"#FFAD00\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"謎の物質で作られた対アンチジェル。\",\"color\":\"#CCCCCC\",\"italic\":false}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" 麻痺治し\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"麻痺治し\",Level:1,Interval:0,Trigger:\"手に持って右クリック\",Count:4}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

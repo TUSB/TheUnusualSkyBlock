@@ -1,0 +1,36 @@
+# frame 31 / 31
+# サウンド
+playsound minecraft:entity.firework_rocket.launch hostile @a[distance=..16] ~ ~ ~ 1 2
+playsound minecraft:entity.player.levelup hostile @a[distance=..16] ~ ~ ~ 1 0.7
+playsound minecraft:entity.player.levelup hostile @a[distance=..16] ~ ~ ~ 1 1.6
+# 円
+particle end_rod ^-0.0 ^0.0 ^3.0 ^-0.0 ^1000000000.0 ^3.0 0.00000000018 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^0.62 ^0.0 ^2.93 ^0.62 ^1000000000.0 ^2.93 0.00000000016 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^1.22 ^0.0 ^2.74 ^1.22 ^1000000000.0 ^2.74 0.00000000012 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^1.76 ^0.0 ^2.43 ^1.76 ^1000000000.0 ^2.43 0.00000000010 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^2.23 ^0.0 ^2.01 ^2.23 ^1000000000.0 ^2.01 0.00000000012 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^2.6 ^0.0 ^1.5 ^2.6 ^1000000000.0 ^1.5 0.00000000016 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^2.85 ^0.0 ^0.93 ^2.85 ^1000000000.0 ^0.93 0.00000000018 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^2.98 ^0.0 ^0.31 ^2.98 ^1000000000.0 ^0.31 0.00000000016 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^2.98 ^0.0 ^-0.31 ^2.98 ^1000000000.0 ^-0.31 0.00000000012 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^2.85 ^0.0 ^-0.93 ^2.85 ^1000000000.0 ^-0.93 0.00000000010 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^2.6 ^0.0 ^-1.5 ^2.6 ^1000000000.0 ^-1.5 0.00000000012 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^2.23 ^0.0 ^-2.01 ^2.23 ^1000000000.0 ^-2.01 0.00000000016 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^1.76 ^0.0 ^-2.43 ^1.76 ^1000000000.0 ^-2.43 0.00000000018 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^1.22 ^0.0 ^-2.74 ^1.22 ^1000000000.0 ^-2.74 0.00000000016 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^0.62 ^0.0 ^-2.93 ^0.62 ^1000000000.0 ^-2.93 0.00000000012 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^-0.0 ^0.0 ^-3.0 ^-0.0 ^1000000000.0 ^-3.0 0.00000000010 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^-0.62 ^0.0 ^-2.93 ^-0.62 ^1000000000.0 ^-2.93 0.00000000012 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^-1.22 ^0.0 ^-2.74 ^-1.22 ^1000000000.0 ^-2.74 0.00000000016 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^-1.76 ^0.0 ^-2.43 ^-1.76 ^1000000000.0 ^-2.43 0.00000000018 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^-2.23 ^0.0 ^-2.01 ^-2.23 ^1000000000.0 ^-2.01 0.00000000016 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^-2.6 ^0.0 ^-1.5 ^-2.6 ^1000000000.0 ^-1.5 0.00000000012 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^-2.85 ^0.0 ^-0.93 ^-2.85 ^1000000000.0 ^-0.93 0.00000000010 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^-2.98 ^0.0 ^-0.31 ^-2.98 ^1000000000.0 ^-0.31 0.00000000012 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^-2.98 ^0.0 ^0.31 ^-2.98 ^1000000000.0 ^0.31 0.00000000016 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^-2.85 ^0.0 ^0.93 ^-2.85 ^1000000000.0 ^0.93 0.00000000018 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^-2.6 ^0.0 ^1.5 ^-2.6 ^1000000000.0 ^1.5 0.00000000016 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^-2.23 ^0.0 ^2.01 ^-2.23 ^1000000000.0 ^2.01 0.00000000012 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^-1.76 ^0.0 ^2.43 ^-1.76 ^1000000000.0 ^2.43 0.00000000010 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^-1.22 ^0.0 ^2.74 ^-1.22 ^1000000000.0 ^2.74 0.00000000012 0 force @a[distance=..32,tag=ShowParticles]
+particle end_rod ^-0.62 ^0.0 ^2.93 ^-0.62 ^1000000000.0 ^2.93 0.00000000016 0 force @a[distance=..32,tag=ShowParticles]

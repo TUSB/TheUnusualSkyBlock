@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2001,HideFlags:32,Explosion:{Type:0b,Colors:[I;7920383]},key_block:{LootTable:\"item:group/magic_stone/tier8/mix\",key:\"Unusual Sky\"},display:{Name:'{\"translate\":\"%1$sの鍵\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false,\"with\":[{\"translate\":\"Unusual Sky\",\"color\":\"#78DAFF\",\"bold\":true,\"italic\":false}]}',Lore:['{\"translate\":\"クラウディアに存在する\",\"color\":\"#94E7FF\",\"italic\":false}','{\"translate\":\"職業島のキーブロックを開く為の鍵\",\"color\":\"#FF94E8\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

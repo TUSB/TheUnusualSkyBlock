@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:94,EnchantStone:1b,EnchantID:\"元素\",Tier:7,display:{Name:'{\"translate\":\"%1$s%2$s(VII)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"元素の\"},{\"translate\":\"宝珠\"}]}',Lore:['[{\"translate\":\"%s VII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"炎ダメージ追加\"}]},{\"text\":\"  \"},{\"text\":\"f\",\"font\":\"icon\",\"color\":\"red\"},{\"text\":\"+110\",\"color\":\"gray\"}]','[{\"translate\":\"%s VII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"氷ダメージ追加\"}]},{\"text\":\"  \"},{\"text\":\"c\",\"font\":\"icon\",\"color\":\"aqua\"},{\"text\":\"+110\",\"color\":\"gray\"}]','[{\"translate\":\"%s VII\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"雷ダメージ追加\"}]},{\"text\":\"  \"},{\"text\":\"n\",\"font\":\"icon\",\"color\":\"gold\"},{\"text\":\"+110\",\"color\":\"gray\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器・道具\",\"color\":\"gray\"}]','{\"translate\":\"エンチャント台で使用\",\"italic\":false}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

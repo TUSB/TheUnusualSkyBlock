@@ -6,6 +6,10 @@
                 "block": "end_gateway",
                 "player": [
                     {
+                      "condition": "minecraft:reference",
+                      "name": "entity:player"
+                    },
+                    {
                         "condition": "entity_properties",
                         "entity": "this",
                         "predicate": {
@@ -33,6 +37,6 @@
         }
     },
     "rewards": {
-        "function": "area:jump_to/gullivers_land/"
+        "function": "area:jump_to/trigger/gullivers_land/"
     }
 }

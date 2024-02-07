@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:64,Unbreakable:true,display:{Name:'[{\"translate\":\"m\",\"color\":\"dark_purple\",\"obfuscated\":true,\"italic\":false},{\"translate\":\"y\",\"color\":\"dark_aqua\",\"obfuscated\":true,\"italic\":false},{\"translate\":\"t\",\"color\":\"dark_green\",\"obfuscated\":true,\"italic\":false},{\"translate\":\"h\",\"color\":\"green\",\"obfuscated\":true,\"italic\":false},{\"translate\":\"i\",\"color\":\"yellow\",\"obfuscated\":true,\"italic\":false},{\"translate\":\"c\",\"color\":\"gold\",\"obfuscated\":true,\"italic\":false},{\"translate\":\"a\",\"color\":\"red\",\"obfuscated\":true,\"italic\":false},{\"translate\":\"l\",\"color\":\"light_purple\",\"obfuscated:\":true,\"italic\":false},{\"translate\":\"  アウターレジェンド  \",\"color\":\"white\",\"obfuscated\":false,\"bold\":true,\"underline\":true,\"italic\":false},{\"translate\":\"m\",\"color\":\"light_purple\",\"obfuscated\":true,\"italic\":false},{\"translate\":\"y\",\"color\":\"red\",\"obfuscated\":true,\"italic\":false},{\"translate\":\"t\",\"color\":\"gold\",\"obfuscated\":true,\"italic\":false},{\"translate\":\"h\",\"color\":\"yellow\",\"obfuscated\":true,\"italic\":false},{\"translate\":\"i\",\"color\":\"green\",\"obfuscated\":true,\"italic\":false},{\"translate\":\"c\",\"color\":\"dark_green\",\"obfuscated\":true,\"italic\":false},{\"translate\":\"a\",\"color\":\"dark_aqua\",\"obfuscated\":true,\"italic\":false},{\"translate\":\"l\",\"color\":\"dark_purple\",\"obfuscated\":true,\"italic\":false}]',Lore:['[{\"text\":\"❖ \",\"color\":\"light_purple\",\"italic\":false},{\"translate\":\"%1$s%2$s(VI)\",\"color\":\"white\",\"with\":[{\"translate\":\"神威の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"空の神話に語られる、伝説の防具。\",\"color\":\"white\",\"bold\":true,\"italic\":false}'],color:16777215},Engraving:{EnchantID:\"神威\",Tier:6},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:0.175d,Operation:2,UUID:[I;22,0,0,12],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:0.7d,Operation:1,UUID:[I;22,0,0,21],Slot:\"chest\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:0.035d,Operation:2,UUID:[I;22,0,0,32],Slot:\"chest\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:0.245d,Operation:2,UUID:[I;22,0,0,42],Slot:\"chest\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:0.28d,Operation:2,UUID:[I;22,0,0,52],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:0.245d,Operation:2,UUID:[I;22,0,0,62],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"カスタム\",Amount:0.245d,Operation:2,UUID:[I;22,0,0,72],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"デフォルト\",Amount:3,Operation:0,UUID:[I;22,0,1,60],Slot:\"chest\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

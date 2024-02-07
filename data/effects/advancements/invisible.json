@@ -130,6 +130,58 @@
         }
       }
     },
+    "debility":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 11,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "expert":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 20,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "casual":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 21,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "picnic":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 22,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
     "anti_doom":{
       "trigger": "effects_changed",
       "conditions": {
@@ -247,11 +299,27 @@
         }
       }
     },
+    "hot_spring":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 100,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
     "default":{
       "trigger": "effects_changed",
       "conditions": {
         "effects": {
           "minecraft:invisibility":{
+            "amplifier": {
+              "min": 1
+            },
             "duration": {
               "min":1
             }
@@ -261,9 +329,10 @@
     }
   },
   "requirements": [
-    ["doom","super_doom","burn","freeze","confuse","palsy","curse","virus","tnt","pale","anti_doom","anti_burn","anti_freeze","anti_confuse","anti_palsy","anti_curse","anti_virus","anti_tnt","anti_pale","default"]
+    ["doom","super_doom","burn","freeze","confuse","palsy","curse","virus","tnt","pale","debility","expert","casual","picnic","anti_doom","anti_burn","anti_freeze","anti_confuse","anti_palsy","anti_curse","anti_virus","anti_tnt","anti_pale","hot_spring","default"],
+    ["default"]
   ],
   "rewards": {
-    "function": "effects:invisible"
+    "function": "effects:invisible/trigger"
   }
 }

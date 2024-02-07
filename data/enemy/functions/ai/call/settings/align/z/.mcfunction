@@ -1,0 +1,2 @@
+execute unless data storage mob_data: Settings{Center:[Z]} at 0-0-0-0-1 align z run tp 0-0-0-0-1 ~ ~ ~
+execute if data storage mob_data: Settings{Center:[Z]} at 0-0-0-0-1 align z run tp 0-0-0-0-1 ~ ~ ~0.5

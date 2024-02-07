@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:poppy",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{Enchantments:[{id:\"minecraft:loyalty\",lvl:1s}],display:{Name:'{\"translate\":\"てぃっぴーのぽぴー\",\"color\":\"red\",\"bold\":true,\"italic\":true}',Lore:['{\"translate\":\"てぃっぴーが渡してくれたポピー\",\"color\":\"#FFFFFF\",\"italic\":false}','{\"translate\":\"気持ちがこもっていて見ていると\",\"color\":\"#FFFFFF\",\"italic\":false}','{\"text\":\"とても癒やされる\",\"color\":\"#FFFFFF\",\"italic\":false}']},AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:-0.6d,Operation:1,UUID:[I;12,0,0,21],Slot:\"offhand\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:-0.6d,Operation:1,UUID:[I;12,0,0,31],Slot:\"offhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

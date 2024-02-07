@@ -1,0 +1,24 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_death_thorn"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_fake_warden"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/rank_tusb_item/rank11/tusb_all"
+        }
+      ]
+    }
+  ]
+}

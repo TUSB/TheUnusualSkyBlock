@@ -1,0 +1,490 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/debug_item/mob_egg_all",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": -30,
+                "max": 10
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

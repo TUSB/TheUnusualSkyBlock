@@ -1,0 +1,18 @@
+{
+  "criteria": {
+      "curse_effects": {
+          "trigger": "minecraft:effects_changed",
+          "conditions": {
+              "effects": {
+                  "minecraft:levitation": {
+                      "amplifier" : 0,
+                      "duration" : 200
+                  }
+              }
+          }
+      }
+  },
+  "rewards": {
+      "function": "effects:shorten_bullet"
+  }
+} 

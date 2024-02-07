@@ -1,0 +1,17 @@
+execute if entity @s[tag=Main] run function settings:enemy/global/ground/shoot/angry_cherry_tree/main
+execute if entity @s[tag=TurnChange] run function settings:enemy/global/ground/shoot/angry_cherry_tree/turn_change
+execute if entity @s[tag=BombTnt] run function settings:enemy/global/ground/shoot/angry_cherry_tree/bomb_tnt
+execute if entity @s[tag=PinkPearlParticle] run function settings:enemy/global/ground/shoot/angry_cherry_tree/pink_pearl_particle
+execute if entity @s[tag=PinkPearl] run function settings:enemy/global/ground/shoot/angry_cherry_tree/pink_pearl
+execute if entity @s[tag=Pale] run function settings:enemy/global/ground/shoot/angry_cherry_tree/pale
+execute if entity @s[tag=Death2] run function settings:enemy/global/ground/shoot/angry_cherry_tree/death2
+execute if entity @s[tag=Bomb] run function settings:enemy/global/ground/shoot/angry_cherry_tree/bomb
+execute if entity @s[tag=BombParticle] run function settings:enemy/global/ground/shoot/angry_cherry_tree/bomb_particle
+execute if entity @s[tag=BombMarker] run function settings:enemy/global/ground/shoot/angry_cherry_tree/bomb_marker
+execute if entity @s[tag=TackleParticle] run function settings:enemy/global/ground/shoot/angry_cherry_tree/tackle_particle
+execute if entity @s[tag=DarkBullet] run function settings:enemy/global/ground/shoot/angry_cherry_tree/dark_bullet
+execute if entity @s[tag=DarkBulletParticle] run function settings:enemy/global/ground/shoot/angry_cherry_tree/dark_bullet_particle
+execute if entity @s[tag=MagicParticle] run function settings:enemy/global/ground/shoot/angry_cherry_tree/magic_particle
+execute if entity @s[tag=Damage1] run function settings:enemy/global/ground/shoot/angry_cherry_tree/damage1
+execute if entity @s[tag=Summon1] run function settings:enemy/global/ground/shoot/angry_cherry_tree/summon1
+execute if entity @s[tag=MagicSound] run function settings:enemy/global/ground/shoot/angry_cherry_tree/magic_sound

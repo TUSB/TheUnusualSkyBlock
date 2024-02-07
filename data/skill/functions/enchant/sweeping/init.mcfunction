@@ -2,17 +2,10 @@
 execute store result storage item: Enchant.Level int 1 run data get storage item: SelectedItem.tag.Enchantments[{id:"tusb:剣能"}].lvl
 function settings:item/enchant/value/sweeping
 execute store result score _ Calc run function item:enchant/enchant/get_value
-
-scoreboard players set _ _ 100
-scoreboard players operation _ Damage *= _ Calc
-scoreboard players operation _ Damage /= _ _
-scoreboard players operation _ ElementFire *= _ Calc
-scoreboard players operation _ ElementFire /= _ _
-scoreboard players operation _ ElementCold *= _ Calc
-scoreboard players operation _ ElementCold /= _ _
-scoreboard players operation _ ElementLightning *= _ Calc
-scoreboard players operation _ ElementLightning /= _ _
-scoreboard players operation _ ElementLight *= _ Calc
-scoreboard players operation _ ElementLight /= _ _
-scoreboard players operation _ ElementDark *= _ Calc
-scoreboard players operation _ ElementDark /= _ _
+#適用
+function skill:damage/modify
+#潜在能力 - 属性攻撃増加
+scoreboard players operation _ Calc = @s ElementDamageAdd
+function skill:damage/modify
+#Hit属性を追加(直後に進捗からskill:enchant/sweeping/applyが呼び出される)
+data modify storage skill: Damage set value {Hit:1b}

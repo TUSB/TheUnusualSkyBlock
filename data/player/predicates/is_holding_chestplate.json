@@ -1,0 +1,55 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{SelectedItem:{id:\"minecraft:leather_chestplate\"}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{SelectedItem:{id:\"minecraft:golden_chestplate\"}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{SelectedItem:{id:\"minecraft:chainmail_chestplate\"}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{SelectedItem:{id:\"minecraft:iron_chestplate\"}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{SelectedItem:{id:\"minecraft:diamond_chestplate\"}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{SelectedItem:{id:\"minecraft:netherite_chestplate\"}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{SelectedItem:{id:\"minecraft:elytra\"}}"
+        }
+      }
+    ]
+  }
+  

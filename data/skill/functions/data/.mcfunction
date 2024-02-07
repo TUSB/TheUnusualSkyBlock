@@ -1,3 +1,6 @@
+#改行用NBT
+data modify storage skill: NewLine set value '{"text":"\\n"}'
+
 function skill:data/common
 function skill:data/knight
 function skill:data/ninja
