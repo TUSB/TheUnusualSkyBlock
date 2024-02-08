@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:witch",PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,HasAI,CallOnAttack,TickingRequired,HasLootTable]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:witch",CustomName:'{"translate":"コンバットウィッチ"}',PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,HasAI,CallOnAttack,TickingRequired,HasLootTable,AnalyseLog]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 32d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.3d
@@ -20,6 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 150
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 120
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/currency_and_magic_stone/tier1/mix",Count:1,Chance:0.51d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.3d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s標準的なウィッチです。","with":[{"translate":"【能力：回復支援】","color":"#00FF00"}]}]'
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Name:"Damage",Player:{DamageType:["Global"],BypassArmor:true,DeathCause:'[{"translate":"%1$sは%2$sの魔法で殺された。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'},Distance:{Max:0d}}],TurnCount:2,Turn:[{Index:1,Skill:[{Interval:{Min:200,Max:300,Current:300},Call:[{Name:"DelayAction",Tags:["Casting","Cast","Normal"]}]},{Interval:{Min:40,Max:40,Current:40},Call:[{Name:"Heal",Range:10d,Multiplier:1.5d,Condition:[{Name:"MP",MP:9,Percent:true}]}]}],Exit:{Loop:{Max:2,Current:2}}},{Index:2,Exit:{Condition:[{Name:"MinMP",MP:9,Percent:true}]}}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Name:"Damage",Player:{DamageType:["Global"],DeathCause:'[{"translate":"%1$sは%2$sの魔法で殺された。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'},Distance:{Max:0d}}],TurnCount:2,Turn:[{Index:1,Skill:[{Interval:{Min:200,Max:300,Current:300},Call:[{Name:"DelayAction",Tags:["Casting","Cast","Normal"]}]},{Interval:{Min:40,Max:40,Current:40},Call:[{Name:"Heal",Range:10d,Multiplier:1.5d}],MP:9}],Exit:{Loop:{Max:2,Current:2}}},{Index:2,Exit:{Condition:[{Name:"MinMP",MP:9,Percent:true}]}}]}

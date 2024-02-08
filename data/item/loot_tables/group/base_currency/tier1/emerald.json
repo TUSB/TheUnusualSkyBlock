@@ -4,14 +4,20 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 16,
+          "weight": 64,
           "type": "minecraft:item",
           "name": "minecraft:emerald"
         },
         {
           "weight": 8,
           "type": "minecraft:item",
-          "name": "minecraft:emerald"
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 3
+            }
+          ]
         },
         {
           "weight": 4,
@@ -20,25 +26,20 @@
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 2
-            }
-          ]
-        },
-        {
-          "weight": 2,
-          "type": "minecraft:item",
-          "name": "minecraft:emerald",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 2
+              "count": 5
             }
           ]
         },
         {
           "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/bundle/emerald_bundle"
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 10
+            }
+          ]
         }
       ]
     }

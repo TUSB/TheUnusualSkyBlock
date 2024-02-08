@@ -1,3 +1,4 @@
 #Function
-kill @e[type=boat,sort=nearest,distance=..3]
-kill @e[type=minecart,sort=nearest,distance=..3]
+execute on vehicle run kill @s[type=boat]
+execute on vehicle run kill @s[type=minecart]
+execute on vehicle run kill @s[type=chest_boat]

@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magma_cube_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:17,EntityTag:{Tags:[Sign,Birch],Silent:1b,Size:0b,DeathLootTable:\"item:item/magma_cube_spawn_egg/sign/sheep_spawner\",ArmorItems:[{id:\"minecraft:stone\",Count:1b,tag:{Data:{Text1:'{\"translate\":\"羊スポナー\",\"color\":\"white\",\"bold\":true}',Text4:'{\"text\":\"⑰\",\"font\":\"sign\",\"color\":\"white\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"function item:sign/click/sheep_spawner\"}}}'}}},{},{},{}]},display:{Name:'{\"translate\":\"羊スポナーの印板\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false}'}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

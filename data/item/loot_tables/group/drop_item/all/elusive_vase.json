@@ -4,14 +4,24 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 10,
+          "weight": 20,
           "type": "loot_table",
           "name": "item:group/currency_and_magic_stone/all/mix"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:group/tusb_item/all/summon_trap"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_break_container_spawn_thorn_floor_trap"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_break_container_spawn_poison_floor_trap"
         }
       ]
     }

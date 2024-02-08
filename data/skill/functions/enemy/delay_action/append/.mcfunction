@@ -12,11 +12,13 @@
 data modify storage mob_data: DelayAction set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayAction
 
 
-#########
+### 追加用枠
 
 execute if data storage mob_data: Call{Tags:["Casting"]} run function skill:enemy/delay_action/append/casting/
+execute if data storage mob_data: Call{Tags:["Affect"]} run function skill:enemy/delay_action/append/affect/
+execute if data storage mob_data: Call{Tags:["Enemy"]} run function skill:enemy/delay_action/append/enemy/
 
-#########
+###
 
 data modify storage mob_data: AddingAction.Tags set from storage mob_data: Call.Tags
 data modify storage mob_data: AddingAction.ExtraSettings set from storage mob_data: Call.ExtraSettings
@@ -43,7 +45,5 @@ data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayAction set
 data remove storage mob_data: DelayAction
 data remove storage mob_data: AddingAction
 
-###ビットレイズ
-execute store result storage calc: Bit.Flags int 1 run scoreboard players get @s TemporaryEffects
-data modify storage calc: Bit merge value {Digit:28,Operation:1}
-execute store result score @s TemporaryEffects run function calc:bit/
+#initialize
+scoreboard players add @s NativeFlag 100

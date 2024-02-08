@@ -1,0 +1,1 @@
+execute positioned ^ ^0.85 ^-5 run playsound minecraft:block.note_block.xylophone master @a[distance=..6,limit=1,sort=nearest] ~ ~ ~ 1 2

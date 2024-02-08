@@ -16,6 +16,9 @@ execute if score @s ChangeSettings matches 12..14 run function player:game_setti
 # 101-105 フィールサイズ
 execute if score @s ChangeSettings matches 101..105 run function skill:act/summoner/fill/set_size
 
+# 200-399 ワールド情報
+execute if score @s ChangeSettings matches 200..399 run function player:game_settings/show_world_info/
+
 ##設定画面再表示
 function player:game_settings/reshow
 

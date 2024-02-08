@@ -5,7 +5,12 @@
       "conditions": {
         "damage": {
           "type": {
-            "is_projectile": true
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ]
           }
         }
       }
@@ -34,14 +39,110 @@
             "min": 2
           },
           "type": {
-            "is_explosion": false,
-            "is_fire": false,
-            "is_magic": false,
-            "is_projectile": false,
-            "is_lightning": false,
-            "bypasses_armor": false,
-            "bypasses_invulnerability": false,
-            "bypasses_magic": false
+            "tags": [
+              {
+                "id": "minecraft:is_explosion",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_fire",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_projectile",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_effects",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_enchantments",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_resistance",
+                "expected": false
+              }
+            ]
+          }
+        }
+      }
+    },
+    "melee_attack2": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:alternative",
+              "terms": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "mainhand": {
+                        "tag": "item:bows"
+                      }
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "equipment": {
+                      "mainhand": {
+                        "tag": "item:swords"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        ],
+        "damage": {
+          "dealt": {
+            "max": 1
+          },
+          "type": {
+            "tags": [
+              {
+                "id": "minecraft:is_explosion",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_fire",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_projectile",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_effects",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_enchantments",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_resistance",
+                "expected": false
+              }
+            ]
           }
         }
       }
@@ -67,14 +168,36 @@
             "min": 2
           },
           "type": {
-            "is_explosion": false,
-            "is_fire": false,
-            "is_magic": false,
-            "is_projectile": false,
-            "is_lightning": false,
-            "bypasses_armor": false,
-            "bypasses_invulnerability": false,
-            "bypasses_magic": false
+            "tags": [
+              {
+                "id": "minecraft:is_explosion",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_fire",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_projectile",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_effects",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_enchantments",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_resistance",
+                "expected": false
+              }
+            ]
           }
         }
       }
@@ -98,20 +221,50 @@
         "damage": {
           "dealt": 1,
           "type": {
-            "is_explosion": false,
-            "is_fire": false,
-            "is_magic": false,
-            "is_projectile": false,
-            "is_lightning": false,
-            "bypasses_armor": false,
-            "bypasses_invulnerability": false,
-            "bypasses_magic": false
+            "tags": [
+              {
+                "id": "minecraft:is_explosion",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_fire",
+                "expected": false
+              },
+              {
+                "id": "minecraft:is_projectile",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_armor",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_effects",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_enchantments",
+                "expected": false
+              },
+              {
+                "id": "minecraft:bypasses_resistance",
+                "expected": false
+              }
+            ]
           }
         }
       }
     }
   },
-  "requirements": [["hit_projectile","melee_attack","melee_bow_attack","sword_attack_sweep"]],
+  "requirements": [
+    [
+      "hit_projectile",
+      "melee_attack",
+      "melee_attack2",
+      "melee_bow_attack",
+      "sword_attack_sweep"
+    ]
+  ],
   "rewards": {
     "function": "player:trigger/hurt_entity/"
   }

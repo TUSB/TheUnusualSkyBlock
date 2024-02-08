@@ -6,3 +6,4 @@ execute if data storage mob_data: SettingsList[{Global:1b}] run data modify stor
 function enemy:ai/call/settings/
 
 execute as 0-0-0-0-1 run function calc:geometry/return_marker
+execute as 0-0-0-0-2 run function calc:geometry/return_marker

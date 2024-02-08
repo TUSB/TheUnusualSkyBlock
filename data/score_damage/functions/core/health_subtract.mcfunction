@@ -35,8 +35,8 @@
     execute if score $SubtractedHealth ScoreDamageCore matches 1.. if entity @s[type=#entity:undead] run effect give @s instant_health 1 30 true
     execute if score $SubtractedHealth ScoreDamageCore matches 1.. if score $Resistance ScoreDamageCore matches 5.. if entity @s[type=!#entity:undead] run effect give @s instant_damage 1 0 true
     execute if score $SubtractedHealth ScoreDamageCore matches 1.. if score $Resistance ScoreDamageCore matches ..4 if entity @s[type=!player,type=!#entity:undead] run effect give @s instant_damage 1 31 true
-    execute if score $SubtractedHealth ScoreDamageCore matches 1.. if score $Resistance ScoreDamageCore matches ..4 if entity @s[type=player] run summon area_effect_cloud ~ ~ ~ {Duration:14,Age:4,Effects:[{Id:11b,Amplifier:127b,Duration:1,ShowParticles:0b},{Id:7b,Amplifier:0b,Duration:1,ShowParticles:0b}]}
-    execute if data storage score_damage: Argument{DisableParticle:0b} at @s run function score_damage:core/damage_indicator
+    execute if score $SubtractedHealth ScoreDamageCore matches 1.. if score $Resistance ScoreDamageCore matches ..4 if entity @s[type=player] run summon area_effect_cloud ~ ~ ~ {Duration:14,Age:4,Effects:[{Id:11,Amplifier:127b,Duration:1,ShowParticles:0b},{Id:7,Amplifier:0b,Duration:1,ShowParticles:0b}]}
+    execute if score $Damage ScoreDamageCore matches 1.. if data storage score_damage: Argument{DisableParticle:0b} at @s run function score_damage:core/damage_indicator
 # リセット
     scoreboard players reset $SubtractedHealth ScoreDamageCore
     scoreboard players reset $HasDependency ScoreDamageCore

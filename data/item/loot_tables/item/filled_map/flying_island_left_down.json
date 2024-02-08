@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:filled_map",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{map:112,display:{Name:'{\"translate\":\"%1$sの地図\",\"color\":\"#7cd0ba\",\"with\":[{\"translate\":\"飛空島\"}]}',Lore:['{\"text\":\"左下\"}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

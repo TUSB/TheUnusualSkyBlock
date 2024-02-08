@@ -14,8 +14,8 @@ execute anchored eyes run summon arrow ^ ^ ^0.5 {Tags:[Skill,EclipseFlameBullet,
 execute as @e[tag=EclipseFlameBullet,tag=!Initialized,distance=..3] positioned 0.0 0.0 0.0 positioned ^ ^ ^1.55 run function calc:throw_projectile/
 #コアのダメージを保存
 execute as @e[tag=EclipseFlameCore,tag=!Initialized,distance=..3] run function skill:damage/save
-#投射物のダメージを保存 50倍=2.5s分
-scoreboard players set _ Calc 500
+#投射物のダメージを保存 10倍=1.0s分
+scoreboard players set _ Calc 1000
 function skill:damage/modify
 execute as @e[tag=EclipseFlameBullet,tag=!Initialized,distance=..3] run function skill:damage/save
 #投射物のOwnerを設定

@@ -1,0 +1,44 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 4096,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/1"
+        },
+        {
+          "weight": 1024,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/2"
+        },
+        {
+          "weight": 256,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/3"
+        },
+        {
+          "weight": 64,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/4"
+        },
+        {
+          "weight": 16,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/5"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/6"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/7"
+        }
+      ]
+    }
+  ]
+}

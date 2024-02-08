@@ -2,34 +2,27 @@
 ### ウィンドウォール迎撃・竜巻召喚
 
 ###弾の設定をする
-summon minecraft:arrow ^ ^ ^ {Tags:[NativeTask,Skill,WindWallTornado]}
+summon minecraft:arrow ^ ^ ^ {Tags:[NativeTask,FlyingRequired,Skill,WindWallTornado,HitDamage]}
+data modify storage skill: NBT set value {}
 
 ###モーションを取得する
-data modify entity @e[tag=WindWallTornado,distance=0,limit=1] Motion set from entity @s Motion
-data modify entity @e[tag=WindWallTornado,distance=0,limit=1] NoGravity set from entity @s NoGravity
+data modify storage skill: NBT.Motion set from entity @s Motion
+data modify storage skill: NBT.NoGravity set from entity @s NoGravity
 
 ###モーションを反転する
-execute as @e[tag=WindWallTornado,distance=0] store result entity @s Motion[0] double 0.001 run data get entity @s Motion[0] -1000
-execute as @e[tag=WindWallTornado,distance=0] store result entity @s Motion[1] double 0.001 run data get entity @s Motion[1] -1000
-execute as @e[tag=WindWallTornado,distance=0] store result entity @s Motion[2] double 0.001 run data get entity @s Motion[2] -1000
+execute store result storage skill: NBT.Motion[0] double 0.001 run data get storage skill: NBT.Motion[0] -1000
+execute store result storage skill: NBT.Motion[1] double 0.001 run data get storage skill: NBT.Motion[1] -1000
+execute store result storage skill: NBT.Motion[2] double 0.001 run data get storage skill: NBT.Motion[2] -1000
 
 ###跳ね返したプレイヤー記録
-data modify entity @e[tag=WindWallTornado,distance=0,limit=1] Owner set from storage tusb_player: UUID
+data modify storage skill: NBT.Owner set from storage tusb_player: UUID
 
-###ダメージをコピーする
-scoreboard players set _ Damage 0
-scoreboard players set _ ElementFire 0
-scoreboard players set _ ElementIce 0
-scoreboard players set _ ElementLightning 0
-scoreboard players set _ ElementLight 0
-scoreboard players set _ ElementDark 0
-data modify storage skill: Damage.Hit set value 1b
-
-scoreboard players operation _ Damage = @s Attack
-execute if score _ WindWall matches 10000..11200 run scoreboard players operation _ Damage += _ Damage
-
-execute as @e[tag=WindWallTornado,distance=0] run function skill:damage/save
-
+###ダメージ計算 矢のダメージ=Damage、属性ダメージなし、HitDamage
+###Level2でダメージ2倍
+execute if score _ WindWall matches ..9999 store result score @e[tag=WindWallTornado,distance=0] Damage run data get entity @s damage
+execute if score _ WindWall matches 10000..11200 store result score @e[tag=WindWallTornado,distance=0] Damage run data get entity @s damage 2
+data modify entity @e[tag=WindWallTornado,distance=0,limit=1] {} merge from storage skill: NBT
+data remove storage skill: NBT
 
 kill @s
 

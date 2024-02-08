@@ -26,17 +26,17 @@ execute store result score @s sm.X run data get entity 0-0-1913-0-0 Pos[0] 100
 execute store result score @s sm.Y run data get entity 0-0-1913-0-0 Pos[1] 100
 execute store result score @s sm.Z run data get entity 0-0-1913-0-0 Pos[2] 100
 #X
-scoreboard players operation @s sm.X *= @s sm.Speed
-execute store result entity @s Motion[0] double 0.01 run scoreboard players operation @s sm.X /= #100 sm.Calc
+execute store result entity @s Motion[0] double 0.0001 run scoreboard players operation @s sm.X *= @s sm.Speed
+scoreboard players operation @s sm.X /= #100 sm.Calc
 #Y 重力補正、天井をすり抜けないように上限補正
 scoreboard players operation @s sm.Y *= @s sm.Speed
 scoreboard players operation @s sm.GravitySum += @s sm.Gravity
 scoreboard players operation @s sm.Y -= @s sm.GravitySum
-scoreboard players operation @s sm.Y < #YMotion sm.Calc
-execute store result entity @s Motion[1] double 0.01 run scoreboard players operation @s sm.Y /= #100 sm.Calc
+execute store result entity @s Motion[1] double 0.0001 run scoreboard players operation @s sm.Y < #YMotion sm.Calc
+scoreboard players operation @s sm.Y /= #100 sm.Calc
 #Z
-scoreboard players operation @s sm.Z *= @s sm.Speed
-execute store result entity @s Motion[2] double 0.01 run scoreboard players operation @s sm.Z /= #100 sm.Calc
+execute store result entity @s Motion[2] double 0.0001 run scoreboard players operation @s sm.Z *= @s sm.Speed
+scoreboard players operation @s sm.Z /= #100 sm.Calc
 
 #次tickの予測座標を計算
 scoreboard players operation @s sm.X += # sm.X

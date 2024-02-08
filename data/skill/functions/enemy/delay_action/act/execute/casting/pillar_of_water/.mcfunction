@@ -1,0 +1,21 @@
+###詠唱演出 Stage0で終了なので最大数から開始
+execute if data storage mob_data: ExecutingAction{Stage:20} run function makeup:skill/enemy/delay_action/casting/pillar_of_water/fc_001
+execute if data storage mob_data: ExecutingAction{Stage:19} run function makeup:skill/enemy/delay_action/casting/pillar_of_water/fc_002
+execute if data storage mob_data: ExecutingAction{Stage:18} run function makeup:skill/enemy/delay_action/casting/pillar_of_water/fc_003
+execute if data storage mob_data: ExecutingAction{Stage:17} run function makeup:skill/enemy/delay_action/casting/pillar_of_water/fc_004
+execute if data storage mob_data: ExecutingAction{Stage:16} run function makeup:skill/enemy/delay_action/casting/pillar_of_water/fc_005
+execute if data storage mob_data: ExecutingAction{Stage:15} run function makeup:skill/enemy/delay_action/casting/pillar_of_water/fc_006
+execute if data storage mob_data: ExecutingAction{Stage:14} run function makeup:skill/enemy/delay_action/casting/pillar_of_water/fc_007
+execute if data storage mob_data: ExecutingAction{Stage:13} run function makeup:skill/enemy/delay_action/casting/pillar_of_water/fc_008
+execute if data storage mob_data: ExecutingAction{Stage:12} run function makeup:skill/enemy/delay_action/casting/pillar_of_water/fc_009
+execute if data storage mob_data: ExecutingAction{Stage:11} run function makeup:skill/enemy/delay_action/casting/pillar_of_water/fc_010
+execute if data storage mob_data: ExecutingAction{Stage:10} run function makeup:skill/enemy/delay_action/casting/pillar_of_water/fc_011
+execute if data storage mob_data: ExecutingAction{Stage:9} run function makeup:skill/enemy/delay_action/casting/pillar_of_water/fc_012
+execute if data storage mob_data: ExecutingAction{Stage:8} run function makeup:skill/enemy/delay_action/casting/pillar_of_water/fc_013
+execute if data storage mob_data: ExecutingAction{Stage:7} run function makeup:skill/enemy/delay_action/casting/pillar_of_water/fc_014
+execute if data storage mob_data: ExecutingAction{Stage:6} run function makeup:skill/enemy/delay_action/casting/pillar_of_water/fc_015
+execute if data storage mob_data: ExecutingAction{Stage:5} run function makeup:skill/enemy/delay_action/casting/pillar_of_water/fc_016
+execute if data storage mob_data: ExecutingAction{Stage:4} run function makeup:skill/enemy/delay_action/casting/pillar_of_water/fc_017
+execute if data storage mob_data: ExecutingAction{Stage:3} run function makeup:skill/enemy/delay_action/casting/pillar_of_water/fc_018
+execute if data storage mob_data: ExecutingAction{Stage:2} run function makeup:skill/enemy/delay_action/casting/pillar_of_water/fc_019
+execute if data storage mob_data: ExecutingAction{Stage:1} run function makeup:skill/enemy/delay_action/casting/pillar_of_water/fc_020

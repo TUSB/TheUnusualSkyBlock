@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie_villager",CustomName:'{"translate":"転移の魔術師","color":"#FF0000","bold":true}',PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,HasAI,CallOnAttack,TickingRequired,HasLootTable]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie_villager",CustomName:'{"translate":"転移の魔術師","color":"#FF0000","bold":true}',PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,HasAI,CallOnAttack,TickingRequired,HasLootTable,AnalyseLog]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {ArmorItems:[{},{},{},{id:"minecraft:warped_fungus_on_a_stick",Count:1b,tag:{CustomModelData:1}}],VillagerData:{profession:"minecraft:cleric",type:"minecraft:snow"}}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 24d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.12d
@@ -20,6 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 40
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 75
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 120
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/currency_and_magic_stone/tier1/mix",Count:1,Chance:0.51d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.3d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s得意のテレポート魔術で生贄の儀式の贄を探そうとしている。","with":[{"translate":"【能力：ワープ・射的】","color":"#00FF00"}]}]'
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Position:"Source",Settings:[{Name:"As",Target:{Look:"Friendly",Radius:32,IgnoreBlocks:true}}],Name:"Teleport"}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:120,Max:240,Current:100},Call:[{Settings:[{Name:"Anchor",Anchor:"Eyes"},{Name:"Facing",Target:{Look:"Player",Radius:18,IgnoreBlocks:true}}],Name:"Spawn",SpawnEntities:[[{Tags:[Global,Ground,Shoot,WizardOfTeleportation,TeleportBullet],Level:1}]]}]}]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Position:"Source",Settings:[{Name:"As",Target:{Look:"Friendly",Radius:32,IgnoreBlocks:true}}],Name:"Teleport"}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:120,Max:240,Current:100},Call:[{Settings:[{Name:"Anchor",Anchor:"Eyes"},{Name:"Facing",Target:{Look:"Player",Radius:18,IgnoreBlocks:true}}],Name:"Spawn",SpawnEntities:[[{Tags:[Global,Ground,Shoot,WizardOfTeleportation,TeleportBullet],Level:1}]]}],MP:5}]}]}

@@ -1,7 +1,7 @@
 
 ## 交易島の駅を開放する
 
-execute in area:skylands run setblock -52 13 -597 minecraft:end_gateway{Age:201L}
+execute in area:skylands positioned -52 13 -597 run function area:end_gateway
 execute in area:skylands run setblock 115 35 -518 bedrock
 execute in area:skylands run setblock -64 121 -701 bedrock
 

@@ -14,6 +14,8 @@ execute if data storage item: LootTable.Loot if score _ Calc matches 1.. run fun
 #item
 execute if data storage item: LootTable.Item if score _ Calc matches 1.. run loot spawn ~ ~ ~ loot minecraft:blocks/acacia_button
 execute if data storage item: LootTable.Item if score _ Calc matches 1.. run data modify entity @e[type=item,tag=,distance=0,limit=1] Item merge from storage item: LootTable.Item
+execute if data storage item: LootTable.Item as @e[type=item,tag=,distance=0] store result entity @s Item.Count byte 1 run scoreboard players get _ Calc
+
 #初期化回避
 execute as @e[type=item,tag=,distance=0] if data entity @s Item.tag.SpawnEntities run function enemy:spawn/item_to_spawn
 tag @e[type=item,tag=,distance=0] add Initialized

@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2,JobChangeTo:2,display:{Name:'[\"\",{\"text\":\"N \",\"color\":\"green\",\"font\":\"icon\"},{\"translate\":\"忍者変更申請書\",\"bold\":true}]',Lore:['{\"translate\":\"ｱｲｴｴｴ!\",\"color\":\"green\"}','{\"translate\":\"USB職業安定所\"}']}}"
+              "tag": "{CustomModelData:2,JobChangeTo:2,display:{Name:'[\"\",{\"text\":\"N\",\"color\":\"green\",\"font\":\"icon\"},\" \",{\"translate\":\"忍者変更申請書\",\"bold\":true}]',Lore:['{\"translate\":\"ｱｲｴｴｴ!\",\"color\":\"green\"}','{\"translate\":\"USB職業安定所\"}']}}"
             }
           ]
         }

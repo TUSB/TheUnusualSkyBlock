@@ -16,16 +16,28 @@
         {
           "weight": 3,
           "type": "minecraft:item",
-          "name": "minecraft:bundle"
+          "name": "minecraft:bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 6
+              }
+            }
+          ]
         },
         {
           "weight": 3,
           "type": "minecraft:item",
-          "name": "minecraft:coal",
+          "name": "minecraft:oak_wood",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 8
+              "count": {
+                "min": 8,
+                "max": 16
+              }
             }
           ]
         },
@@ -65,11 +77,25 @@
         {
           "weight": 3,
           "type": "minecraft:item",
-          "name": "minecraft:item_frame",
+          "name": "minecraft:blaze_rod",
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": 8
+              "count": {
+                "min": 1,
+                "max": 7
+              }
+            }
+          ]
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/item_frame/described_item_frame",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
             }
           ]
         },
@@ -123,6 +149,20 @@
         {
           "weight": 2,
           "type": "minecraft:item",
+          "name": "minecraft:end_stone",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "weight": 2,
+          "type": "minecraft:item",
           "name": "minecraft:magma_block",
           "functions": [
             {
@@ -157,7 +197,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 8
+                "max": 31
               }
             }
           ]
@@ -172,6 +212,62 @@
               "count": {
                 "min": 1,
                 "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "weight": 2,
+          "type": "minecraft:item",
+          "name": "minecraft:jungle_leaves",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "weight": 2,
+          "type": "minecraft:item",
+          "name": "minecraft:echo_shard",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "weight": 2,
+          "type": "minecraft:item",
+          "name": "minecraft:sea_lantern",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:sculk",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 8
               }
             }
           ]

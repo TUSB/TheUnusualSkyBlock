@@ -4,12 +4,23 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 15,
+          "weight": 45,
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot"
         },
         {
-          "weight": 13,
+          "weight": 36,
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 16
+            }
+          ]
+        },
+        {
+          "weight": 21,
           "type": "minecraft:item",
           "name": "minecraft:redstone",
           "functions": [
@@ -20,7 +31,7 @@
           ]
         },
         {
-          "weight": 11,
+          "weight": 21,
           "type": "minecraft:item",
           "name": "minecraft:copper_ingot",
           "functions": [
@@ -31,7 +42,7 @@
           ]
         },
         {
-          "weight": 9,
+          "weight": 27,
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
           "functions": [
@@ -42,23 +53,7 @@
           ]
         },
         {
-          "weight": 7,
-          "type": "minecraft:item",
-          "name": "minecraft:lapis_lazuli",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 4
-            }
-          ]
-        },
-        {
-          "weight": 5,
-          "type": "minecraft:item",
-          "name": "minecraft:diamond"
-        },
-        {
-          "weight": 3,
+          "weight": 9,
           "type": "minecraft:item",
           "name": "minecraft:amethyst_shard",
           "functions": [
@@ -67,6 +62,11 @@
               "count": 4
             }
           ]
+        },
+        {
+          "weight": 3,
+          "type": "minecraft:item",
+          "name": "minecraft:diamond"
         },
         {
           "weight": 1,

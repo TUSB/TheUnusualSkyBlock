@@ -1,6 +1,4 @@
 
-execute store result score _ Exp run clear @s nether_star
-
 #ボーナス追加
 execute unless score $World AllExp matches 0 as @a[distance=..50] run function job:exp/bonus
 execute if score $World AllExp matches 0 run scoreboard players operation @a[distance=..50] _ = _ Exp

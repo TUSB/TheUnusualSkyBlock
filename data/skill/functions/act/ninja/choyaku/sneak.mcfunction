@@ -2,7 +2,7 @@
 ### 跳躍スニーク
 ##############################
 
-scoreboard players set @s[nbt=!{ActiveEffects:[{Id:8b}]}] Choyaku 0
+scoreboard players set @s[nbt=!{ActiveEffects:[{Id:8}]}] Choyaku 0
 scoreboard players add @s Choyaku 1
 
 execute if score _ Level matches 1 run scoreboard players set _ Choyaku 05

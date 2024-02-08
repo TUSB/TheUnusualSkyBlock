@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:31,EnchantStone:1b,EnchantID:\"刃\",Tier:1,display:{Name:'{\"translate\":\"%1$s%2$s(I)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"刃の\"},{\"translate\":\"欠片\"}]}',Lore:['{\"translate\":\"%s I\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"物理ダメージ追加\"}]}','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器・道具\",\"color\":\"gray\"}]','{\"text\":\"エンチャント台で使用\",\"italic\":false}']}}"
+              "tag": "{CustomModelData:31,EnchantStone:1b,EnchantID:\"刃\",Tier:1,display:{Name:'{\"translate\":\"%1$s%2$s(I)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"刃の\"},{\"translate\":\"欠片\"}]}',Lore:['[{\"translate\":\"%s I\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"物理ダメージ追加\"}]},{\"text\":\"  \"},{\"text\":\"p\",\"font\":\"icon\",\"color\":\"white\"},{\"text\":\"+5\",\"color\":\"gray\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器・道具\",\"color\":\"gray\"}]','{\"translate\":\"エンチャント台で使用\",\"italic\":false}']}}"
             }
           ]
         }

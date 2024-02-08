@@ -1,0 +1,63 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 8,
+          "type": "loot_table",
+          "name": "item:group/base_currency/tier1/emerald"
+        },
+        {
+          "weight": 8,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/entity/wooden_container"
+        },
+        {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/corn_soup"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:group/tusb_item/all/bomb_trap_summary"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/ether"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/cold_pumpkin_soup"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/area_ether"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/cure_ether_field"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/1",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

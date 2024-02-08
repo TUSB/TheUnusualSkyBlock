@@ -1,0 +1,2 @@
+execute if data storage mob_data: ExecutingAction{Tags:[HugeExplosion01]} run function skill:enemy/delay_action/act/execute/affect/huge_explosion_01/
+execute if data storage mob_data: ExecutingAction{Tags:[HugeExplosion02]} run function skill:enemy/delay_action/act/execute/affect/huge_explosion_02/

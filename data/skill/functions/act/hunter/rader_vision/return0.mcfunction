@@ -3,7 +3,7 @@
 ##############################
 
 ### 座標移動
-function oh_my_dat:please
+function #oh_my_dat:please
 data modify storage skill: RaderVision set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].RaderVision
 data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].RaderVision
 function calc:geometry/tp_00000

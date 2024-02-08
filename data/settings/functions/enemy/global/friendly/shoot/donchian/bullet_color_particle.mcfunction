@@ -1,0 +1,4 @@
+#Function
+execute if score @s Level matches 20 run data merge entity @s {FireworksItem:{id:"minecraft:firework_star",Count:1,tag:{CustomModelData:126,Explosion:{Type:0b,Colors:[I;10551102]},Fireworks:{Explosions:[{Type:1,Flicker:1b,Colors:[I;16777215],FadeColors:[I;10551102]}]}}}}
+execute if score @s Level matches 35 run data merge entity @s {FireworksItem:{id:"minecraft:firework_star",Count:1,tag:{CustomModelData:126,Explosion:{Type:0b,Colors:[I;16772670]},Fireworks:{Explosions:[{Type:1,Flicker:1b,Colors:[I;16777215],FadeColors:[I;16772670]}]}}}}
+execute if score @s Level matches 50 run data merge entity @s {FireworksItem:{id:"minecraft:firework_star",Count:1,tag:{CustomModelData:126,Explosion:{Type:0b,Colors:[I;16727614]},Fireworks:{Explosions:[{Type:1,Flicker:1b,Colors:[I;16777215],FadeColors:[I;16711680]}]}}}}

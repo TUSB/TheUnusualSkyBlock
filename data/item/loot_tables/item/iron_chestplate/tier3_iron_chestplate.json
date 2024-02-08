@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(II)\",\"color\":\"white\",\"with\":[{\"translate\":\"謎の\"},{\"translate\":\"刻印\"}]}]']},Engraving:{EnchantID:\"謎\",Tier:2}}"
+              "tag": "{display:{Lore:['[{\"text\":\"❖ \",\"color\":\"light_purple\",\"italic\":false},{\"translate\":\"%1$s%2$s(II)\",\"color\":\"white\",\"with\":[{\"translate\":\"謎の\"},{\"translate\":\"刻印\"}]}]']},Engraving:{EnchantID:\"謎\",Tier:2}}"
             }
           ]
         }

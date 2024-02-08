@@ -2,7 +2,7 @@
 ### レイズ発動チェック
 
 # 蘇生先tp位置呼び出し
-function oh_my_dat:please
+function #oh_my_dat:please
 data modify storage tusb_player: Raise set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Raise
 
 #奈落(y<-50)の場合、復活不可能

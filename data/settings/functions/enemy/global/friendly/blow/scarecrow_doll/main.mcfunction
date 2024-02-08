@@ -1,9 +1,9 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:villager",Team:"Friendly",CustomName:'{"translate":"カカッシー","color":"#FFFF00"}',Silent:true,DeathTime:19s,NoAI:true,Willing:false,VillagerData:{level:99,profession:"minecraft:none"},ActiveEffects:[{Id:14b,Amplifier:127b,Duration:2147483647,ShowParticles:false},{Id:18b,Amplifier:127b,Duration:2147483647,ShowParticles:false},{Id:28b,Amplifier:1b,Duration:2147483647,ShowParticles:false}],PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,HasAI,CallOnInit,CallOnDamage,TickingRequired]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:villager",Team:"Friendly",CustomName:'{"translate":"カカッシー","color":"#FFFF00"}',Silent:true,DeathTime:19s,Willing:false,VillagerData:{level:99,profession:"minecraft:none"},ActiveEffects:[{Id:14,Amplifier:127b,Duration:-1,ShowParticles:false},{Id:18,Amplifier:127b,Duration:-1,ShowParticles:false},{Id:28,Amplifier:1b,Duration:-1,ShowParticles:false}],PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,HasAI,CallOnInit,TickingRequired,SmartMotion,Stick,HasLootTable,AnalyseLog]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {ArmorItems:[{},{},{},{id:"carrot_on_a_stick",Count:1b,tag:{CustomModelData:1000}}],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 0d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0d
-data modify storage tusb_mob: "即時ステータス"."ノックバック耐性" set value 1d
+data modify storage tusb_mob: "即時ステータス"."ノックバック耐性" set value 4d
 data modify storage tusb_mob: "即時ステータス"."ノックバック力" set value 0d
 
 ### 遅延ステータス
@@ -20,5 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Item:{id:"minecraft:stick"},Count:1,CountRange:3,Chance:1d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$sさぁ計測してやるぞ、かかってくるがいい。","with":[{"translate":"【能力：デコイ】","color":"#00FF00"}]}]'
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"ChangeTurn",Set:2}],Damage:[{Name:"Function",Tags:[Global,Friendly,Blow,ScarecrowDoll,ShowDamage]},{Name:"MergeNBT",NBT:{NoAI:false}},{Name:"ChangeTurn",Set:2}],TurnCount:2,Turn:[{Index:1},{Index:2,Skill:[{Interval:{Min:1,Max:1,Current:1},Loop:{Max:1,Current:1},Call:[{Settings:[{Name:"Facing",Target:{Look:"Friendly",Radius:32d}}],Name:"Step",Speed:0.0d}]},{Interval:{Min:1,Max:1,Current:1},Loop:{Max:1,Current:1},Call:[{Name:"MergeNBT",NBT:{NoAI:true}}]}],Exit:{Loop:{Max:2,Current:2}}}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"SmartMotion",Gravity:{Set:100d}},{Settings:[{Name:"Rotation",Target:{Look:"Player",Radius:24d,IgnoreBlocks:true},Flip:true}],Name:"Function",Tags:[Global,Event,Function,CommonExe,TpWithRotation]}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:200,Max:200,Current:200},Loop:{Max:1,Current:1},Call:[{Name:"Function",Tags:[Global,Friendly,Blow,ScarecrowDoll,Skill]}]}]}]}

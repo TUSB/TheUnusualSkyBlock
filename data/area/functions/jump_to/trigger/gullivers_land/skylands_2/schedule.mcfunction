@@ -1,0 +1,1 @@
+execute as @a[advancements={area:jump_to/gullivers_land/skylands_2=true}] at @s run function area:jump_to/gullivers_land/skylands_2

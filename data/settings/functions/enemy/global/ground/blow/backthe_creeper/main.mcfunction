@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:creeper",CustomName:'{"translate":"バックザ・ク・リーパー","color":"#FFFFFF"}',Fuse:45,ExplosionRadius:3f,PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,CallOnDamage,TickingRequired,HasLootTable]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:creeper",CustomName:'{"translate":"バックザ・ク・リーパー","color":"#FFFFFF"}',Fuse:45,ExplosionRadius:3f,PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,CallOnDamage,TickingRequired,HasLootTable,AnalyseLog]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 24d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.25d
@@ -20,6 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 1
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 1
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 1
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/currency_and_magic_stone/tier1/mix",Count:1,Chance:0.51d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.3d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$sアマノジャとは同期。回り込み職人だぞ。","with":[{"translate":"【能力：ワープ・反撃】","color":"#00FF00"}]}]'
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Settings:[{Name:"At",Target:{Look:"Friendly",Radius:8}},{Name:"Direction",Direction:[-180f,0f],Speed:2d}],Name:"Teleport"}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Settings:[{Name:"At",Target:{Look:"Friendly",Radius:8d}},{Name:"Direction",Direction:[-180f,0f],Speed:2d}],Name:"Teleport"}]}

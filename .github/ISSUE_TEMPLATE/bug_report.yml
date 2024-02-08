@@ -2,19 +2,32 @@ name: バグ報告
 description: 発見したバグを報告するときはこちら
 title: "[バグ] <ここにタイトルを入力>"
 labels: [バグ]
-body: 
+body:
 - type: markdown
   attributes:
     value: |
       ## バグの報告をしていただきありがとうございます。
       以下の質問に答えていただくと、解決しやすくなります。
       赤い印がついているものは必ず答えてください。
+- type: dropdown
+  id: Version
+  attributes:
+    label: 発生したTUSBv13のVersion
+    options:
+      - v13.0.0α2
+      - v13.2.1α
+      - v13.2.0α
+      - v13.1.1α
+      - v13.1.0α
+      - v13.0.0α
+  validations:
+    required: true
 - type: textarea
   id: "overview"
   attributes:
     label: 概要
     description: |
-      バグについての説明を記入する。  
+      バグについての説明を記入する。
       画像のアップロードも可能です。
   validations:
     required: true
@@ -35,7 +48,7 @@ body:
   attributes:
     label: 予想される動作
     description: |
-      あなたが予想した動作を記入する。  
+      あなたが予想した動作を記入する。
       バグと思われるものは仕様だったという場合があります。
 - type: markdown
   attributes:

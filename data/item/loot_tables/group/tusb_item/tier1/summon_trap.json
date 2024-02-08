@@ -6,13 +6,18 @@
         {
           "weight": 18,
           "type": "loot_table",
-          "name": "item:item/firework_star/etc/trap_spawn_common_bomb",
+          "name": "item:group/tusb_item/all/bomb_trap_summary"
+        },
+        {
+          "weight": 18,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_fake_gravel",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 4
+                "max": 2
               }
             }
           ]
@@ -26,7 +31,7 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 4
+                "max": 2
               }
             }
           ]
@@ -40,7 +45,21 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 4
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "weight": 18,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_big_reeper",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
               }
             }
           ]

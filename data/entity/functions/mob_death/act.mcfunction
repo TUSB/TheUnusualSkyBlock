@@ -9,3 +9,5 @@ execute if entity @s[scores={Kaishaku=1..},tag=!KaishakuExplosion] run function 
 execute if entity @s[scores={WildCooking=1..}] run function skill:act/hunter/wild_cooking/cook
 # ルートテーブルドロップ
 execute if entity @s[tag=HasLootTable] run function entity:loot/
+# バースト増加
+execute if entity @s[tag=Enemy,tag=!NonBurst] unless score $World Burst matches -1 run function skill:burst/add

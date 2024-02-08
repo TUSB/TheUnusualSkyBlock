@@ -9,3 +9,6 @@ function settings:area/void
 function area:entered/
 # 演出表示
 function makeup:area/entered/void
+
+# 難易度別処理
+function main:difficulty/void

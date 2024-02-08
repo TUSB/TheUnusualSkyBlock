@@ -1,0 +1,1 @@
+schedule function area:jump_to/trigger/gullivers_land/skylands_2/schedule 1t replace

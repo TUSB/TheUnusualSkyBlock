@@ -1,0 +1,28 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 16,
+          "type": "loot_table",
+          "name": "item:item/mushroom_stew/mana/medium",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/mushroom_stew/mana/large"
+        }
+      ]
+    }
+  ]
+}

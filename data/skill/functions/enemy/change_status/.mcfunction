@@ -1,6 +1,6 @@
 data modify storage tusb_mob: "遅延ステータス"."ステータス" set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4]."ステータス" 
 
-execute if data storage mob_data: Call.Level run function skill:enemy/change_status/level
+execute if data storage mob_data: Call.Level run function skill:enemy/change_status/level/
 execute if data storage mob_data: Call.ElementFire run function skill:enemy/change_status/element_fire
 execute if data storage mob_data: Call.ElementIce run function skill:enemy/change_status/element_ice
 execute if data storage mob_data: Call.ElementLightning run function skill:enemy/change_status/element_lightning
@@ -15,3 +15,6 @@ execute if data storage mob_data: Call.SpecialDefense run function skill:enemy/c
 
 #データを元に戻す
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4]."ステータス" set from storage tusb_mob: "遅延ステータス"."ステータス"
+
+# ライフスカウター
+execute if entity @s[tag=LifeScouter] run function skill:act/common/life_scouter/bar_set

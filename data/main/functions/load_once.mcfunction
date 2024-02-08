@@ -2,6 +2,20 @@
 ### 初回ロード処理
 ##############################
 
+###デバッグモード
+# リリースする際は必ずオフにすること
+data modify storage main: debug set value 1b
+
+### Git情報(値はデバッグサーバ側で置き換え文字置換される)
+data modify storage main: Repository set value {CommitHash:"__GIT_COMMIT_HASH__",CommitHashShort:"__GIT_COMMIT_HASH_SHORT__",Branch:"__GIT_BRANCH__"}
+
+###バージョン
+function settings:version_update/check/
+
+###ゲームルール
+execute unless data storage main: {debug:1b} run time set 14000
+function settings:main/define/gamerule
+
 ###ステータス
 scoreboard objectives add Level dummy {"text":"レベル"}
 scoreboard objectives add ElementFire dummy {"text":"炎属性値"}
@@ -22,11 +36,15 @@ scoreboard objectives add GrowTotal dummy {"text":"合計成長ポイント"}
 scoreboard objectives add Damage dummy {"text":"ダメージ"}
 scoreboard objectives add HealthHealing dummy {"text":"HP回復量"}
 scoreboard objectives add Age minecraft.custom:minecraft.time_since_death {"text":"生きている時間"}
-scoreboard objectives add TemporaryEffects dummy {"text":"一時的ステータス変化Flags"}
 scoreboard objectives add ParticleDenom dummy {"text":"パーティクル表示割合"}
 scoreboard objectives add BreakSpawner dummy {"text":"スポナー破壊数"}
 scoreboard objectives add FoodLevel food {"text":"満腹度"}
 scoreboard objectives add LastFoodLevel dummy {"text":"直前満腹度"}
+scoreboard objectives add Luck dummy {"text":"幸運"}
+scoreboard objectives add StoredDamage dummy {"text":"累積ダメージ"}
+scoreboard objectives add Health health {"text":"HP"}
+scoreboard objectives setdisplay belowName Health
+scoreboard objectives add NativeFlag dummy {"text":"常時実行フラグ"}
 
 ###アイテム
 scoreboard objectives add EnchantLevel dummy {"text":"エンチャントレベル"}
@@ -46,6 +64,7 @@ scoreboard objectives add FreezeTimer dummy {"text":"凍結タイマー"}
 scoreboard objectives add BurnCount dummy {"text":"火だるまカウント"}
 scoreboard objectives add GameTime dummy {"text":"ゲームタイム"}
 scoreboard objectives add ProjectileTime minecraft.custom:minecraft.play_time {"text":"投射物ヒットタイマー"}
+scoreboard objectives add ShieldUsingTick dummy {"text":"盾を使用したtick"}
 
 ###計算、乱数
 scoreboard objectives add Calc dummy {"text": "計算用"}
@@ -69,8 +88,8 @@ scoreboard objectives add MPCostRate dummy {"text":"MP消費軽減割合"}
 scoreboard objectives add KnightLv dummy {"text": "剣士スキルレベル"}
 scoreboard objectives add NinjaLv dummy {"text": "忍者スキルレベル"}
 scoreboard objectives add HunterLv dummy {"text": "狩人スキルレベル"}
-scoreboard objectives add WhiteMageLv dummy {"text": "白魔道士スキルレベル"}
-scoreboard objectives add BlackMageLv dummy {"text": "黒魔道士スキルレベル"}
+scoreboard objectives add WhiteMageLv dummy {"text": "白魔導士スキルレベル"}
+scoreboard objectives add BlackMageLv dummy {"text": "黒魔導士スキルレベル"}
 scoreboard objectives add SummonerLv dummy {"text": "召喚士スキルレベル"}
 scoreboard objectives add PuppetMasterLv dummy {"text": "絡繰士スキルレベル"}
 scoreboard objectives add ThiefLv dummy {"text": "怪盗スキルレベル"}
@@ -83,6 +102,8 @@ scoreboard objectives add MPHealingWait dummy {"text":"MP回復ウェイト"}
 scoreboard objectives add MPAcceleration dummy {"text":"MP回復加速量"}
 scoreboard objectives add MPConsumption dummy {"text":"MP回復量"}
 scoreboard objectives add TrackingID dummy {"text":"追尾スキル同期ID"}
+scoreboard objectives add SkillShortcut dummy {"text":"スキル設定中tick"}
+scoreboard objectives add Burst dummy {"text":"バースト管理"}
 #剣士
 scoreboard objectives add FalconSlashTimer dummy {"text":"はやぶさ斬り遅延タイマー"}
 scoreboard objectives add IronWill dummy {"text":"アイアンウィル残りtick数"}
@@ -102,6 +123,7 @@ scoreboard objectives add Issen dummy {"text":"一閃継続tick数"}
 scoreboard objectives add Isukumi dummy {"text":"居縮継続秒数"}
 scoreboard objectives add Kaishaku dummy {"text":"介錯残りtick数"}
 scoreboard objectives add SayonaraLevel dummy {"text":"サヨナラレベル"}
+scoreboard objectives add TsuremaiLevel dummy {"text":"連舞レベル"}
 #狩人
 scoreboard objectives add PiercingAim dummy {"text":"ピアッシングエイム継続秒数"}
 scoreboard objectives add RaderVision dummy {"text":"レーダーヴィジョン継続tick数"}
@@ -109,7 +131,7 @@ scoreboard objectives add WildCooking dummy {"text":"ワイルドクッキング
 scoreboard objectives add WildHealing dummy {"text":"ワイルドヒーリングレベル"}
 scoreboard objectives add EnergySave dummy {"text":"エナジーセーブ消費MP減少効果量"}
 scoreboard objectives add BlastSpark dummy {"text":"ブラストスパーク継続tick数"}
-#黒魔道士
+#黒魔導士
 scoreboard objectives add EclipseRadius dummy {"text":"エクリプスフレイム半径"}
 scoreboard objectives add LightningBlow dummy {"text":"ライトニングブロー威力"}
 scoreboard objectives add BlitzManover dummy {"text":"ブリッツマニューバ残りtick数"}
@@ -126,6 +148,20 @@ scoreboard objectives add FillSize dummy {"text":"フィールサイズ"}
 scoreboard objectives add Weakness dummy {"text":"ウィークペイント効果時間"}
 scoreboard objectives add SkyWalk dummy {"text":"スカイウォーク"}
 scoreboard objectives add RestoreItem trigger {"text":"リスト・アイテム処理選択"}
+scoreboard objectives add SuspiciousPowderTime dummy {"text":"怪しい粉継続秒数"}
+scoreboard objectives add SuspiciousPowderToken dummy {"text":"怪しい粉消費MP量"}
+scoreboard objectives add BurnDebaria dummy {"text":"バーンデバリア効果時間"}
+scoreboard objectives add FreezeDebaria dummy {"text":"フリーズデバリア効果時間"}
+scoreboard objectives add ParalysisDebaria dummy {"text":"パラライズデバリア効果時間"}
+scoreboard objectives add ConfusionDebaria dummy {"text":"コンフュージョンデバリア効果時間"}
+scoreboard objectives add DiseaseDebaria dummy {"text":"ディズィーズデバリア効果時間"}
+scoreboard objectives add DoomDebaria dummy {"text":"ドゥームデバリア効果時間"}
+
+###バースト ボスバー
+bossbar add skill:burst {"translate":"バーストゲージ","italic":true,"bold":true}
+bossbar set skill:burst color white
+bossbar set skill:burst visible false
+bossbar set skill:burst style notched_6
 
 ###乱数初期化
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,WaitTime:1,ReapplicationDelay:0,Duration:0,Tags:[Initialized]}
@@ -163,6 +199,7 @@ scoreboard objectives add LeaveGame minecraft.custom:minecraft.leave_game {"text
 scoreboard objectives add ChangeSettings trigger {"text":"設定変更"}
 scoreboard objectives add ChangeSkill trigger {"text":"スキル変更"}
 scoreboard objectives add ChangeJob trigger {"text":"職業変更"}
+scoreboard objectives add ChangeDifficulty trigger {"text":"難易度変更"}
 scoreboard objectives add TipsSuppressFlag dummy {"text":"TIPS抑制フラグ"}
 scoreboard objectives add TipsSupTrigger trigger {"text":"TIPS抑制トリガー"}
 scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time {"text":"スニーク時間"}
@@ -174,7 +211,7 @@ scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken {"
 scoreboard objectives add Jump minecraft.custom:minecraft.jump {"text":"ジャンプ"}
 scoreboard objectives add Deaths minecraft.custom:minecraft.deaths {"text":"死亡"}
 scoreboard objectives add Hunger dummy {"text":"死亡時調整満腹度"}
-scoreboard objectives add MineLodestone minecraft.mined:minecraft.lodestone {"text":"ロードストーン採掘"}
+scoreboard objectives add MineSpawner minecraft.mined:minecraft.lodestone {"text":"ロードストーン採掘"}
 scoreboard objectives add Talk minecraft.custom:talked_to_villager {"text":"会話回数"}
 scoreboard objectives add Trade minecraft.custom:traded_with_villager {"text":"取引回数"}
 
@@ -186,8 +223,9 @@ team modify Friendly friendlyFire false
 team modify Friendly collisionRule never
 team modify Friendly seeFriendlyInvisibles false
 team modify Friendly color white
-team modify Friendly prefix {"text":"✦","color":"red"}
-team modify Friendly suffix {"text":"✦","color":"red"}
+team add Enemy {"text":"敵チーム"}
+# team modify Friendly prefix {"text":"✦","color":"red"}
+# team modify Friendly suffix {"text":"✦","color":"red"}
 ###カラーチーム作成
 team add Red {"text":"赤色チーム"}
 team modify Red color red
@@ -223,3 +261,22 @@ function area:flying_islands_gate/change
 
 #ルーラデフォルト定義
 function settings:skill/black_mage/return/default
+
+#難易度リセット カジュアル
+function main:difficulty/reset
+execute if data storage main: {debug:1b} run function main:difficulty/select/debug
+
+#島の攻略率
+data remove storage area: capture
+data merge storage area: {capture:{skylands:{},flying_island:{},cloudia:{}}}
+
+# システムストレージ初期化
+    data remove storage main: System
+    advancement revoke @a only area:system/skylands/chaos_islands/first
+    advancement revoke @a only area:system/skylands/chaos_islands/second
+    advancement revoke @a only area:system/skylands/chaos_islands/fourth
+    advancement revoke @a only area:system/skylands/chaos_islands/fifth
+    advancement revoke @a only area:system/skylands/chaos_islands/sixth
+    advancement revoke @a only area:system/skylands/chaos_islands/boss
+
+execute unless data storage main: {debug:1b} run function settings:alpha_debug/

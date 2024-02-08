@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'[{\"translate\":\"|\",\"color\":\"#EBA8FF\",\"bold\":true},{\"translate\":\"|\",\"color\":\"#C294FF\",\"bold\":true},{\"translate\":\"|\",\"color\":\"#4DE1FF\",\"bold\":true},{\"translate\":\"|\",\"color\":\"#4AFFBD\",\"bold\":true},{\"translate\":\"|\",\"color\":\"#87FF2B\",\"bold\":true},{\"translate\":\"|\",\"color\":\"#F3FF47\",\"bold\":true},{\"translate\":\"エストレーヤ\",\"color\":\"#FFFFFF\",\"bold\":true},{\"translate\":\"|\",\"color\":\"#F3FF47\",\"bold\":true},{\"translate\":\"|\",\"color\":\"#87FF2B\",\"bold\":true},{\"translate\":\"|\",\"color\":\"#4AFFBD\",\"bold\":true},{\"translate\":\"|\",\"color\":\"#4DE1FF\",\"bold\":true},{\"translate\":\"|\",\"color\":\"#C294FF\",\"bold\":true},{\"translate\":\"|\",\"color\":\"#EBA8FF\",\"bold\":true}]',Lore:['{\"translate\":\"昔水面に写り込んだ星を釣ったことがあるんだ。\",\"color\":\"#0048AD\",\"italic\":false}']},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:0.2d,Operation:1,UUID:[I;11,0,0,31],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:72d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:0.1d,Operation:1,UUID:[I;11,0,0,51],Slot:\"mainhand\"},{AttributeName:\"generic.luck\",Name:\"カスタム\",Amount:12d,Operation:0,UUID:[I;11,0,0,80],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"デフォルト\",Amount:1.2,Operation:0,UUID:[I;11,0,1,50],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

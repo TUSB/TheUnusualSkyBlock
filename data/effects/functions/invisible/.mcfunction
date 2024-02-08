@@ -8,7 +8,10 @@ scoreboard players operation _ ResistEffects %= _ _
 execute if entity @s[predicate=effects:too_bad_effect,scores={Age=1..},predicate=entity:player] run function effects:too_bad_effect
 scoreboard players set @s ResistLock 1
 
-
+## Lv 20~22 難易度選択
+execute if entity @s[advancements={effects:invisible={expert=true}}] run function main:difficulty/select/expert
+execute if entity @s[advancements={effects:invisible={casual=true}}] run function main:difficulty/select/casual
+execute if entity @s[advancements={effects:invisible={picnic=true}}] run function main:difficulty/select/picnic
 
 ## Lv 71~79 特殊デバフ解除
 execute if entity @s[advancements={effects:invisible={anti_doom=true}}] if score @s DoomCount matches 0.. run function effects:doom/escape
@@ -28,4 +31,6 @@ execute if entity @s[advancements={effects:invisible={anti_pale=true}}] if score
 execute if entity @s[advancements={effects:invisible={hot_spring=true}}] run function effects:hot_spring/apply
 
 effect clear @s minecraft:invisibility
+#透明化付与
+function effects:invisible/wearable_invisible
 advancement revoke @s only effects:invisible

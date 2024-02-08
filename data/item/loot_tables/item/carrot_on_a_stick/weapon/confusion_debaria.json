@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:145,CustomAttributes:1b,display:{Name:'{\"translate\":\"コンフュージョン・デバリア\",\"color\":\"#DBD4A6\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" コンフュージョンデバリア\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"コンフュージョンデバリア\",Level:1,Interval:300,Trigger:\"手に持って右クリック\",Count:4}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

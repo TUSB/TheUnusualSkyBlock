@@ -4,53 +4,24 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 32,
-          "type": "minecraft:item",
-          "name": "minecraft:nether_star",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 4
-            }
-          ]
-        },
-        {
-          "weight": 16,
-          "type": "minecraft:item",
-          "name": "minecraft:nether_star",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 8
-            }
-          ]
-        },
-        {
           "weight": 8,
-          "type": "minecraft:item",
-          "name": "minecraft:nether_star",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 12
-            }
-          ]
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier1/nether_star"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier3/nether_star"
         },
         {
           "weight": 2,
-          "type": "minecraft:item",
-          "name": "minecraft:nether_star",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 16
-            }
-          ]
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier5/nether_star"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/bundle/nether_star_bundle"
+          "name": "item:group/vanilla_item/tier7/nether_star"
         }
       ]
     }

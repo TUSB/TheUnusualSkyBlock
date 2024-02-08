@@ -104,7 +104,16 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:air"
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 5,
+                "max": 10
+              }
+            }
+          ]
         }
       ]
     },
@@ -169,14 +178,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:bundle",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{Items:[{id:\"emerald\",Count:8b}]}"
-            }
-          ]
+          "type": "loot_table",
+          "name": "item:item/bundle/emerald_bundle"
         }
       ]
     },
@@ -202,8 +205,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:torch",
+          "type": "loot_table",
+          "name": "item:item/torch/adv_torch",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -274,8 +277,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:spyglass"
+          "type": "loot_table",
+          "name": "item:item/bundle/jewel_bundle"
         }
       ]
     }

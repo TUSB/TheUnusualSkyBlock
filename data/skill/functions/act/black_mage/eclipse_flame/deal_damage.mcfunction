@@ -2,7 +2,6 @@
 ### エクリプスフレイムダメージ付与
 ##############################
 
-#距離を取得
-execute store result score _ _ run function calc:geometry/distance/
-#ダメージ付与
-execute if score _ _ <= _ EclipseRadius run function skill:damage/apply/
+function skill:damage/load
+execute at @s positioned ~ ~-1 ~ as @e[distance=..10,tag=Enemy] run function skill:act/black_mage/eclipse_flame/deal_damage2
+scoreboard players set @s Interval 2

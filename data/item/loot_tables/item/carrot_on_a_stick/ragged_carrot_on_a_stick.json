@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:134,display:{Name:'{\"translate\":\"ボロボロのニンジン付きの棒\",\"color\":\"#CCCCC\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"ほぼ無価値の量産品。\",\"color\":\"#DDDDDD\",\"italic\":false}']},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:2d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:-3.3d,Operation:0,UUID:[I;11,0,0,50],Slot:\"mainhand\"},{AttributeName:\"generic.luck\",Name:\"カスタム\",Amount:-1d,Operation:0,UUID:[I;11,0,0,80],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 12,
+          "weight": 18,
           "type": "loot_table",
           "name": "item:item/firework_star/etc/trap_spawn_genocide_bomb",
           "functions": [
@@ -12,27 +12,18 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 4
+                "max": 2
               }
             }
           ]
         },
         {
-          "weight": 12,
+          "weight": 18,
           "type": "loot_table",
-          "name": "item:item/firework_star/etc/trap_spawn_common_bomb_huge",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
+          "name": "item:group/tusb_item/all/huge_bomb_trap_summary"
         },
         {
-          "weight": 12,
+          "weight": 18,
           "type": "loot_table",
           "name": "item:item/firework_star/etc/trap_spawn_igar_thorn",
           "functions": [
@@ -40,21 +31,21 @@
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 4
+                "max": 2
               }
             }
           ]
         },
         {
-          "weight": 12,
+          "weight": 4,
           "type": "loot_table",
-          "name": "item:item/firework_star/etc/trap_spawn_wriggling_sand",
+          "name": "item:item/firework_star/etc/trap_spawn_decoy_teleport_pot",
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
-                "max": 4
+                "max": 2
               }
             }
           ]
@@ -62,12 +53,16 @@
         {
           "weight": 4,
           "type": "loot_table",
-          "name": "item:item/firework_star/etc/trap_spawn_decoy_teleport_pot"
-        },
-        {
-          "weight": 4,
-          "type": "loot_table",
-          "name": "item:item/firework_star/etc/trap_spawn_spawner_vase"
+          "name": "item:item/firework_star/etc/trap_spawn_spawner_vase",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
         },
         {
           "weight": 1,

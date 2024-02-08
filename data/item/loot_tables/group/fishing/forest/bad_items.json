@@ -1,0 +1,39 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_spawner_vase"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_decoy_teleport_pot"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_water_column"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_wooden_container"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_rolling_barrel"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_break_container_spawn_giant_don"
+        }
+      ]
+    }
+  ]
+}

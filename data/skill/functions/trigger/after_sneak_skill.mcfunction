@@ -3,6 +3,10 @@
 
 #装備を取得
 function player:load_equipments
+#物理ダメージ取得
+function skill:damage/add/physical/projectile
+#属性ダメージ取得
+function skill:damage/add/elemental
 
 # スキル発動
 function skill:equipments_to_items

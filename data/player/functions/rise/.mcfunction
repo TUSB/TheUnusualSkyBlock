@@ -6,7 +6,9 @@
 function effects:status/modify_max
 #MP超過修正
 scoreboard players operation @s MP < @s MPMax
-#ペイル再付与
+#ペイル再付与 ロック解除
+scoreboard players set _ _ -1
+execute if score @s PaleLevel matches ..-1 run scoreboard players operation @s PaleLevel *= _ _
 execute if score @s PaleLevel matches 0.. run function effects:pale/health_down
 execute if score @s PaleLevel matches 0.. run function makeup:effects/pale/apply
 #全回復
@@ -18,7 +20,7 @@ function player:mp_bar/set
 function effects:status/hunger
 
 ## ディメンション移動処理
-function oh_my_dat:please
+function #oh_my_dat:please
 execute store success score _ _ run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].LastDeathDimension set from entity @s Dimension
 execute if score _ _ matches 1 run function player:rise/enter_dimension
 

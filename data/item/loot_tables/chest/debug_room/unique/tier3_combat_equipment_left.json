@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/treasure_items/rank_all/vanilla_tusb_mix"
+          "name": "item:group/rank_tusb_item/rank03/tusb_all"
         }
       ]
     },
@@ -14,7 +14,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/treasure_items/rank_all/vanilla_tusb_mix"
+          "name": "item:group/rank_tusb_item/rank03/tusb_all"
         }
       ]
     },
@@ -92,7 +92,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/treasure_items/rank_all/vanilla_tusb_mix"
+          "name": "item:group/rank_tusb_item/rank02/tusb_all"
         }
       ]
     },
@@ -101,7 +101,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/treasure_items/rank_all/vanilla_tusb_mix"
+          "name": "item:group/rank_tusb_item/rank02/tusb_all"
         }
       ]
     },
@@ -175,14 +175,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:bundle",
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{Items:[{id:\"emerald\",Count:16b}]}"
-            }
-          ]
+          "type": "loot_table",
+          "name": "item:item/bundle/emerald_bundle"
         }
       ]
     },
@@ -191,7 +185,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/treasure_items/rank_all/vanilla_tusb_mix"
+          "name": "item:group/rank_tusb_item/rank01/tusb_all"
         }
       ]
     },
@@ -200,7 +194,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/treasure_items/rank_all/vanilla_tusb_mix"
+          "name": "item:group/rank_tusb_item/rank01/tusb_all"
         }
       ]
     },
@@ -208,8 +202,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:torch",
+          "type": "loot_table",
+          "name": "item:item/torch/adv_torch",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -280,8 +274,8 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:spyglass"
+          "type": "loot_table",
+          "name": "item:item/bundle/jewel_bundle"
         }
       ]
     }

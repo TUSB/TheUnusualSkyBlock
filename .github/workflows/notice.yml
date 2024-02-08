@@ -1,7 +1,7 @@
 name: Server Notice Action
 on: push
 jobs:
-  deploy:
+  notice:
     name: notice mcrcon
     runs-on: ubuntu-latest
     steps:

@@ -37,6 +37,14 @@ body:
   validations:
     required: true
 - type: textarea
+  id: why
+  attributes:
+    label: アイデアの要望理由
+    description: |
+      なぜこのアイデアを要望するのか？  
+  validations:
+    required: true
+- type: textarea
   id: realization
   attributes:
     label: 実現方法

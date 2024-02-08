@@ -18,11 +18,14 @@ execute if entity @s[tag=Oak] run function item:sign/set/oak
 execute if entity @s[tag=Spruce] run function item:sign/set/spruce
 execute if entity @s[tag=Crimson] run function item:sign/set/crimson
 execute if entity @s[tag=Warped] run function item:sign/set/warped
+execute if entity @s[tag=Mangrove] run function item:sign/set/mangrove
+# execute if entity @s[tag=Bamboo] run function item:sign/set/bamboo
 
 #書き込み
 data modify block ~ ~ ~ {} merge from entity @s ArmorItems[0].tag.Data
 #function item:sign/set/write
 
 #kill
-execute in area:control_area run tp @s 0 0 0
+data merge entity @s {CustomName:"",Health:0f,Size:0,DeathTime:19s,HandItems:[{},{}],ArmorItems:[{},{},{},{}],Owner:[I;0,0,0,0]}
+execute in area:control_area run tp @s 8 0 8
 kill @s

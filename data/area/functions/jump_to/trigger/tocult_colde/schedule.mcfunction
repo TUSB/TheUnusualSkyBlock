@@ -1,0 +1,1 @@
+execute as @a[advancements={area:jump_to/skylands/tocult_colde=true}] at @s run function area:jump_to/tocult_colde/

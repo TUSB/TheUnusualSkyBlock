@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:91,display:{Name:'{\"translate\":\"ムーン\",\"color\":\"dark_aqua\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(II)\",\"color\":\"white\",\"with\":[{\"translate\":\"闇威の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"使うと時間が深夜になる\",\"color\":\"white\",\"italic\":false}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" ムーン\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Engraving:{EnchantID:\"闇威\",Tier:2},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"ムーン\",Level:1,Interval:0,Trigger:\"手に持って右クリック\",Count:6}}"
+              "tag": "{CustomModelData:91,CustomAttributes:1b,display:{Name:'{\"translate\":\"ムーン\",\"color\":\"dark_aqua\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"#8356A6\",\"italic\":false},{\"translate\":\"%1$s%2$s(II)\",\"color\":\"white\",\"with\":[{\"translate\":\"闇威の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"使うと時間が深夜になる\",\"color\":\"white\",\"italic\":false}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" ムーン\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Engraving:{EnchantID:\"闇威\",Tier:2},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"ムーン\",Level:1,Interval:0,Trigger:\"手に持って右クリック\",Count:6}}"
             }
           ]
         }

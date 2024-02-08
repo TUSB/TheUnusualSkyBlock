@@ -1,0 +1,1 @@
+schedule function area:jump_to/trigger/desert/skylands/schedule 1t replace

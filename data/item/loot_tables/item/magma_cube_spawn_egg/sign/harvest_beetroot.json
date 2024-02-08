@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magma_cube_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:10,EntityTag:{Tags:[Sign,Birch],Silent:1b,Size:0b,DeathLootTable:\"item:item/magma_cube_spawn_egg/sign/harvest_beet_root\",ArmorItems:[{id:\"minecraft:stone\",Count:1b,tag:{Data:{Text3:'{\"text\":\"H\",\"font\":\"sign\",\"color\":\"white\"}',Text4:'{\"text\":\"______⑩\",\"font\":\"sign\",\"color\":\"white\",\"clickEvent\":{\"action\":\"run_command\",\"value\":\"function item:sign/click/harvest_beetroot\"}}}'}}},{},{},{}]},display:{Name:'{\"translate\":\"収穫の印板（ビートルート）\",\"color\":\"#FFFFFF\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"設置してクリックすると\",\"color\":\"white\",\"bold\":false,\"italic\":false}','{\"translate\":\"メインハンドのアイテムで\",\"color\":\"white\",\"bold\":false,\"italic\":false}','{\"translate\":\"けっこうな範囲の%1$sを収穫する。\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"with\":[{\"translate\":\"item.minecraft.beetroot\",\"color\":\"#C05050\"}]}','{\"translate\":\"%1$sが余れば自動で植え付けもする。\",\"color\":\"white\",\"bold\":false,\"italic\":false,\"with\":[{\"translate\":\"item.minecraft.beetroot_seeds\",\"color\":\"#F0D070\"}]}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

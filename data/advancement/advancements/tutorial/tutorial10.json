@@ -1,41 +1,57 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:grindstone",
-      "nbt": "{}"
+      "item": "minecraft:iron_sword",
+      "nbt": "{CustomModelData:2}"
     },
     "title": [
       {
-        "translate": "砥石の使用制限                      ",
-        "color": "white",
+        "translate": "TUSBメモリーについて                                    ",
+        "color": "light_purple",
         "bold": true
       }
     ],
-    "description": {
-      "translate": "魔石によるエンチャントシステム導入に伴い\n%1$sように制限している。",
-      "color": "white",
-      "with": [
-        {
-          "translate": "砥石を利用できない",
-          "color": "red"
-        }
-      ]
-    },
+    "description": [
+      {
+        "translate": "最初からスキル%2$sが\n付与されているアイテム。\n%3$sスキルを使用できるが、\n回数分使用すると%4$s。\n%1$s",
+        "color": "white",
+        "with": [
+          {
+            "translate": "<Temporary Use Skill Bio Memory>",
+            "color": "dark_purple",
+            "underlined": true
+          },
+          {
+            "text": "KNHWBSPTC",
+            "color": "light_purple",
+            "font": "icon"
+          },
+          {
+            "translate": "無条件で",
+            "color": "aqua"
+          },
+          {
+            "translate": "壊れてしまう",
+            "color": "red"
+          }
+        ]
+      }
+    ],
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "advancement:tutorial/tutorial09",
+  "parent": "advancement:tutorial/tutorial08",
   "criteria": {
-    "use_grindstone": {
-      "trigger": "minecraft:item_used_on_block",
+    "get_tusbmemory": {
+      "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "block": {
-          "blocks": [
-            "minecraft:grindstone"
-          ]
-        }
+        "items": [
+          {
+            "nbt": "{Skill:{Type:\"TUSBMemory\"}}"
+          }
+        ]
       }
     }
   }

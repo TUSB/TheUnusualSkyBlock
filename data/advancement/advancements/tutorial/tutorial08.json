@@ -2,38 +2,34 @@
   "display": {
     "icon": {
       "item": "minecraft:gold_nugget",
-      "nbt": "{CustomModelData:223,EnchantStone:1b,EnchantID:\"衝撃\",Tier:5,display:{Name:'{\"translate\":\"%1$s%2$s(V)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"衝撃の\"},{\"translate\":\"結晶\"}]}',Lore:['[{\"translate\":\"enchantment.minecraft.knockback\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.5\"}]','[{\"translate\":\"enchantment.minecraft.punch\",\"color\":\"gray\",\"italic\":false},{\"text\":\" \"},{\"translate\":\"enchantment.level.5\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器・道具\",\"color\":\"gray\"}]','{\"text\":\"エンチャント台で使用\",\"italic\":false}']}}"
+      "nbt": "{CustomModelData:52,EnchantStone:1b,EnchantID:\"氷\",Tier:3,display:{Name:'{\"translate\":\"%1$s%2$s(III)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"氷の\"},{\"translate\":\"原石\"}]}',Lore:['[{\"translate\":\"%s III\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"氷ダメージ追加\"}]},{\"text\":\"  \"},{\"text\":\"c\",\"font\":\"icon\",\"color\":\"aqua\"},{\"text\":\"+20\",\"color\":\"gray\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器・道具\",\"color\":\"gray\"}]','{\"translate\":\"エンチャント台で使用\",\"italic\":false}']}}"
     },
     "title": [
       {
-        "translate": "刻印について                  ",
+        "translate": "魔石について                  ",
         "color": "light_purple",
         "bold": true
       }
     ],
     "description": {
-      "translate": "%1$s %2$s %3$s 魔石のエンチャントが\nアイテムに%4$s状態。手に取ることで\nそのエンチャントが%5$s。",
+      "translate": "%1$sを使って秘められた力を\nアイテムに付与できる%2$s。\n%3$sでは同じ魔石もしくは特定の魔石の\n組み合わせで%4$sできる。",
       "color": "white",
       "with": [
         {
-          "text": "❖",
-          "color": "light_purple"
-        },
-        {
-          "text": "❖",
-          "color": "aqua"
-        },
-        {
-          "text": "❖",
+          "translate": "エンチャント台",
           "color": "gold"
         },
         {
-          "translate": "刻まれた",
-          "color": "light_purple"
+          "translate": "魔力の結晶",
+          "color": "blue"
         },
         {
-          "translate": "紐解かれる",
-          "color": "green"
+          "translate": "金床",
+          "color": "gold"
+        },
+        {
+          "translate": "上位魔石を合成",
+          "color": "aqua"
         }
       ]
     },
@@ -42,14 +38,14 @@
     "announce_to_chat": false,
     "hidden": false
   },
-  "parent": "advancement:tutorial/tutorial07",
+  "parent": "advancement:tutorial/tutorial06",
   "criteria": {
-    "get_engraving": {
+    "get_enchantstone": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "nbt": "{Engraving:{}}"
+            "nbt": "{EnchantStone:true}"
           }
         ]
       }

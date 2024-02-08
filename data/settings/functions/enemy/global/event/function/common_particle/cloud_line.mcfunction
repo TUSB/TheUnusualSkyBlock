@@ -1,2 +1,2 @@
 #Function
-particle cloud ~ ~ ~ 0.08 0.08 0.08 0 20 force @a[tag=ShowParticles]
+particle cloud ~ ~ ~ 0.08 0.08 0.08 0 20 force

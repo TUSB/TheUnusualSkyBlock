@@ -9,82 +9,47 @@
           "name": "item:group/tusb_item/tier4/summon_trap"
         },
         {
-          "weight": 1,
+          "weight": 4,
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/nether_star",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 10
-              }
-            }
-          ]
+          "name": "item:group/vanilla_item/tier_all/etc"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/ender_pearl",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "weight": 2,
-          "type": "loot_table",
-          "name": "item:group/vanilla_item/tier_all/ores",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "weight": 2,
-          "type": "loot_table",
-          "name": "item:group/vanilla_item/tier7/food",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
+          "name": "item:group/vanilla_item/tier7/nether_star"
         },
         {
           "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier7/ender_pearl"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier7/ores"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier7/food"
+        },
+        {
+          "weight": 3,
           "type": "loot_table",
           "name": "item:group/vanilla_item/tier7/carved_seal_items"
         },
         {
-          "weight": 2,
+          "weight": 4,
           "type": "loot_table",
-          "name": "item:group/currency_and_magic_stone/tier4/mix",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 1,
-                "max": 4
-              }
-            }
-          ]
+          "name": "item:group/base_currency/tier7/emerald"
         },
         {
-          "weight": 4,
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier4/mix"
+        },
+        {
+          "weight": 10,
           "type": "loot_table",
           "name": "item:group/rank_tusb_item/rank10/tusb_all"
         }

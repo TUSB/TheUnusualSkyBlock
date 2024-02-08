@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2,Items:[{id:\"emerald\",Count:64b}],display:{Name:'{\"translate\":\"エメラルドバンドル\",\"color\":\"#0ECF55\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"エメラルド専用のバンドル。\",\"color\":\"#CCCCCC\",\"italic\":false}']},AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:0.3,Operation:1,UUID:[I;11,0,0,21],Slot:\"mainhand\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:0.15,Operation:1,UUID:[I;11,0,0,31],Slot:\"mainhand\"}]}"
+              "tag": "{CustomModelData:2,EmeraldBundle:1b,display:{Name:'{\"translate\":\"エメラルドバンドル\",\"color\":\"#0ECF55\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"インベントリの右端の列に置くと\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"エメラルド1スタックを自動で\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"メガトンエメラルドに圧縮・収納する。\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"中に他のアイテムが入っていると機能しない。\",\"color\":\"white\",\"italic\":false}']},AttributeModifiers:[]}"
             }
           ]
         }

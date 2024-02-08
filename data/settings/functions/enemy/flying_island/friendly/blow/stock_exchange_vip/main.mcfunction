@@ -1,0 +1,10 @@
+### 即時ステータス
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:villager",CustomName:'{"translate":"《VIP専用裏証券取引所》カブシス","color":"#00FF00","bold":true}',AbsorptionAmount:9999999f,Invulnerable:true,DeathTime:19s,DeathLootTable:"empty",Offers:{Recipes:[{buy:{id:"minecraft:iron_nugget",tag:{CustomModelData:1,display:{Name:'{"translate":"メガトンエメラルド","color":"#FFD966","bold":true,"italic":false}',Lore:['{"translate":"全エリア共通の上位共通通貨","color":"#999999","italic":false}']}},Count:8b},sell:{id:"minecraft:bread",tag:{CustomModelData:3,CustomAttributes:1b,Stock:{Status:"vip"},display:{Name:'{"translate":"ゴールデン・ソラカブ","color":"#FFD65B","bold":true,"italic":false}',Lore:['{"translate":"毎日価値が変動する高級志向の不思議な株。","color":"#FF0075","italic":false}','{"translate":"数日経つと腐り価値がなくなる。","color":"#FF0075","italic":false},[{"translate":"取引番号："."color":"white","italic":false,"bold":true},{"text":"1"}]']}},Count:1b},maxUses:2147483647}]},VillagerData:{level:99,profession:"librarian",type:"plains"},Tags:[DelayedData,HasAI,CallOnInit,AnalyseLog]}
+data modify storage tusb_mob: "即時ステータス"."見た目" set value {ArmorItems:[{},{},{},{id:"minecraft:bread",Count:1b,tag:{CustomModelData:3}}],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f]}
+data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 0d
+data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0d
+data modify storage tusb_mob: "即時ステータス"."ノックバック耐性" set value 1d
+data modify storage tusb_mob: "即時ステータス"."ノックバック力" set value 0d
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$sゴールデン・ソラカブは命より重い。","with":[{"translate":"【能力：取引変更・無敵】","color":"#00FF00"}]}]'
+# AI
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Function",Tags:[FlyingIsland,Friendly,Blow,StockExchangeVip,Lines]}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:250,Max:400,Current:2},Loop:{Max:1,Current:1},Call:[{Name:"Function",Tags:[Global,Event,Function,ExitExchange]}]},{Interval:{Min:5,Max:5,Current:2},Loop:{Max:1,Current:1},Call:[{Name:"Function",Tags:[FlyingIsland,Friendly,Blow,StockExchangeVip,Update]}]}]}]}

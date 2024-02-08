@@ -13,4 +13,4 @@ clear @s paper{JobChangeTo:6}
 clear @s paper{JobChangeTo:7}
 clear @s paper{JobChangeTo:8}
 
-scoreboard players reset @s ChangeJob
+scoreboard players set @s ChangeJob 0

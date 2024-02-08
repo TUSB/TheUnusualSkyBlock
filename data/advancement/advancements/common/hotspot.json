@@ -16,8 +16,18 @@
     },
     "parent": "advancement:common/root",
     "criteria": {
-        "dummy": {
-            "trigger": "minecraft:impossible"
+      "hot_spring":{
+        "trigger": "effects_changed",
+        "conditions": {
+          "effects": {
+            "minecraft:invisibility":{
+              "amplifier": 100,
+              "duration": {
+                "min":1
+              }
+            }
+          }
         }
+      }
     }
 }

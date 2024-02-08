@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{HideFlags:64,Unbreakable:true,display:{Name:'{\"translate\":\"ユグドラシル\",\"color\":\"green\",\"bold\":true,\"underline\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"\",\"italic\":false},{\"translate\":\"%1$s%2$s(VI)\",\"color\":\"white\",\"with\":[{\"translate\":\"生命の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"世界樹を象徴する、生命の衣\",\"color\":\"dark_green\",\"italic\":false}'],color:65280},Engraving:{EnchantID:\"生命\",Tier:6},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:0.14,Operation:1,UUID:[I;21,0,0,11],Slot:\"head\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:0.28,Operation:1,UUID:[I;21,0,0,31],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"デフォルト\",Amount:1,Operation:0,UUID:[I;21,0,1,60],Slot:\"head\"}]}"
+              "tag": "{HideFlags:64,Unbreakable:true,display:{Name:'{\"translate\":\"ユグドラシル\",\"color\":\"green\",\"bold\":true,\"underline\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"red\",\"italic\":false},{\"translate\":\"%1$s%2$s(VI)\",\"color\":\"white\",\"with\":[{\"translate\":\"生命の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"世界樹を象徴する、生命の衣\",\"color\":\"dark_green\",\"italic\":false}'],color:65280},Engraving:{EnchantID:\"生命\",Tier:6},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:0.14d,Operation:1,UUID:[I;21,0,0,11],Slot:\"head\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:0.28d,Operation:1,UUID:[I;21,0,0,31],Slot:\"head\"},{AttributeName:\"generic.armor\",Name:\"デフォルト\",Amount:1,Operation:0,UUID:[I;21,0,1,60],Slot:\"head\"}]}"
             }
           ]
         }

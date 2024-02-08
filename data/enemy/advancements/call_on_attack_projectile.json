@@ -6,10 +6,15 @@
         "damage": {
           "blocked": false,
           "type": {
-            "is_projectile": true,
             "direct_entity": {
               "nbt": "{Tags:[CallOnAttackProjectile]}"
-            }
+            },
+            "tags": [
+              {
+                "id": "minecraft:is_projectile",
+                "expected": true
+              }
+            ]
           }
         }
       }

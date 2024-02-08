@@ -7,8 +7,8 @@ execute if data storage skill: Skill{Job:"共通"} run scoreboard players operat
 execute if data storage skill: Skill{Job:"剣士"} run scoreboard players operation _ _ = @s KnightLv
 execute if data storage skill: Skill{Job:"忍者"} run scoreboard players operation _ _ = @s NinjaLv
 execute if data storage skill: Skill{Job:"狩人"} run scoreboard players operation _ _ = @s HunterLv
-execute if data storage skill: Skill{Job:"白魔道士"} run scoreboard players operation _ _ = @s WhiteMageLv
-execute if data storage skill: Skill{Job:"黒魔道士"} run scoreboard players operation _ _ = @s BlackMageLv
+execute if data storage skill: Skill{Job:"白魔導士"} run scoreboard players operation _ _ = @s WhiteMageLv
+execute if data storage skill: Skill{Job:"黒魔導士"} run scoreboard players operation _ _ = @s BlackMageLv
 execute if data storage skill: Skill{Job:"召喚士"} run scoreboard players operation _ _ = @s SummonerLv
 execute if data storage skill: Skill{Job:"絡繰士"} run scoreboard players operation _ _ = @s PuppetMasterLv
 execute if data storage skill: Skill{Job:"怪盗"} run scoreboard players operation _ _ = @s ThiefLv

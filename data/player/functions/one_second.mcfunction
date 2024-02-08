@@ -2,17 +2,6 @@
 ### プレイヤー毎秒処理
 ##############################
 
-###スキル
-#忍者
-scoreboard players reset @s[scores={Choyaku=0..},nbt=!{ActiveEffects:[{Id:8b}]}] Choyaku
-execute if entity @s[scores={Katon=1..}] run function skill:act/ninja/katon/tick
-execute if entity @s[scores={Mokuso=1..}] run function skill:act/ninja/mokuso/tick
-execute if entity @s[scores={Suiton=1..}] run function skill:act/ninja/suiton/tick
-#狩人
-execute if entity @s[scores={PiercingAim=1..}] run function skill:act/hunter/piercing_aim/tick
-#共通
-execute if entity @s[scores={SkyWalk=1..}] run function skill:act/common/sky_walk/tick
-
 ###状態異常耐性
 execute if entity @s[scores={ResistEffects=1..}] run function effects:resist
 scoreboard players reset @s[scores={ResistLock=1..}] ResistLock

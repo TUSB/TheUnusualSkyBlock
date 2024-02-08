@@ -17,8 +17,14 @@
 ###放物線
 # execute if entity @s[tag=ParabolicEntity] run function calc_manager:parabora/move
 
+### temporary task
+execute if entity @s[scores={NativeFlag=100..}] run function main:task/temporary
+
 ###SmartMotion
 execute if entity @s[tag=SmartMotion] run function smart_motion:core/entity_tick
+
+### Mutated
+execute if entity @s[tag=Mutated] run function makeup:enemy/mutated
 
 ###投射物ヒット検知
 execute if entity @s[tag=DamageProjectile] run function entity:projectile_hit/
@@ -28,9 +34,7 @@ execute if entity @s[tag=DamageProjectile] run function entity:projectile_hit/
 
 ###スキル
 execute if entity @s[tag=Skill] run function skill:tick
-
-###ブラストスパーク
-execute if entity @s[tag=BlastSpark] run function skill:act/hunter/blast_spark/direction
+execute if entity @s[tag=BurstShadow] run function skill:tick_player
 
 ###矢の反射削除処理
 execute if entity @s[type=arrow,tag=!IgnoreReflection,nbt={HasBeenShot:1b}] run function entity:arrow_reflection

@@ -16,6 +16,11 @@
         {
           "weight": 1,
           "type": "minecraft:item",
+          "name": "minecraft:music_disc_5"
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
           "name": "minecraft:music_disc_blocks"
         },
         {
@@ -42,6 +47,11 @@
           "weight": 1,
           "type": "minecraft:item",
           "name": "minecraft:music_disc_mellohi"
+        },
+        {
+          "weight": 1,
+          "type": "minecraft:item",
+          "name": "minecraft:music_disc_otherside"
         },
         {
           "weight": 1,

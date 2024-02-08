@@ -1,10 +1,16 @@
-#ダブルブレイク 確率で耐久を2減らす
+#ダブルブレイク 確率で耐久を2倍減らす
 
-execute store result score _ Calc run function calc:random
-scoreboard players set _ _ 100
-scoreboard players operation _ Calc %= _ _
+# 乱数取得
+execute store result score # Calc run function calc:random
+scoreboard players set # _ 100
+scoreboard players operation # Calc %= # _
 
-execute store result storage item: Enchant.Level int 1 run data get entity @s SelectedItem.tag.Enchantments[{id:"tusb:双壊"}].lvl
+# ダブルブレイクのレベルより確率を設定
+execute store result storage item: Enchant.Level int 1 run data get entity @s Item.tag.lvl[0]
 function settings:item/enchant/value/double_break
-execute store result score _ _ run function item:enchant/enchant/get_value
-execute if score _ _ > _ Calc as @e[tag=SpawnerHolder,distance=..8] positioned as @s if block ~ ~ ~ #main:no_collision run function enemy:break_spawner/double_break/success
+execute store result score # _ run function item:enchant/enchant/get_value
+
+# ダブルブレイク成功か否か
+execute if score # _ > # Calc run function enemy:break_spawner/double_break/success
+
+kill @s

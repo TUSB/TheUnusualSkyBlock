@@ -8,4 +8,4 @@ data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:1,
 playsound block.end_portal.spawn hostile @a[distance=..32] ~ ~ ~ 0.7 0.5 0
 playsound block.portal.trigger hostile @a[distance=..32] ~ ~ ~ 0.7 0.5 0
 # パーティクル
-particle flash ~ ~ ~ 0 0 0 0 10 force @a[tag=ShowParticles]
+particle flash ~ ~ ~ 0 0 0 0 10 force

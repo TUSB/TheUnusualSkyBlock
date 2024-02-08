@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bundle",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1,JewelBundle:1b,display:{Name:'{\"translate\":\"ジュエルバンドル\",\"color\":\"#E4D3FB\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"インベントリの右端の列に置くと\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"拾った魔石を自動収納する。\",\"color\":\"white\",\"italic\":false}','{\"translate\":\"中に他のアイテムが入っていると機能しない。\",\"color\":\"white\",\"italic\":false}']},AttributeModifiers:[]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

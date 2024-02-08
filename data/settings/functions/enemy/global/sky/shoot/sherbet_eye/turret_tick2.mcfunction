@@ -1,0 +1,28 @@
+#Function
+# 音
+    playsound item.trident.return hostile @a[distance=..32] ~ ~ ~ 1 2 0
+# 円
+    particle dust 1 1 100000000 1.5 ^-0.0 ^0.0 ^0.5 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+    particle dust 1 1 100000000 1.5 ^0.129 ^0.0 ^0.483 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+    particle dust 1 1 100000000 1.5 ^0.25 ^0.0 ^0.433 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+    particle dust 1 1 100000000 1.5 ^0.354 ^0.0 ^0.354 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+    particle dust 1 1 100000000 1.5 ^0.433 ^0.0 ^0.25 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+    particle dust 1 1 100000000 1.5 ^0.483 ^0.0 ^0.129 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+    particle dust 1 1 100000000 1.5 ^0.5 ^0.0 ^0.0 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+    particle dust 1 1 100000000 1.5 ^0.483 ^0.0 ^-0.129 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+    particle dust 1 1 100000000 1.5 ^0.433 ^0.0 ^-0.25 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+    particle dust 1 1 100000000 1.5 ^0.354 ^0.0 ^-0.354 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+    particle dust 1 1 100000000 1.5 ^0.25 ^0.0 ^-0.433 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+    particle dust 1 1 100000000 1.5 ^0.129 ^0.0 ^-0.483 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+    particle dust 1 1 100000000 1.5 ^-0.0 ^0.0 ^-0.5 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+    particle dust 1 1 100000000 1.5 ^-0.129 ^0.0 ^-0.483 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+    particle dust 1 1 100000000 1.5 ^-0.25 ^0.0 ^-0.433 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+    particle dust 1 1 100000000 1.5 ^-0.354 ^0.0 ^-0.354 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+    particle dust 1 1 100000000 1.5 ^-0.433 ^0.0 ^-0.25 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+    particle dust 1 1 100000000 1.5 ^-0.483 ^0.0 ^-0.129 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+    particle dust 1 1 100000000 1.5 ^-0.5 ^0.0 ^0.0 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+    particle dust 1 1 100000000 1.5 ^-0.483 ^0.0 ^0.129 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+    particle dust 1 1 100000000 1.5 ^-0.433 ^0.0 ^0.25 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+    particle dust 1 1 100000000 1.5 ^-0.354 ^0.0 ^0.354 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+    particle dust 1 1 100000000 1.5 ^-0.25 ^0.0 ^0.433 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]
+    particle dust 1 1 100000000 1.5 ^-0.129 ^0.0 ^0.483 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]

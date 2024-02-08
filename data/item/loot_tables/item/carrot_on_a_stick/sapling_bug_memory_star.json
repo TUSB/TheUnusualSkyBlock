@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2001,CustomAttributes:1b,LootTable:\"item:group/tusb_item/lottery/sapling_winners\",display:{Name:'{\"translate\":\"《苗木》メモリスター\",\"color\":\"#8D00FF\",\"bold\":true,\"italic\":false}',Lore:['[{\"translate\":\"???\",\"color\":\"#FF0000\",\"bold\":true,\"obfuscated\":true},{\"translate\":\"ﾁャ■ｽ 6/6\",\"color\":\"#FF0000\",\"bold\":true,\"italic\":true,\"obfuscated\":false},{\"translate\":\"???\",\"color\":\"#FF0000\",\"bold\":true,\"italic\":false,\"obfuscated\":true},{\"translate\":\"のバグ■ーﾀヲ記したｲ石。\",\"color\":\"#FF0000\",\"bold\":true,\"italic\":false,\"obfuscated\":false}]','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" 索引顕界\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"索引顕界\",Level:1,Interval:0,Trigger:\"手に持って右クリック\",Count:3}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

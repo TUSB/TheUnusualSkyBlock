@@ -4,15 +4,14 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 5,
+          "weight": 3,
           "type": "loot_table",
-          "name": "item:item/firework_star/etc/trap_spawn_death_thorn",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 3
-            }
-          ]
+          "name": "item:item/firework_star/etc/trap_spawn_death_thorn"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_fake_warden"
         },
         {
           "weight": 1,

@@ -9,6 +9,10 @@
     execute if entity @s[type=!player] run scoreboard players operation $Health ScoreDamageCore = @s HP
     execute if entity @s[type=!player] run scoreboard players set _ ScoreDamageCore 10000
     execute if entity @s[type=!player] run scoreboard players operation $Health ScoreDamageCore *= _ ScoreDamageCore
+    # ScoreToHealthがある場合それがHP
+        execute if score @s ScoreToHealth matches -2147483648.. run scoreboard players operation $Health ScoreDamageCore = @s ScoreToHealth
+        scoreboard players set _ ScoreDamageCore 100
+        execute if score @s ScoreToHealth matches -2147483648.. run scoreboard players operation $Health ScoreDamageCore *= _ ScoreDamageCore
 # 防御力
     execute if data storage score_damage: Argument{BypassArmor:0b} store result score $DefensePoints ScoreDamageCore run attribute @s generic.armor get 100
     execute if data storage score_damage: Argument{BypassArmor:1b} run scoreboard players set $DefensePoints ScoreDamageCore 0
@@ -19,6 +23,6 @@
     execute store result score $EPF ScoreDamageCore run data get storage score_damage: Argument.EPF
     execute unless score $EPF ScoreDamageCore matches 0.. run function score_damage:core/get_default_epf/
 # 耐性エフェクト
-    execute if data storage score_damage: Argument{BypassResistance:0b} store result score $Resistance ScoreDamageCore run data get entity @s ActiveEffects[{Id:11b}].Amplifier
-    execute if data storage score_damage: Argument{BypassResistance:0b} if data entity @s ActiveEffects[{Id:11b}] run scoreboard players add $Resistance ScoreDamageCore 1
+    execute if data storage score_damage: Argument{BypassResistance:0b} store result score $Resistance ScoreDamageCore run data get entity @s ActiveEffects[{Id:11}].Amplifier
+    execute if data storage score_damage: Argument{BypassResistance:0b} if data entity @s ActiveEffects[{Id:11}] run scoreboard players add $Resistance ScoreDamageCore 1
     execute if data storage score_damage: Argument{BypassResistance:1b} run scoreboard players set $Resistance ScoreDamageCore 0

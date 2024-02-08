@@ -5,6 +5,6 @@
       }
   },
   "rewards": {
-      "function": "player:trigger/slept_in_bed"
+      "function": "player:trigger/slept_in_bed/"
   }
 }

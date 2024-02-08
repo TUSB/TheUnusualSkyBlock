@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/currency_and_magic_stone/all/mix"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:group/instant_item/tier1_8/mix_instant_items"
+        }
+      ]
+    }
+  ]
+}

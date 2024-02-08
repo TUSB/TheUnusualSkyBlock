@@ -7,7 +7,7 @@ execute store result storage v13alpha: Loops int 1 run scoreboard players add _ 
 execute in area:skylands positioned -256 100 768 at @e[tag=Spawner,tag=v13Alpha,distance=..128] run kill @e[tag=Spawner,distance=..1]
 function settings:alpha_debug/container
 function settings:alpha_debug/spawner
-execute in area:skylands positioned -256 100 768 as @e[tag=Spawner,tag=v13Alpha,distance=..128] run function settings:alpha_debug/new_game_apply
+execute in area:skylands positioned -256 100 768 as @e[tag=Spawner,tag=v13Alpha,distance=..128] at @s run function settings:alpha_debug/new_game_apply
 #クリア時間リセット 本編では絶対実行しない
 scoreboard players set $Seconds Count 0
 scoreboard players set $TenSeconds Count 0

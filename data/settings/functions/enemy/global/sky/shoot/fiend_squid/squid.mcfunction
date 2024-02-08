@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:squid",CustomName:'{"translate":"アオリイカ","color":"#FFFFFF"}',Air:32767s,NoGravity:true,PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,HasAI,CallOnTimeOut,TickingRequired,HasLootTable]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:squid",CustomName:'{"translate":"アオリイカ","color":"#FFFFFF"}',Air:32767s,NoGravity:true,PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,HasAI,TickingRequired,DamageProjectile,EnemyProjectile,HasLootTable,AnalyseLog]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 0d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0d
@@ -16,10 +16,12 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."闇属�
 # ステータス
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 20
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 1
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 150
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 200
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 1
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/currency_and_magic_stone/tier1/mix",Count:1,Chance:1d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier2/common",Count:1,Chance:1d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"%1$sは%2$sの餌になった。。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$sねぇどんな気持ち？ ねぇねぇどんな気持ち？","with":[{"translate":"【能力：格闘・移動・射的・MP減少・トント】","color":"#00FF00"}]}]'
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Time:[{Name:"Kill"}],TurnCount:1,Turn:[{Index:1,Target:{Look:"Friendly",Radius:32d},Rotate:[360f,360f]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:1,Turn:[{Index:1,Target:{Look:"Friendly",Radius:32d},Rotate:[360f,360f]}]}

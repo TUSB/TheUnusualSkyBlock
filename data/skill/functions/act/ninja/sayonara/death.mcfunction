@@ -19,11 +19,12 @@ scoreboard players operation @s MPConsumption = @s MP
 scoreboard players operation @s MPConsumption < _ _
 
 ### ダメージ付与
-execute if score _ SayonaraLevel matches 00.. as @e[distance=0..4,tag=Enemy] run function skill:damage/apply/
-execute if score _ SayonaraLevel matches 20.. as @e[distance=4..8,tag=Enemy] run function skill:damage/apply/
-execute if score _ SayonaraLevel matches 40.. as @e[distance=8..12,tag=Enemy] run function skill:damage/apply/
-execute if score _ SayonaraLevel matches 60.. as @e[distance=12..16,tag=Enemy] run function skill:damage/apply/
-execute if score _ SayonaraLevel matches 80.. as @e[distance=16..20,tag=Enemy] run function skill:damage/apply/
+execute if score _ SayonaraLevel matches 00.. run tag @e[distance=0..4,tag=Enemy] add Sayonara
+execute if score _ SayonaraLevel matches 40.. run tag @e[distance=4..8,tag=Enemy] add Sayonara
+execute if score _ SayonaraLevel matches 60.. run tag @e[distance=8..12,tag=Enemy] add Sayonara
+execute if score _ SayonaraLevel matches 80.. run tag @e[distance=12..16,tag=Enemy] add Sayonara
+execute as @e[distance=0..20,tag=Enemy,tag=Sayonara] run function skill:damage/apply/
+tag @e[distance=0..20,tag=Enemy] remove Sayonara
 
 ###レイズ適用
 execute if entity @s[tag=Raise] run function skill:act/white_mage/araise/raise

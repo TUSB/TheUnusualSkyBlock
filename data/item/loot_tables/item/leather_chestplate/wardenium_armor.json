@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{HideFlags:64,Unbreakable:true,display:{Name:'[{\"translate\":\"a\",\"color\":\"#38FFE4\",\"obfuscated\":true,\"italic\":false},{\"translate\":\"ウォーデニウムアーマー\",\"color\":\"#38FFE4\",\"bold\":true,\"obfuscated\":false,\"italic\":false},{\"translate\":\"a\",\"color\":\"#38FFE4\",\"obfuscated\":true,\"italic\":false}]',Lore:['[{\"text\":\"❖ \",\"color\":\"#00FF69\",\"italic\":false},{\"translate\":\"%1$s%2$s(VII)\",\"color\":\"white\",\"with\":[{\"translate\":\"竜鱗の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"ウォーデンの体内に生成された魔石より作られた\",\"color\":\"#38FFE4\",\"italic\":false}','{\"translate\":\"軽量かつとてつもなく強固な鎧\",\"color\":\"#38FFE4\",\"italic\":false}'],color:3735524},Engraving:{EnchantID:\"竜鱗\",Tier:7},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:0.25d,Operation:1,UUID:[I;22,0,0,11],Slot:\"chest\"},{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:0.3d,Operation:0,UUID:[I;22,0,0,20],Slot:\"chest\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:0.15d,Operation:1,UUID:[I;22,0,0,31],Slot:\"chest\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:30d,Operation:0,UUID:[I;22,0,0,60],Slot:\"chest\"},{AttributeName:\"generic.armor_toughness\",Name:\"カスタム\",Amount:30d,Operation:0,UUID:[I;22,0,0,70],Slot:\"chest\"},{AttributeName:\"generic.luck\",Name:\"カスタム\",Amount:10d,Operation:0,UUID:[I;22,0,0,80],Slot:\"chest\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

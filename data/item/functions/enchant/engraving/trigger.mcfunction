@@ -1,4 +1,4 @@
 #ゴーストアイテム回避で1tickずらす
-schedule function item:enchant/engraving/schedule 1t
+schedule function item:enchant/engraving/schedule 1t replace
 #トリガー解除
-advancement revoke @s only item:engraving
+schedule function item:enchant/engraving/trigger_revoke 1t replace
