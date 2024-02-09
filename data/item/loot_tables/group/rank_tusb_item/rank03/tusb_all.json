@@ -71,11 +71,6 @@
         {
           "weight": 2,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/solar_wind"
-        },
-        {
-          "weight": 2,
-          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/nil"
         },
         {
