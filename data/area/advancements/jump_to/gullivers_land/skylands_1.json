@@ -16,16 +16,16 @@
                             "location": {
                                 "position": {
                                     "x": {
-                                        "min": -33,
-                                        "max": -30
+                                        "min": 175,
+                                        "max": 178
                                     },
                                     "y": {
                                         "min": 67,
                                         "max": 69
                                     },
                                     "z": {
-                                        "min": 744,
-                                        "max": 747
+                                        "min": 760,
+                                        "max": 763
                                     }
                                 },
                                 "dimension": "area:gullivers_land"
