@@ -11,8 +11,8 @@
     "grass_color": 16750848,
     "sky_color": 4718592,
     "fog_color": 2490368,
-    "water_color": 4159204,
-    "water_fog_color": 4159204
+    "water_color": 65535,
+    "water_fog_color": 14744575
   },
   "surface_builder": "minecraft:nope",
   "carvers": {},
