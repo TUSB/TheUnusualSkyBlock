@@ -2,8 +2,8 @@
 difficulty hard
 
 #エンチャント・金床 schedule 再起動
-schedule function item:enchant/enchanting_table/schedule 1s
-schedule function item:lapidary/anvil/schedule 1s
+schedule function item:enchant/enchanting_table/schedule 3s
+schedule function item:lapidary/anvil/schedule 3s
 
 #凍結 schedule 再起動
 execute if entity @s[tag=Freeze] run schedule function effects:freeze/fix 1t
