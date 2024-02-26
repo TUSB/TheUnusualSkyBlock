@@ -23,4 +23,4 @@ execute if data storage calc: Bit{Operation:3} run function calc:bit/get/digit_a
 execute if data storage calc: Bit{Operation:4} run function calc:bit/get/bit_at_digit/
 
 # 結果を返す
-scoreboard players get _ Ret
+return run scoreboard players get _ Ret

@@ -15,4 +15,4 @@ execute store success score _ Ret if predicate settings:item/enchant/item/chestp
 execute store success score _ Ret if predicate settings:item/enchant/item/leggings if predicate settings:item/enchant/stone/leggings
 execute store success score _ Ret if predicate settings:item/enchant/item/boots if predicate settings:item/enchant/stone/boots
 #成功フラグを返す
-scoreboard players get _ Ret
+return run scoreboard players get _ Ret
