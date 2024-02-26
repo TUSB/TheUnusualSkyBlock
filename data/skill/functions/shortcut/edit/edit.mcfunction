@@ -15,7 +15,7 @@ execute if score _ SkillShortcut matches 15 run data modify storage oh_my_dat: _
 
 function makeup:skill/shortcut/sound
 
-execute in area:control_area run data modify block 2 3 2 front_text.messages[0] set value '[{"text":""},{"storage":"skill:","nbt":"Skill.Icon","font":"icon","color":"green"},{"storage":"skill:","nbt":"Skill.Skill"}]'
-execute in area:control_area run data modify storage skill: Skill.SkillName set from block 2 3 2 front_text.messages[0]
+execute in area:control_area run data modify block 2 3 2 Text1 set value '[{"text":""},{"storage":"skill:","nbt":"Skill.Icon","font":"icon","color":"green"},{"storage":"skill:","nbt":"Skill.Skill"}]'
+execute in area:control_area run data modify storage skill: Skill.SkillName set from block 2 3 2 Text1
 data modify entity @e[tag=SkillShortcut,scores={ParentID=0},distance=..0.01,limit=1,sort=nearest] CustomName set from storage skill: Skill.SkillName
 execute store result score @e[tag=SkillShortcut,scores={ParentID=0},distance=..0.01,limit=1,sort=nearest] ChangeSkill run data get storage skill: Skill.ChangeSkill

@@ -39,6 +39,9 @@ advancement revoke @s only area:jump_to/underworld/skylands
 #プレイヤーゲーム設定
 function player:game_settings/show
 
+#v13Alpha 進捗更新
+function enemy:break_spawner/alpha_advancements/update
+
 # バースト必要値 更新
 execute unless score $World Burst matches -1 run function skill:burst/required_amount
 

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:flint",
+      "nbt": "{CustomModelData:2}"
+    },
+    "title": {
+      "translate": "イエロークリスタル",
+      "color": "#FF0000"
+    },
+    "description": {
+      "translate": ""
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "parent": "advancement:alpha/4/6",
+  "criteria": {
+    "dummy": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

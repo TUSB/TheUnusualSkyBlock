@@ -3,16 +3,11 @@
     "requirement": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "location_check",
-            "predicate": {
-              "block": {
-                "tag": "item:containers"
-              }
-            }
+        "location": {
+          "block": {
+            "tag": "item:containers"
           }
-        ]
+        }
       }
     }
   },

@@ -7,4 +7,4 @@ execute if data storage mob_data: Call.Condition[{Logic:"OR"}] run function enem
 execute if data storage mob_data: Call.Condition[{Logic:"AND"}] run function enemy:ai/call/condition/logic/and
 
 #スキルを実行するフラグが立っていればスキル実行
-return run scoreboard players get _ Ret
+scoreboard players get _ Ret

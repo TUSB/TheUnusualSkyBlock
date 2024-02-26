@@ -22,5 +22,5 @@ execute if data entity @s ArmorItems[3].tag.Count positioned ~ ~500 ~ run data m
 execute if data entity @s ArmorItems[3].tag.Count run function enemy:spawn/set_spawner/count/
 
 execute positioned ~ ~500 ~ run tag @e[type=spawner_minecart,limit=1,distance=..0.01] remove Runner
-data remove entity @s CustomName
+data modify entity @s CustomName set value ''
 kill @s

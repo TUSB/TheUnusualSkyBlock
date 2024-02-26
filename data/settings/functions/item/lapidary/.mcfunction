@@ -43,4 +43,4 @@ execute if score _ Calc matches 2 if predicate settings:item/lapidary/combine/pu
 execute if score _ Calc matches 2 if predicate settings:item/lapidary/combine/spirit/ run function settings:item/lapidary/combine/spirit
 execute if score _ Calc matches 2 if predicate settings:item/lapidary/combine/yin_yang/ run function settings:item/lapidary/combine/yin_yang
 #成功フラグを返す
-return run scoreboard players get _ Ret
+scoreboard players get _ Ret

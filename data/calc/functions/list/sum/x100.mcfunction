@@ -4,4 +4,4 @@ scoreboard players set _ Ret 0
 #再帰
 execute if data storage calc: List[-1] run function calc:list/sum/loop
 #結果を100倍で返す
-return run scoreboard players get _ Ret
+scoreboard players get _ Ret

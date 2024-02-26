@@ -1,6 +1,6 @@
 [
   {
-    "condition": "minecraft:any_of",
+    "condition": "minecraft:alternative",
     "terms": [
       {
         "condition": "minecraft:reference",
@@ -16,7 +16,7 @@
     ]
   },
   {
-    "condition": "any_of",
+    "condition": "alternative",
     "terms": [
       {
         "condition": "reference",

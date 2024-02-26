@@ -2,4 +2,4 @@ tellraw @s ["",{"translate":"[チュートリアル：%1$s]","bold":true,"with":
 
 function makeup:tutorial_alpha/sound
 
-give @s minecraft:splash_potion{tutorial_item:true,CustomPotionColor:7356464,custom_potion_effects:[{duration:40,id:"minecraft:invisibility",amplifier:11b}],display:{ Name:'[{"translate":"衰弱","color":"red","bold":true}]'}}
+give @s minecraft:splash_potion{tutorial_item:true,CustomPotionColor:7356464,CustomPotionEffects:[{Duration:40,Id:14,Amplifier:11b}],display:{ Name:'[{"translate":"衰弱","color":"red","bold":true}]'}}
