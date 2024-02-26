@@ -180,8 +180,7 @@ function settings:effects/too_bad_effects
 
 ###コントロールエリア設定
 execute in area:control_area run forceload add 0 0
-execute in area:control_area run setblock 2 2 2 shulker_box
-execute in area:control_area run setblock 2 3 2 oak_sign
+schedule function area:system/control_area/system_block 1s
 execute in area:control_area positioned 5 5 5 run function calc:geometry/tp_00000
 execute in area:control_area positioned 5 5 5 run function calc:geometry/tp_00001
 execute in area:control_area positioned 5 5 5 run function calc:geometry/tp_00002

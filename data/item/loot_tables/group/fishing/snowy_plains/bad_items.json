@@ -11,6 +11,16 @@
         {
           "weight": 3,
           "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_aqua_dolphin"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/firework_star/etc/trap_spawn_water_column"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
           "name": "item:item/firework_star/etc/trap_spawn_predator"
         }
       ]

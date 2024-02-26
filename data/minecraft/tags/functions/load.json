@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
-        "main:load"
+        "main:load",
+        "settings:version_update/check/"
     ]
 }

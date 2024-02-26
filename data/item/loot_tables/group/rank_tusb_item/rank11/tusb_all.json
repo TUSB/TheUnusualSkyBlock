@@ -989,7 +989,7 @@
           "name": "item:item/warped_fungus_on_a_stick/security_pole/security_pole_single_body"
         },
         {
-          "weight": 5,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/security_pole/security_pole_dual_body"
         },

@@ -8,10 +8,10 @@ execute if data storage item: Item{id:"minecraft:cooked_chicken"} run scoreboard
 execute if data storage item: Item{id:"minecraft:rabbit_stew"} run effect give @s regeneration 15 2
 execute if data storage item: Item{id:"minecraft:cookie"} run scoreboard players add @s MP 30
 execute if data storage item: Item{id:"minecraft:cookie"} run scoreboard players operation @s MP < @s MPMax
-#TODO:MP自然回復(マナリフレッシュ？)
-#execute if data storage item: Item{id:"minecraft:pumpkin_pie"} run 
-#TODO:バーストゲージ増加
-#execute if data storage item: Item{id:"minecraft:honey_bottle"} run 
+#MP自然回復頻度上昇
+execute if data storage item: Item{id:"minecraft:pumpkin_pie"} run scoreboard players add @s MPAcceleration 100
+#バーストゲージ増加
+execute if data storage item: Item{id:"minecraft:honey_bottle"} run scoreboard players add $World Burst 120
 effect give @s saturation 1 2
 
 #ループ処理

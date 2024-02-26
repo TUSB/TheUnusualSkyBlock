@@ -10,5 +10,8 @@ execute if score @s Level matches 1 run scoreboard players set @e[tag=Enemy,dist
 execute if score @s Level matches 2 run scoreboard players set @e[tag=Enemy,distance=..32] WildCooking 105
 #水中でkill
 execute if block ~ ~ ~ water run kill @s
+#時間経過でkill
+scoreboard players remove @s WildCooking 1
+kill @s[scores={WildCooking=..0}]
 #演出
 execute if score $Tick Count matches 0 run function makeup:skill/act/hunter/wild_cooking/tick

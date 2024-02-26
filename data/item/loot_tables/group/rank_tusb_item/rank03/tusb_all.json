@@ -71,11 +71,6 @@
         {
           "weight": 2,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/solar_wind"
-        },
-        {
-          "weight": 2,
-          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/nil"
         },
         {
@@ -349,7 +344,7 @@
           "name": "item:item/trident/tier3_trident"
         },
         {
-          "weight": 10,
+          "weight": 7,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/witch_hat"
         },
@@ -359,22 +354,22 @@
           "name": "item:item/warped_fungus_on_a_stick/green_cloak"
         },
         {
-          "weight": 10,
+          "weight": 7,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/witch_hat_red"
         },
         {
-          "weight": 10,
+          "weight": 7,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/witch_hat_yellow"
         },
         {
-          "weight": 10,
+          "weight": 7,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/witch_hat_blue"
         },
         {
-          "weight": 10,
+          "weight": 7,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/witch_hat_white"
         },

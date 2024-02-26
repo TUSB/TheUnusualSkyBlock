@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 3,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/firework_star/etc/trap_spawn_death_thorn"
         },
@@ -14,7 +14,7 @@
           "name": "item:item/firework_star/etc/trap_spawn_fake_warden"
         },
         {
-          "weight": 1,
+          "weight": 6,
           "type": "loot_table",
           "name": "item:group/rank_tusb_item/rank11/tusb_all"
         }

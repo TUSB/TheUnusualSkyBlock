@@ -25,5 +25,9 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseL
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Function",Tags:[Global,Event,Function,CommonExe,BlockAlign]}],Death:[{Name:"Function",Tags:[Global,Neutrality,Blow,WoodenContainer,BreakingContainer]}],Damage:[{Name:"Function",Tags:[Global,Neutrality,Blow,WoodenContainer,BangingContainer]},{Name:"MergeNBT",NBT:{NoAI:false,OnGround:false}},{Name:"ChangeTurn",Set:3}],TurnCount:3,Turn:[{Index:1,Skill:[{Interval:{Min:2,Max:2,Current:2},Call:[{Condition:[{Name:"CheckNBT",Global:true,NBT:{OnGround:true}}],Name:"Function",Tags:[Global,Event,Function,CommonExe,BlockAlign]},{Name:"MergeNBT",NBT:{NoAI:true}},{Name:"ChangeTurn",Set:2}]}]},{Index:2,Skill:[{Interval:{Min:1000,Max:1000,Current:1000},Call:[{}]}]},{Index:3,Skill:[{Interval:{Min:2,Max:2,Current:2},Call:[{Condition:[{Name:"CheckNBT",Global:true,NBT:{OnGround:true}}],Name:"Function",Tags:[Global,Event,Function,CommonExe,BlockAlign]},{Name:"MergeNBT",NBT:{NoAI:true}},{Name:"ChangeTurn",Set:1}]}]}]}
 #Function
-# 出現時半径64m以内にいるトラップグループのMOBが20体以上である時、一番古い遠くにいるモブから削除する。
-execute as @e[tag=Trap,tag=!Garbage,distance=..64,sort=arbitrary,limit=20] as @e[sort=furthest,limit=1] run tag @s add Garbage
+# 出現時半径128m以内にいるトラップグループのMOB30体までに近い順で削除除外タグを付与
+tag @e[tag=Trap,tag=!Garbage,distance=..128,sort=nearest,limit=29] add IgnoreGarbage
+# 削除除外されなかった遠いMOBは削除
+tag @e[tag=Trap,tag=!Garbage,tag=!IgnoreGarbage,distance=..128] add Garbage
+# 除外タグを片付け
+tag @e[tag=IgnoreGarbage,distance=..128] remove IgnoreGarbage
