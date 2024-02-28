@@ -24,7 +24,7 @@
           "name": "item:item/carrot_on_a_stick/ether"
         },
         {
-          "weight": 7,
+          "weight": 6,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/cure_vile_ether_field"
         },
