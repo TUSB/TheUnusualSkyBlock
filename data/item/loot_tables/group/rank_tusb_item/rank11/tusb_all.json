@@ -4,19 +4,9 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 5,
-          "type": "loot_table",
-          "name": "item:item/bread/entity/sky_share"
-        },
-        {
           "weight": 67,
           "type": "loot_table",
           "name": "item:item/bread/food_clay"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/bread/entity/golden_sky_share"
         },
         {
           "weight": 50,
@@ -29,7 +19,7 @@
           "name": "item:item/bundle/emerald_bundle"
         },
         {
-          "weight": 5,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/soma"
         },
@@ -69,17 +59,17 @@
           "name": "item:item/carrot_on_a_stick/golden_ticket_summoner"
         },
         {
-          "weight": 8,
+          "weight": 7,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/soft_weak_trap"
         },
         {
-          "weight": 7,
+          "weight": 6,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/blunt_trap"
         },
         {
-          "weight": 6,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/damned_trap"
         },
@@ -1002,6 +992,26 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/no_one_inside"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/magic_leafy_vegetables_menicles"
+        },
+        {
+          "weight": 6,
+          "type": "loot_table",
+          "name": "item:item/warped_fungus_on_a_stick/block/portal"
+        },
+        {
+          "weight": 200,
+          "type": "loot_table",
+          "name": "item:item/written_book/synthesis_guide"
+        },
+        {
+          "weight": 200,
+          "type": "loot_table",
+          "name": "item:item/written_book/enchant_book"
         }
       ]
     }
