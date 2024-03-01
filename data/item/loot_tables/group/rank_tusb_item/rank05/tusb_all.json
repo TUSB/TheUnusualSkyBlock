@@ -34,7 +34,7 @@
           "name": "item:item/carrot_on_a_stick/high_immunity"
         },
         {
-          "weight": 3,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/synthetic_narcotics_rta"
         },

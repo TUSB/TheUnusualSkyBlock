@@ -34,6 +34,11 @@
           "name": "item:item/diamond_sword/ice_sword"
         },
         {
+          "weight": 12,
+          "type": "loot_table",
+          "name": "item:group/potion/debarrier/debarrier_set"
+        },
+        {
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/firework_star/etc/trap_spawn_statue_of_goddess_mercy"

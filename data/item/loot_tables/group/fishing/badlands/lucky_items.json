@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 10,
+          "weight": 15,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/bug_memory_star"
         },
@@ -14,9 +14,14 @@
           "name": "item:item/carrot_on_a_stick/nil"
         },
         {
-          "weight": 3,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/sapling_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/treasure_items/rank6_10/sign"
         },
         {
           "weight": 1,
