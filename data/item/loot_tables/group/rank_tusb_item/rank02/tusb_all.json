@@ -19,12 +19,12 @@
           "name": "item:item/carrot_on_a_stick/arcadia"
         },
         {
-          "weight": 16,
+          "weight": 17,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/ether"
         },
         {
-          "weight": 6,
+          "weight": 7,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/cure_vile_ether_field"
         },
@@ -34,7 +34,7 @@
           "name": "item:item/carrot_on_a_stick/cold_pumpkin_soup"
         },
         {
-          "weight": 6,
+          "weight": 7,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/fluffy"
         },
@@ -229,7 +229,7 @@
           "name": "item:item/shield/white_mage_shield"
         },
         {
-          "weight": 10,
+          "weight": 7,
           "type": "loot_table",
           "name": "item:item/stone_axe/kelp_fossil"
         },

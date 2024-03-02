@@ -244,6 +244,11 @@
           "name": "item:item/magma_cube_spawn_egg/sign/summoner_soul"
         },
         {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/netherite_boots/heavy_boots"
+        },
+        {
           "weight": 15,
           "type": "loot_table",
           "name": "item:item/shield/enderman_shield"

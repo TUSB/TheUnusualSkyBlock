@@ -149,7 +149,7 @@
           "name": "item:item/gold_nugget/double_break/2"
         },
         {
-          "weight": 11,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/golden_apple/konpeito"
         },

@@ -329,7 +329,7 @@
           "name": "item:item/shield/gravel_wall"
         },
         {
-          "weight": 25,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/shield/ice_shield"
         },
