@@ -21,12 +21,15 @@ scoreboard players operation # _ -= # Calc
 
 # # _が -1 ~ 1 以外なら符号反転
 execute unless score # _ matches -1..1 run scoreboard players operation # _ *= @s _
-# # _が 0 なら3回前の変化の2倍
+# # _が 0 なら3回前の変化の5倍
 execute if score # _ matches 0 store result score _ Calc run data get storage mob_data: StockVillager.StockInfo[-1].History[-4]
 execute if score # _ matches 0 store result score # Calc run data get storage mob_data: StockVillager.StockInfo[-1].History[-3]
 execute if score # _ matches 0 run scoreboard players operation # Calc -= _ Calc
 execute if score # _ matches 0 if score # Calc matches ..-1 run scoreboard players operation # Calc *= @s _
 execute if score # _ matches 0 run scoreboard players operation # _ = # Calc
+execute if score # _ matches 0 run scoreboard players operation # _ += # Calc
+execute if score # _ matches 0 run scoreboard players operation # _ += # Calc
+execute if score # _ matches 0 run scoreboard players operation # _ += # Calc
 execute if score # _ matches 0 run scoreboard players operation # _ += # Calc
 
 #tellraw @a ["影響値: ",{"score":{"name":"#","objective":"_"}}]
