@@ -9,19 +9,19 @@
           "name": "item:item/firework_star/etc/trap_spawn_spawner_vase"
         },
         {
-          "weight": 3,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/firework_star/etc/trap_spawn_aqua_dolphin"
         },
         {
           "weight": 3,
           "type": "loot_table",
-          "name": "item:item/firework_star/etc/trap_spawn_water_column"
+          "name": "item:item/firework_star/etc/trap_spawn_predator"
         },
         {
-          "weight": 3,
+          "weight": 1,
           "type": "loot_table",
-          "name": "item:item/firework_star/etc/trap_spawn_predator"
+          "name": "item:item/firework_star/etc/trap_spawn_predator_ex"
         }
       ]
     }
