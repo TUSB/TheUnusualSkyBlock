@@ -279,3 +279,6 @@ data merge storage area: {capture:{skylands:{},flying_island:{},cloudia:{}}}
     advancement revoke @a only area:system/skylands/chaos_islands/boss
 
 execute unless data storage main: {debug:1b} run function settings:alpha_debug/
+
+# 固定村人復帰地点の設定
+execute unless data storage main: {debug:1b} run function area:villager_point/init
