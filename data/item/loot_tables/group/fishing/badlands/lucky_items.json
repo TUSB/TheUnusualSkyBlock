@@ -4,9 +4,14 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 15,
+          "weight": 18,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/bug_memory_star"
+        },
+        {
+          "weight": 18,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/sapling_bug_memory_star"
         },
         {
           "weight": 5,
@@ -14,14 +19,14 @@
           "name": "item:item/carrot_on_a_stick/nil"
         },
         {
-          "weight": 5,
+          "weight": 2,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/sapling_bug_memory_star"
+          "name": "item:group/treasure_items/rank6_10/sign"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:group/treasure_items/rank6_10/sign"
+          "name": "item:group/treasure_items/rank9_10/harvest_sign"
         },
         {
           "weight": 1,
