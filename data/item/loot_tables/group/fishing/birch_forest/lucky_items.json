@@ -11,6 +11,11 @@
         {
           "weight": 128,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/leaves_bug_memory_star"
+        },
+        {
+          "weight": 128,
+          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/fluffy"
         },
         {
@@ -41,11 +46,6 @@
           "weight": 32,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/hover_gift"
-        },
-        {
-          "weight": 32,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/leaves_bug_memory_star"
         },
         {
           "weight": 32,
