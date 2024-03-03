@@ -54,6 +54,11 @@
           "name": "item:group/treasure_items/rank6_10/sign"
         },
         {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:group/treasure_items/rank9_10/harvest_sign"
+        },
+        {
           "weight": 10,
           "type": "loot_table",
           "name": "item:group/rank_tusb_item/rank09/tusb_all"
