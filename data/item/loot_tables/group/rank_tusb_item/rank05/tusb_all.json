@@ -376,26 +376,6 @@
         {
           "weight": 3,
           "type": "loot_table",
-          "name": "item:item/magma_cube_spawn_egg/sign/harvest_wheat"
-        },
-        {
-          "weight": 3,
-          "type": "loot_table",
-          "name": "item:item/magma_cube_spawn_egg/sign/harvest_potato"
-        },
-        {
-          "weight": 3,
-          "type": "loot_table",
-          "name": "item:item/magma_cube_spawn_egg/sign/harvest_carrot"
-        },
-        {
-          "weight": 3,
-          "type": "loot_table",
-          "name": "item:item/magma_cube_spawn_egg/sign/harvest_beetroot"
-        },
-        {
-          "weight": 3,
-          "type": "loot_table",
           "name": "item:item/magma_cube_spawn_egg/sign/upgrade_white"
         },
         {
@@ -407,11 +387,6 @@
           "weight": 3,
           "type": "loot_table",
           "name": "item:item/magma_cube_spawn_egg/sign/very_glow"
-        },
-        {
-          "weight": 3,
-          "type": "loot_table",
-          "name": "item:item/magma_cube_spawn_egg/sign/harvest_nether_wart"
         },
         {
           "weight": 4,
