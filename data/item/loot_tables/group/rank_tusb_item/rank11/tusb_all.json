@@ -939,32 +939,32 @@
           "name": "item:item/player_head/electro_eye_headgear"
         },
         {
-          "weight": 10,
+          "weight": 20,
           "type": "loot_table",
           "name": "item:item/player_head/knight_head"
         },
         {
-          "weight": 6,
+          "weight": 12,
           "type": "loot_table",
           "name": "item:item/player_head/ninja_head"
         },
         {
-          "weight": 7,
+          "weight": 15,
           "type": "loot_table",
           "name": "item:item/player_head/hunter_head"
         },
         {
-          "weight": 14,
+          "weight": 29,
           "type": "loot_table",
           "name": "item:item/player_head/white_mage_head"
         },
         {
-          "weight": 6,
+          "weight": 12,
           "type": "loot_table",
           "name": "item:item/player_head/black_mage_head"
         },
         {
-          "weight": 10,
+          "weight": 20,
           "type": "loot_table",
           "name": "item:item/player_head/summoner_head"
         },
