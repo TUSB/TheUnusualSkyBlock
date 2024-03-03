@@ -49,31 +49,6 @@
           "name": "item:item/magma_cube_spawn_egg/sign/break_cobblestone"
         },
         {
-          "weight": 2,
-          "type": "loot_table",
-          "name": "item:item/magma_cube_spawn_egg/sign/harvest_wheat"
-        },
-        {
-          "weight": 2,
-          "type": "loot_table",
-          "name": "item:item/magma_cube_spawn_egg/sign/harvest_potato"
-        },
-        {
-          "weight": 2,
-          "type": "loot_table",
-          "name": "item:item/magma_cube_spawn_egg/sign/harvest_carrot"
-        },
-        {
-          "weight": 2,
-          "type": "loot_table",
-          "name": "item:item/magma_cube_spawn_egg/sign/harvest_beetroot"
-        },
-        {
-          "weight": 2,
-          "type": "loot_table",
-          "name": "item:item/magma_cube_spawn_egg/sign/harvest_nether_wart"
-        },
-        {
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/magma_cube_spawn_egg/sign/sheep_spawner"
