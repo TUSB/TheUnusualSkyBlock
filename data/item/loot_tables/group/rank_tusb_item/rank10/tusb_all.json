@@ -19,52 +19,52 @@
           "name": "item:item/carrot_on_a_stick/weapon/statue_of_goddess_mercy"
         },
         {
-          "weight": 2,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/infinity_netherite_memory_star"
         },
         {
-          "weight": 2,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/cosmo_shadow_memory_star"
         },
         {
-          "weight": 2,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/cosmo_photon_memory_star"
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/gold_nugget/kamui/4"
         },
         {
-          "weight": 2,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/gold_nugget/dragon_scale/4"
         },
         {
-          "weight": 2,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/gold_nugget/evolution/4"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/magma_cube_spawn_egg/sign/harvest_wheat"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/magma_cube_spawn_egg/sign/harvest_potato"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/magma_cube_spawn_egg/sign/harvest_carrot"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/magma_cube_spawn_egg/sign/harvest_beetroot"
         },
@@ -74,7 +74,7 @@
           "name": "item:item/magma_cube_spawn_egg/sign/warden_kit"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/magma_cube_spawn_egg/sign/harvest_nether_wart"
         },

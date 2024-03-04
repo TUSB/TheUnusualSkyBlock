@@ -19,7 +19,7 @@
           "name": "item:item/carrot_on_a_stick/panacea"
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/green_carrot"
         },
@@ -34,92 +34,92 @@
           "name": "item:item/carrot_on_a_stick/futon"
         },
         {
-          "weight": 2,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/infinity_diamond_memory_star"
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/diamond_sword/ice_sword"
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/gold_nugget/spirit/4"
         },
         {
-          "weight": 2,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/gold_nugget/philosopher/4"
         },
         {
-          "weight": 2,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/gold_nugget/purification/4"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/leather_boots/cosmo_shadow_b"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/leather_boots/cosmo_photon_b"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/leather_chestplate/cosmo_shadow_c"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/leather_chestplate/cosmo_photon_c"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/leather_helmet/cosmo_shadow_h"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/leather_helmet/cosmo_photon_h"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/leather_leggings/cosmo_shadow_l"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/leather_leggings/cosmo_photon_l"
         },
         {
-          "weight": 4,
+          "weight": 7,
           "type": "loot_table",
           "name": "item:item/netherite_boots/infinity_netherite_b"
         },
         {
-          "weight": 4,
+          "weight": 7,
           "type": "loot_table",
           "name": "item:item/netherite_chestplate/infinity_netherite_c"
         },
         {
-          "weight": 4,
+          "weight": 7,
           "type": "loot_table",
           "name": "item:item/netherite_helmet/infinity_netherite_h"
         },
         {
-          "weight": 4,
+          "weight": 7,
           "type": "loot_table",
           "name": "item:item/netherite_leggings/infinity_netherite_l"
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/shield/time_feeding_shield"
         },
