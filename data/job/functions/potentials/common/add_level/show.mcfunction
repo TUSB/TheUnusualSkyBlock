@@ -7,6 +7,7 @@ function job:status/get_all_job_level
 #表示
 
 tellraw @s [{"translate":" レベルを割り振りたい職業を選択してください。"}]
+tellraw @s [{"translate":" ここで割り振ったCPはリセットで元に戻りません。","underlined":true}]
 
 execute unless score @s Job matches 1 run tellraw @s [{"translate":" ❖%1$s","color":"red","with":[{"translate":"剣士","color":"white"}]},"     ",{"translate":"現在:%1$sLV %2$s(%3$sCP)","color":"white","with":[{"score":{"name": "_","objective": "KnightLv"},"color":"green"},{"translate":"⇧","color":"aqua","bold":true,"clickEvent": {"action": "run_command","value": "/trigger PotentialTrigger set 41"}},{"text":"-1","color": "gold"}]}," ",{"translate":"割り振り上限:%1$sLV","color":"white","with":[{"storage":"tusb_player:","nbt":"Potentials.AddLevel[1]","color":"green"}]}]
 execute unless score @s Job matches 2 run tellraw @s [{"translate":" ❖%1$s","color":"red","with":[{"translate":"忍者","color":"white"}]},"     ",{"translate":"現在:%1$sLV %2$s(%3$sCP)","color":"white","with":[{"score":{"name": "_","objective": "NinjaLv"},"color":"green"},{"translate":"⇧","color":"aqua","bold":true,"clickEvent": {"action": "run_command","value": "/trigger PotentialTrigger set 42"}},{"text":"-1","color": "gold"}]}," ",{"translate":"割り振り上限:%1$sLV","color":"white","with":[{"storage":"tusb_player:","nbt":"Potentials.AddLevel[2]","color":"green"}]}]
