@@ -8,8 +8,8 @@ data modify storage tusb_player: Potentials.AddLevel[3] set value 25
 data modify storage tusb_player: Potentials.AddLevel[4] set value 25
 data modify storage tusb_player: Potentials.AddLevel[5] set value 25
 data modify storage tusb_player: Potentials.AddLevel[6] set value 25
-data modify storage tusb_player: Potentials.AddLevel[7] set value 25
-data modify storage tusb_player: Potentials.AddLevel[8] set value 25
+data modify storage tusb_player: Potentials.AddLevel[7] set value 0
+data modify storage tusb_player: Potentials.AddLevel[8] set value 0
 
 #> $UpperLimitについて
 #
