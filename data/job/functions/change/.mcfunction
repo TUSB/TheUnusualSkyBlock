@@ -28,3 +28,6 @@ execute if score @s Exp >= @s RequiredExp run function job:level_up/
 
 # トグルスキルリセット
 function skill:toggle_reset
+
+# 職業変更制限 転職後スキル発実行フラグ
+scoreboard players set @s ChangeJobLock -1
