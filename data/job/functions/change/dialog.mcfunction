@@ -46,11 +46,13 @@ execute if score _ CanChangeJobFlag matches 00.. run data modify block 2 3 2 Tex
 
 scoreboard players operation _ CanChangeJobFlag *= _ ChangeJob
 execute if score _ CanChangeJobFlag matches ..-1 run data modify block 2 3 2 Text1 set value '[{"block":"2 3 2","nbt":"Text1","interpret":true},{"text":" < "},{"text":"P","font":"icon","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger ChangeJob set 7"},"hoverEvent":{"action":"show_text","value":{"translate":"%1$sに転職する！","with":[{"translate":"絡繰士","color":"aqua"}]}}},{"text":" >"}]'
-execute if score _ CanChangeJobFlag matches 00.. run data modify block 2 3 2 Text1 set value '[{"block":"2 3 2","nbt":"Text1","interpret":true},{"text":" < "},{"text":"P","font":"icon","color":"gray","hoverEvent":{"action":"show_text","value":{"translate":"この職業はここで変更できないようだ……"}}},{"text":" >"}]'
+# execute if score _ CanChangeJobFlag matches 00.. run data modify block 2 3 2 Text1 set value '[{"block":"2 3 2","nbt":"Text1","interpret":true},{"text":" < "},{"text":"P","font":"icon","color":"gray","hoverEvent":{"action":"show_text","value":{"translate":"この職業はここで変更できないようだ……"}}},{"text":" >"}]'
+execute if score _ CanChangeJobFlag matches 00.. run data modify block 2 3 2 Text1 set value '[{"block":"2 3 2","nbt":"Text1","interpret":true},{"text":" < "},{"text":"P","font":"icon","color":"dark_gray","strikethrough":true,"hoverEvent":{"action":"show_text","value":{"translate":"この職業はここで変更できないようだ……"}}},{"text":" >"}]'
 
 scoreboard players operation _ CanChangeJobFlag *= _ ChangeJob
 execute if score _ CanChangeJobFlag matches ..-1 run data modify block 2 3 2 Text1 set value '[{"block":"2 3 2","nbt":"Text1","interpret":true},{"text":" < "},{"text":"T","font":"icon","color":"aqua","clickEvent":{"action":"run_command","value":"/trigger ChangeJob set 8"},"hoverEvent":{"action":"show_text","value":{"translate":"%1$sに転職する！","with":[{"translate":"怪盗","color":"aqua"}]}}},{"text":" >"}]'
-execute if score _ CanChangeJobFlag matches 00.. run data modify block 2 3 2 Text1 set value '[{"block":"2 3 2","nbt":"Text1","interpret":true},{"text":" < "},{"text":"T","font":"icon","color":"gray","hoverEvent":{"action":"show_text","value":{"translate":"この職業はここで変更できないようだ……"}}},{"text":" >"}]'
+# execute if score _ CanChangeJobFlag matches 00.. run data modify block 2 3 2 Text1 set value '[{"block":"2 3 2","nbt":"Text1","interpret":true},{"text":" < "},{"text":"T","font":"icon","color":"gray","hoverEvent":{"action":"show_text","value":{"translate":"この職業はここで変更できないようだ……"}}},{"text":" >"}]'
+execute if score _ CanChangeJobFlag matches 00.. run data modify block 2 3 2 Text1 set value '[{"block":"2 3 2","nbt":"Text1","interpret":true},{"text":" < "},{"text":"T","font":"icon","color":"dark_gray","strikethrough":true,"hoverEvent":{"action":"show_text","value":{"translate":"この職業はここで変更できないようだ……"}}},{"text":" >"}]'
 
 execute if score @s ChangeJobLock matches ..0 run tellraw @s {"block":"2 3 2","nbt":"Text1","interpret":true}
 
