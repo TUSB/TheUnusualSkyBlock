@@ -257,6 +257,9 @@ function settings:player/tips
 
 #飛空島ゲート駅schedule開始
 function area:flying_islands_gate/change
+#初回は交易島に固定
+data modify storage area: FlyingIslandEnteredFlag set value 1b
+schedule clear area:flying_islands_gate/change
 
 #ルーラデフォルト定義
 function settings:skill/black_mage/return/default
