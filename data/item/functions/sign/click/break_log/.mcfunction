@@ -4,9 +4,9 @@ clone ~-7 ~-1 ~-7 ~7 ~7 ~7 to area:control_area 0 20 0 filtered #minecraft:logs
 # 原木粉砕用エンティティ
 fill ~-7 ~-1 ~-7 ~7 ~7 ~7 minecraft:wheat replace #minecraft:logs
 clone ~-7 ~-1 ~-7 ~7 ~7 ~7 ~-7 ~-1 ~-7 filtered minecraft:air force
-execute positioned ~-7 ~-1 ~-7 run tag @e[type=item,dx=14,dy=8,dz=14,tag=] add LogBreakRoot
-execute positioned ~-7 ~-1 ~-7 at @e[type=item,dx=14,dy=8,dz=14,tag=LogBreakRoot] positioned ~ ~1 ~ run fill ~ ~ ~ ~ ~ ~ air destroy 
-execute positioned ~-7 ~-1 ~-7 run kill @e[type=item,dx=14,dy=8,dz=14,tag=LogBreakRoot]
+execute positioned ~-8 ~-2 ~-8 run tag @e[type=item,dx=16,dy=10,dz=16,tag=] add LogBreakRoot
+execute positioned ~-8 ~-2 ~-8 at @e[type=item,dx=16,dy=10,dz=16,tag=LogBreakRoot] positioned ~ ~1 ~ run fill ~ ~ ~ ~ ~ ~ air destroy 
+execute positioned ~-8 ~-2 ~-8 run kill @e[type=item,dx=16,dy=10,dz=16,tag=LogBreakRoot]
 
 # 原木アイテムを与える
 execute in area:control_area positioned 0 20 0 run fill ~ ~ ~ ~14 ~8 ~14 minecraft:air destroy
