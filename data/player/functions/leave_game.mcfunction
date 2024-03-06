@@ -35,6 +35,7 @@ advancement revoke @s only area:jump_to/skylands/nether
 advancement revoke @s only area:jump_to/skylands/tocult_colde
 advancement revoke @s only area:jump_to/skylands/underworld
 advancement revoke @s only area:jump_to/underworld/skylands
+advancement revoke @s only skill:shortcut
 
 #プレイヤーゲーム設定
 function player:game_settings/show
