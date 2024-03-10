@@ -104,7 +104,7 @@
           "name": "item:item/carrot_on_a_stick/dark_wand"
         },
         {
-          "weight": 4,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/blue_eyes_nantoka_dragon"
         },
