@@ -24,6 +24,11 @@ execute in area:control_area run data modify storage item: TUSBM_Inventory[-1].t
 #残り使用回数
 execute in area:control_area run data modify block 2 3 2 Text1 set value '[{"text":"","color":"white","italic":false},{"translate":" 残り使用回数: "},{"storage":"skill:","nbt":"Skill.Count"},{"text":"/"},{"storage":"skill:","nbt":"Skill.MaxCount"}]}}]'
 execute in area:control_area run data modify storage item: TUSBM_Inventory[-1].tag.display.Lore append from block 2 3 2 Text1
+#ダメージ
+data remove storage skill: DamageJson
+execute if data storage skill: Skill.Damage in area:control_area run function skill:trigger/set/damage_json
+execute if data storage skill: Skill.Damage in area:control_area run data modify block 2 3 2 Text1 set value '{"storage":"skill:","nbt":"DamageJson.Damage","italic":false,"interpret":true}'
+execute if data storage skill: Skill.Damage in area:control_area run data modify storage item: TUSBM_Inventory[-1].tag.display.Lore append from block 2 3 2 Text1
 #シュルカーボックスにセット
 data modify storage item: Items set value []
 data modify storage item: Items append from storage item: TUSBM_Inventory[-1]
