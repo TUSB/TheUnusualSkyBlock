@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 12,
+          "weight": 9,
           "type": "loot_table",
           "name": "item:item/bow/tier5_bow"
         },
@@ -129,7 +129,7 @@
           "name": "item:item/chainmail_boots/turbine"
         },
         {
-          "weight": 14,
+          "weight": 12,
           "type": "loot_table",
           "name": "item:item/crossbow/tier5_crossbow"
         },

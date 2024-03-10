@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 30,
+          "weight": 25,
           "type": "loot_table",
           "name": "item:item/bow/water_break"
         },
@@ -64,7 +64,7 @@
           "name": "item:item/carrot_on_a_stick/leaves_bug_memory_star"
         },
         {
-          "weight": 26,
+          "weight": 25,
           "type": "loot_table",
           "name": "item:item/diamond_axe/tomahawk"
         },

@@ -4,12 +4,12 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 49,
+          "weight": 44,
           "type": "loot_table",
           "name": "item:item/bow/tier1_bow"
         },
         {
-          "weight": 44,
+          "weight": 39,
           "type": "loot_table",
           "name": "item:item/bow/hunter_bow"
         },
@@ -194,12 +194,12 @@
           "name": "item:item/cookie/void_confectionery"
         },
         {
-          "weight": 66,
+          "weight": 56,
           "type": "loot_table",
           "name": "item:item/crossbow/tier1_crossbow"
         },
         {
-          "weight": 35,
+          "weight": 36,
           "type": "loot_table",
           "name": "item:item/elytra/ordinary_wings"
         },
@@ -284,7 +284,7 @@
           "name": "item:item/shield/cobblestone_shield"
         },
         {
-          "weight": 132,
+          "weight": 79,
           "type": "loot_table",
           "name": "item:item/shield/gold_ornaments_shield"
         },

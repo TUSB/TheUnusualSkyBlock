@@ -4,17 +4,17 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 22,
+          "weight": 18,
           "type": "loot_table",
           "name": "item:item/bow/tier3_bow"
         },
         {
-          "weight": 20,
+          "weight": 17,
           "type": "loot_table",
           "name": "item:item/bow/fion_seatra"
         },
         {
-          "weight": 19,
+          "weight": 14,
           "type": "loot_table",
           "name": "item:item/bow/nermai_resanter"
         },
@@ -139,7 +139,7 @@
           "name": "item:item/carrot_on_a_stick/blood_menace_memory_star"
         },
         {
-          "weight": 27,
+          "weight": 25,
           "type": "loot_table",
           "name": "item:item/crossbow/tier3_crossbow"
         },

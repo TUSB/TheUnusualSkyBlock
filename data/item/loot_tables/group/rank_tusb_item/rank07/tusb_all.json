@@ -4,12 +4,12 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 7,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/bow/tier7_bow"
         },
         {
-          "weight": 4,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/bow/a_ray_on_the_move"
         },
@@ -79,12 +79,12 @@
           "name": "item:item/carved_pumpkin/halloween_head"
         },
         {
-          "weight": 8,
+          "weight": 7,
           "type": "loot_table",
           "name": "item:item/crossbow/tier7_crossbow"
         },
         {
-          "weight": 11,
+          "weight": 9,
           "type": "loot_table",
           "name": "item:item/crossbow/ballistic"
         },

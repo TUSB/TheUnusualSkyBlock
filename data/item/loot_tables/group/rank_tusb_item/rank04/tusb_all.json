@@ -204,7 +204,7 @@
           "name": "item:item/shield/bentler"
         },
         {
-          "weight": 23,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/shield/mysterious_shield"
         },
