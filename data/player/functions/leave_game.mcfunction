@@ -52,4 +52,7 @@ execute unless score $World Burst matches -1 run function skill:burst/bossbar
     scoreboard players reset @s Burst
     function skill:burst/summoner/element/reset
 
+# 祈り表示
+tag @s add Pray
+
 scoreboard players reset @s LeaveGame
