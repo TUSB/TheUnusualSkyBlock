@@ -874,11 +874,6 @@
           "name": "item:item/iron_nugget/currency_gigant_emerald"
         },
         {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/iron_nugget/currency_void"
-        },
-        {
           "weight": 10,
           "type": "loot_table",
           "name": "item:item/iron_pickaxe/jewel_mining"
