@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:6,display:{Name:'{\"translate\":\"昏き邪視\",\"color\":\"#00008B\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"#8356A6\",\"italic\":false},{\"translate\":\"%1$s%2$s(VI)\",\"color\":\"white\",\"with\":[{\"translate\":\"闇の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"恐ろしい視線を感じる……\",\"color\":\"#00008B\",\"italic\":false}']},Engraving:{EnchantID:\"闇\",Tier:6},AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:-0.6993d,Operation:2,UUID:[I;11,0,0,22],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:85d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"}]}"
+              "tag": "{CustomModelData:6,display:{Name:'{\"translate\":\"昏き邪視\",\"color\":\"#00008B\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"#8356A6\",\"italic\":false},{\"translate\":\"%1$s%2$s(VI)\",\"color\":\"white\",\"with\":[{\"translate\":\"闇の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"恐ろしい視線を感じる……\",\"color\":\"#00008B\",\"italic\":false}']},Engraving:{EnchantID:\"闇\",Tier:6},AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:-0.6993d,Operation:2,UUID:[I;11,0,0,22],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:170d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"}]}"
             }
           ]
         }
