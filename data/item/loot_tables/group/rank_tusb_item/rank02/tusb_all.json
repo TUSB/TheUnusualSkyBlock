@@ -64,7 +64,7 @@
           "name": "item:item/carrot_on_a_stick/leaves_bug_memory_star"
         },
         {
-          "weight": 25,
+          "weight": 26,
           "type": "loot_table",
           "name": "item:item/diamond_axe/tomahawk"
         },
