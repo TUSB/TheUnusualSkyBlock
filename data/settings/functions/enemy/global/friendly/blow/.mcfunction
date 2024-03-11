@@ -16,6 +16,7 @@ execute if entity @s[tag=Daizo] run function settings:enemy/global/friendly/blow
 execute if entity @s[tag=ThoughtPot] run function settings:enemy/global/friendly/blow/thought_pot/
 execute if entity @s[tag=ScarecrowDoll] run function settings:enemy/global/friendly/blow/scarecrow_doll/
 execute if entity @s[tag=FriendWolf] run function settings:enemy/global/friendly/blow/friend_wolf/
+execute if entity @s[tag=BioFish] run function settings:enemy/global/friendly/blow/bio_fish/
 execute if entity @s[tag=FriendThunderbolf] run function settings:enemy/global/friendly/blow/friend_thunderbolf/
 execute if entity @s[tag=FriendSuperDragon] run function settings:enemy/global/friendly/blow/friend_super_dragon/
 execute if entity @s[tag=FriendBumperStorm] run function settings:enemy/global/friendly/blow/friend_bumper_storm/
