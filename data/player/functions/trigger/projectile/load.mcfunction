@@ -9,5 +9,5 @@ function skill:damage/load
 ### スキル
 execute if entity @s[tag=Skill] run function player:trigger/projectile/skill
 
-### HasSnowballの雪玉削除
-execute if entity @s[tag=HasSkillDisplay] run kill @e[tag=SkillDisplay,sort=nearest,limit=1]
+### HasDisplayのアイテムディスプレイ削除
+execute if entity @s[tag=HasSkillDisplay] on passengers run kill @s[tag=SkillDisplay]
