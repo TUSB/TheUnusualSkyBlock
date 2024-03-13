@@ -129,6 +129,16 @@
           "name": "item:item/shield/abyss_shield"
         },
         {
+          "weight": 9,
+          "type": "loot_table",
+          "name": "item:item/tipped_arrow/arrow_of_prayer_lv3"
+        },
+        {
+          "weight": 9,
+          "type": "loot_table",
+          "name": "item:item/tipped_arrow/arrow_of_defilement_lv3"
+        },
+        {
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/sunglasses"

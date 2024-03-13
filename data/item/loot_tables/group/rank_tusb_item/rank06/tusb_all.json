@@ -264,6 +264,16 @@
           "name": "item:item/stone_axe/mushroom_debris"
         },
         {
+          "weight": 11,
+          "type": "loot_table",
+          "name": "item:item/tipped_arrow/arrow_of_prayer_lv2"
+        },
+        {
+          "weight": 11,
+          "type": "loot_table",
+          "name": "item:item/tipped_arrow/arrow_of_defilement_lv2"
+        },
+        {
           "weight": 5,
           "type": "loot_table",
           "name": "item:item/trident/triple_dirt_darts"

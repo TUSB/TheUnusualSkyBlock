@@ -239,16 +239,6 @@
           "name": "item:item/stone_axe/kelp_fossil"
         },
         {
-          "weight": 18,
-          "type": "loot_table",
-          "name": "item:item/tipped_arrow/arrow_of_prayer_lv1"
-        },
-        {
-          "weight": 18,
-          "type": "loot_table",
-          "name": "item:item/tipped_arrow/arrow_of_defilement_lv1"
-        },
-        {
           "weight": 11,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/villager_nose"

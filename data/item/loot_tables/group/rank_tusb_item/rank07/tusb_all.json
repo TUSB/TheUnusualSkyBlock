@@ -294,16 +294,6 @@
           "name": "item:item/shield/terrifying_shield"
         },
         {
-          "weight": 10,
-          "type": "loot_table",
-          "name": "item:item/tipped_arrow/arrow_of_prayer_lv3"
-        },
-        {
-          "weight": 10,
-          "type": "loot_table",
-          "name": "item:item/tipped_arrow/arrow_of_defilement_lv3"
-        },
-        {
           "weight": 4,
           "type": "loot_table",
           "name": "item:item/trident/tier7_trident"

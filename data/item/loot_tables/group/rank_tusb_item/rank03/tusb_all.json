@@ -339,6 +339,16 @@
           "name": "item:item/stone_axe/watermelon_axe"
         },
         {
+          "weight": 16,
+          "type": "loot_table",
+          "name": "item:item/tipped_arrow/arrow_of_prayer_lv1"
+        },
+        {
+          "weight": 16,
+          "type": "loot_table",
+          "name": "item:item/tipped_arrow/arrow_of_defilement_lv1"
+        },
+        {
           "weight": 9,
           "type": "loot_table",
           "name": "item:item/trident/tier3_trident"
