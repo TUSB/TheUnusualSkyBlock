@@ -28,7 +28,7 @@
           "color": "#32EBCA"
         },
         {
-          "translate": "ネザライトインゴット",
+          "translate": "item.minecraft.netherite_ingot",
           "color": "#716871"
         }
       ]
