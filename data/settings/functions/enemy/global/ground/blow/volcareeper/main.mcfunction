@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 0
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 50
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 0
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier4/common",Count:1,Chance:0.3d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier3/common",Count:1,Chance:0.3d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s取扱注意！ 負傷が爆発のスイッチだ！ 残った矢に触れると彼方に消し飛ぶぞ！！","with":[{"translate":"【能力：地雷・爆撃】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Function",Tags:[Global,Event,Function,CommonExe,SetMp0]}],Death:[{Condition:[{Name:"HasTarget",Target:{Look:"Player",Radius:32d,IgnoreBlocks:true}}],Name:"Spawn",Count:15,CountRange:15,SpawnEntities:[[{Tags:[Global,Ground,Blow,Volcareeper,VolcanicBlast],Level:1}]]}],Time:[{Name:"ChangeAI",Death:[{}]}],Damage:[{Name:"Kill"}],Tick:[{Name:"Function",Tags:[Global,Ground,Blow,Volcareeper,ParticleAndSound1]}]}

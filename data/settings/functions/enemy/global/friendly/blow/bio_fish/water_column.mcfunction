@@ -14,7 +14,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 200
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 200
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 200
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier2/common",Count:1,Chance:0.3d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.3d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"不運にも%1$sは足を滑らせ%2$sの水圧によりスポンジとなった。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$sバシャバシャバシャ～～！！","with":[{"translate":"【能力：格闘・コール】","color":"#00FF00"}]}]'
 # AI

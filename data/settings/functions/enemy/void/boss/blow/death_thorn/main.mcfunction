@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 0
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 1000
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 0
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier4/common",Count:1,Chance:1d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier3/common",Count:1,Chance:1d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"%1$sは%2$sによって哀れなフレッシュスムージーへと変貌を遂げた。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$sデスを２回連呼してる程度にはとてつもなく痛くそして俊敏である。敵味方区別なく突き刺さる。","with":[{"translate":"【能力：ワープ・格闘・移動・物理無効・即死】","color":"#00FF00"}]}]'
 # AI
