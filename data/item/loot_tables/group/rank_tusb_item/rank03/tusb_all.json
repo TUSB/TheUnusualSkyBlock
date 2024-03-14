@@ -139,6 +139,16 @@
           "name": "item:item/carrot_on_a_stick/blood_menace_memory_star"
         },
         {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/arrow_of_prayer_lv1_memory_star"
+        },
+        {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/arrow_of_defilement_lv1_memory_star"
+        },
+        {
           "weight": 25,
           "type": "loot_table",
           "name": "item:item/crossbow/tier3_crossbow"
@@ -337,16 +347,6 @@
           "weight": 20,
           "type": "loot_table",
           "name": "item:item/stone_axe/watermelon_axe"
-        },
-        {
-          "weight": 16,
-          "type": "loot_table",
-          "name": "item:item/tipped_arrow/arrow_of_prayer_lv1"
-        },
-        {
-          "weight": 16,
-          "type": "loot_table",
-          "name": "item:item/tipped_arrow/arrow_of_defilement_lv1"
         },
         {
           "weight": 9,

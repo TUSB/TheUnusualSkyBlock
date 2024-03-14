@@ -39,6 +39,16 @@
           "name": "item:item/carrot_on_a_stick/infinity_diamond_memory_star"
         },
         {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/arrow_of_prayer_lv3_memory_star"
+        },
+        {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/arrow_of_defilement_lv3_memory_star"
+        },
+        {
           "weight": 2,
           "type": "loot_table",
           "name": "item:item/diamond_sword/ice_sword"
@@ -127,16 +137,6 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/shield/abyss_shield"
-        },
-        {
-          "weight": 9,
-          "type": "loot_table",
-          "name": "item:item/tipped_arrow/arrow_of_prayer_lv3"
-        },
-        {
-          "weight": 9,
-          "type": "loot_table",
-          "name": "item:item/tipped_arrow/arrow_of_defilement_lv3"
         },
         {
           "weight": 1,
