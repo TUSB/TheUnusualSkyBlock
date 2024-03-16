@@ -4,12 +4,12 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 512,
+          "weight": 4096,
           "type": "loot_table",
           "name": "item:group/treasure_items/rank01/vanilla_tusb_mix"
         },
         {
-          "weight": 256,
+          "weight": 512,
           "type": "loot_table",
           "name": "item:group/treasure_items/rank02/vanilla_tusb_mix"
         },
