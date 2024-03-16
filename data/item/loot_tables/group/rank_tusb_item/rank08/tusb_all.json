@@ -21,7 +21,17 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/strong_shuriken"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/lunatic_wand"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/entity/salmon_susi"
         },
         {
           "weight": 5,
@@ -119,7 +129,7 @@
           "name": "item:item/gold_nugget/projectile_protection/4"
         },
         {
-          "weight": 5,
+          "weight": 6,
           "type": "loot_table",
           "name": "item:item/gold_nugget/dragon_scale/3"
         },
