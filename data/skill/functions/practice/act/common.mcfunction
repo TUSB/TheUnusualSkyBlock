@@ -1,3 +1,4 @@
+execute if data storage skill: Skill{Name:"サモンSオイルドラム"} run function skill:act/common/summon_rolling_oil_drum/act0
 execute if data storage skill: Skill{Name:"サモンSフレンドフィッシュズ"} run function skill:act/common/summon_friend_fishs/act0
 execute if data storage skill: Skill{Name:"サモンSメニクル"} run function skill:act/common/summon_menicles/act0
 execute if data storage skill: Skill{Name:"ソニックバースト"} run function skill:act/common/sonic_burst/act0
