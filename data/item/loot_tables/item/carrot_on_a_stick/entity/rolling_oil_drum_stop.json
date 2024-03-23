@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:carrot_on_a_stick",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:1017,CustomAttributes:1b,display:{Name:'{\"translate\":\"オイルドラム\",\"color\":\"#C50000\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"取り扱い注意！\",\"color\":\"#FF0000\"}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" サモンS：オイルドラム\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"サモンSオイルドラム\",Level:1,Interval:300,Trigger:\"手に持って右クリック\",Count:8}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
