@@ -89,7 +89,7 @@
           "name": "item:item/crossbow/ballistic"
         },
         {
-          "weight": 3,
+          "weight": 6,
           "type": "loot_table",
           "name": "item:item/diamond_sword/a_end_of_end"
         },
