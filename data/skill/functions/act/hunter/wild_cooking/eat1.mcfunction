@@ -11,7 +11,7 @@ execute if data storage item: Item{id:"minecraft:cookie"} run scoreboard players
 #MP自然回復頻度上昇
 execute if data storage item: Item{id:"minecraft:pumpkin_pie"} run scoreboard players add @s MPAcceleration 100
 #バーストゲージ増加
-execute if data storage item: Item{id:"minecraft:honey_bottle"} run scoreboard players add $World Burst 120
+execute if data storage item: Item{id:"minecraft:honey_bottle"} unless score $World Burst matches -1 run scoreboard players add $World Burst 120
 effect give @s saturation 1 2
 
 #ループ処理
