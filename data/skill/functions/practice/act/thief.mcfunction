@@ -4,7 +4,7 @@ execute if data storage skill: Skill{Name:"ハートスティール"} run functi
 execute if data storage skill: Skill{Name:"トレジャーサーチ"} run function skill:act/thief/treasure_search/act0
 execute if data storage skill: Skill{Name:"ダイヤスモーク"} run function skill:act/thief/diamond_smoke/act0
 execute if data storage skill: Skill{Name:"クラブハット"} run function skill:act/thief/club_hat/act0
-execute if data storage skill: Skill{Name:"スポナーチェッカー"} run function skill:act/thief/spawner checker/act0
+execute if data storage skill: Skill{Name:"スポナーチェッカー"} run function skill:act/thief/spawner_checker/act0
 execute if data storage skill: Skill{Name:"アピール・サイン"} run function skill:act/thief/appeal_sign/act0
 execute if data storage skill: Skill{Name:"J・ファントムステップ"} run function skill:act/thief/phantom_step/act0
 execute if data storage skill: Skill{Name:"J・アクロバット・ワイヤー"} run function skill:act/thief/acrobatic_wire/act0
