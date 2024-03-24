@@ -869,7 +869,7 @@
           "name": "item:item/iron_pickaxe/jewel_mining"
         },
         {
-          "weight": 10,
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/netherite_axe/slice_ham"
         },
