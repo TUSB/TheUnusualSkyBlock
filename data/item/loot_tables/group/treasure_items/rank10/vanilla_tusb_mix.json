@@ -49,17 +49,17 @@
           "name": "item:group/magic_stone/tier4/mix"
         },
         {
-          "weight": 5,
+          "weight": 20,
           "type": "loot_table",
           "name": "item:group/treasure_items/rank6_10/sign"
         },
         {
-          "weight": 5,
+          "weight": 20,
           "type": "loot_table",
           "name": "item:group/treasure_items/rank9_10/harvest_sign"
         },
         {
-          "weight": 60,
+          "weight": 70,
           "type": "loot_table",
           "name": "item:group/rank_tusb_item/rank10/tusb_all"
         }
