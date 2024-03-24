@@ -49,7 +49,7 @@
           "name": "item:group/magic_stone/tier1/mix"
         },
         {
-          "weight": 10,
+          "weight": 70,
           "type": "loot_table",
           "name": "item:group/rank_tusb_item/rank01/tusb_all"
         }

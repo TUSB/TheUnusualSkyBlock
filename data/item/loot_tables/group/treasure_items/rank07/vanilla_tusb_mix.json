@@ -54,7 +54,7 @@
           "name": "item:group/treasure_items/rank6_10/sign"
         },
         {
-          "weight": 10,
+          "weight": 70,
           "type": "loot_table",
           "name": "item:group/rank_tusb_item/rank07/tusb_all"
         }

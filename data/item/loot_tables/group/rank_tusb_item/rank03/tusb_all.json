@@ -149,6 +149,11 @@
           "name": "item:item/carrot_on_a_stick/arrow_of_defilement_lv1_memory_star"
         },
         {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/magic_stone_bug_memory_star"
+        },
+        {
           "weight": 25,
           "type": "loot_table",
           "name": "item:item/crossbow/tier3_crossbow"

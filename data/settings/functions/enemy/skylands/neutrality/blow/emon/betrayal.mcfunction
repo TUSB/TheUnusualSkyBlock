@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/all/villager",Count:1,Chance:0.3d},{Item:{id:"minecraft:beef"},Count:1,CountRange:8,Chance:1d},{Loot:"item:item/diamond_sword/a_end_of_end",Count:1,Chance:0.01d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/all/villager",Count:1,Chance:0.3d},{Item:{id:"minecraft:beef"},Count:1,CountRange:8,Chance:1d},{Loot:"item:item/diamond_sword/a_end_of_end",Count:1,Chance:0.05d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"「今宵のエンド・オブ・エンドは一味違うぞい」%1$sは%2$sの裏切りによって哀れにも一刀両断された。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$sお前の肉を削ぎたくなったぞい！！ 覚悟するぞい！！","with":[{"translate":"【能力：ワープ・格闘・移動・追撃・反撃・範囲攻撃・幻影】","color":"#00FF00"}]}]'
 # AI
