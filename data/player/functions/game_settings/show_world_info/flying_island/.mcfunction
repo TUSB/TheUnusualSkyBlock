@@ -11,7 +11,7 @@ execute store result score _ Calc run data get storage area: capture.flying_isla
 execute store result score # _ run function calc:island/get_total/flying_island
 tellraw @s [{"translate":"エリア攻略数"}," : ",{"score":{"name": "_","objective": "Calc"}},"/",{"score":{"name": "#","objective": "_"}}]
 tellraw @s ""
-tellraw @s [{"translate":"TUSB神社","color":"#ff5353"},{"translate":" : ","color": "white"} ,{"storage":"area:","nbt":"capture.flying_island{046:0}.046","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.flying_island{046:1}.046","font":"ender_eye"}]
+tellraw @s [{"translate":"TUSB神社","color":"#ff5353"},{"translate":" : ","color": "white"} ,{"storage":"area:","nbt":"capture.flying_island{046:0}.046","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.flying_island{046:1}.046","font":"ender_eye","color":"#ffffff"}]
 tellraw @s [{"translate":"飛空島道場","color":"#ffffff"},{"translate":" : ","color": "white"},{"storage":"area:","nbt":"capture.flying_island{047:0}.047","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.flying_island{047:1}.047","font":"ender_eye"}]
 
 tellraw @s ""
