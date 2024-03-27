@@ -18,5 +18,5 @@ tellraw @s ""
 tellraw @s ""
 tellraw @s ""
 tellraw @s ""
-tellraw @s [{"translate":"攻略時間:%1$s時間%2$s分%3$s秒","color":"gold","with":[{"score":{"name":"$Hours","objective":"Count"}},{"score":{"name":"$Minutes","objective":"Count"}},[{"score":{"name":"$TenSeconds","objective":"Count"}},{"score":{"name":"$Seconds","objective":"Count"}}]]}]
+tellraw @s ""
 tellraw @s "====================================================="

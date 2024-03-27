@@ -23,5 +23,5 @@ tellraw @s [{"translate":"灯台島","color":"#ffffff"}," : ",{"storage":"area:"
 tellraw @s [{"translate":"月島","color":"#ffffff"}," : ",{"storage":"area:","nbt":"capture.skylands{011:0}.011","font":"ender_eye","color":"gray"},{"storage":"area:","nbt":"capture.skylands{011:1}.011","font":"ender_eye"}]
 
 tellraw @s ""
-tellraw @s [{"translate":"攻略時間:%1$s時間%2$s分%3$s秒","color":"gold","with":[{"score":{"name":"$Hours","objective":"Count"}},{"score":{"name":"$Minutes","objective":"Count"}},[{"score":{"name":"$TenSeconds","objective":"Count"}},{"score":{"name":"$Seconds","objective":"Count"}}]]}]
+tellraw @s ""
 tellraw @s "====================================================="
