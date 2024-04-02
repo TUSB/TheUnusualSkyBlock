@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+          "name": "item:group/treasure_items/rank01/vanilla_tusb_mix"
         }
       ]
     },
@@ -33,6 +33,42 @@
         {
           "type": "loot_table",
           "name": "item:group/vanilla_item/tier1/nether_star"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier1/nether_star"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/base_currency/tier1/underworld"
         }
       ]
     },
@@ -50,43 +86,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier1/nether_star"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
           "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/base_currency/tier1/underworld"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/vanilla_item/tier1/nether_star"
         }
       ]
     },
@@ -158,43 +158,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/tier1/nether_star"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
           "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/base_currency/tier1/underworld"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/vanilla_item/tier1/nether_star"
         }
       ]
     },
@@ -212,6 +176,42 @@
       "entries": [
         {
           "type": "loot_table",
+          "name": "item:group/base_currency/tier1/underworld"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/tier1/nether_star"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
           "name": "item:group/vanilla_item/tier1/nether_star"
         }
       ]
@@ -239,7 +239,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+          "name": "item:group/treasure_items/rank01/vanilla_tusb_mix"
         }
       ]
     }

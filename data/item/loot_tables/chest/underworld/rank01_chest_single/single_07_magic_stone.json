@@ -5,7 +5,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier1/underworld"
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
         }
       ]
     },
@@ -32,7 +32,25 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+          "name": "item:group/magic_stone/tier1/mix"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/base_currency/tier1/underworld"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier1/mix"
         }
       ]
     },
@@ -59,25 +77,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier1/underworld"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
           "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/base_currency/tier1/underworld"
         }
       ]
     },
@@ -104,7 +104,16 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/magic_stone/tier1/mix"
+          "name": "item:group/base_currency/tier1/underworld"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/treasure_items/rank01/vanilla_tusb_mix"
         }
       ]
     },
@@ -122,7 +131,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/magic_stone/tier1/mix"
+          "name": "item:group/treasure_items/rank01/vanilla_tusb_mix"
         }
       ]
     },
@@ -131,16 +140,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/treasure_items/rank02/vanilla_tusb_mix"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/magic_stone/tier1/mix"
+          "name": "item:group/base_currency/tier1/underworld"
         }
       ]
     },
@@ -167,7 +167,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier1/underworld"
+          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
         }
       ]
     },
@@ -194,7 +194,25 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
+          "name": "item:group/magic_stone/tier1/mix"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/base_currency/tier1/underworld"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "loot_table",
+          "name": "item:group/magic_stone/tier1/mix"
         }
       ]
     },
@@ -221,25 +239,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/base_currency/tier1/underworld"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
           "name": "item:group/vanilla_item/decorative/panel_01_rainbow"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "loot_table",
-          "name": "item:group/base_currency/tier1/underworld"
         }
       ]
     }

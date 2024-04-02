@@ -122,7 +122,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/treasure_items/rank02/vanilla_tusb_mix"
+          "name": "item:group/treasure_items/rank01/vanilla_tusb_mix"
         }
       ]
     },
