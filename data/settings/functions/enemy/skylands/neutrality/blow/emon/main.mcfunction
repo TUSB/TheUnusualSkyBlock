@@ -16,9 +16,9 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."闇属�
 # ステータス
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 40
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 40
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/all/villager",Count:1,Chance:0.3d},{Item:{id:"minecraft:beef"},Count:1,CountRange:8,Chance:1d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$sほぉ～これはこれは、「良い肉」を持っているな。","with":[{"translate":"【能力：取引・ワープ・格闘・移動・反撃・範囲攻撃・幻影・置換】","color":"#00FF00"}]}]'
