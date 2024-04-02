@@ -49,7 +49,7 @@
           "name": "item:item/carrot_on_a_stick/euphoric_face_pie"
         },
         {
-          "weight": 132,
+          "weight": 133,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/vile_ether"
         },
@@ -74,7 +74,7 @@
           "name": "item:item/carrot_on_a_stick/corn_soup"
         },
         {
-          "weight": 12,
+          "weight": 13,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/solar_wind"
         },
@@ -127,6 +127,16 @@
           "weight": 19,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/tier1_chainmail_memory_star"
+        },
+        {
+          "weight": 19,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/infinity_chainmail_memory_star"
+        },
+        {
+          "weight": 14,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/usual_iron_memory_star"
         },
         {
           "weight": 99,
@@ -274,7 +284,7 @@
           "name": "item:item/potion/very_glow"
         },
         {
-          "weight": 132,
+          "weight": 133,
           "type": "loot_table",
           "name": "item:item/shield/tier1_shield"
         },
@@ -294,27 +304,27 @@
           "name": "item:item/spider_eye/empty_can"
         },
         {
-          "weight": 132,
+          "weight": 133,
           "type": "loot_table",
           "name": "item:item/stone_axe/tier1_stone_axe"
         },
         {
-          "weight": 132,
+          "weight": 133,
           "type": "loot_table",
           "name": "item:item/stone_hoe/tier1_stone_hoe"
         },
         {
-          "weight": 132,
+          "weight": 133,
           "type": "loot_table",
           "name": "item:item/stone_pickaxe/tier1_stone_pickaxe"
         },
         {
-          "weight": 132,
+          "weight": 133,
           "type": "loot_table",
           "name": "item:item/stone_shovel/tier1_stone_shovel"
         },
         {
-          "weight": 132,
+          "weight": 133,
           "type": "loot_table",
           "name": "item:item/stone_sword/tier1_stone_sword"
         },

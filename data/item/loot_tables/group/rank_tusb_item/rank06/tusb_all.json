@@ -19,7 +19,7 @@
           "name": "item:item/carrot_on_a_stick/purely_stick_dx"
         },
         {
-          "weight": 7,
+          "weight": 6,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/a_sugar_cane_menace"
         },
@@ -57,11 +57,6 @@
           "weight": 6,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/diving_suit_memory_star"
-        },
-        {
-          "weight": 6,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/infinity_leather_memory_star"
         },
         {
           "weight": 5,

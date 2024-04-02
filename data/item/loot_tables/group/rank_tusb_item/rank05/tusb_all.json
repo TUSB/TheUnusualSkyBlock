@@ -124,6 +124,11 @@
           "name": "item:item/carrot_on_a_stick/prism_soteira_memory_star"
         },
         {
+          "weight": 7,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/infinity_diamond_memory_star"
+        },
+        {
           "weight": 12,
           "type": "loot_table",
           "name": "item:item/chainmail_boots/turbine"
