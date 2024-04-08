@@ -1,5 +1,7 @@
 tellraw @s "====================================================="
 
+tellraw @s ""
+tellraw @s [{"translate":"現在のVersion"}," : ",{"translate":"v13.%1$s.%2$s.α2","color":"green","with":[{"storage":"v13alpha:","nbt":"Version.Major"},{"storage":"v13alpha:","nbt":"Version.Minor"}]}]
 execute if data storage main: difficult{world:"picnic"} run tellraw @s [{"translate":"現在の難易度"}," : ",{"translate":"ピクニック","color":"#99CC33"}]
 execute if data storage main: difficult{world:"casual"} run tellraw @s [{"translate":"現在の難易度"}," : ",{"translate":"カジュアル","color":"#FF2A2A"}]
 execute if data storage main: difficult{world:"expert"} run tellraw @s [{"translate":"現在の難易度"}," : ",{"translate":"エキスパート","color":"#932AFF"}]
