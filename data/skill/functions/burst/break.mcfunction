@@ -13,18 +13,18 @@ scoreboard players operation @s Burst /= _ Calc
 ### 剣士８秒＊１０
 execute if score @s Job matches 1 run scoreboard players set _ _ 800
 execute if score @s Job matches 1 run scoreboard players operation @s Burst *= _ _
-### 忍者８秒＊１０
-execute if score @s Job matches 2 run scoreboard players set _ _ 800
+### 忍者１２秒＊１０
+execute if score @s Job matches 2 run scoreboard players set _ _ 1200
 execute if score @s Job matches 2 run scoreboard players operation @s Burst *= _ _
 execute if score @s Job matches 2 run function skill:burst/ninja/act0
-### 狩人４秒＊１０
-execute if score @s Job matches 3 run scoreboard players set _ _ 400
+### 狩人１０秒＊１０
+execute if score @s Job matches 3 run scoreboard players set _ _ 1000
 execute if score @s Job matches 3 run scoreboard players operation @s Burst *= _ _
-### 白魔８秒＊１０
-execute if score @s Job matches 4 run scoreboard players set _ _ 800
+### 白魔１０秒＊１０
+execute if score @s Job matches 4 run scoreboard players set _ _ 1000
 execute if score @s Job matches 4 run scoreboard players operation @s Burst *= _ _
-### 黒魔４秒＊１０
-execute if score @s Job matches 5 run scoreboard players set _ _ 400
+### 黒魔１５秒＊１０
+execute if score @s Job matches 5 run scoreboard players set _ _ 1500
 execute if score @s Job matches 5 run scoreboard players operation @s Burst *= _ _
 ### 召喚２０秒＊１０
 execute if score @s Job matches 6 run scoreboard players set _ _ 2000
