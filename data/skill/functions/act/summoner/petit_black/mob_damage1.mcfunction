@@ -4,4 +4,4 @@
 # 半径計算を行う
     function skill:damage/load
     scoreboard players operation # Calc = @s Interval
-    execute at @s as @e[distance=..10,tag=Enemy] run function skill:act/summoner/petit_black/mob_damage2
+    execute at @s as @e[distance=..6,tag=Enemy] run function skill:act/summoner/petit_black/mob_damage2
