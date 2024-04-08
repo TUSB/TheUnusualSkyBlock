@@ -1,4 +1,7 @@
 
+# バースト強制終了
+execute if score @s Burst matches 1.. run function skill:burst/finish
+
 function job:status/operation_start
 
 # 前の職業のデータをセーブ
