@@ -7,4 +7,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCau
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Step",Speed:1d}],Attack:[{Name:"Damage",Player:{DeathCause:'[{"translate":"%1$sは%2$sの炎によって消し炭となった。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'},Distance:{Max:1d},AEC:{Effects:[{Id:14,Amplifier:3b,Duration:60,ShowParticles:false}]}}]}
 #Function
-playsound minecraft:entity.blaze.shoot hostile @a[distance=..32] ~ ~ ~ 5 0.8 0
+playsound minecraft:entity.blaze.shoot hostile @a[distance=..32] ~ ~ ~ 5 0.4 0
