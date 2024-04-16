@@ -79,31 +79,6 @@
           "name": "item:item/carrot_on_a_stick/mortar"
         },
         {
-          "weight": 2,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/fire_wand"
-        },
-        {
-          "weight": 2,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/ice_wand"
-        },
-        {
-          "weight": 2,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/lightning_wand"
-        },
-        {
-          "weight": 2,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/light_wand"
-        },
-        {
-          "weight": 2,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/dark_wand"
-        },
-        {
           "weight": 3,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/blue_eyes_nantoka_dragon"
