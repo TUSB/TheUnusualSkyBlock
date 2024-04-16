@@ -53,6 +53,3 @@ execute if score _ SpecialAttack matches ..0 run function makeup:skill/act/white
 execute if score _ SpecialAttack matches 1.. run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[Skill,SacredPillar,NativeTask],Duration:1}
 execute if score _ SpecialAttack matches 1.. as @e[tag=SacredPillar,tag=!Initialized,limit=1,distance=..0.01] run function skill:act/white_mage/sacred_pillar/success
 execute if score _ SpecialAttack matches 1.. run function skill:act/white_mage/sacred_pillar/player_damage
-
-#HP回復
-effect give @s minecraft:instant_health 1 20 true
