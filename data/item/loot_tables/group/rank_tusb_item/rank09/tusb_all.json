@@ -44,6 +44,46 @@
           "name": "item:item/diamond_sword/ice_sword"
         },
         {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/5"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/blade/5"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_fire/5"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_ice/5"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_lightning/5"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_light/5"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_dark/5"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/element/5"
+        },
+        {
           "weight": 2,
           "type": "loot_table",
           "name": "item:item/gold_nugget/spirit/4"
@@ -57,6 +97,26 @@
           "weight": 3,
           "type": "loot_table",
           "name": "item:item/gold_nugget/purification/4"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/knockback/5"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/blast_protection/5"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/fire_protection/5"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/feather_falling/5"
         },
         {
           "weight": 3,

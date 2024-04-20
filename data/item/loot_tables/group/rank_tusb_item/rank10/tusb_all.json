@@ -41,7 +41,47 @@
         {
           "weight": 2,
           "type": "loot_table",
+          "name": "item:item/gold_nugget/yin_yang/5"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_fire/5"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_ice/5"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_lightning/5"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_light/5"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_dark/5"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
           "name": "item:item/gold_nugget/kamui/4"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/protection/5"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/projectile_protection/5"
         },
         {
           "weight": 4,
@@ -51,7 +91,27 @@
         {
           "weight": 3,
           "type": "loot_table",
+          "name": "item:item/gold_nugget/life/5"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mana/5"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
           "name": "item:item/gold_nugget/evolution/4"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/wave_of_element/5"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/double_break/5"
         },
         {
           "weight": 3,
