@@ -14,7 +14,9 @@ function skill:practice/act/
 execute if data storage skill: {Success:true} run scoreboard players operation @s MP -= _ MP
 
 #スキルを使ったらMP回復速度を落とす
-execute if data storage skill: {Success:true} if score _ MP matches 1.. run scoreboard players set @s MPAcceleration -600
+execute if data storage skill: {Success:true} unless data storage skill: Skill{Name:"マナリフレッシュ"} if score _ MP matches 1.. run scoreboard players set @s MPAcceleration -600
+# マナリフレッシュ
+execute if data storage skill: Skill{Name:"マナリフレッシュ"} if score _ MP matches 1.. run function skill:act/black_mage/mana_refresh/mp_acceleration
 
 #怪しい粉補正
 execute unless data storage skill: {Success:true} if score @s SuspiciousPowderTime matches 1.. run function skill:act/common/suspicious_powder/use_skill1
