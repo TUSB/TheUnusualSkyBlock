@@ -1,12 +1,8 @@
-#> skill:trigger/set/delete
+#> skill:trigger/delete/delete
 #
 # 手に持っているアイテムのスキル情報を削除する
 #
-# @within function skill:trigger/
-
-# メインハンドのアイテム情報取得
-    data remove storage item: Item
-    data modify storage item: Item set from entity @s SelectedItem
+# @within function skill:trigger/delete/detection
 
 # Lore削除
     function skill:trigger/set/remove_lore
