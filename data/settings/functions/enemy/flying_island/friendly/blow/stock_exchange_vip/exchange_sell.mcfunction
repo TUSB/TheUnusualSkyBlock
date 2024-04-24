@@ -24,12 +24,11 @@ execute unless score # _ matches -1..1 run scoreboard players operation # _ *= @
 # # _が 0 なら3回前の変化の5倍
 execute if score # _ matches 0 store result score _ Calc run data get storage mob_data: StockVillager.StockInfo[-1].History[-4]
 execute if score # _ matches 0 store result score # Calc run data get storage mob_data: StockVillager.StockInfo[-1].History[-3]
-execute if score # _ matches 0 run scoreboard players operation # Calc -= _ Calc
-execute if score # _ matches 0 run scoreboard players set @s _ 5
-execute if score # _ matches 0 if score # Calc matches ..-1 run scoreboard players set @s _ -5
-execute if score # _ matches 0 run scoreboard players operation # Calc *= @s _
-execute if score # _ matches 0 run scoreboard players operation # _ = # Calc
-scoreboard players set @s _ -1
+execute if score # _ matches 0 run scoreboard players operation # Calc -= _ Calc
+execute if score # _ matches 0 store result score _ _ run data get storage mob_data: StockVillager.StockInfo[-1].BuyCount 0.5
+execute if score # _ matches 0 if score # Calc matches ..-1 run scoreboard players operation _ _ *= @s _
+execute if score # _ matches 0 run scoreboard players operation # Calc *= _ _
+execute if score # _ matches 0 run scoreboard players operation # _ = # Calc
 
 #tellraw @a ["影響値: ",{"score":{"name":"#","objective":"_"}}]
 
