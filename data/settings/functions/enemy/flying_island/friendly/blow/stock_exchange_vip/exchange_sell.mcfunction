@@ -21,7 +21,7 @@ scoreboard players operation # _ -= # Calc
 
 # # _が -1 ~ 1 以外なら符号反転
 execute unless score # _ matches -1..1 run scoreboard players operation # _ *= @s _
-# # _が 0 なら3回前の変化の5倍
+# # _が 0 なら3回前の変化のINT(買値/2)倍
 execute if score # _ matches 0 store result score _ Calc run data get storage mob_data: StockVillager.StockInfo[-1].History[-4]
 execute if score # _ matches 0 store result score # Calc run data get storage mob_data: StockVillager.StockInfo[-1].History[-3]
 execute if score # _ matches 0 run scoreboard players operation # Calc -= _ Calc
