@@ -106,11 +106,6 @@
         {
           "weight": 10,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier3_iron_memory_star"
-        },
-        {
-          "weight": 10,
-          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/blood_menace_memory_star"
         },
         {
@@ -234,19 +229,19 @@
           "name": "item:item/iron_axe/tier3_iron_axe"
         },
         {
-          "weight": 22,
+          "weight": 25,
           "type": "loot_table",
-          "name": "item:item/iron_boots/tier3_iron_boots"
+          "name": "item:item/iron_boots/infinity_iron_b"
         },
         {
-          "weight": 22,
+          "weight": 25,
           "type": "loot_table",
-          "name": "item:item/iron_chestplate/tier3_iron_chestplate"
+          "name": "item:item/iron_chestplate/infinity_iron_c"
         },
         {
-          "weight": 22,
+          "weight": 25,
           "type": "loot_table",
-          "name": "item:item/iron_helmet/tier3_iron_helmet"
+          "name": "item:item/iron_helmet/infinity_iron_h"
         },
         {
           "weight": 27,
@@ -254,9 +249,9 @@
           "name": "item:item/iron_hoe/tier3_iron_hoe"
         },
         {
-          "weight": 22,
+          "weight": 25,
           "type": "loot_table",
-          "name": "item:item/iron_leggings/tier3_iron_leggings"
+          "name": "item:item/iron_leggings/infinity_iron_l"
         },
         {
           "weight": 27,

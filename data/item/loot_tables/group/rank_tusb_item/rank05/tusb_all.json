@@ -141,17 +141,12 @@
         {
           "weight": 7,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier5_diamond_memory_star"
-        },
-        {
-          "weight": 7,
-          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/prism_soteira_memory_star"
         },
         {
           "weight": 7,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/infinity_diamond_memory_star"
+          "name": "item:item/carrot_on_a_stick/dragon_mail_memory_star"
         },
         {
           "weight": 12,
@@ -181,27 +176,12 @@
         {
           "weight": 13,
           "type": "loot_table",
-          "name": "item:item/diamond_boots/tier5_diamond_boots"
-        },
-        {
-          "weight": 13,
-          "type": "loot_table",
           "name": "item:item/diamond_boots/dragon_mail_b"
         },
         {
           "weight": 13,
           "type": "loot_table",
-          "name": "item:item/diamond_chestplate/tier5_diamond_chestplate"
-        },
-        {
-          "weight": 13,
-          "type": "loot_table",
           "name": "item:item/diamond_chestplate/dragon_mail_c"
-        },
-        {
-          "weight": 13,
-          "type": "loot_table",
-          "name": "item:item/diamond_helmet/tier5_diamond_helmet"
         },
         {
           "weight": 13,
@@ -212,11 +192,6 @@
           "weight": 7,
           "type": "loot_table",
           "name": "item:item/diamond_hoe/tier5_diamond_hoe"
-        },
-        {
-          "weight": 13,
-          "type": "loot_table",
-          "name": "item:item/diamond_leggings/tier5_diamond_leggings"
         },
         {
           "weight": 13,
@@ -339,34 +314,14 @@
           "name": "item:item/leather_boots/prism_soteira_b"
         },
         {
-          "weight": 40,
-          "type": "loot_table",
-          "name": "item:item/leather_boots/infinity_leather_b"
-        },
-        {
-          "weight": 40,
-          "type": "loot_table",
-          "name": "item:item/leather_chestplate/infinity_leather_c"
-        },
-        {
           "weight": 18,
           "type": "loot_table",
           "name": "item:item/leather_chestplate/prism_soteira_c"
         },
         {
-          "weight": 40,
-          "type": "loot_table",
-          "name": "item:item/leather_helmet/infinity_leather_h"
-        },
-        {
           "weight": 18,
           "type": "loot_table",
           "name": "item:item/leather_helmet/prism_soteira_h"
-        },
-        {
-          "weight": 40,
-          "type": "loot_table",
-          "name": "item:item/leather_leggings/infinity_leather_l"
         },
         {
           "weight": 18,

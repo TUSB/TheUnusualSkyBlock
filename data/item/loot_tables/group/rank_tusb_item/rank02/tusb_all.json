@@ -54,6 +54,16 @@
           "name": "item:item/carrot_on_a_stick/entity/scarecrow_doll"
         },
         {
+          "weight": 14,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/tier3_iron_memory_star"
+        },
+        {
+          "weight": 14,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/infinity_chainmail_memory_star"
+        },
+        {
           "weight": 10,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/usual_diamond_memory_star"
@@ -72,6 +82,26 @@
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/leaves_bug_memory_star"
+        },
+        {
+          "weight": 80,
+          "type": "loot_table",
+          "name": "item:item/chainmail_boots/infinity_chainmail_b"
+        },
+        {
+          "weight": 80,
+          "type": "loot_table",
+          "name": "item:item/chainmail_chestplate/infinity_chainmail_c"
+        },
+        {
+          "weight": 80,
+          "type": "loot_table",
+          "name": "item:item/chainmail_helmet/infinity_chainmail_h"
+        },
+        {
+          "weight": 80,
+          "type": "loot_table",
+          "name": "item:item/chainmail_leggings/infinity_chainmail_l"
         },
         {
           "weight": 26,
@@ -182,6 +212,26 @@
           "weight": 25,
           "type": "loot_table",
           "name": "item:item/iron_axe/subjectstory_axe"
+        },
+        {
+          "weight": 28,
+          "type": "loot_table",
+          "name": "item:item/iron_boots/tier3_iron_boots"
+        },
+        {
+          "weight": 28,
+          "type": "loot_table",
+          "name": "item:item/iron_chestplate/tier3_iron_chestplate"
+        },
+        {
+          "weight": 28,
+          "type": "loot_table",
+          "name": "item:item/iron_helmet/tier3_iron_helmet"
+        },
+        {
+          "weight": 28,
+          "type": "loot_table",
+          "name": "item:item/iron_leggings/tier3_iron_leggings"
         },
         {
           "weight": 28,

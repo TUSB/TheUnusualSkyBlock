@@ -51,22 +51,12 @@
         {
           "weight": 5,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier7_netherite_memory_star"
-        },
-        {
-          "weight": 5,
-          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/phantasma_memory_star"
         },
         {
           "weight": 5,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/yggdrasil_memory_star"
-        },
-        {
-          "weight": 5,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/infinity_netherite_memory_star"
         },
         {
           "weight": 18,
@@ -159,26 +149,6 @@
           "name": "item:item/gold_nugget/feather_falling/4"
         },
         {
-          "weight": 12,
-          "type": "loot_table",
-          "name": "item:item/iron_boots/infinity_iron_b"
-        },
-        {
-          "weight": 12,
-          "type": "loot_table",
-          "name": "item:item/iron_chestplate/infinity_iron_c"
-        },
-        {
-          "weight": 12,
-          "type": "loot_table",
-          "name": "item:item/iron_helmet/infinity_iron_h"
-        },
-        {
-          "weight": 12,
-          "type": "loot_table",
-          "name": "item:item/iron_leggings/infinity_iron_l"
-        },
-        {
           "weight": 2,
           "type": "loot_table",
           "name": "item:item/iron_sword/world_tree_sword"
@@ -234,29 +204,9 @@
           "name": "item:item/netherite_axe/tier7_netherite_axe"
         },
         {
-          "weight": 7,
-          "type": "loot_table",
-          "name": "item:item/netherite_boots/tier7_netherite_boots"
-        },
-        {
-          "weight": 7,
-          "type": "loot_table",
-          "name": "item:item/netherite_chestplate/tier7_netherite_chestplate"
-        },
-        {
-          "weight": 7,
-          "type": "loot_table",
-          "name": "item:item/netherite_helmet/tier7_netherite_helmet"
-        },
-        {
           "weight": 2,
           "type": "loot_table",
           "name": "item:item/netherite_hoe/tier7_netherite_hoe"
-        },
-        {
-          "weight": 7,
-          "type": "loot_table",
-          "name": "item:item/netherite_leggings/tier7_netherite_leggings"
         },
         {
           "weight": 2,

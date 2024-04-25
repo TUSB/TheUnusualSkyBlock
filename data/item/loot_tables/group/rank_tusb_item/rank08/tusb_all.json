@@ -41,27 +41,7 @@
         {
           "weight": 5,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/the_wind_memory_star"
-        },
-        {
-          "weight": 11,
-          "type": "loot_table",
-          "name": "item:item/diamond_boots/infinity_diamond_b"
-        },
-        {
-          "weight": 11,
-          "type": "loot_table",
-          "name": "item:item/diamond_chestplate/infinity_diamond_c"
-        },
-        {
-          "weight": 11,
-          "type": "loot_table",
-          "name": "item:item/diamond_helmet/infinity_diamond_h"
-        },
-        {
-          "weight": 11,
-          "type": "loot_table",
-          "name": "item:item/diamond_leggings/infinity_diamond_l"
+          "name": "item:item/carrot_on_a_stick/infinity_netherite_memory_star"
         },
         {
           "weight": 1,
@@ -164,19 +144,9 @@
           "name": "item:item/leather_boots/pretty_clothes_with_splinter_b"
         },
         {
-          "weight": 21,
-          "type": "loot_table",
-          "name": "item:item/leather_boots/boots_of_the_wind"
-        },
-        {
           "weight": 3,
           "type": "loot_table",
           "name": "item:item/leather_chestplate/pretty_clothes_with_splinter_c"
-        },
-        {
-          "weight": 21,
-          "type": "loot_table",
-          "name": "item:item/leather_chestplate/chest_of_the_wind"
         },
         {
           "weight": 3,
@@ -184,19 +154,9 @@
           "name": "item:item/leather_helmet/pretty_clothes_with_splinter_h"
         },
         {
-          "weight": 21,
-          "type": "loot_table",
-          "name": "item:item/leather_helmet/helmet_of_the_wind"
-        },
-        {
           "weight": 3,
           "type": "loot_table",
           "name": "item:item/leather_leggings/pretty_clothes_with_splinter_l"
-        },
-        {
-          "weight": 21,
-          "type": "loot_table",
-          "name": "item:item/leather_leggings/leggings_of_the_wind"
         },
         {
           "weight": 3,

@@ -49,9 +49,59 @@
           "name": "item:item/carrot_on_a_stick/old_iblis_memory_star"
         },
         {
+          "weight": 8,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/tier5_diamond_memory_star"
+        },
+        {
+          "weight": 8,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/infinity_diamond_memory_star"
+        },
+        {
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/sapling_bug_memory_star"
+        },
+        {
+          "weight": 16,
+          "type": "loot_table",
+          "name": "item:item/diamond_boots/tier5_diamond_boots"
+        },
+        {
+          "weight": 20,
+          "type": "loot_table",
+          "name": "item:item/diamond_boots/infinity_diamond_b"
+        },
+        {
+          "weight": 16,
+          "type": "loot_table",
+          "name": "item:item/diamond_chestplate/tier5_diamond_chestplate"
+        },
+        {
+          "weight": 20,
+          "type": "loot_table",
+          "name": "item:item/diamond_chestplate/infinity_diamond_c"
+        },
+        {
+          "weight": 16,
+          "type": "loot_table",
+          "name": "item:item/diamond_helmet/tier5_diamond_helmet"
+        },
+        {
+          "weight": 20,
+          "type": "loot_table",
+          "name": "item:item/diamond_helmet/infinity_diamond_h"
+        },
+        {
+          "weight": 16,
+          "type": "loot_table",
+          "name": "item:item/diamond_leggings/tier5_diamond_leggings"
+        },
+        {
+          "weight": 20,
+          "type": "loot_table",
+          "name": "item:item/diamond_leggings/infinity_diamond_l"
         },
         {
           "weight": 11,

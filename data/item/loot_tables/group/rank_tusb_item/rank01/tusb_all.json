@@ -131,7 +131,7 @@
         {
           "weight": 19,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/infinity_chainmail_memory_star"
+          "name": "item:item/carrot_on_a_stick/infinity_leather_memory_star"
         },
         {
           "weight": 14,
@@ -277,6 +277,26 @@
           "weight": 44,
           "type": "loot_table",
           "name": "item:item/iron_sword/knight_greatsword"
+        },
+        {
+          "weight": 99,
+          "type": "loot_table",
+          "name": "item:item/leather_boots/infinity_leather_b"
+        },
+        {
+          "weight": 99,
+          "type": "loot_table",
+          "name": "item:item/leather_chestplate/infinity_leather_c"
+        },
+        {
+          "weight": 99,
+          "type": "loot_table",
+          "name": "item:item/leather_helmet/infinity_leather_h"
+        },
+        {
+          "weight": 99,
+          "type": "loot_table",
+          "name": "item:item/leather_leggings/infinity_leather_l"
         },
         {
           "weight": 199,

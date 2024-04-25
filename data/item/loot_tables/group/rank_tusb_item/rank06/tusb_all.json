@@ -51,12 +51,17 @@
         {
           "weight": 6,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/dragon_mail_memory_star"
+          "name": "item:item/carrot_on_a_stick/diving_suit_memory_star"
         },
         {
           "weight": 6,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/diving_suit_memory_star"
+          "name": "item:item/carrot_on_a_stick/tier7_netherite_memory_star"
+        },
+        {
+          "weight": 6,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/the_wind_memory_star"
         },
         {
           "weight": 5,
@@ -67,26 +72,6 @@
           "weight": 5,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/arrow_of_defilement_lv2_memory_star"
-        },
-        {
-          "weight": 33,
-          "type": "loot_table",
-          "name": "item:item/chainmail_boots/infinity_chainmail_b"
-        },
-        {
-          "weight": 33,
-          "type": "loot_table",
-          "name": "item:item/chainmail_chestplate/infinity_chainmail_c"
-        },
-        {
-          "weight": 33,
-          "type": "loot_table",
-          "name": "item:item/chainmail_helmet/infinity_chainmail_h"
-        },
-        {
-          "weight": 33,
-          "type": "loot_table",
-          "name": "item:item/chainmail_leggings/infinity_chainmail_l"
         },
         {
           "weight": 6,
@@ -199,9 +184,19 @@
           "name": "item:item/leather_boots/diving_suit_b"
         },
         {
+          "weight": 27,
+          "type": "loot_table",
+          "name": "item:item/leather_boots/boots_of_the_wind"
+        },
+        {
           "weight": 10,
           "type": "loot_table",
           "name": "item:item/leather_chestplate/diving_suit_c"
+        },
+        {
+          "weight": 27,
+          "type": "loot_table",
+          "name": "item:item/leather_chestplate/chest_of_the_wind"
         },
         {
           "weight": 10,
@@ -209,9 +204,19 @@
           "name": "item:item/leather_helmet/diving_suit_h"
         },
         {
+          "weight": 27,
+          "type": "loot_table",
+          "name": "item:item/leather_helmet/helmet_of_the_wind"
+        },
+        {
           "weight": 10,
           "type": "loot_table",
           "name": "item:item/leather_leggings/diving_suit_l"
+        },
+        {
+          "weight": 27,
+          "type": "loot_table",
+          "name": "item:item/leather_leggings/leggings_of_the_wind"
         },
         {
           "weight": 4,
@@ -244,9 +249,29 @@
           "name": "item:item/magma_cube_spawn_egg/sign/summoner_soul"
         },
         {
+          "weight": 7,
+          "type": "loot_table",
+          "name": "item:item/netherite_boots/tier7_netherite_boots"
+        },
+        {
           "weight": 3,
           "type": "loot_table",
           "name": "item:item/netherite_boots/heavy_boots"
+        },
+        {
+          "weight": 7,
+          "type": "loot_table",
+          "name": "item:item/netherite_chestplate/tier7_netherite_chestplate"
+        },
+        {
+          "weight": 7,
+          "type": "loot_table",
+          "name": "item:item/netherite_helmet/tier7_netherite_helmet"
+        },
+        {
+          "weight": 7,
+          "type": "loot_table",
+          "name": "item:item/netherite_leggings/tier7_netherite_leggings"
         },
         {
           "weight": 31,
