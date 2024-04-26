@@ -43,7 +43,7 @@ scoreboard objectives add LastFoodLevel dummy {"text":"直前満腹度"}
 scoreboard objectives add Luck dummy {"text":"幸運"}
 scoreboard objectives add StoredDamage dummy {"text":"累積ダメージ"}
 scoreboard objectives add Health health {"text":"HP"}
-scoreboard objectives setdisplay belowName Health
+scoreboard objectives setdisplay below_name Health
 scoreboard objectives add NativeFlag dummy {"text":"常時実行フラグ"}
 
 ###アイテム

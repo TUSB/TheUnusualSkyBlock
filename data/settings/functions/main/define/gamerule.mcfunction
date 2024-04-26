@@ -43,3 +43,8 @@ gamerule logAdminCommands true
 gamerule spectatorsGenerateChunks true
 execute unless data storage main: {debug:1b} run gamerule sendCommandFeedback false
 gamerule doPatrolSpawning true
+gamerule enderPearlsVanishOnDeath true
+gamerule maxCommandForkCount 1048576
+gamerule playersNetherPortalCreativeDelay 1
+gamerule playersNetherPortalDefaultDelay 80
+gamerule projectilesCanBreakBlocks true
