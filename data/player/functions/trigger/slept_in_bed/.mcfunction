@@ -4,7 +4,7 @@
 # 全員ベッドの上なら朝にする
 scoreboard players set _ _ 1
 execute as @a at @s unless block ~ ~ ~ #beds run scoreboard players set _ _ 0
-execute if score _ _ matches 1 if data storage area: capture.skylands{011:true} run schedule function player:trigger/slept_in_bed/change_time 5s replace
+execute if score _ _ matches 1 if data storage area: capture.skylands{011:1} run schedule function player:trigger/slept_in_bed/change_time 5s replace
 
 # Tips表示
 function player:tips/show
