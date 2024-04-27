@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:12,display:{Name:'{\"translate\":\"ネルマイリザンター\",\"color\":\"gray\",\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"#FFAD00\",\"italic\":false},{\"translate\":\"%1$s%2$s(III)\",\"color\":\"white\",\"with\":[{\"translate\":\"雷の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"「ネルマイの儀」という儀式に使われた弓\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"雷を呼ぶ過酷な儀だったと伝えられている。\",\"color\":\"gray\",\"italic\":false}']},Engraving:{EnchantID:\"雷\",Tier:3},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:44d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:4.2d,Operation:0,UUID:[I;11,0,0,60],Slot:\"mainhand\"}]}"
+              "tag": "{CustomModelData:12,display:{Name:'{\"translate\":\"ネルマイリザンター\",\"color\":\"gray\",\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"#FFAD00\",\"italic\":false},{\"translate\":\"%1$s%2$s(III)\",\"color\":\"white\",\"with\":[{\"translate\":\"雷の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"「ネルマイの儀」という儀式に使われた弓\",\"color\":\"gray\",\"italic\":false}','{\"translate\":\"雷を呼ぶ過酷な儀だったと伝えられている。\",\"color\":\"gray\",\"italic\":false}']},Engraving:{EnchantID:\"雷\",Tier:3},AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:118d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:4.2d,Operation:0,UUID:[I;11,0,0,60],Slot:\"mainhand\"}]}"
             }
           ]
         }

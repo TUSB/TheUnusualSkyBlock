@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2,display:{Name:'{\"translate\":\"疑似餌付き釣り竿\",\"color\":\"#4A86E8\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"aqua\",\"italic\":false},{\"translate\":\"%1$s%2$s(II)\",\"color\":\"white\",\"with\":[{\"translate\":\"練餌の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"おもちゃのような疑似餌の付いた釣り竿\",\"color\":\"white\",\"italic\":false}']},Engraving:{EnchantID:\"練餌\",Tier:2}}"
+              "tag": "{CustomModelData:2,display:{Name:'{\"translate\":\"疑似餌付き釣り竿\",\"color\":\"#4A86E8\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"aqua\",\"italic\":false},{\"translate\":\"%1$s%2$s(II)\",\"color\":\"white\",\"with\":[{\"translate\":\"練餌の\"},{\"translate\":\"刻印\"}]}]','{\"translate\":\"おもちゃのような疑似餌の付いた釣り竿\",\"color\":\"white\",\"italic\":false}','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" サモンS：フレンドフィッシュズ\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Engraving:{EnchantID:\"練餌\",Tier:2},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"サモンSフレンドフィッシュズ\",Level:1,Interval:600,Trigger:\"スニークする\",Count:16},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:0.15d,Operation:1,UUID:[I;11,0,0,31],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:45d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:15d,Operation:0,UUID:[I;11,0,0,50],Slot:\"mainhand\"}]}"
             }
           ]
         }

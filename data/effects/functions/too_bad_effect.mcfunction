@@ -1,6 +1,8 @@
 
 ### 特殊デバフ処理
 
+execute if entity @a[distance=..32,scores={Burst=0..,Job=4}] run scoreboard players set @s ResistLock 1
+
 execute unless score @s ResistLock matches 1 unless score _ ResistEffects < @s ResistEffects run scoreboard players add @s ResistEffects 5
 execute unless score @s ResistLock matches 1 if score _ ResistEffects < @s ResistEffects run function makeup:effects/too_bad_effect
 execute if score _ ResistEffects < @s ResistEffects run advancement revoke @s only effects:invisible
@@ -18,3 +20,5 @@ execute if entity @s[advancements={effects:invisible={virus=true}}] unless score
 execute if entity @s[advancements={effects:invisible={tnt=true}}] unless score @s TntCount matches 0.. run function effects:tnt/apply
 execute if entity @s[advancements={effects:invisible={pale=true}}] unless score @s PaleLevel matches ..-1 unless score @s PaleLevel matches 9.. run function effects:pale/apply
 execute if entity @s[advancements={effects:invisible={debility=true}}] run function effects:debility/condition
+
+execute if entity @a[distance=..32,scores={Burst=0..,Job=4}] run function skill:act/white_mage/clear/cure/level4

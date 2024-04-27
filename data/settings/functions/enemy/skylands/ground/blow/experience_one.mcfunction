@@ -20,5 +20,5 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Item:{id:"minecraft:nether_star",tag:{display:{Name:'{"translate":"勇敢なる者の証。","color":"gold","bold":true}'}}},Count:1,Chance:0.3d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Item:{id:"minecraft:nether_star",tag:{display:{Name:'{"translate":"勇敢なる者の証。","color":"gold","bold":true}'}}},Count:1,Chance:0.2d},{Loot:"item:item/firework_star/etc/trap_break_container_spawn_black_teleport_pot",Count:1,Chance:0.15d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"やべぇところに来ちゃったなぁ・・・帰りてぇ・・・","with":[{"translate":"【能力：なし】","color":"#00FF00"}]}]'

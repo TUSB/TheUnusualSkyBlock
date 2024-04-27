@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 4096,
+          "type": "loot_table",
+          "name": "item:group/treasure_items/rank01/vanilla_tusb_mix"
+        },
+        {
+          "weight": 512,
+          "type": "loot_table",
+          "name": "item:group/treasure_items/rank02/vanilla_tusb_mix"
+        },
+        {
+          "weight": 128,
+          "type": "loot_table",
+          "name": "item:group/treasure_items/rank03/vanilla_tusb_mix"
+        },
+        {
+          "weight": 64,
+          "type": "loot_table",
+          "name": "item:group/treasure_items/rank04/vanilla_tusb_mix"
+        },
+        {
+          "weight": 32,
+          "type": "loot_table",
+          "name": "item:group/treasure_items/rank05/vanilla_tusb_mix"
+        },
+        {
+          "weight": 16,
+          "type": "loot_table",
+          "name": "item:group/treasure_items/rank06/vanilla_tusb_mix"
+        },
+        {
+          "weight": 8,
+          "type": "loot_table",
+          "name": "item:group/treasure_items/rank07/vanilla_tusb_mix"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:group/treasure_items/rank08/vanilla_tusb_mix"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:group/treasure_items/rank09/vanilla_tusb_mix"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/treasure_items/rank10/vanilla_tusb_mix"
+        }
+      ]
+    }
+  ]
+}

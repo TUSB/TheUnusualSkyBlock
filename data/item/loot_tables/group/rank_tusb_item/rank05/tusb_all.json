@@ -4,212 +4,217 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 6,
+          "weight": 9,
           "type": "loot_table",
           "name": "item:item/bow/tier5_bow"
         },
         {
-          "weight": 7,
+          "weight": 14,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/tier5_carrot_on_a_stick"
         },
         {
-          "weight": 5,
+          "weight": 10,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/red_carrot"
         },
         {
-          "weight": 2,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/area_high_ether"
         },
         {
-          "weight": 2,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/last_elixir"
         },
         {
-          "weight": 2,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/high_immunity"
         },
         {
-          "weight": 2,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/synthetic_narcotics_rta"
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/sword_of_oath"
         },
         {
           "weight": 2,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/sun"
+          "name": "item:item/carrot_on_a_stick/fire_wand"
         },
         {
           "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/ice_wand"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/lightning_wand"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/light_wand"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/dark_wand"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/sun"
+        },
+        {
+          "weight": 1,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/moon"
         },
         {
-          "weight": 3,
+          "weight": 6,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/forbidden_book"
         },
         {
-          "weight": 2,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/non_disadvantage"
         },
         {
-          "weight": 4,
+          "weight": 9,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/corn_soup_pot"
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/blue_purple_mushrooms"
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/gold_mushrooms"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/weapon/burn_debaria"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/weapon/freeze_debaria"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/weapon/paralyze_debaria"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/weapon/confusion_debaria"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/weapon/disease_debaria"
         },
         {
-          "weight": 2,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/entity/sun_eater"
         },
         {
-          "weight": 2,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/entity/jumping_board"
         },
         {
-          "weight": 3,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier5_diamond_memory_star"
-        },
-        {
-          "weight": 3,
+          "weight": 7,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/prism_soteira_memory_star"
         },
         {
-          "weight": 6,
+          "weight": 7,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/dragon_mail_memory_star"
+        },
+        {
+          "weight": 12,
           "type": "loot_table",
           "name": "item:item/chainmail_boots/turbine"
         },
         {
-          "weight": 7,
+          "weight": 12,
           "type": "loot_table",
           "name": "item:item/crossbow/tier5_crossbow"
         },
         {
-          "weight": 5,
+          "weight": 9,
           "type": "loot_table",
           "name": "item:item/crossbow/volcanic_cannon"
         },
         {
-          "weight": 3,
+          "weight": 7,
           "type": "loot_table",
           "name": "item:item/diamond_axe/tier5_diamond_axe"
         },
         {
-          "weight": 8,
+          "weight": 17,
           "type": "loot_table",
           "name": "item:item/diamond_axe/death_scythe"
         },
         {
-          "weight": 7,
-          "type": "loot_table",
-          "name": "item:item/diamond_boots/tier5_diamond_boots"
-        },
-        {
-          "weight": 7,
+          "weight": 13,
           "type": "loot_table",
           "name": "item:item/diamond_boots/dragon_mail_b"
         },
         {
-          "weight": 7,
-          "type": "loot_table",
-          "name": "item:item/diamond_chestplate/tier5_diamond_chestplate"
-        },
-        {
-          "weight": 7,
+          "weight": 13,
           "type": "loot_table",
           "name": "item:item/diamond_chestplate/dragon_mail_c"
         },
         {
-          "weight": 7,
-          "type": "loot_table",
-          "name": "item:item/diamond_helmet/tier5_diamond_helmet"
-        },
-        {
-          "weight": 7,
+          "weight": 13,
           "type": "loot_table",
           "name": "item:item/diamond_helmet/dragon_mail_h"
         },
         {
-          "weight": 3,
+          "weight": 7,
           "type": "loot_table",
           "name": "item:item/diamond_hoe/tier5_diamond_hoe"
         },
         {
-          "weight": 7,
-          "type": "loot_table",
-          "name": "item:item/diamond_leggings/tier5_diamond_leggings"
-        },
-        {
-          "weight": 7,
+          "weight": 13,
           "type": "loot_table",
           "name": "item:item/diamond_leggings/dragon_mail_l"
         },
         {
-          "weight": 3,
+          "weight": 7,
           "type": "loot_table",
           "name": "item:item/diamond_pickaxe/tier5_diamond_pickaxe"
         },
         {
-          "weight": 3,
+          "weight": 7,
           "type": "loot_table",
           "name": "item:item/diamond_shovel/tier5_diamond_shovel"
         },
         {
-          "weight": 3,
+          "weight": 7,
           "type": "loot_table",
           "name": "item:item/diamond_sword/tier5_diamond_sword"
         },
         {
-          "weight": 11,
+          "weight": 22,
           "type": "loot_table",
           "name": "item:item/dragon_head/vakhtang_golgasari"
         },
@@ -219,132 +224,112 @@
           "name": "item:item/elytra/strong_wings"
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/firework_star/entity/magic_vegetable_yasaosan"
         },
         {
-          "weight": 6,
+          "weight": 11,
           "type": "loot_table",
           "name": "item:item/gold_nugget/mystery/3"
         },
         {
-          "weight": 6,
+          "weight": 11,
           "type": "loot_table",
           "name": "item:item/gold_nugget/blade/3"
         },
         {
-          "weight": 6,
+          "weight": 11,
           "type": "loot_table",
           "name": "item:item/gold_nugget/add_fire/3"
         },
         {
-          "weight": 6,
+          "weight": 11,
           "type": "loot_table",
           "name": "item:item/gold_nugget/add_ice/3"
         },
         {
-          "weight": 6,
+          "weight": 11,
           "type": "loot_table",
           "name": "item:item/gold_nugget/add_lightning/3"
         },
         {
-          "weight": 6,
+          "weight": 11,
           "type": "loot_table",
           "name": "item:item/gold_nugget/add_light/3"
         },
         {
-          "weight": 6,
+          "weight": 11,
           "type": "loot_table",
           "name": "item:item/gold_nugget/add_dark/3"
         },
         {
-          "weight": 2,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/gold_nugget/spirit/2"
         },
         {
-          "weight": 4,
+          "weight": 8,
           "type": "loot_table",
           "name": "item:item/gold_nugget/philosopher/2"
         },
         {
-          "weight": 4,
+          "weight": 8,
           "type": "loot_table",
           "name": "item:item/gold_nugget/purification/2"
         },
         {
-          "weight": 6,
+          "weight": 11,
           "type": "loot_table",
           "name": "item:item/gold_nugget/knockback/3"
         },
         {
-          "weight": 6,
+          "weight": 11,
           "type": "loot_table",
           "name": "item:item/gold_nugget/blast_protection/3"
         },
         {
-          "weight": 6,
+          "weight": 11,
           "type": "loot_table",
           "name": "item:item/gold_nugget/fire_protection/3"
         },
         {
-          "weight": 6,
+          "weight": 11,
           "type": "loot_table",
           "name": "item:item/gold_nugget/feather_falling/3"
         },
         {
-          "weight": 9,
+          "weight": 18,
           "type": "loot_table",
           "name": "item:item/golden_sword/legendary_treasure_sword"
         },
         {
-          "weight": 3,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/iron_sword/monohosizao"
         },
         {
-          "weight": 9,
+          "weight": 18,
           "type": "loot_table",
           "name": "item:item/leather_boots/prism_soteira_b"
         },
         {
-          "weight": 20,
-          "type": "loot_table",
-          "name": "item:item/leather_boots/infinity_leather_b"
-        },
-        {
-          "weight": 20,
-          "type": "loot_table",
-          "name": "item:item/leather_chestplate/infinity_leather_c"
-        },
-        {
-          "weight": 9,
+          "weight": 18,
           "type": "loot_table",
           "name": "item:item/leather_chestplate/prism_soteira_c"
         },
         {
-          "weight": 20,
-          "type": "loot_table",
-          "name": "item:item/leather_helmet/infinity_leather_h"
-        },
-        {
-          "weight": 9,
+          "weight": 18,
           "type": "loot_table",
           "name": "item:item/leather_helmet/prism_soteira_h"
         },
         {
-          "weight": 20,
-          "type": "loot_table",
-          "name": "item:item/leather_leggings/infinity_leather_l"
-        },
-        {
-          "weight": 9,
+          "weight": 18,
           "type": "loot_table",
           "name": "item:item/leather_leggings/prism_soteira_l"
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/magma_cube_spawn_egg/sign/trade"
         },
@@ -354,147 +339,112 @@
           "name": "item:item/magma_cube_spawn_egg/sign/teleport"
         },
         {
-          "weight": 3,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/magma_cube_spawn_egg/sign/break_log"
         },
         {
-          "weight": 3,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/magma_cube_spawn_egg/sign/break_gravel"
         },
         {
-          "weight": 3,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/magma_cube_spawn_egg/sign/break_cobweb"
         },
         {
-          "weight": 3,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/magma_cube_spawn_egg/sign/break_cobblestone"
         },
         {
-          "weight": 3,
-          "type": "loot_table",
-          "name": "item:item/magma_cube_spawn_egg/sign/harvest_wheat"
-        },
-        {
-          "weight": 3,
-          "type": "loot_table",
-          "name": "item:item/magma_cube_spawn_egg/sign/harvest_potato"
-        },
-        {
-          "weight": 3,
-          "type": "loot_table",
-          "name": "item:item/magma_cube_spawn_egg/sign/harvest_carrot"
-        },
-        {
-          "weight": 3,
-          "type": "loot_table",
-          "name": "item:item/magma_cube_spawn_egg/sign/harvest_beetroot"
-        },
-        {
-          "weight": 3,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/magma_cube_spawn_egg/sign/upgrade_white"
         },
         {
-          "weight": 3,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/magma_cube_spawn_egg/sign/upgrade_black"
         },
         {
-          "weight": 3,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/magma_cube_spawn_egg/sign/very_glow"
         },
         {
-          "weight": 3,
-          "type": "loot_table",
-          "name": "item:item/magma_cube_spawn_egg/sign/harvest_nether_wart"
-        },
-        {
-          "weight": 4,
+          "weight": 8,
           "type": "loot_table",
           "name": "item:item/netherite_axe/strong_meat"
         },
         {
-          "weight": 18,
+          "weight": 36,
           "type": "loot_table",
           "name": "item:item/shield/tier5_shield"
         },
         {
-          "weight": 7,
+          "weight": 14,
           "type": "loot_table",
           "name": "item:item/shield/tatami"
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/shield/spooky_shield"
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/shield/windmill_shield"
         },
         {
-          "weight": 25,
+          "weight": 50,
           "type": "loot_table",
           "name": "item:item/stone_axe/fountain_axe"
         },
         {
-          "weight": 12,
+          "weight": 23,
           "type": "loot_table",
           "name": "item:item/stone_sword/dillen_wise"
         },
         {
-          "weight": 3,
+          "weight": 7,
           "type": "loot_table",
           "name": "item:item/stone_sword/gram_sword"
         },
         {
           "weight": 6,
           "type": "loot_table",
-          "name": "item:item/tipped_arrow/arrow_of_prayer_lv2"
-        },
-        {
-          "weight": 6,
-          "type": "loot_table",
-          "name": "item:item/tipped_arrow/arrow_of_defilement_lv2"
-        },
-        {
-          "weight": 3,
-          "type": "loot_table",
           "name": "item:item/trident/tier5_trident"
         },
         {
-          "weight": 7,
+          "weight": 13,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/top_hat"
         },
         {
-          "weight": 8,
+          "weight": 17,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/red_hair_bow"
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/the_game_over"
         },
         {
-          "weight": 2,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/butlers_glasses"
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/safety_helmet"
         },
         {
-          "weight": 2,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/wooden_sword/powerful_fish"
         }

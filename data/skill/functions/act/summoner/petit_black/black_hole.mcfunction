@@ -3,7 +3,7 @@
 # 経過時間加算
     scoreboard players add @s Interval 1
 # ぷちブラックCMD調整
-    execute if score @s Interval matches 1 on passengers run data merge entity @s {start_interpolation:-1,interpolation_duration:100,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,5f,5f]}}
+    execute if score @s Interval matches 3 on passengers run data merge entity @s {start_interpolation:-1,interpolation_duration:97,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[5f,5f,5f]}}
     execute if score @s Interval matches 100 on passengers run data merge entity @s {start_interpolation:-1,interpolation_duration:10,transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0f,0f],scale:[0f,0f,0f]}}
     execute if score @s Interval matches 110.. on passengers run kill @s
 # 演出

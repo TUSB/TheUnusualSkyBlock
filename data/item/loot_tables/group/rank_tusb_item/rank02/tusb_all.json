@@ -4,257 +4,312 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 15,
+          "weight": 25,
           "type": "loot_table",
           "name": "item:item/bow/water_break"
         },
         {
-          "weight": 3,
+          "weight": 6,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/doni"
         },
         {
-          "weight": 2,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/arcadia"
         },
         {
-          "weight": 16,
+          "weight": 33,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/ether"
         },
         {
-          "weight": 6,
+          "weight": 13,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/cure_vile_ether_field"
         },
         {
-          "weight": 10,
+          "weight": 20,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/cold_pumpkin_soup"
         },
         {
-          "weight": 6,
+          "weight": 13,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/fluffy"
         },
         {
-          "weight": 10,
+          "weight": 21,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/contraindicated_hell_drop"
         },
         {
-          "weight": 5,
+          "weight": 10,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/green_mushrooms"
         },
         {
-          "weight": 40,
+          "weight": 80,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/entity/scarecrow_doll"
         },
         {
-          "weight": 2,
+          "weight": 14,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/carrot_on_a_stick_memory_star"
-        },
-        {
-          "weight": 13,
-          "type": "loot_table",
-          "name": "item:item/diamond_axe/tomahawk"
-        },
-        {
-          "weight": 20,
-          "type": "loot_table",
-          "name": "item:item/firework_star/entity/magic_cannon_salute_donchian"
-        },
-        {
-          "weight": 22,
-          "type": "loot_table",
-          "name": "item:item/fishing_rod/fishing_rod_with_false_bait"
-        },
-        {
-          "weight": 12,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/element/1"
-        },
-        {
-          "weight": 12,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/yin_yang/1"
-        },
-        {
-          "weight": 25,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/boost_fire/1"
-        },
-        {
-          "weight": 25,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/boost_ice/1"
-        },
-        {
-          "weight": 25,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/boost_lightning/1"
-        },
-        {
-          "weight": 25,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/boost_light/1"
-        },
-        {
-          "weight": 25,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/boost_dark/1"
-        },
-        {
-          "weight": 25,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/protection/1"
-        },
-        {
-          "weight": 25,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/projectile_protection/1"
-        },
-        {
-          "weight": 25,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/life/1"
-        },
-        {
-          "weight": 25,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/mana/1"
-        },
-        {
-          "weight": 25,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/wave_of_element/1"
-        },
-        {
-          "weight": 25,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/double_break/1"
-        },
-        {
-          "weight": 25,
-          "type": "loot_table",
-          "name": "item:item/golden_apple/edible_gold"
-        },
-        {
-          "weight": 25,
-          "type": "loot_table",
-          "name": "item:item/golden_apple/edible_iron"
-        },
-        {
-          "weight": 25,
-          "type": "loot_table",
-          "name": "item:item/golden_apple/edible_copper"
-        },
-        {
-          "weight": 25,
-          "type": "loot_table",
-          "name": "item:item/golden_apple/redstone_onigiri"
-        },
-        {
-          "weight": 11,
-          "type": "loot_table",
-          "name": "item:item/iron_axe/fountain_silver_axe"
-        },
-        {
-          "weight": 12,
-          "type": "loot_table",
-          "name": "item:item/iron_axe/subjectstory_axe"
+          "name": "item:item/carrot_on_a_stick/tier3_iron_memory_star"
         },
         {
           "weight": 14,
           "type": "loot_table",
-          "name": "item:item/shears/shears"
-        },
-        {
-          "weight": 4,
-          "type": "loot_table",
-          "name": "item:item/shield/ikachan_body_pillow"
-        },
-        {
-          "weight": 33,
-          "type": "loot_table",
-          "name": "item:item/shield/red_signal"
-        },
-        {
-          "weight": 7,
-          "type": "loot_table",
-          "name": "item:item/shield/bone_shield"
-        },
-        {
-          "weight": 50,
-          "type": "loot_table",
-          "name": "item:item/shield/diamond_shield"
-        },
-        {
-          "weight": 4,
-          "type": "loot_table",
-          "name": "item:item/shield/knight_shield"
-        },
-        {
-          "weight": 3,
-          "type": "loot_table",
-          "name": "item:item/shield/black_mage_shield"
-        },
-        {
-          "weight": 4,
-          "type": "loot_table",
-          "name": "item:item/shield/hunter_shield"
-        },
-        {
-          "weight": 8,
-          "type": "loot_table",
-          "name": "item:item/shield/summoner_shield"
-        },
-        {
-          "weight": 3,
-          "type": "loot_table",
-          "name": "item:item/shield/spider_web_shield"
-        },
-        {
-          "weight": 9,
-          "type": "loot_table",
-          "name": "item:item/shield/ninja_shield"
-        },
-        {
-          "weight": 4,
-          "type": "loot_table",
-          "name": "item:item/shield/white_mage_shield"
+          "name": "item:item/carrot_on_a_stick/infinity_chainmail_memory_star"
         },
         {
           "weight": 10,
           "type": "loot_table",
-          "name": "item:item/stone_axe/kelp_fossil"
-        },
-        {
-          "weight": 9,
-          "type": "loot_table",
-          "name": "item:item/tipped_arrow/arrow_of_prayer_lv1"
-        },
-        {
-          "weight": 9,
-          "type": "loot_table",
-          "name": "item:item/tipped_arrow/arrow_of_defilement_lv1"
+          "name": "item:item/carrot_on_a_stick/usual_diamond_memory_star"
         },
         {
           "weight": 5,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/carrot_on_a_stick_bug_memory_star"
+        },
+        {
+          "weight": 25,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/shulker_box_bug_memory_star"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/leaves_bug_memory_star"
+        },
+        {
+          "weight": 80,
+          "type": "loot_table",
+          "name": "item:item/chainmail_boots/infinity_chainmail_b"
+        },
+        {
+          "weight": 80,
+          "type": "loot_table",
+          "name": "item:item/chainmail_chestplate/infinity_chainmail_c"
+        },
+        {
+          "weight": 80,
+          "type": "loot_table",
+          "name": "item:item/chainmail_helmet/infinity_chainmail_h"
+        },
+        {
+          "weight": 80,
+          "type": "loot_table",
+          "name": "item:item/chainmail_leggings/infinity_chainmail_l"
+        },
+        {
+          "weight": 26,
+          "type": "loot_table",
+          "name": "item:item/diamond_axe/tomahawk"
+        },
+        {
+          "weight": 40,
+          "type": "loot_table",
+          "name": "item:item/firework_star/entity/magic_cannon_salute_donchian"
+        },
+        {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "item:item/fishing_rod/fishing_rod_with_false_bait"
+        },
+        {
+          "weight": 25,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/element/1"
+        },
+        {
+          "weight": 25,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/yin_yang/1"
+        },
+        {
+          "weight": 50,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_fire/1"
+        },
+        {
+          "weight": 50,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_ice/1"
+        },
+        {
+          "weight": 50,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_lightning/1"
+        },
+        {
+          "weight": 50,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_light/1"
+        },
+        {
+          "weight": 50,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_dark/1"
+        },
+        {
+          "weight": 50,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/protection/1"
+        },
+        {
+          "weight": 50,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/projectile_protection/1"
+        },
+        {
+          "weight": 50,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/life/1"
+        },
+        {
+          "weight": 50,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mana/1"
+        },
+        {
+          "weight": 50,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/wave_of_element/1"
+        },
+        {
+          "weight": 50,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/double_break/1"
+        },
+        {
+          "weight": 50,
+          "type": "loot_table",
+          "name": "item:item/golden_apple/edible_gold"
+        },
+        {
+          "weight": 50,
+          "type": "loot_table",
+          "name": "item:item/golden_apple/edible_iron"
+        },
+        {
+          "weight": 50,
+          "type": "loot_table",
+          "name": "item:item/golden_apple/edible_copper"
+        },
+        {
+          "weight": 50,
+          "type": "loot_table",
+          "name": "item:item/golden_apple/redstone_onigiri"
+        },
+        {
+          "weight": 22,
+          "type": "loot_table",
+          "name": "item:item/iron_axe/fountain_silver_axe"
+        },
+        {
+          "weight": 25,
+          "type": "loot_table",
+          "name": "item:item/iron_axe/subjectstory_axe"
+        },
+        {
+          "weight": 28,
+          "type": "loot_table",
+          "name": "item:item/iron_boots/tier3_iron_boots"
+        },
+        {
+          "weight": 28,
+          "type": "loot_table",
+          "name": "item:item/iron_chestplate/tier3_iron_chestplate"
+        },
+        {
+          "weight": 28,
+          "type": "loot_table",
+          "name": "item:item/iron_helmet/tier3_iron_helmet"
+        },
+        {
+          "weight": 28,
+          "type": "loot_table",
+          "name": "item:item/iron_leggings/tier3_iron_leggings"
+        },
+        {
+          "weight": 28,
+          "type": "loot_table",
+          "name": "item:item/shears/shears"
+        },
+        {
+          "weight": 9,
+          "type": "loot_table",
+          "name": "item:item/shield/ikachan_body_pillow"
+        },
+        {
+          "weight": 66,
+          "type": "loot_table",
+          "name": "item:item/shield/red_signal"
+        },
+        {
+          "weight": 14,
+          "type": "loot_table",
+          "name": "item:item/shield/bone_shield"
+        },
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "item:item/shield/diamond_shield"
+        },
+        {
+          "weight": 8,
+          "type": "loot_table",
+          "name": "item:item/shield/knight_shield"
+        },
+        {
+          "weight": 7,
+          "type": "loot_table",
+          "name": "item:item/shield/black_mage_shield"
+        },
+        {
+          "weight": 8,
+          "type": "loot_table",
+          "name": "item:item/shield/hunter_shield"
+        },
+        {
+          "weight": 15,
+          "type": "loot_table",
+          "name": "item:item/shield/summoner_shield"
+        },
+        {
+          "weight": 7,
+          "type": "loot_table",
+          "name": "item:item/shield/spider_web_shield"
+        },
+        {
+          "weight": 19,
+          "type": "loot_table",
+          "name": "item:item/shield/ninja_shield"
+        },
+        {
+          "weight": 8,
+          "type": "loot_table",
+          "name": "item:item/shield/white_mage_shield"
+        },
+        {
+          "weight": 14,
+          "type": "loot_table",
+          "name": "item:item/stone_axe/kelp_fossil"
+        },
+        {
+          "weight": 11,
+          "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/villager_nose"
         },
         {
-          "weight": 3,
+          "weight": 6,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/glasses"
         },
         {
-          "weight": 14,
+          "weight": 28,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/who_dropped_items_into_abyss"
         }
