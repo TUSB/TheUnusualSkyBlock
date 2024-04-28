@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:firework_star",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:4002,BreakContainer:true,HideFlags:32,SpawnEntities:[[{Tags:[Global,Ground,Summon,BlackTeleportPot,Main,SpawnParticles],Level:1000}]],Explosion:{Type:0b,Colors:[I;2829099]},display:{Name:'{\"translate\":\"破壊召喚の罠「ブラックテレポット」\",\"color\":\"#FF003F\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"このアイテムが地面に落ちた時、\",\"color\":\"#FF0029\"}','{\"translate\":\"アイテム名のモンスターが召喚される。\",\"color\":\"#FF0029\"}','{\"translate\":\"またチェスト類の中に紛れている場合、\",\"color\":\"#FF0029\"}','{\"translate\":\"開いた瞬間にモンスターを召喚する。\",\"color\":\"#FF0029\"}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

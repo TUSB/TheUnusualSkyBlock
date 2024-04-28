@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{display:{Name:'{\"translate\":\"ヘビーブーツ\",\"color\":\"#9FA3A8\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"重すぎて鈍足になる靴。\",\"color\":\"#D60047\",\"italic\":false}','{\"translate\":\"素早すぎて踏み外しやすい方にオススメ。\",\"color\":\"#D60047\"}']},AttributeModifiers:[{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:0.9d,Operation:1,UUID:[I;24,0,0,21],Slot:\"feet\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:-0.5d,Operation:2,UUID:[I;24,0,0,32],Slot:\"feet\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:1d,Operation:0,UUID:[I;24,0,0,60],Slot:\"feet\"},{AttributeName:\"generic.armor_toughness\",Name:\"カスタム\",Amount:3d,Operation:0,UUID:[I;24,0,0,70],Slot:\"feet\"},{AttributeName:\"generic.luck\",Name:\"カスタム\",Amount:3d,Operation:0,UUID:[I;24,0,0,80],Slot:\"feet\"},{AttributeName:\"generic.knockback_resistance\",Name:\"デフォルト\",Amount:1,Operation:0,UUID:[I;24,0,1,20],Slot:\"feet\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

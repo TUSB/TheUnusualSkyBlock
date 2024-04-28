@@ -180,8 +180,7 @@ function settings:effects/too_bad_effects
 
 ###コントロールエリア設定
 execute in area:control_area run forceload add 0 0
-execute in area:control_area run setblock 2 2 2 shulker_box
-execute in area:control_area run setblock 2 3 2 oak_sign
+schedule function area:system/control_area/system_block 1s
 execute in area:control_area positioned 5 5 5 run function calc:geometry/tp_00000
 execute in area:control_area positioned 5 5 5 run function calc:geometry/tp_00001
 execute in area:control_area positioned 5 5 5 run function calc:geometry/tp_00002
@@ -214,6 +213,8 @@ scoreboard objectives add Hunger dummy {"text":"死亡時調整満腹度"}
 scoreboard objectives add MineSpawner minecraft.mined:minecraft.lodestone {"text":"ロードストーン採掘"}
 scoreboard objectives add Talk minecraft.custom:talked_to_villager {"text":"会話回数"}
 scoreboard objectives add Trade minecraft.custom:traded_with_villager {"text":"取引回数"}
+scoreboard objectives add kill trigger {"text":"個人killフラグ"}
+scoreboard objectives add UseEnderPearl minecraft.used:minecraft.ender_pearl {"text":"エンダーパールを使った回数"}
 
 ###チーム作成
 team add NoCollision {"text":"衝突判定なし"}
@@ -258,6 +259,9 @@ function settings:player/tips
 
 #飛空島ゲート駅schedule開始
 function area:flying_islands_gate/change
+#初回は交易島に固定
+data modify storage area: FlyingIslandEnteredFlag set value 1b
+schedule clear area:flying_islands_gate/change
 
 #ルーラデフォルト定義
 function settings:skill/black_mage/return/default
@@ -280,3 +284,6 @@ data merge storage area: {capture:{skylands:{},flying_island:{},cloudia:{}}}
     advancement revoke @a only area:system/skylands/chaos_islands/boss
 
 execute unless data storage main: {debug:1b} run function settings:alpha_debug/
+
+# 固定村人復帰地点の設定
+execute unless data storage main: {debug:1b} run function area:villager_point/init

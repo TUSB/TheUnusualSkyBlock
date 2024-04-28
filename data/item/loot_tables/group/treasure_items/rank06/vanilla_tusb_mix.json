@@ -49,7 +49,12 @@
           "name": "item:group/magic_stone/tier3/mix"
         },
         {
-          "weight": 10,
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:group/treasure_items/rank6_10/sign"
+        },
+        {
+          "weight": 70,
           "type": "loot_table",
           "name": "item:group/rank_tusb_item/rank06/tusb_all"
         }

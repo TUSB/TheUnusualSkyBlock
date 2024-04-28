@@ -9,6 +9,11 @@
           "name": "item:group/fishing/basalt_deltas/bad_items"
         },
         {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/tusb_item/not_so_good_items"
+        },
+        {
           "weight": 8,
           "type": "loot_table",
           "name": "item:group/fishing/basalt_deltas/lucky_items"

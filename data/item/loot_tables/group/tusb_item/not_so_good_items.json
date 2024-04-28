@@ -1,0 +1,54 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/cookie/beef_jerky"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/cookie/marmite"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/cookie/chocolate_chip"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/cookie/void_confectionery"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/bread/food_clay"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/golden_apple/edible_gold"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/golden_apple/edible_iron"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/golden_apple/edible_copper"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/golden_apple/redstone_onigiri"
+        }
+      ]
+    }
+  ]
+}

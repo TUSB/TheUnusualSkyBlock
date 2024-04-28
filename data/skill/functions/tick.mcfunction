@@ -24,7 +24,7 @@ execute if entity @s[tag=WildFlare] run function skill:act/hunter/wild_flare/tic
 ###ブラストスパーク
 execute if entity @s[tag=BlastSpark] run function makeup:skill/act/hunter/blast_spark/direction
 ###フォトニックレーザー
-execute if entity @s[tag=PhotonicLaser] run function skill:act/hunter/photonic_laser/tick0
+execute if entity @s[tag=PhotonicLaser] run function skill:act/hunter/photonic_laser/check_interval
 ###シャイニングボルト
 execute if entity @s[tag=ShiningBolt] run function makeup:skill/act/white_mage/shining_bolt/tick
 ###フラワーギフト

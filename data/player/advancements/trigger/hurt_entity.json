@@ -67,6 +67,10 @@
               {
                 "id": "minecraft:bypasses_resistance",
                 "expected": false
+              },
+              {
+                "id": "player:thorns",
+                "expected": false
               }
             ]
           }
@@ -141,6 +145,10 @@
               {
                 "id": "minecraft:bypasses_resistance",
                 "expected": false
+              },
+              {
+                "id": "player:thorns",
+                "expected": false
               }
             ]
           }
@@ -196,6 +204,10 @@
               {
                 "id": "minecraft:bypasses_resistance",
                 "expected": false
+              },
+              {
+                "id": "player:thorns",
+                "expected": false
               }
             ]
           }
@@ -248,6 +260,10 @@
               },
               {
                 "id": "minecraft:bypasses_resistance",
+                "expected": false
+              },
+              {
+                "id": "player:thorns",
                 "expected": false
               }
             ]

@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "teleport": {
+      "trigger": "entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": 5.0,
+          "type": {
+            "tags": [
+              {
+                "id": "player:fall",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": [
+          {
+            "condition": "entity_scores",
+            "entity": "this",
+            "scores": {
+              "UseEnderPearl": {
+                "min": 1
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "player:trigger/use/ender_pearl"
+  }
+}

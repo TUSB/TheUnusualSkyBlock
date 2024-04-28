@@ -6,6 +6,7 @@
 data modify storage skill: RaderVision set value {}
 data modify storage skill: RaderVision.Pos set from entity @s Pos
 data modify storage skill: RaderVision.Rotation set from entity @s Rotation
+data modify storage skill: RaderVision.Dimension set from entity @s Dimension
 execute if entity @s[gamemode=adventure] run data modify storage skill: RaderVision.Adventure set value 1b
 function #oh_my_dat:please
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].RaderVision set from storage skill: RaderVision

@@ -23,6 +23,8 @@ data remove storage skill: DamageJson
 execute if data storage skill: Skill.Damage run function skill:trigger/set/damage_json
 execute if data storage skill: Skill.Damage run data modify block 2 3 2 Text1 set value '{"storage":"skill:","nbt":"DamageJson.Damage","italic":false,"interpret":true}'
 execute if data storage skill: Skill.Damage run data modify storage item: Item.tag.display.Lore append from block 2 3 2 Text1
+#インターバルチェック
+data modify storage skill: Skill.ShowInterval set value 1b
 #スキル付与
 data modify storage item: Item.tag.Skill set from storage skill: Skill
 data modify storage item: Item.tag.Skill.Type set value "Job"

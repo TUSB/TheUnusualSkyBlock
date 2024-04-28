@@ -2,8 +2,8 @@
 difficulty hard
 
 #エンチャント・金床 schedule 再起動
-execute if entity @e[distance=..7,tag=EnchantTable] run schedule function item:enchant/enchanting_table/schedule 2t
-execute if entity @e[distance=..7,tag=Anvil] run schedule function item:lapidary/anvil/schedule 2t
+schedule function item:enchant/enchanting_table/schedule 3s
+schedule function item:lapidary/anvil/schedule 3s
 
 #凍結 schedule 再起動
 execute if entity @s[tag=Freeze] run schedule function effects:freeze/fix 1t
@@ -35,6 +35,7 @@ advancement revoke @s only area:jump_to/skylands/nether
 advancement revoke @s only area:jump_to/skylands/tocult_colde
 advancement revoke @s only area:jump_to/skylands/underworld
 advancement revoke @s only area:jump_to/underworld/skylands
+advancement revoke @s only skill:shortcut
 
 #プレイヤーゲーム設定
 function player:game_settings/show
@@ -50,5 +51,8 @@ execute unless score $World Burst matches -1 run function skill:burst/bossbar
 # バーストリセット
     scoreboard players reset @s Burst
     function skill:burst/summoner/element/reset
+
+# 祈り表示
+tag @s add Pray
 
 scoreboard players reset @s LeaveGame

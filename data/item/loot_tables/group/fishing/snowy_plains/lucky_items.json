@@ -4,19 +4,39 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 3,
+          "weight": 32,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/bug_memory_star"
         },
         {
-          "weight": 2,
+          "weight": 32,
+          "type": "loot_table",
+          "name": "item:item/shield/ice_shield"
+        },
+        {
+          "weight": 24,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/wave_of_element/3"
+        },
+        {
+          "weight": 16,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/frozen_gun"
         },
         {
-          "weight": 2,
+          "weight": 16,
           "type": "loot_table",
           "name": "item:item/wooden_sword/powerful_fish"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/diamond_sword/ice_sword"
+        },
+        {
+          "weight": 12,
+          "type": "loot_table",
+          "name": "item:group/potion/debarrier/debarrier_set"
         },
         {
           "weight": 1,

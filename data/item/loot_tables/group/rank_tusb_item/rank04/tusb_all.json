@@ -4,192 +4,242 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 2,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/buster_axe"
         },
         {
-          "weight": 6,
+          "weight": 12,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/ancient_staff"
         },
         {
-          "weight": 2,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/a_shuriken"
         },
         {
-          "weight": 3,
+          "weight": 6,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/super_ether"
         },
         {
-          "weight": 2,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/cure_ether_field"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/banana_peel"
         },
         {
-          "weight": 2,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/hover_gift"
         },
         {
-          "weight": 3,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/sacred_potatoes"
         },
         {
-          "weight": 4,
+          "weight": 8,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/old_iblis_memory_star"
         },
         {
+          "weight": 8,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/tier5_diamond_memory_star"
+        },
+        {
+          "weight": 8,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/infinity_diamond_memory_star"
+        },
+        {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/leaves_bug_memory_star"
+          "name": "item:item/carrot_on_a_stick/sapling_bug_memory_star"
         },
         {
-          "weight": 6,
+          "weight": 16,
           "type": "loot_table",
-          "name": "item:item/diamond_sword/unsigned_light_sword"
+          "name": "item:item/diamond_boots/tier5_diamond_boots"
         },
         {
-          "weight": 6,
+          "weight": 20,
           "type": "loot_table",
-          "name": "item:item/diamond_sword/unsigned_black_sword"
+          "name": "item:item/diamond_boots/infinity_diamond_b"
         },
         {
-          "weight": 9,
+          "weight": 16,
           "type": "loot_table",
-          "name": "item:item/fishing_rod/good_fishing_rod"
+          "name": "item:item/diamond_chestplate/tier5_diamond_chestplate"
         },
         {
-          "weight": 5,
+          "weight": 20,
           "type": "loot_table",
-          "name": "item:item/gold_nugget/element/2"
+          "name": "item:item/diamond_chestplate/infinity_diamond_c"
         },
         {
-          "weight": 5,
+          "weight": 16,
           "type": "loot_table",
-          "name": "item:item/gold_nugget/yin_yang/2"
+          "name": "item:item/diamond_helmet/tier5_diamond_helmet"
         },
         {
-          "weight": 8,
+          "weight": 20,
           "type": "loot_table",
-          "name": "item:item/gold_nugget/boost_fire/2"
+          "name": "item:item/diamond_helmet/infinity_diamond_h"
         },
         {
-          "weight": 8,
+          "weight": 16,
           "type": "loot_table",
-          "name": "item:item/gold_nugget/boost_ice/2"
+          "name": "item:item/diamond_leggings/tier5_diamond_leggings"
         },
         {
-          "weight": 8,
+          "weight": 20,
           "type": "loot_table",
-          "name": "item:item/gold_nugget/boost_lightning/2"
-        },
-        {
-          "weight": 8,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/boost_light/2"
-        },
-        {
-          "weight": 8,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/boost_dark/2"
-        },
-        {
-          "weight": 4,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/kamui/1"
-        },
-        {
-          "weight": 8,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/protection/2"
-        },
-        {
-          "weight": 8,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/projectile_protection/2"
-        },
-        {
-          "weight": 12,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/dragon_scale/1"
-        },
-        {
-          "weight": 8,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/life/2"
-        },
-        {
-          "weight": 8,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/mana/2"
-        },
-        {
-          "weight": 10,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/evolution/1"
-        },
-        {
-          "weight": 8,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/wave_of_element/2"
-        },
-        {
-          "weight": 8,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/double_break/2"
+          "name": "item:item/diamond_leggings/infinity_diamond_l"
         },
         {
           "weight": 11,
           "type": "loot_table",
+          "name": "item:item/diamond_sword/unsigned_light_sword"
+        },
+        {
+          "weight": 11,
+          "type": "loot_table",
+          "name": "item:item/diamond_sword/unsigned_black_sword"
+        },
+        {
+          "weight": 18,
+          "type": "loot_table",
+          "name": "item:item/fishing_rod/good_fishing_rod"
+        },
+        {
+          "weight": 10,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/element/2"
+        },
+        {
+          "weight": 10,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/yin_yang/2"
+        },
+        {
+          "weight": 17,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_fire/2"
+        },
+        {
+          "weight": 17,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_ice/2"
+        },
+        {
+          "weight": 17,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_lightning/2"
+        },
+        {
+          "weight": 17,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_light/2"
+        },
+        {
+          "weight": 17,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_dark/2"
+        },
+        {
+          "weight": 9,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/kamui/1"
+        },
+        {
+          "weight": 17,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/protection/2"
+        },
+        {
+          "weight": 17,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/projectile_protection/2"
+        },
+        {
+          "weight": 25,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/dragon_scale/1"
+        },
+        {
+          "weight": 17,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/life/2"
+        },
+        {
+          "weight": 17,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mana/2"
+        },
+        {
+          "weight": 20,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/evolution/1"
+        },
+        {
+          "weight": 17,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/wave_of_element/2"
+        },
+        {
+          "weight": 17,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/double_break/2"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
           "name": "item:item/golden_apple/konpeito"
         },
         {
-          "weight": 8,
+          "weight": 17,
           "type": "loot_table",
           "name": "item:item/golden_axe/fountain_goleden_axe"
         },
         {
-          "weight": 5,
+          "weight": 10,
           "type": "loot_table",
           "name": "item:item/iron_sword/fire_sword_sensau"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/iron_sword/ninja_sword"
         },
         {
-          "weight": 14,
+          "weight": 29,
           "type": "loot_table",
           "name": "item:item/leather_boots/old_iblis_b"
         },
         {
-          "weight": 14,
+          "weight": 29,
           "type": "loot_table",
           "name": "item:item/leather_chestplate/old_iblis_c"
         },
         {
-          "weight": 13,
+          "weight": 27,
           "type": "loot_table",
           "name": "item:item/leather_chestplate/life_jacket"
         },
         {
-          "weight": 14,
+          "weight": 29,
           "type": "loot_table",
           "name": "item:item/leather_helmet/old_iblis_h"
         },
         {
-          "weight": 14,
+          "weight": 29,
           "type": "loot_table",
           "name": "item:item/leather_leggings/old_iblis_l"
         },
@@ -199,42 +249,42 @@
           "name": "item:item/shears/kuwagata"
         },
         {
-          "weight": 2,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/shield/bentler"
         },
         {
-          "weight": 12,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/shield/mysterious_shield"
         },
         {
-          "weight": 2,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/shield/mirror_shield"
         },
         {
-          "weight": 2,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/shield/spell_shield"
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/shield/holy_shield"
         },
         {
-          "weight": 20,
+          "weight": 40,
           "type": "loot_table",
           "name": "item:item/stone_sword/fencil_stria"
         },
         {
-          "weight": 8,
+          "weight": 15,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/king_crown"
         },
         {
-          "weight": 2,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/block/cobweb"
         }
