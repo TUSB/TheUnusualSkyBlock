@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"伝説の釣り竿\",\"color\":\"#FFDD56\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"aqua\",\"italic\":false},{\"translate\":\"%1$s%2$s(VIII)\",\"color\":\"white\",\"with\":[{\"translate\":\"練餌の\"},{\"translate\":\"刻印\"}]}]','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" サモンS：フレンドフィッシュズ\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Engraving:{EnchantID:\"練餌\",Tier:8},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"サモンSフレンドフィッシュズ\",Level:1,Interval:300,Trigger:\"近接攻撃する\",Count:64}}"
+              "tag": "{display:{Name:'{\"translate\":\"伝説の釣り竿\",\"color\":\"#FFDD56\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"aqua\",\"italic\":false},{\"translate\":\"%1$s%2$s(VIII)\",\"color\":\"white\",\"with\":[{\"translate\":\"練餌の\"},{\"translate\":\"刻印\"}]}]','[{\"text\":\"\",\"color\":\"white\",\"italic\":false},{\"text\":\"C\",\"font\":\"icon\",\"color\":\"light_purple\"},{\"text\":\" サモンS：フレンドフィッシュズ\"}]','{\"text\":\"---TUSBMemory---\",\"obfuscated\":true,\"color\":\"gray\",\"italic\":false}']},Engraving:{EnchantID:\"練餌\",Tier:8},Skill:{Type:\"TUSBMemory\",Initializing:1b,Job:\"共通\",Name:\"サモンSフレンドフィッシュズ\",Level:1,Interval:150,Trigger:\"近接攻撃する\",Count:64}}"
             }
           ]
         }

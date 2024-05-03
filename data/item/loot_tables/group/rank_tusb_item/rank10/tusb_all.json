@@ -41,6 +41,11 @@
         {
           "weight": 2,
           "type": "loot_table",
+          "name": "item:item/gold_nugget/element/5"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
           "name": "item:item/gold_nugget/yin_yang/5"
         },
         {

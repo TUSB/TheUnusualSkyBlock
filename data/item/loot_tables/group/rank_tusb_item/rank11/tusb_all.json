@@ -174,7 +174,7 @@
           "name": "item:item/carrot_on_a_stick/sapling_chance_bug_memory_star"
         },
         {
-          "weight": 22,
+          "weight": 10,
           "type": "loot_table",
           "name": "item:item/fishing_rod/cthulure"
         },

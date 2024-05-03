@@ -154,6 +154,11 @@
           "name": "item:item/iron_sword/world_tree_sword"
         },
         {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_sword/abyss_reaper"
+        },
+        {
           "weight": 5,
           "type": "loot_table",
           "name": "item:item/leather_boots/phantasma_b"
