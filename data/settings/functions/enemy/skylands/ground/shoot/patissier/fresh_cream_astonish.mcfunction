@@ -6,7 +6,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"「ﾓｺﾞｺﾞｰ!!」%1$sは%2$sを頬張りすぎて喉を詰まらせてしまった。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Step",Speed:1.0d}],Attack:[{Name:"Damage",Player:{Damage:0d,DamageType:[Global,Blast]},Distance:{Max:2.0d},AEC:{Effects:[{Id:17b,Amplifier:30b,Duration:250}]}},{Condition:[{Name:"RandomChance",Chance:2.0d}],Name:"Damage",Player:{Damage:0d,DamageType:[Global,Blast]},Distance:{Max:0.5d},AEC:{Effects:[{Id:14b,Amplifier:6b,Duration:5}]}}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Step",Speed:1.0d}],Attack:[{Name:"Damage",Player:{Damage:0d,DamageType:[Global,Blast]},Distance:{Max:2.0d},AEC:{effects:[{id:"minecraft:hunger",amplifier:30b,duration:250}]}},{Condition:[{Name:"RandomChance",Chance:2.0d}],Name:"Damage",Player:{Damage:0d,DamageType:[Global,Blast]},Distance:{Max:0.5d},AEC:{effects:[{id:"minecraft:invisibility",amplifier:6b,duration:5}]}}]}
 #Function
 playsound entity.witch.throw hostile @a[distance=..32] ~ ~ ~ 1.0 1.3 0.2
 # Sample_01--Circle

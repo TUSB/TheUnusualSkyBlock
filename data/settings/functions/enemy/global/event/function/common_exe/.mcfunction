@@ -20,7 +20,6 @@ execute if entity @s[tag=TrapSpawnLimit] run function settings:enemy/global/even
 execute if entity @s[tag=UpAlign2] run function settings:enemy/global/event/function/common_exe/up_align_2
 execute if entity @s[tag=UpAlign1] run function settings:enemy/global/event/function/common_exe/up_align_1
 execute if entity @s[tag=BlockAlign] run function settings:enemy/global/event/function/common_exe/block_align
-execute if entity @s[tag=PlayerPassenger] run function settings:enemy/global/event/function/common_exe/player_passenger
 execute if entity @s[tag=HelperSpawnLimit] run function settings:enemy/global/event/function/common_exe/helper_spawn_limit
 execute if entity @s[tag=RandomTeleportEnemy] run function settings:enemy/global/event/function/common_exe/random_teleport_enemy
 execute if entity @s[tag=RandomRotation] run function settings:enemy/global/event/function/common_exe/random_rotation

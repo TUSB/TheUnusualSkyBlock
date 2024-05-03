@@ -9,5 +9,3 @@ execute if entity @s[tag=GulliversLand] run function settings:enemy/gullivers_la
 execute if entity @s[tag=Nether] run function settings:enemy/nether/
 execute if entity @s[tag=End] run function settings:enemy/end/
 execute if entity @s[tag=DebugRoom] run function settings:enemy/debug_room/
-execute if entity @s[tag=Void] run function settings:enemy/void/
-execute if entity @s[tag=TableMountain] run function settings:enemy/table_mountain/

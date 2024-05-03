@@ -22,4 +22,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 20
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s妹はボクが守る！","with":[{"translate":"【能力：範囲】","color":"#00FF00"}]}]'
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Name:"Damage",Player:{Damage:0d,DamageType:[Global]},Distance:{Max:2d},AEC:{Particle:"dragon_breath",Duration:100,Radius:1f,Effects:[{Id:4b,Amplifier:1b,Duration:300},{Id:2b,Amplifier:2b,Duration:300},{Id:19b,Amplifier:2b,Duration:100}]}}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Name:"Damage",Player:{Damage:0d,DamageType:[Global]},Distance:{Max:2d},AEC:{Particle:"dragon_breath",Duration:100,Radius:1f,effects:[{id:"minecraft:mining_fatigue",amplifier:1b,duration:300},{id:"minecraft:slowness",amplifier:2b,duration:300},{id:"minecraft:poison",amplifier:2b,duration:100}]}}]}

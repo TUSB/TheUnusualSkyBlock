@@ -1,13 +1,9 @@
-execute if entity @s[tag=Bullet] run function settings:enemy/global/sky/shoot/electro_eye/bullet
-execute if entity @s[tag=BulletExplosionAec] run function settings:enemy/global/sky/shoot/electro_eye/bullet_explosion_aec
 execute if entity @s[tag=BulletExplosion] run function settings:enemy/global/sky/shoot/electro_eye/bullet_explosion
 execute if entity @s[tag=BulletExplosionSound] run function settings:enemy/global/sky/shoot/electro_eye/bullet_explosion_sound
 execute if entity @s[tag=BulletFireSound] run function settings:enemy/global/sky/shoot/electro_eye/bullet_fire_sound
 execute if entity @s[tag=BulletDirection] run function settings:enemy/global/sky/shoot/electro_eye/bullet_direction
-execute if entity @s[tag=Main] run function settings:enemy/global/sky/shoot/electro_eye/main
 execute if entity @s[tag=ChangeTurn] run function settings:enemy/global/sky/shoot/electro_eye/change_turn
 execute if entity @s[tag=Tp] run function settings:enemy/global/sky/shoot/electro_eye/tp
-execute if entity @s[tag=BulletMarker] run function settings:enemy/global/sky/shoot/electro_eye/bullet_marker
 execute if entity @s[tag=LaserDamage] run function settings:enemy/global/sky/shoot/electro_eye/laser_damage
 execute if entity @s[tag=LaserLoop] run function settings:enemy/global/sky/shoot/electro_eye/laser_loop
 execute if entity @s[tag=LaserMain] run function settings:enemy/global/sky/shoot/electro_eye/laser_main

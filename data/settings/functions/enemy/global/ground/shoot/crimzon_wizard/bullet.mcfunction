@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:armor_stand",CustomName:'{"translate":"ブラストバレット","color":"#FF0000","bold":true}',Silent:1b,Invulnerable:1b,Small:1b,NoGravity:1b,Tags:[DelayedData,HasAI,CallOnInit,CallOnAttack,CooldownRequired,DamageProjectile,EnemyProjectile,BlustBullet],Invisible:1b,PortalCooldown:600,DeathLootTable:"empty"}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:armor_stand",CustomName:'{"translate":"ブラストバレット","color":"#FF0000","bold":true}',Silent:1b,Invulnerable:1b,Small:1b,NoGravity:1b,Tags:[DelayedData,HasAI,CallOnInit,CallOnAttack,CooldownRequired,DamageProjectile,EnemyProjectile,"BlustBullet"],Invisible:1b,PortalCooldown:600,DeathLootTable:"empty"}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 ### 遅延ステータス
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 0

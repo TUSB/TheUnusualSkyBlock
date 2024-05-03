@@ -1,5 +1,3 @@
-execute if entity @s[tag=Main] run function settings:enemy/global/ground/blow/dungeon_rock/main
-execute if entity @s[tag=Display] run function settings:enemy/global/ground/blow/dungeon_rock/display
 execute if entity @s[tag=DamageColor] run function settings:enemy/global/ground/blow/dungeon_rock/damage_color
 execute if entity @s[tag=ParticleAndSound] run function settings:enemy/global/ground/blow/dungeon_rock/particle_and_sound
 execute if entity @s[tag=ScaleUp] run function settings:enemy/global/ground/blow/dungeon_rock/scale_up

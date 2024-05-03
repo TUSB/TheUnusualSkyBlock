@@ -1,5 +1,3 @@
-execute if entity @s[tag=Loot] run function settings:enemy/skylands/boss/shoot/sonica_marker/loot
-execute if entity @s[tag=Main] run function settings:enemy/skylands/boss/shoot/sonica_marker/main
 execute if entity @s[tag=Countdown] run function settings:enemy/skylands/boss/shoot/sonica_marker/countdown
 execute if entity @s[tag=Backstep1] run function settings:enemy/skylands/boss/shoot/sonica_marker/backstep1
 execute if entity @s[tag=BackstepTp] run function settings:enemy/skylands/boss/shoot/sonica_marker/backstep_tp

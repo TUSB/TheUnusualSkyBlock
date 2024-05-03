@@ -1,16 +1,10 @@
-execute if entity @s[tag=Main] run function settings:enemy/global/sky/shoot/crimson_eye/main
 execute if entity @s[tag=Tick] run function settings:enemy/global/sky/shoot/crimson_eye/tick
-execute if entity @s[tag=BloodAura] run function settings:enemy/global/sky/shoot/crimson_eye/blood_aura
 execute if entity @s[tag=BloodAuraInit] run function settings:enemy/global/sky/shoot/crimson_eye/blood_aura_init
 execute if entity @s[tag=BloodAuraTick] run function settings:enemy/global/sky/shoot/crimson_eye/blood_aura_tick
-execute if entity @s[tag=BloodAuraMarker] run function settings:enemy/global/sky/shoot/crimson_eye/blood_aura_marker
 execute if entity @s[tag=Effect] run function settings:enemy/global/sky/shoot/crimson_eye/effect
-execute if entity @s[tag=Blood] run function settings:enemy/global/sky/shoot/crimson_eye/blood
 execute if entity @s[tag=BloodInit] run function settings:enemy/global/sky/shoot/crimson_eye/blood_init
 execute if entity @s[tag=BloodTick] run function settings:enemy/global/sky/shoot/crimson_eye/blood_tick
 execute if entity @s[tag=BlazeInit] run function settings:enemy/global/sky/shoot/crimson_eye/blaze_init
-execute if entity @s[tag=BlazeMain] run function settings:enemy/global/sky/shoot/crimson_eye/blaze_main
-execute if entity @s[tag=BlazeEffect] run function settings:enemy/global/sky/shoot/crimson_eye/blaze_effect
 execute if entity @s[tag=BlazeThird] run function settings:enemy/global/sky/shoot/crimson_eye/blaze_third
 execute if entity @s[tag=BlazeSecond] run function settings:enemy/global/sky/shoot/crimson_eye/blaze_second
 execute if entity @s[tag=BlazeFirst] run function settings:enemy/global/sky/shoot/crimson_eye/blaze_first
