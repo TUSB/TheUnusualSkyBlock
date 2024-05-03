@@ -31,18 +31,13 @@
     "requirement": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": [
-          {
-            "condition": "location_check",
-            "predicate": {
-              "block": {
-                "blocks": [
-                  "minecraft:grindstone"
-                ]
-              }
-            }
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:grindstone"
+            ]
           }
-        ]
+        }
       }
     }
   }
