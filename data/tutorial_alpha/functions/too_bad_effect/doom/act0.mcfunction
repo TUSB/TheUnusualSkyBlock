@@ -1,4 +1,4 @@
-tellraw @s ["",{"translate":"[チュートリアル：%1$s]","bold":true,"with":[{"translate":"特殊デバフ：%1$s","with":[{"interpret":true,"storage":"effects:","nbt":"BadEffectsName.Doom"}]}]},"\n",{"translate":"死の%1$sを開始し、\nカウントが0になると%2$s。\n%3$sを服用すると解除できる。","color":"white","with":[{"translate":"カウントダウン","color":"red"},{"translate":"即死する","color":"dark_red"},{"translate":"聖水","color":"aqua"}]}]
+tellraw @s ["",{"translate":"[チュートリアル：%1$s]","bold":true,"with":[{"translate":"特殊デバフ：%1$s","with":[{"interpret":true,"storage":"effects:","nbt":"BadEffectsName.Doom"}]}]},"\n",{"translate":"死の%1$sを開始し、\nカウントが0になると%2$sします。\n%3$sを服用すると解除できます。","color":"white","with":[{"translate":"カウントダウン","color":"red"},{"translate":"即死","color":"dark_red"},{"translate":"聖水","color":"aqua"}]}]
 
 function makeup:tutorial_alpha/sound
 
