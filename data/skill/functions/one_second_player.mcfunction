@@ -1,7 +1,7 @@
 ### 1秒処理
 ###スキル
 #忍者
-scoreboard players reset @s[scores={Choyaku=0..},nbt=!{active_effects:[{Id:"minecraft:jump_boost"}]}] Choyaku
+scoreboard players reset @s[scores={Choyaku=0..},nbt=!{active_effects:[{id:"minecraft:jump_boost"}]}] Choyaku
 execute if entity @s[scores={Katon=1..}] run function skill:act/ninja/katon/tick
 execute if entity @s[scores={Mokuso=1..}] run function skill:act/ninja/mokuso/tick
 execute if entity @s[scores={Suiton=1..}] run function skill:act/ninja/suiton/tick
