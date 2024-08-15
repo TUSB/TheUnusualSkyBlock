@@ -4,7 +4,7 @@
   },
   "supported_items": "#minecraft:enchantable/armor",
   "weight": 1,
-  "max_level": 20,
+  "max_level": 16,
   "min_cost": {
     "base": 2147483647,
     "per_level_above_first": 0
