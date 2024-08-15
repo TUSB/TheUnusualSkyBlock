@@ -1,7 +1,7 @@
 {
   "description": {
     "translate": "体力増加",
-    "color": "red"
+    "color": "yellow"
   },
   "supported_items": "#minecraft:enchantable/armor",
   "weight": 1,

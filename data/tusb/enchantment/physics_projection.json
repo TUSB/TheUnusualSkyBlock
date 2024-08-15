@@ -1,6 +1,7 @@
 {
   "description": {
-    "translate": "物理耐性"
+    "translate": "物理耐性",
+    "color":"green"
   },
   "supported_items": "#minecraft:enchantable/armor",
   "weight": 1,

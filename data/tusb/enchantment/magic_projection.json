@@ -1,6 +1,7 @@
 {
   "description": {
-    "translate": "魔法耐性"
+    "translate": "魔法耐性",
+    "color":"green"
   },
   "supported_items": "#minecraft:enchantable/armor",
   "weight": 1,
