@@ -1,11 +1,12 @@
 {
   "description": {
-    "translate": "体力増加",
+    "translate": "うっうーうまうま",
     "color": "yellow"
   },
-  "supported_items": "#tusb:armor",
+  "supported_items": "#minecraft:enchantable/chest_armor",
+  "exclusive_set": "#tusb:scale",
   "weight": 1,
-  "max_level": 10,
+  "max_level": 3,
   "min_cost": {
     "base": 15,
     "per_level_above_first": 9
@@ -14,19 +15,19 @@
     "base": 65,
     "per_level_above_first": 9
   },
-  "anvil_cost": 4,
+  "anvil_cost": 1,
   "slots": [
     "armor"
   ],
   "effects": {
     "minecraft:attributes": [
       {
-        "id": "health",
-        "attribute": "minecraft:generic.max_health",
+        "id": "step_height",
+        "attribute": "minecraft:generic.step_height",
         "amount": {
           "type": "minecraft:linear",
-          "base": 10,
-          "per_level_above_first": 10
+          "base": 0.5,
+          "per_level_above_first": 0.5
         },
         "operation": "add_value"
       }

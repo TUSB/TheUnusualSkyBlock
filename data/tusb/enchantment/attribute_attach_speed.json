@@ -1,9 +1,9 @@
 {
   "description": {
-    "translate": "体力増加",
+    "translate": "俊腕",
     "color": "yellow"
   },
-  "supported_items": "#tusb:armor",
+  "supported_items": "#tusb:weapon",
   "weight": 1,
   "max_level": 10,
   "min_cost": {
@@ -14,15 +14,15 @@
     "base": 65,
     "per_level_above_first": 9
   },
-  "anvil_cost": 4,
+  "anvil_cost": 1,
   "slots": [
     "armor"
   ],
   "effects": {
     "minecraft:attributes": [
       {
-        "id": "health",
-        "attribute": "minecraft:generic.max_health",
+        "id": "attack_speed",
+        "attribute": "minecraft:generic.attack_speed",
         "amount": {
           "type": "minecraft:linear",
           "base": 10,

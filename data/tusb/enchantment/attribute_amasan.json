@@ -1,0 +1,56 @@
+{
+  "description": {
+    "translate": "アマサン",
+    "color": "yellow"
+  },
+  "supported_items": "#minecraft:enchantable/head_armor",
+  "exclusive_set": "#tusb:scale",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 9
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 9
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "amasan",
+        "attribute": "minecraft:generic.oxygen_bonus",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1,
+          "per_level_above_first": 1
+        },
+        "operation": "add_value"
+      },
+      {
+        "id": "amasan",
+        "attribute": "minecraft:player.submerged_mining_speed",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.2,
+          "per_level_above_first": 0.2
+        },
+        "operation": "add_value"
+      },
+      {
+        "id": "amasan",
+        "attribute": "minecraft:generic.water_movement_efficiency",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.2,
+          "per_level_above_first": 0.2
+        },
+        "operation": "add_value"
+      }
+    ]
+  }
+}
