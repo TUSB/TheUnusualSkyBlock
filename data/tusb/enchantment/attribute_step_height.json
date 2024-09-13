@@ -3,7 +3,7 @@
     "translate": "うっうーうまうま",
     "color": "yellow"
   },
-  "supported_items": "#minecraft:enchantable/chest_armor",
+  "supported_items": "#minecraft:enchantable/foot_armor",
   "exclusive_set": "#tusb:scale",
   "weight": 1,
   "max_level": 3,

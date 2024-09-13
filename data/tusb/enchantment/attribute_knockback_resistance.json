@@ -14,7 +14,7 @@
     "base": 65,
     "per_level_above_first": 9
   },
-  "anvil_cost": 20,
+  "anvil_cost": 15,
   "slots": [
     "armor"
   ],

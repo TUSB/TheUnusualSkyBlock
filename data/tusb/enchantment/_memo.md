@@ -43,3 +43,6 @@ https://minecraft.wiki/w/Attribute
   - ただのぶっこわれ
 - player.sweeping_damage_ratio
   - 雑魚狩りに使えちゃいそうだからパス
+
+anvil_costはかな床で利用
+anvil_cost*Lv <40じゃないとだめ
