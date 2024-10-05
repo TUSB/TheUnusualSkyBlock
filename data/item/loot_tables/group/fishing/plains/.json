@@ -9,6 +9,11 @@
           "name": "item:group/vanilla_item/food/lower_food"
         },
         {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:group/tusb_item/not_so_good_items"
+        },
+        {
           "weight": 3,
           "type": "loot_table",
           "name": "item:group/vanilla_item/tier_all/etc"

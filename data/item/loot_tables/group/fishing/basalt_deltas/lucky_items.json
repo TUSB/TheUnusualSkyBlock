@@ -49,6 +49,11 @@
           "name": "item:item/carrot_on_a_stick/pendulum"
         },
         {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/shield/bone_shield"
+        },
+        {
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/magma_cube_spawn_egg/sign/very_glow"

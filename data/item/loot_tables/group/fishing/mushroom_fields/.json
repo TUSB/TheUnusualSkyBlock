@@ -14,24 +14,14 @@
           "name": "item:group/fishing/mushroom_fields/lucky_items"
         },
         {
-          "weight": 2,
+          "weight": 10,
           "type": "loot_table",
           "name": "item:item/spider_eye/dirty_mud"
         },
         {
-          "weight": 2,
+          "weight": 10,
           "type": "loot_table",
           "name": "item:item/spider_eye/empty_can"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/green_mushrooms"
-        },
-        {
-          "weight": 1,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/kaentake_mushroom"
         }
       ]
     }

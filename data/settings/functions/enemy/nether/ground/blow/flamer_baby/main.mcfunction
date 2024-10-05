@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 130
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 130
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 75
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier2/common",Count:1,Chance:0.3d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.3d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s歩いた場所を燃やしてしまう、恐るべき一族の子供。","with":[{"translate":"【能力：発火】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Name:"Function",Tags:[Nether,Ground,Blow,FlamerBaby,Attack1]}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:200,Max:400,Current:300},Loop:{Max:1,Current:1},Call:[{Name:"Function",Tags:[Nether,Ground,Blow,FlamerBaby,Flame]}]}]}]}

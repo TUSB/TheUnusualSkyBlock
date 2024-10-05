@@ -19,5 +19,6 @@ execute if score _ _ matches 01000..11000 run scoreboard players set _ Calc 1
 execute if score _ Level matches 2 run scoreboard players add _ Calc 1
 execute if score _ Level matches 3 run scoreboard players add _ Calc 2
 
-execute unless score @s SneakTime matches 1.. run function skill:act/ninja/yokake/fork
-execute if score @s SneakTime matches 1.. as @a[distance=..15] at @s run function skill:act/ninja/yokake/fork
+function skill:act/ninja/yokake/fork
+execute if score @s SneakTime matches 1.. run scoreboard players remove _ Calc 1
+execute if score @s SneakTime matches 1.. as @a[distance=0.1..15] at @s run function skill:act/ninja/yokake/fork

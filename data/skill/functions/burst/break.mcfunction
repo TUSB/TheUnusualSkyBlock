@@ -13,18 +13,18 @@ scoreboard players operation @s Burst /= _ Calc
 ### 剣士８秒＊１０
 execute if score @s Job matches 1 run scoreboard players set _ _ 800
 execute if score @s Job matches 1 run scoreboard players operation @s Burst *= _ _
-### 忍者８秒＊１０
-execute if score @s Job matches 2 run scoreboard players set _ _ 800
+### 忍者１２秒＊１０
+execute if score @s Job matches 2 run scoreboard players set _ _ 1200
 execute if score @s Job matches 2 run scoreboard players operation @s Burst *= _ _
 execute if score @s Job matches 2 run function skill:burst/ninja/act0
-### 狩人４秒＊１０
-execute if score @s Job matches 3 run scoreboard players set _ _ 400
+### 狩人１０秒＊１０
+execute if score @s Job matches 3 run scoreboard players set _ _ 1000
 execute if score @s Job matches 3 run scoreboard players operation @s Burst *= _ _
-### 白魔８秒＊１０
-execute if score @s Job matches 4 run scoreboard players set _ _ 800
+### 白魔１０秒＊１０
+execute if score @s Job matches 4 run scoreboard players set _ _ 1000
 execute if score @s Job matches 4 run scoreboard players operation @s Burst *= _ _
-### 黒魔４秒＊１０
-execute if score @s Job matches 5 run scoreboard players set _ _ 400
+### 黒魔１５秒＊１０
+execute if score @s Job matches 5 run scoreboard players set _ _ 1500
 execute if score @s Job matches 5 run scoreboard players operation @s Burst *= _ _
 ### 召喚２０秒＊１０
 execute if score @s Job matches 6 run scoreboard players set _ _ 2000
@@ -42,13 +42,13 @@ scoreboard players operation @s Burst /= _ _
 scoreboard players set $World Burst -1
 
 tellraw @a {"translate":"バーストブレイク！！","color":"gold","italic":true,"bold":true}
-execute if score @s Job matches 1 run tellraw @a ["",{"translate":"%1$sは%2$sを纏った！！！","color":"green","with":[{"selector":"@s"},{"text":"剣士のオーラ","hoverEvent":{"action":"show_text","contents":{"translate":"範囲内のプレイヤーのダメージを無効化する。"}}}]}]
-execute if score @s Job matches 2 run tellraw @a ["",{"translate":"%1$sは%2$sを纏った！！！","color":"green","with":[{"selector":"@s"},{"text":"忍者のオーラ","hoverEvent":{"action":"show_text","contents":{"translate":"範囲内のプレイヤーの周囲に影分身を召喚する。"}}}]}]
-execute if score @s Job matches 3 run tellraw @a ["",{"translate":"%1$sは%2$sを纏った！！！","color":"green","with":[{"selector":"@s"},{"text":"狩人のオーラ","hoverEvent":{"action":"show_text","contents":{"translate":"範囲内のプレイヤーを自動砲台にする。"}}}]}]
-execute if score @s Job matches 4 run tellraw @a ["",{"translate":"%1$sは%2$sを纏った！！！","color":"green","with":[{"selector":"@s"},{"text":"白魔導士のオーラ","hoverEvent":{"action":"show_text","contents":{"translate":"範囲内のプレイヤーに悪い効果がかからなくなる。"}}}]}]
-execute if score @s Job matches 5 run tellraw @a ["",{"translate":"%1$sは%2$sを纏った！！！","color":"green","with":[{"selector":"@s"},{"text":"黒魔導士のオーラ","hoverEvent":{"action":"show_text","contents":{"translate":"範囲内のプレイヤーのスキルの消費MPが０になる。"}}}]}]
-execute if score @s Job matches 6 run tellraw @a ["",{"translate":"%1$sは%2$sを纏った！！！","color":"green","with":[{"selector":"@s"},{"text":"召喚士のオーラ","hoverEvent":{"action":"show_text","contents":{"translate":"範囲内の敵にランダムに弱点属性を付与する。"}}}]}]
-execute if score @s Job matches 7 run tellraw @a ["",{"translate":"%1$sは%2$sを纏った！！！","color":"green","with":[{"selector":"@s"},{"text":"絡繰士のオーラ","hoverEvent":{"action":"show_text","contents":{"translate":"範囲内のプレイヤーのスキルレベルが１上昇する。"}}}]}]
+execute if score @s Job matches 1 run tellraw @a ["",{"translate":"%1$sは%2$sを纏った！！！","color":"green","with":[{"selector":"@s"},{"translate":"剣士のオーラ","hoverEvent":{"action":"show_text","contents":{"translate":"範囲内のプレイヤーのダメージを無効化する。"}}}]}]
+execute if score @s Job matches 2 run tellraw @a ["",{"translate":"%1$sは%2$sを纏った！！！","color":"green","with":[{"selector":"@s"},{"translate":"忍者のオーラ","hoverEvent":{"action":"show_text","contents":{"translate":"範囲内のプレイヤーの周囲に影分身を召喚する。"}}}]}]
+execute if score @s Job matches 3 run tellraw @a ["",{"translate":"%1$sは%2$sを纏った！！！","color":"green","with":[{"selector":"@s"},{"translate":"狩人のオーラ","hoverEvent":{"action":"show_text","contents":{"translate":"範囲内のプレイヤーを自動砲台にする。"}}}]}]
+execute if score @s Job matches 4 run tellraw @a ["",{"translate":"%1$sは%2$sを纏った！！！","color":"green","with":[{"selector":"@s"},{"translate":"白魔導士のオーラ","hoverEvent":{"action":"show_text","contents":{"translate":"範囲内のプレイヤーに悪い効果がかからなくなる。"}}}]}]
+execute if score @s Job matches 5 run tellraw @a ["",{"translate":"%1$sは%2$sを纏った！！！","color":"green","with":[{"selector":"@s"},{"translate":"黒魔導士のオーラ","hoverEvent":{"action":"show_text","contents":{"translate":"範囲内のプレイヤーのスキルの消費MPが０になる。"}}}]}]
+execute if score @s Job matches 6 run tellraw @a ["",{"translate":"%1$sは%2$sを纏った！！！","color":"green","with":[{"selector":"@s"},{"translate":"召喚士のオーラ","hoverEvent":{"action":"show_text","contents":{"translate":"範囲内の敵にランダムに弱点属性を付与する。"}}}]}]
+execute if score @s Job matches 7 run tellraw @a ["",{"translate":"%1$sは%2$sを纏った！！！","color":"green","with":[{"selector":"@s"},{"translate":"絡繰士のオーラ","hoverEvent":{"action":"show_text","contents":{"translate":"範囲内のプレイヤーのスキルレベルが１上昇する。"}}}]}]
 # execute if score @s Job matches 8 run tellraw @a ["",{"translate":"%1$sは%2$sを纏った！！！","color":"green","with":[{"selector":"@s"},{"text":"怪盗のオーラ","hoverEvent":{"action":"show_text","contents":{"translate":"ここにバーストの効果を記入"}}}]}]
 
 ## バースト ボスバー

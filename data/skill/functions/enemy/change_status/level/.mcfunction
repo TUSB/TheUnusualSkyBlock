@@ -14,14 +14,18 @@ function enemy:spawn/apply_status/status/defense
 function enemy:spawn/apply_status/status/special_attack
 function enemy:spawn/apply_status/status/special_defense
 #現在HPの補正
-scoreboard players operation @s _ = @s HPMax
+scoreboard players set _ _ 1000
+scoreboard players operation @s HP *= _ _
+scoreboard players operation @s HP /= @s HPMax
 function enemy:spawn/apply_status/status/hp
 scoreboard players operation @s HP *= @s HPMax
-scoreboard players operation @s HP /= @s _
+scoreboard players operation @s HP /= _ _
 #現在MPの補正
-scoreboard players operation @s _ = @s MPMax
+scoreboard players set _ _ 1000
+scoreboard players operation @s MP *= _ _
+scoreboard players operation @s MP /= @s MPMax
 function enemy:spawn/apply_status/status/mp
 scoreboard players operation @s MP *= @s MPMax
-scoreboard players operation @s MP /= @s _
+scoreboard players operation @s MP /= _ _
 #名前の修正
 execute if entity @s[tag=!HideLevel] run function skill:enemy/change_status/level/rename

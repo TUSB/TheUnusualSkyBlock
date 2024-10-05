@@ -7,4 +7,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCau
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Step",Speed:0.8d}],Attack:[{Name:"Damage",Player:{Damage:0d},Distance:{Max:1d},AEC:{Effects:[{Id:14,Amplifier:3b,Duration:600,ShowParticles:false}]}}]}
 #Function
-playsound minecraft:entity.blaze.shoot hostile @a[distance=..32] ~ ~ ~ 5 0.8 0
+playsound minecraft:entity.blaze.shoot hostile @a[distance=..32] ~ ~ ~ 5 0.6 0

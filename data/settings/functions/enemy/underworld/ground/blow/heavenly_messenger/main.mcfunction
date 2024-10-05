@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier3/common",Count:1,Chance:0.3d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier2/common",Count:1,Chance:0.3d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"%1$sは%2$sによって溶解された。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s圧倒的な増殖力と寄生能力を備え、水に擬態する能力、一度触れた敵対生物を凍らせ、身動きが取れなくさせながら溶かす致命的な攻撃力を持つ危険な生物です。この凶悪な存在は簡単にバイオハザードを引き起こす可能性がある為、一匹残らず駆除する必要があるとされている。また本物の水に触れると、その細胞が溶解し死亡する弱点を抱えている。","with":[{"translate":"【能力：移動・物理無効・貫通・凍結・寄生・増殖・引寄無効】","color":"#00FF00"}]}]'
 # AI

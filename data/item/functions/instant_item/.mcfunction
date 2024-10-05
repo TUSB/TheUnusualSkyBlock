@@ -9,5 +9,6 @@ execute if data storage item: InstantInventory[].tag.InstantEffect.RecoverHB run
 
 data remove storage item: InstantInventory
 clear @s mushroom_stew{InstantEffect:{}}
+clear @s #item:stained_glass_pane{InstantEffect:{}}
 #トリガー解除
 advancement revoke @s only item:instant_item

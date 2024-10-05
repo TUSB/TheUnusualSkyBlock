@@ -3,7 +3,8 @@
 scoreboard players operation * ParentID -= @s OhMyDatID
 
 #パーティクル表示
-execute at @e[tag=SkillShortcut,tag=Center,scores={ParentID=0},distance=..10] positioned ^ ^0.85 ^ run function makeup:skill/shortcut/frame
+execute if score @s SkillShortcut matches ..999 at @e[tag=SkillShortcut,tag=Center,scores={ParentID=0},distance=..10] positioned ^ ^0.85 ^ run function makeup:skill/shortcut/frame
+execute if score @s SkillShortcut matches 1000.. at @e[tag=SkillShortcut,tag=Center,scores={ParentID=0},distance=..10] positioned ^ ^0.85 ^ run function makeup:skill/shortcut/modify_frame
 execute anchored eyes positioned ^ ^-0.85 ^5 at @e[tag=SkillShortcut,scores={ParentID=0},distance=..6,limit=1,sort=nearest] positioned ^ ^0.85 ^ run function makeup:skill/shortcut/cursor
 
 #スキルをアイテムにセット

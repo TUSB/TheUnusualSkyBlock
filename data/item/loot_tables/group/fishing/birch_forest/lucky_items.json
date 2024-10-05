@@ -11,6 +11,11 @@
         {
           "weight": 128,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/leaves_bug_memory_star"
+        },
+        {
+          "weight": 128,
+          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/fluffy"
         },
         {
@@ -45,12 +50,35 @@
         {
           "weight": 32,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/leaves_bug_memory_star"
+          "name": "item:item/carrot_on_a_stick/panacea"
         },
         {
-          "weight": 32,
+          "weight": 16,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/panacea"
+          "name": "item:item/tipped_arrow/arrow_of_prayer_lv3",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 12
+              }
+            }
+          ]
+        },
+        {
+          "weight": 16,
+          "type": "loot_table",
+          "name": "item:item/tipped_arrow/arrow_of_defilement_lv3",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 12
+              }
+            }
+          ]
         },
         {
           "weight": 4,

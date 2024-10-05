@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 70
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 200
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 120
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier3/common",Count:1,Chance:1d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier2/common",Count:1,Chance:1d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"%1$sは%2$sを消す方法を誤って実行してしまい削除されてしまった。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s何を検索しますか？ ヒューマン。","with":[{"translate":"【能力：移動・格闘・射的・引寄無効】","color":"#00FF00"}]}]'
 # AI

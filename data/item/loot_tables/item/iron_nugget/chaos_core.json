@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_nugget",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:17,display:{Name:'{\"translate\":\"%7$s%8$s%9$s%10$s%11$s%1$s%2$s%3$s%4$s%5$s%6$s%11$s%10$s%9$s%8$s%7$s\",\"with\": [{\"translate\":\"ケ\",\"color\":\"#FF00CF\",\"bold\":true},{\"translate\":\"イ\",\"color\":\"#FF00E1\",\"bold\":true},{\"translate\":\"オ\",\"color\":\"#FF00CF\",\"bold\":true},{\"translate\":\"ス\",\"color\":\"#FF00BC\",\"bold\":true},{\"translate\":\"コ\",\"color\":\"#FF0089\",\"bold\":true},{\"translate\":\"ア\",\"color\":\"#FF0000\",\"bold\":true},{\"translate\":\"c\",\"color\":\"#A436FF\"},{\"translate\":\"h\",\"color\":\"#B862FF\"},{\"translate\":\"a\",\"color\":\"#CB8DFF\"},{\"translate\":\"o\",\"color\":\"#E6C8FF\"},{\"translate\":\"s\",\"color\":\"#F0DEFF\"}]}',Lore:['{\"translate\":\"魔石によって変質したスポナーの核であり\",\"color\":\"#FF0000\"}','{\"translate\":\"破壊した者の記憶を宿すとされている。\",\"color\":\"#FF0000\"}']}}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

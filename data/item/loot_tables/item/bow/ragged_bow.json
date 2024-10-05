@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:15,display:{Name:'{\"translate\":\"ボロボロの弓\",\"color\":\"#CCCCC\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"ほぼ無価値の量産品。\",\"color\":\"#DDDDDD\",\"italic\":false}']},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:-0.1d,Operation:1,UUID:[I;11,0,0,31],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:5d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:-0.5d,Operation:1,UUID:[I;11,0,0,51],Slot:\"mainhand\"},{AttributeName:\"generic.luck\",Name:\"カスタム\",Amount:-1d,Operation:0,UUID:[I;11,0,0,80],Slot:\"mainhand\"}]}"
+              "tag": "{CustomModelData:15,display:{Name:'{\"translate\":\"ボロボロの弓\",\"color\":\"#CCCCC\",\"bold\":true,\"italic\":false}',Lore:['{\"translate\":\"ほぼ無価値の量産品。\",\"color\":\"#DDDDDD\",\"italic\":false}']},AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:-0.1d,Operation:1,UUID:[I;11,0,0,31],Slot:\"mainhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:14d,Operation:0,UUID:[I;11,0,0,40],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:-0.5d,Operation:1,UUID:[I;11,0,0,51],Slot:\"mainhand\"},{AttributeName:\"generic.luck\",Name:\"カスタム\",Amount:-1d,Operation:0,UUID:[I;11,0,0,80],Slot:\"mainhand\"}]}"
             }
           ]
         }

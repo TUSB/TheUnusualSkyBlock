@@ -22,7 +22,7 @@ execute unless data storage main: {debug:1b} run gamerule doDaylightCycle false
 gamerule showDeathMessages true
 gamerule doTileDrops true
 gamerule universalAnger true
-gamerule playersSleepingPercentage 0
+gamerule playersSleepingPercentage 101
 gamerule snowAccumulationHeight 1
 gamerule doInsomnia true
 gamerule blockExplosionDropDecay true

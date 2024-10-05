@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 128,
+          "type": "loot_table",
+          "name": "item:item/iron_nugget/currency_underworld",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 2
+            }
+          ]
+        },
+        {
+          "weight": 8,
+          "type": "loot_table",
+          "name": "item:item/iron_nugget/currency_underworld",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 4
+            }
+          ]
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/iron_nugget/currency_underworld",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 6
+            }
+          ]
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_nugget/currency_underworld",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": 8
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

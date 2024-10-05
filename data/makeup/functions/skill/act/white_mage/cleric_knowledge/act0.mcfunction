@@ -4,7 +4,7 @@ playsound minecraft:block.note_block.chime master @a[distance=..16] ~ ~ ~ 1 0
 playsound minecraft:block.note_block.chime master @a[distance=..16] ~ ~ ~ 1 0.4
 playsound minecraft:entity.witch.ambient master @a[distance=..16] ~ ~ ~ 1 1.2
 
-execute rotated ~ 0 run summon minecraft:item ^ ^0.5 ^ {NoGravity:true,Motion:[0d,0.005d,0d],Item:{id:"minecraft:writable_book",Count:1b,tag:{Enchantments:[{lvl:1s,id:"minecraft:sharpness"}]}},Age:5930,PickupDelay:32767}
+execute rotated ~ 0 run summon minecraft:item ^ ^0.5 ^ {NoGravity:true,Motion:[0d,0.005d,0d],Item:{id:"minecraft:writable_book",Count:1b,tag:{Enchantments:[{lvl:1s,id:"minecraft:sharpness"}],NoHold:1b}},Age:5930,PickupDelay:32767}
 execute rotated ~ 0 run particle minecraft:enchant ^ ^1.2 ^ 0 0 0 2 100 force
 execute rotated ~ 0 run particle minecraft:portal ^ ^ ^ 0 0 0 2.5 100 force
 

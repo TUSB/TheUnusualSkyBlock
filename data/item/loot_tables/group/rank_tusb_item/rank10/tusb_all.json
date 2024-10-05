@@ -6,6 +6,11 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/bow/amenoha_bow"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/philosophers_staff"
         },
         {
@@ -16,37 +21,117 @@
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/weapon/statue_of_goddess_mercy"
-        },
-        {
-          "weight": 2,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/infinity_netherite_memory_star"
-        },
-        {
-          "weight": 2,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/cosmo_shadow_memory_star"
-        },
-        {
-          "weight": 2,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/cosmo_photon_memory_star"
+          "name": "item:item/carrot_on_a_stick/god_of_waraxe"
         },
         {
           "weight": 1,
           "type": "loot_table",
-          "name": "item:item/gold_nugget/kamui/4"
+          "name": "item:item/carrot_on_a_stick/weapon/statue_of_goddess_mercy"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/cosmo_shadow_memory_star"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/cosmo_photon_memory_star"
         },
         {
           "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/yin_yang/5"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_fire/5"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_ice/5"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_lightning/5"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_light/5"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/boost_dark/5"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/kamui/4"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/protection/5"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/projectile_protection/5"
+        },
+        {
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/gold_nugget/dragon_scale/4"
         },
         {
-          "weight": 2,
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/life/5"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mana/5"
+        },
+        {
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/gold_nugget/evolution/4"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/wave_of_element/5"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/double_break/5"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/harvest_wheat"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/harvest_potato"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/harvest_carrot"
+        },
+        {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/harvest_beetroot"
         },
         {
           "weight": 1,
@@ -54,9 +139,19 @@
           "name": "item:item/magma_cube_spawn_egg/sign/warden_kit"
         },
         {
+          "weight": 3,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/harvest_nether_wart"
+        },
+        {
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/netherite_sword/blade_of_executioner"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/shield/abyss_shield"
         },
         {
           "weight": 1,

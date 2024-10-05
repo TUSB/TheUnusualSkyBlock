@@ -1,1 +1,1 @@
-data modify storage item: Enchant.Value set value [10,20,30,40,50,60,70,80]
+data modify storage item: Enchant.Value set value [7,13,20,27,33,40,47,53]

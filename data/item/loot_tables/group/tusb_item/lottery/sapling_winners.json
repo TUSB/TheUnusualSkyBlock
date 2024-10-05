@@ -4,7 +4,7 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 1,
+          "weight": 16,
           "type": "minecraft:item",
           "name": "minecraft:bamboo",
           "functions": [
@@ -15,7 +15,7 @@
           ]
         },
         {
-          "weight": 1,
+          "weight": 16,
           "type": "minecraft:item",
           "name": "minecraft:birch_sapling",
           "functions": [
@@ -26,7 +26,7 @@
           ]
         },
         {
-          "weight": 1,
+          "weight": 16,
           "type": "minecraft:item",
           "name": "minecraft:dark_oak_sapling",
           "functions": [
@@ -37,7 +37,7 @@
           ]
         },
         {
-          "weight": 1,
+          "weight": 16,
           "type": "minecraft:item",
           "name": "minecraft:jungle_sapling",
           "functions": [
@@ -48,7 +48,7 @@
           ]
         },
         {
-          "weight": 1,
+          "weight": 16,
           "type": "minecraft:item",
           "name": "minecraft:oak_sapling",
           "functions": [
@@ -59,7 +59,7 @@
           ]
         },
         {
-          "weight": 1,
+          "weight": 16,
           "type": "minecraft:item",
           "name": "minecraft:spruce_sapling",
           "functions": [
@@ -70,7 +70,7 @@
           ]
         },
         {
-          "weight": 1,
+          "weight": 16,
           "type": "minecraft:item",
           "name": "minecraft:acacia_sapling",
           "functions": [
@@ -81,7 +81,7 @@
           ]
         },
         {
-          "weight": 1,
+          "weight": 16,
           "type": "minecraft:item",
           "name": "minecraft:crimson_fungus",
           "functions": [
@@ -92,7 +92,7 @@
           ]
         },
         {
-          "weight": 1,
+          "weight": 16,
           "type": "minecraft:item",
           "name": "minecraft:warped_fungus",
           "functions": [
@@ -101,6 +101,11 @@
               "tag": "{display:{Name:'{\"translate\":\"コレが欲しかったんだろ？\",\"color\":\"gold\",\"bold\":true,\"italic\":false}'}}"
             }
           ]
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/iron_sword/world_tree_sword"
         }
       ]
     }

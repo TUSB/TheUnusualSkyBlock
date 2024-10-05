@@ -1,3 +1,5 @@
+execute if data storage skill: Skill{Name:"サモンSオイルドラム",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"サモンSオイルドラム",Level:1}]
+execute if data storage skill: Skill{Name:"サモンSフレンドフィッシュズ",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"サモンSフレンドフィッシュズ",Level:1}]
 execute if data storage skill: Skill{Name:"サモンSメニクル",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"サモンSメニクル",Level:1}]
 execute if data storage skill: Skill{Name:"ソニックバースト",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"ソニックバースト",Level:1}]
 execute if data storage skill: Skill{Name:"墓掘り",Level:1} run data modify storage skill: Skill set from storage skill: Data.Common[{Name:"墓掘り",Level:1}]

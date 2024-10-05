@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 70
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 150
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 150
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier4/common",Count:1,Chance:0.3d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier3/common",Count:1,Chance:0.3d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s黒紫色の魔法を放つ、闇の深淵族","with":[{"translate":"【能力：射的】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Tick:[{Name:"Function",Tags:[Skylands,Ground,Shoot,AbyssMage,Particle]}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:80,Max:120,Current:100},Loop:{Max:1,Current:1},Call:[{Condition:[{Name:"HasTarget",Target:{Look:"Player",Radius:16d,IgnoreBlocks:true}}],Settings:[{Name:"Anchor",Anchor:"Eyes"},{Name:"Direction",Direction:[-180f,0f],Speed:0d,SpeedRange:3d,Absolute:{Vertical:true}}],Name:"Spawn",SpawnEntities:[[{Tags:[Skylands,Ground,Shoot,AbyssMage,Beam],Level:63}]]}]}]}]}

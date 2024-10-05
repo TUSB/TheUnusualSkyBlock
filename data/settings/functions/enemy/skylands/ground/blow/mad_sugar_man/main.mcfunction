@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 150
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 150
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier2/common",Count:1,Chance:0.3d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.3d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s自分ではやめれない。抗えない！このうまさっ！","with":[{"translate":"【能力：反撃】","color":"#00FF00"}]}]'
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Name:"Function",Tags:[Global,Event,Function,EtcSound,Eat]},{Condition:[{Name:"MP",MP:10}],Name:"Heal",Multiplier:1d,Range:0.1},{Condition:[{Name:"MinMP",MP:10}],Name:"ChangeStatus",HP:{Add:10,Limit:500},Attack:{Add:4}},{Condition:[{Name:"MinHP",Inverse:true,HP:5,Percent:true}],Name:"Reraise",RaiseCount:2}]}

@@ -28,6 +28,6 @@ execute if entity @s[tag=WildFlareSeed] run kill @s
 execute if entity @s[tag=PomPom] run function skill:act/summoner/pompom/block
 
 tag @s[tag=KillInGround] add Garbage
-execute if entity @s[tag=HasSkillSnowball] run kill @e[tag=SkillSnowball,distance=..0.5]
+execute if entity @s[tag=HasSkillDisplay] on passengers run kill @s[tag=SkillDisplay]
 
 kill @s[type=minecraft:trident,tag=!BlastSpark]

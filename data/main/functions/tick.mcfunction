@@ -43,7 +43,7 @@ execute as @e[tag=CooldownRequired,nbt={PortalCooldown:0}] at @s run function en
 execute as @e[tag=Garbage] run function entity:garbage_collection
 
 ### 通常世界脅威島 チェストの上の石は壊れない
-execute in area:skylands positioned 39 6 -557 if entity @a[distance=..10] if block 39 7 -556 air if block 39 6 -556 chest run setblock 39 7 -556 smooth_stone
+execute in area:skylands positioned 39 6 -557 if entity @a[distance=..10] if block 39 7 -556 air if block 39 6 -556 chest run setblock 39 7 -556 infested_deepslate
 
 ### 固定村人 奈落落ち回避
-execute as @e[type=villager,tag=!Mob] at @s if entity @s[y=-51,dy=50] in area:skylands run tp -95.5 32.0 -629.5
+execute as @e[type=villager,tag=!Mob] at @s if entity @s[y=-51,dy=50] run function area:villager_point/tp

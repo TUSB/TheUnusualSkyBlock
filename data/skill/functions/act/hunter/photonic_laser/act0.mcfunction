@@ -9,6 +9,6 @@ execute positioned ^ ^ ^18 as @e[tag=PhotonicLaser,tag=!Initialized,distance=..0
 #ダメージ
 execute if score _ Level matches 1 run data modify storage skill: Damage set from storage skill: Data.Hunter[{Name:"フォトニックレーザー",Level:1}].Damage
 execute if score _ Level matches 2 run data modify storage skill: Damage set from storage skill: Data.Hunter[{Name:"フォトニックレーザー",Level:2}].Damage
-function skill:damage/add/skill/magic
+function skill:damage/add/skill/weapon
 #ダメージを保存
 execute positioned ^ ^ ^18 as @e[tag=PhotonicLaser,tag=!Initialized,distance=..0.01] run function skill:damage/save
