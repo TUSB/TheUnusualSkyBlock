@@ -9,7 +9,9 @@
           "type": "minecraft:player",
           "type_specific": {
             "type": "player",
-            "gamemode": "survival"
+            "gamemode": [
+              "survival"
+            ]
           }
         }
       },
@@ -20,7 +22,9 @@
           "type": "minecraft:player",
           "type_specific": {
             "type": "player",
-            "gamemode": "adventure"
+            "gamemode": [
+              "adventure"
+            ]
           }
         }
       }
