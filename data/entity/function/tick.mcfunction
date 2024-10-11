@@ -5,3 +5,6 @@
 
 ### エンティティ初期化
 execute as @e[tag=!Initialized] at @s run function entity:initialize_entity
+
+### エンティティ削除 - 最後に実行
+execute as @e[tag=Garbage] run function entity:garbage_collection
