@@ -1,0 +1,10 @@
+{
+  "criteria": {
+      "slept_in_bed": {
+          "trigger": "minecraft:slept_in_bed"
+      }
+  },
+  "rewards": {
+      "function": "player:trigger/slept_in_bed/"
+  }
+}
