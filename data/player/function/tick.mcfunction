@@ -10,3 +10,5 @@ execute if entity @s[scores={UseTrident=1..}] run function player:trigger/use/tr
 execute if entity @s[scores={UseCarrotStick=1..}] run function player:trigger/use/carrot_on_a_stick
 # execute if entity @s[scores={UseFungusStick=1..}] run function player:trigger/use/warped_fungus_on_a_stick
 execute if entity @s[scores={UseMagmaCubeEgg=1..}] run function player:trigger/use/magma_cube_spawn_egg
+execute if entity @s[scores={SneakTime=1..}] run function player:trigger/sneak
+execute if entity @s[scores={SneakFrequency=1..}] run function player:trigger/sneak_frequency
