@@ -1,3 +1,4 @@
+#> player:trigger/use/carrot_on_a_stick
 #装備を取得
 function player:load_equipments
 #スキル
