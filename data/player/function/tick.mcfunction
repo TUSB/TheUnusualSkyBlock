@@ -5,3 +5,4 @@
 
 ### トリガー
 execute if entity @s[scores={UseBow=1..}] run function player:trigger/use/bow
+execute if entity @s[scores={UseCrossbow=1..}] run function player:trigger/use/crossbow
