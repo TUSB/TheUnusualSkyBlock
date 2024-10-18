@@ -1,4 +1,4 @@
-
+#> player:trigger/damage_taken
 ### 被ダメージトリガー
 
 ## トント 被ダメージ処理
