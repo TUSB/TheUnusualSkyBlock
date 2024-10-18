@@ -12,3 +12,4 @@ execute if entity @s[scores={UseCarrotStick=1..}] run function player:trigger/us
 execute if entity @s[scores={UseMagmaCubeEgg=1..}] run function player:trigger/use/magma_cube_spawn_egg
 execute if entity @s[scores={SneakTime=1..}] run function player:trigger/sneak
 execute if entity @s[scores={SneakFrequency=1..}] run function player:trigger/sneak_frequency
+execute if entity @s[scores={DamageTaken=0..}] run function player:trigger/damage_taken
