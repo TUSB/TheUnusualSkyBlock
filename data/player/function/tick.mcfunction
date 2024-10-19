@@ -16,3 +16,4 @@ execute if entity @s[scores={DamageTaken=0..}] run function player:trigger/damag
 execute if entity @s[scores={Jump=1..}] run function player:trigger/jump
 execute if entity @s[scores={Talk=1..}] run function player:trigger/talk/
 execute if entity @s[scores={Trade=1..}] run function player:trigger/trade/
+execute if entity @s[scores={FoodLevel=1..}] run function player:trigger/food
