@@ -15,3 +15,4 @@ execute if entity @s[scores={SneakFrequency=1..}] run function player:trigger/sn
 execute if entity @s[scores={DamageTaken=0..}] run function player:trigger/damage_taken
 execute if entity @s[scores={Jump=1..}] run function player:trigger/jump
 execute if entity @s[scores={Talk=1..}] run function player:trigger/talk/
+execute if entity @s[scores={Trade=1..}] run function player:trigger/trade/
