@@ -1,4 +1,4 @@
-
+#> calc:set/random_pose_head
 ### 頭のポーズをランダムにする
 
 data merge entity @s {Pose:{Head:[0.1f,0.1f,0.1f]}}

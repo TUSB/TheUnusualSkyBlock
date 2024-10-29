@@ -1,4 +1,4 @@
-
+#> calc:set/random_rotation
 ### 向きをランダムにする
 
 execute store result score _ Random run function calc:random
