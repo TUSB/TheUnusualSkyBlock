@@ -1,0 +1,477 @@
+{
+  "criteria": {
+    "block": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": true
+        }
+      }
+    },
+    "4_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 0.0,
+            "max": 4.0
+          }
+        }
+      }
+    },
+    "8_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 4.0,
+            "max": 8.0
+          }
+        }
+      }
+    },
+    "12_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 8.0,
+            "max": 12.0
+          }
+        }
+      }
+    },
+    "16_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 12.0,
+            "max": 16.0
+          }
+        }
+      }
+    },
+    "20_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 16.0,
+            "max": 20.0
+          }
+        }
+      }
+    },
+    "24_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 20.0,
+            "max": 24.0
+          }
+        }
+      }
+    },
+    "28_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 24.0,
+            "max": 28.0
+          }
+        }
+      }
+    },
+    "32_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 28.0,
+            "max": 32.0
+          }
+        }
+      }
+    },
+    "36_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 32.0,
+            "max": 36.0
+          }
+        }
+      }
+    },
+    "40_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 36.0,
+            "max": 40.0
+          }
+        }
+      }
+    },
+    "44_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 40.0,
+            "max": 44.0
+          }
+        }
+      }
+    },
+    "48_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 44.0,
+            "max": 48.0
+          }
+        }
+      }
+    },
+    "52_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 48.0,
+            "max": 52.0
+          }
+        }
+      }
+    },
+    "56_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 52.0,
+            "max": 56.0
+          }
+        }
+      }
+    },
+    "60_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 56.0,
+            "max": 60.0
+          }
+        }
+      }
+    },
+    "64_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 60.0,
+            "max": 64.0
+          }
+        }
+      }
+    },
+    "68_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 64.0,
+            "max": 68.0
+          }
+        }
+      }
+    },
+    "72_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 68.0,
+            "max": 72.0
+          }
+        }
+      }
+    },
+    "76_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 72.0,
+            "max": 76.0
+          }
+        }
+      }
+    },
+    "80_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 76.0,
+            "max": 80.0
+          }
+        }
+      }
+    },
+    "84_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 80.0,
+            "max": 84.0
+          }
+        }
+      }
+    },
+    "88_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 84.0,
+            "max": 88.0
+          }
+        }
+      }
+    },
+    "92_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 88.0,
+            "max": 92.0
+          }
+        }
+      }
+    },
+    "96_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 92.0,
+            "max": 96.0
+          }
+        }
+      }
+    },
+    "100_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 96.0,
+            "max": 100.0
+          }
+        }
+      }
+    },
+    "104_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 100.0,
+            "max": 104.0
+          }
+        }
+      }
+    },
+    "108_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 104.0,
+            "max": 108.0
+          }
+        }
+      }
+    },
+    "112_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 108.0,
+            "max": 112.0
+          }
+        }
+      }
+    },
+    "116_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 112.0,
+            "max": 116.0
+          }
+        }
+      }
+    },
+    "120_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 116.0,
+            "max": 120.0
+          }
+        }
+      }
+    },
+    "124_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 120.0,
+            "max": 124.0
+          }
+        }
+      }
+    },
+    "128_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 124.0,
+            "max": 128.0
+          }
+        }
+      }
+    },
+    "132_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 128.0,
+            "max": 132.0
+          }
+        }
+      }
+    },
+    "136_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 132.0,
+            "max": 136.0
+          }
+        }
+      }
+    },
+    "140_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 136.0,
+            "max": 140.0
+          }
+        }
+      }
+    },
+    "144_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 140.0,
+            "max": 144.0
+          }
+        }
+      }
+    },
+    "148_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 144.0,
+            "max": 148.0
+          }
+        }
+      }
+    },
+    "150_damage_taken": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "dealt": {
+            "min": 148.0
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "block"
+    ],
+    [
+      "4_damage_taken",
+      "8_damage_taken",
+      "12_damage_taken",
+      "16_damage_taken",
+      "20_damage_taken",
+      "24_damage_taken",
+      "28_damage_taken",
+      "32_damage_taken",
+      "36_damage_taken",
+      "40_damage_taken",
+      "44_damage_taken",
+      "48_damage_taken",
+      "52_damage_taken",
+      "56_damage_taken",
+      "60_damage_taken",
+      "64_damage_taken",
+      "68_damage_taken",
+      "72_damage_taken",
+      "76_damage_taken",
+      "80_damage_taken",
+      "84_damage_taken",
+      "88_damage_taken",
+      "92_damage_taken",
+      "96_damage_taken",
+      "100_damage_taken",
+      "104_damage_taken",
+      "108_damage_taken",
+      "112_damage_taken",
+      "116_damage_taken",
+      "120_damage_taken",
+      "124_damage_taken",
+      "128_damage_taken",
+      "132_damage_taken",
+      "136_damage_taken",
+      "140_damage_taken",
+      "144_damage_taken",
+      "148_damage_taken",
+      "150_damage_taken"
+    ]
+  ],
+  "rewards": {
+    "function": "player:trigger/use/shield"
+  }
+}
