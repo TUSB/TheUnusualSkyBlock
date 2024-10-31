@@ -1,4 +1,4 @@
-
+#> calc:bit/drop
 ## BitFlagsのDigit桁目のフラグを落とす
 
 # 今、フラグが立っているかを確認

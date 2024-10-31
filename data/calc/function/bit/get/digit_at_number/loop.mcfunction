@@ -1,4 +1,4 @@
-
+#> calc:bit/get/digit_at_number/loop
 ## digit at number のサブルーチン
 
 # 桁を減らす

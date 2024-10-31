@@ -1,4 +1,4 @@
-
+#> calc:bit/rotate/left
 ## bigflagを左に循環シフト
 
 # スコアに移動

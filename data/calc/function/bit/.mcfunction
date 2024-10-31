@@ -1,4 +1,4 @@
-
+#> calc:bit/
 ## calc: Bit に情報を入れてこのファンクションを実行する
 
 #> calc: Bit

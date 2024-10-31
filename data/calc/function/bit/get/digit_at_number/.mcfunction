@@ -1,4 +1,4 @@
-
+#> calc:bit/get/digit_at_number/
 ## BitFlagsの上からNumber番目に出てくるBitの桁数を返す
 
 # 引数初期化

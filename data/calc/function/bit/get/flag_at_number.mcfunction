@@ -1,4 +1,4 @@
-
+#> calc:bit/get/flag_at_number
 ## BitFlagsの上からNumber番目に出てくるBitのFlagを返す
 
 # 何桁目になるか算出

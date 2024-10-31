@@ -1,4 +1,4 @@
-
+#> calc:bit/get/flag_of_digit
 ## Digit桁目だけにBitが立っているFlagを返す
 
 # Digit桁目ということはDigit-1乗

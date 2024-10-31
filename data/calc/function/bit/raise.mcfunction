@@ -1,4 +1,4 @@
-
+#> calc:bit/raise
 ## BitFlagsのDigit桁目のフラグを立てる
 
 # 今、フラグが立っているかを確認

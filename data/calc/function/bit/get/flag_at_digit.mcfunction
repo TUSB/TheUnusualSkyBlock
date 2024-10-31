@@ -1,4 +1,4 @@
-
+#> calc:bit/get/flag_at_digit
 ## Digit桁目のBitのBitFlagを返す
 
 function calc:bit/get/bit_at_digit
