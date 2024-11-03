@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:trident",
+    "minecraft:carrot_on_a_stick",
+    "#item:swords",
+    "#item:bows",
+    "#item:tools"
+  ]
+}
