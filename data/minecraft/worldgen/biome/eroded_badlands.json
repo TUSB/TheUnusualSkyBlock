@@ -1,5 +1,4 @@
 {
-  "scale": 0.025,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -14,7 +13,6 @@
     "water_color": 11330039,
     "water_fog_color": 3343652
   },
-  "surface_builder": "minecraft:nope",
   "carvers": {},
   "features": [
     [],
@@ -28,7 +26,6 @@
     [],
     []
   ],
-  "starts": [],
   "spawners": {
     "monster": [
       {
@@ -45,10 +42,7 @@
     "misc": []
   },
   "spawn_costs": {},
-  "player_spawn_friendly": false,
   "has_precipitation": true,
   "temperature": 0.5,
-  "downfall": 0.5,
-  "category": "none",
-  "depth": 0.0
+  "downfall": 0.5
 }
