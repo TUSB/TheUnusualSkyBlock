@@ -2,7 +2,7 @@
 #OhMyDat登録
 function #oh_my_dat:please
 
-function player:rise/none_spawn_point
+execute unless data storage main: difficult{world:"debug"} run function player:rise/none_spawn_point
 
 #各種初期化
 data modify storage job: JobStatus set value [{},{},{},{},{},{},{},{},{}]
