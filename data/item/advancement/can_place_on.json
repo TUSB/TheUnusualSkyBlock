@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "#item:adv_can_place"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "item:can_place_on/trigger"
+  }
+}
