@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:slime",Team:"Friendly",Tags:[Mob,DelayedData,HasAI,TickingRequired,AnalyseLog,"BeforeEvolution","Pixely","Unmoved"],Silent:1b,NoAI:1b,Size:0,ActiveEffects:[{Id:12,Amplifier:0b,Duration:-1,ShowParticles:0b},{Id:14,Amplifier:0b,Duration:-1,ShowParticles:0b},{Id:28,Amplifier:0b,Duration:-1,ShowParticles:0b}],CustomName:'{"translate":"フレンド・フローズンピクセリー","color":"#FFFF00","bold":true}',PortalCooldown:1000,DeathLootTable:"empty"}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:slime",Team:"Friendly",Tags:[Mob,DelayedData,HasAI,TickingRequired,AnalyseLog,"BeforeEvolution","Pixely","Unmoved"],Silent:1b,NoAI:1b,Size:0,active_effects:[{id:"minecraft:fire_resistance",amplifier:0b,duration:-1,show_particles:0b},{id:"minecraft:invisibility",amplifier:0b,duration:-1,show_particles:0b},{id:"minecraft:slow_falling",amplifier:0b,duration:-1,show_particles:0b}],CustomName:'{"translate":"フレンド・フローズンピクセリー","color":"#FFFF00","bold":true}',PortalCooldown:1000,DeathLootTable:"empty"}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 0d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0d

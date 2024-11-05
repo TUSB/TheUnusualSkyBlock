@@ -64,11 +64,6 @@
           "name": "item:item/carrot_on_a_stick/sapling_bug_memory_star"
         },
         {
-          "weight": 16,
-          "type": "loot_table",
-          "name": "item:item/diamond_boots/tier5_diamond_boots"
-        },
-        {
           "weight": 20,
           "type": "loot_table",
           "name": "item:item/diamond_boots/infinity_diamond_b"

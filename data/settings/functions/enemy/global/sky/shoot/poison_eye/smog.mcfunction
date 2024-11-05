@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:area_effect_cloud",Radius:2f,Duration:400,Effects:[{Id:19,Amplifier:3b,Duration:100}],Tags:[DelayedData,HasAI,CallOnTick]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:area_effect_cloud",Radius:2f,Duration:400,effects:[{id:"minecraft:poison",amplifier:3b,duration:100}],Tags:[DelayedData,HasAI,CallOnTick]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {Particle:"dust 0 0.3 0.1 1.5"}
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Tick:[{Name:"Function",Tags:[Global,Sky,Shoot,PoisonEye,SmogTick]}]}

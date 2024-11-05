@@ -164,6 +164,26 @@
           "name": "item:item/magma_cube_spawn_egg/sign/trade_all"
         },
         {
+          "weight": 8,
+          "type": "loot_table",
+          "name": "item:item/netherite_boots/infinity_netherite_b"
+        },
+        {
+          "weight": 8,
+          "type": "loot_table",
+          "name": "item:item/netherite_chestplate/infinity_netherite_c"
+        },
+        {
+          "weight": 8,
+          "type": "loot_table",
+          "name": "item:item/netherite_helmet/infinity_netherite_h"
+        },
+        {
+          "weight": 8,
+          "type": "loot_table",
+          "name": "item:item/netherite_leggings/infinity_netherite_l"
+        },
+        {
           "weight": 1,
           "type": "loot_table",
           "name": "item:item/shield/shield_of_foreign_law"

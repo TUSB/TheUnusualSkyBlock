@@ -1,7 +1,7 @@
 
 ### キャンドル発動
 
-execute if block ~ ~2.1 ~ minecraft:air run summon minecraft:endermite ~ ~2.1 ~ {Tags:[Skill,Candle,NativeTask,TickingRequired],Fire:1200s,ActiveEffects:[{Id:14,Amplifier:0b,Duration:1200,ShowParticles:true}],Invulnerable:true,Silent:true,NoAI:true}
+execute if block ~ ~2.1 ~ minecraft:air run summon minecraft:endermite ~ ~2.1 ~ {Tags:[Skill,Candle,NativeTask,TickingRequired],Fire:1200s,active_effects:[{id:"minecraft:invisibility",amplifier:0b,duration:1200,show_particles:true}],Invulnerable:true,Silent:true,NoAI:true}
 
 execute store result score _ _ run data get entity @s Pos[1] -1
 scoreboard players add _ _ 300

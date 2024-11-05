@@ -126,11 +126,6 @@
         {
           "weight": 19,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier1_chainmail_memory_star"
-        },
-        {
-          "weight": 19,
-          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/infinity_leather_memory_star"
         },
         {

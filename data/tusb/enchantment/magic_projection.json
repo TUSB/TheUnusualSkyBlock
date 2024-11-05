@@ -1,0 +1,50 @@
+{
+  "description": {
+    "translate": "魔法耐性",
+    "color":"green"
+  },
+  "supported_items": "#minecraft:enchantable/armor",
+  "weight": 1,
+  "max_level": 16,
+  "min_cost": {
+    "base": 2147483647,
+    "per_level_above_first": 0
+  },
+  "max_cost": {
+    "base": 2147483647,
+    "per_level_above_first": 0
+  },
+  "anvil_cost": 2147483647,
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:damage_protection": [
+      {
+        "effect": {
+          "type": "minecraft:set",
+          "value": {
+            "type": "minecraft:linear",
+            "base": 1.25,
+            "per_level_above_first": 1.25
+          }
+        },
+        "requirements": {
+          "condition": "minecraft:damage_source_properties",
+          "predicate": {
+            "tags": [
+              {
+                "expected": true,
+                "id": "tusb:is_physics"
+              },
+              {
+                "expected": false,
+                "id": "minecraft:bypasses_invulnerability"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

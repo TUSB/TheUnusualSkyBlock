@@ -8,8 +8,8 @@ execute if entity @s[type=#minecraft:arrows,nbt={pickup:0b}] unless score @s Att
 data modify entity @s[type=#minecraft:arrows,nbt={pickup:0b,damage:0d}] damage set value 2d
 
 ### 雪玉系のダメージ設定
-#NoGravityを反転->2tick後に反転させて描画を直す
-execute if entity @s[type=#entity:non_damage_projectiles,tag=DelayedData] run function entity:initialize_snowball/
+#微小なダメージを与えて描画を直す
+execute if entity @s[type=#entity:non_damage_projectiles,tag=DelayedData] run damage @s 0.001
 
 ### CallOnAttack設定
 tag @s[tag=CallOnAttack] add CallOnAttackProjectile

@@ -1,5 +1,5 @@
 ### 即時ステータス
 data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:potion",CustomName:'{"translate":"禁忌・冥界落とし","color":"#007D49","bold":true}',PortalCooldown:100,Tags:[DelayedData,HasAI,CallOnInit,CallOnAttack,CooldownRequired,DamageProjectile,FriendlyProjectile]}
-data modify storage tusb_mob: "即時ステータス"."見た目" set value {Item:{id:"minecraft:firework_star",Count:1b,tag:{CustomModelData:59,CustomPotionColor:32073,CustomPotionEffects:[{Id:2,Amplifier:3b,Duration:600},{Id:20,Amplifier:3b,Duration:600}]}}}
+data modify storage tusb_mob: "即時ステータス"."見た目" set value {Item:{id:"minecraft:firework_star",Count:1b,tag:{CustomModelData:59,CustomPotionColor:32073,custom_potion_effects:[{id:"slowness",amplifier:3b,duration:600},{id:"wither",amplifier:3b,duration:600}]}}}
 # AI
 data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Settings:[{Name:"Rotation",Direction:[-6f,-6f],DirectionRange:[12f,12f]},{Name:"Direction",Speed:2d}],Name:"Step",Speed:2d}],Attack:[{Name:"Damage",Mob:{Fire:100,Ice:100,Dark:100,Hit:true},Distance:{Min:0.1d,Max:3d}}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:2,Max:2,Current:2},Call:[{Name:"Function",Tags:[Global,Event,Bullet,ContraindicatedHellDrop,Particle]}]}]}],ProjectileDamage:{Fire:30,Ice:30,Dark:30}}

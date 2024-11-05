@@ -1,1 +1,0 @@
-execute in area:extra_domain run tp @s -625 44 -438 90 0

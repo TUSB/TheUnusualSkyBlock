@@ -1,0 +1,97 @@
+name: ChatGPT Code Review
+on:
+  pull_request:
+    types: [opened, synchronize]
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Get Changed .mcfunction Files
+        id: get_changed_files
+        run: |
+          git fetch origin ${{ github.event.pull_request.base.ref }} --depth=1
+          CHANGED_FILES=$(git diff --name-only origin/${{ github.event.pull_request.base.ref }} HEAD)
+          echo "$CHANGED_FILES" | grep '\.mcfunction$' > changed_files.txt
+          echo "::set-output name=files::$(cat changed_files.txt | paste -sd ',' -)"
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+
+      - name: Install Dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install requests
+
+      - name: Run ChatGPT Review
+        if: steps.get_changed_files.outputs.files != ''
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          import os
+          import requests
+          import json
+
+          # Get the changed .mcfunction files
+          files = "${{ steps.get_changed_files.outputs.files }}".split(',')
+          pr_number = "${{ github.event.pull_request.number }}"
+          repo = "${{ github.repository }}"
+
+          comments = ""
+
+          openai_api_key = os.getenv('OPENAI_API_KEY')
+          github_token = os.getenv('GITHUB_TOKEN')
+
+          for file_path in files:
+              with open(file_path, 'r') as file:
+                  code = file.read()
+
+              prompt = f"Review the following mcfunction code and provide feedback on improvements and best practices:\n\nFile: {file_path}\n\n{code}"
+
+              headers = {
+                  'Content-Type': 'application/json',
+                  'Authorization': f'Bearer {openai_api_key}',
+              }
+
+              data = {
+                  'model': 'gpt-4',
+                  'messages': [{'role': 'user', 'content': prompt}],
+                  'max_tokens': 500,
+                  'n': 1,
+                  'temperature': 0.7,
+              }
+
+              response = requests.post('https://api.openai.com/v1/chat/completions', headers=headers, json=data)
+              response_json = response.json()
+
+              if response.status_code == 200:
+                  review = response_json['choices'][0]['message']['content']
+                  comments += f"### {file_path}\n\n{review}\n\n"
+              else:
+                  print(f"Error reviewing {file_path}: {response_json}")
+                  continue
+
+          if comments:
+              comment_body = f"## ChatGPT Code Review\n\n{comments}"
+
+              headers = {
+                  'Authorization': f'token {github_token}',
+                  'Accept': 'application/vnd.github.v3+json',
+              }
+
+              data = {
+                  'body': comment_body,
+              }
+
+              pr_comments_url = f"https://api.github.com/repos/{repo}/issues/{pr_number}/comments"
+              response = requests.post(pr_comments_url, headers=headers, json=data)
+
+              if response.status_code == 201:
+                  print("Successfully posted review comments.")
+              else:
+                  print(f"Failed to post comments: {response.json()}")

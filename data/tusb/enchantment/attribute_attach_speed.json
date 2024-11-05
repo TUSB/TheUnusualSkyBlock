@@ -1,0 +1,35 @@
+{
+  "description": {
+    "translate": "俊腕",
+    "color": "yellow"
+  },
+  "supported_items": "#tusb:weapon",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 9
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 9
+  },
+  "anvil_cost": 10,
+  "slots": [
+    "hand"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "attack_speed",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 5,
+          "per_level_above_first": 5
+        },
+        "operation": "add_value"
+      }
+    ]
+  }
+}

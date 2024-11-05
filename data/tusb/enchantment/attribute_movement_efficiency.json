@@ -1,0 +1,36 @@
+{
+  "description": {
+    "translate": "4WD",
+    "color": "yellow"
+  },
+  "supported_items": "#minecraft:enchantable/leg_armor",
+  "exclusive_set": "#tusb:scale",
+  "weight": 1,
+  "max_level": 5,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 9
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 9
+  },
+  "anvil_cost": 1,
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "movement_efficiency",
+        "attribute": "minecraft:generic.movement_efficiency",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.2,
+          "per_level_above_first": 0.2
+        },
+        "operation": "add_value"
+      }
+    ]
+  }
+}

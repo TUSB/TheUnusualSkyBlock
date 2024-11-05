@@ -23,4 +23,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法�
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.3d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s標準的なスパイダーです。","with":[{"translate":"【能力：追撃・麻痺】","color":"#00FF00"}]}]'
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Name:"Damage",Player:{Damage:0d},Distance:{Max:0d},AEC:{Effects:[{Id:14,Amplifier:5b,Duration:5,ShowParticles:false}]},Condition:[{Name:"RandomChance",Chance:0.04d}]}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Name:"Damage",Player:{Damage:0d},Distance:{Max:0d},AEC:{effects:[{id:"minecraft:invisibility",amplifier:5b,duration:5,show_particles:false}]},Condition:[{Name:"RandomChance",Chance:0.04d}]}]}

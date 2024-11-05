@@ -5,6 +5,6 @@ data modify storage tusb_mob: "即時ステータス"."見た目" set value {Ite
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 150
 data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"%1$sは%2$sの炎によって消し炭となった。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Step",Speed:1d}],Attack:[{Name:"Damage",Player:{DeathCause:'[{"translate":"%1$sは%2$sの炎によって消し炭となった。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'},Distance:{Max:1d},AEC:{Effects:[{Id:14,Amplifier:3b,Duration:60,ShowParticles:false}]}}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Step",Speed:1d}],Attack:[{Name:"Damage",Player:{DeathCause:'[{"translate":"%1$sは%2$sの炎によって消し炭となった。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'},Distance:{Max:1d},AEC:{effects:[{id:"minecraft:invisibility",amplifier:3b,duration:60,show_particles:false}]}}]}
 #Function
 playsound minecraft:entity.blaze.shoot hostile @a[distance=..32] ~ ~ ~ 5 0.4 0
