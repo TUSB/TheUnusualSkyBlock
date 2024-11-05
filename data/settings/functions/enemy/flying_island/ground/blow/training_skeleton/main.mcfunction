@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:skeleton",Tags:[Mob,Enemy,DelayedData,TickingRequired,AnalyseLog,"NoLootTableAdd","NonBurst"],CustomName:'{"translate":"訓練用スケルトン","color":"#FFFFFF","bold":true}',PortalCooldown:3000,DeathLootTable:"empty"}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:skeleton",Tags:[Mob,Enemy,DelayedData,TickingRequired,AnalyseLog,"NoLootTableAdd","NonBurst","Training"],CustomName:'{"translate":"訓練用スケルトン","color":"#FFFFFF","bold":true}',PortalCooldown:3000,DeathLootTable:"empty"}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {ArmorItems:[{},{},{},{id:"minecraft:stick",Count:1b,tag:{CustomModelData:1,Unbreakable:true}}],ArmorDropChances:[-1E40f,-1E40f,-1E40f,-1E40f]}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 32d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.25d

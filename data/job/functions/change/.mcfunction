@@ -1,4 +1,7 @@
 
+# バースト強制終了
+execute if score @s Burst matches 1.. run function skill:burst/finish
+
 function job:status/operation_start
 
 # 前の職業のデータをセーブ
@@ -28,3 +31,6 @@ execute if score @s Exp >= @s RequiredExp run function job:level_up/
 
 # トグルスキルリセット
 function skill:toggle_reset
+
+# 職業変更制限 転職後スキル発実行フラグ
+scoreboard players set @s ChangeJobLock -1

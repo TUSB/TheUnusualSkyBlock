@@ -6,8 +6,9 @@
 function #oh_my_dat:please
 data modify storage skill: RaderVision set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].RaderVision
 data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].RaderVision
-function calc:geometry/tp_00000
-execute as 0-0-0-0-0 run function skill:act/hunter/rader_vision/return1
+data modify storage anywhere: at set from storage skill: RaderVision
+function #anywhere:tp
+execute at @s run kill @e[tag=RaderVisionPoint,distance=..0.01]
 ### リセット
 scoreboard players reset @s RaderVision
 execute if data storage skill: RaderVision.Adventure run gamemode adventure @s

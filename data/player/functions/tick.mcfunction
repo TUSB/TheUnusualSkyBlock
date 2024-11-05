@@ -2,6 +2,9 @@
 ### プレイヤー毎ティック処理
 ##############################
 
+### MCID変更検知
+execute if entity @s[team=,tag=Initialized] run function player:mcid_change_detected
+
 ### 生き返り後処理
 execute if entity @s[scores={Hunger=0..,Age=1..}] run function player:rise/
 
@@ -30,6 +33,7 @@ execute if entity @s[scores={Jump=1..}] run function player:trigger/jump
 execute if entity @s[scores={Talk=1..}] run function player:trigger/talk/
 execute if entity @s[scores={Trade=1..}] run function player:trigger/trade/
 execute if entity @s[scores={FoodLevel=1..}] run function player:trigger/food
+execute if entity @s[scores={kill=1..}] run function player:trigger/kill
 
 ### スキル
 function skill:tick_player

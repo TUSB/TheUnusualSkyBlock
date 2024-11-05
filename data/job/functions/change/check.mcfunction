@@ -8,8 +8,11 @@ execute store result score _ ChangeJob run function calc:bit/
 execute if score _ ChangeJob matches 1 run scoreboard players add @s ChangeJob 32
 execute if score _ ChangeJob matches 0 run scoreboard players reset @s ChangeJob
 
-execute if score @s ChangeJobLock matches ..0 if score @s ChangeJob matches 1.. run function job:change/
-execute if score @s ChangeJobLock matches 1.. run function makeup:job/change/failed
+execute store result score _ ChangeJobLock run time query gametime
+scoreboard players operation _ ChangeJobLock -= @s ChangeJobLock
+
+execute if score _ ChangeJobLock matches 1.. if score @s ChangeJob matches 1.. run function job:change/
+execute if score _ ChangeJobLock matches ..0 run function makeup:job/change/failed
 
 # トリガーリセット
 scoreboard players reset @s ChangeJob

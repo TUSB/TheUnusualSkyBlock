@@ -21,22 +21,23 @@ scoreboard players operation # _ -= # Calc
 
 # # _が -1 ~ 1 以外なら符号反転
 execute unless score # _ matches -1..1 run scoreboard players operation # _ *= @s _
-# # _が 0 なら3回前の変化の2倍
+# # _が 0 なら3回前の変化のINT(買値/2)倍
 execute if score # _ matches 0 store result score _ Calc run data get storage mob_data: StockVillager.StockInfo[-1].History[-4]
 execute if score # _ matches 0 store result score # Calc run data get storage mob_data: StockVillager.StockInfo[-1].History[-3]
 execute if score # _ matches 0 run scoreboard players operation # Calc -= _ Calc
-execute if score # _ matches 0 if score # Calc matches ..-1 run scoreboard players operation # Calc *= @s _
+execute if score # _ matches 0 store result score _ _ run data get storage mob_data: StockVillager.StockInfo[-1].BuyCount 0.5
+execute if score # _ matches 0 if score # Calc matches ..-1 run scoreboard players operation _ _ *= @s _
+execute if score # _ matches 0 run scoreboard players operation # Calc *= _ _
 execute if score # _ matches 0 run scoreboard players operation # _ = # Calc
-execute if score # _ matches 0 run scoreboard players operation # _ += # Calc
 
 #tellraw @a ["影響値: ",{"score":{"name":"#","objective":"_"}}]
 
 # 変動値を求める
-# 基本は -12 ~ 1
+# 基本は -10 ~ 1
 execute store result score _ Random run function calc:random
-scoreboard players set _ _ 14
+scoreboard players set _ _ 12
 scoreboard players operation _ Random %= _ _
-scoreboard players remove _ Random 12
+scoreboard players remove _ Random 10
 
 #tellraw @a ["乱数: ",{"score":{"name":"_","objective":"Random"}}]
 

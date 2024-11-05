@@ -21,42 +21,27 @@
         {
           "weight": 1,
           "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/strong_shuriken"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/lunatic_wand"
         },
         {
-          "weight": 2,
+          "weight": 1,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/infinity_iron_memory_star"
+          "name": "item:item/carrot_on_a_stick/entity/salmon_susi"
         },
         {
-          "weight": 2,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/pretty_clothes_with_splinter_memory_star"
         },
         {
-          "weight": 2,
+          "weight": 5,
           "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/the_wind_memory_star"
-        },
-        {
-          "weight": 6,
-          "type": "loot_table",
-          "name": "item:item/diamond_boots/infinity_diamond_b"
-        },
-        {
-          "weight": 6,
-          "type": "loot_table",
-          "name": "item:item/diamond_chestplate/infinity_diamond_c"
-        },
-        {
-          "weight": 6,
-          "type": "loot_table",
-          "name": "item:item/diamond_helmet/infinity_diamond_h"
-        },
-        {
-          "weight": 6,
-          "type": "loot_table",
-          "name": "item:item/diamond_leggings/infinity_diamond_l"
+          "name": "item:item/carrot_on_a_stick/infinity_netherite_memory_star"
         },
         {
           "weight": 1,
@@ -64,87 +49,87 @@
           "name": "item:item/firework_star/entity/magic_fruit_cheriff"
         },
         {
-          "weight": 2,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/fishing_rod/amazing_fishing_rods"
         },
         {
-          "weight": 2,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/gold_nugget/element/4"
         },
         {
-          "weight": 2,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/gold_nugget/yin_yang/4"
         },
         {
-          "weight": 2,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/gold_nugget/boost_fire/4"
         },
         {
-          "weight": 2,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/gold_nugget/boost_ice/4"
         },
         {
-          "weight": 2,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/gold_nugget/boost_lightning/4"
         },
         {
-          "weight": 2,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/gold_nugget/boost_light/4"
         },
         {
-          "weight": 2,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/gold_nugget/boost_dark/4"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/gold_nugget/kamui/3"
         },
         {
-          "weight": 2,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/gold_nugget/protection/4"
         },
         {
-          "weight": 2,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/gold_nugget/projectile_protection/4"
         },
         {
-          "weight": 3,
+          "weight": 6,
           "type": "loot_table",
           "name": "item:item/gold_nugget/dragon_scale/3"
         },
         {
-          "weight": 2,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/gold_nugget/life/4"
         },
         {
-          "weight": 2,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/gold_nugget/mana/4"
         },
         {
-          "weight": 2,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/gold_nugget/evolution/3"
         },
         {
-          "weight": 2,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/gold_nugget/wave_of_element/4"
         },
         {
-          "weight": 2,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/gold_nugget/double_break/4"
         },
@@ -154,47 +139,27 @@
           "name": "item:item/golden_sword/a_rahat_haherev_hamithapehet"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/leather_boots/pretty_clothes_with_splinter_b"
         },
         {
-          "weight": 10,
-          "type": "loot_table",
-          "name": "item:item/leather_boots/boots_of_the_wind"
-        },
-        {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/leather_chestplate/pretty_clothes_with_splinter_c"
         },
         {
-          "weight": 10,
-          "type": "loot_table",
-          "name": "item:item/leather_chestplate/chest_of_the_wind"
-        },
-        {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/leather_helmet/pretty_clothes_with_splinter_h"
         },
         {
-          "weight": 10,
-          "type": "loot_table",
-          "name": "item:item/leather_helmet/helmet_of_the_wind"
-        },
-        {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/leather_leggings/pretty_clothes_with_splinter_l"
         },
         {
-          "weight": 10,
-          "type": "loot_table",
-          "name": "item:item/leather_leggings/leggings_of_the_wind"
-        },
-        {
-          "weight": 2,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/magma_cube_spawn_egg/sign/trade_all"
         },
@@ -204,7 +169,7 @@
           "name": "item:item/shield/shield_of_foreign_law"
         },
         {
-          "weight": 1,
+          "weight": 2,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/mask_of_potatoism"
         }

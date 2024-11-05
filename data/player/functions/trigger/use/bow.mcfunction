@@ -1,5 +1,7 @@
 #装備を取得
 function player:load_equipments
+#メインハンドがトリガーのアイテムでなければ交換
+execute unless data storage item: SelectedItem{id:"minecraft:bow"} run function player:trigger/use/if_not_mainhand
 #物理ダメージ取得
 function skill:damage/add/physical/projectile
 #属性ダメージ取得

@@ -4,312 +4,307 @@
       "rolls": 1,
       "entries": [
         {
-          "weight": 11,
+          "weight": 18,
           "type": "loot_table",
           "name": "item:item/bow/tier3_bow"
         },
         {
-          "weight": 10,
+          "weight": 17,
           "type": "loot_table",
           "name": "item:item/bow/fion_seatra"
         },
         {
-          "weight": 9,
+          "weight": 14,
           "type": "loot_table",
           "name": "item:item/bow/nermai_resanter"
         },
         {
-          "weight": 12,
+          "weight": 23,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/tier3_carrot_on_a_stick"
         },
         {
-          "weight": 10,
+          "weight": 21,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/angel_stick"
         },
         {
-          "weight": 7,
+          "weight": 13,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/dead_lion"
         },
         {
-          "weight": 4,
+          "weight": 8,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/aarons_rod"
         },
         {
-          "weight": 2,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/a_chin_egg"
         },
         {
-          "weight": 2,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/dubious_powder"
         },
         {
-          "weight": 5,
+          "weight": 11,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/high_ether"
         },
         {
-          "weight": 4,
+          "weight": 7,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/area_ether"
         },
         {
-          "weight": 5,
+          "weight": 10,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/elixir"
         },
         {
-          "weight": 6,
+          "weight": 11,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/immunity"
         },
         {
-          "weight": 2,
+          "weight": 4,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/nil"
         },
         {
-          "weight": 2,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/mortar"
         },
         {
-          "weight": 8,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/fire_wand"
-        },
-        {
-          "weight": 8,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/ice_wand"
-        },
-        {
-          "weight": 8,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/lightning_wand"
-        },
-        {
-          "weight": 8,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/light_wand"
-        },
-        {
-          "weight": 8,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/dark_wand"
-        },
-        {
-          "weight": 2,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/blue_eyes_nantoka_dragon"
         },
         {
-          "weight": 3,
+          "weight": 6,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/book_off"
         },
         {
-          "weight": 3,
+          "weight": 6,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/bubbling_eye_drops"
         },
         {
-          "weight": 3,
+          "weight": 5,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/pendulum"
         },
         {
-          "weight": 1,
+          "weight": 3,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/kaentake_mushroom"
         },
         {
-          "weight": 5,
-          "type": "loot_table",
-          "name": "item:item/carrot_on_a_stick/tier3_iron_memory_star"
-        },
-        {
-          "weight": 5,
+          "weight": 10,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/blood_menace_memory_star"
         },
         {
-          "weight": 13,
+          "weight": 10,
           "type": "loot_table",
-          "name": "item:item/crossbow/tier3_crossbow"
-        },
-        {
-          "weight": 20,
-          "type": "loot_table",
-          "name": "item:item/firework_star/bullet/magic_square_crystal"
-        },
-        {
-          "weight": 14,
-          "type": "loot_table",
-          "name": "item:item/fishing_rod/fishing_rod_with_high_quality_bait"
-        },
-        {
-          "weight": 12,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/mystery/2"
-        },
-        {
-          "weight": 12,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/blade/2"
-        },
-        {
-          "weight": 12,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/add_fire/2"
-        },
-        {
-          "weight": 12,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/add_ice/2"
-        },
-        {
-          "weight": 12,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/add_lightning/2"
-        },
-        {
-          "weight": 12,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/add_light/2"
-        },
-        {
-          "weight": 12,
-          "type": "loot_table",
-          "name": "item:item/gold_nugget/add_dark/2"
+          "name": "item:item/carrot_on_a_stick/infinity_iron_memory_star"
         },
         {
           "weight": 5,
           "type": "loot_table",
-          "name": "item:item/gold_nugget/spirit/1"
+          "name": "item:item/carrot_on_a_stick/usual_netherite_memory_star"
+        },
+        {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/arrow_of_prayer_lv1_memory_star"
+        },
+        {
+          "weight": 5,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/arrow_of_defilement_lv1_memory_star"
+        },
+        {
+          "weight": 100,
+          "type": "loot_table",
+          "name": "item:item/carrot_on_a_stick/magic_stone_bug_memory_star"
+        },
+        {
+          "weight": 25,
+          "type": "loot_table",
+          "name": "item:item/crossbow/tier3_crossbow"
+        },
+        {
+          "weight": 40,
+          "type": "loot_table",
+          "name": "item:item/firework_star/bullet/magic_square_crystal"
+        },
+        {
+          "weight": 28,
+          "type": "loot_table",
+          "name": "item:item/fishing_rod/fishing_rod_with_high_quality_bait"
+        },
+        {
+          "weight": 25,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/mystery/2"
+        },
+        {
+          "weight": 25,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/blade/2"
+        },
+        {
+          "weight": 25,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_fire/2"
+        },
+        {
+          "weight": 25,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_ice/2"
+        },
+        {
+          "weight": 25,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_lightning/2"
+        },
+        {
+          "weight": 25,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_light/2"
+        },
+        {
+          "weight": 25,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/add_dark/2"
         },
         {
           "weight": 10,
+          "type": "loot_table",
+          "name": "item:item/gold_nugget/spirit/1"
+        },
+        {
+          "weight": 20,
           "type": "loot_table",
           "name": "item:item/gold_nugget/philosopher/1"
         },
         {
-          "weight": 10,
+          "weight": 20,
           "type": "loot_table",
           "name": "item:item/gold_nugget/purification/1"
         },
         {
-          "weight": 12,
+          "weight": 25,
           "type": "loot_table",
           "name": "item:item/gold_nugget/knockback/2"
         },
         {
-          "weight": 12,
+          "weight": 25,
           "type": "loot_table",
           "name": "item:item/gold_nugget/blast_protection/2"
         },
         {
-          "weight": 12,
+          "weight": 25,
           "type": "loot_table",
           "name": "item:item/gold_nugget/fire_protection/2"
         },
         {
-          "weight": 12,
+          "weight": 25,
           "type": "loot_table",
           "name": "item:item/gold_nugget/feather_falling/2"
         },
         {
-          "weight": 3,
+          "weight": 7,
           "type": "loot_table",
           "name": "item:item/golden_sword/homerun_bat"
         },
         {
-          "weight": 13,
+          "weight": 27,
           "type": "loot_table",
           "name": "item:item/iron_axe/tier3_iron_axe"
         },
         {
-          "weight": 11,
+          "weight": 25,
           "type": "loot_table",
-          "name": "item:item/iron_boots/tier3_iron_boots"
+          "name": "item:item/iron_boots/infinity_iron_b"
         },
         {
-          "weight": 11,
+          "weight": 25,
           "type": "loot_table",
-          "name": "item:item/iron_chestplate/tier3_iron_chestplate"
+          "name": "item:item/iron_chestplate/infinity_iron_c"
         },
         {
-          "weight": 11,
+          "weight": 25,
           "type": "loot_table",
-          "name": "item:item/iron_helmet/tier3_iron_helmet"
+          "name": "item:item/iron_helmet/infinity_iron_h"
         },
         {
-          "weight": 13,
+          "weight": 27,
           "type": "loot_table",
           "name": "item:item/iron_hoe/tier3_iron_hoe"
         },
         {
-          "weight": 11,
+          "weight": 25,
           "type": "loot_table",
-          "name": "item:item/iron_leggings/tier3_iron_leggings"
+          "name": "item:item/iron_leggings/infinity_iron_l"
         },
         {
-          "weight": 13,
+          "weight": 27,
           "type": "loot_table",
           "name": "item:item/iron_pickaxe/tier3_iron_pickaxe"
         },
         {
-          "weight": 12,
+          "weight": 25,
           "type": "loot_table",
           "name": "item:item/iron_shovel/tier3_iron_shovel"
         },
         {
-          "weight": 8,
+          "weight": 17,
           "type": "loot_table",
           "name": "item:item/iron_sword/voltec_saber"
         },
         {
-          "weight": 11,
+          "weight": 22,
           "type": "loot_table",
           "name": "item:item/iron_sword/tier3_iron_sword"
         },
         {
-          "weight": 13,
+          "weight": 27,
           "type": "loot_table",
           "name": "item:item/leather_boots/blood_menace_b"
         },
         {
-          "weight": 13,
+          "weight": 27,
           "type": "loot_table",
           "name": "item:item/leather_chestplate/blood_menace_c"
         },
         {
-          "weight": 13,
+          "weight": 27,
           "type": "loot_table",
           "name": "item:item/leather_helmet/blood_menace_h"
         },
         {
-          "weight": 13,
+          "weight": 27,
           "type": "loot_table",
           "name": "item:item/leather_leggings/blood_menace_l"
         },
         {
-          "weight": 33,
+          "weight": 67,
           "type": "loot_table",
           "name": "item:item/shield/tier3_shield"
         },
         {
-          "weight": 22,
+          "weight": 44,
           "type": "loot_table",
           "name": "item:item/shield/jack_o_lantern"
         },
         {
-          "weight": 22,
+          "weight": 44,
           "type": "loot_table",
           "name": "item:item/shield/skeleton_shield"
         },
@@ -319,72 +314,72 @@
           "name": "item:item/shield/red_eye_shield"
         },
         {
-          "weight": 17,
+          "weight": 33,
           "type": "loot_table",
           "name": "item:item/shield/perpetual_shield"
         },
         {
-          "weight": 10,
+          "weight": 20,
           "type": "loot_table",
           "name": "item:item/shield/gravel_wall"
         },
         {
-          "weight": 25,
+          "weight": 9,
           "type": "loot_table",
           "name": "item:item/shield/ice_shield"
         },
         {
-          "weight": 10,
+          "weight": 20,
           "type": "loot_table",
           "name": "item:item/stone_axe/watermelon_axe"
         },
         {
-          "weight": 5,
+          "weight": 9,
           "type": "loot_table",
           "name": "item:item/trident/tier3_trident"
         },
         {
-          "weight": 7,
+          "weight": 14,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/witch_hat"
         },
         {
-          "weight": 10,
+          "weight": 21,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/green_cloak"
         },
         {
-          "weight": 7,
+          "weight": 14,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/witch_hat_red"
         },
         {
-          "weight": 7,
+          "weight": 14,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/witch_hat_yellow"
         },
         {
-          "weight": 7,
+          "weight": 14,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/witch_hat_blue"
         },
         {
-          "weight": 7,
+          "weight": 14,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/witch_hat_white"
         },
         {
-          "weight": 10,
+          "weight": 20,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/mandarin_oranges"
         },
         {
-          "weight": 5,
+          "weight": 10,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/block/lava"
         },
         {
-          "weight": 5,
+          "weight": 10,
           "type": "loot_table",
           "name": "item:item/warped_fungus_on_a_stick/block/water"
         }

@@ -32,7 +32,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/magic_stone/tier3/mix"
+          "name": "item:group/magic_stone/tier4/mix"
         }
       ]
     },
@@ -50,7 +50,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/magic_stone/tier3/mix"
+          "name": "item:group/magic_stone/tier4/mix"
         }
       ]
     },
@@ -176,7 +176,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/magic_stone/tier3/mix"
+          "name": "item:group/magic_stone/tier4/mix"
         }
       ]
     },
@@ -194,7 +194,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/magic_stone/tier3/mix"
+          "name": "item:group/magic_stone/tier4/mix"
         }
       ]
     },
@@ -203,7 +203,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/magic_stone/tier3/mix"
+          "name": "item:group/magic_stone/tier4/mix"
         }
       ]
     },
@@ -212,7 +212,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/magic_stone/tier3/mix"
+          "name": "item:group/magic_stone/tier4/mix"
         }
       ]
     },
@@ -230,7 +230,7 @@
       "entries": [
         {
           "type": "loot_table",
-          "name": "item:group/magic_stone/tier3/mix"
+          "name": "item:group/magic_stone/tier4/mix"
         }
       ]
     },

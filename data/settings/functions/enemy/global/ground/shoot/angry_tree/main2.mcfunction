@@ -20,7 +20,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理�
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 200
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 200
 data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 200
-data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier4/common",Count:1,Chance:1d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier3/common",Count:1,Chance:1d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".DeathCause set value '[{"translate":"%1$sは%2$sの不自然さを問いかけた結果その代償を命で支払った。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s手加減は終わりだ。ワープして絶対シめるわ。","with":[{"translate":"【能力：不明】","color":"#AA00FF"}]}]'
 # AI

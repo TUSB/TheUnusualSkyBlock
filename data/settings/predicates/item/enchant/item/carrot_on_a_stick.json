@@ -11,6 +11,17 @@
     }
   },
   {
+    "condition": "minecraft:inverted",
+    "term": {
+      "condition": "location_check",
+      "predicate": {
+        "block": {
+          "nbt": "{Items:[{Slot:4b,tag:{Engraving:{}}}]}"
+        }
+      }
+    }
+  },
+  {
     "condition": "minecraft:alternative",
     "terms": [
       {

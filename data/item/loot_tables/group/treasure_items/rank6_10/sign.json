@@ -1,0 +1,59 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/trade"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/teleport"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/upgrade_white"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/upgrade_black"
+        },
+        {
+          "weight": 4,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/very_glow"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/break_log"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/break_gravel"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/break_cobweb"
+        },
+        {
+          "weight": 2,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/break_cobblestone"
+        },
+        {
+          "weight": 1,
+          "type": "loot_table",
+          "name": "item:item/magma_cube_spawn_egg/sign/sheep_spawner"
+        }
+      ]
+    }
+  ]
+}

@@ -72,11 +72,46 @@
                 "formula": "minecraft:binomial_with_bonus_count",
                 "parameters": {
                   "extra": 0,
-                  "probability": 0.05
+                  "probability": 0.01
                 }
               }
             ],
             "name": "item:group/magic_stone/tier1_4/harvest"
+          }
+        ],
+        "rolls": 1.0
+      },
+      {
+        "bonus_rolls": 0.0,
+        "conditions": [
+          {
+            "block": "minecraft:carrots",
+            "condition": "minecraft:block_state_property",
+            "properties": {
+              "age": "7"
+            }
+          }
+        ],
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "functions": [
+              {
+                "function": "minecraft:set_count",
+                "count": 0,
+                "add": false
+              },
+              {
+                "function": "minecraft:apply_bonus",
+                "enchantment": "minecraft:fortune",
+                "formula": "minecraft:binomial_with_bonus_count",
+                "parameters": {
+                  "extra": 0,
+                  "probability": 0.1
+                }
+              }
+            ],
+            "name": "minecraft:golden_carrot"
           }
         ],
         "rolls": 1.0

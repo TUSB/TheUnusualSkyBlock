@@ -54,6 +54,8 @@ attribute @s generic.max_health modifier remove 0-0-0-8192-0
 # MP16383まで対応
 scoreboard players set _ _ 131072
 scoreboard players operation _ HPMax = @s MPMax
+scoreboard players operation _ HPMax -= @s Luck
+scoreboard players operation @s HPMax = _ HPMax
 scoreboard players operation _ HPMax *= _ _
 scoreboard players set _ _ 2
 

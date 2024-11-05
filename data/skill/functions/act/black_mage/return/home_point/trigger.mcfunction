@@ -3,7 +3,7 @@
 
 execute if score @s HomePoint matches 1 store result score @s HomePoint run function skill:act/black_mage/return/home_point/check
 
-execute if score @s HomePoint matches 1 run function #oh_my_dat:please
+execute if score @s HomePoint matches 1..2 run function #oh_my_dat:please
 
 execute if score @s HomePoint matches 1 run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].HomePoint.Pos set from entity @s Pos
 execute if score @s HomePoint matches 1 run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].HomePoint.Rotation set from entity @s Rotation
