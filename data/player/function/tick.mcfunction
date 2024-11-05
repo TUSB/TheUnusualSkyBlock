@@ -3,6 +3,9 @@
 ## 使用するときにコメントアウトを外してください。
 # execute if score $Ticks Count matches 0 run function player:one_second
 
+### 生き返り後処理
+execute if entity @s[scores={Hunger=0..,Age=1..}] run function player:rise/
+
 ### トリガー
 execute if entity @s[scores={UseBow=1..}] run function player:trigger/use/bow
 execute if entity @s[scores={UseCrossbow=1..}] run function player:trigger/use/crossbow
