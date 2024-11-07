@@ -12,4 +12,4 @@
     execute store result storage score_damage: Argument.Damage int 1 run scoreboard players get @s Attack
     execute as @a[distance=..2.5,predicate=entity:player,scores={ProjectileTime=0..}] run function skill:enemy/laser/main/damage
 # なぜか徐々に近づいてくる……
-    execute if entity @a[predicate=entity:player,distance=..16] facing entity @a[distance=..16,predicate=entity:player,sort=nearest,limit=1] feet if block ^ ^ ^0.05 #main:no_collision run tp @s ^ ^ ^0.05 ~ ~
+    execute if entity @a[predicate=entity:player,distance=..16] facing entity @a[distance=..16,predicate=entity:player,sort=nearest,limit=1] feet if block ^ ^ ^0.05 #block:no_collision run tp @s ^ ^ ^0.05 ~ ~

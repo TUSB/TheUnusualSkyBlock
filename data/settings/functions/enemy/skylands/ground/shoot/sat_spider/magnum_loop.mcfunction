@@ -1,7 +1,7 @@
 #Function
 #ダメージ処理
 execute positioned ~-0.5 ~-0.5 ~-0.5 if entity @a[gamemode=!creative,gamemode=!spectator,scores={ProjectileTime=0..},dx=0] run scoreboard players set @s _ 1
-execute unless block ^ ^ ^0.5 #main:no_collision run scoreboard players set @s _ 1
+execute unless block ^ ^ ^0.5 #block:no_collision run scoreboard players set @s _ 1
 execute positioned ~-0.5 ~-0.5 ~-0.5 as @a[gamemode=!creative,gamemode=!spectator,scores={ProjectileTime=0..},dx=0] run function skill:enemy/laser/main/damage
 
 #演出
