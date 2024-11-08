@@ -12,8 +12,7 @@ execute if data storage item: Items[0].components."minecraft:custom_data".VoidIt
 execute if data storage item: Items[0].components."minecraft:custom_data".VoidItems[0] in area:control_area run data modify storage item: Items[0].components."minecraft:item_name" set from block 2 3 2 front_text.messages[0]
 
 #VoidItemsがない場合、購入費をVoidItemsに入れて返金 TODO:通貨に変更 -> バンクからの購入価格に変更(v13α2)
-# execute unless data storage item: Items[0].components."minecraft:custom_data".VoidItems[0] in area:control_area run loot replace block 2 2 2 container.0 loot item:item/iron_nugget/currency_gigant_emerald
-execute unless data storage item: Items[0].components."minecraft:custom_data".VoidItems[0] in area:control_area run item replace block 2 2 2 container.0 with iron_nugget[custom_model_data=2]
+execute unless data storage item: Items[0].components."minecraft:custom_data".VoidItems[0] in area:control_area run loot replace block 2 2 2 container.0 loot item:item/iron_nugget/currency_gigant_emerald
 execute unless data storage item: Items[0].components."minecraft:custom_data".VoidItems[0] in area:control_area run data modify storage item: Items[0].components."minecraft:custom_data".VoidItems append from block 2 2 2 Items[0]
 
 #使用回数をセット
