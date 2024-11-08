@@ -6,7 +6,7 @@
 # ループ数指定
     scoreboard players set # Calc 64
 # ループ処理開始
-    execute at @s if entity @a[predicate=entity:player,distance=..16] positioned ^ ^ ^0.25 if block ^ ^ ^ #main:no_collision run function settings:enemy/global/sky/shoot/crimson_eye/blaze_third_loop
+    execute at @s if entity @a[predicate=entity:player,distance=..16] positioned ^ ^ ^0.25 if block ^ ^ ^ #block:no_collision run function settings:enemy/global/sky/shoot/crimson_eye/blaze_third_loop
 # 当たったプレイヤーにダメージを与える（確定火だるま）
     execute as @a[tag=Landing,distance=..24] run function skill:enemy/laser/main/damage
     effect give @a[tag=Landing,distance=..24] invisibility 10 3 true
