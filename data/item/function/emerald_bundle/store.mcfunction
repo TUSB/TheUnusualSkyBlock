@@ -2,7 +2,7 @@
 #上限を超えないようにバンドルに移す
 data modify storage item: EmeraldBundle.Bundle.components."minecraft:bundle_contents" append from storage item: EmeraldBundle.Items[0]
 execute store result score _ _ run data get storage item: EmeraldBundle.Items[0].count
-execute if score # Calc < _ _ store result storage item: EmeraldBundle.Bundle.components."minecraft:bundle_contents"[0].count int 1 run scoreboard players get # Calc
+execute if score # Calc < _ _ store result storage item: EmeraldBundle.Bundle.components."minecraft:bundle_contents"[-1].count int 1 run scoreboard players get # Calc
 execute store result storage item: EmeraldBundle.Items[0].count int -1 run scoreboard players operation # Calc -= _ _
 
 #減らしたアイテム(または空)をルート
