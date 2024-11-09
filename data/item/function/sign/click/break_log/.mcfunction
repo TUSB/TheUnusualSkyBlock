@@ -61,4 +61,4 @@ execute in area:control_area positioned 5.0 5.0 5.0 run tp @e[distance=0] @s
 # 原木粉砕スケジュール起動
 schedule function item:sign/click/break_log/loop 2t
 
-function makeup:item/sign/break_log
+function makeup:item/sign/common_firework.macro {color:6639666}

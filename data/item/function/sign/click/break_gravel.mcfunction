@@ -6,4 +6,4 @@ execute in area:control_area positioned 1 20 1 run fill ~ ~ ~ ~12 ~8 ~12 minecra
 # アイテムを与える
 execute in area:control_area run tp @e[type=item,x=0,y=16,z=0,dx=15,dy=15,dz=15] @s
 
-function makeup:item/sign/break_gravel
+function makeup:item/sign/common_firework.macro {color:8420731}

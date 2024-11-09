@@ -23,4 +23,4 @@ execute if score _ Calc matches ..0 run fill ~-9 ~-1 ~-9 ~9 ~7 ~9 minecraft:neth
 # 収穫物を与える
 execute in area:control_area positioned 5.0 5.0 5.0 run tp @e[distance=0] @s
 
-function makeup:item/sign/harvest_nether_wart
+function makeup:item/sign/common_firework.macro {color:10888496}
