@@ -7,7 +7,7 @@
         "condition": "minecraft:location_check",
         "predicate": {
           "block": {
-            "tag": "smart_motion:no_collision"
+            "blocks": "#smart_motion:no_collision"
           }
         }
       }
@@ -19,7 +19,7 @@
         "offsetY": 1,
         "predicate": {
           "block": {
-            "tag": "smart_motion:no_collision"
+            "blocks": "#smart_motion:no_collision"
           }
         }
       }
