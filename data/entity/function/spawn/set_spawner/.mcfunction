@@ -15,7 +15,7 @@ execute if data storage tusb_mob: MobLayers[-1] run function enemy:spawn/set_spa
 ### SpawnDataに保存
 data modify entity @s SpawnData.entity.Passengers[0] set from storage tusb_mob: SpawnData
 ### Pos設定
-data modify entity @s SpawnData.entity.Pos set from storage tusb_mob: Pos
+data modify entity @s SpawnData.entity.Pos set from storage tusb_mob: Pos.after
 ### 召喚したら消えるようにタグを付与
 data modify entity @s Tags set value [OneTimeSpawner,TickingRequired]
 

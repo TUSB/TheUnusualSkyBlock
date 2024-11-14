@@ -6,7 +6,8 @@
 
 ### LevelとPosとRotation取得
 scoreboard players operation _ Level = @s Level
-data modify storage tusb_mob: Pos set from entity @s Pos
+execute store success score _ _ run data modify storage tusb_mob: Pos.before set from entity @s Pos
+function entity:spawn/correction_pos/
 data modify storage tusb_mob: Rotation set from entity @s Rotation
 data modify storage tusb_mob: Count set from entity @s ArmorItems[3].components."minecraft:custom_data".Count
 ### 例えば、村人が複数のタグを持っていたら？
