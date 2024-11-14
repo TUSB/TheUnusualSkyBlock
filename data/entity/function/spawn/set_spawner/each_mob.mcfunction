@@ -17,7 +17,7 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス" set valu
 function #entity:spawn_data
 
 #召喚時演出
-execute if entity @s[tag=SpawnParticles] run function makeup:enemy/spawn
+execute if entity @s[tag=SpawnParticles] run function makeup:entity/spawn
 
 #モブのレベルを引き継ぐ
 execute if score _ Level matches 1.. store result storage tusb_mob: MobTags[-1].Level int 1 run scoreboard players get _ Level
