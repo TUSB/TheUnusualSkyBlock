@@ -14,7 +14,7 @@ data remove storage tusb_mob: "遅延ステータス"
 data modify storage tusb_mob: "遅延ステータス"."ステータス" set value {"炎属性値":100,"氷属性値":100,"雷属性値":100,"光属性値":100,"闇属性値":100}
 
 # タグに応じて、データを取得する
-function settings:enemy/
+function #entity:spawn_data
 
 #召喚時演出
 execute if entity @s[tag=SpawnParticles] run function makeup:enemy/spawn
