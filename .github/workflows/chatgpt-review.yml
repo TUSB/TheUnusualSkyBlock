@@ -1,97 +1,42 @@
-name: ChatGPT Code Review
+name: Code Review
+
+permissions:
+  contents: read
+  pull-requests: write
+
 on:
   pull_request:
-    types: [opened, synchronize]
+    types: [opened, reopened, synchronize]
+
 jobs:
-  review:
+  test:
+    # if: ${{ contains(github.event.*.labels.*.name, 'gpt review') }} # Optional; to run only when a label is attached
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-
-      - name: Get Changed .mcfunction Files
-        id: get_changed_files
-        run: |
-          git fetch origin ${{ github.event.pull_request.base.ref }} --depth=1
-          CHANGED_FILES=$(git diff --name-only origin/${{ github.event.pull_request.base.ref }} HEAD)
-          echo "$CHANGED_FILES" | grep '\.mcfunction$' > changed_files.txt
-          echo "::set-output name=files::$(cat changed_files.txt | paste -sd ',' -)"
-
-      - name: Set up Python
-        uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
-
-      - name: Install Dependencies
-        run: |
-          python3 -m pip install --upgrade pip
-          pip install requests
-
-      - name: Run ChatGPT Review
-        if: steps.get_changed_files.outputs.files != ''
+      - uses: anc95/ChatGPT-CodeReview@main
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          import os
-          import requests
-          import json
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          # Optional
+          LANGUAGE: Japanese
+          OPENAI_API_ENDPOINT: https://api.openai.com/v1
+          MODEL: o1-preview-2024-09-12 # https://platform.openai.com/docs/models
+          PROMPT: |
+            プルリクエストの概要
+            このプルリクエストは、Minecraft配布ワールド「The Unusual SkyBlock」用のデータパックリポジトリに対する変更を含んでいます。レビューを行うにあたり、以下の点に注意してください。
 
-          # Get the changed .mcfunction files
-          files = "${{ steps.get_changed_files.outputs.files }}".split(',')
-          pr_number = "${{ github.event.pull_request.number }}"
-          repo = "${{ github.repository }}"
+            レビューのポイント
+            1. コードの品質や可読性を確認してください。
+            2. 提案された変更が既存の機能にどのように影響するかを評価してください。
+            3. セキュリティやパフォーマンスに関する懸念がないか確認してください。
+            4. Minecraftのゲームプレイに影響を与える可能性のある変更について特に注意してください。
+            5. プルリクエストの内容と変更内容が相違ないか確認してください。
 
-          comments = ""
-
-          openai_api_key = os.getenv('OPENAI_API_KEY')
-          github_token = os.getenv('GITHUB_TOKEN')
-
-          for file_path in files:
-              with open(file_path, 'r') as file:
-                  code = file.read()
-
-              prompt = f"Review the following mcfunction code and provide feedback on improvements and best practices:\n\nFile: {file_path}\n\n{code}"
-
-              headers = {
-                  'Content-Type': 'application/json',
-                  'Authorization': f'Bearer {openai_api_key}',
-              }
-
-              data = {
-                  'model': 'gpt-4',
-                  'messages': [{'role': 'user', 'content': prompt}],
-                  'max_tokens': 500,
-                  'n': 1,
-                  'temperature': 0.7,
-              }
-
-              response = requests.post('https://api.openai.com/v1/chat/completions', headers=headers, json=data)
-              response_json = response.json()
-
-              if response.status_code == 200:
-                  review = response_json['choices'][0]['message']['content']
-                  comments += f"### {file_path}\n\n{review}\n\n"
-              else:
-                  print(f"Error reviewing {file_path}: {response_json}")
-                  continue
-
-          if comments:
-              comment_body = f"## ChatGPT Code Review\n\n{comments}"
-
-              headers = {
-                  'Authorization': f'token {github_token}',
-                  'Accept': 'application/vnd.github.v3+json',
-              }
-
-              data = {
-                  'body': comment_body,
-              }
-
-              pr_comments_url = f"https://api.github.com/repos/{repo}/issues/{pr_number}/comments"
-              response = requests.post(pr_comments_url, headers=headers, json=data)
-
-              if response.status_code == 201:
-                  print("Successfully posted review comments.")
-              else:
-                  print(f"Failed to post comments: {response.json()}")
+            フィードバックの提供
+            - 良い点や改善点について具体的にフィードバックを提供してください。
+            - 必要に応じて、改善のための具体的な提案を行ってください。
+          top_p: 1 # https://platform.openai.com/docs/api-reference/chat/create#chat/create-top_p
+          temperature: 1 # https://platform.openai.com/docs/api-reference/chat/create#chat/create-temperature
+          max_tokens: 10000
+          MAX_PATCH_LENGTH: 10000 # if the patch/diff length is large than MAX_PATCH_LENGTH, will be ignored and won't review. By default, with no MAX_PATCH_LENGTH set, there is also no limit for the patch/diff length.
+          IGNORE_PATTERNS: /node_modules,*.md # Regex pattern to ignore files, separated by comma
