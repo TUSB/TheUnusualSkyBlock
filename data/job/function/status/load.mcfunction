@@ -20,11 +20,4 @@ execute store result score @s ntervalRate run data get storage job: JobStatus[-9
 execute store result score @s MPCostRate run data get storage job: JobStatus[-9].CP.MPCostRate 1
 
 # 必要経験値計算
-scoreboard players operation @s _ = @s Level
-scoreboard players set _ _ 50
-scoreboard players operation @s _ < _ _
-scoreboard players operation @s RequiredExp = @s _
-scoreboard players set _ _ 10
-scoreboard players operation @s RequiredExp /= _ _
-scoreboard players add @s RequiredExp 5
-scoreboard players operation @s RequiredExp *= @s _
+function job:status/required_exp
