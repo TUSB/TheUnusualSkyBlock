@@ -3,6 +3,9 @@
 ## 使用するときにコメントアウトを外してください。
 # execute if score $Ticks Count matches 0 run function player:one_second
 
+### MCID変更検知
+execute if entity @s[team=,tag=Initialized] run function player:mcid_change_detected
+
 ### 生き返り後処理
 execute if entity @s[scores={Hunger=0..,Age=1..}] run function player:rise/
 
