@@ -23,3 +23,6 @@ execute if entity @s[scores={FoodLevel=1..}] run function player:trigger/food
 execute if entity @s[scores={kill=1..}] run function player:trigger/kill
 # ネザースター取得
 execute if entity @s[nbt={Inventory:[{id:"minecraft:nether_star"}]}] run function player:trigger/nether_star
+
+### プレイヤーゲームメニュー
+execute unless score @s ChangeSettings matches 0 run function main:game_menu/triggered
