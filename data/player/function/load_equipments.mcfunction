@@ -1,3 +1,4 @@
+#> player:load_equipments
 ### 装備をストレージに保存
 #SelectedItem
 data remove storage item: SelectedItem
