@@ -1,0 +1,51 @@
+name: Code Review
+
+permissions:
+  contents: read
+  pull-requests: write
+
+on:
+  pull_request:
+    types: [opened, reopened, synchronize]
+
+jobs:
+  test:
+    # if: ${{ contains(github.event.*.labels.*.name, 'gpt review') }} # Optional; to run only when a label is attached
+    runs-on: ubuntu-latest
+    steps:
+      - uses: anc95/ChatGPT-CodeReview@main
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          # Optional
+          LANGUAGE: Japanese
+          OPENAI_API_ENDPOINT: https://api.openai.com/v1
+          MODEL: chatgpt-4o-latest # https://platform.openai.com/docs/models
+          PROMPT: |
+            ■ リポジトリの情報
+            Minecraft 配布ワールド 「The Unusual SkyBlock」次期開発用データパックリポジトリ
+            https://github.com/TUSB/TheUnusualSkyBlock
+
+            ■ The Unusual SkyBlock とは
+            空に浮かぶ島々で構成されたスカイブロックを、アイテムとスキルを駆使し攻略していくアドベンチャーマップです。 多くのディメンションが用意され、非常に広大な配布マップとなっています。
+
+            ■ ドキュメント
+            https://github.com/TUSB/TheUnusualSkyBlock/wiki/Top
+
+            ■ プルリクエストの概要
+            このプルリクエストは、Minecraft配布ワールド「The Unusual SkyBlock」用のデータパックリポジトリに対する変更を含んでいます。レビューを行うにあたり、以下の点に注意してください。
+
+            ■ レビューのポイント
+            1. コードの品質や可読性を確認してください。
+            2. 提案された変更が既存の機能にどのように影響するかを評価してください。
+            3. セキュリティやパフォーマンスに関する懸念がないか確認してください。
+            4. Minecraftのゲームプレイに影響を与える可能性のある変更について特に注意してください
+
+            ■ フィードバックの提供
+            - 不具合が発生する可能性の箇所は具体的に提案を行ってください。
+            - 必要に応じて、改善のための具体的な提案を行ってください。
+          top_p: 1 # https://platform.openai.com/docs/api-reference/chat/create#chat/create-top_p
+          temperature: 1 # https://platform.openai.com/docs/api-reference/chat/create#chat/create-temperature
+          max_tokens: 10000
+          MAX_PATCH_LENGTH: 10000 # if the patch/diff length is large than MAX_PATCH_LENGTH, will be ignored and won't review. By default, with no MAX_PATCH_LENGTH set, there is also no limit for the patch/diff length.
+          # IGNORE_PATTERNS: /node_modules,*.md # Regex pattern to ignore files, separated by comma
