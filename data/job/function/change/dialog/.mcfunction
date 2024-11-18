@@ -9,13 +9,15 @@ scoreboard players add _ ChangeJobLock 60
 execute if score _ ChangeJobLock matches ..0 run tellraw @s ["\n",{"translate":"・職業変更"}," | ",{"translate":"転職後にスキルを使用すると 1時間の変更制限がかかります。"},"\n"]
 execute if score _ ChangeJobLock matches 1.. run tellraw @s ["\n",{"translate":"・職業変更"}," | ",{"translate":"変更制限:残り %1$s分","with":[{"score":{"name":"_","objective":"ChangeJobLock"}}]},"\n"]
 
+
+## 制限あり
+execute if score _ ChangeJobLock matches 1.. run return run function job:change/dialog/lock
+
+## 制限なし
 # bitシフトで変更可能か確認する
 # 最上位ビットから順に剣士 ~ 怪盗
 scoreboard players operation _ CanChangeJobFlag = @s CanChangeJobFlag
 scoreboard players set _ ChangeJob 2
-execute if score _ ChangeJobLock matches 1.. run scoreboard players reset _ CanChangeJobFlag
-
-## 制限なし
 
 data modify block 2 3 2 front_text.messages[0] set value '[{"text":""}]'
 
@@ -54,11 +56,6 @@ execute if score _ CanChangeJobFlag matches ..-1 run data modify block 2 3 2 fro
 execute if score _ CanChangeJobFlag matches 00.. run data modify block 2 3 2 front_text.messages[0] set value '[{"block":"2 3 2","nbt":"front_text.messages[0]","interpret":true},{"text":" < "},{"text":"T","font":"icon","color":"dark_gray","strikethrough":true,"hoverEvent":{"action":"show_text","value":{"translate":"この職業はここで変更できないようだ……"}}},{"text":" >"}]'
 
 execute if score _ ChangeJobLock matches ..0 run tellraw @s {"block":"2 3 2","nbt":"front_text.messages[0]","interpret":true}
-
-## 制限あり
-
-# execute if score _ ChangeJobLock matches 1.. run tellraw @s ["",{"text":" < "},{"text":"K","font":"icon","color":"red","hoverEvent":{"action":"show_text","value":{"translate":"変更制限中！"}}},{"text":" >"},{"text":" < "},{"text":"N","font":"icon","color":"red","hoverEvent":{"action":"show_text","value":{"translate":"変更制限中！"}}},{"text":" >"},{"text":" < "},{"text":"H","font":"icon","color":"red","hoverEvent":{"action":"show_text","value":{"translate":"変更制限中！"}}},{"text":" >"},{"text":" < "},{"text":"W","font":"icon","color":"red","hoverEvent":{"action":"show_text","value":{"translate":"変更制限中！"}}},{"text":" >"},{"text":" < "},{"text":"B","font":"icon","color":"red","hoverEvent":{"action":"show_text","value":{"translate":"変更制限中！"}}},{"text":" >"},{"text":" < "},{"text":"S","font":"icon","color":"red","hoverEvent":{"action":"show_text","value":{"translate":"変更制限中！"}}},{"text":" >"},{"text":" < "},{"text":"P","font":"icon","color":"red","hoverEvent":{"action":"show_text","value":{"translate":"変更制限中！"}}},{"text":" >"},{"text":" < "},{"text":"T","font":"icon","color":"red","hoverEvent":{"action":"show_text","value":{"translate":"変更制限中！"}}},{"text":" >"}]
-execute if score _ ChangeJobLock matches 1.. run tellraw @s ["",{"text":" < "},{"text":"K","font":"icon","color":"red","hoverEvent":{"action":"show_text","value":{"translate":"変更制限中！"}}},{"text":" >"},{"text":" < "},{"text":"N","font":"icon","color":"red","hoverEvent":{"action":"show_text","value":{"translate":"変更制限中！"}}},{"text":" >"},{"text":" < "},{"text":"H","font":"icon","color":"red","hoverEvent":{"action":"show_text","value":{"translate":"変更制限中！"}}},{"text":" >"},{"text":" < "},{"text":"W","font":"icon","color":"red","hoverEvent":{"action":"show_text","value":{"translate":"変更制限中！"}}},{"text":" >"},{"text":" < "},{"text":"B","font":"icon","color":"red","hoverEvent":{"action":"show_text","value":{"translate":"変更制限中！"}}},{"text":" >"},{"text":" < "},{"text":"S","font":"icon","color":"red","hoverEvent":{"action":"show_text","value":{"translate":"変更制限中！"}}},{"text":" >"},{"text":" < "},{"text":"P","font":"icon","color":"dark_gray","strikethrough":true,"hoverEvent":{"action":"show_text","value":{"translate":"変更制限中！"}}},{"text":" >"},{"text":" < "},{"text":"T","font":"icon","color":"dark_gray","strikethrough":true,"hoverEvent":{"action":"show_text","value":{"translate":"変更制限中！"}}},{"text":" >"}]
 
 # 改行
 tellraw @s ""
