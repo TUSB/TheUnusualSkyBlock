@@ -10,6 +10,7 @@ execute if score _ ChangeJob matches 0 run scoreboard players reset @s ChangeJob
 
 # 時間制限チェック
 execute store result score _ ChangeJobLock run time query gametime
+# 72000 = 20tick * 60sec * 60min = 1hour
 scoreboard players remove _ ChangeJobLock 72000
 scoreboard players operation _ ChangeJobLock -= @s ChangeJobLock
 

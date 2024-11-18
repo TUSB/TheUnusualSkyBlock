@@ -2,6 +2,8 @@
 #時間表示
 execute store result score _ ChangeJobLock run time query gametime
 scoreboard players operation _ ChangeJobLock -= @s ChangeJobLock
+# 1200 = 20tick * 60sec = 1min
+# 制限時間を分に直す
 scoreboard players set _ _ -1200
 scoreboard players operation _ ChangeJobLock /= _ _
 scoreboard players add _ ChangeJobLock 60
