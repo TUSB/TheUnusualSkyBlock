@@ -5,7 +5,7 @@
 execute if score @s ChangeSettings matches 1 run function main:game_menu/show_status
 
 # 2 職業変更
-execute if score @s ChangeSettings matches 2 in area:control_area run function job:change/dialog
+execute if score @s ChangeSettings matches 2 in area:control_area run function job:change/dialog/
 
 # 10 パーティクル抑制
 execute if score @s ChangeSettings matches 11 run function main:game_menu/tune_particle
