@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:impact_projectiles",
+    "minecraft:ender_pearl",
+    "minecraft:llama_spit",
+    "minecraft:potion",
+    "minecraft:shulker_bullet",
+    "minecraft:experience_bottle"
+  ]
+}

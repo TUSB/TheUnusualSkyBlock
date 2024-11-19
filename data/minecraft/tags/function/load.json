@@ -1,0 +1,7 @@
+{
+    "replace": false,
+    "values": [
+        "main:load",
+        "settings:version_update/check/"
+    ]
+}
