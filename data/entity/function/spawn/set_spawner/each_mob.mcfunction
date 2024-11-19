@@ -53,4 +53,4 @@ data modify storage tusb_mob: Passengers prepend from storage tusb_mob: SpawnDat
 
 ### まだ読み込んでいないタグがあれば、繰り返す
 data remove storage tusb_mob: MobTags[-1]
-execute if data storage tusb_mob: MobTags[-1] run function enemy:spawn/set_spawner/each_mob
+execute if data storage tusb_mob: MobTags[-1] run function entity:spawn/set_spawner/each_mob

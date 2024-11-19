@@ -12,7 +12,7 @@ execute if data storage tusb_mob: Passengers run data modify storage tusb_mob: P
 # リストをリセット
 data modify storage tusb_mob: Passengers set value []
 # このレイヤーのモブを読み込む
-execute if data storage tusb_mob: MobTags[-1] run function enemy:spawn/set_spawner/each_mob
+execute if data storage tusb_mob: MobTags[-1] run function entity:spawn/set_spawner/each_mob
 
 ### Rotation設定
 data modify storage tusb_mob: Passengers[].Rotation set from storage tusb_mob: Rotation
@@ -25,4 +25,4 @@ execute unless data storage tusb_mob: MobLayers[-1] run data modify storage tusb
 ### Pos設定
 data modify entity @s SpawnData.entity.Pos set from storage tusb_mob: Pos
 ### まだ読み込んでいないタグがあれば、繰り返す
-execute if data storage tusb_mob: MobLayers[-1] run function enemy:spawn/set_spawner/each_layer
+execute if data storage tusb_mob: MobLayers[-1] run function entity:spawn/set_spawner/each_layer

@@ -10,7 +10,7 @@ data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList
 # それぞれのモブの情報を読み取る
 data remove storage tusb_mob: Passengers
 data remove storage tusb_mob: PrevPassengers
-execute if data storage tusb_mob: MobLayers[-1] run function enemy:spawn/set_spawner/each_layer
+execute if data storage tusb_mob: MobLayers[-1] run function entity:spawn/set_spawner/each_layer
 
 ### SpawnDataに保存
 data modify entity @s SpawnData.entity.Passengers[0] set from storage tusb_mob: SpawnData
