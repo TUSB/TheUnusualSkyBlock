@@ -22,6 +22,7 @@ jobs:
           OPENAI_API_ENDPOINT: https://api.openai.com/v1
           MODEL: chatgpt-4o-latest # https://platform.openai.com/docs/models
           PROMPT: |
+            ハルシネーションを起こさないで正確かつ簡潔にに答えてください。
             ■ リポジトリの情報
             Minecraft 配布ワールド 「The Unusual SkyBlock」次期開発用データパックリポジトリ
             https://github.com/TUSB/TheUnusualSkyBlock
