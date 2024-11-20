@@ -22,29 +22,33 @@ jobs:
           OPENAI_API_ENDPOINT: https://api.openai.com/v1
           MODEL: chatgpt-4o-latest # https://platform.openai.com/docs/models
           PROMPT: |
-            ハルシネーションを起こさないで正確かつ簡潔にに答えてください。
+            ハルシネーションを起こさないように細心の注意を払ってください。
             ■ リポジトリの情報
-            Minecraft 配布ワールド 「The Unusual SkyBlock」次期開発用データパックリポジトリ
+            Minecraft 配布ワールド「The Unusual SkyBlock」次期開発用データパックリポジトリ
             https://github.com/TUSB/TheUnusualSkyBlock
-
+            
             ■ The Unusual SkyBlock とは
-            空に浮かぶ島々で構成されたスカイブロックを、アイテムとスキルを駆使し攻略していくアドベンチャーマップです。 多くのディメンションが用意され、非常に広大な配布マップとなっています。
-
+            空に浮かぶ島々で構成されたスカイブロックを、アイテムとスキルを駆使して攻略していくアドベンチャーマップです。多くのディメンションが用意され、非常に広大な配布マップとなっています。
+            
             ■ ドキュメント
             https://github.com/TUSB/TheUnusualSkyBlock/wiki/Top
-
+            https://seesaawiki.jp/theunusualskyblock/
+            
             ■ プルリクエストの概要
-            このプルリクエストは、Minecraft配布ワールド「The Unusual SkyBlock」用のデータパックリポジトリに対する変更を含んでいます。レビューを行うにあたり、以下の点に注意してください。
-
+            このプルリクエストは、「The Unusual SkyBlock」用のデータパックリポジトリに対する変更を含んでいます。レビューを行うにあたり、以下の点に注意してください。
+            
             ■ レビューのポイント
             1. コードの品質や可読性を確認してください。
             2. 提案された変更が既存の機能にどのように影響するかを評価してください。
             3. セキュリティやパフォーマンスに関する懸念がないか確認してください。
-            4. Minecraftのゲームプレイに影響を与える可能性のある変更について特に注意してください
-
+            4. Minecraftのゲームプレイに影響を与える可能性のある変更について特に注意してください。
+            
             ■ フィードバックの提供
-            - 不具合が発生する可能性の箇所は具体的に提案を行ってください。
-            - 必要に応じて、改善のための具体的な提案を行ってください。
+            1. 不具合が発生する可能性のある箇所は具体的に指摘してください。
+            2. 必要に応じて、改善のための具体的な提案を行ってください。
+            3. わからない内容については答えないでください。
+            4. 誤ったコメントはしないでください。
+            5. 簡潔にまとめてください。
           top_p: 1 # https://platform.openai.com/docs/api-reference/chat/create#chat/create-top_p
           temperature: 1 # https://platform.openai.com/docs/api-reference/chat/create#chat/create-temperature
           max_tokens: 10000
