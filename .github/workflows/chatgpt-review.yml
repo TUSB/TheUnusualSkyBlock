@@ -9,7 +9,7 @@ on:
     types: [opened, reopened, synchronize]
 
 jobs:
-  test:
+  review:
     # if: ${{ contains(github.event.*.labels.*.name, 'gpt review') }} # Optional; to run only when a label is attached
     runs-on: ubuntu-latest
     steps:
@@ -20,32 +20,49 @@ jobs:
           # Optional
           LANGUAGE: Japanese
           OPENAI_API_ENDPOINT: https://api.openai.com/v1
-          MODEL: chatgpt-4o-latest # https://platform.openai.com/docs/models
+          # MODEL: chatgpt-4o-latest # https://platform.openai.com/docs/models
+          MODEL: o1-mini
           PROMPT: |
-            ■ リポジトリの情報
-            Minecraft 配布ワールド 「The Unusual SkyBlock」次期開発用データパックリポジトリ
-            https://github.com/TUSB/TheUnusualSkyBlock
-
-            ■ The Unusual SkyBlock とは
-            空に浮かぶ島々で構成されたスカイブロックを、アイテムとスキルを駆使し攻略していくアドベンチャーマップです。 多くのディメンションが用意され、非常に広大な配布マップとなっています。
-
-            ■ ドキュメント
-            https://github.com/TUSB/TheUnusualSkyBlock/wiki/Top
-
-            ■ プルリクエストの概要
-            このプルリクエストは、Minecraft配布ワールド「The Unusual SkyBlock」用のデータパックリポジトリに対する変更を含んでいます。レビューを行うにあたり、以下の点に注意してください。
-
-            ■ レビューのポイント
-            1. コードの品質や可読性を確認してください。
-            2. 提案された変更が既存の機能にどのように影響するかを評価してください。
-            3. セキュリティやパフォーマンスに関する懸念がないか確認してください。
-            4. Minecraftのゲームプレイに影響を与える可能性のある変更について特に注意してください
-
-            ■ フィードバックの提供
-            - 不具合が発生する可能性の箇所は具体的に提案を行ってください。
-            - 必要に応じて、改善のための具体的な提案を行ってください。
+            Request: perform PR review mcfuntion code for Minecraft 1.21.1
+            Role:Respond as code reviewer for Minecraft distribution world “The Unusual SkyBlock”.
+            Regulation: keep brief to point, 50-300 words or less, Markdown format.
+            Rule:
+            . Avoid halcyonation provide reliable information.
+            . do not copy answers, use original content.
+            . review code in Minecraft 1.21.1
+            Review Refine:
+            . check quality readability code
+            . Evaluate impact proposed changes on existing functionality.
+            . identify security performance concerns
+            . identify potential impact on gameplay aware of changes affect gameplay.
+            Reference:
+            - Repository: [The Unusual SkyBlock](https://github.com/TUSB/TheUnusualSkyBlock)
+            - Documentation.
+              - [GitHub Wiki](https://github.com/TUSB/TheUnusualSkyBlock/wiki/Top)
+              - [Seesaawiki](https://seesaawiki.jp/theunusualskyblock/)
+            Run Scenario: respond as code reviewer.
           top_p: 1 # https://platform.openai.com/docs/api-reference/chat/create#chat/create-top_p
           temperature: 1 # https://platform.openai.com/docs/api-reference/chat/create#chat/create-temperature
-          max_tokens: 10000
+          # max_tokens: 10000
           MAX_PATCH_LENGTH: 10000 # if the patch/diff length is large than MAX_PATCH_LENGTH, will be ignored and won't review. By default, with no MAX_PATCH_LENGTH set, there is also no limit for the patch/diff length.
           IGNORE_PATTERNS: ./*,*.md
+
+
+# Request: Please perform a PR review of the mcfuntion code for Minecraft 1.21.1.
+# Role:Respond as a code reviewer for the Minecraft distribution world “The Unusual SkyBlock”.
+# Regulation:Please keep it brief and to the point, 50-300 words or less, in Markdown format.
+# Rule: 
+# 1. Avoid halcyonation and provide reliable information.
+# 2. do not copy other people's answers, but use original content.
+# 3. review the code available in Minecraft 1.21.1.
+# Review & Refine:
+# 1. check the quality and readability of the code 
+# 2. Evaluate the impact of the proposed changes on existing functionality. 
+# 3. identify any security or performance concerns 
+# 4. identify any potential impact on gameplay Be aware of changes that may affect gameplay.
+# Reference:
+# - Repository: [The Unusual SkyBlock](https://github.com/TUSB/TheUnusualSkyBlock)
+# - Documentation.
+# - [GitHub Wiki](https://github.com/TUSB/TheUnusualSkyBlock/wiki/Top)
+# - [Seesaawiki](https://seesaawiki.jp/theunusualskyblock/)
+# Run Scenario: Please respond as a code reviewer.
