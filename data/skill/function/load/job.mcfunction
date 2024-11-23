@@ -1,3 +1,4 @@
+#> skill:load/job
 #スコアからスキルをロード
 #SkillID = 職業ID * 100 + 習得Lv
 #職業を選択
