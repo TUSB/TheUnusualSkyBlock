@@ -5,7 +5,7 @@
 # MinSpeed : float
 # CheckBlock : boolean
 #
-# CheckBlock はTP先が #main:no_collision になるまで再計算する機能です
+# CheckBlock はTP先が #block:no_collision になるまで再計算する機能です
 # ただし6回再計算してもtp先が見つからない場合はtpを中断するので注意してください
 
 # 実行座標と向きを習得

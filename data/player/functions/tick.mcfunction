@@ -12,7 +12,7 @@ execute if entity @s[scores={Hunger=0..,Age=1..}] run function player:rise/
 execute if entity @s[scores={LeaveGame=1..}] run function player:leave_game
 
 ### めり込み処理
-execute if entity @s[scores={Age=1..},gamemode=!spectator,gamemode=!creative] if block ^ ^ ^ #entity:unbreakable anchored eyes if block ^ ^ ^ #entity:unbreakable run function entity:suffocation
+execute if entity @s[scores={Age=1..},gamemode=!spectator,gamemode=!creative] if block ^ ^ ^ #block:unbreakable anchored eyes if block ^ ^ ^ #block:unbreakable run function entity:suffocation
 ### 特殊床
 execute if entity @s[gamemode=!creative,gamemode=!spectator] unless score @s Kazakiri matches 1.. if block ~ ~-2 ~ #entity:unique_floors run function entity:unique_floor/fork
 
