@@ -1,3 +1,4 @@
+#> skill:trigger/tellraw/init
 #職業スキルをロード
 execute if score @s ChangeSkill matches 1000 run function skill:trigger/tellraw/job/knight
 execute if score @s ChangeSkill matches 2000 run function skill:trigger/tellraw/job/ninja

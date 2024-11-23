@@ -1,3 +1,4 @@
+#> skill:trigger/tellraw/current_job
 #現在の職業の一覧を表示
 scoreboard players operation @s ChangeSkill = @s Job
 scoreboard players set _ _ 1000

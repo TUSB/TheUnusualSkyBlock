@@ -1,3 +1,4 @@
+#> skill:trigger/tellraw/loop
 #スキルをロード
 data modify storage skill: Skill set from storage skill: Data.Job[-1]
 #習得レベルの範囲内ならtellrawに追加
