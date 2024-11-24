@@ -33,8 +33,8 @@ advancement revoke @s only area:jump_to/skylands/underworld
 advancement revoke @s only area:jump_to/underworld/skylands
 advancement revoke @s only skill:shortcut
 
-#プレイヤーゲーム設定
-function player:game_settings/show
+#プレイヤー ゲームメニュー
+function main:game_menu/show
 
 # 祈り表示
 tag @s add Pray
