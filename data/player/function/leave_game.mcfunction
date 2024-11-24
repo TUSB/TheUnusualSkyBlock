@@ -36,15 +36,6 @@ advancement revoke @s only skill:shortcut
 #プレイヤーゲーム設定
 function player:game_settings/show
 
-# バースト必要値 更新
-# execute unless score $World Burst matches -1 run function skill:burst/required_amount
-
-# execute unless score $World Burst matches -1 run function skill:burst/bossbar
-
-# バーストリセット
-    # scoreboard players reset @s Burst
-    # function skill:burst/summoner/element/reset
-
 # 祈り表示
 tag @s add Pray
 
