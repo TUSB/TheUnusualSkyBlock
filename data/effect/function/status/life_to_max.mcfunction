@@ -1,4 +1,4 @@
-
+#> effect:status/life_to_max
 ###最大ステータスにする
 
 function effects:status/modify_max

@@ -1,4 +1,4 @@
-
+#> effect:status/modify_max
 ### 最大体力を調整する
 
 function job:status/operation_start

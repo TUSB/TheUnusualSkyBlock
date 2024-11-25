@@ -1,4 +1,4 @@
-
+#> effect:status/hunger
 ### 満腹度調整
 
 effect give @s[scores={Hunger=20}] minecraft:hunger 4 50
