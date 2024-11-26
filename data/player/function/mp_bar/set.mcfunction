@@ -13,6 +13,7 @@ experience add @s 40 levels
 execute if score _ MP matches 1.. run function player:mp_bar/set_loop
 experience add @s -40 levels
 
+#現在MPをレベルとして表示
 scoreboard players operation _ MP = @s MP
 execute if score _ MP matches 1.. run function player:mp_bar/set_level
 
