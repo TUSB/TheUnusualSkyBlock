@@ -1,4 +1,4 @@
-
+#> skill:equipments_to_items
 #> 装備情報をItemsに反転変換
 #
 # 防具・両手のアイテムの装備情報から反転する
