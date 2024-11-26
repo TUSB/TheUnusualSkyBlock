@@ -1,4 +1,4 @@
-
+#> player:mp_bar/set
 # (現在MP*2 / 最大MP) で割合の2倍を出す。
 # 100倍で計算する
 scoreboard players operation _ MP = @s MP

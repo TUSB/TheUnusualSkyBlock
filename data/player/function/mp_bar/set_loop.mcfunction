@@ -1,4 +1,4 @@
-
+#> player:mp_bar/set_loop
 execute if score _ MP matches 128.. run experience add @s 128 points
 execute if score _ MP matches 128.. run scoreboard players remove _ MP 128
 

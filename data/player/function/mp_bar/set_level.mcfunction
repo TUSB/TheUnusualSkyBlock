@@ -1,4 +1,4 @@
-
+#> player:mp_bar/set_level
 execute if score _ MP matches 2048.. run experience add @s 2048 levels
 execute if score _ MP matches 2048.. run scoreboard players remove _ MP 2048
 
