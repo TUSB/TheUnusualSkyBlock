@@ -1,5 +1,13 @@
-name: Server Notice Action
-on: push
+name: Server Notice and Deploy Action
+on:
+  # Triggers the workflow on push or pull request events but only for the dev branch
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 jobs:
   notice:
     name: notice mcrcon
@@ -58,6 +66,66 @@ jobs:
       - name: Notice Bungeecord
         run: |
           /usr/local/bin/mcrcon -H  ${{ secrets.TUSB_MINECRAFT_SERVER_REMOTE_HOST_IP }} -p ${{ secrets.TUSB_SERVER_RCON_PASSWORD }} -P ${{ secrets.TUSB_SERVER_RCON_PORT }} -w 5 "alertraw [\"\",{\"text\":\"[INFO] \"},{\"text\":\"\u30ea\u30dd\u30b8\u30c8\u30ea\u304c\u66f4\u65b0\u3055\u308c\u307e\u3057\u305f\u3002\",\"bold\":true,\"color\":\"yellow\"},{\"text\":\"(Hash: \"},{\"text\":\"${{ steps.vars.outputs.sha_short }}\",\"italic\":true,\"underlined\":true,\"clickEvent\":{\"action\":\"open_url\",\"value\":\"https://github.com/TUSB/TheUnusualSkyBlock/commit/${{ steps.vars.outputs.sha_short }}\"}},{\"text\":\")\"}]" 
+          
+      - if: always()
+        name: Delete Firewalld IP Address
+        run: |
+          DELETE_FIREWALL=$(curl "https://api.vultr.com/v2/firewalls/${{ secrets.VULTR_FIREWALL_GROUP_ID }}/rules/${{ steps.FIREWALL.outputs.ID }}"  \
+          -X DELETE  \
+          -H 'Authorization: Bearer ${{ secrets.VULTR_API_KEY }}')
+          echo $DELETE_FIREWALL
+          echo "-----DEBUG-----"
+          echo "$DELETE_FIREWALL"
+  deploy:
+    name: deploy server
+    runs-on: ubuntu-latest
+    steps:
+      - name: Public IP
+        id: ip
+        uses: haythem/public-ip@v1.2
+
+      - name: Print Public IP
+        run: |
+          echo ${{ steps.ip.outputs.ipv4 }}
+          echo ${{ steps.ip.outputs.ipv6 }}
+      
+      - uses: actions/checkout@v2
+      - name: Add Firewalld IP Address
+        id: FIREWALL
+        run: |
+          ADD_FIREWALL=`curl "https://api.vultr.com/v2/firewalls/${{ secrets.VULTR_FIREWALL_GROUP_ID }}/rules" \
+              -X POST \
+              -H "Authorization: Bearer ${{ secrets.VULTR_API_KEY }}" \
+              -H "Content-Type: application/json" \
+              --data '{
+              "ip_type": "v4",
+              "protocol": "tcp",
+              "port": "${{ secrets.TUSB_MINECRAFT_SERVER_SSH_PORT }}", 
+              "subnet": "${{ steps.ip.outputs.ipv4 }}",
+              "subnet_size": 32,
+              "source": "",
+              "notes": "GitHub Action Firewall Rule"
+          }'`
+          
+          firewall_id=`echo "$ADD_FIREWALL" | jq '.firewall_rule.id'`
+          echo "::set-output name=ID::$firewall_id"
+          echo "-----DEBUG-----"
+          echo "$ADD_FIREWALL"
+   
+      - name: Sleep for 45 seconds
+        uses: jakejarvis/wait-action@master
+        with:
+          time: '45s'
+      - name: Deploy by rsync
+        uses: trendyminds/github-actions-rsync@master
+        with:
+          RSYNC_OPTIONS: -avzre "ssh -o 'StrictHostKeyChecking no'" --delete --timeout=1200 --exclude=".git/" --exclude=".github/" --exclude="*.md" --exclude="*.py"
+          RSYNC_SOURCE: /
+          RSYNC_TARGET: /home/${{ secrets.TUSB_MINECRAFT_SERVER_REMOTE_USER }}/deploy/${{ github.event.repository.name }}
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.TUSB_MINECRAFT_SERVER_PRIVATE_KEY }}
+          SSH_USERNAME: ${{ secrets.TUSB_MINECRAFT_SERVER_REMOTE_USER }}
+          SSH_HOSTNAME: ${{ secrets.TUSB_MINECRAFT_SERVER_REMOTE_HOST_IP }}
           
       - if: always()
         name: Delete Firewalld IP Address

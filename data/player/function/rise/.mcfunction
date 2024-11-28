@@ -3,7 +3,7 @@
 
 ##体力再設定
 #最大体力
-function effects:status/modify_max
+function effect:status/modify_max
 #MP超過修正
 scoreboard players operation @s MP < @s MPMax
 #ペイル再付与 ロック解除
@@ -17,7 +17,7 @@ effect give @s instant_health 1 10 true
 function player:mp_bar/set
 
 ##満腹度調整
-function effects:status/hunger
+function effect:status/hunger
 
 ## ディメンション移動処理
 function #oh_my_dat:please
