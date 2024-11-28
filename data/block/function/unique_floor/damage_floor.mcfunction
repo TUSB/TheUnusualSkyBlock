@@ -6,5 +6,5 @@ execute if score @s Age matches 1.. run effect give @s minecraft:instant_damage 
 ### 死亡時メッセージ
 # function player:trigger/death に移行
 
-function makeup:entity/unique_floor/damage_floor
+function makeup:block/unique_floor/damage_floor
 
