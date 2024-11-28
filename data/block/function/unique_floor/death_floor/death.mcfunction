@@ -1,4 +1,4 @@
-
+#> block:unique_floor/death_floor/death
 ### 即死床 死亡処理
 
 gamerule showDeathMessages false

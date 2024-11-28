@@ -1,4 +1,4 @@
-
+#> block:unique_floor/custom_floor
 ### カスタム床処理
 # execute if data block ~ ~ ~ {TrackOutput:true} を条件に付けることで、単発実行になる
 execute store result storage tusb_player: _ long 1 run time query gametime

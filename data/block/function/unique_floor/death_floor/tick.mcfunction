@@ -1,4 +1,4 @@
-
+#> block:unique_floor/death_floor/tick
 ### 即死床処理
 
 execute store result score _ _ run time query gametime

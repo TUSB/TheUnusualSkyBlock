@@ -1,4 +1,4 @@
-
+#> block:unique_floor/moving_walkway
 ### 移動床処理
 
 execute if block ~ ~-2 ~ minecraft:magenta_glazed_terracotta[facing=north] run tp @s ~ ~ ~0.4

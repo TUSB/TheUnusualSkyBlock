@@ -1,3 +1,4 @@
+#> block:unique_floor/drop_floor
 ### 落とし床処理
 
 scoreboard players set _ _ 0
