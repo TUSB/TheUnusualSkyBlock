@@ -1,4 +1,4 @@
-
+#> skill:update_mp/wait
 ### MPウェイト更新
 
 ##マナリフレッシュ

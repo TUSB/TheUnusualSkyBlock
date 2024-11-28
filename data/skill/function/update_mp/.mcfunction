@@ -1,4 +1,4 @@
-
+#> skill:update_mp/
 ### MP更新
 
 ### MPアクセラ
