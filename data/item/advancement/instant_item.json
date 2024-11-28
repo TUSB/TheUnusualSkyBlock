@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{InstantEffect:{}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "item:instant_item/"
+  }
+}

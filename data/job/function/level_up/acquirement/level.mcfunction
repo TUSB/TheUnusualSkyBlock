@@ -1,0 +1,10 @@
+#> job:level_up/acquirement/level
+### スキル習得 レベル分岐
+data remove storage skill: Skill
+function job:level_up/acquirement/get_skill.macro with storage job: level
+
+data remove storage skill: DamageJson
+execute if data storage skill: Skill.Damage run function skill:trigger/set/damage_json
+execute if data storage skill: Skill if score _ Ret matches 0 in area:control_area run data modify block 2 3 2 front_text.messages[0] set value '{"translate":"・新しいスキルを覚えた！"}'
+execute if data storage skill: Skill in area:control_area run data modify block 2 3 2 front_text.messages[0] set value '[{"block":"2 3 2","nbt":"front_text.messages[0]","interpret":true},"\\n ",{"storage":"skill:","nbt":"Skill.Icon","font":"icon","color":"green"},{"storage":"skill:","nbt":"Skill.Skill","hoverEvent":{"action":"show_text","contents":[{"text":""},{"storage":"skill:","nbt":"Skill.Icon","font":"icon","color":"green"},{"text":" "},{"storage":"skill:","nbt":"Skill.Skill"},{"storage":"skill:","nbt":"NewLine","interpret":true},{"storage":"skill:","nbt":"Skill.Lore[0]","interpret":true},{"storage":"skill:","nbt":"Skill.Lore[1]","interpret":true},{"storage":"skill:","nbt":"Skill.Lore[2]","interpret":true},{"storage":"skill:","nbt":"Skill.Lore[3]","interpret":true},{"storage":"skill:","nbt":"Skill.Lore[4]","interpret":true},{"storage":"skill:","nbt":"Skill.Lore[5]","interpret":true},{"storage":"skill:","nbt":"Skill.Lore[6]","interpret":true},{"storage":"skill:","nbt":"Skill.Lore[7]","interpret":true},{"storage":"skill:","nbt":"Skill.Lore[8]","interpret":true},{"storage":"skill:","nbt":"Skill.Lore[9]","interpret":true},{"storage":"skill:","nbt":"NewLine","interpret":true},{"text":"K","font":"icon","color":"gold"},{"translate":" 発動条件: "},{"storage":"skill:","nbt":"Skill.Trigger"},{"storage":"skill:","nbt":"NewLine","interpret":true},{"text":"M","font":"icon","color":"aqua"},{"translate":" 消費MP: "},{"storage":"skill:","nbt":"Skill.MP"},{"storage":"skill:","nbt":"DamageJson.NewLine","interpret":true},{"storage":"skill:","nbt":"DamageJson.Damage","interpret":true}]}}]'
+execute if data storage skill: Skill run scoreboard players set _ Ret 1
