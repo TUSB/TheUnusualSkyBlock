@@ -29,7 +29,7 @@ data modify storage job: JobStatus set from storage oh_my_dat: _[-4][-4][-4][-4]
 function job:status/load
 function job:status/get_all_job_level
 function job:status/operation_end
-function effects:status/life_to_max
+function effect:status/life_to_max
 
 data modify storage anywhere: at set from storage tutorial_alpha: pop.SpawnPoint
 function #anywhere:spawnpoint
