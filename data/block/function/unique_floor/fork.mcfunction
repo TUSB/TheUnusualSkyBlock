@@ -1,6 +1,8 @@
 #> block:unique_floor/fork
 ### 特殊床 分岐
 
+# 風切中は特殊床無効
+execute if score @s Kazakiri matches 1.. run return fail
 
 ### 即死床
 execute if block ~ ~-2 ~ minecraft:smooth_red_sandstone if score @s Age matches 1.. run function block:unique_floor/death_floor/tick
