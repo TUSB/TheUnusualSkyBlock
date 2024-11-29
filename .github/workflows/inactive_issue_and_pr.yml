@@ -18,14 +18,14 @@ jobs:
         with:
           stale-issue-message: |
             > [!WARNING]  
-            > このissueを最後に更新してから**90日経過**しています。
+            > このissueを最後に更新してから**60日経過**しています。
             >  このまま、何も活動の更新がないと**14日後**にこのissueはクローズされます。
             > クローズを防ぐにはコメント更新してください。
             > ⚠️`古くなった`ラベルは削除しないでください⚠️
           stale-pr-message: |
             > [!WARNING]  
-            > このPRは45日間活動がないため、古くなっています。
-            > このまま、何も活動の更新がないと**10日後**にこのPRはクローズされます。
+            > このPRは30日間活動がないため、古くなっています。
+            > このまま、何も活動の更新がないと**14日後**にこのPRはクローズされます。
             > クローズを防ぐにはコメント更新してください。
             > ⚠️`古くなった`ラベルは削除しないでください⚠️
           close-issue-message: |
@@ -34,8 +34,10 @@ jobs:
           close-pr-message: |
             > [!IMPORTANT]  
             > このPRは、10日間何の活動もなく停滞しているため、クローズされました。
-          days-before-issue-stale: 90
-          days-before-pr-stale: 45
+          days-before-issue-stale: 60
+          days-before-pr-stale: 30
           days-before-issue-close: 14
-          days-before-pr-close: 10
+          days-before-pr-close: 14
           stale-issue-label: '古くなった'
+          close-pr-label: 'auto close'
+          close-issue-label: 'auto close'
