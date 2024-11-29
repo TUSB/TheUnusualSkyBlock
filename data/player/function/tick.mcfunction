@@ -7,7 +7,7 @@
 execute if entity @s[scores={Hunger=0..,Age=1..}] run function player:rise/
 
 ### 特殊床
-execute if entity @s[predicate=entity:player] if block ~ ~-2 ~ #entity:unique_floors run function block:unique_floor/fork
+execute if entity @s[predicate=entity:player] if block ~ ~-2 ~ #block:unique_floors run function block:unique_floor/fork
 
 ### トリガー
 execute if entity @s[scores={UseBow=1..}] run function player:trigger/use/bow
