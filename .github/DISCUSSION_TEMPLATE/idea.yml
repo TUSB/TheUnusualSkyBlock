@@ -1,9 +1,6 @@
 title: 要望&アイデア
-description: 新しいアイデアを提案する
-categories: 
-  - アイデア
-labels: [提案]
-template:
+labels: [アイデア]
+body:
   - type: markdown
     attributes:
       value: |
