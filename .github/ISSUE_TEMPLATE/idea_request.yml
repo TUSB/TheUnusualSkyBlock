@@ -1,0 +1,13 @@
+name: 要望&アイデア
+description: 新しいアイデアを提案する
+title: "[要望] <ここにタイトルを入力>"
+labels: [提案]
+body: 
+- type: markdown
+  attributes:
+    value: |
+      ## ⚠️ Issue/Projectからのアイデアは非推奨です!
+
+      DiscussionからのIdea投稿をお願いします。
+      https://github.com/TUSB/TheUnusualSkyBlock/discussions/categories/idea
+      今まで通り、テンプレートは使用でき、アイデアが実装されたときにIssueに変換しましょう
