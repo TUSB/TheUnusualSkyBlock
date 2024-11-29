@@ -1,8 +1,6 @@
 labels: [アイデア]
-name: 要望&アイデア
-description: 新しいアイデアを提案する
-title: "[要望] <ここにタイトルを入力>"
-labels: [提案]
+title: "[アイデア] <ここにタイトルを入力>"
+labels: [アイデア]
 body: 
 - type: markdown
   attributes:
