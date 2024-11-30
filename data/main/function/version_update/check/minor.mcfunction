@@ -1,3 +1,4 @@
+#> main:version_update/check/minor
 #マイナーバージョンチェック
 execute store result score $World Calc run data get storage v13alpha: Version.Minor
 execute store result score $World _ run data get storage v13alpha: UpdatingVersion.Minor

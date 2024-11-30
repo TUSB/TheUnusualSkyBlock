@@ -1,3 +1,4 @@
+#> main:version_update/check/major
 #メジャーバージョンチェック
 execute store result score $World Calc run data get storage v13alpha: Version.Major
 execute store result score $World _ run data get storage v13alpha: UpdatingVersion.Major
