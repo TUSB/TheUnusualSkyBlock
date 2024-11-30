@@ -1,4 +1,4 @@
-
+#> block:suffocation
 ### めり込み死亡処理
 
 gamerule showDeathMessages false
