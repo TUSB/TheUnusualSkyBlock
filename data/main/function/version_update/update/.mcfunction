@@ -2,11 +2,6 @@
 #アップデート
 data modify storage v13alpha: Version set from storage v13alpha: UpdatingVersion
 
-## v13α用アップデート
-#execute if data storage v13alpha: {Version:{Major:1}} if score $World Calc matches ..0 run function settings:version_update/update/13_1_1_alpha
-#(ロールバックのため13.1.1と同じ)
-#execute if data storage v13alpha: {Version:{Major:2}} if score $World Calc matches ..0 run function settings:version_update/update/13_1_1_alpha
-
 function #settings:version_update/update
 
 #看板書き換え
