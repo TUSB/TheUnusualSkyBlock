@@ -4,7 +4,7 @@
 # execute if score $Ticks Count matches 0 run function player:one_second
 
 ###パーティクル表示判定
-function main:particle/update_tag
+function player:particle/update_tag
 
 ### 生き返り後処理
 execute if entity @s[scores={Hunger=0..,Age=1..}] run function player:rise/
