@@ -4,7 +4,7 @@
 ## パーティクル表示タグを削除
 tag @s remove ShowParticles
 
-execute store result score _ Calc run scoreboard players operation _ _ = $Tick Count
+execute store result score _ Calc run scoreboard players operation _ _ = $Ticks Count
 
 scoreboard players set _ ParticleDenom 6
 scoreboard players operation _ _ %= _ ParticleDenom
