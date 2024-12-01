@@ -2,7 +2,7 @@ name: Sync ProjectV2 Status with Labels
 
 on:
   schedule:
-    - cron: '*/5 * * * *'  # 15分ごとに実行
+    - cron: '*/15 * * * *'  # 15分ごとに実行
   workflow_dispatch:
   
 jobs:
@@ -23,51 +23,63 @@ jobs:
 
       - name: Sync labels with project status
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PAT_TOKEN }}  # PATを使用
         run: |
-          # GraphQLクエリの作成
-          QUERY=$(cat <<EOF
+          # GraphQLクエリをJSONエンコード
+          QUERY=$(jq -n --arg owner "$OWNER" --arg repo "$REPO" --argjson projectNumber "$PROJECT_NUMBER" '
           {
-            repository(owner: "$OWNER", name: "$REPO") {
-              projectV2(number: $PROJECT_NUMBER) {
-                items(first: 100) {
-                  nodes {
-                    content {
-                      __typename
-                      ... on Issue {
-                        number
+            query: "query ($owner: String!, $repo: String!, $projectNumber: Int!) {
+              repository(owner: $owner, name: $repo) {
+                projectV2(number: $projectNumber) {
+                  items(first: 100) {
+                    nodes {
+                      content {
+                        __typename
+                        ... on Issue {
+                          number
+                        }
                       }
-                    }
-                    fieldValues(first: 10) {
-                      nodes {
-                        ... on ProjectV2ItemFieldSingleSelectValue {
-                          field {
+                      fieldValues(first: 10) {
+                        nodes {
+                          ... on ProjectV2ItemFieldSingleSelectValue {
+                            field {
+                              name
+                            }
                             name
                           }
-                          name
                         }
                       }
                     }
                   }
                 }
               }
+            }",
+            variables: {
+              owner: $owner,
+              repo: $repo,
+              projectNumber: $projectNumber
             }
-          }
-          EOF
-          )
+          }')
 
           # GraphQL APIの呼び出し
           RESPONSE=$(curl -s -X POST \
             -H "Authorization: bearer $GITHUB_TOKEN" \
             -H "Content-Type: application/json" \
-            -d "{\"query\": \"$QUERY\"}" \
+            -d "$QUERY" \
             https://api.github.com/graphql)
 
           # 取得したデータをファイルに保存
           echo "$RESPONSE" > response.json
 
+          # エラーのチェック
+          if jq -e '.errors' response.json > /dev/null; then
+            echo "GraphQL query returned errors:"
+            jq '.errors' response.json
+            exit 1
+          fi
+
           # jqでIssue番号とステータスを抽出
-          ITEMS=$(jq -r '.data.repository.projectV2.items.nodes[] | select(.content.__typename == "Issue") | {number: .content.number, status: (.fieldValues.nodes[] | select(.field.name=="優先度") | .name)}' response.json)
+          ITEMS=$(jq -r '.data.repository.projectV2.items.nodes[] | select(.content.__typename == "Issue") | {number: .content.number, status: (.fieldValues.nodes[] | select(.field.name=="Status") | .name)}' response.json)
 
           # 各Issueに対して処理を行う
           echo "$ITEMS" | jq -c '.' | while read ITEM; do
