@@ -1,53 +1,113 @@
 name: Sync ProjectV2 Status with Labels
 
 on:
+  schedule:
+    - cron: '*/5 * * * *'  # 15分ごとに実行
   workflow_dispatch:
-  project_card:
-    types: [edited]
-
+  
 jobs:
   sync-labels:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Set up environment variables
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OWNER: 'TUSB'
+          REPO: 'TheUnusualSkyBlock'
+          PROJECT_NUMBER: '14'
+        run: |
+          echo "OWNER=$OWNER" >> $GITHUB_ENV
+          echo "REPO=$REPO" >> $GITHUB_ENV
+          echo "PROJECT_NUMBER=$PROJECT_NUMBER" >> $GITHUB_ENV
+
       - name: Sync labels with project status
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          ISSUE_NUMBER=$(jq -r '.projects_v2_item.content.number' "$GITHUB_EVENT_PATH")
-          FIELD_CHANGES=$(jq -r '.changes.field_value' "$GITHUB_EVENT_PATH")
+          # GraphQLクエリの作成
+          QUERY=$(cat <<EOF
+          {
+            repository(owner: "$OWNER", name: "$REPO") {
+              projectV2(number: $PROJECT_NUMBER) {
+                items(first: 100) {
+                  nodes {
+                    content {
+                      __typename
+                      ... on Issue {
+                        number
+                      }
+                    }
+                    fieldValues(first: 10) {
+                      nodes {
+                        ... on ProjectV2ItemFieldSingleSelectValue {
+                          field {
+                            name
+                          }
+                          name
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+          EOF
+          )
 
-          # ステータスフィールドの変更があるか確認
-          if [[ "$FIELD_CHANGES" != "null" ]]; then
-            FIELD_NAME=$(jq -r '.changes.field_value.field_name' "$GITHUB_EVENT_PATH")
-            NEW_VALUE=$(jq -r '.changes.field_value.field_value' "$GITHUB_EVENT_PATH")
+          # GraphQL APIの呼び出し
+          RESPONSE=$(curl -s -X POST \
+            -H "Authorization: bearer $GITHUB_TOKEN" \
+            -H "Content-Type: application/json" \
+            -d "{\"query\": \"$QUERY\"}" \
+            https://api.github.com/graphql)
 
-            # ステータスフィールドの場合のみ処理
-            if [[ "$FIELD_NAME" == "優先度" ]]; then
-              if [[ "$NEW_VALUE" == "1:低め" ]]; then
-                LABEL="優先度: 低い"
-              elif [[ "$NEW_VALUE" == "In Progress" ]]; then
-                LABEL="in-progress"
-              elif [[ "$NEW_VALUE" == "Done" ]]; then
-                LABEL="done"
-              fi
+          # 取得したデータをファイルに保存
+          echo "$RESPONSE" > response.json
 
-              # 既存のラベルを取得
-              EXISTING_LABELS=$(curl -s \
-                -H "Authorization: token $GITHUB_TOKEN" \
-                -H "Accept: application/vnd.github+json" \
-                https://api.github.com/repos/${{ github.repository }}/issues/$ISSUE_NUMBER \
-                | jq -r '.labels[].name')
+          # jqでIssue番号とステータスを抽出
+          ITEMS=$(jq -r '.data.repository.projectV2.items.nodes[] | select(.content.__typename == "Issue") | {number: .content.number, status: (.fieldValues.nodes[] | select(.field.name=="優先度") | .name)}' response.json)
 
-              # 新しいラベルリストを作成
-              UPDATED_LABELS=$(echo "$EXISTING_LABELS" | grep -v -E 'todo|in-progress|done')
-              UPDATED_LABELS+=" $LABEL"
+          # 各Issueに対して処理を行う
+          echo "$ITEMS" | jq -c '.' | while read ITEM; do
+            ISSUE_NUMBER=$(echo "$ITEM" | jq -r '.number')
+            STATUS=$(echo "$ITEM" | jq -r '.status')
 
-              # ラベルを更新
-              curl -s -X PATCH \
-                -H "Authorization: token $GITHUB_TOKEN" \
-                -H "Accept: application/vnd.github+json" \
-                https://api.github.com/repos/${{ github.repository }}/issues/$ISSUE_NUMBER \
-                -d "{\"labels\":[\"$(echo $UPDATED_LABELS | tr ' ' ',')\"]}"
+            echo "Processing Issue #$ISSUE_NUMBER with Status: $STATUS"
+
+            # ステータスに応じてラベルを設定
+            if [[ "$STATUS" == "1:低め" ]]; then
+              LABEL="優先度: 低い"
+            elif [[ "$STATUS" == "2:通常" ]]; then
+              LABEL="優先度: 通常"
+            elif [[ "$STATUS" == "3:高い" ]]; then
+              LABEL="優先度: 高い"
+            else
+              echo "Unknown status: $STATUS. Skipping Issue #$ISSUE_NUMBER"
+              continue
             fi
-          fi
+
+            # 既存のラベルを取得
+            EXISTING_LABELS=$(curl -s \
+              -H "Authorization: token $GITHUB_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              https://api.github.com/repos/$OWNER/$REPO/issues/$ISSUE_NUMBER \
+              | jq -r '.labels[].name')
+
+            # ステータス関連のラベルを除外
+            UPDATED_LABELS=$(echo "$EXISTING_LABELS" | grep -v -E 'todo|in-progress|done')
+            UPDATED_LABELS="$UPDATED_LABELS $LABEL"
+
+            # ラベルを配列形式に変換
+            LABELS_ARRAY=$(echo "$UPDATED_LABELS" | xargs -n1 | jq -R . | jq -s .)
+
+            # ラベルを更新
+            UPDATE_RESPONSE=$(curl -s -X PATCH \
+              -H "Authorization: token $GITHUB_TOKEN" \
+              -H "Accept: application/vnd.github+json" \
+              https://api.github.com/repos/$OWNER/$REPO/issues/$ISSUE_NUMBER \
+              -d "{\"labels\":$LABELS_ARRAY}")
+
+            echo "Updated labels for Issue #$ISSUE_NUMBER"
+          done
