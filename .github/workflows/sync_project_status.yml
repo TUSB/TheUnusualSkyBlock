@@ -1,0 +1,53 @@
+name: Sync ProjectV2 Status with Labels
+
+on:
+  workflow_dispatch:
+  project_card:
+    types: [edited]
+
+jobs:
+  sync-labels:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Sync labels with project status
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ISSUE_NUMBER=$(jq -r '.projects_v2_item.content.number' "$GITHUB_EVENT_PATH")
+          FIELD_CHANGES=$(jq -r '.changes.field_value' "$GITHUB_EVENT_PATH")
+
+          # ステータスフィールドの変更があるか確認
+          if [[ "$FIELD_CHANGES" != "null" ]]; then
+            FIELD_NAME=$(jq -r '.changes.field_value.field_name' "$GITHUB_EVENT_PATH")
+            NEW_VALUE=$(jq -r '.changes.field_value.field_value' "$GITHUB_EVENT_PATH")
+
+            # ステータスフィールドの場合のみ処理
+            if [[ "$FIELD_NAME" == "優先度" ]]; then
+              if [[ "$NEW_VALUE" == "1:低め" ]]; then
+                LABEL="優先度: 低い"
+              elif [[ "$NEW_VALUE" == "In Progress" ]]; then
+                LABEL="in-progress"
+              elif [[ "$NEW_VALUE" == "Done" ]]; then
+                LABEL="done"
+              fi
+
+              # 既存のラベルを取得
+              EXISTING_LABELS=$(curl -s \
+                -H "Authorization: token $GITHUB_TOKEN" \
+                -H "Accept: application/vnd.github+json" \
+                https://api.github.com/repos/${{ github.repository }}/issues/$ISSUE_NUMBER \
+                | jq -r '.labels[].name')
+
+              # 新しいラベルリストを作成
+              UPDATED_LABELS=$(echo "$EXISTING_LABELS" | grep -v -E 'todo|in-progress|done')
+              UPDATED_LABELS+=" $LABEL"
+
+              # ラベルを更新
+              curl -s -X PATCH \
+                -H "Authorization: token $GITHUB_TOKEN" \
+                -H "Accept: application/vnd.github+json" \
+                https://api.github.com/repos/${{ github.repository }}/issues/$ISSUE_NUMBER \
+                -d "{\"labels\":[\"$(echo $UPDATED_LABELS | tr ' ' ',')\"]}"
+            fi
+          fi
