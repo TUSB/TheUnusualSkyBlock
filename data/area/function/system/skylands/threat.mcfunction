@@ -1,3 +1,4 @@
+#> area:system/skylands/threat
 ## 通常世界 脅威島
 
 # チェストを壊すとなぜかサトウキビが崩れる

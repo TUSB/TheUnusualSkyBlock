@@ -1,4 +1,4 @@
-
+#> area:system/skylands/hopper
 scoreboard players set _ Calc 5
 
 execute store result score _ _ run function calc:random

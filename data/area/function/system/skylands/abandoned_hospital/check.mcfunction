@@ -1,3 +1,4 @@
+#> area:system/skylands/abandoned_hospital/check
 gamerule doTileDrops false
 
 execute if entity @s[advancements={area:system/skylands/abandoned_hospital={exit_lever=true}}] run fill -156 186 -687 -154 186 -685 air destroy
