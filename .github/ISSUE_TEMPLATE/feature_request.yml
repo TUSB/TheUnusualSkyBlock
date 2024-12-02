@@ -1,4 +1,4 @@
-name: やるべきリスト
+name: 機能開発
 description: 機能開発とか今後やらないといけないと決まっているタスク
 title: "[feature] <ここにタイトルを入力>"
 labels: [機能開発]
@@ -25,13 +25,6 @@ body:
       - 高い
   validations:
     required: true
-    on:
-      option: 低め
-      labels: [優先度: 低い]
-      option: 通常
-      labels: [優先度: 通常]
-      option: 高い
-      labels: [優先度: 高い]
 
 - type: markdown
   attributes:
