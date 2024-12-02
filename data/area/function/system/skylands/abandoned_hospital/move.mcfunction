@@ -1,6 +1,6 @@
 #> area:system/skylands/abandoned_hospital/move
 execute in area:skylands positioned -114.5 185.5 -664.5 at @e[tag=HospitalGimmic,distance=..5] run clone ~ ~ ~ ~2 ~5 ~2 ~ ~ ~1 masked move
-execute in area:skylands positioned -114.5 185.5 -664.5 at @e[tag=HospitalGimmic,distance=..5] run function makeup:area/system/skyblock/hospital_gimmic
+execute in area:skylands positioned -114.5 185.5 -664.5 at @e[tag=HospitalGimmic,distance=..5] run function makeup:area/system/skylands/hospital_gimmic
 execute in area:skylands positioned -114.5 185.5 -664.5 as @e[tag=HospitalGimmic,distance=..5] at @s run tp @s ~ ~ ~1
 
 
