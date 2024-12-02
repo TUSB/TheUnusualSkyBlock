@@ -13,8 +13,8 @@ jobs:
         run: |
           echo "Issue Body:"
           echo "${{ github.event.issue.body }}"
-
-          PRIORITY=$(echo "${{ github.event.issue.body }}" | grep -oP '(?<=\*\*重要度\*\*\s*\r?\n\s*> ).*')
+          
+          PRIORITY=$(echo "${{ github.event.issue.body }}" | grep -oP '(?<=## 重要度\s*\r?\n\s*> ).*')
           echo "Extracted Priority: $PRIORITY"
 
           if [ "$PRIORITY" = "低め" ]; then
