@@ -8,7 +8,7 @@
             "condition": "location_check",
             "predicate": {
               "block": {
-                "tag": "area:potted_pots"
+                "blocks": "#area:potted_pots"
               },
               "position": {
                 "x": {
