@@ -4,7 +4,10 @@
       "trigger": "minecraft:location",
       "conditions": {
         "player": {
-          "gamemode": "adventure",
+          "type_specific": {
+            "type": "player",
+            "gamemode": ["adventure"]
+          },
           "location": {
             "position": {
               "y": {
