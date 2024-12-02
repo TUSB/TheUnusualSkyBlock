@@ -7,7 +7,9 @@
           "items": [
             "minecraft:firework_star"
           ],
-          "nbt": "{key_block:{}}"
+          "predicates": {
+            "custom_data": "{key_block:{}}"
+          }
         },
         "entity": {
           "type": "minecraft:interaction"
