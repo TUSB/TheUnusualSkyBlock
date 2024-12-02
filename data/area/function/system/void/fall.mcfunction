@@ -1,3 +1,4 @@
+#> area:system/void/fall
 #ランダムな穴にTP
 execute store result score _ Calc run function calc:random
 scoreboard players set _ _ 40

@@ -1,3 +1,4 @@
+#> area:system/void/teleport1
 #縦穴のID
 # 00  01  02  03  04  05
 #   24  25  26  27  28

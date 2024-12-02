@@ -1,3 +1,4 @@
+#> area:system/void/teleport0
 #area:voidにいるプレイヤーに対し実行
 #読み込み範囲外のため@sでアクセス
 function calc:geometry/tp_00000
