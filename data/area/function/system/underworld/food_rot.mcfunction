@@ -1,3 +1,4 @@
+#> area:system/underworld/food_rot
 ###腐るものの個数確認
 execute store result score _ _ run clear @s #area:food_rot_list 0
 
