@@ -30,5 +30,5 @@ particle minecraft:end_rod ^-0.5 ^0.5 ^ ^-1000000 ^1000000 ^ 0.000000075 0 force
 particle minecraft:end_rod ^ ^0.5 ^ ^ ^1000000 ^ 0.000000075 0 force
 particle minecraft:end_rod ^0.5 ^0.5 ^ ^1000000 ^1000000 ^ 0.000000075 0 force
 
-playsound minecraft:block.glass.break master @a[distance=..16] ~ ~ ~ 2 1.5
-playsound minecraft:block.portal.trigger master @a[distance=..16] ~ ~ ~ 0.3 2
+playsound minecraft:block.glass.break block @a[distance=..16] ~ ~ ~ 2 1.5
+playsound minecraft:block.portal.trigger block @a[distance=..16] ~ ~ ~ 0.3 2
