@@ -1,4 +1,4 @@
-
+#> area:key_block/unlock
 execute as @e[tag=KeyBlock.Block,distance=..7,limit=1,sort=nearest] run data modify storage area: key_block.key set from entity @s item.tag.key_block.key
 data modify storage area: key_block.key_item set from entity @s SelectedItem
 execute store result score _ _ run data modify storage area: key_block.key set from storage area: key_block.key_item.tag.key_block.key

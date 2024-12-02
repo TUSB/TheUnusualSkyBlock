@@ -1,4 +1,4 @@
-
+#> area:key_block/installation
 data modify storage area: key_block.Facing set from entity @s Facing
 data modify storage area: key_block.item set from entity @s Item
 data modify storage area: key_block.Rotation set from entity @s Rotation
