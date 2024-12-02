@@ -12,17 +12,17 @@ execute if data storage area: key_block{Facing:4b} at @s align xy run summon int
 execute if data storage area: key_block{Facing:5b} at @s align xy run summon interaction ~-0.49 ~ ~ {width:1f,height:1f,Tags:[KeyBlock,KeyBlock.Key]}
 
 # アイテムディスプレイを召喚する
-execute if data storage area: key_block{Facing:0b} at @s align xyz run summon item_display ~0.5 ~0.5 ~0.5 {CustomNameVisible:1b,Tags:[KeyBlock,KeyBlock.Block],item:{id:"minecraft:air",Count:1b},transformation:{translation:[0f,1f,0f],left_rotation:{axis:[1f,0f,0f],angle:4.712f},right_rotation:[0f,0f,0f,1f],scale:[1f,1f,1f]}}
-execute if data storage area: key_block{Facing:1b} at @s align xyz run summon item_display ~0.5 ~0.5 ~0.5 {CustomNameVisible:1b,Tags:[KeyBlock,KeyBlock.Block],item:{id:"minecraft:air",Count:1b},transformation:{translation:[0f,-1f,0f],left_rotation:{axis:[1f,0f,0f],angle:1.571f},right_rotation:[0f,0f,0f,1f],scale:[1f,1f,1f]}}
-execute if data storage area: key_block{Facing:2b} at @s align xyz run summon item_display ~0.5 ~0.5 ~0.5 {CustomNameVisible:1b,Tags:[KeyBlock,KeyBlock.Block],item:{id:"minecraft:air",Count:1b},transformation:{translation:[0f,0f,1f],left_rotation:{axis:[0f,1f,0f],angle:0f},right_rotation:[0f,0f,0f,1f],scale:[1f,1f,1f]}}
-execute if data storage area: key_block{Facing:3b} at @s align xyz run summon item_display ~0.5 ~0.5 ~0.5 {CustomNameVisible:1b,Tags:[KeyBlock,KeyBlock.Block],item:{id:"minecraft:air",Count:1b},transformation:{translation:[0f,0f,-1f],left_rotation:{axis:[0f,1f,0f],angle:3.141f},right_rotation:[0f,0f,0f,1f],scale:[1f,1f,1f]}}
-execute if data storage area: key_block{Facing:4b} at @s align xyz run summon item_display ~0.5 ~0.5 ~0.5 {CustomNameVisible:1b,Tags:[KeyBlock,KeyBlock.Block],item:{id:"minecraft:air",Count:1b},transformation:{translation:[1f,0f,0f],left_rotation:{axis:[0f,1f,0f],angle:1.571f},right_rotation:[0f,0f,0f,1f],scale:[1f,1f,1f]}}
-execute if data storage area: key_block{Facing:5b} at @s align xyz run summon item_display ~0.5 ~0.5 ~0.5 {CustomNameVisible:1b,Tags:[KeyBlock,KeyBlock.Block],item:{id:"minecraft:air",Count:1b},transformation:{translation:[-1f,0f,0f],left_rotation:{axis:[0f,1f,0f],angle:4.712f},right_rotation:[0f,0f,0f,1f],scale:[1f,1f,1f]}}
+execute if data storage area: key_block{Facing:0b} at @s align xyz run summon item_display ~0.5 ~0.5 ~0.5 {CustomNameVisible:1b,Tags:[KeyBlock,KeyBlock.Block],item:{id:"minecraft:stone",count:1b},transformation:{translation:[0f,1f,0f],left_rotation:{axis:[1f,0f,0f],angle:4.712f},right_rotation:[0f,0f,0f,1f],scale:[1f,1f,1f]}}
+execute if data storage area: key_block{Facing:1b} at @s align xyz run summon item_display ~0.5 ~0.5 ~0.5 {CustomNameVisible:1b,Tags:[KeyBlock,KeyBlock.Block],item:{id:"minecraft:stone",count:1b},transformation:{translation:[0f,-1f,0f],left_rotation:{axis:[1f,0f,0f],angle:1.571f},right_rotation:[0f,0f,0f,1f],scale:[1f,1f,1f]}}
+execute if data storage area: key_block{Facing:2b} at @s align xyz run summon item_display ~0.5 ~0.5 ~0.5 {CustomNameVisible:1b,Tags:[KeyBlock,KeyBlock.Block],item:{id:"minecraft:stone",count:1b},transformation:{translation:[0f,0f,1f],left_rotation:{axis:[0f,1f,0f],angle:0f},right_rotation:[0f,0f,0f,1f],scale:[1f,1f,1f]}}
+execute if data storage area: key_block{Facing:3b} at @s align xyz run summon item_display ~0.5 ~0.5 ~0.5 {CustomNameVisible:1b,Tags:[KeyBlock,KeyBlock.Block],item:{id:"minecraft:stone",count:1b},transformation:{translation:[0f,0f,-1f],left_rotation:{axis:[0f,1f,0f],angle:3.141f},right_rotation:[0f,0f,0f,1f],scale:[1f,1f,1f]}}
+execute if data storage area: key_block{Facing:4b} at @s align xyz run summon item_display ~0.5 ~0.5 ~0.5 {CustomNameVisible:1b,Tags:[KeyBlock,KeyBlock.Block],item:{id:"minecraft:stone",count:1b},transformation:{translation:[1f,0f,0f],left_rotation:{axis:[0f,1f,0f],angle:1.571f},right_rotation:[0f,0f,0f,1f],scale:[1f,1f,1f]}}
+execute if data storage area: key_block{Facing:5b} at @s align xyz run summon item_display ~0.5 ~0.5 ~0.5 {CustomNameVisible:1b,Tags:[KeyBlock,KeyBlock.Block],item:{id:"minecraft:stone",count:1b},transformation:{translation:[-1f,0f,0f],left_rotation:{axis:[0f,1f,0f],angle:4.712f},right_rotation:[0f,0f,0f,1f],scale:[1f,1f,1f]}}
 
 # 表示するアイテムを指定する
 execute at @s run data modify entity @e[tag=KeyBlock.Block,distance=..1.5,limit=1,sort=nearest] item set from storage area: key_block.item
 # アイテムの名前を表示する
-execute at @s run data modify entity @e[tag=KeyBlock.Block,distance=..1.5,limit=1,sort=nearest] CustomName set from storage area: key_block.item.tag.display.Name
+execute at @s run data modify entity @e[tag=KeyBlock.Block,distance=..1.5,limit=1,sort=nearest] CustomName set from storage area: key_block.item.components."minecraft:item_name"
 # 向きを記録
 execute at @s run data modify entity @e[tag=KeyBlock.Key,distance=..1.5,limit=1,sort=nearest] Rotation set from storage area: key_block.Rotation
 
