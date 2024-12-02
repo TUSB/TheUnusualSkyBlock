@@ -1,3 +1,4 @@
+#> makeup:area/key_block/break
 # 鍵差し込み演出
 execute positioned ^ ^ ^1 if entity @s[x_rotation=90] at @e[tag=KeyBlock.Block,distance=..1,limit=1,sort=nearest] run summon item_display ~ ~ ~ {Tags:[KeyBlock.Makeup],transformation:{left_rotation:{axis:[0f,0f,0f],angle:0f},right_rotation:{axis:[0f,0f,1f],angle:0.7854f},translation:[0f,-0.5f,0f],scale:[1f,1f,1f]},interpolation_duration:2}
 execute positioned ^ ^ ^1 if entity @s[x_rotation=90] at @e[tag=KeyBlock.Block,distance=..1,limit=1,sort=nearest] run data merge entity @e[tag=KeyBlock.Makeup,distance=..0.01,limit=1] {transformation:{translation:[0f,0.5f,0f]},start_interpolation:0}
