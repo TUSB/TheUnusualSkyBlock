@@ -1,4 +1,4 @@
-
+#> area:system/flying_island/gate/prison_gate
 ## 牢獄の駅を開放する
 
 execute in area:skylands run setblock -52 13 -597 minecraft:bedrock

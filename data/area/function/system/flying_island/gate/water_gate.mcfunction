@@ -1,4 +1,4 @@
-
+#> area:system/flying_island/gate/water_gate
 ## 水の駅を開放する
 
 execute in area:skylands run setblock -52 13 -597 minecraft:bedrock

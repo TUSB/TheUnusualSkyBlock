@@ -1,4 +1,4 @@
-
+#> area:system/flying_island/gate/trade_gate
 ## 交易島の駅を開放する
 
 execute in area:skylands positioned -52 13 -597 run function area:end_gateway

@@ -1,4 +1,4 @@
-
+#> area:system/flying_island/gate/change
 ## 飛空島の駅移動
 
 # チャンク強制読み込み
