@@ -3,34 +3,34 @@ name: Label Issue Based on Priority
 on:
   issues:
     types: [opened]
-
 jobs:
-  add_priority_label:
+  add_label_based_on_priority:
     runs-on: ubuntu-latest
     steps:
-      - name: 重要度を抽出
-        id: extract_priority
-        run: |
-          echo "Issue Body:"
-          echo "${{ github.event.issue.body }}"
-          
-          PRIORITY=$(echo "${{ github.event.issue.body }}" | grep -oP '(?<=## 重要度\s*\r?\n\s*> ).*')
-          echo "Extracted Priority: $PRIORITY"
-
-          if [ "$PRIORITY" = "低め" ]; then
-            echo "label=優先度: 低い" >> $GITHUB_OUTPUT
-          elif [ "$PRIORITY" = "通常" ]; then
-            echo "label=優先度: 通常" >> $GITHUB_OUTPUT
-          elif [ "$PRIORITY" = "高い" ]; then
-            echo "label=優先度: 高い" >> $GITHUB_OUTPUT
-          else
-            echo "label=" >> $GITHUB_OUTPUT
-            echo "No matching priority found."
-          fi
-
-      - name: ラベルを追加
-        if: ${{ steps.extract_priority.outputs.label != '' }}
-        uses: actions-ecosystem/action-add-labels@v1
+      - name: Extract priority and add label
+        uses: actions/github-script@v6
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          labels: ${{ steps.extract_priority.outputs.label }}
+          script: |
+            const issueBody = context.payload.issue.body;
+            const priorityMatch = issueBody.match(/###\s*\*\*重要度\*\*\s*\n\s*(.*)/);
+            if (priorityMatch) {
+              const priority = priorityMatch[1].trim();
+              let label = '';
+              if (priority.includes('低め')) {
+                label = '優先度: 低い';
+              } else if (priority.includes('通常')) {
+                label = '優先度: 通常';
+              } else if (priority.includes('高い')) {
+                label = '優先度: 高い';
+              }
+              if (label) {
+                await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: context.issue.number,
+                  labels: [label]
+                });
+              }
+            } else {
+              console.log('重要度が見つかりませんでした。');
+            }
