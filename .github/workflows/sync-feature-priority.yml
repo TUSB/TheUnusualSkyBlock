@@ -34,3 +34,31 @@ jobs:
             } else {
               console.log('重要度が見つかりませんでした。');
             }
+      - name: Check issue priority and clean body
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const issueNumber = issue.number;
+            const issueBody = issue.body;
+            const priorityMatch = issueBody.match(/###\s*\*\*重要度\*\*\s*\n\s*(.*)/);
+
+            if (priorityMatch) {
+              const priority = priorityMatch[1].trim();
+              if (priority !== '高い') {
+                // 特定のセクションを削除
+                const newBody = issueBody.replace(/###\s*なぜこの重要度にしたのか[\s\S]*?(?=###|$)/g, '').trim();
+                
+                await github.rest.issues.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issueNumber,
+                  body: newBody
+                });
+                console.log('Issue body updated as priority is not "高い".');
+              } else {
+                console.log('Priority is "高い", no changes made.');
+              }
+            } else {
+              console.log('Priority not found, no changes made.');
+            }
