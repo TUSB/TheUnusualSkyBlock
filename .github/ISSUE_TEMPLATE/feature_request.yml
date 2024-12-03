@@ -13,7 +13,7 @@ body:
 - type: dropdown 
   id: priority
   attributes:
-    label: 重要度
+    label: "**重要度**"
     description: |
       このタスクに対しての重要度を記入してください。**(急いで以上は乱用しないように)**
       - 低め: コードのリファクタリングや設計思想で気になるなどのやらなくても今回のVerではやらなくてもいいレベル
