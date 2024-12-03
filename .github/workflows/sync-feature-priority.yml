@@ -62,3 +62,51 @@ jobs:
             } else {
               console.log('Priority not found, no changes made.');
             }
+
+      - name: Validate issue content
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const issue = context.payload.issue;
+            const issueNumber = issue.number;
+            const issueBody = issue.body;
+
+            // 優先度を抽出
+            const priorityMatch = issueBody.match(/###\s*\*\*重要度\*\*\s*\n\s*(.*)/);
+            let priority = '';
+            if (priorityMatch) {
+              priority = priorityMatch[1].trim();
+            } else {
+              console.log('優先度が見つかりませんでした。');
+              return;
+            }
+
+            // 「なぜこの重要度にしたのか」セクションを抽出
+            const taskPriorityMatch = issueBody.match(/##\s*何故この重要度なのか\s*\n([\s\S]*?)\n##\s*いつまで対応が必要か/);
+            let taskPriorityContent = '';
+            if (taskPriorityMatch) {
+              taskPriorityContent = taskPriorityMatch[1].trim();
+            }
+
+            // 優先度が「高い」かつ「なぜこの重要度にしたのか」が空の場合、Issueをクローズ
+            if (priority === '高い' && (!taskPriorityContent || taskPriorityContent.includes('1.') || taskPriorityContent.includes('2.') || taskPriorityContent.includes('3.'))) {
+              // Issueをクローズ
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                state: 'closed'
+              });
+
+              // コメントを追加
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                body: '優先度が「高い」と選択されていますが、必要な情報が記入されていないため、このIssueはクローズされました。必要な情報を記入して再度作成してください。'
+              });
+
+              console.log('Issue closed due to missing required information.');
+            } else {
+              console.log('Issue validation passed.');
+            }
