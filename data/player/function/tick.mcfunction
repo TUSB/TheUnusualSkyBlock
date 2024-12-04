@@ -26,3 +26,5 @@ execute if entity @s[nbt={Inventory:[{id:"minecraft:nether_star"}]}] run functio
 
 ### プレイヤーゲームメニュー
 execute unless score @s ChangeSettings matches 0 run function main:game_menu/triggered
+### プレイヤースキル設定
+execute unless score @s ChangeSkill matches 0 run function skill:trigger/
