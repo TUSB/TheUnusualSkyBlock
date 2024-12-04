@@ -64,7 +64,7 @@ jobs:
             const issueNumber = issue.number;
             const issueBody = issue.body;
             const priority = process.env.PRIORITY;
-              if (priority !== '高い') {
+              if (priority.includes('高い')) {
                 // 特定のセクションを削除
                 const newBody = issueBody.replace(/###\s*なぜ優先度が高いのか[\s\S]*?(?=###|$)/g, '').trim();
                 
@@ -100,7 +100,7 @@ jobs:
             3.`;
 
             // Check if priority is "高い" and the "Why is this priority?" section is default or empty
-            if (priority === '高い' && (!taskPriorityContent || taskPriorityContent === defaultContent)) {
+            if (priority.includes('高い') && (!taskPriorityContent || taskPriorityContent === defaultContent)) {
               // Close the issue
               await github.rest.issues.update({
                 owner: context.repo.owner,
