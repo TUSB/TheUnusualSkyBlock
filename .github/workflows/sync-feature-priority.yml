@@ -3,8 +3,12 @@ name: Label Issue Based on Priority
 on:
   issues:
     types: [opened]
+
+env:
+  PRIORITY: ""
+    
 jobs:
-  add_label_based_on_priority:
+  set_env_priority:
     runs-on: ubuntu-latest
     steps:
       - name: Extract priority and add label
@@ -12,9 +16,21 @@ jobs:
         with:
           script: |
             const issueBody = context.payload.issue.body;
-            const priorityMatch = issueBody.match(/###\s*\*\*重要度\*\*\s*\n\s*(.*)/);
+            const priorityMatch = issueBody.match(/###\s*重要度\s*\n\s*(.*)/);
             if (priorityMatch) {
               const priority = priorityMatch[1].trim();
+              process.env.PRIORITY = priority;
+              console.log(`Priority set ${priority}`);
+            }
+  add_label_based_on_priority:
+    runs-on: ubuntu-latest
+    if: ${{ process.env.PRIORITY !== "" }}
+    steps:
+      - name: Extract priority and add label
+        uses: actions/github-script@v6
+        with:
+          script: |
+              const priority = process.env.PRIORITY;
               let label = '';
               if (priority.includes('低め')) {
                 label = '優先度: 低い';
@@ -31,40 +47,34 @@ jobs:
                   labels: [label]
                 });
               }
-            } else {
-              console.log('重要度が見つかりませんでした。');
-            }
       - name: Check issue priority and clean body
         uses: actions/github-script@v6
+        if: ${{ process.env.PRIORITY !== "" }}        
         with:
           script: |
             const issue = context.payload.issue;
             const issueNumber = issue.number;
             const issueBody = issue.body;
-            const priorityMatch = issueBody.match(/###\s*\*\*重要度\*\*\s*\n\s*(.*)/);
-
-            if (priorityMatch) {
-              const priority = priorityMatch[1].trim();
-              if (priority !== '高い') {
-                // 特定のセクションを削除
-                const newBody = issueBody.replace(/###\s*なぜこの重要度にしたのか[\s\S]*?(?=###|$)/g, '').trim();
-                
-                await github.rest.issues.update({
-                  owner: context.repo.owner,
-                  repo: context.repo.repo,
-                  issue_number: issueNumber,
-                  body: newBody
-                });
-                console.log('Issue body updated as priority is not "高い".');
-              } else {
-                console.log('Priority is "高い", no changes made.');
-              }
+            const priorityMatch = process.env.PRIORITY;
+            const priority = priorityMatch[1].trim();
+            if (priority !== '高い') {
+              // 特定のセクションを削除
+              const newBody = issueBody.replace(/###\s*なぜ優先度が高いのか[\s\S]*?(?=###|$)/g, '').trim();
+              
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                body: newBody
+              });
+              console.log('Issue body updated as priority is not "高い".');
             } else {
-              console.log('Priority not found, no changes made.');
+              console.log('Priority is "高い", no changes made.');
             }
 
       - name: Validate issue content
         uses: actions/github-script@v6
+        if: ${{ process.env.PRIORITY !== "" }}        
         with:
           script: |
             const issue = context.payload.issue;
@@ -72,22 +82,13 @@ jobs:
             const issueBody = issue.body;
 
             // 優先度を抽出
-            const priorityMatch = issueBody.match(/###\s*\*\*重要度\*\*\s*\n\s*(.*)/);
-            let priority = '';
-            if (priorityMatch) {
-              priority = priorityMatch[1].trim();
-            } else {
-              console.log('優先度が見つかりませんでした。');
-              return;
-            }
-
+            let priority = process.env.PRIORITY;
             // 「なぜこの重要度にしたのか」セクションを抽出
-            const taskPriorityMatch = issueBody.match(/##\s*何故この重要度なのか\s*\n([\s\S]*?)\n##\s*いつまで対応が必要か/);
+            const taskPriorityMatch = issueBody.match(/##\s*何故この重要度なのか\s*\n\s*(.*)/);
             let taskPriorityContent = '';
             if (taskPriorityMatch) {
               taskPriorityContent = taskPriorityMatch[1].trim();
             }
-            
             // デフォルトの内容
             const defaultContent = `1. 
             2. 
