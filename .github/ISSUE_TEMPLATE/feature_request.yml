@@ -11,7 +11,7 @@ body:
       基本は1チケット=1タスク原則にしてください。
 
 - type: dropdown 
-  id: priority
+  id: task-priority
   attributes:
     label: "**重要度**"
     description: |
@@ -40,7 +40,7 @@ body:
       ---
       
 - type: dropdown
-  id: Version
+  id: task-version
   attributes:
     label: このTUSB Versionに影響が出る
     options:
@@ -48,9 +48,9 @@ body:
       - v13 Release
       - v14 以降
       - その他
-      
   validations:
     required: false
+
 - type: textarea
   id: task-detail
   attributes:
@@ -67,14 +67,28 @@ body:
       1. 
       2.
       3.
-      
   validations:
     required: true
 
 - type: textarea
-  id: task-priority
+  id: task-reference
   attributes:
-    label: なぜこの重要度にしたのか
+    label: 参考情報
+    description: draw.ioなどのタスクの参考となる情報を記載してください
+    placeholder : |
+      ## 参考情報
+
+    value : |
+      <!-- draw.ioなどのタスクの参考となる情報を記載してください。(オプション) -->
+      ## 参考情報
+
+  validations:
+    required: false
+
+- type: textarea
+  id: task-reasons-for-high-priority
+  attributes:
+    label: なぜ優先度が高いのか
     description: |
       なぜこの重要度にしたのかを詳細記載してください。(重要度 高い 以上向け)
     placeholder : |
@@ -83,22 +97,10 @@ body:
       1. 
       2. 
       3. 
-
-      ## いつまで対応が必要か
-      1. 
-      2. 
-      3. 
-
     value: |
       ## 何故この重要度なのか
       1. 
       2. 
       3. 
-      
-      ## いつまで対応が必要か
-      1. 
-      2. 
-      3. 
-      
   validations:
     required: false
