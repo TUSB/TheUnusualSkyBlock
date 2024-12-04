@@ -9,7 +9,7 @@ execute if score @s SneakFrequency matches 15 run scoreboard players operation _
 execute if entity @s[scores={Age=1..},predicate=entity:player] if score @s SneakFrequency matches 15 if score $World Burst > _ _ anchored eyes positioned ^ ^-0.85 ^5 run function skill:burst/command/show
 
 #設定表示
-execute if score @s SneakFrequency matches 20.. run function player:game_settings/show
+execute if score @s SneakFrequency matches 20.. run function main:game_menu/show
 execute if score @s SneakFrequency matches 20.. run scoreboard players set @s SneakFrequency 1
 
 scoreboard players remove @s SneakFrequency 1
