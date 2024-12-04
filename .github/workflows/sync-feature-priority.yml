@@ -122,3 +122,4 @@ jobs:
               console.log('Issue closed due to missing required information.');
             } else {
               console.log('Issue validation passed.');
+            }
