@@ -74,9 +74,31 @@ jobs:
               body: newBody
             });
 
+      - name: Check if Field is Empty or Default Text
+        id: check_field
+        run: |
+          # フィールドのデータを取得
+          FIELD_CONTENT=$(echo '${{ fromJSON(steps.form.outputs.data)["task-reasons-for-high-priority"] }}')
+
+          # フィールドが存在しない場合は未記入とみなす
+          if [ -z "$FIELD_CONTENT" ]; then
+            echo "field_empty=true" >> $GITHUB_OUTPUT
+          else
+            # フィールドの内容からスペース、タブ、改行を削除
+            TRIMMED_CONTENT=$(echo "$FIELD_CONTENT" | tr -d ' \t\n\r')
+
+            # 比較対象のデフォルトテキストからスペース、タブ、改行を削除
+            DEFAULT_TEXT="##何故この重要度なのか"
+            
+            if [ -z "$TRIMMED_CONTENT" ] || [ "$TRIMMED_CONTENT" = "$DEFAULT_TEXT" ]; then
+              echo "field_empty=true" >> $GITHUB_OUTPUT
+            else
+              echo "field_empty=false" >> $GITHUB_OUTPUT
+            fi
+          fi
 
       - name: Close Issue if Field is Empty
-        if: ${{ process.env.PRIORITY.includes('高い') && (steps.form.outputs.data == null || fromJSON(steps.form.outputs.data)['task-reasons-for-high-priority'] == '') }}
+        if: ${{ process.env.PRIORITY.includes('高い') && ( steps.check_field.outputs.field_empty == 'true' || steps.form.outputs.data == null || fromJSON(steps.form.outputs.data)['task-reasons-for-high-priority'] == '') }}
         uses: actions/github-script@v6
         with:
           script: |
