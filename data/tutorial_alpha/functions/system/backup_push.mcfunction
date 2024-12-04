@@ -52,7 +52,7 @@ scoreboard players set @s HunterLv 25
 scoreboard players set @s WhiteMageLv 25
 scoreboard players set @s BlackMageLv 25
 scoreboard players set @s SummonerLv 25
-function effects:status/life_to_max
+function effect:status/life_to_max
 
 execute in area:debug_room run spawnpoint @s -4291 33 808
 
