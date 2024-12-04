@@ -57,7 +57,7 @@ jobs:
               });
             }
       - name: Check issue priority and clean body
-        if: ${{ process.env.PRIORITY.includes('高い') }}
+        if: ${{ needs.set_env_priority.outputs.PRIORITY.includes('高い') }}
         uses: actions/github-script@v6
         with:
           script: |
@@ -98,7 +98,7 @@ jobs:
           fi
 
       - name: Close Issue if Field is Empty
-        if: ${{ process.env.PRIORITY.includes('高い') && ( steps.check_field.outputs.field_empty == 'true' || steps.form.outputs.data == null || fromJSON(steps.form.outputs.data)['task-reasons-for-high-priority'] == '') }}
+        if: ${{ needs.set_env_priority.outputs.PRIORITY.includes('高い') && ( steps.check_field.outputs.field_empty == 'true' || steps.form.outputs.data == null || fromJSON(steps.form.outputs.data)['task-reasons-for-high-priority'] == '') }}
         uses: actions/github-script@v6
         with:
           script: |
