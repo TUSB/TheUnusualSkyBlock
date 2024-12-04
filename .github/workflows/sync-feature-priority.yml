@@ -2,7 +2,7 @@ name: Label Issue Based on Priority
 
 on:
   issues:
-    types: [opened]
+    types: [opened, edited]
 
 env:
   PRIORITY: ""
@@ -86,23 +86,23 @@ jobs:
             const issue = context.payload.issue;
             const issueNumber = issue.number;
             const issueBody = issue.body;
-
-            // 優先度を抽出
             const priority = process.env.PRIORITY;
-            // 「なぜこの重要度にしたのか」セクションを抽出
-            const taskPriorityMatch = issueBody.match(/##\s*何故この重要度なのか\s*\n\s*(.*)/);
+
+            // Extract the "Why is this priority?" section
+            const taskPriorityMatch = issueBody.match(/##\s*何故この重要度なのか\s*\n([\s\S]*?)(?=\n##|$)/);
             let taskPriorityContent = '';
             if (taskPriorityMatch) {
               taskPriorityContent = taskPriorityMatch[1].trim();
             }
-            // デフォルトの内容
+
+            // Default content
             const defaultContent = `1. 
             2. 
             3.`;
-            
-            // 優先度が「高い」かつ「なぜこの重要度にしたのか」がデフォルトのままの場合、Issueをクローズ
+
+            // Check if priority is "高い" and the "Why is this priority?" section is default or empty
             if (priority === '高い' && (!taskPriorityContent || taskPriorityContent === defaultContent)) {
-              // Issueをクローズ
+              // Close the issue
               await github.rest.issues.update({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
@@ -110,15 +110,15 @@ jobs:
                 state: 'closed',
                 state_reason: 'not_planned'
               });
-            
-              // コメントを追加
+
+              // Add a comment
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
                 issue_number: issueNumber,
                 body: '優先度が「高い」と選択されていますが、必要な情報が記入されていないため、このIssueはクローズされました。必要な情報を記入して再度作成してください。'
               });
-            
+
               console.log('Issue closed due to missing required information.');
             } else {
               console.log('Issue validation passed.');
