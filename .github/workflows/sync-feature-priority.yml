@@ -11,7 +11,7 @@ jobs:
   set_env_priority:
     runs-on: ubuntu-latest
     steps:
-      - name: Extract priority and add label
+      - name: Extract priority and set environment variable
         uses: actions/github-script@v6
         with:
           script: |
@@ -19,14 +19,15 @@ jobs:
             const priorityMatch = issueBody.match(/###\s*重要度\s*\n\s*(.*)/);
             if (priorityMatch) {
               const priority = priorityMatch[1].trim();
-              process.env.PRIORITY = priority;
+              core.exportVariable('PRIORITY', priority);
               console.log(`Priority set ${priority}`);
             }
   add_label_based_on_priority:
     runs-on: ubuntu-latest
-    if: ${{ process.env.PRIORITY !== "" }}
+    needs: set_env_priority
+    if: ${{ env.PRIORITY != '' }}
     steps:
-      - name: Extract priority and add label
+      - name: Add label based on priority
         uses: actions/github-script@v6
         with:
           script: |
@@ -49,14 +50,12 @@ jobs:
               }
       - name: Check issue priority and clean body
         uses: actions/github-script@v6
-        if: ${{ process.env.PRIORITY !== "" }}        
         with:
           script: |
             const issue = context.payload.issue;
             const issueNumber = issue.number;
             const issueBody = issue.body;
-            const priorityMatch = process.env.PRIORITY;
-            const priority = priorityMatch[1].trim();
+            const priority = process.env.PRIORITY;
             if (priority !== '高い') {
               // 特定のセクションを削除
               const newBody = issueBody.replace(/###\s*なぜ優先度が高いのか[\s\S]*?(?=###|$)/g, '').trim();
@@ -74,7 +73,6 @@ jobs:
 
       - name: Validate issue content
         uses: actions/github-script@v6
-        if: ${{ process.env.PRIORITY !== "" }}        
         with:
           script: |
             const issue = context.payload.issue;
@@ -82,7 +80,7 @@ jobs:
             const issueBody = issue.body;
 
             // 優先度を抽出
-            let priority = process.env.PRIORITY;
+            const priority = process.env.PRIORITY;
             // 「なぜこの重要度にしたのか」セクションを抽出
             const taskPriorityMatch = issueBody.match(/##\s*何故この重要度なのか\s*\n\s*(.*)/);
             let taskPriorityContent = '';
@@ -116,4 +114,3 @@ jobs:
               console.log('Issue closed due to missing required information.');
             } else {
               console.log('Issue validation passed.');
-            }
