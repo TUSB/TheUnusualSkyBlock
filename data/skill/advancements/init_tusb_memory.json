@@ -12,6 +12,6 @@
     }
   },
   "rewards": {
-    "function": "item:tusb_memory/trigger"
+    "function": "skill:tusb_memory/trigger"
   }
 }

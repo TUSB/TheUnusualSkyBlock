@@ -43,4 +43,4 @@ data modify storage item: Slot set from storage item: TUSBM_Inventory[-1].Slot
 function item:system/shulker_box/loot_to_player
 #再帰
 data remove storage item: TUSBM_Inventory[-1]
-execute if data storage item: TUSBM_Inventory[-1] run function item:tusb_memory/loop
+execute if data storage item: TUSBM_Inventory[-1] run function skill:tusb_memory/loop
