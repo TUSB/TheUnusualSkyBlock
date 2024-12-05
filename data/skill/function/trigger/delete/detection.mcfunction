@@ -1,3 +1,4 @@
+#> skill:trigger/delete/detection
 # @within function skill:trigger/
 
 # メインハンドのアイテム情報取得
