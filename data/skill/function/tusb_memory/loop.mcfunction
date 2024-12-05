@@ -1,3 +1,4 @@
+#> skill:tusb_memory/loop
 #tellraw @a {"nbt":"Inventory","storage":"item:"}
 #スキルをロード
 data modify storage skill: Skill set from storage item: TUSBM_Inventory[-1].tag.Skill
