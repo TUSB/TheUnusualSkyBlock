@@ -5,6 +5,6 @@ data modify storage item: TUSBM_Inventory append from entity @s Inventory[{compo
 #アイテムごとにループ
 function skill:tusb_memory/loop
 #演出
-function makeup:item/enchant/enchant
+function makeup:skill/tusb_memory/apply
 #リセット
 data remove storage item: TUSBM_Inventory
