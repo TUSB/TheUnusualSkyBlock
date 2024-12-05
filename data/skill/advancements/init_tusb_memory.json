@@ -5,7 +5,9 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{Skill:{Type:\"TUSBMemory\",Initializing:1b}}"
+            "predicates": {
+              "minecraft:custom_data": "{Skill:{Type:\"TUSBMemory\",Initializing:1b}}"
+            }
           }
         ]
       }
