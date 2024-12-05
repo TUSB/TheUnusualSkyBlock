@@ -6,9 +6,9 @@
 
 # Lore削除
     function skill:trigger/set/remove_lore
-    execute unless data storage item: Item.tag.UniqueName run data remove storage item: Item.tag.display.Name
-    data remove storage item: Item.tag.UniqueName
-    data remove storage item: Item.tag.Skill
+    execute unless data storage item: Item.components."minecraft:custom_data".UniqueName run data remove storage item: Item.components."minecraft:custom_name"
+    data remove storage item: Item.components."minecraft:custom_data".UniqueName
+    data remove storage item: Item.components."minecraft:custom_data".Skill
 
 # メインハンドの情報
     execute in area:control_area run data modify block 2 2 2 Items set value []
