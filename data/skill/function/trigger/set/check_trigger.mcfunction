@@ -1,3 +1,4 @@
+#> skill:trigger/set/check_trigger
 #スキルをロード
 scoreboard players operation _ _ = @s ChangeSkill
 function skill:load/job

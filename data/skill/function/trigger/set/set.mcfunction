@@ -1,3 +1,4 @@
+#> skill:trigger/set/set
 #初回スキル付与時 固有のNameがあるか確認
 execute unless data storage item: Item.tag.Skill if data storage item: Item.tag.display.Name run data modify storage item: Item.tag.UniqueName set value 1b
 #以前のスキルLoreを削除

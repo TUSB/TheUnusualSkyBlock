@@ -1,3 +1,4 @@
+#> skill:trigger/set/check_type
 #メインハンドをストレージに保存
 data remove storage item: Item
 data modify storage item: Item set from entity @s SelectedItem
