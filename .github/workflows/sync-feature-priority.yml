@@ -62,15 +62,15 @@ jobs:
     steps:
       - name: Extract Issue Form Data
         id: form
-        uses: actions-ecosystem/action-extract-issue-form-data@v1
+        uses: actions-ecosystem/action-get-issue-form-parameters@v1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Get Field Content
         id: get_field
         run: |
           echo "FIELD_CONTENT<<EOF" >> $GITHUB_ENV
-          echo "${{ fromJSON(steps.form.outputs.data)['task-reasons-for-high-priority'] }}" >> $GITHUB_ENV
+          echo "${{ steps.form.outputs['task-reasons-for-high-priority'] }}" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
 
       - name: Check if Field is Empty, Default Text, or No Response
