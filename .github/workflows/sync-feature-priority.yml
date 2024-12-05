@@ -4,9 +4,6 @@ on:
   issues:
     types: [opened, edited]
 
-env:
-  PRIORITY: ""
-    
 jobs:
   set_env_priority:
     runs-on: ubuntu-latest
@@ -57,52 +54,64 @@ jobs:
               });
             }
 
-  hight_priority:
+  check-field:
     runs-on: ubuntu-latest
     needs: set_env_priority
-    if: ${{ needs.set_env_priority.outputs.PRIORITY != '' }}
+    env:
+      PRIORITY: ${{ needs.set_env_priority.outputs.PRIORITY }}
     steps:
-      - name: Check if Field is Empty or Default Text
-        uses: actions/github-script@v6
-        id: check_field
-        env:
-          PRIORITY: ${{ needs.set_env_priority.outputs.PRIORITY }}
+      - name: Extract Issue Form Data
+        id: form
+        uses: actions-ecosystem/action-extract-issue-form-data@v1
         with:
-          run: |
-            # フィールドのデータを取得
-            FIELD_CONTENT=$(echo '${{ fromJSON(steps.form.outputs.data)["task-reasons-for-high-priority"] }}')
-  
-            # フィールドが存在しない場合は未記入とみなす
-            if [ -z "$FIELD_CONTENT" ]; then
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Get Field Content
+        id: get_field
+        run: |
+          echo "FIELD_CONTENT<<EOF" >> $GITHUB_ENV
+          echo "${{ fromJSON(steps.form.outputs.data)['task-reasons-for-high-priority'] }}" >> $GITHUB_ENV
+          echo "EOF" >> $GITHUB_ENV
+
+      - name: Check if Field is Empty or Default Text
+        id: check_field
+        run: |
+          # フィールドの内容を取得
+          FIELD_CONTENT="${FIELD_CONTENT}"
+          # フィールドが存在しない場合は未記入とみなす
+          if [ -z "$FIELD_CONTENT" ]; then
+            echo "field_empty=true" >> $GITHUB_OUTPUT
+          else
+            # フィールドの内容から全ての空白文字を削除
+            TRIMMED_CONTENT=$(echo "$FIELD_CONTENT" | tr -d '[:space:]')
+            # 比較対象のデフォルトテキストから全ての空白文字を削除
+            DEFAULT_TEXT=$(echo "##何故この重要度なのか" | tr -d '[:space:]')
+            if [ -z "$TRIMMED_CONTENT" ] || [ "$TRIMMED_CONTENT" = "$DEFAULT_TEXT" ]; then
               echo "field_empty=true" >> $GITHUB_OUTPUT
             else
-              # フィールドの内容からスペース、タブ、改行を削除
-              TRIMMED_CONTENT=$(echo "$FIELD_CONTENT" | tr -d ' \t\n\r')
-  
-              # 比較対象のデフォルトテキストからスペース、タブ、改行を削除
-              DEFAULT_TEXT="##何故この重要度なのか"
-              
-              if [ -z "$TRIMMED_CONTENT" ] || [ "$TRIMMED_CONTENT" = "$DEFAULT_TEXT" ]; then
-                echo "field_empty=true" >> $GITHUB_OUTPUT
-              else
-                echo "field_empty=false" >> $GITHUB_OUTPUT
-              fi
+              echo "field_empty=false" >> $GITHUB_OUTPUT
             fi
+          fi
 
       - name: Close Issue if Field is Empty
-        if: ${{ steps.check_field.outputs.field_empty == 'true' || steps.form.outputs.data == null || fromJSON(steps.form.outputs.data)['task-reasons-for-high-priority'] == '' }}
+        if: steps.check_field.outputs.field_empty == 'true'
         uses: actions/github-script@v6
+        env:
+          PRIORITY: ${{ env.PRIORITY }}
         with:
           script: |
-            if (priority.includes('高い')) {
+            const priority = process.env.PRIORITY;
+            const issue = context.payload.issue;
+            const issueNumber = issue.number;
+            if (priority && priority.includes('高い')) {
               // コメントを追加してIssueをクローズする
               await github.rest.issues.createComment({
                 owner: context.repo.owner,
                 repo: context.repo.repo,
-                issue_number: context.issue.number,
+                issue_number: issueNumber,
                 body: '優先度が「高い」と選択されていますが、必要な情報が記入されていないため、このIssueはクローズされました。必要な情報を記入して再度作成してください。'
               });
-  
+      
               await github.rest.issues.update({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
@@ -111,8 +120,6 @@ jobs:
                   state_reason: 'not_planned'
               });
             } else {
-              const issue = context.payload.issue;
-              const issueNumber = issue.number;
               const issueBody = issue.body;
               // 特定のセクションを削除
               const newBody = issueBody.replace(/###\s*なぜ優先度が高いのか[\s\S]*?(?=###|$)/g, '').trim();
@@ -124,4 +131,3 @@ jobs:
                 body: newBody
               });
             }
-
