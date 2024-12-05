@@ -1,5 +1,4 @@
 #> skill:tusb_memory/loop
-#tellraw @a {"nbt":"Inventory","storage":"item:"}
 #スキルをロード
 data modify storage skill: Skill set from storage item: TUSBM_Inventory[-1].components."minecraft:custom_data".Skill
 execute store result score _ _ run data get storage skill: Skill.SkillID
