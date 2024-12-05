@@ -73,7 +73,7 @@ jobs:
           echo "${{ fromJSON(steps.form.outputs.data)['task-reasons-for-high-priority'] }}" >> $GITHUB_ENV
           echo "EOF" >> $GITHUB_ENV
 
-      - name: Check if Field is Empty or Default Text
+      - name: Check if Field is Empty, Default Text, or No Response
         id: check_field
         run: |
           # フィールドの内容を取得
@@ -84,9 +84,10 @@ jobs:
           else
             # フィールドの内容から全ての空白文字を削除
             TRIMMED_CONTENT=$(echo "$FIELD_CONTENT" | tr -d '[:space:]')
-            # 比較対象のデフォルトテキストから全ての空白文字を削除
-            DEFAULT_TEXT=$(echo "##何故この重要度なのか" | tr -d '[:space:]')
-            if [ -z "$TRIMMED_CONTENT" ] || [ "$TRIMMED_CONTENT" = "$DEFAULT_TEXT" ]; then
+            # 比較対象のデフォルトテキストと"No response"から全ての空白文字を削除
+            DEFAULT_TEXT=$(echo "### なぜ優先度が高いのか" | tr -d '[:space:]')
+            NO_RESPONSE=$(echo "_Noresponse_" | tr -d '[:space:]')
+            if [ -z "$TRIMMED_CONTENT" ] || [ "$TRIMMED_CONTENT" = "$DEFAULT_TEXT" ] || [ "$TRIMMED_CONTENT" = "$NO_RESPONSE" ]; then
               echo "field_empty=true" >> $GITHUB_OUTPUT
             else
               echo "field_empty=false" >> $GITHUB_OUTPUT
@@ -121,7 +122,7 @@ jobs:
               });
             } else {
               const issueBody = issue.body;
-              // 特定のセクションを削除
+              // "なぜ優先度が高いのか"のセクションを削除
               const newBody = issueBody.replace(/###\s*なぜ優先度が高いのか[\s\S]*?(?=###|$)/g, '').trim();
                   
               await github.rest.issues.update({
