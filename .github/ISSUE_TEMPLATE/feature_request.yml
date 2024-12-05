@@ -93,7 +93,5 @@ body:
       1. 
       2. 
       3. 
-    value: |
-      ## 何故この重要度なのか
   validations:
     required: false
