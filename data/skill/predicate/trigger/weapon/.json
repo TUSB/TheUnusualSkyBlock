@@ -1,0 +1,13 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "reference",
+      "name": "skill:trigger/weapon/mainhand"
+    },
+    {
+      "condition": "reference",
+      "name": "skill:trigger/weapon/offhand"
+    }
+  ]
+}
