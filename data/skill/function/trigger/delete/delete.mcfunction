@@ -7,6 +7,7 @@
 # Lore削除
     function skill:trigger/set/remove_lore
     data remove storage item: Item.components."minecraft:custom_name"
+    data remove storage item: Item.components."minecraft:custom_data".UniqueName
     data remove storage item: Item.components."minecraft:custom_data".Skill
 
 # メインハンドの情報
