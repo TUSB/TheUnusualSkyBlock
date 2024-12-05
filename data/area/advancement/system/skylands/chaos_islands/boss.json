@@ -1,0 +1,41 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "position": {
+                    "x": {
+                      "min": 223,
+                      "max": 229
+                    },
+                    "y": {
+                      "min": 310,
+                      "max": 313
+                    },
+                    "z": {
+                      "min": -926,
+                      "max": -920
+                    }
+                  },
+                  "dimension": "area:skylands"
+                }
+              }
+            },
+            {
+              "condition": "minecraft:reference",
+              "name": "entity:player"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "area:system/skylands/chaos_islands/boss"
+    }
+  }
