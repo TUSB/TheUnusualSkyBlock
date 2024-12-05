@@ -9,8 +9,9 @@ data modify storage skill: Skill.Interval set from storage item: TUSBM_Inventory
 data modify storage skill: Skill.Count set from storage item: TUSBM_Inventory[-1].components."minecraft:custom_data".Skill.Count
 data modify storage skill: Skill.MaxCount set from storage item: TUSBM_Inventory[-1].components."minecraft:custom_data".Skill.Count
 data modify storage item: TUSBM_Inventory[-1].components."minecraft:custom_data".Skill set from storage skill: Skill
-#元のNameを保存
-data modify storage item: TUSBM_Inventory[-1].components."minecraft:custom_data".OriginalName set from storage item: TUSBM_Inventory[-1]."minecraft:custom_name"
+#名前にスキル名を追加
+execute in area:control_area run data modify block 2 3 2 front_text.messages[0] set value '[{"text":"","color":"white","italic":false},{"storage":"item:","nbt":"TUSBM_Inventory[-1].components.\\"minecraft:item_name\\"","interpret":true}," | ",{"storage":"skill:","nbt":"Skill.Icon","font":"icon","color":"light_purple"},{"text":" "},{"storage":"skill:","nbt":"Skill.Skill"}]'
+execute in area:control_area run data modify storage item: TUSBM_Inventory[-1].components."minecraft:custom_name" set from block 2 3 2 front_text.messages[0]
 #残り使用回数を追加
 #execute in area:control_area run data modify block 2 3 2 front_text.messages[0] set value '[{"text":"","color":"white","italic":false},{"storage":"item:","nbt":"Inventory[-1].components."minecraft:custom_data".OriginalName","interpret":true},{"text":" ("},{"storage":"skill:","nbt":"Skill.Count"},{"text":")"}]}}]'
 #execute in area:control_area run data modify storage item: TUSBM_Inventory[-1]."minecraft:custom_name" set from block 2 3 2 front_text.messages[0]
