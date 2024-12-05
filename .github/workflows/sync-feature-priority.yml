@@ -63,6 +63,7 @@ jobs:
     if: ${{ needs.set_env_priority.outputs.PRIORITY != '' }}
     steps:
       - name: Check if Field is Empty or Default Text
+        uses: actions/github-script@v6
         id: check_field
         env:
           PRIORITY: ${{ needs.set_env_priority.outputs.PRIORITY }}
