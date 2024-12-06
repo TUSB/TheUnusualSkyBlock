@@ -2,7 +2,7 @@
 #インターバル表示
 
 #スキル取得
-data modify storage skill: Skill set from storage item: Item.tag.Skill
+data modify storage skill: Skill set from storage item: Item.components."minecraft:custom_data".Skill
 
 #インターバル表示
 #(GameTime-LastUsed)*20/Interval
@@ -46,10 +46,12 @@ execute if score _ Calc matches 0..19 run function calc:show_text/actionbar
 execute if score _ Calc matches 20 run title @s actionbar [""]
 
 #インターバルが終了していればNBT削除
-execute if score _ Calc matches 20.. run data modify storage item: Item.tag.Skill.ShowInterval set value 0b
-execute if score _ Calc matches 20.. unless data storage item: Item.Slot run item modify entity @s weapon.mainhand item:storage/item
-execute if score _ Calc matches 20.. if data storage item: Item{Slot:-106b} run item modify entity @s weapon.offhand item:storage/item
-execute if score _ Calc matches 20.. if data storage item: Item{Slot:100b} run item modify entity @s armor.feet item:storage/item
-execute if score _ Calc matches 20.. if data storage item: Item{Slot:101b} run item modify entity @s armor.legs item:storage/item
-execute if score _ Calc matches 20.. if data storage item: Item{Slot:102b} run item modify entity @s armor.chest item:storage/item
-execute if score _ Calc matches 20.. if data storage item: Item{Slot:103b} run item modify entity @s armor.head item:storage/item
+execute if score _ Calc matches 20.. run data modify storage item: Item.components."minecraft:custom_data".Skill.ShowInterval set value 0b
+execute in area:control_area run data modify block 2 2 2 Items set value []
+execute in area:control_area run data modify block 2 2 2 Items append from storage item: Item
+execute if score _ Calc matches 20.. unless data storage item: Item.Slot in area:control_area run item replace entity @s weapon.mainhand from block 2 2 2 container.0
+execute if score _ Calc matches 20.. if data storage item: Item{Slot:-106b} in area:control_area run item replace entity @s weapon.offhand from block 2 2 2 container.0
+execute if score _ Calc matches 20.. if data storage item: Item{Slot:100b} in area:control_area run item replace entity @s armor.feet from block 2 2 2 container.0
+execute if score _ Calc matches 20.. if data storage item: Item{Slot:101b} in area:control_area run item replace entity @s armor.legs from block 2 2 2 container.0
+execute if score _ Calc matches 20.. if data storage item: Item{Slot:102b} in area:control_area run item replace entity @s armor.chest from block 2 2 2 container.0
+execute if score _ Calc matches 20.. if data storage item: Item{Slot:103b} in area:control_area run item replace entity @s armor.head from block 2 2 2 container.0
