@@ -1,3 +1,4 @@
+#> skill:show_interval/show
 #インターバル表示
 
 #スキル取得

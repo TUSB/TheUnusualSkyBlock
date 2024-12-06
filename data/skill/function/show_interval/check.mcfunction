@@ -1,3 +1,4 @@
+#> skill:show_interval/check
 #インターバル表示
 
 #装備を取得
@@ -8,4 +9,4 @@ data remove storage item: Item
 data modify storage item: Item set from storage item: Items[{tag:{Skill:{ShowInterval:1b}}}]
 
 execute unless data storage item: Item run title @s actionbar [""]
-execute if data storage item: Item run function player:show_interval/show
+execute if data storage item: Item run function skill:show_interval/show
