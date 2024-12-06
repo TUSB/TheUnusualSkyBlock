@@ -1,5 +1,8 @@
 #> skill:shortcut/set/check_item
 ### メインハンドとオフハンドのスワップ検知処理
+
+# 前回のOhMyDatを保存しておく
+execute store result score _ _ run data get storage oh_my_dat: last_id
 function #oh_my_dat:please
 data modify storage item: ShortcutItem set value {}
 data modify storage item: ShortcutItem set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].OffhandItem
@@ -13,6 +16,10 @@ execute if entity @s[nbt={Inventory:[{Slot:-106b}]}] run data modify storage ite
 execute if entity @s[nbt={Inventory:[{Slot:-106b}]}] run data remove storage item: ShortcutItem.Slot
 
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].OffhandItem set from storage item: ShortcutItem
+
+# 前回のOhMyDatへ戻す
+scoreboard players operation _ OhMyDatID = _ _
+function #oh_its_dat:please
 
 #トリガー解除 不具合回避のため1tick遅らせる
 schedule function skill:shortcut/set/revoke 1t replace
