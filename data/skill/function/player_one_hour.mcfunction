@@ -1,1 +1,1 @@
-#> skill:one_hour
+#> skill:player_one_hour
