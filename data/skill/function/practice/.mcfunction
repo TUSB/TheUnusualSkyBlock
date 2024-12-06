@@ -1,6 +1,6 @@
 #> skill:practice/
 #スキル取得
-data modify storage skill: Skill set from storage item: Item.tag.Skill
+data modify storage skill: Skill set from storage item: Item.components."minecraft:custom_data".Skill
 #インターバル確認
 #TODO: 秒で表示
 execute store result score _ Calc run time query gametime
