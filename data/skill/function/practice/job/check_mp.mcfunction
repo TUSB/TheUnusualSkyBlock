@@ -12,7 +12,7 @@ execute if score @s EnergySave matches 0.. run function skill:act/hunter/energy_
 #バーストブレイク
 execute if entity @a[distance=..32,scores={Burst=0..,Job=5}] run scoreboard players set _ MP 0
 #MP確認
-execute unless score @s MP >= _ MP run function makeup:skill/practice/error/low_mp
+execute unless score @s MP >= _ MP run return run function makeup:skill/practice/error/low_mp
 #麻痺確認
 execute if score @s PalsyLevel matches 1.. run function effects:palsy/check
 #怪しい粉補正

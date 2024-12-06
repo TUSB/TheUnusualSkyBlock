@@ -16,6 +16,6 @@ scoreboard players operation _ Calc -= _ _
 execute if score @s BlitzManover matches 0.. if score _ Calc matches ..-1 run scoreboard players set _ Calc 0
 scoreboard players operation _ Interval -= _ Calc
 #インターバル中
-execute if score _ Interval matches 1.. run function makeup:skill/practice/error/while_interval
+execute if score _ Interval matches 1.. run return run function makeup:skill/practice/error/while_interval
 #成功時
-execute unless score _ Interval matches 1.. run function skill:practice/check_type
+function skill:practice/check_type

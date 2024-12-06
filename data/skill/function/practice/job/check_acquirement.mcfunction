@@ -14,6 +14,6 @@ execute if data storage skill: Skill{Job:"召喚士"} run scoreboard players ope
 execute if data storage skill: Skill{Job:"絡繰士"} run scoreboard players operation _ _ = @s PuppetMasterLv
 execute if data storage skill: Skill{Job:"怪盗"} run scoreboard players operation _ _ = @s ThiefLv
 #未習得時
-execute unless score _ _ >= _ Calc run function makeup:skill/practice/error/not_acquired
+execute unless score _ _ >= _ Calc run return run function makeup:skill/practice/error/not_acquired
 #習得時
-execute if score _ _ >= _ Calc run function skill:practice/job/check_mp
+function skill:practice/job/check_mp
