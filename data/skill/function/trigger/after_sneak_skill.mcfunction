@@ -11,5 +11,5 @@ function skill:damage/add/elemental
 # スキル発動
 function skill:equipments_to_items
 data remove storage item: Item
-data modify storage item: Item set from storage item: Items[{tag:{Skill:{Trigger:"剣を持った状態でスニーク解除"}}}]
-execute if data storage item: Item.tag.Skill{Trigger:"剣を持った状態でスニーク解除"} run function skill:practice/
+data modify storage item: Item set from storage item: Items[{components:{"minecraft:custom_data":{Skill:{Trigger:"剣を持った状態でスニーク解除"}}}}]
+execute if data storage item: Item.components."minecraft:custom_data".Skill{Trigger:"剣を持った状態でスニーク解除"} run function skill:practice/
