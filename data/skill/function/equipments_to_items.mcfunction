@@ -12,4 +12,4 @@
 
 data modify storage calc: Array.reverse.Input set from storage item: Equipments
 function calc:array/reverse/
-data modify storage item Items set from storage calc: Array.reverse.Output
+data modify storage item: Items set from storage calc: Array.reverse.Output
