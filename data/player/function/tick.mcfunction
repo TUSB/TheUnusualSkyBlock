@@ -9,6 +9,9 @@ execute if entity @s[scores={Hunger=0..,Age=1..}] run function player:rise/
 ### ログイン時処理
 execute if entity @s[scores={LeaveGame=1..}] run function player:leave_game
 
+#インターバル表示
+execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Skill:{ShowInterval:1b}}}}]}] run function skill:show_interval/check
+
 ### トリガー
 execute if entity @s[scores={UseBow=1..}] run function player:trigger/use/bow
 execute if entity @s[scores={UseCrossbow=1..}] run function player:trigger/use/crossbow
