@@ -22,7 +22,7 @@
                 "predicate": {
                   "equipment": {
                     "mainhand": {
-                      "tag": "skill:skill_settable"
+                      "items": "#skill:skill_settable"
                     }
                   }
                 }
@@ -33,7 +33,7 @@
                 "predicate": {
                   "equipment": {
                     "offhand": {
-                      "tag": "skill:skill_settable"
+                      "items": "#skill:skill_settable"
                     }
                   }
                 }
