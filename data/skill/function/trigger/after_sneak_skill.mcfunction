@@ -1,4 +1,4 @@
-
+#> skill:trigger/after_sneak_skill
 ### スニーク解除時スキル発動
 
 #装備を取得
