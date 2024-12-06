@@ -1,0 +1,16 @@
+execute if data storage skill: Skill{Name:"マルチスレッド"} run function skill:act/puppet_master/multi_thread/act0
+execute if data storage skill: Skill{Name:"Ｐスロー"} run function skill:act/puppet_master/puppet_throw/act0
+execute if data storage skill: Skill{Name:"インポート"} run function skill:act/puppet_master/import/act0
+execute if data storage skill: Skill{Name:"トランスディアクティベート"} run function skill:act/puppet_master/transdeactivate/act0
+execute if data storage skill: Skill{Name:"リセット"} run function skill:act/puppet_master/reset/act0
+execute if data storage skill: Skill{Name:"Ｐトライ"} run function skill:act/puppet_master/puppet_try/act0
+execute if data storage skill: Skill{Name:"トランスアクティベート"} run function skill:act/puppet_master/transactivate/act0
+execute if data storage skill: Skill{Name:"リカバリー"} run function skill:act/puppet_master/recovery/act0
+execute if data storage skill: Skill{Name:"Pキャッチ"} run function skill:act/puppet_master/puppet_catch/act0
+execute if data storage skill: Skill{Name:"バイオハンドリング"} run function skill:act/puppet_master/bio_handling/act0
+execute if data storage skill: Skill{Name:"アップロード"} run function skill:act/puppet_master/upload/act0
+execute if data storage skill: Skill{Name:"ディアクティベート"} run function skill:act/puppet_master/deactivate/act0
+execute if data storage skill: Skill{Name:"オーバークロック"} run function skill:act/puppet_master/overclock/act0
+execute if data storage skill: Skill{Name:"ダウンロード"} run function skill:act/puppet_master/download/act0
+execute if data storage skill: Skill{Name:"メンテナンス"} run function skill:act/puppet_master/maintenance/act0
+execute if data storage skill: Skill{Name:"アクティベート"} run function skill:act/puppet_master/activate/act0
