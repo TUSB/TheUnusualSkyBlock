@@ -1,3 +1,4 @@
+#> skill:shortcut/gui/edge
 summon area_effect_cloud ^ ^ ^ {Tags:[SkillShortcut],Duration:50,CustomNameVisible:1b}
 
 execute in area:control_area run data modify block 2 3 2 front_text.messages[0] set value '[{"text":""},{"storage":"skill:","nbt":"SkillShortcut[0].Icon","font":"icon","color":"green"},{"storage":"skill:","nbt":"SkillShortcut[0].Skill"}]'

@@ -1,3 +1,4 @@
+#> skill:shortcut/gui/
 ### GUI生成
 
 function skill:shortcut/reset

@@ -1,3 +1,4 @@
+#> skill:shortcut/tick
 ### ショートカット表示中tick
 
 scoreboard players operation * ParentID -= @s OhMyDatID

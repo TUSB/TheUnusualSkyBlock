@@ -1,3 +1,4 @@
+#> skill:shortcut/set/set
 ### アイテムにスキルセット
 
 scoreboard players operation @s ChangeSkill = @e[tag=SkillShortcut,tag=!Center,scores={ParentID=0},distance=..0.01,limit=1,sort=nearest] ChangeSkill

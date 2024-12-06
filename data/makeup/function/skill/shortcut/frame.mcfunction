@@ -1,3 +1,4 @@
+#> makeup:skill/shortcut/frame
 # 線 1
 particle dust 0 1 0 1 ^0.75 ^-1.299 ^ 0 0 0 0 1 normal @a[tag=ShowParticles]
 particle dust 0 1 0 1 ^0.937 ^-1.624 ^ 0 0 0 0 1 normal @a[tag=ShowParticles]

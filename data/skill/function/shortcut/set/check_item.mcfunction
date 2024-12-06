@@ -1,3 +1,4 @@
+#> skill:shortcut/set/check_item
 ### メインハンドとオフハンドのスワップ検知処理
 function #oh_my_dat:please
 data modify storage item: ShortcutItem set value {}

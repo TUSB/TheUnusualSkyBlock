@@ -1,3 +1,4 @@
+#> skill:shortcut/edit/check_aec
 ### 中心のAEC以外かどうか確認
 
 scoreboard players operation * ParentID -= @s OhMyDatID

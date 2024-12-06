@@ -1,3 +1,4 @@
+#> skill:shortcut/edit/edit
 ### ショートカット編集
 
 #スキルをロード

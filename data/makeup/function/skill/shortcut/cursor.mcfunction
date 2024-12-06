@@ -1,3 +1,4 @@
+#> makeup:skill/shortcut/cursor
 # 多角形 1
 particle dust 1 0.6 0 1 ^0.65 ^-1.126 ^ 0 0 0 0 1 normal @a[tag=ShowParticles]
 particle dust 1 0.6 0 1 ^0.812 ^-0.844 ^ 0 0 0 0 1 normal @a[tag=ShowParticles]

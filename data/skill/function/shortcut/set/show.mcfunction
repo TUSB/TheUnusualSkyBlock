@@ -1,3 +1,4 @@
+#> skill:shortcut/set/show
 ### アイテムにスキルセット用GUI表示
 
 function skill:shortcut/gui/
