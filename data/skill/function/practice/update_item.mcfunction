@@ -7,9 +7,11 @@ execute unless data storage item: Item.components."minecraf:custom_data".Skill{I
 execute if score @s BlitzManover matches 0.. unless score @s BlitzManover matches 100 unless score @s BlitzManover matches 1200 run function skill:act/black_mage/blitz_manover/trigger
 
 #アイテム更新
-execute unless data storage item: Item.Slot run item modify entity @s weapon.mainhand item:storage/item
-execute if data storage item: Item{Slot:-106b} run item modify entity @s weapon.offhand item:storage/item
-execute if data storage item: Item{Slot:100b} run item modify entity @s armor.feet item:storage/item
-execute if data storage item: Item{Slot:101b} run item modify entity @s armor.legs item:storage/item
-execute if data storage item: Item{Slot:102b} run item modify entity @s armor.chest item:storage/item
-execute if data storage item: Item{Slot:103b} run item modify entity @s armor.head item:storage/item
+execute in area:control_area run data modify block 2 2 2 Items set value []
+execute in area:control_area run data modify block 2 2 2 Items append from storage item: Item
+execute unless data storage item: Item.Slot in area:control_area run item replace entity @s weapon.mainhand from block 2 2 2 container.0
+execute if data storage item: Item{Slot:-106b} in area:control_area run item replace entity @s weapon.offhand from block 2 2 2 container.0
+execute if data storage item: Item{Slot:100b} in area:control_area run item replace entity @s armor.feet from block 2 2 2 container.0
+execute if data storage item: Item{Slot:101b} in area:control_area run item replace entity @s armor.legs from block 2 2 2 container.0
+execute if data storage item: Item{Slot:102b} in area:control_area run item replace entity @s armor.chest from block 2 2 2 container.0
+execute if data storage item: Item{Slot:103b} in area:control_area run item replace entity @s armor.head from block 2 2 2 container.0
