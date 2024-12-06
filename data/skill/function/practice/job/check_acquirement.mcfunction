@@ -1,3 +1,4 @@
+#> skill:practice/job/check_acquirement
 #スキル習得確認
 
 #スキルの習得レベル取得

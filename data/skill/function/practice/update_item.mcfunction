@@ -1,3 +1,4 @@
+#> skill:practice/update_item
 #インターバル適用
 execute store result storage item: Item.tag.Skill.LastUsed int 1 run time query gametime
 execute unless data storage item: Item.tag.Skill{Interval:0} run data modify storage item: Item.tag.Skill.ShowInterval set value 1b

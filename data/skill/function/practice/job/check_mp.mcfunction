@@ -1,3 +1,4 @@
+#> skill:practice/job/check_mp
 #MP取得
 execute store result score _ MP run data get storage skill: Skill.MP
 #潜在能力 - 消費MP軽減

@@ -1,3 +1,4 @@
+#> skill:practice/act/
 execute if data storage skill: Skill{Job:"共通"} run function skill:practice/act/common
 execute if data storage skill: Skill{Job:"剣士"} run function skill:practice/act/knight
 execute if data storage skill: Skill{Job:"忍者"} run function skill:practice/act/ninja

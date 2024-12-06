@@ -1,4 +1,4 @@
-
+#> skill:practice/success
 #成功フラグ
 data modify storage skill: Success set value 1b
 

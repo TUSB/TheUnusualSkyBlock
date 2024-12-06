@@ -1,3 +1,4 @@
+#> skill:practice/
 #スキル取得
 data modify storage skill: Skill set from storage item: Item.tag.Skill
 #インターバル確認

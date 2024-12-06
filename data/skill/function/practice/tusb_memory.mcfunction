@@ -1,3 +1,4 @@
+#> skill:practice/tusb_memory
 #消費MPは0
 scoreboard players set _ MP 0
 #カウントを1減らす

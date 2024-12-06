@@ -1,3 +1,4 @@
+#> skill:practice/check_type
 #成功フラグリセット
 data remove storage skill: Success
 #スキルレベル取得
