@@ -16,7 +16,7 @@ jobs:
         with:
           script: |
             const issueBody = context.payload.issue.body;
-            const priorityMatch = issueBody.match(/###\s*重要度\s*\n\s*(.*)/);
+            const priorityMatch = issueBody.match(/###\s*優先度\s*\n\s*(.*)/);
             if (priorityMatch) {
               const priority = priorityMatch[1].trim();
               core.setOutput('PRIORITY', priority);
