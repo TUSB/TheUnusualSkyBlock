@@ -16,7 +16,7 @@ jobs:
         with:
           script: |
             const issueBody = context.payload.issue.body;
-            const priorityMatch = issueBody.match(/###\s*重要度\s*\n\s*(.*)/);
+            const priorityMatch = issueBody.match(/###\s*優先度\s*\n\s*(.*)/);
             if (priorityMatch) {
               const priority = priorityMatch[1].trim();
               core.setOutput('PRIORITY', priority);
@@ -60,32 +60,30 @@ jobs:
     env:
       PRIORITY: ${{ needs.set_env_priority.outputs.PRIORITY }}
     steps:
-      - name: Extract Issue Form Data
-        id: form
-        uses: actions-ecosystem/action-get-issue-form-parameters@v1
+      - name: Extract Field Content using GitHub Script
+        id: extract_field
+        uses: actions/github-script@v6
         with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Get Field Content
-        id: get_field
-        run: |
-          echo "FIELD_CONTENT<<EOF" >> $GITHUB_ENV
-          echo "${{ steps.form.outputs['task-reasons-for-high-priority'] }}" >> $GITHUB_ENV
-          echo "EOF" >> $GITHUB_ENV
+          script: |
+            const issueBody = context.payload.issue.body;
+            // "なぜ優先度が高いのか"の見出しの後ろにあるテキストを取得
+            const match = issueBody.match(/###\s*なぜ優先度が高いのか\s*\n([\s\S]*?)(?=###|$)/);
+            let fieldContent = '';
+            if (match) {
+              fieldContent = match[1].trim();
+            }
+            core.setOutput('field_content', fieldContent);
 
       - name: Check if Field is Empty, Default Text, or No Response
         id: check_field
         run: |
-          # フィールドの内容を取得
-          FIELD_CONTENT="${FIELD_CONTENT}"
-          # フィールドが存在しない場合は未記入とみなす
+          FIELD_CONTENT="${{ steps.extract_field.outputs.field_content }}"
           if [ -z "$FIELD_CONTENT" ]; then
             echo "field_empty=true" >> $GITHUB_OUTPUT
           else
-            # フィールドの内容から全ての空白文字を削除
             TRIMMED_CONTENT=$(echo "$FIELD_CONTENT" | tr -d '[:space:]')
-            # 比較対象のデフォルトテキストと"No response"から全ての空白文字を削除
-            DEFAULT_TEXT=$(echo "### なぜ優先度が高いのか" | tr -d '[:space:]')
+            # デフォルトテキスト（見出しのみ）の場合や_No response_の場合も未記入扱い
+            DEFAULT_TEXT=$(echo "###なぜ優先度が高いのか" | tr -d '[:space:]')
             NO_RESPONSE=$(echo "_Noresponse_" | tr -d '[:space:]')
             if [ -z "$TRIMMED_CONTENT" ] || [ "$TRIMMED_CONTENT" = "$DEFAULT_TEXT" ] || [ "$TRIMMED_CONTENT" = "$NO_RESPONSE" ]; then
               echo "field_empty=true" >> $GITHUB_OUTPUT
