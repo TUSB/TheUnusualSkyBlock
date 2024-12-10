@@ -1,0 +1,132 @@
+name: Label Issue Based on Priority
+
+on:
+  issues:
+    types: [opened, edited]
+
+jobs:
+  set_env_priority:
+    runs-on: ubuntu-latest
+    outputs:
+      PRIORITY: ${{ steps.extract_priority.outputs.PRIORITY }}
+    steps:
+      - name: Extract priority and set output
+        id: extract_priority
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const issueBody = context.payload.issue.body;
+            const priorityMatch = issueBody.match(/###\s*優先度\s*\n\s*(.*)/);
+            if (priorityMatch) {
+              const priority = priorityMatch[1].trim();
+              core.setOutput('PRIORITY', priority);
+              console.log(`Priority set ${priority}`);
+            } else {
+              core.setOutput('PRIORITY', '');
+            }
+
+  add_label_based_on_priority:
+    runs-on: ubuntu-latest
+    needs: set_env_priority
+    if: ${{ needs.set_env_priority.outputs.PRIORITY != '' }}
+    steps:
+      - name: Add label based on priority
+        uses: actions/github-script@v6
+        env:
+          PRIORITY: ${{ needs.set_env_priority.outputs.PRIORITY }}
+        with:
+          script: |
+            const priority = process.env.PRIORITY;
+            let label = '';
+            if (priority.includes('低め')) {
+              label = '優先度: 低い';
+            } else if (priority.includes('通常')) {
+              label = '優先度: 通常';
+            } else if (priority.includes('高い')) {
+              label = '優先度: 高い';
+            }
+            if (label) {
+              await github.rest.issues.addLabels({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                labels: [label]
+              });
+            }
+
+  check-field:
+    runs-on: ubuntu-latest
+    needs: set_env_priority
+    env:
+      PRIORITY: ${{ needs.set_env_priority.outputs.PRIORITY }}
+    steps:
+      - name: Extract Field Content using GitHub Script
+        id: extract_field
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const issueBody = context.payload.issue.body;
+            // "なぜ優先度が高いのか"の見出しの後ろにあるテキストを取得
+            const match = issueBody.match(/###\s*なぜ優先度が高いのか\s*\n([\s\S]*?)(?=###|$)/);
+            let fieldContent = '';
+            if (match) {
+              fieldContent = match[1].trim();
+            }
+            core.setOutput('field_content', fieldContent);
+
+      - name: Check if Field is Empty, Default Text, or No Response
+        id: check_field
+        run: |
+          FIELD_CONTENT="${{ steps.extract_field.outputs.field_content }}"
+          if [ -z "$FIELD_CONTENT" ]; then
+            echo "field_empty=true" >> $GITHUB_OUTPUT
+          else
+            TRIMMED_CONTENT=$(echo "$FIELD_CONTENT" | tr -d '[:space:]')
+            # デフォルトテキスト（見出しのみ）の場合や_No response_の場合も未記入扱い
+            DEFAULT_TEXT=$(echo "###なぜ優先度が高いのか" | tr -d '[:space:]')
+            NO_RESPONSE=$(echo "_Noresponse_" | tr -d '[:space:]')
+            if [ -z "$TRIMMED_CONTENT" ] || [ "$TRIMMED_CONTENT" = "$DEFAULT_TEXT" ] || [ "$TRIMMED_CONTENT" = "$NO_RESPONSE" ]; then
+              echo "field_empty=true" >> $GITHUB_OUTPUT
+            else
+              echo "field_empty=false" >> $GITHUB_OUTPUT
+            fi
+          fi
+
+      - name: Close Issue if Field is Empty
+        if: steps.check_field.outputs.field_empty == 'true'
+        uses: actions/github-script@v6
+        env:
+          PRIORITY: ${{ env.PRIORITY }}
+        with:
+          script: |
+            const priority = process.env.PRIORITY;
+            const issue = context.payload.issue;
+            const issueNumber = issue.number;
+            if (priority && priority.includes('高い')) {
+              // コメントを追加してIssueをクローズする
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                body: '優先度が「高い」と選択されていますが、必要な情報が記入されていないため、このIssueはクローズされました。必要な情報を記入して再度作成してください。'
+              });
+      
+              await github.rest.issues.update({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issueNumber,
+                  state: 'closed',
+                  state_reason: 'not_planned'
+              });
+            } else {
+              const issueBody = issue.body;
+              // "なぜ優先度が高いのか"のセクションを削除
+              const newBody = issueBody.replace(/###\s*なぜ優先度が高いのか[\s\S]*?(?=###|$)/g, '').trim();
+                  
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issueNumber,
+                body: newBody
+              });
+            }
