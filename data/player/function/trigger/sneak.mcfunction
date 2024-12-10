@@ -12,7 +12,7 @@ execute if score @s[gamemode=!spectator] SneakTime matches 3 run function skill:
 execute if score @s SneakTime matches ..2 run scoreboard players reset @s SneakTrigger
 
 # スニーク解除時スキル
-execute if score @s[gamemode=!spectator] SneakTime matches 2 if data entity @s[predicate=skill:trigger/weapon/] Inventory[{tag:{Skill:{Trigger:"剣を持った状態でスニーク解除"}}}] run function skill:trigger/after_sneak_skill
+execute if score @s[gamemode=!spectator] SneakTime matches 2 if data entity @s[predicate=skill:trigger/weapon/] Inventory[{components:{"minecraft:custom_data":{Skill:{Trigger:"剣を持った状態でスニーク解除"}}}}] run function skill:trigger/after_sneak_skill
 
 # 近くに墓がある場合、墓からものを取り出す
     execute if entity @s[scores={Age=1..},predicate=entity:player] if score @s SneakTime matches 3 as @e[type=item_display,tag=Tomb,distance=..1] at @s run function player:death_item_drop/tomb_drop

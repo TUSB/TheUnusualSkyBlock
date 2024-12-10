@@ -1,0 +1,97 @@
+name: 開発用のタスク
+description: 機能開発とか今後やらないといけないと決まっているタスク
+title: "[feature] <ここにタイトルを入力>"
+labels: [機能開発]
+body:
+- type: markdown
+  attributes:
+    value: |
+      ## 実装することが決定している機能開発タスクを記載してください。
+      赤い印がついているものは必ず答えてください。
+      基本は1チケット=1タスク原則にしてください。
+
+- type: dropdown 
+  id: task-priority
+  attributes:
+    label: "優先度"
+    description: |
+      このタスクに対しての優先度を記入してください。**(高い は乱用しないように)**
+      - 低め: コードのリファクタリングや設計思想で気になるなどのやらなくても今回のVerではやらなくてもいいレベル
+      - 通常: 今回のバージョンは入れなくても良いが、できたらやったほうがいいよなぁレベル
+      - 高い: 動作に不都合(困る)ので、今後のためにも入れておきたいレベル
+    options:
+      - 低め
+      - 通常
+      - 高い
+  validations:
+    required: true
+
+- type: markdown
+  attributes:
+    value: |  
+     **優先度 通常、低め は完遂義務はありません。**
+      ```
+       例: この設計思想で開発したいので、データパックを、この形にしたい。 → 低め
+       
+       例: `/kill @e` を実行するコマンドブロックが存在する。
+                ┣ ただし、コマンドブロックはデバッグエリア(一般プレイヤーが触れれない場所)にしかない → 通常
+                ┗ ただし、コマンドブロックは通常世界(一般プレイヤーが触れれる場所)にある  → 高い
+      ```
+      ---
+      
+- type: dropdown
+  id: task-version
+  attributes:
+    label: このTUSB Versionに影響が出る
+    options:
+      - v13α
+      - v13 Release
+      - v14 以降
+      - その他
+  validations:
+    required: false
+
+- type: textarea
+  id: task-detail
+  attributes:
+    label: タスク内容
+    description: タスク内容を箇条書きで記載してください
+    placeholder : |
+      ## タスクの内容(大雑把に何をするか)
+      1. 
+      2. 
+      3.
+    value : |
+      <!-- 知らない人から見てもわかりやすく、簡潔に。短すぎず長すぎず -->
+      1. 
+      2.
+      3.
+  validations:
+    required: true
+
+- type: textarea
+  id: task-reference
+  attributes:
+    label: 参考情報
+    description: draw.ioなどのタスクの参考となる情報を記載してください
+    placeholder : |
+      ## 参考情報
+
+    value : |
+      <!-- draw.ioなどのタスクの参考となる情報を記載してください。(オプション) -->
+
+  validations:
+    required: false
+
+- type: textarea
+  id: task-reasons-for-high-priority
+  attributes:
+    label: なぜ優先度が高いのか
+    description: |
+      なぜこの優先度にしたのかを詳細記載してください。【⚠️ 優先度 高い 以上の場合はこの項目は必須です。】
+    placeholder : |
+      1. 
+      2. 
+      3. 
+  validations:
+    required: false

@@ -6,8 +6,14 @@
 ### MCID変更検知
 execute if entity @s[team=,tag=Initialized] run function player:mcid_change_detected
 
+###パーティクル表示判定
+function player:particle/update_tag
+
 ### 生き返り後処理
 execute if entity @s[scores={Hunger=0..,Age=1..}] run function player:rise/
+
+### ログイン時処理
+execute if entity @s[scores={LeaveGame=1..}] run function player:leave_game
 
 ### トリガー
 execute if entity @s[scores={UseBow=1..}] run function player:trigger/use/bow
@@ -27,5 +33,12 @@ execute if entity @s[scores={kill=1..}] run function player:trigger/kill
 # ネザースター取得
 execute if entity @s[nbt={Inventory:[{id:"minecraft:nether_star"}]}] run function player:trigger/nether_star
 
+### スキル
+function skill:player_tick
+
+### プレイヤーゲームメニュー
+execute unless score @s ChangeSettings matches 0 run function main:game_menu/triggered
 ### プレイヤースキル設定
 execute unless score @s ChangeSkill matches 0 run function skill:trigger/
+### 職業変更
+execute unless score @s ChangeJob matches 0 run function job:change/check
