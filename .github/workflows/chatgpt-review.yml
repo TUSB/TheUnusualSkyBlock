@@ -6,7 +6,7 @@ permissions:
 
 on:
   pull_request:
-    types: [opened, reopened, synchronize]
+    types: [converted_to_ready]
 
 jobs:
   review:
@@ -32,9 +32,9 @@ jobs:
             . review code in Minecraft 1.21.1
             Review Refine:
             . check quality readability code
-            . Evaluate impact proposed changes on existing functionality.
-            . identify security performance concerns
-            . identify potential impact on gameplay aware of changes affect gameplay.
+            . Evaluate impact proposed changes on existing functionality
+            . identify performance concerns
+            . identify potential impact on gameplay aware of changes affect gameplay
             Reference:
             - Repository: [The Unusual SkyBlock](https://github.com/TUSB/TheUnusualSkyBlock)
             - Documentation.
