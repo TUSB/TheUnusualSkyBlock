@@ -6,10 +6,15 @@ permissions:
 
 on:
   pull_request:
-    types: [converted_to_ready]
-
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - ready_for_review
+      
 jobs:
   review:
+    if: github.event.pull_request.draft == false
     # if: ${{ contains(github.event.*.labels.*.name, 'gpt review') }} # Optional; to run only when a label is attached
     runs-on: ubuntu-latest
     steps:
