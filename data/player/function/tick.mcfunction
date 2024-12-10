@@ -34,3 +34,5 @@ function skill:player_tick
 execute unless score @s ChangeSettings matches 0 run function main:game_menu/triggered
 ### プレイヤースキル設定
 execute unless score @s ChangeSkill matches 0 run function skill:trigger/
+### 職業変更
+execute unless score @s ChangeJob matches 0 run function job:change/check
