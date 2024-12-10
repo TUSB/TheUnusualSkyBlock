@@ -11,21 +11,45 @@ on:
       - reopened
       - synchronize
       - ready_for_review
-      
+
 jobs:
   review:
     if: github.event.pull_request.draft == false
-    # if: ${{ contains(github.event.*.labels.*.name, 'gpt review') }} # Optional; to run only when a label is attached
     runs-on: ubuntu-latest
     steps:
+      # リポジトリをチェックアウトしてコミット情報を取得
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # 現在のコミットがマージコミットか判定
+      - name: Check if current commit is a merge commit
+        id: check_merge
+        run: |
+          PARENTS_COUNT=$(git rev-list --parents -n 1 ${{ github.sha }} | wc -w)
+          # 親が1つであれば (コミットID + 親1つ) = 2単語
+          # 親が2つなら (コミットID + 親2つ) = 3単語 以上となるので、
+          # 3以上ならマージコミットとみなす
+          if [ $PARENTS_COUNT -ge 3 ]; then
+            echo "is_merge=true" >> $GITHUB_OUTPUT
+          else
+            echo "is_merge=false" >> $GITHUB_OUTPUT
+          fi
+
+      # マージコミットの場合はスキップ
+      - name: Skip on merge commit
+        if: steps.check_merge.outputs.is_merge == 'true'
+        run: |
+          echo "This is a merge commit. Skipping this job."
+          exit 0
+
+      # 通常コミット更新時のみコードレビューを実行
       - uses: anc95/ChatGPT-CodeReview@main
+        if: steps.check_merge.outputs.is_merge == 'false'
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-          # Optional
           LANGUAGE: Japanese
           OPENAI_API_ENDPOINT: https://api.openai.com/v1
-          # MODEL: chatgpt-4o-latest # https://platform.openai.com/docs/models
           MODEL: o1-mini
           PROMPT: |
             Request: perform PR review mcfuntion code for Minecraft 1.21.1
@@ -46,28 +70,7 @@ jobs:
               - [GitHub Wiki](https://github.com/TUSB/TheUnusualSkyBlock/wiki/Top)
               - [Seesaawiki](https://seesaawiki.jp/theunusualskyblock/)
             Run Scenario: respond as code reviewer.
-          top_p: 1 # https://platform.openai.com/docs/api-reference/chat/create#chat/create-top_p
-          temperature: 1 # https://platform.openai.com/docs/api-reference/chat/create#chat/create-temperature
-          # max_tokens: 10000
-          MAX_PATCH_LENGTH: 10000 # if the patch/diff length is large than MAX_PATCH_LENGTH, will be ignored and won't review. By default, with no MAX_PATCH_LENGTH set, there is also no limit for the patch/diff length.
+          top_p: 1
+          temperature: 1
+          MAX_PATCH_LENGTH: 10000
           IGNORE_PATTERNS: ./*,*.md
-
-
-# Request: Please perform a PR review of the mcfuntion code for Minecraft 1.21.1.
-# Role:Respond as a code reviewer for the Minecraft distribution world “The Unusual SkyBlock”.
-# Regulation:Please keep it brief and to the point, 50-300 words or less, in Markdown format.
-# Rule: 
-# 1. Avoid halcyonation and provide reliable information.
-# 2. do not copy other people's answers, but use original content.
-# 3. review the code available in Minecraft 1.21.1.
-# Review & Refine:
-# 1. check the quality and readability of the code 
-# 2. Evaluate the impact of the proposed changes on existing functionality. 
-# 3. identify any security or performance concerns 
-# 4. identify any potential impact on gameplay Be aware of changes that may affect gameplay.
-# Reference:
-# - Repository: [The Unusual SkyBlock](https://github.com/TUSB/TheUnusualSkyBlock)
-# - Documentation.
-# - [GitHub Wiki](https://github.com/TUSB/TheUnusualSkyBlock/wiki/Top)
-# - [Seesaawiki](https://seesaawiki.jp/theunusualskyblock/)
-# Run Scenario: Please respond as a code reviewer.
