@@ -3,6 +3,9 @@
 ## 使用するときにコメントアウトを外してください。
 # execute if score $Ticks Count matches 0 run function player:one_second
 
+### MCID変更検知
+execute if entity @s[team=,tag=Initialized] run function player:mcid_change_detected
+
 ###パーティクル表示判定
 function player:particle/update_tag
 
