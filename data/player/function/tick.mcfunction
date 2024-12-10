@@ -15,6 +15,8 @@ execute if entity @s[scores={Hunger=0..,Age=1..}] run function player:rise/
 ### ログイン時処理
 execute if entity @s[scores={LeaveGame=1..}] run function player:leave_game
 
+### めり込み処理
+execute if entity @s[scores={Age=1..},predicate=entity:player] if block ^ ^ ^ #block:unbreakable anchored eyes if block ^ ^ ^ #block:unbreakable run function block:suffocation
 ### 特殊床
 execute if entity @s[predicate=entity:player] if block ~ ~-2 ~ #block:unique_floors run function block:unique_floor/fork
 
