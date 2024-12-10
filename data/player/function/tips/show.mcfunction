@@ -16,8 +16,6 @@ scoreboard players remove _ _ 1
 # TIPSの総数で余剰
 scoreboard players operation _ Random %= _ _
 
-tellraw @s {"score": {"name": "_","objective": "Random"}}
-
 # 表示するTIPSを決定
 # 0番は表示できない。
 data remove storage tusb_player: _
