@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:smooth_red_sandstone",
+    "minecraft:nether_wart_block",
+    "minecraft:magenta_glazed_terracotta",
+    "minecraft:warped_wart_block",
+    "minecraft:command_block"
+  ]
+}
