@@ -1,5 +1,7 @@
 #> skill:shortcut/gui/edge
-summon area_effect_cloud ^ ^ ^ {Tags:[SkillShortcut],Duration:50,CustomNameVisible:1b}
+
+# 名前が一瞬表示されてしまわないように空に設定する
+summon area_effect_cloud ^ ^ ^ {Tags:[SkillShortcut],Duration:50,CustomName:'""',CustomNameVisible:1b}
 
 execute in area:control_area run data modify block 2 3 2 front_text.messages[0] set value '[{"text":""},{"storage":"skill:","nbt":"SkillShortcut[0].Icon","font":"icon","color":"green"},{"storage":"skill:","nbt":"SkillShortcut[0].Skill"}]'
 execute in area:control_area run data modify storage skill: SkillShortcut[0].SkillName set from block 2 3 2 front_text.messages[0]
