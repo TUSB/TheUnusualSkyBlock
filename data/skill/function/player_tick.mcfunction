@@ -5,3 +5,6 @@
 
 #インターバル表示
 execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Skill:{ShowInterval:1b}}}}]}] run function skill:show_interval/check
+
+# スキルショートカット
+execute if entity @s[scores={SkillShortcut=1..}] run function skill:shortcut/tick
