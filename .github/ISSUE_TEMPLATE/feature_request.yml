@@ -1,73 +1,97 @@
-name: 要望&アイデア
-description: 新しいアイデアを提案する
-title: "[要望] <ここにタイトルを入力>"
-labels: [提案]
-body: 
+name: 開発用のタスク
+description: 機能開発とか今後やらないといけないと決まっているタスク
+title: "[feature] <ここにタイトルを入力>"
+labels: [機能開発]
+body:
 - type: markdown
   attributes:
     value: |
-      ## 新しいアイデアの提案ありがとうございます。
-      以下の質問に答えていただくと、採用しやすくなります。
+      ## 実装することが決定している機能開発タスクを記載してください。
       赤い印がついているものは必ず答えてください。
-- type: dropdown
-  id: category
+      基本は1チケット=1タスク原則にしてください。
+
+- type: dropdown 
+  id: task-priority
   attributes:
-    label: アイデアのカテゴリー
+    label: "優先度"
+    description: |
+      このタスクに対しての優先度を記入してください。**(高い は乱用しないように)**
+      - 低め: コードのリファクタリングや設計思想で気になるなどのやらなくても今回のVerではやらなくてもいいレベル
+      - 通常: 今回のバージョンは入れなくても良いが、できたらやったほうがいいよなぁレベル
+      - 高い: 動作に不都合(困る)ので、今後のためにも入れておきたいレベル
     options:
-      - 島・エリア・建築物
-      - ギミック
-      - Mob
-      - アイテム・TUSBメモリー
-      - 刻印
-      - 交易
-      - 釣り・報酬・ドロップアイテム
-      - レシピ
-      - 職業スキル
-      - インターフェイス全般
-      - TIPS
-      - 進捗
-      - チュートリアル
-- type: textarea
-  id: idea
-  attributes:
-    label: アイデア概要
-    description: |
-      新しいアイデアについての説明を記入する。  
-      画像のアップロードも可能です。
+      - 低め
+      - 通常
+      - 高い
   validations:
     required: true
-- type: textarea
-  id: why
+
+- type: markdown
   attributes:
-    label: アイデアの要望理由
-    description: |
-      なぜこのアイデアを要望するのか？  
+    value: |  
+     **優先度 通常、低め は完遂義務はありません。**
+      ```
+       例: この設計思想で開発したいので、データパックを、この形にしたい。 → 低め
+       
+       例: `/kill @e` を実行するコマンドブロックが存在する。
+                ┣ ただし、コマンドブロックはデバッグエリア(一般プレイヤーが触れれない場所)にしかない → 通常
+                ┗ ただし、コマンドブロックは通常世界(一般プレイヤーが触れれる場所)にある  → 高い
+      ```
+      ---
+      
+- type: dropdown
+  id: task-version
+  attributes:
+    label: このTUSB Versionに影響が出る
+    options:
+      - v13α
+      - v13 Release
+      - v14 以降
+      - その他
   validations:
-    required: true
+    required: false
+
 - type: textarea
-  id: realization
+  id: task-detail
   attributes:
-    label: 実現方法
-    description: どのようにアイデアを実現するかを記入する。
-    placeholder: |
-      1.
+    label: タスク内容
+    description: タスク内容を箇条書きで記載してください
+    placeholder : |
+      ## タスクの内容(大雑把に何をするか)
+      1. 
+      2. 
+      3.
+    value : |
+      <!-- 知らない人から見てもわかりやすく、簡潔に。短すぎず長すぎず -->
+      1. 
       2.
       3.
-      ...
-- type: markdown
-  attributes:
-    value: |
-      以下は技術的な報告です。
+  validations:
+    required: true
 
-      ---
 - type: textarea
-  id: use_system
+  id: task-reference
   attributes:
-    label: 使用するシステム
-    description: アイデアを実現するために使用するシステムを指定する。
+    label: 参考情報
+    description: draw.ioなどのタスクの参考となる情報を記載してください
+    placeholder : |
+      ## 参考情報
+
+    value : |
+      <!-- draw.ioなどのタスクの参考となる情報を記載してください。(オプション) -->
+
+  validations:
+    required: false
+
 - type: textarea
-  id: command
+  id: task-reasons-for-high-priority
   attributes:
-    label: コマンド例
-    description: 実現するためのコマンド例を記入する。functionと同じように記述することができます。
-    render: mcfunction
+    label: なぜ優先度が高いのか
+    description: |
+      なぜこの優先度にしたのかを詳細記載してください。【⚠️ 優先度 高い 以上の場合はこの項目は必須です。】
+    placeholder : |
+      1. 
+      2. 
+      3. 
+  validations:
+    required: false

@@ -1,0 +1,5 @@
+# Root directory
+* @TUSB/creator
+
+# Specific folder
+data/ @TUSB/System
