@@ -15,6 +15,9 @@ execute if entity @s[scores={Hunger=0..,Age=1..}] run function player:rise/
 ### ログイン時処理
 execute if entity @s[scores={LeaveGame=1..}] run function player:leave_game
 
+### 特殊床
+execute if entity @s[predicate=entity:player] if block ~ ~-2 ~ #block:unique_floors run function block:unique_floor/fork
+
 ### トリガー
 execute if entity @s[scores={UseBow=1..}] run function player:trigger/use/bow
 execute if entity @s[scores={UseCrossbow=1..}] run function player:trigger/use/crossbow
