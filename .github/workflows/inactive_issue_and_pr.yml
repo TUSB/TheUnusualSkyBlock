@@ -1,0 +1,43 @@
+name: 'Close stale issues and PRs'
+
+permissions:
+  contents: write # only for delete-branch option
+  issues: write
+  pull-requests: write
+
+on:
+  schedule:
+    - cron: '0 15 * * *'
+  workflow_dispatch:
+  
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v9
+        with:
+          stale-issue-message: |
+            > [!WARNING]  
+            > このissueを最後に更新してから**60日経過**しているため、古くなっています。
+            >  このまま、何も活動の更新がないと**14日後**にこのissueはクローズされます。
+            > クローズを防ぐにはコメント更新してください。
+            > ⚠️`古くなった`ラベルは手動で削除しないでください⚠️
+          stale-pr-message: |
+            > [!WARNING]  
+            > このPRは**30日間活動がない**ため、古くなっています。
+            > このまま、何も活動の更新がないと**14日後**にこのPRはクローズされます。
+            > クローズを防ぐにはコメント更新してください。
+            > ⚠️`古くなった`ラベルは手動で削除しないでください⚠️
+          close-issue-message: |
+            > [!IMPORTANT]  
+            > このissueは、**14日間**何の活動もなく停滞していたため、クローズされました。
+          close-pr-message: |
+            > [!IMPORTANT]  
+            > このPRは、10日間何の活動もなく停滞しているため、クローズされました。
+          days-before-issue-stale: 60
+          days-before-pr-stale: 30
+          days-before-issue-close: 14
+          days-before-pr-close: 14
+          stale-issue-label: '古くなった'
+          close-pr-label: 'auto close'
+          close-issue-label: 'auto close'

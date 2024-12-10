@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "unlock": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:firework_star"
+          ],
+          "predicates": {
+            "custom_data": "{key_block:{}}"
+          }
+        },
+        "entity": {
+          "type": "minecraft:interaction"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "area:key_block/unlock"
+  }
+}
