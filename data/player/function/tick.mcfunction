@@ -3,11 +3,22 @@
 ## 使用するときにコメントアウトを外してください。
 # execute if score $Ticks Count matches 0 run function player:one_second
 
+### MCID変更検知
+execute if entity @s[team=,tag=Initialized] run function player:mcid_change_detected
+
+###パーティクル表示判定
+function player:particle/update_tag
+
 ### 生き返り後処理
 execute if entity @s[scores={Hunger=0..,Age=1..}] run function player:rise/
 
 ### ログイン時処理
 execute if entity @s[scores={LeaveGame=1..}] run function player:leave_game
+
+### めり込み処理
+execute if entity @s[scores={Age=1..},predicate=entity:player] if block ^ ^ ^ #block:unbreakable anchored eyes if block ^ ^ ^ #block:unbreakable run function block:suffocation
+### 特殊床
+execute if entity @s[predicate=entity:player] if block ~ ~-2 ~ #block:unique_floors run function block:unique_floor/fork
 
 ### トリガー
 execute if entity @s[scores={UseBow=1..}] run function player:trigger/use/bow
@@ -34,3 +45,5 @@ function skill:player_tick
 execute unless score @s ChangeSettings matches 0 run function main:game_menu/triggered
 ### プレイヤースキル設定
 execute unless score @s ChangeSkill matches 0 run function skill:trigger/
+### 職業変更
+execute unless score @s ChangeJob matches 0 run function job:change/check
