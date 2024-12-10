@@ -1,0 +1,13 @@
+{
+  "values": [
+    "skill:data/common",
+    "skill:data/knight",
+    "skill:data/ninja",
+    "skill:data/hunter",
+    "skill:data/white_mage",
+    "skill:data/black_mage",
+    "skill:data/summoner",
+    "skill:data/puppet_master",
+    "skill:data/thief"
+  ]
+}
