@@ -1,4 +1,4 @@
-
+#> effect:bad_effects
 ###免疫発動(するかも)
 
 scoreboard players set _ ResistLock 0
