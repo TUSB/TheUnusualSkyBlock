@@ -44,7 +44,7 @@ jobs:
 
       # 通常コミット更新時のみコードレビューを実行
       - uses: anc95/ChatGPT-CodeReview@main
-        if: steps.check_merge.outputs.is_merge == 'false'
+        if: steps.check_merge.outputs.is_merge == 'false' && contains(github.event.pull_request.labels.*.name, 'プリーズレビュー')
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
