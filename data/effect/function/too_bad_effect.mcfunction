@@ -1,4 +1,4 @@
-
+#> effect:too_bad_effect
 ### 特殊デバフ処理
 
 execute if entity @a[distance=..32,scores={Burst=0..,Job=4}] run scoreboard players set @s ResistLock 1
