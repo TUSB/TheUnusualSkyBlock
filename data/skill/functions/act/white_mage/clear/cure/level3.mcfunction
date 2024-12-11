@@ -8,7 +8,7 @@ scoreboard players set _ _ 10
 scoreboard players operation _ Calc %= _ _
 execute if score _ Calc matches 0 if score @s DoomCount matches 1.. run function effects:doom/escape
 ### 火だるま解除
-execute if score @s BurnCount matches 0.. run function effects:burn/cure
+execute if score @s BurnCount matches 0.. run function effect:burn/cure
 ### 凍結解除
 execute if entity @s[tag=Freeze] run function effects:freeze/cure
 ### 病気解除

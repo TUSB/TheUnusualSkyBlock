@@ -3,4 +3,4 @@
 
 scoreboard players reset @s BurnCount
 
-function makeup:effects/burn/cure
+function makeup:effect/burn/cure
