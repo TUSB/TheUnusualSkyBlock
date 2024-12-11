@@ -1,4 +1,4 @@
-
+#> effect:invisible/
 ### 特殊効果処理
 
 ## Lv 1~11 特殊デバフ
