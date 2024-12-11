@@ -5,4 +5,4 @@
 # @within function effects:too_bad_effect
 
 execute unless entity @s[scores={BurnDebaria=-1..}] run function effect:burn/apply
-execute if entity @s[scores={BurnDebaria=-1..}] run function makeup:effects/too_bad_effect
+execute if entity @s[scores={BurnDebaria=-1..}] run function makeup:effect/too_bad_effect
