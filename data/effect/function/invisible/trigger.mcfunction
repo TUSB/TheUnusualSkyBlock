@@ -1,3 +1,3 @@
 #> effect:invisible/trigger
 # 1tickずらし
-schedule function effects:invisible/schedule 1t
+schedule function effect:invisible/schedule 1t
