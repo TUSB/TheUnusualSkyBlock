@@ -1,4 +1,4 @@
-
+#> effect:burn/tick
 ### 火だるま
 
 execute if block ~ ~ ~ water run scoreboard players set @s BurnCount 0
