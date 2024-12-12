@@ -1,4 +1,4 @@
-
+#> effect:shorten_bullet
 ### シャルカーバレットカスタマイズ
 
 
