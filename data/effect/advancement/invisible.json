@@ -1,0 +1,338 @@
+{
+  "criteria": {
+    "doom":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 1,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "super_doom":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 2,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "burn":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 3,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "freeze":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 4,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "palsy":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 5,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "confuse":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 6,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "curse":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 7,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "virus":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 8,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "tnt":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 9,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "pale":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 10,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "debility":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 11,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "expert":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 20,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "casual":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 21,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "picnic":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 22,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "anti_doom":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 71,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "anti_burn":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 72,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "anti_freeze":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 73,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "anti_palsy":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 74,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "anti_confuse":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 75,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "anti_curse":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 76,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "anti_virus":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 77,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "anti_tnt":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 78,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "anti_pale":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 79,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "hot_spring":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": 100,
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    },
+    "default":{
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility":{
+            "amplifier": {
+              "min": 1
+            },
+            "duration": {
+              "min":1
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["doom","super_doom","burn","freeze","confuse","palsy","curse","virus","tnt","pale","debility","expert","casual","picnic","anti_doom","anti_burn","anti_freeze","anti_confuse","anti_palsy","anti_curse","anti_virus","anti_tnt","anti_pale","hot_spring","default"],
+    ["default"]
+  ],
+  "rewards": {
+    "function": "effects:invisible/trigger"
+  }
+}
