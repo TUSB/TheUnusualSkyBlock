@@ -1,18 +1,18 @@
 {
-    "criteria": {
-        "curse_effects": {
-            "trigger": "minecraft:effects_changed",
-            "conditions": {
-                "effects": {
-                    "minecraft:mining_fatigue": {
-                        "amplifier" : 2,
-                        "duration" : 6000
-                    }
-                }
-            }
+  "criteria": {
+    "curse_effects": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:mining_fatigue": {
+            "amplifier": 2,
+            "duration": 6000
+          }
         }
-    },
-    "rewards": {
-        "function": "effects:shorten_curse"
+      }
     }
-} 
+  },
+  "rewards": {
+    "function": "effect:shorten_curse"
+  }
+}
