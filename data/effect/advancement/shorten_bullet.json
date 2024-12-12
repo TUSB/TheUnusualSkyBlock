@@ -13,6 +13,6 @@
       }
   },
   "rewards": {
-      "function": "effects:shorten_bullet"
+      "function": "effect:shorten_bullet"
   }
 } 
