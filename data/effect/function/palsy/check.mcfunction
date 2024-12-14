@@ -1,4 +1,4 @@
-
+#> effect:palsy/check
 ### 麻痺 チェック
 
 execute store result score _ _ run function calc:random

@@ -1,4 +1,4 @@
-
+#> effect:palsy/tick
 ### 麻痺 時間経過
 
 scoreboard players remove @s PalsyLevel 1

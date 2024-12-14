@@ -1,4 +1,4 @@
-
+#> effect:palsy/fail
 ### 麻痺 スキル失敗
 
 function makeup:effects/palsy/fail
