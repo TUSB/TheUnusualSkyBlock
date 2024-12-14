@@ -2,7 +2,7 @@
 difficulty hard
 
 #凍結 schedule 再起動
-execute if entity @s[tag=Freeze] run schedule function effects:freeze/fix 1t
+execute if entity @s[tag=Freeze] run schedule function effect:freeze/fix 1t
 
 #リスト・アイテム キャンセル
 tag @s remove SelectRestoreItem

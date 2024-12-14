@@ -10,7 +10,7 @@ execute if score _ Calc matches 0 if score @s DoomCount matches 1.. run function
 ### 火だるま解除
 execute if score @s BurnCount matches 0.. run function effects:burn/cure
 ### 凍結解除
-execute if entity @s[tag=Freeze] run function effects:freeze/cure
+execute if entity @s[tag=Freeze] run function effect:freeze/cure
 ### 病気解除
 execute if score @s VirusCount matches 0.. run function effects:virus/cure
 ### 混乱解除
