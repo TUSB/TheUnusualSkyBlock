@@ -9,4 +9,4 @@ scoreboard players operation _ ConfuseCount %= _ _
 execute if score _ ConfuseCount matches 0..4 run tp @s ~ ~ ~ ~180 ~
 
 #混乱回復
-execute if score @s ConfuseCount matches ..0 run function effects:confuse/cure
+execute if score @s ConfuseCount matches ..0 run function effect:confuse/cure
