@@ -1,5 +1,5 @@
-
-### トント 時間経過
+#> effect:virus/tick
+### 病気 時間経過
 
 scoreboard players remove @s VirusCount 1
 

@@ -1,4 +1,4 @@
-
+#> effect:virus/on_healing
 ### 病気 回復阻害
 
 execute store result score _ VirusCount run function calc:random
