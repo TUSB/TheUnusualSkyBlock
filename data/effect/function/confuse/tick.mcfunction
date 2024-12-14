@@ -1,4 +1,4 @@
-
+#> effect:confuse/tick
 ### 混乱している！
 
 scoreboard players remove @s ConfuseCount 1
