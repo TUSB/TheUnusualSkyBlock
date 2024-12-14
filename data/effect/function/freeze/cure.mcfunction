@@ -1,4 +1,4 @@
-
+#> effect:freeze/cure
 ### 凍結 解除
 
 scoreboard players reset @s FreezeTimer

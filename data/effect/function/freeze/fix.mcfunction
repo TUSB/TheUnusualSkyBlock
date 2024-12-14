@@ -1,4 +1,4 @@
-
+#> effect:freeze/fix
 ### 凍結 継続tp
 execute as @a[tag=Freeze] at @s run tp @s @e[type=marker,tag=Freeze,limit=1,sort=nearest]
 

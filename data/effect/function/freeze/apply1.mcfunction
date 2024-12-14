@@ -1,4 +1,4 @@
-
+#> effect:freeze/apply1
 ### 凍結
 
 scoreboard players set @s FreezeTimer 60
