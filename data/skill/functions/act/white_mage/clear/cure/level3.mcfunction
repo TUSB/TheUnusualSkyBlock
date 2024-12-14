@@ -12,7 +12,7 @@ execute if score @s BurnCount matches 0.. run function effects:burn/cure
 ### 凍結解除
 execute if entity @s[tag=Freeze] run function effects:freeze/cure
 ### 病気解除
-execute if score @s VirusCount matches 0.. run function effects:virus/cure
+execute if score @s VirusCount matches 0.. run function effect:virus/cure
 ### 混乱解除
 execute if score @s ConfuseCount matches 0.. run function effects:confuse/cure
 ### 呪詛解除
