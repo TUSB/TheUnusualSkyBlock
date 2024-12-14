@@ -14,7 +14,7 @@ execute if entity @a[distance=..32,scores={Burst=0..,Job=5}] run scoreboard play
 #MP確認
 execute unless score @s MP >= _ MP run return run function makeup:skill/practice/error/low_mp
 #麻痺確認
-execute if score @s PalsyLevel matches 1.. run function effect:palsy/check
+execute if score @s PalsyLevel matches 1.. if function effect:palsy/check run return fail
 #怪しい粉補正
 execute if score @s SuspiciousPowderTime matches 1.. run function skill:act/common/suspicious_powder/use_skill0
 
