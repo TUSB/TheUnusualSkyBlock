@@ -1,4 +1,4 @@
-
+#> effect:tnt/cure
 ### トント 解除
 
 scoreboard players reset @s TntCount

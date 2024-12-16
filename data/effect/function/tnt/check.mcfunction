@@ -1,4 +1,4 @@
-
+#> effect:tnt/check
 ### トント チェック
 
 scoreboard players remove @s TntCount 10

@@ -1,4 +1,4 @@
-
+#> effect:tnt/ignite
 ### トント 爆発！
 
 summon minecraft:creeper ~ ~500 ~ {Tags:[Tnt],Fuse:0s,CustomName:'{"translate":"トント"}'}

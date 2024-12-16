@@ -1,4 +1,4 @@
-
+#> effect:tnt/apply
 ### トント
 
 scoreboard players set @s TntCount 48
