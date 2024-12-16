@@ -2,7 +2,7 @@
 ### トント
 
 scoreboard players set @s TntCount 48
-function makeup:effects/tnt/apply
+function makeup:effect/tnt/apply
 
 #> トントの回数と威力指定
 #
