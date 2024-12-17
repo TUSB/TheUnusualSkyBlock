@@ -1,4 +1,4 @@
-#> effects:doom/condition
+#> effect:doom/condition
 #
 # 宣告 デバリア分岐
 #

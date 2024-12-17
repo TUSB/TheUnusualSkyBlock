@@ -1,4 +1,4 @@
-
+#> makeup:effect/doom/proceed
 ### 死の宣告 処理 メッセージ
 execute if score _ DoomCount matches 10 run tellraw @s ["",{"text":"s","font":"icon","color":"#FFFDFD","hoverEvent":{"action":"show_text","value":{"interpret":true,"storage":"effects:","nbt":"BadEffectsName.Doom"}}}," ",{"score":{"name":"_","objective":"DoomCount"},"color":"dark_purple","bold":true}]
 execute if score _ DoomCount matches 09 run tellraw @s ["",{"text":"s","font":"icon","color":"#FFE6E6","hoverEvent":{"action":"show_text","value":{"interpret":true,"storage":"effects:","nbt":"BadEffectsName.Doom"}}}," ",{"score":{"name":"_","objective":"DoomCount"},"color":"dark_purple","bold":true}]

@@ -1,4 +1,4 @@
-
+#> effect:doom/death
 ### 死の宣告 死亡
 
 gamerule showDeathMessages false

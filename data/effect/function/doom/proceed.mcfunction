@@ -1,4 +1,4 @@
-
+#> effect:doom/proceed
 ### 死の宣告 処理
 
 #宣告カウント進行

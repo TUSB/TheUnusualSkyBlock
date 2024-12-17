@@ -1,4 +1,4 @@
-
+#> effect:doom/apply
 ### 死の宣告
 
 scoreboard players set @s DoomCount 31
