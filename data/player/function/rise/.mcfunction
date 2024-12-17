@@ -9,8 +9,8 @@ scoreboard players operation @s MP < @s MPMax
 #ペイル再付与 ロック解除
 scoreboard players set _ _ -1
 execute if score @s PaleLevel matches ..-1 run scoreboard players operation @s PaleLevel *= _ _
-execute if score @s PaleLevel matches 0.. run function effects:pale/health_down
-execute if score @s PaleLevel matches 0.. run function makeup:effects/pale/apply
+execute if score @s PaleLevel matches 0.. run function effect:pale/health_down
+execute if score @s PaleLevel matches 0.. run function makeup:effect/pale/apply
 #全回復
 effect give @s instant_health 1 10 true
 #MP表示修正

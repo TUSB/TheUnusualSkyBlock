@@ -33,9 +33,9 @@ execute if score @s HP > _ HP unless score _ HP matches 0 run effect give @s ins
 
 # 減少させる
 scoreboard players add @s PaleLevel 1
-function effects:pale/health_down
+function effect:pale/health_down
 
-execute run function makeup:effects/pale/apply
+execute run function makeup:effect/pale/apply
 
 # 一生に一回だけ付与 ロックする
 scoreboard players set _ _ -1
