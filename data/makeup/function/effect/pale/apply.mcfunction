@@ -1,4 +1,4 @@
-
+#> makeup:effect/pale/apply
 ###デバフ付与メッセージ
 scoreboard players operation _ _ = @s PaleLevel
 scoreboard players set _ Calc 9

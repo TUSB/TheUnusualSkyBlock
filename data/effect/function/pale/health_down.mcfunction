@@ -1,4 +1,4 @@
-
+#> effect:pale/health_down
 ### ペイル 体力調整
 
 #もともとついている調整modifierを削除

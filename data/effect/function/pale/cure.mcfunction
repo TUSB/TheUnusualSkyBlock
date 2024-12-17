@@ -1,4 +1,4 @@
-
+#> effect:pale/cure
 ###ペイル回復
 
 scoreboard players reset @s PaleLevel
