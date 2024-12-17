@@ -1,4 +1,4 @@
-
+#> effect:debility/apply
 ### 衰弱(HP１列)
 
 execute store result score @s _ run data get entity @s Health 100
