@@ -3,6 +3,6 @@
 
 scoreboard players reset @s PaleLevel
 
-attribute @s generic.max_health modifier remove 0-10-0-0-0
+attribute @s generic.max_health modifier remove pale
 
 function makeup:effect/pale/cure

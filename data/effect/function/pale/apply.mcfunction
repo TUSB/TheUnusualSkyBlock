@@ -17,12 +17,12 @@ execute store result score @s HP run data get entity @s Health
 
 #現在(減少ナシ時)の最大Health
 execute store result score _ HP run attribute @s generic.max_health get 10000
-execute store result score _ _ run attribute @s generic.max_health modifier value get 0-10-0-0-0 100
+execute store result score _ _ run attribute @s generic.max_health modifier value get pale 100
 scoreboard players add _ _ 100
 scoreboard players operation _ HP /= _ _
 
 #次段階の減少後の最大Health
-execute store result score _ _ run attribute @s generic.max_health modifier value get 0-10-0-0-0 100
+execute store result score _ _ run attribute @s generic.max_health modifier value get pale 100
 scoreboard players add _ _ 90
 scoreboard players operation _ HP *= _ _
 scoreboard players set _ _ 10000
