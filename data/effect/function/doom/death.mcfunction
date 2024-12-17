@@ -3,6 +3,6 @@
 
 gamerule showDeathMessages false
 kill @s[gamemode=!creative]
-function makeup:effects/doom/death
+function makeup:effect/doom/death
 gamerule showDeathMessages true
 scoreboard players reset @s DoomCount

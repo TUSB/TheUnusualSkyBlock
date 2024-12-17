@@ -3,7 +3,7 @@
 ##############################
 
 ### 死の宣告解除
-execute if score @s DoomCount matches 1.. run function effects:doom/escape
+execute if score @s DoomCount matches 1.. run function effect:doom/escape
 ### トント解除
 execute if score @s TntCount matches 0.. run function effects:tnt/cure
 
