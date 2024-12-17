@@ -2,7 +2,7 @@
 ### 被ダメージトリガー
 
 ## トント 被ダメージ処理
-execute if score @s TntCount matches 0.. run function effects:tnt/check
+execute if score @s TntCount matches 0.. run function effect:tnt/check
 
 ### 剣士＜リアクティブヒール＞発動
 execute if score @s ReactiveLevel matches 1.. run function skill:act/knight/reactive_heal/trigger/damage_taken
