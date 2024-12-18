@@ -1,3 +1,4 @@
+#> area:system/island_capture
 #進捗の判定
 ##skylands
 execute if entity @s[advancements={area:system/island_capture={skylands.001=true}}] run data modify storage area: capture.skylands.001 set value 1
