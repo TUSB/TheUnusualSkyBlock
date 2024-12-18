@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:water_bucket"
+      "id": "minecraft:water_bucket"
     },
     "title": {
       "translate": "温泉の癒し"

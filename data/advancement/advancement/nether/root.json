@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:netherrack"
+      "id": "minecraft:netherrack"
     },
     "title": [
       {

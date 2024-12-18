@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:terracotta"
+      "id": "minecraft:terracotta"
     },
     "title": [
       {
