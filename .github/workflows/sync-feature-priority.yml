@@ -110,13 +110,20 @@ jobs:
                 issue_number: issueNumber,
                 body: '優先度が「高い」と選択されていますが、必要な情報が記入されていないため、このIssueはクローズされました。必要な情報を記入して再度作成してください。'
               });
-      
+              // not planned closed
               await github.rest.issues.update({
                   owner: context.repo.owner,
                   repo: context.repo.repo,
                   issue_number: issueNumber,
                   state: 'closed',
                   state_reason: 'not_planned'
+              });
+              // Add the label
+              await github.rest.issues.addLabels({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  issue_number: issueNumber,
+                  labels: ['自動クローズ'] 
               });
             } else {
               const issueBody = issue.body;
