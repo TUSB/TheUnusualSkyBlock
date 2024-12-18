@@ -8,11 +8,11 @@
 execute if entity @s[type=#entity:natural_spawn,tag=] run function enemy:natural_spawn_type
 
 ### モブ召喚
-execute if entity @s[tag=Spawn] run function enemy:spawn/
+execute if entity @s[tag=Spawn] run function entity:spawn/
 
 ### モブステータス適用
 execute unless entity @s[tag=DelayedData] run data remove entity @s TicksFrozen
-execute if entity @s[tag=DelayedData] run function enemy:spawn/apply_status/
+execute if entity @s[tag=DelayedData] run function entity:spawn/apply_status/
 
 ### プレイヤー初期化
 execute if entity @s[type=player] run function player:initialize
@@ -21,7 +21,7 @@ execute if entity @s[type=player] run function player:initialize
 execute unless entity @s[type=!#entity:projectiles,tag=!DamageProjectile] run function entity:initialize_projectile
 
 ### Item to Spawn
-execute if data entity @s[type=item] Item.components."minecraft:custom_data".SpawnEntities run function enemy:spawn/item_to_spawn
+execute if data entity @s[type=item] Item.components."minecraft:custom_data".SpawnEntities run function entity:spawn/item_to_spawn
 
 ### NeverRemain削除
 kill @s[type=minecraft:item,nbt={Item:{components:{"minecraft:custom_data":{NeverRemain:true}}}}]
