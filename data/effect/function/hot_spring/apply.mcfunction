@@ -1,4 +1,4 @@
-
+#> effect:hot_spring/apply
 ### 温泉入浴
 
 #体力・MP持続回復 + Luck5を10分
