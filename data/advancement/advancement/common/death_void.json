@@ -21,7 +21,12 @@
       "conditions": {
         "damage": {
           "type": {
-            "bypasses_invulnerability": true
+            "tags": [
+              {
+                "id": "bypasses_invulnerability",
+                "expected": true
+              }
+            ]
           }
         },
         "player": {
