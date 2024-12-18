@@ -1,30 +1,30 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:nether_star"
-        },
-        "title": [
-            {
-                "text": ""
-            },
-            {
-                "translate": "非日常の空 -日々の進捗-",
-                "color": "light_purple",
-                "bold": true
-            }
-        ],
-        "description": {
-            "translate": "ようこそ、この世界へ！"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false,
-        "background": "minecraft:textures/block/light_blue_stained_glass.png"
+  "display": {
+    "icon": {
+      "item": "minecraft:nether_star"
     },
-    "criteria": {
-        "tick": {
-            "trigger": "minecraft:tick"
-        }
+    "title": [
+      {
+        "text": ""
+      },
+      {
+        "translate": "非日常の空 -日々の進捗-",
+        "color": "light_purple",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "ようこそ、この世界へ！"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/light_blue_stained_glass.png"
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
     }
+  }
 }

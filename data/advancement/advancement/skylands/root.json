@@ -1,33 +1,33 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:grass_block"
-        },
-        "title": [
-            {
-                "text": ""
-            },
-            {
-                "translate": "空へのいざない -通常世界-",
-                "color": "gray",
-                "bold": true
-            }
-        ],
-        "description": {
-            "translate": "空の世界へ旅立とう"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false,
-        "background": "minecraft:textures/block/cyan_stained_glass.png"
+  "display": {
+    "icon": {
+      "item": "minecraft:grass_block"
     },
-    "criteria": {
-        "enter": {
-            "trigger": "minecraft:changed_dimension",
-            "conditions": {
-                "to": "area:skylands"
-            }
-        }
+    "title": [
+      {
+        "text": ""
+      },
+      {
+        "translate": "空へのいざない -通常世界-",
+        "color": "gray",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "空の世界へ旅立とう"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/cyan_stained_glass.png"
+  },
+  "criteria": {
+    "enter": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "area:skylands"
+      }
     }
+  }
 }

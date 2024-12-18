@@ -1,33 +1,33 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:red_wool"
-        },
-        "title": [
-            {
-                "text": ""
-            },
-            {
-                "translate": "主役はあなた -劇場-",
-                "color": "dark_purple",
-                "bold": true
-            }
-        ],
-        "description": {
-            "translate": "あなたの物語"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false,
-        "background": "minecraft:textures/block/cyan_wool.png"
+  "display": {
+    "icon": {
+      "item": "minecraft:red_wool"
     },
-    "criteria": {
-        "enter": {
-            "trigger": "minecraft:changed_dimension",
-            "conditions": {
-                "to": "area:theater"
-            }
-        }
+    "title": [
+      {
+        "text": ""
+      },
+      {
+        "translate": "主役はあなた -劇場-",
+        "color": "dark_purple",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "あなたの物語"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/cyan_wool.png"
+  },
+  "criteria": {
+    "enter": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "area:theater"
+      }
     }
+  }
 }

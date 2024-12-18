@@ -1,33 +1,33 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:andesite"
-        },
-        "title": [
-            {
-                "text": ""
-            },
-            {
-                "translate": "地の奥深くへ -地下世界-",
-                "color": "dark_blue",
-                "bold": true
-            }
-        ],
-        "description": {
-            "translate": "薄暗く湿った世界"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false,
-        "background": "minecraft:textures/block/gray_shulker_box.png"
+  "display": {
+    "icon": {
+      "item": "minecraft:andesite"
     },
-    "criteria": {
-        "enter": {
-            "trigger": "minecraft:changed_dimension",
-            "conditions": {
-                "to": "area:underworld"
-            }
-        }
+    "title": [
+      {
+        "text": ""
+      },
+      {
+        "translate": "地の奥深くへ -地下世界-",
+        "color": "dark_blue",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "薄暗く湿った世界"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/gray_shulker_box.png"
+  },
+  "criteria": {
+    "enter": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "area:underworld"
+      }
     }
+  }
 }

@@ -1,33 +1,33 @@
 {
-    "display": {
-        "icon": {
-            "item": "minecraft:water_bucket"
-        },
-        "title": {
-            "translate": "温泉の癒し"
-        },
-        "description": {
-            "translate": "いそぐとも 5びょうはつかれ おおぞらのゆ（字余り）"
-        },
-        "frame": "task",
-        "show_toast": true,
-        "announce_to_chat": true,
-        "hidden": false
+  "display": {
+    "icon": {
+      "item": "minecraft:water_bucket"
     },
-    "parent": "advancement:common/root",
-    "criteria": {
-      "hot_spring":{
-        "trigger": "effects_changed",
-        "conditions": {
-          "effects": {
-            "minecraft:invisibility":{
-              "amplifier": 100,
-              "duration": {
-                "min":1
-              }
+    "title": {
+      "translate": "温泉の癒し"
+    },
+    "description": {
+      "translate": "いそぐとも 5びょうはつかれ おおぞらのゆ（字余り）"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement:common/root",
+  "criteria": {
+    "hot_spring": {
+      "trigger": "effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:invisibility": {
+            "amplifier": 100,
+            "duration": {
+              "min": 1
             }
           }
         }
       }
     }
+  }
 }
