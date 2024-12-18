@@ -1,8 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:carrot_on_a_stick",
-      "nbt": "{}"
+      "id": "minecraft:carrot_on_a_stick",
+      "components": {}
     },
     "title": [
       {

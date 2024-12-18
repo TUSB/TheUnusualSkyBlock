@@ -1,8 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:writable_book",
-      "nbt": "{}"
+      "id": "minecraft:writable_book",
+      "components": {}
     },
     "title": [
       {

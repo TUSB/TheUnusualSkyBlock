@@ -1,8 +1,11 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:carrot_on_a_stick",
-      "nbt": "{CustomModelData:25,CustomAttributes:1b,Enchantments:[{}]}"
+      "id": "minecraft:carrot_on_a_stick",
+      "components": {
+        "minecraft:custom_model_data": 25,
+        "minecraft:enchantment_glint_override": true
+      }
     },
     "title": [
       {
@@ -49,7 +52,9 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{Skill:{ShowInterval:true}}"
+            "predicates": {
+              "minecraft:custom_data": "{Skill:{ShowInterval:true}}"
+            }
           }
         ]
       }

@@ -1,8 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:smithing_table",
-      "nbt": "{}"
+      "id": "minecraft:smithing_table",
+      "components": {}
     },
     "title": [
       {
@@ -43,13 +43,16 @@
     "requirement": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": {
-          "block": {
-            "blocks": [
-              "minecraft:smithing_table"
-            ]
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:smithing_table"
+              }
+            }
           }
-        }
+        ]
       }
     }
   }

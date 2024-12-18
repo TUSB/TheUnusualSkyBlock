@@ -1,8 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:axolotl_bucket",
-      "nbt": "{}"
+      "id": "minecraft:axolotl_bucket",
+      "components": {}
     },
     "title": [
       {

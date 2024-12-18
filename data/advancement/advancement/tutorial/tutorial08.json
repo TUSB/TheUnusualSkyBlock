@@ -1,8 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:gold_nugget",
-      "nbt": "{CustomModelData:52,EnchantStone:1b,EnchantID:\"氷\",Tier:3,display:{Name:'{\"translate\":\"%1$s%2$s(III)\",\"color\":\"aqua\",\"italic\":false,\"with\":[{\"translate\":\"氷の\"},{\"translate\":\"原石\"}]}',Lore:['[{\"translate\":\"%s III\",\"color\":\"gray\",\"italic\":false,\"with\":[{\"translate\":\"氷ダメージ追加\"}]},{\"text\":\"  \"},{\"text\":\"c\",\"font\":\"icon\",\"color\":\"aqua\"},{\"text\":\"+20\",\"color\":\"gray\"}]','[{\"translate\":\"適用可能アイテム： \",\"color\":\"green\",\"italic\":false},{\"translate\":\"武器・道具\",\"color\":\"gray\"}]','{\"translate\":\"エンチャント台で使用\",\"italic\":false}']}}"
+      "id": "minecraft:gold_nugget",
+      "components": {
+        "minecraft:custom_model_data": 52
+      }
     },
     "title": [
       {
@@ -45,7 +47,9 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{EnchantStone:true}"
+            "predicates": {
+              "minecraft:custom_data": "{EnchantStone:true}"
+            }
           }
         ]
       }

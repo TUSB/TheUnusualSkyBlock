@@ -1,8 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:grindstone",
-      "nbt": "{}"
+      "id": "minecraft:grindstone",
+      "components": {}
     },
     "title": [
       {
@@ -31,13 +31,16 @@
     "requirement": {
       "trigger": "minecraft:item_used_on_block",
       "conditions": {
-        "location": {
-          "block": {
-            "blocks": [
-              "minecraft:grindstone"
-            ]
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:grindstone"
+              }
+            }
           }
-        }
+        ]
       }
     }
   }

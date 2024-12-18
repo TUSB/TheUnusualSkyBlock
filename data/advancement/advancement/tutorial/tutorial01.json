@@ -1,8 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:knowledge_book",
-      "nbt": "{}"
+      "id": "minecraft:knowledge_book",
+      "components": {}
     },
     "title": [
       {

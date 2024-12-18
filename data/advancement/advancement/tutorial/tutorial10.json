@@ -1,8 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:iron_sword",
-      "nbt": "{CustomModelData:2}"
+      "id": "minecraft:iron_sword",
+      "components": {
+        "minecraft:custom_model_data": 2
+      }
     },
     "title": [
       {
@@ -49,7 +51,9 @@
       "conditions": {
         "items": [
           {
-            "nbt": "{Skill:{Type:\"TUSBMemory\"}}"
+            "predicates": {
+              "minecraft:custom_data": "{Skill:{Type:\"TUSBMemory\"}}"
+            }
           }
         ]
       }

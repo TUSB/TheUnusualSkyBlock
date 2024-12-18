@@ -1,8 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:shield",
-      "nbt": "{}"
+      "id": "minecraft:shield",
+      "components": {}
     },
     "title": [
       {
@@ -39,9 +39,9 @@
     "requirement": {
       "trigger": "minecraft:using_item",
       "conditions": {
-        "items": [
-          "minecraft:shield"
-        ]
+        "item": {
+          "items": "minecraft:shield"
+        }
       }
     }
   }

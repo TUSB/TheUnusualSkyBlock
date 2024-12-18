@@ -1,8 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:bundle",
-      "nbt": "{}"
+      "id": "minecraft:bundle",
+      "components": {}
     },
     "title": [
       {
@@ -37,9 +37,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:bundle"
-            ]
+            "items": "minecraft:bundle"
           }
         ]
       }

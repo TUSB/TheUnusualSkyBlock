@@ -1,8 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:scute",
-      "nbt": "{CustomModelData:2}"
+      "id": "minecraft:turtle_scute",
+      "components": {
+        "minecraft:custom_model_data": 2
+      }
     },
     "title": [
       {
