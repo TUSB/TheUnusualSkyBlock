@@ -39,5 +39,5 @@ jobs:
           days-before-issue-close: 14
           days-before-pr-close: 14
           stale-issue-label: '古くなった'
-          close-pr-label: 'auto close'
-          close-issue-label: 'auto close'
+          close-pr-label: '自動クローズ'
+          close-issue-label: '自動クローズ'
