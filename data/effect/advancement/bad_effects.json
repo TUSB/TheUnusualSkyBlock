@@ -1,0 +1,145 @@
+{
+  "criteria": {
+    "nausea": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:nausea": {
+            "duration": {
+              "min": 1
+            },
+            "amplifier": {
+              "max": 126
+            }
+          }
+        }
+      }
+    },
+    "poison": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:poison": {
+            "duration": {
+              "min": 1
+            },
+            "amplifier": {
+              "max": 126
+            }
+          }
+        }
+      }
+    },
+    "weakness": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:weakness": {
+            "duration": {
+              "min": 1
+            },
+            "amplifier": {
+              "max": 126
+            }
+          }
+        }
+      }
+    },
+    "wither": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:wither": {
+            "duration": {
+              "min": 1
+            },
+            "amplifier": {
+              "max": 126
+            }
+          }
+        }
+      }
+    },
+    "blindness": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:blindness": {
+            "duration": {
+              "min": 1
+            },
+            "amplifier": {
+              "max": 126
+            }
+          }
+        }
+      }
+    },
+    "hunger": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:hunger": {
+            "duration": {
+              "min": 1
+            },
+            "amplifier": {
+              "max": 126
+            }
+          }
+        }
+      }
+    },
+    "mining_fatigue": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:mining_fatigue": {
+            "duration": {
+              "min": 1
+            },
+            "amplifier": {
+              "max": 126
+            }
+          }
+        }
+      }
+    },
+    "slowness": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:slowness": {
+            "duration": {
+              "min": 1
+            },
+            "amplifier": {
+              "max": 126
+            }
+          }
+        }
+      }
+    },
+    "darkness": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "minecraft:darkness": {
+            "duration": {
+              "min": 1
+            },
+            "amplifier": {
+              "max": 126
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["nausea","poison","weakness","wither","blindness","hunger","mining_fatigue","slowness","darkness"]
+  ],
+  "rewards": {
+    "function": "effects:bad_effects"
+  }
+}
