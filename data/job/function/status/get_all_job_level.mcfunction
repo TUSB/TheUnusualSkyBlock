@@ -23,11 +23,13 @@ execute store result score @s SummonerLv run scoreboard players operation _ Summ
 execute store result score @s PuppetMasterLv run scoreboard players operation _ PuppetMasterLv < _ _
 execute store result score @s ThiefLv run scoreboard players operation _ ThiefLv < _ _
 
-execute unless score @s Job matches 1 run scoreboard players operation @s KnightLv < @s SubLevel
-execute unless score @s Job matches 2 run scoreboard players operation @s NinjaLv < @s SubLevel
-execute unless score @s Job matches 3 run scoreboard players operation @s HunterLv < @s SubLevel
-execute unless score @s Job matches 4 run scoreboard players operation @s WhiteMageLv < @s SubLevel
-execute unless score @s Job matches 5 run scoreboard players operation @s BlackMageLv < @s SubLevel
-execute unless score @s Job matches 6 run scoreboard players operation @s SummonerLv < @s SubLevel
-execute unless score @s Job matches 7 run scoreboard players operation @s PuppetMasterLv < @s SubLevel
-execute unless score @s Job matches 8 run scoreboard players operation @s ThiefLv < @s SubLevel
+# サブレベルの名残
+scoreboard players set _ _ 0
+execute unless score @s Job matches 1 run scoreboard players operation @s KnightLv < _ _
+execute unless score @s Job matches 2 run scoreboard players operation @s NinjaLv < _ _
+execute unless score @s Job matches 3 run scoreboard players operation @s HunterLv < _ _
+execute unless score @s Job matches 4 run scoreboard players operation @s WhiteMageLv < _ _
+execute unless score @s Job matches 5 run scoreboard players operation @s BlackMageLv < _ _
+execute unless score @s Job matches 6 run scoreboard players operation @s SummonerLv < _ _
+execute unless score @s Job matches 7 run scoreboard players operation @s PuppetMasterLv < _ _
+execute unless score @s Job matches 8 run scoreboard players operation @s ThiefLv < _ _
