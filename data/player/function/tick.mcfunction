@@ -41,6 +41,9 @@ execute if entity @s[nbt={Inventory:[{id:"minecraft:nether_star"}]}] run functio
 ### スキル
 function skill:player_tick
 
+### カスタムHP回復
+execute if entity @s[scores={HealthHealing=-2147483648..}] run function player:health_healing
+
 ### プレイヤーゲームメニュー
 execute unless score @s ChangeSettings matches 0 run function main:game_menu/triggered
 ### プレイヤースキル設定
