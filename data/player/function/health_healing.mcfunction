@@ -14,4 +14,4 @@ effect give @s[scores={HealthHealing=4..}] minecraft:instant_health 1 0 true
 scoreboard players remove @s[scores={HealthHealing=4..}] HealthHealing 4
 
 # 病気 回復阻害
-execute if score @s VirusCount matches 0.. if score @s HealthHealing matches 0.. run function effects:virus/on_healing
+execute if score @s VirusCount matches 0.. if score @s HealthHealing matches 0.. run function effect:virus/on_healing
