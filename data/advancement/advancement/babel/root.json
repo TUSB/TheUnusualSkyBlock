@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:red_sandstone"
+    },
+    "title": [
+      {
+        "text": ""
+      },
+      {
+        "translate": " -バベル-",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "雲の浮く世界"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/snow.png"
+  },
+  "criteria": {
+    "enter": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "area:babel"
+      }
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:gold_nugget",
+      "components": {
+        "minecraft:custom_model_data": 223
+      }
+    },
+    "title": [
+      {
+        "translate": "刻印について                  ",
+        "color": "light_purple",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "%1$s %2$s %3$s 魔石のエンチャントが\nアイテムに%4$s状態。手に取ることで\nそのエンチャントが%5$s。",
+      "color": "white",
+      "with": [
+        {
+          "text": "❖",
+          "color": "light_purple"
+        },
+        {
+          "text": "❖",
+          "color": "aqua"
+        },
+        {
+          "text": "❖",
+          "color": "gold"
+        },
+        {
+          "translate": "刻まれた",
+          "color": "light_purple"
+        },
+        {
+          "translate": "紐解かれる",
+          "color": "green"
+        }
+      ]
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "advancement:tutorial/tutorial07",
+  "criteria": {
+    "get_engraving": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{Engraving:{}}"
+            }
+          }
+        ]
+      }
+    }
+  }
+}

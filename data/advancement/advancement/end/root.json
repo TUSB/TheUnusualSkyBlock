@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:obsidian"
+    },
+    "title": [
+      {
+        "text": ""
+      },
+      {
+        "translate": "おしまい？ -エンド-",
+        "color": "dark_gray",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "終わりの始まり"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/quartz_block_bottom.png"
+  },
+  "criteria": {
+    "enter": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "area:end"
+      }
+    }
+  }
+}

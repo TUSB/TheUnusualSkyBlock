@@ -1,0 +1,45 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "translate": "スカイブロックの始まり"
+    },
+    "description": {
+      "translate": "足場には要注意"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "advancement:common/death",
+  "criteria": {
+    "death": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "tags": [
+              {
+                "id": "bypasses_invulnerability",
+                "expected": true
+              }
+            ]
+          }
+        },
+        "player": {
+          "nbt": "{Health:0.0f}",
+          "location": {
+            "position": {
+              "y": {
+                "max": -63
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

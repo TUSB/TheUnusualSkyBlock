@@ -1,0 +1,47 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:grindstone",
+      "components": {}
+    },
+    "title": [
+      {
+        "translate": "砥石の使用制限                      ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "魔石によるエンチャントシステム導入に伴い\n%1$sように制限している。",
+      "color": "white",
+      "with": [
+        {
+          "translate": "砥石を利用できない",
+          "color": "red"
+        }
+      ]
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "advancement:tutorial/tutorial09",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:grindstone"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
