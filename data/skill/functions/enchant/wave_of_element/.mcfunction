@@ -1,8 +1,5 @@
 execute store result score _ _ run data get storage item: SelectedItem.tag.Enchantments[{id:"tusb:波動"}].lvl
 
-#潜在能力 - 属性攻撃増加
-scoreboard players operation $ElementDamageAdd ElementDamageAdd = @s ElementDamageAdd
-
 #演出
 function makeup:skill/enchant/elemental_damage/wave_of_element
 

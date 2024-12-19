@@ -9,11 +9,6 @@ data modify storage skill: Skill set from storage item: Item.components."minecra
 execute store result score _ Calc run time query gametime
 execute store result score _ _ run data get storage skill: Skill.LastUsed
 execute store result score _ Interval run data get storage skill: Skill.Interval
-# 潜在能力 - スキル使用不可時間短縮 --
-scoreboard players set @s _ 100
-scoreboard players operation _ Interval *= @s IntervalRate
-scoreboard players operation _ Interval /= @s _
-# --
 scoreboard players operation _ Calc -= _ _
 scoreboard players set _ _ 20
 scoreboard players operation _ Calc *= _ _
