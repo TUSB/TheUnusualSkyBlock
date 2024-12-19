@@ -4,8 +4,6 @@ function settings:item/enchant/value/sweeping
 execute store result score _ Calc run function item:enchant/enchant/get_value
 #適用
 function skill:damage/modify
-#潜在能力 - 属性攻撃増加
-scoreboard players operation _ Calc = @s ElementDamageAdd
 function skill:damage/modify
 #Hit属性を追加(直後に進捗からskill:enchant/sweeping/applyが呼び出される)
 data modify storage skill: Damage set value {Hit:1b}

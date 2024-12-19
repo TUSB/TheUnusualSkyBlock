@@ -1,8 +1,5 @@
 ### 近接攻撃
 
-#潜在能力 - 属性攻撃増加
-scoreboard players operation $ElementDamageAdd ElementDamageAdd = @s ElementDamageAdd
-
 #装備を取得
 function player:load_equipments
 #物理ダメージ取得
