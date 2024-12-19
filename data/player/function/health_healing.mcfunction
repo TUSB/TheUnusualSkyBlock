@@ -1,3 +1,4 @@
+#> player:health_healing
 ### カスタムHP回復
 
 #3以下
