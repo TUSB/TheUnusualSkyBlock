@@ -1,0 +1,19 @@
+name: lint-datapack
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  lint:
+    name: lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+      # https://github.com/ChenCMD/datapack-linter
+      - name: lint
+        uses: ChenCMD/datapack-linter@v2
+        with:
+          GITHUB_TOKEN: ${{ github.token }}
