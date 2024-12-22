@@ -1,0 +1,64 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:firework_star",
+      "components": {
+        "minecraft:custom_model_data": 1007,
+        "minecraft:firework_explosion": {
+          "shape": "small_ball",
+          "colors": [
+            16777215
+          ]
+        }
+      }
+    },
+    "title": [
+      {
+        "translate": "自然湧きについて               ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "%1$sは全て%2$sがスポーンする。\n%3$sが現れることも。\n湧いたMobは%4$sする。",
+      "color": "white",
+      "with": [
+        {
+          "translate": "自然湧き",
+          "color": "aqua"
+        },
+        {
+          "translate": "特殊なMob",
+          "color": "#FF0000"
+        },
+        {
+          "translate": "取引のできる村人",
+          "color": "#00FF00"
+        },
+        {
+          "translate": "時間経過で消滅",
+          "color": "#7293B8"
+        }
+      ]
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "advancement:tutorial/tutorial10",
+  "criteria": {
+    "emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:emerald"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

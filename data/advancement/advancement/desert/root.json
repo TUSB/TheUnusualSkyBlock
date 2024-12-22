@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:sand"
+    },
+    "title": [
+      {
+        "text": ""
+      },
+      {
+        "translate": " -砂漠-",
+        "color": "light_purple",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "ようこそ、この世界へ！"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false,
+    "background": "minecraft:textures/block/light_blue_stained_glass.png"
+  },
+  "criteria": {
+    "enter": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "area:desert"
+      }
+    }
+  }
+}
