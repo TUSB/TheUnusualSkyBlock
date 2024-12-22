@@ -1,7 +1,7 @@
 #バースト - 召喚士
 execute if entity @a[distance=..32,scores={Burst=0..,Job=6}] run function skill:burst/summoner/element/swap
 #定数
-scoreboard players set _ _ 10000
+scoreboard players set _ _ 100
 #軽減前ダメージ総和
 scoreboard players set @s _ 0
 #炎
