@@ -6,6 +6,7 @@
 ###特殊デバフ処理
 execute if entity @s[scores={BurnCount=0..}] run function effect:burn/tick
 execute if entity @s[scores={ConfuseCount=1..}] run function effect:confuse/tick
+execute if entity @s[scores={DoomCount=1..}] run function effect:doom/proceed
 execute if entity @s[scores={PalsyLevel=1..}] run function effect:palsy/tick
 execute if entity @s[scores={TntCount=0..}] if block ~ ~ ~ water run function effect:tnt/cure
 execute if entity @s[scores={VirusCount=1..}] run function effect:virus/tick
