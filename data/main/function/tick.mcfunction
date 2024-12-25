@@ -3,6 +3,9 @@
 ### 毎ティック処理
 ##############################
 
+# 現在時刻更新
+function main:time/tick
+
 # エリア tick
 function area:tick
 
