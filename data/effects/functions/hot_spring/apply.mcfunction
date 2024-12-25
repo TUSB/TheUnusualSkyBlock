@@ -13,4 +13,4 @@ function skill:act/white_mage/clear/cure/level4
 scoreboard players set @s ResistEffects 100
 
 #ペイル回復
-execute if score @s PaleLevel matches -2147483647..2147483647 run function effects:pale/cure
+execute if score @s PaleLevel matches -2147483647..2147483647 run function effect:pale/cure

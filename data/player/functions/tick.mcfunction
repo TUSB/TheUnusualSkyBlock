@@ -58,8 +58,6 @@ execute unless score @s ChangeJob matches 0 run function job:change/check
 execute unless score @s ChangeDifficulty matches 0 run function main:difficulty/change/reject
 ### TIPS抑制
 execute unless score @s TipsSupTrigger matches 0 run function player:tips/suppress
-### 潜在能力
-execute unless score @s PotentialTrigger matches 0 run function job:potentials/triggered
 
 ### ネザースター取得
 # execute if entity @s[nbt={Inventory:[{id:"minecraft:nether_star"}]}] run function job:exp/get

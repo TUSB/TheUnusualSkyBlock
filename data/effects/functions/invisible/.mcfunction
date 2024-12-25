@@ -16,7 +16,7 @@ execute if entity @s[advancements={effects:invisible={picnic=true}}] run functio
 ## Lv 71~79 特殊デバフ解除
 execute if entity @s[advancements={effects:invisible={anti_doom=true}}] if score @s DoomCount matches 0.. run function effects:doom/escape
 execute if entity @s[advancements={effects:invisible={anti_doom=true}}] if entity @s[tag=Curse] run function effects:curse/cure
-execute if entity @s[advancements={effects:invisible={anti_burn=true}}] if score @s BurnCount matches 0.. run function effects:burn/cure
+execute if entity @s[advancements={effects:invisible={anti_burn=true}}] if score @s BurnCount matches 0.. run function effect:burn/cure
 execute if entity @s[advancements={effects:invisible={anti_freeze=true}}] if entity @s[tag=Freeze] run function effects:freeze/cure
 execute if entity @s[advancements={effects:invisible={anti_palsy=true}}] if score @s PalsyLevel matches 0.. run function effects:palsy/cure
 execute if entity @s[advancements={effects:invisible={anti_confuse=true}}] if score @s ConfuseCount matches 0.. run function effects:confuse/cure
