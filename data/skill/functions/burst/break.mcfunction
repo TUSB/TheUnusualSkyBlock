@@ -34,11 +34,6 @@ execute if score @s Job matches 6 run function skill:burst/summoner/act
 execute if score @s Job matches 7 run scoreboard players set _ _ 400
 execute if score @s Job matches 7 run scoreboard players operation @s Burst *= _ _
 
-### バースト補正
-scoreboard players operation @s Burst *= @s AuraRate
-scoreboard players set _ _ 100
-scoreboard players operation @s Burst /= _ _
-
 scoreboard players set $World Burst -1
 
 tellraw @a {"translate":"バーストブレイク！！","color":"gold","italic":true,"bold":true}
