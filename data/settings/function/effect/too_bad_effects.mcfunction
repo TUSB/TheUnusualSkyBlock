@@ -1,4 +1,4 @@
-
+#> settings:effect/too_bad_effects
 ### 特殊デバフの名前と説明の初期設定
 
 #> 特殊デバフの名前を使用するとき。
