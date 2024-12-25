@@ -1,0 +1,59 @@
+{
+  "criteria": {
+    "emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:emerald"
+            ],
+            "count": {
+              "min": 64
+            }
+          },
+          {
+            "items": [
+              "minecraft:bundle"
+            ],
+            "predicates": {
+              "minecraft:custom_data": "{EmeraldBundle:1b}"
+            }
+          }
+        ]
+      }
+    },
+    "megaton_emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_nugget"
+            ],
+            "components": {
+              "minecraft:custom_model_data": 1
+            }
+          },
+          {
+            "items": [
+              "minecraft:bundle"
+            ],
+            "predicates": {
+              "minecraft:custom_data": "{EmeraldBundle:1b}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "emerald",
+      "megaton_emerald"
+    ]
+  ],
+  "rewards": {
+    "function": "item:emerald_bundle/trigger"
+  }
+}
