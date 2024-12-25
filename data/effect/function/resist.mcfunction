@@ -1,4 +1,4 @@
-
+#> effect:resist
 ###状態異常耐性減少
 
 scoreboard players remove @s ResistEffects 1
