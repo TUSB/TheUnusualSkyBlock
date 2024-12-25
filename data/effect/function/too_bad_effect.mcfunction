@@ -8,7 +8,7 @@ execute unless score @s ResistLock matches 1 if score _ ResistEffects < @s Resis
 execute if score _ ResistEffects < @s ResistEffects run advancement revoke @s only effect:invisible
 
 execute if entity @s[advancements={effect:invisible={doom=true}}] unless score @s DoomCount matches 1..31 run function effect:doom/condition
-execute if entity @s[advancements={effect:invisible={super_doom=true}}] unless score @s DoomCount matches 1..13 run function effect:doom/apply
+execute if entity @s[advancements={effect:invisible={super_doom=true}}] unless score @s DoomCount matches 1..13 run function effect:doom/apply_super
 execute if entity @s[advancements={effect:invisible={super_doom=true}}] unless score @s DoomCount matches 1..13 run scoreboard players set _ _ 10
 execute if entity @s[advancements={effect:invisible={super_doom=true}}] unless score @s DoomCount matches 1..13 run scoreboard players operation @s DoomCount < _ _
 execute if entity @s[advancements={effect:invisible={burn=true}},predicate=!effect:fire_resistance] unless block ~ ~ ~ water run function effect:burn/condition
