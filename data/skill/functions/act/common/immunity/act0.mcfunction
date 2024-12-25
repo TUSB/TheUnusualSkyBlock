@@ -4,7 +4,6 @@
 #免疫最低値から計算する
 scoreboard players set _ ResistEffects 20
 scoreboard players operation _ ResistEffects *= _ Level
-scoreboard players operation _ ResistEffects += @s ResistMin
 
 execute if score @s ResistEffects <= _ ResistEffects run scoreboard players operation @s ResistEffects = _ ResistEffects
 execute if score @s ResistEffects > _ ResistEffects run data modify storage skill: Success set value 0b
