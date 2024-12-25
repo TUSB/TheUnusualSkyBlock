@@ -1,7 +1,6 @@
 #> player:tick
 # -> 1秒処理
-## 使用するときにコメントアウトを外してください。
-# execute if score $Ticks Count matches 0 run function player:one_second
+execute if score $Ticks Count matches 0 run function player:one_second
 
 ### MCID変更検知
 execute if entity @s[team=,tag=Initialized] run function player:mcid_change_detected
@@ -40,6 +39,9 @@ execute if entity @s[nbt={Inventory:[{id:"minecraft:nether_star"}]}] run functio
 
 ### スキル
 function skill:player_tick
+
+### カスタムHP回復
+execute if entity @s[scores={HealthHealing=-2147483648..}] run function player:health_healing
 
 ### プレイヤーゲームメニュー
 execute unless score @s ChangeSettings matches 0 run function main:game_menu/triggered
