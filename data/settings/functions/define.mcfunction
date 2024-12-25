@@ -25,7 +25,7 @@
 #define storage skill:
 
 #> エフェクト用ストレージ
-#define storage effects:
+#define storage effect:
 
 #> 個別ストレージ
 #define storage oh_my_dat:

@@ -1,6 +1,6 @@
 #> makeup:effect/freeze/apply
 ### 凍結 メッセージ
-tellraw @s [{"translate":"%1$sは%2$sした！","color":"red","with":[{"selector":"@s","color":"white"},{"interpret":true,"storage":"effects:","nbt":"BadEffectsName.Freeze"}]}]
+tellraw @s [{"translate":"%1$sは%2$sした！","color":"red","with":[{"selector":"@s","color":"white"},{"interpret":true,"storage":"effect:","nbt":"BadEffectsName.Freeze"}]}]
 
 # 氷 凍結
 playsound minecraft:block.glass.break player @a[distance=..16] ~ ~ ~ 2 1.5 1
