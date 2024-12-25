@@ -167,7 +167,7 @@ scoreboard players operation $RndMWCCarry Random /= _ _
 ###総獲得経験値量初期化
 scoreboard players add $World AllExp 0
 ###特殊デバフ名初期化
-function settings:effects/too_bad_effects
+function settings:effect/too_bad_effects
 
 ###コントロールエリア設定
 execute in area:control_area run forceload add 0 0
