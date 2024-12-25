@@ -1,0 +1,59 @@
+{
+  "display": {
+    "icon": {
+      "id": "minecraft:smithing_table",
+      "components": {}
+    },
+    "title": [
+      {
+        "translate": "鍛冶台の使用制限                    ",
+        "color": "white",
+        "bold": true
+      }
+    ],
+    "description": {
+      "translate": "魔石によるエンチャントシステム導入に伴い\n%1$sように\n制限している。\nその代わり簡易的ではあるが%2$sで\n%3$sと%4$sを\n組み合わせることができる。",
+      "color": "white",
+      "with": [
+        {
+          "translate": "鍛冶台でツールを制作できない",
+          "color": "red"
+        },
+        {
+          "translate": "クラフト",
+          "color": "#7CD100"
+        },
+        {
+          "translate": "ツール",
+          "color": "#32EBCA"
+        },
+        {
+          "translate": "item.minecraft.netherite_ingot",
+          "color": "#716871"
+        }
+      ]
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "parent": "advancement:tutorial/tutorial14",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "minecraft:smithing_table"
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

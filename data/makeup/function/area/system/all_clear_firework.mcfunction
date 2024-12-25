@@ -1,0 +1,4 @@
+#> makeup:area/system/all_clear_firework
+summon firework_rocket ~ ~5 ~ {LifeTime:0,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{fireworks:{explosions:[{shape:"large_ball",has_twinkle:1b,has_trail:1b,colors:[I;16711680,16748800,16772608],fade_colors:[I;2293504,16711918,65518]}]}}}}
+summon firework_rocket ~ ~5 ~ {LifeTime:15,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{fireworks:{explosions:[{shape:"large_ball",has_twinkle:1b,has_trail:1b,colors:[I;16711680,16748800,16772608],fade_colors:[I;2293504,16711918,65518]}]}}}}
+summon firework_rocket ~ ~5 ~ {LifeTime:30,FireworksItem:{id:"minecraft:firework_rocket",count:1,components:{fireworks:{explosions:[{shape:"large_ball",has_twinkle:1b,has_trail:1b,colors:[I;16711680,16748800,16772608],fade_colors:[I;2293504,16711918,65518]}]}}}}
