@@ -1,1 +1,0 @@
-playsound minecraft:block.anvil.land master @a ~ ~ ~ 0.2 2
