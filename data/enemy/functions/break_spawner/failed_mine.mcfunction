@@ -6,7 +6,6 @@
 
 # アイテムキル
     execute as @e[distance=..2,type=item,nbt={Item:{tag:{DamageItem:1b}}},sort=nearest,limit=1] run kill @s
-    execute as @e[distance=..2,type=item,nbt={Item:{tag:{DoubleBreak:1b}}},sort=nearest,limit=1] run kill @s
 
 # カウントが減っていないことを表示
     execute store result score _ _ run data get entity @s item.tag.Count 1
