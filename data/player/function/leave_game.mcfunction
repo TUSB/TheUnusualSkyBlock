@@ -12,8 +12,6 @@ tag @s remove SummonPixely
 tag @s remove DigTomb
 
 #進捗解除
-advancement revoke @s only item:init_tusb_memory
-advancement revoke @s only item:engraving
 advancement revoke @s only item:jewel_bundle
 advancement revoke @s only item:emerald_bundle
 advancement revoke @s only area:jump_to/cloudia/start
