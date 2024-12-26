@@ -3,7 +3,7 @@
 
 scoreboard players set @s FreezeTimer 60
 tag @s add Unmoved
-data modify storage effects: Freeze.PlayerRotated set from entity @s Rotation
+data modify storage effect: Freeze.PlayerRotated set from entity @s Rotation
 
 summon marker ^ ^ ^ {Tags:["Freeze","Initializing"]}
 execute as @e[type=marker,tag=Freeze,tag=Initializing] run function effect:freeze/set_rotation
