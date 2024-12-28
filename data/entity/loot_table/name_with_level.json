@@ -8,6 +8,7 @@
           "name": "minecraft:stick",
           "functions": [
             {
+              "mode": "replace_all",
               "function": "minecraft:set_lore",
               "entity": "this",
               "lore": [
