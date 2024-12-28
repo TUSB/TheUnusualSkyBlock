@@ -1,3 +1,4 @@
+#> entity:spawn/apply_status/status/mp
 scoreboard players set _ _ 100
 ### 最大MPを計算する
 execute store result score _ Calc run data get storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" 4

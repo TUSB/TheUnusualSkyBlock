@@ -1,3 +1,4 @@
+#> entity:spawn/apply_status/status/attack
 scoreboard players set _ _ 100
 ### 物理攻撃力を計算する
 execute store result score _ Calc run data get storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" 0.5

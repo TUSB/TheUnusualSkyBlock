@@ -1,3 +1,4 @@
+#> entity:spawn/apply_status/status/hp
 scoreboard players set _ _ 100
 ### 最大HPを計算する
 execute store result score _ Calc run data get storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" 4
