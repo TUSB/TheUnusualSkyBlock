@@ -17,6 +17,6 @@ function settings:enemy/global/friendly/blow/friend_wolf/main
 scoreboard players set @e[tag=!Initialized,distance=0,limit=1] Level 15
 data modify entity @e[tag=!Initialized,distance=0,limit=1] Tags set from storage tusb_mob: "即時ステータス"."ベース".Tags
 tag @e[tag=!Initialized,distance=0,limit=1] remove DelayedData
-execute as @e[tag=!Initialized,distance=0,limit=1] run function enemy:spawn/apply_status/act
+execute as @e[tag=!Initialized,distance=0,limit=1] run function entity:spawn/apply_status/act
 
 

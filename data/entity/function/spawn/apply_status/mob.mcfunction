@@ -21,10 +21,10 @@ execute store result score @s ElementLight run data get storage tusb_mob: "遅�
 execute store result score @s ElementDark run data get storage tusb_mob: "遅延ステータス"."ステータス"."闇属性値"
 
 ### ステータス
-function enemy:spawn/apply_status/status/hp
-function enemy:spawn/apply_status/status/mp
-function enemy:spawn/apply_status/status/defense
-function enemy:spawn/apply_status/status/special_defense
+function entity:spawn/apply_status/status/hp
+function entity:spawn/apply_status/status/mp
+function entity:spawn/apply_status/status/defense
+function entity:spawn/apply_status/status/special_defense
 
 scoreboard players operation @s HP = @s HPMax
 scoreboard players operation @s MP = @s MPMax

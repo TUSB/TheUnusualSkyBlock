@@ -17,4 +17,4 @@ data modify storage tusb_mob: "遅延ステータス" set from storage oh_my_dat
 data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList[-1]
 
 
-function enemy:spawn/apply_status/act
+function entity:spawn/apply_status/act
