@@ -8,7 +8,7 @@
         "type_specific": {
           "type": "player",
           "advancements": {
-            "effects:invisible": {
+            "effect:invisible": {
               "doom": true
             }
           }
@@ -22,7 +22,7 @@
         "type_specific": {
           "type": "player",
           "advancements": {
-            "effects:invisible": {
+            "effect:invisible": {
               "super_doom": true
             }
           }
@@ -36,7 +36,7 @@
         "type_specific": {
           "type": "player",
           "advancements": {
-            "effects:invisible": {
+            "effect:invisible": {
               "burn": true
             }
           }
@@ -50,7 +50,7 @@
         "type_specific": {
           "type": "player",
           "advancements": {
-            "effects:invisible": {
+            "effect:invisible": {
               "freeze": true
             }
           }
@@ -64,7 +64,7 @@
         "type_specific": {
           "type": "player",
           "advancements": {
-            "effects:invisible": {
+            "effect:invisible": {
               "palsy": true
             }
           }
@@ -78,7 +78,7 @@
         "type_specific": {
           "type": "player",
           "advancements": {
-            "effects:invisible": {
+            "effect:invisible": {
               "confuse": true
             }
           }
@@ -92,7 +92,7 @@
         "type_specific": {
           "type": "player",
           "advancements": {
-            "effects:invisible": {
+            "effect:invisible": {
               "curse": true
             }
           }
@@ -106,7 +106,7 @@
         "type_specific": {
           "type": "player",
           "advancements": {
-            "effects:invisible": {
+            "effect:invisible": {
               "virus": true
             }
           }
@@ -120,7 +120,7 @@
         "type_specific": {
           "type": "player",
           "advancements": {
-            "effects:invisible": {
+            "effect:invisible": {
               "tnt": true
             }
           }
@@ -134,7 +134,7 @@
         "type_specific": {
           "type": "player",
           "advancements": {
-            "effects:invisible": {
+            "effect:invisible": {
               "pale": true
             }
           }
@@ -148,7 +148,7 @@
         "type_specific": {
           "type": "player",
           "advancements": {
-            "effects:invisible": {
+            "effect:invisible": {
               "debility": true
             }
           }
