@@ -140,6 +140,6 @@
     ["nausea","poison","weakness","wither","blindness","hunger","mining_fatigue","slowness","darkness"]
   ],
   "rewards": {
-    "function": "effects:bad_effects"
+    "function": "effect:bad_effects"
   }
 }

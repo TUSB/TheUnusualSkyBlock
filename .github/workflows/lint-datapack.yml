@@ -4,16 +4,41 @@ on:
   pull_request:
   workflow_dispatch:
 jobs:
-  lint:
-    name: lint
+  linter:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout repository
-        uses: actions/checkout@v3
+      - name: checkout
+        uses: actions/checkout@v2
         with:
           fetch-depth: 0
-      # https://github.com/ChenCMD/datapack-linter
       - name: lint
-        uses: ChenCMD/datapack-linter@v2
+        # ref: https://github.com/github/super-linter
+        uses: super-linter/super-linter@v7.2.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # ACTIONS_RUNNER_DEBUG: true
+          DEFAULT_BRANCH: 1-21-1-dev
+          OUTPUT_FORMAT: tap
+          OUTPUT_DETAILS: detailed
+          DISABLE_ERRORS: false
+          VALIDATE_ALL_CODEBASE: true
+      - name: upload reports  
+        uses: actions/upload-artifact@v2
         with:
-          GITHUB_TOKEN: ${{ github.token }}
+          name: super-linter
+          path: super-linter.report/
+
+# jobs:
+#   lint:
+#     name: lint
+#     runs-on: ubuntu-latest
+#     steps:
+#       - name: checkout repository
+#         uses: actions/checkout@v3
+#         with:
+#           fetch-depth: 0
+#       # https://github.com/ChenCMD/datapack-linter
+#       - name: lint
+#         uses: ChenCMD/datapack-linter@v2
+#         with:
+#           GITHUB_TOKEN: ${{ github.token }}
