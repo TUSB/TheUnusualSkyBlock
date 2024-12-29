@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: lint
@@ -22,19 +22,30 @@ jobs:
           OUTPUT_DETAILS: detailed
           DISABLE_ERRORS: false
           VALIDATE_ALL_CODEBASE: true
+          ENABLE_GITHUB_ACTIONS_STEP_SUMMARY: true
+          SAVE_SUPER_LINTER_SUMMARY: true
       - name: upload reports  
         uses: actions/upload-artifact@v4
         with:
           name: super-linter
           path: super-linter.report/
-
+      - name: Commit and push linting fixes
+        if: >
+          github.event_name == 'pull_request' &&
+          github.ref_name != github.event.repository.default_branch
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          branch: ${{ github.event.pull_request.head.ref || github.head_ref || github.ref }}
+          commit_message: "NO-ISSUE Fix linting issues"
+          commit_user_name: super-linter
+          commit_user_email: super-linter@super-linter.dev
 # jobs:
 #   lint:
 #     name: lint
 #     runs-on: ubuntu-latest
 #     steps:
 #       - name: checkout repository
-#         uses: actions/checkout@v3
+#         uses: actions/checkout@v4
 #         with:
 #           fetch-depth: 0
 #       # https://github.com/ChenCMD/datapack-linter

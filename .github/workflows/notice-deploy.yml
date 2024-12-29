@@ -22,7 +22,7 @@ jobs:
           echo ${{ steps.ip.outputs.ipv4 }}
           echo ${{ steps.ip.outputs.ipv6 }}
       
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Add Firewalld IP Address
         id: FIREWALL
         run: |
@@ -41,7 +41,7 @@ jobs:
           }'`
           
           firewall_id=`echo "$ADD_FIREWALL" | jq '.firewall_rule.id'`
-          echo "::set-output name=ID::$firewall_id"
+#          echo "::set-output name=ID::$firewall_id"
           echo "-----DEBUG-----"
           echo "$ADD_FIREWALL"
    
@@ -51,9 +51,9 @@ jobs:
           tar -zxvf mcrcon-0.7.1-linux-x86-64.tar.gz
           mv mcrcon-0.7.1-linux-x86-64/mcrcon /usr/local/bin/
       
-      - name: Set outputs
-        id: vars
-        run: echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
+#      - name: Set outputs
+#        id: vars
+#        run: echo "::set-output name=sha_short::$(git rev-parse --short HEAD)"
 
       - name: Check outputs
         run: echo ${{ steps.vars.outputs.sha_short }}
@@ -89,7 +89,7 @@ jobs:
           echo ${{ steps.ip.outputs.ipv4 }}
           echo ${{ steps.ip.outputs.ipv6 }}
       
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
       - name: Add Firewalld IP Address
         id: FIREWALL
         run: |
@@ -108,7 +108,7 @@ jobs:
           }'`
           
           firewall_id=`echo "$ADD_FIREWALL" | jq '.firewall_rule.id'`
-          echo "::set-output name=ID::$firewall_id"
+#          echo "::set-output name=ID::$firewall_id"
           echo "-----DEBUG-----"
           echo "$ADD_FIREWALL"
    
