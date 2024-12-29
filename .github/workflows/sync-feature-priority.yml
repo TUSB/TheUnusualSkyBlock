@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Extract priority and set output
         id: extract_priority
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         with:
           script: |
             const issueBody = context.payload.issue.body;
@@ -31,7 +31,7 @@ jobs:
     if: ${{ needs.set_env_priority.outputs.PRIORITY != '' }}
     steps:
       - name: Add label based on priority
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         env:
           PRIORITY: ${{ needs.set_env_priority.outputs.PRIORITY }}
         with:
@@ -62,7 +62,7 @@ jobs:
     steps:
       - name: Extract Field Content using GitHub Script
         id: extract_field
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         with:
           script: |
             const issueBody = context.payload.issue.body;
@@ -94,7 +94,7 @@ jobs:
 
       - name: Close Issue if Field is Empty
         if: steps.check_field.outputs.field_empty == 'true'
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
         env:
           PRIORITY: ${{ env.PRIORITY }}
         with:

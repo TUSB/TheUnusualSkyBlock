@@ -19,7 +19,7 @@ jobs:
     steps:
       # リポジトリをチェックアウトしてコミット情報を取得
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       # 現在のコミットがマージコミットか判定
       - name: Check if current commit is a merge commit
