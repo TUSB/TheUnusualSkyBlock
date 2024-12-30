@@ -6,7 +6,9 @@
         "player": {
           "type_specific": {
             "type": "player",
-            "gamemode": ["adventure"]
+            "gamemode": [
+              "adventure"
+            ]
           },
           "location": {
             "position": {

@@ -1,7 +1,7 @@
 {
-    "replace": false,
-    "values": [
-        "main:load",
-        "main:version_update/check/"
-    ]
+  "replace": false,
+  "values": [
+    "main:load",
+    "main:version_update/check/"
+  ]
 }

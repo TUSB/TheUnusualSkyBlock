@@ -65,7 +65,12 @@
       }
     }
   },
-  "requirements":[["item_frame","glow_item_frame"]],
+  "requirements": [
+    [
+      "item_frame",
+      "glow_item_frame"
+    ]
+  ],
   "rewards": {
     "function": "entity:item_frame_destroy/item_frames"
   }

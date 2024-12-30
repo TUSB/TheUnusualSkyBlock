@@ -1,13 +1,13 @@
 {
-    "criteria": {
-        "triggered": {
-            "trigger": "minecraft:changed_dimension",
-            "conditions": {
-                "to": "area:quest_area"
-            }
-        }
-    },
-    "rewards": {
-        "function": "area:entered/quest_area"
+  "criteria": {
+    "triggered": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "area:quest_area"
+      }
     }
+  },
+  "rewards": {
+    "function": "area:entered/quest_area"
+  }
 }

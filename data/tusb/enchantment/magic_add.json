@@ -1,7 +1,7 @@
 {
   "description": {
-    "translate":"魔法属性追加",
-    "color":"aqua"
+    "translate": "魔法属性追加",
+    "color": "aqua"
   },
   "supported_items": "#minecraft:enchantable/weapon",
   "weight": 1,
