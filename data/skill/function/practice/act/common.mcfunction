@@ -3,12 +3,6 @@ execute if data storage skill: Skill{Name:"サモンSフレンドフィッシュ
 execute if data storage skill: Skill{Name:"サモンSメニクル"} run function skill:act/common/summon_menicles/act0
 execute if data storage skill: Skill{Name:"ソニックバースト"} run function skill:act/common/sonic_burst/act0
 execute if data storage skill: Skill{Name:"墓掘り"} run function skill:act/common/dig_tomb/act0
-execute if data storage skill: Skill{Name:"スーパーデバリア"} run function skill:act/common/super_debaria/act0
-execute if data storage skill: Skill{Name:"ディジーズデバリア"} run function skill:act/common/disease_debaria/act0
-execute if data storage skill: Skill{Name:"コンフュージョンデバリア"} run function skill:act/common/confusion_debaria/act0
-execute if data storage skill: Skill{Name:"パラライズデバリア"} run function skill:act/common/paralysis_debaria/act0
-execute if data storage skill: Skill{Name:"フリーズデバリア"} run function skill:act/common/freeze_debaria/act0
-execute if data storage skill: Skill{Name:"バーンデバリア"} run function skill:act/common/burn_debaria/act0
 execute if data storage skill: Skill{Name:"爆弾解除"} run function skill:act/common/bomb_defuse/act0
 execute if data storage skill: Skill{Name:"サモンSるなちー"} run function skill:act/common/summon_lunatic_eye/act0
 execute if data storage skill: Skill{Name:"サモンPゴーレム"} run function skill:act/common/summon_iron_golem/act0
