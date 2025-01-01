@@ -31,8 +31,6 @@ jobs:
           SAVE_SUPER_LINTER_SUMMARY: true
           FIX_SHELL_SHFMT: true
           FIX_YAML_PRETTIER: true
-          JSCPD_CONFIG_FILE: .jscpd.json
-          MARKDOWN_CONFIG_FILE: .markdownlint.json
       - name: Commit and push linting fixes
         # Run only on:
         # - Pull requests
