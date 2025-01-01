@@ -57,7 +57,7 @@ The Unusual SkyBlockのイベント、コミュニティスペース、または
 
 ## 7. 報告ガイドライン
 
-許容できない行為の被害に遭った場合や目撃した場合、またはその他の懸念がある場合は、できるだけ早くコミュニティの主催者にお知らせください。連絡先：tusb.official@gmail.com
+許容できない行為の被害に遭った場合や目撃した場合、またはその他の懸念がある場合は、できるだけ早くコミュニティの主催者にお知らせください。連絡先：[tusb.official@gmail.com](mailto:tusb.official@gmail.com)
 
 [報告ガイドライン](https://x.com/tuskyblock)
 
@@ -77,7 +77,7 @@ The Unusual SkyBlockのイベント、コミュニティスペース、または
 
 ## 10. 連絡先情報
 
-tusb.official@gmail.com
+[tusb.official@gmail.com](mailto:tusb.official@gmail.com)
 
 ## 11. ライセンスと帰属
 
