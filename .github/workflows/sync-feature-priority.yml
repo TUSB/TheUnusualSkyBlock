@@ -82,16 +82,16 @@ jobs:
         run: |
           FIELD_CONTENT="${{ steps.extract_field.outputs.field_content }}"
           if [ -z "$FIELD_CONTENT" ]; then
-            echo "field_empty=true" >> $GITHUB_OUTPUT
+            echo "field_empty=true" >> "$GITHUB_OUTPUT"
           else
-            TRIMMED_CONTENT=$(echo "$FIELD_CONTENT" | tr -d '[:space:]')
+            TRIMMED_CONTENT="$(echo "$FIELD_CONTENT" | tr -d '[:space:]')"
             # デフォルトテキスト（見出しのみ）の場合や_No response_の場合も未記入扱い
-            DEFAULT_TEXT=$(echo "###なぜ優先度が高いのか" | tr -d '[:space:]')
-            NO_RESPONSE=$(echo "_Noresponse_" | tr -d '[:space:]')
+            DEFAULT_TEXT="$(echo "###なぜ優先度が高いのか" | tr -d '[:space:]')"
+            NO_RESPONSE="$(echo "_Noresponse_" | tr -d '[:space:]')"
             if [ -z "$TRIMMED_CONTENT" ] || [ "$TRIMMED_CONTENT" = "$DEFAULT_TEXT" ] || [ "$TRIMMED_CONTENT" = "$NO_RESPONSE" ]; then
-              echo "field_empty=true" >> $GITHUB_OUTPUT
+              echo "field_empty=true" >> "$GITHUB_OUTPUT"
             else
-              echo "field_empty=false" >> $GITHUB_OUTPUT
+              echo "field_empty=false" >> "$GITHUB_OUTPUT"
             fi
           fi
 
