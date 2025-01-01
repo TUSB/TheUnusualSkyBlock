@@ -14,13 +14,6 @@ attribute @s minecraft:generic.max_absorption base set 2048
 data modify entity @s AbsorptionAmount set value 2048f
 data modify entity @s DeathTime set value 19s
 
-### 属性値
-execute store result score @s ElementFire run data get storage tusb_mob: "遅延ステータス"."ステータス"."炎属性値"
-execute store result score @s ElementIce run data get storage tusb_mob: "遅延ステータス"."ステータス"."氷属性値"
-execute store result score @s ElementLightning run data get storage tusb_mob: "遅延ステータス"."ステータス"."雷属性値"
-execute store result score @s ElementLight run data get storage tusb_mob: "遅延ステータス"."ステータス"."光属性値"
-execute store result score @s ElementDark run data get storage tusb_mob: "遅延ステータス"."ステータス"."闇属性値"
-
 ### ステータス
 function entity:spawn/apply_status/status/hp
 function entity:spawn/apply_status/status/mp
