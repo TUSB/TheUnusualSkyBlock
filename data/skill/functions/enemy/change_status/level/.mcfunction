@@ -9,22 +9,22 @@ execute if data storage mob_data: Call.Level.Limit store result score @s _ run d
 execute if score @s Calc matches 1.. if data storage mob_data: Call.Level.Limit run scoreboard players operation @s Level < @s _
 execute if score @s Calc matches ..-1 if data storage mob_data: Call.Level.Limit run scoreboard players operation @s Level > @s _
 
-function enemy:spawn/apply_status/status/attack
-function enemy:spawn/apply_status/status/defense
-function enemy:spawn/apply_status/status/special_attack
-function enemy:spawn/apply_status/status/special_defense
+function entity:spawn/apply_status/status/attack
+function entity:spawn/apply_status/status/defense
+function entity:spawn/apply_status/status/special_attack
+function entity:spawn/apply_status/status/special_defense
 #現在HPの補正
 scoreboard players set _ _ 1000
 scoreboard players operation @s HP *= _ _
 scoreboard players operation @s HP /= @s HPMax
-function enemy:spawn/apply_status/status/hp
+function entity:spawn/apply_status/status/hp
 scoreboard players operation @s HP *= @s HPMax
 scoreboard players operation @s HP /= _ _
 #現在MPの補正
 scoreboard players set _ _ 1000
 scoreboard players operation @s MP *= _ _
 scoreboard players operation @s MP /= @s MPMax
-function enemy:spawn/apply_status/status/mp
+function entity:spawn/apply_status/status/mp
 scoreboard players operation @s MP *= @s MPMax
 scoreboard players operation @s MP /= _ _
 #名前の修正

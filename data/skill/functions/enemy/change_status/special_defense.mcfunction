@@ -11,4 +11,4 @@ execute if score @s Calc matches 1.. if data storage mob_data: Call.SpecialDefen
 execute if score @s Calc matches ..-1 if data storage mob_data: Call.SpecialDefense.Limit run scoreboard players operation _ Calc > @s _
 
 execute store result storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" int 1 run scoreboard players get _ Calc
-function enemy:spawn/apply_status/status/special_defense
+function entity:spawn/apply_status/status/special_defense
