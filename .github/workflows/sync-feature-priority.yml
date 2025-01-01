@@ -1,5 +1,4 @@
 name: Label Issue Based on Priority
-
 on:
   issues:
     types: [ opened, edited ]
