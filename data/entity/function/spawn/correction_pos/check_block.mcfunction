@@ -1,4 +1,4 @@
-#> entity:spawn/correction_pos/check_2
+#> entity:spawn/correction_pos/check_block
 
 #経験値オーブのHitBoxの width:0.5, height:0.5として周囲のブロックを確認する
 execute unless block ~ ~ ~ air run return fail
