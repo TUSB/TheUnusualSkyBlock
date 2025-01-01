@@ -1,7 +1,7 @@
 name: アイデア
 description: 新しいアイデアを提案する
 title: "[idea] <ここにタイトルを入力>"
-labels: [ アイデア ]
+labels: [アイデア]
 body:
   - type: markdown
     attributes:
@@ -58,7 +58,7 @@ body:
     attributes:
       value: |
         以下は技術的な報告です。
-        
+
         ---
   - type: textarea
     id: use_system

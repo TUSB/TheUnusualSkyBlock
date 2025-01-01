@@ -2,9 +2,9 @@ name: Server Notice and Deploy Action
 
 on:
   push:
-    branches: [ master ]
+    branches: [master]
   pull_request:
-    branches: [ master ]
+    branches: [master]
   workflow_dispatch:
 
 permissions:
@@ -78,7 +78,7 @@ jobs:
       - name: Sleep for 45 seconds
         uses: jakejarvis/wait-action@master
         with:
-          time: '45s'
+          time: "45s"
 
       - name: Notice Bungeecord
         run: |
@@ -153,7 +153,7 @@ jobs:
       - name: Sleep for 45 seconds
         uses: jakejarvis/wait-action@master
         with:
-          time: '45s'
+          time: "45s"
 
       - name: Deploy by rsync
         uses: trendyminds/github-actions-rsync@master
