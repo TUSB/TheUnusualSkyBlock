@@ -31,6 +31,9 @@ jobs:
           VALIDATE_ALL_CODEBASE: true
           ENABLE_GITHUB_ACTIONS_STEP_SUMMARY: true
           SAVE_SUPER_LINTER_SUMMARY: true
+  reports:
+    runs-on: ubuntu-latest
+    steps:
       - name: upload reports
         uses: actions/upload-artifact@v4
         with:
