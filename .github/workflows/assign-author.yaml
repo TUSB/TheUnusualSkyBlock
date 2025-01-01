@@ -4,12 +4,14 @@ on:
     types: [ opened ]
   pull_request:
     types: [ opened ]
+
+permissions:
+  issues: write
+  pull-requests: write
+
 jobs:
   assign-author:
     if: ${{ ! contains(fromJson('["renovate[bot]", "dependabot[bot]"]'), github.actor) }}
-    permissions:
-      issues: write
-      pull-requests: write
     runs-on: ubuntu-latest
     steps:
       - uses: technote-space/assign-author@v1

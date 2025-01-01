@@ -1,16 +1,16 @@
 name: Server Notice and Deploy Action
 
-permissions:
-  contents: read
-  issues: write
-  pull-requests: write
-
 on:
   push:
     branches: [ master ]
   pull_request:
     branches: [ master ]
   workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: write
 
 jobs:
   notice:
