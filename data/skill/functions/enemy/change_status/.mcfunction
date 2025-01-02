@@ -5,8 +5,8 @@ execute if data storage mob_data: Call.HP run function skill:enemy/change_status
 execute if data storage mob_data: Call.MP run function skill:enemy/change_status/mp
 execute if data storage mob_data: Call.Attack run function skill:enemy/change_status/attack
 execute if data storage mob_data: Call.Defense run function skill:enemy/change_status/defense
-execute if data storage mob_data: Call.SpecialAttack run function skill:enemy/change_status/special_attack
-execute if data storage mob_data: Call.SpecialDefense run function skill:enemy/change_status/special_defense
+execute if data storage mob_data: Call.MagicAttack run function skill:enemy/change_status/magic_attack
+execute if data storage mob_data: Call.MagicDefence run function skill:enemy/change_status/magic_defense
 
 #データを元に戻す
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4]."ステータス" set from storage tusb_mob: "遅延ステータス"."ステータス"

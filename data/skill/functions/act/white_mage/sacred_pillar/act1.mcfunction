@@ -45,12 +45,12 @@ scoreboard players set _ _ 2
 scoreboard players operation @s _ /= _ _
 
 # 倍率合計
-scoreboard players operation _ SpecialAttack = @s _
-scoreboard players operation _ SpecialAttack += _ Calc
+scoreboard players operation _ MagicAttack = @s _
+scoreboard players operation _ MagicAttack += _ Calc
 
 #ダメージあれば成功
-execute if score _ SpecialAttack matches ..0 run function makeup:skill/act/white_mage/sacred_pillar/failure
-execute if score _ SpecialAttack matches ..0 run data modify storage skill: Success set value 0b
-execute if score _ SpecialAttack matches 1.. run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[Skill,SacredPillar,NativeTask],Duration:1}
-execute if score _ SpecialAttack matches 1.. as @e[tag=SacredPillar,tag=!Initialized,limit=1,distance=..0.01] run function skill:act/white_mage/sacred_pillar/success
-execute if score _ SpecialAttack matches 1.. run function skill:act/white_mage/sacred_pillar/player_damage
+execute if score _ MagicAttack matches ..0 run function makeup:skill/act/white_mage/sacred_pillar/failure
+execute if score _ MagicAttack matches ..0 run data modify storage skill: Success set value 0b
+execute if score _ MagicAttack matches 1.. run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[Skill,SacredPillar,NativeTask],Duration:1}
+execute if score _ MagicAttack matches 1.. as @e[tag=SacredPillar,tag=!Initialized,limit=1,distance=..0.01] run function skill:act/white_mage/sacred_pillar/success
+execute if score _ MagicAttack matches 1.. run function skill:act/white_mage/sacred_pillar/player_damage

@@ -6,7 +6,8 @@
 
 ### 攻撃力を計算
 execute if data storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" run function entity:spawn/apply_status/status/attack
-execute if data storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" run function entity:spawn/apply_status/status/special_attack
+execute if data storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" run function entity:spawn/apply_status/status/magic_attack
+execute if data storage tusb_mob: "遅延ステータス"."ステータス"."理外攻撃力" run function entity:spawn/apply_status/status/unreasonable_attack
 
 ### モブに他のステータスを計算して反映する
 execute if entity @s[tag=Mob] run function entity:spawn/apply_status/mob

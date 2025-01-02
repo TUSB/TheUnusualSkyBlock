@@ -8,7 +8,7 @@ execute if score _ Level matches 3 run data modify storage skill: Damage set fro
 function skill:damage/add/skill/magic
 
 #ダメージ補正
-scoreboard players operation _ Calc = _ SpecialAttack
+scoreboard players operation _ Calc = _ MagicAttack
   execute if data storage main: difficult{world:"debug"} run tellraw @a ["[Debug]セイクリッドピラー倍率(x100) : ",{"score":{"name":"_","objective":"Calc"}}]
 function skill:damage/modify
 function skill:damage/save
