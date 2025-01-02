@@ -1,18 +1,23 @@
 name: lint-datapack
+
 on:
   push:
   pull_request:
   workflow_dispatch:
+
+permissions:
+  contents: read
 jobs:
-  linter:
+  fix-lint-issues:
+    permissions:
+      contents: write
+      statuses: write
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: lint
-        # ref: https://github.com/github/super-linter
+      - name: Super-Linter
         uses: super-linter/super-linter@v7.2.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -24,12 +29,12 @@ jobs:
           VALIDATE_ALL_CODEBASE: true
           ENABLE_GITHUB_ACTIONS_STEP_SUMMARY: true
           SAVE_SUPER_LINTER_SUMMARY: true
-      - name: upload reports  
-        uses: actions/upload-artifact@v4
-        with:
-          name: super-linter
-          path: super-linter.report/
+          FIX_SHELL_SHFMT: true
+          FIX_YAML_PRETTIER: true
       - name: Commit and push linting fixes
+        # Run only on:
+        # - Pull requests
+        # - Not on the default branch
         if: >
           github.event_name == 'pull_request' &&
           github.ref_name != github.event.repository.default_branch
