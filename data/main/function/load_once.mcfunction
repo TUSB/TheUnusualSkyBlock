@@ -19,11 +19,6 @@ function settings:main/define/gamerule
 
 ###ステータス
 scoreboard objectives add Level dummy {"text":"レベル"}
-scoreboard objectives add ElementFire dummy {"text":"炎属性値"}
-scoreboard objectives add ElementIce dummy {"text":"氷属性値"}
-scoreboard objectives add ElementLightning dummy {"text":"雷属性値"}
-scoreboard objectives add ElementLight dummy {"text":"光属性値"}
-scoreboard objectives add ElementDark dummy {"text":"闇属性値"}
 scoreboard objectives add HP dummy {"text":"HP"}
 scoreboard objectives add HPMax dummy {"text":"HP最大値"}
 scoreboard objectives add MP dummy {"text":"MP"}

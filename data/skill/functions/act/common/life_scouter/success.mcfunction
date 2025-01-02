@@ -2,7 +2,6 @@
 
 function #oh_my_dat:please
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].LifeScouter.OriginalName set from entity @s CustomName
-function skill:act/common/life_scouter/element_text
 tag @s add LifeScouter
 
 # 表示用テキストディスプレイ

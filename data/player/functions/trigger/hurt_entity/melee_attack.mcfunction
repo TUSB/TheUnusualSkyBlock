@@ -26,6 +26,3 @@ execute if data storage item: Item.tag.Skill{Trigger:"近接攻撃する"} run f
 
 #近接スキルの場合、物理ダメージはスキル側で計算するため0にする
 execute if data storage item: Item.tag.Skill.Damage{Melee:1b} at 0-0-0-0-2 run data modify entity @e[tag=Enemy,nbt=!{AbsorptionAmount:1000000f},distance=0,limit=1] AbsorptionAmount set value 1000000f
-
-#属性ダメージ演出
-execute at 0-0-0-0-2 run function makeup:skill/enchant/elemental_damage/hit

@@ -23,37 +23,6 @@
                     "storage": "skill:",
                     "nbt": "LifeScouter.HPBar",
                     "interpret": true
-                  },
-                  "\n",
-                  {
-                    "text": "fcnld",
-                    "font": "element"
-                  },
-                  "\n",
-                  {
-                    "storage": "skill:",
-                    "nbt": "LifeScouter.Fire",
-                    "interpret": true
-                  },
-                  {
-                    "storage": "skill:",
-                    "nbt": "LifeScouter.Ice",
-                    "interpret": true
-                  },
-                  {
-                    "storage": "skill:",
-                    "nbt": "LifeScouter.Lightning",
-                    "interpret": true
-                  },
-                  {
-                    "storage": "skill:",
-                    "nbt": "LifeScouter.Light",
-                    "interpret": true
-                  },
-                  {
-                    "storage": "skill:",
-                    "nbt": "LifeScouter.Dark",
-                    "interpret": true
                   }
                 ]
               ]
