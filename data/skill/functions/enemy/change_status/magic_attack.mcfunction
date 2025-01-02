@@ -11,4 +11,4 @@ execute if score @s Calc matches 1.. if data storage mob_data: Call.MagicAttack.
 execute if score @s Calc matches ..-1 if data storage mob_data: Call.MagicAttack.Limit run scoreboard players operation _ Calc > @s _
 
 execute store result storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" int 1 run scoreboard players get _ Calc
-function entity:spawn/apply_status/status/special_attack
+function entity:spawn/apply_status/status/magic_attack
