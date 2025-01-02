@@ -9,7 +9,7 @@ scoreboard players set @s _ 10000
 scoreboard players set @s Calc 10000
 
 ###ステータス取得
-scoreboard players operation _ Calc = @s SpecialAttack
+scoreboard players operation _ Calc = @s MagicAttack
 execute if data storage mob_data: Call.Multiplier store result score @s _ run data get storage mob_data: Call.Multiplier 10000
 execute if data storage mob_data: Call.Range store result score # _ run data get storage mob_data: Call.Range 100
 
