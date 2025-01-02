@@ -28,7 +28,6 @@ jobs:
           DISABLE_ERRORS: false
           VALIDATE_ALL_CODEBASE: true
           ENABLE_GITHUB_ACTIONS_STEP_SUMMARY: true
-          SAVE_SUPER_LINTER_SUMMARY: true
           IGNORE_GITIGNORED_FILES: true
           IGNORE_GENERATED_FILES: true
           FIX_ANSIBLE: true
