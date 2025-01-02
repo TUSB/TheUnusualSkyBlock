@@ -4,7 +4,6 @@
 .DS_Store
 *.cache
 */tmp
-.git/
 *.swp
 *.bak
 *.py
@@ -14,3 +13,4 @@
 __pycache__/*
 build/*
 dist/*
+_*.*
