@@ -27,6 +27,8 @@ scoreboard objectives add Attack dummy {"text":"物理攻撃力"}
 scoreboard objectives add Defense dummy {"text":"物理防御力"}
 scoreboard objectives add SpecialAttack dummy {"text":"魔法攻撃力"}
 scoreboard objectives add SpecialDefense dummy {"text":"魔法防御力"}
+scoreboard objectives add UnreasonableAttack dummy {"text":"理外攻撃力"}
+scoreboard objectives add UnreasonableDefence dummy {"text":"理外防御力"}
 scoreboard objectives add BaseTotal dummy {"text":"合計基礎ポイント"}
 scoreboard objectives add GrowTotal dummy {"text":"合計成長ポイント"}
 scoreboard objectives add Damage dummy {"text":"ダメージ"}
