@@ -1,7 +1,9 @@
+---
 name: 開発用のタスク
 description: 機能開発とか今後やらないといけないと決まっているタスク
 title: "[feature] <ここにタイトルを入力>"
-labels: [機能開発]
+labels:
+  - 機能開発
 body:
   - type: markdown
     attributes:
@@ -9,11 +11,10 @@ body:
         ## 実装することが決定している機能開発タスクを記載してください。
         赤い印がついているものは必ず答えてください。
         基本は1チケット=1タスク原則にしてください。
-
   - type: dropdown
     id: task-priority
     attributes:
-      label: "優先度"
+      label: 優先度
       description: |
         このタスクに対しての優先度を記入してください。**(高い は乱用しないように)**
         - 低め: コードのリファクタリングや設計思想で気になるなどのやらなくても今回のVerではやらなくてもいいレベル
@@ -25,7 +26,6 @@ body:
         - 高い
     validations:
       required: true
-
   - type: markdown
     attributes:
       value: |
@@ -38,7 +38,6 @@ body:
                    ┗ ただし、コマンドブロックは通常世界(一般プレイヤーが触れれる場所)にある  → 高い
          ```
          ---
-
   - type: dropdown
     id: task-version
     attributes:
@@ -50,7 +49,6 @@ body:
         - その他
     validations:
       required: false
-
   - type: textarea
     id: task-detail
     attributes:
@@ -68,7 +66,6 @@ body:
         3.
     validations:
       required: true
-
   - type: textarea
     id: task-reference
     attributes:
@@ -76,13 +73,10 @@ body:
       description: draw.ioなどのタスクの参考となる情報を記載してください
       placeholder: |
         ## 参考情報
-
       value: |
         <!-- draw.ioなどのタスクの参考となる情報を記載してください。(オプション) -->
-
     validations:
       required: false
-
   - type: textarea
     id: task-reasons-for-high-priority
     attributes:

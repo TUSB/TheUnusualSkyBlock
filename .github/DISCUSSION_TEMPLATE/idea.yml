@@ -1,5 +1,7 @@
-title: "<ここにタイトルを入力>"
-labels: [アイデア]
+---
+title: <ここにタイトルを入力>
+labels:
+  - アイデア
 body:
   - type: markdown
     attributes:

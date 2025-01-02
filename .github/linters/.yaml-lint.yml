@@ -1,3 +1,4 @@
+---
 extends: default
 rules:
   # missing document start のチェックを無効

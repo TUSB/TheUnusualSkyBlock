@@ -1,7 +1,9 @@
+---
 name: バグ報告
 description: 発見したバグを報告するときはこちら
 title: "[バグ] <ここにタイトルを入力>"
-labels: [バグ]
+labels:
+  - バグ
 body:
   - type: markdown
     attributes:
@@ -30,7 +32,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: "overview"
+    id: overview
     attributes:
       label: 概要
       description: |

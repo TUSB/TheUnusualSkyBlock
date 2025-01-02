@@ -1,13 +1,13 @@
+---
 name: Label Issue Based on Priority
-
 on:
   issues:
-    types: [opened, edited]
-
+    types:
+      - opened
+      - edited
 permissions:
   contents: read
   issues: write
-
 jobs:
   set_env_priority:
     runs-on: ubuntu-latest
@@ -28,7 +28,6 @@ jobs:
             } else {
               core.setOutput('PRIORITY', '');
             }
-
   add_label_based_on_priority:
     runs-on: ubuntu-latest
     needs: set_env_priority
@@ -57,7 +56,6 @@ jobs:
                 labels: [label]
               });
             }
-
   check-field:
     runs-on: ubuntu-latest
     needs: set_env_priority
@@ -68,20 +66,25 @@ jobs:
         id: extract_field
         uses: actions/github-script@v7
         with:
-          script: |
+          script: >
             const issueBody = context.payload.issue.body;
+
             // "なぜ優先度が高いのか"の見出しの後ろにあるテキストを取得
+
             const match = issueBody.match(/###\s*なぜ優先度が高いのか\s*\n([\s\S]*?)(?=###|$)/);
+
             let fieldContent = '';
+
             if (match) {
               fieldContent = match[1].trim();
             }
-            core.setOutput('field_content', fieldContent);
 
+            core.setOutput('field_content', fieldContent);
       - name: Check if Field is Empty, Default Text, or No Response
         id: check_field
-        run: |
+        run: >
           FIELD_CONTENT="${{ steps.extract_field.outputs.field_content }}"
+
           if [ -z "$FIELD_CONTENT" ]; then
             echo "field_empty=true" >> "$GITHUB_OUTPUT"
           else
@@ -95,17 +98,19 @@ jobs:
               echo "field_empty=false" >> "$GITHUB_OUTPUT"
             fi
           fi
-
       - name: Close Issue if Field is Empty
         if: steps.check_field.outputs.field_empty == 'true'
         uses: actions/github-script@v7
         env:
           PRIORITY: ${{ env.PRIORITY }}
         with:
-          script: |
+          script: >
             const priority = process.env.PRIORITY;
+
             const issue = context.payload.issue;
+
             const issueNumber = issue.number;
+
             if (priority && priority.includes('高い')) {
               // コメントを追加してIssueをクローズする
               await github.rest.issues.createComment({
