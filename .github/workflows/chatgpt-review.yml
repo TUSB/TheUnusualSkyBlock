@@ -1,9 +1,5 @@
 name: Code Review
 
-permissions:
-  contents: read
-  pull-requests: write
-
 on:
   pull_request:
     types:
@@ -11,6 +7,10 @@ on:
       - reopened
       - synchronize
       - ready_for_review
+
+permissions:
+  contents: read
+  pull-requests: write
 
 jobs:
   review:
@@ -25,14 +25,14 @@ jobs:
       - name: Check if current commit is a merge commit
         id: check_merge
         run: |
-          PARENTS_COUNT=$(git rev-list --parents -n 1 ${{ github.sha }} | wc -w)
+          PARENTS_COUNT="$(git rev-list --parents -n 1 "${{ github.sha }}" | wc -w)"
           # 親が1つであれば (コミットID + 親1つ) = 2単語
           # 親が2つなら (コミットID + 親2つ) = 3単語 以上となるので、
           # 3以上ならマージコミットとみなす
-          if [ $PARENTS_COUNT -ge 3 ]; then
-            echo "is_merge=true" >> $GITHUB_OUTPUT
+          if [ "$PARENTS_COUNT" -ge 3 ]; then
+            echo "is_merge=true" >> "$GITHUB_OUTPUT"
           else
-            echo "is_merge=false" >> $GITHUB_OUTPUT
+            echo "is_merge=false" >> "$GITHUB_OUTPUT"
           fi
 
       # マージコミットの場合はスキップ

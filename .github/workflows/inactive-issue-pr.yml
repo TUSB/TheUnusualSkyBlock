@@ -1,15 +1,15 @@
-name: 'Close stale issues and PRs'
-
-permissions:
-  contents: write # only for delete-branch option
-  issues: write
-  pull-requests: write
+name: "Close stale issues and PRs"
 
 on:
   schedule:
-    - cron: '0 15 * * *'
+    - cron: "0 15 * * *"
   workflow_dispatch:
-  
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
 jobs:
   stale:
     runs-on: ubuntu-latest
@@ -38,6 +38,6 @@ jobs:
           days-before-pr-stale: 30
           days-before-issue-close: 14
           days-before-pr-close: 14
-          stale-issue-label: '古くなった'
-          close-pr-label: '自動クローズ'
-          close-issue-label: '自動クローズ'
+          stale-issue-label: "古くなった"
+          close-pr-label: "自動クローズ"
+          close-issue-label: "自動クローズ"
