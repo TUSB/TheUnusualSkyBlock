@@ -1,10 +1,6 @@
 name: Server Notice and Deploy Action
 
 on:
-  push:
-    branches: [master]
-  pull_request:
-    branches: [master]
   workflow_dispatch:
 
 permissions:
@@ -54,9 +50,7 @@ jobs:
           )
           firewall_id=$(echo "$ADD_FIREWALL" | jq '.firewall_rule.id')
 
-          # set-output は非推奨なので $GITHUB_OUTPUT を使う
           echo "ID=$firewall_id" >> "$GITHUB_OUTPUT"
-
           echo "-----DEBUG-----"
           echo "$ADD_FIREWALL"
 
@@ -101,7 +95,6 @@ jobs:
           DELETE_FIREWALL=$(curl "https://api.vultr.com/v2/firewalls/${VULTR_FIREWALL_GROUP_ID}/rules/${{ steps.FIREWALL.outputs.ID }}" \
             -X DELETE \
             -H "Authorization: Bearer $VULTR_API_KEY" )
-
           echo "$DELETE_FIREWALL"
           echo "-----DEBUG-----"
           echo "$DELETE_FIREWALL"
@@ -144,7 +137,6 @@ jobs:
           )
           firewall_id=$(echo "$ADD_FIREWALL" | jq '.firewall_rule.id')
 
-          # 新しい出力方式
           echo "ID=$firewall_id" >> "$GITHUB_OUTPUT"
 
           echo "-----DEBUG-----"
@@ -175,7 +167,6 @@ jobs:
           DELETE_FIREWALL=$(curl "https://api.vultr.com/v2/firewalls/${VULTR_FIREWALL_GROUP_ID}/rules/${{ steps.FIREWALL.outputs.ID }}" \
             -X DELETE \
             -H "Authorization: Bearer $VULTR_API_KEY" )
-
           echo "$DELETE_FIREWALL"
           echo "-----DEBUG-----"
           echo "$DELETE_FIREWALL"
