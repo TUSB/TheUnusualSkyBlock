@@ -1,5 +1,6 @@
 {
   "ignore": [
-    "**/*.json"
+    "**/*.json",
+    ".github/*.yml"
   ]
 }
