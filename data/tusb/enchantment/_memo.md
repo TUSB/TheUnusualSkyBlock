@@ -1,4 +1,4 @@
-### Attribute 一覧
+# Attribute 一覧
 <https://minecraft.wiki/w/Attribute>
 
 - generic.armor: -

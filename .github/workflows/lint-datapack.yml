@@ -29,6 +29,7 @@ jobs:
           ENABLE_GITHUB_ACTIONS_STEP_SUMMARY: true
           IGNORE_GITIGNORED_FILES: true
           IGNORE_GENERATED_FILES: true
+          FILTER_REGEX_EXCLUDE: ^(.*/)?_.*$
           FIX_ANSIBLE: true
           FIX_CLANG_FORMAT: true
           FIX_CSHARP: true
