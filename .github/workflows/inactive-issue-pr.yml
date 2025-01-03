@@ -15,22 +15,22 @@ jobs:
       - uses: actions/stale@v9
         with:
           stale-issue-message: |
-            > [!WARNING]  
+            > [!WARNING]
             > このissueを最後に更新してから**60日経過**しているため、古くなっています。
             >  このまま、何も活動の更新がないと**14日後**にこのissueはクローズされます。
             > クローズを防ぐにはコメント更新してください。
             > ⚠️`古くなった`ラベルは手動で削除しないでください⚠️
           stale-pr-message: |
-            > [!WARNING]  
+            > [!WARNING]
             > このPRは**30日間活動がない**ため、古くなっています。
             > このまま、何も活動の更新がないと**14日後**にこのPRはクローズされます。
             > クローズを防ぐにはコメント更新してください。
             > ⚠️`古くなった`ラベルは手動で削除しないでください⚠️
           close-issue-message: |
-            > [!IMPORTANT]  
+            > [!IMPORTANT]
             > このissueは、**14日間**何の活動もなく停滞していたため、クローズされました。
           close-pr-message: |
-            > [!IMPORTANT]  
+            > [!IMPORTANT]
             > このPRは、10日間何の活動もなく停滞しているため、クローズされました。
           days-before-issue-stale: 60
           days-before-pr-stale: 30

@@ -32,7 +32,7 @@ body:
     attributes:
       label: アイデア概要
       description: |
-        新しいアイデアについての説明を記入する。  
+        新しいアイデアについての説明を記入する。
         画像のアップロードも可能です。
     validations:
       required: true

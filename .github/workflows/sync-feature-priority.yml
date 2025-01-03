@@ -106,11 +106,8 @@ jobs:
         with:
           script: >
             const priority = process.env.PRIORITY;
-
             const issue = context.payload.issue;
-
             const issueNumber = issue.number;
-
             if (priority && priority.includes('高い')) {
               // コメントを追加してIssueをクローズする
               await github.rest.issues.createComment({
@@ -132,7 +129,7 @@ jobs:
                   owner: context.repo.owner,
                   repo: context.repo.repo,
                   issue_number: issueNumber,
-                  labels: ['自動クローズ'] 
+                  labels: ['自動クローズ']
               });
             } else {
               const issueBody = issue.body;
