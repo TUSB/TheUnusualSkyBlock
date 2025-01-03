@@ -58,7 +58,6 @@ body:
     attributes:
       value: |
         以下は技術的な報告です。
-
         ---
   - type: textarea
     id: use_system
