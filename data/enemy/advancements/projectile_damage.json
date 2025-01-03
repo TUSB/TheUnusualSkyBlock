@@ -61,7 +61,12 @@
     }
   },
   "requirements": [
-    ["default","small_fireball","fireball","shulker_bullet"]
+    [
+      "default",
+      "small_fireball",
+      "fireball",
+      "shulker_bullet"
+    ]
   ],
   "rewards": {
     "function": "enemy:projectile_damage"

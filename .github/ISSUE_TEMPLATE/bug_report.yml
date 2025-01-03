@@ -7,7 +7,8 @@ labels:
 body:
   - type: markdown
     attributes:
-      value: |
+      value:
+        |
         ## バグの報告をしていただきありがとうございます。
         以下の質問に答えていただくと、解決しやすくなります。
         赤い印がついているものは必ず答えてください。
@@ -35,7 +36,8 @@ body:
     id: overview
     attributes:
       label: 概要
-      description: |
+      description:
+        |
         バグについての説明を記入する。
         画像のアップロードも可能です。
     validations:
@@ -45,7 +47,8 @@ body:
     attributes:
       label: 再現方法
       description: バグを確認できるように再現方法を記入する。
-      placeholder: |
+      placeholder:
+        |
         1.
         2.
         3.
@@ -56,12 +59,14 @@ body:
     id: predict
     attributes:
       label: 予想される動作
-      description: |
+      description:
+        |
         あなたが予想した動作を記入する。
         バグと思われるものは仕様だったという場合があります。
   - type: markdown
     attributes:
-      value: |
+      value:
+        |
         以下は技術的な報告です。
         ---
   - type: textarea
@@ -69,7 +74,8 @@ body:
     attributes:
       label: 原因となるコマンド
       description: コマンドを貼り付けてください。functionと同じように記述することができます。
-      placeholder: |
+      placeholder:
+        |
         #> <ここにファイルパスを記入>
       render: mcfunction
   - type: textarea

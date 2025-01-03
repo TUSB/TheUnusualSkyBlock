@@ -7,7 +7,8 @@ labels:
 body:
   - type: markdown
     attributes:
-      value: |
+      value:
+        |
         ## 新しいアイデアの提案ありがとうございます。
         以下の質問に答えていただくと、採用しやすくなります。
         赤い印がついているものは必ず答えてください。
@@ -33,7 +34,8 @@ body:
     id: idea
     attributes:
       label: アイデア概要
-      description: |
+      description:
+        |
         新しいアイデアについての説明を記入する。
         画像のアップロードも可能です。
     validations:
@@ -42,7 +44,8 @@ body:
     id: why
     attributes:
       label: アイデアの要望理由
-      description: |
+      description:
+        |
         なぜこのアイデアを要望するのか？
     validations:
       required: true
@@ -51,14 +54,16 @@ body:
     attributes:
       label: 実現方法
       description: どのようにアイデアを実現するかを記入する。
-      placeholder: |
+      placeholder:
+        |
         1.
         2.
         3.
         ...
   - type: markdown
     attributes:
-      value: |
+      value:
+        |
         以下は技術的な報告です。
         ---
   - type: textarea

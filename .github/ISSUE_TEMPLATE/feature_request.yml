@@ -7,7 +7,8 @@ labels:
 body:
   - type: markdown
     attributes:
-      value: |
+      value:
+        |
         ## 実装することが決定している機能開発タスクを記載してください。
         赤い印がついているものは必ず答えてください。
         基本は1チケット=1タスク原則にしてください。
@@ -15,7 +16,8 @@ body:
     id: task-priority
     attributes:
       label: 優先度
-      description: |
+      description:
+        |
         このタスクに対しての優先度を記入してください。**(高い は乱用しないように)**
         - 低め: コードのリファクタリングや設計思想で気になるなどのやらなくても今回のVerではやらなくてもいいレベル
         - 通常: 今回のバージョンは入れなくても良いが、できたらやったほうがいいよなぁレベル
@@ -28,7 +30,8 @@ body:
       required: true
   - type: markdown
     attributes:
-      value: |
+      value:
+        |
         **優先度 通常、低め は完遂義務はありません。**
          ```
           例: この設計思想で開発したいので、データパックを、この形にしたい。 → 低め
@@ -53,12 +56,14 @@ body:
     attributes:
       label: タスク内容
       description: タスク内容を箇条書きで記載してください
-      placeholder: |
+      placeholder:
+        |
         ## タスクの内容(大雑把に何をするか)
         1.
         2.
         3.
-      value: |
+      value:
+        |
         <!-- 知らない人から見てもわかりやすく、簡潔に。短すぎず長すぎず -->
         1.
         2.
@@ -70,9 +75,11 @@ body:
     attributes:
       label: 参考情報
       description: draw.ioなどのタスクの参考となる情報を記載してください
-      placeholder: |
+      placeholder:
+        |
         ## 参考情報
-      value: |
+      value:
+        |
         <!-- draw.ioなどのタスクの参考となる情報を記載してください。(オプション) -->
     validations:
       required: false
@@ -80,9 +87,11 @@ body:
     id: task-reasons-for-high-priority
     attributes:
       label: なぜ優先度が高いのか
-      description: |
+      description:
+        |
         なぜこの優先度にしたのかを詳細記載してください。【⚠️ 優先度 高い 以上の場合はこの項目は必須です。】
-      placeholder: |
+      placeholder:
+        |
         1.
         2.
         3.
