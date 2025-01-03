@@ -13,7 +13,8 @@
 __pycache__/*
 build/*
 dist/*
-_*.*
+**/_*
+_*
 # Super-linter outputs
 super-linter-output
 super-linter.log
