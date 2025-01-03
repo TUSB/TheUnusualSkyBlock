@@ -1,98 +1,70 @@
 ---
-name: lint-datapack
-on:
-  push: null
-  pull_request: null
-  workflow_dispatch: null
-permissions:
-  contents: read
-jobs:
-  fix-lint-issues:
-    permissions:
-      contents: write
-      statuses: write
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - name: Super-Linter
-        uses: super-linter/super-linter@v7.2.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # ACTIONS_RUNNER_DEBUG: true
-          DEFAULT_BRANCH: 1-21-1-dev
-          OUTPUT_FORMAT: tap
-          OUTPUT_DETAILS: detailed
-          DISABLE_ERRORS: false
-          VALIDATE_ALL_CODEBASE: true
-          ENABLE_GITHUB_ACTIONS_STEP_SUMMARY: true
-          IGNORE_GITIGNORED_FILES: true
-          IGNORE_GENERATED_FILES: true
-          FILTER_REGEX_EXCLUDE: ^(.*/)?_.*$
-          FIX_ANSIBLE: true
-          FIX_CLANG_FORMAT: true
-          FIX_CSHARP: true
-          FIX_CSS: true
-          FIX_DOTNET_SLN_FORMAT_ANALYZERS: true
-          FIX_DOTNET_SLN_FORMAT_STYLE: true
-          FIX_ENV: true
-          FIX_GO_MODULES: true
-          FIX_GO: true
-          FIX_GOOGLE_JAVA_FORMAT: true
-          FIX_GROOVY: true
-          FIX_JAVASCRIPT_ES: true
-          FIX_JAVASCRIPT_PRETTIER: true
-          FIX_JAVASCRIPT_STANDARD: true
-          FIX_JSON: true
-          FIX_JSONC: true
-          FIX_JSX: true
-          FIX_JUPYTER_NBQA_BLACK: true
-          FIX_JUPYTER_NBQA_ISORT: true
-          FIX_JUPYTER_NBQA_RUFF: true
-          FIX_MARKDOWN: true
-          FIX_POWERSHELL: true
-          FIX_PROTOBUF: true
-          FIX_PYTHON_BLACK: true
-          FIX_PYTHON_ISORT: true
-          FIX_PYTHON_PYINK: true
-          FIX_PYTHON_RUFF: true
-          FIX_RUBY: true
-          FIX_RUST_2015: true
-          FIX_RUST_2018: true
-          FIX_RUST_2021: true
-          FIX_RUST_CLIPPY: true
-          FIX_SCALAFMT: true
-          FIX_SHELL_SHFMT: true
-          FIX_SNAKEMAKE_SNAKEFMT: true
-          FIX_SQLFLUFF: true
-          FIX_TERRAFORM_FMT: true
-          FIX_TSX: true
-          FIX_TYPESCRIPT_ES: true
-          FIX_TYPESCRIPT_PRETTIER: true
-          FIX_TYPESCRIPT_STANDARD: true
-      - name: Commit and push linting fixes
-        if: always()
-        # if: >
-        #   github.event_name == 'pull_request' &&
-        #   github.ref_name != github.event.repository.default_branch
-        uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          branch: ${{ github.event.pull_request.head.ref || github.head_ref || github.ref }}
-          commit_message: NO-ISSUE Fix linting issues
-          commit_user_name: super-linter
-          commit_user_email: super-linter@super-linter.dev
-# jobs:
-#   lint:
-#     name: lint
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: checkout repository
-#         uses: actions/checkout@v4
-#         with:
-#           fetch-depth: 0
-#       # https://github.com/ChenCMD/datapack-linter
-#       - name: lint
-#         uses: ChenCMD/datapack-linter@v2
-#         with:
-#           GITHUB_TOKEN: ${{ github.token }}
+  name: MegaLinter
+  on:
+    push:
+    pull_request:
+  env:
+    AUTO_FIX: true
+    APPLY_FIXES: all
+    APPLY_FIXES_EVENT: pull_request
+    APPLY_FIXES_MODE: commit
+  concurrency:
+    group: ${{ github.ref }}-${{ github.workflow }}
+    cancel-in-progress: true
+  jobs:
+    megalinter:
+      name: MegaLinter
+      runs-on: ubuntu-latest
+      permissions:
+        contents: write
+        issues: write
+        pull-requests: write
+      steps:
+        - name: Checkout Code
+          uses: actions/checkout@v4
+          with:
+            token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
+            fetch-depth: 0
+        - name: MegaLinter
+          id: ml
+          uses: oxsecurity/megalinter@v8
+          env:
+            LINTER_RULES_PATH: .github/linters
+            CLEAR_REPORT_FOLDER: true
+            FILTER_REGEX_EXCLUDE: '^(.*/)?_.*$'
+            VALIDATE_ALL_CODEBASE: true
+            # VALIDATE_ALL_CODEBASE: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        - name: Archive production artifacts
+          if: success() || failure()
+          uses: actions/upload-artifact@v4
+          with:
+            name: MegaLinter reports
+            path: |
+              megalinter-reports
+              mega-linter.log
+        - name: Create Pull Request with applied fixes
+          id: cpr
+          if: steps.ml.outputs.has_updated_sources == 1 && (env.APPLY_FIXES_EVENT == 'all' || env.APPLY_FIXES_EVENT == github.event_name) && env.APPLY_FIXES_MODE == 'pull_request' && (github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository) && !contains(github.event.head_commit.message, 'skip fix')
+          uses: peter-evans/create-pull-request@v6
+          with:
+            token: ${{ secrets.PAT || secrets.GITHUB_TOKEN }}
+            commit-message: "[MegaLinter] Apply linters automatic fixes"
+            title: "[MegaLinter] Apply linters automatic fixes"
+            labels: bot
+        - name: Create PR output
+          if: steps.ml.outputs.has_updated_sources == 1 && (env.APPLY_FIXES_EVENT == 'all' || env.APPLY_FIXES_EVENT == github.event_name) && env.APPLY_FIXES_MODE == 'pull_request' && (github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository) && !contains(github.event.head_commit.message, 'skip fix')
+          run: |
+            echo "Pull Request Number - ${{ steps.cpr.outputs.pull-request-number }}"
+            echo "Pull Request URL - ${{ steps.cpr.outputs.pull-request-url }}"
+        - name: Prepare commit
+          if: steps.ml.outputs.has_updated_sources == 1 && (env.APPLY_FIXES_EVENT == 'all' || env.APPLY_FIXES_EVENT == github.event_name) && env.APPLY_FIXES_MODE == 'commit' && github.ref != 'refs/heads/main' && (github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository) && !contains(github.event.head_commit.message, 'skip fix')
+          run: sudo chown -Rc $UID .git/
+        - name: Commit and push applied linter fixes
+          if: steps.ml.outputs.has_updated_sources == 1 && (env.APPLY_FIXES_EVENT == 'all' || env.APPLY_FIXES_EVENT == github.event_name) && env.APPLY_FIXES_MODE == 'commit' && github.ref != 'refs/heads/main' && (github.event_name == 'push' || github.event.pull_request.head.repo.full_name == github.repository) && !contains(github.event.head_commit.message, 'skip fix')
+          uses: stefanzweifel/git-auto-commit-action@v4
+          with:
+            branch: ${{ github.event.pull_request.head.ref || github.head_ref || github.ref }}
+            commit_message: "[MegaLinter] Apply linters fixes"
+            commit_user_name: lint-bot
+            commit_user_email: linter@tusb.bot
