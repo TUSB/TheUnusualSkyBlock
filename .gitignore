@@ -18,6 +18,7 @@ _*
 # Super-linter outputs
 super-linter-output
 super-linter.log
+megalinter-reports/*
 
 # GitHub Actions leftovers
 github_conf

@@ -1,5 +1,5 @@
----
 # kics-scan disable=555ab8f9-2001-455e-a077-f2d0f41e2fb9
+---
 name: Deploy Jekyll with GitHub Pages dependencies preinstalled
 on:
   push:
@@ -13,6 +13,7 @@ permissions:
 concurrency:
   group: pages
   cancel-in-progress: false
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -28,6 +29,7 @@ jobs:
           destination: ./_site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+
   deploy:
     environment:
       name: github-pages

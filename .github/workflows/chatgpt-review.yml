@@ -1,5 +1,5 @@
----
 # kics-scan disable=555ab8f9-2001-455e-a077-f2d0f41e2fb9
+---
 name: Code Review
 on:
   pull_request:
@@ -11,6 +11,7 @@ on:
 permissions:
   contents: read
   pull-requests: write
+
 jobs:
   review:
     if: github.event.pull_request.draft == false
@@ -20,8 +21,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Check if current commit is a merge commit
         id: check_merge
-        run:
-          |
+        run: |
           # PARENTS_COUNT を計算
           PARENTS_COUNT=$(git rev-list --parents -n 1 "${{ github.sha }}" | wc -w)
           # 親が1つであれば (コミットID + 親1つ) = 2単語
@@ -34,13 +34,11 @@ jobs:
           fi
       - name: Skip on merge commit
         if: steps.check_merge.outputs.is_merge == 'true'
-        run:
-          |
+        run: |
           echo "This is a merge commit. Skipping this job."
           exit 0
       - uses: anc95/ChatGPT-CodeReview@main
-        if:
-          steps.check_merge.outputs.is_merge == 'false' &&
+        if: steps.check_merge.outputs.is_merge == 'false' &&
           contains(github.event.pull_request.labels.*.name, 'プリーズレビュー')
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -48,8 +46,7 @@ jobs:
           LANGUAGE: Japanese
           OPENAI_API_ENDPOINT: https://api.openai.com/v1
           MODEL: o1-mini
-          PROMPT:
-            >
+          PROMPT: >
             Request: perform PR review mcfuntion code for Minecraft 1.21.1
             Role:Respond as code reviewer for Minecraft distribution world “The Unusual SkyBlock”.
             Regulation: keep brief to point, 50-300 words or less, Markdown format.

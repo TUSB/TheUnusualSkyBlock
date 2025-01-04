@@ -1,6 +1,0 @@
-# links ignore in ci check
-data:image/png;base64*
-http://localhost/
-https://github.com/
-https://api.vultr.com/
-https://api.openai.com/

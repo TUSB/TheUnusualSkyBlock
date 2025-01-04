@@ -1,5 +1,5 @@
----
 # kics-scan disable=555ab8f9-2001-455e-a077-f2d0f41e2fb9
+---
 name: Server Notice and Deploy Action
 on:
   workflow_dispatch: null
@@ -7,6 +7,7 @@ permissions:
   contents: read
   issues: write
   pull-requests: write
+
 jobs:
   notice:
     name: notice mcrcon
@@ -17,8 +18,7 @@ jobs:
         uses: haythem/public-ip@v1.2
 
       - name: Print Public IP
-        run:
-          |
+        run: |
           echo "${{ steps.ip.outputs.ipv4 }}"
           echo "${{ steps.ip.outputs.ipv6 }}"
 
@@ -29,8 +29,7 @@ jobs:
           VULTR_API_KEY: ${{ secrets.VULTR_API_KEY }}
           VULTR_FIREWALL_GROUP_ID: ${{ secrets.VULTR_FIREWALL_GROUP_ID }}
           TUSB_SERVER_RCON_PORT: ${{ secrets.TUSB_SERVER_RCON_PORT }}
-        run:
-          |
+        run: |
           echo "::add-mask::${VULTR_API_KEY}"
           echo "::add-mask::${VULTR_FIREWALL_GROUP_ID}"
           echo "::add-mask::${TUSB_SERVER_RCON_PORT}"
@@ -55,8 +54,7 @@ jobs:
 
       - name: Set outputs
         id: vars
-        run:
-          |
+        run: |
           sha_short="$(git rev-parse --short HEAD)"
           echo "sha_short=$sha_short" >> "$GITHUB_OUTPUT"
 
@@ -64,8 +62,7 @@ jobs:
         run: echo "${{ steps.vars.outputs.sha_short }}"
 
       - name: Install mcrcon
-        run:
-          |
+        run: |
           wget "https://github.com/Tiiffi/mcrcon/releases/download/v0.7.1/mcrcon-0.7.1-linux-x86-64.tar.gz"
           tar -zxvf mcrcon-0.7.1-linux-x86-64.tar.gz
           mv mcrcon-0.7.1-linux-x86-64/mcrcon /usr/local/bin/
@@ -76,8 +73,7 @@ jobs:
           time: 45s
 
       - name: Notice Bungeecord
-        run:
-          |
+        run: |
           /usr/local/bin/mcrcon \
             -H "${{ secrets.TUSB_MINECRAFT_SERVER_REMOTE_HOST_IP }}" \
             -p "${{ secrets.TUSB_SERVER_RCON_PASSWORD }}" \
@@ -90,8 +86,7 @@ jobs:
         env:
           VULTR_API_KEY: ${{ secrets.VULTR_API_KEY }}
           VULTR_FIREWALL_GROUP_ID: ${{ secrets.VULTR_FIREWALL_GROUP_ID }}
-        run:
-          |
+        run: |
           echo "::add-mask::${VULTR_API_KEY}"
           echo "::add-mask::${VULTR_FIREWALL_GROUP_ID}"
 
@@ -107,13 +102,10 @@ jobs:
       - name: Public IP
         id: ip
         uses: haythem/public-ip@v1.2
-
       - name: Print Public IP
-        run:
-          |
+        run: |
           echo "${{ steps.ip.outputs.ipv4 }}"
           echo "${{ steps.ip.outputs.ipv6 }}"
-
       - uses: actions/checkout@v4
       - name: Add Firewalld IP Address
         id: FIREWALL
@@ -121,8 +113,7 @@ jobs:
           VULTR_API_KEY: ${{ secrets.VULTR_API_KEY }}
           VULTR_FIREWALL_GROUP_ID: ${{ secrets.VULTR_FIREWALL_GROUP_ID }}
           TUSB_MINECRAFT_SERVER_SSH_PORT: ${{ secrets.TUSB_MINECRAFT_SERVER_SSH_PORT }}
-        run:
-          |
+        run: |
           echo "::add-mask::${VULTR_API_KEY}"
           echo "::add-mask::${VULTR_FIREWALL_GROUP_ID}"
           ADD_FIREWALL="$(curl "https://api.vultr.com/v2/firewalls/${VULTR_FIREWALL_GROUP_ID}/rules" \
@@ -143,17 +134,14 @@ jobs:
           firewall_id="$(echo "$ADD_FIREWALL" | jq -r '.firewall_rule.id')"
           echo "ID=$firewall_id" >> "$GITHUB_OUTPUT"
           echo "$ADD_FIREWALL"
-
       - name: Sleep for 45 seconds
         uses: jakejarvis/wait-action@master
         with:
           time: 45s
-
       - name: Deploy by rsync
         uses: trendyminds/github-actions-rsync@master
         with:
-          RSYNC_OPTIONS:
-            -avzre "ssh -o 'StrictHostKeyChecking no'" --delete
+          RSYNC_OPTIONS: -avzre "ssh -o 'StrictHostKeyChecking no'" --delete
             --timeout=1200 --exclude=".git/" --exclude=".github/"
             --exclude="*.md" --exclude="*.py"
           RSYNC_SOURCE: /
@@ -162,14 +150,12 @@ jobs:
           SSH_PRIVATE_KEY: ${{ secrets.TUSB_MINECRAFT_SERVER_PRIVATE_KEY }}
           SSH_USERNAME: ${{ secrets.TUSB_MINECRAFT_SERVER_REMOTE_USER }}
           SSH_HOSTNAME: ${{ secrets.TUSB_MINECRAFT_SERVER_REMOTE_HOST_IP }}
-
       - if: always()
         name: Delete Firewalld IP Address
         env:
           VULTR_API_KEY: ${{ secrets.VULTR_API_KEY }}
           VULTR_FIREWALL_GROUP_ID: ${{ secrets.VULTR_FIREWALL_GROUP_ID }}
-        run:
-          |
+        run: |
           DELETE_FIREWALL="$(curl "https://api.vultr.com/v2/firewalls/${VULTR_FIREWALL_GROUP_ID}/rules/${{ steps.FIREWALL.outputs.ID }}" \
             -X DELETE \
             -H "Authorization: Bearer ${VULTR_API_KEY}" )"
