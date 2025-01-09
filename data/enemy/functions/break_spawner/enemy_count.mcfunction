@@ -12,3 +12,4 @@
 
 # エンティティが一定数以下であれば破壊処理に入る
     execute if score _ Calc matches ..15 run function enemy:break_spawner/mined
+    
