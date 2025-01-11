@@ -3,6 +3,9 @@
 ### エンティティ死亡チェック
 ##############################
 
+# すでに死亡判定を受けているならばチェックを中断
+execute if entity @s[tag=Garbage] run return 1
+
 tag @s add Garbage
 
 #ダメージ表示
