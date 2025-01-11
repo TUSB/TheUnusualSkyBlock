@@ -1,3 +1,4 @@
+#> skill:act/hunter/stakes_fire/act0
 ##############################
 ### ステークスファイア発動
 ##############################
@@ -11,9 +12,8 @@ execute if score _ Level matches 4 run data modify storage skill: Damage set fro
 execute store result score _ Calc run function calc:random
 scoreboard players set _ _ 1000
 scoreboard players operation _ Calc %= _ _
-#確率でEffectivenessとスキルダメージを0に
-execute if score _ Calc matches 0..300 run data modify storage skill: Damage.Effectiveness set value 0
-execute if score _ Calc matches 0..300 run data modify storage skill: Damage.Fire set value 0
+#失敗時処理
+execute if score _ Calc matches 0..300 run function skill:act/hunter/stakes_fire/failed
 #ダメージ計算
 function skill:damage/add/skill/weapon
 
