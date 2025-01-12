@@ -50,13 +50,15 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: MegaLinter reports
-          path: |
+          path:
+            |
             megalinter-reports
             mega-linter.log
 
       - name: Create Pull Request with applied fixes
         id: cpr
-        if: failure() &&
+        if:
+          failure() &&
           steps.ml.outputs.has_updated_sources == 1 &&
           (
           env.APPLY_FIXES_EVENT == 'all' ||
@@ -77,7 +79,8 @@ jobs:
           base: ${{ github.head_ref }}
 
       - name: Create PR output
-        if: failure() &&
+        if:
+          failure() &&
           steps.ml.outputs.has_updated_sources == 1 &&
           (
           env.APPLY_FIXES_EVENT == 'all' ||
@@ -89,12 +92,14 @@ jobs:
           github.event.pull_request.head.repo.full_name == github.repository
           ) &&
           !contains(env.HEAD_COMMIT_MESSAGE, 'skip fix')
-        run: |
+        run:
+          |
           echo "Pull Request Number - ${{ steps.cpr.outputs['pull-request-number'] }}"
           echo "Pull Request URL - ${{ steps.cpr.outputs['pull-request-url'] }}"
 
       - name: Prepare commit
-        if: failure() &&
+        if:
+          failure() &&
           steps.ml.outputs.has_updated_sources == 1 &&
           (
           env.APPLY_FIXES_EVENT == 'all' ||
@@ -110,7 +115,8 @@ jobs:
         run: sudo chown -Rc $UID .git/
 
       - name: Commit and push applied linter fixes
-        if: failure() &&
+        if:
+          failure() &&
           steps.ml.outputs.has_updated_sources == 1 &&
           (
           env.APPLY_FIXES_EVENT == 'all' ||

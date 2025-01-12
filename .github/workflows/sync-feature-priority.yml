@@ -20,7 +20,8 @@ jobs:
         id: extract_priority
         uses: actions/github-script@v7
         with:
-          script: |
+          script:
+            |
             const issueBody = context.payload.issue.body;
             const priorityMatch = issueBody.match(/###\s*優先度\s*\n\s*(.*)/);
             if (priorityMatch) {
@@ -41,7 +42,8 @@ jobs:
         env:
           PRIORITY: ${{ needs.set_env_priority.outputs.PRIORITY }}
         with:
-          script: |
+          script:
+            |
             const priority = process.env.PRIORITY;
             let label = '';
             if (priority.includes('低め')) {
@@ -70,7 +72,8 @@ jobs:
         id: extract_field
         uses: actions/github-script@v7
         with:
-          script: >
+          script:
+            >
             const issueBody = context.payload.issue.body;
 
             // "なぜ優先度が高いのか"の見出しの後ろにあるテキストを取得
@@ -86,7 +89,8 @@ jobs:
             core.setOutput('field_content', fieldContent);
       - name: Check if Field is Empty, Default Text, or No Response
         id: check_field
-        run: >
+        run:
+          >
           FIELD_CONTENT="${{ steps.extract_field.outputs.field_content }}"
 
           if [ -z "$FIELD_CONTENT" ]; then
@@ -108,7 +112,8 @@ jobs:
         env:
           PRIORITY: ${{ env.PRIORITY }}
         with:
-          script: >
+          script:
+            >
             const priority = process.env.PRIORITY;
             const issue = context.payload.issue;
             const issueNumber = issue.number;
