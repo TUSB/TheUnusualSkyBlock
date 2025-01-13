@@ -22,7 +22,7 @@ jobs:
     name: MegaLinter
     runs-on: ubuntu-latest
     env:
-      LINTER_RULES_PATH: .github/linters
+      MEGALINTER_CONFIG: .github/linters/.mega-linter.yml
       CLEAR_REPORT_FOLDER: true
       VALIDATE_ALL_CODEBASE: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
       HEAD_COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
