@@ -8,6 +8,6 @@ DISABLE_LINTERS:
 DISABLE_ERRORS_LINTERS:
   - JSON_V8R
 # チェック除外パスの正規表現
-FILTER_REGEX_EXCLUDE: '(\.automation/test|\.automation/generated|\.venv|\.github/workflows|docs/javascripts|docs/overrides|docs/json-schemas|flavors|clj-kondo|TEMPLATES)'
+FILTER_REGEX_EXCLUDE: '(/.automation/test|/.automation/generated|/.venv|/.github/workflows|docs/javascripts|docs/overrides|docs/json-schemas|flavors|clj-kondo|TEMPLATES)'
 # v8rフィルターを除外するカスタム正規表現
 JSON_V8R_FILTER_REGEX_EXCLUDE: '(data\)'
