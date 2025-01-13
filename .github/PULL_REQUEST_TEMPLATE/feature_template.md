@@ -1,1 +1,1 @@
-feature_template
+<!-- feature_template -->
