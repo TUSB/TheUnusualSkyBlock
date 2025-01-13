@@ -19,4 +19,3 @@ execute if score _ RagingDamage matches ..0 run function skill:act/knight/raging
 
 tag @s add HitDamageTaken
 tag @s add ReceivedPhysicalDamage
-tag @s add ReceivedFireDamage
