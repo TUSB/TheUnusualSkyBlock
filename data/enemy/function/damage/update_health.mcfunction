@@ -16,6 +16,6 @@ execute if score @s Damage matches 0.. run function makeup:enemy/damage/damage
 #リセット
 scoreboard players reset @s Damage
 #死亡処理
-execute if score @s HP matches ..0 run function entity:mob_death/check
+execute if score @s HP matches ..0 run function entity:death/check
 #共通 - ライフスカウター
 execute if entity @s[tag=LifeScouter] run function skill:act/common/life_scouter/bar_set
