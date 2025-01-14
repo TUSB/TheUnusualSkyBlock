@@ -1,0 +1,7 @@
+[exclude]
+  regex = [
+    "https://github.com/orgs/$",
+    "https://api.openai.com/$",
+    "https://github.com/$",
+    "https://api.vultr.com/$",
+]

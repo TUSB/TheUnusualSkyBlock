@@ -1,15 +1,20 @@
+# kics-scan disable=555ab8f9-2001-455e-a077-f2d0f41e2fb9
+---
 name: Assign Author
 on:
   issues:
-    types: [opened]
+    types:
+      - opened
   pull_request:
-    types: [opened]
+    types:
+      - opened
+permissions:
+  issues: write
+  pull-requests: write
+
 jobs:
   assign-author:
     if: ${{ ! contains(fromJson('["renovate[bot]", "dependabot[bot]"]'), github.actor) }}
-    permissions:
-      issues: write
-      pull-requests: write
     runs-on: ubuntu-latest
     steps:
       - uses: technote-space/assign-author@v1

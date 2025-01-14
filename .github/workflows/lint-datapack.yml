@@ -1,55 +1,138 @@
-name: lint-datapack
+# kics-scan disable=555ab8f9-2001-455e-a077-f2d0f41e2fb9
+---
+name: Datapack Linting
 on:
   push:
   pull_request:
-  workflow_dispatch:
+env:
+  AUTO_FIX: true
+  APPLY_FIXES: all
+  APPLY_FIXES_EVENT: all
+  APPLY_FIXES_MODE: commit
+concurrency:
+  group: ${{ github.ref }}-${{ github.workflow }}
+  cancel-in-progress: true
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
 jobs:
-  linter:
+  megalinter:
+    name: MegaLinter
     runs-on: ubuntu-latest
+    env:
+      MEGALINTER_CONFIG: .github/linters/.mega-linter.yml
+      CLEAR_REPORT_FOLDER: true
+      VALIDATE_ALL_CODEBASE: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
+      HEAD_COMMIT_MESSAGE: ${{ github.event.head_commit.message }}
+
     steps:
-      - name: checkout
+      - name: Get GitHub App token
+        id: app-token
+        uses: tibdex/github-app-token@v1
+        with:
+          app_id: ${{ secrets.GH_APP_ID }}
+          private_key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+
+      - name: Checkout Code
         uses: actions/checkout@v4
         with:
+          token: ${{ steps['app-token'].outputs.token || secrets.GITHUB_TOKEN }}
           fetch-depth: 0
-      - name: lint
-        # ref: https://github.com/github/super-linter
-        uses: super-linter/super-linter@v7.2.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          # ACTIONS_RUNNER_DEBUG: true
-          DEFAULT_BRANCH: 1-21-1-dev
-          OUTPUT_FORMAT: tap
-          OUTPUT_DETAILS: detailed
-          DISABLE_ERRORS: false
-          VALIDATE_ALL_CODEBASE: true
-          ENABLE_GITHUB_ACTIONS_STEP_SUMMARY: true
-          SAVE_SUPER_LINTER_SUMMARY: true
-      - name: upload reports  
+
+      - name: MegaLinter
+        id: ml
+        uses: oxsecurity/megalinter@v8
+
+      - name: Archive production artifacts
+        if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: super-linter
-          path: super-linter.report/
-      - name: Commit and push linting fixes
-        if: >
-          github.event_name == 'pull_request' &&
-          github.ref_name != github.event.repository.default_branch
-        uses: stefanzweifel/git-auto-commit-action@v5
+          name: MegaLinter reports
+          path:
+            |
+            megalinter-reports
+            mega-linter.log
+
+      - name: Create Pull Request with applied fixes
+        id: cpr
+        if:
+          failure() &&
+          steps.ml.outputs.has_updated_sources == 1 &&
+          (
+          env.APPLY_FIXES_EVENT == 'all' ||
+          env.APPLY_FIXES_EVENT == github.event_name
+          ) &&
+          env.APPLY_FIXES_MODE == 'pull_request' &&
+          (
+          github.event_name == 'push' ||
+          github.event.pull_request.head.repo.full_name == github.repository
+          ) &&
+          !contains(env.HEAD_COMMIT_MESSAGE, 'skip fix')
+        uses: peter-evans/create-pull-request@v6
         with:
+          token: ${{ steps['app-token'].outputs.token }}
+          commit-message: "NO-ISSUE Fix Apply linters fixes"
+          title: "[Fix] Apply linters automatic fixes"
+          labels: bot
+          base: ${{ github.head_ref }}
+
+      - name: Create PR output
+        if:
+          failure() &&
+          steps.ml.outputs.has_updated_sources == 1 &&
+          (
+          env.APPLY_FIXES_EVENT == 'all' ||
+          env.APPLY_FIXES_EVENT == github.event_name
+          ) &&
+          env.APPLY_FIXES_MODE == 'pull_request' &&
+          (
+          github.event_name == 'push' ||
+          github.event.pull_request.head.repo.full_name == github.repository
+          ) &&
+          !contains(env.HEAD_COMMIT_MESSAGE, 'skip fix')
+        run:
+          |
+          echo "Pull Request Number - ${{ steps.cpr.outputs['pull-request-number'] }}"
+          echo "Pull Request URL - ${{ steps.cpr.outputs['pull-request-url'] }}"
+
+      - name: Prepare commit
+        if:
+          failure() &&
+          steps.ml.outputs.has_updated_sources == 1 &&
+          (
+          env.APPLY_FIXES_EVENT == 'all' ||
+          env.APPLY_FIXES_EVENT == github.event_name
+          ) &&
+          env.APPLY_FIXES_MODE == 'commit' &&
+          github.ref != 'refs/heads/main' &&
+          (
+          github.event_name == 'push' ||
+          github.event.pull_request.head.repo.full_name == github.repository
+          ) &&
+          !contains(env.HEAD_COMMIT_MESSAGE, 'skip fix')
+        run: sudo chown -Rc $UID .git/
+
+      - name: Commit and push applied linter fixes
+        if:
+          failure() &&
+          steps.ml.outputs.has_updated_sources == 1 &&
+          (
+          env.APPLY_FIXES_EVENT == 'all' ||
+          env.APPLY_FIXES_EVENT == github.event_name
+          ) &&
+          env.APPLY_FIXES_MODE == 'commit' &&
+          github.ref != 'refs/heads/main' &&
+          (
+          github.event_name == 'push' ||
+          github.event.pull_request.head.repo.full_name == github.repository
+          ) &&
+          !contains(env.HEAD_COMMIT_MESSAGE, 'skip fix')
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          token: ${{ steps['app-token'].outputs.token }}
           branch: ${{ github.event.pull_request.head.ref || github.head_ref || github.ref }}
-          commit_message: "NO-ISSUE Fix linting issues"
-          commit_user_name: super-linter
-          commit_user_email: super-linter@super-linter.dev
-# jobs:
-#   lint:
-#     name: lint
-#     runs-on: ubuntu-latest
-#     steps:
-#       - name: checkout repository
-#         uses: actions/checkout@v4
-#         with:
-#           fetch-depth: 0
-#       # https://github.com/ChenCMD/datapack-linter
-#       - name: lint
-#         uses: ChenCMD/datapack-linter@v2
-#         with:
-#           GITHUB_TOKEN: ${{ github.token }}
+          commit_message: "NO-ISSUE Fix Apply linters fixes"
+          commit_user_name: linter-bot
+          commit_user_email: bot@skyblock.jp
