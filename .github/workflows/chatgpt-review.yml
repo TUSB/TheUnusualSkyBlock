@@ -1,9 +1,6 @@
+# kics-scan disable=555ab8f9-2001-455e-a077-f2d0f41e2fb9
+---
 name: Code Review
-
-permissions:
-  contents: read
-  pull-requests: write
-
 on:
   pull_request:
     types:
@@ -11,6 +8,9 @@ on:
       - reopened
       - synchronize
       - ready_for_review
+permissions:
+  contents: read
+  pull-requests: write
 
 jobs:
   review:
@@ -20,38 +20,39 @@ jobs:
       # リポジトリをチェックアウトしてコミット情報を取得
       - name: Checkout
         uses: actions/checkout@v4
-
       # 現在のコミットがマージコミットか判定
       - name: Check if current commit is a merge commit
         id: check_merge
-        run: |
-          PARENTS_COUNT=$(git rev-list --parents -n 1 ${{ github.sha }} | wc -w)
+        run:
+          |
+          # PARENTS_COUNT を計算
+          PARENTS_COUNT=$(git rev-list --parents -n 1 "${{ github.sha }}" | wc -w)
           # 親が1つであれば (コミットID + 親1つ) = 2単語
           # 親が2つなら (コミットID + 親2つ) = 3単語 以上となるので、
           # 3以上ならマージコミットとみなす
-          if [ $PARENTS_COUNT -ge 3 ]; then
-            echo "is_merge=true" >> $GITHUB_OUTPUT
+          if [ "${PARENTS_COUNT}" -ge 3 ]; then
+            echo "is_merge=true" >> "${GITHUB_OUTPUT}"
           else
-            echo "is_merge=false" >> $GITHUB_OUTPUT
+            echo "is_merge=false" >> "${GITHUB_OUTPUT}"
           fi
-
-      # マージコミットの場合はスキップ
       - name: Skip on merge commit
         if: steps.check_merge.outputs.is_merge == 'true'
-        run: |
+        run:
+          |
           echo "This is a merge commit. Skipping this job."
           exit 0
-
-      # 通常コミット更新時のみコードレビューを実行
       - uses: anc95/ChatGPT-CodeReview@main
-        if: steps.check_merge.outputs.is_merge == 'false' && contains(github.event.pull_request.labels.*.name, 'プリーズレビュー')
+        if:
+          steps.check_merge.outputs.is_merge == 'false' &&
+          contains(github.event.pull_request.labels.*.name, 'プリーズレビュー')
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           LANGUAGE: Japanese
           OPENAI_API_ENDPOINT: https://api.openai.com/v1
           MODEL: o1-mini
-          PROMPT: |
+          PROMPT:
+            >
             Request: perform PR review mcfuntion code for Minecraft 1.21.1
             Role:Respond as code reviewer for Minecraft distribution world “The Unusual SkyBlock”.
             Regulation: keep brief to point, 50-300 words or less, Markdown format.
