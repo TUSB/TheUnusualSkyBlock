@@ -1,0 +1,19 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Health:0f}"
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Tags:[Garbage]}"
+      }
+    }
+  ]
+}
