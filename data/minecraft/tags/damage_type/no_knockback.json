@@ -1,7 +1,7 @@
 {
   "values": [
-    "tusb:unreasonable",
-    "tusb:magic",
-    "tusb:physics"
+    "entity:physical",
+    "entity:magic",
+    "entity:unreasonable"
   ]
 }
