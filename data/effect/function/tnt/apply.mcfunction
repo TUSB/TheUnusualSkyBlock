@@ -1,6 +1,9 @@
 #> effect:tnt/apply
 ### トント
 
+# 効果中なら中断
+execute if score @s TntCount matches 0.. run return fail
+
 scoreboard players set @s TntCount 48
 function makeup:effect/tnt/apply
 
