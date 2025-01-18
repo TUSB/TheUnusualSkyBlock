@@ -5,3 +5,6 @@
 
 ### Mob自然ダメージ反映
 execute if entity @s[nbt=!{AbsorptionAmount:2048f}] run function enemy:damage/natural
+
+### Mob Hitダメージ
+execute if entity @s[tag=HitDamageTaken] run function enemy:damage/hit
