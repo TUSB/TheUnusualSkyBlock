@@ -2,8 +2,9 @@
 ---
 name: Datapack Linting
 on:
-  push:
   pull_request:
+    types:
+      - synchronize
 env:
   AUTO_FIX: true
   APPLY_FIXES: all
