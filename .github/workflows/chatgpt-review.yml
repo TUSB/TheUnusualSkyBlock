@@ -25,7 +25,8 @@ jobs:
         uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
+          script:
+            |
             // コメントされたIssueがPull Requestであることを前提
             const prNumber = context.payload.issue.number;
             // PR情報を取得
@@ -63,7 +64,8 @@ jobs:
       # 4) マージコミットならスキップ
       - name: Skip on merge commit
         if: steps.check_merge.outputs.is_merge == 'true'
-        run: |
+        run:
+          |
           echo "This is a merge commit. Skipping this job."
           exit 0
 
@@ -73,7 +75,8 @@ jobs:
         # 1) issue_comment で /review が含まれる
         # 2) pull_request.ready_for_review (ドラフト解除)
         # 3) pull_request.synchronize (新コミット) かつ "プリーズレビュー" ラベルがある
-        if: >
+        if:
+          >
           (
             github.event_name == 'issue_comment' &&
             contains(github.event.comment.body, '/review')
