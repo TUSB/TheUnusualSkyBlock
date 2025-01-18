@@ -6,10 +6,6 @@ on:
     types:
       - ready_for_review
       - synchronize
-  issue_comment:
-    types:
-      - created
-
 permissions:
   contents: read
   pull-requests: write
@@ -74,10 +70,6 @@ jobs:
         if:
           >
           (
-            (github.event.issue.pull_request != null && contains(github.event.comment.body, '/review'))
-          )
-          ||
-          (
             (github.event_name == 'pull_request' && github.event.action == 'ready_for_review')
           )
           ||
@@ -97,7 +89,7 @@ jobs:
             Role: Respond as code reviewer for Minecraft distribution world “The Unusual SkyBlock”.
             Regulation: keep brief to point, 50-300 words or less
             Rule:
-            . Avoid halcyonation provide reliable information.
+            . Avoid hallucination provide reliable information.
             . do not copy answers, use original content.
             . review code in Minecraft 1.21.1
             Review Refine:
