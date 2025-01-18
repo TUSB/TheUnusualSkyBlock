@@ -74,7 +74,7 @@ jobs:
         if:
           >
           (
-            (github.event_name == 'issue_comment' && contains(github.event.comment.body, '/review'))
+            (github.event.issue.pull_request != null && contains(github.event.comment.body, '/review'))
           )
           ||
           (
@@ -97,6 +97,7 @@ jobs:
             Role: Respond as code reviewer for Minecraft distribution world “The Unusual SkyBlock”.
             Regulation: keep brief to point, 50-300 words or less, Markdown format.
             Rule:
+            ・ 
             . Avoid halcyonation provide reliable information.
             . do not copy answers, use original content.
             . review code in Minecraft 1.21.1
