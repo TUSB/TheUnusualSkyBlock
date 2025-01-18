@@ -18,11 +18,11 @@ jobs:
   review:
     runs-on: ubuntu-latest
     steps:
-      # 1) issue_commentイベントの場合、PRのSHAを取得する
+      # 1) issue_commentイベントならPR情報(HEAD SHA)を取得
       - name: Retrieve PR HEAD SHA (for issue_comment only)
         if: ${{ github.event_name == 'issue_comment' }}
         id: pr-info
-        uses: actions/github-script@v6
+        uses: actions/github-script@v6.3.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script:
@@ -36,7 +36,7 @@ jobs:
               pull_number: prNumber
             });
             // HEADのSHAを出力
-            core.setOutput("sha", pr.head.sha);
+            core.setOutput('sha', pr.head.sha);
 
       # 2) チェックアウト (コメントのときは上ステップから取得したSHA, PRイベントならPull RequestのSHA)
       - name: Checkout
@@ -71,27 +71,19 @@ jobs:
 
       # 5) ChatGPTを用いた自動コードレビュー
       - uses: anc95/ChatGPT-CodeReview@main
-        # 以下のいずれかを満たすときに実行:
-        # 1) issue_comment で /review が含まれる
-        # 2) pull_request.ready_for_review (ドラフト解除)
-        # 3) pull_request.synchronize (新コミット) かつ "プリーズレビュー" ラベルがある
         if:
           >
           (
-            github.event_name == 'issue_comment' &&
-            contains(github.event.comment.body, '/review')
+            (github.event_name == 'issue_comment' && contains(github.event.comment.body, '/review'))
           )
           ||
           (
-            github.event_name == 'pull_request' &&
-            (
-              github.event.action == 'ready_for_review'
-              OR
-              (
-                github.event.action == 'synchronize' &&
-                contains(github.event.pull_request.labels.*.name, 'プリーズレビュー')
-              )
-            )
+            (github.event_name == 'pull_request' && github.event.action == 'ready_for_review')
+          )
+          ||
+          (
+            (github.event_name == 'pull_request' && github.event.action == 'synchronize'
+             && contains(github.event.pull_request.labels.*.name, 'プリーズレビュー'))
           )
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
