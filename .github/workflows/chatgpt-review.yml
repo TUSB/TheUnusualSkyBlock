@@ -78,7 +78,7 @@ jobs:
             github.event_name == 'issue_comment' &&
             contains(github.event.comment.body, '/review')
           )
-          OR
+          ||
           (
             github.event_name == 'pull_request' &&
             (
