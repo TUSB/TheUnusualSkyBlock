@@ -1,32 +1,53 @@
 # kics-scan disable=555ab8f9-2001-455e-a077-f2d0f41e2fb9
 ---
-name: Code Review
+name: PR Code Review
 on:
   pull_request:
     types:
-      - opened
-      - reopened
-      - synchronize
       - ready_for_review
+      - synchronize
 permissions:
   contents: read
   pull-requests: write
 
 jobs:
   review:
-    if: github.event.pull_request.draft == false
     runs-on: ubuntu-latest
     steps:
-      # リポジトリをチェックアウトしてコミット情報を取得
+      # 1) issue_commentイベントならPR情報(HEAD SHA)を取得
+      - name: Retrieve PR HEAD SHA (for issue_comment only)
+        if: ${{ github.event_name == 'issue_comment' }}
+        id: pr-info
+        uses: actions/github-script@v6.3.0
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script:
+            |
+            // コメントされたIssueがPull Requestであることを前提
+            const prNumber = context.payload.issue.number;
+            // PR情報を取得
+            const { data: pr } = await github.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: prNumber
+            });
+            // HEADのSHAを出力
+            core.setOutput('sha', pr.head.sha);
+
+      # 2) チェックアウト (コメントのときは上ステップから取得したSHA, PRイベントならPull RequestのSHA)
       - name: Checkout
         uses: actions/checkout@v4
-      # 現在のコミットがマージコミットか判定
+        with:
+          ref: ${{ steps.pr-info.outputs.sha || github.event.pull_request.head.sha }}
+
+      # 3) 現在のコミットがマージコミットかを判定
       - name: Check if current commit is a merge commit
         id: check_merge
         run:
           |
-          # PARENTS_COUNT を計算
-          PARENTS_COUNT=$(git rev-list --parents -n 1 "${{ github.sha }}" | wc -w)
+          # 実際にチェックアウトしているコミットSHAを確認
+          CURRENT_SHA="${{ steps.pr-info.outputs.sha || github.event.pull_request.head.sha }}"
+          PARENTS_COUNT=$(git rev-list --parents -n 1 "${CURRENT_SHA}" | wc -w)
           # 親が1つであれば (コミットID + 親1つ) = 2単語
           # 親が2つなら (コミットID + 親2つ) = 3単語 以上となるので、
           # 3以上ならマージコミットとみなす
@@ -35,16 +56,27 @@ jobs:
           else
             echo "is_merge=false" >> "${GITHUB_OUTPUT}"
           fi
+
+      # 4) マージコミットならスキップ
       - name: Skip on merge commit
         if: steps.check_merge.outputs.is_merge == 'true'
         run:
           |
           echo "This is a merge commit. Skipping this job."
           exit 0
+
+      # 5) ChatGPTを用いた自動コードレビュー
       - uses: anc95/ChatGPT-CodeReview@main
         if:
-          steps.check_merge.outputs.is_merge == 'false' &&
-          contains(github.event.pull_request.labels.*.name, 'プリーズレビュー')
+          >
+          (
+            (github.event_name == 'pull_request' && github.event.action == 'ready_for_review')
+          )
+          ||
+          (
+            (github.event_name == 'pull_request' && github.event.action == 'synchronize'
+             && contains(github.event.pull_request.labels.*.name, 'プリーズレビュー'))
+          )
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -52,12 +84,12 @@ jobs:
           OPENAI_API_ENDPOINT: https://api.openai.com/v1
           MODEL: o1-mini
           PROMPT:
-            >
+            |
             Request: perform PR review mcfuntion code for Minecraft 1.21.1
-            Role:Respond as code reviewer for Minecraft distribution world “The Unusual SkyBlock”.
-            Regulation: keep brief to point, 50-300 words or less, Markdown format.
+            Role: Respond as code reviewer for Minecraft distribution world “The Unusual SkyBlock”.
+            Regulation: keep brief to point, 50-300 words or less
             Rule:
-            . Avoid halcyonation provide reliable information.
+            . Avoid hallucination provide reliable information.
             . do not copy answers, use original content.
             . review code in Minecraft 1.21.1
             Review Refine:
@@ -67,7 +99,7 @@ jobs:
             . identify potential impact on gameplay aware of changes affect gameplay
             Reference:
             - Repository: [The Unusual SkyBlock](https://github.com/TUSB/TheUnusualSkyBlock)
-            - Documentation.
+            - Documentation:
               - [GitHub Wiki](https://github.com/TUSB/TheUnusualSkyBlock/wiki/Top)
               - [Seesaawiki](https://seesaawiki.jp/theunusualskyblock/)
             Run Scenario: respond as code reviewer.
