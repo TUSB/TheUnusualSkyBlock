@@ -2,7 +2,7 @@
 ### 火だるま
 
 execute if block ~ ~ ~ water run scoreboard players set @s BurnCount 0
-execute if entity @s[predicate=effects:fire_resistance] run scoreboard players set @s BurnCount 0
+execute if entity @s[predicate=effect:fire_resistance] run scoreboard players set @s BurnCount 0
 
 #火だるまダメージ付与
 execute if score @s BurnCount matches 1.. run data modify storage score_damage: Argument set value {Damage:6,DamageType:[Fire],DeathCause:'[{"translate":"%1$sは%2$sになって焼け死んだ。","with":[{"selector":"@s"},{"interpret":true,"storage":"effect:","nbt":"BadEffectsName.Burn"}]}]'}
