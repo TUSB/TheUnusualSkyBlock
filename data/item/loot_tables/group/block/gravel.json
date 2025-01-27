@@ -11,7 +11,7 @@
         {
           "weight": 1800,
           "type": "minecraft:item",
-          "name": "minecraft:dead_bush",
+          "name": "minecraft:stick",
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -103,6 +103,11 @@
           "weight": 80,
           "type": "loot_table",
           "name": "item:item/carrot_on_a_stick/calling_grass"
+        },
+        {
+          "weight": 80,
+          "type": "minecraft:item",
+          "name": "minecraft:dark_oak_planks"
         },
         {
           "weight": 75,
