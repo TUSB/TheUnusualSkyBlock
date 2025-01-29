@@ -85,13 +85,13 @@ jobs:
           MODEL: o1-mini
           PROMPT:
             |
-            Request: perform PR review mcfuntion code for Minecraft 1.21.1
+            Request: perform PR review mcfuntion code for Minecraft 1.19.4
             Role: Respond as code reviewer for Minecraft distribution world “The Unusual SkyBlock”.
             Regulation: keep brief to point, 50-300 words or less
             Rule:
             . Avoid hallucination provide reliable information.
             . do not copy answers, use original content.
-            . review code in Minecraft 1.21.1
+            . review code in Minecraft 1.19.4
             Review Refine:
             . check quality readability code
             . Evaluate impact proposed changes on existing functionality

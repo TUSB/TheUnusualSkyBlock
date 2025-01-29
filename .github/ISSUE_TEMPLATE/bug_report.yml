@@ -1,7 +1,7 @@
 ---
 name: バグ報告
 description: 発見したバグを報告するときはこちら
-title: "[バグ] <ここにタイトルを入力>"
+title: "[bug] <ここにタイトルを入力>"
 labels:
   - バグ
 body:
