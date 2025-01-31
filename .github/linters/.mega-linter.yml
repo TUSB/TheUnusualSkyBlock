@@ -1,0 +1,9 @@
+---
+# 無効化したいリンター
+DISABLE_LINTERS:
+  - SPELL_CSPELL
+  - SPELL_LYCHEE
+  - MARKDOWN_MARKDOWN_LINK_CHECK
+# 無効化したいリンターのエラー（warning にはするがエラーにはしたくない）
+DISABLE_ERRORS_LINTERS:
+  - JSON_V8R

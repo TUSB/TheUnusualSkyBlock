@@ -4,7 +4,6 @@
 .DS_Store
 *.cache
 */tmp
-.git/
 *.swp
 *.bak
 *.py
@@ -14,3 +13,12 @@
 __pycache__/*
 build/*
 dist/*
+**/_*
+_*
+# Super-linter outputs
+super-linter-output
+super-linter.log
+megalinter-reports/*
+
+# GitHub Actions leftovers
+github_conf
