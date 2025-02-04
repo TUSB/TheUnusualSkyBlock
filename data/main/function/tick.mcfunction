@@ -26,3 +26,6 @@ execute as @e[tag=HasAI] at @s run function ai:tick
 
 ### 存在する限り毎tick処理呼び出し
 # execute as @e[scores={NativeFlag=1..}] at @s run function main:task/native
+
+### エンティティ削除 - 最後に実行
+execute as @e[tag=Garbage] run function entity:garbage_collection
