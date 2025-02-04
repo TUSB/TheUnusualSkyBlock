@@ -5,4 +5,4 @@ data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].SelectedItem se
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Equipments set from storage item: Equipments
 
 #ダメージを保存
-function skill:damage/save
+function entity:damage/save
