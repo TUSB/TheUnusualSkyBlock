@@ -4,11 +4,10 @@ function player:load_equipments
 #メインハンドがトリガーのアイテムでなければ交換
 execute unless data storage item: SelectedItem{id:"minecraft:crossbow"} run function player:trigger/use/if_not_mainhand
 #物理ダメージ取得
-function skill:damage/add/physical/projectile
-#属性ダメージ取得
-function skill:damage/add/elemental
+data remove storage entity: damage
+function entity:damage/add/physical/projectile
 #ピアッシングエイム適用
-execute if score @s PiercingAim matches 1.. run function skill:act/hunter/piercing_aim/apply0
+# execute if score @s PiercingAim matches 1.. run function skill:act/hunter/piercing_aim/apply0
 #スキル
 function skill:equipments_to_items
 data remove storage item: Item
