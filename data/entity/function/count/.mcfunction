@@ -10,4 +10,4 @@
 # エンティティが一定数以上であればGarbageループ処理
 # 201体以上に設定
     scoreboard players remove _ _ 200
-    execute if score _ _ matches 0.. run function entity:count/loop
+    execute if score _ _ matches 1.. run function entity:count/loop
