@@ -18,5 +18,5 @@ execute if data storage item: LootTable.Item if score _ Calc matches 1.. run dat
 execute if data storage item: LootTable.Item as @e[type=item,tag=,distance=0] store result entity @s Item.count int 1 run scoreboard players get _ Calc
 
 #初期化回避
-execute as @e[type=item,tag=,distance=0] if data entity @s Item.components."minecraft:custom_data".SpawnEntities run function enemy:spawn/item_to_spawn
+execute as @e[type=item,tag=,distance=0] if data entity @s Item.components."minecraft:custom_data".SpawnEntities run function entity:spawn/item_to_spawn
 tag @e[type=item,tag=,distance=0] add Initialized
