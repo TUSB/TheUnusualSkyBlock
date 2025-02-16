@@ -5,3 +5,6 @@
 
 ### 停止飛翔物削除
 execute as @e[tag=TickingRequired] at @s run function entity:check_freeze
+
+### エンティティ数カウント
+function entity:count/
