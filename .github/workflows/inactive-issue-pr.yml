@@ -21,15 +21,13 @@ jobs:
             > [!WARNING]
             > このissueを最後に更新してから**60日経過**しているため、古くなっています。
             >  このまま、何も活動の更新がないと**14日後**にこのissueはクローズされます。
-            > クローズを防ぐにはコメント更新してください。
-            > ⚠️`古くなった`ラベルは手動で削除しないでください⚠️
+            > クローズを防ぐにはコメント更新するか`古くなった`ラベルを削除してください。
           stale-pr-message:
             |
             > [!WARNING]
             > このPRは**30日間活動がない**ため、古くなっています。
             > このまま、何も活動の更新がないと**14日後**にこのPRはクローズされます。
-            > クローズを防ぐにはコメント更新してください。
-            > ⚠️`古くなった`ラベルは手動で削除しないでください⚠️
+            > クローズを防ぐにはコメント更新するか`古くなった`ラベルを削除してください。
           close-issue-message:
             |
             > [!IMPORTANT]
@@ -45,3 +43,7 @@ jobs:
           stale-issue-label: 古くなった
           close-pr-label: 自動クローズ
           close-issue-label: 自動クローズ
+          close-issue-reason: not_planned
+          include-only-assigned: true
+          exempt-draft-pr: true
+          exempt-issue-labels: '担当募集, 優先度: 高い, リリース予定'
