@@ -14,5 +14,5 @@
     function skill:damage/add/skill/magic
 
 # 対象となるモブにダメージを入れる
-    data modify storage skill: Damage.Hit set value 0b
+    data modify storage skill: Damage.hit set value 0b
     execute positioned ~-1 ~-1 ~-1 as @e[dx=1,dy=1,dz=1,tag=Enemy] run function skill:damage/apply/
