@@ -45,5 +45,5 @@ function skill:damage/add/skill/weapon
 #ダメージ付与
 #同時に近接スキル発動の場合そちらでダメージ付与するためここでは行わない
 #付与後は近接スキルフラグを付与してダメージ重複を防ぐ
-execute unless data storage item: Item.tag.Skill.Damage{Melee:1b} at 0-0-0-0-2 as @e[tag=Enemy,nbt=!{AbsorptionAmount:1000000f},distance=0] run function skill:damage/apply/
-execute unless data storage item: Item.tag.Skill.Damage{Melee:1b} run data modify storage item: Item.tag.Skill.Damage.Melee set value 1b
+execute unless data storage item: Item.tag.Skill.Damage{melee:1b} at 0-0-0-0-2 as @e[tag=Enemy,nbt=!{AbsorptionAmount:1000000f},distance=0] run function skill:damage/apply/
+execute unless data storage item: Item.tag.Skill.Damage{melee:1b} run data modify storage item: Item.tag.Skill.Damage.melee set value 1b
