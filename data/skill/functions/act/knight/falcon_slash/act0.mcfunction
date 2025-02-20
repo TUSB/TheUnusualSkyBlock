@@ -2,11 +2,11 @@
 ### はやぶさ斬り発動
 
 # ダメージ
-execute if score _ Level matches 1 run data modify storage skill: Damage set from storage skill: Data.Knight[{Name:"隼斬り",Level:1}].Damage
-execute if score _ Level matches 2 run data modify storage skill: Damage set from storage skill: Data.Knight[{Name:"隼斬り",Level:2}].Damage
-execute if score _ Level matches 3 run data modify storage skill: Damage set from storage skill: Data.Knight[{Name:"隼斬り",Level:3}].Damage
-execute if score _ Level matches 4 run data modify storage skill: Damage set from storage skill: Data.Knight[{Name:"隼斬り",Level:4}].Damage
-execute if score _ Level matches 5 run data modify storage skill: Damage set from storage skill: Data.Knight[{Name:"隼斬り",Level:5}].Damage
+execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"隼斬り",Level:1}].Damage
+execute if score _ Level matches 2 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"隼斬り",Level:2}].Damage
+execute if score _ Level matches 3 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"隼斬り",Level:3}].Damage
+execute if score _ Level matches 4 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"隼斬り",Level:4}].Damage
+execute if score _ Level matches 5 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"隼斬り",Level:5}].Damage
 
 # ダメージ計算
 function skill:damage/add/skill/weapon

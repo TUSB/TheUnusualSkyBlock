@@ -3,8 +3,8 @@
 ##############################
 
 #ダメージ
-execute if score _ Level matches 1 run data modify storage skill: Damage set from storage skill: Data.Summoner[{Name:"ぽむぽむ花火",Level:1}].Damage
-execute if score _ Level matches 2 run data modify storage skill: Damage set from storage skill: Data.Summoner[{Name:"ぽむぽむ花火",Level:2}].Damage
+execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.Summoner[{Name:"ぽむぽむ花火",Level:1}].Damage
+execute if score _ Level matches 2 run data modify storage skill: damage set from storage skill: Data.Summoner[{Name:"ぽむぽむ花火",Level:2}].Damage
 function skill:damage/add/skill/magic
 data modify storage skill: UUID set from entity @s UUID
 #投射物を召喚

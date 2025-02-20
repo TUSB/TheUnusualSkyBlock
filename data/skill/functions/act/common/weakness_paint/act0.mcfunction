@@ -3,8 +3,8 @@
 
 
 #ダメージ
-execute if score _ Level matches 1 run data modify storage skill: Damage set from storage skill: Data.Common[{Name:"ウィークペイント",Level:1}].Damage
-execute if score _ Level matches 2 run data modify storage skill: Damage set from storage skill: Data.Common[{Name:"ウィークペイント",Level:2}].Damage
+execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.Common[{Name:"ウィークペイント",Level:1}].Damage
+execute if score _ Level matches 2 run data modify storage skill: damage set from storage skill: Data.Common[{Name:"ウィークペイント",Level:2}].Damage
 function skill:damage/add/skill/magic
 #投射物を召喚
 execute anchored eyes run summon arrow ^ ^ ^0.5 {Tags:[Skill,WeakPaint,NativeTask,FlyingRequired,KillInGround],NoGravity:1b,damage:1,Color:3752270,SoundEvent:"minecraft:block.beacon.deactivate"}

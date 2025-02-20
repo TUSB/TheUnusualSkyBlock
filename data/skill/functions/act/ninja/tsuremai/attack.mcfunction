@@ -36,10 +36,10 @@ scoreboard players add @s _ 1
 function makeup:skill/act/ninja/tsuremai/attack
 
 #スキルレベルによるダメージ追加
-execute if score _ Level matches 1 run data modify storage skill: Damage set from storage skill: Data.Ninja[{Name:"連舞",Level:1}].Damage
-execute if score _ Level matches 2 run data modify storage skill: Damage set from storage skill: Data.Ninja[{Name:"連舞",Level:2}].Damage
-execute if score _ Level matches 3 run data modify storage skill: Damage set from storage skill: Data.Ninja[{Name:"連舞",Level:3}].Damage
-execute if score _ Level matches 4 run data modify storage skill: Damage set from storage skill: Data.Ninja[{Name:"連舞",Level:4}].Damage
+execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.Ninja[{Name:"連舞",Level:1}].Damage
+execute if score _ Level matches 2 run data modify storage skill: damage set from storage skill: Data.Ninja[{Name:"連舞",Level:2}].Damage
+execute if score _ Level matches 3 run data modify storage skill: damage set from storage skill: Data.Ninja[{Name:"連舞",Level:3}].Damage
+execute if score _ Level matches 4 run data modify storage skill: damage set from storage skill: Data.Ninja[{Name:"連舞",Level:4}].Damage
 function skill:damage/add/skill/weapon
 
 #ダメージ付与
