@@ -1,5 +1,4 @@
-# kics-scan disable=555ab8f9-2001-455e-a077-f2d0f41e2fb9
----
+# .github/workflows/chatgpt-review.yml
 name: PR Code Review
 on:
   pull_request:
@@ -18,7 +17,6 @@ jobs:
   review:
     runs-on: ubuntu-latest
     steps:
-      # 1) issue_commentイベントならPR情報(HEAD SHA)を取得
       - name: Retrieve PR HEAD SHA (for issue_comment only)
         if: ${{ github.event_name == 'issue_comment' && github.event.comment.body == '/review' }}
         id: pr-info
@@ -26,24 +24,19 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |
-            // コメントされたIssueがPull Requestであることを前提
             const prNumber = context.payload.issue.number;
-            // PR情報を取得
-            const { data: pr } = await github.pulls.get({
+            const pr = await github.pulls.get({
               owner: context.repo.owner,
               repo: context.repo.repo,
               pull_number: prNumber
             });
-            // HEADのSHAを出力
-            core.setOutput('sha', pr.head.sha);
+            core.setOutput('sha', pr.data.head.sha);
 
-      # 2) チェックアウト (コメントのときは上ステップから取得したSHA, PRイベントならPull RequestのSHA)
       - name: Checkout
         uses: actions/checkout@v4
         with:
           ref: ${{ steps.pr-info.outputs.sha || github.event.pull_request.head.sha }}
 
-      # 3) 現在のコミットがマージコミットかを判定
       - name: Check if current commit is a merge commit
         id: check_merge
         run: |
@@ -53,16 +46,13 @@ jobs:
             echo "is_merge=true" >> "${GITHUB_OUTPUT}"
           else
             echo "is_merge=false" >> "${GITHUB_OUTPUT}"
-          fi
 
-      # 4) マージコミットならスキップ
       - name: Skip on merge commit
         if: steps.check_merge.outputs.is_merge == 'true'
         run: |
           echo "This is a merge commit. Skipping this job."
           exit 0
 
-      # 5) ChatGPTを用いた自動コードレビュー
       - uses: anc95/ChatGPT-CodeReview@main
         if: |
           (github.event_name == 'pull_request' && github.event.action == 'ready_for_review') ||
