@@ -6,6 +6,10 @@ on:
     types:
       - ready_for_review
       - synchronize
+  issue_comment:
+    types:
+      - created
+
 permissions:
   contents: read
   pull-requests: write
@@ -16,13 +20,12 @@ jobs:
     steps:
       # 1) issue_commentイベントならPR情報(HEAD SHA)を取得
       - name: Retrieve PR HEAD SHA (for issue_comment only)
-        if: ${{ github.event_name == 'issue_comment' }}
+        if: ${{ github.event_name == 'issue_comment' && github.event.comment.body == '/review' }}
         id: pr-info
         uses: actions/github-script@v6.3.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          script:
-            |
+          script: |
             // コメントされたIssueがPull Requestであることを前提
             const prNumber = context.payload.issue.number;
             // PR情報を取得
@@ -43,14 +46,9 @@ jobs:
       # 3) 現在のコミットがマージコミットかを判定
       - name: Check if current commit is a merge commit
         id: check_merge
-        run:
-          |
-          # 実際にチェックアウトしているコミットSHAを確認
+        run: |
           CURRENT_SHA="${{ steps.pr-info.outputs.sha || github.event.pull_request.head.sha }}"
           PARENTS_COUNT=$(git rev-list --parents -n 1 "${CURRENT_SHA}" | wc -w)
-          # 親が1つであれば (コミットID + 親1つ) = 2単語
-          # 親が2つなら (コミットID + 親2つ) = 3単語 以上となるので、
-          # 3以上ならマージコミットとみなす
           if [ "${PARENTS_COUNT}" -ge 3 ]; then
             echo "is_merge=true" >> "${GITHUB_OUTPUT}"
           else
@@ -60,31 +58,23 @@ jobs:
       # 4) マージコミットならスキップ
       - name: Skip on merge commit
         if: steps.check_merge.outputs.is_merge == 'true'
-        run:
-          |
+        run: |
           echo "This is a merge commit. Skipping this job."
           exit 0
 
       # 5) ChatGPTを用いた自動コードレビュー
       - uses: anc95/ChatGPT-CodeReview@main
-        if:
-          >
-          (
-            (github.event_name == 'pull_request' && github.event.action == 'ready_for_review')
-          )
-          ||
-          (
-            (github.event_name == 'pull_request' && github.event.action == 'synchronize'
-             && contains(github.event.pull_request.labels.*.name, 'プリーズレビュー'))
-          )
+        if: |
+          (github.event_name == 'pull_request' && github.event.action == 'ready_for_review') ||
+          (github.event_name == 'pull_request' && github.event.action == 'synchronize' && contains(github.event.pull_request.labels.*.name, 'プリーズレビュー')) ||
+          (github.event_name == 'issue_comment' && github.event.comment.body == '/review')
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           LANGUAGE: Japanese
           OPENAI_API_ENDPOINT: https://api.openai.com/v1
           MODEL: o1-mini
-          PROMPT:
-            |
+          PROMPT: |
             Request: perform PR review mcfuntion code for Minecraft 1.21.1
             Role: Respond as code reviewer for Minecraft distribution world “The Unusual SkyBlock”.
             Regulation: keep brief to point, 50-300 words or less
