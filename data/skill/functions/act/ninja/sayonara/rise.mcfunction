@@ -3,5 +3,5 @@
 ###生き返り後バフエフェクト処理
 
 effect give @s minecraft:strength 30 9
-effect give @s minecraft:resistance 5 5
+effect give @s minecraft:resistance 5 4
 tag @s remove Sayonara
