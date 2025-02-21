@@ -33,7 +33,8 @@ execute if entity @s[tag=HasRestoreItems,tag=!Raise] in area:control_area run fu
 execute if entity @s[tag=HasRestoreItems,tag=Raise] run function skill:act/common/restore_item/restore/cancel
 ### レイズ処理
 execute if entity @s[tag=Raise] at @s run function skill:act/white_mage/araise/raise_check
-
+### サヨナラ処理
+execute if entity @s[tag=Sayonara] run function skill:act/ninja/sayonara/rise
 
 ## フラグリセット
 scoreboard players reset @s Hunger
