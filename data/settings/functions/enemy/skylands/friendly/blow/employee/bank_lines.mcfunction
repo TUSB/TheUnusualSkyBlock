@@ -16,7 +16,7 @@ data modify storage mob_data: CCHelper.Insight.text_format set value '{"text":""
 data modify storage mob_data: Tags append value CCHelperInsight
 
 # 話し掛けたら
-data modify storage mob_data: CCHelper.Interact.texts set value ["冷やかしはやめるのじゃぞ。"]
+data modify storage mob_data: CCHelper.Interact.texts set value ["冷やかしはやめるのじゃぞⓅ13・Ⓟ13・Ⓟ13あーそうじゃ。","１つちんが§0アドバイス§rをしてやるのじゃ。よーく聞くが良いわ。\\n「§0未開封の虚無のバンドル§r」は確かに高額じゃ。","じゃが～？高いだけの理由があるぞえ？\\nなんと、§0奈落や呪いで喪失した物を§r\\n§0古い順で300個まで取り戻すことができる§rからのぅ～。","ま、§5エメラルド§rがない者には関係ない話じゃったな。ホホホ。"]
 data modify storage mob_data: CCHelper.Interact.y_offset set value 1f
 data modify storage mob_data: CCHelper.Interact.background set value "#FFC6D9CB"
 data modify storage mob_data: CCHelper.Interact.palette set value {0:'{"text":"","color":"#FF0000"}',1:'{"text":"","color":"#FF8000"}',2:'{"text":"","color":"#FFFF00"}',3:'{"text":"","color":"#B7FF00"}',4:'{"text":"","color":"#00FF00"}',5:'{"text":"","color":"#00FF66"}',6:'{"text":"","color":"#00FFC2"}',7:'{"text":"","color":"#0000FF"}',8:'{"text":"","color":"#AA00FF"}',9:'{"text":"","color":"#FF009A"}',a:'{"text":"","color":"#FFFFFF"}',b:'{"text":"","color":"#cecece"}',c:'{"text":"","color":"#888888"}',d:'{"text":"","color":"#555555"}',e:'{"text":"","color":"#000000"}',f:'{"storage":"skill:","nbt":"NewLine","interpret":true}'}

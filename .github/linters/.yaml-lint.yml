@@ -1,0 +1,10 @@
+---
+extends: default
+rules:
+  # missing document start のチェックを無効
+  document-start: disable
+  # 行の長さチェックを無効
+  line-length: disable
+  # truthy value チェックを無効
+  truthy:
+    check-keys: false
