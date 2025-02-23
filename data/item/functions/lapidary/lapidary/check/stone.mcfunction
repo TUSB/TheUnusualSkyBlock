@@ -11,5 +11,7 @@ execute store result score _ Calc run data get storage item: Items
 execute in area:control_area positioned 2 2 2 store result score _ _ run function settings:item/lapidary/
 #成功時
 execute if score _ _ matches 1 run function item:lapidary/lapidary/success
+#refill呼び出し
+function item:lapidary/anvil/refill
 #演出
 function makeup:item/lapidary/check

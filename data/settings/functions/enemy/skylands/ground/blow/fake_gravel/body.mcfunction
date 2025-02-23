@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:slime",Team:"Friendly",Silent:1b,CustomName:'{"translate":"砂利モドキ","color":"#FF8000","bold":true}',ActiveEffects:[{Id:14,Amplifier:127b,Duration:-1,ShowParticles:false}],Size:1,NoAI:0b,PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,CallOnDeath,CallOnDamage,TickingRequired,DamageProjectile,FriendlyProjectile,HasLootTable,AnalyseLog]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:slime",Team:"Friendly",Silent:1b,CustomName:'{"translate":"砂利モドキ","color":"#FF8000","bold":true}',active_effects:[{id:"minecraft:invisibility",amplifier:127b,duration:-1,show_particles:false}],Size:1,NoAI:0b,PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,CallOnDeath,CallOnDamage,TickingRequired,DamageProjectile,FriendlyProjectile,HasLootTable,AnalyseLog]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 24d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.35d

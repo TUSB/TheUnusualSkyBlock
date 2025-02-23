@@ -1,0 +1,6 @@
+{
+  "values": [
+    "tusb:attribute_scale_add",
+    "tusb:attribute_scale_remove"
+  ]
+}

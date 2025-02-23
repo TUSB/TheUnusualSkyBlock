@@ -1,0 +1,45 @@
+{
+  "description": {
+    "translate": "不動王",
+    "color": "yellow"
+  },
+  "supported_items": "#tusb:armor",
+  "weight": 1,
+  "max_level": 10,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 9
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 9
+  },
+  "anvil_cost": 15,
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "knockback_resistance",
+        "attribute": "minecraft:generic.knockback_resistance",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.1,
+          "per_level_above_first": 0.1
+        },
+        "operation": "add_value"
+      },
+      {
+        "id": "knockback_resistance",
+        "attribute": "minecraft:generic.explosion_knockback_resistance",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.1,
+          "per_level_above_first": 0.1
+        },
+        "operation": "add_value"
+      }
+    ]
+  }
+}

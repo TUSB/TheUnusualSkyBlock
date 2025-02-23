@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{display:{Name:'{\"translate\":\"クトゥルアー\",\"color\":\"#00B2B2\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"aqua\",\"italic\":false},{\"translate\":\"%1$s%2$s(VII)\",\"color\":\"white\",\"with\":[{\"translate\":\"練餌の\"},{\"translate\":\"刻印\"}]}]']},Engraving:{EnchantID:\"練餌\",Tier:7}}"
+              "tag": "{display:{Name:'{\"translate\":\"クトゥルアー\",\"color\":\"#00B2B2\",\"bold\":true,\"italic\":false}',Lore:['[{\"text\":\"❖ \",\"color\":\"aqua\",\"italic\":false},{\"translate\":\"%1$s%2$s(VIII)\",\"color\":\"white\",\"with\":[{\"translate\":\"練餌の\"},{\"translate\":\"刻印\"}]}]']},Engraving:{EnchantID:\"練餌\",Tier:8},AttributeModifiers:[{AttributeName:\"generic.max_health\",Name:\"カスタム\",Amount:-50d,Operation:2,UUID:[I;12,0,0,12],Slot:\"offhand\"},{AttributeName:\"generic.knockback_resistance\",Name:\"カスタム\",Amount:1d,Operation:0,UUID:[I;12,0,0,20],Slot:\"offhand\"},{AttributeName:\"generic.movement_speed\",Name:\"カスタム\",Amount:-30d,Operation:2,UUID:[I;12,0,0,32],Slot:\"offhand\"},{AttributeName:\"generic.attack_damage\",Name:\"カスタム\",Amount:333d,Operation:0,UUID:[I;12,0,0,40],Slot:\"offhand\"},{AttributeName:\"generic.attack_speed\",Name:\"カスタム\",Amount:-80d,Operation:2,UUID:[I;12,0,0,52],Slot:\"offhand\"},{AttributeName:\"generic.armor\",Name:\"カスタム\",Amount:30d,Operation:0,UUID:[I;12,0,0,60],Slot:\"offhand\"},{AttributeName:\"generic.armor_toughness\",Name:\"カスタム\",Amount:20d,Operation:0,UUID:[I;12,0,0,70],Slot:\"offhand\"},{AttributeName:\"generic.luck\",Name:\"カスタム\",Amount:-1024d,Operation:0,UUID:[I;12,0,0,80],Slot:\"offhand\"}]}"
             }
           ]
         }

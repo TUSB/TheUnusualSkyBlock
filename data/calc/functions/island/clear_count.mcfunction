@@ -10,4 +10,4 @@ scoreboard players operation _ Ret += _ _
 # ##cloudia
 # execute store result score _ _ run data get storage area: capture.cloudia
 # scoreboard players operation _ Ret += _ _
-scoreboard players get _ Ret
+return run scoreboard players get _ Ret

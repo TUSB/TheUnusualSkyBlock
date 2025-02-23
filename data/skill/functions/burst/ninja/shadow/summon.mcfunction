@@ -4,8 +4,8 @@ summon armor_stand ~ ~ ~ {Tags:[BurstShadow,Shadow.Left,Initialized],Invisible:t
 summon armor_stand ~ ~ ~ {Tags:[BurstShadow,Shadow.Right,Initialized],Invisible:true,Invulnerable:true,NoGravity:true,CustomNameVisible:false}
 
 tag @s add TEMP
-execute in area:control_area run data modify block 2 3 2 Text1 set value '[{"translate":"%1$sの分身","color":"#00602C","with":[{"selector":"@a[tag=TEMP]"}]}]'
-execute as @e[type=!player,tag=BurstShadow,distance=..0] in area:control_area run data modify entity @s CustomName set from block 2 3 2 Text1
+execute in area:control_area run data modify block 2 3 2 front_text.messages[0] set value '[{"translate":"%1$sの分身","color":"#00602C","with":[{"selector":"@a[tag=TEMP]"}]}]'
+execute as @e[type=!player,tag=BurstShadow,distance=..0] in area:control_area run data modify entity @s CustomName set from block 2 3 2 front_text.messages[0]
 tag @s remove TEMP
 execute in area:control_area run function skill:burst/ninja/shadow/name
 

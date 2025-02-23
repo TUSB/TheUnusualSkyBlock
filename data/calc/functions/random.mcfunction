@@ -12,4 +12,4 @@ scoreboard players operation $RndMWC Random %= _ _
 ## c = (ax + c) / b
 scoreboard players operation $RndMWCCarry Random /= _ _
 ## 乱数を返す
-scoreboard players get $RndMWC Random
+return run scoreboard players get $RndMWC Random

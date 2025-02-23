@@ -62,8 +62,8 @@ execute if score @s Job matches 5 run data modify storage skill: Text set value 
 execute if score @s Job matches 6 run data modify storage skill: Text set value '["",{"text":"～","color":"gold","italic":true,"bold":true},{"text":"B","obfuscated":true,"color":"gold","italic":true,"bold":true},{"translate":"バーストブレイク！！","color":"gold","italic":true,"bold":true},{"text":"B","obfuscated":true,"color":"gold","italic":true,"bold":true},{"text":"～","color":"gold","italic":true,"bold":true}," ",{"selector":"@a[tag=BurstBreak]"}," < ",{"text":"S","font":"icon","color":"aqua"}," >"]'
 execute if score @s Job matches 7 run data modify storage skill: Text set value '["",{"text":"～","color":"gold","italic":true,"bold":true},{"text":"B","obfuscated":true,"color":"gold","italic":true,"bold":true},{"translate":"バーストブレイク！！","color":"gold","italic":true,"bold":true},{"text":"B","obfuscated":true,"color":"gold","italic":true,"bold":true},{"text":"～","color":"gold","italic":true,"bold":true}," ",{"selector":"@a[tag=BurstBreak]"}," < ",{"text":"P","font":"icon","color":"aqua"}," >"]'
 execute if score @s Job matches 8 run data modify storage skill: Text set value '["",{"text":"～","color":"gold","italic":true,"bold":true},{"text":"B","obfuscated":true,"color":"gold","italic":true,"bold":true},{"translate":"バーストブレイク！！","color":"gold","italic":true,"bold":true},{"text":"B","obfuscated":true,"color":"gold","italic":true,"bold":true},{"text":"～","color":"gold","italic":true,"bold":true}," ",{"selector":"@a[tag=BurstBreak]"}," < ",{"text":"T","font":"icon","color":"aqua"}," >"]'
-execute in area:control_area run data modify block 2 3 2 Text1 set from storage skill: Text
-execute in area:control_area run bossbar set skill:burst name {"block":"2 3 2","nbt":"Text1","interpret":true}
+execute in area:control_area run data modify block 2 3 2 front_text.messages[0] set from storage skill: Text
+execute in area:control_area run bossbar set skill:burst name {"block":"2 3 2","nbt":"front_text.messages[0]","interpret":true}
 tag @s remove BurstBreak
 # 値変更
 execute store result bossbar skill:burst value store result bossbar skill:burst max run scoreboard players get @s Burst

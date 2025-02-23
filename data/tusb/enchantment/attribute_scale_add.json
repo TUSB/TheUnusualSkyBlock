@@ -1,0 +1,106 @@
+{
+  "description": {
+    "translate": "ジャイアン",
+    "color": "yellow"
+  },
+  "supported_items": "#minecraft:enchantable/chest_armor",
+  "exclusive_set": "#tusb:scale",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 9
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 9
+  },
+  "anvil_cost": 25,
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "scale_add",
+        "attribute": "minecraft:generic.scale",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1,
+          "per_level_above_first": 1
+        },
+        "operation": "add_multiplied_total"
+      },
+      {
+        "id": "scale_add",
+        "attribute": "minecraft:generic.step_height",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1,
+          "per_level_above_first": 1
+        },
+        "operation": "add_multiplied_total"
+      },
+      {
+        "id": "scale_add",
+        "attribute": "minecraft:generic.jump_strength",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1,
+          "per_level_above_first": 1
+        },
+        "operation": "add_multiplied_total"
+      },
+      {
+        "id": "scale_add",
+        "attribute": "minecraft:player.block_interaction_range",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1,
+          "per_level_above_first": 1
+        },
+        "operation": "add_multiplied_total"
+      },
+      {
+        "id": "scale_add",
+        "attribute": "minecraft:player.entity_interaction_range",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1,
+          "per_level_above_first": 1
+        },
+        "operation": "add_multiplied_total"
+      },
+      {
+        "id": "scale_add",
+        "attribute": "minecraft:generic.safe_fall_distance",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 1,
+          "per_level_above_first": 1
+        },
+        "operation": "add_multiplied_total"
+      },
+      {
+        "id": "scale_add",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.25,
+          "per_level_above_first": -0.25
+        },
+        "operation": "add_multiplied_total"
+      },
+      {
+        "id": "scale_add",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.5,
+          "per_level_above_first": 0.5
+        },
+        "operation": "add_multiplied_total"
+      }
+    ]
+  }
+}

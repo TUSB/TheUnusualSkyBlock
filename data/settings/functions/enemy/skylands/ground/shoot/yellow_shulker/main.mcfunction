@@ -1,5 +1,5 @@
 ### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:shulker",CustomName:'{"translate":"イエローシュルカー","color":"#FFFFFF","bold":true}',AttachFace:0b,Color:4b,ActiveEffects:[{Id:28,Amplifier:0b,Duration:-1,ShowParticles:0b}],PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,CallOnAttack,TickingRequired,HasLootTable,AnalyseLog]}
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:shulker",CustomName:'{"translate":"イエローシュルカー","color":"#FFFFFF","bold":true}',AttachFace:0b,Color:4b,active_effects:[{id:"minecraft:slow_falling",amplifier:0b,duration:-1,show_particles:0b}],PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,CallOnAttack,TickingRequired,HasLootTable,AnalyseLog]}
 data modify storage tusb_mob: "即時ステータス"."見た目" set value {}
 data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 32d
 data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.2d

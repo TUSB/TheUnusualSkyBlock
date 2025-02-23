@@ -14,6 +14,6 @@ data modify block 2 3 2 Text1 set value '[{"text":"< "},{"text":"K","font":"icon
 #習得しているスキル一覧
 function skill:trigger/tellraw/loop
 #表示
-tellraw @s {"block":"2 3 2","nbt":"Text1","interpret":true}
+tellraw @s {"block":"2 3 2","nbt":"front_text.messages[0]","interpret":true}
 #演出
 execute at @s run function makeup:skill/trigger/click

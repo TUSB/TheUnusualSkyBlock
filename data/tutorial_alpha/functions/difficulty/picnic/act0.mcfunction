@@ -1,3 +1,3 @@
-tellraw @s ["",{"translate":"[チュートリアル：%1$s]","bold":true,"with":[{"translate":"ピクニック"}]},"\n",{"translate":"死んでもアイテムは失わない。\n寝ると体が元気になる。\n職業が成長しやすい。\nあなたを助けてくれる特別なアイテムも……？！\n初見の方におすすめだ。\nカジュアルにはいつでも切り替えられる。"}]
+tellraw @s ["",{"translate":"[チュートリアル：%1$s]","bold":true,"with":[{"translate":"ピクニック"}]},"\n",{"translate":"死んでもアイテムを失わず、寝ると体が元気になります。\nまた、職業が成長しやすくなります。\n初見の方におすすめ。\nカジュアルにはいつでも切り替えられます。"}]
 
 function makeup:tutorial_alpha/sound

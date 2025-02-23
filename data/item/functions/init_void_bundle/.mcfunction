@@ -7,8 +7,8 @@ function item:init_void_bundle/loop
 data remove storage item: Items[0].tag.VoidItems[].Slot
 
 #VoidItemsがある場合、名前を変更
-execute if data storage item: Items[0].tag.VoidItems[0] in area:control_area run data modify block 2 3 2 Text1 set value '{"translate":"%sの虚無のバンドル","color":"light_purple","bold":true,"italic":false,"with":[{"selector":"@a[advancements={item:init_void_bundle=true}]","bold":false}]}'
-execute if data storage item: Items[0].tag.VoidItems[0] in area:control_area run data modify storage item: Items[0].tag.display.Name set from block 2 3 2 Text1
+execute if data storage item: Items[0].tag.VoidItems[0] in area:control_area run data modify block 2 3 2 front_text.messages[0] set value '{"translate":"%sの虚無のバンドル","color":"light_purple","bold":true,"italic":false,"with":[{"selector":"@a[advancements={item:init_void_bundle=true}]","bold":false}]}'
+execute if data storage item: Items[0].tag.VoidItems[0] in area:control_area run data modify storage item: Items[0].tag.display.Name set from block 2 3 2 front_text.messages[0]
 
 #VoidItemsがない場合、購入費をVoidItemsに入れて返金 TODO:通貨に変更 -> バンクからの購入価格に変更(v13α2)
 execute unless data storage item: Items[0].tag.VoidItems[0] in area:control_area run loot replace block 2 2 2 container.0 loot item:item/iron_nugget/currency_gigant_emerald

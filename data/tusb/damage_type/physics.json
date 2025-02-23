@@ -1,0 +1,6 @@
+{
+  "message_id": "tusb:physics_damage",
+  "exhaustion": 0,
+  "scaling": "never",
+  "death_message_type": "default"
+}

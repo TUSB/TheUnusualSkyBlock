@@ -1,0 +1,106 @@
+{
+  "description": {
+    "translate": "アントマン",
+    "color": "yellow"
+  },
+  "supported_items": "#minecraft:enchantable/chest_armor",
+  "exclusive_set": "#tusb:scale",
+  "weight": 1,
+  "max_level": 3,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 9
+  },
+  "max_cost": {
+    "base": 65,
+    "per_level_above_first": 9
+  },
+  "anvil_cost": 25,
+  "slots": [
+    "armor"
+  ],
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "id": "scale_remove",
+        "attribute": "minecraft:generic.scale",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.2,
+          "per_level_above_first": -0.2
+        },
+        "operation": "add_multiplied_total"
+      },
+      {
+        "id": "scale_remove",
+        "attribute": "minecraft:player.block_interaction_range",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.2,
+          "per_level_above_first": -0.2
+        },
+        "operation": "add_multiplied_total"
+      },
+      {
+        "id": "scale_remove",
+        "attribute": "minecraft:player.entity_interaction_range",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.2,
+          "per_level_above_first": -0.2
+        },
+        "operation": "add_multiplied_total"
+      },
+      {
+        "id": "scale_remove",
+        "attribute": "minecraft:generic.safe_fall_distance",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 2,
+          "per_level_above_first": 2
+        },
+        "operation": "add_multiplied_total"
+      },
+      {
+        "id": "scale_remove",
+        "attribute": "minecraft:generic.attack_speed",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 10,
+          "per_level_above_first": 10
+        },
+        "operation": "add_multiplied_total"
+      },
+      {
+        "id": "scale_remove",
+        "attribute": "minecraft:generic.attack_damage",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.2,
+          "per_level_above_first": -0.2
+        },
+        "operation": "add_multiplied_total"
+      },
+      {
+        "id": "scale_remove",
+        "attribute": "minecraft:generic.gravity",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.2,
+          "per_level_above_first": -0.2
+        },
+        "operation": "add_multiplied_total"
+      },
+      {
+        "id": "scale_remove",
+        "attribute": "minecraft:generic.max_health",
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.25,
+          "per_level_above_first": -0.25
+        },
+        "operation": "add_multiplied_total"
+      }
+    ]
+  }
+}

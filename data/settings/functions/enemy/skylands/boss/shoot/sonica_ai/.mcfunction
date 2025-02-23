@@ -1,5 +1,4 @@
 execute if entity @s[tag=GoSign] run function settings:enemy/skylands/boss/shoot/sonica_ai/go_sign
-execute if entity @s[tag=Main] run function settings:enemy/skylands/boss/shoot/sonica_ai/main
 execute if entity @s[tag=MarkerCheck] run function settings:enemy/skylands/boss/shoot/sonica_ai/marker_check
 execute if entity @s[tag=SkillSelectChange] run function settings:enemy/skylands/boss/shoot/sonica_ai/skill_select_change
 execute if entity @s[tag=Facing] run function settings:enemy/skylands/boss/shoot/sonica_ai/facing
@@ -15,11 +14,8 @@ execute if entity @s[tag=MovePoint1] run function settings:enemy/skylands/boss/s
 execute if entity @s[tag=MoveSkillFinish] run function settings:enemy/skylands/boss/shoot/sonica_ai/move_skill_finish
 execute if entity @s[tag=MoveSkillFinishTp] run function settings:enemy/skylands/boss/shoot/sonica_ai/move_skill_finish_tp
 execute if entity @s[tag=Ride] run function settings:enemy/skylands/boss/shoot/sonica_ai/ride
-execute if entity @s[tag=Beam] run function settings:enemy/skylands/boss/shoot/sonica_ai/beam
 execute if entity @s[tag=BeamDamage1] run function settings:enemy/skylands/boss/shoot/sonica_ai/beam_damage1
 execute if entity @s[tag=BeamParticle] run function settings:enemy/skylands/boss/shoot/sonica_ai/beam_particle
-execute if entity @s[tag=BeamMarker] run function settings:enemy/skylands/boss/shoot/sonica_ai/beam_marker
 execute if entity @s[tag=BeamMarkerTp] run function settings:enemy/skylands/boss/shoot/sonica_ai/beam_marker_tp
-execute if entity @s[tag=Wave] run function settings:enemy/skylands/boss/shoot/sonica_ai/wave
 execute if entity @s[tag=WaveDamage1] run function settings:enemy/skylands/boss/shoot/sonica_ai/wave_damage1
 execute if entity @s[tag=WaveParticle1] run function settings:enemy/skylands/boss/shoot/sonica_ai/wave_particle1

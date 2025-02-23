@@ -10,6 +10,7 @@ data remove entity @s DeathLootTable
 execute if block ~ ~ ~ air run function item:sign/set/write
 
 #kill
-data merge entity @s {CustomName:"",Health:0f,Size:0,DeathTime:19s,HandItems:[{},{}],ArmorItems:[{},{},{},{}],Owner:[I;0,0,0,0]}
+data merge entity @s {Health:0f,Size:0,DeathTime:19s,HandItems:[{},{}],ArmorItems:[{},{},{},{}],Owner:[I;0,0,0,0]}
+data remove entity @s CustomName
 execute in area:control_area run tp @s 8 0 8
 kill @s

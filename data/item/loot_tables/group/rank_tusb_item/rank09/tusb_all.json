@@ -81,11 +81,6 @@
         {
           "weight": 2,
           "type": "loot_table",
-          "name": "item:item/gold_nugget/element/5"
-        },
-        {
-          "weight": 2,
-          "type": "loot_table",
           "name": "item:item/gold_nugget/spirit/4"
         },
         {
@@ -157,26 +152,6 @@
           "weight": 3,
           "type": "loot_table",
           "name": "item:item/leather_leggings/cosmo_photon_l"
-        },
-        {
-          "weight": 7,
-          "type": "loot_table",
-          "name": "item:item/netherite_boots/infinity_netherite_b"
-        },
-        {
-          "weight": 7,
-          "type": "loot_table",
-          "name": "item:item/netherite_chestplate/infinity_netherite_c"
-        },
-        {
-          "weight": 7,
-          "type": "loot_table",
-          "name": "item:item/netherite_helmet/infinity_netherite_h"
-        },
-        {
-          "weight": 7,
-          "type": "loot_table",
-          "name": "item:item/netherite_leggings/infinity_netherite_l"
         },
         {
           "weight": 2,

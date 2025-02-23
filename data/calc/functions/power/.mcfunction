@@ -17,4 +17,4 @@ execute store result score _ Ret run data get storage calc: Power.value
 execute if score _ Ret matches 1.. store result storage calc: Power.result int 1 run function calc:power/loop
 
 # 結果を返す
-scoreboard players get _ Calc
+return run scoreboard players get _ Calc

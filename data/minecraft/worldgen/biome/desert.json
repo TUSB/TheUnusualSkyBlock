@@ -9,10 +9,12 @@
     },
     "particle": {
       "options": {
-        "type": "dust",
-        "r": 1,
-        "g": 1,
-        "b": -0.6,
+        "type": "minecraft:dust",
+        "color": [
+          1,
+          1,
+          -0.6
+        ],
         "scale": 2
       },
       "probability": 0.001

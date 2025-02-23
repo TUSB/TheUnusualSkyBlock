@@ -23,4 +23,4 @@ data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法�
 data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier1/common",Count:1,Chance:0.3d}]
 data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s＋なんだぜー！","with":[{"translate":"【能力：追撃】","color":"#00FF00"}]}]'
 # AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Name:"Damage",Player:{},AEC:{Effects:[{Id:2,Amplifier:2b,Duration:200},{Id:15,Amplifier:0b,Duration:200},{Id:17,Amplifier:1b,Duration:200}]}}]}
+data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Name:"Damage",Player:{},AEC:{effects:[{id:"minecraft:slowness",amplifier:2b,duration:200},{id:"minecraft:blindness",amplifier:0b,duration:200},{id:"minecraft:hunger",amplifier:1b,duration:200}]}}]}
