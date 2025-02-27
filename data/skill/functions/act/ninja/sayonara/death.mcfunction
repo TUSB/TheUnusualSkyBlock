@@ -5,6 +5,7 @@ function makeup:skill/act/ninja/sayonara/death
 
 ###レイズ付与
 execute if score @s MP matches 100.. run tag @s add Raise
+execute if score @s MP matches 100.. run tag @s add Sayonara
 
 ### ダメージ
 execute if score _ Level matches 1 run data modify storage skill: Damage set from storage skill: Data.Ninja[{Name:"サヨナラ",Level:1}].Damage

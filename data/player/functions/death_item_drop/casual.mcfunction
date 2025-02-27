@@ -13,10 +13,9 @@
     data modify storage item: Item set value []
     data modify storage item: Item append from storage item: Items[{tag:{Tomb:1b}}]
     execute if data storage item: Item[0] run data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DeathInventory append from storage item: Item[]
-    clear @s stone_sword{Tomb:1b}
+    data remove storage item: Items[{tag:{Tomb:1b}}]
 
 # 墓情報をディスプレイに刻む
-    data modify storage item: Items set from entity @s Inventory
     execute if data storage item: Items[0] in area:control_area run function player:death_item_drop/tomb
 
 # 名前を表示するためのtext_displayを呼び出す

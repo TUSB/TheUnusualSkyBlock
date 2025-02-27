@@ -1,3 +1,4 @@
+#> skill:act/hunter/stakes_fire/apply
 ##############################
 ### ステークスファイア適用
 ##############################
@@ -6,7 +7,6 @@
 tag @s add Skill
 tag @s add StakesFire
 tag @s add NativeTask
-execute if data storage skill: Damage{Effectiveness:0} run tag @s add StakesFailed
-execute unless data storage skill: Damage{Effectiveness:0} run tag @s add StakesSucceeded
+execute unless entity @s[tag=StakesFailed] run tag @s add StakesSucceeded
 #演出
 function makeup:skill/act/hunter/stakes_fire/apply

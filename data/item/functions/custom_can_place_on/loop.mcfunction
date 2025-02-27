@@ -9,7 +9,6 @@ data modify storage item: Items[0].tag.CanPlaceOn set value ["#item:can_place_on
 data modify storage item: Items[0].tag.HideFlags set value 16
 data modify storage item: Items[0].tag.CustomCanPlaceOn set value 1b
 data modify storage item: Items[0].tag.display.Lore append value '{"translate":"アドベンチャーエリアで設置可能","italic":false,"color":"gray"}'
-item modify entity @s weapon.mainhand item:storage/item
 function item:system/shulker_box/save
 #プレイヤーにルート
 data modify storage item: Slot set from storage item: CanPlaceOn[-1].Slot
