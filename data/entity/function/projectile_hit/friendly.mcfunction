@@ -1,3 +1,4 @@
+#> entity:projectile_hit/friendly
 #ダメージ
 execute as @e[tag=EnemyProjectile,distance=..3,limit=1,sort=nearest] run function #oh_my_dat:please
 data modify storage mob_data: MobName set from entity @e[tag=EnemyProjectile,distance=..3,limit=1,sort=nearest] CustomName

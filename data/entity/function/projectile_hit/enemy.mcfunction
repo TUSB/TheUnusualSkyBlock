@@ -1,3 +1,4 @@
+#> entity:projectile_hit/enemy
 #ダメージ
 execute as @e[tag=FriendlyProjectile,distance=..3,limit=1,sort=nearest] run function #oh_my_dat:please
 data remove storage skill: Damage

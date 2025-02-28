@@ -1,3 +1,4 @@
+#> entity:initialize_projectile
 ### 飛翔物属性付与
 tag @s[tag=!Cargo] add TickingRequired
 tag @s add FlyingRequired
