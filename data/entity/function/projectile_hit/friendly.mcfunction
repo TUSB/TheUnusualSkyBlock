@@ -13,4 +13,4 @@ execute if entity @s[nbt=!{Health:0.0f}] run function makeup:enemy/projectile_hi
 #無敵時間を設定
 scoreboard players set @s ProjectileTime -10
 #被ダメージトリガー
-execute if entity @s[type=!player] run function player:trigger/damage_taken
+execute if entity @s[type=player] run function player:trigger/damage_taken
