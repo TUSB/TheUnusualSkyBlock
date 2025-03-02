@@ -5,7 +5,7 @@
 # @within function skill:practice/act/common
 
 # ダメージ保存
-    data modify storage skill: Damage set from storage skill: Data.Common[{Name:"ソニックバースト",Level:1}].Damage
+    data modify storage skill: damage set from storage skill: Data.Common[{Name:"ソニックバースト",Level:1}].Damage
 
 # ループ処理開始
     scoreboard players set _ Calc 12
