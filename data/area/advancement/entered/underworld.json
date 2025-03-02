@@ -1,13 +1,13 @@
 {
-    "criteria": {
-        "triggered": {
-            "trigger": "minecraft:changed_dimension",
-            "conditions": {
-                "to": "area:underworld"
-            }
-        }
-    },
-    "rewards": {
-        "function": "area:entered/underworld"
+  "criteria": {
+    "triggered": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "area:underworld"
+      }
     }
+  },
+  "rewards": {
+    "function": "area:entered/underworld"
+  }
 }
