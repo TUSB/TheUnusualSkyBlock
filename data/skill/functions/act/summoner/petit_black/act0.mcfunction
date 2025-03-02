@@ -1,8 +1,8 @@
 #> skill:act/summoner/petit_black/act0
 
 # ダメージ
-    execute if score _ Level matches 1 run data modify storage skill: Damage set from storage skill: Data.Summoner[{Name:"サモンぷちブラック",Level:1}].Damage
-    execute if score _ Level matches 2 run data modify storage skill: Damage set from storage skill: Data.Summoner[{Name:"サモンぷちブラック",Level:2}].Damage
+    execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.Summoner[{Name:"サモンぷちブラック",Level:1}].Damage
+    execute if score _ Level matches 2 run data modify storage skill: damage set from storage skill: Data.Summoner[{Name:"サモンぷちブラック",Level:2}].Damage
     function skill:damage/add/skill/magic
 
 # 矢とAECを召喚

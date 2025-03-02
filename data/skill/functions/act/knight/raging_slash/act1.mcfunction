@@ -13,9 +13,9 @@ scoreboard players add _ RagingDamage 3
 scoreboard players set _ _ 99
 scoreboard players operation _ RagingDamage < _ _
 
-execute if score _ Level matches 1 run data modify storage skill: Damage set from storage skill: Data.Knight[{Name:"猛火斬",Level:1}].Damage
-execute if score _ Level matches 2 run data modify storage skill: Damage set from storage skill: Data.Knight[{Name:"猛火斬",Level:2}].Damage
-execute if score _ Level matches 3 run data modify storage skill: Damage set from storage skill: Data.Knight[{Name:"猛火斬",Level:3}].Damage
+execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"猛火斬",Level:1}].Damage
+execute if score _ Level matches 2 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"猛火斬",Level:2}].Damage
+execute if score _ Level matches 3 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"猛火斬",Level:3}].Damage
 
 #計算前のダメージを保存してリセット
 scoreboard players operation # Damage = @s Damage

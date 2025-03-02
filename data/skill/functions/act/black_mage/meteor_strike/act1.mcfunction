@@ -5,8 +5,8 @@
 scoreboard players set @s Interval 31
 
 # ダメージ
-execute if score _ Level matches 1 run data modify storage skill: Damage set from storage skill: Data.BlackMage[{Name:"メテオストライク",Level:1}].Damage
-execute if score _ Level matches 2 run data modify storage skill: Damage set from storage skill: Data.BlackMage[{Name:"メテオストライク",Level:2}].Damage
+execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.BlackMage[{Name:"メテオストライク",Level:1}].Damage
+execute if score _ Level matches 2 run data modify storage skill: damage set from storage skill: Data.BlackMage[{Name:"メテオストライク",Level:2}].Damage
 function skill:damage/add/skill/magic
 function skill:damage/save
 
