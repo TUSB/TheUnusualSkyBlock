@@ -1,2 +1,2 @@
 #> cmakeup:enemy/projectile_hit
-playsound entity.generic.hurt master @a[distance=..16]
+playsound entity.generic.hurt player @a[distance=..16]
