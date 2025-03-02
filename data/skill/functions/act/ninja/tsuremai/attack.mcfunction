@@ -36,14 +36,14 @@ scoreboard players add @s _ 1
 function makeup:skill/act/ninja/tsuremai/attack
 
 #スキルレベルによるダメージ追加
-execute if score _ Level matches 1 run data modify storage skill: Damage set from storage skill: Data.Ninja[{Name:"連舞",Level:1}].Damage
-execute if score _ Level matches 2 run data modify storage skill: Damage set from storage skill: Data.Ninja[{Name:"連舞",Level:2}].Damage
-execute if score _ Level matches 3 run data modify storage skill: Damage set from storage skill: Data.Ninja[{Name:"連舞",Level:3}].Damage
-execute if score _ Level matches 4 run data modify storage skill: Damage set from storage skill: Data.Ninja[{Name:"連舞",Level:4}].Damage
+execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.Ninja[{Name:"連舞",Level:1}].Damage
+execute if score _ Level matches 2 run data modify storage skill: damage set from storage skill: Data.Ninja[{Name:"連舞",Level:2}].Damage
+execute if score _ Level matches 3 run data modify storage skill: damage set from storage skill: Data.Ninja[{Name:"連舞",Level:3}].Damage
+execute if score _ Level matches 4 run data modify storage skill: damage set from storage skill: Data.Ninja[{Name:"連舞",Level:4}].Damage
 function skill:damage/add/skill/weapon
 
 #ダメージ付与
 #同時に近接スキル発動の場合そちらでダメージ付与するためここでは行わない
 #付与後は近接スキルフラグを付与してダメージ重複を防ぐ
-execute unless data storage item: Item.tag.Skill.Damage{Melee:1b} at 0-0-0-0-2 as @e[tag=Enemy,nbt=!{AbsorptionAmount:1000000f},distance=0] run function skill:damage/apply/
-execute unless data storage item: Item.tag.Skill.Damage{Melee:1b} run data modify storage item: Item.tag.Skill.Damage.Melee set value 1b
+execute unless data storage item: Item.tag.Skill.Damage{melee:1b} at 0-0-0-0-2 as @e[tag=Enemy,nbt=!{AbsorptionAmount:1000000f},distance=0] run function skill:damage/apply/
+execute unless data storage item: Item.tag.Skill.Damage{melee:1b} run data modify storage item: Item.tag.Skill.Damage.melee set value 1b

@@ -3,8 +3,8 @@
 ##############################
 
 #ダメージ
-execute if score _ Level matches 1 run data modify storage skill: Damage set from storage skill: Data.WhiteMage[{Name:"ホーリー",Level:1}].Damage
-execute if score _ Level matches 2 run data modify storage skill: Damage set from storage skill: Data.WhiteMage[{Name:"ホーリー",Level:2}].Damage
+execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.WhiteMage[{Name:"ホーリー",Level:1}].Damage
+execute if score _ Level matches 2 run data modify storage skill: damage set from storage skill: Data.WhiteMage[{Name:"ホーリー",Level:2}].Damage
 function skill:damage/add/skill/magic
 #投射物を召喚
 execute anchored eyes run summon arrow ^ ^ ^0.5 {Tags:[Skill,Holy,NativeTask,FlyingRequired,KillInGround,IgnoreReflection],damage:1,Color:16646019}

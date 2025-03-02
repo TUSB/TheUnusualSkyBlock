@@ -7,8 +7,8 @@ summon snowball ^ ^ ^ {Item:{id:"minecraft:firework_star",Count:1b,tag:{CustomMo
 scoreboard players operation @e[tag=WildCooking,tag=!Initialized,distance=..0.01,limit=1] Level = _ Level
 scoreboard players set @e[tag=WildCooking,tag=!Initialized,distance=..0.01,limit=1] WildCooking 1200
 #ダメージ
-execute if score _ Level matches 1 run data modify storage skill: Damage set from storage skill: Data.Hunter[{Name:"ワイルドクッキング",Level:1}].Damage
-execute if score _ Level matches 2 run data modify storage skill: Damage set from storage skill: Data.Hunter[{Name:"ワイルドクッキング",Level:2}].Damage
+execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.Hunter[{Name:"ワイルドクッキング",Level:1}].Damage
+execute if score _ Level matches 2 run data modify storage skill: damage set from storage skill: Data.Hunter[{Name:"ワイルドクッキング",Level:2}].Damage
 function skill:damage/add/skill/magic
 execute as @e[tag=WildCooking,tag=!Initialized,distance=..0.01] run function skill:damage/save
 #演出

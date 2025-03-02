@@ -8,8 +8,8 @@ execute if score @s MP matches 100.. run tag @s add Raise
 execute if score @s MP matches 100.. run tag @s add Sayonara
 
 ### ダメージ
-execute if score _ Level matches 1 run data modify storage skill: Damage set from storage skill: Data.Ninja[{Name:"サヨナラ",Level:1}].Damage
-execute if score _ Level matches 2 run data modify storage skill: Damage set from storage skill: Data.Ninja[{Name:"サヨナラ",Level:2}].Damage
+execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.Ninja[{Name:"サヨナラ",Level:1}].Damage
+execute if score _ Level matches 2 run data modify storage skill: damage set from storage skill: Data.Ninja[{Name:"サヨナラ",Level:2}].Damage
 function skill:damage/add/skill/magic
 
 ###距離算出/MP補正

@@ -3,10 +3,10 @@
 ##############################
 
 #ダメージ
-execute if score _ Level matches 1 run data modify storage skill: Damage set from storage skill: Data.WhiteMage[{Name:"シャイニングボルト",Level:1}].Damage
-execute if score _ Level matches 2 run data modify storage skill: Damage set from storage skill: Data.WhiteMage[{Name:"シャイニングボルト",Level:2}].Damage
-execute if score _ Level matches 3 run data modify storage skill: Damage set from storage skill: Data.WhiteMage[{Name:"シャイニングボルト",Level:3}].Damage
-execute if score _ Level matches 4 run data modify storage skill: Damage set from storage skill: Data.WhiteMage[{Name:"シャイニングボルト",Level:4}].Damage
+execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.WhiteMage[{Name:"シャイニングボルト",Level:1}].Damage
+execute if score _ Level matches 2 run data modify storage skill: damage set from storage skill: Data.WhiteMage[{Name:"シャイニングボルト",Level:2}].Damage
+execute if score _ Level matches 3 run data modify storage skill: damage set from storage skill: Data.WhiteMage[{Name:"シャイニングボルト",Level:3}].Damage
+execute if score _ Level matches 4 run data modify storage skill: damage set from storage skill: Data.WhiteMage[{Name:"シャイニングボルト",Level:4}].Damage
 function skill:damage/add/skill/magic
 #投射物を召喚
 execute anchored eyes run summon arrow ^ ^ ^0.5 {Tags:[Skill,ShiningBolt,NativeTask,FlyingRequired,KillInGround],damage:1,Color:15897343}
