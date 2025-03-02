@@ -137,7 +137,17 @@
     }
   },
   "requirements": [
-    ["nausea","poison","weakness","wither","blindness","hunger","mining_fatigue","slowness","darkness"]
+    [
+      "nausea",
+      "poison",
+      "weakness",
+      "wither",
+      "blindness",
+      "hunger",
+      "mining_fatigue",
+      "slowness",
+      "darkness"
+    ]
   ],
   "rewards": {
     "function": "effect:bad_effects"

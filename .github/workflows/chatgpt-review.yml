@@ -23,7 +23,8 @@ jobs:
         uses: actions/github-script@v6.3.0
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
+          script:
+            |
             const prNumber = context.payload.issue.number;
             const pr = await github.pulls.get({
               owner: context.repo.owner,
@@ -39,7 +40,8 @@ jobs:
 
       - name: Check if current commit is a merge commit
         id: check_merge
-        run: |
+        run:
+          |
           CURRENT_SHA="${{ steps.pr-info.outputs.sha || github.event.pull_request.head.sha }}"
           PARENTS_COUNT=$(git rev-list --parents -n 1 "${CURRENT_SHA}" | wc -w)
           if [ "${PARENTS_COUNT}" -ge 3 ]; then
@@ -49,12 +51,14 @@ jobs:
 
       - name: Skip on merge commit
         if: steps.check_merge.outputs.is_merge == 'true'
-        run: |
+        run:
+          |
           echo "This is a merge commit. Skipping this job."
           exit 0
 
       - uses: anc95/ChatGPT-CodeReview@main
-        if: |
+        if:
+          |
           (github.event_name == 'pull_request' && github.event.action == 'ready_for_review') ||
           (github.event_name == 'pull_request' && github.event.action == 'synchronize' && contains(github.event.pull_request.labels.*.name, 'プリーズレビュー')) ||
           (github.event_name == 'issue_comment' && github.event.comment.body == '/review')
@@ -64,7 +68,8 @@ jobs:
           LANGUAGE: Japanese
           OPENAI_API_ENDPOINT: https://api.openai.com/v1
           MODEL: o1-mini
-          PROMPT: |
+          PROMPT:
+            |
             Request: perform PR review mcfuntion code for Minecraft 1.21.1
             Role: Respond as code reviewer for Minecraft distribution world “The Unusual SkyBlock”.
             Regulation: keep brief to point, 50-300 words or less
