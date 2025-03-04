@@ -7,7 +7,7 @@ data modify storage entity: damage merge from storage oh_my_dat: _[-4][-4][-4][-
 data modify storage mob_data: MobName set from entity @e[tag=DamageProjectile,distance=..3,limit=1,sort=nearest] CustomName
 # プレイヤーにはダメージを補正
 execute if entity @s[type=player] run function entity:projectile_hit/player
-function entity:damage/apply/physical
+function entity:damage/apply/
 #CallOnAttack
 execute if entity @e[tag=DamageProjectile,tag=CallOnAttackProjectile,distance=..3,limit=1,sort=nearest] at @s run function enemy:ai/call/trigger/attack/projectile
 #演出
