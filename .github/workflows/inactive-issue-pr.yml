@@ -19,13 +19,13 @@ jobs:
           stale-issue-message:
             |
             > [!WARNING]
-            > このissueを最後に更新してから**60日経過**しているため、古くなっています。
-            >  このまま、何も活動の更新がないと**14日後**にこのissueはクローズされます。
+            > このissueを最後に更新してから**365日経過**しているため、古くなっています。
+            >  このまま、何も活動の更新がないと**30日後**にこのissueはクローズされます。
             > クローズを防ぐにはコメント更新するか`古くなった`ラベルを削除してください。
           stale-pr-message:
             |
             > [!WARNING]
-            > このPRは**30日間活動がない**ため、古くなっています。
+            > このPRは**180日間活動がない**ため、古くなっています。
             > このまま、何も活動の更新がないと**14日後**にこのPRはクローズされます。
             > クローズを防ぐにはコメント更新するか`古くなった`ラベルを削除してください。
           close-issue-message:
@@ -36,9 +36,9 @@ jobs:
             |
             > [!IMPORTANT]
             > このPRは、10日間何の活動もなく停滞しているため、クローズされました。
-          days-before-issue-stale: 60
-          days-before-pr-stale: 30
-          days-before-issue-close: 14
+          days-before-issue-stale: 365
+          days-before-pr-stale: 180
+          days-before-issue-close: 30
           days-before-pr-close: 14
           stale-issue-label: 古くなった
           close-pr-label: 自動クローズ
