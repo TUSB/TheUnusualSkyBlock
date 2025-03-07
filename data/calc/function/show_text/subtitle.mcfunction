@@ -5,11 +5,11 @@
 
 #Width
 execute store result score _ TitleOffset run data get storage calc: TextLength
-scoreboard players set _ _ 6
-scoreboard players operation _ TitleOffset /= _ _
+scoreboard players set __ _ 6
+scoreboard players operation _ TitleOffset /= __ _
 
-scoreboard players set _ _ -1
-execute if score @s TitleOffset matches ..-1 run scoreboard players operation _ TitleOffset *= _ _
+scoreboard players set __ _ -1
+execute if score @s TitleOffset matches ..-1 run scoreboard players operation _ TitleOffset *= __ _
 execute if score @s TitleOffset matches ..-1 run scoreboard players operation _ TitleOffset > @s TitleOffset
 execute if score @s TitleOffset matches 1.. run scoreboard players operation _ TitleOffset < @s TitleOffset
 

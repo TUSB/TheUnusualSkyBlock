@@ -78,13 +78,7 @@ scoreboard objectives add Job dummy {"text": "現在のジョブ"}
 scoreboard objectives add Exp dummy {"text":"ジョブ経験値"}
 scoreboard objectives add AllExp dummy {"text": "総獲得経験値"}
 scoreboard objectives add RequiredExp dummy {"text": "ジョブ必要経験値"}
-scoreboard objectives add SubLevel dummy {"text":"現在のジョブのサブレベル"}
-scoreboard objectives add ElementDamageAdd dummy {"text":"属性攻撃力追加"}
-scoreboard objectives add ResistMin dummy {"text":"状態異常耐性下限"}
-scoreboard objectives add AuraRate dummy {"text":"オーラ延長割合"}
 scoreboard objectives add Interval dummy {"text":"スキル発動無効時間"}
-scoreboard objectives add IntervalRate dummy {"text":"スキル発動無効時間短縮割合"}
-scoreboard objectives add MPCostRate dummy {"text":"MP消費軽減割合"}
 scoreboard objectives add KnightLv dummy {"text": "剣士スキルレベル"}
 scoreboard objectives add NinjaLv dummy {"text": "忍者スキルレベル"}
 scoreboard objectives add HunterLv dummy {"text": "狩人スキルレベル"}
@@ -95,7 +89,6 @@ scoreboard objectives add PuppetMasterLv dummy {"text": "絡繰士スキルレ�
 scoreboard objectives add ThiefLv dummy {"text": "怪盗スキルレベル"}
 scoreboard objectives add CanChangeJobFlag dummy {"text":"常時職業変更可能フラグ"}
 scoreboard objectives add ChangeJobLock dummy {"text":"職業変更制限"}
-scoreboard objectives add PotentialLock dummy {"text":"潜在能力割り振り制限"}
 
 ###スキル
 scoreboard objectives add MPHealingWait dummy {"text":"MP回復ウェイト"}
@@ -150,12 +143,6 @@ scoreboard objectives add SkyWalk dummy {"text":"スカイウォーク"}
 scoreboard objectives add RestoreItem trigger {"text":"リスト・アイテム処理選択"}
 scoreboard objectives add SuspiciousPowderTime dummy {"text":"怪しい粉継続秒数"}
 scoreboard objectives add SuspiciousPowderToken dummy {"text":"怪しい粉消費MP量"}
-scoreboard objectives add BurnDebaria dummy {"text":"バーンデバリア効果時間"}
-scoreboard objectives add FreezeDebaria dummy {"text":"フリーズデバリア効果時間"}
-scoreboard objectives add ParalysisDebaria dummy {"text":"パラライズデバリア効果時間"}
-scoreboard objectives add ConfusionDebaria dummy {"text":"コンフュージョンデバリア効果時間"}
-scoreboard objectives add DiseaseDebaria dummy {"text":"ディズィーズデバリア効果時間"}
-scoreboard objectives add DoomDebaria dummy {"text":"ドゥームデバリア効果時間"}
 
 ###バースト ボスバー
 bossbar add skill:burst {"translate":"バーストゲージ","italic":true,"bold":true}
@@ -173,10 +160,8 @@ scoreboard players operation $RndMWCCarry Random /= _ _
 
 ###総獲得経験値量初期化
 scoreboard players add $World AllExp 0
-###他ジョブレベルアップ最大値初期化
-function settings:job/potentials/add_level/upper_limit
 ###特殊デバフ名初期化
-function settings:effects/too_bad_effects
+function settings:effect/too_bad_effects
 
 ###コントロールエリア設定
 execute in area:control_area run forceload add 0 0
@@ -204,8 +189,6 @@ scoreboard objectives add TipsSupTrigger trigger {"text":"TIPS抑制トリガー
 scoreboard objectives add SneakTime minecraft.custom:minecraft.sneak_time {"text":"スニーク時間"}
 scoreboard objectives add SneakTrigger dummy {"text":"スニーク累積時間"}
 scoreboard objectives add SneakFrequency dummy {"text":"スニーク頻度"}
-scoreboard objectives add PotentialTrigger trigger {"text":"潜在能力変更トリガー"}
-scoreboard objectives add PotentialPrev trigger {"text":"潜在能力変更前回トリガー"}
 scoreboard objectives add DamageTaken minecraft.custom:minecraft.damage_taken {"text":"受けたダメージ量"}
 scoreboard objectives add Jump minecraft.custom:minecraft.jump {"text":"ジャンプ"}
 scoreboard objectives add Deaths minecraft.custom:minecraft.deaths {"text":"死亡"}
@@ -258,10 +241,10 @@ function skill:data/
 function settings:player/tips
 
 #飛空島ゲート駅schedule開始
-function area:flying_islands_gate/change
+function area:system/flying_island/gate/change
 #初回は交易島に固定
 data modify storage area: FlyingIslandEnteredFlag set value 1b
-schedule clear area:flying_islands_gate/change
+schedule clear area:system/flying_island/gate/change
 
 #ルーラデフォルト定義
 function settings:skill/black_mage/return/default

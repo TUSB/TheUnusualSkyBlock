@@ -3,7 +3,7 @@
 ##############################
 
 #ダメージデータを取得し、補正を掛ける
-execute if score _ Level matches 1 run data modify storage skill: Damage set from storage skill: Data.Common[{Name:"断罪",Level:1}].Damage
+execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.Common[{Name:"断罪",Level:1}].Damage
 function skill:damage/add/skill/weapon
 
 #斬撃を生成

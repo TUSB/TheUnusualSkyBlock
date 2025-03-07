@@ -13,6 +13,6 @@ execute if score @s Calc matches ..-1 if data storage mob_data: Call.HP.Limit ru
 execute store result storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" int 1 run scoreboard players get _ Calc
 #現在HPの補正
 scoreboard players operation @s _ = @s HPMax
-function enemy:spawn/apply_status/status/hp
+function entity:spawn/apply_status/status/hp
 scoreboard players operation @s HP *= @s HPMax
 scoreboard players operation @s HP /= @s _

@@ -13,6 +13,6 @@ execute if score @s Calc matches ..-1 if data storage mob_data: Call.MP.Limit ru
 execute store result storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" int 1 run scoreboard players get _ Calc
 #現在MPの補正
 scoreboard players operation @s _ = @s MPMax
-function enemy:spawn/apply_status/status/mp
+function entity:spawn/apply_status/status/mp
 scoreboard players operation @s MP *= @s MPMax
 scoreboard players operation @s MP /= @s _

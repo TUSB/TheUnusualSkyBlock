@@ -1,0 +1,41 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:location",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "location": {
+                  "position": {
+                    "x": {
+                      "min": 168,
+                      "max": 277
+                    },
+                    "y": {
+                      "min": 24,
+                      "max": 66
+                    },
+                    "z": {
+                      "min": -976,
+                      "max": -865
+                    }
+                  },
+                  "dimension": "area:skylands"
+                }
+              }
+            },
+            {
+              "condition": "minecraft:reference",
+              "name": "entity:player"
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "area:system/skylands/chaos_islands/first"
+    }
+  }

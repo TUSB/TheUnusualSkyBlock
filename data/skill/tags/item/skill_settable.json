@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "wooden_sword",
+    "stone_sword",
+    "golden_sword",
+    "iron_sword",
+    "diamond_sword",
+    "netherite_sword",
+    "wooden_axe",
+    "stone_axe",
+    "golden_axe",
+    "iron_axe",
+    "diamond_axe",
+    "netherite_axe",
+    "bow",
+    "crossbow",
+    "carrot_on_a_stick",
+    "shield"
+  ]
+}

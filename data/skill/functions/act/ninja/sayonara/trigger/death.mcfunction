@@ -7,4 +7,4 @@ data modify storage skill: Skill.Trigger set value "死ぬ"
 data modify storage skill: Skill.Type set value "Trigger"
 data modify storage skill: Skill.MP set value 0
 execute unless score @s FreezeTimer matches 0.. run function skill:practice/check_type
-execute if score @s FreezeTimer matches 0.. run function makeup:effects/freeze/fail
+execute if score @s FreezeTimer matches 0.. run function makeup:effect/freeze/fail

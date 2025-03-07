@@ -41,7 +41,7 @@ data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].tutorial_alpha 
 data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Raise
 data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].RestoreItemData
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].SkillShortcut set value [{Skill:"<未設定>"},{Skill:"<未設定>"},{Skill:"<未設定>"},{Skill:"<未設定>"},{Skill:"<未設定>"},{Skill:"<未設定>"}]
-data modify storage job: JobStatus set value [{Level:25,Exp:0,CP:{SubLevel:0,MPCostRate:100,ElementDamageAdd:100,AuraRate:100,IntervalRate:100,ResistMin:0}},{Level:25,Exp:0,CP:{SubLevel:0,MPCostRate:100,ElementDamageAdd:100,AuraRate:100,IntervalRate:100,ResistMin:0}},{Level:25,Exp:0,CP:{SubLevel:0,MPCostRate:100,ElementDamageAdd:100,AuraRate:100,IntervalRate:100,ResistMin:0}},{Level:25,Exp:0,CP:{SubLevel:0,MPCostRate:100,ElementDamageAdd:100,AuraRate:100,IntervalRate:100,ResistMin:0}},{Level:25,Exp:0,CP:{SubLevel:0,MPCostRate:100,ElementDamageAdd:100,AuraRate:100,IntervalRate:100,ResistMin:0}},{Level:25,Exp:0,CP:{SubLevel:0,MPCostRate:100,ElementDamageAdd:100,AuraRate:100,IntervalRate:100,ResistMin:0}},{Level:25,Exp:0,CP:{SubLevel:0,MPCostRate:100,ElementDamageAdd:100,AuraRate:100,IntervalRate:100,ResistMin:0}},{},{}]
+data modify storage job: JobStatus set value [{Level:25,Exp:0},{Level:25,Exp:0},{Level:25,Exp:0},{Level:25,Exp:0},{Level:25,Exp:0},{Level:25,Exp:0},{Level:25,Exp:0},{},{}]
 
 scoreboard players set @s Job 0
 function job:status/load
@@ -52,7 +52,7 @@ scoreboard players set @s HunterLv 25
 scoreboard players set @s WhiteMageLv 25
 scoreboard players set @s BlackMageLv 25
 scoreboard players set @s SummonerLv 25
-function effects:status/life_to_max
+function effect:status/life_to_max
 
 execute in area:debug_room run spawnpoint @s -4291 33 808
 

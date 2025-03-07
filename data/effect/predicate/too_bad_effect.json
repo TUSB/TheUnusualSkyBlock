@@ -1,0 +1,159 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type_specific": {
+          "type": "player",
+          "advancements": {
+            "effect:invisible": {
+              "doom": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type_specific": {
+          "type": "player",
+          "advancements": {
+            "effect:invisible": {
+              "super_doom": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type_specific": {
+          "type": "player",
+          "advancements": {
+            "effect:invisible": {
+              "burn": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type_specific": {
+          "type": "player",
+          "advancements": {
+            "effect:invisible": {
+              "freeze": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type_specific": {
+          "type": "player",
+          "advancements": {
+            "effect:invisible": {
+              "palsy": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type_specific": {
+          "type": "player",
+          "advancements": {
+            "effect:invisible": {
+              "confuse": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type_specific": {
+          "type": "player",
+          "advancements": {
+            "effect:invisible": {
+              "curse": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type_specific": {
+          "type": "player",
+          "advancements": {
+            "effect:invisible": {
+              "virus": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type_specific": {
+          "type": "player",
+          "advancements": {
+            "effect:invisible": {
+              "tnt": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type_specific": {
+          "type": "player",
+          "advancements": {
+            "effect:invisible": {
+              "pale": true
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type_specific": {
+          "type": "player",
+          "advancements": {
+            "effect:invisible": {
+              "debility": true
+            }
+          }
+        }
+      }
+    }
+  ]
+}

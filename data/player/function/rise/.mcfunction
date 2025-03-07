@@ -3,21 +3,21 @@
 
 ##体力再設定
 #最大体力
-function effects:status/modify_max
+function effect:status/modify_max
 #MP超過修正
 scoreboard players operation @s MP < @s MPMax
 #ペイル再付与 ロック解除
 scoreboard players set _ _ -1
 execute if score @s PaleLevel matches ..-1 run scoreboard players operation @s PaleLevel *= _ _
-execute if score @s PaleLevel matches 0.. run function effects:pale/health_down
-execute if score @s PaleLevel matches 0.. run function makeup:effects/pale/apply
+execute if score @s PaleLevel matches 0.. run function effect:pale/health_down
+execute if score @s PaleLevel matches 0.. run function makeup:effect/pale/apply
 #全回復
 effect give @s instant_health 1 10 true
 #MP表示修正
 function player:mp_bar/set
 
 ##満腹度調整
-function effects:status/hunger
+function effect:status/hunger
 
 ## ディメンション移動処理
 function #oh_my_dat:please
@@ -33,7 +33,8 @@ execute if entity @s[tag=HasRestoreItems,tag=!Raise] in area:control_area run fu
 execute if entity @s[tag=HasRestoreItems,tag=Raise] run function skill:act/common/restore_item/restore/cancel
 ### レイズ処理
 execute if entity @s[tag=Raise] at @s run function skill:act/white_mage/araise/raise_check
-
+### サヨナラ処理
+execute if entity @s[tag=Sayonara] run function skill:act/ninja/sayonara/rise
 
 ## フラグリセット
 scoreboard players reset @s Hunger

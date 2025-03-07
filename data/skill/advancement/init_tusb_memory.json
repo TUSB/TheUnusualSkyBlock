@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "predicates": {
+              "minecraft:custom_data": "{Skill:{Type:\"TUSBMemory\",Initializing:1b}}"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "skill:tusb_memory/trigger"
+  }
+}

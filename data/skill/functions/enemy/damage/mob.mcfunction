@@ -2,7 +2,7 @@
 ### 他のモブに対して属性ダメージを与える。
 
 #ダメージ取得
-data modify storage skill: Damage set from storage mob_data: Call.Mob
+data modify storage skill: damage set from storage mob_data: Call.Mob
 function skill:damage/add/skill/normal
 
 execute store result score 00000000-0000-0000-0000-000000000000 Calc run data get storage mob_data: Call.Distance.Max 100

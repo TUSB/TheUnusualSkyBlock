@@ -1,0 +1,73 @@
+{
+  "criteria": {
+    "flower_pot": {
+      "trigger": "item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": "#area:potted_pots"
+              },
+              "position": {
+                "x": {
+                  "min": -114,
+                  "max": -112
+                },
+                "y": {
+                  "min": 185,
+                  "max": 187
+                },
+                "z": {
+                  "min": -666,
+                  "max": -662
+                }
+              }
+            }
+          }
+        ]
+      }
+    },
+    "exit_lever": {
+      "trigger": "item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "lever"
+                ]
+              },
+              "position": {
+                "x": {
+                  "min": -157,
+                  "max": -155
+                },
+                "y": {
+                  "min": 182,
+                  "max": 184
+                },
+                "z": {
+                  "min": -686,
+                  "max": -684
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "flower_pot",
+      "exit_lever"
+    ]
+  ],
+  "rewards": {
+    "function": "area:system/skylands/abandoned_hospital/check"
+  }
+}

@@ -1,0 +1,12 @@
+execute if data storage skill: Skill{Name:"斬鉄剣"} run function skill:act/knight/odin_slash/act0
+execute if data storage skill: Skill{Name:"タクティカルヒール"} run function skill:act/knight/tactical_heal/act0
+execute if data storage skill: Skill{Name:"影封縫"} run function skill:act/knight/shadow_thrust/act0
+execute if data storage skill: Skill{Name:"リアクティブヒール"} run function skill:act/knight/reactive_heal/act0
+execute if data storage skill: Skill{Name:"デコイ"} run function skill:act/knight/decoy/act0
+execute if data storage skill: Skill{Name:"鍛冶"} run function skill:act/knight/blacksmith/act0
+execute if data storage skill: Skill{Name:"真空斬り"} run function skill:act/knight/aerial_slash/act0
+execute if data storage skill: Skill{Name:"ディバインシールド"} run function skill:act/knight/divine_shield/act0
+execute if data storage skill: Skill{Name:"猛火斬"} run function skill:act/knight/raging_slash/act0
+execute if data storage skill: Skill{Name:"アイアンウィル"} run function skill:act/knight/iron_will/act0
+execute if data storage skill: Skill{Name:"隼斬り"} run function skill:act/knight/falcon_slash/act0
+execute if data storage skill: Skill{Name:"ファランクス"} run function skill:act/knight/phalanx/act0

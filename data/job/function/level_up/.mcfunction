@@ -38,7 +38,7 @@ function makeup:job/level_up/text
 execute if score _ Level matches ..50 run function job:level_up/acquirement/
 
 #体力・MP調整
-function effects:status/life_to_max
+function effect:status/life_to_max
 
 #スキルレベル更新
 execute if score @s Job matches 1 run scoreboard players operation @s KnightLv = @s Level
