@@ -1,5 +1,5 @@
----
 # kics-scan disable=555ab8f9-2001-455e-a077-f2d0f41e2fb9
+---
 name: Close stale issues and PRs
 on:
   schedule:
@@ -31,11 +31,11 @@ jobs:
           close-issue-message:
             |
             > [!IMPORTANT]
-            > このissueは、**14日間**何の活動もなく停滞していたため、クローズされました。
+            > このissueは、**365日間**何の活動もなく停滞していたため、クローズされました。
           close-pr-message:
             |
             > [!IMPORTANT]
-            > このPRは、10日間何の活動もなく停滞しているため、クローズされました。
+            > このPRは、180日間何の活動もなく停滞しているため、クローズされました。
           days-before-issue-stale: 365
           days-before-pr-stale: 180
           days-before-issue-close: 30
@@ -46,4 +46,4 @@ jobs:
           close-issue-reason: not_planned
           include-only-assigned: true
           exempt-draft-pr: true
-          exempt-issue-labels: "担当募集, 優先度: 高い, リリース予定"
+          exempt-issue-labels: '優先度: 高い, リリース予定'

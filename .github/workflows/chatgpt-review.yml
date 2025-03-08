@@ -1,5 +1,7 @@
-# .github/workflows/chatgpt-review.yml
+# kics-scan disable=555ab8f9-2001-455e-a077-f2d0f41e2fb9
+---
 name: PR Code Review
+
 on:
   pull_request:
     types:
@@ -15,8 +17,24 @@ permissions:
 
 jobs:
   review:
-    if: ${{ github.event_name == 'issue_comment' && github.event.comment.body == '/review' }}
+    # 1) '/review'コメント もしくは
+    # 2) 'レビュープリーズ'ラベル付きPRにコミット があり
+    # 3) すでにマージ済み or マージコミットではない場合にのみ実行
+    if: >
+      (
+        (github.event_name == 'issue_comment' && github.event.comment.body == '/review')
+        OR
+        (
+          github.event_name == 'pull_request' 
+          AND github.event.action == 'synchronize'
+          AND contains(join(github.event.pull_request.labels.*.name, ','), 'レビュープリーズ')
+        )
+      )
+      AND ! github.event.pull_request.merged
+      # もし「Merge branch～」などのタイトルで弾きたいなら、以下のようにすることも可能
+      # AND ! startsWith(github.event.pull_request.title, 'Merge')
     runs-on: ubuntu-latest
+
     steps:
       - uses: anc95/ChatGPT-CodeReview@main
         env:
