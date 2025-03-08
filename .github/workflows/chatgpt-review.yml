@@ -19,8 +19,9 @@ jobs:
   review:
     if: >
       (
-        ! github.event.pull_request.merged
-        AND ! startsWith(github.event.pull_request.title, 'Merge')
+        (github.event_name == 'issue_comment' && github.event.comment.body == '/review')
+        ||
+        ( ! github.event.pull_request.merged && ! startsWith(github.event.pull_request.title, 'Merge') )
       )
     runs-on: ubuntu-latest
 
