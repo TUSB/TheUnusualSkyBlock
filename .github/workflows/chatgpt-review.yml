@@ -17,19 +17,9 @@ permissions:
 
 jobs:
   review:
-    # 1) '/review'コメント もしくは
-    # 2) 'レビュープリーズ'ラベル付きPRにコミット があり
-    # 3) すでにマージ済み or マージコミットではない場合にのみ実行
     if: >
       (
-        (github.event_name == 'issue_comment' && github.event.comment.body == '/review')
-        OR
-        (
-          github.event_name == 'pull_request' 
-          AND github.event.action == 'synchronize'
-          AND contains(join(github.event.pull_request.labels.*.name, ','), 'レビュープリーズ')
-        )      
-        AND ! github.event.pull_request.merged
+        ! github.event.pull_request.merged
         AND ! startsWith(github.event.pull_request.title, 'Merge')
       )
     runs-on: ubuntu-latest
