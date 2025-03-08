@@ -1,13 +1,17 @@
 # kics-scan disable=555ab8f9-2001-455e-a077-f2d0f41e2fb9
 ---
-name: Auto Label for Release PR
+name: Auto Label for Version PR
 
 on:
-  pull_request_target:
+  pull_request:
     types: [opened, reopened, synchronize, edited]
+    branches:
+      - 'releases/**'
+    paths:
+      - 'data/**'
 
 jobs:
-  add-release-label:
+  add-version-label:
     runs-on: ubuntu-latest
     steps:
       - name: Extract version from base ref
