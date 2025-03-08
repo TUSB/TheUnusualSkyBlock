@@ -1,4 +1,4 @@
-
+#>skill:act/knight/phalanx/apply1
 ### ファランクス適用
 
 execute if score _ Level matches 1 run effect give @s minecraft:resistance 20 0

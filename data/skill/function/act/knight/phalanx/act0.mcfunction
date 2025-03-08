@@ -1,4 +1,4 @@
-
+#>skill:act/knight/phalanx/act0
 ### ファランクス発動
 
 function skill:act/knight/phalanx/apply

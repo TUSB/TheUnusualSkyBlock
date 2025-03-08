@@ -1,4 +1,4 @@
-
+#>makeup:skill/act/knight/phalanx/apply
 playsound minecraft:block.anvil.use master @a[distance=..15] ~ ~ ~ 0.8 2
 playsound minecraft:block.anvil.use master @a[distance=..15] ~ ~ ~ 0.8 1.6
 playsound minecraft:block.anvil.use master @a[distance=..15] ~ ~ ~ 0.8 1.2
