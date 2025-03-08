@@ -46,4 +46,4 @@ jobs:
           close-issue-reason: not_planned
           include-only-assigned: true
           exempt-draft-pr: true
-          exempt-issue-labels: '担当募集, 優先度: 高い, リリース予定'
+          exempt-issue-labels: '優先度: 高い, リリース予定'
