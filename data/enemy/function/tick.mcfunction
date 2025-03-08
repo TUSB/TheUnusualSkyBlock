@@ -8,3 +8,6 @@ execute if entity @s[nbt=!{AbsorptionAmount:2048f}] run function enemy:damage/na
 
 ### Mob Hitダメージ
 execute if entity @s[tag=HitDamageTaken] run function enemy:damage/hit
+
+#投射物無敵時間を更新
+scoreboard players add @s ProjectileTime 1

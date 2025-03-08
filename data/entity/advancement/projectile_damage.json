@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "default": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "blocked": false,
+          "type": {
+            "direct_entity": {
+              "type": "#entity:projectiles",
+              "nbt": "{Tags:[DamageProjectile]}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "default"
+    ]
+  ],
+  "rewards": {
+    "function": "entity:projectile_hit/hurt"
+  }
+}
