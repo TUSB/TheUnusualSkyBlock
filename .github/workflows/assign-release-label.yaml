@@ -17,12 +17,8 @@ jobs:
       - name: Extract version from base ref
         id: extract_version
         run: |
-          # Pull Request のマージ先ブランチ名（例: "releases/1-21-1"）を取得
           BASE_REF="${{ github.event.pull_request.base.ref }}"
-
-          # "releases/X-Y-Z" というパターン(数字-数字-数字)かどうかを正規表現でチェック
           if [[ "${BASE_REF}" =~ ^releases/[0-9]+\-[0-9]+\-[0-9]+$ ]]; then
-            # "releases/" 以降を切り出し(= "1-21-1" 部分)
             VERSION="${BASE_REF#releases/}"
             echo "version=$VERSION" >> "$GITHUB_OUTPUT"
           fi
