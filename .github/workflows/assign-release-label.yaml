@@ -1,0 +1,42 @@
+# kics-scan disable=555ab8f9-2001-455e-a077-f2d0f41e2fb9
+---
+name: Auto Label for Version PR
+
+on:
+  pull_request:
+    types:
+      [
+        opened,
+        reopened,
+        synchronize,
+        edited,
+      ]
+    branches:
+      - "releases/**"
+    paths:
+      - 'data/**'
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  add-version-label:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Extract version from base ref
+        id: extract_version
+        run:
+          |
+          BASE_REF="${{ github.event.pull_request.base.ref }}"
+          if [[ "${BASE_REF}" =~ ^releases/[0-9]+\-[0-9]+\-[0-9]+$ ]]; then
+            VERSION="${BASE_REF#releases/}"
+            echo "version=$VERSION" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Add label
+        if: steps.extract_version.outputs.version != ''
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          labels: ${{ steps.extract_version.outputs.version }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
