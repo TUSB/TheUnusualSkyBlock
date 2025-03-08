@@ -4,11 +4,17 @@ name: Auto Label for Version PR
 
 on:
   pull_request:
-    types: [opened, reopened, synchronize, edited]
+    types:
+      [
+        opened,
+        reopened,
+        synchronize,
+        edited,
+      ]
     branches:
-      - 'releases/**'
+      - "releases/**"
     paths:
-      - 'data/**'
+      - "data/**"
 
 jobs:
   add-version-label:
@@ -16,7 +22,8 @@ jobs:
     steps:
       - name: Extract version from base ref
         id: extract_version
-        run: |
+        run:
+          |
           BASE_REF="${{ github.event.pull_request.base.ref }}"
           if [[ "${BASE_REF}" =~ ^releases/[0-9]+\-[0-9]+\-[0-9]+$ ]]; then
             VERSION="${BASE_REF#releases/}"
