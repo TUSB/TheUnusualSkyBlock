@@ -1,4 +1,4 @@
-
+#>skill:act/knight/falcon_slash/decorate/finalize
 ### はやぶさ斬り演出中
 
 scoreboard players remove @s FalconSlashTimer 1

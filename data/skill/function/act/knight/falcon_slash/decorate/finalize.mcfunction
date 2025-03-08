@@ -1,4 +1,4 @@
-
+#>skill:act/knight/falcon_slash/decorate/finalize
 ### はやぶさ斬り演出終了
 
 scoreboard players reset @s FalconSlashTimer

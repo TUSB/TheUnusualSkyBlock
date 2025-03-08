@@ -1,4 +1,4 @@
-
+#>skill:act/knight/falcon_slash/decorate/finalize
 ### はやぶさ斬り演出開始
 
 execute store result score @s FalconSlashTimer run scoreboard players add _ FalconSlashTimer 1
