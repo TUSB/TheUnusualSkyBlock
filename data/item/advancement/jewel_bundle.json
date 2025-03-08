@@ -8,13 +8,17 @@
             "items": [
               "minecraft:gold_nugget"
             ],
-            "predicates": {"minecraft:custom_data":"{EnchantStone:1b}"}
+            "predicates": {
+              "minecraft:custom_data": "{EnchantStone:1b}"
+            }
           },
           {
             "items": [
               "minecraft:bundle"
             ],
-            "predicates": {"minecraft:custom_data":"{JewelBundle:1b}"}
+            "predicates": {
+              "minecraft:custom_data": "{JewelBundle:1b}"
+            }
           }
         ]
       }
