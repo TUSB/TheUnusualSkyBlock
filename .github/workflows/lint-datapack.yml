@@ -78,6 +78,10 @@ jobs:
           title: "[Fix] Apply linters automatic fixes"
           labels: bot
           base: ${{ github.head_ref }}
+          body: |
+            MegaLinter による自動修正を適用したPRです。
+            元のPR: #${{ github.event.pull_request.number }}
+            
 
       - name: Create PR output
         if:
@@ -98,6 +102,28 @@ jobs:
           echo "Pull Request Number - ${{ steps.cpr.outputs['pull-request-number'] }}"
           echo "Pull Request URL - ${{ steps.cpr.outputs['pull-request-url'] }}"
 
+      - name: Comment on original PR with link to created PR
+        if: >
+          failure() &&
+          steps.ml.outputs.has_updated_sources == 1 &&
+          (
+            env.APPLY_FIXES_EVENT == 'all' ||
+            env.APPLY_FIXES_EVENT == github.event_name
+          ) &&
+          env.APPLY_FIXES_MODE == 'pull_request' &&
+          (
+            github.event_name == 'push' ||
+            github.event.pull_request.head.repo.full_name == github.repository
+          ) &&
+          !contains(env.HEAD_COMMIT_MESSAGE, 'skip fix')
+        uses: peter-evans/create-or-update-comment@v2
+        with:
+          token: ${{ steps['app-token'].outputs.token }}
+          issue-number: ${{ github.event.pull_request.number }}
+          body: |
+            > [!NOTE]
+            > 自動生成されたLint修正PRが作成されました: ${{ steps.cpr.outputs['pull-request-url'] }}
+          
       - name: Prepare commit
         if:
           failure() &&
