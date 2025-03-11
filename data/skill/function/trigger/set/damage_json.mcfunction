@@ -1,5 +1,5 @@
 #> skill:trigger/set/damage_json
-data modify storage skill: damagejson.NewLine set value '[{"storage":"skill:","nbt":"NewLine","interpret":true}]'
+data modify storage skill: damagejson.newline set value '[{"storage":"skill:","nbt":"NewLine","interpret":true}]'
 execute if data storage skill: Skill.Damage.Physical run data modify storage skill: damagejson.Physical set value '[{"text":""},{"text":"p","font":"icon","color":"white"},{"storage":"skill:","nbt":"Skill.Damage.Physical","color":"white"}]'
 execute if data storage skill: Skill.Damage.Fire run data modify storage skill: damagejson.Fire set value '[{"text":""},{"text":"f","font":"icon","color":"red"},{"storage":"skill:","nbt":"Skill.Damage.Fire","color":"red"}]'
 execute if data storage skill: Skill.Damage.Ice run data modify storage skill: damagejson.Ice set value '[{"text":""},{"text":"c","font":"icon","color":"aqua"},{"storage":"skill:","nbt":"Skill.Damage.Ice","color":"aqua"}]'
