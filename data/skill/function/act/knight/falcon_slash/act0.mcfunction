@@ -8,9 +8,6 @@ execute if score _ Level matches 3 run data modify storage skill: damage set fro
 execute if score _ Level matches 4 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"隼斬り",Level:4}].Damage
 execute if score _ Level matches 5 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"隼斬り",Level:5}].Damage
 
-# ダメージ計算
-function skill:damage/add/skill/weapon
-
 # 周りのモブにダメージ付与
 execute positioned ^ ^ ^5 as @e[tag=Enemy,distance=..6] run function skill:damage/apply/
 
