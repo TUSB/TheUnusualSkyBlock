@@ -1,4 +1,4 @@
-
+#>skill:act/knight/falcon_slash/act0
 ### はやぶさ斬り発動
 
 # ダメージ
