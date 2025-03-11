@@ -24,7 +24,7 @@ data modify storage item: Item.components."minecraft:lore" append from block 2 3
 #ダメージ
 data remove storage skill: damagejson
 execute if data storage skill: Skill.Damage run function skill:trigger/set/damage_json
-execute if data storage skill: Skill.Damage run data modify block 2 3 2 front_text.messages[0] set value '{"storage":"skill:","nbt":"damagejson.Damage","italic":false,"interpret":true}'
+execute if data storage skill: Skill.Damage run data modify block 2 3 2 front_text.messages[0] set value '{"storage":"skill:","nbt":"damagejson.damage","italic":false,"interpret":true}'
 execute if data storage skill: Skill.Damage run data modify storage item: Item.components."minecraft:lore" append from block 2 3 2 front_text.messages[0]
 #インターバルチェック
 data modify storage skill: Skill.ShowInterval set value 1b
