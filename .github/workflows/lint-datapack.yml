@@ -163,3 +163,16 @@ jobs:
           commit_message: "NO-ISSUE Fix Apply linters fixes"
           commit_user_name: linter-bot
           commit_user_email: bot@skyblock.jp
+  datapack-linter:
+    name: dp-lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: lint
+        uses: ChenCMD/datapack-linter@v2.0.9
+        with:
+          GITHUB_TOKEN: ${{ github.token }}
