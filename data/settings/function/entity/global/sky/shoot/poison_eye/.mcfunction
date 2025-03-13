@@ -1,0 +1,10 @@
+execute if entity @s[tag=Main] run function settings:entity/global/sky/shoot/poison_eye/main
+execute if entity @s[tag=PoisonBall] run function settings:entity/global/sky/shoot/poison_eye/poison_ball
+execute if entity @s[tag=PoisonBallMarker] run function settings:entity/global/sky/shoot/poison_eye/poison_ball_marker
+execute if entity @s[tag=Smog] run function settings:entity/global/sky/shoot/poison_eye/smog
+execute if entity @s[tag=SmogSummon] run function settings:entity/global/sky/shoot/poison_eye/smog_summon
+execute if entity @s[tag=Tick] run function settings:entity/global/sky/shoot/poison_eye/tick
+execute if entity @s[tag=Effect] run function settings:entity/global/sky/shoot/poison_eye/effect
+execute if entity @s[tag=PoisonBallInit] run function settings:entity/global/sky/shoot/poison_eye/poison_ball_init
+execute if entity @s[tag=PoisonBallTick] run function settings:entity/global/sky/shoot/poison_eye/poison_ball_tick
+execute if entity @s[tag=SmogTick] run function settings:entity/global/sky/shoot/poison_eye/smog_tick
