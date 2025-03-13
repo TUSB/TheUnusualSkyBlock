@@ -98,7 +98,7 @@ scoreboard objectives add Burst dummy {"text":"バースト管理"}
 #剣士
 scoreboard objectives add FalconSlashTimer dummy {"text":"はやぶさ斬り遅延タイマー"}
 scoreboard objectives add IronWill dummy {"text":"アイアンウィル残りtick数"}
-scoreboard objectives add RagingDamage dummy {"text":"猛火斬ダメージ"}
+scoreboard objectives add RagingCount dummy {"text":"猛火斬回数"}
 scoreboard objectives add OdinSlash dummy {"text":"斬鉄剣発動タイミング調整"}
 scoreboard objectives add ReactiveLevel dummy {"text":"リアクティブヒールレベル"}
 scoreboard objectives add TacticalHeal dummy {"text":"タクティカルヒール持続確率"}
