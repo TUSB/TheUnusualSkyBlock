@@ -10,8 +10,7 @@ execute if score @s BlinkSubTimer matches 1.. run function skill:enemy/blink/act
 ###隼斬り遅延発動処理
 execute if score @s FalconSlashTimer matches 1.. run function skill:act/knight/falcon_slash/decorate/tick
 
-###猛火斬ダメージ付与処理
-execute if score @s RagingDamage matches 1.. run function skill:act/knight/raging_slash/tick
-
+###猛火斬
+execute if entity @s[tag=RagingSlash] run function skill:act/knight/raging_slash/tick0
 ###詠唱演出
 execute if score @s NextActionTick matches 1.. run function skill:enemy/delay_action/act/
