@@ -22,9 +22,9 @@ data modify storage item: Item.components."minecraft:lore" append from block 2 3
 data modify block 2 3 2 front_text.messages[0] set value '[{"text":"","color":"white","italic":false},{"text":"M","font":"icon","color":"aqua"},{"translate":" 消費MP: "},{"storage":"skill:","nbt":"Skill.MP"}]'
 data modify storage item: Item.components."minecraft:lore" append from block 2 3 2 front_text.messages[0]
 #ダメージ
-data remove storage skill: damagejson
+data remove storage skill: damage_json
 execute if data storage skill: Skill.Damage run function skill:trigger/set/damage_json
-execute if data storage skill: Skill.Damage run data modify block 2 3 2 front_text.messages[0] set value '{"storage":"skill:","nbt":"damagejson.damage","italic":false,"interpret":true}'
+execute if data storage skill: Skill.Damage run data modify block 2 3 2 front_text.messages[0] set value '{"storage":"skill:","nbt":"damage_json.damage","italic":false,"interpret":true}'
 execute if data storage skill: Skill.Damage run data modify storage item: Item.components."minecraft:lore" append from block 2 3 2 front_text.messages[0]
 #インターバルチェック
 data modify storage skill: Skill.ShowInterval set value 1b
