@@ -1,6 +1,6 @@
 #> skill:trigger/set/damage_json
 data modify storage skill: damage_json.new_line set value '[{"storage":"skill:","nbt":"NewLine","interpret":true}]'
-execute if data storage skill: Skill.Damage.Physical run data modify storage skill: damage_json.physical set value '[{"text":""},{"text":"p","font":"icon","color":"white"},{"storage":"skill:","nbt":"Skill.Damage.Physical","color":"white"}]'
+execute if data storage skill: Skill.Damage.physical run data modify storage skill: damage_json.physical set value '[{"text":""},{"text":"p","font":"icon","color":"white"},{"storage":"skill:","nbt":"Skill.Damage.physical","color":"white"}]'
 execute if data storage skill: skill.damage.magic run data modify storage skill: damage_json.magic set value '[{"text":""},{"text":"l","font":"icon","color":"yellow"},{"storage":"skill:","nbt":"Skill.Damage.magic","color":"yellow"}]'
 execute if data storage skill: Skill.damage.unreasonable run data modify storage skill: damage_json.unreasonable set value '[{"text":""},{"text":"d","font":"icon","color":"light_purple"},{"storage":"skill:","nbt":"skill.damage.unreasonable","color":"light_purple"}]'
 data modify storage skill: damage_json.damage set value '[{"text":"✦ ","color":"light_purple"},{"translate":"ダメージ: ","color":"white"},{"storage":"skill:","nbt":"damage_json.physical","interpret":true},{"storage":"skill:","nbt":"damage_json.magic","interpret":true},{"storage":"skill:","nbt":"damage_json.unreasonable","interpret":true}]'
