@@ -13,17 +13,18 @@ scoreboard players operation _ Level = @s RagingCount
 scoreboard players set _ _ 1000
 scoreboard players operation _ Level /= _ _
 
+# 回数判定
+scoreboard players remove @s RagingCount 1
+scoreboard players operation _ RagingCount = @s RagingCount
+scoreboard players operation _ RagingCount %= _ _
+execute if score _ RagingCount matches ..0 run function skill:act/knight/raging_slash/finalize
+
 # ダメージを取得、適用
 execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"猛火斬",Level:1}].Damage
 execute if score _ Level matches 2 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"猛火斬",Level:2}].Damage
 execute if score _ Level matches 3 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"猛火斬",Level:3}].Damage
 function skill:damage/apply/
 
-# 回数判定
-scoreboard players remove @s RagingCount 1
-scoreboard players operation _ RagingCount = @s RagingCount
-scoreboard players operation _ RagingCount %= _ _
-execute if score _ RagingCount matches ..0 run function skill:act/knight/raging_slash/finalize
 
 tag @s add HitDamageTaken
 tag @s add ReceivedPhysicalDamage
