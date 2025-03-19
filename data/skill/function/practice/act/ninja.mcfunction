@@ -1,7 +1,7 @@
 execute if data storage skill: Skill{Name:"サヨナラ"} run function skill:act/ninja/sayonara/act0
+execute if data storage skill: Skill{Name:"影分身"} run function skill:act/ninja/kage_bunshin/act0
 execute if data storage skill: Skill{Name:"風切"} run function skill:act/ninja/kazakiri/act0
 execute if data storage skill: Skill{Name:"介錯"} run function skill:act/ninja/kaishaku/act0
-execute if data storage skill: Skill{Name:"呼魂"} run function skill:act/ninja/kodama/act0
 execute if data storage skill: Skill{Name:"居縮"} run function skill:act/ninja/isukumi/act0
 execute if data storage skill: Skill{Name:"夜駆"} run function skill:act/ninja/yokake/act0
 execute if data storage skill: Skill{Name:"兵糧丸"} run function skill:act/ninja/hyorogan/act0
