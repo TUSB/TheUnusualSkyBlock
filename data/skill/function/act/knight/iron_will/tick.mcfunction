@@ -4,8 +4,6 @@
 ###1tick経過
 scoreboard players remove @s IronWill 1
 
-function makeup:skill/act/knight/iron_will/count
-
 ###効果時間が残っていれば継続
 execute unless score @s IronWill matches ..0 run return fail
 
@@ -16,3 +14,5 @@ attribute @s minecraft:generic.knockback_resistance base set 0
 attribute @s minecraft:generic.explosion_knockback_resistance base set 0
 
 scoreboard players reset @s IronWill
+
+function makeup:skill/act/knight/iron_will/end
