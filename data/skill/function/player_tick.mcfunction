@@ -3,10 +3,6 @@
 ## 使用するときにコメントアウトを外してください。
 # execute if score $Ticks Count matches 0 run function skill:player_one_second
 
-# アイアンウィル
-execute if entity @s[scores={IronWill=1..}] run function skill:act/knight/iron_will/tick
-execute if entity @s[tag=IronWill] run function skill:act/knight/iron_will/load
-
 #インターバル表示
 execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Skill:{ShowInterval:1b}}}}]}] run function skill:show_interval/check
 
@@ -19,3 +15,8 @@ execute unless score _ Luck = @s Luck run function skill:luck_update
 
 # MP回復
 function skill:update_mp/
+
+## 剣士
+# アイアンウィル
+execute if entity @s[scores={IronWill=1..}] run function skill:act/knight/iron_will/tick
+execute if entity @s[tag=IronWill] run function skill:act/knight/iron_will/load
