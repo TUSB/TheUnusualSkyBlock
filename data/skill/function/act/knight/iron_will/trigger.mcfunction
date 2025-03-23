@@ -1,5 +1,5 @@
-#>skill:act/knight/iron_will/trigger
-#@within advancement skill:iron_will
+#> skill:act/knight/iron_will/trigger
+# @within advancement skill:iron_will
 ### アイアンウィル被撃
 
 function skill:act/knight/iron_will/save

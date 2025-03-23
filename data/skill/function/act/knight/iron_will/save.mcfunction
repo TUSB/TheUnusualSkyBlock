@@ -1,4 +1,4 @@
-#>skill:act/knight/iron_will/save
+#> skill:act/knight/iron_will/save
 ### アイアンウィル位置セーブ
 
 ###位置を保存

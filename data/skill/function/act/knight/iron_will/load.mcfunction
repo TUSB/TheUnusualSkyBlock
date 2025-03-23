@@ -1,4 +1,4 @@
-#>skill:act/knight/iron_will/load
+#> skill:act/knight/iron_will/load
 ### アイアンウィル位置ロード
 
 ###TPで慣性削除

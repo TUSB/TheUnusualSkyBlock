@@ -1,4 +1,4 @@
-#>makeup:skill/act/knight/iron_will/act0
+#> makeup:skill/act/knight/iron_will/act0
 playsound minecraft:block.anvil.land player @a[distance=..16] ~ ~ ~ 0.2 0.5
 playsound minecraft:entity.iron_golem.hurt player @a[distance=..16] ~ ~ ~ 1 0
 playsound minecraft:block.piston.contract player @a[distance=..16] ~ ~ ~ 1 0.6

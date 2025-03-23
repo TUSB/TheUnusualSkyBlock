@@ -1,4 +1,4 @@
-#>skill:act/knight/iron_will/tick
+#> skill:act/knight/iron_will/tick
 ### アイアンウィル経過
 
 ###1tick経過

@@ -1,4 +1,4 @@
-#>skill:act/knight/iron_will/act0
+#> skill:act/knight/iron_will/act0
 ### アイアンウィル発動
 
 execute if score _ Level matches 1 run scoreboard players set _ IronWill 100

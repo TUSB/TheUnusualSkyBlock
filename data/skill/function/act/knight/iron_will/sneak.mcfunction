@@ -1,4 +1,4 @@
-#>skill:act/knight/iron_will/sneak
+#> skill:act/knight/iron_will/sneak
 ### アイアンウィル範囲化
 scoreboard players set _ _ 3
 execute as @a[distance=0.1..15] run scoreboard players operation @s IronWill = _ IronWill
