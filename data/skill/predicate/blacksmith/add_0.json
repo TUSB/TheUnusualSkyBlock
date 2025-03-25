@@ -5,7 +5,8 @@
     "equipment": {
       "offhand": {
         "items": [
-          "minecraft:trident"
+          "minecraft:trident",
+          "minecraft:mace"
         ]
       }
     }
