@@ -15,9 +15,6 @@ build/*
 dist/*
 **/_*
 _*
-data/settings/function/entity/*
-data/settings/loot_table/entity/natural_spawn.json
-.gitignore
 # Super-linter outputs
 super-linter-output
 super-linter.log
