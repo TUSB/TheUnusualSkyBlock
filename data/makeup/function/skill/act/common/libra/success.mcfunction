@@ -1,4 +1,4 @@
-#>makeup:skill/act/common/libra/success
+#> makeup:skill/act/common/libra/success
 playsound minecraft:block.note_block.chime player @a[distance=..32] ~ ~ ~ 3 2
 playsound minecraft:entity.illusioner.prepare_mirror player @a[distance=..32] ~ ~ ~ 3 1.4
 playsound minecraft:item.trident.return player @a[distance=..32] ~ ~ ~ 3 1

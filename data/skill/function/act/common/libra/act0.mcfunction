@@ -1,4 +1,4 @@
-#>skill:act/common/libra/act0
+#> skill:act/common/libra/act0
 ### ライブラ
 
 function makeup:skill/act/common/libra/act0

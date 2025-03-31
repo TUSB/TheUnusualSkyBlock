@@ -1,4 +1,4 @@
-#>skill:act/common/libra/success
+#> skill:act/common/libra/success
 ### 補足成功
 
 tag @s add LibraCaster
