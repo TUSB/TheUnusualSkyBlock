@@ -1,6 +1,6 @@
 #> skill:act/knight/divine_shield/act0
 ### ディバインシールド発動
-say a
+
 # スキルダメージ取得
 execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"ディバインシールド",Level:1}].Damage
 execute if score _ Level matches 2 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"ディバインシールド",Level:2}].Damage
