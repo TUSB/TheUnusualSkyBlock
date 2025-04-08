@@ -2,18 +2,18 @@
 ### 鍛冶
 
 ###鍛冶ができるかどうか
-execute store success score @s _ if entity @s[predicate=skill:blacksmith/]
+execute store success score @s _ if items entity @s weapon.offhand #skill:blacksmith/
 
 ###できなければエラーを吐いて中断
 execute if score @s _ matches ..0 run return run function makeup:skill/act/knight/blacksmith/error
 
 ###乱数によってロスト率を算出
 execute store result score _ Random run random value 0..9
-execute if entity @s[predicate=skill:blacksmith/add_10] run scoreboard players add _ Random 10
-execute if entity @s[predicate=skill:blacksmith/add_7] run scoreboard players add _ Random 7
-execute if entity @s[predicate=skill:blacksmith/add_4] run scoreboard players add _ Random 4
-execute if entity @s[predicate=skill:blacksmith/add_1] run scoreboard players add _ Random 1
-execute if entity @s[predicate=skill:blacksmith/add_0] run scoreboard players add _ Random 0
+execute if items entity @s weapon.offhand #skill:blacksmith/add_10 run scoreboard players add _ Random 10
+execute if items entity @s weapon.offhand #skill:blacksmith/add_7 run scoreboard players add _ Random 7
+execute if items entity @s weapon.offhand #skill:blacksmith/add_4 run scoreboard players add _ Random 4
+execute if items entity @s weapon.offhand #skill:blacksmith/add_1 run scoreboard players add _ Random 1
+execute if items entity @s weapon.offhand #skill:blacksmith/add_0 run scoreboard players add _ Random 0
 execute if score _ Level matches 2 run scoreboard players add _ Random 6
 
 ###成功
