@@ -23,3 +23,6 @@ data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from sto
 
 #Target解除
 execute as 0-0-0-0-2 run function calc:geometry/return_marker
+
+### デバッグ用 実行エンティティ数カウント
+execute if data storage main: difficult{world:"debug"} run function debug:ai/usage_rate_2
