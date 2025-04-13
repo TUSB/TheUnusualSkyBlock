@@ -13,7 +13,7 @@ tag @s remove HasCallOnPassenger
 execute if data storage mob_data: AI.Turn[0].Skill[0] store result score @s AI_SkillInterval run data get storage mob_data: AI.Turn[0].Skill[0].Interval.Current
 
 # TurnのExit.Time取得
-execute if data storage mob_data: AI.Turn[0].Exit.Time store result score @s AI_ExitTime run data get storage mob_data: AI.Turn[0].Exit.Time
+execute if data storage mob_data: AI.Turn[0].Exit.Time store result score @s AI_ExitTime run data get storage mob_data: AI.Turn[0].Exit.TimeCount
 
 # TurnのExit.Conditionを持っていることを記録
 execute if data storage mob_data: AI.Turn[0].Exit.Condition run tag @s add HasExitCondition
