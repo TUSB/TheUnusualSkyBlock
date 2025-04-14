@@ -7,7 +7,7 @@
 tag @s add Garbage
 
 ###CallOnTimeOut
-execute if entity @s[tag=CallOnTimeOut] run function enemy:ai/call/trigger/time
+execute if entity @s[tag=CallOnTimeOut] run function ai:call/trigger/time
 
 ###ダークスワンプ処理
 execute if entity @s[tag=DarkSwamp] run function skill:act/black_mage/dark_swamp/tick
