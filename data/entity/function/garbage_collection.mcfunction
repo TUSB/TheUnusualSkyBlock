@@ -3,7 +3,7 @@
 ### エンティティ削除
 ##############################
 
-execute if entity @s[tag=CallOnDeath] at @s run function enemy:ai/call/trigger/death
+execute if entity @s[tag=CallOnDeath] at @s run function ai:call/trigger/death
 # CallOnDeathで復活するならば削除処理は中止
 execute if entity @s[tag=!Garbage] run return fail
 
