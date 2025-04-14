@@ -18,4 +18,4 @@ data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4]."ステータ�
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from storage tusb_mob: "遅延ステータス".AI
 
 ### CallOnInit
-execute if entity @s[tag=CallOnInit] run function enemy:ai/call/trigger/initial
+execute if entity @s[tag=CallOnInit] run function ai:call/trigger/initial
