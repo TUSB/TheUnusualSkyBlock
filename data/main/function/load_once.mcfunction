@@ -220,6 +220,10 @@ team modify Gold color gold
 execute unless score $Hours Count matches 0.. run scoreboard players set $Hours Count 0
 execute unless score $Minutes Count matches 0.. run scoreboard players set $Minutes Count 0
 
+### MobAI Turn用のスコア
+scoreboard objectives add AI_SkillInterval dummy {"text":"AIのスキルインターバル"}
+scoreboard objectives add AI_ExitTime dummy {"text":"AIのTurnExit.Time"}
+
 ###Callから呼び出されるスキル系統のスコア
 scoreboard objectives add ActionTick dummy {"text":"行動時間"}
 scoreboard objectives add NextActionTick dummy {"text":"次の行動時間"}

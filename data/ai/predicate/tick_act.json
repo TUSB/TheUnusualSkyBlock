@@ -1,0 +1,44 @@
+{
+  "condition": "any_of",
+  "terms": [
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Tags:[HasExitCondition]}"
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Tags:[HasCallOnPassenger]}"
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
+        "nbt": "{Tags:[CallOnTick]}"
+      }
+    },
+    {
+      "condition": "entity_scores",
+      "entity": "this",
+      "scores": {
+        "AI_SkillInterval": {
+          "max": 0
+        }
+      }
+    },
+    {
+      "condition": "entity_scores",
+      "entity": "this",
+      "scores": {
+        "AI_ExitTime": {
+          "max": 0
+        }
+      }
+    }
+  ]
+}
