@@ -21,8 +21,11 @@ function entity:tick
 ### Mob tick
 execute as @e[tag=Mob] at @s run function enemy:tick
 
+  ### デバッグ用 ###
+  execute if data storage main: difficult{world:"debug"} run function debug:ai/usage_rate_1
 ### エンティティAI tick
 execute as @e[tag=HasAI] at @s run function ai:tick
+  execute if data storage main: difficult{world:"debug"} run function debug:ai/usage_rate_3
 
 ### 存在する限り毎tick処理呼び出し
 execute as @e[scores={NativeFlag=1..}] at @s run function main:task/native
