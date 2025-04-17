@@ -16,7 +16,7 @@ data modify storage mob_data: AI set from storage oh_my_dat: _[-4][-4][-4][-4][-
 function ai:turn/
 
 ##CallOnTick
-# execute if entity @s[tag=CallOnTick] run function ai:call/trigger/tick
+execute if entity @s[tag=CallOnTick] run function ai:call/trigger/tick
 
 #データを元に戻す
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from storage mob_data: AI
