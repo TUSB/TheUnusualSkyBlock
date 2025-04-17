@@ -49,5 +49,7 @@ execute unless score @s ChangeSettings matches 0 run function main:game_menu/tri
 execute unless score @s ChangeSkill matches 0 run function skill:trigger/
 ### 職業変更
 execute unless score @s ChangeJob matches 0 run function job:change/check
+### 難易度変更
+# execute unless score @s ChangeDifficulty matches 0 run function main:difficulty/change/reject
 ### TIPS抑制
 execute unless score @s TipsSupTrigger matches 0 run function player:tips/suppress
