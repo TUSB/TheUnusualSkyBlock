@@ -1,5 +1,5 @@
 #> player:mcid_change_detected
-function player:initialized
+function player:initialize
 
 tellraw @a ""
 tellraw @a {"translate":"[INFO]\n プレイヤー名の変更を検知しました。ステータスが引き継がれていません。\n以下のページを参考にワールドデータのスコアボードファイルを修正してください。"}
