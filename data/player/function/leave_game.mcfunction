@@ -1,3 +1,4 @@
+#> player:leave_game
 #難易度修正
 difficulty hard
 
