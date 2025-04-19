@@ -1,4 +1,4 @@
-
+#> player:initialize
 #OhMyDat登録
 function #oh_my_dat:please
 
