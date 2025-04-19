@@ -21,4 +21,4 @@ execute if entity @s[tag=HasAI] run function ai:turn/preparation
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from storage mob_data: AI
 
 ### CallOnInit
-execute if entity @s[tag=CallOnInit] run function enemy:ai/call/trigger/initial
+execute if entity @s[tag=CallOnInit] run function ai:call/trigger/initial
