@@ -1,5 +1,5 @@
 #CallOnExitあれば実行
-execute if data storage mob_data: {CallOnExit:1b} run function ai:skill/call
+execute if data storage mob_data: {CallOnExit:1b} run function ai:turn/skill/call
 #Exit直前の、次のTurn準備
 function ai:turn/exit_next_preparation
 #Once=0でなければ次のリストへ
