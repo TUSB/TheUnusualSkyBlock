@@ -1,3 +1,4 @@
+#> ai:turn/skill/call
 #Call
 data modify storage mob_data: CallList set from storage mob_data: AI.Turn[0].Skill[0].Call
 execute store result score # MP run data get storage mob_data: AI.Turn[0].Skill[0].MP

@@ -1,3 +1,4 @@
+#> ai:turn/exit/
 #Exit成功フラグを落とす
 data modify storage mob_data: Exit set value 0b
 #現在のターンスキルにCallOnExitがあるか保存

@@ -1,3 +1,4 @@
+#> ai:turn/skill/loop_range
 #Max-Max+Rangeの乱数をCurrentに代入
 execute store result score _ Calc run function calc:random
 execute store result score _ _ run data get storage mob_data: AI.Turn[0].Skill[0].Loop.Range

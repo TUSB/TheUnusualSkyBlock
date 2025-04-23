@@ -1,3 +1,4 @@
+#> ai:turn/exit/exit
 #CallOnExitあれば実行
 execute if data storage mob_data: {CallOnExit:1b} run function ai:turn/skill/call
 #Exit直前の、次のTurn準備

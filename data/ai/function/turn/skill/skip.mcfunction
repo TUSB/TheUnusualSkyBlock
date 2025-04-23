@@ -1,3 +1,4 @@
+#> ai:turn/skill/skip
 #LoopCountを戻す
 execute unless data storage mob_data: AI.Turn[0].Skill[0].Loop.Range run data modify storage mob_data: AI.Turn[0].Skill[0].Loop.Current set from storage mob_data: AI.Turn[0].Skill[0].Loop.Max
 execute if data storage mob_data: AI.Turn[0].Skill[0].Loop.Range run function ai:turn/skill/loop_range
