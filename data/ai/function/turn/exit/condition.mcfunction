@@ -1,4 +1,5 @@
+#> ai:turn/exit/condition
 #Conditionによるexit
 data modify storage mob_data: Call.Condition set from storage mob_data: AI.Turn[0].Exit.Condition
 execute store result storage mob_data: Success byte 1 run function ai:call/condition/logic/
-execute if data storage mob_data: {Success:1b} run function ai:exit/exit
+execute if data storage mob_data: {Success:1b} run function ai:turn/exit/exit
