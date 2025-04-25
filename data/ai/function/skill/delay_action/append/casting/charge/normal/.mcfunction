@@ -1,0 +1,1 @@
+data modify storage mob_data: AddingAction set value {Stage:30,NextAction:1}

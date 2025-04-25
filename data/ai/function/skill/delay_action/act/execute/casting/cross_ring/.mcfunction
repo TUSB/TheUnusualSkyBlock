@@ -1,0 +1,21 @@
+###詠唱演出 Stage0で終了なので最大数から開始
+execute if data storage mob_data: ExecutingAction{Stage:20} run function makeup:skill/enemy/delay_action/casting/cross_ring/cross_ring_001
+execute if data storage mob_data: ExecutingAction{Stage:19} run function makeup:skill/enemy/delay_action/casting/cross_ring/cross_ring_002
+execute if data storage mob_data: ExecutingAction{Stage:18} run function makeup:skill/enemy/delay_action/casting/cross_ring/cross_ring_003
+execute if data storage mob_data: ExecutingAction{Stage:17} run function makeup:skill/enemy/delay_action/casting/cross_ring/cross_ring_004
+execute if data storage mob_data: ExecutingAction{Stage:16} run function makeup:skill/enemy/delay_action/casting/cross_ring/cross_ring_005
+execute if data storage mob_data: ExecutingAction{Stage:15} run function makeup:skill/enemy/delay_action/casting/cross_ring/cross_ring_006
+execute if data storage mob_data: ExecutingAction{Stage:14} run function makeup:skill/enemy/delay_action/casting/cross_ring/cross_ring_007
+execute if data storage mob_data: ExecutingAction{Stage:13} run function makeup:skill/enemy/delay_action/casting/cross_ring/cross_ring_008
+execute if data storage mob_data: ExecutingAction{Stage:12} run function makeup:skill/enemy/delay_action/casting/cross_ring/cross_ring_009
+execute if data storage mob_data: ExecutingAction{Stage:11} run function makeup:skill/enemy/delay_action/casting/cross_ring/cross_ring_010
+execute if data storage mob_data: ExecutingAction{Stage:10} run function makeup:skill/enemy/delay_action/casting/cross_ring/cross_ring_011
+execute if data storage mob_data: ExecutingAction{Stage:9} run function makeup:skill/enemy/delay_action/casting/cross_ring/cross_ring_012
+execute if data storage mob_data: ExecutingAction{Stage:8} run function makeup:skill/enemy/delay_action/casting/cross_ring/cross_ring_013
+execute if data storage mob_data: ExecutingAction{Stage:7} run function makeup:skill/enemy/delay_action/casting/cross_ring/cross_ring_014
+execute if data storage mob_data: ExecutingAction{Stage:6} run function makeup:skill/enemy/delay_action/casting/cross_ring/cross_ring_015
+execute if data storage mob_data: ExecutingAction{Stage:5} run function makeup:skill/enemy/delay_action/casting/cross_ring/cross_ring_016
+execute if data storage mob_data: ExecutingAction{Stage:4} run function makeup:skill/enemy/delay_action/casting/cross_ring/cross_ring_017
+execute if data storage mob_data: ExecutingAction{Stage:3} run function makeup:skill/enemy/delay_action/casting/cross_ring/cross_ring_018
+execute if data storage mob_data: ExecutingAction{Stage:2} run function makeup:skill/enemy/delay_action/casting/cross_ring/cross_ring_019
+execute if data storage mob_data: ExecutingAction{Stage:1} run function makeup:skill/enemy/delay_action/casting/cross_ring/cross_ring_020

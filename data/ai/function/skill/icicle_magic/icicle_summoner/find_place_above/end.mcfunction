@@ -1,0 +1,1 @@
+scoreboard players set $LoopCount _ 0
