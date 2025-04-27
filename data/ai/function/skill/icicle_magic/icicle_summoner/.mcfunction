@@ -1,3 +1,4 @@
+#> ai:skill/icicle_magic/icicle_summoner/
 ###ランダムな方向をむかせる処理
 
 ###氷柱設置場所探索

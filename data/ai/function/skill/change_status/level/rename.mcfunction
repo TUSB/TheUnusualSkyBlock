@@ -1,3 +1,4 @@
+#> ai:skill/change_status/level/rename
 data modify entity @s CustomName set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4]."ステータス".CustomName
 execute unless data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4]."ステータス".CustomName run data modify entity @s CustomName set value ''
 execute in area:control_area run loot replace block 2 2 2 container.0 loot entity:name_with_level

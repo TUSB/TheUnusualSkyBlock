@@ -1,3 +1,4 @@
+#> ai:skill/change_turn/
 #AI.Turn[0].ExitにChangeTurnフラグを追加
 data modify storage mob_data: AI.Turn[0].Exit.ChangeTurn set value 1b
 #Onceを進める

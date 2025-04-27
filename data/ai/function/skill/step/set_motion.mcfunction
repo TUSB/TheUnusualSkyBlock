@@ -1,2 +1,3 @@
+#> ai:skill/step/set_motion
 execute if entity @s[type=!#entity:use_power_projectile] run data modify entity @s Motion set from entity 0-0-0-0-0 Pos
 execute if entity @s[type=#entity:use_power_projectile] run data modify entity @s power set from entity 0-0-0-0-0 Pos

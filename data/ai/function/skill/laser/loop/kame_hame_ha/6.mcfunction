@@ -1,3 +1,4 @@
+#> ai:skill/laser/loop/kame_hame_ha/6
 #ダメージ処理
 execute positioned ~-3 ~-3 ~-3 as @a[gamemode=!creative,gamemode=!spectator,nbt={DeathTime:0s},scores={ProjectileTime=0..},dx=0,dy=0,dz=0] run function skill:enemy/laser/main/damage
 

@@ -1,3 +1,4 @@
+#> ai:skill/smart_motion/speed
 #Set, Add
 execute store result score @s Calc run data get storage mob_data: Call.Speed.Add
 execute store result score @s _ run data get storage mob_data: Call.Speed.Range

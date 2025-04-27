@@ -1,3 +1,4 @@
+#> ai:skill/change_ai
 #AIを書き換え
 execute if data storage mob_data: Call.Death run data modify storage mob_data: AI.Death set from storage mob_data: Call.Death
 execute if data storage mob_data: Call.Time run data modify storage mob_data: AI.Time set from storage mob_data: Call.Time

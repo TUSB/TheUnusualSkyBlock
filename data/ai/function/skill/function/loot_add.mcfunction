@@ -1,3 +1,4 @@
+#> ai:skill/function/loot_add
 # 対象のMobにDeathLootTableを追加する。
 
 function #oh_my_dat:please

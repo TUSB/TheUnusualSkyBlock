@@ -1,3 +1,4 @@
+#> ai:skill/laser/loop/security_laser/dual/
 #ダメージ処理
 execute positioned ~-0.5 ~-0.5 ~-0.5 as @e[predicate=entity:friendly,scores={ProjectileTime=0..},dx=0,dy=0,dz=0] run function skill:enemy/laser/loop/security_laser/dual/damage
 

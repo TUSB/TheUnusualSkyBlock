@@ -1,3 +1,4 @@
+#> ai:skill/smart_motion/gravity
 #Set, Add
 execute store result score @s Calc run data get storage mob_data: Call.Gravity.Add
 execute store result score @s _ run data get storage mob_data: Call.Gravity.Range

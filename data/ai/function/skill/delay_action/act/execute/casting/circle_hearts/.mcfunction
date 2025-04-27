@@ -1,3 +1,4 @@
+#> ai:skill/delay_action/act/execute/casting/circle_hearts/
 ###詠唱演出 Stage0で終了なので最大数から開始
 execute if data storage mob_data: ExecutingAction{Stage:30} run function makeup:skill/enemy/delay_action/casting/circle_hearts/fc_001
 execute if data storage mob_data: ExecutingAction{Stage:29} run function makeup:skill/enemy/delay_action/casting/circle_hearts/fc_002

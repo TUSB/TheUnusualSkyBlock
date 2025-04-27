@@ -1,3 +1,4 @@
+#> ai:skill/blink/activate/success
 execute store result storage mob_data: Blink.Count int 0.99999 run data get storage mob_data: Blink.Count
 scoreboard players reset @s Damage
 

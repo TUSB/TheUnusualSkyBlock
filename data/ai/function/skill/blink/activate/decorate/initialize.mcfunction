@@ -1,3 +1,4 @@
+#> ai:skill/blink/activate/decorate/initialize
 scoreboard players set @s BlinkSubTimer 7
 scoreboard players add @s NativeFlag 100
 

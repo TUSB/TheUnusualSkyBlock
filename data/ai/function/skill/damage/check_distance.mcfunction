@@ -1,4 +1,4 @@
-
+#> ai:skill/damage/check_distance
 ### Distance内か詳しく調べる
 # 範囲内ならダメージ付与
 

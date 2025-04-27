@@ -1,4 +1,4 @@
-
+#> ai:skill/rotate
 #Horizontal
 execute store result score _ _ run data get storage mob_data: Call.Horizontal 100
 execute store result score _ Calc run data get entity @s Rotation[0] 100

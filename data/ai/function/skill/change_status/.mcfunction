@@ -1,3 +1,4 @@
+#> ai:skill/change_status/
 data modify storage tusb_mob: "遅延ステータス"."ステータス" set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4]."ステータス" 
 
 execute if data storage mob_data: Call.Level run function skill:enemy/change_status/level/

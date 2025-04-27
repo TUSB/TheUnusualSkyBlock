@@ -1,3 +1,4 @@
+#> ai:skill/delay_action/act/execute/casting/pillar_of_water/
 ###詠唱演出 Stage0で終了なので最大数から開始
 execute if data storage mob_data: ExecutingAction{Stage:20} run function makeup:skill/enemy/delay_action/casting/pillar_of_water/fc_001
 execute if data storage mob_data: ExecutingAction{Stage:19} run function makeup:skill/enemy/delay_action/casting/pillar_of_water/fc_002

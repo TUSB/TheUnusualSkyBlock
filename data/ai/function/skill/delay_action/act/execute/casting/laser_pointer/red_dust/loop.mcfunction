@@ -1,3 +1,4 @@
+#> ai:skill/delay_action/act/execute/casting/laser_pointer/red_dust/loop
 function makeup:skill/enemy/delay_action/casting/laser_pointer/red_dust/particle/red_dust
 
 

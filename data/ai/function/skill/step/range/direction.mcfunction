@@ -1,3 +1,4 @@
+#> ai:skill/step/range/direction
 ### Directionに0~DirectionRangeを足す
 # 水平
 execute store result score _ Calc run function calc:random

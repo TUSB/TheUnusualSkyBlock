@@ -1,3 +1,4 @@
+#> ai:skill/delay_action/act/execute/common
 ###共通処理
 execute store result storage mob_data: ExecutingAction.Stage int 0.999999 run data get storage mob_data: ExecutingAction.Stage
 data modify storage mob_data: ExecutingAction.Executed set value 1b

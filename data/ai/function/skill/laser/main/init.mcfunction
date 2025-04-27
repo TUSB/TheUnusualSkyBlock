@@ -1,3 +1,4 @@
+#> ai:skill/laser/main/init
 #ダメージ設定
 data modify storage score_damage: Argument set value {DamageType:[Global,Projectile]}
 data modify storage score_damage: Argument merge from storage mob_data: Call.Argument

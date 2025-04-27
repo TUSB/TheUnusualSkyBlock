@@ -1,3 +1,4 @@
+#> ai:skill/damage/
 #MPの吸収量を初期化
 scoreboard players set _ MPMax 0
 

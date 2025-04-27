@@ -1,3 +1,4 @@
+#> ai:skill/delay_action/act/execute/casting/doom_bomb/
 ###詠唱演出 Stage0で終了なので最大数から開始
 function calc:geometry/tp_00000
 execute store result score _ Random run function calc:random

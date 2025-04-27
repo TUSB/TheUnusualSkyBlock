@@ -1,3 +1,4 @@
+#> ai:skill/delay_action/append/search
 ##ListSizeGet "_ Calc"
 ##Loop最大回数を設定
 #scoreboard players set _ Calc 0

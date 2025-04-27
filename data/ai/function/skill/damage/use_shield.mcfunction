@@ -1,4 +1,4 @@
-
+#> ai:skill/damage/use_shield
 ### 盾で防御
 function makeup:player/trigger/using/shield
 #装備を取得

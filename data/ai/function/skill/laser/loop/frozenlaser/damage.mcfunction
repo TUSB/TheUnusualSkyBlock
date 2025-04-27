@@ -1,3 +1,4 @@
+#> ai:skill/laser/loop/frozenlaser/damage
 #ループを0に。
 data modify storage mob_data: Call.Loop set value 0
 

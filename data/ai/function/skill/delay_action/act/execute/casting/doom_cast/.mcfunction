@@ -1,3 +1,4 @@
+#> ai:skill/delay_action/act/execute/casting/doom_cast/
 ###詠唱演出 Stage0で終了なので最大数から開始
 execute if data storage mob_data: ExecutingAction{Stage:15} anchored eyes run function makeup:skill/enemy/delay_action/casting/doom_cast/doom_cast_01
 execute if data storage mob_data: ExecutingAction{Stage:14} anchored eyes run function makeup:skill/enemy/delay_action/casting/doom_cast/doom_cast_02

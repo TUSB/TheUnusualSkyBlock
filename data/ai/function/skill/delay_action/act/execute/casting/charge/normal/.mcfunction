@@ -1,3 +1,4 @@
+#> ai:skill/delay_action/act/execute/casting/charge/normal/
 ## 呼び出し
 execute anchored eyes positioned ^ ^ ^ run function calc:geometry/tp_00000
 

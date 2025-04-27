@@ -1,3 +1,4 @@
+#> ai:skill/function/
 #Tagsをストレージに退避
 #呼び出すfunction内ではmob_data: Tagsを参照すること
 data modify storage mob_data: Tags set from entity @s Tags

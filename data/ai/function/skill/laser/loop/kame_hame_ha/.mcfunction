@@ -1,3 +1,4 @@
+#> ai:skill/laser/loop/kame_hame_ha/
 #分岐処理
 execute if data storage mob_data: Call{Width:1} run function skill:enemy/laser/loop/kame_hame_ha/1
 execute if data storage mob_data: Call{Width:2} run function skill:enemy/laser/loop/kame_hame_ha/2

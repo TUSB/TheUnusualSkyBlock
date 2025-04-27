@@ -1,3 +1,4 @@
+#> ai:skill/laser/loop/blue_laser/
 #ダメージ処理
 execute positioned ~-0.5 ~-0.5 ~-0.5 as @a[gamemode=!creative,gamemode=!spectator,scores={ProjectileTime=0..},dx=0,dy=0,dz=0] run function skill:enemy/laser/loop/blue_laser/damage
 #演出

@@ -1,3 +1,4 @@
+#> ai:skill/damage/mp
 #MP減少量を取得
 execute store result score _ MP run data get storage mob_data: Call.MP.MP
 #割合消費のとき

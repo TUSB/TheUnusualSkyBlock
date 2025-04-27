@@ -1,3 +1,4 @@
+#> ai:skill/icicle_magic/icicle_summoner/find_place_above/start
 ###設置場所上方向探索
 execute unless block ~ ~0.5 ~ #block:no_collision run scoreboard players set $LoopCount _ 17
 scoreboard players add $LoopCount _ 1

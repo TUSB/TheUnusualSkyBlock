@@ -1,3 +1,4 @@
+#> ai:skill/icicle_magic/icicle_summoner/find_place/start
 ###設置場所探索
 
 

@@ -1,3 +1,4 @@
+#> ai:skill/change_move/range
 #RangeをAddに足す
 execute store result score _ Calc run function calc:random
 scoreboard players add @s _ 1

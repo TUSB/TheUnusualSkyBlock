@@ -1,3 +1,4 @@
+#> ai:skill/blink/activate/decorate/tick
 scoreboard players remove @s BlinkSubTimer 1
 
 execute if score @s BlinkSubTimer matches 6 run tp @s ~0.2 ~ ~0.2

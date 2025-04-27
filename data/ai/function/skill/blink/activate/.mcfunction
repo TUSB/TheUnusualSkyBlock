@@ -1,3 +1,4 @@
+#> ai:skill/blink/activate/
 scoreboard players set @s _ 0
 
 data modify storage mob_data: Blink set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Blink

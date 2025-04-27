@@ -1,3 +1,4 @@
+#> ai:skill/smart_motion/on_block
 #SmartMotion
 
 #OnBlock

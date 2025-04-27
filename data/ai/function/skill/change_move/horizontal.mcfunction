@@ -1,3 +1,4 @@
+#> ai:skill/change_move/horizontal
 #Set, Add
 execute store result score @s Calc run data get storage mob_data: Call.Horizontal.Add 100
 execute store result score @s _ run data get storage mob_data: Call.Horizontal.Range 100

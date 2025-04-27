@@ -1,4 +1,4 @@
-
+#> ai:skill/reraise/health_recovery
 # 倍率確認
 scoreboard players set _ _ 100
 scoreboard players set _ Calc 100

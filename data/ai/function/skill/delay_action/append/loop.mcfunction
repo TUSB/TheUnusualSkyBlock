@@ -1,3 +1,4 @@
+#> ai:skill/delay_action/append/loop
 ###先頭の要素のNextAction "@s _"
 execute store result score @s _ run data get storage mob_data: DelayAction[0].NextAction
 

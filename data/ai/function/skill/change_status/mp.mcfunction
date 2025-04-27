@@ -1,3 +1,4 @@
+#> ai:skill/change_status/mp
 #Set, Add
 execute store result score @s Calc run data get storage mob_data: Call.MP.Add
 execute store result score @s _ run data get storage mob_data: Call.MP.Range

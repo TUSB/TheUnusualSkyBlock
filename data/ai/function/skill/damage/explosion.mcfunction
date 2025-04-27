@@ -1,3 +1,4 @@
+#> ai:skill/damage/explosion
 #モブの座標に即爆発クリーパーを召喚する
 summon creeper ~ ~500 ~ {Tags:[Explosion],ignited:1b,Fuse:2s,Invulnerable:1b}
 execute positioned ~ ~500 ~ run tp @e[type=creeper,tag=!Initialized,distance=..0.0001,limit=1] ~ ~-500 ~

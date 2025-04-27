@@ -1,3 +1,4 @@
+#> ai:skill/delay_action/append/
 #oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4]
 
 # 対応表

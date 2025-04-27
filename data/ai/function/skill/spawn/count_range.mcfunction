@@ -1,3 +1,4 @@
+#> ai:skill/spawn/count_range
 #CountRange指定時はCountも指定すること
 execute store result score _ Calc run function calc:random
 execute store result score _ _ run data get storage mob_data: Call.CountRange

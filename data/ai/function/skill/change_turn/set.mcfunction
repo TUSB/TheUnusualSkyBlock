@@ -1,3 +1,4 @@
+#> ai:skill/change_turn/set
 #指定したTurnに変更
 execute store result score _ Calc run data get storage mob_data: Call.Set
 execute store result score _ _ run data get storage mob_data: AI.Turn[0].Index

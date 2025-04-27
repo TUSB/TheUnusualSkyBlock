@@ -1,3 +1,4 @@
+#> ai:skill/delay_action/act/check/
 ###ohmydat確認
 function #oh_my_dat:please
 ###List移行

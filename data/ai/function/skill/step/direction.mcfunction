@@ -1,3 +1,4 @@
+#> ai:skill/step/direction
 #向きを設定
 execute positioned as @s run tp @s ~ ~ ~ ~ ~
 #Marker召喚

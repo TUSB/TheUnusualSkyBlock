@@ -1,3 +1,4 @@
+#> ai:skill/teleport/
 #実行位置にTPする　ブロックにめり込む場合は後方に補正
 function skill:enemy/teleport/loop
 #演出

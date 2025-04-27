@@ -1,3 +1,4 @@
+#> ai:skill/delay_action/act/sort/loop
 ###SortingActionDataの要素がなくなるまでループする
 ### "_ _" SortingActionData[-1]のNextAction
 execute store result score _ _ run data get storage mob_data: SortingActionData[-1].NextAction

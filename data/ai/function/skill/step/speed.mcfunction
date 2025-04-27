@@ -1,3 +1,4 @@
+#> ai:skill/step/speed
 #速度を設定
 execute as 0-0-0-0-0 at @s run tp @s ^ ^ ^1
 execute if data storage mob_data: Call.SpeedRange run function skill:enemy/step/range/speed

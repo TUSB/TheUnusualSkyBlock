@@ -1,3 +1,4 @@
+#> ai:skill/delay_action/act/execute/casting/water_bolt/
 ###詠唱演出 Stage0で終了なので最大数から開始
 execute if data storage mob_data: ExecutingAction{Stage:30} run function makeup:skill/enemy/delay_action/casting/water_bolt/water_bolt_001
 execute if data storage mob_data: ExecutingAction{Stage:29} run function makeup:skill/enemy/delay_action/casting/water_bolt/water_bolt_002

@@ -1,3 +1,4 @@
+#> ai:skill/change_status/magic_defense
 #Set, Add
 execute store result score @s Calc run data get storage mob_data: Call.MagicDefence.Add
 execute store result score @s _ run data get storage mob_data: Call.MagicDefence.Range

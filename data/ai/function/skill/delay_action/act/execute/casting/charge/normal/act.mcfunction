@@ -1,3 +1,4 @@
+#> ai:skill/delay_action/act/execute/casting/charge/
 function calc:set/random_rotation
 function makeup:skill/enemy/delay_action/casting/charge/normal/particle/
 function calc:set/random_rotation

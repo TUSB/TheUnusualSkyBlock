@@ -1,3 +1,4 @@
+#> ai:skill/change_turn/random
 #現在のTurnを除くランダムなTurnに変える
 execute store result score _ Calc run function calc:random
 execute store result score _ _ if data storage mob_data: AI.Turn[]

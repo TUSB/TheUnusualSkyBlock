@@ -1,3 +1,4 @@
+#> ai:skill/change_status/hp
 #Set, Add
 execute store result score @s Calc run data get storage mob_data: Call.HP.Add
 execute store result score @s _ run data get storage mob_data: Call.HP.Range

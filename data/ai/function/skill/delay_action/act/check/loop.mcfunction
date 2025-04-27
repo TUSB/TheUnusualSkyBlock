@@ -1,3 +1,4 @@
+#> ai:skill/delay_action/act/check/loop
 ###NextAction更新 "@s _"
 scoreboard players set @s _ 0
 execute store result score @s _ run data get storage mob_data: CheckingAction[-1].NextAction

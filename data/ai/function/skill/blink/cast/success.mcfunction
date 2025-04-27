@@ -1,3 +1,4 @@
+#> ai:skill/blink/cast/success
 data remove storage mob_data: Blink
 data merge storage mob_data: {Blink:{Count:0,Chance:0.0000d}}
 data modify storage mob_data: Blink.Count set from storage mob_data: Call.Count

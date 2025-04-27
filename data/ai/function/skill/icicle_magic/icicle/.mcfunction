@@ -1,3 +1,4 @@
+#> ai:skill/icicle_magic/icicle/
 execute positioned as @s run teleport @s ~ ~-1 ~
 ###ここらへんにダメージ判定
 execute unless block ~ ~ ~ #block:no_collision run function skill:enemy/icicle_magic/icicle/fall

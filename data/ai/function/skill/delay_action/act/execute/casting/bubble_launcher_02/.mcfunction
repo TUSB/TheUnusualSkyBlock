@@ -1,3 +1,4 @@
+#> ai:skill/delay_action/act/execute/casting/bubble_launcher_02/
 ###詠唱演出 Stage0で終了なので最大数から開始
 execute if data storage mob_data: ExecutingAction{Stage:80} run function makeup:skill/enemy/delay_action/casting/bubble_launcher_02/fc_001
 execute if data storage mob_data: ExecutingAction{Stage:79} run function makeup:skill/enemy/delay_action/casting/bubble_launcher_02/fc_002

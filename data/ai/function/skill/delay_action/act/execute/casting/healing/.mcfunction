@@ -1,3 +1,4 @@
+#> ai:skill/delay_action/act/execute/casting/healing/
 ###詠唱演出 Stage0で終了なので最大数から開始
 execute if data storage mob_data: ExecutingAction{Stage:31} rotated ~ 0 run function makeup:skill/enemy/delay_action/casting/healing/healing_001
 execute if data storage mob_data: ExecutingAction{Stage:30} rotated ~ 0 run function makeup:skill/enemy/delay_action/casting/healing/healing_002
