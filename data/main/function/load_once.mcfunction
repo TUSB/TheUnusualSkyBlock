@@ -59,6 +59,8 @@ scoreboard objectives add PalsyLevel dummy {"text":"麻痺レベル"}
 scoreboard objectives add TntCount dummy {"text":"トントカウント"}
 scoreboard objectives add VirusCount dummy {"text":"病気カウント"}
 scoreboard objectives add FreezeTimer dummy {"text":"凍結タイマー"}
+scoreboard objectives add BurnResistance dummy {"text":"火だるま耐性"}
+scoreboard objectives add BurnTimer dummy {"text":"火だるまタイマー"}
 scoreboard objectives add BurnCount dummy {"text":"火だるまカウント"}
 scoreboard objectives add GameTime dummy {"text":"ゲームタイム"}
 scoreboard objectives add ProjectileTime minecraft.custom:minecraft.play_time {"text":"投射物ヒットタイマー"}
