@@ -1,5 +1,5 @@
-#> skill:enemy/delay_action/act/execute/enemy/common/paralyze
-# @within function skill:enemy/delay_action/act/execute/enemy/common/
+#> ai:skill/delay_action/act/execute/enemy/common/paralyze
+# @within function ai:skill/delay_action/act/execute/enemy/common/
 
 # 演出
     particle electric_spark ~ ~1 ~ 0.25 0.5 0.25 0 3 force @a[distance=..32,tag=ShowParticles]

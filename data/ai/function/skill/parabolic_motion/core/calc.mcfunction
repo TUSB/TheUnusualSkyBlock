@@ -1,8 +1,8 @@
-#> skill:enemy/parabolic_motion/core/calc
+#> ai:skill/parabolic_motion/core/calc
 #
 # ParabolicMotionに関する計算処理を行います
 #
-# @within function skill:enemy/parabolic_motion/core/
+# @within function ai:skill/parabolic_motion/core/
 
 # @s と 0-0-0-0-1 のX座標差を10倍で保存
     execute store result score _ _ run data get entity @s Pos[0] 10000
@@ -40,4 +40,4 @@
     execute in area:control_area positioned 0.0 0.0 0.0 as 0-0-0-0-0 run function #util:distance
     execute store result storage mob_data: Call.Speed.Set int 1 run data get storage util: out 100
     execute store result storage mob_data: Call.Gravity.Set int 1 run data get storage mob_data: Call.MotionGravity 10000
-    execute at @s run function skill:enemy/smart_motion/
+    execute at @s run function ai:skill/smart_motion/

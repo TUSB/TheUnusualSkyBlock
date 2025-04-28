@@ -1,5 +1,5 @@
-#> skill:enemy/delay_action/act/execute/enemy/lunatic_eye/
-# @within function skill:enemy/delay_action/act/execute/enemy/
+#> ai:skill/delay_action/act/execute/enemy/lunatic_eye/
+# @within function ai:skill/delay_action/act/execute/enemy/
 
 ###詠唱演出 Stage0で終了なので最大数から開始
 execute if data storage mob_data: ExecutingAction{Stage:55} run function makeup:skill/enemy/delay_action/enemy/lunatic_eye/luna_laser/fc_1

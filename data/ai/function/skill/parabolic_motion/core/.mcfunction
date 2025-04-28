@@ -1,8 +1,8 @@
-#> skill:enemy/parabolic_motion/core/
+#> ai:skill/parabolic_motion/core/
 #
 # ParabolicMotionに関するメイン処理を行います
 #
-# @within function skill:enemy/parabolic_motion/
+# @within function ai:skill/parabolic_motion/
 
 # 0-0-0-0-0を原点に召喚する
 # 0-0-0-0-1を実行位置に召喚する
@@ -14,7 +14,7 @@
     execute store result score # Calc run data get storage mob_data: Call.MotionGravity 5000
 
 # Motionを計算する
-    function skill:enemy/parabolic_motion/core/calc
+    function ai:skill/parabolic_motion/core/calc
 
 # リセット
     execute as 0-0-0-0-0 run function calc:geometry/return_marker

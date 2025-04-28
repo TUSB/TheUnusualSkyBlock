@@ -4,7 +4,7 @@ execute anchored eyes positioned ^ ^ ^ run function calc:geometry/tp_00000
 
 ## 演出
 function makeup:skill/enemy/delay_action/casting/charge/normal/sound/
-execute as 0-0-0-0-0 at @s run function skill:enemy/delay_action/act/execute/casting/charge/normal/act
+execute as 0-0-0-0-0 at @s run function ai:skill/delay_action/act/execute/casting/charge/normal/act
 
 
 

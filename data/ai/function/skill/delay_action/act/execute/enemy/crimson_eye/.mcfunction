@@ -1,5 +1,5 @@
-#> skill:enemy/delay_action/act/execute/enemy/crimson_eye/
-# @within function skill:enemy/delay_action/append/enemy/
+#> ai:skill/delay_action/act/execute/enemy/crimson_eye/
+# @within function ai:skill/delay_action/append/enemy/
 
 ###詠唱演出 Stage0で終了なので最大数から開始
 function calc:set/random_rotation

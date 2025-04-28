@@ -1,5 +1,5 @@
-#> skill:enemy/delay_action/act/execute/enemy/aurora_eye/zone
-# @within function skill:enemy/delay_action/act/execute/enemy/aurora_eye/
+#> ai:skill/delay_action/act/execute/enemy/aurora_eye/zone
+# @within function ai:skill/delay_action/act/execute/enemy/aurora_eye/
 
 ###詠唱演出 Stage0で終了なので最大数から開始
 execute if data storage mob_data: ExecutingAction{Stage:15} run function makeup:skill/enemy/delay_action/enemy/aurora_eye/aurora_zone/fc_1

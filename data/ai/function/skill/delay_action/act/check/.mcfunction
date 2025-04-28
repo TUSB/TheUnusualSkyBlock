@@ -8,11 +8,11 @@ data modify storage calc: Array.reverse.Input set from storage mob_data: DelayAc
 function calc:array/reverse/
 data modify storage mob_data: CheckingAction set from storage calc: Array.reverse.Output
 ###Loop
-execute if data storage mob_data: CheckingAction[0] run function skill:enemy/delay_action/act/check/loop
+execute if data storage mob_data: CheckingAction[0] run function ai:skill/delay_action/act/check/loop
 data modify storage mob_data: DelayAction set from storage mob_data: CheckedAction
 ###DelayActionのソートをする
 ###Executed:1bのついた要素だけ位置を調整する
-execute if data storage mob_data: DelayAction[0] run function skill:enemy/delay_action/act/sort/
+execute if data storage mob_data: DelayAction[0] run function ai:skill/delay_action/act/sort/
 ###次の詠唱Tick更新
 execute if data storage mob_data: DelayAction[0] store result score @s NextActionTick run data get storage mob_data: DelayAction[0].NextAction
 execute unless data storage mob_data: DelayAction[0] run scoreboard players reset @s NextActionTick

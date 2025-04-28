@@ -5,4 +5,4 @@ scoreboard players set _ _ 10000
 #Calc %= 10000
 scoreboard players operation _ Calc %= _ _
 
-execute if score @s _ > _ Calc run function skill:enemy/blink/activate/success
+execute if score @s _ > _ Calc run function ai:skill/blink/activate/success

@@ -6,13 +6,13 @@ execute if data storage mob_data: Call{TP:1b} unless data storage mob_data: Call
 execute if data storage mob_data: Call{TP:1b,KeepRotation:1b} run function smart_motion:core/tp_keep_rotation
 
 #Rotation
-execute if data storage mob_data: Call.Rotation run function skill:enemy/smart_motion/rotation
+execute if data storage mob_data: Call.Rotation run function ai:skill/smart_motion/rotation
 
 #Speed
-execute if data storage mob_data: Call.Speed run function skill:enemy/smart_motion/speed
+execute if data storage mob_data: Call.Speed run function ai:skill/smart_motion/speed
 
 #Gravity
-execute if data storage mob_data: Call.Gravity run function skill:enemy/smart_motion/gravity
+execute if data storage mob_data: Call.Gravity run function ai:skill/smart_motion/gravity
 
 #Start
 execute if data storage mob_data: Call{Start:1b} run scoreboard players add @s[tag=!SmartMotion] NativeFlag 1
@@ -23,7 +23,7 @@ execute if data storage mob_data: Call{Stop:1b} run scoreboard players remove @s
 execute if data storage mob_data: Call{Stop:1b} run tag @s remove SmartMotion
 
 #OnBlock
-execute if data storage mob_data: Call.OnBlock run function skill:enemy/smart_motion/on_block
+execute if data storage mob_data: Call.OnBlock run function ai:skill/smart_motion/on_block
 
 #E (反発係数)
 execute if data storage mob_data: Call.E store result score @s sm.E run data get storage mob_data: Call.E

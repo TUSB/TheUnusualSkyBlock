@@ -1,5 +1,5 @@
-#> skill:enemy/delay_action/act/execute/enemy/abyss_mage/abyss_magic
-# @within function skill:enemy/delay_action/act/execute/enemy/abyss_mage/
+#> ai:skill/delay_action/act/execute/enemy/abyss_mage/abyss_magic
+# @within function ai:skill/delay_action/act/execute/enemy/abyss_mage/
 
 ###詠唱演出 Stage0で終了なので最大数から開始
 execute if data storage mob_data: ExecutingAction{Stage:25} run function makeup:skill/enemy/delay_action/enemy/abyss_mage/abyss_magic/fc_1

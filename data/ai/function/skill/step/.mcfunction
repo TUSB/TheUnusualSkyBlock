@@ -1,7 +1,7 @@
 #> ai:skill/step/
 #向きを設定
-function skill:enemy/step/direction
+function ai:skill/step/direction
 #速度を設定
-function skill:enemy/step/speed
+function ai:skill/step/speed
 #Motionに適用
-function skill:enemy/step/set_motion
+function ai:skill/step/set_motion

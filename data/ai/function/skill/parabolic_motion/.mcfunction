@@ -1,4 +1,4 @@
-#> skill:enemy/parabolic_motion/
+#> ai:skill/parabolic_motion/
 #
 # 実行者のMotionを操作して放物運動をさせます
 #
@@ -20,7 +20,7 @@
     execute unless data storage mob_data: Call.MotionGravity run tellraw @a [{"text":"ParabolicMotionの重力加速度は必ず設定する必要があります"}]
 
 # 本処理に移行
-    execute if data storage mob_data: Call.MotionTick if data storage mob_data: Call.MotionGravity run function skill:enemy/parabolic_motion/core/
+    execute if data storage mob_data: Call.MotionTick if data storage mob_data: Call.MotionGravity run function ai:skill/parabolic_motion/core/
 
 # リセット
     data remove storage mob_data: Call

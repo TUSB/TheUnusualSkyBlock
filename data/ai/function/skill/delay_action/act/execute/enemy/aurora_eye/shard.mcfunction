@@ -1,5 +1,5 @@
-#> skill:enemy/delay_action/act/execute/enemy/aurora_eye/shard
-# @within function skill:enemy/delay_action/act/execute/enemy/aurora_eye/
+#> ai:skill/delay_action/act/execute/enemy/aurora_eye/shard
+# @within function ai:skill/delay_action/act/execute/enemy/aurora_eye/
 
 execute store result score _ _ run data get storage mob_data: ExecutingAction.Stage
 

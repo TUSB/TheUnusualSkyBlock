@@ -2,7 +2,7 @@
 #Set, Add
 execute store result score @s Calc run data get storage mob_data: Call.Horizontal.Add 100
 execute store result score @s _ run data get storage mob_data: Call.Horizontal.Range 100
-execute unless score @s _ matches 0 run function skill:enemy/change_move/range
+execute unless score @s _ matches 0 run function ai:skill/change_move/range
 execute store result score _ Calc run data get storage mob_data: AI.Turn[0].Rotate[0] 100
 execute if data storage mob_data: Call.Horizontal.Set store result score _ Calc run data get storage mob_data: Call.Horizontal.Set 100
 scoreboard players operation _ Calc += @s Calc
