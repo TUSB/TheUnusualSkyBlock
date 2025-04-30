@@ -8,3 +8,6 @@ function enemy:show_damage/
 
 #リセット
 tag @s remove HitDamageTaken
+tag @s remove ReceivedPhysicalDamage
+tag @s remove ReceivedMagicDamage
+tag @s remove ReceivedUnreasonableDamage

@@ -7,3 +7,6 @@ data modify storage entity:_ damage.value set from storage entity: damage.unreas
 
 # core処理を実行
 function entity:damage/apply/core/
+
+# 被弾フラグ
+tag @s add ReceivedUnreasonableDamage
