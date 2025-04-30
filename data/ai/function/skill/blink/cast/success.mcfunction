@@ -8,4 +8,4 @@ data modify storage mob_data: Blink.TriggerOn set from storage mob_data: Call.Tr
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Blink set from storage mob_data: Blink
 
 tag @s add CallOnDamage
-function makeup:skill/enemy/blink/cast/0
+function makeup:ai/skill/blink/cast/0

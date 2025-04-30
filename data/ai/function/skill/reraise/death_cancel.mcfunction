@@ -12,5 +12,5 @@ execute unless score @s _ matches 0 store result storage oh_my_dat: _[-4][-4][-4
 execute if score @s _ matches 0 run function ai:skill/reraise/remove_raise
 
 ### 演出 ###
-function makeup:skill/enemy/reraise/death_cancel
+function makeup:ai/skill/reraise/death_cancel
 

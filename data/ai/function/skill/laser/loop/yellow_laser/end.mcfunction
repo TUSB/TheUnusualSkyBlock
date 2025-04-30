@@ -1,2 +1,2 @@
 #> ai:skill/laser/loop/yellow_laser/end
-function makeup:skill/enemy/laser/loop/yellow_laser/spark
+function makeup:ai/skill/laser/loop/yellow_laser/spark

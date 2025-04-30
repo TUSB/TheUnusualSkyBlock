@@ -1,3 +1,3 @@
 #> ai:skill/laser/loop/blue_laser/damage
 data modify storage mob_data: Call.Loop set value 0
-function makeup:skill/enemy/laser/loop/blue_laser/spark
+function makeup:ai/skill/laser/loop/blue_laser/spark

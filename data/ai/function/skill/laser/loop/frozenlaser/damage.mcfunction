@@ -9,4 +9,4 @@ effect give @a[distance=..2.5] invisibility 5 4
 effect give @a[distance=..2.5] wither 10 1
 
 #演出
-function makeup:skill/enemy/laser/loop/frozenlazer/ice_effect
+function makeup:ai/skill/laser/loop/frozenlazer/ice_effect

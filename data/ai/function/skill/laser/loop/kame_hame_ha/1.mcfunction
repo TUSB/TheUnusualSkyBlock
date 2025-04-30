@@ -3,7 +3,7 @@
 execute positioned ~-0.5 ~-0.5 ~-0.5 as @a[gamemode=!creative,gamemode=!spectator,nbt={DeathTime:0s},scores={ProjectileTime=0..},dx=0,dy=0,dz=0] run function ai:skill/laser/main/damage
 
 #演出
-function makeup:skill/enemy/laser/loop/kame_hame_ha/1
+function makeup:ai/skill/laser/loop/kame_hame_ha/1
 
 #ループ処理
 execute store result storage mob_data: Call.Loop int 0.99999 run data get storage mob_data: Call.Loop

@@ -1,5 +1,5 @@
 #> ai:skill/delay_action/act/execute/casting/laser_pointer/red_dust/loop
-function makeup:skill/enemy/delay_action/casting/laser_pointer/red_dust/particle/red_dust
+function makeup:ai/skill/delay_action/casting/laser_pointer/red_dust/particle/red_dust
 
 
 execute store result storage mob_data: ExecutingAction.Loop int 1 run data get storage mob_data: ExecutingAction.Loop 0.999999999
