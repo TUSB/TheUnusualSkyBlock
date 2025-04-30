@@ -12,8 +12,10 @@ execute if score @s Calc matches ..-1 if data storage mob_data: Call.Level.Limit
 
 function entity:spawn/apply_status/status/attack
 function entity:spawn/apply_status/status/defense
-function entity:spawn/apply_status/status/special_attack
-function entity:spawn/apply_status/status/special_defense
+function entity:spawn/apply_status/status/magic_attack
+function entity:spawn/apply_status/status/magic_defense
+function entity:spawn/apply_status/status/unreasonable_attack
+function entity:spawn/apply_status/status/unreasonable_defense
 #現在HPの補正
 scoreboard players set _ _ 1000
 scoreboard players operation @s HP *= _ _
