@@ -2,7 +2,7 @@
 #Set, Add
 execute store result score @s Calc run data get storage mob_data: Call.Defense.Add
 execute store result score @s _ run data get storage mob_data: Call.Defense.Range
-execute unless score @s _ matches 0 run function ai:skill/change_move/range
+execute unless score @s _ matches 0 run function ai:skill/common.range
 execute store result score _ Calc run data get storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力"
 execute if data storage mob_data: Call.Defense.Set store result score _ Calc run data get storage mob_data: Call.Defense.Set
 scoreboard players operation _ Calc += @s Calc
