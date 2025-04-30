@@ -19,7 +19,7 @@ function entity:spawn/apply_status/status/hp
 function entity:spawn/apply_status/status/mp
 function entity:spawn/apply_status/status/defense
 function entity:spawn/apply_status/status/magic_defense
-function entity:spawn/apply_status/status/unreasonable_defence
+function entity:spawn/apply_status/status/unreasonable_defense
 
 scoreboard players operation @s HP = @s HPMax
 scoreboard players operation @s MP = @s MPMax

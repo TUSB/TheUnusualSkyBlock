@@ -1,4 +1,4 @@
-#> entity:spawn/apply_status/status/unreasonable_defence
+#> entity:spawn/apply_status/status/unreasonable_defense
 scoreboard players set _ _ 100
 ### 理外防御力を計算する
 execute store result score _ Calc run data get storage tusb_mob: "遅延ステータス"."ステータス"."理外防御力" 1
