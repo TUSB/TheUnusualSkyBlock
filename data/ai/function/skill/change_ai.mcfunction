@@ -23,3 +23,5 @@ execute if data storage mob_data: AI.Tick[0] run tag @s add CallOnTick
 execute if data storage mob_data: AI.Tick[0] run tag @s add HasAI
 #データを元に戻す
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from storage mob_data: AI
+#Tick用の前処理
+function ai:turn/preparation
