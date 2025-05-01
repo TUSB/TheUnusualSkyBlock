@@ -14,6 +14,7 @@ tag @s remove CallOnDamage
 tag @s remove CallOnAttack
 tag @s remove CallOnBlock
 tag @s remove CallOnTick
+tag @s remove HasCallOnPassenger
 execute if data storage mob_data: AI.Death[0] run tag @s add CallOnDeath
 execute if data storage mob_data: AI.Time[0] run tag @s add CallOnTime
 execute if data storage mob_data: AI.Damage[0] run tag @s add CallOnDamage
@@ -21,7 +22,6 @@ execute if data storage mob_data: AI.Attack[0] run tag @s add CallOnAttack
 execute if data storage mob_data: AI.Block[0] run tag @s add CallOnBlock
 execute if data storage mob_data: AI.Tick[0] run tag @s add CallOnTick
 execute if data storage mob_data: AI.Tick[0] run tag @s add HasAI
+execute if data storage mob_data: AI.Passenger[0] run tag @s add HasCallOnPassenger
 #データを元に戻す
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].AI set from storage mob_data: AI
-#Tick用の前処理
-function ai:turn/preparation
