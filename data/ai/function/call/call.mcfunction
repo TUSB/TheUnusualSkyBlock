@@ -3,7 +3,6 @@ execute if data storage mob_data: Call{Name:"Kill"} run tag @s add Garbage
 execute if data storage mob_data: Call{Name:"Spawn"} run function ai:skill/spawn/
 execute if data storage mob_data: Call{Name:"Step"} run function ai:skill/step/
 execute if data storage mob_data: Call{Name:"ChangeTurn"} run function ai:skill/change_turn/
-execute if data storage mob_data: Call{Name:"ChangeMove"} run function ai:skill/change_move/
 execute if data storage mob_data: Call{Name:"ChangeAI"} run function ai:skill/change_ai
 execute if data storage mob_data: Call{Name:"ChangeStatus"} run function ai:skill/change_status/
 execute if data storage mob_data: Call{Name:"MergeNBT"} run function ai:skill/merge_nbt
