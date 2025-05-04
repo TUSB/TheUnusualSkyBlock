@@ -1,6 +1,8 @@
 #> ai:skill/change_turn/
 #AI.Turn[0].ExitにChangeTurnフラグを追加
 data modify storage mob_data: AI.Turn[0].Exit.ChangeTurn set value 1b
+# Mobにもフラグを追加
+tag @s add HasChangeTurn
 #Onceを進める
 execute if data storage mob_data: AI.Turn[0].Once store result storage mob_data: AI.Turn[0].Once int 0.99999 run data get storage mob_data: AI.Turn[0].Once
 #AI.ChangeTurnにターンを進める回数を保存する
