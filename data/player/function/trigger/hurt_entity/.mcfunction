@@ -11,7 +11,7 @@ execute if entity @s[advancements={player:trigger/hurt_entity={melee_bow_attack=
 execute if entity @s[advancements={player:trigger/hurt_entity={sword_attack_sweep=true}}] run function player:trigger/hurt_entity/sword_attack_sweep
 
 ##AbsorptionAmountリセット
-execute at 0-0-0-0-2 as @e[tag=Enemy,nbt=!{AbsorptionAmount:2048f},distance=0] run function enemy:damage/update_health
+execute at 0-0-0-0-2 as @e[tag=Enemy,nbt=!{AbsorptionAmount:2048f},distance=0] run function enemy:damage/natural
 
 #トリガーリセット
 advancement revoke @s only player:trigger/hurt_entity
