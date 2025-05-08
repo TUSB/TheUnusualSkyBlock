@@ -3,7 +3,6 @@
 # 敵帯電落雷処理
 
 # 水に接触していれば強化する
-execute if predicate entity:is_in_all_water run say water
 execute if predicate entity:in_all_water run return run function effect:enemy_debuff/electrification/lightning_strike2
 
 # 雨が降っていて上にブロックがなければ強化する
