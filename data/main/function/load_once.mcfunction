@@ -62,6 +62,8 @@ scoreboard objectives add FreezeTimer dummy {"text":"凍結タイマー"}
 scoreboard objectives add BurnResistance dummy {"text":"火だるま耐性"}
 scoreboard objectives add BurnTimer dummy {"text":"火だるまタイマー"}
 scoreboard objectives add BurnCount dummy {"text":"火だるまカウント"}
+scoreboard objectives add ElectrificationResistance dummy {"text":"帯電耐性"}
+scoreboard objectives add ElectrificationTimer dummy {"text":"帯電カウント"}
 scoreboard objectives add GameTime dummy {"text":"ゲームタイム"}
 scoreboard objectives add ProjectileTime minecraft.custom:minecraft.play_time {"text":"投射物ヒットタイマー"}
 scoreboard objectives add ShieldUsingTick dummy {"text":"盾を使用したtick"}
