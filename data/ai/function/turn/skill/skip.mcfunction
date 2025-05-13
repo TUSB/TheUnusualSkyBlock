@@ -8,7 +8,5 @@ execute unless data storage mob_data: AI.Turn[0].Skill[{Once:0}] run data modify
 data remove storage mob_data: AI.Turn[0].Skill[0]
 #Skillがなくなればリストを削除
 execute unless data storage mob_data: AI.Turn[0].Skill[0] run data remove storage mob_data: AI.Turn[0].Skill
-#次のSkillのインターバルを取得する
-execute store result score @s AI_SkillInterval run data get storage mob_data: AI.Turn[0].Skill[0].Interval.Current
 #TurnLoop削減 0のときexit処理
 execute if data storage mob_data: AI.Turn[0].Exit.Loop.Current store result storage mob_data: AI.Turn[0].Exit.Loop.Current int 0.99999 run data get storage mob_data: AI.Turn[0].Exit.Loop.Current 1

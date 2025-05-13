@@ -11,3 +11,6 @@ execute if entity @s[tag=EnemyBurn] run function effect:enemy_debuff/burn/cure_c
 
 #リセット
 tag @s remove HitDamageTaken
+tag @s remove ReceivedPhysicalDamage
+tag @s remove ReceivedMagicDamage
+tag @s remove ReceivedUnreasonableDamage

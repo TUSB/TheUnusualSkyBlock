@@ -1,0 +1,5 @@
+#> ai:skill/teleport/
+#実行位置にTPする　ブロックにめり込む場合は後方に補正
+function ai:skill/teleport/loop
+#演出
+execute if data storage mob_data: Call{Message:1b} run function makeup:ai/skill/teleport

@@ -1,0 +1,3 @@
+#> ai:call/settings/align/x/
+execute unless data storage mob_data: Settings{Center:[X]} at 0-0-0-0-1 align x run tp 0-0-0-0-1 ~ ~ ~
+execute if data storage mob_data: Settings{Center:[X]} at 0-0-0-0-1 align x run tp 0-0-0-0-1 ~0.5 ~ ~

@@ -15,7 +15,7 @@ function #oh_my_dat:please
 execute store result storage mob_data: Call.Level.Add int -0.1 run scoreboard players get @s[tag=!Boss] Level
 execute store result storage mob_data: Call.Level.Add int -0.2 run scoreboard players get @s[tag=Boss] Level
 data modify storage mob_data: Call.Level.Range set value 0
-function skill:enemy/change_status/
+function ai:skill/change_status/
 
 # カスタムネームを更新
 execute if data storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4]."ステータス".CustomName run data modify entity @s CustomName set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4]."ステータス".CustomName

@@ -12,6 +12,13 @@
       "condition": "entity_properties",
       "entity": "this",
       "predicate": {
+        "nbt": "{Tags:[HasChangeTurn]}"
+      }
+    },
+    {
+      "condition": "entity_properties",
+      "entity": "this",
+      "predicate": {
         "nbt": "{Tags:[HasCallOnPassenger]}"
       }
     },

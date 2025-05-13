@@ -1,0 +1,15 @@
+#> ai:skill/change_status/magic_attack
+#Set, Add
+execute store result score @s Calc run data get storage mob_data: Call.MagicAttack.Add
+execute store result score @s _ run data get storage mob_data: Call.MagicAttack.Range
+execute unless score @s _ matches 0 run function ai:skill/common.range
+execute store result score _ Calc run data get storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力"
+execute if data storage mob_data: Call.MagicAttack.Set store result score _ Calc run data get storage mob_data: Call.MagicAttack.Set
+scoreboard players operation _ Calc += @s Calc
+#Limit
+execute if data storage mob_data: Call.MagicAttack.Limit store result score @s _ run data get storage mob_data: Call.MagicAttack.Limit
+execute if score @s Calc matches 1.. if data storage mob_data: Call.MagicAttack.Limit run scoreboard players operation _ Calc < @s _
+execute if score @s Calc matches ..-1 if data storage mob_data: Call.MagicAttack.Limit run scoreboard players operation _ Calc > @s _
+
+execute store result storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" int 1 run scoreboard players get _ Calc
+function entity:spawn/apply_status/status/magic_attack

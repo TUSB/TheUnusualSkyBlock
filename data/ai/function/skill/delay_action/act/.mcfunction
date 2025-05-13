@@ -1,0 +1,4 @@
+#> ai:skill/delay_action/act/
+scoreboard players add @s ActionTick 1
+###一時的な処理を継続するかどうか NextActionTickが1以上なら継続
+execute if score @s ActionTick >= @s NextActionTick run function ai:skill/delay_action/act/check/
