@@ -8,7 +8,7 @@ execute if predicate entity:in_all_water run return run function effect:enemy_de
 # 雨が降っていて上にブロックがなければ強化する
 data remove storage calc: SearchAbove
 execute store result storage calc: SearchAbove.Pos int 1 run data get entity @s Pos[1]
-execute if predicate main:weather/is_raining run function calc:geometry/search_above/
+execute if predicate main:weather/is_raining run function calc:geometry/search_above/to_limit
 execute if data storage calc: {SearchAbove:{NothingAbove:1b}} run return run function effect:enemy_debuff/electrification/lightning_strike2
 
 # 落雷
