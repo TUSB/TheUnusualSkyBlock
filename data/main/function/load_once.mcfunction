@@ -139,7 +139,6 @@ scoreboard objectives add HomePoint trigger {"text":"ホームポイント設定
 scoreboard objectives add FillSize dummy {"text":"フィールサイズ"}
 #共通
 scoreboard objectives add Weakness dummy {"text":"ウィークペイント効果時間"}
-scoreboard objectives add SkyWalk dummy {"text":"スカイウォーク"}
 scoreboard objectives add RestoreItem trigger {"text":"リスト・アイテム処理選択"}
 scoreboard objectives add SuspiciousPowderTime dummy {"text":"怪しい粉継続秒数"}
 scoreboard objectives add SuspiciousPowderToken dummy {"text":"怪しい粉消費MP量"}
