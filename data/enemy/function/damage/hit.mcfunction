@@ -2,7 +2,7 @@
 # Hitダメージ 同期処理
 
 #CallOnDamage
-execute if entity @s[tag=CallOnDamage] at @s run function ai:call/trigger/damage/
+execute if entity @s[tag=CallOnDamage] unless entity @s[tag=NoAI] at @s run function ai:call/trigger/damage/
 #ダメージ表示
 function enemy:show_damage/
 

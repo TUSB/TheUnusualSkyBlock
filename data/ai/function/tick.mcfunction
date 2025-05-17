@@ -7,6 +7,9 @@
 scoreboard players remove @s AI_SkillInterval 1
 scoreboard players remove @s AI_ExitTime 1
 
+# NoAIタグが付いていれば失敗
+execute if entity @s[tag=NoAI] run return fail
+
 # 実行条件の確認
 execute unless predicate ai:tick_act run return fail
 
