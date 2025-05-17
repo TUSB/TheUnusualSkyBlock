@@ -5,6 +5,7 @@
 
 #インターバル表示
 execute if entity @s[nbt={Inventory:[{components:{"minecraft:custom_data":{Skill:{ShowInterval:1b}}}}]}] run function skill:show_interval/check
+scoreboard players remove @s Interval 1
 
 # スキルショートカット
 execute if entity @s[scores={SkillShortcut=1..}] run function skill:shortcut/tick
@@ -20,3 +21,7 @@ function skill:update_mp/
 # アイアンウィル
 execute if entity @s[scores={IronWill=1..}] run function skill:act/knight/iron_will/tick
 execute if entity @s[tag=IronWill] run function skill:act/knight/iron_will/load
+
+## 忍者
+# 跳躍演出
+execute if entity @s[scores={Choyaku=0..},nbt={OnGround:false,FallDistance:0.0f}] run function makeup:skill/act/ninja/choyaku/direction
