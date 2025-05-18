@@ -1077,6 +1077,16 @@
     "minecraft:pale_moss_block",
     "minecraft:pale_moss_carpet",
     "minecraft:pale_hanging_moss",
-    "minecraft:creaking_heart"
+    "minecraft:creaking_heart",
+    "minecraft:potted_closed_eyeblossom",
+    "minecraft:potted_open_eyeblossom",
+    "minecraft:closed_eyeblossom",
+    "minecraft:open_eyeblossom",
+    "minecraft:resin_clump",
+    "minecraft:resin_block",
+    "minecraft:resin_bricks",
+    "minecraft:resin_brick_slab",
+    "minecraft:resin_brick_stairs",
+    "minecraft:resin_brick_wall"
   ]
 }

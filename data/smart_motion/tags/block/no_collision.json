@@ -268,6 +268,11 @@
     "minecraft:pale_oak_pressure_plate",
     "minecraft:pale_oak_hanging_sign",
     "minecraft:pale_hanging_moss",
-    "minecraft:potted_pale_oak_sapling"
+    "minecraft:potted_pale_oak_sapling",
+    "minecraft:potted_closed_eyeblossom",
+    "minecraft:potted_open_eyeblossom",
+    "minecraft:closed_eyeblossom",
+    "minecraft:open_eyeblossom",
+    "minecraft:resin_clump"
   ]
 }

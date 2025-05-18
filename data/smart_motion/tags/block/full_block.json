@@ -429,6 +429,16 @@
     "minecraft:warped_stem",
     "minecraft:stripped_warped_stem",
     "minecraft:crimson_stem",
-    "minecraft:stripped_crimson_stem"
+    "minecraft:stripped_crimson_stem",
+    "minecraft:pale_oak_log",
+    "minecraft:stripped_pale_oak_log",
+    "minecraft:pale_oak_wood",
+    "minecraft:stripped_pale_oak_wood",
+    "minecraft:pale_oak_planks",
+    "minecraft:pale_oak_leaves",
+    "minecraft:pale_moss_block",
+    "minecraft:creaking_heart",
+    "minecraft:resin_block",
+    "minecraft:resin_bricks"
   ]
 }
