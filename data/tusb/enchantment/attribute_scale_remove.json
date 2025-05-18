@@ -23,7 +23,7 @@
     "minecraft:attributes": [
       {
         "id": "scale_remove",
-        "attribute": "minecraft:generic.scale",
+        "attribute": "minecraft:scale",
         "amount": {
           "type": "minecraft:linear",
           "base": -0.2,
@@ -33,7 +33,7 @@
       },
       {
         "id": "scale_remove",
-        "attribute": "minecraft:player.block_interaction_range",
+        "attribute": "minecraft:block_interaction_range",
         "amount": {
           "type": "minecraft:linear",
           "base": -0.2,
@@ -43,7 +43,7 @@
       },
       {
         "id": "scale_remove",
-        "attribute": "minecraft:player.entity_interaction_range",
+        "attribute": "minecraft:entity_interaction_range",
         "amount": {
           "type": "minecraft:linear",
           "base": -0.2,
@@ -53,7 +53,7 @@
       },
       {
         "id": "scale_remove",
-        "attribute": "minecraft:generic.safe_fall_distance",
+        "attribute": "minecraft:safe_fall_distance",
         "amount": {
           "type": "minecraft:linear",
           "base": 2,
@@ -63,7 +63,7 @@
       },
       {
         "id": "scale_remove",
-        "attribute": "minecraft:generic.attack_speed",
+        "attribute": "minecraft:attack_speed",
         "amount": {
           "type": "minecraft:linear",
           "base": 10,
@@ -73,7 +73,7 @@
       },
       {
         "id": "scale_remove",
-        "attribute": "minecraft:generic.attack_damage",
+        "attribute": "minecraft:attack_damage",
         "amount": {
           "type": "minecraft:linear",
           "base": -0.2,
@@ -83,7 +83,7 @@
       },
       {
         "id": "scale_remove",
-        "attribute": "minecraft:generic.gravity",
+        "attribute": "minecraft:gravity",
         "amount": {
           "type": "minecraft:linear",
           "base": -0.2,
@@ -93,7 +93,7 @@
       },
       {
         "id": "scale_remove",
-        "attribute": "minecraft:generic.max_health",
+        "attribute": "minecraft:max_health",
         "amount": {
           "type": "minecraft:linear",
           "base": -0.25,

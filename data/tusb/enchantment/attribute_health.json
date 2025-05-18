@@ -22,7 +22,7 @@
     "minecraft:attributes": [
       {
         "id": "health",
-        "attribute": "minecraft:generic.max_health",
+        "attribute": "minecraft:max_health",
         "amount": {
           "type": "minecraft:linear",
           "base": 10,

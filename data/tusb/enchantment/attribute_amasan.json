@@ -23,7 +23,7 @@
     "minecraft:attributes": [
       {
         "id": "amasan",
-        "attribute": "minecraft:generic.oxygen_bonus",
+        "attribute": "minecraft:oxygen_bonus",
         "amount": {
           "type": "minecraft:linear",
           "base": 1,
@@ -33,7 +33,7 @@
       },
       {
         "id": "amasan",
-        "attribute": "minecraft:player.submerged_mining_speed",
+        "attribute": "minecraft:submerged_mining_speed",
         "amount": {
           "type": "minecraft:linear",
           "base": 0.2,
@@ -43,7 +43,7 @@
       },
       {
         "id": "amasan",
-        "attribute": "minecraft:generic.water_movement_efficiency",
+        "attribute": "minecraft:water_movement_efficiency",
         "amount": {
           "type": "minecraft:linear",
           "base": 0.2,

@@ -23,7 +23,7 @@
     "minecraft:attributes": [
       {
         "id": "movement_efficiency",
-        "attribute": "minecraft:generic.movement_efficiency",
+        "attribute": "minecraft:movement_efficiency",
         "amount": {
           "type": "minecraft:linear",
           "base": 0.2,

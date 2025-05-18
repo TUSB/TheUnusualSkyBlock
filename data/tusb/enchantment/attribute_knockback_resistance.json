@@ -22,7 +22,7 @@
     "minecraft:attributes": [
       {
         "id": "knockback_resistance",
-        "attribute": "minecraft:generic.knockback_resistance",
+        "attribute": "minecraft:knockback_resistance",
         "amount": {
           "type": "minecraft:linear",
           "base": 0.1,
@@ -32,7 +32,7 @@
       },
       {
         "id": "knockback_resistance",
-        "attribute": "minecraft:generic.explosion_knockback_resistance",
+        "attribute": "minecraft:explosion_knockback_resistance",
         "amount": {
           "type": "minecraft:linear",
           "base": 0.1,

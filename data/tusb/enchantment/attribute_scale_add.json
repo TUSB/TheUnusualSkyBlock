@@ -23,7 +23,7 @@
     "minecraft:attributes": [
       {
         "id": "scale_add",
-        "attribute": "minecraft:generic.scale",
+        "attribute": "minecraft:scale",
         "amount": {
           "type": "minecraft:linear",
           "base": 1,
@@ -33,7 +33,7 @@
       },
       {
         "id": "scale_add",
-        "attribute": "minecraft:generic.step_height",
+        "attribute": "minecraft:step_height",
         "amount": {
           "type": "minecraft:linear",
           "base": 1,
@@ -43,7 +43,7 @@
       },
       {
         "id": "scale_add",
-        "attribute": "minecraft:generic.jump_strength",
+        "attribute": "minecraft:jump_strength",
         "amount": {
           "type": "minecraft:linear",
           "base": 1,
@@ -53,7 +53,7 @@
       },
       {
         "id": "scale_add",
-        "attribute": "minecraft:player.block_interaction_range",
+        "attribute": "minecraft:block_interaction_range",
         "amount": {
           "type": "minecraft:linear",
           "base": 1,
@@ -63,7 +63,7 @@
       },
       {
         "id": "scale_add",
-        "attribute": "minecraft:player.entity_interaction_range",
+        "attribute": "minecraft:entity_interaction_range",
         "amount": {
           "type": "minecraft:linear",
           "base": 1,
@@ -73,7 +73,7 @@
       },
       {
         "id": "scale_add",
-        "attribute": "minecraft:generic.safe_fall_distance",
+        "attribute": "minecraft:safe_fall_distance",
         "amount": {
           "type": "minecraft:linear",
           "base": 1,
@@ -83,7 +83,7 @@
       },
       {
         "id": "scale_add",
-        "attribute": "minecraft:generic.attack_speed",
+        "attribute": "minecraft:attack_speed",
         "amount": {
           "type": "minecraft:linear",
           "base": -0.25,
@@ -93,7 +93,7 @@
       },
       {
         "id": "scale_add",
-        "attribute": "minecraft:generic.attack_damage",
+        "attribute": "minecraft:attack_damage",
         "amount": {
           "type": "minecraft:linear",
           "base": 0.5,

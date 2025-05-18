@@ -22,7 +22,7 @@
     "minecraft:attributes": [
       {
         "id": "movement_speed",
-        "attribute": "minecraft:generic.movement_speed",
+        "attribute": "minecraft:movement_speed",
         "amount": {
           "type": "minecraft:linear",
           "base": 0.025,
