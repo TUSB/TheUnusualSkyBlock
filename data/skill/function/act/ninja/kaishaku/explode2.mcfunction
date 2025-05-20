@@ -14,7 +14,7 @@ execute store result score _ Calc run data get storage skill: damage.physical
 scoreboard players operation _ HPMax = @s HPMax
 scoreboard players set _ _ 5
 scoreboard players operation _ HPMax /= _ _
-execute store result score _ Damage run scoreboard players operation _ Calc += _ HPMax
+execute store result storage skill: damage.physical int 1 run scoreboard players operation _ Calc += _ HPMax
 
 execute as @e[distance=..5,tag=Enemy] run function skill:damage/apply/
 
