@@ -18,7 +18,6 @@ execute if score _ _ matches 00000..01000 run scoreboard players set _ Calc 2
 execute if score _ _ matches 01000..11000 run scoreboard players set _ Calc 1
 execute if score _ Level matches 2 run scoreboard players add _ Calc 1
 execute if score _ Level matches 3 run scoreboard players add _ Calc 2
-tellraw @a [{"score":{"name":"_","objective":"Calc"}}]
 function skill:act/ninja/yokake/fork
 
 # スニークしていれば範囲化
