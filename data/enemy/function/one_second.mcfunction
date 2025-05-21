@@ -1,11 +1,16 @@
 #> enemy:one_second
-# -> 10秒処理
-## 使用するときにコメントアウトを外してください。
-# execute if score $Seconds Count matches 0 run function enemy:ten_seconds
+# 
+# 1秒処理
 
-# 敵火だるま
-execute if entity @s[tag=EnemyBurn] run function effect:enemy_debuff/burn/second
+# 10秒処理呼び出し 使用するときにコメントアウトを外してください。
+# execute if score $Seconds Count matches 0 run function enemy:ten_seconds
 
 ## 忍者
 # 介錯
 execute if entity @s[scores={Kaishaku=1..}] run function skill:act/ninja/kaishaku/debuff_second
+
+# 敵火だるま1秒処理
+execute if entity @s[tag=EnemyBurn] run function effect:enemy_debuff/burn/second
+
+# 敵帯電1秒処理
+execute if entity @s[tag=EnemyElectrification] run function effect:enemy_debuff/electrification/second
