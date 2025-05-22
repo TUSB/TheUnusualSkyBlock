@@ -24,4 +24,4 @@ execute if entity @s[tag=IronWill] run function skill:act/knight/iron_will/load
 
 ## 忍者
 # 跳躍演出
-execute if entity @s[scores={Choyaku=0..},nbt={OnGround:false,FallDistance:0.0f}] run function makeup:skill/act/ninja/choyaku/direction
+execute if score @s Choyaku matches 0.. if entity @s[nbt={OnGround:false,FallDistance:0.0f}] run function makeup:skill/act/ninja/choyaku/direction
