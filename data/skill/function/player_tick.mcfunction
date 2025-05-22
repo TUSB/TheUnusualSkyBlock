@@ -20,3 +20,7 @@ function skill:update_mp/
 # アイアンウィル
 execute if entity @s[scores={IronWill=1..}] run function skill:act/knight/iron_will/tick
 execute if entity @s[tag=IronWill] run function skill:act/knight/iron_will/load
+
+## 忍者
+# 介錯
+execute if entity @s[scores={Kaishaku=0..}] run function skill:act/ninja/kaishaku/player_tick
