@@ -64,6 +64,8 @@ scoreboard objectives add BurnTimer dummy {"text":"火だるまタイマー"}
 scoreboard objectives add BurnCount dummy {"text":"火だるまカウント"}
 scoreboard objectives add ElectrificationResistance dummy {"text":"帯電耐性"}
 scoreboard objectives add ElectrificationTimer dummy {"text":"帯電カウント"}
+scoreboard objectives add CurseResistance dummy {"text":"呪蝕耐性"}
+scoreboard objectives add CurseTimer dummy {"text":"呪蝕タイマー"}
 scoreboard objectives add GameTime dummy {"text":"ゲームタイム"}
 scoreboard objectives add ProjectileTime minecraft.custom:minecraft.play_time {"text":"投射物ヒットタイマー"}
 scoreboard objectives add ShieldUsingTick dummy {"text":"盾を使用したtick"}
@@ -112,6 +114,7 @@ scoreboard objectives add ChoyakuLevel dummy {"text":"跳躍レベル"}
 scoreboard objectives add Aisatsu dummy {"text":"アイサツ消費MP減少効果量"}
 scoreboard objectives add Katon dummy {"text":"火遁"}
 scoreboard objectives add Kazakiri dummy {"text":"風切"}
+scoreboard objectives add KazakiriLevitation dummy {"text":"風切浮遊時間"}
 scoreboard objectives add Mokuso dummy {"text":"黙想"}
 scoreboard objectives add Suiton dummy {"text":"水遁"}
 scoreboard objectives add Issen dummy {"text":"一閃継続tick数"}
@@ -141,7 +144,6 @@ scoreboard objectives add HomePoint trigger {"text":"ホームポイント設定
 scoreboard objectives add FillSize dummy {"text":"フィールサイズ"}
 #共通
 scoreboard objectives add Weakness dummy {"text":"ウィークペイント効果時間"}
-scoreboard objectives add SkyWalk dummy {"text":"スカイウォーク"}
 scoreboard objectives add RestoreItem trigger {"text":"リスト・アイテム処理選択"}
 scoreboard objectives add SuspiciousPowderTime dummy {"text":"怪しい粉継続秒数"}
 scoreboard objectives add SuspiciousPowderToken dummy {"text":"怪しい粉消費MP量"}
