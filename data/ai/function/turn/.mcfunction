@@ -1,8 +1,5 @@
 #> ai:turn/
 
-##Sleepgaで無効化範囲
-execute if entity @s[tag=NoAI] run return fail
-
 ##Passenger処理
 execute if data storage mob_data: AI.Passenger run function ai:call/trigger/passenger/
 

@@ -1,0 +1,14 @@
+execute if entity @s[tag=HandingOutFlyers] run function settings:entity/flying_island/friendly/blow/employee/handing_out_flyers
+execute if entity @s[tag=Hashe] run function settings:entity/flying_island/friendly/blow/employee/hashe
+execute if entity @s[tag=StockVictim] run function settings:entity/flying_island/friendly/blow/employee/stock_victim
+execute if entity @s[tag=Guide] run function settings:entity/flying_island/friendly/blow/employee/guide
+execute if entity @s[tag=HenCooley] run function settings:entity/flying_island/friendly/blow/employee/hen_cooley
+execute if entity @s[tag=MasterAngler] run function settings:entity/flying_island/friendly/blow/employee/master_angler
+execute if entity @s[tag=RoseNose] run function settings:entity/flying_island/friendly/blow/employee/rose_nose
+execute if entity @s[tag=HandingOutFlyersLines] run function settings:entity/flying_island/friendly/blow/employee/handing_out_flyers_lines
+execute if entity @s[tag=HasheLines] run function settings:entity/flying_island/friendly/blow/employee/hashe_lines
+execute if entity @s[tag=StockVictimLines] run function settings:entity/flying_island/friendly/blow/employee/stock_victim_lines
+execute if entity @s[tag=GuideLines] run function settings:entity/flying_island/friendly/blow/employee/guide_lines
+execute if entity @s[tag=HenCooleyLines] run function settings:entity/flying_island/friendly/blow/employee/hen_cooley_lines
+execute if entity @s[tag=MasterAnglerLines] run function settings:entity/flying_island/friendly/blow/employee/master_angler_lines
+execute if entity @s[tag=RoseNoseLines] run function settings:entity/flying_island/friendly/blow/employee/rose_nose_lines

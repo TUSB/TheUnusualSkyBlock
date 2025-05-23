@@ -1,0 +1,22 @@
+### 即時ステータス
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie_villager",CustomName:'{"translate":"農業スティーブ","color":"#FFFFFF","bold":true}',PortalCooldown:3000,DeathLootTable:"empty",VillagerData:{level:99,profession:"farmer",type:"plains"},Tags:[Mob,Enemy,DelayedData,CallOnDamage,CallOnAttack,TickingRequired,HasLootTable,AnalyseLog]}
+data modify storage tusb_mob: "即時ステータス"."見た目" set value {HandItems:[{id:"minecraft:iron_hoe",Count:1},{}],ArmorItems:[{},{},{},{id:"minecraft:player_head",count:1}],HandDropChances:[-Infinityf,-Infinityf],ArmorDropChances:[-Infinityf,-Infinityf,-Infinityf,-Infinityf]}
+data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 32d
+data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0.27d
+data modify storage tusb_mob: "即時ステータス"."ノックバック耐性" set value 0.1d
+data modify storage tusb_mob: "即時ステータス"."ノックバック力" set value 3d
+
+### 遅延ステータス
+# ステータス
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."理外攻撃力" set value 0
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."理外防御力" set value 0
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier2/common",Count:1,Chance:0.3d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s収穫の時間じゃあああ！！","with":[{"translate":"【能力：反撃・追撃】","color":"#00FF00"}]}]'
+# AI
+data modify storage tusb_mob: "遅延ステータス".AI set value {Damage:[{Settings:[{Name:"Facing",Target:{Look:"Friendly",Radius:32d,IgnoreBlocks:true}}],Name:"Step",Speed:1.0d}],Attack:[{Name:"Damage",Player:{DamageType:[Global,Fall],DeathCause:'[{"translate":"%1$sは%2$sの鎌によって畑の肥料となった。","with":[{"selector":"@s"},{"storage":"mob_data:","nbt":"MobName","interpret":true}]}]'},Distance:{Max:3d},AEC:{effects:[{id:"minecraft:levitation",amplifier:30b,duration:20,show_particles:false},{id:"minecraft:slowness",amplifier:2b,duration:200}]}}]}
