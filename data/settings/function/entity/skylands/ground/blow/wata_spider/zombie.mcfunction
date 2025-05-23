@@ -1,9 +1,0 @@
-### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:husk",CustomName:'{"translate":"綿飴","color":"#FFFFFF","bold":true}',Silent:1b,Invulnerable:1b,active_effects:[{id:"minecraft:fire_resistance",amplifier:1b,duration:-1,show_particles:0b},{id:"minecraft:invisibility",amplifier:127b,duration:-1,show_particles:0b}],IsBaby:1b,PortalCooldown:3000,DeathLootTable:"empty",Tags:[DelayedData,HasAI,CallOnAttack,CallOnTick,TickingRequired,DamageProjectile,EnemyProjectile]}
-data modify storage tusb_mob: "即時ステータス"."見た目" set value {ArmorItems:[{},{},{},{id:"minecraft:stick",count:1,components:{"minecraft:custom_model_data":1003}}],ArmorDropChances:[-Infinityf,-Infinityf,-Infinityf,-Infinityf]}
-### 遅延ステータス
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 120
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 0
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."理外攻撃力" set value 0
-# AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Attack:[{Name:"Function",Tags:[Skylands,Ground,Blow,WataSpider,ZombieDebuff]}],Tick:[{Name:"Function",Tags:[Global,Event,Function,CommonExe,RotationYFixed]}],Passenger:{Type:"down",Check:false,Call:[{Name:"Kill"}]},TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:80,Max:140,Current:120},Loop:{Max:1,Current:1},Call:[{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:32d,IgnoreBlocks:true},Anchor:"Eyes"},{Name:"Direction",Direction:[-20f,0f],DirectionRange:[40f,0f],Speed:2d,SpeedRange:2d}],Name:"Spawn",SpawnEntities:[[{Tags:[Skylands,Ground,Blow,WataSpider,Watage],Level:15}]]}]}]}]}

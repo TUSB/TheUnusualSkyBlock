@@ -1,9 +1,0 @@
-### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:snowball",CustomName:'{"translate":"カトン・スリケン","color":"#FF0000"}',NoGravity:true,PortalCooldown:80,Tags:[DelayedData,CallOnInit,CallOnAttack,CooldownRequired,DamageProjectile,EnemyProjectile]}
-data modify storage tusb_mob: "即時ステータス"."見た目" set value {Item:{id:"minecraft:firework_star",count:1,components:{"minecraft:custom_model_data":122,"minecraft:firework_explosion":{shape:"small_ball",colors:[I;16731960]}}}}
-### 遅延ステータス
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 100
-# AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"Step",Speed:0.8d}],Attack:[{Name:"Damage",Player:{Damage:0d},Distance:{Max:1d},AEC:{effects:[{id:"minecraft:invisibility",amplifier:3b,duration:600,show_particles:false}]}}]}
-#Function
-playsound minecraft:entity.blaze.shoot hostile @a[distance=..32] ~ ~ ~ 5 0.6 0

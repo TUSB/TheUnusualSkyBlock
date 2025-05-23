@@ -1,5 +1,0 @@
-execute if entity @s[tag=TropicalFish] run function settings:entity/global/friendly/blow/bio_fish/tropical_fish
-execute if entity @s[tag=Salmon] run function settings:entity/global/friendly/blow/bio_fish/salmon
-execute if entity @s[tag=Cod] run function settings:entity/global/friendly/blow/bio_fish/cod
-execute if entity @s[tag=WaterColumn] run function settings:entity/global/friendly/blow/bio_fish/water_column
-execute if entity @s[tag=SplashChange] run function settings:entity/global/friendly/blow/bio_fish/splash_change
