@@ -11,7 +11,7 @@ scoreboard players remove @s Interval 1
 execute if entity @s[scores={SkillShortcut=1..}] run function skill:shortcut/tick
 
 # 幸運によるMP補正
-execute store result score _ Luck run attribute @s minecraft:generic.luck get 10
+execute store result score _ Luck run attribute @s minecraft:luck get 10
 execute unless score _ Luck = @s Luck run function skill:luck_update
 
 # MP回復

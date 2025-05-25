@@ -10,7 +10,7 @@ execute if data entity @s[tag=!HideLevel] CustomName in area:control_area run da
 execute unless data entity @s[tag=!HideLevel] CustomName in area:control_area run data modify entity @s CustomName set from block 2 2 2 Items[0].components."minecraft:lore"[1]
 
 ### 共通NBT
-attribute @s minecraft:generic.max_absorption base set 2048
+attribute @s minecraft:max_absorption base set 2048
 data modify entity @s AbsorptionAmount set value 2048f
 data modify entity @s DeathTime set value 19s
 

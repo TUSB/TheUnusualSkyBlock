@@ -20,7 +20,7 @@ execute if entity @s[tag=SpawnParticles] run function makeup:entity/spawn
 execute if score _ Level matches 1.. store result storage tusb_mob: MobTags[-1].Level int 1 run scoreboard players get _ Level
 
 # tusb_mob: SpawnDataを初期化する
-data modify storage tusb_mob: SpawnData set value {attributes:[{id:"minecraft:generic.movement_speed"},{id:"minecraft:generic.knockback_resistance"},{id:"minecraft:generic.attack_knockback"}],Passengers:[]}
+data modify storage tusb_mob: SpawnData set value {attributes:[{id:"minecraft:movement_speed"},{id:"minecraft:knockback_resistance"},{id:"minecraft:attack_knockback"}],Passengers:[]}
 
 # OhMyDatIDを保存
 execute store result storage tusb_mob: SpawnData.TicksFrozen int 1 run scoreboard players get @s OhMyDatID
@@ -30,10 +30,10 @@ data modify storage tusb_mob: SpawnData merge from storage tusb_mob: "即時ス�
 data modify storage tusb_mob: SpawnData merge from storage tusb_mob: "即時ステータス"."見た目"
 execute if data storage tusb_mob: SpawnData{Tags:[Enemy]} unless data storage tusb_mob: SpawnData.Team run data modify storage tusb_mob: SpawnData.Team set value "Enemy"
 execute if data storage tusb_mob: SpawnData{Team:"None"} run data remove storage tusb_mob: SpawnData.Team
-data modify storage tusb_mob: SpawnData.attributes[{id:"minecraft:generic.follow_range"}].base set from storage tusb_mob: "即時ステータス"."最大感知範囲"
-data modify storage tusb_mob: SpawnData.attributes[{id:"minecraft:generic.movement_speed"}].base set from storage tusb_mob: "即時ステータス"."基本移動力"
-data modify storage tusb_mob: SpawnData.attributes[{id:"minecraft:generic.knockback_resistance"}].base set from storage tusb_mob: "即時ステータス"."ノックバック耐性"
-data modify storage tusb_mob: SpawnData.attributes[{id:"minecraft:generic.attack_knockback"}].base set from storage tusb_mob: "即時ステータス"."ノックバック力"
+data modify storage tusb_mob: SpawnData.attributes[{id:"minecraft:follow_range"}].base set from storage tusb_mob: "即時ステータス"."最大感知範囲"
+data modify storage tusb_mob: SpawnData.attributes[{id:"minecraft:movement_speed"}].base set from storage tusb_mob: "即時ステータス"."基本移動力"
+data modify storage tusb_mob: SpawnData.attributes[{id:"minecraft:knockback_resistance"}].base set from storage tusb_mob: "即時ステータス"."ノックバック耐性"
+data modify storage tusb_mob: SpawnData.attributes[{id:"minecraft:attack_knockback"}].base set from storage tusb_mob: "即時ステータス"."ノックバック力"
 
 # 遅延ステータスを保存する
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList append value {}
