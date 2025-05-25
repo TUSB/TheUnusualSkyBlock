@@ -222,14 +222,14 @@ jobs:
             4. **D: Attribute種類**  
                - **カスタム/デフォルト**の場合:  
                  ```
-                 generic.max_health => 1
-                 generic.knockback_resistance => 2
-                 generic.movement_speed => 3
-                 generic.attack_damage => 4
-                 generic.attack_speed => 5
-                 generic.armor => 6
-                 generic.armor_toughness => 7
-                 generic.luck => 8
+                 max_health => 1
+                 knockback_resistance => 2
+                 movement_speed => 3
+                 attack_damage => 4
+                 attack_speed => 5
+                 armor => 6
+                 armor_toughness => 7
+                 luck => 8
                  ```
                  一の位に Operation(0=+X,1=+X%,2=×X%)を加える (例: attack_speed+Operation2 => D=52)。  
                - **エンチャント**(C=2)の場合: DにエンチャントID(数値)を指定。

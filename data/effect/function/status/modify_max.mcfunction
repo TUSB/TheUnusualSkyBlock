@@ -36,20 +36,20 @@ execute store result score @s Luck run attribute @s minecraft:generic.luck get 1
 scoreboard players operation @s MPMax += @s Luck
 
 #体力リセット
-attribute @s generic.max_health modifier remove tusb:max_health_3276.8
-attribute @s generic.max_health modifier remove tusb:max_health_1638.4
-attribute @s generic.max_health modifier remove tusb:max_health_819.2
-attribute @s generic.max_health modifier remove tusb:max_health_409.6
-attribute @s generic.max_health modifier remove tusb:max_health_204.8
-attribute @s generic.max_health modifier remove tusb:max_health_102.4
-attribute @s generic.max_health modifier remove tusb:max_health_51.2
-attribute @s generic.max_health modifier remove tusb:max_health_25.6
-attribute @s generic.max_health modifier remove tusb:max_health_12.8
-attribute @s generic.max_health modifier remove tusb:max_health_6.4
-attribute @s generic.max_health modifier remove tusb:max_health_3.2
-attribute @s generic.max_health modifier remove tusb:max_health_1.6
-attribute @s generic.max_health modifier remove tusb:max_health_0.8
-attribute @s generic.max_health modifier remove tusb:max_health_0.4
+attribute @s max_health modifier remove tusb:max_health_3276.8
+attribute @s max_health modifier remove tusb:max_health_1638.4
+attribute @s max_health modifier remove tusb:max_health_819.2
+attribute @s max_health modifier remove tusb:max_health_409.6
+attribute @s max_health modifier remove tusb:max_health_204.8
+attribute @s max_health modifier remove tusb:max_health_102.4
+attribute @s max_health modifier remove tusb:max_health_51.2
+attribute @s max_health modifier remove tusb:max_health_25.6
+attribute @s max_health modifier remove tusb:max_health_12.8
+attribute @s max_health modifier remove tusb:max_health_6.4
+attribute @s max_health modifier remove tusb:max_health_3.2
+attribute @s max_health modifier remove tusb:max_health_1.6
+attribute @s max_health modifier remove tusb:max_health_0.8
+attribute @s max_health modifier remove tusb:max_health_0.4
 
 # MP16383まで対応
 scoreboard players set _ _ 131072
@@ -60,43 +60,43 @@ scoreboard players operation _ HPMax *= _ _
 scoreboard players set _ _ 2
 
 scoreboard players operation _ HPMax *= _ _
-execute if score _ HPMax matches ..-1 run attribute @s generic.max_health modifier add tusb:max_health_3276.8 3276.8 add_value
+execute if score _ HPMax matches ..-1 run attribute @s max_health modifier add tusb:max_health_3276.8 3276.8 add_value
 
 scoreboard players operation _ HPMax *= _ _
-execute if score _ HPMax matches ..-1 run attribute @s generic.max_health modifier add tusb:max_health_1638.4 1638.4 add_value
+execute if score _ HPMax matches ..-1 run attribute @s max_health modifier add tusb:max_health_1638.4 1638.4 add_value
 
 scoreboard players operation _ HPMax *= _ _
-execute if score _ HPMax matches ..-1 run attribute @s generic.max_health modifier add tusb:max_health_819.2 819.2 add_value
+execute if score _ HPMax matches ..-1 run attribute @s max_health modifier add tusb:max_health_819.2 819.2 add_value
 
 scoreboard players operation _ HPMax *= _ _
-execute if score _ HPMax matches ..-1 run attribute @s generic.max_health modifier add tusb:max_health_409.6 409.6 add_value
+execute if score _ HPMax matches ..-1 run attribute @s max_health modifier add tusb:max_health_409.6 409.6 add_value
 
 scoreboard players operation _ HPMax *= _ _
-execute if score _ HPMax matches ..-1 run attribute @s generic.max_health modifier add tusb:max_health_204.8 204.8 add_value
+execute if score _ HPMax matches ..-1 run attribute @s max_health modifier add tusb:max_health_204.8 204.8 add_value
 
 scoreboard players operation _ HPMax *= _ _
-execute if score _ HPMax matches ..-1 run attribute @s generic.max_health modifier add tusb:max_health_102.4 102.4 add_value
+execute if score _ HPMax matches ..-1 run attribute @s max_health modifier add tusb:max_health_102.4 102.4 add_value
 
 scoreboard players operation _ HPMax *= _ _
-execute if score _ HPMax matches ..-1 run attribute @s generic.max_health modifier add tusb:max_health_51.2 51.2 add_value
+execute if score _ HPMax matches ..-1 run attribute @s max_health modifier add tusb:max_health_51.2 51.2 add_value
 
 scoreboard players operation _ HPMax *= _ _
-execute if score _ HPMax matches ..-1 run attribute @s generic.max_health modifier add tusb:max_health_25.6 25.6 add_value
+execute if score _ HPMax matches ..-1 run attribute @s max_health modifier add tusb:max_health_25.6 25.6 add_value
 
 scoreboard players operation _ HPMax *= _ _
-execute if score _ HPMax matches ..-1 run attribute @s generic.max_health modifier add tusb:max_health_12.8 12.8 add_value
+execute if score _ HPMax matches ..-1 run attribute @s max_health modifier add tusb:max_health_12.8 12.8 add_value
 
 scoreboard players operation _ HPMax *= _ _
-execute if score _ HPMax matches ..-1 run attribute @s generic.max_health modifier add tusb:max_health_6.4 6.4 add_value
+execute if score _ HPMax matches ..-1 run attribute @s max_health modifier add tusb:max_health_6.4 6.4 add_value
 
 scoreboard players operation _ HPMax *= _ _
-execute if score _ HPMax matches ..-1 run attribute @s generic.max_health modifier add tusb:max_health_3.2 3.2 add_value
+execute if score _ HPMax matches ..-1 run attribute @s max_health modifier add tusb:max_health_3.2 3.2 add_value
 
 scoreboard players operation _ HPMax *= _ _
-execute if score _ HPMax matches ..-1 run attribute @s generic.max_health modifier add tusb:max_health_1.6 1.6 add_value
+execute if score _ HPMax matches ..-1 run attribute @s max_health modifier add tusb:max_health_1.6 1.6 add_value
 
 scoreboard players operation _ HPMax *= _ _
-execute if score _ HPMax matches ..-1 run attribute @s generic.max_health modifier add tusb:max_health_0.8 0.8 add_value
+execute if score _ HPMax matches ..-1 run attribute @s max_health modifier add tusb:max_health_0.8 0.8 add_value
 
 scoreboard players operation _ HPMax *= _ _
-execute if score _ HPMax matches ..-1 run attribute @s generic.max_health modifier add tusb:max_health_0.4 0.4 add_value
+execute if score _ HPMax matches ..-1 run attribute @s max_health modifier add tusb:max_health_0.4 0.4 add_value
