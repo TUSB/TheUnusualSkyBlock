@@ -33,8 +33,8 @@ data modify entity @s[type=tnt] fuse set value 0s
 kill @s[type=area_effect_cloud,nbt={Radius:2.5f,RadiusOnUse:-0.5f,RadiusPerTick:-0.008333334f}]
 
 #ゾンビ増援制御
-attribute @s[type=zombie] zombie.spawn_reinforcements base set 0.0
-attribute @s[type=zombie] zombie.spawn_reinforcements modifier remove minecraft:leader_zombie_bonus
+attribute @s[type=zombie] spawn_reinforcements base set 0.0
+attribute @s[type=zombie] spawn_reinforcements modifier remove minecraft:leader_zombie_bonus
 
 #自然湧きシュルカー・エンダーマイト・シルバーフィッシュ削除
 tag @s[type=#entity:enemy,tag=] add Garbage
