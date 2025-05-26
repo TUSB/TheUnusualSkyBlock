@@ -3,6 +3,9 @@
 ## 使用するときにコメントアウトを外してください。
 # execute if score $Ticks Count matches 0 run function ai:one_second
 
+# NoAIタグが付いていれば失敗
+execute if entity @s[tag=NoAI] run return fail
+
 # Turnスキル、Exit.Time インターバル消費
 scoreboard players remove @s AI_SkillInterval 1
 scoreboard players remove @s AI_ExitTime 1
