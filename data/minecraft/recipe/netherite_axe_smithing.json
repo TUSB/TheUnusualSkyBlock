@@ -1,15 +1,9 @@
 {
   "type": "minecraft:smithing_transform",
-  "base": 
-   "minecraft:diamond_axe"
-  ,
-  "addition": 
-   "minecraft:bedrock"
-  ,
+  "base": "minecraft:diamond_axe",
+  "addition": "minecraft:bedrock",
   "result": {
     "id": "minecraft:netherite_axe"
   },
-  "template": 
-   "minecraft:netherite_upgrade_smithing_template"
-  
+  "template": "minecraft:netherite_upgrade_smithing_template"
 }
