@@ -8,7 +8,7 @@
     execute unless data entity @s Inventory[0] run return fail
 
 # 墓のアイテムディスプレイを召喚する
-    summon item_display ~ ~ ~ {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.25f,0f],scale:[0.5f,0.5f,0.5f]},item:{id:"minecraft:stone_sword",count:1,components:{"minecraft:custom_model_data":1000}},Tags:[Tomb,TombInit]}
+    summon item_display ~ ~ ~ {transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[0f,0.25f,0f],scale:[0.5f,0.5f,0.5f]},item:{id:"minecraft:stone_sword",count:1,components:{"minecraft:custom_model_data":{"floats":[1000]}}},Tags:[Tomb,TombInit]}
     execute as @e[type=item_display,distance=..0.01,tag=TombInit] run function #oh_my_dat:please
 
 # 墓の中に墓は入れません(墓に情報として保存する)

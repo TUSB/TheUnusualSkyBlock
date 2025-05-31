@@ -14,7 +14,7 @@ execute if score _ Calc matches 1.. in area:control_area run function item:emera
 
 #メガトンエメラルドを入れる
 data modify storage item: EmeraldBundle.Items set value []
-data modify storage item: EmeraldBundle.Items append from storage item: EmeraldBundle.Inventory[{id:"minecraft:iron_nugget",components:{"minecraft:custom_model_data":1}}]
+data modify storage item: EmeraldBundle.Items append from storage item: EmeraldBundle.Inventory[{id:"minecraft:iron_nugget",components:{"minecraft:custom_model_data":{"floats":[1]}}}]
 execute if score # Calc matches 1.. if data storage item: EmeraldBundle.Items[0] run function item:emerald_bundle/store
 
 #バンドルをルート
