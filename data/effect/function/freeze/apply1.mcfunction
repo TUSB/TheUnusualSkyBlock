@@ -8,7 +8,7 @@ data modify storage effect: Freeze.PlayerRotated set from entity @s Rotation
 summon marker ^ ^ ^ {Tags:["Freeze","Initializing"]}
 execute as @e[type=marker,tag=Freeze,tag=Initializing] run function effect:freeze/set_rotation
 
-execute positioned ~ ~500 ~ anchored eyes run summon slime ^ ^-0.2 ^1 {DeathLootTable:"minecraft:empty",Size:0,AbsorptionAmount:2.5f,Tags:["Freeze"],Health:0.1f,active_effects:[{id:"minecraft:wither",amplifier:1b,duration:80,show_particles:false},{id:"minecraft:invisibility",duration:-1,show_particles:false}],NoAI:true,NoGravity:true,Invulnerable:true,Silent:true}
+execute positioned ~ ~500 ~ anchored eyes run summon slime ^ ^-0.2 ^1 {DeathLootTable:"",Size:0,AbsorptionAmount:2.5f,Tags:["Freeze"],Health:0.1f,active_effects:[{id:"minecraft:wither",amplifier:1b,duration:80,show_particles:false},{id:"minecraft:invisibility",duration:-1,show_particles:false}],NoAI:true,NoGravity:true,Invulnerable:true,Silent:true}
 execute positioned ~ ~500 ~ anchored eyes positioned ^ ^-0.2 ^1 anchored feet as @e[tag=Freeze,distance=0,limit=1] run tp @s ~ ~-500 ~
 
 schedule function effect:freeze/fix 1t
