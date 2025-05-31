@@ -3,7 +3,11 @@
     "icon": {
       "id": "minecraft:turtle_scute",
       "components": {
-        "minecraft:custom_model_data": {"floats":[2]}
+        "minecraft:custom_model_data": {
+          "floats": [
+            2
+          ]
+        }
       }
     },
     "title": [

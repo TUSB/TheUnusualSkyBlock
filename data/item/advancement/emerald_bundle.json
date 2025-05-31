@@ -32,7 +32,11 @@
               "minecraft:iron_nugget"
             ],
             "components": {
-              "minecraft:custom_model_data": {"floats":[1]}
+              "minecraft:custom_model_data": {
+                "floats": [
+                  1
+                ]
+              }
             }
           },
           {

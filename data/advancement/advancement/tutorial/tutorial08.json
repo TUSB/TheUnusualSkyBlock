@@ -3,7 +3,11 @@
     "icon": {
       "id": "minecraft:gold_nugget",
       "components": {
-        "minecraft:custom_model_data": {"floats":[52]}
+        "minecraft:custom_model_data": {
+          "floats": [
+            52
+          ]
+        }
       }
     },
     "title": [
