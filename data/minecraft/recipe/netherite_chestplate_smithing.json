@@ -1,15 +1,9 @@
 {
   "type": "minecraft:smithing_transform",
-  "base": {
-    "item": "minecraft:diamond_chestplate"
-  },
-  "addition": {
-    "item": "minecraft:bedrock"
-  },
+  "base": "minecraft:diamond_chestplate",
+  "addition": "minecraft:bedrock",
   "result": {
     "id": "minecraft:netherite_chestplate"
   },
-  "template": {
-    "item": "minecraft:netherite_upgrade_smithing_template"
-  }
+  "template": "minecraft:netherite_upgrade_smithing_template"
 }

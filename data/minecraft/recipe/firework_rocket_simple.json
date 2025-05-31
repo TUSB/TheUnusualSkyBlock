@@ -1,12 +1,8 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:bedrock"
-    },
-    {
-      "item": "minecraft:paper"
-    }
+    "minecraft:bedrock",
+    "minecraft:paper"
   ],
   "result": {
     "id": "minecraft:firework_rocket",

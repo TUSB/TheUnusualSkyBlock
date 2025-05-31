@@ -1,12 +1,8 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:elytra"
-    },
-    {
-      "item": "minecraft:elytra"
-    }
+    "minecraft:elytra",
+    "minecraft:elytra"
   ],
   "result": {
     "id": "minecraft:white_wool"

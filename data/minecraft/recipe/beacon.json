@@ -6,15 +6,9 @@
     "OOO"
   ],
   "key": {
-    "S": {
-      "item": "minecraft:nether_star"
-    },
-    "G": {
-      "item": "minecraft:glass"
-    },
-    "O": {
-      "item": "minecraft:bedrock"
-    }
+    "S": "minecraft:nether_star",
+    "G": "minecraft:glass",
+    "O": "minecraft:bedrock"
   },
   "result": {
     "id": "minecraft:beacon"

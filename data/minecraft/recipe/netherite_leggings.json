@@ -1,12 +1,8 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:diamond_leggings"
-    },
-    {
-      "item": "minecraft:netherite_ingot"
-    }
+    "minecraft:diamond_leggings",
+    "minecraft:netherite_ingot"
   ],
   "result": {
     "id": "minecraft:netherite_leggings"

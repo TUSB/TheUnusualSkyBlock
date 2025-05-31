@@ -1,12 +1,8 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    {
-      "item": "minecraft:diamond_hoe"
-    },
-    {
-      "item": "minecraft:netherite_ingot"
-    }
+    "minecraft:diamond_hoe",
+    "minecraft:netherite_ingot"
   ],
   "result": {
     "id": "minecraft:netherite_hoe"

@@ -2,12 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "key": {
-    "#": {
-      "item": "minecraft:gold_nugget"
-    },
-    "X": {
-      "item": "minecraft:bedrock"
-    }
+    "#": 
+     "minecraft:gold_nugget"
+    ,
+    "X": 
+     "minecraft:bedrock"
+    
   },
   "pattern": [
     "###",
