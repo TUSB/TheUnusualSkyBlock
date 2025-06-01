@@ -4,6 +4,7 @@
 
 # 解除条件を満たしていれば失敗
 execute unless predicate effect:freeze run return fail
+execute if score @s BurnTimer matches 1.. run return fail
 
 #（凍結耐性値）%の確率で失敗
 execute store result score _ _ run random value 1..100
