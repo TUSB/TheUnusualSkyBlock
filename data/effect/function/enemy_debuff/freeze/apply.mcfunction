@@ -2,6 +2,9 @@
 #
 # 敵凍結付与
 
+# 解除条件を満たしていれば失敗
+execute unless predicate effect:freeze run return fail
+
 #（凍結耐性値）%の確率で失敗
 execute store result score _ _ run random value 1..100
 execute unless score @s FreezeResistance < _ _ run return fail
