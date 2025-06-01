@@ -12,6 +12,9 @@ execute if entity @s[scores={Kaishaku=1..}] run function skill:act/ninja/kaishak
 # 敵火だるま1秒処理
 execute if entity @s[tag=EnemyBurn] run function effect:enemy_debuff/burn/second
 
+# 敵凍結1秒処理
+execute if entity @s[tag=EnemyFreeze] run function effect:enemy_debuff/freeze/second
+
 # 敵帯電1秒処理
 execute if entity @s[tag=EnemyElectrification] run function effect:enemy_debuff/electrification/second
 
