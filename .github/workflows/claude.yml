@@ -34,6 +34,6 @@ jobs:
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          trigger_phrase: "@BOT"
+          trigger_phrase: "BOT"
           timeout_minutes: "60"
           
