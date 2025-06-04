@@ -1,5 +1,4 @@
 name: Claude PR Assistant
-
 on:
   issue_comment:
     types: [created]
@@ -20,13 +19,21 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: read
-      pull-requests: read
-      issues: read
+      issues: write
+      pull-requests: write 
       id-token: write
     steps:
-      - name: Checkout repository
+      - name: Get GitHub App token
+        id: app-token
+        uses: tibdex/github-app-token@v1
+        with:
+          app_id: ${{ secrets.GH_APP_ID }}
+          private_key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+
+      - name: Checkout Code
         uses: actions/checkout@v4
         with:
+          token: ${{ steps['app-token'].outputs.token || secrets.GITHUB_TOKEN }}
           fetch-depth: 1
 
       - name: Run Claude PR Action
@@ -34,6 +41,6 @@ jobs:
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          trigger_phrase: "BOT"
+          # trigger_phrase: "BOT"
           timeout_minutes: "60"
-          
+          token: ${{ steps['app-token'].outputs.token || secrets.GITHUB_TOKEN }}
