@@ -26,9 +26,9 @@ scoreboard objectives add MPMax dummy {"text":"MP最大値"}
 scoreboard objectives add Attack dummy {"text":"物理攻撃力"}
 scoreboard objectives add Defense dummy {"text":"物理防御力"}
 scoreboard objectives add MagicAttack dummy {"text":"魔法攻撃力"}
-scoreboard objectives add MagicDefence dummy {"text":"魔法防御力"}
+scoreboard objectives add MagicDefense dummy {"text":"魔法防御力"}
 scoreboard objectives add UnreasonableAttack dummy {"text":"理外攻撃力"}
-scoreboard objectives add UnreasonableDefence dummy {"text":"理外防御力"}
+scoreboard objectives add UnreasonableDefense dummy {"text":"理外防御力"}
 scoreboard objectives add BaseTotal dummy {"text":"合計基礎ポイント"}
 scoreboard objectives add GrowTotal dummy {"text":"合計成長ポイント"}
 scoreboard objectives add Damage dummy {"text":"ダメージ"}
