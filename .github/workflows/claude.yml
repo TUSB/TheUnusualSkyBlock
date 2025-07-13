@@ -1,0 +1,52 @@
+name: Claude PR Assistant
+on:
+  issue_comment:
+    types: [created]
+  pull_request_review_comment:
+    types: [created]
+  issues:
+    types: [opened, assigned]
+  pull_request_review:
+    types: [submitted]
+
+jobs:
+  claude-code-action:
+    if: |
+      (github.event_name == 'issue_comment' && contains(github.event.comment.body, '@claude')) ||
+      (github.event_name == 'pull_request_review_comment' && contains(github.event.comment.body, '@claude')) ||
+      (github.event_name == 'pull_request_review' && contains(github.event.review.body, '@claude')) ||
+      (github.event_name == 'issues' && contains(github.event.issue.body, '@claude'))
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      issues: write
+      pull-requests: write 
+      id-token: write
+    steps:
+      - name: Get GitHub App token
+        id: app-token
+        uses: tibdex/github-app-token@v1
+        with:
+          app_id: ${{ secrets.GH_APP_ID }}
+          private_key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          token: ${{ steps['app-token'].outputs.token || secrets.GITHUB_TOKEN }}
+          fetch-depth: 1
+
+      - name: Run Claude PR Action
+        uses: anthropics/claude-code-action@beta
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          # trigger_phrase: "BOT"
+          timeout_minutes: "60"
+          token: ${{ steps['app-token'].outputs.token || secrets.GITHUB_TOKEN }}
+          direct_prompt: |
+            あなたはMinecraft配布ワールド『The Unusual SkyBlock』の専属AIコードレビュワーとして、以下のルールに従ってPRレビューをしてください。
+            1. コード規約・ディレクトリ構成・データ管理ルールを統一し、誤字や名前間違えを防いで、開発規模が拡大しても整合性を維持できるようにする。  
+            2. MOBのHP、職業スキル、デバフ・ギミック、エリア設計といったゲームバランス要素を共通指針でまとめ、プレイヤーに適切な難易度・プレイフィールを提供する。
+            3. 職業レベルやエンチャント・アイテム管理などの詳細ルールも含め、制作時の混乱を防ぐ。
+            レビューに対する回答は必ず日本語で行う。
