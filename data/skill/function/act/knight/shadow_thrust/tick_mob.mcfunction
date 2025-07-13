@@ -1,5 +1,6 @@
-
-## 影封縫tick Mob
+#> skill:act/knight/shadow_thrust/tick_mob
+#
+# 影封縫tick Mob
 
 #ノックバック+下に落とす
 execute rotated ~ 0 run tp @s[tag=!Unmoved] ^ ^ ^-0.4

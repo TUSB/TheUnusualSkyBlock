@@ -1,5 +1,6 @@
-
-## 影封縫tick
+#> skill:act/knight/shadow_thrust/tick
+#
+# 影封縫tick
 
 #ダメージをロード
 function skill:damage/load

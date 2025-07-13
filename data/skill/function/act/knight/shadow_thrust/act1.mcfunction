@@ -1,5 +1,6 @@
-
-## 影封縫発動
+#> skill:act/knight/shadow_thrust/act1
+#
+# 影封縫発動
 
 # ダメージ計算
 execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"影封縫",Level:1}].Damage
