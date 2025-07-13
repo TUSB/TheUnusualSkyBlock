@@ -9,5 +9,7 @@ execute store result entity @s[tag=!Unmoved] Motion[1] double 0.01 run scoreboar
 summon area_effect_cloud ~ ~ ~ {Tags:[Skill,ShadowThrustPoint],Duration:25}
 #ダメージ付与
 function skill:damage/apply/
+#デバフ付与
+function effect:enemy_debuff/fear/apply
 #演出
 function makeup:skill/act/knight/shadow_thrust/tick_mob
