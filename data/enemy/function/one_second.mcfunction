@@ -15,5 +15,8 @@ execute if entity @s[tag=EnemyBurn] run function effect:enemy_debuff/burn/second
 # 敵帯電1秒処理
 execute if entity @s[tag=EnemyElectrification] run function effect:enemy_debuff/electrification/second
 
+# 敵畏怖1秒処理
+execute if entity @s[tag=EnemyFear] run function effect:enemy_debuff/fear/second
+
 # 敵呪蝕1秒処理
 execute if entity @s[tag=EnemyCurse] run function effect:enemy_debuff/curse/second
