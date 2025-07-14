@@ -11,6 +11,6 @@ summon area_effect_cloud ~ ~ ~ {Tags:[Skill,ShadowThrustPoint],Duration:25}
 #ダメージ付与
 function skill:damage/apply/
 #デバフ付与
-function effect:enemy_debuff/fear/apply
+function effect:enemy_debuff/curse/apply
 #演出
 function makeup:skill/act/knight/shadow_thrust/tick_mob
