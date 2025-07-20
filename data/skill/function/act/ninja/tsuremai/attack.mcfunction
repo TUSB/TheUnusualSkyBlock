@@ -8,7 +8,6 @@ execute store result score @s _ run attribute @s minecraft:attack_damage modifie
 # 攻撃力上昇付与マクロ effectlevelは23まで
 execute if score @s _ matches 24.. run scoreboard players set @s _ 24
 execute store result storage skill: macro int 1 run scoreboard players get @s _
-execute if data storage skill: {macro:24} run data modify storage skill: macro set value 23
 effect clear @s minecraft:strength
 function skill:act/ninja/tsuremai/effect_macro with storage skill:
 data remove storage skill: macro
