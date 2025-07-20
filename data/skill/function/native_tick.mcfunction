@@ -7,6 +7,9 @@
 # 真空斬り
 execute if entity @s[tag=AerialSlash] run function skill:act/knight/aerial_slash/tick
 
+# 影封縫
+execute if entity @s[tag=ShadowThrust] run function skill:act/knight/shadow_thrust/tick
+
 ## 忍者
 # 介錯
 execute if entity @s[tag=KaishakuExplosion] run function skill:act/ninja/kaishaku/explode_tick
