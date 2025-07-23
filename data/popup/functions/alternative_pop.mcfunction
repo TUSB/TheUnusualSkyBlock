@@ -5,7 +5,7 @@ execute store result storage calc: show_text.display.transformation.scale[] floa
 # この対応は他で真似しない方がいいよ(2回目)
 summon minecraft:text_display ~ ~ ~ {Tags:["NewShowText"],alignment:"center"}
 
-# 前回呼び出されたOhMyDatを取得しこのfuncitonの処理が終わった後に状態を戻す
+# 前回呼び出されたOhMyDatを取得しこのfunctionの処理が終わった後に状態を戻す
 execute store result score _ _ run data get storage oh_my_dat: last_id
 execute as @e[distance=..0.01,tag=NewShowText,tag=!Initialized] run function #oh_my_dat:please
 
