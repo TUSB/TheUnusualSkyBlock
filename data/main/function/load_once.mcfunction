@@ -122,6 +122,7 @@ scoreboard objectives add Isukumi dummy {"text":"居縮継続秒数"}
 scoreboard objectives add Kaishaku dummy {"text":"介錯残りtick数"}
 scoreboard objectives add SayonaraLevel dummy {"text":"サヨナラレベル"}
 scoreboard objectives add TsuremaiLevel dummy {"text":"連舞レベル"}
+scoreboard objectives add HyokaRyoranTimer dummy {"text":"氷華繚乱タイマー"}
 #狩人
 scoreboard objectives add PiercingAim dummy {"text":"ピアッシングエイム継続秒数"}
 scoreboard objectives add RaderVision dummy {"text":"レーダーヴィジョン継続tick数"}
