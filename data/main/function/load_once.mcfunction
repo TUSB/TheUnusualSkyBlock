@@ -120,7 +120,6 @@ scoreboard objectives add Suiton dummy {"text":"水遁"}
 scoreboard objectives add Issen dummy {"text":"一閃継続tick数"}
 scoreboard objectives add Isukumi dummy {"text":"居縮継続秒数"}
 scoreboard objectives add Kaishaku dummy {"text":"介錯残りtick数"}
-scoreboard objectives add SayonaraLevel dummy {"text":"サヨナラレベル"}
 scoreboard objectives add TsuremaiLevel dummy {"text":"連舞レベル"}
 scoreboard objectives add HyokaRyoranTimer dummy {"text":"氷華繚乱タイマー"}
 #狩人
