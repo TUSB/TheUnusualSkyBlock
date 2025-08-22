@@ -29,3 +29,5 @@ execute if score @s Choyaku matches 0.. if entity @s[nbt={OnGround:false,FallDis
 # 介錯
 execute if entity @s[scores={Kaishaku=0..}] run function skill:act/ninja/kaishaku/player_tick
 
+# 氷華繚乱
+execute if score @s HyokaRyoranTimer matches 0.. run function skill:act/ninja/hyoka_ryoran/tick
