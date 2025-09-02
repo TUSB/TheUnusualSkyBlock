@@ -1,4 +1,4 @@
-#> ai:call/settings/init_old
+#> ai:call/settings/init
 #0-0-0-0-1の実行座標を変化させ、最後にその地点で実行
 function calc:geometry/tp_00001
 data modify storage mob_data: SettingsList set from storage mob_data: Call.Settings
