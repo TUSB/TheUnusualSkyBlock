@@ -10,6 +10,9 @@ execute if entity @s[tag=AerialSlash] run function skill:act/knight/aerial_slash
 # 影封縫
 execute if entity @s[tag=ShadowThrust] run function skill:act/knight/shadow_thrust/tick
 
+# 斬鉄剣
+execute if entity @s[tag=OdinSlash] run function skill:act/knight/odin_slash/tick_slash
+
 ## 忍者
 # 介錯
 execute if entity @s[tag=KaishakuExplosion] run function skill:act/ninja/kaishaku/explode_tick
