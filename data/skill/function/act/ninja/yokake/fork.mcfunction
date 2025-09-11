@@ -1,7 +1,6 @@
 #> skill:act/ninja/yokake/fork
 #
 # 夜駆分岐
-
 execute if score _ Calc matches 1 run function skill:act/ninja/yokake/level1
 execute if score _ Calc matches 2 run function skill:act/ninja/yokake/level2
 execute if score _ Calc matches 3 run function skill:act/ninja/yokake/level3

@@ -1,6 +1,6 @@
 #> skill:shortcut/edit/show
-### ショートカット編集用GUI表示
-
+#
+# ショートカット編集用GUI表示
 function #oh_my_dat:please
 function skill:shortcut/gui/
 

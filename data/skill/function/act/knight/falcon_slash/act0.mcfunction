@@ -1,5 +1,6 @@
-#>skill:act/knight/falcon_slash/act0
-### はやぶさ斬り発動
+#> skill:act/knight/falcon_slash/act0
+#
+# 隼斬り発動
 
 # ダメージ
 execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"隼斬り",Level:1}].Damage

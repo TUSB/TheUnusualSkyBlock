@@ -1,8 +1,12 @@
 #> skill:act/ninja/tsuremai/attack
 #
 # 連舞発動
+execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.Ninja[{Name:"連舞",Level:1}].Damage
+execute if score _ Level matches 2 run data modify storage skill: damage set from storage skill: Data.Ninja[{Name:"連舞",Level:2}].Damage
+execute if score _ Level matches 3 run data modify storage skill: damage set from storage skill: Data.Ninja[{Name:"連舞",Level:3}].Damage
+execute if score _ Level matches 4 run data modify storage skill: damage set from storage skill: Data.Ninja[{Name:"連舞",Level:4}].Damage
 
-#minecraft:effect.strengthの1/3を取得
+# minecraft:effect.strengthの1/3を取得
 execute store result score @s _ run attribute @s minecraft:attack_damage modifier value get minecraft:effect.strength 0.334
 
 # 攻撃力上昇付与マクロ effectlevelは23まで
@@ -14,11 +18,5 @@ data remove storage skill: macro
 
 scoreboard players add @s _ 1
 
-#演出
+# 演出
 function makeup:skill/act/ninja/tsuremai/attack
-
-#スキルレベルによるダメージ追加
-execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.Ninja[{Name:"連舞",Level:1}].Damage
-execute if score _ Level matches 2 run data modify storage skill: damage set from storage skill: Data.Ninja[{Name:"連舞",Level:2}].Damage
-execute if score _ Level matches 3 run data modify storage skill: damage set from storage skill: Data.Ninja[{Name:"連舞",Level:3}].Damage
-execute if score _ Level matches 4 run data modify storage skill: damage set from storage skill: Data.Ninja[{Name:"連舞",Level:4}].Damage
