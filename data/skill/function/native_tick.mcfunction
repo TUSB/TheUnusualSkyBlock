@@ -13,3 +13,7 @@ execute if entity @s[tag=ShadowThrust] run function skill:act/knight/shadow_thru
 ## 忍者
 # 介錯
 execute if entity @s[tag=KaishakuExplosion] run function skill:act/ninja/kaishaku/explode_tick
+
+## 白魔導士
+# ヘイローバウンド
+execute if entity @s[tag=HaloBound] run function skill:act/white_mage/halo_bound/tick
