@@ -3,7 +3,6 @@
 # ヘイローバウンド終了演出
 
 playsound minecraft:entity.firework_rocket.twinkle_far player @a[distance=..16] ~ ~ ~ 1.0 2
-
 particle minecraft:explosion ~ ~1 ~ 0.1 0.1 0.1 1 1 force
 
 particle dust{color:[1.000,0.976,0.470],scale:1} ^-0.8 ^1.0 ^1.99 0 0 0 1 5 force @a[tag=ShowParticles]

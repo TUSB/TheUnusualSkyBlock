@@ -1,6 +1,6 @@
 #> makeup:skill/act/white_mage/halo_bound/schedule/frame/fc_01
 
-#playsound
+# playsound
 playsound minecraft:entity.breeze.inhale master @a[distance=..16] ~ ~ ~ 1.0 1.3
 
 # frame 11 / 21

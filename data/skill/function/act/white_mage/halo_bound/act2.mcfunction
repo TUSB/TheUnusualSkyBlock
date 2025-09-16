@@ -11,8 +11,8 @@ execute if score _ Level matches 2 run data modify storage skill: damage set fro
 execute if score _ Level matches 3 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"ヘイローバウンド",Level:3}].Damage
 execute if score _ Level matches 4 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"ヘイローバウンド",Level:4}].Damage
 
-#ダメージ付与
+# ダメージ付与
 execute as @e[tag=Enemy,distance=..2] run function skill:damage/apply/
 
-#デバフ付与
+# デバフ付与
 execute as @e[tag=Enemy,distance=..2] at @s run function effect:enemy_debuff/fear/apply
