@@ -6,10 +6,10 @@
 execute positioned ~ ~1 ~ as @e[type=armor_stand,tag=HaloBound,distance=0..12] run data modify entity @s PortalCooldown set value 2
 
 # ダメージ取得
-execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"ヘイローバウンド",Level:1}].Damage
-execute if score _ Level matches 2 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"ヘイローバウンド",Level:2}].Damage
-execute if score _ Level matches 3 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"ヘイローバウンド",Level:3}].Damage
-execute if score _ Level matches 4 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"ヘイローバウンド",Level:4}].Damage
+execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.WhiteMage[{Name:"ヘイローバウンド",Level:1}].Damage
+execute if score _ Level matches 2 run data modify storage skill: damage set from storage skill: Data.WhiteMage[{Name:"ヘイローバウンド",Level:2}].Damage
+execute if score _ Level matches 3 run data modify storage skill: damage set from storage skill: Data.WhiteMage[{Name:"ヘイローバウンド",Level:3}].Damage
+execute if score _ Level matches 4 run data modify storage skill: damage set from storage skill: Data.WhiteMage[{Name:"ヘイローバウンド",Level:4}].Damage
 
 # ヘイローバウンドを召喚
 execute if score _ Level matches 1 run summon armor_stand ~ ~1 ~ {Tags:[Skill,HaloBound,CooldownRequired],PortalCooldown:101,Invisible:1b,Silent:1b,Small:1b,Invulnerable:1b,NoGravity:1b}
@@ -18,7 +18,7 @@ execute if score _ Level matches 3 run summon armor_stand ~ ~1 ~ {Tags:[Skill,Ha
 execute if score _ Level matches 4 run summon armor_stand ~ ~1 ~ {Tags:[Skill,HaloBound,CooldownRequired],PortalCooldown:321,Invisible:1b,Silent:1b,Small:1b,Invulnerable:1b,NoGravity:1b}
 
 # ダメージをセーブ
-execute positioned ~ ~1 ~ as @e[tag=SHaloBound,tag=!Initialized,distance=..0.01] run function skill:damage/save
+execute positioned ~ ~1 ~ as @e[tag=HaloBound,tag=!Initialized,distance=..0.01] run function skill:damage/save
 
 # NativeFlagをインクリメント
 execute positioned ~ ~1 ~ run scoreboard players add @e[type=armor_stand,tag=HaloBound,tag=!Initialized,distance=..0.01] NativeFlag 1
