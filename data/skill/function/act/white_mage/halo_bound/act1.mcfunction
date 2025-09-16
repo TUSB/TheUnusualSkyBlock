@@ -2,8 +2,6 @@
 #
 # ヘイローバウンド召喚
 
-scoreboard players set _ Level 4
-
 #他ヘイローバウンドが周りにあったらそれの持続時間減少
 execute positioned ~ ~1 ~ as @e[type=armor_stand,tag=HaloBound,distance=0.01..12] run data modify entity @s PortalCooldown set value 2
 
