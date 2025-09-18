@@ -25,9 +25,6 @@ execute positioned ~ ~1 ~ run scoreboard players add @e[type=armor_stand,tag=Hal
 
 # Lvによって引き寄せ強化
 execute if score _ Level matches 1 positioned ~ ~1 ~ as @e[type=armor_stand,tag=HaloBound,tag=!Initialized,distance=..0.01] run tp @e[distance=..4,tag=Enemy,tag=!Unmoved] @s
-
 execute if score _ Level matches 2 positioned ~ ~1 ~ as @e[type=armor_stand,tag=HaloBound,tag=!Initialized,distance=..0.01] run tp @e[distance=..5,tag=Enemy,tag=!Unmoved] @s
-
 execute if score _ Level matches 3 positioned ~ ~1 ~ as @e[type=armor_stand,tag=HaloBound,tag=!Initialized,distance=..0.01] run tp @e[distance=..6,tag=Enemy,tag=!Unmoved] @s
-
 execute if score _ Level matches 4 positioned ~ ~1 ~ as @e[type=armor_stand,tag=HaloBound,tag=!Initialized,distance=..0.01] run tp @e[distance=..10,tag=Enemy,tag=!Unmoved] @s
