@@ -3,7 +3,7 @@
 # ヘイローバウンド召喚
 
 # 他ヘイローバウンドが周りにあったらそれの持続時間減少
-execute positioned ~ ~1 ~ as @e[type=armor_stand,tag=HaloBound,distance=0..12] run data modify entity @s PortalCooldown set value 2
+execute positioned ~ ~1 ~ as @e[type=armor_stand,tag=HaloBound,distance=..12] run data modify entity @s PortalCooldown set value 2
 
 # ダメージ取得
 execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.WhiteMage[{Name:"ヘイローバウンド",Level:1}].Damage
@@ -22,9 +22,6 @@ execute positioned ~ ~1 ~ as @e[tag=HaloBound,tag=!Initialized,distance=..0.01] 
 
 # NativeFlagをインクリメント
 execute positioned ~ ~1 ~ run scoreboard players add @e[type=armor_stand,tag=HaloBound,tag=!Initialized,distance=..0.01] NativeFlag 1
-
-# HaloBoundスコアをセット
-execute positioned ~ ~1 ~ run scoreboard players add @e[type=armor_stand,tag=HaloBound,tag=!Initialized,distance=..0.01] HaloBound 11
 
 # Lvによって引き寄せ強化
 execute if score _ Level matches 1 positioned ~ ~1 ~ as @e[type=armor_stand,tag=HaloBound,tag=!Initialized,distance=..0.01] run tp @e[distance=..4,tag=Enemy,tag=!Unmoved] @s
