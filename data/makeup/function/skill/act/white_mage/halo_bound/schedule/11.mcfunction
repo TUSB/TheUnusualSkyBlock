@@ -3,7 +3,7 @@
 
 particle firework ~ ~1 ~ 1.2 0.5 1.2 0.1 1 force @a[tag=ShowParticles]
 
-playsound minecraft:entity.experience_orb.pickup master @a[distance=..8] ~ ~ ~ 0.005 0.5
+playsound minecraft:entity.experience_orb.pickup player @a[distance=..8] ~ ~ ~ 0.005 0.5
 
 # frame 21 / 21
 particle dust{color:[1.000,0.976,0.470],scale:1} ^-0.0 ^1.0 ^1.7 0 0 0 1 0 force @a[tag=ShowParticles]

@@ -1,4 +1,4 @@
-#> makeup:skill/act/white_mage/halo_bound/act1
+#> makeup:skill/act/white_mage/halo_bound/act2
 #
 # ヘイローバウンド終了演出
 

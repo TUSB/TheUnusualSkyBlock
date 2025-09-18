@@ -1,7 +1,7 @@
 #> makeup:skill/act/white_mage/halo_bound/schedule/frame/fc_01
 
 # playsound
-playsound minecraft:entity.breeze.inhale master @a[distance=..16] ~ ~ ~ 1.0 1.3
+playsound minecraft:entity.breeze.inhale player @a[distance=..16] ~ ~ ~ 1.0 1.3
 
 # frame 11 / 21
 particle dust{color:[1.000,0.976,0.470],scale:1} ^-0.0 ^5.0 ^5.0 0 0 0 1 0 force @a[tag=ShowParticles]
