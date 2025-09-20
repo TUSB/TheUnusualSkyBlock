@@ -17,3 +17,6 @@ execute if entity @s[tag=EnemyElectrification] run function effect:enemy_debuff/
 
 # 敵呪蝕1秒処理
 execute if entity @s[tag=EnemyCurse] run function effect:enemy_debuff/curse/second
+
+# 敵病気1秒処理
+execute if entity @s[tag=EnemyVirus] run function effect:enemy_debuff/virus/second
