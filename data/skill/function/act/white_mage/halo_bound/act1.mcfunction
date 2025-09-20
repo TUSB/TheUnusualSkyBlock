@@ -12,10 +12,10 @@ execute if score _ Level matches 3 run data modify storage skill: damage set fro
 execute if score _ Level matches 4 run data modify storage skill: damage set from storage skill: Data.WhiteMage[{Name:"ヘイローバウンド",Level:4}].Damage
 
 # ヘイローバウンドを召喚
-execute if score _ Level matches 1 run summon armor_stand ~ ~1 ~ {Tags:[Skill,HaloBound,CooldownRequired],PortalCooldown:101,Invisible:1b,Silent:1b,Small:1b,Invulnerable:1b,NoGravity:1b}
-execute if score _ Level matches 2 run summon armor_stand ~ ~1 ~ {Tags:[Skill,HaloBound,CooldownRequired],PortalCooldown:141,Invisible:1b,Silent:1b,Small:1b,Invulnerable:1b,NoGravity:1b}
-execute if score _ Level matches 3 run summon armor_stand ~ ~1 ~ {Tags:[Skill,HaloBound,CooldownRequired],PortalCooldown:181,Invisible:1b,Silent:1b,Small:1b,Invulnerable:1b,NoGravity:1b}
-execute if score _ Level matches 4 run summon armor_stand ~ ~1 ~ {Tags:[Skill,HaloBound,CooldownRequired],PortalCooldown:321,Invisible:1b,Silent:1b,Small:1b,Invulnerable:1b,NoGravity:1b}
+execute if score _ Level matches 1 run summon armor_stand ~ ~1 ~ {Tags:[Skill,HaloBound,CooldownRequired],PortalCooldown:41,Invisible:1b,Silent:1b,Small:1b,Invulnerable:1b,NoGravity:1b}
+execute if score _ Level matches 2 run summon armor_stand ~ ~1 ~ {Tags:[Skill,HaloBound,CooldownRequired],PortalCooldown:56,Invisible:1b,Silent:1b,Small:1b,Invulnerable:1b,NoGravity:1b}
+execute if score _ Level matches 3 run summon armor_stand ~ ~1 ~ {Tags:[Skill,HaloBound,CooldownRequired],PortalCooldown:71,Invisible:1b,Silent:1b,Small:1b,Invulnerable:1b,NoGravity:1b}
+execute if score _ Level matches 4 run summon armor_stand ~ ~1 ~ {Tags:[Skill,HaloBound,CooldownRequired],PortalCooldown:101,Invisible:1b,Silent:1b,Small:1b,Invulnerable:1b,NoGravity:1b}
 
 # ダメージをセーブ
 execute positioned ~ ~1 ~ as @e[tag=HaloBound,tag=!Initialized,distance=..0.01] run function skill:damage/save
