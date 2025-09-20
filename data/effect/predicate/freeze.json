@@ -17,7 +17,12 @@
         "predicate": {
           "block": {
             "blocks": "#effect:melt_ice"
-          },
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
           "fluid": {
             "fluids": "#minecraft:lava"
           }
