@@ -18,7 +18,6 @@ execute at @s positioned ~ ~-1 ~ as @e[distance=6.001..8,tag=Enemy] run function
 
 # 接地していなければ落下ダメージ防止
 execute if entity @s[nbt={OnGround:0b}] run effect give @s slow_falling 5 0
-effect give @s slow_falling 5 0
 # 演出
 rotate @e[limit=1,distance=..0.01,tag=HyokaRyoranStand] ~ 0
 execute as @e[limit=1,distance=..0.01,tag=HyokaRyoranStand] at @s run function makeup:skill/act/ninja/hyoka_ryoran/act1
