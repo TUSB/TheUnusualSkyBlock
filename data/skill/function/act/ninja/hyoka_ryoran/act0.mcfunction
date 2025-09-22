@@ -1,7 +1,6 @@
 #> skill:act/ninja/hyoka_ryoran/act0
 #
 # 氷華繚乱 発動
-tag @s add HyokaRyoran
 scoreboard players set @s HyokaRyoranTimer 10
 
 # 演出用アマスタ
