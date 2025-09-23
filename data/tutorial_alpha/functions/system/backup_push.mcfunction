@@ -26,7 +26,6 @@ scoreboard players reset @s MagicShield
 execute store result storage tutorial_alpha: push.scores.ReactiveLevel int 1 run scoreboard players get @s ReactiveLevel
 execute store result storage tutorial_alpha: push.scores.ChoyakuLevel int 1 run scoreboard players get @s ChoyakuLevel
 execute store result storage tutorial_alpha: push.scores.WildHealing int 1 run scoreboard players get @s WildHealing
-execute store result storage tutorial_alpha: push.scores.SayonaraLevel int 1 run scoreboard players get @s SayonaraLevel
 execute store result storage tutorial_alpha: push.scores.TsuremaiLevel int 1 run scoreboard players get @s TsuremaiLevel
 function skill:toggle_reset
 execute if entity @s[scores={Burst=1..}] run function skill:burst/finish
