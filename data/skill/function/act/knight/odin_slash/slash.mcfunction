@@ -12,8 +12,7 @@ execute if score _ Level matches 1 run data modify storage skill: damage set fro
 execute if score _ Level matches 2 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"斬鉄剣",Level:2}].Damage
 
 # アマスタ召喚
-summon minecraft:armor_stand ~ ~ ~ {Tags:[Skill,OdinSlash,CooldownRequired],NoGravity:true,Marker:true,Invisible:true}
-scoreboard players set @e[tag=OdinSlash,tag=!Initialized,distance=..0.01] NativeFlag 1
+summon minecraft:armor_stand ~ ~ ~ {Tags:[Skill,OdinSlash,NativeTask,CooldownRequired],NoGravity:true,Marker:true,Invisible:true}
 
 # ダメージ保存
 execute as @e[tag=OdinSlash,tag=!Initialized,distance=..0.01] run function skill:damage/save
