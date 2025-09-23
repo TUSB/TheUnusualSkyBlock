@@ -1,4 +1,6 @@
-
+#>
+#
+# 転職時トグルスキルリセット 
 execute store result score _ _ run scoreboard players reset @s[scores={ReactiveLevel=1..}] ReactiveLevel
 execute if score _ _ matches 1 run function makeup:skill/act/knight/reactive_heal/toggle
 execute store result score _ _ run scoreboard players reset @s[scores={ChoyakuLevel=1..}] ChoyakuLevel
