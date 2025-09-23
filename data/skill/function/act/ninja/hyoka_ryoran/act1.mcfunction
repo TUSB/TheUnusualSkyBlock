@@ -24,5 +24,4 @@ execute as @e[limit=1,distance=..0.01,tag=HyokaRyoranStand] at @s run function m
 
 kill @e[limit=1,distance=..0.01,tag=HyokaRyoranMarker]
 kill @e[limit=1,distance=..0.01,tag=HyokaRyoranStand]
-tag @s remove HyokaRyoran
 scoreboard players reset @s HyokaRyoranTimer
