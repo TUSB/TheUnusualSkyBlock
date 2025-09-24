@@ -1,15 +1,15 @@
 #> skill:act/knight/iron_will/act0
-### アイアンウィル発動
-
+#
+# アイアンウィル発動
 execute if score _ Level matches 1 run scoreboard players set _ IronWill 100
 execute if score _ Level matches 2 run scoreboard players set _ IronWill 400
 execute if score _ Level matches 3 run scoreboard players set _ IronWill 800
-
 scoreboard players operation @s IronWill = _ IronWill
 
 # 範囲化
 execute if score @s SneakTime matches 1.. as @a[distance=0.01..15] at @s run function skill:act/knight/iron_will/sneak
 
+# ノクバ耐性基礎値を100％にする
 attribute @s minecraft:knockback_resistance base set 1
 attribute @s minecraft:explosion_knockback_resistance base set 1
 

@@ -1,11 +1,12 @@
 #> skill:trigger/after_sneak_skill
-### スニーク解除時スキル発動
+#
+# スニーク解除時スキル発動
 
-#装備を取得
+# 装備を取得
 function player:load_equipments
-#物理ダメージ取得
+# 物理ダメージ取得
 function skill:damage/add/physical/projectile
-#属性ダメージ取得
+# 属性ダメージ取得
 function skill:damage/add/elemental
 
 # スキル発動

@@ -1,7 +1,6 @@
 #> skill:act/ninja/tsuremai/trigger/attack
 #
 # 連舞 近接攻撃時
-
 scoreboard players operation _ Level = @s TsuremaiLevel
 
 execute if score _ Level matches 1 run data modify storage skill: Skill set from storage skill: Data.Ninja[{Name:"連舞",Level:1}]
