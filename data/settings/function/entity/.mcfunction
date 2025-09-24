@@ -1,0 +1,13 @@
+execute if entity @s[tag=Global] run function settings:entity/global/
+execute if entity @s[tag=Skylands] run function settings:entity/skylands/
+execute if entity @s[tag=FlyingIsland] run function settings:entity/flying_island/
+execute if entity @s[tag=Cloudia] run function settings:entity/cloudia/
+execute if entity @s[tag=TocultColde] run function settings:entity/tocult_colde/
+execute if entity @s[tag=Underworld] run function settings:entity/underworld/
+execute if entity @s[tag=Desert] run function settings:entity/desert/
+execute if entity @s[tag=Nether] run function settings:entity/nether/
+execute if entity @s[tag=End] run function settings:entity/end/
+execute if entity @s[tag=DebugRoom] run function settings:entity/debug_room/
+execute if entity @s[tag=Void] run function settings:entity/void/
+execute if entity @s[tag=TableMountain] run function settings:entity/table_mountain/
+execute if entity @s[tag=GulliversLand] run function settings:entity/gullivers_land/

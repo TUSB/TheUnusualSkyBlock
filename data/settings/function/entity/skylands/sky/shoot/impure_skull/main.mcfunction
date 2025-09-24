@@ -1,0 +1,22 @@
+### 即時ステータス
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie",CustomName:'{"translate":"不浄の髑髏","color":"#FF0000","bold":true}',Silent:1b,active_effects:[{id:"minecraft:invisibility",amplifier:127b,duration:-1,show_particles:0b},{id:"minecraft:slow_falling",amplifier:1b,duration:-1,show_particles:0b},{id:"minecraft:fire_resistance",amplifier:1b,duration:-1,show_particles:0b}],IsBaby:1b,NoGravity:1b,PortalCooldown:3000,Tags:[Mob,Enemy,DelayedData,HasAI,CallOnTick,TickingRequired,DamageProjectile,EnemyProjectile,HasLootTable,AnalyseLog]}
+data modify storage tusb_mob: "即時ステータス"."見た目" set value {ArmorItems:[{},{},{},{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;1,0,27,0],properties:[{name:"textures",value:"e3RleHR1cmVzOntTS0lOOnt1cmw6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTNhN2IxNmIwMzM4MmRhZDU5NWE1NDAxNzBjZTQ4MDgwNTA0ODg5MmQxYjI5MDhjZTVmYjljZTE0MWQxYzJiYSJ9fX0="}]}}}],ArmorDropChances:[-Infinityf,-Infinityf,-Infinityf,-Infinityf]}
+data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 0d
+data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0d
+data modify storage tusb_mob: "即時ステータス"."ノックバック耐性" set value 4d
+data modify storage tusb_mob: "即時ステータス"."ノックバック力" set value 0d
+
+### 遅延ステータス
+# ステータス
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 75
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 75
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 125
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 125
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 125
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 125
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."理外攻撃力" set value 0
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."理外防御力" set value 0
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier3/common",Count:1,Chance:0.3d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s穢れをその身に溜め込んだことで意志を持ったドクロ。","with":[{"translate":"【能力：射的・追撃】","color":"#00FF00"}]}]'
+# AI
+data modify storage tusb_mob: "遅延ステータス".AI set value {Tick:[{Name:"function",Tags:[Skylands,Sky,Shoot,ImpureSkull,Motion]}],TurnCount:3,Turn:[{Index:1,Skill:[{Interval:{Min:120,Max:200,Current:150},Loop:{Max:1,Current:1},Call:[{Condition:[{Name:"has_target",Target:{Look:"Player",Radius:64d,IgnoreBlocks:true}}],Name:"change_turn",Random:true}]}]},{Index:2,Skill:[{Interval:{Min:1,Max:1,Current:1},Loop:{Max:1,Current:1},Call:[{Name:"function",Tags:[Skylands,Sky,Shoot,ImpureSkull,DoomSummon1]},{Name:"change_turn",Loop:2}]}]},{Index:3,Skill:[{Interval:{Min:1,Max:1,Current:1},Loop:{Max:1,Current:1},Call:[{Name:"function",Tags:[Skylands,Sky,Shoot,ImpureSkull,BeamPre]},{Name:"change_ai",Tick:[]}]},{Interval:{Min:4,Max:4,Current:4},Loop:{Max:1,Current:1},Call:[{Name:"delay_action",Tags:["Casting","DoomCast"]}]},{Interval:{Min:10,Max:10,Current:10},Loop:{Max:2,Current:2},Call:[{Settings:[{Name:"Direction",Direction:[0f,-90f],Speed:0.5d,Absolute:{Vertical:true}}],Name:"spawn",SpawnEntities:[[{Tags:[Skylands,Sky,Shoot,ImpureSkull,Soul],Level:33}],[{Tags:[Skylands,Sky,Shoot,ImpureSkull,SoulDirection],Level:1}]]}]},{Interval:{Min:10,Max:10,Current:10},Loop:{Max:1,Current:1},Call:[{Name:"function",Tags:[Skylands,Sky,Shoot,ImpureSkull,BeamFinish]},{Name:"change_ai",Tick:[{Name:"function",Tags:[Skylands,Sky,Shoot,ImpureSkull,Motion]}]},{Settings:[{Name:"Direction",Direction:[0f,-90f],Speed:0.5d,Absolute:{Vertical:true}}],Name:"spawn",SpawnEntities:[[{Tags:[Skylands,Sky,Shoot,ImpureSkull,Soul],Level:33}],[{Tags:[Skylands,Sky,Shoot,ImpureSkull,SoulDirection],Level:1}]]},{Name:"change_turn",Loop:1}]}]}]}

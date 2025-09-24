@@ -1,0 +1,2 @@
+#Function
+tellraw @a[distance=..13] [{"translate":"t","color":"#092622","obfuscated":true},{"translate":"u","color":"#135249","obfuscated":true},{"translate":"s","color":"#1E8072","obfuscated":true},{"translate":"b","color":"#2BB8A4","obfuscated":true},{"translate":"強大な力を持つ何者かがこちらに近づいてきている。","color":"#3CFFE3","bold":true,"obfuscated":false},{"translate":"b","color":"#2BB8A4","obfuscated":true},{"translate":"s","color":"#1E8072","obfuscated":true},{"translate":"u","color":"#135249","obfuscated":true},{"translate":"t","color":"#092622","obfuscated":true}]
