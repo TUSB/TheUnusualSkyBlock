@@ -3,7 +3,7 @@ execute if data storage skill: Skill{Name:"セイクリッドピラー"} run fun
 execute if data storage skill: Skill{Name:"アレイズ"} run function skill:act/white_mage/araise/act0
 execute if data storage skill: Skill{Name:"クイック"} run function skill:act/white_mage/quick/act0
 execute if data storage skill: Skill{Name:"サンクチュアリ"} run function skill:act/white_mage/sanctuary/act0
-execute if data storage skill: Skill{Name:"ヘイローバウンド"} run function skill:act/white_mage/halo_bound/act0
+execute if data storage skill: Skill{Name:"フラワーギフト"} run function skill:act/white_mage/flower_gift/act0
 execute if data storage skill: Skill{Name:"リジェネレーション"} run function skill:act/white_mage/regeneration/act0
 execute if data storage skill: Skill{Name:"バオル"} run function skill:act/white_mage/buffall/act0
 execute if data storage skill: Skill{Name:"ハートブースト"} run function skill:act/white_mage/heart_boost/act0
