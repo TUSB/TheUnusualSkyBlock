@@ -5,9 +5,6 @@
 # tpで動けなくする
 tp @e[distance=..2,tag=Enemy,tag=!Unmoved] @s
 
-# 終了時処理
-execute if data entity @s {PortalCooldown:1} run function skill:act/white_mage/halo_bound/act2
-
 # スコアをインクリメント
 execute unless score @s HaloBound matches 11.. run scoreboard players add @s HaloBound 1
 
