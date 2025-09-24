@@ -57,6 +57,8 @@ scoreboard objectives add ConfuseCount dummy {"text":"混乱カウント"}
 scoreboard objectives add DoomCount dummy {"text":"死の宣告カウント"}
 scoreboard objectives add PalsyLevel dummy {"text":"麻痺レベル"}
 scoreboard objectives add TntCount dummy {"text":"トントカウント"}
+scoreboard objectives add VirusResistance dummy {"text":"病気耐性"}
+scoreboard objectives add VirusTimer dummy {"text":"病気タイマー"}
 scoreboard objectives add VirusCount dummy {"text":"病気カウント"}
 scoreboard objectives add FreezeTimer dummy {"text":"凍結タイマー"}
 scoreboard objectives add BurnResistance dummy {"text":"火だるま耐性"}
