@@ -12,16 +12,13 @@ execute if score _ Level matches 3 run data modify storage skill: damage set fro
 execute if score _ Level matches 4 run data modify storage skill: damage set from storage skill: Data.WhiteMage[{Name:"ヘイローバウンド",Level:4}].Damage
 
 # ヘイローバウンドを召喚
-execute if score _ Level matches 1 run summon armor_stand ~ ~1 ~ {Tags:[Skill,HaloBound,CooldownRequired],PortalCooldown:41,Invisible:1b,Silent:1b,Small:1b,Invulnerable:1b,NoGravity:1b}
-execute if score _ Level matches 2 run summon armor_stand ~ ~1 ~ {Tags:[Skill,HaloBound,CooldownRequired],PortalCooldown:56,Invisible:1b,Silent:1b,Small:1b,Invulnerable:1b,NoGravity:1b}
-execute if score _ Level matches 3 run summon armor_stand ~ ~1 ~ {Tags:[Skill,HaloBound,CooldownRequired],PortalCooldown:71,Invisible:1b,Silent:1b,Small:1b,Invulnerable:1b,NoGravity:1b}
-execute if score _ Level matches 4 run summon armor_stand ~ ~1 ~ {Tags:[Skill,HaloBound,CooldownRequired],PortalCooldown:101,Invisible:1b,Silent:1b,Small:1b,Invulnerable:1b,NoGravity:1b}
+execute if score _ Level matches 1 run summon armor_stand ~ ~1 ~ {Tags:[Skill,HaloBound,CooldownRequired,NativeTask],PortalCooldown:41,Invisible:1b,Silent:1b,Small:1b,Invulnerable:1b,NoGravity:1b}
+execute if score _ Level matches 2 run summon armor_stand ~ ~1 ~ {Tags:[Skill,HaloBound,CooldownRequired,NativeTask],PortalCooldown:56,Invisible:1b,Silent:1b,Small:1b,Invulnerable:1b,NoGravity:1b}
+execute if score _ Level matches 3 run summon armor_stand ~ ~1 ~ {Tags:[Skill,HaloBound,CooldownRequired,NativeTask],PortalCooldown:71,Invisible:1b,Silent:1b,Small:1b,Invulnerable:1b,NoGravity:1b}
+execute if score _ Level matches 4 run summon armor_stand ~ ~1 ~ {Tags:[Skill,HaloBound,CooldownRequired,NativeTask],PortalCooldown:101,Invisible:1b,Silent:1b,Small:1b,Invulnerable:1b,NoGravity:1b}
 
 # ダメージをセーブ
 execute positioned ~ ~1 ~ as @e[tag=HaloBound,tag=!Initialized,distance=..0.01] run function skill:damage/save
-
-# NativeFlagをインクリメント
-execute positioned ~ ~1 ~ run scoreboard players add @e[type=armor_stand,tag=HaloBound,tag=!Initialized,distance=..0.01] NativeFlag 1
 
 # Lvによって引き寄せ強化
 execute if score _ Level matches 1 positioned ~ ~1 ~ as @e[type=armor_stand,tag=HaloBound,tag=!Initialized,distance=..0.01] run tp @e[distance=..4,tag=Enemy,tag=!Unmoved] @s
