@@ -35,3 +35,5 @@ execute if entity @s[scores={Issen=0..}] run function skill:act/ninja/issen/tick
 # 介錯
 execute if entity @s[scores={Kaishaku=0..}] run function skill:act/ninja/kaishaku/player_tick
 
+# 氷華繚乱
+execute if score @s HyokaRyoranTimer matches 0.. run function skill:act/ninja/hyoka_ryoran/tick
