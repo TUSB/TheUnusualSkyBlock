@@ -1,5 +1,6 @@
 #> skill:shortcut/set/check_item
-### メインハンドとオフハンドのスワップ検知処理
+#
+# メインハンドとオフハンドのスワップ検知処理
 
 # 前回のOhMyDatを保存しておく
 execute store result score _ _ run data get storage oh_my_dat: last_id

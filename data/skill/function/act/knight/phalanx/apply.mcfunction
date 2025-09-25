@@ -1,6 +1,6 @@
-#>skill:act/knight/phalanx/apply
-### ファランクス適用
-
+#> skill:act/knight/phalanx/apply
+#
+# ファランクス適用（使用者）
 execute if score _ Level matches 1 run effect give @s minecraft:resistance 60 0
 execute if score _ Level matches 2 run effect give @s minecraft:resistance 60 1
 execute if score _ Level matches 3 run effect give @s minecraft:resistance 60 2

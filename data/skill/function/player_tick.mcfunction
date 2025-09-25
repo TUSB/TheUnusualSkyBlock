@@ -26,6 +26,9 @@ execute if entity @s[tag=IronWill] run function skill:act/knight/iron_will/load
 # 跳躍演出
 execute if score @s Choyaku matches 0.. if entity @s[nbt={OnGround:false,FallDistance:0.0f}] run function makeup:skill/act/ninja/choyaku/direction
 
+# 一閃
+execute if entity @s[scores={Issen=0..}] run function skill:act/ninja/issen/tick
+
 # 介錯
 execute if entity @s[scores={Kaishaku=0..}] run function skill:act/ninja/kaishaku/player_tick
 
