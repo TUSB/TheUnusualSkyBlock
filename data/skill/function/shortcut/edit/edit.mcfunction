@@ -1,5 +1,6 @@
 #> skill:shortcut/edit/edit
-### ショートカット編集
+#
+# ショートカット編集
 
 #スキルをロード
 scoreboard players operation _ _ = @s ChangeSkill

@@ -12,6 +12,9 @@ data modify storage mob_data: CallCopy append value {}
 execute if data storage mob_data: _{Global:1b} run data modify storage mob_data: CallCopy[-1]._ set from storage mob_data: CallList
 execute unless data storage mob_data: _{Global:1b} run data modify storage mob_data: CallCopy[-1]._ set from storage mob_data: Call
 
+# 実行者記録
+execute store result storage mob_data: CallCopy[-1].ExecuteEntity int 1 run scoreboard players get @s OhMyDatID
+
 # 実行
 function ai:call/settings/macro/run.macro with storage mob_data: _
 
