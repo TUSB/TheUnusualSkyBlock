@@ -12,9 +12,12 @@ execute if score _ Level matches 4 run data modify storage skill: damage set fro
 execute store result score _ Calc run random value 0..999
 
 # 確率でスキルダメージを0.5倍に
-execute if score _ Calc matches 0..300 run data modify storage skill: damage set value 50
+execute if score _ Calc matches 0..300 run data modify storage skill: damage.physical set value 50
 
 # ダメージ * effectiveness / 100
 function skill:damage/add/skill/weapon
+
+# ダメージをセーブ
+function skill:damage/save
 
 execute as @e[distance=..5,type=minecraft:arrow,tag=!Initialized,sort=nearest,limit=1] run function skill:act/hunter/stakes_fire/apply
