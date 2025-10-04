@@ -1,3 +1,4 @@
+#> enemy:reboot_spawner/interact
 #探索距離7ブロック
 scoreboard players set _ _ 70
 #視線先のスポナーを探索

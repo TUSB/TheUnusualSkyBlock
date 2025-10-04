@@ -1,3 +1,4 @@
+#> enemy:reboot_spawner/search
 #視線先のスポナーを探索
 scoreboard players remove _ _ 1
 execute if score _ _ matches 1.. unless block ^ ^ ^ spawner positioned ^ ^ ^0.1 run function enemy:reboot_spawner/search
