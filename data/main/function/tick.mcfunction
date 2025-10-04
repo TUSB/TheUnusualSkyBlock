@@ -20,6 +20,8 @@ function entity:tick
 
 ### Mob tick
 execute as @e[tag=Mob] at @s run function enemy:tick
+### スポナーカート空気時処理
+execute as @e[tag=SpawnerHolder] at @s unless block ~ ~ ~ minecraft:spawner run function enemy:break_spawner/
 
   ### デバッグ用 ###
   execute if data storage main: difficult{world:"debug"} run function debug:ai/usage_rate_1
