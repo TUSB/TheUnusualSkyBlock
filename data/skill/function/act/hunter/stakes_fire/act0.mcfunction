@@ -18,7 +18,4 @@ execute if score _ Calc matches 0..300 run tag @e[distance=..5,type=minecraft:ar
 # ダメージ * effectiveness / 100
 function skill:damage/add/skill/weapon
 
-# ダメージをセーブ
-function skill:damage/save
-
 execute as @e[distance=..5,type=minecraft:arrow,tag=!Initialized,sort=nearest,limit=1] run function skill:act/hunter/stakes_fire/apply
