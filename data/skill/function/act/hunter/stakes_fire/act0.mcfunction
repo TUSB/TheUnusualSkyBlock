@@ -11,8 +11,9 @@ execute if score _ Level matches 4 run data modify storage skill: damage set fro
 # 0～999の乱数取得
 execute store result score _ Calc run random value 0..999
 
-# 確率でスキルダメージを0.5倍に
+# 確率でスキルダメージを0.5倍にしてフラグを付与
 execute if score _ Calc matches 0..300 run data modify storage skill: damage.physical set value 50
+execute if score _ Calc matches 0..300 run tag @e[distance=..5,type=minecraft:arrow,tag=!Initialized,sort=nearest,limit=1] add StakesFailed
 
 # ダメージ * effectiveness / 100
 function skill:damage/add/skill/weapon
