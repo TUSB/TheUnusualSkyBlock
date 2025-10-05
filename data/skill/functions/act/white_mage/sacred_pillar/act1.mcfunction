@@ -48,6 +48,9 @@ scoreboard players operation @s _ /= _ _
 scoreboard players operation _ MagicAttack = @s _
 scoreboard players operation _ MagicAttack += _ Calc
 
+# 倍率制限
+execute if score _ SpecialAttack matches 3001.. run scoreboard players set _ SpecialAttack 3000
+
 #ダメージあれば成功
 execute if score _ MagicAttack matches ..0 run function makeup:skill/act/white_mage/sacred_pillar/failure
 execute if score _ MagicAttack matches ..0 run data modify storage skill: Success set value 0b
