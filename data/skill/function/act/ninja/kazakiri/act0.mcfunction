@@ -1,7 +1,6 @@
 #> skill:act/ninja/kazakiri/act0
 #
 # 風切発動
-
 execute if score _ Level matches 1 run scoreboard players set _ _ 30
 execute if score _ Level matches 2 run scoreboard players set _ _ 60
 scoreboard players operation @s Kazakiri > _ _

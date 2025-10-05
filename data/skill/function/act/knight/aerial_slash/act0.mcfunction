@@ -1,5 +1,6 @@
 #> skill:act/knight/aerial_slash/act0
-### 真空斬り発動判定
+#
+# 真空斬り発動判定
 
 # 視線上の敵を確認
 data modify storage calc: Depth set value 10

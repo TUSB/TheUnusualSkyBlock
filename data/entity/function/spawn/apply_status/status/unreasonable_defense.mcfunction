@@ -4,4 +4,4 @@ scoreboard players set _ _ 100
 execute store result score _ Calc run data get storage tusb_mob: "遅延ステータス"."ステータス"."理外防御力" 1
 scoreboard players operation _ Calc *= @s Level
 scoreboard players operation _ Calc /= _ _
-execute store result score @s UnreasonableDefence run scoreboard players add _ Calc 5
+execute store result score @s UnreasonableDefense run scoreboard players add _ Calc 5

@@ -26,9 +26,9 @@ scoreboard objectives add MPMax dummy {"text":"MP最大値"}
 scoreboard objectives add Attack dummy {"text":"物理攻撃力"}
 scoreboard objectives add Defense dummy {"text":"物理防御力"}
 scoreboard objectives add MagicAttack dummy {"text":"魔法攻撃力"}
-scoreboard objectives add MagicDefence dummy {"text":"魔法防御力"}
+scoreboard objectives add MagicDefense dummy {"text":"魔法防御力"}
 scoreboard objectives add UnreasonableAttack dummy {"text":"理外攻撃力"}
-scoreboard objectives add UnreasonableDefence dummy {"text":"理外防御力"}
+scoreboard objectives add UnreasonableDefense dummy {"text":"理外防御力"}
 scoreboard objectives add BaseTotal dummy {"text":"合計基礎ポイント"}
 scoreboard objectives add GrowTotal dummy {"text":"合計成長ポイント"}
 scoreboard objectives add Damage dummy {"text":"ダメージ"}
@@ -57,6 +57,8 @@ scoreboard objectives add ConfuseCount dummy {"text":"混乱カウント"}
 scoreboard objectives add DoomCount dummy {"text":"死の宣告カウント"}
 scoreboard objectives add PalsyLevel dummy {"text":"麻痺レベル"}
 scoreboard objectives add TntCount dummy {"text":"トントカウント"}
+scoreboard objectives add VirusResistance dummy {"text":"病気耐性"}
+scoreboard objectives add VirusTimer dummy {"text":"病気タイマー"}
 scoreboard objectives add VirusCount dummy {"text":"病気カウント"}
 scoreboard objectives add FreezeResistance dummy {"text":"凍結耐性"}
 scoreboard objectives add FreezeTimer dummy {"text":"凍結タイマー"}
@@ -121,8 +123,8 @@ scoreboard objectives add Suiton dummy {"text":"水遁"}
 scoreboard objectives add Issen dummy {"text":"一閃継続tick数"}
 scoreboard objectives add Isukumi dummy {"text":"居縮継続秒数"}
 scoreboard objectives add Kaishaku dummy {"text":"介錯残りtick数"}
-scoreboard objectives add SayonaraLevel dummy {"text":"サヨナラレベル"}
 scoreboard objectives add TsuremaiLevel dummy {"text":"連舞レベル"}
+scoreboard objectives add HyokaRyoranTimer dummy {"text":"氷華繚乱タイマー"}
 #狩人
 scoreboard objectives add PiercingAim dummy {"text":"ピアッシングエイム継続秒数"}
 scoreboard objectives add RaderVision dummy {"text":"レーダーヴィジョン継続tick数"}

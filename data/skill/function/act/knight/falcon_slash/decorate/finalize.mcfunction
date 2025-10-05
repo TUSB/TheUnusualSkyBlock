@@ -1,6 +1,6 @@
 #>skill:act/knight/falcon_slash/decorate/finalize
-### はやぶさ斬り演出終了
-
+#
+# 隼斬り演出終了
 scoreboard players reset @s FalconSlashTimer
 scoreboard players remove @s NativeFlag 100
 

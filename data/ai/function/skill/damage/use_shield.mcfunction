@@ -1,4 +1,8 @@
 #> ai:skill/damage/use_shield
+
+# ダメージを削除
+data remove storage entity: damage
+
 ### 盾で防御
 function makeup:player/trigger/using/shield
 #装備を取得
