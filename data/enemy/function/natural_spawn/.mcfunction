@@ -2,7 +2,7 @@
 #自然湧きのVexにスポーンタグを付与
 tag @s add Spawn
 tag @s add NaturalSpawn
-loot replace entity @s armor.head loot settings:enemy/natural_spawn
+loot replace entity @s armor.head loot settings:entity/natural_spawn
 # 村人召喚時処理
     execute if data entity @s ArmorItems[3].components."minecraft:custom_data"{SpawnEntities:[[{Tags:[Global,Friendly,Blow,CommonVillager],Level:1}]]} run function enemy:natural_spawn/villager
 function enemy:natural_spawn/modify_level
