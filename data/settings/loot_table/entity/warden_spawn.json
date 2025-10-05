@@ -1,0 +1,20 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:stick",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:1,SpawnEntities:[[{Tags:[Global,Ground,Shoot,FakeWarden,Main,SpawnParticles],Level:111}],[{Tags:[Global,Ground,Shoot,AssaultWarden,HealMarker],Level:111}]]}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+}
