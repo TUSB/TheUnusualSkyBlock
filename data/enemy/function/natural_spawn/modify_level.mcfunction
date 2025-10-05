@@ -1,3 +1,4 @@
+#> enemy:natural_spawn/modify_level
 ## 自然湧きレベル変更
 # @s _ 占有
 execute store result score @s _ run data get entity @s ArmorItems[3].tag.SpawnEntities[0][0].Level 1

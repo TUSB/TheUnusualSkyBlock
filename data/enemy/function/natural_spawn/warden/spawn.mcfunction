@@ -1,5 +1,5 @@
-#> enemy:warden_spawn/spawn
-# @within function enemy:warden_spawn/condition
+#> enemy:natural_spawn/warden/spawn
+# @within function enemy:natural_spawn/warden/condition
 
 #自然湧きのWardenにスポーンタグを付与
 tag @s add Spawn

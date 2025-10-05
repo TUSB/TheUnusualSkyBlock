@@ -1,5 +1,5 @@
-#> enemy:silverfish_spawn/spawn
-# @within function enemy:silverfish_spawn/condition
+#> enemy:natural_spawn/silverfish/spawn
+# @within function enemy:natural_spawn/silverfish/condition
 
 #自然湧きのSliverfishにスポーンタグを付与
 tag @s add Spawn
