@@ -5,7 +5,7 @@
 # @within function enemy:natural_spawn/fork
 
 # NBT付与
-    data merge entity @s {Silent:1b,DeathTime:19,DeathLootTable:"",Health:0.01f,Attributes:[{Name:"generic.max_health",Base:0.01d}]}
+    data merge entity @s {Silent:1b,DeathTime:19,DeathLootTable:"",Health:0.01f,attributes:[{id:"max_health",base:0.01d}]}
 
 # プレイヤーが64m以内にいるかを判定
     execute unless data storage main: difficult{world:"debug"} if entity @a[predicate=entity:player,distance=..64] run function enemy:natural_spawn/silverfish/spawn
