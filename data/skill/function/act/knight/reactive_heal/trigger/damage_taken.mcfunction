@@ -3,7 +3,6 @@
 # リアクティブヒール 被ダメージ時
 #
 # @within player:trigger/damage_taken
-
 execute if entity @s[scores={ReactiveLevel=1}] run data modify storage skill: Skill set from storage skill: Data.Knight[{Name:"リアクティブヒール",Level:1}]
 execute if entity @s[scores={ReactiveLevel=2}] run data modify storage skill: Skill set from storage skill: Data.Knight[{Name:"リアクティブヒール",Level:2}]
 execute if entity @s[scores={ReactiveLevel=3}] run data modify storage skill: Skill set from storage skill: Data.Knight[{Name:"リアクティブヒール",Level:3}]
@@ -12,5 +11,5 @@ data modify storage skill: Skill.Trigger set value "ダメージを受ける"
 data modify storage skill: Skill.Type set value "Trigger"
 execute unless score @s FreezeTimer matches 0.. run function skill:practice/check_type
 
-#MP不足時は効果終了
+# MP不足時は効果終了
 execute unless data storage skill: {Success:1b} run function skill:act/knight/reactive_heal/toggle

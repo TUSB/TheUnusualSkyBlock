@@ -1,5 +1,6 @@
 #> skill:act/knight/aerial_slash/act1
-### 真空斬り発動
+#
+# 真空斬り発動
 
 # ダメージ
 execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.Knight[{Name:"真空斬り",Level:1}].Damage
@@ -12,7 +13,7 @@ summon arrow ^ ^ ^ {Tags:[Skill,AerialSlash,NativeTask,FlyingRequired,KillInGrou
 
 #ダメージを保存
 execute as @e[tag=AerialSlash,tag=!Initialized,distance=..0.01] run function skill:damage/save
-#Ownerを設定
+# Ownerを設定
 data modify entity @e[tag=AerialSlash,tag=!Initialized,distance=..0.01,limit=1] Owner set from entity @s UUID
 
 # 追尾する敵を特定
