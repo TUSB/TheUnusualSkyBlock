@@ -2,7 +2,11 @@
 # -> 1秒処理
 execute if score $Ticks Count matches 0 run function enemy:one_second
 
-# Mob自然ダメージ反映
+## 忍者
+# 居縮
+execute if entity @s[scores={Isukumi=1..}] run function skill:act/ninja/isukumi/tick
+
+### Mob自然ダメージ反映
 execute if entity @s[nbt=!{AbsorptionAmount:2048f}] run function enemy:damage/natural
 
 # 敵火だるま
