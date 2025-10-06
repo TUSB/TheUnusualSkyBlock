@@ -15,9 +15,14 @@ execute if entity @s[tag=OdinSlash] run function skill:act/knight/odin_slash/tic
 ## 忍者
 # 介錯
 execute if entity @s[tag=KaishakuExplosion] run function skill:act/ninja/kaishaku/explode_tick
+
 # 氷華繚乱
 execute if entity @s[tag=HyokaRyoranDisplay] run function skill:act/ninja/hyoka_ryoran/display_tick
 
 ## 狩人
 # ステークスファイア
 execute if entity @s[tag=StakesFire] run function makeup:skill/act/hunter/stakes_fire/tick
+
+## 白魔導士
+# ヘイローバウンド
+execute if entity @s[tag=HaloBound] run function skill:act/white_mage/halo_bound/tick

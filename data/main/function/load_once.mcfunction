@@ -131,6 +131,8 @@ scoreboard objectives add WildCooking dummy {"text":"ワイルドクッキング
 scoreboard objectives add WildHealing dummy {"text":"ワイルドヒーリングレベル"}
 scoreboard objectives add EnergySave dummy {"text":"エナジーセーブ消費MP減少効果量"}
 scoreboard objectives add BlastSpark dummy {"text":"ブラストスパーク継続tick数"}
+#白魔導士
+scoreboard objectives add HaloBound dummy {"text":"ヘイローバウンド演出カウント"}
 #黒魔導士
 scoreboard objectives add EclipseRadius dummy {"text":"エクリプスフレイム半径"}
 scoreboard objectives add LightningBlow dummy {"text":"ライトニングブロー威力"}
