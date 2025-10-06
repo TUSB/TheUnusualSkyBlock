@@ -22,6 +22,9 @@ function skill:update_mp/
 execute if entity @s[scores={IronWill=1..}] run function skill:act/knight/iron_will/tick
 execute if entity @s[tag=IronWill] run function skill:act/knight/iron_will/load
 
+# 斬鉄剣
+execute if entity @s[scores={OdinSlash=0..}] run function skill:act/knight/odin_slash/tick
+
 ## 忍者
 # 跳躍演出
 execute if score @s Choyaku matches 0.. if entity @s[nbt={OnGround:false,FallDistance:0.0f}] run function makeup:skill/act/ninja/choyaku/direction
@@ -32,3 +35,5 @@ execute if entity @s[scores={Issen=0..}] run function skill:act/ninja/issen/tick
 # 介錯
 execute if entity @s[scores={Kaishaku=0..}] run function skill:act/ninja/kaishaku/player_tick
 
+# 氷華繚乱
+execute if score @s HyokaRyoranTimer matches 0.. run function skill:act/ninja/hyoka_ryoran/tick

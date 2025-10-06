@@ -16,7 +16,6 @@ function skill:toggle_reset
 execute store result score @s ReactiveLevel run data get storage tutorial_alpha: pop.scores.ReactiveLevel
 execute store result score @s ChoyakuLevel run data get storage tutorial_alpha: pop.scores.ChoyakuLevel
 execute store result score @s WildHealing run data get storage tutorial_alpha: pop.scores.WildHealing
-execute store result score @s SayonaraLevel run data get storage tutorial_alpha: pop.scores.SayonaraLevel
 execute store result score @s TsuremaiLevel run data get storage tutorial_alpha: pop.scores.TsuremaiLevel
 
 tag @s remove Reraise

@@ -11,5 +11,8 @@ execute if entity @s[tag=EnemyBurn] run function effect:enemy_debuff/burn/tick
 ### Mob Hitダメージ
 execute if entity @s[tag=HitDamageTaken] run function enemy:damage/hit
 
+# ダメージ表示(10tickごと)
+execute if score $Ticks Count matches 10 if entity @s[scores={StoredDamage=-2147483648..}] run function enemy:show_damage/
+
 #投射物無敵時間を更新
 scoreboard players add @s ProjectileTime 1

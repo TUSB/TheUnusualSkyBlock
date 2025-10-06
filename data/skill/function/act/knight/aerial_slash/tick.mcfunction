@@ -1,5 +1,6 @@
 #> skill:act/knight/aerial_slash/tick
-### 真空斬りリエイム
+#
+# 真空斬りリエイム
 
 # タイマー
 scoreboard players remove @s _ 1
