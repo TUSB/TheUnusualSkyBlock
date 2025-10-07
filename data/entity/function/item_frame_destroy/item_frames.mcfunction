@@ -6,4 +6,4 @@
 # 視線先の額縁を探索
     execute anchored eyes positioned ^ ^ ^ run function entity:item_frame_destroy/search
 
-advancement revoke @s only entity:item_frames
+schedule function entity:item_frame_destroy/schedule 1t

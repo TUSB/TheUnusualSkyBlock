@@ -1,52 +1,22 @@
 {
   "criteria": {
     "item_frame": {
-      "trigger": "minecraft:player_interacted_with_entity",
+      "trigger": "minecraft:tick",
       "conditions": {
-        "entity": {
-          "type": "item_frame"
-        },
         "player": [
           {
-            "condition": "entity_properties",
-            "entity": "this",
-            "predicate": {
-              "flags": {
-                "is_sneaking": true
-              }
-            }
+            "condition": "reference",
+            "name": "entity:item_frama_destroy/looking_item_frame"
           },
           {
-            "condition": "inverted",
-            "term": {
-              "condition": "minecraft:entity_properties",
-              "entity": "this",
-              "predicate": {
-                "type_specific": {
-                  "type": "player",
-                  "gamemode": [
-                    "adventure"
-                  ]
-                }
-              }
-            }
-          }
-        ]
-      }
-    },
-    "glow_item_frame": {
-      "trigger": "minecraft:player_interacted_with_entity",
-      "conditions": {
-        "entity": {
-          "type": "glow_item_frame"
-        },
-        "player": [
-          {
-            "condition": "entity_properties",
+            "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
-              "flags": {
-                "is_sneaking": true
+              "type_specific": {
+                "type": "player",
+                "looking_at": {
+                  "nbt": "{Invulnerable:true}"
+                }
               }
             }
           },
@@ -71,8 +41,7 @@
   },
   "requirements": [
     [
-      "item_frame",
-      "glow_item_frame"
+      "item_frame"
     ]
   ],
   "rewards": {
