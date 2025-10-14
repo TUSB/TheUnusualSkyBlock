@@ -4,4 +4,6 @@
 #
 
 execute as @e[type=#entity:item_frames,distance=..8] run data modify entity @s Invulnerable set value 1b
+stopsound @s * minecraft:entity.item_frame.add_item
+stopsound @s * minecraft:entity.glow_item_frame.add_item
 advancement revoke @s only entity:item_frames
