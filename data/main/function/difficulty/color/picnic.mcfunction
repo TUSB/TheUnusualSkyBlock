@@ -1,4 +1,4 @@
-
+#> main:difficulty/color/picnic
 # ピクニック
 # #99CC33
 

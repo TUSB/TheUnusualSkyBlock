@@ -1,3 +1,4 @@
+#> main:difficulty/select/common
 
 # 選択用エンティティ召喚不可
 data modify storage main: difficult.selecting set value true

@@ -1,4 +1,4 @@
-
+#> main:difficulty/apply/debug
 # 難易度：デバッグ
 # デフォルト
 

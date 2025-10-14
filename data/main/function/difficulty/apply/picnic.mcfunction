@@ -1,4 +1,4 @@
-
+#> main:difficulty/apply/expert
 # 難易度：ピクニック
 
 # チーム色変更

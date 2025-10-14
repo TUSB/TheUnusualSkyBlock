@@ -1,3 +1,4 @@
+#> main:difficulty/change/to_picnic
 
 execute store result score _ _ if entity @a
 

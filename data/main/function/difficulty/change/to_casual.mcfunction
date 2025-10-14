@@ -1,3 +1,4 @@
+#> main:difficulty/apply/expert
 
 execute store result score _ _ if entity @a
 

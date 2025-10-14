@@ -1,4 +1,4 @@
-
+#> main:difficulty/reset
 # ピクニックなら無限奈落から退場
 # まだそのfunction無い
 # execute function area:jump_to/void/? #おそらく空島神社

@@ -1,4 +1,4 @@
-
+#> main:difficulty/apply/casual
 # 難易度：カジュアル
 # デフォルト
 

@@ -1,4 +1,4 @@
-
+#> main:difficulty/color/debug
 # カジュアル
 # dark_gray
 

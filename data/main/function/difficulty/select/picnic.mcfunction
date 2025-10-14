@@ -1,3 +1,4 @@
+#> main:difficulty/select/picnic
 
 # 難易度適用
 execute if data storage main: difficult{world:"picnic"} run tellraw @a {"translate":"この難易度を選択中です。"}

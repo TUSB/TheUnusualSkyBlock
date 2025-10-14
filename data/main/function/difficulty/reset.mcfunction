@@ -1,4 +1,4 @@
-
+#> main:difficulty/reset
 # デフォルト難易度に設定する
 # ワールドリセット状態と一緒
 function main:difficulty/apply/casual

@@ -1,3 +1,4 @@
+#> main:difficulty/apply/expert
 
 execute if data storage main: difficult.change_to run tellraw @a ["",{"translate":"難易度変更は否決されました。","color":"red"}]
 

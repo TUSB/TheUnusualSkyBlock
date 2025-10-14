@@ -1,3 +1,4 @@
+#> main:difficulty/select
 
 # 選択召喚フラグ
 data modify storage main: difficult.selecting set value true

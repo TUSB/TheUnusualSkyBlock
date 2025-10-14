@@ -1,4 +1,4 @@
-
+#> main:difficulty/nether_trial
 # ピクニックならネザーアスレから退場
 # まだそのfunction無い
 # execute if data storage main: difficult{world:"picnic"} run function area:jump_to/nether_trail/skylands

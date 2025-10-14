@@ -1,4 +1,4 @@
-
+#> main:difficulty/color/expert
 # エキスパート
 # #932AFF
 

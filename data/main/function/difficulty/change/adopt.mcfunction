@@ -1,3 +1,4 @@
+#> main:difficulty/apply/expert
 
 scoreboard players remove $World ChangeDifficulty 1
 scoreboard players operation _ ChangeDifficulty = $World ChangeDifficulty

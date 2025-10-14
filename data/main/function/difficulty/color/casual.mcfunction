@@ -1,4 +1,4 @@
-
+#> main:difficulty/color/casual
 # カジュアル
 # #FF2A2A
 
