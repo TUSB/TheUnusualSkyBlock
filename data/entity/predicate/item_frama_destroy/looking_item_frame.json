@@ -5,7 +5,8 @@
     "type_specific": {
       "type": "player",
       "looking_at": {
-        "type": "#entity:item_frames"
+        "type": "#entity:item_frames",
+        "nbt": "{Invulnerable:false}"
       }
     }
   }

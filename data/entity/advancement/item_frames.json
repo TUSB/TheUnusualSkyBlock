@@ -5,16 +5,13 @@
       "conditions": {
         "player": [
           {
-            "condition": "reference",
-            "name": "entity:item_frama_destroy/looking_item_frame"
-          },
-          {
             "condition": "minecraft:entity_properties",
             "entity": "this",
             "predicate": {
               "type_specific": {
                 "type": "player",
                 "looking_at": {
+                  "type": "#entity:item_frames",
                   "nbt": "{Invulnerable:true}"
                 }
               }
