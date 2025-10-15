@@ -60,6 +60,7 @@ scoreboard objectives add TntCount dummy {"text":"トントカウント"}
 scoreboard objectives add VirusResistance dummy {"text":"病気耐性"}
 scoreboard objectives add VirusTimer dummy {"text":"病気タイマー"}
 scoreboard objectives add VirusCount dummy {"text":"病気カウント"}
+scoreboard objectives add FreezeResistance dummy {"text":"凍結耐性"}
 scoreboard objectives add FreezeTimer dummy {"text":"凍結タイマー"}
 scoreboard objectives add BurnResistance dummy {"text":"火だるま耐性"}
 scoreboard objectives add BurnTimer dummy {"text":"火だるまタイマー"}
@@ -131,6 +132,8 @@ scoreboard objectives add WildCooking dummy {"text":"ワイルドクッキング
 scoreboard objectives add WildHealing dummy {"text":"ワイルドヒーリングレベル"}
 scoreboard objectives add EnergySave dummy {"text":"エナジーセーブ消費MP減少効果量"}
 scoreboard objectives add BlastSpark dummy {"text":"ブラストスパーク継続tick数"}
+#白魔導士
+scoreboard objectives add HaloBound dummy {"text":"ヘイローバウンド演出カウント"}
 #黒魔導士
 scoreboard objectives add EclipseRadius dummy {"text":"エクリプスフレイム半径"}
 scoreboard objectives add LightningBlow dummy {"text":"ライトニングブロー威力"}
