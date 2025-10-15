@@ -1,3 +1,5 @@
+#> tutorial_alpha:tips/act0
+
 function tutorial_alpha:tips/reset
 schedule function tutorial_alpha:tips/reset 3s
 

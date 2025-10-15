@@ -1,3 +1,4 @@
+#> tutorial_alpha:click_event/loop
 
 execute at @e[tag=Tutorial.clickEvent] if entity @a[distance=..10] run schedule function tutorial_alpha:click_event/loop 1t replace
 execute at @e[tag=Tutorial.clickEvent] unless entity @a[distance=..10] run function tutorial_alpha:click_event/reset

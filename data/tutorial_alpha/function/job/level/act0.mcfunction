@@ -1,3 +1,5 @@
+#> tutorial_alpha:job/level/act0
+
 function tutorial_alpha:job/level/reset
 schedule function tutorial_alpha:job/level/reset 3s
 

@@ -1,3 +1,5 @@
+#> tutorial_alpha:system/start
+
 function tutorial_alpha:system/backup_push
 
 function area:jump_to/debug_room/tutorial

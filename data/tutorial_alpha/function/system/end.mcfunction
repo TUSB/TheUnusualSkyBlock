@@ -1,3 +1,5 @@
+#> tutorial_alpha:system/end
+
 function tutorial_alpha:system/backup_pop
 
 function area:jump_to/cloudia/tutorial

@@ -1,3 +1,5 @@
+#> tutorial_alpha:enchant/enchanting_table/item
+
 clear @s #item:all{tutorial_item:true}
 give @s iron_sword{tutorial_item:true}
 loot spawn ~ ~ ~ loot item:item/gold_nugget/element/1

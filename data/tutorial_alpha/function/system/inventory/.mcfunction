@@ -1,3 +1,5 @@
+#> tutorial_alpha:system/inventory/
+
 # オフハンド
 data remove storage item: Item
 data modify storage item: Item set from storage tutorial_alpha: pop.Items[{Slot:-106b}]

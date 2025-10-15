@@ -1,3 +1,5 @@
+#> tutorial_alpha:lapidary/anvil/item
+
 clear @s #item:all{tutorial_item:true}
 loot spawn ~ ~ ~ loot item:item/gold_nugget/mystery/1
 loot spawn ~ ~ ~ loot item:item/gold_nugget/mystery/1

@@ -1,3 +1,5 @@
+#> tutorial_alpha:click_event/act0
+
 tellraw @s ["",{"translate":"[チュートリアル：%1$s]","bold":true,"with":[{"translate":"チャットログの使い方"}]},"\n",{"translate":"%1$sボタンを押してチャット入力画面にしたとき、\nチャットログのテキストにカーソルを合わせてメッセージを表示させたり\nチャットログのテキストをクリックすることでコマンドを実行することができます。","with":[{"keybind":"key.chat"}]}]
 
 # clickEventお試し

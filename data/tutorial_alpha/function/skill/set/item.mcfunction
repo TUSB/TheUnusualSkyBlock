@@ -1,3 +1,5 @@
+#> tutorial_alpha:skill/set/item
+
 clear @s #item:all{tutorial_item:true}
 give @s carrot_on_a_stick{tutorial_item:true}
 give @s carrot_on_a_stick{tutorial_item:true}

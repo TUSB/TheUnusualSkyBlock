@@ -1,3 +1,4 @@
+#> tutorial_alpha:system/inventory/loop
 
 execute store result score _ _ run data get storage tutorial_alpha: pop.Items[-1].Slot
 execute store result storage tutorial_alpha: pop.Items[-1].Slot byte 1 run scoreboard players remove _ _ 9

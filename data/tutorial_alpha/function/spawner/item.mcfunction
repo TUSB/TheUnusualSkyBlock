@@ -1,3 +1,5 @@
+#> tutorial_alpha:spawner/item
+
 clear @s #item:all{tutorial_item:true}
 give @s wooden_pickaxe{tutorial_item:true}
 give @s stone_pickaxe{tutorial_item:true}
