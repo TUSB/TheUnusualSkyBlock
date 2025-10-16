@@ -1,8 +1,6 @@
 #> ai:skill/laser/main/init
 #ダメージ設定
-data modify storage score_damage: Argument set value {DamageType:[Global,Projectile]}
-data modify storage score_damage: Argument merge from storage mob_data: Call.Argument
-execute unless data storage score_damage: Argument.Damage store result storage score_damage: Argument.Damage int 1 run scoreboard players get @s Attack
+data modify storage entity: damage merge from storage mob_data: Call.damage
 
 #モブ名取得
 data modify storage mob_data: MobName set from entity @s CustomName
