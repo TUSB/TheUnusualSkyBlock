@@ -1,3 +1,4 @@
+#> settings:version_update/update/
 #アップデート
 data modify storage v13alpha: Version set from storage v13alpha: UpdatingVersion
 

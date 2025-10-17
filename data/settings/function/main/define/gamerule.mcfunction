@@ -1,3 +1,4 @@
+#> settings:version_update/set
 gamerule doWardenSpawning true
 gamerule globalSoundEvents true
 gamerule tntExplosionDropDecay false

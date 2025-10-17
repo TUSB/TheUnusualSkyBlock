@@ -1,3 +1,4 @@
+#> settings:version_update/check/
 #データパックのアップデート
 #データパック更新後プレイヤーがこのfunctionを実行する
 
