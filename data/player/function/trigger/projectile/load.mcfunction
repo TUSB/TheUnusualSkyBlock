@@ -11,4 +11,4 @@ function entity:damage/load
 execute if entity @s[tag=Skill] run function player:trigger/projectile/skill
 
 ### HasDisplayのアイテムディスプレイ削除
-execute if entity @s[tag=HasSkillDisplay] on passengers run kill @s[tag=SkillDisplay]
+execute if entity @s[tag=HasSkillDisplay,tag=!Shuriken] on passengers run kill @s[tag=SkillDisplay]
