@@ -13,3 +13,4 @@ execute as @e[type=#entity:has_in_ground] run function entity:has_in_ground/chec
 
 ### エンティティPortalCooldownチェック
 execute as @e[tag=CooldownRequired,nbt={PortalCooldown:0}] at @s run function entity:cooldown
+execute as @e[type=#entity:has_in_ground,tag=CooldownRequired,tag=!Flying,nbt={life:1159s,inGround:true}] at @s run function entity:cooldown
