@@ -132,6 +132,8 @@ scoreboard objectives add WildCooking dummy {"text":"ワイルドクッキング
 scoreboard objectives add WildHealing dummy {"text":"ワイルドヒーリングレベル"}
 scoreboard objectives add EnergySave dummy {"text":"エナジーセーブ消費MP減少効果量"}
 scoreboard objectives add BlastSpark dummy {"text":"ブラストスパーク継続tick数"}
+scoreboard objectives add Kasap dummy {"text":"ルカナントラップ継続秒数"}
+scoreboard objectives add KasapRatio dummy {"text":"ルカナントラップダメージ倍率"}
 #白魔導士
 scoreboard objectives add HaloBound dummy {"text":"ヘイローバウンド演出カウント"}
 #黒魔導士
