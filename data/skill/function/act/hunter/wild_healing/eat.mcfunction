@@ -1,5 +1,6 @@
-
-### ワイルドヒーリング発動
+#> skill:act/hunter/wild_healing/eat
+#
+# ワイルドヒーリング発動
 
 scoreboard players operation @s LastFoodLevel *= _ Level
 
