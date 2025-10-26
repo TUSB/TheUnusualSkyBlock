@@ -29,16 +29,16 @@
                 },
                 "score": "ArrowMotionX"
               },
-              "range": {
-                "min": 0
-              }
+              "range": 1
             },
             {
-              "condition": "minecraft:entity_scores",
+              "condition": "minecraft:entity_properties",
               "entity": "this",
-              "scores": {
-                "ArrowMotionX": {
-                  "max": 0
+              "predicate": {
+                "movement": {
+                  "x": {
+                    "max": 0
+                  }
                 }
               }
             }
@@ -57,16 +57,16 @@
                 },
                 "score": "ArrowMotionX"
               },
-              "range": {
-                "max": 0
-              }
+              "range": 0
             },
             {
-              "condition": "minecraft:entity_scores",
+              "condition": "minecraft:entity_properties",
               "entity": "this",
-              "scores": {
-                "ArrowMotionX": {
-                  "min": 0
+              "predicate": {
+                "movement": {
+                  "x": {
+                    "min": 0
+                  }
                 }
               }
             }
@@ -90,16 +90,16 @@
                 },
                 "score": "ArrowMotionZ"
               },
-              "range": {
-                "min": 0
-              }
+              "range": 1
             },
             {
-              "condition": "minecraft:entity_scores",
+              "condition": "minecraft:entity_properties",
               "entity": "this",
-              "scores": {
-                "ArrowMotionZ": {
-                  "max": 0
+              "predicate": {
+                "movement": {
+                  "z": {
+                    "max": 0
+                  }
                 }
               }
             }
@@ -118,16 +118,16 @@
                 },
                 "score": "ArrowMotionZ"
               },
-              "range": {
-                "max": 0
-              }
+              "range": 0
             },
             {
-              "condition": "minecraft:entity_scores",
+              "condition": "minecraft:entity_properties",
               "entity": "this",
-              "scores": {
-                "ArrowMotionZ": {
-                  "min": 0
+              "predicate": {
+                "movement": {
+                  "z": {
+                    "min": 0
+                  }
                 }
               }
             }
