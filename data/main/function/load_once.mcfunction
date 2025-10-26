@@ -77,7 +77,6 @@ scoreboard objectives add ShieldUsingTick dummy {"text":"盾を使用したtick"
 scoreboard objectives add Calc dummy {"text": "計算用"}
 scoreboard objectives add Random dummy {"text": "乱数用"}
 scoreboard objectives add TitleOffset dummy {"text":"タイトル表示オフセット"}
-scoreboard objectives add ArrowRotation dummy {"text":"矢の向き"}
 scoreboard objectives add ArrowMotionX dummy {"text":"矢の速度 X"}
 scoreboard objectives add ArrowMotionZ dummy {"text":"矢の速度 Z"}
 scoreboard objectives add ProjectileLife dummy {"text":"飛翔物生存時間"}
