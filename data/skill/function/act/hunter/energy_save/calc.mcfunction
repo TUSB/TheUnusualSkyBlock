@@ -1,5 +1,6 @@
-
-### エナジーセーブ効果適用
+#> skill:act/hunter/energy_save/calc
+#
+# エナジーセーブ効果適用
 
 scoreboard players set _ Calc 4
 scoreboard players operation _ EnergySave = _ Calc
