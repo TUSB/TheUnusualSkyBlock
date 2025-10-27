@@ -9,6 +9,9 @@ function main:time/tick
 ### 1tick遅れ処理
 execute as @e[tag=DelayedTask] at @s run function main:task/delayed
 
+# -> 1秒処理
+execute if score $Ticks Count matches 0 run function main:one_second
+
 # エリア tick
 function area:tick
 
