@@ -1,5 +1,4 @@
-
-
+#> settings:alias
 #> シュルカーボックス座標
 #alias vector ShulkerBox 2 2 2
 

@@ -1,4 +1,4 @@
-
+#> settings:define
 
 #> エリア用ストレージ
 #define storage area:
