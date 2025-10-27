@@ -1,4 +1,4 @@
-
+#> settings:alpha_debug/villager/common
 #実行者にSpawnEntities[0][0]のデータを持たせます。
 
 #データを初期化
@@ -13,10 +13,10 @@ data modify entity @s {} merge from storage tusb_mob: "即時ステータス"."�
 data modify entity @s {} merge from storage tusb_mob: "即時ステータス"."見た目"
 execute if data entity @s {Tags:[Enemy]} unless data entity @s Team run data modify entity @s Team set value "Enemy"
 execute if data entity @s {Team:"None"} run data remove entity @s Team
-data modify entity @s Attributes[{Name:"minecraft:generic.follow_range"}].Base set from storage tusb_mob: "即時ステータス"."最大感知範囲"
-data modify entity @s Attributes[{Name:"minecraft:generic.movement_speed"}].Base set from storage tusb_mob: "即時ステータス"."基本移動力"
-data modify entity @s Attributes[{Name:"minecraft:generic.knockback_resistance"}].Base set from storage tusb_mob: "即時ステータス"."ノックバック耐性"
-data modify entity @s Attributes[{Name:"minecraft:generic.attack_knockback"}].Base set from storage tusb_mob: "即時ステータス"."ノックバック力"
+data modify entity @s attributes[{id:"minecraft:follow_range"}].base set from storage tusb_mob: "即時ステータス"."最大感知範囲"
+data modify entity @s attributes[{id:"minecraft:movement_speed"}].base set from storage tusb_mob: "即時ステータス"."基本移動力"
+data modify entity @s attributes[{id:"minecraft:knockback_resistance"}].base set from storage tusb_mob: "即時ステータス"."ノックバック耐性"
+data modify entity @s attributes[{id:"minecraft:attack_knockback"}].base set from storage tusb_mob: "即時ステータス"."ノックバック力"
 
 execute store result entity @s TicksFrozen int 1 run scoreboard players get @s OhMyDatID
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].DelayedDataList append value {Level:0,"遅延ステータス":{}}
