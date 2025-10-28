@@ -1,6 +1,8 @@
 #> effect:enemy_debuff/fear/blow_off
 #
 # 敵畏怖吹っ飛び処理
+#
+# @within function enemy:damage/hit
 
 # インターバルが残っていれば失敗
 execute if score @s FearInterval matches 1.. run return fail
