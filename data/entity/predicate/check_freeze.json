@@ -1,0 +1,38 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "entity_scores",
+      "entity": "this",
+      "scores": {
+        "ProjectileLife": {
+          "min": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:context",
+              "target": "this"
+            },
+            "score": "_"
+          },
+          "max": {
+            "type": "minecraft:score",
+            "target": {
+              "type": "minecraft:context",
+              "target": "this"
+            },
+            "score": "_"
+          }
+        }
+      }
+    },
+    {
+      "condition": "entity_scores",
+      "entity": "this",
+      "scores": {
+        "_": {
+          "max": 0
+        }
+      }
+    }
+  ]
+}
