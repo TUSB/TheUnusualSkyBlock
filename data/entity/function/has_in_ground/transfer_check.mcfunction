@@ -1,4 +1,4 @@
-#> entity:has_in_ground/check
+#> entity:has_in_ground/transfer_check
 #
 # Flying かつ speed:0 -> lifeへ移行
 # not Flying かつ not speed:0 -> cooldownへ移行
