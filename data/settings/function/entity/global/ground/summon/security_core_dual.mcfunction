@@ -1,0 +1,22 @@
+### 即時ステータス
+data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:zombie",Tags:[Mob,Enemy,DelayedData,HasAI,TickingRequired,HasLootTable,AnalyseLog,"HideLevel","Unmoved"],CustomName:'{"translate":"Grumm","color":"#000000"}',IsBaby:true,Silent:true,active_effects:[{id:"minecraft:invisibility",amplifier:127b,duration:-1,show_particles:false},{id:"minecraft:weakness",amplifier:127b,duration:-1,show_particles:false},{id:"minecraft:slow_falling",amplifier:127b,duration:-1,show_particles:false}],PortalCooldown:3000,DeathLootTable:"empty"}
+data modify storage tusb_mob: "即時ステータス"."見た目" set value {ArmorItems:[{},{},{},{id:"minecraft:player_head",count:1,components:{"minecraft:profile":{id:[I;1,0,61,0],properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjI2YjM4OTRhYTkwYmEwNGQwZGI4OWE2ZGQ2MDIxMGViYjNhZTZmZWI1MGY3NGQ4NTk4ZDU2Y2M4NjYyODIxZiJ9fX0="}]}}}],ArmorDropChances:[-Infinityf,-Infinityf,-Infinityf,-Infinityf]}
+data modify storage tusb_mob: "即時ステータス"."最大感知範囲" set value 0d
+data modify storage tusb_mob: "即時ステータス"."基本移動力" set value 0d
+data modify storage tusb_mob: "即時ステータス"."ノックバック耐性" set value 0d
+data modify storage tusb_mob: "即時ステータス"."ノックバック力" set value 0d
+
+### 遅延ステータス
+# ステータス
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大HP" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."最大MP" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理防御力" set value 0
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 100
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法防御力" set value 0
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."理外攻撃力" set value 0
+data modify storage tusb_mob: "遅延ステータス"."ステータス"."理外防御力" set value 0
+data modify storage tusb_mob: "遅延ステータス"."ステータス".LootTable set value [{Loot:"item:group/drop_item/tier4/common",Count:1,Chance:0.3d}]
+data modify storage tusb_mob: "遅延ステータス"."ステータス".AnalyseLog set value '[{"translate":"%1$s侵入者ハッケン！ 戦闘モードニ移行中・・・。","with":[{"translate":"【能力：時間・置換・引寄無効】","color":"#00FF00"}]}]'
+# AI
+data modify storage tusb_mob: "遅延ステータス".AI set value {TurnCount:2,Turn:[{Index:1,Exit:{Condition:[{Name:"has_target",Target:{Look:"Player",Radius:30,IgnoreBlocks:false}},{Name:"function",Tags:[Global,Event,Function,SecurityPole,StopSpawn]}]}},{Index:2,Skill:[{Call:[{Name:"delay_action",Tags:[Casting,Cast,Normal]}]},{Interval:{Min:40,Max:40,Current:40},Call:[{Condition:[{Name:"has_target",Global:true,Target:{Look:"Player",Radius:24d,IgnoreBlocks:false}}],Settings:[{Name:"Align",Vector:[X,Y,Z],Center:[X,Z]},{Name:"Direction",Direction:[0f,-90f],Absolute:{Vertical:true},Speed:2d}],Name:"spawn",SpawnEntities:[[{Tags:[Global,Ground,Shoot,SecurityPoleDual,Body],Level:1}],[{Tags:[Global,Ground,Shoot,SecurityPoleDual,Main],Level:1}]],Count:1},{Name:"kill"}]}],Exit:{Loop:{Max:2,Current:2}}}]}

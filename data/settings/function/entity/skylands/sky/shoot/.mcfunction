@@ -1,0 +1,12 @@
+execute if entity @s[tag=Tippy] run function settings:entity/skylands/sky/shoot/tippy/
+execute if entity @s[tag=AquaDolphin] run function settings:entity/skylands/sky/shoot/aqua_dolphin/
+execute if entity @s[tag=MorningGhast] run function settings:entity/skylands/sky/shoot/morning_ghast/
+execute if entity @s[tag=ILoveEye] run function settings:entity/skylands/sky/shoot/i_love_eye/
+execute if entity @s[tag=CockdoHellchef] run function settings:entity/skylands/sky/shoot/cockdo_hellchef/
+execute if entity @s[tag=FlyingSkeleton] run function settings:entity/skylands/sky/shoot/flying_skeleton/
+execute if entity @s[tag=BlackSniper] run function settings:entity/skylands/sky/shoot/black_sniper/
+execute if entity @s[tag=HellsChicken] run function settings:entity/skylands/sky/shoot/hells_chicken/
+execute if entity @s[tag=WhiteParalyzer] run function settings:entity/skylands/sky/shoot/white_paralyzer/
+execute if entity @s[tag=LightningMage] run function settings:entity/skylands/sky/shoot/lightning_mage/
+execute if entity @s[tag=ImpureSkull] run function settings:entity/skylands/sky/shoot/impure_skull/
+execute if entity @s[tag=BlackGrudge3] run function settings:entity/skylands/sky/shoot/black_grudge3/
