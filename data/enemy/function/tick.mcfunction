@@ -9,7 +9,7 @@ execute if entity @s[nbt=!{AbsorptionAmount:2048f}] run function enemy:damage/na
 execute if entity @s[tag=EnemyBurn] run function effect:enemy_debuff/burn/tick
 
 # 敵畏怖衝突
-execute if score @s FearInterval matches 1.. as @e[tag=Enemy,distance=0.01..1] at @s run function effect:enemy_debuff/fear/collision
+execute if score @s FearInterval matches 1.. as @e[tag=Enemy,distance=0.01..1.5] at @s run function effect:enemy_debuff/fear/collision
 
 # Mob Hitダメージ
 execute if entity @s[tag=HitDamageTaken] run function enemy:damage/hit
