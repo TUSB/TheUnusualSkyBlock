@@ -10,7 +10,7 @@ execute if score _ Level matches 4 run data modify storage skill: damage set fro
 execute if score _ Level matches 5 run data modify storage skill: damage set from storage skill: Data.Ninja[{Name:"手裏剣",Level:5}].Damage
 
 # 投射物を召喚
-summon arrow ^ ^ ^0.5 {Tags:[Skill,Shuriken,FlyingRequired,KillInGround,HasSkillDisplay],NoGravity:1b,damage:1d,PierceLevel:10b,Passengers:[{id:"minecraft:item_display",billboard:"center",Tags:["SkillDisplay"],item:{id:"minecraft:firework_star",count:1,components:{"minecraft:custom_model_data":{floats:[122]},"minecraft:firework_explosion":{shape:"small_ball",colors:[I;16777215]}}}}],SoundEvent:"item.trident.hit"}
+execute anchored eyes run summon arrow ^ ^ ^0.5 {Tags:[Skill,Shuriken,NativeTask,FlyingRequired,KillInGround,HasSkillDisplay],NoGravity:1b,damage:1d,PierceLevel:10b,Passengers:[{id:"minecraft:item_display",billboard:"center",Tags:["SkillDisplay"],item:{id:"minecraft:firework_star",count:1,components:{"minecraft:custom_model_data":{floats:[122]},"minecraft:firework_explosion":{shape:"small_ball",colors:[I;16777215]}}}}],SoundEvent:"item.trident.hit"}
 execute as @e[tag=Shuriken,tag=!Initialized,distance=..3] positioned 0.0 0.0 0.0 positioned ^ ^ ^1.55 run function calc:throw_projectile/
 
 # 貫通数管理 レベルをnとして2n-1
