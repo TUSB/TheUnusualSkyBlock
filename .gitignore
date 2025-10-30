@@ -22,4 +22,3 @@ megalinter-reports/*
 
 # GitHub Actions leftovers
 github_conf
-.gitignore
