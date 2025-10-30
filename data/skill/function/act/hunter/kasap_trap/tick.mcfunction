@@ -7,7 +7,7 @@ execute store result score @e[tag=Enemy,distance=..5] KasapRatio run data get en
 
 # タグ・スコア適用
 tag @e[tag=Enemy,distance=..5] add Kasap
-scoreboard players set @e[tag=Enemy,distance=..5] Kasap 300
+scoreboard players set @e[tag=Enemy,distance=..5] Kasap 100
 
 # 演出
 function makeup:skill/act/hunter/kasap_trap/tick
