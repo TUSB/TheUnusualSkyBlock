@@ -9,7 +9,7 @@ function skill:damage/apply/
 execute if entity @s[nbt={OnGround:0b}] run function skill:damage/apply/
 
 # Motion書き換え
-data modify entity @s Motion set from storage calc: Motion
+data modify entity @s Motion[1] set from storage calc: Motion
 
 # 風邪デバフ付与
 function effect:enemy_debuff/virus/apply
