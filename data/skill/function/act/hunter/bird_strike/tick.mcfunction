@@ -2,8 +2,7 @@
 #
 # バードストライク tick処理
 
-# Motionを取得
-data modify storage calc: Motion set from entity @s Motion[1]
+# Motionを設定
 data modify storage calc: Motion set value -2d
 
 # ダメージをロード
