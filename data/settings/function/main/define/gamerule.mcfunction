@@ -1,3 +1,4 @@
+#> settings:version_update/set
 gamerule doWardenSpawning true
 gamerule globalSoundEvents true
 gamerule tntExplosionDropDecay false
@@ -48,3 +49,12 @@ gamerule maxCommandForkCount 1048576
 gamerule playersNetherPortalCreativeDelay 1
 gamerule playersNetherPortalDefaultDelay 80
 gamerule projectilesCanBreakBlocks true
+gamerule enderPearlsVanishOnDeath true
+gamerule maxCommandForkCount 65536
+gamerule playersNetherPortalDefaultDelay 80
+gamerule playersNetherPortalCreativeDelay 1
+gamerule projectilesCanBreakBlocks true
+# 1.21.9で削除
+gamerule spawnChunkRadius 2
+# gamerule minecartMaxSpeed 8
+gamerule disablePlayerMovementCheck false
