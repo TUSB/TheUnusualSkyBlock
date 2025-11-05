@@ -9,6 +9,10 @@
 # 介錯
 execute if entity @s[scores={Kaishaku=1..}] run function skill:act/ninja/kaishaku/debuff_second
 
+## 狩人
+# ワイルドクッキング
+execute if entity @s[scores={WildCooking=1..}] run function skill:act/hunter/wild_cooking/debuff_tick
+
 # 敵火だるま1秒処理
 execute if entity @s[tag=EnemyBurn] run function effect:enemy_debuff/burn/second
 
