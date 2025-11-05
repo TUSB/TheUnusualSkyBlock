@@ -6,6 +6,3 @@ execute at @a[scores={Age=1..},limit=1,sort=nearest] positioned ~ ~-10 ~ facing 
 
 # デバフ
 function effect:enemy_debuff/electrification/apply
-
-# ダメージ付与
-function skill:damage/apply/
