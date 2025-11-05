@@ -17,8 +17,5 @@ execute if score _ Level matches 1 run data modify storage skill: damage set fro
 execute if score _ Level matches 2 run data modify storage skill: damage set from storage skill: Data.Hunter[{Name:"ブラストスパーク",Level:2}].Damage
 execute if score _ Level matches 3 run data modify storage skill: damage set from storage skill: Data.Hunter[{Name:"ブラストスパーク",Level:3}].Damage
 
-# ダメージ計算
-function skill:damage/add/skill/weapon
-
 # ダメージを保存
 execute as @e[tag=!Initialized,tag=BlastSpark,limit=1,distance=..0.01] run function skill:damage/save
