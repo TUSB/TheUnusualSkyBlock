@@ -9,8 +9,8 @@ summon minecraft:arrow ^ ^ ^ {Tags:[Skill,BlastSpark,CooldownRequired,NativeTask
 
 # Owner継承
 data modify entity @e[tag=!Initialized,tag=BlastSpark,limit=1,distance=..0.01] Owner set from entity @s UUID
-# モーション付与
 
+# モーション付与
 execute as @e[tag=!Initialized,tag=BlastSpark,limit=1,distance=..0.01] positioned 0.0 0.0 0.0 positioned ^ ^ ^2.50 run function calc:throw_projectile/
 
 execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.Hunter[{Name:"ブラストスパーク",Level:1}].Damage
