@@ -4,7 +4,7 @@ execute if entity @s[tag=ChainArrow] run function skill:act/hunter/chain_arrow/h
 execute if entity @s[tag=StakesSucceeded] as @e[tag=Enemy,nbt=!{AbsorptionAmount:2048f},distance=0] run function skill:act/hunter/stakes_fire/hit
 execute if entity @s[tag=BlastSpark] run function skill:act/hunter/blast_spark/hit
 #忍者
-execute if entity @s[tag=Shuriken] run function makeup:skill/act/ninja/shuriken/hit
+execute if entity @s[tag=Shuriken] run function skill:act/ninja/shuriken/hit
 #召喚士
 execute if entity @s[tag=PomPom] run function skill:act/summoner/pompom/hit
 #白魔導士
