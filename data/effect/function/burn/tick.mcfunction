@@ -5,8 +5,8 @@ execute if block ~ ~ ~ water run scoreboard players set @s BurnCount 0
 execute if entity @s[predicate=effect:fire_resistance] run scoreboard players set @s BurnCount 0
 
 #火だるまダメージ付与
-execute if score @s BurnCount matches 1.. run data modify storage score_damage: Argument set value {Damage:6,DamageType:[Fire],DeathCause:'[{"translate":"%1$sは%2$sになって焼け死んだ。","with":[{"selector":"@s"},{"interpret":true,"storage":"effect:","nbt":"BadEffectsName.Burn"}]}]'}
-execute if score @s BurnCount matches 1.. if entity @s[gamemode=!creative,gamemode=!spectator] run function score_damage:api/attack
+execute if score @s BurnCount matches 1.. run data modify storage entity: damage set value {physical:6,deathcause:'[{"translate":"%1$sは%2$sになって焼け死んだ。","with":[{"selector":"@s"},{"interpret":true,"storage":"effect:","nbt":"BadEffectsName.Burn"}]}]'}
+execute if score @s BurnCount matches 1.. if entity @s[gamemode=!creative,gamemode=!spectator] run function entity:damage/apply/
 
 execute if score @s BurnCount matches 1.. run function makeup:effect/burn/tick
 

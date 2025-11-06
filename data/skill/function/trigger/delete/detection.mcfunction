@@ -1,4 +1,7 @@
 #> skill:trigger/delete/detection
+#
+# スキル削除 アイテム検知・分岐
+#
 # @within function skill:trigger/
 
 # メインハンドのアイテム情報取得

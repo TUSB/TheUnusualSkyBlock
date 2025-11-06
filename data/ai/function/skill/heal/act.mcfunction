@@ -7,7 +7,7 @@ scoreboard players operation @s HP < @s HPMax
 scoreboard players set _ _ -1
 scoreboard players operation 00000000-0000-0000-0000-000000000000 StoredDamage = _ Calc
 scoreboard players operation 00000000-0000-0000-0000-000000000000 StoredDamage *= _ _
-execute anchored eyes positioned ^ ^ ^ as 0-0-0-0-0 run function enemy:show_damage/show
+execute anchored eyes positioned ^ ^ ^ as 0-0-0-0-0 run function enemy:damage/show/show
 ###演出
 execute at @s run function makeup:ai/skill/heal/get_heal
 

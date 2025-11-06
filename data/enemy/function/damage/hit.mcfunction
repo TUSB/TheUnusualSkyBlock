@@ -2,9 +2,9 @@
 # Hitダメージ 同期処理
 
 #CallOnDamage
-execute if entity @s[tag=CallOnDamage] unless entity @s[tag=NoAI] at @s run function ai:call/trigger/damage/
+execute if entity @s[tag=CallOnDamage] unless entity @s[tag=NoAI] unless entity @s[tag=SkillNoAI] at @s run function ai:call/trigger/damage/
 #ダメージ表示
-function enemy:show_damage/
+execute if entity @s[scores={StoredDamage=-2147483648..}] run function enemy:damage/show/
 
 #敵火だるま解除判定
 execute if entity @s[tag=EnemyBurn] run function effect:enemy_debuff/burn/cure_check

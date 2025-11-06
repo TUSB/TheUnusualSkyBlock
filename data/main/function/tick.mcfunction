@@ -9,6 +9,9 @@ function main:time/tick
 ### 1tick遅れ処理
 execute as @e[tag=DelayedTask] at @s run function main:task/delayed
 
+# -> 1秒処理
+execute if score $Ticks Count matches 0 run function main:one_second
+
 # エリア tick
 function area:tick
 
@@ -20,6 +23,8 @@ function entity:tick
 
 ### Mob tick
 execute as @e[tag=Mob] at @s run function enemy:tick
+### スポナーカート空気時処理
+execute as @e[tag=SpawnerHolder] at @s unless block ~ ~ ~ minecraft:spawner run function enemy:break_spawner/
 
   ### デバッグ用 ###
   execute if data storage main: difficult{world:"debug"} run function debug:ai/usage_rate_1

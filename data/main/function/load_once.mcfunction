@@ -57,7 +57,10 @@ scoreboard objectives add ConfuseCount dummy {"text":"混乱カウント"}
 scoreboard objectives add DoomCount dummy {"text":"死の宣告カウント"}
 scoreboard objectives add PalsyLevel dummy {"text":"麻痺レベル"}
 scoreboard objectives add TntCount dummy {"text":"トントカウント"}
+scoreboard objectives add VirusResistance dummy {"text":"病気耐性"}
+scoreboard objectives add VirusTimer dummy {"text":"病気タイマー"}
 scoreboard objectives add VirusCount dummy {"text":"病気カウント"}
+scoreboard objectives add FreezeResistance dummy {"text":"凍結耐性"}
 scoreboard objectives add FreezeTimer dummy {"text":"凍結タイマー"}
 scoreboard objectives add BurnResistance dummy {"text":"火だるま耐性"}
 scoreboard objectives add BurnTimer dummy {"text":"火だるまタイマー"}
@@ -77,7 +80,8 @@ scoreboard objectives add ShieldUsingTick dummy {"text":"盾を使用したtick"
 scoreboard objectives add Calc dummy {"text": "計算用"}
 scoreboard objectives add Random dummy {"text": "乱数用"}
 scoreboard objectives add TitleOffset dummy {"text":"タイトル表示オフセット"}
-scoreboard objectives add ArrowRotation dummy {"text":"矢の向き"}
+scoreboard objectives add ArrowMotionX dummy {"text":"矢の速度 X"}
+scoreboard objectives add ArrowMotionZ dummy {"text":"矢の速度 Z"}
 scoreboard objectives add ProjectileLife dummy {"text":"飛翔物生存時間"}
 
 ###ジョブ系
@@ -112,6 +116,7 @@ scoreboard objectives add OdinSlash dummy {"text":"斬鉄剣発動タイミン�
 scoreboard objectives add ReactiveLevel dummy {"text":"リアクティブヒールレベル"}
 scoreboard objectives add TacticalHeal dummy {"text":"タクティカルヒール持続確率"}
 #忍者
+scoreboard objectives add ShurikenPierceCount dummy {"text":"手裏剣貫通数"}
 scoreboard objectives add Choyaku dummy {"text":"跳躍跳躍力"}
 scoreboard objectives add ChoyakuLevel dummy {"text":"跳躍レベル"}
 scoreboard objectives add Aisatsu dummy {"text":"アイサツ消費MP減少効果量"}
@@ -123,8 +128,8 @@ scoreboard objectives add Suiton dummy {"text":"水遁"}
 scoreboard objectives add Issen dummy {"text":"一閃継続tick数"}
 scoreboard objectives add Isukumi dummy {"text":"居縮継続秒数"}
 scoreboard objectives add Kaishaku dummy {"text":"介錯残りtick数"}
-scoreboard objectives add SayonaraLevel dummy {"text":"サヨナラレベル"}
 scoreboard objectives add TsuremaiLevel dummy {"text":"連舞レベル"}
+scoreboard objectives add HyokaRyoranTimer dummy {"text":"氷華繚乱タイマー"}
 #狩人
 scoreboard objectives add PiercingAim dummy {"text":"ピアッシングエイム継続秒数"}
 scoreboard objectives add RaderVision dummy {"text":"レーダーヴィジョン継続tick数"}
@@ -132,6 +137,10 @@ scoreboard objectives add WildCooking dummy {"text":"ワイルドクッキング
 scoreboard objectives add WildHealing dummy {"text":"ワイルドヒーリングレベル"}
 scoreboard objectives add EnergySave dummy {"text":"エナジーセーブ消費MP減少効果量"}
 scoreboard objectives add BlastSpark dummy {"text":"ブラストスパーク継続tick数"}
+scoreboard objectives add Kasap dummy {"text":"ルカナントラップ継続秒数"}
+scoreboard objectives add KasapRatio dummy {"text":"ルカナントラップダメージ倍率"}
+#白魔導士
+scoreboard objectives add HaloBound dummy {"text":"ヘイローバウンド演出カウント"}
 #黒魔導士
 scoreboard objectives add EclipseRadius dummy {"text":"エクリプスフレイム半径"}
 scoreboard objectives add LightningBlow dummy {"text":"ライトニングブロー威力"}
@@ -238,9 +247,6 @@ scoreboard objectives add ActionTick dummy {"text":"行動時間"}
 scoreboard objectives add NextActionTick dummy {"text":"次の行動時間"}
 scoreboard objectives add BlinkSubTimer dummy {"text":"幻影発動時タイマー"}
 scoreboard objectives add ParentID dummy {"text":"親ID"}
-
-#ScoreDamage
-function score_damage:core/init
 
 #SmartMotion
 function smart_motion:core/load_once

@@ -16,9 +16,6 @@ tag @s[tag=Reraise] add Raise
 tag @s[tag=Reraise] remove Reraise
 execute if entity @s[tag=Raise] run function skill:act/white_mage/araise/raise
 
-# サヨナラ処理
-execute if score @s SayonaraLevel matches 1.. run function skill:act/ninja/sayonara/trigger/death
-
 #トグルスキル解除
 execute if entity @s[tag=!Raise] run function skill:toggle_reset
 
