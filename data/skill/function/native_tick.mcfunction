@@ -23,6 +23,9 @@ execute if entity @s[tag=StakesFire] run function makeup:skill/act/hunter/stakes
 # バードストライク
 execute if entity @s[tag=BirdStrike] run function skill:act/hunter/bird_strike/tick
 
+# ルカナントラップ
+execute if entity @s[tag=KasapTrap] run function skill:act/hunter/kasap_trap/tick
+
 ## 白魔導士
 # ヘイローバウンド
 execute if entity @s[tag=HaloBound] run function skill:act/white_mage/halo_bound/tick
