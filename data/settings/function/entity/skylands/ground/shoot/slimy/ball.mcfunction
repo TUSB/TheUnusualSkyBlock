@@ -1,9 +1,0 @@
-### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:snowball",CustomName:'{"translate":"スライミーボール","color":"#FFFFFF"}',PortalCooldown:80,Tags:[DelayedData,HasAI,CallOnInit,CallOnAttack,CooldownRequired,DamageProjectile,EnemyProjectile]}
-data modify storage tusb_mob: "即時ステータス"."見た目" set value {Item:{id:"minecraft:slime_ball",count:1}}
-### 遅延ステータス
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."物理攻撃力" set value 80
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."魔法攻撃力" set value 80
-data modify storage tusb_mob: "遅延ステータス"."ステータス"."理外攻撃力" set value 0
-# AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Settings:[{Name:"Rotation",Direction:[0f,-90f],Absolute:{Vertical:true}}],Name:"step",Speed:0.15d}],Attack:[{Condition:[{Name:"random_chance",Chance:0.25d}],Name:"function",Tags:[Skylands,Ground,Shoot,Slimy,Debuff1]},{Name:"kill"}],TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:10,Max:10,Current:10},Loop:{Max:1,Current:1},Call:[{Name:"merge_nbt",NBT:{NoGravity:true}},{Settings:[{Name:"Facing",Target:{Look:"Player",Radius:16d,IgnoreBlocks:true},Anchor:"Eyes"}],Name:"step",Speed:0.5d},{Name:"function",Tags:[Skylands,Ground,Shoot,Slimy,BallSound]}],Once:1}]}]}

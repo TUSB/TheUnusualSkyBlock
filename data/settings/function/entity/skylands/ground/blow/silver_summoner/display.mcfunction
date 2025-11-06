@@ -1,5 +1,0 @@
-### 即時ステータス
-data modify storage tusb_mob: "即時ステータス"."ベース" set value {id:"minecraft:block_display",transformation:{left_rotation:[0f,0f,0f,1f],right_rotation:[0f,0f,0f,1f],translation:[-0.4f,0f,-0.4f],scale:[0.8f,0.8f,0.8f]},Tags:[DelayedData,HasAI,CallOnInit]}
-data modify storage tusb_mob: "即時ステータス"."見た目" set value {block_state:{Name:"chiseled_stone_bricks"}}
-# AI
-data modify storage tusb_mob: "遅延ステータス".AI set value {Initial:[{Name:"function",Tags:[Global,Event,Function,CommonExe,TpWithXRotation]}],Passenger:{Type:"down",Check:false,Call:[{Name:"kill"}]},TurnCount:1,Turn:[{Index:1,Skill:[{Interval:{Min:300,Max:600,Current:100},Loop:{Max:1,Current:1},Call:[{}]},{Interval:{Min:20,Max:20,Current:20},Loop:{Max:1,Current:3,Range:2},Call:[{Condition:[{Name:"has_target",Target:{Look:"Player",Radius:16d,IgnoreBlocks:true}}],Settings:[{Name:"Direction",Direction:[-180f,-15f],DirectionRange:[360f,15f],Speed:3d,SpeedRange:3d,Absolute:{Vertical:true}}],Name:"function",Tags:[Skylands,Ground,Blow,SilverSummoner,DisplaySummon]}]}]}]}
