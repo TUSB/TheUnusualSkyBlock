@@ -1,9 +1,0 @@
-execute if entity @s[tag=AssaultWarden] run function settings:enemy/global/ground/shoot/assault_warden/
-execute if entity @s[tag=FakeWarden] run function settings:enemy/global/ground/shoot/fake_warden/
-execute if entity @s[tag=BananaGarbager] run function settings:enemy/global/ground/shoot/banana_garbager/
-execute if entity @s[tag=CrimzonWizard] run function settings:enemy/global/ground/shoot/crimzon_wizard/
-execute if entity @s[tag=Shotzo] run function settings:enemy/global/ground/shoot/shotzo/
-execute if entity @s[tag=Menicles] run function settings:enemy/global/ground/shoot/menicles/
-execute if entity @s[tag=AngryCherryTree] run function settings:enemy/global/ground/shoot/angry_cherry_tree/
-execute if entity @s[tag=MineCrafter] run function settings:enemy/global/ground/shoot/mine_crafter/
-execute if entity @s[tag=CommonParticle] run function settings:enemy/global/ground/shoot/common_particle/

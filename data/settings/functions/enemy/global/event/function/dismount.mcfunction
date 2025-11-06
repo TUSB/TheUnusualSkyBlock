@@ -1,2 +1,0 @@
-#Function
-ride @s dismount
