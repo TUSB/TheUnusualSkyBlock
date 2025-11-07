@@ -67,6 +67,9 @@ scoreboard objectives add BurnTimer dummy {"text":"火だるまタイマー"}
 scoreboard objectives add BurnCount dummy {"text":"火だるまカウント"}
 scoreboard objectives add ElectrificationResistance dummy {"text":"帯電耐性"}
 scoreboard objectives add ElectrificationTimer dummy {"text":"帯電カウント"}
+scoreboard objectives add FearResistance dummy {"text":"畏怖耐性"}
+scoreboard objectives add FearTimer dummy {"text":"畏怖タイマー"}
+scoreboard objectives add FearInterval dummy {"text":"畏怖インターバル"}
 scoreboard objectives add CurseResistance dummy {"text":"呪蝕耐性"}
 scoreboard objectives add CurseTimer dummy {"text":"呪蝕タイマー"}
 scoreboard objectives add GameTime dummy {"text":"ゲームタイム"}
