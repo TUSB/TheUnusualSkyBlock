@@ -19,4 +19,4 @@ scoreboard players remove @s WildCooking 1
 kill @s[scores={WildCooking=..0}]
 
 # 演出
-execute if score $Tick Count matches 0 run function makeup:skill/act/hunter/wild_cooking/tick
+execute if score $Ticks Count matches 0 run function makeup:skill/act/hunter/wild_cooking/tick
