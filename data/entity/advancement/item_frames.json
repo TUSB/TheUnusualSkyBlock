@@ -1,0 +1,47 @@
+{
+  "criteria": {
+    "item_frame": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type_specific": {
+                "type": "player",
+                "looking_at": {
+                  "type": "#entity:item_frames",
+                  "nbt": "{Invulnerable:true}"
+                }
+              }
+            }
+          },
+          {
+            "condition": "inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "gamemode": [
+                    "adventure"
+                  ]
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "item_frame"
+    ]
+  ],
+  "rewards": {
+    "function": "entity:item_frame_destroy/item_frames"
+  }
+}

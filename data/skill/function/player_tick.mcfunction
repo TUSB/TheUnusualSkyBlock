@@ -37,3 +37,7 @@ execute if entity @s[scores={Kaishaku=0..}] run function skill:act/ninja/kaishak
 
 # 氷華繚乱
 execute if score @s HyokaRyoranTimer matches 0.. run function skill:act/ninja/hyoka_ryoran/tick
+
+## 狩人
+# ブラストスパーク
+execute if entity @s[scores={BlastSpark=1..}] anchored eyes positioned ^ ^ ^-0.1 run function skill:act/hunter/blast_spark/tick

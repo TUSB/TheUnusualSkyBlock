@@ -67,6 +67,9 @@ scoreboard objectives add BurnTimer dummy {"text":"火だるまタイマー"}
 scoreboard objectives add BurnCount dummy {"text":"火だるまカウント"}
 scoreboard objectives add ElectrificationResistance dummy {"text":"帯電耐性"}
 scoreboard objectives add ElectrificationTimer dummy {"text":"帯電カウント"}
+scoreboard objectives add FearResistance dummy {"text":"畏怖耐性"}
+scoreboard objectives add FearTimer dummy {"text":"畏怖タイマー"}
+scoreboard objectives add FearInterval dummy {"text":"畏怖インターバル"}
 scoreboard objectives add CurseResistance dummy {"text":"呪蝕耐性"}
 scoreboard objectives add CurseTimer dummy {"text":"呪蝕タイマー"}
 scoreboard objectives add GameTime dummy {"text":"ゲームタイム"}
@@ -113,6 +116,7 @@ scoreboard objectives add OdinSlash dummy {"text":"斬鉄剣発動タイミン�
 scoreboard objectives add ReactiveLevel dummy {"text":"リアクティブヒールレベル"}
 scoreboard objectives add TacticalHeal dummy {"text":"タクティカルヒール持続確率"}
 #忍者
+scoreboard objectives add ShurikenPierceCount dummy {"text":"手裏剣貫通数"}
 scoreboard objectives add Choyaku dummy {"text":"跳躍跳躍力"}
 scoreboard objectives add ChoyakuLevel dummy {"text":"跳躍レベル"}
 scoreboard objectives add Aisatsu dummy {"text":"アイサツ消費MP減少効果量"}
@@ -133,6 +137,8 @@ scoreboard objectives add WildCooking dummy {"text":"ワイルドクッキング
 scoreboard objectives add WildHealing dummy {"text":"ワイルドヒーリングレベル"}
 scoreboard objectives add EnergySave dummy {"text":"エナジーセーブ消費MP減少効果量"}
 scoreboard objectives add BlastSpark dummy {"text":"ブラストスパーク継続tick数"}
+scoreboard objectives add Kasap dummy {"text":"ルカナントラップ継続秒数"}
+scoreboard objectives add KasapRatio dummy {"text":"ルカナントラップダメージ倍率"}
 #白魔導士
 scoreboard objectives add HaloBound dummy {"text":"ヘイローバウンド演出カウント"}
 #黒魔導士
@@ -241,9 +247,6 @@ scoreboard objectives add ActionTick dummy {"text":"行動時間"}
 scoreboard objectives add NextActionTick dummy {"text":"次の行動時間"}
 scoreboard objectives add BlinkSubTimer dummy {"text":"幻影発動時タイマー"}
 scoreboard objectives add ParentID dummy {"text":"親ID"}
-
-#ScoreDamage
-function score_damage:core/init
 
 #SmartMotion
 function smart_motion:core/load_once

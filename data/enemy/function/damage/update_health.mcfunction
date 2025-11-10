@@ -2,6 +2,10 @@
 #AbsorptionAmountの変化を取得
 execute store result score @s Damage run data get entity @s AbsorptionAmount -1
 scoreboard players add @s Damage 2048
+
+# ルカナン処理
+execute if entity @s[tag=Kasap] run function skill:act/hunter/kasap_trap/apply
+
 #AbsorptionAmountを2048に戻す
 data modify entity @s AbsorptionAmount set value 2048f
 # 累積ダメージ
