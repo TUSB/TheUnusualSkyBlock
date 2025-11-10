@@ -1,4 +1,4 @@
-#> skill:act/hunter/blast_spark/hit0
+#> skill:act/hunter/blast_spark/hit
 #
 # ブラストスパークヒット
 
