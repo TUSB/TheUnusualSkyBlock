@@ -9,7 +9,7 @@
           "functions": [
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{WildCooking:1b,display:{Name:'{\"text\":\"こんがり肉\",\"color\":\"aqua\",\"italic\":false}'}}"
+              "tag": "{WildCooking:1b,display:{Name:'{\"translate\":\"こんがり肉\",\"color\":\"aqua\",\"italic\":false}'}}"
             }
           ]
         },
@@ -19,7 +19,7 @@
           "functions": [
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{WildCooking:1b,display:{Name:'{\"text\":\"ごった煮スープ\",\"color\":\"aqua\",\"italic\":false}'}}"
+              "tag": "{WildCooking:1b,display:{Name:'{\"translate\":\"ごった煮スープ\",\"color\":\"aqua\",\"italic\":false}'}}"
             }
           ]
         },
@@ -29,7 +29,7 @@
           "functions": [
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{WildCooking:1b,display:{Name:'{\"text\":\"マナのクッキー\",\"color\":\"aqua\",\"italic\":false}'}}"
+              "tag": "{WildCooking:1b,display:{Name:'{\"translate\":\"マナのクッキー\",\"color\":\"aqua\",\"italic\":false}'}}"
             }
           ]
         },
@@ -39,7 +39,7 @@
           "functions": [
             {
               "function": "minecraft:set_custom_data",
-              "tag": "{WildCooking:1b,display:{Name:'{\"text\":\"ハニータルト\",\"color\":\"aqua\",\"italic\":false}'}}"
+              "tag": "{WildCooking:1b,display:{Name:'{\"translate\":\"ハニータルト\",\"color\":\"aqua\",\"italic\":false}'}}"
             }
           ]
         }
