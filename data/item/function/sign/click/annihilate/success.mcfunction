@@ -10,8 +10,8 @@
 
 # プレイヤー全滅処理
 # レーダー・ヴィジョンを使っている奴も許さない
-    execute as @a[distance=..12,scores={RaderVision=-2147483648..2147483647}] run tag @s add NowTarget
-    execute as @a[distance=..12,scores={RaderVision=-2147483648..2147483647}] run function skill:act/hunter/rader_vision/return0
+    execute as @a[distance=..12,scores={RadarVision=-2147483648..2147483647}] run tag @s add NowTarget
+    execute as @a[distance=..12,scores={RadarVision=-2147483648..2147483647}] run function skill:act/hunter/radar_vision/return0
     data remove storage entity: damage
     data modify storage entity: damage set value {unreasonable:9999,deathcause:'{"translate":"君は次の自分に思いを託して、跡形もなく消し飛んだ。","color":"#BD0000","bold":true}'}
     execute as @a[distance=..12,predicate=entity:player,tag=!NowTarget] run function entity:damage/apply/

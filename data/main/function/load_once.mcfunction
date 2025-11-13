@@ -132,7 +132,7 @@ scoreboard objectives add TsuremaiLevel dummy {"text":"連舞レベル"}
 scoreboard objectives add HyokaRyoranTimer dummy {"text":"氷華繚乱タイマー"}
 #狩人
 scoreboard objectives add PiercingAim dummy {"text":"ピアッシングエイム継続秒数"}
-scoreboard objectives add RaderVision dummy {"text":"レーダーヴィジョン継続tick数"}
+scoreboard objectives add RadarVision dummy {"text":"レーダーヴィジョン継続tick数"}
 scoreboard objectives add WildCooking dummy {"text":"ワイルドクッキング継続秒数"}
 scoreboard objectives add WildHealing dummy {"text":"ワイルドヒーリングレベル"}
 scoreboard objectives add EnergySave dummy {"text":"エナジーセーブ消費MP減少効果量"}
