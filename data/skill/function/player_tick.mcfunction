@@ -41,3 +41,6 @@ execute if score @s HyokaRyoranTimer matches 0.. run function skill:act/ninja/hy
 ## 狩人
 # ブラストスパーク
 execute if entity @s[scores={BlastSpark=1..}] anchored eyes positioned ^ ^ ^-0.1 run function skill:act/hunter/blast_spark/tick
+
+# レーダーヴィジョン
+execute if entity @s[scores={RadarVision=1..}] run function skill:act/hunter/radar_vision/tick
