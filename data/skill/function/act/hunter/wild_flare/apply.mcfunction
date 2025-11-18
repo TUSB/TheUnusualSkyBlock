@@ -11,4 +11,4 @@ execute if score @s Level matches 3 run data modify storage skill: damage set fr
 
 # 対象となる敵側でダメージ処理を実行
 data modify storage skill: damage.hit set value 0b
-execute positioned ~-1 ~-1 ~-1 as @e[dx=1,dy=1,dz=1,tag=Enemy] run function skill:act/hunter/wild_flare/apply_enemy
+execute positioned ~-1 ~-1 ~-1 as @e[dx=1,dy=1,dz=1,tag=Enemy] at @s run function skill:act/hunter/wild_flare/apply_enemy

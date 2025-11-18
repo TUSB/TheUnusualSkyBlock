@@ -2,8 +2,9 @@
 #
 # ワイルドフレア ダメージ・インターバル付与
 
-# ダメージを付与
+# ダメージ・デバフを付与
 function skill:damage/apply/
+function effect:enemy_debuff/burn/apply
 
 # インターバル付与
 tag @s add WildFlareInterval
