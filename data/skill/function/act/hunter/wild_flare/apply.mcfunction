@@ -1,4 +1,4 @@
-#> skill:act/hunter/wild_flare/tick_mob
+#> skill:act/hunter/wild_flare/apply
 #
 # ワイルドフレア ダメージ付与
 #
@@ -9,6 +9,6 @@ execute if score @s Level matches 1 run data modify storage skill: damage set fr
 execute if score @s Level matches 2 run data modify storage skill: damage set from storage skill: Data.Hunter[{Name:"ワイルドフレア",Level:2}].Damage
 execute if score @s Level matches 3 run data modify storage skill: damage set from storage skill: Data.Hunter[{Name:"ワイルドフレア",Level:3}].Damage
 
-# 対象となるモブにダメージを入れる
+# 対象となる敵側でダメージ処理を実行
 data modify storage skill: damage.hit set value 0b
-execute positioned ~-1 ~-1 ~-1 as @e[dx=1,dy=1,dz=1,tag=Enemy] run function skill:damage/apply/
+execute positioned ~-1 ~-1 ~-1 as @e[dx=1,dy=1,dz=1,tag=Enemy] run function skill:act/hunter/wild_flare/apply_enemy
