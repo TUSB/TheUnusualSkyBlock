@@ -28,6 +28,8 @@ execute if entity @s[tag=BlastSpark] run function makeup:skill/act/hunter/blast_
 execute if entity @s[tag=KasapTrap] run function skill:act/hunter/kasap_trap/tick
 # ボミオストラップ
 execute if entity @s[tag=DecelerateTrap] run function skill:act/hunter/decelerate_trap/tick
+# ワイルドフレア
+execute if entity @s[tag=WildFlare] run function skill:act/hunter/wild_flare/tick
 
 ## 白魔導士
 # ヘイローバウンド
