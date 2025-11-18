@@ -9,7 +9,11 @@
           "functions": [
             {
               "function": "minecraft:set_name",
-              "name": {"translate":"こんがり肉","color":"aqua","italic":false}
+              "name": {
+                "translate": "こんがり肉",
+                "color": "aqua",
+                "italic": false
+              }
             },
             {
               "function": "minecraft:set_custom_data",
@@ -21,9 +25,13 @@
           "type": "minecraft:item",
           "name": "minecraft:rabbit_stew",
           "functions": [
-                        {
+            {
               "function": "minecraft:set_name",
-              "name": {"translate":"ごった煮スープ","color":"aqua","italic":false}
+              "name": {
+                "translate": "ごった煮スープ",
+                "color": "aqua",
+                "italic": false
+              }
             },
             {
               "function": "minecraft:set_custom_data",
@@ -37,7 +45,11 @@
           "functions": [
             {
               "function": "minecraft:set_name",
-              "name": {"translate":"マナのクッキー","color":"aqua","italic":false}
+              "name": {
+                "translate": "マナのクッキー",
+                "color": "aqua",
+                "italic": false
+              }
             },
             {
               "function": "minecraft:set_custom_data",
@@ -51,7 +63,11 @@
           "functions": [
             {
               "function": "minecraft:set_name",
-              "name": {"translate":"ハニータルト","color":"aqua","italic":false}
+              "name": {
+                "translate": "ハニータルト",
+                "color": "aqua",
+                "italic": false
+              }
             },
             {
               "function": "minecraft:set_custom_data",
