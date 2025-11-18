@@ -24,6 +24,8 @@ execute if entity @s[tag=StakesFire] run function makeup:skill/act/hunter/stakes
 execute if entity @s[tag=BirdStrike] run function skill:act/hunter/bird_strike/tick
 # ブラストスパーク
 execute if entity @s[tag=BlastSpark] run function makeup:skill/act/hunter/blast_spark/direction
+# フォトニックレーザー
+execute if entity @s[tag=PhotonicLaser] run function skill:act/hunter/photonic_laser/check_interval
 # ルカナントラップ
 execute if entity @s[tag=KasapTrap] run function skill:act/hunter/kasap_trap/tick
 # ボミオストラップ
