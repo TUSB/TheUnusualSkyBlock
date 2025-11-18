@@ -22,6 +22,8 @@ execute if entity @s[tag=EnemyFreeze] positioned ~ ~-0.001 ~ if predicate effect
 ## 狩人
 # ルカナントラップ
 execute if entity @s[scores={Kasap=1..}] run function skill:act/hunter/kasap_trap/enemy_tick
+# ボミオストラップ
+execute if entity @s[scores={Decelerate=1..}] run function skill:act/hunter/decelerate_trap/enemy_tick
 
 # Mob Hitダメージ
 execute if entity @s[tag=HitDamageTaken] run function enemy:damage/hit
