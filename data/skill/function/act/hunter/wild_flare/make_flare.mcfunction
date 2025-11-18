@@ -3,7 +3,7 @@
 # ワイルドフレア拡散準備
 
 # ループカウント設定
-scoreboard players set _ Count 1
+scoreboard players set _ Count 30
 
 # 矢召喚
 function skill:act/hunter/wild_flare/make_flare_loop
