@@ -5,6 +5,9 @@ execute if score $Ticks Count matches 0 run function enemy:one_second
 ## 忍者
 # 居縮
 execute if entity @s[scores={Isukumi=1..}] run function skill:act/ninja/isukumi/tick
+## 狩人
+# ワイルドフレア
+execute if entity @s[tag=WildFlareInterval] run function skill:act/hunter/wild_flare/tick_enemy
 
 ### Mob自然ダメージ反映
 execute if entity @s[nbt=!{AbsorptionAmount:2048f}] run function enemy:damage/natural
