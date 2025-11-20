@@ -22,6 +22,8 @@ execute if entity @s[tag=HyokaRyoranDisplay] run function skill:act/ninja/hyoka_
 execute if entity @s[tag=StakesFire] run function makeup:skill/act/hunter/stakes_fire/tick
 # バードストライク
 execute if entity @s[tag=BirdStrike] run function skill:act/hunter/bird_strike/tick
+# ワイルドクッキング
+execute if entity @s[tag=WildCooking] run function skill:act/hunter/wild_cooking/tick
 # ブラストスパーク
 execute if entity @s[tag=BlastSpark] run function makeup:skill/act/hunter/blast_spark/direction
 # ルカナントラップ
