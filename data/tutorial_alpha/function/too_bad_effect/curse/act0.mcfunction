@@ -1,0 +1,5 @@
+#> tutorial_alpha:too_bad_effect/curse/act0
+
+tellraw @s ["",{"translate":"[チュートリアル：%1$s]","bold":true,"with":[{"translate":"特殊デバフ：%1$s","with":[{"interpret":true,"storage":"effect:","nbt":"BadEffectsName.Curse"}]}]},"\n",{"translate":"%1$sのデバフ。\n死亡時にアイテムが%2$sする。\n%3$sを服用すると解除できる。","color":"white","with":[{"translate":"闇属性","color":"dark_purple"},{"translate":"全て消滅","color":"dark_red"},{"translate":"聖水","color":"aqua"}]}]
+
+function makeup:tutorial_alpha/sound
