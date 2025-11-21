@@ -16,7 +16,6 @@ scoreboard players operation _ _ -= _ Level
 scoreboard players operation _ Calc /= _ _
 scoreboard players set _ _ 20
 scoreboard players operation _ Calc += _ _
-tellraw @a [{"score":{"name":"_","objective":"Calc"}}]
 
 # 計算結果を保存
 execute store result entity @e[tag=ExpelTrap,tag=!Initialized,distance=0,limit=1] RadiusOnUse float 1 run scoreboard players get _ Calc
