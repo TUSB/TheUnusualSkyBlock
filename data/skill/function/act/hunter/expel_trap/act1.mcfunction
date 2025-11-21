@@ -18,7 +18,7 @@ scoreboard players set _ _ 20
 scoreboard players operation _ Calc += _ _
 
 # 計算結果を保存
-execute store result entity @e[tag=ExpelTrap,tag=!Initialized,distance=0,limit=1] RadiusOnUse float 1 run scoreboard players get _ Calc
+execute store result score @e[tag=ExpelTrap,tag=!Initialized,distance=0,limit=1] Level run scoreboard players get _ Calc
 
 # 演出
 function makeup:skill/act/hunter/expel_trap/act0

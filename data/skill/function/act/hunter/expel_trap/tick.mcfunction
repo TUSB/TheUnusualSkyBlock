@@ -3,7 +3,7 @@
 # ニフラムトラップ毎tick処理
 
 # 計算結果を取得
-execute store result score _ Calc run data get entity @s RadiusOnUse
+execute store result score _ Calc run scoreboard players get @s Level
 
 # レベルが計算結果以下の敵を消滅
 execute as @e[tag=Enemy,distance=..5] unless score _ Calc < @s Level positioned as @s run function skill:act/hunter/expel_trap/apply
