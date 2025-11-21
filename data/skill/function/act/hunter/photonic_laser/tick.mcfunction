@@ -6,7 +6,6 @@
 # インターバルリセット
 scoreboard players set @s Interval 2
 execute store result score _ _ run data get entity @s PortalCooldown
-tellraw @a [{"score":{"name":"_","objective":"_"}}]
 
 # マーカー設置
 execute facing ^ ^ ^-1 run function calc:geometry/tp_00000
