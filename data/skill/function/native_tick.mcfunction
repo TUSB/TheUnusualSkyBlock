@@ -36,3 +36,7 @@ execute if entity @s[tag=DecelerateTrap] run function skill:act/hunter/decelerat
 ## 白魔導士
 # ヘイローバウンド
 execute if entity @s[tag=HaloBound] run function skill:act/white_mage/halo_bound/tick
+
+## トラップ
+# ニフラムトラップ
+execute if entity @s[tag=ExpelTrap] run function skill:act/hunter/expel_trap/tick
