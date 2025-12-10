@@ -2,9 +2,9 @@
 #
 # バオル発動演出
 
-playsound minecraft:ambient.underwater.exit master @a[distance=..16] ~ ~ ~ 1 0
-playsound minecraft:block.fire.ambient master @a[distance=..16] ~ ~ ~ 3 0
-playsound minecraft:block.lava.pop master @a[distance=..16] ~ ~ ~ 1 1
+playsound minecraft:ambient.underwater.exit player @a[distance=..16] ~ ~ ~ 1 0
+playsound minecraft:block.fire.ambient player @a[distance=..16] ~ ~ ~ 3 0
+playsound minecraft:block.lava.pop player @a[distance=..16] ~ ~ ~ 1 1
 particle minecraft:lava ~ ~ ~ 0.4 0 0.4 1 10 force
 particle minecraft:splash ~ ~0.5 ~ 0.6 0.2 0.6 0 100 force
 summon minecraft:area_effect_cloud ~ ~ ~ {Particle:{type:"entity_effect",color:-28416},ReapplicationDelay:40,Radius:2.4f,Duration:10}
