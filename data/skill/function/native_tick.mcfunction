@@ -34,6 +34,8 @@ execute if entity @s[tag=KasapTrap] run function skill:act/hunter/kasap_trap/tic
 execute if entity @s[tag=DecelerateTrap] run function skill:act/hunter/decelerate_trap/tick
 
 ## 白魔導士
+# レイズ
+execute if entity @s[tag=RaisePoint] run function makeup:skill/act/white_mage/araise/tick
 # ヘイローバウンド
 execute if entity @s[tag=HaloBound] run function skill:act/white_mage/halo_bound/tick
 
