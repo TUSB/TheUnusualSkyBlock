@@ -1,5 +1,6 @@
-
-### セイクリッドピラーダメージなし
+#> makeup:skill/act/white_mage/sacred_pillar/failure
+#
+# セイクリッドピラーダメージなし
 
 execute as @a[distance=0..] at @s run playsound minecraft:block.beacon.deactivate master @s ~ ~ ~ 2 0.72
 

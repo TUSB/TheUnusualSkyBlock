@@ -1,3 +1,4 @@
+#> makeup:skill/act/white_mage/sacred_pillar/tick/level2
 
 execute rotated ~ 0 run particle minecraft:instant_effect ^ ^ ^3.5 0 4 0 0 5 force @a[tag=ShowParticles]
 execute rotated ~60 0 run particle minecraft:instant_effect ^ ^ ^3.5 0 4 0 0 5 force @a[tag=ShowParticles]
