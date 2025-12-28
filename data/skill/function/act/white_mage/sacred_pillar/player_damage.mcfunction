@@ -1,5 +1,7 @@
+#> skill:act/white_mage/sacred_pillar/player_damage
+
 # 代償ダメージ
-execute store result score _ Calc run attribute @s minecraft:generic.max_health get 25
+execute store result score _ Calc run attribute @s minecraft:max_health get 25
 execute store result score _ _ run data get entity @s AbsorptionAmount 25
 scoreboard players operation _ Calc += _ _
 

@@ -1,9 +1,10 @@
-
-### セイクリッドピラー発動
+#> skill:act/white_mage/sacred_pillar/act1
+#
+# セイクリッドピラー発動
 
 
 # 現在体力の最大値 + 衝撃吸収での体力値(x10)
-execute store result score _ Calc run attribute @s minecraft:generic.max_health get 10
+execute store result score _ Calc run attribute @s minecraft:max_health get 10
 execute store result score _ _ run data get entity @s AbsorptionAmount 10
 scoreboard players operation _ Calc += _ _
 
@@ -49,9 +50,9 @@ scoreboard players operation _ MagicAttack = @s _
 scoreboard players operation _ MagicAttack += _ Calc
 
 # 倍率制限
-execute if score _ SpecialAttack matches 3001.. run scoreboard players set _ SpecialAttack 3000
+execute if score _ MagicAttack matches 3001.. run scoreboard players set _ MagicAttack 3000
 
-#ダメージあれば成功
+# ダメージあれば成功
 execute if score _ MagicAttack matches ..0 run function makeup:skill/act/white_mage/sacred_pillar/failure
 execute if score _ MagicAttack matches ..0 run data modify storage skill: Success set value 0b
 execute if score _ MagicAttack matches 1.. run summon minecraft:area_effect_cloud ~ ~ ~ {Tags:[Skill,SacredPillar,NativeTask],Duration:1}
