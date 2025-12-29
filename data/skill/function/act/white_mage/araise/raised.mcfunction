@@ -9,8 +9,9 @@ data modify storage anywhere: function set value "skill:act/hunter/radar_vision/
 function #anywhere:run
 
 # 復活酔いを付与
-#function effect:revival_sickness/apply
+function effect:player_debuff/revival_sickness/apply
 
+# 演出用エンティティを削除
 execute at @s run kill @e[tag=RaisePoint,limit=1,sort=nearest]
 
 # 演出
