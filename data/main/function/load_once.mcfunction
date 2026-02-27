@@ -140,6 +140,7 @@ scoreboard objectives add BlastSpark dummy {"text":"ブラストスパーク継�
 scoreboard objectives add Kasap dummy {"text":"ルカナントラップ継続秒数"}
 scoreboard objectives add KasapRatio dummy {"text":"ルカナントラップダメージ倍率"}
 scoreboard objectives add Decelerate dummy {"text":"ボミオストラップ継続秒数"}
+scoreboard objectives add WildFlareInterval dummy {"text":"ワイルドフレアダメージインターバル"}
 #白魔導士
 scoreboard objectives add HaloBound dummy {"text":"ヘイローバウンド演出カウント"}
 #黒魔導士
