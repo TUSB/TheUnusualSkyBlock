@@ -18,7 +18,8 @@ scoreboard players operation _ _ /= _ MagicDefense
 execute store result score _ Calc run data get storage entity:_ damage.value 100
 
 # Shieldの処理を入れる
-# scoreboard players operation _ Calc -= @s Sheild?
+scoreboard players operation _ Calc -= @s Shield
+execute if score _ Calc matches ..-1 run scoreboard players set _ Calc 0
 execute store result storage entity:_ damage.value double 0.0001 run scoreboard players operation _ Calc *= _ _
 
 # core処理を実行
