@@ -1,8 +1,6 @@
 #> effect:bad_effects
 ###免疫発動
 
-say a
-
 execute if predicate effect:resist run function makeup:effect/bad_effects
 scoreboard players set @s ResistLock 0
 
