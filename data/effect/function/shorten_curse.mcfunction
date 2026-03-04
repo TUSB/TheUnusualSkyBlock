@@ -1,8 +1,6 @@
 #> effect:shorten_curse
 ### ガーディアンの呪いカスタマイズ
 
-say shorten
-
 ###進捗トリガーリセット
 effect clear @s minecraft:mining_fatigue
 advancement revoke @s only effect:shorten_curse
