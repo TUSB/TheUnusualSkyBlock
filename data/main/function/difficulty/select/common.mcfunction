@@ -14,3 +14,6 @@ schedule function main:difficulty/select/end 13t replace
 
 # 難易度変更演出
 function makeup:main/difficulty/select/common
+
+# 状態異常耐性の減少量更新
+function settings:effect/resist
