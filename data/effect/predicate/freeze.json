@@ -16,7 +16,10 @@
         "condition": "minecraft:location_check",
         "predicate": {
           "block": {
-            "blocks": "#effect:melt_ice"
+            "blocks": "#minecraft:campfires",
+            "state": {
+              "lit": "true"
+            }
           }
         }
       },
