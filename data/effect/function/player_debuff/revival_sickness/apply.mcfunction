@@ -13,7 +13,8 @@ execute if data storage main: difficult{world:"casual"} run scoreboard players s
 execute if data storage main: difficult{world:"expert"} run scoreboard players set @s RevivalSicknessTimer 8
 
 # マルチなら効果時間2倍
-execute if entity @a[distance=0.01..] run scoreboard players operation _ _ *= _ Calc
+execute store result score @s _ if entity @a
+execute if score @s _ matches 2.. run scoreboard players operation _ _ *= _ Calc
 
 # 倍率を掛ける
 scoreboard players operation @s RevivalSicknessTimer *= _ _
