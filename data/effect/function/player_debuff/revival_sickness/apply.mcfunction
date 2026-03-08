@@ -7,7 +7,8 @@ scoreboard players set _ _ 1
 scoreboard players set _ Calc 2
 execute if score @s RevivalSicknessTimer matches 1.. run scoreboard players operation _ _ *= _ Calc
 
-# 持続時間を設定 難易度で効果時間が変化（ピクニック:2s、カジュアル:4s、エキスパート:8s）
+# 持続時間を設定 難易度で効果時間が変化（デバッグ:0s、ピクニック:2s、カジュアル:4s、エキスパート:8s）
+execute if data storage main: difficult{world:"debug"} run scoreboard players set @s RevivalSicknessTimer 0
 execute if data storage main: difficult{world:"picnic"} run scoreboard players set @s RevivalSicknessTimer 2
 execute if data storage main: difficult{world:"casual"} run scoreboard players set @s RevivalSicknessTimer 4
 execute if data storage main: difficult{world:"expert"} run scoreboard players set @s RevivalSicknessTimer 8
