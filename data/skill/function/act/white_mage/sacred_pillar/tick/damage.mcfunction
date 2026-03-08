@@ -2,8 +2,6 @@
 #
 # セイクリッドピラー発動中
 
-scoreboard players reset @s _
-
 # ダメージ
 function skill:damage/load
 execute if score @s Level matches 1 store success score @s _ positioned ~-2.5 ~-4 ~-2.5 as @e[dx=4,dy=8,dz=4,tag=Enemy] run function skill:act/white_mage/sacred_pillar/tick/return

@@ -4,12 +4,16 @@
 
 execute store result score _ Interval run data get entity @s Duration
 
+#成功フラグリセット
+
+scoreboard players reset @s _
+
 # ダメージ
 scoreboard players remove @s Interval 1
 execute unless score @s Interval matches 1.. run function skill:act/white_mage/sacred_pillar/tick/damage
 
 # 消滅演出
-execute store result entity @s Duration int 1 run scoreboard players get _ Interval
+execute if score @s _ matches 1 store result entity @s Duration int 1 run scoreboard players get _ Interval
 execute if score _ Interval matches ..1 run function makeup:skill/act/white_mage/sacred_pillar/failure
 
 # 演出
