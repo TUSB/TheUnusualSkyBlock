@@ -3,7 +3,7 @@
 # 敵凍結付与
 
 # 解除条件を満たしていれば失敗
-execute unless predicate effect:freeze run return fail
+execute if predicate effect:freeze run return fail
 execute positioned ~ ~-0.001 ~ if predicate effect:magma_block run return fail
 execute if score @s BurnTimer matches 1.. run return fail
 
