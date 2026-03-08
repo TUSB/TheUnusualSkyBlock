@@ -43,6 +43,7 @@ scoreboard objectives add StoredDamage dummy {"text":"累積ダメージ"}
 scoreboard objectives add Health health {"text":"HP"}
 scoreboard objectives setdisplay below_name Health
 scoreboard objectives add NativeFlag dummy {"text":"常時実行フラグ"}
+scoreboard objectives add Shield dummy {"text": "Shield"}
 
 ###アイテム
 scoreboard objectives add EnchantLevel dummy {"text":"エンチャントレベル"}
