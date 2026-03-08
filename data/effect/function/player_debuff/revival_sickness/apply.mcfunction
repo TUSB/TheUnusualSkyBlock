@@ -4,8 +4,7 @@
 
 # 効果中なら効果時間2倍
 scoreboard players set _ _ 1
-scoreboard players set _ Calc 2
-execute if score @s RevivalSicknessTimer matches 1.. run scoreboard players operation _ _ *= _ Calc
+execute if score @s RevivalSicknessTimer matches 1.. run scoreboard players operation _ _ += _ _
 
 # 持続時間を設定 難易度で効果時間が変化（デバッグ:0s、ピクニック:2s、カジュアル:4s、エキスパート:8s）
 execute if data storage main: difficult{world:"debug"} run scoreboard players set @s RevivalSicknessTimer 0
@@ -15,7 +14,7 @@ execute if data storage main: difficult{world:"expert"} run scoreboard players s
 
 # マルチなら効果時間2倍
 execute store result score @s _ if entity @a
-execute if score @s _ matches 2.. run scoreboard players operation _ _ *= _ Calc
+execute if score @s _ matches 2.. run scoreboard players operation _ _ += _ _
 
 # 倍率を掛ける
 scoreboard players operation @s RevivalSicknessTimer *= _ _
