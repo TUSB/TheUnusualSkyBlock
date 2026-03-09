@@ -1,4 +1,5 @@
 #> player:burst/bar/warn
+# バーストゲージ消失前演出
 
-$execute if score @s BurstTimer matches 1..5 run bossbar set burst:$(id) color red
-$execute unless score @s BurstTimer matches 1..5 run bossbar set burst:$(id) color white
+function player:burst/bar/common
+function player:burst/bar/macro/warn with storage tusb_player: burst

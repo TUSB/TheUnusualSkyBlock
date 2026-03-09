@@ -24,5 +24,4 @@ team join Friendly
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].SkillShortcut set value [{Skill:"<未設定>"},{Skill:"<未設定>"},{Skill:"<未設定>"},{Skill:"<未設定>"},{Skill:"<未設定>"},{Skill:"<未設定>"}]
 
 # バースト初期化
-execute store result storage tusb_player: burst.id int 1 run scoreboard players get @s OhMyDatID
-function player:burst/bar/init with storage tusb_player: burst
+function player:burst/bar/init
