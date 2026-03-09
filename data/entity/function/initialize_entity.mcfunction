@@ -45,6 +45,9 @@ data modify entity @s[type=#entity:item_frames] Invulnerable set value 1b
 #SmartMotion E (反発係数)
 execute unless score @s[tag=SmartMotion] sm.E matches -2147483648..2147483647 run scoreboard players set @s sm.E 100
 
+# 未管理の経験値オーブを削除
+tag @s[type=experience_orb,tag=!BurstOrb] add Garbage
+
 #NativeFlag スコア付与 それぞれのタグで付与を独立させる
 scoreboard players add @s[tag=DamageProjectile] NativeFlag 1
 scoreboard players add @s[tag=SmartMotion] NativeFlag 1

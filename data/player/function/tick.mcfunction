@@ -19,6 +19,8 @@ execute if entity @s[scores={Age=1..},predicate=entity:player] if block ^ ^ ^ #b
 ### 特殊床
 execute if entity @s[predicate=entity:player] if block ~ ~-2 ~ #block:unique_floors run function block:unique_floor/fork
 
+execute if score @s BeforeXP < @s XP run function player:burst/add
+
 ### トリガー
 execute if entity @s[scores={UseBow=1..}] run function player:trigger/use/bow
 execute if entity @s[scores={UseCrossbow=1..}] run function player:trigger/use/crossbow

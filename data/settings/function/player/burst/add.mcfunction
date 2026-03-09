@@ -1,4 +1,4 @@
-
+#> settings:player/burst/add
 ###レベルごとに増加量が異なる
 
 execute if score @s Level matches ..30 run scoreboard players set _ Burst 15

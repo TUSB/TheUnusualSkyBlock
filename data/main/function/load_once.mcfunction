@@ -34,6 +34,8 @@ scoreboard objectives add GrowTotal dummy {"text":"合計成長ポイント"}
 scoreboard objectives add Damage dummy {"text":"ダメージ"}
 scoreboard objectives add HealthHealing dummy {"text":"HP回復量"}
 scoreboard objectives add Age minecraft.custom:minecraft.time_since_death {"text":"生きている時間"}
+scoreboard objectives add BeforeXP dummy {"text":"前のXP量"}
+scoreboard objectives add XP xp {"text":"現在のXP量"}
 scoreboard objectives add ParticleDenom dummy {"text":"パーティクル表示割合"}
 scoreboard objectives add BreakSpawner dummy {"text":"スポナー破壊数"}
 scoreboard objectives add FoodLevel food {"text":"満腹度"}
@@ -109,6 +111,7 @@ scoreboard objectives add MPConsumption dummy {"text":"MP回復量"}
 scoreboard objectives add TrackingID dummy {"text":"追尾スキル同期ID"}
 scoreboard objectives add SkillShortcut dummy {"text":"スキル設定中tick"}
 scoreboard objectives add Burst dummy {"text":"バースト管理"}
+scoreboard objectives add BurstTimer dummy {"text":"バースト残り時間"}
 #剣士
 scoreboard objectives add FalconSlashTimer dummy {"text":"はやぶさ斬り遅延タイマー"}
 scoreboard objectives add IronWill dummy {"text":"アイアンウィル残りtick数"}
@@ -162,12 +165,6 @@ scoreboard objectives add Weakness dummy {"text":"ウィークペイント効果
 scoreboard objectives add RestoreItem trigger {"text":"リスト・アイテム処理選択"}
 scoreboard objectives add SuspiciousPowderTime dummy {"text":"怪しい粉継続秒数"}
 scoreboard objectives add SuspiciousPowderToken dummy {"text":"怪しい粉消費MP量"}
-
-###バースト ボスバー
-bossbar add skill:burst {"translate":"バーストゲージ","italic":true,"bold":true}
-bossbar set skill:burst color white
-bossbar set skill:burst visible false
-bossbar set skill:burst style notched_6
 
 ###乱数初期化
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,WaitTime:1,ReapplicationDelay:0,Duration:0,Tags:[Initialized]}

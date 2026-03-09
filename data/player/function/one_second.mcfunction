@@ -16,3 +16,6 @@ execute if entity @s[scores={VirusCount=1..}] run function effect:virus/tick
 
 # 祈り表示
 execute if entity @s[scores={Job=1..},tag=Pray] run function player:pray
+
+# バースト維持
+execute if score @s BurstTimer matches 1.. run function player:burst/maintain
