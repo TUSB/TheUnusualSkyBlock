@@ -1,10 +1,10 @@
 #> enemy:break_spawner/mined
 
 #スポナー採掘時 item.components."minecraft:custom_data".Count>=2のときスポナー再設置
-# ピッケルの素材によって与えるダメージが変化する
-# 木：0.5　石：1　鉄：2　金：3　ダイヤ：4　ネザライト：6
+# ピッケルの素材によって与えるダメージの倍率が変化する
+# 木：1　石：1　鉄：2　金：3　ダイヤ：4　ネザライト：5
 scoreboard players set _ Calc 0
-execute as @e[distance=..2,type=item,nbt={Item:{components:{"minecraft:custom_data":{DamageItem:1b}}}},sort=nearest,limit=1] run function enemy:break_spawner/damage_score_get
+execute as @e[distance=..2,type=item,nbt={Item:{components:{"minecraft:custom_data":{DamageItem:1b}}}},sort=nearest,limit=1] run function enemy:break_spawner/get_break_info
 execute store result score _ _ run data get entity @s item.components."minecraft:custom_data".Count 10
 scoreboard players operation _ _ -= _ Calc
 scoreboard players set _ Calc 10
