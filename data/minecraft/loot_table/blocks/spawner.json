@@ -37,7 +37,7 @@
       "functions": [
         {
           "function": "minecraft:set_custom_data",
-          "tag": "{NoHold:1b,DamageItem:1b,SpawnerDamage:5}",
+          "tag": "{NoHold:1b,DamageItem:1b,SpawnerDamage:1}",
           "conditions": [
             {
               "condition": "minecraft:match_tool",
@@ -54,7 +54,7 @@
         },
         {
           "function": "minecraft:set_custom_data",
-          "tag": "{NoHold:1b,DamageItem:1b,SpawnerDamage:10}",
+          "tag": "{NoHold:1b,DamageItem:1b,SpawnerDamage:1}",
           "conditions": [
             {
               "condition": "minecraft:match_tool",
@@ -71,7 +71,7 @@
         },
         {
           "function": "minecraft:set_custom_data",
-          "tag": "{NoHold:1b,DamageItem:1b,SpawnerDamage:20}",
+          "tag": "{NoHold:1b,DamageItem:1b,SpawnerDamage:2}",
           "conditions": [
             {
               "condition": "minecraft:match_tool",
@@ -88,7 +88,7 @@
         },
         {
           "function": "minecraft:set_custom_data",
-          "tag": "{NoHold:1b,DamageItem:1b,SpawnerDamage:30}",
+          "tag": "{NoHold:1b,DamageItem:1b,SpawnerDamage:3}",
           "conditions": [
             {
               "condition": "minecraft:match_tool",
@@ -105,7 +105,7 @@
         },
         {
           "function": "minecraft:set_custom_data",
-          "tag": "{NoHold:1b,DamageItem:1b,SpawnerDamage:40}",
+          "tag": "{NoHold:1b,DamageItem:1b,SpawnerDamage:4}",
           "conditions": [
             {
               "condition": "minecraft:match_tool",
@@ -122,7 +122,7 @@
         },
         {
           "function": "minecraft:set_custom_data",
-          "tag": "{NoHold:1b,DamageItem:1b,SpawnerDamage:60}",
+          "tag": "{NoHold:1b,DamageItem:1b,SpawnerDamage:5}",
           "conditions": [
             {
               "condition": "minecraft:match_tool",
