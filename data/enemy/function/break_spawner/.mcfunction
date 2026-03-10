@@ -11,5 +11,3 @@ execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{Exploded
 
 #設置したスポナーにデータをmergeする
 data modify block ~ ~ ~ {} merge from entity @s item.components."minecraft:custom_data".Spawner
-execute if entity @s[tag=Failed] run data modify block ~ ~ ~ Delay set value 200s
-tag @s remove Failed
