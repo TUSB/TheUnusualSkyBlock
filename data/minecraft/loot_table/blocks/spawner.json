@@ -31,10 +31,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:lodestone"
+          "name": "minecraft:player_head"
         }
       ],
       "functions": [
+        {
+          "function": "fill_player_head",
+          "entity": "this"
+        },
         {
           "function": "minecraft:set_custom_data",
           "tag": "{NoHold:1b,DamageItem:1b,SpawnerDamage:1}",
