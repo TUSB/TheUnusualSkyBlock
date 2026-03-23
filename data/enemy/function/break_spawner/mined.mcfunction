@@ -6,7 +6,7 @@
 scoreboard players set _ Calc 1
 execute as @e[distance=..2,type=item,nbt={Item:{components:{"minecraft:custom_data":{DamageItem:1b}}}},sort=nearest,limit=1] run function enemy:break_spawner/get_break_info
 execute store result score _ _ run data get entity @s item.components."minecraft:custom_data".Defense
-execute store result score _ _ run function enemy:break_spawner/defense with storage tusb_mob: spawner_breaker
+execute store result score _ _ run function enemy:break_spawner/defense/
 execute if score _ _ matches 0 run scoreboard players set _ Calc 1
 execute store result score _ _ run data get entity @s item.components."minecraft:custom_data".Count
 scoreboard players operation _ _ -= _ Calc
