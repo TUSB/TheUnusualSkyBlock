@@ -13,6 +13,10 @@ execute if entity @s[scores={DoomCount=1..}] run function effect:doom/proceed
 execute if entity @s[scores={PalsyLevel=1..}] run function effect:palsy/tick
 execute if entity @s[scores={TntCount=0..}] if block ~ ~ ~ water run function effect:tnt/cure
 execute if entity @s[scores={VirusCount=1..}] run function effect:virus/tick
+execute if entity @s[scores={RevivalSicknessTimer=1..}] run function effect:player_debuff/revival_sickness/second
 
 # 祈り表示
 execute if entity @s[scores={Job=1..},tag=Pray] run function player:pray
+
+# バースト維持
+execute if score @s BurstTimer matches 1.. run function player:burst/maintain

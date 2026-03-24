@@ -20,3 +20,4 @@ data modify storage effect: BadEffectsName.Virus set value '{"translate":"病気
 data modify storage effect: BadEffectsName.Tnt set value '{"translate":"トント","hoverEvent":{"action":"show_text","value":{"translate":"一定回数ダメージを受けると爆発する。","color":"white"}},"color":"white"}'
 data modify storage effect: BadEffectsName.Pale set value '{"translate":"ペイル","hoverEvent":{"action":"show_text","value":{"translate":"最大体力が減少する。","color":"white"}},"color":"white"}'
 data modify storage effect: BadEffectsName.Debility set value '{"translate":"衰弱","hoverEvent":{"action":"show_text","value":{"translate":"体力が一列になる。","color":"white"}},"color":"white"}'
+data modify storage effect: BadEffectsName.RevivalSicknesss set value '{"translate":"復活酔い","hoverEvent":{"action":"show_text","value":{"translate":"ブロックを掘れなくなる。","color":"white"}},"color":"white"}'

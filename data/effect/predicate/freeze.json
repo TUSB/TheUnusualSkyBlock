@@ -1,33 +1,33 @@
 {
-  "condition": "minecraft:inverted",
-  "term": {
-    "condition": "minecraft:any_of",
-    "terms": [
-      {
-        "condition": "minecraft:entity_properties",
-        "entity": "this",
-        "predicate": {
-          "flags": {
-            "is_on_fire": true
-          }
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "flags": {
+          "is_on_fire": true
         }
-      },
-      {
-        "condition": "minecraft:location_check",
-        "predicate": {
-          "block": {
-            "blocks": "#effect:melt_ice"
-          }
-        }
-      },
-      {
-        "condition": "minecraft:location_check",
-        "predicate": {
-          "fluid": {
-            "fluids": "#minecraft:lava"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "block": {
+          "blocks": "#minecraft:campfires",
+          "state": {
+            "lit": "true"
           }
         }
       }
-    ]
-  }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "fluid": {
+          "fluids": "#minecraft:lava"
+        }
+      }
+    }
+  ]
 }
