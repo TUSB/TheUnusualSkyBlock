@@ -2,11 +2,6 @@
 #
 # レイズ発動
 
-tag @s add Raise
-
-# Lv2ならMPを全回復
-execute if score _ Level matches 2 run scoreboard players operation @s MP = @s MPMax
-
 # アイテム散らばり防止
 tp @e[distance=..10,type=minecraft:item,nbt={Age:0s}] ~ ~ ~
 execute as @e[distance=..10,type=minecraft:item,nbt={Age:0s}] run data merge entity @s {Invulnerable:true,Age:-6000s,PickupDelay:0s,Motion:[0d,0d,0d]}
