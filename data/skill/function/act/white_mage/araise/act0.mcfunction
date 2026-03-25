@@ -8,8 +8,8 @@ execute if data storage main: {bossfight:1b} run return run function makeup:skil
 # Lv2ならMPを全回復
 execute if score _ Level matches 2 as @a[scores={Age=0}] if entity @s[distance=..10] at @s run scoreboard players operation @s MP = @s MPMax
 
-execute as @a[scores={Age=0}] if entity @s[distance=..10] at @s run tag @s add Raise
-execute as @a[scores={Age=0}] if entity @s[distance=..10] at @s run function skill:act/white_mage/araise/raise
+execute as @a[distance=..10,scores={Age=0}] at @s run tag @s add Raise
+execute as @a[distance=..10,scores={Age=0}] at @s run function skill:act/white_mage/araise/raise
 tag @a[distance=..10,scores={Age=1..}] add Reraise
 
 # 演出
