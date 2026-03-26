@@ -75,6 +75,7 @@ scoreboard objectives add FearTimer dummy {"text":"畏怖タイマー"}
 scoreboard objectives add FearInterval dummy {"text":"畏怖インターバル"}
 scoreboard objectives add CurseResistance dummy {"text":"呪蝕耐性"}
 scoreboard objectives add CurseTimer dummy {"text":"呪蝕タイマー"}
+scoreboard objectives add RevivalSicknessTimer dummy {"text":"復活酔いタイマー"}
 scoreboard objectives add GameTime dummy {"text":"ゲームタイム"}
 scoreboard objectives add ProjectileTime minecraft.custom:minecraft.play_time {"text":"投射物ヒットタイマー"}
 scoreboard objectives add ShieldUsingTick dummy {"text":"盾を使用したtick"}
