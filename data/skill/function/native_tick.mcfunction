@@ -38,6 +38,8 @@ execute if entity @s[tag=WildFlare] run function skill:act/hunter/wild_flare/tic
 ## 白魔導士
 # ヘイローバウンド
 execute if entity @s[tag=HaloBound] run function skill:act/white_mage/halo_bound/tick
+# セイクリッドピラー
+execute if entity @s[tag=SacredPillar] run function skill:act/white_mage/sacred_pillar/tick/
 
 ## トラップ
 # ニフラムトラップ
