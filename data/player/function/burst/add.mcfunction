@@ -6,7 +6,7 @@ scoreboard players operation @s Burst += _ Burst
 
 function player:burst/bar/set
 
-scoreboard players set @s BurstTimer 20
+execute store result score @s BurstTimer run data get storage tusb_player: burst_config.reset_time
 
 # 経験値バーリセット
 function player:mp_bar/set
