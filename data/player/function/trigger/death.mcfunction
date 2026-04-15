@@ -30,7 +30,7 @@ execute if score @s FreezeTimer matches 0.. run function effect:freeze/cure
 function skill:act/white_mage/clear/cure/level4
 
 # バーストリセット
-scoreboard players set @s Burst 0
+function player:burst/reset
 function player:burst/bar/set
 
 ## 死亡トリガーリセット
