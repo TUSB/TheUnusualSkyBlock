@@ -289,5 +289,5 @@ execute unless data storage main: {debug:1b} run function settings:alpha_debug/
 # 固定村人復帰地点の設定
 execute unless data storage main: {debug:1b} run function area:villager_point/init
 
-# バーストゲージ設定の初期化
+# ブレイクゲージ設定の初期化
 function settings:player/burst/config

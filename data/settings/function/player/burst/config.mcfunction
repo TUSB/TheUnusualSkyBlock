@@ -1,10 +1,10 @@
 #> settings:player/burst/config
 data remove storage tusb_player: burst_config
 
-## バーストブレイクするためのバーストゲージ必要量
+## バーストブレイクするためのブレイクゲージ必要量
 data modify storage tusb_player: burst_config.require_burst set value 100
 
-## バーストゲージがリセットされるまでの時間(ゲージ増減でリセット)
+## ブレイクゲージがリセットされるまでの時間(ゲージ増減でリセット)
 data modify storage tusb_player: burst_config.reset_time set value 20
 
 ## バーストブレイクしたときのMobへのダメージ
