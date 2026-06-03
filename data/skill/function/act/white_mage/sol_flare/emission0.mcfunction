@@ -5,7 +5,7 @@ scoreboard players reset @s SolFlareCharge
 attribute @s minecraft:movement_speed modifier remove 536f-6c4-66c-617-265
 
 # ダメージ
-execute store result storage skill: damage int 1 run scoreboard players get @s SolFlare
+execute store result storage skill: damage.magic int 1 run scoreboard players get @s SolFlare
 execute positioned ^ ^ ^3 rotated 0 0 as @e[tag=Enemy,distance=..3] run function skill:damage/apply/
 # 火だるまを付与
 execute positioned ^ ^ ^3 rotated 0 0 as @e[tag=Enemy,distance=..3] run function effect:enemy_debuff/burn/apply
