@@ -9,4 +9,3 @@ execute if predicate effect:resist run return run function effect:resist with st
 
 ###エフェクト付与
 effect give @s minecraft:levitation 1 11
-  
