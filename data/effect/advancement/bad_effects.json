@@ -102,7 +102,24 @@
               "max": 126
             }
           }
-        }
+        },
+        "player": [
+          {
+            "condition": "minecraft:inverted",
+            "term": {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "effects": {
+                  "mining_fatigue": {
+                    "amplifier": 2,
+                    "duration": 6000
+                  }
+                }
+              }
+            }
+          }
+        ]
       }
     },
     "slowness": {
