@@ -3,9 +3,9 @@
 # ソルフレア チャージ開始
 scoreboard players set @s SolFlareCharge 0
 
-execute if score _ Level matches 1 store result score @s SolFlare run data get storage skill: Data.WhiteMage[{Name:"ソルフレア",Level:1}].Damage
-execute if score _ Level matches 2 store result score @s SolFlare run data get storage skill: Data.WhiteMage[{Name:"ソルフレア",Level:2}].Damage
-execute if score _ Level matches 3 store result score @s SolFlare run data get storage skill: Data.WhiteMage[{Name:"ソルフレア",Level:3}].Damage
+execute if score _ Level matches 1 store result score @s SolFlare run data get storage skill: Data.WhiteMage[{Name:"ソルフレア",Level:1}].Damage.physical
+execute if score _ Level matches 2 store result score @s SolFlare run data get storage skill: Data.WhiteMage[{Name:"ソルフレア",Level:2}].Damage.physical
+execute if score _ Level matches 3 store result score @s SolFlare run data get storage skill: Data.WhiteMage[{Name:"ソルフレア",Level:3}].Damage.physical
 
 # チャージではMPを消費しない
 scoreboard players set _ MP 0
