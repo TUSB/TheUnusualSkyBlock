@@ -5,7 +5,7 @@ scoreboard players reset @s SolFlareCharge
 attribute @s minecraft:movement_speed modifier remove 536f-6c4-66c-617-265
 
 # ストレージをリセット
-data remove storage skill: damage.physical
+data remove storage skill: damage
 # ダメージ
 execute store result storage skill: damage.physical int 1 run scoreboard players get @s SolFlare
 execute positioned ^ ^ ^4 rotated 0 0 as @e[tag=Enemy,distance=..4] run function skill:damage/apply/
