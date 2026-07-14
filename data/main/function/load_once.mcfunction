@@ -148,6 +148,8 @@ scoreboard objectives add Decelerate dummy {"text":"ボミオストラップ継�
 scoreboard objectives add WildFlareInterval dummy {"text":"ワイルドフレアダメージインターバル"}
 #白魔導士
 scoreboard objectives add HaloBound dummy {"text":"ヘイローバウンド演出カウント"}
+scoreboard objectives add SolFlare dummy {"text":"ソルフレアカウント"}
+scoreboard objectives add SolFlareCharge dummy {"text":"ソルフレアチャージ"}
 #黒魔導士
 scoreboard objectives add EclipseRadius dummy {"text":"エクリプスフレイム半径"}
 scoreboard objectives add LightningBlow dummy {"text":"ライトニングブロー威力"}
