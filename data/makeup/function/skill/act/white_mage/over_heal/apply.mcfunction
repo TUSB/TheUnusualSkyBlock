@@ -11,4 +11,4 @@ summon minecraft:area_effect_cloud ~ ~ ~ {Particle:{type:"minecraft:entity_effec
 particle minecraft:instant_effect ~ ~0.2 ~ 1 0.2 1 1 40 force
 execute rotated ~ 0 run particle minecraft:witch ^ ^1.5 ^2 0.3 1.5 0.3 0 60 force
 execute rotated ~ 0 run particle minecraft:witch ^ ^0.1 ^2 0.8 0.1 0.8 0.1 30 force
-execute rotated ~ 0 run summon minecraft:item ^ ^0.3 ^2 {NoGravity:true,Motion:[0d,0.05d,0d],Item:{id:"minecraft:enchanted_golden_apple",count:1b,components:{custom_data:{NoHold:1b}}},Age:5980,PickupDelay:32767}
+execute rotated ~ 0 run summon minecraft:item ^ ^0.3 ^2 {NoGravity:true,Motion:[0d,0.05d,0d],Item:{id:"minecraft:enchanted_golden_apple",count:1,components:{custom_data:{NoHold:1b}}},Age:5980,PickupDelay:32767}
