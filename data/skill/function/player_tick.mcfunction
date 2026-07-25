@@ -44,3 +44,7 @@ execute if entity @s[scores={BlastSpark=1..}] anchored eyes positioned ^ ^ ^-0.1
 
 # レーダーヴィジョン
 execute if entity @s[scores={RadarVision=1..}] run function skill:act/hunter/radar_vision/tick
+
+## 白魔導士
+# ソルフレア
+execute if score @s SolFlareCharge matches 0.. run function skill:act/white_mage/sol_flare/tick
