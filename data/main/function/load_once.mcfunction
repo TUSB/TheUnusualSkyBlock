@@ -153,7 +153,7 @@ scoreboard objectives add SolFlareCharge dummy {"text":"ソルフレアチャー
 #黒魔導士
 scoreboard objectives add EclipseRadius dummy {"text":"エクリプスフレイム半径"}
 scoreboard objectives add LightningBlow dummy {"text":"ライトニングブロー威力"}
-scoreboard objectives add BlitzManover dummy {"text":"ブリッツマニューバ残りtick数"}
+scoreboard objectives add BlitzManeuver dummy {"text":"ブリッツマニューバ残りtick数"}
 scoreboard objectives add RockNRoll dummy {"text":"ロックンロール残り推定時間"}
 scoreboard objectives add Sleepga dummy {"text":"スリプガ継続秒数"}
 scoreboard objectives add ManaRefresh dummy {"text":"マナリフレッシュ残りミリ秒＆レベル"}
