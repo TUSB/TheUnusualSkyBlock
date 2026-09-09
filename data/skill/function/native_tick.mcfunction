@@ -43,6 +43,10 @@ execute if entity @s[tag=HaloBound] run function skill:act/white_mage/halo_bound
 # セイクリッドピラー
 execute if entity @s[tag=SacredPillar] run function skill:act/white_mage/sacred_pillar/tick/
 
+## 黒魔導士
+# アイスジャベリン
+execute if entity @s[tag=IceJavelin] run function skill:act/black_mage/ice_javelin/tick
+
 ## トラップ
 # ニフラムトラップ
 execute if entity @s[tag=ExpelTrap] run function skill:act/hunter/expel_trap/tick
