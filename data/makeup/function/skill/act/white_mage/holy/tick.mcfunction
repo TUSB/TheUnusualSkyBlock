@@ -1,0 +1,25 @@
+#> makeup:skill/act/white_mage/holy/tick
+#
+# ホーリー毎tick演出（軌跡）
+particle minecraft:end_rod ~ ~ ~ 1 0 0 0.2 0 force @a[tag=ShowParticles]
+particle minecraft:end_rod ~ ~0.4 ~ 0 1 0 0.2 0 force @a[tag=ShowParticles]
+particle minecraft:end_rod ~ ~0.4 ~ 0 0 1 0.2 0 force @a[tag=ShowParticles]
+particle minecraft:end_rod ~ ~ ~ -1 0 0 0.2 0 force @a[tag=ShowParticles]
+particle minecraft:end_rod ~ ~0.4 ~ 0 -1 0 0.2 0 force @a[tag=ShowParticles]
+particle minecraft:end_rod ~ ~0.4 ~ 0 0 -1 0.2 0 force @a[tag=ShowParticles]
+
+particle minecraft:end_rod ~ ~ ~ 1 0 0 0.1 0 force @a[tag=ShowParticles]
+particle minecraft:end_rod ~ ~0.4 ~ 0 1 0 0.1 0 force @a[tag=ShowParticles]
+particle minecraft:end_rod ~ ~0.4 ~ 0 0 1 0.1 0 force @a[tag=ShowParticles]
+particle minecraft:end_rod ~ ~ ~ -1 0 0 0.1 0 force @a[tag=ShowParticles]
+particle minecraft:end_rod ~ ~0.4 ~ 0 -1 0 0.1 0 force @a[tag=ShowParticles]
+particle minecraft:end_rod ~ ~0.4 ~ 0 0 -1 0.1 0 force @a[tag=ShowParticles]
+
+particle minecraft:end_rod ~ ~ ~ 1 0 0 0.05 0 force @a[tag=ShowParticles]
+particle minecraft:end_rod ~ ~0.4 ~ 0 1 0 0.05 0 force @a[tag=ShowParticles]
+particle minecraft:end_rod ~ ~0.4 ~ 0 0 1 0.05 0 force @a[tag=ShowParticles]
+particle minecraft:end_rod ~ ~ ~ -1 0 0 0.05 0 force @a[tag=ShowParticles]
+particle minecraft:end_rod ~ ~0.4 ~ 0 -1 0 0.05 0 force @a[tag=ShowParticles]
+particle minecraft:end_rod ~ ~0.4 ~ 0 0 -1 0.05 0 force @a[tag=ShowParticles]
+
+particle minecraft:entity_effect{color:-1} ~ ~ ~ 2 2 2 1000000000 40 force @a[tag=ShowParticles]
