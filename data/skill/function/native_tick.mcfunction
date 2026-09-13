@@ -43,6 +43,9 @@ execute if entity @s[tag=HaloBound] run function skill:act/white_mage/halo_bound
 # セイクリッドピラー
 execute if entity @s[tag=SacredPillar] run function skill:act/white_mage/sacred_pillar/tick/
 
+# キャンドル
+execute if entity @s[tag=Candle] positioned ~ ~1 ~ unless entity @e[tag=Candle,distance=..0.01,limit=1] positioned as @s run function makeup:skill/act/black_mage/candle/tick
+
 ## トラップ
 # ニフラムトラップ
 execute if entity @s[tag=ExpelTrap] run function skill:act/hunter/expel_trap/tick
