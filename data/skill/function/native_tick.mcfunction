@@ -1,7 +1,7 @@
 #> skill:native_tick
 # -> 1秒処理
 ## 使用するときにコメントアウトを外してください。
-# execute if score $Ticks Count matches 0 run function skill:native_one_second
+execute if score $Ticks Count matches 0 run function skill:native_one_second
 
 ## 剣士
 # 真空斬り
@@ -42,6 +42,10 @@ execute if entity @s[tag=RaisePoint] run function makeup:skill/act/white_mage/ar
 execute if entity @s[tag=HaloBound] run function skill:act/white_mage/halo_bound/tick
 # セイクリッドピラー
 execute if entity @s[tag=SacredPillar] run function skill:act/white_mage/sacred_pillar/tick/
+
+## 黒魔導士
+# エクリプスフレイム
+execute if entity @s[tag=EclipseFlameCore] run function skill:act/black_mage/eclipse_flame/tick
 
 ## トラップ
 # ニフラムトラップ
