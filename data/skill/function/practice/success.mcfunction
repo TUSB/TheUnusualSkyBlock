@@ -22,5 +22,8 @@ execute if data storage skill: Skill{Name:"マナリフレッシュ"} if score _
 # 怪しい粉補正
 execute unless data storage skill: {Success:true} if score @s SuspiciousPowderTime matches 1.. run function skill:act/common/suspicious_powder/use_skill1
 
+# MP消費成功でバーストブレイク
+execute if data storage skill: {Success:true} unless data storage skill: Skill{Type:"TUSBMemory"} if function player:burst/break/check run function player:burst/break/
+
 # MPバー反映
 function player:mp_bar/set
