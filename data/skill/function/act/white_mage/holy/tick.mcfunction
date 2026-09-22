@@ -7,7 +7,7 @@ scoreboard players remove @s Interval 1
 execute if score @s Interval matches ..0 if entity @e[distance=..15,tag=Enemy,limit=1,sort=nearest] run function skill:act/white_mage/holy/re_aim
 
 # ダメージをロード、付与 アンデッドかどうかで分岐
-data remove storage skill: damage.unreasonable
+data remove storage skill: damage
 execute store result storage skill: damage.magic double 0.01 run scoreboard players get @s MagicAttack
 execute as @e[tag=Enemy,type=!#undead,distance=..5] run function skill:damage/apply/
 data remove storage skill: damage.magic
