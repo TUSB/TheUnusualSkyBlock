@@ -42,6 +42,8 @@ execute if entity @s[tag=RaisePoint] run function makeup:skill/act/white_mage/ar
 execute if entity @s[tag=HaloBound] run function skill:act/white_mage/halo_bound/tick
 # セイクリッドピラー
 execute if entity @s[tag=SacredPillar] run function skill:act/white_mage/sacred_pillar/tick/
+# ホーリー
+execute if entity @s[tag=Holy] run function skill:act/white_mage/holy/tick
 
 ## トラップ
 # ニフラムトラップ
