@@ -11,9 +11,9 @@ scoreboard players set _ _ 0
 
 # 耐性低下処理 0未満にはならない
 scoreboard players operation @s Defense -= _ Calc
-scoreboard players operation @s Defense < _ _
+scoreboard players operation @s Defense > _ _
 scoreboard players operation @s MagicDefense -= _ Calc
-scoreboard players operation @s MagicDefense < _ _
+scoreboard players operation @s MagicDefense > _ _
 
 # 演出
 execute anchored eyes run function makeup:skill/act/white_mage/sanctuary/apply_enemy
