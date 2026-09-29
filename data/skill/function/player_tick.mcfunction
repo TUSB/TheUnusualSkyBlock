@@ -48,3 +48,7 @@ execute if entity @s[scores={RadarVision=1..}] run function skill:act/hunter/rad
 ## 白魔導士
 # ソルフレア
 execute if score @s SolFlareCharge matches 0.. run function skill:act/white_mage/sol_flare/tick
+
+## 黒魔導士
+# ロックンロール
+execute if entity @s[scores={RockNRoll=0..}] run function skill:act/black_mage/rock_n_roll/tick
