@@ -47,6 +47,10 @@ execute if entity @s[tag=SacredPillar] run function skill:act/white_mage/sacred_
 # ホーリー
 execute if entity @s[tag=Holy] run function skill:act/white_mage/holy/tick
 
+## 黒魔導士
+# アイスジャベリン
+execute if entity @s[tag=IceJavelin] run function skill:act/black_mage/ice_javelin/tick
+
 ## トラップ
 # ニフラムトラップ
 execute if entity @s[tag=ExpelTrap] run function skill:act/hunter/expel_trap/tick
