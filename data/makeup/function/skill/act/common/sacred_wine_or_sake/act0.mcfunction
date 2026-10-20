@@ -1,0 +1,43 @@
+
+playsound minecraft:entity.glow_squid.squirt master @s ~ ~ ~ 1 1 0
+
+particle minecraft:end_rod ~-0.5 ~0.0 ~-0.6 0 1 0 0.2 0 force @a
+particle minecraft:end_rod ~1.0 ~0.0 ~-0.3 0 1 0 0.5 0 force @a
+particle minecraft:end_rod ~1.1 ~0.0 ~-1.2 0 1 0 0.5 0 force @a
+particle minecraft:end_rod ~-0.2 ~0.0 ~0.4 0 1 0 0.4 0 force @a
+particle minecraft:end_rod ~-0.1 ~0.0 ~-0.3 0 1 0 0.3 0 force @a
+particle minecraft:end_rod ~-0.9 ~0.0 ~0.8 0 1 0 0.3 0 force @a
+particle minecraft:end_rod ~-1.3 ~0.0 ~0.5 0 1 0 0.2 0 force @a
+particle minecraft:end_rod ~1.4 ~0.0 ~0.5 0 1 0 0.3 0 force @a
+particle minecraft:end_rod ~-0.6 ~0.0 ~-0.4 0 1 0 0.4 0 force @a
+particle minecraft:end_rod ~1.1 ~0.0 ~-0.0 0 1 0 0.1 0 force @a
+particle minecraft:end_rod ~-0.6 ~0.0 ~0.7 0 1 0 0.2 0 force @a
+particle minecraft:end_rod ~-1.3 ~0.0 ~-0.0 0 1 0 0.1 0 force @a
+particle minecraft:end_rod ~-1.2 ~0.0 ~-0.1 0 1 0 0.4 0 force @a
+particle minecraft:end_rod ~-0.5 ~0.0 ~0.9 0 1 0 0.5 0 force @a
+particle minecraft:end_rod ~-1.0 ~0.0 ~0.9 0 1 0 0.5 0 force @a
+particle minecraft:end_rod ~-0.1 ~0.0 ~0.1 0 1 0 0.3 0 force @a
+particle minecraft:end_rod ~-1.3 ~0.0 ~-0.9 0 1 0 0.5 0 force @a
+particle minecraft:end_rod ~1.0 ~0.0 ~1.0 0 1 0 0.3 0 force @a
+particle minecraft:end_rod ~0.5 ~0.0 ~-0.4 0 1 0 0.2 0 force @a
+particle minecraft:end_rod ~0.9 ~0.0 ~1.3 0 1 0 0.2 0 force @a
+particle minecraft:end_rod ~0.5 ~0.0 ~1.0 0 1 0 0.3 0 force @a
+particle minecraft:end_rod ~1.3 ~0.0 ~0.6 0 1 0 0.2 0 force @a
+particle minecraft:end_rod ~-0.4 ~0.0 ~0.7 0 1 0 0.5 0 force @a
+particle minecraft:end_rod ~-1.2 ~0.0 ~1.1 0 1 0 0.4 0 force @a
+particle minecraft:end_rod ~-1.0 ~0.0 ~-0.9 0 1 0 0.3 0 force @a
+particle minecraft:end_rod ~-1.2 ~0.0 ~0.2 0 1 0 0.2 0 force @a
+particle minecraft:end_rod ~-0.7 ~0.0 ~0.1 0 1 0 0.2 0 force @a
+particle minecraft:end_rod ~-1.0 ~0.0 ~-0.1 0 1 0 0.2 0 force @a
+particle minecraft:end_rod ~0.7 ~0.0 ~0.3 0 1 0 0.2 0 force @a
+particle minecraft:end_rod ~-1.5 ~0.0 ~0.2 0 1 0 0.3 0 force @a
+particle minecraft:end_rod ~0.2 ~0.0 ~1.4 0 1 0 0.3 0 force @a
+particle minecraft:end_rod ~-1.0 ~0.0 ~-1.2 0 1 0 0.4 0 force @a
+particle minecraft:end_rod ~-0.6 ~0.0 ~0.2 0 1 0 0.5 0 force @a
+particle minecraft:end_rod ~-1.0 ~0.0 ~-1.2 0 1 0 0.2 0 force @a
+particle minecraft:end_rod ~1.0 ~0.0 ~-1.1 0 1 0 0.5 0 force @a
+particle minecraft:end_rod ~-0.2 ~0.0 ~0.2 0 1 0 0.4 0 force @a
+particle minecraft:end_rod ~-0.3 ~0.0 ~-0.9 0 1 0 0.4 0 force @a
+particle minecraft:end_rod ~0.6 ~0.0 ~-0.1 0 1 0 0.2 0 force @a
+particle minecraft:end_rod ~0.9 ~0.0 ~0.4 0 1 0 0.3 0 force @a
+particle minecraft:end_rod ~-1.3 ~0.0 ~-0.2 0 1 0 0.3 0 force @a

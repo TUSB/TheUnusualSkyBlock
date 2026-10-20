@@ -1,0 +1,13 @@
+##############################
+### サモンＥ：グライダー滑空
+##############################
+
+tag @s add Glided
+#滑走路の設置
+execute rotated ~ 0 positioned ^ ^ ^ run summon minecraft:shulker ~ ~-1.01 ~ {active_effects:[{id:"minecraft:invisibility",duration:100,show_particles:false}],NoAI:true,PortalCooldown:5,Silent:true,Tags:[Skill,GliderRunway,CooldownRequired],DeathLootTable:""}
+execute rotated ~ 0 positioned ^ ^ ^1 run summon minecraft:shulker ~ ~-1.01 ~ {active_effects:[{id:"minecraft:invisibility",duration:100,show_particles:false}],NoAI:true,PortalCooldown:5,Silent:true,Tags:[Skill,GliderRunway,CooldownRequired],DeathLootTable:""}
+execute rotated ~ 0 positioned ^ ^ ^2 run summon minecraft:shulker ~ ~-1.01 ~ {active_effects:[{id:"minecraft:invisibility",duration:100,show_particles:false}],NoAI:true,PortalCooldown:5,Silent:true,Tags:[Skill,GliderRunway,CooldownRequired],DeathLootTable:""}
+execute rotated ~ 0 positioned ^ ^ ^3 run summon minecraft:shulker ~ ~-1.01 ~ {active_effects:[{id:"minecraft:invisibility",duration:100,show_particles:false}],NoAI:true,PortalCooldown:5,Silent:true,Tags:[Skill,GliderRunway,CooldownRequired],DeathLootTable:""}
+data merge entity @s {attributes:[{id:"minecraft:movement_speed",base:2d}]}
+#演出
+function makeup:skill/act/summoner/summon_glider/startup0
