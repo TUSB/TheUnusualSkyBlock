@@ -1,5 +1,6 @@
+#> skill:act/common/panacea/act0
 
-### 万能薬
+# 万能薬
 
 function skill:act/white_mage/clear/cure/level4
 

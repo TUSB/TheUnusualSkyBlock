@@ -1,5 +1,6 @@
+#> skill:act/summoner/call_crystal_attack/attack/ice
 
-### クリスタルIce攻撃
+# クリスタルIce攻撃
 
 function makeup:skill/act/summoner/call_crystal_attack/attack/ice
 

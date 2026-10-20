@@ -1,3 +1,4 @@
+#> skill:act/common/home_run/act1
 
 scoreboard players add @s[tag=!HomeRun] NativeFlag 1
 tag @s add Skill

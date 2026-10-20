@@ -1,3 +1,4 @@
+#> skill:act/common/show_tips/act0
 
 
 execute unless score @s SneakTime matches 1.. run function player:tips/show

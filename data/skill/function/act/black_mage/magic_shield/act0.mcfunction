@@ -1,5 +1,6 @@
+#> skill:act/black_mage/magic_shield/act0
 
-### マジックシールド発動
+# マジックシールド発動
 
 execute if score _ Level matches 1 run scoreboard players set @s MagicShield 1040
 execute if score _ Level matches 2 run scoreboard players set @s MagicShield 1070

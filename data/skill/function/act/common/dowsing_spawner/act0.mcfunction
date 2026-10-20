@@ -1,4 +1,5 @@
-#ダウジングスポナー
+#> skill:act/common/dowsing_spawner/act0
+# ダウジングスポナー
 
 scoreboard players set _ _ 5001
 execute store result score _ _ positioned as @e[tag=Spawner,distance=..50,limit=1,sort=nearest] run function calc:geometry/distance/

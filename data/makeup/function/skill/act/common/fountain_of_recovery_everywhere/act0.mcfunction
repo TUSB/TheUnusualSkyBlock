@@ -1,11 +1,12 @@
-##############################
-### どこでも回復の泉 演出
-##############################
+#> makeup:skill/act/common/fountain_of_recovery_everywhere/act0
+#
+# どこでも回復の泉 演出
+#
 
-#サウンド
+# サウンド
 playsound minecraft:entity.player.levelup master @a ~ ~ ~ 2 1.25 0
 
-#パーティクル
+# パーティクル
 particle minecraft:end_rod ~ ~1 ~ 1.000 0 0.000 0.6 0 force @a
 particle minecraft:end_rod ~ ~1 ~ 0.999 0 0.052 0.6 0 force @a
 particle minecraft:end_rod ~ ~1 ~ 0.993 0 0.122 0.6 0 force @a

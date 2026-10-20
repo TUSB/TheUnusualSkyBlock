@@ -1,15 +1,16 @@
-##############################
-### 金タライ発動
-##############################
+#> skill:act/summoner/kana_tarai/act0
+#
+# 金タライ発動
+#
 
-#タライ召喚
+# タライ召喚
 execute as @e[distance=..15,tag=Enemy] at @s anchored eyes positioned ^ ^ ^ run summon armor_stand ~ ~2 ~ {PortalCooldown:80,Silent:true,Invulnerable:true,ShowArms:false,Invisible:true,NoBasePlate:true,DisabledSlots:4144959,ArmorItems:[{},{},{},{id:"minecraft:firework_star",components:{"minecraft:custom_model_data":{floats:[150.0f]},"minecraft:firework_explosion":{shape:"small_ball",colors:[I;16767791]}},count:1}],Tags:[Skill,KanaTarai,KanaTaraiInit,NativeTask,CooldownRequired]}
-#ダメージ
+# ダメージ
 execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.Summoner[{Name:"金タライ",Level:1}].Damage
 execute if score _ Level matches 2 run data modify storage skill: damage set from storage skill: Data.Summoner[{Name:"金タライ",Level:2}].Damage
 function skill:damage/add/skill/magic
-#ダメージを保存
+# ダメージを保存
 execute as @e[tag=KanaTaraiInit,distance=..32] run function skill:damage/save
 tag @e[tag=KanaTaraiInit,distance=..32] remove KanaTaraiInit
-#演出
+# 演出
 function makeup:skill/act/summoner/kana_tarai/act0

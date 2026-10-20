@@ -1,3 +1,4 @@
+#> skill:act/common/void_loot/act0
 data modify storage item: Items set value []
 data modify storage item: Items append from storage item: Item.components."minecraft:custom_data".VoidItems[0]
 data remove storage item: Item.components."minecraft:custom_data".VoidItems[0]

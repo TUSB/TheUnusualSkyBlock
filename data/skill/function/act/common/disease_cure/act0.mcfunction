@@ -1,5 +1,6 @@
+#> skill:act/common/disease_cure/act0
 
-### 病気治し
+# 病気治し
 
 effect give @s invisibility 3 77 true
 function makeup:skill/act/common/disease_cure/act0

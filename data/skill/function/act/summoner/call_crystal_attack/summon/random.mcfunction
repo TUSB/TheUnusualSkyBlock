@@ -1,5 +1,6 @@
+#> skill:act/summoner/call_crystal_attack/summon/random
 
-### クリスタル召喚
+# クリスタル召喚
 
 execute store result score _ _ run function calc:random
 scoreboard players set _ Calc 5

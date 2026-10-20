@@ -1,5 +1,6 @@
+#> skill:act/summoner/fukafuka/tick
 
-### ふかふか経過
+# ふかふか経過
 
 function makeup:skill/act/summoner/fukafuka/tick
 

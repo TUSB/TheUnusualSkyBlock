@@ -1,5 +1,6 @@
+#> skill:act/summoner/call_crystal_enhance/enhance/lightning
 
-### クリスタルLightning支援
+# クリスタルLightning支援
 
 function makeup:skill/act/summoner/call_crystal_enhance/lightning
 

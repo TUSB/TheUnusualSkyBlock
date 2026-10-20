@@ -1,5 +1,6 @@
+#> skill:act/common/hpmp_percentage_recovery/act0
 
-### HP・MP割合回復
+# HP・MP割合回復
 
 execute if score _ Level matches 1 run scoreboard players set _ HPMax 60
 execute if score _ Level matches 1 run scoreboard players set _ MPMax 30
@@ -10,14 +11,14 @@ execute if score _ Level matches 3 run scoreboard players set _ MPMax 100
 
 scoreboard players set _ _ 100
 
-#HP
+# HP
 execute store result score @s _ run attribute @s minecraft:max_health get 100
 scoreboard players operation @s _ *= _ HPMax
 scoreboard players operation @s _ /= _ _
 scoreboard players operation @s _ /= _ _
 scoreboard players operation @s HealthHealing += @s _
 
-#MP
+# MP
 scoreboard players operation @s _ = @s MPMax
 scoreboard players operation @s _ *= _ MPMax
 scoreboard players operation @s _ /= _ _

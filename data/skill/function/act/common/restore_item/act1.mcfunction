@@ -1,3 +1,4 @@
+#> skill:act/common/restore_item/act1
 
 function #oh_my_dat:please
 data remove storage tusb_player: RestoreItemData

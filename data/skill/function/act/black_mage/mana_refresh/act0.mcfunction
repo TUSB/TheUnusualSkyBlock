@@ -1,5 +1,6 @@
+#> skill:act/black_mage/mana_refresh/act0
 
-### マナリフレッシュ発動
+# マナリフレッシュ発動
 
 execute if score _ Level matches 1 run scoreboard players set _ ManaRefresh 602
 execute if score _ Level matches 2 run scoreboard players set _ ManaRefresh 902

@@ -1,5 +1,6 @@
+#> skill:act/summoner/call_crystal_attack/return/common
 
-### クリスタル帰還共通
+# クリスタル帰還共通
 
 function makeup:skill/act/summoner/call_crystal_attack/return/common
 

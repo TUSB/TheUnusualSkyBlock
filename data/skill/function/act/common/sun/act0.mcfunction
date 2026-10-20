@@ -1,5 +1,6 @@
+#> skill:act/common/sun/act0
 
-### サン
+# サン
 
 execute if data storage area: capture.skylands{011:1b} run time set noon
 

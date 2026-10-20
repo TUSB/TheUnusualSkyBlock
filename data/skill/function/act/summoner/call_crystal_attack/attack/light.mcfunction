@@ -1,5 +1,6 @@
+#> skill:act/summoner/call_crystal_attack/attack/light
 
-### クリスタルLight攻撃
+# クリスタルLight攻撃
 
 function makeup:skill/act/summoner/call_crystal_attack/attack/light
 

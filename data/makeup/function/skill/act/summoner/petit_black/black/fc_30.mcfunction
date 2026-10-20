@@ -1,3 +1,4 @@
+#> makeup:skill/act/summoner/petit_black/black/fc_30
 # frame 30 / 100
 # 中央円
 particle dust{color:[-1f,0f,-1f],scale:1.5f} ^0.136 ^-0.67 ^-0.089 0.0 0.0 0.0 0.0 1 force @a[distance=..32,tag=ShowParticles]

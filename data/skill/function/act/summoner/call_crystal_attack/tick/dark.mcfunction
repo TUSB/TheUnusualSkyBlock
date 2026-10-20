@@ -1,5 +1,6 @@
+#> skill:act/summoner/call_crystal_attack/tick/dark
 
-### クリスタルDarkパーティクル
+# クリスタルDarkパーティクル
 
 function makeup:skill/act/summoner/call_crystal_attack/tick/dark
 

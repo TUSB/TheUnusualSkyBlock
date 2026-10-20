@@ -1,5 +1,6 @@
+#> skill:act/summoner/fukafuka/expand
 
-### ふかふか展開
+# ふかふか展開
 
 function makeup:skill/act/summoner/fukafuka/expand
 

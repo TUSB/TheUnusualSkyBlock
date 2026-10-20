@@ -1,5 +1,6 @@
+#> skill:act/black_mage/magic_shield/activate
 
-### マジックシールド展開
+# マジックシールド展開
 
 scoreboard players remove @s MagicShield 1000
 

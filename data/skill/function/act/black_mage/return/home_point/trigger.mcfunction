@@ -1,5 +1,6 @@
+#> skill:act/black_mage/return/home_point/trigger
 
-### ホームポイント設定
+# ホームポイント設定
 
 execute if score @s HomePoint matches 1 store result score @s HomePoint run function skill:act/black_mage/return/home_point/check
 

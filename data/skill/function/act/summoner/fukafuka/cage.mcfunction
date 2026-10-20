@@ -1,12 +1,13 @@
+#> skill:act/summoner/fukafuka/cage
 
-### ふかふかケージ経過
+# ふかふかケージ経過
 
 
 tag @e[distance=..5,tag=!Cage,tag=Enemy,tag=!Unmoved] add Caught
 tag @e[distance=..5,tag=Caught] add DelayedTask
 
-###向きランダム化
+# 向きランダム化
 function calc:set/random_rotation
 
-###ぐるっと
+# ぐるっと
 function makeup:skill/act/summoner/fukafuka/cage_loop

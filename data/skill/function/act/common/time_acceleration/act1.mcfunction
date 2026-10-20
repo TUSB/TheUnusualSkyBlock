@@ -1,12 +1,13 @@
-##############################
-### 時間加速処理
-##############################
+#> skill:act/common/time_acceleration/act1
+#
+# 時間加速処理
+#
 
-#時間制御
+# 時間制御
 gamerule randomTickSpeed 3
 
-#表示
+# 表示
 tellraw @a {"translate":"時間の流れが元に戻った！"}
 
-#演出
+# 演出
 execute as @a at @s run function makeup:skill/act/common/time_acceleration/act1

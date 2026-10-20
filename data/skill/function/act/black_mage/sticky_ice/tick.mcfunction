@@ -1,5 +1,6 @@
+#> skill:act/black_mage/sticky_ice/tick
 
-### スティッキーアイス処理
+# スティッキーアイス処理
 
 execute unless block ~ ~ ~ minecraft:cobweb run kill @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:string"},Age:0s}]
 execute unless block ~ ~ ~ minecraft:cobweb run kill @e[type=item,distance=..1,limit=1,nbt={Item:{id:"minecraft:string"},Age:1s}]

@@ -1,5 +1,6 @@
+#> skill:act/summoner/call_crystal_attack/attack/common
 
-### クリスタル攻撃共通
+# クリスタル攻撃共通
 
 execute if score @s Level matches 101 run data modify storage skill: damage set from storage skill: Data.Summoner[{Name:"コールCマジック",Level:1}].Damage
 execute if score @s Level matches 102 run data modify storage skill: damage set from storage skill: Data.Summoner[{Name:"コールCマジック",Level:2}].Damage

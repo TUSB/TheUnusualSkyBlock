@@ -1,6 +1,7 @@
-##############################
-### ぽんぽん
-##############################
+#> skill:act/summoner/ponpon/assault
+#
+# ぽんぽん
+#
 
 item replace entity @s armor.feet with minecraft:air
 tag @s remove Assault

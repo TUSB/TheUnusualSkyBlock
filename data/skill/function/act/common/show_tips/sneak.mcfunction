@@ -1,3 +1,4 @@
+#> skill:act/common/show_tips/sneak
 
 # TIPSの総数を取得
 execute store result score _ _ run data get storage tusb_player: TIPS

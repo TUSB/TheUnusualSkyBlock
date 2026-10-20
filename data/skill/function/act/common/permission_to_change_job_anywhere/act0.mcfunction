@@ -1,5 +1,6 @@
+#> skill:act/common/permission_to_change_job_anywhere/act0
 
-### 職業どこでも変更許可
+# 職業どこでも変更許可
 
 # アイテムに記録されている許可職業を読み込み
 execute store result score _ _ run data get storage item: Item.components."minecraft:custom_data".PermissionJob

@@ -1,7 +1,8 @@
+#> skill:act/summoner/call_crystal_attack/act0
 
-### コールCマジック
+# コールCマジック
 
-#> コール系スキルのfunction構造
+# > コール系スキルのfunction構造
 #
 # コール系の中身は似たようなものが多いため、主な処理はコールCマジックにまとめる
 #

@@ -1,3 +1,4 @@
+#> skill:act/common/weakness_paint/one_second
 
 scoreboard players remove @s Weakness 1
 execute if score @s Weakness matches ..0 run function skill:act/common/weakness_paint/clear

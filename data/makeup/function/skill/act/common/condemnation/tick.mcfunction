@@ -1,6 +1,7 @@
-##############################
-### 断罪演出
-##############################
+#> makeup:skill/act/common/condemnation/tick
+#
+# 断罪演出
+#
 
 execute if score @s Interval matches 36.. run particle minecraft:dust{color:[1f,1f,0.7f],scale:1.0f} ^ ^ ^1.5 0 0 0 1 1 force @a
 execute if score @s Interval matches 35.. run particle minecraft:dust{color:[1f,1f,0.7f],scale:1.0f} ^ ^ ^1.6 0 0 0 1 1 force @a

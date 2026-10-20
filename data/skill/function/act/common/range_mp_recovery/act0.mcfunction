@@ -1,5 +1,6 @@
+#> skill:act/common/range_mp_recovery/act0
 
-### 範囲MP回復 発動
+# 範囲MP回復 発動
 
 execute if score _ Level matches 1 run scoreboard players set _ _ 25
 execute if score _ Level matches 2 run scoreboard players set _ _ 50

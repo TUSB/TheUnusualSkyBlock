@@ -1,5 +1,6 @@
+#> skill:act/summoner/call_crystal_attack/attack/lightning
 
-### クリスタルThunder攻撃
+# クリスタルThunder攻撃
 
 function makeup:skill/act/summoner/call_crystal_attack/attack/lightning
 

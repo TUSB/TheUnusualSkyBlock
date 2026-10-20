@@ -1,5 +1,6 @@
+#> skill:act/black_mage/return/home_point/check
 
-### ホームポイント 設定可能判定
+# ホームポイント 設定可能判定
 
 scoreboard players set @s _ 1
 

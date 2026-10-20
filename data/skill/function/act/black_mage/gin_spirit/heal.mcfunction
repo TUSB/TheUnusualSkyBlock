@@ -1,7 +1,8 @@
+#> skill:act/black_mage/gin_spirit/heal
 
-### ジン・スピリット 回復
+# ジン・スピリット 回復
 
-#回復量設定
+# 回復量設定
 execute if score @s Level matches 1 run scoreboard players set _ HealthHealing 4
 execute if score @s Level matches 2 run scoreboard players set _ HealthHealing 8
 execute if score @s Level matches 3 run scoreboard players set _ HealthHealing 12

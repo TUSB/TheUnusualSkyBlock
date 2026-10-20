@@ -1,5 +1,6 @@
+#> skill:act/summoner/call_crystal_attack/summon/light
 
-### 光クリスタル召喚
+# 光クリスタル召喚
 
 function skill:act/summoner/call_crystal_attack/summon/common
 data modify entity @e[tag=Initializing,limit=1,distance=0] ArmorItems[3].components."minecraft:firework_explosion".colors[0] set value 16777215

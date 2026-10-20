@@ -1,7 +1,8 @@
+#> skill:act/common/immunity/act0
 
-### 免疫
+# 免疫
 
-#免疫最低値から計算する
+# 免疫最低値から計算する
 scoreboard players set _ ResistEffects 20
 scoreboard players operation _ ResistEffects *= _ Level
 

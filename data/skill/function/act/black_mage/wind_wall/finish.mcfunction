@@ -1,5 +1,6 @@
+#> skill:act/black_mage/wind_wall/finish
 
-### ウィンドウォール終了処理
+# ウィンドウォール終了処理
 
 scoreboard players reset @s WindWall
 attribute @s minecraft:knockback_resistance modifier remove minecraft:00000000-0020-0000-0000-000000000000

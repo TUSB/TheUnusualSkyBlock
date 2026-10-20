@@ -1,3 +1,4 @@
+#> skill:act/black_mage/return/home_point/show
 
 function skill:act/black_mage/return/home_point/check
 

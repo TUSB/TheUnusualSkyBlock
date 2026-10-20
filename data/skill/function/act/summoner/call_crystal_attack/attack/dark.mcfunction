@@ -1,5 +1,6 @@
+#> skill:act/summoner/call_crystal_attack/attack/dark
 
-### クリスタルDark攻撃
+# クリスタルDark攻撃
 
 function makeup:skill/act/summoner/call_crystal_attack/attack/dark
 

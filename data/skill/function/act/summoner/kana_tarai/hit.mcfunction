@@ -1,12 +1,13 @@
-##############################
-### 金タライヒット
-##############################
+#> skill:act/summoner/kana_tarai/hit
+#
+# 金タライヒット
+#
 
-#ダメージをロード
+# ダメージをロード
 function skill:damage/load
-#ダメージ付与
+# ダメージ付与
 execute as @e[tag=Enemy,dx=0] run function skill:damage/apply/
-#kill
+# kill
 kill @s
-#演出
+# 演出
 function makeup:skill/act/summoner/kana_tarai/hit

@@ -1,9 +1,10 @@
+#> skill:act/common/restore_item/restore/
 
 function #oh_my_dat:please
 data modify storage tusb_player: RestoreItem set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].RestoreItemData[-1]
 data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].RestoreItemData[-1]
 
-#復活地点調整 AnywhereTeleport処理を利用
+# 復活地点調整 AnywhereTeleport処理を利用
 data modify storage anywhere: at set from storage tusb_player: RestoreItem.RaisePoint
 execute at @s run function #anywhere:tp
 
@@ -19,7 +20,7 @@ data modify block 2 2 2 Items set value []
 data modify block 2 2 2 Items append from storage item: Item
 item replace entity @s weapon.offhand from block 2 2 2 container.0
 
-#装備
+# 装備
 data remove storage item: Item
 data modify storage item: Item set from storage tusb_player: RestoreItem.Items[{Slot:100b}]
 data remove storage tusb_player: RestoreItem.Items[{Slot:100b}]
@@ -49,7 +50,7 @@ data modify block 2 2 2 Items set value []
 data modify block 2 2 2 Items append from storage item: Item
 item replace entity @s armor.head from block 2 2 2 container.0
 
-#ホットバー
+# ホットバー
 data modify block 2 2 2 Items set value []
 data modify block 2 2 2 Items append from storage tusb_player: RestoreItem.Items[{Slot:0b}]
 data modify block 2 2 2 Items append from storage tusb_player: RestoreItem.Items[{Slot:1b}]
@@ -71,7 +72,7 @@ data remove storage tusb_player: RestoreItem.Items[{Slot:7b}]
 data remove storage tusb_player: RestoreItem.Items[{Slot:8b}]
 loot replace entity @s hotbar.0 9 mine 2 2 2 debug_stick
 
-#インベントリ
+# インベントリ
 data modify block 2 2 2 Items set value []
 function skill:act/common/restore_item/restore/inventory
 loot replace entity @s inventory.0 27 mine 2 2 2 debug_stick

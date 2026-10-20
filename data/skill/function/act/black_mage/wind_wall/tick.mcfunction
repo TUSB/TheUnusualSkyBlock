@@ -1,7 +1,8 @@
+#> skill:act/black_mage/wind_wall/tick
 
-### ウィンドウォール処理
+# ウィンドウォール処理
 
-###投射物迎撃処理
+# 投射物迎撃処理
 execute as @e[type=#entity:projectiles,tag=!WindWallTornado,tag=!Skill,distance=..3,limit=1] on origin unless entity @s[predicate=entity:player] run tag @e[type=#entity:projectiles,tag=!WindWallTornado,tag=!Skill,distance=..3,limit=1] add NowTarget
 execute at @e[tag=NowTarget,distance=..3] run function skill:act/black_mage/wind_wall/detect
 tag @e[tag=NowTarget,distance=..3] remove NowTarget

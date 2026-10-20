@@ -1,8 +1,9 @@
+#> skill:act/black_mage/lightning_blow/act0
 
-### ライトニングブロー発動
+# ライトニングブロー発動
 
-## 各レベルの最低ためダメージ量
-### 60 -> 140 -> 420 -> 1000
+# 各レベルの最低ためダメージ量
+# 60 -> 140 -> 420 -> 1000
 
 # 各レベルにおける最大ためダメージ量
 execute if score _ Level matches 1 run scoreboard players set _ LightningBlow 6000

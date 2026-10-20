@@ -1,3 +1,4 @@
+#> skill:act/common/restore_item/return/loop
 
 summon item ~ ~ ~ {Tags:[RestoreItem,Initialized],Item:{id:"minecraft:stone",count:1}}
 data modify entity @e[tag=RestoreItem,limit=1,distance=0] Item set from storage tusb_player: RestoreItem.Items[-1]

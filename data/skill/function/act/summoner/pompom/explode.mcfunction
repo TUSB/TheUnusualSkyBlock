@@ -1,12 +1,13 @@
-##############################
-### ぽむぽむ花火爆発
-##############################
+#> skill:act/summoner/pompom/explode
+#
+# ぽむぽむ花火爆発
+#
 
-#ダメージをロード
+# ダメージをロード
 function skill:damage/load
-#ダメージ付与
+# ダメージ付与
 execute as @e[distance=..5,tag=Enemy] run function skill:damage/apply/
-#演出
+# 演出
 function makeup:skill/act/summoner/pompom/explode
 
 kill @s

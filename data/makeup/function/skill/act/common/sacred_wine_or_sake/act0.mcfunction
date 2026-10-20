@@ -1,5 +1,6 @@
+#> makeup:skill/act/common/sacred_wine_or_sake/act0
 
-playsound minecraft:entity.glow_squid.squirt master @s ~ ~ ~ 1 1 0
+playsound minecraft:entity.glow_squid.squirt player @s ~ ~ ~ 1 1 0
 
 particle minecraft:end_rod ~-0.5 ~0.0 ~-0.6 0 1 0 0.2 0 force @a
 particle minecraft:end_rod ~1.0 ~0.0 ~-0.3 0 1 0 0.5 0 force @a

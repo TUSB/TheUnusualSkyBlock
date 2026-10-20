@@ -1,2 +1,3 @@
+#> makeup:skill/act/common/restore_item/return
 
-playsound block.chest.open master @s ~ ~ ~ 1 1
+playsound block.chest.open player @s ~ ~ ~ 1 1

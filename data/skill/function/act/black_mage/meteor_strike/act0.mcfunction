@@ -1,8 +1,9 @@
-##############################
-### メテオストライク
-##############################
+#> skill:act/black_mage/meteor_strike/act0
+#
+# メテオストライク
+#
 
-#前方を探索
+# 前方を探索
 data modify storage calc: SearchForward set value {Loop:28,Stop:[Mob,Block],Align:0b}
 execute anchored eyes positioned ^ ^ ^ anchored feet run function calc:geometry/search_forward/
 

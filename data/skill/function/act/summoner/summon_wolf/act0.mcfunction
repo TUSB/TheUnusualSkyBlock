@@ -1,8 +1,9 @@
-##############################
-### サモンＰ：ウルフ
-##############################
+#> skill:act/summoner/summon_wolf/act0
+#
+# サモンＰ：ウルフ
+#
 
-#前方を探索
+# 前方を探索
 data modify storage calc: SearchForward set value {Loop:5,Stop:[Block],Align:1b}
 execute anchored eyes positioned ^ ^ ^ anchored feet run function calc:geometry/search_forward/
 

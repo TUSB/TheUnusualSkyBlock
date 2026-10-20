@@ -1,7 +1,8 @@
+#> skill:act/summoner/fukafuka/cage_delayed
 
-### ふかふかケージ遅延処理
+# ふかふかケージ遅延処理
 
-#2tickに1回
+# 2tickに1回
 execute store result score _ Calc run time query gametime
 scoreboard players set _ _ 2
 scoreboard players operation _ Calc %= _ _

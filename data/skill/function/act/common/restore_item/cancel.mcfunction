@@ -1,3 +1,4 @@
+#> skill:act/common/restore_item/cancel
 
 tellraw @s {"translate":"リスト・アイテムはキャンセルされました"}
 

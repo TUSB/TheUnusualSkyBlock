@@ -1,7 +1,8 @@
+#> skill:act/black_mage/lightning_blow/damage
 
-### ライトニングブロー攻撃
+# ライトニングブロー攻撃
 
-###スタン
+# スタン
 scoreboard players set _ Isukumi 2
 function skill:act/ninja/isukumi/stop
 

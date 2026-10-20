@@ -1,3 +1,4 @@
+#> skill:act/common/restore_item/restore/inventory
 
 execute store result score _ _ run data get storage tusb_player: RestoreItem.Items[-1].Slot
 execute store result storage tusb_player: RestoreItem.Items[-1].Slot byte 1 run scoreboard players remove _ _ 9

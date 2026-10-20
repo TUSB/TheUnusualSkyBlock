@@ -1,3 +1,4 @@
+#> skill:act/common/restore_item/tick
 
 scoreboard players remove @s[scores={RestoreItem=10..}] RestoreItem 10
 

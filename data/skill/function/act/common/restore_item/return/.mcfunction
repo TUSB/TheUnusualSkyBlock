@@ -1,3 +1,4 @@
+#> skill:act/common/restore_item/return/
 
 data modify storage tusb_player: RestoreItem set from storage tusb_player: RestoreItemData[-1]
 data remove storage tusb_player: RestoreItem.Items[].Slot

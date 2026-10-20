@@ -1,9 +1,10 @@
+#> skill:act/black_mage/return/act0
 
-### ルーラ発動
+# ルーラ発動
 
 tellraw @s [{"translate":"%1$sはルーラを唱えた！","with":[{"selector":"@s"}]}]
 
-#頭上ブロック確認
+# 頭上ブロック確認
 scoreboard players set _ _ 0
 execute store success score _ _ if block ~ 319 ~ minecraft:air if blocks ~ ~2 ~ ~ 319 ~ ~ ~1 ~ masked
 execute if score _ _ matches 0 run tellraw @a {"translate":"* 頭上が遮られていたため、発動できなかった！"}

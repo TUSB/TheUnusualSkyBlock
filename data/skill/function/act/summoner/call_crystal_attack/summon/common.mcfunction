@@ -1,5 +1,6 @@
+#> skill:act/summoner/call_crystal_attack/summon/common
 
-### クリスタル召喚共通
+# クリスタル召喚共通
 
 
 summon minecraft:armor_stand ~ ~ ~ {Invulnerable:true,Invisible:true,Small:true,NoGravity:true,PortalCooldown:120,Tags:[Initializing],ArmorItems:[{},{},{},{id:"minecraft:firework_star",components:{"minecraft:custom_model_data":{floats:[4004.0f]},"minecraft:firework_explosion":{shape:"small_ball",colors:[I;9225471]}},count:1}]}

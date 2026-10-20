@@ -1,3 +1,4 @@
+#> skill:act/common/restore_item/save
 
 data modify storage tusb_player: RestoreItemData append value {Items:[],RaisePoint:{Pos:[],Rotation:[],Dimension:""}}
 data modify storage tusb_player: RestoreItemData[-1].Items set from entity @s Inventory

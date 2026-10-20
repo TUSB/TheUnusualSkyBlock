@@ -1,12 +1,13 @@
+#> skill:act/common/cure_field/apply
 
-##############################
-### キュアフィールド効果付与
-##############################
+#
+# キュアフィールド効果付与
+#
 
-#空腹デバフ解除
+# 空腹デバフ解除
 effect clear @s minecraft:hunger
 
-#MP回復 重複しない
+# MP回復 重複しない
 scoreboard players operation _ Calc = _ _
 scoreboard players operation _ Calc -= @s MPHealingWait
 scoreboard players operation _ Calc > _ _

@@ -1,3 +1,4 @@
+#> makeup:skill/act/summoner/call_crystal_enhance/lightning
 
 particle minecraft:dust{color:[1f,1f,0f],scale:3.0f} ~ ~2 ~5 1.75 1.75 0 0 100 force
 particle minecraft:dust{color:[1f,1f,0f],scale:3.0f} ~ ~2 ~-5 1.75 1.75 0 0 100 force

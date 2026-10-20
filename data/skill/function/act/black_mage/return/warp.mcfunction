@@ -1,5 +1,6 @@
+#> skill:act/black_mage/return/warp
 
-### ルーラ ワープ
+# ルーラ ワープ
 # ワープ処理はAnywhereTeleportを利用する
 
 function #oh_my_dat:please

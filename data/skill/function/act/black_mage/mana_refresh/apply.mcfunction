@@ -1,5 +1,6 @@
+#> skill:act/black_mage/mana_refresh/apply
 
-### マナリフレッシュ適用
+# マナリフレッシュ適用
 
 scoreboard players operation @s ManaRefresh > _ ManaRefresh
 

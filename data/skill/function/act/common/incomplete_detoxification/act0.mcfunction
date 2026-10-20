@@ -1,5 +1,6 @@
+#> skill:act/common/incomplete_detoxification/act0
 
-### 不完全な解毒
+# 不完全な解毒
 # バフ・デバフを削除する
 
 effect clear @a[distance=..4] minecraft:absorption

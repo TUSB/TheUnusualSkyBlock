@@ -1,6 +1,7 @@
-##############################
-### フィール７
-##############################
+#> skill:act/summoner/fill/level7
+#
+# フィール７
+#
 
 function skill:act/summoner/fill/level5
 execute positioned ~2 ~-1 ~2 if block ~ ~ ~ minecraft:white_wool run fill ~-1 ~ ~-1 ~1 ~ ~1 minecraft:white_wool keep

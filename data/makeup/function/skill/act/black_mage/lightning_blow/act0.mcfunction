@@ -1,6 +1,7 @@
+#> makeup:skill/act/black_mage/lightning_blow/act0
 
-playsound minecraft:entity.firework_rocket.twinkle master @a[distance=..16] ~ ~ ~ 1 2
-playsound minecraft:item.trident.thunder master @a[distance=..16] ~ ~ ~ 0.6 2
+playsound minecraft:entity.firework_rocket.twinkle player @a[distance=..16] ~ ~ ~ 1 2
+playsound minecraft:item.trident.thunder player @a[distance=..16] ~ ~ ~ 0.6 2
 particle minecraft:totem_of_undying ~ ~1 ~ 0 0 0 0.6 30 force
 particle minecraft:totem_of_undying ~ ~4 ~ 0 0 0 0.4 30 force
 execute rotated ~ 0 positioned ^-0.3 ^1.2 ^0.3 run particle minecraft:dust{color:[0.8f,0f,1f],scale:0.6f} ~ ~ ~ 0.15 0.4 0.15 0 50 force

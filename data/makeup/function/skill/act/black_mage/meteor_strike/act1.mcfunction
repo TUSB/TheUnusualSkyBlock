@@ -1,8 +1,9 @@
-playsound minecraft:ambient.basalt_deltas.mood master @a[distance=..32] ~ ~ ~ 3 2
-playsound minecraft:ambient.basalt_deltas.mood master @a[distance=..32] ~ ~ ~ 3 2
-playsound minecraft:ambient.basalt_deltas.mood master @a[distance=..32] ~ ~ ~ 3 2
-playsound minecraft:ambient.basalt_deltas.mood master @a[distance=..32] ~ ~ ~ 3 2
-playsound minecraft:ambient.basalt_deltas.mood master @a[distance=..32] ~ ~ ~ 3 2
+#> makeup:skill/act/black_mage/meteor_strike/act1
+playsound minecraft:ambient.basalt_deltas.mood player @a[distance=..32] ~ ~ ~ 3 2
+playsound minecraft:ambient.basalt_deltas.mood player @a[distance=..32] ~ ~ ~ 3 2
+playsound minecraft:ambient.basalt_deltas.mood player @a[distance=..32] ~ ~ ~ 3 2
+playsound minecraft:ambient.basalt_deltas.mood player @a[distance=..32] ~ ~ ~ 3 2
+playsound minecraft:ambient.basalt_deltas.mood player @a[distance=..32] ~ ~ ~ 3 2
 
 # [ImportKey]: NobwRALgngDgpmAXGAxgSwE4oDYIDRgCuhaAJkmACwBsc1ArAIykBGAtNSwJwDsbljAEyC2XSlxT84jHoIBmXAMz0UnMAQB2AQwC2CZIDDFAASN1YGFoy6AzknAoA9oQ0QkigAwEUcF3Ax2wADctbEJ9cAAPJE8wKGiAX3iCK1I0QltEagJrCEtXRBi4bGw0GGt9RncYjAdciH0YtGsAUWLS8uaAR0IQ7CgAZQtvckQ5EPLEvHBoeAoYBz6AcwcNM2IyChQeSnpFRR52LUEtRX4jyjYtekpTxVI5SgAOBRYWRUeeM209CkAsTUAlyMARvomMwWKw6DL2JwuJCMRReHz1fyIcDBULhMBRAoEOIFSZgFJpDJZMA5PLRAhFEplCpVZK1LT1CmoBwYDR+JD0AgAK0IOhgSEEBBYcAAXmgOdiwE1WtSOt1egMhnARmNsOUCE0AEJiiUYLo9YpKrTDJBqibxAC6QA_3
 # 多角形 1
