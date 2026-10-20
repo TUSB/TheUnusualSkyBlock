@@ -23,7 +23,7 @@ execute store result entity @s Pos[1] double 0.01 run scoreboard players get _ E
 # 演出
 function makeup:skill/act/black_mage/eclipse_flame/explosion
 # サウンドは4Tickに1回流す
-scoreboard players operation _ _ = $Tick Count
+scoreboard players operation _ _ = $Ticks Count
 scoreboard players set _ Calc 5
 scoreboard players operation _ _ %= _ Calc
 execute if score _ _ matches 0 run function makeup:skill/act/black_mage/eclipse_flame/sound
