@@ -8,3 +8,6 @@
     execute store result score _ _ run function calc:geometry/distance/
 # ダメージ付与
     execute if score _ _ <= # Calc run function skill:damage/apply/
+
+# デバフ付与
+function effect:enemy_debuff/curse/apply

@@ -13,6 +13,9 @@
 
 # ダメージ適用
     execute as @e[tag=Enemy,tag=Landing,distance=..32] run function skill:damage/apply/
+    # デバフ付与
+        execute as @e[tag=Enemy,tag=Landing,distance=..32] run function effect:enemy_debuff/electrification/apply
+        execute as @e[tag=Enemy,tag=Landing,distance=..32] run function effect:enemy_debuff/curse/apply
     tag @e[tag=Enemy,tag=Landing,distance=..32] remove Landing
 
 # 音

@@ -11,3 +11,5 @@ data remove storage skill: damage.Physical
 
 
 execute as @e[tag=Enemy,distance=..10] run function skill:damage/apply/
+# デバフ付与
+execute as @e[tag=Enemy,distance=..10] run function effect:enemy_debuff/electrification/apply

@@ -10,3 +10,5 @@ execute if entity @s[tag=!CondemnationApplied] run function skill:act/common/con
 # ボスであれば追加ダメージ(x2)
 function skill:damage/apply/
 execute if entity @s[tag=Boss] run function skill:damage/apply/
+# デバフ付与
+function effect:enemy_debuff/fear/apply

@@ -10,5 +10,7 @@ execute if score _ Level matches 3 run data modify storage skill: damage set fro
 
 # ダメージ付与
 execute as @e[distance=..30,tag=Enemy] at @s if block ~ ~-1 ~ #minecraft:wool run function skill:damage/apply/
+# デバフ付与
+execute as @e[distance=..30,tag=Enemy] at @s if block ~ ~-1 ~ #minecraft:wool run function effect:enemy_debuff/fear/apply
 # 演出
 function makeup:skill/act/summoner/deal/act0
