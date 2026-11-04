@@ -47,6 +47,46 @@ execute if entity @s[tag=SacredPillar] run function skill:act/white_mage/sacred_
 # ホーリー
 execute if entity @s[tag=Holy] run function skill:act/white_mage/holy/tick
 
+## 黒魔導士
+# スティッキーアイス処理
+execute if entity @s[tag=StickyIce] run function skill:act/black_mage/sticky_ice/tick
+# メテオストライク処理
+execute if entity @s[tag=MeteorStrike] run function skill:act/black_mage/meteor_strike/tick
+# キャンドル処理
+execute if entity @s[tag=Candle] positioned ~ ~1 ~ unless entity @e[tag=Candle,distance=..0.01,limit=1] positioned as @s run function skill:act/black_mage/candle/tick
+# ジン・スピリットコウモリ処理
+execute if entity @s[tag=GinSpiritBat] positioned ~-0.5 ~-0.5 ~-0.5 if entity @a[dx=0,dy=0,dz=0,gamemode=!creative,gamemode=!spectator,limit=1] run function skill:act/black_mage/gin_spirit/heal
+# ウィンドウォール竜巻処理
+execute if entity @s[tag=WindWallTornado] run function makeup:skill/act/black_mage/wind_wall/tick_tornado
+
+## 召喚士
+# 金タライ処理
+execute if entity @s[tag=KanaTarai] if entity @e[tag=Enemy,dx=0] run function skill:act/summoner/kana_tarai/hit
+# サモンＢ処理
+execute if entity @s[tag=SummonedBlock] run function skill:act/summoner/fill/tick
+# ふかふか処理
+execute if entity @s[tag=Fukafuka] run function skill:act/summoner/fukafuka/tick
+# コールC処理
+execute if entity @s[tag=Crystal] run function skill:act/summoner/call_crystal_attack/tick/all
+# グライダー処理
+execute if entity @s[tag=Glider] run function skill:act/summoner/summon_glider/glide
+# ぷちブラック処理
+execute if entity @s[tag=PetitBlack] run function skill:act/summoner/petit_black/tick
+# ぷむぽむ花火処理
+execute if entity @s[tag=PomPom] run function skill:act/summoner/pompom/tick
+
+## 共通
+# ウィークペイント
+execute if entity @s[tag=WeakPaint] run function makeup:skill/act/common/weakness_paint/tick
+# ホームラン
+execute if entity @s[tag=HomeRun] run function skill:act/common/home_run/tick/
+# ふかふかケージ
+execute if entity @s[tag=Cage] run function skill:act/summoner/fukafuka/cage
+# ジン・スピリット処理
+execute if entity @s[tag=GinSpirit] run function skill:act/black_mage/gin_spirit/tick
+# 断罪処理
+execute if entity @s[tag=Condemnation] run function skill:act/common/condemnation/tick0
+
 ## トラップ
 # ニフラムトラップ
 execute if entity @s[tag=ExpelTrap] run function skill:act/hunter/expel_trap/tick

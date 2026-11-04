@@ -9,3 +9,10 @@ execute if entity @s[scores={Kazakiri=0..}] run function skill:act/ninja/kazakir
 
 # 黙想
 execute if entity @s[scores={Mokuso=0..}] run function skill:act/ninja/mokuso/tick
+
+## 共通
+# スカイウォーク
+execute if entity @s[scores={SkyWalk=1..}] run function skill:act/common/sky_walk/tick
+
+# 怪しい粉
+execute if entity @s[scores={SuspiciousPowderTime=1..}] run function skill:act/common/suspicious_powder/one_second

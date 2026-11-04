@@ -48,3 +48,20 @@ execute if entity @s[scores={RadarVision=1..}] run function skill:act/hunter/rad
 ## 白魔導士
 # ソルフレア
 execute if score @s SolFlareCharge matches 0.. run function skill:act/white_mage/sol_flare/tick
+
+## 黒魔導士
+# ライトニングブロー
+execute if entity @s[scores={LightningBlow=1..}] run function skill:act/black_mage/lightning_blow/tick
+
+# マジックシールド
+execute if entity @s[scores={MagicShield=0..}] run function skill:act/black_mage/magic_shield/tick
+
+# ウィンドウォール
+execute if entity @s[scores={WindWall=1..}] run function skill:act/black_mage/wind_wall/tick
+
+# ルーラ
+execute if entity @s[scores={HomePoint=1..}] run function skill:act/black_mage/return/home_point/trigger
+
+## 共通
+# リスト・アイテム
+execute if entity @s[scores={RestoreItem=0..}] run function skill:act/common/restore_item/tick
