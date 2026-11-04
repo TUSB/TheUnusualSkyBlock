@@ -6,7 +6,7 @@
 # ダメージ
 execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.Common[{Name:"ウィークペイント",Level:1}].Damage
 execute if score _ Level matches 2 run data modify storage skill: damage set from storage skill: Data.Common[{Name:"ウィークペイント",Level:2}].Damage
-function skill:damage/add/skill/magic
+
 # 投射物を召喚
 execute anchored eyes run summon arrow ^ ^ ^0.5 {Tags:[Skill,WeakPaint,NativeTask,FlyingRequired,KillInGround],NoGravity:1b,damage:1,SoundEvent:"minecraft:block.beacon.deactivate",item:{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:potion_contents":{custom_color:3752270}}}}
 execute as @e[tag=WeakPaint,tag=!Initialized,distance=..3] positioned 0.0 0.0 0.0 positioned ^ ^ ^1.8 run function calc:throw_projectile/

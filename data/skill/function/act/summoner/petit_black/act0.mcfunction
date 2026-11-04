@@ -3,7 +3,7 @@
 # ダメージ
     execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.Summoner[{Name:"サモンぷちブラック",Level:1}].Damage
     execute if score _ Level matches 2 run data modify storage skill: damage set from storage skill: Data.Summoner[{Name:"サモンぷちブラック",Level:2}].Damage
-    function skill:damage/add/skill/magic
+    
 
 # 矢とAECを召喚
     execute anchored eyes run summon arrow ^ ^ ^0.5 {Tags:[Skill,PetitBlackBullet,NativeTask,FlyingRequired,KillInGround],NoGravity:1b,damage:1,Passengers:[{id:"minecraft:area_effect_cloud",Duration:300,Tags:[Skill,PetitBlack,NativeTask]}],item:{id:"minecraft:tipped_arrow",count:1,components:{"minecraft:potion_contents":{custom_color:11144657}}}}

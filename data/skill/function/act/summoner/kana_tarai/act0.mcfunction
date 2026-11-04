@@ -8,7 +8,7 @@ execute as @e[distance=..15,tag=Enemy] at @s anchored eyes positioned ^ ^ ^ run 
 # ダメージ
 execute if score _ Level matches 1 run data modify storage skill: damage set from storage skill: Data.Summoner[{Name:"金タライ",Level:1}].Damage
 execute if score _ Level matches 2 run data modify storage skill: damage set from storage skill: Data.Summoner[{Name:"金タライ",Level:2}].Damage
-function skill:damage/add/skill/magic
+
 # ダメージを保存
 execute as @e[tag=KanaTaraiInit,distance=..32] run function skill:damage/save
 tag @e[tag=KanaTaraiInit,distance=..32] remove KanaTaraiInit

@@ -8,6 +8,6 @@ function skill:act/summoner/call_crystal_attack/attack/common
 
 data modify storage skill: damage.Dark set from storage skill: damage.Physical
 data remove storage skill: damage.Physical
-function skill:damage/add/skill/magic
+
 
 execute as @e[tag=Enemy,distance=..10] run function skill:damage/apply/
