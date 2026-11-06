@@ -1,7 +1,6 @@
 #> skill:act/knight/reactive_heal/toggle
 #
 # リアクティブヒール 人参棒でトグル
-
 scoreboard players set _ _ 0
 execute if entity @a[distance=..32,scores={Burst=0..,Job=7}] run scoreboard players remove _ Level 1
 execute if score @s ReactiveLevel = _ Level store success score _ _ run scoreboard players reset @s ReactiveLevel

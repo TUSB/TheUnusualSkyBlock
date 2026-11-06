@@ -1,5 +1,6 @@
 #> skill:act/knight/aerial_slash/re_aim
-### 真空斬りリエイム
+#
+# 真空斬りリエイム
 
 # タイマー再設定
 scoreboard players set @s _ 5

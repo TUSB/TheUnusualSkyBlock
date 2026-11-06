@@ -1,8 +1,10 @@
 #> skill:act/knight/iron_will/trigger
+#
+# アイアンウィル被撃
+#
 # @within advancement skill:iron_will
-### アイアンウィル被撃
 
 function skill:act/knight/iron_will/save
 
-###進捗トリガーリセット
+# 進捗トリガーリセット
 advancement revoke @s only skill:iron_will

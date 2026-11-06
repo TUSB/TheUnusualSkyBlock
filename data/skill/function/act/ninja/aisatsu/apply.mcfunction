@@ -2,6 +2,7 @@
 #
 # アイサツ効果適用
 
+# 消費MP軽減
 scoreboard players operation _ MP -= @s Aisatsu
 execute if score _ MP matches ..-1 run scoreboard players set _ MP 0
 

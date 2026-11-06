@@ -26,14 +26,16 @@ scoreboard objectives add MPMax dummy {"text":"MP最大値"}
 scoreboard objectives add Attack dummy {"text":"物理攻撃力"}
 scoreboard objectives add Defense dummy {"text":"物理防御力"}
 scoreboard objectives add MagicAttack dummy {"text":"魔法攻撃力"}
-scoreboard objectives add MagicDefence dummy {"text":"魔法防御力"}
+scoreboard objectives add MagicDefense dummy {"text":"魔法防御力"}
 scoreboard objectives add UnreasonableAttack dummy {"text":"理外攻撃力"}
-scoreboard objectives add UnreasonableDefence dummy {"text":"理外防御力"}
+scoreboard objectives add UnreasonableDefense dummy {"text":"理外防御力"}
 scoreboard objectives add BaseTotal dummy {"text":"合計基礎ポイント"}
 scoreboard objectives add GrowTotal dummy {"text":"合計成長ポイント"}
 scoreboard objectives add Damage dummy {"text":"ダメージ"}
 scoreboard objectives add HealthHealing dummy {"text":"HP回復量"}
 scoreboard objectives add Age minecraft.custom:minecraft.time_since_death {"text":"生きている時間"}
+scoreboard objectives add BeforeXP dummy {"text":"前のXP量"}
+scoreboard objectives add XP xp {"text":"現在のXP量"}
 scoreboard objectives add ParticleDenom dummy {"text":"パーティクル表示割合"}
 scoreboard objectives add BreakSpawner dummy {"text":"スポナー破壊数"}
 scoreboard objectives add FoodLevel food {"text":"満腹度"}
@@ -43,6 +45,7 @@ scoreboard objectives add StoredDamage dummy {"text":"累積ダメージ"}
 scoreboard objectives add Health health {"text":"HP"}
 scoreboard objectives setdisplay below_name Health
 scoreboard objectives add NativeFlag dummy {"text":"常時実行フラグ"}
+scoreboard objectives add Shield dummy {"text": "Shield"}
 
 ###アイテム
 scoreboard objectives add EnchantLevel dummy {"text":"エンチャントレベル"}
@@ -57,15 +60,22 @@ scoreboard objectives add ConfuseCount dummy {"text":"混乱カウント"}
 scoreboard objectives add DoomCount dummy {"text":"死の宣告カウント"}
 scoreboard objectives add PalsyLevel dummy {"text":"麻痺レベル"}
 scoreboard objectives add TntCount dummy {"text":"トントカウント"}
+scoreboard objectives add VirusResistance dummy {"text":"病気耐性"}
+scoreboard objectives add VirusTimer dummy {"text":"病気タイマー"}
 scoreboard objectives add VirusCount dummy {"text":"病気カウント"}
+scoreboard objectives add FreezeResistance dummy {"text":"凍結耐性"}
 scoreboard objectives add FreezeTimer dummy {"text":"凍結タイマー"}
 scoreboard objectives add BurnResistance dummy {"text":"火だるま耐性"}
 scoreboard objectives add BurnTimer dummy {"text":"火だるまタイマー"}
 scoreboard objectives add BurnCount dummy {"text":"火だるまカウント"}
 scoreboard objectives add ElectrificationResistance dummy {"text":"帯電耐性"}
 scoreboard objectives add ElectrificationTimer dummy {"text":"帯電カウント"}
+scoreboard objectives add FearResistance dummy {"text":"畏怖耐性"}
+scoreboard objectives add FearTimer dummy {"text":"畏怖タイマー"}
+scoreboard objectives add FearInterval dummy {"text":"畏怖インターバル"}
 scoreboard objectives add CurseResistance dummy {"text":"呪蝕耐性"}
 scoreboard objectives add CurseTimer dummy {"text":"呪蝕タイマー"}
+scoreboard objectives add RevivalSicknessTimer dummy {"text":"復活酔いタイマー"}
 scoreboard objectives add GameTime dummy {"text":"ゲームタイム"}
 scoreboard objectives add ProjectileTime minecraft.custom:minecraft.play_time {"text":"投射物ヒットタイマー"}
 scoreboard objectives add ShieldUsingTick dummy {"text":"盾を使用したtick"}
@@ -74,7 +84,8 @@ scoreboard objectives add ShieldUsingTick dummy {"text":"盾を使用したtick"
 scoreboard objectives add Calc dummy {"text": "計算用"}
 scoreboard objectives add Random dummy {"text": "乱数用"}
 scoreboard objectives add TitleOffset dummy {"text":"タイトル表示オフセット"}
-scoreboard objectives add ArrowRotation dummy {"text":"矢の向き"}
+scoreboard objectives add ArrowMotionX dummy {"text":"矢の速度 X"}
+scoreboard objectives add ArrowMotionZ dummy {"text":"矢の速度 Z"}
 scoreboard objectives add ProjectileLife dummy {"text":"飛翔物生存時間"}
 
 ###ジョブ系
@@ -101,6 +112,7 @@ scoreboard objectives add MPConsumption dummy {"text":"MP回復量"}
 scoreboard objectives add TrackingID dummy {"text":"追尾スキル同期ID"}
 scoreboard objectives add SkillShortcut dummy {"text":"スキル設定中tick"}
 scoreboard objectives add Burst dummy {"text":"バースト管理"}
+scoreboard objectives add BurstTimer dummy {"text":"バースト残り時間"}
 #剣士
 scoreboard objectives add FalconSlashTimer dummy {"text":"はやぶさ斬り遅延タイマー"}
 scoreboard objectives add IronWill dummy {"text":"アイアンウィル残りtick数"}
@@ -109,6 +121,7 @@ scoreboard objectives add OdinSlash dummy {"text":"斬鉄剣発動タイミン�
 scoreboard objectives add ReactiveLevel dummy {"text":"リアクティブヒールレベル"}
 scoreboard objectives add TacticalHeal dummy {"text":"タクティカルヒール持続確率"}
 #忍者
+scoreboard objectives add ShurikenPierceCount dummy {"text":"手裏剣貫通数"}
 scoreboard objectives add Choyaku dummy {"text":"跳躍跳躍力"}
 scoreboard objectives add ChoyakuLevel dummy {"text":"跳躍レベル"}
 scoreboard objectives add Aisatsu dummy {"text":"アイサツ消費MP減少効果量"}
@@ -120,15 +133,23 @@ scoreboard objectives add Suiton dummy {"text":"水遁"}
 scoreboard objectives add Issen dummy {"text":"一閃継続tick数"}
 scoreboard objectives add Isukumi dummy {"text":"居縮継続秒数"}
 scoreboard objectives add Kaishaku dummy {"text":"介錯残りtick数"}
-scoreboard objectives add SayonaraLevel dummy {"text":"サヨナラレベル"}
 scoreboard objectives add TsuremaiLevel dummy {"text":"連舞レベル"}
+scoreboard objectives add HyokaRyoranTimer dummy {"text":"氷華繚乱タイマー"}
 #狩人
 scoreboard objectives add PiercingAim dummy {"text":"ピアッシングエイム継続秒数"}
-scoreboard objectives add RaderVision dummy {"text":"レーダーヴィジョン継続tick数"}
+scoreboard objectives add RadarVision dummy {"text":"レーダーヴィジョン継続tick数"}
 scoreboard objectives add WildCooking dummy {"text":"ワイルドクッキング継続秒数"}
 scoreboard objectives add WildHealing dummy {"text":"ワイルドヒーリングレベル"}
 scoreboard objectives add EnergySave dummy {"text":"エナジーセーブ消費MP減少効果量"}
 scoreboard objectives add BlastSpark dummy {"text":"ブラストスパーク継続tick数"}
+scoreboard objectives add Kasap dummy {"text":"ルカナントラップ継続秒数"}
+scoreboard objectives add KasapRatio dummy {"text":"ルカナントラップダメージ倍率"}
+scoreboard objectives add Decelerate dummy {"text":"ボミオストラップ継続秒数"}
+scoreboard objectives add WildFlareInterval dummy {"text":"ワイルドフレアダメージインターバル"}
+#白魔導士
+scoreboard objectives add HaloBound dummy {"text":"ヘイローバウンド演出カウント"}
+scoreboard objectives add SolFlare dummy {"text":"ソルフレアカウント"}
+scoreboard objectives add SolFlareCharge dummy {"text":"ソルフレアチャージ"}
 #黒魔導士
 scoreboard objectives add EclipseRadius dummy {"text":"エクリプスフレイム半径"}
 scoreboard objectives add LightningBlow dummy {"text":"ライトニングブロー威力"}
@@ -147,12 +168,6 @@ scoreboard objectives add Weakness dummy {"text":"ウィークペイント効果
 scoreboard objectives add RestoreItem trigger {"text":"リスト・アイテム処理選択"}
 scoreboard objectives add SuspiciousPowderTime dummy {"text":"怪しい粉継続秒数"}
 scoreboard objectives add SuspiciousPowderToken dummy {"text":"怪しい粉消費MP量"}
-
-###バースト ボスバー
-bossbar add skill:burst {"translate":"バーストゲージ","italic":true,"bold":true}
-bossbar set skill:burst color white
-bossbar set skill:burst visible false
-bossbar set skill:burst style notched_6
 
 ###乱数初期化
 summon minecraft:area_effect_cloud ~ ~ ~ {Age:0,WaitTime:1,ReapplicationDelay:0,Duration:0,Tags:[Initialized]}
@@ -235,9 +250,6 @@ scoreboard objectives add ActionTick dummy {"text":"行動時間"}
 scoreboard objectives add NextActionTick dummy {"text":"次の行動時間"}
 scoreboard objectives add BlinkSubTimer dummy {"text":"幻影発動時タイマー"}
 scoreboard objectives add ParentID dummy {"text":"親ID"}
-
-#ScoreDamage
-function score_damage:core/init
 
 #SmartMotion
 function smart_motion:core/load_once

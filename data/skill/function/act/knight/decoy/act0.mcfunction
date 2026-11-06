@@ -1,5 +1,6 @@
 #> skill:act/knight/decoy/act0
-### デコイ発動
+#
+# デコイ発動
 
 function makeup:skill/act/knight/decoy/act0
 

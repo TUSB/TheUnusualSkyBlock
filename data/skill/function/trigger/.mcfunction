@@ -1,5 +1,6 @@
 #> skill:trigger/
-#トリガー
+#
+# トリガー
 
 # 現在の職業のスキルを表示するように選択
 execute if score @s ChangeSkill matches 1 run function skill:trigger/tellraw/current_job

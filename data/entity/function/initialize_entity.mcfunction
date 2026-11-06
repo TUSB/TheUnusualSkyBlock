@@ -5,7 +5,7 @@
 ###################################################
 
 ### 自然湧き処理
-execute if entity @s[type=#entity:natural_spawn,tag=] run function enemy:natural_spawn_type
+execute if entity @s[type=#entity:natural_spawn,tag=] run function enemy:natural_spawn/fork
 
 ### モブ召喚
 execute if entity @s[tag=Spawn] run function entity:spawn/
@@ -44,6 +44,9 @@ data modify entity @s[type=#entity:item_frames] Invulnerable set value 1b
 
 #SmartMotion E (反発係数)
 execute unless score @s[tag=SmartMotion] sm.E matches -2147483648..2147483647 run scoreboard players set @s sm.E 100
+
+# 未管理の経験値オーブを削除
+tag @s[type=experience_orb,tag=!BurstOrb] add Garbage
 
 #NativeFlag スコア付与 それぞれのタグで付与を独立させる
 scoreboard players add @s[tag=DamageProjectile] NativeFlag 1

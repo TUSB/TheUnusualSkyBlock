@@ -22,3 +22,6 @@ team join Friendly
 
 #スキルショートカット
 data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].SkillShortcut set value [{Skill:"<未設定>"},{Skill:"<未設定>"},{Skill:"<未設定>"},{Skill:"<未設定>"},{Skill:"<未設定>"},{Skill:"<未設定>"}]
+
+# バースト初期化
+function player:burst/bar/init

@@ -1,7 +1,8 @@
 #> skill:show_interval/check
-#インターバル表示
+#
+# インターバル表示
 
-#装備を取得
+# 装備を取得
 function player:load_equipments
 function skill:equipments_to_items
 data remove storage item: Item

@@ -1,0 +1,7 @@
+{
+  "condition": "minecraft:inverted",
+  "term": {
+    "condition": "minecraft:reference",
+    "name": "entity:has_in_ground/not_flying"
+  }
+}

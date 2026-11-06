@@ -1,5 +1,6 @@
 {
   "values": [
-    "tusb:unreasonable"
+    "#entity:magic",
+    "#entity:unreasonable"
   ]
 }

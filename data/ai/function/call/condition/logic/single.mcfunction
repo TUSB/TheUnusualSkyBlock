@@ -6,7 +6,7 @@ data modify storage mob_data: Condition set from storage mob_data: Call.Conditio
 data remove storage mob_data: Call.Condition[0]
 
 #条件フラグ
-function ai:call/condition/condition/
+function ai:call/condition/condition/ with storage mob_data: Condition
 
 #Notフラグ
 execute store success score _ _ if data storage mob_data: Condition{Inverse:1b}

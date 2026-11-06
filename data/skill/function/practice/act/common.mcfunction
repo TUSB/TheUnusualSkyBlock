@@ -59,7 +59,6 @@ execute if data storage skill: Skill{Name:"万能薬"} run function skill:act/co
 execute if data storage skill: Skill{Name:"神酒"} run function skill:act/common/sacred_wine_or_sake/act0
 execute if data storage skill: Skill{Name:"ホームラン"} run function skill:act/common/home_run/act0
 execute if data storage skill: Skill{Name:"ライフスカウター"} run function skill:act/common/life_scouter/act0
-execute if data storage skill: Skill{Name:"スカイウォーク"} run function skill:act/common/sky_walk/act0
 execute if data storage skill: Skill{Name:"ライブラ"} run function skill:act/common/libra/act0
 execute if data storage skill: Skill{Name:"ウィークペイント"} run function skill:act/common/weakness_paint/act0
 execute if data storage skill: Skill{Name:"アナライズ"} run function skill:act/common/analyse/act0

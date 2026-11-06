@@ -1,10 +1,11 @@
 #> skill:act/knight/aerial_slash/hit
-### 真空斬りHit処理
+#
+# 真空斬りHit処理
 
-#ダメージをロード
+# ダメージをロード
 function skill:damage/load
 
-#ダメージ付与
+# ダメージ付与
 execute as @e[tag=Enemy,distance=..1] run function skill:damage/apply/
 
 kill @s

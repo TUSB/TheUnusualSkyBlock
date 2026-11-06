@@ -1,7 +1,6 @@
 #> skill:act/ninja/kaishaku/explode
 #
 # 介錯サヨナラ処理１
-
 tellraw @a[distance=..16] [{"translate":"[%1$s] サヨナラッ！","bold":true,"with":[{"selector":"@s"}]}]
 
 data modify storage tusb_mob: Tags set value [KaishakuExplosion,CooldownRequired,Initialized,Skill]

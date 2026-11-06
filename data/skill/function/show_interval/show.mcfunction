@@ -1,11 +1,12 @@
 #> skill:show_interval/show
+#
 #インターバル表示
 
-#スキル取得
+# スキル取得
 data modify storage skill: Skill set from storage item: Item.components."minecraft:custom_data".Skill
 
-#インターバル表示
-#(GameTime-LastUsed)*20/Interval
+# インターバル表示
+# (GameTime-LastUsed)*20/Interval
 execute store result score _ Calc run time query gametime
 execute store result score _ _ run data get storage skill: Skill.LastUsed
 execute store result score _ Interval run data get storage skill: Skill.Interval
@@ -40,7 +41,7 @@ execute if score _ Calc matches 0..19 run data modify storage calc: TextLength s
 execute if score _ Calc matches 0..19 run function calc:show_text/actionbar
 execute if score _ Calc matches 20 run title @s actionbar [""]
 
-#インターバルが終了していればNBT削除
+# インターバルが終了していればNBT削除
 execute if score _ Calc matches 20.. run data modify storage item: Item.components."minecraft:custom_data".Skill.ShowInterval set value 0b
 execute in area:control_area run data modify block 2 2 2 Items set value []
 execute in area:control_area run data modify block 2 2 2 Items append from storage item: Item

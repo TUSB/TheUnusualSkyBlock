@@ -8,7 +8,7 @@ execute if data storage skill: Skill{Name:"マナリフレッシュ"} run functi
 execute if data storage skill: Skill{Name:"グロウ"} run function skill:act/black_mage/grow/act0
 execute if data storage skill: Skill{Name:"ジン・スピリット"} run function skill:act/black_mage/gin_spirit/act0
 execute if data storage skill: Skill{Name:"ロックンロール"} run function skill:act/black_mage/rock_n_roll/act0
-execute if data storage skill: Skill{Name:"ブリッツマニューバ"} run function skill:act/black_mage/blitz_manover/act0
+execute if data storage skill: Skill{Name:"ブリッツマニューバ"} run function skill:act/black_mage/blitz_maneuver/act0
 execute if data storage skill: Skill{Name:"ライトニングブロー"} run function skill:act/black_mage/lightning_blow/act0
 execute if data storage skill: Skill{Name:"キャンドル"} run function skill:act/black_mage/candle/act0
 execute if data storage skill: Skill{Name:"エクリプスフレイム"} run function skill:act/black_mage/eclipse_flame/act0

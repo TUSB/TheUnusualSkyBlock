@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "dimension": "area:skylands"
+      }
+    },
+    {
+      "condition": "minecraft:location_check",
+      "predicate": {
+        "dimension": "area:nether"
+      }
+    }
+  ]
+}

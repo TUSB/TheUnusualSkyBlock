@@ -3,6 +3,8 @@
 tag @s[tag=!Cargo] add TickingRequired
 tag @s add FlyingRequired
 data modify entity @s[nbt={PortalCooldown:0}] PortalCooldown set value 200
+execute if entity @s[type=#entity:has_in_ground] store result entity @s life short 1 run function entity:has_in_ground/get/cooldown_to_life
+execute if predicate entity:has_in_ground/flying run tag @s add Flying
 
 ### 矢のダメージ設定
 execute if entity @s[type=#minecraft:arrows,nbt={pickup:0b}] unless score @s Attack matches 1.. store result entity @s damage double 1 run scoreboard players get @e[tag=Mob,limit=1,sort=nearest,distance=..3] Attack

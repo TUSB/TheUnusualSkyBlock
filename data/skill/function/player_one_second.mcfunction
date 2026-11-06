@@ -6,3 +6,6 @@
 ## 忍者
 # 風切
 execute if entity @s[scores={Kazakiri=0..}] run function skill:act/ninja/kazakiri/second
+
+# 黙想
+execute if entity @s[scores={Mokuso=0..}] run function skill:act/ninja/mokuso/tick

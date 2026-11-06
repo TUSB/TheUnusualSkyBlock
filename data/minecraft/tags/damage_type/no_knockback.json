@@ -1,7 +1,7 @@
 {
   "values": [
-    "entity:physical",
-    "entity:magic",
-    "entity:unreasonable"
+    "#entity:physical",
+    "#entity:magic",
+    "#entity:unreasonable"
   ]
 }

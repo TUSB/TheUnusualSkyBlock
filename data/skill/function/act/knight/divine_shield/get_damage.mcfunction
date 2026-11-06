@@ -1,5 +1,6 @@
 #> skill:act/knight/divine_shield/get_damage
-### ディバインシールドダメージ取得
+#
+# ディバインシールドダメージ取得
 scoreboard players set _ Calc 100
 execute if entity @s[advancements={player:trigger/use/shield={4_damage_taken=true}}] run scoreboard players set _ Calc 120
 execute if entity @s[advancements={player:trigger/use/shield={8_damage_taken=true}}] run scoreboard players set _ Calc 140

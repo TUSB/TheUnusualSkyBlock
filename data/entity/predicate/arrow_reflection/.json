@@ -1,0 +1,139 @@
+{
+  "condition": "minecraft:all_of",
+  "terms": [
+    {
+      "condition": "minecraft:inverted",
+      "term": {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "movement": {
+            "speed": 0
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "fixed",
+                  "name": "_"
+                },
+                "score": "ArrowMotionX"
+              },
+              "range": 1
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "movement": {
+                  "x": {
+                    "max": 0
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "fixed",
+                  "name": "_"
+                },
+                "score": "ArrowMotionX"
+              },
+              "range": 0
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "movement": {
+                  "x": {
+                    "min": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "condition": "minecraft:any_of",
+      "terms": [
+        {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "fixed",
+                  "name": "_"
+                },
+                "score": "ArrowMotionZ"
+              },
+              "range": 1
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "movement": {
+                  "z": {
+                    "max": 0
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:value_check",
+              "value": {
+                "type": "minecraft:score",
+                "target": {
+                  "type": "fixed",
+                  "name": "_"
+                },
+                "score": "ArrowMotionZ"
+              },
+              "range": 0
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "movement": {
+                  "z": {
+                    "min": 0
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

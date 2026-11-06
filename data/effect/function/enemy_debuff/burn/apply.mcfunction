@@ -10,6 +10,6 @@ tag @s add EnemyBurn
 scoreboard players set @s BurnTimer 30
 
 # 凍結していたら解除する
-# execute if entity @s[tag=EnemyFreeze] run function effect:enemy_debuff/freeze/cure
+execute if entity @s[tag=EnemyFreeze] run function effect:enemy_debuff/freeze/cure
 
 function makeup:effect/enemy_debuff/burn/apply

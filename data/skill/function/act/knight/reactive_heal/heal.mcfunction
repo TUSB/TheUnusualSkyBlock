@@ -1,7 +1,6 @@
 #> skill:act/knight/reactive_heal/heal
 #
 # リアクティブヒール 発動
-
 execute if score _ Level matches 1 run scoreboard players set @s HealthHealing 4
 execute if score _ Level matches 2 run scoreboard players set @s HealthHealing 8
 execute if score _ Level matches 3 run scoreboard players set @s HealthHealing 14

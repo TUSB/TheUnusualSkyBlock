@@ -1,67 +1,45 @@
 #> effect:bad_effects
-###免疫発動(するかも)
+###免疫発動
 
-scoreboard players set _ ResistLock 0
+execute if predicate effect:resist run function makeup:effect/bad_effects
+scoreboard players set @s ResistLock 0
 
 #吐き気
-execute store result score _ ResistEffects run function calc:random
-scoreboard players set _ _ 100
-scoreboard players operation _ ResistEffects %= _ _
-execute if entity @s[advancements={effect:bad_effects={nausea=true}}] if score _ ResistEffects < @s ResistEffects store success score _ ResistLock run effect clear @s nausea
+execute if entity @s[advancements={effect:bad_effects={nausea=true}},predicate=effect:resist] store success score @s ResistLock run function effect:resist with storage effect: resist.bad_effect.nausea
+effect clear @s[scores={ResistLock=1}] nausea
 
 #毒
-execute store result score _ ResistEffects run function calc:random
-scoreboard players set _ _ 100
-scoreboard players operation _ ResistEffects %= _ _
-execute if entity @s[advancements={effect:bad_effects={poison=true}}] if score _ ResistEffects < @s ResistEffects store success score _ ResistLock run effect clear @s poison
+execute if entity @s[advancements={effect:bad_effects={poison=true}},predicate=effect:resist] store success score @s ResistLock run function effect:resist with storage effect: resist.bad_effect.poison
+effect clear @s[scores={ResistLock=1}] poison
 
 #弱体化
-execute store result score _ ResistEffects run function calc:random
-scoreboard players set _ _ 100
-scoreboard players operation _ ResistEffects %= _ _
-execute if entity @s[advancements={effect:bad_effects={weakness=true}}] if score _ ResistEffects < @s ResistEffects store success score _ ResistLock run effect clear @s weakness
+execute if entity @s[advancements={effect:bad_effects={weakness=true}},predicate=effect:resist] store success score @s ResistLock run function effect:resist with storage effect: resist.bad_effect.weakness
+effect clear @s[scores={ResistLock=1}] weakness
 
 #ウィザー
-execute store result score _ ResistEffects run function calc:random
-scoreboard players set _ _ 100
-scoreboard players operation _ ResistEffects %= _ _
-execute if entity @s[advancements={effect:bad_effects={wither=true}}] if score _ ResistEffects < @s ResistEffects store success score _ ResistLock run effect clear @s wither
+execute if entity @s[advancements={effect:bad_effects={wither=true}},predicate=effect:resist] store success score @s ResistLock run function effect:resist with storage effect: resist.bad_effect.wither
+effect clear @s[scores={ResistLock=1}] wither
 
 #盲目
-execute store result score _ ResistEffects run function calc:random
-scoreboard players set _ _ 100
-scoreboard players operation _ ResistEffects %= _ _
-execute if entity @s[advancements={effect:bad_effects={blindness=true}}] if score _ ResistEffects < @s ResistEffects store success score _ ResistLock run effect clear @s blindness
+execute if entity @s[advancements={effect:bad_effects={blindness=true}},predicate=effect:resist] store success score @s ResistLock run function effect:resist with storage effect: resist.bad_effect.blindness
+effect clear @s[scores={ResistLock=1}] blindness
 
 #空腹
-execute store result score _ ResistEffects run function calc:random
-scoreboard players set _ _ 100
-scoreboard players operation _ ResistEffects %= _ _
-execute if entity @s[advancements={effect:bad_effects={hunger=true}}] if score _ ResistEffects < @s ResistEffects store success score _ ResistLock run effect clear @s hunger
+execute if entity @s[advancements={effect:bad_effects={hunger=true}},predicate=effect:resist] store success score @s ResistLock run function effect:resist with storage effect: resist.bad_effect.hunger
+effect clear @s[scores={ResistLock=1}] hunger
 
 #採掘速度低下
-execute store result score _ ResistEffects run function calc:random
-scoreboard players set _ _ 100
-scoreboard players operation _ ResistEffects %= _ _
-execute if entity @s[advancements={effect:bad_effects={mining_fatigue=true}}] if score _ ResistEffects < @s ResistEffects store success score _ ResistLock run effect clear @s mining_fatigue
+execute if entity @s[advancements={effect:bad_effects={mining_fatigue=true}},predicate=effect:resist] store success score @s ResistLock run function effect:resist with storage effect: resist.bad_effect.mining_fatigue
+effect clear @s[scores={ResistLock=1}] mining_fatigue
 
 #移動速度低下
-execute store result score _ ResistEffects run function calc:random
-scoreboard players set _ _ 100
-scoreboard players operation _ ResistEffects %= _ _
-execute if entity @s[advancements={effect:bad_effects={slowness=true}}] if score _ ResistEffects < @s ResistEffects store success score _ ResistLock run effect clear @s slowness
+execute if entity @s[advancements={effect:bad_effects={slowness=true}},predicate=effect:resist] store success score @s ResistLock run function effect:resist with storage effect: resist.bad_effect.slowness
+effect clear @s[scores={ResistLock=1}] slowness
 
 #暗闇
-execute store result score _ ResistEffects run function calc:random
-scoreboard players set _ _ 100
-scoreboard players operation _ ResistEffects %= _ _
-execute if entity @s[advancements={effect:bad_effects={darkness=true}}] if score _ ResistEffects < @s ResistEffects store success score _ ResistLock run effect clear @s darkness
+execute if entity @s[advancements={effect:bad_effects={darkness=true}},predicate=effect:resist] store success score @s ResistLock run function effect:resist with storage effect: resist.bad_effect.darkness
+effect clear @s[scores={ResistLock=1}] darkness
 
 execute if entity @a[distance=..32,scores={Burst=0..,Job=4}] run function skill:act/white_mage/clear/cure/level2
-execute if entity @a[distance=..32,scores={Burst=0..,Job=4}] run scoreboard players set @s ResistLock 1
-
-execute unless score @s ResistLock matches 1 if score _ ResistLock matches 1.. run function makeup:effect/bad_effects
-execute unless score @s ResistLock matches 1 if score _ ResistLock matches ..0 run scoreboard players add @s ResistEffects 3
-scoreboard players set @s ResistLock 1
 
 advancement revoke @s only effect:bad_effects

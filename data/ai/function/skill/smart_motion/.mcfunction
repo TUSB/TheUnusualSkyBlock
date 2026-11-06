@@ -1,6 +1,9 @@
 #> ai:skill/smart_motion/
 #SmartMotion
 
+# 処理除外
+execute if entity @s[tag=TargetChanged,tag=Unmoved] run return fail
+
 #TP
 execute if data storage mob_data: Call{TP:1b} unless data storage mob_data: Call{KeepRotation:1b} run function smart_motion:core/tp
 execute if data storage mob_data: Call{TP:1b,KeepRotation:1b} run function smart_motion:core/tp_keep_rotation

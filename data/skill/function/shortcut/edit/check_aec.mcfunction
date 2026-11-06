@@ -1,6 +1,6 @@
 #> skill:shortcut/edit/check_aec
-### 中心のAEC以外かどうか確認
-
+#
+# 中心のAEC以外かどうか確認
 scoreboard players operation * ParentID -= @s OhMyDatID
 
 scoreboard players operation _ SkillShortcut = @e[tag=SkillShortcut,scores={ParentID=0},distance=..10,limit=1,sort=nearest] SkillShortcut

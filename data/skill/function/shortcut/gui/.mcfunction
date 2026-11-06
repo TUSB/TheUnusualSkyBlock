@@ -1,10 +1,10 @@
 #> skill:shortcut/gui/
-### GUI生成
-
+#
+# GUI生成
 function skill:shortcut/reset
 summon area_effect_cloud ^ ^ ^ {Tags:[SkillShortcut,Center],Duration:50,CustomNameVisible:1b}
 
-#時計回り　10～15のID付与
+# 時計回り　10～15のID付与
 data modify storage skill: SkillShortcut set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].SkillShortcut
 scoreboard players set _ SkillShortcut 10
 

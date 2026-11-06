@@ -1,5 +1,6 @@
-#>skill:act/knight/raging_slash/act1
-## 猛火斬発動
+#> skill:act/knight/raging_slash/act1
+#
+# 猛火斬発動
 
 # 回数設定
 scoreboard players operation _ RagingCount = @s RagingCount

@@ -1,1 +1,0 @@
-playsound minecraft:entity.cat.ambient voice @s ~ ~ ~ 1 1

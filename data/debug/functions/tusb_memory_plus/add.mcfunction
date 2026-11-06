@@ -1,6 +1,6 @@
 #> debug:tusb_memory_plus/add
 #
-# as item[limit=1] at @s run this_funciton
+# as item[limit=1] at @s run this_function
 #
 
 tag @s add TUSBMemory_Adding

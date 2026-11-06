@@ -16,9 +16,6 @@ tag @s[tag=Reraise] add Raise
 tag @s[tag=Reraise] remove Reraise
 execute if entity @s[tag=Raise] run function skill:act/white_mage/araise/raise
 
-# サヨナラ処理
-execute if score @s SayonaraLevel matches 1.. run function skill:act/ninja/sayonara/trigger/death
-
 #トグルスキル解除
 execute if entity @s[tag=!Raise] run function skill:toggle_reset
 
@@ -31,6 +28,10 @@ execute if block ~ ~-2 ~ minecraft:nether_wart_block if entity @s[nbt={OnGround:
 #各種デバフ解除
 execute if score @s FreezeTimer matches 0.. run function effect:freeze/cure
 function skill:act/white_mage/clear/cure/level4
+
+# バーストリセット
+scoreboard players set @s Burst 0
+function player:burst/bar/set
 
 ## 死亡トリガーリセット
 execute store result score @s Hunger run data get entity @s foodLevel

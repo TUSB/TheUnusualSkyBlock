@@ -1,5 +1,6 @@
 #> skill:shortcut/reset
-### リセット
+#
+# リセット
 scoreboard players operation * ParentID -= @s OhMyDatID
 kill @e[tag=SkillShortcut,scores={ParentID=0}]
 scoreboard players operation * ParentID += @s OhMyDatID

@@ -13,7 +13,7 @@ execute store result entity @e[tag=!Initialized,distance=0,limit=1] CollarColor 
 #演出
 function makeup:skill/act/summoner/summon_wolf/act1
 #AI付与
-function settings:enemy/global/friendly/blow/friend_wolf/main
+function settings:entity/global/friendly/blow/friend_wolf/main
 scoreboard players set @e[tag=!Initialized,distance=0,limit=1] Level 15
 data modify entity @e[tag=!Initialized,distance=0,limit=1] Tags set from storage tusb_mob: "即時ステータス"."ベース".Tags
 tag @e[tag=!Initialized,distance=0,limit=1] remove DelayedData
